@@ -36,32 +36,11 @@
                     {
                         extensions	: [ 'theme-white'],
                         setSelected	: true,
-                        counters	: true,
-                        iconbar		: {
-                            use 		: '(min-width: 450px)',
-                            top 		: [
-                                '<a href="#/"><span id ="menu-icon" class="fa fa-bars fa-2x"></span></a>',
-                                '<a href="#/"><span class="fa fa-search"></span></a>',
-                                '<a href="#/"><span class="fa fa-plug"></span></a>',
-                                '<a href="#/"><span class="fa fa-question-circle-o"></span></a>',
-                                '<a href="#/"><span class="fa fa-credit-card"></span></a>',
-                                '<a href="#/"><span class="fa fa-wrench"></span></a>',
-                                '<a href="#/"><span class="fa fa-star-o"></span></a>'
-
-                            ],
-                            bottom 		: [
-                            ],
-                            type: "tabs",
-                        },
-                        sidebar		: {
-                            collapsed		: {
-                                use 			: '(min-width: 450px)',
-                                hideNavbar		: true
-                            },
-                            expanded		: {
-                                use 			: '(min-width: 992px)'
-                            }
-                        },
+                        counters	: false,
+                        sidebar: {
+						collapsed: 550,
+						expanded: 700
+					},
                         navbars		: [
                             
                         {
@@ -79,8 +58,8 @@
                             },
                             {
                                 position	: 'bottom',
-                                content		: [ '<button type="button">Contact</button>',
-                            '<button type="button">Sign up</button>' ]
+                                content		: [ '<button class="button outline" type="button">Contact</button>',
+                            '<button class="button primary" type="button">Sign up</button>' ]
                             },
                             
                         ]

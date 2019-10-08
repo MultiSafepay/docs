@@ -44,13 +44,38 @@
 }
 .fa {
   color: #3FA9F5;
-}
-
-.fa-lg {
-  padding-right: 10px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  width: 15px;
+  margin-right: 15px;
+  float: left;
+  transition: color 1s ease;
 }
 
 #menu-icon {
 color: black;
 -webkit-text-stroke: 2px white;
+}
+
+.mm-listitem:after {
+  left: 60px;
+}
+
+.button.primary {
+  background: #f94f77!important;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 1px #666666;
+  -moz-box-shadow: 0px 1px 1px #666666;
+  box-shadow: 0px 1px 1px #666666;
+  color: #ffffff;
+  border: 0px;
+  text-decoration: none;
+}
+
+.button.outline {
+  border-color: #353535;
+  color: #353535;
 }
