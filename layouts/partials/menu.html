@@ -2,8 +2,9 @@
                 <nav id="menu">
                         <div id="panel-menu">
                             <ul>
-                                <li><a href="#/">Home</a></li>
-                                <li><span>About us</span>
+                                <li><a href="#/"><i class="fa fa-plug fa-lg" aria-hidden="true"></i> Integrations</a></li>
+                                <li><span><i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                     API</span>
                                     <ul>
                                         <li><a href="#/">History</a></li>
                                         <li><span>The team</span>
@@ -16,26 +17,14 @@
                                         <li><a href="#/">Our address</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#/">Contact</a></li>
-        
-                                <li class="Divider">Other demos</li>
-                                <li><a href="default.html">Default demo</a></li>
-                                <li><a href="onepage.html">One page demo</a></li>
+                                <li><a href="#/"><i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i> FAQ</a></li>
+                                <li><a href="default.html"><i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                                     Payment Methods</a></li>
+                                <li><a href="onepage.html"><i class="fa fa-wrench fa-lg" aria-hidden="true"></i>
+                                     Tools</a></li>
+                                <li><a href="onepage.html"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i>
+                                     Popular</a></li>
                             </ul>
-                        </div>
-        
-                        <div id="panel-account">
-                            <ul>
-                                <li><a href="#/">My profile</a></li>
-                                <li><a href="#/">Privacy settings</a></li>
-                                <li><a href="#/">Activity</a></li>
-                                <li><a href="#/">Sign out</a></li>
-                            </ul>
-                        </div>
-        
-                        <div id="panel-cart">
-                            <p style="text-align: center; padding-top: 30px;">Your shoppingcart is empty.<br />
-                                <a href="#/">Continue shopping.</a></p>
                         </div>
                     </nav>
                 </div>
@@ -45,59 +34,64 @@
                 new Mmenu(
                     document.querySelector('#menu'),
                     {
-                        extensions	: [ 'theme-dark', 'shadow-page' ],
+                        extensions	: [ 'theme-white'],
                         setSelected	: true,
                         counters	: true,
-                        searchfield : {
-                            placeholder		: 'Search menu items'
-                        },
                         iconbar		: {
                             use 		: '(min-width: 450px)',
                             top 		: [
-                                '<a href="#/"><span class="fa fa-home"></span></a>'
+                                '<a href="#/"><span id ="menu-icon" class="fa fa-bars fa-2x"></span></a>',
+                                '<a href="#/"><span class="fa fa-search"></span></a>',
+                                '<a href="#/"><span class="fa fa-plug"></span></a>',
+                                '<a href="#/"><span class="fa fa-question-circle-o"></span></a>',
+                                '<a href="#/"><span class="fa fa-credit-card"></span></a>',
+                                '<a href="#/"><span class="fa fa-wrench"></span></a>',
+                                '<a href="#/"><span class="fa fa-star-o"></span></a>'
+
                             ],
                             bottom 		: [
-                                '<a href="#/"><span class="fa fa-twitter"></span></a>',
-                                '<a href="#/"><span class="fa fa-facebook"></span></a>',
-                                '<a href="#/"><span class="fa fa-youtube"></span></a>'
-                            ]
+                            ],
+                            type: "tabs",
                         },
                         sidebar		: {
                             collapsed		: {
                                 use 			: '(min-width: 450px)',
-                                hideNavbar		: false
+                                hideNavbar		: true
                             },
                             expanded		: {
                                 use 			: '(min-width: 992px)'
                             }
                         },
                         navbars		: [
+                            
+                        {
+                     "position": "top",
+                     "content": [
+                     '<a class="navbar-brand" href="#"><img width="300" src="logo/MSP-Docs_logo.svg"></a>'
+                     ]
+                  }
+                  ,
                             {
-                                content		: [ 'searchfield' ]
-                            }, {
-                                type		: 'tabs',
-                                content		: [
-                                    '<a href="#panel-menu"><i class="fa fa-bars"></i> <span>Menu</span></a>',
-                                    '<a href="#panel-account"><i class="fa fa-user"></i> <span>Account</span></a>',
-                                    '<a href="#panel-cart"><i class="fa fa-shopping-cart"></i> <span>Cart</span></a>'
-                                ]
-                            }, {
-                                content		: [ 'prev', 'breadcrumbs', 'close' ]
-                            }, {
+                                "content"		:   {{ partial "search_form" . }}
+                            },
+                            {
+                                content		: [ 'prev', 'breadcrumbs' ]
+                            },
+                            {
                                 position	: 'bottom',
-                                content		: [ '<a href="http://mmenu.frebsite.nl/wordpress-plugin" target="_blank">WordPress plugin</a>' ]
-                            }
+                                content		: [ '<button type="button">Contact</button>',
+                            '<button type="button">Sign up</button>' ]
+                            },
+                            
                         ]
-                    }, {
-                        searchfield : {
-                            clear 		: true
-                        },
-                        navbars		: {
-                            breadcrumbs	: {
-                                removeFirst	: true
-                            }
-                        }
-                    }
+                    },
+                    {
+            navbars		: {
+                breadcrumbs	: {
+                    removeFirst	: true
+                }
+            }
+        }
                 );
                 document.addEventListener( 'click', function( evnt ) {
                     var anchor = evnt.target.closest( 'a[href^="#/"]' );

@@ -29,3 +29,28 @@
   width: 250px;
   height: 150px;
 }
+
+.search {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: -10px;
+}
+
+.search-form-input { 
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+.fa {
+  color: #3FA9F5;
+}
+
+.fa-lg {
+  padding-right: 10px;
+}
+
+#menu-icon {
+color: black;
+-webkit-text-stroke: 2px white;
+}
