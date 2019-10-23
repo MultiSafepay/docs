@@ -1,0 +1,71 @@
+<div class="pb-4">
+  <nav class="tabs">
+    <button class="button outline active" onclick="openTab(event, 'Support')">
+      <img class="mr-2" src="/icons/globe.svg" width="15" />Other languages
+    </button>
+    <button class="button outline" onclick="openTab(event, 'Feedback')">
+      <img class="mr-2" src="/icons/edit.svg" width="15" /> Feedback
+    </button>
+  </nav>
+
+  <section id="Support" class="tabcontent other-lang">
+    <div class="row content  pt-2">
+      <div class="col-12 text-nor">
+        <p>
+          <img class="mr-1" src="/flags/nl.svg" width="20" /> Liever uitleg in
+          het Nederlands? Neem contact op met uw accountmanager.
+        </p>
+      </div>
+      <div class="col-12 text-nor">
+        <p>
+          <img class="mr-1" src="/flags/it.svg" width="20" /> Vuoi ricevere
+          informazioni in italiano? Contatta il tuo account manager.
+        </p>
+      </div>
+      <div class="col-12 text-nor">
+        <p>
+          <img class="mr-1" src="/flags/es.svg" width="20" /> Prefieres tener la
+          explicación en Español? Contacta con tu gerente de cuentas.
+        </p>
+      </div>
+      <div class="col-12 text-fr">
+        <p>
+          <img class="mr-1" src="/flags/fr.svg" width="20" /> Vous préférez une
+          explication en français? Contactez votre gestionnaire de compte.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="Feedback" class="tabcontent">
+    <div class="row content pt-4">
+      <div class="col-8">
+        You're missing something out and would like us to fix it? Suggest an
+        improvement to this page!
+      </div>
+      <div class="col-4">
+        <a
+          target="_self"
+          class="button outline edit-page"
+          href="https://github.com/MultiSafepay/docs/blob/master/content/{{ .File.Path }}"
+          >Edit Page</a
+        >
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+  function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName('tabcontent');
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = 'none';
+    }
+    tablinks = document.getElementsByClassName('button outline');
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(' active', '');
+    }
+    document.getElementById(tabName).style.display = 'block';
+    evt.currentTarget.className += ' active';
+  }
+</script>

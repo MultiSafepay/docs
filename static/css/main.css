@@ -457,3 +457,44 @@ img.magento-certimage {
   padding: 2px;
   margin-left: 22px;
 }
+
+/********* BOTTOM BLOCK LANG  *************/
+
+.tabs {
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+
+.tabs button.outline {
+  border-color: #ffffff;
+}
+
+/* Create an active/current tablink class */
+button.outline.active {
+  border-bottom: 2px solid #ff3366;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding-left: 20px;
+  display: none;
+}
+
+.other-lang {
+  display: block;
+}
+.other-lang p {
+  margin: 10px 0;
+  display: block;
+}
+
+.edit-page:hover {
+  text-decoration: none;
+  color: #1c86f2;
+}
+.edit-page {
+  border: 2px solid #a9a9a9;
+  padding: 10px 21px;
+  border-radius: 5px;
+  color: #353535;
+}

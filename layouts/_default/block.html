@@ -9,5 +9,8 @@
   </div>
     {{ $tiles := .Params.data }}
     {{ partial "blocklist" . }}
+    {{ if eq .Section "faq" }}
+      {{ partial "bottom-block" . }}
+    {{ end }}
   </div>
 {{end}}
