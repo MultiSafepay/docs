@@ -2,17 +2,15 @@
 weight: 1330
 ---
 ## Flexible 3D 
-### COMING SOON Flexible 3D for Server to Server 
+> COMING SOON: Flexible 3D for Server to Server 
 
-Direct, Flexible 3D set on False 
+### Direct, Flexible 3D set on _false_
 
-Flexible 3D is a feature that allows you to enable/disable 3D secure at an API level. The Flexible 3D forces whether or not to complete a transaction with the 3D secure verification.
+Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
 
-Credit card transactions which are processed with the 3D Secure protocol required a form of authentication of the customer during a payment process. When the 3D secure is required upon releasing a payment, setting the Flexible 3D to false, will disable the 3D secure verification process.
+Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. Setting Flexible 3D to _false_ will disable the verfication process. 
 
-Activating Flexible 3D secure will override the rules of the Dynamic 3D settings.
-
-Meaning: payment is not enrolled with an 3D secure authentication.
+**Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
 
 > POST - /orders 
 

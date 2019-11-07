@@ -43,9 +43,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
-Split payment tool is allowing you to split the amount of a transaction over several MultiSafepay Control accounts. Merchants can choose to split payments based on percentage, a fixed amount or a combination of the two.
+The split payment tool allows you to split the amount of a transaction over several MultiSafepay Control accounts. Merchants can choose to split payments based on percentage, a fixed amount or a combination of the two.
 
-[Split payment explained](/tools/split-payments/)
+For more information about split payments, please refer to our [dedicated page](/tools/split-payments/).
 
 | Parameter                             | Type      | Description                                                                      |
 |---------------------------------------|-----------|----------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Split payment tool is allowing you to split the amount of a transaction over sev
 | description                           | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.        |
 | payment_options                       | object    |                                                                                  |
 | notification_url                      | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                 |
-| redirect_url                          | string    | Customer will be redirected to this page after a successful payment.              |
+| redirect_url                          | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              |
 | cancel_url                            | string    | Customer will be redirected to this page after a failed payment.                  | 
 | split_payments                        | object    |                                                                                  |
 | split_payments.merchant               | integer   | Affiliate AccountID of a MultiSafepay Control.                                                          |

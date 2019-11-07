@@ -53,4 +53,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                        | object | Contains personal information about the customer.                                          |
 
 
-[Full explanation of the payment method SOFORT Banking](/payment-methods/sofort-banking/)
+Please make sure you check out our dedicated documentation for [SOFORT Banking](/payment-methods/sofort-banking/).

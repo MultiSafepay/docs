@@ -24,7 +24,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| redirect_url                       | string   |  Customer will be redirected to this page after a successful payment.                 |
+| redirect_url                       | string   |  Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              |
 
 
 ```shell

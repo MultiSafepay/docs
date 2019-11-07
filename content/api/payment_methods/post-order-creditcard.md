@@ -260,4 +260,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
 
-[Full explanation of the payment method Credit card](/payment-methods/creditcards/)
+Please make sure you check out our dedicated documentation for [credit cards](/payment-methods/creditcards/)

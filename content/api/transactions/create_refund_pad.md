@@ -71,11 +71,11 @@ This request is used for creating a refund in orders with shopping cart like Pay
 
 To proceed with a refund:
 
-1. A request should be done to GET - /orders/{id} to obtain the cart items of the order and possible refunded items.
+1. A request should be done to GET - /orders/{id} to obtain the cart items of the order and possible refunded items
 2. Add/remove items in the refund. In Klarna, refunds are done adding a "copy" of the item to refund, with negative "unit_price", all others should set negative "quantity".
 3. Please make sure that all data in the items match with the original transaction (except for the quantity/unit_price): In the example, two out of three 'Geometric Candle Holders' were refunded. Please note that the exact same 'merchant_item_id', 'tax_table_selector' and 'unit_price' were provided.
 
-<aside class="warning">Klarna needs negative unit prices, other PAD orders, negative quantities</aside>
+<aside class="warning">Klarna needs negative unit prices, whereas Pay After Delivery orders need negative quantities!!</aside>
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|

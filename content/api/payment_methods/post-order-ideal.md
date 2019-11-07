@@ -105,4 +105,4 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 | issuer_id                      | integer   | The unique identifier of the [issuer](#ideal-issuers)                                   |
 
 
-[Full explanation of the payment method iDEAL](/payment-methods/ideal/)
+Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/).

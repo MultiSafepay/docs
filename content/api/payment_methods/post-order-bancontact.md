@@ -54,4 +54,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | payment_options              | object |                            |
 | customer                     | object |  |
 
-[Full explanation of the payment method Bancontact](/payment-methods/bancontact/)
+Please make sure you check out our dedicated documentation for [Bancontact](/payment-methods/bancontact/).

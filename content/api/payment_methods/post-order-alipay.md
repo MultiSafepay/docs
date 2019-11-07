@@ -55,4 +55,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                       | object |                                       |
 
 
-[Full explanation of the payment method Alipay](/payment-methods/alipay/)
+Please make sure you check out our dedicated documentation for [Alipay](/payment-methods/alipay/).

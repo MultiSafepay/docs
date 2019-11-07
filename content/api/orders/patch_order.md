@@ -30,12 +30,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 
-Update order details
+Update the order details.
 
 | Parameter                   | Type      | Description                                                                                |
 |-----------------------------|-----------|--------------------------------------------------------------------------------------------|
 | id                          | string  | The unique identifier of the order which should be updated.                                |
-| status                      | string  | The new order status. Options: void, completed, shipped.                                   |
+| status                      | string  | The new order status. Options: cancelled, completed, shipped.                                   |
 | tracktrace_code             | string  | The track and trace code provided by the shipping company.                                 |
 | tracktrace_url              | string  | The track and trace URL provided by the shipping company.                                  |
 | carrier                     | string  | The name of the shipping company delivering the customer's order.                          |

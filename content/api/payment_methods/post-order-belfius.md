@@ -55,4 +55,4 @@ payment_options                | object |                                |
 customer                       | object |                                          |
 
 
-[Full explanation of the payment method Belfius](/payment-methods/belfius/)
+Please make sure you check out our dedicated documentation for [Belfius](/payment-methods/belfius/).

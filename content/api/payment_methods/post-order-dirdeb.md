@@ -133,4 +133,4 @@ ip_address                        | string  | The IP address of the customer. "R
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
 
-[Full explanation of the payment method Direct Debit](/payment-methods/direct-debit/)
+Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/).

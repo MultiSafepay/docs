@@ -11,7 +11,7 @@ Welcome to the MultiSafepay API documentation (``JSON`` gateway).
 ### How to navigate the API documentation
 
 The **left column** contains an overview of our ``JSON`` API.
-By clicking on a topic you can find specific information about the specific API request.
+By clicking on a topic, you can find specific information about the specific API request.
 
 The **middle column** provides the detailed information you are looking for.
 This contains a description of how to use the API request and a reference for the parameters and types involved.
@@ -26,8 +26,8 @@ The API also offers advanced operations to enable you to use [split payments](#s
 
 We encourage you to study this API and start implementing your custom integration against our [``TEST`` environment](#environments).
 
-If there are any questions, do not hesitate to contact us at <integration@multisafepay.com>
+For any questions, do not hesitate to contact us at <integration@multisafepay.com>
 
 ### Postman
 
-To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection). This postman collection is a group of saved request that allows you to retrieve order information, post payments in our API documentation.
+To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection). This collection is a group of saved request that allows you to retrieve order information, post payments in our API documentation.

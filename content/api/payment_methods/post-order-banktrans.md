@@ -1,10 +1,10 @@
 ---
 weight: 304
-meta_title: "API - Create Bank Transfer order - Developers MultiSafepay"
+meta_title: "API - Create Bank transfer order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-## Bank Transfer
+## Bank transfer
 
 
 > POST - /orders
@@ -129,4 +129,4 @@ In the JSON response for a direct transaction, the following is important in ord
 | account_holder_country     | string | The customer's country here if provided in transaction request.                              |
 
 
-[Full explanation of the payment method Bank transfer](/payment-methods/bank-transfer/)
+Please make sure you check out our dedicated documentation for [bank transfers](/payment-methods/bank-transfer/).

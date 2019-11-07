@@ -63,7 +63,7 @@ JSON Response
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   | 
 | country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |     
 | phone                       | string    | Customer’s provided phone number.                                                           |
-| password                    | string    | Supply a password for creating login details partner account.                               | 
+| password                    | string    | Supply a password for creating credentials for partner account.                             | 
 | address_apartment           | string    |                                                                                             | 
 | software_partner            | string    | Put on "Anders".                                                                            |  
 | partner                     | object    |                                                                                             | 

@@ -90,7 +90,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ```
 
 Creates a direct order.    
-Depending the payment method, additional information should be provided. See each payment method reference for additional information.  
+
+Depending on the payment method, additional information should be provided. See each payment method reference for additional information.  
 
 Supported payment methods are:   
 IDEAL, CREDITCARDS, PAYAFTER, EINVOICE, KLARNA, KLARNA_ACC, DIRDEB, DIRECTBANK, BANKTRANS, PAYPAL, BELFIUS, ING, KBC, ALIPAY
@@ -108,6 +109,6 @@ IDEAL, CREDITCARDS, PAYAFTER, EINVOICE, KLARNA, KLARNA_ACC, DIRDEB, DIRECTBANK, 
 | payment_options                | object    |                             |
 | notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | notification_method            | string    | Sends push notification (POST,GET) default: GET. | 
-| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. |
+| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  |                          
 
