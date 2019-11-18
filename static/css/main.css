@@ -4,6 +4,7 @@
   --mm-sidebar-collapsed-size: 60px !important;
   --mm-iconbar-size:0 !important;
   --mm-sidebar-expanded-size: 350px;
+  --navbar-height: 76px;
 }
 
 /**********************/
@@ -127,6 +128,7 @@ div.block {
 }
 
 .row .block-item {
+  max-height: 168px;
   border-radius: 7px;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
 }
@@ -322,10 +324,6 @@ ol.breadcrumb {
   list-style: none;
 }
 
-.toc-list {
-  margin: 0;
-  padding-left: 10px;
-}
 
 a.toc-link {
   color: currentColor;
@@ -373,10 +371,6 @@ a.toc-link {
 
 .is-active-link::before {
   background-color: #3fa9f5;
-}
-
-.sticky-top {
-  height: 20px;
 }
 
 /**********************/
@@ -646,4 +640,37 @@ ul.navbar-nav.ml-auto {
 body, html {
   margin: 0;
   padding: 0;
+}
+
+nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: var(--navbar-height);
+}
+
+div.sticky-with-menu {
+  top: calc(var(--navbar-height) + 15px);
+  z-index: 0;
+  height: 25px;
+  position: sticky;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  div.sticky-with-menu {
+    display: block;
+  }
+}
+
+.js-toc-content h1::before, .js-toc-content h2::before, .js-toc-content h3::before, .js-toc-content h4::before, .js-toc-content h5::before, .js-toc-content h6::before {
+  display: block;
+  content: " ";
+  height: var(--navbar-height);
+  margin-top: calc(var(--navbar-height) * -1);
+  visibility: hidden;
+}
+
+.js-toc-content {
+  margin-top: -1.5rem;
 }
