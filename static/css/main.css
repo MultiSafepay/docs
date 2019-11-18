@@ -217,6 +217,24 @@ ol.breadcrumb {
 
 /**********************/
 
+.mm-searchfield__input {
+  margin: 0 10px;
+}
+
+.mm-searchfield input {
+  background: url(/icons/Search.svg) no-repeat scroll 16px 5px;
+  padding-left: 50px;
+  height: 50px;
+  background-size: 20px 35px;
+  background-color: #ffffff;
+  border: 1px solid red;
+}
+
+.mm-navbars_top * {
+  background-color: #f9f9f9;
+  padding: 5px 0;
+}
+
 .search-form-input {
   width: 50%;
   height: 50px;
