@@ -5,6 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 
 # API
+<hr class="separator">
 
 Welcome to the MultiSafepay API documentation (``JSON`` gateway).
 
