@@ -617,21 +617,6 @@ ul.navbar-nav.ml-auto {
     display: block;
 }
 
-/*** page shadow ***/
-
-#page::before {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    content: "";
-    display: block;
-    width: 20px;
-    height: 120%;
-    position: absolute;
-    right: 100%;
-    top: -10%;
-    z-index: 100;
-    clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
-}
-
 /* intergration manual layout*/
 
 .manual .content h2, .manual .content h3, .manual .content h4 {
@@ -696,4 +681,31 @@ ul.navbar-nav.ml-auto {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 1140px;
     }
+
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+  transition: all 0.2s ease-out;
+}
+  
+/*** page shadow ***/
+#page::before {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  content: "";
+  display: block;
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  right: 100%;
+  z-index: 100;
+  clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
+
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }

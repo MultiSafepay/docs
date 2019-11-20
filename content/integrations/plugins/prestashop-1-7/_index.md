@@ -7,6 +7,9 @@ changelog_url : "."
 manual: "."
 faq: "."
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+logo: "/logo/Plugins/PrestaShop.svg"
+weight: 70
+title_short: "PrestaShop 1.7"
 ---
 
 Easily integrate MultiSafepay payment solutions into your Prestashop 1.7 webshop with the free plugin.
