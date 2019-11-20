@@ -128,7 +128,6 @@ div.block {
 }
 
 .row .block-item {
-  max-height: 168px;
   border-radius: 7px;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
 }
