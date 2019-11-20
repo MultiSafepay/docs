@@ -640,10 +640,17 @@ ul.navbar-nav.ml-auto {
   right: 100%;
   z-index: 100;
   clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
-
 }
 
 body, html {
   margin: 0;
   padding: 0;
+}
+
+.mm-menu_iconpanel .mm-panels > .mm-panel:not(.mm-panel_iconpanel-first):not(.mm-panel_iconpanel-0) {
+    left: var(--mm-sidebar-collapsed-size)
+}
+
+.mm-panel_opened-parent .mm-panel__blocker {
+    opacity: 0.0 !important;
 }
