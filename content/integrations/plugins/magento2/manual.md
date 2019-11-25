@@ -4,7 +4,7 @@ meta_title: "Magento 2 plugin manual - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-## Introduction
+### Introduction
 
 This manual helps merchants to process MultiSafepay payments as quickly as possible from a Magento 2 webshop. For some steps in this manual, assistance from your technical partner may be required.
 
@@ -19,11 +19,11 @@ We recommend that you install the plugin first on a test environment, and make s
 
 {{% contact_details %}}
 
-## 1. Requirements
+### 1. Requirements
 - Magento Open Source version 2.1.x, 2.2.x & 2.3.x
 - Tested on PHP 7.0 (Magento 2.3.x on 7.2)
 
-## 2. Installation
+### 2. Installation
 Run the following commands via the CLI:
 
 ```
@@ -41,7 +41,7 @@ Depending on your webserver/webshop configuration you also need to check:
 - Empty static files when running in production mode
 - Flush cache.
 
-## 3. Configuration
+### 3. Configuration
 1. Login on the backend of your webshop and navigate to _Stores->Configuration->MultiSafepay x.x.x->MultiSafepay Settings_.  
 This page contains all main settings and is used for all gateways and gift cards.
 {{% account_info %}}
@@ -59,5 +59,5 @@ Giftcards need to be activated, more information can be found on our [gift card 
 This page contains the Fastcheckout specific settings.  
 More information about the Fastcheckout can be found on https://www.multisafepay.com/fastcheckout-payments.
 
-## 4. Congratulations
+### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>

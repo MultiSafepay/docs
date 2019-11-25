@@ -1,0 +1,10 @@
+<section class="manual pb-3">
+    <div class="container">
+        <h2>Manual</h2>
+    </div> 
+    <div class="content">
+        {{ with .GetPage "manual.md" }}
+            {{ .Content }}
+        {{ end }}
+    </div>
+</section>
