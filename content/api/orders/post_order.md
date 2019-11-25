@@ -3,11 +3,8 @@ weight: 210
 meta_title: "API - Create an order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Create an order
-
-> 
-POST - /orders
+{{% code %}}
+> POST - /orders
 
 ```shell
 {
@@ -61,8 +58,10 @@ POST - /orders
   }
 }
 ```
+{{% /code %}}
 
-
+{{% description %}}
+## Create an order
 Creates redirect order. Default type is "redirect".
 
 
@@ -92,5 +91,4 @@ Creates redirect order. Default type is "redirect".
 | country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |
 | phone                       | string    | Customer’s provided phone number.            |
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   |
-
-
+{{% /description %}}

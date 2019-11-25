@@ -3,10 +3,11 @@ weight: 52
 meta_title: "API - Discount added as unit price - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
+{{% description %}}
 ## Discount added as unit price 
 A discount added as seperate discount rule may conflict in refunding with postpaid payment methods. Therefore, it is advised to add the discount as unit price. As a result, no negative order rule is created, which means that refunding from a postpaid payment method will not cause a conflict.
-
+{{% /description %}}
+{{% code %}}
 > Example with 20% discount calculated in all unit prices:
 
 ```shell 
@@ -206,3 +207,4 @@ A discount added as seperate discount rule may conflict in refunding with postpa
     }
 }
 ```
+{{% /code %}}

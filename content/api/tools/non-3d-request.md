@@ -2,9 +2,7 @@
 weight: 1320
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-### 3D disabled or NON 3D transaction
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -45,8 +43,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
 
-
+{{% description %}}
+### 3D disabled or NON 3D transaction
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -70,3 +70,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | card_cvc                       | string    | Card CVC number. This might vary depending of the card type. Some cards like MAESTRO may not be required. |
 
 Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/).
+{{% /description %}}

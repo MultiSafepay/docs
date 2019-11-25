@@ -3,7 +3,10 @@ weight: 10
 meta_title: "API - Introduction - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
+{{% /code %}}
 
+{{% description %}}
 # API
 <hr class="separator">
 
@@ -32,3 +35,4 @@ For any questions, do not hesitate to contact us at <integration@multisafepay.co
 ### Postman
 
 To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection). This collection is a group of saved request that allows you to retrieve order information, post payments in our API documentation.
+{{% /description %}}

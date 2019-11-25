@@ -3,8 +3,8 @@ weight: 318
 meta_title: "API - Create Pay After Delivery order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## Pay After Delivery
 
 > POST - /orders 
 
@@ -398,6 +398,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Pay After Delivery
  Creates a Pay After Delivery order.
 
 * All parameters shown are required field(s)
@@ -427,3 +431,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
 Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/).
+{{% /description %}}

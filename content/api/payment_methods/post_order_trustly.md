@@ -3,8 +3,7 @@ weight: 323
 meta_title: "API - Create Trustly order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Trustly
+{{% code %}}
 
 > POST - /orders
 
@@ -43,6 +42,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Trustly
 
 * All parameters shown are required field(s)
 
@@ -62,3 +65,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 
 Please make sure you check out our dedicated documentation for [Trustly](/payment-methods/trustly/).
+
+{{% /description %}}

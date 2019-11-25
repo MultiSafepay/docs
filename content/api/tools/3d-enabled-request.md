@@ -2,9 +2,7 @@
 weight: 1310
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-## Server to Server
-### 3D Enabled Request
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -44,10 +42,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
      "type": "form" 
 }
 ```
+{{% /code %}}
 
-
-
-
+{{% description %}}
+## Server to Server
+### 3D Enabled Request
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -72,3 +71,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 
 Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/).
+{{% /description %}}

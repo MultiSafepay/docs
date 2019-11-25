@@ -3,9 +3,7 @@ weight: 315
 meta_title: "API - Create ING Home'Pay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## ING Home'Pay
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -87,7 +85,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## ING Home'Pay
 * All parameters shown are required field(s)
 
 | Parameter                    | Type     | Description                                                                                |
@@ -103,3 +104,4 @@ customer                       | object | Contains personal information about th
 
 
 Please make sure you check out our dedicated documentation for [ING Home'Pay](/payment-methods/ing-home-pay/).
+{{% /description %}}

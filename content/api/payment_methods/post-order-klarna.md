@@ -3,9 +3,7 @@ weight: 317
 meta_title: "API - Create Klarna order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Klarna
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -397,6 +395,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Klarna
 Creates a Klarna order to be paid after delivery
 
 * All parameters shown are required field(s)
@@ -425,3 +427,4 @@ Creates a Klarna order to be paid after delivery
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
 Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/).
+{{% /description %}}

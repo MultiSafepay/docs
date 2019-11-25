@@ -3,9 +3,7 @@ weight: 110
 meta_title: "API - Retrieve all gateways - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Retrieve all gateways
-
+{{% code %}}
 > GET - /gateways?country={country}&currency={currency}&amount={amount}&include={include}
 
 <br>
@@ -32,6 +30,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   ]
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Retrieve all gateways
 _October 2019: There have been reports of faulty functionality of this feature. If you encounter any issues or need assistance on this matter, do not hesitate to contact our Integration Team at <integration@multisafepay.com>_
 
 | Parameter           | Type   | Description |
@@ -41,6 +43,7 @@ _October 2019: There have been reports of faulty functionality of this feature. 
 | amount              | string | Specify the transaction amount (in cents) to filter out payment gateways that are not applicable for that amount. This is commonly used to exclude Pay After Delivery as a payment option for very small, or large, amounts but can also be configured to exclude other payment methods. |
 | include             | string | Specify comma delimited additional payment method types. Options: coupons. |
 
-
-<aside class="warning">Note that if you support multiple giftcards for your webshop, you should refer to _**[Retrieve gateways - Multiple available giftcards](#retrieve-gateways-multiple-available-giftcards)**_ for more information on how to correctly retrieve ALL of them. Otherwise, only the first available giftcard will be shown.</aside>
-<br>
+{{% note %}}
+Note that if you support multiple giftcards for your webshop, you should refer to _**[Retrieve gateways - Multiple available giftcards](#retrieve-gateways-multiple-available-giftcards)**_ for more information on how to correctly retrieve ALL of them. Otherwise, only the first available giftcard will be shown.
+{{% /note %}}
+{{% /description %}}

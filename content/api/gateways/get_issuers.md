@@ -4,7 +4,7 @@ meta_title: "API - Gateway issuers - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-## Gateway Issuers
+{{% code %}}
 
 > GET - /issuers/ideal
 
@@ -68,8 +68,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 
 ```
+{{% /code %}}
 
-
+{{% description %}}
+## Gateway Issuers
 | Parameter         | Type   | Description                                                                                             |
 |-------------------|--------|---------------------------------------------------------------------------------------------------------|
 | id                | string | The unique identifier of the payment gateway to retrieve an issuer list for. Currently supported identifiers are: [iDEAL](#ideal-issuers) |
@@ -90,3 +92,5 @@ Direct iDEAL Transactions can have the following Issuers:
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |
+{{% /description %}}
+

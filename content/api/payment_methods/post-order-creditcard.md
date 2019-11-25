@@ -3,8 +3,7 @@ weight: 306
 meta_title: "API - Create Credit Card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Credit Cards
+{{% code %}}
 
 > POST - /orders 
 
@@ -238,7 +237,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     ]
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## Credit Cards
 * All parameters shown are required field(s)
 
 | Parameter                       | Type     | Description                                                                             |
@@ -261,3 +263,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 
 Please make sure you check out our dedicated documentation for [credit cards](/payment-methods/creditcards/)
+{{% /description %}}

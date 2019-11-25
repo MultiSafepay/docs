@@ -1,20 +1,13 @@
 {{ define "main"}}
-<link href='{{ relURL "css/monokai.css" }}' rel="stylesheet" media="screen" />
+<!--<link href='{{ relURL "css/monokai.css" }}' rel="stylesheet" media="screen" />-->
 <link href='{{ relURL "css/api.css" }}' rel="stylesheet" media="screen" />
-<div>
-    <div class="dark-box"></div>
-  <div class="page-wrapper">
-    <div class="content">
-      {{ range.Pages }}
-      {{ .Content }}
-      {{ end }}
-    </div>
-    <div class="dark-box">
-            {{ with .Site.Params.language_tabs }}
-            {{ end }}
-        </div>
-  </div>
-</div>
+<section id="api-content">
+    {{ range.Pages }}
+    <article>
+        {{ .Content }}
+    </article>
+    {{ end }}
+</section>
 <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
 <script>
 tocbot.init({

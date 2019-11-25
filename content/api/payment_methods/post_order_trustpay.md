@@ -3,8 +3,8 @@ weight: 325
 meta_title: "API - Create TrustPay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## TrustPay
 
 > POST - /orders 
 
@@ -45,7 +45,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## TrustPay
 * All parameters shown are required field(s)
 
 | Parameter                      | Type     | Description                                                                              |
@@ -66,3 +69,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | country                        | string   | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)                                                                                                         | 
 | email                          | string   | Customer’s provided email address. Used to send Second Chance emails, in fraud checks and the sending bank transfer email.                                                                                                      |
 Please make sure you check out our dedicated documentation for [TrustPay](/payment-methods/trustpay/).
+{{% /description %}}

@@ -1,15 +1,7 @@
 ---
 weight: 1340
 ---
-
-### Redirect, Flexible 3D set on _false_
-
-Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
-
-Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. Setting Flexible 3D to _false_ will disable the verfication process. 
-
-**Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -61,6 +53,18 @@ Credit card transactions which are processed with the 3D Secure protocol require
 }
 ```
  
+{{% /code %}}
+
+{{% description %}}
+### Redirect, Flexible 3D set on _false_
+
+Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
+
+Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. Setting Flexible 3D to _false_ will disable the verfication process. 
+
+**Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
+
+
 
 
 | Parameter                      | Type      | Description |
@@ -87,3 +91,4 @@ Credit card transactions which are processed with the 3D Secure protocol require
 | gateway_info                   | object    |  |
 | flexible_3d                    | boolean   | True, enable the 3D secure authentication. False, disable the 3D secure authentication.  |
 | term_url                       | string    | URL that is used to instruct the card issuer where to redirect the authorisation query. |
+{{% /description %}}

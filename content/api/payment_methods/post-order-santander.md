@@ -3,9 +3,7 @@ weight: 320
 meta_title: "API - Create Santander Betaalplan order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Santander Betaalplan
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -105,7 +103,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## Santander Betaalplan
 * All parameters shown are required field(s)
 
 | Parameter                     | Type     | Description                                                                               |
@@ -124,3 +125,4 @@ forwarded_ip                    | string  | The X-FORWARDED-FOR header of the cu
 Please note that <i>first_name</i> and <i>last_name</i> in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
 Make sure you check out our dedicated documentation for [Betaalplan](/payment-methods/betaalplan/).
+{{% /description %}}

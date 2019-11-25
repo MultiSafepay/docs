@@ -3,9 +3,7 @@ weight: 520
 meta_title: "API - Chargeback - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Chargeback
-
+{{% code %}}
 > POST - /orders/{order_id}/files
 
 ```shell
@@ -26,6 +24,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Chargeback
 
 MultiSafepay can challenge the chargeback on your behalf, but to do so, we need documented proof of the order.
 Upload files / documents via an API request.
@@ -40,3 +42,6 @@ For more information about chargebacks, please refer to our [dedicated page](/pa
 | base64                      | string  | Binary Base 64 encoded. Upload images "pdf, jpeg and png". |
 | description                 | string  | Description or comments of the submitted file. |
 | name                        | string  | Name of the file.
+{{% /description %}}
+
+
