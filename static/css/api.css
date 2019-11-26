@@ -44,11 +44,11 @@ article {
 }
 
 .description > *:first-child {
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid #ccc;
 }
 
 #api-content article:first-child .description > *:first-child {
-	border-top: 1px solid rgba(0, 0, 0, 0.0);
+	border-top: 1px solid rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 576px) {
@@ -155,4 +155,16 @@ span.m {
 }
 .content dd {
 	margin-left: 15px
+}
+
+.note .marker::before {
+    font-family: "FontAwesome";
+	font-weight: 900;
+    content: "\f05a";
+	color: #3fa9f5;
+	padding: 0 0.5rem;
+}
+
+.note .content {
+	display: flex;
 }
