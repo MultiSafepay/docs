@@ -1,8 +1,8 @@
 {{ define "main"}}
-<div class="header-background-home">
-    {{ if .IsHome }}
+{{ if .IsHome }}
     {{ partial "header" .}}
-    {{ end }}
+{{ end }}
+<div class="header-background-home">
     <div>
         <div class="container">
             <h1 class="header__title">{{ .Title }}</h1>

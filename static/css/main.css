@@ -19,7 +19,9 @@
 .header-background, .header-background-home {
     background-image: url('../img/blue-gradient.jpg');
     background-size: cover;
+    margin-top: -76px;
 }
+
 
 .header__title {
     color: #ffffff;
