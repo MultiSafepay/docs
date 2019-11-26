@@ -255,3 +255,8 @@ span.m {
 #mm-1 {
 	max-height: 1300px;
 }
+
+.api-toc > .toc-list {
+	overflow: hidden;
+	position: relative;
+} 
