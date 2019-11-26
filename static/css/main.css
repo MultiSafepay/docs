@@ -258,6 +258,9 @@ ol.breadcrumb {
     -webkit-text-stroke: 2px white;
 }
 
+#mm-0 .mm-listitem:after, #mm-1 .mm-listitem:after {
+    left: 0;
+}
 .mm-listitem:after {
     left: 60px;
 }
@@ -353,7 +356,6 @@ a.toc-link {
 }
 
 .is-collapsible {
-    max-height: 1000px;
     overflow: hidden;
     transition: all 300ms ease-in-out;
 }

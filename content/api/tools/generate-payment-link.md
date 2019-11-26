@@ -42,7 +42,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% /code %}}
 
 {{% description %}}
-## Generating a payment link
+# Generating a payment link
 
 For several scenarios, it can be useful for our merchants to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
 

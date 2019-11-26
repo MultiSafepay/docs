@@ -47,7 +47,6 @@ JSON Response
 | api_user                    | string    | User ID of partner account.                                                                 | 
 | api_pass                    | string    | Password for partner account.                                                               | 
 
-
 | Code | Type                  |
 |----------|-----------------------|
 | 100     | Gifts and gadgets               |

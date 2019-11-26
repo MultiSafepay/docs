@@ -15,15 +15,6 @@ article {
 	height: 100%;
 }
 
-#api-content article:first-child .code::before {
-	background-color: #393939;
-	content: " ";
-	display: block;
-	position: relative;
-	top: -75px;
-	height: 75px;
-}
-
 .description code {
 	color: initial;
 	background-color: #e9e9e9;
@@ -41,6 +32,7 @@ article {
 
 .content {
 	margin-left: auto;
+	padding: 1rem;
 }
 
 .description > *:first-child {
@@ -58,7 +50,20 @@ article {
 	}
 
     .code, .content {
-        max-width: 270px;
+		max-width: 270px;
+	}
+
+	.description .content {
+		padding: 1rem 1rem 1rem 0rem;
+	}
+
+	#api-content article:first-child .code::before {
+		background-color: #393939;
+		content: " ";
+		display: block;
+		position: relative;
+		top: -75px;
+		height: 75px;
 	}
 }
 
@@ -163,8 +168,90 @@ span.m {
     content: "\f05a";
 	color: #3fa9f5;
 	padding: 0 0.5rem;
+	font-size: 1.2rem;
 }
 
 .note .content {
 	display: flex;
+}
+
+
+/*** APITOC ***/
+.api-toc {
+	overflow-y: hidden;
+}
+
+.api-toc ul, .api-toc li {
+	list-style-type: none;
+}
+.toc-list{
+	padding: 0;
+	padding-bottom: 0.5rem;
+}
+
+.api-toc .toc-list-item  {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	margin-left: -3px;
+	z-index: 10;
+}
+.api-toc .toc-list-item a{
+	padding-left: 1rem;
+}
+
+.api-toc > .toc-list > .toc-list-item > a {
+	font-weight: 500;
+}
+
+.api-toc  .toc-list-item .toc-list-item a{
+	padding-left: 3rem;
+}
+
+.api-toc {
+	padding-bottom: 0.5rem;
+}
+
+.toc-link::before {
+	background-color: white;
+	margin-top: -0.5rem;
+	z-index: -1;
+}
+
+.is-active-link::before {
+	background-color: #3fa9f5;
+	margin-top: -0.5rem;
+	padding-bottom: 0.5rem;
+	z-index: -1;
+}
+
+.toc-link {
+	padding-bottom: 0.5rem;
+}
+
+.toc-list .is-collapsed {
+	padding-bottom: 0;
+}
+
+.toc-list:not(.is-collapsed){
+	margin-top: 0.5rem;
+	padding-bottom: 0;
+}
+
+.toc-list .toc-list-item:last-child {
+	padding-bottom: 0;
+}
+
+.toc-link {
+	display: block;
+	padding-bottom: 0;
+}
+
+.api-toc > .toc-list > .toc-list-item:last-child {
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#mm-1 {
+	max-height: 1300px;
 }
