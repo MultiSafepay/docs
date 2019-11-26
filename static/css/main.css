@@ -266,7 +266,6 @@ ol.breadcrumb {
 }
 
 .mm-navbars_top>.mm-navbar:last-child {
-    background-color: white !important;
     color: #3fa9f5;
     font-weight: bold;
 }

@@ -209,10 +209,6 @@ span.m {
 	padding-left: 3rem;
 }
 
-.api-toc {
-	padding-bottom: 0.5rem;
-}
-
 .toc-link::before {
 	background-color: white;
 	margin-top: -0.5rem;
@@ -226,10 +222,6 @@ span.m {
 	z-index: -1;
 }
 
-.toc-link {
-	padding-bottom: 0.5rem;
-}
-
 .toc-list .is-collapsed {
 	padding-bottom: 0;
 }
@@ -237,6 +229,10 @@ span.m {
 .toc-list:not(.is-collapsed){
 	margin-top: 0.5rem;
 	padding-bottom: 0;
+}
+
+.api-toc > .toc-list{
+	margin: 0;
 }
 
 .toc-list .toc-list-item:last-child {
@@ -250,7 +246,6 @@ span.m {
 
 .api-toc > .toc-list > .toc-list-item:last-child {
 	padding-bottom: 0.5rem;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #mm-1 {
@@ -261,3 +256,7 @@ span.m {
 	overflow: hidden;
 	position: relative;
 } 
+
+.api-toc > .toc-list > .toc-list-item:first-of-type  {
+	border-top:0 solid rgba(0, 0, 0, 0);
+}
