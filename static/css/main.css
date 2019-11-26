@@ -10,6 +10,7 @@
 
 .header-background-home {
     height: 665px;
+    margin-top: -76px;
 }
 
 .header-background-home div:first-child {
@@ -19,7 +20,6 @@
 .header-background, .header-background-home {
     background-image: url('../img/blue-gradient.jpg');
     background-size: cover;
-    margin-top: -76px;
 }
 
 
@@ -723,3 +723,14 @@ ul.navbar-nav.ml-auto {
     .mm-panel_opened-parent .mm-panel__blocker {
         opacity: 0.0 !important;
     }
+}
+
+#search-input {
+    width: 80%;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0, 0.1) !important;
+}
+#search-input:focus{
+    outline: none;
+}
