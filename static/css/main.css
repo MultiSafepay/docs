@@ -47,14 +47,20 @@
     height: 35px;
 }
 
-.msp-app-text>p:first-of-type {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
 
 div.msp-app-text {
-    padding-top: 50px;
-    padding-left: 70px;
+    padding: 50px;
+}
+
+@media (min-width: 576px) {
+    div.msp-app-text {
+        padding: 50px 0 0 70px; 
+    }
+
+    .msp-app-text>p:first-of-type {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
 }
 
 div.msp-app-text p:last-child {
@@ -681,38 +687,37 @@ ul.navbar-nav.ml-auto {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 1140px;
     }
-
-.rotated {
-  transform: rotate(180deg);
-  -ms-transform: rotate(180deg); /* IE 9 */
-  -moz-transform: rotate(180deg); /* Firefox */
-  -webkit-transform: rotate(180deg); /* Safari and Chrome */
-  -o-transform: rotate(180deg); /* Opera */
-  transition: all 0.2s ease-out;
-}
-  
-/*** page shadow ***/
-#page::before {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  content: "";
-  display: block;
-  width: 20px;
-  height: 100%;
-  position: absolute;
-  right: 100%;
-  z-index: 100;
-  clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
-}
-
-.mm-menu_iconpanel .mm-panels > .mm-panel:not(.mm-panel_iconpanel-first):not(.mm-panel_iconpanel-0) {
-    left: var(--mm-sidebar-collapsed-size)
-}
-
-.mm-panel_opened-parent .mm-panel__blocker {
-    opacity: 0.0 !important;
-}
+    .rotated {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        /* IE 9 */
+        -moz-transform: rotate(180deg);
+        /* Firefox */
+        -webkit-transform: rotate(180deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(180deg);
+        /* Opera */
+        transition: all 0.2s ease-out;
+    }
+    /*** page shadow ***/
+    #page::before {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        content: "";
+        display: block;
+        width: 20px;
+        height: 100%;
+        position: absolute;
+        right: 100%;
+        z-index: 100;
+        clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    .mm-menu_iconpanel .mm-panels>.mm-panel:not(.mm-panel_iconpanel-first):not(.mm-panel_iconpanel-0) {
+        left: var(--mm-sidebar-collapsed-size)
+    }
+    .mm-panel_opened-parent .mm-panel__blocker {
+        opacity: 0.0 !important;
+    }
