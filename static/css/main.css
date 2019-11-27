@@ -163,7 +163,7 @@ div.block {
 }
 
 .block-item .block-item__title, .block-faq .block-faq__title {
-    color: #232323;
+    color: #xc;
 }
 
 .block-faq {
@@ -563,7 +563,7 @@ ul.navbar-nav.ml-auto {
 /********* SEARCH RESULT  *************/
 
 .search-results {
-    width: 40%;
+    width: 70%;
     margin-left: 5%;
     padding: 5px;
 }
@@ -575,12 +575,6 @@ ul.navbar-nav.ml-auto {
 
 .search-results a:hover {
     text-decoration: none;
-}
-
-.search-results a:before {
-    content: '-';
-    padding: 0 5px;
-    text-align: left;
 }
 
 .search-results div:first-child {
@@ -681,6 +675,7 @@ ul.navbar-nav.ml-auto {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 1140px;
     }
+}
 
 .rotated {
   transform: rotate(180deg);
@@ -715,4 +710,21 @@ body, html {
 
 .mm-panel_opened-parent .mm-panel__blocker {
     opacity: 0.0 !important;
+}
+
+div#results {
+    z-index: 2;
+    position: relative;
+}
+
+div#results a:hover {
+    color: #3fa9f5;
+}
+
+#search-results > * {
+    padding: 12px 10px 12px 20px;
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }

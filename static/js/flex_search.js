@@ -44,7 +44,10 @@ function initFlexSearch() {
 // Nothing crazy here, just hook up a listener on the input field
 function initUI() {
     $results = $("#results");
-    $("#search-input").keyup(function () {
+    let searchResult = $("#search-results");
+    let api = $("#menu")[0].mmApi;
+
+    $(".flex-search").keyup(function () {
         $results.empty();
 
         // Only trigger a search when 2 chars. at least have been provided
@@ -52,8 +55,20 @@ function initUI() {
         if (query.length < 2) {
             return;
         }
+        search(query, $results);
+    });
 
-        search(query);
+    $(".mm-searchfield__input").find("input").on("keyup", function() {
+        searchResult.empty();
+
+        // Only trigger a search when 2 chars. at least have been provided
+        var query = $(this).val();
+        if (query.length < 2) {
+            api.closeAllPanels();
+            return;
+        }
+        search(query, searchResult);
+        api.openPanel(document.getElementById("search-results"))
     });
 }
 
@@ -63,14 +78,14 @@ function initUI() {
  * @param  {String} query
  * @return {Array}  results
  */
-function search(query) {
+function search(query, sr, amount = 10) {
     var results = $flexIndex.search({
 
         field: ["title", "content"],
         query: query,
         bool: "or"
     });
-    renderResults(results)
+    renderResults(results, sr, amount)
 }
 
 /**
@@ -78,20 +93,20 @@ function search(query) {
  *
  * @param  {Array} results to display
  */
-function renderResults(results) {
+function renderResults(results, sr, amount) {
     if (!results.length) {
-        $results.append("<p>No results found</p>");
+        sr.append("<p>No results found</p>");
         return;
     }
 
     // Only show the ten first results
-    results.slice(0, 10).forEach(function (result) {
+    results.slice(0, amount).forEach(function (result) {
         var $result = "<div class='result' role='option'>" +
             "<a href='" + result.uri + "'>" +
             result.title +
             "</a>" +
             "</div>";
-        $results.append($result);
+        sr.append($result);
     });
 }
 

@@ -22,8 +22,11 @@
                     <li><a href="{{ .URL }}"><i class="{{ .Pre }}" aria-hidden="true"></i>{{ .Name }}</a></li>
                 {{end}}
             {{ end }}
-        </ul>    
+        </ul>     
     </div>
+    <ul id="search-results">
+        <!-- insert ajax result here -->
+    </ul> 
 </nav>
 
 <!-- Fire the plugin -->
@@ -70,6 +73,8 @@
                 },
             ],
             searchfield: {
+                clear: true,
+                search: false,
                 showTextItems: true,
                 placeholder: "Search documentation..."
 		    }
