@@ -13,7 +13,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 description : "Easily integrate MultiSafepay payment solutions into your Magento 2 webshop with the free and completely new MultiSafepay Magento 2 plugin. Our Magento 2 plugin is professionally supported by a certified Magento 2 Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay."
 magento_image: "middle_solution_specialist_m2.png"
 magento_image_alt : "Magento 2 Solution Specialist"
-changelog: /integrations/plugins/magento2/changelog/
+changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 weight: 20
 logo: "/logo/Plugins/Magento_2.svg"
 title_short: "Magento 2"
