@@ -3,8 +3,8 @@ weight: 302
 meta_title: "API - Create Alipay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## Alipay
 
 > POST - /orders
 
@@ -40,7 +40,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## Alipay
 * All parameters shown are required field(s)
 
 | Parameter                      | Type     | Description                                                                              |
@@ -55,4 +58,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                       | object |                                       |
 
 
-[Full explanation of the payment method Alipay](/payment-methods/alipay/)
+Please make sure you check out our dedicated documentation for [Alipay](/payment-methods/alipay/).
+{{% /description %}}

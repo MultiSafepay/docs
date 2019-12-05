@@ -4,13 +4,12 @@ meta_title: "API - Recurring payments - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-## Recurring Payment
-
+{{% code %}}
 > POST - /orders
 
 ```shell
 {
-    "type": "redirect",
+    "type": "direct",
     "order_id": "My-order-id-3",
     "gateway": "gatewaycode",
     "recurring_id": "{recurring_id}",
@@ -81,12 +80,16 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 
+{{% /code %}}
+
+{{% description %}}
+## Recurring Payment
+
 Recurring Payments can be done using Credit Cards (VISA, Mastercard) and SEPA Direct Debit.    
 
-iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A merchant account with recurring payment enabled will receive a recurring ID in the transaction response.
-The recurring ID can be used for future transactions.
+iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A merchant account with recurring payment enabled will receive a recurring ID in the transaction response. The recurring ID can be used for future transactions.
 
-[Recurring payments explained](/tools/recurring-payments/)
+For more information about recurring payments, please refer to our [dedicated page](/tools/recurring-payments/).
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -100,6 +103,7 @@ The recurring ID can be used for future transactions.
 | payment_options                | object    |                             |
 | notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | notification_method            | string    | Sends push notification (POST,GET) default: GET. | 
-| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. |
+| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  | 
 
+{{% description %}}

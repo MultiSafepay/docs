@@ -1,10 +1,18 @@
 <section class="manual pb-3">
     <div class="container">
-        <h2>Manual</h2>
-    </div> 
-    <div class="content">
-        {{ with .GetPage "manual.md" }}
-            {{ .Content }}
-        {{ end }}
+        <div class="row">
+            <div class="col-md-9">
+                <h2>Manual</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                {{ with .GetPage "manual.md" }}
+                {{ .Content }}
+                {{ end }}
+            </div>
+        </div>
     </div>
 </section>

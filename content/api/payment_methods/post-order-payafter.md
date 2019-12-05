@@ -3,8 +3,8 @@ weight: 318
 meta_title: "API - Create Pay After Delivery order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## Pay After Delivery
 
 > POST - /orders 
 
@@ -398,7 +398,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
- Creates a Pay After Delivery order
+{{% /code %}}
+
+{{% description %}}
+## Pay After Delivery
+ Creates a Pay After Delivery order.
 
 * All parameters shown are required field(s)
 
@@ -411,9 +415,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | amount                           | integer | The amount (in cents) that the customer needs to pay.                                  |
 | description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
 | payment_options                  | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
-| custom_info                      | object | custom_info is a 'placeholder' where the merchant can input specific data related to the transaction.                                                                                      |
-| customer                         | object | Contains the personal information of the customer.                                     |
-| delivery                         | object | Contains the delivery information for the shipment.                                    |
+| custom_info                      | object | custom_info is a 'placeholder' where the merchant can input specific data related to the transaction |
+| customer                         | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |  
+| delivery                         | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> |
 | shopping_cart                    | object | Contains all purchased items including tax class.                                      |
 | checkout_options                 | object | Defines all tax classes to be used for the shopping cart items.                        |
 | gateway_info                     | object | Defines certain customer data (issuer_id) needed for the credit check.                             |
@@ -424,6 +428,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | ip_address                       | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                              |
 | forwarded_ip                     | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
+Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-
-[Full explanation of the payment method Pay After Delivery](/payment-methods/pay-after-delivery/)
+Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/).
+{{% /description %}}

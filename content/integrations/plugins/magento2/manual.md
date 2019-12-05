@@ -26,11 +26,13 @@ We recommend that you install the plugin first on a test environment, and make s
 ### 2. Installation
 Run the following commands via the CLI:
 
+{{% manual-code %}}
 ```
 composer require multisafepay/magento2msp
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
+{{% /manual-code %}}
 
 After running these commands, the latest stable release is downloaded and installed within your
 Magento 2 webshop.

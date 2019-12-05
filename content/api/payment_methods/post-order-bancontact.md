@@ -3,8 +3,8 @@ weight: 303
 meta_title: "API - Create Bancontact order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## Bancontact
 
 > POST - /orders
 
@@ -40,7 +40,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
+{{% description %}}
 
+## Bancontact
 * All parameters shown are required field(s)
 
 | Parameter                    | Type     | Description                                                                                |
@@ -54,4 +57,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | payment_options              | object |                            |
 | customer                     | object |  |
 
-[Full explanation of the payment method Bancontact](/payment-methods/bancontact/)
+Please make sure you check out our dedicated documentation for [Bancontact](/payment-methods/bancontact/).
+{{% /description %}}

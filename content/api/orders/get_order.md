@@ -3,9 +3,7 @@ weight: 260
 meta_title: "API - Retrieve an order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Retrieve an order
-
+{{% code %}}
 > GET - /orders/{order_id}
 
 <br>
@@ -105,6 +103,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Retrieve an order
 
 Get order status & information. Depending on the order type or method, the structure may be different.
 
@@ -112,3 +114,4 @@ Get order status & information. Depending on the order type or method, the struc
 |--------------------|-----------|-----------------------------------------------------------------------------------------------------|
 | order_id           | string    | The unique identifier of the order to be returned.                                                  |
 
+{{% /description %}}

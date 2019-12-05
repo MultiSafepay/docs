@@ -3,7 +3,10 @@ weight: 640
 meta_title: "API - Transaction statuses - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
+{{% /code %}}
 
+{{% description %}}
 ## Transaction Statuses
 
 Transactions can have the following statuses:
@@ -22,3 +25,4 @@ Transactions can have the following statuses:
 | reserved         | Reserved         | Payout/refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
 | chargedback      | Chargedback      | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. |
 | shipped          | Shipped          | Order for payment has been set to shipped to mark the order as fulfilled and capture the money. |
+{{% /description %}}

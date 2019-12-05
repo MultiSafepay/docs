@@ -3,9 +3,7 @@ weight: 270
 meta_title: "API - Dynamic template - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Dynamic Template
-
+{{% code %}}
 > POST - /orders 
 
 ```shell
@@ -129,12 +127,18 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
 
-Within a transaction request a template of the MultiSafepay Payment page can be defined. This can be done by providing a template_id of a predefined template within your MultiSafepay Control, or by providing a template object structure within the transaction request. When both are provided within the request, the template object is primary.
+{{% description %}}
+## Dynamic Template
 
-The template object structure needs to include the JSON css parameters. When sending partial css settings within the template structure, only the sent parameter will override the default MultiSafepay template.
 
-When sending images within the template structure for the "logo" and "header" you can use external references but they must be using https, otherwise they will be ignored.
+
+You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay Control or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
+
+The template object structure needs to include the JSON CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
+
+When sending images within the template structure for the "logo" and "header", you can use external references but they must be using HTTPS, otherwise they will be ignored.
 
 
 | Parameter                      | Type     | Description                                                                              |
@@ -146,9 +150,9 @@ When sending images within the template structure for the "logo" and "header" yo
 | description                    | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object   |                             |
 | notification_url               | string   | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
-| redirect_url                   | string   | Customer will be redirected to this page after a successful payment. |
+| redirect_url                   | string   | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string   | Customer will be redirected to this page after a failed payment.  | 
 | template                       | object   | A template object structure.Template structure overrules template_id.   |
 | template_id                    | string   | Saved template identifier. Template structure overrules template_id.    |
 
-
+{{% /description %}}
