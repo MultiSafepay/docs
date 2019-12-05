@@ -46,17 +46,15 @@
     margin-bottom: 50px;
 }
 
-.app-store-icons {
-}
-.app-store-icons > * {
-
+.app-store-icon > img {
+    height: 100%;
 }
 
 div.msp-app-text {
-    padding: 50px;
+    padding: 25px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 980px) {
     div.msp-app-text {
         padding: 50px 0 0 70px; 
     }
