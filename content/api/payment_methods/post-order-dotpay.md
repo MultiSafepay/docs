@@ -3,8 +3,8 @@ weight: 308
 meta_title: "API - Create Dotpay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## Dotpay
 
 > POST - /orders
 
@@ -40,7 +40,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## Dotpay
 * All parameters shown are required field(s)
 
 | Parameter                      | Type     | Description                                                                              |
@@ -53,3 +56,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | description                    | string |  A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object |                            |
 | customer                       | object |                                       |
+
+Please make sure you check out our dedicated documentation for [Dotpay](/payment-methods/dotpay/).
+{{% /description %}}

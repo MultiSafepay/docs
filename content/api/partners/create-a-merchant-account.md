@@ -3,7 +3,8 @@ weight: 710
 meta_title: "API - Create a Partner account - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-## Create a merchant account 
+
+{{% code %}}
 
 > POST - /partners
 
@@ -52,6 +53,11 @@ JSON Response
 }
 ```
 
+{{% /code %}}
+
+{{% description %}}
+## Create a merchant account
+
 | Parameter                   | Type      | Description                                                                                |
 |-----------------------------|-----------|--------------------------------------------------------------------------------------------|
 | product                     | string    | Select the desired MultiSafepay subscription: Connect 300, Connect 1000 or FastCheckout.    | 
@@ -63,7 +69,7 @@ JSON Response
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   | 
 | country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |     
 | phone                       | string    | Customer’s provided phone number.                                                           |
-| password                    | string    | Supply a password for creating login details partner account.                               | 
+| password                    | string    | Supply a password for creating credentials for partner account.                             | 
 | address_apartment           | string    |                                                                                             | 
 | software_partner            | string    | Put on "Anders".                                                                            |  
 | partner                     | object    |                                                                                             | 
@@ -76,3 +82,5 @@ JSON Response
 | account_number              | string    | Account number of bank.                                                                     | 
 | bank_name                   | string    | Name of bank.                                                                               | 
 | country                     | string    | Country of bank [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)               |
+
+{{% /description %}}

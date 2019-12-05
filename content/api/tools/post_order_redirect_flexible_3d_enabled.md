@@ -1,19 +1,7 @@
 ---
 weight: 1350
 ---
-
-### Redirect, Flexible 3D set on True 
-
-Flexible 3D secure processing is enabled in this call "mandatory", even when Dynamic 3D rules could set the settings to disable.
-
-Flexible 3D is a feature that allows you to enable/disable 3D secure at an API level. The Flexible 3D forces whether or not to complete a transaction with the 3D secure verification.
-
-When Flexible 3D is "set on true" the authentication verification is mandatory to finalize and release a successful payment. Credit card transactions which are processed without the 3D Secure protocol, are now required to complete the 3D secure verification.
-
-Activating Flexible 3D secure will override the rules of the Dynamic 3D settings. 
-
-Meaning: payment is enrolled with an 3D secure authentication. 
-
+{{% code %}}
 > POST - /orders 
 
 ```shell
@@ -65,6 +53,16 @@ Meaning: payment is enrolled with an 3D secure authentication.
     }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+### Redirect, Flexible 3D set on _true_ 
+
+It is mandatory to enable Flexible 3D secure processing in this call, even when Dynamic 3D rules could set the settings to disable it.
+
+Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
+
+When Flexible 3D is set on _true_, the authentication verification is mandatory to finalize and release a successful payment. Credit card transactions which are processed without the 3D Secure protocol, are now required to complete the 3D secure verification. Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that the payment will be enrolled with a 3D Secure authentication. 
 
 
 | Parameter                      | Type      | Description |
@@ -78,7 +76,7 @@ Meaning: payment is enrolled with an 3D secure authentication.
 | payment_options                | object    |                             |
 | notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | notification_method            | string    | Sends push notification  (POST,GET) default: GET. | 
-| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. |
+| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                       | object    |                        |
 | locale                         | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
@@ -95,3 +93,4 @@ Meaning: payment is enrolled with an 3D secure authentication.
 | gateway_info                   | object    |
 | flexible_3d                    | boolean   | True, enable the 3D secure authentication. False, disable the 3D secure authentication.  |
 | term_url                       | string    | URL that is used to instruct the card issuer where to redirect the authorisation query. |
+{{% /description %}}

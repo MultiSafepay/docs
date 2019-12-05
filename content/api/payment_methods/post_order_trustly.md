@@ -3,8 +3,7 @@ weight: 323
 meta_title: "API - Create Trustly order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Trustly
+{{% code %}}
 
 > POST - /orders
 
@@ -43,6 +42,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Trustly
 
 * All parameters shown are required field(s)
 
@@ -56,9 +59,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | description                    | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 character. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
 | payment_options                | object   |                                                                                        |
 | notification_url               | string   | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                                                                                  |
-| redirect_url                   | string   | Customer will be redirected to this page after a successful payment.                    | 
+| redirect_url                   | string   |Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. | 
 | cancel_url                     | string   | Customer will be redirected to this page after a failed payment.                        | 
 | customer                       | object   | Contains the personal information of the customer.                                      |
 
 
-[Full explanation of the payment method Trustly](/payment-methods/trustly/)
+Please make sure you check out our dedicated documentation for [Trustly](/payment-methods/trustly/).
+
+{{% /description %}}

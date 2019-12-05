@@ -3,8 +3,8 @@ weight: 301
 meta_title: "API - Create AfterPay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## AfterPay
 
 > POST - /orders
 
@@ -398,9 +398,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
 
+{{% description %}}
+## AfterPay
 
-Creates an AfterPay order to be paid after delivery
+Creates an AfterPay order to be paid after delivery.
 
 * Direct transaction requires all fields completed properly
 
@@ -415,8 +418,8 @@ Creates an AfterPay order to be paid after delivery
 | amount                             | integer | The amount (in cents) that the customer needs to pay. |
 | description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
 | payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |                                                                                     
-| customer                           | object | Contains the personal information of the customer. |                                                                                   
-| delivery                           | object | Contains the delivery information for the shipment.  |                                                                                    
+| customer                           | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |                                                                                   
+| delivery                           | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> | |                                                                                    
 | shopping_cart                      | object | Contains all purchased items including tax class.                                   |
 | checkout_options                   | object | Contains the definitions for the VAT class. |
 | gateway_info                       | object | Contains the issuer_id. |                                                                                    |
@@ -427,6 +430,8 @@ Creates an AfterPay order to be paid after delivery
 | personal_number  -                 | string | The personal ID of the customer. Required in countries: FI, SE, NO Optional in countries: DE, AT, CH, BE, NL, DK. |
 | ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
 | forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
+Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
+Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/).
 
-[Full explanation of the payment method AfterPay](/payment-methods/afterpay/)
+{{% /description %}}

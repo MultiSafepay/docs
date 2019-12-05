@@ -1,9 +1,10 @@
 /********** VARS ************/
 
 :root {
-    --mm-sidebar-collapsed-size: 60px !important;
-    --mm-iconbar-size: 0 !important;
-    --mm-sidebar-expanded-size: 350px;
+  --mm-sidebar-collapsed-size: 60px !important;
+  --mm-iconbar-size:0 !important;
+  --mm-sidebar-expanded-size: 350px;
+  --navbar-height: 76px;
 }
 
 /**********************/
@@ -215,6 +216,24 @@ ol.breadcrumb {
 
 /**********************/
 
+.mm-searchfield__input {
+  margin: 0 10px;
+}
+
+.mm-searchfield input {
+  background: url(/icons/Search.svg) no-repeat scroll 16px 5px;
+  padding-left: 50px;
+  height: 50px;
+  background-size: 20px 35px;
+  background-color: #ffffff;
+  border: 1px solid red;
+}
+
+.mm-navbars_top * {
+  background-color: #f9f9f9;
+  padding: 5px 0;
+}
+
 .search-form-input {
     width: 50%;
     height: 50px;
@@ -240,12 +259,14 @@ ol.breadcrumb {
     -webkit-text-stroke: 2px white;
 }
 
+#mm-0 .mm-listitem:after, #mm-1 .mm-listitem:after {
+    left: 0;
+}
 .mm-listitem:after {
     left: 60px;
 }
 
 .mm-navbars_top>.mm-navbar:last-child {
-    background-color: white !important;
     color: #3fa9f5;
     font-weight: bold;
 }
@@ -320,10 +341,6 @@ ol.breadcrumb {
     list-style: none;
 }
 
-.toc-list {
-    margin: 0;
-    padding-left: 10px;
-}
 
 a.toc-link {
     color: currentColor;
@@ -335,7 +352,6 @@ a.toc-link {
 }
 
 .is-collapsible {
-    max-height: 1000px;
     overflow: hidden;
     transition: all 300ms ease-in-out;
 }
@@ -371,10 +387,6 @@ a.toc-link {
 
 .is-active-link::before {
     background-color: #3fa9f5;
-}
-
-.sticky-top {
-    height: 20px;
 }
 
 /**********************/
@@ -613,7 +625,7 @@ ul.navbar-nav.ml-auto {
 
 /* intergration manual layout*/
 
-.manual .content h2, .manual .content h3, .manual .content h4 {
+.manual h2, .manual h3, .manual  h4 {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 15px;
 }
@@ -628,13 +640,13 @@ ul.navbar-nav.ml-auto {
     display: block;
 }
 
-.manual .content ul {
+.manual ul {
     list-style-position: inside;
     padding-right: 45px;
     padding-left: 45px;
 }
 
-.manual .content ol li {
+.manual ol li {
     padding-left: 15px;
 }
 
@@ -704,6 +716,38 @@ body, html {
   padding: 0;
 }
 
+nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: var(--navbar-height);
+}
+
+div.sticky-with-menu {
+  top: calc(var(--navbar-height) + 15px);
+  z-index: 0;
+  height: 25px;
+  position: sticky;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  div.sticky-with-menu {
+    display: block;
+  }
+}
+
+.js-toc-content h1::before, .js-toc-content h2::before, .js-toc-content h3::before, .js-toc-content h4::before, .js-toc-content h5::before, .js-toc-content h6::before {
+  display: block;
+  content: " ";
+  height: var(--navbar-height);
+  margin-top: calc(var(--navbar-height) * -1);
+  visibility: hidden;
+}
+
+.js-toc-content {
+  margin-top: -1.5rem;
+}
 .mm-menu_iconpanel .mm-panels > .mm-panel:not(.mm-panel_iconpanel-first):not(.mm-panel_iconpanel-0) {
     left: var(--mm-sidebar-collapsed-size)
 }
@@ -727,4 +771,18 @@ div#results a:hover {
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.7);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.manual-code {
+	width: 100%;
+    display: block;
+    background-color: #f9f9f9;
+}
+
+.manual-code code, .manual-code pre {
+    margin: 0;
+}
+
+.manual ul, .manual ol {
+    padding: 0 1rem;
 }

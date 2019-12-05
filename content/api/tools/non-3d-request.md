@@ -2,9 +2,7 @@
 weight: 1320
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-### 3D disabled or NON 3D transaction
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -45,8 +43,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+{{% /code %}}
 
-
+{{% description %}}
+### 3D disabled or NON 3D transaction
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | description                    | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object    |                             |
 | notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
-| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. |
+| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                       | object    |    |
 | locale                         | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
@@ -69,4 +69,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | card_expiry_date               | string    | Card expire date. |
 | card_cvc                       | string    | Card CVC number. This might vary depending of the card type. Some cards like MAESTRO may not be required. |
 
-Full explanation on [Server to Server](/tools/server2server/)
+Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/).
+{{% /description %}}

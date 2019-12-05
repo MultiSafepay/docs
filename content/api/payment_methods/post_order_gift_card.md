@@ -3,8 +3,8 @@ weight: 311
 meta_title: "API - Create gift card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+{{% code %}}
 
-## Gift card
 
 > POST - / order 
 
@@ -27,7 +27,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "89.20.162.110",
+        "ip_address": "80.123.456.789",
         "country": "NL",
         "email": "test@example.com"
     }
@@ -45,7 +45,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ``` 
+{{% /code %}}
 
+{{% description %}}
+## Gift card
 * All parameters shown are required field(s)
 
 | Parameter                      | Type      | Description                                                                             |
@@ -58,7 +61,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
 | payment_options                | object    |                             |
 | notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
-| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. |
+| redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  |
 | customer                    | object    |                                 |
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
@@ -100,4 +103,5 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Goodcard                       | GOODCARD                    |   |
 | Givacard                       | Branded gift cards will provide a gateway name upon release of the personilized gift card by our development team.                 |   |          
 
-[Full explanation of the payment method gift card](/payment-methods/giftcards/)
+Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/giftcards/).
+{{% /description %}}

@@ -3,10 +3,7 @@ weight: 307
 meta_title: "API - Create Direct Debit order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-
-## Direct Debit
-
-
+{{% code %}}
 > POST - /orders
 
 ```shell
@@ -101,6 +98,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
+{{% /code %}}
+
+{{% description %}}
+## Direct Debit
 
 When submitting a Direct Debit, the transaction data is checked.    
 
@@ -133,4 +134,5 @@ ip_address                        | string  | The IP address of the customer. "R
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
 
-[Full explanation of the payment method Direct Debit](/payment-methods/direct-debit/)
+Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/).
+{{% /description %}}

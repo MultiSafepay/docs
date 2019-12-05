@@ -19,7 +19,20 @@
                     </ul>
                 </li>
                 {{else}}
-                    <li><a href="{{ .URL }}"><i class="{{ .Pre }}" aria-hidden="true"></i>{{ .Name }}</a></li>
+                    <li>
+                        <span>
+                            <a href="{{ .URL }}">
+                                <i class="{{ .Pre }}" aria-hidden="true"></i>
+                                {{ .Name }}
+                            </a>
+                        </span>
+                        {{ if and (eq $currentPage.Title "API") (eq .Name "API") }}
+                            <ul>
+                                <li {{if in ($.Scratch.Get "path") .URL }}class="Selected"{{end}}>
+                                </li>
+                            </ul>
+                        {{ end }}
+                    </li>    
                 {{end}}
             {{ end }}
         </ul>     
