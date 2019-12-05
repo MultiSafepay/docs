@@ -45,10 +45,11 @@
     margin-bottom: 50px;
 }
 
-.msp-app-text img {
-    height: 35px;
+.app-store-icons {
 }
+.app-store-icons > * {
 
+}
 
 div.msp-app-text {
     padding: 50px;
