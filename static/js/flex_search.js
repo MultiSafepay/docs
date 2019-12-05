@@ -1,11 +1,11 @@
-var $flexIndex, $results, pagesIndex;
+let $flexIndex, $results, pagesIndex;
 
 function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split('&');
+    const query = window.location.search.substring(1);
+    const vars = query.split('&');
 
-    for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split('=');
+    for (let i = 0; i < vars.length; i++) {
+        const pair = vars[i].split('=');
 
         if (pair[0] === variable) {
             return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
@@ -13,10 +13,10 @@ function getQueryVariable(variable) {
     }
 }
 
-var searchTerm = getQueryVariable('query');
+let searchTerm = getQueryVariable('query');
 
 // Initialize flexsearch.js using our generated index file
-function initFlexSearch() {
+const initFlexSearch = () => {
     // First retrieve the index file
     $.getJSON("/index.json")
         .done(function (index) {
@@ -36,22 +36,22 @@ function initFlexSearch() {
             $flexIndex.add(index)
         })
         .fail(function (jqxhr, textStatus, error) {
-            var err = textStatus + ", " + error;
+            const err = textStatus + ", " + error;
             console.error("Error getting Hugo index file:", err);
         });
 }
 
 // Nothing crazy here, just hook up a listener on the input field
-function initUI() {
+const initUI = () => {
     $results = $("#results");
-    let searchResult = $("#search-results");
-    let api = $("#menu")[0].mmApi;
+    const searchResult = $("#search-results");
+    const api = $("#menu")[0].mmApi;
 
     $(".flex-search").keyup(function () {
         $results.empty();
 
         // Only trigger a search when 2 chars. at least have been provided
-        var query = $(this).val();
+        const query = $(this).val();
         if (query.length < 2) {
             return;
         }
@@ -62,7 +62,7 @@ function initUI() {
         searchResult.empty();
 
         // Only trigger a search when 2 chars. at least have been provided
-        var query = $(this).val();
+        const query = $(this).val();
         if (query.length < 2) {
             api.closeAllPanels();
             return;
@@ -78,8 +78,8 @@ function initUI() {
  * @param  {String} query
  * @return {Array}  results
  */
-function search(query, sr, amount = 10) {
-    var results = $flexIndex.search({
+const search = (query, sr, amount = 10) => {
+    const results = $flexIndex.search({
 
         field: ["title", "content"],
         query: query,
@@ -93,15 +93,15 @@ function search(query, sr, amount = 10) {
  *
  * @param  {Array} results to display
  */
-function renderResults(results, sr, amount) {
+const renderResults = (results, sr, amount) => {
     if (!results.length) {
         sr.append("<p>No results found</p>");
         return;
     }
 
     // Only show the ten first results
-    results.slice(0, amount).forEach(function (result) {
-        var $result = "<div class='result' role='option'>" +
+    results.slice(0, amount).forEach((result) => {
+        const $result = "<div class='result' role='option'>" +
             "<a href='" + result.uri + "'>" +
             result.title +
             "</a>" +
