@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.40.1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plugin integration - MultiSafepay Documentation Center</title>
+  
+  
+  
+
+  
+
+<meta name="description" content="In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team.">
+
+
+  
+  <meta name="author" content="">
+
+  <meta property="og:title" content="Integrations" />
+<meta property="og:site_name" content="MultiSafepay Documentation Center" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/integrations/" />
+<meta property="og:image" content="https://www.multisafepay.com/typo3conf/ext/jh_opengraphprotocol/Resources/Public/Images/nopic.jpg">
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:locale" content="en_EN" />
+<link rel="canonical" href="https://docs.multisafepay.com/integrations/" />
+  
+  
+  
+  
+  
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PNH6K7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+    
+    {'gtm.start': new Date().getTime(),event:'gtm.js'}
+    );var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PNH6K7');</script>
+
+
+  
+  <link href="https://docs.multisafepay.com/integrations/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+  <link rel="canonical" href="https://docs.multisafepay.com/integrations/">  
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+  <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+  <link href="https://docs.multisafepay.com/css/main.css" rel="stylesheet" />
+  <link href="https://docs.multisafepay.com/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+  <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+  <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/plugins">Plugins</a></li>
+                        
+                        <li ><a href="/integrations/hosted">Hosted Plugins</a></li>
+                        
+                        <li ><a href="/integrations/sdk">SDK</a></li>
+                        
+                        <li ><a href="/integrations/wrappers">Wrappers</a></li>
+                        
+                        <li ><a href="/integrations/community">Community</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/api/">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/faq/">
+                                <i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i>
+                                FAQ
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/payment-methods/">
+                                <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                                Payment Methods
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/redoc/">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                Redoc
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/tools/">
+                                <i class="fa fa-wrench fa-lg" aria-hidden="true"></i>
+                                Tools
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>    
+    </div>
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 768,
+                    expanded: 1200
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        "searchfield"
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+                {
+                    position: 'bottom',
+                    content: ['<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>']
+                },
+            ],
+            searchfield: {
+                showTextItems: true,
+                placeholder: "Search documentation..."
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+        
+        
+  <nav class="header-background navbar navbar-expand-lg">
+
+    <span id="hamburger" class="Sticky">
+        <a href="#menu"  class="mburger mburger--collapse text-white">
+            <b></b>
+            <b></b>
+            <b></b>
+        </a>
+    </span>
+
+  <a href="/"><img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img></a>
+
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="https://www.multisafepay.com/contact"
+        >Contact</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white login" href="https://www.multisafepay.com/login/">Login</a>
+    </li>
+  </ul>
+</nav>
+        
+        
+        <div>
+  <ol class="breadcrumb">
+    
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Integrations
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+<div class="container">
+  <div class="row">
+    <div class="col-12 list-title">
+      <h1>Integrations</h1>
+      <hr class="separator">
+      <p></p>
+    </div>
+  </div>
+    <div class="row pb-5">
+        
+        
+        <div class="col-md-6 ">
+            <a href="https://docs.multisafepay.com/integrations/plugins/" class="row block-item my-3 mx-1 p-4">
+                <div class="col-8">
+                    <div class="block-item__title">
+                        <h4 class="text-dark">Plugins</h4>
+                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center">
+                    <img src="/icons/Plugins.svg" class="img-fluid" alt="Plugins" />
+                </div>
+            </a>
+        </div>
+        
+        
+        
+        <div class="col-md-6 ">
+            <a href="https://docs.multisafepay.com/integrations/hosted/" class="row block-item my-3 mx-1 p-4">
+                <div class="col-8">
+                    <div class="block-item__title">
+                        <h4 class="text-dark">Hosted Plugins</h4>
+                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center">
+                    <img src="/icons/Hosted%20plugins.svg" class="img-fluid" alt="Hosted Plugins" />
+                </div>
+            </a>
+        </div>
+        
+        
+        
+        <div class="col-md-6 ">
+            <a href="https://docs.multisafepay.com/integrations/sdk/" class="row block-item my-3 mx-1 p-4">
+                <div class="col-8">
+                    <div class="block-item__title">
+                        <h4 class="text-dark">SDK</h4>
+                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center">
+                    <img src="/icons/SDKs.svg" class="img-fluid" alt="SDK" />
+                </div>
+            </a>
+        </div>
+        
+        
+        
+        <div class="col-md-6 ">
+            <a href="https://docs.multisafepay.com/integrations/wrappers/" class="row block-item my-3 mx-1 p-4">
+                <div class="col-8">
+                    <div class="block-item__title">
+                        <h4 class="text-dark">Wrappers</h4>
+                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center">
+                    <img src="/icons/Wrappers.svg" class="img-fluid" alt="Wrappers" />
+                </div>
+            </a>
+        </div>
+        
+        
+        
+        <div class="col-md-6 ">
+            <a href="https://docs.multisafepay.com/integrations/community/" class="row block-item my-3 mx-1 p-4">
+                <div class="col-8">
+                    <div class="block-item__title">
+                        <h4 class="text-dark">Community</h4>
+                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center">
+                    <img src="/icons/Tools.svg" class="img-fluid" alt="Community" />
+                </div>
+            </a>
+        </div>
+        
+        
+    </div>
+  </div>
+
+        
+<footer class="footer-background">
+  
+            <div class="text-center">
+                <a href="https://multisafepay.com"
+                  ><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a
+                >
+              </div>
+        </footer>
+     </div>
+    
+     
+    
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/flexsearch.min.js"></script>
+    <script type="text/javascript" src="/js/flex_search.js"></script>
+</body>
+
+</html>

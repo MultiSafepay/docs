@@ -87,3 +87,9 @@ name = "Shell"
     url  = "/tools/"
     pre = "fa fa-wrench fa-lg"
     weight = 50
+
+[[menu.main]]
+    name = "ReDoc"
+    url  = "/redoc/"
+    pre = "fa fa-code fa-lg"
+    weight = 50

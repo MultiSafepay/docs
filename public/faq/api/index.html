@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.40.1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ API - MultiSafepay Support</title>
+  
+  
+  
+
+  
+
+<meta name="description" content="In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team.">
+
+
+  
+  <meta name="author" content="">
+
+  <meta property="og:title" content="API FAQ" />
+<meta property="og:site_name" content="MultiSafepay Documentation Center" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/faq/api/" />
+<meta property="og:image" content="https://www.multisafepay.com/typo3conf/ext/jh_opengraphprotocol/Resources/Public/Images/nopic.jpg">
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:locale" content="en_EN" />
+<link rel="canonical" href="https://docs.multisafepay.com/faq/api/" />
+  
+  
+  
+  
+  
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PNH6K7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+    
+    {'gtm.start': new Date().getTime(),event:'gtm.js'}
+    );var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PNH6K7');</script>
+
+
+  
+  <link href="https://docs.multisafepay.com/faq/api/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+  <link rel="canonical" href="https://docs.multisafepay.com/faq/api/">  
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+  <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+  <link href="https://docs.multisafepay.com/css/main.css" rel="stylesheet" />
+  <link href="https://docs.multisafepay.com/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+  <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+  <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/plugins">Plugins</a></li>
+                        
+                        <li ><a href="/integrations/hosted">Hosted Plugins</a></li>
+                        
+                        <li ><a href="/integrations/sdk">SDK</a></li>
+                        
+                        <li ><a href="/integrations/wrappers">Wrappers</a></li>
+                        
+                        <li ><a href="/integrations/community">Community</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/api/">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/faq/">
+                                <i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i>
+                                FAQ
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/payment-methods/">
+                                <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                                Payment Methods
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/redoc/">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                Redoc
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="/tools/">
+                                <i class="fa fa-wrench fa-lg" aria-hidden="true"></i>
+                                Tools
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>    
+    </div>
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 768,
+                    expanded: 1200
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        "searchfield"
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+                {
+                    position: 'bottom',
+                    content: ['<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>']
+                },
+            ],
+            searchfield: {
+                showTextItems: true,
+                placeholder: "Search documentation..."
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+        
+        
+  <nav class="header-background navbar navbar-expand-lg">
+
+    <span id="hamburger" class="Sticky">
+        <a href="#menu"  class="mburger mburger--collapse text-white">
+            <b></b>
+            <b></b>
+            <b></b>
+        </a>
+    </span>
+
+  <a href="/"><img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img></a>
+
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="https://www.multisafepay.com/contact"
+        >Contact</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white login" href="https://www.multisafepay.com/login/">Login</a>
+    </li>
+  </ul>
+</nav>
+        
+        
+        <div>
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/faq/">FAQ</a>
+  
+
+</li>
+
+
+<li>
+
+
+  API FAQ
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+<div class="container">
+  <div>
+    <h1>API FAQ</h1>
+    <hr class="separator">
+    <p>lorem ipsum lorem ipsum</p>
+  </div>
+  <section>
+    <div id="accordion" class="row">
+      
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
+          <div id="heading-can-i-disable-second-chance-through-api">
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#can-i-disable-second-chance-through-api"
+              aria-expanded="true" aria-controls="can-i-disable-second-chance-through-api">
+              <img class="faq-svg" src="/icons/Arrow.svg" />
+              <b class="px-3">Can I disable Second Chance through API?</b>
+            </div>
+          </div>
+
+          <div id="can-i-disable-second-chance-through-api" class="collapse faq-content" aria-labelledby="heading-can-i-disable-second-chance-through-api"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
+              <p>Yes you can. This can be done in the transaction request when you <a href="/api/#create-an-order">create an order</a>,
+use the value <em>false</em> instead of <em>true</em>.</p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
+          <div id="heading-does-multisafepay-still-offer-the-xml-api">
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#does-multisafepay-still-offer-the-xml-api"
+              aria-expanded="true" aria-controls="does-multisafepay-still-offer-the-xml-api">
+              <img class="faq-svg" src="/icons/Arrow.svg" />
+              <b class="px-3">Does MultiSafepay still offer the XML API?</b>
+            </div>
+          </div>
+
+          <div id="does-multisafepay-still-offer-the-xml-api" class="collapse faq-content" aria-labelledby="heading-does-multisafepay-still-offer-the-xml-api"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
+              <p>The XML API is deprecated and succeeded by the <a href="/api/">JSON API</a>). The XML endpoint can still be used to process transaction requests. However, new payment methods, features and tools will only be supported by using the JSON API.</p>
+
+<p>There are no plans to phase out the XML integration at this point, but this might change in the foreseeable future.</p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
+          <div id="heading-how-does-the-notification-url-work">
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#how-does-the-notification-url-work"
+              aria-expanded="true" aria-controls="how-does-the-notification-url-work">
+              <img class="faq-svg" src="/icons/Arrow.svg" />
+              <b class="px-3">How does the notification URL work?</b>
+            </div>
+          </div>
+
+          <div id="how-does-the-notification-url-work" class="collapse faq-content" aria-labelledby="heading-how-does-the-notification-url-work"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
+              
+
+<h2 id="notification">Notification</h2>
+
+<p>Our API will notify your web server when the status of a transaction changes.<br />
+We will add 2 parameters to the notification:</p>
+
+<ul>
+<li>Transactionid<br /></li>
+<li>Timestamp.<br /></li>
+</ul>
+
+<p>MultiSafepay will always call the notification_url with the timestamp parameter.</p>
+
+<p>When MultiSafepay calls the notification_url without a timestamp, the call should be ignored.<br />
+The call should also be ignored when the same order status is received.</p>
+
+<h2 id="example">Example</h2>
+
+<p>In a request we receive:<br />
+<em>This request is done through a GET request</em>.</p>
+
+<pre><code>&quot;order_id&quot;: 12345,  
+&quot;notification_url&quot;: https://yourdomain.com/index/paymentprovidernotification?invoice_id=840,
+</code></pre>
+
+<p>When the status of this transaction changes, we will notify the web server with this URL:
+<a href="https://yourdomain.com/index/paymentprovidernotification?invoice_id=840&amp;transactionid=12345&amp;timestamp=140292929" target="_blank">https://yourdomain.com/index/paymentprovidernotification?invoice_id=840&amp;transactionid=12345&amp;timestamp=140292929</a></p>
+
+<p>Carry out the following 3 tasks within your custom implementation:</p>
+
+<ol>
+<li>Perform a status request on the order using the <em>transactionid</em> provided</li>
+<li>Update the status of the order within your own systems</li>
+<li>Return an OK message. We expect an empty page with just OK in the body of the response on this request, with a HTTP 200 OK in the header.</li>
+</ol>
+
+<h3 id="note">Note:</h3>
+
+<ol>
+<li>Always use (http or https) in the URL</li>
+<li>A notification URL supplied in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay Control</a> will be leading. Meaning, we will use the provided notification URL available in your MultiSafepay Control first</li>
+<li>Port numbers should not be included in the notification URL. Our platform only processes standard ports due to security reasons.</li>
+</ol>
+
+<h3 id="response">Response</h3>
+
+<p>As response MultiSafepay expects an empty page with just OK in the body of the response on this request, with a HTTP 200 OK in the header.
+When an OK is not received, MultiSafepay will repeat this notification. The notification with timestamp is repeated twice within 15 minutes.</p>
+
+<p>Please make sure that our <a href="/faq/general/ip-ranges/">IP ranges</a> is authorized to process the notification URL.</p>
+
+<p>When our systems call the code at your notification_url, your code can perform a GET request on our <a href="/api/#retrieve-an-order">API</a> to receive the actual status of the transaction. The field <strong>status</strong> is relevant for further processing of the order.</p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
+          <div id="heading-lifetime-of-a-payment-link">
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#lifetime-of-a-payment-link"
+              aria-expanded="true" aria-controls="lifetime-of-a-payment-link">
+              <img class="faq-svg" src="/icons/Arrow.svg" />
+              <b class="px-3">Lifetime of a payment link</b>
+            </div>
+          </div>
+
+          <div id="lifetime-of-a-payment-link" class="collapse faq-content" aria-labelledby="heading-lifetime-of-a-payment-link"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
+              
+
+<h2 id="days-active-seconds-active">days_active / seconds_active</h2>
+
+<p>The parameter days_active indicates the lifetime of a payment link. This will be 30 days by default. The parameter seconds_active is equal to the days_active, only instead of minutes it is specified in seconds. Example: 86.400 seconds_active is 1 days_active.</p>
+
+<h3 id="there-are-exceptions-to-the-rule"><em>There are exceptions to the rule.</em></h3>
+
+<h2 id="bank-transfer">Bank transfer</h2>
+
+<p>The bank transfer as payment method is valid for 60 days by default. After 60 days the transaction will automatically expire. However, the payment link that is provided in the bank transfer email to the customer can be adjusted by setting a days_active or seconds_active. Meaning, that the transaction with the bank transfer as payment method is active for 60 days, while the payment link expires after 30 days by default.</p>
+
+<h2 id="paypal">PayPal</h2>
+
+<p>A payment link with the payment method PayPal is valid for 14 days. The lifetime of the payment link is set by PayPal. Therefore, a payment link created with the payment method PayPal will automatically expire after 14 days.</p>
+
+<p>The lifetime of PayPal exceeds the lifetime of MultiSafepay, unless the lifetime falls below the 14 days</p>
+
+<h2 id="second-chance-email">Second Chance email</h2>
+
+<p>The <a href="/tools/second-chance/">Second Chance</a> email is a gentle payment reminder sent to the customer. The Second Chance email will include a payment link, if the customer desires he or she can finalize the payment.
+The email regarding the Second Chance is sent once after 1 hour and once after 24 hours. This is not adjustable and is enabled or disabled. If the days_active or seconds_active are set under 24 hours, the payment link will display an error message when opened.</p>
+
+<p>When a payment link is set to expires within 24 hours but the Second Chance is enabled, the customer will receive an expired payment link in the Second Chance email that is sent.</p>
+
+<h2 id="post-payment-method">Post payment method</h2>
+
+<p>Post payment methods are excluded when setting a lifetime on a payment link. Post payment methods have an own payment flow and can therefore not be influenced via a days or seconds active.</p>
+
+<h2 id="api">API</h2>
+
+<p>Full API documentation on the lifetime of a payment link can be found on our API page, <a href="/api/#days-active-seconds-active">days_active / seconds_active</a></p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
+          <div id="heading-what-does-locale-do">
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#what-does-locale-do"
+              aria-expanded="true" aria-controls="what-does-locale-do">
+              <img class="faq-svg" src="/icons/Arrow.svg" />
+              <b class="px-3">What does Locale do?</b>
+            </div>
+          </div>
+
+          <div id="what-does-locale-do" class="collapse faq-content" aria-labelledby="heading-what-does-locale-do"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
+              <p>A locale can be included to provide localized payment pages for the customer. Use the format ab_CD with <a href="https://www.iso.org/iso-639-language-codes.html" target="_blank">ISO 639 language codes</a> and <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 country codes</a>. This will show the desired language for that customer (if supported by MultiSafepay) on both the payment page and the emails MultiSafepay sends. When left empty or with a unsupported value, en_US, meaning American English, is used.</p>
+
+<p>In some cases, the locale is also used to show certain variants of payment methods, such as:</p>
+
+<ul>
+<li><a href="/payment-methods/branded-credit-cards/cartasi-what-is-it/">CartaSi</a> (it_IT needed)</li>
+<li><a href="/payment-methods/branded-credit-cards/carte-bleue-what-is-it/">Carte Bleue</a> (fr_FR needed)</li>
+<li><a href="/payment-methods/branded-credit-cards/dankort-what-is-it/">Dankort</a> (da_DK needed)</li>
+<li><a href="/payment-methods/branded-credit-cards/postepay/">Postepay</a> (it_IT needed).</li>
+</ul>
+
+<p>The locale is also important to send the correct email template to the customer.</p>
+
+<p>For example: When an email template is set for the German customer, but the locale is received as <em>en_US</em>, the email template will be sent in English and not in German.</p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
+          <div id="heading-why-request-the-ip-address-of-the-customer">
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#why-request-the-ip-address-of-the-customer"
+              aria-expanded="true" aria-controls="why-request-the-ip-address-of-the-customer">
+              <img class="faq-svg" src="/icons/Arrow.svg" />
+              <b class="px-3">Why request the IP address of the customer?</b>
+            </div>
+          </div>
+
+          <div id="why-request-the-ip-address-of-the-customer" class="collapse faq-content" aria-labelledby="heading-why-request-the-ip-address-of-the-customer"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
+              
+
+<h4 id="ip-address">ip_address</h4>
+
+<p>Due to validating the <i>ip_address</i> of the customer within post payment and credit card payment methods, we need the actual IP address of the end user within the <i>ip_address</i> field.</p>
+
+<p>Meaning, the optional parameter <i>&ldquo;ip_address (optional)</i> within the JSON is now a <i>&ldquo;required&rdquo;</i> field when processing post payment and/or credit card payment methods.</p>
+
+<p>Upon validating the <i>ip_address</i>, localhost IP address instead of the end user, may result in transactions end up being marked with the status uncleared or even be rejected/declined.</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">   <span class="s2">&#34;customer&#34;</span>: <span class="o">{</span>
+        <span class="s2">&#34;ip_address&#34;</span>: <span class="s2">&#34;31.148.195.10&#34;</span>,
+        <span class="s2">&#34;forwarded_ip&#34;</span>: <span class="s2">&#34;&#34;</span> </code></pre></div>
+<h4 id="forwarded-ip">forwarded_ip</h4>
+
+<p>The X-FORWARDED-FOR header of the customer request when using a proxy.</p>
+
+<p><i>forwarded_ip</i> is to be used when there is a proxy. In all other cases they need to use the <i>ip_address</i> to retrieve the IP address of the customer.</p>
+
+<h4 id="uncleared-status-or-declined">Uncleared status or Declined</h4>
+
+<p>Due to the validation on the IP address of the end user (customer) a transaction can unnecessarily be marked with the status uncleared or even be declined.</p>
+
+<p>Before a payment is accepted, a fraud check will take place on the transaction. The required ip_address field is one of the checks processed in the validation of the payment. When supplied as empty or incorrect (by providing the ip_address of the webshop instead of the customer) the chances are high the transaction will be marked with the status uncleared.</p>
+
+<p>Credit cards and post payment methods are high risk for fraud. Therefore, the validation of each transaction will automatically take place to protect the merchants processing with MultiSafepay.</p>
+
+<p><br></p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <div class="pb-4 pt-4">
+  <div class="row content  pt-2">
+    <div class="col-12 text-nor border-bottom">
+      <p>
+        <img class="mr-2 globe " src="/icons/globe.svg" width="20" />Other languages
+      </p>
+    </div>
+  </div>
+
+  <section id="Support" class="other-lang">
+    <div class="row content  pt-2">
+      <div class="col-12 text-nor border-bottom">
+        <p>
+          <img class="mr-1" src="/flags/nl.svg" width="20" /> Liever uitleg in
+          het Nederlands? Neem contact op met uw accountmanager.
+        </p>
+      </div>
+      <div class="col-12 text-nor border-bottom">
+        <p>
+          <img class="mr-1" src="/flags/it.svg" width="20" /> Vuoi ricevere
+          informazioni in italiano? Contatta il tuo account manager.
+        </p>
+      </div>
+      <div class="col-12 text-nor border-bottom">
+        <p>
+          <img class="mr-1" src="/flags/es.svg" width="20" /> Prefieres tener la
+          explicación en Español? Contacta con tu gerente de cuentas.
+        </p>
+      </div>
+      <div class="col-12 text-fr  border-bottom">
+        <p>
+          <img class="mr-1" src="/flags/fr.svg" width="20" /> Vous préférez une
+          explication en français? Contactez votre gestionnaire de compte.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    faqArrowAnimation();
+  });
+</script>
+
+        
+<footer class="footer-background">
+  
+            <div class="text-center">
+                <a href="https://multisafepay.com"
+                  ><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a
+                >
+              </div>
+        </footer>
+     </div>
+    
+     
+    
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/flexsearch.min.js"></script>
+    <script type="text/javascript" src="/js/flex_search.js"></script>
+</body>
+
+</html>
