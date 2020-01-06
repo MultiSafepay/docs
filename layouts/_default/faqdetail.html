@@ -11,27 +11,32 @@
         </aside>
     </div>
 </div>
+
 <div class="js-toc-content">
+    <section class="manual pb-3">
+
     <div class="container">
         <div class="row">
             <div class="col-9">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-8">
                         <h1 id="{{ .Title}}">{{ .Title}}</h1>
                         <hr class="separator">
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        {{ .Content }}
-                    </div>
-                </div>
-
-            </div>        
+            </div>
         </div>
     </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
 <div class="container">
     <div class="row">
         {{ partial "edit-page" . }}

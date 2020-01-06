@@ -837,3 +837,7 @@ div#results a:hover {
 .manual ul, .manual ol {
     padding: 0 1rem;
 }
+
+.full-width {
+    width: 100%;
+}
