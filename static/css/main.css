@@ -141,6 +141,7 @@ div.block {
 
 .block-item-buttons {
     display: flex;
+    display: -webkit-flexbox;
     flex-direction: row;
 }
 
@@ -194,6 +195,7 @@ div.block {
 
 .faq-title-block {
     display: flex;
+    display: -webkit-flexbox;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
@@ -289,6 +291,7 @@ ol.breadcrumb {
 
 .mm-navbar__breadcrumbs {
     display: flex;
+    display: -webkit-flexbox;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -486,6 +489,7 @@ nav.navbar {
 @media screen and (min-width: 768px) {
     nav>ul.navbar-nav.ml-auto {
         display: flex;
+        display: -webkit-flexbox;
         flex-direction: row;
     }
     a.navbar-brand>img {
@@ -737,6 +741,8 @@ ul.navbar-nav.ml-auto {
   right: 100%;
   z-index: 100;
   clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
+  -webkit-clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
+
 }
 
 body, html {
@@ -813,4 +819,12 @@ div#results a:hover {
 
 .manual ul, .manual ol {
     padding: 0 1rem;
+}
+
+/* safari fixes*/
+
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
