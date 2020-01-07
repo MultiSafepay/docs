@@ -1,5 +1,12 @@
 /** API **/
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 article {
 	display: flex;
 	flex-direction: column;
@@ -259,4 +266,9 @@ span.m {
 
 .api-toc > .toc-list > .toc-list-item:first-of-type  {
 	border-top:0 solid rgba(0, 0, 0, 0);
+}
+
+.content table {
+	table-layout: fixed;
+    width: 100%;
 }
