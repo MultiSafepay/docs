@@ -6,7 +6,7 @@
                 <div id="accordion" class="row">
                     {{range .Sections}}
                     {{ range .Pages}}
-                    <div class="col-lg-6 pb-4">
+                    <div class="col-lg-12 pb-4">
                         <div class="block-faq py-3 px-4">
                             <div id="heading-{{ .Title | urlize}}">
                                 <div class="mb-0 faq-title-block" data-toggle="collapse"
@@ -20,9 +20,18 @@
                             <div id="{{ .Title | urlize}}" class="collapse faq-content"
                                 aria-labelledby="heading-{{ .Title | urlize}}" data-parent="#accordion">
                                 <div class="mx-3 line"></div>
-                                <div class="p-3">
-                                    {{ .Content }}
-                                </div>
+                                {{ if isset .Params "read_more" }}
+                                    <div class="p-3">
+                                        {{ index .Params "summary" }}
+                                    </div>
+                                    <div class="p-3">
+                                    <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+                                    </div>
+                                {{else}}
+                                    <div class="p-3">
+                                        {{ .Content }}
+                                    </div>
+                                {{end}}
                             </div>
                         </div>
                     </div>

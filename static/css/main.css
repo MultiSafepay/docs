@@ -38,6 +38,17 @@
     width: 25px;
     height: 50px;
     margin: 0 15px;
+
+    transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        -moz-transform: rotate(0deg);
+        /* Firefox */
+        -webkit-transform: rotate(0deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(0deg);
+        /* Opera */
+        transition: all 0.2s ease-out;
 }
 
 .msp-app {
@@ -771,12 +782,24 @@ div.sticky-with-menu {
   }
 }
 
+.js-toc-content h1, 
+.js-toc-content h2,
+.js-toc-content h3,
+.js-toc-content h4,
+.js-toc-content h5,
+.js-toc-content h6 {
+    scroll-margin-top: var(--navbar-height);
+}
+
+@-moz-document url-prefix() {
+
 .js-toc-content h1::before, .js-toc-content h2::before, .js-toc-content h3::before, .js-toc-content h4::before, .js-toc-content h5::before, .js-toc-content h6::before {
-  display: block;
-  content: " ";
-  height: var(--navbar-height);
-  margin-top: calc(var(--navbar-height) * -1);
-  visibility: hidden;
+    display: block;
+    content: " ";
+    height: var(--navbar-height);
+    margin-top: calc(var(--navbar-height) * -1);
+    visibility: hidden;
+  }
 }
 
 .js-toc-content {
@@ -821,8 +844,11 @@ div#results a:hover {
     padding: 0 1rem;
 }
 
-/* safari fixes*/
+.full-width {
+    width: 100%;
+}
 
+/* safari fixes*/
 .navbar {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
