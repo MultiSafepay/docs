@@ -1,4 +1,12 @@
 /********** VARS ************/
+html { 
+    font-size:62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
 
 :root {
     --mm-sidebar-collapsed-size: 60px !important;
@@ -25,12 +33,19 @@
 
 .header__title {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 3.6rem;
     font-weight: 500;
+    width: 70%;
+}
+
+.header-background-home p {
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .block-item img {
     width: 50px;
+
 }
 
 .faq-svg {
@@ -53,6 +68,13 @@
     background-color: #f9f9f9;
     margin-top: 100px;
     margin-bottom: 50px;
+    font-size: 1.6rem;
+    font-size: 400;
+}
+
+.msp-app h4 {
+    font-size: 2.2rem;
+    font-size: 500; 
 }
 
 .app-store-icon>img {
@@ -145,6 +167,13 @@ div.block {
 .row .block-item {
     border-radius: 7px;
     box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.block-item h3, .block-item h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
 .block-item-buttons {
@@ -233,6 +262,8 @@ div.block {
 
 ol.breadcrumb {
     background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 /**********************/
@@ -360,6 +391,11 @@ ol.breadcrumb {
     position: relative;
 }
 
+.toc {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
 .toc>.toc-list li {
     list-style: none;
 }
@@ -370,7 +406,8 @@ a.toc-link {
 }
 
 .toc-title {
-    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 
 .is-collapsible {
@@ -487,13 +524,13 @@ nav.navbar {
 
 .navbar a.login {
     border-radius: 3px;
-    padding-left: 2rem !important;
+    padding-left: 2.5rem !important;
     padding-right: 0.5rem !important;
     margin-left: 1rem;
     background-image: url(/icons/Login.svg);
     background-size: 12px 16px;
     background-repeat: no-repeat;
-    background-position: 10px 11px;
+    background-position: 0.75rem 0.75rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-clip: padding-box;
 }
@@ -530,6 +567,11 @@ ul.navbar-nav.ml-auto {
 #docs-logo {
     width: 200px;
     padding: 0 16px;
+}
+
+#menu {
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .menu-buttons {
@@ -737,6 +779,8 @@ ul.navbar-nav.ml-auto {
     background-color: white;
     border-radius: 6px;
     border: 1px solid rgb(0, 0, 0, 0.1) !important;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 #search-input:focus {
@@ -761,6 +805,8 @@ ul.navbar-nav.ml-auto {
 body, html {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 nav.navbar {
@@ -768,6 +814,8 @@ nav.navbar {
     top: 0;
     z-index: 50;
     height: var(--navbar-height);
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 div.sticky-with-menu {
@@ -853,9 +901,12 @@ div#results a:hover {
     border-radius: 0;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+.block-faq, .faq-content, #Support, .row.content {
+    font-size: 1.6rem;
+    font-weight: 400;  
+}
+
+.faq-title-block {
+    font-size: 1.6rem;
+    font-weight: 500;
 }
