@@ -943,3 +943,11 @@ div#results a:hover {
 .js-toc-content h2 {
     font-size: 2.2rem;
 }
+
+.js-toc-content .primary {
+     margin-left: 2rem;
+}
+
+.manual .col-md-9 > p, .manual .col-md-9 > ul, .manual .col-md-9 > ol, .manual .col-md-9 pre {
+    margin-left: 2rem;
+}
