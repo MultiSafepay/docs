@@ -725,7 +725,7 @@ ul.navbar-nav.ml-auto {
     font-family: 'Source Code Pro', monospace;
 }
 
-.manual ul {
+.manual ul, .manual ol {
     list-style-position: inside;
     padding-right: 45px;
     padding-left: 45px;
@@ -906,7 +906,12 @@ div#results a:hover {
 }
 
 .manual ul, .manual ol {
-    padding: 0 1rem;
+    padding: 0 2rem;
+    list-style-position: outside;
+}
+
+.manual ul li p, .manual ol li p {
+    display:  inline;
 }
 
 .full-width {
