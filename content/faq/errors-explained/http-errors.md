@@ -6,6 +6,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 > * Please note that HTTP errors are not necessarily originated from the MultiSafepay platform. They are rather generic errors you can come across while browsing the web.
 
+Below you can find a list of the most common error codes and their explanations:
+
 |  Error	|  Description 	           |
 |-----------|--------------------------|
 | HTTP 200: OK | The page responds correctly but lacks the text 'OK' in the body. |          

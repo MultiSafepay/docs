@@ -36,12 +36,12 @@ Carry out the following 3 tasks within your custom implementation:
 ### Note:
 
 1. Always use (http or https) in the URL
-2. A notification URL supplied in your [MultiSafepay Control](https://merchant.multisafepay.com) will be leading. Meaning, we will use the provided notification URL available in your MultiSafepay Control first 
+2. A notification URL supplied in your [MultiSafepay Control](https://merchant.multisafepay.com) will be leading. This means that we will use the provided notification URL available in your MultiSafepay Control first 
 3. Port numbers should not be included in the notification URL. Our platform only processes standard ports due to security reasons. 
 
  
 ### Response
-As response MultiSafepay expects an empty page with just OK in the body of the response on this request, with a HTTP 200 OK in the header.
+As response, MultiSafepay expects an empty page with just OK in the body of the response on this request, with a HTTP 200 OK in the header.
 When an OK is not received, MultiSafepay will repeat this notification. The notification with timestamp is repeated twice within 15 minutes. 
 
 Please make sure that our [IP ranges](/faq/general/ip-ranges/) is authorized to process the notification URL.

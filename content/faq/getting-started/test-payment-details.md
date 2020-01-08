@@ -4,18 +4,20 @@ meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-By thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
+For thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
 
-Testing with our test credentials can only be done in you MultiSafepay Test Control. Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge
+Testing with our test credentials can only be done in you MultiSafepay Test Control. Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
 
 With a successful connection with your test or staging environment, you can immediately start testing.
 
-Additional payment methods and outgoing payments are disabled by default.
-Contact our support department at <support@multisafepay.com> to assist you further. Or call us +31 20 8500 500
+<div class="alert alert-warning">Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control.</div>
+
+If assistance is required, contact our Integration Team at <integration@multisafepay.com>
+
 
 ## AfterPay
 
-Contact our Integration Team to enable the payment method AfterPay in your MultiSafepay Test Control. <integration@multisafepay.com>
+Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your MultiSafepay Test Control.
 
 ## Alipay
 
@@ -30,7 +32,7 @@ MultiSafepay provides a test platform for Alipay transactions. During the paymen
 
 MultiSafepay provides a test platform for American Express transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
 
-* cvc 123
+* CVC 123
 * Select a date in the future for the expiry date
 
 | Card number         | Status    | Description              |
@@ -52,7 +54,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 
 ## BankTransfer
 
-MultiSafepay provides a test platform for BankTransfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for bank transfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
 
 | IBAN               | Status    | Description              |
 | ------------------ | --------- | ------------------------ |
@@ -74,28 +76,28 @@ MultiSafepay provides a test platform for Belfius transactions. During the payme
 ## CartaSi
 MultiSafepay provides the Visa test credantials to test the payment method CartaSi.
 
-The payment method CartaSi is shown as a payment option on the Payment page of MultiSafepay depending on:
+CartaSi is shown as a payment option on the payment page of MultiSafepay only after:
 
-1. The Visa gateway needs to be enabled.
-2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
+1. The Visa gateway is enabled; and
+2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.
 
-## Carte Bleue
+## Cartes Bancaires
 
-MultiSafepay provides the Visa test credantials to test the payment method Carte Bleue.
+MultiSafepay provides the Visa test credantials to test the payment method Cartes Bancaires.
 
-The payment method Carte Bleue is shown as a payment option on the Payment page of MultiSafepay depending on:
+Cartes Bancaires is shown as a payment option on the payment page of MultiSafepay only after:
 
-1. The Visa gateway needs to be enabled.
-2. The locale needs to be fr_FR (France) in the transaction call received by MultiSafepay.
+1. The Visa gateway is enabled; and
+2. The locale is set to fr_FR (France) in the transaction call received by MultiSafepay.
 
 ## Dankort
 
 MultiSafepay provides the Visa test credantials to test the payment method Dankort.
 
-The payment method Dankort is shown as a payment option on the Payment page of MultiSafepay depending on:
+Dankort is shown as a payment option on the Payment page of MultiSafepay only after:
 
-1. The Visa gateway needs to be enabled.
-2. The locale needs to be da_DK (Denmark) in the transaction call received by MultiSafepay.
+1. The Visa gateway is enabled; and
+2. The locale is set to da_DK (Denmark) in the transaction call received by MultiSafepay.
 
 ## SEPA Direct Debit
 
@@ -141,7 +143,7 @@ MultiSafepay provides a test platform for Giropay/EPS transactions. During the p
 | Any BIC | Completed | Transaction is Completed |
 | Any BIC | Declined  | Transaction is Declined |
 
-Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
+Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
 
 ## iDEAL
 
@@ -177,7 +179,7 @@ The payment method KBC can only be processed on our new Payment page starting wi
 
 ## Klarna
 
-Klarna provides their own [Test Credentials](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+Klarna provides their own test credentials. For a complete guide, check out [Klarna's documentation](https://developers.klarna.com/en/gb/kco-v3/test-credentials).
 
 ## Maestro
 
@@ -193,7 +195,7 @@ MultiSafepay provides a test platform for Maestro transactions. The simulation i
 MultiSafepay provides a test platform for Mastercard transactions. The simulation is similar to the Visa test platform. For extensive testing please use the Visa test platform. By entering a test card number, you will be able to simulate the outcome of the transaction.
 
 
-* cvc 123
+* CVC 123
 * Select a date in the future for the expiry date
 
 | Card number         | Status    | Description              |
@@ -228,11 +230,11 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/)
 
 
-## Santander
+## Santander Betaalplan
 
 Currently no test data available for the payment method Santander.
 
-When activating Santander as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+When activating Santander Betaalplan as payment method in a live MultiSafepay Control, the payment method will be tested before release.
 
 ## SOFORT Banking
 
@@ -256,7 +258,7 @@ MultiSafepay provides a test platform for Trustly transactions. During the payme
 
 MultiSafepay provides a test platform for Visa transactions. By entering a test card number you will be able to simulate the outcome of the transaction.
 
-* cvc 123
+* CVC 123
 * Select a date in the future for the expiry date
 
 | Card number         | Status    | Description              |

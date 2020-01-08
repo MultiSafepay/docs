@@ -7,5 +7,5 @@ In order to pay out funds on your MultiSafepay Control to your business bank acc
 
 You can check this by logging in on [MultiSafepay Control](https://merchant.multisafepay.com).
 
-1. Select _Pay-out_ from the Dashboard to the left.
+1. Select _Pay-out_ from the Dashboard to the left
 2. If your account is not fully activated, you will see a red bar at the top of the screen containing a link to the page where you may upload the documents necessary for the approval of your account.

@@ -16,11 +16,11 @@ This occurs typically in the following situations:
 * Exercises de facto control over the affairs of the enterprise, meaning the individuals that in practice determine matter; or
 * Exercises other special rights of 25% or more over the capital of the enterprise, (meaning that an individual holds specific control as a result of, for instance, rights granted in the pages of incorporation.
 
-[Download the Dutch UBO form](/faq/getting-started/form/UBOform_NL_V2.0.pdf "Dutch UBO form")
+[Download the Dutch UBO form](/faq/getting-started/form/UBOform_NL_V2.0.pdf)
 
-[Download the English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf "English UBO form")
+[Download the English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf)
 
-[Download the French UBO form](/faq/getting-started/form/UBOform_FR.pdf "French UBO form")
+[Download the French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
 
 To clarify matters we have the following example:
 * The limited company Good Ltd has a sole shareholder Better Ltd.
@@ -49,4 +49,4 @@ If the enterprise consists of a number of (intermediate) holding companies, then
 
 No, within the definition under the law it is possible that an enterprise does not have an Ultimate Beneficial Owner. For instance in the case that an enterprise has five owners with an equal distribution of capital and control. Each of the owners in this case has does not have 25% of more of the ownership.
 
-For more information please contact your account manager or our screening department at the following email address <screening@multisafepay.com>
+For more information please contact your account manager or our Risk Team via [screening@multisafepay.com](mailto:screening@multisafepay.com?utm_source=email&utm_medium=docs-website&utm_campaign=guidance-notes-ultimate-beneficial-owner-form%2F)

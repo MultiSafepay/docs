@@ -7,13 +7,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 CSRF, also known as Cross-Site Request Forgery.
  
-The warning CSRF is displayed on our Payment page when the customer is reaching the payment page through a POST request.
-This can occur when you are having a HTML form through which you send the customer to `https://payv2.multisafepay.com` with a POST request.
+The warning CSRF is displayed on our payment page when the customer is reaching it through a POST request.
+This can occur when you are having an HTML form through which you send the customer to `https://payv2.multisafepay.com` with a POST request.
  
 * `https://api.multisafepay.com` will accept POST and GET requests
 * `https://payv2.multisafepay.com` will only accept GET requests.
  
 If you are seeing this issue and are having difficulties resolving this error, do not hesitate to contact us at <integration@multisafepay.com>
 
-For more information about our API, see our [Full API Documentation](/api/)
+For more information, see our full [API Documentation](/api/)
 

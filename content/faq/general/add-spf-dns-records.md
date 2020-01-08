@@ -4,7 +4,7 @@ meta_title: "FAQ General - Add SPF DNS records - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-SPF stands for Sender Policy Framework. In an SPF record you can define which servers can send emails on behalf of the domain name. A receiving server can, among other things, decide on the basis of the SPF record to let an email pass, mark it as unsafe or refuse it altogether.
+SPF stands for Sender Policy Framework. In an SPF record you can define which servers can send emails on behalf of your domain name. A receiving server can, among other things, decide on the basis of the SPF record to let an email pass, mark it as unsafe or refuse it altogether.
 
 We do use an SPF record to prevent our emails from being marked as spam.
 

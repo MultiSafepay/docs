@@ -3,19 +3,18 @@ title : "How do I set-up my Exact Globe platform?"
 meta_title: "FAQ Finance - Exact Globe - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+In order to be able to import an accountant export from your MultiSafepay Control into your Exact Globe account, you will need to provide an additional international bank account number (IBAN). However, bear in mind that this is just for Exact to be able to process this kind of operation and the account number can therefore be a "dummy" account. 
 
-A full international bank account number is needed to import the generated accountant export from your MultiSafepay Control into your Exact Globe account.
+## How to "create" a dummy IBAN
 
-_Create a separate bank in Exact Globe with the name MSPAY._
-
-## Create your bank account number (IBAN) at [nl.ibancalculator.com](https://nl.ibancalculator.com).
-
-1. Click on calculate an IBAN
+1. Go to https://www.ibancalculator.com/bic_und_iban.html 
+2. Navigate to the _Calculate an IBAN_ field
 2. Select the Netherlands as country
-3. Choose ING bank as bank
-4. Fill in your merchant ID
+3. Choose any option for a bank (e.g. ING Bank)
+4. Fill in any 7 digits in the _Account number_ field
 5. Click on calculate IBAN
-6. A bank account number (IBAN) and BIC is generated
+6. A bank account number (IBAN) and BIC will be generated
+
 
 ## How do I process the bank account number in my Exact Globe platform?
 

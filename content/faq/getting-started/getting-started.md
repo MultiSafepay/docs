@@ -8,7 +8,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 Here you find all the information you need to start processing payments with MultiSafepay.
 
-### 1. Create a MultiSafepay Control
+### 1. Create a MultiSafepay Control account
 |[Create a test account](https://testmerchant.multisafepay.com/signup)|[Create a live account](https://merchant.multisafepay.com/signup)|
 |---|---|
 |Test MultiSafepay's solutions|Process real online payments|

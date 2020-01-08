@@ -5,14 +5,22 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 MultiSafepay Payment pages support the following languages:
 
-* English
-* Dutch
-* Spanish
-* French
-* Italian
-* Danish
-* Portuguese
-* Hebrew
 * Arabic
-* Russian
+* Czech
+* Danish
+* Dutch
+* English
+* Finnish
+* French
+* German
+* Hebrew
+* Italian
+* Japanese
 * Mandarin
+* Norwegian
+* Polish
+* Portuguese
+* Russian
+* Spanish
+* Swedish
+* Turkish
