@@ -25,6 +25,7 @@ article {
 .code {
 	background-color: #393939;
 	height: 100%;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .description code {
