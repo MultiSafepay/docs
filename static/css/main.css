@@ -361,7 +361,6 @@ ol.breadcrumb {
 
 .primary {
     background: #f94f77;
-    background-image: linear-gradient(to bottom, #f94f77, #cd3458);
     border-radius: 5px;
     color: #ffffff;
     border: 0px;
@@ -587,11 +586,28 @@ ul.navbar-nav.ml-auto {
 }
 
 .menu-buttons a {
-    margin: 10px;
+    margin: 10px 5px;
     width: 100%;
-    padding: 10px;
+    padding: 7px 10px;
     border-radius: 5px;
 }
+
+@media (min-width: 980px) {
+    .menu-buttons a {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .menu-buttons a:last-child {
+        background-image: url(/icons/Login.svg);
+        background-size: 50px 17px;
+        background-repeat: no-repeat;
+        background-position: 0 11px;
+        background-clip: padding-box;
+    }
+}
+
+
 
 .menu-buttons .outline {
     border: 1px solid #f94f77;
@@ -599,11 +615,6 @@ ul.navbar-nav.ml-auto {
 
 .menu-buttons a:last-child {
     border: 1px solid #f94f77;
-    background-image: url(/icons/Login.svg);
-    background-size: 50px 17px;
-    background-repeat: no-repeat;
-    background-position: 0 11px;
-    background-clip: padding-box;
 }
 
 .mm-panel_iconpanel-first .fa {
@@ -696,9 +707,11 @@ ul.navbar-nav.ml-auto {
 
 /* intergration manual layout*/
 
-.manual h2, .manual h3, .manual h4 {
+ .manual h3, .manual h4 {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding-top: 15px;
+    padding-top: 1rem;
+    margin-top: 2rem;
+
 }
 
 .manual .content>pre {
@@ -916,4 +929,12 @@ div#results a:hover {
 .faq-title-block {
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+.js-toc-content h1 {
+    font-size: 2.8rem;
+}
+
+.js-toc-content h2 {
+    font-size: 2.2rem;
 }

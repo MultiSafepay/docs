@@ -200,12 +200,12 @@ span.m {
 }
 .toc-list{
 	padding: 0;
-	padding-bottom: 0.5rem;
+	padding-bottom: 1rem;
 }
 
 .api-toc .toc-list-item  {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	margin-left: -3px;
 	z-index: 10;
@@ -224,13 +224,12 @@ span.m {
 
 .toc-link::before {
 	background-color: white;
-	margin-top: -0.5rem;
+	margin-top: -1rem;
 	z-index: -1;
 }
 
 .is-active-link::before {
 	background-color: #3fa9f5;
-	margin-top: -0.5rem;
 	padding-bottom: 0.5rem;
 	z-index: -1;
 }

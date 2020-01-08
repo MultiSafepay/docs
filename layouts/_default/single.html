@@ -26,13 +26,13 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="row">
+            <div class="row pb-3">
                 <div class="col-8">
                     {{ if .Params.description }}
                     {{ .Params.description }}
                     {{ end }}
                     {{ if or (isset .Params "github_url") (isset .Params "download_url") }}
-                    <div class="row pt-3 pb-3">
+                    <div class="row pt-5 pb-5">
                         <div class="col">
                             {{ if isset .Params "github_url"}}
                             <a class="secondary" href="">View on Github</a>
