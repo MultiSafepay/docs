@@ -109,7 +109,7 @@ div.msp-app-text {
 div.msp-app-text p:last-child {
     color: #999999;
     font-size: 0.8rem;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .msp-app__img {
@@ -135,6 +135,8 @@ div.msp-app-text p:last-child {
 .footer-list {
     padding-bottom: 30px;
     padding-top: 40px;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .footer-list ul {
@@ -369,6 +371,11 @@ ol.breadcrumb {
 
 .primary {
     background: #f94f77;
+    background-image: -webkit-linear-gradient(top,#f94f77,#cd3458);
+    background-image: -moz-linear-gradient(top,#f94f77,#cd3458);
+    background-image: -ms-linear-gradient(top,#f94f77,#cd3458);
+    background-image: -o-linear-gradient(top,#f94f77,#cd3458);
+    background-image: linear-gradient(to bottom,#f94f77,#cd3458);
     border-radius: 5px;
     color: #ffffff;
     border: 0px;
@@ -606,7 +613,7 @@ ul.navbar-nav.ml-auto {
         padding: 10px;
     }
 
-    .menu-buttons a:last-child {
+    .menu-buttons a:last-child div {
         background-image: url(/icons/Login.svg);
         background-size: 50px 17px;
         background-repeat: no-repeat;
@@ -615,7 +622,13 @@ ul.navbar-nav.ml-auto {
     }
 }
 
-
+.signup {
+    display: inline-block;
+    height: 1.4rem;
+    text-align: center;
+    padding: 0 1rem 0 0;
+    margin-top: -4px;
+}
 
 .menu-buttons .outline {
     border: 1px solid #f94f77;
