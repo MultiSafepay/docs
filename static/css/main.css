@@ -21,6 +21,10 @@ body {
     color: #232323;
 }
 
+a, a:hover {
+    color: #008DCB;
+}
+
 .header-background-home {
     height: 665px;
     margin-top: -76px;
@@ -279,7 +283,7 @@ ol.breadcrumb {
     margin: 0 10px;
 }
 
-.mm-searchfield input {
+.mm-searchfield input, .mm-searchfield input:hover , .mm-searchfield input:active  {
     background: url(/icons/Search.svg) no-repeat scroll 16px 5px;
     padding-left: 50px;
     height: 50px;
