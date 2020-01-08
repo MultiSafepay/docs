@@ -545,13 +545,13 @@ nav.navbar {
 
 .navbar a.login {
     border-radius: 3px;
-    padding-left: 2.5rem !important;
-    padding-right: 0.5rem !important;
+    padding-left: 3.5rem !important;
+    padding-right: 1.5rem !important;
     margin-left: 1rem;
     background-image: url(/icons/Login.svg);
     background-size: 12px 16px;
     background-repeat: no-repeat;
-    background-position: 0.75rem 0.75rem;
+    background-position: 1.25rem 0.75rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-clip: padding-box;
 }
