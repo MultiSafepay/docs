@@ -318,6 +318,10 @@ ol.breadcrumb {
     -webkit-text-stroke: 2px white;
 }
 
+.mm-listitem__text {
+    line-height: 25px;
+}
+
 #mm-0 .mm-listitem:after, #mm-1 .mm-listitem:after {
     left: 0;
 }
