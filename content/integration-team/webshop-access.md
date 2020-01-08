@@ -20,25 +20,25 @@ To benefit the lead time, provide us available informations by answering the fol
 2. Does it occur on the core of a payment method? 
 3. Since when did the issue occur?
 4. Has there been an update within a plugin or system recently?
-5. Where you able to reproduce the issue yourself?
+5. Were you able to reproduce the issue yourself?
 6. Are there examples available?
 
 ### Integration Team Rules
 
 * We investigate only in a staging or test environment of your ecommerce platform.
-   Therefore, when access is being requested, we will need the login details of your staging or test ecommerce platform.
+   Therefore, when access is being requested, we will need the credentials of your staging or test ecommerce platform.
    Create a temporary user-name with password for us to be able to access the staging or test environment.  
 
    > For security reasons, we request that you create a strong [password](https://www.lastpass.com/nl/password-generator) when requested.
 
    > Always delete an account after finalized work.
 
-* It is advised that you do not provide us with your live account login details of your ecommerce platform without the consultation or approval from one of our Integration Specialist.
+* It is advised that you do not provide us with your live account credentials of your ecommerce platform without the consultation or approval from one of our Integration Specialist.
    In the extraordinary case we do ask for access to your live environment, it is recommended to make a backup beforehand just in case.
 
   >_Note: that we are in no way responsible for mistakes made in a live environment_.
 
-1. When server access is needed, we exclusively work with SFTP/SSH/.
+1. When server access is needed, we exclusively work with SFTP/SSH.
    Due to security reasons, we no longer support the FTP protocol.
 
 2. When an issue cannot be reproduced in a standard staging or test environment it will be considered as a time-box project.

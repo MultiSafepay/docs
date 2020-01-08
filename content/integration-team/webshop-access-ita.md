@@ -41,8 +41,7 @@ Se per qualche caso particolare dovessimo chiedere gli accessi alla versione liv
 
   >_Nota: non siamo mai responsabili per errori o malfunzionamenti in ambiente live della tua piattaforma_.
 
-1. Quando è	necessario accedere al server, lavoriamo esclusivamente tramite SFTP/SSH.
-   Per ragioni di sicurezza, non supportiamo più il protocollo FTP.
+1. Quando è	necessario accedere al server, lavoriamo esclusivamente tramite SFTP/SSH. Per ragioni di sicurezza, non supportiamo più il protocollo FTP. 
 
 2. Quando non riusciamo a riprodurre un malfunzionamento in un ambiente di staging o test la segnalazione verrà contrassegnata come time-box project.  
 

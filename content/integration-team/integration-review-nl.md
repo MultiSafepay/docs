@@ -22,16 +22,20 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
 
 ### Plugins
-[Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2msp.html)
+[Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2msp.html)<br>
+[Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)
+
 
 ### LinkedIn profielen
-[Berend Lantink](https://www.linkedin.com/in/berendlantink/)
-[Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)
-[Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)
-[Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)
+[Berend Lantink](https://www.linkedin.com/in/berendlantink/)<br>
+[Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)<br>
+[Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)<br>
+[Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)<br>
+[Solaiman el Bacha](https://www.linkedin.com/in/solaimanelbacha/)<br>
 [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)
 
 ### Sociale media
-[LinkedIn](https://www.linkedin.com/company/multisafepay/)
-[Twitter](https://twitter.com/multisafepay)
-[Facebook](https://www.facebook.com/multisafepay)
+[LinkedIn](https://www.linkedin.com/company/multisafepay/)<br>
+[Twitter](https://twitter.com/multisafepay)<br>
+[Facebook](https://www.facebook.com/multisafepay)<br>
+[Stackshare](https://stackshare.io/multisafepay/multisafepay)
