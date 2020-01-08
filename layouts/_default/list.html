@@ -13,12 +13,12 @@
         <div class="col-md-6 my-3">
                 <div class="block-item h-100 p-4">
                     <div class="row h-100">
-                        <div class="col-md-2 d-flex align-items-start justify-content-center order-md-2">
+                        <div class="col-3 d-flex align-items-start justify-content-center order-2">
                             {{ with .Params.logo }}
                             <img class="img-fluid" src="{{ . }}" />
                             {{ end }}
                         </div>
-                        <div class="col-md-10 order-md-1">
+                        <div class="col-9 order-1">
                             <h3>{{ .Params.title_short }}</h3>
                             <div class="block-item-text">
                                 <p>{{ .Params.description_short }}</p>
@@ -27,10 +27,10 @@
                                 {{ if .Params.redirect_show_info }}
                                     <a class="secondary" target="blank" href="{{ .Params.redirect_show_info.url }}">{{ .Params.redirect_show_info.text }}</a>
                                 {{ else }}
-                                <a class="secondary" href="{{ .Permalink }}">more info</a>
+                                <a class="secondary" href="{{ .Permalink }}">More info</a>
                                 {{ end }}
                                 {{ if .Params.download_url }}
-                                <a class="primary ml-4" href="{{ .Params.download_url }}">download</a>
+                                <a class="primary ml-4" href="{{ .Params.download_url }}">Download</a>
                                 {{ end }}
                             </div>
                         </div>

@@ -359,6 +359,21 @@ ol.breadcrumb {
 
 /********** BUTTONS ************/
 
+.primary, .secondary {
+    text-align: center;
+}
+
+.js-toc-content .primary {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+}
+
+@media (min-width: 980px) {
+    .js-toc-content .primary {
+        margin-left: 0 !important;
+        margin-top: 0;
+    }
+}
 .primary:hover {
     color: #ffffff;
     text-decoration: none;
@@ -381,11 +396,16 @@ ol.breadcrumb {
     border: 0px;
     padding: 12px 25px;
 }
+@media (min-width: 980px) {
+    .secondary{
+        padding: 12px;
+    }
+}
 
 .secondary {
     color: #000000;
     border: 1px solid #000000;
-    padding: 12px;
+    padding: 9px 6px;
     border-radius: 5px;
 }
 
@@ -766,6 +786,11 @@ ul.navbar-nav.ml-auto {
     font-family: 'Source Code Pro', monospace;
 }
 
+.small-vertical {
+    flex-direction: column;
+    display: flex;
+}
+
 @media (min-width: 576px) {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 540px;
@@ -775,6 +800,11 @@ ul.navbar-nav.ml-auto {
 @media (min-width: 768px) {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 720px;
+    }
+
+    .small-vertical {
+        flex-direction: row;
+        display: block;
     }
 }
 
