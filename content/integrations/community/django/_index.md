@@ -5,4 +5,5 @@ title_short: "Django"
 redirect_show_info:
     url: "https://github.com/edoburu/django-multisafepay"
     text: "View on Github"
+description_short: "Community"
 ---

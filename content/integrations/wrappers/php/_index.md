@@ -5,4 +5,5 @@ title_short: "PHP"
 redirect_show_info:
     url: "https://github.com/MultiSafepay/PHP"
     text: "View on Github"
+description_short: "Wrapper"
 ---

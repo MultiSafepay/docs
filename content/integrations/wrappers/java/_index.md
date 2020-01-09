@@ -5,4 +5,5 @@ title_short: "Java"
 redirect_show_info:
     url: "https://github.com/MultiSafepay/Java"
     text: "View on Github"
+description_short: "Wrapper"
 ---

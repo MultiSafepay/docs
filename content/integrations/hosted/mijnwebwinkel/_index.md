@@ -7,6 +7,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/Mijnwebwinkel.svg"
 weight: 100
 title_short: "Mijnwebwinkel"
+description_short: "Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app."
+description: "Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app.<br>
+
+
+This app is managed by our partner Mijnwebwinkel. For support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support) directly."
+layout: 'single'
 ---
-Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app.<br>
-This app is managed by our partner Mijnwebwinkel. For support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support) directly.

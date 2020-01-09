@@ -7,6 +7,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/ShopFactory.svg"
 weight: 10
 title_short: "ShopFactory"
+description_short: "Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin."
+description: "Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin.<br>
+This plugin is managed by our partner ShopFactory. For support please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly."
+layout: 'single'
 ---
-Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin.<br>
-This plugin is managed by our partner ShopFactory. For support please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly.

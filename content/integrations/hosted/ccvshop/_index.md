@@ -8,7 +8,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/CCVShop.svg"
 weight: 40
 title_short: "CCVShop"
----
-Easily integrate MultiSafepay payment solutions into your CCV Shop with this free app.<br>
+description_short: "Easily integrate MultiSafepay payment solutions into your CCV Shop with this free app."
+description: "Easily integrate MultiSafepay payment solutions into your CCV Shop with this free app.<br>
 
-This app is managed by our partner CCV Shop. For support, please contact [CCV Shop](https://www.ccvshop.nl/contact) directly.
+This app is managed by our partner CCV Shop. For support, please contact [CCV Shop](https://www.ccvshop.nl/contact) directly."
+layout: 'single'
+---

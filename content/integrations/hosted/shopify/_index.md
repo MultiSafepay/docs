@@ -8,6 +8,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/Shopify.svg"
 weight: 30
 title_short: "Shopify"
+description_short: "Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app."
+description: "Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app."
+layout: 'single'
 ---
-Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app.
-

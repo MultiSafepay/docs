@@ -1006,3 +1006,9 @@ div#results a:hover {
 .manual .col-md-9 > p, .manual .col-md-9 > ul, .manual .col-md-9 > ol, .manual .col-md-9 pre {
     margin-left: 2rem;
 }
+
+
+.img-size {
+    max-height: 250px;
+    margin-left: 3rem;
+}
