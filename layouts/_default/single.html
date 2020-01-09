@@ -29,7 +29,7 @@
             <div class="row pb-3">
                 <div class="col-8">
                     {{ if .Params.description }}
-                    {{ .Params.description }}
+                    {{ .Params.description | markdownify }}
                     {{ end }}
                     {{ if or (isset .Params "github_url") (isset .Params "download_url") }}
                     <div class="row pt-5 pb-5">

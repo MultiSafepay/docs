@@ -29,7 +29,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Trustly
 + Visa (including CartaSi, Cartes Bancaires & Dankort).
 
-## Gift cards
+Gift cards
 
 + Baby gift card
 + Boekenbon

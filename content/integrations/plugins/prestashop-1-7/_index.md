@@ -11,7 +11,10 @@ logo: "/logo/Plugins/PrestaShop.svg"
 weight: 70
 title_short: "PrestaShop 1.7"
 layout: 'single'
+description_short: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.7 webshop with the free plugin."
+description: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.7 webshop with the free plugin."
+layout: 'single'
 changelog: 'https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md'
 ---
 
-Easily integrate MultiSafepay payment solutions into your Prestashop 1.7 webshop with the free plugin.
+

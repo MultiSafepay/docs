@@ -427,6 +427,10 @@ ol.breadcrumb {
     overflow-y: auto;
 }
 
+.toc-list {
+    padding-inline-start: 2rem;
+}
+
 .toc>.toc-list {
     overflow: hidden;
     position: relative;
@@ -587,7 +591,7 @@ nav.navbar {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1439px) {
     #docs-logo, #hamburger {
         display: none;
     }

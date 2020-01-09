@@ -4,21 +4,21 @@ meta_title: "CS-Cart plugin manual - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-## Introduction
+### Introduction
 
 {{% introduction_plugin "CS-Cart" %}}
 
-## 1. Requirements
+### 1. Requirements
 - CS-Cart 4.x
 - Tested on PHP 7.0
 
-## 2. Installation
+### 2. Installation
  1. Unpack the content of the .ZIP file in the root of your webshop
  2. Go to yourdomain.com/msp_installer.php. This will trigger the installation
  3. Delete the msp_installer.php file
  4. Enter your notification URL in your [MultiSafepay Control](https://merchant.multisafepay.com). More information can be found on [our Notification URL page](/tools/multisafepay-control/set-your-notification-url/)
 
-## 3. Configuration
+### 3. Configuration
 1. Login into your backend and navigate to _Adminination_ -> _Payment Method_
 2. Then click on the _+_ symbol to add a payment method
 3. In the next screen you enter a name that will be shown during checkout. In the _Processing unit_ field, you specify the desired payment method. The other fields can be filled according to your own wishes. Click on _Create_
@@ -29,5 +29,5 @@ Your Account ID is shown in the dashboard of your MultiSafepay Control in the to
 Note:
 There are also a number of extra options such as _IP-Validation_ and _debugmode_. These serve especially for developers and can remain unchanged.
 
-## 4. Congratulations
+### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>

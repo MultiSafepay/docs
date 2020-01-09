@@ -28,7 +28,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + TrustPay
 + Visa (including CartaSi, Cartes Bancaires & Dankort).
 
-## Gift cards
+Gift cards
 
 + Beauty and Welness gift card
 + Boekenbon

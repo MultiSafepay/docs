@@ -1,7 +1,6 @@
 ---
 title : "MultiSafepay plugin for Shopware 5"
 download_url : "/integrations/shopware5/manual#2-installation-configuration"
-changelog_url : "."
 manual: "."
 faq: "."
 newsletter: "Shopware"
@@ -10,6 +9,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/Shopware_5.svg"
 weight: 110
 title_short: "Shopware 5"
+description_short: "Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin."
+description: "Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin."
+layout: 'single'
+changelog : "https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md"
 ---
 
-Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin.
