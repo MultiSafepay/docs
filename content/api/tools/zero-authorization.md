@@ -1,7 +1,7 @@
 ---
 weight: 1370
 ---
-{{% /code %}}
+{{% code %}}
 > POST - /orders
 
 ```shell
