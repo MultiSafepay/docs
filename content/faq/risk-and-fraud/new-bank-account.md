@@ -2,6 +2,7 @@
 title : "New bank account?"
 meta_title: "FAQ Risk and fraud - New bank account - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support articles for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 ### A new bank account
 If you would like to add a new bank account for payouts, please add the new IBAN in your [MultiSafepay Control](https://merchant.multisafepay.com/). A payment in the amount of 1 EUR transferred from your business bank account (you can initiate this procedure in MultiSafepay Control) is required. Alternatively, you can provide a copy of a bank statement/screenshot taken of your online banking environment including IBAN and company name. 

@@ -2,6 +2,7 @@
 title : "How do I know which documents I need to submit and/or which data to post on my website?"
 meta_title: "FAQ Getting Started - Required documents - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 MultiSafepay will ask you to submit a number of documents in order to fully activate your account. After your account has been fully activated, it is possible to withdraw funds from your account and transfer them to your business bank account. Which documents are required depends on the legal structure/entity of a company.
 

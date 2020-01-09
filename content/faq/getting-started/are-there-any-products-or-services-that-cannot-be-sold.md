@@ -2,6 +2,7 @@
 title : "Are there any products or services that cannot be sold?"
 meta_title: "FAQ Getting Started - Forbidden products/services - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 As a payment service provider, MultiSafepay is subject to European and Dutch laws and regulations. Additionally, we are required to comply with the policies set per each payment method that we offer. MultiSafepay is also required to take potential risks and reputational consequences into account.
 

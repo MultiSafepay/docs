@@ -2,6 +2,7 @@
 title : "How does the notification URL work?"
 meta_title: "FAQ API - Notification URL - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 ## Notification
 Our API will notify your web server when the status of a transaction changes.  

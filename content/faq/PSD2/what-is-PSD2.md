@@ -3,6 +3,7 @@ title : "What is PSD2?"
 weight: 1
 meta_title: "FAQ PSD2 - What is PSD2 - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 
 The Payment Services Directive 2, also called PSD2, was first released in 2015 by the European Commission. This directive compelled the Member State to effectively intervene and regulate the payment service industry.

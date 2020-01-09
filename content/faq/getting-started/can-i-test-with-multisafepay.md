@@ -2,6 +2,7 @@
 title : "Can I test with MultiSafepay?"
 meta_title: "FAQ Getting Started - Testing - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 In order to help you integrate your website with MultiSafepay or test new features, we provide a separate test environment. In the test environment, no real transactions can take place, allowing you to test different payment methods and your website's transaction status handling.
 

@@ -3,6 +3,7 @@ title: "Lifetime of a payment link"
 weight:
 meta_title: "FAQ API - Lifetime of a payment link - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 
 ## The days_active and seconds_active parameters
@@ -42,3 +43,6 @@ Post-payment methods are excluded by default when setting a lifetime of a paymen
 
 ## API 
 Full [API documentation](/api/#days-active-seconds-active) on the lifetime of a payment link can be found on our API page.git a
+
+
+

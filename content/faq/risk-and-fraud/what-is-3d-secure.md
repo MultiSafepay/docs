@@ -2,6 +2,7 @@
 title : "What is 3D Secure?"
 meta_title: "FAQ Risk and fraud - 3D Secure - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 3D Secure is an additional security layer used in online credit and debit card transactions. The major credit card companies each offer their own version of 3D Secure. These are Verified by Visa, Mastercard SecureCode, J/Secure and American Express SafeKey.
 

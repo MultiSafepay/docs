@@ -3,6 +3,7 @@ title:   Global setting vs Site level (activating payment methods)
 weight:
 meta_title: "FAQ Getting Started - Enable payment methods - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 
 There are two ways to activate a payment method in your [MultiSafepay Control](https://merchant.multisafepay.com/), namely globally or at site level.

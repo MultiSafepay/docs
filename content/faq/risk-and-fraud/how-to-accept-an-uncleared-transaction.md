@@ -3,6 +3,7 @@ title : "Accepting uncleared credit card payments, how and why?"
 meta_title: "FAQ General - Accept an uncleared transaction - MultiSafepay Support"
 meta_description: "You can make an informed decision based on the information provided in the Risk Report.
 We have explained a number of important verification points to minimize the fraud risk when accepting a credit card payment marked with the status uncleared."
+read_more: "."
 ---
 ## What is an uncleared transaction?
 The status _uncleared_ means that we have received a credit card transaction, but the payment has not been automatically accepted, because our anti-fraud module has detected unusual data. You can find the details of why the transaction has not been accepted under the details or Risk Report. Occasionally, additional information will be added in the Transaction Notes.

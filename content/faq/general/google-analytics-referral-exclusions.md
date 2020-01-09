@@ -2,6 +2,7 @@
 title : "Can I exclude referrals in Google Analytics?"
 meta_title: "FAQ General - Excluding referrals - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 
 > **We are currently looking for Magento merchants willing to test Option 2 (please see below), the utm_nooverride=1 parameter method. Please get in touch with our Integration Team at <integration@multisafepay.com> if this is something interesting for you and we will further assist you in setting it up.**

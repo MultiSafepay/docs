@@ -4,6 +4,7 @@
     <h1>{{ .Title }}</h1>
     <hr class="separator">
     <p>{{ .Params.description_short}}</p>
+    {{ .Content }}
   </div>
   <section>
     <div id="accordion" class="row">
@@ -24,7 +25,7 @@
             <div class="p-3">
               {{ .Content }}
             </div>
-            {{ if isset .Params "read-more" }}
+            {{ if isset .Params "read_more" }}
             <div class="p-3">
               <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
             </div>

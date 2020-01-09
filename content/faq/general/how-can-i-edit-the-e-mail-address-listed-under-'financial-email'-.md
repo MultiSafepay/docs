@@ -2,6 +2,7 @@
 title : "How can I edit the email address listed under 'Financial email'?"
 meta_title: "FAQ General - Add email financial - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 You can edit the email address listed under "Financial email", by following these steps:
 

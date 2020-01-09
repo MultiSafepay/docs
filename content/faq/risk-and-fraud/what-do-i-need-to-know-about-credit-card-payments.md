@@ -2,6 +2,7 @@
 title : "What do I need to know about credit card payments?"
 meta_title: "FAQ Risk and fraud - Credit card payments - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 There are a number of things businesses should be aware of when accepting credit card online payments.
 

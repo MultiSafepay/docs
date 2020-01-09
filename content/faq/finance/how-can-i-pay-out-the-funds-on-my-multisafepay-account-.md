@@ -2,6 +2,7 @@
 title : "Withdrawing funds from my MultiSafepay Control?"
 meta_title: "FAQ Finance - Payout - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 You will be able to pay out funds to your business bank account anytime, as soon as your MultiSafepay Control account has been fully activated. Of course, payouts cannot be carried out if the balance of your account is negative (in case of refunds, chargebacks or fees) or if this feature is deactived by the Risk Team for any reason. 
 
