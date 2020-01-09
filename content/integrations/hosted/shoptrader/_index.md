@@ -8,5 +8,5 @@ logo: "/logo/Integrations/Shoptrader.svg"
 weight: 90
 title_short: "Shoptrader"
 ---
-Easily integrate MultiSafepay payment solutions into your Shoptrader with this free app.<br>
-This app is managed by our partner Shoptrader, for support please contact [Shoptrader](https://www.shoptrader.nl/contact/)
+Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin.<br>
+This plugin is managed by our partner ShopFactory. For support please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly.

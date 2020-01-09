@@ -4,6 +4,42 @@ meta_title: "WooCommerce plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 3.4.0
+Release date January 6th, 2020
+
+### Added
++ PLGWOOS-287: Add maximum amount restriction for credit cards
++ PLGWOOS-321: Add Ohmygood Cadeaukaart
+
+### Changed
++ PLGWOOS-115: Make suitable for WordPress.org Plugin Directory
++ PLGWOOS-260: Change VVV Bon to VVV Cadeaukaart
+
+### Fixed
++ PLGWOOS-319: Disable payment fields when payment description is empty
+
+## 3.3.0
+Release date December 13th, 2019
+### Added
++ PLGWOOS-291: Add IP validation when WooCommerce returns multiple IP addresses
++ PLGWOOS-203: Add compatibility with WPML
+
+### Changed
++ PLGWOOS-245: Change Klarna from direct to redirect
++ PLGWOOS-275: Improve Dutch translation for 'Activate'
++ PLGWOOS-263: Correct ING Home'Pay spelling
+
+### Removed
++ PLGWOOS-208: Remove the send invoice option from the backend
+
+### Fixed
++ PLGWOOS-285: Fix the fatal error "Cannot redeclare error_curl_not_installed"
++ PLGWOOS-102: Prevent the Notification URL from executing when not initialized by MultiSafepay
++ PLGWOOS-266: Prevent errors from appearing in logs for notifications of pre-transactions
++ PLGWOOS-290: Resolve DivisionByZeroError bug occurring with fees 
++ Fix PHP notice incorrect use of reset in function parseIpAddress
++ Fix PHP notice undefined property when order set to shipped
+
 ## 3.2.0
 Release date July 5th, 2018
 ### Improvements
@@ -16,7 +52,7 @@ Release date July 5th, 2018
 + PLGWOOS-195: Update Klarna Invoice link
 + PLGWOOS-231: Update Klarna payment method logo
 + PLGWOOS-197: Correct MultiFactor Terms and Condition link
-+ PLGWOOS-242: Remove terms and conditions for Einvoicing
++ PLGWOOS-242: Remove terms and conditions for E-Invoicing
 + PLGWOOS-244: Shipment name now used on Payment page instead of type
 + PLGWOOS-243: Payment page shopping cart reorganized
 + PLGWOOS-253: FastCheckout load correct first and last name
@@ -89,7 +125,7 @@ Release date: Okt 10nd, 2017
 + Add KBC/CBC as payment method.
 + Add configuration option for Google-Analytic code.
 + Add shopping-cart information to the transaction.
-+ Update payment method in order, in case a customer pays the second change with another payment method.
++ Update payment method in order, in case a customer pays the second chance with another payment method.
 + Update the Dutch translations.
 
 ### Fixes
@@ -141,7 +177,7 @@ Release date: November 2nd, 2016
 + Resolved an issue where expiring payment sessions result in orders being marked as new after 30 days.
 
 ### Changes
-+ Changed Bank transfer to direct Bank transfer
++ Changed Bank transfer to direct bank transfer
 
 ***
 
@@ -176,7 +212,7 @@ Release date: March 8th, 2016
 ### Improvements
 + Pay After Delivery is now only visible for orders placed in The Netherlands.
 + Textual ### Improvements for the option "Send the order confirmation".
-+ Started orders with Bank transfer, are now set to On Hold, rather than "Pending Payment".
++ Started orders with bank transfer, are now set to On Hold, rather than "Pending Payment".
 + Uncleared orders are now set to On Hold, rather than "Pending Payment".
 + Improved the iDEAL description shown when no iDEAL issuer/bank has been selected.
 

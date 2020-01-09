@@ -4,6 +4,24 @@ meta_title: "PrestaShop 1.7 plugin changelog - MultiSafepay Documentation Center
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 4.5.0
+Release date: December 12th, 2019
+
+### Added
++ PLGPRSS17-17: Add refund support within PrestaShop
++ PLGPRSS17-45: Add Bank transfer details to PrestaShop invoices
++ PLGPRSS17-49: Add PSR-4 namespaces
+
+### Changed
++ PLGPRSS17-21: Set order to status shipped for all payment methods
+
+### Fixed
++ PLGPRSS17-64: Fix groups restrictions for payment methods and gift cards
++ PLGPRSS17-44: Fix issue where a free gift was not recognized as free
++ PLGPRSS17-30: Fix notifications returning HTTP 302
+
+***
+
 ## 4.4.0
 Release date: July 3rd, 2019
 
@@ -61,7 +79,7 @@ Release date: May 8th, 2018
 
 ### Improvements
 + PLGPRSS-222 Add Dutch translations
-+ PLGPRSS-240 Support direct transactions for iDEAL, Pay After Delivery, E-Invoice, Bank transfer, ING Home'Pay, KBC and PayPal
++ PLGPRSS-240 Support direct transactions for iDEAL, Pay After Delivery, E-Invoice, bank transfer, ING Home'Pay, KBC and PayPal
 + PLGPRSS-246 Add check to see if test/live option corresponds with the used API key
 + PLGPRSS-253 Add warning when enable gateway and not available in MultiSafepay Control
 + PLGPRSS-276 Multiple transactions created after multiple clicks on the order-confirmation button

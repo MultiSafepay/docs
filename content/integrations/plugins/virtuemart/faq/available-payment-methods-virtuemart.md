@@ -5,7 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 ## Credit cards
 + [Mastercard](/payment-methods/creditcards/)
-+ [Visa](/payment-methods/creditcards/) (including [CartaSi, Carte Bleue & Dankort](/payment-methods/branded-credit-cards/))
++ [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/))
 
 ## Banks
 + [Bank transfer](/payment-methods/bank-transfer/)
@@ -13,7 +13,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + [Belfius](/payment-methods/belfius/)
 + [Direct Debit](/payment-methods/direct-debit/)
 + [Dotpay](/payment-methods/dotpay/)
-+ [E-Invoicing](/payment-methods/einvoicing/)
++ [E-Invoicing](/payment-methods/e-invoicing/)
 + [EPS](/payment-methods/eps/)
 + [Giropay](/payment-methods/giropay/)
 + [iDEAL](/payment-methods/ideal/)
@@ -35,7 +35,3 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## Prepaid cards 
 + [Intersolve](/payment-methods/gift-cards/)
 + [Paysafecard](/payment-methods/paysafecard/)
-
-
-
-

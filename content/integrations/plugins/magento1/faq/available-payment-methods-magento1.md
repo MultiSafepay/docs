@@ -7,16 +7,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + [American Express](/payment-methods/creditcards/)
 + [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
-+ [Visa](/payment-methods/creditcards/) (including [CartaSi, Carte Bleue & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
++ [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
 ## Banks
 + [Bancontact](/payment-methods/bancontact/)
-+ [Bank transfe](/payment-methods/bank-transfer/)
++ [Bank transfer](/payment-methods/bank-transfer/)
 + [Belfius](/payment-methods/belfius/)
 + [Direct Debit](/payment-methods/direct-debit/)
 + [Dotpay](/payment-methods/dotpay/)
 + [EPS](/payment-methods/eps/)
-+ [Ferbuy](/payment-methods/ferbuy/)
 + [Giropay](/payment-methods/giropay/)
 + [iDEAL](/payment-methods/ideal/)
 + [iDEAL QR](/payment-methods/idealqr/)
@@ -30,7 +29,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## Billing suite
 + [Afterpay](/payment-methods/afterpay/)
 + [Betaalplan](/payment-methods/betaalplan/)
-+ [E-Invoice](/payment-methods/einvoicing/)
++ [E-Invoice](/payment-methods/e-invoicing/)
 + [Klarna](/payment-methods/klarna)
 
 ## Wallet 

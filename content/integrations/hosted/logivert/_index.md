@@ -9,4 +9,5 @@ weight: 90
 title_short: "LogiVert"
 ---
 
-Easily integrate MultiSafepay payment solutions into your LogiVert app. This app is managed by LogiVert, for support please contact [LogiVert](https://www.logivert.com/nl/ons-bedrijf/c-2)
+Easily integrate MultiSafepay payment solutions into your LogiVert app. This app is managed by LogiVert. For support please contact [LogiVert](https://www.logivert.com/nl/ons-bedrijf/c-2) directly.
+

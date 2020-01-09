@@ -9,4 +9,4 @@ weight: 100
 title_short: "Mijnwebwinkel"
 ---
 Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app.<br>
-This app is managed by our partner Mijnwebwinkel, for support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support)
+This app is managed by our partner Mijnwebwinkel. For support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support) directly.

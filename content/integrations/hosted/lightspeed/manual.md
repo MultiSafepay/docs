@@ -9,10 +9,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_hosted "LightSpeed 2" %}}
 
 ## 1. Installation & Configuration
-1. Login in your backend and navigate to _Settings->Payment Providers_
+1. Login into your backend and navigate to _Settings_ -> _Payment Providers_
 2. Click on _Add Payment Provider_ and select MultiSafepay
 3. Enter your Site security code, Site ID & Account ID. {{% account_info %}}
-Your Merchant ID is shown in the dashboard of your MultiSafepay Control in the top right corner
+Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner
 4. Select the payment methods you would like to offer.
 
 ## 2. Congratulations

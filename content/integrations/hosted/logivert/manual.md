@@ -8,5 +8,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_hosted "LogiVert" %}}
 
 ## Installation & Configuration
-Download the manual to install the app. [Download LogiVert Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen)
+[Download](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen) the LogiVert Manual to install the app.
+
 

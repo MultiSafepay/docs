@@ -5,16 +5,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 ## Introduction
 
-{{% introduction_hosted "Shoptrader" %}}
+{{% introduction_hosted "ShopFactory" %}}
 
-## 1. Installation & Configuration
-1. Login in your backend and install the MultiSafepay app in the App Store
-2. Navigate to _Modules -> betaalmodules_
-3. Select _MultiSafepay_ 
-4. Fill in your Merchant Account, Merchant Site ID & Merchant Site Secure Code.{{% account_info %}}
-Your Merchant ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
-5. Select _test mode_ when you used a test Merchant Account
-6. Save the page.
+## Installation & Configuration
 
-## 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+The plugin is developed and maintained by ShopFactory.
+Information can be find at https://www.shopfactory.nl/contents/nl/d373_multisafepay-webwinkel.html
+

@@ -4,7 +4,7 @@ meta_title: "Magento 1 plugin Picqer compatibility - MultiSafepay Documentation 
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-Yes, but you will have to do 2 things, because orders shouldn't go to the Cancel state.
+Yes, but you will have to follow two additional steps, because orders should not go to the Cancel state.
 
 1. Go the the MultiSafepay Connect settings in you Magento 1 backend and link the status expired to Waiting
 2. Open "app\code\community\MultiSafepay\Msp\Model\Base.php", copy the file to the local folder in the Magento structure

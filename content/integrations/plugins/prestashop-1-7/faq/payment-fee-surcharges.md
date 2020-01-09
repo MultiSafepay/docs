@@ -13,4 +13,4 @@ However, an external package of [BVK](https://www.bvkyazilim.com/cart/prestashop
 
 See how applying payment fees or surcharges for your customers may affect your webshop on our [PSD2 documentation page](/faq/psd2/).
 
-Of course we do our best to support and assist as best as possible, but we investigate or reproduce on the core of a plugin. therefore, we do not guarantee a perfect compatibility when installing an external package.
+Of course we do our best to support and assist you. However, when we investigate or reproduce on the core of a plugin, we cannot guarantee perfect compatibility when installing an external package.

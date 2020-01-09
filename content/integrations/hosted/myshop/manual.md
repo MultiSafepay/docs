@@ -8,12 +8,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_hosted "myShop" %}}
 
 ## 1. Installation & Configuration
-1. Login in your backend and install the MultiSafepay app in the App Store
+1. Login into your backend and install the MultiSafepay app in the App Store
 2. Navigate to _Settings_ 
 3. Select _MultiSafepay or iDEAL MultiSafepay_
 4. Fill in your Merchant Account, Merchant Site ID & Merchant Site Secure Code. {{% account_info %}} 
-Your Merchant ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
-5. Select _test mode_ when you used a test Merchant Account
+Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
+5. Select _Test mode_ when you used a test Merchant Account
 6. Save the page.
 
 ## 2. Congratulations

@@ -16,3 +16,4 @@ MultiSafepay currently does not offer maintenance and/or support for the plugin 
 Plugin version 3.0.0 available at MultiSafepay is tested on PHP 5.6. Do mind that other versions are not tested for compatibility.
 
 Contact your account manager for further information at <sales@multisafepay.com>
+

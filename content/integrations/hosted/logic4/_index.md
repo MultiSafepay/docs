@@ -8,4 +8,4 @@ logo: "/logo/Integrations/Logic_4.svg"
 weight: 70
 title_short: "Logic4"
 ---
-This plugin is managed by our partner, for support please contact [Logic4](https://www.logic4.nl/contact).
+This plugin is managed by our partner. For support please contact [Logic4](https://www.logic4.nl/contact) directly.

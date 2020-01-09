@@ -9,8 +9,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_hosted "Ecwid" %}}
 
 ## 1. Installation & Configuration
-1. Login in your backend and install the MultiSafepay app in the App Store
-2. Go to _Ecwid Control panel->Settings->Payment page_
+1. Login into your backend and install the MultiSafepay app in the App Store
+2. Go to _Ecwid Control panel_ -> _Settings_ -> _Payment page_
 3. Change the Payment Processor value of a payment method to MultiSafepay and save the changes
 4. Click on the MultiSafepay`s Account details link. Enter your Account ID, Site ID and Site Security Code. <br> Your API key is displayed in your MultiSafepay Control. {{% account_info %}}
 5. Save the changes and enable your desired payment methods.

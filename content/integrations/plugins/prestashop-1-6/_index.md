@@ -11,6 +11,4 @@ logo: "/logo/Plugins/PrestaShop.svg"
 weight: 60
 title_short: "PrestaShop 1.6"
 ---
-Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin.
-
-PrestaShop 1.6 version is end of live. However, when assistance is needed, contact us at <integration@multisafepay.com>.
+Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin. 

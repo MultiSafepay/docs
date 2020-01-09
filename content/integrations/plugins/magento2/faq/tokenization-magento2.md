@@ -7,3 +7,4 @@ layout: "faqdetail"
 
 1. Read the page [How do I get tokenization?](/tools/tokenization/how-do-i-get-tokenization/)
 2. Enable Tokenization via _Stores->Configuration->MultiSafepay->MultiSafepay Settings_.
+

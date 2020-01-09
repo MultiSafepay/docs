@@ -5,4 +5,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 
 You can refund from your [MultiSafepay Control](https://merchant.multisafepay.com).
-Refunding directly from your Lightspeed backend is not possible.
+Refunding directly from your Lightspeed backend is NOT possible.

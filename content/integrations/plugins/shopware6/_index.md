@@ -10,11 +10,8 @@ weight: 120
 title_short: "Shopware 6"
 ---
 
-# Available soon 
+**This release should not be used on live/production environments, as it may contain bugs and/or limited functionality. It does not contain our full range of features and or functionalities as Shopware 6 is also still in Early Access mode.**
 
-Curious about Shopware 6?    
-Contact our implementation department for further information.
-Call us at +31 (0)20 8500 500 or sent us an email at <integration@multisafepay.com>
+---
 
-
-
+Easily integrate MultiSafepay payment solutions into your Shopware 6 webshop with the free plugin.

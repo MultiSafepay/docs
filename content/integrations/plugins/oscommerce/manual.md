@@ -16,7 +16,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
 ## 3. Configuration
-1. Login in your backend and navigate to _Modules->Payment_
+1. Login into your backend and navigate to _Modules->Payment_
 2. Click _Install modules_ in the upper right corner
 3. Enter your API key. {{% account_info %}} The other fields can be filled according to your own wishes.
 

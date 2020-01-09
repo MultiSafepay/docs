@@ -13,7 +13,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Dotpay
 + Einvoice
 + EPS
-+ Ferbuy
 + Giropay
 + iDEAL
 + iDEAL QR
@@ -27,7 +26,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + SOFORT Banking
 + Trustly
 + TrustPay
-+ Visa (including CartaSi, Carte Bleue & Dankort).
++ Visa (including CartaSi, Cartes Bancaires & Dankort).
 
 ## Gift cards
 

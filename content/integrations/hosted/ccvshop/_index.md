@@ -10,4 +10,5 @@ weight: 40
 title_short: "CCVShop"
 ---
 Easily integrate MultiSafepay payment solutions into your CCV Shop with this free app.<br>
-This app is managed by our partner CCV Shop, for support please contact [CCV Shop](https://www.ccvshop.nl/contact).
+
+This app is managed by our partner CCV Shop. For support, please contact [CCV Shop](https://www.ccvshop.nl/contact) directly.

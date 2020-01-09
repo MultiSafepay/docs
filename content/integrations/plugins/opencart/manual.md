@@ -16,9 +16,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
 ## 3. Configuration
-1. Login in your backend and navigate to _Extensions->Payments_.
+1. Login into your backend and navigate to _Extensions->Payments_.
 2. Search for _MultiSafepay_ and click _Install_. Then click _Edit_ to bring up the MultiSafepay configuration. {{% account_info %}}
 3. Enable and configure the desired payment methods you wish to offer. Each payment method will have to be configured separately.
 
 ## 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+

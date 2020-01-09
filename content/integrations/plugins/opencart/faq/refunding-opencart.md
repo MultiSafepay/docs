@@ -5,3 +5,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 Yes, you can directly from your backend.  
 You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com).
+

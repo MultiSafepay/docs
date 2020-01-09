@@ -10,4 +10,4 @@ weight: 10
 title_short: "Lightspeed"
 ---
 Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app.<br>
-This app is managed by our partner Lightspeed, for support please contact [Lightspeed](https://www.lightspeedhq.nl/support).
+This app is managed by our partner Lightspeed. For support, please contact [Lightspeed](https://www.lightspeedhq.nl/support) directly.

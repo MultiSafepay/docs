@@ -9,6 +9,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Installation & Configuration
 
-The plugin is developed and supported by Mijnwebwinkel. Information can be found at [Mijnwebwinkel](mijnwebwinkel.nl/support/vraag-en-antwoord/hoe-gebruik-ik-multisafepay-mijnwebwinkel)
+The plugin is developed and supported by Mijnwebwinkel. Information can be found via [Mijnwebwinkel's](https://mijnwebwinkel.nl/support/vraag-en-antwoord/hoe-gebruik-ik-multisafepay-mijnwebwinkel) website.
+
 
 

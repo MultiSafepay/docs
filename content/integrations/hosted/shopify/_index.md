@@ -10,3 +10,4 @@ weight: 30
 title_short: "Shopify"
 ---
 Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app.
+

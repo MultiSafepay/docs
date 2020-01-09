@@ -12,3 +12,4 @@ weight: 50
 title_short: "OpenCart"
 ---
 Easily integrate MultiSafepay payment solutions into your OpenCart webshop with the free plugin.
+

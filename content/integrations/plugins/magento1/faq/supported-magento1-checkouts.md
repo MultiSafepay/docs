@@ -7,4 +7,4 @@ Currently we test our plugin at two Magento checkouts:
 1. Magento 1 core checkout  
 2. OneStepCheckout.com (Idev)
 
->_Most Magento checkout plugins are compatible with our plugin. However, we can not guarantee the proper working of all features within the checkout plugin_.
+>_Most Magento checkout plugins are compatible with our plugin. However, we can not guarantee the proper functioning of all features within the checkout plugin_.

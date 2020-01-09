@@ -8,4 +8,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_hosted "Logic4" %}}
 
 ## Installation & Configuration
-Manual will be provided by our partner, for support please contact [Logic4](https://www.logic4.nl/contact)
+Manual will be provided by our partner. For support please contact [Logic4](https://www.logic4.nl/contact) directly.

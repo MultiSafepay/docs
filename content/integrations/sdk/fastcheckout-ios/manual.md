@@ -40,23 +40,24 @@ Please refer to the Multisafepay API Documentation to perform different calls th
 
 ## Requirements
 
-* Xcode 10.2 and iOS 12 SDK
+* Xcode 11.0 and iOS 13 SDK
 * iOS 9+ target
-* Swift 5.0 or Objective-C
+* Swift 5.1 or Objective-C
 
 ## Installation
 
-First you have to access into your Back Office and get a valid API Key (Settings → Website Settings)
-Once you have your valid API Key, simply download the Android and/or iOS SDK version.
+First you have to access into your Back Office and get a valid API Key (_Settings_ → _Website Settings_).
 
-Add the FastcheckoutKit.framework as an embedded framework into your project. The next steps will guide you through the process:
+Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
+
+Add the FastcheckoutKit.xcframework as an embedded framework into your project. The next steps will guide you through the process:
 
 1. Open the folder in Finder where you have downloaded FastcheckoutKit.framework and drag it into the Project Navigator of your application’s Xcode project.
 2. Make sure you select Copy items if needed unless you have already copied the framework into your project folder.
 3. Select your application project in the Project Navigator (blue project icon) to navigate to target configuration window and select the application target under the Targets heading in the sidebar.
 4. In the tab bar at the top of that window, open the General panel.
 5. Click on the + button under the Embedded Binaries section.
-6. Select FastcheckoutKit.framework
+6. Select FastcheckoutKit.xcframework
 
 You can now start using the FastcheckoutKit SDK in your App.
 
@@ -113,6 +114,20 @@ class ViewController: UIViewController {
        manager.startCheckout(transactionId: "id", host: self, onCompletion: { status, error in
            if let status = status {
                print(status)
+               switch status.state {
+                case .cancelled:
+                    break
+                case .completed:
+                    break
+                case .declined:
+                    break
+                case .pending:
+                    break
+                case .uncleared:
+                    break
+                @unknown default:
+                    break
+                }
            } else {
                print(error?.localizedDescription)
            }
@@ -122,7 +137,24 @@ class ViewController: UIViewController {
 }
 ```
 
-## SDK Snapshots:
+## Advanced setup
+The SDK has two environments on which to operate, LIVE and TEST. You might want to test your integration in the TEST environment before release because no real transaction is performed in TEST environment. To do this you will have to customize the SDK behaviour, because by default it uses LIVE environment among other things.
+
+To be able to customize some aspects of the SDK, the integrator will be able to inject some properties into it. Check out the example below to see how you can select which environment to use among other things. Keep in mind that you may not need to do this at all.
+
+```swift
+// Build `Settings` object to customize FCO SDK
+let settings = Settings.build()
+settings.environmentKey = FastcheckoutTestEnvironment
+settings.debug = true
+settings.biometricAuthenticationEnabled = true
+settings.skipShowCartAtBeginning = true
+        
+let client = FastcheckoutClient(apiKey: apiKey, settings: settings)
+self.manager = FastcheckoutManager(client: client)
+```
+
+## SDK Snapshots
 
 1. The following snapshots will walk you through some of features offered by the Fastcheckout iOS SDK.
     * Logging in with a registered email: 
@@ -145,13 +177,13 @@ class ViewController: UIViewController {
 
       {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-8.png" title="screenshot 8">}}
 
-    * The checkout process follows. From a merchant’s shop checkout option, the SDK enters into the checkout process. The first view will be the delivery view with shipping options if available. Once the continue button is selected, the SDK moves into the Payment screen and the payment logic follows.
+    * The checkout process follows. From a merchant’s webshop checkout option, the SDK enters into the checkout process. The first view will be the delivery view with shipping options if available. Once the continue button is selected, the SDK moves into the Payment screen and the payment logic follows.
     
       {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-9.png" title="screenshot 9">}}
       {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-10.png" title="screenshot 10">}}
       {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-11.png" title="screenshot 11">}}
     
-    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client App about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s shop.
+    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client App about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
 
       {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-12.png" title="screenshot 12">}}
 
