@@ -1,16 +1,21 @@
 ---
-title: "Alipay, How does it work?"
+title: "Alipay, How it works"
 weight: 21
-meta_title: "Alipay, how does it work? - MultiSafepay Support"
+meta_title: "Alipay, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 
-#  How does it work?
+#  How it works
 Alipay is wallet-based payment method. Customers can input their credit card or bank account details to an Alipay account to create a wallet system. They can easily process payments from within their Alipay account.
 
 Customers opting in for an Alipay payment have the possibility to pay through a QR code using the Alipay app or by filling in their Alipay account details.
 
 If the transaction is approved by Alipay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
+
+<div class="alert alert-warning" role="alert">
+   Please note: The Alipay payment method can only be used with a verified Alipay account that is linked to a Chinese bank. All other transactions will be unsuccessful.
+</div>
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -43,6 +48,11 @@ The full API reference for Alipay can be found [here](/api/#alipay).
 ## Product rules
 Some rules may apply to certain payment methods. For Alipay, the following rules apply:
 
+* __Important!__ Due to limitations, the Alipay payment method can only be used with a __verified__ Alipay account that is __linked to a Chinese bank__.
+
+    Transactions will be unsuccessful if the abovementioned conditions are not met. Therefore, it would be wise to add Alipay to your website only if you intend on targeting Chinese customers with a working Alipay account.
+
+
 * Refunding more than the stated amount of the original transaction is possible with Alipay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
 * Successful Alipay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
@@ -54,6 +64,3 @@ Full documentation can be found on our [lifetime of a payment link](/faq/api/lif
 * Payments done through Alipay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
 * Alipay is a Chinese payment method. The currency conversion is processed in Euros (EUR) only.
-
-
-

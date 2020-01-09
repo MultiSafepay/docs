@@ -3,6 +3,7 @@ title: "Direct Debit, How does it work?"
 weight: 21
 meta_title: "Direct Debit, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 # How does it work?
 As the merchant files the Direct Debit request, an order with status _initialized_ will be created (after MultiSafepay has conducted a background check on the provided customer data).

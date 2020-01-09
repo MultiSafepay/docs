@@ -1,9 +1,9 @@
 ---
-title: 'TrustPay, What is it?'
+title: 'TrustPay, What it is'
 weight: 20
-meta_title: "TrustPay, What is it? - MultiSafepay Support"
+meta_title: "TrustPay, What it is - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# What is it?
-TrustPay is a standard bank transfer payment method available in Czech Republic in Czech Koruna,
-For any website with a Czech Republic target audience and international growth ambitions, TrustPay is a highly recommended payment method.
+# What it is
+TrustPay is a standard bank transfer payment method available in Czech Republic in Czech Koruna. For any website with a Czech Republic target audience and international growth ambitions, TrustPay is a highly recommended payment method.

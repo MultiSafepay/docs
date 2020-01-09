@@ -3,18 +3,20 @@ title : "How does it work?"
 weight: 21
 meta_title: "How does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
+# How it works
 MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must either:
 
-* Be able to able to retrieve and process the PNG image for the QR code on your side, in order to display it to the customer OR
-<br>
+* Be able to able to retrieve and process the PNG image for the QR code on your side, in order to display it to the customer
 
-* Redirect the customer to our Payment page as with other payment methods.
+    **or**
+
+* Redirect the customer to our payment page similarly with other payment methods.
 
 With iDEAL QR you can also produce a generic link that can be used multiple times. The QR code can be printed on leaflets. You can also enable an option to allow the customer change the amount.
 
-> Please not that currently only 4 customer banks support iDEAL QR within their own banking app (Rabobank, Knab, ING and ABN AMRO). All other customers must use the dedicated iDEAL app.
+> Please note that currently only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING, ABN AMRO, ASN Bank, RegioBank and SNS Bank). All other customers must use the dedicated iDEAL app.
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

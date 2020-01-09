@@ -3,6 +3,7 @@ title: "How to refund a Belfius transaction"
 weight: 22
 meta_title: "Belfius, how to refund a transaction - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 # Request refund 
 > An IBAN is not automatically received when a transaction is marked with the status completed. However, we import our bank statements daily and all incoming payments which have not yet been completed will then be finalized. Refunds can therefore be done after 1 business day.

@@ -1,8 +1,9 @@
 ---
 title : "What is a chargeback?"
-weight: 26
+weight: 25
 meta_title: "Credit cards, what is a chargeback? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 Customers who disagree with or do not recognise a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 
@@ -14,7 +15,7 @@ If a customer does not recognise a transaction that is charged, the cardholder c
 
 Providing evidence that the chargeback is wrongful is always the responsibility of the webshop.
 
-MultiSafepay can challenge the chargeback on your behalf, but to do so,  we need documented proof of the order. This includes:
+MultiSafepay can challenge the chargeback on your behalf, but to do so, we need documented proof of the order. This includes:
 
 * An invoice of the order
 * Track & trace
@@ -44,7 +45,7 @@ The most common chargeback reasons are fraud, non-delivery of goods or goods not
 
 There are several actions that can be taken to minimize the risk for chargebacks. This starts with good customer service.
 
-Fraud-related chargebacks can be avoided altogether by using [3D Secure](https://docs.multisafepay.com/faq/risk-and-fraud/what-is-3d-secure/), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D secure.
+Fraud-related chargebacks can be avoided altogether by using [3D Secure](/faq/risk-and-fraud/what-is-3d-secure/), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D secure.
 
 >It is still possible to receive a chargeback due to non-delivery and goods not as described.
 These two reasons are well within your own control.
@@ -59,7 +60,7 @@ Non-delivery chargebacks can be minimized by:
 
 * Having a clear description on your website and delivering quality goods.
 
-## What happens if I provided proof,  but the cardholder still does not agree?
+## What happens if I provided proof, but the cardholder still does not agree?
 
 If the customer does not agree with the outcome of the dispute, the process of the chargeback continues. It is possible to challenge the procedure, however the potential cost of doing so is significant.
 
@@ -73,7 +74,7 @@ A cardholder can claim a chargeback for a maximum of 180 days after the purchase
 
 Longer chargeback initiation periods can be arranged with the card schemes, should the business model of your webshop require (_e.g._ when a yearly subscription has been paid in advance).
 
-By offering credit cards as a payment option in your webshop you agree to the customer rights that come with credit card acceptance.
+By offering credit cards as a payment option in your webshop, you agree to the customer rights that come with credit card acceptance.
 
 ## Why do you charge a chargeback handling fee?
 

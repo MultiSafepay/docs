@@ -3,8 +3,9 @@ title: "ING Home'Pay, How does it work?"
 weight: 21
 meta_title: "ING Home'Pay, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
+# How it works
 ING Home'Pay is a banking payment method that allows ING Home'Pay customers to pay directly using their ING bank account. ING Home'Pay is similar to any bank payment. A customer chooses to pay with ING Home'Pay, authenticates their account, and confirms to pay.
 
 > ING Home'Pay payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/).

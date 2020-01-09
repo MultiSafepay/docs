@@ -3,6 +3,7 @@ title: "How to activate Belfius"
 weight: 22
 meta_title: "Belfius, how to activate it - Multisafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 # Activate
 Belfius is a standard payment method.

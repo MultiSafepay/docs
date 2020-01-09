@@ -3,6 +3,7 @@ title: "How to activate AfterPay"
 weight: 22
 meta_title: "AfterPay, How to activate it - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 
 # Activate 
@@ -23,8 +24,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 + [CS-Cart](/integrations/cs-cart/changelog/) > available from version 1.3.0. Released on the 8th of October 2018
 
-To apply for AfterPay, go to [AfterPay.nl](https://www.afterpay.nl/nl/zakelijk/offerte)
++ [X-Cart](/integrations/x-cart/) > available from version 2.2.0. Released on the 24th of April 2019
+
+To apply for AfterPay, go to [AfterPay.nl](https://www.afterpay.nl/nl/zakelijk/offerte) or [AfterPay.be](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
 
 For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your AfterPay account with your MultiSafepay Control.   
 
->_Currently MultiSafepay only offers AfterPay in the Netherlands._
+>_Currently MultiSafepay offers AfterPay in the Netherlands and Belgium._

@@ -1,22 +1,22 @@
 ---
-title: "TrustPay, How does it work?"
+title: "TrustPay, How it works"
 weight: 21
-meta_title: "TrustPay, how does it work? - MultiSafepay Support"
+meta_title: "TrustPay, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
-If the transaction is approved by TrustPay, the transaction status will change to completed and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
+# How it works
+If the transaction is approved by TrustPay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
 
 ## Transaction flow
-The transaction flow shows the different possibilities a transaction is able to process. This differs per payment method.
+The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
-The order status indicates the status of the order, such as completed, pending or rejected. 
-The order status is independent of the incoming or outgoing payment of the transaction.     
+The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
 
-* Transaction status      
-The transaction status indicates the payment status of the transaction, such as pending, completed or rejected. 
-Once the transaction status shows as completed, the amount of the transaction is added to your MultiSafepay balance.
+* Transaction status       
+The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
+
 
 | Order Status | Transaction Status | Description                                                                                                          |
 |--------------|------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -34,21 +34,19 @@ Once the transaction status shows as completed, the amount of the transaction is
 | Reserved       | Reserved         | A refund has been requested.             | 
 | Completed      | Completed        | Refund has been successfully processed.  | 
 
-Full [API reference](/api/#trustpay) on the payment method TrustPay.
+The full API reference for TrustPay can be found [here](/api/#trustpay).
 
 ## Product Rules
-Some rules may apply to certain payment methods. These rules apply to the payment method TrustPay.
+Some rules may apply to certain payment methods. For TrustPay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with the payment method TrustPay. More information available in [Refund more than original amount](/faq/finance/refund-more-than-original-amount/)
+* Refunding more than the stated amount of the original transaction is possible with TrustPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Transactions successfully received with the payment method TrustPay have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
+* Successful TrustPay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The days and seconds active does not apply to the payment method TrustPay. The customer processes the payment from his/her own banking environment. As a result, it has a different payment flow and the setting of a days or seconds active will have no influence. <br>        
-Full documentation on the lifetime of a payment link can be found on our FAQ page, [Lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
-<br>
+* As a direct banking payment method, TrustPay has a different payment flow and therefore the setting of days or seconds active will have no influence. The customer processes the payment from his/her own banking environment. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
 
 * As it is a standard bank transfer method, an expiry date exception for TrustPay transactions has been set to 10 days
 
-* The payment method Dotpay processes the [currency](/faq/general/which-currencies-are-supported-by-multisafepay/) Czech Koruna (CZK). 
+* TrustPay transactions are processed in [Czech Koruna (CZK)](/faq/general/which-currencies-are-supported-by-multisafepay/). 
    
  

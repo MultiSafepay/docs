@@ -1,10 +1,11 @@
 ---
-title : "Fastcheckout, What is it?"
+title : "Fastcheckout, What it is"
 weight: 20
-meta_title: "FastCheckout, what is it? - MultiSafepay Support"
+meta_title: "FastCheckout, What it is - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# Fastcheckout, What is it?
+# Fastcheckout, What it is
 
 Fastcheckout is a multi-currency wallet designed by MultiSafepay that allows the customer to pay for online purchases in a fast and secure way. In order to be able to use this service, the customer needs to first go through a one-time account creation process. Given that the customer's credentials will be stored in the Fastcheckout account, payments can be finalized within 3 easy steps.
 

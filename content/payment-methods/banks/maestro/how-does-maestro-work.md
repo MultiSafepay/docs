@@ -3,24 +3,23 @@ title: "Maestro, How does it work?"
 weight: 21
 meta_title: "Maestro, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
->_Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard en Maestro) to your account manager or contact us at <sales@multisafepay.com>_
+# How it works
+>_Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>_
 
-A Maestro payment is always validated with the 3D secure code. The 3D secure is a requirement of Maestro.
+A Maestro payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by Maestro.
 
 ## Transaction flow
-The transaction flow shows the different possibilities a transaction is able to process. This differs per payment method.
+The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
-The order status indicates the status of the order, such as completed, pending or rejected. 
-The order status is independent of the incoming or outgoing payment of the transaction.     
+The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
 
-* Transaction status      
-The transaction status indicates the payment status of the transaction, such as pending, completed or rejected. 
-Once the transaction status shows as completed, the amount of the transaction is added to your MultiSafepay balance.
+* Transaction status       
+The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-Credit card transactions received by MultiSafepay, will be processed through our fraud filter. The following statuses are important when receiving a credit card payment:
+Maestro (credit card) transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving a Maestro payment:
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -42,17 +41,15 @@ Credit card transactions received by MultiSafepay, will be processed through our
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)              |
 
 
-Full [API reference](/api/#credit-cards) on the payment method Maestro.
+The full API reference for Maestro and credit cards can be found [here](/api/#credit-cards).
 
 ## Product rules
-Some rules may apply to certain payment methods. These rules apply to the payment method Maestro.
+Some rules may apply to certain payment methods. For Maestro, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible with the payment method Maestro. More information available in [Refund more than original amount](/faq/finance/refund-more-than-original-amount/)
+* Refunding more than the stated amount of the original transaction is NOT possible for Maestro. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Transactions received Maestro as payment method have an expiring date regarding refunding. All cards can be refunded within 180 days. After the expired period, it is advised to process the requested refund through a bank transfer
+* Maestro transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active.   
-Full documentation on the lifetime of a payment link can be found on our FAQ page, [Lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
-<br>
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
 
-* Maestro is processed in the [currency](/faq/general/which-currencies-are-supported-by-multisafepay/) Euros (EUR).
+* Payments done through Maestro are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).

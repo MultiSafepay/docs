@@ -3,6 +3,7 @@ title: "How to activate Betaalplan"
 weight: 22
 meta_title: "Betaalplan, how to activate it - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 # Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
@@ -11,7 +12,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 In order to be able to offer Betaalplan as a payment method within MultiSafepay Control, certain criteria need to be met.
 
-Only the following Merchants are eligible for Betaalplan:
+Only the following merchants are eligible for Betaalplan:
 
 1. Organizations with a Dutch Chamber of Commerce registration (no exceptions possible)
 2. Organization yearly turnover >€500.000 (lower yearly turnover is possible upon agreement with Santander)

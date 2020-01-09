@@ -1,10 +1,11 @@
 ---
-title: "Betaalplan, How does it work?"
+title: "Betaalplan, How it works"
 weight: 21
-meta_title: "Betaalplan, how does it work? - MultiSafepay Support"
+meta_title: "Betaalplan, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
+# How it works
 
 ### The customer
 
@@ -68,8 +69,14 @@ Some rules may apply to certain payment methods. For Betaalplan, the following r
 
 * Payments done through Betaalplan are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
+* As a rule of thumb, post-payment methods do not allow the use of a [giftcard](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Betaalplan). Our platform would otherwise interpret the giftcard as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using giftcards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
+
 * As a post-payment method, Betaalplan has a different payment flow and therefore the setting of days or seconds active will have no influence. 
  <br>        
+
+* As an overarching rule for post-payment methods, both first name and last name for the customer details need to be at least 2 characters long. This also applies for the delivery details. Please note that failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
+
+
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
 
 

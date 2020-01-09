@@ -3,6 +3,7 @@ title: "How to refund an AfterPay transaction"
 weight: 23
 meta_title: "Afterpay, how to refund a transaction - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 
 # Request a refund 
@@ -55,6 +56,6 @@ Instead of deleting an item in the checkout editor you may want to add a discoun
 The discount is added to the transaction.
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the corresponding [plugin FAQ](https://docs.multisafepay.com/integrations/) for more information.
+In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/) for more information.
 
 <br>

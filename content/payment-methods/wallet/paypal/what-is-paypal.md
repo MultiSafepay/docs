@@ -1,8 +1,9 @@
 ---
-title : "PayPal, What is it?"
+title : "PayPal, What it is"
 weight: 20
-meta_title: "PayPal, what is it? - MultiSafepay Support"
+meta_title: "PayPal, What it is - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pagess for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# What is it?
-PayPal is an international payment processing service allowing customers to pay by credit card or create a digital wallet to store preferred payment methods. With a global reach PayPal deserves to be part of any business's international expansion.
+# What it is
+PayPal is an international payment processing service that allows customers to pay by credit card or create a digital wallet linked to alternative payment methods. With a global reach, PayPal has been part of many businesses' international expansion.

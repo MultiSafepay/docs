@@ -1,10 +1,11 @@
 ---
-title : "E-Invoicing, How does it work?"
+title : "E-Invoicing, How it works"
 weight: 21
-meta_title: "E-Invoicing, how does it work? - MultiSafepay Support"
+meta_title: "E-Invoicing, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
+# How it works
 Once E-Invoicing is activated in your MultiSafepay Control, you will need to set it up correctly. Firstly, an action needs to be created. An action will be set as email, text or letter. Multiple actions will become a collection flow. 
 
 A collection flow needs to be linked to a website to be activated. When the collection flow is activated, E-Invoicing will be ready for use as payment method. 
@@ -14,12 +15,12 @@ The layout and creation of the email template is entirely your responsibility. Y
 ## Create action
 Each action needs to created following these steps: 
 
-1. Login in your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing -> Action_
+1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing -> Action_
 2. Click on  _Add new template_
 3. Select delivery option(s) _email address, SMS or Letter_
 4. Provide a description. _Example: NL 1st invoice_
 5. Select a language
-6. The from address is by default _noreply@multisafepay.com_. When changing the from address, MultiSafepay strongly recommends you add a DNS records to your domain in order to avoid your messages being marked as spam. Further information available in your MultiSafepay Control
+6. The from address is by default _noreply@multisafepay.com_ When changing the from address, MultiSafepay strongly recommends you add a DNS records to your domain in order to avoid your messages being marked as spam. Further information available in your MultiSafepay Control
 7. Enter a from name
 8. Provide a subject. _Example: Invoice @sitename@_
 9. The Body plain indicates plain (unformatted) text. The layout is entirely up to you
@@ -46,7 +47,7 @@ We kindly request you to pay the invoice for @ DUE_DATE @.
 Complete your payment using the payment link below
 @PAYLINK@ 
 
-Use the following information for a Bank transfer:
+Use the following information for a bank transfer:
 IBAN: @BANKTRANSFERIBAN@
 BIC: ​@BANKTRANSFERBIC@
 In the name of: @BANKTRANSFERHOLDER@
@@ -127,7 +128,7 @@ The transaction status indicates the payment status of the transaction, such as 
 The full API reference for E-Invoicing can be found [here](/api/#e-invoicing).
 
 ## Product Rules
-Some rules may apply to certain payment methods. For Dotpay, the following rules apply:
+Some rules may apply to certain payment methods. For E-Invoicing, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible with E-Invoicing. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
@@ -135,4 +136,8 @@ Some rules may apply to certain payment methods. For Dotpay, the following rules
 
 * Payments done through E-Invoicing are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
-* As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
+
+* As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+
+* As a rule of thumb, post-payment methods do not allow the use of a [giftcard](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. E-Invoicing). Our platform would otherwise interpret the giftcard as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using giftcards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
+

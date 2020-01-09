@@ -1,10 +1,11 @@
 ---
-title: "How does it work?"
+title: "How it works"
 weight: 21
-meta_title: "How does it work? - MultiSafepay Support"
+meta_title: "How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
+# How it works
 A gift card can be processed as a digital payment method. The credit on a gift card can be spent in a webshop that accepts the gift card.
 
 With a gift card, the transaction can be paid both in full and partially by the customer.
@@ -41,4 +42,6 @@ Some rules may apply to certain payment methods. For gift cards, the following r
 
 * Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
+* Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+
+* As a rule of thumb, giftcards cannot be used for (partly) paying for an order placed via a post-payment method. Post-payment methods do not allow the use of a giftcard by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (e.g. Klarna, Afterpay, etc). Our platform would otherwise interpret the giftcard as a discount (which is not present in the shopping cart specification of post-payment methods) and would not reflect the right order information needed, for example, for taxation purposes. However, using giftcards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.

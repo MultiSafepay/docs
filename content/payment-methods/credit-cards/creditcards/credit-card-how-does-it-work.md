@@ -3,8 +3,9 @@ title: "Credit Cards, How do they work?"
 weight: 21
 meta_title: "Credit cards, how do they work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-# How does it work?
+# How it works
 In order to pay with Mastercard, Visa or American Express the customer needs to fill in their card number, CVC-code and expiry date to release a payment. When the 3D Secure is enabled on the credit card, the customer needs to provide an authentic code on the next page to finalize the payment. The 3D secure insures that the customer is the rightful account holder.
 
 As payment processor, MultiSafepay is an acquirer itself for Visa and Mastercard.
@@ -54,7 +55,7 @@ The full API reference for credit cards can be found [here](/api/#credit-cards).
 ## Product rules
 Some rules may apply to certain payment methods. For credit cards, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible for credit cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible for credit cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
 * Visa, Mastercard and American Express transactions have a maximum refund period. All cards can be refunded within 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
