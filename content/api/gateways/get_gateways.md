@@ -33,7 +33,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% /code %}}
 
 {{% description %}}
-## Retrieve all gateways
 _October 2019: There have been reports of faulty functionality of this feature. If you encounter any issues or need assistance on this matter, do not hesitate to contact our Integration Team at <integration@multisafepay.com>_
 
 | Parameter           | Type   | Description |

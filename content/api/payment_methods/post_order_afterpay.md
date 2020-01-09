@@ -4,8 +4,6 @@ meta_title: "API - Create AfterPay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{% code %}}
-
-
 > POST - /orders
 
 ```shell
@@ -34,11 +32,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "forwarded_ip": "",
         "first_name": "Testperson-nl",
         "last_name": "Approved",
-        "address1": "Neherkade",
+        "address1": "Kraanspoor",
         "address2": "",
-        "house_number": "1/XI",
-        "zip_code": "2521VA",
-        "city": "Gravenhage",
+        "house_number": "39",
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
         "state": "",
         "country": "NL",
         "email": "rejection@afterpay.nl",
@@ -48,14 +46,14 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "delivery": {
         "first_name": "Testperson-nl",
         "last_name": "Approved",
-        "address1": "Neherkade",
+        "address1": "Kraanspoor",
         "address2": "",
-        "house_number": "1/XI",
-        "zip_code": "2521VA",
-        "city": "Gravenhage",
+        "house_number": "39",
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
         "state": "",
         "country": "NL",
-        "phone": "0612345678",
+        "phone": "020 8500 500",
         "email": "rejection@afterpay.nl"
     },
     "gateway_info": {
@@ -221,15 +219,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "locale": "en_US",
             "first_name": "Testperson-nl",
             "last_name": "Approved",
-            "address1": "Neherkade",
+            "address1": "Kraanspoor",
             "address2": null,
-            "house_number": "39c",
-            "zip_code": "1033SC",
-            "city": "Gravenhage",
+            "house_number": "39c39",
+            "zip_code": "1033 SC",
+            "city": "Amsterdam",
             "state": null,
             "country": "NL",
             "country_name": null,
-            "phone1": "0612345678",
+            "phone1": "020 8500 500",
             "phone2": "",
             "email": "test@example.com"
         },
@@ -403,6 +401,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% description %}}
 ## AfterPay
 
+
 Creates an AfterPay order to be paid after delivery.
 
 * Direct transaction requires all fields completed properly
@@ -413,7 +412,7 @@ Creates an AfterPay order to be paid after delivery.
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
 | type                               | string | Specifies the payment flow for the checkout process. Options: direct, redirect.       |
 | gateway                            | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: AFTERPAY. |
-| order_id                           | string | The unique identifier from your system for the order. |
+| order_id                           | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.  |
 | currency                           | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                             | integer | The amount (in cents) that the customer needs to pay. |
 | description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |

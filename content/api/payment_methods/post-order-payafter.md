@@ -4,8 +4,6 @@ meta_title: "API - Create Pay After Delivery order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{% code %}}
-
-
 > POST - /orders 
 
 ```shell
@@ -40,11 +38,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "forwarded_ip": "",
         "first_name": "Testperson-nl",
         "last_name": "Approved",
-        "address1": "Neherkade",
+        "address1": "Kraanspoor",
         "address2": "",
-        "house_number": "39c",
+        "house_number": "39",
         "zip_code": "1033 SC",
-        "city": "Gravenhage",
+        "city": "Amsterdam",
         "state": "",
         "country": "NL",
         "email": "test@example.com",
@@ -54,14 +52,14 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "delivery": {
         "first_name": "Testperson-nl",
         "last_name": "Approved",
-        "address1": "Neherkade",
+        "address1": "Kraanspoor",
         "address2": "",
-        "house_number": "39c",
+        "house_number": "39",
         "zip_code": "1033 SC",
-        "city": "Gravenhage",
+        "city": "Amsterdam",
         "state": "",
         "country": "NL",
-        "phone": "",
+        "phone": "020 8500 500",
         "email": ""
     },
     "shopping_cart": {
@@ -198,204 +196,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ```shell
 {
-    "success": true,
-    "data": {
-        "transaction_id": 2340676,
-        "order_id": "my-order-id-1",
-        "created": "2017-09-29T16:13:10",
-        "currency": "EUR",
-        "amount": 26000,
-        "description": "Test Order Description",
-        "var1": null,
-        "var2": null,
-        "var3": null,
-        "items": "",
-        "amount_refunded": 0,
-        "status": "completed",
-        "financial_status": "initialized",
-        "reason": "",
-        "reason_code": "",
-        "fastcheckout": "NO",
-        "modified": "2017-09-29T16:13:10",
-        "customer": {
-            "locale": "en_US",
-            "first_name": "Testperson-nl",
-            "last_name": "Approved",
-            "address1": "Neherkade",
-            "address2": null,
-            "house_number": "39c",
-            "zip_code": "1033SC",
-            "city": "Gravenhage",
-            "state": null,
-            "country": "NL",
-            "country_name": null,
-            "phone1": "0612345678",
-            "phone2": "",
-            "email": "test@example.com"
-        },
-        "payment_details": {
-            "recurring_id": null,
-            "type": "",
-            "account_id": 10071970,
-            "account_holder_name": null,
-            "external_transaction_id": 2379429850
-        },
-        "shopping_cart": {
-            "items": [
-                {
-                    "name": "Item demo 1",
-                    "description": "",
-                    "unit_price": "90.00",
-                    "currency": "EUR",
-                    "quantity": 2,
-                    "merchant_item_id": 666666,
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 12
-                    },
-                    "options": []
-                },
-                {
-                    "name": "Item demo 2",
-                    "description": "",
-                    "unit_price": "35.00",
-                    "currency": "EUR",
-                    "quantity": 2,
-                    "merchant_item_id": 666666,
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 20
-                    },
-                    "options": []
-                },
-                {
-                    "name": "Item shipping - Flat Rate - Fixed",
-                    "description": "Shipping",
-                    "unit_price": "10.00",
-                    "currency": "EUR",
-                    "quantity": 1,
-                    "merchant_item_id": "msp-shipping",
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 0
-                    },
-                    "options": []
-                }
-            ]
-        },
-        "checkout_options": {
-            "default": {
-                "shipping_taxed": true,
-                "rate": 0.21
-            },
-            "alternate": [
-                {
-                    "standalone": true,
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": 0.21,
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": true,
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": 0.06,
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": true,
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": true,
-                    "name": 2,
-                    "rules": [
-                        {
-                            "rate": 0.0825,
-                            "country": "US"
-                        },
-                        {
-                            "rate": 0.08375,
-                            "country": "NL"
-                        }
-                    ]
-                }
-            ]
-        },
-        "order_adjustment": {
-            "total_adjustment": "0.00",
-            "total_tax": "0.00"
-        },
-        "order_total": "260.00",
-        "costs": [],
-        "payment_url": "http://www.example.com/client/?action=notification&type=redirect&transactionid=2340676",
-        "cancel_url": "http://www.example.com/client/?action=notification&type=cancel&transactionid=2340676"
-    }
+  "success": true,
+  "data": {
+    "order_id": "apitool_2710316",
+    "payment_url": "https://payv2.multisafepay.com/connect/820UDg9zumqA13QovrRq1YVgpdTVxAlpJAP/?lang=nl_NL"
+  }
 }
 ```
 {{% /code %}}
@@ -410,7 +215,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 |----------------------------------|----------|----------------------------------------------------------------------------------------|
 | type                             | string | Specifies the payment flow for the checkout process. Options: direct, redirect.        |
 | gateway                          | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYAFTER. |
-| order_id                         | string | The unique identifier from your system for the order.                                  |
+| order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                  |
 | currency                         | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                           | integer | The amount (in cents) that the customer needs to pay.                                  |
 | description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |

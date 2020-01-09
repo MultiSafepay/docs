@@ -25,4 +25,5 @@ Transactions can have the following statuses:
 | reserved         | Reserved         | Payout/refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
 | chargedback      | Chargedback      | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. |
 | shipped          | Shipped          | Order for payment has been set to shipped to mark the order as fulfilled and capture the money. |
+
 {{% /description %}}

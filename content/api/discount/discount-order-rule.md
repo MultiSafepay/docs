@@ -9,6 +9,7 @@ Adding a discount as order rule is a common way to add a discount before submitt
 {{% /description %}}
 
 {{% code %}}
+
 > Example with discount in separate order rule:
 
 ```shell 

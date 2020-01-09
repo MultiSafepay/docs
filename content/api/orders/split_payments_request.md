@@ -4,6 +4,7 @@ meta_title: "API - Split payments - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{% code %}}
+
 > POST - /orders
 
 ```shell
@@ -53,7 +54,7 @@ For more information about split payments, please refer to our [dedicated page](
 |---------------------------------------|-----------|----------------------------------------------------------------------------------|
 | type                                  | string    | Specifies the payment flow for the checkout process. Options: direct, redirect and paymentlink.                             |
 | gateway                               | string    | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.     |
-| order_id                              | string    | The unique identifier from your system for the order.                            |
+| order_id                              | integer / string    | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                             |
 | currency                              | string    | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.                |
 | amount                                | integer   | The amount (in cents) that the customer needs to pay.                             |
 | description                           | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.        |
@@ -66,4 +67,5 @@ For more information about split payments, please refer to our [dedicated page](
 | split_payments.percentage             | float     | Define a percentage of the amount to split.                                       |
 | split_payments.fixed                  | integer   | Define amount to split in cents.                                                  |
 | split_payments.description            | string    | Description.                                                                      |
+
 {{% /description %}}

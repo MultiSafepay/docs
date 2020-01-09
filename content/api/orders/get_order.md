@@ -35,15 +35,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
       "locale": "nl_NL",
       "first_name": "Testperson-nl",
       "last_name": "Approved",
-      "address1": "Neherkade",
+      "address1": "Kraanspoor",
       "address2": null,
-      "house_number": "XI",
-      "zip_code": "2521VA",
-      "city": "Gravenhage",
+      "house_number": "39",
+      "zip_code": "1033 SC",
+      "city": "Amsterdam",
       "state": null,
       "country": "NL",
       "country_name": null,
-      "phone1": "0612345678",
+      "phone1": "020 8500 500",
       "phone2": "",
       "email": "test@example.com"
     },
@@ -112,6 +112,6 @@ Get order status & information. Depending on the order type or method, the struc
 
 | Parameter          | Type      | Description                                                                                         |
 |--------------------|-----------|-----------------------------------------------------------------------------------------------------|
-| order_id           | string    | The unique identifier of the order to be returned.                                                  |
+| order_id           | integer / string    | The unique identifier of the order to be returned. If the values are only numbers the type will be integer otherwise it will be string.                                                  |
 
 {{% /description %}}

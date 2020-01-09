@@ -132,8 +132,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% description %}}
 ## Dynamic Template
 
-
-
 You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay Control or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
 
 The template object structure needs to include the JSON CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
@@ -144,7 +142,7 @@ When sending images within the template structure for the "logo" and "header", y
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
 | gateway                        | string   | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. |
-| order_id                       | string   | The unique identifier from your system for the order.                                    |
+| order_id                       | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                    |
 | currency                       | string   | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                    |
 | description                    | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
