@@ -3,6 +3,7 @@ title : "Automated Accountant Export"
 weight: 61
 meta_title: "Automated Accountant Export - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 
 **_The Automated Accountant Export via SFTP is currently in Beta and is available for testing via [MultiSafepay Test Control](https://testmerchant.multisafepay.com/)_.**

@@ -3,9 +3,10 @@ title : "How do I get an API key?"
 weight: 33
 meta_title: "MultiSafepay Control- Get an API key - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 
-Looking for your API key (or an Account ID,Site ID or Secure Code)?
+Looking for your account information (e.g. API key)?
 
 1. Login at our MultiSafepay Control  
 [Live MultiSafepay Control](https://merchant.multisafepay.com)  
@@ -15,13 +16,12 @@ Looking for your API key (or an Account ID,Site ID or Secure Code)?
 
 3. Add a new website or click on an existing website.
 
-There you see the:
+There you will see the following information:
 
 * API key
 * Account ID
 * Site ID
 * Secure Code.
 
-_Note  
-A live Account ID start with a 10.  
-A test Account ID start with a 9_.
+> _Please note: A live Account ID starts with a 10, whereas a test Account ID starts with a 9_.
+

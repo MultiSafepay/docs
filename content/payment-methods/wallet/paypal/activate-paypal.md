@@ -13,13 +13,13 @@ read_more: '.'
 
 ##  Account configuration
 1. Login into https://www.paypal.com with your business account
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-1.PNG" title="screenshot 1">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-1.PNG" title="screenshot 1">}}
 2. Navigate to _Tools->All tools->API credentials_
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-2.PNG" title="screenshot 2">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-2.PNG" title="screenshot 2">}}
 3. Click on _Grant API permission_
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-3.PNG" title="screenshot 3">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-3.PNG" title="screenshot 3">}}
 4. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-4.PNG" title="screenshot 4">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-4.PNG" title="screenshot 4">}}
 
 We need access to these options:
 
@@ -39,17 +39,17 @@ To do this, please follow the steps below:
 2. Click on _More Options_. Change the Encoding to UTF-8 by selecting it from the dropdown menu.</br>
 The following question will appear: "Do you want to use the same encoding for data sent from PayPal to you?"</br>
 Answer with 'yes' and click on _Save_.
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-8.PNG" title="screenshot 8">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-8.PNG" title="screenshot 8">}}
 
 ##  MultiSafepay Control configuration
 1. Click on the gear icon in the upper right corner and select _Account Settings_ -> _Business information_.
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-5.PNG" title="screenshot 5">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-5.PNG" title="screenshot 5">}}
 2. Copy your `PayPal Merchant ID`
 
 3. Log in into your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 4. Navigate to _Settings_->_Payment methods_. Select 'PayPal' and enter your `PayPal Account ID`.
-    {{< zoomable url="/payment-methods/paypal/paypal-screenshot-6.PNG" title="screenshot 6">}}
+    {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-6.PNG" title="screenshot 6">}}
 
 Your account is now configured and you are ready to accept MultiSafepay payments. We strongly recommend you perform one or more test transactions in order to ensure everything is working correctly.
 

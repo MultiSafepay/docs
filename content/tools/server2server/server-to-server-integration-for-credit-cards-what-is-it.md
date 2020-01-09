@@ -3,8 +3,9 @@ pagetitle: "Server to Server integration for credit card"
 weight: 74
 title: "Server to Server"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Methods, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
-## What is it?
+## What it is
 By requesting the credit card details on the webshop, a 'direct' transaction can be created. Customers can finalize a credit card payment without being redirected to the payment page of MultiSafepay, resulting in a faster checkout experience and a higher level of control from the merchant’s perspective.
 
 ### Types of Credit & Debit Cards supported for Server to Server direct payments.
@@ -14,17 +15,17 @@ By requesting the credit card details on the webshop, a 'direct' transaction can
 |Visa | 3D verified by Visa and NON 3D |
 |Mastercard | 3D secure code and NON 3D |
 |Maestro | Only 3D |
-|American Express | NON 3D = No Safekey |
+|American Express | American Express Safekey. The only allowed exception from mandatory Safekey verification is for transactions lower than 30 EUR |
 |Bancontact | Only 3D |
 
 ## Transaction flow
-The transaction flow shows the different possibilities a transaction is able to process. This differs per payment method.
+The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
-* Order status     
-The order status indicates the status of the order such as: completed, pending or rejected. The order status is independent of the incoming or outgoing payment of the transaction.
+* Order status      
+The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
 
-* Transaction status     
-The transaction status indicates the payment status of the transaction such as: pending, completed or rejected. Once the transaction status shows as completed, the amount of the transaction is added to your MultiSafepay balance.
+* Transaction status       
+The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
 Credit card transactions received by MultiSafepay, will be processed through our fraud filter. The following statuses are important when receiving a credit card payment:
 
@@ -39,7 +40,7 @@ Credit card transactions received by MultiSafepay, will be processed through our
 
 
 ### Transaction flow when processing on own MID 
-> When using an own MID (MerchantID) from American Express, the funds are not processed by MultiSafepay. In stead the funds will be added to your own balance at American Express.
+> When using an own MID (MerchantID) from American Express, the funds are not processed by MultiSafepay. Instead, the funds will be added to your own balance at American Express.
 
 
 | Order Status                      | Transaction Status      | Description |
@@ -63,7 +64,6 @@ Read more about 3D Secure in our page [What is 3D Secure?](/payment-methods/cred
 3D Secure is a technical standard to enhance security. Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. This is usually done via a password connected to the card.
 
 By default, all card orders are processed with 3D Secure.    
-_Except: American Express orders, 3D Secure 'Safekey' is currently not supported for American Express transaction_.
 
 Read more about Dynamic 3D Secure in our FAQ page [Dynamic 3D Secure](/tools/server2server/3d-dynamics/)
 

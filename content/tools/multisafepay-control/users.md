@@ -3,13 +3,14 @@ title : "User configuration"
 weight: 35
 meta_title: "MultiSafepay Control - User Configuration - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: '.'
 ---
 
 ## How do I add a user to my MultiSafepay Control?
 
-To add users with different permission profiles to your [MultiSafepay Control](https://merchant.multisafepay.com), please refer to the steps below:
+To add users with different permission profiles to your [MultiSafepay Control](https://merchant.multisafepay.com), please follow to the steps below:
 
-1. Log in on your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Once logged in, navigate to _Settings_ on the left side menu
 3. Click on _User management_
 4. Click on _Add new user_ on the top right corner
@@ -32,9 +33,9 @@ See all the user rights explained below:
 ### Reporting
 
 * Sees all transactions
-* Create and download reports
+* Creates and download reports
 * Sees the current balance of the account
-* Able to generate payment links.
+* Is able to generate payment links.
 
 ### Technical
 

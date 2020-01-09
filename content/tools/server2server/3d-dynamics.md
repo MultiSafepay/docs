@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ##  Dynamic 3D Secure
 
-Based on predefined rules settings an order will be processed with or without 3D Secure.
+Based on a predefined set of rules, an order will be processed with or without [3D Secure](/faq/risk-and-fraud/what-is-3d-secure/).
 
 A request to activate Dynamic 3D Secure is submitted via your account manager by email <sales@multisafepay.com>
 
@@ -15,8 +15,7 @@ The following information is required:
 
 * The reason why your want to process Dynamic 3D Secure transactions
 * A fee can be requested for the use and/or implementation of the Dynamic 3D Secure
-* If multiple site are connected within a MultiSafepay Control, we need to know for which sites the Dynamic 3D Secure should be implemented.
-
+* If multiple site are connected within a MultiSafepay Control account, we need to know for which sites the Dynamic 3D Secure should be implemented.
 
 ## Minimum requirements to approve the use of Dynamic 3D Secure.
 
@@ -32,4 +31,5 @@ We can create rules based on:
 
 * The amount of the transaction
 * The country involved (card country, ip country, country user)
-as by default 3D Secure is enabled for all card orders, we decide with the use of the rules which transactions do not require 3D Secure.
+
+Given that by default 3D Secure is enabled for all card orders, we decide with the use of the rules which transactions do not require 3D Secure.
