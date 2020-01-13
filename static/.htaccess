@@ -1,5 +1,6 @@
 ErrorDocument 404 /404.html
 
+
 Redirect 301 /payment-methods/ideal/ https://docs.multisafepay.compayment-methods/banks/ideal/
 Redirect 301 /payment-methods/afterpay/what-is-afterpay/ https://docs.multisafepay.compayment-methods/billing-suite/afterpay/what-is-afterpay/
 Redirect 301 /payment-methods/alipay/alipay-what-is-it/ https://docs.multisafepay.compayment-methods/wallet/alipay/alipay-what-is-it/
