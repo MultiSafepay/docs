@@ -274,9 +274,16 @@ div.block {
 }
 
 ol.breadcrumb {
-    background-color: transparent;
     font-size: 1.3rem;
     font-weight: 400;
+    background-color: #FFFFFF;
+
+}
+
+.breadcrumb-box {
+    position: sticky;
+    top: var(--navbar-height);
+    z-index: 90;
 }
 
 /**********************/
@@ -405,7 +412,7 @@ ol.breadcrumb {
 .secondary {
     color: #000000;
     border: 1px solid #000000;
-    padding: 9px 6px;
+    padding: 11px 6px;
     border-radius: 5px;
 }
 
@@ -517,13 +524,13 @@ img.magento-certimage {
 }
 
 .newsletter input.newsletter-input {
-    width: 70%;
+    width: 60%;
     font-size: 1.6rem;
+    margin-left: 3px;
 }
-
-@media only screen and (max-width: 968px) {
-    .newsletter input.newsletter-input {
-        width: auto;
+@media (min-width: 1200px) { 
+    .form-inline {
+        margin-left: 0;
     }
 }
 
@@ -896,7 +903,7 @@ nav.navbar {
 }
 
 div.sticky-with-menu {
-    top: calc(var(--navbar-height) + 15px);
+    top: calc(var(--navbar-height) + 34px);
     z-index: 0;
     height: 25px;
     position: sticky;
@@ -910,7 +917,7 @@ div.sticky-with-menu {
 }
 
 .js-toc-content h1, .js-toc-content h2, .js-toc-content h3, .js-toc-content h4, .js-toc-content h5, .js-toc-content h6 {
-    scroll-margin-top: var(--navbar-height);
+    scroll-margin-top: var(--navbar-height) + 34px;
 }
 
 @-moz-document url-prefix() {
