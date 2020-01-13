@@ -939,15 +939,15 @@ div.sticky-with-menu {
     scroll-margin-top: var(--navbar-height) + 34px;
 }
 
-@-moz-document url-prefix() {
-    .js-toc-content h1::before, .js-toc-content h2::before, .js-toc-content h3::before, .js-toc-content h4::before, .js-toc-content h5::before, .js-toc-content h6::before {
-        display: block;
-        content: " ";
-        height: calc(var(--navbar-height) + 34px + 10px);
-        margin-top: calc( 0 - (var(--navbar-height) + 34px + 10px));
-        visibility: hidden;
-    }
-}
+/*
+.js-toc-content h1:target, .js-toc-content h2:target, .js-toc-content h3:target, .js-toc-content h4:target, .js-toc-content h5:target, .js-toc-content h6:target { 
+    display: block; 
+    content: " "; 
+    margin-top: -110px; 
+    height: 110px; 
+    visibility: hidden; 
+  }
+*/
 
 .js-toc-content {
     margin-top: -1.5rem;
