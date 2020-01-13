@@ -6,5 +6,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: '/icons/Errors explained.svg'
 layout: 'faqplugins'
 read_more: "."
-short_description: "FAQ"
+short_description: "Have you encountered an error during integration or on the MultiSafepay Control? Find out why."
 ---
