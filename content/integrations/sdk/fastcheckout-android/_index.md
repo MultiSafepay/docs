@@ -8,6 +8,6 @@ weight: 10
 title_short: "Fastcheckout Android"
 layout: 'single'
 manual: "."
-description_short: "The Fastcheckout SDK is a library that you can integrate into application providing connection to MultiSafepay services."
+description_short: "The Android version of our Fastcheckout SDK a library that you can integrate into a application to provide a connection to MultiSafepay services."
 description: "The Fastcheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The Fastcheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps."
 ---

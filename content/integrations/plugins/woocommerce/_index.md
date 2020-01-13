@@ -11,7 +11,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/WooCommerce.svg"
 weight: 40
 title_short: "WooCommerce"
-description_short: "Easily integrate MultiSafepay payment solutions into your WooCommerce webshop with the free plugin."
+description_short: "Integrate MultiSafepay payment solutions into your WooCommerce webshop our free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your WooCommerce webshop with the free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md"

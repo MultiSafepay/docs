@@ -35,10 +35,10 @@
                     <div class="row pt-5 pb-5">
                         <div class="col small-vertical">
                             {{ if isset .Params "github_url"}}
-                            <a class="secondary" href="">View on Github</a>
+                            <a class="secondary" href="{{.Params.github_url}}">View on Github</a>
                             {{ end }}
                             {{ if isset .Params "download_url" }}
-                            <a class="primary" href="">Download</a>
+                            <a class="primary" href="{{.Params.download_url}}">Download</a>
                             {{ end }}
                         </div>
                     </div>

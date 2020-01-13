@@ -9,8 +9,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/OpenCart.svg"
 weight: 50
 title_short: "OpenCart"
-description_short: "Easily integrate MultiSafepay payment solutions into your OpenCart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your OpenCart webshop with the free plugin."
+description_short: "Have an OpenCart webshop? Integrate the MultiSafepay payment solutions into your OpenCart webshop with our free plugin."
+description: "The free plugin to easily integrate MultiSafepay payment solutions into your OpenCart webshop."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md"
 ---

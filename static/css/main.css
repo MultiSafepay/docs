@@ -518,6 +518,7 @@ img.magento-certimage {
 
 .newsletter input.newsletter-input {
     width: 70%;
+    font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 968px) {
