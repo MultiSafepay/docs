@@ -56,7 +56,7 @@ a, a:hover {
 
 .block-item img {
     width: 50px;
-    height: 115px;
+    height: 118px;
 }
 
 .faq-svg {
@@ -406,12 +406,7 @@ ol.breadcrumb {
     border-radius: 5px;
     color: #ffffff;
     border: 0px;
-    padding: 12px 25px;
-}
-@media (min-width: 980px) {
-    .secondary{
-        padding: 12px;
-    }
+    padding: 12px;
 }
 
 .secondary {
@@ -421,6 +416,24 @@ ol.breadcrumb {
     border-radius: 5px;
 }
 
+
+@media (min-width: 980px) {
+    .primary {
+        padding: 12px 25px;
+    }
+
+    .secondary{
+        padding: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .secondary {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+}
 /**********************/
 
 .separator {
@@ -1024,9 +1037,4 @@ div#results a:hover {
 .img-size {
     max-height: 250px;
     margin-left: 3rem;
-}
-
-.wider-button {
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
