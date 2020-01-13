@@ -5,10 +5,10 @@ meta_title: "TrustPay, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 If the transaction is approved by TrustPay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -27,7 +27,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void         | Cancelled        | Transaction has been cancelled.                                                                                       | 
 
 
-### Refund flow
+#### Refund flow
 
 | Order Status   | Transaction Status | Description                              |
 |----------------|------------------|------------------------------------------|
@@ -36,7 +36,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for TrustPay can be found [here](/api/#trustpay).
 
-## Product Rules
+### Product Rules
 Some rules may apply to certain payment methods. For TrustPay, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with TrustPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

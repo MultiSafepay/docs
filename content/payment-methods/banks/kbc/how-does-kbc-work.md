@@ -5,14 +5,14 @@ meta_title: "KBC, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 KBC is a banking payment method that allows KBC customers to pay directly using their KBC bank account. KBC is similar to any bank payment. A customer chooses to pay with KBC, authenticates their account, and confirms to pay.
 
 > KBC payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/).
 
 In the event which a customer makes a successful payment, but does not finalize the process by pressing the "return to website" button, no status update will be received on our end. The transaction status will therefore remain _initialized_. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -29,7 +29,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for KBC can be found [here](/api/#kbc).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For KBC, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with KBC. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

@@ -5,7 +5,7 @@ meta_title: "How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 A gift card can be processed as a digital payment method. The credit on a gift card can be spent in a webshop that accepts the gift card.
 
 With a gift card, the transaction can be paid both in full and partially by the customer.
@@ -15,7 +15,7 @@ The actual payment using a gift card will not be processed by MultiSafepay, but 
 
 The amount deducted from the gift card to complete a payment will be paid out by the issuer of the gift card.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -33,11 +33,11 @@ The transaction status indicates the payment status of the transaction, such as 
 
 * In case of full payments by means of gift cards, the transaction status will remain _initialized_ in spite of the transaction being **completed**.
 
-### Request refund 
+#### Request refund 
 Transactions that are paid in full by means of gift card cannot be refunded via MultiSafepay Control, as there are no available payment details. Therefore, it is advised to process the refund through your own banking environment. 
 
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For gift cards, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

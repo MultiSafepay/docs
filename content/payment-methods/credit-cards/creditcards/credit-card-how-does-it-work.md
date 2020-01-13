@@ -5,12 +5,12 @@ meta_title: "Credit cards, how do they work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 In order to pay with Mastercard, Visa or American Express the customer needs to fill in their card number, CVC-code and expiry date to release a payment. When the 3D Secure is enabled on the credit card, the customer needs to provide an authentic code on the next page to finalize the payment. The 3D secure insures that the customer is the rightful account holder.
 
 As payment processor, MultiSafepay is an acquirer itself for Visa and Mastercard.
 
-## "Visa, Mastercard and American Express" transaction flow
+### "Visa, Mastercard and American Express" transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -31,7 +31,7 @@ Credit card transactions received by MultiSafepay will be processed through our 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Transaction flow when processing on own MID 
+#### Transaction flow when processing on own MID 
 > When using an own MID (MerchantID) from American Express, the funds are not processed by MultiSafepay. Instead, the funds will be added to your own balance at American Express.
 
 
@@ -42,7 +42,7 @@ Credit card transactions received by MultiSafepay will be processed through our 
 | Completed   | Initialized | A successful credit card  transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 
 
-### Refund flow
+#### Refund flow
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Credit card transactions received by MultiSafepay will be processed through our 
 
 The full API reference for credit cards can be found [here](/api/#credit-cards).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For credit cards, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible for credit cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

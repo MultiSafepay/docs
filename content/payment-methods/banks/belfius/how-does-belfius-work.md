@@ -5,7 +5,7 @@ meta_title: "Belfius, how does it work? - Multisafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How does it work?
+## How does it work?
 Belfius is similar to other online banking payment methods.<br>
 
 A customer chooses to pay with Belfius, authenticates their account, and confirms the payment.
@@ -13,7 +13,7 @@ A customer chooses to pay with Belfius, authenticates their account, and confirm
 >_Belfius payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)._
 
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -29,7 +29,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transactoin Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ The full API reference for Belfius can be found [here](/api/#belfius).
 Please note that successful Belfius payments that are not finalized by pressing the return to shop button will not be updated on our end, resulting in the transaction status NOT changing from _initialized_. However, we import our bank statements daily and all incoming payments which have not yet been completed will then be finalized.
 
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Belfius, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with Belfius. More information available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

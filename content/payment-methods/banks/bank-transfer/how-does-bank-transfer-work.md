@@ -4,7 +4,7 @@ weight: 21
 meta_title: "Bank Transfer, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-# How does it work?
+## How does it work?
 When the customer selects bank transfer as payment method, the bank account details of MultiSafepay will be sent by email. Based on the settings, the sender can be MultiSafepay itself or your ecommerce platform. The email will be sent to the email address provided by the customer when placing the order.
 
 When the bank transfer is confirmed by the customer, the transaction will be visible in your overview with the status _initialized_. The customer needs to transfer the payment from his or her bank MultiSafepay's bank account. This can be done through online banking or in person via a bank teller.
@@ -15,7 +15,7 @@ After we receive the payment on one of our bank accounts with the proper amount 
 
 > _When MultiSafepay receives a bank transfer payment that has incorrect data and/or amount, the payment will not be linked to the outstanding transaction and will be refunded to the customer_.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -32,7 +32,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
-### Refund flow
+#### Refund flow
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for bank transfers can be found [here](/api/#bank-transfer).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For bank transfer, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with bank transfers. More information available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

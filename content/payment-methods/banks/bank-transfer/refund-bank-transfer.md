@@ -4,7 +4,7 @@ weight: 23
 meta_title: "Bank Transfer, how to refund a transaction - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-# Request refund 
+## Request refund 
 Please follow the following steps to refund a bank transfer transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com/)

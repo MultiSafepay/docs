@@ -5,7 +5,7 @@ meta_title: "Gift card, how to refund a transaction - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# Request refund
+## Request refund
 If a refund of a gift card payment has been requested, you could do so through your own banking environment, as follows:
 
 * A transaction fully paid with a gift card can not be reimbursed through MultiSafepay, due to missing bank account details of the customer

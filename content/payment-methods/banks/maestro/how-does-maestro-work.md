@@ -5,12 +5,12 @@ meta_title: "Maestro, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 >_Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>_
 
 A Maestro payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by Maestro.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -32,7 +32,7 @@ Maestro (credit card) transactions received by MultiSafepay will be processed th
 | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Maestro (credit card) transactions received by MultiSafepay will be processed th
 
 The full API reference for Maestro and credit cards can be found [here](/api/#credit-cards).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Maestro, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible for Maestro. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
