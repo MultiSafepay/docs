@@ -5,7 +5,7 @@ meta_title: "Pay After Delivery, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 Pay After Delivery is a payment method developed and managed by our own MultiSafepay developers. Therefore, the payout of the transaction is guaranteed by MultiSafepay.
 
 Pay After Delivery is an online payment method that allows customers to pay for online purchases after receiving them. A special feature of post-payment is that customers are only charged for the items they keep from an order.
@@ -14,7 +14,7 @@ When an uncleared Pay After Delivery is received, no action is required. Our sup
 
 The customer has 14 days to complete the payment after receiving the invoice from MultiFactor.
 
-## Shipped status
+### Shipped status
 When receiving a Pay After Delivery transaction, it is important to take the following steps:
 
 Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _completed_ to _shipped_.  You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status. Not changing the status to _shipped_ can result in the expiration of the order. If you do not change the order status to _shipped_, the order will eventually expire.
@@ -32,7 +32,7 @@ In some cases, the customer pays the outstanding amount of the transaction direc
 
 When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
 
-## Payment flow
+### Payment flow
 As soon as your customer selects the payment method Pay After Delivery, he or she agrees with the terms and conditions. 
 
 1. The shipped status is important for invoicing the customer. 24 Hours after the shipped status has been set, the first email towards the customer will be sent. The customer originally has 14 days to finalize the payment
@@ -50,10 +50,10 @@ The third payment request will be valid for 6 days
 _A payment link is supplied in every invoice email we send to the customer_
 
 
-## Payout transaction
+### Payout transaction
 The payout of a Pay After Delivery transaction will be added onto your MultiSafepay Balance. A Pay After Delivery payout will be processed 30 days after changing the status to shipped.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -71,7 +71,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void       | Cancelled   | Transaction has been cancelled.  | 
 | Expired    | Expired    | When no action is being taken within 90 days of receiving a transaction with the payment method Pay After Delivery, the transaction will automatically expire. | 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ The transaction status indicates the payment status of the transaction, such as 
 The full API reference for Pay After Delivery can be found [here](/api/#pay-after-delivery).
 
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Pay After Delivery, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is not possible with Pay After Delivery. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page.

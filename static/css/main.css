@@ -943,8 +943,8 @@ div.sticky-with-menu {
     .js-toc-content h1::before, .js-toc-content h2::before, .js-toc-content h3::before, .js-toc-content h4::before, .js-toc-content h5::before, .js-toc-content h6::before {
         display: block;
         content: " ";
-        height: calc(var(--navbar-height) + 34px);
-        margin-top: calc((var(--navbar-height) + 34px) * -1);
+        height: calc(var(--navbar-height) + 34px + 10px);
+        margin-top: calc( 0 - (var(--navbar-height) + 34px + 10px));
         visibility: hidden;
     }
 }

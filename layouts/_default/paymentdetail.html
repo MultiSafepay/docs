@@ -1,0 +1,46 @@
+{{ define "main"}}
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+<div class="js-toc-content">
+<section class="payment-detail container">
+    <div class="row">
+        <div class="col-9">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="{{ .Title}}">{{ .Title}}</h1>
+                    <hr class="separator">
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12">
+                    {{ range.Pages.ByWeight }}
+                    {{ .Content }}
+                    {{end}}
+                </div>
+            </div>
+      </div>
+    </div>
+</section>
+{{ partial "edit-page" .}}
+{{ partial "bottom-block" . }}
+</div>
+
+<script src="{{ .Site.BaseURL }}js/tocbot.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/scroll-menu.js"></script>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    faqArrowAnimation();
+  });
+</script>
+{{ end }}
