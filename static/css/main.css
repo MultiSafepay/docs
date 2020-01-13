@@ -1025,3 +1025,8 @@ div#results a:hover {
     max-height: 250px;
     margin-left: 3rem;
 }
+
+.wider-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
