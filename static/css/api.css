@@ -204,12 +204,17 @@ span.m {
 }
 
 .api-toc .toc-list-item  {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	margin-left: -3px;
+	margin-left: px;
 	z-index: 10;
 }
+
+.api-toc .toc-list-item a {
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+}
+
+
 .api-toc .toc-list-item a{
 	padding-left: 1rem;
 }
@@ -222,9 +227,13 @@ span.m {
 	padding-left: 3rem;
 }
 
+.api-toc .toc-list-item .toc-list-item .toc-list-item a{
+	padding-left: 5rem;
+}
+
 .toc-link::before {
 	background-color: white;
-	margin-top: -1rem;
+	margin-top: -1.2rem;
 	z-index: -1;
 }
 
