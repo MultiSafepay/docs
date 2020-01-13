@@ -335,6 +335,11 @@ ol.breadcrumb {
     line-height: 25px;
 }
 
+.mm-listitem__text a {
+    display: block;
+    width: 100%;
+}
+
 #mm-0 .mm-listitem:after, #mm-1 .mm-listitem:after {
     left: 0;
 }
