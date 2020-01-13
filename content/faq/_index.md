@@ -5,6 +5,6 @@ layout: 'block'
 meta_title: "All FAQ - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 logo: '/icons/FAQ.svg'
-short_description: 'lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum'
+short_description: 'Do you have question and are unable find the answer? View this page for answers to the most common questions.'
 weight: 40
 ---
