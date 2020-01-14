@@ -137,9 +137,7 @@ Redirect 301 /payment-methods/paypal/ https://docs.multisafepay.com/payment-meth
 Redirect 301 /payment-methods/alipay/ https://docs.multisafepay.com/payment-methods/wallet/alipay/
 Redirect 301 /payment-methods/gift-cards/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/
 Redirect 301 /payment-methods/paysafecard/ https://docs.multisafepay.com/payment-methods/prepaid-cards/paysafecard/
-Redirect 301 /faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/ https://docs.multisafepay.com/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/
 Redirect 301 /integrations/prestashop-1-7/faq/my-carrier-preferences/ https://docs.multisafepay.com/integrations/plugins/prestashop-1-7/faq/my-carrier-preferences/
-Redirect 301 /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold/ https://docs.multisafepay.com/faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold/
 Redirect 301 /integrations/ccvshop/faq/available-payment-methods-ccv-shop/ https://docs.multisafepay.com/integrations/hosted/ccvshop/faq/available-payment-methods-ccv-shop/
 Redirect 301 /integrations/cs-cart/faq/available-payment-methods-cs-cart/ https://docs.multisafepay.com/integrations/plugins/cs-cart/faq/available-payment-methods-cs-cart/
 Redirect 301 /integrations/drupal7/faq/available-payment-methods-drupal/ https://docs.multisafepay.com/integrations/plugins/drupal7/faq/available-payment-methods-drupal/
@@ -239,8 +237,6 @@ Redirect 301 /integrations/virtuemart/faq/how-can-i-update-the-plugin-for-virtue
 Redirect 301 /integrations/woocommerce/faq/how-can-i-update-the-plugin-for-woocommerce/ https://docs.multisafepay.com/integrations/plugins/woocommerce/faq/how-can-i-update-the-plugin-for-woocommerce/
 Redirect 301 /integrations/x-cart/faq/how-can-i-update-the-plugin-for-x-cart/ https://docs.multisafepay.com/integrations/plugins/x-cart/faq/how-can-i-update-the-plugin-for-x-cart/
 Redirect 301 /integrations/zencart/faq/how-can-i-update-the-plugin-for-zen-cart/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/how-can-i-update-the-plugin-for-zen-cart/
-Redirect 301 /faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-or-which-data-to-post-on-my-website/ https://docs.multisafepay.com/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-or-which-data-to-post-on-my-website/
-Redirect 301 /faq/getting-started/how-do-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account/ https://docs.multisafepay.com/faq/getting-started/how-do-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account/
 Redirect 301 /integrations/lightspeed/faq/lightspeed-orderid/ https://docs.multisafepay.com/integrations/hosted/lightspeed/faq/lightspeed-orderid/
 Redirect 301 /integrations/magento1/faq/tokenization-magento1/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/tokenization-magento1/
 Redirect 301 /integrations/magento2/faq/tokenization-magento2/ https://docs.multisafepay.com/integrations/plugins/magento2/faq/tokenization-magento2/
