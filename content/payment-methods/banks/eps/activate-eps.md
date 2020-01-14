@@ -6,9 +6,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
-EPS is an additional payment method. Therefore, an application is required. Submit your request to the Integration team at <integration@multisafepay.com> 
+EPS is an additional payment method. Therefore, an application is required. Submit your request to the Integration Team at <integration@multisafepay.com> 
 
 Should you need further assistance or have any questions, please refer to your account manager at <sales@multisafepay.com>
 
->_Before applying to enable EPS, please check with the Integration team at MultiSafepay whether your ecommerce platform supports this payment method._
+>_Before applying to enable EPS, please check with the Integration Team at MultiSafepay whether your ecommerce platform supports this payment method._
 
