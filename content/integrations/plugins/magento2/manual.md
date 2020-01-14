@@ -20,7 +20,7 @@ We recommend that you install the plugin first on a test environment, and make s
 ### 1. Requirements
 - Magento Open Source version 2.1.x, 2.2.x & 2.3.x
 - PHP 7.0 and higher
-- Tested on PHP 7.0 (Magento 2.3.x on 7.2)
+- Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
 
 ### 2. Installation
 Run the following commands via the CLI:
