@@ -5,7 +5,7 @@ meta_title: "iDEAL QR, how to refund a transaction - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# Request refund
+## Request refund
 You can refund iDEAL QR transactions either in [MultiSafepay Control](https://merchant.multisafepay.com/) or through our [API](/api/#ref_create_refund).
 
 Please follow these steps to refund a iDEAL QR transaction:

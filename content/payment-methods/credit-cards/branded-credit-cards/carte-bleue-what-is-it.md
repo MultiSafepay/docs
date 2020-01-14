@@ -4,14 +4,14 @@ meta_title: "Cartes Bancaires, What it is - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# Cartes Bancaires
-## What is Cartes Bancaires
+## Cartes Bancaires
+### What is Cartes Bancaires
 Cartes Bancaires - a Visa co-branded product - is one of the best-known and most commonly used French credit cards. Every credit card with the 'Verified by Visa' logo can be safely used for online payments.
 
-## How Cartes Bancaires works
+### How Cartes Bancaires works
 Cartes Bancaires payments are processed through the Visa gateway.
 
-## How to activate Cartes Bancaires?
+### How to activate Cartes Bancaires?
 For Cartes Bancaires to be available as a payment method on the payment page of MultiSafepay, the following are required:
 
 1. The Visa gateway needs to be enabled
@@ -21,7 +21,7 @@ The [locale](/faq/api/locale/) is leading in this to show the desired payment me
 
 Upon adding Cartes Bancaires as payment method on the checkout page, you can download the Cartes Bancaires logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
 
-## How to refund a Cartes Bancaires transaction?
+### How to refund a Cartes Bancaires transaction?
 Cartes Bancaires (Visa) transactions can be refunded to the customer within 180 days.
 
 Please follow these steps to refund a CartaSi transaction:

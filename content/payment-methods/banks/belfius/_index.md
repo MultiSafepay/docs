@@ -3,7 +3,7 @@ title: 'Belfius'
 weight: 80
 meta_title: "Payment methods Belfius - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
-layout: 'faqplugins'
+layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Belfius.svg' 
 short_description: 'A useful addition to your website helping you reach a large number of Belgian customers.'
 ---

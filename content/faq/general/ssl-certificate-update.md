@@ -22,7 +22,6 @@ The affected systems are the following:
 * Sub-domains
 * Server communication
 
-
 The new certificates are already loaded to our merchant test platform and we would like to kindly ask you to submit a transaction request to one of the following test addresses:
 
 https://testapi.multisafepay.com/ewx/  (for XML-api)
@@ -31,6 +30,8 @@ https://testapi.multisafepay.com/v1/json/  (for JSON-api)
 ## Http or Https?
 
 Commonly speaking, a domain is considered secure when the URL presents the wording “https”. It also indicates that the domain possesses a TSL/SSL certificate. More information on the certificate can be found clicking on the lock symbol appearing before the URL in the browser bar.
+This update should not affect your systems or payment processing, although if un-wanted situations arise, please contact us at <integration@multisafepay.com>
+This can occur for merchants using custom integrations, whereby the certificate will need to be replaced.
 
 <div class="alert alert-warning" role="alert">
 Please note: If you decide to cache the SSL-certificate, MultiSafepay will not hold responsibility, although we are happy to assist you in solving any issues that may arise.

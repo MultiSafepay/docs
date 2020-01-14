@@ -5,7 +5,7 @@ meta_title: "How does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must either:
 
 * Be able to able to retrieve and process the PNG image for the QR code on your side, in order to display it to the customer
@@ -18,7 +18,7 @@ With iDEAL QR you can also produce a generic link that can be used multiple time
 
 > Please note that currently only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING, ABN AMRO, ASN Bank, RegioBank and SNS Bank). All other customers must use the dedicated iDEAL app.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -36,7 +36,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for iDEAL QR can be found [here](/api/#ideal-qr).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For iDEAL QR, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with iDEAL QR. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

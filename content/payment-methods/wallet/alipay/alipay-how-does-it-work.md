@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-#  How it works
+##  How it works
 Alipay is wallet-based payment method. Customers can input their credit card or bank account details to an Alipay account to create a wallet system. They can easily process payments from within their Alipay account.
 
 Customers opting in for an Alipay payment have the possibility to pay through a QR code using the Alipay app or by filling in their Alipay account details.
@@ -17,7 +17,7 @@ If the transaction is approved by Alipay, the transaction status will change to 
    Please note: The Alipay payment method can only be used with a verified Alipay account that is linked to a Chinese bank. All other transactions will be unsuccessful.
 </div>
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -35,7 +35,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for Alipay can be found [here](/api/#alipay).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Alipay, the following rules apply:
 
 * __Important!__ Due to limitations, the Alipay payment method can only be used with a __verified__ Alipay account that is __linked to a Chinese bank__.
