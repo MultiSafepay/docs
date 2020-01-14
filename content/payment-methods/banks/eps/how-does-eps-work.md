@@ -5,12 +5,12 @@ meta_title: "How does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How does it work?
+## How does it work?
 A customer chooses to pay with EPS, authenticates their account, and confirms to pay.
 
 > _Once a payment is completed, the payout is guaranteed and can not be reversed by the customer_.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -28,7 +28,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for EPS can be found [here](/api/#eps).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For EPS, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with EPS. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

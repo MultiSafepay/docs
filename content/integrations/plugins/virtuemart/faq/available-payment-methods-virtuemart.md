@@ -3,11 +3,11 @@ title : "Available payment methods in VirtueMart"
 meta_title: "VirtueMart plugin available payment methods - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-## Credit cards
+__Credit cards
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/))
 
-## Banks
+__Banks
 + [Bank transfer](/payment-methods/bank-transfer/)
 + [Bancontact](/payment-methods/bancontact/)
 + [Belfius](/payment-methods/belfius/)
@@ -24,14 +24,14 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + [Trustly](/payment-methods/trustly/)
 + [Trustpay](/payment-methods/trustpay/)
 
-## Billing suite
+__Billing suite
 + [Klarna](/payment-methods/klarna/)
 + [Pay after Delivery](/payment-methods/pay-after-delivery/)
 
-## Wallet
+__Wallet
 + [PayPal](/payment-methods/paypal/)
 + [Alipay](/payment-methods/alipay/)
 
-## Prepaid cards 
+__Prepaid cards 
 + [Intersolve](/payment-methods/gift-cards/)
 + [Paysafecard](/payment-methods/paysafecard/)

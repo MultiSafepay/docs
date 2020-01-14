@@ -5,14 +5,14 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-# Postepay
-## What is Postepay
+## Postepay
+### What is Postepay
 Postepay - a Visa or Mastercard co-branded product - is a commonly used Italian credit cards. Every credit card with the 'Verified by Visa' or 'MasterCard SecureCode' logo can be safely used for online payments.
 
-## How Postepay works
+### How Postepay works
 Postepay payments are processed through the Visa or Mastercard gateway.
 
-## How to activate Postepay?
+### How to activate Postepay?
 The payment method Postepay is shown as a payment option on the payment page of MultiSafepay depending on:
 
 1. The Visa or Mastercard gateway needs to be enabled
@@ -23,7 +23,7 @@ The [locale](/faq/api/locale/) is leading in this to show the desired payment me
 Upon adding Postepay as payment method on the checkout page, you can download the Postepay logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
 
 
-## How to refund a Postepay transaction?
+### How to refund a Postepay transaction?
 Transactions received with Postepay (Visa or Mastercard) as payment method can be refunded to the customer within 180 days.
 
 Please follow these steps to refund a Postepay transaction.

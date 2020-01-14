@@ -5,12 +5,12 @@ meta_title: "Trustly, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 When the customer selects Trustly as payment method, he/she needs to select the desired country.
 By doing so, all online banks that are connected to the payment method Trustly will be presented to the customer.
 The customer can finalize the payment by logging in with the banking details.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -29,7 +29,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void         | Cancelled        | Transaction has been cancelled.                                                                                                   |
 
 
-### Refund flow
+#### Refund flow
 
 | Order Status   | Transaction Status  | Description                                                                             |
 |----------------|-------------------|-----------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ The full API reference for Trustly cards can be found [here](/api/#trustly).
 
 
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Trustly, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with Trustly. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

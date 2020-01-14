@@ -4,7 +4,7 @@ weight: 24
 meta_title: "Bank Transfer - Local bank accounts - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-# MultiSafepay local bank accounts for bank transfers
+## MultiSafepay local bank accounts for bank transfers
 
 MultiSafepay has a local bank account available for European bank transfer used by customers. As a result, the customer can process the bank transfer in a familiar and faster way through a national bank account.
 

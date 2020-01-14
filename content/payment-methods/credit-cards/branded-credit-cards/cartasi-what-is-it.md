@@ -4,14 +4,14 @@ meta_title: "CartaSi, What it is - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# CartaSi
-## What is CartaSi
+## CartaSi
+### What is CartaSi
 CartaSi - a Visa or Mastercard co-branded product - is one of the best-known and most commonly used Italian credit cards. Every credit card with the 'Verified by Visa' or 'MasterCard SecureCode' logo can be safely used for online payments.
 
-## How CartaSi works
+### How CartaSi works
 CartaSi payments are processed through the Visa or Mastercard gateway.
 
-## How to activate CartaSi?
+### How to activate CartaSi?
 For CartaSi to be available as a payment method on the payment page of MultiSafepay, the following are required:
 
 1. The Visa or Mastercard gateway needs to be enabled
@@ -21,7 +21,7 @@ The [locale](/faq/api/locale/) is leading in this to show the desired payment me
 
 Upon adding CartaSi as payment method on the checkout page, you can download the CartaSi logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
 
-## How to refund a CartaSi transaction?
+### How to refund a CartaSi transaction?
 
 CartaSi transactions can be refunded to the customer within 180 days.
 

@@ -20,7 +20,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + SOFORT Banking
 + Visa (including CartaSi, Cartes Bancaires & Dankort).
 
-## Gift cards
+__Gift cards__
 
 + E-bon
 + Fashioncheque

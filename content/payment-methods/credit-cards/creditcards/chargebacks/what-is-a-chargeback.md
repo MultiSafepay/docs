@@ -7,11 +7,11 @@ read_more: '.'
 ---
 Customers who disagree with or do not recognise a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 
-## What is a retrieval?
+### What is a retrieval?
 
 If a customer does not recognise a transaction that is charged, the cardholder can ask for more information by filing a retrieval request. This process is a pre-chargeback process and can be used to prevent a chargeback process. There are no administrative fees at this point. It is still allowed to perform a refund in this stage.
 
-## I received a chargeback notification, what do I do?
+### I received a chargeback notification, what do I do?
 
 Providing evidence that the chargeback is wrongful is always the responsibility of the webshop.
 
@@ -30,18 +30,18 @@ The chargeback will be shown in a separate transaction connected to the original
 
 _Please note: the card scheme will make the final decision_.
 
-## Chargeback rules, why aren't refunds allowed anymore?
+### Chargeback rules, why aren't refunds allowed anymore?
 
 As soon as the cardholder sends in the chargeback, he/she will typically be refunded by the issuing bank.
 Visa and Mastercard directly reclaim the amount from MultiSafepay and on our turn we debit your MultiSafepay Control balance.
 
 > When you refund a chargeback transaction, the chances are high that the customer will receive the amount twice. Therefore, we do not support a refund of a transaction tied to a chargeback.
 
-## What are the reasons for a chargeback?
+### What are the reasons for a chargeback?
 
 The most common chargeback reasons are fraud, non-delivery of goods or goods not as described.
 
-## What can I do to minimize chargebacks?
+### What can I do to minimize chargebacks?
 
 There are several actions that can be taken to minimize the risk for chargebacks. This starts with good customer service.
 
@@ -60,7 +60,7 @@ Non-delivery chargebacks can be minimized by:
 
 * Having a clear description on your website and delivering quality goods.
 
-## What happens if I provided proof, but the cardholder still does not agree?
+### What happens if I provided proof, but the cardholder still does not agree?
 
 If the customer does not agree with the outcome of the dispute, the process of the chargeback continues. It is possible to challenge the procedure, however the potential cost of doing so is significant.
 
@@ -68,7 +68,7 @@ You will need to present strong evidence of the transaction, that has not been p
 
 Please contact us at <retrieval@multisafepay.com> if you want to proceed and we will assist to the best of our abilities.
 
-## Why can a cardholder initiate a chargeback?
+### Why can a cardholder initiate a chargeback?
 
 A cardholder can claim a chargeback for a maximum of 180 days after the purchase based on their customer rights given by the card scheme (Visa, Mastercard and American Express).
 
@@ -76,7 +76,7 @@ Longer chargeback initiation periods can be arranged with the card schemes, shou
 
 By offering credit cards as a payment option in your webshop, you agree to the customer rights that come with credit card acceptance.
 
-## Why do you charge a chargeback handling fee?
+### Why do you charge a chargeback handling fee?
 
 Visa and Mastercard, as well as the processing bank, will charge fees for a chargeback.
 

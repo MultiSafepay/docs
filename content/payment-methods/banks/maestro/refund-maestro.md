@@ -5,7 +5,7 @@ meta_title: "Maestro, how to refund a transaction - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# Request refund
+## Request refund
 The refund of a transaction with the payment method Maestro can be processed from within your [MultiSafepay Control](https://merchant.multisafepay.com).
 
 Please follow these steps:
