@@ -110,6 +110,44 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
+
+__Please note: The parameter 'email' must be present, otherwise MultiSafepay will be unable to send the payment details to the consumer.__
+
+> POST - /orders 
+
+```shell
+{
+    "type": "redirect",
+    "order_id": "my-order-id-1",
+    "currency": "EUR",
+    "amount": 1000,
+    "gateway": "BANKTRANS",
+    "description": "Test Order Description",
+    "payment_options": {
+        "notification_url": " http://www.example.com/client/notification?type=notification",
+        "redirect_url": " http://www.example.com/client/notification?type=redirect ",
+        "cancel_url": " http://www.example.com/client/notification?type=cancel ",
+        "close_window": true
+    },
+    "customer": {
+        "locale": "nl_NL",
+        "ip_address": "89.20.162.110"
+        "email": "example@multisafepay.com"
+    }
+}
+```
+> JSON Response 
+
+```shell
+{
+    "success": true,
+    "data": {
+        "order_id": "my-order-id-1",
+        "payment_url": "https://payv2.multisafepay.com/connect/13UeQHxVIs83238WIJdlSYsB4owgNSqZudS/?lang=nl_NL"
+    }
+}
+```
+
 {{% /code %}}
 
 {{% description %}}
@@ -153,42 +191,6 @@ In the JSON response for a direct transaction, it is important to send payment i
 
 The bank transfer payment method can either be a direct or redirect order. In this case, the API calls for a __redirect order__ are illustrated; therefore the consumer will be redirected to the MultiSafepay payment page. Please refer to the dedicated documentation regarding creating a [redirect order](/api/#orders).
 
-__Please note: The parameter 'email' must be present, otherwise MultiSafepay will be unable to send the payment details to the consumer.__
-
-> POST - /orders 
-
-```shell
-{
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 1000,
-    "gateway": "BANKTRANS",
-    "description": "Test Order Description",
-    "payment_options": {
-        "notification_url": " http://www.example.com/client/notification?type=notification",
-        "redirect_url": " http://www.example.com/client/notification?type=redirect ",
-        "cancel_url": " http://www.example.com/client/notification?type=cancel ",
-        "close_window": true
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "ip_address": "89.20.162.110"
-        "email": "example@multisafepay.com"
-    }
-}
-```
-> JSON Response 
-
-```shell
-{
-    "success": true,
-    "data": {
-        "order_id": "my-order-id-1",
-        "payment_url": "https://payv2.multisafepay.com/connect/13UeQHxVIs83238WIJdlSYsB4owgNSqZudS/?lang=nl_NL"
-    }
-}
-```
 
 
 | Parameter                      | Type     | Description                                                                              |
