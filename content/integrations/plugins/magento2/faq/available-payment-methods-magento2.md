@@ -32,7 +32,7 @@ layout: "faqdetail"
 + TrustPay
 + Visa (including CartaSi, Cartes Bancaires & Dankort).
 
-## Gift cards
+Gift cards
 
 + Babygiftcard
 + Beauty and Wellness
