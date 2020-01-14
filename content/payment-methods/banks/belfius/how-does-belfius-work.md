@@ -38,7 +38,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for Belfius can be found [here](/api/#belfius).
 
-Please note that successful Belfius payments that are not finalized by pressing the return to shop button will not be updated on our end, resulting in the transaction status NOT changing from _initialized_. However, we import our bank statements daily and all incoming payments which have not yet been completed will then be finalized.
+Please note that successful Belfius payments that are not finalized by pressing the "return to Shop" button will not be updated on our end, resulting in the transaction status NOT changing from _initialized_. However, we import our bank statements daily and all incoming payments which have not yet been completed will then be finalized.
 
 
 ### Product rules

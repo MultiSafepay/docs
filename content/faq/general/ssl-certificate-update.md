@@ -17,7 +17,8 @@ The affected systems are the following:
 * Sub-domains
 * Server communication
 
-This update should not affect your systems or payment processing, although if un-wanted situations arise, please contact us at <integration@multisafepay.com>. This can occur for merchants using custom integrations, whereby the certificate will need to be replaced.
+This update should not affect your systems or payment processing, although if un-wanted situations arise, please contact us at <integration@multisafepay.com>
+This can occur for merchants using custom integrations, whereby the certificate will need to be replaced.
 
 <div class="alert alert-warning" role="alert">
 Please note: If you decide to cache the SSL-certificate, MultiSafepay will not hold responsibility, although we are happy to assist you in solving any issues that may arise.
