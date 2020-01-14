@@ -195,7 +195,13 @@ div.block {
     flex-direction: row;
 }
 .block-item-text {
-    height: 111px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .block-item-text {
+        height: 111px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1037,4 +1043,9 @@ div#results a:hover {
 .img-size {
     max-height: 250px;
     margin-left: 3rem;
+}
+
+
+p {
+    margin-bottom: 1.6rem;
 }
