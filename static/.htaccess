@@ -315,3 +315,6 @@ Redirect 301 /integrations/virtuemart/changelog/ https://docs.multisafepay.com/i
 Redirect 301 /integrations/woocommerce/changelog/ https://docs.multisafepay.com/integrations/plugins/woocommerce/changelog/
 Redirect 301 /integrations/x-cart/changelog/ https://docs.multisafepay.com/integrations/plugins/x-cart/changelog/
 Redirect 301 /integrations/zencart/changelog/ https://docs.multisafepay.com/integrations/plugins/zencart/changelog/
+
+#URL Mapper - Magento2 plugin
+Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
