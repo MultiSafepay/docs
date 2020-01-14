@@ -25,8 +25,8 @@ The affected systems are the following:
 
 The new certificates are already loaded to our merchant test platform. If you want to validate whether your infrastructure can handle the renewed certificates, you can submit a transaction request to one of the following test addresses:
 
-https://testapi.multisafepay.com/ewx/  (for XML-api)
-https://testapi.multisafepay.com/v1/json/  (for JSON-api)
+https://testapi.multisafepay.com/ewx/     ([suitable for XML-api](/faq/api/xml-api/))
+https://testapi.multisafepay.com/v1/json/  for JSON-api
 
 ## Http or Https?
 
