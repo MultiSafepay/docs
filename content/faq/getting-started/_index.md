@@ -17,14 +17,3 @@ Here you find all the information you need to start processing payments with Mul
 |2. Test your payment integration  	|2. (!) You will pay transaction costs 	|
 |3. Explore new features 	|   	|
 
-## Add your website to your MultiSafepay Control
-[Add a new website]()
-
-## Choose an Integration Method
-[Use a Plugins]()
-[Custom integration & API-Reference]()
-
-## Test your integration
-[Diagnosing Errors]()
-
-## Start accepting real payments

@@ -6,8 +6,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% code %}}
 > GET - /gateways?country={country}&currency={currency}&amount={amount}&include={include}
 
-<br>
-
 > JSON Response
 
 ```shell
