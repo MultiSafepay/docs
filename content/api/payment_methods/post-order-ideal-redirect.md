@@ -4,7 +4,6 @@ meta_title: "API - Create iDEAL order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{% code %}}
-
 > POST - /orders 
 
 ```shell
@@ -37,42 +36,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
-
-> POST - /orders
-
-```shell 
-{
-    "type": "direct",
-    "order_id": "apitool_504957",
-    "currency": "EUR",
-    "amount": 1000,
-    "gateway": "iDEAL",
-    "description": "product description",
-    "custom_info": {},
-    "gateway_info": {
-        "issuer_id": "0031"
-    },
-     "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
-    }
-}
-
-```
-
-> JSON Response 
-
-```shell 
-{
-    "success": true,
-    "data": {
-        "order_id": "apitool_504957",
-        "payment_url": "https://www.selected-bank.nl/en/ideal-betalen/index.html?randomizedstring=000000&trxid=00000000"
-    }
-}
-```
 {{% /code %}}
 
 {{% description %}}
@@ -94,19 +57,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                    | object    |                                 |
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
-
-
-## iDEAL /-Direct 
-Supplying an issuer is required only when you submit your request as _direct_. The customer will be redirected to the selected bank to proceed with finalizing the payment. 
-
-* All parameters shown are required field(s)
-
-| Parameter                      | Type      | Description                                                                             |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| type                           | string    | Direct.                                                                                  | 
-| gateway_info                   | object    |                                                                                         |
-| issuer_id                      | integer   | The unique identifier of the [issuer](#gateway-issuers)                                   |
-
-
-Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/).
 {{% /description %}}
