@@ -23,7 +23,7 @@ Full API documentation on Direct Debit can be found on our dedicated FAQ page, [
 
 <div class="alert alert-warning"> The first payment for a Direct Debit collection is received and/or processed by the payment methods iDEAL, SOFORT Backing or Direct Debit. Upon successful completion of the payment, a recurring_id will be displayed in the response upon retrieving the order details only when recurring payment are enbled for that specific MultiSafepay Account.</div>
 
-<div class="alert alert-warning"> <b> A recurring_id received with a debit payment method can only be processed by the payment method Direct Debit. </b></div>
+<div class="alert alert-warning"> It is important to note that recurring ID’s retrieved using a credit card cannot be processed when the gateway is set to DIRDEB (Direct Debit). In this case, the gateway must be set to the specific credit card e.g. ‘VISA’, ‘MASTERCARD’. Thus, only recurring ID’s retrieved by SEPA IBAN payments can be processed by DIREDEB. This allows recurring payments to be deducted with direct debit payment methods such as iDEAL or SOFORT.</div>
 
 ### Pre-notification
 According to European law, merchants who use recurring payments should inform their customers about any charges being made. This can be done by email, but it is sufficient to include this in your General Terms & Conditions provided the customer has explicitly agreed to those Terms & Conditions.
