@@ -3,12 +3,12 @@ title : "Available payment methods in Shoptrader"
 meta_title: "Shoptrader available payment methods - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-## Credit cards
+__Credit cards__
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/)
 + [American Express](/payment-methods/creditcards/)
 
-## Banks
+__Banks__
 + [iDEAL](/payment-methods/ideal/)
 + [SOFORT Banking](/payment-methods/sofort-banking/)
 + [Bancontact](/payment-methods/bancontact/)
@@ -19,8 +19,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + [Maestro](/payment-methods/maestro/)
 + [Bank transfer](/payment-methods/bank-transfer/)
 
-## Wallet
+__Wallet__
 + [PayPal](/payment-methods/paypal/)
 
-## Prepaid cards 
+__Prepaid cards__
 + [Intersolve](/payment-methods/gift-cards/)

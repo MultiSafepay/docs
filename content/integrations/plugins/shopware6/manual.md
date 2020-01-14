@@ -4,8 +4,6 @@ meta_title: "Shopware 6 plugin manual - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-> **This release should not be used on live/production environments, as it may contain bugs and/or limited functionality. It does not contain our full range of features and or functionalities as Shopware 6 is also still in Early Access mode.**
-
 ### Introduction
 
 {{% introduction_plugin "Shopware 6" %}}
