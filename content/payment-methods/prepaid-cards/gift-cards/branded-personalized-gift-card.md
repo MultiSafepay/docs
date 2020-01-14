@@ -12,14 +12,14 @@ The start-up costs of a branded gift card are  &euro; 200.
 
 MultiSafepay has to construct the personalized gift card and therefore it is our responsibility to assess the feasibility and duration of this process.
 
-## Necessary information
+### Necessary information
 Before we will proceed with the implementation of the personalized gift card, we will need:
 
 * The full name of your chosen personalized gift card
 * High resolution visual of the personalized gift card, _preferably as a .png or .jpg file_. Please deliver the logo as large as possible
 * A test gift card with credit and secure code.
 
-## How to proceed?
+### How to proceed?
 
 * When using one of the [plugins](/integrations/) supported by MultiSafepay, it is recommended to also implement the personalized gift card in the backend of the webshop.
 As soon as MultiSafepay releases the gift card, you can immediately process payments with this payment method

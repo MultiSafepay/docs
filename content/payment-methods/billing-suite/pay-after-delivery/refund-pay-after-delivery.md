@@ -5,11 +5,11 @@ meta_title: "Pay After Delivery, how to refund a transaction - MultiSafepay Supp
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# Request refund
+## Request refund
 Please follow these steps to refund a Pay After Delivery transaction:
 
 
-### Full order refund
+#### Full order refund
 
 1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction overview_
@@ -22,7 +22,7 @@ Please follow these steps to refund a Pay After Delivery transaction:
 **An amount will be refunded only if a payment is linked to the transaction. If no payment is linked to the transaction, only a credit on the invoice will take place. Credit the invoice to a zero amount means the customer will no longer receive a reminder of the invoice**
 
 
-### Partial refund by item or amount 
+#### Partial refund by item or amount 
 The order can be partially reimbursed in the checkout editor.  
 
 1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
@@ -44,7 +44,7 @@ When you do not want to deduct an item but would like to submit an amount instea
 4. Add the new order line to the order to deduct the amount given as a discount
 5. _Save_.
 
-### Complete own funds 
+#### Complete own funds 
 When the transaction is marked with the status shipped, it is no longer possible to cancel the order. You can, however, close the transaction through the _complete own funds_.      
 **Example:**      
 

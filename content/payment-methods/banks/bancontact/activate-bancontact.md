@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-# Activate
+## Activate
 Bancontact is a standard payment method.
 
 There are two ways to activate Bancontact as a payment method in your [MultiSafepay Control](https://merchant.multisafepay.com):

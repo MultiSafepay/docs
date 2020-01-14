@@ -105,7 +105,7 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                           | string    | Direct.                                                                                  | 
 | gateway_info                   | object    |                                                                                         |
-| issuer_id                      | integer   | The unique identifier of the [issuer](#ideal-issuers)                                   |
+| issuer_id                      | integer   | The unique identifier of the [issuer](#gateway-issuers)                                   |
 
 
 Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/).

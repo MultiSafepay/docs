@@ -5,14 +5,14 @@ meta_title: "PayPal, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 MultiSafepay supports seamless integration with PayPal with the PayPal API. Funds are transferred directly to the merchant’s PayPal business account, while the transaction statuses and payment validation are managed by MultiSafepay. In order to integrate your PayPal Business account with MultiSafepay, the PayPal account API settings must be configured. Once the integration is completed, you can receive payments through this gateway by using one of our plugins or by implementing a custom integration with our API.
 
 The transaction status refers to the status of the actual payment. MultiSafepay uses the order status for PayPal transactions. Since we do not collect the funds of completed PayPal transactions (as they are directly sent to your PayPal account), the financial status will remain _initialized_.
 
 Please note the various descriptions of statuses and how they should be interpreted.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -31,7 +31,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void                           | Cancelled                | Transaction has been cancelled.   | 
 
 
-### Refund flow
+#### Refund flow
 
 
 | Order Status                    | Transaction Status        | Description |
@@ -42,12 +42,12 @@ The transaction status indicates the payment status of the transaction, such as 
 
 View the full [API reference](/api/#paypal) for PayPal and credit cards.
 
-## What is Seller Protection
+### What is Seller Protection
 PayPal Seller Protection covers you in the event of claims, chargebacks, or reversals that are a result of unauthorized purchases or items your buyer did not receive. With PayPal Seller Protection, you are covered for the full amount of all eligible transactions.
 
 Full documentation on [What is Seller Pretection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156) with PayPal transactions. 
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For PayPal, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is not possible for PayPal. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

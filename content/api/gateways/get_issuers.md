@@ -8,7 +8,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 > GET - /issuers/ideal
 
-<br>
 
 > JSON Response
 

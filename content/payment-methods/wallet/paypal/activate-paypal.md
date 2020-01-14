@@ -6,12 +6,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-# Activate
+## Activate
 <br>
 
 > * Please note that specific required actions are highlighted with a blue frame on the screenshots below.
 
-##  Account configuration
+###  Account configuration
 1. Login into https://www.paypal.com with your business account
     {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-1.PNG" title="screenshot 1">}}
 2. Navigate to _Tools->All tools->API credentials_
@@ -41,7 +41,7 @@ The following question will appear: "Do you want to use the same encoding for da
 Answer with 'yes' and click on _Save_.
     {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-8.PNG" title="screenshot 8">}}
 
-##  MultiSafepay Control configuration
+###  MultiSafepay Control configuration
 1. Click on the gear icon in the upper right corner and select _Account Settings_ -> _Business information_.
     {{< zoom_able url="/payment-methods/paypal/paypal-screenshot-5.PNG" title="screenshot 5">}}
 2. Copy your `PayPal Merchant ID`

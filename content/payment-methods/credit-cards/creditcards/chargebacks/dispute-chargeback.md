@@ -9,10 +9,10 @@ For questions or providing documentation you can submit your email to <retrieval
 
 Customers who disagree with or do not recognize a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 
-# Visa
+## Visa
 <div class="alert alert-warning">A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, chargebacks are described per payment method and per reason code.</div>
 
-## Fraud 
+### Fraud 
 <div class="alert alert-warning"> The chargeback reason codes regarding <b>Fraud</b> with the payment method <b>Visa</b>, are explained below</div>
 
 **Reason Code: 10.4 - Card absent environment**\
@@ -28,7 +28,7 @@ In order for this chargeback to be disputed we need the following documentation 
 6. Evidence, such as photographs or emails that proves a link between the person receiving the merchandise or service and the cardholder.
 
 
-## Processing Errors 
+### Processing Errors 
 <div class="alert alert-warning">The chargeback reason codes regarding <b>Processing Errors</b> with the payment method <b>Visa</b>, are explained below</div>
 
 **Reason Code: 12.5 - Incorrect Amount**\ 
@@ -48,7 +48,7 @@ In order for this chargeback to be disputed we need the following documentation 
 1. Proof of both transactions are independent and separate transactions 
 2. Paid by other means: Proof of not paid by other means or separate means.
 
-## Customer Dispute
+### Customer Dispute
 <div class="alert alert-warning">The chargeback reason codes regarding <b>Customer Dispute</b> with the payment method <b>Visa</b>, are explained below</div>
 
 **Reason Code: 13.1 - Merchandise or Services Not Received**\
@@ -101,10 +101,10 @@ In order for this chargeback to be disputed we need the following documentation 
 4. Tracking and invoice number 
 5. Proof of contact with the cardholder.
 
-# Mastercard 
+## Mastercard 
 <div class="alert alert-warning">A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, the chargebacks are described per payment method and per reason code.</div>
 
-## Fraud
+### Fraud
 <div class="alert alert-warning">The chargeback reason codes regarding <b>Fraud</b> with the payment method <b>Mastercard</b>, are explained below</div>
 
 **Reason Code: 4837 - Fraud Related Chargeback or No Cardholder Authorization**\
@@ -133,7 +133,7 @@ In order for this chargeback to be disputed we need the following documentation 
 7. Invoice and tracking number 
 8. Evidence, such as photographs or emails that proves a link between the person receiving the merchandise or service and the cardholder.
 
-## Processing Errors
+### Processing Errors
 <div class="alert alert-warning">The chargeback reason codes regarding <b>Processing Errors</b> with the payment method <b>Mastercard</b>, are explained below</div>
 
 **Reason Code: 4834 - Duplicate Processing**\
@@ -154,7 +154,7 @@ In order for this chargeback to be disputed we need the following documentation 
 3. Certification or other record to prove that the transaction amount was correct 
 4. Proof that the merchant has the right to alter the transaction amount without the cardholder's consent after transaction was completed. 
 
-## Customer Dispute 
+### Customer Dispute 
 <div class="alert alert-warning">The chargeback reason codes regarding <b>Customer Dispute</b> with the payment method <b>Mastercard</b>, are explained below</div>
 
 **Reason Code: 4855 - Goods or Services Not Delivered**\
@@ -189,10 +189,10 @@ In order for this chargeback to be disputed we need the following documentation 
 3. One of the following: The transaction was properly identified in both authorization and clearing as a recurring transaction or the documentation proving that the transaction was a recurring transaction, providing proof that the cardholder had to _click to accept_ the recurring terms and conditions or the cardholder _signed a contract_ agreeing to the recurring terms and condition. 
 
 
-# American Express 
+## American Express 
 <div class="alert alert-warning"> A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, the chargebacks are described per payment method and per reason code.</div>
 
-## Fraud
+### Fraud
 <div class="alert alert-warning"> The chargeback reason codes regarding <b>Fraud</b> with the payment method <b>American Express</b>, are explained below</div>
 
 **Reason Code: 4573 - Fraud, Full Recourse**\
@@ -228,7 +228,7 @@ In order for this chargeback to be disputed we need the following documentation 
 2. Website name, URL, IP address and the cancellation policy 
 3. Signed proof of shipment and delivery with the delivery address and date. 
 
-## Processing Errors
+### Processing Errors
 <div class="alert alert-warning"> The chargeback reason codes regarding <b>Processing Errors</b> with the payment method <b>American Express</b>, are explained below</div>
 
 **Reason Code: 4512 - Multiple Processing**\
@@ -279,7 +279,7 @@ Cardholder advises, despite prior charges with you, the dispute this charge
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 1. Fully itemized documents that link the cardholder to each charge processed and proves that all transactions are valid.
 
-## Customer Disputes
+### Customer Disputes
 <div class="alert alert-warning"> The chargeback reason codes regarding <b>Customer Disputes</b> with the payment method <b>American Express</b>, are explained below</div>
 
 **Reason Code: 4544 - Goods and Services, Cancellation of Recurring Payments**\

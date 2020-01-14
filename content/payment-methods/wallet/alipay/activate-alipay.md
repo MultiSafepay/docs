@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-# Activate 
+## Activate 
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
 Alipay is an additional payment method. Therefore, an application is required. Submit your request by contacting your account manager or contact us at <sales@multisafepay.com>

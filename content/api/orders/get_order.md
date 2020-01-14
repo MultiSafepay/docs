@@ -6,7 +6,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% code %}}
 > GET - /orders/{order_id}
 
-<br>
 
 > JSON Response
 

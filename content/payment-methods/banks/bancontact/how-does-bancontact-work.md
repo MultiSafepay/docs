@@ -6,10 +6,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-# How it works
+## How it works
 A customer chooses to pay with Bancontact, authenticates their account and confirms to pay. Once a payment is completed, the payout is guaranteed and can not be reversed by the customer.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -28,7 +28,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for Bancontact can be found [here](/api/#bancontact).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Bancontact, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with Bancontact (e.g. refunding the return costs incurred by the customer). More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page. Please bear in mind that by default, MultiSafepay does not allow refunds larger than  the original transaction amount and that this needs to be changed in your MultiSafepay Control 

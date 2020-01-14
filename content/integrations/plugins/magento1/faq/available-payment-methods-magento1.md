@@ -3,13 +3,13 @@ title : "Available payment methods in Magento 1"
 meta_title: "Magento 1 plugin available payment methods - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-## Credit cards 
+__Credit cards__ 
 + [American Express](/payment-methods/creditcards/)
 + [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
-## Banks
+__Banks__
 + [Bancontact](/payment-methods/bancontact/)
 + [Bank transfer](/payment-methods/bank-transfer/)
 + [Belfius](/payment-methods/belfius/)
@@ -26,18 +26,18 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + [Trustly](/payment-methods/trustly/)
 + [TrustPay](/payment-methods/trustpay/)
 
-## Billing suite
+__Billing suite__
 + [Afterpay](/payment-methods/afterpay/)
 + [Betaalplan](/payment-methods/betaalplan/)
 + [E-Invoice](/payment-methods/e-invoicing/)
 + [Klarna](/payment-methods/klarna)
 
-## Wallet 
+__Wallet__ 
 + [Alipay](/payment-methods/alipay/)
 + [PayPal](/payment-methods/paypal/)
 
 
-## Prepaid cards 
+__Prepaid cards__
 + [Paysafecard](/payment-methods/paysafecard/)
 + [Intersolve](/payment-methods/gift-cards)
 + Baby gift card
