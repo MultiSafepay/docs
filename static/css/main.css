@@ -1055,3 +1055,42 @@ div#results a:hover {
 p {
     margin-bottom: 1.6rem;
 }
+
+
+.faq-content table {
+	margin-bottom: 1em;
+	overflow: auto
+}
+
+.faq-content table tbody{
+	vertical-align: top;
+}
+
+.faq-content table th, .content table td {
+	text-align: left;
+	vertical-align: top;
+	line-height: 1.6
+}
+.faq-content table th {
+	padding: 0px 10px 5px;
+	border-bottom: 1px solid #ccc;
+	vertical-align: bottom
+}
+.faq-content table td {
+	padding: 10px 10px;
+}
+.faq-content table tr:last-child {
+	border-bottom: 1px solid #ccc
+}
+.faq-content table tr:nth-child(odd) > td {
+	background-color: #fff
+}
+.faq-content table tr:nth-child(even) > td {
+	background-color: #fafcfd
+}
+.faq-content dt {
+	font-weight: bold
+}
+.faq-content dd {
+	margin-left: 15px
+}
