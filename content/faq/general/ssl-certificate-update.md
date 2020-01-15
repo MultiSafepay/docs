@@ -1,5 +1,5 @@
 ---
-title: "SSL Certificate Renewal Jan 2020"
+title: "SSL Certificate Renewal January 2020"
 Weight:
 meta_title: "FAQ General - SSL Certificate renewal - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
@@ -25,8 +25,8 @@ The affected systems are the following:
 
 The new certificates are already loaded to our merchant test platform. If you want to validate whether your infrastructure can handle the renewed certificates, you can submit a transaction request to one of the following test addresses:
 
-https://testapi.multisafepay.com/ewx/     ([suitable for XML-api](/faq/api/xml-api/))
 https://testapi.multisafepay.com/v1/json/  for JSON-api
+https://testapi.multisafepay.com/ewx/     ([suitable for XML-api](/faq/api/xml-api/))
 
 ## Http or Https?
 
