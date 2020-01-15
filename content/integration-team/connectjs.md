@@ -92,3 +92,4 @@ The default value is "redirect".
 
 ## Example
 Contact us at <integration@multisafepay.com> for a proof of concept.
+
