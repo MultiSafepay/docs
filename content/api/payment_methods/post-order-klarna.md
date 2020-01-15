@@ -209,6 +209,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## Klarna
 Creates a Klarna order to be paid after delivery
 
+Klarna is available as both a direct and redirect request. 
+However, Klarna Payments (the new environment of Klarna) is only available as a redirect request. The direct request is no longer supported by Klarna Payments. 
+
 * All parameters shown are required field(s)
 
 | Parameter                       | Type     | Description                                                                             |
@@ -224,13 +227,12 @@ Creates a Klarna order to be paid after delivery
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |
 | shopping_cart                   | object | Contains all purchased items including tax class.                                       |
 | checkout_options                | object | Contains the definitions for the VAT class. |                    |
-| gateway_info                    | object | Contains the issuer_id. |
-| birthday                        | string | The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. (Required for Klarna & Pay After Delivery, optional for E-Invoicing on request). |
+| gateway_info                    | object | |
 | phone                           | string | The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. |
 | email                           | string | The email address where the system can send payment instructions to the customer.       |
 | gender                          | string | The gender of the customer. (Required for Klarna, optional for Pay After Delivery and E-Invoicing) Options: male, female.                                                                                                    |
 | ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                              |
-| forwarded_ip:                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
+| forwarded_ip                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
