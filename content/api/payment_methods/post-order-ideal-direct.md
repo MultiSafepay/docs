@@ -9,7 +9,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ```shell 
 {
     "type": "direct",
-    "order_id": "apitool_504957",
+    "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 1000,
     "gateway": "iDEAL",
@@ -72,7 +72,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "financial_status": "initialized",
     "items": null,
     "modified": "2020-01-14T12:08:43",
-    "order_id": "apitool_504957",
+    "order_id": "my-order-id-1",
     "payment_details": {
       "account_holder_name": null,
       "account_iban": "https://www.abnamro.nl/en/ideal-betalen/index.html?randomizedstring=8641247395&trxid=1150001181473373",
