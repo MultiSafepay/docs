@@ -315,3 +315,4 @@ Redirect 301 /integrations/virtuemart/changelog/ https://docs.multisafepay.com/i
 Redirect 301 /integrations/woocommerce/changelog/ https://docs.multisafepay.com/integrations/plugins/woocommerce/changelog/
 Redirect 301 /integrations/x-cart/changelog/ https://docs.multisafepay.com/integrations/plugins/x-cart/changelog/
 Redirect 301 /integrations/zencart/changelog/ https://docs.multisafepay.com/integrations/plugins/zencart/changelog/
+Redirect 301 /integrations/plugins/magento2/changelog/ https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md

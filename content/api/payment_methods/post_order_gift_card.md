@@ -100,5 +100,5 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Goodcard                       | GOODCARD                    |   |
 | Givacard                       | Branded gift cards will provide a gateway name upon release of the personilized gift card by our development team.                 |   |          
 
-Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/giftcards/).
+Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/).
 {{% /description %}}
