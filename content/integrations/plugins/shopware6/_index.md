@@ -15,6 +15,6 @@ description: "**This release should not be used on live/production environments,
 Easily integrate MultiSafepay payment solutions into your Shopware 6 webshop with the free plugin.
 "
 layout: 'single'
-changelog : "https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md"
+changelog : "https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md"
 ---
 
