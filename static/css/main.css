@@ -1094,3 +1094,7 @@ p {
 .faq-content dd {
 	margin-left: 15px
 }
+
+.faq-content a {
+    word-break: break-all;
+}
