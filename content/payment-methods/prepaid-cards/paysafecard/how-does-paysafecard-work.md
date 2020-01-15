@@ -5,10 +5,10 @@ meta_title: "Paysafecard, How it works - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How it works
+## How it works
 Paysafecard is a prepaid online payment method based on vouchers with a 16-digit PIN code, independent of bank account, credit card or other personal information. Customers can purchase vouchers at local sales outlets and pay online by entering the code at the checkout of the respective website.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -26,7 +26,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Paysafecard, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with Paysafecard. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

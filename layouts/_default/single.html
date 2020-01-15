@@ -14,20 +14,20 @@
 <div class="js-toc-content">
 <div class="container">
     <div class="row">
-        <div class="col-9">
+        <div class="col-md-9">
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-8">
                     <h1 id="{{ .Title}}">{{ .Title}}</h1>
                     <hr class="separator">
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 d-none d-md-inline">
                     {{ if .Params.logo }}
                     <img class="plugin-logo" src="{{ .Params.logo }}">
                     {{ end }}
                 </div>
             </div>
             <div class="row pb-3">
-                <div class="col-8">
+                <div class="col-md-8">
                     {{ if .Params.description }}
                     {{ .Params.description | markdownify }}
                     {{ end }}
@@ -38,13 +38,13 @@
                             <a class="secondary" href="{{.Params.github_url}}">View on Github</a>
                             {{ end }}
                             {{ if isset .Params "download_url" }}
-                            <a class="primary" href="{{.Params.download_url}}">Download</a>
+                            <a class="primary download-button" href="{{.Params.download_url}}">Download</a>
                             {{ end }}
                         </div>
                     </div>
                     {{ end }}
                 </div>
-                <div class="col-2">
+                <div class="col-md-2">
                     {{ if .Params.magento_image }}
                     <img class="magento-certimage" src="{{ .Params.magento_image }}"
                         alt="{{ .Params.magento_image_alt }}">

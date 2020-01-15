@@ -32,5 +32,3 @@ Before a payment is accepted, a fraud check will take place on the transaction. 
 
 Credit cards and post-payment methods represent a high risk for fraud. Therefore, the validation of each transaction will automatically take place to protect the merchants processing with MultiSafepay. 
 
-<br>
-

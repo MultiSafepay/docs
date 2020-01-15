@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-# Request refund
+## Request refund
 
 Please follow these steps to refund an Alipay transaction:
 

@@ -39,30 +39,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 
-```shell
-
-CartaSi and Postepay 
-
-    "customer": {
-        "locale": "it_IT 
-```
-
-```shell 
-
-Dankort 
-
-    "customer": {
-        "locale": "da_DK"
-```
-
-```shell 
-
-Cartes Bancaires 
-
-    "customer": {
-        "locale": "fr_FR"
-```
-
 {{% /code %}}
 
 {{% description %}}

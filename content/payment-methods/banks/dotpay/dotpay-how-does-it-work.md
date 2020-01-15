@@ -5,12 +5,12 @@ meta_title: "Dotpay, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-# How does it work?
+## How does it work?
 Dotpay is a payment method for Polish customers. Customers can choose their own bank in order to pay with Dotpay.
 
 If the transaction is approved by Dotpay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -22,13 +22,13 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status | Transaction Status | Description                                                                                                          |
 |--------------|------------------|----------------------------------------------------------------------------------------------------------------------|
 | Initialized  | Initialized      | A payment link has been generated, but no payment has been received yet.                                             | 
-| Completed    | Completed        | A successful Alipay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
+| Completed    | Completed        | A successful Dotpay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
 | Declined     | Declined         | Transaction has been rejected.                                                                                       | 
 | Expired      | Expired          | An unfinished transaction will automatically expire after a predefined period.                                       | 
 | Void         | Cancelled         | Transaction has been cancelled.                                                                                       | 
 
 
-### Refund flow
+#### Refund flow
 
 | Order Status   | Transaction Status | Description                              |
 |----------------|------------------|------------------------------------------|
@@ -38,7 +38,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for Dotpay can be found [here](/api/#dotpay).
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For Dotpay, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is possible with Dotpay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page

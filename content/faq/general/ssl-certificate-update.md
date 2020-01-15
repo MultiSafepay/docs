@@ -1,4 +1,5 @@
 ---
+
 title: "SSL Certificate Renewal January 2020"
 Weight:
 meta_title: "FAQ General - SSL Certificate renewal - MultiSafepay Support"
@@ -21,7 +22,6 @@ The affected systems are the following:
 * Domain
 * Sub-domains
 * Server communication
-
 
 The new certificates are already loaded to our merchant test platform. If you want to validate whether your infrastructure can handle the renewed certificates, you can submit a transaction request to one of the following test addresses:
 

@@ -41,3 +41,8 @@ We can use our tagline individually or combined with the logo. Header font size:
 ### Subheader
 We use sub headers to help engage our message. The sub header states 'MultiSafepay technology is awesome'.
 Font size: 16pt.
+
+### MultiSafepay and payment method logos
+For a complete list of the logos of all payment methods MultiSafepay offers, as well as MultiSafepay's own logos, please refer to [our dedicated GitHub repository](https://github.com/MultiSafepay/msp-payment-logoicons)
+
+If you are unable to find the logo you are looking for, please contact us at <integration@multisafepay.com> and we will be glad to assist you further.

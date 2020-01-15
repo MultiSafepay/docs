@@ -27,7 +27,7 @@
                                 {{ if .Params.redirect_show_info }}
                                     <a class="secondary" target="blank" href="{{ .Params.redirect_show_info.url }}">{{ .Params.redirect_show_info.text }}</a>
                                 {{ else }}
-                                <a class="secondary" href="{{ .Permalink }}">More info</a>
+                                <a class="secondary wider-button" href="{{ .Permalink }}">More info</a>
                                 {{ end }}
                                 {{ if .Params.download_url }}
                                 <a class="primary ml-4" href="{{ .Params.download_url }}">Download</a>

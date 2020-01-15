@@ -7,7 +7,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 > GET - /json/gateways?include=coupons
 
-<br>
 
 > JSON Response
 
