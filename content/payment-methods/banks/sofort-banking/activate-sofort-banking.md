@@ -9,5 +9,9 @@ read_more: '.'
 SOFORT Banking is a standard payment method.
 
 SOFORT Banking can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings -> payment methods_.
+
 Enable SOFORT Banking as payment method in your ecommerce platform to finalize the activation.
+
+If you have any questions, feel free to contact our Integrations team at <sales@multisafepay.com>
+
 

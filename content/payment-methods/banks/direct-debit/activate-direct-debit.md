@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
-As Direct Debit poses certain risks, you will need to first apply before you can process this kind of transactions. 
+As Direct Debit poses certain risks, you will need to first apply before you can process transactions. Our Risk team will conduct a screening to determine whether you are eligible. 
 
 Please [contact](<mailto:sales@multisafepay.com>) your account manager to submit your request to use Direct Debit.
 

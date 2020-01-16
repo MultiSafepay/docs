@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
-With MultiSafepay, Maestro is additional (non-standard) payment method. You can submit the application to activate the payment methods through your account manager via <sales@multisafepay.com>
+With MultiSafepay, Maestro is additional (non-standard) payment method. You can submit the application to activate the payment methods through our Integrations team via <sales@multisafepay.com>
 
 To activate Maestro as payment method for your webshop, we would like to receive the following information from you:
 
@@ -15,4 +15,4 @@ To activate Maestro as payment method for your webshop, we would like to receive
 * Maximum transaction amount
 * Yearly turnover by credit cards.
 
-When approved by our Risk Team, the Maestro will be enabled as payment method in your MultiSafepay Control.
+The abovementioned information will be sent to our Risk team who will assess whether you are eligibe for this payment method.

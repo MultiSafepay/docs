@@ -6,6 +6,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 # Activate
-In order to enable E-Invoicing for your ecommerce platform, an application is required. Submit your request by contacting your account manager or contact us at <sales@multisafepay.com>
+In order to enable E-Invoicing for your ecommerce platform, an application is required. 
+
+Submit your request by contacting your account manager or contact our Integrations team at <sales@multisafepay.com>
 
 >_Before applying to enable E-Invoicing, please check with your account manager at MultiSafepay if you are eligible for this payment method._

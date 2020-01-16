@@ -8,6 +8,12 @@ read_more: '.'
 
 # Activate 
 
+>_Currently MultiSafepay offers AfterPay in the Netherlands and Belgium._
+
+To apply for AfterPay, go to [AfterPay.nl](https://www.afterpay.nl/nl/zakelijk/offerte) or [AfterPay.be](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
+
+For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your AfterPay account with your MultiSafepay Control.   
+
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
 ## Requirements
@@ -26,8 +32,3 @@ read_more: '.'
 
 + [X-Cart](/integrations/x-cart/) > available from version 2.2.0. Released on the 24th of April 2019
 
-To apply for AfterPay, go to [AfterPay.nl](https://www.afterpay.nl/nl/zakelijk/offerte) or [AfterPay.be](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
-
-For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your AfterPay account with your MultiSafepay Control.   
-
->_Currently MultiSafepay offers AfterPay in the Netherlands and Belgium._

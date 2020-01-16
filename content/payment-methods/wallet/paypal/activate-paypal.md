@@ -53,6 +53,6 @@ Answer with 'yes' and click on _Save_.
 
 Your account is now configured and you are ready to accept MultiSafepay payments. We strongly recommend you perform one or more test transactions in order to ensure everything is working correctly.
 
-If PayPal is not visible as a payment method in your MultiSafepay Control account, please contact the Integration Team at <integration@multisafepay.com> to assist you further.
+If PayPal is not visible as a payment method in your MultiSafepay Control account, please contact the Integrations team at <sales@multisafepay.com> to assist you further.
 
 _Please note that if you have enabled payment methods on a particular website, you should also enable PayPal for that specific website_.
