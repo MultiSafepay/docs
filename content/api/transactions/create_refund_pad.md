@@ -5,7 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 
 
-{{% code %}}
+{{< code-block >}}
 > POST - /orders/{order_id}/refunds 
 
 ```shell
@@ -66,8 +66,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ## Refund with shopping cart
 This request is used for creating a refund in orders with shopping cart like Pay After Delivery, E-Invoicing, Klarna and AfterPay.
 

@@ -11,7 +11,7 @@ hideMenu: '.'
 
 At MultiSafepay, our developers code on a daily basis to process in-house transactions. However, there are also many fantastic developers worldwide who code wrappers, plugins, applications and other various code in order to work with us.
 
-We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to appear on our site, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>.
+We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to appear on our site, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>
 
 We would like to outline the main requirements that community hosters should adhere to if they wish to be a part of the MultiSafepay community.
  These agreements are the following:

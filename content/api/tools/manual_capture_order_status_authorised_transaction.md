@@ -1,7 +1,7 @@
 ---
 weight: 1354
 ---
-{{% code %}}
+{{< code-block >}}
 
 > GET - /orders/<order_id>
 
@@ -82,8 +82,8 @@ weight: 1354
     }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ### Order Status Authorized Transaction
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

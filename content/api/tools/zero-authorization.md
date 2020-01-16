@@ -1,7 +1,7 @@
 ---
 weight: 1370
 ---
-{{% code %}}
+{{< code-block >}}
 > POST - /orders
 
 ```shell
@@ -53,8 +53,8 @@ weight: 1370
   }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ## Zero Authorization
 
 For a number of scenarios, it can be useful for our merchants to verify an account with Zero Authorization. An amount of zero will be reserved to check the authenticity of the card as well as establish an authorization to collect future payments. 

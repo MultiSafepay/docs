@@ -3,14 +3,14 @@ weight: 317
 meta_title: "API - Create Klarna order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-{{% code %}}
+{{< code-block >}}
 
 > POST - /orders
 
 ```shell
 
 {
-    "type": "direct",
+    "type": "redirect",
     "gateway": "KLARNA",
     "order_id": "my-order-id-1",
     "currency": "EUR",
@@ -196,211 +196,21 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ```shell
 {
-    "success": true,
-    "data": {
-        "transaction_id": 2340676,
-        "order_id": "my-order-id-1",
-        "created": "2017-09-29T16:13:10",
-        "currency": "EUR",
-        "amount": 26000,
-        "description": "Test Order Description",
-        "var1": null,
-        "var2": null,
-        "var3": null,
-        "items": "",
-        "amount_refunded": 0,
-        "status": "completed",
-        "financial_status": "initialized",
-        "reason": "",
-        "reason_code": "",
-        "fastcheckout": "NO",
-        "modified": "2017-09-29T16:13:10",
-        "customer": {
-            "locale": "en_US",
-            "first_name": "Testperson-nl",
-            "last_name": "Approved",
-            "address1": "Kraanspoor",
-            "address2": null,
-            "house_number": "39",
-            "zip_code": "1033 SC",
-            "city": "Amsterdam",
-            "state": null,
-            "country": "NL",
-            "country_name": null,
-            "phone1": "020 8500 500",
-            "phone2": "",
-            "email": "test@example.com"
-        },
-        "payment_details": {
-            "recurring_id": null,
-            "type": "",
-            "account_id": 10071970,
-            "account_holder_name": null,
-            "external_transaction_id": 2379429850
-        },
-        "shopping_cart": {
-            "items": [
-                {
-                    "name": "Item demo 1",
-                    "description": "",
-                    "unit_price": "90.00",
-                    "currency": "EUR",
-                    "quantity": 2,
-                    "merchant_item_id": 666666,
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 12
-                    },
-                    "options": []
-                },
-                {
-                    "name": "Item demo 2",
-                    "description": "",
-                    "unit_price": "35.00",
-                    "currency": "EUR",
-                    "quantity": 2,
-                    "merchant_item_id": 666666,
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 20
-                    },
-                    "options": []
-                },
-                {
-                    "name": "Item shipping - Flat Rate - Fixed",
-                    "description": "Shipping",
-                    "unit_price": "10.00",
-                    "currency": "EUR",
-                    "quantity": 1,
-                    "merchant_item_id": "msp-shipping",
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 0
-                    },
-                    "options": []
-                }
-            ]
-        },
-        "checkout_options": {
-            "default": {
-                "shipping_taxed": true,
-                "rate": 0.21
-            },
-            "alternate": [
-                {
-                    "standalone": true,
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": 0.21,
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": true,
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": 0.06,
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": true,
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": "",
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "standalone": true,
-                    "name": 2,
-                    "rules": [
-                        {
-                            "rate": 0.0825,
-                            "country": "US"
-                        },
-                        {
-                            "rate": 0.08375,
-                            "country": "NL"
-                        }
-                    ]
-                }
-            ]
-        },
-        "order_adjustment": {
-            "total_adjustment": "0.00",
-            "total_tax": "0.00"
-        },
-        "order_total": "260.00",
-        "costs": [],
-        "payment_url": "http://www.example.com/client/?action=notification&type=redirect&transactionid=2340676",
-        "cancel_url": "http://www.example.com/client/?action=notification&type=cancel&transactionid=2340676"
-    }
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
+  }
 }
 ```
-{{% /code %}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 ## Klarna
 Creates a Klarna order to be paid after delivery
+
+Klarna is available as both a direct and redirect request. 
+However, Klarna Payments (the new environment of Klarna) is only available as a redirect request. The direct request is no longer supported by Klarna Payments. 
 
 * All parameters shown are required field(s)
 
@@ -417,13 +227,12 @@ Creates a Klarna order to be paid after delivery
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |
 | shopping_cart                   | object | Contains all purchased items including tax class.                                       |
 | checkout_options                | object | Contains the definitions for the VAT class. |                    |
-| gateway_info                    | object | Contains the issuer_id. |
-| birthday                        | string | The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. (Required for Klarna & Pay After Delivery, optional for E-Invoicing on request). |
+| gateway_info                    | object | |
 | phone                           | string | The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. |
 | email                           | string | The email address where the system can send payment instructions to the customer.       |
 | gender                          | string | The gender of the customer. (Required for Klarna, optional for Pay After Delivery and E-Invoicing) Options: male, female.                                                                                                    |
 | ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                              |
-| forwarded_ip:                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
+| forwarded_ip                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 

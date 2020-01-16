@@ -1,7 +1,7 @@
 ---
 weight: 1350
 ---
-{{% code %}}
+{{< code-block >}}
 > POST - /orders 
 
 ```shell
@@ -53,9 +53,9 @@ weight: 1350
     }
 }
 ```
-{{% /code %}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 ### Redirect, Flexible 3D set on _true_ 
 
 It is mandatory to enable Flexible 3D secure processing in this call, even when Dynamic 3D rules could set the settings to disable it.

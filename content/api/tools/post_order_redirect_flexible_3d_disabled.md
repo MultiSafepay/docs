@@ -1,7 +1,7 @@
 ---
 weight: 1340
 ---
-{{% code %}}
+{{< code-block >}}
 > POST - /orders
 
 ```shell
@@ -52,9 +52,9 @@ weight: 1340
     }
 }
 ```
-{{% /code %}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 ### Redirect, Flexible 3D set on _false_
 
 Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.

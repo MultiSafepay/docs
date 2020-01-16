@@ -1,7 +1,7 @@
 ---
 weight: 1351
 ---
-{{% code %}}
+{{< code-block >}}
 
 > POST - /orders/<order_id>/capture
 
@@ -29,8 +29,8 @@ weight: 1351
     }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ### Partial Capture
 
 | Parameter                      | Type      | Description |

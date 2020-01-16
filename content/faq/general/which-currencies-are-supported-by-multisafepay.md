@@ -6,13 +6,54 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-MultiSafepay processes the following currencies as standard: 
+MultiSafepay processes the following currencies as standard and available with all payment methods: 
 
-* Euros (EUR)
-* Pounds (GBP) 
-* Dollars (USD).*
+* EUR (Euro)
+* GBP (Pound Sterling) 
 
-_Please note that the Dollar (USD) is not supported as currency for [bank transfer](/payment-methods/bank-transfer/bank-accounts/)._
+Those are all the currencies available for Visa, MasterCard and Maestro:
+
+* EUR (Euro)
+* USD (United States dollar)
+* GBP (Pound Sterling)
+* VEF (Venezuelan bolívar)
+* AUD (Australian dollar)
+* BRL (Brazilian real)
+* CHF (Swiss franc)
+* CLP (Chilean peso)
+* COP (Colombian peso)
+* CZK (Czech koruna)
+* DKK (Danish krone)
+* INR (Indian rupee)
+* MXN (Mexican peso)
+* PEN (Peruvian Sol)
+* PLN (Polish złoty)
+* RON (Romanian leu)
+* SEK (Swedish krona)
+* NOK (Norwegian krone)
+* CAD (Canadian dollar)
+* HRK (Croatian kuna)
+* HKD (Hong Kong dollar)
+* TWD (New Taiwan dollar)
+* KRW (South Korean won)
+* HUF (Hungarian forint)
+* PHP (Philippine peso)
+* ZAR (South African rand)
+* CNY (Chinese yuan)
+* JPY (Japanese yen)
+* MYR (Malaysian ringgit)
+* AED (United Arab Emirates dirham)
+* ILS (Israeli new shekel)
+* RUB (Russian ruble)
+* SGD (Singapore dollar)
+* NZD (New Zealand dollar)
+* TRY (Turkish lira)
+* ISK (Islandic króna)
+* THB (Thai baht)
+
+## On request currencies
+
+MultiSafepay can accept on request new currencies for Visa, MasterCard and Maestro not leasted in the previous list.
 
 ## Requirements
 
@@ -49,18 +90,5 @@ This can be done through _Finance -> Balance -> Add bank account_
 
 _For example, the currency dollar (USD) is paid out in dollar (USD) and received on your business bank account in the dollars (USD) as well._
 
-## Additional currencies available at MultiSafepay
-
-MultiSafepay can process a few additional currencies, as follows:
-
-
-* Australian Dollar (AUD)
-* Canadian Dollar (CAD)
-* Swiss franc (CHF)
-* Czech koruna (CZK)
-* Danish krone (DKK)
-* Norwegian krone (NOK)
-* Polish zloty (PLN)
-* Swedish krona (SEK)
 
 For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to asisst you via <support@multisafepay.com>

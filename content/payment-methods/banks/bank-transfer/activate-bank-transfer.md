@@ -14,3 +14,5 @@ There are two ways to activate Bancontact as a payment method in your [MultiSafe
 
 Activate bank transfer as payment method in your ecommerce platform to finalize the connection.
 
+If you have any questions, please contact us at <sales@multisafepay.com>
+

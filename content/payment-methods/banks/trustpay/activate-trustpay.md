@@ -6,7 +6,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
-With MultiSafepay, TrustPay is an additional (non-standard) payment method. You can submit the application to activate the payment methods through your account manager via <sales@multisafepay.com>
+With MultiSafepay, TrustPay is an additional (non-standard) payment method. 
 
-Before applying for TrustPay, please check your eligibility with your account manager at MultiSafepay.
+You can submit the application to activate the payment method through your account manager via <sales@multisafepay.com>
 
+Our Risk team will assess whether you are eligibe for this payment method.

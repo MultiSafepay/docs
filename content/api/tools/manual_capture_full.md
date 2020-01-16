@@ -1,7 +1,7 @@
 ---
 weight: 1352
 ---
-{{% code %}}
+{{< code-block >}}
 
 >POST - /orders/<order_id>/capture
 
@@ -29,8 +29,8 @@ weight: 1352
     }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ### Full Capture
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

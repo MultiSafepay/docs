@@ -3,7 +3,7 @@ weight: 306
 meta_title: "API - Create Credit Card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-{{% code %}}
+{{< code-block >}}
 > POST - /orders 
 
 ```shell 
@@ -38,9 +38,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   }
 }
 ```
-{{% /code %}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 ## Credit Cards
 In this payment method the consumer will be redirected to a credit card payment page of MultiSafepay.  The customer will be requested to fill in their credit card credentials. MultiSafepay will automatically detect which credit card is being used based on the first couple of digits.
 

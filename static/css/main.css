@@ -75,6 +75,19 @@ a, a:hover {
     transition: all 0.2s ease-out;
 }
 
+.faq-svg.rotated {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        /* IE 9 */
+        -moz-transform: rotate(180deg);
+        /* Firefox */
+        -webkit-transform: rotate(180deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(180deg);
+        /* Opera */
+        transition: all 0.2s ease-out;
+    }
+
 .msp-app {
     background-color: #f9f9f9;
     margin-top: 100px;
@@ -1093,4 +1106,8 @@ p {
 }
 .faq-content dd {
 	margin-left: 15px
+}
+
+.faq-content a {
+    word-break: break-all;
 }

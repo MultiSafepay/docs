@@ -3,10 +3,10 @@ weight: 50
 meta_title: "API - Discount - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-{{% code %}}
-{{% /code %}}
+{{< code-block >}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 # Discount
 <hr class="separator">
 If you, as an online store, want to apply a discount before a payment request is made, it is recommended to take into account how you process the discount with postpaid payment methods. 
