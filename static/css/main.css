@@ -132,11 +132,17 @@ div.msp-app-text p:last-child {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.footer-list {
-    padding-bottom: 30px;
-    padding-top: 40px;
-    padding-left: 10rem;
-    padding-right: 10rem;
+.footer-list { 
+    
+}
+
+@media (min-width: 768px) {
+    .footer-list {
+        padding-bottom: 30px;
+        padding-top: 40px;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
 }
 
 .footer-list ul {
@@ -195,7 +201,13 @@ div.block {
     flex-direction: row;
 }
 .block-item-text {
-    height: 111px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .block-item-text {
+        height: 111px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1037,4 +1049,52 @@ div#results a:hover {
 .img-size {
     max-height: 250px;
     margin-left: 3rem;
+}
+
+
+p {
+    margin-bottom: 1.6rem;
+}
+
+
+.faq-content table {
+	margin-bottom: 1em;
+	overflow: auto
+}
+
+.faq-content table tbody{
+	vertical-align: top;
+}
+
+.faq-content table th, .content table td {
+	text-align: left;
+	vertical-align: top;
+	line-height: 1.6
+}
+.faq-content table th {
+	padding: 0px 10px 5px;
+	border-bottom: 1px solid #ccc;
+	vertical-align: bottom
+}
+.faq-content table td {
+	padding: 10px 10px;
+}
+.faq-content table tr:last-child {
+	border-bottom: 1px solid #ccc
+}
+.faq-content table tr:nth-child(odd) > td {
+	background-color: #fff
+}
+.faq-content table tr:nth-child(even) > td {
+	background-color: #fafcfd
+}
+.faq-content dt {
+	font-weight: bold
+}
+.faq-content dd {
+	margin-left: 15px
+}
+
+.faq-content a {
+    word-break: break-all;
 }

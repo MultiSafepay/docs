@@ -59,12 +59,9 @@ Some rules may apply to certain payment methods. For credit cards, the following
 
 * Visa, Mastercard and American Express transactions have a maximum refund period. All cards can be refunded within 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
 
-* Mastercard, Visa and American Express can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency:   
-<br>
-    Euros (EUR)      
-    Pounds (GBP)      
-    Dollars (USD).
+* Mastercard, Visa and American Express can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency 
+
 
     If a different currency is desired, contact our support department for the possibilities. Submit your request at <support@multisafepay.com>

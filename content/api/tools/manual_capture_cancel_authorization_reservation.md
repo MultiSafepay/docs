@@ -1,7 +1,7 @@
 ---
 weight: 1355
 ---
-{{% code %}}
+{{< code-block >}}
 
 > PATCH - /capture/<order_id>
 
@@ -22,8 +22,8 @@ weight: 1355
     }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ### Cancel Authorization / Reservation
 
 | Parameter                      | Type      | Description |

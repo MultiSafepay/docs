@@ -20,7 +20,7 @@ We recommend that you install the plugin first on a test environment, and make s
 ### 1. Requirements
 - Magento Open Source version 2.1.x, 2.2.x & 2.3.x
 - PHP 7.0 and higher
-- Tested on PHP 7.0 (Magento 2.3.x on 7.2)
+- Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
 
 ### 2. Installation
 Run the following commands via the CLI:
@@ -52,7 +52,7 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 
 3. MultiSafepay Giftcards  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Giftcards need to be activated, more information can be found on our [gift card page](/payment-methods/giftcards/)
+Giftcards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings.  

@@ -1,7 +1,7 @@
 ---
 weight: 1371
 ---
-{{% code %}}
+{{< code-block >}}
 > GET - /orders/<order_id>
 
 > JSON Response
@@ -78,8 +78,8 @@ weight: 1371
   }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ### Order Status
 
 | Parameter                      | Type      | Description |

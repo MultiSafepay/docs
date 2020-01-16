@@ -1,7 +1,7 @@
 ---
 weight: 1353
 ---
-{{% code %}}
+{{< code-block >}}
 
 > GET - /orders/<capture_order_id>
 
@@ -78,8 +78,8 @@ weight: 1353
     }
 }
 ```
-{{% /code %}}
-{{% description %}}
+{{< /code-block >}}
+{{< description >}}
 ### Order Status Captured Transaction
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

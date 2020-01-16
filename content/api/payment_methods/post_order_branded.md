@@ -3,7 +3,7 @@ weight: 340
 meta_title: "API - Create A Branded Credit Card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-{{% code %}}
+{{< code-block >}}
 > POST - /order
 
 ```shell 
@@ -39,36 +39,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 
-```shell
+{{< /code-block >}}
 
-CartaSi and Postepay 
-
-    "customer": {
-        "locale": "it_IT"
-      }
-```
-
-```shell 
-
-Dankort 
-
-    "customer": {
-        "locale": "da_DK"
-    }
-```
-
-```shell 
-
-Cartes Bancaires 
-
-    "customer": {
-        "locale": "fr_FR"
-    }
-```
-
-{{% /code %}}
-
-{{% description %}}
+{{< description >}}
 ## Branded credit card 
 
 

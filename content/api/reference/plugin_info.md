@@ -3,7 +3,7 @@ weight: 630
 meta_title: "API - plugin - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-{{% description %}}
+{{< description >}}
 ## Plugin information
 
 | Parameter                          | Type     | Description                                                                          |
@@ -15,7 +15,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | shop_root_url			| string | The primary URL of the ecommerce webshop. |
 {{% /description %}}
 
-{{% code %}}
+{{< code-block >}}
 Plugin and/or integration related information
 
 ```shell 
@@ -28,4 +28,4 @@ Plugin and/or integration related information
     "shop_root_url": "http://multisafepay.com"
 }
  ```
-{{% /code %}}
+{{< /code-block >}}

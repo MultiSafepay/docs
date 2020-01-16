@@ -39,7 +39,7 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 
 3. MultiSafepay Gift Cards  
 This page contains the configuration options for all gift card supported by MultiSafepay.
-gift card need to be activated, more information can be found on our [gift card page](/payment-methods/giftcards/)
+gift card need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings. More information about Fastcheckout can be found on the [dedicated page](https://www.multisafepay.com/fastcheckout-payments).
