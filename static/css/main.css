@@ -1068,7 +1068,9 @@ div#results a:hover {
 p {
     margin-bottom: 1.6rem;
 }
-
+table td{
+    padding: 1% 2% 1% 0;
+}
 
 .faq-content table {
 	margin-bottom: 1em;
