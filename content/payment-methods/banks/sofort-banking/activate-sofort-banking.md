@@ -12,6 +12,6 @@ SOFORT Banking can be activated in your [MultiSafepay Control](https://merchant.
 
 Enable SOFORT Banking as payment method in your ecommerce platform to finalize the activation.
 
-If you have any questions, feel free to contact our Integrations team at <sales@multisafepay.com>
+If you have any questions, feel free to contact one of our account managers at <sales@multisafepay.com>
 
 

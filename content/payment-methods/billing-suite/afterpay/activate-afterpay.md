@@ -14,7 +14,7 @@ To apply for AfterPay, go to [AfterPay.nl](https://www.afterpay.nl/nl/zakelijk/o
 
 For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your AfterPay account with your MultiSafepay Control.   
 
->_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
+>_Please check your eligibility with your MultiSafepay account manager at <sales@multisafepay.com> before applying for this payment method._
 
 ## Requirements
 
