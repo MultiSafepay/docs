@@ -14,4 +14,4 @@ To apply for Klarna, go to [Klarna.com](https://www.klarna.com/nl/zakelijk/).
 
 For existing Klarna clients, contact <webwinkel@klarna.nl> to connect your Klarna account with your MultiSafepay Control.
 
-If you have any questions, please contact us at <sales@multisafepay.com>
+If you have any questions, please contact one of our account managers at <sales@multisafepay.com>

@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
-With MultiSafepay, Visa and Mastercard are additional (non-standard) payment method. You can submit the application to activate the payment methods through your account manager.
+With MultiSafepay, Visa and Mastercard are additional (non-standard) payment method. You can submit the application to activate the payment methods through your account manager at <sales@multisafepay.com>
 
 To activate Visa and Mastercard as payment methods for your webshop, we would like to receive the following information from you:
 
@@ -18,5 +18,3 @@ To activate Visa and Mastercard as payment methods for your webshop, we would li
 When approved by our Risk Team, Visa and Mastercard will be enabled in your MultiSafepay Control as payment methods.
 
 > By default, American Express is not activated when enabling Visa and Mastercard. Would you also like to be able to process American Express transactions? Please let us know by submitting your request at <sales@multisafepay.com>
-
-For further questions, please contact us at <sales@multisafepay.com>
