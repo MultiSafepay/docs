@@ -3,35 +3,29 @@ title : "Available payment methods in VirtueMart"
 meta_title: "VirtueMart plugin available payment methods - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-__Credit cards
-+ [Mastercard](/payment-methods/creditcards/)
-+ [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/))
-
-__Banks
-+ [Bank transfer](/payment-methods/bank-transfer/)
-+ [Bancontact](/payment-methods/bancontact/)
-+ [Belfius](/payment-methods/belfius/)
-+ [Direct Debit](/payment-methods/direct-debit/)
-+ [Dotpay](/payment-methods/dotpay/)
-+ [E-Invoicing](/payment-methods/e-invoicing/)
-+ [EPS](/payment-methods/eps/)
-+ [Giropay](/payment-methods/giropay/)
-+ [iDEAL](/payment-methods/ideal/)
-+ [ING Home'Pay](/payment-methods/ing-home-pay/)
-+ [KBC](/payment-methods/kbc/)
-+ [Maestro](/payment-methods/maestro/)
-+ [SOFORT Banking](/payment-methods/sofort-banking)
-+ [Trustly](/payment-methods/trustly/)
-+ [Trustpay](/payment-methods/trustpay/)
-
-__Billing suite
-+ [Klarna](/payment-methods/klarna/)
-+ [Pay after Delivery](/payment-methods/pay-after-delivery/)
-
-__Wallet
-+ [PayPal](/payment-methods/paypal/)
-+ [Alipay](/payment-methods/alipay/)
-
-__Prepaid cards 
-+ [Intersolve](/payment-methods/gift-cards/)
-+ [Paysafecard](/payment-methods/paysafecard/)
++ Alipay
++ American Express
++ Bancontact
++ Bank transfer
++ Belfius
++ Betaalplan
++ Direct Debit
++ Dotpay
++ E-Invoicing
++ EPS
++ FerBuy
++ Giropay
++ iDEAL
++ iDEAL QR
++ ING Home'Pay
++ KBC
++ Klarna
++ Maestro
++ Mastercard
++ Pay After Delivery
++ PayPal
++ Paysafecard
++ SOFORT Banking
++ TrustPay
++ Trustly
++ Visa (including CartaSi, Cartes Bancaires & Dankort).
