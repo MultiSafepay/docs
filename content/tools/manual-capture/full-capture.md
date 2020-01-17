@@ -9,3 +9,4 @@ read_more: '.'
 
 This type of capture occurs when a customer places an order and the merchant is unable to fulfill the shipment immediately. An authorization is made for the full amount of the transaction. The funds are then cleared upon shipment of the order.
 
+fdfxhfhddfh
