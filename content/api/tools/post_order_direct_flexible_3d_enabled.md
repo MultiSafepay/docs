@@ -1,7 +1,7 @@
 ---
 weight: 1330
 ---
-{{% code %}}
+{{< code-block >}}
 > POST - /orders 
 
 ```shell 
@@ -110,9 +110,9 @@ weight: 1330
     }
 }
 ```
-{{% /code %}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 ## Flexible 3D 
 > COMING SOON: Flexible 3D for Server to Server 
 
@@ -139,4 +139,4 @@ Credit card transactions which are processed with the 3D Secure protocol require
 | flexible_3d                    | boolean   | True, enable the 3D secure authentication. False, disable the 3D secure authentication.  |
 | term_url                       | string    | URL that is used to instruct the card issuer where to redirect the authorisation query. |
 
-{{% description %}}
+{{< description >}}

@@ -11,12 +11,10 @@ layout: "faqdetail"
 + Bancontact
 + Bank transfer
 + Belfius
-+ Betaalnaontvangst
 + Betaalplan
-+ Credit cards (combine Maestro, Mastercard & Visa in checkout)
 + Direct Debit
 + Dotpay
-+ Einvoice
++ E-Invoicing
 + EPS
 + Giropay
 + iDEAL
@@ -26,11 +24,12 @@ layout: "faqdetail"
 + Klarna
 + Maestro
 + Mastercard
++ Pay After Delivery
 + PayPal
 + Paysafecard
 + SOFORT Banking
-+ Trustly
 + TrustPay
++ Trustly
 + Visa (including CartaSi, Cartes Bancaires & Dankort).
 
 Gift cards

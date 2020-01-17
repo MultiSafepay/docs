@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
-With MultiSafepay, Visa and Mastercard are additional (non-standard) payment method. You can submit the application to activate the payment methods through your account manager via <sales@multisafepay.com>
+With MultiSafepay, Visa and Mastercard are additional (non-standard) payment method. You can submit the application to activate the payment methods through your account manager at <sales@multisafepay.com>
 
 To activate Visa and Mastercard as payment methods for your webshop, we would like to receive the following information from you:
 

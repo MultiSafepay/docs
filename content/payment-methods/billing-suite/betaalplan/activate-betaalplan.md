@@ -35,7 +35,7 @@ We advise you to first open an account with MultiSafepay if you do not yet have 
 
 ### An account with Santander, but not with MultiSafepay
 
-Apply for MultiSafepay Control online or [contact](<mailto:sales@multisafepay.com>) our sales department for further information.
+Apply for MultiSafepay Control online or [contact](<mailto:sales@multisafepay.com>) one of our account managers for further information.
 In case Santander already has an active working relation with a merchant for any of their other products, such merchant is considered to be a client of Santander.
 
 >_Currently Betaalplan online is only supported by MultiSafepay_.

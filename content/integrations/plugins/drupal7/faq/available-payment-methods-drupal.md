@@ -8,19 +8,18 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Bancontact
 + Bank transfer
 + Belfius
-+ Betaalplan
 + Direct Debit
 + Dotpay
-+ Einvoice
++ E-Invoicing
 + EPS
 + Giropay
 + iDEAL
-+ iDEAL QR
 + ING Home'Pay
 + KBC
 + Klarna
 + Maestro
 + Mastercard
++ Pay After Delivery
 + PayPal
 + Paysafecard
 + SOFORT Banking

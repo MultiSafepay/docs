@@ -3,7 +3,7 @@ weight: 110
 meta_title: "API - Retrieve all gateways - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
-{{% code %}}
+{{< code-block >}}
 > GET - /gateways?country={country}&currency={currency}&amount={amount}&include={include}
 
 > JSON Response
@@ -28,9 +28,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
   ]
 }
 ```
-{{% /code %}}
+{{< /code-block >}}
 
-{{% description %}}
+{{< description >}}
 _October 2019: There have been reports of faulty functionality of this feature. If you encounter any issues or need assistance on this matter, do not hesitate to contact our Integration Team at <integration@multisafepay.com>_
 
 | Parameter           | Type   | Description |
