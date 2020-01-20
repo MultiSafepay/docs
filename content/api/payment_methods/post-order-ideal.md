@@ -4,7 +4,6 @@ meta_title: "API - Create iDEAL order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< code-block >}}
-
 > POST - /orders 
 
 ```shell
@@ -41,6 +40,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 > POST - /orders
 
 ```shell 
+
 {
     "type": "direct",
     "order_id": "apitool_504957",
@@ -61,7 +61,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 
 ```
-
 > JSON Response 
 
 ```shell 
@@ -74,10 +73,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 {{< /code-block >}}
-
 {{< description >}}
+
 ## iDEAL
 ## Redirect
+
 
 * All parameters shown are required field(s)
 
@@ -97,6 +97,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 
 
+
 ### Direct
 Supplying an issuer is required only when you submit your request as _direct_. The customer will be redirected to the selected bank to proceed with finalizing the payment. 
 
@@ -110,4 +111,6 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 
 
 Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/).
+
 {{< /description >}}
+
