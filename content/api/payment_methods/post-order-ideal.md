@@ -76,7 +76,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 
 ## iDEAL
-## Redirect
+### Redirect
 
 
 * All parameters shown are required field(s)
