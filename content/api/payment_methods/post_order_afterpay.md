@@ -576,7 +576,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/).
 
-## Redirect
+### Redirect
 
 Creates an AfterPay order to be paid after delivery.
 
