@@ -135,7 +135,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 {{< description >}}
 ## Direct Debit
-### Redirect
+### Redirect - Direct Debit
 When submitting a Direct Debit, the transaction data is checked.    
 
 * If approved, we return the status `initialized`.
@@ -160,7 +160,7 @@ When submitting a Direct Debit, the transaction data is checked.
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 
 
-### Direct 
+### Direct - Direct Debit
 
 * All parameters shown are required field(s)
 
