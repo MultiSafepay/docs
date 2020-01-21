@@ -1110,3 +1110,20 @@ p {
 .faq-content a {
     word-break: break-all;
 }
+
+.alert-homepage {
+    color: #fff;
+    background-color: #008DCB;
+    border-color: #3fa9f5;
+}
+
+.alert-homepage a {
+    color: #fff;
+}
+
+.alert-homepage .button {
+    border-radius: 3px;
+    padding: 0.5rem 2rem;
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+}
