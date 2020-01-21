@@ -14,7 +14,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 Tokenization is a the process of completely removing sensitive data from and companys' internal network by replacing it with a randomly generated, unique placeholder called a token.
 
-These tokens can be use to process recurring transactions.
+These tokens can be used to process recurring transactions.
 
 This section lists the API calls for different token scenarios and the required parameters.
 
