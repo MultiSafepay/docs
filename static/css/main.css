@@ -1123,7 +1123,6 @@ p {
 
 .alert-homepage .button {
     border-radius: 3px;
-    padding: 0.5rem 2rem;
+    padding: 0.75rem 1.5rem;
     border: 1px solid #fff;
-    margin-bottom: 1rem;
 }
