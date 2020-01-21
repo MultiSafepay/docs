@@ -5,7 +5,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 :root {
@@ -51,7 +51,7 @@ a, a:hover {
 
 .header-background-home p {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .block-item img {
@@ -93,7 +93,7 @@ a, a:hover {
     margin-top: 100px;
     margin-bottom: 50px;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .msp-app h4 {
@@ -175,7 +175,7 @@ div.msp-app-text p:last-child {
 .footer-list a {
     color: #7b7b7b;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .footer-title-list {
@@ -299,7 +299,6 @@ div.block {
 
 ol.breadcrumb {
     font-size: 1.3rem;
-    font-weight: 400;
     background-color: #FFFFFF;
 
 }
@@ -491,7 +490,7 @@ ol.breadcrumb {
 
 .toc {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .toc>.toc-list li {
@@ -1033,8 +1032,7 @@ div#results a:hover {
 }
 
 .block-faq, .faq-content, #Support, .row.content, .js-toc-content {
-    font-size: 1.6rem;
-    font-weight: 400;  
+    font-size: 1.6rem; 
 }
 
 .faq-title-block {
@@ -1119,10 +1117,15 @@ p {
 
 .alert-homepage a {
     color: #fff;
+    font-weight: 400;
 }
 
 .alert-homepage .button {
     border-radius: 3px;
     padding: 0.75rem 1.5rem;
     border: 1px solid #fff;
+}
+
+p {
+    font-weight: 300;
 }
