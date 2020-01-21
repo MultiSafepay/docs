@@ -15,20 +15,8 @@ Installation of the plugin can be done in three ways:
 3. Via the MarketPlace.
 
 In this manual we describe the SFTP upload method.
-We recommend that you install the plugin first on a test environment, and make sure you have made a backup. Be sure Magento Compiler is disabled.
 
-If you need any technical help, please contact us.
-
-* Telephone [+31 (0)20 - 8500500](tel:+31208500500)
-* E-mail [integration@multisafepay.com](integration@multisafepay.com)
-
-To use the plugin you need a MultiSafepay account. 
-You can create a test account on https://testmerchant.multisafepay.com/signup.
-
-If you would like to set up a live account, please contact the MultiSafepay sales department:
-
-* Telephone [+31 (0)20 - 8500501](tel:+31208500500)
-* E-mail [sales@multisafepay.com](mailto:sales@multisafepay.com)
+{{% introduction_plugin "Magento 1" %}}
 
 
 ### 1. Requirements
