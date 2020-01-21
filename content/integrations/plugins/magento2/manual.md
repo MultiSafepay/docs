@@ -17,6 +17,19 @@ The installation can be carried out in three ways:
 In this manual we describe the installation via Composer.
 We recommend that you install the plugin first on a test environment, and make sure you have made a backup.
 
+If you need any technical help, please contact us.
+
+* Telephone [+31 (0)20 - 8500500](tel:+31208500500)
+* E-mail [integration@multisafepay.com](integration@multisafepay.com)
+
+To use the plugin you need a MultiSafepay account. 
+You can create a test account on https://testmerchant.multisafepay.com/signup.
+
+If you would like to set up a live account, please contact the MultiSafepay sales department:
+
+* Telephone [+31 (0)20 - 8500501](tel:+31208500500)
+* E-mail [sales@multisafepay.com](mailto:sales@multisafepay.com)
+
 ### 1. Requirements
 - Magento Open Source version 2.1.x, 2.2.x & 2.3.x
 - PHP 7.0 and higher
