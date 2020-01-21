@@ -9,11 +9,3 @@ layout: 'faqplugins'
 short_description: "Learn about how you can get started with MultiSafepay from the on boarding process to testing."
 ---
 Here you find all the information you need to start processing payments with MultiSafepay.
-
-## Create a MultiSafepay Control
-|[Create a test account](https://testmerchant.multisafepay.com/signup) 	| [Create a live account](https://merchant.multisafepay.com/signup)  	|
-|:---:	|:---:	|
-|1. Test MultiSafepay's solutions	|1. Process real online payments 	|
-|2. Test your payment integration  	|2. (!) You will pay transaction costs 	|
-|3. Explore new features 	|   	|
-
