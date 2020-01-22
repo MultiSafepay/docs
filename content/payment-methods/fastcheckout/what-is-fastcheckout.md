@@ -9,8 +9,11 @@ read_more: '.'
 
 Fastcheckout is a multi-currency wallet designed by MultiSafepay that allows the customer to pay for online purchases in a fast and secure way. In order to be able to use this service, the customer needs to first go through a one-time account creation process. Given that the customer's credentials will be stored in the Fastcheckout account, payments can be finalized within 3 easy steps.
 
-### Fastcheckout vs Connect
-MultiSafepay offers several packages for Merchants, including a free of charge Fastcheckout account. However, not all payment methods MultiSafepay offers are available in a Fastcheckout account.
+### Payment methods
+MultiSafepay offers a free of charge Fastcheckout account. However, not all payment methods are available in a Fastcheckout account:
+
+Available: Afterpay, Alipay, American Express, banktransfer, Bancontact, Belfius, Direct Debit, Dotpay, Einvoicing, Eps, Giropay, iDeal, iDeal-QR, ING Homepay, JCB, KBC, Mastercard, Paypal, Paysafecard, Santander, Sofort, Trustly, Trustpay, Visa.<br>
+<b>Not availble:</b> Klarna, Pay After Delivery. 
 
 Fastcheckout is included in one of our Connect packages, where all MultiSafepay available payment methods can be enabled. 
 
