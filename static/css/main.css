@@ -439,6 +439,14 @@ ol.breadcrumb {
     border-radius: 5px;
 }
 
+#error-page-container{
+    padding-top: 6rem;
+}
+
+#error-page-container .padding-error-page{
+    margin-bottom: 5rem;
+}
+
 
 @media (min-width: 980px) {
     .primary {

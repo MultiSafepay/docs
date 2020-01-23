@@ -1,22 +1,25 @@
 {{ define "main"}}
-  <div id="main">
+<div id="main">
+  <div id="error-page-container" class="container">
     <div id="hero">
       <h1>The page you are looking for does not exist</h1>
+      <hr class="separator">
       <p class="hero-lead">
-           {{/* .Params.bref | safeHTML */}}
-      </p>
-    </div>
-    <div id="kube-component" class="center-error-page">
+       {{/* .Params.bref | safeHTML */}}
+     </p>
+   </div>
+   <div id="kube-component" class="center-error-page">
     {{ partial "toc" .}}
-    You can either <a href="/">browse our pages</a> or contact us at <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a> to request an page.
-    <div class = "padding-error-page">
-      <a id="" class="button primary big" href="/">Go to homepage</a>
+    <p>You can either <a href="/">browse our pages</a> or contact us at <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a> to request an page.</p>
+    <div class="padding-error-page">
+      <a class="button primary big" href="/">Go to homepage</a>
     </div>
-<!-- Inject script tag in this template  -->
+    <!-- Inject script tag in this template  -->
     {{if .Params.script}}
-     {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
+    {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
     {{ partial (string $script) .}}
     {{end }}
-    </div>
-    </div>
+  </div>
+</div>
+</div>
 {{ end }}
