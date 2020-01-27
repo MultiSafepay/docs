@@ -1075,6 +1075,40 @@ p {
     margin-bottom: 1.6rem;
 }
 
+
+.payment-detail table {
+    margin-bottom: 1em;
+    overflow: auto
+}
+.payment-detail table th, .content table td {
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6
+}
+.payment-detail table th {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: bottom
+}
+.payment-detail table td {
+    padding: 10px
+}
+.payment-detail table tr:last-child {
+    border-bottom: 1px solid #ccc
+}
+.payment-detail table tr:nth-child(odd) > td {
+    background-color: #fff
+}
+.payment-detail table tr:nth-child(even) > td {
+    background-color: #fafcfd
+}
+.payment-detail dt {
+    font-weight: bold
+}
+.payment-detail dd {
+    margin-left: 15px
+}
+
 .faq-content table {
 	margin-bottom: 1em;
 	overflow: auto
