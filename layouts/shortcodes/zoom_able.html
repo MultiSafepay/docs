@@ -1,3 +1,13 @@
-<a href="{{ .Get "url"}}" class="img-zoomable" >
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
     <img {{ with .Get "class"}} class="{{.}}"{{ end }} {{ with .Get "height"}} height="{{.}}"{{ end }} {{ with .Get "width"}} width="{{.}}"{{ end }} src="{{ .Get "url"}}" title="{{ .Get "title"}}">
 </a>
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			$(item).toggleClass('selected')
+		}
+	}	
+</script>
+
