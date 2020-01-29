@@ -12,7 +12,7 @@ Fastcheckout is a multi-currency wallet designed by MultiSafepay that allows the
 ### Payment methods
 MultiSafepay offers a free of charge Fastcheckout account. However, not all payment methods are available in a Fastcheckout account:
 
-Available: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Belfius, Direct Debit, Dotpay, E-Invoicing, EPS, Giropay, iDEAL, iDEAL QR, ING Homepay, JCB, KBC, Mastercard, Paypal, Paysafecard, Betaalplan, SOFORT Banking, Trustly, TrustPay, Visa.<br>
+Available: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Belfius, Direct Debit, Dotpay, E-Invoicing, EPS, Giropay, iDEAL, iDEAL QR, ING Homepay, JCB, KBC, Mastercard, PayPal, Paysafecard, Betaalplan, SOFORT Banking, Trustly, TrustPay, Visa.<br>
 <b>Not available:</b> Klarna, Pay After Delivery. 
 
 Fastcheckout is included in one of our Connect packages, where all MultiSafepay available payment methods can be enabled. 
