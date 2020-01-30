@@ -3,6 +3,7 @@
 </a>
 
 
+
 <script type="text/javascript">
 	function selectImgZoom(item) {
 		if($(window).width() >640) {
@@ -13,10 +14,11 @@
 				$('.img-zoomable').removeClass('selected');
 				$(item).addClass('selected')
 			}
-			
-			
 		}
-	}	
 
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
 </script>
 
