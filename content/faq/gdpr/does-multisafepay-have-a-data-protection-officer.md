@@ -6,3 +6,5 @@ read_more: "."
 ---
 
 Yes, MultiSafepay has appointed a dedicated Data Protection Officer. This person is also registered with the Dutch Data Protection Authority (AP) and can be contacted by sending an email to <dataprotection@multisafepay.com>
+
+qef;afl;a

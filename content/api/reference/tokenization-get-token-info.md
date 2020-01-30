@@ -14,7 +14,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {
     "success": true,
     "data": {
-        "t  oken": "azbkvsE0up4",
+        "token": "azbkvsE0up4",
         "code": "MASTERCARD",
         "display": "Card xxxx xxxx xxxx 4444",
         "bin": 555555,
