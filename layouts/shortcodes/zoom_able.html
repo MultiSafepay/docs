@@ -6,8 +6,17 @@
 <script type="text/javascript">
 	function selectImgZoom(item) {
 		if($(window).width() >640) {
-			$(item).toggleClass('selected')
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+			
+			
 		}
 	}	
+
 </script>
 
