@@ -20,4 +20,4 @@ Fastcheckout has its own checkout process. The customer will leave the webshop's
 
 ### Fastcheckout Guaranteed
 With Fastcheckout Guaranteed, customers profit from additional security and protection. In case of delivery failure after payment, Fastcheckout offers an insurance up to €200 per order.
-test12
+test123
