@@ -33,4 +33,14 @@ Please follow these steps to refund a Betaalplan transaction:
 
 > A refund will only be processed if the balance on your MultiSafepay Control is sufficient.
 
-<br>
+
+## Change order before shipment
+If you want to change a Betaalplan order between acceptance of Santander and shipment by the Merchant, follow these steps:
+
+1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Select _Transaction_ -> _Transaction overview_
+3. Locate the transaction and click on _Change order status_ under Order summary
+4. Change the status of the initial order to _'Shipped'_ and add a Memo
+5. Refund the required amount: the original or partial amount.
+It is not possible to increase the amount of the initial order. If for some reason this is required, please contact your account manager.
+

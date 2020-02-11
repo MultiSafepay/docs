@@ -9,13 +9,18 @@ read_more: "."
 
 Here you find all the information you need to start processing payments with MultiSafepay.
 
-### 1. Create a MultiSafepay Control account
-|[Create a test account](https://testmerchant.multisafepay.com/signup)|[Create a live account](https://merchant.multisafepay.com/signup)|
-|---|---|
-|Test MultiSafepay's solutions|Process real online payments|
-|Test your payment integration|(!) You will pay transaction costs|
-|Explore new features|
-|No costs per transaction|
+### 1. Create a MultiSafepay Control account (Test and Live)
+__[Create a test account](https://testmerchant.multisafepay.com/signup)__
+
+* Test MultiSafepay's solutions
+* Test your payment integration
+* Explore new features
+* No costs associated per transaction
+
+__[Create a live account](https://merchant.multisafepay.com/signup)__
+
+* Process real online payments
+* You will pay transaction costs!
 
 ### 2. Add your website to your MultiSafepay Control
   * [Add a new website](https://merchant.multisafepay.com)

@@ -21,4 +21,4 @@ The payment schemes and banks also calculate different fees (within a certain ba
 
 To get the costs per individual transaction to be transparent, payment service providers can choose Interchange ++:   
 
-<br>
+

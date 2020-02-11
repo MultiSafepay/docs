@@ -24,6 +24,9 @@ Ferry 905,
 Halte Veer NDSM Werf, Amsterdam
 <br><img src='../map1.jpg'>
 
+## Ferry times Amsterdam Central to NDSM Werf
+<br><img src='../ferrytimes.jpg'>
+
 ## Parking
 There is paid parking near the office.
 You find free parking at the west side, for instance in the tt.Melissaweg. This is at a 10 minutes walking distance.

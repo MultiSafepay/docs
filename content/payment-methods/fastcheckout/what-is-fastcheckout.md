@@ -18,5 +18,12 @@ The available payment methods can be (individually) selected by the merchants in
 
 Fastcheckout has its own checkout process. The customer will leave the webshop's domain from the shopping cart, and will return once the payment is finalized.
 
+### Payment methods
+MultiSafepay offers a free of charge Fastcheckout account. However, not all payment methods are available in a Fastcheckout account:
+
+__Available__: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Belfius, Direct Debit, Dotpay, E-Invoicing, EPS, Giropay, iDEAL, iDEAL QR, ING Homepay, JCB, KBC, Mastercard, PayPal, Paysafecard, Betaalplan, SOFORT Banking, Trustly, TrustPay, Visa.
+
+__Not available__: Klarna, Pay After Delivery. 
+
 ### Fastcheckout Guaranteed
 With Fastcheckout Guaranteed, customers profit from additional security and protection. In case of delivery failure after payment, Fastcheckout offers an insurance up to €200 per order.

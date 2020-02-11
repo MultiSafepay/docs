@@ -32,6 +32,9 @@
                                 {{ if .Params.download_url }}
                                 <a class="primary ml-4" href="{{ .Params.download_url }}">Download</a>
                                 {{ end }}
+                                {{ if .Params.extra_button }}
+                                    <a {{ if eq .Params.extra_button.type "primary" }} class="primary ml-4" {{else}} class="secondary ml-4"  {{end}} target="blank" href="{{ .Params.extra_button.url }}">{{ .Params.extra_button.text }}</a>
+                                {{ end }}
                             </div>
                         </div>
 

@@ -13,9 +13,8 @@ Customers opting in for an Alipay payment have the possibility to pay through a 
 
 If the transaction is approved by Alipay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
 
-<div class="alert alert-warning" role="alert">
-   Please note: The Alipay payment method can only be used with a verified Alipay account that is linked to a Chinese bank. All other transactions will be unsuccessful.
-</div>
+######   Please note: The Alipay payment method can only be used with a verified Alipay account that is linked to a Chinese bank. All other transactions will be unsuccessful.
+
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

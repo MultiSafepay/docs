@@ -310,6 +310,6 @@ sdk.setStyles(styles);
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
     
-    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client App about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
+    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client app about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
 
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}

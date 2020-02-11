@@ -61,7 +61,9 @@ Some rules may apply to certain payment methods. For Trustly, the following rule
 
 * Successful Trustly transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+
+
 
 * In exceptional cases, the _uncleared_ status can occur for Trustly. In this case, it is up to Trustly to inform MultiSafepay of the correct status. This can be a _completed_ status, as well as a _declined_ and / or _expired_ status. The _uncleared_ status automatically expires after 5 days.
 

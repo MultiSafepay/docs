@@ -10,10 +10,10 @@ For questions or providing documentation you can submit your email to <retrieval
 Customers who disagree with or do not recognize a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 
 ## Visa
-<div class="alert alert-warning">A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, chargebacks are described per payment method and per reason code.</div>
+###### A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, chargebacks are described per payment method and per reason code.
 
 ### Fraud 
-<div class="alert alert-warning"> The chargeback reason codes regarding <b>Fraud</b> with the payment method <b>Visa</b>, are explained below</div>
+###### The chargeback reason codes regarding __Fraud__ with the payment method __Visa__, are explained below.
 
 **Reason Code: 10.4 - Card absent environment**\
 The cardholder denies participation in the transaction processed by your business.
@@ -29,9 +29,9 @@ In order for this chargeback to be disputed we need the following documentation 
 
 
 ### Processing Errors 
-<div class="alert alert-warning">The chargeback reason codes regarding <b>Processing Errors</b> with the payment method <b>Visa</b>, are explained below</div>
+###### The chargeback reason codes regarding __Processing Errors__ with the payment method __Visa__, are explained below.
 
-**Reason Code: 12.5 - Incorrect Amount**\ 
+**Reason Code: 12.5 - Incorrect Amount**\
 The transaction amount is incorrect or an error occured. 
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it:
@@ -49,7 +49,7 @@ In order for this chargeback to be disputed we need the following documentation 
 2. Paid by other means: Proof of not paid by other means or separate means.
 
 ### Customer Dispute
-<div class="alert alert-warning">The chargeback reason codes regarding <b>Customer Dispute</b> with the payment method <b>Visa</b>, are explained below</div>
+###### The chargeback reason codes regarding __Customer Dispute__ with the payment method __Visa__, are explained below.
 
 **Reason Code: 13.1 - Merchandise or Services Not Received**\
 The cardholder or an authorized person did not receive the merchandise or service because the merchant was unwilling or unable to provide the merchandise or service.
@@ -102,10 +102,10 @@ In order for this chargeback to be disputed we need the following documentation 
 5. Proof of contact with the cardholder.
 
 ## Mastercard 
-<div class="alert alert-warning">A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, the chargebacks are described per payment method and per reason code.</div>
+###### A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, the chargebacks are described per payment method and per reason code.
 
 ### Fraud
-<div class="alert alert-warning">The chargeback reason codes regarding <b>Fraud</b> with the payment method <b>Mastercard</b>, are explained below</div>
+###### The chargeback reason codes regarding __Fraud__ with the payment method __Mastercard__, are explained below
 
 **Reason Code: 4837 - Fraud Related Chargeback or No Cardholder Authorization**\
 Cardholder denies participation in the transaction processed by your business.
@@ -134,7 +134,7 @@ In order for this chargeback to be disputed we need the following documentation 
 8. Evidence, such as photographs or emails that proves a link between the person receiving the merchandise or service and the cardholder.
 
 ### Processing Errors
-<div class="alert alert-warning">The chargeback reason codes regarding <b>Processing Errors</b> with the payment method <b>Mastercard</b>, are explained below</div>
+###### The chargeback reason codes regarding __Processing Errors__ with the payment method __Mastercard__, are explained below.
 
 **Reason Code: 4834 - Duplicate Processing**\
 The issuer determines that a transaction has been submitted in duplicate.
@@ -155,7 +155,7 @@ In order for this chargeback to be disputed we need the following documentation 
 4. Proof that the merchant has the right to alter the transaction amount without the cardholder's consent after transaction was completed. 
 
 ### Customer Dispute 
-<div class="alert alert-warning">The chargeback reason codes regarding <b>Customer Dispute</b> with the payment method <b>Mastercard</b>, are explained below</div>
+###### The chargeback reason codes regarding __Customer Dispute__ with the payment method __Mastercard__, are explained below.
 
 **Reason Code: 4855 - Goods or Services Not Delivered**\
 The cardholder's account has been debited for a transaction but the goods or service that were to be shipped, delivered, or otherwise provided by the expected delivery date were not received.
@@ -190,10 +190,10 @@ In order for this chargeback to be disputed we need the following documentation 
 
 
 ## American Express 
-<div class="alert alert-warning"> A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, the chargebacks are described per payment method and per reason code.</div>
+###### A chargeback is submitted for various reasons and linked to a chargeback reason code. To increase the chance of successfully fighting a chargeback, the chargebacks are described per payment method and per reason code.
 
 ### Fraud
-<div class="alert alert-warning"> The chargeback reason codes regarding <b>Fraud</b> with the payment method <b>American Express</b>, are explained below</div>
+###### The chargeback reason codes regarding __Fraud__ with the payment method __American Express__, are explained below
 
 **Reason Code: 4573 - Fraud, Full Recourse**\
 Cardholder denied authorizing the charge, and your business has been placed in the fraud full recourse program **(Investigation confirms fraud)**
@@ -229,7 +229,7 @@ In order for this chargeback to be disputed we need the following documentation 
 3. Signed proof of shipment and delivery with the delivery address and date. 
 
 ### Processing Errors
-<div class="alert alert-warning"> The chargeback reason codes regarding <b>Processing Errors</b> with the payment method <b>American Express</b>, are explained below</div>
+###### The chargeback reason codes regarding __Processing Errors__ with the payment method __American Express__, are explained below.
 
 **Reason Code: 4512 - Multiple Processing**\
 A single transaction for the same amount was sent.
@@ -280,7 +280,7 @@ In order for this chargeback to be disputed we need the following documentation 
 1. Fully itemized documents that link the cardholder to each charge processed and proves that all transactions are valid.
 
 ### Customer Disputes
-<div class="alert alert-warning"> The chargeback reason codes regarding <b>Customer Disputes</b> with the payment method <b>American Express</b>, are explained below</div>
+###### The chargeback reason codes regarding __Customer Disputes__ with the payment method __American Express__, are explained below.
 
 **Reason Code: 4544 - Goods and Services, Cancellation of Recurring Payments**\
 Cardholders's account continues to be charged, event though the cardholder has notified the merchant to cancel or revoke consent to recurring billing arrangement with the merchant.
@@ -305,4 +305,4 @@ In order for this chargeback to be disputed we need the following documentation 
 1. Proof that the goods and/or services have indeed been received in full by the cardholder or authorized representative (Proof of delivery) 
 2. Proof that the goods and/or services have been delivered to the cardholder's billing address 
 3. Proof refuting that the services were cancelled or the goods were returned to the merchant. 
-<br>
+

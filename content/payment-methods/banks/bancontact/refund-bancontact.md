@@ -24,4 +24,3 @@ Please follow these steps to refund a Bancontact transaction:
 
 In the event of a failed Bancontact refund, please contact our support team at <support@multisafepay.com> to assist you.
 
-<br>

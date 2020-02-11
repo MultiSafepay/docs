@@ -10,8 +10,9 @@ read_more: '.'
 ### The customer  
 Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <merchant@afterpay.com> or via +31 207230230.
 
-* When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules
-<br>
+* When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules.
+
+
 
 * When an AfterPay transaction is marked with the status _uncleared_, AfterPay will authorize or decline the transaction
 
