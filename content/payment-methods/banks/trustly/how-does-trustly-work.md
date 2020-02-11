@@ -68,4 +68,4 @@ Some rules may apply to certain payment methods. For Trustly, the following rule
 * Trustly can be offered in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):     
   * Euros (EUR)       
   * Pounds (GBP)       
-  * Swedish krona (SEK).
+  * Swedish krona (SEK)

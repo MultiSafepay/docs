@@ -10,4 +10,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Mastercard
 + SOFORT Banking
 + Trustly
-+ Visa (including CartaSi, Carte Bleue & Dankort).
++ Visa (including CartaSi, Carte Bleue & Dankort)

@@ -29,6 +29,6 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Wellness gift card 
 * Wijncadeau 
 * Winkelcheque 
-* YourGift.  
+* YourGift
 
 Would you rather be offering a personalized gift card to your customers? Check out our dedicated page on [Branded / Personalized gift cards](/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/) 

@@ -21,7 +21,7 @@ The payout scheduler allows you to:
 
  * Schedule automatic withdrawals on preferred day(s) of the week
  * Schedule a payment only when a certain amount is exceeded (preferred amount)
- * Reserve an amount (e.g. for a refund).
+ * Reserve an amount (e.g. for a refund)
 
 ## Manual withdrawals
 
