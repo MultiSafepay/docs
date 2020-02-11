@@ -58,4 +58,4 @@ A new payment link is generated and sent to the customer with the adjusted invoi
 
 In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins/) for more information.
 
-<br>
+

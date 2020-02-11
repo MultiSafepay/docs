@@ -42,7 +42,7 @@ A new payment link is generated and sent to the customer with the adjusted invoi
 ## Add a discount
 Instead of deleting an item in the checkout editor you may want to add a discount. Please follow these steps:
 
-<div class="alert alert-warning"> Submitting a discount with the payment method Klarna is processed on a <b>negative amount</b> instead of on a <b>negative quantity</b>. This method of adding a discount only applies to a successfully placed Klarna transaction. More information about how to add a discount before the transaction request is submitted to MultiSafepay is available on our <a href="/api/#discount">API Documentation page</a></div>
+###### Submitting a discount with the payment method Klarna is processed on a __negative amount__ instead of on a __negative quantity__. This method of adding a discount only applies to a successfully placed Klarna transaction. More information about how to add a discount before the transaction request is submitted to MultiSafepay is available on our [API Documentation page](/api/#discount)
 
 
 1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
@@ -51,7 +51,7 @@ Instead of deleting an item in the checkout editor you may want to add a discoun
 4. Click on the transaction to open it
 5. Select _refund order_
 6. Choose _edit_
-7. Add the discount as a new page in the checkout editor.  <br>
+7. Add the discount as a new page in the checkout editor.\
 _**For example, quantity (1) -> discount (item or name) -> amount (as negative)-> VAT**_
 8. Add the new order line to the order to deduct the amount given as a discount
 9. _Save_.
@@ -60,6 +60,6 @@ The discount is added to the transaction. A new payment link is generated and se
 
 In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins/) for more information.
 
-<br>
+
 
 _Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <webwinkel@klarna.nl> or +31 208082853_

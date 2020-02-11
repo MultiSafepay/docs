@@ -20,6 +20,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Pay After Delivery
 + PayPal
 + SOFORT Banking
++ Trustly
 + Visa.
 
 

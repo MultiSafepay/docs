@@ -69,7 +69,8 @@ Some rules may apply to certain payment methods. For Direct Debit, the following
 * Successful Direct Debit transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * As a collection payment method, Direct Debit has a different payment flow and the setting of days or seconds active will have no influence. 
- <br>        
+
+       
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
 
 * Payments done through Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)

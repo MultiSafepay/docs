@@ -25,4 +25,3 @@ A refund will be processed on the Alipay account of the customer within the next
 
 In the event of a failed Alipay refund, please contact our support team at <support@multisafepay.com> to assist you.
 
-<br>

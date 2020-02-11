@@ -7,7 +7,6 @@ Banktransfer
 Bank Transfer
 Working days
 Charge back
-Charge back
 login details
 creditcard
 e-commerce
@@ -27,6 +26,7 @@ Multisafepay
 Merchant Control
 Merchant Back-office
 MultiSafepay Merchant Control
+MultiSafepay Control Panel
 Merchant Control Panel
 MultiSafepay Panel
 Partner dashboard
@@ -45,4 +45,3 @@ shop
 online shop
 postpay
 post Pay
-postpay

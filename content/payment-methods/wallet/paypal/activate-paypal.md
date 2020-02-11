@@ -7,7 +7,7 @@ read_more: '.'
 ---
 
 ## Activate
-<br>
+
 
 > * Please note that specific required actions are highlighted with a blue frame on the screenshots below.
 

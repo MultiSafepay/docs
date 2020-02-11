@@ -12,4 +12,3 @@ Unlike regular credit cards, corporate purchasing cards allow for a much more de
 
 MultiSafepay offers support for integrations with purchasing cards. For more information, please contact our Integration Team at <integration@multisafepay.com> 
 
-<br>

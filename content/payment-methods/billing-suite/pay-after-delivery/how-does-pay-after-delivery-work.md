@@ -37,11 +37,11 @@ As soon as your customer selects the payment method Pay After Delivery, he or sh
 
 1. The shipped status is important for invoicing the customer. 24 Hours after the shipped status has been set, the first email towards the customer will be sent. The customer originally has 14 days to finalize the payment
 
-2. When no payment has been received to complete the transaction, MultiFactor will send a reminder. The second payment request is valid for 6 days     <br>             
+2. When no payment has been received to complete the transaction, MultiFactor will send a reminder. The second payment request is valid for 6 days.      
 _The first and second payment request are sent without additional cost_ 
 
-3. When no payment has been successfully linked to the outstanding transaction after the second payment request, a third reminder will be sent. However, additional cost of &euro; 7.50 will be added to the invoice. <br>
-The third payment request will be valid for 6 days
+3. When no payment has been successfully linked to the outstanding transaction after the second payment request, a third reminder will be sent. However, additional cost of &euro; 7.50 will be added to the invoice. 
+The third payment request will be valid for 6 days.
 
 4. The fourth payment request will be increased with &euro; 12.50 and is also valid for 6 days 
 

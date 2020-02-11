@@ -20,5 +20,6 @@ Please follow these steps to refund a Direct Debit transaction:
 
 > A refund will only be processed if your balance on your MultiSafepay Control is sufficient.
 
-<br>
+
+
 

@@ -28,4 +28,4 @@ The customer will pay the regular national fees charged by the customer's bank.
 
 Please keep in mind that USD (Dollar) is not supported due to the very high transaction and conversion costs for the customer. 
 
-<br>
+

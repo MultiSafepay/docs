@@ -77,6 +77,6 @@ Some rules may apply to certain payment methods. For Betaalplan, the following r
 * As an overarching rule for post-payment methods, both first name and last name for the customer details need to be at least 2 characters long. This also applies for the delivery details. Please note that failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
 
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
 

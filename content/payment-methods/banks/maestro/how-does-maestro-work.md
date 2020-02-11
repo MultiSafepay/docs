@@ -50,6 +50,7 @@ Some rules may apply to certain payment methods. For Maestro, the following rule
 
 * Maestro transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+
 
 * Payments done through Maestro are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)

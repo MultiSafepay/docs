@@ -4,7 +4,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 {{< code-block >}}
 > POST - /orders
-> POST - /orders
 
 ```shell
 
@@ -46,7 +45,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 
 {{< description >}}
-## Server to Server
+## Server to Server API Calls
 ### 3D Enabled Request
 
 

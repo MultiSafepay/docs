@@ -5,6 +5,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 
 Yes, they do. This connection is developed and supported by [GlobeCharge](https://www.globecharge.com)
-<br>
+
 
 > Please note that it is advised that you use our own Shopfactory plugin.

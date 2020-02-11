@@ -1,5 +1,5 @@
 ---
-title : "MultiSafepay App for Shopify"
+title : "MultiSafepay app for Shopify"
 meta_title: "Shopify plugin integration - MultiSafepay Documentation Center"
 manual: "."
 faq: "."

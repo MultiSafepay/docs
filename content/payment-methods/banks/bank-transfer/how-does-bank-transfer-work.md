@@ -49,9 +49,10 @@ Some rules may apply to certain payment methods. For bank transfer, the followin
 
 * Successful bank transfer transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The days and seconds active does not apply to the payment method bank transfer. The customer processes the payment from his/her own banking environment. As a result, it has a different payment flow and the setting of a days or seconds active will have no influence <br> 
+* The days and seconds active does not apply to the payment method bank transfer. The customer processes the payment from his/her own banking environment. As a result, it has a different payment flow and the setting of a days or seconds active will have no influence.
  
-However, the payment link that is provided in the Bank transfer email to the customer can be adjusted by setting a days_active_ or seconds_active. Bank transfer transactions are active for 60 days. By default, payment links expires after 30 days. <br>   
+However, the payment link that is provided in the Bank transfer email to the customer can be adjusted by setting a days_active_ or seconds_active. Bank transfer transactions are active for 60 days. By default, payment links expires after 30 days. 
+
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
 
 * If you would like to make changes in the validation of bank transfers, check whether this is possible in your ecommerce platform

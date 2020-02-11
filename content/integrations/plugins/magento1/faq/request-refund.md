@@ -9,7 +9,6 @@ Yes, it is possible to refund orders or process a credit memo from within the Ma
 2. Click the _Invoices_ tab on the left of the _Order Overview_
 3. Open the invoice, and click on _Credit memo_ located at the top right of the overview
 4. Once the desired refunds/adjustments have been provided and made, click on _Refund Online_ so we can receive the request.
-<br><br>
 
 Further information on issuing a refund available in the [Magento 1](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) user guide. 
 

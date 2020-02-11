@@ -96,7 +96,7 @@ For more information about recurring payments, please refer to our [dedicated pa
 | type                           | string   | Specifies the payment flow for the checkout process. Options: direct.                     |
 | gateway                        | string   | Specifies the payment method used for the checkout process. Options: AMEX, DIRDEB, MASTERCARD, VISA. DIRDEB is to be used after initial payment with IDEAL, DIRECTBANK (Sofort) and DIRDEB. |
 | order_id                       | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                    |
-| recurring_id	                 | integer	| A previously stored recurring_id referring to a payment method to be charged again.
+| recurring_id	                 | integer	| The unique recurring id used for recurring payments.
 | currency                       | string   | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                    |
 | description                    | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items'or 'shopping_cart' objects for this. |

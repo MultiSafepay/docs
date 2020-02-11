@@ -62,4 +62,3 @@ When the customer has not supplied a payment, the transaction can be cancelled b
 
 In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information.
 
-<br>
