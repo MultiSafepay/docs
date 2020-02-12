@@ -35,7 +35,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for Bancontact can be found [here](/api/#bancontact).
+The full API reference for Bancontact can be found [here](/api/#bancontact)
 
 ### Product rules
 Some rules may apply to certain payment methods. For Bancontact, the following rules apply:

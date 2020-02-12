@@ -45,4 +45,4 @@ Some rules may apply to certain payment methods. For Paysafecard, the following 
 
   * Euros (EUR)
   * Pounds (GBP)
-  * Dollars (USD).
+  * Dollars (USD)

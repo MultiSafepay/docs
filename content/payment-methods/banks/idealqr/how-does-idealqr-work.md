@@ -43,7 +43,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Initialized | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for iDEAL QR can be found [here](/api/#ideal-qr).
+The full API reference for iDEAL QR can be found [here](/api/#ideal-qr)
 
 ### Product rules
 Some rules may apply to certain payment methods. For iDEAL QR, the following rules apply:

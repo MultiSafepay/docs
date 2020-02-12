@@ -24,15 +24,15 @@ The **right column** shows examples of the specific ``JSON`` request and respons
 
 ### What our API offers:
 
-Our API enables you to perform different calls through which you can [start transactions](#create-an-order), [update transactions](#update-an-order), [perform refunds](#create-a-refund) and [receive information about transactions](#retrieve-an-order).
+Our API enables you to perform different calls through which you can [start transactions](#create-an-order), [update transactions](#update-an-order), [perform refunds](#create-a-refund) and [receive information about transactions](#retrieve-an-order)
 
-The API also offers advanced operations to enable you to use [split payments](#split-payments) and [recurring payments](#recurring-payment).
+The API also offers advanced operations to enable you to use [split payments](#split-payments) and [recurring payments](#recurring-payment)
 
-We encourage you to study this API and start implementing your custom integration against our [``TEST`` environment](#environments).
+We encourage you to study this API and start implementing your custom integration against our [``TEST`` environment](#environments)
 
 For any questions, do not hesitate to contact us at <integration@multisafepay.com>
 
 ### Postman
 
-To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection). This collection is a group of saved request that allows you to retrieve order information, post payments in our API documentation.
+To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) This collection is a group of saved request that allows you to retrieve order information, post payments in our API documentation.
 {{% /description %}}

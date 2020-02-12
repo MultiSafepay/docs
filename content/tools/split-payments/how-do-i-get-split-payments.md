@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-Split Payments is a feature in our [API](/api/#split-payments). This is not incorporated within our plugins by default, but it can be added through customization from your side.  
+Split Payments is a feature in our [API](/api/#split-payments) This is not incorporated within our plugins by default, but it can be added through customization from your side.  
 
 In order to split a payment you need the following:  
 

@@ -42,7 +42,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 
-The full API reference for Alipay can be found [here](/api/#alipay).
+The full API reference for Alipay can be found [here](/api/#alipay)
 
 ### Product rules
 Some rules may apply to certain payment methods. For Alipay, the following rules apply:

@@ -8,7 +8,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## How it works
 A customer chooses to pay with Bancontact QR, authenticates their account and confirms to pay. Once a payment is completed, the payout is guaranteed and can not be reversed by the customer.
 
-The full API reference for Bancontact QR can be found [here](/api/#bancontact-qr).
+The full API reference for Bancontact QR can be found [here](/api/#bancontact-qr)
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

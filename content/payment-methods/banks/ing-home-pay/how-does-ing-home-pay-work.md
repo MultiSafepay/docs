@@ -36,7 +36,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Initialized | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for ING Home'Pay can be found [here](/api/#ing-home-pay).
+The full API reference for ING Home'Pay can be found [here](/api/#ing-home-pay)
 
 ### Product rules
 Some rules may apply to certain payment methods. For ING Home'Pay, the following rules apply:

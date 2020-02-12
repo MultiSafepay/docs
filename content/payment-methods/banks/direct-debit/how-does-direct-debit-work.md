@@ -48,7 +48,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). The chargeback cannot be challenged. | 
 
-The full API reference for Direct Debit can be found [here](/api/#direct-debit).
+The full API reference for Direct Debit can be found [here](/api/#direct-debit)
 
 
 ### E-mandate

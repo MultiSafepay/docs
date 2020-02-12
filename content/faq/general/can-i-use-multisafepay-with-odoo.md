@@ -6,6 +6,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-Yes, you can. A few external developers created an Odoo app that connects with MultiSafepay. You can find it on the [Odoo website](https://www.odoo.com/apps/modules/browse?search=multisafepay). 
+Yes, you can. A few external developers created an Odoo app that connects with MultiSafepay. You can find it on the [Odoo website](https://www.odoo.com/apps/modules/browse?search=multisafepay) 
 
 MultiSafepay did not take part in developing the Odoo apps. Therefore, we advise you to contact your developer to assist you further.

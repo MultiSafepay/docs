@@ -9,7 +9,7 @@ read_more: '.'
 MultiSafepay provides two versions of payment pages:
 
   * ConnectV1 (starts with `pay.multisafepay.com`)
-  * ConnectV2 (starts with `payv2.multisafepay.com`).
+  * ConnectV2 (starts with `payv2.multisafepay.com`)
 
 With the latter, you can use all new payment methods and use our editor for your own styling.
 {{< youtube r1I6pthxlGo >}}

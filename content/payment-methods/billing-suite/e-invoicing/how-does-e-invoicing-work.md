@@ -125,7 +125,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Initialized | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for E-Invoicing can be found [here](/api/#e-invoicing).
+The full API reference for E-Invoicing can be found [here](/api/#e-invoicing)
 
 ## Product Rules
 Some rules may apply to certain payment methods. For E-Invoicing, the following rules apply:

@@ -23,7 +23,7 @@ Fortunately, there are two ways to mitigate this issue.
 
 In [Google Analytics](https://support.google.com/analytics/answer/1008015), it is possible to exclude referral domains. As explained above, this is a common fix to prevent third-party shopping carts from starting second sessions. When the third-party shopping cart is in the exclusion list, a user will no longer initiate a new session, and won't be counted as a referral when they return to your order-confirmation page, after checking out on the third-party site. This way, the customer is not counted as a new visitor to the landing page after a payment is done.
 
-Instructions about this can be found on [the dedicated Google Analytics page](https://support.google.com/analytics/answer/2795830).
+Instructions about this can be found on [the dedicated Google Analytics page](https://support.google.com/analytics/answer/2795830)
 
 
 *This feature is only available for websites using gtag.js or analytics.js.</br>

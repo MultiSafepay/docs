@@ -29,7 +29,7 @@ Activating Flexible 3D secure will override the rules of the Dynamic 3D settings
 
 Flexible 3D is a feature that allows you to enable/disable 3D secure at an API level. 
 
-For Full API documentation on Flexible 3D, please check out [our dedicated page](/api/#flexible-3d).
+For Full API documentation on Flexible 3D, please check out [our dedicated page](/api/#flexible-3d)
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

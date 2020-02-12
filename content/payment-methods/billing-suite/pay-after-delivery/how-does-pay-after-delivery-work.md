@@ -79,7 +79,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed     | Refund has been successfully processed. | 
 
 
-The full API reference for Pay After Delivery can be found [here](/api/#pay-after-delivery).
+The full API reference for Pay After Delivery can be found [here](/api/#pay-after-delivery)
 
 
 ### Product rules

@@ -180,7 +180,7 @@ The payment method KBC can only be processed on our new Payment page starting wi
 
 ## Klarna
 
-Klarna provides their own test credentials. For a complete guide, check out [Klarna's documentation](https://developers.klarna.com/en/gb/kco-v3/test-credentials).
+Klarna provides their own test credentials. For a complete guide, check out [Klarna's documentation](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
 
 ## Maestro
 

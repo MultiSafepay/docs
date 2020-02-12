@@ -78,8 +78,8 @@ Disabling is only possible in the site profile. In this case, as a merchant you 
 
 The short answer is yes. However, this depends on the webshop you are using.
 
-For example, for Magento 1 or own integration, a payment link can be created in the backend of the webshop using our [API tool](https://docs.multisafepay.com/api/#create-an-order). The parameter _type_ must be filled with 'payment link'. 
+For example, for Magento 1 or own integration, a payment link can be created in the backend of the webshop using our [API tool](https://docs.multisafepay.com/api/#create-an-order) The parameter _type_ must be filled with 'payment link'. 
 
 For more information on this topic, please contact the Integration Team at <integration@multisafepay.com>
 
-For the full API reference on manually creating a payment link, please refer to our dedicated [page](/api/#generating-a-payment-link).
+For the full API reference on manually creating a payment link, please refer to our dedicated [page](/api/#generating-a-payment-link)

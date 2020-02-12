@@ -59,7 +59,7 @@ Automated Accountant Export activation checklist:
 * Choice of email, SFTP push or SFTP pull            
 * Frequency - daily, weekly or monthly
 * Desired file format: CAMT053, CODA, CSV, MT940, XLS or XLSX
-* Desired time (_Please note our reference time is CEST_).
+* Desired time (_Please note our reference time is CEST_)
 * Costs breakdown per transaction OR total costs 
 
 

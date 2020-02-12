@@ -53,7 +53,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 
-The full API reference for Klarna can be found [here](/api/#klarna).
+The full API reference for Klarna can be found [here](/api/#klarna)
 
 
 ## Reconciliation & Reporting

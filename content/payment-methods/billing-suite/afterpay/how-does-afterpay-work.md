@@ -65,7 +65,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Completed   | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for Afterpay can be found [here](/api/#afterpay).
+The full API reference for Afterpay can be found [here](/api/#afterpay)
 
 ## Product rules
 Some rules may apply to certain payment methods. For AfterPay, the following rules apply:

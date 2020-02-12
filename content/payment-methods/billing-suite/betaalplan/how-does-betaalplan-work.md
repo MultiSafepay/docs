@@ -58,7 +58,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for Betaalplan can be found [here](/api/#santander-betaalplan).
+The full API reference for Betaalplan can be found [here](/api/#santander-betaalplan)
 
 ## Product rules
 Some rules may apply to certain payment methods. For Betaalplan, the following rules apply:
