@@ -21,5 +21,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 3. Enable and configure the desired payment methods you wish to offer. Each payment method will have to be configured separately.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.
 

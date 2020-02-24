@@ -10,5 +10,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ### Installation & Configuration
 
 The plugin is developed and maintained by ShopFactory.
-Information can be find at https://www.shopfactory.nl/contents/nl/d373_multisafepay-webwinkel.html
+Information can be find at https://www.shopfactory.nl/contents/nl/d373_multisafepay-webwinkel.html.
 

@@ -5,4 +5,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 Unfortunately it is currently not possible to process a refund from within you CCV webshop.
 
-You can however, process a refund from within your [MultiSafepay Control](https://merchant.multisafepay.com)
+You can however, process a refund from within your [MultiSafepay Control](https://merchant.multisafepay.com).

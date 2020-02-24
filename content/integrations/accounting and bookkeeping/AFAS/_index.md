@@ -32,7 +32,7 @@ MultiSafepay offers two methods to export Accountant reports:
 
 #### 1. _Automatic_
 
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/).
 
 An automated account export can also be executed using [Forque](https://www.forque.nl/). If you have any questions, we kindly ask you to contact Forque directly.
 

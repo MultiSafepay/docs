@@ -17,4 +17,4 @@ Click below on the payment methods that you would like to use. Login on the foll
 You need to add the API key and Secure code for all payment methods separate. {{% account_info %}}
 
 ### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.

@@ -5,5 +5,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 layout: "faqdetail"
 ---
 Yes, it is possible to refund orders or credit memo from within the Magento 2 backend.  
-You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
+You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com).
 

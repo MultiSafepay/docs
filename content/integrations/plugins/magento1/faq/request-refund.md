@@ -16,7 +16,7 @@ Further information on issuing a refund available in the [Magento 1](https://doc
 
 **Warning: If an amount is specified instead of an item selected, the entire order will be refunded.**
  
-> It is, however, possible to deduct an amount through an [API request](/api/#refund-with-shopping-cart) or from your [MultiSafepay Control](https://merchant.multisafepay.com)
+> It is, however, possible to deduct an amount through an [API request](/api/#refund-with-shopping-cart) or from your [MultiSafepay Control](https://merchant.multisafepay.com).
 
 
 

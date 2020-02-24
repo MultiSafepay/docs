@@ -16,4 +16,4 @@ Your Account ID is shown in the dashboard of your MultiSafepay Control in the to
 4. Select the payment methods you would like to offer.
 
 ### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.

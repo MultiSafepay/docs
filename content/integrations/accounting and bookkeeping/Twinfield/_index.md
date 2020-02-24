@@ -40,7 +40,7 @@ MultiSafepay offers two methods to export Accountant reports:
 
 #### 1. _Automatic_
 
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/).
 
 
 #### 2. _Manual_

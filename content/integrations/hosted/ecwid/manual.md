@@ -19,6 +19,6 @@ Your API key is displayed in your MultiSafepay Control. {{% account_info %}}
 More information about the documentation can be found on the [Ecwid explanation page](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup)
 
 ### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.
 
 

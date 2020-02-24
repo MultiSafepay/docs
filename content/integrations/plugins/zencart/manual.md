@@ -22,4 +22,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 4. Disable the _MultiSafepay - Connect_ module and enable the Payment methods you would like to offer.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.

@@ -36,7 +36,7 @@ The Fastcheckout SDK provides the additional following features:
 
 *If you need more information, please check the documentation that you will find inside the SDK, which contains all classes, methods, common troubleshooting and more details.*
 
-Please refer to the Multisafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
+Please refer to the Multisafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders.
 
 ### Requirements
 
@@ -48,7 +48,7 @@ Please refer to the Multisafepay API Documentation to perform different calls th
 
 First you have to access into your Back Office and get a valid API Key (_Settings_ → _Website Settings_).
 
-Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
+Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
 
 Add the FastcheckoutKit.xcframework as an embedded framework into your project. The next steps will guide you through the process:
 

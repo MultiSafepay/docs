@@ -28,4 +28,4 @@ Migrating from Shopware 5 to Shopware 6 is not a simple task, although we do rec
 
 We suggest reading through the [Shopware migration manual](https://docs.shopware.com/en/migration-en) which will assist in a successful migration.
 
-Please note that MultiSafepay will continue to offer support to our merchants for Shopware 5 as long as it remains in the market. Feel free to contact our Integration team if you have any questions at <integration@multisafepay.com>
+Please note that MultiSafepay will continue to offer support to our merchants for Shopware 5 as long as it remains in the market. Feel free to contact our Integration team if you have any questions at <integration@multisafepay.com>.

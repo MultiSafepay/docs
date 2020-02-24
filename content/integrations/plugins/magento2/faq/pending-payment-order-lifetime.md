@@ -16,4 +16,4 @@ The lifetime of a [bank transfer](/payment-methods/bank-transfer/how-does-bank-t
 
 The order will set to _cancelled_ in Magento 2 before a payment can be linked.
 
-To set pending payments order lifetime, see the [Magento Documentation page](https://docs.magento.com/m2/ee/user_guide/sales/order-pending-payment-lifetime.html)
+To set pending payments order lifetime, see the [Magento Documentation page](https://docs.magento.com/m2/ee/user_guide/sales/order-pending-payment-lifetime.html).

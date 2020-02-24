@@ -10,5 +10,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ### Installation & Configuration
 
 The plugin is developed and maintained by Shoptrader.
-Information can be find at https://www.shoptrader.nl/add-ons-en-koppelingen/multisafepay
+Information can be find at https://www.shoptrader.nl/add-ons-en-koppelingen/multisafepay.
 

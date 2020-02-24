@@ -7,4 +7,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 Yes, you can do so in the configuration of the payment method.
 This should be done via _Surcharge_ and should always be the amount including VAT.
 
-See how applying payment fees or surcharges for your customers may affect your webshop in light of the PSD2, on our [PSD2 documentation page](/faq/psd2/)
+See how applying payment fees or surcharges for your customers may affect your webshop in light of the PSD2, on our [PSD2 documentation page](/faq/psd2/).

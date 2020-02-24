@@ -30,4 +30,4 @@ This rule will set the order to processing once the order has been paid in full
 This rule will update the transaction order status to _shipped_ at MultiSafepay, causing the invoicing process to continue for Pay After Delivery, Klarna and E-invoicing.
 
 ## 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.

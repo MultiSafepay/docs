@@ -29,4 +29,4 @@ _It is essential that the MultiSafepay Core Module (MultiSafepay) is installed a
 4. Click on the Payments tab and enable the payment methods you would like to offer.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.

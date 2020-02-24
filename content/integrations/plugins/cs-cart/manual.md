@@ -30,4 +30,4 @@ Note:
 There are also a number of extra options such as _IP-Validation_ and _debugmode_. These serve especially for developers and can remain unchanged.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.
