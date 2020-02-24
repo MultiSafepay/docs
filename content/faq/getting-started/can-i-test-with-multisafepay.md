@@ -10,7 +10,7 @@ Please start with [creating a test account](https://testmerchant.multisafepay.co
 
 <div class="alert alert-warning">Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a test account of MultiSafepay. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Control.</div>
 
-Contact our Integration Team at <integration@multisafepay.com>
+Contact our Integration Team at <integration@multisafepay.com>.
 
 ## Test API
 
@@ -48,7 +48,7 @@ You can check within [MultiSafepay Control](https://merchant.multisafepay.com) t
 
 Once your system receives a notification, it must retrieve the transaction status from MultiSafepay. The transaction status will clearly show whether a payment was successful or not and give a reason why a transaction was not successful.
 
-After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within [MultiSafepay Control](https://merchant.multisafepay.com)
+After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within [MultiSafepay Control](https://merchant.multisafepay.com).
 
 
 

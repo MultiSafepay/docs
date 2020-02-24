@@ -18,13 +18,13 @@ You can adjust the iFrame, making it less safe, so that Chrome can load the scri
 This is possible with the following iFrame sandbox attributes:
  
 * sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation"> <br>
-As additional information, also check: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+As additional information, also check: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe.
  
 Therefore, the following option will be available to you.
  
 1. Request your developer to process the modification in the sandbox
 2. Refrain from using iFrame.
  
-If any assistance is requested or needed, please contact our Integration Team at <integration@multisafepay.com>
+If any assistance is requested or needed, please contact our Integration Team at <integration@multisafepay.com>.
  
 

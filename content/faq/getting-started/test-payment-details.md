@@ -13,7 +13,7 @@ With a successful connection with your test or staging environment, you can imme
 
 <div class="alert alert-warning">Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control.</div>
 
-If assistance is required, contact our Integration Team at <integration@multisafepay.com>
+If assistance is required, contact our Integration Team at <integration@multisafepay.com>.
 
 
 ## AfterPay
@@ -228,7 +228,7 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/).
 
 
 ## Santander Betaalplan

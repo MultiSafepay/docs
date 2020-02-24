@@ -32,7 +32,7 @@ Reverse-charging VAT is possible for merchants who use our services, but are not
 
 For this feature to be enabled, it is important that your VAT number is registered with MultiSafepay. You cannot reverse-charge VAT if your VAT number is unknown to MultiSafepay.
 
-To register your VAT number, please send us an email at <invoice@multisafepay.com>
+To register your VAT number, please send us an email at <invoice@multisafepay.com>.
 
 ## What are the actual costs to be paid when I have IC ++ tariffs?
 There are three cost components of the IC++ model, namely the Interchange fee that is paid to the issuing bank, the scheme fee charged by Visa or Mastercard and the acquirer fee. The costs associated with IC++ depend heavily on a range of factors, such as the countries of the merchant, the issuing bank and the cardholder, the merchant segment, the monthly transaction volume, etc. 

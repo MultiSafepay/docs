@@ -15,7 +15,7 @@ To accept card payment, an acquirer is in accordance with card networks, partner
 MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and Bancontact.
 
 ### API
-A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
+A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/.
 
 ### Customer
 An entity (individual or organization) that makes use of another entitiy's product or service offering. In our terminology, a customer is the beneficiary of goods and services provided by merchants that use MultiSafepay's payment services.
@@ -30,7 +30,7 @@ JSON (JavaScript Object Notation) is a human-readable file format for storing an
 The selling party of goods and services to the customer via ecommerce webshop or mobile app. Accepting payments with [Credit cards](/payment-methods/creditcards/) or local payment methods. The selling party is required to have an acquiring bank account and subscribe to the services available from a payment service provider. 
 
 ### MultiSafepay Control 
-The environment where merchants can see their transactions and settings from within their MultiSafepay Account. This environment also allows the merchant to update and refund orders as well as update their company's information. The MultiSafepay Control can be reached at: https://merchant.multisafepay.com
+The environment where merchants can see their transactions and settings from within their MultiSafepay Account. This environment also allows the merchant to update and refund orders as well as update their company's information. The MultiSafepay Control can be reached at: https://merchant.multisafepay.com.
 
 ### Payment Method
 The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods).

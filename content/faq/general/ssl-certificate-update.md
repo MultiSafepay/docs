@@ -15,7 +15,7 @@ On January 22nd at 09:00 (GMT+1) MultiSafepay will update its SSL certificate to
 
 In general, this update will not affect your systems or payment processing of transactions. As we take all the measures to ensure that the updates and maintenance will not disrupt server communication, we expect web shops integrating our payment platform not to be affected.
 
-If the certificate is being stored and validated on an outdated platform, you may run into issues. If this occurs, please contact us at <integration@multisafepay.com>
+If the certificate is being stored and validated on an outdated platform, you may run into issues. If this occurs, please contact us at <integration@multisafepay.com>.
 
 The affected systems are the following: 
 

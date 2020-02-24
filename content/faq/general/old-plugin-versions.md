@@ -5,5 +5,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-We advise you to always use our latest stable plugin version. However, if you would like to use an older version of our plugins, please contact our Integration Team at <integration@multisafepay.com>  
+We advise you to always use our latest stable plugin version. However, if you would like to use an older version of our plugins, please contact our Integration Team at <integration@multisafepay.com>.  
  

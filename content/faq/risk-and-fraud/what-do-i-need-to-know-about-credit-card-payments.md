@@ -10,7 +10,7 @@ There are a number of things businesses should be aware of when accepting credit
 Credit card is a very common, often preferred payment method in many countries. Their wide spread acceptance and ability to process charges in multiple currencies make them the default choice for many customers.
 
 ## Activate 
-With MultiSafepay, Visa, Mastercard and American Express are additional payment methods. You can submit the application to enable the payment methods through your account manager via <sales@multisafepay.com>
+With MultiSafepay, Visa, Mastercard and American Express are additional payment methods. You can submit the application to enable the payment methods through your account manager via <sales@multisafepay.com>.
 
 To activate the payment methods Visa and Mastercard we would like to receive the following information from you:
 
@@ -27,7 +27,7 @@ Payment service providers and businesses handling credit card data must abide by
 ## Chargebacks
 Customers using credit card as payment method have the right to initiate a chargeback. A chargeback is a forcibly initiated reversal of funds.
 
-Additional information available in our dedicated FAQ page, [What is a chargeback?](/payment-methods/creditcards/chargebacks/what-is-a-chargeback/)
+Additional information available in our dedicated FAQ page, [What is a chargeback?](/payment-methods/creditcards/chargebacks/what-is-a-chargeback/).
 
 ## 3D Secure
 For detailed information about [3D Secure](/payment-methods/creditcards/what-is-3d-secure/) please read the corresponding support page.

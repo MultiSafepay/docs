@@ -50,4 +50,4 @@ If the enterprise consists of a number of (intermediate) holding companies, then
 
 No, within the definition under the law it is possible that an enterprise does not have an Ultimate Beneficial Owner. For instance in the case that an enterprise has five owners with an equal distribution of capital and control. Each of the owners in this case has does not have 25% of more of the ownership.
 
-For more information please contact your account manager or our Risk Team via [screening@multisafepay.com](mailto:screening@multisafepay.com?utm_source=email&utm_medium=docs-website&utm_campaign=guidance-notes-ultimate-beneficial-owner-form%2F)
+For more information please contact your account manager or our Risk Team via [screening@multisafepay.com](mailto:screening@multisafepay.com?utm_source=email&utm_medium=docs-website&utm_campaign=guidance-notes-ultimate-beneficial-owner-form%2F).

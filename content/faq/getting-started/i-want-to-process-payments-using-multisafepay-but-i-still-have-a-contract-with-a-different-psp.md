@@ -5,4 +5,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-No problem. At MultiSafepay, any applicable monthly fees will only be charged when your existing contract with your former [Payment Service Provider](/faq/getting-started/glossary/#payment-service-provider-psp) has ended. You will have full access to all MultiSafepay features and prevent unnecessary costs. If you wish to know more about our switching service, please contact us via <sales@multisafepay.com>
+No problem. At MultiSafepay, any applicable monthly fees will only be charged when your existing contract with your former [Payment Service Provider](/faq/getting-started/glossary/#payment-service-provider-psp) has ended. You will have full access to all MultiSafepay features and prevent unnecessary costs. If you wish to know more about our switching service, please contact us via <sales@multisafepay.com>.

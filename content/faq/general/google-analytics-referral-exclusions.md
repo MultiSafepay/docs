@@ -90,4 +90,4 @@ In your code, the parameter should look like this: ```$this->_redirect('checkout
 
 Make sure that you do this for all the links from the payment gateway to your website!
 
-For any further information, please refer to the Integration Team at integration@multisafepay.com 
+For any further information, please refer to the Integration Team at integration@multisafepay.com. 

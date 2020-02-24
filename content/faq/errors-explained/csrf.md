@@ -14,7 +14,7 @@ This can occur when you are having an HTML form through which you send the custo
 * `https://api.multisafepay.com` will accept POST and GET requests
 * `https://payv2.multisafepay.com` will only accept GET requests.
  
-If you are seeing this issue and are having difficulties resolving this error, do not hesitate to contact us at <integration@multisafepay.com>
+If you are seeing this issue and are having difficulties resolving this error, do not hesitate to contact us at <integration@multisafepay.com>.
 
-For more information, see our full [API Documentation](/api/)
+For more information, see our full [API Documentation](/api/).
 

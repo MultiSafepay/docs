@@ -66,7 +66,7 @@ _When multiple currencies are enabled within your MultiSafepay Control, all curr
 
 ## Add currency to your MultiSafepay Balance
 
-In order to enable more currencies in your MultiSafepay Control, please submit your request with our Support department via <support@multisafepay.com>
+In order to enable more currencies in your MultiSafepay Control, please submit your request with our Support department via <support@multisafepay.com>.
 
 ## Add multi-currency business bank account to your MultiSafepay Control
 
@@ -91,4 +91,4 @@ This can be done through _Finance -> Balance -> Add bank account_
 _For example, the currency dollar (USD) is paid out in dollar (USD) and received on your business bank account in the dollars (USD) as well._
 
 
-For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to asisst you via <support@multisafepay.com>
+For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to asisst you via <support@multisafepay.com>.

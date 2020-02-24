@@ -13,5 +13,5 @@ MultiSafepay is obliged by law (_De Wet ter voorkoming van witwassen en financie
 
 Besides the invoice, additional questions can be asked for investigative purposes to be able to understand the transaction. If we are not able to understand the transaction after an investigation (e.g. when merchants are not cooperating with the requests), MultiSafepay might pause payouts or take other punitive measures.
 
-For further information contact your account manager or email us at <support@multisafepay.com>
+For further information contact your account manager or email us at <support@multisafepay.com>.
 
