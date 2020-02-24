@@ -17,4 +17,4 @@ Affiliates may have a number of questions regarding matters such as the on-board
 
 If a merchant is unable to find and answer in the above links, they can always search for topics using the [search bar]( https://docs.multisafepay.com/) on our MultiSafepay Documentation Center page. 
 
-For further inquiries, affiliates may contact us at <partner@multisafepay.com>
+For further inquiries, affiliates may contact us at <partner@multisafepay.com>.

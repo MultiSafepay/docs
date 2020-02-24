@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-**_The Automated Accountant Export via SFTP is currently in Beta and is available for testing via [MultiSafepay Test Control](https://testmerchant.multisafepay.com/)_**
+**_The Automated Accountant Export via SFTP is currently in Beta and is available for testing via [MultiSafepay Test Control](https://testmerchant.multisafepay.com/)._**
 
 ## Accountant Export
 An Accountant Export containing all successful incoming and outgoing transactions, as well as corresponding costs (where applicable), can be generated to serve your bookkeeping needs. 
@@ -50,7 +50,7 @@ The following formats are available for automatically generating an export:
 5. XLS
 6. XLSX
 
-For information regarding the different exports, check out our [exports page](/tools/reports/)   
+For information regarding the different exports, check out our [exports page](/tools/reports/).   
 
 ## How to request an Automated Accountant Export
 
@@ -63,11 +63,11 @@ Automated Accountant Export activation checklist:
 * Costs breakdown per transaction OR total costs 
 
 
-Send the requested to our Integration Team via <integration@multisafepay.com> 
+Send the requested to our Integration Team via <integration@multisafepay.com>. 
 
 _Don't forget to add your MultiSafepay Control number_.
 
 ## Whitelisting
 
-If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges/)
+If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges/).
 

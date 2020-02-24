@@ -19,7 +19,7 @@ The responsive design of the V2 payment page is developed to be used across diff
 
 ## Dynamic template
 One of our main V2 futures, is the possibility to implement the dynamic payment template into your API integration. This way you can customize the payment page without any hassle.
- For more information visit the following link: https://docs.multisafepay.com/api/#dynamic-template
+ For more information visit the following link: https://docs.multisafepay.com/api/#dynamic-template.
 
 ## Countries/translations
 The V2 payment page supports 5 more languages which makes the total count 19 languages! Check our language support page to see the full list of available languages

@@ -72,7 +72,7 @@ In theory, for every payment method it's possible to add a manually generated pa
 For example, post-payment methods such as AfterPay, Pay After Delivery and Klarna do not support manually generated payment links, due to the insolvency process requirement that creates a different flow and dynamics around these payment methods.
 
 ## Can a payment link be disabled for a certain payment method? 
-Disabling is only possible in the site profile. In this case, as a merchant you will need a separate Site ID in which only the desired payment methods are available. For more information you can contact the Integration Team at <integration@multisafepay.com>
+Disabling is only possible in the site profile. In this case, as a merchant you will need a separate Site ID in which only the desired payment methods are available. For more information you can contact the Integration Team at <integration@multisafepay.com>.
 
 ## Can a payment link be generated in the backend of a webshop?
 
@@ -80,6 +80,6 @@ The short answer is yes. However, this depends on the webshop you are using.
 
 For example, for Magento 1 or own integration, a payment link can be created in the backend of the webshop using our [API tool](https://docs.multisafepay.com/api/#create-an-order). The parameter _type_ must be filled with 'payment link'. 
 
-For more information on this topic, please contact the Integration Team at <integration@multisafepay.com>
+For more information on this topic, please contact the Integration Team at <integration@multisafepay.com>.
 
 For the full API reference on manually creating a payment link, please refer to our dedicated [page](/api/#generating-a-payment-link).

@@ -25,7 +25,7 @@ For more information, please refer to the dedicated page on [Processing credit c
 
 ## Activating MOTO 
 
-Our Risk Team decides whether the MOTO payments will be activated for you or not. For further information to find out if your are eligible to process MOTO payment, contact your account manager at <sales@multisafepay.com> 
+Our Risk Team decides whether the MOTO payments will be activated for you or not. For further information to find out if your are eligible to process MOTO payment, contact your account manager at <sales@multisafepay.com>. 
 
 
 

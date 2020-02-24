@@ -21,6 +21,6 @@ Please follow the following steps to refund a split payment transaction:
 6. Fill in the amount that you want to refund to the customer
 7. _Confirm the refund._
 
-By default, MultiSafepay does not allow you to refund more than the stated amount of the original transaction. However, refunding more than originally received, for example by refunding the return costs incurred by the customer, is now possible in your MultiSafepay Control. More information available on our dedicated FAQ page about [refunding more than original amount](/faq/finance/refund-more-than-original-amount/)
+By default, MultiSafepay does not allow you to refund more than the stated amount of the original transaction. However, refunding more than originally received, for example by refunding the return costs incurred by the customer, is now possible in your MultiSafepay Control. More information available on our dedicated FAQ page about [refunding more than original amount](/faq/finance/refund-more-than-original-amount/).
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day.

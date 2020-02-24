@@ -18,4 +18,4 @@ In order to create an export, please use the following steps:
 
 In the report, all (processed) incoming and outgoing completed transactions are displayed in the specified period in which you generate the report, providing you insights on an individual level, as well as of all the associated costs.
 
-If you have any questions regarding this process and/or require any assistance, feel free to contact our Support team at <support@multisafepay.com>
+If you have any questions regarding this process and/or require any assistance, feel free to contact our Support team at <support@multisafepay.com>.

@@ -27,7 +27,7 @@ Another reason why a 1000 error may occur, may be because of certain settings th
 **Example:**\
 Enabling recurring payment will allow you to collect the amount of a customers bank account once every 24 hours. If the same recurring_id or customer data is used again within 24 hours, it will result in a 1000 error as response. 
 
-**If any advice or assistance is needed, contact our Integration Team at <integration@multisafepay.com>**
+**If any advice or assistance is needed, contact our Integration Team at <integration@multisafepay.com>.**
 
 
 

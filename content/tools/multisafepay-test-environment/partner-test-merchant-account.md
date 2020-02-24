@@ -20,4 +20,4 @@ After creating a test account, you will be able to test several functionalities 
 
 For testing, you may use the [test credentials](https://docs.multisafepay.com/faq/getting-started/test-payment-details/) on our documentation page.
 
-Do you have any questions about the functionality of the Test Merchant Panel? Feel free to contact our Integration team at <integration@multisafepay.com>
+Do you have any questions about the functionality of the Test Merchant Panel? Feel free to contact our Integration team at <integration@multisafepay.com>.

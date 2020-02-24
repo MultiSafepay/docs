@@ -18,4 +18,4 @@ _Please note that this an example, the link might not work_
 
 Notes:
 _This is not a standard option in our plugins. 
-This will only work on our new payment pages which start with payv2. If you see no option to switch to our [new payment pages](/tools/payment-pages/what-is-payv2/), please contact us at <integration@multisafepay.com>_
+This will only work on our new payment pages which start with payv2. If you see no option to switch to our [new payment pages](/tools/payment-pages/what-is-payv2/), please contact us at <integration@multisafepay.com>_.

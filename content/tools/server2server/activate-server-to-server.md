@@ -24,7 +24,7 @@ In order to process direct credit card transactions, the following is required o
 
 3D Secure is a protocol designed to reduce fraud and chargebacks during ecommerce Internet transactions. Cardholders are redirected during the payment process to their issuing bank in order to identify themselves before the purchase can be completed. This usually means entering a PIN or a password after entering their card details. In the event of a dispute with the transaction at a later date, the card issuer will usually take responsibility of the chargeback instead of the merchant. This only applies for charges with no authorization and/or fraud, not for situations where the product is not delivered or where customer is dissatisfied with the quality of the order.
 
-The liability issues involved with 3D secure transactions are outside of the scope of this document. For a detailed indication of the liabilities involved, contact our Risk Team at <screening@multisafepay.com>
+The liability issues involved with 3D secure transactions are outside of the scope of this document. For a detailed indication of the liabilities involved, contact our Risk Team at <screening@multisafepay.com>.
 
 >_MultiSafepay only supports Mastercard Secure Code, Verified by Visa, American Express Safekey and Bancontact 3D_.
 

@@ -65,6 +65,6 @@ Read more about 3D Secure in our page [What is 3D Secure?](/payment-methods/cred
 
 By default, all card orders are processed with 3D Secure.    
 
-Read more about Dynamic 3D Secure in our FAQ page [Dynamic 3D Secure](/tools/server2server/3d-dynamics/)
+Read more about Dynamic 3D Secure in our FAQ page [Dynamic 3D Secure](/tools/server2server/3d-dynamics/).
 
 

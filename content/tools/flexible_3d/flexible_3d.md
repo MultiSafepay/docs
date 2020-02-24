@@ -23,7 +23,7 @@ Credit card transactions which are processed with the 3D Secure verification, re
 When Flexible 3D is set on _true_, the verification is mandatory to finalize and release a successful payment. Credit card transactions which were originally processed without the 3D Secure protocol are now required to complete the 3D Secure verification too. By enforcing this measure - finalizing the payment only upon completing the 3D Secure verification - all released payments will be enrolled with the 3D authentication. **3D Secure Result: Enrolled Liability**
 
 **Flexible 3D Secure and Dynamic 3D Secure settings**
-Activating Flexible 3D secure will override the rules of the Dynamic 3D settings. For more information about Dynamic 3D Secure, please refer to our dedicated FAQ page, [Dynamic 3D, What it is](/tools/server2server/3d-dynamics/)
+Activating Flexible 3D secure will override the rules of the Dynamic 3D settings. For more information about Dynamic 3D Secure, please refer to our dedicated FAQ page, [Dynamic 3D, What it is](/tools/server2server/3d-dynamics/).
 
 ## Available for?
 

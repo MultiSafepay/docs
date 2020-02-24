@@ -6,4 +6,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 ## Partner reimbursement invoice
 
-MultiSafepay will send you the invoice every month by email. This can also be requested by sending an email to <partner@multisafepay.com>
+MultiSafepay will send you the invoice every month by email. This can also be requested by sending an email to <partner@multisafepay.com>.

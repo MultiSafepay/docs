@@ -60,6 +60,6 @@ When the seconds_active is set within 84600 seconds (equivalent of 24 hours), th
 
 **When a payment link is set to expire within 24 hours and the Second Chance is enabled, the customer will receive an expired payment link in the Second Chance email.** 
 
-More information on _days_\__active_ and _second_\__active_ is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+More information on _days_\__active_ and _second_\__active_ is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/).
 
 
