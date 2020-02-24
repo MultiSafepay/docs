@@ -58,13 +58,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
 | payment_options                | object    |                             |
-| notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/).                                |
 | redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  |
 | customer                    | object    |                                 |
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 | ip_address                  | string    | The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/) | 
-| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |
+| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html). |
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   |
 
 
@@ -95,5 +95,5 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Wijncadeau                     | WIJNCADEAU                  |   | 
 | Yourgift                       | YOURGIFT                    |   |           
 
-Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/)
+Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/).
 {{< /description >}}

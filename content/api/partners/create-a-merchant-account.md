@@ -67,7 +67,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | zip_code                    | string    | Customer’s provided zip / postal code.                                                      | 
 | city                        | string    | Customer’s provided city.                                                                   |
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   | 
-| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |     
+| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html). |     
 | phone                       | string    | Customer’s provided phone number.                                                           |
 | password                    | string    | Supply a password for creating credentials for partner account.                             | 
 | address_apartment           | string    |                                                                                             | 
@@ -81,6 +81,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | bank_details                | object    |                                                                                             | 
 | account_number              | string    | Account number of bank.                                                                     | 
 | bank_name                   | string    | Name of bank.                                                                               | 
-| country                     | string    | Country of bank [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)               |
+| country                     | string    | Country of bank [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).               |
 
 {{% /description %}}

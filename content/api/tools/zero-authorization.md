@@ -74,5 +74,5 @@ The _amount_ parameter should be set to 0.
 
 
 
-Please make sure you check out our dedicated documentation for [Zero Authorization](/tools/zero-authorization/)
+Please make sure you check out our dedicated documentation for [Zero Authorization](/tools/zero-authorization/).
 {{% /description %}}

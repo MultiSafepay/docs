@@ -58,7 +58,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | currency                       | string  | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
-| payment_options                | object  | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
+| payment_options                | object  | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/).                             |
 | customer                       | object  | Contains personal information about the customer.                                       |
 | gateway_info                   | object  |
 | qr_size:                       | integer | QR image size in pixels, default: 250 - Sizes are between 100 and 2000, if the value does not meet this rule, default is applied. |
@@ -67,6 +67,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | max_amount                     | string  | With the max_amount you can specify what the maximum amount can be in case the allow_change_amount option is activated. This parameter is required when allow_change_amount is set. |
 
 
-Please make sure you check out our dedicated documentation for [iDEAL QR](/payment-methods/idealqr/)
+Please make sure you check out our dedicated documentation for [iDEAL QR](/payment-methods/idealqr/).
 
 {{< /description >}}

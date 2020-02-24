@@ -13,5 +13,5 @@ All requests to the MultiSafepay [API](/faq/getting-started/glossary/#api) endpo
 
 The HTTP header name for the API Key is: **api_key**
 
-[Open a TEST Account](https://testmerchant.multisafepay.com/signup)
+[Open a TEST Account](https://testmerchant.multisafepay.com/signup).
 {{% /description %}}

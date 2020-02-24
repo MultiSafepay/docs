@@ -63,5 +63,5 @@ The feature can only be used with specific credit card payment methods including
 | locale	|  string | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. | 
 | ip_address	|   string	|    The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/) | 
 
-Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/)
+Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/).
 {{% /description %}}

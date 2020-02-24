@@ -29,5 +29,5 @@ It is possible to enable/disable the second chance message per transaction. The 
 | send_email                        | string   |When this parameter is set to __false__, second chance reminders will not be sent.                 |
 | send_email                        | string   |When this parameter is set to __true__, second chance reminders will be sent.            |
 
-The full documentation can be found in the documentation [Second Chance](/tools/second-chance/how-does-it-work/)
+The full documentation can be found in the documentation [Second Chance](/tools/second-chance/how-does-it-work/).
 {{% /description %}}

@@ -31,5 +31,5 @@ weight: 1355
 | reason                           | string    | Add a short text memo based on the capture reason of the order.       |
 | status                           | string    | The order status of the manual capture request.     |
 
-Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/)
+Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/).
 {{% /description %}}

@@ -156,7 +156,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
 | payment_options             | object    |                             |
-| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/).                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                    | object    |                                 |
@@ -174,10 +174,10 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                           | string    | Direct.                                                                                  | 
 | gateway_info                   | object    |                                                                                         |
-| issuer_id                      | integer   | The unique identifier of the [issuer](#gateway-issuers)                                   |
+| issuer_id                      | integer   | The unique identifier of the [issuer](#gateway-issuers).                                   |
 
 
-Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/)
+Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/).
 
 {{< /description >}}
 

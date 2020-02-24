@@ -139,6 +139,6 @@ This API call allows you to generate a token transaction by using the recurring 
 | reason		| string	 | Add a short text memo based on the capture reason of the order. |
 
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/).
 
 {{< /description >}}

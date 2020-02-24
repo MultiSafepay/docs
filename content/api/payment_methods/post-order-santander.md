@@ -117,12 +117,12 @@ order_id                        | integer / string | The unique identifier from 
 currency                        | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 amount                          | integer | The amount (in cents) that the customer needs to pay. In this case minimum 30000.         
 description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping cart' objects for this. |
-payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                               |
+payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/).                               |
 customer                        | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i>    |
 gateway_info                    | object | Contains the information of the customer needed for the credit check.                     |
-ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
-forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
+ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/).                                                                            |
+forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/).                                                                                                                           |    
 Please note that <i>first_name</i> and <i>last_name</i> in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Betaalplan](/payment-methods/betaalplan/)
+Make sure you check out our dedicated documentation for [Betaalplan](/payment-methods/betaalplan/).
 {{< /description >}}

@@ -31,7 +31,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## payment_option, object 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| notification_url                   | string   |  Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                                                                                    |
+| notification_url                   | string   |  Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/).                                                                                                    |
 |
 
 | Parameter                          | Type     | Description                                                                          |

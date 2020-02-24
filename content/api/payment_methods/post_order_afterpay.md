@@ -561,7 +561,7 @@ Creates an AfterPay order to be paid after delivery.
 | currency                           | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                             | integer | The amount (in cents) that the customer needs to pay. |
 | description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
-| payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |                                                                                     
+| payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/). |                                                                                     
 | customer                           | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |                                                                                   
 | delivery                           | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> | |                                                                                    
 | shopping_cart                      | object | Contains all purchased items including tax class.                                   |
@@ -571,11 +571,11 @@ Creates an AfterPay order to be paid after delivery.
 | phone                              | string | The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. |
 | email                              | string | The email address where the system can send payment instructions to the customer. |
 | gender                             | string | The gender salutation of the customer. Options: mr, mrs, miss. |
-| ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
-| forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
+| ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/).                                                                            |
+| forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/).                                                                          |
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/)
+Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/).
 
 ### Redirect - AfterPay
 
@@ -593,15 +593,15 @@ Creates an AfterPay order to be paid after delivery.
 | currency                           | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                             | integer | The amount (in cents) that the customer needs to pay. |
 | description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
-| payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |                                                                                     
+| payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/). |                                                                                     
 | customer                           | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |                                                                                   
 | delivery                           | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> | |                                                                                    
 | shopping_cart                      | object | Contains all purchased items including tax class.                                   |
 | checkout_options                   | object | Contains the definitions for the VAT class. |                                                    
-| ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
-| forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
+| ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/).                                                                            |
+| forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/).                                                                          |
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/)
+Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/).
 {{< /description >}}
 

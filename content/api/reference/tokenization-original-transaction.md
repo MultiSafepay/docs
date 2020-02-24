@@ -85,6 +85,6 @@ MultiSafepay offers the following recurring models: __Card on file (COF), Subscr
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  |
 | customer	| object	 | 
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/).
 
 {{< /description >}}

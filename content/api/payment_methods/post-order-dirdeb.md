@@ -146,7 +146,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
 | payment_options             | object    |                             |
-| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/).                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                    | object    |                                 |
@@ -165,7 +165,7 @@ order_id                          | integer / string | The unique identifier fro
 currency                          | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 amount                            | integer | The amount (in cents) that the customer needs to pay.                                   |
 description                       | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
-payment_options                   | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
+payment_options                   | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/).                             |
 customer                          | object | Contains the personal information of the customer.                                      |
 gateway_info                      | object |
 account_id                        | string | IBAN to be charged for the transaction.                                                 |
@@ -173,9 +173,9 @@ account_holder_name               | string | Name of the owner of the bank accou
 account_holder_iban               | string | IBAN to be charged for the transaction.                                                 |
 emandate                          | string | For your own adminstration, put the e-mandate here.                                     |
 ip_address                        | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
-forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
+forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/).                                                                                                                           |
 
 
-Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/)
+Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/).
 
 {{< /description >}}

@@ -85,5 +85,5 @@ weight: 1353
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 |  order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string (max. 50 chars) |
 
-Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/)
+Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/).
 {{% /description %}}

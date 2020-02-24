@@ -411,7 +411,7 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
 | description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
-| payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
+| payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/). |
 | customer                        | object | Contains personal information about the customer. <i>Values for first_name and last_name require minimum two characters.</i> |
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |
 | shopping_cart                   | object | Contains all purchased items including tax class.                                       |
@@ -421,11 +421,11 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 | email                           | string | The email address where the system can send payment instructions to the customer.       |
 | gender                          | string | The gender of the customer. (Required for Klarna, optional for Pay After Delivery and E-Invoicing) Options: male, female.                                                                                                    |
 | ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                              |
-| forwarded_ip                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
+| forwarded_ip                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/).                                                                                                                           |    
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/)
+Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/).
 
 ### Redirect - Klarna (Klarna Payments)
 Creates a Klarna Payments Redirect order to be paid after delivery
@@ -442,7 +442,7 @@ Please note this request is for Klarna Payments. This request can only be proces
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
 | description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
-| payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
+| payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/). |
 | customer                        | object | Contains personal information about the customer. <i>Values for first_name and last_name require minimum two characters.</i> |
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |
 | shopping_cart                   | object | Contains all purchased items including tax class.                                       |
@@ -450,10 +450,10 @@ Please note this request is for Klarna Payments. This request can only be proces
 | gateway_info                    | object | |
 | phone                           | string | The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. |
 | email                           | string | The email address where the system can send payment instructions to the customer.       |
-| ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                              |
-| forwarded_ip                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
+| ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/).                                                                                              |
+| forwarded_ip                   | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/).                                                                                                                           |    
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/)
+Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/).
 {{< /description >}}

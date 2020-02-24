@@ -74,21 +74,21 @@ Creates redirect order. Default type is "redirect".
 | amount                      | integer   | The amount (in cents) that the customer needs to pay.                                      |
 | description                 | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
 | payment_options             | object    |                             |
-| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)|
-| google_analytics            | object    | Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Please check the dedicated Google Analytics [FAQ page](/faq/api/google-analytics-tracking/)|
+| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/).|
+| google_analytics            | object    | Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Please check the dedicated Google Analytics [FAQ page](/faq/api/google-analytics-tracking/).|
 | account                     | string    | Google Analytics Tracking-ID. You can find this in your Google Analytics Dashboard. 
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                    | object    |                                 |
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
-| ip_address                  | string    | The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/) | 
+| ip_address                  | string    | The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/). | 
 | first_name                  | string    | The customer’s first name.                   |
 | last_name                   | string    | The customer’s last name.                    |
 | address1                    | string    | First line of customer’s provided address.   |
 | house_number                | string    | Customer’s provided house number.            |
 | zip_code                    | string    | Customer’s provided zip / postal code.       |
 | city                        | string    | Customer’s provided city.                    |
-| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |
+| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html). |
 | phone                       | string    | Customer’s provided phone number.            |
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   |
 {{% /description %}}

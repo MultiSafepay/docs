@@ -41,6 +41,6 @@ This API call allows you to retreive the information related to a single token.
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 |token                            | string   | The unique token linked to the customer reference. |
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/).
 
 {{< /description >}}

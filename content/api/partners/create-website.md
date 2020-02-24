@@ -40,7 +40,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | Parameter                   | Type      | Description                                                                                |
 |-----------------------------|-----------|--------------------------------------------------------------------------------------------|
 | url                         | string    | Webshop URL. 
-| return_url                  | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                                                                                    |
+| return_url                  | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/).                                                                                                    |
 | description                 | string    | The description will be shown on the payment pages and depending on the payment method also shown on the bank or credit statement of your customer.                                                                                              | 
 | category                    | string    | Select a category related to the webshop. See list below.                                  | 
 | partner                     | object    | 

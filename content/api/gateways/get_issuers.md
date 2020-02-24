@@ -75,7 +75,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 | Parameter         | Type   | Description                                                                                           |
 |-------------------|--------|---------------------------------------------------------------------------------------------------------|
-| id                | string | The unique identifier of the payment gateway to retrieve an issuer list for. Currently supported identifiers are: [iDEAL](#ideal-issuers) |
+| id                | string | The unique identifier of the payment gateway to retrieve an issuer list for. Currently supported identifiers are: [iDEAL](#ideal-issuers). |
 
 Direct iDEAL transactions can have the following Issuers:
 
