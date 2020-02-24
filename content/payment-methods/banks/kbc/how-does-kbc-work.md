@@ -8,7 +8,7 @@ read_more: '.'
 ## How it works
 KBC is a banking payment method that allows KBC customers to pay directly using their KBC bank account. KBC is similar to any bank payment. A customer chooses to pay with KBC, authenticates their account, and confirms to pay.
 
-> KBC payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)
+> KBC payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/).
 
 In the event which a customer makes a successful payment, but does not finalize the process by pressing the "return to website" button, no status update will be received on our end. The transaction status will therefore remain _initialized_. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed.
 
@@ -48,4 +48,4 @@ Some rules may apply to certain payment methods. For KBC, the following rules ap
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
 
-* Payments done through KBC are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through KBC are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).

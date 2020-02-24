@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## How it works
->_Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>_
+>_Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>_.
 
 A Maestro payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by Maestro.
 
@@ -48,9 +48,9 @@ Some rules may apply to certain payment methods. For Maestro, the following rule
 
 * Refunding more than the stated amount of the original transaction is NOT possible for Maestro. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Maestro transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
+* Maestro transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer.
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
 
-* Payments done through Maestro are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Maestro are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).

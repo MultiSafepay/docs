@@ -17,4 +17,4 @@ To activate Visa and Mastercard as payment methods for your webshop, we would li
 
 When approved by our Risk Team, Visa and Mastercard will be enabled in your MultiSafepay Control as payment methods.
 
-> By default, American Express is not activated when enabling Visa and Mastercard. Would you also like to be able to process American Express transactions? Please let us know by submitting your request at <sales@multisafepay.com>
+> By default, American Express is not activated when enabling Visa and Mastercard. Would you also like to be able to process American Express transactions? Please let us know by submitting your request at <sales@multisafepay.com>.

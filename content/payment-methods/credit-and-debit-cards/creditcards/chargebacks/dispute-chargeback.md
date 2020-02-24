@@ -5,7 +5,7 @@ meta_title: "Credit cards, Dispute Chargeback - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-For questions or providing documentation you can submit your email to <retrieval@multisafepay.com>
+For questions or providing documentation you can submit your email to <retrieval@multisafepay.com>.
 
 Customers who disagree with or do not recognize a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 
@@ -202,7 +202,7 @@ In order for this chargeback to be disputed we need the following documentation 
 
 1. Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D secure. 3D Secure is a security protocol to prevent fraud.
 
-More information about 3D secure is available in [What is 3D secure](/payment-methods/creditcards/#what-is-3d-secure/)
+More information about 3D secure is available in [What is 3D secure](/payment-methods/creditcards/#what-is-3d-secure/).
 
 **Reason Code: 4526 - Missing Signature**\
 Cardholder claims that the transaction is fraud. The documents provided do not show their signature.

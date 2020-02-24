@@ -134,7 +134,7 @@ Some rules may apply to certain payment methods. For E-Invoicing, the following 
 
 * Successful E-Invoicing transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through E-Invoicing are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through E-Invoicing are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 
 * As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page

@@ -14,7 +14,7 @@ MultiSafepay offers several packages for Merchants, including a free of charge F
 
 Fastcheckout is included in one of our Connect packages, where all MultiSafepay available payment methods can be enabled. 
 
-The available payment methods can be (individually) selected by the merchants in [MultiSafepay Control](https://merchant.multisafepay.com/)
+The available payment methods can be (individually) selected by the merchants in [MultiSafepay Control](https://merchant.multisafepay.com/).
 
 Fastcheckout has its own checkout process. The customer will leave the webshop's domain from the shopping cart, and will return once the payment is finalized.
 

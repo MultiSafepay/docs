@@ -8,10 +8,10 @@ read_more: '.'
 # Activate
 _Note: Before applying for Klarna, please check your eligibility with your MultiSafepay account manager_.
 
-To apply for Klarna, go to [Klarna.com](https://www.klarna.com/nl/zakelijk/)
+To apply for Klarna, go to [Klarna.com](https://www.klarna.com/nl/zakelijk/).
 
 > _Make sure you inform Klarna you use MultiSafepay as a payment provider_.
 
 For existing Klarna clients, contact <webwinkel@klarna.nl> to connect your Klarna account with your MultiSafepay Control.
 
-If you have any questions, please contact one of our account managers at <sales@multisafepay.com>
+If you have any questions, please contact one of our account managers at <sales@multisafepay.com>.

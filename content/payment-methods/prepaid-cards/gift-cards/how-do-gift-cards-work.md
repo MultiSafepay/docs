@@ -40,8 +40,8 @@ Transactions that are paid in full by means of gift card cannot be refunded via 
 ### Product rules
 Some rules may apply to certain payment methods. For gift cards, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page.
 
-* Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 * As a rule of thumb, giftcards cannot be used for (partly) paying for an order placed via a post-payment method. Post-payment methods do not allow the use of a giftcard by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (e.g. Klarna, Afterpay, etc). Our platform would otherwise interpret the giftcard as a discount (which is not present in the shopping cart specification of post-payment methods) and would not reflect the right order information needed, for example, for taxation purposes. However, using giftcards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.

@@ -10,7 +10,7 @@ Belfius is similar to other online banking payment methods.<br>
 
 A customer chooses to pay with Belfius, authenticates their account, and confirms the payment.
 
->_Belfius payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)_
+>_Belfius payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)_.
 
 
 ### Transaction flow
@@ -48,10 +48,10 @@ Some rules may apply to certain payment methods. For Belfius, the following rule
 
 * Successful Belfius transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through Belfius are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Belfius are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active.   
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
 
 

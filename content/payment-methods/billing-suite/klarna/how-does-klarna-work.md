@@ -9,7 +9,7 @@ read_more: '.'
 ## Integration
 Before integration can start, every merchant needs to sign an additional independent agreement with Klarna, where pricing is agreed upon and where the merchant is given a Klarna Merchant Number (EID) and a Shared Secret (Password). These credentials should be sent to MultiSafepay in order for us to be able to configure the Klarna Gateway within your MultiSafepay Control account. MultiSafepay will give all the necessary support during this process and when it is possible, facilitates the contract.
 
-Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api/)
+Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api/).
 
 ## Activate an order
 When a customer chooses to pay with Klarna, MultiSafepay will create a Klarna transaction marked "Not Shipped". After the order is shipped by the merchant to the customer, the order needs to be activated to start the communication process to the customer. After 14 business days, MultiSafepay will receive the funds from Klarna and will add the amount to your MultiSafepay Control balance.
@@ -23,7 +23,7 @@ For every transaction, a reservation number and an invoice number will be genera
 
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
-All questions related to Klarna orders and transactions should be communicated directly to Klarna via <merchant@klarna.com>
+All questions related to Klarna orders and transactions should be communicated directly to Klarna via <merchant@klarna.com>.
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -71,9 +71,9 @@ Some rules may apply to certain payment methods. For Klarna, the following rules
 
 * Successful Klarna transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund.
 
-* As a post-payment method, Klarna has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* As a post-payment method, Klarna has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
-* Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 *  Klarna is currently offered in offered in Austria, Germany and the Netherlands
 

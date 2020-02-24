@@ -8,7 +8,7 @@ read_more: '.'
 ## Declined
 If a credit card payment of a customer receives the status _declined_, it may be for several reasons. Only the customer can contact their credit card issuer to inquire as to why the credit card payment has been _declined_.
 
-For questions about credit card payments and/or a payment status (of a credit card transaction), please contact us at <support@multisafepay.com>
+For questions about credit card payments and/or a payment status (of a credit card transaction), please contact us at <support@multisafepay.com>.
 
 In most cases the declined reason is shown behind the declined status within the transaction in your MultiSafepay Control. 
 

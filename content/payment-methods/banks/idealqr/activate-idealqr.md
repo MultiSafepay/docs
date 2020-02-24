@@ -8,6 +8,6 @@ read_more: '.'
 ## Activate
 >_Important: iDEAL QR must be requested manually in order to enable it in your [MultiSafepay Control](https://merchant.multisafepay.com)_
 
-Submit your request to activate iDEAL QR through one of our account managers at <sales@multisafepay.com> 
+Submit your request to activate iDEAL QR through one of our account managers at <sales@multisafepay.com>. 
 
 Please do not forget to include your Account ID along with your request.

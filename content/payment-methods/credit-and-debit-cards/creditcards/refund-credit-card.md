@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Request refund 
-The refund of a Visa, Mastercard or American Express transaction can be processed from your [MultiSafepay Control](https://merchant.multisafepay.com) 
+The refund of a Visa, Mastercard or American Express transaction can be processed from your [MultiSafepay Control](https://merchant.multisafepay.com). 
 
 * A credit card payment can be refunded within 180 days. After this period, it is advised to process the requested refund through a bank transfer.
 

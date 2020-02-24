@@ -93,9 +93,9 @@ Some rules may apply to certain payment methods. For Pay After Delivery, the fol
 
 * When no action is being taken within 90 days of receiving a Pay After Delivery order, the transaction will expire
 
-* When a Pay After Delivery transaction has the order status _shipped_, there will be no time limit on refunding the transaction
+* When a Pay After Delivery transaction has the order status _shipped_, there will be no time limit on refunding the transaction.
 
-* Pay After Delivery transactions are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Pay After Delivery transactions are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 * Currently, Pay After Delivery is only offered in the Netherlands
 

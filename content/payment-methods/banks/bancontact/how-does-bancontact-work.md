@@ -48,4 +48,4 @@ Some rules may apply to certain payment methods. For Bancontact, the following r
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
 
-* Payments done through Bancontact are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Bancontact are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).

@@ -12,4 +12,4 @@ Giropay can be activated in your [MultiSafepay Control](https://merchant.multisa
 
 Enable Giropay as a payment method in your ecommerce platform to finalize the activation.
 
-If you have any questions, feel free to contact our Integrations team at <integration@multisafepay.com>
+If you have any questions, feel free to contact our Integrations team at <integration@multisafepay.com>.

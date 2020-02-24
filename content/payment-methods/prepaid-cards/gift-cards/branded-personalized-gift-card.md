@@ -5,7 +5,7 @@ meta_title: "Branded / Personalized gift cards - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
-Examples of personalized gift card providers are [Givacard](https://www.givacard.nl), [Intersolve](https://intersolve.nl/) and [123TCS](https://www.123tcs.com)
+Examples of personalized gift card providers are [Givacard](https://www.givacard.nl), [Intersolve](https://intersolve.nl/) and [123TCS](https://www.123tcs.com).
 
 Before applying for a personalized gift card, check with your account manager at MultiSafepay for the product rules.  
 The start-up costs of a branded gift card are  &euro; 200.
@@ -24,9 +24,9 @@ Before we will proceed with the implementation of the personalized gift card, we
 * When using one of the [plugins](/integrations/) supported by MultiSafepay, it is recommended to also implement the personalized gift card in the backend of the webshop.
 As soon as MultiSafepay releases the gift card, you can immediately process payments with this payment method
 
-* When using your own integration, the correct gateway code will be provided by MultiSafepay as soon as we have receive it. For additional information on how to process a gift card transaction, see our [API documentation page](/api/#gift-card)
+* When using your own integration, the correct gateway code will be provided by MultiSafepay as soon as we have receive it. For additional information on how to process a gift card transaction, see our [API documentation page](/api/#gift-card).
 
-* The implementation of the personalized gift card within own integration is the responsibility of the merchant. However, if any assistance is needed, please contact our Integration Team at <integration@multisafepay.com>
+* The implementation of the personalized gift card within own integration is the responsibility of the merchant. However, if any assistance is needed, please contact our Integration Team at <integration@multisafepay.com>.
 
 > _Due to the distinctiveness of the personalized gift card, it is not possible to add this payment method as a standard method in the plugins.
 Therefore, the implementation of the personalized gift card within the backend of the webshop is the merchant's own responsibility.

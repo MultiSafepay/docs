@@ -57,9 +57,9 @@ Some rules may apply to certain payment methods. For Alipay, the following rules
 * Successful Alipay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active.   
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
-<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
-* Payments done through Alipay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+
+* Payments done through Alipay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 * Alipay is a Chinese payment method. The currency conversion is processed in Euros (EUR) only.

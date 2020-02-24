@@ -71,8 +71,9 @@ Some rules may apply to certain payment methods. For Direct Debit, the following
 * As a collection payment method, Direct Debit has a different payment flow and the setting of days or seconds active will have no influence. 
 
        
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
-* Payments done through Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+
+* Payments done through Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
 
 

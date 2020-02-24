@@ -52,4 +52,4 @@ Some rules may apply to certain payment methods. For iDEAL QR, the following rul
 
 * Successful iDEAL transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).

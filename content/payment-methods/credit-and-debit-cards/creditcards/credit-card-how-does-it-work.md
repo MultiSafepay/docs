@@ -64,4 +64,4 @@ Some rules may apply to certain payment methods. For credit cards, the following
 * Mastercard, Visa and American Express can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency 
 
 
-    If a different currency is desired, contact our support department for the possibilities. Submit your request at <support@multisafepay.com>
+    If a different currency is desired, contact our support department for the possibilities. Submit your request at <support@multisafepay.com>.
