@@ -146,7 +146,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
 | payment_options             | object    |                             |
-| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                    | object    |                                 |

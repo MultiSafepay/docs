@@ -74,7 +74,7 @@ Creates redirect order. Default type is "redirect".
 | amount                      | integer   | The amount (in cents) that the customer needs to pay.                                      |
 | description                 | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
 | payment_options             | object    |                             |
-| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)|
+| notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)|
 | google_analytics            | object    | Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Please check the dedicated Google Analytics [FAQ page](/faq/api/google-analytics-tracking/)|
 | account                     | string    | Google Analytics Tracking-ID. You can find this in your Google Analytics Dashboard. 
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|

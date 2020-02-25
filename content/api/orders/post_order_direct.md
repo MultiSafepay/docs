@@ -111,7 +111,7 @@ IDEAL, CREDITCARDS, PAYAFTER, EINVOICE, KLARNA, KLARNA_ACC, DIRDEB, DIRECTBANK, 
 | gateway_info                   | object    |                                                             |
 | issuer_id                      | string    | Contains the [issuer_id](/api/#gateway-issuers)    |
 | payment_options                | object    |                             |
-| notification_url               | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url               | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | notification_method            | string    | Sends push notification (POST,GET) default: GET. | 
 | redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  |                                                  

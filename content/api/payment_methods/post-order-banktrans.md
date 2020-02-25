@@ -166,7 +166,7 @@ The bank transfer payment method can either be a direct or redirect order. In th
 | gateway                        | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BANKTRANS. |
 | description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object |                       |
-| notification_url                | string   | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url                | string   | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url | string	| Customer will be redirected to this page after a successful payment. |
 | cancel_url |	string |	Customer will be redirected to this page after a failed payment. |
 | customer                       | object |                          |
@@ -190,7 +190,7 @@ Please make sure you check out our dedicated documentation for [bank transfers](
 | amount                         | integer | The amount (in cents) that the customer needs to pay.                                    |
 | description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object |                       |
-| notification_url                | string   | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url                | string   | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url | string	| Customer will be redirected to this page after a successful payment. |
 | cancel_url |	string |	Customer will be redirected to this page after a failed payment. |
 | customer                       | object |                          |
