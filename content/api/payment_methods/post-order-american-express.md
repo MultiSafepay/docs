@@ -59,5 +59,5 @@ All parameters shown are required.
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Please make sure you check out our dedicated documentation for [American Express](/payment-methods/creditcards/)
+Read more about [American Express](/payment-methods/creditcards/) on our documentation page.
 {{< /description >}}

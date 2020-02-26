@@ -575,7 +575,7 @@ Creates an AfterPay order to be paid after delivery.
 | forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/)
+Read more about [AfterPay](/payment-methods/afterpay/) on our documentation page.
 
 ### Redirect - AfterPay
 
@@ -602,6 +602,6 @@ Creates an AfterPay order to be paid after delivery.
 | forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/)
+Read more about [AfterPay](/payment-methods/afterpay/) on our documentation page.
 {{< /description >}}
 

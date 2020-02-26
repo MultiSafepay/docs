@@ -59,4 +59,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment. | 
 
 
-Please make sure you check out our dedicated documentation for [Maestro](https://docs.multisafepay.com/payment-methods/banks/maestro/)
+Read more about [Maestro](/payment-methods/credit-and-debit-cards/maestro/) on our documentation page.

@@ -134,7 +134,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 This is a standard credit card API [direct order request](https://docs.multisafepay.com/api/#creates-a-direct-order) The gateway has been set to __CREDITCARD__. In this case, the type of credit card will be detected based on the first four digits.
 
-__Please note: Server to Server must first be enabled by our Risk department. Read our [dedicated documentation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server/) for activation.__ 
+__Please note: Server to Server must first be enabled by our Risk department. Read more about [activation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server/) on our documentation page.__ 
 
 
 | Parameter                      | Type      | Description |

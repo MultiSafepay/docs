@@ -157,7 +157,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | payment_options                | object |                           |
 | customer                       | object |                                       |
 
-Please make sure you check out our dedicated documentation for [Alipay](/payment-methods/alipay/)
+Read more about [Alipay](/payment-methods/alipay/) on our documentation page.
 
 ### Direct
 
@@ -174,7 +174,7 @@ Please make sure you check out our dedicated documentation for [Alipay](/payment
 | payment_options                | object |                           |
 | customer                       | object |                                       |
 
-Please make sure you check out our dedicated documentation for [Alipay](/payment-methods/alipay/)
+Read more about [Alipay](/payment-methods/alipay/) on our documentation page.
 
 
 {{< /description >}}

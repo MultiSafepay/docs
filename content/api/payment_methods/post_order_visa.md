@@ -63,4 +63,4 @@ All parameters shown are required field(s) for a Visa _Redirect_ transaction.
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Please make sure you check out our dedicated documentation for [Visa](https://docs.multisafepay.com/credit-and-debit-cards/creditcards/)
+Read more about [Visa](/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.

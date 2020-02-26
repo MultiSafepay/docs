@@ -95,5 +95,5 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Wijncadeau                     | WIJNCADEAU                  |   | 
 | Yourgift                       | YOURGIFT                    |   |           
 
-Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/)
+Read more about the [gift cards](/payment-methods/prepaid-cards/gift-cards/) we offer on our documentation page.
 {{< /description >}}

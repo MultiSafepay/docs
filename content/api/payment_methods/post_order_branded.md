@@ -65,5 +65,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
-Please make sure to check out our dedicated documentation on [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/)  
+Please make sure to read more about [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/) on our documentation page.
 {{< /description >}}

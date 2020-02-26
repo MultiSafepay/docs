@@ -89,7 +89,7 @@ Recurring Payments can be done using Credit Cards (VISA, Mastercard) and SEPA Di
 
 iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A merchant account with recurring payment enabled will receive a recurring ID in the transaction response. The recurring ID can be used for future transactions.
 
-For more information about recurring payments, please refer to our [dedicated page](/tools/recurring-payments/)
+For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments/)
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|

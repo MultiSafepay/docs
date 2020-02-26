@@ -34,8 +34,7 @@ Upload files / documents via an API request.
 
 _We will be changing the process for handling chargebacks through the API in Q3 2019. Please contact your account manager or contact us at <integration@multisafepay.com> for more information_.
 
-For more information about chargebacks, please refer to our [dedicated page](/payment-methods/creditcards/what-is-a-chargeback/)
-
+Read more about [chargebacks]((/payment-methods/creditcards/what-is-a-chargeback/)) on our documentation page.
 | Parameter                   | Type      | Description                                                                                |
 |-----------------------------|-----------|--------------------------------------------------------------------------------------------|
 | type                        | string  | Specifies the payment flow for the checkout process. Options: chargeback. |

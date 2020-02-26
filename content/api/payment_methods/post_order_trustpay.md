@@ -66,5 +66,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | last_name                      | string   | The customer’s last name.                                                              | 
 | country                        | string   | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)                                                                                                         | 
 | email                          | string   | Customer’s provided email address. Used to send Second Chance emails, in fraud checks and the sending bank transfer email.                                                                                                      |
-Please make sure you check out our dedicated documentation for [TrustPay](/payment-methods/trustpay/)
+Read more about [TrustPay](/payment-methods/banks/trustly/) on our documentation page.
 {{< /description >}}

@@ -64,6 +64,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                       | object   | Contains the personal information of the customer.                                      |
 
 
-Please make sure you check out our dedicated documentation for [Trustly](/payment-methods/trustly/)
+Read more about [Trustly](/payment-methods/trustly/) on our documentation page.
 
 {{< /description >}}

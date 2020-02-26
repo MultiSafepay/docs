@@ -63,4 +63,4 @@ All parameters shown are required field(s) for A Mastercard _redirect_ transacti
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Please make sure you check out our dedicated documentation for [Mastercard](https://docs.multisafepay.com/credit-and-debit-cards/creditcards/)
+Read more about [Mastercard](/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
