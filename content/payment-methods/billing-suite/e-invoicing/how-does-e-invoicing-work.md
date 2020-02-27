@@ -10,7 +10,7 @@ Once E-Invoicing is activated in your MultiSafepay Control, you will need to set
 
 A collection flow needs to be linked to a website to be activated. When the collection flow is activated, E-Invoicing will be ready for use as payment method. 
 
-The layout and creation of the email template is entirely your responsibility. You can design the collection flow based on your preferences and personalization requirements. In our email templates, you can use the tokens between @@. Further information available on our [email template token](/tools/multisafepay-control/email-template-token/) dedicated page.
+The layout and creation of the email template is entirely your responsibility. You can design the collection flow based on your preferences and personalization requirements. In our email templates, you can use the tokens between @@. Further information is available on our [email template token](/tools/multisafepay-control/email-template-token/) page.
 
 ## Create action
 Each action needs to created following these steps: 

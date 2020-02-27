@@ -27,7 +27,7 @@ Payment service providers and businesses handling credit card data must abide by
 ## Chargebacks
 Customers using credit card as payment method have the right to initiate a chargeback. A chargeback is a forcibly initiated reversal of funds.
 
-Additional information available in our dedicated FAQ page, [What is a chargeback?](/payment-methods/creditcards/chargebacks/what-is-a-chargeback/)
+Additional information is available on our FAQ page, [What is a chargeback?](/payment-methods/creditcards/chargebacks/what-is-a-chargeback/)
 
 ## 3D Secure
 For detailed information about [3D Secure](/payment-methods/creditcards/what-is-3d-secure/) please read the corresponding support page.

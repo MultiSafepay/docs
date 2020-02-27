@@ -70,5 +70,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | card_expiry_date               | string    | Card expire date. |
 | card_cvc                       | string    | Card CVC number. This might vary depending of the card type. Some cards like MAESTRO may not be required. |
 
-Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/)
+Read more about [Server to Server](/tools/server2server/) on our documentation page.
 {{% /description %}}

@@ -44,5 +44,5 @@ weight: 1352
 | checkout_data	 |   object	 |   Contains the original shopping cart + copied items to be refunded. |
 | order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string (max. 50 chars).
 
-Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/)
+Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.
 {{% /description %}}

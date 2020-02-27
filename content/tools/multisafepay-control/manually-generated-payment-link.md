@@ -82,4 +82,4 @@ For example, for Magento 1 or own integration, a payment link can be created in 
 
 For more information on this topic, please contact the Integration Team at <integration@multisafepay.com>
 
-For the full API reference on manually creating a payment link, please refer to our dedicated [page](/api/#generating-a-payment-link).
+For the full API reference on manually creating a payment link, please refer to the [generating a payment link page](/api/#generating-a-payment-link).

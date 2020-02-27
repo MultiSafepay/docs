@@ -89,6 +89,6 @@ weight: 1371
 
 
 
-Please make sure you check out our dedicated documentation for [Zero Authorization](/tools/zero-authorization/)
+Read more about [Zero Authorization](/tools/zero-authorization/) on our documentation page.
 
 {{% /description %}}

@@ -24,4 +24,4 @@ The Affiliate dashboard presents and overview of affiliates that are signed up t
 * Actions
 * Screening status
 
-Before a affiliate becomes approved, they will have to undergo a screening from MultiSafepay. More information about this can be read on our dedicated [documentation]( https://docs.multisafepay.com/faq/getting-started/account-approval/) page.
+Before a affiliate becomes approved, they will have to undergo a screening from MultiSafepay. More information about this can be read on our [documentation]( https://docs.multisafepay.com/faq/getting-started/account-approval/) page.

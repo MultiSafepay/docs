@@ -159,5 +159,5 @@ __Please note: Server to Server must first be enabled by our Risk department. Re
 | card_cvc                       | string    | Card CVC number. This might vary depending of the card type. Some cards like MAESTRO may not be required. |
 
 
-Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/)
+Read more about [Server to Server](/tools/server2server/) on our documentation page.
 {{% /description %}}
