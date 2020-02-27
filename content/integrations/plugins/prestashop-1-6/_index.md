@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay plugin for PrestaShop 1.6"
-download_url : "/integrations/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.2.0.zip"
+download_url : "/integrations/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.3.0.zip"
 changelog_url : "."
 manual: "."
 faq: "."

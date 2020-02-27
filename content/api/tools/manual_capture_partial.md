@@ -43,7 +43,7 @@ weight: 1351
 | reason                           | string    | Add a short text memo based on the capture reason of the order.       |
 | memo                           | string    | Add a short action text memo mentioning the shipping status of the order.      |
 | checkout_data	 |   object	 |   Contains the original shopping cart + copied items to be refunded. |
-|  order_id	|  integer / string |    The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string (max. 50 chars).
+|  order_id	|  integer / string |    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string (max. 50 chars).
 
 Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.
 {{% /description %}}

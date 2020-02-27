@@ -407,7 +407,7 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect.        |
 | gateway                         | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: KLARNA. |
-| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
+| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
 | description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
@@ -438,7 +438,7 @@ Please note this request is for Klarna Payments. This request can only be proces
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect.        |
 | gateway                         | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: KLARNA. |
-| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
+| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
 | description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |

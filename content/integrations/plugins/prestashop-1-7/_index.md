@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for PrestaShop 1.7"
 github_url : "https://github.com/MultiSafepay/PrestaShop"
 meta_title: "PrestaShop 1.7 plugin integration - MultiSafepay Documentation Center"
-download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/4.5.0/Plugin_PrestaShop_4.5.0.zip"
+download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/4.5.1/Plugin_PrestaShop_4.5.1.zip"
 changelog_url : "."
 manual: "."
 faq: "."

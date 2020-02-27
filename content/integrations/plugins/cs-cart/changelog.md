@@ -3,6 +3,24 @@ title : "Release Notes CS-Cart plugin"
 meta_title: "CS-Cart plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+##  1.4.0
+Release date - February 26th, 2020
+
+### Added
++ PLGCSCS-88: Add "Kies uw Bank" as first issuer option
+
+### Changed
++ PLGCSCS-100: Make merchant_item_id unique for product options
++ PLGCSCS-94: Rename Direct Ebanking to SOFORT Banking
++ PLGCSCS-92: Correct payment methods names
++ PLGCSCS-91: Change the number of decimals from 2 to 10 on all shopping cart items in transaction requests
+
+### Fixed
++ PLGCSCS-93: Fix shop version number in transaction request
++ PLGCSCS-83: Fix iDEAL issuer list not showing when user tries to place an order
+
+***
+
 ## 1.3.0
 Release date: Oct 8th, 2018
 

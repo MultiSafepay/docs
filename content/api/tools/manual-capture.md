@@ -52,7 +52,7 @@ The feature can only be used with specific credit card payment methods including
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                          	|string	| Specifies the payment flow for the checkout process. Options: redirect, direct, checkout, paymentlink.|
-| order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string. Required. Max 50 char. | 
+| order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. Max 50 char. | 
 | gateway  |	string  |	The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. | 
 | currency   |	string	 |    The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. | 
 | amount | integer |   The amount (in cents) that the customer needs to pay.| 

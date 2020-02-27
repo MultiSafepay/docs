@@ -16,7 +16,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
  1. Unpack the content of the .ZIP file in the root of your webshop
  2. Go to yourdomain.com/msp_installer.php. This will trigger the installation
  3. Delete the msp_installer.php file
- 4. Enter your notification URL in your [MultiSafepay Control](https://merchant.multisafepay.com) More information can be found on [our Notification URL page](/tools/multisafepay-control/set-your-notification-url/)
+ 4. Enter your notification URL in your [MultiSafepay Control](https://merchant.multisafepay.com)<br> 
+ More information can be found on [our Notification URL page](/tools/multisafepay-control/set-your-notification-url/)
 
 ### 3. Configuration
 1. Login into your backend and navigate to _Adminination_ -> _Payment Method_

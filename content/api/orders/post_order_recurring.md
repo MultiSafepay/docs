@@ -95,7 +95,7 @@ For more information please visit our documentation page to read more about [rec
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
 | type                           | string   | Specifies the payment flow for the checkout process. Options: direct.                     |
 | gateway                        | string   | Specifies the payment method used for the checkout process. Options: AMEX, DIRDEB, MASTERCARD, VISA. DIRDEB is to be used after initial payment with IDEAL, DIRECTBANK (Sofort) and DIRDEB. |
-| order_id                       | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                    |
+| order_id                       | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                    |
 | recurring_id	                 | integer	| The unique recurring id used for recurring payments.
 | currency                       | string   | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                    |

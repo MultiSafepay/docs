@@ -43,7 +43,9 @@ When the transaction is declined, the reason will be supplied in the response of
 View the [API documentation](/api/) on how to create a standard transaction.
 
 ###  The Initial Payment - Status update request
-When recurring is enabled in your MultiSafepay Control, you will receive a recurring ID when you do a [retrieve an order request](/api/#retrieve-an-order) A sample response is shown below.
+When recurring is enabled in your MultiSafepay Control, you will receive a recurring ID when you do a [retrieve an order request](/api/#retrieve-an-order) 
+
+A sample response is shown below.
 
 ```shell 
 GET - /orders/{order_id}

@@ -6,7 +6,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-It is possible to track the behavior of your customers through Google Universal Analytics [tracking](/api/#create-an-order) However, this is restricted only to direct orders. If a customer reaches the MultiSafepay payment page, the UA-code will be loaded and you will be able to see that in the corresponding HTML.
+It is possible to track the behavior of your customers through Google Universal Analytics [tracking](/api/#create-an-order)  
+However, this is restricted only to direct orders. If a customer reaches the MultiSafepay payment page, the UA-code will be loaded and you will be able to see that in the corresponding HTML.
 
 For redirected orders (e.g. iDEAL redirect, some cases of Klarna, Afterpay, etc.), there is NO tracking available, as customers will not pass through a MultiSafepay page after checkout and before the successful payment page. 
 
