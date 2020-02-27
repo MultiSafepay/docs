@@ -61,6 +61,6 @@ All parameters shown are required.
 
 
 
-Please make sure you check out our dedicated documentation for [credit cards](/payment-methods/creditcards/credit-card-payment-page/)
+Read more about [credit cards](/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
 
 {{< /description >}}

@@ -55,6 +55,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | payment_options                | object |                            |
 | customer                       | object |                                      |
 
-
-Please make sure you check out our dedicated documentation for [EPS](/payment-methods/eps/)
+Read more about [EPS](/payment-methods/banks/eps/) on our documentation page.
 {{< /description >}}

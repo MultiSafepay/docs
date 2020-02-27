@@ -124,5 +124,5 @@ ip_address                      | string  | The IP address of the customer. "Req
 forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
 Please note that <i>first_name</i> and <i>last_name</i> in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Betaalplan](/payment-methods/betaalplan/)
+Read more about [Betaalplan](/payment-methods/billing-suite/betaalplan/) on our docuemntation page.
 {{< /description >}}

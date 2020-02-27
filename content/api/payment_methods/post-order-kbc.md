@@ -171,7 +171,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                       | object | Contains personal information about the customer.                                        |
 
 
-Please make sure you check out our dedicated documentation for [KBC](/payment-methods/kbc/)
+Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
 
 ### Direct
 
@@ -188,5 +188,5 @@ Please make sure you check out our dedicated documentation for [KBC](/payment-me
 | payment_options                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                              |
 | customer                       | object | Contains personal information about the customer.                                        |
 
-Please make sure you check out our dedicated documentation for [KBC](/payment-methods/kbc/)
+Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
 {{< /description >}}

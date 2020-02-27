@@ -177,7 +177,7 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 | issuer_id                      | integer   | The unique identifier of the [issuer](#gateway-issuers)                                   |
 
 
-Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/)
+Read more about [iDEAL](/payment-methods/banks/ideal/) on our documentation page.
 
 {{< /description >}}
 

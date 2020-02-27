@@ -163,7 +163,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                        | object | Contains the personal information of the customer.                                         |
 
 
-Please make sure you check out our dedicated documentation for [PayPal](/payment-methods/paypal/)
+Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
 
 ### Direct
 * All parameters shown are required field(s) for a PayPal direct transaction.
@@ -180,6 +180,6 @@ Please make sure you check out our dedicated documentation for [PayPal](/payment
 | customer                        | object | Contains the personal information of the customer.                                         |
 
 
-Please make sure you check out our dedicated documentation for [PayPal](/payment-methods/paypal/)
+Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
 
 {{< /description >}}

@@ -67,6 +67,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | max_amount                     | string  | With the max_amount you can specify what the maximum amount can be in case the allow_change_amount option is activated. This parameter is required when allow_change_amount is set. |
 
 
-Please make sure you check out our dedicated documentation for [iDEAL QR](/payment-methods/idealqr/)
+Read more about [iDEAL QR](/payment-methods/banks/idealqr/) on our documentation page.
 
 {{< /description >}}

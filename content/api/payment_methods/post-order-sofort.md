@@ -173,7 +173,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                        | object | Contains personal information about the customer.                                          |
 
 
-Please make sure you check out our dedicated documentation for [SOFORT Banking](/payment-methods/sofort-banking/)
+Read more about [SOFORT Banking](/payment-methods/sofort-banking/) on our documentation page.
 
 
 ### Direct
@@ -191,7 +191,7 @@ Please make sure you check out our dedicated documentation for [SOFORT Banking](
 | customer                        | object | Contains personal information about the customer.                                          |
 
 
-Please make sure you check out our dedicated documentation for [SOFORT Banking](/payment-methods/sofort-banking/)
+Read more about [SOFORT Banking](/payment-methods/sofort-banking/) on our documentation page.
 
 
 {{< /description >}}

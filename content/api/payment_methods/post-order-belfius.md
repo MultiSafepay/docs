@@ -149,6 +149,6 @@ payment_options                | object |                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 
-Please make sure you check out our dedicated documentation for [Belfius](/payment-methods/belfius/)
+Read more about [Belfius](/payment-methods/banks/belfius/) on our documentation page.
 
 {{< /description >}}

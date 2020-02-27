@@ -612,7 +612,7 @@ Creates a direct E-Invoice order to be paid after delivery.
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [E-Invoicing](/payment-methods/e-invoicing/)
+Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing/) on our documentation page.
 
 ### Redirect - E-invoicing
 
@@ -640,5 +640,5 @@ Creates a redirect E-Invoice order to be paid after delivery.
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [E-Invoicing](/payment-methods/e-invoicing/)
+Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing/) on our documentation page.
 {{< /description >}}

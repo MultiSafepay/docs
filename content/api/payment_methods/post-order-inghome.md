@@ -131,7 +131,7 @@ payment_options                | object | Contains the redirect_url, cancel_url 
 customer                       | object | Contains personal information about the customer.                                          |
 
 
-Please make sure you check out our dedicated documentation for [ING Home'Pay](/payment-methods/ing-home-pay/)
+Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay/) on our documentation page.
 
 ### Redirect
 * All parameters shown are required field(s) for an ING Home’Pay redirect transaction.
@@ -147,5 +147,5 @@ description                    | string | A text which will be shown with the or
 payment_options                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 
 
-Please make sure you check out our dedicated documentation for [ING Home'Pay](/payment-methods/ing-home-pay/)
+Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay/) on our documentation page.
 {{< /description >}}

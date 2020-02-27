@@ -57,5 +57,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | payment_options                | object |                            |
 | customer                       | object |                                       |
 
-Please make sure you check out our dedicated documentation for [Dotpay](/payment-methods/dotpay/)
+Read more about [Dotpay](/payment-methods/dotpay/) on our documentation page.
 {{< /description >}}

@@ -107,6 +107,6 @@ meta_description: In the MultiSafepay Documentation Center all relevant informat
 
 This template can be added to your transaction request for dynamic styling of your payment page.
 
-See our [dedicated documentation](https://docs.multisafepay.com/tools/payment-pages/) on how to use [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates/) for a payment page.
+Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates/) for a payment page.
 
 {{% /description %}}

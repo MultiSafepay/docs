@@ -650,7 +650,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/)
+Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
 
 ### Direct - Pay After Delivery
  Creates a direct request Pay After Delivery order.
@@ -681,5 +681,6 @@ Make sure you check out our dedicated documentation for [Pay After Delivery](/pa
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/)
+Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
+
 {{< /description >}}

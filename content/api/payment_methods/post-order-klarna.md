@@ -425,7 +425,7 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/)
+Read more about [Klarna](/payment-methods/billing-suite/klarna/) on our documentation page.
 
 ### Redirect - Klarna (Klarna Payments)
 Creates a Klarna Payments Redirect order to be paid after delivery
@@ -455,5 +455,6 @@ Please note this request is for Klarna Payments. This request can only be proces
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/)
+Read more about [Klarna](/payment-methods/billing-suite/klarna/) on our documentation page.
+
 {{< /description >}}
