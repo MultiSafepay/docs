@@ -57,3 +57,7 @@ Refers to the status of a credit card transaction that has been received, but ha
 ### Website
 A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com) Websites serve a multitude of purposes, such as information, entertainment or service-offering.
 
+### CVC
+
+Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required also for recurring transactions.
+
