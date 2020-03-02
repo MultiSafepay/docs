@@ -15,5 +15,8 @@ window.addEventListener('load', () => {
             scrollOffset(e.target.hash, offset);
         }
     });
-    scrollOffset(location.hash, offset);
+
+    if (location.hash !== "") {
+        scrollOffset(location.hash, offset);
+    }
 });

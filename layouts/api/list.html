@@ -31,7 +31,9 @@
             }
         });
 
-        scrollOffset(location.hash, offset);
+        if (location.hash !== "") {
+            scrollOffset(location.hash, offset);
+        }
     };
 </script>
 {{ end }}
