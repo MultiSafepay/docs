@@ -1211,3 +1211,7 @@ p {
 p {
     font-weight: 300;
 }
+
+#changelog {
+    position: relative;
+}
