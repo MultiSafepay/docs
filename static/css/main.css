@@ -1,6 +1,7 @@
 /********** VARS ************/
-html { 
-    font-size:62.5%;
+
+html {
+    font-size: 62.5%;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 /**********************/
 
- h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #232323;
 }
 
@@ -45,7 +46,7 @@ a, a:hover {
     width: 70%;
 }
 
-#page h1.header__title  {
+#page h1.header__title {
     color: #ffffff;
 }
 
@@ -77,17 +78,17 @@ a, a:hover {
 }
 
 .faq-svg.rotated {
-        transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        /* IE 9 */
-        -moz-transform: rotate(180deg);
-        /* Firefox */
-        -webkit-transform: rotate(180deg);
-        /* Safari and Chrome */
-        -o-transform: rotate(180deg);
-        /* Opera */
-        transition: all 0.2s ease-out;
-    }
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -moz-transform: rotate(180deg);
+    /* Firefox */
+    -webkit-transform: rotate(180deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(180deg);
+    /* Opera */
+    transition: all 0.2s ease-out;
+}
 
 .msp-app {
     background-color: #f9f9f9;
@@ -99,7 +100,7 @@ a, a:hover {
 
 .msp-app h4 {
     font-size: 2.2rem;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 .app-store-icon>img {
@@ -146,9 +147,7 @@ div.msp-app-text p:last-child {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.footer-list { 
-    
-}
+.footer-list {}
 
 @media (min-width: 768px) {
     .footer-list {
@@ -214,6 +213,7 @@ div.block {
     display: -webkit-flexbox;
     flex-direction: row;
 }
+
 .block-item-text {
     height: auto;
 }
@@ -285,8 +285,7 @@ div.block {
     margin-right: 50px;
 }
 
-.faq-content p {
-}
+.faq-content p {}
 
 /**********************/
 
@@ -301,7 +300,6 @@ div.block {
 ol.breadcrumb {
     font-size: 1.3rem;
     background-color: #FFFFFF;
-
 }
 
 .breadcrumb-box {
@@ -316,7 +314,7 @@ ol.breadcrumb {
     margin: 0 10px;
 }
 
-.mm-searchfield input, .mm-searchfield input:hover , .mm-searchfield input:active  {
+.mm-searchfield input, .mm-searchfield input:hover, .mm-searchfield input:active {
     background: url(/svgs/Search.svg) no-repeat scroll 16px 5px;
     padding-left: 50px;
     height: 50px;
@@ -410,6 +408,7 @@ ol.breadcrumb {
         margin-top: 0;
     }
 }
+
 .primary:hover {
     color: #ffffff;
     text-decoration: none;
@@ -422,11 +421,11 @@ ol.breadcrumb {
 
 .primary {
     background: #f94f77;
-    background-image: -webkit-linear-gradient(top,#f94f77,#cd3458);
-    background-image: -moz-linear-gradient(top,#f94f77,#cd3458);
-    background-image: -ms-linear-gradient(top,#f94f77,#cd3458);
-    background-image: -o-linear-gradient(top,#f94f77,#cd3458);
-    background-image: linear-gradient(to bottom,#f94f77,#cd3458);
+    background-image: -webkit-linear-gradient(top, #f94f77, #cd3458);
+    background-image: -moz-linear-gradient(top, #f94f77, #cd3458);
+    background-image: -ms-linear-gradient(top, #f94f77, #cd3458);
+    background-image: -o-linear-gradient(top, #f94f77, #cd3458);
+    background-image: linear-gradient(to bottom, #f94f77, #cd3458);
     border-radius: 5px;
     color: #ffffff;
     border: 0px;
@@ -440,25 +439,22 @@ ol.breadcrumb {
     border-radius: 5px;
 }
 
-#error-page-container{
+#error-page-container {
     padding-top: 6rem;
 }
 
-#error-page-container .padding-error-page{
+#error-page-container .padding-error-page {
     margin-bottom: 7rem;
 }
-
 
 @media (min-width: 980px) {
     .primary {
         padding: 8px 25px;
     }
-
     .download-button {
         padding: 9px 25px;
     }
-
-    .secondary{
+    .secondary {
         padding: 8px;
     }
 }
@@ -468,8 +464,8 @@ ol.breadcrumb {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    
 }
+
 /**********************/
 
 .separator {
@@ -527,7 +523,6 @@ a.toc-link {
 
 .is-position-fixed {
     position: fixed !important;
-    top: 0;
 }
 
 .is-active-link {
@@ -582,8 +577,8 @@ img.magento-certimage {
     font-size: 1.6rem;
     margin-left: 3px;
 }
-@media (min-width: 1200px) { 
-}
+
+@media (min-width: 1200px) {}
 
 .newsletter .newsletter-input {
     border-radius: 6px 0 0 6px;
@@ -695,7 +690,6 @@ ul.navbar-nav.ml-auto {
         margin: 10px;
         padding: 10px;
     }
-
     .menu-buttons a:last-child div {
         background-image: url(/svgs/Login.svg);
         background-size: 50px 17px;
@@ -811,11 +805,10 @@ ul.navbar-nav.ml-auto {
 
 /* intergration manual layout*/
 
- .manual h3, .manual h4 {
+.manual h3, .manual h4 {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 1rem;
     margin-top: 2rem;
-
 }
 
 .manual .content>pre {
@@ -864,7 +857,6 @@ ul.navbar-nav.ml-auto {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 720px;
     }
-
     .small-vertical {
         flex-direction: row;
         display: block;
@@ -1025,7 +1017,7 @@ div#results a:hover {
 }
 
 .manual ul li p, .manual ol li p {
-    display:  inline;
+    display: inline;
 }
 
 .full-width {
@@ -1041,7 +1033,7 @@ div#results a:hover {
 }
 
 .block-faq, .faq-content, #Support, .row.content, .js-toc-content {
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
 }
 
 .faq-title-block {
@@ -1058,39 +1050,38 @@ div#results a:hover {
 }
 
 .js-toc-content .primary {
-     margin-left: 2rem;
-}
-
-.manual .col-md-9 > p, .manual .col-md-9 > ul, .manual .col-md-9 > ol, .manual .col-md-9 pre {
     margin-left: 2rem;
 }
 
+.manual .col-md-9>p, .manual .col-md-9>ul, .manual .col-md-9>ol, .manual .col-md-9 pre {
+    margin-left: 2rem;
+}
 
 .img-size {
     max-height: 250px;
     margin-left: 3rem;
 }
 
-.img-zoomable img{
-    -webkit-transition: all 0.35s ease-in-out;    
-    -moz-transition: all 0.35s ease-in-out;    
-    transition: all 0.35s ease-in-out;     
-    cursor: -webkit-zoom-in;      
-    cursor: -moz-zoom-in;      
-    cursor: zoom-in; 
+.img-zoomable img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
 }
 
-.img-zoomable.selected img{
-    -ms-transform: scale(2.5);    
-    -moz-transform: scale(2.5);  
-    -webkit-transform: scale(2.5);  
-    -o-transform: scale(2.5);  
-    transform: scale(2.5);    
-    position:relative;      
-    z-index:100;  
-    cursor: -webkit-zoom-out;      
-    cursor: -moz-zoom-out;      
-    cursor: zoom-out; 
+.img-zoomable.selected img {
+    -ms-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    position: relative;
+    z-index: 100;
+    cursor: -webkit-zoom-out;
+    cursor: -moz-zoom-out;
+    cursor: zoom-out;
 }
 
 p {
@@ -1101,72 +1092,86 @@ p {
     margin-bottom: 1em;
     overflow: auto
 }
+
 .payment-detail table th, .content table td {
     text-align: left;
     vertical-align: top;
     line-height: 1.6
 }
+
 .payment-detail table th {
     padding: 5px 10px;
     border-bottom: 1px solid #ccc;
     vertical-align: bottom
 }
+
 .payment-detail table td {
     padding: 10px
 }
+
 .payment-detail table tr:last-child {
     border-bottom: 1px solid #ccc
 }
-.payment-detail table tr:nth-child(odd) > td {
+
+.payment-detail table tr:nth-child(odd)>td {
     background-color: #fff
 }
-.payment-detail table tr:nth-child(even) > td {
+
+.payment-detail table tr:nth-child(even)>td {
     background-color: #fafcfd
 }
+
 .payment-detail dt {
     font-weight: bold
 }
+
 .payment-detail dd {
     margin-left: 15px
 }
 
-.faq-content table, .js-toc-content table{ 
-
-	margin-bottom: 1em;
-	overflow: auto
+.faq-content table, .js-toc-content table {
+    margin-bottom: 1em;
+    overflow: auto
 }
 
-.faq-content table tbody, .js-toc-content table tbody{
-	vertical-align: top;
+.faq-content table tbody, .js-toc-content table tbody {
+    vertical-align: top;
 }
 
 .faq-content table th, .js-toc-content table th, .content table td, .js-toc-content table td {
-	text-align: left;
-	vertical-align: top;
-	line-height: 1.6
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6
 }
+
 .faq-content table th, .js-toc-content table th {
-	padding: 0px 10px 5px;
-	border-bottom: 1px solid #ccc;
-	vertical-align: bottom
+    padding: 0px 10px 5px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: bottom
 }
+
 .faq-content table td, .js-toc-content table td {
-	padding: 10px 10px;
+    padding: 10px 10px;
 }
+
 .faq-content table tr:last-child, .js-toc-content table tr:last-child {
-	border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #ccc
 }
-.faq-content table tr:nth-child(odd) > td, .js-toc-content table tr:nth-child(odd) > td {
-	background-color: #fff
+
+.faq-content table tr:nth-child(odd)>td, .js-toc-content table tr:nth-child(odd)>td {
+    background-color: #fff
 }
-.faq-content table tr:nth-child(even) > td, .js-toc-content table tr:nth-child(even) > td {
-	background-color: #fafcfd
+
+.faq-content table tr:nth-child(even)>td, .js-toc-content table tr:nth-child(even)>td {
+    background-color: #fafcfd
 }
-.faq-content dt, .js-toc-content dt{
-	font-weight: bold
+
+.faq-content dt, .js-toc-content dt {
+    font-weight: bold
 }
+
 .faq-content dd, .js-toc-content dd {
-	margin-left: 15px
+    margin-left: 15px
 }
 
 .faq-content a {
@@ -1189,7 +1194,7 @@ p {
     border: 1px solid #fff;
 }
 
-#submitting-a-discount-with-the-payment-method-klarna-is-processed-on-a-negative-amount-instead-of-on-a-negative-quantity-this-method-of-adding-a-discount-only-applies-to-a-successfully-placed-klarna-transaction-more-information-about-how-to-add-a-discount-before-the-transaction-request-is-submitted-to-multisafepay-is-available-on-our-api-documentation-page-api-discount, #the-chargeback-reason-codes-regarding-customer-disputes-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-american-express-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code-1, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-mastercard-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-visa-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-visa-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-visa-are-explained-below, #please-note-the-alipay-payment-method-can-only-be-used-with-a-verified-alipay-account-that-is-linked-to-a-chinese-bank-all-other-transactions-will-be-unsuccessful{
+#submitting-a-discount-with-the-payment-method-klarna-is-processed-on-a-negative-amount-instead-of-on-a-negative-quantity-this-method-of-adding-a-discount-only-applies-to-a-successfully-placed-klarna-transaction-more-information-about-how-to-add-a-discount-before-the-transaction-request-is-submitted-to-multisafepay-is-available-on-our-api-documentation-page-api-discount, #the-chargeback-reason-codes-regarding-customer-disputes-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-american-express-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code-1, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-mastercard-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-visa-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-visa-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-visa-are-explained-below, #please-note-the-alipay-payment-method-can-only-be-used-with-a-verified-alipay-account-that-is-linked-to-a-chinese-bank-all-other-transactions-will-be-unsuccessful {
     position: relative;
     padding: .75rem 1.25rem;
     margin-bottom: 1rem;
@@ -1202,6 +1207,7 @@ p {
     font-weight: 300;
     line-height: 1.5;
 }
+
 p {
     font-weight: 300;
 }
