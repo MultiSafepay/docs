@@ -13,7 +13,6 @@ Pay-after-delivery methods allow customers to pay only for items they keep from 
 * When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules.
 
 
-
 * When an AfterPay transaction is marked with the status _uncleared_, AfterPay will authorize or decline the transaction
 
 When a transaction has been accepted, the risk of the merchant is assumed entirely by AfterPay. The customer must fulfill the payment to AfterPay within 14 days after the invoice date, unless otherwise agreed upon in writing.

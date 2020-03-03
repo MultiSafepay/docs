@@ -43,6 +43,6 @@ Some rules may apply to certain payment methods. For Paysafecard, the following 
 
 * Payments done through Paysafecard can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
 
-  * Euros (EUR)
-  * Pounds (GBP)
-  * Dollars (USD).
+    Euros (EUR)
+    Pounds (GBP)
+    Dollars (USD).

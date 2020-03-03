@@ -8,8 +8,8 @@ read_more: "."
 Our API will notify your web server when the status of a transaction changes.  
 We will add 2 parameters to the notification:  
 
-* Transactionid  
-* Timestamp.  
+1. Transactionid  
+2. Timestamp.  
 
 MultiSafepay will always call the notification_url with the timestamp parameter. 
 

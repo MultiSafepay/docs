@@ -21,11 +21,12 @@ _A test Account ID starts with a 9_-> [Test MultiSafepay Control](https://testme
 
 4. Please supply the following information to add a webshop:
 
-   * Select a category that is related to the webshop
-   * Provide a description. The description will be displayed on the payment page of MultiSafepay and depending on the payment method, it will also be shown on the bank statement of your customer
-   * Add the webshop URL. This should be the URL from which the actual payments are received
-   * When available, provide a notification URL. The notification URL is used for sending status updates to your webshop. More information available in [How does the notification URL work?](/faq/api/how-does-the-notification-url-work)
-   * Only upload a logo when your MultiSafepay Control is created as a FastCheckout account.
+   1. Select a category that is related to the webshop
+   2.  Provide a description. The description will be displayed on the payment page of MultiSafepay and depending on the payment method, it will also be shown on the bank statement of your customer
+   3. Add the webshop URL. This should be the URL from which the actual payments are received
+   4.  When available, provide a notification URL. The notification URL is used for sending status updates to your webshop. More information available in [How does the notification URL work?](/faq/api/how-does-the-notification-url-work)
+   5.  Only upload a logo when your MultiSafepay Control is created as a FastCheckout account.
+
 
 5. _Save_ the provided details. 
 

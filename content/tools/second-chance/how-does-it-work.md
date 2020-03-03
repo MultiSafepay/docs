@@ -16,19 +16,19 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The Second Chance email cannot be activated and/or sent to the customer when the transaction status of the original transaction states:
 
-1. _Pending_
-2. _Uncleared_
-3. _Completed_.
+* _Pending_
+* _Uncleared_
+* _Completed_.
 
 **Excluded payment methods**      
 Certain payments methods have a different flow and, as a result, the Second Chance email cannot be activated and/or sent to the customers. Below, you can find a list of all the exceptions:
 
-1. [Klarna](/payment-methods/klarna/)
-2. [Afterpay](/payment-methods/afterpay/)
-3. [Betaalplan](/payment-methods/betaalplan/)
-4. [Pay After Delivery](/payment-methods/pay-after-delivery/)
-5. [Bank transfer](/payment-methods/bank-transfer/)
-6. [Direct Debit](/payment-methods/direct-debit/)
+* [Klarna](/payment-methods/klarna/)
+* [Afterpay](/payment-methods/afterpay/)
+* [Betaalplan](/payment-methods/betaalplan/)
+* [Pay After Delivery](/payment-methods/pay-after-delivery/)
+* [Bank transfer](/payment-methods/bank-transfer/)
+* [Direct Debit](/payment-methods/direct-debit/)
 
 
 ## Altering the Second Chance configuration
