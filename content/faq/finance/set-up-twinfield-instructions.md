@@ -11,11 +11,11 @@ In order to be able to import an accountant export from your MultiSafepay Contro
 
 1. Go to https://www.ibancalculator.com/bic_und_iban.html 
 2. Navigate to the _Calculate an IBAN_ field
-2. Select the Netherlands as country
-3. Choose any option for a bank (e.g. ING Bank)
-4. Fill in any 7 digits in the _Account number_ field
-5. Click on calculate IBAN
-6. A bank account number (IBAN) and BIC will be generated
+3. Select the Netherlands as country
+4. Choose any option for a bank (e.g. ING Bank)
+5. Fill in any 7 digits in the _Account number_ field
+6. Click on calculate IBAN
+7. A bank account number (IBAN) and BIC will be generated
 
 ## MultiSafepay Accountant Export
 

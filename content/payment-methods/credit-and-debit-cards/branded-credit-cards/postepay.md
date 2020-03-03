@@ -15,8 +15,8 @@ Postepay payments are processed through the Visa or Mastercard gateway.
 ### How to activate Postepay?
 The payment method Postepay is shown as a payment option on the payment page of MultiSafepay depending on:
 
-1. The Visa or Mastercard gateway needs to be enabled
-2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
+* The Visa or Mastercard gateway needs to be enabled
+* The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
 
 The [locale](/faq/api/locale/) is leading in this to show the desired payment method Postepay on the payment page of MultiSafepay.
 

@@ -14,8 +14,8 @@ Cartes Bancaires payments are processed through the Visa gateway.
 ### How to activate Cartes Bancaires?
 For Cartes Bancaires to be available as a payment method on the payment page of MultiSafepay, the following are required:
 
-1. The Visa gateway needs to be enabled
-2. The locale needs to be fr_FR (France) in the transaction call received by MultiSafepay.
+* The Visa gateway needs to be enabled
+* The locale needs to be fr_FR (France) in the transaction call received by MultiSafepay.
 
 The [locale](/faq/api/locale/) is leading in this to show the desired payment method Cartes Bancaires on the payment page of MultiSafepay.
 

@@ -43,12 +43,12 @@ MultiSafepay can send the Automated Accountant Export daily, weekly or monthly. 
 ## Accountant Export format
 The following formats are available for automatically generating an export:
 
-1. CAMT053
-2. CODA
-3. CSV
-4. MT940
-5. XLS
-6. XLSX
+* CAMT053
+* CODA
+* CSV
+* MT940
+* XLS
+* XLSX
 
 For information regarding the different exports, check out our [exports page](/tools/reports/)   
 
@@ -56,11 +56,11 @@ For information regarding the different exports, check out our [exports page](/t
 
 Automated Accountant Export activation checklist:
 
-1. Choice of email, SFTP push or SFTP pull            
-2. Frequency - daily, weekly or monthly
-3. Desired file format: CAMT053, CODA, CSV, MT940, XLS or XLSX
-4. Desired time (_Please note our reference time is CEST_).
-5. Costs breakdown per transaction OR total costs 
+* Choice of email, SFTP push or SFTP pull            
+* Frequency - daily, weekly or monthly
+* Desired file format: CAMT053, CODA, CSV, MT940, XLS or XLSX
+* Desired time (_Please note our reference time is CEST_).
+* Costs breakdown per transaction OR total costs 
 
 
 Send the requested to our Integration Team via <integration@multisafepay.com> 

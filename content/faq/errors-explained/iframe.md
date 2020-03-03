@@ -22,8 +22,8 @@ As additional information, also check: https://developer.mozilla.org/en-US/docs/
  
 Therefore, the following option will be available to you.
  
-1. Request your developer to process the modification in the sandbox
-2. Refrain from using iFrame.
+* Request your developer to process the modification in the sandbox
+* Refrain from using iFrame.
  
 If any assistance is requested or needed, please contact our Integration Team at <integration@multisafepay.com>
  

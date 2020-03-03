@@ -10,11 +10,11 @@ SOFORT Banking is a popular payment method available in a few European countries
 
 SOFORT Banking is supported in the following countries within your MultiSafepay Control:
 
-1. Austria
-2. Belgium
-3. Germany  
-4. Italy
-5. Spain
-6. Switzerland
-7. Poland.
+* Austria
+* Belgium
+* Germany  
+* Italy
+* Spain
+* Switzerland
+* Poland.
 

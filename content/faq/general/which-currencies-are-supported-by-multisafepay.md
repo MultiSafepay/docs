@@ -57,10 +57,10 @@ MultiSafepay can accept on request new currencies for Visa, MasterCard and Maest
 
 ## Requirements
 
-1. The currency is only processed when it is supported by the selected [payment method](/payment-methods/)
-2. The desired currency is correctly processed within the transaction call, received by MultiSafepay when using [JSON](/api/#orders) requests
-3. The plugin settings allow the currency selected
-4. The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com/)
+* The currency is only processed when it is supported by the selected [payment method](/payment-methods/)
+* The desired currency is correctly processed within the transaction call, received by MultiSafepay when using [JSON](/api/#orders) requests
+* The plugin settings allow the currency selected
+* The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 _When multiple currencies are enabled within your MultiSafepay Control, all currencies will be shown under Finance -> Balance_.  
 
@@ -84,9 +84,9 @@ This can be done through _Finance -> Balance -> Add bank account_
 
 ## Payout
 
-1. Within your MultiSafepay Control, you will have the possibility to convert the currency to Euros (EUR). This can be done through _Finance -> Currency Conversion_. Take into account the exchange rate and/or costs involved
+* Within your MultiSafepay Control, you will have the possibility to convert the currency to Euros (EUR). This can be done through _Finance -> Currency Conversion_. Take into account the exchange rate and/or costs involved
 
-2. If a business bank account that can receive the currency as is has been added to your MultiSafepay Control (and approved by our Risk Team), a payout can be processed without currency conversion.
+* If a business bank account that can receive the currency as is has been added to your MultiSafepay Control (and approved by our Risk Team), a payout can be processed without currency conversion.
 
 _For example, the currency dollar (USD) is paid out in dollar (USD) and received on your business bank account in the dollars (USD) as well._
 

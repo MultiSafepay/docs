@@ -10,9 +10,9 @@ This manual helps merchants process MultiSafepay payments as quickly as possible
 
 Installation of the plugin can be done in three ways:
 
-1. SFTP upload
-2. .ZIP file upload in Connect
-3. Via the MarketPlace.
+* SFTP upload
+* .ZIP file upload in Connect
+* Via the MarketPlace.
 
 In this manual we describe the SFTP upload method.
 
