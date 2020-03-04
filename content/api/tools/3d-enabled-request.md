@@ -68,7 +68,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | card_number                    | string    | Full credit card number. |
 | card_holder_name               | string    | Name on the credit card. |
 | card_expiry_date               | string    | Card expire date. |
-| card_cvc                       | string    | Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required also for recurring transactions. |
+| card_cvc                       | string    | Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions. |
 
 
 Read more about [Server to Server](/tools/server2server/) on our documentation page.

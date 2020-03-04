@@ -59,5 +59,5 @@ A collection of multimedia content, accessible through an internet connection, g
 
 ### CVC
 
-Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required also for recurring transactions.
+Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
 
