@@ -59,13 +59,9 @@ Full documentation can be found on our [lifetime of a payment link](/faq/api/lif
 
 * Payments done through bank transfers can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
 
-     Euros (EUR)
-
-     Pounds (GBP)
-
-     Czech koruna (CZK)
-
-      Hungarian forint (HUF)
-
-      Polish złoty (PLN)
+     * Euros (EUR)
+     * Pounds (GBP)
+     * Czech koruna (CZK)
+     * Hungarian forint (HUF)
+     * Polish złoty (PLN)
 

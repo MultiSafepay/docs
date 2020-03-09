@@ -50,7 +50,7 @@ Some rules may apply to certain payment methods. For Dotpay, the following rules
 
 * Dotpay can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency:
 
-  Euros (EUR)       
-  Zloty (PLN)
+  * Euros (EUR)       
+  * Zloty (PLN)
 
 * Providing first and last name of the customer is mandatory to finalize a Dotpay payment. This can not be entered on the payment page. The transaction will automatically be rejected. 

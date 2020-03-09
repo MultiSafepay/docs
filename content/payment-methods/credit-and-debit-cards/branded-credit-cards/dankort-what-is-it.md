@@ -14,8 +14,8 @@ Dankort payments are processed through the Visa gateway.
 ### How to activate Dankort?
 For Dankort to be available as a payment method on the payment page of MultiSafepay, the following are required:
 
-* The Visa gateway needs to be enabled
-* The locale needs to be da_DK (Denmark) in the transaction call received by MultiSafepay.
+1. The Visa gateway needs to be enabled
+2. The locale needs to be da_DK (Denmark) in the transaction call received by MultiSafepay.
 
 The [locale](/faq/api/locale/) is leading in this to show the desired payment method Dankort on the payment page of MultiSafepay.
 
