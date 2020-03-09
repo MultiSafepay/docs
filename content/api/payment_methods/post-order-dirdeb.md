@@ -114,7 +114,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "costs": [
       {
         "transaction_id": 279354751,
-        "description": "0.3 For Direct Debit Transactions",
+        "description": "0.3 For SEPA Direct Debit Transactions",
         "type": "SYSTEM",
         "amount": 0.3
       }
@@ -176,6 +176,6 @@ ip_address                        | string  | The IP address of the customer. "R
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
 
-Read more about [Direct Debit](/payment-methods/banks/direct-debit/) on our docuemntation page.
+Read more about [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) on our docuemntation page.
 
 {{< /description >}}

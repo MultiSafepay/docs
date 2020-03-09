@@ -38,7 +38,7 @@ Maestro (credit card) transactions received by MultiSafepay will be processed th
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)              |
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)              |
 
 
 The full API reference for Maestro and credit cards can be found [here](/api/#credit-cards)

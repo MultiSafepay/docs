@@ -24,7 +24,7 @@ Tokenization gives you the possibility to link the payment details of a customer
 
 Available for JSON API only. You can find more details on our [API documentation on tokenization](/api/#tokenization-recurring-model)
 
-Tokens processed by the payment method Direct Debit "DIRDEB" are originally received by an iDEAL or SOFORT Banking transaction. 
+Tokens processed by the payment method SEPA Direct Debit "DIRDEB" are originally received by an iDEAL or SOFORT Banking transaction. 
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

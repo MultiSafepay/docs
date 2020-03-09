@@ -1,7 +1,7 @@
 ---
 title: 'Email template, body and HTML'
 weight: 7
-meta_title: "Email Template - MultiSafepay Documentation Center"
+meta_title: "Email Template HTML - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---

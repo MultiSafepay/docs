@@ -34,7 +34,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N096   | WITHDRAWAL                                              |   |
 | N097   | Refund                                                  |   |
 | N098   | [COUPON](/payment-methods/gift-cards/)                  |   |
-| N101   | [DIRDEB](/payment-methods/direct-debit/)                |   |
+| N101   | [DIRDEB](/payment-methods/banks/sepa-direct-debit/)                |   |
 | N102   | [iDEAL QR](/payment-methods/idealqr/)                   |   |
 | N102   | [BELFIUS](/payment-methods/belfius/)                    |   |
 | N103   | [EPS](/payment-methods/eps/)                            |   |

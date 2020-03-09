@@ -17,7 +17,7 @@ __Banks__
 + [EPS](/payment-methods/eps/)
 + [Dotpay](/payment-methods/dotpay/)
 + [Bank transfer](/payment-methods/bank-transfer/)
-+ [Direct Debit](/payment-methods/direct-debit/)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 
 __Billing suite__
 + [Pay After Delivery](/payment-methods/pay-after-delivery/)

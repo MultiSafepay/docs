@@ -34,11 +34,11 @@ All countries within the European Union and Norway, Iceland, Liechtenstein, Swit
 * SEPA Direct Debit  
 The international SEPA Direct Debit
 
-* Single Direct Debit  
-A direct debit on which the customer approved to a single withdrawal
+* Single SEPA Direct Debit  
+A SEPA Direct Debit on which the customer approved to a single withdrawal
 
-* Recurring Direct Debit  
-A recurring direct debit on which the customer approved to regular withdrawals
+* Recurring SEPA Direct Debit  
+A recurring SEPA Direct Debit on which the customer approved to regular withdrawals
 
 * Chargeback  
 When a customer revoked the payment.

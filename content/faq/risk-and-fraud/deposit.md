@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-MultiSafepay can request a deposit to cover the financial risk that MultiSafepay is exposed to. Financial risk arises when the merchant goes bankrupt and was using payment methods that enable funds to be withdrawn from the account while there is no balance, like direct debits or credit card payments. 
+MultiSafepay can request a deposit to cover the financial risk that MultiSafepay is exposed to. Financial risk arises when the merchant goes bankrupt and was using payment methods that enable funds to be withdrawn from the account while there is no balance, like SEPA Direct Debits or credit card payments. 
 
 In case the merchant goes bankrupt, MultiSafepay will not be able to collect the funds for the chargebacks from the account. Deposits are based on multiple parameters:
 

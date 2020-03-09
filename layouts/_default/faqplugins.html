@@ -23,11 +23,16 @@
             data-parent="#accordion">
             <div class="mx-3 line"></div>
             <div class="p-3">
-              {{ .Content }}
+              {{ .Content | truncate 400}}
             </div>
             {{ if isset .Params "read_more" }}
             <div class="p-3">
-              <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+              {{if gt (len .Content) 400 }}
+                <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+              {{ else }}
+                <a href="{{ .Permalink }}"><img id="direct-link" src="/svgs/Direct link.svg" /></a>
+              {{end}}
+              
             </div>
             {{end}}
           </div>
