@@ -1225,3 +1225,29 @@ p {
 .cc-revoke{
     display: none;
 }
+
+/* Start DOCS-1051 */
+.block-item .col-4 img {
+    width: 60px;
+    height: 65px;
+}
+.block-item .col-3 img {
+    width: 50px;
+    height: 60px;
+}
+.col-4 {
+  height: 121px;
+}
+.p-4 {
+  padding: 2rem!important;
+}
+.block-item-text {
+    margin-bottom: 1.5rem;
+}
+.ml-4, .mx-4 {
+  margin-left: 1.2rem!important;
+}
+.col-8 {
+  padding-right: 0px!important;
+}
+/* End DOCS-1051 */
