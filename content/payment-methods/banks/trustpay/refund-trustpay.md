@@ -15,7 +15,7 @@ Please follow these steps to refund a TrustPay transaction:
 5. Fill in the amount that you want to refund to the customer       
 6. Confirm the refund.
 
->_Please note that by default, MultiSafepay does not allow for you to refund more than the stated amount of the original transaction. Please refer to the [product rules](/payment-methods/trustpay/#product-rules) for more information._
+>_Please note that by default, MultiSafepay does not allow for you to refund more than the stated amount of the original transaction. Please refer to the [product rules](/payment-methods/banks/trustpay/#product-rules) for more information._
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day.
 

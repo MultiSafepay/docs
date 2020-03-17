@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for CS-Cart"
 github_url : "https://github.com/MultiSafepay/CS-Cart"
-download_url : "https://github.com/MultiSafepay/CS-Cart/archive/1.3.0.zip"
+download_url : "https://github.com/MultiSafepay/CS-Cart/releases/download/1.4.0/Plugin_CS-Cart_1.4.0.zip"
 manual: "."
 faq: "."
 changelog: "https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md"

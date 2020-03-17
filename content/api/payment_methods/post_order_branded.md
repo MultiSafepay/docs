@@ -51,7 +51,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string   | Specifies the payment flow for the checkout process. Options: redirect.                   |
 | gateway                         | string   | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: CREDITCARD, VISA and MASTERCARD.  |
-| order_id                        | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                     |
+| order_id                        | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                     |
 | currency                        | string   | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with.  |
 | amount                          | integer  | The amount (in cents) that the customer needs to pay.                                      |
 | description                     | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
@@ -65,5 +65,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
-Please make sure to check out our dedicated documentation on [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/)  
+Please make sure to read more about [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/) on our documentation page.
 {{< /description >}}

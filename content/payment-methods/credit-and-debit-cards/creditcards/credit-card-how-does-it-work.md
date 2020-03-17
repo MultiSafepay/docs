@@ -48,9 +48,9 @@ Credit card transactions received by MultiSafepay will be processed through our 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)         |               
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)         |               
 
-The full API reference for credit cards can be found [here](/api/#credit-cards).
+The full API reference for credit cards can be found [here](/api/#credit-cards)
 
 ### Product rules
 Some rules may apply to certain payment methods. For credit cards, the following rules apply:

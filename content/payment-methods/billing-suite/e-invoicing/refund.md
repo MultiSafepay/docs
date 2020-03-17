@@ -40,7 +40,7 @@ The transaction shows the credited page with the deducted amount added to the tr
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
 ### Add a discount 
-Instead of deleting an page in the checkout editor you may want to add a discount. Please follow these steps:
+Instead of deleting a page in the checkout editor you may want to add a discount. Please follow these steps:
 
 1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction overview_

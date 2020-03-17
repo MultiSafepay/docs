@@ -44,7 +44,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for SOFORT Banking can be found [here](/api/#sofort).
+The full API reference for SOFORT Banking can be found [here](/api/#sofort)
 
 ### Product Rules
 Some rules may apply to certain payment methods. For SOFORT Banking, the following rules apply:

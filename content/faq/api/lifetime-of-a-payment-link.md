@@ -7,7 +7,7 @@ read_more: "."
 ---
 
 ## The days_active and seconds_active parameters
-The parameter <i>days_active</i> indicates the lifetime of a payment link. The unique payment link (session ID) is valid for **30 days** (by default): this means that the customer has 30 days to pay using the link. This period can also be adjusted (see rule exceptions below). 
+The parameter <i>days_active</i> indicates the lifetime of a payment link. The unique payment link (session ID) is valid for **30 days** (by default): this means that the customer has 30 days to complete the transaction using the payment link. This period can also be adjusted (see rule exceptions below). 
 
 The parameter <i>seconds_active</i> is equal to the <i>days_active</i>, except that, instead of minutes it is specified in seconds. Example: 86.400 seconds_active is 1 days_active.
 

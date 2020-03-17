@@ -35,7 +35,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for Bancontact can be found [here](/api/#bancontact).
+The full API reference for Bancontact can be found [here](/api/#bancontact)
 
 ### Product rules
 Some rules may apply to certain payment methods. For Bancontact, the following rules apply:
@@ -46,6 +46,5 @@ Some rules may apply to certain payment methods. For Bancontact, the following r
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active.   
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
-
 
 * Payments done through Bancontact are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)

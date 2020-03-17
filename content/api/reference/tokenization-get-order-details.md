@@ -95,7 +95,7 @@ This API call allows you to retreive the order details while listing the recurri
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
-| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
+| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 
 Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
 

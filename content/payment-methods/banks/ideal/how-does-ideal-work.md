@@ -35,12 +35,10 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Initialized | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for iDEAL can be found [here](/api/#ideal).
+The full API reference for iDEAL can be found [here](/api/#ideal)
 
 ### Product rules
 Some rules may apply to certain payment methods. For iDEAL, the following rules apply:
-
-* Refunding more than the stated amount of the original transaction is possible with iDEAL. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
 * Successful iDEAL transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 

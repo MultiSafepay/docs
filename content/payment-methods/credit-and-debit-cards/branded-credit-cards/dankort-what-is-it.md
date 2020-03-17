@@ -37,4 +37,4 @@ Please follow these steps to refund a Dankort transaction:
 _MultiSafepay does not allow you to refund more than the stated amount of the original transaction. Moreover, no credit card scheme allows refunds of more than the original transaction amount._
 
 
-> Please note that credit card payments that are refunded by the merchant to the customer, will be sent to the card issuing bank and its partners within 1 business day by MultiSafepay. Whether or not the refund will be visible to the customer depends on the reports, statements and online tools that are made available by the issuing bank_.
+> _Please note that credit card payments that are refunded by the merchant to the customer, will be sent to the card issuing bank and its partners within 1 business day by MultiSafepay. Whether or not the refund will be visible to the customer depends on the reports, statements and online tools that are made available by the issuing bank_.

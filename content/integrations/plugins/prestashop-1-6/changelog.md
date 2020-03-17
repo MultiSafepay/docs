@@ -4,6 +4,20 @@ meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Documentation Center
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 3.3.0
+Release date: Feb 26th, 2020
+
+### Fixed
++ PLGPRSS-309: Prevent multiple transactions being created for the same order
++ PLGPRSS-391: Prevent duplicated orders by adding file locking
++ PLGPRSS-267: Mobile presentation of payment methods is not fully responsive
+
+### Changed
++ PLGPRSS-190: Send shopping cart data for all payment methods
++ PLGPRSS-352: Improve parsing of address into street and apartment
+
+***
+
 ## 3.2.0
 Release date: Nov. 8th, 2017
 ### Improvements

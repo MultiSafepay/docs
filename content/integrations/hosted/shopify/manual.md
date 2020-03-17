@@ -11,10 +11,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ### 1. Installation & Configuration
 Click below on the payment methods that you would like to use. Login on the following page and click on _Install Payment provider_.  
   
-1. Login in your backend and navigate to _Settings>Payment providers>Alternative payments_.
+1. Log into your backend and navigate to _Settings > Payment providers > Alternative payments_.
 
-2. Select the MultiSafepay payment methods.  
-You need to add the API key and Secure code for all payment methods separate. {{% account_info %}}
+2. Select the MultiSafepay payment method. You need to add the API key and Secure code for all payment methods separate. {{% account_info %}}
+
+3. Click [here](/integrations/hosted/shopify/faq/available-payment-methods-shopify/) to add the MultiSafepay payment methods separately 
 
 ### 2. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>

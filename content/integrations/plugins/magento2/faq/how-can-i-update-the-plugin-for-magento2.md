@@ -5,7 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 layout: "faqdetail"
 ---
 
-Generally, there are three ways to update a plugin. This can be done through the backend and through the marketplace from a CMS or through SFTP. However, for Magento 2 we will be describing the necessary steps via [Composer](https://getcomposer.org).
+Generally, there are three ways to update a plugin. This can be done through the backend and through the marketplace from a CMS or through SFTP. However, for Magento 2 we will be describing the necessary steps via [Composer](https://getcomposer.org)
 
 Before you update the plugin, we strongly recommend you the following:
 

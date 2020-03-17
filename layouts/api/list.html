@@ -8,12 +8,13 @@
     </article>
     {{ end }}
 </section>
+<script src="{{ "/js/scroll-offset.js" | relURL }}"></script>
 <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
 <script>
     window.onload = () => {
         let selected = document.querySelector(".mm-listitem.mm-listitem_selected");
         selected.innerHTML = '<div class="api-toc"></div>';
-
+        let offset = document.querySelector("div.breadcrumb-box").offsetHeight + document.querySelector("nav.navbar").offsetHeight;
         let t = tocbot.init({
             // Where to render the table of contents.
             tocSelector: '.api-toc',
@@ -21,7 +22,18 @@
             contentSelector: '#api-content',
             // Which headings to grab inside of the contentSelector element.
             headingSelector: 'h1, h2, h3, h4, h5',
+            headingsOffset: offset,
+            scrollSmooth: false,
+            onClick: (e) => {
+                e.preventDefault();
+                window.location.hash = e.target.hash;
+                scrollOffset(e.target.hash, offset);
+            }
         });
+
+        if (location.hash !== "") {
+            scrollOffset(location.hash, offset);
+        }
     };
 </script>
 {{ end }}

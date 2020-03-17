@@ -1,9 +1,9 @@
 ---
-title : "Can I use MultiSafepay when I have a Wix webshop?"
-meta_title: "FAQ General - Wix - MultiSafepay Support"
+title: 'MultiSafepay Control App'
+weight: 30
+meta_title: "MultiSafepay Control App - MultiSafepay Support"
+layout: 'faqplugins'
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
-read_more: "."
+logo: '/svgs/MultiSafepay_Control_App.svg'
+short_description: 'Stay up-to-date with your payments, transactions and revenue on a mobile device.'
 ---
-
-Yes, you can. Please refer to how to use the [ECWID](https://ecwid.com) app for ecommerce functionality. ECWID can connect with us.
-

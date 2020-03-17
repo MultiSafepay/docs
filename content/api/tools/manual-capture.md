@@ -52,7 +52,7 @@ The feature can only be used with specific credit card payment methods including
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                          	|string	| Specifies the payment flow for the checkout process. Options: redirect, direct, checkout, paymentlink.|
-| order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string. Required. Max 50 char. | 
+| order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. Max 50 char. | 
 | gateway  |	string  |	The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. | 
 | currency   |	string	 |    The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. | 
 | amount | integer |   The amount (in cents) that the customer needs to pay.| 
@@ -63,5 +63,5 @@ The feature can only be used with specific credit card payment methods including
 | locale	|  string | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. | 
 | ip_address	|   string	|    The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/) | 
 
-Please make sure you check out our dedicated documentation for [Manual Capture](/tools/manual-capture/)
+Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.
 {{% /description %}}

@@ -35,7 +35,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 
-The full API reference for Giropay can be found [here](/api/#giropay).
+The full API reference for Giropay can be found [here](/api/#giropay)
 
 ### Product rules
 Some rules may apply to certain payment methods. For Giropay, the following rules apply:

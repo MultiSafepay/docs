@@ -36,7 +36,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed        | Refund has been successfully processed.  | 
 
 
-The full API reference for Dotpay can be found [here](/api/#dotpay).
+The full API reference for Dotpay can be found [here](/api/#dotpay)
 
 ### Product rules
 Some rules may apply to certain payment methods. For Dotpay, the following rules apply:
@@ -50,7 +50,7 @@ Some rules may apply to certain payment methods. For Dotpay, the following rules
 
 * Dotpay can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency:
 
-  Euros (EUR)       
-  Zloty (PLN).
+  * Euros (EUR)       
+  * Zloty (PLN)
 
 * Providing first and last name of the customer is mandatory to finalize a Dotpay payment. This can not be entered on the payment page. The transaction will automatically be rejected. 

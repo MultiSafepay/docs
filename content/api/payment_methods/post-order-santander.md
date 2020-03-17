@@ -113,7 +113,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 |-------------------------------|----------|-------------------------------------------------------------------------------------------|
 type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
 gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: SANTANDER. |
-order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                     |
+order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                     |
 currency                        | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 amount                          | integer | The amount (in cents) that the customer needs to pay. In this case minimum 30000.         
 description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping cart' objects for this. |
@@ -124,5 +124,5 @@ ip_address                      | string  | The IP address of the customer. "Req
 forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
 Please note that <i>first_name</i> and <i>last_name</i> in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Betaalplan](/payment-methods/betaalplan/)
+Read more about [Betaalplan](/payment-methods/billing-suite/betaalplan/) on our docuemntation page.
 {{< /description >}}

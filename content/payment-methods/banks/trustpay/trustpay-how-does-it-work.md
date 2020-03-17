@@ -34,7 +34,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Reserved       | Reserved         | A refund has been requested.             | 
 | Completed      | Completed        | Refund has been successfully processed.  | 
 
-The full API reference for TrustPay can be found [here](/api/#trustpay).
+The full API reference for TrustPay can be found [here](/api/#trustpay)
 
 ### Product Rules
 Some rules may apply to certain payment methods. For TrustPay, the following rules apply:

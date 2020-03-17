@@ -14,7 +14,7 @@ __Banks__
 + [Bancontact](/payment-methods/bancontact/)
 + [Bank transfer](/payment-methods/bank-transfer/)
 + [Belfius](/payment-methods/belfius/)
-+ [Direct Debit](/payment-methods/direct-debit/)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 + [Giropay](/payment-methods/giropay/)
 + [iDEAL](/payment-methods/ideal/)
 + [Maestro](/payment-methods/maestro/)

@@ -1,6 +1,5 @@
 ---
 title : "MultiSafepay plugin for Magento 1"
-github_url : ""
 download_url : "/integrations/magento1/releases/Plugin_Magento_2.5.1.zip"
 changelog_url : "."
 changelog: https://docs.multisafepay.com/integrations/plugins/magento1/changelog/

@@ -53,7 +53,7 @@ All parameters shown are required field(s) for a Visa _Redirect_ transaction.
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: redirect.                   |
 | gateway                         | string | Fixed value: [VISA](https://docs.multisafepay.com/credit-and-debit-cards/creditcards/)|
-| order_id                        | <nobr>string\|integer</nobr> | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
+| order_id                        | <nobr>string\|integer</nobr> | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer has to pay.                                     |
 | description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
@@ -63,4 +63,4 @@ All parameters shown are required field(s) for a Visa _Redirect_ transaction.
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Please make sure you check out our dedicated documentation for [Visa](https://docs.multisafepay.com/credit-and-debit-cards/creditcards/)
+Read more about [Visa](/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.

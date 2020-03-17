@@ -13,7 +13,6 @@ Pay-after-delivery methods allow customers to pay only for items they keep from 
 * When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules.
 
 
-
 * When an AfterPay transaction is marked with the status _uncleared_, AfterPay will authorize or decline the transaction
 
 When a transaction has been accepted, the risk of the merchant is assumed entirely by AfterPay. The customer must fulfill the payment to AfterPay within 14 days after the invoice date, unless otherwise agreed upon in writing.
@@ -86,3 +85,6 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 * Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
 * Afterpay requires an additional API key for Belgium. This can be requested directly at Afterpay.
+
+* When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
+

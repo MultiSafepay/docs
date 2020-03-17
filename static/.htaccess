@@ -324,7 +324,15 @@ Redirect 301 /payment-methods/credit-cards/ https://docs.multisafepay.com/paymen
 Redirect 301 /payment-methods/credit-cards/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/
 Redirect 301 /payment-methods/credit-cards/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/
 Redirect 301 /plugins/ https://docs.multisafepay.com/integrations/plugins/
-
-
+Redirect 301 /partners/ https://docs.multisafepay.com/tools/partner-account-control/
+Redirect 301 /partners/faq/what-is-the-kickback-commission-for-partners/ https://docs.multisafepay.com/tools/partner-account-control/
+Redirect 301 /payment-methods/banks/direct-debit/what-is-direct-debit/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#what-is-it
+Redirect 301 /payment-methods/banks/direct-debit/how-does-direct-debit-work/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#how-does-it-work
+Redirect 301 /payment-methods/banks/direct-debit/activate-direct-debit/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#activate
+Redirect 301 /faq/general/can-i-use-multisafepay-with-wix/ https://docs.multisafepay.com/integrations/hosted/ecwid/manual/ 
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
+
+
+#DOCS-855: Remove SSL Certificate Renewal January 2020 page
+Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com

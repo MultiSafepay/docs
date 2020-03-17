@@ -6,46 +6,48 @@ layout: "faqdetail"
 ---
 __Credit cards__
 
-+ [American Express](/payment-methods/creditcards/)
-+ [Mastercard](/payment-methods/creditcards/)
-+ [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
++ [American Express](/payment-methods/credit-and-debit-cards/creditcards/)
++ [Credit cards](/payment-methods/credit-and-debit-cards/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
++ [Mastercard](/payment-methods/credit-and-debit-cards/creditcards/)
++ [Visa](/payment-methods/credit-and-debit-cards/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
 
 __Banks__
 
-+ [Bancontact](/payment-methods/bancontact/)
-+ [Bank transfer](/payment-methods/bank-transfer/)
-+ [Belfius](/payment-methods/belfius/)
-+ [Direct Debit](/payment-methods/direct-debit/)
-+ [Dotpay](/payment-methods/dotpay/)
-+ [EPS](/payment-methods/eps/)
-+ [Giropay](/payment-methods/giropay/)
-+ [iDEAL](/payment-methods/ideal/)
-+ [iDEAL QR](/payment-methods/idealqr/)
-+ [ING Home'Pay](/payment-methods/ing-home-pay/)
-+ [KBC](/payment-methods/kbc/)
++ [Bancontact](/payment-methods/banks/bancontact/)
++ [Bank transfer](/payment-methods/banks/bank-transfer/)
++ [Belfius](/payment-methods/banks/belfius/)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
++ [Dotpay](/payment-methods/banks/dotpay/)
++ [EPS](/payment-methods/banks/eps/)
++ [Giropay](/payment-methods/banks/giropay/)
++ [iDEAL](/payment-methods/banks/ideal/)
++ [iDEAL QR](/payment-methods/banks/idealqr/)
++ [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
++ [KBC](/payment-methods/banks/kbc/)
 + [Maestro](/payment-methods/maestro/)
-+ [SOFORT Banking](/payment-methods/sofort-banking/)
-+ [Trustly](/payment-methods/trustly/)
-+ [TrustPay](/payment-methods/trustpay/)
++ [SOFORT Banking](/payment-methods/banks/sofort-banking/)
++ [Trustly](/payment-methods/banks/trustly/)
++ [TrustPay](/payment-methods/banks/trustpay/)
 
 __Billing suite__
 
-+ [Afterpay](/payment-methods/afterpay/)
-+ [Betaalplan](/payment-methods/betaalplan/)
-+ [E-Invoice](/payment-methods/e-invoicing/)
-+ [Klarna](/payment-methods/klarna)
++ [Afterpay](/payment-methods/billing-suite/afterpay/)
++ [Betaalplan](/payment-methods/billing-suite/betaalplan/)
++ [E-Invoicing](/payment-methods/billing-suite/e-invoicing/)
++ [Klarna](/payment-methods/billing-suite/klarna/)
++ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/)
 
 __Wallet__ 
 
-+ [Alipay](/payment-methods/alipay/)
-+ [PayPal](/payment-methods/paypal/)
-
++ [Alipay](/payment-methods/wallet/alipay/)
++ [PayPal](/payment-methods/wallet/paypal/)
 
 __Prepaid cards__ 
 
-+ Beauty and wellness
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard/)
++ Beauty and Welness gift card
 + Boekenbon
-+ Fashioncheque
++ Fashion Cheque
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon
@@ -53,9 +55,8 @@ __Prepaid cards__
 + Goodcard
 + Nationale tuinbon
 + Parfumcadeaukaart
-+ [Paysafecard](/payment-methods/paysafecard/)
 + Podium
-+ Sport en fit
++ Sport en Fit
 + VVV gift card
 + Webshop gift card
 + Wellness gift card

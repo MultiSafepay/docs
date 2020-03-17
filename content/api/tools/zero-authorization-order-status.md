@@ -84,11 +84,11 @@ weight: 1371
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------| 
-|  order_id	|  string \| integer	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string. Required. (max. 50 chars).|
+|  order_id	|  string \| integer	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. (max. 50 chars).|
 
 
 
 
-Please make sure you check out our dedicated documentation for [Zero Authorization](/tools/zero-authorization/)
+Read more about [Zero Authorization](/tools/zero-authorization/) on our documentation page.
 
 {{% /description %}}

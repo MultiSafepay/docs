@@ -18,7 +18,7 @@ For the majority of payment transactions, retailers are no longer allowed to cha
 * All VISA and Mastercard transactions when the consumer's bank or card issuer and the payment provider of the merchant are both located in a European Economic Area (EEA) state
 * Debit Card transactions (for both individuals and business customers)
 * Standard Bank Transfers (for both individuals and business customers)
-* Direct Debit (for both individuals and business customers).
+* SEPA Direct Debit (for both individuals and business customers).
 
 ## What is allowed?
 Certain payment methods do not fall under the surcharge prohibition, as follows:
@@ -39,7 +39,7 @@ Certain payment methods do not fall under the surcharge prohibition, as follows:
 ## B2C and B2B payments 
 Whereas the new PSD2 is mostly concerned with Business-to-Consumer (B2C) payments, Business-to-Business (B2B) payments are also sometimes affected.
 
-To what concerns B2B payments, credit card payments done by corporate/business customers (corporate/business credit cards) are protected from the ban and can still be surcharged. However, surcharging for direct debit, standard bank transfers and debit card transactions, even if carried out by business customers, are all banned under PSD2. 
+To what concerns B2B payments, credit card payments done by corporate/business customers (corporate/business credit cards) are protected from the ban and can still be surcharged. However, surcharging for SEPA Direct Debit, standard bank transfers and debit card transactions, even if carried out by business customers, are all banned under PSD2. 
 
 
 

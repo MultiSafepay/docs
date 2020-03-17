@@ -10,9 +10,9 @@ This manual helps merchants process MultiSafepay payments as quickly as possible
 
 Installation of the plugin can be done in three ways:
 
-1. SFTP upload
-2. .ZIP file upload in Connect
-3. Via the MarketPlace.
+* SFTP upload
+* .ZIP file upload in Connect
+* Via the MarketPlace.
 
 In this manual we describe the SFTP upload method.
 
@@ -43,7 +43,7 @@ This page contains the configuration options for all gift card supported by Mult
 gift card need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
 
 4. Fastcheckout  
-This page contains the Fastcheckout specific settings. More information about Fastcheckout can be found on the [dedicated page](https://www.multisafepay.com/fastcheckout-payments).
+This page contains the Fastcheckout specific settings. More information about [Fastcheckout](https://www.multisafepay.com/fastcheckout-payments) can be found on our official website.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com> or start a discussion in our dedicated [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

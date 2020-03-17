@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Bancontact
 + Bank transfer
 + Credit cards (combine American Express, Maestro, Mastercard & Visa in checkout)
-+ Direct Debit 
++ SEPA Direct Debit 
 + Giropay 
 + iDEAL 
 + SOFORT Banking.

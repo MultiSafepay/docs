@@ -1,19 +1,19 @@
 ---
-title: "Direct Debit, How does it work?"
+title: "SEPA Direct Debit, How does it work?"
 weight: 21
-meta_title: "Direct Debit, how does it work? - MultiSafepay Support"
+meta_title: "SEPA Direct Debit, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
 ## How does it work?
-As the merchant files the Direct Debit request, an order with status _initialized_ will be created (after MultiSafepay has conducted a background check on the provided customer data).
+As the merchant files the SEPA Direct Debit request, an order with status _initialized_ will be created (after MultiSafepay has conducted a background check on the provided customer data).
 
-Every night, all Direct Debits will be sent to our bank and the status will change to _uncleared_.
+Every night, all SEPA Direct Debits will be sent to our bank and the status will change to _uncleared_.
 From this moment on, it is no longer possible to cancel the transaction.
 
 The next business day, we will receive the first feedback from our bank in case of a wrong IBAN or BIC.
 When the money is received on our end, the order status changes to _completed_, but the transaction status remains _uncleared_.
-The number of days that a Direct Debit has a transaction status _uncleared_ depends on the transaction amount.
+The number of days that a SEPA Direct Debit has a transaction status _uncleared_ depends on the transaction amount.
 
 ### Clearing
 
@@ -48,31 +48,31 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). The chargeback cannot be challenged. | 
 
-The full API reference for Direct Debit can be found [here](/api/#direct-debit).
+The full API reference for SEPA Direct Debit can be found [here](/api/#direct-debit)
 
 
 ### E-mandate
 MultiSafepay creates an e-mandate automatically, based on IBAN and SiteID.
-A Direct Debit can be **First** or **Recurrent**.
+A SEPA Direct Debit can be **First** or **Recurrent**.
 Two different batches are made for this.
 The First orders are processed after 5 days by the bank, while the Recurrent orders after 2 days.
 
 
 ### Chargebacks by customer
-A Direct Debit payment is not fully guaranteed. The customer has 56 days to retrieve the payment that took place. However, when it is an unauthorized transaction (i.e. without verifiable debtor consent) it can even be 13 months. As this process involves staff intervention in both the Debtor Bank and the Creditor Bank the costs can be as high as 65 EUR.
+A SEPA Direct Debit payment is not fully guaranteed. The customer has 56 days to retrieve the payment that took place. However, when it is an unauthorized transaction (i.e. without verifiable debtor consent) it can even be 13 months. As this process involves staff intervention in both the Debtor Bank and the Creditor Bank the costs can be as high as 65 EUR.
 
 ### Product rules
-Some rules may apply to certain payment methods. For Direct Debit, the following rules apply:
+Some rules may apply to certain payment methods. For SEPA Direct Debit, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible with Direct Debit. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is not possible with SEPA Direct Debit. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Successful Direct Debit transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
+* Successful SEPA Direct Debit transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* As a collection payment method, Direct Debit has a different payment flow and the setting of days or seconds active will have no influence. 
+* As a collection payment method, SEPA Direct Debit has a different payment flow and the setting of days or seconds active will have no influence. 
 
        
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
 
-* Payments done through Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through SEPA Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
 

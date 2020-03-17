@@ -36,9 +36,9 @@ Carry out the following 3 tasks within your custom implementation:
 
 ### Note:
 
-1. Always use (http or https) in the URL
-2. A notification URL supplied in your [MultiSafepay Control](https://merchant.multisafepay.com) will be leading. This means that we will use the provided notification URL available in your MultiSafepay Control first 
-3. Port numbers should not be included in the notification URL. Our platform only processes standard ports due to security reasons. 
+* Always use (http or https) in the URL
+* A notification URL supplied in your [MultiSafepay Control](https://merchant.multisafepay.com) will be leading. This means that we will use the provided notification URL available in your MultiSafepay Control first 
+* Port numbers should not be included in the notification URL. Our platform only processes standard ports due to security reasons. 
 
  
 ### Response

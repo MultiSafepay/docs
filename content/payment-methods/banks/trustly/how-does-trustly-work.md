@@ -36,7 +36,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Initialized       | A refund has been requested.                                                            |
 | Completed      | Completed         | Refund has been successfully processed.                                                 |
 
-The full API reference for Trustly cards can be found [here](/api/#trustly).
+The full API reference for Trustly cards can be found [here](/api/#trustly)
 
 
 | Supported plugins                                                                                                                 | Version                      |
@@ -68,6 +68,7 @@ Some rules may apply to certain payment methods. For Trustly, the following rule
 * In exceptional cases, the _uncleared_ status can occur for Trustly. In this case, it is up to Trustly to inform MultiSafepay of the correct status. This can be a _completed_ status, as well as a _declined_ and / or _expired_ status. The _uncleared_ status automatically expires after 5 days.
 
 * Trustly can be offered in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):     
-  * Euros (EUR)       
-  * Pounds (GBP)       
-  * Swedish krona (SEK).
+
+    * Euros (EUR)       
+    * Pounds (GBP)       
+    * Swedish krona (SEK)

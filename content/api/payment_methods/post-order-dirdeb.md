@@ -114,7 +114,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "costs": [
       {
         "transaction_id": 279354751,
-        "description": "0.3 For Direct Debit Transactions",
+        "description": "0.3 For SEPA Direct Debit Transactions",
         "type": "SYSTEM",
         "amount": 0.3
       }
@@ -141,7 +141,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                           | string  | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.
 | gateway                        | string  | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: IDEAL. |
-| order_id                       | integer / string  | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                    |
+| order_id                       | integer / string  | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                    |
 | currency                       | string  | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
@@ -161,7 +161,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 type                             | string | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. |
 gateway                           | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: DIRDEB. |
-order_id                          | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
+order_id                          | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 currency                          | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 amount                            | integer | The amount (in cents) that the customer needs to pay.                                   |
 description                       | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
@@ -176,6 +176,6 @@ ip_address                        | string  | The IP address of the customer. "R
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
 
-Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/)
+Read more about [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) on our docuemntation page.
 
 {{< /description >}}

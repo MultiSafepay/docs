@@ -132,16 +132,16 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ### Credit Cards Server to Server
 
-This is a standard credit card API [direct order request](https://docs.multisafepay.com/api/#creates-a-direct-order). The gateway has been set to __CREDITCARD__. In this case, the type of credit card will be detected based on the first four digits.
+This is a standard credit card API [direct order request](https://docs.multisafepay.com/api/#creates-a-direct-order) The gateway has been set to __CREDITCARD__. In this case, the type of credit card will be detected based on the first four digits.
 
-__Please note: Server to Server must first be enabled by our Risk department. Read our [dedicated documentation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server/) for activation.__ 
+__Please note: Server to Server must first be enabled by our Risk department. Read more about [activation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server/) on our documentation page.__ 
 
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                           | string    | Specifies the payment flow for the checkout process. Options: direct.       |
 | gateway                        | string    | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: VISA, MASTERCARD, AMERICAN EXPRESS, MAESTRO and CREDITCARD. |
-| order_id                       | integer / string    | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                  |
+| order_id                       | integer / string    | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                  |
 | currency                       | string    | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer   | The amount (in cents) that the customer needs to pay.        |
 | description                    | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
@@ -156,8 +156,8 @@ __Please note: Server to Server must first be enabled by our Risk department. Re
 | card_number                    | string    | Full credit card number. |
 | card_holder_name               | string    | Name on the credit card. |
 | card_expiry_date               | string    | Card expire date. |
-| card_cvc                       | string    | Card CVC number. This might vary depending of the card type. Some cards like MAESTRO may not be required. |
+| card_cvc                       | string    | Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions. |
 
 
-Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/)
+Read more about [Server to Server](/tools/server2server/) on our documentation page.
 {{% /description %}}

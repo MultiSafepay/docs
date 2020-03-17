@@ -22,7 +22,7 @@ MultiSafepay can challenge the chargeback on your behalf, but to do so, we need 
 * Signed proof of delivery
 * Print- screens of (email) contacts you may have had with the cardholder.
 
-The full documentation on how to upload the files via an API request can be accessed [here]](/api/#chargeback).
+The full documentation on how to upload the files via an API request can be accessed [here]](/api/#chargeback)
 
 The MultiSafepay chargeback team will decide on whether the chargeback can be challenged, based on the quality of the delivered proof.
 

@@ -15,6 +15,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "company_name": "Company name Partner",
     "address1": "Kraanspoor",
     "address2": "",
+    "house_number": "39C"
     "zip_code": "1033SC",
     "city": "Amsterdam",
     "email": "",
@@ -57,6 +58,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Create a merchant account
+
+__Please note: This API call currently only works in a 'Live' environment. The functioning of this API call in the 'Test' environment will follow.__ 
+
+If you have any questions, please contact <integration@multisafepay.com>
 
 | Parameter                   | Type      | Description                                                                                |
 |-----------------------------|-----------|--------------------------------------------------------------------------------------------|

@@ -4,6 +4,7 @@ weight:
 meta_title: "FAQ Getting Started - Glossary - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 tags: 'hidden'
+read_more: "."
 ---
 
 ### 3D Secure
@@ -33,7 +34,7 @@ The selling party of goods and services to the customer via ecommerce webshop or
 The environment where merchants can see their transactions and settings from within their MultiSafepay Account. This environment also allows the merchant to update and refund orders as well as update their company's information. The MultiSafepay Control can be reached at: https://merchant.multisafepay.com
 
 ### Payment Method
-The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods).
+The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods)
 
 ### Payment Service Provider (PSP)
 Company that enables merchants with the ability to accept multiple types of electronic payment methods, by combining the functions of a payment gateway and a payment processor. The PSP can link financial institutions (acquirers, issuers), card and payment schemes and merchants, managing the relationship between them as a service. The payment service provider has the responsibility to ensure a secure and reliable delivery of electronic payment services. MultiSafepay offers a seamless and efficient streamlined payment process, by combining the functions of a gateway, processor and acquirer.
@@ -55,4 +56,8 @@ Refers to the status of a credit card transaction that has been received, but ha
 
 ### Website
 A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com) Websites serve a multitude of purposes, such as information, entertainment or service-offering.
+
+### CVC
+
+Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
 

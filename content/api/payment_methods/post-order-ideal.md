@@ -151,7 +151,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type                           | string  | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.
 | gateway                        | string  | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: IDEAL. |
-| order_id                       | integer / string  | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                    |
+| order_id                       | integer / string  | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                    |
 | currency                       | string  | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer  | The amount (in cents) that the customer needs to pay.                                   |
 | description                    | string  | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customer`s bank statement. |
@@ -177,7 +177,7 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 | issuer_id                      | integer   | The unique identifier of the [issuer](#gateway-issuers)                                   |
 
 
-Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/)
+Read more about [iDEAL](/payment-methods/banks/ideal/) on our documentation page.
 
 {{< /description >}}
 

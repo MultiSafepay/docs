@@ -1,0 +1,19 @@
+{
+    "type": "redirect",
+    "order_id": "my-order-id-1",
+    "currency": "EUR",
+    "amount": 1000,
+    "gateway": "CREDITCARD",
+    "description": "Test Order Description",
+    "payment_options": {
+        "notification_url": " http://www.example.com/client/notification?type=notification",
+        "redirect_url": " http://www.example.com/client/notification?type=redirect ",
+        "cancel_url": " http://www.example.com/client/notification?type=cancel ",
+        "close_window": true
+    },
+    "customer": {
+        "locale": "it_IT",
+        "ip_address": "89.20.162.110",
+        "email": "example@multisafepay.com"
+    }
+}

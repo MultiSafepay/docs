@@ -630,7 +630,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 |----------------------------------|----------|----------------------------------------------------------------------------------------|
 | type                             | string | Specifies the payment flow for the checkout process. Options: direct, redirect.        |
 | gateway                          | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYAFTER. |
-| order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                  |
+| order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                  |
 | currency                         | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                           | integer | The amount (in cents) that the customer needs to pay.                                  |
 | description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
@@ -650,7 +650,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/)
+Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
 
 ### Direct - Pay After Delivery
  Creates a direct request Pay After Delivery order.
@@ -661,7 +661,7 @@ Make sure you check out our dedicated documentation for [Pay After Delivery](/pa
 |----------------------------------|----------|----------------------------------------------------------------------------------------|
 | type                             | string | Specifies the payment flow for the checkout process. Options: direct, redirect.        |
 | gateway                          | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYAFTER. |
-| order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                  |
+| order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                  |
 | currency                         | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                           | integer | The amount (in cents) that the customer needs to pay.                                  |
 | description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
@@ -681,5 +681,6 @@ Make sure you check out our dedicated documentation for [Pay After Delivery](/pa
 
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/)
+Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
+
 {{< /description >}}

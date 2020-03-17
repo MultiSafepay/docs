@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Bancontact
 + Bank transfer
 + Belfius
-+ Direct Debit
++ SEPA Direct Debit
 + Dotpay
 + EPS
 + Giropay
@@ -18,7 +18,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Mastercard
 + PayPal
 + SOFORT Banking
-+ Visa (including CartaSi, Cartes Bancaires & Dankort).
++ Visa (including CartaSi, Cartes Bancaires & Dankort)
++ American Express
 
 __Gift cards__
 

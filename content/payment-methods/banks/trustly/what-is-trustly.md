@@ -6,7 +6,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## What it is
-Trustly is a popular payment method used for online shopping and gaming. Within MultiSafepay, Trustly can easily be integrated and processed within most [supported MultiSafepay plugins](/integrations/) Trustly is fast, simple and secure, and it is supported in 29 countries, as follows: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom.
+Trustly is a popular payment method used for online shopping and gaming. Within MultiSafepay, Trustly can easily be integrated and processed within most [supported MultiSafepay plugins](/integrations/) 
+
+Trustly is fast, simple and secure, and it is supported in 29 countries, as follows: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom.
 
 Your customers are able to pay from the account of their choice, using their familiar banking credentials.
 

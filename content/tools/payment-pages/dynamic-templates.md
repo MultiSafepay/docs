@@ -20,7 +20,7 @@ Whenever you have stored a template, you can call it through the first-level JSO
 
 
 ## 2. Provide 'template' object structure within the transaction request
-MultiSafepay also offers real-time styling of the templates. This means you can change the look and feel of a payment page per transaction on the fly. See the template code on our [API documentation page](https://docs.multisafepay.com/api/#dynamic-styling).
+MultiSafepay also offers real-time styling of the templates. This means you can change the look and feel of a payment page per transaction on the fly. See the template code on our [API documentation page](https://docs.multisafepay.com/api/#dynamic-styling)
 
 1. Login to your [MultiSafepay Control](https://merchant.multisafepay.com/)
 2. Style the template via the editor

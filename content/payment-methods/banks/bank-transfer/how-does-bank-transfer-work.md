@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## How does it work?
 When the customer selects bank transfer as payment method, the bank account details of MultiSafepay will be sent by email. Based on the settings, the sender can be MultiSafepay itself or your ecommerce platform. The email will be sent to the email address provided by the customer when placing the order.
 
-When the bank transfer is confirmed by the customer, the transaction will be visible in your overview with the status _initialized_. The customer needs to transfer the payment from his or her bank MultiSafepay's bank account. This can be done through online banking or in person via a bank teller.
+When the bank transfer is confirmed by the customer, the transaction will be visible in your overview with the status _initialized_. The customer needs to transfer the payment from his or her bank to MultiSafepay's bank account. This can be done through online banking or in person via a bank teller.
 
 > _Please be advised that it can take between 1 and 3 business days for the funds to appear in the receiving account_.
 
@@ -59,13 +59,9 @@ Full documentation can be found on our [lifetime of a payment link](/faq/api/lif
 
 * Payments done through bank transfers can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
 
-     Euros (EUR)
-
-     Pounds (GBP)
-
-     Czech koruna (CZK)
-
-      Hungarian forint (HUF)
-
-      Polish złoty (PLN).
+     * Euros (EUR)
+     * Pounds (GBP)
+     * Czech koruna (CZK)
+     * Hungarian forint (HUF)
+     * Polish złoty (PLN)
 
