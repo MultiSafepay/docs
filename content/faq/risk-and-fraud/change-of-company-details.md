@@ -7,7 +7,7 @@ read_more: "."
 If there are any changes in your company details like the address, director, UBO or in your company form, MultiSafepay should be informed. 
 
 * For changes in address, please send an email to <support@multisafepay.com>
-* For changes in the company, directors or UBO, please inform our Risk Team at <screening@multisafepay.com> and mention your MultiSafepay account number. 
+* For changes in the company, directors or UBO, please inform our Risk Team at <risk@multisafepay.com> and mention your MultiSafepay account number. 
 
 MultiSafepay will request new documentation, like UBO statements or copies of identification documents. 
 If a different company will take over the account, we advise you to open a **new** account via [www.multisafepay.com](https://www.multisafepay.com/), to ensure that the money flow is separated. Please make sure all company details on the website(s) are updated as well, like company registration number, VAT number and address. It is not allowed to show different company details of the website than the details registered in the account.
@@ -19,7 +19,7 @@ A payment in the amount of 1 EUR transferred from your business bank account (yo
 
 _Important: The company name on your bank statement must be an exact match with one of the trade names on your Chamber of Commerce extract_.
 
-The new bank account will be verified within 5 business days. Please note that we only accept business bank accounts (no private bank accounts) and bank accounts that are registered on the official company name. If you would like to deactivate an old bank account, please inform us via <screening@multisafepay.com> 
+The new bank account will be verified within 5 business days. Please note that we only accept business bank accounts (no private bank accounts) and bank accounts that are registered on the official company name. If you would like to deactivate an old bank account, please inform us via <risk@multisafepay.com> 
 
 Do not forget to mention your Account ID. 
 

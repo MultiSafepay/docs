@@ -45,6 +45,6 @@ This information is in accordance with Dutch (and European) rules and regulation
 
 _Please note that there is a possibility that your request to process credit cards will be denied, e.g. because a certain product category is not allowed by a processing bank._
 
-Do you have any questions about this process? You can contact our Risk Team at <screening@multisafepay.com>
+Do you have any questions about this process? You can contact our Risk Team at <risk@multisafepay.com>
 
 _Disclaimer: The information on this website is intended as general information. No rights can be derived from this information. While the information on this page has been compiled by MultiSafepay with the utmost attention to detail, we do not accept liability for any errors or omissions. By using this page and / or using the information provided on or via this website, you agree to the applicability of this disclaimer._

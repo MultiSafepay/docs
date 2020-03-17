@@ -9,7 +9,7 @@ If you would like to add a new bank account for payouts, please add the new IBAN
 
 _Important: The company name on your bank statement must be an exact match with one of the trade names on your Chamber of Commerce extract_.
 
-The new bank account will be verified within 5 business days. Please note that we only accept business bank accounts (no private bank accounts) and bank accounts that are registered on the official company name. If you would like to deactivate an old bank account, please inform us via <screening@multisafepay.com> 
+The new bank account will be verified within 5 business days. Please note that we only accept business bank accounts (no private bank accounts) and bank accounts that are registered on the official company name. If you would like to deactivate an old bank account, please inform us via <risk@multisafepay.com> 
 
 Do not forget to mention your Account ID. 
 
