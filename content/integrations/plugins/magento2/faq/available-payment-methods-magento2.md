@@ -39,6 +39,7 @@ __Billing suite__
 
 __Wallet__ 
 
++ [Apple Pay](/payment-methods/wallet/applepay/)
 + [Alipay](/payment-methods/wallet/alipay/)
 + [PayPal](/payment-methods/wallet/paypal/)
 
