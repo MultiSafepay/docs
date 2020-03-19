@@ -1,5 +1,5 @@
 const scrollOffset = (id, offset) => {
-    let target = document.querySelector(id);
+    let target = document.getElementById(id);
     if (target) {
         let y = target.getBoundingClientRect().top + window.scrollY - offset;
         window.scroll(0, y);

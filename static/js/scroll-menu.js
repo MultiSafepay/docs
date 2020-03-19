@@ -12,11 +12,11 @@ window.addEventListener('load', () => {
         onClick: (e) => {
             e.preventDefault();
             window.location.hash = e.target.hash;
-            scrollOffset(e.target.hash, offset);
+            scrollOffset(e.target.hash.replace('#', ''), offset);
         }
     });
 
     if (location.hash !== "") {
-        scrollOffset(location.hash, offset);
+        scrollOffset(location.hash.replace('#', ''), offset);
     }
 });
