@@ -13,7 +13,7 @@ As a webshop owner it is very important and relevant to know who your customers 
 With the Sales Reports you will have direct access in all data regarding your sales. You can see from which countries your customers are coming from, which devices they use and which payment methods they use.
 
 * Per Country
-* Per Payment method
+* Per Payment Method
 * Per Device
 * Per Website
 * Per Day
@@ -24,7 +24,7 @@ With the Sales Reports you will have direct access in all data regarding your sa
 With the Conversion Report you get great insights in your websites conversion rates. You can easily see what the conversion rates for each website are, but also for example the conversion rate, per device, per country and per payment method.
 
 * Per Country
-* Per payment method
+* Per Payment Method
 * Per Device
 * Per Website
 * Per Day
