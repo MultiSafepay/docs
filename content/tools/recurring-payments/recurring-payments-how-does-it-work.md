@@ -21,9 +21,9 @@ Through SEPA Direct Debit, payments from international bank account numbers (IBA
 
 Full API documentation on SEPA Direct Debit can be found on [SEPA Direct Debit explained](/payment-methods/banks/sepa-direct-debit/)
 
-<div class="alert alert-warning"> The first payment for a SEPA Direct Debit collection is received and/or processed by the payment methods iDEAL, SOFORT Banking or SEPA Direct Debit. Upon successful completion of the payment, a recurring_id will be displayed in the response upon retrieving the order details only when recurring payment are enbled for that specific MultiSafepay Account.</div>
+{{< alert-notice >}}  The first payment for a SEPA Direct Debit collection is received and/or processed by the payment methods iDEAL, SOFORT Banking or SEPA Direct Debit. Upon successful completion of the payment, a recurring_id will be displayed in the response upon retrieving the order details only when recurring payment are enbled for that specific MultiSafepay Account.{{< /alert-notice >}} 
 
-<div class="alert alert-warning"> It is important to note that recurring ID’s retrieved using a credit card cannot be processed when the gateway is set to DIRDEB (SEPA Direct Debit). In this case, the gateway must be set to the specific credit card e.g. ‘VISA’, ‘MASTERCARD’. Thus, only recurring ID’s retrieved by SEPA IBAN payments can be processed by DIREDEB. This allows recurring payments to be deducted with SEPA Direct Debit payment methods such as iDEAL or SOFORT.</div>
+{{< alert-notice >}} It is important to note that recurring ID’s retrieved using a credit card cannot be processed when the gateway is set to DIRDEB (SEPA Direct Debit). In this case, the gateway must be set to the specific credit card e.g. ‘VISA’, ‘MASTERCARD’. Thus, only recurring ID’s retrieved by SEPA IBAN payments can be processed by DIREDEB. This allows recurring payments to be deducted with SEPA Direct Debit payment methods such as iDEAL or SOFORT. {{< /alert-notice >}} 
 
 ### Pre-notification
 According to European law, merchants who use recurring payments should inform their customers about any charges being made. This can be done by email, but it is sufficient to include this in your General Terms & Conditions provided the customer has explicitly agreed to those Terms & Conditions.

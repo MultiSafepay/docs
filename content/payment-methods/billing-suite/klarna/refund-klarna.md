@@ -42,7 +42,7 @@ A new payment link is generated and sent to the customer with the adjusted invoi
 ## Add a discount
 Instead of deleting an item in the checkout editor you may want to add a discount. Please follow these steps:
 
-###### Submitting a discount with the payment method Klarna is processed on a __negative amount__ instead of on a __negative quantity__. This method of adding a discount only applies to a successfully placed Klarna transaction. More information about how to add a discount before the transaction request is submitted to MultiSafepay is available on our [API Documentation page](/api/#discount)
+{{< alert-notice >}} Submitting a discount with the payment method Klarna is processed on a __negative amount__ instead of on a __negative quantity__. This method of adding a discount only applies to a successfully placed Klarna transaction. More information about how to add a discount before the transaction request is submitted to MultiSafepay is available on our [API Documentation page](/api/#discount) {{< /alert-notice >}}
 
 
 1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)

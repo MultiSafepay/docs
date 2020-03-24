@@ -11,7 +11,7 @@ Testing with our test credentials can only be done in you MultiSafepay Test Cont
 
 With a successful connection with your test or staging environment, you can immediately start testing.
 
-<div class="alert alert-warning">Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control.</div>
+{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control. {{< /alert-notice >}} 
 
 If assistance is required, contact our Integration Team at <integration@multisafepay.com>
 
