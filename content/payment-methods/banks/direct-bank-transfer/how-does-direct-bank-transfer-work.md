@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## How does it work?
 
-Direct Bank Transfs works in such a way that consumers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the consumer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
+Direct Bank Transfer works in such a way that consumers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the consumer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
 
 Direct Bank Transfer reduces cost and risk, enabling faster settlement, providing simplified reconciliation.
 
