@@ -32,7 +32,7 @@ Direct Bank Transfer transactions received by MultiSafepay will be processed dir
 | Declined     | Declined     | Deutsche Bank or the consumer bank rejects the payment.  | 
 | Void        | Void    | The consumer cancels the payment on the Deutsche Bank payment interface.   | 
 
-### Refund flow
+## Refund flow
 
 _Please note that refunds are processed by Deutsche Bank._
 
@@ -40,7 +40,7 @@ _Please note that refunds are processed by Deutsche Bank._
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Declined     | Declined   | TO BE COMPLETED      |               
+| Declined     | Declined   | Refund has been declined.      |               
 
 The full API reference for Direct Bank Transfer can be found [here](https://docs.multisafepay.com/api/#directbanktransfer)
 
@@ -54,4 +54,4 @@ Direct Bank Transfer has a number of product rules which are the following:
 
 * Direct Bank Transfer can only process transactions in Euros (EUR)
 
-* A minimum of 1 EUR and maximum of 15,000 EUR exist for Direct Babnk Transfer transactions.
+* A minimum of 1 EUR and maximum of 15,000 EUR exist for Direct Bank Transfer transactions.

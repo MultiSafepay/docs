@@ -8,4 +8,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 _Currently, Direct Bank Transfer is in the piloting stage of release. If you would like to be part of this pilot phase, please follow the instructions below._
 
-We would kindly invite you to contact our Risk department at risk@multisafepay.com if you would like to know more about the activation of Direct Bank Transfer for your website.
+With MultiSafepay, Direct Bank Transfer is an additional (non-standard) payment method.
+
+You can submit the application to activate the payment method through one of our account managers at <sales@multisafepay.com>
