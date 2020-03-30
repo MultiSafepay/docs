@@ -1278,6 +1278,12 @@ h6 {
     text-decoration: none;
 }
 
+.cc-btn:hover{
+    text-decoration: none !important;
+    background: #686868 !important;
+    color: #000 !important;
+}
+
 .cc-deny{
 
     border-radius: 5px;
