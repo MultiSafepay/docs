@@ -1278,14 +1278,12 @@ h6 {
     text-decoration: none;
 }
 
-.cc-btn:hover{
+.cc-deny:hover{
     text-decoration: none !important;
-    background: #686868 !important;
-    color: #000 !important;
+    color: #F85481 !important;
 }
 
 .cc-deny{
-
     border-radius: 5px;
     margin-bottom: .5em;
     box-shadow: 0 0 0 1px;
@@ -1303,4 +1301,13 @@ h6 {
     margin-left: 0 !important;
     border: 0px;
     padding: 8px 12px;
+}
+
+.cc-allow:hover {
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(top, #f94f77, #B13754);
+    background-image: -moz-linear-gradient(top, #f94f77, #B13754);
+    background-image: -ms-linear-gradient(top, #f94f77, #B13754);
+    background-image: -o-linear-gradient(top, #f94f77, #B13754);
+    background-image: linear-gradient(to bottom, #f94f77, #B13754);
 }
