@@ -1303,11 +1303,32 @@ h6 {
     padding: 8px 12px;
 }
 
-.cc-allow:hover {
+.cc-allow:hover, .primary:hover {
     text-decoration: none;
     background-image: -webkit-linear-gradient(top, #f94f77, #B13754);
     background-image: -moz-linear-gradient(top, #f94f77, #B13754);
     background-image: -ms-linear-gradient(top, #f94f77, #B13754);
     background-image: -o-linear-gradient(top, #f94f77, #B13754);
     background-image: linear-gradient(to bottom, #f94f77, #B13754);
+}
+
+#whats-new-block h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+#whats-new-block h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.whats-new-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.whats-new-image {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
 }

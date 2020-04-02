@@ -15,6 +15,11 @@
 <div class="container">
     {{ partial "blocklist" . }}
 </div>
+<div class="container">
+    {{ if  .IsHome }}
+        {{ partial "whats-new" . }}
+    {{end}}
+</div>
 <div>
     {{ partial "call_to_action" . }}
 </div>

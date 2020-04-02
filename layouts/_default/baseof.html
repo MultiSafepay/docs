@@ -97,6 +97,7 @@
         {{ if not .IsHome }}
         {{ partial "breadcrumb" .}}
         {{ end }}
+        
         {{ block "main" . }}{{ end }}
         {{ if not .IsHome }}
 
