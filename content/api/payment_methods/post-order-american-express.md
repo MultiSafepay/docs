@@ -41,9 +41,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 {{< description >}}
 ## American Express
-The customer will be redirected to a payment page of MultiSafepay for this credit card. The customer will be requested to fill in his credit card credentials.
 
-All parameters shown are required.
+Creates an Amserican Express Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

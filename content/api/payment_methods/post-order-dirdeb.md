@@ -129,13 +129,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## SEPA Direct Debit
 ### Redirect
-When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html), the transaction data is checked.    
 
-* If approved, we return the status `initialized`.
-* After midnight, the transaction will be forwarded to our bank and the status changes to `uncleared`.
-* Once the funds are received on our bank account, the status changes to `completed`.
+Creates a SEPA Direct Debit Redirect order.
 
-* All parameters shown are required field(s)
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type      | Description                                                                             |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -155,7 +154,11 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 
 ### Direct
 
-* All parameters shown are required field(s)
+Creates a SEPA Direct Debit Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

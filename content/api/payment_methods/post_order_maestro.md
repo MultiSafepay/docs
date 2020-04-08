@@ -43,7 +43,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Maestro
 
-* All parameters shown are required field(s) for a [Maestro](https://docs.multisafepay.com/payment-methods/banks/maestro/) Redirect transaction.
+Creates a Maestro Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|----------------------------------------------------------------------------------------|
@@ -57,6 +61,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | notification_url                | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)|
 | redirect_url                    | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment. | 
-
 
 Read more about [Maestro](/payment-methods/credit-and-debit-cards/maestro/) on our documentation page.

@@ -621,10 +621,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Pay After Delivery
-### Redirect - Pay After Delivery
- Creates a redirect request Pay After Delivery order.
+### Redirect
 
-* All parameters shown are required field(s)
+Creates a Pay After Delivery Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                        | Type     | Description                                                                            |
 |----------------------------------|----------|----------------------------------------------------------------------------------------|
@@ -652,10 +655,13 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
 
-### Direct - Pay After Delivery
- Creates a direct request Pay After Delivery order.
+### Direct
 
-* All parameters shown are required field(s)
+Creates a Pay After Delivery Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                        | Type     | Description                                                                            |
 |----------------------------------|----------|----------------------------------------------------------------------------------------|

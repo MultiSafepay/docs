@@ -44,8 +44,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## Co-branded credit card 
 
+Creates a Co-branded credit card Redirect order.
 
-* All parameters shown are required field(s)
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

@@ -149,10 +149,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## PayPal
 ### Redirect
-* All parameters shown are required field(s) for a PayPal redirect transaction.
 
-| Parameter                       | Type     | Description                                                                             |
-|---------------------------------|----------|-----------------------------------------------------------------------------------------|
+Creates a PayPal Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
+
+| Parameter                      | Type     | Description                                                                              |
+|--------------------------------|----------|------------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. |
 | gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYPAL. |
 | order_id:                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
@@ -166,10 +171,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
 
 ### Direct
-* All parameters shown are required field(s) for a PayPal direct transaction.
+Creates a PayPal Direct order.
 
-| Parameter                       | Type     | Description                                                                             |
-|---------------------------------|----------|-----------------------------------------------------------------------------------------|
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
+
+
+| Parameter                      | Type     | Description                                                                              |
+|--------------------------------|----------|------------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. |
 | gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYPAL. |
 | order_id:                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
@@ -178,7 +188,6 @@ Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation p
 | description:                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’or ‘shopping_cart’ objects for this. |
 | payment_options:                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
 | customer                        | object | Contains the personal information of the customer.                                         |
-
 
 Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
 

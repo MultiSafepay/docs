@@ -42,7 +42,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## EPS
-* All parameters shown are required field(s)
+
+Creates an EPS Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|

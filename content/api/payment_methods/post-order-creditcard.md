@@ -42,9 +42,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Credit Cards
-In this payment method the customer will be redirected to a credit card payment page of MultiSafepay.  The customer will be requested to fill in their credit card credentials. MultiSafepay will automatically detect which credit card is being used based on the first couple of digits.
 
-All parameters shown are required.
+Creates a Credit Card Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

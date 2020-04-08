@@ -135,7 +135,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Direct Bank Transfer
 
-All parameters shown are required field(s) for a Direct Bank Transfer _Redirect_ transaction:
+Creates a Direct Bank Transfer Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
@@ -151,9 +155,13 @@ All parameters shown are required field(s) for a Direct Bank Transfer _Redirect_
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-### Direct Bank Transfer Direct
+### Direct Bank Transfer
 
-All parameters shown are required field(s) for a Apple Pay _Direct_ transaction.
+Creates a Direct Bank Transfer Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

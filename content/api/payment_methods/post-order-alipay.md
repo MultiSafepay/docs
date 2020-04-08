@@ -144,7 +144,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## Alipay
 ### Redirect
-* All parameters shown are required field(s) for an Alipay redirect transaction.
+Creates a Alipay Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -161,7 +165,11 @@ Read more about [Alipay](/payment-methods/alipay/) on our documentation page.
 
 ### Direct
 
-* All parameters shown are required field(s) for an Alipay direct transaction.
+Creates a Alipay Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|

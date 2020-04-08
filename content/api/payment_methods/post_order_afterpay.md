@@ -544,14 +544,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 
 ## AfterPay
-### Direct - AfterPay
-
+### Direct
 
 Creates an AfterPay order to be paid after delivery.
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All parameters shown are required field(s):
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
@@ -577,13 +576,13 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [AfterPay](/payment-methods/afterpay/) on our documentation page.
 
-### Redirect - AfterPay
+### Redirect
 
 Creates an AfterPay order to be paid after delivery.
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All parameters shown are required field(s):
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|

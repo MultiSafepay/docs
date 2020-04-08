@@ -142,11 +142,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-### Redirect - iDEAL
+### Redirect
+
+Creates a iDEAL Redirect order.
 
 In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
-* All parameters shown are required field(s)
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type      | Description                                                                             |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -166,8 +170,12 @@ In the case of a _Redirect_ transaction, the consumer will be sent to the MultiS
 
 
 ### Direct - iDEAL
+Creates a iDEAL Direct order.
 
 In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
+
+* Direct transaction requires all fields completed properly
+
 
 * All parameters shown are required field(s)
 

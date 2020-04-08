@@ -75,7 +75,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Apple Pay
 
-All parameters shown are required field(s) for a Apple Pay _Redirect_ transaction. 
+Creates an Apple Pay Redirect order.
+
+* Redirect transaction requires all fields completed properly.
 
 __How to detect Apple Pay on a device__
 
@@ -89,6 +91,8 @@ try {
     }
 ```
 If this code is not implemented in your back-end platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay, thus we highly reccomend using the abovementioned code to avoid any issues.
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
@@ -106,12 +110,15 @@ If this code is not implemented in your back-end platform, consumers choosing Ap
 
 ### Apple Pay Direct
 
-All parameters shown are required field(s) for a Apple Pay _Direct_ transaction. Please note this is a  simply a _Redirect_ call with 'APPLEPAY' pre-selected.
+Creates an Apple Pay Direct order.
+
+Please note this is a  simply a _Redirect_ call with 'APPLEPAY' pre-selected.
+
+* Direct transaction requires all fields completed properly
 
 It must be noted that the 'gateway' parameter for the Apple Pay direct transaction __must be set to 'APPLEPAY'__ in order for Apple Pay to be preselected on the payment page. The payment page will detect whether the device being used supports Apple Pay or not.
 
 If the device supports Apple Pay, the user will be directed to the Apple Pay interface where a payment can be completed. If the device does not support Apple Pay, an error will be displayed. The following code will allow the detection of Apple Pay. This can be implemented to your platform:
-
 
 __How to detect Apple Pay on a device__
 
@@ -124,6 +131,8 @@ try {
     console.debug('An error occurred while verifying if Apple Pay is available:', error);
     }
 ```
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

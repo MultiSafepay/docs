@@ -157,7 +157,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## KBC
 ### Redirect
 
-* All parameters shown are required field(s)
+Creates a KBC Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -175,7 +179,11 @@ Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
 
 ### Direct
 
-* All parameters shown are required field(s)
+Creates a KBC Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|

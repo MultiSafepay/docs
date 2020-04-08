@@ -107,7 +107,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Santander Betaalplan
-* All parameters shown are required field(s)
+Creates a Santander Betaalplan Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                     | Type     | Description                                                                               |
 |-------------------------------|----------|-------------------------------------------------------------------------------------------|

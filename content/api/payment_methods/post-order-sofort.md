@@ -159,7 +159,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## SOFORT
 ### Redirect
-* All parameters shown are required field(s) for a SOFORT redirect transaction.
+Creates a SOFORT Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
@@ -177,7 +181,11 @@ Read more about [SOFORT Banking](/payment-methods/sofort-banking/) on our docume
 
 
 ### Direct
-* All parameters shown are required field(s) for a SOFORT direct transaction.
+Creates a SOFORT Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

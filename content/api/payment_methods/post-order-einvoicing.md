@@ -583,11 +583,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## E-invoicing
-### Direct - E-invoicing
+### Direct
 
-Creates a direct E-Invoice order to be paid after delivery.
+Creates a E-invocing Direct order to be paid after delivery
 
-* All parameters shown are required field(s)
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -614,11 +616,13 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing/) on our documentation page.
 
-### Redirect - E-invoicing
+### Redirect
 
-Creates a redirect E-Invoice order to be paid after delivery.
+Creates a E-invoicing Redirect order to be paid after delivery.
 
-* All parameters shown are required field(s)
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|

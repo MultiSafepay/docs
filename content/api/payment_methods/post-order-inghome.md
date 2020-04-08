@@ -117,7 +117,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## ING Home'Pay
 ### Direct
-* All parameters shown are required field(s) for an ING Home’Pay direct transaction.
+
+Creates an ING Home'Pay Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|
@@ -134,7 +139,11 @@ customer                       | object | Contains personal information about th
 Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay/) on our documentation page.
 
 ### Redirect
-* All parameters shown are required field(s) for an ING Home’Pay redirect transaction.
+Creates an ING Home'Pay Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|

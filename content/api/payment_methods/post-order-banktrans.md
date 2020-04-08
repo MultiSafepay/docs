@@ -155,9 +155,13 @@ __Please note: The parameter 'email' must be present, otherwise MultiSafepay wil
 
 {{< description >}}
 ## Bank transfer
-### Redirect - Bank transfer
+### Redirect
 
-The bank transfer payment method can either be a direct or redirect order. In this case, the API calls for a __redirect order__ are illustrated; therefore the customer will be redirected to the MultiSafepay payment page. Read more about creating a [redirect order](/api/#orders)
+Creates a Bank Transfer Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -181,8 +185,13 @@ The bank transfer payment method can either be a direct or redirect order. In th
 Read more about [bank transfers](/payment-methods/bank-transfer/) on our documentation page.
 
 
-### Direct - Bank transfer
-* All parameters shown are required field(s)
+### Direct
+
+Creates a Bank Transfer Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|

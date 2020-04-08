@@ -47,7 +47,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Visa
 
-All parameters shown are required field(s) for a Visa _Redirect_ transaction.
+Creates a Visa Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|

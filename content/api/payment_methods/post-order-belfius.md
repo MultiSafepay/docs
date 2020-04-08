@@ -119,7 +119,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## Belfius
 ### Redirect
-* All parameters shown are required field(s) for a Belfius __Redirect__ transaction.
+
+Creates a Belfius Redirect order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|
@@ -134,7 +139,11 @@ customer                       | object |                                       
 
 ### Direct
 
-* All parameters shown are required field(s) for a Belfius __Direct__ transaction.
+Creates a Belfius Direct order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|
