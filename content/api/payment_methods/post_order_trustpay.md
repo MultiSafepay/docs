@@ -48,7 +48,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## TrustPay
 
-Creates a Trustpay Redirect order.
+Creates a TrustPay Redirect order.
 
 * Redirect transaction requires all fields completed properly
 
