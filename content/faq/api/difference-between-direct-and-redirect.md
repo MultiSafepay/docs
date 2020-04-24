@@ -8,15 +8,15 @@ read_more: "."
 
 On our API section, you will often see the terms 'Direct' and 'Redirect' being used. In this section, we will explain the difference between the two API calls.
 
-### What is a Direct transaction?
+### Direct
 
-A Direct transaction will simply skip the MultiSafepay payment page and take you directly to the payment page of the payment method selected. Therefore the payment will be also completed directly through the selected payment method.
+A Direct transaction will simply connect you directly to the chosen payment method and will either provide a direct link to the payment method or perform the transaction immediatley without the customer having to do anything. Direct transactions can also be carried out on a continuous basis with automated payments, such as [Recurring payments](/tools/recurring-payments/)
 
-_For example, pre-selecting 'IDEAL' as the gateway will take you directly to the payment page of iDEAL, where you will be then able to select the bank you wish to pay with._
+_For example, pre-selecting 'IDEAL' as the gateway will take you directly to the payment page of iDEAL, where you will be then able to select the bank you wish to pay with (a valid IssuerID must also be provided only for an iDEAL transaction)_
 
-### What is a Redirect transaction?
+### Redirect
 
-A Redirect transaction will take you to the MultiSafepay payment page where you be presented with the payment method based on what you have pre-selected in the gateway of the API call. 
+A Redirect transaction will take you to the [MultiSafepay payment page](https://payv2.multisafepay.com/connect/120OzLYbbgEa33TfYqAWZ4bzhGugADVqzNr/?lang=es_ES) where you be presented with the payment method based on what you have pre-selected in the gateway of the API call. 
 
 _For example, pre-selecting iDEAL as the gateway will present the visitor with the banks to select from directly on the MultiSafepay payment page. The customer will then be redirected to the bank they selected to complete the payment._
 
