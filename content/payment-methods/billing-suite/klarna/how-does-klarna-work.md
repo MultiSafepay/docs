@@ -39,9 +39,10 @@ The transaction status indicates the payment status of the transaction, such as 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Completed  | Uncleared  | A successful Klarna transaction has been placed. A payment has not yet been received by Klarna.   |
+| Initialized   | Initialized  | A Klarna transaction has been initiated by the consumer.   |
+| Completed  | Uncleared  | A successful Klarna transaction has been placed. The order is awaiting shipment. A payment has not yet been received by Klarna.   |
 | Shipped    | Uncleared  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
-| Initialized    | Uncleared  |  |
+| Initialized    | Initialized  |  |
 | Shipped    | Completed  | Payout of a Klarna transaction has been received and added to your MultiSafepay Control balance.|
 | Declined   | Declined   | Transaction has been rejected by Klarna. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com/), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
