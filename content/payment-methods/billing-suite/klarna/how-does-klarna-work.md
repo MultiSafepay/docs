@@ -41,11 +41,11 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Completed  | Uncleared  | A successful Klarna transaction has been placed. A payment has not yet been received by Klarna.   |
 | Shipped    | Uncleared  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
+| Initialized    | Uncleared  |  |
 | Shipped    | Completed  | Payout of a Klarna transaction has been received and added to your MultiSafepay Control balance.|
 | Declined   | Declined   | Transaction has been rejected by Klarna. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com/), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
 | Expired    | Expired    | When no action is being taken when receiving a transaction with the payment method Klarna, the transaction will automatically expire. | 
-| Uncleared    | Uncleared    | No action is required. The transaction will automatically be released, although depending on the status of the order, Klarna can either set it to 'Completed' or 'Declined'. For more information, please contact Klarna.  |
 
 ### Refund flow 
 
