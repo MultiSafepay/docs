@@ -27,7 +27,7 @@ Release date - February 26th, 2020
 + PLGCSCS-91: Change the number of decimals from 2 to 10 on all shopping cart items in transaction requests
 
 ### Fixed
-+ PLGCSCS-93: Fix shop version number in transaction request
++ PLGCSCS-93: Fix webshop version number in transaction request
 + PLGCSCS-83: Fix iDEAL issuer list not showing when user tries to place an order
 
 ***

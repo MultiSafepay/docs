@@ -6,6 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-If you are currently surcharging payment fees which are no longer allowed according to the new PSD2, you may need to update your settings in the backend of your website. Please get in contact with the support department of the webshop module or your web developer to assist you further.
+If you are currently surcharging payment fees which are no longer allowed according to the new PSD2, you may need to update your settings in the backend of your website. Please get in contact with the support department of the webshop plugin or your web developer to assist you further.
 
 You do not need to change any settings in your MultiSafepay Control.

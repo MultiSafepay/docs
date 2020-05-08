@@ -30,7 +30,7 @@ Release date: Mar 5th, 2020
 + PLGSHPS-81: Add customizable payment status changes for order updates
 
 ## Fixed
-+ PLGSHPS-178: Fix second chance issues by using optin service
++ PLGSHPS-178: Fix Second Chance issues by using optin service
 + PLGSHPS-143: Unable to ship orders with Wuunder
 + PLGSHPS-132: postDispatchSecure event not triggering on notifyAction (Thanks to Martin Dieleman)
 + PLGSHPS-124: Fixed undefined class for refund and shipped button

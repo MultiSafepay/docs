@@ -36,7 +36,7 @@ The Fastcheckout SDK provides the additional following features:
 
 *If you need more information, please check the documentation that you will find inside the SDK, which contains all classes, methods, common troubleshooting and more details.*
 
-Please refer to the Multisafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
+Please refer to the MultiSafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
 
 ### Requirements
 

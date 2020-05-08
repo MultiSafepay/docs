@@ -46,4 +46,4 @@ An Iframe is an HTML document embedded inside another HTML document. You can use
 - Fill in the URL and press OK. It is possible to configure adittional parameters such as width, height,  alignment, name and title.
  
 ## Merchant own responsibility 
-Multisafepay is not responsible for the customization of the e-mail templates. We provide every merchant with a standard set of templates which you can use immediately after creating a merchant account. It is important that you have some knowledge about HTML/CSS before you start with the customization of a e-mail template. Feel free to contact support if you have a question. 
+MultiSafepay is not responsible for the customization of the e-mail templates. We provide every merchant with a standard set of templates which you can use immediately after creating a merchant account. It is important that you have some knowledge about HTML/CSS before you start with the customization of a e-mail template. Feel free to contact support if you have a question. 

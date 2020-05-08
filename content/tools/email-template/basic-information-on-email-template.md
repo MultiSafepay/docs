@@ -54,10 +54,10 @@ The partial or full amount of the reserved amount on the customer's credit card,
 This email is intended to inform the customer that the requested refund has been processed by the merchant. 
 
 
-8. **Second chance email (to customer)**\
+8. **Second Chance email (to customer)**\
 This email is intended as a friendly reminder to your customer in the event of a payment that has not been completed yet. 
 
-    When the standard or personalized Second chance email template is set up, it is important to enable the Second chance in your MultiSafepay Control under **_Settings -> Website settings -> select a website -> enable the Second chance email per website._**
+    When the standard or personalized Second Chance email template is set up, it is important to enable the Second Chance in your MultiSafepay Control under **_Settings -> Website settings -> select a website -> enable the Second Chance email per website._**
 
     More information about the Second Chance email available in [Second Chance, How does it work?](/tools/second-chance/how-does-it-work/)
 

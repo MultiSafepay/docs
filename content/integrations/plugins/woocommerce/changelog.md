@@ -153,7 +153,7 @@ Release date: Okt 10nd, 2017
 + Add KBC/CBC as payment method.
 + Add configuration option for Google-Analytic code.
 + Add shopping-cart information to the transaction.
-+ Update payment method in order, in case a customer pays the second chance with another payment method.
++ Update payment method in order, in case a customer pays the Second Chance with another payment method.
 + Update the Dutch translations.
 
 ### Fixes

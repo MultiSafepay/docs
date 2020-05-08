@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-In app cart editing can simply be carried out by clicking on a transaction within the MultiSafepay Control app and editing the checkout cart manually. It is also possible to carry out the following functions:
+In app cart editing can simply be carried out by clicking on a transaction within the MultiSafepay Control App and editing the checkout cart manually. It is also possible to carry out the following functions:
 
 * Apply full refunds
 * Change the order status

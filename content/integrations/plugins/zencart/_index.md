@@ -10,8 +10,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Plugins/Zen_Cart.svg"
 weight: 160
 title_short: "Zen Cart"
-description_short: "Easily integrate MultiSafepay payment solutions into your Zen Cart shop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Zen Cart shop with the free plugin."
+description_short: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
+description: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
 layout: 'single'
 ---
 

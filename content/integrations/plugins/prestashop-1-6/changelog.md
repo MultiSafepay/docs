@@ -72,7 +72,7 @@ Release date: Sept. 8th, 2017
 + Add Belfius as payment method.
 + Update Dutch translation-files.
 + Resized all payment logos.
-+ Removed underscore in the name of all giftcards.
++ Removed underscore in the name of all gift cards.
 + Adjust birthdate to correct layout for Klarna and Pay After Delivery.
 + Removed own order-confirmation.tpl and use PrestaShop default.
 
@@ -198,7 +198,7 @@ Release date: Apr 15th, 2016
 + Added tooltips to the configuration options in the plugin.
 + Improved the payment logos.
 + Added a debug configuration option. Debug output are logged to: 'prestashop_root_directory/log/MultiSafepay.log'.
-+ Added the following giftcards:
++ Added the following gift cards:
 
 1.	Beautyandwellness
 2.	Brouwmarkt

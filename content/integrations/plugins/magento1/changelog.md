@@ -459,7 +459,7 @@ Release date: Mar 19, 2015
 ## 2.0.2
 Release date: Oct 10, 2014
 ### Improvements
-+ Added an option to set the daysactive for an Pay After Delivery transaction. When not payed in time, the transaction will expired and the shop will be notified
++ Added an option to set the daysactive for an Pay After Delivery transaction. When not payed in time, the transaction will expired and the webshop will be notified
 + Added extra line to set the order total to paid if it hasn't been done
 + Now use the fee price formatter so it includes the selected currency
 + Force ordertotal set to paid when transaction is completed and invoice creation is disabled. Only show creation of transaction note once.

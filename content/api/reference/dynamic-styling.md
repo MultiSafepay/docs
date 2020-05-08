@@ -117,7 +117,7 @@ Below you can find an explanation of the settings which can be included in the t
 | hide_powered                       | Hides powered link                     | 
 | hide_cart                       | Hides cart container                   |               
 | hide_btn_cancel                      | Hides button cancel                   |               
-| hide_cc_logos                        | Hides creditcard logos                   |                
+| hide_cc_logos                        | Hides credit card logos                   |                
 | hide_btn_all_methods                     | Hides all methods button               |                 
 
 Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates/) for a payment page.

@@ -8,6 +8,6 @@ Refunding more than the stated amount of the original transaction is now possibl
 
 This only applies to payments originally received with a debit payment method. **Credit cards and post-payment methods do not apply.**
 
-Please note that refunding amounts larger than the initial order value **needs to be approved by the Risk Team** that will also set a maximum limit. Once approved, the Risk Team will enable the _allow more than original_ function in your MultiSafepay Control app, from where you can now activate it. 
+Please note that refunding amounts larger than the initial order value **needs to be approved by the Risk Team** that will also set a maximum limit. Once approved, the Risk Team will enable the _allow more than original_ function in your MultiSafepay Control App, from where you can now activate it. 
 
 The application must be submitted through your account manager, that you can contact at <sales@multisafepay.com>

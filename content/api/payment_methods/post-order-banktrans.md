@@ -127,7 +127,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
                 "currency": "EUR",
                 "description": "Test Order Description",
                 "external_transaction_id": "234374824",
-                "payment_description": "Bank Transfer",
+                "payment_description": "Bank transfer",
                 "status": "initialized",
                 "type": "BANKTRANS"
             }
