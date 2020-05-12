@@ -25,7 +25,7 @@ The so-called _uncleared_ status can be assigned to any credit card payment. In 
 ## Why should you check the transaction?
 When you accept payments by credit card, there are risks associated with it. The risk of financial damage, for example by fraud, is carried by the merchant; neither MultiSafepay nor the credit card holder are accountable in this case. When the credit card holder discovers a fraudulent payment, they can demand a refund of the payment, even if products ordered have already been delivered. This is called a 'chargeback'.
 
-[Chargeback, what it is](/payment-methods/creditcards/what-is-a-chargeback)
+[Chargeback, what it is](/faq/chargebacks/what-is-a-chargeback/)
 
 
 ## Reviewing an uncleared payment
@@ -59,7 +59,7 @@ View customer information available in your MultiSafepay Control as well as in y
 ## 3D secure
 3D Secure is an additional security measure intended to reduce fraud. It is an extra step to verify the identity of the actual card holder.
 
-[3D secure, What it is](/payment-methods/creditcards/what-is-3d-secure/)
+[3D secure, What it is](/faq/general/what-is-3d-secure/)
 
 
 ## List of statuses

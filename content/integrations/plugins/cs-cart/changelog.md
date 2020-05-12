@@ -1,7 +1,7 @@
 ---
 title : "Release Notes CS-Cart plugin"
 meta_title: "CS-Cart plugin changelog - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 ## 1.5.0
 Release date - April 1st, 2020
@@ -27,7 +27,7 @@ Release date - February 26th, 2020
 + PLGCSCS-91: Change the number of decimals from 2 to 10 on all shopping cart items in transaction requests
 
 ### Fixed
-+ PLGCSCS-93: Fix shop version number in transaction request
++ PLGCSCS-93: Fix webshop version number in transaction request
 + PLGCSCS-83: Fix iDEAL issuer list not showing when user tries to place an order
 
 ***

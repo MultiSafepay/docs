@@ -2,7 +2,7 @@
 title: "Bank transfer, How does it work?"
 weight: 21
 meta_title: "Bank Transfer, how does it work? - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 ## How does it work?
 When the customer selects bank transfer as payment method, the bank account details of MultiSafepay will be sent by email. Based on the settings, the sender can be MultiSafepay itself or your ecommerce platform. The email will be sent to the email address provided by the customer when placing the order.
@@ -49,13 +49,15 @@ Some rules may apply to certain payment methods. For bank transfer, the followin
 
 * Successful bank transfer transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The days and seconds active does not apply to the payment method bank transfer. The customer processes the payment from his/her own banking environment. As a result, it has a different payment flow and the setting of a days or seconds active will have no influence.
+* The days and seconds active does not apply to the payment method bank transfer. The customer processes the payment from his/her own banking environment. As a result, it has a different payment flow and the setting of a days or seconds active will have no influence
  
 However, the payment link that is provided in the Bank transfer email to the customer can be adjusted by setting a days_active_ or seconds_active. Bank transfer transactions are active for 60 days. By default, payment links expires after 30 days. 
 
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
 
 * If you would like to make changes in the validation of bank transfers, check whether this is possible in your ecommerce platform
+
+* In order to provide your customer with a local bank account from MultiSafepay (where available), please add the appropriate [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code in the transaction request (i.e. "country": "DE",)
 
 * Payments done through bank transfers can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
 

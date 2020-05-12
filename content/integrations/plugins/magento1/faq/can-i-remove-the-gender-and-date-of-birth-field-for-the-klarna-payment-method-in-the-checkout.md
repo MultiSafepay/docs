@@ -1,7 +1,7 @@
 ---
 title : "Can I remove the Klarna fields \"Gender\" and \"Date of birth\" in my checkout?"
 meta_title: "Magento 1 plugin remove Klarna fields - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 Klarna needs the gender and date of birth of the customer. By default, the customer fills in this information in the Magento checkout in the Klarna payment method fields. The gender is automatically filled by the core Magento field.

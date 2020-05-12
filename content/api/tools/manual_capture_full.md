@@ -3,7 +3,7 @@ weight: 1352
 ---
 {{< code-block >}}
 
->POST - /orders/<order_id>/capture
+>POST - /orders/{order_id}/capture
 
 ```shell
 {
@@ -13,8 +13,7 @@ weight: 1352
  "invoice_id": "001",
  "carrier": "",
  "reason": "",
- "memo": "",
- "checkout_data": {}
+ "memo": ""
 }
 ```
 > JSON Response
@@ -41,7 +40,6 @@ weight: 1352
 | carrier                           | string    | The name of the shipping company delivering the customer’s order.|
 | reason                           | string    | Add a short text memo based on the capture reason of the order.       |
 | memo                           | string    | Add a short action text memo mentioning the shipping status of the order.      |
-| checkout_data	 |   object	 |   Contains the original shopping cart + copied items to be refunded. |
 | order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string (max. 50 chars).
 
 Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.

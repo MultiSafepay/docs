@@ -2,13 +2,16 @@
 title: Payment fee / Surcharges
 weight:
 meta_title: "Magento 2 plugin surcharge - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
+read_more: "."
 ---
 
 Adding a payment fee or [Surcharge](/faq/getting-started/glossary/#surcharge) is no longer supported within the plugin in Magento 2.
 
 However, an external package of [Fooman](https://store.fooman.co.nz/extensions/magento2) is available. This allows you to still add a payment fee or surcharge within the desired payment method.
+
+Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)
 
 >_Do mind that because an external module has to be installed, our Integration Team's help will be limited_.
 

@@ -2,7 +2,7 @@
 title: "How to activate Betaalplan"
 weight: 22
 meta_title: "Betaalplan, how to activate it - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # Activate
@@ -17,7 +17,7 @@ Only the following merchants are eligible for Betaalplan:
 1. Organizations with a Dutch Chamber of Commerce registration (no exceptions possible)
 2. Organization yearly turnover >€500.000 (lower yearly turnover is possible upon agreement with Santander)
 3. Selling goods and/or services to European citizens with a residence/ delivery address in Netherlands (no exceptions possible)
-4. Betaalplan is available for orders from €250, with a maximum of €1000 per customer.
+4. Betaalplan is available for orders from € 250, with a maximum of € 4999,99 per customer.
 
 * In addition to Betaalplan's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and plugins - see [overview](https://docs.multisafepay.com/))
 

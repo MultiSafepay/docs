@@ -1,7 +1,7 @@
 ---
 title : "Test Payment Details"
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -41,6 +41,10 @@ MultiSafepay provides a test platform for American Express transactions. By ente
 | 378282246310005  | Completed | Transaction is Completed (not 3D enrolled) |
 | 374200000000004  | Declined  | Transaction is Declined |
 | 378734493671000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+
+## Apple Pay
+
+If you would like to test Apple Pay, we kindly invite you to read our page about [Compatibility and Testing](/payment-methods/wallet/applepay/#compatibility-and-testing) which explains how you will be able to execute tests on supported devices.
 
 ## Bancontact
 

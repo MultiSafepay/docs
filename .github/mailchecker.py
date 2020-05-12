@@ -21,8 +21,5 @@ def searcher():
                     email = True
     return email
 
-
-status = searcher()
-
-if status is True:
+if searcher():
     raise ValueError

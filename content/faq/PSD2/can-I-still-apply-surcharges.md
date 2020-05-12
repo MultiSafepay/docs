@@ -2,7 +2,7 @@
 title : "Can I still apply surcharges?"
 weight: 3
 meta_title: "FAQ PSD2 - Apply surcharges - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 > 27.09.2019 - We constantly update the contents of this document. You should expect new information to surface anytime, as specifics about the implementation of the new directive are still being worked on.  

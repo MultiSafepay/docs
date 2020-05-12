@@ -41,6 +41,12 @@ name = "Shell"
     weight = 10
 
 [[menu.main]]
+    name = "PWA"
+    url  = "/integrations/pwa"
+    parent = "integrations"
+    weight = 10
+
+[[menu.main]]
     name = "Hosted Plugins"
     url  = "/integrations/hosted"
     parent = "integrations"

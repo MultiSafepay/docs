@@ -37,6 +37,5 @@ def open_file(file):
 
 
 if __name__ == "__main__":
-    current_status = main()
-    if current_status:
+    if main():
         raise ValueError

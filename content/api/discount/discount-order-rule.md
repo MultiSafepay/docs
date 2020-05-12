@@ -1,11 +1,11 @@
 ---
 weight: 51
 meta_title: "API - Discount added as order rule - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< description >}}
 ## Discount added as order rule (which is non-refundable)
-Adding a discount as order rule is a common way to add a discount before submitting a transaction request at MultiSafepay. However, adding a discount as order rule may result in a conflict when partial refunding a postpaid [payment method](/faq/getting-started/glossary/#payment-method) transaction. This is most common when the discount is a percentage. Adding a discount as seperate discount rule, will conflict with parcially refunding a postpaid payment method transaction as the negative amount cannot be undone. It is not possible to partially refund a negative amount that is added as a discount rule. 
+Adding a discount as order rule is a common way to add a discount before submitting a transaction request at MultiSafepay. However, adding a discount as order rule may result in a conflict when partial refunding a postpaid [payment method](/faq/getting-started/glossary/#payment-method) transaction. This is most common when the discount is a percentage. Adding a discount as seperate discount rule, will conflict with partially refunding a postpaid payment method transaction as the negative amount cannot be undone. It is not possible to partially refund a negative amount that is added as a discount rule. 
 {{% /description %}}
 
 {{< code-block >}}
@@ -41,8 +41,8 @@ Adding a discount as order rule is a common way to add a discount before submitt
 		"shop": "ApiTestTool",
 		"plugin_version": "1.0.0",
 		"shop_version": "1",
-		"partner": "parner",
-		"shop_root_url": "http://multisafepay.com"
+		"partner": "partner",
+		"shop_root_url": "https://multisafepay.com"
 	},
 	"customer": {
 		"locale": "us",
@@ -131,56 +131,48 @@ Adding a discount as order rule is a common way to add a discount before submitt
 			},
 			"alternate": [{
 					"name": "BTW21",
-					"standalone": true,
 					"rules": [{
 						"rate": 0.21
 					}]
 				},
 				{
 					"name": "BTW6",
-					"standalone": true,
 					"rules": [{
 						"rate": 0.06
 					}]
 				},
 				{
 					"name": "BTW0",
-					"standalone": true,
 					"rules": [{
 						"rate": 0.00
 					}]
 				},
 				{
 					"name": "0.0000",
-					"standalone": false,
 					"rules": [{
 						"rate": 0
 					}]
 				},
 				{
 					"name": "0.0000",
-					"standalone": false,
 					"rules": [{
 						"rate": 0
 					}]
 				},
 				{
 					"name": "FEE",
-					"standalone": false,
 					"rules": [{
 						"rate": 0.00
 					}]
 				},
 				{
 					"name": "none",
-					"standalone": false,
 					"rules": [{
 						"rate": 0.00
 					}]
 				},
 				{
 					"name": "2",
-					"standalone": true,
 					"rules": [{
 							"rate": 0.0825,
 							"country": "US"

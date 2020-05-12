@@ -1,8 +1,27 @@
 ---
 title : "Release Notes WooCommerce plugin"
 meta_title: "WooCommerce plugin changelog - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
+
+## 3.5.1
+Release date: Apr 24th, 2020
+
+### Fixed
++ PLGWOOS-395: Javascript error when Apple Pay is disabled
++ PLGWOOS-389: Fix addressparser not parsing housenumber extension correctly
+
+### Changed
++ PLGWOOS-240: Improve plugin loading by using PSR-4 autoloader
+
+### Removed
++ PLGWOOS-391: Remove TrustPay
++ PLGWOOS-390: Remove FerBuy
++ PLGWOOS-380: Remove Erotiekbon
++ PLGWOOS-327: Remove Lief Cadeaukaart
++ PLGWOOS-326: Remove Fijncadeau
+
+***
 
 ## 3.5.0
 Release date: Mar 30th, 2020
@@ -134,7 +153,7 @@ Release date: Okt 10nd, 2017
 + Add KBC/CBC as payment method.
 + Add configuration option for Google-Analytic code.
 + Add shopping-cart information to the transaction.
-+ Update payment method in order, in case a customer pays the second chance with another payment method.
++ Update payment method in order, in case a customer pays the Second Chance with another payment method.
 + Update the Dutch translations.
 
 ### Fixes

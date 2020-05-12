@@ -1,7 +1,7 @@
 ---
 weight: 640
 meta_title: "API - Transaction statuses - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 {{< /code-block >}}
@@ -18,7 +18,7 @@ Read more about the difference between the [Status and the Financial Status](/fa
 | completed        | Completed        | Payment has been successfully completed and [payout](/faq/getting-started/glossary/#payout) is guaranteed. Proceed with fulfillment.      |
 | initialized      | Initialized      | A payment link has been generated, but no payment has been received yet.                         |
 | uncleared        | Uncleared        | Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)                |
-| declined         | Declined         | Rejected by the the issuing bank. Read more about the reason why the transaction is declined in [what does it mean](/payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/)                                                               |
+| declined         | Declined         | Rejected by the the issuing bank. Read more about the reason why the transaction is declined in [what does it mean](/faq/general/declined-status/)                                                               |
 | cancelled        | Cancelled        | Cancelled by the merchant (only applies to the status Initialized, Uncleared or Reserved). 
 | void             | Void             | Cancelled by the merchant.                 |
 | expired          | Expired          | Depending on the payment method unfinished transactions will close automatically after a predefined period. |

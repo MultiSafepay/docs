@@ -1,7 +1,7 @@
 ---
 weight: 316
 meta_title: "API - Create iDEAL order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders 
@@ -142,11 +142,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-### Redirect - iDEAL
+### Redirect
+
+Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
-* All parameters shown are required field(s)
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type      | Description                                                                             |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -166,8 +170,12 @@ In the case of a _Redirect_ transaction, the consumer will be sent to the MultiS
 
 
 ### Direct - iDEAL
+Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
+
+* Direct transaction requires all fields completed properly
+
 
 * All parameters shown are required field(s)
 

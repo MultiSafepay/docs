@@ -2,18 +2,19 @@
 title : "How to activate gift cards as a payment method"
 weight: 22
 meta_title: "How to activate gift cards - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## Activate
 MultiSafepay supports a wide range of gift cards.
 With gift cards, merchants can either accept gift card payments of established gift card issuers or support their own personalized gift card.
 
-MultiSafepay offers 3 gift card connections:
+MultiSafepay offers 4 gift card connections:
 
-* Intersolve
-* FashionCheque
-* 123TCS.
+* [Intersolve](https://intersolve.nl/contact)
+* [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+* [123TCS](https://www.123tcs.com/#Contact)
+* [Givacard](https://www.givacard.nl/)
 
 The majority of the gift cards are issued by Intersolve.
 
@@ -35,8 +36,7 @@ The customer can pay an order with multiple gift cards of the same or multiple d
 The gift card issuer will process the connection with one of the issuers shown below. The request for a gift card goes through the issuer of the gift card itself. For example: the VVV Cadeaukaart can be requested at the VVV office. Subsequently, the connection of the VVV Cadeaukaart will be processed by Intersolve in this case.
 
 
-[Intersolve](https://intersolve.nl/contact)
-
-[Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
-
-[123TCS](https://www.123tcs.com/#Contact)
+* [Intersolve](https://intersolve.nl/contact)
+* [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+* [123TCS](https://www.123tcs.com/#Contact)
+* [Givacard](https://www.givacard.nl/)

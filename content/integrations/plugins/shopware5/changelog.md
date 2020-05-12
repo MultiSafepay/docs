@@ -1,7 +1,7 @@
 ---
 title : "Release Notes Shopware 5 plugin"
 meta_title: "Shopware 5 plugin changelog - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ## 2.3.0
@@ -30,7 +30,7 @@ Release date: Mar 5th, 2020
 + PLGSHPS-81: Add customizable payment status changes for order updates
 
 ## Fixed
-+ PLGSHPS-178: Fix second chance issues by using optin service
++ PLGSHPS-178: Fix Second Chance issues by using optin service
 + PLGSHPS-143: Unable to ship orders with Wuunder
 + PLGSHPS-132: postDispatchSecure event not triggering on notifyAction (Thanks to Martin Dieleman)
 + PLGSHPS-124: Fixed undefined class for refund and shipped button

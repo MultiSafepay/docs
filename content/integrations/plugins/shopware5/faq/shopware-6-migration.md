@@ -1,7 +1,7 @@
 ---
 title : "How can I migrate from Shopware 5 to Shopware 6?"
 meta_title: "How can I migrate from Shopware 5 to Shopware 6? - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ## Shopware 6 Migration
@@ -28,4 +28,4 @@ Migrating from Shopware 5 to Shopware 6 is not a simple task, although we do rec
 
 We suggest reading through the [Shopware migration manual](https://docs.shopware.com/en/migration-en) which will assist in a successful migration.
 
-Please note that MultiSafepay will continue to offer support to our merchants for Shopware 5 as long as it remains in the market. Feel free to contact our Integration team if you have any questions at <integration@multisafepay.com>
+Please note that MultiSafepay will continue to offer support to our merchants for Shopware 5 as long as it remains in the market. Feel free to contact our Integration Team if you have any questions at <integration@multisafepay.com>

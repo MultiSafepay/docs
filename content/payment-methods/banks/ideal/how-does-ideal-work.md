@@ -2,7 +2,7 @@
 title: "How does iDeal work?"
 weight: 21
 meta_title: "iDEAL, how does it work? - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## How does it work?
@@ -43,7 +43,6 @@ Some rules may apply to certain payment methods. For iDEAL, the following rules 
 * Successful iDEAL transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
-
 
 * Payments done through iDEAL are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 

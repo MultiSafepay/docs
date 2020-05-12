@@ -17,15 +17,17 @@ Door het schrijven van een eerlijke review of beoordeling, op het platform van u
 Wij waarderen dat enorm en zullen u niet vergeten.
 
 ### Websites
-[Google review](https://bit.ly/2zPpp8P)  
-[TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)  
+[Google review](https://bit.ly/2zPpp8P)<br>
+[TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)<br>
 [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
 [PSP Check](http://pspcheck.nl/multisafepay-review/)
 
 ### Plugins
+[CS-Cart Marketplace](https://marketplace.cs-cart.com/multisafepay.html)<br>
 [Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2msp.html)<br>
-[Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)
-
+[Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)<br>
+[Shopware Store - Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html)<br>
+[WooCommerce plugins](https://wordpress.org/plugins/multisafepay/)
 
 ### LinkedIn profielen
 [Berend Lantink](https://www.linkedin.com/in/berendlantink/)<br>
@@ -41,4 +43,5 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [LinkedIn](https://www.linkedin.com/company/multisafepay/)<br>
 [Twitter](https://twitter.com/multisafepay)<br>
 [Facebook](https://www.facebook.com/multisafepay)<br>
-[Stackshare](https://stackshare.io/multisafepay/multisafepay)
+[Stackshare](https://stackshare.io/multisafepay/multisafepay)<br>
+[Instagram](https://www.instagram.com/multisafepay/)

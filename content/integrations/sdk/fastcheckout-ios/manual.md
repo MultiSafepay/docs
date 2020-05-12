@@ -1,7 +1,7 @@
 ---
 title : "Fastcheckout SDK iOS configuration manual"
 meta_title: "Fastcheckout SDK iOS configuration manual - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ### Introduction
@@ -36,7 +36,7 @@ The Fastcheckout SDK provides the additional following features:
 
 *If you need more information, please check the documentation that you will find inside the SDK, which contains all classes, methods, common troubleshooting and more details.*
 
-Please refer to the Multisafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
+Please refer to the MultiSafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
 
 ### Requirements
 

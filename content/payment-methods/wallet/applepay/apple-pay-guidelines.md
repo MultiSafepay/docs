@@ -1,8 +1,8 @@
 ---
 title: "Apple Pay Branding Guidelines"
-weight: 25
+weight: 26
 meta_title: "Apple Pay Branding Guidelines - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -10,4 +10,4 @@ read_more: '.'
 
 MultiSafepay would like to inform its' merchants that wish to use Apple Pay must follow certain guidelines when integrating Apple Pay to their website.
 
-This information is readily available on the official Apple website. Read more about these [branding guidelines](https://developer.apple.com/apple-pay/marketing/).
+This information is readily available on the official Apple website. Read more about these [branding guidelines](https://developer.apple.com/apple-pay/marketing/)

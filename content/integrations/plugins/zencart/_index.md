@@ -6,12 +6,12 @@ changelog_url : "."
 manual: "."
 faq: "."
 meta_title: "ZenCart plugin integration - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/Zen_Cart.svg"
 weight: 160
 title_short: "Zen Cart"
-description_short: "Easily integrate MultiSafepay payment solutions into your Zen Cart shop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Zen Cart shop with the free plugin."
+description_short: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
+description: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
 layout: 'single'
 ---
 

@@ -2,7 +2,7 @@
 title: "MultiSafepay Test Environment"
 weight: 71
 meta_title: "MultiSafepay Test Environment - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -21,4 +21,4 @@ After creating a test account, you will be able to test several functionalities 
 
 For testing, you may use the [test credentials](https://docs.multisafepay.com/faq/getting-started/test-payment-details/) on our documentation page.
 
-Do you have any questions about the functionality of the Test Merchant Panel? Feel free to contact our Integration team at <integration@multisafepay.com>
+Do you have any questions about the functionality of the Test Merchant Panel? Feel free to contact our Integration Team at <integration@multisafepay.com>

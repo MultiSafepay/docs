@@ -1,21 +1,22 @@
 ---
 title : "Available payment methods in Magento 1"
 meta_title: "Magento 1 plugin available payment methods - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 ---
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/creditcards/)
-+ [Credit cards](/payment-methods/credit-and-debit-cards/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/creditcards/)
-+ [Visa](/payment-methods/credit-and-debit-cards/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
++ [American Express](/payment-methods/credit-and-debit-cards/american-express/)
++ [Credit cards](/payment-methods/credit-and-debit-cards/) (combine Maestro, Mastercard & Visa in checkout)
++ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard/)
++ [Visa](/payment-methods/credit-and-debit-cards/visa/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
 
 __Banks__
 
 + [Bancontact](/payment-methods/banks/bancontact/)
 + [Bank transfer](/payment-methods/banks/bank-transfer/)
 + [Belfius](/payment-methods/banks/belfius/)
++ [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer/)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 + [Dotpay](/payment-methods/banks/dotpay/)
 + [EPS](/payment-methods/banks/eps/)
@@ -38,6 +39,7 @@ __Billing suite__
 
 __Wallet__ 
 
++ [Apple Pay](/payment-methods/wallet/applepay/)
 + [Alipay](/payment-methods/wallet/alipay/)
 + [PayPal](/payment-methods/wallet/paypal/)
 

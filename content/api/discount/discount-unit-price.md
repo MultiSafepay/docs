@@ -1,7 +1,7 @@
 ---
 weight: 52
 meta_title: "API - Discount added as unit price - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< description >}}
 ## Discount added as unit price 
@@ -40,7 +40,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
         "shop": "ApiTestTool",
         "plugin_version": "1.0.0",
         "shop_version": "1",
-        "partner": "parner",
+        "partner": "partner",
         "shop_root_url": "https://multisafepay.com"
     },
     "customer": {
@@ -128,7 +128,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.21
@@ -137,7 +136,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.06
@@ -146,7 +144,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.00
@@ -155,7 +152,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -164,7 +160,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -173,7 +168,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0.00
@@ -182,7 +176,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0.00
@@ -191,7 +184,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.0825,

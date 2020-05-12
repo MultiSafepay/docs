@@ -2,7 +2,7 @@
 title: "Styleguide MultiSafepay"
 Weight:
 meta_title: "FAQ General - Styleguide MultiSafepay - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -44,6 +44,6 @@ We use sub headers to help engage our message. The sub header states 'MultiSafep
 Font size: 16pt.
 
 ### MultiSafepay and payment method logos
-For a complete list of the logos of all payment methods MultiSafepay offers, as well as MultiSafepay's own logos, please refer to [our GitHub repository](https://github.com/MultiSafepay/msp-payment-logoicons)
+For a complete list of the logos of all payment methods MultiSafepay offers, as well as MultiSafepay's own logos, please refer to [our GitHub repository](https://github.com/MultiSafepay/MultiSafepay-icons)
 
 If you are unable to find the logo you are looking for, please contact us at <integration@multisafepay.com> and we will be glad to assist you further.

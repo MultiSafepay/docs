@@ -34,7 +34,7 @@ Credit card transactions received by MultiSafepay, will be processed through our
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet.  | 
 | Completed   | Completed   | A successful credit card  transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)  | 
-| Declined    | Declined    | Transaction has been rejected. [read more on credit card status 'declined'. What does this mean?](/payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
+| Declined    | Declined    | Transaction has been rejected. [read more on credit card status 'declined'. What does this mean?](/credit-and-debit-cards/american-express/american-express-status-what-does-this-mean-/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
@@ -56,9 +56,9 @@ Credit card transactions received by MultiSafepay, will be processed through our
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)         |      
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback/)         |      
 
-Read more about 3D Secure in our page [What is 3D Secure?](/payment-methods/creditcards/what-is-3d-secure)
+Read more about 3D Secure in our page [What is 3D Secure?](/faq/general/what-is-3d-secure/)
 
 ###  Credit Card Settings to allow direct credit card 3D secure payments.
 3D Secure is a technical standard to enhance security. Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. This is usually done via a password connected to the card.

@@ -1,7 +1,7 @@
 ---
 weight: 307
 meta_title: "API - Create Bank transfer order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -22,6 +22,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "customer": {
         "locale": "nl_NL",
+        "country": "NL",
         "ip_address": "89.20.162.110"
         "email": "example@multisafepay.com"
     }
@@ -59,6 +60,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "customer": {
         "locale": "nl_NL",
+        "country": "NL",
         "ip_address": "89.20.162.110",
     }
 }
@@ -125,7 +127,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 "currency": "EUR",
                 "description": "Test Order Description",
                 "external_transaction_id": "234374824",
-                "payment_description": "Bank Transfer",
+                "payment_description": "Bank transfer",
                 "status": "initialized",
                 "type": "BANKTRANS"
             }
@@ -153,9 +155,13 @@ __Please note: The parameter 'email' must be present, otherwise MultiSafepay wil
 
 {{< description >}}
 ## Bank transfer
-### Redirect - Bank transfer
+### Redirect
 
-The bank transfer payment method can either be a direct or redirect order. In this case, the API calls for a __redirect order__ are illustrated; therefore the customer will be redirected to the MultiSafepay payment page. Read more about creating a [redirect order](/api/#orders)
+Creates a Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -164,7 +170,7 @@ The bank transfer payment method can either be a direct or redirect order. In th
 | currency                       | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                         | integer | The amount (in cents) that the customer needs to pay.                                    |
 | gateway                        | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BANKTRANS. |
-| description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
+| description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object |                       |
 | notification_url                | string   | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url | string	| Customer will be redirected to this page after a successful payment. |
@@ -173,13 +179,19 @@ The bank transfer payment method can either be a direct or redirect order. In th
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. |
 | ip_address                      | string   | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
 | email                              | string | The email address where the system can send payment instructions to the customer. |
+| country                              | string |  Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  |
 
 
 Read more about [bank transfers](/payment-methods/bank-transfer/) on our documentation page.
 
 
-### Direct - Bank transfer
-* All parameters shown are required field(s)
+### Direct
+
+Creates a Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
@@ -188,13 +200,14 @@ Read more about [bank transfers](/payment-methods/bank-transfer/) on our documen
 | order_id                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                    |
 | currency                       | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                         | integer | The amount (in cents) that the customer needs to pay.                                    |
-| description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
+| description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                | object |                       |
 | notification_url                | string   | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url | string	| Customer will be redirected to this page after a successful payment. |
 | cancel_url |	string |	Customer will be redirected to this page after a failed payment. |
 | customer                       | object |                          |
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. |
+| country                              | string |  Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  |
 
 In the JSON response for a direct transaction, it is important to send payment instructions to the customer by yourself. Please be aware that all of the parameters can be different for every single transaction. Do not store this information other than for a specific transaction.
 

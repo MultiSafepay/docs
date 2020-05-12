@@ -1,7 +1,7 @@
 ---
 weight: 314
 meta_title: "API - Create gift card order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - / order 
@@ -47,7 +47,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Gift card
-* All parameters shown are required field(s)
+Creates a Gift Card [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                      | Type      | Description                                                                             |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

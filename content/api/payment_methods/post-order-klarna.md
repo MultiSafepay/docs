@@ -1,7 +1,7 @@
 ---
 weight: 318
 meta_title: "API - Create Klarna order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 
@@ -105,7 +105,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.21"
@@ -114,7 +113,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.06"
@@ -123,7 +121,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -132,7 +129,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -141,7 +137,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -150,7 +145,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -159,7 +153,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -168,7 +161,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.0825",
@@ -222,7 +214,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "plugin_version": "1.0.0",
         "shop_version": "1",
         "partner": "partner",
-        "shop_root_url": "http://multisafepay.com"
+        "shop_root_url": "https://multisafepay.com"
     },
     "customer": {
         "locale": "nl_NL",
@@ -299,7 +291,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.21"
@@ -308,7 +299,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.06"
@@ -317,7 +307,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -326,7 +315,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -335,7 +323,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -344,7 +331,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -353,7 +339,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -362,7 +347,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.0825",
@@ -395,11 +379,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Klarna
-### Direct - Klarna
-Creates a Klarna order to be paid after delivery
+### Redirect
+Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
 
 Klarna is available as both a direct and redirect request. 
 However, Klarna Payments (the new environment of Klarna) is only available as a redirect request. The direct request is no longer supported by Klarna Payments. 
+
+* Direct transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
 
@@ -410,7 +396,7 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 | order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
+| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 | payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
 | customer                        | object | Contains personal information about the customer. <i>Values for first_name and last_name require minimum two characters.</i> |
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |
@@ -427,10 +413,12 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [Klarna](/payment-methods/billing-suite/klarna/) on our documentation page.
 
-### Redirect - Klarna (Klarna Payments)
-Creates a Klarna Payments Redirect order to be paid after delivery
+### Redirect - Klarna Payments
+Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
+
+* Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
 
@@ -441,7 +429,7 @@ Please note this request is for Klarna Payments. This request can only be proces
 | order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
+| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 | payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
 | customer                        | object | Contains personal information about the customer. <i>Values for first_name and last_name require minimum two characters.</i> |
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |

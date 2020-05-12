@@ -332,7 +332,8 @@ Redirect 301 /payment-methods/banks/direct-debit/activate-direct-debit/ https://
 Redirect 301 /faq/general/can-i-use-multisafepay-with-wix/ https://docs.multisafepay.com/integrations/hosted/ecwid/manual/ 
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
-
+Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
+Redirect 301 /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/ https://docs.multisafepay.com/faq/general/what-is-3d-secure/
 
 #DOCS-855: Remove SSL Certificate Renewal January 2020 page
 Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com

@@ -1,9 +1,33 @@
 ---
 title : "Release Notes Magento 1 plugin"
 meta_title: "Magento 1 plugin changelog - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 
 ---
+
+## 2.6.0
+Release date: Apr. 2nd, 2020
+
+### Added
++ PLGMAGONE-617: Add Apple Pay
++ PLGMAGONE-656: Add Direct Bank Transfer
++ PLGMAGONE-485: Add support for Fooman Surcharge
++ PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
+
+### Fixed
++ PLGMAGONE-654: Fix incorrect character set for translations
++ PLGMAGONE-621: Fix layout issue when OneStepCheckout is used
++ PLGMAGONE-588: Fix missing site secure code in refund request
++ PLGMAGONE-572: Fixed payment fee description not being set
++ PLGMAGONE-526: Fixed undefined variable recurring on E_STRICT mode
++ PLGMAGONE-458: Count gives warning when PHP 7.2 is used
+
+### Changed
++ PLGMAGONE-599: Hide Pay After Delivery when shipping address differs
++ PLGMAGONE-574: Prevent orders to be cancelled when set to processing
++ Update translations for "select your credit card"
+
+***
 
 ## 2.5.1
 Release date: Mar. 25th, 2019
@@ -435,7 +459,7 @@ Release date: Mar 19, 2015
 ## 2.0.2
 Release date: Oct 10, 2014
 ### Improvements
-+ Added an option to set the daysactive for an Pay After Delivery transaction. When not payed in time, the transaction will expired and the shop will be notified
++ Added an option to set the daysactive for an Pay After Delivery transaction. When not payed in time, the transaction will expired and the webshop will be notified
 + Added extra line to set the order total to paid if it hasn't been done
 + Now use the fee price formatter so it includes the selected currency
 + Force ordertotal set to paid when transaction is completed and invoice creation is disabled. Only show creation of transaction note once.

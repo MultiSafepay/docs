@@ -2,7 +2,7 @@
 title : "How can I style the payment pages?"
 weight: 42
 meta_title: "Payment pages - Styling Payment pages - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 MultiSafepay's payment pages provide the quickest, easiest and most secure way to accept online payments. By default, your payment pages use MultiSafepay's renowned brand and styling. However, we recommend that you personally tailor the payment pages in a manner that is consistent with your own website. This is very easy, and can be done via [MultiSafepay Control](https://merchant.multisafepay.com)

@@ -1,7 +1,7 @@
 ---
 weight: 322
 meta_title: "API - Create Pay After Delivery order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders 
@@ -104,7 +104,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.21"
@@ -113,7 +112,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.06"
@@ -122,7 +120,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -131,7 +128,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -140,7 +136,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -149,7 +144,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -158,7 +152,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -167,7 +160,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.0825",
@@ -225,7 +217,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "plugin_version": "1.0.0",
         "shop_version": "1",
         "partner": "partner",
-        "shop_root_url": "http://multisafepay.com"
+        "shop_root_url": "https://multisafepay.com"
     },
     "customer": {
         "locale": "nl_NL",
@@ -302,7 +294,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.21"
@@ -311,7 +302,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.06"
@@ -320,7 +310,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -329,7 +318,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -338,7 +326,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -347,7 +334,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -356,7 +342,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -365,7 +350,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.0825",
@@ -403,7 +387,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.21"
             }
           ],
-          "standalone": true
         },
         {
           "name": "BTW6",
@@ -413,7 +396,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.06"
             }
           ],
-          "standalone": true
         },
         {
           "name": "BTW0",
@@ -423,7 +405,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.00"
             }
           ],
-          "standalone": true
         },
         {
           "name": "0.0000",
@@ -433,7 +414,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.00"
             }
           ],
-          "standalone": ""
         },
         {
           "name": "0.0000",
@@ -443,7 +423,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.00"
             }
           ],
-          "standalone": ""
         },
         {
           "name": "FEE",
@@ -453,7 +432,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.00"
             }
           ],
-          "standalone": ""
         },
         {
           "name": "none",
@@ -463,7 +441,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.00"
             }
           ],
-          "standalone": ""
         },
         {
           "name": 2,
@@ -477,7 +454,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
               "rate": "0.08375"
             }
           ],
-          "standalone": true
         }
       ],
       "default": {
@@ -621,10 +597,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Pay After Delivery
-### Redirect - Pay After Delivery
- Creates a redirect request Pay After Delivery order.
+### Redirect
 
-* All parameters shown are required field(s)
+Creates a Pay After Delivery [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                        | Type     | Description                                                                            |
 |----------------------------------|----------|----------------------------------------------------------------------------------------|
@@ -633,7 +612,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                  |
 | currency                         | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                           | integer | The amount (in cents) that the customer needs to pay.                                  |
-| description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
+| description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is not supported. Use the required 'shopping-cart' object for this. |
 | payment_options                  | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
 | custom_info                      | object | custom_info is a 'placeholder' where the merchant can input specific data related to the transaction |
 | customer                         | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |  
@@ -652,10 +631,13 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
 
-### Direct - Pay After Delivery
- Creates a direct request Pay After Delivery order.
+### Direct
 
-* All parameters shown are required field(s)
+Creates a Pay After Delivery [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                        | Type     | Description                                                                            |
 |----------------------------------|----------|----------------------------------------------------------------------------------------|
@@ -664,7 +646,7 @@ Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-de
 | order_id                         | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                  |
 | currency                         | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 | amount                           | integer | The amount (in cents) that the customer needs to pay.                                  |
-| description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
+| description                      | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is not supported. Use the required 'shopping-cart' object for this. |
 | payment_options                  | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
 | custom_info                      | object | custom_info is a 'placeholder' where the merchant can input specific data related to the transaction |
 | customer                         | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |  

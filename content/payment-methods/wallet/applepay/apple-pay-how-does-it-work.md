@@ -2,7 +2,7 @@
 title: "Apple Pay, How it works"
 weight: 21
 meta_title: "Apple Pay, How it works - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -11,7 +11,7 @@ read_more: '.'
 
 Consumers input their credit card information into the Apple Pay app where it is digitized in the form of an encrypted token. Consumers can authorize payments by using either [Touch ID or Face ID](https://www.apple.com/apple-pay/) on a payment terminal. The tokenized data is encrpyted and sent to MultiSafepay where it is then decrypted and forwarded to the relevant payment scheme. MultiSafepay supports the Visa, Mastercard and Maestro payment schemes for Apple Pay.
 
-MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction. Read more about [standard credit card transactions](https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
+MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction. Read more about [standard credit card transactions](/payment-methods/credit-and-debit-cards/) on our documentation page.
 
 ## Transaction Flow
 
@@ -30,7 +30,7 @@ Apple Pay transactions received by MultiSafepay will be processed through our fr
 | Initialized | Initialized | A payment link has been generated to initialize an Apple Pay payment, but no payment has yet been received.  | 
 | Completed   | Completed   | A successful Apple Pay transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)  | 
-| Declined    | Declined    | Transaction has been rejected. [Read more on the  'declined' status. What does this mean?](/payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
+| Declined    | Declined    | Transaction has been rejected. [Read more on the  'declined' status. What does this mean?](/faq/general/declined-status/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Void    | Transaction has been cancelled.   | 
 
@@ -40,9 +40,9 @@ Apple Pay transactions received by MultiSafepay will be processed through our fr
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/payment-methods/credit-and-debit-cards/creditcards/chargebacks/)         |               
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback/)         |               
 
-The full API reference for Apple Pay can be found [here](https://docs.multisafepay.com/api/#applepay)
+Read more about Apple Pay on our [API reference](https://docs.multisafepay.com/api/#applepay) page.
 
 ## Product Rules
 

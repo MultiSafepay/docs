@@ -1,8 +1,29 @@
 ---
 title : "Release Notes PrestaShop plugin"
 meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
+
+## 3.5.0
+Release date: Apr 9th, 2020
+
+### Added
++ PLGPRSS-344: Add AfterPay
+
+### Fixed
++ PLGPRSS-396: Correct spelling of ING Home'Pay
++ PLGPRSS-397: Fix incorrect gateway code for ING Home'Pay
+
+***
+
+## 3.4.0
+Release date: Apr 2nd, 2020
+
+### Added
++ PLGPRSS-400: Add Apple Pay
++ PLGPRSS-399: Add Direct Bank Transfer
+
+***
 
 ## 3.3.0
 Release date: Feb 26th, 2020
@@ -51,7 +72,7 @@ Release date: Sept. 8th, 2017
 + Add Belfius as payment method.
 + Update Dutch translation-files.
 + Resized all payment logos.
-+ Removed underscore in the name of all giftcards.
++ Removed underscore in the name of all gift cards.
 + Adjust birthdate to correct layout for Klarna and Pay After Delivery.
 + Removed own order-confirmation.tpl and use PrestaShop default.
 
@@ -177,7 +198,7 @@ Release date: Apr 15th, 2016
 + Added tooltips to the configuration options in the plugin.
 + Improved the payment logos.
 + Added a debug configuration option. Debug output are logged to: 'prestashop_root_directory/log/MultiSafepay.log'.
-+ Added the following giftcards:
++ Added the following gift cards:
 
 1.	Beautyandwellness
 2.	Brouwmarkt

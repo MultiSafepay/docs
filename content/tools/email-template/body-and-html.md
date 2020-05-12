@@ -2,7 +2,7 @@
 title: 'Email template, body and HTML'
 weight: 7
 meta_title: "Email Template HTML - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -46,4 +46,4 @@ An Iframe is an HTML document embedded inside another HTML document. You can use
 - Fill in the URL and press OK. It is possible to configure adittional parameters such as width, height,  alignment, name and title.
  
 ## Merchant own responsibility 
-Multisafepay is not responsible for the customization of the e-mail templates. We provide every merchant with a standard set of templates which you can use immediately after creating a merchant account. It is important that you have some knowledge about HTML/CSS before you start with the customization of a e-mail template. Feel free to contact support if you have a question. 
+MultiSafepay is not responsible for the customization of the e-mail templates. We provide every merchant with a standard set of templates which you can use immediately after creating a merchant account. It is important that you have some knowledge about HTML/CSS before you start with the customization of a e-mail template. Feel free to contact support if you have a question. 

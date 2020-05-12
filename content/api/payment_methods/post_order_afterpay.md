@@ -1,7 +1,7 @@
 ---
 weight: 301
 meta_title: "API - Create AfterPay order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 
@@ -105,7 +105,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.21"
@@ -114,7 +113,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.06"
@@ -123,7 +121,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -132,7 +129,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -141,7 +137,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -150,7 +145,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -159,7 +153,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -168,7 +161,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.0825",
@@ -287,7 +279,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             },
             "alternate": [
                 {
-                    "standalone": true,
                     "name": "BTW21",
                     "rules": [
                         {
@@ -297,7 +288,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": true,
                     "name": "BTW6",
                     "rules": [
                         {
@@ -307,7 +297,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": true,
                     "name": "BTW0",
                     "rules": [
                         {
@@ -317,7 +306,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "0.0000",
                     "rules": [
                         {
@@ -327,7 +315,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "0.0000",
                     "rules": [
                         {
@@ -337,7 +324,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "FEE",
                     "rules": [
                         {
@@ -347,7 +333,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "none",
                     "rules": [
                         {
@@ -357,7 +342,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": true,
                     "name": 2,
                     "rules": [
                         {
@@ -472,7 +456,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.21
@@ -481,7 +464,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW9",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.09
@@ -490,7 +472,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.06
@@ -499,7 +480,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0
@@ -508,7 +488,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -517,7 +496,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -544,14 +522,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 
 ## AfterPay
-### Direct - AfterPay
+### Direct
 
-
-Creates an AfterPay order to be paid after delivery.
+Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All parameters shown are required field(s):
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
@@ -560,7 +537,7 @@ Creates an AfterPay order to be paid after delivery.
 | order_id                           | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.  |
 | currency                           | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                             | integer | The amount (in cents) that the customer needs to pay. |
-| description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
+| description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is not supported. Use the required 'shopping-cart' object for this. |
 | payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |                                                                                     
 | customer                           | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |                                                                                   
 | delivery                           | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> | |                                                                                    
@@ -577,13 +554,13 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [AfterPay](/payment-methods/afterpay/) on our documentation page.
 
-### Redirect - AfterPay
+### Redirect
 
-Creates an AfterPay order to be paid after delivery.
+Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All parameters shown are required field(s):
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
@@ -592,7 +569,7 @@ Creates an AfterPay order to be paid after delivery.
 | order_id                           | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.  |
 | currency                           | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                             | integer | The amount (in cents) that the customer needs to pay. |
-| description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
+| description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is not supported. Use the required 'shopping-cart' object for this. |
 | payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |                                                                                     
 | customer                           | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |                                                                                   
 | delivery                           | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> | |                                                                                    

@@ -1,7 +1,7 @@
 ---
 weight: 604
 meta_title: "API - Tokenization - Original transaction - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 {{< code-block >}}
@@ -65,7 +65,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 This API call allows you to create an original order using a specific recurring model.
 
-MultiSafepay offers the following recurring models: __Card on file (COF), Subscription, Unscheduled__
+MultiSafepay offers the following recurring models: 
+
+1. __Card on file (COF)__: transaction where a cardholder authorized a merchant to store the cardholder's details 
+
+2. __Subscription__: agreement or services that are billed at the end of a merchant’s billing cycle
+
+3. __Unscheduled__: event triggered for application (for example a mobile top up when no credit is left on the phone)
+
+
 
 
 * All parameters shown are required field(s)
@@ -78,7 +86,7 @@ MultiSafepay offers the following recurring models: __Card on file (COF), Subscr
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | recurring_model                        | string | The function of the recurring model e.g. Card on file, Subscription, Unscheduled  |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
+| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 |  payment_options 	|   object	 | 
 | notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |

@@ -1,7 +1,7 @@
 ---
 weight: 324
 meta_title: "API - Create Santander Betaalplan order - Developers MultiSafepay"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -107,7 +107,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Santander Betaalplan
-* All parameters shown are required field(s)
+Creates a Santander Betaalplan [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+
+* Direct transaction requires all fields completed properly
+
+* All parameters shown are required field(s):
 
 | Parameter                     | Type     | Description                                                                               |
 |-------------------------------|----------|-------------------------------------------------------------------------------------------|
@@ -116,7 +120,7 @@ gateway                         | string | The unique gateway id to immediately 
 order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                     |
 currency                        | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 amount                          | integer | The amount (in cents) that the customer needs to pay. In this case minimum 30000.         
-description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping cart' objects for this. |
+description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping cart' objects for this. |
 payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                               |
 customer                        | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i>    |
 gateway_info                    | object | Contains the information of the customer needed for the credit check.                     |

@@ -2,7 +2,7 @@
 title : "Klarna, How it works"
 weight: 21
 meta_title: "Klarna, How it works - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # How it works
@@ -34,16 +34,18 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
+{{< alert-notice >}} From May 11th onwards, a Klarna transaction will no longer have the status _Initialized_ after acceptance of an order. This will be replaced by the status _Uncleared_ and will be changed to _Completed_ after shipment of the order and payment settlement from Klarna. Following this, the funds will be added to your account. If you have any questions regarding this change please contact <support@multisafepay.com> {{< /alert-notice >}} 
+
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Completed  | Initialized  | A successful Klarna transaction has been placed.   |
-| Shipped    | Initialized  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
+| Initialized   | Initialized  | A Klarna transaction has been initiated by the consumer.   |
+| Completed  | Uncleared  | A successful Klarna transaction has been placed. The order is awaiting shipment. A payment has not yet been received by Klarna.   |
+| Shipped    | Uncleared  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
 | Shipped    | Completed  | Payout of a Klarna transaction has been received and added to your MultiSafepay Control balance.|
 | Declined   | Declined   | Transaction has been rejected by Klarna. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com/), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
 | Expired    | Expired    | When no action is being taken when receiving a transaction with the payment method Klarna, the transaction will automatically expire. | 
-| Uncleared    | Uncleared    | No action is required. The transaction will automatically be released, although depending on the status of the order, Klarna can either set it to 'Completed' or 'Declined'. For more information, please contact Klarna.  |
 
 ### Refund flow 
 
@@ -77,6 +79,6 @@ Some rules may apply to certain payment methods. For Klarna, the following rules
 
 *  Klarna is currently offered in offered in Austria, Germany and the Netherlands
 
-* As a rule of thumb, post-payment methods do not allow the use of a [giftcard](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the giftcard as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using giftcards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.

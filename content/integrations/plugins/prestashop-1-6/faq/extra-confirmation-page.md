@@ -2,7 +2,7 @@
 title: "Extra confirmation page"
 weight:
 meta_title: "PrestaShop 1.6 plugin extra confirmation page - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 The PrestaShop 1.6 version 3.1.7 allows you to skip the extra confirmation page due to a workaround. The customer will be redirected to the payment page of MultiSafepay without the verification of the confirmation page.

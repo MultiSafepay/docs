@@ -1,12 +1,13 @@
 ---
 title : "MultiSafepay plugin for PrestaShop 1.6"
-download_url : "/integrations/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.3.0.zip"
+download_url : "/integrations/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.5.0.zip"
 changelog_url : "."
 changelog: https://docs.multisafepay.com/integrations/plugins/prestashop-1-6/changelog/
 manual: "."
 faq: "."
+newsletter: "PrestaShop"
 meta_title: "PrestaShop 1.6 plugin integration - MultiSafepay Documentation Center"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 60
 title_short: "PrestaShop 1.6"

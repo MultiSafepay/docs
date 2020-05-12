@@ -2,7 +2,7 @@
 title: "How to activate Apple Pay"
 weight: 22
 meta_title: "How to activate Apple Pay - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -21,4 +21,4 @@ To activate credit cards as payment methods for your webshop, we would like to r
 
 When approved by our Risk Team, Visa, Mastercard and Apple Pay will be enabled in your MultiSafepay Control as payment methods.
 
-_If credit cards are already enabled as a payment method, you can contact <support@multisafepay.com> and we will activate Apple Pay for you._
+_If credit cards are already enabled as a payment method, you can contact <integration@multisafepay.com> and we will activate Apple Pay for you._

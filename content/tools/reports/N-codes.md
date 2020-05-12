@@ -2,7 +2,7 @@
 title: "N-Codes and description"
 weight: 
 meta_title: "What are N-Codes"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 In the accountant export you can use filters to select a specific payment method or period. This allows you to quickly get the data you need. To filter your transactions you can use the **N-codes** filter in the accountant export.
@@ -11,8 +11,8 @@ Below you can find an overview of the N-Codes and their meaning.
 
 | N-Code | Transaction type                                        |   |
 |--------|---------------------------------------------------------|---|
-| N001   | [MASTERCARD](/payment-methods/creditcards/)             |   |
-| N002   | [VISA](/payment-methods/creditcards/)                   |   |
+| N001   | [MASTERCARD](/payment-methods/credit-and-debit-cards/mastercard/)             |   |
+| N002   | [VISA](/payment-methods/credit-and-debit-cards/mastercard/)                   |   |
 | N003   | [MAESTRO](/payment-methods/maestro/)                    |   |
 | N004   | WALLET                                                  |   |
 | N006   | [DANKORT](/payment-methods/branded-credit-cards/)       |   |
@@ -22,7 +22,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N021   | [IDEAL](/payment-methods/ideal/)                        |   |
 | N031   | [GIROPAY](/payment-methods/giropay/)                    |   |
 | N081   | [BANKTRANS](/payment-methods/bank-transfer/)            |   |
-| N085   | [AMEX](/payment-methods/creditcards/)                   |   |
+| N085   | [AMEX](/payment-methods/credit-and-debit-cards/american-express/)                   |   |
 | N086   | [KLARNA](/payment-methods/klarna/)                      |   |
 | N087   | [CARTASI](/payment-methods/branded-credit-cards/)       |   |
 | N088   | [PAYAFTER](/payment-methods/pay-after-delivery/)        |   |
@@ -30,7 +30,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N092   | [DIRECTBANK](/payment-methods/sofort-banking/)          |   |
 | N093   | CURRENCY CONVERSION                                     |   |
 | N094   | [MISTERCASH](/payment-methods/bancontact/)              |   |
-| N095   | [CHARGEBACK](/payment-methods/creditcards/chargebacks/) |   |
+| N095   | [CHARGEBACK](/faq/chargebacks/) |   |
 | N096   | WITHDRAWAL                                              |   |
 | N097   | Refund                                                  |   |
 | N098   | [COUPON](/payment-methods/gift-cards/)                  |   |
