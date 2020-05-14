@@ -88,7 +88,7 @@
 </head>
 
 
-<body>
+<body class='{{ if .IsHome }}home{{end}}'>
     <div id="page" class="page">
         {{ partial "menu" . }}
         {{ if not .IsHome }}
@@ -147,8 +147,7 @@
     </script>
     <!--End AnchorJS -->	
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/flexsearch.min.js"></script>
-    <script type="text/javascript" src="/js/flex_search.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
 </body>
 
 </html>

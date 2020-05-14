@@ -1,23 +1,10 @@
-<div class="search">
+<div id="search-home" class="search">
   <input
-    class="search-form-input flex-search"
+    class="addsearch search-form-input flex-search"
     id="search-input"
     placeholder="Search documentation..."
     type="text"
     role="combobox"
+    disabled="disabled"
   />
-
-  <div id="results" class="search-results"></div>
 </div>
-<script>
-  const result = window.document.getElementById('results');
-
-  const config = { childList: true };
-
-  const callback = function(mutationsList, observer) {
-    if (result.hasChildNodes()) result.classList.add('bg-white');
-    else result.classList.remove('bg-white');
-  };
-  const observer = new MutationObserver(callback);
-  observer.observe(result, config);
-</script>
