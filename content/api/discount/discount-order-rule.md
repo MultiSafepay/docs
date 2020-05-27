@@ -86,41 +86,6 @@ Adding a discount as order rule is a common way to add a discount before submitt
 					"value": 12
 				}
 			},
-			{
-				"name": "Nice apple",
-				"description": "",
-				"unit_price": 35,
-				"quantity": 2,
-				"merchant_item_id": "333333",
-				"tax_table_selector": "none",
-				"weight": {
-					"unit": "KG",
-					"value": 20
-				}
-			},
-			{
-				"name": "Flat Rate - Fixed",
-				"description": "Shipping",
-				"unit_price": 10,
-				"quantity": 1,
-				"merchant_item_id": "msp-shipping",
-				"tax_table_selector": "none",
-				"weight": {
-					"unit": "KG",
-					"value": 0
-				}
-			}, {
-				"name": "20% discount on all items",
-				"description": "Discount",
-				"unit_price": -52,
-				"quantity": 1,
-				"merchant_item_id": "discount",
-				"tax_table_selector": "none",
-				"weight": {
-					"unit": "KG",
-					"value": 0
-				}
-			}
 		]
 	},
 	"checkout_options": {
@@ -139,53 +104,8 @@ Adding a discount as order rule is a common way to add a discount before submitt
 					"name": "BTW6",
 					"rules": [{
 						"rate": 0.06
-					}]
-				},
-				{
-					"name": "BTW0",
-					"rules": [{
-						"rate": 0.00
-					}]
-				},
-				{
-					"name": "0.0000",
-					"rules": [{
-						"rate": 0
-					}]
-				},
-				{
-					"name": "0.0000",
-					"rules": [{
-						"rate": 0
-					}]
-				},
-				{
-					"name": "FEE",
-					"rules": [{
-						"rate": 0.00
-					}]
-				},
-				{
-					"name": "none",
-					"rules": [{
-						"rate": 0.00
-					}]
-				},
-				{
-					"name": "2",
-					"rules": [{
-							"rate": 0.0825,
-							"country": "US"
-						},
-						{
-							"rate": 0.08375,
-							"country": "US"
-						}
-					]
-				}
-			]
-		}
-	}
+					}			
+	},
 }
 ```
 {{< /code-block >}}
