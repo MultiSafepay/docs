@@ -7,6 +7,6 @@ read_more: '.'
 ---
 ## Activate
 
-For V Pay to be available as a payment method on the payment page of MultiSafepay, THE Visa gateway needs to be enabled.
+For V Pay to be available as a payment method on the payment page of MultiSafepay, the Visa gateway needs to be enabled.
 
 Note that on the MultiSafepay payment page, the V Pay logo will never be shown because it is part of the VISA Europe circuit.
