@@ -7,13 +7,6 @@ read_more: '.'
 ---
 ## Activate
 
-With MultiSafepay, V Pay is additional (non-standard) payment method. You can submit the application to activate the payment method through one of our account managers at <sales@multisafepay.com>
+For V Pay to be available as a payment method on the payment page of MultiSafepay Visa gateway needs to be enabled.
 
-To activate V Pay as payment method for your webshop, we would like to receive the following information from you:
-
-* Average transaction amount
-* Minimum transaction amount
-* Maximum transaction amount
-* Yearly turnover by credit cards.
-
-The abovementioned information will be sent to our Risk team who will assess whether you are eligibe for this payment method.
+Note that in MultiSafepay payment page the V Pay logo will never be shown because is part of the VISA Europe circuit.
