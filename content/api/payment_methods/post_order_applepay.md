@@ -4,10 +4,9 @@ meta_title: "API - Create an Apple Pay transaction - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
+> POST - /orders
 
-> POST - /orders 
-
-```shell 
+```shell
 
 {
     "type": "redirect",
@@ -22,11 +21,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": ""
-    },
+}
 ```
-
-> JSON Response 
-
+> JSON Response
 ```shell
 {
   "success": true,
@@ -36,13 +33,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   }
 }
 ```
-
 {{< /code-block >}}
 
 {{< description >}}
 
-## Apple Pay
 
+## Apple Pay
 Creates an Apple Pay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly.
@@ -58,6 +54,7 @@ try {
     console.debug('An error occurred while verifying if Apple Pay is available:', error);
     }
 ```
+
 If this code is not implemented in the front-end of you e-commerce platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay. We highly recommend using the abovementioned code to avoid any issues.
 
 * All parameters shown are required field(s):
@@ -75,5 +72,7 @@ If this code is not implemented in the front-end of you e-commerce platform, con
 | redirect_url                    | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
+Read more about [Apple Pay](/payment-methods/wallet/applepay/) on our documentation page.
 
 {{< /description >}}
+
