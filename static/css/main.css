@@ -1404,3 +1404,38 @@ h6 {
     background: #fff;
 }
 
+
+@media (min-width: 768px) {
+    #addsearch-results .addsearch-result-item-sub-active div,
+    #addsearch-results .addsearch-result-item-sub div, #addsearch-results .addsearch-result-item-sub {
+      width: 776px !important;
+    }
+    
+    #addsearch-results-mid{
+        background: none !important;
+    }
+    #addsearch-nohits {
+        width: 775px !important;
+    }
+    /* HIDE SCREEN CAPTURES - ONLY USE FOR SEARCH WIDGET */
+    #addsearch-results #addsearch-pic{
+     display: none !important;
+    }
+    #addsearch-results.addsearch-d #addsearch-results-right{
+     width: 0;
+     margin-left: 774px;
+
+    }
+    #addsearch-results.addsearch-d {
+      width: 776px !important
+      
+    }
+    #addsearch-results .addsearch-result-item-sub div{
+        width: 716px !important;
+        padding: 0 30px !important;
+    }
+}
+
+
+
+
