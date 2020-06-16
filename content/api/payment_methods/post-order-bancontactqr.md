@@ -61,10 +61,10 @@ Creates a Bancontact QR [Redirect](/faq/api/difference-between-direct-and-redire
 | amount                       | integer  | The amount (in cents)  that the customer has to pay.                                     |
 | description                  | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options              | object |                            |
-| gateway_info                 | object | The qr_enabled = 1 invokes the qr_url. This parameter contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point. This QR image generation can be done at a bpost systems or within the postman application at bpost (if possible). 
+| gateway_info                 | object | The qr_enabled = 1 invokes the qr_url. This parameter contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point.
 | customer                     | object |  |
 
-<aside class="warning">After placing the order, you will receive 2 links as response on a successfull Bancontact QR request: a payment link and a qr_url. This qr_url contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point. QR image generation can be done at a bpost system or within the postman application at bpost.</aside>
+<aside class="warning">After placing the order, you will receive 2 links as response on a successfull Bancontact QR request: a payment link and a qr_url. This qr_url contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point. </aside>
 
 
 Read more about [Bancontact](/payment-methods/banks/bancontact/) on our documentation page.
