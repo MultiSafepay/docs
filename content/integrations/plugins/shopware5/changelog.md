@@ -9,7 +9,7 @@ Release date: Mar 26th, 2020
 
 ## Added
 + PLGSHPS-189: Add Apple Pay
-+ PLGSHPS-188: Add Direct Bank Transfer
++ PLGSHPS-188: Add Direct Bank Transfer (Request to Pay)
 
 ***
 

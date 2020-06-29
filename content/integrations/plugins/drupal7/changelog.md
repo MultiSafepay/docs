@@ -9,7 +9,7 @@ Release date: Apr 1st, 2020
 
 ### Added
 + PLGDRPC-266: Add Apple Pay
-+ PLGDRPC-264: Add Direct Bank Transfer
++ PLGDRPC-264: Add Direct Bank Transfer (Request to Pay)
 
 ### Changed
 + PLGDRPC-256: Changed Bank transfer from redirect to direct

@@ -1,15 +1,15 @@
 ---
-title: "Direct Bank Transfer, How does it work?"
+title: "Request to Pay, How does it work?"
 weight: 21
-meta_title: "Direct Bank Transfer, how does it work? - MultiSafepay Support"
+meta_title: "Request to Pay powered by Deutsche Bank, how does it work? - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ## How does it work?
 
-Direct Bank Transfer works in such a way that consumers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the consumer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
+Request to Pay works in such a way that consumers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the consumer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
 
-Direct Bank Transfer reduces cost and risk, enabling faster settlement, providing simplified reconciliation.
+Request to Pay reduces cost and risk, enabling faster settlement, providing simplified reconciliation.
 
 ## Transaction Flow
 
@@ -21,7 +21,7 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-Direct Bank Transfer transactions received by MultiSafepay will be processed directly through Deutsche Bank. The following statuses are important when receiving an Direct Bank Transfer payment:
+Request to Pay transactions received by MultiSafepay will be processed directly through Deutsche Bank. The following statuses are important when receiving a Request to Pay payment:
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -42,16 +42,16 @@ _Please note that refunds are processed by Deutsche Bank._
 | Completed      | Completed   | Refund has been successfully processed.  | 
 | Declined     | Declined   | Refund has been declined.      |               
 
-The full API reference for Direct Bank Transfer can be found [here](https://docs.multisafepay.com/api/#directbanktransfer)
+The full API reference for Request to Pay can be found [here](https://docs.multisafepay.com/api/#directbanktransfer)
 
 ## Product Rules
 
-Direct Bank Transfer has a number of product rules which are the following:
+Request to Pay has a number of product rules which are the following:
 
-* Direct Bank Transfer supports Instant as well as Non-Instant SEPA bank transfers
+* Request to Pay supports Instant as well as Non-Instant SEPA bank transfers
 
 * Online refunding is processed by Deutsche Bank themselves.
 
-* Direct Bank Transfer can only process transactions in Euros (EUR)
+* Request to Pay can only process transactions in Euros (EUR)
 
-* A minimum of 1 EUR and maximum of 15,000 EUR exist for Direct Bank Transfer transactions.
+* A minimum of 1 EUR and maximum of 15,000 EUR exist for Request to Pay transactions.

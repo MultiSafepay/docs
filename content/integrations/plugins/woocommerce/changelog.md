@@ -38,8 +38,7 @@ Release date: Mar 30th, 2020
 
 ### Added
 + PLGWOOS-363: Add Apple Pay
-+ PLGWOOS-384: Add Direct Bank Transfer
-
++ PLGWOOS-384: Add Direct Bank Transfer (Request to Pay)
 ***
 
 ## 3.4.0
