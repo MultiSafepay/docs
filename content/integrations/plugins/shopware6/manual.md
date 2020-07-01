@@ -27,6 +27,18 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 The other fields can be filled accordingly to your own preferences.
 
+#### Composer installation steps
+
+Run the following command in the root of your Shopware shop directory. Make sure the composer is installed on your hosting server.
+
+```
+composer require multisafepay/shopware6
+
+```
+#### Marketplace installation steps
+
+Get the free MultiSafepay plugin from the [Shopware 6 marketplace](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html) and connect your shop with your Shopware account.
+
 ### 3. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
