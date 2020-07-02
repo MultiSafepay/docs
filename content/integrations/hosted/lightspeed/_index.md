@@ -12,4 +12,5 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Li
 description: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app.
 This app is managed by our partner Lightspeed. For support, please contact [Lightspeed](https://www.lightspeedhq.nl/support) directly."
 layout: 'single'
+tags: 'hidden'
 ---

@@ -330,6 +330,7 @@ Redirect 301 /payment-methods/banks/direct-debit/what-is-direct-debit/ https://d
 Redirect 301 /payment-methods/banks/direct-debit/how-does-direct-debit-work/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#how-does-it-work
 Redirect 301 /payment-methods/banks/direct-debit/activate-direct-debit/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#activate
 Redirect 301 /faq/general/can-i-use-multisafepay-with-wix/ https://docs.multisafepay.com/integrations/hosted/ecwid/manual/ 
+Redirect 301 /integrations/hosted/lightspeed/ https://docs.multisafepay.com/integrations/hosted/lightspeedbeta/
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
 Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
