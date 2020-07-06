@@ -364,7 +364,6 @@ Redirect 301 /how-to-find-us/spanish-office-location/ https://docs.multisafepay.
 Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrappers/
 Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
 Redirect 301 /integrations/sdk/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
-
-Redire	
+	
 #DOCS-855: Remove SSL Certificate Renewal January 2020 page
 Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com
