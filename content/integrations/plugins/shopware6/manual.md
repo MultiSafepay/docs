@@ -18,7 +18,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 3. Login into your (Shopware 6) backend and navigate to _Settings_ and select _System_ on the left hand side
 4. Select _Plugins_
 5. Press on _Upload plugin_ at the top of the page and select the file you downloaded in step 2
-6. Now that the plugin is uploaded, make sure the _Activated_ button is toggled
+6. When the plugin is visible, make sure the _Activated_ button is toggled
 7. Press on the "..." (more) button and select _Config_
 8. Select _Test_ in the drop-down menu
 9. Look for the field named _API key_ and enter your API key.
