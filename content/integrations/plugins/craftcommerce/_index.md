@@ -12,4 +12,4 @@ hideMenu: '.'
 
 Currently, we are working on creating a plugin for Craft Commerce. We are expecting this plugin to be available shortly.
 
-If you have any question regarding this plugin or if you would like more information please contact the Integration Team at <integration@multisafepay.com> 
+If you have any questions regarding this plugin or if you would like more information, please contact our Integration team at <integration@multisafepay.com> 
