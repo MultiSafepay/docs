@@ -1,5 +1,5 @@
 ---
-title : "MultiSafepay app for Lightspeed"
+title : "Lightspeed core integration"
 meta_title: "Lightspeed plugin integration - MultiSafepay Documentation Center"
 manual: "."
 faq: "."

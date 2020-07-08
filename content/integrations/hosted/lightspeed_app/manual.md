@@ -2,9 +2,12 @@
 title : "MultiSafepay Lightspeed installation & configuration manual"
 meta_title: "Lightspeed plugin manual - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+aliases:
+    - /support-tab/lighstpeed/manual
 ---
 
-## Introduction
+### Introduction
+This is a beta version of the Lighstpeed app. If you need any assistance, please contact the Integration team. You can find the contact details below. For the core Lighstpeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/)
 
 {{% introduction_hosted "Lightspeed" %}}
 
@@ -27,8 +30,8 @@ __Congratulations__
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
 
-#### 1.1 Migration from old integration to Lightspeed app
-If you are using the [old Lightspeed MultiSafepay payment integration](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/):
+#### 1.1 Migration from core integration to Lightspeed app
+If you are using the old [core Lightspeed MultiSafepay payment integration](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/):
 
 1. Complete the above mentioned steps to install the Lightspeed app
 
