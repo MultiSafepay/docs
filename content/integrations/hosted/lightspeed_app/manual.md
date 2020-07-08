@@ -7,7 +7,7 @@ aliases:
 ---
 
 ### Introduction
-This is a beta version of the Lighstpeed app. If you need any assistance, please contact the Integration team. You can find the contact details below. For the core Lighstpeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/)
+This is a beta version of the Lighstpeed app, please contact the Integration team when using it. You can find the contact details below. For the core Lighstpeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/)
 
 {{% introduction_hosted "Lightspeed" %}}
 
