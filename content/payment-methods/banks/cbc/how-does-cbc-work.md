@@ -10,13 +10,13 @@ CBC is a banking payment method that allows CBC customers to pay directly using 
 
 > CBC payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)
 
-In the event which a customer makes a successful payment, but does not finalize the process by pressing the "return to website" button, no status update will be received on our end. The transaction status will therefore remain _initialized_. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed.
+In the event which a customer makes a successful payment, but does not finalize the process by pressing the "return to website" button, no status update will be received on our end. The transaction status will therefore remain _Initialized_. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
-The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
+The order status indicates the status of the order, such as _Completed_, _Pending_ or _Rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
 
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
