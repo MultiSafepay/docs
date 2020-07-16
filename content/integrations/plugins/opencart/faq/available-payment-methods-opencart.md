@@ -18,8 +18,10 @@ __Banks__
 + [Belfius](/payment-methods/banks/belfius/)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 + [Dotpay](/payment-methods/banks/dotpay/)
++ [EPS](/payment-methods/banks/eps/)
 + [Giropay](/payment-methods/banks/giropay/)
 + [iDEAL](/payment-methods/banks/ideal/)
++ [iDEAL QR](/payment-methods/banks/idealqr/)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
 + [KBC](/payment-methods/banks/kbc/)
 + [Maestro](/payment-methods/maestro/)
@@ -43,9 +45,9 @@ __Wallet__
 __Prepaid cards__ 
 
 + Boekenbon
-+ Fashion Cheque
 + Gezondheidsbon
-+ Lief
 + Parfumcadeaukaart
 + [Paysafecard](/payment-methods/paysafecard/)
++ VVV Cadeaukaart
 + Webshop gift card
+
