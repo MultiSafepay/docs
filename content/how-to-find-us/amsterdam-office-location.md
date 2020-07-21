@@ -11,11 +11,11 @@ Kraanspoor 39<br>
 
 ## Bus from the Central Station in Amsterdam
 
-Busses 391 and 394. Get out at busstop Stenendokweg.
+Buses 391 and 394. Get out at busstop Stenendokweg.
 <br><img src='../Bus.jpg'>
 
 ## Bus from metro Noorderpark
-Busses 34 and 35. Get out at busstop Stenendokweg.<br>
+Buses 34 and 35. Get out at busstop Stenendokweg.<br>
 (Same map as above.)
 
 ## Ferry from the Central Station Amsterdam
