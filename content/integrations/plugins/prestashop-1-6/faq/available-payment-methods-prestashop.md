@@ -24,6 +24,7 @@ __Banks__
 + [iDEAL](/payment-methods/banks/ideal/)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
 + [KBC](/payment-methods/banks/kbc/)
++ [CBC](/payment-methods/banks/cbc/)
 + [Maestro](/payment-methods/maestro/)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking/)
 

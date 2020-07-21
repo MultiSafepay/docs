@@ -4,6 +4,18 @@ meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Documentation Center
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
+## 3.6.0
+Release date: Jul 21st, 2020
+
+### Added
++ DAVAMS-269: Add CBC payment method
+
+### Changed
++ DAVAMS-213: Add track & trace to shipment request
++ PLGPRSS-404: Set order to status shipped for all payment methods
+
+***
+
 ## 3.5.0
 Release date: Apr 9th, 2020
 
