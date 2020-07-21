@@ -12,6 +12,6 @@ __Live environment__: If the refund is done by Bank transfer, the status will go
 
 It must also be noted that in the Live environment, refunds that are carried out via bank transfer such as iDEAL, Bancontact, Belfius, ING Home'Pay and KBC can be withdrawn during the same day before midnight.
 
-Refunds for credit cards, PayPal and Billing Suite payment methods are carried out immediatley and cannot be reversed.
+Refunds for credit cards, PayPal and Billing Suite payment methods are carried out immediately and cannot be reversed.
 
 __Test environment__: The status will remain _Reserved_ until the refund has been manually approved since there is no settlement with a bank.

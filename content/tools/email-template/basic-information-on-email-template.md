@@ -23,7 +23,7 @@ This is a standard email template to provide the customer with the bank details 
 
     Because the payment is processed from within the customer's banking environment and not directly on the payment page, the necessary data is sent to the customer by email. With this payment data, the customer can transfer the payment from their own banking environment to MultiSafepay at a desired time.
 
-    MultiSafepay will only sent the email to the customer when the Bank transafer request is recieved as a redirect requets. Meaning, the customer is redirected to the payment page of MultiSafepay to confirm the placed order. 
+    MultiSafepay will only sent the email to the customer when the Bank transfer request is recieved as a redirect request. Meaning, the customer is redirected to the payment page of MultiSafepay to confirm the placed order. 
 
     More information about the payment methods Bank transfer available in [Bank transfer, how does it work?](/payment-methods/bank-transfer/#how-it-works)
 
