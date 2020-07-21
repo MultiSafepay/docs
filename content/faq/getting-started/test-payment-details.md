@@ -79,7 +79,7 @@ MultiSafepay provides a test platform for Belfius transactions. During the payme
 
 
 ## Nexi
-MultiSafepay provides the Visa test credantials to test the payment method Nexi.
+MultiSafepay provides the Visa test credentials to test the payment method Nexi.
 
 Nexi is shown as a payment option on the payment page of MultiSafepay only after:
 
@@ -88,7 +88,7 @@ Nexi is shown as a payment option on the payment page of MultiSafepay only after
 
 ## Cartes Bancaires
 
-MultiSafepay provides the Visa test credantials to test the payment method Cartes Bancaires.
+MultiSafepay provides the Visa test credentials to test the payment method Cartes Bancaires.
 
 Cartes Bancaires is shown as a payment option on the payment page of MultiSafepay only after:
 
@@ -97,7 +97,7 @@ Cartes Bancaires is shown as a payment option on the payment page of MultiSafepa
 
 ## Dankort
 
-MultiSafepay provides the Visa test credantials to test the payment method Dankort.
+MultiSafepay provides the Visa test credentials to test the payment method Dankort.
 
 Dankort is shown as a payment option on the Payment page of MultiSafepay only after:
 

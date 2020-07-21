@@ -13,6 +13,6 @@ A descriptor allows you to display your company name on a customers' bank statem
 1. Navigate to _Settings_ --> _Website settings_
 2. Fill in your company name in the field _Name_
 
-The descriptor is applicable for iDEAL, VISA, Mastercard, Banccontact
+The descriptor is applicable for iDEAL, VISA, Mastercard, Bancontact
 
 _Please note that the new name may only be maximum 35 characters._

@@ -8,7 +8,7 @@ read_more: "."
 > 27.09.2019 - We constantly update the contents of this document. You should expect new information to surface anytime, as specifics about the implementation of the new directive are still being worked on.  
 
 ## Overview
-Your right to apply surcharges may vary accordingly by the payment method and the customer’s country. Please note that, even though the PSD2 regulation concerns the whole European Economic Area, states can decide invidually on certain aspects of the new directive. You should always check what rules are applicable in the country your business is registered. In the Netherlands, the body charged with the PSD2 oversight is the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) According to the Dutch National Bank, you should always contact ACM for inquiries. Moreover, each payment method is likely to implement its own provisions in addition to these regulations.
+Your right to apply surcharges may vary accordingly by the payment method and the customer’s country. Please note that, even though the PSD2 regulation concerns the whole European Economic Area, states can decide individually on certain aspects of the new directive. You should always check what rules are applicable in the country your business is registered. In the Netherlands, the body charged with the PSD2 oversight is the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) According to the Dutch National Bank, you should always contact ACM for inquiries. Moreover, each payment method is likely to implement its own provisions in addition to these regulations.
 
 ## What is NOT allowed?
 For the majority of payment transactions, retailers are no longer allowed to charge fees for using specific payment methods. 

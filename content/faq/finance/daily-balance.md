@@ -9,7 +9,7 @@ It is possible to view your daily balance in the [MultiSafepay Control](https://
 
 Please follow these steps:
 
-1. Naviagte to _Finance_
+1. Navigate to _Finance_
 2. Click on _Daily Balance_
 
 In this overview you can see your:

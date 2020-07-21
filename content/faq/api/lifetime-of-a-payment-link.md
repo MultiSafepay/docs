@@ -42,7 +42,7 @@ Post-payment methods are excluded by default when setting a lifetime of a paymen
 
 
 ## API 
-Full [API documentation](/api/#days-active-seconds-active) on the lifetime of a payment link can be found on our API page.git a
+Full [API documentation](/api/#days-active-seconds-active) on the lifetime of a payment link can be found on our API page.
 
 
 

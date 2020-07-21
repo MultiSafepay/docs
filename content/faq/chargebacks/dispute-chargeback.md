@@ -36,7 +36,7 @@ In order for this chargeback to be disputed we need the following documentation 
 #### Reason Code: 12.5
 __Description: Incorrect Amount__
 
-The transaction amount is incorrect or an error occured. 
+The transaction amount is incorrect or an error occurred. 
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it:
 

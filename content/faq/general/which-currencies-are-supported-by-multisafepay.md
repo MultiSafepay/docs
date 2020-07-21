@@ -48,7 +48,7 @@ Those are all the currencies available for Visa, MasterCard and Maestro:
 * SGD (Singapore dollar)
 * NZD (New Zealand dollar)
 * TRY (Turkish lira)
-* ISK (Islandic króna)
+* ISK (Icelandic króna)
 * THB (Thai baht)
 
 ## On request currencies
@@ -90,4 +90,4 @@ When you request an extra currency to be added to your MultiSafepay Control, you
 
 For example, the currency dollar (USD) is paid out in dollar (USD) and received on your business bank account in the dollars (USD) as well.
 
-For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to asisst you via <support@multisafepay.com>
+For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to assist you via <support@multisafepay.com>

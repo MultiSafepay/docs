@@ -23,7 +23,7 @@ Some products and/or services cannot therefore be accepted or can only be sold i
 * Whether you own a license or not, games of chance or gambling are prohibited
 * Binary options or CFDs
 * Penny auctions
-* Pyramid schemes and other methods related to (consciously or subconsiously) ‘get rich quick’ schemes.
+* Pyramid schemes and other methods related to (consciously or subconsciously) ‘get rich quick’ schemes.
 
 ## Socially inappropriate behaviors
 * If products or services are used to evoke terrorism or political violence
