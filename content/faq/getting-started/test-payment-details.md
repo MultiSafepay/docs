@@ -77,15 +77,6 @@ MultiSafepay provides a test platform for Belfius transactions. During the payme
 | Completed | Transaction is Completed |
 | Cancelled | Transaction is Cancelled |
 
-
-## Nexi
-MultiSafepay provides the Visa test credentials to test the payment method Nexi.
-
-Nexi is shown as a payment option on the payment page of MultiSafepay only after:
-
-1. The Visa gateway is enabled; and
-2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.
-
 ## Cartes Bancaires
 
 MultiSafepay provides the Visa test credentials to test the payment method Cartes Bancaires.
@@ -94,6 +85,16 @@ Cartes Bancaires is shown as a payment option on the payment page of MultiSafepa
 
 1. The Visa gateway is enabled; and
 2. The locale is set to fr_FR (France) in the transaction call received by MultiSafepay.
+
+## CBC
+
+The payment method CBC can only be processed on our new Payment page starting with PayV2.
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is void / cancelled |
+
 
 ## Dankort
 
@@ -206,6 +207,14 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
 | 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
+
+## Nexi
+MultiSafepay provides the Visa test credentials to test the payment method Nexi.
+
+Nexi is shown as a payment option on the payment page of MultiSafepay only after:
+
+1. The Visa gateway is enabled; and
+2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.
 
 ## Pay After Delivery (Betaal na Ontvangst)
 
