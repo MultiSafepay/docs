@@ -23,7 +23,7 @@ Twinfield supports one export format:
 
 ### Twinfield Import MultiSafepay
 
-If you would like to import a MultiSafapay Accountant Export, we would like to kindly ask you to follow these set of instructions:
+If you would like to import a MultiSafepay Accountant Export, we would like to kindly ask you to follow these set of instructions:
 
 1. Log into your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7) and select the _Cash & Banks_ section in the menu
 2. Select _Cash & Banks_ one more time

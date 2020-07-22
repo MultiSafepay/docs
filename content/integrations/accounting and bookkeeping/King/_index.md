@@ -23,7 +23,7 @@ King Business Software supports one export format:
 
 ### King Business Software Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [King](https://service.king.eu/) will assist you directly in this.
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [King](https://service.king.eu/) will assist you directly in this.
 
 ### Accountant Report Export
 

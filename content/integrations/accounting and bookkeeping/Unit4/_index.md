@@ -23,7 +23,7 @@ Unit4 supports one export format:
 
 ### Unit4 Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [Unit4](https://www.unit4.com/nl/voor-klanten/support) will assist you directly in this.
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [Unit4](https://www.unit4.com/nl/voor-klanten/support) will assist you directly in this.
 
 ### Accountant Report Export
 

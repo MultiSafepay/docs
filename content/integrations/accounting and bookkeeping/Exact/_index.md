@@ -23,7 +23,7 @@ Exact supports one export format:
 
 ### Exact Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to follow the set of instructions below:
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to follow the set of instructions below:
 
 1. Log into your [Exact Online account](https://start.exactonline.nl/docs/Login.aspx?ReturnUrl=%2fdocs%2fMenuPortal.aspx#_ga=2.221698527.659438293.1581330144-1715983246.1581330144) and go to _Financial_ -> _Banking & Cash_ -> _Statements_ -> _Import_
 2. Click _Choose File_ and select the MT940 file you want to upload

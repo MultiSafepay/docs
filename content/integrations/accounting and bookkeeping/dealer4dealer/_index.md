@@ -23,7 +23,7 @@ dealer4dealer supports two specific export formats. These are:
 
 ### dealer4dealer Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [dealer4dealer](https://dealer4dealer.nl/contact/) will assist you directly in this.
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [dealer4dealer](https://dealer4dealer.nl/contact/) will assist you directly in this.
 
 ### Accountant Report Export
 

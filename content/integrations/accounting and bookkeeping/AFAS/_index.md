@@ -23,7 +23,7 @@ AFAS Software supports one export format:
 
 ### AFAS Software Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [AFAS Software](https://www.afas.nl/contact) will assist you directly in this.
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [AFAS Software](https://www.afas.nl/contact) will assist you directly in this.
 
 ### Accountant Report Export
 
