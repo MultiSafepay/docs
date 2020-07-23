@@ -88,11 +88,11 @@ Cartes Bancaires is shown as a payment option on the payment page of MultiSafepa
 
 ## CBC
 
-The payment method CBC can only be processed on our new Payment page starting with PayV2.
+The payment method CBC can only be processed on our new payment page starting with PayV2.
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction is Completed |
+| Completed | Transaction is completed |
 | Cancelled | Transaction is void / cancelled |
 
 
@@ -176,11 +176,11 @@ MultiSafepay provides a test platform for ING Home'Pay transactions. During the 
 
 ## KBC
 
-The payment method KBC can only be processed on our new Payment page starting with PayV2.
+The payment method KBC can only be processed on our new payment page starting with PayV2.
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction is Completed |
+| Completed | Transaction is completed |
 | Cancelled | Transaction is void / cancelled |
 
 ## Klarna
