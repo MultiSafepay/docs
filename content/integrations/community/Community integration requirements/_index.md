@@ -9,6 +9,8 @@ description_short: "Submit and promote your plugin and become part of the MultiS
 hideMenu: '.'
 ---
 
+At MultiSafepay, our developers code on a daily basis to process in-house transactions. However, there are also many fantastic developers worldwide who code wrappers, plugins, applications and other various code in order to work with us.
+
 We are happy to give a place on our documentation page if you have created an integration with us. If you would like for your project to appear on our documentation page, please contact the MultiSafepay Integration Team at integration@multisafepay.com
 
 We would like to outline the main requirements that external integrations should adhere to if they wish to be a part of the MultiSafepay community. These agreements are the following:
