@@ -119,15 +119,15 @@ MultiSafepay provides a test platform for SEPA Direct Debit transactions. By ent
 ## Direct Bank Transfer
 
 MultiSafepay provides a test platform for Direct Bank Transfer transactions though Deutsche Bank.
-You can simulate those scenarios:  
+You can simulate the following scenarios:  
 
 | Status    | Description              |
 | --------- | ------------------------ |
 | Completed | Transaction is Completed |
 | Canceled | Transaction is Canceled |
 
-Select "Demo Bank" in the Bank field and go through the steps with the information provided in the description in order to get a Completed status.
-In order to get a Cancel status you just need to click on the close button on the top right of the screen. 
+Select 'Demo Bank' in the Bank field and go through the steps with the information provided in the description in order to get a _Completed_ status.
+In order to get a _Cancel_ status you need to click on the _Close_ button at the top right of the screen.
 
 ## Dotpay
 
