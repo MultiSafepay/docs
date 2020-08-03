@@ -116,6 +116,19 @@ MultiSafepay provides a test platform for SEPA Direct Debit transactions. By ent
 | NL87ABNA0000000003 | Initialized/Uncleared/Completed | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Completed) |
 | NL87ABNA0000000004 | Initialized/Uncleared/Declined | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Declined) |
 
+## Direct Bank Transfer
+
+MultiSafepay provides a test platform for Direct Bank Transfer transactions though Deutsche Bank.
+You can simulate those scenarios:  
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Canceled | Transaction is Canceled |
+
+Select "Demo Bank" in the Bank field and go through the steps with the information provided in the description in order to get a Completed status.
+In order to get a Cancel status you just need to click on the close button on the top right of the screen. 
+
 ## Dotpay
 
 MultiSafepay provides a test platform for Dotpay transactions. During the payment process you will be able to simulate the outcome of the transaction.
