@@ -6,8 +6,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
+# Activate
+
 >_Currently MultiSafepay offers in3 only in the Netherlands._
 
 To apply for in3, please contact integration@multisafepay.com
-
->_Please check your eligibility with your MultiSafepay account manager at <sales@multisafepay.com> before applying for this payment method._

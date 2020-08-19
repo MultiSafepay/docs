@@ -12,7 +12,7 @@ There are 2 ways to refund an in3 transaction in [MultiSafepay Control](https://
 
 In both cases of a refund, an amount will be refunded only if a payment is linked to the transaction. If no payment is linked to the transaction, only a credit on the invoice will take place.
 
-__Please note that all refunds are processed by in3.__
+__Please note that all refunds are processed by in3 and can be done before and after settlement up to 1 year.__
 
 ## Full refund
 The transaction can be fully refunded through the refund option.

@@ -46,6 +46,8 @@ The full API reference for in3 can be found [here](/api/#in3)
 
 ## Product rules
 
+Some rules may apply to certain payment methods. For in3, the following rules apply:
+
 * The initial payment is required for an order to be place
 
 * Refunds are processed by in3
@@ -54,4 +56,6 @@ The full API reference for in3 can be found [here](/api/#in3)
 
 * in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
 
-* The minimum amount for an in3 payment is 100 EUR and maximum 3000 EUR
+* Default amount for an in3 payment is 100 EUR and maximum 3000 EUR
+
+* Supports different billing and shipping addresses
