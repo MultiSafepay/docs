@@ -7,5 +7,5 @@ layout: 'paymentdetail'
 logo: '/logo/Payment_methods/in3.svg' 
 short_description: 'Conveniently allows customers to make three seperate payments for a single purcase'
 aliases:
-    - /support-tab/magento2/payment-methods/afterpay
+    - /support-tab/magento2/payment-methods/billing-suite/in3
 ---
