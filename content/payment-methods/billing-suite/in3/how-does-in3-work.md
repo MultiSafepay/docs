@@ -29,7 +29,7 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized  | Initialized  | The consumer is redirected to in3 and a credit check is conducted.   |
 | Declined  | Declined  | The credit check has been declined.   |
-| Completed    | Uncleared  | The payment has been succesful. |
+| Completed    | Uncleared  | The payment has been successful. |
 | Void    | Void  | The payment has been declined or abandoned.|
 | Uncleared   | Initialized   | The payment is awaiting and the consumer has 5 minutes to complete the payment, otherwise the transaction will be cancelled.  |
 | Completed       | Completed   | The transaction has been settled and is complete.  | 
@@ -39,8 +39,8 @@ The transaction status indicates the payment status of the transaction, such as 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Completed    | Completed   | A refund or partial refund has been succesful. The refund will be processed by in3. | 
-| Declined      | Declined   | A refund or partial refund has been unsuccesful.  | 
+| Completed    | Completed   | A refund or partial refund has been successful. The refund will be processed by in3. | 
+| Declined      | Declined   | A refund or partial refund has been unsuccessful.  | 
 
 The full API reference for in3 can be found [here](/api/#in3)
 
@@ -48,14 +48,14 @@ The full API reference for in3 can be found [here](/api/#in3)
 
 Some rules may apply to certain payment methods. For in3, the following rules apply:
 
-* The initial payment is required for an order to be place
+* The initial payment is required for an order to be placed
 
 * Refunds are processed by in3
 
 * Payments can only be completed in Euros (EUR)
 
-* in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
+* Currently, in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
 
-* Default amount for an in3 payment is 100 EUR and maximum 3000 EUR
+* The default amount for an in3 payment is 100 EUR and maximum 3000 EUR
 
-* Supports different billing and shipping addresses
+* Different billing and shipping addresses may be entered by the consumer.
