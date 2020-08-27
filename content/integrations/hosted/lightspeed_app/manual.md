@@ -12,11 +12,11 @@ This is a beta version of the Lightspeed app, please contact the Integration tea
 {{% introduction_hosted "Lightspeed" %}}
 
 ### Requirements
-The application is tested using the default, onestep and onepage checkout using the default thema.
+The application is tested using the default, onestep and onepage checkout using the default theme.
 
-For the optimal experience of the user we included some Javascript and use our own images. This allows us to add, for example, a dropdown for iDEAL and our own icons for other payment methods. Some themas or users added scripts can cause issue, such as missing images for payment methods. To resolve these issue can require a developer.
+For the optimal experience of the user we included some Javascript and use our own images. This allows us to add, for example, a drop-down for iDEAL and our own icons for other payment methods. Some themes or users added scripts can cause issue, such as missing images for payment methods. To resolve these issue can require a developer.
 
-But don't worry if the javascript files are not loaded, all payment methods will keep working. And if you want to use our payment icons you can find them [here!](https://github.com/MultiSafepay/MultiSafepay-icons)
+But don't worry if the javascript files are not loaded, all payment methods will keep working. If you want to use our payment icons you can find them [here!](https://github.com/MultiSafepay/MultiSafepay-icons)
 
 ### 1. Installation 
 Follow the following instructions to install the MultiSafepay Lightspeed app:
