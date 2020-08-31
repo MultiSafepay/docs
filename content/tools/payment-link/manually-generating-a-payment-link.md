@@ -25,5 +25,5 @@ QR codes allow the final customer to pay without manual input, reducing input er
 
 Once you obtained the QR code, it can be saved on your device and be sent to your customer. The customer can now scan the QR code with a dedicated app on his phone. This will automatically open the MultiSafepay payment page filled with the data used during the payment link generator tool.
 
-_Note: QR code cannot be directly generated with API._
+_Note: A QR code cannot be directly generated with the API._
 
