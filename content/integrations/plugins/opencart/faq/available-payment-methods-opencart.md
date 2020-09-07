@@ -8,6 +8,7 @@ __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express/)
 + [Credit cards](/payment-methods/credit-and-debit-cards/) (combine Maestro, Mastercard & Visa in checkout)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro/)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard/)
 + [Visa](/payment-methods/credit-and-debit-cards/visa/) (including [Nexi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
 
@@ -16,7 +17,8 @@ __Banks__
 + [Bancontact](/payment-methods/banks/bancontact/)
 + [Bank transfer](/payment-methods/banks/bank-transfer/)
 + [Belfius](/payment-methods/banks/belfius/)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
++ [CBC](/payment-methods/banks/cbc/)
++ [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer/)
 + [Dotpay](/payment-methods/banks/dotpay/)
 + [EPS](/payment-methods/banks/eps/)
 + [Giropay](/payment-methods/banks/giropay/)
@@ -24,7 +26,7 @@ __Banks__
 + [iDEAL QR](/payment-methods/banks/idealqr/)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
 + [KBC](/payment-methods/banks/kbc/)
-+ [Maestro](/payment-methods/maestro/)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking/)
 + [Trustly](/payment-methods/banks/trustly/)
 
@@ -44,10 +46,23 @@ __Wallet__
 
 __Prepaid cards__ 
 
++ Baby Cadeaubon
++ Beauty & Wellness
 + Boekenbon
++ Fashioncheque
++ Fashiongiftcard
++ Fietsenbon
 + Gezondheidsbon
-+ Parfumcadeaukaart
-+ [Paysafecard](/payment-methods/paysafecard/)
++ GivaCard
++ Good Card
++ Nationale Tuinbon
++ Parfum Cadeaukaart
++ Paysafecard
++ Podium
++ Sport & Fit
 + VVV Cadeaukaart
-+ Webshop gift card
-
++ Webshop Giftcard
++ Wellness gift card
++ Wijncadeau
++ Winkelcheque
++ YourGift
