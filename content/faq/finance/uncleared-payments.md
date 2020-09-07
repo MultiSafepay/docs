@@ -11,7 +11,7 @@ The 'uncleared' status can be assigned to any credit card payment. In this case,
 
 ## Why should you check the transaction? 
 
-When you accept payments by credit card, there are risks associated with it. The risk of financial damage, for example by fraud, is carried by the merchant; neither MultiSafepay nor the credit card holder are accountable in this case. When the credit card holder discovers a fraudulent payment, they can demand a refund of the payment, even if products ordered have already been delivered. This is called a ‘chargeback’. More information about chargebacks and the risks of credit card payments can be found on on this [page](https://docs.multisafepay.com/faq/chargebacks/). On this page, we explain what you need to consider and how to make an informed decision when accepting or refusing uncleared payments.
+When you accept payments by credit card, there are risks associated with it. The risk of financial damage, for example by fraud, is carried by the merchant; neither MultiSafepay nor the credit card holder are accountable in this case. When the credit card holder discovers a fraudulent payment, they can demand a refund of the payment, even if products ordered have already been delivered. This is called a ‘chargeback’. More information about chargebacks and the risks of credit card payments can be found on this [page](https://docs.multisafepay.com/faq/chargebacks/). On this page, we explain what you need to consider and how to make an informed decision when accepting or refusing uncleared payments.
 
 ## Reviewing an uncleared payment
 
