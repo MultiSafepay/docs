@@ -13,7 +13,6 @@ weight: 1350
     "currency": "EUR",
     "amount": "10000",
     "description": "Manual Capture Test",
-    "manual": "false",
     "capture": "manual",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",

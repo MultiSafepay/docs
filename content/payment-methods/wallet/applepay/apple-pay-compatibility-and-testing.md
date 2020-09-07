@@ -9,9 +9,24 @@ read_more: '.'
 ## Compatibility and Testing
 #### Testing with supported devices
 
+It is possible to carry out testing with Apple Pay. Please follow these instructions:
+
+1. Contact <integration@multisafepay.com> to activate Apple Pay
+2. Activate Apple Pay in your backend environment
+3. During checkout, select Apple Pay as a payment method.
+4. The payment screen will appear with payment details. Click on the Apple Pay button (_You can ignore the 'Device is not supported' text_)
+5. Complete the payment using real card data. (_No actual payment will be taken_)
+6. The transaction is completed
+
 It is important to note that Apple Pay is only compaible with a select number of [Apple devices](https://support.apple.com/en-us/HT208531)
 
-It is worthy to mention that Apple Pay is also only compatible with the Safari browser. Other browsers such as Chrome and Firefox are not supported due to security reasons. Apple Pay testing can only therefore be carried out on supported devices and the Safari browser.
+It is worthy to mention testing with Apple Pay can only be conducted when the following requirements are met:
+
+1. A [compatible](https://support.apple.com/en-us/HT208531) device is being used
+2. A Safari browser is being used
+3. The website is using HTTPS
+
+If one of these requirments is not met, Apple Pay will not appear on the checkout page.
 
 Instructions on how to use Apple Pay can be found directly on the offical [Apple website](https://support.apple.com/en-us/HT201239)
 

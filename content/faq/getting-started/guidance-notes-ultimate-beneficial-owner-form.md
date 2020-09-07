@@ -23,6 +23,8 @@ This occurs typically in the following situations:
 
 [Download the French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
 
+[Download the German UBO form](/faq/getting-started/form/UBOform_DE.pdf)
+
 To clarify matters we have the following example:
 * The limited company Good Ltd has a sole shareholder Better Ltd.
 

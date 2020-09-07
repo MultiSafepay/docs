@@ -9,5 +9,5 @@ short_description: 'Conveniently allow your customers to pay using a wide range 
 weight: 40
 data:
   - { title: 'Paysafecard', url: 'paysafecard', logo: '/logo/Payment_methods/Paysafecard.svg' }
-  - { title: 'Giftcards', url: 'gift-cards', logo: '/logo/Payment_methods/VVV_Giftcards.svg' }
+  - { title: 'Gift cards', url: 'gift-cards', logo: '/logo/Payment_methods/VVV_Giftcards.svg' }
 --- 

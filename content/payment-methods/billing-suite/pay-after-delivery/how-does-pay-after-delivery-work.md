@@ -14,6 +14,8 @@ When an uncleared Pay After Delivery is received, no action is required. Our sup
 
 The customer has 14 days to complete the payment transaction after receiving the invoice from MultiFactor.
 
+_If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
+
 ### Shipped status
 When receiving a Pay After Delivery transaction, it is important to take the following steps:
 
@@ -52,6 +54,9 @@ _A payment link is supplied in every invoice email we send to the customer_
 
 ### Payout transaction
 The payout of a Pay After Delivery transaction will be added onto your MultiSafepay Balance. A Pay After Delivery payout will be processed 30 days after changing the status to shipped.
+
+## Delivery address
+MultiSafepay and [MultiFactor](https://www.multifactor.nl/voorwaarden/shipping-policies/) do not support separate delivery and invoice addresses.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

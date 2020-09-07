@@ -12,6 +12,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell 
 "seconds_active": 60,
 ```
+
+```shell 
+"description": "Test Order Description",
+```
 {{< /code-block >}}
 
 {{< description >}}
@@ -31,5 +35,11 @@ The number of days the payment link will be active for. Default is 30.
 __seconds_active__ | string
 
 The number of seconds the payment link will be active for. Default is 30 days.
+
+----------------
+
+__description__ | string
+
+A text that can be added to the order. The text will be printed on the bank statement of the customer, within the limits of their bank. _Please note: MultiSafepay will remove all html tags and cut the remaining text at 200 charachters_
 
 {{< /description >}}

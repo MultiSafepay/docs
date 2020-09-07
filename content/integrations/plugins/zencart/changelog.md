@@ -40,11 +40,11 @@ Release date: Jul 14th, 2020
 
 ### Removed
 + PLGZENS-31: Remove unused admin folder
-+ PLGZENS-60: Remove giftcards Lief, ParfumNL, Nationale Erotiekbon
++ PLGZENS-60: Remove gift cards Lief, ParfumNL, Nationale Erotiekbon
 + PLGZENS-74: Remove FerBuy
-+ PLGZENS-78: Remove branded giftcards Bloemen Cadeaubon, Brouwmarkt
-+ PLGZENS-78: Remove branded giftcards De Grote Speelgoedwinkel, Jewelstore Giftcard
-+ PLGZENS-78: Remove branded giftcards Kelly Giftcard
++ PLGZENS-78: Remove branded gift cards Bloemen Cadeaubon, Brouwmarkt
++ PLGZENS-78: Remove branded gift cards De Grote Speelgoedwinkel, Jewelstore Giftcard
++ PLGZENS-78: Remove branded gift cards Kelly Giftcard
 
 ***
 

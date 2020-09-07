@@ -19,3 +19,11 @@ If you wish to generate a payment link by using the MultiSafepay Control App, th
 4. A QR code will be generated which can be used.
 
 
+
+### About QR code
+QR codes allow the final customer to pay without manual input, reducing input errors.
+
+Once you obtained the QR code, it can be saved on your device and be sent to your customer. The customer can now scan the QR code with a dedicated app on his phone. This will automatically open the MultiSafepay payment page filled with the data used during the payment link generator tool.
+
+_Note: A QR code cannot be directly generated with the API._
+

@@ -19,7 +19,7 @@ The number of days that a SEPA Direct Debit has a transaction status _uncleared_
 
 For amounts smaller than 500 euro, clearing will take 7 business days.
 
-Fpr amounts larger than 500 euro, clearing will take 20 business days.
+For amounts larger than 500 euro, clearing will take 20 business days.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

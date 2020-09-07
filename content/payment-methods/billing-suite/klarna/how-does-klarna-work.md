@@ -66,6 +66,9 @@ After 14 business days, MultiSafepay will receive funds from Klarna and make the
 ## Customisation of invoices
 Klarna enables all merchants to customise all invoices sent to your customers. In order to make changes to their styling and layout, you need to log in to your Klarna Merchant Account. All questions related to this topic should be referred directly to Klarna.
 
+## Delivery address
+Klarna prohibits the use of a separate delivery or pick-up address. The delivery and invoice address must be the same, in this case a PajkeGemak pick-up location from PostNL cannot be used.
+
 ## Product rules
 Some rules may apply to certain payment methods. For Klarna, the following rules apply:
 
@@ -77,7 +80,7 @@ Some rules may apply to certain payment methods. For Klarna, the following rules
 
 * Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
-*  Klarna is currently offered in offered in Austria, Germany and the Netherlands
+*  Klarna is currently offered in Austria, Germany, Belgium, Finland and the Netherlands
 
 * As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 

@@ -97,6 +97,9 @@ Good to know about the payment method E-Invoicing:
 
 * When E-Invoicing is being used for subscription payment, it is possible to generate a batch of transactions with the payment method E-Invoicing. Go to _E-Invoicing -> Batches_. Upload a file in .xls, .xlsx or .csv format. Use the template available in your MultiSafepay Control as example.
 
+## Delivery address
+
+MultiSafepay can enable support for different delivery and invoice addresses upon request. Please contact your account manager for more information.
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

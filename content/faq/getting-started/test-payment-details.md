@@ -164,6 +164,17 @@ MultiSafepay provides a test platform for Giropay/EPS transactions. During the p
 
 Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
 
+## in3
+
+MultiSafepay provides a test platform for in3 transactions. By entering the following details, you will be able to simulate the outcome of the transaction.
+
+| Status            | Date of birth    | Postal code | House number |
+| ---------------- | ------------------- | ------------------- | ----------------- |
+| Approved             | 01-01-1999 | 1234AB | 1 |
+| Declined              | 01-01-2000 | 1111AB | 1 |
+
+_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and Pilot pahse of its release._
+
 ## iDEAL
 
 MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
