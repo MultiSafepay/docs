@@ -91,6 +91,6 @@ __order_id__ | string / integer
 
 ----------------
 
-Read more about [Zero Authorization](/tools/zero-authorization/) on our documentation page.
+Read more about [Zero Authorization](/tools/zero-authorization) on our documentation page.
 
 {{% /description %}}

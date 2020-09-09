@@ -64,15 +64,15 @@ A SEPA Direct Debit payment is not fully guaranteed. The customer has 56 days to
 ### Product rules
 Some rules may apply to certain payment methods. For SEPA Direct Debit, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible with SEPA Direct Debit. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is not possible with SEPA Direct Debit. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful SEPA Direct Debit transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * As a collection payment method, SEPA Direct Debit has a different payment flow and the setting of days or seconds active will have no influence. 
 
        
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.<br>
 
-* Payments done through SEPA Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through SEPA Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 

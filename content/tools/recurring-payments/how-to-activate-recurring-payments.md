@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-Recurring payments are not included by default in your [MultiSafepay Control](https://merchant.multisafepay.com/)
+Recurring payments are not included by default in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 
 A request to activate recurring payments can be sent to either your account manager or to our Risk Team at <risk@multisafepay.com>

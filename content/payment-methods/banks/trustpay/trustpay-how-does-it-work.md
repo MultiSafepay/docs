@@ -39,14 +39,14 @@ The full API reference for TrustPay can be found [here](/api/#trustpay)
 ### Product Rules
 Some rules may apply to certain payment methods. For TrustPay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with TrustPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with TrustPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful TrustPay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* As a direct banking payment method, TrustPay has a different payment flow and therefore the setting of days or seconds active will have no influence. The customer processes the payment from his/her own banking environment. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* As a direct banking payment method, TrustPay has a different payment flow and therefore the setting of days or seconds active will have no influence. The customer processes the payment from his/her own banking environment. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
 * As it is a standard bank transfer method, an expiry date exception for TrustPay transactions has been set to 10 days
 
-* TrustPay transactions are processed in [Czech Koruna (CZK)](/faq/general/which-currencies-are-supported-by-multisafepay/) 
+* TrustPay transactions are processed in [Czech Koruna (CZK)](/faq/general/which-currencies-are-supported-by-multisafepay) 
    
  

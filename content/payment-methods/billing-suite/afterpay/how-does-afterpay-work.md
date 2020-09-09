@@ -52,7 +52,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed  | Uncleared  | A successful AfterPay transaction has been received.   |
 | Shipped    | Uncleared  | A capture has been send to AfterPay, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
 | Shipped    | Completed  | Payout of an AfterPay transaction has been received and added to your MultiSafepay Control balance.|
-| Declined   | Declined   | Transaction has been rejected by AfterPay. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com/), the reason of rejection is shown.     |
+| Declined   | Declined   | Transaction has been rejected by AfterPay. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
 | Expired    | Expired    | When no action is being taken within 90 days of receiving a transaction with the payment method AfterPay, the transaction will automatically expire. | 
 
@@ -69,20 +69,20 @@ The full API reference for Afterpay can be found [here](/api/#afterpay)
 ## Product rules
 Some rules may apply to certain payment methods. For AfterPay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is NOT possible with AfterPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page.
+* Refunding more than the stated amount of the original transaction is NOT possible with AfterPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page.
 
 * Successful AfterPay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund.
 
-* As a post-payment method, AfterPay has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* As a post-payment method, AfterPay has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
 * When no action is taken within 90 days of receiving an AfterPay order, the transaction will automatically expire
 
 * When an AfterPay transaction has the order status _shipped_, there will be no time limit on refunding the transaction
 
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. AfterPay). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. AfterPay). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
 
-* Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 * Afterpay requires an additional API key for Belgium. This can be requested directly at Afterpay.
 

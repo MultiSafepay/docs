@@ -209,7 +209,9 @@ The payment method KBC can only be processed on our new payment page starting wi
 
 ## Klarna
 
-Klarna provides their own test credentials. For a complete guide, check out [Klarna's documentation](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+Klarna provides their own test credentials. For a complete guide, read more on [Klarna's documentation page](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+
+More information about how you can integrate Klarna with MultiSafepay can be found on our [Klarna documentation page](https://docs.multisafepay.com/payment-methods/billing-suite/klarna)
 
 ## Maestro
 
@@ -265,7 +267,7 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
 
 
 ## Santander Betaalplan

@@ -10,5 +10,5 @@ Customers who disagree with or do not recognise a transaction that is charged to
 
 A cardholder can claim a chargeback for a minimum of 180 days after the purchase based on their customer rights given by Mastercard.
 
-For more information about chargebacks, please visit our [chargeback documentation](/faq/chargebacks/)
+For more information about chargebacks, please visit our [chargeback documentation](/faq/chargebacks)
 

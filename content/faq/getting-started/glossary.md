@@ -28,7 +28,7 @@ The company that provided the card. Usually this is the customer's bank. For man
 JSON (JavaScript Object Notation) is a human-readable file format for storing and transporting data. They are often used for communication between a server and a web page. 
 
 ### Merchant
-The selling party of goods and services to the customer via ecommerce webshop or mobile app. Accepting payments with [Credit cards](/payment-methods/credit-and-debit-cards/) or local payment methods. The selling party is required to have an acquiring bank account and subscribe to the services available from a payment service provider. 
+The selling party of goods and services to the customer via ecommerce webshop or mobile app. Accepting payments with [Credit cards](/payment-methods/credit-and-debit-cards) or local payment methods. The selling party is required to have an acquiring bank account and subscribe to the services available from a payment service provider. 
 
 ### MultiSafepay Control 
 The environment where merchants can see their transactions and settings from within their MultiSafepay Account. This environment also allows the merchant to update and refund orders as well as update their company's information. The MultiSafepay Control can be reached at: https://merchant.multisafepay.com

@@ -15,6 +15,6 @@ There are two ways to activate Belfius as a payment method in your [MultiSafepay
 
 Enable Belfius as payment method in your ecommerce platform to finalize the connection.
 
-If Belfius is not visible as a payment method in your [MultiSafepay Control](https://merchant.multisafepay.com/), contact our Integrations team at <integration@multisafepay.com> to assist you.
+If Belfius is not visible as a payment method in your [MultiSafepay Control](https://merchant.multisafepay.com), contact our Integrations team at <integration@multisafepay.com> to assist you.
 
 >_Before a payment method is activated, check whether the payment method is supported by your ecommerce platform_.

@@ -47,7 +47,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Gift card
-Creates a Gift Card [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Gift Card [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -91,7 +91,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -114,7 +114,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------    
 __ip_address__ | string
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/) 
+The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address) 
 
 ---------------- 
 __country__ | string
@@ -155,5 +155,5 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Wijncadeau                     | WIJNCADEAU                  |   | 
 | Yourgift                       | YOURGIFT                    |   |           
 
-Read more about the [gift cards](/payment-methods/prepaid-cards/gift-cards/) we offer on our documentation page.
+Read more about the [gift cards](/payment-methods/prepaid-cards/gift-cards) we offer on our documentation page.
 {{< /description >}}

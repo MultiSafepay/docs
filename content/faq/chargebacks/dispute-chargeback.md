@@ -234,7 +234,7 @@ In order for this chargeback to be disputed we need the following documentation 
 
 * Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D secure. 3D Secure is a security protocol to prevent fraud.
 
-More information about 3D secure is available in [What is 3D secure](/faq/general/what-is-3d-secure/)
+More information about 3D secure is available in [What is 3D secure](/faq/general/what-is-3d-secure)
 
 #### Reason Code: 4526
 __Description: Missing Signature__
@@ -248,7 +248,7 @@ In order for this chargeback to be disputed we need the following documentation 
 #### Reason Code: 4540
 __Description: Card Not Present__
 
-Cardholder denies participation in an email, telephone or internet type transaction processed by your business, also known as [MOTO payments](/tools/moto/moto/) Investigation confirms that transaction is a result of fraudulent use of the card.
+Cardholder denies participation in an email, telephone or internet type transaction processed by your business, also known as [MOTO payments](/tools/moto/moto) Investigation confirms that transaction is a result of fraudulent use of the card.
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 
@@ -371,4 +371,4 @@ In order for this chargeback to be disputed we need the following documentation 
 
 * Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D secure. 3D Secure is a security protocol to prevent fraud.
 
-More information about 3D secure is available in [What is 3D secure](/faq/general/what-is-3d-secure/)
+More information about 3D secure is available in [What is 3D secure](/faq/general/what-is-3d-secure)

@@ -16,5 +16,5 @@ This can occur when you are having an HTML form through which you send the custo
  
 If you are seeing this issue and are having difficulties resolving this error, do not hesitate to contact us at <integration@multisafepay.com>
 
-For more information, see our full [API Documentation](/api/)
+For more information, see our full [API Documentation](/api)
 

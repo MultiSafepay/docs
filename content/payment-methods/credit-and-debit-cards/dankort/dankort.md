@@ -17,9 +17,9 @@ For Dankort to be available as a payment method on the payment page of MultiSafe
 1. The Visa gateway needs to be enabled
 2. The locale needs to be da_DK (Denmark) in the transaction call received by MultiSafepay.
 
-The [locale](/faq/api/locale/) is leading in this to show the desired payment method Dankort on the payment page of MultiSafepay.
+The [locale](/faq/api/locale) is leading in this to show the desired payment method Dankort on the payment page of MultiSafepay.
 
-Upon adding Dankort as payment method on the checkout page, you can download the Dankort logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
+Upon adding Dankort as payment method on the checkout page, you can download the Dankort logo from MultiSafepay's [collection](/faq/general/payment-method-logo) and upload it to your ecommerce platform. 
 
 ### How to refund a Dankort transaction?
 Dankort (Visa) transactions can be refunded to the customer within 180 days.

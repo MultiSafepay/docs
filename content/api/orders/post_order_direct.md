@@ -146,7 +146,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __notification_method__ | string

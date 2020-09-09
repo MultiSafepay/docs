@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 The days or seconds active indicates the lifetime of a payment link.
 
-The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link)
 
 **Parameters**
 

@@ -13,7 +13,7 @@ When you offer payment methods whose validation period is more than 8 hours, the
 
 In use with an ERP system, for example, where an order is marked as declined, a successful payment will often not be processed to an order that is marked as cancelled.
 
-The lifetime of a [bank transfer](/payment-methods/bank-transfer/how-does-bank-transfer-work/) is 86400 minutes (60 days)
+The lifetime of a [bank transfer](/payment-methods/bank-transfer/how-does-bank-transfer-work) is 86400 minutes (60 days)
 
 The order will set to _cancelled_ in Magento 2 before a payment can be linked.
 

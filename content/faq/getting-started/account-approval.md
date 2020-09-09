@@ -39,7 +39,7 @@ In order to process credit cards, we request you to provide the following inform
 * Maximum order value
 * Yearly turnover credit cards
 
-More information available in [processing credit cards](/payment-methods/credit-and-debit-cards/)
+More information available in [processing credit cards](/payment-methods/credit-and-debit-cards)
 
 This information is in accordance with Dutch (and European) rules and regulations.
 

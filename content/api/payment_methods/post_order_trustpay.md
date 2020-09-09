@@ -46,7 +46,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## TrustPay
 
-Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -90,7 +90,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -117,6 +117,6 @@ Displays the correct language and payment methods on the payment page. It also h
 
 ----------------
 
-Read more about [TrustPay](/payment-methods/banks/trustpay/) on our documentation page.
+Read more about [TrustPay](/payment-methods/banks/trustpay) on our documentation page.
 
 {{< /description >}}

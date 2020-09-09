@@ -19,7 +19,7 @@ Only the following merchants are eligible for Betaalplan:
 3. Selling goods and/or services to European citizens with a residence/ delivery address in Netherlands (no exceptions possible)
 4. Betaalplan is available for orders from € 250, with a maximum of € 8000,00 per customer.
 
-* In addition to Betaalplan's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and plugins - see [overview](https://docs.multisafepay.com/))
+* In addition to Betaalplan's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and plugins - see [overview](https://docs.multisafepay.com))
 
 ### Enable Betaalplan as payment method
 

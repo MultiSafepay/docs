@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-On [API](/api/) level, this is illustrated as:
+On [API](/api) level, this is illustrated as:
 
 ```
     "status": "",

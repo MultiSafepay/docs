@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-Yes, you visit the MultiSafepay status page [here](https://status.multisafepay.com/)
+Yes, you visit the MultiSafepay status page [here](https://status.multisafepay.com)

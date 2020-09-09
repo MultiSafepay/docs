@@ -42,7 +42,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## American Express
 
-Creates an American Express [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates an American Express [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -58,7 +58,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-Fixed value: [AMEX](/payment-methods/credit-and-debit-cards/american-express/)
+Fixed value: [AMEX](/payment-methods/credit-and-debit-cards/american-express)
 
 ----------------
 __order_id__ | integer / string
@@ -86,7 +86,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -103,5 +103,5 @@ Customer will be redirected to this page after a failed payment.
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [American Express](/payment-methods/credit-and-debit-cards/american-express/) on our documentation page.
+Read more about [American Express](/payment-methods/credit-and-debit-cards/american-express) on our documentation page.
 {{< /description >}}

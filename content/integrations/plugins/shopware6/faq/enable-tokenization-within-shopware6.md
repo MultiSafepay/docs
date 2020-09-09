@@ -6,4 +6,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Tokenization can be enabled in the plugin settings, but needs some changes in your MultiSafepay account.
 
-Read our [detailed tokenization page](https://docs.multisafepay.com/tools/tokenization/) to find more about tokenization.
+Read our [detailed tokenization page](https://docs.multisafepay.com/tools/tokenization) to find more about tokenization.

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## Request refund
-The refund of a PayPal transaction can be processed from within your [MultiSafepay Control](https://merchant.multisafepay.com/)
+The refund of a PayPal transaction can be processed from within your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 Please follow these steps:
 

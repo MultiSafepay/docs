@@ -91,7 +91,7 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 
 3. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Gift Cards_.  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
+Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
 ### 6. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

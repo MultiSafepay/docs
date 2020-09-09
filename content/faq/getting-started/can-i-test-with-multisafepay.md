@@ -27,7 +27,7 @@ Every transaction processed by MultiSafepay goes through a number of standard st
 3.  MultiSafepay sends a status change notification
 4.  Client system updates transaction status.
 
-See our [Diagnosing Errors](/faq/errors-explained/diagnosing-errors/) guide for help addressing any issues during testing.
+See our [Diagnosing Errors](/faq/errors-explained/diagnosing-errors) guide for help addressing any issues during testing.
 
 ### 1\. Initiate an order
 

@@ -7,7 +7,7 @@ aliases:
 ---
 
 ### Introduction
-This is a beta version of the Lightspeed app, please contact the Integration team when using it. You can find the contact details below. For the core Lightspeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/)
+This is a beta version of the Lightspeed app, please contact the Integration team when using it. You can find the contact details below. For the core Lightspeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core)
 
 {{% introduction_hosted "Lightspeed" %}}
 
@@ -30,7 +30,7 @@ Follow the following instructions to install the MultiSafepay Lightspeed app:
 7. Proceed to _Next_ and then approve the required permissions
 8. After approving the installation you will be redirected to <https://lightspeed.multisafepay.com/install>
 9. Complete the Signup page and click on _Create Account and continue_
-10. Fill in your [MultiSafepay API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key/), select the corresponding environment (_test/ live_) and then click the _Register Account and continue_ button.
+10. Fill in your [MultiSafepay API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key), select the corresponding environment (_test/ live_) and then click the _Register Account and continue_ button.
 
 __Congratulations__
 

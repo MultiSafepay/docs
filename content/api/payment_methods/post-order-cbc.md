@@ -157,7 +157,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## CBC
 ### Redirect - CBC
 
-Creates a CBC [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a CBC [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -199,7 +199,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------    
 __customer__ | object
@@ -208,11 +208,11 @@ Contains personal information about the customer.
 
 ---------------- 
 
-Read more about [CBC](/payment-methods/banks/cbc/) on our documentation page.
+Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
 
 ### Direct - CBC
 
-Creates a CBC [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a CBC [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -253,7 +253,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------    
 __customer__ | object
@@ -264,5 +264,5 @@ Contains personal information about the customer.
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [CBC](/payment-methods/banks/cbc/) on our documentation page.
+Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
 {{< /description >}}

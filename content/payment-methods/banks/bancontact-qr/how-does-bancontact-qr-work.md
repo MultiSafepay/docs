@@ -39,14 +39,14 @@ The transaction status indicates the payment status of the transaction, such as 
 ### Product rules
 Some rules may apply to certain payment methods. For Bancontact QR, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with Bancontact QR (e.g. refunding the return costs incurred by the customer). More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page. Please bear in mind that by default, MultiSafepay does not allow refunds larger than  the original transaction amount and that this needs to be changed in your MultiSafepay Control 
+* Refunding more than the stated amount of the original transaction is possible with Bancontact QR (e.g. refunding the return costs incurred by the customer). More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page. Please bear in mind that by default, MultiSafepay does not allow refunds larger than  the original transaction amount and that this needs to be changed in your MultiSafepay Control 
 
 * Successful Bancontact QR transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active.   
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 
-* Payments done through Bancontact QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Bancontact QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 

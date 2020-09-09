@@ -206,7 +206,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Pay After Delivery
 ### Redirect - Pay After Delivery
 
-Creates a Pay After Delivery [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Pay After Delivery [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -247,7 +247,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __custom_info__ | object
@@ -302,23 +302,23 @@ The email address to which the system can send payment instructions to the custo
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
 
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
 
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
+Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery) on our documentation page.
 
 ### Direct - Pay After Delivery
 
-Creates a Pay After Delivery [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Pay After Delivery [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -359,7 +359,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __custom_info__ | object
@@ -414,18 +414,18 @@ The email address to which the system can send payment instructions to the custo
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
 
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
 
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
+Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery) on our documentation page.
 
 {{< /description >}}

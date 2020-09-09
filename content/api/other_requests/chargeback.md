@@ -33,7 +33,7 @@ MultiSafepay can challenge the chargeback on your behalf, but to do so, we need 
 
 You can upload the files or documents via an API request or contact our support team at <support@multisafepay.com>
 
-Read more about [chargebacks](/faq/chargebacks/) on our documentation page.
+Read more about [chargebacks](/faq/chargebacks) on our documentation page.
 
 **Parameters**
 

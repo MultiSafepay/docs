@@ -101,6 +101,6 @@ The unique identifier from your system for the order. If the values are only num
 
 ----------------
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization)
 
 {{< /description >}}

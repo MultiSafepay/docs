@@ -56,6 +56,6 @@ Instead of deleting an item in the checkout editor you may want to add a discoun
 The discount is added to the transaction.
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins/) for more information.
+In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins) for more information.
 
 

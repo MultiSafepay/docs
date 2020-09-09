@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-The XML API is deprecated and succeeded by the [JSON API](/api/)\
+The XML API is deprecated and succeeded by the [JSON API](/api)\
 The XML endpoint can still be used to process transaction requests. However, new payment methods, features and tools will only be supported by using the JSON API.
 
 There are no plans to phase out the XML integration at this point, but this might change in the foreseeable future.

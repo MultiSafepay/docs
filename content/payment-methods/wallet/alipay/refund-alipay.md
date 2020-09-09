@@ -10,7 +10,7 @@ read_more: '.'
 
 Please follow these steps to refund an Alipay transaction:
 
-1. Select _transaction -> transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com/)
+1. Select _transaction -> transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Find the transaction through search
 3. Open transaction
 4. Select _refund_

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## Activate
-Search for sales points:  [Paysafecard](https://www.paysafecard.com/nl-nl/kopen/verkooppunten-zoeken/)
+Search for sales points:  [Paysafecard](https://www.paysafecard.com/nl-nl/kopen/verkooppunten-zoeken)
 
 * When buying your Paysafecard PIN, choose 10, 25, 50 or 100 EUR
 * The value of the PIN code is immediately and entirely at your disposal

@@ -7,7 +7,7 @@ read_more: '.'
 ---
 
 ### MultiSafepay Control
-Information regarding manually generating a payment link by using the [MultiSafepay Control](https://merchant.multisafepay.com/) can be found in our in-depth [documentation](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link/)
+Information regarding manually generating a payment link by using the [MultiSafepay Control](https://merchant.multisafepay.com) can be found in our in-depth [documentation](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
 
 ### MultiSafepay Control App
 

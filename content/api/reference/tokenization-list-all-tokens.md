@@ -58,6 +58,6 @@ __token__ | string
 The unique token linked to the customer reference.  
 
 ----------------
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization)
 
 {{< /description >}}

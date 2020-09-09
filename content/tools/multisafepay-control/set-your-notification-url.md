@@ -7,7 +7,7 @@ read_more: '.'
 ---
 ## What do I need to fill in the notification URL field in MultiSafepay Control?
 
-When you create a [payment link](/tools/multisafepay-control/manually-generated-payment-link/) in your [MultiSafepay Control](https://merchant.multisafepay.com), the webshop will automatically update the pending order in its backend if the notification URL is correctly set.
+When you create a [payment link](/tools/multisafepay-control/manually-generated-payment-link) in your [MultiSafepay Control](https://merchant.multisafepay.com), the webshop will automatically update the pending order in its backend if the notification URL is correctly set.
 
 However, if the notification URL is not correctly set, the order will not update and it may be necessary to manually set it in MultiSafepay Control, as follows:
 
@@ -75,6 +75,6 @@ https://www.example.com/ext/modules/payment/multisafepay/notify_checkout.php?typ
 > Please note that if for any reason the notification URL setup fails, you can manually create a backend order and use the payment link that our plugin places in the notes.
 
 
-Read more about [how the notification URL works](/faq/api/how-does-the-notification-url-work/)
+Read more about [how the notification URL works](/faq/api/how-does-the-notification-url-work)
 
 

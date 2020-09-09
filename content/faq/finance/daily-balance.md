@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-It is possible to view your daily balance in the [MultiSafepay Control](https://merchant.multisafepay.com/)
+It is possible to view your daily balance in the [MultiSafepay Control](https://merchant.multisafepay.com)
 
 Please follow these steps:
 

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 To test recurring payments on your staging environment, email our Integration Team at <integration@multisafepay.com> with the request to enable it in your 
-[MultiSafepay Test Control](https://testmerchant.multisafepay.com/)
+[MultiSafepay Test Control](https://testmerchant.multisafepay.com)
 
 
 ##### SEPA Direct Debit

@@ -99,7 +99,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)  
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)  
 
 ----------------
 __customer__ | object
@@ -112,7 +112,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/)
+The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address)
 
 ----------------
 __first_name__ | string

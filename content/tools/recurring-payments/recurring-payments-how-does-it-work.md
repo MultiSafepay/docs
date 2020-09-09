@@ -19,7 +19,7 @@ The standard process is as follows:
 ### SEPA Direct Debit
 Through SEPA Direct Debit, payments from international bank account numbers (IBAN) can be processed, as a one-off or as a recurrent withdrawal. This only applies to private banking. SOFORT Banking and iDEAL are supported as SEPA Direct Debit payment methods.
 
-Full API documentation on SEPA Direct Debit can be found on [SEPA Direct Debit explained](/payment-methods/banks/sepa-direct-debit/)
+Full API documentation on SEPA Direct Debit can be found on [SEPA Direct Debit explained](/payment-methods/banks/sepa-direct-debit)
 
 {{< alert-notice >}}  The first payment for a SEPA Direct Debit collection is received and/or processed by the payment methods iDEAL, SOFORT Banking or SEPA Direct Debit. Upon successful completion of the payment, a recurring_id will be displayed in the response upon retrieving the order details only when recurring payment are enbled for that specific MultiSafepay Account.{{< /alert-notice >}} 
 
@@ -40,7 +40,7 @@ When the transaction is declined, the reason will be supplied in the response of
 
 
 ## Create an initial transaction
-View the [API documentation](/api/) on how to create a standard transaction.
+View the [API documentation](/api) on how to create a standard transaction.
 
 ###  The Initial Payment - Status update request
 When recurring is enabled in your MultiSafepay Control, you will receive a recurring ID when you do a [retrieve an order request](/api/#retrieve-an-order) 

@@ -45,7 +45,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Dotpay
 
-Creates a Dotpay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Dotpay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -91,5 +91,5 @@ __customer__ | object
 
 ----------------
 
-Read more about [Dotpay](/payment-methods/dotpay/) on our documentation page.
+Read more about [Dotpay](/payment-methods/dotpay) on our documentation page.
 {{< /description >}}

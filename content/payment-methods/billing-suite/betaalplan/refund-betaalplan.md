@@ -25,7 +25,7 @@ Please follow these steps to refund a Betaalplan transaction:
 
 * The amount is deducted from the transaction. The refund will always be linked to the original transaction
 
-* In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information
+* In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information
 
 * Once the refund is confirmed, there is no possibility to reverse the refund
 

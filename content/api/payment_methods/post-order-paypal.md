@@ -146,7 +146,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## PayPal
 ### Redirect - PayPal
 
-Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -187,7 +187,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -196,10 +196,10 @@ Contains the personal information of the customer.
 
 ----------------
 
-Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
+Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
 
 ### Direct - PayPal
-Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -240,7 +240,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -251,6 +251,6 @@ Contains the personal information of the customer.
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
+Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
 
 {{< /description >}}

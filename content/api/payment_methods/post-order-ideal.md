@@ -141,7 +141,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## iDEAL
 ### Redirect - iDEAL
 
-Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
@@ -187,7 +187,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -210,7 +210,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------    
 
 ### Direct - iDEAL
-Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 
@@ -236,7 +236,7 @@ The unique identifier of the [issuer](#gateway-issuers)
 
 ----------------
 
-Read more about [iDEAL](/payment-methods/banks/ideal/) on our documentation page.
+Read more about [iDEAL](/payment-methods/banks/ideal) on our documentation page.
 
 {{< /description >}}
 

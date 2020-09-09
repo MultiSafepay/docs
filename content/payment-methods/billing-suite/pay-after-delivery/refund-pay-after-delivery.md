@@ -62,5 +62,5 @@ This way you credit the invoice to a zero amount and the customer will no longer
 8. The funds will be deducted from your MultiSafepay balance
 9. The invoice has been settled
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information.
+In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information.
 
