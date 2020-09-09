@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 
 Yes. On the settings page click on _Environment & API key_. You will be redirected to another page.
-Here you can update the API key, the environment, or both.
+On this page, the API key, environment, or both can be updated.
