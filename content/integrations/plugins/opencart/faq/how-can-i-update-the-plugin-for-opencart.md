@@ -2,6 +2,7 @@
 title : "How can I update the extension?"
 meta_title: "OpenCart plugin update - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+read_more: "."
 ---
 
 Generally, there are three ways to update a plugin for OpenCart. This can be done through the backend and through the marketplace from a CMS or through SFTP. We will be describing the necessary steps to update a plugin using the extension installer tool in the backend.

@@ -4,6 +4,7 @@ weight:
 meta_title: "OpenCart plugin surcharge - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
+read_more: "."
 ---
 
 Adding a payment fee or [Surcharge](/faq/getting-started/glossary/#surcharge) is no longer supported within the settings of the MultiSafepay extension for OpenCart.
