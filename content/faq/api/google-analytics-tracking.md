@@ -10,6 +10,6 @@ It is possible to track the behavior of your customers through Google Universal 
 However, this is restricted only to redirect orders. If a customer reaches the MultiSafepay payment page, the UA-code will be loaded and you will be able to see that in the corresponding HTML.
 
 
-For direct orders (e.g. iDEAL direct, some cases of Klarna, AfterPay, etc.), there is NO tracking available, as customers will not pass through a MultiSafepay page after checkout and before the successful payment page. 
+For direct orders (e.g. iDEAL direct, some cases of Klarna, AfterPay, etc.), there is no tracking available, as customers will not pass through a MultiSafepay page after checkout and before the successful payment page. 
 
 > We are currently working on updating the documentation on Google Analytics to accommodate as many of your possible queries as possible. Please check again soon! 
