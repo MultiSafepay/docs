@@ -162,7 +162,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)                                
 
 ----------------
 __redirect_url__ | string
@@ -199,6 +199,6 @@ Add a short text memo based on the capture reason of the order.
 
 ----------------
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization)
 
 {{< /description >}}

@@ -17,9 +17,9 @@ For Cartes Bancaires to be available as a payment method on the payment page of 
 1. The Visa gateway needs to be enabled
 2. The locale needs to be fr_FR (France) in the transaction call received by MultiSafepay.
 
-The [locale](/faq/api/locale/) is leading in this to show the desired payment method Cartes Bancaires on the payment page of MultiSafepay.
+The [locale](/faq/api/locale) is leading in this to show the desired payment method Cartes Bancaires on the payment page of MultiSafepay.
 
-Upon adding Cartes Bancaires as payment method on the checkout page, you can download the Cartes Bancaires logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
+Upon adding Cartes Bancaires as payment method on the checkout page, you can download the Cartes Bancaires logo from MultiSafepay's [collection](/faq/general/payment-method-logo) and upload it to your ecommerce platform. 
 
 ### How to refund a Cartes Bancaires transaction?
 Cartes Bancaires (Visa) transactions can be refunded to the customer within 180 days.

@@ -32,12 +32,12 @@ MultiSafepay offers two methods to export Accountant reports:
 
 #### 1. _Automatic_
 
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports)
 
 
 #### 2. _Manual_
 
-It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/) manually. Our dedicated documentation will assist you in this.
+It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our dedicated documentation will assist you in this.
 
 
 If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
@@ -46,6 +46,6 @@ If you still have inquiries, do not hesitate to contact us at <support@multisafe
 
 It is possible to insert a payment link created in MultiSafepay Control into the invoices of e-Boekhouden. This way, your customers can pay the invoice directly.
 
-* [How to create a payment link](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link/)
+* [How to create a payment link](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
 
 * [How to insert it in the invoice](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1)

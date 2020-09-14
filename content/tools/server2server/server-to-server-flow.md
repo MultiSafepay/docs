@@ -15,13 +15,16 @@ The transaction request type should be "direct".
 "gateway": "CREDITCARD",
 ```
 
-When 3D secure verification is required, the HTML form will be returned and should be rendered.
+When 3D secure verification is required you have two option for handling the verification:
+
+1. the recommended way is to redirect your customer directly to the payment_url that will be returned in the response. 
+2. otherwise you can use the HTML form that will be returned and should be rendered.
 
 ```shell 
-"customer_verification": {
-     "html": "<html>\n<head>\n<title>3D Html form</title>....",
-     "type": "form" 
-}
+    "customer_verification": {
+         "html": "<html>\n<head>\n<title>3D Html form</title>....",
+         "type": "form" 
+    }
 ```
 
 Once the customer has successfully processed the verification step to finalize the payment, the <i>notification_url</i> will notify the ecommerce platform with a completed status. Order details can be called through a GET -/orders/{order_id} . 
@@ -32,7 +35,7 @@ When no 3D verification is required, the transaction status response will be pro
 ```shell 
 
     "success": true,
-    "data": {
+    "data": { }
 ```
 
 ## POST notification

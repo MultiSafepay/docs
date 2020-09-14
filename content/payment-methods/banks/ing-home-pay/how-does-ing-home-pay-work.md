@@ -8,7 +8,7 @@ read_more: '.'
 ## How it works
 ING Home'Pay is a banking payment method that allows ING Home'Pay customers to pay directly using their ING bank account. ING Home'Pay is similar to any bank payment. A customer chooses to pay with ING Home'Pay, authenticates their account, and confirms to pay.
 
-> ING Home'Pay payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)
+> ING Home'Pay payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2)
 
 In the event which a customer makes a successful payment, but does not finalize the process by pressing the "return to website" button, no status update will be received on our end. The transaction status will therefore remain _initialized_. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed.
 
@@ -41,11 +41,11 @@ The full API reference for ING Home'Pay can be found [here](/api/#ing-home-pay)
 ### Product rules
 Some rules may apply to certain payment methods. For ING Home'Pay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with ING Home'Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with ING Home'Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful ING Home'Pay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 
-* Payments done through ING Home'Pay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through ING Home'Pay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)

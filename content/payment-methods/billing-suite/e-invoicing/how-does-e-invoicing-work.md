@@ -10,7 +10,7 @@ Once E-Invoicing is activated in your MultiSafepay Control, you will need to set
 
 A collection flow needs to be linked to a website to be activated. When the collection flow is activated, E-Invoicing will be ready for use as payment method. 
 
-The layout and creation of the email template is entirely your responsibility. You can design the collection flow based on your preferences and personalization requirements. In our email templates, you can use the tokens between @@. Further information is available on our [email template token](/tools/multisafepay-control/email-template-token/) page.
+The layout and creation of the email template is entirely your responsibility. You can design the collection flow based on your preferences and personalization requirements. In our email templates, you can use the tokens between @@. Further information is available on our [email template token](/tools/multisafepay-control/email-template-token) page.
 
 ## Create action
 Each action needs to created following these steps: 
@@ -133,14 +133,14 @@ The full API reference for E-Invoicing can be found [here](/api/#e-invoicing)
 ## Product Rules
 Some rules may apply to certain payment methods. For E-Invoicing, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is NOT possible with E-Invoicing. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible with E-Invoicing. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful E-Invoicing transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through E-Invoicing are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through E-Invoicing are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 
-* As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. E-Invoicing). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. E-Invoicing). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 

@@ -101,5 +101,5 @@ __customer__ | object
 
 ----------------
 
-Read more about [Zero Authorization](/tools/zero-authorization/) on our documentation page.
+Read more about [Zero Authorization](/tools/zero-authorization) on our documentation page.
 {{% /description %}}

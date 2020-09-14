@@ -40,11 +40,11 @@ The full API reference for EPS can be found [here](/api/#eps)
 ### Product rules
 Some rules may apply to certain payment methods. For EPS, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with EPS. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with EPS. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful EPS transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 
-* Payments done through EPS are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through EPS are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)

@@ -14,7 +14,7 @@ MultiSafepay offers 4 gift card connections:
 * [Intersolve](https://intersolve.nl/contact)
 * [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
 * [123TCS](https://www.123tcs.com/#Contact)
-* [Givacard](https://www.givacard.nl/)
+* [Givacard](https://www.givacard.nl)
 
 The majority of the gift cards are issued by Intersolve.
 
@@ -39,4 +39,4 @@ The gift card issuer will process the connection with one of the issuers shown b
 * [Intersolve](https://intersolve.nl/contact)
 * [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
 * [123TCS](https://www.123tcs.com/#Contact)
-* [Givacard](https://www.givacard.nl/)
+* [Givacard](https://www.givacard.nl)

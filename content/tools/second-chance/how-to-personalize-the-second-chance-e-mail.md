@@ -6,8 +6,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-You can fully personalize the Second Chance email. This can be done by creating a Second Chance [email template](https://docs.multisafepay.com/tools/email-template/body-and-html/)
-In your [MultiSafepay Control](https://merchant.multisafepay.com/), you will find the email template tool under _Settings_.
+You can fully personalize the Second Chance email. This can be done by creating a Second Chance [email template](https://docs.multisafepay.com/tools/email-template/body-and-html)
+In your [MultiSafepay Control](https://merchant.multisafepay.com), you will find the email template tool under _Settings_.
 
 Download the standard Second Chance email. You can style the email template entirely to your own taste.
 

@@ -44,7 +44,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Trustly
 
-Creates a Trustly [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Trustly [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -88,7 +88,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -107,6 +107,6 @@ Contains the personal information of the customer.
 
 ----------------
 
-Read more about [Trustly](/payment-methods/trustly/) on our documentation page.
+Read more about [Trustly](/payment-methods/trustly) on our documentation page.
 
 {{< /description >}}

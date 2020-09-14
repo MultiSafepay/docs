@@ -32,6 +32,6 @@ Instructions on how to use Apple Pay can be found directly on the offical [Apple
 
 #### Testing without an Apple device
 
-If you do not own an Apple device and would still like to test Apple Pay, we would reccomend using [Appetize.io](https://appetize.io/)
+If you do not own an Apple device and would still like to test Apple Pay, we would reccomend using [Appetize.io](https://appetize.io)
 
 This emulator allows the pretransaction to be created when ordering and using the payment method Apple Pay. When attempting to complete the order, you will be blocked on the MultiSafepay payment page with the error "this device is not supported" but the pretransaction with Apple Pay as a gateway will be created to check whether a connection to our server exists. However, it is not possible to fully complete the test transaction.

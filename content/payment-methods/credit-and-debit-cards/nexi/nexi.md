@@ -17,9 +17,9 @@ For Nexi to be available as a payment method on the payment page of MultiSafepay
 1. The Visa or Mastercard gateway needs to be enabled
 2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
 
-The [locale](/faq/api/locale/) is leading in this to show the desired payment method Nexi on the payment page of MultiSafepay.
+The [locale](/faq/api/locale) is leading in this to show the desired payment method Nexi on the payment page of MultiSafepay.
 
-Upon adding Nexi as payment method on the checkout page, you can download the Nexi logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
+Upon adding Nexi as payment method on the checkout page, you can download the Nexi logo from MultiSafepay's [collection](/faq/general/payment-method-logo) and upload it to your ecommerce platform. 
 
 ### How to refund a Nexi transaction?
 

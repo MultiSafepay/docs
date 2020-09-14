@@ -9,10 +9,10 @@ A _locale_ is a set of parameters that defines the user's language, region and a
 
 In some cases, the _locale_ is also used to show certain variants of payment methods, such as:
 
-* [Nexi](/payment-methods/branded-credit-cards/nexi-what-is-it/) (it_IT needed)
-* [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/) (fr_FR needed) 
-* [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) (da_DK needed)
-* [Postepay](/payment-methods/branded-credit-cards/postepay/) (it_IT needed)
+* [Nexi](/payment-methods/branded-credit-cards/nexi-what-is-it) (it_IT needed)
+* [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it) (fr_FR needed) 
+* [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it) (da_DK needed)
+* [Postepay](/payment-methods/branded-credit-cards/postepay) (it_IT needed)
 
 
 The _locale_ is also important for sending the correct email template to the customer. For example, if an email template is set for the German customer, but the locale is received as *en_US*, the email template will be sent in English and not in German. 

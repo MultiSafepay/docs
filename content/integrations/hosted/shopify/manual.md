@@ -13,7 +13,7 @@ Click below on the payment methods that you would like to use. Login on the foll
   
 1. Log into your backend and navigate to _Settings > Payment providers > Alternative payments_
 
-2. Select the MultiSafepay payment method. You need to add the API key and Site Secure Code for all payment methods separately. Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key/)
+2. Select the MultiSafepay payment method. You need to add the API key and Site Secure Code for all payment methods separately. Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key)
 
 3. After selecting MultiSafepay as a payment method, all individual payment methods will be bundled under the 'MultiSafepay' during checkout.
 

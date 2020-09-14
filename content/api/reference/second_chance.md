@@ -53,5 +53,5 @@ To suppress the second chance email you have to add these parameters in the upda
 ```
 
 
-The full documentation can be found in the documentation [Second Chance](/tools/second-chance/how-does-it-work/)
+The full documentation can be found in the documentation [Second Chance](/tools/second-chance/how-does-it-work)
 {{% /description %}}

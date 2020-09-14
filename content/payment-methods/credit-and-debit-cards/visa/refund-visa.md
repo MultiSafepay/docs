@@ -17,7 +17,7 @@ Please follow these steps:
 5. Fill in the amount that you are going to refund to the customer
 6. _Confirm_.
 
-Refunding more than the stated amount of the original transaction is NOT possible with Visa. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+Refunding more than the stated amount of the original transaction is NOT possible with Visa. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day.
 

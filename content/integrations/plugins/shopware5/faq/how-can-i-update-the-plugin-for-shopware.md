@@ -11,4 +11,4 @@ Before you update the plugin, we strongly recommend you the following:
 * Make sure you have a backup of your production environment
 * Test the plugin in a staging environment.
 
-Go to our [Manual](/integrations/shopware5/manual/) page, download the plugin and follow the instructions from step 2.
+Go to our [Manual](/integrations/shopware5/manual) page, download the plugin and follow the instructions from step 2.

@@ -41,33 +41,33 @@ The full API reference for Trustly cards can be found [here](/api/#trustly)
 
 | Supported plugins                                                                                                                 | Version                      |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------|  
-| [Magento 2](/integrations/magento2/)                                                                                                   | Available from version 1.5.0 |  
-| [Magento 1](/integrations/magento1/)                                                                                                   | Available from version 2.4.1 |
-| [WooCommerce](/integrations/woocommerce/)                                                                                              | Available from version 3.2.0 |
-| [OpenCart](/integrations/opencart/)                                                                                                    | Available from version 2.2.0 |
-| [PrestaShop 1.7](/integrations/prestashop-1-7/)                                                                                        | Available from version 4.2.0 |
-| [CS-Cart](/integrations/cs-cart/)                                                                                                      | Available from version 1.3.0 |
-| [Drupal 8](/integrations/drupal8/)                                                                                                     | Available from version 1.0   |
+| [Magento 2](/integrations/magento2)                                                                                                   | Available from version 1.5.0 |  
+| [Magento 1](/integrations/magento1)                                                                                                   | Available from version 2.4.1 |
+| [WooCommerce](/integrations/woocommerce)                                                                                              | Available from version 3.2.0 |
+| [OpenCart](/integrations/opencart)                                                                                                    | Available from version 2.2.0 |
+| [PrestaShop 1.7](/integrations/prestashop-1-7)                                                                                        | Available from version 4.2.0 |
+| [CS-Cart](/integrations/cs-cart)                                                                                                      | Available from version 1.3.0 |
+| [Drupal 8](/integrations/drupal8)                                                                                                     | Available from version 1.0   |
 | [Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) | Available from version 2.0.2 |
-| [X-Cart](/integrations/x-cart/)                                                                                                        | Available from version 2.2.0 |
-| [Shopify](/integrations/shopify/)                                                                                                      | Available from Shopify       |
+| [X-Cart](/integrations/x-cart)                                                                                                        | Available from version 2.2.0 |
+| [Shopify](/integrations/shopify)                                                                                                      | Available from Shopify       |
 
 
 
 ### Product rules
 Some rules may apply to certain payment methods. For Trustly, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with Trustly. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with Trustly. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Trustly transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 
 
 * In exceptional cases, the _uncleared_ status can occur for Trustly. In this case, it is up to Trustly to inform MultiSafepay of the correct status. This can be a _completed_ status, as well as a _declined_ and / or _expired_ status. The _uncleared_ status automatically expires after 5 days.
 
-* Trustly can be offered in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):     
+* Trustly can be offered in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay):     
 
     * Euros (EUR)       
     * Pounds (GBP)       

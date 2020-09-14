@@ -87,9 +87,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Recurring Payments can be done using Credit Cards (VISA, Mastercard) and SEPA Direct Debit.    
 
-iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The recurring ID can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments/)
+iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The recurring ID can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
 
-For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments/)
+For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments)
 
 **Parameters**
 
@@ -135,7 +135,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __notification_method__ | string

@@ -51,11 +51,11 @@ Full documentation on [What is Seller Pretection](https://www.paypal.com/cs/smar
 ### Product rules
 Some rules may apply to certain payment methods. For PayPal, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible for PayPal. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is not possible for PayPal. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful PayPal transactions have a maximum refund period of 60 days. After this period, it is advised to process the requested refund by different means
 
-* A PayPal payment link is valid for 14 days. The lifetime of the payment link is set by PayPal. Therefore, a payment link created with PayPal will automatically expire after 14 days. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* A PayPal payment link is valid for 14 days. The lifetime of the payment link is set by PayPal. Therefore, a payment link created with PayPal will automatically expire after 14 days. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
 * Uncleared transactions can only be declined or accepted within your PayPal account
 

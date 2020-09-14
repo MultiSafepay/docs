@@ -94,7 +94,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Santander Betaalplan
-Creates a Santander Betaalplan [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Santander Betaalplan [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -135,7 +135,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __custom_info__ | object
@@ -155,12 +155,12 @@ Contains the information of the customer needed for the credit check.
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
 
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
 
@@ -168,5 +168,5 @@ __Note: The ip_address parameter is not required, although its use is recommende
 
 Please note that _first_name_ and _last_name_ in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Betaalplan](/payment-methods/billing-suite/betaalplan/) on our docuemntation page.
+Read more about [Betaalplan](/payment-methods/billing-suite/betaalplan) on our docuemntation page.
 {{< /description >}}

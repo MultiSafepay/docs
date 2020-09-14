@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Plugin information
 
-This [plugin](/faq/getting-started/glossary/#plugin) information is required for a Community Integration. For more information about these requirments, please read more about [a community integration](https://docs.multisafepay.com/integrations/community/community/) on our documentation page.
+This [plugin](/faq/getting-started/glossary/#plugin) information is required for a Community Integration. For more information about these requirments, please read more about [a community integration](https://docs.multisafepay.com/integrations/community/community) on our documentation page.
 
 **Parameters**
 

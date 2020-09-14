@@ -11,14 +11,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Transactions can have the following statuses:
 
-Read more about the difference between the [Status and the Financial Status](/faq/api/difference-between-status-and-transaction-status/) on our Documentation Center.
+Read more about the difference between the [Status and the Financial Status](/faq/api/difference-between-status-and-transaction-status) on our Documentation Center.
 
 | Status           | Name             | Description                                                                                      |
 |------------------|------------------|--------------------------------------------------------------------------------------------------|
 | completed        | Completed        | Payment has been successfully completed and [payout](/faq/getting-started/glossary/#payout) is guaranteed. Proceed with fulfillment.      |
 | initialized      | Initialized      | A payment link has been generated, but no payment has been received yet.                         |
-| uncleared        | Uncleared        | Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)                |
-| declined         | Declined         | Rejected by the the issuing bank. Read more about the reason why the transaction is declined in [what does it mean](/faq/general/declined-status/)                                                               |
+| uncleared        | Uncleared        | Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction)                |
+| declined         | Declined         | Rejected by the the issuing bank. Read more about the reason why the transaction is declined in [what does it mean](/faq/general/declined-status)                                                               |
 | cancelled        | Cancelled        | Cancelled by the merchant (only applies to the status Initialized, Uncleared or Reserved). 
 | void             | Void             | Cancelled by the merchant.                 |
 | expired          | Expired          | Depending on the payment method unfinished transactions will close automatically after a predefined period. |

@@ -23,8 +23,8 @@ Visa transactions received by MultiSafepay will be processed through our fraud f
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet.  | 
 | Completed   | Completed   | A successful Visa transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
-| Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)  | 
-| Declined    | Declined    | Rejected by the issuing bank. Read more about the reason why the transaction is declined in [what does this mean?](/faq/general/declined-status/) | 
+| Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction)  | 
+| Declined    | Declined    | Rejected by the issuing bank. Read more about the reason why the transaction is declined in [what does this mean?](/faq/general/declined-status) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 | 
@@ -35,18 +35,18 @@ Visa transactions received by MultiSafepay will be processed through our fraud f
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback/)         |     
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback)         |     
 
 The full API reference for Visa can be found [here](/api/#credit-cards)
 
 ### Product rules
 Some rules may apply to certain payment methods. For Visa, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is NOT possible for Visa. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible for Visa. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Visa transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 * If you refund the transaction (partially) on the same day this is called a reversal. To keep things easy manageable in your reporting, this is logged as a refund. However, your customers might experience otherwise: the transaction in their overview will be adjusted to the new amount (partial reversal) of the order __or__ is not debited at all (full reversal).
 

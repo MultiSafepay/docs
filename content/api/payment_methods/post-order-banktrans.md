@@ -157,7 +157,7 @@ __Please note: The parameter 'email' must be present, otherwise MultiSafepay wil
 ## Bank transfer
 ### Redirect - Bank transfer 
 
-Creates a Bank transfer [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Bank transfer [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -201,7 +201,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -224,7 +224,7 @@ Displays the correct language and payment methods on the payment page. It also h
 ----------------
 __ip_address__ | string
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)
+ The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
 
 ----------------
 __email__ | string
@@ -241,12 +241,12 @@ Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [bank transfers](/payment-methods/bank-transfer/) on our documentation page.
+Read more about [bank transfers](/payment-methods/bank-transfer) on our documentation page.
 
 
 ### Direct - Bank transfer 
 
-Creates a Bank transfer [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Bank transfer [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -291,7 +291,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -314,7 +314,7 @@ Displays the correct language and payment methods on the payment page. It also h
 ----------------
 __ip_address__ | string
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)
+ The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
 
 ----------------
 __email__ | string

@@ -120,6 +120,6 @@ Below you can find an explanation of the settings which can be included in the t
 | hide_cc_logos                        | Hides credit card logos                   |                
 | hide_btn_all_methods                     | Hides all methods button               |                 
 
-Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates/) for a payment page.
+Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates) for a payment page.
 
 {{< /description >}}

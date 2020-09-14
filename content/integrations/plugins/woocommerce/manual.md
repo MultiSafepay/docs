@@ -13,13 +13,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 - PHP 7.2
 
 ### 2. Installation
-There are two ways in which the plugin for WooCommerce can be downloaded. If your working on a new webshop and would like to retrieve our plugins, you can find them at the [Wordpress plugin page](https://wordpress.org/plugins/multisafepay/)
+There are two ways in which the plugin for WooCommerce can be downloaded. If your working on a new webshop and would like to retrieve our plugins, you can find them at the [Wordpress plugin page](https://wordpress.org/plugins/multisafepay)
 
 If you already have a webshop with our plugin, please turn on the automatic check for module updates. Go to _Administration_ -> _Preferences_ -> _General_ -> _Automatic check for module updates_. By doing this, the system will give you a suggestion to upgrade.
 
 You can also download the plugin directly on this page:
 
-1. Download the plugin by clicking the Download button in this [page](/integrations/woocommerce/)
+1. Download the plugin by clicking the Download button in this [page](/integrations/woocommerce)
 2. Navigate to the backend of your webshop and go to _Plugins_ -> _Add New_. Click on _Browse file_
 3. Upload the Plugin_WooCommerce_x.x.x.zip file.
 

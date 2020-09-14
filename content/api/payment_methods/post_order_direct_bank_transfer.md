@@ -136,7 +136,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## Direct Bank Transfer
 
-Creates a Direct Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Direct Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -180,7 +180,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -198,7 +198,7 @@ Customer will be redirected to this page after a failed payment.
 
 ### Direct - Direct Bank Transfer 
 
-Creates a Direct Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Direct Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -214,6 +214,6 @@ __payment_options__ | object
 ----------------
 
 
-Read more about [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer/) on our documentation page.
+Read more about [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer) on our documentation page.
 
 {{< /description >}}

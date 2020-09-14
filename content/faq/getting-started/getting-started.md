@@ -25,9 +25,9 @@ __[Create a live account](https://merchant.multisafepay.com/signup)__
 ### 2. Add your website to your MultiSafepay Control
   * [Add a new website](https://merchant.multisafepay.com)
 ### 3. Choose an Integration Method
-  * [Use Ecommerce Plugins](/integrations/)
-  * [Custom integration & API-Reference](/api/)
+  * [Use Ecommerce Plugins](/integrations)
+  * [Custom integration & API-Reference](/api)
 ### 4. Test your integration
-  * [Diagnosing Errors](/faq/errors-explained/diagnosing-errors/)
+  * [Diagnosing Errors](/faq/errors-explained/diagnosing-errors)
 ### 5. Start accepting real payments
-  * [Go Live Checklist](/faq/getting-started/account-approval/)
+  * [Go Live Checklist](/faq/getting-started/account-approval)

@@ -2,11 +2,12 @@
 title: "MultiSafepay plugin for Magento 2"
 breadcrumb_title: "Magento 2"
 github_url : "https://github.com/MultiSafepay/Magento2Msp"
-download_url : "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.13.1/Plugin_Magento2_1.13.1.zip"
+download_url : "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.14.0/Plugin_Magento2_1.14.0.zip"
+beta_url : "/integrations/plugins/magento2/beta/"
 changelog_url : "."
 manual: "."
 faq: "."
-layout: 'single'
+layout: 'single-beta-button'
 newsletter : "Magento 2"
 meta_title: "Magento 2 plugin integration - MultiSafepay Documentation Center"		
 meta_description: "MultiSafepay plugin for Magento2. Easily integrate MultiSafepay payment solutions into your Magento2 platform with the free plugin"

@@ -47,11 +47,11 @@ The full API reference for SOFORT Banking can be found [here](/api/#sofort)
 ### Product Rules
 Some rules may apply to certain payment methods. For SOFORT Banking, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with SOFORT Banking. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with SOFORT Banking. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful SOFORT Banking transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 * Minimum amount for SOFORT transactions must be € 0,10 EUR.
 

@@ -158,7 +158,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## SOFORT
 ### Redirect - SOFORT
-Creates a SOFORT [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a SOFORT [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -184,7 +184,7 @@ The unique identifier from your system for the order. If the values are only num
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
 
 ----------------
 __amount__ | integer
@@ -199,7 +199,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -208,11 +208,11 @@ Contains the personal information of the customer. _Values for first_name and la
 
 ----------------
 
-Read more about [SOFORT Banking](/payment-methods/sofort-banking/) on our documentation page.
+Read more about [SOFORT Banking](/payment-methods/sofort-banking) on our documentation page.
 
 
 ### Direct - SOFORT
-Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -238,7 +238,7 @@ The unique identifier from your system for the order. If the values are only num
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
 
 ----------------
 __amount__ | integer
@@ -253,7 +253,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -264,7 +264,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [SOFORT Banking](/payment-methods/sofort-banking/) on our documentation page.
+Read more about [SOFORT Banking](/payment-methods/sofort-banking) on our documentation page.
 
 
 {{< /description >}}

@@ -47,7 +47,7 @@ __url__ | string
 ----------------
 __return_url__ | string
 
- Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/) 
+ Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work) 
 
 ----------------
 __description__ | string

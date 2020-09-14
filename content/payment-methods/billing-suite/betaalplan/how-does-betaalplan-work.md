@@ -47,7 +47,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed   | Uncleared  | A successful Betaalplan transaction has been received.   |
 | Shipped     | Uncleared  | A Capture has been send to Betaalplan, the transaction has been confirmed. An invoice will be send to the customer and your payout is guaranteed. |
 | Shipped     | Completed  | Payout of a Betaalplan transaction has been received and added to your MultiSafepay Control balance.|
-| Declined    | Declined   | Transaction has been rejected by Betaalplan. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com/), the reason of rejection is shown.     |
+| Declined    | Declined   | Transaction has been rejected by Betaalplan. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
 | Void        | Cancelled   | Transaction has been cancelled.  | 
 | Expired     | Expired    | When no action is being taken when receiving a transaction with the payment method Betaalplan, the transaction will automatically expire. | 
 
@@ -63,13 +63,13 @@ The full API reference for Betaalplan can be found [here](/api/#santander-betaal
 ## Product rules
 Some rules may apply to certain payment methods. For Betaalplan, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible with Betaalplan. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is not possible with Betaalplan. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Betaalplan transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through Betaalplan are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Betaalplan are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Betaalplan). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Betaalplan). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
 
 * As a post-payment method, Betaalplan has a different payment flow and therefore the setting of days or seconds active will have no influence. 
  <br>        
@@ -77,6 +77,6 @@ Some rules may apply to certain payment methods. For Betaalplan, the following r
 * As an overarching rule for post-payment methods, both first name and last name for the customer details need to be at least 2 characters long. This also applies for the delivery details. Please note that failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
 
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 

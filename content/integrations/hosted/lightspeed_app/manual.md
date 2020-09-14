@@ -7,7 +7,7 @@ aliases:
 ---
 
 ### Introduction
-This is a beta version of the Lightspeed app, please contact the Integration team when using it. You can find the contact details below. For the core Lightspeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/)
+This is a beta version of the Lightspeed app, please contact the Integration team when using it. You can find the contact details below. For the core Lightspeed integration, please find information [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core)
 
 {{% introduction_hosted "Lightspeed" %}}
 
@@ -23,7 +23,7 @@ Follow the following instructions to install the MultiSafepay Lightspeed app:
 7. Proceed to _Next_ and then approve the required permissions
 8. After approving the installation you will be redirected to <https://lightspeed.multisafepay.com/install>
 9. Complete the Signup page and click on _Create Account and continue_
-10. Fill in your [MultiSafepay API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key/), select the corresponding environment (_test/ live_) and then click the _Register Account and continue_ button.
+10. Fill in your [MultiSafepay API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key), select the corresponding environment (_test/ live_) and then click the _Register Account and continue_ button.
 
 __Congratulations__
 
@@ -31,7 +31,7 @@ You have installed and configured the plugin successfully. If you have any quest
 
 
 #### 1.1 Migration from core integration to Lightspeed app
-If you are using the old [core Lightspeed MultiSafepay payment integration](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/):
+If you are using the old [core Lightspeed MultiSafepay payment integration](https://docs.multisafepay.com/integrations/hosted/lightspeed_core):
 
 1. Complete the above mentioned steps to install the Lightspeed app
 
@@ -79,7 +79,7 @@ If you do not want certain payment methods to be displayed at all, you can disab
 
 If you want different payment methods disabled for different languages, you can make these adjustments in the dropdown menu under the _Payment methods ordering_ header where you first need to select a country and then make change on a per language basis. _Default_ is used if no specific ruleset for a language is found.
 
-Are you missing any payment methods? Make sure that the payment methods are first enabled in the [MultiSafepay Control](https://docs.multisafepay.com/tools/multisafepay-control/) and then go to the settings page of our Lightspeed app and enable the respective payment method there again. By default newly activated payment methods in the MultiSafepay Control are disabled in the Lightspeed MultiSafepay Payments settings, so you need to enable them in both places. 
+Are you missing any payment methods? Make sure that the payment methods are first enabled in the [MultiSafepay Control](https://docs.multisafepay.com/tools/multisafepay-control) and then go to the settings page of our Lightspeed app and enable the respective payment method there again. By default newly activated payment methods in the MultiSafepay Control are disabled in the Lightspeed MultiSafepay Payments settings, so you need to enable them in both places. 
 
 #### 2.6 Inline buy button
 If you want to put an extra buy button near the selected payment method you can configure this in the settings page by going to _Inline Buy button_ and selecting _Show inline_ option. 

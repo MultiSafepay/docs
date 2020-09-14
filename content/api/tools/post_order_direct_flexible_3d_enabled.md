@@ -159,7 +159,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)  
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)  
 
 ----------------
 __customer__ | object
