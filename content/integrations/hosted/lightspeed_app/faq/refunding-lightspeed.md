@@ -8,7 +8,8 @@ Yes you can refund orders. By default you can create a refund in your [MultiSafe
 
 To allow automatic refunds you first have to enable this setting. Login to [lightspeed.multisafepay.com](https://lightspeed.multisafepay.com/settings), scroll down to "Enable Refunds" or click "Enable refunds" in the sidebar and here you can enable automatic refunds. 
 
-Automatic refunds will now happen when a credit memo is created or an order is cancelled from the Lightspeed backend. If the automatic refund proceeds succesfully, the credit memo will show a green dot. 
+~~Automatic refunds will now happen when a credit memo is created or an order is cancelled from the Lightspeed backend. If the automatic refund proceeds succesfully, the credit memo will show a green dot. ~~
+Partial refunds are temporary unavailable. A full refund will however be created when an order is cancelled.
 
 Automatic refunds only work when the setting is activated and when the transaction is know by MultiSafepay.
 
