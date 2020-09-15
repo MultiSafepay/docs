@@ -9,7 +9,7 @@ Release date: Apr 1st, 2020
 
 ### Added
 + PLGDC8-31: Add Apple Pay
-+ PLGDC8-30: Add Direct Bank Transfer
++ PLGDC8-30: Add Direct Bank Transfer (Request to Pay)
 + PLGDC8-28: Add MultiSafepay order data hooks - Issue #3117420 by j3ll3nl
 
 ### Changed

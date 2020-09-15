@@ -19,7 +19,7 @@ __Banks__
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Belfius](/payment-methods/banks/belfius)
 + [CBC](/payment-methods/banks/cbc)
-+ [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer)
++ [Request to Pay](/payment-methods/banks/request-to-pay)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)

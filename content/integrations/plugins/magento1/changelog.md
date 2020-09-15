@@ -10,7 +10,7 @@ Release date: Apr. 2nd, 2020
 
 ### Added
 + PLGMAGONE-617: Add Apple Pay
-+ PLGMAGONE-656: Add Direct Bank Transfer
++ PLGMAGONE-656: Add Direct Bank Transfer (Request to Pay)
 + PLGMAGONE-485: Add support for Fooman Surcharge
 + PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
 
@@ -354,7 +354,7 @@ Release date: Aug 20th, 2015
 ### Fixes
 + Fixed Store name from order is used for manual paylink, not the admin site.
 + Fixed some undefined fields causing a Notice error when PHP use a STRICT error logging.
-+ Fixed success URL for direct Bank transfer.
++ Fixed success URL for Direct Bank transfer (Request to Pay).
 + Fixed some issues with the customer groups selected in the configuration of the gateways.
 + Fixed prices including tax (Solved error 1027).
 + Fixed some encoding issue.

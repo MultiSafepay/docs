@@ -1,6 +1,6 @@
 ---
 weight: 311
-meta_title: "API - Create a Direct Bank Transfer transaction - Developers MultiSafepay"
+meta_title: "API - Create a Request to Pay transaction - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -115,7 +115,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "currency": "EUR",
         "description": "Test Order Description",
         "external_transaction_id": "P-26660200325-0935",
-        "payment_description": "Direct Bank Transfer",
+        "payment_description": "Request to Pay",
         "status": "initialized",
         "type": "DBRTP"
       }
@@ -134,9 +134,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 
-## Direct Bank Transfer
+## Request to Pay
 
-Creates a Direct Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Request to Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -196,9 +196,9 @@ Customer will be redirected to this page after a failed payment.
 
 
 
-### Direct - Direct Bank Transfer 
+### Direct - Request to Pay
 
-Creates a Direct Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Request to Pay [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -214,6 +214,6 @@ __payment_options__ | object
 ----------------
 
 
-Read more about [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer) on our documentation page.
+Read more about [Request to Pay](/payment-methods/banks/request-to-pay) on our documentation page.
 
 {{< /description >}}

@@ -33,7 +33,7 @@ Release date: Apr 2nd, 2020
 
 ### Added
 + PLGPRSS-400: Add Apple Pay
-+ PLGPRSS-399: Add Direct Bank Transfer
++ PLGPRSS-399: Add Direct Bank Transfer (Request to Pay)
 
 ***
 

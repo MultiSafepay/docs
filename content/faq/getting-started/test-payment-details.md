@@ -116,9 +116,9 @@ MultiSafepay provides a test platform for SEPA Direct Debit transactions. By ent
 | NL87ABNA0000000003 | Initialized/Uncleared/Completed | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Completed) |
 | NL87ABNA0000000004 | Initialized/Uncleared/Declined | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Declined) |
 
-## Direct Bank Transfer
+## Request to Pay
 
-MultiSafepay provides a test platform for Direct Bank Transfer transactions though Deutsche Bank.
+MultiSafepay provides a test platform for Request to Pay transactions though Deutsche Bank.
 You can simulate the following scenarios:  
 
 | Status    | Description              |

@@ -1,12 +1,12 @@
 ---
-title: "How to refund a Direct Bank Transfer order"
+title: "How to refund a Request to Pay order"
 weight: 23
-meta_title: "Direct Bank Transfer, how to refund a transaction - MultiSafepay Support"
+meta_title: "Request to Pay, how to refund a transaction - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## Request refund
-Please follow these steps to refund a Direct Bank Transfer transaction:
+Please follow these steps to refund a Request to Pay transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _Transactions -> Transaction overview_

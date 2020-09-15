@@ -10,7 +10,7 @@ Release date: Jul 14th, 2020
 ### Added
 + DAVAMS-213: Add track & trace to shipment request
 + PLGZENS-71: Add Apple Pay
-+ PLGZENS-72: Add Direct Bank Transfer
++ PLGZENS-72: Add Direct Bank Transfer (Request to Pay)
 + PLGZENS-44: Add Santander Betaal per Maand
 + PLGZENS-51: Add plugin version to backend
 + PLGZENS-43: Add AfterPay
