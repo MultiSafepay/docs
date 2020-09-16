@@ -10,4 +10,4 @@ read_more: '.'
 
 >_Currently, MultiSafepay offers in3 only in the Netherlands._
 
-To apply for in3, please contact <integration@multisafepay.com>
+To apply for in3, please contact <sales@multisafepay.com>
