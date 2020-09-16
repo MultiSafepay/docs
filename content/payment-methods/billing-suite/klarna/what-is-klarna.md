@@ -10,4 +10,4 @@ Klarna is an online payment method that allows the customer to pay for online pu
 
 >_Currently MultiSafepay only offers Klarna for Austria, Germany, Belgium, Finland and the Netherlands_.
 
-{{< alert-notice >}} The decommission of Klarna will take place from the 1st of October. If you wish to use Klarna, you will need to use Klarna Payments. Note that transactions made before October 1st can still be managed in terms of refunds and partial refunds.  {{< /alert-notice >}} 
+{{< alert-notice >}} The decommission of Klarna will take place from the 1st of October. If you would like to continue using Klarna, you will need to migrate to Klarna Payments. Note that transactions made before October 1st can still be managed in terms of refunds and partial refunds.  {{< /alert-notice >}} 
