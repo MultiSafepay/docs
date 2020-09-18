@@ -4,6 +4,18 @@ meta_title: "OpenCart plugin changelog - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
+## 3.2.0
+Release date: September, 17th 2020
+
+### Improvements 
++ DAVAMS-320 : Rebrand 'Klarna' to 'Klarna - Pay later in 14 days' inclusive a new logo
++ PLGOPNS-256: Add a link to documentation in Second Chance field
+
+### Fixed
++ PLGOPNS-295: Add getEventByCode function, which does not exist prior to OC 3.0.1.2
++ PLGOPNS-284: Rename placeholder for 'Lifetime payment link' field to 'Time Active'
+
+
 ## 3.1.0
 Release date: September, 14th 2020
 
