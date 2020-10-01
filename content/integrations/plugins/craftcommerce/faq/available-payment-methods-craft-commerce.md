@@ -34,20 +34,17 @@ __Banks__
 __Billing suite__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
-+ [Betaalplan](/payment-methods/billing-suite/betaalplan)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
 __Wallet__ 
 
-+ [Apple Pay](/payment-methods/wallet/applepay)
 + [Alipay](/payment-methods/wallet/alipay)
 + [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Beauty and Welness gift card
 + Boekenbon
 + Fashion Cheque
