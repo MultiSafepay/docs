@@ -38,7 +38,7 @@ This page contains the gateway settings where you can find all payment methods a
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>.
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
 ### Discounts
 Discounts are not supported by the MultiSafepay Craft Commerce plugin.
