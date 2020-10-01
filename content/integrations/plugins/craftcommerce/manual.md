@@ -40,5 +40,14 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
+### Features
+
+- Support for separate payment methods.
+- Support for billing suite payment methods.
+- Support for gift cards.
+- Partial and full refund support for non billing suite payment methods.
+- Customizable order statuses.
+- Shipment notification for billing suite payment methods.
+
 ### Discounts
 Discounts are not supported by the MultiSafepay Craft Commerce plugin.
