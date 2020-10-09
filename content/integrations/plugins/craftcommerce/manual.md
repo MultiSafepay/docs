@@ -8,7 +8,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 The installation can be carried out in two ways:
 
-+ [Craft Plugin Store](https://plugins.craftcms.com)
++ [Craft Plugin Store](https://plugins.craftcms.com/multisafepay)
 + Composer
 
 In this manual we describe the installation via Composer.
