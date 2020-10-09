@@ -30,12 +30,12 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 + [TrustPay](/payment-methods/banks/trustpay)
-+ [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
 
 __Billing suite__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
++ in3
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
