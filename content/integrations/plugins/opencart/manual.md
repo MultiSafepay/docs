@@ -9,7 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{% introduction_plugin "OpenCart" %}}
 
 ### 1. Requirements
-- OpenCart 3.0.x
+- OpenCart 2.X, 3.X
 - Tested on PHP 7.2, 7.3
 
 ### 2. Installation
