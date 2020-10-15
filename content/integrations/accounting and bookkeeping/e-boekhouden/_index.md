@@ -10,8 +10,8 @@ read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your e-Boekhouden platform"
 description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your e-Boekhouden system."
 extra_button:
-    url: "https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387" 
-    text: "Go to site" 
+    url: "https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387"
+    text: "Go to site"
     type: "primary"
 ---
 
@@ -42,7 +42,7 @@ It is also possible to [generate an Accountant Export Report](https://docs.multi
 
 If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
 
-#### e-Boekhouden Payment Link
+#### e-Boekhouden Pay by link
 
 It is possible to insert a payment link created in MultiSafepay Control into the invoices of e-Boekhouden. This way, your customers can pay the invoice directly.
 
