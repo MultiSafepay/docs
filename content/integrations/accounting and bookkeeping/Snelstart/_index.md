@@ -1,6 +1,6 @@
 ---
 title: "Snelstart"
-weight: 20
+weight: 120
 meta_title: "Snelstart - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 logo: '/logo/snelstart.png'
@@ -8,18 +8,21 @@ layout: 'single'
 title_short: "Snelstart"
 short_description: "Read about how you can generate a MultiSafepay export and import to your Snelstart platform"
 description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your Snelstart system."
-
+extra_button:
+    url: "https://www.snelstart.nl"
+    text: "Go to site"
+    type: "primary"
 ---
 
 ### Supported export formats
 
-snelstart supports two specific export formats. These are:
+snelstart supports one specific export formats. This is:
 
 * MT940
 
-### snelstart Import MultiSafepay
+### Snelstart Import MultiSafepay
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [snelstart](https://www.snelstart.nl/klantenservice) will assist you directly in this.
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [Snelstart](https://www.snelstart.nl/klantenservice) will assist you directly in this.
 
 ### Accountant Report Export
 
@@ -36,11 +39,3 @@ It is also possible to [generate an Accountant Export Report](https://docs.multi
 
 
 If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
-
-#### snelstart Payment Link
-
-It is possible to insert a payment link created in MultiSafepay Control into the invoices of snelstart. This way, your customers can pay the invoice directly.
-
-* [How to create a payment link](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
-
-* [How to insert it in the invoice](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1)
