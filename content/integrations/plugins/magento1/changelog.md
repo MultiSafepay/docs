@@ -5,6 +5,35 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ---
 
+## 3.0.0
+Release date: Oct. 21st, 2020
+
+### Added
++ DAVAMS-234: Add in3
++ DAVAMS-262: Add CBC payment method
++ PLGMAGONE-699: Add Good4fun Giftcard
+
+### Fixed
++ PLGMAGONE-678: Fix bug in calculating correct price and tax for Fooman surcharge
++ PLGMAGONE-671: Fix maximum nesting level error with Idev OneStepCheckout
++ PLGMAGONE-668: Fix non working days/seconds_active for backend orders
+
+### Changed
++ PLGMAGONE-634: Switch from XML API to JSON API (Only API key is needed)
++ PLGMAGONE-472: Set order to status shipped for all payment methods
++ PLGMAGONE-674: Always set redirect_url
++ DAVAMS-28: Rebrand Santander Betaalplan to Pay per Month
++ DAVAMS-295: Rebrand Direct Bank Transfer to Request to Pay
++ DAVAMS-308: Rebrand Klarna to Klarna - buy now, pay later
++ Update payment method names
+  + KBC
+  + ING Home'Pay
+  + Credit card
+  + Pay After Delivery
+  + E-Invoicing
+
+***  
+
 ## 2.6.0
 Release date: Apr. 2nd, 2020
 

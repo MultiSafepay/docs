@@ -16,6 +16,7 @@ __Banks__
 + [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Belfius](/payment-methods/banks/belfius)
++ [CBC](/payment-methods/banks/cbc)
 + [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Dotpay](/payment-methods/banks/dotpay)
@@ -28,7 +29,6 @@ __Banks__
 + [Maestro](/payment-methods/maestro)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
-+ [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
 
 
 __Billing suite__
@@ -36,6 +36,7 @@ __Billing suite__
 + [Afterpay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
++ in3
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
@@ -54,6 +55,7 @@ __Prepaid cards__
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon
++ Good4fun Giftcard
 + Nationale tuinbon
 + Parfumcadeaukaart
 + Podium
