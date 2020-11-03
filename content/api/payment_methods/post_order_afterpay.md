@@ -595,7 +595,7 @@ Contains the issuer_id.
 ----------------
 __birthday__ | object
 
-The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. Required in countries: DE, NL, DK, BE, AT Optional in countries: CH, NO, FI, SE.
+The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. Required in countries: NL, BE
 
 ----------------
 __phone__ | string
