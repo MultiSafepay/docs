@@ -263,6 +263,8 @@ Creates a E-invocing [Direct](/faq/api/difference-between-direct-and-redirect) o
 
 * All parameters shown are required field(s)
 
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
+
 **Parameters**
 
 ----------------
@@ -368,6 +370,9 @@ Creates an E-invoicing [Redirect](/faq/api/difference-between-direct-and-redirec
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
+
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
+
 
 **Parameters**
 
