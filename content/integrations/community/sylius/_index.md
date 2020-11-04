@@ -1,5 +1,5 @@
 ---
-logo: "/logo/Integrations/Django.svg"
+logo: "/logo/Integrations/Sylius.svg"
 weight: 10
 title_short: "Sylius"
 redirect_show_info:
