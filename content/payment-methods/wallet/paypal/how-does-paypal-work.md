@@ -29,7 +29,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Declined                       | Declined                 | Transaction has been rejected   | 
 | Expired                        | Expired                  | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void                           | Cancelled                | Transaction has been cancelled.   | 
-| Uncleared                      | Uncleared                | An 'Uncleared' transaction without a reason is due to a configuration in your PayPal business account. The 'Uncleared' transactions are paid in a currency that is not enabled in your PayPal account. It is important to enable that specific currency in your PayPal account in order for the order status to change to 'Completed' in your MultiSafepay Control. |
+| Uncleared                      | Initialized                | An 'Uncleared' transaction without a reason is due to a configuration in your PayPal business account. The 'Uncleared' transactions are paid in a currency that is not enabled in your PayPal account. It is important to enable that specific currency in your PayPal account in order for the order status to change to 'Completed' in your MultiSafepay Control. |
 
 
 #### Refund flow
