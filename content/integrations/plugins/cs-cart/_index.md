@@ -5,7 +5,7 @@ download_url : "https://github.com/MultiSafepay/CS-Cart/releases/download/1.5.0/
 manual: "."
 faq: "."
 changelog: "https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md"
-meta_title: "CS-Cart plugin integration - MultiSafepay Documentation Center"
+meta_title: "CS-Cart plugin integration - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/CS-Cart.svg"
 weight: 80
