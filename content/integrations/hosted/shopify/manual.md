@@ -12,7 +12,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< alert-notice >}} It is advised to add payment methods individually. Please refer to the FAQ section below - _Available payment methods in Shopify_ {{< /alert-notice >}}
 
-Click below on the payment methods that you would like to use. Login on the following page and click on _Install Payment provider_.
   
 1. Log into your backend and navigate to _Settings > Payment providers > Alternative payments_
 
