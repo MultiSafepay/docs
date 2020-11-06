@@ -4,7 +4,7 @@ meta_title: "Shopify plugin available payment methods - MultiSafepay Documentati
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
-It is also possible to add each payment method __individually__. Click on the payment method you wish to add to your Shopify website:
+Click on the payment method you wish to add to your Shopify website:
 
   * [iDEAL](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052844)
   * [iDEAL QR](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052850)
