@@ -9,7 +9,7 @@ manual: "."
 faq: "."
 layout: 'single-beta-button'
 newsletter : "Magento 2"
-meta_title: "Magento 2 plugin integration - MultiSafepay Documentation Center"		
+meta_title: "Magento 2 plugin integration - MultiSafepay Docs"		
 meta_description: "MultiSafepay plugin for Magento2. Easily integrate MultiSafepay payment solutions into your Magento2 platform with the free plugin"
 description : "Easily integrate MultiSafepay payment solutions into your Magento 2 webshop with the free and completely new MultiSafepay Magento 2 plugin. Our Magento 2 plugin is professionally supported by a certified Magento 2 Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay."
 magento_image: "middle_solution_specialist_m2.png"

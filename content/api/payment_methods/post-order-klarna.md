@@ -1,6 +1,6 @@
 ---
 weight: 318
-meta_title: "API - Create a Klarna order - Developers MultiSafepay"
+meta_title: "API - Create a Klarna order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -166,6 +166,8 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 
 * All parameters shown are required field(s)
 
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
+
 **Parameters**
 
 ----------------
@@ -265,6 +267,8 @@ Please note this request is for Klarna Payments. This request can only be proces
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
+
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
 
 
 **Parameters**

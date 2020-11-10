@@ -1,6 +1,6 @@
 ---
 title : "Test Payment Details"
-meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Support"
+meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -270,11 +270,11 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
 
 
-## Santander Betaalplan
+## Santander Betaal per Maand
 
 Currently no test data available for the payment method Santander.
 
-When activating Santander Betaalplan as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+When activating Santander Betaal per Maand as payment method in a live MultiSafepay Control, the payment method will be tested before release.
 
 ## SOFORT Banking
 

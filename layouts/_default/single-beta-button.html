@@ -64,10 +64,6 @@
             </div>
         </div>
     </div>
-    {{ if or (eq .Section "faq") (eq .Section "tools") }}
-    {{ partial "edit-page" . }}
-    {{ partial "bottom-block" . }}
-    {{ end }}
 </div>
 {{ if isset .Params "manual" }}
       {{ partial "manual" . }}

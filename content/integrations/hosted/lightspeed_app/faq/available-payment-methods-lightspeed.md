@@ -13,7 +13,7 @@ Currenlty we support the following payment methods:
 + Bancontact
 + Bank transfer
 + Belfius
-+ Betaalplan
++ Betaal per Maand
 + SEPA Direct Debit
 + Dotpay
 + EPS

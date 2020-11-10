@@ -1,7 +1,7 @@
 ---
 title : "Fastcheckout, What it is"
 weight: 20
-meta_title: "FastCheckout, What it is - MultiSafepay Support"
+meta_title: "FastCheckout, What it is - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -21,7 +21,7 @@ Fastcheckout has its own checkout process. The customer will leave the webshop's
 ### Payment methods
 MultiSafepay offers a free of charge Fastcheckout account. However, not all payment methods are available in a Fastcheckout account:
 
-__Available__: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Belfius, SEPA Direct Debit, Dotpay, E-Invoicing, EPS, Giropay, iDEAL, iDEAL QR, ING Home'Pay, JCB, KBC, Mastercard, PayPal, Paysafecard, Betaalplan, SOFORT Banking, Trustly, TrustPay, Visa.
+__Available__: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Belfius, SEPA Direct Debit, Dotpay, E-Invoicing, EPS, Giropay, iDEAL, iDEAL QR, ING Home'Pay, JCB, KBC, Mastercard, PayPal, Paysafecard, Betaal per Maand, SOFORT Banking, Trustly, TrustPay, Visa.
 
 __Not available__: Klarna, Pay After Delivery. 
 

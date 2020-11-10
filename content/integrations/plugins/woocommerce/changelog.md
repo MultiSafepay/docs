@@ -1,8 +1,29 @@
 ---
 title : "Release Notes WooCommerce plugin"
-meta_title: "WooCommerce plugin changelog - MultiSafepay Documentation Center"
+meta_title: "WooCommerce plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
+
+## 3.8.0
+Release date: Oct 29th, 2020
+
+### Added
++ PLGWOOS-421: Add Good4fun Giftcard
+
+### Changed
++ DAVAMS-313: Rebrand Klarna to Klarna - buy now, pay later
++ DAVAMS-296: Rebrand Direct Bank Transfer to Request to Pay
++ DAVAMS-282: Update name and logo for Santander
+
+***
+
+## 3.7.0
+Release date: Aug 14th, 2020
+
+### Added
++ DAVAMS-237: Add in3 payment method
+
+***
 
 ## 3.6.1
 Release date: Aug 5th, 2020
@@ -123,7 +144,7 @@ Release date July 5th, 2018
 ## 3.1.0
 Release date: June 8th, 2018
 ### Improvements
-+ PLGWOOS-215 Add support for Santander Betaalplan
++ PLGWOOS-215 Add support for Santander Betaal per Maand
 + PLGWOOS-214 Add support for Afterpay
 + PLGWOOS-216 Add support for Trustly
 

@@ -1,6 +1,6 @@
 ---
 title : "Available payment methods in PrestaShop"
-meta_title: "PrestaShop 1.7 plugin available payment methods - MultiSafepay Documentation Center"
+meta_title: "PrestaShop 1.7 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 ---
@@ -34,8 +34,9 @@ __Banks__
 __Billing suite__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
-+ [Betaalplan](/payment-methods/billing-suite/betaalplan)
++ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
++ in3
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
@@ -55,6 +56,7 @@ __Prepaid cards__
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon
++ Good4fun Giftcard
 + Nationale tuinbon
 + Parfumcadeaukaart
 + [Paysafecard](/payment-methods/paysafecard)

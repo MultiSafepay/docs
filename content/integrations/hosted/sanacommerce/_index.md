@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay app for Sana Commerce"
-meta_title: "Sana Commerce plugin integration - MultiSafepay Documentation Center"
+meta_title: "Sana Commerce plugin integration - MultiSafepay Docs"
 layout: 'single'
 meta_description: "MultiSafepay app for Sana Commerce. Easily integrate MultiSafepay payment solutions into your Dynamicweb platform with the free app"
 logo: "/logo/Integrations/Sana_Commerce.svg"

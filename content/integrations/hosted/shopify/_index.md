@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay app for Shopify"
-meta_title: "Shopify plugin integration - MultiSafepay Documentation Center"
+meta_title: "Shopify plugin integration - MultiSafepay Docs"
 manual: "."
 faq: "."
 newsletter: "Shopify"

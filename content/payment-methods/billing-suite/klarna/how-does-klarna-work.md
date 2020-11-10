@@ -1,13 +1,13 @@
 ---
 title : "Klarna, How it works"
 weight: 21
-meta_title: "Klarna, How it works - MultiSafepay Support"
+meta_title: "Klarna, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # How it works
 ## Integration
-Before integration can start, every merchant needs to sign an additional independent agreement with Klarna, where pricing is agreed upon and where the merchant is given a Klarna Merchant Number (EID) and a Shared Secret (Password). These credentials should be sent to MultiSafepay in order for us to be able to configure the Klarna Gateway within your MultiSafepay Control account. MultiSafepay will give all the necessary support during this process and when it is possible, facilitates the contract.
+Before integration can start, every merchant needs to sign an additional independent agreement with Klarna, where pricing is agreed upon. Klarna will make webshop(s) available in the partner portal of MultiSafepay, so credentials can be generated. These credentials are used to configure the Klarna gateway within your MultiSafepay account. MultiSafepay will give all the necessary support during this process and whenever possible.
 
 Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api)
 

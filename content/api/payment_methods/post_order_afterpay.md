@@ -1,6 +1,6 @@
 ---
 weight: 301
-meta_title: "API - Create AfterPay order - Developers MultiSafepay"
+meta_title: "API - Create AfterPay order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -14,161 +14,46 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "gateway": "AFTERPAY",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "37380",
+    "amount": "26000",
     "description": "Test Order Description",
-    "items": "",
     "manual": "false",
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "ip_address": "31.148.195.10",
-        "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "email": "approved@afterpay.nl",
-        "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
-        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-    },
-    "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "phone": "0208500500",
-        "email": "approved@afterpay.nl"
-    },
     "gateway_info": {
         "birthday": "1970-07-10",
         "gender": "mr",
         "phone": "0612345678",
         "email": "rejection@afterpay.nl"
     },
+    "payment_options": {
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "redirect_url": "http://www.example.com/client/notification?type=redirect",
+        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
+        "close_window": ""
+    },
+    ...
     "shopping_cart": {
         "items": [
             {
                 "name": "Geometric Candle Holders",
                 "description": "",
                 "unit_price": "90",
-                "quantity": "3",
-                "merchant_item_id": "1111",
-                "tax_table_selector": "BTW21",
+                "quantity": "2",
+                "merchant_item_id": "111111",
+                "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
                     "value": "12"
                 }
             },
-            {
-                "name": "Nice apple",
-                "description": "",
-                "unit_price": "35",
-                "quantity": "1",
-                "merchant_item_id": "666666",
-                "tax_table_selector": "BTW6",
-                "weight": {
-                    "unit": "KG",
-                    "value": "20"
-                }
-            },
-            {
-                "name": "Flat Rate - Fixed",
-                "description": "Shipping",
-                "unit_price": "10.0000",
-                "quantity": "1",
-                "merchant_item_id": "msp-shipping",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": "0"
-                }
-            }
         ]
     },
     "checkout_options": {
         "tax_tables": {
-            "default": {
-                "shipping_taxed": "true",
-                "rate": "0.21"
-            },
             "alternate": [
-                {
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": "0.21"
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": "0.06"
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0"
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0"
-                        }
-                    ]
-                },
-                {
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
                 {
                     "name": "none",
                     "rules": [
                         {
                             "rate": "0.00"
-                        }
-                    ]
-                },
-                {
-                    "name": "2",
-                    "rules": [
-                        {
-                            "rate": "0.0825",
-                            "country": "NL"
-                        },
-                        {
-                            "rate": "0.08375",
-                            "country": "NL"
                         }
                     ]
                 }
@@ -176,195 +61,60 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         }
     }
 }
+
 ```
- 
-> JSON Response 
+
+> JSON Response
 
 ```shell
+
 {
-    "success": true,
-    "data": {
-        "transaction_id": 2340676,
-        "order_id": "my-order-id-1",
-        "created": "2017-09-29T16:13:10",
-        "currency": "EUR",
-        "amount": 26000,
-        "description": "Test Order Description",
-        "amount_refunded": 0,
-        "status": "completed",
-        "financial_status": "initialized",
-        "reason": "",
-        "reason_code": "",
-        "fastcheckout": "NO",
-        "modified": "2017-09-29T16:13:10",
-        "customer": {
-            "locale": "en_US",
-            "first_name": "Testperson-nl",
-            "last_name": "Approved",
-            "address1": "Kraanspoor",
-            "house_number": "39C",
-            "zip_code": "1033 SC",
-            "city": "Amsterdam",
-            "country": "NL",
-            "country_name": null,
-            "phone1": "0208500500",
-            "email": "example@multisafepay.com"
-        },
-        "payment_details": {
-            "recurring_id": null,
-            "type": "",
-            "account_id": 10071970,
-            "account_holder_name": null,
-            "external_transaction_id": 2379429850
-        },
-        "shopping_cart": {
-            "items": [
-                {
-                    "name": "Item demo 1",
-                    "description": "",
-                    "unit_price": "90.00",
-                    "currency": "EUR",
-                    "quantity": 2,
-                    "merchant_item_id": 666666,
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 12
-                    },
-                    "options": []
-                },
-                {
-                    "name": "Item demo 2",
-                    "description": "",
-                    "unit_price": "35.00",
-                    "currency": "EUR",
-                    "quantity": 2,
-                    "merchant_item_id": 666666,
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 20
-                    },
-                    "options": []
-                },
-                {
-                    "name": "Item shipping - Flat Rate - Fixed",
-                    "description": "Shipping",
-                    "unit_price": "10.00",
-                    "currency": "EUR",
-                    "quantity": 1,
-                    "merchant_item_id": "msp-shipping",
-                    "tax_table_selector": "none",
-                    "cashback": "",
-                    "image": "",
-                    "product_url": "",
-                    "weight": {
-                        "unit": "KG",
-                        "value": 0
-                    },
-                    "options": []
-                }
-            ]
-        },
-        "checkout_options": {
-            "default": {
-                "shipping_taxed": true,
-                "rate": 0.21
-            },
-            "alternate": [
-                {
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": 0.21,
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": 0.06,
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": "0.00",
-                            "country": ""
-                        }
-                    ]
-                },
-                {
-                    "name": 2,
-                    "rules": [
-                        {
-                            "rate": 0.0825,
-                            "country": "NL"
-                        },
-                        {
-                            "rate": 0.08375,
-                            "country": "NL"
-                        }
-                    ]
-                }
-            ]
-        },
-        "order_adjustment": {
-            "total_adjustment": "0.00",
-            "total_tax": "0.00"
-        },
-        "order_total": "260.00",
-        "costs": [],
-        "payment_url": "http://www.example.com/client/?action=notification&type=redirect&transactionid=2340676",
-        "cancel_url": "http://www.example.com/client/?action=notification&type=cancel&transactionid=2340676"
-    }
+  "success": true,
+  "data": {
+    "amount": 26000,
+    "amount_refunded": 0,
+    "checkout_options": {
+      "alternate": [
+        {
+          "name": "none",
+          "rules": [
+            {
+              "country": "",
+              "rate": "0.00"
+            }
+          ]
+        }
+      ],
+      "default": {
+        "rate": 0.21,
+        "shipping_taxed": true
+      }
+    },
+    "costs": [
+      {
+        "amount":,
+        "description": "",
+        "transaction_id": 2045938,
+        "type": "SYSTEM"
+      },
+      {
+        "amount":,
+        "description": "",
+        "transaction_id": 2045939,
+        "type": "SYSTEM"
+      }
+    ],
+    "created": "2019-01-12T13:55:38",
+    "currency": "EUR",
+    "custom_info": {
+    },
+    ...
+    
+    "status": "uncleared",
+    "transaction_id": 4022655,
+    "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
+    "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
+  }
 }
 ```
 > POST - /orders
@@ -376,68 +126,30 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "gateway": "AFTERPAY",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": 37485,
+    "amount": "26000",
     "description": "Test Order Description",
-    "manual": "false",
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "email": "example@multisafepay.com"
-    },
-    "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
-    },
+    "items": "",
+    "manual": "false"
+    ...
     "shopping_cart": {
         "items": [
             {
-                "name": "Geometric Candle Holders",
+                "name": "Item demo 1",
                 "description": "",
-                "unit_price": 90,
-                "quantity": 3,
-                "merchant_item_id": "1111",
-                "tax_table_selector": "BTW21",
+                "unit_price": "90",
+                "quantity": "2",
+                "merchant_item_id": "111111",
+                "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
                     "value": "12"
                 }
             },
             {
-                "name": "Nice apple",
-                "description": "",
-                "unit_price": 35,
-                "quantity": 1,
-                "merchant_item_id": "666666",
-                "tax_table_selector": "BTW9",
-                "weight": {
-                    "unit": "KG",
-                    "value": "20"
-                }
-            },
-            {
-                "name": "Flat Rate - Fixed",
+                "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
-                "unit_price": 10,
-                "quantity": 1,
+                "unit_price": "10",
+                "quantity": "1",
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
                 "weight": {
@@ -449,56 +161,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "checkout_options": {
         "tax_tables": {
-            "default": {
-                "shipping_taxed": "true",
-                "rate": 0.21
-            },
             "alternate": [
-                {
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": 0.21
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW9",
-                    "rules": [
-                        {
-                            "rate": 0.09
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": 0.06
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": 0
-                        }
-                    ]
-                },
                 {
                     "name": "none",
                     "rules": [
                         {
-                            "rate": 0
-                        }
-                    ]
-                },
-                {
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": 0
+                            "rate": "0.00"
                         }
                     ]
                 }
@@ -507,15 +175,15 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     }
 }
 ```
-> JSON Response 
+> JSON Response
 
 ```shell
 {
-    "success": true,
-    "data": {
-        "order_id": "my-order-id-1",
-        "payment_url": "https://payv2.multisafepay.com/connect/137LMJCe0GP8238bseHBnf97COSGr7mKGku/?lang=nl_NL"
-    }
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
+  }
 }
 ```
 {{< /code-block >}}
@@ -529,6 +197,8 @@ Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect) or
 * Direct transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
+
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
 
 **Parameters**
 
@@ -595,7 +265,7 @@ Contains the issuer_id.
 ----------------
 __birthday__ | object
 
-The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. Required in countries: DE, NL, DK, BE, AT Optional in countries: CH, NO, FI, SE.
+The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. Required in countries: NL, BE
 
 ----------------
 __phone__ | string
@@ -636,6 +306,9 @@ Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect) 
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
+
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
+
 
 **Parameters**
 

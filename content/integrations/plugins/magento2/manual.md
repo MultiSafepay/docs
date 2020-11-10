@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay Magento 2 installation & configuration manual"
-meta_title: "Magento 2 plugin manual - MultiSafepay Documentation Center"
+meta_title: "Magento 2 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 aliases:
     - /support-tab/magento2/manual
@@ -19,7 +19,7 @@ In this manual we describe the installation via Composer.
 {{% introduction_plugin "Magento 2" %}}
 
 ### 1. Requirements
-- Magento Open Source version 2.2.x & 2.3.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x
 - PHP 7.0 and higher
 - Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
 

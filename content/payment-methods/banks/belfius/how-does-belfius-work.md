@@ -1,7 +1,7 @@
 ---
 title: "Belfius, How does it work?"
 weight: 21
-meta_title: "Belfius, how does it work? - MultiSafepay Support"
+meta_title: "Belfius, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -43,6 +43,8 @@ Please note that successful Belfius payments that are not finalized by pressing 
 
 ### Product rules
 Some rules may apply to certain payment methods. For Belfius, the following rules apply:
+
+* A Belfius transaction will automatically expire after 5 days
 
 * Refunding more than the stated amount of the original transaction is possible with Belfius. More information available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 

@@ -1,7 +1,7 @@
 ---
 title : "Auto-withdrawal feature"
 weight: 31
-meta_title: "MultiSafepay Control- Auto-withdrawal feature - MultiSafepay Support"
+meta_title: "MultiSafepay Control- Auto-withdrawal feature - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -15,6 +15,7 @@ A new withdraw option has been added to the scheduler whereby Saturday, Sunday a
 ### Payment reference
 The payment reference is adjustable. 
 By default the setup for payment reference is:
+
 * Merchant ID 
 * Transaction ID 
 * MultiSafepay Payout 

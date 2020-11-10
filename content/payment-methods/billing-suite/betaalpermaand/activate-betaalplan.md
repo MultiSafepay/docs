@@ -1,27 +1,27 @@
 ---
-title: "How to activate Betaalplan"
+title: "How to activate Betaal per Maand"
 weight: 22
-meta_title: "Betaalplan, how to activate it - MultiSafepay Support"
+meta_title: "Betaal per Maand, how to activate it - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
-### Qualification criteria of Betaalplan and MultiSafepay
+### Qualification criteria of Betaal per Maand and MultiSafepay
 
-In order to be able to offer Betaalplan as a payment method within MultiSafepay Control, certain criteria need to be met.
+In order to be able to offer Betaal per Maand as a payment method within MultiSafepay Control, certain criteria need to be met.
 
-Only the following merchants are eligible for Betaalplan:
+Only the following merchants are eligible for Betaal per Maand:
 
 1. Organizations with a Dutch Chamber of Commerce registration (no exceptions possible)
 2. Organization yearly turnover >€500.000 (lower yearly turnover is possible upon agreement with Santander)
 3. Selling goods and/or services to European citizens with a residence/ delivery address in Netherlands (no exceptions possible)
-4. Betaalplan is available for orders from € 250, with a maximum of € 8000,00 per customer.
+4. Betaal per Maand is available for orders from € 250, with a maximum of € 8000,00 per customer.
 
-* In addition to Betaalplan's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and plugins - see [overview](https://docs.multisafepay.com))
+* In addition to Betaal per Maand's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and plugins - see [overview](https://docs.multisafepay.com))
 
-### Enable Betaalplan as payment method
+### Enable Betaal per Maand as payment method
 
 Enabling Betaalplaan as a payment method depends on your current connection. We advise you to first [contact](<mailto:sales@multisafepay.com>) your MultiSafepay account manager to check whether a connection with MultiSafepay and Santander is possible.
 
@@ -31,11 +31,11 @@ If you already have a MultiSafepay account and would like to apply for this paym
 
 ### No account with MultiSafepay and Santander
 
-We advise you to first open an account with MultiSafepay if you do not yet have an account with either of us. MultiSafepay will submit the application for Betaalplan at Santander during the screening process of your account at MultiSafepay.
+We advise you to first open an account with MultiSafepay if you do not yet have an account with either of us. MultiSafepay will submit the application for Betaal per Maand at Santander during the screening process of your account at MultiSafepay.
 
 ### An account with Santander, but not with MultiSafepay
 
 Apply for MultiSafepay Control online or [contact](<mailto:sales@multisafepay.com>) one of our account managers for further information.
 In case Santander already has an active working relation with a merchant for any of their other products, such merchant is considered to be a client of Santander.
 
->_Currently Betaalplan online is only supported by MultiSafepay_.
+>_Currently Betaal per Maand online is only supported by MultiSafepay_.
