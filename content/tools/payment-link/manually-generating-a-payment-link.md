@@ -1,5 +1,5 @@
 ---
-title : ""
+title : "How can I manually generate a payment link?"
 weight: 41
 meta_title: "How can I manually generate a payment link? - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
