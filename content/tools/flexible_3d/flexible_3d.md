@@ -1,7 +1,7 @@
 ---
 title: "Flexible 3D"
 weight: 11
-meta_title: "Flexible 3D - MultiSafepay Support"
+meta_title: "Flexible 3D - MultiSafepay Docs"
 meta_description: "Flexible 3D is a feature that allows you to enable/disable 3D secure at an API level. The Flexible 3D forces whether or not to complete a transaction with the 3D secure verification."
 read_more: '.'
 ---

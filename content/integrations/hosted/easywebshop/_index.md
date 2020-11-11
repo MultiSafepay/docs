@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay app for EasyWebshop"
-meta_title: "EasyWebshop integration - MultiSafepay Documentation Center"
+meta_title: "EasyWebshop integration - MultiSafepay Docs"
 layout: 'single'
 meta_description: "MultiSafepay app for EasyWebshop. Easily integrate MultiSafepay payment solutions into your EasyWebshop platform with the free app."
 logo: "/logo/Integrations/EasyWebshop.svg"

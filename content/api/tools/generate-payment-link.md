@@ -50,7 +50,8 @@ For several scenarios, it can be useful for our merchants to generate a payment 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Fill in 'paymentlink'. 
+Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in the MultiSafepay Control under _Tools_ -> _Payment link generator_
+
 
 ----------------
 __order_id__ | integer / string

@@ -1,7 +1,7 @@
 ---
 title : "Which gift cards are accepted by MultiSafepay?"
 weight: 25
-meta_title: "Gift cards, which are accepted? - MultiSafepay Support"
+meta_title: "Gift cards, which are accepted? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -17,7 +17,6 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Fashiongiftcard
 * Fietsenbon 
 * Gezondheidsbon 
-* Klantkaart.nl
 * Nationale Tuinbon
 * Parfumcadeaukaart 
 * Podium

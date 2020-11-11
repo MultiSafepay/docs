@@ -26,7 +26,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N086   | [KLARNA](/payment-methods/klarna)                      |   |
 | N087   | [NEXI](/payment-methods/branded-credit-cards)       |   |
 | N088   | [PAYAFTER](/payment-methods/pay-after-delivery)        |   |
-| N089   | [SANTANDER](/payment-methods/betaalplan)               |   |
+| N089   | [SANTANDER](/payment-methods/betaalpermaand)               |   |
 | N092   | [DIRECTBANK](/payment-methods/sofort-banking)          |   |
 | N093   | CURRENCY CONVERSION                                     |   |
 | N094   | [MISTERCASH](/payment-methods/bancontact)              |   |

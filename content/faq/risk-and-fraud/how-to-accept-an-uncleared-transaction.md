@@ -1,6 +1,6 @@
 ---
 title : "Accepting uncleared credit card payments, how and why?"
-meta_title: "FAQ General - Accept an uncleared transaction - MultiSafepay Support"
+meta_title: "FAQ General - Accept an uncleared transaction - MultiSafepay Docs"
 meta_description: "You can make an informed decision based on the information provided in the Risk Report.
 We have explained a number of important verification points to minimize the fraud risk when accepting a credit card payment marked with the status uncleared."
 read_more: "."

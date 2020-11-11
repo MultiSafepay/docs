@@ -1,8 +1,20 @@
 ---
 title : "Release Notes OpenCart plugin"
-meta_title: "OpenCart plugin changelog - MultiSafepay Documentation Center"
+meta_title: "OpenCart plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
+
+## 3.3.0
+Release date: October, 13th 2020
+
+### Added
++ PLGOPNS-247: Extend compatibility of the extension for OpenCart v. 2.X
+
+### Changed
++ PLGOPNS-329: Show payment logo in checkout and strip html tags before insert payment method in database
++ PLGOPNS-303: Improve iDEAL issuer selection list
++ PLGOPNS-245: Improve the alignment of payment methods logos in checkout page
+
 
 ## 3.2.0
 Release date: September, 17th 2020
@@ -115,7 +127,7 @@ Release date: June 15th, 2018
 ### Added
 + PLGOPNS-72: Add support for Alipay/ING Home'Pay/Belfius/KBC
 + PLGOPNS-80: Add support for AfterPay
-+ PLGOPNS-78: Add support for Santander Betaalplan
++ PLGOPNS-78: Add support for Santander Betaal per Maand
 + PLGOPNS-79: Add support for Trustly
 + PLGOPNS-73: Add VVV-Cadeaukaart as a gift card
 

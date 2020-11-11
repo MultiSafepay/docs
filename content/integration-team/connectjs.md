@@ -1,7 +1,7 @@
 ---
 title: "ConnectJS"
 weight: 11
-meta_title: "ConnectJS - MultiSafepay Support"
+meta_title: "ConnectJS - MultiSafepay Docs"
 meta_description: "ConnectJS is a simplified checkout process that prevents the punch out which we have when we redirect the customer to the Connect page for the gateway selection and filling in the additional data"
 ---
 

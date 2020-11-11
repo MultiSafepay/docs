@@ -1,7 +1,7 @@
 ---
 title: "What type of personal transaction details are required to be sent via the MultiSafepay API?"
 weight:
-meta_title: "FAQ API - Required transaction details - MultiSafepay Support"
+meta_title: "FAQ API - Required transaction details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
