@@ -16,13 +16,13 @@ extra_button:
 
 ### Supported export formats
 
-snelstart supports one specific export formats. This is:
+Snelstart supports one specific export format. This is:
 
 * MT940
 
 ### Snelstart Import MultiSafepay
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [Snelstart](https://www.snelstart.nl/klantenservice) will assist you directly in this.
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website [Snelstart](https://www.snelstart.nl/klantenservice) will assist you directly in this.
 
 ### Accountant Report Export
 
