@@ -6,6 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-# Testing
+## Testing
 
 If you would firstly like to create test payments with in3, please contact <integration@multisafepay.com> for more information.

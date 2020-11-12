@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-# Activate
+## Activate
 
 >_Currently, MultiSafepay offers in3 only in the Netherlands._
 

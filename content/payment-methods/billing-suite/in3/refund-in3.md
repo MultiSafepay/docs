@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-# Request a refund 
+## Request a refund 
 
 There are 2 ways to refund an in3 transaction in the [MultiSafepay Control](https://merchant.multisafepay.com)
 
