@@ -9,7 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 
 {
-    "type": "direct",
+    "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "iDEALQR",
     "currency": "EUR",
