@@ -1,7 +1,7 @@
 ---
 title : "PayPal, How it works"
 weight: 21
-meta_title: "PayPal, How it works - MultiSafepay Support"
+meta_title: "PayPal, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -29,7 +29,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Declined                       | Declined                 | Transaction has been rejected   | 
 | Expired                        | Expired                  | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void                           | Cancelled                | Transaction has been cancelled.   | 
-| Uncleared                      | Uncleared                | An 'Uncleared' transaction without a reason is due to a configuration in your PayPal business account. The 'Uncleared' transactions are paid in a currency that is not enabled in your PayPal account. It is important to enable that specific currency in your PayPal account in order for the order status to change to 'Completed' in your MultiSafepay Control. |
+| Uncleared                      | Initialized                | An 'Uncleared' transaction without a reason is due to a configuration in your PayPal business account. The 'Uncleared' transactions are paid in a currency that is not enabled in your PayPal account. It is important to enable that specific currency in your PayPal account in order for the order status to change to 'Completed' in your MultiSafepay Control. |
 
 
 #### Refund flow
@@ -51,11 +51,11 @@ Full documentation on [What is Seller Pretection](https://www.paypal.com/cs/smar
 ### Product rules
 Some rules may apply to certain payment methods. For PayPal, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible for PayPal. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is not possible for PayPal. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful PayPal transactions have a maximum refund period of 60 days. After this period, it is advised to process the requested refund by different means
 
-* A PayPal payment link is valid for 14 days. The lifetime of the payment link is set by PayPal. Therefore, a payment link created with PayPal will automatically expire after 14 days. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* A PayPal payment link is valid for 14 days. The lifetime of the payment link is set by PayPal. Therefore, a payment link created with PayPal will automatically expire after 14 days. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
 * Uncleared transactions can only be declined or accepted within your PayPal account
 

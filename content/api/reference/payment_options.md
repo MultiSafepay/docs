@@ -1,6 +1,6 @@
 ---
 weight: 610
-meta_title: "API - Transaction statuses - Developers MultiSafepay"
+meta_title: "API - Transaction statuses - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -35,7 +35,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)              
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)              
 
 ----------------
 __redirect_url__ | string

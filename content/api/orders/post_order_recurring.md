@@ -1,6 +1,6 @@
 ---
 weight: 230
-meta_title: "API - Recurring payments - Developers MultiSafepay"
+meta_title: "API - Recurring payments - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -10,7 +10,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 {
     "type": "direct",
-    "order_id": "My-order-id-3",
+    "order_id": "my-order-id-1",
     "gateway": "gatewaycode",
     "recurring_id": "{recurring_id}",
     "currency": "EUR",
@@ -32,7 +32,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   "success": true,
   "data": {
     "transaction_id": 0000003,
-    "order_id": "My-order-id-3",
+    "order_id": "my-order-id-1",
     "created": "2019-03-04T14:11:37",
     "currency": "EUR",
     "amount": 1000,
@@ -87,9 +87,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Recurring Payments can be done using Credit Cards (VISA, Mastercard) and SEPA Direct Debit.    
 
-iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The recurring ID can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments/)
+iDEAL and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The recurring ID can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
 
-For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments/)
+For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments)
 
 **Parameters**
 
@@ -135,7 +135,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __notification_method__ | string

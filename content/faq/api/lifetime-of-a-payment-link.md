@@ -1,7 +1,7 @@
 ---
 title: "Lifetime of a payment link"
 weight:
-meta_title: "FAQ API - Lifetime of a payment link - MultiSafepay Support"
+meta_title: "FAQ API - Lifetime of a payment link - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -23,7 +23,7 @@ The payment link for bank transfers is valid for **60 days** (by default) rather
 A PayPal payment link is valid for **14 days**, as imposed by PayPal. Therefore, PayPal payment links will automatically expire after 14 days, which is less than the default MultiSafepay payment link lifetime. In light of this, the <i>days_active</i> and <i>seconds_active</i> parameters will only have an influence on the lifetime of a PayPal payment link only if they correspond to a period shorter than 14 days. 
 
 ### Second Chance email
-The [Second Chance](/tools/second-chance/) email is a gentle payment reminder sent to the customer. The Second Chance email will include a payment link, through which customers can finalize the payment if they desire.
+The [Second Chance](/tools/second-chance) email is a gentle payment reminder sent to the customer. The Second Chance email will include a payment link, through which customers can finalize the payment if they desire.
 
 When enabled, the Second Chance email will be sent once after 1 hour and once after 24 hours. Currently, this cannot be adjusted. It is, however, possible to influence the lifetime of the payment link by means of the days_active or seconds_active. 
 

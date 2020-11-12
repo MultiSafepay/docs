@@ -1,7 +1,7 @@
 ---
 title: "How does Giropay work?"
 weight: 21
-meta_title: "How does Giropay work? - MultiSafepay Support"
+meta_title: "How does Giropay work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -40,13 +40,15 @@ The full API reference for Giropay can be found [here](/api/#giropay)
 ### Product rules
 Some rules may apply to certain payment methods. For Giropay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with Giropay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Giropay is only available in Germany
+
+* Refunding more than the stated amount of the original transaction is possible with Giropay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Giropay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 
-* Payments done through Giropay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Giropay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 

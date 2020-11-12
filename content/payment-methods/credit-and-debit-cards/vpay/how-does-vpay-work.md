@@ -1,7 +1,7 @@
 ---
 title: "V Pay, How does it work?"
 weight: 21
-meta_title: "V Pay, how does it work? - MultiSafepay Support"
+meta_title: "V Pay, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -27,8 +27,8 @@ V Pay (debit card) transactions received by MultiSafepay will be processed throu
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet. | 
 | Completed   | Completed   | A successful V Pay transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
-| Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)
-| Declined    | Declined    | Rejected by the issuing bank. Read more about the reason why the transaction is declined in [what does this mean?](/faq/general/declined-status/) | 
+| Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction)
+| Declined    | Declined    | Rejected by the issuing bank. Read more about the reason why the transaction is declined in [what does this mean?](/faq/general/declined-status) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 | 
@@ -40,7 +40,7 @@ V Pay (debit card) transactions received by MultiSafepay will be processed throu
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback/)              |
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback)              |
 
 
 The full API reference for V Pay and credit cards can be found [here](/api/#credit-cards)
@@ -48,10 +48,10 @@ The full API reference for V Pay and credit cards can be found [here](/api/#cred
 ### Product rules
 Some rules may apply to certain payment methods. For V Pay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is NOT possible for V Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible for V Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * V Pay transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
-* Payments done through V Pay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through V Pay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)

@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay app for CCV Shop"
-meta_title: "CCV Shop plugin integration - MultiSafepay Documentation Center"
+meta_title: "CCV Shop plugin integration - MultiSafepay Docs"
 manual: "."
 faq: "."
 layout: 'single'

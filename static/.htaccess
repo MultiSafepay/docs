@@ -360,6 +360,21 @@ Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/carte-
 Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
 Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/postepay/
 Redirect 301 /how-to-find-us/spanish-office-location/ https://docs.multisafepay.com/how-to-find-us/malaga-office-location/
+Redirect 301 /payment-methods/banks/direct-bank-transfer/ https://docs.multisafepay.com/payment-methods/banks/request-to-pay/
+Redirect 301 /payment-methods/banks/direct-bank-transfer/#how-does-it-work https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#how-does-it-work
+Redirect 301 /payment-methods/banks/direct-bank-transfer/#transaction-flow https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#transaction-flow
+Redirect 301 /payment-methods/banks/direct-bank-transfer/#refund-flow https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#refund-flow
+Redirect 301 /payment-methods/banks/direct-bank-transfer/#product-rules https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#product-rules
+Redirect 301 /payment-methods/banks/direct-bank-transfer/#activate https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#activate
+Redirect 301 /payment-methods/banks/direct-bank-transfer/#request-refund https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#request-refund
+Redirect 301 /api/#direct-bank-transfer https://docs.multisafepay.com/api/#request-to-pay
+
+
+
+
+
+
+
 
 Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrappers/
 Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/

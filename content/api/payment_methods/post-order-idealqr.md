@@ -1,6 +1,6 @@
 ---
 weight: 315
-meta_title: "API - Create an iDEAL QR order - Developers MultiSafepay"
+meta_title: "API - Create an iDEAL QR order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -50,7 +50,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## iDEAL QR
 
-Creates a iDEAL QR [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a iDEAL QR [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 _Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is currently not available._
 
@@ -96,7 +96,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -132,6 +132,6 @@ __max_amount__ | string
 
 ---------------- 
 
-Read more about [iDEAL QR](/payment-methods/banks/idealqr/) on our documentation page.
+Read more about [iDEAL QR](/payment-methods/banks/idealqr) on our documentation page.
 
 {{< /description >}}

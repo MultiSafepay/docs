@@ -1,7 +1,7 @@
 ---
 title: "Bank transfer, How does it work?"
 weight: 21
-meta_title: "Bank transfer, how does it work? - MultiSafepay Support"
+meta_title: "Bank transfer, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 ## How does it work?
@@ -45,7 +45,7 @@ The full API reference for bank transfers can be found [here](/api/#bank-transfe
 ### Product rules
 Some rules may apply to certain payment methods. For bank transfer, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with bank transfers. More information available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with bank transfers. More information available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful bank transfer transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
@@ -53,13 +53,13 @@ Some rules may apply to certain payment methods. For bank transfer, the followin
  
 However, the payment link that is provided in the Bank transfer email to the customer can be adjusted by setting a days_active_ or seconds_active. Bank transfer transactions are active for 60 days. By default, payment links expires after 30 days. 
 
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page<br>
 
 * If you would like to make changes in the validation of bank transfers, check whether this is possible in your ecommerce platform
 
 * In order to provide your customer with a local bank account from MultiSafepay (where available), please add the appropriate [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code in the transaction request (i.e. "country": "DE",)
 
-* Payments done through bank transfers can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
+* Payments done through bank transfers can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay):
 
      * Euros (EUR)
      * Pounds (GBP)

@@ -1,7 +1,7 @@
 ---
 title: "Planyo"
 weight: 20
-meta_title: "Planyo - MultiSafepay Support"
+meta_title: "Planyo - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/Planyo.svg'
 layout: 'single'
@@ -24,5 +24,5 @@ To set up a connection with MultiSafepay:
 
 1. Go to _Site settings_ -> _Online payments_
 2. Choose _MultiSafepay_
-3. Enter your [MultiSafepay account ID / Site ID / Site Security Code](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key/)
+3. Enter your [MultiSafepay account ID / Site ID / Site Security Code](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key)
 4. Once done, test the reservation as a customer. 

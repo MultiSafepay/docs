@@ -1,7 +1,7 @@
 ---
 title: 'What is a chargeback?'
 weight: 11
-meta_title: "Credit cards, what is a chargeback? - MultiSafepay Support"
+meta_title: "Credit cards, what is a chargeback? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -28,7 +28,7 @@ The full documentation on how to upload the files via an API request can be acce
 
 The MultiSafepay chargeback team will decide on whether the chargeback can be challenged, based on the quality of the delivered proof.
 
-The chargeback will be shown in a separate transaction connected to the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/) However, The required documentation to challenge the chargeback needs to be uploaded in the original transaction.
+The chargeback will be shown in a separate transaction connected to the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) However, The required documentation to challenge the chargeback needs to be uploaded in the original transaction.
 
 _Please note: the card scheme will make the final decision_.
 
@@ -47,7 +47,7 @@ The most common chargeback reasons are fraud, non-delivery of goods or goods not
 
 There are several actions that can be taken to minimize the risk for chargebacks. This starts with good customer service.
 
-Fraud-related chargebacks can be avoided altogether by using [3D Secure](/faq/risk-and-fraud/what-is-3d-secure/), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D secure.
+Fraud-related chargebacks can be avoided altogether by using [3D Secure](/faq/risk-and-fraud/what-is-3d-secure), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D secure.
 
 >It is still possible to receive a chargeback due to non-delivery and goods not as described.
 These two reasons are well within your own control.

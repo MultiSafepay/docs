@@ -1,6 +1,6 @@
 ---
 weight: 308
-meta_title: "API - Create Belfius order - Developers MultiSafepay"
+meta_title: "API - Create Belfius order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -79,14 +79,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
             "locale": "be_BE",
             "first_name": "Testperson-nl",
             "address1": "Kraanspoor",
-            "address2": null,
-            "house_number": "39",
-            "zip_code": "1033 SC"
+            "house_number": "39C",
+            "zip_code": "1033SC"
             "city": "Amsterdam",
             "country": "NL";,
             "country_name": "Netherlands",
             "phone1": "0208500500",
-            "email": "",
+            "email": "example@multisafepay.com",
 },
         "payment_details": {
             "recurring_id": null,
@@ -120,7 +119,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Belfius
 ### Redirect - Belfius 
 
-Creates a Belfius [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Belfius [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -169,7 +168,7 @@ __customer__ | object
 
 ### Direct - Belfius
 
-Creates a Belfius [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Belfius [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -213,7 +212,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -227,6 +226,6 @@ Customer will be redirected to this page after a failed payment.
 
 ----------------
 
-Read more about [Belfius](/payment-methods/banks/belfius/) on our documentation page.
+Read more about [Belfius](/payment-methods/banks/belfius) on our documentation page.
 
 {{< /description >}}

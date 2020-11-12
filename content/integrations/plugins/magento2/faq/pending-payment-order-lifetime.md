@@ -1,7 +1,7 @@
 ---
 title: "Pending payment order lifetime"
 weight:
-meta_title: "Magento 2 plugin FAQ - Order Lifetime - MultiSafepay Support"
+meta_title: "Magento 2 plugin FAQ - Order Lifetime - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
@@ -13,7 +13,7 @@ When you offer payment methods whose validation period is more than 8 hours, the
 
 In use with an ERP system, for example, where an order is marked as declined, a successful payment will often not be processed to an order that is marked as cancelled.
 
-The lifetime of a [bank transfer](/payment-methods/bank-transfer/how-does-bank-transfer-work/) is 86400 minutes (60 days)
+The lifetime of a [bank transfer](/payment-methods/bank-transfer/how-does-bank-transfer-work) is 86400 minutes (60 days)
 
 The order will set to _cancelled_ in Magento 2 before a payment can be linked.
 

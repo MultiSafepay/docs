@@ -1,7 +1,7 @@
 ---
 title: "How to refund an American Express transaction"
 weight: 23
-meta_title: "American Express, how to refund a transaction - MultiSafepay Support"
+meta_title: "American Express, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -17,7 +17,7 @@ Please follow these steps:
 5. Fill in the amount that you are going to refund to the customer
 6. _Confirm_.
 
-Refunding more than the stated amount of the original transaction is NOT possible with American Express. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+Refunding more than the stated amount of the original transaction is NOT possible with American Express. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day.
 

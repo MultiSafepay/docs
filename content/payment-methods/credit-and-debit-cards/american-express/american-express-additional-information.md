@@ -1,12 +1,12 @@
 ---
 title: "American Express"
 weight: 25
-meta_title: "American Express - MultiSafepay Support"
+meta_title: "American Express - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ### American Express, additional information 
-> American Express is protected by its own branded 3D secure, the American Express Safekey. All transactions processed via this payment method are verified through the Safekey, except transactions lower than 30 EUR. This rule can be configured via the [3D Dynamic tool](/tools/server2server/3d-dynamics/)
+> American Express is protected by its own branded 3D secure, the American Express Safekey. All transactions processed via this payment method are verified through the Safekey, except transactions lower than 30 EUR. This rule can be configured via the [3D Dynamic tool](/tools/server2server/3d-dynamics)
 
 > Credit card payments are not fully guaranteed. Customers can withdraw the transaction, due to their customer right protection of the credit card schemes. The accountability​ of accepting credit card payments lies entirely with the merchant.
 

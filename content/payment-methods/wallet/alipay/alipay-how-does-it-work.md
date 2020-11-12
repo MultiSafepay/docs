@@ -1,7 +1,7 @@
 ---
 title: "Alipay, How it works"
 weight: 21
-meta_title: "Alipay, How it works - MultiSafepay Support"
+meta_title: "Alipay, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -52,14 +52,14 @@ Some rules may apply to certain payment methods. For Alipay, the following rules
     Transactions will be unsuccessful if the abovementioned conditions are not met. Therefore, it would be wise to add Alipay to your website only if you intend on targeting Chinese customers with a working Alipay account.
 
 
-* Refunding more than the stated amount of the original transaction is possible with Alipay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with Alipay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Alipay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active.   
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 <br>
 
-* Payments done through Alipay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Alipay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 * Alipay is a Chinese payment method. The currency conversion is processed in Euros (EUR) only.

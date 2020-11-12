@@ -1,6 +1,6 @@
 ---
 weight: 601
-meta_title: "API - customer object - Developers MultiSafepay"
+meta_title: "API - customer object - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -94,7 +94,7 @@ Displays the correct language and payment methods on the payment page. It also h
 
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)       
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)       
 
 ----------------
 
@@ -104,7 +104,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                 
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)                                 
 
 ----------------
 

@@ -1,14 +1,14 @@
 ---
 title: "How to refund a ING Home'Pay transaction"
 weight: 23
-meta_title: "ING Home'Pay, how to refund a transaction - MultiSafepay Support"
+meta_title: "ING Home'Pay, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## Request refund
 Please follow these steps to refund a ING Home'Pay transaction:
 
-1. Select _transaction -> transaction overview in your [MultiSafepay Control](https://merchant.multisafepay.com/)_
+1. Select _transaction -> transaction overview in your [MultiSafepay Control](https://merchant.multisafepay.com)_
 2. Find the transaction through search
 3. Open transaction
 4. Select _refund_

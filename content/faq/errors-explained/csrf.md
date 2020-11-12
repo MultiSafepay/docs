@@ -1,7 +1,7 @@
 ---
 title: 'CSRF'
 weight: 10
-meta_title: "FAQ CSRF - MultiSafepay Support"
+meta_title: "FAQ CSRF - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -16,5 +16,5 @@ This can occur when you are having an HTML form through which you send the custo
  
 If you are seeing this issue and are having difficulties resolving this error, do not hesitate to contact us at <integration@multisafepay.com>
 
-For more information, see our full [API Documentation](/api/)
+For more information, see our full [API Documentation](/api)
 

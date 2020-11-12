@@ -1,6 +1,6 @@
 ---
 title : "How does the notification URL work?"
-meta_title: "FAQ API - Notification URL - MultiSafepay Support"
+meta_title: "FAQ API - Notification URL - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -90,4 +90,4 @@ When an OK is not received, MultiSafepay will repeat this notification. The noti
 * Always use **https** in the notification_url
 * A notification URL supplied in your [MultiSafepay Control](https://merchant.multisafepay.com) will be leading. This means that we will use the provided notification URL available in your MultiSafepay Control first 
 * Port numbers should not be included in the notification URL. Our platform only processes standard ports due to security reasons. 
-* Please make sure that our [IP ranges](/faq/general/ip-ranges/) are authorized to reach the notification URL.
+* Please make sure that our [IP ranges](/faq/general/ip-ranges) are authorized to reach the notification URL.

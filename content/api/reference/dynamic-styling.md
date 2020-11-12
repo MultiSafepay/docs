@@ -1,6 +1,6 @@
 ---
 weight: 650
-meta_title: "API - Dynamic Styling - MultiSafepay Support"
+meta_title: "API - Dynamic Styling - MultiSafepay Docs"
 meta_description: The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -120,6 +120,6 @@ Below you can find an explanation of the settings which can be included in the t
 | hide_cc_logos                        | Hides credit card logos                   |                
 | hide_btn_all_methods                     | Hides all methods button               |                 
 
-Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates/) for a payment page.
+Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates) for a payment page.
 
 {{< /description >}}

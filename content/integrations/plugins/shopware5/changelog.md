@@ -1,6 +1,6 @@
 ---
 title : "Release Notes Shopware 5 plugin"
-meta_title: "Shopware 5 plugin changelog - MultiSafepay Documentation Center"
+meta_title: "Shopware 5 plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -9,7 +9,7 @@ Release date: Mar 26th, 2020
 
 ## Added
 + PLGSHPS-189: Add Apple Pay
-+ PLGSHPS-188: Add Direct Bank Transfer
++ PLGSHPS-188: Add Direct Bank Transfer (Request to Pay)
 
 ***
 

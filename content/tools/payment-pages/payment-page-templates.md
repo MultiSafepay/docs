@@ -1,7 +1,7 @@
 ---
 title : "How can I style the payment pages?"
 weight: 42
-meta_title: "Payment pages - Styling Payment pages - MultiSafepay Support"
+meta_title: "Payment pages - Styling payment pages - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -16,7 +16,7 @@ In your [MultiSafepay Control](https://merchant.multisafepay.com), use the edito
 2. Navigate to _Settings / Website Settings_ and select _Website_
 3. Click on the _Template_ button.
 
-In the editor, you can style nearly all elements on the Payment pages. Via the left menu you can change the colour of e.g. the background, the footer, buttons (incl. mouseover) and cart details. For the header, you can choose to pick a logo and use either an image or color for the background.
+In the editor, you can style nearly all elements on the payment pages. Via the left menu you can change the colour of e.g. the background, the footer, buttons (incl. mouseover) and cart details. For the header, you can choose to pick a logo and use either an image or color for the background.
 
 ### 1. Choosing colors
 In the left menu, you will see a color chart when you click on the field of an element. You can also directly use a [Hex color](https://www.w3schools.com/colors/colors_picker.asp) in the input field next to it.
@@ -30,10 +30,10 @@ Whenever you finished a template, you can save it for its corresponding website 
 If you wish to load a template from another website within your account, you can load this via the _Apply style from_ button in the top right corner. Don't forget to save this to the website you are currently editing.
 
 ## Dynamic templates
-For merchants with a custom integration via [MultiSafepay API](/api/), MultiSafepay also offers [dynamic styling of the templates](/tools/payment-pages/dynamic-templates/) This means you can change the look and feel of a payment page per transaction. There are two options to dynamically style the Payment page:
+For merchants with a custom integration via [MultiSafepay API](/api), MultiSafepay also offers [dynamic styling of the templates](/tools/payment-pages/dynamic-templates) This means you can change the look and feel of a payment page per transaction. There are two options to dynamically style the Payment page:
 
 1. Load a saved template via object _template_id_
 2. Provide _template_ object structure within the transaction request.
 You can still use the editor to generate the object structure for the transaction request. To do this, first generate your template and then switch to the tab </> Api view code. Next to the code you can also find the _template_id_ here.
 
-For more information visit the [API Reference](/api/)
+For more information visit the [API Reference](/api)

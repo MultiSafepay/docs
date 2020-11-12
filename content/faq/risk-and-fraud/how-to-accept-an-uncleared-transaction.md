@@ -1,6 +1,6 @@
 ---
 title : "Accepting uncleared credit card payments, how and why?"
-meta_title: "FAQ General - Accept an uncleared transaction - MultiSafepay Support"
+meta_title: "FAQ General - Accept an uncleared transaction - MultiSafepay Docs"
 meta_description: "You can make an informed decision based on the information provided in the Risk Report.
 We have explained a number of important verification points to minimize the fraud risk when accepting a credit card payment marked with the status uncleared."
 read_more: "."
@@ -25,7 +25,7 @@ The so-called _uncleared_ status can be assigned to any credit card payment. In 
 ## Why should you check the transaction?
 When you accept payments by credit card, there are risks associated with it. The risk of financial damage, for example by fraud, is carried by the merchant; neither MultiSafepay nor the credit card holder are accountable in this case. When the credit card holder discovers a fraudulent payment, they can demand a refund of the payment, even if products ordered have already been delivered. This is called a 'chargeback'.
 
-[Chargeback, what it is](/faq/chargebacks/what-is-a-chargeback/)
+[Chargeback, what it is](/faq/chargebacks/what-is-a-chargeback)
 
 
 ## Reviewing an uncleared payment
@@ -59,7 +59,7 @@ View customer information available in your MultiSafepay Control as well as in y
 ## 3D secure
 3D Secure is an additional security measure intended to reduce fraud. It is an extra step to verify the identity of the actual card holder.
 
-[3D secure, What it is](/faq/general/what-is-3d-secure/)
+[3D secure, What it is](/faq/general/what-is-3d-secure)
 
 
 ## List of statuses
@@ -71,7 +71,7 @@ View customer information available in your MultiSafepay Control as well as in y
 
 
 ## Risk report
-Click on 'View risk report' in your [MultiSafepay Control](https://merchant.multisafepay.com/) for more information about the credit card used for the transaction. Here you will find information about the number of credit cards used via a particular IP address and the amount of credit cards used in combination with a particular email address. Here are some points to consider:
+Click on 'View risk report' in your [MultiSafepay Control](https://merchant.multisafepay.com) for more information about the credit card used for the transaction. Here you will find information about the number of credit cards used via a particular IP address and the amount of credit cards used in combination with a particular email address. Here are some points to consider:
 
 - A fraud score is assigned to uncleared payments. The score indicated the probability of fraud on a scale from 1-10 (10 being the highest score). This does not mean that transactions with score 10 are always fraudulent or that you are not at risk when a low score is assigned; it merely indicates the potential fraud risk (higher or lower).
 - Transactions with a score of 6 and above will be assigned the status _uncleared_ due to increased fraud risk. That does not mean that there is no risk of fraud when transactions do not have an _uncleared_ status. For transactions with a score of 6 to 8, you can choose to accept or cancel the payment yourself in MultiSafepay Control. MultiSafepay is not responsible, nor liable for any risks pertaining the acceptance of payments.

@@ -1,7 +1,7 @@
 ---
 title : "How to refund E-Invoicing transaction"
 weight: 23
-meta_title: "E-Invoicing, how to refund a transaction - MultiSafepay Support"
+meta_title: "E-Invoicing, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -56,4 +56,4 @@ For example _-1 -> discount -> amount  -> VAT_
 The discount is added to the transaction.
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information.
+In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information.

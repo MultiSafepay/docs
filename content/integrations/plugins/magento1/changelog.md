@@ -1,16 +1,45 @@
 ---
 title : "Release Notes Magento 1 plugin"
-meta_title: "Magento 1 plugin changelog - MultiSafepay Documentation Center"
+meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 
 ---
+
+## 3.0.0
+Release date: Oct. 21st, 2020
+
+### Added
++ DAVAMS-234: Add in3
++ DAVAMS-262: Add CBC payment method
++ PLGMAGONE-699: Add Good4fun Giftcard
+
+### Fixed
++ PLGMAGONE-678: Fix bug in calculating correct price and tax for Fooman surcharge
++ PLGMAGONE-671: Fix maximum nesting level error with Idev OneStepCheckout
++ PLGMAGONE-668: Fix non working days/seconds_active for backend orders
+
+### Changed
++ PLGMAGONE-634: Switch from XML API to JSON API (Only API key is needed)
++ PLGMAGONE-472: Set order to status shipped for all payment methods
++ PLGMAGONE-674: Always set redirect_url
++ DAVAMS-28: Rebrand Santander Betaalplan to Pay per Month
++ DAVAMS-295: Rebrand Direct Bank Transfer to Request to Pay
++ DAVAMS-308: Rebrand Klarna to Klarna - buy now, pay later
++ Update payment method names
+  + KBC
+  + ING Home'Pay
+  + Credit card
+  + Pay After Delivery
+  + E-Invoicing
+
+***  
 
 ## 2.6.0
 Release date: Apr. 2nd, 2020
 
 ### Added
 + PLGMAGONE-617: Add Apple Pay
-+ PLGMAGONE-656: Add Direct Bank Transfer
++ PLGMAGONE-656: Add Direct Bank Transfer (Request to Pay)
 + PLGMAGONE-485: Add support for Fooman Surcharge
 + PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
 
@@ -72,7 +101,7 @@ Release date: Jun. 15th, 2018
 Release date: May. 25th, 2018
 
 ### Added
-+ PLGMAGONE-378: Add support for Santander Betaalplan
++ PLGMAGONE-378: Add support for Santander Betaal per Maand
 + PLGMAGONE-379: Add support for Afterpay
 + PLGMAGONE-380: Add support for Trustly
 + PLGMAGONE-381: Add Moneyou iDEAL issuer logo
@@ -354,7 +383,7 @@ Release date: Aug 20th, 2015
 ### Fixes
 + Fixed Store name from order is used for manual paylink, not the admin site.
 + Fixed some undefined fields causing a Notice error when PHP use a STRICT error logging.
-+ Fixed success URL for direct Bank transfer.
++ Fixed success URL for Direct Bank transfer (Request to Pay).
 + Fixed some issues with the customer groups selected in the configuration of the gateways.
 + Fixed prices including tax (Solved error 1027).
 + Fixed some encoding issue.

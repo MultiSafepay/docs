@@ -1,6 +1,6 @@
 ---
 title : "What do I need to know about credit card payments?"
-meta_title: "FAQ Risk and fraud - Credit card payments - MultiSafepay Support"
+meta_title: "FAQ Risk and fraud - Credit card payments - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -22,15 +22,15 @@ To activate the payment methods Visa and Mastercard we would like to receive the
 When approved by our Risk Team, the payment methods Visa and Mastercard will be enabled for your MultiSafepay Control.
 
 ## Security
-Payment service providers and businesses handling credit card data must abide by the PCI Data Security Standards. These standards are designed to protect customers and merchants by requiring the use of extensive security protocols and data management practices. MultiSafepay is PCI compliant and merchants can use MultiSafepay Payment pages to accept credit card payments without being PCI compliant themselves.
+Payment service providers and businesses handling credit card data must abide by the PCI Data Security Standards. These standards are designed to protect customers and merchants by requiring the use of extensive security protocols and data management practices. MultiSafepay is PCI compliant and merchants can use MultiSafepay payment pages to accept credit card payments without being PCI compliant themselves.
 
 ## Chargebacks
 Customers using credit card as payment method have the right to initiate a chargeback. A chargeback is a forcibly initiated reversal of funds.
 
-Additional information is available on our FAQ page, [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback/)
+Additional information is available on our FAQ page, [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback)
 
 ## 3D Secure
-For detailed information about [3D Secure](/faq/general/what-is-3d-secure/) please read the corresponding support page.
+For detailed information about [3D Secure](/faq/general/what-is-3d-secure) please read the corresponding support page.
 
 ## Mandatory 
 Some rules may apply to certain payment methods. These rules are mandatory when processing credit card transactions.

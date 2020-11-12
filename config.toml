@@ -59,8 +59,32 @@ name = "Shell"
     weight = 40
 
 [[menu.main]]
+    name = "Accounting and Bookkeeping"
+    url  = "/integrations/accounting-and-bookkeeping"
+    parent = "integrations"
+    weight = 60
+
+[[menu.main]]
+    name = "Cash Register Software"
+    url  = "/integrations/cash-register-software"
+    parent = "integrations"
+    weight = 60
+
+[[menu.main]]
     name = "Community"
     url  = "/integrations/community"
+    parent = "integrations"
+    weight = 50
+
+[[menu.main]]
+    name = "Credit & Subscription Management"
+    url  = "/integrations/credit-and-subscription-management"
+    parent = "integrations"
+    weight = 50
+
+[[menu.main]]
+    name = "Reservation Management"
+    url  = "/integrations/reservation-management/"
     parent = "integrations"
     weight = 50
 
@@ -71,7 +95,7 @@ name = "Shell"
     weight = 30
 
 [[menu.main]]
-    name = "Payment Methods"
+    name = "Payment methods"
     url  = "/payment-methods/"
     pre = "fa fa-credit-card fa-lg"
     weight = 40

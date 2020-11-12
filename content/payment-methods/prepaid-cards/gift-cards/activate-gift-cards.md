@@ -1,7 +1,7 @@
 ---
 title : "How to activate gift cards as a payment method"
 weight: 22
-meta_title: "How to activate gift cards - MultiSafepay Support"
+meta_title: "How to activate gift cards - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -9,12 +9,11 @@ read_more: '.'
 MultiSafepay supports a wide range of gift cards.
 With gift cards, merchants can either accept gift card payments of established gift card issuers or support their own personalized gift card.
 
-MultiSafepay offers 4 gift card connections:
+MultiSafepay offers 3 gift card connections:
 
 * [Intersolve](https://intersolve.nl/contact)
 * [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
 * [123TCS](https://www.123tcs.com/#Contact)
-* [Givacard](https://www.givacard.nl/)
 
 The majority of the gift cards are issued by Intersolve.
 
@@ -39,4 +38,3 @@ The gift card issuer will process the connection with one of the issuers shown b
 * [Intersolve](https://intersolve.nl/contact)
 * [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
 * [123TCS](https://www.123tcs.com/#Contact)
-* [Givacard](https://www.givacard.nl/)

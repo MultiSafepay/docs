@@ -1,7 +1,7 @@
 ---
 title : "How does it work?"
 weight: 21
-meta_title: "How does it work? - MultiSafepay Support"
+meta_title: "How does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -48,10 +48,10 @@ The full API reference for iDEAL QR can be found [here](/api/#ideal-qr)
 ### Product rules
 Some rules may apply to certain payment methods. For iDEAL QR, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with iDEAL QR. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with iDEAL QR. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful iDEAL transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 * If you would like to test iDEAL QR, please note that this will only work in a _Live_ environment. The _Testing_ environment is currently __not__ available.

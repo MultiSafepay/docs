@@ -1,15 +1,15 @@
 ---
 title : "Klarna, How it works"
 weight: 21
-meta_title: "Klarna, How it works - MultiSafepay Support"
+meta_title: "Klarna, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # How it works
 ## Integration
-Before integration can start, every merchant needs to sign an additional independent agreement with Klarna, where pricing is agreed upon and where the merchant is given a Klarna Merchant Number (EID) and a Shared Secret (Password). These credentials should be sent to MultiSafepay in order for us to be able to configure the Klarna Gateway within your MultiSafepay Control account. MultiSafepay will give all the necessary support during this process and when it is possible, facilitates the contract.
+Before integration can start, every merchant needs to sign an additional independent agreement with Klarna, where pricing is agreed upon. Klarna will make webshop(s) available in the partner portal of MultiSafepay, so credentials can be generated. These credentials are used to configure the Klarna gateway within your MultiSafepay account. MultiSafepay will give all the necessary support during this process and whenever possible.
 
-Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api/)
+Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api)
 
 ## Activate an order
 When a customer chooses to pay with Klarna, MultiSafepay will create a Klarna transaction marked "Not Shipped". After the order is shipped by the merchant to the customer, the order needs to be activated to start the communication process to the customer. After 14 business days, MultiSafepay will receive the funds from Klarna and will add the amount to your MultiSafepay Control balance.
@@ -23,7 +23,8 @@ For every transaction, a reservation number and an invoice number will be genera
 
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
-All questions related to Klarna orders and transactions should be communicated directly to Klarna via <merchant@klarna.com>
+All consumer related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service/)
+If you are a merchant, please contact <integration@multisafepay.com>
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -43,7 +44,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed  | Uncleared  | A successful Klarna transaction has been placed. The order is awaiting shipment. A payment has not yet been received by Klarna.   |
 | Shipped    | Uncleared  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
 | Shipped    | Completed  | Payout of a Klarna transaction has been received and added to your MultiSafepay Control balance.|
-| Declined   | Declined   | Transaction has been rejected by Klarna. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com/), the reason of rejection is shown.     |
+| Declined   | Declined   | Transaction has been rejected by Klarna. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
 | Expired    | Expired    | When no action is being taken when receiving a transaction with the payment method Klarna, the transaction will automatically expire. | 
 
@@ -66,19 +67,22 @@ After 14 business days, MultiSafepay will receive funds from Klarna and make the
 ## Customisation of invoices
 Klarna enables all merchants to customise all invoices sent to your customers. In order to make changes to their styling and layout, you need to log in to your Klarna Merchant Account. All questions related to this topic should be referred directly to Klarna.
 
+## Delivery address
+Klarna prohibits the use of a separate delivery or pick-up address. The delivery and invoice address must be the same, in this case a PajkeGemak pick-up location from PostNL cannot be used.
+
 ## Product rules
 Some rules may apply to certain payment methods. For Klarna, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible with Klarna. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page.
+* Refunding more than the stated amount of the original transaction is not possible with Klarna. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page.
 
 * Successful Klarna transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund.
 
-* As a post-payment method, Klarna has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+* As a post-payment method, Klarna has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
-* Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-*  Klarna is currently offered in offered in Austria, Germany and the Netherlands
+*  Klarna is currently offered in Austria, Germany, Belgium, Finland and the Netherlands
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.

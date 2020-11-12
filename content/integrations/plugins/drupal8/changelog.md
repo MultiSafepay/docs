@@ -1,6 +1,6 @@
 ---
 title : "Release Notes Drupal 8 plugin"
-meta_title: "Drupal 8 plugin changelog - MultiSafepay Documentation Center"
+meta_title: "Drupal 8 plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -9,7 +9,7 @@ Release date: Apr 1st, 2020
 
 ### Added
 + PLGDC8-31: Add Apple Pay
-+ PLGDC8-30: Add Direct Bank Transfer
++ PLGDC8-30: Add Direct Bank Transfer (Request to Pay)
 + PLGDC8-28: Add MultiSafepay order data hooks - Issue #3117420 by j3ll3nl
 
 ### Changed

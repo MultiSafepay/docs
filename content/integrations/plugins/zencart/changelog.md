@@ -1,6 +1,6 @@
 ---
 title : "Release Notes ZenCart plugin"
-meta_title: "ZenCart plugin changelog - MultiSafepay Documentation Center"
+meta_title: "ZenCart plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -10,7 +10,7 @@ Release date: Jul 14th, 2020
 ### Added
 + DAVAMS-213: Add track & trace to shipment request
 + PLGZENS-71: Add Apple Pay
-+ PLGZENS-72: Add Direct Bank Transfer
++ PLGZENS-72: Add Direct Bank Transfer (Request to Pay)
 + PLGZENS-44: Add Santander Betaal per Maand
 + PLGZENS-51: Add plugin version to backend
 + PLGZENS-43: Add AfterPay
@@ -40,11 +40,11 @@ Release date: Jul 14th, 2020
 
 ### Removed
 + PLGZENS-31: Remove unused admin folder
-+ PLGZENS-60: Remove giftcards Lief, ParfumNL, Nationale Erotiekbon
++ PLGZENS-60: Remove gift cards Lief, ParfumNL, Nationale Erotiekbon
 + PLGZENS-74: Remove FerBuy
-+ PLGZENS-78: Remove branded giftcards Bloemen Cadeaubon, Brouwmarkt
-+ PLGZENS-78: Remove branded giftcards De Grote Speelgoedwinkel, Jewelstore Giftcard
-+ PLGZENS-78: Remove branded giftcards Kelly Giftcard
++ PLGZENS-78: Remove branded gift cards Bloemen Cadeaubon, Brouwmarkt
++ PLGZENS-78: Remove branded gift cards De Grote Speelgoedwinkel, Jewelstore Giftcard
++ PLGZENS-78: Remove branded gift cards Kelly Giftcard
 
 ***
 

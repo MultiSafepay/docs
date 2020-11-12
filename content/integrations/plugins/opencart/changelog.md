@@ -1,8 +1,84 @@
 ---
 title : "Release Notes OpenCart plugin"
-meta_title: "OpenCart plugin changelog - MultiSafepay Documentation Center"
+meta_title: "OpenCart plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
+
+## 3.3.0
+Release date: October, 13th 2020
+
+### Added
++ PLGOPNS-247: Extend compatibility of the extension for OpenCart v. 2.X
+
+### Changed
++ PLGOPNS-329: Show payment logo in checkout and strip html tags before insert payment method in database
++ PLGOPNS-303: Improve iDEAL issuer selection list
++ PLGOPNS-245: Improve the alignment of payment methods logos in checkout page
+
+
+## 3.2.0
+Release date: September, 17th 2020
+
+### Improvements 
++ DAVAMS-320 : Rebrand 'Klarna' to 'Klarna - Pay later in 14 days' inclusive a new logo
++ PLGOPNS-256: Add a link to documentation in Second Chance field
+
+### Fixed
++ PLGOPNS-295: Add getEventByCode function, which does not exist prior to OC 3.0.1.2
++ PLGOPNS-284: Rename placeholder for 'Lifetime payment link' field to 'Time Active'
+
+
+## 3.1.0
+Release date: September, 14th 2020
+
++ PLGOPNS-246: Add a notification message if PHP version is not supported by the plugin.
++ PLGOPNS-243: Improve fields related with lifetime of the payment link in the settings
++ PLGOPNS-253: Validate the field lifetime of payment link to avoid negative number
++ PLGOPNS-252: Improve description for each payment method on backoffice
+
+## 3.0.0
+Release date: September, 7th 2020
+
+### Improvements 
++ PLGOPNS-133: New opencart rewrite
++ PLGOPNS-176: Migrate XML API to JSON API PHP SDK
++ PLGOPNS-224: Debug option in settings
++ PLGOPNS-149: Make extension installable from OpenCart extension installer tool
++ PLGOPNS-220: Translations for Deutsch, Italian, French, Spanish
++ PLGOPNS-100: Use direct instead of redirect for all payment methods when possible
++ PLGOPNS-140: Send shipped status for all payment methods after shipping
++ PLGOPNS-217: Improve function that return titles
++ PLGOPNS-167: Add support for reward-points
++ PLGOPNS-209: Add support for refunds
++ PLGOPNS-108: Improve information about each field using tooltips in settings page
++ Add support for customer balance
++ Add support for all native order totals extensions
++ Add support for Gift Voucher
++ Add support tu update order status as cancelled or expired from the admin
+
+### Fixed
++ PLGOPNS-226: Tax issue
++ PLGOPNS-212: Fix PHP DocBlock declaration and correct @author property
++ PLGOPNS-120: Fix multi-currency support
++ PLGOPNS-219: Fix admin view settings page to meet the OpenCart guidelines for UI
++ PLGOPNS-143: Improve parsing of locale.
++ PLGOPNS-223: Check restrictions to show logos in checkout according with title lenght and add support for multi language logos
++ PLGOPNS-103: Correct spelling ING Home'Pay
++ PLGOPNS-144: Coupons restricted to specific products failing to calculate totals
++ PLGOPNS-165: Shipping title contains html tags when Sendcloud is used
++ PLGOPNS-151: Correct spelling of gateways
++ Fix Multi Currency
++ Fix support for taxes
++ Fix support for coupons
+
+
+### Removed
++ PLGOPNS-228: Remove payment methods BABYGIFTCARD, EROTIEKBON, FASHION CHEQUE
++ PLGOPNS-225: Reorder the directories to put MultiSafepay.combined.php in the OpenCart library folder
++ PLGOPNS-147: Remove FastCheckout code
++ PLGOPNS-174: Remove unsupported giftcards: Babygiftcard, Lief cadeaucard, Fashion Cheque, 
+
+***
 
 ## 2.3.0
 Release date: April 2nd, 2020
@@ -51,7 +127,7 @@ Release date: June 15th, 2018
 ### Added
 + PLGOPNS-72: Add support for Alipay/ING Home'Pay/Belfius/KBC
 + PLGOPNS-80: Add support for AfterPay
-+ PLGOPNS-78: Add support for Santander Betaalplan
++ PLGOPNS-78: Add support for Santander Betaal per Maand
 + PLGOPNS-79: Add support for Trustly
 + PLGOPNS-73: Add VVV-Cadeaukaart as a gift card
 

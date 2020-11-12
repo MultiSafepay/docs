@@ -1,7 +1,7 @@
 ---
 title: Payment fee / Surcharges
 weight:
-meta_title: "Magento 2 plugin surcharge - MultiSafepay Documentation Center"
+meta_title: "Magento 2 plugin surcharge - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
@@ -17,6 +17,6 @@ Refunding from the Magento 2 backend is disabled when the order has a Fooman Sur
 
 Of course, we do our best to support and assist as best as possible, but we investigate or reproduce on the core of a plugin. Therefore, we do not guarantee a perfect compatibility when installing an external package.
 
-> Please keep in mind that the Payment Services Directive 2, also called PSD2, is now in place and may have implications on your webshop. PSD2 was first released in 2015 by the European Commission. This directive compelled the Member State to effectively intervene and regulate the payment service industry. See how applying payment fees or surcharges for your customers may affect your webshop on our [PSD2 documentation page](/faq/psd2/)
+> Please keep in mind that the Payment Services Directive 2, also called PSD2, is now in place and may have implications on your webshop. PSD2 was first released in 2015 by the European Commission. This directive compelled the Member State to effectively intervene and regulate the payment service industry. See how applying payment fees or surcharges for your customers may affect your webshop on our [PSD2 documentation page](/faq/psd2)
 
 _It may be the case that unwanted 'Custom Order Totals' will appear on the MultiSafepay payment page.  If you wish for this amount to be excluded, there is an option in the backend of our plugin in Magento 2, which can exclude such 'Totals'. This option will however not be required if the plugin or module removes the custom total from the order when it is not being used._   

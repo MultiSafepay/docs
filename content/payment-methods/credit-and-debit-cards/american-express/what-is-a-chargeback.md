@@ -1,7 +1,7 @@
 ---
 title : "What is a chargeback?"
 weight: 28
-meta_title: "What is a chargeback? - MultiSafepay Support"
+meta_title: "What is a chargeback? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -10,5 +10,5 @@ Customers who disagree with or do not recognise a transaction that is charged to
 
 A cardholder can claim a chargeback for a minimum of 180 days after the purchase based on their customer rights given by American Express.
 
-For more information about chargebacks, please visit our [chargeback documentation](/faq/chargebacks/)
+For more information about chargebacks, please visit our [chargeback documentation](/faq/chargebacks)
 

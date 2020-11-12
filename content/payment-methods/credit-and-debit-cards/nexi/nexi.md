@@ -1,6 +1,6 @@
 ---
 title: "Nexi, What it is"
-meta_title: "Nexi, What it is - MultiSafepay Support"
+meta_title: "Nexi, What it is - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -17,9 +17,9 @@ For Nexi to be available as a payment method on the payment page of MultiSafepay
 1. The Visa or Mastercard gateway needs to be enabled
 2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
 
-The [locale](/faq/api/locale/) is leading in this to show the desired payment method Nexi on the payment page of MultiSafepay.
+The [locale](/faq/api/locale) is leading in this to show the desired payment method Nexi on the payment page of MultiSafepay.
 
-Upon adding Nexi as payment method on the checkout page, you can download the Nexi logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
+Upon adding Nexi as payment method on the checkout page, you can download the Nexi logo from MultiSafepay's [collection](/faq/general/payment-method-logo) and upload it to your ecommerce platform. 
 
 ### How to refund a Nexi transaction?
 
@@ -38,3 +38,5 @@ Please follow these steps to refund a Nexi transaction:
 _MultiSafepay does not allow you to refund more than the stated amount of the original transaction. Moreover, no credit card scheme allows refunds of more than the original transaction amount._
 
 > _Please note that credit card payments that are refunded by the merchant to the customer, will be sent to the card issuing bank and its partners within 1 business day by MultiSafepay. Whether or not the refund will be visible to the customer depends on the reports, statements and online tools that are made available by the issuing bank_.
+
+> _Nexi was formerly known as CartaSi._

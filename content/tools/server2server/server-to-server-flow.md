@@ -1,7 +1,7 @@
 ---
 title: "How to process Server to Server credit card payments?"
 weight: 73
-meta_title: "Server to Server flow - MultiSafepay Support"
+meta_title: "Server to Server flow - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -15,13 +15,16 @@ The transaction request type should be "direct".
 "gateway": "CREDITCARD",
 ```
 
-When 3D secure verification is required, the HTML form will be returned and should be rendered.
+When 3D secure verification is required you have two option for handling the verification:
+
+1. the recommended way is to redirect your customer directly to the payment_url that will be returned in the response. 
+2. otherwise you can use the HTML form that will be returned and should be rendered.
 
 ```shell 
-"customer_verification": {
-     "html": "<html>\n<head>\n<title>3D Html form</title>....",
-     "type": "form" 
-}
+    "customer_verification": {
+         "html": "<html>\n<head>\n<title>3D Html form</title>....",
+         "type": "form" 
+    }
 ```
 
 Once the customer has successfully processed the verification step to finalize the payment, the <i>notification_url</i> will notify the ecommerce platform with a completed status. Order details can be called through a GET -/orders/{order_id} . 
@@ -32,7 +35,7 @@ When no 3D verification is required, the transaction status response will be pro
 ```shell 
 
     "success": true,
-    "data": {
+    "data": { }
 ```
 
 ## POST notification

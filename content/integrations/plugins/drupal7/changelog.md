@@ -1,6 +1,6 @@
 ---
 title : "Release Notes Drupal 7 plugin"
-meta_title: "Drupal 7 plugin changelog - MultiSafepay Documentation Center"
+meta_title: "Drupal 7 plugin changelog - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -9,7 +9,7 @@ Release date: Apr 1st, 2020
 
 ### Added
 + PLGDRPC-266: Add Apple Pay
-+ PLGDRPC-264: Add Direct Bank Transfer
++ PLGDRPC-264: Add Direct Bank Transfer (Request to Pay)
 
 ### Changed
 + PLGDRPC-256: Changed Bank transfer from redirect to direct

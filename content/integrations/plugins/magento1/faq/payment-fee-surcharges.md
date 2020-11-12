@@ -1,7 +1,7 @@
 ---
 title: Payment fee / Surcharges
 weight:
-meta_title: "Magento 1 plugin surcharge - MultiSafepay Documentation Center"
+meta_title: "Magento 1 plugin surcharge - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -19,6 +19,6 @@ Follow the steps below to set a surcharge per payment method in the backend of M
 4. Add a surcharge percentage or fixed amount to set-up a fee within the section-> payment fee amount
 5. It is optional to show the added fee with or without VAT in the checkout.
 
-See how applying payment fees or surcharges for your customers may affect your webshop on our [PSD2 documentation](/faq/psd2/) page.
+See how applying payment fees or surcharges for your customers may affect your webshop on our [PSD2 documentation](/faq/psd2) page.
 
 Place a test order to verify whether the fee has been correctly processed.

@@ -1,6 +1,6 @@
 ---
 weight: 327
-meta_title: "API - Create a TrustPay order - Developers MultiSafepay"
+meta_title: "API - Create a TrustPay order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -13,7 +13,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "order_id": "my-order-id-1",
     "currency": "CZK",
     "amount": 1000,
-    "gateway": "",
+    "gateway": "TRUSTPAY",
     "description": "Test Order Description",
     "custom_info": {},
     "payment_options": {
@@ -46,7 +46,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## TrustPay
 
-Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -62,7 +62,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) 
+TRUSTPAY
 
 ----------------
 __order_id__ | integer / string
@@ -90,7 +90,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -117,6 +117,6 @@ Displays the correct language and payment methods on the payment page. It also h
 
 ----------------
 
-Read more about [TrustPay](/payment-methods/banks/trustpay/) on our documentation page.
+Read more about [TrustPay](/payment-methods/banks/trustpay) on our documentation page.
 
 {{< /description >}}

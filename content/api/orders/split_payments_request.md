@@ -1,6 +1,6 @@
 ---
 weight: 240
-meta_title: "API - Split payments - Developers MultiSafepay"
+meta_title: "API - Split payments - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -48,7 +48,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Split Payments
 The split payment tool allows you to split the amount of a transaction over several MultiSafepay Control accounts. [Merchants](/faq/getting-started/glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
 
-Read more about [split payments](/tools/split-payments/) on our documentation page.
+Read more about [split payments](/tools/split-payments) on our documentation page.
 
 **Parameters**
 
@@ -89,7 +89,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __notification_method__ | string

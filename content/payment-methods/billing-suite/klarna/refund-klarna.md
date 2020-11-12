@@ -1,7 +1,7 @@
 ---
 title: "How to refund a Klarna transaction"
 weight: 23
-meta_title: "Klarna, how to refund a transaction - MultiSafepay Support"
+meta_title: "Klarna, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -58,8 +58,8 @@ _**For example, quantity (1) -> discount (item or name) -> amount (as negative)-
 
 The discount is added to the transaction. A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins/) for more information.
+In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins) for more information.
 
 
 
-_Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <webwinkel@klarna.nl> or +31 208082853_
+_Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <verkoop@klarna.com> or +31 208082853_

@@ -1,6 +1,6 @@
 ---
 title: "Postepay, What it is"
-meta_title: "Postepay, What it is - MultiSafepay Support"
+meta_title: "Postepay, What it is - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -18,9 +18,9 @@ The payment method Postepay is shown as a payment option on the payment page of 
 1. The Visa or Mastercard gateway needs to be enabled
 2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
 
-The [locale](/faq/api/locale/) is leading in this to show the desired payment method Postepay on the payment page of MultiSafepay.
+The [locale](/faq/api/locale) is leading in this to show the desired payment method Postepay on the payment page of MultiSafepay.
 
-Upon adding Postepay as payment method on the checkout page, you can download the Postepay logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
+Upon adding Postepay as payment method on the checkout page, you can download the Postepay logo from MultiSafepay's [collection](/faq/general/payment-method-logo) and upload it to your ecommerce platform. 
 
 
 ### How to refund a Postepay transaction?

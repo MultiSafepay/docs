@@ -1,6 +1,6 @@
 ---
 weight: 605
-meta_title: "API - Tokenization - Get order details - Developers MultiSafepay"
+meta_title: "API - Tokenization - Get order details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -101,6 +101,6 @@ The unique identifier from your system for the order. If the values are only num
 
 ----------------
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization)
 
 {{< /description >}}

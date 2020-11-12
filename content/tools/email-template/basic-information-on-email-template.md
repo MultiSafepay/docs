@@ -1,7 +1,7 @@
 ---
 title: 'Email template, how does it work'
 weight: 6
-meta_title: "Email Template Basic Info - MultiSafepay Documentation Center"
+meta_title: "Email Template Basic Info - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -32,7 +32,7 @@ This email is intended to inform the merchant that a chargeback has taken place.
 
      When the standard or personalized chargeback email template is set up, it is important to add an email to your account to which the embedded email template can be sent. Place the desired email address under your contact information -> chargeback email in your MultiSafepay Control. One or more email addresses can be added. 
 
-     More information about Chargebacks available in [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback/)
+     More information about Chargebacks available in [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback)
 
 3. **Manual capture reservation completed (to customer)**\
 The reserved amount on the customer's credit card has been manually accepted by the merchant. The customer receives a payment confirmation of the accepted payment by mail. 
@@ -59,7 +59,7 @@ This email is intended as a friendly reminder to your customer in the event of a
 
     When the standard or personalized Second Chance email template is set up, it is important to enable the Second Chance in your MultiSafepay Control under **_Settings -> Website settings -> select a website -> enable the Second Chance email per website._**
 
-    More information about the Second Chance email available in [Second Chance, How does it work?](/tools/second-chance/how-does-it-work/)
+    More information about the Second Chance email available in [Second Chance, How does it work?](/tools/second-chance/how-does-it-work)
 
 9. **Transaction completed email (to customer)**\
 This email is sent to the customer upon successful completion of a payment. 

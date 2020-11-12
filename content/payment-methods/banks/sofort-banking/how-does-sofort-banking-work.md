@@ -1,7 +1,7 @@
 ---
 title: "SOFORT Banking, How does it work?"
 weight: 21
-meta_title: "SOFORT Banking, how does it work? - MultiSafepay Support"
+meta_title: "SOFORT Banking, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -31,7 +31,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed   | Completed   | A successful SOFORT Banking transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Declined    | Declined    | Transaction has been rejected   | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
-| Uncleared     | Uncleared     | Payment has not yet been received by MultiSafepay. The Uncleared status may take up to 3 business days to be cleared. __Do not ship items during this period. MultiSafepay will not take any responsibility for this.__  | 
+| Uncleared     | Uncleared     | Payment has not yet been received by MultiSafepay. The Uncleared status may take up to 3 business days to be cleared. This applies for all payments regardless of the amount. __Do not ship items during this period. MultiSafepay will not take any responsibility for this.__  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
@@ -47,11 +47,11 @@ The full API reference for SOFORT Banking can be found [here](/api/#sofort)
 ### Product Rules
 Some rules may apply to certain payment methods. For SOFORT Banking, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with SOFORT Banking. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with SOFORT Banking. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful SOFORT Banking transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 * Minimum amount for SOFORT transactions must be € 0,10 EUR.
 

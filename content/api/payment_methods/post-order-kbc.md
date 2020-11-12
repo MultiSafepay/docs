@@ -1,6 +1,6 @@
 ---
 weight: 320
-meta_title: "API - Create a KBC order - Developers MultiSafepay"
+meta_title: "API - Create a KBC order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -157,7 +157,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## KBC
 ### Redirect - KBC
 
-Creates a KBC [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a KBC [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -199,7 +199,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------    
 __customer__ | object
@@ -208,11 +208,11 @@ Contains personal information about the customer.
 
 ---------------- 
 
-Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
+Read more about [KBC](/payment-methods/banks/kbc) on our documentation page.
 
 ### Direct - KBC
 
-Creates a KBC [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a KBC [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -253,7 +253,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------    
 __customer__ | object
@@ -264,5 +264,5 @@ Contains personal information about the customer.
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
+Read more about [KBC](/payment-methods/banks/kbc) on our documentation page.
 {{< /description >}}

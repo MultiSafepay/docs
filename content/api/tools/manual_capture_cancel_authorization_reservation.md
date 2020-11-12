@@ -40,5 +40,5 @@ The order status of the manual capture request.
 
 ----------------
 
-Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.
+Read more about [Manual Capture](/tools/manual-capture) on our documentation page.
 {{% /description %}}

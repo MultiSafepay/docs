@@ -1,7 +1,7 @@
 ---
 title : "How to activate PayPal"
 weight: 22
-meta_title: "PayPal, how to activate it - MultiSafepay Support"
+meta_title: "PayPal, how to activate it - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -12,10 +12,12 @@ These instructions are in English. If your PayPal webpage is in another language
 
 ###  Account configuration
 1. Login into https://www.paypal.com with your business account
-2. Navigate to _Toolsv-> All tools -> API credentials_
-3. Click on the leftside of the menu --> _Integrate PayPal_
+2. Click on the gear icon in the upper right corner and select _Account Settings_
+3. Select _Account access_ and click _Update_ behind API access
 4. Click on _Grant API permission_
-5. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_
+5. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_.
+
+{{< alert-notice >}} __Please read:__ If any of these steps are inaccurate, please send an email to: <integration@multisafepay.com> {{< /alert-notice >}} 
 
 The following options can be accessed:
 

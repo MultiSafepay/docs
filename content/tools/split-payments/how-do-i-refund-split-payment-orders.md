@@ -2,7 +2,7 @@
 title : "How to refund a Split Payment transaction?"
 weight: 83
 read_more: '.'
-meta_title: "Split Payment, how to refund a transaction? - MultiSafepay Support"
+meta_title: "Split Payment, how to refund a transaction? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -13,7 +13,7 @@ For example: Account A receives a payment of 80 EUR of which 10 EUR is going to 
 
 Please follow the following steps to refund a split payment transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com/)
+1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _Transactions_ -> _Transaction overview_
 3. Find the transaction through search
 4. Open transaction
@@ -21,6 +21,6 @@ Please follow the following steps to refund a split payment transaction:
 6. Fill in the amount that you want to refund to the customer
 7. _Confirm the refund._
 
-By default, MultiSafepay does not allow you to refund more than the stated amount of the original transaction. However, refunding more than originally received, for example by refunding the return costs incurred by the customer, is now possible in your MultiSafepay Control. More information available on our FAQ section about [refunding more than original amount](/faq/finance/refund-more-than-original-amount/)
+By default, MultiSafepay does not allow you to refund more than the stated amount of the original transaction. However, refunding more than originally received, for example by refunding the return costs incurred by the customer, is now possible in your MultiSafepay Control. More information available on our FAQ section about [refunding more than original amount](/faq/finance/refund-more-than-original-amount)
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day.

@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay Shopware 6 installation & configuration manual"
-meta_title: "Shopware 6 plugin manual - MultiSafepay Documentation Center"
+meta_title: "Shopware 6 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 8. Select _Test_ in the drop-down menu
 9. Look for the field named _API key_ and enter your API key.
 
-{{% account_info %}} 
+Information on where to find your API key can be found on our [API key page](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key).
 
 The other fields can be filled accordingly to your own preferences.
 

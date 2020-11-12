@@ -1,6 +1,6 @@
 ---
 title : "Test Payment Details"
-meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Support"
+meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
@@ -52,7 +52,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 
 | Card number           | Status    | Description              |
 | --------------------- | --------- | ------------------------ |
-| 67034500054610005 | Completed | Transaction is Completed (3D enrolled) |
+| 67034500054620008 | Completed | Transaction is Completed (3D enrolled) |
 | 67034500054610009 | Declined  | Transaction is Declined (card needs to be 3D enrolled) |
 | 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
@@ -116,9 +116,9 @@ MultiSafepay provides a test platform for SEPA Direct Debit transactions. By ent
 | NL87ABNA0000000003 | Initialized/Uncleared/Completed | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Completed) |
 | NL87ABNA0000000004 | Initialized/Uncleared/Declined | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Declined) |
 
-## Direct Bank Transfer
+## Request to Pay
 
-MultiSafepay provides a test platform for Direct Bank Transfer transactions though Deutsche Bank.
+MultiSafepay provides a test platform for Request to Pay transactions though Deutsche Bank.
 You can simulate the following scenarios:  
 
 | Status    | Description              |
@@ -164,6 +164,17 @@ MultiSafepay provides a test platform for Giropay/EPS transactions. During the p
 
 Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
 
+## in3
+
+MultiSafepay provides a test platform for in3 transactions. By entering the following details, you will be able to simulate the outcome of the transaction.
+
+| Status            | Date of birth    | Postal code | House number |
+| ---------------- | ------------------- | ------------------- | ----------------- |
+| Approved             | 01-01-1999 | 1234AB | 1 |
+| Declined              | 01-01-2000 | 1111AB | 1 |
+
+_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and pilot phase of its release._
+
 ## iDEAL
 
 MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
@@ -198,7 +209,9 @@ The payment method KBC can only be processed on our new payment page starting wi
 
 ## Klarna
 
-Klarna provides their own test credentials. For a complete guide, check out [Klarna's documentation](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+Klarna provides their own test credentials. For a complete guide, read more on [Klarna's documentation page](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+
+More information about how you can integrate Klarna with MultiSafepay can be found on our [Klarna documentation page](https://docs.multisafepay.com/payment-methods/billing-suite/klarna)
 
 ## Maestro
 
@@ -254,14 +267,14 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
 
 
-## Santander Betaalplan
+## Santander Betaal per Maand
 
 Currently no test data available for the payment method Santander.
 
-When activating Santander Betaalplan as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+When activating Santander Betaal per Maand as payment method in a live MultiSafepay Control, the payment method will be tested before release.
 
 ## SOFORT Banking
 

@@ -1,7 +1,7 @@
 ---
 title: "How can I sign up new affiliates?"
 weight: 71
-meta_title: "How can I sign up new affiliates? - MultiSafepay Support"
+meta_title: "How can I sign up new affiliates? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -25,4 +25,4 @@ The Affiliate dashboard presents and overview of affiliates that are signed up t
 * Actions
 * Screening status
 
-Before a affiliate becomes approved, they will have to undergo a screening from MultiSafepay. More information about this can be read on our [documentation]( https://docs.multisafepay.com/faq/getting-started/account-approval/) page.
+Before a affiliate becomes approved, they will have to undergo a screening from MultiSafepay. More information about this can be read on our [documentation]( https://docs.multisafepay.com/faq/getting-started/account-approval) page.

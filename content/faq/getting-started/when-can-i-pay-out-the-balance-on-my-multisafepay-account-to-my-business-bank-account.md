@@ -1,6 +1,6 @@
 ---
 title : "When can I pay out the balance on my MultiSafepay Control to my business bank account?"
-meta_title: "FAQ Getting Started - Pay out funds - MultiSafepay Support"
+meta_title: "FAQ Getting Started - Pay out funds - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---

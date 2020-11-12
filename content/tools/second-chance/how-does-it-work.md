@@ -1,7 +1,7 @@
 ---
 title: "Second Chance, How it works"
 weight: 61
-meta_title: "Second Chance, How it works - MultiSafepay Support"
+meta_title: "Second Chance, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -16,24 +16,23 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The Second Chance email cannot be activated and/or sent to the customer when the transaction status of the original transaction states:
 
-* _Pending_
 * _Uncleared_
 * _Completed_.
 
 **Excluded payment methods**      
 Certain payments methods have a different flow and, as a result, the Second Chance email cannot be activated and/or sent to the customers. Below, you can find a list of all the exceptions:
 
-* [Klarna](/payment-methods/klarna/)
-* [AfterPay](/payment-methods/afterpay/)
-* [Betaalplan](/payment-methods/betaalplan/)
-* [Pay After Delivery](/payment-methods/pay-after-delivery/)
-* [Bank transfer](/payment-methods/bank-transfer/)
-* [Direct Debit](/payment-methods/direct-debit/)
+* [Klarna](/payment-methods/klarna)
+* [AfterPay](/payment-methods/afterpay)
+* [Betaal per Maand](/payment-methods/betaalpermaand)
+* [Pay After Delivery](/payment-methods/pay-after-delivery)
+* [Bank transfer](/payment-methods/bank-transfer)
+* [Direct Debit](/payment-methods/direct-debit)
 
 ## Altering the Second Chance configuration
 At the moment you can not change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
 
-The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail/)
+The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail)
 
 
 ### External plugins 
@@ -59,6 +58,6 @@ When the seconds_active is set within 84600 seconds (equivalent of 24 hours), th
 
 **When a payment link is set to expire within 24 hours and the Second Chance is enabled, the customer will receive an expired payment link in the Second Chance email.** 
 
-More information on _days_\__active_ and _second_\__active_ is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+More information on _days_\__active_ and _second_\__active_ is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link)
 
 

@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay app for Lightspeed"
-meta_title: "Lightspeed plugin integration - MultiSafepay Documentation Center"
+meta_title: "Lightspeed plugin integration - MultiSafepay Docs"
 manual: "."
 faq: "."
 layout: 'single'

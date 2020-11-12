@@ -1,6 +1,6 @@
 ---
 weight: 316
-meta_title: "API - Create an iDEAL order - Developers MultiSafepay"
+meta_title: "API - Create an iDEAL order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -141,7 +141,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## iDEAL
 ### Redirect - iDEAL
 
-Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
@@ -169,7 +169,7 @@ The unique identifier from your system for the order. If the values are only num
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+Has to be EUR.
 
 ----------------
 __amount__ | integer
@@ -187,7 +187,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __redirect_url__ | string
@@ -210,7 +210,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------    
 
 ### Direct - iDEAL
-Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 
@@ -236,7 +236,7 @@ The unique identifier of the [issuer](#gateway-issuers)
 
 ----------------
 
-Read more about [iDEAL](/payment-methods/banks/ideal/) on our documentation page.
+Read more about [iDEAL](/payment-methods/banks/ideal) on our documentation page.
 
 {{< /description >}}
 

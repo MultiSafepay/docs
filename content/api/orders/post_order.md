@@ -1,6 +1,6 @@
 ---
 weight: 210
-meta_title: "API - Create a Redirect order - Developers MultiSafepay"
+meta_title: "API - Create a Redirect order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -104,12 +104,12 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __google_analytics__ | object
 
-Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Read more about Google Analytics on the [FAQ page](/faq/api/google-analytics-tracking/)
+Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Read more about Google Analytics on the [FAQ page](/faq/api/google-analytics-tracking)
 
 ----------------
 __account__ | string
@@ -139,7 +139,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------
 __ip_address__ | object
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/)
+The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address)
 
 ----------------
 __first_name__ | string

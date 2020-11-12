@@ -1,7 +1,7 @@
 ---
 title: "How does iDeal work?"
 weight: 21
-meta_title: "iDEAL, how does it work? - MultiSafepay Support"
+meta_title: "iDEAL, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -32,7 +32,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Initialized    | Initialized | A refund has been requested. | 
+| Initialized/Reserved	    | Initialized/Reserved	 | A refund has been requested. The status will be first 'Initialized', soon after, it will be 'Reserved'. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 The full API reference for iDEAL can be found [here](/api/#ideal)
@@ -42,7 +42,7 @@ Some rules may apply to certain payment methods. For iDEAL, the following rules 
 
 * Successful iDEAL transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
-* Payments done through iDEAL are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through iDEAL are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 

@@ -1,7 +1,7 @@
 ---
 title : "How to refund a Pay After Delivery transaction"
 Weight: 23
-meta_title: "Pay After Delivery, how to refund a transaction - MultiSafepay Support"
+meta_title: "Pay After Delivery, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -62,5 +62,5 @@ This way you credit the invoice to a zero amount and the customer will no longer
 8. The funds will be deducted from your MultiSafepay balance
 9. The invoice has been settled
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information.
+In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information.
 

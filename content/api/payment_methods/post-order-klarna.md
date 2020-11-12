@@ -1,6 +1,6 @@
 ---
 weight: 318
-meta_title: "API - Create a Klarna order - Developers MultiSafepay"
+meta_title: "API - Create a Klarna order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -157,7 +157,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Klarna
 ### Redirect - Klarna
-Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
+Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Klarna is available as both a direct and redirect request. 
 However, Klarna Payments (the new environment of Klarna) is only available as a redirect request. The direct request is no longer supported by Klarna Payments. 
@@ -165,6 +165,8 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 * Direct transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
+
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
 
 **Parameters**
 
@@ -201,7 +203,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -244,27 +246,29 @@ The gender of the customer. (Required for Klarna, optional for Pay After Deliver
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
 
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------    
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Klarna](/payment-methods/billing-suite/klarna/) on our documentation page.
+Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
 
 ### Redirect - Klarna Payments
-Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
+Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
 
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
+
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
 
 
 **Parameters**
@@ -302,7 +306,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __customer__ | object
@@ -340,17 +344,17 @@ The email address to which the system can send payment instructions to the custo
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
 
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------    
 
 Please note that _first_name_ and _last_name<_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Klarna](/payment-methods/billing-suite/klarna/) on our documentation page.
+Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
 
 {{< /description >}}

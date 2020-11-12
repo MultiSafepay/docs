@@ -1,6 +1,6 @@
 ---
 weight: 313
-meta_title: "API - Create EPS order - Developers MultiSafepay"
+meta_title: "API - Create EPS order - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -43,7 +43,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## EPS
 
-Creates an EPS [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates an EPS [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -91,5 +91,5 @@ Contains the personal information of the customer. _Values for first_name and la
 
 ----------------
 
-Read more about [EPS](/payment-methods/banks/eps/) on our documentation page.
+Read more about [EPS](/payment-methods/banks/eps) on our documentation page.
 {{< /description >}}

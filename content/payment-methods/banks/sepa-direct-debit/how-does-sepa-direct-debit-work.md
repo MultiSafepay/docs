@@ -1,7 +1,7 @@
 ---
 title: "SEPA Direct Debit, How does it work?"
 weight: 21
-meta_title: "SEPA Direct Debit, how does it work? - MultiSafepay Support"
+meta_title: "SEPA Direct Debit, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -19,7 +19,7 @@ The number of days that a SEPA Direct Debit has a transaction status _uncleared_
 
 For amounts smaller than 500 euro, clearing will take 7 business days.
 
-Fpr amounts larger than 500 euro, clearing will take 20 business days.
+For amounts larger than 500 euro, clearing will take 20 business days.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -64,15 +64,15 @@ A SEPA Direct Debit payment is not fully guaranteed. The customer has 56 days to
 ### Product rules
 Some rules may apply to certain payment methods. For SEPA Direct Debit, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is not possible with SEPA Direct Debit. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is not possible with SEPA Direct Debit. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful SEPA Direct Debit transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * As a collection payment method, SEPA Direct Debit has a different payment flow and the setting of days or seconds active will have no influence. 
 
        
-Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
+Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.<br>
 
-* Payments done through SEPA Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through SEPA Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 

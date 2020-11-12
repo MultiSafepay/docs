@@ -1,7 +1,7 @@
 ---
 title: "Paysafecard, How it works"
 weight: 21
-meta_title: "Paysafecard, How it works - MultiSafepay Support"
+meta_title: "Paysafecard, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
@@ -37,11 +37,11 @@ The transaction status indicates the payment status of the transaction, such as 
 ### Product rules
 Some rules may apply to certain payment methods. For Paysafecard, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is possible with Paysafecard. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is possible with Paysafecard. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Paysafecard transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* Payments done through Paysafecard can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
+* Payments done through Paysafecard can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay):
 
     * Euros (EUR)
     * Pounds (GBP)
