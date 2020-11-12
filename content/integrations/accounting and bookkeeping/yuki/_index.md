@@ -26,7 +26,7 @@ Yuki supports one export format:
 If you would like to import a MultiSafepay Accountant Export, we would like to kindly ask you to follow these set of instructions:
 
 1. Log into your Yuki domain which ends with @yukiworks.be and navigate to _Yuki Postbus_
-2. Go to your _Yuki mailbox_
+2. Navigate to _Yuki Upload_
 3. Click upload and choose the MT940 file you wish to use or choose one of the other methods.
 
 Do you require further assistance? Read more about the [instructions](https://support.yuki.be/nl/support/solutions/articles/11000063683-documenten-uploaden) on the website of Yuki.
