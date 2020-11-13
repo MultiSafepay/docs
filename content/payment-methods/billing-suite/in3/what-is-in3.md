@@ -8,5 +8,3 @@ read_more: '.'
 # What it is
 
 With in3, you can allow consumers to pay for their purchases 'in 3' individual installments at no extra cost. Consumers using in3 are also not required to be registered at the BKR (Bureau Krediet Registratie).
-
-_Please note, in3 is in the pilot phase. Please contact MultiSafepay at integration@multisafepay.com for more information._

@@ -8,7 +8,7 @@ read_more: '.'
 
 ## Request a refund 
 
-There are 2 ways to refund an in3 transaction in the [MultiSafepay Control](https://merchant.multisafepay.com)
+There are two ways to refund an in3 transaction in the [MultiSafepay Control](https://merchant.multisafepay.com)
 
 In both cases of a refund, an amount will be refunded only if a payment is linked to the transaction. If no payment is linked to the transaction, only a credit on the invoice will take place.
 
