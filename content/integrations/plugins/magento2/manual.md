@@ -34,7 +34,7 @@ Some of the new features include:
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
 - Magento Open Source version 2.2.x & 2.3.x & 2.4.x
-- PHP 7.2+ (PHP 7.3 or higher recommended)
+- PHP 7.1+
 
 ### 3. Modules
 The new MultiSafepay Magento 2 plugin consists of several Magento modules:
