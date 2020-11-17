@@ -4,7 +4,7 @@ meta_title: "Lightspeed plugin - Available payment methods"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 
 ---
-Currenlty we support the following payment methods:
+Currently we support the following payment methods:
 
 + Afterpay
 + Alipay
@@ -31,3 +31,22 @@ Currenlty we support the following payment methods:
 + trustly
 + Visa (including Nexi, Cartes Bancaires & Dankort)
 
+Furthermore, we support th following gift cards:
+
++ Beauty & Wellness
++ Bloemencadeaukaart
++ Boekenbon
++ Degrotespeelgoedwinkel
++ Fashioncheque
++ Fashiongiftcard
++ Fietsenbon
++ Gezondheidsbon
++ Nationale bioscoopbon
++ Nationaletuinbon
++ Parfumcadeaukaart
++ Sportenfit
++ Vuur & rook gift card
++ VVV Cadeaukaart
++ Webshopgiftcard
++ Wijncadeau
++ Yourgift
