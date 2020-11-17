@@ -31,7 +31,7 @@ Currently we support the following payment methods:
 + trustly
 + Visa (including Nexi, Cartes Bancaires & Dankort)
 
-Furthermore, we support th following gift cards:
+Furthermore, we support the following gift cards:
 
 + Beauty & Wellness
 + Bloemencadeaukaart
