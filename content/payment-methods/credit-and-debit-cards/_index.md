@@ -11,7 +11,6 @@ data:
   - { title: 'Visa', url: 'creditcards', logo: '/logo/Payment_methods/VISA.svg' }
   - { title: 'American Express', url: 'creditcards', logo: '/logo/Payment_methods/Amex.svg' }
   - { title: 'Mastercard', url: 'creditcards', logo: '/logo/Payment_methods/Mastercard.svg' }
-  - { title: 'Nexi', url: 'branded-credit-cards/#nexi-what-is-it', logo: '/logo/Payment_methods/Nexi.svg' }
   - { title: 'Carte Bleue', url: 'branded-credit-cards/#carte-bleue-what-is-it', logo: '/logo/Payment_methods/Carte-Bancaire.svg' }
   - { title: 'Postepay', url: 'branded-credit-cards/#postepay-what-is-it', logo: '/logo/Payment_methods/Postepay.svg' }
 aliases:

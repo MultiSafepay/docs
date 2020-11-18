@@ -185,7 +185,6 @@ Redirect 301 /integrations/x-cart/faq/refunding-x-cart/ https://docs.multisafepa
 Redirect 301 /integrations/zencart/faq/refunding-zen-cart/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/refunding-zen-cart/
 Redirect 301 /integrations/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/
 Redirect 301 /integrations/magento1/faq/ship-automatically-in-magento1/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/ship-automatically-in-magento1/
-Redirect 301 /payment-methods/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/nexi-what-is-it/
 Redirect 301 /payment-methods/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/
 Redirect 301 /payment-methods/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
 Redirect 301 /integrations/prestashop-1-6/faq/do-you-support-thirty-bees/ https://docs.multisafepay.com/integrations/plugins/prestashop-1-6/faq/do-you-support-thirty-bees/
@@ -349,8 +348,6 @@ Redirect 301 /payment-methods/mastercard/ https://docs.multisafepay.com/payment-
 Redirect 301 /payment-methods/trustpay/ https://docs.multisafepay.com/payment-methods/banks/trustpay/
 Redirect 301 /payment-methods/visa/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/visa/
 Redirect 301 /tools/tokenization/how-do-i-get-tokenization/ https://docs.multisafepay.com/tools/tokenization/
-Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/nexi/#what-is-nexi
-Redirect 301 /payment-methods/credit-and-debit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/nexi/#what-is-nexi
 Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartes-bancaires/#what-is-cartes-bancaires
 Redirect 301 /payment-methods/credit-and-debit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartes-bancaires/#what-is-cartes-bancaires
 Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
