@@ -8,10 +8,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 Release date: November, 19th 2020
 
 ### Added
-+ PLGOPNS-242: Remove coupons, vouchers, rewards and affiliate commissions in full refunds
-+ PLGOPNS-257: Include in support tab the contact details of international offices
 + SUPD-752:    Add Good4fun Giftcard
-+ PLGOPNS-347: Add support to upgrade the extension from plugin version equals or higher than 2.2.X 
++ PLGOPNS-347: Add support in the upgrade script for plugin version 2.2.X 
++ PLGOPNS-350: Upgrade to 4.0.1 MultiSafepay PHP-SDK
++ PLGOPNS-242: Remove coupons, vouchers, rewards and affiliate commissions used, after full refunds
+
+### Changed
++ PLGOPNS-257: Include in support tab the contact details of international offices
 
 
 ## 3.3.0
