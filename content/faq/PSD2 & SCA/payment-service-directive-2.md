@@ -14,8 +14,6 @@ The directive not only enhances the safety of payments across the European Union
 
 Besides the possibilities for new products and services enabled by the PSD2 (e.g. PISP), another important element of the PSD2 is to better protect customers when paying online.
 
-PSD2 requires more security and mandates Strong Customer Authentication (SCA), which is also known as two-factor authentication (2FA).
+PSD2 requires more security and mandates [Strong Customer Authentication (SCA)](https://docs.multisafepay.com/faq/psd2-sca/strong-customer-authentication/), which is also known as Two-Factor authentication (2FA).
 
 {{< alert-notice >}} Regarding the deadline the EBA (European Bank Authority) has arrived at the decision that migration plans of Payment Service Providers, including the implementation and testing by merchants, should be completed by 31 December 2020. {{< /alert-notice >}}
-
-The Payment Services Directive 2 affects the parties involved in the payment chain and may affect online retailers.
