@@ -14,7 +14,7 @@ As of September 2020, European regulation rules require __Strong Customer Authen
 2.	Something the customer has (e.g. phone)
 3.	Something the customer is (e.g. fingerprint)
 
-If these measures are not taken, banks may be forced to decline transactions that do not implement this type of authentication. The impact of SCA will depend on when your business charges customers. For businesses such as E-commerce stores that charge customers when they are in the checkout flow, customers can simply authenticate while completing a payment for a purchase.
+If these measures are not taken, banks may be forced to decline transactions that do not implement this type of authentication. The impact of SCA will depend on _when_ your business charges customers. For businesses such as e-commerce stores that charge customers when they are in the checkout flow, customers can simply authenticate while completing a payment for a purchase.
 
 A downside to this type of authentication may lead to lower conversion rates for example; hotels, crowd funding campaigns and subscription services who have built their checkout flow to save payment details for future use. In these scenarios, customers may have to re-authenticate purchases being made with a stored card by returning to a website or app.
 
@@ -26,7 +26,7 @@ With the introduction of Strong Customer Authentication (SCA) and Two-factor Aut
 
 ### When will SCA come into effect?
 
-The deadline to be SCA compliant is 01-01-2021 whereby you are expected to have implemented the necessary authentication requirements for your business.
+The deadline to be SCA compliant is __01-01-2021__, whereby you are expected to have implemented the necessary authentication requirements for your business.
 
 ### What transactions and payment methods are affected?
 
@@ -34,9 +34,9 @@ All payment methods will be affected, although for most payment methods, Two-Fac
 
 ### What impact does SCA have on my business?
 
-There will no significant changes or impact to your business. Your configuration within the MultiSafepay Control will remain the same unless you have Server-to-Server enabled. Be rest assured that MultiSafepay will take care of the rest to ensure the process runs smoothly.
+There will be no significant changes or impact to your business. Your configuration within the MultiSafepay Control will remain the same unless you have Server-to-Server enabled. Be rest assured that MultiSafepay will take care of the rest to ensure the process runs smoothly.
 
-Customers may encounter 2FA for payment methods which do not already have it enabled during checkout, therefore an additional step will be required for the customer when completing a payment.
+Customers may encounter 2FA for payment methods which do not already have it enabled during checkout, therefore an additional step will be required for a customer when completing a payment.
 
 ### What are the exemptions?
 

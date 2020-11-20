@@ -8,7 +8,9 @@ read_more: "."
 {{< alert-notice >}} __Please read__: We constantly update the contents of this document. You should expect new information to surface anytime, as specifics about the implementation of the new PSD2 directive are still being worked on. {{< /alert-notice >}}   
 
 ## Surcharges
-Your right to apply surcharges may vary accordingly by the payment method and the customer’s country. Please note that, even though the PSD2 regulation concerns the whole European Economic Area, states can decide individually on certain aspects of the new directive. You should always check what rules are applicable in the country your business is registered. In the Netherlands, the body charged with the PSD2 oversight is the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) According to the Dutch National Bank, you should always contact ACM for inquiries. Moreover, each payment method is likely to implement its own provisions in addition to these regulations.
+Your right to apply surcharges may vary accordingly by the payment method and the customer’s country. Please note that, even though the PSD2 regulation concerns the whole European Economic Area, states can decide individually on certain aspects of the new directive. You should always check what rules are applicable in the country your business is registered. In the Netherlands, the body charged with the PSD2 oversight is the [Authority for Consumers & Markets (ACM)](https://www.acm.nl)
+
+According to the Dutch National Bank, you should always contact ACM for inquiries. Moreover, each payment method is likely to implement its own provisions in addition to these regulations.
 
 ### What is prohibited?
 For the majority of payment transactions, retailers are no longer allowed to charge fees for using specific payment methods. 
@@ -23,9 +25,9 @@ For the majority of payment transactions, retailers are no longer allowed to cha
 ### What is permitted?
 Certain payment methods do not fall under the surcharge prohibition, as follows:
 
-* For PayPal, retailers are only allowed to charge consumers the actual costs incurred by them when using these payment methods and MAY NEVER exceed them
+* For PayPal, retailers are only allowed to charge consumers the actual costs incurred by them when using these payment methods and __may never__ exceed them
 
-* For pay-after-delivery (post-payment) payments, such as Klarna or AfterPay, retailers are only allowed to charge consumers the actual costs incurred by them when using these payment methods and MAY NEVER exceed them
+* For pay-after-delivery (post-payment) payments, such as Klarna or AfterPay, retailers are only allowed to charge consumers the actual costs incurred by them when using these payment methods and __may never__ exceed them
 
 * Credit card transactions paid with a card issued outside the EU/EEA can still be surcharged (e.g. an overseas tourist with a credit card issued in India)
 
@@ -38,7 +40,7 @@ Certain payment methods do not fall under the surcharge prohibition, as follows:
 
 The rules regarding surcharging customers outside the European Union remain unchanged. The PSD2 aims at protecting the European customer.
 
-### Do I need to perform any change on my MultiSafepay Control?
+### Do I need to perform any change within the MultiSafepay Control?
 
 If you are currently surcharging payment fees which are no longer allowed according to the new PSD2, you may need to update your settings in the backend of your website. Please get in contact with the support department of the webshop plugin or your web developer to assist you further. You do not need to change any settings in your MultiSafepay Control.
 
@@ -46,4 +48,4 @@ If you are currently surcharging payment fees which are no longer allowed accord
 
 No, you do not need to perform any change if you already do not apply any [surcharges](/faq/getting-started/glossary/#surcharge) on the products or services your webshop sells.
 
-{{< alert-notice >}} Disclaimer: the information in this article has a general informative purpose. Given the changing nature of the law, rules, regulations and information in general, as well as the risk related to electronic communication, there could be delays, omissions or inaccuracies in the information contained in this article. As a result, the information in this article should not be used in place of a consultation with a professional consultant. We recommend that you consult the competent authority before taking any decision or action. While we have taken the greatest possible care in compiling the information released in the article, MultiSafepay can not guarantee the completeness, timeliness and / or accuracy of the information. As a result, MultiSafepay accepts no responsibility for direct or consequential damages resulting from the use of, reliance on or actions taken based on information provided in this article. {{< /alert-notice >}}
+{{< alert-notice >}} __Disclaimer__: the information in this article has a general informative purpose. Given the changing nature of the law, rules, regulations and information in general, as well as the risk related to electronic communication, there could be delays, omissions or inaccuracies in the information contained in this article. As a result, the information in this article should not be used in place of a consultation with a professional consultant. We recommend that you consult the competent authority before taking any decision or action. While we have taken the greatest possible care in compiling the information released in the article, MultiSafepay can not guarantee the completeness, timeliness and / or accuracy of the information. As a result, MultiSafepay accepts no responsibility for direct or consequential damages resulting from the use of, reliance on or actions taken based on information provided in this article. {{< /alert-notice >}}
