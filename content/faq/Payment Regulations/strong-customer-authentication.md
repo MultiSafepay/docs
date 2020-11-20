@@ -8,7 +8,7 @@ read_more: "."
 
 ### What is SCA?
 
-As of September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses being driven to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. These elements could either be one of the following:
+As of September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses and Payment Service Providers being required to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. These elements could either be one of the following:
 
 1.	Something the customer knows (e.g. password)
 2.	Something the customer has (e.g. phone)
@@ -40,7 +40,9 @@ Customers may encounter 2FA for payment methods which do not already have it ena
 
 ### What are the exemptions?
 
-Transactions originating from outside the European Union or recurring transactions will be exempt to the SCA requirements. Although, this is only possible after an initial transaction has been authenticated successfully by SCA. Furthermore, low value orders will also be exempt once 3D Secure 2.0 has widely been adopted.
+Subscriptions and recurring transactions will be exempt to the SCA requirements. Although, this is only possible after an initial transaction has been authenticated successfully by SCA.
+
+Furthermore, low value orders will also be exempt once 3D Secure 2.0 has widely been adopted. You will be required to apply for this; please contact <integration@multisafepay.com> for more information.
 
 Read more about [3D Secure 2.0](https://3dsecure2.com/)
 
