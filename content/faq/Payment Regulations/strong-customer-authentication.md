@@ -26,11 +26,8 @@ With the introduction of Strong Customer Authentication (SCA) and Two-factor Aut
 
 ### When will SCA come into effect?
 
-The deadline to be SCA compliant is __01-01-2021__, whereby you are expected to have implemented the necessary authentication requirements for your business.
+The deadline to be SCA compliant is __01-01-2021__, whereby you are expected to have implemented the necessary authentication requirements for your business. MultiSafepay will provide support for this process.
 
-### What transactions and payment methods are affected?
-
-All payment methods will be affected, although for most payment methods, Two-Factor Authentication is already in place e.g. iDEAL. However, not all credit card transactions have 2FA enabled. These payment institutions are on track to meet the deadline of 01-01-2021.
 
 ### What impact does SCA have on my business?
 
