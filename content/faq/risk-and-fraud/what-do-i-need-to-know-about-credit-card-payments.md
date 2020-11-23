@@ -30,7 +30,7 @@ Customers using credit card as payment method have the right to initiate a charg
 Additional information is available on our FAQ page, [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback)
 
 ## 3D Secure
-For detailed information about [3D Secure](/faq/general/what-is-3d-secure) please read the corresponding support page.
+For detailed information about [3D Secure](/faq/general/what-is-3d-secure) please read the corresponding documentation page.
 
 ## Mandatory 
 Some rules may apply to certain payment methods. These rules are mandatory when processing credit card transactions.

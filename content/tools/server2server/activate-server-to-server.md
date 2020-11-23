@@ -16,7 +16,7 @@ In order to process direct credit card transactions, the following is required o
 2. Make sure you are [PCI](/faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments) compliant and receive final approval by MultiSafepay Risk Team <risk@multisafepay.com> to enable this feature.
 3. Your merchant file and performance of the company will undergo screening and if you have received approval, our Integrations team will begin the integration of Server to Server.
 4. Integrate with MultiSafepay via JSON [API](/api/#server-to-server) following the instructions provided in this documentation after our Integrations team have activated the feature for you.
-5. Credit card transactions with MultiSafepay accounts are by default 3D secure enabled. Certain MultiSafepay accounts can be totally 3D disabled or can be processed with a 3D Dynamic filter based on a pre-configured set of rules.
+5. Credit card transactions with MultiSafepay accounts are by default 3D Secure enabled, in line with PSD2 regulations. If you operate outside of Europe, please contact your account manager by email <sales@multisafepay.com> to configure a more flexible setup.
 
 >_All options require approval and enabling by our Risk Team_.
 

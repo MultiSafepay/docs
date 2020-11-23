@@ -63,6 +63,8 @@ Credit card transactions which are processed with the 3D Secure protocol require
 
 **Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
 
+**__Please note__: Starting January 1st 2021, we no longer support [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d/) with merchants based in Europe due to PSD2 regulations.**
+
 **Parameters**
 
 ----------------

@@ -64,6 +64,8 @@ Flexible 3D is a feature that allows you to enable/disable 3D secure at API leve
 
 When Flexible 3D is set on _true_, the authentication verification is mandatory to finalize and release a successful payment. Credit card transactions which are processed without the 3D Secure protocol, are now required to complete the 3D secure verification. Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that the payment will be enrolled with a 3D Secure authentication. 
 
+**__Please note__: Starting January 1st 2021, we no longer support [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d/) with merchants based in Europe due to PSD2 regulations.**
+
 **Parameters**
 
 ----------------

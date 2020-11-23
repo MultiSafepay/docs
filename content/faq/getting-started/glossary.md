@@ -8,7 +8,7 @@ read_more: "."
 ---
 
 ### 3D Secure
-An additional and optional security feature for online credit card transactions where the user needs to fill out a security code or password on top of the card details and CVV code.  3D secure aims at reducing fraudulent transactions (e.g. with a stolen/found card). 
+An authentication protocol for online payments. 3D Secure is alo known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. The protocol is designed to reduce fraud while maintaining a positive consumer experience.
 
 ### Acquirer
 To accept card payment, an acquirer is in accordance with card networks, partner with a payment provider or is a payment provider itself. A bank or financial institute that processes payment for merchants.

@@ -1,7 +1,7 @@
 ---
-title : "What is 3D Secure?"
-meta_title: "FAQ General - What is 3D Secure? - MultiSafepay Docs"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+title : "3D Secure 2.0 (3DS)"
+meta_title: "FAQ Payment regulations - 3D Secure - MultiSafepay Docs"
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 3D Secure (3DS) is a authentication protocol for online transactions. 3D Secure is also known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. When a chargeback is filed against the merchant and the transaction was carried out using the 3D Secure protocol, the acquiring bank is responsible for the costs and not the merchant.

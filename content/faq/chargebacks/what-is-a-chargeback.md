@@ -47,7 +47,7 @@ The most common chargeback reasons are fraud, non-delivery of goods or goods not
 
 There are several actions that can be taken to minimize the risk for chargebacks. This starts with good customer service.
 
-Fraud-related chargebacks can be avoided altogether by using [3D Secure](/faq/risk-and-fraud/what-is-3d-secure), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D secure.
+Fraud-related chargebacks can be avoided altogether by using [3D Secure](/faq/general/what-is-3d-secure), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D secure.
 
 >It is still possible to receive a chargeback due to non-delivery and goods not as described.
 These two reasons are well within your own control.
