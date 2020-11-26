@@ -15,7 +15,7 @@ As an integrator, you only need to provide a valid MSP transaction identifier or
 * Payment methods:
     * Preferred payment methods
     * Add payment methods
-    * Coupons
+    * Gift cards
 * Confirmation details
 
 #### Additional details
