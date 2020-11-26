@@ -65,7 +65,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### tax_table_selector
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| tax_table_selector                          | string   | The tax ruling specified.                                                           |
+| tax_table_selector                          | string   | The tax ruling specified. Please note that if the tax_table_selector is 0 an error will be displayed: _'1029: Invalid tax rate specified for item'_                                                 |
 |                                    |          |                                                                                      | 
 
 ### weight
