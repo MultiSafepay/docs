@@ -53,6 +53,14 @@ Generally, payout refers to a (large) amount of money paid at once to a business
 ### Plugin
 A software component that adds a feature or functionality to another existing software. Plugins allow for software to be customized accordingly with the user's needs.  Often referred to as add-on.
 
+### Payment Services Directive 2 (PSD2)
+
+PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
+
+### Strong Customer Authentication (SCA)
+
+SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication/) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
+
 ### Surcharge
 An additional fee, charge or tax that is added to the costs of a good or service, on top of the initial price. Very often, the surcharge is not part of the stated price of the good or service. Surcharges can be set at specific amounts or can account for a percentage of the total price.
 
