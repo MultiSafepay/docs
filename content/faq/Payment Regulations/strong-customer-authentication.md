@@ -11,7 +11,7 @@ read_more: "."
 As of September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses and Payment Service Providers being required to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. Three methods of authentication are recognized in SCA. Every SCA compliant transaction uses at least two out of three methods.
 
 {{< br >}}
-{{< responsive_svg src="/diagrams/SCA" alt="Strong Customer Authetication methods" align="center" >}}
+{{< image src="/svgs/SCA_responsive.svg" alt="Strong Customer Authetication methods" align="center" >}}
 {{< br >}}
 {{< br >}}
 
