@@ -83,6 +83,7 @@ The security requirement you must implement is to always validate the payload so
 
 ### Response
 As response, MultiSafepay expects an empty page with one of the following:
+
 * _OK_ on the first two characters of the body of the response
 * _MULTISAFEPAY_OK_ anywhere in the body of the response
 
