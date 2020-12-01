@@ -69,3 +69,8 @@ _Don't forget to add your MultiSafepay Control number_.
 
 If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges)
 
+## Testing
+
+It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://merchant.multisafepay.com/). 
+
+Exporting Klarna Payments reports is also included within this test mode.
