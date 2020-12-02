@@ -38,7 +38,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N102   | [BELFIUS](/payment-methods/belfius)                    |   |
 | N103   | [EPS](/payment-methods/eps)                            |   |
 | N104   | [EINVOICE](/payment-methods/e-invoicing)               |   |
-| N105   | [AFTERPAY](/payment-methods/afterpay)                  |   |
+| N105   | [AFTERPAY](/payment-methods/billing-suite/afterpay)                  |   |
 | N106   | [INGHOME](/payment-methods/ing-home-pay)               |   |
 | N107   | FERBUY                                                  |   |
 | N108   | [TRUSTLY](/payment-methods/trustly)                    |   |

@@ -17,7 +17,13 @@ As of version 1.7.0, we have added a feature to include the payment link in the 
 </br>
 `{{depend order.getPayment().getAdditionalInformation('payment_link')}}`
 `<a href="{{var order.getPayment().getAdditionalInformation('payment_link')}}">Pay now with {{var order.getPayment().getAdditionalInformation('method_title')}}</a>`
-`{{/depend}}`
+`{{/depend}}`\
+</br>\
+The email template syntax is different for Magento 2.3.4+. For these versions you can add this sample code instead
+</br>
+`{{depend order.payment.additional_information.payment_link}}`
+`<a href="{{var order.payment.additional_information.payment_link}}">Pay now with {{var order.payment.additional_information.method_title}}</a>`
+`{{/depend}}`\
 </br>
 5. Go to _Stores -> Configuration → Sales → Sales Emails_
 6. Change the "New Order Confirmation Template" with your template

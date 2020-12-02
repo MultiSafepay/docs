@@ -13,4 +13,4 @@ A special feature of post-payment is that customers are only charged for the ite
 
 > _Currently, MultiSafepay offers AfterPay for the Netherlands and Belgium._
 
-Check the [Activate](/payment-methods/afterpay/#activate) section for a complete list of requirements to process Afterpay transactions. 
+Check the [Activate](/payment-methods/billing-suite/afterpay/#activate) section for a complete list of requirements to process Afterpay transactions. 
