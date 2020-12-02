@@ -1,12 +1,19 @@
-<div {{if isset .Params "align"}}align="{{ index .Params "align" }}"{{end}} style="position:relative">
+<div {{if isset .Params "align"}}align="{{ index .Params "align" }}"{{end}} style="position: relative;">
 	<style>
-        .mobile {display: none;}
+		.mobile {display: none;}
 
-        @media screen and (max-width: 991px){
-            .large {display: none;}
-            .mobile{display: block;}
-        }
-    </style>
-	<img class="large" src="{{ .Get "src" }}.svg" alt="{{ .Get "alt" }}" style="width: 100%; height: auto;">
-	<img class="mobile" src="{{ .Get "src" }}_mobile.svg" alt="{{ .Get "alt" }}" style="width: 100%; height: auto;">
+		@media screen and (max-width: 991px){
+			.large {display: none;}
+			.mobile{display: block;}
+		}
+	</style>
+	
+	<object class="large" type="image/svg+xml" data="{{ .Get "src" }}.svg" style="width: 100%; height: auto;">
+		<img class="large" src="{{ .Get "src" }}.svg" alt="{{ .Get "alt" }}" style="width: 100%; height: auto;">
+	</object>
+	
+	<object class="mobile" type="image/svg+xml" data="{{ .Get "src" }}_mobile.svg" style="width: 100%; height: auto;">
+		<img class="mobile" src="{{ .Get "src" }}_mobile.svg" alt="{{ .Get "alt" }}" style="width: 100%; height: auto;">
+	</object>
+
 </div>
