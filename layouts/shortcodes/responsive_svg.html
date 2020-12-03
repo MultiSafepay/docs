@@ -1,8 +1,8 @@
 <div {{if isset .Params "align"}}align="{{ index .Params "align" }}"{{end}} style="position: relative;">
-	<object class="large" type="image/svg+xml" data="{{ .Get "src" }}.svg" style="width: 100%; height: auto;">
-		<img class="large" src="{{ .Get "src" }}.svg" alt="{{ .Get "alt" }}" style="width: 100%; height: auto;">
+	<object class="large" type="image/svg+xml" data="{{ .Get "src" }}.svg" style="max-width: 100%; height: auto;">
+		<img class="large" src="{{ .Get "src" }}.svg" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto;">
 	</object>
-	<object class="mobile" type="image/svg+xml" data="{{ .Get "src" }}_mobile.svg" style="width: 100%; height: auto;">
-		<img class="mobile" src="{{ .Get "src" }}_mobile.svg" alt="{{ .Get "alt" }}" style="width: 100%; height: auto;">
+	<object class="mobile" type="image/svg+xml" data="{{ .Get "src" }}_mobile.svg" style="max-width: 100%; height: auto;">
+		<img class="mobile" src="{{ .Get "src" }}_mobile.svg" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto;">
 	</object>
 </div>
