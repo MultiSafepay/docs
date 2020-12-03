@@ -145,7 +145,7 @@ div.msp-app-text p:last-child {
 
 @media screen and (max-width: 991px){
     .large {display: none;}
-    .mobile{display: block;}
+    .mobile {display: block;}
 }
 
 /*********** FOOTER ***********/
