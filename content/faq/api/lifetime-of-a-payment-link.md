@@ -25,10 +25,7 @@ A PayPal payment link is valid for **14 days**, as imposed by PayPal. Therefore,
 ### Second Chance email
 The [Second Chance](/tools/second-chance) email is a gentle payment reminder sent to the customer __in the form of a payment link__, through which customers can finalize the payment if they desire. 
 
-{{< alert-notice >}} __Please note__: It is not possible to modify the payment
-link in the second chance email as the session_id of the initial payment
-transaction is used, therefore the change can only be made in the initial
-request. {{< /alert-notice >}}
+{{< alert-notice >}} __Please note__: It is not possible to modify the payment link in the second chance email as the session_id of the initial payment transaction is used, therefore the change can only be made in the initial request. {{< /alert-notice >}}
 
 When enabled, the Second Chance email will be sent once after 1 hour and once after 24 hours. Currently, this cannot be adjusted. It is, however, possible to influence the lifetime of the payment link by means of the days_active or seconds_active. 
 
