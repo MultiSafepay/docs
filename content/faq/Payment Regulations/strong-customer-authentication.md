@@ -8,11 +8,12 @@ read_more: "."
 
 ### What is SCA?
 
-As of September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses and Payment Service Providers being required to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. These elements could either be one of the following:
+As of September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses and Payment Service Providers being required to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. Three methods of authentication are recognized in SCA. Every SCA compliant transaction uses at least two out of three methods.
 
-1.	Something the customer knows (e.g. password)
-2.	Something the customer has (e.g. phone)
-3.	Something the customer is (e.g. fingerprint)
+{{< br >}}
+{{< responsive_svg src="/diagrams/SCA" alt="Strong Customer Authetication methods" align="center" >}}
+{{< br >}}
+{{< br >}}
 
 If these measures are not taken, banks may be forced to decline transactions that do not implement this type of authentication. The impact of SCA will depend on _when_ your business charges customers. For businesses such as e-commerce stores that charge customers when they are in the checkout flow, customers can simply authenticate while completing a payment for a purchase.
 
