@@ -9,6 +9,10 @@ read_more: '.'
 ### What is Postepay
 Postepay - a Visa or Mastercard co-branded product - is a commonly used Italian credit cards. Every credit card with the 'Verified by Visa' or 'MasterCard SecureCode' logo can be safely used for online payments.
 
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Credit/Debit|Direct/Redirect|IT|Multiple|Full/Partial|No|No|
+
 ### How Postepay works
 Postepay payments are processed through the Visa or Mastercard gateway.
 

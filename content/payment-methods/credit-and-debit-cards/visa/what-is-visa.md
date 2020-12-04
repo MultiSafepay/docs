@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What it is
 Visa is a major credit card service provider worldwide using the Visa network. Consumers will be able to pay merchants for goods or services using the Visa credit card in both physical and online stores.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|Yes|Yes|

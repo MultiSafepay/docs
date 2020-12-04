@@ -8,3 +8,7 @@ read_more: '.'
 ## What it is
 
 V Pay is the European debit card service from VISA Europe. Merchants can offer their consumers online and offline payments, as well as contactless payments throughout Europe.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|No|Yes|

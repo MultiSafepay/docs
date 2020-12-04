@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What it is
 American Express is one of the most popular credit card service provider's, accepted in more than 160 countries worldwide. Consumers using American Express will be able to pay for purchases at most businesses around the world.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|Yes|Yes|

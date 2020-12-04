@@ -14,3 +14,7 @@ A special feature of post-payment is that customers are only charged for the ite
 > _Currently, MultiSafepay offers AfterPay for the Netherlands and Belgium._
 
 Check the [Activate](/payment-methods/afterpay/#activate) section for a complete list of requirements to process Afterpay transactions. 
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Pay After Delivery|Direct/Redirect|NL, BE|EUR|Full/Partial|No|No|

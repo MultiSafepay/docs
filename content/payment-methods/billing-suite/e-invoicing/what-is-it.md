@@ -7,3 +7,7 @@ read_more: '.'
 ---
 # What it is
 E-Invoicing is a MultiSafepay branded billing solution enables merchants to take full control of their credit management process, the payment process and of contact with their customers. Post-payment methods such as E-Invoicing are very customer-friendly, as they allow paying for a purchase after its delivery. MultiSafepay offers a complete set of tools for automatically sending invoices and payment requests to the customer directly from your webshop.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Pay After Delivery|Direct/Redirect|Worldwide|EUR|Full/Partial|No|No|

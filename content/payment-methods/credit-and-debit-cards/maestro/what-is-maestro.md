@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What it is
 Maestro is a multi-national debit card service owned by Mastercard. Maestro is accepted across Europe and many other countries. However, Maestro online payments are mainly done by Belgian customers.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|Yes|Yes|
