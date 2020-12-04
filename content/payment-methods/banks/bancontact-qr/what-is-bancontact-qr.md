@@ -9,3 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 Bancontact QR is an alternative way to initiate a payment via Bancontact. The payment is initiated from a QR code, presented to the customer for instance at a mobile device. The customer scans the QR code and the bank-app at his mobile phone will handle the payment.
 
 Bancontact QR is only supported for Belgium.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Redirect|NL|EUR|Full/Partial|No|No|

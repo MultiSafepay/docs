@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What is it?
 EPS is an online payment system in Austria. Customers are transferred to their own banking environment and funds are settled immediately. EPS has quickly become the most widely accepted method for online payments in Austria and is available to all customers with online banking.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Direct/Redirect|AT|EUR|Full/Partial|No|No|

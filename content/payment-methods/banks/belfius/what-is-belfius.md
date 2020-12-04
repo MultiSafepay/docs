@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What is it?
 Belfius is a popular Belgian banking payment method that allows Belfius bank account holders to easily pay online through their familiar banking environment.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Direct/Redirect|NL|EUR|Full/Partial|No|No|

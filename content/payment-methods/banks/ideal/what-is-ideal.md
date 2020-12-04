@@ -12,7 +12,7 @@ As a merchant, your website's name is shown during the finalization of the iDEAL
 
 > iDEAL is a payment method for consumers in the Netherlands.
 
-| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Bank|Direct/Redirect|NL|EUR|Full/Partial|Yes|No|
 

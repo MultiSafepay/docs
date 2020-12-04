@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What is it?
 Dotpay is a third-party online payment platform established in Poland. For any website with a Polish target audience and international growth ambitions, Dotpay is a highly recommended payment method.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Redirect|PL|EUR, PLN|Full/Partial|No|No|

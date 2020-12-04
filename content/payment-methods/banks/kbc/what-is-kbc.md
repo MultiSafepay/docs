@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What it is
 KBC is a local Belgium payment method used by customers with a bank account with the Belgian bank KBC. KBC customers can therefore pay through their familiar banking environment.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Direct/Redirect|BE|EUR|Full/Partial|No|No|

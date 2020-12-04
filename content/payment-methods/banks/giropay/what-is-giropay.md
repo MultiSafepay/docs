@@ -9,3 +9,7 @@ read_more: '.'
 Giropay is the leading Internet payment system in Germany. Customers are transferred to their own banking environment and funds are settled immediately.
 
 Giropay has quickly become the most widely accepted method for online payments in Germany and is available to all customers with online banking.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Direct/Redirect|DE|EUR|Full/Partial|No|No|

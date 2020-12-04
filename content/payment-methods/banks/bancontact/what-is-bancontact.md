@@ -10,3 +10,7 @@ read_more: '.'
 With over 80% of Belgian webshops offering it as a payment option, Bancontact is a household name and the market leader for electronic payments in Belgium. Payments are done using the mobile banking app or online. 
 
 Bancontact is only supported for Belgium and non-mobile payments always use 3D Secure 1.0 verification.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|Redirect|BE|EUR|Full/Partial|Yes|No|
