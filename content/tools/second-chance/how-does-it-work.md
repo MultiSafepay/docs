@@ -23,7 +23,7 @@ The Second Chance email cannot be activated and/or sent to the customer when the
 Certain payments methods have a different flow and, as a result, the Second Chance email cannot be activated and/or sent to the customers. Below, you can find a list of all the exceptions:
 
 * [Klarna](/payment-methods/klarna)
-* [AfterPay](/payment-methods/afterpay)
+* [AfterPay](/payment-methods/billing-suite/afterpay)
 * [Betaal per Maand](/payment-methods/betaalpermaand)
 * [Pay After Delivery](/payment-methods/pay-after-delivery)
 * [Bank transfer](/payment-methods/bank-transfer)

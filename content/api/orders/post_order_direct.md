@@ -97,7 +97,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 Depending on the payment method, additional information should be provided. See each payment method reference for additional information.  
 
 Supported payment methods are:   
-IDEAL, CREDITCARDS, PAYAFTER, EINVOICE, KLARNA, KLARNA_ACC, DIRDEB, DIRECTBANK, BANKTRANS, PAYPAL, BELFIUS, ING, KBC, CBC, ALIPAY
+IDEAL, CREDITCARD, PAYAFTER, EINVOICE, KLARNA, DIRDEB, DIRECTBANK, BANKTRANS, PAYPAL, BELFIUS, ING, KBC, CBC, ALIPAY
 
 **Parameters**
 

@@ -295,7 +295,7 @@ __forwarded_ip__ | string
 ----------------
 Please note that _first_name<_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [AfterPay](/payment-methods/afterpay) on our documentation page.
+Read more about [AfterPay](/payment-methods/billing-suite/afterpay) on our documentation page.
 
 ----------------
 
@@ -381,6 +381,6 @@ __forwarded_ip__ | string
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [AfterPay](/payment-methods/afterpay) on our documentation page.
+Read more about [AfterPay](/payment-methods/billing-suite/afterpay) on our documentation page.
 {{< /description >}}
 

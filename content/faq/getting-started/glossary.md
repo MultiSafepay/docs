@@ -8,10 +8,10 @@ read_more: "."
 ---
 
 ### 3D Secure
-An authentication protocol for online payments. 3D Secure is alo known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. The protocol is designed to reduce fraud while maintaining a positive consumer experience.
+An authentication protocol for online payments. 3D Secure is also known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. The protocol is designed to reduce fraud while maintaining a positive customer experience.
 
 ### Acquirer
-To accept card payment, an acquirer is in accordance with card networks, partner with a payment provider or is a payment provider itself. A bank or financial institute that processes payment for merchants.
+To accept card payments, an acquirer is in accordance with card networks, partner with a payment provider or is a payment provider itself. A bank or financial institute that processes payment for merchants.
 
 MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and Bancontact.
 
@@ -22,8 +22,10 @@ A set of clearly defined rules and tools in order to allow specified communicati
 An entity (individual or organization) that makes use of another entity's product or service offering. In our terminology, a customer is the beneficiary of goods and services provided by merchants that use MultiSafepay's payment services.
 
 ### Closed-loop gift card
-
 A gift card which can only be used at a single merchant/vendor.
+
+### CVC
+A card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
 
 ### Issuer
 The company that provided the card. Usually this is the customer's bank. For many payment methods, the issuer guarantees the funding of the transaction.
@@ -32,14 +34,14 @@ The company that provided the card. Usually this is the customer's bank. For man
 JSON (JavaScript Object Notation) is a human-readable file format for storing and transporting data. They are often used for communication between a server and a web page. 
 
 ### Merchant
-The selling party of goods and services to the customer via ecommerce webshop or mobile app. Accepting payments with [Credit cards](/payment-methods/credit-and-debit-cards) or local payment methods. The selling party is required to have an acquiring bank account and subscribe to the services available from a payment service provider. 
+The selling party of goods and services to the customer via ecommerce webshop or mobile app. Accepting payments with [credit cards](/payment-methods/credit-and-debit-cards) or local payment methods. The selling party is required to have an acquiring bank account and subscribe to the services available from a payment service provider. 
 
 ### MultiSafepay Control 
 The environment where merchants can see their transactions and settings from within their MultiSafepay Account. This environment also allows the merchant to update and refund orders as well as update their company's information. The MultiSafepay Control can be reached at: https://merchant.multisafepay.com
 
 ### Open-loop gift card
 
-An Open-loop gift card is one that can be used for multiple merchants/vendors e.g. restaurants, hotels
+A gift card that can be used at multiple merchants/vendors.
 
 ### Payment Method
 The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods)
@@ -51,7 +53,7 @@ Company that enables merchants with the ability to accept multiple types of elec
 Generally, payout refers to a (large) amount of money paid at once to a business or an individual, accordingly with a preset schedule. For example, a MultiSafepay merchant will receive a payout from MultiSafepay on the days the merchant chooses, amounting all the sales the merchant has made in the given period minus all the transactions fees associated with them.
 
 ### Plugin
-A software component that adds a feature or functionality to another existing software. Plugins allow for software to be customized accordingly with the user's needs.  Often referred to as add-on.
+A software component that adds a feature or functionality to another existing piece of software. Plugins allow for software to be customized accordingly with the user's needs. Plugins are also referred to as add-ons.
 
 ### Payment Services Directive 2 (PSD2)
 
@@ -72,8 +74,4 @@ Refers to the status of a credit card transaction that has been received, but ha
 
 ### Website
 A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com) Websites serve a multitude of purposes, such as information, entertainment or service-offering.
-
-### CVC
-
-Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
 
