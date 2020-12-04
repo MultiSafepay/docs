@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What it is
 PayPal is an international payment processing service that allows customers to pay by credit card or create a digital wallet linked to alternative payment methods. With a global reach, PayPal has been part of many businesses' international expansion.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Wallet|Direct/Redirect|Worldwide|Multiple|Full/Partial|No|Yes|

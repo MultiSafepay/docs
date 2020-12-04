@@ -15,6 +15,10 @@ The actual payment using a gift card will not be processed by MultiSafepay, but 
 
 The amount deducted from the gift card to complete a payment will be paid out by the issuer of the gift card.
 
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Prepaid card|Redirect|NL/BE|EUR|n/a|No|No|
+
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 

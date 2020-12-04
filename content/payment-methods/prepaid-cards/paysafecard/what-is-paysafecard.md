@@ -7,3 +7,7 @@ read_more: '.'
 ---
 ## What it is 
 Paysafecard is a simple and safe prepaid payment method that allows you to make payments online without the use of a bank account or credit card information. Paysafecard is available in 46 countries worldwide and can be purchased in different amounts of the local currency.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Prepaid card|Redirect|Worldwide|EUR, GBP, USD|n/a|No|No|
