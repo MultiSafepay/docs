@@ -12,4 +12,4 @@ Bancontact QR is only supported for Belgium.
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Redirect|NL|EUR|Full/Partial|No|No|
+|Bank|Redirect|BE|EUR|Full/Partial|No|No|

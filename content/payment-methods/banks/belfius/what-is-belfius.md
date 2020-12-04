@@ -10,4 +10,4 @@ Belfius is a popular Belgian banking payment method that allows Belfius bank acc
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|NL|EUR|Full/Partial|No|No|
+|Bank|Direct/Redirect|BE|EUR|Full/Partial|No|No|
