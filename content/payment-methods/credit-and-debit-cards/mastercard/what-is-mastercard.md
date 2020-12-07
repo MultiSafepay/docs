@@ -10,4 +10,4 @@ Mastercard is a major credit card service provider worldwide. Consumers will be 
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|Yes|Yes|
+|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|Multiple|Full/Partial|Yes|Yes|

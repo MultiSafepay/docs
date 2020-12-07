@@ -11,4 +11,4 @@ With in3, you can allow consumers to pay for their purchases 'in 3' individual i
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Pay After Delivery|Direct/Redirect|NL|EUR|Full/Partial|No|No|
+|Pay After DeliveryNL|EUR|Full/Partial|No|No|

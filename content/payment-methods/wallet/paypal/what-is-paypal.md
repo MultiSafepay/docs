@@ -10,4 +10,4 @@ PayPal is an international payment processing service that allows customers to p
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Wallet|Direct/Redirect|Worldwide|Multiple|Full/Partial|No|Yes|
+|Wallet|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|Multiple|Full/Partial|No|Yes|

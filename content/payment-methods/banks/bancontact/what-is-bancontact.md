@@ -13,4 +13,4 @@ Bancontact is only supported for Belgium and non-mobile payments always use 3D S
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Redirect|BE|EUR|Full/Partial|Yes|No|
+|Bank|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|BE|EUR|Full/Partial|Yes|No|

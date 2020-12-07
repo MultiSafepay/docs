@@ -14,4 +14,4 @@ This payment method gives you the possibility to collect funds from your custome
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|[SEPA Region](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html)|EUR|Full/Partial|Yes|No|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|[SEPA Region](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html)|EUR|Full/Partial|Yes|No|

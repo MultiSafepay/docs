@@ -12,4 +12,4 @@ As the name suggests, iDeal QR allows customers to pay directly with their smart
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Redirect|NL|EUR|Full/Partial|No|No|
+|Bank|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|NL|EUR|Full/Partial|No|No|

@@ -10,7 +10,7 @@ Dankort - a Visa co-branded product - is one of the best-known and most commonly
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|Direct/Redirect|DK|Multiple|Full/Partial|Yes|Yes|
+|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|DK|Multiple|Full/Partial|Yes|Yes|
 
 ### How Dankort works
 Dankort payments are processed through the Visa gateway.

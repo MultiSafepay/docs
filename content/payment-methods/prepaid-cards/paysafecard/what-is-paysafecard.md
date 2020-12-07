@@ -10,4 +10,4 @@ Paysafecard is a simple and safe prepaid payment method that allows you to make 
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Prepaid card|Redirect|Worldwide|EUR, GBP, USD|n/a|No|No|
+|Prepaid card|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|EUR, GBP, USD|n/a|No|No|

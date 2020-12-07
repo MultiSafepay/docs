@@ -10,4 +10,4 @@ E-Invoicing is a MultiSafepay branded billing solution enables merchants to take
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Pay After Delivery|Direct/Redirect|Worldwide|EUR|Full/Partial|No|No|
+|Pay After Delivery|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|EUR|Full/Partial|No|No|

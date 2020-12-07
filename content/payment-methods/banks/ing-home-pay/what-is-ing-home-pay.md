@@ -10,4 +10,4 @@ ING Home'Pay is a local Belgium payment method used by customers with a bank acc
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Redirect|BE|EUR|Full/Partial|No|No|
+|Bank|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|BE|EUR|Full/Partial|No|No|

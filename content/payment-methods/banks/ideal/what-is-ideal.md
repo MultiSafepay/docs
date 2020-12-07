@@ -14,5 +14,5 @@ As a merchant, your website's name is shown during the finalization of the iDEAL
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|NL|EUR|Full/Partial|Yes|No|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|NL|EUR|Full/Partial|Yes|No|
 

@@ -12,4 +12,4 @@ Giropay has quickly become the most widely accepted method for online payments i
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|DE|EUR|Full/Partial|No|No|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|DE|EUR|Full/Partial|No|No|

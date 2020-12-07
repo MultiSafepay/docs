@@ -12,4 +12,4 @@ Pay After Delivery is a very customer friendly payment method that helps increas
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Pay After Delivery|Direct/Redirect|NL|EUR|Full/Partial|No|No|
+|Pay After Delivery|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|NL|EUR|Full/Partial|No|No|

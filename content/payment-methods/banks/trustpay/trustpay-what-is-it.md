@@ -10,4 +10,4 @@ TrustPay is a standard bank transfer payment method available in Czech Republic 
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|CZ|CZK|Full/Partial|No|No|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|CZ|CZK|Full/Partial|No|No|

@@ -10,4 +10,4 @@ EPS is an online payment system in Austria. Customers are transferred to their o
 
 | Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|AT|EUR|Full/Partial|No|No|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|AT|EUR|Full/Partial|No|No|

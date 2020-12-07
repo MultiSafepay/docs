@@ -14,5 +14,5 @@ Your customers are able to pay from the account of their choice, using their fam
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|See above|EUR, GBP, SEK|Full/Partial|No|No|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|See above|EUR, GBP, SEK|Full/Partial|No|No|
 
