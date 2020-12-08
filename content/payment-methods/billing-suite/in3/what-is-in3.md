@@ -11,4 +11,4 @@ With in3, you can allow consumers to pay for their purchases 'in 3' individual i
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Pay After DeliveryNL|EUR|Full/Partial|No|No|
+|Pay After Delivery | [Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/) | NL|EUR|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|

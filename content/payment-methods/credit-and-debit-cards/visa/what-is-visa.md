@@ -10,4 +10,4 @@ Visa is a major credit card service provider worldwide using the Visa network. C
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|Multiple|Full/Partial|Yes|Yes|
+|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|Multiple|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[Yes](https://docs.multisafepay.com/faq/chargebacks/)|

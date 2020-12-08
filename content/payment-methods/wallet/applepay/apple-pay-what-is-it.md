@@ -14,4 +14,4 @@ Apple Pay is offered in a number of countries worldwide including the majority o
 
 | Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Wallet|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|[See all](https://support.apple.com/en-us/HT207957)|Multiple|Full/Partial|No|Yes|
+|Wallet|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|[See all](https://support.apple.com/en-us/HT207957)|Multiple|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[Yes](https://docs.multisafepay.com/faq/chargebacks/)|
