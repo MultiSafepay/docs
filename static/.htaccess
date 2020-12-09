@@ -366,10 +366,10 @@ Redirect 301 /payment-methods/banks/direct-bank-transfer/#activate https://docs.
 Redirect 301 /payment-methods/banks/direct-bank-transfer/#request-refund https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#request-refund
 Redirect 301 /api/#direct-bank-transfer https://docs.multisafepay.com/api/#request-to-pay
 Redirect 301 /faq/psd2/what-is-psd2 https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/
-Redirect 301 /faq/psd2/can-I-apply-surcharges-to-consumers-outside-the-European-Union https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/
-Redirect 301 /faq/psd2/can-I-still-apply-surcharges https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/
-Redirect 301 /faq/psd2/do-I-need-to-do-anything-if-I-do-not-apply-surcharges https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/
-Redirect 301 /faq/psd2/do-i-need-to-perform-change-on-my-multisafepay-control https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/
+Redirect 301 /faq/psd2/can-I-apply-surcharges-to-consumers-outside-the-European-Union https://docs.multisafepay.com/faq/payment-regulations/surcharges/
+Redirect 301 /faq/psd2/can-I-still-apply-surcharges https://docs.multisafepay.com/faq/payment-regulations/surcharges/
+Redirect 301 /faq/psd2/do-I-need-to-do-anything-if-I-do-not-apply-surcharges https://docs.multisafepay.com/faq/payment-regulations/surcharges/
+Redirect 301 /faq/psd2/do-i-need-to-perform-change-on-my-multisafepay-control https://docs.multisafepay.com/faq/payment-regulations/surcharges/
 Redirect 301 /faq/PSD2/does-PSD2-influence-my-webshop https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/
 Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrappers/
 Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
