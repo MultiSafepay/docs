@@ -51,6 +51,8 @@ Full documentation on [What is Seller Pretection](https://www.paypal.com/cs/smar
 ### Product rules
 Some rules may apply to certain payment methods. For PayPal, the following rules apply:
 
+* To be eligible for PayPal Seller Protection, the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+
 * Refunding more than the stated amount of the original transaction is not possible for PayPal. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful PayPal transactions have a maximum refund period of 60 days. After this period, it is advised to process the requested refund by different means
