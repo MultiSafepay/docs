@@ -98,7 +98,7 @@ You have installed and configured the plugin successfully. If you have any quest
 ### 7. Updates 
 Run the following commands via the CLI:
 ```shell
-composer update multisafepay/magento2
+composer update multisafepay/magento2 --with-dependencies
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
