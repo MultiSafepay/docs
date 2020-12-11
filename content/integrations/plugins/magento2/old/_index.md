@@ -6,6 +6,8 @@ description : "This is the manual for the old Magento 2 plugin which has become 
 meta_title: "Magento 2 plugin manual V1 - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
+layout: 'single'
+faq: '.'
 ---
 
 ### Introduction
