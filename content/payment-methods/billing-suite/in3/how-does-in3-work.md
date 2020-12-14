@@ -59,3 +59,5 @@ Some rules may apply to certain payment methods. For in3, the following rules ap
 * The default amount for an in3 payment is 100 EUR and maximum 3000 EUR
 
 * Different billing and shipping addresses may be entered by the consumer.
+
+{{< alert-notice >}} __Please note:__ Once initial payments have been completed by customers, payouts will take place after 15 days. {{< /alert-notice >}}
