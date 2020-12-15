@@ -17,14 +17,6 @@ Pay-after-delivery methods allow customers to pay only for items they keep from 
 
 When a transaction has been accepted, the risk of the merchant is assumed entirely by AfterPay. The customer must fulfill the payment to AfterPay within 14 days after the invoice date, unless otherwise agreed upon in writing.
 
-### The Shipped status
-When receiving an order paid for with AfterPay, it is important to keep a number of things in mind.
-
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _completed_ to _shipped_. You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) or in some cases, in your ecommerce platform (automatically). Not changing the status to _shipped_ can result in the expiration of the order.
-
-Changing the status to _shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
-
-The _shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 
 ## Delivery address    
 AfterPay accepts a difference in invoice and delivery address. However, a different delivery address or pick up address is only forwarded if both the first and last name of the customer share at least two characters. 
@@ -90,3 +82,12 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 
 * Having the new payment pages enabled for a specific site profile is necessary in order to process AfterPay payments. 
 You can check this in your [MultiSafepay Control](https://merchant.multisafepay.com/switch-connect-v2) if you navigate to _Settings > Payment pages_
+
+## The 'Shipped' status
+When receiving an order paid for with AfterPay, it is important to keep a number of things in mind.
+
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) or in some cases, in your ecommerce platform (automatically). You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. Not changing the status to _Shipped_ can result in the expiration of the order.
+
+Changing the status to _Shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
+
+The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.

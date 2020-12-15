@@ -16,15 +16,6 @@ The customer has 14 days to complete the payment transaction after receiving the
 
 _If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
 
-### Shipped status
-When receiving a Pay After Delivery transaction, it is important to take the following steps:
-
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _completed_ to _shipped_.  You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status. Not changing the status to _shipped_ can result in the expiration of the order. If you do not change the order status to _shipped_, the order will eventually expire.
-
-* Changing the status to _shipped_ allows Pay After Delivery to initiate the billing process towards the customer. MultiSafepay will guarantee the payout of the transaction.
-
-The _shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
-
 
 **Complete own funds**      
 When the transaction is marked with the _shipped_ status, it is no longer possible to cancel the order. You can, however, close the transaction through the _complete own funds_.      
@@ -110,5 +101,13 @@ Some rules may apply to certain payment methods. For Pay After Delivery, the fol
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
 
+## The 'Shipped' status
+When receiving a Pay After Delivery transaction, it is important to take the following steps:
+
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_.  You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status. You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. Not changing the status to _Shipped_ can result in the expiration of the order. If you do not change the order status to _Shipped_, the order will eventually expire.
+
+* Changing the status to _Shipped_ allows Pay After Delivery to initiate the billing process towards the customer. MultiSafepay will guarantee the payout of the transaction.
+
+The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 
 
