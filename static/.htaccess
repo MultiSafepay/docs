@@ -365,9 +365,11 @@ Redirect 301 /payment-methods/banks/direct-bank-transfer/#product-rules https://
 Redirect 301 /payment-methods/banks/direct-bank-transfer/#activate https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#activate
 Redirect 301 /payment-methods/banks/direct-bank-transfer/#request-refund https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#request-refund
 Redirect 301 /api/#direct-bank-transfer https://docs.multisafepay.com/api/#request-to-pay
+Redirect 301 /api/#partners https://docs.multisafepay.com/tools/partner-account-control/
+Redirect 301 /api/#create-a-merchant-account https://docs.multisafepay.com/tools/partner-account-control/
+Redirect 301 /api/#create-a-website-profile-in-multisafepay-control https://docs.multisafepay.com/tools/partner-account-control/
 
-
-
+ 
 
 
 
