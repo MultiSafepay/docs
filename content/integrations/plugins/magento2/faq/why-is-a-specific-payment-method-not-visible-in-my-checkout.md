@@ -10,12 +10,10 @@ When you enabled a payment method, it should always be visible, even when your A
 
 Be sure that when you use the [Rico Neitzel Payment Filter](https://github.com/riconeitzel/PaymentFilter) that you set the payment method as active in that plugin.
 
-Payment methods may also not be visible in the checkout due to one or more of the following reasons:
+Payment methods may also not be visible in the checkout due to the following:
 
-* One of multiple gateway filters (country, currency, group, amount, shipping) is activated, but not correctly configured
-* Every other gateway filter is activated (not just the one from Rico Neitzel's)
-* Configure errors in the Magento 2 backend in the database that prevents changes from being saved
-* 'app:config:dump' is done, whereby the config can no longer be edited
-* Front-end files cannot be read due to wrong user rights (javascript errors in the front-end)
-* The 'Enabled in checkout' is unchecked for the 'MultiSafepay payment method'
-* The configuration has been executed in the wrong store view.
+When every other gateway filter is activated (not just the one from Rico Neitzel's), another gateway filter outside of MultiSafepay is activated, for example, the one from Rico Neitzel.
+
+Configuration errors in the Magento 2 backend in the database that prevent changes from being saved, lead to configuration errors in the Magento backend and/or the database, which prevent changes from being saved.
+
+The _Enabled in checkout_ is unchecked for the ‘MultiSafepay payment method’. For the MultiSafepay payment method, there is an _Enabled in checkout_ configuration option, which does not show the gateway in the checkout if it is set to _Disabled_.
