@@ -71,6 +71,6 @@ If your method of choice is via SFTP, please make sure our IP is whitelisted. Fo
 
 ## Testing
 
-It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://merchant.multisafepay.com/). 
+It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com/). 
 
 Exporting Klarna Payments reports is also included within this test mode.
