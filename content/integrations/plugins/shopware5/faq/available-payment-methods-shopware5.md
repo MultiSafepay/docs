@@ -56,6 +56,7 @@ __Prepaid cards__
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon
++ Good4fun Giftcard
 + Nationale tuinbon
 + Parfumcadeaukaart
 + Podium
