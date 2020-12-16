@@ -368,13 +368,6 @@ Redirect 301 /api/#direct-bank-transfer https://docs.multisafepay.com/api/#reque
 Redirect 301 /api/#partners https://docs.multisafepay.com/tools/partner-account-control/
 Redirect 301 /api/#create-a-merchant-account https://docs.multisafepay.com/tools/partner-account-control/
 Redirect 301 /api/#create-a-website-profile-in-multisafepay-control https://docs.multisafepay.com/tools/partner-account-control/
-
- 
-
-
-
-
-
 Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrappers/
 Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
 Redirect 301 /integrations/sdk/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
