@@ -8,6 +8,10 @@ read_more: '.'
 ### What is Dankort
 Dankort - a Visa co-branded product - is one of the best-known and most commonly used Danish credit cards. Every credit card with the 'Verified by Visa' logo can be safely used for online payments.
 
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|DK|Multiple|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[Yes](https://docs.multisafepay.com/faq/chargebacks/)|
+
 ### How Dankort works
 Dankort payments are processed through the Visa gateway.
 

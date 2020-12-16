@@ -13,6 +13,10 @@ It brings code improvements, unit/integration testing and it is built on top of 
 
 **Please uninstall the old plugin first, before installing the new one.**
 
+{{< alert-notice >}}
+The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old/) 
+{{< /alert-notice >}}
+
 ### 1. Features
 There are a lot of new features, but there are also some features that are not available as of yet.
 The following features are not available in the new Magento 2 plugin:
@@ -98,7 +102,7 @@ You have installed and configured the plugin successfully. If you have any quest
 ### 7. Updates 
 Run the following commands via the CLI:
 ```shell
-composer update multisafepay/magento2
+composer update multisafepay/magento2 --with-dependencies
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```

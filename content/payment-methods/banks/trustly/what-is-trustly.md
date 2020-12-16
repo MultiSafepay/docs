@@ -12,3 +12,7 @@ Trustly is fast, simple and secure, and it is supported in 29 countries, as foll
 
 Your customers are able to pay from the account of their choice, using their familiar banking credentials.
 
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|See above|EUR, GBP, SEK|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
+

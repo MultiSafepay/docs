@@ -11,3 +11,7 @@ A SEPA Direct Debit is a financial transaction in which one entity withdraws fun
 This payment method gives you the possibility to collect funds from your customer bank account on a recurring basis. SEPA Direct Debit is a standard across Europe to collect funds from your customers by means of previous authorization. Currently [36 countries](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf) fall under the SEPA scheme.
 
 >_Customers can withdraw this payment for 56 days, without giving a reason or you having a possibility to appeal_.
+
+| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|[SEPA Region](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html)|EUR|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|

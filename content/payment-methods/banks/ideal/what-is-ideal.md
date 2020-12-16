@@ -10,4 +10,9 @@ Around 60% of all online transactions in the Netherlands are carried through iDE
 
 As a merchant, your website's name is shown during the finalization of the iDEAL payment. Consequently, transparency is increased as the customer always knows what the payment is meant for. "Your-website-name by MultiSafepay" is also displayed on the bank statement following a successful transaction. 
 
-> iDEAL is a payment method for consumers in the Netherlands. 
+> iDEAL is a payment method for consumers in the Netherlands.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|NL|EUR|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
+

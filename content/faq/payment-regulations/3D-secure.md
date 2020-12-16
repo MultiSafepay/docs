@@ -28,6 +28,7 @@ Based on the risk level of the transaction, two flows can emerge: the *frictionl
 {{< br >}}
 
 Examples of data used for risk assessment include:
+
 * The value of the transaction
 * New or existing customer
 * Transactional history

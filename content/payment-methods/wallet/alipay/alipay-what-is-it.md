@@ -10,3 +10,7 @@ read_more: '.'
 Alipay is a third-party mobile and online payment platform established in China. Alipay has seen a rapid growth in recent years and is fastly becoming one of the largest payment methods for the Chinese market.
 
 For any website with a Chinese target audience and international growth ambitions, Alipay is a highly recommended payment method.
+
+| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+|----------------|-------------------|-----------|------------|------------------|------------|---------------|
+|Wallet|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|EUR, USD|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
