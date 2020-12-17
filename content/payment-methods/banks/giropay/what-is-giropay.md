@@ -10,6 +10,6 @@ Giropay is the leading Internet payment system in Germany. Customers are transfe
 
 Giropay has quickly become the most widely accepted method for online payments in Germany and is available to all customers with online banking.
 
-| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|DE|EUR|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|

@@ -8,6 +8,6 @@ read_more: '.'
 ## What it is
 Mastercard is a major credit card service provider worldwide. Consumers will be able to pay merchants for goods or services using the Mastercard credit card in both physical and online stores.
 
-| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|Multiple|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[Yes](https://docs.multisafepay.com/faq/chargebacks/)|

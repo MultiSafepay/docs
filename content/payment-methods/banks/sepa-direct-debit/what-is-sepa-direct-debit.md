@@ -12,6 +12,6 @@ This payment method gives you the possibility to collect funds from your custome
 
 >_Customers can withdraw this payment for 56 days, without giving a reason or you having a possibility to appeal_.
 
-| Payment type   | Payment flow      | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Bank|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|[SEPA Region](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html)|EUR|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
