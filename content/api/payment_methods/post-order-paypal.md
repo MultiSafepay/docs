@@ -65,6 +65,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "house_number": "39C",
         "zip_code": "1033SC",
         "city": "Amsterdam",
+        "state": "NH",
         "country": "NL",
         "phone": "0208500500",
         "email": "example@multisafepay.com",
@@ -93,6 +94,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "customer": {
       "address1": "Kraanspoor",
       "city": "Amsterdam",
+      "state": "NH",
       "country": "NL",
       "email": "example@multisafepay.com",
       "first_name": "Testperson-nl",
@@ -196,6 +198,12 @@ Contains the personal information of the customer.
 
 ----------------
 
+__state__ | string
+
+To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+
+----------------
+
 Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
 
 ### Direct - PayPal
@@ -248,6 +256,13 @@ __customer__ | object
 Contains the personal information of the customer. 
 
 ----------------
+
+__state__ | string
+
+To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+
+----------------
+
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
