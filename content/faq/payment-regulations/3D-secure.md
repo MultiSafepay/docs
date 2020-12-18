@@ -23,7 +23,7 @@ The Payment Services Directive 2 [(PSD2)](/faq/payment-regulations/payment-servi
 Based on the risk level of the transaction, two flows can emerge: the *frictionless flow* and *challenge flow*. Both flows start after the customer has provided his or her card information. Along with the card information, contextual information from the customer's device is shared with the issuer and merchant to make an informed decision as to request additional authentication or not.
 
 {{< br >}}
-{{< responsive_svg src="/diagrams/3DS-flow" alt="3D Secure Flow" align="center" >}}
+{{< responsive_svg src="/diagrams/svg/3DS-flow" alt="3D Secure Flow" align="center" >}}
 {{< br >}}
 {{< br >}}
 
