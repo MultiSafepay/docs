@@ -10,4 +10,4 @@ Dotpay is a third-party online payment platform established in Poland. For any w
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|PL|EUR, PLN|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
+|Bank|Redirect|PL|EUR, PLN|Full/Partial|No|No|

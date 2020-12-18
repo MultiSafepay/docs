@@ -11,4 +11,4 @@ Bank transfer, also known as SEPA Credit Transfer, is a trusted international an
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Europe|EUR, CZK, PLN, GBP|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
+|Bank|Redirect|Europe|EUR, CZK, PLN, GBP|Full/Partial|No|No|
