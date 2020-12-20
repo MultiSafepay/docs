@@ -9,7 +9,7 @@ __Credit cards__
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Credit cards](/payment-methods/credit-and-debit-cards) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
 
 __Banks__
 

@@ -7,7 +7,7 @@ layout: "faqdetail"
 __Credit cards__
 
 + [Mastercard](/payment-methods/mastercard)
-+ [Visa](/payment-methods/visa) (including [Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards))
++ [Visa](/payment-methods/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
 
 __Banks__
 

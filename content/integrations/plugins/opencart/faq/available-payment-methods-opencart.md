@@ -11,7 +11,7 @@ __Credit cards__
 + [Credit cards](/payment-methods/credit-and-debit-cards) (combine Maestro, Mastercard & Visa in checkout)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
 
 __Banks__
 
