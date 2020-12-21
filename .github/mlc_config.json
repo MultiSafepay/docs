@@ -9,6 +9,11 @@
             "replacement": ""
         }
     ],
+    "ignorePatterns": [
+        {
+          "pattern": "^https://www.example.com"
+        }
+      ],
     "retryOn429": true,
     "aliveStatusCodes": [200, 206, 999]
 }
