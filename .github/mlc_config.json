@@ -2,7 +2,13 @@
     "replacementPatterns": [
         {
             "pattern": "^/",
-	    "replacement": "https://docs.multisafepay.com/"
+	        "replacement": "https://docs.multisafepay.com/"
+        },
+        {
+            "pattern": "&quot;",
+            "replacement": ""
         }
-    ]
+    ],
+    "retryOn429": true,
+    "aliveStatusCodes": [999]
 }
