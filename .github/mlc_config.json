@@ -10,5 +10,5 @@
         }
     ],
     "retryOn429": true,
-    "aliveStatusCodes": [999]
+    "aliveStatusCodes": [200, 206, 999]
 }
