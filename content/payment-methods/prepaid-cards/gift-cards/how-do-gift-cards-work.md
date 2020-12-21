@@ -17,7 +17,7 @@ The amount deducted from the gift card to complete a payment will be paid out by
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Prepaid card|[Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|NL/BE|EUR|n/a|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[No](https://docs.multisafepay.com/faq/chargebacks/)|
+|Prepaid card|Redirect|NL/BE|EUR|n/a|No|No|
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

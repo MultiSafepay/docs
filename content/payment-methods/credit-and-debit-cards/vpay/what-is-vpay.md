@@ -11,4 +11,4 @@ V Pay is the European debit card service from VISA Europe. Merchants can offer t
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|Worldwide|Multiple|Full/Partial|[No](https://docs.multisafepay.com/tools/recurring-payments/)|[Yes](https://docs.multisafepay.com/faq/chargebacks/)|
+|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|No|Yes|

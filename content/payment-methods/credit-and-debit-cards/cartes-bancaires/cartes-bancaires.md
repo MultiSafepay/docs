@@ -10,7 +10,7 @@ Cartes Bancaires - a Visa co-branded product - is one of the best-known and most
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|[Direct/Redirect](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)|FR|Multiple|Full/Partial|[Yes](https://docs.multisafepay.com/tools/recurring-payments/)|[Yes](https://docs.multisafepay.com/faq/chargebacks/)|
+|Credit/Debit|Direct/Redirect|FR|Multiple|Full/Partial|Yes|Yes|
 
 ### How Cartes Bancaires works
 Cartes Bancaires payments are processed through the Visa gateway.
