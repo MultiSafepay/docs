@@ -13,6 +13,13 @@ A descriptor allows you to display your company name on a customers' bank statem
 1. Navigate to _Settings_ --> _Website settings_
 2. Fill in your company name in the field _Name_
 
-The descriptor is applicable for iDEAL, VISA, Mastercard, Bancontact
+The descriptor will appear and can be adjusted as shown below for the following payment methods:
+
+
+* iDEAL -> _(trade name) via MultiSafepay_
+* Bancontact -> 
+* Direct Debit -> _MultiSafepay (account holder name)_
+* Credit Cards -> _Legal name as known to MultiSafepay_
+* Sofort -> _MultiSafepay_
 
 _Please note that the new name may only be maximum 35 characters._
