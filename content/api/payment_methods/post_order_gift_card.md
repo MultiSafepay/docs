@@ -142,6 +142,7 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Fashioncheque                  | FASHIONCHQ                  |   |
 | Fashiongiftcard                | FASHIONGFT                  |   |
 | Fietsenbon                     | FIETSENBON                  |   |
+| Good4fun                       | GOOD4FUN                    |   |
 | Gezondheidsbon                 | GEZONDHEID                  |   |
 | Nationale bioscoopbon          | NATNLBIOSC                  |   | 
 | Nationaletuinbon               | NATNLETUIN                  |   |
