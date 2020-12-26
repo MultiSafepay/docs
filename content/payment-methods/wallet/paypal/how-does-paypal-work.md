@@ -32,7 +32,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Uncleared                      | Initialized                | An 'Uncleared' transaction without a reason is due to a configuration in your PayPal business account. The 'Uncleared' transactions are paid in a currency that is not enabled in your PayPal account. It is important to enable that specific currency in your PayPal account in order for the order status to change to 'Completed' in your MultiSafepay Control. |
 
 
-#### Refund flow
+### Refund flow
 
 
 | Order Status                    | Transaction Status        | Description |
