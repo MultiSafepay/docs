@@ -15,7 +15,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Second Chance
 
-If the customer didn't finish the payment, MultiSafepay can send reminders on your behalf.
+If the customer didn't finish the payment, you can send a reminder in the form of a payment link.
+
+As per GDPR requirements MultiSafepay does not submit emails by default. Please ensure that when enabling this option, there is a documented consent from the receiver for submitting an email related to the respective payment link.
 
 It is possible to enable/disable the Second Chance message per transaction. The system uses the following rules:
 
@@ -31,12 +33,7 @@ When __no value is stated__, Second Chance reminders will be sent.
 ----------------
 __send_email__ | string
 
-When this parameter is set to __false__, Second Chance reminders will not be sent.
-
-----------------
-__send_email__ | string
-
-When this parameter is set to __true__, Second Chance reminders will be sent.
+Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
 
 ----------------
 

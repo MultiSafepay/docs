@@ -5,14 +5,14 @@ meta_title: "Second Chance, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
-When a customer initiates a payment, but does not finish it for any reason, MultiSafepay will send a Second Chance reminder email. Included in these emails, there is a payment link that will allow the customer to finalize the payment. The first Second Chance email is sent after **1 hour** and the second after **24 hours** after the initial transaction was started.
+When a customer initiates a payment, but does not finish it for any reason, a Second Chance reminder email can be sent. Included in these emails, there is a payment link that will allow the customer to finalize the payment. The first Second Chance email can be sent after **1 hour** and the second after **24 hours** after the initial transaction was started.
 
 _**A Second Chance email can be sent as long as the email address of the customer is included in the transaction request.**_
 
 ## When is the Second Chance email excluded?
 
 **Transaction status**         
-The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
+The transaction status indicates the payment status of the transaction, such as _Cmpleted_, _Pending_ or _Rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
 The Second Chance email cannot be activated and/or sent to the customer when the transaction status of the original transaction states:
 
@@ -30,7 +30,9 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 * [Direct Debit](/payment-methods/direct-debit)
 
 ## Altering the Second Chance configuration
-At the moment you can not change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
+At the moment you can not change the Second Chance email in the settings. __As per GDPR requirements MultiSafepay does not submit emails by default. Please ensure that when enabling this option, there is a documented consent from the receiver for submitting an email related to the respective payment link.__ When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
+
+For more information about how the Second Chance reminder can be sent through our API, please see the section on [generating a payment link](https://docs.multisafepay.com/api/#generating-a-payment-link)
 
 The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail)
 
