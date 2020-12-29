@@ -120,6 +120,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
+{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay Control. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work/) {{< /alert-notice >}}
+
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
@@ -135,6 +137,12 @@ Specifies the payment flow for the checkout process. Options: direct, redirect, 
 __gateway__ | string
 
 The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: IDEAL.
+
+----------------
+
+__recurring_id__ | string
+
+The recurring_id is a unique id that can be used to process subsequent payments.
 
 ----------------
 __order_id__ | integer / string
