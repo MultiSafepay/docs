@@ -33,7 +33,7 @@ Cancellation of a transaction based on a sessionid
 ----------------
 __status__ | string
 
-The status of the order. 
+The status of the order. Options: cancelled
 
 ----------------
 __exclude_order__ | integer
