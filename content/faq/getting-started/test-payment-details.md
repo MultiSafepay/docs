@@ -242,6 +242,12 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 | ------------------- | --------- | ------------------------ |
 | 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
 
+## Paysafecard
+
+Currently, it is not possible to test with Paysafecard.
+
+If you have any questions, please contact <integration@multisafepay.com>
+
 
 ## Pay After Delivery (Betaal na Ontvangst)
 
