@@ -55,6 +55,6 @@ Some rules may apply to certain payment methods. For SOFORT Banking, the followi
 
 * Minimum amount for SOFORT transactions must be € 0,10 EUR.
 
-* Transactions must be processed in the countries listed in the beginning of this document, otherwise a 1024 error will be returned upon completion of payment.
+* Transactions must be processed in the countries listed in the beginning of this page, otherwise a 1024 error will be returned upon completion of payment.
 
 
