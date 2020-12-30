@@ -96,6 +96,7 @@ Direct iDEAL transactions can have the following Issuers:
 | 1234     | Moneyou               |
 | 0021     | Rabobank              |
 | 0771     | Regio Bank            |
+| Soon supported | Revolut         |
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |
