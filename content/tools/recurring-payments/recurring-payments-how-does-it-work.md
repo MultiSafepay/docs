@@ -80,7 +80,7 @@ POST - /orders
 
 ```
 
-_**Always use the correct payment gateway for each payment method used. Visa, Mastercard or American Express should be sent as gateway within the JSON request. More information about this can be found in the standard integration manual on our [API Documentation page](/api/#direct-debit)**_.
+Always use the correct payment gateway for each payment method used. Visa, Mastercard or American Express should be sent as gateway within the JSON request. More information about this can be found in the standard integration manual on our [API Documentation page](/api/#recurring-payment).
 
 ### Processing recurring payments from another Payment service provider
 
