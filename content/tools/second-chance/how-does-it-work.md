@@ -2,7 +2,7 @@
 title: "Second Chance, How it works"
 weight: 61
 meta_title: "Second Chance, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 When a customer initiates a payment, but does not finish it for any reason, MultiSafepay will send a Second Chance reminder email. Included in these emails, there is a payment link that will allow the customer to finalize the payment. The first Second Chance email is sent after **1 hour** and the second after **24 hours** after the initial transaction was started.

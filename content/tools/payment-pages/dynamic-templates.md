@@ -2,7 +2,7 @@
 title : "How to use dynamic styling for a Payment page?"
 weight: 41
 meta_title: "Payment pages - Dynamic templates - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 For merchants with a __custom integration__ via [JSON API MultiSafepay](/api), we also offers dynamic styling of the templates. This means you can change the look and feel of a payment page per transaction.
