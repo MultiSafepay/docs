@@ -2,7 +2,7 @@
 title: "N-Codes and description"
 weight: 
 meta_title: "What are N-Codes - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 In the accountant export you can use filters to select a specific payment method or period. This allows you to quickly get the data you need. To filter your transactions you can use the **N-codes** filter in the accountant export.

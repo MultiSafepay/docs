@@ -2,7 +2,7 @@
 title: 'Pay After Delivery'
 weight: 170
 meta_title: "Payment methods Pay After Delivery - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg' 
 short_description: 'Suitable for Dutch merchants allowing consumers to pay after they have received their order.'
