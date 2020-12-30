@@ -12,6 +12,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + [Bancontact](/payment-methods/bancontact)
 + [Belfius](/payment-methods/belfius)
 + [KBC](/payment-methods/kbc)
++ [Klarna](/payment-methods/billing-suite/klarna/)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Giropay](/payment-methods/giropay)
 + [Maestro](/payment-methods/maestro)
