@@ -15,9 +15,11 @@ The installation can be carried out in three ways:
 
 In this manual we describe the installation via Composer.
 
+**Please note**: Security updates for Drupal 8.9.x are no longer provided by Drupal. Drupal 8.9.x receives bugfix support until early 2021 and security fixes until November 2021. To learn more about upgrading from Drupal 8 to Drupal 9, visit [Drupal's documentation](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher)
+
 {{% introduction_plugin "Drupal 8 & 9" %}}
 
-### 1. Requirements  - Drupal 8.8 and above or Drupal 9.x
+### 1. Requirements  - Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 
