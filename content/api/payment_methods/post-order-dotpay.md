@@ -91,5 +91,5 @@ __customer__ | object
 
 ----------------
 
-Read more about [Dotpay](/payment-methods/dotpay) on our documentation page.
+Read more about [Dotpay](/payment-methods/banks/dotpay) on our documentation page.
 {{< /description >}}
