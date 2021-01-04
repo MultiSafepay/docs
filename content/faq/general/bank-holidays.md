@@ -12,13 +12,6 @@ During the year, payouts are sometimes put on hold due to Bank holidays and the 
 
 MultiSafepay pays out every business day of the year (excluding weekends), although Bank holidays can delay payouts by a day or two. Since the days differ on a yearly basis, you can contact our Support team for more information regarding these specific dates at <support@multisafepay.com>
 
-## Delayed payouts 2020
-
-Below you can find a table with delayed payouts for 2020:
-
-| Date   | Occasion     | Payout possibility |
-|----------------|-------------------|-----------|
-|  Friday, 25 December 2020 | Christmas Day     | No  |
 
 ## Delayed payouts 2021
 
