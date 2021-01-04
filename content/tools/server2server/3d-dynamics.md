@@ -12,7 +12,7 @@ Based on a predefined set of rules, an order will be processed with or without [
 
 
 {{< alert-notice >}}
-__Please note__: Starting January 1st 2021, we no longer support Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
+__Please note__: Since January 1st 2021, we no longer support Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
 {{< /alert-notice >}}
 
 The following information is required:
