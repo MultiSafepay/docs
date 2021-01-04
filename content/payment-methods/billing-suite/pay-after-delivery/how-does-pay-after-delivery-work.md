@@ -102,11 +102,13 @@ Some rules may apply to certain payment methods. For Pay After Delivery, the fol
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
 
 ## The 'Shipped' status
-When receiving a Pay After Delivery transaction, it is important to take the following steps:
+When receiving an order paid for with Pay After Delivery, it is important to keep a number of things in mind.
 
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_.  You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status. You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. Not changing the status to _Shipped_ can result in the expiration of the order. If you do not change the order status to _Shipped_, the order will eventually expire.
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our plugins.
 
-* Changing the status to _Shipped_ allows Pay After Delivery to initiate the billing process towards the customer. MultiSafepay will guarantee the payout of the transaction.
+ You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
+
+Changing the status to _Shipped_ allows Pay After Delivery to initiate the billing process towards the customer. Pay After Delivery will guarantee the payout of the transaction.
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 
