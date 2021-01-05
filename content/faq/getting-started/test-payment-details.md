@@ -240,7 +240,7 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
+| 5500000000000004 | Completed | Transaction is Completed (3D enrolled) |
 
 ## Paysafecard
 
