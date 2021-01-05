@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay Drupal 8 & 9 installation & configuration manual"
 meta_title: "Drupal 8 & 9 plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ### Introduction  
@@ -15,9 +15,11 @@ The installation can be carried out in three ways:
 
 In this manual we describe the installation via Composer.
 
+**Please note**: Security updates for Drupal 8.9.x are no longer provided by Drupal. Drupal 8.9.x receives bugfix support until early 2021 and security fixes until November 2021. To learn more about upgrading from Drupal 8 to Drupal 9, visit [Drupal's documentation](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher)
+
 {{% introduction_plugin "Drupal 8 & 9" %}}
 
-### 1. Requirements  - Drupal 8.8 and above or Drupal 9.x
+### 1. Requirements  - Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 

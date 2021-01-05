@@ -1,7 +1,7 @@
 ---
 title : "Test Payment Details"
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -240,7 +240,7 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
+| 5500000000000004 | Completed | Transaction is Completed (3D enrolled) |
 
 ## Paysafecard
 

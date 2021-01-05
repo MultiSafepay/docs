@@ -2,7 +2,7 @@
 title: "Betaal per Maand, How it works"
 weight: 21
 meta_title: "Betaal per Maand, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # How it works
@@ -16,16 +16,6 @@ Betaal per Maand is an online payment method that allows customers to pay for on
 * When a Betaal per Maand transaction is uncleared, Betaal per Maand will authorize or decline the transaction.
 
 When a transaction has been accepted, the risk of the merchant is assumed entirely by Betaal per Maand, who will contact the customer with the payment details. The customer can select the most suitable payback period and ways to fulfill the monthly payment to Betaal per Maand.
-
-### The Shipped status
-
-When receiving a Betaal per Maand transaction, it is important to take the following steps:
-
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _completed_ to _shipped_.  You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) or in some cases, in your ecommerce platform (automatically). Not changing the status to _shipped_ can result in the expiration of the order.
-
-Changing the status to _shipped_ allows Betaal per Maand to initiate the billing process towards the customer. Betaal per Maand will guarantee the payout of the transaction.
-
-The _shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 
 ## Payout
 The payout of a Betaal per Maand transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from Betaal per Maand. MultiSafepay will process the payout from a Betaal per Maand transaction within 5 business days.
@@ -79,4 +69,14 @@ Some rules may apply to certain payment methods. For Betaal per Maand, the follo
 
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
+## The 'Shipped' status
+When receiving an order paid for with Betaal per Maand, it is important to keep a number of things in mind.
+
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our plugins.
+
+ You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
+
+Changing the status to _Shipped_ allows Betaal per Maand to initiate the billing process towards the customer. Betaal per Maand will guarantee the payout of the transaction.
+
+The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 

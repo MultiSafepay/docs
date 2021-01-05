@@ -2,7 +2,7 @@
 title: "Bank transfer, How does it work?"
 weight: 21
 meta_title: "Bank transfer, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 ## How does it work?
 When the customer selects bank transfer as payment method, the bank account details of MultiSafepay will be sent by email. Based on the settings, the sender can be MultiSafepay itself or your ecommerce platform. The email will be sent to the email address provided by the customer when placing the order.

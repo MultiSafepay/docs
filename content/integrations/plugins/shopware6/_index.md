@@ -6,7 +6,7 @@ download_url : "https://github.com/MultiSafepay/shopware6/releases/download/2.1.
 manual: "."
 faq: "."
 newsletter: "Shopware"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/Shopware_6.svg"
 weight: 120
 title_short: "Shopware 6"

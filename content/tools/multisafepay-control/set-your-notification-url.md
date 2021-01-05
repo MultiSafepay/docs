@@ -2,7 +2,7 @@
 title : "Notification URL"
 weight: 34
 meta_title: "MultiSafepay Control - How to set notification URL? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## What do I need to fill in the notification URL field in MultiSafepay Control?
