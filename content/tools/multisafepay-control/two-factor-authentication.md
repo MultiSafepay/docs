@@ -13,7 +13,7 @@ Two-factor authentication (2FA) requires users to verify their identity with two
 Enabling 2FA is a two-step process. First, a user with administrator rights enables 2FA in the user settings. Then, users can individually configure 2FA on their own mobile devices. You can find more detailed steps below.
 
 ### Step 1: The administrator's steps
-Please note that only a user with administration rights can perform these steps:  
+Please note that only a user with administrator rights can perform these steps:  
 1. Open the [User Management](https://merchant.multisafepay.com/user-management) page in your MultiSafepay Control
 2. Open a user's details by clicking their name
 3. Click the drop-down list 'Two-factor' and select 'Enable'
