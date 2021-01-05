@@ -107,7 +107,7 @@ Customer will be redirected to this page after a failed payment.
 
 ----------------
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+__Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
 
 Read more about [Mastercard](/payment-methods/credit-and-debit-cards/mastercard) on our documentation page.
 
