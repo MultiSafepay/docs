@@ -5,7 +5,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-You can find the icons of the payment methods in your MultiSafepay Control on [this page](https://merchant.multisafepay.com/payment-logo-designer)
+You can find the icons of the payment methods in your MultiSafepay Control [here](https://merchant.multisafepay.com/payment-logo-designer)
 
 A complete list of icons from all supported payment methods can be found in the following [GitHub repository](https://github.com/MultiSafepay/MultiSafepay-icons)
-
