@@ -25,6 +25,7 @@ It is worthy to mention testing with Apple Pay can only be conducted when the fo
 1. A [compatible](https://support.apple.com/en-us/HT208531) device is being used
 2. A Safari browser is being used
 3. The website is using HTTPS
+4. Maestro must be activated
 
 If one of these requirments is not met, Apple Pay will not appear on the checkout page.
 
