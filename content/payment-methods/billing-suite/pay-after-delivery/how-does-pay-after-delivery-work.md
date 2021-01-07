@@ -16,14 +16,13 @@ The customer has 14 days to complete the payment transaction after receiving the
 
 _If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
 
-
 **Complete own funds**      
-When the transaction is marked with the _shipped_ status, it is no longer possible to cancel the order. You can, however, close the transaction through the _complete own funds_.      
+When the transaction is marked with the _Shipped_ status, it is no longer possible to cancel the order. You can, however, close the transaction through the _Complete own funds_.        
 
 **Example:**      
 In some cases, the customer pays the outstanding amount of the transaction directly to the webshop. This allows you to link the received payment to the outstanding transaction through _Complete own Funds_. Hereby you complete the outstanding transaction. The total amount of the transaction is deducted from your MultiSafepay balance and the transaction is finalized. 
 
-When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
+When the customer has not supplied a payment, the transaction can be cancelled by _Refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
 
 ### Payment flow
 As soon as your customer selects the payment method Pay After Delivery, he or she agrees with the terms and conditions. 
