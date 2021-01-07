@@ -234,6 +234,8 @@ Customer’s provided email address. Used to send Second Chance emails and in fr
 
 __user_agent__ | string
 
+A characteristic string that identifies a browser.
+
 ----------------
 
 ### referrer
@@ -242,5 +244,8 @@ __user_agent__ | string
 
 __referrer__ | string
 
+Identification of where the user/browser is originating from.
+
+----------------
 
 {{% /description %}}
