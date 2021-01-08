@@ -8,6 +8,8 @@ read_more: '.'
 # Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
+In order to activate Betaal per Maand, please contact <sales@multisafepay.com>
+
 ### Qualification criteria of Betaal per Maand and MultiSafepay
 
 In order to be able to offer Betaal per Maand as a payment method within MultiSafepay Control, certain criteria need to be met.
