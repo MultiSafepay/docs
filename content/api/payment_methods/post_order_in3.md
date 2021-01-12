@@ -577,7 +577,7 @@ Contains all purchased items including tax class.
 
 __unit_price__ | decimal
 
-The unit price (in decimals) of the specific product.
+The unit price (in decimals) of the specific product. A maximum of 10 decimal places is accepted.   
 
 ----------------
 __checkout_options__ | object
@@ -688,7 +688,7 @@ Contains all purchased items including tax class.
 
 __unit_price__ | decimal
 
-The unit price (in decimals) of the specific product.
+The unit price (in decimals) of the specific product. A maximum of 10 decimal places is accepted.   
 
 ----------------
 __checkout_options__ | object

@@ -55,7 +55,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| unit_price                         | decimal  | The unit price (in decimals) of the specific product.                                                                            |
+| unit_price                         | decimal  | The unit price (in decimals) of the specific product. A maximum of 10 decimal places is accepted.                                                                            |
 
 
 ### quantity
