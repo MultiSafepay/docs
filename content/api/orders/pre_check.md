@@ -249,8 +249,13 @@ Contains the delivery information for the shipment. Values for first_name and la
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
 
+----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page.
 
 
 {{< /description >}}

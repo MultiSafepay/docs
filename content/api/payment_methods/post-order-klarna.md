@@ -218,7 +218,13 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.                                  
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page.
 
 ----------------
 __checkout_options__ | object
@@ -321,7 +327,13 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.                                  
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page.
 
 ----------------
 __checkout_options__ | object
