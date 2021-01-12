@@ -315,7 +315,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.                                  
+Contains all order rules and applicable tax classes.
+
+__unit_price__ | decimal
+
+The unit price (in decimals) of the specific product.
 
 ----------------
 __checkout_options__ | object
@@ -424,7 +428,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.                                  
+Contains all order rules and applicable tax classes.
+
+__unit_price__ | decimal
+
+The unit price (in decimals) of the specific product.
 
 ----------------
 __checkout_options__ | object

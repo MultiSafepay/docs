@@ -250,7 +250,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.                                   
+Contains all purchased items including tax class.
+
+__unit_price__ | decimal
+
+The unit price (in decimals) of the specific product.
 
 ----------------
 __checkout_options__ | object
@@ -360,7 +364,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.                                   
+Contains all purchased items including tax class.
+
+__unit_price__ | decimal
+
+The unit price (in decimals) of the specific product.
 
 ----------------
 __checkout_options__ | object

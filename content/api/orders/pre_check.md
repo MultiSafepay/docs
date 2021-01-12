@@ -251,6 +251,11 @@ __shopping_cart__ | object
 
 Contains all purchased items including tax class.
 
+----------------
+
+__unit_price__ | decimal
+
+The unit price (in decimals) of the specific product.
 
 
 {{< /description >}}
