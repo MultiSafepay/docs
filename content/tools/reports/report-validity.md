@@ -8,4 +8,4 @@ read_more: '.'
 
 ## Report validity
 
-The accountant export report can be exported until 2 years ago. Currently, it is not possible to generate reports beyond 2 years.
+The accountant export report can be exported until 2 years ago. It is not possible to generate reports beyond 2 years.

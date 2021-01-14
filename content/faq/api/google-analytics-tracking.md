@@ -12,4 +12,4 @@ However, this is restricted only to redirect orders. If a customer reaches the M
 
 For direct orders (e.g. iDEAL direct, some cases of Klarna, AfterPay, etc.), there is no tracking available, as customers will not pass through a MultiSafepay page after checkout and before the successful payment page. 
 
-> We are currently working on updating the documentation on Google Analytics to accommodate as many of your possible queries as possible. Please check again soon! 
+> We are working on updating the documentation on Google Analytics to accommodate as many of your possible queries as possible. Please check again soon! 

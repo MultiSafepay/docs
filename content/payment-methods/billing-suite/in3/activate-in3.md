@@ -8,6 +8,6 @@ read_more: '.'
 
 ## Activate
 
->_Currently, MultiSafepay offers in3 only in the Netherlands._
+>_MultiSafepay offers in3 only in the Netherlands._
 
 To apply for in3, please contact <sales@multisafepay.com>
