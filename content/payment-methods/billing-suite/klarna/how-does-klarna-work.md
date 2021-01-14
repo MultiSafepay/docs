@@ -97,3 +97,9 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 Changing the status to _Shipped_ allows Klarna to initiate the billing process towards the customer. Klarna will guarantee the payout of the transaction.
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
+
+## Fees
+
+Unlike other payment methods, the fee is not charged directly after an order is placed. In the transaction details you will always find the merchant fee to be 0,00.
+
+MultiSafepay will charge your account when the actual payment is settled. There will be one or more transactions created in your transaction overview.
