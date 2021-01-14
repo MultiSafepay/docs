@@ -62,6 +62,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "locale": "nl_NL",
         "country": "NL",
         "ip_address": "89.20.162.110",
+        "disable_send_email": false,
     }
 }
 
@@ -315,6 +316,13 @@ Displays the correct language and payment methods on the payment page. It also h
 __ip_address__ | string
 
  The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
+
+ ----------------
+
+  __disable_send_email (optional)__	| boolean
+
+Set to _True_ if you will send your own bank transfer payment instructions to consumers and do not want MultiSafepay to do this.
+
 
 ----------------
 __email__ | string

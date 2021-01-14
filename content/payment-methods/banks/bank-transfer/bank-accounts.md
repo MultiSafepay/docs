@@ -28,4 +28,8 @@ The customer will pay the regular national fees charged by the customer's bank.
 
 Please keep in mind that USD (Dollar) is not supported due to the very high transaction and conversion costs for the customer. 
 
+## Email notifications
+
+If you prefer to send payment instructions to the consumer yourself, you can use the *disable_send_email* parameter in a JSON _Direct_ request. For more information please see our API documentation regarding [Bank transfer](https://docs.multisafepay.com/api/#direct-bank-transfer)
+
 
