@@ -34,7 +34,7 @@ If one of these requirments is not met, Apple Pay will not appear on the checkou
 
 If you would like to conduct testing in a Test environment, we suggest testing using an [Apple Pay Sandbox account]((https://developer.apple.com/apple-pay/sandbox-testing/))
 
-_Please note: Maestro must be activated in your MultiSafepay Control and the abovementioned requirements also apply for the Test environment._  
+_Please note: Maestro must be activated in your MultiSafepay Control and the [abovementioned requirements](/payment-methods/wallet/applepay/#live-environment/) also apply for the Test environment._  
 
 Further instructions on how to use Apple Pay can be found directly on the offical [Apple website](https://support.apple.com/en-us/HT201239)
 
