@@ -33,7 +33,6 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)<br>
 [Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)<br>
 [Solaiman el Bacha](https://www.linkedin.com/in/solaimanelbacha)<br>
-[Robin Smiet](https://www.linkedin.com/in/robin-smiet)<br>
 [Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
 [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)
 
