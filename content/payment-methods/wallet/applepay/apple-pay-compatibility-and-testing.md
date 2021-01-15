@@ -28,7 +28,7 @@ It is worthy to mention testing with Apple Pay can only be conducted when the fo
 2. A Safari browser is being used
 3. The website is using HTTPS
 
-If one of these requirments is not met, Apple Pay will not appear on the checkout page.
+If one of these requirements is not met, Apple Pay will not appear on the checkout page.
 
 #### Test environment
 
