@@ -14,6 +14,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "currency": "EUR",
     "amount": "1000",
     "description": "Test Order Description",
+    "second_chance": { 
+        "send_email" : true
+    },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -25,6 +28,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     }
 }
 ```
+
 
 > JSON Response
 
@@ -53,13 +57,13 @@ As per GDPR requirements, MultiSafepay does not submit emails by default. If you
 
 {{< alert-notice >}} Please note: Payment links will no longer send Second Chance emails by default. It is the responsibility of the merchant to include the Second Chance script in the JSON request. See the Second Chance JSON script on the right-hand side. {{< /alert-notice >}}
 
-__Optional__
+__Optional parameters__
 
 __second_chance__ | object
 
-When __no value is stated__, Second Chance reminders will be sent.
+Sends a payment reminder to the customer in the form of an email.
 
-__send_email__ | string
+__send_email__ | boolean
 
 Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
 
