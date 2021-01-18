@@ -36,7 +36,7 @@ From your webserver we received the following transaction request:
 When the status of this transaction changes, we will notify your web server with this URL through a **GET** request.
 https://yourdomain.com/index/paymentprovidernotification?invoice_id=840&transactionid=12345&timestamp=140292929
 
-__Please note:__ The *transaction_id* within the notification url should retain the same value as that of the *order_id*
+__Please note:__ Within the notification url, the *transaction_id* should have the same value as the *order_id*
 
 Carry out the following 3 tasks within your custom implementation: 
 
