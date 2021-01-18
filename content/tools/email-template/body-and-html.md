@@ -34,7 +34,7 @@ With our template editor, it is possible to add your own logo to the e-mail. Thi
 
 1. Navigate to Settings --> Email templates --> Click on the desired website --> Click on the orange pen icon to edit the template
 2. Press on the Image icon in the first row of the editor to open the Image-properties window
-3. Retrieve the link of your uploaded logo image and fill in your Account ID and the filename of the uploaded image using the following URL: https://payv2.multisafepay.com/files/{{accountid}}/{{filename}
+3. Retrieve the link of your uploaded logo image and fill in your Account ID and the filename of the uploaded image using the following URL: [https://pay.multisafepay.com/files/{accountid}/{filename|https://payv2.multisafepay.com/files/%7B%7Baccountid%7D%7D/%7B%7Bfilename]}
 4. Add the URL in the URL field and press OK. It is possible to configure additional parameters such as Height, Border, HorizontalSpace, VerticalSpace and alignment of the image.
 
 
