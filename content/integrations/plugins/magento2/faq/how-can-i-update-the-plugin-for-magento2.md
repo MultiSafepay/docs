@@ -8,7 +8,7 @@ read_more: "."
 
 The plugin can be updated via [Composer](https://getcomposer.org)
 
-Before you update the plugin, we strongly recommend you the following:
+Before you update the plugin, we strongly recommend the following:
 
 * Make sure you have a backup of your production environment
 * Test the plugin in a staging environment.
