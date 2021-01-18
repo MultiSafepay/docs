@@ -5,6 +5,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-On the 1st of January 2021, the United Kingdom left the European Union. This may lead you to wonder _What it means for you_ as a merchant of MultiSafepay.
+On the 1st of January 2021, the United Kingdom left the European Union. This may lead you to wonder _what it means for you_ as a merchant of MultiSafepay.
 
 MultiSafepay would like to assure you that there will be __no changes__ to the services that MultiSafepay offers. Your agreements with MultiSafepay will therefore remain the same and the services we offer will continue to operate at a high level.
