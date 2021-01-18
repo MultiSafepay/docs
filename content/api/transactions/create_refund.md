@@ -37,7 +37,7 @@ Total or partial refund of an order
 ----------------
 __order_id__ | integer / string
 
-The unique identifier of the order.  
+The identifier of the order, equal to the order_id you want to refund.
 
 ----------------
 __currency__ | string
