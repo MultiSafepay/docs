@@ -57,7 +57,7 @@ try {
 
 If this code is not implemented in the front-end of your platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay. We highly recommend using the abovementioned code to avoid any issues.
 
-Please note that the code that does block the display of Apple Pay on a non-supported device. It is reccomended to extend the script to your own needs in order to hide Apple Pay.
+Please note that the code that does not block the display of Apple Pay on a non-supported device. It is reccomended to extend the script to your own needs in order to hide Apple Pay.
 
 * All parameters shown are required field(s)
 
