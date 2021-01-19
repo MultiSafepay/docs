@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-Outgoing payments such as refunds and withdrawls may be delayed depending on the bank the payment has been issued through.
+Outgoing payments such as refunds and withdrawals may be delayed depending on the bank the payment has been issued through.
 
 As soon as outgoing payments are passed on to a bank, the status of an order will change from _Reserved_ to _Completed_ around midnight. It is then the responsibility of the bank to process the outgoing payment.
 
