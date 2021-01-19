@@ -28,4 +28,8 @@ The customer will pay the regular national fees charged by the customer's bank.
 
 Please keep in mind that USD (Dollar) is not supported due to the very high transaction and conversion costs for the customer. 
 
+## Email notifications
+
+If you prefer to send payment instructions to the customer yourself, set the *disable_send_email* parameter to _false_ in the corresponding API call. In this case, MultiSafepay does not send the customer an email notification.
+For more information please see our API documentation regarding [Bank transfer](https://docs.multisafepay.com/api/#direct-bank-transfer)
 

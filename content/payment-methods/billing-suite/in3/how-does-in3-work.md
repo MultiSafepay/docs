@@ -54,7 +54,7 @@ Some rules may apply to certain payment methods. For in3, the following rules ap
 
 * Payments can only be completed in Euros (EUR)
 
-* Currently, in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
+* in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
 
 * The default amount for an in3 payment is 100 EUR and maximum 3000 EUR
 

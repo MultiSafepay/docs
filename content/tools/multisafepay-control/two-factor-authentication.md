@@ -43,7 +43,7 @@ Please keep in mind that upon every login a newly generated 6-digit token is req
 {{< br >}}
 
 ### Can I use one device for multiple users?
-Currently one mobile device can only be connected to one user and only one user can be connected to one mobile device. This means there is a unique link between every one user and one device.
+Only one mobile device can only be connected to one user and only one user can be connected to one mobile device. This means there is a unique link between every one user and one device.
 
 ### Why can I not enable 2FA on my account?
 To enable or disable 2FA, you must have administrator rights. If this doesn't answer your question, please [contact support](mailto:support@multisafepay.com)
@@ -55,7 +55,7 @@ After 5 unsuccessful 6-digit token inputs, the account is blocked. Only users wi
 No, this is not required. 2FA provides an extra layer of security to your data. However, it is not mandatory to enable 2FA on every user account.
 
 ### Can I choose a different verification method?
-No. Currently we implement 2FA through the use of a password and a 6-digit token. 
+Unfortunately, no. We implement 2FA through the use of a password and a 6-digit token. 
 
 ### In what countries is 2FA supported?
 2FA is supported in every country. The MultiSafepay app is available for [iOS](https://apps.apple.com/nl/app/multisafepay-control/id929955963) and [Android](https://play.google.com/store/apps/details?id=com.multisafepay.control).

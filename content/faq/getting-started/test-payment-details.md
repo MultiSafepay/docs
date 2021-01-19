@@ -149,7 +149,7 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 ## Gift cards
 
-MultiSafepay provides a test platform currently only for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
 
 When activating a gift card as payment method in a live MultiSafepay Control, the payment method can be tested before release.
 
@@ -244,7 +244,7 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 ## Paysafecard
 
-Currently, it is not possible to test with Paysafecard.
+It is not possible to test with Paysafecard.
 
 If you have any questions, please contact <integration@multisafepay.com>
 
@@ -279,7 +279,7 @@ Contact us at <integration@multisafepay.com> to enable recurring payment in your
 
 ## Santander Betaal per Maand
 
-Currently no test data available for the payment method Santander.
+No test data is available for the payment method Santander.
 
 When activating Santander Betaal per Maand as payment method in a live MultiSafepay Control, the payment method will be tested before release.
 

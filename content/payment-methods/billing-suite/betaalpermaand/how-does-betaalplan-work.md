@@ -80,3 +80,17 @@ Changing the status to _Shipped_ allows Betaal per Maand to initiate the billing
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 
+### The 'Shipped' status explained
+
+As soon as Santander has approved the transaction, it is displayed in the MultiSafepay Control as well as the system (backend) you are using via a push notification. More information regarding the push notification can be read on ['How does the notification url work'](https://docs.multisafepay.com/faq/api/how-does-the-notification-url-work/)
+
+The Order status will be marked as _Completed_ and therefore you may deliver the order.
+
+As soon as you have a track-and-trace code, you can confirm the order shipment to Santander via MultiSafepay. Changing the status of an order can be done manually in two ways:
+
+1. Through the [MultiSafepay Control](https://merchant.multisafepay.com/) by changing the Order status to _Shipped_ in the transaction itself
+2. Processing the change through a notification to MultiSafepay by changing the status of the order to _Shipped_ and providing the track-and-trace code.
+
+Additional information on how to update an order can be found in our API section on ['Update an order'](https://docs.multisafepay.com/api/#update-an-order)
+
+{{< alert-notice >}} __Important!__ Santander pays out the total value of your order within 5 working days after receiving the order shipment confirmation (_Shipped_ status) {{< /alert-notice >}}

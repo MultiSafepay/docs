@@ -79,7 +79,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 __id__ | string
 
-The unique identifier of the payment gateway to retrieve an issuer list for. Currently supported identifiers are: [iDEAL](#ideal-issuers) 
+The unique identifier of the payment gateway to retrieve an issuer list for. Supported identifiers are: [iDEAL](#ideal-issuers) 
 
 ----------------
 

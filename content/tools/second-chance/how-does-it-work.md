@@ -30,7 +30,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 * [Direct Debit](/payment-methods/direct-debit)
 
 ## Altering the Second Chance configuration
-At the moment you can not change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
+It is not possible to change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
 
 The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail)
 

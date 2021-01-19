@@ -95,7 +95,7 @@ Some rules may apply to certain payment methods. For Pay After Delivery, the fol
 
 * Pay After Delivery transactions are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-* Currently, Pay After Delivery is only offered in the Netherlands
+* Pay After Delivery is only offered in the Netherlands
 
 * As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Pay After Delivery). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
 

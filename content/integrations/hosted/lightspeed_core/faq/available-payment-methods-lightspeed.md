@@ -12,6 +12,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + EPS
 + Giropay
 + iDEAL
++ in3
 + ING Home'Pay
 + KBC
 + Maestro

@@ -8,7 +8,7 @@ read_more: '.'
 
 # Activate 
 
->_Currently MultiSafepay offers AfterPay in the Netherlands and Belgium._
+>_MultiSafepay offers AfterPay in the Netherlands and Belgium._
 
 To apply for AfterPay, go to [AfterPay.nl](https://www.afterpay.nl/nl/zakelijk/offerte) or [AfterPay.be](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
 

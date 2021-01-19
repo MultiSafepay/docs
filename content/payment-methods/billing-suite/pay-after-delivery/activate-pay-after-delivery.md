@@ -10,4 +10,4 @@ _Note: Before applying for Pay After Delivery, please check your eligibility wit
 
 To activate this payment method, please contact one of our account managers at <sales@multisafepay.com> or call us at +31 20 8500 502
 
->_Note: Currently, MultiSafepay only offers Pay After Delivery in the Netherlands_.
+>_Note: MultiSafepay only offers Pay After Delivery in the Netherlands_.
