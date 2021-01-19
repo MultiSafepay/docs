@@ -13,6 +13,6 @@ It is possible to easily refund in batches with our refund script. The refund sc
 
 The script is written in PHP, so make sure it's used in an environment where a PHP interpreter is installed.
 
-For more information, please follow the instructions on our [Github page](https://github.com/MultiSafepay/refund-script)
+To download the refund script and find more instructions on its usage, visit our [Github page](https://github.com/MultiSafepay/refund-script)
 
 If you have any questions, please contact <integration@multisafepay.com>
