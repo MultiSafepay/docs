@@ -6,7 +6,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-It is possible to easily refund in batches while using the refund script by MultiSafepay. This will require you to create a .csv file with the parameters *order_id*, _amount_ and _description_.
+It is possible to easily refund in batches with our refund script. The refund script takes two parameters: 
+
+1. A .csv file which specifies the order_id, amount and description of every order
+2. Your API key. 
+
+The script is written in PHP, so make sure it's used in an environment where a PHP interpreter is installed.
 
 For more information, please follow the instructions on our [Github page](https://github.com/MultiSafepay/refund-script)
 
