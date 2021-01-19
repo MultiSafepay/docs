@@ -30,6 +30,6 @@ Please keep in mind that USD (Dollar) is not supported due to the very high tran
 
 ## Email notifications
 
-If you prefer to send payment instructions to the consumer yourself, you can use the *disable_send_email* parameter in a JSON _Direct_ request. For more information please see our API documentation regarding [Bank transfer](https://docs.multisafepay.com/api/#direct-bank-transfer)
-
+If you prefer to send payment instructions to the customer yourself, set the *disable_send_email* parameter to _false_ in the corresponding API call. In this case, MultiSafepay does not send the customer an email notification.
+For more information please see our API documentation regarding [Bank transfer](https://docs.multisafepay.com/api/#direct-bank-transfer)
 
