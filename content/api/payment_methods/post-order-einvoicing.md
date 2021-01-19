@@ -317,9 +317,9 @@ __shopping_cart__ | object
 
 Contains all order rules and applicable tax classes.
 
-__unit_price__ | decimal
+__unit_price__ | float
 
-The unit price (in decimals) of the specific product. A maximum of 10 decimal places is accepted.   
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.   
 
 ----------------
 __checkout_options__ | object
@@ -430,9 +430,9 @@ __shopping_cart__ | object
 
 Contains all order rules and applicable tax classes.
 
-__unit_price__ | decimal
+__unit_price__ | float
 
-The unit price (in decimals) of the specific product. A maximum of 10 decimal places is accepted.   
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.  
 
 ----------------
 __checkout_options__ | object

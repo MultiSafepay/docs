@@ -253,9 +253,9 @@ Contains all purchased items including tax class.
 
 ----------------
 
-__unit_price__ | decimal
+__unit_price__ | float
 
-The unit price (in decimals) of the specific product. A maximum of 10 decimal places is accepted.
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.
 
 
 {{< /description >}}
