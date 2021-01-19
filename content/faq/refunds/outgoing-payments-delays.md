@@ -8,6 +8,6 @@ read_more: '.'
 
 Outgoing payments such as refunds and withdrawals may be delayed depending on the bank the payment has been issued through.
 
-As soon as outgoing payments are passed on to a bank, the status of an order will change from _Reserved_ to _Completed_ around midnight. It is then the responsibility of the bank to process the outgoing payment.
+When outgoing payments are passed on to a bank, the status of an order changes from _Reserved_ to _Completed_ around midnight. It is then the responsibility of the bank to process the outgoing payment.
 
 Although, if the status is marked as _Reserved_, you can still cancel the outgoing payment. Furthemore, outgoing payments are not processed if your balance is insufficient.
