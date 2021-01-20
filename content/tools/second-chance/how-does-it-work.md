@@ -54,7 +54,7 @@ When enabled, the Second Chance email will be sent once after 1 hour and once af
 When the days_active is set to 2, the payment link will automatically expire after the two days. The customer will not be able to complete the payment after the expired period. This ensures that the stock is reversed after the payment link expires.
 
 **Example 2:**    
-When the seconds_active is set within 84600 seconds (equivalent of 24 hours), the payment link supplied in the second Second Chance email will no longer be valid. The second Second Chance email is sent regardless and this cannot be changed. 
+When the seconds_active is set within 86400 seconds (equivalent of 24 hours), the payment link supplied in the second Second Chance email will no longer be valid. The second Second Chance email is sent regardless and this cannot be changed. 
 
 **When a payment link is set to expire within 24 hours and the Second Chance is enabled, the customer will receive an expired payment link in the Second Chance email.** 
 
