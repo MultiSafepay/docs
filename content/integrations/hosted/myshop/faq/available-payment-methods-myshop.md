@@ -4,28 +4,31 @@ meta_title: "myShop available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 __Credit cards__
++ [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/visa)
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
 
 __Banks__
++ [Bancontact](/payment-methods/bancontact)
++ [Bank transfer](/payment-methods/bank-transfer)
++ [Dotpay](/payment-methods/dotpay)
++ [EPS](/payment-methods/eps)
++ [Giropay](/payment-methods/giropay)
 + [iDEAL](/payment-methods/ideal)
 + [Maestro](/payment-methods/maestro)
-+ [Bancontact](/payment-methods/bancontact)
-+ [SOFORT Banking](/payment-methods/sofort-banking)
-+ [Giropay](/payment-methods/giropay)
-+ [EPS](/payment-methods/eps)
-+ [Dotpay](/payment-methods/dotpay)
-+ [Bank transfer](/payment-methods/bank-transfer)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payment-methods/sofort-banking)
+
 
 __Billing suite__
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
 + [Klarna](/payment-methods/klarna)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
+
 
 __Wallet__
-+ [PayPal](/payment-methods/paypal)
 + [FastCheckout](/payment-methods/fastcheckout)
++ [PayPal](/payment-methods/paypal)
+
 
 __Prepaid cards__
 + [Intersolve](/payment-methods/gift-cards)
