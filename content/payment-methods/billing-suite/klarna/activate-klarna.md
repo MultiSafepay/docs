@@ -9,7 +9,7 @@ read_more: '.'
 {{< alert-notice >}} Note: Before applying for Klarna, please check your eligibility with your MultiSafepay account manager at <sales@multisafepay.com> {{< /alert-notice >}}
  
 ### New clients
-To offer Klarna as a payment method to your customers, it is first necessary sign an agreement with [Klarna.com](https://www.klarna.com/nl/zakelijk)
+To offer Klarna as a payment method to your customers, it is first necessary to sign an agreement with [Klarna.com](https://www.klarna.com/nl/zakelijk)
 
 1. Contact <verkoop@klarna.com> for information regarding signing up as a new client
 2. Inform Klarna that you will be using MultiSafepay as a payment provider
@@ -25,4 +25,3 @@ For existing clients, please contact <verkoop@klarna.com> for more information a
 Alternatively, if you have any questions regarding your Klarna integration and the connection between Klarna and the MultiSafepay Control, please contact <integration@multisafepay.com>
 
 Please note that all consumer questions are handled by [Klarna](https://www.klarna.com/nl/klantenservice/) for both new and existing clients.
-
