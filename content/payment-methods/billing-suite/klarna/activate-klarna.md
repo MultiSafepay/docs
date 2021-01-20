@@ -15,7 +15,7 @@ To offer Klarna as a payment method to your customers, it is first necessary to 
 2. Inform Klarna that you will be using MultiSafepay as a payment provider
 3. Klarna will ask us to activate the payment method for your website
 4. Once Klarna is activated for your website, you should activate Klarna in the backend of your website and carry out testing
-5. Reuqest an acceptance test at <verkoop@klarna.com> and specify all urls which should be tested
+5. Request an acceptance test at <verkoop@klarna.com> and specify all urls which should be tested
 6. Once the acceptance test is finished, you can change the status to _Live environment_ in the Klarna Online dashboard.
 
 ### Existing clients
