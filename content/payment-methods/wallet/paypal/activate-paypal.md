@@ -49,7 +49,7 @@ To do this, please follow the steps below:
 
 4. Navigate to _Settings_->_Payment methods_. Select 'PayPal' and enter your `PayPal Account ID`.
 
-Do you want to show your header or logo at the checkout page in PayPal? First, upload the images under _Settings_ -> _Files_. Next, navigate to _payment methods_ at the bottom right-hand side, select the pictures as logo and header and click _Save_.
+Do you want to show your header or logo at the checkout page in PayPal? First, upload the images under _Settings_ -> _Files_. Next, navigate to _payment methods_ at the bottom right-hand side, select the images as logo and header and click _Save_.
 
 Your account is now configured and you are ready to accept MultiSafepay payments. We strongly recommend you perform one or more test transactions in order to ensure everything is working correctly.
 
