@@ -4,7 +4,7 @@ meta_title: "Lightspeed plugin - How can I send payment reminders within Lightsp
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
-The MultiSafepay variant of [Second Chance]((https://docs.multisafepay.com/tools/second-chance/how-does-it-work/)) cannot be used as Lightspeed orders expire after 12 hours.
+Within Lightspeed, MultiSafepay's [Second Chance]((https://docs.multisafepay.com/tools/second-chance/how-does-it-work/)) tool cannot be used, as Lightspeed orders expire after 12 hours.
 
 Although, similar to Second Chance, Lightspeed offers a functionality that allows you to configure payment reminders for orders which are still _Pending_.
 
