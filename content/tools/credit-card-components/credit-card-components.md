@@ -71,7 +71,27 @@ PaymentComponent.init('payment', {
 });
 ```
 
-### Step 3: Place order
+
+### Step 3: Mounting files
+
+The following three files need to be mounted in the TEST environment:
+
+1. `<script src="https://testpay.multisafepay.com/sdk/components/v1/components.js"></script>`
+
+2. `<script src="https://testpay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>`
+
+3. `<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v1/components.css">`
+
+Alternativley, the following files need to be mounted in the PRODUCTION environment:
+
+
+1. `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.js"></script>`
+
+2. `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>`
+
+3. `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">`
+
+### Step 4: Place order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.
 On the frontend you can retrieve the encrypted credit card data through the following code:
@@ -111,3 +131,19 @@ Apart from having the onError handler, you can also actively request the instant
 ```
 PaymentComponent.getErrors()
 ```
+
+### Optional: Styling template
+
+The credit card component comes with two styling templates. In order to enable the second template, the following parameter needs to be added:
+
+```
+const orderData = {
+    currency: 'X',
+    amount: X,
+    template : {
+        settings: {
+            embed_mode: true
+        }
+};
+```
+ 
