@@ -2,27 +2,31 @@
 title : "Credit card components"
 ---
 
-The _Payment component_ by MultiSafepay gives you the possibility to offer your customers a seamless payment experience. Our Javascript based component is easy to implement to your environment and can be modified to blend in with the customer checkout experience. One simple line will allow you to change and modify the component to also accept other payment method types.
+The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless payment experience. Our Javascript based component is easy to implement to your environment and can be modified to blend in with the customer checkout experience. One simple line will allow you to change and modify the component to also accept other payment method types.
 
 ## Environments
 
-MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API Key. Further technical details can be found on our [API section](http://docs.multisafepay.com/api)
+MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
+
+Further technical details can be found on our [API section](http://docs.multisafepay.com/api)
 
 ### API Authentication
 
-All requests to the MultiSafepay API endpoint require authentication.Authentication is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in MultiSafepay Control. The HTTP header name for the API Key is: `api_key`
+All requests to the MultiSafepay API endpoint require authentication and is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
+
+The HTTP header name for the API Key is `api_key`
 
 ### Files
 
-The Payment component includes [3 files](https://pay.multisafepay.com/sdk/components/v1):
+The payment component includes [3 files](https://pay.multisafepay.com/sdk/components/v1):
 
 The MultiSafepay encryption library minified, which will be autoloaded by connect.js:<br>
 [msp-crypt.min.js](https://pay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js)
 
-The Payment component library:<br>
+The payment component library:<br>
 [components.js](https://pay.multisafepay.com/sdk/components/v1/components.js)
 
-The Payment component stylesheet:<br>
+The payment component stylesheet:<br>
 [components.css](https://pay.multisafepay.com/sdk/components/v1/components.css)
 
 ## Implementation
@@ -45,7 +49,7 @@ Example: https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
 
 ### Step 2: Initialize Payment Components library
 
-You must initialize the Payment components library and link it to the container element (selector).
+You must initialize the payment components library and link it to the container element (selector).
 
 The constructor takes three values:
 
@@ -91,9 +95,10 @@ Alternativley, the following files need to be mounted in the PRODUCTION environm
 
 3. `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">`
 
-### Step 4: Place order
+### Step 4: Place an order
 
-After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.
+After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
+
 On the frontend you can retrieve the encrypted credit card data through the following code:
 
 ```
