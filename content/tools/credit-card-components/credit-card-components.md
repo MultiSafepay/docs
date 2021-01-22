@@ -2,13 +2,13 @@
 title : "Credit card components"
 ---
 
-The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless payment experience. Our Javascript based component is easy to implement to your environment and can be modified to blend in with the customer checkout experience. One simple line will allow you to change and modify the component to also accept other payment method types.
+The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless payment experience. Our Javascript based component is easy to implement to your environment and can be modified to provide a seamless checkout experience.
 
 ## Environments
 
 MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
 
-Further technical details can be found on our [API section](http://docs.multisafepay.com/api)
+For more information about our API, please visit our [API section](https://docs.multisafepay.com/api/)
 
 ### API Authentication
 
@@ -18,16 +18,41 @@ The HTTP header name for the API Key is `api_key`
 
 ### Files
 
-The payment component includes [3 files](https://pay.multisafepay.com/sdk/components/v1):
+The payment component includes [3 files](https://pay.multisafepay.com/sdk/components/v1) each for both the TEST and LIVE environment. After testing, the files can be changed to those that are listed below for the LIVE environment:
 
-The MultiSafepay encryption library minified, which will be autoloaded by connect.js:<br>
+#### TEST Environment files
+
+* The MultiSafepay encryption library minified, which will be autoloaded by connect.js. The cardholder details are encryted in a secure manner sent to MultiSafepay<br>
 [msp-crypt.min.js](https://pay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js)
 
-The payment component library:<br>
+{{< alert-notice >}} `<script src="https://testpay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
+
+
+* The payment component library contains the credit card fields:<br>
 [components.js](https://pay.multisafepay.com/sdk/components/v1/components.js)
 
-The payment component stylesheet:<br>
+{{< alert-notice >}} `<script src="https://testpay.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
+
+* The payment component stylesheet contains the styling template of the credit card component:<br>
 [components.css](https://pay.multisafepay.com/sdk/components/v1/components.css)
+
+{{< alert-notice >}} `<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
+
+#### LIVE environment files
+
+* msp-crypt.min.js<br>
+
+{{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
+
+* components.js<br>
+
+ {{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
+
+* components.css<br>
+
+ {{< alert-notice >}} `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
+
+
 
 ## Implementation
 
@@ -75,26 +100,21 @@ PaymentComponent.init('payment', {
 });
 ```
 
+### Step 3: Styling template
 
-### Step 3: Mounting files
+The credit card component comes with two styling templates. In order to enable the second template, the following parameter needs to be added:
 
-The following three files need to be mounted in the TEST environment:
-
-1. `<script src="https://testpay.multisafepay.com/sdk/components/v1/components.js"></script>`
-
-2. `<script src="https://testpay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>`
-
-3. `<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v1/components.css">`
-
-Alternativley, the following files need to be mounted in the PRODUCTION environment:
-
-
-1. `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.js"></script>`
-
-2. `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>`
-
-3. `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">`
-
+```
+const orderData = {
+    currency: 'X',
+    amount: X,
+    template : {
+        settings: {
+            embed_mode: true
+        }
+};
+```
+ 
 ### Step 4: Place an order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
@@ -127,7 +147,7 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
-### Optional: Checking for errors within the Payment Component
+### Optional: Checking for errors
 
 Apart from having the onError handler, you can also actively request the instantiated library for any errors using the following:
 
@@ -137,18 +157,3 @@ Apart from having the onError handler, you can also actively request the instant
 PaymentComponent.getErrors()
 ```
 
-### Optional: Styling template
-
-The credit card component comes with two styling templates. In order to enable the second template, the following parameter needs to be added:
-
-```
-const orderData = {
-    currency: 'X',
-    amount: X,
-    template : {
-        settings: {
-            embed_mode: true
-        }
-};
-```
- 
