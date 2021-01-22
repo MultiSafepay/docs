@@ -17,7 +17,6 @@ __Banks__
 + [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Belfius](/payment-methods/banks/belfius)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
@@ -26,6 +25,7 @@ __Banks__
 + [KBC](/payment-methods/banks/kbc)
 + JCB
 + [Maestro](/payment-methods/maestro)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 
@@ -40,6 +40,6 @@ __Billing suite__
 
 __Wallet__ 
 
-+ [Apple Pay](/payment-methods/wallet/applepay)
 + [Alipay](/payment-methods/wallet/alipay)
++ [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
