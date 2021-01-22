@@ -7,7 +7,6 @@ layout: "faqdetail"
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Credit cards](/payment-methods/credit-and-debit-cards) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
 
@@ -15,13 +14,13 @@ __Banks__
 
 + [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/maestro)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
 
@@ -38,7 +37,6 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Beauty and Welness gift card
 + Boekenbon
 + Fashion Cheque
@@ -46,6 +44,7 @@ __Prepaid cards__
 + Fietsenbon
 + Gezondheidsbon
 + Nationale tuinbon
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Parfumcadeaukaart
 + Podium
 + Sport en Fit

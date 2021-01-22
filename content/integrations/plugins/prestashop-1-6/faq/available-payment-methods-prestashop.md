@@ -7,7 +7,6 @@ layout: "faqdetail"
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Credit cards](/payment-methods/credit-and-debit-cards) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
 
@@ -16,8 +15,6 @@ __Banks__
 + [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Belfius](/payment-methods/banks/belfius)
-+ [Request to Pay](/payment-methods/banks/request-to-pay)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
@@ -26,6 +23,8 @@ __Banks__
 + [KBC](/payment-methods/banks/kbc)
 + [CBC](/payment-methods/banks/cbc)
 + [Maestro](/payment-methods/maestro)
++ [Request to Pay](/payment-methods/banks/request-to-pay)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
 
@@ -40,8 +39,8 @@ __Billing suite__
 
 __Wallet__ 
 
-+ [Apple Pay](/payment-methods/wallet/applepay)
 + [Alipay](/payment-methods/wallet/alipay)
++ [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
 
 
