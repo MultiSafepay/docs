@@ -11,7 +11,7 @@ aliases:
 
 We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking. This feature can be implemented by the following steps:
 
-1. Login into your Magento backend. Check how we do it [here](/integrations/plugins/magento2/old/) in step 3. 
+1. Login into your Magento backend 
 2. Go to _Marketing_ -> _Email Templates_
 3. Add a template (import from _new order_)
 4. Add this sample code to the template
