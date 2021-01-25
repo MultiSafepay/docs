@@ -2,7 +2,7 @@
 title : "Credit card components"
 ---
 
-The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless payment experience. Our Javascript based component is easy to implement to your environment and can be modified to provide a seamless checkout experience.
+The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
 
 ## Environments
 
@@ -13,17 +13,17 @@ For more information about our API, please visit our [API reference](https://doc
 
 ### API Authentication
 
-All requests to the MultiSafepay API endpoint require authentication and is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
+All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
 
 The HTTP header name for the API Key is `api_key`
 
 ### Files
 
-The payment component includes [3 files](https://pay.multisafepay.com/sdk/components/v1) each for both the TEST and LIVE environment. After testing, the files can be changed to those that are listed below for the LIVE environment:
+The payment component includes [three files](https://pay.multisafepay.com/sdk/components/v1), each for both the TEST and LIVE environment. After testing, the files can be changed to those listed below for the LIVE environment:
 
 #### TEST Environment files
 
-* The MultiSafepay encryption library minified, which will be autoloaded by connect.js. The cardholder details are encryted in a secure manner sent to MultiSafepay<br>
+* The MultiSafepay encryption library minified, which will be autoloaded by connect.js. The cardholder details are encrypted in a secure manner and sent to MultiSafepay<br>
 [msp-crypt.min.js](https://pay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js)
 
 {{< alert-notice >}} `<script src="https://testpay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
@@ -126,7 +126,7 @@ On the frontend you can retrieve the encrypted credit card data through the foll
 PaymentComponent.getPaymentData().payment_data.payload
 ```
 
-This payload can be sent with a [direct CREDITCARD transaction request]((https://docs.multisafepay.com/api/#create-a-direct-order))
+This payload can be sent with a [direct CREDITCARD transaction request](https://docs.multisafepay.com/api/#create-a-direct-order)
 
 ```
 {
