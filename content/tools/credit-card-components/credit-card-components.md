@@ -8,7 +8,7 @@ The _Payment component_ by MultiSafepay allows you the possibility to offer your
 
 MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
 
-For more information about our API, please visit our [API section](https://docs.multisafepay.com/api/)
+For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
 
 ### API Authentication
@@ -79,7 +79,7 @@ You must initialize the payment components library and link it to the container 
 
 The constructor takes three values:
 
-`env` -> test/live, decides the API mode<br>
+`env` -> test/live, decides the API mode<br> 
 `apiToken` -> api_token from step 1<br>
 `order` -> contains values of the quote
 
