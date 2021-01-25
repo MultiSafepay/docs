@@ -79,7 +79,7 @@ You must initialize the payment components library and link it to the container 
 
 The constructor takes three values:
 
-`env` -> test/live, decides the api mode<br>
+`env` -> test/live, decides the API mode<br>
 `apiToken` -> api_token from step 1<br>
 `order` -> contains values of the quote
 
