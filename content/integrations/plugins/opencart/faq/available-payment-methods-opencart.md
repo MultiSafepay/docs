@@ -8,7 +8,6 @@ read_more: "."
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
 
@@ -24,6 +23,7 @@ __Banks__
 + [iDEAL](/payment-methods/banks/ideal)
 + [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [KBC](/payment-methods/banks/kbc)
 + [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
