@@ -55,8 +55,8 @@ __Prepaid cards__
 + Gezondheidsbon
 + Good4fun Giftcard
 + Nationale tuinbon
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Parfumcadeaukaart
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Podium
 + Sport en Fit
 + VVV gift card

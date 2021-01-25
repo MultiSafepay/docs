@@ -22,8 +22,8 @@ __Banks__
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
-+ [KBC](/payment-methods/banks/kbc)
 + JCB
++ [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
