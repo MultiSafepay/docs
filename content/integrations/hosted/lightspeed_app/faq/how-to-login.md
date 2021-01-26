@@ -6,19 +6,23 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 In early 2021, we have changed the login method for the MultiSafepay Payment app for Lightspeed eCom. The old login method was password-based, while the new method uses the single sign-on provided by Lightspeed. This means you can directly log in via the Lightspeed eCom store to our settings page of the app.
 
-To login using the new method you have to use our app store page. Log in to the /admin section of your Lightspeed store. 
+To log in using the new method, follow these three steps:
 
-- Go to _Apps_ in the side bar 
+1. Log in to the /admin section of your Lightspeed store. 
+
+2. Go to _Apps_ in the sidebar 
 {{< image src="../img/app-side-bar.png" class="small-img" >}}
 
-- Click on _Purchased apps_ / _Aangeschafte apps_
+3. Click on _Purchased apps_ / _Aangeschafte apps_
 {{< image src="../img/app-side-bar-app-store.png" class="small-img">}}
 
-- Click on the name of our app, _MultiSafepay Payments_. 
+4. Click on the name of our app, _MultiSafepay Payments_. 
 {{< image src="../img/my-apps-click-name.png" class="small-img">}}
 
-- This should open the app store page, alternatively paste "/admin/store/apps/1517" after the base url of your store. This should bring you to the store page immediately.
-- On the store page click on "Go to App" / "Ga naar App" and you will be able to access your settings page.
+This should open the MultiSafepay app store page.
+
+Alternatively, paste "/admin/store/apps/1517" after the base URL of your store. This should bring you to the store page immediately.
+5. On the store page click on _Go to App_ / _Ga naar App_ and you will be able to access your settings page.
 {{< image src="../img/app-page.png" class="small-img">}}
 
 
