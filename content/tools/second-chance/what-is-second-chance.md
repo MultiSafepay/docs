@@ -1,11 +1,11 @@
 ---
 title: "Second Chance, What it is"
-weight: 64
+weight: 60
 meta_title: "Second Chance, What it is - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
-The Second Chance email is an email reminder that points out to your customers of their attempted (and incomplete) payments and encourages them to finalize. This way you can stimulate impulse purchases.
+The Second Chance email (also known as abandoned cart emails) is an email reminder that points out to your customers of their attempted (and incomplete) payments and encourages them to finalize. This way you can stimulate impulse purchases.
 
-The Second Chance email will automatically be sent to the customer when enabled. Included in these emails, there is a payment link that will allow the customer to complete the payment.
+The Second Chance email will automatically be sent to the customer when enabled. Included in these emails, there is a payment link that will allow the customer to complete the payment. If for any reason the payment has failed, the customer will have a number of different payment methods available on the payment page (e.g. iDEAL) to fulfill the outstanding amount.

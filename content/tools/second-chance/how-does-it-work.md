@@ -12,7 +12,7 @@ _**A Second Chance email can be sent as long as the email address of the custome
 ## When is the Second Chance email excluded?
 
 **Transaction status**         
-The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
+The transaction status indicates the payment status of the transaction, such as _Completed_, _Pending_ or _Rejected_. Once the transaction status is _Completed_, the amount of the transaction is added to your MultiSafepay balance.
 
 The Second Chance email cannot be activated and/or sent to the customer when the transaction status of the original transaction states:
 
