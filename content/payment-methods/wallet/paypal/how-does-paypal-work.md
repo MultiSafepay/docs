@@ -17,7 +17,7 @@ The transaction flow shows the different ways a transaction can be processed. Th
 
 _Please note that MultiSafepay does not collect funds for PayPal_
 
-{{< alert-notice >}} Within PayPal, the order status will be sent as _Completed_ and the financial status will be marked as _Initialized_. If the financial status is marked as _Initialized_, the order will not be delivered. Therefore, it is important to mention that the order in your backend has to be marked as _Completed_ when the order status is received as _Completed_ to ensure fulfillment of the order. {{< /alert-notice >}}
+{{< alert-notice >}} Within PayPal, the order status will be sent as _Completed_ and the financial status will be marked as _Initialized_. If the financial status is marked as _Initialized_, the order will not be delivered. Therefore, it is important to mention that the order in your backend has to be marked as _Completed_ when the order status is received as _Completed_ to ensure fulfillment of the order. MultiSafepay will not issue a _Completed_ notification for the financial status of an order. {{< /alert-notice >}}
 
 * Order status      
 The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
