@@ -50,7 +50,7 @@ The full API reference for Trustly cards can be found [here](/api/#trustly)
 | [Drupal 8](/integrations/plugins/drupal8)                                                                                                     | Available from version 1.0   |
 | [Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) | Available from version 2.0.2 |
 | [X-Cart](/integrations/plugins/x-cart)                                                                                                        | Available from version 2.2.0 |
-| [Shopify](/integrations/shopify)                                                                                                      | Available from Shopify       |
+| [Shopify](/integrations/hosted/shopify)                                                                                                      | Available from Shopify       |
 
 
 

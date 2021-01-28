@@ -19,7 +19,7 @@ __Banks__
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
 + [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [V PAY](/payment-methods/credit-and-debit-cards/vpay/)

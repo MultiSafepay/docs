@@ -22,7 +22,7 @@ __Banks__
 + [iDEAL](/payment-methods/banks/ideal)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)

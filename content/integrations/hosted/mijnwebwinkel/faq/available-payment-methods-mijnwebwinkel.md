@@ -13,11 +13,11 @@ __Banks__
 
 + [Bancontact](/payment-methods/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [Giropay](/payment-methods/giropay)
++ [Giropay](/)
 + [iDEAL](/payment-methods/banks/ideal/)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payment-methods/sofort-banking)
++ [SOFORT Banking](/payment-methods/banks/sofort-banking)
 
 __Billing suite__
 

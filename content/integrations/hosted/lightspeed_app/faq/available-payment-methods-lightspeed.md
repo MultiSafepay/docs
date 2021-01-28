@@ -22,7 +22,7 @@ We support the following payment methods:
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
 + [Klarna](/payment-methods/billing-suite/klarna)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro/)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 + [PayPal](/payment-methods/wallet/paypal)

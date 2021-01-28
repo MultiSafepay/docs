@@ -20,7 +20,7 @@ __Banks__
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
 + [Klarna](/payment-methods/billing-suite/klarna)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + MultiSafepay Wallet
 + [PayPal](/payment-methods/wallet/paypal)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
