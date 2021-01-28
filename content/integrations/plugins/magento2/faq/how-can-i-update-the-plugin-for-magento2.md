@@ -13,6 +13,6 @@ Before you update the plugin, we strongly recommend the following:
 * Make sure you have a backup of your production environment
 * Test the plugin in a staging environment.
 
-Go to our [Manual](/integrations/magento2/manual) page and follow the instructions from step 7.
+Go to our [Manual](/integrations/plugins/magento2/#manual) page and follow the instructions from step 7.
 
 

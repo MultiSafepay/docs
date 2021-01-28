@@ -10,4 +10,4 @@ Before you update the plugin, we strongly recommend you the following:
 * Make sure you have a backup of your production environment
 * Test the plugin in a staging environment.
 
-Go to our [Manual](/integrations/x-cart/manual) page, download the plugin and follow the instructions from step 1.
+Go to our [Manual](/integrations/plugins/x-cart/) page, download the plugin and follow the instructions from step 1.

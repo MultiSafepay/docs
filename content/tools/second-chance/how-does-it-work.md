@@ -27,7 +27,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 * [Betaal per Maand](/payment-methods/betaalpermaand)
 * [Pay After Delivery](/payment-methods/pay-after-delivery)
 * [Bank transfer](/payment-methods/bank-transfer)
-* [Direct Debit](/payment-methods/direct-debit)
+* [Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 
 ## Altering the Second Chance configuration
 It is not possible to change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).

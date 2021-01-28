@@ -14,7 +14,7 @@ __Banks__
 + [Bancontact](/payment-methods/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Giropay](/payment-methods/giropay)
-+ [iDEAL](/payment-methods/ideal)
++ [iDEAL](/payment-methods/banks/ideal/)
 + [Maestro](/payment-methods/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/sofort-banking)

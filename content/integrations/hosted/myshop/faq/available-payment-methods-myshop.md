@@ -16,7 +16,7 @@ __Banks__
 + [Dotpay](/payment-methods/dotpay)
 + [EPS](/payment-methods/eps)
 + [Giropay](/payment-methods/giropay)
-+ [iDEAL](/payment-methods/ideal)
++ [iDEAL](/payment-methods/banks/ideal/)
 + [Maestro](/payment-methods/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/sofort-banking)
@@ -36,6 +36,6 @@ __Wallet__
 
 __Prepaid cards__
 
-+ [123TCS](/payment-methods/gift-cards)
-+ [Intersolve](/payment-methods/gift-cards)
-+ [Fashioncheque](/payment-methods/gift-cards)
++ [123TCS](/payment-methods/prepaid-cards/gift-cards)
++ [Intersolve](/payment-methods/prepaid-cards/gift-cards)
++ [Fashioncheque](/payment-methods/prepaid-cards/gift-cards)

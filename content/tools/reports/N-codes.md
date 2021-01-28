@@ -19,7 +19,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N016   | [ALIPAY](/payment-methods/alipay)                      |   |
 | N017   | [DOTPAY](/payment-methods/dotpay)                      |   |
 | N018   | [POSTEPAY](/payment-methods/branded-credit-cards)      |   |
-| N021   | [IDEAL](/payment-methods/ideal)                        |   |
+| N021   | [IDEAL](/payment-methods/banks/ideal/)                        |   |
 | N031   | [GIROPAY](/payment-methods/giropay)                    |   |
 | N081   | [BANKTRANS](/payment-methods/bank-transfer)            |   |
 | N085   | [AMEX](/payment-methods/credit-and-debit-cards/american-express)                   |   |
@@ -32,9 +32,9 @@ Below you can find an overview of the N-Codes and their meaning.
 | N095   | [CHARGEBACK](/faq/chargebacks) |   |
 | N096   | WITHDRAWAL                                              |   |
 | N097   | Refund                                                  |   |
-| N098   | [COUPON](/payment-methods/gift-cards)                  |   |
+| N098   | [COUPON](/payment-methods/prepaid-cards/gift-cards)                  |   |
 | N101   | [DIRDEB](/payment-methods/banks/sepa-direct-debit)                |   |
-| N102   | [iDEAL QR](/payment-methods/idealqr)                   |   |
+| N102   | [iDEAL QR](/payment-methods/banks/idealqr)                   |   |
 | N102   | [BELFIUS](/payment-methods/belfius)                    |   |
 | N103   | [EPS](/payment-methods/eps)                            |   |
 | N104   | [EINVOICE](/payment-methods/e-invoicing)               |   |
