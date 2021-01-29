@@ -103,12 +103,12 @@ PaymentComponent.init('payment', {
 
 ### Step 3: Styling template
 
-The credit card component comes with two styling templates. In order to enable the second template, the following parameter needs to be added:
+The credit card component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
 
 ```
-const orderData = {
-    currency: 'X',
-    amount: X,
+const configOrder = {
+    currency: 'EUR',
+    amount: 100,
     template : {
         settings: {
             embed_mode: true
@@ -131,7 +131,7 @@ This payload can be sent with a [direct CREDITCARD transaction request](https://
 ```
 {
     "type": "direct",
-    "order_id": "apitool_7931462",
+    "order_id": "my-order-id-1",
     "gateway": "CREDITCARD",
     "currency": "EUR",
     "amount": "100",
