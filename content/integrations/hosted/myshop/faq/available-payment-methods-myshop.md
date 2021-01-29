@@ -11,10 +11,10 @@ __Credit cards__
 
 __Banks__
 
-+ [Bancontact](/payment-methods/bancontact)
++ [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer/)
 + [Dotpay](/payment-methods/banks/dotpay)
-+ [EPS](/payment-methods/eps)
++ [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal/)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)

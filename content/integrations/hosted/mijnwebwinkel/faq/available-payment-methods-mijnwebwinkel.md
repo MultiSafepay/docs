@@ -11,7 +11,7 @@ __Credit cards__
 
 __Banks__
 
-+ [Bancontact](/payment-methods/bancontact)
++ [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Giropay](/)
 + [iDEAL](/payment-methods/banks/ideal/)

@@ -28,21 +28,21 @@ Below you can find an overview of the N-Codes and their meaning.
 | N089   | [SANTANDER](/payment-methods/billing-suite/betaalpermaand)               |   |
 | N092   | [DIRECTBANK](/payment-methods/banks/sofort-banking)          |   |
 | N093   | CURRENCY CONVERSION                                     |   |
-| N094   | [MISTERCASH](/payment-methods/bancontact)              |   |
+| N094   | [MISTERCASH](/payment-methods/banks/bancontact)              |   |
 | N095   | [CHARGEBACK](/faq/chargebacks) |   |
 | N096   | WITHDRAWAL                                              |   |
 | N097   | Refund                                                  |   |
 | N098   | [COUPON](/payment-methods/prepaid-cards/gift-cards)                  |   |
 | N101   | [DIRDEB](/payment-methods/banks/sepa-direct-debit)                |   |
 | N102   | [iDEAL QR](/payment-methods/banks/idealqr)                   |   |
-| N102   | [BELFIUS](/payment-methods/belfius)                    |   |
-| N103   | [EPS](/payment-methods/eps)                            |   |
-| N104   | [EINVOICE](/payment-methods/e-invoicing)               |   |
+| N102   | [BELFIUS](/payment-methods/banks/belfius)                    |   |
+| N103   | [EPS](/payment-methods/banks/eps)                            |   |
+| N104   | [EINVOICE](/payment-methods/billing-suite/e-invoicing/)               |   |
 | N105   | [AFTERPAY](/payment-methods/billing-suite/afterpay)                  |   |
-| N106   | [INGHOME](/payment-methods/ing-home-pay)               |   |
+| N106   | [INGHOME](/payment-methods/banks/ing-home-pay)               |   |
 | N107   | FERBUY                                                  |   |
 | N108   | [TRUSTLY](/payment-methods/banks/trustly/)                    |   |
-| N109   | [KBC](/payment-methods/kbc)                            |   |
+| N109   | [KBC](/payment-methods/banks/kbc)                            |   |
 | N913   | FEE                                                     |   |
 
 
