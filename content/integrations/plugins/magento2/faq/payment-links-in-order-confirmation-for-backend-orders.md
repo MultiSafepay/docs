@@ -11,10 +11,10 @@ aliases:
 
 We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking. This feature can be implemented by the following steps:
 
-1. Login into your Magento backend 
+1. Log in to your Magento backend 
 2. Go to _Marketing_ -> _Email Templates_
 3. Add a template (import from _new order_)
-4. Add this sample code to the template
+4. Add this code snippet to the template
 </br>
 `{{depend order.getPayment().getAdditionalInformation('payment_link')}}`
 `<a href="{{var order.getPayment().getAdditionalInformation('payment_link')}}">Pay now with {{var order.getPayment().getAdditionalInformation('method_title')}}</a>`
@@ -27,7 +27,7 @@ The email template syntax is different for Magento 2.3.4+. For these versions yo
 `{{/depend}}`\
 </br>
 
-There is also a 'payment_link' variable that you can use in e-mail templates for order confirmation e-mails that were created in the backend of Magento. This variable is not available for orders that are created in the frontend. With a simple 'if/else' statement in the e-mail template you can add logic to only add the payment link to order confirmation e-mails for orders that are created in the backend. For the frontend orders you can show something else, like for example only the payment method title:
+There is also a 'payment_link' variable that you can use in e-mail templates for order confirmation e-mails created in the backend of Magento. This variable is not available for orders that are created in the frontend. With a simple 'if/else' statement in the e-mail template, you can add logic to only add the payment link to order confirmation e-mails for orders created in the backend. For orders created in the frontend, you can show something else, for example, only the payment method title:
 
 `{{if payment_link}}`\
 `<a href="{{var payment_link}}">Pay now with {{var order.payment.additional_information.method_title}}</a>`\
