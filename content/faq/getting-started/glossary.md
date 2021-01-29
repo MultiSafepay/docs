@@ -18,7 +18,7 @@ MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and
 ### API
 A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
 
-## Cron job
+### Cron job
 
 A Linux-based command used to schedule tasks to be executed in the future. A [cron job](https://www.hivelocity.net/kb/what-is-cron-job/) can be used for repeated functions that occur periodically.
 

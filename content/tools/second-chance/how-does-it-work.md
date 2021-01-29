@@ -36,7 +36,7 @@ The Second Chance email can be personalised through an email template. More info
 
 
 ### External plugins 
-When enabled, the Second Chance email can have a negative result if, for example, you use an external warehouse system. A simple [cron](https://www.hivelocity.net/kb/what-is-cron-job/) may resolve a conflict between the Second Chance email and a warehouse system. However, it is not a stable solution in all situations. 
+When enabled, the Second Chance email can have a negative result if, for example, you use an external warehouse system. A simple [cron job](https://www.hivelocity.net/kb/what-is-cron-job/) may resolve a conflict between the Second Chance email and a warehouse system. However, it is not a stable solution in all situations. 
 
 **Example:**        
 When an order is cancelled in the webshop, an order can still be paid by Second Chance. This can be done within 30 days or within _days_\__active_ / _second_\__active_. If an order is paid, we will reopen the order within the webshop. A warehouse system may already release the reservation on the order upon receiving a _cancelled_ status, or, in some cases, consider the _cancelled_ status to be permanent. As result, it may be, that the order is no longer available in stock. 
