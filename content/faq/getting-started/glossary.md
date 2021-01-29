@@ -2,7 +2,7 @@
 title: Glossary
 weight:
 meta_title: "FAQ Getting Started - Glossary - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 tags: 'hidden'
 read_more: "."
 ---
@@ -17,6 +17,10 @@ MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and
 
 ### API
 A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
+
+## Cron job
+
+A Linux-based command used to schedule tasks to be executed in the future. A [cron job](https://www.hivelocity.net/kb/what-is-cron-job/) can be used for repeated functions that occur periodically.
 
 ### Customer
 An entity (individual or organization) that makes use of another entity's product or service offering. In our terminology, a customer is the beneficiary of goods and services provided by merchants that use MultiSafepay's payment services.
