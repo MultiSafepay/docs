@@ -25,7 +25,7 @@ __Billing suite__
 
 __Wallet__
 
-+ [PayPal](/payment-methods/paypal)
++ [PayPal](/payment-methods/wallet/paypal/)
 
 __Prepaid cards__
 

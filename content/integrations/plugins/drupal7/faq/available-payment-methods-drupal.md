@@ -48,6 +48,6 @@ __Prepaid cards__
 + Fashion gift card
 + Gezondheidsbon
 + Parfum cadeaukaart
-+ [Paysafecard](/payment-methods/paysafecard)
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Wijn cadeau
 + Yourgift

@@ -54,7 +54,7 @@ __Prepaid cards__
 + Fietsenbon
 + Gezondheidsbon
 + Parfumcadeaukaart
-+ [Paysafecard](/payment-methods/paysafecard)
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Sport en Fit
 + VVV gift card
 + Webshop gift card

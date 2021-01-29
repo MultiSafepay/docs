@@ -31,7 +31,7 @@ __Billing suite__
 __Wallet__
 
 + [FastCheckout](/payment-methods/fastcheckout)
-+ [PayPal](/payment-methods/paypal)
++ [PayPal](/payment-methods/wallet/paypal/)
 
 
 __Prepaid cards__
