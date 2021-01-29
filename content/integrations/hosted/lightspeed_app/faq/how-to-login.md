@@ -1,6 +1,6 @@
 ---
-title : "How to login"
-meta_title: "Lightspeed plugin - Can I change the API key after installation? - MultiSafepay Docs"
+title : "How can I log in?"
+meta_title: "Lightspeed plugin - How can I log in? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
