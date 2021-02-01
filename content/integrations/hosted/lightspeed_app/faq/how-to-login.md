@@ -4,22 +4,33 @@ meta_title: "Lightspeed plugin - How can I log in? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
+### About the new login method
+
 In early 2021, we have changed the login method for the MultiSafepay Payment app for Lightspeed eCom. The old login method was password-based, while the new method uses the single sign-on provided by Lightspeed. This means you can directly log in via the Lightspeed eCom store to our settings page of the app.
 
-To log in using the new method you have to use our app store page. Login to the /admin section of your Lightspeed store. 
+### The steps
 
-- Go to apps in the side bar 
+1. Log in to the /admin section of your Lightspeed store
+
+2. Navigate to _Apps_ in the sidebar 
+{{< screen src="../img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
+
+3. Click on _Purchased apps_ / _Aangeschafte apps_
+{{< screen src="../img/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
+
+4. Go to apps in the side bar 
 {{< image src="../img/app-side-bar.png" class="small-img" >}}
 
-- Click on "Purchased apps" / "aangeschafte apps"
-{{< image src="../img/app-side-bar-app-store.png" class="small-img">}}
+5. Click on the name of our app: _MultiSafepay Payments_
+{{< screen src="../img/my-apps-click-name.png" class="small-img desktop-radius" >}}
 
-- Click on the name of our app, MultiSafepay Payments. 
-{{< image src="../img/my-apps-click-name.png" class="small-img">}}
+_**Alternatively**: paste "/admin/store/apps/1517" after the base URL of your store.  
+This should bring you to the store page immediately._
 
-- This should open the app store page, Alternatively paste "/admin/store/apps/1517" after the base url of your store. This should bring you to the store page immediately.
-- On the store page click on "Go to app" / "Ga naar app" and you will be able to access your settings page.
-{{< image src="../img/app-page.png" class="small-img">}}
+6. On the store page click on _Go to App_ / _Ga naar App_ 
 
+{{< screen src="../img/app-page.png" class="small-img desktop-radius">}}
 
-While a login button is present, this one does not work.
+{{< br >}}
+
+_**Please note:** because this login method uses the single sign-on provided by Lightspeed, you do not need to click the **Login** button._

@@ -1491,8 +1491,6 @@ h6 {
 .small-img {
     max-width: 500px;
     max-height: 300px;
-    width: 90%;
-    height: 90%;
     object-fit:scale-down;
 }
 
