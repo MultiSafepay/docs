@@ -20,7 +20,7 @@ A set of clearly defined rules and tools in order to allow specified communicati
 
 ### Cron job
 
-A Linux-based command used to schedule tasks to be executed in the future. A [cron job](https://www.hivelocity.net/kb/what-is-cron-job/) can be used for repeated functions that occur periodically.
+A background program (or daemon), used to schedule recurring tasks. Read more on Wikipedia's entry on [cron](https://en.wikipedia.org/wiki/Cron)
 
 ### Customer
 An entity (individual or organization) that makes use of another entity's product or service offering. In our terminology, a customer is the beneficiary of goods and services provided by merchants that use MultiSafepay's payment services.
@@ -78,4 +78,3 @@ Refers to the status of a credit card transaction that has been received, but ha
 
 ### Website
 A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com) Websites serve a multitude of purposes, such as information, entertainment or service-offering.
-
