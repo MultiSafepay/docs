@@ -14,18 +14,18 @@ __Banks__
 + [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Giropay](/)
-+ [iDEAL](/payment-methods/banks/ideal/)
++ [iDEAL](/payment-methods/banks/ideal)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 
 __Billing suite__
 
-+ [Klarna](/payment-methods/billing-suite/klarna/)
++ [Klarna](/payment-methods/billing-suite/klarna)
 
 __Wallet__
 
-+ [PayPal](/payment-methods/wallet/paypal/)
++ [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__
 

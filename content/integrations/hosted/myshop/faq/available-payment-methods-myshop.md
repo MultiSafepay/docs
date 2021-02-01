@@ -12,11 +12,11 @@ __Credit cards__
 __Banks__
 
 + [Bancontact](/payment-methods/banks/bancontact)
-+ [Bank transfer](/payment-methods/banks/bank-transfer/)
++ [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
-+ [iDEAL](/payment-methods/banks/ideal/)
++ [iDEAL](/payment-methods/banks/ideal)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
@@ -24,14 +24,14 @@ __Banks__
 
 __Billing suite__
 
-+ [Klarna](/payment-methods/billing-suite/klarna/)
++ [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
 
 __Wallet__
 
 + [FastCheckout](/payment-methods/fastcheckout)
-+ [PayPal](/payment-methods/wallet/paypal/)
++ [PayPal](/payment-methods/wallet/paypal)
 
 
 __Prepaid cards__

@@ -8,16 +8,16 @@ __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard/)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact/)
-+ [Bank transfer](/payment-methods/banks/bank-transfer/)
-+ [Giropay](/payment-methods/banks/giropay/)
-+ [iDEAL](/payment-methods/banks/ideal/)
-+ [SOFORT Banking](/payment-methods/banks/sofort-banking/)
-+ [Trustly](/payment-methods/banks/trustly/)
++ [Bancontact](/payment-methods/banks/bancontact)
++ [Bank transfer](/payment-methods/banks/bank-transfer)
++ [Giropay](/payment-methods/banks/giropay)
++ [iDEAL](/payment-methods/banks/ideal)
++ [SOFORT Banking](/payment-methods/banks/sofort-banking)
++ [Trustly](/payment-methods/banks/trustly)
 
 
 

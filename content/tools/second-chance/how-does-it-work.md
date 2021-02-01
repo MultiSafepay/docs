@@ -26,7 +26,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 * [AfterPay](/payment-methods/billing-suite/afterpay)
 * [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 * [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
-* [Bank transfer](/payment-methods/banks/bank-transfer/)
+* [Bank transfer](/payment-methods/banks/bank-transfer)
 * [Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 
 ## Altering the Second Chance configuration

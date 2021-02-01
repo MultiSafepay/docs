@@ -30,5 +30,5 @@ For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your Af
 
 + [CS-Cart](https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md) > available from version 1.3.0. Released on the 8th of October 2018
 
-+ [X-Cart](/integrations/plugins/x-cart/) > available from version 2.2.0. Released on the 24th of April 2019
++ [X-Cart](/integrations/plugins/x-cart) > available from version 2.2.0. Released on the 24th of April 2019
 
