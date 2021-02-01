@@ -15,7 +15,7 @@ Since September 2020, European regulation rules require __Strong Customer Authen
 {{< br >}}
 {{< br >}}
 
-If these measures are not taken, banks may be forced to decline transactions that do not implement this type of authentication. The impact of SCA will depend on _when_ your business charges customers. For businesses such as e-commerce stores that charge customers when they are in the checkout flow, customers can simply authenticate while completing a payment for a purchase.
+If these measures are not taken, banks may be forced to decline transactions that do not implement this type of authentication. The impact of SCA will depend on _when_ your business charges customers. For businesses such as ecommerce stores that charge customers when they are in the checkout flow, customers can simply authenticate while completing a payment for a purchase.
 
 A downside to this type of authentication may lead to lower conversion rates for example; hotels, crowd funding campaigns and subscription services who have built their checkout flow to save payment details for future use. In these scenarios, customers may have to re-authenticate purchases being made with a stored card by returning to a website or app.
 

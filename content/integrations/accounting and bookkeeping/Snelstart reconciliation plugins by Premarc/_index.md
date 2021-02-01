@@ -16,7 +16,7 @@ extra_button:
 ---
 ### Supported plugins
 
-Premarc has built some important reconciliation plugins for MultiSafepay merchants that use Snelstart in combination with several e-commerce platforms. Read more below per platform at our partner Premarc.
+Premarc has built some important reconciliation plugins for MultiSafepay merchants that use Snelstart in combination with several ecommerce platforms. Read more below per platform at our partner Premarc.
 
 
 [Shopify](https://www.snelkoppeling.eu/shopify)

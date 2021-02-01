@@ -8,7 +8,7 @@ In early 2021, we have changed the login method for the MultiSafepay Payment app
 
 To log in using the new method you have to use our app store page. Login to the /admin section of your Lightspeed store. 
 
-- Go to apps in de side bar 
+- Go to apps in the side bar 
 {{< image src="../img/app-side-bar.png" class="small-img" >}}
 
 - Click on "Purchased apps" / "aangeschafte apps"
