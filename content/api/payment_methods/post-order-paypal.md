@@ -150,7 +150,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status will be set to _Completed_ and the financial status will remain set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a payment. {{< /alert-notice >}}
+{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status will be set to _Completed_ and the financial status will remain set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 
