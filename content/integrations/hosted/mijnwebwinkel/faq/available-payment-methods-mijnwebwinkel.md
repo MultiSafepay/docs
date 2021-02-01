@@ -29,5 +29,21 @@ __Wallet__
 
 __Prepaid cards__
 
-+ [Gift cards](/payment-methods/prepaid-cards/gift-cards)
-
++ Baby Cadeaubon
++ Beauty & Wellness
++ Boekenbon
++ Fashioncheque
++ Fashiongiftcard
++ Fietsenbon
++ Gezondheidsbon
++ Good4fun
++ Nationale Tuinbon
++ Parfumcadeaukaart
++ Podium
++ Sport & Fit
++ VVV Cadeaukaart
++ Webshop gift card
++ Wellness gift card
++ Wijncadeau
++ Winkelcheque
++ YourGift
