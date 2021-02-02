@@ -37,15 +37,15 @@ _If you run into issues during this process, please reach out to our [support te
 {{< br >}}
 
 ## Step 2: Set up your MultiSafepay Control
-After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your API key, add your website, monitor transactions, configure payouts, generate reports, and more. 
+After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your API key, monitor transactions, configure payouts, generate reports, and more. 
 
-Before you can start building your integration, you need to add your website to generate an API key. To do this, follow these steps:
+Before you can start building your integration, add your website to your MultiSafepay Control to generate an API key. To do this, follow these steps:
 
 1. [Log in](https://testmerchant.multisafepay.com/) to your MultiSafepay Control
 2. Navigate to *Settings* --> *Website settings*
 3. Click *Website wizard* and add your domain
 
-Your test account is now linked to your website. Click on your website in the [Website settings](https://testmerchant.multisafepay.com/sites) and copy the API key to start building your integration.
+Your test account is now linked to your website. Navigate to the [website settings](https://testmerchant.multisafepay.com/sites), click your website, and copy the API key to start building your integration.
 
 [**Read more about setting up your MultiSafepay Control**](/tools/multisafepay-control/add-website/)
 
