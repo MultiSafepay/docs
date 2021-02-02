@@ -24,7 +24,45 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "phone": "0208500500",
         "email": "example@multisafepay.com"
     },
-    ...
+    "payment_options": {
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "redirect_url": "http://www.example.com/client/notification?type=redirect",
+        "cancel_url": "http://www.example.com/client/notification?type=cancel",
+        "close_window": ""
+    },
+    "plugin": {
+        "shop": "my-shop",
+        "plugin_version": "1.0.0",
+        "shop_version": "1",
+        "partner": "partner",
+        "shop_root_url": "http://multisafepay.com"
+    },
+    "customer": {
+        "locale": "nl_NL",
+        "ip_address": "127.0.0.1",
+        "forwarded_ip": "127.0.0.1",
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
+        "address1": "Kraanspoor",
+        "house_number": 39C,
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
+        "country": "NL",
+        "phone": "0612345678",
+        "email": "example@multisafepay.com",
+        "disable_send_email": false,
+        "referrer": "http://test.com",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+    },
+    "delivery": {
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
+        "address1": "Kraanspoor",
+        "house_number": 39C,
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
+        "country": "NL"
+    },
     "shopping_cart": {
         "items": [
             {
