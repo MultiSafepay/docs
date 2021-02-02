@@ -15,15 +15,15 @@ test account to processing your first payment."
 
 Welcome to MultiSafepay. We break down barriers and remove obstacles for commerce by providing smart payment solutions. Our core services allow you to accept payments, manage transactions and stimulate online sales. On top of that, we provide a suite of tools to boost conversion rates, create the perfect checkout experience and gain financial insights.
 
-With this guide, you will process your first payment in five easy steps.
+You can start processing payments in five easy steps:
 
 {{< br >}}
 
 ## Step 1: Create a test account
 To create a test account, follow these steps:
 1. Fill out the signup form to [create a free test account](https://testmerchant.multisafepay.com/signup)
-2. Open the e-mail containing your **security code**
-3. [Log in](https://testmerchant.multisafepay.com/) using the **security code** provided in the e-mail
+2. Open the email containing your **security code**
+3. [Log in](https://testmerchant.multisafepay.com/) using the **security code** provided in the email
 
 With a test account:
 
@@ -91,11 +91,11 @@ Our [integration specialists](mailto:integration@multisafepay.com) are happy to 
 
 
 ## Step 4: Go live!
-When you are ready, you [sign up for a live account](https://merchant.multisafepay.com/signup) to start processing real transactions.
+When you are ready, you [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
 
-Because we are a [payment service provider](/faq/getting-started/glossary/#payment-service-provider-psp) and [acquirer](/faq/getting-started/glossary/#acquirer), we are legally required to perform extra checks, which require you to submit multiple forms. You can prepare [these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
+MultiSafepay is a [payment service provider](/faq/getting-started/glossary/#payment-service-provider-psp) and [acquirer](/faq/getting-started/glossary/#acquirer). Therefore, we are legally required to perform extra checks, which require you to submit multiple forms. You can [prepare these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
 
-*If you need help creating a live account, please reach out to our [sales team](mailto:sales@multisafepay.com)*
+*If you require assistance creating a live account, please reach out to our [sales team](mailto:sales@multisafepay.com)*
 
 {{< br >}}
 
