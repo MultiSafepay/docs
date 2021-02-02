@@ -11,4 +11,4 @@ Before you update the plugin, we strongly recommend you the following:
 1. Make sure you have a backup of your production environment
 2. Test the plugin in a staging environment.
 
-Go to our [Manual](/integrations/prestashop-1-6/manual) page, download the plugin and follow the instructions from step 2.
+Go to our [Manual](/integrations/plugins/prestashop-1-6/#manual) page, download the plugin and follow the instructions from step 2.

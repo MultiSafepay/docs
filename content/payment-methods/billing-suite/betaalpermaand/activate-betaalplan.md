@@ -8,6 +8,8 @@ read_more: '.'
 # Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
+In order to activate Betaal per Maand, please contact <sales@multisafepay.com>
+
 ### Qualification criteria of Betaal per Maand and MultiSafepay
 
 In order to be able to offer Betaal per Maand as a payment method within MultiSafepay Control, certain criteria need to be met.
@@ -38,4 +40,4 @@ We advise you to first open an account with MultiSafepay if you do not yet have 
 Apply for MultiSafepay Control online or [contact](<mailto:sales@multisafepay.com>) one of our account managers for further information.
 In case Santander already has an active working relation with a merchant for any of their other products, such merchant is considered to be a client of Santander.
 
->_Currently Betaal per Maand online is only supported by MultiSafepay_.
+>_Betaal per Maand online is only supported by MultiSafepay_.

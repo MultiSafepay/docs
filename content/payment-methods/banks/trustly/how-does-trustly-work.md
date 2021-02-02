@@ -41,16 +41,16 @@ The full API reference for Trustly cards can be found [here](/api/#trustly)
 
 | Supported plugins                                                                                                                 | Version                      |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------|  
-| [Magento 2](/integrations/magento2)                                                                                                   | Available from version 1.5.0 |  
-| [Magento 1](/integrations/magento1)                                                                                                   | Available from version 2.4.1 |
-| [WooCommerce](/integrations/woocommerce)                                                                                              | Available from version 3.2.0 |
-| [OpenCart](/integrations/opencart)                                                                                                    | Available from version 2.2.0 |
-| [PrestaShop 1.7](/integrations/prestashop-1-7)                                                                                        | Available from version 4.2.0 |
-| [CS-Cart](/integrations/cs-cart)                                                                                                      | Available from version 1.3.0 |
-| [Drupal 8](/integrations/drupal8)                                                                                                     | Available from version 1.0   |
+| [Magento 2](/integrations/plugins/magento2)                                                                                                   | Available from version 1.5.0 |  
+| [Magento 1](/integrations/plugins/magento1)                                                                                                   | Available from version 2.4.1 |
+| [WooCommerce](/integrations/plugins/woocommerce)                                                                                              | Available from version 3.2.0 |
+| [OpenCart](/integrations/plugins/opencart)                                                                                                    | Available from version 2.2.0 |
+| [PrestaShop 1.7](/integrations/plugins/prestashop-1-7)                                                                                        | Available from version 4.2.0 |
+| [CS-Cart](/integrations/plugins/cs-cart)                                                                                                      | Available from version 1.3.0 |
+| [Drupal 8](/integrations/plugins/drupal8)                                                                                                     | Available from version 1.0   |
 | [Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) | Available from version 2.0.2 |
-| [X-Cart](/integrations/x-cart)                                                                                                        | Available from version 2.2.0 |
-| [Shopify](/integrations/shopify)                                                                                                      | Available from Shopify       |
+| [X-Cart](/integrations/plugins/x-cart)                                                                                                        | Available from version 2.2.0 |
+| [Shopify](/integrations/hosted/shopify)                                                                                                      | Available from Shopify       |
 
 
 

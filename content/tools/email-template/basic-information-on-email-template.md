@@ -25,7 +25,7 @@ This is a standard email template to provide the customer with the bank details 
 
     MultiSafepay will only sent the email to the customer when the Bank transfer request is recieved as a redirect request. Meaning, the customer is redirected to the payment page of MultiSafepay to confirm the placed order. 
 
-    More information about the payment methods Bank transfer available in [Bank transfer, how does it work?](/payment-methods/bank-transfer/#how-it-works)
+    More information about the payment methods Bank transfer available in [Bank transfer, how does it work?](/payment-methods/banks/bank-transfer/#how-does-it-work)
 
 2. **Chargeback email (to merchant)**\
 This email is intended to inform the merchant that a chargeback has taken place. When you, as a merchant, process credit card payments, it is recommended to activate the option to receive a chargeback notification by email.

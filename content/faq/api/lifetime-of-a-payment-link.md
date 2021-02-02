@@ -27,13 +27,13 @@ The [Second Chance](/tools/second-chance) email is a gentle payment reminder sen
 
 {{< alert-notice >}} __Please note__: It is not possible to modify the payment link in the second chance email as the session_id of the initial payment transaction is used, therefore the change can only be made in the initial request. {{< /alert-notice >}}
 
-When enabled, the Second Chance email will be sent once after 1 hour and once after 24 hours. Currently, this cannot be adjusted. It is, however, possible to influence the lifetime of the payment link by means of the days_active or seconds_active. 
+When enabled, the Second Chance email will be sent once after 1 hour and once after 24 hours. This cannot be adjusted. It is, however, possible to influence the lifetime of the payment link by means of the days_active or seconds_active. 
 
 **Example 1:**      
 When the days_active is set to 2, the payment link will automatically expire after the two days. The customer will not be able to complete the payment after the expired period. This ensures that the stock is reversed after the payment link expires.
 
 **Example 2:**    
-When the seconds_active is set within 84600 seconds (24 hours), the payment link supplied in the second Second Chance email will no longer be valid. The second Second Chance email is sent regardless, this cannot be changed. 
+When the seconds_active is set within 86400 seconds (24 hours), the payment link supplied in the second Second Chance email will no longer be valid. The second Second Chance email is sent regardless, this cannot be changed. 
 
 The Second Chance email is sent once after 1 hour and once after 24 hours. This is not adjustable and can only be _enabled_ or _disabled_. If the days_active or seconds_active are set under 24 hours, the payment link will display an error message when opened. 
 

@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-> **We are currently looking for Magento merchants willing to test Option 2 (please see below), the utm_nooverride=1 parameter method. Please get in touch with our Integration Team at <integration@multisafepay.com> if this is something interesting for you and we will further assist you in setting it up.**
+> **We are looking for Magento merchants willing to test Option 2 (please see below), the utm_nooverride=1 parameter method. Please get in touch with our Integration Team at <integration@multisafepay.com> if this is something interesting for you and we will further assist you in setting it up.**
 
 Analytics have opened up a new universe about users' needs and wants, about how you can deliver better experiences and about how you can be closer to your customers. 
 For many, Google Analytics is a household name and sometimes the only tool available to better understand your customers.  

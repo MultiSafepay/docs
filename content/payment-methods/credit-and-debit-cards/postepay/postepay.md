@@ -11,7 +11,7 @@ Postepay - a Visa or Mastercard co-branded product - is a commonly used Italian 
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|Direct/Redirect|IT|Multiple|Full/Partial|No|No|
+|Credit/Debit|Direct/Redirect|IT|[Multiple](https://docs.multisafepay.com/faq/general/which-currencies-are-supported-by-multisafepay/)|Full/Partial|No|No|
 
 ### How Postepay works
 Postepay payments are processed through the Visa or Mastercard gateway.
@@ -24,7 +24,7 @@ The payment method Postepay is shown as a payment option on the payment page of 
 
 The [locale](/faq/api/locale) is leading in this to show the desired payment method Postepay on the payment page of MultiSafepay.
 
-Upon adding Postepay as payment method on the checkout page, you can download the Postepay logo from MultiSafepay's [collection](/faq/general/payment-method-logo) and upload it to your ecommerce platform. 
+Upon adding Postepay as payment method on the checkout page, you can download the Postepay logo from MultiSafepay's [collection](/faq/general/where-find-logo-payment-methods/) and upload it to your ecommerce platform. 
 
 
 ### How to refund a Postepay transaction?

@@ -11,7 +11,7 @@ Recurring payments are automatic payments which enable you to charge a customer 
 MultiSafepay supports two payment methods for recurring payments:
 
 - Credit cards (Visa, Mastercard and American Express)
-- SEPA Direct Debit (SDD) - optionally you can use iDEAL or SOFORT Banking for an initial payment and continue with recurring direct debits.
+- SEPA Direct Debit (SDD) - optionally you can use iDEAL, Bancontact or SOFORT Banking for an initial payment and continue with recurring direct debits.
 
 _We offer a workaround option to use Bancontact for an initial payment. [Contact](<mailto:sales@multisafepay.com>) your Account Manager for more information_.
 

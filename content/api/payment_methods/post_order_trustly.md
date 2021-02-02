@@ -107,6 +107,6 @@ Contains the personal information of the customer.
 
 ----------------
 
-Read more about [Trustly](/payment-methods/trustly) on our documentation page.
+Read more about [Trustly](/payment-methods/banks/trustly/) on our documentation page.
 
 {{< /description >}}

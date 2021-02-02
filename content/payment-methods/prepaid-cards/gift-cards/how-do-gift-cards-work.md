@@ -44,9 +44,9 @@ Transactions that are paid in full by means of gift card cannot be refunded via 
 ### Product rules
 Some rules may apply to certain payment methods. For gift cards, the following rules apply:
 
-* The maximum value of a gift card is limited to €150
+* The maximum value of an open-looped gift card is limited to € 150
 
-* For gift cards which can be used at different vendors, the transaction amount is limited to €50. If a payment exceeds €50, the remaining amount can be paid with any alternative payment method
+* For open-looped gift cards, the transaction amount is limited to € 50. If a payment exceeds € 50, the remaining amount can be paid with any alternative payment method
 
 * Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 

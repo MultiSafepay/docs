@@ -8,7 +8,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell 
 
  "second_chance": {
-   "send_email": false
+   "send_email": true
 },
  ```
 {{< /code-block >}}
@@ -26,17 +26,11 @@ It is possible to enable/disable the Second Chance message per transaction. The 
 
 __second_chance__ | object
 
-When __no value is stated__, Second Chance reminders will be sent.
+Sends a payment reminder to the customer in the form of an email.
 
-----------------
-__send_email__ | string
+__send_email__ | boolean
 
-When this parameter is set to __false__, Second Chance reminders will not be sent.
-
-----------------
-__send_email__ | string
-
-When this parameter is set to __true__, Second Chance reminders will be sent.
+Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
 
 ----------------
 

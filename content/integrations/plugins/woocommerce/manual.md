@@ -19,7 +19,7 @@ If you already have a webshop with our plugin, please turn on the automatic chec
 
 You can also download the plugin directly on this page:
 
-1. Download the plugin by clicking the Download button in this [page](/integrations/woocommerce)
+1. Download the plugin by clicking the Download button in this [page](/integrations/plugins/woocommerce)
 2. Navigate to the backend of your webshop and go to _Plugins_ -> _Add New_. Click on _Browse file_
 3. Upload the Plugin_WooCommerce_x.x.x.zip file.
 

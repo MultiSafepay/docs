@@ -17,7 +17,7 @@ Please follow these steps:
 5. Fill in the amount that you are going to refund to the customer
 6. _Confirm_.
 
->_Please note that by default, MultiSafepay does not allow for you to refund more than the stated amount of the original transaction. Please refer to the [product rules](/payment-methods/paypal/#product-rules) for more information._
+>_Please note that by default, MultiSafepay does not allow for you to refund more than the stated amount of the original transaction. Please refer to the [product rules](/payment-methods/wallet/paypal/#product-rules) for more information._
 
 * The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day
 
