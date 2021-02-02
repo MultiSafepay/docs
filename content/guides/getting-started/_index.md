@@ -21,6 +21,7 @@ You can start processing payments in five easy steps:
 
 ## Step 1: Create a test account
 To create a test account, follow these steps:
+
 1. Fill out the signup form to [create a free test account](https://testmerchant.multisafepay.com/signup)
 2. Open the email containing your **security code**
 3. [Log in](https://testmerchant.multisafepay.com/) using the **security code** provided in the email
