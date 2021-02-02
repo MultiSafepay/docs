@@ -114,7 +114,10 @@ const configOrder = {
         }
 };
 ```
- 
+
+
+
+
 ### Step 4: Place an order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
@@ -147,7 +150,7 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
-### CSS styling
+### Optional: CSS styling
 
 Our CSS is designed to give you full styling control over the component. Below is an example of the main classes of our component:
 
