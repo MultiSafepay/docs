@@ -54,7 +54,6 @@ The payment component includes [three files](https://pay.multisafepay.com/sdk/co
  {{< alert-notice >}} `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
 
-
 ## Implementation
 
 ### Step 1: Get API token
@@ -147,6 +146,19 @@ After sending the transaction request, you will get a `payment_url` back.
 This `payment_url` will be a link to the issuer, where the customer will be required to enter his 3D Secure details.
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
+
+### CSS styling
+
+Our CSS is designed to give you full styling control over the component. Below is an example of the main classes of our component:
+
+{{< br >}}
+{{< responsive_svg src="/diagrams/svg/CCC_CSS" alt="TEST" align="center" >}}
+{{< br >}}
+{{< br >}}
+
+These classes can be customized to match the exact look and feel of your webshop environment. Below is an example of some basic styling done on the main classes from the component.
+
+[Macro CSS]
 
 ### Optional: Checking for errors
 
