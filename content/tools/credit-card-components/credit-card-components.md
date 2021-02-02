@@ -158,8 +158,6 @@ Our CSS is designed to give you full styling control over the component. Below i
 
 These classes can be customized to match the exact look and feel of your webshop environment. Below is an example of some basic styling done on the main classes from the component.
 
-[Macro CSS]
-
 ### Optional: Checking for errors
 
 Apart from having the onError handler, you can also actively request the instantiated library for any errors using the following:
