@@ -15,7 +15,7 @@ According to the Dutch National Bank, you should always contact ACM for inquirie
 ### What is prohibited?
 For the majority of payment transactions, retailers are no longer allowed to charge fees for using specific payment methods. 
 
-[Surcharges](/faq/getting-started/glossary/#surcharge) are banned for:
+[Surcharges](/faq/general/glossary/#surcharge) are banned for:
 
 * Most credit card transactions when the bank or card issuer and the payment provider of the merchant are both located in a European Economic Area (EEA) state
 * Debit Card transactions (for both individuals and business customers)
@@ -46,6 +46,6 @@ If you are currently surcharging payment fees which are no longer allowed accord
 
 ### Do I need to do anything if I do not apply surcharges?
 
-No, you do not need to perform any change if you already do not apply any [surcharges](/faq/getting-started/glossary/#surcharge) on the products or services your webshop sells.
+No, you do not need to perform any change if you already do not apply any [surcharges](/faq/general/glossary/#surcharge) on the products or services your webshop sells.
 
 {{< alert-notice >}} __Disclaimer__: the information in this article has a general informative purpose. Given the changing nature of the law, rules, regulations and information in general, as well as the risk related to electronic communication, there could be delays, omissions or inaccuracies in the information contained in this article. As a result, the information in this article should not be used in place of a consultation with a professional consultant. We recommend that you consult the competent authority before taking any decision or action. While we have taken the greatest possible care in compiling the information released in the article, MultiSafepay can not guarantee the completeness, timeliness and / or accuracy of the information. As a result, MultiSafepay accepts no responsibility for direct or consequential damages resulting from the use of, reliance on or actions taken based on information provided in this article. {{< /alert-notice >}}

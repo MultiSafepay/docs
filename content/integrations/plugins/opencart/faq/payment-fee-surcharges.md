@@ -7,7 +7,7 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-Adding a payment fee or [Surcharge](/faq/getting-started/glossary/#surcharge) is no longer supported within the settings of the MultiSafepay plugin for OpenCart.
+Adding a payment fee or [Surcharge](/faq/general/glossary/#surcharge) is no longer supported within the settings of the MultiSafepay plugin for OpenCart.
 
 However, a patch can be requested. This will allow you to still add a payment fee or surcharge within the desired payment method.
 

@@ -94,7 +94,7 @@ Our [integration specialists](mailto:integration@multisafepay.com) are happy to 
 ## Step 4: Go live!
 When you are ready, you [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
 
-MultiSafepay is a [payment service provider](/faq/getting-started/glossary/#payment-service-provider-psp) and [acquirer](/faq/getting-started/glossary/#acquirer). Therefore, we are legally required to perform extra checks, which require you to submit multiple forms. You can [prepare these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
+MultiSafepay is a [payment service provider](/faq/general/glossary/#payment-service-provider-psp) and [acquirer](/faq/general/glossary/#acquirer). Therefore, we are legally required to perform extra checks, which require you to submit multiple forms. You can [prepare these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
 
 *If you require assistance creating a live account, please reach out to our [sales team](mailto:sales@multisafepay.com)*
 
