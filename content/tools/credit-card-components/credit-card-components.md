@@ -24,12 +24,7 @@ The HTTP header name for the API Key is `api_key`
 
 ### Setting up your TEST environment
 
-The payment component includes [three files](https://pay.multisafepay.com/sdk/components/v1), each for both the TEST and LIVE environment. After testing, the files can be changed to those listed in [Step 6](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
-
-* The MultiSafepay encryption library minified, which can be autoloaded by connect.js. The cardholder details are encrypted in a secure manner and sent to MultiSafepay<br>
-[msp-crypt.min.js](https://pay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js)
-
-{{< alert-notice >}} `<script src="https://testpay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
+The payment component includes two files, each for both the TEST and LIVE environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
 
 
 * The payment component library contains the credit card fields:<br>
@@ -142,17 +137,13 @@ After completion, the customer will be returned to the `redirect_url` from the t
 
 After testing, you may proceed to change the TEST files to the LIVE files listed below:
 
-* msp-crypt.min.js<br>
-
-{{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
-
 * components.js<br>
 
- {{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
+ {{< alert-notice >}} `<script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
 
 * components.css<br>
 
- {{< alert-notice >}} `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
+ {{< alert-notice >}} `<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
 The payment component library which decides the API mode must also be changed from:
 
