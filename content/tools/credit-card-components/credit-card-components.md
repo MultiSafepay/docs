@@ -164,8 +164,9 @@ to
 env: 'live',
 ```
 
+## Optional features
 
-### Optional: CSS styling
+### CSS styling
 
 Our CSS is designed to give you full styling control over the component. Below is an example of the main classes of our component:
 
@@ -207,7 +208,7 @@ padding-right: 40px;
 }
 ```
 
-### Optional: Checking for errors
+### Checking for errors
 
 Apart from having the onError handler, you can also actively request the instantiated library for any errors using the following:
 
