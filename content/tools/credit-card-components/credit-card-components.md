@@ -136,7 +136,7 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
-### Step 4: Switching from TEST to LIVE
+### Step 4: TEST to LIVE
 
 #### LIVE environment files
 
@@ -153,8 +153,6 @@ After testing, you may proceed to change the TEST files to the LIVE files listed
 * components.css<br>
 
  {{< alert-notice >}} `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
-
-### TEST to LIVE environment
 
 The payment component library which decides the API mode must also be changed from:
 
