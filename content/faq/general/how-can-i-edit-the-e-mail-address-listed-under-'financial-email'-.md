@@ -12,4 +12,4 @@ You can edit the email address listed under "Financial email", by following thes
 4. Add your preferred email address under _Financial email_
 5. Click _Save_ to complete the changes. 
 
-Reverse-charging VAT is possible in the event that you use our payment services, but are registered as a non-Dutch company. Please check the dedicate FAQ page on [VAT reverse-charging](/faq/finance/reverse-charging-vat) for more information.
+Reverse-charging VAT is possible in the event that you use our payment services, but are registered as a non-Dutch company. Please check the dedicate FAQ page on [VAT reverse-charging](/faq/finance/vat-general-questions/#is-reverse-charging-vat-possible) for more information.

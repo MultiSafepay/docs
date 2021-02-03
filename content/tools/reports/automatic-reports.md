@@ -63,7 +63,9 @@ Automated Accountant Export activation checklist:
 
 Send the requested to our Integration Team via <integration@multisafepay.com> 
 
-_Don't forget to add your MultiSafepay Control number_.
+_Don't forget to add your Account ID which can be found in the dashboard of your MultiSafepay Control in the top right corner_.
+
+
 
 ## Whitelisting
 

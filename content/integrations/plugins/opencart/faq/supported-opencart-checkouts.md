@@ -6,7 +6,7 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-Currently the plugin supports the OpenCart core checkout and it will be compatible with most of the premium themes, as long as this one has not introduced a custom checkout experience.
+The plugin supports the OpenCart core checkout and it will be compatible with most of the premium themes, as long as this one has not introduced a custom checkout experience.
 
 At this moment, you can request a patch for the following third party themes - plugins.
 

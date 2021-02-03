@@ -10,7 +10,7 @@ read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your King Business platform"
 description_short: "Implement MultiSafepay Accountant Export Reports to your King Business Software platform with ease."
 extra_button:
-    url: "https://www.kingconnections.eu/MultiSavePay" 
+    url: "https://www.kingconnections.eu/MultiSafePay" 
     text: "Go to site" 
     type: "primary"
 ---

@@ -1,5 +1,10 @@
 <div class="my-5" {{if isset .Params "align"}}align="{{ index .Params "align" }}"{{end}} >
-    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="max-width: 100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 15px;" >
+    {{if isset .Params "title"}}
+        <h2 class="pt-5 pb-3">
+            {{ index .Params "title" }}
+        </h2>
+    {{end}}
+    <img class="{{if .Get "screen_size"}}{{ .Get "screen_size"}}{{end}}-radius max-width img-shadow {{ if .Get "class" }}{{ .Get "class"}}{{end}}" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" >
     {{if isset .Params "caption"}}
         <div class="pt-5 font-italic text-muted">
             {{ index .Params "caption" }}
