@@ -2,7 +2,10 @@
 title : "Credit card components"
 ---
 
+## Introduction
+
 The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
+
 
 ## Environments
 
@@ -11,19 +14,19 @@ MultiSafepay provides a TEST environment and a LIVE environment. The TEST enviro
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
 
-### API Authentication
+## API Authentication
 
 All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
 
 The HTTP header name for the API Key is `api_key`
 
-### Files
+## Implementation
 
-The payment component includes [three files](https://pay.multisafepay.com/sdk/components/v1), each for both the TEST and LIVE environment. After testing, the files can be changed to those listed below for the LIVE environment:
+### Step 1: Setting up your TEST environment
 
-#### TEST Environment files
+The payment component includes [three files](https://pay.multisafepay.com/sdk/components/v1), each for both the TEST and LIVE environment. After testing, the files can be changed to those listed in [Step 6](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
 
-* The MultiSafepay encryption library minified, which will be autoloaded by connect.js. The cardholder details are encrypted in a secure manner and sent to MultiSafepay<br>
+* The MultiSafepay encryption library minified, which can be autoloaded by connect.js. The cardholder details are encrypted in a secure manner and sent to MultiSafepay<br>
 [msp-crypt.min.js](https://pay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js)
 
 {{< alert-notice >}} `<script src="https://testpay.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
@@ -39,24 +42,7 @@ The payment component includes [three files](https://pay.multisafepay.com/sdk/co
 
 {{< alert-notice >}} `<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
-#### LIVE environment files
-
-* msp-crypt.min.js<br>
-
-{{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
-
-* components.js<br>
-
- {{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
-
-* components.css<br>
-
- {{< alert-notice >}} `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
-
-
-## Implementation
-
-### Step 1: Get API token
+### Step 2: Get API token
 
 Get the `api_token`, which is used for encrypting the credit card input. This call uses authentication, so **do not expose your own** `api_key`. Make sure your server sends this request and not the client or browser. For example, you can load this when the customer is loading the checkout of your website.
 
@@ -72,7 +58,7 @@ Example: https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
 }
 ```
 
-### Step 2: Initialize Payment Components library
+### Step 3: Initialize Payment Components library
 
 You must initialize the payment components library and link it to the container element (selector).
 
@@ -100,7 +86,7 @@ PaymentComponent.init('payment', {
 });
 ```
 
-### Step 3: Styling template
+### Step 4: Styling template
 
 The credit card component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
 
@@ -116,9 +102,7 @@ const configOrder = {
 ```
 
 
-
-
-### Step 4: Place an order
+### Step 5: Place an order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
 
@@ -149,6 +133,24 @@ After sending the transaction request, you will get a `payment_url` back.
 This `payment_url` will be a link to the issuer, where the customer will be required to enter his 3D Secure details.
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
+
+### Step 6: Switching from TEST to LIVE
+
+#### LIVE environment files
+
+After testing, you can change from the TEST files to the LIVE files listed below:
+
+* msp-crypt.min.js<br>
+
+{{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/assets/msp-crypt.min.js" type="text/javascript" id="msp-crypt-msp-module"></script>` {{< /alert-notice >}}
+
+* components.js<br>
+
+ {{< alert-notice >}} `<script src="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
+
+* components.css<br>
+
+ {{< alert-notice >}} `<link rel="stylesheet" href="https://pay-10.dev.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
 ### Optional: CSS styling
 
