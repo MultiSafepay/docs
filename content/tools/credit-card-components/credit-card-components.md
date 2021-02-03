@@ -138,7 +138,7 @@ After completion, the customer will be returned to the `redirect_url` from the t
 
 #### LIVE environment files
 
-After testing, you can change the TEST files to the LIVE files listed below:
+After testing, you may proceed to change the TEST files to the LIVE files listed below:
 
 * msp-crypt.min.js<br>
 
@@ -154,7 +154,7 @@ After testing, you can change the TEST files to the LIVE files listed below:
 
 ### TEST to LIVE environment
 
- You must also change the environment from: 
+The payment component library which decides the API mode must also be changed from:
 
 ```
 env: 'test',
