@@ -151,7 +151,7 @@ The payment component library which decides the API mode must also be changed fr
 request
 
 PaymentComponent = new MultiSafepay({
-    env: 'test',
+    env: 'live',
     apiToken: apiToken,
     order: configOrder
 });
