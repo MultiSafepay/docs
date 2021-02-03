@@ -145,14 +145,16 @@ After testing, you may proceed to change the TEST files to the LIVE files listed
 
  {{< alert-notice >}} `<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
-The payment component library which decides the API mode must also be changed from:
+The payment component library which decides the API mode must also be changed from __test__ to __live__:
 
 ```
-env: 'test',
+request
 
-to 
-
-env: 'live',
+PaymentComponent = new MultiSafepay({
+    env: 'test',
+    apiToken: apiToken,
+    order: configOrder
+});
 ```
 
 ## Optional features
