@@ -9,7 +9,7 @@ The _Payment component_ by MultiSafepay allows you the possibility to offer your
 
 ## Environments
 
-MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
+MultiSafepay provides a [TEST environment](/tools/credit-card-components/credit-card-components/#step-1-setting-up-your-test-environment) and a [LIVE environment](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live) The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
 
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
@@ -41,6 +41,7 @@ The payment component includes [three files](https://pay.multisafepay.com/sdk/co
 [components.css](https://pay.multisafepay.com/sdk/components/v1/components.css)
 
 {{< alert-notice >}} `<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
+
 
 ### Step 2: Get API token
 
