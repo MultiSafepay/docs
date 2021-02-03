@@ -20,9 +20,9 @@ All requests to the MultiSafepay API endpoint require authentication. This is pr
 
 The HTTP header name for the API Key is `api_key`
 
-## Implementation
+## Preparation
 
-### Step 1: Setting up your TEST environment
+### Setting up your TEST environment
 
 The payment component includes [three files](https://pay.multisafepay.com/sdk/components/v1), each for both the TEST and LIVE environment. After testing, the files can be changed to those listed in [Step 6](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
 
@@ -43,7 +43,7 @@ The payment component includes [three files](https://pay.multisafepay.com/sdk/co
 {{< alert-notice >}} `<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
 
-### Step 2: Get API token
+### Get API token
 
 Get the `api_token`, which is used for encrypting the credit card input. This call uses authentication, so **do not expose your own** `api_key`. Make sure your server sends this request and not the client or browser. For example, you can load this when the customer is loading the checkout of your website.
 
@@ -58,8 +58,9 @@ Example: https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
   "api_token": "pub.v2.xxxxxx.xxxxxx"
 }
 ```
+## Implementation
 
-### Step 3: Initialize Payment Components library
+### Step 1: Initialize Payment Components library
 
 You must initialize the payment components library and link it to the container element (selector).
 
@@ -87,7 +88,7 @@ PaymentComponent.init('payment', {
 });
 ```
 
-### Step 4: Styling template
+### Step 2: Styling template
 
 The credit card component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
 
@@ -103,7 +104,7 @@ const configOrder = {
 ```
 
 
-### Step 5: Place an order
+### Step 3: Place an order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
 
@@ -135,7 +136,7 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
-### Step 6: Switching from TEST to LIVE
+### Step 4: Switching from TEST to LIVE
 
 #### LIVE environment files
 
