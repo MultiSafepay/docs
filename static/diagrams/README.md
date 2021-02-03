@@ -32,4 +32,4 @@ It's as easy as that
 
 The [desktop application](https://github.com/jgraph/drawio-desktop/releases/tag/v13.9.9) saves the state of the workplace so that upon re-opening the application, libraries are automatically imported.
 
-Questions and feedback are welcome through [Issues section](https://github.com/MultiSafepay/docs-diagrams/issues) or <kris.stallenberg@multisafepay.com>
+Questions and feedback are welcome through [Issues section](https://github.com/MultiSafepay/docs/issues) or <kris.stallenberg@multisafepay.com>

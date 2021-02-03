@@ -20,7 +20,7 @@ Please note that only a user with administrator rights can perform these steps:
 3. Click the drop-down list *Two-factor* and select *Enable*
 4. Click *Save changes*
 
-{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" >}}
+{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" screen_size="desktop" >}}
 
 ### Step 2: The user's steps
 The first time a user logs into MultiSafepay Control after 2FA is enabled, they are asked to configure 2FA. This is done by connecting their MultiSafepay account to their mobile device, following these steps:
@@ -32,7 +32,7 @@ The first time a user logs into MultiSafepay Control after 2FA is enabled, they 
 5. Press *Authenticator*
 6. Copy the 6-digit token from your mobile device to the 2FA screen on your computer or laptop
 
-{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in MultiSafepay Control app" align="center" caption="The 6-digit token remains visible for 30 seconds">}}
+{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in MultiSafepay Control app" align="center" caption="The 6-digit token remains visible for 30 seconds" screen_size="mobile" >}}
 
 ### Done
 Congratulations, you have successfully enabled and configured 2FA. Your data is now protected by an additional layer of security.

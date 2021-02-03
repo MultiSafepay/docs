@@ -23,9 +23,11 @@ In this manual we describe the installation via Composer.
 {{% introduction_plugin "Magento 2" %}}
 
 ### 1. Requirements
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x 
 - PHP 7.0 and higher
 - Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
+
+_*If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
 
 ### 2. Installation
 Run the following commands via the CLI:

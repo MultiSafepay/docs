@@ -28,13 +28,26 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [WooCommerce plugins](https://wordpress.org/plugins/multisafepay)
 
 ### LinkedIn profielen
+[Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a/)<br>
+[Alex Carletto](https://www.linkedin.com/in/alexcarletto/)<br>
+[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
 [Berend Lantink](https://www.linkedin.com/in/berendlantink)<br>
+[Daniel Civit](https://www.linkedin.com/in/danielcivit/)<br>
+[Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra/)<br>
+[Henk Timmermans](https://www.linkedin.com/in/henk-timmermans-9b813120/)<br>
+[Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)<br>
+[Jelle Sprangers](https://www.linkedin.com/in/jelle-sprangers-partnermanager)<br>
+[Jeroen Hehemann](https://www.linkedin.com/in/jeroenhehemann/)<br>
+[Joris Steenmans](https://www.linkedin.com/in/jorissteenmans/)<br>
+[Kris Stallenberg](https://www.linkedin.com/in/kris-stallenberg-a21471ba/)<br>
+[Mike de Decker](https://www.linkedin.com/in/mike-de-decker-54443a163/)<br>
 [Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)<br>
 [Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)<br>
 [Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)<br>
 [Solaiman el Bacha](https://www.linkedin.com/in/solaimanelbacha)<br>
 [Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
 [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)
+[Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar/)
 
 ### Sociale media
 [LinkedIn](https://www.linkedin.com/company/multisafepay)<br>
