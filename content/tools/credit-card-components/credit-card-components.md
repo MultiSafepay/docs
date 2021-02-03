@@ -9,7 +9,7 @@ The _Payment component_ by MultiSafepay allows you the possibility to offer your
 
 ## Environments
 
-MultiSafepay provides a [TEST environment](/tools/credit-card-components/credit-card-components/#step-1-setting-up-your-test-environment) and a [LIVE environment](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live) The TEST environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
+MultiSafepay provides a [Test environment](/tools/credit-card-components/credit-card-components/#step-1-setting-up-your-test-environment) and a [Live environment](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live) The Test environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
 
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
@@ -22,9 +22,9 @@ The HTTP header name for the API Key is `api_key`
 
 ## Preparation
 
-### Setting up your TEST environment
+### Setting up your Test environment
 
-The payment component includes two files, each for both the TEST and LIVE environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
+The payment component includes two files, each for both the Test and Live environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
 
 
 * The payment component library contains the credit card fields:<br>
@@ -99,7 +99,7 @@ const configOrder = {
 ```
 
 
-### Step 3: Place an order
+### Step 3: Place a Test order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
 
@@ -131,11 +131,11 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
-### Step 4: TEST to LIVE
+### Step 4: Push to Live
 
-#### LIVE environment files
+#### Live environment files
 
-After testing, you may proceed to change the TEST files to the LIVE files listed below:
+After testing, you may proceed to change the Test files to the Live files listed below:
 
 * components.js<br>
 
