@@ -4,19 +4,21 @@ title : "Credit card components"
 
 ### Introduction
 
-The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
+The _Payment component_ by MultiSafepay allows the possibility of offering your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
 
 
 ### Environments
 
-MultiSafepay provides a [Test environment](/tools/credit-card-components/credit-card-components/#step-1-setting-up-your-test-environment) and a [Live environment](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live) The Test environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
+MultiSafepay provides a [Test environment](/tools/credit-card-components/credit-card-components/#setting-up-your-test-environment) and a [Live environment](/credit-card-components/credit-card-components/#4-push-to-live) <br>
+
+The Test environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
 
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
 
 ### API Authentication
 
-All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
+All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the _Website settings_ in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
 
 The HTTP header name for the API Key is `api_key`
 
@@ -24,7 +26,7 @@ The HTTP header name for the API Key is `api_key`
 
 ### Setting up your Test environment
 
-The payment component includes two files, each for both the Test and Live environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live)
+The payment component includes two files, each for both the Test and Live environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-components/credit-card-components/#4-push-to-live)
 
 
 * The payment component library contains the credit card fields:<br>
@@ -156,6 +158,7 @@ PaymentComponent = new MultiSafepay({
     order: configOrder
 });
 ```
+<br>
 ## Optional features
 ### CSS styling
 
