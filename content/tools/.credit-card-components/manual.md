@@ -4,19 +4,19 @@ meta_title: "Credit card components - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
-## Introduction
+### Introduction
 
 The _Payment component_ by MultiSafepay allows you the possibility to offer your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
 
 
-## Environments
+### Environments
 
 MultiSafepay provides a [Test environment](/tools/credit-card-components/credit-card-components/#step-1-setting-up-your-test-environment) and a [Live environment](/tools/credit-card-components/credit-card-components/#step-6-switching-from-test-to-live) The Test environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
 
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
 
-## API Authentication
+### API Authentication
 
 All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the website settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
 
@@ -57,7 +57,7 @@ Example: https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
 ```
 ## Implementation
 
-### Step 1: Initialize Payment Components library
+### 1. Initialize Payment Components library
 
 You must initialize the payment components library and link it to the container element (selector).
 
@@ -85,7 +85,7 @@ PaymentComponent.init('payment', {
 });
 ```
 
-### Step 2: Styling template
+### 2. Styling template
 
 The credit card component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
 
@@ -101,7 +101,7 @@ const configOrder = {
 ```
 
 
-### Step 3: Place a Test order
+### 3. Place a Test order
 
 After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
 
@@ -133,7 +133,7 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
-### Step 4: Push to Live
+### 4. Push to Live
 
 #### Live environment files
 
@@ -157,58 +157,4 @@ PaymentComponent = new MultiSafepay({
     apiToken: apiToken,
     order: configOrder
 });
-```
-
-## Optional features
-
-### CSS styling
-
-Our CSS is designed to give you full styling control over the component. Below is an example of the main classes of our component:
-
-{{< br >}}
-{{< responsive_svg src="/diagrams/svg/CCC_CSS" alt="TEST" align="center" >}}
-{{< br >}}
-{{< br >}}
-
-These classes can be customized to match the exact look and feel of your webshop environment. Below is an example of some basic styling done on the main classes from the component:
-
-```
-.msp-container-ui .msp-ui-payment-form {
-padding: 15px;
-border: 1px solid #ff002c;
-margin: 0;
-}
- 
-.msp-container-ui .msp-ui-form-label {
-font-weight: 500;
-display: block;
-}
- 
-.msp-container-ui .msp-ui-form-control {
-background-color: #fff;
-border: 1px solid #ccc;
-color: #666;
-font-weight: 400;
-font-size: 14px;
-padding: 6px 12px;
-display: block;
-width: 100%;
-}
- 
-.msp-container-ui .msp-ui-form-control .msp-ui-credit-card-input {
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-position: 98% 3px;
-padding-right: 40px;
-}
-```
-
-### Checking for errors
-
-Apart from having the onError handler, you can also actively request the instantiated library for any errors using the following:
-
-`Requests`
-
-```
-PaymentComponent.getErrors()
 ```
