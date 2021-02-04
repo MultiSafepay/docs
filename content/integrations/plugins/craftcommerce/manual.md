@@ -23,7 +23,7 @@ Run the following commands via the CLI:
 
 ```
 composer require multisafepay/craft-commerce
-./craft install/plugin multisafepay
+./craft plugin/install multisafepay
 ```
 
 After running these commands, the latest stable release is downloaded and installed within your
