@@ -166,7 +166,7 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping {{< /alert-notice >}}
 
 **Parameters**
 
@@ -272,7 +272,7 @@ Please note this request is for Klarna Payments. This request can only be proces
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
+{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping {{< /alert-notice >}}
 
 
 **Parameters**
