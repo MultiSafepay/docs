@@ -11,14 +11,14 @@ The _Payment component_ by MultiSafepay allows the possibility of offering your 
 
 MultiSafepay provides a [Test environment](/tools/credit-card-components/credit-card-components/#setting-up-your-test-environment) and a [Live environment](/credit-card-components/credit-card-components/#4-push-to-live) <br>
 
-The Test environment is useful for developing and testing the Credit card component integration with our API. Once the integration has been developed, processing real transactions is as simple as changing the API endpoint and using a different API key.<br>
+The Test environment is useful for developing and testing the Credit card component integration with our API. Once you have developed the integration, processing real transactions is as simple as changing the API endpoint and using your live API key.<br>
 
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
 
 ### API Authentication
 
-All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. The API key can be found under the _Website settings_ in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
+All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. You can find your API key under the _Website settings_ in your [MultiSafepay Control](https://merchant.multisafepay.com/)<br> 
 
 The HTTP header name for the API Key is `api_key`
 
@@ -44,7 +44,7 @@ The payment component includes two files, each for both the Test and Live enviro
 
 Get the `api_token`, which is used for encrypting the credit card input. This call uses authentication, so **do not expose your own** `api_key`. Make sure your server sends this request and not the client or browser. For example, you can load this when the customer is loading the checkout of your website.
 
-`GET /v1/connect/auth/api_token`
+`GET https://api.multisafepay.com/v1/connect/auth/api_token`
 
 Example: https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
 
@@ -63,8 +63,8 @@ You must initialize the payment components library and link it to the container 
 
 The constructor takes three values:
 
-`env` -> test/live, decides the API mode<br> 
-`apiToken` -> api_token from step 1<br>
+`env` -> test/live, decides the API mode {{< br >}} 
+`apiToken` -> api_token from step 1 {{< br >}} 
 `order` -> contains values of the quote
 
 `request`
@@ -139,11 +139,9 @@ After completion, the customer will be returned to the `redirect_url` from the t
 
 After testing, you may proceed to change the Test files to the Live files listed below:
 
-* components.js<br>
-
+**components.js**
  {{< alert-notice >}} `<script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>` {{< /alert-notice >}}
-
-* components.css<br>
+**components.css**
 
  {{< alert-notice >}} `<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">` {{< /alert-notice >}}
 
