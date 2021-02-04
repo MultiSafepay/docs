@@ -1,7 +1,7 @@
 ---
 title : "Credit card component"
 layout : "single"
-hidden : "true"
+tags : "hidden"
 ---
 
 ### Introduction
