@@ -2,7 +2,7 @@
 title : "MultiSafepay PrestaShop 1.6 installation & configuration manual"
 weight:
 meta_title: "PrestaShop 1.6 plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ### Introduction
@@ -27,6 +27,8 @@ _It is essential that the MultiSafepay Core Module (MultiSafepay) is installed a
 
 
 4. Click on the Payments tab and enable the payment methods you would like to offer.
+
+_Notice: Manually generated payment links in the MultiSafepay Control will not create/update orders automatically in the backend of Prestashop_
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>

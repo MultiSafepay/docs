@@ -2,7 +2,7 @@
 pagetitle: "Server to Server integration for credit card"
 weight: 74
 title: "Server to Server"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Methods, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration teams."
 read_more: '.'
 ---
 ## What it is

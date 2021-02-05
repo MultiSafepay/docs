@@ -1,7 +1,7 @@
 ---
 weight: 610
 meta_title: "API - Shopping cart - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
 {{< code-block >}}
@@ -50,6 +50,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
 | description                         | string  | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this.                                                                            |
+
+### unit_price
+
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| unit_price                         | float  | The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.                                                                            |
+
 
 ### quantity
 | Parameter                          | Type     | Description                                                                          |

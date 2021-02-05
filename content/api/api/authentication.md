@@ -1,7 +1,7 @@
 ---
 weight: 40
 meta_title: "API - Authentication - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 {{< /code-block >}}
@@ -9,7 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Authentication
 
-All requests to the MultiSafepay [API](/faq/getting-started/glossary/#api) endpoint require authentication. Authentication is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites make sure to use the correct corresponding key for each one of them. The API key can be found under the website settings in [MultiSafepay Control](/faq/getting-started/glossary/#multisafepay-control)
+All requests to the MultiSafepay [API](/faq/general/glossary/#api) endpoint require authentication. Authentication is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites make sure to use the correct corresponding key for each one of them. The API key can be found under the website settings in [MultiSafepay Control](/faq/general/glossary/#multisafepay-control)
 
 The HTTP header name for the API key is: **api_key**
 

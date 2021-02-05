@@ -2,7 +2,7 @@
 title: "in3, How it works"
 weight: 21
 meta_title: "in3, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # How it works
@@ -54,7 +54,7 @@ Some rules may apply to certain payment methods. For in3, the following rules ap
 
 * Payments can only be completed in Euros (EUR)
 
-* Currently, in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
+* in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
 
 * The default amount for an in3 payment is 100 EUR and maximum 3000 EUR
 

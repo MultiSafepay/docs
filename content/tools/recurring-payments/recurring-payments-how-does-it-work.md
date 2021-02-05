@@ -2,7 +2,7 @@
 title : "Recurring payments, How it works"
 weight: 52
 meta_title: "Recurring Payments, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## Recurring payments process
@@ -80,7 +80,7 @@ POST - /orders
 
 ```
 
-_**Always use the correct payment gateway for each payment method used. Visa, Mastercard or American Express should be sent as gateway within the JSON request. More information about this can be found in the standard integration manual on our [API Documentation page](/api/#direct-debit)**_.
+Always use the correct payment gateway for each payment method used. Visa, Mastercard or American Express should be sent as gateway within the JSON request. More information about this can be found in the standard integration manual on our [API Documentation page](/api/#recurring-payment).
 
 ### Processing recurring payments from another Payment service provider
 

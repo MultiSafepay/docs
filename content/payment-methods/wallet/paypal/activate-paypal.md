@@ -2,7 +2,7 @@
 title : "How to activate PayPal"
 weight: 22
 meta_title: "PayPal, how to activate it - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -48,6 +48,8 @@ To do this, please follow the steps below:
 3. Log in into your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 4. Navigate to _Settings_->_Payment methods_. Select 'PayPal' and enter your `PayPal Account ID`.
+
+Do you want to show your header or logo at the checkout page in PayPal? First, upload the images under _Settings_ -> _Files_. Next, navigate to _payment methods_ at the bottom right-hand side, select the images as logo and header and click _Save_.
 
 Your account is now configured and you are ready to accept MultiSafepay payments. We strongly recommend you perform one or more test transactions in order to ensure everything is working correctly.
 

@@ -1,7 +1,7 @@
 ---
 weight: 130
 meta_title: "API - Gateway issuers - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
 {{< code-block >}}
@@ -79,7 +79,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 __id__ | string
 
-The unique identifier of the payment gateway to retrieve an issuer list for. Currently supported identifiers are: [iDEAL](#ideal-issuers) 
+The unique identifier of the payment gateway to retrieve an issuer list for. Supported identifiers are: [iDEAL](#ideal-issuers) 
 
 ----------------
 
@@ -96,6 +96,7 @@ Direct iDEAL transactions can have the following Issuers:
 | 1234     | Moneyou               |
 | 0021     | Rabobank              |
 | 0771     | Regio Bank            |
+| Soon supported | Revolut         |
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |

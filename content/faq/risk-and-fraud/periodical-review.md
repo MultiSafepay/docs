@@ -2,7 +2,7 @@
 title: 'Periodical review'
 weight: 59
 meta_title: "FAQ Risk and fraud - Periodical review - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 MultiSafepay periodically performs reviews of the merchant accounts, to ensure a close relationship with our customers and to maintain the accuracy of their company information in our system. This is required by law, _"Law on the prevention of money laundering and terrorist financing"_.

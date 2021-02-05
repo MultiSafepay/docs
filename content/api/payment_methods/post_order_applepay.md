@@ -1,7 +1,7 @@
 ---
 weight: 304
 meta_title: "API - Create an Apple Pay transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -55,7 +55,9 @@ try {
     }
 ```
 
-If this code is not implemented in the front-end of you e-commerce platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay. We highly recommend using the abovementioned code to avoid any issues.
+This JavaScript code will _detect_ if Apple Pay is supported on a device. We recommend you to use this code to avoid an error being displayed if the device does not support Apple Pay. 
+
+Please note that the code will still _display_ Apple Pay as a payment method on a non-supported device. We recommend extending the script to your own needs in order to hide Apple Pay.  
 
 * All parameters shown are required field(s)
 
@@ -102,7 +104,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string

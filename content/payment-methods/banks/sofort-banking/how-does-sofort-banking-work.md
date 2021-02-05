@@ -2,7 +2,7 @@
 title: "SOFORT Banking, How does it work?"
 weight: 21
 meta_title: "SOFORT Banking, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## How it works
@@ -54,5 +54,7 @@ Some rules may apply to certain payment methods. For SOFORT Banking, the followi
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
 * Minimum amount for SOFORT transactions must be € 0,10 EUR.
+
+* Transactions must be processed in the countries listed in the beginning of this page, otherwise a 1024 error will be returned upon completion of payment.
 
 

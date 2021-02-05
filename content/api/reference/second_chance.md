@@ -1,14 +1,14 @@
 ---
 weight: 602
 meta_title: "API - second_chance - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
 {{< code-block >}}
 ```shell 
 
  "second_chance": {
-   "send_email": false
+   "send_email": true
 },
  ```
 {{< /code-block >}}
@@ -28,10 +28,9 @@ It is possible to enable/disable the Second Chance message per transaction. The 
 
 __second_chance__ | object
 
-When __no value is stated__, Second Chance reminders will be sent.
+Sends a payment reminder to the customer in the form of an email.
 
-----------------
-__send_email__ | string
+__send_email__ | boolean
 
 Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
 

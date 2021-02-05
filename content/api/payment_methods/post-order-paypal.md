@@ -1,7 +1,7 @@
 ---
 weight: 323
 meta_title: "API - Create a PayPal order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders 
@@ -149,6 +149,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### Redirect - PayPal
 
 Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+
+{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status is set to _Completed_ and the financial status remains set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since the shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 

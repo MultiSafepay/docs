@@ -2,7 +2,7 @@
 title: "King Business Software"
 weight: 20
 meta_title: "King Business Software - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/King.svg'
 layout: 'single'
 title_short: "King Business Software"
@@ -10,7 +10,7 @@ read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your King Business platform"
 description_short: "Implement MultiSafepay Accountant Export Reports to your King Business Software platform with ease."
 extra_button:
-    url: "https://www.kingconnections.eu/MultiSavePay" 
+    url: "https://www.kingconnections.eu/MultiSafePay" 
     text: "Go to site" 
     type: "primary"
 ---

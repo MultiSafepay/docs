@@ -2,7 +2,7 @@
 title: "Apple Pay, How it works"
 weight: 21
 meta_title: "Apple Pay, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -50,7 +50,7 @@ The product rules for Apple Pay remain similar to those of the product rules fro
 
 * A SSL secured connection (HTTPS) is required for Apple Pay to be visible
 
-* American Express is currently __not__ supported for Apple Pay payments
+* American Express is __not__ supported for Apple Pay payments
 
 * Refunding more than the stated amount of the original transaction is __not__ possible for Apple Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 

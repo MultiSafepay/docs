@@ -1,7 +1,7 @@
 ---
 weight: 302
 meta_title: "API - Create an Alipay order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -192,7 +192,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 ----------------
 
-Read more about [Alipay](/payment-methods/alipay) on our documentation page.
+Read more about [Alipay](/payment-methods/wallet/alipay) on our documentation page.
 
 
 ### Direct - Alipay
@@ -249,7 +249,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [Alipay](/payment-methods/alipay) on our documentation page.
+Read more about [Alipay](/payment-methods/wallet/alipay) on our documentation page.
 
 
 {{< /description >}}

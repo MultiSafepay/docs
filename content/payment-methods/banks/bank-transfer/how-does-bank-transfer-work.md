@@ -2,7 +2,7 @@
 title: "Bank transfer, How does it work?"
 weight: 21
 meta_title: "Bank transfer, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 ## How does it work?
 When the customer selects bank transfer as payment method, the bank account details of MultiSafepay will be sent by email. Based on the settings, the sender can be MultiSafepay itself or your ecommerce platform. The email will be sent to the email address provided by the customer when placing the order.
@@ -52,6 +52,8 @@ Some rules may apply to certain payment methods. For bank transfer, the followin
 * The days and seconds active does not apply to the payment method bank transfer. The customer processes the payment from his/her own banking environment. As a result, it has a different payment flow and the setting of a days or seconds active will have no influence
  
 However, the payment link that is provided in the Bank transfer email to the customer can be adjusted by setting a days_active_ or seconds_active. Bank transfer transactions are active for 60 days. By default, payment links expires after 30 days. 
+
+It is important to mention that if a customer has not paid within 60 days, your stock may be affected. To avoid any stock related issues, the inventory can be held until the payment has been fulfilled by the customer. Changes can be made in your backend although adjustments will depend on the type of platform you operate and/or the products you offer. _Please note: MultiSafepay does not hold the responsibility for stock related issues_
 
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page<br>
 

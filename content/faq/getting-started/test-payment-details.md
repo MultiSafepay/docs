@@ -1,7 +1,7 @@
 ---
 title : "Test Payment Details"
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -149,7 +149,7 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 ## Gift cards
 
-MultiSafepay provides a test platform currently only for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
 
 When activating a gift card as payment method in a live MultiSafepay Control, the payment method can be tested before release.
 
@@ -240,7 +240,13 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
+| 5500000000000004 | Completed | Transaction is Completed (3D enrolled) |
+
+## Paysafecard
+
+It is not possible to test with Paysafecard.
+
+If you have any questions, please contact <integration@multisafepay.com>
 
 
 ## Pay After Delivery (Betaal na Ontvangst)
@@ -273,7 +279,7 @@ Contact us at <integration@multisafepay.com> to enable recurring payment in your
 
 ## Santander Betaal per Maand
 
-Currently no test data available for the payment method Santander.
+No test data is available for the payment method Santander.
 
 When activating Santander Betaal per Maand as payment method in a live MultiSafepay Control, the payment method will be tested before release.
 

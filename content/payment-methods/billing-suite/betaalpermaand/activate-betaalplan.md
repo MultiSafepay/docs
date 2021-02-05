@@ -2,11 +2,13 @@
 title: "How to activate Betaal per Maand"
 weight: 22
 meta_title: "Betaal per Maand, how to activate it - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 # Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
+
+In order to activate Betaal per Maand, please contact <sales@multisafepay.com>
 
 ### Qualification criteria of Betaal per Maand and MultiSafepay
 
@@ -38,4 +40,4 @@ We advise you to first open an account with MultiSafepay if you do not yet have 
 Apply for MultiSafepay Control online or [contact](<mailto:sales@multisafepay.com>) one of our account managers for further information.
 In case Santander already has an active working relation with a merchant for any of their other products, such merchant is considered to be a client of Santander.
 
->_Currently Betaal per Maand online is only supported by MultiSafepay_.
+>_Betaal per Maand online is only supported by MultiSafepay_.

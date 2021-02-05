@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay Magento 2 installation & configuration manual"
 meta_title: "Magento 2 plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases:
     - /support-tab/magento2/manual
 ---
@@ -39,6 +39,8 @@ Some of the new features include:
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
 - Magento Open Source version 2.2.x & 2.3.x & 2.4.x
 - PHP 7.1+
+
+_* If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
 
 ### 3. Modules
 The new MultiSafepay Magento 2 plugin consists of several Magento modules:

@@ -2,7 +2,7 @@
 title : "How does it work?"
 weight: 21
 meta_title: "How does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## How it works
@@ -16,7 +16,7 @@ MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must
 
 With iDEAL QR you can also produce a generic link that can be used multiple times. The QR code can be printed on leaflets. You can also enable an option to allow the customer change the amount.
 
-> Please note that currently only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING, ABN AMRO, ASN Bank, RegioBank and SNS Bank). All other customers must use the dedicated iDEAL app.
+> Please note that only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING, ABN AMRO, ASN Bank, RegioBank and SNS Bank). All other customers must use the dedicated iDEAL app.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -54,4 +54,4 @@ Some rules may apply to certain payment methods. For iDEAL QR, the following rul
 
 * Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-* If you would like to test iDEAL QR, please note that this will only work in a _Live_ environment. The _Testing_ environment is currently __not__ available.
+* If you would like to test iDEAL QR, please note that this will only work in a _Live_ environment. The _Testing_ environment is __not__ available.

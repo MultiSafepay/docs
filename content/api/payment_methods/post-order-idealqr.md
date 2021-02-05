@@ -1,7 +1,7 @@
 ---
 weight: 315
 meta_title: "API - Create an iDEAL QR order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -52,7 +52,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a iDEAL QR [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-_Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is currently not available._
+_Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is not available._
 
 {{< alert-notice >}} Please keep in mind that in case min_amount is not set, the value of amount will be used as the min_amount and vice versa.
 If max_amount is not set, the value of amount will be used as the max_amount for this transaction. In case both min_amount and max_amount are used, the value of amount will be disregarded. {{< /alert-notice >}}

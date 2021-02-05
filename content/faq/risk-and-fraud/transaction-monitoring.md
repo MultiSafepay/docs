@@ -2,7 +2,7 @@
 title: 'Transaction monitoring'
 weight: 57
 meta_title: "FAQ Risk and fraud - Transaction monitoring - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 MultiSafepay is obliged by law (_De Wet ter voorkoming van witwassen en financieren van terrorisme_ or [Wwft](https://www.fiu-nederland.nl/en/legislation/general-legislation/wwft)) to perform monitoring on all our clients, including transaction monitoring. There are multiple reasons why MultiSafepay will request an invoice, for example:

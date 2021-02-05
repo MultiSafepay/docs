@@ -1,22 +1,49 @@
 ---
 title : "Available payment methods in Mijnwebwinkel"
 meta_title: "Mijnwebwinkel available payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
+
+__Credit cards__
 
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/mastercard/visa)
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [iDEAL](/payment-methods/ideal)
-+ [SOFORT Banking](/payment-methods/sofort-banking)
-+ [Bancontact](/payment-methods/bancontact)
-+ [Belfius](/payment-methods/belfius)
-+ [KBC](/payment-methods/kbc)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [Giropay](/payment-methods/giropay)
-+ [Maestro](/payment-methods/maestro)
-+ [Bank transfer](/payment-methods/bank-transfer)
-+ [PayPal](/payment-methods/paypal)
-+ [Intersolve](/payment-methods/gift-cards)
-+ [Gift cards](/payment-methods/prepaid-cards/gift-cards)
+
+__Banks__
+
++ [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
++ [Giropay](/)
++ [iDEAL](/payment-methods/banks/ideal)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payment-methods/banks/sofort-banking)
+
+__Billing suite__
+
++ [Klarna](/payment-methods/billing-suite/klarna)
+
+__Wallet__
+
++ [PayPal](/payment-methods/wallet/paypal)
+
+__Prepaid cards__
+
++ Baby Cadeaubon
++ Beauty & Wellness
++ Boekenbon
++ Fashioncheque
++ Fashiongiftcard
++ Fietsenbon
++ Gezondheidsbon
++ Good4fun
++ Nationale Tuinbon
++ Parfumcadeaukaart
++ Podium
++ Sport & Fit
++ VVV Cadeaukaart
++ Webshop gift card
++ Wellness gift card
++ Wijncadeau
++ Winkelcheque
++ YourGift

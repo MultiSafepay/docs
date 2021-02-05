@@ -2,7 +2,7 @@
 title: "Snelstart reconciliation by Premarc"
 weight: 20
 meta_title: "Snelstart reconciliation by Premarc - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/Premarc.svg'
 layout: 'single'
 read_more: "."
@@ -16,7 +16,7 @@ extra_button:
 ---
 ### Supported plugins
 
-Premarc has built some important reconciliation plugins for MultiSafepay merchants that use Snelstart in combination with several e-commerce platforms. Read more below per platform at our partner Premarc.
+Premarc has built some important reconciliation plugins for MultiSafepay merchants that use Snelstart in combination with several ecommerce platforms. Read more below per platform at our partner Premarc.
 
 
 [Shopify](https://www.snelkoppeling.eu/shopify)

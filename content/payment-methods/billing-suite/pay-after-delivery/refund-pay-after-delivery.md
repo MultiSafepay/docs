@@ -2,7 +2,7 @@
 title : "How to refund a Pay After Delivery transaction"
 Weight: 23
 meta_title: "Pay After Delivery, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## Request refund
@@ -48,7 +48,7 @@ When you do not want to deduct an item but would like to submit an amount instea
 When the transaction is marked with the status shipped, it is no longer possible to cancel the order. You can, however, close the transaction through the _complete own funds_.      
 **Example:**      
 
-When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_, see further information in [full order refund](/payment-methods/pay-after-delivery/#full-order-refund) 
+When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_, see further information in [full order refund](/payment-methods/billing-suite/pay-after-delivery/#request-refund) 
 
 This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
 

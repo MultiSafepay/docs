@@ -2,7 +2,7 @@
 title : "Automated Accountant Export"
 weight: 61
 meta_title: "Automated Accountant Export - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -63,7 +63,9 @@ Automated Accountant Export activation checklist:
 
 Send the requested to our Integration Team via <integration@multisafepay.com> 
 
-_Don't forget to add your MultiSafepay Control number_.
+_Don't forget to add your Account ID which can be found in the dashboard of your MultiSafepay Control in the top right corner_.
+
+
 
 ## Whitelisting
 

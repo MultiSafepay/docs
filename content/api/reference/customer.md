@@ -1,7 +1,7 @@
 ---
 weight: 601
 meta_title: "API - customer object - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 ```shell 
@@ -65,11 +65,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```
 
 ```shell 
-"user_agent": "",
+"user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
 ```
 
 ```shell 
-"referrer": "",
+"referrer": "http://example.com"
 ```
 
 {{< /code-block >}}
@@ -234,6 +234,8 @@ Customer’s provided email address. Used to send Second Chance emails and in fr
 
 __user_agent__ | string
 
+A characteristic string that identifies a browser.
+
 ----------------
 
 ### referrer
@@ -242,5 +244,8 @@ __user_agent__ | string
 
 __referrer__ | string
 
+Identification of where the user/browser is originating from.
+
+----------------
 
 {{% /description %}}

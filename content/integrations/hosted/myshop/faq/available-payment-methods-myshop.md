@@ -1,33 +1,41 @@
 ---
 title : "Available payment methods in myShop"
 meta_title: "myShop available payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 __Credit cards__
+
++ [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/visa)
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
 
 __Banks__
-+ [iDEAL](/payment-methods/ideal)
-+ [Maestro](/payment-methods/maestro)
-+ [Bancontact](/payment-methods/bancontact)
-+ [SOFORT Banking](/payment-methods/sofort-banking)
-+ [Giropay](/payment-methods/giropay)
-+ [EPS](/payment-methods/eps)
-+ [Dotpay](/payment-methods/dotpay)
-+ [Bank transfer](/payment-methods/bank-transfer)
+
++ [Bancontact](/payment-methods/banks/bancontact)
++ [Bank transfer](/payment-methods/banks/bank-transfer)
++ [Dotpay](/payment-methods/banks/dotpay)
++ [EPS](/payment-methods/banks/eps)
++ [Giropay](/payment-methods/banks/giropay)
++ [iDEAL](/payment-methods/banks/ideal)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payment-methods/banks/sofort-banking)
+
 
 __Billing suite__
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
-+ [Klarna](/payment-methods/klarna)
+
++ [Klarna](/payment-methods/billing-suite/klarna)
++ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
+
 
 __Wallet__
-+ [PayPal](/payment-methods/paypal)
+
 + [FastCheckout](/payment-methods/fastcheckout)
++ [PayPal](/payment-methods/wallet/paypal)
+
 
 __Prepaid cards__
-+ [Intersolve](/payment-methods/gift-cards)
-+ [Fashioncheque](/payment-methods/gift-cards)
-+ [123TCS](/payment-methods/gift-cards)
+
++ [123TCS](/payment-methods/prepaid-cards/gift-cards)
++ [Intersolve](/payment-methods/prepaid-cards/gift-cards)
++ [Fashioncheque](/payment-methods/prepaid-cards/gift-cards)

@@ -2,7 +2,7 @@
 title : "Tokenization available for plugins supported by MultiSafepay"
 weight: 92
 meta_title: "Tokenization, available for plugins - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -26,4 +26,4 @@ Submit your request to enable recurring payments at your account manager at <sal
 When recurring payments are enabled for your MultiSafepay Control, the token can be received and processed.
 
 ## Tokenization, available for:
-Currently we offer tokenization in our [Magento 1](/integrations/magento1), [Magento 2](/integrations/magento2), [PrestaShop 1.6](/integrations/prestashop-1-6), [PrestaShop 1.7](/integrations/prestashop-1-7) and [Shopware 6](/integrations/plugins/shopware6)
+We offer tokenization in our [Magento 1](/integrations/plugins/magento1), [Magento 2](/integrations/plugins/magento2), [PrestaShop 1.6](/integrations/plugins/prestashop-1-6), [PrestaShop 1.7](/integrations/plugins/prestashop-1-7) and [Shopware 6](/integrations/plugins/shopware6)

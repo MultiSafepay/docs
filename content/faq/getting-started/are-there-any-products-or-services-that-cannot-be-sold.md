@@ -1,10 +1,10 @@
 ---
 title : "Are there any products or services that cannot be sold?"
 meta_title: "FAQ Getting Started - Forbidden products/services - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-As a [Payment Service Provider](/faq/getting-started/glossary/#payment-service-provider-psp), MultiSafepay is subject to European and Dutch laws and regulations. Additionally, we are required to comply with the policies set per each payment method that we offer. MultiSafepay is also required to take potential risks and reputational consequences into account.
+As a [Payment Service Provider](/faq/general/glossary/#payment-service-provider-psp), MultiSafepay is subject to European and Dutch laws and regulations. Additionally, we are required to comply with the policies set per each payment method that we offer. MultiSafepay is also required to take potential risks and reputational consequences into account.
 
 Some products and/or services cannot therefore be accepted or can only be sold if additional information is provided. This list serves as a guideline for products and services which cannot be accepted in any case. Contact our Sales department by email at <sales@multisafepay.com> or call us +31 20 8500 502 to discuss the possibilities.
 

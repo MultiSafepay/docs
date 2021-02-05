@@ -2,7 +2,7 @@
 title: "Dynamic 3D Secure"
 weight: 71
 meta_title: "Server to Server - Dynamic 3D Secure - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
@@ -12,7 +12,7 @@ Based on a predefined set of rules, an order will be processed with or without [
 
 
 {{< alert-notice >}}
-__Please note__: Starting January 1st 2021, we no longer support Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
+__Please note__: MultiSafepay no longer supports Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
 {{< /alert-notice >}}
 
 The following information is required:

@@ -1,7 +1,7 @@
 ---
 weight: 321
 meta_title: "API - Create a Maestro order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -92,7 +92,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -101,6 +101,6 @@ Customer will be redirected to this page after a failed payment.
 
 ----------------
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+__Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
 
 Read more about [Maestro](/payment-methods/credit-and-debit-cards/maestro) on our documentation page.

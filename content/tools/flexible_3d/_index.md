@@ -3,7 +3,7 @@ title: "Flexible 3D"
 weight: 10
 layout: 'single'
 meta_title: "Flexible 3D - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/Flexible 3D.svg'
 short_description: 'Use 3D secure verification to provide an extra layer of security to credit card payments.'
 ---
@@ -15,7 +15,7 @@ Flexible 3D is a feature that allows you to enable/disable 3D Secure at an API l
 [3D secure, What it is](/faq/general/what-is-3d-secure)
 
 {{< alert-notice >}}
-__Please note__: Starting January 1st 2021, we no longer support Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
+__Please note__: MultiSafepay no longer supports Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
 {{< /alert-notice >}}
 
 ## How it works

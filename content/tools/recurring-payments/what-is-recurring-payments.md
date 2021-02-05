@@ -2,7 +2,7 @@
 title : "Recurring payment, What it is"
 weight: 51
 meta_title: "Recurring Payment, What it is - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 ## 1. Introduction
@@ -11,7 +11,7 @@ Recurring payments are automatic payments which enable you to charge a customer 
 MultiSafepay supports two payment methods for recurring payments:
 
 - Credit cards (Visa, Mastercard and American Express)
-- SEPA Direct Debit (SDD) - optionally you can use iDEAL or SOFORT Banking for an initial payment and continue with recurring direct debits.
+- SEPA Direct Debit (SDD) - optionally you can use iDEAL, Bancontact or SOFORT Banking for an initial payment and continue with recurring direct debits.
 
 _We offer a workaround option to use Bancontact for an initial payment. [Contact](<mailto:sales@multisafepay.com>) your Account Manager for more information_.
 

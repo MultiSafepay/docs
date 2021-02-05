@@ -2,7 +2,7 @@
 title : "Payment Services Directive 2 (PSD2)"
 weight: 1
 meta_title: "Payment Services Directive 2 (PSD2) - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -16,4 +16,4 @@ Besides the possibilities for new products and services enabled by the PSD2 (e.g
 
 PSD2 requires more security and mandates [Strong Customer Authentication (SCA)](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication/), which is also known as Two-Factor Authentication (2FA).
 
-{{< alert-notice >}} __Please read__: The EBA (European Bank Authority) has arrived at the decision that migration plans of Payment Service Providers, including the implementation and testing by merchants, should be completed by 31 December 2020. {{< /alert-notice >}}
+{{< alert-notice >}} __Please read__: The EBA (European Bank Authority) has arrived at the decision that migration plans of Payment Service Providers, including the implementation and testing by merchants was to be completed by 31 December 2020. {{< /alert-notice >}}
