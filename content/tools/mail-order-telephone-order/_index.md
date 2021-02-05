@@ -1,16 +1,16 @@
 ---
-title: "MOTO"
+title: "Mail Order/Telephone Order"
 weight: 20
-meta_title: "MOTO - MultiSafepay Docs"
+meta_title: "Mail Order/Telephone Order - MultiSafepay Docs"
 layout: 'single'
-meta_description: "MOTO payments, also known as mail order and telephone order, allows you to accept credit card payments by manually entering them in your payment gateway by means of a virtual terminal."
+meta_description: "Mail Order/Telephone Order, also known as MOTO, allows you to accept credit card payments by manually entering them in your payment gateway by means of a virtual terminal."
 logo: '/svgs/MOTO.svg'
 short_description: 'Accept credit card payments by mail or telephone with MOTO.'
 ---
 
 ## MOTO, What it is
 
-MOTO payments, also known as mail order and telephone order, allow you to accept credit card payments by manually entering the payment details in your payment gateway by means of a virtual terminal.
+Mail Order/Telephone Order also known as MOTO, allows you to accept credit card payments by manually entering the payment details in your payment gateway by means of a virtual terminal.
 
 ## MOTO, How it works
 
