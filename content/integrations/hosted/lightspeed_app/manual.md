@@ -18,6 +18,8 @@ For the optimal experience of the user, we included some Javascript and use our 
 
 If the Javascript files are not loaded, all payment methods will continue to work. If you want to use our payment icons, you can find them on our [Github page](https://github.com/MultiSafepay/MultiSafepay-icons)
 
+To use the app a API key is required. To obtain this key you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
+
 ### 1. Installation 
 Instructions to install the MultiSafepay Lightspeed app:
 
