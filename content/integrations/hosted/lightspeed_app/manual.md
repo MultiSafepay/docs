@@ -45,4 +45,4 @@ __Congratulations__
 
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com>
 
-After installing the MultiSafepay Payments application, you can access the settings page. You will be redirected to this page automatically after the installation or you can go there by clicking on the _Go to App_ button in your Lightspeed backend when you go to your apps and select the MultiSafepay Payments app.
+After installing the MultiSafepay Payments application, you can access the settings page. You will be redirected to this page automatically after the installation. Alternatively, navigate to your apps, select the MultiSafepay Payments app and click on the _Go to App_ button.
