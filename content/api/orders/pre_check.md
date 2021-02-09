@@ -247,9 +247,10 @@ __delivery__ | object
 Contains the delivery information for the shipment. Values for first_name and last_name require minimum two characters.
 
 ----------------
+
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. The descriptions of the shopping cart parameters can be viewed in [shopping_cart.items](/api/#shopping-cart-items) API section.
 
 ----------------
 
