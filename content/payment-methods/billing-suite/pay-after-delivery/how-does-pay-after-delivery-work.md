@@ -22,7 +22,9 @@ When the transaction is marked with the _Shipped_ status, it is no longer possib
 **Example:**      
 In some cases, the customer pays the outstanding amount of the transaction directly to the webshop. This allows you to link the received payment to the outstanding transaction through _Complete own Funds_. Hereby you complete the outstanding transaction. The total amount of the transaction is deducted from your MultiSafepay balance and the transaction is finalized. 
 
-When the customer has not supplied a payment, the transaction can be cancelled by _Refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
+When the customer has not supplied a payment, the transaction can be cancelled by _Refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order.
+
+If a customer pays an outstanding amount for a transaction directly to you, then you will need to notify MultiSafepay of this fulfillment in payment. It is important that you notify us, otherwise we may be forced to initiate contact with the customer directly in regards to the 'outstanding' amount which has already been paid.
 
 ### Payment flow
 As soon as your customer selects the payment method Pay After Delivery, he or she agrees with the terms and conditions. 
