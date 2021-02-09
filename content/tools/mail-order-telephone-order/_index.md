@@ -10,7 +10,7 @@ short_description: 'Accept credit card payments by mail or telephone with MOTO.'
 
 ## MOTO, What it is
 
-Mail Order/Telephone Order also known as MOTO, allows you to accept credit card payments by manually entering the payment details in your payment gateway by means of a virtual terminal.
+Mail Order/Telephone Order, also known as MOTO, allows you to accept credit card payments by manually entering the payment details in your payment gateway by means of a virtual terminal.
 
 ## MOTO, How it works
 
@@ -28,5 +28,4 @@ For more information, please refer to the page on [Processing credit card paymen
 ## Activating MOTO 
 
 Our Risk Team decides whether the MOTO payments will be activated for you or not. For further information to find out if your are eligible to process MOTO payment, contact your account manager at <sales@multisafepay.com> 
-
 
