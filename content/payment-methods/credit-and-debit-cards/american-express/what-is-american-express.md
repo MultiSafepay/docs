@@ -10,4 +10,4 @@ American Express is one of the most popular credit card service provider's, acce
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|Direct/Redirect|Worldwide|Multiple|Full/Partial|Yes|Yes|
+|Credit/Debit|Direct/Redirect|Worldwide|EUR, USD, GBP|Full/Partial|Yes|Yes|

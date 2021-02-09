@@ -192,7 +192,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 ----------------
 
-Read more about [Alipay](/payment-methods/alipay) on our documentation page.
+Read more about [Alipay](/payment-methods/wallet/alipay) on our documentation page.
 
 
 ### Direct - Alipay
@@ -249,7 +249,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [Alipay](/payment-methods/alipay) on our documentation page.
+Read more about [Alipay](/payment-methods/wallet/alipay) on our documentation page.
 
 
 {{< /description >}}

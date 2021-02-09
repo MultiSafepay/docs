@@ -50,7 +50,7 @@ The product rules for Apple Pay remain similar to those of the product rules fro
 
 * A SSL secured connection (HTTPS) is required for Apple Pay to be visible
 
-* American Express is currently __not__ supported for Apple Pay payments
+* American Express is __not__ supported for Apple Pay payments
 
 * Refunding more than the stated amount of the original transaction is __not__ possible for Apple Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 

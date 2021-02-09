@@ -15,6 +15,6 @@ There are two ways to activate Bancontact as a payment method in your [MultiSafe
 
 Enable Bancontact as payment method in your ecommerce platform to finalize the connection.
 
-Read the regular [Bancontact](/payment-methods/bancontact/#activate) pages to activate Bancontact and Bancontact QR.
+Read the regular [Bancontact](/payment-methods/banks/bancontact/#activate) pages to activate Bancontact and Bancontact QR.
 
 If you have any questions, please contact us at <sales@multisafepay.com>

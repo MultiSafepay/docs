@@ -141,11 +141,11 @@ div.msp-app-text p:last-child {
 
 /***** RESPONSIVE DIAGRAMS *****/
 
-.mobile {display: none;}
+.mobile-svg {display: none;}
 
 @media screen and (max-width: 991px){
-    .large {display: none;}
-    .mobile {display: block;}
+    .desktop-svg {display: none;}
+    .mobile-svg {display: block;}
 }
 
 /*********** FOOTER ***********/
@@ -1488,3 +1488,26 @@ h6 {
     display: none;
 }
 
+.small-img {
+    max-width: 500px;
+    max-height: 300px;
+    object-fit:scale-down;
+}
+
+.max-width {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-shadow {
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.mobile-radius {
+    border-radius: 30px;
+}
+
+.desktop-radius {
+    border-radius: 5px;
+}
+    border-radius: 15px;

@@ -15,6 +15,10 @@ Please note the various descriptions of statuses and how they should be interpre
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
+_Please note that MultiSafepay does not collect funds for PayPal_
+
+{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status is set to _Completed_ and the financial status remains set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since the shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
+
 * Order status      
 The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
 
@@ -64,4 +68,3 @@ Some rules may apply to certain payment methods. For PayPal, the following rules
 * Refunds will be processed only when your PayPal account balance is sufficient
 
 * For information on which currencies are supported, please contact PayPal.
-

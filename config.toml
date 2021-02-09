@@ -27,6 +27,13 @@ key = "shell"
 name = "Shell"
 
 # Menu config
+
+[[menu.main]]
+    name = "Getting Started"
+    url  = "/guides/getting-started/"
+    pre = "fa fa-rocket fa-lg"
+    weight = 1
+
 [[menu.main]]
     name = "Integrations"
     url  = "/integrations/"

@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: "faqdetail"
 ---
 
-Currently we test our plugin at two Magento 2 checkouts:  
+We test our plugin at two Magento 2 checkouts:  
 
 * Magento 2 core checkout  
 * [MagePlaza OneStepCheckout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
