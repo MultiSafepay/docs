@@ -16,7 +16,7 @@ extra_button:
 ---
 
 ### Subscription and credit management tool
-Twikey is an online tool for managing your subscriptions and collecting your subscription fees on a [recurring](/tools/recurring-payments/what-is-recurring-payments/) basis that includes [SEPA direct debit mandate management](https://www.twikey.com/solution/mandate.html)
+Twikey is an online tool for managing your subscriptions and collecting your subscription fees on a [recurring](https://www.twikey.com/de/solution/subscription.html) basis that includes [SEPA direct debit mandate management](https://www.twikey.com/solution/mandate.html)
 
 ### Include MultiSafepay payment link
 You can send invoices directly to your new and existing customers by including a MultiSafepay link and thus enabling your customers to pay quickly and effortlessly by clicking on a MultiSafepay payment link. It is also possible to create a one-off payment link to send to your customers via Twikey to collect payments for unsettled transactions by allowing the customer to pay by clicking on a payment link or scanning a QR code that you can send by e-mail, WhatsApp or any other means of communication that you might use.
