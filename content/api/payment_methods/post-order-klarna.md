@@ -157,6 +157,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Klarna
 ### Redirect - Klarna
+
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Klarna is available as both a direct and redirect request. 
@@ -166,7 +169,6 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping {{< /alert-notice >}}
 
 **Parameters**
 
@@ -264,6 +266,9 @@ Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ 
 Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
 
 ### Redirect - Klarna Payments
+
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
@@ -271,8 +276,6 @@ Please note this request is for Klarna Payments. This request can only be proces
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
-
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping {{< /alert-notice >}}
 
 
 **Parameters**

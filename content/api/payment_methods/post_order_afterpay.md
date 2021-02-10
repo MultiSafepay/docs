@@ -192,13 +192,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## AfterPay
 ### Direct - AfterPay
 
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
 
 * Direct transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
-
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping {{< /alert-notice >}}
 
 **Parameters**
 
@@ -305,14 +305,13 @@ Read more about [AfterPay](/payment-methods/billing-suite/afterpay) on our docum
 
 ### Redirect - AfterPay
 
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
 
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
-
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping {{< /alert-notice >}}
-
 
 **Parameters**
 
