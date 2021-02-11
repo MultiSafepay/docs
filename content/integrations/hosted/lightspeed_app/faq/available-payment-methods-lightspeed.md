@@ -32,7 +32,7 @@ We support the following payment methods:
 + [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 
-Furthermore, we support the following gift cards:
+We support the following gift cards:
 
 + Beauty & Wellness
 + Bloemencadeaukaart
