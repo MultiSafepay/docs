@@ -3,6 +3,7 @@ title: "Adding my carrier within the payment method of MultiSafepay"
 weight:
 meta_title: "PrestaShop 1.7 plugin my carrier - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+read_more: "."
 ---
 
 When no external shipping method is used within the PrestaShop 1.7 plugin the _My carrier_ should be enabled.
