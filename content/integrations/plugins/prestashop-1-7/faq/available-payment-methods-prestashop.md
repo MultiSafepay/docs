@@ -55,7 +55,7 @@ __Prepaid cards__
 + [Fashion Cheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
 + [Good4fun](https://www.good4fun.nl)
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
