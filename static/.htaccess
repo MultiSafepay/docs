@@ -378,6 +378,7 @@ Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrapp
 Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
 Redirect 301 /integrations/sdk/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
 Redirect 301 /faq/general/can-i-use-multisafepay-with-odoo/ https://docs.multisafepay.com/integrations/plugins/odoo/
+Redirect 301 /tools/moto/moto https://docs.multisafepay.com/tools/mail-order-telephone-order/
 
 #DOCS-855: Remove SSL Certificate Renewal January 2020 page
 Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com
