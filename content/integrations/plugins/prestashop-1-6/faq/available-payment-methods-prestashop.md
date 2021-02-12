@@ -47,16 +47,16 @@ __Wallet__
 __Prepaid cards__ 
 
 + Beauty and Welness gift card
-+ Boekenbon
-+ De grote speelgoedwinkel
-+ Fashion Cheque
-+ Fashion gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ Gezondheidsbon
-+ Parfumcadeaukaart
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
-+ Sport en Fit
-+ VVV gift card
-+ Webshop gift card
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
 + Wijncadeau
-+ Yourgift
++ [Yourgift](https://www.yourgift.nl/)
