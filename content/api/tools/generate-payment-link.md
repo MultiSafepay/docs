@@ -51,7 +51,7 @@ For several scenarios, it can be useful for our merchants to generate a payment 
 
 ### Second Chance
 
-[Second Chance](https://docs.multisafepay.com/tools/second-chance/how-does-it-work/) is an email reminder that points out to your customers of their attempted (and incomplete) payment(s) and encourages them to finalize the payment(s).
+[Second Chance](https://docs.multisafepay.com/tools/second-chance/how-does-it-work) is an email reminder that points out to your customers of their attempted (and incomplete) payment(s) and encourages them to finalize the payment(s).
 
 As per GDPR requirements, MultiSafepay does not submit emails by default. If you enable this option, please ensure there is a documented consent from the recipient of the payment link.
 

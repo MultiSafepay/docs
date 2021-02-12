@@ -22,7 +22,7 @@ aliases:
     ```shell
     pip3 install multisafepay==0.2.0
     ```
-    You can find all the information about the dependencies at this [link](https://pypi.org/project/multisafepay/)
+    You can find all the information about the dependencies at this [link](https://pypi.org/project/multisafepay)
 4.  Restart Odoo server
 5.  Activate developer mode at Odoo platform
 6.  Navigate to Apps menu and click _Update Apps List_

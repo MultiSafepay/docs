@@ -15,7 +15,7 @@ The actual payment using a gift card will not be processed by MultiSafepay, but 
 
 The amount deducted from the gift card to complete a payment will be paid out by the issuer of the gift card.
 
-| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Prepaid card|Redirect|NL/BE|EUR|n/a|No|No|
 
@@ -48,7 +48,7 @@ Some rules may apply to certain payment methods. For gift cards, the following r
 
 * For open-looped gift cards, the transaction amount is limited to € 50. If a payment exceeds € 50, the remaining amount can be paid with any alternative payment method
 
-* Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 

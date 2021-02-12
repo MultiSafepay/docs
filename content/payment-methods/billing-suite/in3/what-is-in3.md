@@ -9,6 +9,6 @@ read_more: '.'
 
 With in3, you can allow consumers to pay for their purchases 'in 3' individual installments at no extra cost. Consumers using in3 are also not required to be registered at the BKR (Bureau Krediet Registratie).
 
-| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Pay After Delivery | Direct/Redirect| NL|EUR|Full/Partial|No|No|

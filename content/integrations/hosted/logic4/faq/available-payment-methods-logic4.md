@@ -28,7 +28,7 @@ __Banks__
 
 __Billing suite__
 
-+ [AfterPay](/payment-methods/billing-suite/afterpay/)
++ [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 

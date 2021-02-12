@@ -14,7 +14,7 @@ It brings code improvements, unit/integration testing and it is built on top of 
 **Please uninstall the old plugin first, before installing the new one.**
 
 {{< alert-notice >}}
-The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old/) 
+The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old) 
 {{< /alert-notice >}}
 
 ### 1. Features

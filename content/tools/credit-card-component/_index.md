@@ -15,12 +15,12 @@ MultiSafepay provides a [Test environment](/tools/credit-card-component/#setting
 
 The Test environment is useful for developing and testing the credit card component integration with our API. Once you have developed the integration, processing real transactions is as simple as changing the API endpoint and using your live API key.
 
-For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
+For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api)
 
 
 ### API Authentication
 
-All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. You can find your API key under the _Website settings_ in your [MultiSafepay Control](https://merchant.multisafepay.com/) 
+All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. You can find your API key under the _Website settings_ in your [MultiSafepay Control](https://merchant.multisafepay.com) 
 
 The HTTP header name for the API Key is `api_key`
 
