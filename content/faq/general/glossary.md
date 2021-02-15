@@ -49,7 +49,7 @@ A gift card that can be used at multiple merchants/vendors.
 ### Payment Method
 The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods)
 
-### Payment Service Provider (PSP)
+### Payment service provider (PSP)
 Company that enables merchants with the ability to accept multiple types of electronic payment methods, by combining the functions of a payment gateway and a payment processor. The PSP can link financial institutions (acquirers, issuers), card and payment schemes and merchants, managing the relationship between them as a service. The payment service provider has the responsibility to ensure a secure and reliable delivery of electronic payment services. MultiSafepay offers a seamless and efficient streamlined payment process, by combining the functions of a gateway, processor and acquirer.
 
 ### Payout
