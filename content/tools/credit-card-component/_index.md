@@ -22,7 +22,7 @@ For more information about our API, please visit our [API reference](https://doc
 
 All requests to the MultiSafepay API endpoint require authentication. This is provided by including an API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, be sure to use the correct API key for each site. You can find your API key under the _Website settings_ in your [MultiSafepay Control](https://merchant.multisafepay.com/) 
 
-The HTTP header name for the API Key is `api_key`
+The HTTP header name for the API key is `api_key`
 
 ## Preparation
 
