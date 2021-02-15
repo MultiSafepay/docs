@@ -196,6 +196,10 @@ MultiSafepay provides a test platform for iDEAL transactions. During the payment
 | Initialized/Declined  | Transaction is Initialized (after 1 minute it is changed to Declined) |
 
 
+## iDEAL QR
+
+Test details are unavailable for iDEAL QR, therefore it is not possible process test transactions. Although, you will still be able to place test payments in the [Live environment](https://merchant.multisafepay.com/)
+
 ## ING Home'Pay 
 
 MultiSafepay provides a test platform for ING Home'Pay transactions. During the payment process you will be able to simulate the outcome of the transaction.
