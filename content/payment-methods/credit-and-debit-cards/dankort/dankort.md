@@ -42,3 +42,7 @@ _MultiSafepay does not allow you to refund more than the stated amount of the or
 
 
 > _Please note that credit card payments that are refunded by the merchant to the customer, will be sent to the card issuing bank and its partners within 1 business day by MultiSafepay. Whether or not the refund will be visible to the customer depends on the reports, statements and online tools that are made available by the issuing bank_.
+
+### Testing
+
+For more information about the possibilities of testing with Dankort, please refer to our [test payment details](/faq/getting-started/test-payment-details/#dankort)
