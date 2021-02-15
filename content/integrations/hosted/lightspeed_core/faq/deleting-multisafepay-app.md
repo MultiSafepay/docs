@@ -4,7 +4,7 @@ meta_title: "How do I delete the MultiSafepay App in Lightspeed? - MultiSafepay 
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
-It may be the case that payment methods will still be visible in the checkout once you have terminated your contract with MultiSafepay. In order to remove these payment methods and ultimately the MultiSafepay App from the Lightspeed App, please follow these steps:
+Payment methods may still be visible in the checkout once you have terminated your contract with MultiSafepay. In order to remove these payment methods and ultimately the MultiSafepay App from the Lightspeed App, please follow these steps:
 
 1. Log into your Lightspeed App
 2. Navigate to _Apps_ -> _Purchased Apps_ -> _MultiSafepay Payments_
