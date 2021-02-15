@@ -21,13 +21,13 @@ Plugin specific articles can be found here:
 
 [Magento 2](/integrations/plugins/magento1/faq/generic-gateways/)
 
-[OpenCart](/integrations/plugins/magento1/faq/generic-gateways/)
+[OpenCart](/integrations/plugins/opencart/faq/generic-gateways/)
 
 [Shopware 5](/integrations/plugins/magento1/faq/generic-gateways/)
 
 [Shopware 6](/integrations/plugins/magento1/faq/generic-gateways/)
 
-[WooCommerce](/integrations/plugins/magento1/faq/generic-gateways/)
+[WooCommerce](/integrations/plugins/woocommerce/faq/generic-gateways/)
 
 ### Generic Giftcards 
 Since we do not support all of the open-loop giftcards and non of the closed-loop giftcards in our integrations generic gateways can be especially useful for giftcards.
