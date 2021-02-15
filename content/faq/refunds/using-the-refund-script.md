@@ -9,7 +9,7 @@ read_more: '.'
 It is possible to easily refund in batches with our refund script. The refund script takes two parameters: 
 
 1. A .csv file which specifies the order_id, amount and description of every order
-2. Your API key. 
+2. Your [API key](/faq/general/glossary/#api-key)
 
 The script is written in PHP, so make sure it's used in an environment where a PHP interpreter is installed.
 

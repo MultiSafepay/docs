@@ -8,7 +8,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< alert-notice >}} __Important:__ A number of Magento 1 webshops were recently hacked. Read more about the breach on our [blog](https://www.multisafepay.com/blog/significant-vulnerability-leads-to-2000-magento-1-stores-hacked/) {{< /alert-notice >}}
 
-{{< alert-notice >}} Starting from 3.0.0 the plugin only needs your API key. Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
+{{< alert-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
 
 ### Introduction
 

@@ -17,6 +17,10 @@ MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and
 ### API
 A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
 
+### API key
+
+An API key is a unique identifier that is required to establish a connection between your website and the MultiSafepay services. The API key can be found in your MultiSafepay Control. Read more about how to retrieve your [API key](/tools/multisafepay-control/get-your-api-key/)
+
 ### Cron job
 
 A background program (or daemon), used to schedule recurring tasks. Read more on Wikipedia's entry on [cron](https://en.wikipedia.org/wiki/Cron)

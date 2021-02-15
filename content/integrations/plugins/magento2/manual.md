@@ -87,7 +87,7 @@ This page contains all main support information and it is advised to read this.
 
 2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
-Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
+Information on where to find your Account ID, Site ID, Site code or [API key](/faq/general/glossary/#api-key) can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
 
 2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Payment Methods_.   

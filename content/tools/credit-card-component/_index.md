@@ -13,7 +13,7 @@ The credit card component by MultiSafepay allows the possibility of offering you
 
 MultiSafepay provides a [Test environment](/tools/credit-card-component/#setting-up-your-test-environment) and a [Live environment](/tools/credit-card-component/#4-push-to-live)
 
-The Test environment is useful for developing and testing the credit card component integration with our API. Once you have developed the integration, processing real transactions is as simple as changing the API endpoint and using your live API key.
+The Test environment is useful for developing and testing the credit card component integration with our API. Once you have developed the integration, processing real transactions is as simple as changing the API endpoint and using your live [API key](/faq/general/glossary/#api-key)
 
 For more information about our API, please visit our [API reference](https://docs.multisafepay.com/api/)
 
