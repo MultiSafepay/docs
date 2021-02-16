@@ -7,4 +7,4 @@ read_more: '.'
 ---
 ## Testing
 
-Unfortunatley, it is not possible to test with Santander Betaal per Maand due to unavailable test data. See our [test payment details page](/faq/getting-started/test-payment-details/#santander-betaal-per-maand) for more information.
+Unfortunatley, it is not possible to test with Santander Betaal per Maand. Read more on our [test payment details page](/faq/getting-started/test-payment-details/#santander-betaal-per-maand)
