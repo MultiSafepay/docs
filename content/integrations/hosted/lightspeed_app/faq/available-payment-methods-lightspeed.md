@@ -50,4 +50,4 @@ Furthermore, we support the following gift cards:
 + [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl)
 + [Webshop gift card](https://www.webshopgiftcard.nl)
 + Wijncadeau
-+ [Yourgift](yourgift.nl)
++ [Yourgift](https://www.yourgift.nl)
