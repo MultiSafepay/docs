@@ -29,6 +29,6 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Winkelcheque 
 * YourGift
 
-_* **Webshop giftcard** no longer offers gift cards ([open-loop](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) that can be redeemed at multiple retailers. Existing open-loop gift cards can be exchanged for gift cards that are specific to a single retailer ([close-loop](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) Please contact [Webshop Giftcard](https://www.webshopgiftcard.nl/contact) directly if you have any questions._
+_* **Webshop giftcard** no longer offers gift cards ([open-loop](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) that can be redeemed at multiple retailers. Existing open-loop gift cards can be exchanged for gift cards that are specific to a single retailer ([close-loop](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) Please contact [Webshop giftcard](https://www.webshopgiftcard.nl/contact) directly if you have any questions._
 
 Would you rather be offering a personalized gift card to your customers? Read more about [Branded / Personalized gift cards](/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card) on our documentation page.
