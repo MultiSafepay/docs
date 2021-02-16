@@ -57,7 +57,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 | 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
 
-## BankTransfer
+## Bank transfer
 
 MultiSafepay provides a test platform for bank transfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
 
