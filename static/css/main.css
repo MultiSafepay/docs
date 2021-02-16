@@ -1555,7 +1555,7 @@ h6 {
 /* Not chroma selector is added to protect the API styling */
 pre:not(.chroma) {
     background-color: #F6F6F6;
-    color: 4D4D4D;
+    color: #4D4D4D;
     border-radius: 10px 0px 10px 10px;
     padding: 40px 50px;
 }
