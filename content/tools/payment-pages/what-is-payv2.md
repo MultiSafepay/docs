@@ -21,7 +21,7 @@ With the latter, you can use all new payment methods and use our editor for your
 In order to activate PayV2, please follow these steps:
 
 1. Login to your [MultiSafepay Control](https://merchant.multisafepay.com/)
-2. Navigate to _Settings_ -> _Website Settings_
+2. Navigate to _Settings_ → _Website Settings_
 3. Select the website profile
 4. Checkmark 'Use new payment pages'.
 

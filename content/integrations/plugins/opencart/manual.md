@@ -15,17 +15,17 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### 2. Installation
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
-3. Login into your backend and navigate to _Extensions_ -> _Installer_.
+3. Login into your backend and navigate to _Extensions_ → _Installer_.
 4. Click on the upload button and select in your computer the downloaded file.
 5. Wait until the installation process finish. 
 6. Click in the menu item Dashboard.
 7. On the upper right corner of the screen, click on the blue button with a cog wheel icon, and then click on the refresh icon to clean both caches. 
-8. Go to _Extensions_ -> _Modifications_ and click on refresh button.
-9. Go to _Extensions_ -> _Payments_ -> _MultiSafepay_ and click in the button with the install icon.
+8. Go to _Extensions_ → _Modifications_ and click on refresh button.
+9. Go to _Extensions_ → _Payments_ → _MultiSafepay_ and click in the button with the install icon.
 10. You just installed the plugin. Now you need to configure the settings. 
 
 ### 3. Configuration
-1. Login into your backend and navigate to _Extensions_ -> _Extensions_ -> _Payments_-> _MultiSafepay_.
+1. Login into your backend and navigate to _Extensions_ → _Extensions_ → _Payments_→ _MultiSafepay_.
 2. On the MultiSafepay configuration page, enter the required information presented on each tab. 
 3. You can find your API Key on our [API key page](/tools/multisafepay-control/get-your-api-key)
 4. Enable and configure the desired payment methods you wish to offer in _Payment Methods_ tab.
@@ -40,13 +40,13 @@ You have installed and configured the plugin successfully. If you have any quest
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
 3. Before you update the plugin, we strongly recommend have a backup of your production environment
-4. Login into your backend and navigate to _Extensions_ -> _Installer_.
+4. Login into your backend and navigate to _Extensions_ → _Installer_.
 5. Click on the upload button and select in your computer the downloaded file.
 6. Wait until the installation process finish. 
 7. Click in the menu item _Dashboard_.
 8. On the upper right corner of the screen, click on the blue button with a cog wheel icon, and then click on the refresh icon to clean both caches. 
-9. Go to _Extensions_ -> _Modifications_ and click on refresh button.
-10. Go to _Extensions_ -> _Payments_ -> _MultiSafepay_ and click in the edit button to access the settings page.
+9. Go to _Extensions_ → _Modifications_ and click on refresh button.
+10. Go to _Extensions_ → _Payments_ → _MultiSafepay_ and click in the edit button to access the settings page.
 11. You will see a warning notification message, indicating is needed to make some maintenance tasks to delete old plugin files. 
 12. Go to _Maintenance_ tab and at the end of the list; click on the button to delete old plugin files. 
 13. You just update the plugin. Now you need to configure the settings. 

@@ -15,9 +15,8 @@ You can retrieve your API key by following these instructions:
 You will then be able to view the following information: 
 
 * API key
-* Account ID
 * Site ID
-* Secure Code.
+* Secure Code
 
 _Please note: A live Account ID starts with a 10, whereas a test Account ID starts with a 9_.
 
