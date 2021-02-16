@@ -8,13 +8,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< code-block >}}
 > TEST API
 
-```
+``` shell
 https://testapi.multisafepay.com/v1/json
 ```
 
 > LIVE API
 
-```
+``` shell
 https://api.multisafepay.com/v1/json
 ```
 {{< /code-block >}}

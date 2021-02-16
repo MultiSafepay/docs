@@ -7,7 +7,7 @@ aliases:
 ---
 
 ### Introduction
-This is a beta version of the Lightspeed app. Please contact the Integration team at <integration@multisafepay.com> if you wish to use the app. The core Lightspeed integration can be found [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core)
+This is a beta version of the Lightspeed app. Please contact the Integration Team at <integration@multisafepay.com> if you wish to use the app. The core Lightspeed integration can be found [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core)
 
 {{% introduction_hosted "Lightspeed" %}}
 
@@ -38,11 +38,11 @@ Instructions to install the MultiSafepay Lightspeed app:
 
 When you have successfully migrated to the new Lightspeed app, you will be able to disable the old integration. You can do this by following these instructions:
 
-1. Login into your backend and navigate to _Settings_ -> _Payment Providers_ -> _MultiSafepay_
+1. Login into your backend and navigate to _Settings_ → _Payment Providers_ → _MultiSafepay_
 2. On the top of the screen you can disable this payment provider.
 
 __Congratulations__
 
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
 After installing the MultiSafepay Payments application, you can access the settings page. You will be redirected to this page automatically after the installation. Alternatively, navigate to your apps, select the MultiSafepay Payments app and click on the _Go to App_ button.

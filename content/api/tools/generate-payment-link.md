@@ -62,7 +62,7 @@ As per GDPR requirements, MultiSafepay does not submit emails by default. If you
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in the MultiSafepay Control under _Tools_ -> _Payment link generator_
+Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in the MultiSafepay Control under _Tools_ → _Payment link generator_
 
 
 ----------------

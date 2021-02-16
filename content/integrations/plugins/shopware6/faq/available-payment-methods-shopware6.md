@@ -3,6 +3,7 @@ title : "Available payment methods in Shopware 6"
 meta_title: "Shopware 6 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
+read_more: "."
 ---
 __Credit cards__
 
@@ -36,6 +37,7 @@ __Billing suite__
 + [Afterpay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
++ [in3](/payment-methods/billing-suite/in3/)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 

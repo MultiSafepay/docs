@@ -32,7 +32,7 @@ aliases:
 
 ### 3. Configuration
 Configuration is possible within the _Invoicing_ menu or the _Website_ menu.
-1.  Navigate to _Invoicing/Website_ menu and go to _Configuration_ -> _Payment Acquirers_
+1.  Navigate to _Invoicing/Website_ menu and go to _Configuration_ → _Payment Acquirers_
 2.  Select _MultiSafepay_ payment acquirer. Go to _Edit_ mode. By default acquirer state is disabled
 3.  Change state, _Enabled_ or _Test_, and enter _Live_ and/or _Test_ _API Key_, set Journal at Configuration tab, and save changes
 4.  Click _Pull payment methods_ at Configuration tab to get payment methods from your MultiSafepay account
