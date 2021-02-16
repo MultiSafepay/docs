@@ -20,4 +20,4 @@ SOFORT Banking is supported in the following countries within your MultiSafepay 
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Bank|Direct/Redirect|AT, BE, DE, IT, ES, CH, PL|EUR, GBP, PLN, CHF|Full/Partial|Yes|No|
+|Bank|Direct/Redirect|AT, BE, DE, IT, ES, CH, PL|EUR|Full/Partial|Yes|No|
