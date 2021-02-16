@@ -12,7 +12,7 @@ aliases:
 As of version 1.7.0, we have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking. This feature can be implemented by the following steps:
 
 1. Login into your Magento backend. Check how we do it [here](/integrations/plugins/magento2/old/) in step 3. 
-2. Go to _Marketing_ -> _Email Templates_
+2. Go to _Marketing_ → _Email Templates_
 3. Add a template (import from _new order_)
 4. Add this sample code the template
 </br>
@@ -28,7 +28,7 @@ The email template syntax is different for Magento 2.3.4+. For these versions yo
 </br>
    Please note that with this sample code, the payment link will also be available in frontend order confirmation e-mails.
 
-5. Go to _Stores -> Configuration → Sales → Sales Emails_
+5. Go to _Stores → Configuration → Sales → Sales Emails_
 6. Change the "New Order Confirmation Template" with your template
 7. After these changes, the template should be tested to confirm it is working.
 

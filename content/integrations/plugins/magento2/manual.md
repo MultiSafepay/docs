@@ -82,19 +82,19 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
 ### 5. Configuration
-1. Login on the backend of your webshop and navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Information_.  
+1. Login on the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
 This page contains all main support information and it is advised to read this.
 
-2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Settings_.   
+2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
 Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
 
-2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Payment Methods_.   
+2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Payment Methods_.   
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-3. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Gift Cards_.  
+3. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Gift Cards_.  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
 Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 

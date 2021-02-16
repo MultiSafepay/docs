@@ -60,9 +60,9 @@ You must initialize the credit card component library and link it to the contain
 
 The constructor takes three values:
 
-`env` -> test/live, decides the API mode {{< br >}} 
-`apiToken` -> response from GET API token {{< br >}} 
-`order` -> contains values of the quote
+`env` → test/live, decides the API mode {{< br >}} 
+`apiToken` → response from GET API token {{< br >}} 
+`order` → contains values of the quote
 
 ### Request
 

@@ -8,7 +8,7 @@ read_more: '.'
 
 A recurring transaction can only be refunded to the customer when the financial status of the transaction is marked as _completed_. The refund can be processed as follows:
 
-1. Select _Transaction -> Transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Select _Transaction → Transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Find the transaction through search
 3. Open transaction
 4. Select _Refund_

@@ -8,4 +8,4 @@ Our Magento 1 plugin is developed based on this.
 
 However, if your webshop uses a different currency, simply change the configuration in the plugin settings:
 
-_System_ -> _Configuration_ -> _MultiSafepay x.x.x_ -> _Connect Settings_ -> _Allow currency conversion to Euro_ -> _No_.
+_System_ → _Configuration_ → _MultiSafepay x.x.x_ → _Connect Settings_ → _Allow currency conversion to Euro_ → _No_.

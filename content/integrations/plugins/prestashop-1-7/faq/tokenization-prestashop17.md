@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 
 1. Read the page [How do I get tokenization?](/tools/tokenization/tokenization-available-for-plugins)
-2. Enable Tokenization via _Modules and Services_ -> _Modules and Services_ -> _MultiSafepay_. Then click on _Configure_ -> Set _Tokenization_ to YES -> Click on _Save_.
+2. Enable Tokenization via _Modules and Services_ → _Modules and Services_ → _MultiSafepay_. Then click on _Configure_ → Set _Tokenization_ to YES → Click on _Save_.

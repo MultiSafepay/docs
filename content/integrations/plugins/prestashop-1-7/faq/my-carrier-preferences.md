@@ -9,7 +9,7 @@ When no external shipping method is used within the PrestaShop 1.7 plugin the _M
 
 Follow the instructions within the PrestaShop 1.7 to enable the standard shipping method, _my carrier_.
 
-_Payment method_ -> _Preferences_ -> Enable MultiSafepay in the _my carrier_ within the Carrier Restrictions.
+_Payment method_ → _Preferences_ → Enable MultiSafepay in the _my carrier_ within the Carrier Restrictions.
 
 _The carrier should always be activated within the payment preference of MultiSafepay. When disabled, no payment methods will be shown in the frontend of the webshop_.
 

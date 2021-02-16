@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 Yes, it is possible to refund orders or process a credit memo from the backend. Follow these steps:
 
-1. Please ensure an API key has been provided under _System_ -> _Connect Settings_ and that the option Credit Memo has been enabled
+1. Please ensure an API key has been provided under _System_ → _Connect Settings_ and that the option Credit Memo has been enabled
 2. Go to the order in the Magento backend for which you’d like to issue a refund
 3. Click the _Invoices_ tab on the left of the _Order Overview_
 4. Open the invoice, and click on _Credit memo_ located at the top right of the overview

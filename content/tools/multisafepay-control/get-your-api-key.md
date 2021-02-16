@@ -12,7 +12,7 @@ Looking for your account information (e.g. API key)?
 [Live MultiSafepay Control](https://merchant.multisafepay.com)  
 [Test MultiSafepay Control](https://testmerchant.multisafepay.com)
 
-2. Navigate to _Settings->Website settings_
+2. Navigate to _Settings→Website settings_
 
 3. Add a new website or click on an existing website.
 
