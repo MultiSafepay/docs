@@ -7,6 +7,6 @@ layout: 'paymentdetail'
 logo: '/logo/Payment_methods/iDeal.svg' 
 short_description: 'The leading ecommerce payment method in the Netherlands connecting all major Dutch banks.'
 aliases:
-     [/support-tab/magento2/payment-methods/ideal]
-     [/payment-methods/ideal/]
+    - /support-tab/magento2/payment-methods/ideal
+    - /payment-methods/ideal/
 ---
