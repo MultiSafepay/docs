@@ -1,17 +1,6 @@
 ErrorDocument 404 /404.html
 
-Redirect 301 /payment-methods/ideal/ https://docs.multisafepay.com/payment-methods/banks/ideal/
-Redirect 301 /payment-methods/afterpay/what-is-afterpay/ https://docs.multisafepay.com/payment-methods/billing-suite/afterpay/what-is-afterpay/
-Redirect 301 /payment-methods/alipay/alipay-what-is-it/ https://docs.multisafepay.com/payment-methods/wallet/alipay/alipay-what-is-it/
-Redirect 301 /payment-methods/bancontact/what-is-bancontact/ https://docs.multisafepay.com/payment-methods/banks/bancontact/what-is-bancontact/
-Redirect 301 /payment-methods/bank-transfer/what-is-bank-transfer/ https://docs.multisafepay.com/payment-methods/banks/bank-transfer/what-is-bank-transfer/
-Redirect 301 /payment-methods/belfius/what-is-belfius/ https://docs.multisafepay.com/payment-methods/banks/belfius/what-is-belfius/
-Redirect 301 /payment-methods/betaalplan/what-is-betaalplan/ https://docs.multisafepay.com/payment-methods/billing-suite/betaalplan/what-is-betaalplan/
 Redirect 301 /payment-methods/creditcards/credit-card-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/credit-card-what-is-it/
-Redirect 301 /payment-methods/direct-debit/what-is-direct-debit/ https://docs.multisafepay.com/payment-methods/banks/direct-debit/what-is-direct-debit/
-Redirect 301 /payment-methods/dotpay/dotpay-what-is-it/ https://docs.multisafepay.com/payment-methods/banks/dotpay/dotpay-what-is-it/
-Redirect 301 /payment-methods/ing-home-pay/what-is-ing-home-pay/ https://docs.multisafepay.com/payment-methods/banks/ing-home-pay/what-is-ing-home-pay/
-Redirect 301 /payment-methods/kbc/what-is-kbc/ https://docs.multisafepay.com/payment-methods/banks/kbc/what-is-kbc/
 Redirect 301 /payment-methods/klarna/what-is-klarna/ https://docs.multisafepay.com/payment-methods/billing-suite/klarna/what-is-klarna/
 Redirect 301 /payment-methods/maestro/what-is-maestro/ https://docs.multisafepay.com/payment-methods/banks/maestro/what-is-maestro/
 Redirect 301 /payment-methods/pay-after-delivery/what-is-pay-after-delivery/ https://docs.multisafepay.com/payment-methods/billing-suite/pay-after-delivery/what-is-pay-after-delivery/
