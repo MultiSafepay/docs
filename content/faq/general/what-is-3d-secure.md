@@ -11,7 +11,7 @@ read_more: "."
 
 ## How does 3D Secure relate to PSD2 and SCA?
 
-The Payment Services Directive 2 [(PSD2)](/faq/payment-regulations/payment-service-directive-2/) is a set of laws and regulations that aims to improve European consumer rights while promoting competition within the financial industry. One of the requirements of PSD2 is Strong Customer Authentication [(SCA)](/faq/payment-regulations/strong-customer-authentication/). SCA combines two elements of authentication to reduce the risk of fraud. The 3D Secure authentication protocol is a widely implemented form of SCA that complies with PSD2 regulations.
+The Payment Services Directive 2 [(PSD2)](/faq/payment-regulations/payment-service-directive-2) is a set of laws and regulations that aims to improve European consumer rights while promoting competition within the financial industry. One of the requirements of PSD2 is Strong Customer Authentication [(SCA)](/faq/payment-regulations/strong-customer-authentication). SCA combines two elements of authentication to reduce the risk of fraud. The 3D Secure authentication protocol is a widely implemented form of SCA that complies with PSD2 regulations.
 
 ## What's new in 3DS 2.0?
 

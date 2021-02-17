@@ -120,7 +120,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay Control. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work/) {{< /alert-notice >}}
+{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay Control. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work) {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 

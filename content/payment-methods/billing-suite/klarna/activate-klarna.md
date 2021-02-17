@@ -24,4 +24,4 @@ For existing clients, please contact <verkoop@klarna.com> for more information a
 
 Alternatively, if you have any questions regarding your Klarna integration and the connection between Klarna and the MultiSafepay Control, please contact <integration@multisafepay.com>
 
-Please note that all consumer questions are handled by [Klarna](https://www.klarna.com/nl/klantenservice/) for both new and existing clients.
+Please note that all consumer questions are handled by [Klarna](https://www.klarna.com/nl/klantenservice) for both new and existing clients.

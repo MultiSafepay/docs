@@ -24,7 +24,7 @@ To create a test account, follow these steps:
 
 1. Fill out the signup form to [create a free test account](https://testmerchant.multisafepay.com/signup)
 2. Open the email containing your **security code**
-3. [Log in](https://testmerchant.multisafepay.com/) using the **security code** provided in the email
+3. [Log in](https://testmerchant.multisafepay.com) using the **security code** provided in the email
 
 With a test account:
 
@@ -41,13 +41,13 @@ After successfully creating a test account, it is time to set up your MultiSafep
 
 Before you can start building your integration, add your website to your MultiSafepay Control to generate an API key. To do this, follow these steps:
 
-1. [Log in](https://testmerchant.multisafepay.com/) to your MultiSafepay Control
-2. Navigate to *Settings* --> *Website settings*
+1. [Log in](https://testmerchant.multisafepay.com) to your MultiSafepay Control
+2. Navigate to *Settings* → *Website settings*
 3. Click *Website wizard* and add your domain
 
 Your test account is now linked to your website. Navigate to the [website settings](https://testmerchant.multisafepay.com/sites), click your website, and copy the API key to start building your integration.
 
-[**Read more about setting up your MultiSafepay Control**](/tools/multisafepay-control/add-website/)
+[**Read more about setting up your MultiSafepay Control**](/tools/multisafepay-control/add-website)
 
 {{< br >}}
 
@@ -78,9 +78,9 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 {{< br >}}
 
 ### Other integration methods
-* [**Cash register software**](/integrations/cash-register-software/): simplify the order process for restaurants, cafes, hotels, and establishments alike
-* [**Reservation Management**](/integrations/reservation-management/): allow your customers to make reservations and pay online
-* [**Credit & Subscription Management**](/integrations/credit-and-subscription-management/): manage your subscriptions and collect your subscription fees
+* [**Cash register software**](/integrations/cash-register-software): simplify the order process for restaurants, cafes, hotels, and establishments alike
+* [**Reservation Management**](/integrations/reservation-management): allow your customers to make reservations and pay online
+* [**Credit & Subscription Management**](/integrations/credit-and-subscription-management): manage your subscriptions and collect your subscription fees
 
 {{< br >}}
 
@@ -101,6 +101,6 @@ MultiSafepay is a [payment service provider](/faq/general/glossary/#payment-serv
 {{< br >}}
 
 ## Step 5: Next steps
-Now that you're successfully processing payments, it's time to get the most out of our products. Start using our [Tools](https://docs.multisafepay.com/tools/) to boost conversion, improve security, gain insights, and more.  
+Now that you're successfully processing payments, it's time to get the most out of our products. Start using our [Tools](https://docs.multisafepay.com/tools) to boost conversion, improve security, gain insights, and more.  
 
 {{< br >}}

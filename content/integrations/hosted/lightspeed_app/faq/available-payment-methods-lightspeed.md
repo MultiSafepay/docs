@@ -2,8 +2,9 @@
 title : "Available payment methods in Lightspeed"
 meta_title: "Lightspeed plugin - Available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-
+read_more: "."
 ---
+
 We support the following payment methods:
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
@@ -32,22 +33,22 @@ We support the following payment methods:
 + [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 
-Furthermore, we support the following gift cards:
+We support the following gift cards:
 
 + Beauty & Wellness
-+ Bloemencadeaukaart
-+ Boekenbon
-+ Degrotespeelgoedwinkel
-+ Fashioncheque
-+ Fashiongiftcard
++ [Bloemencadeaukaart](https://www.bloemen-cadeaukaart.nl)
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ Gezondheidsbon
-+ Nationale bioscoopbon
-+ Nationaletuinbon
-+ Parfumcadeaukaart
-+ Sportenfit
-+ Vuur & rook gift card
-+ VVV Cadeaukaart
-+ Webshopgiftcard
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Nationale bioscoopbon](https://www.bioscoopbon.nl)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Sportenfit](https://www.sportenfitcadeau.nl)
++ [Vuur & rook gift card](https://www.vuurenrook.nl/nl/fan-stores-giftcards/giftcards)
++ [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
 + Wijncadeau
-+ Yourgift
++ [Yourgift](https://www.yourgift.nl)

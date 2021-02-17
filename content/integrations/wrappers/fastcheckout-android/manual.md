@@ -210,7 +210,7 @@ protected void onCreate(Bundle savedInstanceState) {
    SDK = FastCheckoutSDK.getInstance();
    SDK.setApiKey(API_KEY);
 
-   btnLogOut.setOnClickListener(view -> SDK.startCheckout(transaction_id, this));
+   btnLogOut.setOnClickListener(view → SDK.startCheckout(transaction_id, this));
 
    }
 

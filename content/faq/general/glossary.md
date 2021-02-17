@@ -60,11 +60,15 @@ A software component that adds a feature or functionality to another existing pi
 
 ### Payment Services Directive 2 (PSD2)
 
-PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
+PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
+
+### Payment Card Industry Data Security Standard (PCI DSS)
+
+The Payment Card Industry Data Security Standard, also known as PCI DSS is a _standard_ that is enforced through contracts between merchants, acquiring banks and payment service providers. The standard covers a set of requirements to ensure that cardholder data security is enhanced and that a secure environment is maintained. Read more on Wikipedia about [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)
 
 ### Strong Customer Authentication (SCA)
 
-SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication/) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
+SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
 
 ### Surcharge
 An additional fee, charge or tax that is added to the costs of a good or service, on top of the initial price. Very often, the surcharge is not part of the stated price of the good or service. Surcharges can be set at specific amounts or can account for a percentage of the total price.

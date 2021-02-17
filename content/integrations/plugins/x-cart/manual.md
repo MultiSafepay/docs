@@ -14,7 +14,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ### 2. Installation
 1. Unzip the content of the .ZIP file in the root of your webshop
-2. Login in your backend and navigate to _System tools -> Cache management -> Re-deploy the store_ and press _Start_.
+2. Login in your backend and navigate to _System tools → Cache management → Re-deploy the store_ and press _Start_.
 
 ### 3. Configuration
 1. Login into your backend and navigate to _My Addons_ and search for _MultiSafepay_

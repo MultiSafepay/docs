@@ -11,7 +11,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 First, you will need to add your MultiSafepay credentials.
 
-1. Login to your backend and navigate to _Online orders_ -> _Payment method_ -> MultiSafepay
+1. Login to your backend and navigate to _Online orders_ → _Payment method_ → MultiSafepay
 2. Add your MultiSafepay Account ID (e.g. 10010010)
 3. Add your Site ID
 4. Add your Site Security Code

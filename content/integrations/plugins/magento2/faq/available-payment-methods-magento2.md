@@ -50,23 +50,23 @@ __Wallet__
 __Prepaid cards__ 
 
 + Baby gift card
-+ Beauty and Welness gift card
-+ Boekenbon
-+ Fashion Cheque
-+ Fashion gift card
++ Beauty and Wellness gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashion Cheque](https://www.fashioncheque.com/nl/)
++ [Fashion gift card](https://www.fashion-giftcard.nl/)
 + Fietsenbon
-+ Gezondheidsbon
-+ Givacard
-+ Good4fun
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
++ [Givacard](https://www.givacard.nl/)
++ [Good4fun](https://www.good4fun.nl/)
 + Goodcard
-+ Nationale tuinbon
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
-+ Parfumcadeaukaart
-+ Podium
-+ Sport en Fit
-+ VVV gift card
-+ Webshop gift card
-+ Wellness gift card
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
++ [Podium](https://www.podiumcadeaukaart.nl/)
++ [Sport en Fit](https://www.sportenfitcadeau.nl/)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl/)
++ [Webshop gift card](https://www.webshopgiftcard.nl/)
++ [Wellness gift card](https://www.wellnessgiftcard.nl/)
 + Wijncadeau
-+ Winkelcheque
-+ Yourgift
++ [Winkelcheque](https://www.winkelcheque.nl/)
++ [Yourgift](yourgift.nl)

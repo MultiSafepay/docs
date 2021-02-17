@@ -14,7 +14,7 @@ For example: Account A receives a payment of 80 EUR of which 10 EUR is going to 
 Please follow the following steps to refund a split payment transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _Transactions_ -> _Transaction overview_
+2. Select _Transactions_ → _Transaction overview_
 3. Find the transaction through search
 4. Open transaction
 5. Select _Refund_
