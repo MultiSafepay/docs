@@ -4,6 +4,7 @@ weight: 20
 meta_title: "What is iDeal? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/ideal/what-is-ideal/]
 ---
 ## What is it?
 Around 60% of all online transactions in the Netherlands are carried through iDEAL, the leading ecommerce payment system from the Netherlands. iDEAL is an inter-bank system linking all major Dutch consumer banks. Payments are done using the mobile banking app or the online banking environment of customers' own bank.

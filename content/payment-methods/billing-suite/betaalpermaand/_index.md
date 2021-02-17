@@ -7,6 +7,7 @@ layout: 'paymentdetail'
 logo: '/logo/Payment_methods/betaalpermaand.svg' 
 short_description: 'Allows customers to pay for online purchases as a one-off post-payment or in monthly installments.'
 aliases:
-    - /support-tab/magento2/payment-methods/betaalplan
+    - support-tab/magento2/payment-methods/betaalplan
     - /payment-methods/billing-suite/betaalplan
+    - /payment-methods/betaalplan/
 ---

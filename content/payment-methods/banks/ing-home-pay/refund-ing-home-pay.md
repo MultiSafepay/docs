@@ -4,6 +4,7 @@ weight: 23
 meta_title: "ING Home'Pay, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/ing-home-pay/refund-ing-home-pay/]
 ---
 ## Request refund
 Please follow these steps to refund a ING Home'Pay transaction:

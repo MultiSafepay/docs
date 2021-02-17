@@ -4,6 +4,7 @@ weight: 20
 meta_title: "iDEAL QR, what is it? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/idealqr/what-is-idealqr/]
 ---
 ## What it is
 iDEAL QR is an additional service offered by the Dutch payment method [iDEAL](/payment-methods/banks/ideal)

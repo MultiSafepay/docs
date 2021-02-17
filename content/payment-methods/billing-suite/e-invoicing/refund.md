@@ -4,6 +4,7 @@ weight: 23
 meta_title: "E-Invoicing, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/e-invoicing/refund/]
 ---
 # How to refund E-Invoicing transaction
 There are 3 ways to refund a E-Invoicing order in your [MultiSafepay Control](https://merchant.multisafepay.com)

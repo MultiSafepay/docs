@@ -6,4 +6,5 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: paymentdetail
 logo: '/logo/Payment_methods/VVV_Giftcards.svg'
 short_description: 'The possibility for consumers to pay using a wide range of Dutch issued gift cards.'
+aliases: [/payment-methods/gift-cards/]
 ---

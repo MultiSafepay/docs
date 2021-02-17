@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/American_Express.svg'
 short_description: 'Enable a widely used credit card payment method by American Express.'
 aliases:
     - /support-tab/magento2/payment-methods/american-express
+    - /payment-methods/creditcards/american-express/
 ---

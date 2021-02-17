@@ -7,5 +7,5 @@ logo: '/logo/Payment_methods/Bancontact.svg'
 short_description: 'Formerly known as Mister Cash, Bancontact is the market leader for online payments in Belgium.'
 layout: 'paymentdetail'
 aliases:
-    - /support-tab/magento2/payment-methods/bancontact
+    [/support-tab/magento2/payment-methods/bancontact]
 ---
