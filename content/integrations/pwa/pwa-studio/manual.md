@@ -10,4 +10,4 @@ Please see our GitHub repo for the [integration instruction and GraphQL request 
 
 ### PWA theme payment component
 
-Please, keep in mind that you will be need create a custom payment component for PWA theme, depends from which you are using. 
+Please, keep in mind that you will be need create a custom payment component for PWA storefront, depends from which you are using. 
