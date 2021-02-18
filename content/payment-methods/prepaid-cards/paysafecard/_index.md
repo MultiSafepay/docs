@@ -9,5 +9,4 @@ short_description: 'Allow customers to pay for purchases without providing any s
 aliases:
     - /support-tab/magento2/payment-methods/paysafecard
     - /payment-methods/paysafecard/
-
 ---
