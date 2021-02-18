@@ -156,6 +156,13 @@
         });
     </script>
     <!--End AnchorJS -->	
+
+    <!-- Insert copy-code-button on every page with <pre> tags -->
+    {{ if (findRE "<pre" .Content 1) }}
+        <script src="/js/copy-code-button.js"></script>
+    {{ end }}
+    <!-- End copy-code-button -->
+
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
     <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
 </body>
