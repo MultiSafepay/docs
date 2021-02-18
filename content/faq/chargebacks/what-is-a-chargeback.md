@@ -80,6 +80,6 @@ By offering credit cards as a payment option in your webshop, you agree to the c
 
 ### Why do you charge a chargeback handling fee?
 
-If a customer has initiated a chargeback, MultiSafepay will charge a fee to handle the dispute between you and the customer. Visa and Mastercard, as well as the processing bank can also charge fees if the dispute reaches the final stages of where an agreement cannot be reached between you and the customer.<br> 
+If a customer has initiated a chargeback, MultiSafepay will charge a fee to handle the dispute between you and the customer. Visa and Mastercard, as well as the processing bank, may also charge fees if the dispute cannot be settled between you and the customer.<br> 
 
 For more information about these fees, please contact <support@multisafepay.com>
