@@ -4,6 +4,9 @@ weight: 1
 meta_title: "Payment Services Directive 2 (PSD2) - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: 
+    - /faq/psd2/what-is-psd2
+    - /faq/PSD2/does-PSD2-influence-my-webshop
 ---
 
 ### What is PSD2?

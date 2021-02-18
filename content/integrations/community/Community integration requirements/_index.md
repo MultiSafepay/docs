@@ -7,6 +7,7 @@ weight: 102
 title_short: "Submit a community integration"
 description_short: "Submit and promote your plugin and become part of the MultiSafepay community."
 hideMenu: '.'
+aliases: [/integrations/community/community/]
 ---
 
 At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who code wrappers, plugins, applications and other various code in order to work with us.
