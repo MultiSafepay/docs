@@ -198,7 +198,7 @@ MultiSafepay provides a test platform for iDEAL transactions. During the payment
 
 ## iDEAL QR
 
-Test details are unavailable for iDEAL QR, therefore it is not possible process test transactions. Although, you will still be able to place test payments in the [Live environment](https://merchant.multisafepay.com/)
+Testing is currently not supported for the iDEAL QR payment method. Although, you can place test payments in the [Live environment](https://merchant.multisafepay.com/)
 
 ## ING Home'Pay 
 
