@@ -12,4 +12,7 @@ weight: 10
 title_short: "Lightspeed app"
 description_short: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app."
 description: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app."
+aliases: 
+    - /integrations/hosted/lightspeed/
+    - /integrations/hosted/lightspeedbeta/
 ---

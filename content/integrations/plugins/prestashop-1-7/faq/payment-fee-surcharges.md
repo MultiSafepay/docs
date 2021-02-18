@@ -4,6 +4,7 @@ weight:
 meta_title: "PrestaShop 1.7 plugin surcharge - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: [/integrations/prestashop-1-7/faq/payment-fee-surcharges/]
 ---
 
 Adding a payment fee is not automatically supported within the Prestashop plugin.
