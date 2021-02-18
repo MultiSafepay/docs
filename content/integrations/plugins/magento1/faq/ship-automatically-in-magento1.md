@@ -3,6 +3,7 @@ title : "Can I set orders to Shipped automatically in Magento 1?"
 meta_title: "Magento 1 plugin automatic shipping - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: [/integrations/magento1/faq/ship-automatically-in-magento1/]
 ---
 
 Within our Magento 1 plugin, it is possible to set order to _Shipped_ automatically through our API. This is needed to capture the money from AfterPay, E-Invoicing, Klarna, Pay After Delivery and Santander Betaal per Maand.
