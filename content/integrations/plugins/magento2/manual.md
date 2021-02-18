@@ -1,6 +1,7 @@
 ---
 title : "MultiSafepay Magento 2 installation & configuration manual"
 meta_title: "Magento 2 plugin manual - MultiSafepay Docs"
+layout: 'single'
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases:
     - /support-tab/magento2/manual
@@ -54,12 +55,13 @@ The new MultiSafepay Magento 2 plugin consists of several Magento modules:
 * [multisafepay-magento2](https://github.com/MultiSafepay/magento2) (Meta package which installs all the above)
 
 For GraphQL support there is a separate module:
+
 * [multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql) (Extends and adds GraphQL queries and mutations)
 
 ### 4. Installation
 For merchants, we recommend installing the meta-package via composer:
 
-```shell
+``` 
 composer require multisafepay/magento2
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
@@ -69,19 +71,19 @@ php bin/magento setup:static-content:deploy
 This will automatically install all the modules that are necessary to get started.
 
 After installing, the following command can be used in the Magento 2 root directory to enable all the modules:
-```shell
+```
 ./bin/magento module:enable `./bin/magento module:status | grep MultiSafepay_`
 ```
 
 #### 4.1 Stock handling
 
 If you have disabled MSI inside Magento 2, then you can use the following command to disable the MultiSafepay MSI module:
-```shell
+```
 php bin/magento module:disable MultiSafepay_ConnectMSI
 ```
 
 If you have a Magento 2 installation with MSI enabled, you can use the following command to disable the MultiSafepay CatalogInventory module instead:
-```shell
+```
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
@@ -107,7 +109,7 @@ You have installed and configured the plugin successfully. If you have any quest
 
 ### 7. Updates 
 Run the following commands via the CLI:
-```shell
+```
 composer update multisafepay/magento2 --with-dependencies
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile

@@ -5,6 +5,65 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.1.1
+Release date: Feb 18th, 2021
+
+### Changed
++ PLGWOOS-545: Remove API Key validation
+
+***
+
+## 4.1.0
+Release date: Feb 17th, 2021
+
+### Added
++ PLGWOOS-512: Add support for tokenization.
++ PLGWOOS-521: Change order status on callback even if merchant did not save the settings, using defaults.
++ PLGWOOS-530: Process notification, even when the payment method returned by MultiSafepay is not registered as WooCommerce gateway.
++ PLGWOOS-531: Avoid process refund if amount submited in backend is 0
+
+### Fixed
++ PLGWOOS-535: Fix bug min_amount filter
++ PLGWOOS-536: Fix instructions in multi select country field
++ PLGWOOS-518: Fix protocol of notification URL
++ PLGWOOS-526: Fix typo error in AfterPay payment method title
++ PLGWOOS-523: Fix type of transaction to redirect for Dotpay payment method
+
+### Changed
++ PLGWOOS-519: Improvement for coupons support in ShoppingCart.
++ PLGWOOS-528: Refactor gender and salutation fields to process different validation messages
++ PLGWOOS-503: Move debug mode field to options section
+
+### Removed
++ PLGWOOS-525: Remove validation in backend for MultiSafepay payment method
++ PLGWOOS-516: Avoid initialize the plugin if WooCommerce is not active
+
+***
+
+## 4.0.0
+Unreleased
+
+### Added
++ Full and partial refunds for non billing suite payment methods
++ Full refunds for billing suite payment methods
++ Set MultiSafepay transactions as shipped when order reach the defined status in settings
++ Set MultiSafepay transaction as invoiced when order reach the defined status in settings
++ Filter payment methods by country
++ Filter payment methods by maximum amount of order
++ Filter payment methods by minimum amount of order
++ Custom initialized status for each payment method 
++ Validations in backend settings fields
++ Support for compound taxes
+
+### Changed
++ Complete rewrite of the plugin
++ PLGWOOS-410: Refactor plugin using the [PHP-SDK](https://github.com/MultiSafepay/php-sdk)
+
+### Removed
++ Remove FastCheckout
+
+***
+
 ## 3.8.0
 Release date: Oct 29th, 2020
 

@@ -22,6 +22,7 @@ __Banks__
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
++ [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
@@ -49,6 +50,8 @@ __Wallet__
 
 __Prepaid cards__ 
 
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
++ Baby Cadeaubon
 + Beauty and Welness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
 + [Fashion Cheque](https://www.fashioncheque.com/nl)
