@@ -32,7 +32,7 @@ A few examples of the placeholders you can use are: amount of the order, first a
 ## Adding your own logo to the E-mail template
 With our template editor, it is possible to add your own logo to the e-mail. This will personalize the e-mail and also makes the e-mail recognizable for your customers. If you want to upload the your image to your merchant panel, go to the following link: merchant.multisafepay.com/payment-page-templates
 
-1. Navigate to Settings --> Email templates --> Click on the desired website --> Click on the orange pen icon to edit the template
+1. Navigate to Settings → Email templates → Click on the desired website → Click on the orange pen icon to edit the template
 2. Press on the Image icon in the first row of the editor to open the Image-properties window
 3. Retrieve the link of your uploaded logo image and fill in your Account ID and the filename of the uploaded image using the following URL: https://payv2.multisafepay.com/files/{{accountid}}/{{filename}
 4. Add the URL in the URL field and press OK. It is possible to configure additional parameters such as Height, Border, HorizontalSpace, VerticalSpace and alignment of the image.

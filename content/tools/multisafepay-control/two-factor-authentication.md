@@ -20,19 +20,19 @@ Please note that only a user with administrator rights can perform these steps:
 3. Click the drop-down list *Two-factor* and select *Enable*
 4. Click *Save changes*
 
-{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" >}}
+{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" screen_size="desktop" >}}
 
 ### Step 2: The user's steps
 The first time a user logs into MultiSafepay Control after 2FA is enabled, they are asked to configure 2FA. This is done by connecting their MultiSafepay account to their mobile device, following these steps:
 
-1. Log into [MultiSafepay Control](https://merchant.multisafepay.com/) on your laptop or PC. An additional screen asking for a 6-digit token should appear
-2. If you have not yet done so, [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app/) the MultiSafepay Control app 
+1. Log into [MultiSafepay Control](https://merchant.multisafepay.com) on your laptop or PC. An additional screen asking for a 6-digit token should appear
+2. If you have not yet done so, [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app) the MultiSafepay Control app 
 3. Log into the MultiSafepay Control app on your mobile device
 4. Press *More* in the bottom-right corner
 5. Press *Authenticator*
 6. Copy the 6-digit token from your mobile device to the 2FA screen on your computer or laptop
 
-{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in MultiSafepay Control app" align="center" caption="The 6-digit token remains visible for 30 seconds">}}
+{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in MultiSafepay Control app" align="center" caption="The 6-digit token remains visible for 30 seconds" screen_size="mobile" >}}
 
 ### Done
 Congratulations, you have successfully enabled and configured 2FA. Your data is now protected by an additional layer of security.
@@ -43,7 +43,7 @@ Please keep in mind that upon every login a newly generated 6-digit token is req
 {{< br >}}
 
 ### Can I use one device for multiple users?
-Currently one mobile device can only be connected to one user and only one user can be connected to one mobile device. This means there is a unique link between every one user and one device.
+Only one mobile device can only be connected to one user and only one user can be connected to one mobile device. This means there is a unique link between every one user and one device.
 
 ### Why can I not enable 2FA on my account?
 To enable or disable 2FA, you must have administrator rights. If this doesn't answer your question, please [contact support](mailto:support@multisafepay.com)
@@ -55,7 +55,7 @@ After 5 unsuccessful 6-digit token inputs, the account is blocked. Only users wi
 No, this is not required. 2FA provides an extra layer of security to your data. However, it is not mandatory to enable 2FA on every user account.
 
 ### Can I choose a different verification method?
-No. Currently we implement 2FA through the use of a password and a 6-digit token. 
+Unfortunately, no. We implement 2FA through the use of a password and a 6-digit token. 
 
 ### In what countries is 2FA supported?
 2FA is supported in every country. The MultiSafepay app is available for [iOS](https://apps.apple.com/nl/app/multisafepay-control/id929955963) and [Android](https://play.google.com/store/apps/details?id=com.multisafepay.control).

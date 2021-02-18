@@ -270,7 +270,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. 
+Contains all purchased items including tax class.
+
+__unit_price__ | float
+
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted. 
 
 ----------------
 __checkout_options__ | object
@@ -385,7 +389,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. 
+Contains all purchased items including tax class.
+
+__unit_price__ | float
+
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.
 
 ----------------
 __checkout_options__ | object

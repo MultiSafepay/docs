@@ -11,14 +11,14 @@ You can refund iDEAL QR transactions either in [MultiSafepay Control](https://me
 Please follow these steps to refund a iDEAL QR transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction -> transaction overview_
+2. Select _transaction → transaction overview_
 3. Find the transaction through search
 4. Open transaction
 5. Select _refund_
 6. Fill in the amount that you want to refund to the customer  
 7. Confirm the refund.
 
->_Please note that by default, MultiSafepay does not allow for you to refund more than the stated amount of the original transaction. Please refer to the [product rules](/payment-methods/idealqr/#product-rules) for more information._
+>_Please note that by default, MultiSafepay does not allow for you to refund more than the stated amount of the original transaction. Please refer to the [product rules](/payment-methods/banks/idealqr/#product-rules) for more information._
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day
 

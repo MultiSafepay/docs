@@ -14,7 +14,7 @@ It brings code improvements, unit/integration testing and it is built on top of 
 **Please uninstall the old plugin first, before installing the new one.**
 
 {{< alert-notice >}}
-The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old/) 
+The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old) 
 {{< /alert-notice >}}
 
 ### 1. Features
@@ -40,6 +40,8 @@ Some of the new features include:
 - Magento Open Source version 2.2.x & 2.3.x & 2.4.x
 - PHP 7.1+
 
+_* If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
+
 ### 3. Modules
 The new MultiSafepay Magento 2 plugin consists of several Magento modules:
 
@@ -49,6 +51,10 @@ The new MultiSafepay Magento 2 plugin consists of several Magento modules:
 * [multisafepay-magento2-msi](https://github.com/MultiSafepay/magento2-msi) (Handles stock when MSI is enabled)
 * [multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory) (Handles stock when MSI is disabled)
 * [multisafepay-magento2](https://github.com/MultiSafepay/magento2) (Meta package which installs all the above)
+
+For GraphQL support there is a separate module:
+
+* [multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql) (Extends and adds GraphQL queries and mutations)
 
 ### 4. Installation
 For merchants, we recommend installing the meta-package via composer:
@@ -80,24 +86,24 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
 ### 5. Configuration
-1. Login on the backend of your webshop and navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Information_.  
+1. Login on the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
 This page contains all main support information and it is advised to read this.
 
-2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Settings_.   
+2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
 Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
 
-2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Payment Methods_.   
+2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Payment Methods_.   
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-3. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Gift Cards_.  
+3. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Gift Cards_.  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
 Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
 ### 6. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
 ### 7. Updates 
 Run the following commands via the CLI:

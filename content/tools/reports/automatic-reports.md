@@ -63,7 +63,9 @@ Automated Accountant Export activation checklist:
 
 Send the requested to our Integration Team via <integration@multisafepay.com> 
 
-_Don't forget to add your MultiSafepay Control number_.
+_Don't forget to add your Account ID which can be found in the dashboard of your MultiSafepay Control in the top right corner_.
+
+
 
 ## Whitelisting
 
@@ -71,6 +73,6 @@ If your method of choice is via SFTP, please make sure our IP is whitelisted. Fo
 
 ## Testing
 
-It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com/)
+It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com)
 
 Exporting Klarna Payments reports is also included within this test mode.

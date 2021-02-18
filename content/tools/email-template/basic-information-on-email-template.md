@@ -14,7 +14,7 @@ MultiSafepay offers a number of options for sending a standard email, for exampl
 > MultiSafepay is unable to customize payment pages or email templates for you, although if you do encounter functionality issues, please contact us at <integration@multisafepay.com>
 
 ## Set a template
-An email template can be set within your MultiSafepay Control under: _**Settings -> Email template -> Select a website -> Add new template.**_ 
+An email template can be set within your MultiSafepay Control under: _**Settings → Email template → Select a website → Add new template.**_ 
 
 The email template has a view options available. A list of the options available are shown and explained below:
 
@@ -25,12 +25,12 @@ This is a standard email template to provide the customer with the bank details 
 
     MultiSafepay will only sent the email to the customer when the Bank transfer request is recieved as a redirect request. Meaning, the customer is redirected to the payment page of MultiSafepay to confirm the placed order. 
 
-    More information about the payment methods Bank transfer available in [Bank transfer, how does it work?](/payment-methods/bank-transfer/#how-it-works)
+    More information about the payment methods Bank transfer available in [Bank transfer, how does it work?](/payment-methods/banks/bank-transfer/#how-does-it-work)
 
 2. **Chargeback email (to merchant)**\
 This email is intended to inform the merchant that a chargeback has taken place. When you, as a merchant, process credit card payments, it is recommended to activate the option to receive a chargeback notification by email.
 
-     When the standard or personalized chargeback email template is set up, it is important to add an email to your account to which the embedded email template can be sent. Place the desired email address under your contact information -> chargeback email in your MultiSafepay Control. One or more email addresses can be added. 
+     When the standard or personalized chargeback email template is set up, it is important to add an email to your account to which the embedded email template can be sent. Place the desired email address under your contact information → chargeback email in your MultiSafepay Control. One or more email addresses can be added. 
 
      More information about Chargebacks available in [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback)
 
@@ -57,7 +57,7 @@ This email is intended to inform the customer that the requested refund has been
 8. **Second Chance email (to customer)**\
 This email is intended as a friendly reminder to your customer in the event of a payment that has not been completed yet. 
 
-    When the standard or personalized Second Chance email template is set up, it is important to enable the Second Chance in your MultiSafepay Control under **_Settings -> Website settings -> select a website -> enable the Second Chance email per website._**
+    When the standard or personalized Second Chance email template is set up, it is important to enable the Second Chance in your MultiSafepay Control under **_Settings → Website settings → select a website → enable the Second Chance email per website._**
 
     More information about the Second Chance email available in [Second Chance, How does it work?](/tools/second-chance/how-does-it-work)
 

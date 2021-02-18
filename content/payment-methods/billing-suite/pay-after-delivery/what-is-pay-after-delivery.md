@@ -10,6 +10,6 @@ Pay After Delivery is a MultiSafepay-branded deferred payment method (post-payme
 
 Pay After Delivery is a very customer friendly payment method that helps increase customer confidence and conversion for the merchant.
 
-| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Pay After Delivery|Direct/Redirect|NL|EUR|Full/Partial|No|No|

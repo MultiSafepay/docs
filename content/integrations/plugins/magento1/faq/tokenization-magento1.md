@@ -2,10 +2,11 @@
 title : "How do I use tokenization in the Magento 1 plugin?"
 meta_title: "Magento 1 plugin Tokenization - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+read_more: "."
 ---
 
-1. Read the page [How do I get tokenization?](/tools/tokenization/how-do-i-get-tokenization)
-2. Enable Tokenization via _Stores->Configuration->MultiSafepay->MultiSafepay Settings_.
+1. Read the page about [tokenization](/tools/tokenization/tokenization-api-level)
+2. Enable Tokenization via _Stores → Configuration → MultiSafepay → MultiSafepay Settings_
 
 Note: 
 The Tokenization feature is not available for the Credit Card gateway. 

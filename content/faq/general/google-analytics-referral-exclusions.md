@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-> **We are currently looking for Magento merchants willing to test Option 2 (please see below), the utm_nooverride=1 parameter method. Please get in touch with our Integration Team at <integration@multisafepay.com> if this is something interesting for you and we will further assist you in setting it up.**
+> **We are looking for Magento merchants willing to test Option 2 (please see below), the utm_nooverride=1 parameter method. Please get in touch with our Integration Team at <integration@multisafepay.com> if this is something interesting for you and we will further assist you in setting it up.**
 
 Analytics have opened up a new universe about users' needs and wants, about how you can deliver better experiences and about how you can be closer to your customers. 
 For many, Google Analytics is a household name and sometimes the only tool available to better understand your customers.  
@@ -29,7 +29,7 @@ Instructions about this can be found on [the Google Analytics page](https://supp
 *This feature is only available for websites using gtag.js or analytics.js.</br>
 Using ga.js (Classic Analytics) will stop Referral Exclusions from working.*
 
-To add the domains for exclusion, in your Google Analytics interface, go to _Admin_ -> _Tracking Info_ -> _Referral Exclusion List_  and type in:
+To add the domains for exclusion, in your Google Analytics interface, go to _Admin_ → _Tracking Info_ → _Referral Exclusion List_  and type in:
 
 
 ```
@@ -86,7 +86,7 @@ This method dates back to the times when Google Analytics would not start a new 
 
 utm_nooverride=1 is a parameter that needs to be added to your payment gateway return pages. For example, if the page looks like ```checkout/payment/success```, you will need to provide your gateway with the following URL: ```/checkout/payment/success?utm_nooverride=1```. This way, Google will know that the customer's initial session is still in progress and will ignore the referrer information for the "new" session. 
 
-In your code, the parameter should look like this: ```$this->_redirect('checkout/onepage/success', ['utm_nooverride' => '1'])``` .
+In your code, the parameter should look like this: ```$this→_redirect('checkout/onepage/success', ['utm_nooverride' => '1'])``` .
 
 Make sure that you do this for all the links from the payment gateway to your website!
 

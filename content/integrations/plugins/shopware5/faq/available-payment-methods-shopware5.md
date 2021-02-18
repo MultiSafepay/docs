@@ -3,13 +3,13 @@ title : "Available payment methods in Shopware 5"
 meta_title: "Shopware 5 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
+read_more: "."
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Credit cards](/payment-methods/credit-and-debit-cards) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 __Banks__
 
@@ -17,8 +17,6 @@ __Banks__
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Belfius](/payment-methods/banks/belfius)
 + [CBC](/payment-methods/banks/cbc)
-+ [Request to Pay](/payment-methods/banks/request-to-pay)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
@@ -26,11 +24,13 @@ __Banks__
 + [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
++ [Request to Pay](/payment-methods/banks/request-to-pay)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 + [TrustPay](/payment-methods/banks/trustpay)
-+ [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
++ [V PAY](/payment-methods/credit-and-debit-cards/vpay)
 
 
 __Billing suite__
@@ -43,27 +43,28 @@ __Billing suite__
 
 __Wallet__ 
 
-+ [Apple Pay](/payment-methods/wallet/applepay)
 + [Alipay](/payment-methods/wallet/alipay)
++ [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Beauty and Welness gift card
-+ Boekenbon
-+ Fashion Cheque
-+ Fashion gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ Gezondheidsbon
-+ Good4fun Giftcard
-+ Nationale tuinbon
-+ Parfumcadeaukaart
-+ Podium
-+ Sport en Fit
-+ VVV gift card
-+ Webshop gift card
-+ Wellness gift card
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Good4fun](https://www.good4fun.nl)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
++ [Podium](https://www.podiumcadeaukaart.nl)
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Wellness gift card](https://www.wellnessgiftcard.nl)
 + Wijncadeau
-+ Winkelcheque
-+ Yourgift
++ [Winkelcheque](https://www.winkelcheque.nl)
++ [Yourgift](https://www.yourgift.nl/)
+

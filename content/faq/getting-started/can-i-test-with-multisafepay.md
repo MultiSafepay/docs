@@ -4,7 +4,7 @@ meta_title: "FAQ Getting Started - Testing - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-In order to help you integrate your [website](/faq/getting-started/glossary/#website) with MultiSafepay or test new features, we provide a separate test environment. In the test environment, no real transactions can take place, allowing you to test different payment methods and your website's transaction status handling.
+In order to help you integrate your [website](/faq/general/glossary/#website) with MultiSafepay or test new features, we provide a separate test environment. In the test environment, no real transactions can take place, allowing you to test different payment methods and your website's transaction status handling.
 
 Please start with [creating a test account](https://testmerchant.multisafepay.com/signup) for MultiSafepay Control. As soon as you have created your first website, you can use the test API key found in the website settings, in order to authenticate. Alternatively, you can use the test Account ID, Secure Code and Site ID to configure your plugin. You can find these credentials too in the website settings.
 
@@ -53,6 +53,6 @@ After your system has updated the transaction or order status, you can verify th
 
 ## Refunds
 
-It is possible to process refunds in your test account, although refunding any amount is by default disabled. Please contact our Integration team at <integration@multisafepay.com> if you would like to have this option enabled.
+It is possible to process refunds in your test account, although refunding any amount is by default disabled. Please contact our Integration Team at <integration@multisafepay.com> if you would like to have this option enabled.
 
 

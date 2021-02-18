@@ -141,11 +141,11 @@ div.msp-app-text p:last-child {
 
 /***** RESPONSIVE DIAGRAMS *****/
 
-.mobile {display: none;}
+.mobile-svg {display: none;}
 
 @media screen and (max-width: 991px){
-    .large {display: none;}
-    .mobile {display: block;}
+    .desktop-svg {display: none;}
+    .mobile-svg {display: block;}
 }
 
 /*********** FOOTER ***********/
@@ -1488,3 +1488,80 @@ h6 {
     display: none;
 }
 
+.small-img {
+    max-width: 500px;
+    max-height: 300px;
+    object-fit:scale-down;
+}
+
+.max-width {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-shadow {
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.mobile-radius {
+    border-radius: 30px;
+}
+
+.desktop-radius {
+    border-radius: 5px;
+}
+
+
+/* CODE BLOCKS */
+
+.copy-code-button {
+    color: #272822;
+    background-color: #F6F6F6;
+    border-radius: 10px 10px 0px 0px ;
+    border: none;
+
+    /* right-align */
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+    margin-bottom: -2px;
+    padding: 3px 10px;
+    font-size: 0.9em;
+}
+
+.copy-code-button:hover {
+    cursor: pointer;
+    background-color: #E6E6E6;
+}
+
+.copy-code-button:focus {
+    /* Avoid an ugly focus outline on click in Chrome,
+       but darken the button for accessibility.
+       See https://stackoverflow.com/a/25298082/1481479 */
+    background-color: #E6E6E6;
+    outline: 0;
+}
+
+.copy-code-button:active {
+    background-color: #E6E6E6;
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}
+
+/* Not chroma selector is added to protect the API styling */
+pre:not(.chroma) {
+    background-color: #F6F6F6;
+    color: #4D4D4D;
+    border-radius: 10px 0px 10px 10px;
+    padding: 40px 50px;
+}
+
+p code, td code {
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 2px 5px;
+}

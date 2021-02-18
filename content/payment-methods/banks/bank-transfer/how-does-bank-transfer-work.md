@@ -53,6 +53,8 @@ Some rules may apply to certain payment methods. For bank transfer, the followin
  
 However, the payment link that is provided in the Bank transfer email to the customer can be adjusted by setting a days_active_ or seconds_active. Bank transfer transactions are active for 60 days. By default, payment links expires after 30 days. 
 
+It is important to mention that if a customer has not paid within 60 days, your stock may be affected. To avoid any stock related issues, the inventory can be held until the payment has been fulfilled by the customer. Changes can be made in your backend although adjustments will depend on the type of platform you operate and/or the products you offer. _Please note: MultiSafepay does not hold the responsibility for stock related issues_
+
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page<br>
 
 * If you would like to make changes in the validation of bank transfers, check whether this is possible in your ecommerce platform

@@ -23,7 +23,7 @@ For every transaction, a reservation number and an invoice number will be genera
 
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
-All consumer related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service/)
+All consumer related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service)
 If you are a merchant, please contact <integration@multisafepay.com>
 
 ## Transaction flow
@@ -81,9 +81,9 @@ Some rules may apply to certain payment methods. For Klarna, the following rules
 
 * Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-*  Klarna is currently offered in Austria, Germany, Belgium, Finland and the Netherlands
+*  Klarna is offered in Austria, Germany, Belgium, Finland and the Netherlands
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
 

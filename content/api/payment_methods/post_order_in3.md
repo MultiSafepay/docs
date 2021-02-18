@@ -517,7 +517,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## in3
 ### Direct - in3
 
-Creates an in3 [Direct](/faq/api/difference-between-direct-and-redirect/) order to be paid in installments.
+Creates an in3 [Direct](/faq/api/difference-between-direct-and-redirect) order to be paid in installments.
 
 * Direct transaction requires all fields completed properly
 
@@ -558,7 +558,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) 
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work) 
 
 ----------------
 __customer__ | object
@@ -573,7 +573,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.                                   
+Contains all purchased items including tax class.
+
+__unit_price__ | float
+
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.
 
 ----------------
 __checkout_options__ | object
@@ -608,23 +612,23 @@ The gender salutation of the customer. Options: mr, mrs, miss.
 ----------------
 __ip_address__ | string
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)
+ The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
 
 ----------------
 __forwarded_ip__ | string
 
- The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+ The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------
 Please note that _first_name<_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [in3](/payment-methods/billing-suite/in3/) on our documentation page.
+Read more about [in3](/payment-methods/billing-suite/in3) on our documentation page.
 
 ----------------
 
 ### Redirect - in3
 
-Creates an in3 [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid in installments.
+Creates an in3 [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid in installments.
 
 * Redirect transaction requires all fields completed properly
 
@@ -665,7 +669,7 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) 
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work) 
 
 ----------------
 __customer__ | object
@@ -680,7 +684,11 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.                                   
+Contains all purchased items including tax class.
+
+__unit_price__ | float
+
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.  
 
 ----------------
 __checkout_options__ | object
@@ -690,15 +698,15 @@ Contains the definitions for the VAT class.
 ----------------
 __ip_address__ | string
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)
+ The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
 
 ----------------
 __forwarded_ip__ | string
 
- The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)
+ The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------
 
-Read more about [in3](/payment-methods/billing-suite/in3/) on our documentation page.
+Read more about [in3](/payment-methods/billing-suite/in3) on our documentation page.
 {{< /description >}}
 

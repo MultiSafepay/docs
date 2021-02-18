@@ -19,7 +19,6 @@ Below you can find a table with delayed payouts for 2021:
 
 | Date   | Occasion     | Payout possibility |
 |----------------|-------------------|-----------|
-|  Friday, 1 January 2021 | New Years Day     | No  |
 |  Friday, 2 April 2021 | Good Friday     | No  |
 |  Monday, 5 April 2021 | Easter     | No  |
 |  Tuesday, 27 April 2021 | King's Day     | Yes  |

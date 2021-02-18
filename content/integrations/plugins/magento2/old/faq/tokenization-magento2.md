@@ -6,5 +6,5 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-1. Read the page [How do I get tokenization?](/tools/tokenization/how-do-i-get-tokenization)
-2. Enable Tokenization via _Stores->Configuration->MultiSafepay->MultiSafepay Settings_.
+1. Read the page on [tokenization](/tools/tokenization/tokenization-api-level)
+2. Enable Tokenization via _Stores → Configuration → MultiSafepay → MultiSafepay Settings_
