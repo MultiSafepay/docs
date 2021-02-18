@@ -24,7 +24,6 @@ The following features are not available in the new Magento 2 plugin:
 
 * Tokenization
 * Fastcheckout
-* PWA (REST) endpoints
 
 Some of the new features include:
 
@@ -35,10 +34,11 @@ Some of the new features include:
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
+* PWA (GraphQL) endpoints
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x (For GraphQL support Magento Open Source version 2.4.x)
 - PHP 7.1+
 
 _* If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
