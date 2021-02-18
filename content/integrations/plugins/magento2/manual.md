@@ -38,7 +38,7 @@ Some of the new features include:
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x (For GraphQL support Magento Open Source version 2.4.x)
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x (For GraphQL only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 
 _* If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_

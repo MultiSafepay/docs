@@ -8,7 +8,7 @@ manual: "."
 layout: 'single'
 meta_title: "PWA for plugin integration - MultiSafepay Docs"		
 meta_description: "MultiSafepay plugin for PWA integration. Easily integrate MultiSafepay payment solutions into your PWA based store with the free plugin"
-description : "Easily integrate MultiSafepay payment solutions into your PWA webshop with the free and completely new MultiSafepay plugin for GraphQL queries support"
+description : "Easily integrate MultiSafepay payment solutions into your PWA webshop with the free and completely new MultiSafepay plugin that adds GraphQL support"
 weight: 130
 logo: "/logo/Plugins/Magento_PWA.svg"
 title_short: "PWA Studio,  ScandiPWA and other"
