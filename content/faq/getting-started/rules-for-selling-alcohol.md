@@ -7,11 +7,11 @@ read_more: "."
 
 ### Introduction
 
-As a [merchant](/faq/general/glossary/#merchant), you are required to perform age verification during the _sale_ and the _delivery_ of an order that consists of alcohol. It is our duty as a payment service provider to ensure that you comply with the legislation and that your customers meet the requirements when purchasing alcohol.
+As a [merchant](/faq/general/glossary/#merchant), you are required to perform age verification during the _sale_ and the _delivery_ of an order that includes alcohol. It is our duty as a payment service provider to ensure that you comply with the legislation and that your customers meet the requirements when purchasing alcohol.
 
 ### Requirements
 
-The law in the Netherlands states that alcohol cannot be sold to customers under the age of 18. As a merchant, it is mandatory to state this on clearly on your website. Upon delivery of an order, a customer must be able to identify themselves with a valid idenfication document stating their age in the form of a date of birth. The following documents are accepted:
+Dutch law states that alcohol cannot be sold to customers under the age of 18. As a merchant, it is mandatory to state this clearly on your website. Upon delivery of an order, a customer must identify themselves with a valid identification document stating their date of birth. The following documents are accepted:
 
 * Passport
 * Dutch driving license
@@ -19,7 +19,7 @@ The law in the Netherlands states that alcohol cannot be sold to customers under
 
 ### Sales of spirits
 
-If you are selling spirits that contain percentages of alcohol that are 15% or greater, you are required to provide us with a valid liquor license. You can send the liquor license to us by email at <risk@multisafepay.com>
+If you sell spirits that contain 15% of alcohol or more, you are required to provide us with a valid liquor license. You can send the liquor license to <risk@multisafepay.com>
 
 ### Contact
 
