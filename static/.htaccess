@@ -13,7 +13,6 @@ Redirect 301 /payment-methods/giropay/what-is-giropay/ https://docs.multisafepay
 Redirect 301 /payment-methods/idealqr/what-is-idealqr/ https://docs.multisafepay.com/payment-methods/banks/idealqr/what-is-idealqr/
 Redirect 301 /payment-methods/ideal/what-is-ideal/ https://docs.multisafepay.com/payment-methods/banks/ideal/what-is-ideal/
 Redirect 301 /payment-methods/e-invoicing/what-is-it/ https://docs.multisafepay.com/payment-methods/billing-suite/e-invoicing/what-is-it/
-Redirect 301 /payment-methods/eps/what-is-eps/ https://docs.multisafepay.com/payment-methods/banks/eps/what-is-eps/
 Redirect 301 /payment-methods/idealqr/ https://docs.multisafepay.com/payment-methods/banks/idealqr/
 Redirect 301 /payment-methods/afterpay/how-does-afterpay-work/ https://docs.multisafepay.com/payment-methods/billing-suite/afterpay/how-does-afterpay-work/
 Redirect 301 /payment-methods/alipay/alipay-how-does-it-work/ https://docs.multisafepay.com/payment-methods/wallet/alipay/alipay-how-does-it-work/
@@ -86,7 +85,6 @@ Redirect 301 /payment-methods/creditcards/refund-credit-card/ https://docs.multi
 Redirect 301 /payment-methods/gift-cards/refund-gift-card/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/refund-gift-card/
 Redirect 301 /payment-methods/afterpay/refund-afterpay/ https://docs.multisafepay.com/payment-methods/billing-suite/afterpay/refund-afterpay/
 Redirect 301 /payment-methods/alipay/refund-alipay/ https://docs.multisafepay.com/payment-methods/wallet/alipay/refund-alipay/
-Redirect 301 /payment-methods/dotpay/refund-dotpay/ https://docs.multisafepay.com/payment-methods/banks/dotpay/refund-dotpay/
 Redirect 301 /payment-methods/eps/refund/ https://docs.multisafepay.com/payment-methods/banks/eps/refund/
 Redirect 301 /payment-methods/sofort-banking/refund-sofort-banking/ https://docs.multisafepay.com/payment-methods/banks/sofort-banking/refund-sofort-banking/
 Redirect 301 /payment-methods/trustpay/refund-trustpay/ https://docs.multisafepay.com/payment-methods/banks/trustpay/refund-trustpay/
