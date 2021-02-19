@@ -6,9 +6,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-## What is a manually generated payment link and what do merchants use it for?
+### Manually generated payment link
 
-For several scenarios, it can be useful for our merchants to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
+For several scenarios, it can be useful for you as a merchant to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
 
 Examples:
 
@@ -20,35 +20,35 @@ Examples:
 
 * In case of an expired bank transfer payment link.
 
-## How can a Merchant generate a payment link? 
+#### How to generate a payment link
 
 In order to manually generate a payment link, please follow these steps:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Click on _Tools_ → _Payment link generator_
-3. Click on the blue _New payment link_ button
-4. Fill in the required information and click on _generate payment link_
+3. Click on the blue button _New payment link_
+4. Fill in the required information and click on _Generate payment link_
 5. Copy the newly generated link from the green bar and send it by email to the customer.
 
 The left side field must be completed with the order information, whereas the right side field can be optionally completed with the contact information of the customer. 
 
-> Please keep in mind that the Order ID filled in every payment link must be unique, otherwise an error notification will show up.
+> Please keep in mind that the Order ID filled in every payment link must be unique, otherwise an error notification will appear
 
-### Creating a payment link by duplicating an order
+#### Creating a payment link by duplicating an order
 
-Should you want to send a payment link for an existing transaction, you can duplicate the transaction via the transaction itself. The Order ID must also be unique! 
+If you want to send a payment link for an existing transaction, you can duplicate the transaction via the transaction itself. __The Order ID must also be unique.__
 
-### “Simple Mode” or “Advanced Mode”
+#### 'Simple Mode' or 'Advanced Mode'
 
 The 'Simple Mode' is the default payment link mode with the minimum necessary information. 
 
-In the 'Advanced Mode' you are able to fill in the order items and add extra information related to the customer such as articles, birthday, full address and phone number. 
+In the 'Advanced Mode', you can fill in the order items and add extra information related to the customer such as articles, birthday, full address and phone number. 
 
-## How long is a manually generated payment link valid? 
+#### Validity of a manually generated payment link 
 
 The default validity of a manually generated payment link is 30 days. However, you can adjust this to a shorter or longer period depending on your preference. 
 
-## Where can a merchant find a summary of all the generated payment links? 
+#### Summary of all manually generated payment links
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Click on _Tools_ → _Payment link generator_.
