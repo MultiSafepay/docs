@@ -10,7 +10,7 @@ aliases: [/integrations/lightspeed/manual/]
 {{% introduction_hosted "Lightspeed" %}}
 
 ### 1. Installation & Configuration
-1. Log in your backend and navigate to _Settings_ → _Payment Providers_
+1. Log in to your backend and navigate to _Settings_ → _Payment Providers_
 2. Click on _Add Payment Provider_ and select MultiSafepay
 3. Enter your Site security code, Site ID & Account ID. {{% account_info %}}
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner

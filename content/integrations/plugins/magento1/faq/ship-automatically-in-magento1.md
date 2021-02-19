@@ -8,4 +8,4 @@ aliases: [/integrations/magento1/faq/ship-automatically-in-magento1/]
 
 Within our Magento 1 plugin, it is possible to set order to _Shipped_ automatically through our API. This is needed to capture the money from AfterPay, E-Invoicing, Klarna, Pay After Delivery and Santander Betaal per Maand.
 
-Log in the backend of your webshop and navigate to _System_ → _Configuration_ → _MultiSafepay x.x.x_ → _Connect Settings_. In the specific gateway settings, look for 'Send shipped status after complete order'. This setting is located at the bottom.
+Log in to the backend of your webshop and navigate to _System_ → _Configuration_ → _MultiSafepay x.x.x_ → _Connect Settings_. In the specific gateway settings, look for 'Send shipped status after complete order'. This setting is located at the bottom.

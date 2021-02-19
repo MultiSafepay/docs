@@ -32,7 +32,7 @@ In this manual we describe the SFTP upload method.
 
 ### 2. Installation
  1. Unpack the content of the .ZIP file in the root of your webshop
- 2. Log in in your backend and navigate to _System_ → _Configuration_ → _Cache_. Clear your invalid cache
+ 2. Log in to your backend and navigate to _System_ → _Configuration_ → _Cache_. Clear your invalid cache
  3. Move all files and folders from Plugin_Magento_x.x.x to the root. Contents in the folders app, lib and media should be added to the existing folders with the same name
  4. Logout from the backend of your webshop.
 
