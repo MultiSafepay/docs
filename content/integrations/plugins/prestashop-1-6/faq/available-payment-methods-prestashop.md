@@ -46,10 +46,10 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ Beauty and Welness gift card
++ Beauty and Wellness gift card
 + Boekenbon
 + De grote speelgoedwinkel
-+ Fashion Cheque
++ Fashioncheque
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon

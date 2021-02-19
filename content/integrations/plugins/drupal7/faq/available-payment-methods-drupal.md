@@ -44,7 +44,7 @@ __Wallet__
 __Prepaid cards__ 
 
 + Boekenbon
-+ Fashion Cheque
++ Fashioncheque
 + Fashion gift card
 + Gezondheidsbon
 + Parfum cadeaukaart

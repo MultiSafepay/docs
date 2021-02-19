@@ -47,7 +47,7 @@ __Prepaid cards__
 
 + Beauty and Welness gift card
 + Boekenbon
-+ Fashion Cheque
++ Fashioncheque
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon

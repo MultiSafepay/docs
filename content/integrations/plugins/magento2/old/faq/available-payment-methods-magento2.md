@@ -50,9 +50,9 @@ __Wallet__
 __Prepaid cards__ 
 
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
-+ Beauty and Welness gift card
++ ss gift card
 + Boekenbon
-+ Fashion Cheque
++ Fashioncheque
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon
