@@ -17,6 +17,10 @@ MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and
 ### API
 A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
 
+### API key
+
+An API key is a unique identifier that is required to establish a connection between your website and the MultiSafepay services. The API key can be found in your MultiSafepay Control. Read more about how to retrieve your [API key](/tools/multisafepay-control/get-your-api-key/)
+
 ### Cron job
 
 A background program (or daemon), used to schedule recurring tasks. Read more on Wikipedia's entry on [cron](https://en.wikipedia.org/wiki/Cron)
@@ -49,7 +53,7 @@ A gift card that can be used at multiple merchants/vendors.
 ### Payment Method
 The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods)
 
-### Payment Service Provider (PSP)
+### Payment service provider (PSP)
 Company that enables merchants with the ability to accept multiple types of electronic payment methods, by combining the functions of a payment gateway and a payment processor. The PSP can link financial institutions (acquirers, issuers), card and payment schemes and merchants, managing the relationship between them as a service. The payment service provider has the responsibility to ensure a secure and reliable delivery of electronic payment services. MultiSafepay offers a seamless and efficient streamlined payment process, by combining the functions of a gateway, processor and acquirer.
 
 ### Payout
@@ -60,7 +64,7 @@ A software component that adds a feature or functionality to another existing pi
 
 ### Payment Services Directive 2 (PSD2)
 
-PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
+PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
 
@@ -68,7 +72,7 @@ The Payment Card Industry Data Security Standard, also known as PCI DSS is a _st
 
 ### Strong Customer Authentication (SCA)
 
-SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication/) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
+SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
 
 ### Surcharge
 An additional fee, charge or tax that is added to the costs of a good or service, on top of the initial price. Very often, the surcharge is not part of the stated price of the good or service. Surcharges can be set at specific amounts or can account for a percentage of the total price.

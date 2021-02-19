@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/SOFORT.svg'
 short_description: 'Accept secure payments from customers in a number of European countries.'
 aliases:
     - /support-tab/magento2/payment-methods/sofort-banking
+    - /payment-methods/sofort-banking/
 ---

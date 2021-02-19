@@ -4,6 +4,7 @@ weight: 21
 meta_title: "E-Invoicing, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/e-invoicing/how-does-e-invoicing-work/]
 ---
 # How it works
 Once E-Invoicing is activated in your MultiSafepay Control, you will need to set it up correctly. Firstly, an action needs to be created. An action will be set as email, text or letter. Multiple actions will become a collection flow. 
@@ -15,7 +16,7 @@ The layout and creation of the email template is entirely your responsibility. Y
 ## Create action
 Each action needs to created following these steps: 
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing -> Action_
+1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing → Action_
 2. Click on  _Add new template_
 3. Select delivery option(s) _email address, SMS or Letter_
 4. Provide a description. _Example: NL 1st invoice_
@@ -66,7 +67,7 @@ For questions about your order, please contact our customer service via 02085005
 ## Create collection flow
 Now that the actions have been created, you can follow these steps to create a collection flow:
 
-1. Navigate to _E-Invoicing -> Workflows_
+1. Navigate to _E-Invoicing → Workflows_
 2. Select _Create new_
 3. In the _Settings_ you can select a template when available 
 4. Provide a name for the collection flow in the _Description_. Example: B2B Netherlands
@@ -91,11 +92,11 @@ After creating the actions and setting the collection flow, you will be able to 
 
 Good to know about the payment method E-Invoicing: 
 
-* Every successful E-Invoicing transaction will be visible in your MultiSafepay Control under _E-Invoicing -> Invoices_. A clear overview on the outstanding transactions 
+* Every successful E-Invoicing transaction will be visible in your MultiSafepay Control under _E-Invoicing → Invoices_. A clear overview on the outstanding transactions 
 
-* You can generate a personalized E-Invoice in your MultiSafepay Control. Produce an E-Invoice in your account for your customer under _E-Invoicing -> E-Invoicing Generator_. The Invoice created will be sent to the email address supplied. 
+* You can generate a personalized E-Invoice in your MultiSafepay Control. Produce an E-Invoice in your account for your customer under _E-Invoicing → E-Invoicing Generator_. The Invoice created will be sent to the email address supplied. 
 
-* When E-Invoicing is being used for subscription payment, it is possible to generate a batch of transactions with the payment method E-Invoicing. Go to _E-Invoicing -> Batches_. Upload a file in .xls, .xlsx or .csv format. Use the template available in your MultiSafepay Control as example.
+* When E-Invoicing is being used for subscription payment, it is possible to generate a batch of transactions with the payment method E-Invoicing. Go to _E-Invoicing → Batches_. Upload a file in .xls, .xlsx or .csv format. Use the template available in your MultiSafepay Control as example.
 
 ## Delivery address
 

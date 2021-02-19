@@ -11,4 +11,5 @@ description_short: "Easily integrate MultiSafepay payment solutions into your my
 description: "Easily integrate MultiSafepay payment solutions into your myShop with this free app.
 This app is managed by our partner myShop. For support please contact [myShop](https://www.myshop.com/contact) directly."
 layout: 'single'
+aliases: [/integrations/myshop/]
 ---

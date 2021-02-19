@@ -4,6 +4,7 @@ meta_title: "Magento 2 plugin FAQ - Refund - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
+aliases: [/integrations/magento2/faq/refunding-magento2/]
 ---
 Yes, it is possible to refund orders or credit memos from within the Magento 2 backend.  
 

@@ -6,6 +6,5 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/banktransfer-en.svg' 
 short_description: 'A traditional method for customers to safely transfer Euros within the SEPA region.'
-aliases:
-    - /support-tab/magento2/payment-methods/bank-transfer
+aliases: [/support-tab/magento2/payment-methods/bank-transfer]
 ---

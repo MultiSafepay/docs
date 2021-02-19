@@ -4,6 +4,9 @@ weight: 20
 meta_title: "SEPA Direct Debit, what is it? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: 
+    - /payment-methods/direct-debit/what-is-direct-debit/
+    - /payment-methods/banks/direct-debit/what-is-direct-debit/
 ---
 ## What is it?
 A SEPA Direct Debit is a financial transaction in which one entity withdraws funds from another's bank account by means of an automatic authorisation. Through SEPA Direct Debit, only payments from (IBAN) private banking can be processed, as a one-off or as a recurrent withdrawal. SOFORT Banking and iDEAL are supported as SEPA Direct Debit payment methods.
@@ -12,6 +15,6 @@ This payment method gives you the possibility to collect funds from your custome
 
 >_Customers can withdraw this payment for 56 days, without giving a reason or you having a possibility to appeal_.
 
-| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
 |Bank|Direct/Redirect|SEPA Region|EUR|Full/Partial|Yes|No|

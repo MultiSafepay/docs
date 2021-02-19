@@ -21,7 +21,7 @@ In order to be able to import an accountant export from your MultiSafepay Contro
 
 1. Go to bank accounts in your Exact Globe platform
 2. Click new
-3. Select [Payment Service Provider](/faq/general/glossary/#payment-service-provider-psp) as type
+3. Select [payment service provider](/faq/general/glossary/#payment-service-provider-psp) as type
 4. Enter the full international bank account number
 5. Synchronize by selecting the ING bank
 6. Click save

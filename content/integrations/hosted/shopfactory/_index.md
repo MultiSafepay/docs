@@ -13,4 +13,5 @@ description: "Easily integrate MultiSafepay payment solutions into your ShopFact
 
 This plugin is managed by our partner ShopFactory. For support please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly."
 layout: 'single'
+aliases: [/integrations/shopfactory/]
 ---

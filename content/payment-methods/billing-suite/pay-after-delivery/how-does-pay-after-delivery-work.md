@@ -4,7 +4,9 @@ weight: 21
 meta_title: "Pay After Delivery, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/pay-after-delivery/how-does-pay-after-delivery-work/]
 ---
+
 ## How it works
 Pay After Delivery is a payment method developed and managed by our own MultiSafepay developers. Therefore, the payout of the transaction is guaranteed by MultiSafepay.
 

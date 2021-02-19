@@ -13,4 +13,5 @@ description: "Easily integrate MultiSafepay payment solutions into your Lightspe
 This app is managed by our partner Lightspeed. For support, please contact [Lightspeed](https://www.lightspeedhq.nl/support) directly."
 layout: 'single'
 tags: 'hidden'
+aliases: [/integrations/lightspeed/]
 ---

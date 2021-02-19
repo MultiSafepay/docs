@@ -2,6 +2,7 @@
 title : "MultiSafepay Mijnwebwinkel installation & configuration manual"
 meta_title: "Mijnwebwinkel plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/mijnwebwinkel/manual/]
 ---
 ### Introduction
 
@@ -11,11 +12,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 First, you will need to add your MultiSafepay credentials.
 
-1. Login to your backend and navigate to _Online orders_ -> _Payment method_ -> MultiSafepay
+1. Login to your backend and navigate to _Online orders_ → _Payment method_ → MultiSafepay
 2. Add your MultiSafepay Account ID (e.g. 10010010)
 3. Add your Site ID
 4. Add your Site Security Code
-5. Add your API key
+5. Add your [API key](/faq/general/glossary/#api-key)
 6. Select the payment methods (Optional: you can add a fee)
 
 

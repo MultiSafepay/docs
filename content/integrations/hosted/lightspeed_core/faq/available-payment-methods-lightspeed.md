@@ -2,6 +2,8 @@
 title : "Available payment methods in Lightspeed"
 meta_title: "Lightspeed plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+read_more: "."
+aliases: [/integrations/lightspeed/faq/available-payment-methods-lightspeed/]
 
 ---
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
@@ -13,7 +15,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3/)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
@@ -25,8 +27,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 __Gift cards__
 
-+ Fashioncheque
-+ Fashion gift card
-+ VVV gift card
-+ Webshop gift card
-+ YourGift gift card
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Yourgift](yourgift.nl)

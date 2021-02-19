@@ -1,9 +1,11 @@
 ---
 title : "MultiSafepay Magento 2 installation & configuration manual"
 meta_title: "Magento 2 plugin manual - MultiSafepay Docs"
+layout: 'single'
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases:
     - /support-tab/magento2/manual
+    - /integrations/magento2/manual/
 ---
 
 ### Introduction
@@ -14,7 +16,7 @@ It brings code improvements, unit/integration testing and it is built on top of 
 **Please uninstall the old plugin first, before installing the new one.**
 
 {{< alert-notice >}}
-The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old/) 
+The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](https://docs.multisafepay.com/integrations/plugins/magento2/old) 
 {{< /alert-notice >}}
 
 ### 1. Features
@@ -52,10 +54,14 @@ The new MultiSafepay Magento 2 plugin consists of several Magento modules:
 * [multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory) (Handles stock when MSI is disabled)
 * [multisafepay-magento2](https://github.com/MultiSafepay/magento2) (Meta package which installs all the above)
 
+For GraphQL support there is a separate module:
+
+* [multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql) (Extends and adds GraphQL queries and mutations)
+
 ### 4. Installation
 For merchants, we recommend installing the meta-package via composer:
 
-```shell
+``` 
 composer require multisafepay/magento2
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
@@ -65,45 +71,45 @@ php bin/magento setup:static-content:deploy
 This will automatically install all the modules that are necessary to get started.
 
 After installing, the following command can be used in the Magento 2 root directory to enable all the modules:
-```shell
+```
 ./bin/magento module:enable `./bin/magento module:status | grep MultiSafepay_`
 ```
 
 #### 4.1 Stock handling
 
 If you have disabled MSI inside Magento 2, then you can use the following command to disable the MultiSafepay MSI module:
-```shell
+```
 php bin/magento module:disable MultiSafepay_ConnectMSI
 ```
 
 If you have a Magento 2 installation with MSI enabled, you can use the following command to disable the MultiSafepay CatalogInventory module instead:
-```shell
+```
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
 ### 5. Configuration
-1. Login on the backend of your webshop and navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Information_.  
+1. Login on the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
 This page contains all main support information and it is advised to read this.
 
-2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Settings_.   
+2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
-Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
+Information on where to find your Account ID, Site ID, Site code or [API key](/faq/general/glossary/#api-key) can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
 
-2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Payment Methods_.   
+2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Payment Methods_.   
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-3. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _Gift Cards_.  
+3. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Gift Cards_.  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
 Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
 ### 6. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
 ### 7. Updates 
 Run the following commands via the CLI:
-```shell
+```
 composer update multisafepay/magento2 --with-dependencies
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile

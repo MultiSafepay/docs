@@ -3,6 +3,9 @@ title : "VAT - Everything you need to know"
 meta_title: "FAQ VAT - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: 
+    - /faq/finance/reverse-charging-vat/
+    - /faq/finance/vat-general-questions/#is-reverse-charging-vat-possible
 ---
 
 ## Why is MultiSafepay charging VAT?
@@ -18,7 +21,7 @@ The VAT is calculated based on all MultiSafepay fees: transaction fees, bank fee
 The VAT is automatically deducted from your account balance at the end of the month. You can look up exact amounts by using 'VAT' or 'Invoice' as a search query in your transaction overview. You will receive your invoice by email. Additionally, all VAT invoices will be added to your account. The invoice is for administrative purposes only. You do not need to settle the amount separately.
 
 ## Where can I find the VAT invoice?
-You can find your monthly VAT invoice in MultiSafepay Control. Login to your account and navigate to _Finance_ -> _Invoices_.
+You can find your monthly VAT invoice in MultiSafepay Control. Login to your account and navigate to _Finance_ → _Invoices_.
 
 The VAT invoice is also sent to the email address listed under _Financial email_ in your MultiSafepay Control. If you have not added an email address under _Financial email_, your invoices will be sent to the main email address, as listed in your account.
 
