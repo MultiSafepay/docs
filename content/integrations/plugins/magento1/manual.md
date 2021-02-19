@@ -32,12 +32,12 @@ In this manual we describe the SFTP upload method.
 
 ### 2. Installation
  1. Unpack the content of the .ZIP file in the root of your webshop
- 2. Login in your backend and navigate to _System_ → _Configuration_ → _Cache_. Clear your invalid cache
+ 2. Log in in your backend and navigate to _System_ → _Configuration_ → _Cache_. Clear your invalid cache
  3. Move all files and folders from Plugin_Magento_x.x.x to the root. Contents in the folders app, lib and media should be added to the existing folders with the same name
  4. Logout from the backend of your webshop.
 
 ### 3. Configuration
-1. Login into the backend of your webshop and navigate to _System_ → _Configuration_ → _MultiSafepay x.x.x_ → _Connect Settings_.
+1. Log in to the backend of your webshop and navigate to _System_ → _Configuration_ → _MultiSafepay x.x.x_ → _Connect Settings_.
 This page contains all main settings and is used for all gateways and gift card.
 Information on where to find your API key can be found on our [API key page](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key)
 
