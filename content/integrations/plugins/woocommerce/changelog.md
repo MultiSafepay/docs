@@ -5,6 +5,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.1.2
+Release date: Feb 19th, 2021
+
+### Fixed
++ PLGWOOS-548: Fix iDEAL gateway if no issuer selected in checkout
+
+***
+
 ## 4.1.1
 Release date: Feb 18th, 2021
 
