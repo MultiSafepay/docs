@@ -33,6 +33,6 @@ Plugin specific articles can be found here:
 Since we do not support all of the open-loop giftcards and non of the closed-loop giftcards in our integrations generic gateways can be especially useful for giftcards.
 In some of the integrations we have special gateways that act as generic giftcard gateways.
 
-For more information about the integration of both open-loop as closed-loop giftcards in our platform please contact <integration@multisafepay.com>.
+For more information about the integration of both open-loop as closed-loop giftcards in our platform please contact <integration@multisafepay.com>
 ### Limitations
 For now we only support redirect gateways.
