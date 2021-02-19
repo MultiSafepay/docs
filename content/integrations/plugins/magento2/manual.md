@@ -87,6 +87,11 @@ If you have a Magento 2 installation with MSI enabled, you can use the following
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
+#### 4.2 Module dependencies
+The meta-package has a dependency on MSI, which means that the MSI modules should be available (but not necessarily enabled) in your store. However, if you have removed it with, for example, a composer-replace trick like [yireo/magento2-replace-inventory](https://github.com/yireo/magento2-replace-inventory), you will not be able to install the meta-package. In this case it is still possible to integrate with MultiSafepay. You can then install the magento2-frontend module and the magento2-catalog-inventory module, instead of the meta-package.
+
+The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml module, so they all will be installed. And then you need to have a module which handles the stock in some specific cases. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
+
 ### 5. Configuration
 1. Login on the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
 This page contains all main support information and it is advised to read this.
