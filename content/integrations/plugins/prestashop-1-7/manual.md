@@ -15,7 +15,7 @@ aliases: [/integrations/prestashop-1-7/manual/]
 - Tested on PHP 7.0
 
 ### 2. Installation
-1. Login into your backend and navigate to _'Modules→ Modules & Services'_.
+1. Log in to your backend and navigate to _'Modules→ Modules & Services'_.
 Click on _Upload a module_
 2. Select the Plugin_PrestaShop.zip file, click on _Configure_.
 

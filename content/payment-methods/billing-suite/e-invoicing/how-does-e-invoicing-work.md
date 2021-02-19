@@ -16,7 +16,7 @@ The layout and creation of the email template is entirely your responsibility. Y
 ## Create action
 Each action needs to created following these steps: 
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing → Action_
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing → Action_
 2. Click on  _Add new template_
 3. Select delivery option(s) _email address, SMS or Letter_
 4. Provide a description. _Example: NL 1st invoice_

@@ -14,7 +14,7 @@ aliases: [/integrations/shopware5/manual/]
 - Tested on PHP 7.0
 
 ### 2. Installation & Configuration
-1. Login in your backend and navigate to _Configuration_ and select _Plugin Manager_
+1. Log in to your backend and navigate to _Configuration_ and select _Plugin Manager_
 2. Search the MultiSafepay plugin and select _Download now_
 3. Navigate to _Configuration_ and select _Payment methods_
 4. Navigate to _Management_ and select _Installed_

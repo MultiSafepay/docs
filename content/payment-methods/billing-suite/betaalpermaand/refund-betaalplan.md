@@ -14,7 +14,7 @@ In both cases, the amount will be refunded only if there is an initial payment l
 ## Full or partial transaction refund
 Please follow these steps to refund a Betaal per Maand transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction → transaction overview
 3. Find the transaction through search
 4. Open transaction
@@ -38,7 +38,7 @@ Please follow these steps to refund a Betaal per Maand transaction:
 ## Change order before shipment
 If you want to change a Betaal per Maand order between acceptance of Santander and shipment by the Merchant, follow these steps:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _Transaction_ → _Transaction overview_
 3. Locate the transaction and click on _Change order status_ under Order summary
 4. Change the status of the initial order to _'Shipped'_ and add a Memo
