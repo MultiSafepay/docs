@@ -3,6 +3,7 @@ title : "MultiSafepay PrestaShop 1.6 installation & configuration manual"
 weight:
 meta_title: "PrestaShop 1.6 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/prestashop-1-6/manual/]
 ---
 
 ### Introduction
@@ -17,7 +18,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 1. Unpack the contents of the .zip archive and upload the "modules" folder via SFTP to the PrestaShop root directoy, merging the two folders.
 
 ### 3. Configuration
-1. Navigate to the backend of your webshop and navigate to _Modules and Services-> Payments and Gateways_
+1. Navigate to the backend of your webshop and navigate to _Modules and Services→ Payments and Gateways_
 
 _It is essential that the MultiSafepay Core Module (MultiSafepay) is installed and configured. Reason being that all payment methods are more or less dependent on settings and/or the API key in the core module_
 

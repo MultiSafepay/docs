@@ -14,4 +14,5 @@ title_short: "PrestaShop 1.6"
 description_short: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin. "
 description: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin. "
 layout: 'single'
+aliases: [/integrations/prestashop-1-6/]
 ---

@@ -7,11 +7,12 @@ weight: 102
 title_short: "Submit a community integration"
 description_short: "Submit and promote your plugin and become part of the MultiSafepay community."
 hideMenu: '.'
+aliases: [/integrations/community/community/]
 ---
 
 At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who code wrappers, plugins, applications and other various code in order to work with us.
 
-We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to become a part of DOCS, please contact the MultiSafepay Integration team at <integration@multisafepay.com>
+We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to become a part of DOCS, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>
 
 We would like to outline the main requirements that community developers should adhere to if they wish to be a part of the MultiSafepay community.
  These agreements are the following:
@@ -21,6 +22,6 @@ We would like to outline the main requirements that community developers should 
 * If MultiSafepay decides to add the community integration as one of the supported integrations by MultiSafepay, we will have the authority to also remove the community integration without the breach of contract
 * The community integration should be updated when needed. A support tab would be ideal to have, but is not compulsory.
 
-If you have any further questions about being part of the community Integration team, feel free to contact <integration@multisafepay.com>
+If you have any further questions about being part of the community Integration Team, feel free to contact <integration@multisafepay.com>
 
 __Please note: MultiSafepay expects you to provide outstanding service and support to merchants. If MultiSafepay receives a number of complaints from merchants, we may contact you to discuss issues that have arisen.__

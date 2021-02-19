@@ -3,6 +3,8 @@ title : "Available payment methods in Shopware 5"
 meta_title: "Shopware 5 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
+read_more: "."
+aliases: [/integrations/shopware5/faq/available-payment-methods-shopware5/]
 ---
 __Credit cards__
 
@@ -49,20 +51,21 @@ __Wallet__
 __Prepaid cards__ 
 
 + Beauty and Welness gift card
-+ Boekenbon
-+ Fashion Cheque
-+ Fashion gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ Gezondheidsbon
-+ Good4fun Giftcard
-+ Nationale tuinbon
-+ Parfumcadeaukaart
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Good4fun](https://www.good4fun.nl)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
-+ Podium
-+ Sport en Fit
-+ VVV gift card
-+ Webshop gift card
-+ Wellness gift card
++ [Podium](https://www.podiumcadeaukaart.nl)
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Wellness gift card](https://www.wellnessgiftcard.nl)
 + Wijncadeau
-+ Winkelcheque
-+ Yourgift
++ [Winkelcheque](https://www.winkelcheque.nl)
++ [Yourgift](https://www.yourgift.nl/)
+

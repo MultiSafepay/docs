@@ -4,6 +4,7 @@ weight: 23
 meta_title: "E-Invoicing, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/e-invoicing/refund/]
 ---
 # How to refund E-Invoicing transaction
 There are 3 ways to refund a E-Invoicing order in your [MultiSafepay Control](https://merchant.multisafepay.com)
@@ -49,7 +50,7 @@ Instead of deleting a page in the checkout editor you may want to add a discount
 5. Select _refund order_
 6. Choose _edit_
 7. Add the discount as a new page in the checkout editor
-For example _-1 -> discount -> amount  -> VAT_
+For example _-1 → discount → amount  → VAT_
 8. Add the new order line to the order to deduct the amount given as a discount
 9. _Save_.
 

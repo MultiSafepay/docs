@@ -22,7 +22,7 @@ aliases:
     ```shell
     pip3 install multisafepay==0.2.0
     ```
-    You can find all the information about the dependencies at this [link](https://pypi.org/project/multisafepay/)
+    You can find all the information about the dependencies at this [link](https://pypi.org/project/multisafepay)
 4.  Restart Odoo server
 5.  Activate developer mode at Odoo platform
 6.  Navigate to Apps menu and click _Update Apps List_
@@ -32,7 +32,7 @@ aliases:
 
 ### 3. Configuration
 Configuration is possible within the _Invoicing_ menu or the _Website_ menu.
-1.  Navigate to _Invoicing/Website_ menu and go to _Configuration_ -> _Payment Acquirers_
+1.  Navigate to _Invoicing/Website_ menu and go to _Configuration_ → _Payment Acquirers_
 2.  Select _MultiSafepay_ payment acquirer. Go to _Edit_ mode. By default acquirer state is disabled
 3.  Change state, _Enabled_ or _Test_, and enter _Live_ and/or _Test_ _API key_, set Journal at Configuration tab, and save changes
 4.  Click _Pull payment methods_ at Configuration tab to get payment methods from your MultiSafepay account

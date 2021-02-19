@@ -4,6 +4,7 @@ weight: 25
 meta_title: "Gift cards, which are accepted? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/]
 ---
 ## Accepted gift cards
 Before applying for a gift card, check with your account manager at MultiSafepay if you are eligible for the payment method. Also check whether your ecommerce platform supports the requested.

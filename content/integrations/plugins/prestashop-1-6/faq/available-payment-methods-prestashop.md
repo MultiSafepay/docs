@@ -3,6 +3,8 @@ title : "Available payment methods in PrestaShop 1.6"
 meta_title: "PrestaShop 1.6 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
+read_more: "."
+aliases: [/integrations/prestashop-1-6/faq/available-payment-methods-prestashop/]
 ---
 __Credit cards__
 
@@ -47,16 +49,16 @@ __Wallet__
 __Prepaid cards__ 
 
 + Beauty and Welness gift card
-+ Boekenbon
-+ De grote speelgoedwinkel
-+ Fashion Cheque
-+ Fashion gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ Gezondheidsbon
-+ Parfumcadeaukaart
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
-+ Sport en Fit
-+ VVV gift card
-+ Webshop gift card
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
 + Wijncadeau
-+ Yourgift
++ [Yourgift](https://www.yourgift.nl/)

@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/e-invoicing.svg'
 short_description: 'A flexible payment solution allowing businesses to take control and personalize consumer payments.'
 aliases:
     - /support-tab/magento2/payment-methods/e-invoicing
+    - /payment-methods/e-invoicing/
 ---

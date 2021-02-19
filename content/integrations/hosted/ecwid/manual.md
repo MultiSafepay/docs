@@ -2,6 +2,9 @@
 title : "MultiSafepay Ecwid installation & configuration manual"
 meta_title: "Ecwid plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: 
+  - /integrations/ecwid/manual/
+  - /faq/general/can-i-use-multisafepay-with-wix/
 ---
 
 ### Introduction
@@ -10,7 +13,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ### 1. Installation & Configuration
 1. Login into your backend and install the MultiSafepay app in the App Store
-2. Go to _Ecwid Control panel_ -> _Settings_ -> _Payment page_
+2. Go to _Ecwid Control panel_ → _Settings_ → _Payment page_
 3. Change the Payment Processor value of a payment method to MultiSafepay and save the changes
 4. Click on the MultiSafepay`s Account details link. Enter your Account ID, Site ID and Site Security Code.\
 Your [API key](/faq/general/glossary/#api-key) is displayed in your MultiSafepay Control. {{% account_info %}}

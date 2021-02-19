@@ -82,6 +82,10 @@
 {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
 {{end}}
 
+    <!-- Insert copy-code-button because baseofhtml doesn't suffice for some reason -->
+        <script src="/js/copy-code-button.js"></script>
+    <!-- End copy-code-button -->
+
 <script src="{{ "/js/scroll-offset.js" | relURL }}"></script>
 <script src="{{ .Site.BaseURL }}js/tocbot.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/scroll-menu.js"></script>

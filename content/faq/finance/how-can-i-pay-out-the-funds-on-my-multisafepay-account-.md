@@ -13,7 +13,7 @@ There are two ways for merchants to withdraw funds, either **automatically** or 
 To carry out an automatic withdrawal, please follow these steps:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) 
-2. Select _Finance_ -> _Balance_
+2. Select _Finance_ → _Balance_
 3. Select the bank account number on which you wish to receive the amount (IBAN)
 4. Schedule payments.
 
@@ -28,7 +28,7 @@ The payout scheduler allows you to:
 To carry out a manual withdrawal, please follow these steps:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) 
-2. Select _Finance_ -> _Balance_
+2. Select _Finance_ → _Balance_
 3. Select an amount, the currency and the the bank account number on which you wish to receive the amount (IBAN).
 
 ## How long do payouts take? 

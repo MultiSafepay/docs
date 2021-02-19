@@ -30,15 +30,15 @@ After running these commands, the latest stable release is downloaded and instal
 Craft Commerce webshop.
 
 ### 3. Configuration
-1. Log into the backend of your webshop and navigate to _MultiSafepay_ -> _Settings_.  
+1. Log into the backend of your webshop and navigate to _MultiSafepay_ → _Settings_.  
 This page contains all the plugin settings.
 
-2. Navigate to _Commerce_ -> _System Settings_ -> _Gateways_.  
+2. Navigate to _Commerce_ → _System Settings_ → _Gateways_.  
 This page contains the gateway settings where you can find all payment methods and giftcards supported by MultiSafepay.  
 Ensure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
 ### Features
 

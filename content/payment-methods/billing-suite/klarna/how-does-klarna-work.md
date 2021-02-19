@@ -4,6 +4,7 @@ weight: 21
 meta_title: "Klarna, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/klarna/how-does-klarna-work/]
 ---
 # How it works
 ## Integration
@@ -23,7 +24,7 @@ For every transaction, a reservation number and an invoice number will be genera
 
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
-All consumer related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service/)
+All consumer related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service)
 If you are a merchant, please contact <integration@multisafepay.com>
 
 ## Transaction flow

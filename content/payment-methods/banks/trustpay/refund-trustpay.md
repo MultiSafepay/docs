@@ -4,11 +4,12 @@ weight: 23
 meta_title: "TrustPay, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/trustpay/refund-trustpay/]
 ---
 ## Request refund
 Please follow these steps to refund a TrustPay transaction:
 
-1. Select _transaction -> transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Select _transaction → transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Find the transaction through search
 3. Open transaction
 4. Select _refund_

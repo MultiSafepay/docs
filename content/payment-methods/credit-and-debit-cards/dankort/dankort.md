@@ -3,14 +3,18 @@ title: "Dankort, What it is"
 meta_title: "Dankort, What it is - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /payment-methods/branded-credit-cards/dankort-what-is-it/
+    - /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
+    - /payment-methods/credit-and-debit-cards/dankort-what-is-it/
 ---
 ## Dankort
 ### What is Dankort
 Dankort - a Visa co-branded product - is one of the best-known and most commonly used Danish credit cards. Every credit card with the 'Verified by Visa' logo can be safely used for online payments.
 
-| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect/)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments/)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks/)   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|Direct/Redirect|DK|[Multiple](https://docs.multisafepay.com/faq/general/which-currencies-are-supported-by-multisafepay/)|Full/Partial|Yes|Yes|
+|Credit/Debit|Direct/Redirect|DK|[Multiple](https://docs.multisafepay.com/faq/general/which-currencies-are-supported-by-multisafepay)|Full/Partial|Yes|Yes|
 
 ### How Dankort works
 Dankort payments are processed through the Visa gateway.
@@ -23,7 +27,7 @@ For Dankort to be available as a payment method on the payment page of MultiSafe
 
 The [locale](/faq/api/locale) is leading in this to show the desired payment method Dankort on the payment page of MultiSafepay.
 
-Upon adding Dankort as payment method on the checkout page, you can download the Dankort logo from MultiSafepay's [collection](/faq/general/where-find-logo-payment-methods/) and upload it to your ecommerce platform. 
+Upon adding Dankort as payment method on the checkout page, you can download the Dankort logo from MultiSafepay's [collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
 
 ### How to refund a Dankort transaction?
 Dankort (Visa) transactions can be refunded to the customer within 180 days.
@@ -31,7 +35,7 @@ Dankort (Visa) transactions can be refunded to the customer within 180 days.
 Please follow these steps to refund a Dankort transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction -> transaction_
+2. Select _transaction → transaction_
 3. Find the transaction through search
 4. Open transaction
 5. Select _refund_

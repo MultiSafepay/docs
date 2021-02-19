@@ -14,5 +14,6 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Sh
 description: "Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md"
+aliases: [/integrations/shopware5/]
 ---
 

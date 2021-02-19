@@ -2,6 +2,7 @@
 title : "Fastcheckout SDK Android configuration manual"
 meta_title: "Fastcheckout SDK Android configuration manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/fastcheckout-android/manual/]
 ---
 ### Introduction
 
@@ -210,7 +211,7 @@ protected void onCreate(Bundle savedInstanceState) {
    SDK = FastCheckoutSDK.getInstance();
    SDK.setApiKey(API_KEY);
 
-   btnLogOut.setOnClickListener(view -> SDK.startCheckout(transaction_id, this));
+   btnLogOut.setOnClickListener(view → SDK.startCheckout(transaction_id, this));
 
    }
 

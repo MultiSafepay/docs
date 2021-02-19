@@ -2,6 +2,7 @@
 title : "MultiSafepay CS-Cart installation & configuration manual"
 meta_title: "CS-Cart plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/cs-cart/manual/]
 ---
 
 ### Introduction
@@ -20,7 +21,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
  More information can be found on [our Notification URL page](/tools/multisafepay-control/set-your-notification-url)
 
 ### 3. Configuration
-1. Login into your backend and navigate to _Adminination_ -> _Payment Method_
+1. Login into your backend and navigate to _Adminination_ → _Payment Method_
 2. Then click on the _+_ symbol to add a payment method
 3. In the next screen you enter a name that will be shown during checkout. In the _Processing unit_ field, you specify the desired payment method. The other fields can be filled according to your own wishes. Click on _Create_
 4.  Then click on the _Configure_ tab

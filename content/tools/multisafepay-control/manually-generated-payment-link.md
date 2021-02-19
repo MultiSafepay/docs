@@ -25,7 +25,7 @@ Examples:
 In order to manually generate a payment link, please follow these steps:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Click on _Tools_ -> _Payment link generator_
+2. Click on _Tools_ → _Payment link generator_
 3. Click on the blue _New payment link_ button
 4. Fill in the required information and click on _generate payment link_
 5. Copy the newly generated link from the green bar and send it by email to the customer.
@@ -51,7 +51,7 @@ The default validity of a manually generated payment link is 30 days. However, y
 ## Where can a merchant find a summary of all the generated payment links? 
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Click on _Tools_ -> _Payment link generator_.
+2. Click on _Tools_ → _Payment link generator_.
 
 You will now be able to see a history of all the generated payment links, the date of their creation creation and their status. 
 
