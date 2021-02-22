@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 aliases: [/payment-methods/afterpay/how-does-afterpay-work/]
 ---
-# How it works
+## How it works
 
 ### The customer  
 Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <merchant@afterpay.com> or via +31 207230230.
@@ -19,17 +19,17 @@ Pay-after-delivery methods allow customers to pay only for items they keep from 
 When a transaction has been accepted, the risk of the merchant is assumed entirely by AfterPay. The customer must fulfill the payment to AfterPay within 14 days after the invoice date, unless otherwise agreed upon in writing.
 
 
-## Delivery address    
+### Delivery address    
 AfterPay accepts a difference in invoice and delivery address. However, a different delivery address or pick up address is only forwarded if both the first and last name of the customer share at least two characters. 
 
 The transaction in your MultiSafepay Control will only show the customer information (invoice address). The transaction details can be retrieved through a _GET request_. More information can be found on the [API documenation](/api/#retrieve-an-order) page. 
 
 
-## Payout AfterPay transaction
+### Payout AfterPay transaction
 
 The payout of an AfterPay transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from AfterPay. The payout timeline for this method is determined by AfterPay.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -59,7 +59,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for Afterpay can be found [here](/api/#afterpay)
 
-## Product rules
+### Product rules
 Some rules may apply to certain payment methods. For AfterPay, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible with AfterPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page.
@@ -84,7 +84,7 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 * Having the new payment pages enabled for a specific site profile is necessary in order to process AfterPay payments. 
 You can check this in your [MultiSafepay Control](https://merchant.multisafepay.com/switch-connect-v2) if you navigate to _Settings > Payment pages_
 
-## The 'Shipped' status
+### The 'Shipped' status
 When receiving an order paid for with AfterPay, it is important to keep a number of things in mind.
 
 Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our plugins.

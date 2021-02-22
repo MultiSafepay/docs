@@ -8,7 +8,7 @@ aliases: [/payment-methods/bank-transfer/refund-bank-transfer/]
 ## Request refund 
 Please follow the following steps to refund a bank transfer transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _Transactions → Transaction overview_
 3. Find the transaction through search
 4. Open the transaction

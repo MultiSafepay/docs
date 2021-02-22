@@ -36,7 +36,7 @@ __Banks__
 __Billing suite__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
-+ [Betaalplan](/payment-methods/billing-suite/betaalplan)
++ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [in3](/payment-methods/billing-suite/in3)
 + [Klarna](/payment-methods/billing-suite/klarna)
@@ -50,11 +50,10 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Baby Cadeaubon
-+ Beauty and Welness gift card
++ Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Good4fun](https://www.good4fun.nl)

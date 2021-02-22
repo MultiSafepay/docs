@@ -12,7 +12,7 @@ aliases: [/payment-methods/paypal/activate-paypal/]
 These instructions are in English. If your PayPal webpage is in another language, you can change the language easily with the links at the rightside bottom of any page.
 
 ###  Account configuration
-1. Login into https://www.paypal.com with your business account
+1. Log in to https://www.paypal.com with your business account
 2. Click on the gear icon in the upper right corner and select _Account Settings_
 3. Select _Account access_ and click _Update_ behind API access
 4. Click on _Grant API permission_

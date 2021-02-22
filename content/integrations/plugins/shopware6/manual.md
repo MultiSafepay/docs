@@ -18,7 +18,7 @@ _*Contact your account manager if you require support for Professional/Enterpris
 ### 2. Installation & Configuration
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases)
 2. Download the latest release which can be found in the assets list and starts with Plugin_Shopware6_x.x.x.zip
-3. Login into your (Shopware 6) backend and navigate to _Settings_ and select _System_ on the left hand side
+3. Log in to your (Shopware 6) backend and navigate to _Settings_ and select _System_ on the left hand side
 4. Select _Plugins_
 5. Press on _Upload plugin_ at the top of the page and select the file you downloaded in step 2
 6. When the plugin is visible, make sure the _Activated_ button is toggled

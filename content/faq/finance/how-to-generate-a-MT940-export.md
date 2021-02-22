@@ -8,7 +8,7 @@ read_more: "."
 In order to generate a MT940 report within your MultiSafepay Control, please follow these steps:
 
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) account
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account
 2. Go to _Reports_ and select _Accountant export_
 3. Fill in the date selection
 4. Change the report type to an MT940 report

@@ -13,7 +13,7 @@ Before starting this process make sure you are updating from plugin version equa
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
 3. Before you update the plugin, we strongly recommend to have a backup of your production environment.
-4. Login into your backend and navigate to _Extensions_ → _Installer_.
+4. Log in to your backend and navigate to _Extensions_ → _Installer_.
 5. Click on the upload button and select the downloaded file.
 6. Wait until the installation process is finished. 
 7. Click in the menu item _Dashboard_.

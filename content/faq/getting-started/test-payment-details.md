@@ -7,18 +7,16 @@ read_more: "."
 
 For thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
 
-Testing with our test credentials can only be done in you MultiSafepay Test Control. Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
+Testing with our test credentials can only be done in your MultiSafepay Control (Test environment). Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
 
 With a successful connection with your test or staging environment, you can immediately start testing.
 
-{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control. {{< /alert-notice >}} 
-
-If assistance is required, contact our Integration Team at <integration@multisafepay.com>
+{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team at <integration@multisafepay.com> to enable outgoing payments or additional payment methods in your MultiSafepay Control. {{< /alert-notice >}} 
 
 
 ## AfterPay
 
-Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your MultiSafepay Test Control.
+Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup)
 
 ## Alipay
 
@@ -57,7 +55,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 | 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
 
-## BankTransfer
+## Bank transfer
 
 MultiSafepay provides a test platform for bank transfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
 
@@ -181,8 +179,6 @@ MultiSafepay provides a test platform for in3 transactions. By entering the foll
 | Approved             | 01-01-1999 | 1234AB | 1 |
 | Declined              | 01-01-2000 | 1111AB | 1 |
 
-_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and pilot phase of its release._
-
 ## iDEAL
 
 MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
@@ -278,7 +274,7 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup) [Full documentation on recurring payments](/tools/recurring-payments)
 
 
 ## Santander Betaal per Maand

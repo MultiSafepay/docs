@@ -9,7 +9,7 @@ aliases: [/integrations/myshop/manual/]
 {{% introduction_hosted "myShop" %}}
 
 ### 1. Installation & Configuration
-1. Login into your backend and install the MultiSafepay app in the App Store
+1. Log in to your backend and install the MultiSafepay app in the App Store
 2. Navigate to _Settings_ 
 3. Select _MultiSafepay or iDEAL MultiSafepay_
 4. Fill in your Merchant Account, Merchant Site ID & Merchant Site Secure Code. {{% account_info %}} 

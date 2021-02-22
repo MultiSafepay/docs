@@ -16,7 +16,7 @@ aliases: [/integrations/opencart/manual/]
 ### 2. Installation
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
-3. Login into your backend and navigate to _Extensions_ → _Installer_.
+3. Log in to your backend and navigate to _Extensions_ → _Installer_.
 4. Click on the upload button and select in your computer the downloaded file.
 5. Wait until the installation process finish. 
 6. Click in the menu item Dashboard.
@@ -26,7 +26,7 @@ aliases: [/integrations/opencart/manual/]
 10. You just installed the plugin. Now you need to configure the settings. 
 
 ### 3. Configuration
-1. Login into your backend and navigate to _Extensions_ → _Extensions_ → _Payments_→ _MultiSafepay_.
+1. Log in to your backend and navigate to _Extensions_ → _Extensions_ → _Payments_→ _MultiSafepay_.
 2. On the MultiSafepay configuration page, enter the required information presented on each tab. 
 3. You can find your API Key on our [API key page](/tools/multisafepay-control/get-your-api-key)
 4. Enable and configure the desired payment methods you wish to offer in _Payment Methods_ tab.
@@ -41,7 +41,7 @@ You have installed and configured the plugin successfully. If you have any quest
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
 3. Before you update the plugin, we strongly recommend have a backup of your production environment
-4. Login into your backend and navigate to _Extensions_ → _Installer_.
+4. Log in to your backend and navigate to _Extensions_ → _Installer_.
 5. Click on the upload button and select in your computer the downloaded file.
 6. Wait until the installation process finish. 
 7. Click in the menu item _Dashboard_.

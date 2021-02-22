@@ -46,10 +46,10 @@ __Wallet__
 __Prepaid cards__ 
 
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-+ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Wijn cadeau
 + [Yourgift](https://www.yourgift.nl)

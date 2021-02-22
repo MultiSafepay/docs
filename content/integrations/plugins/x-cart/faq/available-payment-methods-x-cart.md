@@ -47,9 +47,9 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ Beauty and Welness gift card
++ Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
