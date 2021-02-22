@@ -6,9 +6,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 aliases: [/payment-methods/betaalplan/how-does-betaalplan-work/]
 ---
-# How it works
+### How it works
 
-### The customer
+#### The customer
 
 Betaal per Maand is an online payment method that allows customers to pay for online purchases after receiving them. A special feature of post-payment is that customers are only charged for the items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of this process taking too long to verify, the collection period can be paused by placing it on hold. This can only be done via contact with Betaal per Maand.
 
@@ -18,10 +18,10 @@ Betaal per Maand is an online payment method that allows customers to pay for on
 
 When a transaction has been accepted, the risk of the merchant is assumed entirely by Betaal per Maand, who will contact the customer with the payment details. The customer can select the most suitable payback period and ways to fulfill the monthly payment to Betaal per Maand.
 
-## Payout
+#### Payout
 The payout of a Betaal per Maand transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from Betaal per Maand. MultiSafepay will process the payout from a Betaal per Maand transaction within 5 business days.
 
-## Transaction flow
+#### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -42,7 +42,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled   | Transaction has been cancelled.  | 
 | Expired     | Expired    | When no action is being taken when receiving a transaction with the payment method Betaal per Maand, the transaction will automatically expire. | 
 
-### Refund flow 
+#### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for Betaal per Maand can be found [here](/api/#santander-betaal-per-maand)
 
-## Product rules
+#### Product rules
 Some rules may apply to certain payment methods. For Betaal per Maand, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is not possible with Betaal per Maand. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
@@ -70,7 +70,7 @@ Some rules may apply to certain payment methods. For Betaal per Maand, the follo
 
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page.
 
-## The 'Shipped' status
+#### The 'Shipped' status
 When receiving an order paid for with Betaal per Maand, it is important to keep a number of things in mind.
 
 Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our plugins.
@@ -81,7 +81,7 @@ Changing the status to _Shipped_ allows Betaal per Maand to initiate the billing
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 
-### The 'Shipped' status explained
+#### The 'Shipped' status explained
 
 As soon as Santander has approved the transaction, it is displayed in the MultiSafepay Control as well as the system (backend) you are using via a push notification. More information regarding the push notification can be read on ['How does the notification url work'](https://docs.multisafepay.com/faq/api/how-does-the-notification-url-work)
 
