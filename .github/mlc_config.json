@@ -17,10 +17,25 @@
           "pattern": "https://www.mijnwebwinkel.nl/beheer/payment/sorting"
         },
         {
-          "pattern": "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052866"
+          "pattern": "https://lightspeed.multisafepay.com/changelog&#39;"
         },
         {
-          "pattern": "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328"
+          "pattern": "https://www.shopware.com/en/pricing"
+        },
+        {
+          "pattern": "https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md&#39;"
+        },
+        {
+          "pattern": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32015L0849"
+        },
+        {
+          "pattern": "https://yourdomain.com/index/paymentprovidernotification.*"
+        },
+        {
+          "pattern": "https://payv2.multisafepay.com/files/{{accountid}}/{{filename}"
+        },
+        {
+          "pattern": "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%.*"
         }
       ],
     "retryOn429": true,

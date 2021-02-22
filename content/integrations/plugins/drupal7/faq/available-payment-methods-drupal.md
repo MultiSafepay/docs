@@ -52,4 +52,4 @@ __Prepaid cards__
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Wijn cadeau
-+ [Yourgift](yourgift.nl)
++ [Yourgift](https://www.yourgift.nl)
