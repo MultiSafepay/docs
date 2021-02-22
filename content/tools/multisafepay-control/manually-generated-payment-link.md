@@ -8,15 +8,15 @@ read_more: '.'
 
 ### Manually generated payment link
 
-For several scenarios, it can be useful for you as a merchant to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
+For several scenarios, it can be useful for you as a merchant to generate a payment link. The payment link allows the [MultiSafepay Control](https://merchant.multisafepay.com/) to create a unique transaction that the payment can be matched with.
 
 Examples:
 
-* A customer wants to adjust an existing order and instead of starting over with a new one, the merchant can generate an adjusted (new) payment link
+* A customer wants to adjust an existing order and instead of starting over with a new one, you can generate an adjusted (new) payment link
 
-* A merchant creates an order manually for a customer
+* You create an order manually for a customer
 
-* When MultiSafepay receives a payment with an unmatching amount from a customer, if the merchant accepts it, a payment link needs to be generated manually and emailed to MultiSafepay
+* When MultiSafepay receives a payment with an unmatching amount from a customer, if you accept it, a payment link needs to be generated manually and emailed to MultiSafepay
 
 * In case of an expired bank transfer payment link.
 
@@ -32,7 +32,7 @@ In order to manually generate a payment link, please follow these steps:
 
 The left side field must be completed with the order information, whereas the right side field can be optionally completed with the contact information of the customer. 
 
-> Please keep in mind that the Order ID filled in every payment link must be unique, otherwise an error notification will appear
+> Please keep in mind that the Order ID filled in every payment link must be unique, otherwise an error notification will appear.
 
 #### Creating a payment link by duplicating an order
 
@@ -53,10 +53,10 @@ The default validity of a manually generated payment link is 30 days. However, y
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Click on _Tools_ → _Payment link generator_.
 
-You will now be able to see a history of all the generated payment links, the date of their creation creation and their status. 
+You will now be able to see a history of all generated payment links including the date of creation and status. 
 
-### Cancelling a payment link
-In the summary page of the payment links, there is a red circle button next to each payment link.  After clicking on the button, the status will be changed to _Cancelled_. 
+#### Cancelling a payment link
+On the summary page of the payment links, there is a red circle button next to each payment link.  After clicking on the button, the status will be changed to _Cancelled_. 
 
 |  Status      | Description |
 |-------------|---------------------------------------------------------------------------|
@@ -65,16 +65,16 @@ In the summary page of the payment links, there is a red circle button next to e
 | Cancelled   | The payment has been cancelled by the merchant.| 
 | Expired     | The link has automatically expired after a predefined period.  | 
 
-## Which payment methods can use a payment link? 
+#### Payment methods and payment links 
 
-In theory, for every payment method it's possible to add a manually generated payment link, depending on the availability of the payment methods in MultiSafepay Control. Moreover, it is important to check your webshop's requirements in relation to a certain payment method and its support.
+In theory, for every payment method it's possible to add a manually generated payment link, depending on the availability of the payment methods in MultiSafepay Control. However, it is important to check your webshop's requirements in relation to a certain payment method and its support.
 
 For example, post-payment methods such as AfterPay, Pay After Delivery and Klarna do not support manually generated payment links, due to the insolvency process requirement that creates a different flow and dynamics around these payment methods.
 
-## Can a payment link be disabled for a certain payment method? 
-Disabling is only possible in the site profile. In this case, as a merchant you will need a separate Site ID in which only the desired payment methods are available. For more information you can contact the Integration Team at <integration@multisafepay.com>
+#### Disabling a payment link for a payment method
+Disabling a payment link is only possible in the site profile. In this case, as a merchant you will need a separate Site ID in which only the desired payment methods are available. For more information you can contact the Integration Team at <integration@multisafepay.com>
 
-## Can a payment link be generated in the backend of a webshop?
+#### Generating a payment link in the backend of a webshop
 
 The short answer is yes. However, this depends on the webshop you are using.
 
