@@ -23,7 +23,7 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Podium
 * Sport & Fit 
 * VVV Cadeaukaart 
-* Webshop gift card*
+* Webshop Giftcard*
 * Wellness gift card 
 * Wijncadeau 
 * Winkelcheque 
