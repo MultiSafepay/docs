@@ -36,7 +36,7 @@ __Banks__
 __Billing suite__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payment-methods/billing-suite/betaalplan)
++ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [in3](/payment-methods/billing-suite/in3)
 + [Klarna](/payment-methods/billing-suite/klarna)
