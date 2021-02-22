@@ -7,7 +7,7 @@ read_more: "."
 
 For thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
 
-Testing with our test credentials can only be done in youR MultiSafepay Control (Test environment). Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
+Testing with our test credentials can only be done in your MultiSafepay Control (Test environment). Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
 
 With a successful connection with your test or staging environment, you can immediately start testing.
 
