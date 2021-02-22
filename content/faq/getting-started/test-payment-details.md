@@ -7,18 +7,16 @@ read_more: "."
 
 For thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
 
-Testing with our test credentials can only be done in you MultiSafepay Test Control. Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
+Testing with our test credentials can only be done in youR MultiSafepay Control (Test environment). Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
 
 With a successful connection with your test or staging environment, you can immediately start testing.
 
-{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control. {{< /alert-notice >}} 
-
-If assistance is required, contact our Integration Team at <integration@multisafepay.com>
+{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team at <integration@multisafepay.com> to enable outgoing payments or additional payment methods in your MultiSafepay Control. {{< /alert-notice >}} 
 
 
 ## AfterPay
 
-Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your MultiSafepay Test Control.
+Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup)
 
 ## Alipay
 
@@ -278,7 +276,7 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup) [Full documentation on recurring payments](/tools/recurring-payments)
 
 
 ## Santander Betaal per Maand
