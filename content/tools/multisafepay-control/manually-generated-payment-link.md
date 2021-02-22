@@ -8,7 +8,7 @@ read_more: '.'
 
 ### Manually generated payment link
 
-For several scenarios, it can be useful for you as a merchant to generate a payment link. The payment link allows the [MultiSafepay Control](https://merchant.multisafepay.com/) to create a unique transaction that the payment can be matched with.
+In several scenarios, it can be useful to generate a payment link. The payment link creates a unique transaction that the payment can be matched with. This transaction can be found in your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 Examples:
 
