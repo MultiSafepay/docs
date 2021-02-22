@@ -7,5 +7,5 @@ read_more: "."
 
 Yes. If you would like to put a newsletter check-mark near the selected payment method you can do so by following these instructions:
 
-1. Navigate to _Settings_ -> _Inline newsletter_
+1. Navigate to _Settings_ → _Inline newsletter_
 2. Select _Show inline_. The inline buy has to be enabled.

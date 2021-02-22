@@ -14,4 +14,5 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Vi
 description: "Easily integrate MultiSafepay payment solutions into your VirtueMart webshop with the free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md"
+aliases: [/integrations/virtuemart/]
 ---

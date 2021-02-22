@@ -18,4 +18,5 @@ weight: 20
 logo: "/logo/Plugins/Magento_2.svg"
 title_short: "Magento 2"
 description_short: "The MultiSafepay Magento 2 plugin. Easily integrate MultiSafepay payment solutions into your Magento 2 webshop with the free plugin."
+aliases: [/integrations/magento2/]
 ---

@@ -14,5 +14,6 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Ze
 description: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
+aliases: [/integrations/zencart/]
 ---
 

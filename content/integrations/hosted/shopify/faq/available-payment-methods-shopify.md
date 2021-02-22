@@ -3,6 +3,7 @@ title : "Available payment methods in Shopify"
 meta_title: "Shopify plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: [/integrations/shopify/faq/available-payment-methods-shopify/]
 ---
 __Credit cards__
 

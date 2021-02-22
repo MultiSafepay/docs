@@ -12,7 +12,7 @@ The customer will receive the payment link in the email send by WooCommerce with
  
 Please follow these instructions:
 
-1. Login into your backend and navigate to _WooCommerce_ -> _Orders_ -> _Add order_.
+1. Login into your backend and navigate to _WooCommerce_ → _Orders_ → _Add order_.
 2. Register the order details as explained in [WooCommerce documentation](https://docs.woocommerce.com/document/managing-orders/#section-16).
 3. In "Order actions" panel; select  the option "Email invoice / order details to customer".  
 4. Click on "Create" order button.

@@ -4,6 +4,7 @@ weight: 42
 meta_title: "Payment pages - Styling payment pages - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-page-templates/]
 ---
 MultiSafepay's payment pages provide the quickest, easiest and most secure way to accept online payments. By default, your payment pages use MultiSafepay's renowned brand and styling. However, we recommend that you personally tailor the payment pages in a manner that is consistent with your own website. This is very easy, and can be done via [MultiSafepay Control](https://merchant.multisafepay.com)
 

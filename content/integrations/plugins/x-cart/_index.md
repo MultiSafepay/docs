@@ -14,4 +14,5 @@ description_short: "Easily integrate MultiSafepay payment solutions into your X-
 description: "Easily integrate MultiSafepay payment solutions into your X-Cart webshop with the free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
+aliases: [/integrations/x-cart/]
 ---

@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/KBC.svg'
 short_description: 'Accept payments from KBC customers allowing them to pay using their KBC bank account.'
 aliases:
     - /support-tab/magento2/payment-methods/kbc
+    - /payment-methods/kbc/
 ---

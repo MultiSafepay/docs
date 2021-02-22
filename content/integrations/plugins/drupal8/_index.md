@@ -13,4 +13,5 @@ weight: 100
 title_short: "Drupal 8 & 9"
 description_short: "Easily integrate MultiSafepay payment solutions into your Drupal 8 webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your Drupal 8 webshop with the free plugin."
+aliases: [/integrations/drupal8/]
 ---

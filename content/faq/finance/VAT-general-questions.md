@@ -3,6 +3,9 @@ title : "VAT - Everything you need to know"
 meta_title: "FAQ VAT - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: 
+    - /faq/finance/reverse-charging-vat/
+    - /faq/finance/vat-general-questions/#is-reverse-charging-vat-possible
 ---
 
 ## Why is MultiSafepay charging VAT?

@@ -8,4 +8,6 @@ logo: '/logo/Payment_methods/VISA.svg'
 short_description: 'Increase conversions by accepting Visa payments with a worldwide reach.'
 aliases:
     - /support-tab/magento2/payment-methods/visa
+    - /payment-methods/credit-and-debit-cards/mastercard/visa
+    - /payment-methods/visa/
 ---

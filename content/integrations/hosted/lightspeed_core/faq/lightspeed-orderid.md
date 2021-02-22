@@ -3,6 +3,7 @@ title: "How do I synchronise a generated payment link with Lightspeed?"
 meta_title: "Lightspeed plugin core synchronise generated payment link - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: [/integrations/lightspeed/faq/lightspeed-orderid/]
 ---
 
 When a payment link is generated from [MultiSafepay Control](https://merchant.multisafepay.com), an _orderID_ number is required. This is necessary to link the transaction to the correct _orderID_ in the ecommerce platform of Lightspeed.

@@ -2,6 +2,7 @@
 title : "MultiSafepay Shopware 5 installation & configuration manual"
 meta_title: "Shopware 5 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/shopware5/manual/]
 ---
 
 ### Introduction
@@ -18,7 +19,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 3. Navigate to _Configuration_ and select _Payment methods_
 4. Navigate to _Management_ and select _Installed_
 5. Search for the installed MultiSafepay plugin and click on the pencil
-6. Scroll down and look for the field named _API key_
+6. Scroll down and look for the field named _[API key](/faq/general/glossary/#api-key)_
 7. Enter your API key.{{% account_info %}} The other fields can be filled according to your own wishes.
 
 ### 3. Congratulations

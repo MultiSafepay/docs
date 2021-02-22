@@ -4,6 +4,7 @@ weight: 21
 meta_title: "How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/gift-cards/how-do-gift-cards-work/]
 ---
 ## How it works
 A gift card can be processed as a digital payment method. The credit on a gift card can be spent in a webshop that accepts the gift card.

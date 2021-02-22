@@ -1,6 +1,7 @@
 ---
 title : "Integration Team, help us help you"
 weight:
+aliases: [/techsupport/webshop-access/]
 ---
 
 The plugins created by MultiSafepay are tested before release, however, it’s possible that a functionality in your website malfunctions. This can occur due to customized integration, a deviant configuration or a bug.
