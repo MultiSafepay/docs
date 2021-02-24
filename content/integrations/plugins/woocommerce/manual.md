@@ -14,22 +14,32 @@ aliases: [/integrations/woocommerce/manual/]
 - PHP 7.2
 
 ### 2. Installation
-There are two ways in which the plugin for WooCommerce can be downloaded. If your working on a new webshop and would like to retrieve our plugins, you can find them at the [Wordpress plugin page](https://wordpress.org/plugins/multisafepay)
 
-If you already have a webshop with our plugin, please turn on the automatic check for module updates. Go to _Administration_ → _Preferences_ → _General_ → _Automatic check for module updates_. By doing this, the system will give you a suggestion to upgrade.
+There are two ways in which the MultiSafepay plugin for WooCommerce can be installed:
 
-You can also download the plugin directly on this page:
+#### Manual installation
 
 1. Download the plugin by clicking the Download button in this [page](/integrations/plugins/woocommerce)
 2. Navigate to the backend of your webshop and go to _Plugins_ → _Add New_. Click on _Browse file_
 3. Upload the Plugin_WooCommerce_x.x.x.zip file.
+4. Wait until the process finish.
+5. MultiSafepay plugin is installed now.
+
+#### Wordpress installation
+
+1. Navigate to the backend of your webshop and go to _Plugins_ → _Add New_.
+2. Enter in the search field _MultiSafepay_. 
+3. Click on _Install Now_ button for the item named _MultiSafepay plugin for WooCommerce_ by _MultiSafepay_.
+4. Wait until the process finish.
+5. MultiSafepay plugin is installed now.
+
 
 ### 3. Configuration
-1. Log in to your WooCommerce Admin and navigate to _WooCommerce_ → _MultiSafepay Settings_
+1. Navigate to the backend of your webshop and go to _WooCommerce_ → _MultiSafepay Settings_
 2. Navigate to _Account_ tab, set the API key. Information about the API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key)
 3. Navigate to _Order Status_ tab and confirm the match between WooCommerce order statuses and MultiSafepay order statuses clicking on "Save Changes" button.
 4. Navigate to _Options_ tab and confirm the settings clicking on "Save Changes" button.
 5. Navigate to _WooCommerce_ → _Settings_ → _Payments_. Enable the payment methods you would like to offer, check and confirm the settings for those been enable.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin MultiSafepay plugin for WooCommerce successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
