@@ -11,7 +11,7 @@ aliases: [/integrations/magento1/manual/]
 
 {{< alert-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
 
-_MultiSafepay supports most functionalities of Magento Opensource and Commerce. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
+_MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
 
 ### Introduction
 

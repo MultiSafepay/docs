@@ -10,7 +10,7 @@ aliases:
 
 
 ### Introduction
-_MultiSafepay supports most functionalities of Magento Opensource and Commerce. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
+_MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
 
 We are proud to announce that we have been working on a brand new Magento 2 plugin. 
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
