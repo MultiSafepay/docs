@@ -23,7 +23,7 @@ The following is required to use the tokenization tool:
 
 Submit your request to enable recurring payments at your account manager at <sales@multisafepay.com>
 
-When recurring payments are enabled for your MultiSafepay Control, the token can be received and processed.
+When recurring payments are enabled in your MultiSafepay Control, the token can be received and processed.
 
 ## Tokenization, available for:
-We offer tokenization in our [Magento 1](/integrations/plugins/magento1), [Magento 2](/integrations/plugins/magento2), [PrestaShop 1.6](/integrations/plugins/prestashop-1-6), [PrestaShop 1.7](/integrations/plugins/prestashop-1-7) and [Shopware 6](/integrations/plugins/shopware6)
+We offer tokenization in our [Magento 1](/integrations/plugins/magento1), [Magento 2](/integrations/plugins/magento2), [PrestaShop 1.6](/integrations/plugins/prestashop-1-6), [PrestaShop 1.7](/integrations/plugins/prestashop-1-7), [Shopware 6](/integrations/plugins/shopware6) and [Woocommerce](/integrations/plugins/woocommerce/) plugins.
