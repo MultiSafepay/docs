@@ -7,6 +7,6 @@ read_more: "."
 ---
 In the Shopware 6 plugin, it is mandatory to _ship_ goods in order to be paid.
 
-Shipping within Shopware 5 works by __changing__ the order status to _Shipped_ in the order details.
+Shipping within Shopware 6 works by __changing__ the order status to _Shipped_ in the order details.
 
-Currently, the track-and-trace code will be sent when goods are shipped.
+The track-and-trace code will be issued when goods are shipped.

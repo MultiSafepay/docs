@@ -6,7 +6,7 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-In Magento 2, it is mandatory to _ship_ goods in order to be paid. In Magento 2, you are able to click on _Ship_ on the Order page itself. It is then possible to fill in shipping information. Proceed buy clicking _Submit_ and the following messages will appear:
+In Magento 2, it is mandatory to _ship_ goods in order to be paid. In Magento 2, you are able to click on _Ship_ on the _Order_ page itself. It is then possible to fill in the shipping information. Proceed by clicking _Submit_ and the following messages will appear:
 
 _The order status has successfully been updated at MultiSafepay_
 _The Shipment has been created_
