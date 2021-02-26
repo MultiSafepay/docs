@@ -7,7 +7,11 @@ read_more: "."
 
 ## Credit card payments with an Uncleared status
 
-The 'uncleared' status can be assigned to any credit card payment. In this case, the payment is placed ‘on hold’ by the MultiSafepay fraud filter. Transactions with the status ‘uncleared’ must be evaluated and either accepted or refused by the merchant. We would like to emphasize that our automated fraud filter detects an increased risk of fraud, but it does not prevent all fraudulent payments. On the other hand, not every credit card payment detected by our fraud filter is necessarily a fraudulent payment.
+The 'Uncleared' status can be assigned to any credit card payment. In this case, the payment is placed ‘on hold’ by the MultiSafepay fraud filter. Transactions with the status ‘uncleared’ must be evaluated and either accepted or refused by the merchant. We would like to emphasize that our automated fraud filter detects an increased risk of fraud, but it does not prevent all fraudulent payments. On the other hand, not every credit card payment detected by our fraud filter is necessarily a fraudulent payment.
+
+## Pay after delivery payment methods with an Uncleared status
+
+The 'Uncleared' status is also assigned to 'pay after delivery' payment methods. Klarna, Afterpay, in3, Santander and Pay After Delivery will all hold an 'Uncleared' status after shipment of an order. The order status will be _Shipped_, while the transaction status will be _Uncleared_. In this case, the transaction is confirmed and the payout is guaranteed. The _Uncleared_ status will only change to _Completed_ when the payout of a transaction has been received by MultiSafepay and the amount has been added to your MultiSafepay Control balance.
 
 ## Why should you check the transaction? 
 
