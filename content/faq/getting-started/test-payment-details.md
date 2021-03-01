@@ -20,7 +20,6 @@ Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable 
 
 ## Alipay
 
-MultiSafepay provides a test platform for Alipay transactions. During the payment process you will be able to simulate the outcome of the transaction.
 
  Status    | Description              |
 | --------- | ------------------------ |
