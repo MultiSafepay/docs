@@ -18,7 +18,6 @@ The maximum _refund period_ differs per payment method. The refund period is def
 | [Belfius](/payment-methods/banks/belfius/) | 730 days |
 | [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/) | 730 days |
 | [CBC](/payment-methods/banks/cbc/) | 730 days |
-| [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) | 730 days |
 | [Dotpay](/payment-methods/banks/dotpay/) | 730 days |
 | [E-invoicing](/payment-methods/billing-suite/e-invoicing/) | 730 days |
 | [EPS](/payment-methods/banks/eps/) | 730 days |
@@ -35,6 +34,7 @@ The maximum _refund period_ differs per payment method. The refund period is def
 | [PayPal](/payment-methods/wallet/paypal/) | 180 days |
 | [Paysafecard](/payment-methods/prepaid-cards/paysafecard/) | 180 days |
 | [Request to Pay](/payment-methods/banks/request-to-pay/) | 730 days |
+| [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) | 730 days |
 | [SOFORT Banking](/payment-methods/banks/sofort-banking/) | 730 days |
 | [Trustly](/payment-methods/banks/trustly/) | 365 days |
 | [Visa](/payment-methods/credit-and-debit-cards/visa/) | 180 days |
