@@ -83,21 +83,44 @@ PaymentComponent.init('payment', {
 ```
 {{< br >}}
 
-### 2. Styling template
+### 2. Pass preOrder data to the Credit Card Component
 
-The Credit Card Component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
+The Credit Card Component requires some initial information about your customer's shopping cart. This information is used to perform validation checks, such as:
+
+- Is the selected payment method compatible with the currency?
+- Is the selected payment method compatible with the order value?
 
 ```
-const configOrder = {
+const preOrder = {
     currency: 'EUR',
-    amount: 100,
+    amount: 10000,
+    customer: {
+        locale: 'EN',
+        country: 'NL',
+        reference: 'Customer123'
+    },
     template : {
         settings: {
             embed_mode: true
         }
+    }
 };
 ```
 {{< br >}}
+
+#### Required variables
+| Key | Value |
+| ---- | ---- |
+| currency | Currency of the order. {{< br >}} **Format:** [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) |
+| amount | Value of the order. {{< br >}} **Format:** Number without decimal points (e.g., 100EU → `10000`) |
+
+#### Optional variables
+| Key | Value |
+| --- | --- |
+| locale | Your customer's browser language, which is used to set the Credit Card Component's language. {{< br >}} **Format:** [ISO-3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) |
+| country | Your customer's country code, which is used to validate the availability of the payment method. {{< br >}} **Format:** [ISO-3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) |]
+| reference | A unique reference to your customer, used in tokenization. {{< br >}} **Format:** string |
+| embed_mode | Embed mode is a template designed to blend in seamlessly with your ecommerce. {{< br >}} **Format:** boolean |
 
 
 ### 3. Place a Test order
