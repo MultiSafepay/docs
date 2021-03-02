@@ -1,14 +1,14 @@
 ---
-title : "Tokenization available for plugins supported by MultiSafepay"
+title : "Tokenization available for ecommerce integrations supported by MultiSafepay"
 weight: 92
-meta_title: "Tokenization, available for plugins - MultiSafepay Docs"
+meta_title: "Tokenization, available for ecommerce integrations - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
 
 ## Tokenization, What it is
-The tokenization tool available in the selected plugins ensures that the customer can complete the payment as a one click.
+The tokenization tool available in the selected ecommerce integration ensures that the customer can complete the payment as a one click.
 
 Upon completing the first payment with credit card as payment method, the credit card details are stored as a token. This allows the customer to finalize the next payment by only selecting the stored credit card details.
 
@@ -26,4 +26,4 @@ Submit your request to enable recurring payments at your account manager at <sal
 When recurring payments are enabled in your MultiSafepay Control, the token can be received and processed.
 
 ## Tokenization, available for:
-We offer tokenization in our [Magento 1](/integrations/plugins/magento1), [Magento 2](/integrations/plugins/magento2), [PrestaShop 1.6](/integrations/plugins/prestashop-1-6), [PrestaShop 1.7](/integrations/plugins/prestashop-1-7), [Shopware 6](/integrations/plugins/shopware6) and [Woocommerce](/integrations/plugins/woocommerce/) plugins.
+We offer tokenization in our [Magento 1](/integrations/ecommerce-integrations/magento1), [Magento 2](/integrations/ecommerce-integrations/magento2), [PrestaShop 1.6](/integrations/ecommerce-integrations/prestashop-1-6), [PrestaShop 1.7](/integrations/ecommerce-integrations/prestashop-1-7), [Shopware 6](/integrations/ecommerce-integrations/shopware6) and [Woocommerce](/integrations/ecommerce-integrations/woocommerce/) ecommerce integratons.

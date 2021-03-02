@@ -12,15 +12,15 @@ Redirect 301 /payment-methods/creditcards/purchasing-card/ https://docs.multisaf
 Redirect 301 /payment-methods/creditcards/chargebacks/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/chargebacks/
 Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/
 Redirect 301 /payment-methods/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/
-Redirect 301 /integrations/opencart/faq/configure-fee-pay-after-delivery/ https://docs.multisafepay.com/integrations/plugins/opencart/faq/configure-fee-pay-after-delivery/
+Redirect 301 /integrations/opencart/faq/configure-fee-pay-after-delivery/ https://docs.multisafepay.com/integrations/ecommerce-integrations/opencart/faq/configure-fee-pay-after-delivery/
 Redirect 301 /payment-methods/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/
-Redirect 301 /integrations/magento1/faq/is-the-multisafepay-magento-1-plugin-compatible-with-picqer/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/is-the-multisafepay-magento-1-plugin-compatible-with-picqer/
+Redirect 301 /integrations/magento1/faq/is-the-multisafepay-magento-1-plugin-compatible-with-picqer/ https://docs.multisafepay.com/integrations/ecommerce-integrations/magento1/faq/is-the-multisafepay-magento-1-plugin-compatible-with-picqer/
 Redirect 301 /integrations/magento2/changelog/ https://docs.multisafepay.comhttps://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
-Redirect 301 /integrations/plugins/magento2/changelog/ https://docs.multisafepay.comhttps://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
+Redirect 301 /integrations/plugins/magento2/changelog/ https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 Redirect 301 /payment-methods/banks/direct-bank-transfer/#transaction-flow https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#transaction-flow
 Redirect 301 /payment-methods/banks/direct-bank-transfer/#refund-flow https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#refund-flow
 Redirect 301 /payment-methods/banks/direct-bank-transfer/#product-rules https://docs.multisafepay.com/payment-methods/banks/request-to-pay/#product-rules
-Redirect 301 /integrations/hosted/lightspeedbeta/ https://docs.multisafepay.com/integrations/hosted/lightspeed_app/
+Redirect 301 /integrations/hosted/lightspeedbeta/ https://docs.multisafepay.com/integrations/ecommerce-integrations/lightspeed_app/
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
 
