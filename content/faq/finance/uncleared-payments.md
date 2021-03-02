@@ -9,9 +9,13 @@ read_more: "."
 
 The 'Uncleared' status can be assigned to any credit card payment. In this case, the payment is placed ‘on hold’ by the MultiSafepay fraud filter. Transactions with the status ‘uncleared’ must be evaluated and either accepted or refused by the merchant. We would like to emphasize that our automated fraud filter detects an increased risk of fraud, but it does not prevent all fraudulent payments. On the other hand, not every credit card payment detected by our fraud filter is necessarily a fraudulent payment.
 
-## Pay after delivery payment methods with an Uncleared status
+## Payment methods with an Uncleared status
 
-The 'Uncleared' status is also assigned to 'pay after delivery' payment methods. Klarna, Afterpay, in3, Santander and Pay After Delivery will all hold an 'Uncleared' status after shipment of an order. The order status will be _Shipped_, while the transaction status will be _Uncleared_. In this case, the transaction is confirmed and the payout is guaranteed. The _Uncleared_ status will only change to _Completed_ when the payout of a transaction has been received by MultiSafepay and the amount has been added to your MultiSafepay Control balance.
+The 'Uncleared' status is assigned to a number of payment methods. <br>
+
+[Klarna](/payment-methods/billing-suite/klarna/), [Afterpay](/payment-methods/billing-suite/afterpay/), [in3](/payment-methods/billing-suite/in3/), [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/) and [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) will hold an _Uncleared_ status after shipment of an order. The order status will be _Shipped_, while the transaction status will be _Uncleared_. In this case, the transaction is confirmed and the payout is guaranteed. The _Uncleared_ status will only change to _Completed_ when the payout of a transaction has been received by MultiSafepay and the amount has been added to your MultiSafepay Control balance.
+
+[Request to Pay](/payment-methods/banks/request-to-pay/), [SOFORT Banking](/payment-methods/banks/sofort-banking/) and [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) will also hold an _Uncleared_ status, although the status can be interpreted differently. In this case, the payment of an order has not yet been received by MultiSafepay and it may take time for the _Uncleared_ status to clear. We recommend to __not ship__ items during this period.
 
 ## Why should you check the transaction? 
 
