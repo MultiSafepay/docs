@@ -11,4 +11,8 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Mi
 description: "Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app. This app is managed by our partner Mijnwebwinkel (MyOnlineStore). For support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support) directly."
 layout: 'single'
 aliases: [/integrations/mijnwebwinkel/]
+aliases: 
+    - /hosted/mijnwebwinkel
+    - /integrations/hosted/mijnwebwinkel
+    - /integrations/mijnwebwinkel
 ---

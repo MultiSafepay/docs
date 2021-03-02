@@ -15,4 +15,7 @@ description: "Easily integrate MultiSafepay payment solutions into your Lightspe
 aliases: 
     - /integrations/hosted/lightspeed/
     - /integrations/hosted/lightspeedbeta/
+    - /hosted/lightspeed_app
+    - /integrations/hosted/lightspeed_app
+    - /integrations/lightspeed_app
 ---

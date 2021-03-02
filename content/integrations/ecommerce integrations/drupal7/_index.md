@@ -13,5 +13,8 @@ title_short: "Drupal 7"
 description_short: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
 layout: 'single'
-aliases: [/integrations/drupal7/]
+aliases: 
+    - /plugins/drupal7
+    - /integrations/plugins/drupal7
+    - /integrations/drupal7
 ---

@@ -2,7 +2,10 @@
 title : "MultiSafepay Drupal 8 & 9 installation & configuration manual"
 meta_title: "Drupal 8 & 9 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-aliases: [/integrations/drupal8/manual/]
+aliases: 
+    - /plugins/drupal8/manual
+    - /integrations/plugins/drupal8/manual
+    - /integrations/drupal8/manual
 ---
 
 ### Introduction  

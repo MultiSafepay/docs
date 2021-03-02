@@ -13,5 +13,8 @@ description: "Easily integrate MultiSafepay payment solutions into your Lightspe
 This core integration is managed by our partner Lightspeed. For support, please contact [Lightspeed](https://www.lightspeedhq.nl/support) directly."
 layout: 'single'
 tags: 'hidden'
-aliases: [/integrations/lightspeed/]
+aliases: 
+    - /hosted/lightspeed_core
+    - /integrations/hosted/lightspeed_core
+    - /integrations/lightspeed_core
 ---

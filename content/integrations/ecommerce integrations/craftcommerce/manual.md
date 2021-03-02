@@ -2,6 +2,11 @@
 title : "MultiSafepay Craft Commerce 3 installation & configuration manual"
 meta_title: "Craft Commerce 3 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: 
+    - /plugins/craftcommerce/manual
+    - /integrations/plugins/craftcommerce/manual
+    - /integrations/craftcommerce/manual
+
 ---
 
 ### Introduction

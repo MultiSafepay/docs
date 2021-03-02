@@ -12,4 +12,8 @@ This app is managed by our partner ZilverCMS. For support, please contact [Zilve
 If you would like to integrate the MultiSafepay plugin for ZilverCMS, please contact our integration team at <integration@multisafepay.com>"
 layout: 'single'
 faq: "."
+aliases: 
+    - /hosted/zilvercms
+    - /integrations/hosted/zilvercms
+    - /integrations/zilvercms
 ---

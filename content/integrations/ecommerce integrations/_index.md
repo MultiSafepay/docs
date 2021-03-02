@@ -7,6 +7,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: '/svgs/Plugins.svg'
 short_description: 'Our ready-made solutions for most popular ecommerce platforms'
 weight: 10
-aliases: [/plugins/]
-aliases: [/integrations/plugins/]
+aliases: 
+    - /plugins/
+    - /integrations/plugins/
 ---

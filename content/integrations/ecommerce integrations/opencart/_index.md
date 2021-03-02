@@ -13,7 +13,10 @@ description_short: "Have an OpenCart webshop? Integrate the MultiSafepay payment
 description: "The free plugin to easily integrate MultiSafepay payment solutions into your OpenCart webshop."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md"
-aliases: [/integrations/opencart/]
+aliases: 
+    - /plugins/opencart
+    - /integrations/plugins/opencart
+    - /integrations/opencart
 ---
 
 

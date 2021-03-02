@@ -15,5 +15,9 @@ description: "Easily integrate MultiSafepay payment solutions into your Zen Cart
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
 aliases: [/integrations/zencart/]
+aliases: 
+    - /plugins/zencart
+    - /integrations/plugins/zencart
+    - /integrations/zencart
 ---
 

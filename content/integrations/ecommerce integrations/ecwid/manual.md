@@ -5,6 +5,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: 
   - /integrations/ecwid/manual/
   - /faq/general/can-i-use-multisafepay-with-wix/
+  - /hosted/ecwid/manual
+  - /integrations/hosted/ecwid/manual
 ---
 
 ### Introduction

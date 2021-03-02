@@ -14,4 +14,8 @@ weight: 80
 logo: "/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
 description_short: "The MultiSafepay Odoo plugin. Easily integrate MultiSafepay payment solutions into your Odoo webshop with the free plugin."
+aliases: 
+    - /plugins/odoo
+    - /integrations/plugins/odoo
+    - /integrations/odoo
 ---

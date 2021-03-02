@@ -13,5 +13,8 @@ title_short: "CS-Cart"
 layout: 'single'
 description_short: "Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin."
-aliases: [/integrations/cs-cart/]
+aliases: 
+    - /plugins/cs-cart
+    - /integrations/plugins/cs-cart
+    - /integrations/cs-cart
 ---

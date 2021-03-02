@@ -15,4 +15,8 @@ description: "Easily integrate MultiSafepay payment solutions into your VirtueMa
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md"
 aliases: [/integrations/virtuemart/]
+aliases:
+    - /plugins/virtuemart
+    - /integrations/plugins/virtuemart
+    - /integrations/virtuemart
 ---

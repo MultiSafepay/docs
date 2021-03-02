@@ -16,6 +16,9 @@ description_short: "Integrate MultiSafepay payment solutions into your WooCommer
 description: "Easily integrate MultiSafepay payment solutions into your WooCommerce webshop with our free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md"
-aliases: [/integrations/woocommerce/]
+aliases: 
+    - /plugins/woocommerce
+    - /integrations/plugins/woocommerce
+    - /integrations/woocommerce
 ---
 

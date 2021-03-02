@@ -15,4 +15,8 @@ description: "Easily integrate MultiSafepay payment solutions into your X-Cart w
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
 aliases: [/integrations/x-cart/]
+aliases:
+    - /plugins/x-cart
+    - /integrations/plugins/x-cart
+    - /integrations/x-cart
 ---

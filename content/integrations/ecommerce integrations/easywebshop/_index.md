@@ -11,4 +11,8 @@ description: "Easily integrate MultiSafepay payment solutions into your EasyWebs
 This app is managed by our partner EasyWebshop. For support, please contact [EasyWebshop](https://www.easywebshop.com/software/contact) directly. 
 If you would like to integrate the MultiSafepay plugin for EasyWebshop, please contact our Integration Team at <integration@multisafepay.com>"
 layout: 'single'
+aliases: 
+    - /hosted/easywebshop
+    - /integrations/hosted/easywebshop
+    - /integrations/easywebshop
 ---

@@ -14,5 +14,9 @@ changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.
 layout: 'single'
 manual: "."
 faq: "."
+aliases: 
+    - /plugins/craftcommerce
+    - /integrations/plugins/craftcommerce
+    - /integrations/craftcommerce
 
 ---

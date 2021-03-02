@@ -14,5 +14,8 @@ weight: 30
 title_short: "Magento 1"
 description_short: "Easily integrate MultiSafepay payment solutions into your Magento 1 webshop with the free and completely new MultiSafepay Magento 1 plugin."
 layout: 'single'
-aliases: [/integrations/magento1/]
+aliases: 
+    - /plugins/magento1
+    - /integrations/plugins/magento1
+    - /integrations/magento1
 ---

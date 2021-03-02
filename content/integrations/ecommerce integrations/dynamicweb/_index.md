@@ -11,4 +11,8 @@ description: "Easily integrate MultiSafepay payment solutions into your Dynamicw
 This app is managed by our partner Dynamicweb. For support, please contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us) directly. 
 If you would like to integrate the MultiSafepay plugin for Dynamicweb, please contact our Integration Team at <integration@multisafepay.com>"
 layout: 'single'
+aliases: 
+    - /hosted/dynamicweb
+    - /integrations/hosted/dynamicweb
+    - /integrations/dynamicweb
 ---

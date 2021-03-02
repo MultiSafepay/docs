@@ -16,7 +16,10 @@ Plugin version 3.0.0 available at MultiSafepay is tested on PHP 5.6. Do mind tha
 
 Contact your account manager for further information at <sales@multisafepay.com>"
 layout: 'single'
-aliases: [/integrations/oscommerce/]
+aliases: 
+    - /plugins/oscommerce
+    - /integrations/plugins/oscommerce
+    - /integrations/oscommerce
 ---
 
 

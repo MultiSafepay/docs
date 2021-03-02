@@ -11,5 +11,9 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Sh
 description: "Easily integrate MultiSafepay payment solutions into your Shoptrader webshop with the free plugin. 
 This plugin is managed by our partner Shoptrader. For support please contact [Shoptrader](https://support.shoptrader.nl) directly."
 layout: 'single'
-aliases: [/integrations/shoptrader/]
+aliases: 
+    - /integrations/shoptrader/
+    - /hosted/shoptrader
+    - /integrations/hosted/shoptrader
+    - /integrations/shoptrader]
 ---
