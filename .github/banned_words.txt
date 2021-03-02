@@ -4,14 +4,12 @@ API Key
 api KEY
 webshop admin
 back-office
-admin
 Working days
 Charge back
 login details
 creditcard
 e-commerce
 e-mail
-fulfil
 giftcard
 Google Play Store
 integration Team
@@ -21,7 +19,6 @@ Magento1
 Magento2
 webshop owner customer
 multicurrency
-multisafepay
 Multisafepay
 Merchant Control
 Merchant Back-office
@@ -31,7 +28,6 @@ Merchant Control Panel
 MultiSafepay Panel
 Partner dashboard
 Hosted Payment page
-extension
 plug-in
 second chance
 Second chance
@@ -41,7 +37,6 @@ url
 webstore
 web shop
 webwinkel
-shop
 online shop
 postpay
 post Pay
