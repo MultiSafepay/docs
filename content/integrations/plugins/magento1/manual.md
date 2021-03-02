@@ -11,8 +11,6 @@ aliases: [/integrations/magento1/manual/]
 
 {{< alert-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
 
-_MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
-
 ### Introduction
 
 This manual helps merchants process MultiSafepay payments as quickly as possible from a Magento 1 webshop. For some steps in this manual, assistance from your technical partner may be required.
@@ -27,6 +25,7 @@ In this manual we describe the SFTP upload method.
 
 {{% introduction_plugin "Magento 1" %}}
 
+_MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
 
 ### 1. Requirements
 - Magento Open Source 1.7 - 1.9

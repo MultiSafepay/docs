@@ -10,7 +10,6 @@ aliases:
 
 
 ### Introduction
-_MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
 
 We are proud to announce that we have been working on a brand new Magento 2 plugin. 
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
@@ -39,6 +38,8 @@ Some of the new features include:
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
+
+_MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>_
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
