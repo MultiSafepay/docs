@@ -6,7 +6,7 @@ aliases: [/integrations/woocommerce/changelog/]
 ---
 
 ## 4.1.6
-Release date: Feb 2nd, 2021
+Release date: Mar 2nd, 2021
 
 ### Added
 + PLGWOOS-574: Add locale support
