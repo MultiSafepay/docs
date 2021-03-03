@@ -15,4 +15,4 @@ Klarna is an online payment method that allows the customer to pay for online pu
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Pay After Delivery|Redirect|NL|AT, DE, BE, FI, NL, SE, NO, DK|Full/Partial|No|No|
+|Pay After Delivery|Redirect|AT, DE, BE, FI, NL, ES, IT|EUR|Full/Partial|No|No|
