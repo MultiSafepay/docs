@@ -5,6 +5,18 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.1.7
+Release date: Mar 3th, 2021
+
+### Changed
++ PLGWOOS-579: Remove warning message on validation, when enable CREDITCARD gateway
+
+### Fixed
++ PLGWOOS-584: Fix conflict with third party plugins related with Discovery exception 
++ PLGWOOS-585: Set MultiSafepay transaction as shipped or invoiced using order number instead use order id
+
+***
+
 ## 4.1.6
 Release date: Mar 2nd, 2021
 
