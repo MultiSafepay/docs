@@ -9,11 +9,11 @@ aliases: [/integrations/woocommerce/changelog/]
 Release date: Mar 3th, 2021
 
 ### Changed
-+ PLGWOOS-579: Remove warning message on validation, when enable CREDITCARD gateway
++ PLGWOOS-579: Remove warning message on validation, when enabling CREDITCARD gateway
 
 ### Fixed
 + PLGWOOS-584: Fix conflict with third party plugins related with Discovery exception 
-+ PLGWOOS-585: Set MultiSafepay transaction as shipped or invoiced using order number instead use order id
++ PLGWOOS-585: Set MultiSafepay transaction as shipped or invoiced using order number instead of order id
 
 ***
 
