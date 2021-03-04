@@ -9,7 +9,7 @@ weight: 90
 title_short: "Shoptrader"
 description_short: "Easily integrate MultiSafepay payment solutions into your Shoptrader webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your Shoptrader webshop with the free plugin. 
-This plugin is managed by our partner Shoptrader. For support please contact [Shoptrader](https://support.shoptrader.nl) directly."
+This plugin is managed by our partner Shoptrader."
 layout: 'single'
 aliases: 
     - /integrations/shoptrader/

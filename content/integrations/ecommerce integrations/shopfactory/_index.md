@@ -11,7 +11,7 @@ description_short: "Easily integrate MultiSafepay payment solutions into your Sh
 description: "Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin.
 
 
-This plugin is managed by our partner ShopFactory. For support please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly."
+This plugin is managed by our partner ShopFactory."
 layout: 'single'
 aliases: 
     - /integrations/shopfactory/

@@ -8,7 +8,7 @@ logo: "/logo/Integrations/Logic_4.svg"
 weight: 70
 title_short: "Logic4"
 description_short: "Easily integrate MultiSafepay payment solutions into your Logic4 webshop."
-description: "This plugin is managed by our partner. For support please contact [Logic4](https://www.logic4.nl/contact) directly."
+description: "This plugin is managed by our partner."
 layout: 'single'
 aliases: 
     - /integrations/logic4/

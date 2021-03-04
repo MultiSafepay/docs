@@ -27,7 +27,7 @@ The plugin is developed and supported by Mijnwebwinkel (MyOnlineStore). Informat
 
 ### 2. Congratulations
 
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any technical queries about the plugin, please contact Mijnwebwinkel directly using the [contact form](https://www.mijnwebwinkel.nl/contactformulier) on their website.
 
-
+A dedicated support section can also be found on the official website of [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support)
 

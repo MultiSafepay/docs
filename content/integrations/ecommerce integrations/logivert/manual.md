@@ -11,7 +11,9 @@ aliases:
 
 {{% introduction_hosted "LogiVert" %}}
 
-### Installation & Configuration
+### 1. Installation & Configuration
 [Download](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen) the LogiVert Manual to install the app.
 
+### 2. Congratulations
 
+You have installed and configured the app successfully. If you have any technical queries about the app, please contact [Logivert](https://www.logivert.com/nl/support/c-10) directly.

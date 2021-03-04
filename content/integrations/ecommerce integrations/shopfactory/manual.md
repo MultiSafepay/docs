@@ -14,6 +14,5 @@ aliases:
 
 ### Installation & Configuration
 
-The plugin is developed and maintained by ShopFactory.
-Information can be find at https://www.shopfactory.nl/contents/nl/d373_multisafepay-webwinkel.html
+The plugin is developed and maintained by ShopFactory. If you have any technical queries about the plugin, please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly.
 

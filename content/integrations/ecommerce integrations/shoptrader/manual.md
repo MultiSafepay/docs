@@ -14,6 +14,4 @@ aliases:
 
 ### Installation & Configuration
 
-The plugin is developed and maintained by Shoptrader.
-Information can be find at https://www.shoptrader.nl/add-ons-en-koppelingen/multisafepay
-
+The plugin is developed and maintained by Shoptrader. If you have any technical queries about the plugin, please contact Shoptrader directly at <info@shoptrader.nl>
