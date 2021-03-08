@@ -37,4 +37,10 @@ Use __PATCH__ with the required placeholders in the URL:
 * *your_customer_reference* refers to your internal unique customer reference
 * *your_token* refers to the unique token associated with the customer
 
+----------------
+__expiry_date__ | integer
+
+The updated value of the expiry date. E.g., December 2025 is formatted as `1225`
+
+----------------
 {{< /description >}}
