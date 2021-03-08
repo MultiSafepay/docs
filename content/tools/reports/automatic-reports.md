@@ -12,9 +12,9 @@ An Accountant Export containing all successful incoming and outgoing transaction
 ## Sending an Automated Accountant Export
 As a MultiSafepay client, you can benefit from three ways of accessing/receiving the automated accountant export:
 
-1. Via email
-2. Via SFTP - Pull request _(With this method you will receive access to an SFTP server from MultiSafepay)_
-3. Via SFTP - Push request _(With this method MultiSafepay would like to receive access to an SFTP server from you)_.
+1. Via SFTP - Pull request _(With this method you will receive access to an SFTP server from MultiSafepay)_
+2. Via SFTP - Push request _(With this method MultiSafepay would like to receive access to an SFTP server from you)_.
+3. Transaction API using the [/transactions endpoint](/tools/transactions-api-endpoint/) (_The associated costs per transaction are not included in the returned data_) 
 
 We support SFTP by username/password and username/SSH keys.
 
