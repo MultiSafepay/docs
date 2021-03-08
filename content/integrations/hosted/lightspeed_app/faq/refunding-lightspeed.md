@@ -22,7 +22,8 @@ For example:
 
 - A shopping has 3 items and 1.70€ shopping cost. If you refund 1 item and 0.40€ this will fail. 
 
-Refunding a item and a amount separately will not cause any issue.
+- Refunding an item and an amount separately will not cause any issue.
+
 
 #### Same refund done in short period
 We do not allow multiple refunds with the same amount, even if the refund contains different items. The current delay is 5 minutes.
