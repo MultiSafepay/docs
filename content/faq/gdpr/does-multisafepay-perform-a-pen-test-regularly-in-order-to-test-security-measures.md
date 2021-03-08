@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-Yes. In accordance with, among other things, our PCI DSS certification, we regularly perform checks on our security including the pen test (ethical hacking). A so-called pen test (or penetration test) is a test for evaluating the security of a system by simulating cyberattacks and trying to find vulnerabilities that can be removed.
+Yes. In accordance with, among other things, our [PCI DSS](/faq/general/glossary/#payment-card-industry-data-security-standard-pci-dss) certification, we regularly perform checks on our security including the pen test (ethical hacking). A so-called pen test (or penetration test) is a test for evaluating the security of a system by simulating cyberattacks and trying to find vulnerabilities that can be removed.

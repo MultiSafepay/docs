@@ -27,7 +27,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 * [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 * [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 * [Bank transfer](/payment-methods/banks/bank-transfer)
-* [Direct Debit](/payment-methods/banks/sepa-direct-debit/)
+* [Direct Debit](/payment-methods/banks/sepa-direct-debit)
 
 ## Altering the Second Chance configuration
 It is not possible to change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
@@ -36,7 +36,7 @@ The Second Chance email can be personalised through an email template. More info
 
 
 ### External plugins 
-When enabled, the Second Chance email can have a negative result if, for example, you use an external warehouse system. A simple [cron job](/faq/getting-started/glossary/#cron) may resolve a conflict between the Second Chance email and a warehouse system. However, it is not a stable solution in all situations. 
+When enabled, the Second Chance email can have a negative result if, for example, you use an external warehouse system. A simple [cron job](/faq/general/glossary/#cron) may resolve a conflict between the Second Chance email and a warehouse system. However, it is not a stable solution in all situations. 
 
 **Example:**        
 When an order is cancelled in the webshop, an order can still be paid by Second Chance. This can be done within 30 days or within _days_\__active_ / _second_\__active_. If an order is paid, we will reopen the order within the webshop. A warehouse system may already release the reservation on the order upon receiving a _cancelled_ status, or, in some cases, consider the _cancelled_ status to be permanent. As result, it may be, that the order is no longer available in stock. 

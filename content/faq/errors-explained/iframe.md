@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
  
-An iFrame, also known as an Inline Frame is HTML document embedded inside another HTML document on a [website](/faq/getting-started/glossary/#website) 
+An iFrame, also known as an Inline Frame is HTML document embedded inside another HTML document on a [website](/faq/general/glossary/#website) 
  
 Although MultiSafepay does not prohibit the use of an iFrame, it is not recommended.
 Due to privacy and security reasons it may occur that the selected payment method is non-responsive when using an iFrame.

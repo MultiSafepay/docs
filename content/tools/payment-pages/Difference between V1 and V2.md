@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-A lot of changes have been made with the release of our PayV2 payment page.  Although a merchant can still use the PayV1 payment page without problems, we strongly recommend to take the step and change over to our newest payment page version to make use of the MultiSafepay platform without limitations. In order to activate V2, please visit the following [page](https://docs.multisafepay.com/tools/payment-pages/what-is-payv2/) for step-by-step instructions.
+A lot of changes have been made with the release of our PayV2 payment page.  Although a merchant can still use the PayV1 payment page without problems, we strongly recommend to take the step and change over to our newest payment page version to make use of the MultiSafepay platform without limitations. In order to activate V2, please visit the following [page](https://docs.multisafepay.com/tools/payment-pages/what-is-payv2) for step-by-step instructions.
 
 ### Payment methods
 Some of the MultiSafepay payment methods and gift cards are only available on the V2 payment page. When new payment methods get added to the MultiSafepay platform, we cannot guarantee that these payment methods will work on the V1 version.

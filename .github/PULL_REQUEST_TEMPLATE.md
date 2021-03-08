@@ -15,3 +15,6 @@
 
 ### Images
 - Screenshot recomended sizes: Width: 820px - Height: auto
+
+### Aliases
+- When renaming or deleting a page, add an alias of the renamed or deleted page to the page users should be redirected to instead. This prevents external links to return 404 errors. Check the [Hugo Documentation](https://gohugo.io/content-management/urls/#aliases) for more information.

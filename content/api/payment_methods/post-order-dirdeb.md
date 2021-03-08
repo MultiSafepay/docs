@@ -120,7 +120,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay Control. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work/) {{< /alert-notice >}}
+{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay Control. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work) {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 
@@ -175,7 +175,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
