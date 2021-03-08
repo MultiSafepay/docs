@@ -30,7 +30,6 @@ Some [billing suite](https://docs.multisafepay.com/payment-methods/billing-suite
 For example:
 
 - A shopping has 3 items and 1.70€ shopping cost. If you refund 1 item and 0.40€ this will fail. 
-
 - Refunding an item and an amount separately will not cause any issue.
 
 
