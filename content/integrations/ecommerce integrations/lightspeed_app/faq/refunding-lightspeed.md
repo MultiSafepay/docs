@@ -9,14 +9,16 @@ aliases:
     - /integrations/lightspeed_app/faq/refunding-lightspeed
 ---
 
-Yes you can refund orders as well as credit notes. By default you can create a refund in your [MultiSafepay Control](https://merchant.multisafepay.com), however, refunding directly from your Lightspeed backend is possible.
+Yes, you can refund orders as well as credit notes. By default, you can create a refund in your [MultiSafepay Control](https://merchant.multisafepay.com), however, refunding directly from your Lightspeed backend is possible.
+
 
 To allow the possibility of refunding, you must firstly enable this setting:
 
 1. Log in to [lightspeed.multisafepay.com](https://lightspeed.multisafepay.com/settings)
 2. Navigate _Enable Refunds_ by scrolling down or click _Enable refunds_ on the sidebar.
 
-If any refund is placed using the lightspeed backend a short message will be placed in the notes section of an order. This message can contain a error if anything happens.
+If any refund is placed using the lightspeed backend a short message will be placed in the notes section of an order. This message can contain an error if anything happens.
+
 
 ## Known issue
 Currently there are some know issue related refunds. 
@@ -26,8 +28,11 @@ Currently there are some know issue related refunds.
 #### Refund of amount and item at same time is not allowed.
 Some [billing suite](https://docs.multisafepay.com/payment-methods/billing-suite/) payment methods, like AfterPay, do not allow a partial amount and a full item in a single request.
 For example:
-A shopping has 3 items and 1.70€ shopping cost. If you refund 1 item and 0.40€ this will fail. 
-Refunding a item and a amount separately will not cause any issue.
+
+- A shopping has 3 items and 1.70€ shopping cost. If you refund 1 item and 0.40€ this will fail. 
+
+- Refunding an item and an amount separately will not cause any issue.
+
 
 #### Same refund done in short period
 We do not allow multiple refunds with the same amount, even if the refund contains different items. The current delay is 5 minutes.
