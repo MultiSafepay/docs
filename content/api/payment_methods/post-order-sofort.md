@@ -208,7 +208,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 ----------------
 
-Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking/) on our documentation page.
+Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
 
 
 ### Direct - SOFORT

@@ -6,7 +6,7 @@ read_more: "."
 ---
 MultiSafepay does not only believe in preventing fraud, but actively tracks and reports online criminals by monitoring payments. The risk management systems are customized and designed to accommodate clients with different needs. Our fraud desk actively works to reduce charge back rates and analyzes high risk transactions.
 
-We offer the highest industry protection as per PCI DSS standards, HTTPS, data encryption and 3D Secure technology. MultiSafepay processes and acquires for Visa and Mastercard, and we are therefore required to comply with the card schemes operating regulations.
+We offer the highest industry protection as per [PCI DSS](/faq/general/glossary/#payment-card-industry-data-security-standard-pci-dss) standards, HTTPS, data encryption and 3D Secure technology. MultiSafepay processes and acquires for Visa and Mastercard, and we are therefore required to comply with the card schemes operating regulations.
 
 
 

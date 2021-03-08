@@ -82,7 +82,7 @@ POST - /orders
 
 Always use the correct payment gateway for each payment method used. Visa, Mastercard or American Express should be sent as gateway within the JSON request. More information about this can be found in the standard integration manual on our [API Documentation page](/api/#recurring-payment).
 
-### Processing recurring payments from another Payment service provider
+### Processing recurring payments from another payment service provider
 
 If you process recurring payments already with another payment service provider, you can not use recurring payments for these customers. However, you can make use of a 'Direct request' [Direct Debit](https://docs.multisafepay.com/api/#direct-sepa-direct-debit) instead with the retrieved IBAN and account holder name.
 

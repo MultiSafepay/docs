@@ -14,3 +14,5 @@ The following _TXT record_ can be added to the [DNS](https://nl.wikipedia.org/wi
 * v = spf1 ip4: 213.189.0.0/23 mx
 
 * v = spf1 ip4: 185.99.128.0/22 mx
+
+Please note that the name of the file should be the name of your website.

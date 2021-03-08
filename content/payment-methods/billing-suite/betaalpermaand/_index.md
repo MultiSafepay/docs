@@ -9,4 +9,5 @@ short_description: 'Allows customers to pay for online purchases as a one-off po
 aliases:
     - /support-tab/magento2/payment-methods/betaalplan
     - /payment-methods/billing-suite/betaalplan
+    - /payment-methods/betaalplan/
 ---

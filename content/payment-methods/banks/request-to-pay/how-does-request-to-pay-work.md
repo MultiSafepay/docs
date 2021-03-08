@@ -3,6 +3,7 @@ title: "Request to Pay, How does it work?"
 weight: 21
 meta_title: "Request to Pay, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/payment-methods/banks/direct-bank-transfer/#how-does-it-work]
 ---
 
 ## How does it work?

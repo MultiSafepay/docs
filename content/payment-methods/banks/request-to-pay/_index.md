@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/RTP.svg'
 short_description: 'Allowing merchants to collect funds from end consumers in an automated, integrated and secure way.'
 aliases:
     - /support-tab/magento2/payment-methods/request-to-pay
+    - /payment-methods/banks/direct-bank-transfer/
 ---

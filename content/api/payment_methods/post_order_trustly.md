@@ -93,7 +93,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -107,6 +107,6 @@ Contains the personal information of the customer.
 
 ----------------
 
-Read more about [Trustly](/payment-methods/banks/trustly/) on our documentation page.
+Read more about [Trustly](/payment-methods/banks/trustly) on our documentation page.
 
 {{< /description >}}

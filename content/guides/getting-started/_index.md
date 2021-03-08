@@ -24,7 +24,7 @@ To create a test account, follow these steps:
 
 1. Fill out the signup form to [create a free test account](https://testmerchant.multisafepay.com/signup)
 2. Open the email containing your **security code**
-3. [Log in](https://testmerchant.multisafepay.com/) using the **security code** provided in the email
+3. [Log in](https://testmerchant.multisafepay.com) using the **security code** provided in the email
 
 With a test account:
 
@@ -37,17 +37,17 @@ _If you run into issues during this process, please reach out to our [support te
 {{< br >}}
 
 ## Step 2: Set up your MultiSafepay Control
-After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your API key, monitor transactions, configure payouts, generate reports, and more. 
+After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your [API key](/faq/general/glossary/#api-key), monitor transactions, configure payouts, generate reports, and more. 
 
 Before you can start building your integration, add your website to your MultiSafepay Control to generate an API key. To do this, follow these steps:
 
-1. [Log in](https://testmerchant.multisafepay.com/) to your MultiSafepay Control
-2. Navigate to *Settings* --> *Website settings*
+1. [Log in](https://testmerchant.multisafepay.com) to your MultiSafepay Control
+2. Navigate to *Settings* → *Website settings*
 3. Click *Website wizard* and add your domain
 
 Your test account is now linked to your website. Navigate to the [website settings](https://testmerchant.multisafepay.com/sites), click your website, and copy the API key to start building your integration.
 
-[**Read more about setting up your MultiSafepay Control**](/tools/multisafepay-control/add-website/)
+[**Read more about setting up your MultiSafepay Control**](/tools/multisafepay-control/add-website)
 
 {{< br >}}
 
@@ -56,13 +56,12 @@ With an API key, you can start building and testing your integration. We offer m
 {{< br >}}
 
 ### Ready-made solutions
-These solutions are made by our in-house developers. They include plugins for many leading ecommerce platforms like Magento, WooCommerce, Shopify, and Lightspeed. These solutions require fewer development resources and allow you to start testing your integration today. 
+These solutions are made by our in-house developers. They include plugins, apps and core integrations for many leading ecommerce platforms like Magento, WooCommerce, Shopify, and Lightspeed. These solutions require fewer development resources and allow you to start testing your integration today. 
 
 {{< br >}}
 
 {{< buttons >}}
-    {{< button href="/integrations/plugins/" header="Plugins" text="View our plugins for ecommerce platforms with self-hosting" img="/svgs/Integrations.svg" alt="Plugins icon">}}
-    {{< button href="/integrations/hosted/" header="Hosted Plugins" text="View our plugins for SaaS platforms, where the platform provides hosting" img="/svgs/Hosted_plugins.svg" alt="Hosted Plugins icon" >}}
+    {{< button href="/integrations/ecommerce-integrations/" header="Ecommerce integrations" text="View our plugins, apps and core integrations for ecommerce platforms" img="/svgs/Integrations.svg" alt="Ecommerce integrations icon">}}
 {{< /buttons >}}
 {{< br >}}
 
@@ -72,15 +71,15 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 {{< br >}}
 {{< buttons >}}
     {{< button href="https://docs.multisafepay.com/api/" header="API" text="Our API reference describes the usage of all available endpoints, giving you full control when building your own ecommerce website" img="/svgs/API.svg" alt="API icon">}}
-    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Wrappers & SDK's facilitate development and testing for web and mobile applications" img="/svgs/Hosted_plugins.svg" alt="Hosted Plugins icon" >}}
+    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Wrappers & SDK's facilitate development and testing for web and mobile applications" img="/svgs/Wrappers.svg" alt="Wrappers & SDKs" >}}
 {{< /buttons >}}
 
 {{< br >}}
 
 ### Other integration methods
-* [**Cash register software**](/integrations/cash-register-software/): simplify the order process for restaurants, cafes, hotels, and establishments alike
-* [**Reservation Management**](/integrations/reservation-management/): allow your customers to make reservations and pay online
-* [**Credit & Subscription Management**](/integrations/credit-and-subscription-management/): manage your subscriptions and collect your subscription fees
+* [**Cash register software**](/integrations/cash-register-software): simplify the order process for restaurants, cafes, hotels, and establishments alike
+* [**Reservation Management**](/integrations/reservation-management): allow your customers to make reservations and pay online
+* [**Credit & Subscription Management**](/integrations/credit-and-subscription-management): manage your subscriptions and collect your subscription fees
 
 {{< br >}}
 
@@ -94,13 +93,13 @@ Our [integration specialists](mailto:integration@multisafepay.com) are happy to 
 ## Step 4: Go live!
 When you are ready, you [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
 
-MultiSafepay is a [payment service provider](/faq/getting-started/glossary/#payment-service-provider-psp) and [acquirer](/faq/getting-started/glossary/#acquirer). Therefore, we are legally required to perform extra checks, which require you to submit multiple forms. You can [prepare these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
+MultiSafepay is a [payment service provider](/faq/general/glossary/#payment-service-provider-psp) and [acquirer](/faq/general/glossary/#acquirer). Therefore, we are legally required to perform extra checks, which require you to submit multiple forms. You can [prepare these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
 
 *If you require assistance creating a live account, please reach out to our [sales team](mailto:sales@multisafepay.com)*
 
 {{< br >}}
 
 ## Step 5: Next steps
-Now that you're successfully processing payments, it's time to get the most out of our products. Start using our [Tools](https://docs.multisafepay.com/tools/) to boost conversion, improve security, gain insights, and more.  
+Now that you're successfully processing payments, it's time to get the most out of our products. Start using our [Tools](https://docs.multisafepay.com/tools) to boost conversion, improve security, gain insights, and more.  
 
 {{< br >}}

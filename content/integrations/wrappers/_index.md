@@ -7,4 +7,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: '/svgs/Wrappers.svg'
 short_description: 'In house developed wrappers for some of the most popular programming languages.'
 weight: 40
+aliases: 
+    - /integrations/sdk/
+    - /faq/general/can-i-use-multisafepay-with-odoo/
 ---

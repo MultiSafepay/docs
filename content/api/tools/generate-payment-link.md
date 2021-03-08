@@ -51,7 +51,7 @@ For several scenarios, it can be useful for our merchants to generate a payment 
 
 ### Second Chance
 
-[Second Chance](https://docs.multisafepay.com/tools/second-chance/how-does-it-work/) is an email reminder that points out to your customers of their attempted (and incomplete) payment(s) and encourages them to finalize the payment(s).
+[Second Chance](https://docs.multisafepay.com/tools/second-chance/how-does-it-work) is an email reminder that points out to your customers of their attempted (and incomplete) payment(s) and encourages them to finalize the payment(s).
 
 As per GDPR requirements, MultiSafepay does not submit emails by default. If you enable this option, please ensure there is a documented consent from the recipient of the payment link.
 
@@ -62,7 +62,7 @@ As per GDPR requirements, MultiSafepay does not submit emails by default. If you
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in the MultiSafepay Control under _Tools_ -> _Payment link generator_
+Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in the MultiSafepay Control under _Tools_ → _Payment link generator_
 
 
 ----------------
