@@ -158,7 +158,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Klarna
 ### Redirect - Klarna
 
-__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 
 Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
@@ -222,6 +222,8 @@ __shopping_cart__ | object
 
 Contains all order rules and applicable tax classes.
 
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 __unit_price__ | float
 
 The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted. 
@@ -267,7 +269,7 @@ Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documenta
 
 ### Redirect - Klarna Payments
 
-__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 
 Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
@@ -329,6 +331,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 __shopping_cart__ | object
 
 Contains all order rules and applicable tax classes.
+
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 __unit_price__ | float
 

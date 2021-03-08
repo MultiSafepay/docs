@@ -257,7 +257,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## E-invoicing
 ### Direct - E-invoicing
 
-__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 Creates a E-invocing [Direct](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
@@ -318,6 +317,8 @@ __shopping_cart__ | object
 
 Contains all order rules and applicable tax classes.
 
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 __unit_price__ | float
 
 The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.   
@@ -369,8 +370,6 @@ Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ 
 Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing) on our documentation page.
 
 ### Redirect - E-invoicing
-
-__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 Creates an E-invoicing [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
 
@@ -430,6 +429,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 __shopping_cart__ | object
 
 Contains all order rules and applicable tax classes.
+
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 __unit_price__ | float
 

@@ -206,7 +206,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Pay After Delivery
 ### Redirect - Pay After Delivery
 
-__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 
 Creates a Pay After Delivery [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
@@ -271,6 +271,8 @@ __shopping_cart__ | object
 
 Contains all purchased items including tax class.
 
+__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 __unit_price__ | float
 
 The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted. 
@@ -324,7 +326,7 @@ Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-de
 
 ### Direct - Pay After Delivery
 
-__Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+
 
 Creates a Pay After Delivery [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
@@ -389,6 +391,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 __shopping_cart__ | object
 
 Contains all purchased items including tax class.
+
+__Please note:__ In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 __unit_price__ | float
 
