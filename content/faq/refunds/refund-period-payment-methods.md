@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-The maximum _refund period_ differs per payment method. The refund period is defined by the number of days by which you can refund a customer for a single order. In the table below, the refund period per payment method is defined:
+The maximum _refund period_ differs per payment method. The refund period is defined by the maximum number of days by which you can refund a customer for a single order. In the table below, the refund period per payment method is defined:
 
 | Payment method   | Refund period  |
 | --------- | ------------------------ |
