@@ -18,7 +18,9 @@ Currently there are some know issue related refunds.
 #### Refund of amount and item at same time is not allowed.
 Some [billing suite](https://docs.multisafepay.com/payment-methods/billing-suite/) payment methods, like AfterPay, do not allow a partial amount and a full item in a single request.
 For example:
-A shopping has 3 items and 1.70€ shopping cost. If you refund 1 item and 0.40€ this will fail. 
+
+- A shopping has 3 items and 1.70€ shopping cost. If you refund 1 item and 0.40€ this will fail. 
+
 Refunding a item and a amount separately will not cause any issue.
 
 #### Same refund done in short period
