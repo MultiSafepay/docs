@@ -100,6 +100,6 @@ The _Shipped_ status is therefore important for invoicing the customer and the p
 
 ## Fees
 
-Unlike other payment methods, the fee is not charged directly after an order is placed. In the transaction details you will always find the merchant fee to be 0,00.
+Unlike other payment methods, the fee is not charged directly after an order is placed. In the transaction details, you will always find the merchant fee to be 0,00.
 
 MultiSafepay will charge your account when the actual payment is settled. There will be one or more transactions created in your transaction overview.
