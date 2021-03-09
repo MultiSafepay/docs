@@ -5,8 +5,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: 
     - /hosted/myshop/manual
     - /integrations/hosted/myshop/manual
-    - /integrations/myshop/w/manual
+    - /integrations/myshop/manual
 ---
+
 ### Introduction
 
 {{% introduction_hosted "myShop" %}}
