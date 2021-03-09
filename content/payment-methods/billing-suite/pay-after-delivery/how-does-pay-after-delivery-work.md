@@ -4,7 +4,9 @@ weight: 21
 meta_title: "Pay After Delivery, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/pay-after-delivery/how-does-pay-after-delivery-work/]
 ---
+
 ## How it works
 Pay After Delivery is a payment method developed and managed by our own MultiSafepay developers. Therefore, the payout of the transaction is guaranteed by MultiSafepay.
 
@@ -104,7 +106,7 @@ Some rules may apply to certain payment methods. For Pay After Delivery, the fol
 ## The 'Shipped' status
 When receiving an order paid for with Pay After Delivery, it is important to keep a number of things in mind.
 
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our plugins.
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our [ecommerce integrations](/integrations/ecommerce-integrations).
 
  You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
 

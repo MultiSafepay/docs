@@ -8,4 +8,6 @@ logo: '/logo/Payment_methods/ING_Homepay.svg'
 short_description: 'Allow Belgian customers to pay for purchases safely through the ING banking environment.'
 aliases:
     - /support-tab/magento2/payment-methods/ing-home-pay
+    - /payment-methods/ing-home-pay/
+
 ---

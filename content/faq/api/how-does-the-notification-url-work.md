@@ -73,7 +73,7 @@ The calculation of this signature/hash:
 2. Explode/split the resulting string using the colon as separator.
 3. The first part is the timestamp, the second part is sha512hex of the payload.
 4. Concatenate timestamp, colon, and original payload.
-5. Calculate hmac/sha512 of step 4 using your API Key as the HMAC key.
+5. Calculate hmac/sha512 of step 4 using your [API key](/faq/general/glossary/#api-key) as the HMAC key.
 6. Only allow the request if this hash matches the sha512hex from step 3 and the timestamp is recent enough.
 
 ## GET vs POST notification

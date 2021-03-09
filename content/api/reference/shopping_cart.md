@@ -37,6 +37,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 "options": [],
 ```
 
+```shell 
+"value": "",
+```
+
+```shell 
+"unit": "",
+```
+
 {{< /code-block >}}
 
 {{< description >}}
@@ -86,5 +94,19 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
 | options                           | string   |  An array of objects including id, set_id, value, price, type and price_type.                                       |
 |                                    |          |                                                                                      | 
-                                                                                                
+
+### value
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| value                           | integer   |  The weight of an item corresponding to the [unit](/api/#unit). _For example unit: KG, value: 12._ Thus the weight of the item is 12 kilograms.                                       |
+|                                    |          |                                                                                      |
+
+
+### unit
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| unit                           | string   |  The unit used to measure the weight of the item e.g. KG                                       |
+|                                    |          |                                                                                      |
+
+
 {{% /description %}}

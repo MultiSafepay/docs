@@ -19,7 +19,7 @@ In order to be able to import an accountant export from your MultiSafepay Contro
 
 ## MultiSafepay Accountant Export
 
-1. Navigate to _Reports_ --> _Accountant Export_ in your MultiSafepay Control
+1. Navigate to _Reports_ → _Accountant Export_ in your MultiSafepay Control
 2. Select a range of dates from _Data Selection_
 3. Select 'MT940' from the field _Report Type_
 4. Select Twinfield from _Special Format_
