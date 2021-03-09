@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 aliases: [/payment-methods/klarna/what-is-klarna/]
 ---
-# What it is
+## What it is
 Klarna is an online payment method that allows the customer to pay for online purchases after receiving them. This payment method allows customers to pay for online purchases after receiving them. A special feature of post-payment is that customers are only charged for the items they keep from an order. 
 
 >_MultiSafepay only offers Klarna for Austria, Germany, Belgium, Finland and the Netherlands_.

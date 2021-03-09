@@ -11,7 +11,7 @@ aliases: [/payment-methods/bancontact/refund-bancontact/]
 
 Please follow these steps to refund a Bancontact transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction → transaction overview_
 3. Find the transaction through search
 4. Open transaction

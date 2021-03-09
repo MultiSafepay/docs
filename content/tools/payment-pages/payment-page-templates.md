@@ -13,7 +13,7 @@ MultiSafepay's payment pages provide the quickest, easiest and most secure way t
 ## Using the editor
 In your [MultiSafepay Control](https://merchant.multisafepay.com), use the editor to easily change the look and feel of the payment page template. To adjust the template, please follow the following steps:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Navigate to _Settings / Website Settings_ and select _Website_
 3. Click on the _Template_ button.
 
