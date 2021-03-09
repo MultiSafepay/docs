@@ -56,13 +56,12 @@ With an API key, you can start building and testing your integration. We offer m
 {{< br >}}
 
 ### Ready-made solutions
-These solutions are made by our in-house developers. They include plugins for many leading ecommerce platforms like Magento, WooCommerce, Shopify, and Lightspeed. These solutions require fewer development resources and allow you to start testing your integration today. 
+These solutions are made by our in-house developers. They include plugins, apps and core integrations for many leading ecommerce platforms like Magento, WooCommerce, Shopify, and Lightspeed. These solutions require fewer development resources and allow you to start testing your integration today. 
 
 {{< br >}}
 
 {{< buttons >}}
-    {{< button href="/integrations/plugins/" header="Plugins" text="View our plugins for ecommerce platforms with self-hosting" img="/svgs/Integrations.svg" alt="Plugins icon">}}
-    {{< button href="/integrations/hosted/" header="Hosted Plugins" text="View our plugins for SaaS platforms, where the platform provides hosting" img="/svgs/Hosted_plugins.svg" alt="Hosted Plugins icon" >}}
+    {{< button href="/integrations/ecommerce-integrations/" header="Ecommerce integrations" text="View our plugins, apps and core integrations for ecommerce platforms" img="/svgs/Integrations.svg" alt="Ecommerce integrations icon">}}
 {{< /buttons >}}
 {{< br >}}
 
@@ -72,7 +71,7 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 {{< br >}}
 {{< buttons >}}
     {{< button href="https://docs.multisafepay.com/api/" header="API" text="Our API reference describes the usage of all available endpoints, giving you full control when building your own ecommerce website" img="/svgs/API.svg" alt="API icon">}}
-    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Wrappers & SDK's facilitate development and testing for web and mobile applications" img="/svgs/Hosted_plugins.svg" alt="Hosted Plugins icon" >}}
+    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Wrappers & SDK's facilitate development and testing for web and mobile applications" img="/svgs/Wrappers.svg" alt="Wrappers & SDKs" >}}
 {{< /buttons >}}
 
 {{< br >}}

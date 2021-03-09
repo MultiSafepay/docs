@@ -44,7 +44,7 @@ Follow the following steps to locate your website details:
     * Secure Code
     
     
-3. Most plugins supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID 
+3. Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID 
     * _Your Account ID is shown in your dashboard in the top right corner behind your company name_ <br>
     
 4. Enter the requested information in the backend of your webshop
