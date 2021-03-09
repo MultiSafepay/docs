@@ -25,8 +25,8 @@ Please note that only a user with administrator rights can perform these steps:
 ### Step 2: The user's steps
 The first time a user logs into MultiSafepay Control after 2FA is enabled, they are asked to configure 2FA. This is done by connecting their MultiSafepay account to their mobile device, following these steps:
 
-1. Log into [MultiSafepay Control](https://merchant.multisafepay.com/) on your laptop or PC. An additional screen asking for a 6-digit token should appear
-2. If you have not yet done so, [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app/) the MultiSafepay Control app 
+1. Log into [MultiSafepay Control](https://merchant.multisafepay.com) on your laptop or PC. An additional screen asking for a 6-digit token should appear
+2. If you have not yet done so, [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app) the MultiSafepay Control app 
 3. Log into the MultiSafepay Control app on your mobile device
 4. Press *More* in the bottom-right corner
 5. Press *Authenticator*

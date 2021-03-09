@@ -5,7 +5,7 @@ meta_title: "in3, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
-# How it works
+## How it works
 
 A single purchase is spread out over three payments which can be fulfilled in the following sequence:
 
@@ -15,7 +15,7 @@ A single purchase is spread out over three payments which can be fulfilled in th
 
 All payments are handled by in3 and the payments are guaranteed for the merchant if the consumer completes the initial payment successfully at the time of placing the order. 
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -44,7 +44,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for in3 can be found [here](/api/#in3)
 
-## Product rules
+### Product rules
 
 Some rules may apply to certain payment methods. For in3, the following rules apply:
 

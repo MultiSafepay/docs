@@ -2,6 +2,7 @@
 weight: 311
 meta_title: "API - Create a Request to Pay transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/api/#direct-bank-transfer]
 ---
 {{< code-block >}}
 

@@ -8,14 +8,14 @@ read_more: '.'
 
 
 ## Adding a webshop
-**Adding a webshop** to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an API key will be automatically generated. This will establish the connection between the two platforms.  
+**Adding a webshop** to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an [API key](/faq/general/glossary/#api-key) will be automatically generated. This will establish the connection between the two platforms.  
 
-1. Login into your MultiSafepay Control
+1. Log in to your MultiSafepay Control
 
-_A live Account ID starts with a 10_ -> [Live MultiSafepay Control](https://merchant.multisafepay.com)  
-_A test Account ID starts with a 9_-> [Test MultiSafepay Control](https://testmerchant.multisafepay.com)
+_A live Account ID starts with a 10_ → [Live MultiSafepay Control](https://merchant.multisafepay.com)  
+_A test Account ID starts with a 9_→ [Test MultiSafepay Control](https://testmerchant.multisafepay.com)
 
-2. Navigate to _Settings -> Website settings_
+2. Navigate to _Settings → Website settings_
 
 3. Add a new webshop by selecting _Quick add website_
 
@@ -35,7 +35,7 @@ Adding a webshop will automatically supply you with the details needed to make a
 
 Follow the following steps to locate your website details:
 
-1. Navigate to _Settings -> Website settings_
+1. Navigate to _Settings → Website settings_
 
 2. Open the webshop by clicking on it. The following information will be provided to be able to proceed with establishing the connection:
 
@@ -44,7 +44,7 @@ Follow the following steps to locate your website details:
     * Secure Code
     
     
-3. Most plugins supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID 
+3. Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID 
     * _Your Account ID is shown in your dashboard in the top right corner behind your company name_ <br>
     
 4. Enter the requested information in the backend of your webshop

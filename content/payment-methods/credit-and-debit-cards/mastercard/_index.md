@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/Mastercard.svg'
 short_description: 'Accept Mastercard credit card payments from consumers worldwide.'
 aliases:
     - /support-tab/magento2/payment-methods/mastercard
+    - /payment-methods/mastercard/
 ---
