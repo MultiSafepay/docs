@@ -125,7 +125,7 @@ const preOrder = {
 
 ### 3. Place a Test order
 
-After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
+After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction. The endpoint: __testapi.multisafepay.com/v1/connect/payments/create__ can be used to submit the test order.<br>
 
 On the frontend you can retrieve the encrypted credit card data through the following code:
 
@@ -158,8 +158,11 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
 ### 4. Push to Live
+When you are ready to switch to the live environment, you can use the following endpoint:
 
-After testing, you may proceed to change the test files to the live files listed below:
+__api.multisafepay.com/v1/connect/payments/create__
+
+The [test files](/credit-card-component/#setting-up-your-test-environment) must also be replaced with the live files listed below:
 
 **components.js**
 ```
@@ -236,3 +239,6 @@ Apart from having the onError handler, you can also actively request the instant
 ```
 PaymentComponent.getErrors()
 ```
+### Contact
+
+If you have any questions regarding the process or face any issues, feel free to contact our Integration Team at <integration@multisafepay.com>
