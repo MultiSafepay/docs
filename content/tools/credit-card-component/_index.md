@@ -239,3 +239,6 @@ Apart from having the onError handler, you can also actively request the instant
 ```
 PaymentComponent.getErrors()
 ```
+### Contact
+
+If you have any questions regarding the process or face any issues, feel free to contact our Integration Team at <integration@multisafepay.com>
