@@ -5,6 +5,30 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.1.8
+Release date: Mar 5th, 2021
+
+### Changed
++ PLGWOOS-593: Register PSP ID in WooCommerce order using order complete payment method 
++ PLGWOOS-593: Change notification method on completed status to use $order->complete_payment()
+
+### Fixed
++ PLGWOOS-594: Fix Credit Card payment method form, to show description if customer is not logged in
+
+***
+
+## 4.1.7
+Release date: Mar 3th, 2021
+
+### Changed
++ PLGWOOS-579: Remove warning message on validation, when enabling CREDITCARD gateway
+
+### Fixed
++ PLGWOOS-584: Fix conflict with third party plugins related with Discovery exception 
++ PLGWOOS-585: Set MultiSafepay transaction as shipped or invoiced using order number instead of order id
+
+***
+
 ## 4.1.6
 Release date: Mar 2nd, 2021
 
