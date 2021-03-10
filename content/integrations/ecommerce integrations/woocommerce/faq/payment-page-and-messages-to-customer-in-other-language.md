@@ -13,7 +13,7 @@ However, Wordpress - WooCommerce only delivers us the language of the shop itsel
 
 The MultiSafepay plugin for WooCommerce defines the language of the payment page and the language of the emails taking the locale code from get_locale(), which is a function built in Wordpress.
 
-If you want to change this behavior it is possible implementing the the filter hook “multisafepay_customer_locale” built in our plugin.
+If you want to change this behavior it is possible using the filter hook “multisafepay_customer_locale” built in our plugin.
 
 Ask your developer to read:
 
