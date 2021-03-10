@@ -186,7 +186,7 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.
+Contains an array of all purchased items.
 
 __unit_price__ | float
 
