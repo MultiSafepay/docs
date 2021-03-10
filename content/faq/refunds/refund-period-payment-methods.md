@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-The maximum _refund period_ differs per payment method. The refund period is defined by the maximum number of days by which you can refund a customer for a single order. In the table below, the refund period per payment method is defined:
+The _refund period_ differs per payment method. The refund period is defined by the maximum number of days by which you can refund a customer for a single order. In the table below, the refund period per payment method is defined:
 
 | Payment method   | Refund period  |
 | --------- | ------------------------ |
@@ -38,3 +38,5 @@ The maximum _refund period_ differs per payment method. The refund period is def
 | [SOFORT Banking](/payment-methods/banks/sofort-banking/) | 730 days |
 | [Trustly](/payment-methods/banks/trustly/) | 365 days |
 | [Visa](/payment-methods/credit-and-debit-cards/visa/) | 180 days |
+
+If you have any questions or encounter problems when issuing refunds from your MultiSafepay Control, please contact the Integration Team at <integration@multisafepay.com>
