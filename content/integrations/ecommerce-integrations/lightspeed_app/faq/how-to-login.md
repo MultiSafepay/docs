@@ -18,23 +18,24 @@ In early 2021, we have changed the login method for the MultiSafepay Payment app
 1. Log in to the /admin section of your Lightspeed store
 
 2. Navigate to _Apps_ in the sidebar 
-{{< screen src="/integrations/ecommerce integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
+
+{{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
 3. Click on _Purchased apps_ / _Aangeschafte apps_
-{{< screen src="/integrations/ecommerce integrations/lightspeed_app/faq/img/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
 
 4. Go to apps in the side bar 
-{{< screen src="/integrations/ecommerce integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
 5. Click on the name of our app: _MultiSafepay Payments_
-{{< screen src="/integrations/ecommerce integrations/lightspeed_app/faq/img/my-apps-click-name.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/my-apps-click-name.png" align="center" class="small-img desktop-radius" >}}
 
 _**Alternatively**: paste "/admin/store/apps/1517" after the base URL of your store.  
 This should bring you to the store page immediately._
 
 6. On the store page click on _Go to App_ / _Ga naar App_ 
 
-{{< screen src="/integrations/ecommerce integrations/lightspeed_app/faq/img/app-page.png" align="center" class="small-img desktop-radius">}}
+{{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-page.png" align="center" class="small-img desktop-radius">}}
 
 {{< br >}}
 

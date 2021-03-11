@@ -17,6 +17,11 @@ It brings code improvements, unit/integration testing and it is built on top of 
 
 **Please uninstall the old plugin first, before installing the new one.**
 
+{{< blue-notice >}}
+We have recently added support for Magento Instant Purchase and Magento Vault.  
+To learn more about these features, [read our blog](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase)
+{{< /blue-notice >}}
+
 {{< alert-notice >}}
 The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](/integrations/ecommerce-integrations/magento2/old) 
 {{< /alert-notice >}}
