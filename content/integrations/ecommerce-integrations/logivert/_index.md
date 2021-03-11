@@ -15,4 +15,3 @@ aliases:
     - /integrations/hosted/logivert
     - /integrations/logivert
 ---
-

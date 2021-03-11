@@ -11,14 +11,12 @@ aliases:
 
 Yes, you can refund orders as well as credit notes. By default, you can create a refund in your [MultiSafepay Control](https://merchant.multisafepay.com), however, refunding directly from your Lightspeed backend is possible.
 
-
 To allow the possibility of refunding, you must firstly enable this setting:
 
 1. Log in to [lightspeed.multisafepay.com](https://lightspeed.multisafepay.com/settings)
 2. Navigate _Enable Refunds_ by scrolling down or click _Enable refunds_ on the sidebar.
 
 If any refund is placed using the lightspeed backend a short message will be placed in the notes section of an order. This message can contain an error if anything happens.
-
 
 ## Known issue
 Currently there are some know issue related refunds. 

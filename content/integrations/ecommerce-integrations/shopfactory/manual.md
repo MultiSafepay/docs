@@ -15,4 +15,3 @@ aliases:
 ### Installation & Configuration
 
 The plugin is developed and maintained by ShopFactory. If you have any technical queries about the plugin, please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly.
-

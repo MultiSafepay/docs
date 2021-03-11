@@ -9,8 +9,6 @@ weight: 10
 title_short: "ShopFactory"
 description_short: "Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your ShopFactory webshop with the free plugin.
-
-
 This plugin is managed by our partner ShopFactory."
 layout: 'single'
 aliases: 

@@ -22,4 +22,5 @@ Your Account ID is shown in the dashboard of your MultiSafepay Control in the to
 6. Save the page.
 
 ### 2. Congratulations
+
 You have installed and configured the plugin successfully. If you have any technical queries about the app, please contact myShop directly at <support@myshop.com>

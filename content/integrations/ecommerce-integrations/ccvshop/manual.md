@@ -23,4 +23,3 @@ Your Account ID is shown in the dashboard of your MultiSafepay Control in the to
 
 ### 2. Congratulations
 You have installed and configured the plugin successfully. If you have any technical queries about the plugin, please contact CCV Shop directly at <support@ccvshop.nl>
-
