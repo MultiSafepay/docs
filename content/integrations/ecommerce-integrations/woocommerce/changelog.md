@@ -5,6 +5,20 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.2.1
+Release date: Mar 11th, 2021
+
+### Fixed
++ PLGWOOS-613: Fix error related with multiple forwarded IPs by updating the PHP-SDK to 5.0.1
+
+### Added
++ PLGWOOS-398: Add support to change the data in the OrderRequest using Wordpress filters
+
+### Changed
++ PLGWOOS-614: Avoid changing order status if transaction is partially refunded
+
+***
+
 ## 4.2.0
 Release date: Mar 9th, 2021
 
