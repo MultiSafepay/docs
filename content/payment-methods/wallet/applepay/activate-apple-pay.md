@@ -10,7 +10,7 @@ read_more: '.'
 
 Apple Pay is a standard payment method in the [MultiSafepay Contol](https://merchant.multisafepay.com/)<br>
 
-In order for Apple Pay to be activated, you must first enable credit cards in your MultiSafepay Control. You can submit the application to enable credit cards as a payment method through our Risk Team at <risk@multisafepay.com> __Please also mention alongside your application that you would like for Apple Pay to be enabled.__
+In order for Apple Pay to be activated, you must first enable the credit card payment methods in your MultiSafepay Control. Next, submit the application to enable credit cards as a payment method through our Risk Team at <risk@multisafepay.com> __Please also mention alongside your application that you would like for Apple Pay to be enabled.__
 
 To activate credit cards as payment methods for your webshop, we would like to receive the following information from you:
 
