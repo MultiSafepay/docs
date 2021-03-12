@@ -14,6 +14,8 @@ Payment methods may still be visible in the checkout once you have terminated yo
 4. Log in to the MultiSafepay App
 5. Scroll down until you see _Disable all Payment methods_
 6. Click on _Disable all Payment methods_
+7. Navigate back to _Apps_ → _Purchased Apps_ → _MultiSafepay Payments_ in Lightspeed
+8. Click on _Cancel App_
 7. You have now successfully removed the MultiSafepay App from Lightspeed.
 
 _Please note: The MultiSafepay App in Lightspeed may still be visible after following the steps above. It can take up to a month for the App to be fully removed from the interface._
