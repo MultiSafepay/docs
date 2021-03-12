@@ -7,7 +7,7 @@ read_more: "."
 aliases: [/integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/]
 ---
 
-MultiSafepay supports sending messages (second chance emails, links, order confirmation) and shows the payment page to the customer in several languages. 
+MultiSafepay supports sending messages (Second Chance emails, links, order confirmation) and shows the payment page to the customer in several languages. 
 
 However, Wordpress - WooCommerce only delivers us the language of the shop itself, no matter what the language or country of the customer is; or the current language of the store for the customer if you are using any third party plugin to have a multi language webshop. 
 
