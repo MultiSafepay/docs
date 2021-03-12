@@ -5,6 +5,7 @@ layout: 'single'
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases:
     - /support-tab/magento2/manual
+    - /integrations/magento2/manual/
 ---
 
 ### Introduction
@@ -86,13 +87,18 @@ If you have a Magento 2 installation with MSI enabled, you can use the following
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
+#### 4.2 Module dependencies
+The meta-package has a dependency on MSI, which means that the MSI modules should be available (but not necessarily enabled) in your store. However, if you have removed it with, for example, a composer-replace trick like [yireo/magento2-replace-inventory](https://github.com/yireo/magento2-replace-inventory), you will not be able to install the meta-package. In this case it is still possible to integrate with MultiSafepay. You can then install the magento2-frontend module and the magento2-catalog-inventory module, instead of the meta-package.
+
+The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml module, so they all will be installed. And then you need to have a module which handles the stock in some specific cases. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
+
 ### 5. Configuration
-1. Login on the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
+1. Log in to the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
 This page contains all main support information and it is advised to read this.
 
 2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
-Information on where to find your Account ID, Site ID, Site code or API key can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
+Information on where to find your Account ID, Site ID, Site code or [API key](/faq/general/glossary/#api-key) can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
 
 2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Payment Methods_.   

@@ -6,7 +6,7 @@ read_more: "."
 ---
 In order to help you integrate your [website](/faq/general/glossary/#website) with MultiSafepay or test new features, we provide a separate test environment. In the test environment, no real transactions can take place, allowing you to test different payment methods and your website's transaction status handling.
 
-Please start with [creating a test account](https://testmerchant.multisafepay.com/signup) for MultiSafepay Control. As soon as you have created your first website, you can use the test API key found in the website settings, in order to authenticate. Alternatively, you can use the test Account ID, Secure Code and Site ID to configure your plugin. You can find these credentials too in the website settings.
+Please start with [creating a test account](https://testmerchant.multisafepay.com/signup) for MultiSafepay Control. As soon as you have created your first website, you can use the test [API key](/faq/general/glossary/#api-key) found in the website settings, in order to authenticate. Alternatively, you can use the test Account ID, Secure Code and Site ID to configure your plugin. You can find these credentials too in the website settings.
 
 {{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a test account of MultiSafepay. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Control.
 {{< /alert-notice >}} 

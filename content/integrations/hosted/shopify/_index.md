@@ -11,4 +11,5 @@ title_short: "Shopify"
 description_short: "Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app."
 description: "Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app."
 layout: 'single'
+aliases: [/integrations/shopify/]
 ---

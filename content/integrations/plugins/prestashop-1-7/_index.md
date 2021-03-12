@@ -16,6 +16,7 @@ description_short: "The free plugin for MultiSafepay payment solutions to use wi
 description: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.7 webshop with the free plugin."
 layout: 'single'
 changelog: 'https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md'
+aliases: [/integrations/prestashop-1-7/]
 ---
 
 

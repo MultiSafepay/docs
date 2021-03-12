@@ -7,6 +7,7 @@ summary: "We have added a feature to include the payment link in the order confi
 read_more: "."
 aliases:
     - /magento2/faq/payment-links-in-order-confirmation-for-backend-orders
+    - /integrations/magento2/faq/payment-links-in-order-confirmation-for-backend-orders/
 ---
 
 We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking. This feature can be implemented by the following steps:

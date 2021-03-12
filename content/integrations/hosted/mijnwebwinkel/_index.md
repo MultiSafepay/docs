@@ -8,9 +8,7 @@ logo: "/logo/Integrations/Mijnwebwinkel.svg"
 weight: 100
 title_short: "Mijnwebwinkel"
 description_short: "Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app."
-description: "Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app.
-
-
-This app is managed by our partner Mijnwebwinkel (MyOnlineStore). For support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support) directly."
+description: "Easily integrate MultiSafepay payment solutions into your Mijnwebwinkel with this free app. This app is managed by our partner Mijnwebwinkel (MyOnlineStore). For support please contact [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support) directly."
 layout: 'single'
+aliases: [/integrations/mijnwebwinkel/]
 ---

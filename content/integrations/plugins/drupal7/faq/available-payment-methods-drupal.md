@@ -4,6 +4,7 @@ meta_title: "Drupal 7 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
+aliases: [/integrations/drupal7/faq/available-payment-methods-drupal/]
 ---
 __Credit cards__
 
@@ -45,10 +46,10 @@ __Wallet__
 __Prepaid cards__ 
 
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-+ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + Wijn cadeau
-+ [Yourgift](yourgift.nl)
++ [Yourgift](https://www.yourgift.nl)

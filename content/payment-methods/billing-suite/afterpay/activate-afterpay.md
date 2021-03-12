@@ -4,9 +4,10 @@ weight: 22
 meta_title: "AfterPay, How to activate it - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/afterpay/activate-afterpay/]
 ---
 
-# Activate 
+## Activate 
 
 >_MultiSafepay offers AfterPay in the Netherlands and Belgium._
 
@@ -16,7 +17,7 @@ For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your Af
 
 >_Please check your eligibility with your MultiSafepay account manager at <sales@multisafepay.com> before applying for this payment method._
 
-## Requirements
+### Requirements
 
 + [Magento 1](/integrations/plugins/magento1/changelog) > available from version 2.4.1. Released on the 25th of May 2018
 

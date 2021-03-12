@@ -2,6 +2,7 @@
 title : "MultiSafepay Drupal 7 installation & configuration manual"
 meta_title: "Drupal 7 plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/drupal7/manual/]
 ---
 
 ## Introduction
@@ -16,7 +17,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
 ## 3. Configuration
-1. Login into your backend and navigate to _Site Settings_ → _Modules_. Enable the Commerce MultiSafepay JSON module, along with the payment method modules of your choice. Then click _Save configuration_ to save the changes you have made
+1. Log in to your backend and navigate to _Site Settings_ → _Modules_. Enable the Commerce MultiSafepay JSON module, along with the payment method modules of your choice. Then click _Save configuration_ to save the changes you have made
 
 2. In the backend of your webshop, navigate to _Store Settings → Advanced Store Settings → Payment methods_.
 _Enable_ first the MultiSafepay core module ("multisafepay") and then _Enable_ the modules for each payment method.

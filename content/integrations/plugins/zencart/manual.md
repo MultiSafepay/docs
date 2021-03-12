@@ -2,6 +2,7 @@
 title : "MultiSafepay Zen Cart installation & configuration manual"
 meta_title: "ZenCart plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/zencart/manual/]
 ---
 
 ### Introduction
@@ -16,7 +17,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
 ### 3. Configuration
-1. Login in your backend and navigate to _Modules → Payment_
+1. Log in to your backend and navigate to _Modules → Payment_
 2. Select _MultiSafepay - Connect_ and click on _Install_
 3. Enter your [API key](/tools/multisafepay-control/get-your-api-key)
 4. Click on _Update_

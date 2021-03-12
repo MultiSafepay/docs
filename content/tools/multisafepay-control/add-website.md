@@ -8,9 +8,9 @@ read_more: '.'
 
 
 ## Adding a webshop
-**Adding a webshop** to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an API key will be automatically generated. This will establish the connection between the two platforms.  
+**Adding a webshop** to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an [API key](/faq/general/glossary/#api-key) will be automatically generated. This will establish the connection between the two platforms.  
 
-1. Login into your MultiSafepay Control
+1. Log in to your MultiSafepay Control
 
 _A live Account ID starts with a 10_ → [Live MultiSafepay Control](https://merchant.multisafepay.com)  
 _A test Account ID starts with a 9_→ [Test MultiSafepay Control](https://testmerchant.multisafepay.com)

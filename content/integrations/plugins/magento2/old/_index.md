@@ -48,7 +48,7 @@ Depending on your webserver/webshop configuration you also need to check:
 - Flush cache.
 
 ### 3. Configuration
-1. Login on the backend of your webshop and navigate to _Stores_ → _Configuration_ → _MultiSafepay x.x.x_ → _MultiSafepay Settings_.  
+1. Log in to the backend of your webshop and navigate to _Stores_ → _Configuration_ → _MultiSafepay x.x.x_ → _MultiSafepay Settings_.  
 This page contains all main settings and is used for all gateways and gift cards.
 {{% account_info %}}
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner
@@ -63,7 +63,7 @@ Gift cards need to be activated, more information can be found on our [gift card
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings.  
-More information about the Fastcheckout can be found on https://www.multisafepay.com/fastcheckout-payments
+More information about the Fastcheckout can be found in our [documentation of Fastcheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

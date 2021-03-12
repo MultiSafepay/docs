@@ -4,6 +4,7 @@ meta_title: "Shopware 6 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
+aliases: [/integrations/shopware6/faq/available-payment-methods-shopware5/]
 ---
 __Credit cards__
 
@@ -49,9 +50,9 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ Beauty and Welness gift card
++ Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)

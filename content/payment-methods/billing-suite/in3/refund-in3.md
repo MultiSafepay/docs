@@ -14,7 +14,7 @@ In both cases of a refund, an amount will be refunded only if a payment is linke
 
 __Please note that all refunds are processed by in3 and can be done before and after settlement up to 1 year.__
 
-## Full refund
+### Full refund
 The transaction can be fully refunded through the refund option.
 
 1. Go to _Transactions_ in [MultiSafepay Control](https://merchant.multisafepay.com)
@@ -27,7 +27,7 @@ The transaction can be fully refunded through the refund option.
 
 The transaction is cancelled.
 
-## Partial refund
+### Partial refund
 The transaction can be partially refunded in the checkout editor. Please follow these steps:
 
 1. Go to _Transactions_ in [MultiSafepay Control](https://merchant.multisafepay.com)

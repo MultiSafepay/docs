@@ -4,18 +4,19 @@ weight: 21
 meta_title: "E-Invoicing, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/e-invoicing/how-does-e-invoicing-work/]
 ---
-# How it works
+## How it works
 Once E-Invoicing is activated in your MultiSafepay Control, you will need to set it up correctly. Firstly, an action needs to be created. An action will be set as email, text or letter. Multiple actions will become a collection flow. 
 
 A collection flow needs to be linked to a website to be activated. When the collection flow is activated, E-Invoicing will be ready for use as payment method. 
 
 The layout and creation of the email template is entirely your responsibility. You can design the collection flow based on your preferences and personalization requirements. In our email templates, you can use the tokens between @@. Further information is available on our [email template token](/tools/multisafepay-control/email-template-token) page.
 
-## Create action
+### Create action
 Each action needs to created following these steps: 
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing → Action_
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing → Action_
 2. Click on  _Add new template_
 3. Select delivery option(s) _email address, SMS or Letter_
 4. Provide a description. _Example: NL 1st invoice_
@@ -63,7 +64,7 @@ __
 For questions about your order, please contact our customer service via 0208500500 or example@email.nl
 ```
  
-## Create collection flow
+### Create collection flow
 Now that the actions have been created, you can follow these steps to create a collection flow:
 
 1. Navigate to _E-Invoicing → Workflows_
@@ -86,7 +87,7 @@ Now that the actions have been created, you can follow these steps to create a c
 16. _Save flow_.
 
 
-## Getting started
+### Getting started
 After creating the actions and setting the collection flow, you will be able to use E-Invoicing.
 
 Good to know about the payment method E-Invoicing: 
@@ -97,11 +98,11 @@ Good to know about the payment method E-Invoicing:
 
 * When E-Invoicing is being used for subscription payment, it is possible to generate a batch of transactions with the payment method E-Invoicing. Go to _E-Invoicing → Batches_. Upload a file in .xls, .xlsx or .csv format. Use the template available in your MultiSafepay Control as example.
 
-## Delivery address
+### Delivery address
 
 MultiSafepay can enable support for different delivery and invoice addresses upon request. Please contact your account manager for more information.
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -130,7 +131,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for E-Invoicing can be found [here](/api/#e-invoicing)
 
-## Product Rules
+### Product Rules
 Some rules may apply to certain payment methods. For E-Invoicing, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible with E-Invoicing. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page

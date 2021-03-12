@@ -2,6 +2,7 @@
 title : "MultiSafepay Lightspeed installation & configuration manual"
 meta_title: "Lightspeed plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/lightspeed/manual/]
 ---
 
 ### Introduction
@@ -9,7 +10,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{% introduction_hosted "Lightspeed" %}}
 
 ### 1. Installation & Configuration
-1. Login into your backend and navigate to _Settings_ → _Payment Providers_
+1. Log in to your backend and navigate to _Settings_ → _Payment Providers_
 2. Click on _Add Payment Provider_ and select MultiSafepay
 3. Enter your Site security code, Site ID & Account ID. {{% account_info %}}
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner

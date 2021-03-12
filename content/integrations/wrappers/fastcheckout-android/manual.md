@@ -2,6 +2,7 @@
 title : "Fastcheckout SDK Android configuration manual"
 meta_title: "Fastcheckout SDK Android configuration manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/fastcheckout-android/manual/]
 ---
 ### Introduction
 
@@ -51,7 +52,7 @@ Check the example below to see how you can setup the environment you want to use
 
 ### Installation
 
-First you have to access into your Back Office and get a valid API key (_Settings_ → _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/faq/general/glossary/#api-key) (_Settings_ → _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 

@@ -4,6 +4,7 @@ meta_title: "Magento 2 plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
+aliases: [/integrations/magento2/faq/available-payment-methods-magento2/]
 ---
 __Credit cards__
 
@@ -52,7 +53,7 @@ __Prepaid cards__
 + Baby gift card
 + Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashion Cheque](https://www.fashioncheque.com/nl/)
++ [Fashioncheque](https://www.fashioncheque.com/nl/)
 + [Fashion gift card](https://www.fashion-giftcard.nl/)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
@@ -69,4 +70,4 @@ __Prepaid cards__
 + [Wellness gift card](https://www.wellnessgiftcard.nl/)
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl/)
-+ [Yourgift](yourgift.nl)
++ [Yourgift](https://www.yourgift.nl)

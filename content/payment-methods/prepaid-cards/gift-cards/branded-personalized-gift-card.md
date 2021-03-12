@@ -4,6 +4,7 @@ weight: 26
 meta_title: "Branded / Personalized gift cards - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/gift-cards/branded-personalized-gift-card/]
 ---
 Examples of personalized gift card providers are [Intersolve](https://intersolve.nl), [123TCS](https://www.123tcs.com) and [Klantkaart](https://www.klantkaart.nl)
 

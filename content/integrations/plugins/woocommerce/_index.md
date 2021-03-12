@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for WooCommerce"
 github_url : "https://github.com/MultiSafepay/WooCommerce"
-download_url : "https://github.com/MultiSafepay/WooCommerce/releases/download/4.1.1/Plugin_WooCommerce_4.1.1.zip"
+download_url : "https://github.com/MultiSafepay/WooCommerce/releases/download/4.1.5/Plugin_WooCommerce_4.1.5.zip"
 changelog_url : "."
 manual: "."
 faq: "."
@@ -16,5 +16,6 @@ description_short: "Integrate MultiSafepay payment solutions into your WooCommer
 description: "Easily integrate MultiSafepay payment solutions into your WooCommerce webshop with our free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md"
+aliases: [/integrations/woocommerce/]
 ---
 

@@ -6,6 +6,7 @@ layout: 'single'
 meta_description: "Mail Order/Telephone Order, also known as MOTO, allows you to accept credit card payments by manually entering them in your payment gateway by means of a virtual terminal."
 logo: '/svgs/MOTO.svg'
 short_description: 'Accept credit card payments by mail or telephone with MOTO.'
+aliases: [/tools/moto/moto]
 ---
 
 ## About

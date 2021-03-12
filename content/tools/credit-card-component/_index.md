@@ -1,28 +1,28 @@
 ---
-title : "Credit card component"
+title : "Credit Card Component"
 layout : "single"
 tags : "hidden"
 ---
 
 ## Introduction
 
-The credit card component by MultiSafepay allows the possibility of offering your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
+The Credit Card Component by MultiSafepay allows the possibility of offering your customers a seamless checkout experience as our Javascript based component is easy to implement in your environment.
 
 ## Preparation
 
 ### Setting up your Test environment
 
-The credit card component includes two files, each for both the Test and Live environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-component/#4-push-to-live)
+The Credit Card Component includes two files, each for both the Test and Live environment. After testing, the files can be changed to those listed in [Step 4](/tools/credit-card-component/#4-push-to-live)
 
 
-The credit card component library contains the credit card fields:  
+The Credit Card Component library contains the credit card fields:  
 
 ```
 <script src="https://testpay.multisafepay.com/sdk/components/v1/components.js"></script>
 ```
 **Source:** [components.js](https://pay.multisafepay.com/sdk/components/v1/components.js)
 
-The credit card component stylesheet contains the styling template of the credit card component:
+The Credit Card Component stylesheet contains the styling template of the Credit Card Component:
 
 
 ```
@@ -54,9 +54,9 @@ GET https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
 
 ## Implementation
 
-### 1. Initialize credit card component library
+### 1. Initialize Credit Card Component library
 
-You must initialize the credit card component library and link it to the container element (selector).
+You must initialize the Credit Card Component library and link it to the container element (selector).
 
 The constructor takes three values:
 
@@ -85,7 +85,7 @@ PaymentComponent.init('payment', {
 
 ### 2. Styling template
 
-The credit card component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
+The Credit Card Component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
 
 ```
 const configOrder = {
@@ -149,7 +149,7 @@ After testing, you may proceed to change the test files to the live files listed
 <link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">
 ```
 
-The credit card component library which decides the API mode must also be changed from __test__ to __live__:
+The Credit Card Component library which decides the API mode must also be changed from __test__ to __live__:
 
 ```
 request

@@ -2,13 +2,14 @@
 title : "MultiSafepay myShop installation & configuration manual"
 meta_title: "myShop plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/myshop/manual/]
 ---
 ### Introduction
 
 {{% introduction_hosted "myShop" %}}
 
 ### 1. Installation & Configuration
-1. Login into your backend and install the MultiSafepay app in the App Store
+1. Log in to your backend and install the MultiSafepay app in the App Store
 2. Navigate to _Settings_ 
 3. Select _MultiSafepay or iDEAL MultiSafepay_
 4. Fill in your Merchant Account, Merchant Site ID & Merchant Site Secure Code. {{% account_info %}} 

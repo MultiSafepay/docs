@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 aliases: [/payment-methods/betaalplan/what-is-betaalplan/]
 ---
-# What it is
+### What it is
 Betaal per Maand online is a pay after delivery service offered in collaboration with Santander, that allows the customer to pay off a purchase after receiving the order, as a one-off post-payment or in monthly installments. Betaal per Maand emails the customer an invoice with instructions on how to fulfill the monthly payments.
 
 >_MultiSafepay only offers Betaal per Maand for the Netherlands._
