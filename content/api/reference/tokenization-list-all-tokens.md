@@ -49,7 +49,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 This API call allows you to list all tokens related to a single customer reference.
 
-If you have a large number of tokens, you can use the two parameters _limit_ and _offset_ to limit the number of tokens that will be listed.
+If you have many tokens, you can use the two parameters _limit_ and _offset_ to limit the number of tokens that will be listed.
 
 Example: If the _limit_ is set to 15 and the _offset_ to 0, then 17 tokens will be listed (token 0 to token 16)
 
