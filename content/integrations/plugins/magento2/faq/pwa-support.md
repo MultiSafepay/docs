@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-Yes, the plugin is fully compatible with GraphQL queries and it is possible to easily integrate it into your PWA store with an additional separate [module for GraphQL support](https://github.com/MultiSafepay/magento2-graphql)
+Yes, the plugin is compatible with GraphQL queries and easy to integrate into your PWA store with an additional [module for GraphQL support](https://github.com/MultiSafepay/magento2-graphql)
