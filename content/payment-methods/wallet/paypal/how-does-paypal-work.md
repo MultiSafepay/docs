@@ -7,7 +7,7 @@ read_more: '.'
 aliases: [/payment-methods/paypal/how-does-paypal-work/]
 ---
 ## How it works
-MultiSafepay supports seamless integration with PayPal with the PayPal API. Funds are transferred directly to the merchant’s PayPal business account, while the transaction statuses and payment validation are managed by MultiSafepay. In order to integrate your PayPal Business account with MultiSafepay, the PayPal account API settings must be configured. Once the integration is completed, you can receive payments through this gateway by using one of our plugins or by implementing a custom integration with our API.
+MultiSafepay supports seamless integration with PayPal with the PayPal API. Funds are transferred directly to the merchant’s PayPal business account, while the transaction statuses and payment validation are managed by MultiSafepay. In order to integrate your PayPal Business account with MultiSafepay, the PayPal account API settings must be configured. Once the integration is completed, you can receive payments through this gateway by using one of our [ecommerce integrations](/integrations/ecommerce-integrations) or by implementing a custom integration with our API.
 
 The transaction status refers to the status of the actual payment. MultiSafepay uses the order status for PayPal transactions. Since we do not collect the funds of completed PayPal transactions (as they are directly sent to your PayPal account), the financial status will remain _initialized_.
 

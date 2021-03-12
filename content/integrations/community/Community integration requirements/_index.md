@@ -10,7 +10,7 @@ hideMenu: '.'
 aliases: [/integrations/community/community/]
 ---
 
-At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who code wrappers, plugins, applications and other various code in order to work with us.
+At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who develop wrappers, plugins, applications and other integrations of our services.
 
 We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to become a part of DOCS, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>
 

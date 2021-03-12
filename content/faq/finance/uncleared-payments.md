@@ -19,7 +19,7 @@ When you log in on MultiSafepay Control, you will see an alert indicating that u
 
 ## Evaluate the Transaction Amount
 
-Ask yourself if the transaction amount (of a purchase) is higher (or lower) than average. Are you willing to risk that this payment will be revoked after you have delivered your product/service? Consider whether the amount is unusually high compared to the average order value in your online shop.
+Ask yourself if the transaction amount (of a purchase) is higher (or lower) than average. Are you willing to risk that this payment will be revoked after you have delivered your product/service? Consider whether the amount is unusually high compared to the average order value in your ecommerce.
 
 ## Product or service
 

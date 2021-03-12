@@ -42,8 +42,8 @@ name = "Shell"
     weight = 10
 
 [[menu.main]]
-    name = "Plugins"
-    url  = "/integrations/plugins"
+    name = "Ecommerce integrations"
+    url  = "/integrations/ecommerce-integrations"
     parent = "integrations"
     weight = 10
 
@@ -52,12 +52,6 @@ name = "Shell"
     url  = "/integrations/pwa"
     parent = "integrations"
     weight = 10
-
-[[menu.main]]
-    name = "Hosted Plugins"
-    url  = "/integrations/hosted"
-    parent = "integrations"
-    weight = 20
 
 [[menu.main]]
     name = "Wrappers & SDK"

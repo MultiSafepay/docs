@@ -49,7 +49,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "fastcheckout": "NO",
     "modified": "2019-03-04T14:11:37",
     "customer": {
-      "locale": "en",
+      "locale": "en_US",
       "first_name": null,
       "last_name": "Test Last name",
       "address1": "address 1",
