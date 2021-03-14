@@ -56,7 +56,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
 
 
-QR codes can only be correctly read with a regular QR code reader such as QR code apps on smartphones or integrated smartphone camera QR code readers. Please note that if you scan the code using the Bancontact app, an error will be displayed.
+The QR codes of the Bancontact testing environment can only be read with a general QR code application. If you scan the code using the Bancontact app, an error will be displayed.
 
 ## Bank transfer
 
