@@ -270,7 +270,7 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains an array of all purchased items.
 
 __unit_price__ | float
 
@@ -389,7 +389,7 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains an array of all purchased items.
 
 __unit_price__ | float
 
