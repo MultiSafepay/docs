@@ -4,7 +4,7 @@ weight:
 aliases: [/techsupport/webshop-access/]
 ---
 
-The plugins created by MultiSafepay are tested before release, however, it’s possible that a functionality in your website malfunctions. This can occur due to customized integration, a deviant configuration or a bug.
+The ecommerce integrations created by MultiSafepay are tested before release, however, it’s possible that a functionality in your website malfunctions. This can occur due to customized integration, a deviant configuration or a bug.
 
 Our support focuses on problems that are reproducible on a standard website environment. Despite that, we will always try to help you further, even if the problem falls outside our scope.
 

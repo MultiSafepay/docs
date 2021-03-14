@@ -11,7 +11,7 @@ Would you help us with a review?
 
 Every day our Integration Team works hard to support our merchants. Due to the complexity of the ecommerce platforms, we are often challenged.
 
-We test our plugins extensively before release. However, conflicts with third party plugins, customization or server configurations can not be excluded. Nevertheless, we must ensure that the situation is under control at the end of the day.
+We test our ecommerce integrations extensively before release. However, conflicts with third party plugins, customization or server configurations can not be excluded. Nevertheless, we must ensure that the situation is under control at the end of the day.
 
 Although, it is possible that technical issues fall outside our scope, we will always try to assist and support you to our best abilities.
 
@@ -29,7 +29,7 @@ Our Integration Team will greatly appreciate your effort.
 [Google review - Click on the stars](https://www.google.com/search?rlz=1C1GCEU_enNL890NL890&q=MultiSafepay&stick=H4sIAAAAAAAAAONgecSYyS3w8sc9YamESWtOXmOM4uIKzsgvd80rySypFPLhYoOyFLj4pbj10_UNSwpzjKvyCjQYpHi5kAWkFJS4eNcZ2ciLihx-yaQlxLn6zo0yb45j7oKWcUd2fZ11-hzPIlYe39KckszgxLTUgsRKAFluieJ9AAAA&sa=X&ved=2ahUKEwj94_i1hOrnAhUuNOwKHQdQBEoQ6RMwC3oECAsQBA&biw=1280&bih=610#lrd=0x47c6084b76d8dcab:0xcecb9af5bac45e39,1,,,)<br>
 [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
 
-### Review our plugins
+### Review our ecommerce integrations
 [Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2msp.html)<br>
 [Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)<br>
 [Shopware Store - Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html)<br>

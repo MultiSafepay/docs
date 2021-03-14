@@ -83,26 +83,49 @@ PaymentComponent.init('payment', {
 ```
 {{< br >}}
 
-### 2. Styling template
+### 2. Pass preOrder data to the Credit Card Component
 
-The Credit Card Component comes with two styling templates. For a more seamless integration, we recommend to enable our embedded template, the following parameter needs to be added:
+The Credit Card Component requires some initial information about your customer's shopping cart. This information is used to perform validation checks, such as:
+
+- Is the selected payment method compatible with the currency?
+- Is the selected payment method compatible with the order value?
 
 ```
-const configOrder = {
+const preOrder = {
     currency: 'EUR',
-    amount: 100,
+    amount: 10000,
+    customer: {
+        locale: 'EN',
+        country: 'NL',
+        reference: 'Customer123'
+    },
     template : {
         settings: {
             embed_mode: true
         }
+    }
 };
 ```
 {{< br >}}
 
+#### Required variables
+| Key | Value |
+| ---- | ---- |
+| currency | Currency of the order. {{< br >}} **Format:** [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) |
+| amount | Value of the order. {{< br >}} **Format:** Number without decimal points (e.g., 100EU → `10000`) |
+
+#### Optional variables
+| Key | Value |
+| --- | --- |
+| locale | Your customer's browser language, which is used to set the Credit Card Component's language. {{< br >}} **Format:** [ISO-3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) |
+| country | Your customer's country code, which is used to validate the availability of the payment method. {{< br >}} **Format:** [ISO-3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) |]
+| reference | A unique reference to your customer, used in tokenization. {{< br >}} **Format:** string |
+| embed_mode | Embed mode is a template designed to blend in seamlessly with your ecommerce. {{< br >}} **Format:** boolean |
+
 
 ### 3. Place a Test order
 
-After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction.<br>
+After the customer has entered their credit card details, the encrypted data can be sent to the MultiSafepay API to finish the transaction. The endpoint: __testapi.multisafepay.com/v1/connect/payments/create__ can be used to submit the test order.<br>
 
 On the frontend you can retrieve the encrypted credit card data through the following code:
 
@@ -135,8 +158,11 @@ This `payment_url` will be a link to the issuer, where the customer will be requ
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 
 ### 4. Push to Live
+When you are ready to switch to the live environment, you can use the following endpoint:
 
-After testing, you may proceed to change the test files to the live files listed below:
+__api.multisafepay.com/v1/connect/payments/create__
+
+The [test files](/credit-card-component/#setting-up-your-test-environment) must also be replaced with the live files listed below:
 
 **components.js**
 ```
@@ -213,3 +239,6 @@ Apart from having the onError handler, you can also actively request the instant
 ```
 PaymentComponent.getErrors()
 ```
+### Contact
+
+If you have any questions regarding the process or face any issues, feel free to contact our Integration Team at <integration@multisafepay.com>

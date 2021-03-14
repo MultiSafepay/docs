@@ -7,4 +7,4 @@ read_more: '.'
 ---
 ## Testing
 
-For more information about the possibilities of testing with Maestro, please refer to our [test payment details](/getting-started/test-payment-details/#maestro)
+For more information about the possibilities of testing with Maestro, please refer to our [test payment details](/faq/getting-started/test-payment-details/#maestro)
