@@ -22,7 +22,7 @@ Only the following merchants are eligible for Betaal per Maand:
 3. Selling goods and/or services to European citizens with a residence/ delivery address in Netherlands (no exceptions possible)
 4. Betaal per Maand is available for orders from € 250, with a maximum of € 8000,00 per customer.
 
-* In addition to Betaal per Maand's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and plugins - see [overview](https://docs.multisafepay.com))
+* In addition to Betaal per Maand's eligibility criteria, it is also required that the merchant is able to connect to MultiSafepay through the available connection methods (API and ecommerce integrations - see [overview](/integrations/))
 
 #### Enable Betaal per Maand as payment method
 

@@ -34,6 +34,9 @@ A gift card which can only be used at a single merchant/vendor.
 ### CVC
 A card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
 
+### E-mandate
+An E-mandate, also known as an electronic mandate, is a form of authorization that is used to collect payments from a customer's bank account. A customer does not physically or electronically sign when agreeing to a SEPA Direct Debit, but rather, they are redirected to their internet banking environment where a direct debit collection can be initiated by a small payment e.g. 0,01 EUR.
+
 ### Issuer
 The company that provided the card. Usually this is the customer's bank. For many payment methods, the issuer guarantees the funding of the transaction.
 

@@ -56,7 +56,7 @@ Some rules may apply to certain payment methods. For in3, the following rules ap
 
 * in3 is only available in the Netherlands. A check will be conducted on the country, billing/shipping address entered by the consumer
 
-* The default amount for an in3 payment is 100 EUR and maximum 3000 EUR
+* The default minimum order amount for an in3 payment is 100 EUR and the default maximum order amount is 3000 EUR. In our ecommerce integrations, the minimum can be raised and the maximum can be lowered in your backend. By doing so, you can change the availability of the in3 payment method depending on your customer's shopping cart value.
 
 * Different billing and shipping addresses may be entered by the consumer
 

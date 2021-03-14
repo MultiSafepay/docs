@@ -1,20 +1,17 @@
 ### Basic
-- We only accept documentation that is proved to work on our LIVE API
-- At least 1 approval is needed before pull requests can be merged
-- The article must match our Synonym word list. For external commits, a MultiSafepay employee will check
-- US English must be applied
-- Use bullets for numerations where the sort order doesn't matter. For chronological order, use numbers. This does not apply to changelogs
-- Set link on email address.
+- We only accept documentation that is proven to work on our LIVE API
+- At least one approval is needed before pull requests can be merged
+- All content is written in US English
+- The terminology used must be in accordance with our naming conventions
 
 ### Text style
-- Paths are written like: _Configuration → System → Plugin → MultiSafepay_
-- Use single quotation marks in your Markdown code (example title: 'Title of the article')
-- Use Italics for buttons, clicks, paths, etc. Do mind to close the italics before the end of a sentence followed by a period
-- Numerations / bullets are punctuated with a period at the end of the numerations / bullets.
-- Periods should be excluded for sentences that finish in an e-mail address (e.g. "..contact us at <example@example.com> "  )
+- Paths are formatted like: _Configuration → System → Plugin → MultiSafepay_
+- Use single quotation marks in the front matter of markdown files (e.g., title: 'Title of the article')
+- Use _italics_ when describing GUI elements (e.g., buttons, links and paths)
+- When a sentence ends with an email address, don't use a period (e.g. "[...] contact us at <example@example.com>")
 
 ### Images
-- Screenshot recomended sizes: Width: 820px - Height: auto
+- Screenshot recommended sizes: Width: 820px - Height: auto
 
 ### Aliases
-- When renaming or deleting a page, add an alias of the renamed or deleted page to the page users should be redirected to instead. This prevents external links to return 404 errors. Check the [Hugo Documentation](https://gohugo.io/content-management/urls/#aliases) for more information.
+- When renaming or deleting a page, add an alias of the deprecated URL to the page users should be redirected to. This prevents external links from returning 404 errors. Check the [Hugo Documentation](https://gohugo.io/content-management/urls/#aliases) for more information.

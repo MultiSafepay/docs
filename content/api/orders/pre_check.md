@@ -249,7 +249,7 @@ Contains the delivery information for the shipment. Values for first_name and la
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains an array of all purchased items.
 
 ----------------
 
