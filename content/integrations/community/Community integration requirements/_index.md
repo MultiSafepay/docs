@@ -10,12 +10,11 @@ hideMenu: '.'
 aliases: [/integrations/community/community/]
 ---
 
-At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who create code wrappers, plugins and applications in order to work with us.
+At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who create code wrappers, plugins, and applications in order to integrate our products and services.
 
-We are happy to accompany you starting with a place on our documentation pages as well as assist you on marketing level. If you would like for your project to become a part of MultiSafepay DOCS, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>
+We are happy to accompany you, starting with a place on our documentation pages as well as assist you on a marketing level. If you would like for your project to become a part of MultiSafepay Docs, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>
 
-We would like to outline the main requirements that you will have to adhere to if you would like to be a part of the MultiSafepay community.
-The agreements are the following:
+If you want to publish a MultiSafepay community integration, you have to adhere to the following agreements:
 
 * The [plugin information](https://docs.multisafepay.com/api/#plugin-information) should be visible in the JSON format and include the configuration of the integration
 * The readme should indicate that full responsibility lies with the developer of the community integration. This includes customer support and maintenance of the code. It should also be clear that the integration was __not created by MultiSafepay__
