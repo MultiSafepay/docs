@@ -17,7 +17,7 @@ MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must
 
 With iDEAL QR you can also produce a generic link that can be used multiple times. The QR code can be printed on leaflets. You can also enable an option to allow the customer change the amount.
 
-> Please note that only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING, ABN AMRO, ASN Bank, RegioBank and SNS Bank). All other customers must use the dedicated iDEAL app.
+> Please note that only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING and ABN AMRO). All other customers must use the dedicated iDEAL app.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
