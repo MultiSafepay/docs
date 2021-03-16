@@ -11,6 +11,7 @@ aliases:
 ---
 
 ### Introduction
+
 We are proud to announce that we have been working on a brand new Magento 2 plugin. 
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
 It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.
@@ -44,6 +45,10 @@ Some features are not available anymore, because they are not supported anymore 
 * Tokenization (Replaced by Magento Vault and Instant Purchase)
 * Fastcheckout (Not supported anymore)
 * PWA (REST) endpoints (Replaced by GraphQL endpoints)
+
+{{< blue-notice >}}
+MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>
+{{< /blue-notice >}}
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup

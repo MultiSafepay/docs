@@ -10,7 +10,7 @@ aliases:
 
 {{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1 in the future. Please read our [blog](https://bit.ly/2YX2LGL) for more information and the actions to take.{{< /alert-notice >}}
 
-{{< alert-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
+{{< blue-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /blue-notice >}}
 
 ### Introduction
 
@@ -26,6 +26,9 @@ In this manual we describe the SFTP upload method.
 
 {{% introduction_plugin "Magento 1" %}}
 
+{{< blue-notice >}}
+MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>
+{{< /blue-notice >}}
 
 ### 1. Requirements
 - Magento Open Source 1.7 - 1.9
