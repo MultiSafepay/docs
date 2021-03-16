@@ -6,6 +6,10 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-Yes. Our latest Magento 2 plugin supports Magento Vault. Magento Vault is, in essence, Tokenization with the use of the Magento payment gateway.
+Yes. Our latest Magento 2 plugin supports Magento Vault. In essence, Magento Vault is Tokenization with the use of the Magento payment gateway.
 
-This functionality will significantly enhance the safety of your checkout by storing related payment methods as a token in the Magento database, facilitating a fast and secure checkout process for your returning customers.
+This functionality stores payment methods as a token in the Magento database and decreases the purchase time for returning customers,  thus enhancing the conversion rate by facilitating a fast and secure checkout process.
+
+The [Recurring Payments](/tools/recurring-payments/) feature must be enabled in your MultiSafepay Control before Magento Vault can be activated in your Magento backend. Please refer to _[How to activate Recurring Payments](/tools/recurring-payments/how-to-activate-recurring-payments/)_ for more information.
+
+If you have any questions about the Magento Vault integration, please contact <integration@multisafepay.com>
