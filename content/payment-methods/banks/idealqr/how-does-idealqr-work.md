@@ -60,3 +60,5 @@ Some rules may apply to certain payment methods. For iDEAL QR, the following rul
 * The lifetime of an iDEAL QR payment is by default 30 days active, but this can be adjusted. Read more about the days_active and seconds_active parameters on the [Lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
 
 * The payment amount that can be set for an iDEAL QR transaction depends on the min_amount and max_amount parameters sent in the payment request. For more information, read our API section on [iDEAL QR](/api/#ideal-qr)
+
+* A single iDEAL QR code can be used more than once and generate more than one payment linked to a single Order ID, therefore subsequent transactions will each have a unique Order IDs.
