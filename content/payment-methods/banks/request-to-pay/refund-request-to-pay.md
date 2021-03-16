@@ -4,12 +4,14 @@ weight: 23
 meta_title: "Request to Pay, how to refund a transaction - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
-aliases: [/payment-methods/banks/direct-bank-transfer/#request-refund]
+aliases: 
+    - /payment-methods/banks/direct-bank-transfer/#request-refund
+    - /payment-methods/banks/direct-bank-transfer/#refund-flow
 ---
 ## Request refund
 Please follow these steps to refund a Request to Pay transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _Transactions → Transaction overview_
 3. Find the transaction through search
 4. Open the transaction

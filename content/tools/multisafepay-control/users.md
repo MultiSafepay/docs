@@ -10,7 +10,7 @@ read_more: '.'
 
 To add users with different permission profiles to your [MultiSafepay Control](https://merchant.multisafepay.com), please follow to the steps below:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Once logged in, navigate to _Settings_ on the left side menu
 3. Click on _User management_
 4. Click on _Add new user_ on the top right corner

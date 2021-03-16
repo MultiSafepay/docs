@@ -8,10 +8,41 @@
             "pattern": "&quot;",
             "replacement": ""
         }
+        {
+            "pattern": "&amp;",
+            "replacement": "&"
+        }
     ],
     "ignorePatterns": [
         {
-          "pattern": "^https://www.example.com"
+          "pattern": "^https*://www.example.com/"
+        },
+        {
+          "pattern": "https://www.mijnwebwinkel.nl/beheer/payment/sorting"
+        },
+        {
+          "pattern": "https://lightspeed.multisafepay.com/changelog&#39;"
+        },
+        {
+          "pattern": "https://www.shopware.com/en/pricing"
+        },
+        {
+          "pattern": "https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md&#39;"
+        },
+        {
+          "pattern": "https://eur-lex.europa.eu/legal-content/EN/TXT/.*"
+        },
+        {
+          "pattern": "https://yourdomain.com/index/paymentprovidernotification.*"
+        },
+        {
+          "pattern": "https://payv2.multisafepay.com/files/{{accountid}}/{{filename}"
+        },
+        {
+          "pattern": "https://www.nationale-tuinbon.nl"
+        },
+        {
+          "pattern": "https://www.shopify.com/login\?redirect=%2Fadmin%2Fauthorize_gateway%.*"
         }
       ],
     "retryOn429": true,

@@ -9,7 +9,7 @@ aliases: [/payment-methods/sofort-banking/refund-sofort-banking/]
 ## Request refund
 Please follow these steps to refund a SOFORT Banking transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction → transaction_
 3. Find the transaction through search
 4. Open transaction

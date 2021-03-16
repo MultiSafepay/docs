@@ -7,7 +7,8 @@ read_more: '.'
 aliases: [/payment-methods/e-invoicing/activate/]
 ---
 
-# Activate
+## Activate
+
 >_Before applying to enable E-Invoicing, please check with your account manager at MultiSafepay if you are eligible for this payment method._
 
 In order to enable E-Invoicing for your ecommerce platform, an application is required. 
