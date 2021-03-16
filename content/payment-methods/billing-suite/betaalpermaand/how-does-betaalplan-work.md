@@ -73,7 +73,7 @@ Full documentation can be found on our [lifetime of a payment link](/faq/api/lif
 ## The 'Shipped' status
 When receiving an order paid for with Betaal per Maand, it is important to keep a number of things in mind.
 
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our plugins.
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our ready-made solutions.
 
  You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. If you do not change the status to _Shipped_, this can result in the expiration of the order. For orders above the value of 999 EUR, from the day the transaction becomes _Completed_, you will have 54 days to set the order to _Shipped_, before it will expire. The transaction will also expire in four weeks for orders of 1000 EUR and up if a payment has not yet been approved by Betaal per Maand. The possible scenarios are that a customer has not yet uploaded the documents or if a customer has uploaded the incorrect documents and require further review. 
 
