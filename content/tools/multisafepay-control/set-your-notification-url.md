@@ -30,7 +30,7 @@ However, if the notification URL is not correctly set, the order will not update
 | Shopware 5  | Please contact the Integration Team at <integration@multisafepay.com>            |
 | Shopware 6     | Please contact the Integration Team at <integration@multisafepay.com>                 |
 | VirtueMart     | https://www.example.com/index.php?option=com_virtuemart&view=multisafepayresponse&mode=notify&type=initial&task=notify          |
-| WooCommerce    | https://www.example.com/?page=multisafepaynotify |
+| WooCommerce    | Please contact the Integration Team at <integration@multisafepay.com> |
 | X-Cart   | Please contact the Integration Team at <integration@multisafepay.com> |
 | Zen Cart    | https://www.example.com/ext/modules/payment/multisafepay/notify_checkout.php?type=initial |
 
