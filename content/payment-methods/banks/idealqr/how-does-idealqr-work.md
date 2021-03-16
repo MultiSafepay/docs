@@ -13,7 +13,7 @@ MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must
 
     **or**
 
-* Redirect the customer to our payment page similarly with other payment methods.
+* Redirect the customer to our payment page where an iDEAL QR code will be displayed under _Payment methods:_
 
 With iDEAL QR you can also produce a generic link that can be used multiple times. The QR code can be printed on leaflets. You can also enable an option to allow the customer change the amount.
 
@@ -56,3 +56,7 @@ Some rules may apply to certain payment methods. For iDEAL QR, the following rul
 * Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 * If you would like to test iDEAL QR, please note that this will only work in a _Live_ environment. The _Testing_ environment is __not__ available.
+
+* The lifetime of an iDEAL QR payment is by default 30 days active, but this can be adjusted. Read more about the days_active and seconds_active parameters on the [Lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+
+* The payment amount that can be set for an iDEAL QR transaction depends on the min_amount and max_amount parameters sent in the payment request. For more information, read our API section on [iDEAL QR](/api/#ideal-qr)
