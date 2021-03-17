@@ -6,7 +6,7 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-Yes. Our latest Magento 2 plugin supports Magento Vault. In essence, Magento Vault is Tokenization with the use of the Magento payment gateway.
+Yes. Our latest Magento 2 plugin supports Magento Vault. In essence, Magento Vault is tokenization with the use of the Magento payment gateway.
 
 This functionality stores payment methods as a token in the Magento database and minimizes the purchase time for returning customers, thus enhancing the conversion rate by facilitating a fast and secure checkout process.
 
