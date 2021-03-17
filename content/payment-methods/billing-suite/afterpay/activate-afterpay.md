@@ -19,7 +19,7 @@ For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your Af
 
 ### Requirements
 
-+ [Magento 1](/integrations/plugins/magento1/changelog) > available from version 2.4.1. Released on the 25th of May 2018
++ [Magento 1](/integrations/ecommerce-integrations/magento1/changelog) > available from version 2.4.1. Released on the 25th of May 2018
 
 + [Magento 2](https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md) > available from version 1.5.0. Released on the 25th of May 2018
 
@@ -31,5 +31,5 @@ For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your Af
 
 + [CS-Cart](https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md) > available from version 1.3.0. Released on the 8th of October 2018
 
-+ [X-Cart](/integrations/plugins/x-cart) > available from version 2.2.0. Released on the 24th of April 2019
++ [X-Cart](/integrations/ecommerce-integrations/x-cart) > available from version 2.2.0. Released on the 24th of April 2019
 

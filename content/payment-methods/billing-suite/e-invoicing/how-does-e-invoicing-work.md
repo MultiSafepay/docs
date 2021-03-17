@@ -30,7 +30,7 @@ Each action needs to created following these steps:
 
 Example plain body:      
 
-```shell  
+``` shell
 Date: @CURRENTDATE@ 
 Order number: @DESCRIPTION@
 
@@ -43,7 +43,7 @@ Thank you for your order at @SITENAME@.
 Details of your order:
 @CONTENT@
 
-We kindly request you to pay the invoice for @ DUE_DATE @.
+We kindly request you to pay the invoice for @DUE_DATE@.
 
 Complete your payment using the payment link below
 @PAYLINK@ 

@@ -59,6 +59,6 @@ _**For example, quantity (1) → discount (item or name) → amount (as negative
 
 The discount is added to the transaction. A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins) for more information.
+In most ecommerce integrations you can also refund. See the corresponding [ecommerce integration FAQ](/integrations/ecommerce-integrations) for more information.
 
 _Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <verkoop@klarna.com> or +31 208082853_

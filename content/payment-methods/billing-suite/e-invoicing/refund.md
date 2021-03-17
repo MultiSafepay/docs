@@ -57,4 +57,4 @@ For example _-1 → discount → amount  → VAT_
 The discount is added to the transaction.
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information.
+In most ecommerce integrations you can also refund. See the [ecommerce integration FAQ](/integrations/ecommerce-integrations) for more information
