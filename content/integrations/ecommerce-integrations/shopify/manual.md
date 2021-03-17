@@ -12,7 +12,7 @@ aliases:
 
 ### Introduction
 
-{{% introduction_hosted "Shopify" %}}
+{{% introduction_app "Shopify" %}}
 
 ### 1. Installation & Configuration
 

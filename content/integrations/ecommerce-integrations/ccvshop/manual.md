@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay CCV Shop installation & configuration manual"
-meta_title: "CCV Shop plugin manual - MultiSafepay Docs"
+meta_title: "CCV Shop app manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases: 
     - /plugins/ccvshop/manual/
@@ -9,7 +9,7 @@ aliases:
 
 ### Introduction
 
-{{% introduction_hosted "CCV" %}}
+{{% introduction_app "CCV" %}}
 
 ### 1. Installation & Configuration
 1. Log in to your backend and install the MultiSafepay app in the App Store
