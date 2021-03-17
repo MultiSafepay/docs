@@ -12,7 +12,7 @@ Adding a website to your MultiSafepay Control is the first step to connecting yo
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) or [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com)
 2. Navigate to _Settings → Website settings_
 3. Add a new website by selecting _Quick add website_
-4. Please supply the following information to add a website for your ecommerce integration:
+4. Please supply the following information to add a website for your ecommerce integration: 
 
    1. Select a category that is related to the website
    2. Provide a description. The description will be displayed on the payment page of MultiSafepay and depending on the payment method, it will also be shown on the bank statement of your customer
