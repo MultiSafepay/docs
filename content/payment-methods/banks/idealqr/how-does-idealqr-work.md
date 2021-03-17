@@ -61,4 +61,4 @@ Some rules may apply to certain payment methods. For iDEAL QR, the following rul
 
 * The payment amount that can be set for an iDEAL QR transaction depends on the min_amount and max_amount parameters sent in the payment request. For more information, read our API section on [iDEAL QR](/api/#ideal-qr)
 
-* A single iDEAL QR code can be used more than once and generate more than one payment linked to a single Order ID, therefore subsequent transactions will each have a unique Order IDs.
+* A single iDEAL QR code can be used more than once and generate more than one payment linked to a single Order ID, therefore subsequent transactions will each have a unique Order ID.
