@@ -20,7 +20,6 @@ To add users with different permission profiles to your [MultiSafepay Control](h
 
 An unlimited number of users can be added to your account. All users under your account share the same secure code. It is not possible to delete a user from your user management, however, it is possible to disable them.
 
-> Multiple users can be created within your [MultiSafepay Control](https://merchant.multisafepay.com). However, it must be noted that the secure code when logging in to your MultiSafepay Control is identical for all users.
 
 ### User rights
 
