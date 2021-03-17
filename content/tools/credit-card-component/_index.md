@@ -36,19 +36,23 @@ The Credit Card Component stylesheet contains the styling template of the Credit
 
 Get the `api_token`, which is used for encrypting the credit card input. This call uses authentication, so **do not expose your own** `api_key`. Make sure your server sends this request and not the client or browser. For example, you can load this when the customer is loading the checkout of your website.
 
+#### Request
+
 ```
 GET https://api.multisafepay.com/v1/connect/auth/api_token?api_key=xxx
 ```
 
 {{< br >}}
 
-### Response
+#### Response
 
-`
+```
 {
-  "api_token": "pub.v2.xxxxxx.xxxxxx"
+    "success": true,
+    "data":
+    { "api_token": "pub.v2.xxxxxxxx" }
 }
-`
+```
 
 {{< br >}}
 

@@ -6,61 +6,59 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-## How do I add a user to my MultiSafepay Control?
+### How do I add a user to my MultiSafepay Control?
 
-To add users with different permission profiles to your [MultiSafepay Control](https://merchant.multisafepay.com), please follow to the steps below:
+To add users with different permission profiles to your [MultiSafepay Control](https://merchant.multisafepay.com), please follow the steps below:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Once logged in, navigate to _Settings_ on the left side menu
+2. Navigate to _Settings_ on the left side menu
 3. Click on _User management_
 4. Click on _Add new user_ on the top right corner
-5. Fill in the required credentials and put the _Status_ on _Active_
-6. Select the appropriate user rights on the right side
+5. Fill in the required credentials and set the _Status_ to _Active_
+6. Select the appropriate [user rights](/tools/multisafepay-control/users/#user-rights) on the right side
 7. Click on _Add user_ on the top right corner.
 
-> There is an unlimited amount of users you may add to your account. It is not possible to delete a user from your user management. However, it is possible to disable them.
+An unlimited number of users can be added to your account. All users under your account share the same secure code. It is not possible to delete a user from your user management, however, it is possible to disable them.
 
-> Multiple users can be created within your [MultiSafepay Control](https://merchant.multisafepay.com). However, it must be noted that the secure code when logging in to your MultiSafepay Control is identical for all users.
 
-If you are uncertain on which rights to assign to the user you are about to add, hover your mouse cursor above the question marks for a detailed explanation.
+### User rights
 
-_or_
+User rights can be found in your MultiSafepay Control under _Settings_ → _User management_. An explanation of the user rights can be found upon hovering over the question mark icons.
 
-See all the user rights explained below:
+Here is an overview of all user right settings:
 
-### Administrator
+#### Administrator
 
 * Has access to all functionalities within the account.
 
-### Reporting
+#### Reporting
 
 * Sees all transactions
 * Creates and download reports
 * Sees the current balance of the account
 * Is able to generate payment links.
 
-### Technical
+#### Technical
 
 * Add and adjust a website
 * Add and adjust payment pages
 * Edit email templates.
 
-### Refund
+#### Refund
 
 * Create refunds
 * Sees all transactions
 * Able to generate payment links.
 
-### Basic
+#### Basic
 
 * Sees all transactions
 * Able to generate payment link.
 
-### DisableBalance
+#### DisableBalance
 
 * Will hide your account balance for the user.
 
-### Uncleared
+#### Uncleared
 
 * Able to accept or decline uncleared transactions.
-

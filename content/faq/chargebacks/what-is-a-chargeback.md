@@ -4,8 +4,15 @@ weight: 11
 meta_title: "Credit cards, what is a chargeback? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases: 
+    - /payment-methods/creditcards/chargebacks/what-is-a-chargeback/
+    - /payment-methods/credit-and-debit-cards/creditcards/chargebacks/what-is-a-chargeback/
+    - /payment-methods/creditcards/chargebacks/dispute-chargeback/
+    - /payment-methods/credit-and-debit-cards/creditcards/chargebacks/dispute-chargeback/
+    - /payment-methods/creditcards/what-is-a-chargeback/
+    - /payment-methods/credit-and-debit-cards/creditcards/what-is-a-chargeback/
+    - /payment-methods/creditcards/chargebacks/
 ---
-
 
 Customers who disagree with or do not recognise a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 
@@ -80,6 +87,6 @@ By offering credit cards as a payment option in your webshop, you agree to the c
 
 ### Why do you charge a chargeback handling fee?
 
-Visa and Mastercard, as well as the processing bank, will charge fees for a chargeback.
+If a customer has initiated a chargeback, MultiSafepay will charge a fee to handle the dispute between you and the customer. Visa and Mastercard, as well as the processing bank, may also charge fees if the dispute cannot be settled between you and the customer.<br> 
 
-MultiSafepay does not add any surcharge to these fees. The work done by the MultiSafepay chargeback team is done free of charge as part of our service to you. Of course, we are always looking to bring the chargeback cost down in any way we can.
+For more information about these fees, please contact <support@multisafepay.com>

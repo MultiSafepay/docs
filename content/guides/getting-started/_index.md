@@ -10,7 +10,8 @@ layout: 'single'
 weight: 10
 short_description: "Follow our step-by-step instructions from creating a 
 test account to processing your first payment."
-
+aliases:
+    - /faq/getting-started/getting-started
 ---
 
 Welcome to MultiSafepay. We break down barriers and remove obstacles for commerce by providing smart payment solutions. Our core services allow you to accept payments, manage transactions and stimulate online sales. On top of that, we provide a suite of tools to boost conversion rates, create the perfect checkout experience and gain financial insights.

@@ -179,13 +179,14 @@ __customer__ | object
 Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
 
 ----------------
+
 __delivery__ | object
 
 Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
 
 ----------------
-__shopping_cart__ | object
 
+__shopping_cart__ | object
 
 Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
 
@@ -197,11 +198,18 @@ Specification of products (items) which can be set in order to be displayed on t
 
 ----------------
 
+__quantity__ | integer
+
+The quantity of a specific item in the shopping cart. Decimals are not accepted and the value should be stated as a whole number e.g. '13'
+
+----------------
+
 __checkout_options__ | object
 
 Contains the definitions for the VAT class.
 
 ----------------
+
 __gateway_info__ | object                                                              
 
 ----------------
@@ -260,31 +268,37 @@ __gateway__ | string
 The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: KLARNA.
 
 ----------------
+
 __order_id__ | integer / string
 
 The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
 
 ----------------
+
 __currency__ | string
 
 The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
 
 ----------------
+
 __amount__ | integer
 
 The amount (in cents) that the customer needs to pay.
 
 ----------------
+
 __description__ | string
 
 A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
+
 __payment_options__ | object
 
 Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
+
 __customer__ | object
 
 Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
@@ -295,6 +309,7 @@ __delivery__ | object
 Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
 
 ----------------
+
 __shopping_cart__ | object
 
 Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
@@ -307,24 +322,40 @@ Specification of products (items) which can be set in order to be displayed on t
 
 ----------------
 
+__unit_price__ | float
+
+The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted. 
+
+----------------
+
+__quantity__ | integer
+
+The quantity of a specific item in the shopping cart. Decimals are not accepted and the value should be stated as a whole number e.g. '13'
+
+----------------
+
 __checkout_options__ | object
 
 Contains the definitions for the VAT class.
 
 ----------------
+
 __gateway_info__ | object                                                              
 
 ----------------
+
 __phone__ | string
 
 The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. 
 
 ----------------
+
 __email__ | string
 
 The email address to which the system can send payment instructions to the customer.  
 
 ----------------
+
 __ip_address__ | string
 
 The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      

@@ -1199,13 +1199,27 @@ p {
 
 .alert-notice {
     position: relative;
-    padding: .75rem 1.25rem;
+    padding: 1rem 1.25rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 1rem;
     color: #856404;
     background-color: #fff3cd;
     border-color: #ffeeba;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.blue-notice {
+    position: relative;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    color: #175C9B;
+    background-color: #DFEBF6;
+    border-color: #DFEBF6;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.5;
@@ -1517,7 +1531,7 @@ h6 {
 .copy-code-button {
     color: #272822;
     background-color: #F6F6F6;
-    border-radius: 10px 10px 0px 0px ;
+    border-radius: 1rem 1rem 0px 0px ;
     border: none;
 
     /* right-align */
@@ -1526,7 +1540,7 @@ h6 {
     margin-right: 0;
 
     margin-bottom: -2px;
-    padding: 3px 10px;
+    padding: 3px 12px;
     font-size: 0.9em;
 }
 
@@ -1556,7 +1570,7 @@ h6 {
 pre:not(.chroma) {
     background-color: #F6F6F6;
     color: #4D4D4D;
-    border-radius: 10px 0px 10px 10px;
+    border-radius: 1rem 0px 1rem 1rem;
     padding: 40px 50px;
 }
 
