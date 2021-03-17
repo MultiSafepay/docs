@@ -32,6 +32,3 @@ Follow these steps to locate your website details:
 3. Most plugins supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID. Your Account ID is shown in your dashboard in the top right corner behind your company name
 4. Enter the requested information in the backend of your website
 5. The connection is finalized and you will be able to [place a test order](https://docs.multisafepay.com/api/#orders) to validate the connection. 
-
-
-

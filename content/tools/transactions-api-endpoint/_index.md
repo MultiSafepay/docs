@@ -19,16 +19,20 @@ To learn more about its applications, we examine four common use cases:
 
 ## Usage
 
-To access the transactions API endpoint, use the following URL:
+To access the transactions API endpoint, use the following URLs:
 
-`https://testapi.multisafepay.com/v1/json/transactions`  
+**Test**  
+`https://testapi.multisafepay.com/v1/json/transactions`
+
+**Live**  
+`https://api.multisafepay.com/v1/json/transactions`
+
+
 
 The transactions API endpoint supports the `GET` HTTP method. Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
 
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions"
--H "Content-Type: application/json" \
--H "Authorization: Bearer <your-api-key>" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" -H "Content-Type: application/json" -H "Authorization: Bearer <your-api-key>"
 ```
 
 _Note: Make sure to use your test API key when making a request to our test API_
@@ -50,7 +54,7 @@ The return type of requests to the transactions endpoint is `JSON` and transacti
   ],
   "created": "string",
   "currency": "string",
-  "debit_credit": "D",
+  "debit_credit": "D_C",
   "description": "string",
   "financial_status": "string",
   "invoice_id": "string",
@@ -83,11 +87,22 @@ You can use the following parameters to filter the returned transactions:
 | status    |  Transactions with matching [transaction status](/api/#transaction-statuses) are returned. {{< br >}} **Options:** `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`                |
 | payment_method | Transactions with matching payment method are returned. {{< br >}} **Format:** Follows [gateway](/api/#retrieve-a-gateway) conventions (e.g. `VISA`) |
 | type | Transactions with matching transaction type are returned. {{< br >}} **Options:** `admin_fee`, `affiliate_payout`, `automatic_payout`, `chargeback`, `coupon`, `currency_conversion`, `deposit`, `fastcheckout`, `monthly_fee`, `payment`, `refund`, `reserve_chargeback`, `singup_fee` |
-| limit  | Set `limit` to specify the maximum number of returned results per page. When `limit` is undefined it defaults to `100` to limit the response size. {{< br >}} **Format:** integer (e.g. `10`) |
+| limit  | Set `limit` to specify the maximum number of returned results per [page](#pagination). When `limit` is undefined it defaults to `100` to limit the response size. {{< br >}} **Format:** integer (e.g. `10`) |
+| after | Use the `after` cursor to request the next page when results are [paginated](#pagination). {{< br >}} **Format:** string (e.g. `ZD1ftlaZLHQ90EQCeQ`)
+| before | Use the `before` cursor to request the previous page when results are [paginated](#pagination). {{< br >}} **Format:** string (e.g. `ZD1gIU-ZLPQ9AEX73Q`)
 
 **Please note:** values `site_id`, `financial_status`, `status`, `payment_method`, and `type` can be specified both as single values or as arrays containing multiple values.
 
 {{< br >}}
+
+### Pagination
+A request to the transactions endpoint can return a lot of results. To make responses easier to handle, we paginate the results. The amount of transactions returned per call can be specified using the `limit` parameter. If the `limit` parameter is undefined, the value defaults to `100`.
+
+To access the next page of a response, use the `after` cursor from the `pager` object of the response. Upon subsequent calls, use the most recently returned `after` cursor to iterate over all pages. The last page with data will return an `after` pager to an empty page. A request to this page will be succesfull, but won't return any data or new cursors. 
+
+To access the previous page, use the `before` cursor in the `pager` object.
+
+_Please note that results are sorted from new to old. This means that the `after` cursor points to older transactions._
 
 ## Use cases
 

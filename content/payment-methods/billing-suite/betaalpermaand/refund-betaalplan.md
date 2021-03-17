@@ -26,7 +26,7 @@ Please follow these steps to refund a Betaal per Maand transaction:
 
 * The amount is deducted from the transaction. The refund will always be linked to the original transaction
 
-* In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information
+* In most ecommerce integrations you can also refund. See the [ecommerce integration FAQ](/integrations/ecommerce-integrations) for more information
 
 * Once the refund is confirmed, there is no possibility to reverse the refund
 
