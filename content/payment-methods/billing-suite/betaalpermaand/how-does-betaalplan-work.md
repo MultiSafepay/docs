@@ -34,8 +34,8 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Uncleared   | Uncleared  | When a Betaal per Maand transaction is marked with the status uncleared, Betaal per Maand will authorize or decline the transaction. No action is required.   |
-| Uncleared   | Initialized | A payment has been initiated, but no payment has been received yet.  | 
-| Completed   | Uncleared  | A successful Betaal per Maand transaction has been received.   |
+| Uncleared   | Initialized | A payment has been initiated, but no payment has been received yet. It is not possible to reject an order while the statuses are set to Uncleared/Initialized.   | 
+| Completed   | Uncleared  | A successful Betaal per Maand transaction has been received. The order can be rejected when the statuses are set to Completed/Uncleared.  |
 | Shipped     | Uncleared  | A Capture has been send to Betaal per Maand, the transaction has been confirmed. An invoice will be send to the customer and your payout is guaranteed. |
 | Shipped     | Completed  | Payout of a Betaal per Maand transaction has been received and added to your MultiSafepay Control balance.|
 | Declined    | Declined   | Transaction has been rejected by Betaal per Maand. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
