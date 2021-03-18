@@ -7,6 +7,13 @@ The OpenCart plugin offer a generic gateway; that can be found in WooCommerce Se
 
 All of our payment methods are supported. It is possible to set the gateway code, gateway logo, gateway label, and whether the shopping cart should be included in refund transactions. Specifying whether the shopping cart should be included in refund transactions is required if the gateway code used is that of a billing suite payment method.
 
-In the same way than others gateways, is possible also filter the payment method by country, min amount, max amount, and a set a custom initial order status. 
+Similar to other gateways, it is possible to filter the generic gateway by:
+
+* geographic zone
+* currency
+* min amount
+* max amount
+* customer groups
+Furthermore, you can set a custom initial order status.
 
 Full refunding actions, partial refunds action (except for billing suite payment methods), and backend orders are fully supported.
