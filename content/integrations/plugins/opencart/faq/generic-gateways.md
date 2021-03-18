@@ -17,4 +17,4 @@ Similar to other gateways, it is possible to filter the generic gateway by:
 
 Furthermore, you can set a custom initial order status.
 
-Full refunding actions and backend orders are fully supported.
+Full refunds, partial refunds (except for billing suite payment methods), and backend orders are fully supported.
