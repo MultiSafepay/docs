@@ -8,11 +8,11 @@ read_more: "Version 2 of our plugin is a different plugin and has been built fro
 Our new plugin has been built from the ground up. This also means that there are some differences, compared to the deprecated plugin. This article will describe in detail all of the most important differences, to prevent you running in to unexpected behaviour.
 
 ### 1. Installation of the new plugin
-It should be technically possible to have both the old and new plugin installed, but this has not been tested and unexpected things might happen. Therefore, we recommend to completely remove the deprecated plugin, before installing the new one.
+It should be technically possible to have both the deprecated and new plugin installed, but this has not been tested and unexpected things might happen. Therefore, we recommend to completely remove the deprecated plugin, before installing the new one.
 The payment gateways that were in the deprecated plugin will now not be available anymore, which means that online refunds for orders with these gateways can not be done anymore. These orders can be refunded via the MultiSafepay merchant control panel instead.
 
 ### 2. Configuration field changes in General Settings
-Some configuration fields are now changed as well. Below you can find all the configuration fields that were available in the old plugin that have changed in some way:
+Some configuration fields are now changed as well. Below you can find all the configuration fields that were available in the deprecated plugin that have changed in some way:
 
 #### E-mail invoice to customer
 The feature for sending invoices is still present in the new plugin, but instead of a separate configuration field for enabling/disabling sending the invoice, the plugin now decides to send a invoice based on the following Magento core configuration field:
