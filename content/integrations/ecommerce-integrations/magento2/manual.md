@@ -43,7 +43,7 @@ These features are based on MultiSafepay recurring payments. Please look at our 
 Some features are not available anymore, because they are not supported anymore or have been replaced:
 
 * Tokenization (Replaced by Magento Vault and Instant Purchase)
-* Fastcheckout (Not supported anymore)
+* FastCheckout (Not supported anymore)
 * PWA (REST) endpoints (Replaced by GraphQL endpoints)
 
 {{< blue-notice >}}

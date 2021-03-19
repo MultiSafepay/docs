@@ -61,9 +61,9 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
 Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
-4. Fastcheckout  
-This page contains the Fastcheckout specific settings.  
-More information about the Fastcheckout can be found in our [documentation of Fastcheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
+4. FastCheckout  
+This page contains the FastCheckout specific settings.  
+More information about the FastCheckout can be found in our [documentation of FastCheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

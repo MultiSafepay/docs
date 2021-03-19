@@ -117,7 +117,7 @@ Release date: March 27th, 2019
 + PLGOPNS-110: Fixed configuration for Multi-Store does not work properly
 + PLGOPNS-109: SEPA Direct Debit contained wrong source code
 + PLGOPNS-137: Fixed missing Webshop gift card title on checkout
-+ PLGOPNS-131: Fixed Fastcheckout is unable to retrieve shipping methods
++ PLGOPNS-131: Fixed FastCheckout is unable to retrieve shipping methods
 + PLGOPNS-113: Notice message when tax is not defined in the backend of the webshop
 
 ### Changed
