@@ -5,6 +5,71 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/opencart/changelog/]
 ---
 
+## 3.9.0
+Release date: March, 19th 2021
+
+### Added
++ PLGOPNS-374: Add generic gateway
+
+### Changed
++ PLGOPNS-384: Upgrade PHP-SDK to 5.1.0
+
+***
+
+## 3.8.0
+Release date: February, 11th 2021
+
+### Fixed
++ PLGOPNS-382: Fix bug to get the proper settings in a multi store OpenCart site
+
+***
+
+## 3.7.0
+Release date: February, 9th 2021
+
+### Fixed
++ PLGOPNS-381: Fix percentage coupon applied before taxes
+
+***
+
+## 3.6.0
+Release date: February, 8th 2021
+
+### Added
++ PLGOPNS-379: Add support for OpenCart 3.0.3.7  
++ PLGOPNS-373: Add company_name to CustomerDetails object in order request
+
+### Changed
++ PLGOPNS-380: Upgrade PHP-SDK to 4.1.0
++ PLGOPNS-377: Replace getPaymentLink() with getPaymentUrl() to prepare future deprecation of the method in the PHP-SDK
++ PLGOPNS-376: Improvements in callback notification function
+
+### Fixed
++ PLGOPNS-375: Remove unneded code related with the shopping cart of the transaction    
++ PLGOPNS-378: Fix bug for fixed coupons applied before taxes
+
+***
+
+## 3.5.0
+Release date: December, 18th 2020
+
+### Added
++ PLGOPNS-361: Add link to documentation for in3 payment method
++ PLGOPNS-358: Add giftcards logos missing: GivaCard, Wellness, Winkelcheque
++ PLGOPNS-367: Include giftcards in validation before enable a gateway 
+
+### Changed
++ PLGOPNS-372: Upgrade PHP-SDK to 4.0.3
++ DAVAMS-345:  Update logo of Trustly
++ PLGOPNS-359: Remove the round function from getMoneyObjectOrderAmount
++ PLGOPNS-365: Encode html entities in product name to avoid encoding typo errors.
+
+### Fixed
++ PLGOPNS-366: Fix bug, gift voucher items should pass to the transaction as negative amounts
++ PLGOPNS-371: Fix filter per customer group; when customer is not logged
+
+***
+
 ## 3.4.0
 Release date: November, 19th 2020
 
@@ -17,6 +82,7 @@ Release date: November, 19th 2020
 ### Changed
 + PLGOPNS-257: Include in support tab the contact details of international offices
 
+***
 
 ## 3.3.0
 Release date: October, 13th 2020
@@ -29,6 +95,7 @@ Release date: October, 13th 2020
 + PLGOPNS-303: Improve iDEAL issuer selection list
 + PLGOPNS-245: Improve the alignment of payment methods logos in checkout page
 
+***
 
 ## 3.2.0
 Release date: September, 17th 2020
@@ -41,6 +108,7 @@ Release date: September, 17th 2020
 + PLGOPNS-295: Add getEventByCode function, which does not exist prior to OC 3.0.1.2
 + PLGOPNS-284: Rename placeholder for 'Lifetime payment link' field to 'Time Active'
 
+***
 
 ## 3.1.0
 Release date: September, 14th 2020
@@ -49,6 +117,8 @@ Release date: September, 14th 2020
 + PLGOPNS-243: Improve fields related with lifetime of the payment link in the settings
 + PLGOPNS-253: Validate the field lifetime of payment link to avoid negative number
 + PLGOPNS-252: Improve description for each payment method on backoffice
+
+***
 
 ## 3.0.0
 Release date: September, 7th 2020
