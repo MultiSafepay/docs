@@ -1,11 +1,11 @@
 ---
-title : "What should i do when migrating to plugin version 2?"
-meta_title: "Magento 2 plugin FAQ - Migration to version 2  - MultiSafepay Docs"
+title : "What should I do when migrating to the new plugin?"
+meta_title: "Magento 2 plugin FAQ - Migration to the new plugin  - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "Version 2 of our plugin is a different plugin and has been built from the ground up. This also means that there are some differences, compared to the deprecated plugin. This article will describe in detail all of the most important differences, to prevent you running in to unexpected behaviour."
 ---
-Version 2 of our plugin is a different plugin and has been built from the ground up. This also means that there are some differences, compared to the deprecated plugin. This article will describe in detail all of the most important differences, to prevent you running in to unexpected behaviour.
+Our new plugin has been built from the ground up. This also means that there are some differences, compared to the deprecated plugin. This article will describe in detail all of the most important differences, to prevent you running in to unexpected behaviour.
 
 ### 1. Installation of the new plugin
 It should be technically possible to have both the old and new plugin installed, but this has not been tested and unexpected things might happen. Therefore, we recommend to completely remove the deprecated plugin, before installing the new one.
@@ -41,17 +41,15 @@ The order status flow has been changed a bit. In the new plugin from version 2.5
 ### 4. Changes in the checkout
 For the following payment methods, the payment flow has been changed from [Redirect to Direct](/faq/api/difference-between-direct-and-redirect/). This applies to the following payment methods: Afterpay, Request to Pay, Direct Debit, Einvoicing, in3 and Pay After Delivery (Betaal na Ontvangst).
 
-For these payment methods, we have included extra fields in the checkout. This means that if you are using a customised checkout, you now not only have to account for the iDEAL issuers checkout field, but also other checkout fields for the other payment methods mentioned above.
+**For these payment methods, we have included extra fields in the checkout. This means that if you are using a customised checkout, you now not only have to account for the iDEAL issuers checkout field, but also other checkout fields for the other payment methods mentioned above.**
 
-#### Example of the Afterpay checkout in the deprecated plugin
+#### An example of differences in the Luma checkout between Afterpay in the deprecated and the new plugin
 
-Checkout:
-{{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated.png" align="center" class="small-img desktop-radius" >}}
+Afterpay in the deprecated plugin:
+{{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated.png" align="center" class="desktop-radius" >}}
 
-Payment page:
-{{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated-2.png" align="center" class="small-img desktop-radius" >}}
+Afterpay payment page in the deprecated plugin:
+{{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated-2.png" align="center" class="small-image desktop-radius" >}}
 
-#### Example of the Afterpay checkout in the new plugin
-
-Checkout:
-{{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout.png" align="center" class="small-img desktop-radius" >}}
+Afterpay in the new plugin:
+{{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout.png" align="center" class="desktop-radius" >}}
