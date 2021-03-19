@@ -17,6 +17,6 @@ extra_button:
 
 ### Order management tool
 
-MplusKASSA is a new all-around order management software tool aiming to simplify the order process for restaurants, cafes, hotels and establishments alike.
+MplusKASSA offers order management software for restaurants, cafes, hotels and establishments alike.
 
 Recently, MplusKASSA has integrated their order management system with MultiSafepay. If you would like to find out more about the integration process, please contact MplusKASSA directly at <info@mpluskassa.nl>
