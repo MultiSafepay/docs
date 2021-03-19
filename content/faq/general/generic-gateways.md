@@ -13,7 +13,7 @@ For that reason some of our plugins contain one or more generic gateways. These 
 
 Plugin specific articles can be found here:
 
-[Craft commerce](/integrations/plugins/magento1/faq/generic-gateways/)
+[Craft commerce](/integrations/plugins/craftcommerce/faq/generic-gateways/)
 
 [Drupal 8 & 9](/integrations/plugins/magento1/faq/generic-gateways/)
 
