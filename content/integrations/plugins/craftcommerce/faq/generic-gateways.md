@@ -8,5 +8,5 @@ The Craft Commerce plugins offers generic gateways and/or generic giftcards.
 
 It is possible to set the gateway code and gateway label. All of our payment methods are supported.
  
-Refunds are possible like described in: [Refund FAQ article](/integrations/plugins/craftcommerce/faq/refunding-craft-commerce/)
+Refunds of generic gateway transactions are only possible through MultiSafepay control. 
 
