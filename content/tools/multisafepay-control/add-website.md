@@ -17,7 +17,7 @@ Adding your website to MultiSafepay Control is the first step to connecting your
    1. Select a category that is related to the website
    2. Provide a description. The description will be displayed on the payment page of MultiSafepay and depending on the payment method, it will also be shown on the bank statement of your customer
    3. Add the website URL. This should be the URL from which the actual payments are received
-   4. When available, provide a notification URL. The notification URL is used for sending status updates to your website. More information available on [How does the notification URL work?](/faq/api/how-does-the-notification-url-work)
+   4. When available, provide a [notification URL](/faq/api/how-does-the-notification-url-work). The notification URL is used for sending status updates to your website.
    6. Click on _Save_
 
 
