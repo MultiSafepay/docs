@@ -30,4 +30,8 @@ Follow these steps to locate your website details:
 2. Click on the website. An _API key_, _Site ID_ and _Secure code_ will be provided to establish a connection:
 3. Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID. Your Account ID is shown in your dashboard in the top right corner behind your company name. If you are building your own integration with our API, SDK or wrapper, use the API key under your website settings.
 4. Enter the requested information in the backend of your website
-5. The connection is finalized and you will be able to [place a test order](https://docs.multisafepay.com/api/#orders) to validate the connection. 
+5. The connection is finalized and you will be able to [place a test order](https://docs.multisafepay.com/api/#orders) to validate the connection.
+
+It is possible to add an unlimited number of websites to your MultiSafepay Control. Please keep in mind that the websites added to your account must be operated by the same legal company for which your MultiSafepay Control was created.
+
+If you wish to process payments for a website operated by a separate legal entity, you will have to sign up for an additional MultiSafepay Control.
