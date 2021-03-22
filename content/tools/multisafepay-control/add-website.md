@@ -1,54 +1,37 @@
 ---
 title : "Add a website"
 weight: 31
-meta_title: "MultiSafepay Control- Add Website - MultiSafepay Docs"
+meta_title: "MultiSafepay Control - Add a website - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
+## Add your website to MultiSafepay Control
+Adding your website to MultiSafepay Control is the first step to connecting your website and MultiSafepay. An [API key](/faq/general/glossary/#api-key) will be automatically generated once a website is added in your MultiSafepay Control. This will establish a connection between the two platforms.
 
-## Adding a webshop
-**Adding a webshop** to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an [API key](/faq/general/glossary/#api-key) will be automatically generated. This will establish the connection between the two platforms.  
-
-1. Log in to your MultiSafepay Control
-
-_A live Account ID starts with a 10_ → [Live MultiSafepay Control](https://merchant.multisafepay.com)  
-_A test Account ID starts with a 9_→ [Test MultiSafepay Control](https://testmerchant.multisafepay.com)
-
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) or [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com)
 2. Navigate to _Settings → Website settings_
+3. Add a new website by selecting _Quick add website_
+4. Please supply the following information to add a website for your ecommerce integration: 
 
-3. Add a new webshop by selecting _Quick add website_
-
-4. Please supply the following information to add a webshop:
-
-   1. Select a category that is related to the webshop
-   2.  Provide a description. The description will be displayed on the payment page of MultiSafepay and depending on the payment method, it will also be shown on the bank statement of your customer
-   3. Add the webshop URL. This should be the URL from which the actual payments are received
-   4.  When available, provide a notification URL. The notification URL is used for sending status updates to your webshop. More information available in [How does the notification URL work?](/faq/api/how-does-the-notification-url-work)
-   5.  Only upload a logo when your MultiSafepay Control is created as a FastCheckout account.
+   1. Select a category that is related to the website
+   2. Provide a description. The description will be displayed on the payment page of MultiSafepay and depending on the payment method, it will also be shown on the bank statement of your customer
+   3. Add the website URL. This should be the URL from which the actual payments are received
+   4. When available, provide a [notification URL](/faq/api/how-does-the-notification-url-work). The notification URL is used for sending status updates to your website.
+   6. Click on _Save_
 
 
-5. _Save_ the provided details. 
+## Connect your website with MultiSafepay
+Adding a website will automatically supply you with the details required to establish a connection. When opening the website in your MultiSafepay Control, an API key, Site ID and Secure code will be shown. 
 
-## Connect your webshop with MultiSafepay
-Adding a webshop will automatically supply you with the details needed to make a connection. When opening the webshop in your MultiSafepay Control, an API key, Site ID and Secure code will be shown. 
-
-Follow the following steps to locate your website details:
+Follow these steps to locate your website details:
 
 1. Navigate to _Settings → Website settings_
+2. Click on the website. An _API key_, _Site ID_ and _Secure code_ will be provided to establish a connection:
+3. Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID. Your Account ID is shown in your dashboard in the top right corner behind your company name. If you are building your own integration with our API, SDK or wrapper, use the API key under your website settings.
+4. Enter the requested information in the backend of your website
+5. The connection is finalized and you will be able to [place a test order](https://docs.multisafepay.com/api/#orders) to validate the connection.
 
-2. Open the webshop by clicking on it. The following information will be provided to be able to proceed with establishing the connection:
+It is possible to add an unlimited number of websites to your MultiSafepay Control. Please keep in mind that the websites added to your account must be operated by the same legal company for which your MultiSafepay Control was created.
 
-    * API key
-    * Site ID
-    * Secure Code
-    
-    
-3. Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID 
-    * _Your Account ID is shown in your dashboard in the top right corner behind your company name_ <br>
-    
-4. Enter the requested information in the backend of your webshop
-5. The connection is finalized. Place a test order to validate the connection. 
-
-
-
+If you wish to process payments for a website operated by a separate legal entity, you will have to sign up for an additional MultiSafepay Control.
