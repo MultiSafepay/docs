@@ -49,5 +49,8 @@ Some products and/or services cannot therefore be accepted or can only be sold i
 ## Tobacco
 * If cigarettes, cigars, or pipe tobacco with nicotine are sold
 
+## Alcohol
+* Please read our [conditions for selling alcohol](/faq/getting-started/rules-for-selling-alcohol/)
+
 ## Live organisms
 * If live organisms are offered in any way
