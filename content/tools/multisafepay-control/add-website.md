@@ -1,13 +1,16 @@
 ---
-title : "Add a website"
+title : "Add your website"
 weight: 31
 meta_title: "MultiSafepay Control - Add a website - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /faq/getting-started/how-many-websites-can-i-add-to-my-multisafepay-account/
 ---
 
 ## Add your website to MultiSafepay Control
-Adding your website to MultiSafepay Control is the first step to connecting your website and MultiSafepay. An [API key](/faq/general/glossary/#api-key) will be automatically generated once a website is added in your MultiSafepay Control. This will establish a connection between the two platforms.
+
+Adding your website to MultiSafepay Control is the first step to connecting your website and MultiSafepay. To do so, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) or [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com)
 2. Navigate to _Settings → Website settings_
@@ -21,7 +24,7 @@ Adding your website to MultiSafepay Control is the first step to connecting your
    6. Click on _Save_
 
 
-## Connect your website with MultiSafepay
+## Accessing your API key
 Adding a website will automatically supply you with the details required to establish a connection. When opening the website in your MultiSafepay Control, an API key, Site ID and Secure code will be shown. 
 
 Follow these steps to locate your website details:

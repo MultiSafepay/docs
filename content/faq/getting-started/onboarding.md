@@ -8,7 +8,7 @@ aliases:
     - /faq/getting-started/account-approval/
 ---
 
-## Onboarding
+## Introduction
 
 Onboarding refers to the steps required to activate a live account with MultiSafepay. When a [new account is created](https://merchant.multisafepay.com/signup), we perform several [Know your customer](https://en.wikipedia.org/wiki/Know_your_customer) checks on the account holder, associated bank account, and the business. Furthermore, we examine the associated website, and the products offered to check whether they comply with our policies.
 
