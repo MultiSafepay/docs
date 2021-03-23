@@ -9,3 +9,4 @@ jobs:
     - uses: seferov/pr-lint-action@master
       with:
         title-regex: '^(\DOCS-\d*\: |\INTGRTN-\d*\: |\DOCS\: )'
+        error-message: 'Make sure both the PR title and the subject line of the last commit comply with our conventions.\nCorrect formatting options:\nDOCS: <subject line>\nDOCS-<corresponding Jira ticket>: <subject line>\nINTGRTN-<corresponding Jira ticket>: <subject line>'
