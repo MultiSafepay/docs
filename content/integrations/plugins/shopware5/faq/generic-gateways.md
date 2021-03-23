@@ -5,6 +5,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: "faqdetail"
 ---
 
-The MultiSafepay plugin for Shopware offers generic gateways.
+The MultiSafepay plugin for Shopware offers [generic gateways](/faq/general/generic-gateways/).
 
-You can use this gateway for example for branded gateways. In the MultiSafepay settings page in the Shopware backend you can fill in the gateway code that is provided by MultiSafepay.
+You can use this gateway for example for branded gateways. In the MultiSafepay settings page in the Shopware backend, you can fill in the gateway code that is provided by MultiSafepay.

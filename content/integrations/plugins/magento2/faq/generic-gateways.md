@@ -6,14 +6,14 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-The Magento 2 plugin offers a generic gateway. This is a gateway which you can customize yourself.
+The Magento 2 plugin offers a [generic gateway](/faq/general/generic-gateways/).
 It can be found under the MultiSafepay payment methods inside the MultiSafepay configuration:
 
 _Stores_ → _Configuration_ → _MultiSafepay_ → _Payment Methods_ → _Generic Gateway_
 
-You enter the gateway code and upload a custom gateway image.
-You also need to set if the gateway requires a shopping cart or not.
-It works for the most part like a regular redirect payment method.
-Except for recurring payments, all the features like refunding and creating a backend order are supported.
+- You enter the gateway code and upload a custom gateway image.
+- You also need to set if the gateway requires a shopping cart or not.
+- It works for the most part as a regular redirect payment method.
+- Except for recurring payments, all the features like refunding and creating a backend order are supported.
 
-If you have any questions regarding the integration of the generic gateway, please contact our integration team at integration@multisafepay.com
+- If you have any questions regarding the integration of the generic gateway, please contact our integration team at integration@multisafepay.com
