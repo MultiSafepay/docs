@@ -8,7 +8,7 @@ read_more: "Version 2 of our plugin is a different plugin and has been built fro
 Our new plugin has been built from the ground up. This also means that there are some differences, compared to the deprecated plugin. This article will describe in detail all of the most important differences, to prevent you running in to unexpected behaviour.
 
 ### 1. Installation of the new plugin
-It should be technically possible to have both the deprecated and new plugin installed, but this has not been tested and unexpected things might happen. Therefore, we recommend to completely remove the deprecated plugin, before installing the new one.
+We recommend to completely remove the deprecated plugin, before installing the new one. If you need help with removing the deprecated plugin, please take a look at our dedicated [FAQ article](/integrations/ecommerce-integrations/magento2/faq/how-to-delete-deprecated-plugin/) for this.
 The payment gateways that were in the deprecated plugin will now not be available anymore, which means that online refunds for orders with these gateways can not be done anymore. These orders can be refunded via the MultiSafepay merchant control panel instead.
 
 ### 2. Configuration field changes in General Settings
