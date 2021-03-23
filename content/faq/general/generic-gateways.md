@@ -27,8 +27,6 @@ Plugin specific articles can be found here:
 
 [Shopware 6](/integrations/plugins/shopware6/faq/generic-gateways/)
 
-[WooCommerce](/integrations/plugins/woocommerce/faq/generic-gateways/)
-
 ### Generic Giftcards 
 Since we do not support all of the open-loop giftcards and non of the closed-loop giftcards in our integrations generic gateways can be especially useful for giftcards.
 In some of the integrations we have special gateways that act as generic giftcard gateways.
