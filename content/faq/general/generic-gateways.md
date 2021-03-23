@@ -15,17 +15,17 @@ Plugin specific articles can be found here:
 
 [Craft commerce](/integrations/plugins/craftcommerce/faq/generic-gateways/)
 
-[Drupal 8 & 9](/integrations/plugins/magento1/faq/generic-gateways/)
+[Drupal 8 & 9](/integrations/plugins/drupal8/faq/generic-gateways/)
 
 [Magento 1](/integrations/plugins/magento1/faq/generic-gateways/)
 
-[Magento 2](/integrations/plugins/magento1/faq/generic-gateways/)
+[Magento 2](/integrations/plugins/magento2/faq/generic-gateways/)
 
 [OpenCart](/integrations/plugins/opencart/faq/generic-gateways/)
 
-[Shopware 5](/integrations/plugins/magento1/faq/generic-gateways/)
+[Shopware 5](/integrations/plugins/shopware5/faq/generic-gateways/)
 
-[Shopware 6](/integrations/plugins/magento1/faq/generic-gateways/)
+[Shopware 6](/integrations/plugins/shopware6/faq/generic-gateways/)
 
 [WooCommerce](/integrations/plugins/woocommerce/faq/generic-gateways/)
 
