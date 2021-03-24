@@ -49,7 +49,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a Visa [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-{{< alert-notice >}} Besides the individual credit card gateways, MultiSafepay offers you a generic gateway called [CREDITCARD](https://docs.multisafepay.com/api/#credit-cards). This can save space on your mobile checkout. The disadvantage is that the consumer can not immediately see which credit cards can be used. The correct credit card logo will appear automatically when the card holder provides the first digits of the credit card number. {{< /alert-notice >}}
+{{< alert-notice >}} Besides the individual credit card gateways, MultiSafepay offers you a generic gateway called [CREDITCARD](https://docs.multisafepay.com/api/#credit-cards). This can save space on your mobile checkout. The disadvantage is that the customer can not immediately see which credit cards can be used. The correct credit card logo will appear automatically when the card holder provides the first digits of the credit card number. {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 

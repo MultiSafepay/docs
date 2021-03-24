@@ -25,9 +25,9 @@ For the majority of payment transactions, retailers are no longer allowed to cha
 ### What is permitted?
 Certain payment methods do not fall under the surcharge prohibition, as follows:
 
-* For PayPal, retailers are only allowed to charge consumers the actual costs incurred by them when using these payment methods and __may never__ exceed them
+* For PayPal, retailers are only allowed to charge customers the actual costs incurred by them when using these payment methods and __may never__ exceed them
 
-* For pay-after-delivery (post-payment) payments, such as Klarna or AfterPay, retailers are only allowed to charge consumers the actual costs incurred by them when using these payment methods and __may never__ exceed them
+* For pay-after-delivery (post-payment) payments, such as Klarna or AfterPay, retailers are only allowed to charge customers the actual costs incurred by them when using these payment methods and __may never__ exceed them
 
 * Credit card transactions paid with a card issued outside the EU/EEA can still be surcharged (e.g. an overseas tourist with a credit card issued in India)
 

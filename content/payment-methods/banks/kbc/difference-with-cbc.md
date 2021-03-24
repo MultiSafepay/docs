@@ -11,4 +11,4 @@ Essentially, there is no real difference between these two payment methods. Both
 
 The main difference is that [CBC](/payment-methods/banks/cbc) is focused on the French speaking part of Belgium, whereas KBC is meant for the Dutch speaking population of Belgium. 
 
-It’s important to note that, due to KBC and CBC being two different branches, in our payment gateway you will be provided with a separate option for both of these payment methods. Consumers under KBC cannot complete transactions through CBC and vice-versa. The way they function, however, is exactly the same. 
+It’s important to note that, due to KBC and CBC being two different branches, in our payment gateway you will be provided with a separate option for both of these payment methods. Customers under KBC cannot complete transactions through CBC and vice-versa. The way they function, however, is exactly the same. 
