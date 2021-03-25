@@ -9,7 +9,7 @@ aliases: [/integrations/woocommerce/changelog/]
 Release date: Mar 25th, 2021
 
 ### Fixed
-+ PLGWOOS-653: Use initial order status set in payment method settings, when processing the notification, if status returned as initialized
++ PLGWOOS-653: Fix overwriting initial order status when transaction was initialized
 
 ***
 
