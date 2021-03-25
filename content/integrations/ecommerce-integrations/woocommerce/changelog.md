@@ -9,7 +9,7 @@ aliases: [/integrations/woocommerce/changelog/]
 Release date: Mar 25th, 2021
 
 ### Fixed
-+ PLGWOOS-653: Fix overwriting initial order status when transaction was initialized
++ PLGWOOS-653: Fix overwriting initial order status when transaction is initialized
 
 ***
 
