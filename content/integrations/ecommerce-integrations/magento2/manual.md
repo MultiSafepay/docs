@@ -11,6 +11,7 @@ aliases:
 ---
 
 ### Introduction
+
 We are proud to announce that we have been working on a brand new Magento 2 plugin. 
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
 It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.
@@ -27,29 +28,33 @@ The FAQ items regarding the old Magento 2 plugin have been moved to the [old plu
 {{< /alert-notice >}}
 
 ### 1. Features
-There are a lot of new features, but there are also some features that are not available as of yet.
-The following features are not available in the new Magento 2 plugin:
-
-* Tokenization
-* Fastcheckout
-
 Some of the new features include:
 
-* Improved Magento backend configuration with less bugs
+* Improved Magento backend configuration
 * Improved translations
 * Improved error handling and event & error logs
 * Support information available in the Magento backend
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
+* As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html).
 * PWA (GraphQL) endpoints
+These features are based on MultiSafepay recurring payments. Please look at our docs page about [Recurring payments](/tools/recurring-payments/) for more information about this subject.  
+
+Some features are not available anymore, because they are not supported anymore or have been replaced:
+
+* Tokenization (Replaced by Magento Vault and Instant Purchase)
+* FastCheckout (Not supported anymore)
+* PWA (REST) endpoints (Replaced by GraphQL endpoints)
+
+{{< blue-notice >}}
+MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>
+{{< /blue-notice >}}
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x (For GraphQL only Magento Open Source versions 2.4.x are supported)
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x or Magento Commerce version 2.3.x & 2.4.x (For GraphQL only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
-
-_* If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
 
 ### 3. Modules
 The new MultiSafepay Magento 2 plugin consists of several Magento modules:
@@ -99,20 +104,22 @@ The meta-package has a dependency on MSI, which means that the MSI modules shoul
 
 The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml module, so they all will be installed. And then you need to have a module which handles the stock in some specific cases. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
 
+The installation process is the same for the Magento Commerce version.
+
 ### 5. Configuration
-1. Log in to the backend of your webshop and navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Information_.  
+1. Log in to the backend of your webshop and navigate to _Stores_ → _Configuration_ → _MultiSafepay_ → _General Information_.  
 This page contains all main support information and it is advised to read this.
 
-2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _General Settings_.   
+2. Navigate to _Stores_ → _Configuration_ → _MultiSafepay_ → _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
 Information on where to find your Account ID, Site ID, Site code or [API key](/faq/general/glossary/#api-key) can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
 
-2. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Payment Methods_.   
+2. Navigate to _Stores_ → _Configuration_ → _MultiSafepay_ → _Payment Methods_.   
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-3. Navigate to _Stores_ → _Configuration_ → _Payment Methods_ → _MultiSafepay_ → _Gift Cards_.  
+3. Navigate to _Stores_ → _Configuration_ → _MultiSafepay_ → _Gift Cards_.  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
 Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 

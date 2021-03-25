@@ -10,7 +10,7 @@ aliases:
 
 {{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1 in the future. Please read our [blog](https://bit.ly/2YX2LGL) for more information and the actions to take.{{< /alert-notice >}}
 
-{{< alert-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
+{{< blue-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /blue-notice >}}
 
 ### Introduction
 
@@ -26,6 +26,9 @@ In this manual we describe the SFTP upload method.
 
 {{% introduction_plugin "Magento 1" %}}
 
+{{< blue-notice >}}
+MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>
+{{< /blue-notice >}}
 
 ### 1. Requirements
 - Magento Open Source 1.7 - 1.9
@@ -50,8 +53,8 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 This page contains the configuration options for all gift card supported by MultiSafepay.
 gift card need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
-4. Fastcheckout  
-This page contains the Fastcheckout specific settings. More information about [Fastcheckout](/payment-methods/fastcheckout) can be found on our official website.
+4. FastCheckout  
+This page contains the FastCheckout specific settings. More information about [FastCheckout](/payment-methods/fastcheckout) can be found on our official website.
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <magento1@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

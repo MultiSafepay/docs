@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay Mijnwebwinkel installation & configuration manual"
-meta_title: "Mijnwebwinkel plugin manual - MultiSafepay Docs"
+meta_title: "Mijnwebwinkel app manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases: 
     - /hosted/mijnwebwinkel/manual
@@ -9,7 +9,7 @@ aliases:
 ---
 ### Introduction
 
-{{% introduction_hosted "Mijnwebwinkel" %}}
+{{% introduction_app "Mijnwebwinkel" %}}
 
 ### 1. Installation & Configuration
 

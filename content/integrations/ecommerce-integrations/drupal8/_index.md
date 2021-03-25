@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for Drupal 8 & 9"
 github_url : "https://github.com/MultiSafepay/drupal-commerce-2/"
-download_url : "https://github.com/MultiSafepay/drupal-commerce-2/releases/download/8.x-2.0/commerce_multisafepay_payments-8.x-2.0.zip"
+download_url : "https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip"
 changelog: https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGELOG.md
 manual: "."
 faq: "."

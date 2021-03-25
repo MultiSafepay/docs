@@ -10,4 +10,5 @@ weight: 10
 aliases: 
     - /plugins/
     - /integrations/plugins/
+    - /integrations/hosted/
 ---

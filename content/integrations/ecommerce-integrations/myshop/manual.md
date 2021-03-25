@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay myShop installation & configuration manual"
-meta_title: "myShop plugin manual - MultiSafepay Docs"
+meta_title: "myShop app manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases: 
     - /hosted/myshop/manual
@@ -10,7 +10,7 @@ aliases:
 
 ### Introduction
 
-{{% introduction_hosted "myShop" %}}
+{{% introduction_app "myShop" %}}
 
 ### 1. Installation & Configuration
 1. Log in to your backend and install the MultiSafepay app in the App Store

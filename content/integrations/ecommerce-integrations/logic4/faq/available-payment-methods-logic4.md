@@ -33,6 +33,7 @@ __Billing suite__
 + [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
++ [in3](/payment-methods/billing-suite/in3)
 
 
 

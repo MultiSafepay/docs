@@ -14,6 +14,6 @@ aliases:
 {{% introduction_hosted "Logic4" %}}
 
 ### Installation & Configuration
-An installation mnual is provided by our partner. For more information, please contact [Logi4](https://www.logic4.nl/contact/) directly.
+An installation manual is provided by our partner. For more information, please contact [Logi4](https://www.logic4.nl/contact/) directly.
 
 If you have any technical queries about the plugin, please contact [Logic4](https://www.logic4.nl/contact/)

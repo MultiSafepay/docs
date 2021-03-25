@@ -34,6 +34,24 @@
                     {{ if .Params.description }}
                     {{ .Params.description | markdownify }}
                     {{ end }}
+                    {{ if or (isset .Params "magento_image_certified_expert") (isset .Params "magento_image_certified_professional") (isset .Params "magento_image_innovate_partner")}}
+                    <div class="row pt-5 pb-3">
+                            <div class="col">
+                                {{ if .Params.magento_image_certified_expert }}
+                                <img class="magento_badge" src="{{ .Params.magento_image_certified_expert }}"
+                                    alt="{{ .Params.magento_image_certified_expert_alt }}">
+                                {{ end }}
+                                {{ if .Params.magento_image_certified_professional }}
+                                <img class="magento_badge" src="{{ .Params.magento_image_certified_professional }}"
+                                    alt="{{ .Params.magento_image_certified_professional_alt }}">
+                                {{ end }}
+                                {{ if .Params.magento_image_innovate_partner }}
+                                <img src="{{ .Params.magento_image_innovate_partner }}"
+                                    alt="{{ .Params.magento_image_innovate_partner_alt }}">
+                                {{ end }}
+                            </div>
+                        </div>
+                    {{ end }}
                     {{ if or (isset .Params "github_url") (isset .Params "download_url") }}
                     <div class="row pt-5 pb-5">
                         <div class="col small-vertical">

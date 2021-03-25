@@ -13,7 +13,7 @@ aliases:
 ### Introduction
 This is the Lightspeed app. The core Lightspeed integration can be found [here](/integrations/ecommerce-integrations/lightspeed_core)
 
-{{% introduction_hosted "Lightspeed" %}}
+{{% introduction_app "Lightspeed" %}}
 
 ### Requirements
 The application is tested using the default, one-step and one-page checkout using the default theme.

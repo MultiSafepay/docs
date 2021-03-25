@@ -5,7 +5,6 @@ meta_title: "Magento 2 plugin FAQ - Order Lifetime - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/magento2/faq/pending-payment-order-lifetime/]
 ---
 
 The lifetime of orders marked as pending payments in Magento 2 is determined by the _Order Cron Settings configuration_. The default value is set to 480 minutes (8 hours)
