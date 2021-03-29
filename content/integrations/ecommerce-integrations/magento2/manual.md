@@ -37,8 +37,10 @@ Some of the new features include:
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
-* As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html).
-These features are based on MultiSafepay recurring payments. Please look at our docs page about [Recurring payments](/tools/recurring-payments/) for more information about this subject.  
+* As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html).  
+  These features are based on MultiSafepay recurring payments. Please look at our docs page about [Recurring payments](/tools/recurring-payments/) for more information about this subject.
+* PWA (GraphQL) endpoints
+
 
 Some features are not available anymore, because they are not supported anymore or have been replaced:
 
@@ -52,7 +54,7 @@ MultiSafepay supports most functionalities of Magento. If you have any questions
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x or Magento Commerce version 2.3.x & 2.4.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x or Magento Commerce version 2.3.x & 2.4.x (For GraphQL only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 
 ### 3. Modules

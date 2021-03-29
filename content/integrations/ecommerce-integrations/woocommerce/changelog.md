@@ -5,6 +5,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.4.1
+Release date: Mar 25th, 2021
+
+### Fixed
++ PLGWOOS-653: Fix overwriting initial order status when transaction is initialized
+
+***
+
 ## 4.4.0
 Release date: Mar 23th, 2021
 
