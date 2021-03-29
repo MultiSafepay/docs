@@ -38,9 +38,7 @@ The first time a user logs into MultiSafepay Control after 2FA is enabled, they 
 Congratulations, you have successfully enabled and configured 2FA. Your data is now protected by an additional layer of security.
 Please keep in mind that upon every login a newly generated 6-digit token is required.
 
-{{< br >}}
-## Frequently asked questions
-{{< br >}}
+{{< collapse-h2 title="Frequently asked questions">}}
 
 ### Can I use one device for multiple users?
 Only one mobile device can only be connected to one user and only one user can be connected to one mobile device. This means there is a unique link between every one user and one device.
@@ -62,3 +60,6 @@ Unfortunately, no. We implement 2FA through the use of a password and a 6-digit 
 
 ### What if a user loses their 2FA device?
 If a user loses their 2FA device, disable and re-enable 2FA on their account. Follow [these steps](#how-to-enable-2fa) to do so (this requires administrator's rights). Once 2FA is disabled, the existing connection is broken. The user can now connect a new mobile device to their MultiSafepay Control. If you only have one MultiSafepay user account or in case any other problems arise, please [contact support](mailto:support@multisafepay.com)
+
+{{< /collapse-h2 >}}
+
