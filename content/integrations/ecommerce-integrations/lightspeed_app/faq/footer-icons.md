@@ -3,9 +3,9 @@ title : "Where are the icons in my footer?"
 meta_title: "Lightspeed plugin - Where are the icons in my footer?"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases:
+  - /integrations/hosted/lightspeed_app/faq/footer-icons
 ---
-
-__This feature will be released in 1.0.11__
 
 When using built-in Lightspeed payment methods, icons will appear in the footer when a payment method is enabled. Apps do not support this by default.
 
