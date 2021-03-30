@@ -16,7 +16,7 @@ We are proud to announce that we have been working on a brand new Magento 2 plug
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
 It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.
 
-**Please uninstall the old plugin first, before installing the new one.**
+**If you are on the deprecated plugin and want to upgrade, please read this [FAQ article](/integrations/ecommerce-integrations/magento2/faq/migrating-to-new-plugin/) about how you can migrate to the new plugin**
 
 {{< blue-notice >}}
 We have recently added support for Magento Instant Purchase and Magento Vault.  
@@ -24,7 +24,11 @@ To learn more about these features, [read our blog](https://www.multisafepay.com
 {{< /blue-notice >}}
 
 {{< alert-notice >}}
-The FAQ items regarding the old Magento 2 plugin have been moved to the [old plugin page](/integrations/ecommerce-integrations/magento2/old) 
+If you are on the deprecated plugin and want to upgrade, please read this [FAQ article](/integrations/ecommerce-integrations/magento2/faq/migrating-to-new-plugin/) about how you can migrate to the new plugin
+{{< /alert-notice >}}
+
+{{< alert-notice >}}
+The FAQ items regarding the deprecated Magento 2 plugin have been moved to the [deprecated plugin page](/integrations/ecommerce-integrations/magento2/old) 
 {{< /alert-notice >}}
 
 ### 1. Features
@@ -37,8 +41,10 @@ Some of the new features include:
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
-* As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html).
-These features are based on MultiSafepay recurring payments. Please look at our docs page about [Recurring payments](/tools/recurring-payments/) for more information about this subject.  
+* As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html).  
+  These features are based on MultiSafepay recurring payments. Please look at our docs page about [Recurring payments](/tools/recurring-payments/) for more information about this subject.
+* PWA (GraphQL) endpoints
+
 
 Some features are not available anymore, because they are not supported anymore or have been replaced:
 
@@ -52,7 +58,7 @@ MultiSafepay supports most functionalities of Magento. If you have any questions
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x or Magento Commerce version 2.3.x & 2.4.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x or Magento Commerce version 2.3.x & 2.4.x (For GraphQL only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 
 ### 3. Modules

@@ -321,7 +321,7 @@ __ip_address__ | string
 
   __disable_send_email (optional)__	| boolean
 
-Set to _True_ if you will send your own bank transfer payment instructions to consumers and do not want MultiSafepay to do this. This value defaults to _false_.
+Set to _True_ if you will send your own bank transfer payment instructions to customers and do not want MultiSafepay to do this. This value defaults to _false_.
 
 
 ----------------

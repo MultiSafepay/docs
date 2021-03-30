@@ -1584,3 +1584,9 @@ p code, td code {
     padding: 2px 5px;
 }
 
+/* Collapse-header */
+
+.collapse-header:hover {
+	color: #008DCB;
+	
+}

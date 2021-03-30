@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## What it is
-Mastercard is a major credit card service provider worldwide. Consumers will be able to pay merchants for goods or services using the Mastercard credit card in both physical and online stores.
+Mastercard is a major credit card service provider worldwide. Customers will be able to pay merchants for goods or services using the Mastercard credit card in both physical and online stores.
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
