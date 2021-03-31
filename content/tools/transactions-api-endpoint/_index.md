@@ -11,7 +11,6 @@ The transactions API endpoint returns the data of transactions that are associat
 To learn more about its applications, we examine four common use cases:
 
 * [**General overview**](#create-a-general-overview): Create an overview of all transactions
-* [**Payout specification**](#generate-a-payout-specification): Gain insight into your payouts
 * [**Reconciliation**](#perform-reconciliation): Automate your bookkeeping by matching mutations
 * [**Refunds overview**](#create-a-refund-overview): Create an overview of your refunds 
 
@@ -26,7 +25,6 @@ To access the transactions API endpoint, use the following URLs:
 
 **Live**  
 `https://api.multisafepay.com/v1/json/transactions`
-
 
 
 The transactions API endpoint supports the `GET` HTTP method. Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
@@ -78,20 +76,20 @@ You can use the following parameters to filter the returned transactions:
 
 | Parameter | Description                  |
 |------------------|-----------------------|
-| site_id | Only transactions for specified `site_id` are returned. Find your site IDs in MultiSafepay Control. By default, the transactions endpoint will return the transactions of all sites under your account. {{< br >}} **Format:** integer (e.g. `12345`) |
-| start | Transactions created after `start` are returned. {{< br >}} **Format:** [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-01T12:00:00`)  ||
-| start_epoch  | Transactions created after `start_epoch` are returned. This parameter can be used as an alternative to `start`. If both values are specified, `start` overrules `start_epoch`. {{< br >}} **Format:** [Epoch](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609502400`)    |
-| end     |  Transactions created before `end` are returned. {{< br >}} **Format:** [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-01T12:00:00`)  |
-| end_epoch | Transactions created before `end_epoch` are returned. This parameter can be used as an alternative to `end`. If both values are specified, `end` overrules `end_epoch`. {{< br >}} **Format:** [Epoch](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609502400`)    |
-| financial_status  |  Transactions with matching [financial status](/api/#financial-statuses) are returned. {{< br >}} **Options:** `completed`, `created`, `declined`, `error`, `expired`, `initialized`, `manual`, `new`, `refunded`, `reserved`, `uncleared`, `void`                |
-| status    |  Transactions with matching [transaction status](/api/#transaction-statuses) are returned. {{< br >}} **Options:** `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`                |
-| payment_method | Transactions with matching payment method are returned. {{< br >}} **Format:** Follows [gateway](/api/#retrieve-a-gateway) conventions (e.g. `VISA`) |
-| type | Transactions with matching transaction type are returned. {{< br >}} **Options:** `admin_fee`, `affiliate_payout`, `automatic_payout`, `chargeback`, `coupon`, `currency_conversion`, `deposit`, `fastcheckout`, `monthly_fee`, `payment`, `refund`, `reserve_chargeback`, `singup_fee` |
-| limit  | Set `limit` to specify the maximum number of returned results per [page](#pagination). When `limit` is undefined it defaults to `100` to limit the response size. {{< br >}} **Format:** integer (e.g. `10`) |
-| after | Use the `after` cursor to request the next page when results are [paginated](#pagination). {{< br >}} **Format:** string (e.g. `ZD1ftlaZLHQ90EQCeQ`)
-| before | Use the `before` cursor to request the previous page when results are [paginated](#pagination). {{< br >}} **Format:** string (e.g. `ZD1gIU-ZLPQ9AEX73Q`)
+| site_id{{< br >}}`integer`| Only transactions for specified `site_id` are returned. Find your site IDs in MultiSafepay Control. By default, requests return the transactions of all sites under your account. {{< br >}} **Format:** Site ID (e.g. `12345`) |
+| created_from{{< br >}}`string` | Transactions created from `created_from` are returned. This filter is inclusive, meaning that a transaction created on the specified timestamp is returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-01T12:00:00` or `2021-01-01`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609502400`) |
+| created_until{{< br >}}`string` | Transactions created before `created_until` are returned. This filter is exclusive, meaning that a transaction created on the specified timestamp isn't returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-02T12:00:00` or `2021-01-02`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609588800`) |
+| completed_from{{< br >}}`string` | Transactions completed from `completed_from` are returned. This filter is inclusive, meaning that a transaction completed on the specified timestamp is returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-01T12:00:00` or `2021-01-01`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609502400`) |
+| completed_until{{< br >}}`string` | Transactions completed before `completed_until` are returned. This filter is exclusive, meaning that a transaction completed on the specified timestamp isn't returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-02T12:00:00` or `2021-01-02`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609588800`) |
+| financial_status{{< br >}}`string`  |  Transactions with matching [financial status](/api/#financial-statuses) are returned. {{< br >}} **Options:** `completed`, `created`, `declined`, `error`, `expired`, `initialized`, `manual`, `new`, `refunded`, `reserved`, `uncleared`, `void`                |
+| status{{< br >}}`string` |  Transactions with matching [transaction status](/api/#transaction-statuses) are returned. {{< br >}} **Options:** `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`                |
+| payment_method{{< br >}}`string` | Transactions with matching payment method are returned. {{< br >}} **Format:** Follows [gateway](/api/#retrieve-a-gateway) conventions (e.g. `VISA`) |
+| type{{< br >}}`string` | Transactions with matching transaction type are returned. {{< br >}} **Options:** `admin_fee`, `affiliate_payout`, `automatic_payout`, `chargeback`, `coupon`, `currency_conversion`, `deposit`, `fastcheckout`, `monthly_fee`, `payment`, `refund`, `reserve_chargeback`, `singup_fee` |
+| limit{{< br >}}`integer`  | Set `limit` to specify the maximum number of returned results per [page](#pagination). When `limit` is undefined it defaults to `100` to limit the response size. |
+| after{{< br >}}`string` | Use the `after` cursor to request the next page when results are [paginated](#pagination). {{< br >}} **Format:** cursor (e.g. `ZD1ftlaZLHQ90EQCeQ`)
+| before{{< br >}}`string` | Use the `before` cursor to request the previous page when results are [paginated](#pagination). {{< br >}} **Format:** cursor (e.g. `ZD1gIU-ZLPQ9AEX73Q`)
 
-**Please note:** values `site_id`, `financial_status`, `status`, `payment_method`, and `type` can be specified both as single values or as arrays containing multiple values.
+**Please note:** values `site_id`, `financial_status`, `status`, `payment_method`, and `type` can be specified either as single values or as arrays containing multiple values.
 
 {{< br >}}
 
@@ -110,32 +108,11 @@ _Please note that results are sorted from new to old. This means that the `after
 
 _I want to have a complete overview of all transactions associated with my MultiSafepay account_
 
-To create a general overview of your transactions, no parameters are required. Instead, use the parameters to filter the transactions to your needs. 
-When making unfiltered requests to the transactions API endpoint, use pagination to make responses easier to handle. To use pagination, set `limit` to the number of transactions to be returned per request.
+To create a general overview of your transactions, no parameters are required. Optionally, you may use the parameters to filter the transactions to your needs. Keep in mind that the response will be paginated by default.
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?limit=20" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
-```
-
-{{< br >}}
-
-### Generate a payout specification
-
- _I want to have an overview of all transactions that correspond with my payout_
-
-* Gain insights into the transactions that account for a specific payout
-* Management of your accounting and bookkeeping
-
-| Parameter  | Required value |
-|------------------|-----------------------|
-| start | Specify the start of the payout period {{< br >}} (e.g. `2021-01-01T12:00:00`) |
-| end | Specify the end of the payout period {{< br >}} (e.g. `2021-02-01T12:00:00`) |
-| financial_status | `completed` |
-
-#### Sample request
-```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?end=2021-02-01T12%3A00%3A00&start=2021-01-01T12%3A00%3A00&financial_status=completed" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
 ```
 
 {{< br >}}
@@ -150,13 +127,12 @@ _I want to match mutations to justify the balance in my accounting or bookkeepin
 | Parameter  | Required value |
 |------------------|-----------------------|
 | type | Retrieve all transaction types by not specifying a value. Alternatively, retrieve only specified transaction types like `payment` or `refund`. |
-| financial_status           |  `completed` |
-
-Use parameters `end` and `start` to specify a range of dates.
+| completed_from  | Specify the beginning of the period you want to perform reconcilliation over. For example, if you want to perform reconcilliation over January 2021, use the value `2021-01-01` |
+| completed_until  | Specify the end of the period you want to perform reconcilliation over. Keep in mind that this value is exclusive. For example, if you want to perform reconcilliation over Janurary 2021, use the value `2021-02-01` |
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=payment&financial_status=completed" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
 ```
 
 {{< br >}}
@@ -172,7 +148,7 @@ _I want to see the refunds associated with customer returns_
 |------------------|-----------------------|
 | type (transaction type) | `refund` |
 
-Use parameters `end` and `start` to specify a range of dates.
+Use parameters `created_from` and `created_until` to specify a date range of creation dates.
 
 #### Sample request
 ```

@@ -569,6 +569,10 @@ img.magento-certimage {
     margin-left: 5rem;
 }
 
+img.magento_badge {
+    margin-right: 1rem;
+}
+
 /********* NEWSLETTER  *************/
 
 .newsletter {
@@ -1579,3 +1583,11 @@ p code, td code {
     border-radius: 5px;
     padding: 2px 5px;
 }
+
+/* Collapse-header */
+
+.collapse-header:hover {
+	color: #008DCB;
+	cursor: pointer;
+}
+

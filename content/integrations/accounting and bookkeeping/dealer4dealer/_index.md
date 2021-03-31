@@ -7,8 +7,8 @@ logo: '/svgs/D4D.svg'
 layout: 'single'
 title_short: "dealer4dealer"
 read_more: "."
-short_description: "Read about how you can generate a MultiSafepay export and import to your deader4dealer platform"
-description_short: "Implement MultiSafepay Accountant Export Reports to your deader4dealer platform with ease."
+short_description: "Read about how you can generate a MultiSafepay export and import to your dealer4dealer platform"
+description_short: "Implement MultiSafepay Accountant Export Reports to your dealer4dealer platform with ease."
 extra_button:
     url: "https://dealer4dealer.nl/afletteren-exact-online/" 
     text: "Go to site" 

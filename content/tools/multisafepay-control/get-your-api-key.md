@@ -18,5 +18,3 @@ You will then be able to view the following information:
 * Site ID
 * Secure Code
 
-_Please note: A live Account ID starts with a 10, whereas a test Account ID starts with a 9_.
-
