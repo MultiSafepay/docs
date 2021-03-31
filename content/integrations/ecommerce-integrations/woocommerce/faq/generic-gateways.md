@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 The WooCommerce plugin offers a [generic gateway](/faq/general/generic-gateways/). The generic gateway can be found in your WooCommerce Settings under the payment tab, which lists all payment methods.
 
-All of our payment methods are supported. It is possible to set the gateway code, gateway logo, gateway label, and whether the shopping cart should be included in refund transactions. Specifying whether the shopping cart should be included in refund transactions is required if the gateway code used is that of a billing suite payment method.
+All of our payment methods are supported. You can set the gateway code, gateway logo, gateway label, and whether the shopping cart should be included in refund transactions. Specifying whether the shopping cart should be included in refund transactions is required if the gateway code used is a billing suite payment method.
 
 Similar to other gateways, it is possible to filter the generic gateway by:
 
