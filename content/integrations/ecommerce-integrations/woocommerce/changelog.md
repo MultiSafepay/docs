@@ -9,7 +9,8 @@ aliases: [/integrations/woocommerce/changelog/]
 Release date: Mar 31th, 2021
 
 ### Fixed
-+ PLGWOOS-659: Fix initialization of the plugin on multisite environments in which WooCommerce has been activate network wide
++ PLGWOOS-659: Fix initialization of the plugin on multisite environments in which WooCommerce has been activated network-wide
+
 
 ### Added
 + PLGWOOS-534: Add generic gateway
