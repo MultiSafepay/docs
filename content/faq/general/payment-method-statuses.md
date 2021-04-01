@@ -10,6 +10,8 @@ Intro text test
 
 {{< collapse title="Banks" h2="." >}}
 
+{{< collapse title="iDEAL" h3="." >}}
+
 ### iDEAL
 
 | Order Status                      | Transaction Status      | Description |
