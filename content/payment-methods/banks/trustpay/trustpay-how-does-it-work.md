@@ -22,7 +22,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status | Transaction Status | Description                                                                                                          |
 |--------------|------------------|----------------------------------------------------------------------------------------------------------------------|
 | Initialized  | Initialized      | A payment link has been generated, but no payment has been received yet.                                             | 
-| Completed    | Completed        | A successful Alipay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
+| Completed    | Completed        | A successful Trustpay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
 | Declined     | Declined         | Transaction has been rejected.                                                                                       | 
 | Expired      | Expired          | An unfinished transaction will automatically expire after a predefined period.                                       | 
 | Void         | Cancelled        | Transaction has been cancelled.                                                                                       | 
