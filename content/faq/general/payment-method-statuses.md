@@ -14,7 +14,7 @@ Every payment method comprises of an Order Status as well as a Transaction Statu
 
 * Transaction Status: The transaction status indicates the payment status of the transaction, such as _Completed_, _Pending_ or _Rejected_. Once the transaction status is completed, the amount of the transaction is added to your MultiSafepay balance.
 
-An overview of the statuses per payment method can be viewed in the sub-sections below:
+An overview of the statuses per payment method can be viewed in the sub-sections below: 
 
 
 {{< collapse title="Banks" h2="." >}}
