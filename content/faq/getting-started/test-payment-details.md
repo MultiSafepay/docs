@@ -229,7 +229,7 @@ MultiSafepay provides a test platform for in3 transactions. By entering the foll
 
 ### Klarna
 
-MultiSafepay provides a [test platform](https://testmerchant.multisafepay.com/signup?_ga=2.192119596.748329387.1617178671-1690884803.1591700759) for Klarna transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with Klarna in our environment.
+MultiSafepay provides a [test platform](https://testmerchant.multisafepay.com/signup) for Klarna transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with Klarna in our environment.
 
 You can test the payment method Klarna as follows:
 
