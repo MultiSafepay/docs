@@ -8,5 +8,6 @@ jobs:
     steps:
     - uses: seferov/pr-lint-action@master
       with:
-        title-regex: '^(\DOCS-\d*\: |\INTGRTN-\d*\: |\DOCS\: )'
-        error-message: 'Make sure both the PR title and the subject line of the last commit comply with our conventions. Correct formatting options are: "DOCS: <subject line>", "DOCS-<corresponding Jira ticket>: <subject line>", "INTGRTN-<corresponding Jira ticket>: <subject line>".'
+        title-regex: '^(\DOCS-\d*\: |\INTGRTN-\d*\: |\DOCS\: |[A-Z]+\d*: )'
+        error-message: 'Make sure both the PR title and the subject line of the last commit comply with our conventions. Correct formatting options are: "DOCS: <subject line>", "DOCS-<corresponding Jira ticket>: <subject line>", "INTGRTN-<corresponding Jira ticket>: <subject line>" and generic the regex"[A-Z]-\d*: ".'
+
