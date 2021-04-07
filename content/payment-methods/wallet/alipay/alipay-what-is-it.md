@@ -8,7 +8,7 @@ aliases: [/payment-methods/alipay/alipay-what-is-it/]
 ---
 ## What it is
 
-Alipay is a third-party mobile and online payment platform established in China. Alipay has seen a rapid growth in recent years and is fastly becoming one of the largest payment methods for the Chinese market.
+Alipay is a third-party mobile and online payment platform and is the Asian response to digital wallets. Customers use Alipay for all different kinds of transactions, from paying in-store and online to receiving international money transfers. They can make transactions directly from their mobile devices easily with one-click options and contact-free via QR code or scanning. With these innovative payment solutions Alipay provides a seamless payment collection and convenient customer experience. Available for all MultiSafepay clients, this option is an innovative addition for European webshops.
 
 For any website with a Chinese target audience and international growth ambitions, Alipay is a highly recommended payment method.
 
