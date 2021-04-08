@@ -34,7 +34,7 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [Berend Lantink](https://www.linkedin.com/in/berendlantink)<br>
 [Daniel Civit](https://www.linkedin.com/in/danielcivit)<br>
 [Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra)<br>
-[Francesca Cook] (https://www.linkedin.com/in/francesca-cook-ba786a29/)<br>
+[Francesca Cook](https://www.linkedin.com/in/francesca-cook-ba786a29/)<br>
 [Henk Timmermans](https://www.linkedin.com/in/henk-timmermans-9b813120)<br>
 [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)<br>
 [Jelle Sprangers](https://www.linkedin.com/in/jelle-sprangers-partnermanager)<br>
