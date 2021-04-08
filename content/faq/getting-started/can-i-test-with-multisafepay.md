@@ -29,7 +29,7 @@ Every transaction processed by MultiSafepay goes through a number of standard st
 
 See our [Diagnosing Errors](/faq/errors-explained/diagnosing-errors) guide for help addressing any issues during testing.
 
-### 1\. Initiate an order
+### 1. Initiate an order
 
 Before initiating an order, MultiSafepay checks the information contained in the request to ensure its validity. The majority of fields are optional, but these can have an impact on later stages of the payment process. In particular, you should try to include as much data about the customer as possible, as this data is used by our risk and fraud detection systems. The more data available to the system, the more accurate the results.
 
