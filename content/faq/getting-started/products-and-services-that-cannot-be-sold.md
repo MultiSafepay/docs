@@ -4,7 +4,7 @@ meta_title: "FAQ Getting Started - Forbidden products/services - MultiSafepay Do
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
-    - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold.md
+    - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
 ---
 As a [payment service provider](/faq/general/glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We are then required to comply with specific policies for each payment method we offer. 
 
