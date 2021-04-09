@@ -1,13 +1,13 @@
 ---
-title : "MultiSafepay PWA Studion Integration"
+title : "MultiSafepay PWA Studio Integration"
 meta_title: "PWA Studio (Venia) integration plugin manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ### 1. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Installed <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL</a> plugin for support GraphQL queries.
-- Meet other requirements for PWA Studio (Venia) and Magento on <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites" target="_blank">official Magento PWA Docs</a>
+- Installed <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL</a> plugin to add support for GraphQL queries.
+- Meet other requirements for PWA Studio (Venia) and Magento on <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites" target="_blank">the official Magento PWA Docs</a>
 
 ### 2. Supported Payment Methods ###
 The supported Payment Methods & Giftcards for this plugin can be found over here: [Payment Methods & Giftcards](https://docs.multisafepay.com/integrations/ecommerce-integrations/magento2/faq/available-payment-methods-magento2/)
@@ -16,7 +16,7 @@ The supported Payment Methods & Giftcards for this plugin can be found over here
 
 ### 3. Installation & Configuration (GitHub)
 
-If you would like to install the MultiSafepay plugin into your PWA Stuidio application, please use this [installation instructions](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide) on our GitHub page.
+If you would like to install the MultiSafepay plugin into your PWA Studio application, please use these [installation instructions](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide) on our GitHub page.
 
 ### Support
 You can create issues on our repository. If you need any additional help or support, please contact <integration@multisafepay.com>
