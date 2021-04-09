@@ -16,13 +16,6 @@ We are proud to announce that we have been working on a brand new Magento 2 plug
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
 It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.
 
-**If you are on the deprecated plugin and want to upgrade, please read this [FAQ article](/integrations/ecommerce-integrations/magento2/faq/migrating-to-new-plugin/) about how you can migrate to the new plugin**
-
-{{< blue-notice >}}
-We have recently added support for Magento Instant Purchase and Magento Vault.  
-To learn more about these features, [read our blog](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase)
-{{< /blue-notice >}}
-
 {{< alert-notice >}}
 If you are on the deprecated plugin and want to upgrade, please read this [FAQ article](/integrations/ecommerce-integrations/magento2/faq/migrating-to-new-plugin/) about how you can migrate to the new plugin
 {{< /alert-notice >}}
@@ -30,6 +23,11 @@ If you are on the deprecated plugin and want to upgrade, please read this [FAQ a
 {{< alert-notice >}}
 The FAQ items regarding the deprecated Magento 2 plugin have been moved to the [deprecated plugin page](/integrations/ecommerce-integrations/magento2/old) 
 {{< /alert-notice >}}
+
+{{< blue-notice >}}
+We have recently added support for Magento Instant Purchase and Magento Vault.  
+To learn more about these features, [read our blog](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase)
+{{< /blue-notice >}}
 
 ### 1. Features
 Some of the new features include:
