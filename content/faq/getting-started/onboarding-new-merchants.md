@@ -40,7 +40,7 @@ The trade name of your business bank account must exactly match at least one of 
 To process credit card payments, you must provide your:
 
 * Minimum order value
-* average order value.
+* Average order value
 * maximum order value.
 * annual turnover in credit card transactions.
 
