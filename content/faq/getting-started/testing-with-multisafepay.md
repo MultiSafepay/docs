@@ -32,7 +32,7 @@ Every transaction MultiSafepay processes goes through a number of standard steps
 
 For help with testing, see [Diagnosing errors](/faq/errors-explained/diagnosing-errors).
 
-### 1\. Merchant initiates an order
+### 1. The merchant initiates an order
 
 Provide as much information in the order request as possible. MultiSafepay checks that all this information is valid before initiating the order. Most fields are optional, but leaving them blank may have an impact at later stages of the payment process. Try to include as much data about the customer as possible to help the MultiSafepay risk and fraud detection systems. The more data you provide the system, the more accurate the results.
 
@@ -57,5 +57,4 @@ When the client server has updated the transaction or order status, you can veri
 ## Refunds
 
 You can process refunds in your test account, but this is disabled by default. To enable refunds in your test account, email the Integration Team at <integration@multisafepay.com>.
-
 
