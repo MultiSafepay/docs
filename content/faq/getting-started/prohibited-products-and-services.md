@@ -1,7 +1,7 @@
 ---
 title : "Prohibited products and services"
 weight: 4
-meta_title: "FAQ Getting Started - Forbidden products/services - MultiSafepay Docs"
+meta_title: "FAQ Getting Started - Prohibited products and services - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
