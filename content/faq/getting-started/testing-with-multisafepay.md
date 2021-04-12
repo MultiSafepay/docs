@@ -14,7 +14,7 @@ Start by [creating a test account](https://testmerchant.multisafepay.com/signup)
 * the test Account ID, Secure Code, and Site ID.
 
 {{< blue-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in test accounts, therefore refunds cannot be processed. To enable outgoing payments or additional payment methods in your test account, email the Integration Team at <integration@multisafepay.com>.
-{{< /alert-notice >}} 
+{{< /blue-notice >}} 
 
 ## Test API
 
