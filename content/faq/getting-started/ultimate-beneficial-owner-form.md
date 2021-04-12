@@ -19,7 +19,6 @@ A UBO is the natural person who directly or indirectly holds an equity interest 
 Download the:
 * [Dutch UBO form](/faq/getting-started/form/UBOform_NL_V2.0.pdf)
 * [English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf)
-
 * [French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
 
 * [German UBO form](/faq/getting-started/form/UBOform_DE.pdf)
