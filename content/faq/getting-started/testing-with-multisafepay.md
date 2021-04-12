@@ -38,7 +38,7 @@ Provide as much information in the order request as possible. MultiSafepay check
 
 Once you have initiated the order, we send you a payment link to redirect your customer to. If you don't receive a link, you will receive an error code.
 
-### 2. Customer completes the payment
+### 2. The customer completes the payment
 
 This part of the process requires no input from the client. The result is displayed in the transaction status. Note that payments may not be successful for various reasons.
 
@@ -57,4 +57,3 @@ When the client server has updated the transaction or order status, you can veri
 ## Refunds
 
 You can process refunds in your test account, but this is disabled by default. To enable refunds in your test account, email the Integration Team at <integration@multisafepay.com>.
-
