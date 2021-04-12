@@ -5,21 +5,24 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 
 ### 1. Requirements
-- To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Installed <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL</a> plugin to add support for GraphQL queries.
-- Meet other requirements for PWA Studio (Venia) and Magento on <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites" target="_blank">the official Magento PWA Docs</a>
+- To use the plugin you need a MultiSafepay account. You can [create a test account here](https://testmerchant.multisafepay.com/signup).
+- Install the [MultiSafepay Magento 2 GraphQL plugin](https://github.com/MultiSafepay/magento2-graphql) to add support for GraphQL queries.
+- Meet the [Magento's requirements](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites) for PWA Studio (Venia) on Magento.
 
-### 2. Supported Payment Methods ###
-The supported Payment Methods & Giftcards for this plugin can be found over here: [Payment Methods & Giftcards](https://docs.multisafepay.com/integrations/ecommerce-integrations/magento2/faq/available-payment-methods-magento2/)
+### 2. Supported payment methods
+This extension supports all [payment methods supported by our Magento 2 plugin](https://docs.multisafepay.com/integrations/ecommerce-integrations/magento2/faq/available-payment-methods-magento2/) out of the box, except: 
+- Request To Pay
+- Direct Debit
+- E-invoicing 
+- Pay After Delivery  
+However, you can easily integrate these payment methods yourself. For reference, you can take a look at our [PWA Studio components](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/tree/master/src/components) on GitHub.
 
-**Note:** this extension supports all Payment Methods & Giftcards mentioned above, except: Request To Pay, Direct Debit, E-invoicing and Pay After Delivery. You can easily implement these payment methods as well using the Ideal, Afterpay or in3 components in this plugin.
+### 3. Installation and configuration (GitHub)
 
-### 3. Installation & Configuration (GitHub)
-
-If you would like to install the MultiSafepay plugin into your PWA Studio application, please use these [installation instructions](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide) on our GitHub page.
+If you want to install the MultiSafepay plugin into your PWA Studio application, follow the [installation instructions](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide) on our GitHub page.
 
 ### Support
-You can create issues on our repository. If you need any additional help or support, please contact <integration@multisafepay.com>
+If you want to report a bug or suggest and improvement, create an issue on our repository. If you need help with your integration, please contact <integration@multisafepay.com>
 
-We are also available on our Magento Slack channel [#multisafepay-payments](https://magentocommeng.slack.com/messages/multisafepay-payments/).
+We are also available on the [Magento's MultiSafepay Slack channel](https://magentocommeng.slack.com/messages/multisafepay-payments/).
 Feel free to start a conversation or provide suggestions as to how we can refine our plugin.
