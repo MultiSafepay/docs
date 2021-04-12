@@ -42,7 +42,7 @@ To process credit card payments, you must provide your:
 * Minimum order value
 * Average order value
 * Maximum order value
-* annual turnover in credit card transactions.
+* Annual turnover in credit card transactions
 
 **Note:** Requests to process credit cards may be denied, e.g. if a particular product is not allowed by the processing bank.
 
