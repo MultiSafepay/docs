@@ -224,10 +224,10 @@ MultiSafepay provides a [test environment](https://testmerchant.multisafepay.com
 
 You can test the payment method in3 as follows:
 
-1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method in3
-2. The payment will be processed through the test ennvironment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_
+1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method in3.
+2. The payment will be processed through the test environment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_.
 3. You can change the order status to _Shipped_ through an [API request](/api/#update-an-order) or in the [MultiSafepay Control](https://testmerchant.multisafepay.com/){{<br>}} The transaction status will remain _Uncleared_
-4. An invoice is not generated in the test environment, therefore the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process, becasue the order has been captured in in3.
+4. An invoice is not generated in the test environment, therefore the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process because the order has been captured in in3.
 
 You can also test in3 transactions by entering the following details on the in3 checkout page:
 
