@@ -326,13 +326,13 @@ MultiSafepay provides a test platform for Alipay transactions. During the paymen
 
 ### PayPal
 
-MultiSafepay provides a [test platform](https://testmerchant.multisafepay.com/signup) for PayPal transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with PayPal in our environment.
+MultiSafepay provides a [test environment](https://testmerchant.multisafepay.com/signup) for PayPal transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with PayPal.
 
 You can test the payment method PayPal as follows:
 
 1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method PayPal
 2. The payment will be processed through the test environment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_
-3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status will remain on _Initialized_ and cannot be changed to _Completed_
+3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status will remain on _Initialized_ and cannot be changed to _Completed_.
 
 The following statuses of a transaction can also be simulated in the test environment:
 
