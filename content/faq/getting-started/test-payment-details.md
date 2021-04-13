@@ -233,10 +233,10 @@ MultiSafepay provides a [test environment](https://testmerchant.multisafepay.com
 
 You can test the payment method Klarna as follows:
 
-1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method Klarna
-2. The payment will be processed through the test environment  as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_
-3. You can manually change the order status to _Shipped_ through an [API request](/api/#update-an-order) or manually in the [MultiSafepay Control](https://testmerchant.multisafepay.com/){{<be>}} The transaction status will remain _Uncleared_
-4. An invoice is not generated in the test environment. Therefore the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process because the order has been captured in Klarna.
+1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method Klarna.
+2. The payment will be processed through the test environment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_.
+3. You can manually change the order status to _Shipped_ through an [API request](/api/#update-an-order) or manually in the [MultiSafepay Control](https://testmerchant.multisafepay.com/){{<br>}} The transaction status will remain _Uncleared_.
+4. An invoice is not generated in the test environment. Therefore, the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process because the order has been captured in Klarna.
 
 Klarna also provides its own test credentials. For a complete guide, read more on [Klarna's documentation page](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
 
