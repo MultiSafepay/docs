@@ -8,13 +8,11 @@ layout: 'faqdetail'
 ---
 
 
-Every payment method comprises of an Order Status as well as a Transaction Status relating to a single order transaction. This section outlines the transaction flow of an order and the different ways a transaction can be processed. This differs per payment method.
+Every payment has an Order Status as well as a Transaction Status relating to a single order transaction. This section outlines the transaction flow of an order and the different ways a transaction can be processed. This differs per payment method.
 
-* Order Status: The order status indicates the status of the order, such as _Completed_, _Pending_ or _Rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
+* Order Status: The order status indicates the status of the order, such as _Completed_, _Pending_ or _Rejected_.
 
-* Transaction Status: The transaction status indicates the payment status of the transaction, such as _Completed_, _Pending_ or _Rejected_. Once the transaction status is completed, the amount of the transaction is added to your MultiSafepay balance.
-
-An overview of the statuses per payment method can be viewed in the sub-sections below: 
+* Transaction Status: The transaction status indicates the payment status of the transaction, such as _Completed_, _Pending_ or _Rejected_. Once the transaction status is _Completed_, the amount of the transaction is added to your MultiSafepay balance.
 
 
 {{< collapse title="Banks" h2="." >}}
