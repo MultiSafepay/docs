@@ -42,7 +42,7 @@ Test API endpoint: `https://testapi.multisafepay.com/v1/json/`
 1. [Add a website](/tools/multisafepay-control/add-website/#add-your-website-to-multisafepay-control) within your MultiSafepay test environment
 2. Access your [API key](/tools/multisafepay-control/add-website/#accessing-your-api-key) to establish a connection with MultiSafepay
 
-Before initiating an order, MultiSafepay checks the information contained in the request to ensure its validity. Please include as much information about the customer as possible to minimize the chance of errors occuring during the payment process. See our [Diagnosing Errors](/faq/errors-explained/diagnosing-errors/) guide for help addressing any issues during testing.
+Before initiating an order, MultiSafepay checks the information contained in the request to ensure its validity. Please include as much information about the customer as possible to minimize the chance of errors occurring during the payment process. See our [Diagnosing Errors](/faq/errors-explained/diagnosing-errors/) guide for help addressing any issues during testing.
 
 To initiate an order:
 
@@ -72,7 +72,7 @@ After completing the payment, the transaction details will be reflected in the M
 
 ### Step 5: Test to Live
 
-After exploring the testing possibilites within the MultiSafepay test environment, you can [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
+After exploring the testing possibilities within the MultiSafepay test environment, you can [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
 
 As a [payment service provider](/faq/general/glossary/#payment-service-provider-psp[) and [acquirer](/faq/general/glossary/#acquirer), we are legally required to check your account based on the 'Know your customer' guidelines. You can supply the information needed to activate your account through your [MultiSafepay Control](https://merchant.multisafepay.com/) 
 
