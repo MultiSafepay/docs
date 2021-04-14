@@ -57,7 +57,6 @@ betalen.rabobank.nl
 *.regiobank.nl
 ideal.triodos.nl
 ideal.vanlanschot.com
-ideal.moneyou.nl
 *.kbc.be
 *.belfius.be
 *.ing.be
