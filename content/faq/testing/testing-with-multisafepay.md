@@ -1,5 +1,5 @@
 ---
-title: 'How to test'
+title: 'Testing payment methods'
 breadcrumb_title: 'Testing'
 weight: 10
 meta_title: "Testing - MultiSafepay Docs"
