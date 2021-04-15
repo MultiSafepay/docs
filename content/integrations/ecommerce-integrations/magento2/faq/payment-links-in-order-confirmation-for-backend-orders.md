@@ -13,7 +13,7 @@ aliases:
 We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking. This feature can be implemented by the following steps:
 
 1. Log in to your Magento backend 
-2. Go to _Marketing_ → _Email Templates_
+2. Go to _Marketing_ > _Email Templates_
 3. Add a template (import from _new order_)
 4. Add the following code snippet to the template:
 
@@ -36,7 +36,7 @@ There is also a 'payment_link' variable that you can use in e-mail templates for
 `<p>{{var order.payment.additional_information.method_title}}</p>`
 `{{/if}}`
 
-1. Go to _Stores → Configuration → Sales → Sales Emails_
+1. Go to _Stores > Configuration > Sales > Sales Emails_
 2. Change the "New Order Confirmation Template" with your template
 3. After these changes, the template should be tested to confirm it is working.
 

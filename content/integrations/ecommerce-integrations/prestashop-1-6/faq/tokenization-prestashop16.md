@@ -7,4 +7,4 @@ aliases: [/integrations/prestashop-1-6/faq/tokenization-prestashop16/]
 ---
 
 1. Read the page about [tokenization](/tools/tokenization/tokenization-api-level)
-2. Enable Tokenization via _Modules and Services → Modules and Services → MultiSafepay → Click on Configure → Set Tokenization on YES → Click on Save_
+2. Enable Tokenization via _Modules and Services > Modules and Services > MultiSafepay > Click on Configure > Set Tokenization on YES > Click on Save_

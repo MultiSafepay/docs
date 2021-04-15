@@ -64,9 +64,9 @@ You must initialize the Credit Card Component library and link it to the contain
 
 The constructor takes three values:
 
-`env` → test/live, decides the API mode {{< br >}} 
-`apiToken` → response from GET API token {{< br >}} 
-`order` → contains values of the quote
+`env`: test/live, decides the API mode {{< br >}} 
+`apiToken`: response from GET API token {{< br >}} 
+`order`: contains values of the quote
 
 ### Request
 
@@ -116,7 +116,7 @@ const preOrder = {
 | Key | Value |
 | ---- | ---- |
 | currency | Currency of the order. {{< br >}} **Format:** [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) |
-| amount | Value of the order. {{< br >}} **Format:** Number without decimal points (e.g., 100EU → `10000`) |
+| amount | Value of the order. {{< br >}} **Format:** Number without decimal points (e.g., 100EU > `10000`) |
 
 #### Optional variables
 | Key | Value |

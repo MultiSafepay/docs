@@ -10,7 +10,7 @@ The refund of a transaction with the payment method American Express can be proc
 
 Please follow these steps:
 
-1. Select _Transactions → Transaction overview_
+1. Select _Transactions > Transaction overview_
 2. Find the transaction through search
 3. Open the transaction
 4. Select _refund_

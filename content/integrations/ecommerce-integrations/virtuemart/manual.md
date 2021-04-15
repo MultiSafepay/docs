@@ -18,12 +18,12 @@ aliases:
 - Tested on PHP 7.0
 
 ### 2. Installation
-1. Log in to your backend and navigate to _'Extensions' → 'Extension Manager'_
+1. Log in to your backend and navigate to _'Extensions' > 'Extension Manager'_
 2. Install the Plugin_VirtueMart_x.x.x.zip file, by _Drag and drop or Browse for file_. Click on _Upload & Install_.
 
 ### 3. Configuration
-1. Log in to your backend and navigate to _Extensions → Plugins_. Enter _MultiSafepay_ in the search box and set the plugin status to _Enabled_
-2. Navigate to _Components → VirtueMart_. Click on _Shop → Payment Methods_. Select the _New_ button to install and configure each payment method separately
+1. Log in to your backend and navigate to _Extensions > Plugins_. Enter _MultiSafepay_ in the search box and set the plugin status to _Enabled_
+2. Navigate to _Components > VirtueMart_. Click on _Shop > Payment Methods_. Select the _New_ button to install and configure each payment method separately
 3. Choose _VirtueMart - Payment, MultiSafepay_ as payment method and save the _payment method name_ to install
 4. Click on the tab _Configuration_. Save the Merchant (account) ID, Site ID & Secure Code.{{% account_info %}} 
 5. Also necessary is to save the Gateway ID (code).

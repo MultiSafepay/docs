@@ -62,7 +62,7 @@ MultiSafepay can accept on request new currencies for Visa, MasterCard and Maest
 * The plugin settings allow the currency selected
 * The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-_When multiple currencies are enabled within your MultiSafepay Control, all currencies will be shown under Finance → Balance_.  
+_When multiple currencies are enabled within your MultiSafepay Control, all currencies will be shown under Finance > Balance_.  
 
 ## Add currency to your MultiSafepay Balance
 
@@ -76,7 +76,7 @@ All incoming and outgoing transactions are processed in Euros (EUR) as standard 
 
 When you request an extra currency to be added to your MultiSafepay Control, you need to follow a few steps in order to ensure transactions can be processed in that particular currency and that no currency conversion is needed:
 
-1. Add a business bank account in your MultiSafepay Control that is able to receive the currency. This can be done through Finance → Balance → Add bank account
+1. Add a business bank account in your MultiSafepay Control that is able to receive the currency. This can be done through Finance > Balance > Add bank account
 
 2. Process a bank transfer in the requested currency to confirm the business bank account
 
@@ -84,7 +84,7 @@ When you request an extra currency to be added to your MultiSafepay Control, you
 
 ### Adjust payout settings in MultiSafepay Control
 
-* Within your [MultiSafepay Control](https://merchant.multisafepay.com), you will have the possibility to convert the currency to Euros (EUR). This can be done through Finance → Currency Conversion. Take into account the exchange rate and/or costs involved
+* Within your [MultiSafepay Control](https://merchant.multisafepay.com), you will have the possibility to convert the currency to Euros (EUR). This can be done through Finance > Currency Conversion. Take into account the exchange rate and/or costs involved
 
 * If a business bank account that can receive the currency as is has been added to your MultiSafepay Control (and approved by our Risk Team), a payout can be processed without currency conversion.
 

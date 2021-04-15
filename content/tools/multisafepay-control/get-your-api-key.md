@@ -9,7 +9,7 @@ read_more: '.'
 You can retrieve your API key by following these instructions:
 
 1. Log in to the [MultiSafepay Control](https://merchant.multisafepay.com) or [Test MultiSafepay Control](https://testmerchant.multisafepay.com)
-2. Navigate to _Settings → Website settings_
+2. Navigate to _Settings > Website settings_
 3. Add a new website or click on an existing website.
 
 You will then be able to view the following information: 
