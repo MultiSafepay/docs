@@ -11,10 +11,10 @@ The status of an order can change for many reasons. Payments being received or r
 
 You can check within [MultiSafepay Control](https://merchant.multisafepay.com/) to see if we were able to successfully connect and send a notification to your system in the Offline Actions section. This information can be seen in the MultiSafepay test environment and MultiSafepay Control:
 
-1. Log into the MultiSafepay test environment or MultiSafepay Control.
-2. Navigate to _Transactions_ → _Transaction overview_.
+1. Log into the **MultiSafepay test environment** or **MultiSafepay Control**.
+2. Navigate to **Transactions** → **Transaction overview**.
 3. Click on any transaction.
-4. Scroll to the bottom of the page to view the _Offline Actions_.
+4. Scroll to the bottom of the page to view the **Offline Actions**.
 
 ## Client system updates transaction status
 
