@@ -48,7 +48,7 @@ Order status may change for many reasons, e.g. received or reversed payments, or
 
 To check that we have successfully connected to your system and sent the status change notification, see [MultiSafepay Control](https://merchant.multisafepay.com) in the **Offline Actions** section, or the _Details_ screen for the transaction.
 
-### 4. Client server updates transaction status
+### 4. Client processes transaction status notification
 
 After you receive the status change notification, retrieve the transaction status from MultiSafepay. The transaction status states whether the payment succeeded or failed, and provides the reason for failure.
 
