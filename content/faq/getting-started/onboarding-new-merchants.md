@@ -25,7 +25,7 @@ To enable you to process payments as quickly as possible, we divide the onboardi
 
 ### Documents and information
 
-You can upload all of the required documents and information in your MultiSafepay Control account → [Onboarding flow](https://merchant.multisafepay.com/onboarding):
+You can upload all of the required documents and information in your MultiSafepay Control > [Business details](https://merchant.multisafepay.com/onboarding):
 
 * Company details including address, VAT number, and Chamber of Commerce number
 * A link to the website you receive payments through, if used 
@@ -62,6 +62,6 @@ Some products and services cannot be sold with MultiSafepay or only if additiona
 
 ---
 {{< br >}}
-For questions about onboarding, email the Risk Team at <risk@multisafepay.com>.
+For questions about onboarding, email the Risk Team at <risk@multisafepay.com>
 
 _Disclaimer: The information on this website is intended for informational purposes. No rights can be derived from this information._
