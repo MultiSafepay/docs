@@ -13,7 +13,7 @@ You can activate new payment methods in your [MultiSafepay Control account](http
 * Globally, that is for all websites connected to your MultiSafepay Control account.
 * At site level, that is for one website only.  
 
-In the vast majority of cases, the global setting is sufficient. If you manage multiple websites that allow different payment methods, activate the payment methods at site level. Make sure you enable them for **every** relevant website conntected to your account. 
+In the vast majority of cases, the global setting is sufficient. If you manage multiple websites that allow different payment methods, activate the payment methods at the site level. Make sure you enable them for every relevant website connected to your account. 
 
 To enable payment methods, in your MultiSafepay control account, go to _Settings_ → _Payment methods_.
 
