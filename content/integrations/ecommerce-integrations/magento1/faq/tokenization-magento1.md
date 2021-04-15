@@ -7,7 +7,7 @@ aliases: [/integrations/magento1/faq/tokenization-magento1/]
 ---
 
 1. Read the page about [tokenization](/tools/tokenization/tokenization-api-level)
-2. Enable Tokenization via _Stores → Configuration → MultiSafepay → MultiSafepay Settings_
+2. Enable Tokenization via _Stores > Configuration > MultiSafepay > MultiSafepay Settings_
 
 Note: 
 The Tokenization feature is not available for the Credit Card gateway. 

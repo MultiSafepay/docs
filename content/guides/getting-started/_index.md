@@ -43,7 +43,7 @@ After successfully creating a test account, it is time to set up your MultiSafep
 Before you can start building your integration, add your website to your MultiSafepay Control to generate an API key. To do this, follow these steps:
 
 1. [Log in](https://testmerchant.multisafepay.com) to your MultiSafepay Control
-2. Navigate to *Settings* → *Website settings*
+2. Navigate to *Settings* > *Website settings*
 3. Click *Website wizard* and add your domain
 
 Your test account is now linked to your website. Navigate to the [website settings](https://testmerchant.multisafepay.com/sites), click your website, and copy the API key to start building your integration.

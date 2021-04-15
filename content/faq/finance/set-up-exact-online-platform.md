@@ -19,7 +19,7 @@ In order to be able to import an accountant export from your MultiSafepay Contro
 
 ## How to process a dummy IBAN in Exact Online platform
 
-1. Navigate to _Financial → Banking & Cash → Bank accounts → Overview_
+1. Navigate to _Financial > Banking & Cash > Bank accounts > Overview_
 2. Click _New_
 3. Enter the dummy IBAN created before
 4. Click _Save_
@@ -37,7 +37,7 @@ You have created a bank account. All transactions linked to this bank account nu
 
 ## Exact Online Import Instructions
 
-1. Log into your Exact Online account and go to _Financial → Banking & Cash → Statements → Import_
+1. Log into your Exact Online account and go to _Financial > Banking & Cash > Statements > Import_
 2. Click _Choose File_ and select the MT940 file you want to upload
 3. Click _Import_
 
