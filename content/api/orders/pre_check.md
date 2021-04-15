@@ -229,7 +229,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -247,15 +247,18 @@ __delivery__ | object
 Contains the delivery information for the shipment. Values for first_name and last_name require minimum two characters.
 
 ----------------
+
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
 
 ----------------
 
-__unit_price__ | float
+__items__ | object
 
-The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.
+Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of these parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+
+
 
 
 {{< /description >}}

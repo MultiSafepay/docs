@@ -12,9 +12,9 @@ An Accountant Export containing all successful incoming and outgoing transaction
 ## Sending an Automated Accountant Export
 As a MultiSafepay client, you can benefit from three ways of accessing/receiving the automated accountant export:
 
-1. Via email
-2. Via SFTP - Pull request _(With this method you will receive access to an SFTP server from MultiSafepay)_
-3. Via SFTP - Push request _(With this method MultiSafepay would like to receive access to an SFTP server from you)_.
+1. Via SFTP - Pull request _(With this method you will receive access to an SFTP server from MultiSafepay)_
+2. Via SFTP - Push request _(With this method MultiSafepay would like to receive access to an SFTP server from you)_.
+3. Transaction API using the [transactions API endpoint](/tools/transactions-api-endpoint/) (_The associated transaction costs are not included in the returned data_) 
 
 We support SFTP by username/password and username/SSH keys.
 
@@ -63,7 +63,9 @@ Automated Accountant Export activation checklist:
 
 Send the requested to our Integration Team via <integration@multisafepay.com> 
 
-_Don't forget to add your MultiSafepay Control number_.
+_Don't forget to add your Account ID which can be found in the dashboard of your MultiSafepay Control in the top right corner_.
+
+
 
 ## Whitelisting
 
@@ -71,6 +73,6 @@ If your method of choice is via SFTP, please make sure our IP is whitelisted. Fo
 
 ## Testing
 
-It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com/)
+It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com)
 
 Exporting Klarna Payments reports is also included within this test mode.

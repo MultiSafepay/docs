@@ -198,8 +198,6 @@ Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect) or
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
 **Parameters**
 
 ----------------
@@ -250,13 +248,18 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
 
-__unit_price__ | float
-
-The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page. Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of these parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+
+----------------
+
 __checkout_options__ | object
 
 Contains the definitions for the VAT class.
@@ -311,9 +314,6 @@ Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect) 
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
-
 **Parameters**
 
 ----------------
@@ -362,15 +362,21 @@ __delivery__ | object
 Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters_.
 
 ----------------
+
 __shopping_cart__ | object
 
-Contains all purchased items including tax class.
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
 
-__unit_price__ | float
-
-The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted.
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page. Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of these parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section
+
+----------------
+
 __checkout_options__ | object
 
 Contains the definitions for the VAT class.

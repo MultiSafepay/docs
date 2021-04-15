@@ -1,14 +1,15 @@
 ---
-title : "Fastcheckout SDK iOS configuration manual"
-meta_title: "Fastcheckout SDK iOS configuration manual - MultiSafepay Docs"
+title : "FastCheckout SDK iOS configuration manual"
+meta_title: "FastCheckout SDK iOS configuration manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/fastcheckout-ios/manual/]
 ---
 
 ### Introduction
 
-The Fastcheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The Fastcheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
+The FastCheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The FastCheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
 
-As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The Fastcheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
+As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
 
 * Shipping details:
     * Preferred shipping details
@@ -21,9 +22,9 @@ As an integrator, you only need to provide a valid MSP transaction identifier or
 
 #### Additional details
 
-The Fastcheckout SDK provides the additional following features:
+The FastCheckout SDK provides the additional following features:
 
-* Authentication into Fastcheckout: 
+* Authentication into FastCheckout: 
     * It provides secure sign-up/login functionality
 * Check orders:
     * Open seamless support tickets to related orders
@@ -46,24 +47,24 @@ Please refer to the MultiSafepay API Documentation to perform different calls th
 
 ### Installation
 
-First you have to access into your Back Office and get a valid API key (_Settings_ → _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/faq/general/glossary/#api-key) (_Settings_ → _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
 
-Add the FastcheckoutKit.xcframework as an embedded framework into your project. The next steps will guide you through the process:
+Add the FastCheckoutKit.xcframework as an embedded framework into your project. The next steps will guide you through the process:
 
-1. Open the folder in Finder where you have downloaded FastcheckoutKit.framework and drag it into the Project Navigator of your application’s Xcode project.
+1. Open the folder in Finder where you have downloaded FastCheckoutKit.framework and drag it into the Project Navigator of your application’s Xcode project.
 2. Make sure you select Copy items if needed unless you have already copied the framework into your project folder.
 3. Select your application project in the Project Navigator (blue project icon) to navigate to target configuration window and select the application target under the Targets heading in the sidebar.
 4. In the tab bar at the top of that window, open the General panel.
 5. Click on the + button under the Embedded Binaries section.
-6. Select FastcheckoutKit.xcframework
+6. Select FastCheckoutKit.xcframework
 
-You can now start using the FastcheckoutKit SDK in your App.
+You can now start using the FastCheckoutKit SDK in your App.
 
 ### Demo
 
-You can easily integrate Fastcheckout iOS SDK into your app, you just need to follow the next steps:
+You can easily integrate FastCheckout iOS SDK into your app, you just need to follow the next steps:
 
 1. Setup iOS SDK
 
@@ -156,7 +157,7 @@ self.manager = FastcheckoutManager(client: client)
 
 ### SDK Snapshots
 
-1. The following snapshots will walk you through some of features offered by the Fastcheckout iOS SDK.
+1. The following snapshots will walk you through some of features offered by the FastCheckout iOS SDK.
     * Logging in with a registered email: 
         
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-ios/fastcheckout-ios-1.png" title="screenshot 1">}}

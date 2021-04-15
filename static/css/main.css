@@ -569,6 +569,10 @@ img.magento-certimage {
     margin-left: 5rem;
 }
 
+img.magento_badge {
+    margin-right: 1rem;
+}
+
 /********* NEWSLETTER  *************/
 
 .newsletter {
@@ -1199,13 +1203,27 @@ p {
 
 .alert-notice {
     position: relative;
-    padding: .75rem 1.25rem;
+    padding: 1rem 1.25rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 1rem;
     color: #856404;
     background-color: #fff3cd;
     border-color: #ffeeba;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.blue-notice {
+    position: relative;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    color: #175C9B;
+    background-color: #DFEBF6;
+    border-color: #DFEBF6;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.5;
@@ -1491,8 +1509,6 @@ h6 {
 .small-img {
     max-width: 500px;
     max-height: 300px;
-    width: 90%;
-    height: 90%;
     object-fit:scale-down;
 }
 
@@ -1512,4 +1528,66 @@ h6 {
 .desktop-radius {
     border-radius: 5px;
 }
-    border-radius: 15px;
+
+
+/* CODE BLOCKS */
+
+.copy-code-button {
+    color: #272822;
+    background-color: #F6F6F6;
+    border-radius: 1rem 1rem 0px 0px ;
+    border: none;
+
+    /* right-align */
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+    margin-bottom: -2px;
+    padding: 3px 12px;
+    font-size: 0.9em;
+}
+
+.copy-code-button:hover {
+    cursor: pointer;
+    background-color: #E6E6E6;
+}
+
+.copy-code-button:focus {
+    /* Avoid an ugly focus outline on click in Chrome,
+       but darken the button for accessibility.
+       See https://stackoverflow.com/a/25298082/1481479 */
+    background-color: #E6E6E6;
+    outline: 0;
+}
+
+.copy-code-button:active {
+    background-color: #E6E6E6;
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}
+
+/* Not chroma selector is added to protect the API styling */
+pre:not(.chroma) {
+    background-color: #F6F6F6;
+    color: #4D4D4D;
+    border-radius: 1rem 0px 1rem 1rem;
+    padding: 40px 50px;
+}
+
+p code, td code {
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+/* Collapse-header */
+
+.collapse-header:hover {
+	color: #008DCB;
+	cursor: pointer;
+}
+

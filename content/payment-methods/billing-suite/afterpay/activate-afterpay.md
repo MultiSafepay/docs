@@ -4,9 +4,10 @@ weight: 22
 meta_title: "AfterPay, How to activate it - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/afterpay/activate-afterpay/]
 ---
 
-# Activate 
+## Activate 
 
 >_MultiSafepay offers AfterPay in the Netherlands and Belgium._
 
@@ -16,19 +17,19 @@ For existing clients of AfterPay, contact <sales@afterpay.nl> to connect your Af
 
 >_Please check your eligibility with your MultiSafepay account manager at <sales@multisafepay.com> before applying for this payment method._
 
-## Requirements
+### Requirements
 
-+ [Magento 1](/integrations/magento1/changelog) > available from version 2.4.1. Released on the 25th of May 2018
++ [Magento 1](/integrations/ecommerce-integrations/magento1/changelog) > available from version 2.4.1. Released on the 25th of May 2018
 
-+ [Magento 2](/integrations/magento2/changelog) > available from version 1.5.0. Released on the 25th of May 2018
++ [Magento 2](https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md) > available from version 1.5.0. Released on the 25th of May 2018
 
-+ [WooCommerce](/integrations/woocommerce/changelog) > available from version 3.1.0. Released on the 15th of June 2018
++ [WooCommerce](https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md) > available from version 3.1.0. Released on the 15th of June 2018
 
-+ [OpenCart](/integrations/opencart/changelog) > available from version 2.2.0. Released on the 15th of June 2018
++ [OpenCart](https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md) > available from version 2.2.0. Released on the 15th of June 2018
 
-+ [PrestaShop 1.7](/integrations/prestashop-1-7/changelog) > available from version 4.2.0. Released on the 25th of May 2018
++ [PrestaShop 1.7](https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md) > available from version 4.2.0. Released on the 25th of May 2018
 
-+ [CS-Cart](/integrations/cs-cart/changelog) > available from version 1.3.0. Released on the 8th of October 2018
++ [CS-Cart](https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md) > available from version 1.3.0. Released on the 8th of October 2018
 
-+ [X-Cart](/integrations/x-cart) > available from version 2.2.0. Released on the 24th of April 2019
++ [X-Cart](/integrations/ecommerce-integrations/x-cart) > available from version 2.2.0. Released on the 24th of April 2019
 

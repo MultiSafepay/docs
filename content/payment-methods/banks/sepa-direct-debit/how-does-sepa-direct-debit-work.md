@@ -4,6 +4,10 @@ weight: 21
 meta_title: "SEPA Direct Debit, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: 
+    - /payment-methods/direct-debit/how-does-direct-debit-work/
+    - /payment-methods/banks/direct-debit/how-does-direct-debit-work/
+
 ---
 ## How does it work?
 As the merchant files the SEPA Direct Debit request, an order with status _initialized_ will be created (after MultiSafepay has conducted a background check on the provided customer data).
@@ -52,10 +56,7 @@ The full API reference for SEPA Direct Debit can be found [here](/api/#direct-de
 
 
 ### E-mandate
-MultiSafepay creates an e-mandate automatically, based on IBAN and SiteID.
-A SEPA Direct Debit can be **First** or **Recurrent**.
-Two different batches are made for this.
-The First orders are processed after 5 days by the bank, while the Recurrent orders after 2 days.
+An [E-mandate](/faq/general/glossary/#e-mandate) is a form of authorization that allows you to collect payment(s) from a customer's account with their permission. MultiSafepay creates an E-mandate automatically based on an IBAN and SiteID. A SEPA Direct Debit can be either be _first_ or _recurrent_. Two different batches are made for this. The _first_ orders are processed after 5 days by the bank, while the _recurring_ orders after 2 days.
 
 
 ### Chargebacks by customer

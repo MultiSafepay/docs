@@ -207,7 +207,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -242,7 +242,7 @@ Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [bank transfers](/payment-methods/bank-transfer) on our documentation page.
+Read more about [bank transfers](/payment-methods/banks/bank-transfer) on our documentation page.
 
 
 ### Direct - Bank transfer 
@@ -297,7 +297,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -321,7 +321,7 @@ __ip_address__ | string
 
   __disable_send_email (optional)__	| boolean
 
-Set to _True_ if you will send your own bank transfer payment instructions to consumers and do not want MultiSafepay to do this. This value defaults to _false_.
+Set to _True_ if you will send your own bank transfer payment instructions to customers and do not want MultiSafepay to do this. This value defaults to _false_.
 
 
 ----------------

@@ -248,7 +248,7 @@ In order for this chargeback to be disputed we need the following documentation 
 #### Reason Code: 4540
 __Description: Card Not Present__
 
-Cardholder denies participation in an email, telephone or internet type transaction processed by your business, also known as [MOTO payments](/tools/moto/moto) Investigation confirms that transaction is a result of fraudulent use of the card.
+Cardholder denies participation in an email, telephone or internet type transaction processed by your business, also known as [MOTO payments](/tools/mail-order-telephone-order) Investigation confirms that transaction is a result of fraudulent use of the card.
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 

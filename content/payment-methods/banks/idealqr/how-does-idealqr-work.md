@@ -4,6 +4,7 @@ weight: 21
 meta_title: "How does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/idealqr/how-does-idealqr-work/]
 ---
 ## How it works
 MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must either:
@@ -12,11 +13,11 @@ MultiSafepay supports seamless integration for iDEAL QR. As a merchant, you must
 
     **or**
 
-* Redirect the customer to our payment page similarly with other payment methods.
+* Redirect the customer to our payment page where an iDEAL QR code will be displayed under _Payment methods:_
 
 With iDEAL QR you can also produce a generic link that can be used multiple times. The QR code can be printed on leaflets. You can also enable an option to allow the customer change the amount.
 
-> Please note that only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING, ABN AMRO, ASN Bank, RegioBank and SNS Bank). All other customers must use the dedicated iDEAL app.
+> Please note that only 7 customer banks support iDEAL QR within their own banking app (Knab, Rabobank, ING and ABN AMRO). All other customers must use the dedicated iDEAL app.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -55,3 +56,9 @@ Some rules may apply to certain payment methods. For iDEAL QR, the following rul
 * Payments done through iDEAL QR are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
 * If you would like to test iDEAL QR, please note that this will only work in a _Live_ environment. The _Testing_ environment is __not__ available.
+
+* The lifetime of an iDEAL QR payment is by default 30 days active, but this can be adjusted. Read more about the days_active and seconds_active parameters on the [Lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+
+* The payment amount that can be set for an iDEAL QR transaction depends on the min_amount and max_amount parameters sent in the payment request. For more information, read our API section on [iDEAL QR](/api/#ideal-qr)
+
+* A single iDEAL QR code can be used more than once and generate more than one payment linked to a single Order ID, therefore subsequent transactions will each have a unique Order ID.

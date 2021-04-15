@@ -10,8 +10,8 @@ Depending on your integration with MultiSafepay you may be able to refund paymen
 
 Please follow these steps:
 
-1. Login to your [MultiSafepay Control](https://merchant.multisafepay.com/)
-2. Navigate to _Transactions_ -> _Transaction overview_ and search for the transaction
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Navigate to _Transactions_ → _Transaction overview_ and search for the transaction
 3. Click on the transaction 
 4. Click on the _Refund_ button and select amount to refund
 5. Submit refund

@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/Alipay.svg'
 short_description: 'Alipay is a payment platform allowing you to make safe payments online. Only suitable for Chinese residents.'
 aliases:
     - /support-tab/magento2/payment-methods/alipay
+    - /payment-methods/alipay/
 ---

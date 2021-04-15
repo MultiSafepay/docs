@@ -8,4 +8,5 @@ logo: '/logo/Payment_methods/iDeal_QR.svg'
 short_description: 'Easily receive payments with a simple scan of an iDEAL QR code.'
 aliases:
     - /support-tab/magento2/payment-methods/idealqr
+    - /payment-methods/idealqr/
 ---

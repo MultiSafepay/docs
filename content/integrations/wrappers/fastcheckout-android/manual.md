@@ -1,13 +1,14 @@
 ---
-title : "Fastcheckout SDK Android configuration manual"
-meta_title: "Fastcheckout SDK Android configuration manual - MultiSafepay Docs"
+title : "FastCheckout SDK Android configuration manual"
+meta_title: "FastCheckout SDK Android configuration manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/fastcheckout-android/manual/]
 ---
 ### Introduction
 
-The Fastcheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The Fastcheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
+The FastCheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The FastCheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
 
-As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The Fastcheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
+As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
 
 * Shipping details:
     * Preferred shipping details
@@ -20,9 +21,9 @@ As an integrator, you only need to provide a valid MSP transaction identifier or
 
 #### Additional details
 
-The Fastcheckout SDK provides the additional following features:
+The FastCheckout SDK provides the additional following features:
 
-* Authentication into Fastcheckout: 
+* Authentication into FastCheckout: 
     * It provides secure sign-up/login functionality
 * Check orders:
     * Open seamless support tickets to related orders
@@ -51,7 +52,7 @@ Check the example below to see how you can setup the environment you want to use
 
 ### Installation
 
-First you have to access into your Back Office and get a valid API key (_Settings_ → _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/faq/general/glossary/#api-key) (_Settings_ → _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
@@ -210,7 +211,7 @@ protected void onCreate(Bundle savedInstanceState) {
    SDK = FastCheckoutSDK.getInstance();
    SDK.setApiKey(API_KEY);
 
-   btnLogOut.setOnClickListener(view -> SDK.startCheckout(transaction_id, this));
+   btnLogOut.setOnClickListener(view → SDK.startCheckout(transaction_id, this));
 
    }
 

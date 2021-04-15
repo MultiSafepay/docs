@@ -143,7 +143,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
+In the case of a _Redirect_ transaction, the customer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
 * Redirect transaction requires all fields completed properly
 
@@ -192,7 +192,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -212,7 +212,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ### Direct - iDEAL
 Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
-In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
+In the case of a _Direct_ transaction, the customer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 
 * Direct transaction requires all fields completed properly
 

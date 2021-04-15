@@ -6,11 +6,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-## MultiSafepay Test Environment
+## MultiSafepay Test environment
 
 Have you recently thought about using MultiSafepay as your payment service provider? It is now possible to create a [test account](https://testmerchant.multisafepay.com/signup?_ga=2.239314307.1689046699.1579505297-896219683.1574159857) free of charge to have a clear overview of what MultiSafepay has to offer for its merchants.
 
-After creating a test account, you will be able to test several functionalities of the MultiSafepay Merchant Panel. This includes:
+After creating a test account, you will be able to test several functionalities of the MultiSafepay Control. This includes:
 
 * __Dashboard__: Overview of website sales, recent transactions and account balances.
 * __Finance__: Select when you would like to be paid out and fund your account manually.
@@ -21,4 +21,4 @@ After creating a test account, you will be able to test several functionalities 
 
 For testing, you may use the [test credentials](https://docs.multisafepay.com/faq/getting-started/test-payment-details) on our documentation page.
 
-Do you have any questions about the functionality of the Test Merchant Panel? Feel free to contact our Integration Team at <integration@multisafepay.com>
+Do you have any questions about the functionality of the Test environment? Feel free to contact our Integration Team at <integration@multisafepay.com>

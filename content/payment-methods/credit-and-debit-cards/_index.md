@@ -15,4 +15,14 @@ data:
   - { title: 'Postepay', url: 'branded-credit-cards/#postepay-what-is-it', logo: '/logo/Payment_methods/Postepay.svg' }
 aliases:
     - /support-tab/magento2/payment-methods/credit-and-debit-cards
+    - /payment-methods/credit-cards/
+    - /payment-methods/credit-cards/creditcards/
+    - /payment-methods/credit-cards/branded-credit-cards/
+    - /payment-methods/creditcards/
+    - /payment-methods/credit-and-debit-cards/branded-credit-cards/
+    - /payment-methods/creditcards/credit-card-how-does-it-work/
+    - /payment-methods/credit-and-debit-cards/creditcards/credit-card-how-does-it-work/
+    - /payment-methods/creditcards/activate-credit-cards/
+    - /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
+    - /payment-methods/credit-and-debit-cards/creditcards/
 --- 

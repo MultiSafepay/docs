@@ -3,11 +3,15 @@ title: "Request to Pay, How does it work?"
 weight: 21
 meta_title: "Request to Pay, how does it work? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: 
+- /payment-methods/banks/direct-bank-transfer/#how-does-it-work
+- /payment-methods/banks/direct-bank-transfer/#transaction-flow
+- /payment-methods/banks/direct-bank-transfer/#product-rules
 ---
 
 ## How does it work?
 
-Request to Pay works in such a way that consumers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the consumer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
+Request to Pay works in such a way that customers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the customer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
 
 Request to Pay reduces cost and risk, enabling faster settlement, providing simplified reconciliation.
 
@@ -25,12 +29,12 @@ Request to Pay transactions received by MultiSafepay will be processed directly 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Initialized | Initialized | Consumer is redirected to the Deutsche Bank payment page  | 
-| Uncleared   | Completed   | The payment has been authorised and successful. The consumer is redirected back to MultiSafepay   | 
+| Initialized | Initialized | Customer is redirected to the Deutsche Bank payment page  | 
+| Uncleared   | Completed   | The payment has been authorised and successful. The customer is redirected back to MultiSafepay   | 
 | Completed   | Completed   |  Transaction is on credit notification. For banks that support instant SEPA credit transfers, the credit notifications can be immediate, otherwise this will be done within the next 24 hours.  | 
-| Expired   | Expired    | The consumer does not complete the payment on the Deutsche Bank payment interface. | 
-| Declined     | Declined     | Deutsche Bank or the consumer bank rejects the payment.  | 
-| Void        | Void    | The consumer cancels the payment on the Deutsche Bank payment interface.   | 
+| Expired   | Expired    | The customer does not complete the payment on the Deutsche Bank payment interface. | 
+| Declined     | Declined     | Deutsche Bank or the customer bank rejects the payment.  | 
+| Void        | Void    | The customer cancels the payment on the Deutsche Bank payment interface.   | 
 
 ## Refund flow
 

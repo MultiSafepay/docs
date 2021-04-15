@@ -4,6 +4,7 @@ weight: 22
 meta_title: "Klarna, how to activate it - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/payment-methods/klarna/activate-klarna/]
 ---
 ## Activate
 {{< alert-notice >}} Note: Before applying for Klarna, please check your eligibility with your MultiSafepay account manager at <sales@multisafepay.com> {{< /alert-notice >}}
@@ -24,4 +25,4 @@ For existing clients, please contact <verkoop@klarna.com> for more information a
 
 Alternatively, if you have any questions regarding your Klarna integration and the connection between Klarna and the MultiSafepay Control, please contact <integration@multisafepay.com>
 
-Please note that all consumer questions are handled by [Klarna](https://www.klarna.com/nl/klantenservice/) for both new and existing clients.
+Please note that all customer questions are handled by [Klarna](https://www.klarna.com/nl/klantenservice) for both new and existing clients.

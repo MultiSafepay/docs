@@ -1,0 +1,19 @@
+{{ .Scratch.Set "identifier" (first 10 (md5 .Inner)) }}
+
+{{ if isset .Params "h2" }}
+<h2 class="my-5 collapse-header" id="{{ replaceRE " " "-" (.Get "title") }}" data-toggle="collapse" data-target="#{{printf "collapse_%s" (.Scratch.Get "identifier") }}" aria-expanded="false">
+  {{ print (.Get "title") }}
+</h2>
+{{ end }}
+
+{{ if isset .Params "h3" }}
+<h3 class="my-4 collapse-header" id="{{ replaceRE " " "-" (.Get "title") }}" data-toggle="collapse" data-target="#{{printf "collapse_%s" (.Scratch.Get "identifier") }}" aria-expanded="false">
+  {{ print (.Get "title") }}
+</h3>
+{{ end }}
+
+<div class="collapse" id="{{printf "collapse_%s" (.Scratch.Get "identifier") }}">
+  <div>
+    {{ .Inner | markdownify }}
+  </div>
+</div>
