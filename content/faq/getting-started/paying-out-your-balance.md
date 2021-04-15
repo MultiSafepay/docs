@@ -1,7 +1,7 @@
 ---
 title : "Paying out your MultiSafepay Control balance"
 weight: 9
-meta_title: "FAQ Getting Started - Withdraw balance - MultiSafepay Docs"
+meta_title: "FAQ Getting Started - Paying out your balance - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
@@ -20,4 +20,3 @@ The Risk Team then checks and approves your documentation and the information on
 Note that you can process customer payments immediately after creating a MultiSafepay Control account and implementing your website. But your funds will be held in your MultiSafepay Control account until it is fully activated.
 
 You can choose to pay out your MultiSafepay Control balance manually or automatically.
-
