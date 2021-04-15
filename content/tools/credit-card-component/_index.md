@@ -116,7 +116,7 @@ const preOrder = {
 | Key | Value |
 | ---- | ---- |
 | currency | Currency of the order. {{< br >}} **Format:** [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) |
-| amount | Value of the order. {{< br >}} **Format:** Number without decimal points (e.g., 100EU > `10000`) |
+| amount | Value of the order. {{< br >}} **Format:** Number without decimal points (e.g., 100EU is `10000`) |
 
 #### Optional variables
 | Key | Value |
