@@ -7,9 +7,11 @@ read_more: "."
 
 ## Status change notification
 
-The status of an order can change for many reasons. Payments being received or reversed and chargebacks are a few examples. Each time this happens, MultiSafepay will send a notification to your system with the transaction ID. The URL that MultiSafepay sends this notification to can be configured in two places. The first place checked is the request when initiating an order. If there is no Notification URL provided when initiating an order, the default Notification URL set in [MultiSafepay Control](https://merchant.multisafepay.com/) will be used.
+The status of an transaction can change for many reasons. Payments being received or reversed and chargebacks are a few examples. Each time this happens, MultiSafepay will send a notification to your system with the **transaction ID**. The URL that MultiSafepay sends this notification to can be configured in two places. 
 
-You can check within [MultiSafepay Control](https://merchant.multisafepay.com/) to see if we were able to successfully connect and send a notification to your system in the Offline Actions section. This information can be seen in the MultiSafepay test environment and MultiSafepay Control:
+The first place checked is the request when initiating an order. If there is no notification URL provided when initiating an order, the default **notification URL** set in [MultiSafepay Control](https://merchant.multisafepay.com/) will be used.
+
+You can check in your [MultiSafepay Control](https://merchant.multisafepay.com/) to see if we were able to successfully connect and send a notification to your system in the **Offline Actions** section. This information can be seen in the MultiSafepay test environment and MultiSafepay Control. To access the **Offline Actions** section, follow these steps:
 
 1. Log into the **MultiSafepay test environment** or **MultiSafepay Control**.
 2. Navigate to **Transactions** → **Transaction overview**.
