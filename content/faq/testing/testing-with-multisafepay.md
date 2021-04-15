@@ -81,24 +81,3 @@ Read more about the [onboarding process](/faq/getting-started/onboarding/)
 **Once your live account is approved, please remember to change your API key from the previously used test API key to the live API key in your MultiSafepay Control.**
 
 _If you have any questions, our [sales team](mailto:sales@multisafepay.com) are ready to assit you_
-
-## Status change notification
-
-The status of an order can change for many reasons. Payments being received or reversed and chargebacks are a few examples. Each time this happens, MultiSafepay will send a notification to your system with the transaction ID. The URL that MultiSafepay sends this notification to can be configured in two places. The first place checked is the request when initiating an order. If there is no Notification URL provided when initiating an order, the default Notification URL set in [MultiSafepay Control](https://merchant.multisafepay.com/) will be used.
-
-You can check within [MultiSafepay Control](https://merchant.multisafepay.com/) to see if we were able to successfully connect and send a notification to your system in the Offline Actions section. This information can be seen in the MultiSafepay test environment and MultiSafepay Control:
-
-1. Log into the MultiSafepay test environment or MultiSafepay Control.
-2. Navigate to _Transactions_ → _Transaction overview_.
-3. Click on any transaction.
-4. Scroll to the bottom of the page to view the _Offline Actions_.
-
-## Client system updates transaction status
-
-Once your system receives a notification, it must retrieve the transaction status from MultiSafepay. The transaction status will clearly show whether a payment was successful or not and give a reason why a transaction was not successful.
-
-After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within [MultiSafepay Control](https://merchant.multisafepay.com/)
-
-## Refunds
-
-It is possible to process refunds in your test account, although refunding any amount is by default disabled. Please contact our Integration Team at <integration@multisafepay.com> if you would like to have this option enabled.
