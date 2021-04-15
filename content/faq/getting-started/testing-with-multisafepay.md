@@ -26,7 +26,7 @@ Using the MultiSafepay Test Environment
 Every transaction MultiSafepay processes goes through a number of standard steps. During testing, it is worth checking that each step was completed successfully.
 
 1.  The merchant initiates an order.
-2.  Customer completes the payment.
+2.  The customer completes the payment.
 3.  MultiSafepay sends a status change notification.
 4.  Client system updates the transaction status.
 
