@@ -28,7 +28,7 @@ Every transaction MultiSafepay processes goes through a number of standard steps
 1.  The merchant initiates an order.
 2.  The customer completes the payment.
 3.  MultiSafepay sends a transaction status notification.
-4.  Client system updates the transaction status.
+4.  Client processes the transaction status notification.
 
 For help with testing, see [Diagnosing errors](/faq/errors-explained/diagnosing-errors).
 
