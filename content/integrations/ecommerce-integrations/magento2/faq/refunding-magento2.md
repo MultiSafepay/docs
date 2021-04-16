@@ -14,6 +14,12 @@ In the Magento backoffice, go to the _Invoices_ tab, click on the invoice that w
 
 You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-If you have more questions about refunds, please check out our [FAQ on refunds](/faq/refunds).
+{{< blue-notice >}}
+If you have just upgraded from the deprecated plugin to the new one, please note that refunding the orders with a payment method from the deprecated plugin is not possible inside Magento, because the payment method is not available anymore. These orders can be refunded via [MultiSafepay Control](https://merchant.multisafepay.com) instead.
+{{< /blue-notice >}}
 
-_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)_
+{{< blue-notice >}}
+Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)
+{{< /blue-notice >}}
+
+If you have more questions about refunds, please check out our [FAQ on refunds](/faq/refunds).
