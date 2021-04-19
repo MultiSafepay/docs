@@ -1,9 +1,11 @@
 ---
-title : "Dispute Chargeback?"
+title : "Disputing chargebacks"
 weight: 26
-meta_title: "Credit cards, Dispute Chargeback - MultiSafepay Docs"
+meta_title: "FAQ Chargebacks - Disputing chargebacks - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /faq/chargebacks/dispute-chargeback
 ---
 For questions or providing documentation you can submit your email to <retrieval@multisafepay.com>
 
