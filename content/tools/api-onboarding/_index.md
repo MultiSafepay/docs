@@ -1,5 +1,5 @@
 ---
-title : Onboarding with our API
+title : Onboarding using our API
 layout : single
 tags : hidden
 ---
@@ -9,18 +9,18 @@ tags : hidden
 You can use our API to build your own onboarding flow. This can be useful if your business model involves multiple affiliate accounts that process payments. Examples of such business models include marketplaces, franchise models and crowdfunding platforms. 
 
 {{< blue-notice >}}
-This article explains MultiSafepay's account types and provides an overview of the onboarding process. If you are ready to build your own onboarding flow, [learn how to create a Merchant Account with our API](create-account).
+This article explains MultiSafepay's account types and provides an overview of the onboarding process. If you are ready to build your own onboarding flow, [learn how to create a merchant account with our API](create-account).
 {{< /blue-notice >}}
 
 ## Account types
 Before we get started, it's helpful to understand our two account types.
 
-### Merchant Account
-Merchant Accounts are accounts used to process payments. Every Merchant Account represents a single legal entity. However, a Merchant Account can have multiple websites, and thus multiple API keys. This allows a  business to process payments for multiple websites or apps under one account. 
+### Merchant account
+Merchant accounts are accounts used to process payments. Every merchant account represents a single legal entity. However, a merchant account can have multiple websites, and thus multiple API keys. This allows a  business to process payments for multiple websites or apps under one account. 
 
-Furthermore, a Merchant Account can add multiple bank accounts, allowing businesses to split payouts over multiple bank accounts. Finally, Merchant Accounts can [add multiple users](/tools/multisafepay-control/users/), allowing multiple people to access the Merchant Account, each with their own login credentials and access rights.
+Furthermore, a merchant account can add multiple bank accounts, allowing businesses to split payouts over multiple bank accounts. Finally, merchant accounts can add multiple user, allowing multiple people to access the merchant account, each with their own login credentials and access rights.
 
-**[Learn more about Merchant Accounts and User Rights](/tools/multisafepay-control/)**
+[Learn more about merchant accounts and user rights](/tools/multisafepay-control/)
 
 ### Partner Account
 Partner Accounts act as a parent to one or multiple Merchant Accounts. Like Merchant Accounts, Partner Accounts can be used to process payments. However, in addition, they can  receive funds through commissions. There are three levels at which commissions can be managed:
@@ -31,10 +31,12 @@ Partner Accounts act as a parent to one or multiple Merchant Accounts. Like Merc
 
 Like Merchant Accounts, Partner Accounts represent a single legal entity and allow you to connect multiple bank accounts and users.
 
-**[Learn more about Partner Accounts and managing commissions](/tools/partner-account-control/)**
+**[Learn more about Partner Accounts](/tools/partner-account-control/)**
 
 ## Requirements
-To use our API for the onboarding of new Merchant Accounts, you need a Partner Account. [Create a Partner Account](https://merchant.multisafepay.com/signup?partner), or if you are currently have a Merchant Account, ask your Account Manager what option best suits your business requirements.
+To use our API for the onboarding of new Merchant Accounts, you need a Partner Account. If you are new to MultiSafepay, sign up for a Partner Account. If you are currently have a Merchant Account, ask your Account Manager what option best suits your business requirements.
+
+**[Sign up for a Partner Account](https://merchant.multisafepay.com/signup?partner)**
 
 ## Overview
 
@@ -93,13 +95,13 @@ With a Merchant Account `id`, one or multiple websites can be added. Collect and
 - Notification URL
 - Support details
 
-Upon succesful submissions, a website API key is returned. Once the Merchant Accoutn, bank account, UBO details and website have passed our _identification checks_, the website API key can be used to start processing payments.
-
-**[Learn how to add a website with our API](add-website)**
+Upon succesful submissions, a website API key is returned. Once the Merchant Account, bank account, UBO details and website have passed our _identification checks_, the website API key can be used to start processing payments.
 
 {{< blue-notice >}}
-For more information about the screening process, read [our documentation on onboarding](https://docs.multisafepay.com/faq/getting-started/onboarding/).
+For more information about the screening process, including the difference between _identification_ and _verification_ checks, read [our documentation on onboarding](https://docs.multisafepay.com/faq/getting-started/onboarding/).
 {{< /blue-notice >}}
+
+**[Learn how to add a website with our API](add-website)**
 
 ---
 

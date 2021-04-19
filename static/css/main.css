@@ -1588,5 +1588,5 @@ p code, td code {
 
 .collapse-header:hover {
 	color: #008DCB;
-	
+	cursor: pointer;	
 }
