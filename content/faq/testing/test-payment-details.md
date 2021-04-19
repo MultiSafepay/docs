@@ -15,33 +15,6 @@ With a successful connection with your test or staging environment, you can imme
 
 ## Banks
 
-### AfterPay
-
-Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup)
-
-### Alipay
-
- Status    | Description              |
-| --------- | ------------------------ |
-| Completed | Transaction is Completed |
-| Cancelled | Transaction is Cancelled |
-
-### American Express
-
-MultiSafepay provides a test platform for American Express transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
-
-* CVC 123
-* Select a date in the future for the expiry date
-
-| Card number         | Status    | Description              |
-| ------------------- | --------- | ------------------------ |
-| 378282246310005  | Completed | Transaction is Completed (not 3D enrolled) |
-| 374200000000004  | Declined  | Transaction is Declined |
-| 378734493671000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
-
-### Apple Pay
-
-If you would like to test Apple Pay, we kindly invite you to read our page about [Compatibility and Testing](/payment-methods/wallet/applepay/#compatibility-and-testing) which explains how you will be able to execute tests on supported devices.
 
 ### Bancontact
 
@@ -61,33 +34,35 @@ The QR codes of the Bancontact testing environment can only be read with a gener
 
 ### Bank transfer
 
-MultiSafepay provides a test platform for bank transfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for bank transfer transactions. To simulate the outcome of a transaction, enter:
+
+* A test IBAN number
 
 | IBAN               | Status    | Description              |
 | ------------------ | --------- | ------------------------ |
 | NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized/Initialized (after 1 minute it is Completed) |
-| NL87ABNA0000000002 | Initialized/Expired/Completed | Transaction is Initialized ( after 1 minute it is Expired, and 1 minute later it is Completed) |
-| NL87ABNA0000000003 | Initialized/Expired | Transaction is Initialized ( after 1 minute it is Expired) |
-| NL87ABNA0000000004 | Initialized/Declined | Transaction is Initialized ( after 1 minute it is Declined) |
+| NL87ABNA0000000002 | Initialized/Expired/Completed | Transaction is Initialized (after 1 minute it is Expired, and 1 minute later it is Completed) |
+| NL87ABNA0000000003 | Initialized/Expired | Transaction is Initialized (after 1 minute it is Expired) |
+| NL87ABNA0000000004 | Initialized/Declined | Transaction is Initialized (after 1 minute it is Declined) |
 
 ### Belfius
 
-MultiSafepay provides a test platform for Belfius transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for Belfius transactions. During the payment process you will be able to simulate the outcome of the transaction. Select one of the test scenarios on the payment page:
 
  Status    | Description              |
 | --------- | ------------------------ |
 | Completed | Transaction is Completed |
-| Cancelled | Transaction is Cancelled 
+| Cancelled | Transaction is Cancelled (Order status will first be Void) 
 
 
 ### CBC
 
-The payment method CBC can only be processed on our new payment page starting with PayV2.
+The payment method CBC can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/difference-between-v1-and-v2/).
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction is completed |
-| Cancelled | Transaction is void / cancelled |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Void / Cancelled |
 
 
 ### Dankort
@@ -157,7 +132,8 @@ The payment method KBC can only be processed on our new payment page starting wi
 
 ### Request to Pay
 
-MultiSafepay provides a test platform for Request to Pay transactions though Deutsche Bank.
+MultiSafepay provides a test platform for Request to Pay transactions through Deutsche Bank.
+
 You can simulate the following scenarios:  
 
 | Status    | Description              |
@@ -166,6 +142,7 @@ You can simulate the following scenarios:
 | Canceled | Transaction is Canceled |
 
 Select 'Demo Bank' in the Bank field and go through the steps with the information provided in the description in order to get a _Completed_ status.
+
 In order to get a _Cancel_ status you need to click on the _Close_ button at the top right of the screen.
 
 ### Recurring payment
@@ -209,13 +186,16 @@ Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable 
 
 ### Betaal per Maand
 
-No test data is available for the payment method Betaal per Maand.
+MultiSafepay provides a test platform for Betaal per Maand transactions. During the payment process you will be able to simulate the outcome of the transaction.
 
-When activating Betaal per Maand as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed (Order status will first go to Uncleared) |
+| Declined | Transaction is Declined (Order status will first go to Uncleared) |
 
 ### E-invoicing
 
-MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delivery transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for E-invoicing transactions. During the payment process you will be able to simulate the outcome of the transaction.
 
 | Address               | Status    | Description              |
 | ------------------ | --------- | ------------------------ |
@@ -223,12 +203,15 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 ### in3
 
-MultiSafepay provides a test platform for in3 transactions. By entering the following details, you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for in3 transactions. To simulate the outcome of a transaction, select one of the following scenarios in the test environment:
 
-| Status            | Date of birth    | Postal code | House number |
-| ---------------- | ------------------- | ------------------- | ----------------- |
-| Approved             | 01-01-1999 | 1234AB | 1 |
-| Declined              | 01-01-2000 | 1111AB | 1 |
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Declined | Transaction is Declined |
+| Open Completed | Transaction remains initialized until the Bank provides a final completed status. (after 1 minute) |
+| Open Declined | Transaction remains initialized until the Bank provides a final declined status. (after 1 minute) |
+| Cancelled | Transaction is Cancelled |
 
 ### Klarna
 
@@ -289,12 +272,12 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 ### Pay After Delivery (Betaal na Ontvangst)
 
-MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delivery transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delivery transactions. During the payment process you will be able to simulate the outcome of the transaction by filling in the following information:
 
-| Address               | Status    | Description              |
-| ------------------ | --------- | ------------------------ |
-| Kraanspoor 39C - 1033SC Amsterdam | Completed | Transaction is Completed |
-| Vlierweg 12D - 1032LG Amsterdam | Declined | Transaction is Declined |
+* Any random date of birth
+* Any random bank account number (do not enter your own bank account number)
+* Any random Email address
+* Any random phone 
 
 ### Visa
 
