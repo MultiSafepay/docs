@@ -45,7 +45,10 @@ If you would like to test Apple Pay, we kindly invite you to read our page about
 
 ### Bancontact
 
-MultiSafepay provides a test platform for Bancontact transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for Bancontact transactions. To simulate the outcome of a transaction, enter:
+
+* A test card number
+* Any expiry date in the future
 
 | Card number           | Status    | Description              |
 | --------------------- | --------- | ------------------------ |
@@ -62,7 +65,7 @@ MultiSafepay provides a test platform for bank transfer transactions. By enterin
 
 | IBAN               | Status    | Description              |
 | ------------------ | --------- | ------------------------ |
-| NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized (after 1 minute it is Completed) |
+| NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized/Initialized (after 1 minute it is Completed) |
 | NL87ABNA0000000002 | Initialized/Expired/Completed | Transaction is Initialized ( after 1 minute it is Expired, and 1 minute later it is Completed) |
 | NL87ABNA0000000003 | Initialized/Expired | Transaction is Initialized ( after 1 minute it is Expired) |
 | NL87ABNA0000000004 | Initialized/Declined | Transaction is Initialized ( after 1 minute it is Declined) |
