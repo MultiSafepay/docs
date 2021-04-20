@@ -5,20 +5,18 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-For thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
+To test payment methods with your ecommerce integration or custom-built integration, test payment details can be entered on the checkout page to simulate a transaction. Alternativley, some payment methods require you select test scenarios from a list.
 
-Testing with our test credentials can only be done in your MultiSafepay Control (Test environment). Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
+The test payment details and scenarios can only be tested in the [MultiSafepay Test Control](https://testmerchant.multisafepay.com/). If you do not have an account yet, see [Onboarding](/guides/getting-started/#step-1-create-a-test-account)
 
-With a successful connection with your test or staging environment, you can immediately start testing.
 
-{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team at <integration@multisafepay.com> to enable outgoing payments or additional payment methods in your MultiSafepay Control. {{< /alert-notice >}} 
+{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay Test Control. As a result, a refund cannot be processed successfully. Contact our Integration Team at <integration@multisafepay.com> to enable outgoing payments or additional payment methods in your MultiSafepay Test Control. {{< /alert-notice >}} 
 
 ## Banks
 
-
 ### Bancontact
 
-MultiSafepay provides a test platform for Bancontact transactions. To simulate the outcome of a transaction, enter:
+MultiSafepay provides test details for Bancontact transactions. To simulate the outcome of a transaction, enter:
 
 * A test card number
 * Any expiry date in the future
@@ -34,7 +32,7 @@ The QR codes of the Bancontact testing environment can only be read with a gener
 
 ### Bank transfer
 
-MultiSafepay provides a test platform for bank transfer transactions. To simulate the outcome of a transaction, enter:
+MultiSafepay provides a test details for Bank transfer transactions. To simulate the outcome of a transaction, enter:
 
 * A test IBAN number
 
@@ -47,7 +45,6 @@ MultiSafepay provides a test platform for bank transfer transactions. To simulat
 
 ### Belfius
 
-MultiSafepay provides a test platform for Belfius transactions. During the payment process you will be able to simulate the outcome of the transaction. Select one of the test scenarios on the payment page:
 
  Status    | Description              |
 | --------- | ------------------------ |
@@ -59,6 +56,8 @@ MultiSafepay provides a test platform for Belfius transactions. During the payme
 
 The payment method CBC can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/difference-between-v1-and-v2/).
 
+MultiSafepay provides test scenarios for Belfius transactions. To simulate the outcome of a transaction, select one of the following statuses:
+
 | Status    | Description              |
 | --------- | ------------------------ |
 | Completed | Transaction is Completed |
@@ -67,16 +66,18 @@ The payment method CBC can only be processed on our new payment page starting wi
 
 ### Dankort
 
-MultiSafepay provides the Visa test credentials to test the payment method Dankort.
+MultiSafepay provides [Visa test credentials](/faq/getting-started/test-payment-details/#visa) to test the payment method Dankort.
 
-Dankort is shown as a payment option on the Payment page of MultiSafepay only after:
+Dankort is shown as a payment option on the payment page of MultiSafepay only after:
 
 1. The Visa gateway is enabled; and
 2. The locale is set to da_DK (Denmark) in the transaction call received by MultiSafepay.
 
+Contact our Integration Team at <integration@multisafepay.com> to enable the Visa gateway.
+
 ### Dotpay
 
-MultiSafepay provides a test platform for Dotpay transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides test scenarios for Dotpay transactions. To simulate the outcome of a transaction, select one of the following statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
@@ -85,19 +86,21 @@ MultiSafepay provides a test platform for Dotpay transactions. During the paymen
 
 ### Giropay / EPS
 
-MultiSafepay provides a test platform for Giropay/EPS transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a testing environment for Giropay/EPS transactions. To simulate the outcome of a transaction, enter the following:
+
+* Any BIC
 
 | BIC     | Status    | Description              |
 | ------- | --------- | ------------------------ |
 | Any BIC | Completed | Transaction is Completed |
 | Any BIC | Declined  | Transaction is Declined |
 
-Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
+Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in test environment. In the live environment, EPS will display only when you use Austria (AT) as country code.
 
 
 ### iDEAL
 
-MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides test scenarios for iDEAL transactions. To simulate the outcome of a transaction, select one of the following scenarios:
 
 | Status                | Description              |
 | --------------------- | ------------------------ |
