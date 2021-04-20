@@ -13,7 +13,7 @@ aliases:
     - /faq/getting-started/getting-started
 ---
 
-Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your MultiSafepay Test Control.<br>
+Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay Test Control](https://testmerchant.multisafepay.com/).<br>
 
 This section assumes you have followed the steps on [Getting started](/guides/getting-started/#step-1-create-a-test-account).
 
@@ -40,7 +40,7 @@ There are two ways to initiate a transaction:
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
 1. In your API testing environment, enter your test API key.
-2. Select a payment method request from the API - [Payment methods](/api/#payment-methods) page.
+2. On the API - [Payment methods](/api/#payment-methods) page, select a request for the payment method you want to test.
 3. Include **all** required parameters in the request.
 
 If you are using a [custom-built integration](/guides/getting-started/#custom-built-integrations), MultiSafepay checks the customer information in the request to ensure its validity. To minimize the chance of errors during the payment process, include as much identifying information about your test customer as possible.
@@ -49,29 +49,22 @@ If you are using a [custom-built integration](/guides/getting-started/#custom-bu
 
 A unique URL is automatically generated to a [payment page](/tools/payment-pages/) where you can complete the payment.
 
-1. Fill in the [test payment details](/faq/getting-started/test-payment-details/) if applicable. Payment methods such as iDEAL will let you select various test scenarios instead of filling in the fields. An overview and explanation of these scenarios are visible on the payment page. Read more about statuses per payment method
-
-3. Submit the order by clicking **Test** or **Place Order**.
-
-_Payments may not be successful for various reasons. See the [Diagnosing Errors](/faq/errors-explained/diagnosing-errors/) guide_
+1. Enter test payment details or select a payment scenario for the payment method you are testing. See [Test payment details](/faq/getting-started/test-payment-details/). 
+2. Complete the test payment.
 
 ### Step 3: Check transaction details
 
-After completing the payment, the transaction details are reflected in the MultiSafepay test environment. To check the status of a transaction:
+After completing the payment, the transaction details appear in your MultiSafepay Test Control. To check the status of a transaction:
 
-1. Open your [MultiSafepay test environment](https://testmerchant.multisafepay.com/).
-2. Go to **Transactions** → **Transactions overview**.
-3. Click on the corresponding transaction from the list.
-4. You are now be able to view the **Transaction details, Order summary, Customer details, Status history** and more.
+1. Go to **Transactions** > **Transactions overview**.
+2. In the **Transactions overview** list, select the transaction to view the **Transaction details** page.
 
-### Step 5: Test to Live
+For information about possible transaction statuses, see [Test payment details](/faq/getting-started/test-payment-details/).
 
-After exploring the testing possibilities within the MultiSafepay test environment, you can [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
+## Test to live
 
-As a [payment service provider](/faq/general/glossary/#payment-service-provider-psp[) and [acquirer](/faq/general/glossary/#acquirer), we are legally required to check your account based on the **Know your customer** guidelines. You can supply the information needed to activate your account through your [MultiSafepay Control](https://merchant.multisafepay.com/) 
+To start processing real transactions, sign up for a live account. See [Onboarding](/faq/getting-started/onboarding/).
 
-Read more about the [onboarding process](/faq/getting-started/onboarding/) 
+**Note:** Once your live account is approved, ensure you use the new live API key from your MultiSafepay Control instead of your test API key.
 
-**Once your live account is approved, remember to change your API key from the previously used test API key to the live API key in your MultiSafepay Control.**
-
-_If you have any questions, feel free to email our [sales team](mailto:sales@multisafepay.com)_
+For any questions about this process, email the Integration Team at <integration@multisafepay.com>
