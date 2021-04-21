@@ -1,9 +1,11 @@
 ---
-title : "Surcharges"
+title : "About surcharges"
 weight: 3
-meta_title: "FAQ Payment Regulations - Surcharges - MultiSafepay Docs"
+meta_title: "FAQ Payment regulations - About surcharges - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases:
+    - /faq/payment-regulations/surcharges
 ---
 {{< alert-notice >}} __Please read__: We constantly update the contents of this document. You should expect new information to surface anytime, as specifics about the implementation of the new PSD2 directive are still being worked on. {{< /alert-notice >}}   
 
