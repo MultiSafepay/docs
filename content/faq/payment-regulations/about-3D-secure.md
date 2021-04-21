@@ -10,7 +10,7 @@ aliases:
 
 3D Secure (3DS) is an authentication protocol for online transactions. 3D Secure is also known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. Two versions of the 3D Secure protocol coexist (3DS 1.0 and 3DS 2.0).
 
-**Note:** All Europe-based transactions through our platform use the 3D Secure protocol in order to comply with PSD2 regulations.
+**Please note:** All Europe-based transactions through our platform use the 3D Secure protocol in order to comply with PSD2 regulations.
 
 ## How does 3D Secure relate to PSD2 and SCA?
 
