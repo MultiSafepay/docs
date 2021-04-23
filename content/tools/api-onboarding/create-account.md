@@ -1,21 +1,24 @@
 ---
-title : Create a Merchant Account
+title : Create a merchant account
 layout : single
 tags : hidden
 ---
 
 ## Introduction
 
-Use the following requests to create, retrieve or update Merchant Accounts affiliated to your Partner Account:
-1. [Signup account](#signup-account): create a new Merchant Account
-2. [List accounts](#list-accounts): retrieve a list of all Merchant Accounts
-3. [Get account](#get-account): retrieve a single Merchant Account
-4. [Update account](#update-account): update a Merchant Account
+Use the following requests to create, retrieve or update merchant accounts affiliated to your partner account:
+1. [Signup account](#signup-account): create a new merchant account
+2. [List accounts](#list-accounts): retrieve a list of all merchant accounts
+3. [Get account](#get-account): retrieve a single merchant account
+4. [Update account](#update-account): update a merchant account
+
+### About parameters
+For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To perform our know your customer checks, we may need _optional_ parameters to be supplied.
 
 ## Authentication
-All four account requests require a Partner Account API key. This is not the same as a [website API key](/tools/multisafepay-control/get-your-api-key/). Ask your Partner Manager for more information.
+All four account requests require a partner account API key. This is not the same as a [website API key](/tools/multisafepay-control/get-your-api-key/). Ask your Partner Manager for more information.
 
-All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the according API key.
+All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the corresponding API key.
 
 ---
 
@@ -23,7 +26,7 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 `POST` `https://testapi.multisafepay.com/v1/json/signup-account`
 
-Create a new affiliated Merchant Account.
+Create a new affiliated merchant account.
 
 ### Query parameters
 |Key|Description|
@@ -43,10 +46,10 @@ Create a new affiliated Merchant Account.
 |account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
 |account.zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. Optional.|
 |**contact_person**{{< br >}}`object`|This object holds contact person information|
-|contact_person.name{{< br >}}`string`|Name of company contact person{{< br >}}**Format**: ??? . Required.|
-|contact_person.password{{< br >}}`string`|Password of company contact person{{< br >}} **Format**: ??? . Required.|
-|contact_person.email{{< br >}}`string`|Email address of company contact person{{< br >}}**Format**: ??? . Required.|
-|currencies{{< br >}}`array`|List of currencies (company wishes to accept? company currently has bank accounts in?){{< br >}}**Format**: array of strings in [ISO-4217 format](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `[EUR,USD]`). Required.|
+|contact_person.name{{< br >}}`string`|Name of company contact person{{< br >}}**Format**:  . Required.|
+|contact_person.password{{< br >}}`string`|Set a password for the company contact person's account. Required.|
+|contact_person.title{{< br >}}`string`|Title of company contact person{{< br >}}**Options**: `mr`, `ms`, `mrs`. Required.|
+|currencies{{< br >}}`array`|List of currencies the company wishes to process{{< br >}}**Format**: array of strings in [ISO-4217 format](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `[EUR,USD]`). Required.|
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -72,8 +75,8 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
     "zipcode": "1234 ZP"
   },
   "contact_person": {
-    "name": "string",
-    "password": "string",
+    "name": "Contact Person",
+    "password": "password",
     "title": "mr"
   },
   "currencies": [
@@ -87,8 +90,39 @@ _Escape characters in the JSON body are omitted to improve readability._
 
 {{< collapse title="Sample response" size="h3" >}}
 ```
-???
+{
+  "data": {
+    "account": {
+      "address1": "Flowerstreet 123",
+      "address2": "",
+      "address3": "",
+      "apartment": "5A",
+      "city": "Amsterdam",
+      "coc_number": "123456",
+      "company_name": "Fun B.V.",
+      "country": "NL",
+      "email": "info@funcompany.com",
+      "fax": "00311234567890",
+      "id": 12345678,
+      "phone": "00311234567890",
+      "vat_number": "NL999999999B99",
+      "zipcode": "1234 ZP"
+    },
+    "contact_person": {
+      "id": 123456,
+      "name": "Contact Person",
+      "password": "***",
+      "title": "mr"
+    },
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "success": true
+}
 ```
+`account.id` → the account ID
+`contact_person.id` → the contact person ID
 {{< /collapse >}}
 
 ---
@@ -97,7 +131,7 @@ _Escape characters in the JSON body are omitted to improve readability._
 
 `GET` `https://testapi.multisafepay.com/v1/json/accounts`
 
-Retrieve an array of all Merchant Accounts affiliated to your Partner Account.
+Retrieve an array of all merchant accounts affiliated to your partner account.
 
 ### Parameters
 This request doesn't require any parameters.
@@ -126,6 +160,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
       "country": "NL",
       "email": "info@funcompany.com",
       "fax": "00311234567890",
+	  "id": "12345678",
       "phone": "00311234567890",
       "vat_number": "NL999999999B99",
       "zipcode": "1234 ZP"
@@ -142,7 +177,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
 
 `GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}`
 
-Retrieve the account details of a specific affiliated Merchant Account.
+Retrieve the account details of a specific affiliated merchant account.
 
 ### Path parameters
 |Parameter|Description|
@@ -173,6 +208,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
     "country": "NL",
     "email": "info@funcompany.com",
     "fax": "00311234567890",
+	"id": "12345678",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
     "zipcode": "1234 ZP"
@@ -188,7 +224,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
 
 `PATCH` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}`
 
-Update the account details of an affiliated Merchant Account.
+Update the account details of an affiliated merchant account.
 
 ### Path parameters
 |Parameter|Description|
@@ -220,7 +256,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
 -H "Authentication: Bearer <your-account-API-key>" \
 -d " \
 {
-  "email" :"newmail@funcompany.com",
+  "email" :"newemail@funcompany.com",
   "zipcode" :"5678 NW"
 }"
 ```
@@ -239,8 +275,9 @@ _Escape characters in the JSON body are omitted to improve readability._
     "coc_number": "123456",
     "company_name": "Fun B.V.",
     "country": "NL",
-    "email": "newmail@funcompany.com",
+    "email": "newemail@funcompany.com",
     "fax": "00311234567890",
+	"id": "12345678",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
     "zipcode": "5678 NW"
@@ -253,10 +290,10 @@ _Escape characters in the JSON body are omitted to improve readability._
 ---
 
 ## Next steps
-You have succesfully created a Merchant Account. Now, you can add bank accounts, UBOs and websites, using the unique Merchant Account `id` .
+You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the unique merchant account `id` .
 
 {{< two-buttons
 
 href-1="/tools/api-onboarding" header-1="Overview" text-1="Read introduction" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/tools/api-onboarding/add-bank-account" header-2="Next" text-2="Add bank accounts " img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/tools/api-onboarding/add-bank-accounts" header-2="Next" text-2="Add bank accounts " img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

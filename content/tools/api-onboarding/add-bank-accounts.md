@@ -6,12 +6,12 @@ tags : hidden
 
 ## Introduction
 
-Use seven request to perform actions on bank account details of Merchant Accounts affiliated to your Partner Account:
-1. [Add bank account](#add-bank-account): add a bank account to a Merchant Account
+Use seven requests to perform actions on bank account details of merchant accounts affiliated to your partner account:
+1. [Add bank account](#add-bank-account): add a bank account to a merchant account
 2. [List bank accounts](#list-bank-accounts): retrieve a list of all bank accounts
 3. [Get bank account](#get-bank-account): retrieve a single bank account
-5. [Create payment link](#create-payment-link): create a payment link, to verify a bank account
-6. [Add bank statement](#add-bank-statement): add a bank statement, to verify a bank account
+5. [Create payment link](#create-payment-link): create a payment link to verify a bank account
+6. [Add bank statement](#add-bank-statement): add a bank statement to verify a bank account
 7. [List bank statements](#list-bank-statements): retrieve a list of all bank statements
 8. [Get bank statement](#get-bank-statement): retrieve a single bank statement
 
@@ -20,19 +20,19 @@ Use seven request to perform actions on bank account details of Merchant Account
 
 The requests above can be split into two steps:
 
-1. **Add bank accounts**: Use the first three requests to add and retrieve bank accounts associated to a Merchant Account. 
+1. **Add bank accounts**: Use the first three requests to add and retrieve bank accounts linked to a merchant account. 
 2. **Verify bank accounts**: Use the last four requests to verify bank accounts. You can choose to verify through a payment link or by supplying a bank statement.
 
 ## Authentication
-All seven bank account requests require a Partner Account API key. This is not the same as a [website API key](/tools/multisafepay-control/get-your-api-key/). Ask your Partner Manager for more information.
+All seven bank account requests require a partner account API key. This is not the same as a [website API key](/tools/multisafepay-control/get-your-api-key/). Ask your Partner Manager for more information.
 
-All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the according API key.
+All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the corresponding API key.
 
 ## Add bank account 
 
 `POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/bank-accounts`
 
-Add a new bank account to a Merchant Account.
+Add a new bank account to a merchant account.
 
 ### Path parameters
 |Parameter|Description|
@@ -81,12 +81,12 @@ _Escape characters in the JSON body are omitted to improve readability._
 
 `GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/bank-accounts`
 
-Retrieve a list of all bank accounts linked to an affiliated Merchant Account.
+Retrieve a list of all bank accounts linked to an affiliated merchant account.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID of the affiliated Merchant Account.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|Merchant ID of the affiliated merchant account.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -238,7 +238,7 @@ _Escape characters in the JSON body are omitted to improve readability._
 
 `GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements`
 
-Retrieve a list of all bank statements associated to a bank account.
+Retrieve a list of all bank statements associated with a bank account.
 
 ### Path parameters
 |Parameter|Description|
@@ -305,11 +305,11 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/12345678" 
 ---
 
 ## Next steps
-You have added one or multiple bank accounts to a Merchant Account. Next, you can add UBOs and websites, using the unique Merchant Account `id` .
+You have added one or multiple bank accounts to a merchant account. Next, you can add UBOs and websites using the unique merchant account `id` .
 
 {{< two-buttons
 
-href-1="/tools/api-onboarding/create-account" header-1="Previous" text-1="Create a Merchant Account" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/tools/api-onboarding/create-account" header-1="Previous" text-1="Create a merchant account" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/tools/api-onboarding/add-ubo" header-2="Next" text-2="Add UBO details" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/tools/api-onboarding/add-ubos" header-2="Next" text-2="Add UBO details" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
