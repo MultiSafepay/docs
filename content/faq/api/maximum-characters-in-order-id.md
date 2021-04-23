@@ -1,8 +1,10 @@
 ---
-title: What is the maximum length of an order_id?
+title: "Maximum number of characters in the order_id"
 weight:
-meta_title: "FAQ API – What is the maximum length of an order_id? - MultiSafepay Docs"
+meta_title: "FAQ API – Maximum characters in order_id - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases:
+    - /faq/api/maximum-length-of-order-id
 ---
-The maximum length of an order_id must be no more than 50 characters. If the order_id is greater than 50 characters, a 1006 error will be displayed.
+The maximum number of characters in an `order_id` is 50. If you include more characters, you get a 1006 error.
