@@ -9,7 +9,7 @@ aliases: [/payment-methods/kbc/activate-kbc/]
 ## Activate
 KBC is a standard payment method.
 
-KBC can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings → payment methods_.
+KBC can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings > payment methods_.
 Enable KBC as payment method in your ecommerce platform to finalize the activation.
 
 If KBC is not visible as a payment method in your MultiSafepay Control, you can contact the Integrations team at <integration@multisafepay.com> to assist you further.

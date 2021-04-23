@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 github_url : "https://github.com/MultiSafepay/craft-commerce"
 changelog_url : "."
 logo: "/logo/Integrations/Craft_Commerce.svg"
-weight: 170
+weight: 21
 title_short: "Craft Commerce"
 description_short: "Easily integrate MultiSafepay payment solutions into your Craft Commerce webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your Craft Commerce webshop with the free and completely new Craft Commerce 3 plugin."

@@ -17,7 +17,6 @@ However, if the notification URL is not correctly set, the order will not update
 | CS-Cart    | https://www.example.com/index.php?dispatch=payment_notification.notify&payment=multisafepay_ideal            |
 | Drupal 7     | https://www.example.com/multisafepay/callback                 |
 | Drupal 8     |Please contact the Integration Team at <integration@multisafepay.com>        |
-| HikaShop    | Please contact the Integration Team at <integration@multisafepay.com>           |
 | Lightspeed    | https://www.example.com/index.php?dispatch=payment_notification.notify&payment=multisafepay_ideal<br>  More information can be found on our [Lightspeed plugin FAQ](/integrations/hosted/lightspeed_core/faq/)          |
 | Magento 1    | https://www.example.com/index.php/msp/standard/notification           |
 | Magento 2    | https://www.example.com/storeview/multisafepay/connect/notification          |

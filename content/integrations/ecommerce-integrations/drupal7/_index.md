@@ -8,7 +8,7 @@ faq: "."
 meta_title: "Drupal 7 plugin integration - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/Drupal_7.svg"
-weight: 90
+weight: 15
 title_short: "Drupal 7"
 description_short: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."

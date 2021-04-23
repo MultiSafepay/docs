@@ -12,7 +12,7 @@ aliases:
 Please follow these steps to refund a Request to Pay transaction:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _Transactions → Transaction overview_
+2. Select _Transactions > Transaction overview_
 3. Find the transaction through search
 4. Open the transaction
 5. Select _refund_

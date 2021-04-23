@@ -10,7 +10,7 @@ read_more: '.'
 
 If you would like to create a payment link using the MultiSafepay Control App, we would kindly like to ask you to follow these instructions:
 
-1. Go to _Tools_ → _Payment link generator_
+1. Go to _Tools_ > _Payment link generator_
 2. Fill in the required fields
 3. Click _Generate payment link_
 4. A QR code will be generated which can be used

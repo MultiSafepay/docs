@@ -18,7 +18,7 @@ Follow the steps below to set a surcharge per payment method in the backend of M
 1. Select systems and configuration
 2. In the module from MultiSafepay choose the option connect gateway
 3. Select the desired payment method
-4. Add a surcharge percentage or fixed amount to set-up a fee within the section→ payment fee amount
+4. Add a surcharge percentage or fixed amount to set-up a fee within the section > payment fee amount
 5. It is optional to show the added fee with or without VAT in the checkout.
 
 See how applying payment fees or surcharges for your customers may affect your webshop on our [PSD2 documentation](/faq/payment-regulations/payment-service-directive-2) page.

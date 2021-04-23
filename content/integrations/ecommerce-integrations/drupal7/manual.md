@@ -20,9 +20,9 @@ aliases:
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
 ## 3. Configuration
-1. Log in to your backend and navigate to _Site Settings_ → _Modules_. Enable the Commerce MultiSafepay JSON module, along with the payment method modules of your choice. Then click _Save configuration_ to save the changes you have made
+1. Log in to your backend and navigate to _Site Settings_ > _Modules_. Enable the Commerce MultiSafepay JSON module, along with the payment method modules of your choice. Then click _Save configuration_ to save the changes you have made
 
-2. In the backend of your webshop, navigate to _Store Settings → Advanced Store Settings → Payment methods_.
+2. In the backend of your webshop, navigate to _Store Settings > Advanced Store Settings > Payment methods_.
 _Enable_ first the MultiSafepay core module ("multisafepay") and then _Enable_ the modules for each payment method.
 Click the button _Edit_ under _Actions_ to configure the payment method
 

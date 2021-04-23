@@ -57,10 +57,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "description": "Bunq"
     },
     {
-      "code": "1234",
-      "description": "Moneyou"
-    },
-    {
       "code": "1235",
       "description": "Handelsbanken"
     }
@@ -93,7 +89,6 @@ Direct iDEAL transactions can have the following Issuers:
 | 1235     | Handelsbanken         |
 | 0721     | ING                   |
 | 0801     | Knab                  |
-| 1234     | Moneyou               |
 | 0021     | Rabobank              |
 | 0771     | Regio Bank            |
 | Soon supported | Revolut         |

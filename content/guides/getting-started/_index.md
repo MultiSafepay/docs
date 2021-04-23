@@ -43,8 +43,8 @@ After successfully creating a test account, it is time to set up your MultiSafep
 Before you can start building your integration, add your website to your MultiSafepay Control to generate an API key. To do this, follow these steps:
 
 1. [Log in](https://testmerchant.multisafepay.com) to your MultiSafepay Control
-2. Navigate to *Settings* → *Website settings*
-3. Click *Website wizard* and add your domain
+2. Navigate to **Settings** > **Website settings**
+3. Click **Website wizard** and add your domain
 
 Your test account is now linked to your website. Navigate to the [website settings](https://testmerchant.multisafepay.com/sites), click your website, and copy the API key to start building your integration.
 
@@ -84,19 +84,21 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 
 {{< br >}}
 
-*Are you not sure which integration method best suits your business?  
-Our [integration specialists](mailto:integration@multisafepay.com) are happy to help you.*
+_Are you not sure which integration method best suits your business?  
+Our [integration specialists](mailto:integration@multisafepay.com) are happy to help you._
 
 
 {{< br >}}
 
 
 ## Step 4: Go live!
-When you are ready, you [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
+When you are ready, [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
 
-MultiSafepay is a [payment service provider](/faq/general/glossary/#payment-service-provider-psp) and [acquirer](/faq/general/glossary/#acquirer). Therefore, we are legally required to perform extra checks, which require you to submit multiple forms. You can [prepare these documents](/faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website) in advance if you wish to speed up the onboarding process.
+MultiSafepay is a [payment service provider](/faq/general/glossary/#payment-service-provider-psp) and [acquirer](/faq/general/glossary/#acquirer). Therefore, we are legally required to perform know your customer (KYC) checks on your account. You can supply the information we need to activate your account through your MultiSafepay Control. 
 
-*If you require assistance creating a live account, please reach out to our [sales team](mailto:sales@multisafepay.com)*
+**[Read more about onboarding](/faq/getting-started/onboarding/)**
+
+_If you require assistance creating a live account, please reach out to our [sales team](mailto:sales@multisafepay.com)_
 
 {{< br >}}
 

@@ -22,7 +22,7 @@ Planyo is an online reservation tool that allows your customers to make reservat
 
 To set up a connection with MultiSafepay:
 
-1. Go to _Site settings_ → _Online payments_
+1. Go to _Site settings_ > _Online payments_
 2. Choose _MultiSafepay_
 3. Enter your [MultiSafepay account ID / Site ID / Site Security Code](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key)
 4. Once done, test the reservation as a customer. 
