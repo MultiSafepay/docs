@@ -6,21 +6,19 @@ tags : hidden
 
 ## Introduction
 
-You can use our API to build your own onboarding flow. This can be useful if your business model involves multiple affiliated accounts that process payments. Examples of such business models include marketplaces, franchise models, and crowdfunding platforms. 
+This page is for MultiSafepay partners wanting to onboard new affiliated merchants using our API. Onboarding involves setting up an account and having it screened and approved by MultiSafepay.
 
-{{< blue-notice >}}
-This page explains MultiSafepay's account types and provides an overview of the API onboarding process. If you are ready to build your own onboarding flow, view the [API requests to create an affiliated merchant account](create-account).
-{{< /blue-notice >}}
+Using the API lets you create a customized onboarding flow for your new merchants. This is particularly useful if you need to onboard multiple merchants, e.g. for marketplaces, franchise models, and crowdfunding platforms. 
 
 ## Account types
-Before we get started, it's helpful to understand our two account types.
+MultiSafepay supports two different account types: merchant accounts and partner accounts. 
 
-### Merchant account
-Merchant accounts are accounts used to process payments. Every merchant account represents a single legal entity. However, a merchant account can have multiple website and thus multiple API keys. This allows a  business to process payments for multiple websites or apps under one account. 
+### Merchant accounts
+Merchant accounts represent a single legal entity that processes payments. Accounts can:
 
-Furthermore, a merchant account can add multiple bank accounts, allowing businesses to split payouts over multiple bank accounts. Finally, merchant accounts can add multiple users, allowing multiple people to access the merchant account, each with their own login credentials and access rights.
-
-For more information, [read about merchant accounts and user rights](/tools/multisafepay-control/).
+- Manage multiple websites or ecommerce platforms, each with their own API key.  
+- Include multiple business bank accounts.
+- Support multiple users with their own login credentials and permissions.
 
 ### Partner account
 Partner accounts act as a parent to one or multiple merchant accounts. Like merchant accounts, partner accounts can be used to process payments. However, in addition, they can  receive funds through commissions. There are three levels at which commissions can be managed:
