@@ -5,6 +5,76 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/shopware5/changelog/]
 ---
 
+## 2.8.0
+Release date: Apr 1st, 2021
+
+### Added
++ DAVAMS-240: Add in3 payment method
++ PLGSHPS-175: Add support for paymentlinks with backend orders
+
+***
+
+## 2.7.0
+Release date: Dec 16th, 2020
+
+### Added
++ SUPD-746: Add Good4fun Giftcard
+
+### Fixed
++ PLGSHPS-202: Resolve error when saving order in backend
+
+### Changed
++ DAVAMS-349: Update Trustly logo
+
+***
+
+## 2.6.0
+Release date: Dec 7th, 2020
+
+### Added
++ Add generic gateway which can be used for branded giftcards
+
+### Removed
++ Remove 'Mark order as shipped' button in backend
+
+### Changed
++ DAVAMS-318: Rebrand Klarna to Klarna - buy now, pay later
++ Order is marked as shipped at MultiSafepay when order status is changed to Completely delivered
+
+***
+
+## 2.5.0
+Release date: Sep 30th, 2020
+
+### Added
++ DAVAMS-274: Add CBC payment method
++ Add support for tax free products
+
+### Fixed
++ PLGSHPS-198: Fix shipping costs tax rounding issue
+
+### Changed
++ DAVAMS-301: Rebrand Direct Bank Transfer to Request to Pay
+
+***
+
+## 2.4.0
+Release date: Jun 24th, 2020
+
+## Added
++ PLGSHPS-194: Make send status mail on paid order optional
++ PLGSHPS-193: Install new payment methods on update
+
+## Fixed
++ PLGSHPS-195: Fix payment method amount filter not working
++ Add null check when Optin service record is not found
+
+## Changed
++ Make the text "Choose your bank" translatable
++ DAVAMS-226: Update logo and name for Santander
+
+***
+
 ## 2.3.0
 Release date: Mar 26th, 2020
 

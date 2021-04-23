@@ -8,7 +8,7 @@ faq: "."
 meta_title: "VirtueMart plugin integration - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/VirtueMart.svg"
-weight: 130
+weight: 18
 title_short: "VirtueMart"
 description_short: "Easily integrate MultiSafepay payment solutions into your VirtueMart webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your VirtueMart webshop with the free plugin."

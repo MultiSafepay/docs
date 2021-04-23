@@ -1,5 +1,6 @@
 ---
-title : "Test Payment Details"
+title : "Test payment details"
+weight: 8
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
@@ -220,7 +221,16 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 ### in3
 
-MultiSafepay provides a test platform for in3 transactions. By entering the following details, you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a [test environment](https://testmerchant.multisafepay.com/signup) for in3 transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with in3.
+
+You can test the payment method in3 as follows:
+
+1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method in3.
+2. The payment will be processed through the test environment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_.
+3. You can change the order status to _Shipped_ through an [API request](/api/#update-an-order) or in the [MultiSafepay Control](https://testmerchant.multisafepay.com/){{< br >}} The transaction status will remain _Uncleared_
+4. An invoice is not generated in the test environment, therefore the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process because the order has been captured in in3.
+
+You can also test in3 transactions by entering the following details on the in3 checkout page:
 
 | Status            | Date of birth    | Postal code | House number |
 | ---------------- | ------------------- | ------------------- | ----------------- |
@@ -229,7 +239,16 @@ MultiSafepay provides a test platform for in3 transactions. By entering the foll
 
 ### Klarna
 
-Klarna provides their own test credentials. For a complete guide, read more on [Klarna's documentation page](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+MultiSafepay provides a [test environment](https://testmerchant.multisafepay.com/signup) for Klarna transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with Klarna.
+
+You can test the payment method Klarna as follows:
+
+1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method Klarna.
+2. The payment will be processed through the test environment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_.
+3. You can manually change the order status to _Shipped_ through an [API request](/api/#update-an-order) or manually in the [MultiSafepay Control](https://testmerchant.multisafepay.com/){{<br>}} The transaction status will remain _Uncleared_.
+4. An invoice is not generated in the test environment. Therefore, the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process because the order has been captured in Klarna.
+
+Klarna also provides its own test credentials. For a complete guide, read more on [Klarna's documentation page](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
 
 More information about how you can integrate Klarna with MultiSafepay can be found on our [Klarna documentation page](https://docs.multisafepay.com/payment-methods/billing-suite/klarna)
 
@@ -326,7 +345,15 @@ MultiSafepay provides a test platform for Alipay transactions. During the paymen
 
 ### PayPal
 
-MultiSafepay provides a test platform for PayPal transactions. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a [test environment](https://testmerchant.multisafepay.com/signup) for PayPal transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with PayPal.
+
+You can test the payment method PayPal as follows:
+
+1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method PayPal.
+2. The payment will be processed through the test environment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_.
+3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status will remain on _Initialized_ and cannot be changed to _Completed_.
+
+The following statuses of a transaction can also be simulated in the test environment:
 
 | Status    | Description              |
 | --------- | ------------------------ |

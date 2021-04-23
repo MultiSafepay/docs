@@ -41,7 +41,7 @@ When you do not want to deduct an item but would like to submit an amount instea
 
 1. Select _refund order_
 2. _edit_
-3. Add the discount as a new page in the checkout editor - for example _-1 → discount → amount  → VAT_
+3. Add the discount as a new page in the checkout editor - for example _-1 > discount > amount  > VAT_
 4. Add the new order line to the order to deduct the amount given as a discount
 5. _Save_.
 

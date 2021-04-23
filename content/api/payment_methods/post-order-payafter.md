@@ -212,9 +212,6 @@ Creates a Pay After Delivery [Redirect](/faq/api/difference-between-direct-and-r
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
-
 **Parameters**
 
 ----------------
@@ -271,7 +268,9 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
 
@@ -335,9 +334,6 @@ Creates a Pay After Delivery [Direct](/faq/api/difference-between-direct-and-red
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
-
 **Parameters**
 
 ----------------
@@ -394,6 +390,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 __shopping_cart__ | object
 
 Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
 

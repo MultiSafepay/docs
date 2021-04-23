@@ -8,7 +8,7 @@ read_more: "."
 To fund your account please follow these steps:
 
 1. Log in to the [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Navigate on the left side of the page and select _Finance_ → _Fund account_
+2. Navigate on the left side of the page and select _Finance_ > _Fund account_
 3. Step 1: Select the currency and the amount that you would like to top up your account with
 4. Step 2: Select the payment method that you wish to use to execute the transaction
 5. Click on _Send_ to complete the payment.

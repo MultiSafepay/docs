@@ -50,7 +50,7 @@ Instead of deleting a page in the checkout editor you may want to add a discount
 5. Select _refund order_
 6. Choose _edit_
 7. Add the discount as a new page in the checkout editor
-For example _-1 → discount → amount  → VAT_
+For example _-1 > discount > amount  > VAT_
 8. Add the new order line to the order to deduct the amount given as a discount
 9. _Save_.
 

@@ -20,7 +20,7 @@ aliases:
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
 ### 3. Configuration
-1. Log in to your backend and navigate to _Modules → Payment_
+1. Log in to your backend and navigate to _Modules > Payment_
 2. Select _MultiSafepay - Connect_ and click on _Install_
 3. Enter your [API key](/tools/multisafepay-control/get-your-api-key)
 4. Click on _Update_

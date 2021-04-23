@@ -8,7 +8,7 @@ faq: "."
 meta_title: "X-Cart plugin integration - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: "/logo/Plugins/X-Cart.svg"
-weight: 150
+weight: 14
 title_short: "X-Cart"
 description_short: "Easily integrate MultiSafepay payment solutions into your X-Cart webshop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your X-Cart webshop with the free plugin."
