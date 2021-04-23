@@ -58,12 +58,12 @@ The first step in the onboarding process is the creation of a merchant account. 
 - VAT number
 - Contact details
 
-Use the `/signup-account` request to submit the account information. Upon successful submissions, a unique account identifier (`id`) is returned.
+Use the `/signup-account` request to submit the account information. Upon successful submissions, a unique account ID is returned.
 
 [Learn how to create a merchant account with our API](create-account)
 
 ### Add a bank account
-With a merchant account `id`, one or multiple bank accounts can be added to the account. Adding a bank account requires the following information: 
+With a merchant account ID, one or multiple bank accounts can be added to the account. Adding a bank account requires the following information: 
 
 - Currency
 - Name of the account holder
@@ -76,7 +76,7 @@ The trade name associated with the bank account must be an exact match of one of
 [Learn how to add bank accounts with our API](add-bank-accounts)
 
 ### Add UBO details
-With a merchant account `id`, Ultimate Beneficial Owner (UBO) details can be added to the account. These details are required for a merchant account to process payments. UBO details include:
+With a merchant account ID, Ultimate Beneficial Owner (UBO) details can be added to the account. These details are required for a merchant account to process payments. UBO details include:
 
 - Personal information
 - Contact details
@@ -87,7 +87,7 @@ Upon successful submissions, a unique UBO identifier is returned. This identifie
 [Learn how to add UBO details with our API](add-ubos)
 
 ### Add a website
-With a merchant account `id`, one or multiple websites can be added. Collect and submit the following website information:
+With a merchant account ID, one or multiple websites can be added. Collect and submit the following website information:
 
 - Website URL
 - Name of the website

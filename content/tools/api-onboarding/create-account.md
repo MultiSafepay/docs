@@ -169,6 +169,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
   "success": true
 }
 ```
+`account.id` → the account ID
 {{< /collapse >}}
 
 ---
@@ -216,6 +217,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
   "success": true
 }
 ```
+`id` → the account ID
 {{< /collapse >}}
 
 ---
@@ -285,12 +287,13 @@ _Escape characters in the JSON body are omitted to improve readability._
   "success": true
 }
 ```
+`id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Next steps
-You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the unique merchant account `id` .
+You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the unique merchant account ID.
 
 {{< two-buttons
 
