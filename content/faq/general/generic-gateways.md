@@ -31,4 +31,5 @@ We only support redirect gateways.
 - [OpenCart](/integrations/ecommerce-integrations/opencart/faq/generic-gateways/)
 - [Shopware 5](/integrations/ecommerce-integrations/shopware5/faq/generic-gateways/)
 - [Shopware 6](/integrations/ecommerce-integrations/shopware6/faq/generic-gateways/)
+- [WooCommerce](/integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/)
 

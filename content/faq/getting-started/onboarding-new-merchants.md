@@ -10,6 +10,7 @@ aliases:
     - /faq/getting-started/onboarding
 ---
 Onboarding refers to the steps you need to follow to create a live account with MultiSafepay. When new merchants [sign up](https://merchant.multisafepay.com/signup) and we create a new account, we first perform several [know your customer](https://en.wikipedia.org/wiki/Know_your_customer) checks on the:
+
 * account holder.
 * associated bank account.
 * merchant.
@@ -25,7 +26,7 @@ To enable you to process payments as quickly as possible, we divide the onboardi
 
 ### Documents and information
 
-You can upload all of the required documents and information in your MultiSafepay Control account → [Onboarding flow](https://merchant.multisafepay.com/onboarding):
+You can upload all of the required documents and information in your MultiSafepay Control > [Business details](https://merchant.multisafepay.com/onboarding):
 
 * Company details including address, VAT number, and Chamber of Commerce number
 * A link to the website you receive payments through, if used 
@@ -39,10 +40,10 @@ The trade name of your business bank account must exactly match at least one of 
 ### Credit card payments
 To process credit card payments, you must provide your:
 
-* minimum order value.
-* average order value.
-* maximum order value.
-* annual turnover in credit card transactions.
+* Minimum order value
+* Average order value
+* Maximum order value
+* Annual turnover in credit card transactions
 
 **Note:** Requests to process credit cards may be denied, e.g. if a particular product is not allowed by the processing bank.
 
@@ -62,6 +63,6 @@ Some products and services cannot be sold with MultiSafepay or only if additiona
 
 ---
 {{< br >}}
-For questions about onboarding, email the Risk Team at <risk@multisafepay.com>.
+For questions about onboarding, email the Risk Team at <risk@multisafepay.com>
 
 _Disclaimer: The information on this website is intended for informational purposes. No rights can be derived from this information._

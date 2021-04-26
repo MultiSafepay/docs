@@ -28,6 +28,7 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [WooCommerce plugins](https://wordpress.org/plugins/multisafepay)
 
 ### LinkedIn profielen
+<<<<<<< HEAD
 [Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)<br>
 [Alex Carletto](https://www.linkedin.com/in/alexcarletto)<br>
 [Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
@@ -49,10 +50,34 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
 [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)
 [Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar)
+=======
+
+[Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)  
+[Alex Carletto](https://www.linkedin.com/in/alexcarletto)  
+[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)  
+[Berend Lantink](https://www.linkedin.com/in/berendlantink)  
+[Daniel Civit](https://www.linkedin.com/in/danielcivit)  
+[Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra)  
+[Francesca Cook](https://www.linkedin.com/in/francesca-cook-ba786a29/)  
+[Henk Timmermans](https://www.linkedin.com/in/henk-timmermans-9b813120)  
+[Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)  
+[Jelle Sprangers](https://www.linkedin.com/in/jelle-sprangers-partnermanager)  
+[Jeroen Hehemann](https://www.linkedin.com/in/jeroenhehemann)  
+[Joris Steenmans](https://www.linkedin.com/in/jorissteenmans)  
+[Kris Stallenberg](https://www.linkedin.com/in/kris-stallenberg-a21471ba)  
+[Mike de Decker](https://www.linkedin.com/in/mike-de-decker-54443a163)  
+[Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)  
+[Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)  
+[Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)  
+[Solaiman el Bacha](https://www.linkedin.com/in/solaimanelbacha)  
+[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)  
+[Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)  
+[Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar)  
+>>>>>>> 9883a867d4fd3860c8590d9b10c8497448f406c6
 
 ### Sociale media
-[LinkedIn](https://www.linkedin.com/company/multisafepay)<br>
-[Twitter](https://twitter.com/multisafepay)<br>
-[Facebook](https://www.facebook.com/multisafepay)<br>
-[Stackshare](https://stackshare.io/multisafepay/multisafepay)<br>
-[Instagram](https://www.instagram.com/multisafepay)
+[LinkedIn](https://www.linkedin.com/company/multisafepay)  
+[Twitter](https://twitter.com/multisafepay)  
+[Facebook](https://www.facebook.com/multisafepay)  
+[Stackshare](https://stackshare.io/multisafepay/multisafepay)  
+[Instagram](https://www.instagram.com/multisafepay)  

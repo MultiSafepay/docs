@@ -9,7 +9,7 @@ read_more: "."
 The Magento 2 plugin offers a [generic gateway](/faq/general/generic-gateways/).
 It can be found under the MultiSafepay payment methods inside the MultiSafepay configuration:
 
-_Stores_ → _Configuration_ → _MultiSafepay_ → _Payment Methods_ → _Generic Gateway_
+_Stores_ > _Configuration_ > _MultiSafepay_ > _Payment Methods_ > _Generic Gateway_
 
 - You enter the gateway code and upload a custom gateway image.
 - You also need to set if the gateway requires a shopping cart or not.

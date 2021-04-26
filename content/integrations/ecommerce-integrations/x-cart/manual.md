@@ -19,7 +19,7 @@ aliases:
 
 ### 2. Installation
 1. Unzip the content of the .ZIP file in the root of your webshop
-2. Log in to your backend and navigate to _System tools → Cache management → Re-deploy the store_ and press _Start_.
+2. Log in to your backend and navigate to _System tools > Cache management > Re-deploy the store_ and press _Start_.
 
 ### 3. Configuration
 1. Log in to your backend and navigate to _My Addons_ and search for _MultiSafepay_

@@ -42,7 +42,7 @@ Instructions to install the MultiSafepay Lightspeed app:
 
 When you have successfully migrated to the new Lightspeed app, you will be able to disable the old integration. You can do this by following these instructions:
 
-1. Log in to your backend and navigate to _Settings_ → _Payment Providers_ → _MultiSafepay_
+1. Log in to your backend and navigate to _Settings_ > _Payment Providers_ > _MultiSafepay_
 2. On the top of the screen you can disable this payment provider.
 
 __Congratulations__

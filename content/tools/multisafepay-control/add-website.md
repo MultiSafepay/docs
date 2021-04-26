@@ -13,7 +13,7 @@ aliases:
 Adding your website to MultiSafepay Control is the first step to connecting your website and MultiSafepay. To do so, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) or [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com)
-2. Navigate to _Settings → Website settings_
+2. Navigate to _Settings > Website settings_
 3. Add a new website by selecting _Quick add website_
 4. Please supply the following information to add a website for your ecommerce integration: 
 
@@ -29,7 +29,7 @@ Adding a website will automatically supply you with the details required to esta
 
 Follow these steps to locate your website details:
 
-1. Navigate to _Settings → Website settings_
+1. Navigate to _Settings > Website settings_
 2. Click on the website. An _API key_, _Site ID_ and _Secure code_ will be provided to establish a connection:
 3. Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID. Your Account ID is shown in your dashboard in the top right corner behind your company name. If you are building your own integration with our API, SDK or wrapper, use the API key under your website settings.
 4. Enter the requested information in the backend of your website

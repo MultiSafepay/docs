@@ -8,4 +8,3 @@ logo: '/svgs/Getting started.svg'
 layout: 'faqplugins'
 short_description: "Onboarding and testing"
 ---
-This section contains all the information you need to start processing payments with MultiSafepay.

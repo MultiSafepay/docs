@@ -9,7 +9,7 @@ aliases: [/payment-methods/ing-home-pay/activate-ing-home-pay/]
 ## Activate
 ING Home'Pay is a standard payment method.
 
-ING Home'Pay can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings → payment methods_.
+ING Home'Pay can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings > payment methods_.
 Enable ING Home'Pay as payment method in your ecommerce platform to finalize the activation.
 
 If ING Home'Pay is not visible as a payment method in your MultiSafepay Control, you can contact our Integrations team at <integration@multisafepay.com> to assist you further.

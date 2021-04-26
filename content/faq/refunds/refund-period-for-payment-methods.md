@@ -1,12 +1,19 @@
 ---
-title : "What is the refund period per payment method?"
-weight: 54
-meta_title: "What is the refund period per payment method? - MultiSafepay Docs"
+title : "Refund period for specific payment methods"
+weight: 2
+meta_title: "FAQ Refunds - Refund period for payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /faq/refunds/refund-period-payment-methods
+    - /faq/refunds/
 ---
 
-The _refund period_ differs per payment method. The refund period is defined by the maximum number of days by which you can refund a customer for a single order. In the table below, the refund period per payment method is defined:
+The refund period is the maximum number of days after a payment was completed that you can refund it, depending on the payment method. 
+
+For credit cards, the refund period is 180 days. After this time, you cannot refund a payment through MultiSafepay.
+
+This table lists the refund period for each payment method:
 
 | Payment method   | Refund period  |
 | --------- | ------------------------ |
@@ -39,4 +46,4 @@ The _refund period_ differs per payment method. The refund period is defined by 
 | [Trustly](/payment-methods/banks/trustly/) | 365 days |
 | [Visa](/payment-methods/credit-and-debit-cards/visa/) | 180 days |
 
-If you have any questions or encounter problems when issuing refunds from your MultiSafepay Control, please contact the Integration Team at <integration@multisafepay.com>
+For questions or help initiating refunds in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>

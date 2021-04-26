@@ -1,7 +1,7 @@
 ---
 title : "Conditions for selling alcohol"
 weight: 6
-meta_title: "FAQ Getting Started - What are the conditions for selling alcohol? - MultiSafepay Docs"
+meta_title: "FAQ Getting Started - Conditions for selling alcohol - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
@@ -18,7 +18,9 @@ Dutch law states that alcohol cannot be sold to customers under the age of 18. I
 * Dutch driving license
 * European or Dutch ID card
 
-Merchants must also submit a Merchant declaration regarding alcoholic beverages (once only). Email a signed copy of the declaration to the Risk Team at <risk@multisafepay.com>. Download the:
+Merchants must also submit a Merchant declaration regarding alcoholic beverages (once only). Email a signed copy of the declaration to the Risk Team at <risk@multisafepay.com>
+
+Download the:
 
 * [Dutch Merchant declaration](/faq/getting-started/form/NL-Verklaring_alcoholische_dranken.pdf)   
 * [English Merchant declaration](/faq/getting-started/form/EN-Declaration_alcoholic_beverages.pdf)  
@@ -33,4 +35,4 @@ If you sell spirits with an alcohol content of 15% or higher, you must hold a va
 
 ### Help
 
-For questions about these regulations and requirements, email the Risk Team at <risk@multisafepay.com>.
+For questions about these regulations and requirements, email the Risk Team at <risk@multisafepay.com>

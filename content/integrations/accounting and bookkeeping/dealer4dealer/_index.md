@@ -7,10 +7,15 @@ logo: '/svgs/D4D.svg'
 layout: 'single'
 title_short: "dealer4dealer"
 read_more: "."
+<<<<<<< HEAD
 short_description: "Generating a MultiSafepay export and importing it into dealer4dealer"
 description_short: "Import MultiSafepay Accountant Export Reports into dealer4dealer with ease."
+=======
+short_description: "Information about dealer4dealer's new app Reconciliation 2.0"
+description_short: "Information about dealer4dealer's new app Reconciliation 2.0."
+>>>>>>> 9883a867d4fd3860c8590d9b10c8497448f406c6
 extra_button:
-    url: "https://dealer4dealer.nl/afletteren-exact-online/" 
+    url: "https://dealer4dealer.nl/afletteren-2-0-exact-online-multisafepay/" 
     text: "Go to site" 
     type: "primary"
 ---
@@ -19,8 +24,18 @@ extra_button:
 
 dealer4dealer’s new app Reconciliation 2.0 reconciles sales from your webshop in the Exact Online administration tool with payments received via MultiSafepay. This saves time and increases accuracy.
 
+<<<<<<< HEAD
 The app automatically retrieves the details of all payments for the day from MultiSafepay. It then matches each payment to the corresponding open item in Exact Online.  
 
 For more information, see dealer4dealer - [Afletteren 2.0 Exact Online](https://dealer4dealer.nl/afletteren-2-0-exact-online/).
 
 For questions about integrating the app with MultiSafepay, email the Support Team at <support@multisafepay.com>
+=======
+The app automatically retrieves the details of all payments for the day from MultiSafepay. It then matches each payment to the corresponding open item in Exact Online.
+
+{{< youtube id="Mc6_ZV1AoT8" title="Demo - MultiSafepay Aflettermodule 2.0 Exact Online xCore" >}}
+{{< br >}}
+For more information, see dealer4dealer - [Afletteren 2.0 Exact Online with MultiSafepay](https://dealer4dealer.nl/afletteren-2-0-exact-online-multisafepay/).
+
+For questions about integrating the app with MultiSafepay, email the Support Team at <support@multisafepay.com>
+>>>>>>> 9883a867d4fd3860c8590d9b10c8497448f406c6

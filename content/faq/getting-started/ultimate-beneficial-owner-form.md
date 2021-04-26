@@ -1,7 +1,7 @@
 ---
 title : "Ultimate Beneficial Owner form"
 weight: 2
-meta_title: "FAQ Getting Started - What is UBO - MultiSafepay Docs"
+meta_title: "FAQ Getting Started - Ultimate Beneficial Owner form - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
@@ -18,11 +18,10 @@ A UBO is the natural person who directly or indirectly holds an equity interest 
 
 Download the:
 * [Dutch UBO form](/faq/getting-started/form/UBOform_NL_V2.0.pdf)
-
 * [English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf)
-
 * [French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
-
+* [English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf)
+* [French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
 * [German UBO form](/faq/getting-started/form/UBOform_DE.pdf)
 
 ## Example of completed form
