@@ -15,7 +15,7 @@ Every payment has an Order Status as well as a Transaction Status relating to a 
 * Transaction Status: The transaction status indicates the payment status of the transaction, such as _Completed_, _Pending_ or _Rejected_. Once the transaction status is _Completed_, the amount of the transaction is added to your MultiSafepay balance.
 
 
-{{< collapse title="Banks" h2="." >}}
+{{< collapse title="Banks" size="h2" >}}
 
 ### Bank transfer
 
@@ -174,7 +174,7 @@ Every payment has an Order Status as well as a Transaction Status relating to a 
 
 {{< /collapse >}}
 
-{{< collapse title="Credit and Debit Cards" h2="." >}}
+{{< collapse title="Credit and Debit Cards" size="h2" >}}
 
 ### American Express
 
@@ -238,7 +238,7 @@ Every payment has an Order Status as well as a Transaction Status relating to a 
 
 {{< /collapse >}}
 
-{{< collapse title="Billing Suite" h2="." >}}
+{{< collapse title="Billing Suite" size="h2" >}}
 
 ### AfterPay
 
@@ -313,7 +313,7 @@ Every payment has an Order Status as well as a Transaction Status relating to a 
 
 {{< /collapse >}}
 
-{{< collapse title="Wallet" h2="." >}}
+{{< collapse title="Wallet" size="h2" >}}
 
 ### Apple Pay
 
@@ -350,7 +350,7 @@ Every payment has an Order Status as well as a Transaction Status relating to a 
 
 {{< /collapse >}}
 
-{{< collapse title="Prepaid cards" h2="." >}}
+{{< collapse title="Prepaid cards" size="h2" >}}
 
 ### Gift cards
 

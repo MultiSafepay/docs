@@ -38,7 +38,7 @@ The first time a user logs into MultiSafepay Control after 2FA is enabled, they 
 Congratulations, you have successfully enabled and configured 2FA. Your data is now protected by an additional layer of security.
 Please keep in mind that upon every login a newly generated 6-digit token is required.
 
-{{< collapse title="Frequently asked questions" h2="." >}}
+{{< collapse title="Frequently asked questions" size="h2" >}}
 
 ### Can I use one device for multiple users?
 Only one mobile device can only be connected to one user and only one user can be connected to one mobile device. This means there is a unique link between every one user and one device.
