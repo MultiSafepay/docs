@@ -7,7 +7,7 @@ aliases:
     - /faq/gdpr/what-steps-does-multisafepay-take-to-ensure-data-protection
 ---
 
-MultiSafepay is certified under the [Payment Card Industry Data Security Standard (PCI DSS)](/faq/general/glossary/#payment-card-industry-data-security-standard-pci-dss), and complies with all required measures to ensure data protection, including:
+MultiSafepay is certified under the [Payment Card Industry Data Security Standard (PCI DSS)](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss), and complies with all required measures to ensure data protection, including:
 
 - Encrypting all stored data
 - Using dedicated software
