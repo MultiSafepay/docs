@@ -7,7 +7,7 @@ aliases:
     - /faq/finance/daily-balance
 ---
 
-To view the daily balance in your [MultiSafepay Control](https://merchant.multisafepay.com) account, go to **Finance > Daily Balance**.
+To view the daily balance in your [MultiSafepay Control](https://merchant.multisafepay.com) account, go to **Finance** > **Daily Balance**.
 
 There you can see your:
 
@@ -16,4 +16,3 @@ There you can see your:
 - Payouts sent to the bank
 - Bank description
 - IBAN and Swift
-

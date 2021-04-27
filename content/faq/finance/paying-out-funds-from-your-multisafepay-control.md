@@ -24,7 +24,7 @@ You can pay out funds automatically or manually.
 To schedule automatic payouts, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account.
-2. Select **Finance > Balance**.
+2. Select **Finance** > **Balance**.
 3. Select the IBAN number you want to pay out to.
 4. Schedule your pay outs.
 
@@ -39,7 +39,7 @@ The payout scheduler lets you:
 To make manual payouts, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account.
-2. Select **Finance > Balance**.
+2. Select **Finance** > **Balance**.
 3. Select an amount to pay out, the currency, and the IBAN number to pay out to.
 
 ## Payout processing time 
@@ -57,4 +57,3 @@ On some bank holidays, banks don't process outgoing payments. For example, see t
 
 ## Negative MultiSafepay Control balance
 If the balance on your MultiSafepay Control is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until sufficient funds are available. Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
-

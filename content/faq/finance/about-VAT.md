@@ -32,7 +32,7 @@ To view the exact amount in your MultiSafepay Control > **Transaction overview**
 
 Monthly VAT invoices are for your records only. You don't need to pay the amount separately.
 
-They are uploaded to your MultiSafepay Control **> Finance > Invoices**.
+They are uploaded to your MultiSafepay Control > **Finance** > **Invoices**.
 
 We also email the invoices to the **Financial email** address in your MultiSafepay Control. If you have not added an email address here, we will send them to the main business email address listed in your account.
 
@@ -48,8 +48,8 @@ You can only request to reverse-charge VAT if you are **not** registered as a Du
 
 To register your VAT number, email the Finance Team at <invoice@multisafepay.com>
 
-## What are the actual costs to be paid for IC ++ tariffs?
-There are three cost components of the IC++ model:
+## What are the actual costs to be paid for IC++ tariffs?
+There are three cost components of the Interchange++ model:
 - The Interchange fee that is paid to the issuing bank
 - The scheme fee charged by Visa or Mastercard
 - The acquirer fee 
@@ -73,4 +73,3 @@ The transaction fee total is the sum of all processed and completed transactions
 We always use our bank's closing exchange rate from the previous day. The exchange rate is not displayed on the invoice, but it is easy to calculate.
 
 Simply divide the EUR amount by the foreign currency amount (or the other way around depending on your target currency).  
-

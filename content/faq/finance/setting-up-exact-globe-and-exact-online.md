@@ -25,7 +25,7 @@ You must first provide Exact with an additional international bank account numbe
 
 | Step  | Exact Globe   | Exact Online   |
 |---|---|---|
-| 1. | Log in and go to **Bank accounts**. |  Log in and go to **Financial > Banking & Cash > Bank accounts > Overview**. |
+| 1. | Log in and go to **Bank accounts**. |  Log in and go to **Financial** > **Banking & Cash** > **Bank accounts** > **Overview**. |
 | 2. | Click **New**. | Click **New**. |
 | 3. | Under **Type**, select **Payment service provider**. | Enter your dummy IBAN. |
 | 4. | Enter the dummy IBAN and select the same bank as before, e.g. ING Group.  | Click **Save**.  |
@@ -35,7 +35,7 @@ You can now register all transactions linked to this IBAN.
 
 ## Exporting from MultiSafepay Control
 
-1. In your MultiSafepay Control, navigate to **Reports > Accountant Export**. 
+1. In your MultiSafepay Control, navigate to **Reports** > **Accountant Export**. 
 2. In **Data Selection**, select a date range.
 3. In the **Report Type** field, select **MT940**.
 4. Click **Advanced options**.
@@ -45,7 +45,7 @@ You can now register all transactions linked to this IBAN.
 ## Importing into Exact Online
 
 1. Log in to your Exact Online account.
-2. Go to **Financial > Banking & Cash > Statements > Import**.
+2. Go to **Financial** > **Banking & Cash** > **Statements** > **Import**.
 3. Click **Choose File**, and then select the MT940 file you want to upload.
 4. Click **Import**.
 
@@ -58,4 +58,3 @@ Exact Globe and Exact Online both import and match MultiSafepay MT940 reports pr
 **Note:** Exact Basic / Standard package doesn't support the MT940 import function. You need at least Exact Advanced.
 
 **Note:** Lightspeed users must request Lightspeed to make an adjustment to make sure order numbers appear in the correct fields in Exact Online to successfully match the MultiSafepay MT940.
-

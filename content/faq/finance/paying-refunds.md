@@ -9,7 +9,7 @@ aliases:
 Tp pay refunds, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account.
-2. In the **Dashboard**, select **Transactions > Transaction overview**.
+2. In the **Dashboard**, select **Transactions** > **Transaction overview**.
 3. Select the **Completed transaction** you want to refund.
 4. Under **Order summary**, check the detailed description of the payment.
 5. To initiate the refund, click **Refund order**. 

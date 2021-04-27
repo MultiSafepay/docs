@@ -22,7 +22,7 @@ You must first provide Twinfield with an additional international bank account n
 
 ## Exporting from MultiSafepay Control
 
-1. In your MultiSafepay Control, navigate to **Reports > Accountant Export**. 
+1. In your MultiSafepay Control, navigate to **Reports** > **Accountant Export**. 
 2. In **Data Selection**, select a date range.
 3. In the **Report Type** field, select **MT940**.
 4. Under **Special Format**, select **Twinfield**.

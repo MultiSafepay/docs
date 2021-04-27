@@ -12,7 +12,7 @@ If a credit card payment receives an **Uncleared** transaction status, it means 
 
 There are risks associated with accepting credit card payments. You bear the risk of financial damage, for example due to fraud, for which neither MultiSafepay nor the credit card holder is accountable.
 
-You must review all **Uncleard** transactions, and either accept or decline them.
+You must review all **Uncleared** transactions, and either accept or decline them.
 
 ## Fraud score 
 All **Uncleared** transactions are assigned a fraud score from 1-10 (10 being the most at risk of fraud). Transactions that score 10 aren't always fraudulent, and low-scoring transactions may still carry risk.
@@ -29,7 +29,7 @@ In your MultiSafepay Control, you will receive a notification that uncleared pay
 
 To view the list of uncleared payments:
 
-1. Click the notification, or go to **Transactions > Uncleared transactions**.
+1. Click the notification, or go to **Transactions** > **Uncleared transactions**.
 2. Click each transaction in the list to view the **Transaction details** page. 
 
 The **Transaction details** page includes:
@@ -89,7 +89,7 @@ For more information about chargebacks, the risks of credit card payments, and a
 
 Many credit card associations don't yet offer 3D Secure.
 
-If the customer is enrolled for 3D Secure, in the **Transaction details** page **> Risk summary**, their status displays as **Enrolled**.  
+If the customer is enrolled for 3D Secure, in the **Transaction details** page > **Risk summary**, their status displays as **Enrolled**.  
  
 ### 3D Secure statuses
 

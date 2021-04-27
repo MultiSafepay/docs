@@ -10,7 +10,7 @@ aliases:
 To add funds to your MultiSafepay Control account, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account.
-2. On the left side of the page, select **Finance > Fund account**.
+2. On the left side of the page, select **Finance** > **Fund account**.
 3. Select the currency and amount you want to add to your account.
 4. Select the payment method you want to use for the transaction.
 5. To complete the payment, click **Send**.
