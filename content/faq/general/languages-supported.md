@@ -1,10 +1,13 @@
 ---
-title : "Languages supported by MultiSafepay"
-meta_title: "FAQ General - Languages - MultiSafepay Docs"
+title : "Languages supported"
+weight: 10
+meta_title: "FAQ General - Languages supported - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases:
+    - /faq/general/which-languages-are-supported-by-multisafepay
 ---
-MultiSafepay Payment pages support the following languages:
+MultiSafepay payment pages support the following languages:
 
 * Arabic
 * Czech

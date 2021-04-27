@@ -1,25 +1,27 @@
 ---
-title: Glossary
-weight:
-meta_title: "MultiSafepay Glossary - MultiSafepay Docs"
+title: MultiSafepay glossary
+weight: 2
+meta_title: "FAQ General - MultiSafepay glossary - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases:
+    - faq/general/glossary
 ---
 
 ### 3D Secure
-An authentication protocol for online payments. 3D Secure is also known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. The protocol is designed to reduce fraud while maintaining a positive customer experience.
+3D Secure is an authentication protocol for online payments designed to reduce fraud while maintaining a positive customer experience. It is also known by other brand names such as Mastercard Identity Check, Visa Secure, or American Express SafeKey. 
 
 ### Acquirer
-To accept card payments, an acquirer is in accordance with card networks, partner with a payment provider or is a payment provider itself. A bank or financial institute that processes payment for merchants.
+To accept card payments, in accordance with card networks, an acquirer is partnered with a payment provider or is itself a payment provider. Aquirers may be banks or financial institutes that process payment for merchants.
 
-MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and Bancontact.
+MultiSafepay as a payment processor acts as an acquirer for Visa, Mastercard, and Bancontact.
 
 ### API
-A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
+A set of clearly defined rules and tools for allowing specific communications between one software platform and another. See the [MultiSafepay API](https://docs.multisafepay.com/api/).
 
 ### API key
 
-An API key is a unique identifier that is required to establish a connection between your website and the MultiSafepay services. The API key can be found in your MultiSafepay Control. Read more about how to retrieve your [API key](/tools/multisafepay-control/get-your-api-key/)
+An API key is a unique identifier required to establish a connection between your website and the MultiSafepay API. You can retrieve your API key in your MultiSafepay Control. See MultiSafepay Control – [Get your API key](/tools/multisafepay-control/get-your-api-key/).
 
 ### Cron job
 
