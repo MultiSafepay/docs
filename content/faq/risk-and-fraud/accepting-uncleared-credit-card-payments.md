@@ -1,35 +1,29 @@
 ---
-title : "Accepting uncleared credit card payments, how and why?"
-meta_title: "FAQ General - Accept an uncleared transaction - MultiSafepay Docs"
+title : "Accepting uncleared credit card payments"
+meta_title: "FAQ General - Accepting uncleared credit card payments - MultiSafepay Docs"
+weight: 4
 meta_description: "You can make an informed decision based on the information provided in the Risk Report.
 We have explained a number of important verification points to minimize the fraud risk when accepting a credit card payment marked with the status uncleared."
 read_more: "."
+aliases:
+    - /faq/risk-and-fraud/how-to-accept-an-uncleared-transaction
 ---
 ## What is an uncleared transaction?
-The status _uncleared_ means that we have received a credit card transaction, but the payment has not been automatically accepted, because our anti-fraud module has detected unusual data. You can find the details of why the transaction has not been accepted under the details or Risk Report. Occasionally, additional information will be added in the Transaction Notes.
+When the status of a credit card transaction is **Uncleared**, it means that the customer initiated the transaction, but we have placed the payment on hold because our automated anti-fraud filter detected unusual data indicating increased risk of fraud. 
 
-It is up to you whether you want to accept or decline the transaction. You can make an informed decision based on the information provided in the Risk Report.
+**Note:** Our anti-fraud filter detects increased **risk** of fraud, but does not prevent all fraudulent payments, and not every payment it picks up is necessarily fraudulent.
 
+To see why the transaction was not accepted, check in your MultiSafepay Control on the Transaction details page or in the Risk report, which suggests a number of aspects to consider and verify. Occasionally, we add additional information in the Transaction notes.
 
-## How to understand an uncleared status?
-Because of the fraud risk when receiving and processing credit card payments, we have added a small explanation.
-The explanation entails and helps with accepting or rejecting a credit card transaction marked with the status _uncleared_. The responsibility for processing credit card payments lies entirely with the webshop. Therefore, it is up to you whether you want to accept or decline the transaction.
+You must make an informed decision to accept or decline the transaction based on the Risk report.
 
-In the Risk Report, we have explained a number of important verification points to minimize the fraud risk when accepting a credit card payment marked with the status _uncleared_.
-
-
-## Marked with the status uncleared
-The so-called _uncleared_ status can be assigned to any credit card payment. In this case, the payment is placed 'on hold’ by the MultiSafepay fraud filter. Transactions marked with the status _uncleared_ must be evaluated and either be accepted or refused by the merchant. We would like to emphasize that our automated fraud filter detects an increased risk of fraud, but it does not prevent all fraudulent payments. On the other hand, not every credit card payment detected by our fraud filter is necessarily a fraudulent payment.
-
-
-## Why should you check the transaction?
-When you accept payments by credit card, there are risks associated with it. The risk of financial damage, for example by fraud, is carried by the merchant; neither MultiSafepay nor the credit card holder are accountable in this case. When the credit card holder discovers a fraudulent payment, they can demand a refund of the payment, even if products ordered have already been delivered. This is called a 'chargeback'.
-
-[Chargeback, what it is](/faq/chargebacks/what-is-a-chargeback)
+You bear the risk of credit card payment carry risk, e.g. fraud for which neither MultiSafepay nor the credit card holder is accountable. When the credit card holder discovers a fraudulent payment, they can demand a refund, even if products ordered have already been delivered. This is known as a [chargeback](/faq/chargebacks/what-is-a-chargeback).
 
 
 ## Reviewing an uncleared payment
-When a credit card transaction marked with the status _uncleared_ is received, an _uncleared_ status notification is sent to the backend of the webshop. The notification is also visible in your MultiSafepay Control. You will be able to see an alert indicating that uncleared payments are awaiting your approval. Click on the notification to go to the list of uncleared payments, then click on a transaction to open it. In this screen you will see the basic information of the transaction and a risk summary on the right. Here you will also find the buttons to accept or decline the transaction. To view a detailed risk report, click on the _more information_ button when reviewing a transaction in MultiSafepay Control.
+When a credit card transaction receives **Uncleared** status, we send an **Uncleared** status notification that uncleared payments are awaiting your approval to the backend of your webshop. The notification is also visible in your MultiSafepay Control. 
+
+Click on the notification to go to the list of uncleared payments, then click a transaction to open it. In this screen you will see the basic information of the transaction and a risk summary on the right. Here you will also find the buttons to accept or decline the transaction. To view a detailed risk report, click on the _more information_ button when reviewing a transaction in MultiSafepay Control.
 
 Under the contact details in your MultiSafepay Control, you can add an email address to enable receiving email notifications informing you about received uncleared transactions.
 
