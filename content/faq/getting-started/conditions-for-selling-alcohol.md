@@ -8,7 +8,7 @@ aliases:
     - /faq/getting-started/rules-for-selling-alcohol
 ---
 
-As a [merchant](/faq/general/glossary/#merchant), you are required to verify customers' age when _selling_ or _delivering_ orders that include alcohol. As a PSP, MultiSafepay must ensure that merchants comply with relevant legislation and that your customers meet the requirements for purchasing alcohol.
+As a [merchant](/faq/general/multisafepay-glossary/#merchant), you are required to verify customers' age when _selling_ or _delivering_ orders that include alcohol. As a PSP, MultiSafepay must ensure that merchants comply with relevant legislation and that your customers meet the requirements for purchasing alcohol.
 
 ### Requirements
 
@@ -18,7 +18,7 @@ Dutch law states that alcohol cannot be sold to customers under the age of 18. I
 * Dutch driving license
 * European or Dutch ID card
 
-Merchants must also submit a Merchant declaration regarding alcoholic beverages (once only). Email a signed copy of the declaration to the Risk Team at <risk@multisafepay.com>.
+Merchants must also submit a Merchant declaration regarding alcoholic beverages (once only). Email a signed copy of the declaration to the Risk Team at <risk@multisafepay.com>
 
 Download the:
 
@@ -31,8 +31,8 @@ Download the:
 
 ### Sale of spirits
 
-If you sell spirits with an alcohol content of 15% or higher, you must hold a valid liquor license. Email a copy of your license to the Risk Team at <risk@multisafepay.com>. 
+If you sell spirits with an alcohol content of 15% or higher, you must hold a valid liquor license. Email a copy of your license to the Risk Team at <risk@multisafepay.com>
 
 ### Help
 
-For questions about these regulations and requirements, email the Risk Team at <risk@multisafepay.com>.
+For questions about these regulations and requirements, email the Risk Team at <risk@multisafepay.com>

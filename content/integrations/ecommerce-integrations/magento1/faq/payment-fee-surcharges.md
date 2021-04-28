@@ -7,7 +7,7 @@ read_more: "."
 aliases: [/integrations/magento1/faq/payment-fee-surcharges/]
 ---
 
-Magento 1 allows you to add a payment fee. The payment fee can be a [Surcharge](/faq/general/glossary/#surcharge) by percentage or a fixed amount. Each payment method has the option to set a fee.
+Magento 1 allows you to add a payment fee. The payment fee can be a [Surcharge](/faq/general/multisafepay-glossary/#surcharge) by percentage or a fixed amount. Each payment method has the option to set a fee.
 
 Other options available are settings like tax class for payment fee and show payment fee inclusive or exclusive during a checkout procedure.
 

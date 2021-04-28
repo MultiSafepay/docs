@@ -6,5 +6,5 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: '/svgs/Finance.svg'
 layout: 'faqplugins'
 read_more: "."
-short_description: "Here you can find information about transaction management, reports and VAT."
+short_description: "Transaction management, reports, and VAT"
 ---

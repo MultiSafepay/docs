@@ -8,7 +8,7 @@ read_more: "."
 aliases: [/integrations/magento2/faq/payment-fee-surcharges/]
 ---
 
-Adding a payment fee or [Surcharge](/faq/general/glossary/#surcharge) is no longer supported within the plugin in Magento 2.
+Adding a payment fee or [Surcharge](/faq/general/multisafepay-glossary/#surcharge) is no longer supported within the plugin in Magento 2.
 
 However, an external package of [Fooman](https://store.fooman.co.nz/extensions/magento2) is available. This allows you to still add a payment fee or surcharge within the desired payment method.
 

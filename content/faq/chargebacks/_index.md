@@ -6,5 +6,5 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: '/svgs/Chargebacks.svg'
 layout: 'faqplugins'
 read_more: "."
-short_description: "Learn more about chargebacks and disputing one."
+short_description: "About chargebacks and how to dispute them"
 ---

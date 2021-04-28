@@ -22,6 +22,6 @@ Read more about the difference between the [Status and the Financial Status](/fa
 | Cancelled        | Cancelled by the merchant and no funds will arrive.
 | Void             | Cancelled by the merchant and no funds will arrive.                 |
 | Expired          | Depending on the payment method, unfinished transactions will close automatically after a predefined period. |
-| Reserved         | [Payout](/faq/general/glossary/#payout) / refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
+| Reserved         | [Payout](/faq/general/multisafepay-glossary/#payout) / refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
 
 {{% /description %}}

@@ -86,10 +86,7 @@ article {
 	}
 
 	.content code {
-		display: inline-block;
 		padding: 0;
-		max-width: 0;
-		min-width: 40px;
 	}
 }
 

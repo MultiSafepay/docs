@@ -27,7 +27,7 @@ _It is essential that the MultiSafepay Core Module (MultiSafepay) is installed a
 
 2. In the next screen proceed with the installation
 
-3. Set your [API key](/faq/general/glossary/#api-key) and save the page. {{% account_info %}}
+3. Set your [API key](/faq/general/multisafepay-glossary/#api-key) and save the page. {{% account_info %}}
 
 
 4. Click on the Payments tab and enable the payment methods you would like to offer.

@@ -10,7 +10,7 @@ aliases:
 
 {{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1 in the future. Please read our [blog](https://bit.ly/2YX2LGL) for more information and the actions to take.{{< /alert-notice >}}
 
-{{< blue-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /blue-notice >}}
+{{< blue-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/multisafepay-glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /blue-notice >}}
 
 ### Introduction
 
