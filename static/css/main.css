@@ -1591,3 +1591,6 @@ p code, td code {
 	cursor: pointer;
 }
 
+.no-decoration {
+    text-decoration: none!important;
+}
