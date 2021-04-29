@@ -61,4 +61,4 @@ Apple Pay transactions are like credit card transactions and follow similar prod
 
 * You can process transactions in [these standard currencies](/faq/general/currencies-supported).
 
-- You must use the Safari browser.
+- Customers must use the Safari browser.
