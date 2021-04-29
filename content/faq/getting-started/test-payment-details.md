@@ -217,7 +217,7 @@ To enable AfterPay as payment method in your MultiSafepay Test Control, email th
 
 ### Betaal per Maand
 
-Testing environment: You cannot test Betaal per Maand in MultiSafepay Test Control. When activating Betaal per Maand as payment method in your live MultiSafepay Control, you can test it before go live.
+Testing environment: You cannot test Betaal per Maand in MultiSafepay Test Control. When activating Betaal per Maand as a payment method in your live MultiSafepay Control, you can test it before going live.
 
 ### E-invoicing
 
