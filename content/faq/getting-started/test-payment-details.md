@@ -406,7 +406,7 @@ Sample statuses:
 
 You can test Intersolve gift cards. 
 
-Testing environment: When activating a gift card as payment method in your live MultiSafepay Control, you can test it before go live.
+Testing environment: When activating a gift card as a payment method in your live MultiSafepay Control, you can test it before going live.
 
 Possible errors: Any other coupon code receives the error **Invalid card number**.
 
