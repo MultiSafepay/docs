@@ -9,7 +9,7 @@ read_more: '.'
 ## How it works
 
 1. The customer enters their credit card information into the Apple Pay app where it is digitized as an encrypted token. 
-2. The customer authorizes the payment on a payment terminal using either [Touch ID or Face ID](https://www.apple.com/apple-pay). 
+2. The customer authorizes the payment on an iOS device using either [Touch ID or Face ID](https://www.apple.com/apple-pay). 
 3. The tokenized data is encrpyted and sent to MultiSafepay.
 4. MultiSafepay decrypts the data and forwards it to the relevant payment scheme. Supported payment schemes for Apple Pay: Visa, Mastercard, and Maestro.
 5. MultiSafepay authorizes and validates the payment as a [standard credit card transaction](/payment-methods/credit-and-debit-cards), using the same transaction statuses.
