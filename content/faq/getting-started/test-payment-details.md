@@ -10,7 +10,7 @@ This page assumes you have followed the steps on [Getting started](/guides/getti
 
 It provides information about test credentials, sample statuses, possible errors, and valid payment pages.
 
-**Note:** You cannot process test refunds. 
+**Note:** By default, you cannot process test refunds. To enable outgoing payments, email the Integration Team at <integration@multisafepay.com>  
 
 ## Banks
 
