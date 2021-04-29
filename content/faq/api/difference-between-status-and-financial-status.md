@@ -17,6 +17,5 @@ In the [API](/api):
 
 `status`: Status of the webshop order. In your MultiSafepay Control, this is the **Order status**.
 
-`financial status`: Payout of the transaction. In your MultiSafepay Control, this is the **Status**.
-
+`financial_status`: Payout of the transaction. In your MultiSafepay Control, this is the **Status**.
 
