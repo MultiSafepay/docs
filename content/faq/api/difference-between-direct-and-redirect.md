@@ -21,4 +21,4 @@ You can make direct calls repeatedly, e.g. for [recurring payments](/tools/recur
 
 Redirect calls send the customer to a MultiSafepay payment page for the specified payment method, e.g. specifying Visa in the `gateway` parameter includes fields on the payment page for the customer to fill in their Visa credit card information. The customer doesn't leave the MultiSafepay payment page.
 
-If you leave the `gateway` parameter empty, all payment methods enabled in your MultiSafepay Control appear on the payment page.
+If you leave the `gateway` parameter empty, all payment methods enabled in your MultiSafepay Control appear on the [payment page](/tools/payment-pages/what-is-payv2/).
