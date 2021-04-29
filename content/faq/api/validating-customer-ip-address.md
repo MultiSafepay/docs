@@ -14,7 +14,6 @@ For post-payment and credit card payment methods, the customer's `ip_address` mu
 **Note:** When validating the localhost `ip_address` instead of the customer's `ip_address`, transactions may receive **Uncleared** status, any may even be declined.
 
 
-```shell
    "customer": {
         "ip_address": "31.148.195.10",
         "forwarded_ip": "" 
@@ -36,4 +35,3 @@ Validating the customer's IP address may cause a transaction to unnecessarily re
 Before a payment is accepted, we run a fraud check on the transaction, including checking the required `ip_address` parameter. If the parameter is empty or incorrect (e.g. it's the IP address of the webshop instead of the customer), the transaction will likely receive **Uncleared** status. 
 
 Credit cards and post-payment methods carry a high risk of fraud, so each transaction is automatically validated for your protection. 
-
