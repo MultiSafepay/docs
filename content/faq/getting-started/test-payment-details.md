@@ -15,7 +15,6 @@ It provides information about test credentials, sample statuses, possible errors
 ## Banks
 
 
-To enable AfterPay in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com>
 
 ### Alipay
 Sample statuses:
