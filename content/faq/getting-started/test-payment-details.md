@@ -69,7 +69,7 @@ Sample statuses:
 | IBAN | Status    | Description              |
 | ---------| --------- | ------------------------ |
 | NL87ABNA0000000002| Initialized/ Declined | Transaction is initialized. After 1 minute, this changes to declined. |
-| NL87ABNA0000000003| Initialized/ Uncleared/ Completed | Transaction is initialized. After 1 minute, this changes to Uncelared. After 1 more minute, it changes to Completed. |
+| NL87ABNA0000000003| Initialized/ Uncleared/ Completed | Transaction is initialized. After 1 minute, this changes to Uncleared. After 1 more minute, it changes to Completed. |
 | NL87ABNA0000000004| Initialized/ Uncleared/ Declined | Transaction is initialized. After 1 minute, this changes to Uncleared. After 1 more minute, it changes to Declined. |
 
 ### Belfius
