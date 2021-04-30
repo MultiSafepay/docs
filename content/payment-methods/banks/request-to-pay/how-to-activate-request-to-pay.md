@@ -7,6 +7,4 @@ aliases: [/payment-methods/banks/direct-bank-transfer/#activate]
 ---
 ## Activate
 
-With MultiSafepay, Request to Pay is an additional (non-standard) payment method.
-
-You can submit the application to activate the payment method through one of our account managers at <sales@multisafepay.com>
+Request to Pay is an additional (non-standard) payment method. To activate Request to Pay, email the Integration Team at <integration@multisafepay.com>
