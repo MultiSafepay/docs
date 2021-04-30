@@ -12,7 +12,7 @@ aliases:
 
 MultiSafepay pays out every business day of the year, but not on bank holidays. The dates of bank holidays change each year.
 
- For more information, email the Support Team at <support@multisafepay.com>.
+ For more information, email the Support Team at <support@multisafepay.com>
 
 
 ## Bank holidays 2021
