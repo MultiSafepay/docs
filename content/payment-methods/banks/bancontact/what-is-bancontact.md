@@ -10,7 +10,7 @@ aliases: [/payment-methods/bancontact/what-is-bancontact/]
 ## What it is
 With over 80% of Belgian webshops offering it as a payment option, Bancontact is a household name and the market leader for electronic payments in Belgium. Payments are done using the mobile banking app or online. 
 
-Bancontact is only supported for Belgium and non-mobile payments always use 3D Secure 1.0 verification.
+Bancontact is only supported for Belgium and non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0 verification.
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|

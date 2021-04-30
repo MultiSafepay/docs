@@ -12,29 +12,31 @@ MultiSafepay is legally required under the Wwft to establish and verify the iden
 ## What is an ultimate beneficial owner?
 
 A UBO is the natural person who directly or indirectly holds an equity interest in or exercises control of the enterprise. Most commonly, an individual holds an equity interest of 25% or more of the shares or capital of the enterprise, or exercises:
+
 * 25% or more of the voting rights, or
 * de facto control over the affairs of the enterprise, or
 * other special rights of 25% or more over the capital of the enterprise and specific control over, for example, rights granted in the pages of incorporation.
 
 Download the:
+
 * [Dutch UBO form](/faq/getting-started/form/UBOform_NL_V2.0.pdf)
 * [English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf)
 * [French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
 * [German UBO form](/faq/getting-started/form/UBOform_DE.pdf)
 
 ## Example of completed form
-* The limited company Good Ltd has a sole shareholder Better Ltd.
-
-The shares of Better Ltd. are held equally by two other limited companies:
+The limited company Good Ltd has a sole shareholder Better Ltd. The shares of Better Ltd. are held equally by two other limited companies:
 
 * Anders Ltd. which has two equal shareholders:
+
 Mr A. Jansen
 Ms B. Jansen - de Jong
 
 * Best Ltd. which has one sole shareholder:
-Ms D. Best
+* Ms D. Best
 
 The three ultimate beneficial owners are therefore:
+
 * Mr A. Jansen
 * Ms B. Jansen - de Jong
 * Ms D. Best

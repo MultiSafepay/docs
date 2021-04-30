@@ -8,7 +8,7 @@ read_more: '.'
 ## How it works
 V Pay payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a V Pay payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
 
-A V Pay payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by V Pay.
+A V Pay payment is always validated with the [3D Secure](/faq/general/glossary/#3d-secure) code. 3D Secure verification is deemed mandatory by V Pay.
 
 V Pay payments are processed through the VISA gateway when Visa is activated as a payment method in your MultiSafepay Control.
 

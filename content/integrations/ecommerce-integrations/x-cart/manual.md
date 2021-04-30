@@ -23,7 +23,7 @@ aliases:
 
 ### 3. Configuration
 1. Log in to your backend and navigate to _My Addons_ and search for _MultiSafepay_
-2. Locate and enable _MultiSafepay Connect_. This is required to enter your [API key](/faq/general/glossary/#api-key) later on
+2. Locate and enable _MultiSafepay Connect_. This is required to enter your [API key](/faq/general/multisafepay-glossary/#api-key) later on
 3. Select any other payment methods you would like to offer and click on _Save changes_ once you've finished
 4. Navigate to _Store setup_ and select _Payment methods_
 5. Locate and activate your previous selected payment method(s)

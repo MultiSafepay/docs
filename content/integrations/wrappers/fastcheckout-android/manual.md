@@ -52,7 +52,7 @@ Check the example below to see how you can setup the environment you want to use
 
 ### Installation
 
-First you have to access into your Back Office and get a valid [API key](/faq/general/glossary/#api-key) (_Settings_ > _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/faq/general/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 

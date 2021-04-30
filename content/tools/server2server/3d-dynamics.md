@@ -8,7 +8,7 @@ read_more: '.'
 
 ##  Dynamic 3D Secure
 
-Based on a predefined set of rules, an order will be processed with or without [3D Secure](/faq/general/what-is-3d-secure)
+Based on a predefined set of rules, an order will be processed with or without [3D Secure](/faq/payment-regulations/about-3d-secure)
 
 
 {{< alert-notice >}}

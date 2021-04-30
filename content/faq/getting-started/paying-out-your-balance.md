@@ -11,6 +11,7 @@ aliases:
 ---
 
 To withdraw the balance from your MultiSafepay Control account and transfer it to your business bank account, your MultiSafepay Control account must be fully activated. To check this:
+
 1. Log in to [MultiSafepay Control](https://merchant.multisafepay.com).
 2. From the left-hand dashboard, select **Pay-out**.
 3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page for uploading the documents required to approve your account.

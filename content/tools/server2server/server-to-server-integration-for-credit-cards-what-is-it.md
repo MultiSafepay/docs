@@ -13,7 +13,7 @@ By requesting the credit card details on the webshop, a 'direct' transaction can
 | Debit / Credit cards | Supported for server to server direct payments |
 |---|---|
 |Visa | 3D verified by Visa and NON 3D |
-|Mastercard | 3D secure code and NON 3D |
+|Mastercard | [3D Secure](/faq/general/glossary/#3d-secure) code and NON 3D |
 |Maestro | Only 3D |
 |American Express | American Express Safekey. The only allowed exception from mandatory Safekey verification is for transactions lower than 30 EUR |
 |Bancontact | Only 3D |
@@ -58,9 +58,9 @@ Credit card transactions received by MultiSafepay, will be processed through our
 | Completed      | Completed   | Refund has been successfully processed.  | 
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback)         |      
 
-Read more about 3D Secure in our page [What is 3D Secure?](/faq/general/what-is-3d-secure)
+For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
 
-###  Credit Card Settings to allow direct credit card 3D secure payments.
+###  Credit Card Settings to allow direct credit card 3D Secure payments.
 3D Secure is a technical standard to enhance security. Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. This is usually done via a password connected to the card.
 
 By default, all card orders are processed with 3D Secure.    

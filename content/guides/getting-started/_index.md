@@ -38,7 +38,7 @@ _If you run into issues during this process, please reach out to our [support te
 {{< br >}}
 
 ## Step 2: Set up your MultiSafepay Control
-After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your [API key](/faq/general/glossary/#api-key), monitor transactions, configure payouts, generate reports, and more. 
+After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your [API key](/faq/general/multisafepay-glossary/#api-key), monitor transactions, configure payouts, generate reports, and more. 
 
 Before you can start building your integration, add your website to your MultiSafepay Control to generate an API key. To do this, follow these steps:
 
@@ -94,7 +94,7 @@ Our [integration specialists](mailto:integration@multisafepay.com) are happy to 
 ## Step 4: Go live!
 When you are ready, [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
 
-MultiSafepay is a [payment service provider](/faq/general/glossary/#payment-service-provider-psp) and [acquirer](/faq/general/glossary/#acquirer). Therefore, we are legally required to perform know your customer (KYC) checks on your account. You can supply the information we need to activate your account through your MultiSafepay Control. 
+MultiSafepay is a [payment service provider](/faq/general/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/faq/general/multisafepay-glossary/#acquirer). Therefore, we are legally required to perform know your customer (KYC) checks on your account. You can supply the information we need to activate your account through your MultiSafepay Control. 
 
 **[Read more about onboarding](/faq/getting-started/onboarding/)**
 

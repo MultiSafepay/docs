@@ -16,7 +16,7 @@ In order to process direct credit card transactions, the following is required o
 2. Make sure you are [PCI](/faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments) compliant and receive final approval by MultiSafepay Risk Team <risk@multisafepay.com> to enable this feature.
 3. Your merchant file and performance of the company will undergo screening and if you have received approval, our Integrations team will begin the integration of Server to Server.
 4. Integrate with MultiSafepay via JSON [API](/api/#server-to-server) following the instructions provided in this documentation after our Integrations team have activated the feature for you.
-5. Credit card transactions with MultiSafepay accounts are by default 3D Secure enabled, in line with PSD2 regulations. If you operate outside of Europe, please contact your account manager by email <sales@multisafepay.com> to configure a more flexible setup.
+5. Credit card transactions with MultiSafepay accounts are by default [3D Secure](/faq/general/glossary/#3d-secure) enabled, in line with PSD2 regulations. If you operate outside of Europe, please contact your account manager by email <sales@multisafepay.com> to configure a more flexible setup.
 
 >_All options require approval and enabling by our Risk Team_.
 
@@ -24,7 +24,7 @@ In order to process direct credit card transactions, the following is required o
 
 3D Secure is a protocol designed to reduce fraud and chargebacks during ecommerce Internet transactions. Cardholders are redirected during the payment process to their issuing bank in order to identify themselves before the purchase can be completed. This usually means entering a PIN or a password after entering their card details. In the event of a dispute with the transaction at a later date, the card issuer will usually take responsibility of the chargeback instead of the merchant. This only applies for charges with no authorization and/or fraud, not for situations where the product is not delivered or where customer is dissatisfied with the quality of the order.
 
-The liability issues involved with 3D secure transactions are outside of the scope of this document. For a detailed indication of the liabilities involved, contact our Risk Team at <risk@multisafepay.com>
+The liability issues involved with 3D Secure transactions are outside of the scope of this document. For a detailed indication of the liabilities involved, contact our Risk Team at <risk@multisafepay.com>
 
 >_MultiSafepay only supports Mastercard Secure Code, Verified by Visa, American Express Safekey and Bancontact 3D_.
 

@@ -1,0 +1,26 @@
+<div class="container">
+	<div class="d-flex flex-wrap">
+	{{ if isset .Params "href-1" }}	
+		<a href="{{ .Get "href-1" }}" class="row block-item my-3 mx-2 p-4 col-lg">
+			<div class="col-3 d-flex align-items-center">
+				<img src="{{ .Get "img-1"}}" class="img-fluid" alt="{{ .Get "alt-1"}}">
+			</div>
+			<div class="col-9">
+				<p class="text-muted text-uppercase" style="font-size: 1.5rem;">{{ .Get "header-1"}}</p>
+				<p class="h3 mt-n3">{{ .Get "text-1"}}</p>
+			</div>
+		</a>
+	{{ end }}
+	{{ if isset .Params "href-2" }}
+		<a href="{{ .Get "href-2" }}" class="row block-item my-3 mx-2 p-4 col-lg">
+			<div class="col-9">
+				<p class="text-muted text-uppercase" style="font-size: 1.5rem;">{{ .Get "header-2"}}</p>
+				<p class="h3 mt-n3">{{ .Get "text-2"}}</p>
+			</div>
+			<div class="col-3 d-flex align-items-center">
+				<img src="{{ .Get "img-2"}}" class="img-fluid my-auto" alt="{{ .Get "alt-2"}}">
+			</div>
+		</a>
+	{{ end }}
+	</div>
+</div>

@@ -6,6 +6,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 aliases:
     - /faq/payment-regulations/3D-secure
+    - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
+    - /faq/general/what-is-3d-secure
 ---
 
 3D Secure (3DS) is an authentication protocol for online transactions. 3D Secure is also known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. Two versions of the 3D Secure protocol coexist (3DS 1.0 and 3DS 2.0).

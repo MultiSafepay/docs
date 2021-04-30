@@ -14,6 +14,9 @@ aliases:
 
 {{% introduction_app "Shopify" %}}
 
+
+**Note**: Our Shopify app is unavailable in Norway and Finland. For more information, email the Integration Team at <integration@multisafepay.com>
+
 ### 1. Installation & Configuration
 
 1. Use the following links to activate the individual payment methods and click on the install button on the bottom right.
@@ -45,8 +48,7 @@ aliases:
 4. Fill in your Site ID and Site Secure Code. Information on where to find your Site ID, Site code can be found on our [API key page](/tools/multisafepay-control/get-your-api-key)
 5. Now you can activate the payment method.
 
-### Note
-It is also possible to bundle all individual payment methods under a single 'MultiSafepay' payment gateway during checkout.
+**Note**: It is also possible to bundle all individual payment methods under a single 'MultiSafepay' payment gateway during checkout.
 For this you can just activate the MultiSafepay payment method, which can be found under the Alternative payments.
 
 ### 2. Congratulations

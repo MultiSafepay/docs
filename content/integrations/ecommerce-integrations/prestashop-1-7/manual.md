@@ -24,7 +24,7 @@ Click on _Upload a module_
 
 ### 3. Configuration
 1. Navigate to the backend of your webshop and navigate to _Modules & Services > Search for MultiSafepay > Configure_
-2. Set your [API key](/faq/general/glossary/#api-key) and save. {{% account_info %}}
+2. Set your [API key](/faq/general/multisafepay-glossary/#api-key) and save. {{% account_info %}}
 3. Click on the Payments tab and enable the payment methods you would like to offer.
 
 ### 4. Congratulations

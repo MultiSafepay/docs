@@ -7,7 +7,7 @@ read_more: "."
 aliases:
     - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
 ---
-As a [payment service provider](/faq/general/glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must then comply with specific policies for each payment method we offer. 
+As a [payment service provider](/faq/general/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must then comply with specific policies for each payment method we offer. 
 
 MultiSafepay must account for risks and potential reputational damage. Therefore, we cannot permit some products and/or services to be sold, or only if the merchant provides additional information.
 
