@@ -1,27 +1,27 @@
 ---
 title : "Which tax settings should I use?"
-meta_title: "Magento 2 payment link - MultiSafepay Docs"
+meta_title: "Magento 2 - Recommended tax settings - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
 ---
 
-To prevent discrepancies between item amounts inside the MultiSafepay transactions and Magento orders, we recommend to use certain tax settings inside Magento.
+To prevent discrepancies between item amounts inside MultiSafepay transactions and Magento orders, we recommend you to use certain tax settings inside Magento.
 
-Tax settings in Magento can be found under _Stores_ > _Configuration_ > _Sales_ > _Tax_ > _Calculation Settings_
+Tax settings in Magento can be found under **Stores** > **Configuration** > **Sales** > **Tax** > **Calculation Settings**
 
-If you want to show prices **excluding tax**, we recommend the following settings:
+If you want to show prices **excluding tax**, use the following settings:
 
-+ _Tax Calculation Method Based On_: Row Total
-+ _Catalog Prices_: Excluding Tax
-+ _Apply Customer Tax_: After Discount
-+ _Apply Discount On Prices_: Excluding Tax
++ **Tax Calculation Method Based On**: Row Total
++ **Catalog Prices**: Excluding Tax
++ **Apply Customer Tax**: After Discount
++ **Apply Discount On Prices**: Excluding Tax
 
-For stores that want to show prices **including tax**, we recommend the following settings:
+If you want to show prices **including tax**, use the following settings:
 
-+ _Tax Calculation Method Based On_: Row Total
++ **Tax Calculation Method Based On**: Row Total
 + _Catalog Prices_: Including Tax
-+ _Apply Customer Tax_: After Discount
-+ _Apply Discount On Prices_: Including Tax
++ **Apply Customer Tax**: After Discount
++ **Apply Discount On Prices**: Including Tax
 
-We also recommend to look at the recommendations from Magento, as our settings should be in line with the [Magento recommendations](https://docs.magento.com/user-guide/tax/warning-messages.html).
+Our recommended settings are based on Magento's standards. For more information, see [Magento's documentation on tax settings](https://docs.magento.com/user-guide/tax/warning-messages.html).
