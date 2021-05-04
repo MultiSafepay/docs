@@ -20,7 +20,7 @@ If you want to show prices **excluding tax**, use the following settings:
 If you want to show prices **including tax**, use the following settings:
 
 + **Tax Calculation Method Based On**: Row Total
-+ _Catalog Prices_: Including Tax
++ **Catalog Prices**: Including Tax
 + **Apply Customer Tax**: After Discount
 + **Apply Discount On Prices**: Including Tax
 
