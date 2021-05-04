@@ -12,6 +12,6 @@ aliases:
 You can sign up for a MultiSafepay account while still using another PSP without incurring any costs. This lets you process test payments and gives access to all features. MultiSafepay will only start charging monthly fees when you begin processing real payments. 
 
 ### Transferring tokens
-In collaboration with your current PSP, we provide a secure transfer of tokenized credit card details. This is especially useful if you process recurring payments or want to offer existing customers the option of reusing their credit card details.
+In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process recurring payments or want to offer existing customers the option of reusing their credit card details.
 
 For more information, contact <sales@multisafepay.com>
