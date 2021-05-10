@@ -11,7 +11,8 @@ Release date: May, 7th 2021
 ### Added
 + PLGOPNS-388: Introduce a new option in order statuses settings, which allows ignoring the notification according to the selected status
 
-+ PLGOPNS-395: Add support for custom order description
++ PLGOPNS-395: Add support for custom order descriptions
+
 + PLGOPNS-393: Add setting field, to turn direct payment gateways in redirect
 
 ### Changed
