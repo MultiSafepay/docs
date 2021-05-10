@@ -13,7 +13,8 @@ Release date: May, 7th 2021
 
 + PLGOPNS-395: Add support for custom order descriptions
 
-+ PLGOPNS-393: Add setting field, to turn direct payment gateways in redirect
++ PLGOPNS-393: Add setting field, to turn direct payment gateways into redirect payment gateways
+
 
 ### Changed
 + PLGOPNS-389: Refactor to use simplified methods from the PHP-SDK
