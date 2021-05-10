@@ -18,7 +18,8 @@ Release date: May, 7th 2021
 
 ### Changed
 + PLGOPNS-389: Refactor to use simplified methods from the PHP-SDK
-+ PLGOPNS-390: Refactor to replace all msp strings, variables names and methods names, and use multisafepay instead, across all the files within the plugin
++ PLGOPNS-390: Refactor to replace all 'msp' string, variable, and method names, and use 'multisafepay' instead, across all the files within the plugin
+
 
 ### Fixed
 + PLGOPNS-394: Return an array in case value is serialized affecting OpenCart 2.X versions
