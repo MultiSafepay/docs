@@ -7,6 +7,7 @@ aliases:
     - /faq/general/how-can-i-pay-out-the-funds-on-my-multisafepay-account-
 ---
 You can pay out funds from your MultiSafepay Control to your business bank account any time, except if:
+
 - Your MultiSafepay Control account is not yet fully activated. 
 - Your account balance is negative.
 - The Risk Team has deactivated this feature for any reason. 
