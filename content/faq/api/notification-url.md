@@ -71,10 +71,12 @@ Before accepting the order data, you need to validate the `POST` notification re
 To calculate the signature/hash, follow these steps:
 
 1. Base64 decode the Auth header.
-2. Explode/split the resulting string using the colon as separator. The first part is the timestamp, the second part is sha512hex of the payload.
-3. Concatenate the timestamp, colon, and original payload.
-4. Calculate hmac/sha512 of step 4 using your [API key](/faq/general/glossary/#api-key) as the HMAC key.
-5. Only allow the request if this hash matches the sha512hex from step 2 and the timestamp is recent enough.
+2. Split the decoded Auth header using the colon (`:`) as separator. The first string is the timestamp, the second string is a SHA512 hash of the payload.
+3. Concatenate the timestamp, colon, and (non-hashed) payload of the notification.
+4. SHA512 hash the concatenated string that resulted from step 3 using your [website API key](/tools/multisafepay-control/get-your-api-key) as HMAC key.
+5. Check whether the the SHA512 hash that resulted from step 4 matches the SHA512 hash from step 2.
+
+Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
 ## GET vs POST notification
 The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the transaction status from our API again, and receive the updated transaction status directly in the notification payload.
