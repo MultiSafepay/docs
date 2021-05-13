@@ -9,8 +9,6 @@ short_description: 'Accept credit card payments by mail or telephone with MOTO.'
 aliases: [/tools/moto/moto]
 ---
 
-## About
-
 Mail Order/Telephone Order, also known as MOTO, allows you to accept credit card payments by manually entering the payment details in your payment gateway by means of a virtual terminal.
 
 ## How it works
@@ -26,6 +24,6 @@ Completed MOTO credit card payments are thus not 3D Secure enrolled. Therefore, 
 
 For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
 
-## Activating MOTO 
+## Activate MOTO 
 
 Our Risk Team decides whether the MOTO payments will be activated for you or not. For further information to find out if your are eligible to process MOTO payment, contact your account manager at <sales@multisafepay.com>

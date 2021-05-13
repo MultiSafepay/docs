@@ -8,8 +8,6 @@ logo: '/svgs/Flexible 3D.svg'
 short_description: 'Use 3D Secure verification to provide an extra layer of security to credit card payments.'
 ---
 
-## What it is
-
 Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/general/glossary/#3d-secure) at an API level. The Flexible 3D forces whether or not to complete a transaction with the 3D Secure verification.
 
 For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
@@ -31,7 +29,7 @@ When Flexible 3D is set on _true_, the verification is mandatory to finalize and
 **Flexible 3D Secure and Dynamic 3D Secure settings**
 Activating Flexible 3D Secure will override the rules of the Dynamic 3D settings. For more information about Dynamic 3D Secure, please refer to the page, [Dynamic 3D, What it is](/tools/server2server/3d-dynamics)
 
-## Available for?
+## Availability
 
 Flexible 3D is a feature that allows you to enable/disable 3D Secure at an API level. 
 
@@ -45,7 +43,7 @@ For Full API calls on [Flexible 3D](/api/#flexible-3d), please refer to the API 
 
 An extra step is required when processing a direct credit card transactions. Because a direct "server to server" credit card payment takes place on the checkout page of the webshop instead of on the payment page of MultiSafepay, it is up to the merchant to refer the customer to the verification page to complete the payment.
 
-#### Complete callback
+### Complete callback
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

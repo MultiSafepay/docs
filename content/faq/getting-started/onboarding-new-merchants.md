@@ -9,19 +9,18 @@ aliases:
     - /faq/getting-started/account-approval/
     - /faq/getting-started/onboarding
 ---
-Onboarding refers to the steps you need to follow to create a live account with MultiSafepay. When new merchants [sign up](https://merchant.multisafepay.com/signup) and we create a new account, we first perform several [know your customer](https://en.wikipedia.org/wiki/Know_your_customer) checks on the:
+Onboarding refers to the steps you need to follow to create and active a MultiSafepay account. When you [sign up](https://merchant.multisafepay.com/signup), we perform several _know your customer_ checks on the:
 
-* account holder.
-* associated bank account.
-* merchant.
-* associated website, and the products and services offered to make sure they comply with our policies. See [Prohibited products and services](https://docs.multisafepay.com/faq/getting-started/prohibited-products-and-services/).
+* Account holder
+* Associated bank account
+* Merchant
+* Associated website
 
-To enable you to process payments as quickly as possible, we divide the onboarding checks into two phases:
+To help you process payments as quickly as possible, we divide the onboarding checks into two phases:
 
 * **Identification**: Once we have established the identity of the account holder, you can start collecting customer payments.
 * **Verification**: Once we have verified the identity of the account holder, you can receive payouts to your business bank account.
 
-{{< br >}}
 ## Know your customer checks
 
 ### Documents and information
@@ -59,10 +58,8 @@ In addition to the required information and documents, you must list the followi
 
 ### Prohibited products and services
 
-Some products and services cannot be sold with MultiSafepay or only if additional requirements are met. For a list based on relevant legislation, risk factors, potential reputational damage, and payment gateway policies, see [Prohibited products and services](/faq/getting-started/prohibited-products-or-services/).
+Some products and services can't be sold with MultiSafepay or only if additional requirements are met. For a list, based on relevant legislation, risk factors, potential reputational damage, and payment gateway policies, see [Prohibited products and services](/faq/getting-started/prohibited-products-or-services/).
 
----
-{{< br >}}
+**Disclaimer:** The information on this website is intended for informational purposes. No rights can be derived from this information.
+
 For questions about onboarding, email the Risk Team at <risk@multisafepay.com>
-
-_Disclaimer: The information on this website is intended for informational purposes. No rights can be derived from this information._

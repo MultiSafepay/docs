@@ -6,10 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-## Generic gateways
-
-In our plugins, we have predefined gateways for specific payment methods. Whenever we add a new payment method to our platform, merchants need to update the plugin to use the new gateway.
-For that reason, some of our plugins use one or more generic gateways. These gateways have a flexible gateway code and can be used to connect almost every payment method we offer without needing to update the plugin.
+In our plugins, we use predefined gateways for specific payment methods. Whenever we support a new gateway, merchants need to update their plugin to use the new gateway. For that reason, some of our plugins use one or more generic gateways. These gateways have a flexible gateway code that allows them to connect to almost every payment method we offer, without updating the plugin.
 
 ### Generic gift cards 
 
@@ -22,7 +19,7 @@ For more information about integrating both open-loop and closed-loop gift cards
 
 We only support redirect gateways.
 
-### Specific plugins
+### Plugin-specific documentation
 
 - [Craft commerce](/integrations/ecommerce-integrations/craftcommerce/faq/generic-gateways/)
 - [Drupal 8 & 9](/integrations/ecommerce-integrations/drupal8/faq/generic-gateways/)
