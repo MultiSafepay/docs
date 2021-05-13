@@ -65,7 +65,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": "https://pay.multisafepay.com/direct/complete/",
       "account_holder_name": null,
       "external_transaction_id": 663302604477,
-      "account_iban": ""
+      "account_iban": "*** 1234"
     },
     "costs": [
       {

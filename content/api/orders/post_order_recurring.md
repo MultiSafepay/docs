@@ -70,7 +70,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": 1,
       "account_holder_name": "Testperson-nl",
       "external_transaction_id": "00000003",
-      "account_iban": "IBAN Number ",
+      "account_iban": "*** 1234",
       "account_bic": "BIC code"
     },
     "costs": [],

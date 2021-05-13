@@ -97,7 +97,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": "NL87ABNA0000000001",
       "account_holder_name": "Example",
       "external_transaction_id": "6190662598986790",
-      "account_iban": "NL87ABNA0000000001",
+      "account_iban": "*** 1234",
     },
     "costs": [
       {

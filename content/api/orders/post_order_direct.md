@@ -72,7 +72,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": null,
       "account_holder_name": null,
       "external_transaction_id": "0050003729272772",
-      "account_iban": "https://betalen.rabobank.nl/ideal-betaling/landingpage?random=44b2dcf080f29f6f52d05802fd76e31285ac564dc974319f0109e1d978234770&trxid=0050003729272772",
+      "account_iban": "*** 1234",
       "isser_id": "0021"
     },
     "costs": [

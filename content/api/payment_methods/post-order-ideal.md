@@ -107,8 +107,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "modified": "2020-01-14T12:08:43",
     "order_id": "my-order-id-1",
     "payment_details": {
+	  "account_bic": "string",
       "account_holder_name": null,
-      "account_iban": "https://www.abnamro.nl/en/ideal-betalen/index.html?randomizedstring=8641247395&trxid=1150001181473373",
+      "account_iban": "*** 1234",
       "account_id": null,
       "external_transaction_id": "1150001181473373",
       "issuer_id": "0031",
