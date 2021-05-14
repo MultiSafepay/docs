@@ -1,15 +1,10 @@
 ---
 title : "Test payment details"
-meta_title: "Testing - Test payment details - MultiSafepay Docs"
+weight: 14
+meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-
-To test payment methods with your ecommerce integration or custom-built integration, test payment details can be entered on the checkout page to simulate a transaction. Alternativley, some payment methods require you select test scenarios from a list.
-
-The test payment details and scenarios can only be tested in the [MultiSafepay Test Control](https://testmerchant.multisafepay.com/). If you do not have an account yet, see [Onboarding](/guides/getting-started/#step-1-create-a-test-account)
-
-{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay Test Control. As a result, a refund cannot be processed successfully. Contact our Integration Team at <integration@multisafepay.com> to enable outgoing payments or additional payment methods in your MultiSafepay Test Control. {{< /alert-notice >}} 
 
 This page assumes you have followed the steps on [Getting started](/guides/getting-started) and are ready to test different payment methods and scenarios in your [MultiSafepay Test Control](https://testMerchant.MultiSafepay.com/).
 
@@ -17,15 +12,11 @@ It provides information about test credentials, sample statuses, possible errors
 
 **Note:** By default, you cannot process test refunds. To enable outgoing payments, email the Integration Team at <integration@multisafepay.com>  
 
-
 ## Banks
 
 ### Bancontact
 
-MultiSafepay provides test details for Bancontact transactions. To simulate the outcome of a transaction, enter:
-
-* A test card number
-* Any expiry date in the future
+Test card number: See the table below.
 
 Possible errors: The test QR codes can only be read with a general QR code application. If you scan the code using the Bancontact app, an error occurs.
 
@@ -38,52 +29,41 @@ Sample statuses:
 | 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed) |
 | 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds) |
 
-MultiSafepay provides a test details for Bank transfer transactions. To simulate the outcome of a transaction, enter:
+### Banktransfer
+Test IBANs: See the table below.
 
-* A test IBAN number
+Sample statuses:
 
-| IBAN               | Status    | Description              |
-| ------------------ | --------- | ------------------------ |
-| NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized/Initialized (after 1 minute it is Completed) |
-| NL87ABNA0000000002 | Initialized/Expired/Completed | Transaction is Initialized (after 1 minute it is Expired, and 1 minute later it is Completed) |
-| NL87ABNA0000000003 | Initialized/Expired | Transaction is Initialized (after 1 minute it is Expired) |
-| NL87ABNA0000000004 | Initialized/Declined | Transaction is Initialized (after 1 minute it is Declined) |
+| IBAN | Status    | Description              |
+| ---------| --------- | ------------------------ |
+| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initialized. After 1 minute, this changes to declined. |
+| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initialized. After 1 minute, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
 
 ### Belfius
 
+Sample statuses:
 
  Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction is Completed |
-| Cancelled | Transaction is Cancelled (Order status will first be Void) 
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction was cancelled 
 
 
 ### CBC
 
-The payment method CBC can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/difference-between-v1-and-v2/).
+Payment page: CBC can only be processed on our new payment page starting with PayV2.
 
-MultiSafepay provides test scenarios for Belfius transactions. To simulate the outcome of a transaction, select one of the following statuses:
+Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction is Completed |
-| Cancelled | Transaction is Void / Cancelled |
-
-
-### Dankort
-
-MultiSafepay provides [Visa test credentials](/faq/getting-started/test-payment-details/#visa) to test the payment method Dankort.
-
-Dankort is shown as a payment option on the payment page of MultiSafepay only after:
-
-1. The Visa gateway is enabled; and
-2. The locale is set to da_DK (Denmark) in the transaction call received by MultiSafepay.
-
-Contact our Integration Team at <integration@multisafepay.com> to enable the Visa gateway.
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction is void / cancelled |
 
 ### Dotpay
 
-MultiSafepay provides test scenarios for Dotpay transactions. To simulate the outcome of a transaction, select one of the following statuses:
+Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
@@ -92,13 +72,12 @@ MultiSafepay provides test scenarios for Dotpay transactions. To simulate the ou
 
 ### Giropay / EPS
 
-MultiSafepay provides a testing environment for Giropay/EPS transactions. To simulate the outcome of a transaction, enter the following:
-
-* Any BIC
+- Giropay is a German payment method. To test it, you must include the country code for Germany `DE` in the pre-transaction request. 
+- For EPS, you can also use the Giropay gateway in your MultiSafepay Test Control. In your live MultiSafepay Control, EPS only appears if you provide the country code for Austria `AT`.
 
 Test credentials: You will need a test BIC.
 
-Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in test environment. In the live environment, EPS will display only when you use Austria (AT) as country code.
+Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
@@ -107,7 +86,7 @@ Note: Giropay is a German payment method and can only be tested if the country c
 
 ### iDEAL
 
-MultiSafepay provides test scenarios for iDEAL transactions. To simulate the outcome of a transaction, select one of the following scenarios:
+Sample statuses:
 
 | Status                | Description              |
 | --------------------- | ------------------------ |
@@ -143,15 +122,14 @@ Sample statuses:
 
 ### Request to Pay
 
-MultiSafepay provides a test platform for Request to Pay transactions through Deutsche Bank.
-
-You can simulate the following scenarios:  
+Testing environment: You can test Request to Pay transactions through Deutsche Bank. In the **Bank** field, select **Demo Bank**. 
 
 Sample statuses:
 
-Select 'Demo Bank' in the Bank field and go through the steps with the information provided in the description in order to get a _Completed_ status.
-
-In order to get a _Cancel_ status you need to click on the _Close_ button at the top right of the screen.
+| Status    | Testing instructions | Description              |
+| --------- | ----------------------- | ----------------------- |
+| **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
+| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
 
 
 ### Recurring payments
@@ -197,16 +175,11 @@ To enable AfterPay in your MultiSafepay Test Control, email the Integration Team
 
 ### Betaal per Maand
 
-MultiSafepay provides a test platform for Betaal per Maand transactions. During the payment process you will be able to simulate the outcome of the transaction.
-
- Status    | Description              |
-| --------- | ------------------------ |
-| Completed | Transaction is Completed (Order status will first go to Uncleared) |
-| Declined | Transaction is Declined (Order status will first go to Uncleared) |
+Testing environment: You cannot test Betaal per Maand in MultiSafepay Test Control. When activating Betaal per Maand as a payment method in your live MultiSafepay Control, you can test it before going live.
 
 ### E-invoicing
 
-MultiSafepay provides a test platform for E-invoicing transactions. During the payment process you will be able to simulate the outcome of the transaction.
+Test address: Kraanspoor 39C - 1033SC Amsterdam
 
 Sample statuses:
 
@@ -216,15 +189,28 @@ Sample statuses:
 
 ### in3
 
-MultiSafepay provides a test platform for in3 transactions. To simulate the outcome of a transaction, select one of the following scenarios in the test environment:
+Test credentials: [API key](.com/tools/multisafepay-control/get-your-api-key/)
 
- Status    | Description              |
-| --------- | ------------------------ |
-| Completed | Transaction is Completed |
-| Declined | Transaction is Declined |
-| Open Completed | Transaction remains initialized until the Bank provides a final completed status. (after 1 minute) |
-| Open Declined | Transaction remains initialized until the Bank provides a final declined status. (after 1 minute) |
-| Cancelled | Transaction is Cancelled |
+To test in3 transactions, follow these steps:
+
+1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
+2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+3. To change the order status to **Shipped**, either:
+    - Send an [Update an order](/api/#update-an-order) API request, or 
+    - Change the status in your MultiSafepay Test Control.
+{{< br >}}The transaction status remains **Uncleared**.
+4. No invoice is generated in the test control so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay Control, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in in3.
+
+You can also test in3 transactions by entering the following details on the in3 checkout page:
+| Date of birth    | Postal code | House number |
+| ------------------- | ------------------- | ----------------- |
+| 01-01-1999 | 1234AB | 1 |
+| 01-01-2000 | 1111AB | 1 |
+
+Sample statuses:
+
+- **Approved**
+- **Declined**
 
 ### Klarna
 
@@ -318,12 +304,11 @@ Test card details:
 - CVC code: 123
 - Expiry date in the future
 
-MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delivery transactions. During the payment process you will be able to simulate the outcome of the transaction by filling in the following information:
+Sample statuses:
 
-* Any random date of birth
-* Any random bank account number (do not enter your own bank account number)
-* Any random Email address
-* Any random phone 
+| Status    | Description              |
+| --------- | ------------------------ |
+| **Completed** | Transaction was completed (3D enrolled)|
 
 ### Visa
 
