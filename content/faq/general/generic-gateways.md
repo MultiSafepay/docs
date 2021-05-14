@@ -1,28 +1,25 @@
 ---
-title: "What are generic gateways?"
-weight: 
+title: "Generic gateways"
+weight: 13
 meta_title: "FAQ General - Generic gateways - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
-## Generic Gateways
-
-In our plugins, we have predefined gateways linked to our payment methods. Whenever we add a new payment method to our platform, the merchant needs to update the plugin to use the new gateway.
-For that reason, some of our plugins contain one or more generic gateways. These gateways have a flexible gateway code and thus can be used to connect almost every payment method we offer without the need to update the plugin.
+In our plugins, we use predefined gateways for specific payment methods. Whenever we support a new gateway, merchants need to update their plugin to use the new gateway. For that reason, some of our plugins use one or more generic gateways. These gateways have a flexible gateway code that allows them to connect to almost every payment method we offer, without updating the plugin.
 
 ### Generic gift cards 
 
-Since we don't support all of the open-loop gift cards and none of the closed-loop gift cards in our integrations, generic gateways can be particularly useful for gift cards.
-In some of the ecommerce integrations, we have special gateways that act as generic gift card gateways.
+Since we don't support closed-loop gift cards and not all open-loop gift cards in our ecommerce integrations, generic gateways can be particularly useful for gift cards.
+In some integrations, we use special gateways that act as generic gift card gateways.
 
-For more information about the integration of both open-loop as closed-loop gift cards in our platform please contact <integration@multisafepay.com>
+For more information about integrating both open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>
 
 ### Limitations
 
-For now we only support redirect gateways.
+We only support redirect gateways.
 
-### Plugin specific articles
+### Plugin-specific documentation
 
 - [Craft commerce](/integrations/ecommerce-integrations/craftcommerce/faq/generic-gateways/)
 - [Drupal 8 & 9](/integrations/ecommerce-integrations/drupal8/faq/generic-gateways/)

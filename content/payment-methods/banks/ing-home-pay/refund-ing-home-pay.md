@@ -9,7 +9,7 @@ aliases: [/payment-methods/ing-home-pay/refund-ing-home-pay/]
 ## Request refund
 Please follow these steps to refund a ING Home'Pay transaction:
 
-1. Select _transaction → transaction overview in your [MultiSafepay Control](https://merchant.multisafepay.com)_
+1. Select _transaction > transaction overview in your [MultiSafepay Control](https://merchant.multisafepay.com)_
 2. Find the transaction through search
 3. Open transaction
 4. Select _refund_

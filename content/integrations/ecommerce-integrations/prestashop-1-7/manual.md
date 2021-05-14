@@ -18,14 +18,13 @@ aliases:
 - Tested on PHP 7.0
 
 ### 2. Installation
-1. Log in to your backend and navigate to _'Modules→ Modules & Services'_.
+1. Log in to your backend and navigate to _'Modules > Modules & Services'_.
 Click on _Upload a module_
 2. Select the Plugin_PrestaShop.zip file, click on _Configure_.
 
 ### 3. Configuration
-1. Navigate to the backend of your webshop and navigate to _Modules & Services → Search for MultiSafepay→
-Configure_
-2. Set your [API key](/faq/general/glossary/#api-key) and save. {{% account_info %}}
+1. Navigate to the backend of your webshop and navigate to _Modules & Services > Search for MultiSafepay > Configure_
+2. Set your [API key](/faq/general/multisafepay-glossary/#api-key) and save. {{% account_info %}}
 3. Click on the Payments tab and enable the payment methods you would like to offer.
 
 ### 4. Congratulations

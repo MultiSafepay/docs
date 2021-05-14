@@ -16,6 +16,8 @@ To allow the possibility of refunding, you must firstly enable this setting:
 1. Log in to [lightspeed.multisafepay.com](https://lightspeed.multisafepay.com/settings)
 2. Navigate _Enable Refunds_ by scrolling down or click _Enable refunds_ on the sidebar.
 
+_When creating a credit memo for a refund, make sure to set the status as "Not Paid". We will ignore the "Paid" status._
+
 If any refund is placed using the lightspeed backend a short message will be placed in the notes section of an order. This message can contain an error if anything happens.
 
 ## Known issue

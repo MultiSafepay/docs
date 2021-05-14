@@ -13,7 +13,7 @@ aliases:
 
 ### 1. Installation & Configuration
 1. Log in to your backend and install the MultiSafepay app in the App Store
-2. Go to _Mijn Webshop→Instellingen→Bestelproces & Voorraad→Betaalmethoden_
+2. Go to _Mijn Webshop > Instellingen > Bestelproces & Voorraad > Betaalmethoden_
 3. Scroll down to the tab _Electronische betalingen_ and select MultiSafepay
 4. Fill in your Merchant Account, Merchant Site ID & Merchant Site Secure Code. {{% account_info %}}
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.

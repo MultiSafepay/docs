@@ -8,7 +8,7 @@ read_more: '.'
 
 Zero Authorization is an account verification method for credit cards that is used to verify a cardholders information __without charging the customer__. Instead, an amount of zero (€ 0,00) is charged on the card to store the credit card information in the form of a token and to determine whether the card is legitimate or not. After creating the token, is then possible to charge the customer with a new transaction with either Tokenization or [Recurring Payments](/tools/recurring-payments)
 
-The zero amount transaction can be executed with or without [3D Secure](/tools/server2server), depending on the users’ case. This feature can protect merchants against fraud liability for future transactions.
+The zero amount transaction can be executed with or without [3D Secure](/faq/general/glossary/#3d-secure), depending on the users’ case. This feature can protect merchants against fraud liability for future transactions.
 
 ### What are possible 'Zero Authorization' scenarios?
 

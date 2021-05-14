@@ -36,7 +36,7 @@ Transactions received with Postepay (Visa or Mastercard) as payment method can b
 Please follow these steps to refund a Postepay transaction.
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction → transaction overview_
+2. Select _transaction > transaction overview_
 3. Find the transaction through search
 4. Open transaction
 5. Select _refund_

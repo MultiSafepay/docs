@@ -13,7 +13,7 @@ aliases:
 {{% introduction_plugin "Shopware 6" %}}
 
 ### 1. Requirements
-- Shopware 6.2.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
+- Shopware 6.2.x, 6.3.x, 6.4.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
 - Tested on PHP 7.2.0
 
 _*Contact your account manager if you require support for Professional/Enterprise of Shopware 6_
@@ -27,7 +27,7 @@ _*Contact your account manager if you require support for Professional/Enterpris
 6. When the plugin is visible, make sure the _Activated_ button is toggled
 7. Press on the "..." (more) button and select _Config_
 8. Select _Test_ in the drop-down menu
-9. Look for the field named _API key_ and enter your [API key](/faq/general/glossary/#api-key)
+9. Look for the field named _API key_ and enter your [API key](/faq/general/multisafepay-glossary/#api-key)
 
 Information on where to find your API key can be found on our [API key page](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key).
 

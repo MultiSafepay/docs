@@ -37,27 +37,27 @@ Our Integration Team will greatly appreciate your effort.
 
 ### See our LinkedIn profiles
 
-[Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)<br>
-[Alex Carletto](https://www.linkedin.com/in/alexcarletto)<br>
-[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
-[Berend Lantink](https://www.linkedin.com/in/berendlantink)<br>
-[Daniel Civit](https://www.linkedin.com/in/danielcivit)<br>
-[Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra)<br>
-[Henk Timmermans](https://www.linkedin.com/in/henk-timmermans-9b813120)<br>
-[Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)<br>
-[Jelle Sprangers](https://www.linkedin.com/in/jelle-sprangers-partnermanager)<br>
-[Jeroen Hehemann](https://www.linkedin.com/in/jeroenhehemann)<br>
-[Joris Steenmans](https://www.linkedin.com/in/jorissteenmans)<br>
-[Kris Stallenberg](https://www.linkedin.com/in/kris-stallenberg-a21471ba)<br>
-[Mike de Decker](https://www.linkedin.com/in/mike-de-decker-54443a163)<br>
-[Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)<br>
-[Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)<br>
-[Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar)
-
+[Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)  
+[Alex Carletto](https://www.linkedin.com/in/alexcarletto)  
+[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)  
+[Berend Lantink](https://www.linkedin.com/in/berendlantink)  
+[Daniel Civit](https://www.linkedin.com/in/danielcivit)  
+[Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra)  
+[Francesca Cook](https://www.linkedin.com/in/francesca-cook-ba786a29/)  
+[Henk Timmermans](https://www.linkedin.com/in/henk-timmermans-9b813120)  
+[Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)  
+[Jelle Sprangers](https://www.linkedin.com/in/jelle-sprangers-partnermanager)  
+[Jeroen Hehemann](https://www.linkedin.com/in/jeroenhehemann)  
+[Joris Steenmans](https://www.linkedin.com/in/jorissteenmans)  
+[Kris Stallenberg](https://www.linkedin.com/in/kris-stallenberg-a21471ba)  
+[Mike de Decker](https://www.linkedin.com/in/mike-de-decker-54443a163)  
+[Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)  
+[Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)  
+[Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar)  
 
 ### Take a look at our Social media pages
-[LinkedIn](https://www.linkedin.com/company/multisafepay)<br>
-[Twitter](https://twitter.com/multisafepay)<br>
-[Facebook](https://www.facebook.com/multisafepay)<br>
-[Stackshare](https://stackshare.io/multisafepay/multisafepay)<br>
+[LinkedIn](https://www.linkedin.com/company/multisafepay)  
+[Twitter](https://twitter.com/multisafepay)  
+[Facebook](https://www.facebook.com/multisafepay)  
+[Stackshare](https://stackshare.io/multisafepay/multisafepay)  
 [Instagram](https://www.instagram.com/multisafepay)

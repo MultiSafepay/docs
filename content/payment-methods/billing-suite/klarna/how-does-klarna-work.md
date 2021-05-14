@@ -15,7 +15,7 @@ Once the Klarna Gateway is configured, you can start your integration using our 
 ### Activate an order
 When a customer chooses to pay with Klarna, MultiSafepay will create a Klarna transaction marked "Not Shipped". After the order is shipped by the merchant to the customer, the order needs to be activated to start the communication process to the customer. After 14 business days, MultiSafepay will receive the funds from Klarna and will add the amount to your MultiSafepay Control balance.
 
-To activate a Klarna order you need to log into [MultiSafepay Control](https://merchant.multisafepay.com) and go to the transaction details of the Klarna order. In the Order Details section there is a _Change Order Status_ button. Here you can change the status to _Shipped_ and provide Track & Trace details if desired.
+To activate a Klarna order you need to log in to [MultiSafepay Control](https://merchant.multisafepay.com) and go to the transaction details of the Klarna order. In the Order Details section there is a _Change Order Status_ button. Here you can change the status to _Shipped_ and provide Track & Trace details if desired.
 
 Klarna does not support an Auto-Ship function, thus all orders have to be manually activated. Certain ecommerce integrations may automatically activate an order from _Not Shipped_ to _Shipped_, once an order is shipped. Please check within your plugin if this is possible. Other options can include manually activating an order or a custom API integration.
 

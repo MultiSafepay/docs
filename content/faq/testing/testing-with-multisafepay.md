@@ -21,8 +21,6 @@ If you encounter any issues during testing, see [Diagnosing errors](/faq/errors-
 
 To start testing, follow these steps:
 
-{{< br >}}
-
 ### Step 1: Initiate a transaction
 
 There are two ways to initiate a transaction:

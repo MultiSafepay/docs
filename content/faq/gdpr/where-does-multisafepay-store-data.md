@@ -1,8 +1,0 @@
----
-title : "Where does MultiSafepay store data?"
-meta_title: "FAQ GDPR - Data storage - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-read_more: "."
----
-
-MultiSafepay has two certified data centers in the Netherlands. Therefore, all collected data remains within the European Union.

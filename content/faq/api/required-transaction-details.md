@@ -1,19 +1,17 @@
 ---
-title: "What type of personal transaction details are required to be sent via the MultiSafepay API?"
-weight:
+title: "Required transaction details"
+weight: 11
 meta_title: "FAQ API - Required transaction details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
-As online payment provider, MultiSafepay is obliged by law to monitor transactions and it’s clients. As a result, it must be clear to MultiSafepay what type of service or products are purchased per transaction and by whom.
+As a PSP, MultiSafepay is obliged by law to monitor transactions, merchants, and customers. We have to know the type of product or service involved in each transaction, and who is buying and selling.
 
-Please help us in our duty by sending: 
+For each transaction, you must include details about the product and the customer's
+- Name
+- IP address
+* Country
+* Email address
 
-* the exact product details
-* client name
-* customer IP-address
-* country
-* email address
-
-for all orders automatically. Failure of sending the required information may result in extra screening steps from MultiSafepay and/or a request for copies of invoices of specific orders.
+If you fail to provide this information, we may need to carry out extra screening and may request copies of invoices for specific orders.

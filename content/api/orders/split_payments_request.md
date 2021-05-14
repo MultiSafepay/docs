@@ -46,7 +46,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Split Payments
-The split payment tool allows you to split the amount of a transaction over several MultiSafepay Control accounts. [Merchants](/faq/general/glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
+The split payment tool allows you to split the amount of a transaction over several MultiSafepay Control accounts. [Merchants](/faq/general/multisafepay-glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
 
 Read more about [split payments](/tools/split-payments) on our documentation page.
 
@@ -99,7 +99,7 @@ Sends push notification (POST,GET) default: GET.
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string

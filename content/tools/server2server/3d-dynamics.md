@@ -8,33 +8,29 @@ read_more: '.'
 
 ##  Dynamic 3D Secure
 
-Based on a predefined set of rules, an order will be processed with or without [3D Secure](/faq/general/what-is-3d-secure)
+[3D Secure](/faq/payment-regulations/about-3d-secure) is enabled by default for all credit card payments. 
 
+Dynamic 3D Secure lets you set rules to disable 3D Secure authentication for certain credit card payments, e.g. based on:
 
-{{< alert-notice >}}
-__Please note__: MultiSafepay no longer supports Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
-{{< /alert-notice >}}
+* Transaction amount
+* Country (e.g. card country, IP country, customer country) 
 
-The following information is required:
+The most common reason for disabling 3D Secure is if you have lots of customers outside Europe who don't have access to it. Consider setting a rule for transactions with a non-European card and a billing address outside of Europe.
 
-* The reason why your want to process Dynamic 3D Secure transactions.
-* A fee can be requested for the use and/or implementation of the Dynamic 3D Secure.
-* If multiple site are connected within a MultiSafepay Control account, we need to know for which sites the Dynamic 3D Secure should be implemented.
+## Increased risk of fraud
 
-## Minimum requirements to approve the use of Dynamic 3D Secure.
+Removing the layer of security provided by 3D Secure increases the risk of fraud. Liability doesn't change for payments processed without 3D Secure. Also, banks don't accept liability for fraudulent transactions so you bear the risk of chargebacks.
 
-* A significant amount of transactions are based outside of Europe.
-* Current processing performance (especially the chargebacks) needs to be good
-* Merchant should be aware of the following:  
-_The merchant runs an increased fraud risk on orders processed without 3D Secure, because a layer of security is removed._
-* There is no liability shift for orders processed without 3D Secure.  
-_The bank does not take liability for fraudulent orders, in other words the merchant runs the chargeback risk_.
+## Fees
+A different fee applies to non-3D Secure transactions. We may also charge a fee for implementing Dynamic 3D Secure. 
 
-## The rule set to Dynamic 3D Secure
+## Applying for Dynamic 3D Secure
+To apply to use Dynamic 3D Secure, email sales@multisafepay.com
 
-We can create rules based on:
+You must:
 
-* The amount of the transaction
-* The country involved (card country, ip country, country user)
-
-Given that by default 3D Secure is enabled for all card orders, we decide with the use of the rules which transactions do not require 3D Secure.
+- State why you want to use Dynamic 3D Secure.
+- Provide evidence that you process a significant volume of transactions for customers outside of Europe.
+- Confirm that you understand the increased fraud risk and the fee structure.
+- Specify which sites in your MultiSafepay Control to apply the rule to.
+- Confirm you have excellent processing performance, especially for chargebacks.

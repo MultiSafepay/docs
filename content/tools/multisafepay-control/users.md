@@ -23,7 +23,7 @@ An unlimited number of users can be added to your account. All users under your 
 
 ### User rights
 
-User rights can be found in your MultiSafepay Control under _Settings_ → _User management_. An explanation of the user rights can be found upon hovering over the question mark icons.
+User rights can be found in your MultiSafepay Control under _Settings_ > _User management_. An explanation of the user rights can be found upon hovering over the question mark icons.
 
 Here is an overview of all user right settings:
 

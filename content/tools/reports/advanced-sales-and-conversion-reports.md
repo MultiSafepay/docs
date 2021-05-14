@@ -33,7 +33,7 @@ With the Conversion Report you get great insights in your websites conversion ra
 
 Accessing the Advance Sales and Conversion Reports can simply be done by following these steps:
 
-1. Log into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Navigate to the left hand side and select _Reports_
 3. Select _Advanced Reporting_
 4. Select the type of report you would like to export from the list provided

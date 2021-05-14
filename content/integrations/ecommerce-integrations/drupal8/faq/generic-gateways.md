@@ -7,6 +7,6 @@ layout: "faqdetail"
 
 The MultiSafepay plugin for Drupal 8 & 9 offers [generic gateways](/faq/general/generic-gateways/).
 
-You can find the generic gateway in your Drupal backend. Navigate to Commerce → Configuration → Payments → Payments Gateways → Add payment gateway → Generic Gateway
+You can find the generic gateway in your Drupal backend. Navigate to Commerce > Configuration > Payments > Payments Gateways > Add payment gateway > Generic Gateway
 
 All of our payment methods are supported. It is possible to set the gateway code and the gateway label.

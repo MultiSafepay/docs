@@ -25,7 +25,7 @@ Yuki supports one export format:
 
 If you would like to import a MultiSafepay Accountant Export, we would like to kindly ask you to follow these set of instructions:
 
-1. Log into your Yuki domain which ends with @yukiworks.be and navigate to _Yuki Postbus_
+1. Log in to your Yuki domain which ends with @yukiworks.be and navigate to _Yuki Postbus_
 2. Navigate to _Yuki Upload_
 3. Click upload and choose the MT940 file you wish to use or choose one of the other methods.
 
@@ -33,7 +33,7 @@ Do you require further assistance? Read more about the [instructions](https://su
 
 Following the bank recognition rules, your files can be automatically reconciliated.
 
-1. Navigate to _Bank_ → _Bank recognition rules_
+1. Navigate to _Bank_ > _Bank recognition rules_
 2. Create a new rule. For more info visit this [page](https://support.yuki.be/nl/support/solutions/articles/11000071225-bankherkenningsregel-aanmaken)
 
 #### 1. _Automatic_

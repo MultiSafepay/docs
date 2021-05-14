@@ -1,21 +1,21 @@
 ---
-title : "How to test Recurring Payments?"
+title : "Testing recurring payments"
 weight: 55
-meta_title: "Recurring Payments, how to test them? - MultiSafepay Docs"
+meta_title: "Testing recurring payments - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/recurring-payments/how-to-test-recurring-payments
 ---
-To test recurring payments on your staging environment, email our Integration Team at <integration@multisafepay.com> with the request to enable it in your 
-[MultiSafepay Control Test environment](https://testmerchant.multisafepay.com)
+To enable testing recurring payments in your [MultiSafepay Test Control](https://testmerchant.multisafepay.com), email the Integration Team at <integration@multisafepay.com> 
 
+#### SEPA Direct Debit
 
-##### SEPA Direct Debit
+For testing SEPA Direct Debit transactions, use the following test IBANs:
 
-MultiSafepay provides a test platform for SEPA Direct Debit transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
-
-| **IBAN** | **Status** | **Description** |
+| IBAN | Status | Description |
 ---|---|---
-NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized (after 2 minutes it is Completed)
-NL87ABNA0000000002 | Initialized/Declined | Transaction is Initialized (after 2 minutes it is Declined)
-NL87ABNA0000000003 | Initialized/Uncleared/Completed | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Completed)
-NL87ABNA0000000004 | Initialized/Uncleared/Declined | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Declined)
+NL87ABNA0000000001 | **Initialized/Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**.|
+NL87ABNA0000000002 | **Initialized/Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**.|
+NL87ABNA0000000003 | **Initialized/Uncleared/Completed** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**, and after another minute to **Completed**.|
+NL87ABNA0000000004 | **Initialized/Uncleared/Declined** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**, and after another minute to **Declined**.|

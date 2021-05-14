@@ -10,37 +10,18 @@
     <div class="row pb-5">
         {{ range .Sections }}
         {{ if ne .Params.tags "hidden"}}
-        <div class="col-md-6 my-3">
-                <div class="block-item h-100 p-4">
-                    <div class="row h-100">
-                        <div class="col-3 d-flex align-items-start justify-content-center order-2">
-                            {{ with .Params.logo }}
-                            <img class="img-fluid" src="{{ . }}" />
-                            {{ end }}
-                        </div>
-                        <div class="col-9 order-1">
-                            <h3>{{ .Params.title_short }}</h3>
-                            <div class="block-item-text">
-                                <p>{{ .Params.description_short }}</p>
-                            </div>
-                            <div class="block-item-buttons pt-2">
-                                {{ if .Params.redirect_show_info }}
-                                    <a class="secondary" target="blank" href="{{ .Params.redirect_show_info.url }}">{{ .Params.redirect_show_info.text }}</a>
-                                {{ else }}
-                                <a class="secondary wider-button" href="{{ .Permalink }}">More info</a>
-                                {{ end }}
-                                {{ if .Params.download_url }}
-                                <a class="primary ml-4" href="{{ .Params.download_url }}">Download</a>
-                                {{ end }}
-                                {{ if .Params.extra_button }}
-                                    <a {{ if eq .Params.extra_button.type "primary" }} class="primary ml-4" {{else}} class="secondary ml-4"  {{end}} target="blank" href="{{ .Params.extra_button.url }}">{{ .Params.extra_button.text }}</a>
-                                {{ end }}
-                            </div>
-                        </div>
-
-                    </div>
+        <a class="col-md-4 col-sm-6 my-3 no-decoration" href="{{ .Permalink }}" >
+       		<div class="block-item py-4">
+               	<div class="row">
+                {{ with .Params.logo }}
+             		<img class="img-fluid mx-auto" style="width: 75px" src="{{ . }}" />
+                {{ end }}
+          		</div>
+         	    <div class="row py-4">
+       		       	<h4 class="mx-auto">{{ .Params.title_short }}</h4>
                 </div>
-        </div>
+			</div>
+		</a>
         {{ end }}
         {{ end }}
     </div>

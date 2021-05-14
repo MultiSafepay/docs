@@ -1,23 +1,24 @@
 ---
-title: "What is the difference between a Direct and Redirect API call?"
-weight:
-meta_title: "FAQ API - What is the difference between a Direct and Redirect API call? - MultiSafepay Docs"
+title: "Difference between direct and redirect API calls"
+weight: 1
+meta_title: "FAQ API - Difference between direct and redirect - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
-On our API section, you will often see the terms 'Direct' and 'Redirect' being used. In this section, we will explain the difference between the two API calls.
+In our API, you can make direct and redirect calls.
 
-### Direct
+### Direct calls
 
-A Direct transaction will simply connect you directly to the chosen payment method and will either provide a direct link to the payment method or perform the transaction immediately without the customer having to do anything. Direct transactions can also be carried out on a continuous basis with automated payments, such as [Recurring payments](/tools/recurring-payments)
+Direct calls connect directly to the specified payment method and either:
 
-_For example, pre-selecting 'iDEAL' as the gateway will take you directly to the respective bank page (a valid IssuerID must also be provided only for an iDEAL transaction)_
+- Generate a direct link to the payment method, e.g. specifying iDEAL in the `gateway` parameter takes the customer to the payment page of their bank. 
+- Complete the transaction immediately without the customer having to do anything. 
 
-### Redirect
+You can make direct calls repeatedly, e.g. for [recurring payments](/tools/recurring-payments).
 
-A Redirect transaction will redirect the customer to the MultiSafepay payment page, where they will be presented with the payment method based on what has been pre-selected in the gateway of the API call. 
+### Redirect calls
 
-_For example, pre-selecting 'Visa' as the gateway will present the customer with the fields to fill in their Visa credit card information. The customer will not leave the MultiSafepay payment page._
+Redirect calls send the customer to a MultiSafepay payment page for the specified payment method, e.g. specifying Visa in the `gateway` parameter includes fields on the payment page for the customer to fill in their Visa credit card information. The customer doesn't leave the MultiSafepay payment page.
 
-It is also possible to leave the 'gateway' field empty, this will present the customer with all payment methods from MultiSafepay (subject to the payment methods that are actually enabled for your webshop).
+If you leave the `gateway` parameter empty, all payment methods enabled in your MultiSafepay Control appear on the [payment page](/tools/payment-pages/what-is-payv2/).

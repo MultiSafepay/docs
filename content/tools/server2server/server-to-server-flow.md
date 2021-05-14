@@ -15,7 +15,7 @@ The transaction request type should be "direct".
 "gateway": "CREDITCARD",
 ```
 
-When 3D secure verification is required you have two option for handling the verification:
+When [3D Secure](/faq/general/glossary/#3d-secure) verification is required you have two option for handling the verification:
 
 1. the recommended way is to redirect your customer directly to the payment_url that will be returned in the response. 
 2. otherwise you can use the HTML form that will be returned and should be rendered.

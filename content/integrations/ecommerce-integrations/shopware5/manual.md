@@ -21,7 +21,7 @@ aliases:
 2. Search the MultiSafepay plugin and select _Download now_
 3. Navigate to _Configuration_ > _Plugin manager_ and select _Installed_
 4. Search for the installed MultiSafepay plugin and click on the pencil
-5. Scroll down and look for the field named _[API key](/faq/general/glossary/#api-key)_
+5. Scroll down and look for the field named _[API key](/faq/general/multisafepay-glossary/#api-key)_
 6. Enter your API key.{{% account_info %}} The other fields can be filled according to your own wishes
 7. Navigate to _Configuration_ and select the payment methods that you need.
 
