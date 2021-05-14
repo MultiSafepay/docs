@@ -5,7 +5,7 @@ weight: 10
 meta_title: "Testing - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-logo: '/svgs/Getting started.svg'
+logo: '/svgs/Testing.svg'
 layout: 'single'
 weight: 10
 short_description: "Testing"
@@ -32,7 +32,7 @@ There are two ways to initiate a transaction:
 
 #### Ecommerce integration
 
-1. Enter your test API key in the backend of your ecommerce integration.
+1. Enter your test [API key](/tools/multisafepay-control/get-your-api-key/) in the backend of your ecommerce integration.
 2. Place a test order and initiate a transaction using the payment method you want to test.
 
 #### API

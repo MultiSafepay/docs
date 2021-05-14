@@ -6,5 +6,5 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 logo: '/svgs/Getting started.svg'
 layout: 'faqplugins'
-short_description: "Read more about how you can test payment methods in the MultiSafepay test environment"
+short_description: "Read more about how you can test payment methods in the MultiSafepay test environment."
 ---
