@@ -1590,7 +1590,7 @@ pre:not(.chroma) {
     background-color: #F6F6F6;
     color: #4D4D4D;
     border-radius: 1rem 0px 1rem 1rem;
-    padding: 40px 50px;
+    padding: 2rem 3rem;
 }
 
 p code, td code {
@@ -1608,4 +1608,19 @@ p code, td code {
 
 .no-decoration {
     text-decoration: none!important;
+}
+
+details {
+	background-color: #f2f7fc;
+	border-radius: 10px;
+	padding: 1rem 1rem;
+	margin: 2rem 0;
+}
+
+details > summary:hover {
+	color: #008DCB;
+}
+
+details > table > tbody > tr {
+	background-color: blue;
 }
