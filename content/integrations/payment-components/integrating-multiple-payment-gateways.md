@@ -1,13 +1,13 @@
 ---
-title : "Integrating a single Payment Component"
-breadcrumb_title : "Integrating single Payment Component"
-meta_title: "Payment components - Integrating Payment Component - MultiSafepay Docs"
+title : "Integrating multiple payment gateways"
+breadcrumb_title : "Integrating multiple payment gateways"
+meta_title: "Payment components - Integrating multiple gateways - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: 'single'
 read_more: '.'
 --- 
 
-To integrate a Payment Component into your checkout for a single payment gateway, follow these steps:
+To integrate a Payment Component into your checkout for multiple payment gateways, follow these steps:
 
 ## Step 1: Prepare
 
@@ -21,7 +21,6 @@ Payment Components require a MultiSafepay API token. See API Reference&nbsp;-&nb
 ```
 link rel="stylesheet" href="https://pay.multisafepay.com/sdk/compnents/v1/components.css">
 ```
-
 
 **2.** Add the following script to the bottom of the `<body>` of your checkout page:  
 ```
