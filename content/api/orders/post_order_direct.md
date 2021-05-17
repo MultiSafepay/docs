@@ -161,7 +161,7 @@ Customer will be redirected to this page after a successful payment. In the even
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+If the payment fails, the customer is redirected to this page.
 
 
 {{< /description >}}
