@@ -7,16 +7,19 @@ aliases:
   - /integrations/hosted/lightspeed_app/faq/footer-icons
 ---
 
-When using built-in Lightspeed payment methods, icons will appear in the footer when a payment method is enabled. Apps do not support this by default.
+When using built-in Lightspeed payment methods, icons appear in the footer when a payment method is enabled. The app does not support this by default.
 
-You can add ask your developer to add the images to your theme or you can add them by yourself.
+Ask your developer to add the icons to your theme. Themes can differ and you may need to make some changes for it to function.
 
-To help you, we have created a script which can automatically add the icons. Please note that that every theme can be different and you may have to make some changes for it to function.
+To automatically add icons using a MultiSafepay script, follow these steps: 
 
-In order to obtain the script, please follow these instructions:
+1. Log in to the MultiSafepay Control App.
+2. Go to **Settings** > **Footer icons**.
+3. Click the **Generate script** button. A script appears in the text area below. 
+4. Copy the script to your clipboard.
+5. In your **Lightspeed Admin area**, go to **Settings** > **Web extras and custom Javascript**. 
+6. Paste the script into the **Javascript textbox**.
+7. Set the status to **Enable**.
+8. Click **Save**. The icons appear in the footer.
 
-1. Go to the _Settings_ page of our app.
-2. Navigate to _Footer icons_ where you will find a generated script button. This will output a script in the text area below. Copy this script.
-3. Go to your _Lightspeed Admin area_ > _Settings_ > _Web extras and Custom Javascript_. Paste the script into the Javascripts textbox, set the status to enable and click _Save_. Icons should now be visible in the footer.
-
-The generated icons update depending on the storefront and are ordered depending on the setting at the time of generation. If you update the settings, you will be required to update the script as well.
+Depending on the storefront, the display order of the generated icons is determined by the settings at the time of generation. If you update the settings, you need to update the script as well.
