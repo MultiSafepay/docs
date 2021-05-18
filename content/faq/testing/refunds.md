@@ -7,4 +7,4 @@ read_more: "."
 
 ## Refunds
 
-It is possible to process refunds in your MultiSafepay test environment, although refunding any amount is by default disabled. Please email our Integration Team at <integration@multisafepay.com> if you would like to have this option enabled.
+Refunds can be processed in your [MultiSafepay test environment](https://testmerchant.multisafepay.com/), although refunding custom amount is by default, disabled. Please contact our Integration Team at <integration@multisafepay.com> if you would like to have this option enabled.
