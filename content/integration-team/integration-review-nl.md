@@ -17,14 +17,14 @@ Door het schrijven van een eerlijke review of beoordeling, op het platform van u
 Wij waarderen dat enorm en zullen u niet vergeten.
 
 ### Websites
-[TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)<br> 
-[Google review - Click on the stars](https://www.google.com/search?rlz=1C1GCEU_enNL890NL890&q=MultiSafepay&stick=H4sIAAAAAAAAAONgecSYyS3w8sc9YamESWtOXmOM4uIKzsgvd80rySypFPLhYoOyFLj4pbj10_UNSwpzjKvyCjQYpHi5kAWkFJS4eNcZ2ciLihx-yaQlxLn6zo0yb45j7oKWcUd2fZ11-hzPIlYe39KckszgxLTUgsRKAFluieJ9AAAA&sa=X&ved=2ahUKEwj94_i1hOrnAhUuNOwKHQdQBEoQ6RMwC3oECAsQBA&biw=1280&bih=610#lrd=0x47c6084b76d8dcab:0xcecb9af5bac45e39,1,,,)<br>
-[Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
+[TrustPilot](https://nl.trustpilot.com/review/multisafepay.com){{< br >}}
+[Google review - Click on the stars](https://www.google.com/search?rlz=1C1GCEU_enNL890NL890&q=MultiSafepay&stick=H4sIAAAAAAAAAONgecSYyS3w8sc9YamESWtOXmOM4uIKzsgvd80rySypFPLhYoOyFLj4pbj10_UNSwpzjKvyCjQYpHi5kAWkFJS4eNcZ2ciLihx-yaQlxLn6zo0yb45j7oKWcUd2fZ11-hzPIlYe39KckszgxLTUgsRKAFluieJ9AAAA&sa=X&ved=2ahUKEwj94_i1hOrnAhUuNOwKHQdQBEoQ6RMwC3oECAsQBA&biw=1280&bih=610#lrd=0x47c6084b76d8dcab:0xcecb9af5bac45e39,1,,,){{< br >}}
+[Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control){{< br >}}
 
 ### Ecommerce integrations
-[Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2.html)<br>
-[Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)<br>
-[Shopware Store - Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html)<br>
+[Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2.html){{< br >}}
+[Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html){{< br >}}
+[Shopware Store - Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html){{< br >}}
 [WooCommerce plugins](https://wordpress.org/plugins/multisafepay)
 
 ### LinkedIn profielen
