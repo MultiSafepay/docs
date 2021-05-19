@@ -59,7 +59,7 @@ After completing the payment, the transaction details appear in your MultiSafepa
 1. Go to **Transactions** > **Transactions overview**.
 2. In the **Transactions overview** list, select the transaction to view the **Transaction details** page.
 
-For information about possible transaction statuses, see [Test payment details](/faq/getting-started/test-payment-details/).
+For information about transaction statuses, see [Test payment details](/faq/getting-started/test-payment-details/) and [Offline actions](/faq/getting-started/status-change-notification-and-offline-actions/).
 
 ## Test to live
 

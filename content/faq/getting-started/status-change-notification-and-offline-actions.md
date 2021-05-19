@@ -20,6 +20,6 @@ You can check in your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 ## Transaction status
 
-Once your system receives a notification, it must retrieve the transaction status from MultiSafepay. The transaction status will clearly show whether a payment was successful or not and give a reason why a transaction was not successful.
+Once your system receives a notification, it must retrieve the __transaction status-- from MultiSafepay. The transaction status will clearly show whether a payment was successful or not and give a reason why a transaction was not successful.
 
 After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within the MultiSafepay Control or MultiSafepay test environment.
