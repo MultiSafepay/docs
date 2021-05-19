@@ -9,11 +9,11 @@ aliases:
 ---
 Merchants with a custom integration built using our [API](/api) can use dynamic styling to change the look and feel of V2 payment page templates for every transaction.
 
-For more information about V2 payment pages, see FAQ - [Difference between V1 and V2](https://docs.multisafepay.com/tools/payment-pages/difference-between-v1-and-v2).
+For more information about V2 payment pages, see FAQ – [Difference between V1 and V2](https://docs.multisafepay.com/tools/payment-pages/difference-between-v1-and-v2).
 
 There are two ways of dynamically styling payment page templates:
 
-## 1. Load a saved template
+## Load a saved template
 If you have stored a template, you can request it in the first-level JSON object `"template_id": "value of the template"`.
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
@@ -22,7 +22,7 @@ If you have stored a template, you can request it in the first-level JSON object
 4. Add the `template_id` to your API request for **every** transaction.
 
 
-## 2. Provide `template` object structure in the transaction request
+## Provide template object structure in the transaction request
 You can also style templates in real time. See the template code on API - [Dynamic styling](https://docs.multisafepay.com/api/#dynamic-styling).
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).

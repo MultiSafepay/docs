@@ -29,4 +29,4 @@ To edit saved templates, click the **Edit template** button in the top left corn
 
 To apply the style from a template for another website in your account, click the **Apply style from** button in the top right corner. Save the template to the relevant website.
 
-To use dynamic styling, see [Dynamic styling for payment pages](/tools/payment-pages/dynamic-styling-for-payment-pages/).
+To use dynamic styling, see [Dynamic styling payment pages](/tools/payment-pages/dynamic-styling-payment-pages/).
