@@ -4,6 +4,8 @@ weight: 14
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
+aliases:
+    - /faq/getting-started/test-payment-details/
 ---
 
 This page assumes you have followed the steps on [Getting started](/guides/getting-started) and are ready to test different payment methods and scenarios in your [MultiSafepay Test Control](https://testMerchant.MultiSafepay.com/).

@@ -10,7 +10,9 @@ layout: 'single'
 weight: 10
 short_description: "Testing"
 aliases:
-    - /faq/getting-started/getting-started
+    - /faq/getting-started/testing-with-multisafepay/
+    - /faq/getting-started/test-orders-overview/
+    - /tools/multisafepay-test-environment/multisafepay-test-environment/
 ---
 
 Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay Test Control](https://testmerchant.multisafepay.com/).<br>
