@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   },
   "customer": {
     "locale": "nl_NL",
-    "ip_address": "127.0.0.1"
+    "ip_address": "127.0.0.1" }
 }
 ```
 
