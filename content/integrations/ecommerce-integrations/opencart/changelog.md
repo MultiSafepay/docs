@@ -5,21 +5,33 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/opencart/changelog/]
 ---
 
+## 3.10.2
+Release date: May, 19th 2021
+
+### Fixed
++ PLGOPNS-405: Fix error when shopping cart contains gift vouchers
+
+***
+
+## 3.10.1
+Release date: May, 14th 2021
+
+### Fixed
++ PLGOPNS-403: Fix bug when retrieve the initial order status for OC 2.X versions during notification
+
+***
+
 ## 3.10.0
 Release date: May, 7th 2021
 
 ### Added
 + PLGOPNS-388: Introduce a new option in order statuses settings, which allows ignoring the notification according to the selected status
-
 + PLGOPNS-395: Add support for custom order descriptions
-
 + PLGOPNS-393: Add setting field, to turn direct payment gateways into redirect payment gateways
-
 
 ### Changed
 + PLGOPNS-389: Refactor to use simplified methods from the PHP-SDK
 + PLGOPNS-390: Refactor to replace all 'msp' string, variable, and method names, and use 'multisafepay' instead, across all the files within the plugin
-
 
 ### Fixed
 + PLGOPNS-394: Return an array in case value is serialized affecting OpenCart 2.X versions
