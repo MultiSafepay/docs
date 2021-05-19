@@ -5,8 +5,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-## Status change notification
-
 The status of an transaction can change for many reasons. Payments being received or reversed and chargebacks are a few examples. Each time this happens, MultiSafepay will send a notification to your system with the **transaction ID**. The URL that MultiSafepay sends this notification to can be configured in two places. 
 
 The first place checked is the request when initiating an order. If there is no notification URL provided when initiating an order, the default **notification URL** set in [MultiSafepay Control](https://merchant.multisafepay.com/) will be used.
