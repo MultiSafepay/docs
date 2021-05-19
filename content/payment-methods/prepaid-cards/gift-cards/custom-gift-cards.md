@@ -4,7 +4,8 @@ weight: 26
 meta_title: "Custom gift cards - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
-aliases: [/payment-methods/gift-cards/branded-personalized-gift-card/]
+aliases: 
+    - /payment-methods/gift-cards/branded-personalized-gift-card/
 ---
 
 We can develop custom gift cards. For example:
@@ -41,7 +42,6 @@ You can start processing payments with the gift card as soon as we release it.
 ### Custom integrations
 
 If you have a custom integration, you are responsible for integrating the gift card, using the [generic gateway code](/faq/general/generic-gateways/) we provide. 
-
 
 
 
