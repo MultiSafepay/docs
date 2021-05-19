@@ -21,6 +21,10 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 
+**Billing suites**
+
+- [AfterPay](/payment-methods/billing-suite/afterpay/)
+- [Klarna](/payment-methods/billing-suite/klarna/)
 
 
 
