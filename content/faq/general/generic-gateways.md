@@ -8,7 +8,7 @@ read_more: "."
 
 In our plugins, we use predefined gateways for specific payment methods. Whenever we support a new gateway, merchants need to update their plugin to use the new gateway. For that reason, some of our plugins use one or more generic gateways. These gateways have a flexible gateway code that allows them to connect to almost every payment method we offer, without updating the plugin.
 
-### Generic gift cards 
+### Gift cards 
 
 Since we don't support closed-loop gift cards and not all open-loop gift cards in our ecommerce integrations, generic gateways can be particularly useful for gift cards.
 In some integrations, we use special gateways that act as generic gift card gateways.
