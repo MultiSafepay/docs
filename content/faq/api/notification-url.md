@@ -7,6 +7,7 @@ read_more: "."
 aliases:
     - /faq/api/how-does-the-notification-url-work
 ---
+
 Notifications are webhooks where the API notifies your web server when the status of a transaction changes. They are triggered by actions by:
 
 - Customers, e.g. completing a payment
@@ -99,3 +100,4 @@ If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend th
 - If the notification URL field in your MultiSafepay Control is empty or not returning an OK response (for any reason), we use the notification URL from the transaction.
 - Never include port numbers in your notification URL. For security reasons, we only process standard ports.
 - Make sure you authorize our [IP ranges](/faq/general/ip-ranges) to access the notification URL.
+
