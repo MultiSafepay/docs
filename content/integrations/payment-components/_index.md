@@ -19,6 +19,9 @@ Payment Components:
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit card component" align="center" screen_size="desktop" title="Title" caption="Blablablabla" >}}
 
-## Choose your integration
-Payment Components are available for the following payment methods:
+## Integration
 
+Integrate Payment Components for:
+
+- [Multiple Payment Gateways](/integrations/payment-components/integrating-multiple-payment-gateways/)
+- [A single Payment Gateway](/integrations/payment-components/integrating-single-payment-component/)

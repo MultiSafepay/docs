@@ -22,7 +22,6 @@ Payment Components require a MultiSafepay API token. See API Reference&nbsp;-&nb
 link rel="stylesheet" href="https://pay.multisafepay.com/sdk/compnents/v1/components.css">
 ```
 
-
 **2.** Add the following script to the bottom of the `<body>` of your checkout page:  
 ```
 <script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>
@@ -59,20 +58,16 @@ const orderData = {
 
 {{< details title="View properties" >}}
 
-### Required properties
 | Key | Value |
 | ---- | ---- |
-| currency| Currency of the order. **Format:** [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`.|
-| amount| Value of the order. **Format:** Number without decimal points, e.g. 100 euro is formatted as `10000`. |
-| customer.country|Country code of the customer, used to validate the availability of the payment method. **Format:** [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. |
-
-### Optional properties
-| Key | Value |
-| ---- | ---- |
-|customer.locale | Language of the customer, used to set the Payment Component UI's language. **Format:** [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. |
-| template.settings.embed_mode| Embed mode is a template designed to blend in seamlessly with your ecommerce. **Format:** Boolean. |
+| currency| Currency of the order. **Format:** [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. Required. |
+| amount| Value of the order. **Format:** Number without decimal points, e.g. 100 euro is formatted as `10000`. Required. |
+| customer.country|Country code of the customer, used to validate the availability of the payment method. **Format:** [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Required. |
+|customer.locale | Language of the customer, used to set the Payment Component UI's language. **Format:** [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Optional. |
+| template.settings.embed_mode| Embed mode is a template designed to blend in seamlessly with your ecommerce. **Format:** Boolean. Optional. |
 
 {{< /details >}}
+
 
 We use the `orderData` object to ensure the payment method is enabled, e.g. for the currency, country, and transaction value. 
 
@@ -89,14 +84,14 @@ PaymentComponent = new MultiSafepay({
 
 ### Initialize the Payment Component
 
-Call the `PaymentComponent.init()` method using the following arguments:
+Call the `PaymentComponent.init()` method with the following arguments:
 
 ```
 PaymentComponent.init('payment', {
     container: '#MSPPayment',
     gateway: '<GATEWAY>',
-	onLoad: state => {
-    console.log('onLoad', state);
+    onLoad: state => {
+        console.log('onLoad', state);
     },
     onError: state => {
         console.log('onError', state);
@@ -122,7 +117,30 @@ Replace the `<GATEWAY>` placeholder with the relevant gateway code.
 
 {{< /details >}}
 
-## Step 3: Request and redirect
+Create event handlers for the following events:
+
+{{< details title="View events" >}}
+
+| Event | Event handler |
+| ---- | ---- |
+|`onError`| Called when an error occurs in the Payment Component|
+|`onLoad`| Called when the Payment Component UI is rendered |
+
+{{< /details >}}
+
+The `PaymentComponent` has the following methods:
+
+{{< details title="View methods" >}}
+
+| Method | Description |
+| ---- | ---- |
+|`getErrors`| Returns error details, like error messages or codes.|
+|`hasErrors`| Returns a boolean value depending on whether errors have been registered. |
+|`getPaymentData`| Creates a `payload` object with the customer's payment details, used to create orders|
+
+{{< /details >}}
+
+## Step 3: Redirect to pay
 
 ### Collect payment data
 **1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
@@ -133,9 +151,9 @@ PaymentComponent.getPaymentData()
 
 **2.** Pass the `payment_data` to your server.
 
-### Make an order request
+### Create an order
 
-Make an order request from your server to the test endpoint.
+Make a POST `/connect/payments/create` request from your server.
 
 In the request, append the `payment_data` collected from the Payment Component UI to the order data collected during the checkout process:
 
@@ -148,7 +166,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
 {
     "type": "direct",
     "order_id": "my-order-id-1",
-    "gateway": "CREDITCARD",
+    "gateway": "<GATEWAY>",
     "currency": "EUR",
     "amount": "100",
     "description": "Test Order Description",
@@ -158,16 +176,18 @@ curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
     },
 }"
 ```
-The request follows the same structure as `POST /order` requests. 
+Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the Payment Component](#initialize-the-payment-component).
 
-For more information, see API Reference&nbsp;-&nbsp;[POST orders](/api/#orders).
+The request follows the same structure as `POST /orders` requests. 
+
+For more information, see API Reference&nbsp;-&nbsp;[Orders](/api/#orders).
 
 ### Redirect the customer
 
-**1.** From your server, pass the response to the order request to the customer's device. 
+**1.** From your server, pass the `response` to the POST `/connect/payments/create` request to the customer's device. 
 
 
-**2.** Check that the request is successful.
+**2.** Check that `response.success` is `true`.
 
 **3.** Call the `PaymentComponent.init()` method using the following arguments:
 ```
@@ -176,9 +196,9 @@ PaymentComponent.init('redirection', {
     order: response.data
 });
 ```
-If 3D Secure verification is required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
+If additional actions are required from the customer, the customer will be redirected to e.g. the `payment_url` or 3D Secure. If successful, the customer is then redirected to the `redirect_url`.
 
-If 3D Secure is not required, the customer is redirected to the `redirect_url`.
+If no actions are required, the customer is redirected to the `redirect_url`.
 
 
 ## Step 4: Go live
