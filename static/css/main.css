@@ -1617,7 +1617,7 @@ details {
 	margin: 2rem 0;
 }
 
-details > summary:hover {
+details > summary {
 	color: #008DCB;
 }
 

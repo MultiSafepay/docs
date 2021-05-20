@@ -9,19 +9,23 @@ short_description: 'Use Payment Components to embed payment methods in your ecom
 hideMenu : 'true'
 weight: 51
 ---
-Payment Components are building blocks for embedding payment methods directly in your checkout page. You can customize the look and feel to match your brand's visual identity.
+Payment Components are building blocks for embedding payment methods directly into your checkout page that:
 
-Payment Components:
+- Provide a seamless checkout experience to increase conversion.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 
-- Provide a seamless checkout experience to increase conversion
-- Encrypt customer payment details for secure processing
-- Shift responsibility for [PCI DSS compliance](/faq/general/glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
-
-{{< screen src="/gifs/credit-card-component.gif" alt="Credit card component" align="center" screen_size="desktop" title="Title" caption="Blablablabla" >}}
+{{< screen src="/gifs/credit-card-component.gif" alt="Credit card component" align="center" screen_size="desktop" caption="Blablablabla" >}}
 
 ## Integration
 
-Integrate Payment Components for:
+Integrate a Payment Component for:
 
-- [Multiple Payment Gateways](/integrations/payment-components/integrating-multiple-payment-gateways/)
-- [A single Payment Gateway](/integrations/payment-components/integrating-single-payment-component/)
+- [Multiple payment methods](/integrations/payment-components/integrating-multiple-payment-methods/)
+- [A single payment method](/integrations/payment-components/integrating-single-payment-method/)
+
+## Customization
+
+You can customize the look of the Payment Component to match your brand's visual identity, and set the display language.
+
+For instructions, see [Customizing payment components](/integrations/payment-components/customizing-payment-components/).
