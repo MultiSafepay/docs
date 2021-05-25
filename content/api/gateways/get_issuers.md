@@ -53,6 +53,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "description": "Knab"
     },
     {
+      "code": "1099",
+      "description": "Revolut"
+    },
+    {
       "code": "4371",
       "description": "Bunq"
     },
@@ -91,7 +95,7 @@ Direct iDEAL transactions can have the following Issuers:
 | 0801     | Knab                  |
 | 0021     | Rabobank              |
 | 0771     | Regio Bank            |
-| Soon supported | Revolut         |
+| 1099     | Revolut               |
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |
