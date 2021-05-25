@@ -30,12 +30,12 @@ There are two ways to initiate a transaction:
 - Creating a test payment through your [ecommerce integration](/integrations/)
 - Sending a request using our [API](/api/)
 
-#### Ecommerce integration
+### Ecommerce integration
 
 1. Enter your test [API key](/tools/multisafepay-control/get-your-api-key/) in the backend of your ecommerce integration.
 2. Place a test order and initiate a transaction using the payment method you want to test.
 
-#### API
+### API
 
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
@@ -59,31 +59,32 @@ After completing the payment, the transaction details appear in your MultiSafepa
 1. Go to **Transactions** > **Transactions overview**.
 2. In the **Transactions overview** list, select the transaction to view the **Transaction details** page.
 
+For information about payment statuses, see [Test payment details](/faq/getting-started/test-payment-details/)
+
 ### Step 4: Setting the notification URL
 
-The notification URL is used for sending status updates to your website.
+The notification URL is used for sending transaction status updates to your integration.
 
-To set the notification URL, go to your MultiSafepay test environment:
+To set the notification URL in your MultiSafepay Test Control, follow these steps:
 
 1. Navigate to __Settings__ > __Website settings__.
 2. Select your website.
-3. Fill in the __notification URL__.
+3. Fill in the __notification URL__, and then click __Save__.
 
 If the notification URL field is empty, the notification URL from the transaction will be used. For more information, see [Notification URL](/faq/api/notification-url/)
 
 ### Step 5: Checking the status
 
-The transaction status must correspond in both the Offline Actions in your MultiSafepay test environment and your system.
+The transaction status must correspond in both the Offline actions in your MultiSafepay Test Control and your system.
 
-To check that we have successfully connected to your system and sent the status change notification, see __Offline Actions__ section at the bottom of the page of any transaction.
+To check that we have successfully connected to your system and sent the status change notification, see __Offline actions__ section at the bottom of the page of any transaction.
 
 Once your system receives a notification, it must retrieve the __transaction status__ from MultiSafepay. The transaction status states whether the payment succeeded or failed, and provides the reason for failure.
 
-After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within your MultiSafepay test environment.
+After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within your MultiSafepay Test Control.
 
-For information about payment statuses, see [Test payment details](/faq/getting-started/test-payment-details/)
 
-## Test to live
+## Go live
 
 To start processing real transactions, sign up for a live account. See [Onboarding](/faq/getting-started/onboarding/).
 
