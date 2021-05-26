@@ -8,6 +8,8 @@ logo: '/svgs/Payment pages.svg'
 short_description: 'Use Payment Components to embed payment methods in your ecommerce platform'
 hideMenu : 'true'
 weight: 51
+aliases:
+    - /tools/credit-card-component/
 ---
 Payment Components are building blocks for embedding payment methods directly into your checkout page that:
 
@@ -15,7 +17,9 @@ Payment Components are building blocks for embedding payment methods directly in
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 
-{{< screen src="/gifs/credit-card-component.gif" alt="Credit card component" align="center" screen_size="desktop" caption="Blablablabla" >}}
+### Example
+
+{{< screen src="/gifs/credit-card-component.gif" alt="Credit card component" align="center" class="medium-img" screen_size="desktop" >}}
 
 ## Integration
 
