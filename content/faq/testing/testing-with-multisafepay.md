@@ -56,10 +56,6 @@ To check the transaction details in your MultiSafepay Test Control:
 1. Go to **Transactions** > **Transactions overview**.
 2. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
 
-The __Transaction details__ page displays the transaction status.
-
-Once your system receives a notification, it must retrieve the __transaction status__ from MultiSafepay. The transaction status states whether the payment succeeded or failed, and provides the reason for failure.
-
 For information about transaction statuses, see [Test payment details](/faq/getting-started/test-payment-details/).
 
 ## Step 4: Set the notification URL
