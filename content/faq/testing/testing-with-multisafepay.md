@@ -77,9 +77,9 @@ If the notification URL field is empty, the notification URL from the transactio
 
 The transaction status must correspond in both the Offline actions in your MultiSafepay Test Control and your system.
 
-To check that we have successfully connected to your system and sent the status change notification, see __Offline actions__ section at the bottom of the page of any transaction.
-
 Once your system receives a notification, it must retrieve the __transaction status__ from MultiSafepay. The transaction status states whether the payment succeeded or failed, and provides the reason for failure.
+
+To check that we have successfully connected to your system and sent the status change notification, see __Offline actions__ section at the bottom of the page of any transaction.
 
 After your system has updated the transaction or order status, you can compare the information displayed within your MultiSafepay Test Control and your system for verification. If no error appears in the __Offline actions__ section, you have successfully established a connection between both environments.
 
