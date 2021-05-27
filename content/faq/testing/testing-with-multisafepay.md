@@ -47,7 +47,7 @@ If you are using a [custom-built integration](/guides/getting-started/#custom-bu
 
 ### Step 2: Complete the payment
 
-A unique payment URL is automatically generated where you can complete the payment.
+A unique payment URL is automatically generated where it is then possible for you to complete the payment.
 
 1. Enter test payment details or select a payment scenario for the payment method you are testing. See [Test payment details](/faq/getting-started/test-payment-details/). 
 2. Complete the test payment.
@@ -81,8 +81,7 @@ To check that we have successfully connected to your system and sent the status 
 
 Once your system receives a notification, it must retrieve the __transaction status__ from MultiSafepay. The transaction status states whether the payment succeeded or failed, and provides the reason for failure.
 
-After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within your MultiSafepay Test Control.
-
+After your system has updated the transaction or order status, you can compare the information displayed within your MultiSafepay Test Control and your system for verification. If no error appears in the __Offline actions__ section, you have successfully established a connection between both environments.
 
 ## Go live
 
