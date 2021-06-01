@@ -1,6 +1,6 @@
 ---
-title : "Refunding test payments"
-meta_title: "Refunding test payments - MultiSafepay Docs"
+title : "Testing refunds"
+meta_title: "Testing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
