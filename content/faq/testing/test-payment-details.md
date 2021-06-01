@@ -147,7 +147,7 @@ Sample statuses:
 
 {{< details title="Request to Pay" >}}
 
-Testing environment: You can test Request to Pay transactions through Deutsche Bank. In the **Bank** field, select **Demo Bank**. 
+Testing environment: You can test Request to Pay transactions through Deutsche Bank. In the **Bank** field > **Fill-in Demo Bank**. 
 
 Sample statuses:
 
