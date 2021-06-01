@@ -211,6 +211,10 @@ To enable AfterPay in your MultiSafepay Test Control, email the Integration Team
 
 {{< details title="Betaal per Maand" >}}
 
+To generate a test API key from AfterPay for authentication, create an AfterPay Sandbox account. See AfterPay - [Log in](https://developer.afterpay.io/auth/login). 
+
+The API key appears on the AfterPay **Account** page, which also specifies how long it is valid. The key is generated immediately, but you may need to refresh the page after a few seconds to display it. 
+
 Testing environment: You cannot test Betaal per Maand in MultiSafepay Test Control. When activating Betaal per Maand as a payment method in your live MultiSafepay Control, you can test it before going live.
 
 {{< /details >}}

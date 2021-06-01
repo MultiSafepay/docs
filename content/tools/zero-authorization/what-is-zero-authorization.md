@@ -26,7 +26,7 @@ _MultiSafepay would like to mention that these functions can be developed and ar
 * __Order status__: The order status indicates the status of the order. A zero authorization will always be _completed_. The order status is independent of the outgoing payment of the transaction.
 * __Transaction status__: The transaction status indicates the payment status of the transaction. A zero authorization will always be _completed_. Once the transaction status is _completed_, the amount of the transaction will be displayed as zero (in your designated currency) on your MultiSafepay balance. See below for the transaction status actions:
 
-The full [API documentation](/api/#order-status-authorized-transaction) on Manual Capture will assist in the implementation of the feature.
+To implement Zero Authorization, see API Reference - [Zero Authorization](/api/#zero-authorization).
 
 | Action                         | Order Status     | Transaction Status |   Description                                                      |
 |--------------------------------|------------------|------------------|--------------------------------------------------------------------|
