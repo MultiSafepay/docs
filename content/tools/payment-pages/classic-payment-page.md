@@ -16,7 +16,7 @@ Some payment methods are only supported on PayV2 pages. When we add new payment 
 PayV1 does **not** support the following payment methods:
 
 | Payment method category   | Payment methods     |
-|----------------|-------------------|----------- |
+|----------------|-------------------|
 |  Bank | Belfius, CBC, EPS, iDEALQR, ING Home'Pay, KBC, Request to Pay, Santander, SOFORT Banking, Trustly     |
 |  Billing Suite | AfterPay, in3, Klarna     |
 |  Wallet | Alipay, Apple Pay, JCB    |
