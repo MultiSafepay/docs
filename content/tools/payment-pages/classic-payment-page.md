@@ -22,7 +22,7 @@ PayV1 does **not** support the following payment methods:
 |  Wallet | Alipay, Apple Pay, JCB    |
 |  Prepaid cards | PaySafecard   |  
 
-**Note:** Bancontact QR codes will only work on the PayV2 page.
+**Note:** Bancontact QR codes only work on PayV2 pages.
 
 ### Faster request processing 
 Requests to and responses from the MultiSafepay server are processed much faster on PayV2 pages.
