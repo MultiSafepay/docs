@@ -88,6 +88,9 @@ The installation process is the same for the Magento Commerce version.
 {{< /details >}}
 
 ### Installation
+
+**Note:** First make sure you have [uninstalled the deprecated plugin](/integrations/ecommerce-integrations/magento2/faq/deleting-deprecated-plugin/).
+
 **1.** We recommend installing the meta-package using Composer:
 
 ``` 
