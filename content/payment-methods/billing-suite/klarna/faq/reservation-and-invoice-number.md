@@ -1,5 +1,5 @@
 ---
-title : "Reservation and invoice number"
+title : "Reservation and invoice numbers"
 meta_title: "Klarna - Reservation and invoice number - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
