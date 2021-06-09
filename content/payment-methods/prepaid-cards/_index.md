@@ -5,7 +5,7 @@ layout: 'block'
 meta_title: 'Prepaid cards - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Prepaid cards.svg'
-short_description: 'Conveniently allow your customers to pay using a wide range of prepaid debit cards.'
+short_description: 'Accept payments using prepaid debit cards'
 weight: 40
 data:
   - { title: 'Paysafecard', url: 'paysafecard', logo: '/logo/Payment_methods/Paysafecard.svg' }

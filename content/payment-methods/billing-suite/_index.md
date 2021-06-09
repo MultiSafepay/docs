@@ -1,11 +1,11 @@
 ---
-title: 'Billing Suite'
-breadcrumb_title: "Billing Suite"
+title: 'Billing suites'
+breadcrumb_title: "Billing suites"
 layout: 'block'
-meta_title: 'Billing Suite - MultiSafepay Docs'
+meta_title: 'Billing suites - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Billing Suite.svg'
-short_description: 'Our advanced MultiSafepay Billing Suite offers a range of post-payment solutions suitable for your needs.'
+short_description: 'Accept payments with post-payment solutions'
 weight: 30
 data:
   - { title: 'AfterPay', url: 'afterpay', logo: '/logo/Payment_methods/AfterPay.svg' }
