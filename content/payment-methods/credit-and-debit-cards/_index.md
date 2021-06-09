@@ -1,11 +1,11 @@
 ---
-title: 'Credit and Debit cards'
-breadcrumb_title: "Credit and Debit cards"
+title: 'Credit and debit cards'
+breadcrumb_title: "Credit and debit cards"
 layout: 'block'
-meta_title: 'Credit and Debit cards - MultiSafepay Docs'
+meta_title: 'Credit and debit cards - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Credit cards.svg'
-short_description: 'Accept credit and debit card payments allowing you to sell to your customers worldwide.'
+short_description: 'Accept credit and debit card payments worldwide'
 weight: 20
 data:
   - { title: 'Visa', url: 'creditcards', logo: '/logo/Payment_methods/VISA.svg' }
