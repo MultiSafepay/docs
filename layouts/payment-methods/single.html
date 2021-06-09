@@ -1,0 +1,94 @@
+{{ define "main"}}
+{{ if (not ( isset .Params "hideMenu" ))}}
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+{{end}}
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 id="{{ .Title}}">{{ .Title}}</h1>
+                    <hr class="separator">
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    {{ if .Params.description }}
+                    {{ .Params.description | markdownify }}
+                    {{ end }}
+                    {{ if or (isset .Params "github_url") (isset .Params "download_url") (isset .Params "changelog") }}
+                    <div class="row pt-5 pb-5">
+                        <div class="col small-vertical">
+                            {{ if isset .Params "github_url"}}
+                            <a class="secondary" href="{{.Params.github_url}}">View on GitHub</a>
+                            {{ end }}
+                            {{ if isset .Params "changelog" }}
+                            <a class="secondary" href="{{.Params.changelog}}">Changelog</a>
+                            {{ end }}
+                            {{ if isset .Params "download_url" }}
+                            <a class="primary download-button" href="{{.Params.download_url}}">Download</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="col-md-2">
+                    {{ if .Params.magento_image }}
+                    <img class="magento-certimage" src="{{ .Params.magento_image }}"
+                        alt="{{ .Params.magento_image_alt }}">
+                    {{ end }}
+                </div>
+            </div>
+            {{ if isset .Params "linktomarketing" }}
+            <div class="row">
+                <div class="col-9">
+                    {{ partial "linktomarketing" . }}
+                </div>
+            </div>
+            {{ end }}
+            <div class="row">
+                <div class="col-9">
+                    {{ .Content}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ if isset .Params "manual" }}
+      {{ partial "manual" . }}
+{{ end }}
+
+{{ if isset .Params "changelog" }}
+{{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
+{{ end }}
+
+{{ if isset .Params "buttons_under_text" }}
+{{ partial "buttons_under_text" . }}
+{{ end }}
+
+{{ if isset .Params "faq" }}
+{{ partial "single-faq" . }}
+{{ end }}
+</div>
+
+{{ if isset .Params "newsletter" }}
+{{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
+{{end}}
+
+<script src="{{ "/js/scroll-offset.js" | relURL }}"></script>
+<script src="{{ .Site.BaseURL }}js/tocbot.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/scroll-menu.js"></script>
+{{ end }}

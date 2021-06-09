@@ -1,0 +1,17 @@
+<div class="row mb-5">
+    <div class="col-lg-9 mb-5">
+        {{ .Params.intro_description }}
+    </div>
+    <div class="col-lg-3 mb-5">
+        <a href="{{ .Params.linktomarketing }}" class="row block-item mx-1 px-4 py-4">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="{{ .Params.logo }}" class="img-fluid" style="height: 35px;" alt="{{ .Title }}" />
+            </div>
+            <div>
+                <div class="block-item__title my-auto">
+                    <p class="my-auto" style="font-size: 1.4rem">See how {{ .Params.title }} can help your business</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
