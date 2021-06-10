@@ -80,5 +80,9 @@ A text which will be shown with the order in MultiSafepay Control. If the custom
 
 ----------------
 
+__close_window__ | bool
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
 The rest of the fields are optional.
 {{% /description %}}
