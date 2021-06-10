@@ -7,7 +7,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders
 
 ```shell
-
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
@@ -36,8 +35,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-
-
 ## Apple Pay
 Creates an Apple Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
@@ -122,6 +119,4 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 
 Read more about [Apple Pay](/payment-methods/wallet/applepay) on our documentation page.
-
 {{< /description >}}
-
