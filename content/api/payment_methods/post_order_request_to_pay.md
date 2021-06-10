@@ -197,6 +197,14 @@ Customer will be redirected to this page after a failed payment.
 
 ----------------
 
+__close_window__ | bool
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
+
+----------------
+
+
+
 
 
 ### Direct - Request to Pay

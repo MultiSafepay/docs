@@ -98,6 +98,9 @@ __customer__ | object
 
 ----------------
 
+__close_window__ | bool
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
 
 After placing the order, you will receive 2 links as response on a successfull Bancontact QR request: a payment link and a qr_url. This qr_url contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point.
 

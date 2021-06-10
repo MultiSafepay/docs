@@ -128,6 +128,10 @@ Customer’s provided email address. Used to send Second Chance emails and in fr
 
 ---------------- 
 
+__close_window__ | bool
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
+
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
 The gateway names of the standard gift cards MultiSafepay offers

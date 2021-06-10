@@ -192,6 +192,10 @@ Contains the personal information of the customer. _Values for first_name and la
 
 ----------------
 
+__close_window__ | bool
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
+
 Read more about [Alipay](/payment-methods/alipay) on our documentation page.
 
 

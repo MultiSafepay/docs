@@ -115,6 +115,10 @@ __ip_address__ | string
 
 ----------------
 
+__close_window__ | bool
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
