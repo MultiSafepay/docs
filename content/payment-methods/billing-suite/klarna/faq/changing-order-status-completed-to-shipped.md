@@ -3,6 +3,7 @@ title : "Changing order status from Completed to Shipped"
 meta_title: "Klarna - Changing order status from Completed to Shipped - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+weight: 1
 ---
 
 Klarna does not support auto-ship functionality, so after you ship the order to the customer, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring, and lets Klarna initiate the billing process with the customer and pay the transaction out to your MultiSafepay balance. You can do this:

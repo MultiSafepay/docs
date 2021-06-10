@@ -6,3 +6,5 @@ read_more: "."
 ---
 
 Klarna lets you customise the styling and layout of all invoices you send to customers via your Klarna Merchant Account. For support, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/).
+
+**Note:** You can no longer view PDF invoices in your MultiSafepay Control. 
