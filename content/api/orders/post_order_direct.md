@@ -168,7 +168,7 @@ If the payment fails, the customer is redirected to this page.
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
 
 ----------------
 
