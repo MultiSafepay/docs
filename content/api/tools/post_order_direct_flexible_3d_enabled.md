@@ -188,7 +188,7 @@ URL that is used to instruct the card issuer where to redirect the authorisation
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
 
 ----------------
 
