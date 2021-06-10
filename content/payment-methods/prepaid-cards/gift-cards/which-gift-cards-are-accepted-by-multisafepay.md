@@ -2,8 +2,9 @@
 title : "Which gift cards are accepted by MultiSafepay?"
 weight: 25
 meta_title: "Gift cards, which are accepted? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/]
 ---
 ## Accepted gift cards
 Before applying for a gift card, check with your account manager at MultiSafepay if you are eligible for the payment method. Also check whether your ecommerce platform supports the requested.
@@ -17,15 +18,18 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Fashiongiftcard
 * Fietsenbon 
 * Gezondheidsbon 
+* Good4fun
 * Nationale Tuinbon
 * Parfumcadeaukaart 
 * Podium
 * Sport & Fit 
 * VVV Cadeaukaart 
-* Webshop gift card 
+* Webshop Giftcard*
 * Wellness gift card 
 * Wijncadeau 
 * Winkelcheque 
-* YourGift  
+* YourGift
 
-Would you rather be offering a personalized gift card to your customers? Read more about [Branded / Personalized gift cards](/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card) on our documentation page.
+_**Webshop Giftcard** no longer offers [open-loop gift cards](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) (can be redeemed at multiple retailers). To exchange existing open-loop gift cards for [closed-loop gift cards](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop) (for a specific retailer), see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
+
+For information about custom gift cards for your own brand, see [Custom gift cards](/payment-methods/prepaid-cards/gift-cards/custom-gift-cards).

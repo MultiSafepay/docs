@@ -2,7 +2,7 @@
 title: 'Email template, body and HTML'
 weight: 7
 meta_title: "Email Template HTML - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
@@ -32,9 +32,9 @@ A few examples of the placeholders you can use are: amount of the order, first a
 ## Adding your own logo to the E-mail template
 With our template editor, it is possible to add your own logo to the e-mail. This will personalize the e-mail and also makes the e-mail recognizable for your customers. If you want to upload the your image to your merchant panel, go to the following link: merchant.multisafepay.com/payment-page-templates
 
-1. Navigate to Settings --> Email templates --> Click on the desired website --> Click on the orange pen icon to edit the template
+1. Navigate to Settings > Email templates > Click on the desired website > Click on the orange pen icon to edit the template
 2. Press on the Image icon in the first row of the editor to open the Image-properties window
-3. Retrieve the link of your uploaded logo image and fill in your Account ID and the filename of the uploaded image using the following URL: https://payv2.multisafepay.com/files/{{accountid}}/{{filename}
+3. Retrieve the link of your uploaded logo image and fill in your Account ID and the filename of the uploaded image using the following URL: media.multisafepay.com/merchants/{accountid}/{filename}. Alternatively, navigate to the files section where you uploaded the file and click the _Copy to clipboard_ button in the _Actions_ column on the right.
 4. Add the URL in the URL field and press OK. It is possible to configure additional parameters such as Height, Border, HorizontalSpace, VerticalSpace and alignment of the image.
 
 

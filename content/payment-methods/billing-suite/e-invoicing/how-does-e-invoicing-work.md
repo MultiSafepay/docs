@@ -2,20 +2,21 @@
 title : "E-Invoicing, How it works"
 weight: 21
 meta_title: "E-Invoicing, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/e-invoicing/how-does-e-invoicing-work/]
 ---
-# How it works
+## How it works
 Once E-Invoicing is activated in your MultiSafepay Control, you will need to set it up correctly. Firstly, an action needs to be created. An action will be set as email, text or letter. Multiple actions will become a collection flow. 
 
 A collection flow needs to be linked to a website to be activated. When the collection flow is activated, E-Invoicing will be ready for use as payment method. 
 
 The layout and creation of the email template is entirely your responsibility. You can design the collection flow based on your preferences and personalization requirements. In our email templates, you can use the tokens between @@. Further information is available on our [email template token](/tools/multisafepay-control/email-template-token) page.
 
-## Create action
+### Create action
 Each action needs to created following these steps: 
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing -> Action_
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) and navigate to _E-Invoicing > Action_
 2. Click on  _Add new template_
 3. Select delivery option(s) _email address, SMS or Letter_
 4. Provide a description. _Example: NL 1st invoice_
@@ -29,7 +30,7 @@ Each action needs to created following these steps:
 
 Example plain body:      
 
-```shell  
+``` shell
 Date: @CURRENTDATE@ 
 Order number: @DESCRIPTION@
 
@@ -42,7 +43,7 @@ Thank you for your order at @SITENAME@.
 Details of your order:
 @CONTENT@
 
-We kindly request you to pay the invoice for @ DUE_DATE @.
+We kindly request you to pay the invoice for @DUE_DATE@.
 
 Complete your payment using the payment link below
 @PAYLINK@ 
@@ -60,13 +61,13 @@ Your name
 Finance
 
 __
-For questions about your order, please contact our customer service via 0208500500 or example@email.nl
+For questions about your order, call customer service on 0208500500 or email example@email.nl
 ```
  
-## Create collection flow
+### Create collection flow
 Now that the actions have been created, you can follow these steps to create a collection flow:
 
-1. Navigate to _E-Invoicing -> Workflows_
+1. Navigate to _E-Invoicing > Workflows_
 2. Select _Create new_
 3. In the _Settings_ you can select a template when available 
 4. Provide a name for the collection flow in the _Description_. Example: B2B Netherlands
@@ -86,22 +87,22 @@ Now that the actions have been created, you can follow these steps to create a c
 16. _Save flow_.
 
 
-## Getting started
+### Getting started
 After creating the actions and setting the collection flow, you will be able to use E-Invoicing.
 
 Good to know about the payment method E-Invoicing: 
 
-* Every successful E-Invoicing transaction will be visible in your MultiSafepay Control under _E-Invoicing -> Invoices_. A clear overview on the outstanding transactions 
+* Every successful E-Invoicing transaction will be visible in your MultiSafepay Control under _E-Invoicing > Invoices_. A clear overview on the outstanding transactions 
 
-* You can generate a personalized E-Invoice in your MultiSafepay Control. Produce an E-Invoice in your account for your customer under _E-Invoicing -> E-Invoicing Generator_. The Invoice created will be sent to the email address supplied. 
+* You can generate a personalized E-Invoice in your MultiSafepay Control. Produce an E-Invoice in your account for your customer under _E-Invoicing > E-Invoicing Generator_. The Invoice created will be sent to the email address supplied. 
 
-* When E-Invoicing is being used for subscription payment, it is possible to generate a batch of transactions with the payment method E-Invoicing. Go to _E-Invoicing -> Batches_. Upload a file in .xls, .xlsx or .csv format. Use the template available in your MultiSafepay Control as example.
+* When E-Invoicing is being used for subscription payment, it is possible to generate a batch of transactions with the payment method E-Invoicing. Go to _E-Invoicing > Batches_. Upload a file in .xls, .xlsx or .csv format. Use the template available in your MultiSafepay Control as example.
 
-## Delivery address
+### Delivery address
 
-MultiSafepay can enable support for different delivery and invoice addresses upon request. Please contact your account manager for more information.
+Email requests to support different delivery and invoice addresses to your account manager at <sales@multisafepay.com>
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
@@ -130,7 +131,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The full API reference for E-Invoicing can be found [here](/api/#e-invoicing)
 
-## Product Rules
+### Product Rules
 Some rules may apply to certain payment methods. For E-Invoicing, the following rules apply:
 
 * Refunding more than the stated amount of the original transaction is NOT possible with E-Invoicing. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
@@ -142,5 +143,4 @@ Some rules may apply to certain payment methods. For E-Invoicing, the following 
 
 * As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. E-Invoicing). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
-
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. E-Invoicing). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.

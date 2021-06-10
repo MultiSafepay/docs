@@ -2,12 +2,11 @@
 {{ if .IsHome }}
     {{ partial "header" .}}
 {{ end }}
-<div class="header-background-home">
+<div class="header-background-home" style="max-height: 400px;">
     <div>
         <div class="container">
             <h1 class="header__title">{{ .Title }}</h1>
-            <hr class="separator">
-            <p class="text-white">Find out everything you need to know from Integration to Frequently Asked Questions.</p>
+            <p class="text-white pt-2">Explore our products and services. Build and test your payments integration.</p>
             {{ partial "search_form" . }}
         </div>
     </div>

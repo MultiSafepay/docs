@@ -18,12 +18,41 @@ body {
 
 /**********************/
 
-h1, h2, h3, h4, h5, h6 {
+p {
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+}
+
+h2 {
+	color: #085b80;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	color: #454545;
+	margin-top: 4rem;
+	margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+h4 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+h1, h4, h5, h6 {
     color: #232323;
 }
 
 a, a:hover {
     color: #008DCB;
+}
+
+ol, ul {
+	margin-bottom: 2rem;
 }
 
 .header-background-home {
@@ -141,11 +170,11 @@ div.msp-app-text p:last-child {
 
 /***** RESPONSIVE DIAGRAMS *****/
 
-.mobile {display: none;}
+.mobile-svg {display: none;}
 
 @media screen and (max-width: 991px){
-    .large {display: none;}
-    .mobile {display: block;}
+    .desktop-svg {display: none;}
+    .mobile-svg {display: block;}
 }
 
 /*********** FOOTER ***********/
@@ -483,6 +512,7 @@ ol.breadcrumb {
     height: 5px;
     background: #3fa9f5;
     margin-left: 0;
+	margin-bottom: 3rem;
 }
 
 /******** LIST ********/
@@ -567,6 +597,10 @@ img.plugin-logo {
 
 img.magento-certimage {
     margin-left: 5rem;
+}
+
+img.magento_badge {
+    margin-right: 1rem;
 }
 
 /********* NEWSLETTER  *************/
@@ -1087,10 +1121,6 @@ div#results a:hover {
     cursor: zoom-out;
 }
 
-p {
-    margin-bottom: 1.6rem;
-}
-
 .payment-detail table {
     margin-bottom: 1em;
     overflow: auto
@@ -1199,10 +1229,10 @@ p {
 
 .alert-notice {
     position: relative;
-    padding: .75rem 1.25rem;
+    padding: 1rem 1.25rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 1rem;
     color: #856404;
     background-color: #fff3cd;
     border-color: #ffeeba;
@@ -1211,8 +1241,18 @@ p {
     line-height: 1.5;
 }
 
-p {
+.blue-notice {
+    position: relative;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    color: #175C9B;
+    background-color: #DFEBF6;
+    border-color: #DFEBF6;
+    font-size: 1.6rem;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 #changelog {
@@ -1488,3 +1528,112 @@ h6 {
     display: none;
 }
 
+.max-width {
+    max-width: 100%;
+    height: auto;
+}
+
+.small-img {
+    max-width: 500px;
+    max-height: 300px;
+    object-fit:scale-down;
+}
+
+.medium-img {
+    max-width: 400px;
+    object-fit:scale-down;
+}
+
+.img-shadow {
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.mobile-radius {
+    border-radius: 30px;
+}
+
+.desktop-radius {
+    border-radius: 5px;
+}
+
+
+/* CODE BLOCKS */
+
+.copy-code-button {
+    color: #272822;
+    background-color: #F6F6F6;
+    border-radius: 1rem 1rem 0px 0px ;
+    border: none;
+
+    /* right-align */
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+    margin-bottom: -2px;
+    padding: 3px 12px;
+    font-size: 0.9em;
+}
+
+.copy-code-button:hover {
+    cursor: pointer;
+    background-color: #E6E6E6;
+}
+
+.copy-code-button:focus {
+    /* Avoid an ugly focus outline on click in Chrome,
+       but darken the button for accessibility.
+       See https://stackoverflow.com/a/25298082/1481479 */
+    background-color: #E6E6E6;
+    outline: 0;
+}
+
+.copy-code-button:active {
+    background-color: #E6E6E6;
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}
+
+/* Not chroma selector is added to protect the API styling */
+pre:not(.chroma) {
+    background-color: #F6F6F6;
+    color: #4D4D4D;
+    border-radius: 1rem 0px 1rem 1rem;
+    padding: 2rem 3rem;
+}
+
+p code, td code {
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+/* Collapse-header */
+
+.collapse-header:hover {
+	color: #008DCB;
+	cursor: pointer;
+}
+
+.no-decoration , .no-decoration:hover{
+    text-decoration: none!important;
+    color: #000000;
+}
+
+details {
+	background-color: #f2f7fc;
+	border-radius: 10px;
+	padding: 1rem 1rem;
+	margin: 2rem 0;
+}
+
+details > summary {
+	color: #008DCB;
+}
+
+details > table > tbody > tr {
+	background-color: blue;
+}

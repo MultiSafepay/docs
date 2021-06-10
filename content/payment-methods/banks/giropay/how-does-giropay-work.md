@@ -2,8 +2,9 @@
 title: "How does Giropay work?"
 weight: 21
 meta_title: "How does Giropay work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/giropay/how-does-giropay-work/]
 ---
 ## How does it work?
 A customer chooses to pay with Giropay, selects their bank from the list of participants, authenticates their account and confirms the payment. Once a payment is completed, the payout is guaranteed and can not be reversed by the customer.

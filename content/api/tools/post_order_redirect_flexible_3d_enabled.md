@@ -58,13 +58,13 @@ weight: 1350
 {{< description >}}
 ### Redirect, Flexible 3D set on _true_ 
 
-It is mandatory to enable Flexible 3D secure processing in this call, even when Dynamic 3D rules could set the settings to disable it.
+It is mandatory to enable Flexible [3D Secure(/faq/general/glossary/#3d-secure) processing in this call, even when Dynamic 3D rules could set the settings to disable it.
 
-Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
+Flexible 3D is a feature that allows you to enable/disable 3D Secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D Secure verification or not.
 
-When Flexible 3D is set on _true_, the authentication verification is mandatory to finalize and release a successful payment. Credit card transactions which are processed without the 3D Secure protocol, are now required to complete the 3D secure verification. Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that the payment will be enrolled with a 3D Secure authentication. 
+When Flexible 3D is set on _true_, the authentication verification is mandatory to finalize and release a successful payment. Credit card transactions which are processed without the 3D Secure protocol, are now required to complete the 3D Secure verification. Activating Flexible 3D Secure will override the rules of the Dynamic 3D settings, meaning that the payment will be enrolled with a 3D Secure authentication. 
 
-**__Please note__: Starting January 1st 2021, we no longer support [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d/) with merchants based in Europe due to PSD2 regulations.**
+**__Please note__: MultiSafepay no longer supports [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d) with merchants based in Europe due to PSD2 regulations.**
 
 **Parameters**
 
@@ -167,7 +167,7 @@ __gateway_info__ | object
 ----------------
 __flexible_3d__ | boolean
 
-True, enable the 3D secure authentication. False, disable the 3D secure authentication.
+True, enable the 3D Secure authentication. False, disable the 3D Secure authentication.
 
 ----------------
 __term_url__ | string

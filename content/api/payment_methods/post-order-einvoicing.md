@@ -1,7 +1,7 @@
 ---
 weight: 313
 meta_title: "API - Create E-invoicing order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 
@@ -263,8 +263,6 @@ Creates a E-invocing [Direct](/faq/api/difference-between-direct-and-redirect) o
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
 **Parameters**
 
 ----------------
@@ -313,11 +311,21 @@ __delivery__ | object
 Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
 
 ----------------
+
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.                                  
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+
+----------------
+
 __checkout_options__ | object
 
 Contains the definitions for the VAT class.
@@ -378,9 +386,6 @@ Creates an E-invoicing [Redirect](/faq/api/difference-between-direct-and-redirec
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
-
 **Parameters**
 
 ----------------
@@ -429,11 +434,21 @@ __delivery__ | object
 Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
 
 ----------------
+
 __shopping_cart__ | object
 
-Contains all order rules and applicable tax classes.                                  
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+
+----------------
+
 __checkout_options__ | object
 
 Contains the definitions for the VAT class.

@@ -2,11 +2,11 @@
 title: "Manual Capture, How it works"
 weight: 61
 meta_title: "Manual Capture, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
-MultiSafepay offers you the ability to capture credit card payments either [partially](/tools/manual-capture/partial-capture) or in [full](/tools/manual-capture/full-capture) from your customers. Thus, it is now possible to charge for a product or service once it has been shipped or consumed. This type of flexibility allows you to take control of your payments and match charges with shipments, whilst gaining trust from consumers.
+MultiSafepay offers you the ability to capture credit card payments either [partially](/tools/manual-capture/partial-capture) or in [full](/tools/manual-capture/full-capture) from your customers. Thus, it is now possible to charge for a product or service once it has been shipped or consumed. This type of flexibility allows you to take control of your payments and match charges with shipments, whilst gaining trust from customers.
 
 ## What are the features of Manual Capture?
 * **Control**: Greater control over authorization of payments, whereby funds can be collected at a later stage in full, partial or multiple captures.

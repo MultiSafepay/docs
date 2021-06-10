@@ -1,28 +1,41 @@
 <section id="whats-new-block" class="row pb-5 pt-4">
     <div class="col-md-12 pb-4">
-        <h2 class="whats-new-header pb-4">What's new?</h2>
+      <h2 class="whats-new-header pb-4">What's new</h2>
     </div>
+    <hr>
     <div class="col-md-6 pb-4">
-        <img class="whats-new-image" src="/svgs/PSD2.svg" alt="PSD 2 Logo">
+        <h3 class="pb-2">
+            Recent changes
+        </h3>
+       <table>
+            <tbody>
+            {{ range first 10 site.Data.changelog.entries }}
+            <tr>
+                <td style="width: 125px; padding-bottom: 1rem; float:inline-start" ><b>{{ .date}}</b></td>
+                <td style="padding-bottom: 1rem;">{{.change | markdownify }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+        </table>
+    
+
     </div>
     <div class="col-md-6 pb-4">
         <h3 class="pb-2">
-            PSD2 Update
+            PSD2 update
         </h3>
         <p class="pb-2">
-            <a href="/faq/payment-regulations/payment-service-directive-2">Payment Service Directive 2</a> (PSD2) is a set of laws and regulations established by the European Banking Authority.
-            PSD2 aims to improve the security of online payments within Europe.
+            The <a href="/faq/payment-regulations/payment-service-directive-2">Payment Service Directive 2</a> (PSD2) is a set of laws and regulations established by the European Banking Authority.
+            It aims to increase the security of online payments within Europe.
         </p>
         <p>    
-            One of the requirements of PSD2 is the use of <a href="/faq/payment-regulations/strong-customer-authentication">Strong Customer Authentication</a>
-             (SCA). This requirement ensures that online payments are performed with 
-            Two Factor Authentication (2FA). One of the protocols used to meet this requirement is called <a href="/faq/payment-regulations/3d-secure">3D Secure</a> (3DS).
+            PSD2 requires <a href="/faq/payment-regulations/strong-customer-authentication">Strong Customer Authentication</a>
+             (SCA) to ensure that online payments use 
+            Two Factor Authentication (2FA). One of the protocols we use to meet this requirement is <a href="/faq/payment-regulations/3d-secure">3D Secure</a> (3DS).
        
         </p>
         <p>
-            Starting January 1st 2021, the SCA requirement will officially be enforced.
-            Please read <a href="https://www.multisafepay.com/blog/understanding-strong-customer-authentication">our blog</a> for
-            more information on Strong Customer Authentication and what it means for your business.
+            For more information about SCA and what it means for your business, check out <a href="https://www.multisafepay.com/blog/understanding-strong-customer-authentication">our blog</a>.
         </p>
     </div>
 </section>

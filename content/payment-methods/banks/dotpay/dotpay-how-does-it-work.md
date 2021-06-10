@@ -2,8 +2,9 @@
 title: "Dotpay, How does it work?"
 weight: 21
 meta_title: "Dotpay, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/dotpay/dotpay-how-does-it-work/]
 ---
 ## How does it work?
 Dotpay is a payment method for Polish customers. Customers can choose their own bank in order to pay with Dotpay.

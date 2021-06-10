@@ -1,7 +1,7 @@
 ---
 weight: 610
 meta_title: "API - Transaction statuses - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 ```shell 
@@ -40,7 +40,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              
 
 ----------------
 __cancel_url__ | string
@@ -53,12 +53,12 @@ __notification_method__ | string
 Enables push notifications (POST,GET) default: GET.   
 
 ----------------
+
 __close_window__ | bool (optional)
 
 
 Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
-
 
 {{% /description %}}

@@ -2,14 +2,15 @@
 title: "How to refund a SEPA Direct Debit order"
 weight: 23
 meta_title: "SEPA Direct Debit, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/direct-debit/refund-direct-debit/]
 ---
 ## Request refund 
 Please follow these steps to refund a SEPA Direct Debit transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _Transactions -> Transaction overview_
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Select _Transactions > Transaction overview_
 3. Find the transaction through search
 4. Open the transaction
 5. Select _refund_

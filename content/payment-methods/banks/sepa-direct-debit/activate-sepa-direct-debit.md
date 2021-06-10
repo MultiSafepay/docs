@@ -2,8 +2,11 @@
 title: "How to activate SEPA Direct Debit"
 weight: 22
 meta_title: "SEPA Direct Debit, how to active it - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: 
+    - /payment-methods/direct-debit/activate-direct-debit/
+    - /payment-methods/banks/direct-debit/activate-direct-debit/
 ---
 ## Activate
 As SEPA Direct Debit poses certain risks, you will need to first apply before you can process transactions. Our Risk team will conduct a screening to determine whether you are eligible. 

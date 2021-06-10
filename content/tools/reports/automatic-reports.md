@@ -2,7 +2,7 @@
 title : "Automated Accountant Export"
 weight: 61
 meta_title: "Automated Accountant Export - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
@@ -12,9 +12,9 @@ An Accountant Export containing all successful incoming and outgoing transaction
 ## Sending an Automated Accountant Export
 As a MultiSafepay client, you can benefit from three ways of accessing/receiving the automated accountant export:
 
-1. Via email
-2. Via SFTP - Pull request _(With this method you will receive access to an SFTP server from MultiSafepay)_
-3. Via SFTP - Push request _(With this method MultiSafepay would like to receive access to an SFTP server from you)_.
+1. Via SFTP - Pull request _(With this method you will receive access to an SFTP server from MultiSafepay)_
+2. Via SFTP - Push request _(With this method MultiSafepay would like to receive access to an SFTP server from you)_.
+3. Transaction API using the [transactions API endpoint](/tools/transactions-api-endpoint/) (_The associated transaction costs are not included in the returned data_) 
 
 We support SFTP by username/password and username/SSH keys.
 
@@ -61,11 +61,18 @@ Automated Accountant Export activation checklist:
 * Costs breakdown per transaction OR total costs 
 
 
-Send the requested to our Integration Team via <integration@multisafepay.com> 
+Email the requested documents to the Integration Team at <integration@multisafepay.com> 
 
-_Don't forget to add your MultiSafepay Control number_.
+_Don't forget to add your Account ID which can be found in the dashboard of your MultiSafepay Control in the top right corner_.
+
+
 
 ## Whitelisting
 
 If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges)
 
+## Testing
+
+It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com)
+
+Exporting Klarna Payments reports is also included within this test mode.

@@ -116,15 +116,15 @@ weight: 1330
 
 ### Direct, Flexible 3D set on _false_
 
-Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
+Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/general/glossary/#3d-secure) at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D Secure verification or not.
 
 Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. Setting Flexible 3D to _false_ will disable the verfication process.
 
 The parameter flexible_3d is a property of gateway_info in the POST request.
 
-**Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
+**Activating Flexible 3D Secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
 
-**__Please note__: Starting January 1st 2021, we no longer support [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d/) with merchants based in Europe due to PSD2 regulations.**
+**__Please note__: MultiSafepay no longer supports [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d) with merchants based in Europe due to PSD2 regulations.**
 
 **Parameters**
 
@@ -176,7 +176,7 @@ Defines certain customer data (payment details).
 ----------------
 __flexible_3d__ | boolean
 
-True, enable the 3D secure authentication. False, disable the 3D secure authentication.
+True, enable the 3D Secure authentication. False, disable the 3D Secure authentication.
 
 ----------------
 __term_url__ | string

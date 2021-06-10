@@ -2,8 +2,9 @@
 title: "Trustly, How does it work?"
 weight: 21
 meta_title: "Trustly, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/trustly/how-does-trustly-work/]
 ---
 ## How it works
 When the customer selects Trustly as payment method, he/she needs to select the desired country.
@@ -39,18 +40,18 @@ The transaction status indicates the payment status of the transaction, such as 
 The full API reference for Trustly cards can be found [here](/api/#trustly)
 
 
-| Supported plugins                                                                                                                 | Version                      |
+| Supported ecommerce integration                                                                                                                  | Version                      |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------|  
-| [Magento 2](/integrations/magento2)                                                                                                   | Available from version 1.5.0 |  
-| [Magento 1](/integrations/magento1)                                                                                                   | Available from version 2.4.1 |
-| [WooCommerce](/integrations/woocommerce)                                                                                              | Available from version 3.2.0 |
-| [OpenCart](/integrations/opencart)                                                                                                    | Available from version 2.2.0 |
-| [PrestaShop 1.7](/integrations/prestashop-1-7)                                                                                        | Available from version 4.2.0 |
-| [CS-Cart](/integrations/cs-cart)                                                                                                      | Available from version 1.3.0 |
-| [Drupal 8](/integrations/drupal8)                                                                                                     | Available from version 1.0   |
+| [Magento 2](/integrations/ecommerce-integrations/magento2)                                                                                                   | Available from version 1.5.0 |  
+| [Magento 1](/integrations/ecommerce-integrations/magento1)                                                                                                   | Available from version 2.4.1 |
+| [WooCommerce](/integrations/ecommerce-integrations/woocommerce)                                                                                              | Available from version 3.2.0 |
+| [OpenCart](/integrations/ecommerce-integrations/opencart)                                                                                                    | Available from version 2.2.0 |
+| [PrestaShop 1.7](/integrations/ecommerce-integrations/prestashop-1-7)                                                                                        | Available from version 4.2.0 |
+| [CS-Cart](/integrations/ecommerce-integrations/cs-cart)                                                                                                      | Available from version 1.3.0 |
+| [Drupal 8](/integrations/ecommerce-integrations/drupal8)                                                                                                     | Available from version 1.0   |
 | [Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) | Available from version 2.0.2 |
-| [X-Cart](/integrations/x-cart)                                                                                                        | Available from version 2.2.0 |
-| [Shopify](/integrations/shopify)                                                                                                      | Available from Shopify       |
+| [X-Cart](/integrations/ecommerce-integrations/x-cart)                                                                                                        | Available from version 2.2.0 |
+| [Shopify](/integrations/ecommerce-integrations/shopify)                                                                                                      | Available from Shopify       |
 
 
 

@@ -2,7 +2,7 @@
 title: "How to refund an American Express transaction"
 weight: 23
 meta_title: "American Express, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 ## Request refund
@@ -10,7 +10,7 @@ The refund of a transaction with the payment method American Express can be proc
 
 Please follow these steps:
 
-1. Select _Transactions -> Transaction overview_
+1. Select _Transactions > Transaction overview_
 2. Find the transaction through search
 3. Open the transaction
 4. Select _refund_

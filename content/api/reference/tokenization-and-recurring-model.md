@@ -1,7 +1,7 @@
 ---
 weight: 603
 meta_title: "API - Tokenization & Recurring Model - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
@@ -10,11 +10,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 
-## Tokenization & Recurring Model
+## Tokenization and recurring model
 
-Tokenization is a the process of completely removing sensitive data from and companys' internal network by replacing it with a randomly generated, unique placeholder called a token.
-
-These tokens can be used to process recurring transactions.
+Tokenization is the process of storing encrypted payment details as tokens for future payments, e.g. recurring transactions.
 
 This section lists the API calls for different token scenarios and the required parameters.
 

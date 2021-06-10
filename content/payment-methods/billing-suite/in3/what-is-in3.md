@@ -2,13 +2,13 @@
 title: "in3, What it is"
 weight: 20
 meta_title: "in3, What it is - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
-# What it is
+## What it is
 
-With in3, you can allow consumers to pay for their purchases 'in 3' individual installments at no extra cost. Consumers using in3 are also not required to be registered at the BKR (Bureau Krediet Registratie).
+With in3, you can allow customers to pay for their purchases 'in 3' individual installments at no extra cost. Customers using in3 are also not required to be registered at the BKR (Bureau Krediet Registratie).
 
-| Payment type   | Payment flow     | Countries | Currencies | Refund options  | Recurring   | Chargebacks   |
+| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Pay After Delivery|Direct/Redirect|NL|EUR|Full/Partial|No|No|
+|Pay After Delivery | Direct/Redirect| NL|EUR|Full/Partial|No|No|

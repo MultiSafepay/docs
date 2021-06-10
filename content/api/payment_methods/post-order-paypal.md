@@ -1,7 +1,7 @@
 ---
 weight: 323
 meta_title: "API - Create a PayPal order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders 
@@ -65,6 +65,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "house_number": "39C",
         "zip_code": "1033SC",
         "city": "Amsterdam",
+        "state": "NH",
         "country": "NL",
         "phone": "0208500500",
         "email": "example@multisafepay.com",
@@ -93,6 +94,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "customer": {
       "address1": "Kraanspoor",
       "city": "Amsterdam",
+      "state": "NH",
       "country": "NL",
       "email": "example@multisafepay.com",
       "first_name": "Testperson-nl",
@@ -147,6 +149,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### Redirect - PayPal
 
 Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+
+{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status is set to _Completed_ and the financial status remains set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since the shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 
@@ -203,6 +207,12 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
+__state__ | string
+
+To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+
+----------------
+
 Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
 
 ### Direct - PayPal
@@ -255,6 +265,13 @@ __customer__ | object
 Contains the personal information of the customer. 
 
 ----------------
+
+__state__ | string
+
+To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+
+----------------
+
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 

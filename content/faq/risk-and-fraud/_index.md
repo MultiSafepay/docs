@@ -1,9 +1,9 @@
 ---
-title: 'Risk and Fraud'
+title: 'Risk and fraud'
 weight: 80
-meta_title: "FAQ Risk and fraud - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_title: "FAQ - Risk and fraud - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Risk and Fraud.svg'
 layout: 'faqplugins'
-short_description: "Learn more about how MultiSafepay prevents fraud and how you can update company information."
+short_description: "About how MultiSafepay prevents fraud and how to update company information"
 ---

@@ -2,8 +2,9 @@
 title : "How to refund a Pay After Delivery transaction"
 Weight: 23
 meta_title: "Pay After Delivery, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/pay-after-delivery/refund-pay-after-delivery/]
 ---
 ## Request refund
 Please follow these steps to refund a Pay After Delivery transaction:
@@ -40,15 +41,13 @@ When you do not want to deduct an item but would like to submit an amount instea
 
 1. Select _refund order_
 2. _edit_
-3. Add the discount as a new page in the checkout editor - for example _-1 -> discount -> amount  -> VAT_
+3. Add the discount as a new page in the checkout editor - for example _-1 > discount > amount  > VAT_
 4. Add the new order line to the order to deduct the amount given as a discount
 5. _Save_.
 
-#### Complete own funds 
-When the transaction is marked with the status shipped, it is no longer possible to cancel the order. You can, however, close the transaction through the _complete own funds_.      
 **Example:**      
 
-When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_, see further information in [full order refund](/payment-methods/pay-after-delivery/#full-order-refund) 
+When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_, see further information in [full order refund](/payment-methods/billing-suite/pay-after-delivery/#request-refund) 
 
 This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
 
@@ -62,5 +61,5 @@ This way you credit the invoice to a zero amount and the customer will no longer
 8. The funds will be deducted from your MultiSafepay balance
 9. The invoice has been settled
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins) for more information.
+In most ecommerce integrations you can also refund. See the corresponding [ecommerce integration FAQ](/integrations/ecommerce-integrations) for more information.
 

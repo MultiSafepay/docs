@@ -2,8 +2,9 @@
 title: "Paysafecard, How it works"
 weight: 21
 meta_title: "Paysafecard, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/paysafecard/how-does-paysafecard-work/]
 ---
 ## How it works
 Paysafecard is a prepaid online payment method based on vouchers with a 16-digit PIN code, independent of bank account, credit card or other personal information. Customers can purchase vouchers at local sales outlets and pay online by entering the code at the checkout of the respective website.

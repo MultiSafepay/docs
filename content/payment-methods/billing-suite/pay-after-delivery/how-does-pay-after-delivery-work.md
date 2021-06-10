@@ -2,9 +2,11 @@
 title : "Pay After Delivery, How it works"
 weight: 21
 meta_title: "Pay After Delivery, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/pay-after-delivery/how-does-pay-after-delivery-work/]
 ---
+
 ## How it works
 Pay After Delivery is a payment method developed and managed by our own MultiSafepay developers. Therefore, the payout of the transaction is guaranteed by MultiSafepay.
 
@@ -14,25 +16,17 @@ When an uncleared Pay After Delivery is received, no action is required. Our sup
 
 The customer has 14 days to complete the payment transaction after receiving the invoice from MultiFactor.
 
-_If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
-
-### Shipped status
-When receiving a Pay After Delivery transaction, it is important to take the following steps:
-
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _completed_ to _shipped_.  You can adjust the order status in the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status. Not changing the status to _shipped_ can result in the expiration of the order. If you do not change the order status to _shipped_, the order will eventually expire.
-
-* Changing the status to _shipped_ allows Pay After Delivery to initiate the billing process towards the customer. MultiSafepay will guarantee the payout of the transaction.
-
-The _shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
-
+For more information about minimum and maximum order amounts for your website, email your account manager at <sales@multisafepay.com>
 
 **Complete own funds**      
-When the transaction is marked with the _shipped_ status, it is no longer possible to cancel the order. You can, however, close the transaction through the _complete own funds_.      
+When the transaction is marked with the _Shipped_ status, it is no longer possible to cancel the order. You can, however, close the transaction through the _Complete own funds_.        
 
 **Example:**      
 In some cases, the customer pays the outstanding amount of the transaction directly to the webshop. This allows you to link the received payment to the outstanding transaction through _Complete own Funds_. Hereby you complete the outstanding transaction. The total amount of the transaction is deducted from your MultiSafepay balance and the transaction is finalized. 
 
-When the customer has not supplied a payment, the transaction can be cancelled by _refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order. 
+When the customer has not supplied a payment, the transaction can be cancelled by _Refund completed order_. This way you credit the invoice to a zero amount and the customer will no longer receive a reminder of the order.
+
+If a customer pays an outstanding amount for a transaction directly to you, then you will need to notify MultiSafepay of this fulfillment in payment. It is important that you notify us, otherwise we may be forced to initiate contact with the customer directly in regards to the 'outstanding' amount which has already been paid.
 
 ### Payment flow
 As soon as your customer selects the payment method Pay After Delivery, he or she agrees with the terms and conditions. 
@@ -104,11 +98,20 @@ Some rules may apply to certain payment methods. For Pay After Delivery, the fol
 
 * Pay After Delivery transactions are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-* Currently, Pay After Delivery is only offered in the Netherlands
+* Pay After Delivery is only offered in the Netherlands
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Pay After Delivery). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
+* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Pay After Delivery). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
 
+## The 'Shipped' status
+When receiving an order paid for with Pay After Delivery, it is important to keep a number of things in mind.
 
+Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our [ecommerce integrations](/integrations/ecommerce-integrations).
+
+ You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
+
+Changing the status to _Shipped_ allows Pay After Delivery to initiate the billing process towards the customer. Pay After Delivery will guarantee the payout of the transaction.
+
+The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 

@@ -1,50 +1,52 @@
 api
-api key
 API Key
 api KEY
-webshop admin
+api key
 back-office
-admin
-Working days
+Bank Transfer
+Bank transfer
+banktransfer
 Charge back
-login details
 creditcard
 e-commerce
 e-mail
-fulfil
+email tags
 giftcard
+Github
 Google Play Store
+Hosted Payment page
+Integration team
 integration Team
 integration team
-Integration team
+login details
 Magento1
 Magento2
-webshop owner customer
-multicurrency
-multisafepay
-Multisafepay
-Merchant Control
 Merchant Back-office
-MultiSafepay Merchant Control
-MultiSafepay Control Panel
+Merchant Control
 Merchant Control Panel
+Merchant ID
+MerchantID
+multicurrency
+Multisafepay
+MultiSafepay Control app
+MultiSafepay Control Panel
+MultiSafepay Merchant Control
 MultiSafepay Panel
-Partner dashboard
-Hosted Payment page
-extension
-plug-in
-second chance
-Second chance
-email tags
 normally
-url
-webstore
-web shop
-webwinkel
-shop
+one page checkout
+One Step Checkout
 online shop
-postpay
+Partner dashboard
+plug-in
 post Pay
-screening@multisafepay.com
-banktransfer
-Github
+postpay
+screening
+Second chance
+second chance
+url
+web shop
+webshop admin
+webshop owner customer
+webstore
+webwinkel
+Working days

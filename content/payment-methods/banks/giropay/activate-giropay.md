@@ -2,14 +2,15 @@
 title: "How to activate Giropay?"
 weight: 22
 meta_title: "How to activate Giropay - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/giropay/activate-giropay/]
 ---
 ## Activate
 Giropay is a standard payment method. 
 
-Giropay can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings -> payment methods_.
+Giropay can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _settings > payment methods_.
 
 Enable Giropay as a payment method in your ecommerce platform to finalize the activation.
 
-If you have any questions, feel free to contact our Integrations team at <integration@multisafepay.com>
+For any questions, email the Integration Team at <integration@multisafepay.com>

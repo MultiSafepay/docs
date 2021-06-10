@@ -2,8 +2,9 @@
 title: "How to test a gift card?"
 weight: 24
 meta_title: "Gift card, how do i test it? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/gift-cards/test-gift-cards/]
 ---
 ## Testing a gift card
 There is no test data available or provided by the issuer of the gift card to test a gift card in a staging or test environment.

@@ -1,7 +1,7 @@
 ---
 weight: 313
 meta_title: "API - Create Dotpay order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 
@@ -98,5 +98,6 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [Dotpay](/payment-methods/dotpay) on our documentation page.
+Read more about [Dotpay](/payment-methods/banks/dotpay) on our documentation page.
+
 {{< /description >}}

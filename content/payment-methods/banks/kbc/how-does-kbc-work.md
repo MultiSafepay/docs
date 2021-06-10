@@ -2,8 +2,9 @@
 title: "KBC, How does it work?"
 weight: 21
 meta_title: "KBC, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+aliases: [/payment-methods/kbc/how-does-kbc-work/]
 ---
 ## How it works
 KBC is a banking payment method that allows KBC customers to pay directly using their KBC bank account. KBC is similar to any bank payment. A customer chooses to pay with KBC, authenticates their account, and confirms to pay.

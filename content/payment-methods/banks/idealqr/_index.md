@@ -2,10 +2,11 @@
 title: 'iDEAL QR'
 weight: 20
 meta_title: "Payment methods iDEAL QR - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/iDeal_QR.svg' 
 short_description: 'Easily receive payments with a simple scan of an iDEAL QR code.'
 aliases:
     - /support-tab/magento2/payment-methods/idealqr
+    - /payment-methods/idealqr/
 ---

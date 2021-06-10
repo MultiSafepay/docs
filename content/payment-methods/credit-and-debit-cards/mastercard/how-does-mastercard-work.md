@@ -2,11 +2,11 @@
 title: "Mastercard, How does it work?"
 weight: 21
 meta_title: "Mastercard, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 ## How it works
->Mastercard payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Mastercard payment. Submit your request to enable credit cards (Visa, Mastercard, American Express and Maestro) to your account manager or contact us at <sales@multisafepay.com>
+>Mastercard payments are processed as credit card payments. To enable credit card payments in your MultiSafepay Control, email your account manager at <sales@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways a Mastercard transaction can be processed.
@@ -51,4 +51,4 @@ Some rules may apply to certain payment methods. For Mastercard, the following r
 * If you refund the transaction (partially) on the same day this is called a reversal. To keep things easy manageable in your reporting, this is logged as a refund. However, your customers might experience otherwise: the transaction in their overview will be adjusted to the new amount (partial reversal) of the order __or__ is not debited at all (full reversal).
 
 
-    If a different currency is desired, contact our support department for the possibilities. Submit your request at <support@multisafepay.com>
+    If a different currency is desired, contact our support department for the possibilities. Email your request to <support@multisafepay.com>

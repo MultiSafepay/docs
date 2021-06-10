@@ -1,0 +1,10 @@
+<div>
+	<details>
+		<summary>
+			{{ .Get "title" }}
+		</summary>
+		<p>
+			{{ .Inner | markdownify }}
+		</p>
+	</details>
+</div>

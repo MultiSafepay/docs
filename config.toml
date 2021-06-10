@@ -27,6 +27,13 @@ key = "shell"
 name = "Shell"
 
 # Menu config
+
+[[menu.main]]
+    name = "Getting started"
+    url  = "/guides/getting-started/"
+    pre = "fa fa-rocket fa-lg"
+    weight = 1
+
 [[menu.main]]
     name = "Integrations"
     url  = "/integrations/"
@@ -35,8 +42,8 @@ name = "Shell"
     weight = 10
 
 [[menu.main]]
-    name = "Plugins"
-    url  = "/integrations/plugins"
+    name = "Ecommerce integrations"
+    url  = "/integrations/ecommerce-integrations"
     parent = "integrations"
     weight = 10
 
@@ -47,28 +54,22 @@ name = "Shell"
     weight = 10
 
 [[menu.main]]
-    name = "Hosted Plugins"
-    url  = "/integrations/hosted"
-    parent = "integrations"
-    weight = 20
-
-[[menu.main]]
-    name = "Wrappers & SDK"
+    name = "Wrappers and SDKs"
     url  = "/integrations/wrappers"
     parent = "integrations"
     weight = 40
 
 [[menu.main]]
-    name = "Accounting and Bookkeeping"
-    url  = "/integrations/accounting-and-bookkeeping"
+    name = "Cash register software"
+    url  = "/integrations/cash-register-software"
     parent = "integrations"
     weight = 60
 
 [[menu.main]]
-    name = "Cash Register Software"
-    url  = "/integrations/cash-register-software"
+    name = "Payment Components"
+    url  = "/integrations/payment-components"
     parent = "integrations"
-    weight = 60
+    weight = 45
 
 [[menu.main]]
     name = "Community"
@@ -77,19 +78,19 @@ name = "Shell"
     weight = 50
 
 [[menu.main]]
-    name = "Credit & Subscription Management"
+    name = "Credit and subscription management"
     url  = "/integrations/credit-and-subscription-management"
     parent = "integrations"
     weight = 50
 
 [[menu.main]]
-    name = "Reservation Management"
+    name = "Reservation management"
     url  = "/integrations/reservation-management/"
     parent = "integrations"
     weight = 50
 
 [[menu.main]]
-    name = "FAQ"
+    name = "FAQs"
     url  = "/faq/"
     pre = "fa fa-question-circle-o fa-lg"
     weight = 30
@@ -101,7 +102,7 @@ name = "Shell"
     weight = 40
 
 [[menu.main]]
-    name = "API"
+    name = "API Reference"
     url  = "/api/"
     pre = "fa fa-code fa-lg"
     weight = 20

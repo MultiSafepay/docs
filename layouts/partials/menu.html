@@ -26,7 +26,7 @@
                                 {{ .Name }}
                             </a>
                         </span>
-                        {{ if and (eq $currentPage.Title "API") (eq .Name "API") }}
+                        {{ if and (eq $currentPage.Title "API Reference") (eq .Name "API Reference") }}
                             <ul>
                                 <li {{if in ($.Scratch.Get "path") .URL }}class="Selected"{{end}}>
                                 </li>
@@ -74,22 +74,18 @@
                 {
                     position: "top",
                     content: [
-                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search documentation..."type="text"role="combobox"disabled="disabled"/>'
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
                     ]
                 },
                 {
                     content: ['prev', 'breadcrumbs']
-                },
-                {
-                    position: 'bottom',
-                    content: ['<div class="menu-buttons"><a href="https://www.multisafepay.com/contact/merchant-support" class="outline bg-white text-dark" >Contact</a><a href="https://merchant.multisafepay.com/signup" class="primary text-white"><img class=signup src="/svgs/Login.svg"></img>Sign up</a></div>']
                 },
             ],
             searchfield: {
                 clear: true,
                 search: false,
                 showTextItems: true,
-                placeholder: "Search documentation..."
+                placeholder: "Search"
 		    }
         },
         {

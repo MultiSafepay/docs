@@ -1,7 +1,7 @@
 ---
 weight: 130
 meta_title: "API - Gateway issuers - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
@@ -53,12 +53,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "description": "Knab"
     },
     {
-      "code": "4371",
-      "description": "Bunq"
+      "code": "1099",
+      "description": "Revolut"
     },
     {
-      "code": "1234",
-      "description": "Moneyou"
+      "code": "4371",
+      "description": "Bunq"
     },
     {
       "code": "1235",
@@ -79,7 +79,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 __id__ | string
 
-The unique identifier of the payment gateway to retrieve an issuer list for. Currently supported identifiers are: [iDEAL](#ideal-issuers) 
+The unique identifier of the payment gateway to retrieve an issuer list for. Supported identifiers are: [iDEAL](#ideal-issuers) 
 
 ----------------
 
@@ -93,9 +93,9 @@ Direct iDEAL transactions can have the following Issuers:
 | 1235     | Handelsbanken         |
 | 0721     | ING                   |
 | 0801     | Knab                  |
-| 1234     | Moneyou               |
 | 0021     | Rabobank              |
 | 0771     | Regio Bank            |
+| 1099     | Revolut               |
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |
