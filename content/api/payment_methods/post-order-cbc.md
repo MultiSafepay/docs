@@ -208,9 +208,12 @@ Contains personal information about the customer.
 
 ---------------- 
 
-__close_window__ | bool
+__close_window__ | bool (optional)
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
 

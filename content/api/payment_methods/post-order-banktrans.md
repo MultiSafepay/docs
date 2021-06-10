@@ -238,9 +238,12 @@ Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-
 
 ----------------
 
-__close_window__ | bool
+__close_window__ | bool (optional)
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__

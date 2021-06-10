@@ -107,9 +107,12 @@ Contains the personal information of the customer.
 
 ----------------
 
-__close_window__ | bool
+__close_window__ | bool (optional)
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 Read more about [Trustly](/payment-methods/trustly) on our documentation page.
 
