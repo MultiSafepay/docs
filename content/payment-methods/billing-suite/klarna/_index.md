@@ -27,31 +27,13 @@ Klarna is an online post-payment method that lets customers pay for orders after
 
 ### Product rules
 
-{{< details title="Refunding more that the original transaction" >}}
-&nbsp;  
-You cannot refund more than the amount of the original transaction. 
-
-{{< /details >}}
-
-{{< details title="Time limit on refunds" >}}
-&nbsp;  
-There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
-
-{{< /details >}}
-
-{{< details title="Payment link lifetimes" >}}
-&nbsp;  
-You cannot [adjust payment link lifetimes](/faq/api/lifetime-of-a-payment-link).
-
-{{< /details >}}
-
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed. This is because, as the collecting party, Klarna requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Klarna requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 
-Customers can enter gift card details **before** placing the order, i.e. on your checkout page, before making the API request. You are solely responsible for enabling this feature. Failure to follow this rule so can produce unexpected errors and complications.
+Customers can enter gift card details **before** placing the order, i.e. on your checkout page, before the API request. You are solely responsible for enabling this feature. Failure to follow this rule so can produce unexpected errors and complications.
 
 {{< /details >}}
 
@@ -67,30 +49,37 @@ To successfully process partial refunds for the same product with different spec
 
 ## Payment flow
 
-### Transaction flow
-- Order status: indicates the status of the customer's order with the merchant independent of the payment
-- Transaction status: indicates the status of the payment    
+The table below shows the Klarna payment flow from start to finish.  
 
-| Order status                      | Transaction status      | Flow |
+In your MultiSafepay Control > **Transaction overview** > **Transaction details**, there are two statuses that change as the flow progresses: 
+
+- The order status indicates the status of the customer's order with the merchant independent of the payment.  
+- The transaction status indicates the status of the payment.
+
+| Order status                      | Transaction status      | | Flow |
+|--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
+| Uncleared   | Initialized  | 1. | The customer initiates a transaction on the Klarna payment page. {{< br >}} See also [Reservation and invoice numbers](/payment-methods/billing-suite/klarna/faq/reservation-and-invoice-number/). |
+| Completed  | Uncleared  | | The transaction is successful, but Klarna hasn't received payment yet. |
+| | | 2. | Ship the order within 28 days, or [extend the shipping period](/payment-methods/billing-suite/klarna/faq/extending-shipping-period/). {{< br >}} See also [Supported addresses](/payment-methods/billing-suite/klarna/faq/supported-addresses/). | 
+| | | 3. | [Change the order status to Shipped](/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/).  |
+| Shipped    | Uncleared  | 4. | MultiSafepay sends a capture to Klarna. |
+| | | 5. | Klarna confirms the transaction. |
+| | | 6. | MultiSafepay sends the customer an invoice. Your payout is now guaranteed. {{< br >}} See also [Customizing invoices](/payment-methods/billing-suite/klarna/faq/customizing-invoices/). |
+| Shipped    | Completed  | 7. | Klarna pays the funds to MultiSafepay (after 14 business days). |
+| | | 8. | MultiSafepay deducts the transaction fee and adds the remaining funds to your MultiSafepay balance (after 18-19 days). {{< br >}} **Note:** In your MultiSafepay Control > **Transaction details** page, the merchant fee always displays as 0,00.|
+| | | 9. | If the customer returns some items from the order, you can [place the collection period on hold](/payment-methods/billing-suite/klarna/faq/placing-collection-period-on-hold/) for 2 to 4 weeks.  |
+
+Other statuses include:
+| Order status                      | Transaction status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Uncleared   | Initialized  | The customer initiates a transaction on the Klarna payment page.   |
-| Completed  | Uncleared  | The transaction is successful, but Klarna hasn't received payment yet. {{< br >}} Ship the order within 28 days, or [extend the shipping period](/payment-methods/billing-suite/klarna/faq/extending-shipping-period/). {{< br >}}  [Change the order status to Shipped](/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/).  |
-| Shipped    | Uncleared  | MultiSafepay sends a capture to Klarna. {{< br >}} Klarna confirms the transaction. {{< br >}} MultiSafepay sends the customer an invoice. Your payout is now guaranteed. |
-| Shipped    | Completed  | Klarna pays the funds to MultiSafepay (after 14 business days). {{< br >}} MultiSafepay deducts the transaction fee and adds the remaining funds to your MultiSafepay balance (after 18-19 days). {{< br >}} **Note:** In your MultiSafepay Control > **Transaction details** page, the merchant fee always displays as 0,00.|
 | Void   | Cancelled   | Klarna has rejected the transaction. See Klarna&nbsp;–&nbsp;[Contact customer service](https://www.klarna.com/international/contact-customer-service).     |
-| Expired    | Expired    | The transaction was not completed or the [order status did not change to **Shipped**]((/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay Control **Transaction overview**. Create a new order, if required.  | 
+| Expired    | Expired    | The transaction was not completed or the [order status did not change to Shipped]((/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay Control **Transaction overview**. Create a new order, if required.  | 
 
 ### Refund flow
 
-**In MultiSafepay Control**  
+For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/klarna/#processing-refunds).
 
-You can process 3 types of refund: full, partial, and discounts.
-
-Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
-
-For how to process refunds, see User guide - [Processing refunds](/payment-methods/billing-suite/klarna/#processing-refunds).
-
-| Order status                      | Transaction status      | Flow |
+| Order status                      | Transaction status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized    | Completed   | The customer requests a refund. | 
 | Completed      | Completed   | The refund is successfully processed.  | 
@@ -99,7 +88,7 @@ For how to process refunds, see User guide - [Processing refunds](/payment-metho
 ## Activation
 Before applying for Klarna, check your eligibility with your account manager at <sales@multisafepay.com> 
 
-For questions, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice).
+For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
  
 ### New Klarna clients
 1. To sign up as a new Klarna client, email Klarna Sales at <verkoop@klarna.com>, and specify MultiSafepay as your payment service provider. You must sign an independent agreement with Klarna, including pricing.
@@ -125,6 +114,6 @@ To integrate Klarna using our API, see API Reference - [Klarna](/api/#klarna).
 For more information about testing Klarna payments, see [Test payment details](/faq/getting-started/test-payment-details/#klarna).
 
 ### Support
-For customers, see Klarna - [Contact customer service](https://www.klarna.com/international/contact-customer-service).
+For customers, see Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
 
 For merchants, email MultiSafepay at <klarna@multisafepay.com>
