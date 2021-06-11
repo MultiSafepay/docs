@@ -6,6 +6,9 @@ read_more: "."
 aliases: 
     - /integrations/magento1/faq/request-refund/
 ---
+
+{{< alert-notice >}} You can process refunds in your MultiSafepay Control and in your Magento 1 backend. Refunds processed in your MultiSafepay Control may not appear in your backend. {{< /alert-notice >}}
+
 To process a refund or a credit memo from your backend, follow these steps:
 
 1. Log in to your Magento 1 backend. 
