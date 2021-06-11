@@ -1,47 +1,57 @@
 ---
 title : "MultiSafepay Drupal 8 & 9 installation & configuration manual"
 meta_title: "Drupal 8 & 9 plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
     - /plugins/drupal8/manual
     - /integrations/plugins/drupal8/manual
     - /integrations/drupal8/manual
 ---
 
-### Introduction  
-This manual helps merchants process MultiSafepay payments as quickly as possible from a Drupal 8 & 9 webshop. For some steps in this manual, assistance from your technical partner may be required.
+This technical manual is for installing and configuring the MultiSafepay plugin for Drupal 8 & 9 webshop. 
 
-The installation can be carried out in three ways:
+We recommend first installing the plugin in a test environment following the recommended Shopware 6 installation procedure. Make sure you have made a backup.
+
+You can install the plugin via:
 
 + Composer
-+ SFTP
-+ Backend
++ Your Drupal 8 & 9 backend
 
-In this manual we describe the installation via Composer.
+To install the plugin via Composer:
 
-**Please note**: Security updates for Drupal 8.9.x are no longer provided by Drupal. Drupal 8.9.x receives bugfix support until early 2021 and security fixes until November 2021. To learn more about upgrading from Drupal 8 to Drupal 9, visit [Drupal's documentation](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher)
+### Technical support
+Contact us:
 
-{{% introduction_plugin "Drupal 8 & 9" %}}
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
 
-### 1. Requirements  - Drupal 8.9 and above or Drupal 9.x
+### Requirements
+- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 
-### 2. Installation
-For installing the latest stable version of our Drupal Commerce 2.x plugin please run the following command in your terminal
+### Installation
+To install the latest stable version of our Drupal Commerce 2.x plugin, run the following command in your terminal:
 
 ```
 composer require drupal/commerce_multisafepay_payments
 ```
 
-After running these commands, the latest stable release is downloaded and installed within your Drupal Commerce 2.x webshop.
+The latest stable release is downloaded and installed in your Drupal Commerce 2.x webshop.
 
-### 3. Configuration  
-1. Log in to the backend of your webshop and navigate to _Commerce_ → _Configuration_ → _Payments_ → _MultiSafepay settings_.
-On this page you can fill in your API details. {{% account_info %}}
-2. Navigate to _Commerce_ → _Configuration_ → _Payments_ → _Payment gateways_.
-This page contains the configuration options for all payment methods supported by MultiSafepay.  
-Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
+### Configuration  
+1. Log in to the backend of your webshop.
+2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
+3. Enter your account ID, site ID, site code or API key. {{% account_info %}}
+4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
+5. Configure the options for all supported payment methods activated in your [MultiSafepay Control](https://merchant.multisafepay.com).
 
-### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
+
+### Support phase out
+
+Drupal no longer provides security updates for Drupal 8.9.x, and will only provide bugfix support until early 2021 and security fixes until November 2021. 
+
+For more information about upgrading from Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).

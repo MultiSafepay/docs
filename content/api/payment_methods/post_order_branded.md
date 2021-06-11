@@ -1,7 +1,7 @@
 ---
 weight: 309
 meta_title: "API - Create a Co-branded Credit Card order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /order
@@ -93,7 +93,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -112,6 +112,13 @@ Displays the correct language and payment methods on the payment page. It also h
 __ip_address__ | string
 
  The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

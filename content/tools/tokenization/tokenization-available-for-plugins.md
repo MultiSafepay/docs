@@ -2,7 +2,7 @@
 title : "Tokenization available for ecommerce integrations supported by MultiSafepay"
 weight: 92
 meta_title: "Tokenization, available for ecommerce integrations - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
@@ -21,7 +21,7 @@ The following is required to use the tokenization tool:
 * Use a plugin that supports the tokenization tool
 * Enable recurring payments.
 
-Submit your request to enable recurring payments at your account manager at <sales@multisafepay.com>
+Email requests to enable recurring payments to your account manager at <sales@multisafepay.com>
 
 When recurring payments are enabled in your MultiSafepay Control, the token can be received and processed.
 

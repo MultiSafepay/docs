@@ -1,7 +1,7 @@
 ---
 weight: 313
 meta_title: "API - Create E-invoicing order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 
@@ -263,8 +263,6 @@ Creates a E-invocing [Direct](/faq/api/difference-between-direct-and-redirect) o
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
 **Parameters**
 
 ----------------
@@ -316,7 +314,9 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
 
@@ -367,6 +367,13 @@ The X-FORWARDED-FOR header of the customer request when using a proxy. [More inf
 
 ----------------
 
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
+
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
 Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing) on our documentation page.
@@ -378,9 +385,6 @@ Creates an E-invoicing [Redirect](/faq/api/difference-between-direct-and-redirec
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s)
-
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
 
 **Parameters**
 
@@ -433,7 +437,9 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
 

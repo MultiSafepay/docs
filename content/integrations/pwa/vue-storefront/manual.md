@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay Vue Storefront installation & configuration manual"
 meta_title: "Vue Storefront plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 
@@ -11,5 +11,4 @@ If you would like to install the MultiSafepay plugin to your Vue Storefront plat
 
 ### 2. Congratulations
 
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> 
-
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com> 

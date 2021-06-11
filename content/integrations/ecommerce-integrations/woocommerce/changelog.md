@@ -1,9 +1,34 @@
 ---
 title : "Release Notes WooCommerce plugin"
 meta_title: "WooCommerce plugin changelog - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/integrations/woocommerce/changelog/]
 ---
+
+## 4.6.0
+Release date: May 19th, 2021
+
+### Added
++ PLGWOOS-625: Add log section in MultiSafepay settings page
++ PLGWOOS-666: Add MultiSafepay system status section in settings page
++ PLGWOOS-376: Add support to show upgrade notices in plugin list
++ PLGWOOS-657: Add nl_BE language
+
+### Fixed
++ PLGWOOS-694: Fix notifications for order fully paid with gift cards
++ PLGWOOS-692: Fix Second Chance within the orderRequest object
++ PLGWOOS-654: Fix the gateway_id assigned to the properties of each token
+
+***
+
+## 4.5.1
+Release date: Apr 7th, 2021
+
+### Fixed
++ PLGWOOS-661: Fix payment methods ids to match list of gateway lists keys, which was producing an error to process notification for Sofort payments
++ PLGWOOS-663: Fix stock decreasing error, in relation with Bank Transfer gateway and notification flows
+
+***
 
 ## 4.5.0
 Release date: Mar 31th, 2021
@@ -379,7 +404,7 @@ Release date July 5th, 2018
 Release date: June 8th, 2018
 ### Improvements
 + PLGWOOS-215 Add support for Santander Betaal per Maand
-+ PLGWOOS-214 Add support for Afterpay
++ PLGWOOS-214 Add support for AfterPay
 + PLGWOOS-216 Add support for Trustly
 
 ### Fixes

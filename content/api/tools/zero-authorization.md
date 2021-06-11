@@ -101,5 +101,10 @@ __customer__ | object
 
 ----------------
 
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
 Read more about [Zero Authorization](/tools/zero-authorization) on our documentation page.
 {{% /description %}}

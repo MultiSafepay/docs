@@ -1,8 +1,12 @@
 <div class="row pb-5 pt-4">
-        {{ range .Sections }}
-        {{ if ne .Params.tags "hidden"}}
+    {{ range .Sections }}
+    {{ if ne .Params.tags "hidden"}}
         <div class="col-md-6">
+            {{ if isset .Params "symlink" }}
+            <a href="{{ .Params.symlink | absURL }}" class="row block-item my-3 mx-1 p-4">
+            {{ else }}
             <a href="{{ .Permalink }}" class="row block-item my-3 mx-1 p-4">
+            {{ end }}
                 <div class="col-8">
                     <div class="block-item__title">
                         <h4 class="">{{ .Title }}</h4>
@@ -14,6 +18,6 @@
                 </div>
             </a>
         </div>
-        {{ end }}
-        {{ end }}
-    </div>
+    {{ end }}
+    {{ end }}
+</div>

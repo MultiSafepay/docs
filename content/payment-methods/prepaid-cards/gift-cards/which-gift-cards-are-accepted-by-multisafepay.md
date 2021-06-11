@@ -2,7 +2,7 @@
 title : "Which gift cards are accepted by MultiSafepay?"
 weight: 25
 meta_title: "Gift cards, which are accepted? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/]
 ---
@@ -30,6 +30,6 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Winkelcheque 
 * YourGift
 
-_**Webshop Giftcard** no longer offers gift cards ([open-loop](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) that can be redeemed at multiple retailers. Existing open-loop gift cards can be exchanged for gift cards that are specific to a single retailer ([close-loop](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) Please contact [Webshop Giftcard](https://www.webshopgiftcard.nl/contact) directly if you have any questions._
+_**Webshop Giftcard** no longer offers [open-loop gift cards](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop)) (can be redeemed at multiple retailers). To exchange existing open-loop gift cards for [closed-loop gift cards](/payment-methods/prepaid-cards/gift-cards/#open-loop-vs-closed-loop) (for a specific retailer), see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
-Would you rather be offering a personalized gift card to your customers? Read more about [Branded / Personalized gift cards](/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card) on our documentation page.
+For information about custom gift cards for your own brand, see [Custom gift cards](/payment-methods/prepaid-cards/gift-cards/custom-gift-cards).

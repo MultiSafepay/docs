@@ -1,7 +1,7 @@
 ---
-title : "MultiSafepay Lightspeed installation & configuration manual"
-meta_title: "Lightspeed plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+title : "MultiSafepay Lightspeed installation and configuration manual"
+meta_title: "Lightspeed core integration manual - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
     - /hosted/lightspeed_core/manual
     - /integrations/hosted/lightspeed_core/manual
@@ -9,16 +9,20 @@ aliases:
     - /integrations/lightspeed/manual
 ---
 
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay core integration for Lightspeed.
 
-{{% introduction_hosted "Lightspeed" %}}
+### Technical support
+For support, contact Lightspeed – [Support](https://www.lightspeedhq.nl/support).
 
-### 1. Installation & Configuration
-1. Log in to your backend and navigate to _Settings_ → _Payment Providers_
-2. Click on _Add Payment Provider_ and select MultiSafepay
-3. Enter your Site security code, Site ID & Account ID. {{% account_info %}}
-Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner
-4. Select the payment methods you would like to offer.
+### Requirements
+You will need a MultiSafepay account – See [Getting started](/guides/getting-started/).
 
-### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+### Installation and configuration
+1. Log in to your Lightspeed backend.
+2. Go to **Settings** > **Payment providers**.
+2. Click **Add payment provider**, and then select **MultiSafepay**.
+3. Enter your account ID, site ID, and site security code. {{% account_info %}}
+Your account ID appears in the top-right corner of your MultiSafepay Control.
+4. Select the payment methods you want to offer.
+
+For any questions about the core integration, email the Integration Team at <integration@multisafepay.com>

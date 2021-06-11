@@ -2,7 +2,7 @@
 title: "Request to Pay, How does it work?"
 weight: 21
 meta_title: "Request to Pay, how does it work? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
 - /payment-methods/banks/direct-bank-transfer/#how-does-it-work
 - /payment-methods/banks/direct-bank-transfer/#transaction-flow
@@ -13,16 +13,15 @@ aliases:
 
 Request to Pay works in such a way that customers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the customer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
 
-Request to Pay reduces cost and risk, enabling faster settlement, providing simplified reconciliation.
+Request to Pay reduces cost and risk, enabling faster settlement and providing simplified reconciliation.
 
 ## Transaction Flow
 
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
-* Order status      
+* Order status   
 The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
-
-* Transaction status       
+* Transaction status  
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
 Request to Pay transactions received by MultiSafepay will be processed directly through Deutsche Bank. The following statuses are important when receiving an Request to Pay payment:
@@ -53,9 +52,6 @@ The full API reference for Request to Pay can be found [here](https://docs.multi
 Request to Pay has a number of product rules which are the following:
 
 * Request to Pay supports Instant as well as Non-Instant SEPA bank transfers
-
 * Online refunding is processed by Deutsche Bank themselves.
-
 * Request to Pay can only process transactions in Euros (EUR)
-
 * A minimum of 1 EUR and maximum of 15,000 EUR exist for Request to Pay transactions.

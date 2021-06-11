@@ -1,0 +1,37 @@
+{{ define "main"}}
+<div class="container">
+  <div>
+    <h1>{{ .Title }}</h1>
+    <hr class="separator">
+    <p>{{ .Params.description_short}}</p>
+    {{ .Content }}
+  </div>
+  <section>
+    <div id="accordion" class="row">
+      {{ range.Sections.ByWeight }}
+      <div class="col-lg-6 pb-4">
+        <div class="block-item py-3 px-4">
+          <a class="row no-decoration" id="heading-{{ .Title | anchorize}}" href="{{ .Permalink }}">
+              <div class="col-2">
+                {{ with .Params.logo }}
+                <img class="m-3" style="width: 50px; height: 40px" src="{{ . }}" />
+                {{ end }}
+              </div>
+              <div class="col my-auto">
+                <p class="my-auto ml-5" style="font-weight: 600; font-size: 1.6rem;">{{ .Title }}</b>
+              </div>
+            </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    faqArrowAnimation();
+  });
+</script>
+{{ end }}

@@ -6,12 +6,12 @@ changelog: https://docs.multisafepay.com/integrations/ecommerce-integrations/dru
 manual: "."
 faq: "."
 meta_title: "Drupal 7 plugin integration - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/Drupal_7.svg"
-weight: 90
+weight: 15
 title_short: "Drupal 7"
-description_short: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop"
 layout: 'single'
 aliases: 
     - /plugins/drupal7

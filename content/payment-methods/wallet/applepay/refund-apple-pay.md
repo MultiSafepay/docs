@@ -2,7 +2,7 @@
 title: "How to refund an Apple Pay transaction"
 weight: 23
 meta_title: "How to refund an Apple Pay transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
@@ -10,7 +10,7 @@ read_more: '.'
 
 Please follow these steps to refund an Apple Pay transaction:
 
-1. Select _transaction → transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Select _transaction > transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Find the transaction through search
 3. Open transaction
 4. Select _refund_
@@ -23,4 +23,4 @@ A refund will be processed on the Apple Pay account and credit card statement of
 
 >_Outgoing payments will not be processed if your MultiSafepay balance is insufficient._
 
-In the event of a failed Apple Pay refund, please contact our support team at <support@multisafepay.com> to assist you.
+If an Apple Pay refund fails, email the Support Team at <support@multisafepay.com>

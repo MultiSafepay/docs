@@ -1,7 +1,7 @@
 ---
-title : "MultiSafepay Lightspeed installation & configuration manual"
+title : "MultiSafepay Lightspeed installation and configuration manual"
 meta_title: "Lightspeed app  manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
     - /integrations/hosted/lightspeed/manual
     - /integrations/hosted/lightspeedbeta/manual
@@ -10,43 +10,54 @@ aliases:
     - /integrations/lightspeed_app/manual
 ---
 
-### Introduction
-This is the Lightspeed app. The core Lightspeed integration can be found [here](/integrations/ecommerce-integrations/lightspeed_core)
+This is the Lightspeed app. For the Lightspeed core integration, see [Lightspeed core](/integrations/ecommerce-integrations/lightspeed_core).
 
-{{% introduction_app "Lightspeed" %}}
+This technical manual is for installing and configuring the MultiSafepay app for Lightspeed.
+
+We recommend first installing the app in a test environment following the recommended Lightspeed installation procedure. Make sure you have made a backup.
+
+### Technical support
+Contact us:
+
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
 
 ### Requirements
-The application is tested using the default, one-step and one-page checkout using the default theme.
+- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- A MultiSafepay [API key](/tools/multisafepay-control/get-your-api-key))
 
-For the optimal experience of the user, we included some Javascript and use our own images. This allows us to add, for example, a drop-down for iDEAL and our own icons for other payment methods. Some themes or users added scripts may cause issues, such as missing images for payment methods. To resolve these issues, a developer may be required.
+### Notes
 
-If the Javascript files are not loaded, all payment methods will continue to work. If you want to use our payment icons, you can find them on our [Github page](https://github.com/MultiSafepay/MultiSafepay-icons)
+- The application is tested using the default one-step and one-page checkout using the default theme.
 
-To use the app, an [API key](/faq/general/glossary/#api-key) is required. To obtain this key you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
+- For the best user experience, we provide some Javascript and images in order to add, for example, a drop-down for iDEAL and MultiSafepay icons for other payment methods. Some user-added themes or scripts may cause issues, e.g. missing images for payment methods. For assistance, ask your developer. All payment methods still work if you don't use the Javascript files. 
+- To use MultiSafepay payment icons, see GitHub [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-### 1. Installation 
-Instructions to install the MultiSafepay Lightspeed app:
+### Installation 
 
-1. Log in to your backend
-2. Navigate to _Apps_ on the left-hand side of the dashboard
-3. Search for the _MultiSafepay Payments app_
-4. Click on the app and then on _Install App_ in the top right corner
-5. You will be redirected to a login page
-6. Log in using your Lightspeed credentials
-7. Proceed to _Next_ and then approve the required permissions
-8. After approving the installation, you will be redirected to <https://lightspeed.multisafepay.com/install>
-9. Complete the Signup page and click on _Create Account and continue_
-10. Fill in your [MultiSafepay API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key), select the corresponding environment (_test / live_) and then click the _Register Account and continue_ button.
+1. Log in to your Lightspeed backend.
+2. Go to **Apps** on the left-hand side of the dashboard.
+3. Search for the **MultiSafepay payments app**.
+4. Click on the app, and then on **Install app** in the top-right corner.  
+5. In the login page that appears, log in using your Lightspeed credentials.
+6. Click **Next**, and then approve the required permissions.  
+    You are redirected to <https://lightspeed.multisafepay.com/install>.
+7. Complete the Signup page, and then click **Create account and continue**.
+8. Fill in your MultiSafepay API key.
+9. Select **Test** or **live** environment, and then click **Register account and continue**.
 
-### 2. Disabling the old Lightspeed integration
+### Disabling classic Lightspeed
 
-When you have successfully migrated to the new Lightspeed app, you will be able to disable the old integration. You can do this by following these instructions:
+To disable the classic Lightspeed integration after migrating to the new app, follow these steps:
 
-1. Log in to your backend and navigate to _Settings_ → _Payment Providers_ → _MultiSafepay_
-2. On the top of the screen you can disable this payment provider.
+1. Log in to your Lightspeed backend.
+2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
+2. At the top of the screen, disable this payment provider.
 
-__Congratulations__
+For any questions about the app, email the Integration Team at <integration@multisafepay.com>
 
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+To access the MultiSafepay Payments app **Settings** page:
 
-After installing the MultiSafepay Payments application, you can access the settings page. You will be redirected to this page automatically after the installation. Alternatively, navigate to your apps, select the MultiSafepay Payments app and click on the _Go to App_ button.
+- You are automatically redirected after installing the app, or 
+- Select the MultiSafepay Payments app, and then click **Go to app**.

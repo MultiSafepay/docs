@@ -2,7 +2,7 @@
 title: "How to process Server to Server credit card payments?"
 weight: 73
 meta_title: "Server to Server flow - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 ## 3D enabled request
@@ -15,7 +15,7 @@ The transaction request type should be "direct".
 "gateway": "CREDITCARD",
 ```
 
-When 3D secure verification is required you have two option for handling the verification:
+When [3D Secure](/faq/general/glossary/#3d-secure) verification is required you have two option for handling the verification:
 
 1. the recommended way is to redirect your customer directly to the payment_url that will be returned in the response. 
 2. otherwise you can use the HTML form that will be returned and should be rendered.

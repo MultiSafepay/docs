@@ -2,13 +2,13 @@
 title: "Zero Authorization, How it works"
 weight: 61
 meta_title: "Zero Authorization, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
 Zero Authorization is an account verification method for credit cards that is used to verify a cardholders information __without charging the customer__. Instead, an amount of zero (€ 0,00) is charged on the card to store the credit card information in the form of a token and to determine whether the card is legitimate or not. After creating the token, is then possible to charge the customer with a new transaction with either Tokenization or [Recurring Payments](/tools/recurring-payments)
 
-The zero amount transaction can be executed with or without [3D Secure](/tools/server2server), depending on the users’ case. This feature can protect merchants against fraud liability for future transactions.
+The zero amount transaction can be executed with or without [3D Secure](/faq/general/glossary/#3d-secure), depending on the users’ case. This feature can protect merchants against fraud liability for future transactions.
 
 ### What are possible 'Zero Authorization' scenarios?
 
@@ -26,7 +26,7 @@ _MultiSafepay would like to mention that these functions can be developed and ar
 * __Order status__: The order status indicates the status of the order. A zero authorization will always be _completed_. The order status is independent of the outgoing payment of the transaction.
 * __Transaction status__: The transaction status indicates the payment status of the transaction. A zero authorization will always be _completed_. Once the transaction status is _completed_, the amount of the transaction will be displayed as zero (in your designated currency) on your MultiSafepay balance. See below for the transaction status actions:
 
-The full [API documentation](/api/#order-status-authorized-transaction) on Manual Capture will assist in the implementation of the feature.
+To implement Zero Authorization, see API Reference - [Zero Authorization](/api/#zero-authorization).
 
 | Action                         | Order Status     | Transaction Status |   Description                                                      |
 |--------------------------------|------------------|------------------|--------------------------------------------------------------------|

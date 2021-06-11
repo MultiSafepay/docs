@@ -1,7 +1,7 @@
 ---
 weight: 309
 meta_title: "API - Create a CBC order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 
@@ -207,6 +207,13 @@ __customer__ | object
 Contains personal information about the customer. 
 
 ---------------- 
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
 

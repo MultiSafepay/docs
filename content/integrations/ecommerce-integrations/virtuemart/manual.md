@@ -1,7 +1,7 @@
 ---
-title : "MultiSafepay VirtueMart installation & configuration manual"
+title : "MultiSafepay VirtueMart installation and configuration manual"
 meta_title: "VirtueMart plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /plugins/virtuemart/manual
     - /integrations/plugins/virtuemart/manual
@@ -9,24 +9,44 @@ aliases:
 
 ---
 
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay plugin for VirtueMart.
 
-{{% introduction_plugin "VirtueMart" %}}
+We recommend first installing the plugin in a test environment following the recommended VirtueMart installation procedure. Make sure you have made a backup.
 
-### 1. Requirements
+### Technical support
+Contact us:
+
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
+
+### Requirements
+- MultiSafepay account – See [Getting started](/guides/getting-started/).
 - Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
 - Tested on PHP 7.0
 
-### 2. Installation
-1. Log in to your backend and navigate to _'Extensions' → 'Extension Manager'_
-2. Install the Plugin_VirtueMart_x.x.x.zip file, by _Drag and drop or Browse for file_. Click on _Upload & Install_.
+### Installation
+1. Log in to your VirtueMart backend.
+2. Go to **Extensions** > **Extension manager**.
+3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
+4. Click **Upload & install**.
 
-### 3. Configuration
-1. Log in to your backend and navigate to _Extensions → Plugins_. Enter _MultiSafepay_ in the search box and set the plugin status to _Enabled_
-2. Navigate to _Components → VirtueMart_. Click on _Shop → Payment Methods_. Select the _New_ button to install and configure each payment method separately
-3. Choose _VirtueMart - Payment, MultiSafepay_ as payment method and save the _payment method name_ to install
-4. Click on the tab _Configuration_. Save the Merchant (account) ID, Site ID & Secure Code.{{% account_info %}} 
-5. Also necessary is to save the Gateway ID (code).
+### Configuration
+1. Log in to your VirtueMart backend.
+2. Go to **Extensions** > **Plugins**.
+3. In the search box, enter **MultiSafepay**, and then set the plugin status to **Enabled**.
+4. Go to **Components** > **VirtueMart**. 
+5. Click **Shop** > **Payment methods**. 
+6. To install and configure each payment method separately:
+  - Click **New**.
+  - Set the payment method to **VirtueMart - Payment, MultiSafepay**.
+  - To install, save the **Payment method name**.
+7. On the **Configuration** tab, enter your:
+  - API key
+  - Account ID
+  - Site ID
+  - Site secure code  
+  - Gateway ID  
+  {{% account_info %}} 
 
-### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

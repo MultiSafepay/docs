@@ -33,46 +33,17 @@
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}css/bootstrap.min.css?v=2" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mburger.css" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
-    <link href="{{ .Site.BaseURL }}css/main.css?v=17" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}css/main.css?v=21" rel="stylesheet" />
     <link rel="shortcut icon" href="/favicon.ico">
     <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
     <script src="{{ .Site.BaseURL }}js/main.js?v=8"></script>
 
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script type="text/javascript" data-ignore="1">
-        window.cookieconsent_options = {
-            js:'https://www.multisafepay.com/typo3conf/ext/dp_cookieconsent/Resources/Public/JavaScript/cookieconsent.min.js',
-            css:'https://www.multisafepay.com/typo3conf/ext/dp_cookieconsent/Resources/Public/css/cookieconsent.min.css',
-            content: {
-                message:'We use cookies and other tracking technologies to personalize and improve your experience. By continuing to use our website you consent to this.',
-                dismiss:'Allow cookies',
-                allow:'Allow cookies',
-                deny: 'Decline',
-                link:'More info →',
-                href:'https://www.multisafepay.com/privacy-cookies/',
-                policy: 'Cookie Policy',
-            },
-            theme: 'none',
-            position: 'bottom-right',
-            type: 'opt-out',
-            dismissOnScroll: parseInt('0')||false,
-            palette: {
-                popup: {
-                    background: '#f6f7f9',
-                    text: '#000'
-                },
-                button: {
-                    background: '#E03F65',
-                    text: '#fff',
-                }
-            }
-        };
-        </script>
-        <script type="text/javascript" data-ignore="1" defer src="https://www.multisafepay.com/typo3conf/ext/dp_cookieconsent/Resources/Public/JavaScript/cookie.min.js?v=9.5.2"></script>
-        <!-- End Cookie Consent plugin -->
+
+    <!-- Cookie consent script -->
+    <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="ce3ce69a-721a-49db-a27e-dbb7f17690bf"></script>
 
         <!-- Hotjar Tracking Code for https://docs.multisafepay.com/ -->
         <script>
@@ -86,7 +57,6 @@
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
 </head>
-
 
 <body class='{{ if .IsHome }}home{{end}}'>
     <div id="page" class="page">
@@ -142,6 +112,7 @@
     </script>
     {{end}}
     <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+    
     <!-- Begin AnchorJS - https://www.bryanbraun.com/anchorjs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
     <script type="text/javascript">

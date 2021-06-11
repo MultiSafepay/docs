@@ -1,0 +1,48 @@
+{{- $id := .Get "id" | default (.Get 0) -}}
+<div class="youtube_video">
+  <div id="player"></div>
+</div>
+
+<script>
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      height: '390',
+      width: '640',
+      videoId: '{{ $id }}',
+      events: {
+        'onReady': onPlayerReady,
+      }
+    });
+  }
+
+  function onPlayerReady(event) {
+    {{ with .Get "start" }}event.target.seekTo({{ . }});{{ end }}                
+    event.target.playVideo();
+    jumpstart_player();
+  }
+
+  async function jumpstart_player() {
+    for (let i = 0; i < 10; i++) {
+      await sleep(500);
+      if (player.getPlayerState() == 1) {
+        break;
+      }
+      if (player.getPlayerState() == 2 || player.getPlayerState() == -1) {
+        player.mute();
+        player.playVideo();
+        break;
+      }
+    }
+  }
+</script>

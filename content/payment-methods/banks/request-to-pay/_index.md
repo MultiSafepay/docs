@@ -2,7 +2,7 @@
 title: 'Request to Pay'
 weight: 60
 meta_title: "Request to Pay - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/RTP.svg' 
 short_description: 'Allowing merchants to collect funds from customers in an automated, integrated and secure way.'

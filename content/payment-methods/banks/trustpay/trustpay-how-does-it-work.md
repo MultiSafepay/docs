@@ -2,7 +2,7 @@
 title: "TrustPay, How it works"
 weight: 21
 meta_title: "TrustPay, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/trustpay/trustpay-how-does-it-work/]
 ---
@@ -22,7 +22,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status | Transaction Status | Description                                                                                                          |
 |--------------|------------------|----------------------------------------------------------------------------------------------------------------------|
 | Initialized  | Initialized      | A payment link has been generated, but no payment has been received yet.                                             | 
-| Completed    | Completed        | A successful Alipay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
+| Completed    | Completed        | A successful Trustpay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
 | Declined     | Declined         | Transaction has been rejected.                                                                                       | 
 | Expired      | Expired          | An unfinished transaction will automatically expire after a predefined period.                                       | 
 | Void         | Cancelled        | Transaction has been cancelled.                                                                                       | 

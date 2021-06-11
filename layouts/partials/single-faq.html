@@ -1,57 +1,57 @@
 <section id="FAQ">
-    <div class="container pt-5 pb-5">
-        <div class="row">
-            <div class="col-md-9">
-                <h2 id="FAQ-title">FAQ</h2>
-                <div id="accordion" class="row pt-4">
-                    {{range .Sections}}
-                    {{ range .Pages}}
-                    <div class="col-lg-6 pb-4">
-                        <div class="block-faq py-3 px-4">
-                            <div id="heading-{{ .Title | anchorize}}">
-                                <div class="mb-0 faq-title-block" data-toggle="collapse"
-                                    data-target="#{{ .Title | anchorize}}" aria-expanded="true"
-                                    aria-controls="{{ .Title | anchorize}}">
-                                    <img class="faq-svg" src="/svgs/Arrow.svg" />
-                                    <b class="px-3">{{ .Title }}</b>
-                                </div>
-                            </div>
+  <div class="container pt-5 pb-5">
+      <div class="row">
+          <div class="col-md-9">
+              <h2 id="FAQ-title">User guide</h2>
+              <div id="accordion" class="row pt-4">
+                  {{range .Sections}}
+                  {{ range .Pages}}
+                  <div class="col-lg-6 pb-4">
+                      <div class="block-faq py-3 px-4">
+                          <div id="heading-{{ .Title | anchorize}}">
+                              <div class="mb-0 faq-title-block" data-toggle="collapse"
+                                  data-target="#{{ .Title | anchorize}}" aria-expanded="true"
+                                  aria-controls="{{ .Title | anchorize}}">
+                                  <img class="faq-svg" src="/svgs/Arrow.svg" />
+                                  <b class="px-3">{{ .Title }}</b>
+                              </div>
+                          </div>
 
-                            <div id="{{ .Title | anchorize}}" class="collapse faq-content"
-                                aria-labelledby="heading-{{ .Title | anchorize}}" data-parent="#accordion">
-                                <div class="mx-3 line"></div>
-                                {{ if isset .Params "read_more" }}
-                                    <div class="p-3">
-                                        {{if isset .Params "summary"}}
-                                            {{ index .Params "summary" }}
-                                        {{else}}
-                                            {{ .Content }}
-                                        {{end}}
-                                    </div>
-                                    <div class="p-3">
-                                    <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
-                                    </div>
-                                {{else}}
-                                    <div class="p-3">
-                                        {{ .Content }}
-                                    </div>
-                                    <div class="p-3">
-                                        <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
-                                    </div>
-                                {{end}}
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                    {{end}}
-                </div>
-            </div>
-        </div>
-    </div>
+                          <div id="{{ .Title | anchorize}}" class="collapse faq-content"
+                              aria-labelledby="heading-{{ .Title | anchorize}}" data-parent="#accordion">
+                              <div class="mx-3 line"></div>
+                              {{ if isset .Params "read_more" }}
+                                  <div class="p-3">
+                                      {{if isset .Params "summary"}}
+                                          {{ index .Params "summary" }}
+                                      {{else}}
+                                          {{ .Content }}
+                                      {{end}}
+                                  </div>
+                                  <div class="p-3">
+                                  <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+                                  </div>
+                              {{else}}
+                                  <div class="p-3">
+                                      {{ .Content }}
+                                  </div>
+                                  <div class="p-3">
+                                      <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+                                  </div>
+                              {{end}}
+                          </div>
+                      </div>
+                  </div>
+                  {{ end }}
+                  {{end}}
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
 
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function(event) { 
-    faqArrowAnimation();
-  });
+document.addEventListener("DOMContentLoaded", function(event) { 
+  faqArrowAnimation();
+});
 </script>

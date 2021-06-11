@@ -1,0 +1,25 @@
+{
+    "entries" : 
+    [   
+        {
+            "date": "Jun 7, 2021",
+            "change": "Updated section: [Ecommerce integrations](/integrations/ecommerce-integrations)"
+        },
+        {
+            "date": "Jun 3, 2021",
+            "change": "New section: [Accounting](/tools/accounting/)"
+        },
+        {
+            "date": "Jun 2, 2021",
+            "change": "New page: Accounting integrations - [Actuals](/tools/accounting/accounting-integrations/actuals-live)"
+        },
+        {
+            "date": "May 28, 2021",
+            "change": "Updated section: [Payment components](/integrations/payment-components/)"
+        },
+        {
+            "date": "May 19, 2021",
+            "change": "New page: [Unmasking IBAN numbers](/faq/api/masking-iban-numbers/)"
+        }
+    ]
+}

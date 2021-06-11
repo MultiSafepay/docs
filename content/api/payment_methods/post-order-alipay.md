@@ -1,7 +1,7 @@
 ---
 weight: 302
 meta_title: "API - Create an Alipay order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -191,9 +191,13 @@ __customer__ | object
 Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.
 
 ----------------
+__close_window__ | bool (optional)
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 Read more about [Alipay](/payment-methods/wallet/alipay) on our documentation page.
-
 
 ### Direct - Alipay
 

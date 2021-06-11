@@ -1,7 +1,7 @@
 ---
 title : "Release Notes X-Cart plugin"
 meta_title: "X-Cart plugin changelog - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/integrations/x-cart/changelog/]
 ---
 
@@ -27,7 +27,7 @@ Release date: Apr 24th, 2019
 
 ### Added
 + PLGXCTS-40: Added Trustly direct and redirect payment method.
-+ PLGXCTS-45: Added Afterpay, Alipay, iDEAL QR and Santander Betaal per Maand as payment methods.
++ PLGXCTS-45: Added AfterPay, Alipay, iDEAL QR and Santander Betaal per Maand as payment methods.
 + PLGXCTS-35: Added shopping cart data to all payment gateways.
 + PLGXCTS-22: Added Belfius, KBC and ING Home'Pay as payment methods.
 

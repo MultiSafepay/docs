@@ -1,7 +1,7 @@
 ---
 weight: 210
 meta_title: "API - Create a Redirect order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -119,7 +119,7 @@ Google Analytics Tracking-ID. You can find this in your Google Analytics Dashboa
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -186,6 +186,13 @@ __email__ | string
 
 Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
 
+----------------
 
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 {{% /description %}}

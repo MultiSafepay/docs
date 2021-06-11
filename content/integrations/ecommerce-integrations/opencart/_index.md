@@ -5,12 +5,12 @@ download_url : "https://www.opencart.com/index.php?route=marketplace/extension/i
 manual: "."
 faq: "."
 meta_title: "OpenCart plugin integration - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/OpenCart.svg"
-weight: 50
+weight: 10
 title_short: "OpenCart"
-description_short: "Have an OpenCart webshop? Integrate the MultiSafepay payment solutions into your OpenCart webshop with our free plugin."
-description: "The free plugin to easily integrate MultiSafepay payment solutions into your OpenCart webshop."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your OpenCart webshop"
+description: "Free plugin to easily integrate MultiSafepay payment solutions into your OpenCart webshop"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md"
 aliases: 

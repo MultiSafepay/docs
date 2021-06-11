@@ -1,18 +1,23 @@
 ---
 title : "MultiSafepay LogiVert installation & configuration manual"
 meta_title: "LogiVert app manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
     - /hosted/logivert/manual
     - /integrations/hosted/logivert/manual
     - /integrations/logivert/manual
 ---
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay app for LogiVert.
 
-{{% introduction_app "LogiVert" %}}
+We recommend first installing the app in a test environment following the recommended LogiVert installation procedure. Make sure you have made a backup.
 
-### Installation & Configuration
-[Download](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen) the LogiVert Manual to install the app.
+### Technical support
+For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/support/c-10).
 
-### Congratulations
-You have installed and configured the app successfully. If you have any technical queries about the app, please contact [Logivert](https://www.logivert.com/nl/support/c-10) directly.
+### Requirements
+You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+
+### Installation and configuration
+For instructions, see LogiVert - [Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen).
+
+For any questions about the app, email the Integration Team at <integration@multisafepay.com>

@@ -1,12 +1,12 @@
 ---
-title : "FastCheckout SDK Android configuration manual"
-meta_title: "FastCheckout SDK Android configuration manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-aliases: [/integrations/fastcheckout-android/manual/]
+title : "FastCheckout Android SDK manual"
+meta_title: "FastCheckout Android SDK manual - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /integrations/fastcheckout-android/manual/
 ---
-### Introduction
 
-The FastCheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The FastCheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
+### Introduction
 
 As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
 
@@ -34,9 +34,9 @@ The FastCheckout SDK provides the additional following features:
 * Manage shipping addresses:
     * List, add and edit shipping information
 
-*If you need more information, please check the documentation that you will find inside the SDK, which contains all classes, methods, common troubleshooting and more details.*
+For more information, see the documentation inside the SDK, which contains all classes, methods, common troubleshooting and more details.
 
-Please refer to the MultiSafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
+To learn more about creating, updating and retrieving orders, see API reference - [Orders](https://docs.multisafepay.com/api/#orders).
 
 #### Advanced Setup
 The SDK has two environments on which it operates, LIVE, the default environment, and TEST. You might want to use the TEST environment to test your integration before releasing your App. No real transaction is performed in TEST environment. 
@@ -52,7 +52,7 @@ Check the example below to see how you can setup the environment you want to use
 
 ### Installation
 
-First you have to access into your Back Office and get a valid [API key](/faq/general/glossary/#api-key) (_Settings_ → _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/faq/general/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
@@ -211,7 +211,7 @@ protected void onCreate(Bundle savedInstanceState) {
    SDK = FastCheckoutSDK.getInstance();
    SDK.setApiKey(API_KEY);
 
-   btnLogOut.setOnClickListener(view → SDK.startCheckout(transaction_id, this));
+   btnLogOut.setOnClickListener(view > SDK.startCheckout(transaction_id, this));
 
    }
 
@@ -285,32 +285,32 @@ sdk.setStyles(styles);
 1. The following snapshots will walk you through some of features offered by the Fastcheckout Android SDK. The Fastcheckout iOS SDK provides the same functionalities.
     * Logging in with a registered email: 
         
-      {{< zoom_able class="img-size zoomable" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
+      {{< zoom_able class="img-size zoomable" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
 
     * Logging in with a non-registered email will automatically take the user to the register SDK screen: 
 
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-3.png" title="screenshot 3">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-4.png" title="screenshot 4">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-5.png" title="screenshot 5">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-3.png" title="screenshot 3">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-4.png" title="screenshot 4">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-5.png" title="screenshot 5">}}
 
     * If the user is registered and resets its email account, the SDK  will automatically send a new security code to new entered email: 
 
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-6.png" title="screenshot 6">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-7.png" title="screenshot 7">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-6.png" title="screenshot 6">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-7.png" title="screenshot 7">}}
 
     * Once the user enters the security code received by email (if the security code is received via SMS it will automatically get added to appropriate field, and the SDK will move into the following state) the SDK will ask for a new security PIN, once entered, the SDK will provide Biometric options (in iOS face recognition is also available):
 
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-8.png" title="screenshot 8">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-9.png" title="screenshot 9">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-8.png" title="screenshot 8">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-9.png" title="screenshot 9">}}
 
     * The checkout process follows. From a merchant’s webshop checkout option, the SDK enters into the checkout process. The first view will be the delivery view with shipping options if available. Once the continue button is selected, the SDK moves into the Payment screen and the payment logic follows.
 
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-10.png" title="screenshot 10">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-11.png" title="screenshot 11">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-10.png" title="screenshot 10">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-11.png" title="screenshot 11">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
     
     * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client app about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
 
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}
+      {{< zoom_able class="img-size" url="/integrations/wrappers/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}

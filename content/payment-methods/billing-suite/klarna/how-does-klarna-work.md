@@ -2,7 +2,7 @@
 title : "Klarna, How it works"
 weight: 21
 meta_title: "Klarna, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/klarna/how-does-klarna-work/]
 ---
@@ -15,7 +15,7 @@ Once the Klarna Gateway is configured, you can start your integration using our 
 ### Activate an order
 When a customer chooses to pay with Klarna, MultiSafepay will create a Klarna transaction marked "Not Shipped". After the order is shipped by the merchant to the customer, the order needs to be activated to start the communication process to the customer. After 14 business days, MultiSafepay will receive the funds from Klarna and will add the amount to your MultiSafepay Control balance.
 
-To activate a Klarna order you need to log into [MultiSafepay Control](https://merchant.multisafepay.com) and go to the transaction details of the Klarna order. In the Order Details section there is a _Change Order Status_ button. Here you can change the status to _Shipped_ and provide Track & Trace details if desired.
+To activate a Klarna order you need to log in to [MultiSafepay Control](https://merchant.multisafepay.com) and go to the transaction details of the Klarna order. In the Order Details section there is a _Change Order Status_ button. Here you can change the status to _Shipped_ and provide Track & Trace details if desired.
 
 Klarna does not support an Auto-Ship function, thus all orders have to be manually activated. Certain ecommerce integrations may automatically activate an order from _Not Shipped_ to _Shipped_, once an order is shipped. Please check within your plugin if this is possible. Other options can include manually activating an order or a custom API integration.
 
@@ -25,7 +25,7 @@ For every transaction, a reservation number and an invoice number will be genera
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
 All customer-related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service)
-If you are a merchant, please contact <integration@multisafepay.com>
+If you are a merchant, email the Integration Team at <integration@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -36,7 +36,7 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-{{< alert-notice >}} From May 11th onwards, a Klarna transaction will no longer have the status _Initialized_ after acceptance of an order. This will be replaced by the status _Uncleared_ and will be changed to _Completed_ after shipment of the order and payment settlement from Klarna. Following this, the funds will be added to your account. If you have any questions regarding this change please contact <support@multisafepay.com> {{< /alert-notice >}} 
+{{< alert-notice >}} As of May 11, 2021, after orders are accepted Klarna transactions receive **Uncleared** status (instead of **Initialized** status). This changes to **Completed** after the order ships and Klarna settles the payment. The funds are then added to your MultiSafepay balance. For any questions, email the Support Team at <support@multisafepay.com> {{< /alert-notice >}} 
 
 
 | Order Status                      | Transaction Status      | Description |
@@ -82,7 +82,7 @@ Some rules may apply to certain payment methods. For Klarna, the following rules
 
 * Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-*  Klarna is offered in Austria, Germany, Belgium, Finland and the Netherlands
+*  MultiSafepay offers Klarna for Austria, Belgium, Denmark, Germany, Italy, Norway, Spain, Sweden, the Netherlands, and the UK.
 
 * As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 

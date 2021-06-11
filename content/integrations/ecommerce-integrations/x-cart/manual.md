@@ -1,36 +1,47 @@
 ---
-title : "MultiSafepay X-Cart installation & configuration manual"
+title : "MultiSafepay X-Cart installation and configuration manual"
 meta_title: "X-Cart plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-aliases: [/integrations/x-cart/manual/]
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /plugins/x-cart/manual
     - /integrations/plugins/x-cart/manual
     - /integrations/x-cart/manual
 ---
 
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay plugin for X-Cart.
 
-{{% introduction_plugin "X-Cart" %}}
+We recommend first installing the plugin in a test environment following the recommended X-Cart installation procedure. Make sure you have made a backup.
 
-### 1. Requirements
+### Technical support
+Contact us:
+
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
+
+### Requirements
+- MultiSafepay account – See [Getting started](/guides/getting-started/).
 - X-Cart 5.x        
 - Tested on PHP 7.0
 
-### 2. Installation
-1. Unzip the content of the .ZIP file in the root of your webshop
-2. Log in to your backend and navigate to _System tools → Cache management → Re-deploy the store_ and press _Start_.
+### Installation
+1. In the root of your webshop, unzip the content of the .ZIP file.
+2. Log in to your X-Cart backend.
+3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
+4. Click **Start**.
 
-### 3. Configuration
-1. Log in to your backend and navigate to _My Addons_ and search for _MultiSafepay_
-2. Locate and enable _MultiSafepay Connect_. This is required to enter your [API key](/faq/general/glossary/#api-key) later on
-3. Select any other payment methods you would like to offer and click on _Save changes_ once you've finished
-4. Navigate to _Store setup_ and select _Payment methods_
-5. Locate and activate your previous selected payment method(s)
-6. Select the _Configure_ button for _MultiSafepay Connect_
-7. For _Account type_, you have two options. _Live_ and _Test_. Make sure you fill in the correct API key according to which account type you would like to use. After you've filled in your API key, click _Save changes_.  
+### Configuration
+1. Log in to your X-Cart backend.
+2. Go to **My Addons**, and search for **MultiSafepay**.
+3. Locate and enable **MultiSafepay Connect**. This is required to enter your [API key](/faq/general/multisafepay-glossary/#api-key) in a later step.
+4. Select the relevant payment methods, and then click **Save changes**.
+5. Go to **Store setup** > **Payment methods**.
+6. Locate and activate your enabled payment methods.
+7. For **MultiSafepay Connect**, click **Configure**.
+8. For **Account type**, you have two options: **Live** and **Test**.  
+  - Enter your account ID, site ID, site secure code, and your API key.
+  - Make sure you enter the correct API key for the account type you want to use. 
+  - For where to find your account ID, site ID, site secure code, see [API key](/tools/multisafepay-control/get-your-api-key).
+9. Click **Save changes**.  
 
-{{% account_info %}}
-
-### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

@@ -4,7 +4,7 @@
             {{ index .Params "title" }}
         </h2>
     {{end}}
-    <img class="{{if .Get "screen_size"}}{{ .Get "screen_size"}}{{end}}-radius max-width img-shadow {{ if .Get "class" }}{{ .Get "class"}}{{end}}" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" >
+    <img class="{{if .Get "screen_size"}}{{ .Get "screen_size"}}{{end}}-radius max-width {{ if .Get "class" }}{{ .Get "class"}}{{end}}" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" >
     {{if isset .Params "caption"}}
         <div class="pt-5 font-italic text-muted">
             {{ index .Params "caption" }}

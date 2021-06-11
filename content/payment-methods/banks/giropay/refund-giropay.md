@@ -2,7 +2,7 @@
 title: "How to refund a Giropay transaction"
 weight: 23
 meta_title: "Giropay, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/giropay/refund-giropay/]
 ---
@@ -10,7 +10,7 @@ aliases: [/payment-methods/giropay/refund-giropay/]
 Please follow these steps to refund a Giropay transaction:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction → transaction_
+2. Select _transaction > transaction_
 3. Find the transaction through search
 4. Open transaction
 5. Select _refund_
@@ -23,4 +23,4 @@ The transaction status is now _initialized_. As long as the transaction status i
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-In the event of a failed Giropay refund, please contact our support team at <support@multisafepay.com> to assist you.
+If a Giropay refund fails, email the Support Team at <support@multisafepay.com> 

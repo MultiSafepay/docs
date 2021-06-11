@@ -2,7 +2,7 @@
 title: "How to refund an Alipay transaction"
 weight: 23
 meta_title: "Alipay, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/alipay/refund-alipay/]
 ---
@@ -11,7 +11,7 @@ aliases: [/payment-methods/alipay/refund-alipay/]
 
 Please follow these steps to refund an Alipay transaction:
 
-1. Select _transaction → transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Select _transaction > transaction overview_ in your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Find the transaction through search
 3. Open transaction
 4. Select _refund_
@@ -24,5 +24,4 @@ A refund will be processed on the Alipay account of the customer within the next
 
 >_Outgoing payments will not be processed if your MultiSafepay balance is insufficient._
 
-In the event of a failed Alipay refund, please contact our support team at <support@multisafepay.com> to assist you.
-
+If an Alipay refund fails, email the Support Team at <support@multisafepay.com> 

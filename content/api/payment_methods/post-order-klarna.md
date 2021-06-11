@@ -1,7 +1,7 @@
 ---
 weight: 318
 meta_title: "API - Create a Klarna order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 
@@ -134,8 +134,6 @@ Klarna Payments (the new environment of Klarna) is available as a Redirect reque
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
 **Parameters**
 
 ----------------
@@ -188,7 +186,9 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
 
@@ -252,8 +252,6 @@ Please note this request is for Klarna Payments. This request can only be proces
 
 * All parameters shown are required field(s)
 
-{{< alert-notice >}} __Please note__: In order for the shopping_cart to work correctly, the shipment item requires a special 'merchant_item_id'. This parameter is called 'msp-shipping' and can be seen in the JSON code. {{< /alert-notice >}}
-
 
 **Parameters**
 
@@ -313,6 +311,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 __shopping_cart__ | object
 
 Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+
+ __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
 ----------------
 

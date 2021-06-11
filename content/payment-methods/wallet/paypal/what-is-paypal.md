@@ -2,7 +2,7 @@
 title : "PayPal, What it is"
 weight: 20
 meta_title: "PayPal, What it is - MultiSafepay Docs"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pagess for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "MultiSafepay API documentation page. Easily integrate MultiSafepay payment solutions into your webshop"
 read_more: '.'
 aliases: [/payment-methods/paypal/what-is-paypal/]
 ---

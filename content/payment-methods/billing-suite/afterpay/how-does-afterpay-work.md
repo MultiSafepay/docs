@@ -2,7 +2,7 @@
 title: "AfterPay, How it works"
 weight: 21
 meta_title: "AfterPay, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/afterpay/how-does-afterpay-work/]
 ---
@@ -57,7 +57,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Initialized    | Completed   | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
-The full API reference for Afterpay can be found [here](/api/#afterpay)
+The full API reference for AfterPay can be found [here](/api/#afterpay)
 
 ### Product rules
 Some rules may apply to certain payment methods. For AfterPay, the following rules apply:
@@ -75,9 +75,9 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 
 * As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. AfterPay). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
 
-* Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
+* Payments done through AfterPay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-* Afterpay requires an additional API key for Belgium. This can be requested directly at Afterpay.
+* AfterPay requires an additional API key for Belgium. This can be requested directly at AfterPay.
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
 

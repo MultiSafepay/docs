@@ -1,7 +1,7 @@
 ---
 title : "Release Notes CS-Cart plugin"
 meta_title: "CS-Cart plugin changelog - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/integrations/cs-cart/changelog/]
 ---
 ## 1.5.0
@@ -37,7 +37,7 @@ Release date - February 26th, 2020
 Release date: Oct 8th, 2018
 
 ### Features
-+ PLGCSCS-60: Add Afterpay as payment method
++ PLGCSCS-60: Add AfterPay as payment method
 + PLGCSCS-61: Add EPS as payment method
 + PLGCSCS-62: Add iDEAL QR as payment method
 + PLGCSCS-63: Add TrustPay as payment method

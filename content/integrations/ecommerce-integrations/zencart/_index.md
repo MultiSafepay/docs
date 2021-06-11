@@ -6,15 +6,14 @@ changelog_url : "."
 manual: "."
 faq: "."
 meta_title: "ZenCart plugin integration - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/Zen_Cart.svg"
-weight: 160
+weight: 20
 title_short: "Zen Cart"
-description_short: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Zen Cart webshop"
+description: "Free plugin integrate MultiSafepay payment solutions into your Zen Cart webshop"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
-aliases: [/integrations/zencart/]
 aliases: 
     - /plugins/zencart
     - /integrations/plugins/zencart

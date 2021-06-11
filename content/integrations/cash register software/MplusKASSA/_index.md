@@ -2,7 +2,7 @@
 title: "MplusKASSA"
 weight: 20
 meta_title: "MplusKASSA - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/MplusKASSA.svg'
 layout: 'single'
 title_short: "MplusKASSA"
@@ -19,4 +19,4 @@ extra_button:
 
 MplusKASSA offers order management software for restaurants, cafes, hotels and establishments alike.
 
-Recently, MplusKASSA has integrated their order management system with MultiSafepay. If you would like to find out more about the integration process, please contact MplusKASSA directly at <info@mpluskassa.nl>
+MplusKASSA's order management system can integrate with MultiSafepay. For more information, email MplusKASSA at <info@mpluskassa.nl>

@@ -2,14 +2,15 @@
 title: "How to activate Betaal per Maand"
 weight: 22
 meta_title: "Betaal per Maand, how to activate it - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/betaalplan/activate-betaalplan/]
 ---
 ### Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
-In order to activate Betaal per Maand, please contact <sales@multisafepay.com>
+To activate Betaal per Maand, email the Sales Team at <sales@multisafepay.com>
+
 
 #### Qualification criteria of Betaal per Maand and MultiSafepay
 

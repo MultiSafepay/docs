@@ -1,33 +1,40 @@
 ---
-title : "MultiSafepay Mijnwebwinkel installation & configuration manual"
+title : "MultiSafepay Mijnwebwinkel installation and configuration manual"
 meta_title: "Mijnwebwinkel app manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
     - /hosted/mijnwebwinkel/manual
     - /integrations/hosted/mijnwebwinkel/manual
     - /integrations/mijnwebwinkel/manual
 ---
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay Mijnwebwinkel app.
 
-{{% introduction_app "Mijnwebwinkel" %}}
+We recommend first installing the app in a test environment following the recommended Mijnwebwinkel installation procedure. Make sure you have made a backup.
 
-### 1. Installation & Configuration
+### Technical support
+Contact us:
 
-First, you will need to add your MultiSafepay credentials.
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
 
-1. Log in to your backend and navigate to _Online orders_ → _Payment method_ → MultiSafepay
-2. Add your MultiSafepay Account ID (e.g. 10010010)
-3. Add your Site ID
-4. Add your Site Security Code
-5. Add your [API key](/faq/general/glossary/#api-key)
-6. Select the payment methods (Optional: you can add a fee)
+### Requirements
+You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
 
+### Installation and configuration
 
-The plugin is developed and supported by Mijnwebwinkel (MyOnlineStore). Information can be found via [Mijnwebwinkel's](https://www.mijnwebwinkel.nl/partner/multisafepay) website.
+1. Log in to your Mijwebwinkel backend.
+2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
+2. Add your MultiSafepay account ID, site ID, site security code, and [API key](/faq/general/multisafepay-glossary/#api-key).
+6. Select the relevant payment methods.
 
-### 2. Congratulations
+**Note:** You can apply a [surcharge](/faq/general/multisafepay-glossary/#surcharge) to payment methods.
 
-You have installed and configured the plugin successfully. If you have any technical queries about the plugin, please contact Mijnwebwinkel directly using the [contact form](https://www.mijnwebwinkel.nl/contactformulier) on their website.
+### Further support
 
-A dedicated support section can also be found on the official website of [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support)
+The plugin is developed and supported by Mijnwebwinkel. See Mijnwebwinkel - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).
+
+For any technical queries about the plugin, see Mijnwebwinkel - [Contact form](https://www.mijnwebwinkel.nl/contactformulier).
+
+For support documentation, see Mijnwebwinkel - [Support](https://www.mijnwebwinkel.nl/support).
 

@@ -2,7 +2,7 @@
 title: "How to refund a Visa transaction"
 weight: 23
 meta_title: "Visa, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 ## Request refund
@@ -10,7 +10,7 @@ The refund of a transaction with the payment method Visa can be processed from w
 
 Please follow these steps:
 
-1. Select _Transactions → Transaction overview_
+1. Select _Transactions > Transaction overview_
 2. Find the transaction through search
 3. Open the transaction
 4. Select _refund_

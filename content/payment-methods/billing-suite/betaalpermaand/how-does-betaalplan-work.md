@@ -2,7 +2,7 @@
 title: "Betaal per Maand, How it works"
 weight: 21
 meta_title: "Betaal per Maand, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/betaalplan/how-does-betaalplan-work/]
 ---
@@ -34,8 +34,8 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Uncleared   | Uncleared  | When a Betaal per Maand transaction is marked with the status uncleared, Betaal per Maand will authorize or decline the transaction. No action is required.   |
-| Uncleared   | Initialized | A payment has been initiated, but no payment has been received yet.  | 
-| Completed   | Uncleared  | A successful Betaal per Maand transaction has been received.   |
+| Uncleared   | Initialized | A payment has been initiated, but no payment has been received yet. **It is not possible to reject an order while the order status is set to Uncleared and the transaction status to Initialized.**   | 
+| Completed   | Uncleared  | A successful Betaal per Maand transaction has been received. **The order can be rejected when the order status is set to Completed and the transaction status to Uncleared.**  |
 | Shipped     | Uncleared  | A Capture has been send to Betaal per Maand, the transaction has been confirmed. An invoice will be send to the customer and your payout is guaranteed. |
 | Shipped     | Completed  | Payout of a Betaal per Maand transaction has been received and added to your MultiSafepay Control balance.|
 | Declined    | Declined   | Transaction has been rejected by Betaal per Maand. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |

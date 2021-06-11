@@ -73,6 +73,10 @@
 {{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
 {{ end }}
 
+{{ if isset .Params "buttons_under_text" }}
+{{ partial "buttons_under_text" . }}
+{{ end }}
+
 {{ if isset .Params "faq" }}
 {{ partial "single-faq" . }}
 {{ end }}

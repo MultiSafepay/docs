@@ -1,7 +1,7 @@
 ---
 weight: 220
 meta_title: "API - Create a Direct Order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
@@ -72,7 +72,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": null,
       "account_holder_name": null,
       "external_transaction_id": "0050003729272772",
-      "account_iban": "https://betalen.rabobank.nl/ideal-betaling/landingpage?random=44b2dcf080f29f6f52d05802fd76e31285ac564dc974319f0109e1d978234770&trxid=0050003729272772",
+      "account_iban": "*** 1234",
       "isser_id": "0021"
     },
     "costs": [
@@ -156,12 +156,21 @@ Sends push notification (POST,GET) default: GET.
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+If the payment fails, the customer is redirected to this page.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 
 {{< /description >}}

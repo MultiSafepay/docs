@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay ScandiPWA Integration"
 meta_title: "ScandiPWA storefront integration plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 ### 1. Requirements
@@ -17,7 +17,7 @@ The supported payment methods & gift cards for this plugin [can be found here](h
 If you would like to install the MultiSafepay plugin into your ScandiPWA application, please use this [installation instructions](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration) on our GitHub page.
 
 ### Support
-You can create issues on our repository. If you need any additional help or support, please contact <integration@multisafepay.com>
+You can create an issue in our repository. For support, email the Integration Team at <integration@multisafepay.com>
 
 We are also available on our Magento Slack channel [#multisafepay-payments](https://magentocommeng.slack.com/messages/multisafepay-payments/).
 Feel free to start a conversation or provide suggestions as to how we can refine our plugin.

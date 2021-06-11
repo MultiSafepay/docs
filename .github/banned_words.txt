@@ -40,7 +40,7 @@ Partner dashboard
 plug-in
 post Pay
 postpay
-screening@multisafepay.com
+screening
 Second chance
 second chance
 url

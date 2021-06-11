@@ -3,7 +3,7 @@ title: 'Wallet'
 breadcrumb_title: "Wallet"
 layout: 'block'
 meta_title: 'Wallet - MultiSafepay Docs'
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Wallet.svg'
 short_description: 'Easily fulfill payments with virtual wallet payment solutions. Includes PayPal and Alipay.'
 weight: 30

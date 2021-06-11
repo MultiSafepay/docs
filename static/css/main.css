@@ -18,12 +18,41 @@ body {
 
 /**********************/
 
-h1, h2, h3, h4, h5, h6 {
+p {
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+}
+
+h2 {
+	color: #085b80;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	color: #454545;
+	margin-top: 4rem;
+	margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+h4 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+h1, h4, h5, h6 {
     color: #232323;
 }
 
 a, a:hover {
     color: #008DCB;
+}
+
+ol, ul {
+	margin-bottom: 2rem;
 }
 
 .header-background-home {
@@ -483,6 +512,7 @@ ol.breadcrumb {
     height: 5px;
     background: #3fa9f5;
     margin-left: 0;
+	margin-bottom: 3rem;
 }
 
 /******** LIST ********/
@@ -1091,10 +1121,6 @@ div#results a:hover {
     cursor: zoom-out;
 }
 
-p {
-    margin-bottom: 1.6rem;
-}
-
 .payment-detail table {
     margin-bottom: 1em;
     overflow: auto
@@ -1227,10 +1253,6 @@ p {
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.5;
-}
-
-p {
-    font-weight: 300;
 }
 
 #changelog {
@@ -1506,15 +1528,20 @@ h6 {
     display: none;
 }
 
+.max-width {
+    max-width: 100%;
+    height: auto;
+}
+
 .small-img {
     max-width: 500px;
     max-height: 300px;
     object-fit:scale-down;
 }
 
-.max-width {
-    max-width: 100%;
-    height: auto;
+.medium-img {
+    max-width: 400px;
+    object-fit:scale-down;
 }
 
 .img-shadow {
@@ -1575,7 +1602,7 @@ pre:not(.chroma) {
     background-color: #F6F6F6;
     color: #4D4D4D;
     border-radius: 1rem 0px 1rem 1rem;
-    padding: 40px 50px;
+    padding: 2rem 3rem;
 }
 
 p code, td code {
@@ -1591,3 +1618,22 @@ p code, td code {
 	cursor: pointer;
 }
 
+.no-decoration , .no-decoration:hover{
+    text-decoration: none!important;
+    color: #000000;
+}
+
+details {
+	background-color: #f2f7fc;
+	border-radius: 10px;
+	padding: 1rem 1rem;
+	margin: 2rem 0;
+}
+
+details > summary {
+	color: #008DCB;
+}
+
+details > table > tbody > tr {
+	background-color: blue;
+}

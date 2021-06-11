@@ -1,6 +1,6 @@
 ---
 logo: "/logo/Integrations/Laravel.svg"
-weight: 20
+weight: 11
 title_short: "Laravel"
 redirect_show_info:
     url: "https://github.com/MultiSafepay/laravel-api"

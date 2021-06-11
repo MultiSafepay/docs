@@ -6,13 +6,13 @@ manual: "."
 faq: "."
 changelog: "https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md"
 meta_title: "CS-Cart plugin integration - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/CS-Cart.svg"
-weight: 80
+weight: 13
 title_short: "CS-Cart"
 layout: 'single'
-description_short: "Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop"
 aliases: 
     - /plugins/cs-cart
     - /integrations/plugins/cs-cart

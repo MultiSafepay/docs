@@ -1,7 +1,7 @@
 ---
-title : "MultiSafepay Shopify installation & configuration manual"
-meta_title: "Shopify plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+title : "MultiSafepay Shopify installation and configuration manual"
+meta_title: "Shopify app manual - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
     - /integrations/shopify/faq/how-can-i-update-the-plugin-for-shopify/
     - /integrations/shopify/manual
@@ -10,13 +10,28 @@ aliases:
     - /integrations/shopify/manual
 ---
 
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay app for Shopify.
 
-{{% introduction_app "Shopify" %}}
+We recommend first installing the app in a test environment following the recommended Shopify installation procedure. Make sure you have made a backup.
 
-### 1. Installation & Configuration
+### Technical support
+Contact us:
 
-1. Use the following links to activate the individual payment methods and click on the install button on the bottom right.
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
+
+### Requirements
+You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+
+### Availability
+Our Shopify app is unavailable in Norway and Finland. 
+
+For more information, email the Integration Team at <integration@multisafepay.com>
+
+### Installation and configuration
+
+{{< details title="View payment method links" >}}
 
   * [Alipay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872)
   * [American Express](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852)
@@ -40,14 +55,15 @@ aliases:
   * [Trustly](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945)
   * [Visa (including Cartes Bancaires & Dankort)](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328)
 
-2. Now log into your backend and navigate to _Settings > Payment providers > Alternative payments_
-3. Find and click on the payment method you have just added.
-4. Fill in your Site ID and Site Secure Code. Information on where to find your Site ID, Site code can be found on our [API key page](/tools/multisafepay-control/get-your-api-key)
-5. Now you can activate the payment method.
+{{< /details >}}
 
-### Note
-It is also possible to bundle all individual payment methods under a single 'MultiSafepay' payment gateway during checkout.
-For this you can just activate the MultiSafepay payment method, which can be found under the Alternative payments.
+1. To install payment methods, use the relevant links above. For each, click the **Install** button on the bottom right.
+2. Log in to your Shopify backend.
+3. Go to **Settings** > **Payment providers** > **Alternative payments**.
+4. Search for and click on the payment methods you have installed.
+5. Fill in your API key, site ID, and site secure code. For where to find them, see [API key](/tools/multisafepay-control/get-your-api-key).
+6. Activate the payment method.
 
-### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+**Note**: To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
+
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

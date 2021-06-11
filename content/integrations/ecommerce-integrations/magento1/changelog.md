@@ -1,7 +1,7 @@
 ---
 title : "Release Notes Magento 1 plugin"
 meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/integrations/magento1/changelog/]
 ---
 
@@ -41,7 +41,7 @@ Release date: Apr. 2nd, 2020
 + PLGMAGONE-617: Add Apple Pay
 + PLGMAGONE-656: Add Direct Bank Transfer (Request to Pay)
 + PLGMAGONE-485: Add support for Fooman Surcharge
-+ PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
++ PLGMAGONE-562: Added support for PostNL pickup points for AfterPay.
 
 ### Fixed
 + PLGMAGONE-654: Fix incorrect character set for translations
@@ -102,7 +102,7 @@ Release date: May. 25th, 2018
 
 ### Added
 + PLGMAGONE-378: Add support for Santander Betaal per Maand
-+ PLGMAGONE-379: Add support for Afterpay
++ PLGMAGONE-379: Add support for AfterPay
 + PLGMAGONE-380: Add support for Trustly
 + PLGMAGONE-381: Add Moneyou iDEAL issuer logo
 
@@ -442,7 +442,7 @@ Release date: Mar 19, 2015
 + Added updateInvoice function. Send Magento invoice ID to MultiSafepay, this will be added to the accountant export
 + Added daysactive to connect
 + When creating an order we now use the selected payment method for the manual transaction request
-+ Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to login to the Ewallet and manually create a payment link for the order
++ Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to log in to the Ewallet and manually create a payment link for the order
 
 ### Improvements
 + If there is an invoice, the order can't be cancelled anymore

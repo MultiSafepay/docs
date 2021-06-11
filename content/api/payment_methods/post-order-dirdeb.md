@@ -1,7 +1,7 @@
 ---
 weight: 325 
 meta_title: "API - Create a SEPA Direct Debit order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -97,7 +97,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": "NL87ABNA0000000001",
       "account_holder_name": "Example",
       "external_transaction_id": "6190662598986790",
-      "account_iban": "NL87ABNA0000000001",
+      "account_iban": "*** 1234",
     },
     "costs": [
       {
@@ -175,7 +175,7 @@ Endpoint where we will send the notifications to [notification_url](/faq/api/how
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
 
 ----------------
 __cancel_url__ | string
@@ -192,6 +192,12 @@ __locale__ | string
 
 ----------------
 
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 ### Direct - SEPA Direct Debit
 
