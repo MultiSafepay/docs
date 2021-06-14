@@ -16,3 +16,4 @@ data:
 aliases: [/payment-methods/pay-after-delivery/]
 
 --- 
+
