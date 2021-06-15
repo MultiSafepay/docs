@@ -5,6 +5,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/magento1/changelog/]
 ---
 
+## 3.1.0
+Release date: Jun. 15th, 2021
+
+### Added
++ PLGMAGONE-710: Add support for [Generic Gateways](https://docs.multisafepay.com/integrations/ecommerce-integrations/magento1/faq/generic-gateways/) which can be used for branded giftcards
++ PLGMAGONE-627: Add order number variable support to custom refund description
+
+### Fixed
++ PLGMAGONE-719: Prevent a zero amount refund leading to a full refund
++ PLGMAGONE-706: Show payment instructions for giftcards too
+
+### Changed
++ DAVAMS-344: Update Trustly logo
+
+***
+
 ## 3.0.0
 Release date: Oct. 21st, 2020
 
