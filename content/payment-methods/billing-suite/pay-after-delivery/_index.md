@@ -8,7 +8,7 @@ intro_description: "Pay After Delivery is MultiSafepay's own online buy now pay 
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg' 
-short_description: "MultiSafepay's own buy now pay later service for Dutch merchants"
+short_description: "A MultiSafepay buy now pay later service for Dutch merchants"
 aliases:
     - /support-tab/magento2/payment-methods/pay-after-delivery
     - /payment-methods/billing-suite/pay-after-delivery/activate-pay-after-delivery 
