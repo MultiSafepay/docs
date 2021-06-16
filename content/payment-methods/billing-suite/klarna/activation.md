@@ -25,4 +25,3 @@ For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klanten
 
 For more information and support for existing clients, email Klarna Verkoop at <verkoop@klarna.com>
 
-For questions about your Klarna integration and the connection with MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>

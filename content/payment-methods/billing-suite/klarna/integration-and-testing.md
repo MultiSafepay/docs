@@ -13,6 +13,8 @@ Klarna makes your ecommerce platform available in the MultiSafepay partner porta
 
 To integrate Klarna using our API, see API Reference - [Klarna](/api/#klarna).
 
+For questions about your Klarna integration and the connection with MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>
+
 {{< details title="View credentials and testing process" >}}
 
 Test credentials:

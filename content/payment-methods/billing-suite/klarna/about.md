@@ -18,7 +18,7 @@ Klarna is an online post-payment method that lets customers pay for orders after
 | **Payment type**   | Post-payment method  | |
 | **API flow**  | `Direct`/`Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, Netherlands, UK  | |
-| **Currencies**  | EUR, SEK, NOK, DKK | [Multi-currency setup](/payment-methods/billing-suite/klarna/user-guide/activating-multi-currency-setup/) {{< br >}} [More information](/faq/general/supported-currencies) | 
+| **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
@@ -42,5 +42,27 @@ If you supply multiple order rules with the same `merchant-item-id`and the custo
 To successfully process partial refunds for the same product with different specifications (e.g. size, color) via the shopping cart, each `merchant-item-id` must be unique.
 
 **Example:** For different-sized products, differentiate the `merchant-item-id` with `-size`: 1001311-xxl, 1001311-m, 1001311-s.
+
+{{< /details >}}
+
+{{< details title="Discounts" >}}
+
+Discounts are processed as a **negative amount** instead of a **negative quantity**. This method of adding discounts only applies to successful transactions. 
+
+For how to add discounts **before** the transaction request is submitted to MultiSafepay, see API Reference - [Discount](/api/#discount).
+
+Instead of deleting an item in the checkout editor, you may want to add a discount. Follow these steps:
+
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transaction overview**.
+3. Search for the transaction and click to open the **Transaction details** page.
+4. Click **Refund order** > **Edit**.
+5. Add the discount as a new page in the checkout editor.  
+    Example: quantity (1) > discount (item or name) > amount (as negative) > VAT
+6. To deduct the amount of the discount, add a new line to the order.
+7. Click **Save**.
+
+   The discount is added to the transaction. 
+   A new payment link is generated and sent to the customer with the adjusted invoice.
 
 {{< /details >}}

@@ -22,7 +22,7 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | | The transaction is successful, but Klarna hasn't received payment yet. | Completed  | Uncleared  |
 | 2. | Klarna confirms the transaction. | | |
 | 3. | Ship the order within 28 days, or [extend the shipping period](/payment-methods/billing-suite/klarna/faq/extending-shipping-period/). {{< br >}} See also [Supported addresses](/payment-methods/billing-suite/klarna/faq/supported-addresses/). | | |
-| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/).  | | | 
+| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/klarna/faq/changing-order-status--to-shipped/).  | | | 
 | 5. | MultiSafepay sends a capture to Klarna. | Shipped    | Uncleared  |
 | 6. | Klarna sends the customer an invoice. Your payout is now guaranteed. {{< br >}} See also [Customizing invoices](/payment-methods/billing-suite/klarna/faq/customizing-invoices/). | | |
 | 7. | Klarna pays the funds to MultiSafepay. | Shipped    | Completed  |
@@ -33,7 +33,7 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | Description                      | Order status      | Transaction status |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Klarna has rejected the transaction. See Klarna&nbsp;–&nbsp;[Contact customer service](https://www.klarna.com/international/contact-customer-service). {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the transaction.    | Void   | Cancelled   |
-| The transaction was not completed or the [order status did not change to Shipped]((/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay Control **Transaction overview**. Create a new order, if required.  | Expired    | Expired    |
+| The transaction was not completed or the [order status did not change to Shipped]((/payment-methods/billing-suite/klarna/faq/changing-order-status-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay Control **Transaction overview**. Create a new order, if required.  | Expired    | Expired    |
 
 ## Refund statuses
 
