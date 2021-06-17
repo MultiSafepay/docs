@@ -5,6 +5,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/opencart/changelog/]
 ---
 
+## 3.10.4
+Release date: Jun, 17th 2021
+
+### Fixed
++ PLGOPNS-410: Disable customer email notification, when MultiSafepay transaction status received in notification, match with the order status 'Do not change the order status' in the extension setting.
+
+***
+
 ## 3.10.3
 Release date: May, 26th 2021
 
