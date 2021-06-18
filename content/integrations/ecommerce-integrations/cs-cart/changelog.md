@@ -4,6 +4,24 @@ meta_title: "CS-Cart plugin changelog - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/integrations/cs-cart/changelog/]
 ---
+## 1.6.0
+Release date - Jun 18th, 2021
+
+### Added
++ DAVAMS-271: Add CBC payment method
++ PLGCSCS-121: Add Request to Pay
+
+### Fixed
++ Include address2 field for house number parsing
++ PLGCSCS-124: Fix incorrect shopping cart when multiple discounts are used
+
+### Changed
++ DAVAMS-347: Update Trustly logo
++ DAVAMS-286: Update name and logo for Santander
++ PLGCSCS-99: Set order to status shipped for all payment methods
+
+***
+
 ## 1.5.0
 Release date - April 1st, 2020
 
