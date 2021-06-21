@@ -7,7 +7,9 @@ aliases:
     - /integrations/magento1/faq/request-refund/
 ---
 
-{{< alert-notice >}} You can process refunds in your MultiSafepay Control and in your Magento 1 backend. Refunds processed in your MultiSafepay Control may not appear in your backend. {{< /alert-notice >}}
+You can process refunds in your MultiSafepay Control and in your Magento 1 backend. 
+
+**Note:** Refunds processed in your MultiSafepay Control may not appear in your backend. ```
 
 To process a refund or a credit memo from your backend, follow these steps:
 
@@ -25,7 +27,6 @@ For more information, see Magento - [Create a credit memo](https://docs.magento.
 
 For AfterPay, Klarna, Pay After Delivery, Betaal per Maand, and E-invoicing, you can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded.
  
-
 
 
 
