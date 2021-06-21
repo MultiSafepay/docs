@@ -6,6 +6,25 @@ read_more: "."
 weight: 4
 ---
 
-Klarna lets you customise the styling and layout of all invoices you send to customers via your Klarna Merchant Account. For support, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/).
+To add your logo to invoices Klarna sends to your customers, follow these steps:
+
+1. Log in to your Klarna Merchant Account. 
+2. Go to **Branding**.
+3. Under **Logo**, upload a .png or .jpeg logo.  
+
+For best results, use a square image with a transparent background. 
+
+{{< screen src="/img/Screenshot-Klarna-branding.png" align="left" class="medium-img desktop-radius" >}}
+
+## Brand information
+
+Under **Brand information**, you can set up and manage your brand including:
+- Brand name
+- Home page
+- Instagram URL
+- Facebook URL
+
+## Support 
+For support, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/).
 
 **Note:** You can no longer view PDF invoices in your MultiSafepay Control. 
