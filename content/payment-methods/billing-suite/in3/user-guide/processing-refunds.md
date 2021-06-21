@@ -6,7 +6,9 @@ read_more: "."
 weight: 1
 ---
 
-In your MultiSafepay Control, you can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards.
+## In your MultiSafepay Control
+
+You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards.
 
 Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
 
@@ -39,3 +41,6 @@ To refund part of the transaction in the checkout editor, follow these steps:
    A new payment link is generated and sent to the customer with the adjusted invoice.
 
 {{< /details >}}
+
+## In your backend
+You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/).
