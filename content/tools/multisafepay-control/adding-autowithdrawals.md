@@ -8,25 +8,21 @@ aliases:
     - /tools/multisafepay-control/autowithdrawl-updates
 ---
 
-Auto-withdrawals let you add fund withdrawal profiles in other currencies. 
+Auto-withdrawals let you schedule withdrawals on a specific day.
 
-You must have a MultiSafepay balance and an active bank account for each currency.
+**Note:** To schedule auto-withdrawals for different currencies, you must have a MultiSafepay balance and an active bank account for each currency.
 
 To add a new auto-withdrawal, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com). 
+2. Go to **Finance** > **Payouts**.
+3. Under **Automatic withdrawals**, click **+ Add**.
+4. In the **Automatic withdrawals** window:
+    - Under **Select days**, select a specific day of the week, or the end of the month. 
+    - From the **Select currency** dropdown, select the currency. 
+    - If you want to schedule withdrawals only when your balance exceeds a specified amount, in the **Withdraw when balance exceeds** fields, enter the amount. 
+    - If you want to specify a minimum amount to retain in your balance, in the **Reserve amount** fields, enter an amount.
+    - From the **Select the account number** dropdown, select the business bank account number you want to transfer the withdrawal to.
+5. Click **Schedule payments**.
 
-2. Click the **Withdraw funds** button on the right side of the page.
-
-3. Under **Automatic withdrawals**, click **Add new**.
-
-A new withdraw option appears in the scheduler. You can select Saturday, Sunday, or the last day of the month.
-
-### Payment reference
-The payment reference is adjustable. The default setup is:
-
-- Merchant ID 
-- Transaction ID 
-- MultiSafepay Payout 
-- Merchant ID 
-- Date
+{{< screen src="/img/Screenshot-Automatic-Withdrawals.png" align="center" class="medium-img desktop-radius" >}}
