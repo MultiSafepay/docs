@@ -10,4 +10,3 @@ weight: 3
 - Overview of transactions within a specific timeframe and grouping of costs
 - Includes the following types of completed transactions: Paid transactions, refunds, chargebacks/reversals, payouts, currency conversions
 - Format: Excel or CSV
-- See [Financial report](https://merchant.multisafepay.com/financial-report)
