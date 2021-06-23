@@ -19,7 +19,7 @@ Payment components require a MultiSafepay API token. See API Reference&nbsp;–&
 ### Add elements to your checkout page
 **1.** Add the Payment component CSS to the `<head>` of your checkout page:  
 ```
-link rel="stylesheet" href="https://pay.multisafepay.com/sdk/compnents/v1/components.css">
+link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">
 ```
 
 **2.** Add the Payment component script to the bottom of the `<body>` of your checkout page:  
