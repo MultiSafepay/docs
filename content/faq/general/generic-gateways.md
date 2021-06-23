@@ -27,6 +27,7 @@ For more information about a specific plugin, see:
 - [Drupal 8 & 9](/integrations/ecommerce-integrations/drupal8/faq/generic-gateways/)
 - [Magento 1](/integrations/ecommerce-integrations/magento1/faq/generic-gateways/)
 - [Magento 2](/integrations/ecommerce-integrations/magento2/faq/generic-gateways/)
+- [Odoo](/integrations/ecommerce-integrations/odoo/faq/generic-gateways/)
 - [OpenCart](/integrations/ecommerce-integrations/opencart/faq/generic-gateways/)
 - [Shopware 5](/integrations/ecommerce-integrations/shopware5/faq/generic-gateways/)
 - [Shopware 6](/integrations/ecommerce-integrations/shopware6/faq/generic-gateways/)
