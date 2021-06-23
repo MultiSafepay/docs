@@ -32,7 +32,7 @@ Under the contact details in your MultiSafepay Control, you can add an email add
 
 ## Post-payment methods
 
-The **Uncleared** status is assigned to a number of [Billing suite](/payment-methods/billing-suite/) payment methods. <br>
+**Uncleared** status applies to a number of post-payment methods in our [Billing Suite ](/payment-methods/billing-suite/). <br>
 
 [Klarna](/payment-methods/billing-suite/klarna/), [Afterpay](/payment-methods/billing-suite/afterpay/), [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/) and [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) will hold an **Uncleared** status after shipment of an order. The order status will be **Shipped**, while the transaction status will be **Uncleared**. In this case, the transaction is confirmed and the payout is guaranteed. The **Uncleared** status will only change to **Completed** when the payout of a transaction has been received by MultiSafepay and the amount has been added to your MultiSafepay Control balance.
 
@@ -83,4 +83,3 @@ Click on 'View risk report' in your [MultiSafepay Control](https://merchant.mult
 
 ## Conclusion
 Together, these indicators paint an accurate picture of what uncleared transactions are and how they should be addressed. However, these indicators offer no foolproof guarantee against fraudulent transactions. It is essential to consider all factors when evaluating a transaction; how likely is the possibility of fraud, what risks do you face based on your products, order value, etc.? If you trust the payment or consider it ‘low risk’, then you can accept the transaction. If you have any doubt, the transaction can be declined. We recommend that you notify your customer should you decide to reject their transaction.
-
