@@ -30,7 +30,7 @@ Under the contact details in your MultiSafepay Control, you can add an email add
 #### An uncleared transaction can only be accepted through your MultiSafepay Control. If no action is taken to accept the uncleared transaction, the authorization will automatically expire after 5 days.
 ***
 
-## Pay after delivery payment methods
+## Post-payment methods
 
 The **Uncleared** status is assigned to a number of [Billing suite](/payment-methods/billing-suite/) payment methods. <br>
 
@@ -83,5 +83,4 @@ Click on 'View risk report' in your [MultiSafepay Control](https://merchant.mult
 
 ## Conclusion
 Together, these indicators paint an accurate picture of what uncleared transactions are and how they should be addressed. However, these indicators offer no foolproof guarantee against fraudulent transactions. It is essential to consider all factors when evaluating a transaction; how likely is the possibility of fraud, what risks do you face based on your products, order value, etc.? If you trust the payment or consider it ‘low risk’, then you can accept the transaction. If you have any doubt, the transaction can be declined. We recommend that you notify your customer should you decide to reject their transaction.
-
 
