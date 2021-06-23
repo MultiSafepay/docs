@@ -30,6 +30,14 @@ Under the contact details in your MultiSafepay Control, you can add an email add
 #### An uncleared transaction can only be accepted through your MultiSafepay Control. If no action is taken to accept the uncleared transaction, the authorization will automatically expire after 5 days.
 ***
 
+## Pay after delivery payment methods
+
+The **Uncleared** status is assigned to a number of [Billing suite](/payment-methods/billing-suite/) payment methods. <br>
+
+[Klarna](/payment-methods/billing-suite/klarna/), [Afterpay](/payment-methods/billing-suite/afterpay/), [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/) and [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) will hold an **Uncleared** status after shipment of an order. The order status will be **Shipped**, while the transaction status will be **Uncleared**. In this case, the transaction is confirmed and the payout is guaranteed. The **Uncleared** status will only change to **Completed** when the payout of a transaction has been received by MultiSafepay and the amount has been added to your MultiSafepay Control balance.
+
+[Request to Pay](/payment-methods/banks/request-to-pay/), [SOFORT Banking](/payment-methods/banks/sofort-banking/) and [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) will also hold an **Uncleared** status, although the status can be interpreted differently. In this case, the payment of an order has not yet been received by MultiSafepay (paritally or in full e.g. the remaining installments of an in3 payment) and it may take time for the **Uncleared** status to clear. We recommend to __not ship__ items during this period.
+
 
 ## Evaluate the Transaction Amount
 Ask yourself if the transaction amount (of a purchase) is higher (or lower) than average. Are you willing to risk that this payment will be revoked after you have delivered your product and /or service? Consider whether the amount is unusually high compared to the average order value in your webshop.
