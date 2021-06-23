@@ -6,18 +6,22 @@ read_more: "."
 weight: 2
 ---
 
+{{< details title="Refund rules" >}}
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 
-## Via our API
-Make a POST `/orders/{order_id}/refunds` request. See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
-### In MultiSafepay Control
+- Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
 
-You can process 3 types of refund: full, partial, and discounts.
+- The customer receives the refund in the bank account they originally paid from within the next business day.
 
-Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
+If a refund fails, email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}
+
+## In your MultiSafepay account
 
 {{< details title="Full refunds" >}}
   
@@ -71,6 +75,8 @@ Instead of deleting an item in the checkout editor, you may want to add a discou
 
 {{< /details >}}
 
-### In your backend
+## Via our API
+Make a POST `/orders/{order_id}/refunds` request. See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
+## In your backend
 You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/). 

@@ -6,6 +6,7 @@ read_more: "."
 weight: 1
 ---
 
+{{< details title="Refund rules" >}}
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -14,15 +15,25 @@ weight: 1
 
 - Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
 
-### In MultiSafepay Control
+- The transaction status changes to **Initialized**. The initialized refund is passed to Santander for processing. At this stage, you can cancel the refund.  
 
-You can process full or partial refunds.
+- When the transaction status changes to **Completed**, the refund has been processed correctly. 
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+- The amount is deducted from the transaction. The refund remains linked to the original transaction.
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}
+
+## In your MultiSafepay account
 
 {{< details title="Full refunds" >}}
   
 To refund the full transaction, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Refund order** > **Full refund**.
@@ -36,7 +47,7 @@ To refund the full transaction, follow these steps:
 
 To refund part of the transaction in the checkout editor, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Refund order** > **Edit**.
@@ -47,15 +58,6 @@ To refund part of the transaction in the checkout editor, follow these steps:
    A new payment link is generated and sent to the customer with the adjusted invoice.
 
 {{< /details >}}
-
-
-- The transaction status changes to **Initialized**. The initialized refund is passed to Santander for processing. At this stage, you can cancel the refund.  
-
-- When the transaction status changes to **Completed**, the refund has been processed correctly and you can no longer reverse it. 
-
-- The customer receives the refund in the bank account they originally paid from within the next business day.
-
-- The amount is deducted from the transaction. The refund remains linked to the original transaction.
 
 ## In your backend
 You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/).
