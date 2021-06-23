@@ -24,7 +24,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer authenticates their account, and confirms to pay. | | |
-| 4. | The transaction is successful. {{< br >}} Settlement is guaranteed and cannot be reversed by the customer. | Completed | Completed |
+| 4. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. | Completed | Completed |
 | 5. | iDEAL QR settles the funds with MultiSafepay.| | |
 | 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
 
