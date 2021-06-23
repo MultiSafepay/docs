@@ -1,19 +1,19 @@
 ---
-title : "Customizing Payment Components"
-meta_title: "Payment Components - Customizing Payment Components - MultiSafepay Docs"
+title : "Customizing payment components"
+meta_title: "Payment components - Customizing payment components - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 weight: 3
 ---
 
-After integrating the Payment Component, the default user interface (UI) styling is applied. 
+After integrating the payment component, the default user interface (UI) styling is applied. 
 
 You can customize the styling to match your brand's visual identity, including fonts, colors, and layout. 
 
 ## Customizing the UI
 
-To edit the default styling of the Payment Component:
+To edit the default styling of the payment component:
 
 1. Select each CSS class you want to edit.
 2. Add the relevant [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) and set the values. 

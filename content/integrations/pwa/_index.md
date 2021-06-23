@@ -1,10 +1,10 @@
 ---
-title: 'PWA'
-breadcrumb_title: "PWA"
+title: 'PWAs'
+breadcrumb_title: "PWAs"
 layout: 'list'
-meta_title: 'PWA integration - MultiSafepay Docs'
+meta_title: 'PWAs - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/PWA.svg'
-short_description: 'Our showcase of PWA integrations'
+short_description: 'MultiSafepay plugins for progressive web applications (PWAs)'
 weight: 10 
 ---
