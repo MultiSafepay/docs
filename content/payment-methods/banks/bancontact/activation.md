@@ -25,3 +25,5 @@ A specific website:
 4. Click **Save**.
 
 Enable Bancontact as a payment method in the backend of your ecommerce platform to finalize the connection.
+
+For any questions, email the Sales Team at <sales@multisafepay.com>
