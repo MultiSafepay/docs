@@ -36,7 +36,7 @@ Sample statuses:
 
 {{< /details >}}
 
-{{< details title="Banktransfer" >}}
+{{< details title="Bank Transfer" >}}
 
 Test IBANs: See the table below.
 
