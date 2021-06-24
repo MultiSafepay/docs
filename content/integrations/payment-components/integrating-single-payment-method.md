@@ -30,7 +30,7 @@ link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/compo
 
 **3.** Add the DOM element for the Payment component UI in the `<body>` of your checkout page:
 ```
-<div id="MSPPayment"></div>
+<div id="MultiSafepayPayment"></div>
 ```
 
 ## Step 2: Initialize
@@ -86,7 +86,7 @@ Call the `PaymentComponent.init()` method with the following arguments:
 
 ```
 PaymentComponent.init('payment', {
-    container: '#MSPPayment',
+    container: '#MultiSafepayPayment',
     gateway: '<GATEWAY>',
     onLoad: state => {
         console.log('onLoad', state);

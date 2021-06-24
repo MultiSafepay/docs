@@ -30,7 +30,7 @@ link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/compo
 
 **3.** Add the DOM element for the Payment component UI in the `<body>` of your checkout page:
 ```
-<div id="MSPPayment"></div>
+<div id="MultiSafepayPayment"></div>
 ```
 
 ## Step 2: Initialize
@@ -101,7 +101,7 @@ From your server, pass the `gateways_response` to the request to the customer's 
 **2.** Call the `PaymentComponent.init()` method with the following arguments:
 ```
 PaymentComponent.init('dropin', {
-    container: '#MSPPayment',
+    container: '#MultiSafepayPayment',
     gateways: gateways_response,
     onLoad: state => {
         console.log('onLoad', state);
