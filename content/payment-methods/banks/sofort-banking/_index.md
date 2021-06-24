@@ -8,7 +8,7 @@ intro_description: "SOFORT Banking is a payment method available in several Euro
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/SOFORT.svg' 
-short_description: 'Accept secure bank transfers from customers in a number of European countries.'
+short_description: 'Accept secure bank transfers from a number of European countries.'
 aliases:
     - /support-tab/magento2/payment-methods/sofort-banking
     - /payment-methods/sofort-banking/
