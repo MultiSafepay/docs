@@ -63,8 +63,6 @@ Sample statuses:
 
 {{< details title="CBC" >}}
 
-Payment page: CBC can only be processed on our new payment page starting with PayV2.
-
 Sample statuses:
 
 | Status    | Description              |
@@ -133,8 +131,6 @@ Sample statuses:
 {{< /details >}}
 
 {{< details title="KBC" >}}
-
-Payment page: KBC can only be processed on our new payment page starting with PayV2.
 
 Sample statuses:
 

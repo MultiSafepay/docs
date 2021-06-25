@@ -2,16 +2,16 @@
 title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "CBC - Integration and testing - MultiSafepay Docs"
+meta_title: "KBC - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Bancontact in your ecommerce platform"
 layout: 'child'
-logo: '/logo/Payment_methods/cbc.svg'
+logo: '/logo/Payment_methods/KBC.svg'
 aliases:
-    - /payment-methods/cbc/cbc-testing
+    - /payment-methods/kbc/kbc-testing
 ---
 
-To integrate CBC using our API, see API Reference – [CBC](/api/#cbc).
+To integrate KBC using our API, see API Reference – [KBC](/api/#kbc).
 
 {{< details title="View sample statuses" >}}
 
