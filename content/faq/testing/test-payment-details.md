@@ -147,14 +147,16 @@ Sample statuses:
 
 {{< details title="Request to Pay" >}}
 
-Testing environment: You can test Request to Pay transactions through Deutsche Bank. In the **Bank** field > **Fill-in Demo Bank**. 
+You can test Request to Pay transactions through Deutsche Bank: 
+
+In the **Bank** field > **Fill-in Demo Bank**. 
 
 Sample statuses:
 
 | Status    | Testing instructions | Description              |
 | --------- | ----------------------- | ----------------------- |
-| **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
-| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
+| **Completed** | Follow the steps from Deutsche Bank. | The transaction was completed. |
+| **Canceled** | Click the **Close** button at the top right of the screen. | The transaction was canceled. |
 
 {{< /details >}}
 
