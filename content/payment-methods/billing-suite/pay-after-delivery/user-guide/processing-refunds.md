@@ -6,7 +6,7 @@ read_more: "."
 weight: 1
 ---
 
-{{< details title="Refund rules" >}}
+{{< details title="Pay After Delivery refund rules" >}}
 
 - If the customer hasn't paid, you can cancel the transaction by performing a full refund.
 

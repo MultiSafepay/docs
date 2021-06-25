@@ -7,7 +7,7 @@ weight: 10
 aliases: 
     - /payment-methods/idealqr/refund-idealqr/
 ---
-{{< details title="Refund rules" >}}
+{{< details title="iDEAL QR refund rules" >}}
 - You can [refund more than the original transaction value](/faq/finance/refunding-more-than-original-transaction/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

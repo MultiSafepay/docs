@@ -7,7 +7,7 @@ weight: 10
 aliases: 
     - /payment-methods/bancontact/refund-bank-transfer/
 ---
-{{< details title="Refund rules" >}}
+{{< details title="Bank Transfer refund rules" >}}
 - You can [refund more than the original transaction value](/faq/finance/refunding-more-than-original-transaction/). By default, MultiSafepay doesn't allow you to refund more than the original transaction value, which you need to change in your MultiSafepay account.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

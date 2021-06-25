@@ -6,7 +6,7 @@ read_more: "."
 weight: 2
 ---
 
-{{< details title="Refund rules" >}}
+{{< details title="Klarna refund rules" >}}
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

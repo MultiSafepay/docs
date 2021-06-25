@@ -7,7 +7,7 @@ weight: 10
 aliases: 
     - /payment-methods/bancontact/refund-ing-home-pay/
 ---
-{{< details title="Refund rules" >}}
+{{< details title="ING Home'Pay refund rules" >}}
 
 - MultiSafepay doesn't automatically receive the IBAN when a transaction is completed. We import our bank statements daily. All incoming payments are then completed. You can process refunds after 1 business day.
 

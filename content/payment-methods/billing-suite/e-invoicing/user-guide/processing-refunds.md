@@ -1,12 +1,12 @@
 ---
 title : "Processing refunds"
-meta_title: "E-invoicing - Processing refunds - MultiSafepay Docs"
+meta_title: "E-Invoicing - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 1
 ---
 
-{{< details title="Refund rules" >}}
+{{< details title="E-Invoicing refund rules" >}}
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

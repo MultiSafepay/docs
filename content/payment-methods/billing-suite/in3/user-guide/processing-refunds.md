@@ -6,7 +6,7 @@ read_more: "."
 weight: 1
 ---
 
-{{< details title="Refund rules" >}}
+{{< details title="in3 refund rules" >}}
 
 - You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards.
 
