@@ -21,5 +21,5 @@ You can filter the generic gateway by:
   - Country
   - Minimum amount
   - Maximum amount
-  - You can also set a custom initial order status.
+- You can also set a custom initial order status.
   - Full refunds, partial refunds (except for billing suites), and backend orders are fully supported.
