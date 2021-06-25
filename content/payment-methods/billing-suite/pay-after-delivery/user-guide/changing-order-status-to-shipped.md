@@ -10,13 +10,18 @@ After you ship the order to the customer, you need to change the order status fr
 
 - Automatically using our [API](https://docs.multisafepay.com/api/#update-an-order), which updates your MultiSafepay Control 
 - Automatically in your [ecommerce integration](/integrations/ecommerce-integrations)
-- Manually in your [MultiSafepay Control](https://merchant.multisafepay.com)
+- Manually in your [MultiSafepay account](https://merchant.multisafepay.com)
 
 To change the order status manually, follow these steps:
 
-- Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
-- Go to **Transactions** > **Transactions overview**.
-- Search for the transaction, and click to open the **Transaction details** page. 
-- Under **Order details**, click **Change order status**. 
-- Change the status to **Shipped**.
-- Send the customer the Track & Trace details, if relevant.
+1. Log in to your [MultiSafepay accout](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transactions overview**.
+3. Search for the transaction, and click to open the **Transaction details** page. 
+4. Under **Order details**, click **Change order status**. 
+5. Change the status to **Shipped**.
+6. Send the customer the Track & Trace details, if relevant.
+
+For more information about MultiFactor shipping policies, see MultiFactor:
+
+- [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/)
+- [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy)
