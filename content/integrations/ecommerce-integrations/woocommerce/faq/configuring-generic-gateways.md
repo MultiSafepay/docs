@@ -11,16 +11,15 @@ To configure the generic gateway, follow these steps:
 
 1. Log in to your WooCommerce backend.
 2. Go to **Settings** > **Payments** tab. All payment methods are listed here.
-3. Set theL  
-  - Gateway code
-  - Gateway logo
-  - Gateway label
-  - For billing suites, whether to include the shopping cart in refunds (**required**)
+3. Select Generic Gateway and set:
+   * Gateway code
+   * Gateway logo
+   * Gateway label
+   * For billing suites, whether to include the shopping cart in refunds (**required**)
 
-- You can filter the generic gateway by:
-
+You can filter the generic gateway by:
   - Country
   - Minimum amount
   - Maximum amount
-- You can also set a custom initial order status.
-- Full refunds, partial refunds (except for billing suites), and backend orders are fully supported.
+  - You can also set a custom initial order status.
+  - Full refunds, partial refunds (except for billing suites), and backend orders are fully supported.
