@@ -49,8 +49,13 @@ To successfully process partial refunds for the same product with different spec
 
 Discounts are processed as a **negative amount** instead of a **negative quantity**. This method of adding discounts only applies to successful transactions. 
 
-For how to add discounts **before** the transaction request is submitted to MultiSafepay, see API Reference - [Discount](/api/#discount).
+**API**  
+For how to add a discount in your transaction request via our API, see API Reference – [Discount](/api/#discount):
 
+- Discount added as a unit price
+- Discount added as an order rule (non-refundable)
+
+**MultiSafepay Control**  
 Instead of deleting an item in the checkout editor, you may want to add a discount. Follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
