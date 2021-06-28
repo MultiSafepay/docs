@@ -10,3 +10,5 @@ logo: '/logo/Payment_methods/TrustPay.svg'
 ---
 
 To integrate TrustPay using our API, see API Reference – [TrustPay](/api/#trustpay).
+
+It is not possible to test TrustPay payments.

@@ -199,6 +199,12 @@ Sample statuses:
 
 {{< /details >}}
 
+{{< details title="TrustPay" >}}
+
+It is not possible to test TrustPay payments.
+
+{{< /details >}}
+
 ## Billing suites
 
 {{< details title="AfterPay" >}}
