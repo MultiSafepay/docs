@@ -12,7 +12,7 @@ aliases:
 ---
 
 
-The table below shows a successful ING Home'Pay payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

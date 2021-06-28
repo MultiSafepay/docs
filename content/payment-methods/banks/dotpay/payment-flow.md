@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/dotpay/dotpay-how-does-it-work/
 ---
 
-The table below shows a successful Dotpay payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

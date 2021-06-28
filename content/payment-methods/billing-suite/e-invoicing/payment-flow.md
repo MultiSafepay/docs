@@ -8,7 +8,7 @@ short_description: "Flow from start to finish, including order and transaction s
 layout: 'child'
 ---
 
-The table below shows a successful E-invoicing payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

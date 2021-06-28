@@ -26,6 +26,4 @@ Dotpay is an inter-bank payment method that links all major Polish retail banks.
 
 ## Product rules
 
-- You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
-
-- You must provide the customer's first and last name to finalize payment, since the customer cannot enter them on the payment page. Otherwise the transaction is automatically rejected. 
+You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).

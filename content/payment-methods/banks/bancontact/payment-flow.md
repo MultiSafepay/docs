@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/how-does-bancontact-work/
 ---
 
-The table below shows a successful Bancontact payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

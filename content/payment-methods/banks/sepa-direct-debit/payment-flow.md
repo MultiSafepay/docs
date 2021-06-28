@@ -14,7 +14,7 @@ aliases:
 
 ---
 
-The table below shows a successful SEPA Direct Debit payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

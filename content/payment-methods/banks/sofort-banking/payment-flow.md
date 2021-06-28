@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/sofort-banking/how-does-sofort-banking-work/
 ---
 
-The table below shows a successful SOFORT Banking payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

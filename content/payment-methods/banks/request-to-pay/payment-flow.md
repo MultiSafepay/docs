@@ -14,7 +14,7 @@ aliases:
     - /payment-methods/banks/direct-bank-transfer/#product-rules
 ---
 
-The table below shows a successful Request to Pay payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

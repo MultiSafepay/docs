@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/cbc/how-does-cbc-work/
 ---
 
-The table below shows a successful CBC payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

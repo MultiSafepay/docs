@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/kbc/how-does-kbc-work/
 ---
 
-The table below shows a successful KBC payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

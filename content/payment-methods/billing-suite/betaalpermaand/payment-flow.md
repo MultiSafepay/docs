@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
 ---
 
-The table below shows a successful Betaal per Maand payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
 ---
 
-The table below shows a successful Pay After Delivery payment flow from start to finish.
+The table below shows a successful payment flow from start to finish.
 
 {{< details title="About order and transaction statuses" >}}
 

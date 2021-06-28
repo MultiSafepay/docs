@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bank-transfer/how-does-bank-transfer-work/
 ---
 
-The table below shows a successful Bank Transfer payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

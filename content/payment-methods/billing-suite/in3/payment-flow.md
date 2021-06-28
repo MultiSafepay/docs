@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/svgs/in3.svg'
 ---
 
-The table below shows a successful in3 payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 

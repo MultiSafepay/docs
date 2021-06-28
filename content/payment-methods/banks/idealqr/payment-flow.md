@@ -12,7 +12,7 @@ aliases:
     - /payment-methods/idealqr/how-does-idealqr-work/
 ---
 
-The table below shows a successful iDEAL QR payment flow from start to finish.  
+The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
 
