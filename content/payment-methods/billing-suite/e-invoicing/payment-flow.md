@@ -10,10 +10,14 @@ layout: 'child'
 
 The table below shows a successful E-invoicing payment flow from start to finish.  
 
-In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
+{{< details title="About order and transaction statuses" >}}
+
+In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
+
+{{< /details >}}
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
@@ -40,11 +44,5 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The payment has been cancelled. | Void | Cancelled |
 | The payment was not completed and it expired. | Expired | Expired |
 
+For refund statuses, see [Processing refunds](/payment-methods/billing-suite/e-invoicing/user-guide/processing-refunds/).
 
-## Refund statuses
-For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/e-invoicing/faq/processing-refunds/).
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed.  | Completed | Completed |

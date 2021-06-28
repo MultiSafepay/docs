@@ -14,10 +14,14 @@ aliases:
 
 The table below shows a successful iDEAL QR payment flow from start to finish.  
 
+{{< details title="About order and transaction statuses" >}}
+
 In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
+
+{{< /details >}}
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
@@ -35,11 +39,6 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-## Refund statuses
+For refund statuses, see [Processing refunds](/payment-methods/banks/idealqr/user-guide/processing-refunds/).
 
-For how to process refunds, see [Processing refunds](/payment-methods/banks/idealqr/user-guide/processing-refunds/).
 
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed. | Completed | Completed |

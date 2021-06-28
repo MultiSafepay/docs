@@ -11,10 +11,14 @@ logo: '/svgs/in3.svg'
 
 The table below shows a successful in3 payment flow from start to finish.  
 
-In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
+{{< details title="About order and transaction statuses" >}}
+
+In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
+
+{{< /details >}}
 
 ### Payment flow
 
@@ -38,11 +42,6 @@ You can cancel payments before the funds are captured. After the funds are captu
 | in3 has declined the payment. No order was created.    | Declined   | Declined   |
 | The payment was cancelled or abandoned. | Void    | Void    |
 
-### Refund statuses
+For refund statuses, see [Processing refunds](/payment-methods/billing-suite/in3/user-guide/processing-refunds).
 
-For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/in3/faq/processing-refunds).
 
-| Description                      | Order status      | Transaction status |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| in3 has successfully processed a full or partial refund. | Completed    | Completed   |
-| in3 has declined a full or partial refund request.  | Declined      | Declined   |

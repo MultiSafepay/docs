@@ -22,6 +22,15 @@ If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
+{{< details title="Refund statuses" >}}
+
+| Description                      | Order status      | Transaction status |
+|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| in3 has successfully processed a full or partial refund. | Completed    | Completed   |
+| in3 has declined a full or partial refund request.  | Declined      | Declined   |
+
+{{< /details >}}
+
 ## In your MultiSafepay account
 
 {{< details title="Full refunds" >}}

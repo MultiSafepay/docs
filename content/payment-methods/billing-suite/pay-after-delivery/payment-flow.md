@@ -9,14 +9,16 @@ layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
 ---
 
-In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses:
+The table below shows a successful Pay After Delivery payment flow from start to finish.
 
-- Order status: indicates the status of the customer’s order with the merchant independent of the payment
+{{< details title="About order and transaction statuses" >}}
+
+In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
+
+- Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
 
-### Payment flow
-
-The table below shows a successful Pay After Delivery payment flow from start to finish.
+{{< /details >}}
 
 |   | Flow  | Order status  | Transaction status  |
 |---|---|---|---| 
@@ -51,11 +53,6 @@ See also [Closing transactions](/payment-methods/billing-suite/pay-after-deliver
 | The transaction has been cancelled. | Void   | Cancelled | 
 | The customer did not complete the payment within 90 days and the transaction has expired. | Expired | Expired | 
 
-### Refund statuses
+For refund statuses, see [Processing refunds](/payment-methods/billing-suite/pay-after-delivery/user-guide/processing-refunds/).
 
-For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/pay-after-delivery/faq/processing-refunds/).
 
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |  
-| The refund is successfully processed. | Completed | Completed | 

@@ -27,6 +27,16 @@ If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
+{{< details title="Refund statuses" >}}
+
+
+| Description                      | Order status      | Transaction status |
+|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| The customer has requested a refund. | Reserved    | Reserved   |
+| The refund was successfully processed.  | Completed      | Completed   |
+
+{{< /details >}}
+
 ## In your MultiSafepay account
 
 {{< details title="Full refunds" >}}

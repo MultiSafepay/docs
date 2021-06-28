@@ -11,10 +11,14 @@ logo: '/logo/Payment_methods/Klarna.svg'
 
 The table below shows a successful Betaal per Maand payment flow from start to finish.  
 
-In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
+{{< details title="About order and transaction statuses" >}}
+
+In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
+
+{{< /details >}}
 
 ### Payment flow
 
@@ -42,11 +46,5 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The payment was cancelled.   | Void   | Cancelled   |
 | The customer did not complete the payment, and it expired. | Expired    | Expired    |
 
-### Refund statuses
+For refund statuses, see [Processing refunds](/payment-methods/billing-suite/betaalpermaand/user-guide/processing-refunds).
 
-For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/betaalpermaand/#processing-refunds).
-
-| Description                      | Order status      | Transaction status |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |

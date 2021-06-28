@@ -11,10 +11,14 @@ logo: '/logo/Payment_methods/Klarna.svg'
 
 The table below shows the Klarna payment flow from start to finish.  
 
-In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
+{{< details title="About order and transaction statuses" >}}
+
+In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
+
+{{< /details >}}
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
@@ -36,11 +40,6 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Klarna has declined the payment. See Klarna&nbsp;–&nbsp;[Contact customer service](https://www.klarna.com/international/contact-customer-service). {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the payment.    | Void   | Cancelled   |
 | The payment was not completed or the [order status did not change to Shipped]((/payment-methods/billing-suite/klarna/user-guide/changing-order-status-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay Control **Transaction overview**. Create a new order, if required.  | Expired    | Expired    |
 
-## Refund statuses
+For refund statuses, see [Processing refunds](/payment-methods/billing-suite/klarna/user-guide/processing-refunds/).
 
-For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/klarna/user-guide/processing-refunds/).
 
-| Description                      | Order status      | Transaction status |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| The customer requests a refund. | Initialized    | Completed   |
-| The refund is successfully processed.  | Completed      | Completed   |

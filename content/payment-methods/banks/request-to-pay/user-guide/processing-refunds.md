@@ -21,6 +21,16 @@ If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
+{{< details title="Refund statuses" >}}
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Reserved | Reserved |
+| The refund has been successfully processed. | Completed | Completed |
+| Deutsche Bank has declined the refund. | Declined | Declined |
+
+{{< /details >}}
+
 ## In your MultiSafepay account
 
 {{< details title="Full refunds" >}}
