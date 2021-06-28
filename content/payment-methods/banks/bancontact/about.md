@@ -2,7 +2,7 @@
 title: "About Bancontact"
 breadcrumb_title: 'About Bancontact'
 weight: 10
-meta_title: "About Bancontact- MultiSafepay Docs"
+meta_title: "About Bancontact - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
