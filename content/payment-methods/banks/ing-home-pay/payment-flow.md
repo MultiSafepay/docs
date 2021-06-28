@@ -27,7 +27,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|---|
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link and redirects the customer to a [MultiSafepay payment page](/tools/payment-pages/what-is-payv2). |   |  |
-| 3. | The customer authenticates their account, and confirms to pay. {{< br >}} **Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
+| 3. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
 | 4. | The transaction is successful and ING Home'Pay settles the funds with MultiSafepay. | Completed | Completed |
 | 5. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
 

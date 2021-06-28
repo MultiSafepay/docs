@@ -26,7 +26,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|---|
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account, and confirms to pay. | | |
+| 3. | The customer authenticates their account and completes the payment. | | |
 | 4. | Settlement is pending. This may take up to 3 business days and applies to all payments regardless of the amount. {{< br >}} Do **not** ship orders during this status. MultiSafepay assumes no responsibility if you ship orders and the transaction fails. | Uncleared | Uncleared |
 | 5. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. | Completed | Completed |
 | 6. | SOFORT Banking settles the funds with MultiSafepay.| | |

@@ -25,7 +25,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|---|
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account, and confirms to pay. | | |
+| 3. | The customer authenticates their account and completes the payment. | | |
 | 4. | The transaction is successful.  | Completed | Completed |
 | 5. | TrustPay settles the funds with MultiSafepay.| | |
 | 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
