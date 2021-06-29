@@ -12,13 +12,14 @@ Notifications are webhooks where the MultiSafepay API notifies your web server w
 - Customers, e.g. completing a payment
 - Merchants, e.g. initiating a refund
 
-In MultiSafepay plugin for WooCommerce version 4.7.0, we introduce a change to process the notification via POST request, instead of GET request taking advantage of this method and saving your web server one request, since the notification payload is being validated it doesn’t have to request the transaction status from our API again.
+In the MultiSafepay plugin for WooCommerce version 4.7.0, we introduced a change to process notifications via POST request, instead of GET request.
 
-You can read more about POST notification in the following article: 
+You can read more about this in the following article: 
 
   - https://docs.multisafepay.com/faq/api/notification-url/#get-vs-post-notification
 
-However, sometimes the REST endpoint used to process the notifications could be blocked by a firewall at server level or by some security Wordpress plugin at application level like Wordfence or All In One WP Security & Firewall. 
+However, sometimes the REST endpoint used to process the notifications could be blocked by a firewall at server level or by some WordPress plugins at application level. 
 
-If this is the case, most of the plugins provide a way to include the notification url in a whitelist. Check this with your developers to include our request in a whitelist. 
+If this is the case, most of the plugins provide a way to include the notification url in a whitelist. 
+Check this with your developers to include our request in a whitelist. 
 
