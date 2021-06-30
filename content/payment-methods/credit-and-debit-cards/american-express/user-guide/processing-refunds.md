@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 weight: 1
 aliases:
-    - /payment-mthods/credit-and-debit-cards/american-express/refund-american-express
+    - /payment-methods/credit-and-debit-cards/american-express/refund-american-express
 ---
 
 {{< details title="American Express refund rules" >}}
