@@ -10,4 +10,3 @@ weight: 2
 - Overview of all transactions within a specific timeframe
 - Includes: Currency, transaction status, payment method, website, grouping of costs
 - Formats: Excel or PDF
-- See [Transaction summary](https://merchant.multisafepay.com/transaction-summary)

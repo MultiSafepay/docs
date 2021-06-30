@@ -14,4 +14,3 @@ aliases:
 - Excludes: Withdrawals
 - Group by payment method and cost type
 - Format: Excel or PDF
-- See [Financial summary](https://merchant.multisafepay.com/financial-summary)
