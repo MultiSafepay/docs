@@ -1,23 +1,32 @@
 ---
-title: "Dankort, What it is"
-meta_title: "Dankort, What it is - MultiSafepay Docs"
+title: 'About Dankort'
+breadcrumb_title: 'About Dankort'
+weight: 10
+meta_title: "About Dankort - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+short_description: "Key information, supported countries and currencies"
+layout: 'child'
 read_more: '.'
 aliases:
     - /payment-methods/branded-credit-cards/dankort-what-is-it/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
     - /payment-methods/credit-and-debit-cards/dankort-what-is-it/
 ---
-## Dankort
-### What is Dankort
-Dankort - a Visa co-branded product - is one of the best-known and most commonly used Danish credit cards. Every credit card with the 'Verified by Visa' logo can be safely used for online payments.
 
-| Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
-|----------------|-------------------|-----------|------------|------------------|------------|---------------|
-|Credit/Debit|Direct/Redirect|DK|[Multiple](https://docs.multisafepay.com/faq/general/which-currencies-are-supported-by-multisafepay)|Full/Partial|Yes|Yes|
+Dankort is a popular Visa-branded credit card in Denmark. An additional layer of security is provided by Verified by Visa (Visa's version of 3D Secure), which requires cardholders to verify their identity.
 
-### How Dankort works
-Dankort payments are processed through the Visa gateway.
+### Summary
+
+|   |   |   |
+|---|---|---|
+| **Payment type**   | Credit card  | |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **Countries**  | Denmark  | |
+| **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
+| **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/dankort/processing-refunds/) | 
+| **Recurring payments**  | Yes | [More information](/tools/recurring-payments)  |
+| **Chargebacks**  | Yes | [More information](/faq/chargebacks) {{< br >}} You are solely liable for paying chargebacks.  |
+
 
 ### How to activate Dankort?
 For Dankort to be available as a payment method on the payment page of MultiSafepay, the following are required:
