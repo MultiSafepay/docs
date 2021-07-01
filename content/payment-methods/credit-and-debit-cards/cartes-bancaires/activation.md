@@ -15,4 +15,4 @@ To make Cartes Bancaires available as a payment method on the MultiSafepay credi
 - Ensure you have enabled the Visa gateway.
 - Set the [`locale`](/faq/api/locale) to `fr_FR` (France) in transaction requests.
 
-Download the [Cartes Bancaires logo](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
+Download the Cartes Bancaires logo from the [MultiSafepay logo collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 

@@ -14,4 +14,4 @@ To make Dankort available as a payment method on the MultiSafepay credit card pa
 - Ensure you have enabled the Visa gateway.
 - Set the [`locale`](/faq/api/locale) to `da_DK` (France) in transaction requests.
 
-Download the [Dankort logo](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
+Download the Dankort logo from the [MultiSafepay logo collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
