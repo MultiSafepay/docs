@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/maestro/what-is-maestro/
 ---
 
-Maestro is a debit card service owned by Mastercard. It is accepted across Europe and in many other countries, and is especially popular in Belgium. An additional layer of security is provided by mandatory 3D Secure authentication, which requires cardholders to verify their identity.
+Maestro is a debit card service owned by Mastercard. It is accepted across Europe and in many other countries, and is especially popular in Belgium. An additional layer of security is provided by mandatory [3D Secure](/faq/payment-regulations/about-3d-secure/) authentication, which requires cardholders to verify their identity.
 
 ### Summary
 

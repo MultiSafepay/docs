@@ -1,6 +1,6 @@
 ---
 title: 'American Express'
-weight: 50
+weight: 20
 meta_title: "Payment methods - American Express - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/american-express"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."

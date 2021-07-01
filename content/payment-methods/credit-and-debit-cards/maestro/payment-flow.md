@@ -25,7 +25,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|---|
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer enters their credit card details, verifies their identify via 3D Secure, and completes the payment. | | |
+| 3. | The customer enters their credit card details, verifies their identify via [3D Secure](/faq/payment-regulations/about-3d-secure/), and completes the payment. | | |
 | 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
 | 5. | Manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
 | 6. | The transaction is successful. |  |  |

@@ -6,9 +6,8 @@ meta_title: "American Express - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing American Express in your ecommerce platform"
 layout: 'child'
-logo: '/logo/Payment_methods/American_Express.svg'
 aliases:
-    - /payment-methods/credit-and-debit-cards/american-express-testing
+    - /payment-methods/credit-and-debit-cards/american-express/american-express-testing
     - /payment-methods/credit-and-debit-cards/credit-card-payment-page
 ---
 

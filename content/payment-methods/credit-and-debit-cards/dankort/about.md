@@ -13,7 +13,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/dankort-what-is-it/
 ---
 
-Dankort is a popular Visa-branded credit card in Denmark. An additional layer of security is provided by Verified by Visa (Visa's version of 3D Secure), which requires cardholders to verify their identity.
+Dankort is a popular Visa-branded credit card in Denmark. An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/faq/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
 
 ### Summary
 
@@ -23,6 +23,6 @@ Dankort is a popular Visa-branded credit card in Denmark. An additional layer of
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Denmark  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/maestro/processing-refunds/) | 
+| **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/dankort/user-guide/processing-refunds/) | 
 | **Recurring payments**  | Yes | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks) |

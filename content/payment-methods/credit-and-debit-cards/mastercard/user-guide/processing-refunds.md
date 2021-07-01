@@ -1,15 +1,14 @@
 ---
 title : "Processing refunds"
 weight: 10
-meta_title: "American Express - Processing refunds - MultiSafepay Docs"
+meta_title: "Mastercard - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
-weight: 1
 aliases:
-    - /payment-methods/credit-and-debit-cards/american-express/refund-american-express
+    - /payment-methods/credit-and-debit-cards/mastercard/refund-mastercard
 ---
 
-{{< details title="American Express refund rules" >}}
+{{< details title="Mastercard refund rules" >}}
 
 - You cannot refund more than the amount of the original transaction.
 

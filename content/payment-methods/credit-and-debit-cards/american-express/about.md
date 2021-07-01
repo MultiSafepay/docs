@@ -6,12 +6,11 @@ meta_title: "About American Express - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-logo: '/logo/Payment_methods/American_Express.svg'
 aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
 ---
 
-American Express is one of the biggest global credit card schemes, accepted in more than 160 countries. An additional layer of security is provided by Safekey (the American Express-branded version of [3D Secure](/faq/general/glossary/#3d-secure)), which requires cardholders to verify their identity.
+American Express is one of the biggest global credit card schemes, accepted in more than 160 countries. An additional layer of security is provided by Safekey (the American Express-branded version of [3D Secure](/faq/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
 
 ### Summary
 

@@ -1,7 +1,7 @@
 ---
-title : "Chargebacks"
+title : "About chargebacks"
 weight: 30
-meta_title: "American Express user guide - Chargebacks - MultiSafepay Docs"
+meta_title: "American Express user guide - About chargebacks - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
