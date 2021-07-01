@@ -1,6 +1,6 @@
 ---
 title: 'Mastercard'
-weight: 40
+weight: 50
 meta_title: "Payment methods - Mastercard - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/mastercard"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."

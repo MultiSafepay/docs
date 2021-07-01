@@ -1,6 +1,6 @@
 ---
 title: 'Maestro'
-weight: 60
+weight: 70
 meta_title: "Payment methods - Maestro - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/maestro"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
