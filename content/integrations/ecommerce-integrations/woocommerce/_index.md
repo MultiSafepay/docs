@@ -5,7 +5,6 @@ download_url : "https://github.com/MultiSafepay/WooCommerce/releases/download/4.
 changelog_url : "."
 manual: "."
 faq: "."
-newsletter: "WooCommerce"
 repo_url : "MultiSafepay/WooCommerce"
 meta_title: "WooCommerce plugin integration - MultiSafepay Docs"
 meta_description: "Integrate MultiSafepay payment solutions into your Wordpress WooCommerce webshop. MultiSafepay Docs provides information about getting started, building and testing integrations."

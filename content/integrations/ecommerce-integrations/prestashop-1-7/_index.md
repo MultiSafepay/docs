@@ -6,7 +6,6 @@ download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/4.8
 changelog_url : "."
 manual: "."
 faq: "."
-newsletter: "PrestaShop"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 09

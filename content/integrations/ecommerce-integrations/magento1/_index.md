@@ -5,7 +5,6 @@ changelog_url : "."
 changelog: https://docs.multisafepay.com/integrations/ecommerce-integrations/magento1/changelog/
 manual: "."
 faq: "."
-newsletter: "Magento 1"
 meta_title: "Magento 1 plugin integration - MultiSafepay Docs"
 meta_description: "MultiSafepay plugin for Magento 1. Easily integrate MultiSafepay payment solutions into your Magento 1 platform with the free plugin"
 description : "Free plugin to integrate MultiSafepay payment solutions into your Magento 1 webshop. Our Magento 1 plugin is professionally supported by a certified Magento 1 Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay."
