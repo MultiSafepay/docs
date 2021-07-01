@@ -23,7 +23,6 @@ Dankort is a popular Visa-branded credit card in Denmark. An additional layer of
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Denmark  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/dankort/processing-refunds/) | 
+| **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/maestro/processing-refunds/) | 
 | **Recurring payments**  | Yes | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks) |
-s
