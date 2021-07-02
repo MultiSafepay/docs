@@ -12,8 +12,6 @@ aliases:
 
 To integrate PayPal using our API, see API Reference – [PayPal](/api/#paypal).
 
-## Testing
-
 {{< details title="Credentials and testing process" >}}
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
