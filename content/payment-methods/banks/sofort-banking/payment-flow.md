@@ -29,8 +29,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 3. | The customer authenticates their account and completes the payment. | | |
 | 4. | Settlement is pending. This may take up to 3 business days and applies to all payments regardless of the amount. {{< br >}} Do **not** ship orders during this status. MultiSafepay assumes no responsibility if you ship orders and the transaction fails. | Uncleared | Uncleared |
 | 5. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. | Completed | Completed |
-| 6. | SOFORT Banking settles the funds with MultiSafepay.| | |
-| 7. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+| 6. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| | |
 
 ## Unsuccessful statuses
 

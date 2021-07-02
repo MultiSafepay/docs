@@ -30,7 +30,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 6. | Klarna invoices the customer. Settlement is now guaranteed. {{< br >}} See also [Customizing invoices](/payment-methods/billing-suite/klarna/user-guide/customizing-invoices/). | | |
 | 7. | The customer completes the payment with Klarna. |     |   |
 | 8. | Klarna settles the funds with MultiSafepay. | Shipped    | Completed  |
-| 9. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+| 9. | MultiSafepay adds the funds to your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.

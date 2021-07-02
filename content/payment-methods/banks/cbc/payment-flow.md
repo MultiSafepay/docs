@@ -26,8 +26,8 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|---|
 | 1. | The customer initiates a transaction and is redirected to a MultiSafepay PayV2 payment page. | Initialized | Initialized |
 | 2. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
-| 3. | The transaction is successful, and CBC settles the funds with MultiSafepay.  | Completed | Completed |
-| 4. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+| 3. | The transaction is successful.  |  |  |
+| 4. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 

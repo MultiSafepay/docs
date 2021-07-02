@@ -65,9 +65,6 @@ To refund part of the transaction in the checkout editor, follow these steps:
 
 {{< /details >}}
 
-## Via our API
-Make a POST `/orders/{order_id}/refunds` request. See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
-
 ### In your backend
 You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/).
 

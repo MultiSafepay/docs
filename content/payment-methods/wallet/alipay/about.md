@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/wallet/alipay/alipay-what-is-it
 ---
 
-Alipay is a leading global payment method lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
+Alipay is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
 
 ### Summary
 

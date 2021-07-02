@@ -29,8 +29,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
 | 5. | Manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
 | 6. | The transaction is successful. |  |  |
-| 7. | Maestro settles the funds with MultiSafepay. | Completed | Completed |
-| 8. | MultiSafepay adds the funds to your MultiSafepay balance. |  |  |
+| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
 

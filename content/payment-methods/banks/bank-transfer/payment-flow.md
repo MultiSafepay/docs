@@ -28,7 +28,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer receives details for a MultiSafepay bank account by email, sent by MultiSafepay or [from your ecommerce integration](/payment-methods/banks/bank-transfer/user-guide/emailing-payment-instructions/).  |   |  |
 | 4. | The customer transfers the funds to the MultiSafepay bank account, either online or with a bank teller. {{< br >}} The funds may take 1 to 3 business days to arrive in our account. | | |
-| 5. | MultiSafepay receives the payment and matches it to the outstanding transaction. {{< br >}} **Note:** If the customer provides incorrect data and/or pays the wrong amount, we won't link the payment to the outstanding transaction and instead refund the payment to the customer. | Completed | Completed |
+| 5. | MultiSafepay collects the funds and matches the payment to the outstanding transaction. {{< br >}} **Note:** If the customer provides incorrect data and/or pays the wrong amount, we won't link the payment to the outstanding transaction and instead refund the payment to the customer. | Completed | Completed |
 | 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
 
 ## Unsuccessful statuses

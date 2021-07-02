@@ -27,8 +27,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer completes the payment. | | |
 | 4. | The transaction is successful. |  |  |
-| 5. | Alipay settles the funds with MultiSafepay. | Completed | Completed |
-| 6. | MultiSafepay adds the funds to your MultiSafepay balance. |  |  |
+| 5. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
 

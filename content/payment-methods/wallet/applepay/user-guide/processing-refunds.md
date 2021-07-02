@@ -1,29 +1,27 @@
 ---
 title : "Processing refunds"
 weight: 10
-meta_title: "American Express - Processing refunds - MultiSafepay Docs"
+meta_title: "Apple Pay - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 1
 aliases:
-    - /payment-methods/credit-and-debit-cards/american-express/refund-american-express
+    - /payment-methods/wallet/applepay/refund-apple-pay
 ---
 
-{{< details title="American Express refund rules" >}}
+{{< details title="Apple Pay refund rules" >}}
 
-- You cannot refund more than the amount of the original transaction.
+- You cannot [refund more than original amount](/faq/finance/refund-more-than-original-amount).
 
-- The maximum refund period is 180 days. After this period, we recommend processing refunds by bank transfer.
+- The maximum refund period for Maestro, Mastercard, and Visa transactions is 180 days. After this, we recommend processing refunds by bank transfer.
 
 - While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
 
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
-- The customer receives the refund in the bank account they originally paid from within the next business day.
+- The customer receives the refund in their Apple Pay account and it appears on their credit card statement within the next business day.
 
-- Depending on the customer's issuer, the amount may not appear directly on their card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), they can email the Support Team at <support@multisafepay.com> 
-
-- If you process a partial refund on the same day, this is technically called a "reversal", but for simplicity is logged as a refund in your MultiSafepay account. On customer credit card statements, the transaction may either be adjusted to the new amount (partial reversal) _or_ not debited at all (full reversal).
+If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
@@ -71,3 +69,4 @@ To refund part of the transaction in the checkout editor, follow these steps:
 
 ### In your backend
 You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/).
+

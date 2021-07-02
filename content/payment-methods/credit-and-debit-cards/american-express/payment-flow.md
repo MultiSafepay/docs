@@ -29,7 +29,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
 | 5. | Manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
 | 6. | The transaction is successful. |  |  |
-| 7. | American Express settles the funds with MultiSafepay, and we add the funds to your MultiSafepay balance. {{< br >}} **Or** {{< br >}} If you use your American Express MID (MerchantID), Amercian Express settles the funds directly in your business bank account. | Completed | Completed |
+| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. {{< br >}} **Or** {{< br >}} If you use your American Express MID (MerchantID), Amercian Express settles the funds directly in your business bank account. | Completed | Completed |
 
 ## Unsuccessful statuses
 

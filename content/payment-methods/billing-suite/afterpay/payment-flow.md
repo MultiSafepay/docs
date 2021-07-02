@@ -32,7 +32,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 6. | AfterPay invoices the customer with a standard payment period of 14 days. Settlement is now guaranteed. | | |
 | 7. | The customer completes the payment with AfterPay via [iDEAL](/payment-methods/banks/ideal/) or online banking, within 14 days unless otherwise agreed in writing. |  |  |
 | 8. | AfterPay settles the funds with MultiSafepay. | Shipped | Completed |
-| 9. | MultiSafepay adds the funds to your MultiSafepay balance.|  |  |
+| 9. | MultiSafepay adds the funds to your MultiSafepay balance.| Completed | Completed |
 
 ### Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.

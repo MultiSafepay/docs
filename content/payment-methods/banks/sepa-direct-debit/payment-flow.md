@@ -31,7 +31,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 2. | MultiSafepay conducts a background check on the customer's information, and if successful, creates an order. | Initialized  | Initialized |
 | 3. | MultiSafepay creates an e-mandate automatically based on the customer's IBAN and your site ID. We specify if it is a `first` debit (processed within 5 days) or `recurring` debit (processed within 2 days). {{< br >}} We send all e-mandates to our bank at the end of every business day. {{< br >}} You can no longer cancel the transaction. | Uncleared | Uncleared |
 | 4. | The customer's bank processes the transaction. For reasons why it may not be successful, see [Cancellation codes](/payment-methods/banks/sepa-direct-debit/user-guide/cancellation-codes/). {{< br >}} If the IBAN or BIC is incorrect, our bank informs us the next business day. |  |  |
-| 5. | The customer's bank settles the funds with MultiSafepay. {{< br >}} For amounts smaller than 500 EUR, settlement takes 7 business days, and for amounts larger than 500 EUR it takes 20 days. | Completed | Uncleared |
+| 5. | MultiSafepay collects the funds. {{< br >}} For amounts smaller than 500 EUR, settlement takes 7 business days, and for amounts larger than 500 EUR it takes 20 days. | Completed | Uncleared |
 | 6. | MultiSafepay adds the funds to your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses

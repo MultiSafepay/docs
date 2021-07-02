@@ -28,8 +28,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer authenticates their account, and completes the payment. | | |
 | 4. | The transaction is successful. | Completed | Completed |
-| 5. | Dotpay settles the funds with MultiSafepay.| | |
-| 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+| 5. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| | |
 
 ## Unsuccessful statuses
 

@@ -10,4 +10,4 @@ Cardholders who disagree with or do not recognise a transaction charged to their
 
 Cartes Bancaires gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
 
-For more information about chargebacks, see [Chargebacks](/faq/chargebacks).
+For more information, see [Chargebacks](/faq/chargebacks).

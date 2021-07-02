@@ -21,14 +21,13 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. |    |   |
+| 1. | The customer initiates a transaction. | Initialized   | Initialized  |
 | 2. | E-invoicing authorizes the payment. | Completed  | Initialized  |
 | 3. | Once authorized, MultiSafepay sends a capture to E-invoicing. |  |  |
 | 4. | Ship the order. | Shipped | Initialized |
 | 5. | E-invoicing invoices the customer. |     |   |
 | 6. | The customer completes the payment. |     |   |
-| 7. | E-invoicing settles the funds with MultiSafepay. |     |   |
-| 8. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed    | Completed  |
 
 See also:
 
