@@ -13,8 +13,6 @@ aliases:
 
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. 
 
-MultiSafepay does **not** process or collect funds for gift card payments. They are processed by the card issuer, which settles the funds directly in your business bank account.
-
 Gift cards can be open-loop (redeemable at multiple merchants) or closed-loop (redeemable at one specific merchant). For more information, see [About open-loop and closed-loop gift cards](/payment-methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/).
 
 In addition to accepting established gift card issuers, you can also [create your own custom gift card](/payment-methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/).
@@ -54,7 +52,7 @@ MultiSafepay supports the following gift cards as standard:
 | **API flow**  | `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium, the Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | From your own online banking environment only  | [More information](/payment-methods/prepaid-cards/gift-cards/user-guide/processing-refunds) | 
+| **Refunds**  | Only payments with a gift card **and** another payment method  | [More information](/payment-methods/prepaid-cards/gift-cards/user-guide/processing-refunds) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 

@@ -20,7 +20,7 @@ Paysafecard lets customers make online payments using secure prepaid vouchers, a
 | **API flow**  | `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner. |
 | **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Yes  | [More information](/payment-methods/prepaid-cards/paysafecard/processing-refunds) | 
+| **Refunds**  | Only payments with Paysafecard **and** another payment method  | [More information](/payment-methods/prepaid-cards/paysafecard/processing-refunds) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 

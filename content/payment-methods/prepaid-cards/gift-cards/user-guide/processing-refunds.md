@@ -9,11 +9,36 @@ aliases:
     - /payment-methods/gift-cards/refund-gift-card
 ---
 
-**Note:** MultiSafepay does not process or collect the funds deducted from gift cards to complete payments. 
+{{< details title="Gift card refund rules" >}}
 
-- Transactions paid with a gift card in full can't be refunded through MultiSafepay because we don't receive any payment details or bank account details from the customer. You can process refunds in your own online banking environment. 
+- You cannot [refund more than the original transaction value](/faq/finance/refunding-more-than-original-transaction/).
 
-- Transcations paid with a gift card and another payment method (e.g. iDEAL) can be refunded in full. 
+- Transactions paid with a gift card in full: You can't refund these from your MultiSafepay balance because we don't receive any payment details or bank account details from the customer to refund to. You can refund these transactions in your own online banking environment. 
+
+- Transactions paid with a gift card **and** another payment method (e.g. iDEAL): You can refund these in full from your MultiSafepay balance. 
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}
+
+{{< details title="Refund statuses" >}}
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Initialized | Initialized |
+| The refund has been successfully processed. | Completed | Completed |
+
+{{< /details >}}
+  
+To refund a transaction paid with a gift card **and** another payment method, follow these steps:
+
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transaction overview**.
+3. Search for the transaction and click to open the **Transaction details** page.
+4. Click **Refund order** > **Full refund**.
+5. Click **Save**.
 
  
 
