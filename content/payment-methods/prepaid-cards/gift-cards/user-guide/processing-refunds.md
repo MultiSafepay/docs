@@ -9,9 +9,11 @@ aliases:
     - /payment-methods/gift-cards/refund-gift-card
 ---
 
-MultiSafepay does not process or collect the funds deducted from gift cards to complete payments. 
+**Note:** MultiSafepay does not process or collect the funds deducted from gift cards to complete payments. 
 
-You can process refunds in your own online banking environment. 
+- Transactions paid with a gift card in full can't be refunded through MultiSafepay because we don't receive any payment details or bank account details from the customer. You can process refunds in your own online banking environment. 
+
+- Transcations paid with a gift card and another payment method (e.g. iDEAL) can be refunded in full. 
 
  
 
