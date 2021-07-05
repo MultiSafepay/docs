@@ -1,0 +1,41 @@
+---
+title: "Gift cards payment flow"
+breadcrumb_title: 'Payment flow'
+weight: 30
+meta_title: "Gift cards payment flow - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+short_description: "Flow from start to finish, including order and transaction status changes"
+layout: 'child'
+aliases: 
+    - /payment-methods/gift-cards/how-do-gift-cards-work
+---
+
+The table below shows a successful payment flow from start to finish.  
+
+{{< details title="About order and transaction statuses" >}}
+
+In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
+
+- Order status: indicates the status of the customer's order with the merchant independent of the payment
+- Transaction status: indicates the status of the payment
+
+{{< /details >}}
+
+|   | Flow | Order status | Transaction status |
+|---|---|---|---|
+| 1. | The customer initiates a transaction. | Initialized | Initialized |
+| 2. | MultiSafepay generates a payment link. |   |  |
+| 3. | The customer enters the gift card details, and completes the payment. | | |
+| 4. | The gift card issuer processes the payment, settles the funds in your business bank account, and sends a **Completed** notification to MultiSafepay. {{< br >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. | Completed | Completed |
+
+## Unsuccessful statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The transaction has been cancelled. | Void   | Cancelled   |
+| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
+
+See also:
+
+- [Processing refunds](/payment-methods/banks/bancontact/user-guide/processing-refunds/)
+- [Handling errors](/payment-methods/prepaid-cards/gift-cards/user-guide/handling-errors/)
