@@ -14,7 +14,7 @@ MultiSafepay supports two types of gift card: open-loop and closed-loop.
 
 - Open-loop gift cards can be redeemed at a wide range of merchants, e.g. clothing stores, resturants, and grocery stores. 
 - The maximum credit value is 150 EUR.
-- The maxiumum amount per transaction is 50 EUR. Any outstanding amount must be paid using another payment method.
+- The maximum amount per transaction is 50 EUR. Any outstanding amount must be paid using another payment method.
 
 ## Closed-loop
 

@@ -62,7 +62,7 @@ MultiSafepay supports the following gift cards as standard:
 
 - For [open-loop gift cards](/payment-methods/prepaid-cards/gift-cards/user-guide/open-closed-loop/):
     - The maximum credit value is 150 EUR.
-    - The maxiumum amount per transaction is 50 EUR. Any outstanding amount must be paid using another payment method.
+    - The maximum amount per transaction is 50 EUR. Any outstanding amount must be paid using another payment method.
 
 {{< details title="Post-payment methods" >}}
 &nbsp;  

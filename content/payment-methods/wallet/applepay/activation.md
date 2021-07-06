@@ -25,7 +25,7 @@ If you **don't** already have credit cards enabled, follow these steps:
 
 **Step 3:** Provide the following information:
 
-- Maxium, average, and minimum transaction amount
+- Maximum, average, and minimum transaction amount
 - Annual turnover in credit cards transactions
 
 Once approved by the Risk Team, we activate Visa, Mastercard, Maestro and Apple Pay in your MultiSafepay account.

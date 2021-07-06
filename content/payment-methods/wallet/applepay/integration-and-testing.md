@@ -36,14 +36,12 @@ If any of these requirements is not met, Apple Pay doesn't appear on the checkou
 
 {{< /details >}}
 
-### Live environment
-
-To test Apple Pay transactions in a live environment **without** processing a real payment, follow these steps:
+To test Apple Pay transactions, follow these steps:
 
 1. On your checkout page, select Apple Pay. You are redirected to the MultiSafepay payment page. 
 2. Click the **Apple Pay** button.  
     You can ignore the "This device is not supported" error.
-3. Complete the payment using real card data.
+3. Complete a payment using test card data.
 4. The transaction is completed.
 
 ### Test environment
