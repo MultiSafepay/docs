@@ -13,6 +13,8 @@ aliases:
 
 To integrate ING Home'Pay using our API, see API Reference - [ING Home'Pay](/api/#ing-home-pay).
 
+For the ING Home'Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View test statuses" >}}
 
 Sample statuses:

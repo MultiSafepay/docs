@@ -13,6 +13,8 @@ aliases:
 
 To integrate EPS using our API, see API Reference – [EPS](/api/#eps).
 
+For the EPS logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View credentials and testing process" >}}
 
 You can test EPS using the Giropay gateway in your MultiSafepay test account. 

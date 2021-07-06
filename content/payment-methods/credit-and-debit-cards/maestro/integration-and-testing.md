@@ -14,6 +14,8 @@ Maestro payments are processed as credit card payments.
 
 To integrate Maestro using our API, see API Reference – [Credit cards](/api/#credit-cards).
 
+For the Maestro logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="Credentials and testing process" >}}
 
 Testing Maestro is similar to Visa. For extensive testing, use Visa. 

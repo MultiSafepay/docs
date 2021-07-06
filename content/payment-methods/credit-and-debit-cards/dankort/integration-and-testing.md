@@ -10,6 +10,8 @@ layout: 'child'
 
 To integrate Dankort using our API, see API Reference – [Credit cards](/api/#credit-cards).
 
+For the Dankort logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="Credentials and testing process" >}}
 
 Test credentials: MultiSafepay provides Visa test credentials for Dankort.

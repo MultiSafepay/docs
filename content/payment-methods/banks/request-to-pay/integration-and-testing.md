@@ -13,6 +13,8 @@ aliases:
 
 To integrate Request to Pay using our API, see API Reference – [Request to Pay](/api/#directbanktransfer).
 
+For the Request to Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View testing process" >}}
 
 You can test Request to Pay transactions through Deutsche Bank: 

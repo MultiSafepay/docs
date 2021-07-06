@@ -12,6 +12,8 @@ logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
 ## Integration and testing
 To integrate Pay After Delivery using our API, see API Reference – [Pay After Delivery](/api/#pay-after-delivery).
 
+For the Pay After Delivery logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View credentials and testing process" >}}
 
 Test addresses:

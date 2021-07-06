@@ -13,6 +13,8 @@ aliases:
 
 To integrate CBC using our API, see API Reference – [CBC](/api/#cbc).
 
+For the CBC logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View sample statuses" >}}
 
 Sample statuses:

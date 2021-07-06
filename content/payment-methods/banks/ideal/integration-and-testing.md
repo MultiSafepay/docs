@@ -13,6 +13,8 @@ aliases:
 
 To integrate iDEAL using our API, see API Reference - [iDEAL](/api/#ideal).
 
+For the iDEAL logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View test statuses" >}}
 
 | Status                | Description              |

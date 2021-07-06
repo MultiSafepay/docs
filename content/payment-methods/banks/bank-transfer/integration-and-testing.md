@@ -13,6 +13,8 @@ aliases:
 
 To integrate Bank Transfer using our API, see API Reference - [Bank Transfer](/api/#bank-transfer).
 
+For the Bank Transfer logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View credentials and testing process" >}}
 
 Test IBANs: See the table below.

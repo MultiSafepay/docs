@@ -13,6 +13,8 @@ aliases:
 
 To integrate KBC using our API, see API Reference – [KBC](/api/#kbc).
 
+For the KBC logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View sample statuses" >}}
 
 Sample statuses:

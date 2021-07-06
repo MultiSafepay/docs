@@ -13,6 +13,8 @@ aliases:
 
 To integrate Bancontact using our API, see API Reference - [Bancontact](/api/#bancontact).
 
+For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View credentials and testing process" >}}
 
 Test card number: See the table below.

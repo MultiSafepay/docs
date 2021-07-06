@@ -13,6 +13,8 @@ aliases:
 
 To integrate SOFORT Banking using our API, see API Reference - [SOFORT Banking](/api/#sofort).
 
+For the SOFORT Banking logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View test statuses" >}}
 
 | Status    | Description              |

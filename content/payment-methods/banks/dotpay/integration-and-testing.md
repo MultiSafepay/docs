@@ -13,6 +13,8 @@ aliases:
 
 To integrate Dotpay using our API, see API Reference – [Dotpay](/api/#dotpay).
 
+For the Dotpay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View test statuses" >}}
 
 | Status    | Description              |

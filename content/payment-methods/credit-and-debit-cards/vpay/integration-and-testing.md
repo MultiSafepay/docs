@@ -12,6 +12,8 @@ V Pay payments are processed as credit card payments.
 
 To integrate V Pay using our API, see API Reference – [Credit cards](/api/#credit-cards).
 
+For the V Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="Credentials and testing process" >}}
 
 Test card details: 

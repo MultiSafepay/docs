@@ -10,4 +10,6 @@ layout: 'child'
 
 To integrate Postepay using our API, see API Reference – [Credit cards](/api/#credit-cards).
 
+For the Postepay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 It is not possible to test Postepay transactions.

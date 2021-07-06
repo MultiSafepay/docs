@@ -12,6 +12,8 @@ aliases:
 
 To integrate Alipay using our API, see API Reference – [Alipay](/api/#alipay).
 
+For the Alipay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="Test statuses" >}}
 
 Sample statuses:

@@ -40,4 +40,4 @@ To add your logo to Fastcheckout payment pages, follow these steps:
 4. Select your logo.
 5. Click **Save**.
 
-
+For the Fastcheckout logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

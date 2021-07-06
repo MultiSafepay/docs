@@ -15,6 +15,8 @@ To integrate Apple Pay using our API, see API Reference – [Apple Pay](/api/#ap
 
 When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing).
 
+For the Apple Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 ## Testing
 
 {{< details title="Supported devices" >}}

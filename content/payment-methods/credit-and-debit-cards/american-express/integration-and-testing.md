@@ -43,3 +43,5 @@ Sample statuses:
 | 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
 
 {{< /details >}}
+
+For the American Express logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

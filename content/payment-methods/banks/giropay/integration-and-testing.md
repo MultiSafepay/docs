@@ -13,6 +13,8 @@ aliases:
 
 To integrate Giropay using our API, see API Reference – [Giropay](/api/#giropay).
 
+For the Giropay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="View credentials and testing process" >}}
 
 Make sure you include include the country code for Germany `DE` in the pre-transaction request. 

@@ -13,6 +13,8 @@ aliases:
 
 To integrate Trustly using our API, see API Reference – [Trustly](/api/#trustly).
 
+For the Trustly logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="Supported ecommerce platforms" >}}
 
 | Ecommerce platform | Available from version |

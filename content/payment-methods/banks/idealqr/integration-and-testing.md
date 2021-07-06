@@ -27,6 +27,8 @@ You can enable an option to allow the customer change the amount.
 
 Only 4 Dutch retail banks support iDEAL QR in their own banking app: Knab, Rabobank, ING, and ABN AMRO. Customers of other banks must use the iDEAL app.
 
+For the iDEAL QR logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="About testing" >}}
   &nbsp;  
 You cannot test iDEAL QR in your MultiSafepay test account. You can only make test payments in your live MultiSafepay account.

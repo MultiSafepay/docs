@@ -43,3 +43,5 @@ Sample statuses:
 | **Completed** | Transaction was completed (3D enrolled)|
 
 {{< /details >}}
+
+For the Mastercard logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

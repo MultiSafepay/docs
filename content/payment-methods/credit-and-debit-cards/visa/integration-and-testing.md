@@ -46,3 +46,5 @@ Sample statuses:
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
 {{< /details >}}
+
+For the Visa logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

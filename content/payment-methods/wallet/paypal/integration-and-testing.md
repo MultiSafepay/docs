@@ -12,6 +12,8 @@ aliases:
 
 To integrate PayPal using our API, see API Reference – [PayPal](/api/#paypal).
 
+For the PayPal logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
 {{< details title="Credentials and testing process" >}}
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)

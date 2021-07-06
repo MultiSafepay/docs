@@ -9,7 +9,9 @@ layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
 ---
 
-To integrate Bancontact using our API, see API Reference - [Bancontact QR](/api/#bancontact-qr).
+To integrate Bancontact using our API, see API Reference – [Bancontact QR](/api/#bancontact-qr).
+
+For the Bancontact QR logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
 {{< details title="View credentials and testing process" >}}
 
