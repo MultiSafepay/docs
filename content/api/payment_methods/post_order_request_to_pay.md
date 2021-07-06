@@ -84,16 +84,16 @@ aliases: [/api/#direct-bank-transfer]
       "custom_3": null
     },
     "customer": {
-      "address1": "Bloemstraat",
+      "address1": "Kraanspoor",
       "city": "Amsterdam",
       "country": "NL",
       "email": "simonsmit@example.com",
       "first_name": "Simon",
-      "address2": "123",
+      "house_number": "39C",
       "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0600000001",
-      "zip_code": "1000 AB"
+      "phone1": "0208500500",
+      "zip_code": "1033SC"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",

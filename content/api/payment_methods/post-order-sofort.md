@@ -61,14 +61,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "forwarded_ip": "",
         "first_name": "Simon",
         "last_name": "Smit",
-        "address1": "Bloemstraat",
-        "address2": "123",
-        "zip_code": "1000 AB",
+        "address1": "Kraanspoor",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0600000001",
+        "phone": "0208500500",
         "email": "simonsmit@example.com",
-        "referrer": "http://test.com",
+        "referrer": "https://example.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
 }
@@ -103,17 +103,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "custom_3": null
     },
     "customer": {
-      "address1": "Bloemstraat",
+      "address1": "Kraanspoor",
       "city": "Amsterdam",
       "country": "NL",
       "country_name": "The Netherlands",
       "email": "simonsmit@example.com",
       "first_name": "Simon",
-      "address2": "123",
+      "house_number": "39C",
       "last_name": "Smit",
       "locale": "de_DE",
-      "phone1": "0600000001",
-      "zip_code": "1000 AB"
+      "phone1": "0208500500",
+      "zip_code": "1033SC"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",
