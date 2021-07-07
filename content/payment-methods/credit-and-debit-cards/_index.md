@@ -2,6 +2,7 @@
 title: 'Credit and debit cards'
 breadcrumb_title: "Credit and debit cards"
 layout: 'block'
+faq: '.'
 meta_title: 'Credit and debit cards - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Credit cards.svg'
@@ -28,3 +29,16 @@ aliases:
     - /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
     - /payment-methods/credit-and-debit-cards/creditcards/
 --- 
+
+{{< details title="About credit and debit cards" >}}
+
+Credit and debit cards are plastic cards issued by a bank, building society, or card scheme that let the cardholder pay for products or services at a point of sale, online, or on a mobile app. Cardholders can also withdraw cash, or link their card to digital wallets or other local payment methods.
+
+Cards may feature:
+
+- A card number to uniquely identify the card
+- A 3-4 digit card verification code (CVC) for additional security
+- An expiry date 
+- The cardholder's name 
+
+{{< /details >}}

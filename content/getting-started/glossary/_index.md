@@ -55,6 +55,9 @@ A customer who uses a card issued by a bank to make cashless payments to a merch
 ### card scheme
 A financial institution that issues credit cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
 
+### card verification code (CVC)
+A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for recurring payments.
+
 ### chargeback
 When a customer disputes a credit card transaction and the transaction is reversed. See [Chargebacks](/faq/chargebacks/).
 
@@ -64,20 +67,28 @@ The party that receives the funds for a transaction directly from the customer, 
 ### conversion rate
 How often customers visiting a merchant's integration place an order and complete payment.
 
+### credit card
+A card issued by a bank, building society, or card scheme that lets the holder pay for products or services on credit.
+
 ### customer
 A person or company that buys products and services from merchants.
 
 ### custom integration
 A merchant's bespoke integration with MultiSafepay's services built using [our API](/api), SDKs, or wrappers.
 
+### debit card
+A card issued by a bank that transfers funds directly from the customer's bank account.
+
 ### developer
 A software developer a merchant employs to work on the technical side of their integration.
+
+## dispute
+If a customer wants a merchant to return funds that have already been captured, the customer can request a refund. If the merchant refuses, the customer may request their bank to make a chargeback. If the merchant disagrees, they can dispute the chargeback.
 
 ### ecommerce platform
 An online [platform](/integrations/ecommerce-integrations/) merchants use for accepting payments, e.g. website, mobile app, [PWA](/integrations/pwa/). 
 
 ### fraud
-
 When a person tries to receive products without paying for them by tricking a customer or merchant.
 
 ### integration
@@ -133,6 +144,9 @@ A terminal that accepts payments, usually by card or near-field communication (N
 
 ### RESTful API (application programming interface)
 The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API Reference](/api/) specifies the content and format of requests to our server and the responses the server sends back.
+
+### retrieval
+When a customer cancels a credit card transaction within 24 hours. The funds have not yet left the customer's bank account, so they don't receive a credit.
 
 ### SEPA
 The Single Euro Payments Area (SEPA) is a European Union payment-integration initiative. Customers can quickly and securely transfer euros within the EU and to a number of non-EU countries.
