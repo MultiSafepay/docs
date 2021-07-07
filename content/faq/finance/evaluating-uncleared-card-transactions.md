@@ -1,6 +1,6 @@
 ---
-title : "Evaluating uncleared credit card transactions"
-meta_title: "FAQ Finance - Evaluating uncleared card transactions - MultiSafepay Docs"
+title : "Evaluating Uncleared credit card transactions"
+meta_title: "FAQ Finance - Evaluating Uncleared card transactions - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
