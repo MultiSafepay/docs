@@ -1,12 +1,13 @@
 ---
-title : "Declined status"
-weight: 15
-meta_title: "FAQ General - Declined status - MultiSafepay Docs"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+title : "About Declined status"
+weight: 50
+meta_title: "Credit card user guide - About Declined status - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
-alisases: 
+aliases: 
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
     - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /faq/general/declined-status/
 ---
 
 The table below shows possible reasons for the **Declined** status, which may appear in the relevant **Transaction details** page in your MultiSafepay account. 

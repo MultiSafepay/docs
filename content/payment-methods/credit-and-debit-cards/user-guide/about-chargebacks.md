@@ -1,10 +1,12 @@
 ---
-title: 'About chargebacks'
-weight: 11
-meta_title: "FAQ Chargebacks - About chargebacks - MultiSafepay Docs"
+title : "About chargebacks"
+weight: 30
+meta_title: "Credit card user guide - Evaluating Uncleared transactions - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
+    - /faq/chargebacks/
+    - /faq/chargebacks/about-chargebacks/
     - /payment-methods/creditcards/chargebacks/what-is-a-chargeback/
     - /payment-methods/credit-and-debit-cards/creditcards/chargebacks/what-is-a-chargeback/
     - /payment-methods/creditcards/chargebacks/dispute-chargeback/

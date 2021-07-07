@@ -1,6 +1,6 @@
 ---
 title : "Credit card glossary"
-weight: 30
+weight: 10
 meta_title: "Credit card user guide - About chargebacks - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
