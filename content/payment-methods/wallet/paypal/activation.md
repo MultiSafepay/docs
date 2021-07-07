@@ -53,14 +53,20 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 5. Go to **Settings** > **Payment methods**. 
 6. Select **PayPal**, and then enter your `PayPal Account ID`.
 
-**Note:** Ensure you also activate PayPal for each relevant website in your MultiSafepay account.
-
 If PayPal is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com> 
 
-**Noted:** You can link multiple PayPal business accounts and websites to one MultiSafepay account.
+If you offer a different selection of payment methods on different websites, you also need to activate PayPal for each site:
+
+1. Go to **Settings** > **Website settings**.
+2. Click the relevant website to open the **Website settings** page.
+3. Under **Payment methods**, select the **PayPal** checkbox.
+4. Click **Save.**
+
+**Note:** You can also link each website to a separate PayPal business account. Otherwise, all websites use your main PayPal business account.
 
 Your account is now configured. We strongly recommend testing some transactions before processing live payments.
 
+## Displaying your logo in the PayPal checkout
 To display your header or logo on the PayPal checkout page, follow these steps:
 
 1. Log in into your [MultiSafepay account](https://merchant.multisafepay.com).
