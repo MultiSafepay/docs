@@ -26,7 +26,7 @@ Alipay is a leading global payment method that lets Chinese customers link their
 
 ## Product rules
 
-- All Alipay accounts must be verified and linked to a Chinese bank.
+- For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
 
 - You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
 
