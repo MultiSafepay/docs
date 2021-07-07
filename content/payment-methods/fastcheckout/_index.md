@@ -1,5 +1,5 @@
 ---
-title: 'Fastcheckout'
+title: 'FastCheckout'
 weight: 300
 meta_title: "Payment methods - FastCheckout - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
