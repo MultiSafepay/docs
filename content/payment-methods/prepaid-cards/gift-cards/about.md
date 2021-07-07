@@ -34,6 +34,7 @@ MultiSafepay supports the following gift cards as standard:
 - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/) 
 - [Podium Cadeaukaart](https://www.podiumcadeaukaart.nl/)
 - [Sport & Fit](https://www.sportenfitcadeau.nl/) 
+- [Sports Gift Card](https://www.sports-giftcard.com/)
 - [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/) 
 - [Webshop Giftcard](https://www.webshopgiftcard.nl/)
 - [Wellness Giftcard](https://www.wellnessgiftcard.nl/) 
