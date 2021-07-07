@@ -57,6 +57,8 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 
 If PayPal is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com> 
 
+**Noted:** You can link multiple PayPal business accounts and websites to one MultiSafepay account.
+
 Your account is now configured. We strongly recommend testing some transactions before processing live payments.
 
 To display your header or logo on the PayPal checkout page, follow these steps:
