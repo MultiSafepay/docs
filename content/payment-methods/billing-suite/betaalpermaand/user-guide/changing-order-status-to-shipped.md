@@ -6,15 +6,13 @@ read_more: "."
 weight: 3
 ---
 
-After you ship the order to the customer, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring, and lets Betaal per Maand initiate the billing process with the customer and pay the transaction out to your MultiSafepay balance. You can do this:
+After you ship the order to the customer, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring, and lets Betaal per Maand initiate the billing process with the customer and pay the transaction out to your MultiSafepay balance. 
 
-- Automatically using our [API](https://docs.multisafepay.com/api/#update-an-order), which updates your MultiSafepay Control 
-- Automatically in your [ecommerce integration](/integrations/ecommerce-integrations)
-- Manually in your [MultiSafepay Control](https://merchant.multisafepay.com)
+## In your MultiSafepay account
 
-To change the order status manually, follow these steps:
+To change the order status in your MultiSafepay account, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
@@ -22,3 +20,18 @@ To change the order status manually, follow these steps:
 6. Send the customer the Track & Trace details, if relevant.
 
 At this point, you also need to [provide the track-and-trace code](/payment-methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/).
+
+## In your backend
+
+If you change the order status to **Shipped** in your backend, some MultiSafepay plugins can pass the updated status to your MultiSafepay account automatically:
+
+- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
+
+For other MultiSafepay plugins, you can forward the status via our API by making a PATCH `/orders` request. 
+
+Some third-party plugins may not support forwarding the status via our API. 
+
+See API Reference – [Update an order](/api/#update-an-order).
+
+
