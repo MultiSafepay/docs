@@ -1,52 +1,56 @@
 api
+api key
 API Key
 api KEY
-api key
+webshop admin
 back-office
-Bank Transfer
-Bank transfer
-banktransfer
+Working days
 Charge back
+login details
 creditcard
 e-commerce
 e-mail
-email tags
 giftcard
-Github
 Google Play Store
-Hosted Payment page
-Integration team
 integration Team
 integration team
-login details
+Integration team
 Magento1
 Magento2
-Merchant Back-office
-Merchant Control
-Merchant Control Panel
-Merchant ID
-MerchantID
+webshop owner customer
 multicurrency
 Multisafepay
-MultiSafepay Control app
-MultiSafepay Control Panel
+Merchant Control
+Merchant Back-office
 MultiSafepay Merchant Control
+MultiSafepay Control Panel
+Merchant Control Panel
 MultiSafepay Panel
-normally
-one page checkout
-One Step Checkout
-online shop
 Partner dashboard
+Hosted Payment page
 plug-in
+<<<<<<< HEAD
 post Pay
 postpay
 screening
 Second chance
+=======
+>>>>>>> parent of 2af1f843... DOCS-2123: Update banned_words.txt (#1206)
 second chance
+Second chance
+email tags
+normally
 url
-web shop
-webshop admin
-webshop owner customer
 webstore
+web shop
 webwinkel
+<<<<<<< HEAD
 working days
+=======
+online shop
+postpay
+post Pay
+screening@multisafepay.com
+banktransfer
+Github
+>>>>>>> DOCS-0000: Update banned_words.txt
