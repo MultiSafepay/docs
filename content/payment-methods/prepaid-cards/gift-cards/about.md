@@ -21,24 +21,25 @@ In addition to accepting established gift card issuers, you can also [create you
 
 MultiSafepay supports the following gift cards as standard:
 
-* Baby Cadeaubon
-* Beauty & Wellness
-* Boekenbon
-* Fashioncheque 
-* Fashiongiftcard
-* Fietsenbon 
-* Gezondheidsbon 
-* Good4fun
-* Nationale Tuinbon
-* Parfumcadeaukaart 
-* Podium
-* Sport & Fit 
-* VVV Cadeaukaart 
-* Webshop Giftcard
-* Wellness gift card 
-* Wijncadeau 
-* Winkelcheque 
-* YourGift
+- [Baby Cadeaubon](https://www.babycadeaubon.nl/)
+- [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/page/hoe-het-werkt/)
+- [Boekenbon](https://bestel.boekenbon.nl/)
+- [Fashioncheque](https://www.fashioncheque.com/) 
+- [Fashion Giftcard](https://www.fashion-giftcard.nl/)
+- [Nationale Fietsenbon](https://www.nationalefietsprojecten.nl/pageid=936/Fietsbon.html) 
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
+- [Good4fun](https://www.good4fun.nl/)
+- [Klus Cadeau](https://www.kluscadeau.nl/)
+- [Nationale Tuinbon](https://www.nationale-tuinbon.nl/)
+- [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/) 
+- [Podium Cadeaukaart](https://www.podiumcadeaukaart.nl/)
+- [Sport & Fit](https://www.sportenfitcadeau.nl/) 
+- [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/) 
+- [Webshop Giftcard](https://www.webshopgiftcard.nl/)
+- [Wellness Giftcard](https://www.wellnessgiftcard.nl/) 
+- [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/) 
+- [Winkelcheque](https://www.winkelcheque.nl/) 
+- [YourGift](https://www.yourgift.nl/)
 
 **Note:** Webshop Giftcard no longer offers [open-loop gift cards](/payment-methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
