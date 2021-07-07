@@ -29,7 +29,7 @@ aliases:
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Initialized   |
 | The refund was successfully processed.  | Completed      | Initialized   |
-| The customer has requested a refund but there are not enough funds in your PayPal business account. | Uncleared | Uncleared   |
+| The customer has requested a refund but there are not enough funds in your PayPal business account. | Uncleared | Initialized   |
 
 {{< /details >}}
 
