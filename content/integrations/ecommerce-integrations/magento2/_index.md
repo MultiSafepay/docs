@@ -7,7 +7,6 @@ changelog_url : "."
 manual: "."
 faq: "."
 layout: 'single-old-button'
-newsletter : "Magento 2"
 meta_title: "Magento 2 plugin integration - MultiSafepay Docs"		
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 2 platform"
 description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 2 webshop"
