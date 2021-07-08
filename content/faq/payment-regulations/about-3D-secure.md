@@ -11,7 +11,7 @@ aliases:
     - /faq/payment-regulations/about-3d-secure/
 ---
 
-3D Secure is an authentication protocol for online credit and debit card payments. It provides an additional layer of protection against fraud. After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
+3D Secure is an authentication protocol for online credit and debit card payments. It provides an extra layer of security and prevents [fraud-related chargebacks](/payment-methods/credit-and-debit-cards/user-guide/minimizing-chargebacks/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
 
 The major credit card schemes each offer their own branded version of 3D Secure:
 
