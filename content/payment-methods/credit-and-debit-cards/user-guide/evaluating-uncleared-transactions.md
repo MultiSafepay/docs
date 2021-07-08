@@ -1,6 +1,6 @@
 ---
 title : "Evaluating Uncleared transactions"
-weight: 60
+weight: 70
 meta_title: "Credit card user guide - Evaluating Uncleared transactions - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
@@ -145,4 +145,6 @@ Under **Fraud info** (next to the fraud score), there are several other fraud ri
 Under **History Data**, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.
 {{< /details >}}
 
-See also [Viewing your Uncleared balance](/faq/finance/viewing-your-uncleared-balance/).
+## See also 
+
+[Viewing your Uncleared balance](/faq/finance/viewing-your-uncleared-balance/)

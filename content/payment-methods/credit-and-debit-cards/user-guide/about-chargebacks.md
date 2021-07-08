@@ -1,7 +1,7 @@
 ---
 title : "About chargebacks"
-weight: 30
-meta_title: "Credit card user guide - Evaluating Uncleared transactions - MultiSafepay Docs"
+weight: 20
+meta_title: "Credit card user guide - About chargebacks - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
@@ -9,87 +9,21 @@ aliases:
     - /faq/chargebacks/about-chargebacks/
     - /payment-methods/creditcards/chargebacks/what-is-a-chargeback/
     - /payment-methods/credit-and-debit-cards/creditcards/chargebacks/what-is-a-chargeback/
-    - /payment-methods/creditcards/chargebacks/dispute-chargeback/
-    - /payment-methods/credit-and-debit-cards/creditcards/chargebacks/dispute-chargeback/
     - /payment-methods/creditcards/what-is-a-chargeback/
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-a-chargeback/
     - /payment-methods/creditcards/chargebacks/
     - /faq/chargebacks/what-is-a-chargeback
 ---
 
-Customers who disagree with or do not recognise a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
+Chargebacks arise when a [cardholder](/payment-methods/credit-and-debit-cards/user-guide/glossary/#cardholder) disagrees with or doesn't recognise a transaction charged to their credit card, and request the issuer to reverse it. 
 
-### What is a retrieval?
+The most common reasons for requesting chargebacks are fraud, non-delivery of goods, or goods not as described. 
 
-If a customer does not recognise a transaction that is charged, the cardholder can ask for more information by filing a retrieval request. This process is a pre-chargeback process and can be used to prevent a chargeback process. There are no administrative fees at this point. It is still allowed to perform a refund in this stage.
+[Card schemes](/payment-methods/credit-and-debit-cards/user-guide/glossary/#card-scheme) generally allow cardholders to request chargebacks for up to 180 days after the transaction. If you require a longer period (e.g. for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
 
-### I received a chargeback notification, what do I do?
+By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
-Providing evidence that the chargeback is wrongful is always the responsibility of the webshop.
+## See also
 
-MultiSafepay can challenge the chargeback on your behalf, but to do so, we need documented proof of the order. This includes:
-
-* An invoice of the order
-* Track & trace
-* Signed proof of delivery
-* Print- screens of (email) contacts you may have had with the cardholder.
-
-The full documentation on how to upload the files via an API request can be accessed [here](/api/#chargeback)
-
-The MultiSafepay chargeback team will decide on whether the chargeback can be challenged, based on the quality of the delivered proof.
-
-The chargeback will be shown in a separate transaction connected to the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com) However, The required documentation to challenge the chargeback needs to be uploaded in the original transaction.
-
-_Please note: the card scheme will make the final decision_.
-
-### Chargeback rules, why aren't refunds allowed anymore?
-
-As soon as the cardholder sends in the chargeback, he/she will typically be refunded by the issuing bank.
-Visa and Mastercard directly reclaim the amount from MultiSafepay and on our turn we debit your MultiSafepay Control balance.
-
-> When you refund a chargeback transaction, the chances are high that the customer will receive the amount twice. Therefore, we do not support a refund of a transaction tied to a chargeback.
-
-### What are the reasons for a chargeback?
-
-The most common chargeback reasons are fraud, non-delivery of goods or goods not as described.
-
-### What can I do to minimize chargebacks?
-
-There are several actions that can be taken to minimize the risk for chargebacks. This starts with good customer service.
-
-Fraud-related chargebacks can be avoided altogether by using [3D Secure](/faq/general/glossary/#3d-secure), whereby the cardholder needs to identify him or herself. Fraud-based chargebacks are no longer possible when using the 3D Secure.
-
->It is still possible to receive a chargeback due to non-delivery and goods not as described.
-These two reasons are well within your own control.
-
-Non-delivery chargebacks can be minimized by:
-
-* Informing your customer of delivery times, both expected and actual
-* Having a well-documented delivery process e.g. by using track & trace with signature
-* Refund or cancel the transaction if the goods will not be delivered within the terms of the delivery time or will not be delivered at all.
-
-"Goods not as described" chargebacks can be minimized by:
-
-* Having a clear description on your website and delivering quality goods.
-
-### What happens if I provided proof, but the cardholder still does not agree?
-
-If the customer does not agree with the outcome of the dispute, the process of the chargeback continues. It is possible to challenge the procedure, however the potential cost of doing so is significant.
-
-You will need to present strong evidence of the transaction, that has not been presented before.
-
-To proceed, email <retrieval@multisafepay.com>
-
-### Why can a cardholder initiate a chargeback?
-
-A cardholder can claim a chargeback for a maximum of 180 days after the purchase based on their customer rights given by the card scheme (Visa, Mastercard and American Express).
-
-Longer chargeback initiation periods can be arranged with the card schemes, should the business model of your webshop require (_e.g._ when a yearly subscription has been paid in advance).
-
-By offering credit cards as a payment option in your webshop, you agree to the customer rights that come with credit card acceptance.
-
-### Why do you charge a chargeback handling fee?
-
-If a customer has initiated a chargeback, MultiSafepay will charge a fee to handle the dispute between you and the customer. Visa and Mastercard, as well as the processing bank, may also charge fees if the dispute cannot be settled between you and the customer.<br> 
-
-For more information about fees, email the Support Team at <support@multisafepay.com>
+- [Disputing chargebacks](/payment-methods/credit-and-debit-cards/user-guide/disputing-chargebacks/)
+- [Minimizing chargebacks](/payment-methods/credit-and-debit-cards/user-guide/minimizing-chargebacks/)

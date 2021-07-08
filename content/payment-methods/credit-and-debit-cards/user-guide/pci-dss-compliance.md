@@ -1,6 +1,6 @@
 ---
 title : "PCI DSS compliance"
-weight: 20
+weight: 30
 meta_title: "Credit card user guide - PCI DSS compliance - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
