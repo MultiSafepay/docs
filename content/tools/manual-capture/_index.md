@@ -28,7 +28,7 @@ Partial capture is when a customer places an order for multiple items but you ca
 
 For how Manual Capture can benefit your business, see [Capture your payments](https://www.multisafepay.com/blog/capture-your-payments).
 
-## Payment flow
+## Statuses
 
 {{< details title="About order and transaction statuses" >}}
 
