@@ -20,7 +20,7 @@ You must first provide Twinfield with an additional international bank account n
 5. Click **Calculate IBAN**.
 6. A dummy IBAN and BIC code are generated.
 
-## Exporting from MultiSafepay Control
+## Exporting from your MultiSafepay account
 
 1. in your MultiSafepay account, navigate to **Reports** > **Accountant Export**. 
 2. In **Data Selection**, select a date range.

@@ -1,12 +1,12 @@
 ---
 title : "Deleting websites"
 weight: 40
-meta_title: "MultiSafepay Control- Deleting websites - MultiSafepay Docs"
+meta_title: "MultiSafepay account- Deleting websites - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
-    - /tools/multisafepay-control/delete-website
-    - /tools/multisafepay-control/deleting-websites
+    - /tools/multisafepay-account/delete-website
+    - /tools/multisafepay-account/deleting-websites
 ---
 
 To delete a website from your MultiSafepay account, follow these steps:
