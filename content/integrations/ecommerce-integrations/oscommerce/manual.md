@@ -26,7 +26,7 @@ Contact us:
 
 ### Installation and configuration
 1. Unpack the content of the .ZIP file in the root of your webshop.
-2. Log in to your OsCommerce backend.
+2. Sign in to your OsCommerce backend.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
 5. Enter your API key. {{% account_info %}} 

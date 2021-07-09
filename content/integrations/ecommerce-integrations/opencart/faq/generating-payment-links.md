@@ -8,7 +8,7 @@ read_more: "."
 
 To generate a payment link for orders created in your OpenCart backend, follow these steps:
 
-1. Log in to your OpenCart backend.
+1. Sign in to your OpenCart backend.
 2. Go to **System** > **Localisation** > **Order status**.
 3. Enter a custom order status for when the payment link is sent.
 4. Go to **Extensions** > **Payments** > **MultiSafepay**.

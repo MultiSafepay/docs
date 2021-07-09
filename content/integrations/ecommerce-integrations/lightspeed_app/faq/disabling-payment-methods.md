@@ -23,7 +23,7 @@ By default, newly activated payment methods in your MultiSafepay account are dis
 
 If a payment method is missing:
 
-1. Log in to your [MultiSafepay account](https://docs.multisafepay.com/tools/multisafepay-control) and check that the payment method is enabled.
-2. Log in to your Lightspeed app, go to **Settings**, and then enable the payment method again. 
+1. Sign in to your [MultiSafepay account](https://docs.multisafepay.com/tools/multisafepay-control) and check that the payment method is enabled.
+2. Sign in to your Lightspeed app, go to **Settings**, and then enable the payment method again. 
 
 

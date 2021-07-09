@@ -21,7 +21,7 @@ Advanced reports include Sales reports and Conversion reports. They help you fin
 
 To generate a Sales or Conversion report, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Advanced reporting**.
 3. Select the report type you want to export.
 

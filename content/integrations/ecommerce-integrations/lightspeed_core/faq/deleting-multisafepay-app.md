@@ -10,10 +10,10 @@ After terminating your contract with MultiSafepay, our payment methods may still
 
 To delete the MultiSafepay integration from Lightspeed and remove the payment methods, follow these steps:
 
-1. Log in to your Lightspeed app.
+1. Sign in to your Lightspeed app.
 2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
 3. Click **Go to app**.
-4. Log in to the MultiSafepay app.
+4. Sign in to the MultiSafepay app.
 5. Click **Disable all payment methods**.
 
 

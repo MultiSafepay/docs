@@ -12,7 +12,7 @@ aliases:
 
 To add payment links to order confirmation emails and customize settings, follow these steps:
 
-1. Log in to your Magento 2 backend.
+1. Sign in to your Magento 2 backend.
 2. Go to **Marketing** > **Email templates**.
 3. Under **New order**, import a template.
 4. Add the following code snippet to the template:

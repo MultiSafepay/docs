@@ -13,5 +13,5 @@ To activate the Uncleared balance feature in your daily balance report, email an
 
 To view your daily balance report:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Finance** > **Daily balance**.

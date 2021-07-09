@@ -20,7 +20,7 @@ You can also:
 
 To apply a surcharge to a payment method in your backend, follow these steps:
 
-1. Log in to your Magento 1 backend.
+1. Sign in to your Magento 1 backend.
 2. Select systems and configuration.
 3. In the MultiSafepay module, select the **Option connect** gateway.
 4. Select the relevant payment method.

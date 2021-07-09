@@ -21,7 +21,7 @@ To create a free test account, follow these steps:
 
 1. Fill out the [signup form](https://testmerchant.multisafepay.com/signup).
 2. You will receive an email containing your **security code**.
-3. [Log in](https://testmerchant.multisafepay.com) to your account using the **security code**.
+3. [Sign in](https://testmerchant.multisafepay.com) to your account using the **security code**.
 
 For support, email the Customer Operations Team at <support@multisafepay.com>
 

@@ -10,7 +10,7 @@ MultiSafepay offers the possibility to export Accountant reports in several form
 
 In order to create an export, please use the following steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com)
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com)
 2. Go to _Reports_ and select _Accountant export_
 3. Fill in the date selection
 4. Choose the report format: CAMT053, CODA, CSV, MT940, XLS, XLSX

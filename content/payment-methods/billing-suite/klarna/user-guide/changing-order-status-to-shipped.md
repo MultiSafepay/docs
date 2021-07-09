@@ -14,7 +14,7 @@ Klarna does not support auto-ship functionality, so after you ship the order to 
 
 To change the order status in your MultiSafepay account, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 

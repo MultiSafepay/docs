@@ -25,7 +25,7 @@ You must first provide Exact with an additional international bank account numbe
 
 | Step  | Exact Globe   | Exact Online   |
 |---|---|---|
-| 1. | Log in and go to **Bank accounts**. |  Log in and go to **Financial** > **Banking & Cash** > **Bank accounts** > **Overview**. |
+| 1. | Sign in and go to **Bank accounts**. |  Sign in and go to **Financial** > **Banking & Cash** > **Bank accounts** > **Overview**. |
 | 2. | Click **New**. | Click **New**. |
 | 3. | Under **Type**, select **Payment service provider**. | Enter your dummy IBAN. |
 | 4. | Enter the dummy IBAN and select the same bank as before, e.g. ING Group.  | Click **Save**.  |
@@ -44,7 +44,7 @@ You can now register all transactions linked to this IBAN.
 
 ## Importing into Exact Online
 
-1. Log in to your Exact Online account.
+1. Sign in to your Exact Online account.
 2. Go to **Financial** > **Banking & Cash** > **Statements** > **Import**.
 3. Click **Choose File**, and then select the MT940 file you want to upload.
 4. Click **Import**.

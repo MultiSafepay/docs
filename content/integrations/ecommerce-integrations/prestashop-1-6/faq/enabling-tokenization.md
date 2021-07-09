@@ -9,7 +9,7 @@ aliases:
 
 To enable tokenization, follow these steps:
 
-1. Log in to your PrestaShop 1.6 backend. 
+1. Sign in to your PrestaShop 1.6 backend. 
 2. Go to **Modules and services** > **Modules and services** > **MultiSafepay**.
 3. Click **Configure**.
 4. Set the **Tokenization** field to **YES**.

@@ -27,7 +27,7 @@ Twinfield can import reports in MT940 format.
 &nbsp;  
 To import a MultiSafepay Accountant export, follow these steps:
 
-1. Log in to your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7).
+1. Sign in to your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7).
 2. Go to **Cash & banks** > **Cash & banks**.
 3. In the **Code** line, insert a new code, and give it a name, e.g. MSPAY.
 4. Click **Next**.

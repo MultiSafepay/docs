@@ -42,7 +42,7 @@ composer require drupal/commerce_multisafepay_payments
 The latest stable release is downloaded and installed in your Drupal Commerce 2.x webshop.
 
 ### Configuration  
-1. Log in to the backend of your webshop.
+1. Sign in to the backend of your webshop.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your account ID, site ID, site code or API key. {{% account_info %}}
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.

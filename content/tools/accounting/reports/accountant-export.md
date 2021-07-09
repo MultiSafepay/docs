@@ -38,7 +38,7 @@ For support, email the Support Team at <support@multisafepay.com>
 
 To generate an Accountant export, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com), or for test reports, your [MultiSafepay Test Control](https://testmerchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com), or for test reports, your [MultiSafepay Test Control](https://testmerchant.multisafepay.com).
 2. Go to **Reports** > **Accountant export**.
 3. From the **Date selection** dropdown, select the relevant timeframe (last 2 years only), and then click **Apply**.
 4. From the **Report type** dropdown, select the relevant export format. 

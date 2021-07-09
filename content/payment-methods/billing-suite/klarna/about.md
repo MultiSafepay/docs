@@ -58,7 +58,7 @@ For how to add a discount in your transaction request via our API, see API Refer
 **MultiSafepay Control**  
 Instead of deleting an item in the checkout editor, you may want to add a discount. Follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Refund order** > **Edit**.

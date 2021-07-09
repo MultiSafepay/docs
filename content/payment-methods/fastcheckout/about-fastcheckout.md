@@ -34,7 +34,7 @@ FastCheckout Guaranteed provides customers extra security and protection by prov
 
 To add your logo to FastCheckout payment pages, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com/).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
 2. Go to to **Settings** > **Website settings**.
 3. Click **Payment logo (FastCheckout)**.
 4. Select your logo.

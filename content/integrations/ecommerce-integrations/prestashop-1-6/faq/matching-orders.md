@@ -12,6 +12,6 @@ You can match orders using the transaction ID.
 
 To view a payment's transaction ID:
 
-1. Log in to your Prestashop 1.6 backend.
+1. Sign in to your Prestashop 1.6 backend.
 2. Go to **Payment** > **Order details**. 
 

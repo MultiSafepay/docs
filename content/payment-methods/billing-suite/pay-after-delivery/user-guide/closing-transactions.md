@@ -15,7 +15,7 @@ You must also notify MultiSafepay that you received payment directly, or we may 
 
 Follow the **Complete own funds** steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Complete own funds**. 

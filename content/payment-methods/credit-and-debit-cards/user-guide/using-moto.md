@@ -24,7 +24,7 @@ The Risk Team then assesses your application, and if approved, activates MOTO in
 
 To process MOTO payments, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Tools**. 
 3. The customer provides their credit card details by email or telephone. 
 4. Select a [currency](/faq/general/supported-currencies) and the total amount.

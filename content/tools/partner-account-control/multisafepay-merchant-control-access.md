@@ -8,6 +8,6 @@ read_more: '.'
 
 You can manage affiliated MultiSafepay accounts through the affiliate dashboard. 
 
-Once an affiliate is approved, to access their account, click the blue **Log in** button that appears in the **Action** column for that merchant.
+Once an affiliate is approved, to access their account, click the blue **Sign in** button that appears in the **Action** column for that merchant.
 
 The dashboard provides an overview of the affiliate's finances, transactions, settings, reports, and tools. You can also process refunds or carry out technical integrations.

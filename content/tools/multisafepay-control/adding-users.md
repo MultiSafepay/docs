@@ -14,7 +14,7 @@ You can disable users, but not delete them.
 
 To add users with different permission profiles, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 
 2. Go to **Settings** > **User management**.
 

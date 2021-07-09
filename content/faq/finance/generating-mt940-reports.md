@@ -10,7 +10,7 @@ MT940 reports list all incoming and outgoing completed transactions for a specif
 
 To generate an MT940 report in your MultiSafepay account, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com) account.
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com) account.
 2. Go to **Reports** > **Accountant export**.
 3. In **Data Selection**, select a date range.
 4. In the **Report Type** field, select **MT940**.

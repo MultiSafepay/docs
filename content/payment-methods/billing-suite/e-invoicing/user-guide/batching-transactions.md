@@ -8,7 +8,7 @@ weight: 5
 
 To generate E-invoicing transactions in batches for subscription payments:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **E-invoicing** > **Batches**. 
 3. Upload a file in .xls, .xlsx or .csv format.
 4. Follow the templates in your MultiSafepay account.

@@ -12,7 +12,7 @@ If you don't use any external shipping method, you must enable My carrier. If di
 
 To enable the standard shipping method `my carrier`, follow these steps:
 
-1. Log in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **Payment method** > **Preferences**.
 3. Under **Carrier restrictions** > **My carrier**, enable MultiSafepay.
 

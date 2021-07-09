@@ -23,7 +23,7 @@ Contact us:
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ### Installation and configuration
-1. Log in to your myShop backend.
+1. Sign in to your myShop backend.
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
 4. Enter your account ID, site ID, and site secure code. {{% account_info %}}  

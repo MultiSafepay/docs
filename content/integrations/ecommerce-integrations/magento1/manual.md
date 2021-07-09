@@ -38,14 +38,14 @@ Contact us:
 
 ### Installation
  1. Unpack the content of the .ZIP file in the root of your webshop.
- 2. Log in to your Magento 1 backend.
+ 2. Sign in to your Magento 1 backend.
  3. Go to **System** > **Configuration** > **Cache**. 
  4. Clear your invalid cache.
  5. Move all files and folders from Plugin_Magento_x.x.x to the root. Add the content of the app, lib, and media folders to the existing folders with the same name.
  6. Log out from the backend of your webshop.
 
 ### Configuration
-1. Log in to the backend of your Magento 1 webshop.
+1. Sign in to the backend of your Magento 1 webshop.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all gateways and gift cards.  
     To find your API key, see [API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key).  

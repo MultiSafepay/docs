@@ -77,7 +77,7 @@ __Note:__ If you provide a `notification_url` in your POST `/orders` request, it
 
 To check that you have succesfully connected to our system, follow these steps:
 
-1. Log in to your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
+1. Sign in to your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 2. Go to **Transactions** > **Transactions overview**.
 3. Select the transaction to view the **Transaction details** page.
 4. Under __Offline actions__, in the __Status__ field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/faq/errors-explained/http-errors/).

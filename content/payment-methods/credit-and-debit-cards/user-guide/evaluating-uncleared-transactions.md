@@ -32,7 +32,7 @@ When Uncleared transactions are awaiting your approval, you receive notification
 
 To view the list of uncleared payments, click on the notification, or:
 
-1. Log in to your MultiSafepay account.
+1. Sign in to your MultiSafepay account.
 2. Go to **Transactions** > **Uncleared transactions**.
 3. Click each transaction in the list to view the **Transaction details** page. 
 

@@ -8,7 +8,7 @@ weight: 4
 
 To add your logo to invoices Klarna sends to your customers, follow these steps:
 
-1. Log in to your Klarna Merchant Account. 
+1. Sign in to your Klarna Merchant Account. 
 2. Go to **Branding**.
 3. Under **Logo**, upload a .png or .jpeg logo.  
 

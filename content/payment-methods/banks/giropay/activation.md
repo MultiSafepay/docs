@@ -15,7 +15,7 @@ aliases:
 
 **2.** To activate Giropay:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Payment methods**.
 2. Under **Standard payment methods**, select the **Giropay** checkbox.
 3. Click **Save changes**.

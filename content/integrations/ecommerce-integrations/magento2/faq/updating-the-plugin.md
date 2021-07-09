@@ -14,7 +14,7 @@ You can update the plugin via [Composer](https://getcomposer.org).
 To update the plugin in your backend, follow these steps:
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. Log in to your Magento 2 backend.
+2. Sign in to your Magento 2 backend.
 3. Run the following commands via the CLI:
 ```
 composer update multisafepay/magento2 --with-dependencies

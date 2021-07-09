@@ -27,7 +27,7 @@ Yuki can import reports in MT940 format.
 &nbsp;  
 To import a MultiSafepay Accountant export, follow these steps:
 
-1. Log in to your Yuki domain ending in **@yukiworks.be**.
+1. Sign in to your Yuki domain ending in **@yukiworks.be**.
 2. Go to **Yuki Postbus** > **Yuki Upload**.
 3. Click **Upload**, and select the relevant MT940 file, or choose one of the other upload methods.
 

@@ -8,7 +8,7 @@ aliases:
 ---
 To process full refunds from your OpenCart backend, follow these steps:
 
-1. Log in to your OpenCart backend.
+1. Sign in to your OpenCart backend.
 2. Go to **Orders** > **Order view button** > **Order history panel**. 
 3. Click the **Refund** button. This only appears if the order status is **Completed** or **Shipped**.
 

@@ -12,7 +12,7 @@ For more information, see [PayV2](/tools/payment-pages/activating-payv2/).
 
 To activate PayV2 pages, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com/switch-connect-v2).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/switch-connect-v2).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. Select the **Use new payment pages** checkbox.

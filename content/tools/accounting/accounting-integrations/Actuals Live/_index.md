@@ -13,7 +13,7 @@ You can integrate with Actuals using your [MultiSafepay API key](/tools/multisaf
 
 To connect your Actuals account to your MultiSafepay account:
 
-1. Log in to your [Actuals account](https://live.actuals.io).
+1. Sign in to your [Actuals account](https://live.actuals.io).
 2. Go to **Configuration**.
 3. Under **Payment service provider** > **MultiSafepay**, click **Add**.
 4. In the **Configuration name** field, rename the configuration, if relevant.

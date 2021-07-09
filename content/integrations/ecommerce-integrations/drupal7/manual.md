@@ -26,7 +26,7 @@ Contact us:
 
 ## Installation and configuration
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
-2. Log in to your Drupal 7 backend.
+2. Sign in to your Drupal 7 backend.
 3. Go to **Site settings** > **Modules**. 
 4. Enable the Commerce MultiSafepay JSON module, and your selected payment method modules. 
 5. Click **Save configuration**.

@@ -13,7 +13,7 @@ aliases:
 
 To withdraw the balance from your MultiSafepay account and transfer it to your business bank account, your account must be fully activated. To check this:
 
-1. [Log in](https://merchant.multisafepay.com) to your account.
+1. [Sign in](https://merchant.multisafepay.com) to your account.
 2. From the left-hand dashboard, select **Pay-out**.
 3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page for uploading the documents required to approve your account.
 

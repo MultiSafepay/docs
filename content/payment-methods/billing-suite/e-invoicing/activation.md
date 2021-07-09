@@ -24,7 +24,7 @@ To set up E-invoicing in your MultiSafepay account, follow these steps:
 
 Create an action in the form of an email, text message, or letter. Multiple actions form a collection flow. 
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **E-invoicing** > **Action**.
 3. Click **Add new template**.
 4. Select the relevant delivery option(s): **Email address**, **SMS**, or **Letter**.

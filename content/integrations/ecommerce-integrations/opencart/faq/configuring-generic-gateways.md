@@ -8,7 +8,7 @@ The OpenCart plugin supports [generic gateways](/faq/general/generic-gateways/) 
 
 To configure generic gateways, follow these steps:
 
-1. Log in to your OpenCart backend.
+1. Sign in to your OpenCart backend.
 2. Go to **Plugin settings** > **Payment methods** tab.
 3. Set the:  
     - Gateway code  

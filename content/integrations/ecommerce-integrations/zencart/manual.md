@@ -26,7 +26,7 @@ Contact us:
 
 ### Installation and configuration
 1. In the root of your webshop, unpack the content of the .ZIP file.
-2. Log in to your Zen Cart backend.
+2. Sign in to your Zen Cart backend.
 3. Go to **Modules** > **Payment**.
 4. Select **MultiSafepay - Connect**, and then click **Install**.
 5. Enter your [API key](/tools/multisafepay-control/get-your-api-key).

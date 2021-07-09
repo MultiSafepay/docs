@@ -13,7 +13,7 @@ You can process refunds in your MultiSafepay account and in your Magento 1 backe
 
 To process a refund or a credit memo from your backend, follow these steps:
 
-1. Log in to your Magento 1 backend. 
+1. Sign in to your Magento 1 backend. 
 2. Go to **System** > **Connect settings**.
 3. Check that you have:
     - Entered an [API key](/faq/general/multisafepay-glossary/#api-key)

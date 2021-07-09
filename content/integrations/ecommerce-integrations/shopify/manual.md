@@ -58,7 +58,7 @@ For more information, email the Integration Team at <integration@multisafepay.co
 {{< /details >}}
 
 1. To install payment methods, use the relevant links above. For each, click the **Install** button on the bottom right.
-2. Log in to your Shopify backend.
+2. Sign in to your Shopify backend.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.
 4. Search for and click on the payment methods you have installed.
 5. Fill in your API key, site ID, and site secure code. For where to find them, see [API key](/tools/multisafepay-control/get-your-api-key).

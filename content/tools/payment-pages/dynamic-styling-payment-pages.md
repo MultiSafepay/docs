@@ -16,7 +16,7 @@ There are two ways of dynamically styling payment page templates:
 ## Load a saved template
 If you have stored a template, you can request it in the first-level JSON object `"template_id": "value of the template"`.
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Navigate to the WYSIWYG editor, and use it to style the template.
 3. Save the template with a unique name, e.g. "template_1". This is used as the `template_id`.
 4. Add the `template_id` to your API request for **every** transaction.
@@ -25,7 +25,7 @@ If you have stored a template, you can request it in the first-level JSON object
 ## Provide template object structure in the transaction request
 You can also style templates in real time. See the template code on API Reference - [Dynamic styling](https://docs.multisafepay.com/api/#dynamic-styling).
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Navigate to the WYSIWYG editor, and use it to style the template.
 3. Go to **</> API view code** to retrieve the code.
 4. Add the code to your API request for **every** transaction.

@@ -9,7 +9,7 @@ aliases:
 
 The plugin supports [generic gateways](/faq/general/generic-gateways/), e.g. for branded gateways. They work much like other redirect payment methods. All features are supported, except for recurring payments.
 
-1. Log in to your Shopware 5 backend.
+1. Sign in to your Shopware 5 backend.
 2. Go to the **MultiSafepay settings** page.
 3. Enter the gateway code provided by MultiSafepay.
 4. Upload a custom gateway image, if relevant.

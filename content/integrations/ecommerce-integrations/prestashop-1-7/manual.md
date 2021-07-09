@@ -26,13 +26,13 @@ Contact us:
 - Tested on PHP 7.0
 
 ### Installation
-1. Log in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **Modules** > **Modules & services**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 
 ### Configuration
-1. Log in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **Modules & services**.
 3. Search for MultiSafepay, and then click **Configure**.
 4. Enter your [API key](/faq/general/multisafepay-glossary/#api-key). {{% account_info %}}

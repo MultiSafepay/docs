@@ -14,7 +14,7 @@ Auto-withdrawals let you schedule withdrawals on a specific day.
 
 To add a new auto-withdrawal, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com). 
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com). 
 2. Go to **Finance** > **Payouts**.
 3. Under **Automatic withdrawals**, click **+ Add**.
 4. In the **Automatic withdrawals** window:

@@ -28,7 +28,7 @@ Exact can import reports in MT940 format.
 &nbsp;  
 To import a MultiSafepay Accountant export into [Exact Online](https://www.exact.com/software/exact-online) or [Exact Globe](https://www.exact.com/software/exact-globe), follow these steps:
 
-1. Log in to your [Exact Online account](https://start.exactonline.nl/docs/Login.aspx?ReturnUrl=%2fdocs%2fMenuPortal.aspx#_ga=2.221698527.659438293.1581330144-1715983246.1581330144).
+1. Sign in to your [Exact Online account](https://start.exactonline.nl/docs/Login.aspx?ReturnUrl=%2fdocs%2fMenuPortal.aspx#_ga=2.221698527.659438293.1581330144-1715983246.1581330144).
 2. Go to **Financial** > **Banking & cash** > **Statements** > **Import**.
 3. Click **Choose file**, and then select the relevant MT940 file.
 4. Click **Import**.

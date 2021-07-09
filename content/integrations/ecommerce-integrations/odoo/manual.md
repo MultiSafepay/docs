@@ -45,7 +45,7 @@ Contact us:
 9. Click **Install**.
 
 ### Configuration
-1. Log in to your Odoo backend. 
+1. Sign in to your Odoo backend. 
 2. Go to the **Invoicing** or **Website** menu > **Configuration** > **Payment acquirers**.
 3. Select **MultiSafepay** payment acquirer. 
 4. Go to **Edit** mode. 

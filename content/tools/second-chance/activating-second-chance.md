@@ -10,6 +10,6 @@ aliases:
 
 To activate Second Chance, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Select the website you want to enable the Second Chance for.
 3. In the **Website functionality** tile, enable **Second Chance**.

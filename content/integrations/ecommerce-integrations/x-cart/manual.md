@@ -26,12 +26,12 @@ Contact us:
 
 ### Installation
 1. In the root of your webshop, unzip the content of the .ZIP file.
-2. Log in to your X-Cart backend.
+2. Sign in to your X-Cart backend.
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 
 ### Configuration
-1. Log in to your X-Cart backend.
+1. Sign in to your X-Cart backend.
 2. Go to **My Addons**, and search for **MultiSafepay**.
 3. Locate and enable **MultiSafepay Connect**. This is required to enter your [API key](/faq/general/multisafepay-glossary/#api-key) in a later step.
 4. Select the relevant payment methods, and then click **Save changes**.

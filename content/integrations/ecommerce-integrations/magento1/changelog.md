@@ -458,7 +458,7 @@ Release date: Mar 19, 2015
 + Added updateInvoice function. Send Magento invoice ID to MultiSafepay, this will be added to the accountant export
 + Added daysactive to connect
 + When creating an order we now use the selected payment method for the manual transaction request
-+ Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to log in to the Ewallet and manually create a payment link for the order
++ Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to Sign in to the Ewallet and manually create a payment link for the order
 
 ### Improvements
 + If there is an invoice, the order can't be cancelled anymore

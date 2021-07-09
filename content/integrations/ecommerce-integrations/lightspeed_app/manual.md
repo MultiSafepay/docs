@@ -36,11 +36,11 @@ Contact us:
 
 ### Installation 
 
-1. Log in to your Lightspeed backend.
+1. Sign in to your Lightspeed backend.
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  
-5. In the login page that appears, log in using your Lightspeed credentials.
+5. In the login page that appears, Sign in using your Lightspeed credentials.
 6. Click **Next**, and then approve the required permissions.  
     You are redirected to <https://lightspeed.multisafepay.com/install>.
 7. Complete the Signup page, and then click **Create account and continue**.
@@ -51,7 +51,7 @@ Contact us:
 
 To disable the classic Lightspeed integration after migrating to the new app, follow these steps:
 
-1. Log in to your Lightspeed backend.
+1. Sign in to your Lightspeed backend.
 2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
 2. At the top of the screen, disable this payment provider.
 

@@ -18,7 +18,7 @@ The instructions below are for the PayPal interface in English. If your PayPal w
 
 To configure your PayPal account, follow these steps:
 
-1. Log in to [Paypal.com](https://www.paypal.com) with your business account.
+1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
 2. Click the gear icon in the top right corner, and then click **Account settings**.
 3. Click **Account access**.
 4. Under **API access**, click **Update**.
@@ -47,10 +47,10 @@ For support or if any steps are inaccurate, email the Integration Team at <integ
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
-1. Log in to [Paypal.com](https://www.paypal.com) with your business account.
+1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
 2. Click the gear icon in the top right corner, and then click **Account settings** > **Business information**.
 3. Copy your `PayPal Merchant ID`.
-4. Log in into your [MultiSafepay account](https://merchant.multisafepay.com).
+4. Sign in into your [MultiSafepay account](https://merchant.multisafepay.com).
 5. Go to **Settings** > **Payment methods**. 
 6. Select **PayPal**, and then enter your `PayPal Account ID`.
 
@@ -70,7 +70,7 @@ Your account is now configured. We strongly recommend testing some transactions 
 ## Displaying your logo in the PayPal checkout
 To display your header or logo on the PayPal checkout page, follow these steps:
 
-1. Log in into your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in into your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Files**, and upload the relevant images. 
 3. Go to **Payment methods** at the bottom right, and then select the relevant images as **Logo** and **Header**. 
 4. Click **Save**.

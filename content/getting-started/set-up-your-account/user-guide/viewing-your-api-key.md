@@ -12,7 +12,7 @@ aliases:
 
 To view your API key for a specific website, follow these steps:
 
-1. Log in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay account.
+1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay account.
 
 2. Go to **Settings** > **Website settings**.
 

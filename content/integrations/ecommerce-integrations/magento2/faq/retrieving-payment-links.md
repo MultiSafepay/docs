@@ -12,7 +12,7 @@ From version 2.0 and higher, payment links are automatically generated for every
 
 To retrieve a payment link for a customer, follow these steps:
 
-1. Log in to your Magento 2 backend.
+1. Sign in to your Magento 2 backend.
 2. Go to **Sales** > **Orders** > **Create new order**, and then create an order.
 3. Go to the **Orders overview**, and then select the newly created order.
 4. Go to **Comments history**.  

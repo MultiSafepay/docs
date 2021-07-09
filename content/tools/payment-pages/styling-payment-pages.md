@@ -13,7 +13,7 @@ For support, email the Integration Team at <integration@multisafepay.com>
 
 To style payment page templates, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Navigate to **Settings** > **Website settings** > **Website**.
 3. Click the **Template** button. 
 4. Use the WYSIWYG editor to style the payment page template.

@@ -18,7 +18,7 @@ For support, contact Lightspeed – [Support](https://www.lightspeedhq.nl/suppor
 You will need a MultiSafepay account – See [Getting started](/getting-started/).
 
 ### Installation and configuration
-1. Log in to your Lightspeed backend.
+1. Sign in to your Lightspeed backend.
 2. Go to **Settings** > **Payment providers**.
 2. Click **Add payment provider**, and then select **MultiSafepay**.
 3. Enter your account ID, site ID, and site security code. {{% account_info %}}

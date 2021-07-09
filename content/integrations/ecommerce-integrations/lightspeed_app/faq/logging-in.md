@@ -9,11 +9,11 @@ aliases:
     - /integrations/lightspeed_app/faq/how-to-login
 ---
 
-In early 2021, we changed the login method for the MultiSafepay Payment app for Lightspeed from a password to Lightspeed's single sign-on. You can now log in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click the **Login** button.
+In early 2021, we changed the login method for the MultiSafepay Payment app for Lightspeed from a password to Lightspeed's single sign-on. You can now Sign in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click the **Login** button.
 
-To log in using Lightspeed's single sign-on, follow these steps:
+To Sign in using Lightspeed's single sign-on, follow these steps:
 
-Step 1: Log in to the **Admin** section of your Lightspeed store.
+Step 1: Sign in to the **Admin** section of your Lightspeed store.
 
 Step 2: In the sidebar, click **Apps**.
 

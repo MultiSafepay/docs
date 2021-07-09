@@ -31,20 +31,20 @@ There are two ways to install the plugin:
 **Manual installation**
 
 1. Click the **Download** button above.
-2. Log in to your WooCommerce backend.
+2. Sign in to your WooCommerce backend.
 3. Go to **Plugins** > **Add new**. 
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.
 
 **Wordpress installation**
 
-1. Log in to your WooCommerce backend.
+1. Sign in to your WooCommerce backend.
 2. Go to **Plugins** > **Add new**.
 3. Search for **MultiSafepay**. 
 4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
 
 ### Configuration
-1. Log in to your WooCommerce backend.
+1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay Settings**
 3. On the **Account** tab, enter your API key. For where to find your API key, see [API key](/tools/multisafepay-control/get-your-api-key).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.

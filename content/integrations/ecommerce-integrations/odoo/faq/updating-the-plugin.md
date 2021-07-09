@@ -8,7 +8,7 @@ read_more: "."
 
 To update the plugin:
 
-1. Log in to your Odoo backend. 
+1. Sign in to your Odoo backend. 
 2. Go to the **Apps** menu.
 3. Search for and open the **MultiSafepay payments** module.
 4. Click **Upgrade**.

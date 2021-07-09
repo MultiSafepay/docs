@@ -8,5 +8,5 @@ weight: 2
 
 To see an overview of all successful transactions:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **E-invoicing** > **Invoices**. 

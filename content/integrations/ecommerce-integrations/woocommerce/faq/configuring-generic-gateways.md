@@ -9,7 +9,7 @@ The WooCommerce plugin supports a [generic gateway](/faq/general/generic-gateway
 
 To configure the generic gateway, follow these steps:
 
-1. Log in to your WooCommerce backend.
+1. Sign in to your WooCommerce backend.
 2. Go to **Settings** > **Payments** tab. All payment methods are listed here.
 3. Select **Generic gateway** and set:
    * Gateway code

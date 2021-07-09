@@ -79,7 +79,7 @@ For more information about automatic and manual withdrawal, see FAQ Finance – 
 
 When requesting to add an extra currency to your MultiSafepay account, follow these steps to ensure transactions can be processed in that currency and no conversion is required:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. To add a business bank account that can receive the new currency, go to **Finance > Balance > Add bank account**.
 3. Process a bank transfer in the new currency to confirm the business bank account.
 4. The Risk Team finalizes your request.

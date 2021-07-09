@@ -10,7 +10,7 @@ aliases:
 
 To initiate refunds in your MultiSafepay account, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions > Transaction overview**.
 3. Search for the transaction and click on it to open the **Transaction details** page.
 4. Click **Refund** and select amount to refund.

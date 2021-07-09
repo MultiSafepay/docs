@@ -34,7 +34,7 @@ If a refund fails, email the Support Team at <support@multisafepay.com>
   
 To refund a transaction paid with a gift card **and** another payment method, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Refund order** > **Full refund**.

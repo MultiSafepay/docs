@@ -9,7 +9,7 @@ aliases:
 
 To enable tokenization in your backend:
 
-1. Log in to your Magento 1 backend.
+1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
 For more information, see [Tokenization](/tools/tokenization/tokenization-api-level).

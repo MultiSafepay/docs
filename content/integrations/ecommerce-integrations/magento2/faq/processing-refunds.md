@@ -11,7 +11,7 @@ aliases:
 
 To process refunds and credit memos from your Magento 2 backend, follow these steps:  
 
-1. Log in to your Magento 2 backend. 
+1. Sign in to your Magento 2 backend. 
 2. On the **Invoices** tab, click the invoice created by MultiSafepay, and then click **Credit memo**. 
 3. Click the relevant refund button:
 

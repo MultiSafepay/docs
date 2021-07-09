@@ -26,13 +26,13 @@ Contact us:
 - Tested on PHP 7.0
 
 ### Installation
-1. Log in to your VirtueMart backend.
+1. Sign in to your VirtueMart backend.
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
 
 ### Configuration
-1. Log in to your VirtueMart backend.
+1. Sign in to your VirtueMart backend.
 2. Go to **Extensions** > **Plugins**.
 3. In the search box, enter **MultiSafepay**, and then set the plugin status to **Enabled**.
 4. Go to **Components** > **VirtueMart**. 

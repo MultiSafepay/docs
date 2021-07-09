@@ -23,7 +23,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ### Installation and configuration
 
-1. Log in to your Mijwebwinkel backend.
+1. Sign in to your Mijwebwinkel backend.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
 2. Add your MultiSafepay account ID, site ID, site security code, and [API key](/faq/general/multisafepay-glossary/#api-key).
 6. Select the relevant payment methods.

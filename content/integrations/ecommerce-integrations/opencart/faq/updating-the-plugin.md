@@ -12,7 +12,7 @@ To update the plugin using the extension installer tool in your OpenCart backend
 
 1. For security, always create a backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
-3. Log in to your OpenCart backend.
+3. Sign in to your OpenCart backend.
 4. Go to **Extensions** > **Installer**.
 5. Click the **Upload** button, and then select the downloaded file.
 6. Once installed, in the menu go to **Dashboard**.

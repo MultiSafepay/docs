@@ -24,7 +24,7 @@ You can pay out funds automatically or manually.
 
 To schedule automatic payouts, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com) account.
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com) account.
 2. Select **Finance** > **Balance**.
 3. Select the IBAN number you want to pay out to.
 4. Schedule your pay outs.
@@ -39,7 +39,7 @@ The payout scheduler lets you:
 
 To make manual payouts, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com) account.
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com) account.
 2. Select **Finance** > **Balance**.
 3. Select an amount to pay out, the currency, and the IBAN number to pay out to.
 

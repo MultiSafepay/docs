@@ -31,7 +31,7 @@ You must first provide Twinfield with an additional international bank account n
 
 ## Importing into Twinfield
 
-1. Log in to your Twinfield account.
+1. Sign in to your Twinfield account.
 2. From the menu, select **Cash & Banks**.
 3. Select **Cash & Banks** again.
 4. In the **Code** line, enter an identifier, e.g. MSPAY.

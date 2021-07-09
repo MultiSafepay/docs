@@ -32,7 +32,7 @@ read_more: "."
   
 To refund the full transaction, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Refund order** > **Full refund**.
@@ -46,7 +46,7 @@ To refund the full transaction, follow these steps:
 
 To refund part of the transaction in the checkout editor, follow these steps:
 
-1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Refund order** > **Edit**.

@@ -117,7 +117,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
 ### Configuration
-Log in to your Magento 2 backend, and go to **Stores** > **Configuration** > **MultiSafepay**. This section contains the following pages:
+Sign in to your Magento 2 backend, and go to **Stores** > **Configuration** > **MultiSafepay**. This section contains the following pages:
 
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
