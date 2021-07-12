@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/api/google-analytics-tracking
+    - /faq/general/tracking-payment-metrics-in-google-analytics/
 ---
 
 You can track the behavior of your customers through Google Analytics [tracking](/api/#create-an-order).  

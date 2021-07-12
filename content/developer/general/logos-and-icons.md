@@ -1,12 +1,13 @@
 ---
 title: "Logos and icons"
 Weight: 12
-meta_title: "FAQ General - Logos and icons - MultiSafepay Docs"
+meta_title: "General developer information - Logos and icons - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/general/styleguide
     - /faq/general/where-find-logo-payment-methods
+    - /faq/general/logos-and-icons/
 --- 
 For MultiSafepay logos, see [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
 

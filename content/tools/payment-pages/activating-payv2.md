@@ -6,6 +6,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 aliases:
     - /tools/payment-pages/what-is-payv2
+    - /faq/general/languages-supported/
+    - /faq/general/which-languages-are-supported-by-multisafepay
 ---
 
 PayV2 is the MultiSafepay payment page, starting with `payv2.multisafepay.com`. It supports all payment methods and can be styled to fit your website look and feel.
@@ -20,3 +22,28 @@ To activate PayV2, follow these steps:
 
 **Note:** If the **Use new payment pages** checkbox is not visible, email the Integration Team at <integration@multisafepay.com>
 
+{{< details title="Supported languages" >}}
+
+MultiSafepay payment pages support the following languages:
+
+* Arabic
+* Czech
+* Danish
+* Dutch
+* English
+* Finnish
+* French
+* German
+* Hebrew
+* Italian
+* Japanese
+* Mandarin
+* Norwegian
+* Polish
+* Portuguese
+* Russian
+* Spanish
+* Swedish
+* Turkish
+
+{{< /details >}}

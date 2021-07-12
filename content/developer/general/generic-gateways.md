@@ -1,9 +1,11 @@
 ---
 title: "Generic gateways"
 weight: 13
-meta_title: "FAQ General - Generic gateways - MultiSafepay Docs"
+meta_title: "General developer information - Generic gateways - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+aliases:
+    - /faq/general/generic-gateways/
 ---
 
 In our plugins, we use predefined gateways for specific payment methods. When we start supporting a new payment method, merchants need to update their plugin to use the new gateway. 
@@ -18,7 +20,7 @@ For more information about integrating open-loop and closed-loop gift cards in o
 
 ### Requirements
 
-We only support redirect gateways.
+We only support [`redirect`](/developer/api/difference-between-direct-and-redirect/) gateways.
 
 ### Specific plugins
 For more information about a specific plugin, see:

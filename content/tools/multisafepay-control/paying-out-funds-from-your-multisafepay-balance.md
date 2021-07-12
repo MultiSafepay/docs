@@ -12,6 +12,7 @@ aliases:
     - /faq/general/how-can-i-pay-out-the-funds-on-my-multisafepay-account-
     - /faq/finance/paying-out-funds-from-your-multisafepay-control
     - /tools/multisafepay-control/paying-out-your-balance/
+    - /faq/general/bank-holidays
 ---
 
 You can pay out funds from your MultiSafepay account to your business bank account any time for 0,50 EUR each, except if:
@@ -69,6 +70,9 @@ To make manual payouts, follow these steps:
 2. Go to **Finance** > **Balance**.
 3. Select an amount to pay out, the currency, and the IBAN number.
 
+## Payout currency
+The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
+
 ## Payout processing times 
 The time taken to process payouts is determined by the Risk Team. The default payout delay is 1 day. Payouts may take up to three business days to arrive in your business bank account.
 
@@ -76,7 +80,25 @@ Payment batches are not processed on weekends. That is, payouts initiated on Fri
 
 Not all banks have instant payments and therefore may take extra time to process payments.
 
+{{< details title="Bank holidays" >}}
+
 On some bank holidays, banks don't process outgoing payments. For example, see the [Deutsche Bank schedule for the Netherlands](https://www.deutschebank.nl/nl/content/producten_en_services_services_international_holidays_2017.html).
+
+MultiSafepay pays out every business day of the year, but not on bank holidays. Delayed payouts are made the next business day. The dates of bank holidays change each year.
+
+### Bank holidays 2021
+
+| Date   | Occasion     | Payouts made |
+|----------------|-------------------|-----------|
+|  Friday, April 2, 2021 | Good Friday     | No  |
+|  Monday, April 5, 2021 | Easter Monday     | No  |
+|  Tuesday, April 27, 2021 | King's Day     | Yes  |
+|  Thursday, May 13, 2021 | Ascension Day     | Yes  |
+|  Monday, May 24, 2021 | Pentecost     | Yes  |
+
+For more information, email the Support Team at <support@multisafepay.com>
+
+{{< /details >}}
 
 {{< details title="Processing time for automatic payouts" >}}
 
