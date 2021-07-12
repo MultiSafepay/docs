@@ -2,7 +2,7 @@
 title: 'Payment links'
 weight: 50
 meta_title: "Payment links - MultiSafepay Docs"
-layout: 'faqplugins'
+layout: 'single'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/External link.svg'
 short_description: 'Generate a payment link via our API or your MultiSafepay account'
