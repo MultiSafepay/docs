@@ -8,7 +8,8 @@ aliases:
     - /payment-methods/sepa-direct-debit/refund-sepa-direct-debit/
 ---
 {{< details title="SEPA Direct Debit refund rules" >}}
-- You cannot [refund more than the original transaction value](/faq/finance/refunding-more-than-original-transaction/).
+
+- You cannot refund more than the original transaction value.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 

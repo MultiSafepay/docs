@@ -11,7 +11,7 @@ aliases:
 
 {{< details title="Apple Pay refund rules" >}}
 
-- You cannot [refund more than original amount](/faq/finance/refund-more-than-original-amount).
+- You cannot refund more than original amount.
 
 - The maximum refund period for Maestro, Mastercard, and Visa transactions is 180 days. After this, we recommend processing refunds by bank transfer.
 

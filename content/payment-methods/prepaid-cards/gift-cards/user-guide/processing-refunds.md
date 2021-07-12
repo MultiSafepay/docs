@@ -11,7 +11,7 @@ aliases:
 
 {{< details title="Gift card refund rules" >}}
 
-- You cannot [refund more than the original transaction value](/faq/finance/refunding-more-than-original-transaction/).
+- You cannot refund more than the original transaction value.
 
 - Transactions paid with a gift card in full: You can't refund these from your MultiSafepay balance because we don't receive any payment details or bank account details from the customer to refund to. You can refund these transactions in your own online banking environment. 
 
