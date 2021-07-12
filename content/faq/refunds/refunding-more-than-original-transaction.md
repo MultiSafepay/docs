@@ -1,12 +1,15 @@
 ---
-title: "Refunding more than the original transaction value"
-meta_title: "FAQ Finance - Refunding more than original transaction - MultiSafepay Docs"
+title : "Refunding more than the original transaction amount"
+weight: 70
+meta_title: "FAQ Refunds - Refunding more than the original transaction amount - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: "."
+read_more: '.'
 aliases:
+    - /faq/refunds/can-i-cancel-an-initiated-refund
+    - /faq/finance/paying-out-funds-from-your-multisafepay-control
     - /faq/finance/refund-more-than-original-amount
 ---
-You can refund customers more than the value of the original transaction, e.g. if you want to cover the customer's postage costs when returning an order. 
+You can refund customers more than the amount of the original transaction, e.g. if you want to cover the customer's postage costs when returning an order. 
 
 This option is only available for debit card transactions, and **not** for credit cards or post-payment methods. A maximum ammount limit applies. 
 

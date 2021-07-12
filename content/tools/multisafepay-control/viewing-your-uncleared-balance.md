@@ -1,8 +1,10 @@
 ---
 title : "Viewing your Uncleared balance"
-meta_title: "FAQ Finance - Viewing your Uncleared balance - MultiSafepay Docs"
+meta_title: "MultiSafepay account - Viewing your Uncleared balance - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+aliases:
+    - /faq/finance/viewing-your-uncleared-balance
 ---
 
 The [daily balance report](/faq/finance/viewing-your-daily-balance/) now includes the balance of [Uncleared transactions](/faq/finance/evaluating-uncleared-card-transactions/). 
