@@ -9,7 +9,7 @@ aliases:
     - /faq/errors-explained/iframe-errors
 ---
 
-This table lists errors you may encounter, and possible causes.
+This table lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay account, and possible causes.
 
 |  Error ID	|  Error name 	           |   Description	                                           |   Resolution                  |
 |-------|----------------------|-----------------------------------------------------------|----------------------------------------| 
