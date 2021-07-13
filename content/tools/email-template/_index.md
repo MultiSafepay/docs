@@ -188,17 +188,13 @@ The table below describes all available tokens.
 To add your logo to emails to increase customers' recognition and trust, follow these steps:
 
 1. Sign in to your MultiSafepay account.
-2. Upload your logo to [Payment page templates](merchant.multisafepay.com/payment-page-templates).
-3. Go to **Settings** > **Email templates**.
-4. Click the relevant website.
-5. Click the orange pen icon to edit the template.
-6. Click the **Image** icon in the first row of the editor.
-7. In the **Image properties** window:  
-    - Retrieve the link to your uploaded logo.
-    - Enter your account ID and the logo filename to the following URL: `media.multisafepay.com/merchants/{accountid}/{filename}`  
-    **OR**
-    - Go to **Files** where you uploaded the logo. Under **Actions**, click **Copy to clipboard**.
-8. In the **URL field**, enter the URL.
+2. Go to **Settings** > **Website settings** > **Upload a new file**.  
+3. In the **Files** directory, under **Actions**, click **Copy to clipboard** to copy the file's URL (starting with https://media.multisafepay.com/merchants/).
+4. Go to **Settings** > **Email templates**.
+5. Click the relevant website.
+6. Click the orange pen icon to edit the template.
+7. Click the **Image** icon in the first row of the editor.
+8. In the **Image properties** window, in the **URL field**, paste the URL.
 9. Edit other parameters as required: height, border, horizontal space, vertical space, and alignment.
 10. Click **OK**. 
 
