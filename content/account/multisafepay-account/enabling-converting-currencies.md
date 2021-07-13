@@ -3,6 +3,7 @@ title : "Enabling and converting currencies"
 meta_title: "MultiSafepay account - Enabling and converting currencies - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+weight: 70
 aliases:
     - /faq/general/which-currencies-are-supported-by-multisafepay
     - /faq/general/currencies-supported

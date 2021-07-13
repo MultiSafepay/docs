@@ -1,6 +1,6 @@
 ---
 title: 'MultiSafepay app'
-weight: 30
+weight: 20
 meta_title: "MultiSafepay app - MultiSafepay Docs"
 layout: 'faqplugins'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."

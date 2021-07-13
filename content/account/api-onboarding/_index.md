@@ -2,6 +2,7 @@
 title: "Onboarding via our API"
 layout: "single"
 logo: "/svgs/Community.svg"
+weight: 40
 short_description: "Create and onboard affiliated merchant accounts via our API"
 aliases: 
     - /tools/api-onboarding
