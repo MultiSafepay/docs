@@ -5,7 +5,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases: [/integrations/woocommerce/faq/refunding-woocommerce/]
 ---
-You can process refunds directly from your WooCommerce backend, and from your [MultiSafepay account](https://merchant.multisafepay.com).
 
-You can process full and partial refunds for all payment methods, except [billing suites](/payment-methods/billing-suite) for which you can only process **full** refunds.
+Refund rules:
+- Full and partial refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full and partial refunds and credit memos from your WooCommerce backend
+- Partial refunds only for [post-payment methods](/payment-methods/billing-suite)
+
+
+
 

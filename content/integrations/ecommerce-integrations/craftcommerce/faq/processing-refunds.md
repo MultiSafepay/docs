@@ -8,7 +8,12 @@ aliases:
     - /integrations/ecommerce-integrations/craftcommerce/faq/refunding-craft-commerce/
 ---
 
-You can process refunds for all payment methods except billing suites from your [MultiSafepay account](https://merchant.multisafepay.com) or the Craft CMS admin panel.
+Refund rules:
+
+- Full and partial refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full and partial refunds from the Craft CMS admin panel (see below)
+- [Refund with shopping cart](/api/#refund-with-shopping-cart) via our API
+- No refunds for [post-payment methods](/payment-methods/billing-suite)
 
 To process refunds from the Craft Commerce admin panel:  
 

@@ -6,4 +6,9 @@ read_more: "."
 aliases: 
     - /integrations/x-cart/faq/refunding-x-cart/
 ---
-You can process refunds directly from your X-Cart backend, and from your [MultiSafepay account](https://merchant.multisafepay.com).
+
+Refund rules:
+
+- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full refunds from your X-Cart backend 
+

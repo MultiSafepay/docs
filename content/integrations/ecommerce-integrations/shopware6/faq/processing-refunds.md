@@ -7,14 +7,13 @@ aliases:
     - /integrations/ecommerce-integrations/shopware6/faq/how-to-refund-within-shopware6
 ---
 
-You can process both full and partial refunds for all supported Shopware 6 payment methods except for:
+Refund rules:
 
-* AfterPay
-* Pay After Delivery
-* Klarna
-* E-invoicing
+- Full and partial refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full and partial refunds from your Shopware 6 backend 
+- No refunds for [post-payment methods](/payment-methods/billing-suite)
 
-To process a refund, follow these steps:
+To process refunds from your backend, follow these steps:
 
 1. In your Shopware 6 backend, go to the **Order details** page.
 2. In the **Refund** field, enter the refund amount. 

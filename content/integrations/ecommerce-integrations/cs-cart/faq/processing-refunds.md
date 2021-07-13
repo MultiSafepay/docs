@@ -6,5 +6,10 @@ read_more: "."
 aliases: 
     - /integrations/cs-cart/faq/refunding-cs-cart/
 ---
-You can process refunds from your CS-Cart backend or from your [MultiSafepay account](https://merchant.multisafepay.com).
+
+Refund rules:
+
+- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full refunds from your CS-Cart backend 
+
 

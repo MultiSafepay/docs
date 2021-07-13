@@ -6,10 +6,14 @@ read_more: "."
 aliases: 
     - /integrations/opencart/faq/refunding-opencart/
 ---
-To process full refunds from your OpenCart backend, follow these steps:
+
+Refund rules:
+- Full refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full refunds from your OpenCart backend
+
+To process refunds from your backend, follow these steps:
 
 1. Sign in to your OpenCart backend.
 2. Go to **Orders** > **Order view button** > **Order history panel**. 
 3. Click the **Refund** button. This only appears if the order status is **Completed** or **Shipped**.
 
-You can also process refunds from your [MultiSafepay account](https://merchant.multisafepay.com).
