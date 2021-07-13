@@ -25,6 +25,8 @@ To create a free test account, follow these steps:
 
 For support, email the Customer Operations Team at <support@multisafepay.com>
 
+For more information, see [About account types](/account/partner-account-control/about-account-types/).
+
 {{< two-buttons
 href-1="/getting-started/" header-1="Overview" text-1="Getting started" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 

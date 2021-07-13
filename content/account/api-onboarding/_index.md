@@ -8,20 +8,11 @@ aliases:
     - /tools/api-onboarding
 ---
 
-This page is for MultiSafepay partners wanting to submit onboarding information about new affiliated merchants through our API. 
+This page is for MultiSafepay partners wanting to submit onboarding information for new affiliated merchants via our API. 
 
 The API also lets you create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.  
 
-### Partner and merchant accounts
-Partner and merchant accounts each represent a single legal entity that processes payments. They can support multiple:
-
-- Bank accounts
-- Users with their own login credentials and permissions
-
-Partner accounts act as a parent to affiliated merchant accounts and may receive commissions. For more information about commissions, see [Managing commissions](/tools/partner-account-control/managing-commissions).
-
-If you currently have a merchant account, contact your account manager to discuss your options. 
-If you don't have a MultiSafepay account, [sign up for a partner account](https://merchant.multisafepay.com/signup?partner).
+See also [About account types](/account/partner-account-control/about-account-types/).
 
 ## Submitting merchant information
 
