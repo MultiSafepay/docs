@@ -12,6 +12,9 @@ aliases:
     - /tools/email-template/basic-information-on-email-template/
     - /tools/email-template/customizing-email-templates/
     - /tools/email-template/about-email-templates/
+    - /tools/multisafepay-control/email-template-token
+    - /tools/multisafepay-control/using-email-template-tokens
+    - /account/multisafepay-account/using-email-template-tokens/
 ---
 
 To speed up and customize customer emails, you can use preformatted and/or prewritten templates that you populate with relevant content.
@@ -102,12 +105,7 @@ To view the HTML/CSS code, click **Source**.
 
 {{< details title="Using @tokens@" >}}
 
-To save time, you can use @tokens@ to auto-fill personalized details into emails, e.g.:
-
-- Order amount 
-- Customer's first and last name
-- Payment method 
-- Order description
+To save time, you can use @tokens@ to auto-fill personalized details into emails.
 
 Follow these steps:
 
@@ -115,6 +113,73 @@ Follow these steps:
 2. Click the **Token** icon.
 3. Select a token from the dropdown menu.
 4. Click **OK**.
+
+The table below describes all available tokens.
+
+| Tags                          |     Result    |      
+| ----------------------------- | ------------- | ------
+| ACCOUNT                       | Account_id of FastCheckout customer |   
+| ACCOUNTADDRESS                | Customer address and street name   |  
+| ACCOUNTADDRESSAPARTMENT       | Customer house number |
+| ACCOUNTCITY                   | Customer city of residence |
+| ACCOUNTCOUNTRY                | Customer country of residence |
+| ACCOUNT EMAIL                 | Customer email address |
+| ACCOUNTFIRSTNAME              | Customer first name |
+| ACCOUNTLASTNAME               | Customer last name |
+| ACCOUNTNR                     | Your MultiSafepay AccountID |
+| ACCOUNTZIPCODE                | Customer zip code |
+| ADDRESS1                      | Your company address line 1 |
+| ADDRESS2                      | Your company address line 2 |
+| ADDRESS3                      | Your company address line 3 |
+| BANKHOLDERNAME                | Account holder used by the customer to process bank transfer transactions |
+| BANKIBAN                      | IBAN used by the customer to process bank transfer transactions |
+| BANKPAYMENTID                 | Reference used by the customer to process bank transfer transactions |
+| BANKTRANSFERBIC               | BIC used by the customer to process bank transfer transactions |
+| BANKTRANSFERHOLDER            | Account holder name of IBAN to receive the money |
+| BANKTRANSFERID                | Reference used with the bank transfer |
+| BIRTHYDAY                     | Customer date of birth |
+| CITY                          | Your company city of residence |
+| COMPANYNAME                   | Your company name given in your MultiSafepay account |
+| CONTENT                       | Shopping cart info |
+| COUNTRY                       | [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code for your company country |
+| COUNTRYCODE                   | [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code for your company country |
+| CURRENTDATE                   | Today's date |
+| DESCRIPTION                   | AccountID to receive money |
+| DESTAMOUNT                    | Amount to be received |
+| DESTAMOUNTFORMATCUR           | Amount including currency to be paid by the customer via bank transfer transactions |
+| DESTCURRENCY                  | Currency of amount to be received |
+| DESTFORMATAMOUNTCUR           | Currency and amount to be paid out |
+| EMAIL                         | Customer email address |
+| FINANCIAL EMAIL               | Email address for financial email |
+| FIRSTNAME                     | Customer first name and email address set as sender for emails |
+| FROMNAME                      | Name of the sender's email account |
+| GENDER                        | Customer gender |
+| LASTNAME                      | Customer last name |
+| MERCHANTCITY                  | Your company city of residence |
+| MERCHANTCOUNTRY               | Your company country of residence  |
+| MERCHANTLOGOHTML              | HTML code for your logo |
+| MERCHANTNAME                  | Your company full name |
+| MERCHANTPHONESUPPORT          | Your customer service phone number |
+| MERCHANTSUPPORT EMAIL         | Your customer service email address |
+| MERCHANTTRANSACTIONID         | Your reference number |
+| PAYLINK                       | Link to the MultiSafepay payment page for this transaction |
+| PAYMENTMETHOD                 | Payment method used for this transaction |
+| PHONE                         | Your company phone number given in your MultiSafepay account |
+| REFUNDDESTINATION             | Bank account number to receive the refund |
+| REPORT EMAIL                  | Email address to receive report emails |
+| SITENAME                      | Nname of your webshop given in your MultiSafepay account |
+| SITEURL                       | URL of your webshop given in your MultiSafepay account |
+| STATE                         | Province or state within the country |
+| STATUS                        | Status of the transaction |
+| SUBJECT                       | Subject of the email |
+| TOTALAMOUNT                   | Total of the order |
+| TRANSACTIONID                 | MultiSafepay PSP ID |
+| TRANSCOMP EMAIL               | Email address to receive transaction completed mails |
+| VARA                          | var1 from your transaction request |
+| VARB                          | var2 from your transaction request |
+| VARC                          | var3 from your transaction request |
+| VATNUMBER                     | Your VAT number given in your MultiSafepay account |
+| ZIPCODE                       | Your company zip code |
 
 {{< /details >}}
 

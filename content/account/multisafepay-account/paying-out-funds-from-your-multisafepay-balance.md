@@ -13,17 +13,11 @@ aliases:
     - /faq/finance/paying-out-funds-from-your-multisafepay-control
     - /tools/multisafepay-control/paying-out-your-balance/
     - /faq/general/bank-holidays
-<<<<<<< HEAD:content/account/multisafepay-account/paying-out-funds-from-your-multisafepay-balance.md
-<<<<<<< HEAD:content/account/multisafepay-account/paying-out-funds-from-your-multisafepay-balance.md
     - /tools/multisafepay-control/paying-out-funds-from-your-multisafepay-balance
     - /tools/multisafepay-control/autowithdrawl-updates
     - /tools/multisafepay-control/adding-autowithdrawals
-=======
     - /tools/multisafepay-control/autowithdrawl-updates
->>>>>>> DOCS-2515: Tech edit Email templates:content/tools/multisafepay-control/paying-out-funds-from-your-multisafepay-balance.md
-=======
     - /tools/multisafepay-control/autowithdrawl-updates
->>>>>>> 7a4d616f5b2c2c82e4dac3806e7902429e0ce310:content/tools/multisafepay-control/paying-out-funds-from-your-multisafepay-balance.md
 ---
 
 You can pay out funds from your MultiSafepay account to your business bank account any time for 0,50 EUR each, except if:
