@@ -39,7 +39,13 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The customer canceled the payment in Deutsche Bank online banking. | Void | Void |
 | The customer didn't complete the payment and the transaction expired. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payments/methods/banks/request-to-pay/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Reserved | Reserved |
+| The refund has been successfully processed. | Completed | Completed |
+| Deutsche Bank has declined the refund. | Declined | Declined |
 
 
         

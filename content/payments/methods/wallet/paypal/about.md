@@ -39,3 +39,17 @@ To be eligible, for specific countries, transaction requests must contain the co
 For more information, see PayPal – [What is Seller Pretection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156). 
 
 {{< /details >}}
+
+{{< details title="Paypal refund rules" >}}
+
+- You cannot refund more than the amount of the original transaction.
+
+- The maximum refund period is 60 days. After this period, we recommend processing refunds by bank transfer.
+
+- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+
+- Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an [eCheck](https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082). To avoid PayPal cancelling the refund, in your PayPal account authorize PayPal to withdraw funds from another bank account instead. For any questions, contact PayPay – [Help Center Home](https://www.paypal.com/us/smarthelp/home).
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+{{< /details >}}

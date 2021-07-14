@@ -23,7 +23,7 @@ Settlement is instant (if supported) or within 24 hours. The funds are transferr
 | **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Germany  | More countries will follow as more banks migrate to PSD2 APIs. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/banks/request-to-pay/user-guide/processing-refunds) | 
+| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
@@ -31,3 +31,17 @@ Settlement is instant (if supported) or within 24 hours. The funds are transferr
 
 - Request to Pay supports both instant and non-instant SEPA bank transfers.
 - A minimum amount of 1 EUR and maximum of 15,000 EUR applies.
+
+{{< details title="Request to Pay refund rules" >}}
+
+- All refunds are processed by Deutsche Bank.
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}

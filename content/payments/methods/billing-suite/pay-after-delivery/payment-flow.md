@@ -63,6 +63,11 @@ See also [Closing transactions](/payments/methods/billing-suite/pay-after-delive
 | The transaction has been cancelled. | Void   | Cancelled | 
 | The customer did not complete the payment within 90 days and the transaction has expired. | Expired | Expired | 
 
-For refund statuses, see [Processing refunds](/payments/methods/billing-suite/pay-after-delivery/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Initialized | Initialized |  
+| The refund is successfully processed. | Completed | Completed | 
 
 

@@ -83,6 +83,12 @@ For support, email the Integration Team at <integration@multisafepay.com>
 
 You can process refunds in the backend of most ecommerce platforms. For more information, see the User guide in the integration manual for the relevant platform, e.g. Magento 2 – [Processing refunds](/payments/integrations/ecommerce-platforms/magento2/faq/processing-refunds/).
 
+## Via our API
+
+For post-payment methods, you can also refund via our API. Make a POST `/orders/{order_id}/refunds` request. 
+
+See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
+
 ## Refund rules
 
 {{< details title="Refunding more than the original transaction amount" >}}

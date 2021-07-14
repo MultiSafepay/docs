@@ -22,7 +22,20 @@ Postepay is a popular Visa or Mastercard-branded credit card in Italy. An additi
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Italy  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/credit-and-debit-cards/postepay/user-guide/processing-refunds/) | 
+| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
+## Product rules
+
+{{< details title="Postepay refund rules" >}}
+
+- You cannot refund more than the amount of the original transaction.
+
+- The maximum refund period is 180 days.
+
+- MultiSafepay sends refunds to the issuer within 1 business day. 
+
+- Whether or not the refund is visible to the customer depends on the issuer.
+
+{{< /details >}}

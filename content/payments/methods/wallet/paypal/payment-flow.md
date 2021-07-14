@@ -40,7 +40,13 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payments/methods/wallet/paypal/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Reserved    | Initialized   |
+| The refund was successfully processed.  | Completed      | Initialized   |
+| The customer has requested a refund but there are not enough funds in your PayPal business account. | Uncleared | Initialized   |
 
 
 

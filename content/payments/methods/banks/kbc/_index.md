@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "KBC is the online banking payment method of two of Belgium's largest banks: KBC which serves the Dutch-speaking population, and CBC which serves the French speaking population."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/KBC.svg'
 short_description: 'Accept online banking payments from KBC customers in Belgium.'
 aliases:

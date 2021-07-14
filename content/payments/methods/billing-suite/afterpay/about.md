@@ -19,7 +19,7 @@ AfterPay is the largest online post-payment method in the Netherlands, and recen
 | **API flow**  | `Direct`/ `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/billing-suite/afterpay/faq/processing-refunds/) | 
+| **Refunds**  | Full, partial, discounts, API  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
@@ -42,6 +42,21 @@ If you supply multiple order rules with the same `merchant-item-id`and the custo
 To successfully process partial refunds for the same product with different specifications (e.g. size, color) via the shopping cart, each `merchant-item-id` must be unique.
 
 **Example:** For different-sized products, differentiate the `merchant-item-id` with `-size`: 1001311-xxl, 1001311-m, 1001311-s.
+
+{{< /details >}}
+
+{{< details title="AfterPay refund rules" >}}
+- You cannot refund more than the amount of the original transaction.
+
+- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

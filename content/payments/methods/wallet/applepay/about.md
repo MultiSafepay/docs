@@ -20,7 +20,7 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
 | **API flow**  | `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | [More information](https://support.apple.com/en-us/HT207957) |
 | **Currencies**  | Multiple | [More information](https://support.apple.com/en-us/HT207957) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/wallet/applepay/user-guide/processing-refunds/) | 
+| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 
@@ -36,3 +36,19 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
 - Apple Pay transactions are processed as credit card transactions and follow similar product rules, with the following exceptions:
     - An SSL secured connection (HTTPS) is required.
     - American Express is **not** supported.
+
+{{< details title="Apple Pay refund rules" >}}
+
+- You cannot refund more than original amount.
+
+- The maximum refund period for Maestro, Mastercard, and Visa transactions is 180 days. After this, we recommend processing refunds by bank transfer.
+
+- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- The customer receives the refund in their Apple Pay account and it appears on their credit card statement within the next business day.
+
+If a refund fails, email the Support Team at <support@multisafepay.com>
+
+{{< /details >}}

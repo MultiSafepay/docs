@@ -34,8 +34,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 8. | The customer has 30 days to pay the second installment. |  | |
 | 9. | The customer has 60 days to pay the third installment. |  | |
 
-
-### Unsuccessful statuses
+## Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description                      | Order status      | Transaction status |
@@ -43,6 +42,11 @@ You can cancel payments before the funds are captured. After the funds are captu
 | in3 has declined the payment. No order was created.    | Declined   | Declined   |
 | The payment was cancelled or abandoned. | Void    | Void    |
 
-For refund statuses, see [Processing refunds](/payments/methods/billing-suite/in3/user-guide/processing-refunds).
+## Refund statuses
+
+| Description                      | Order status      | Transaction status |
+|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| in3 has successfully processed a full or partial refund. | Completed    | Completed   |
+| in3 has declined a full or partial refund request.  | Declined      | Declined   |
 
 

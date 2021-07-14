@@ -38,7 +38,13 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 | The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
 
-For refund statuses, see [Processing refunds](/payments/methods/credit-and-debit-cards/cartes-bancaires/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Reserved    | Reserved   |
+| The refund was successfully processed.  | Completed      | Completed   |
+| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
 
 
 

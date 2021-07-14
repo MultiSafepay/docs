@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "ING Home'Pay is an online payment method for ING customers in Belgium. Customers are redirected to their ING banking environment to complete payment."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/ING_Homepay.svg' 
 short_description: 'Accept secure bank transfers from ING customers in Belgium.'
 aliases:

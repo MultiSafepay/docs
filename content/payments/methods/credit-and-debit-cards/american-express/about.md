@@ -42,6 +42,24 @@ For more information, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
+{{< details title="American Express refund rules" >}}
+
+- You cannot refund more than the amount of the original transaction.
+
+- The maximum refund period is 180 days. After this period, we recommend processing refunds by bank transfer.
+
+- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+- Depending on the customer's issuer, the amount may not appear directly on their card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), they can email the Support Team at <support@multisafepay.com> 
+
+- If you process a partial refund on the same day, this is technically called a "reversal", but for simplicity is logged as a refund in your MultiSafepay account. On customer credit card statements, the transaction may either be adjusted to the new amount (partial reversal) _or_ not debited at all (full reversal).
+
+{{< /details >}}
+
 
     
 

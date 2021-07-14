@@ -40,6 +40,11 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Klarna has declined the payment. See Klarna&nbsp;–&nbsp;[Contact customer service](https://www.klarna.com/international/contact-customer-service). {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the payment.    | Void   | Cancelled   |
 | The payment was not completed or the [order status did not change to Shipped]((/payments/methods/billing-suite/klarna/user-guide/changing-order-status-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay account **Transaction overview**. Create a new order, if required.  | Expired    | Expired    |
 
-For refund statuses, see [Processing refunds](/payments/methods/billing-suite/klarna/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description                      | Order status      | Transaction status |
+|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| The customer requests a refund. | Initialized    | Completed   |
+| The refund is successfully processed.  | Completed      | Completed   |
 
 

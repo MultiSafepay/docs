@@ -47,4 +47,9 @@ If the customer returns some items from the order and this takes a long time to 
 
 Phone +31 207230230 or email <merchant@afterpay.com> 
 
-For refund statuses, see [Processing refunds](/payments/methods/billing-suite/AfterPay/user-guide/processing-refunds).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Initialized    | Completed   |
+| The refund was successfully processed.  | Completed      | Completed   |

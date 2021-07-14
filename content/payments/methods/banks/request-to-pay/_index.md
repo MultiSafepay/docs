@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking API. Customers are redirected to Deutsche Bank online banking, authenticate themselves, and authorize a secure SEPA transfer."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/RTP.svg'
 short_description: 'Deutsche Bank payment method based on secure SEPA transfers.'
 aliases:

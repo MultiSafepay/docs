@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "Bancontact is a leading Belgian payment method that supports online, mobile app, and POS payments. Bancontact is a household name and supported by over 80% of Belgian webshops."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/Bancontact.svg'
 short_description: 'Leading Belgian payment method for online, mobile app, and POS payments.'
 aliases: 

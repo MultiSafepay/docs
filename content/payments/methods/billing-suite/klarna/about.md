@@ -19,11 +19,26 @@ Klarna is an online post-payment method that lets customers pay for orders after
 | **API flow**  | `Direct`/`Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, Netherlands  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/billing-suite/klarna/user-guide/processing-refunds) | 
+| **Refunds**  | Full, partial, discounts, API | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules
+
+{{< details title="Klarna refund rules" >}}
+- You cannot refund more than the amount of the original transaction.
+
+- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}
 
 {{< details title="Gift cards" >}}
 &nbsp;  

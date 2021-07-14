@@ -9,7 +9,6 @@ short_description: 'Accept online banking payments from customers of all Polish 
 intro_description: "Dotpay is an inter-bank payment method that links all major Polish retail banks. Customers pay from their own online banking environment."
 layout: 'single'
 logo: '/logo/Payment_methods/Dotpay.svg'
-faq: '.'
 aliases:
     - /support-tab/magento2/payment-methods/dotpay
     - /payment-methods/banks/dotpay

@@ -19,7 +19,7 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 | **API flow** | `Direct`/ `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
-| **Refunds** | Full and partial | [More information](/payments/methods/billing-suite/pay-after-delivery/faq/processing-refunds/) |
+| **Refunds** | Full, partial, discount, API | [More information](/payments/refunds-and-chargebacks/refunds/) |
 | **Recurring payments** | No | [More information](/payments/about/recurring-payments/) |
 | **Chargebacks** | No | [More information](/faq/chargebacks) |
 
@@ -38,6 +38,28 @@ If you supply multiple order rules with the same `merchant-item-id`and the custo
 To successfully process partial refunds for the same product with different specifications (e.g. size, color) via the shopping cart, each `merchant-item-id` must be unique.
 
 **Example:** For different-sized products, differentiate the `merchant-item-id` with `-size`: 1001311-xxl, 1001311-m, 1001311-s.
+
+{{< /details >}}
+
+{{< details title="Pay After Delivery refund rules" >}}
+
+- If the customer hasn't paid, you can cancel the transaction by performing a full refund.
+
+- You cannot refund more than the amount of the original transaction.
+
+- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
+
+- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+- With full refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

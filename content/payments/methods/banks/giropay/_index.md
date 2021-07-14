@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "Giropay is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. Settlement is instant and guaranteed."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/Giropay.svg' 
 short_description: 'Leading payment method in Germany connecting all major German banks.'
 aliases:

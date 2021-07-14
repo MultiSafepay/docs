@@ -44,5 +44,10 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The payment has been cancelled. | Void | Cancelled |
 | The payment was not completed and it expired. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payments/methods/billing-suite/e-invoicing/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Initialized | Initialized |
+| The refund has been successfully processed.  | Completed | Completed |
 

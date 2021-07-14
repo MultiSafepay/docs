@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "Trustly is a quick, secure bank payment method that is available in 29 European countries. Customers pay from their own online banking environment."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/Trustly.svg' 
 short_description: 'Accept online banking payments from a number of European countries.'
 aliases:

@@ -8,6 +8,8 @@ short_description: "Activating PayPal to use in your MultiSafepay account"
 layout: 'child'
 aliases: 
     - /payment-methods/paypal/activate-paypal
+    - /faq/errors-explained/paypal-error-10002
+    - /faq/errors-explained/iframe-errors
 ---
 ## Configuring your PayPal account
 {{< details title="Changing the language of the PayPal interface" >}}
@@ -42,6 +44,10 @@ To complete the configuration, change the language encoding setting of your PayP
 4. Click **Yes** > **Save**.
 
 For support or if any steps are inaccurate, email the Integration Team at <integration@multisafepay.com>
+
+{{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
+
+For support, see PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us).
 
 ## Configuring your MultiSafepay account
 

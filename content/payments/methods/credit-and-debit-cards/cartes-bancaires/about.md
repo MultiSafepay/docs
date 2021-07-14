@@ -19,11 +19,23 @@ Cartes Bancaires is a popular Visa-branded credit card in France. An additional 
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | France  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/credit-and-debit-cards/cartes-bancaires/user-guide/processing-refunds/) | 
+| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 
-    
+## Product rules
+
+{{< details title="Cartes Bancaires refund rules" >}}
+
+- You cannot refund more than the amount of the original transaction.
+
+- The maximum refund period is 180 days.
+
+- MultiSafepay sends refunds to the issuer within 1 business day. 
+
+- Whether or not the refund is visible to the customer depends on the issuer.
+
+{{< /details >}}
 
 
 

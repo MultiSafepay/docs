@@ -34,7 +34,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 10. | Betaal per Maand settles the funds with MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
 | 11. | MultiSafepay adds the funds to your MultiSafepay balance within 5 business days.| | |
 
-### Unsuccessful statuses
+## Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description | Order status | Transaction status |
@@ -43,5 +43,10 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The payment was cancelled.   | Void   | Cancelled   |
 | The customer did not complete the payment, and it expired. | Expired    | Expired    |
 
-For refund statuses, see [Processing refunds](/payments/methods/billing-suite/betaalpermaand/user-guide/processing-refunds).
+## Refund statuses
+
+| Description   | Order status      | Transaction status |
+|----|----|---|
+| The customer has requested a refund. | Reserved    | Reserved   |
+| The refund was successfully processed.  | Completed      | Completed   |
 

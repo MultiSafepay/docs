@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "EPS is a widely accepted inter-bank payment method that links all major Austrian retail banks. Customers pay in their own online banking environment. Settlement is instant and guaranteed."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/EPS.svg'
 short_description: 'Accept online banking payments from customers of all Austrian banks.'
 aliases:

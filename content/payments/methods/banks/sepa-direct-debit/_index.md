@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "SEPA Direct Debit is a European payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports SOFORT Banking and iDEAL."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/directdebit-en.svg' 
 short_description: 'Debit European customers directly from their bank account.'
 aliases:

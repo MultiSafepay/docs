@@ -38,7 +38,12 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payments/methods/banks/giropay/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Initialized | Initialized |
+| The refund has been successfully processed. | Completed | Completed |
 
 
 

@@ -26,10 +26,20 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|---|
 | 1. | The customer initiates a transaction and provides an email address. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer receives details for a MultiSafepay bank account by email, sent by MultiSafepay or [from your ecommerce integration](/payments/methods/banks/bank-transfer/user-guide/emailing-payment-instructions/).  |   |  |
+| 3. | The customer receives details for a MultiSafepay bank account by email, sent by MultiSafepay or yourself (see below).  |   |  |
 | 4. | The customer transfers the funds to the MultiSafepay bank account, either online or with a bank teller. {{< br >}} The funds may take 1 to 3 business days to arrive in our account. | | |
 | 5. | MultiSafepay collects the funds and matches the payment to the outstanding transaction. {{< br >}} **Note:** If the customer provides incorrect data and/or pays the wrong amount, we won't link the payment to the outstanding transaction and instead refund the payment to the customer. | Completed | Completed |
 | 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+
+{{< details title="Emailing payment instructions yourself" >}}
+
+To email the payment instructions to the customer yourself, in your POST `/orders` API request, set the `disable_send_email` parameter to `false`. 
+
+This prevents MultiSafepay emailing the customer.
+
+For more information, see API Reference – [Direct bank transfer](/api/#direct-bank-transfer).
+
+{{< /details >}}
 
 ## Unsuccessful statuses
 
@@ -38,7 +48,12 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payments/methods/banks/bank-transfer/user-guide/processing-refunds/).
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Reserved | Reserved |
+| The refund has been successfully processed. | Completed | Completed |
 
 
 
