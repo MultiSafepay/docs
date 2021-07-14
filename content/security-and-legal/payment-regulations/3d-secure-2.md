@@ -1,6 +1,6 @@
 ---
 title : "3D Secure 2.0"
-weight: 1
+weight: 40
 meta_title: "Payment regulations - 3D Secure 2.0 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
