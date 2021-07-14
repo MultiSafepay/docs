@@ -47,7 +47,9 @@ To refund the full transaction, follow these steps:
 4. Click **Refund order** > **Full refund**.
 5. Click **Save**.
 
-   The transaction is cancelled.
+   The transaction is cancelled.  
+   Order status: **Void** Transaction status: **Cancelled**  
+   It is not possible to alter or reverse full refunds. 
 
 {{< /details >}}
 
@@ -64,6 +66,8 @@ To refund part of the transaction in the checkout editor, follow these steps:
 
    The transaction shows the credited item(s) with the deducted amount added to the transaction.
    A new payment link is generated and sent to the customer with the adjusted invoice.
+   Any additional administration costs for the customer are deducted from the invoice. 
+   The customer has a further 14 days to complete the payment. 
 
 {{< /details >}}
 

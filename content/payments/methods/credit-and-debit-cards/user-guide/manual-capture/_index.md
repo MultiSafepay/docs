@@ -35,7 +35,7 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
-- Transaction status: indicates the status of the payment
+- Transaction status: indicates the status of settlement in your MultiSafepay balance
 
 {{< /details >}}
 

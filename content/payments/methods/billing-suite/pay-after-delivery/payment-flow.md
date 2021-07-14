@@ -16,7 +16,7 @@ The table below shows a successful payment flow from start to finish.
 In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
-- Transaction status: indicates the status of the payment
+- Transaction status: indicates the status of settlement in your MultiSafepay balance
 
 {{< /details >}}
 
@@ -41,7 +41,16 @@ If the customer fails to pay within the initial 14 day period, MultiFactor email
 
 If the customer still fails to pay, the amount of the total invoice is transferred to a debt collection agency. 
 
-To stop sending reminders, credit the invoice for a zero amount. 
+To stop sending reminders, you can either:
+
+- Credit the invoice for a zero amount, or
+- Request to place the transactin on hold for up to 1 month
+
+Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
+Provide the following information:
+- Transaction details
+- Reason for your request
+- Expected date to start the billing process again
 
 ### Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
