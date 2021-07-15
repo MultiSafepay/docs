@@ -31,7 +31,9 @@ Betaal per Maand bears the risk and guarantees settlement.
 
 - You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
-- See also User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/).
+- See also:
+    - User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/).
+    - MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
 
 {{< details title="Refunds" >}}
 - You cannot refund more than the amount of the original transaction.

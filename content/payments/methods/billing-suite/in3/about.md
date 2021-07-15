@@ -29,6 +29,8 @@ in3 is a Dutch online post-payment method where customers pay in 3 installments 
 
 - Customers can provide different billing and shipping addresses.
 
+- See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+
 {{< details title="Refunds" >}}
 
 - You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards.

@@ -29,6 +29,8 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 
 - E-invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
 
+- See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+
 {{< details title="Refunds" >}}
 - You cannot refund more than the amount of the original transaction.
 

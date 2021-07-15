@@ -86,3 +86,5 @@ Instead of deleting an item in the checkout editor, you may want to add a discou
    A new payment link is generated and sent to the customer with the adjusted invoice.
 
 {{< /details >}}
+
+- See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
