@@ -32,7 +32,7 @@ Once payment is completed, the customer cannot reverse it and Bancontact QR guar
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="Bancontact QR refund rules" >}}
+{{< details title="Refunds" >}}
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

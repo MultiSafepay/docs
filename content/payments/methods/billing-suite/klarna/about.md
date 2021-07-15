@@ -25,7 +25,7 @@ Klarna is an online post-payment method that lets customers pay for orders after
 
 ## Product rules
 
-{{< details title="Klarna refund rules" >}}
+{{< details title="Refunds" >}}
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

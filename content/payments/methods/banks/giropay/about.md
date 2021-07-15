@@ -29,7 +29,7 @@ Giropay is the leading inter-bank payment method in Germany, connecting all majo
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="Refund rules" >}}
+{{< details title="Refunds" >}}
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

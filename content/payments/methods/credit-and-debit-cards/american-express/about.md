@@ -19,10 +19,10 @@ American Express is one of the biggest global credit card schemes, accepted in m
 | **Payment type**   | Credit card  | |
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
-| **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/credit-and-debit-cards/american-express/user-guide/processing-refunds/) | 
+| **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) | 
+| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks) {{< br >}} You are solely liable for paying chargebacks.  |
+| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks)  |
 
 ## Product rules
 
@@ -42,7 +42,7 @@ For more information, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
-{{< details title="American Express refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -60,7 +60,19 @@ For more information, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
 
+{{< details title="Chargebacks" >}}
 
+Cardholders who disagree with or do not recognise a transaction charged to their credit card can ask American Express to raise a dispute. American Express then notifies MultiSafepay and reclaims the transaction amount from you.
+
+You are solely liable for paying chargebacks.
+
+American Express gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
+
+For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
+
+To help reduce chargebacks, see [Your logo in online banking](/payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking).
+
+{{< /details >}}
     
 
 

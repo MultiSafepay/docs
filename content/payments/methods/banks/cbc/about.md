@@ -31,7 +31,7 @@ The payment method functions the same for both the CBC branch and the KBC branch
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="Refund rules" >}}
+{{< details title="Refunds" >}}
 
 - MultiSafepay doesn’t automatically receive the IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. You can process refunds after 1 business day.
 

@@ -76,7 +76,7 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 
 {{< /details >}}
 
-{{< details title="Gift card refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the original transaction value.
 

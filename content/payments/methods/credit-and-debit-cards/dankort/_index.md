@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "Dankort is a popular Visa-branded credit card in Denmark. An additional layer of security is provided by Verified by Visa (Visa's version of 3D Secure), which requires cardholders to verify their identity."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/Dankort.svg' 
 short_description: 'Visa-branded credit card in Denmark.'
 aliases:

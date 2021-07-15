@@ -31,7 +31,7 @@ Belfius is a popular online banking payment method for Belfius bank customers in
 
 - Belfius transactions automatically expire after 5 days.
 
-{{< details title="Belfius refund rules" >}}
+{{< details title="Refunds" >}}
 
 - MultiSafepay doesn’t automatically receive the IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. You can process refunds after 1 business day.
 

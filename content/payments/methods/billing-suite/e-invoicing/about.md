@@ -29,17 +29,7 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 
 - E-invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
 
-{{< details title="Gift cards" >}}
-&nbsp;  
-Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, E-invoicing requires very precise order specifications. 
-
-Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
-
-Customers can enter gift card details **before** placing the order, i.e. on your checkout page, before the API request. You are solely responsible for enabling this feature. Failure to follow this rule so can produce unexpected errors and complications.
-
-{{< /details >}}
-
-{{< details title="E-Invoicing refund rules" >}}
+{{< details title="Refunds" >}}
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -53,3 +43,15 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
+
+{{< details title="Gift cards" >}}
+&nbsp;  
+Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, E-invoicing requires very precise order specifications. 
+
+Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
+
+Customers can enter gift card details **before** placing the order, i.e. on your checkout page, before the API request. You are solely responsible for enabling this feature. Failure to follow this rule so can produce unexpected errors and complications.
+
+{{< /details >}}
+
+

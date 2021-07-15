@@ -32,7 +32,7 @@ Alipay is a leading global payment method that lets Chinese customers link their
 
 - Currency conversion is processed in EUR only.
 
-{{< details title="Alipay refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You can refund more than original amount. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 

@@ -29,7 +29,7 @@ ING Home'Pay is an online payment method for ING customers in Belgium. Customers
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="ING Home'Pay refund rules" >}}
+{{< details title="Refunds" >}}
 
 - MultiSafepay doesn't automatically receive the IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. You can process refunds after 1 business day.
 

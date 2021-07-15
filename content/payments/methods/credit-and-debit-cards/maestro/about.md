@@ -22,13 +22,13 @@ Maestro is a debit card service owned by Mastercard. It is accepted across Europ
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks) |
+| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks) |
 
 ## Product rules
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="Maestro refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -41,5 +41,17 @@ You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-li
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
 - Depending on the customer's issuer, the amount may not appear directly on their card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), they can email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}
+
+{{< details title="Chargebacks" >}}
+
+Cardholders who disagree with or do not recognise a transaction charged to their credit card can ask Maestro to raise a dispute. Maestro then notifies MultiSafepay and reclaims the transaction amount from you.
+
+You are solely liable for paying for chargebacks.
+
+Maestro gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
+
+For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
 
 {{< /details >}}

@@ -30,7 +30,7 @@ Paysafecard lets customers make online payments using secure prepaid vouchers, a
 - The funds are available immediately.
 - If the customer doesn't use the full amount in the first payment, the outstanding balance remains available for 12 months free of charge. After 12 months, they are charged a monthly administration fee of 3 EUR, which is deducted from the outstanding balance.
 
-{{< details title="Paysafecard refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You can refund more than original amount. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 

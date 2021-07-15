@@ -40,7 +40,7 @@ For more information, see PayPal – [What is Seller Pretection](https://www.pay
 
 {{< /details >}}
 
-{{< details title="Paypal refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the amount of the original transaction.
 

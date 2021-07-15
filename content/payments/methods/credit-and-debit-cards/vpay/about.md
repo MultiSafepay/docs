@@ -8,6 +8,7 @@ short_description: "Key information, supported countries and currencies, product
 layout: 'child'
 aliases:
     - /payment-methods/vpay/what-is-vpay/
+    - /payments/methods/credit-and-debit-cards/vpay/user-guide/about-chargebacks/
 ---
 
 V Pay is a debit card service owned by Visa. It is accepted across Europe. An additional layer of security is provided by mandatory [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/) authentication, which requires cardholders to verify their identity.
@@ -22,13 +23,13 @@ V Pay is a debit card service owned by Visa. It is accepted across Europe. An ad
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks) |
+| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks) |
 
 ## Product rules
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="V Pay refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -39,5 +40,17 @@ You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-li
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
+
+{{< /details >}}
+
+{{< details title="Chargebacks" >}}
+
+Cardholders who disagree with or do not recognise a transaction charged to their credit card can ask V Pay to raise a dispute. V Pay then notifies MultiSafepay and reclaims the transaction amount from you.
+
+You are solely liable for paying for chargebacks.
+
+V Pay gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
+
+For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
 
 {{< /details >}}

@@ -7,6 +7,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies"
 layout: 'child'
 logo: '/logo/Payment_methods/Cartes-Bancaire.svg'
+aliases:
+    - /payments/methods/credit-and-debit-cards/cartes-bancaires/user-guide/about-chargebacks/
 ---
 
 Cartes Bancaires is a popular Visa-branded credit card in France. An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
@@ -21,11 +23,11 @@ Cartes Bancaires is a popular Visa-branded credit card in France. An additional 
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
+| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks)  |
 
 ## Product rules
 
-{{< details title="Cartes Bancaires refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -37,5 +39,15 @@ Cartes Bancaires is a popular Visa-branded credit card in France. An additional 
 
 {{< /details >}}
 
+{{< details title="Chargebacks" >}}
 
+Cardholders who disagree with or do not recognise a transaction charged to their credit card can ask Cartes Bancaires to raise a dispute. Cartes Bancaires then notifies MultiSafepay and reclaims the transaction amount from you.
+
+You are solely liable for paying for chargebacks
+
+Cartes Bancaires gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
+
+For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
+
+{{< /details >}}
 

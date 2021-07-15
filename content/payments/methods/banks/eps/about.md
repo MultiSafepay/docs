@@ -29,7 +29,7 @@ EPS is a widely accepted inter-bank payment method that links all major Austrian
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="EPS refund rules" >}}
+{{< details title="Refunds" >}}
 - You cannot refund more than the original transaction value.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

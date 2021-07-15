@@ -33,7 +33,7 @@ Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="Refund rules" >}}
+{{< details title="Refunds" >}}
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

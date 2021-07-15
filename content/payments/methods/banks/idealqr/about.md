@@ -39,7 +39,8 @@ Customers pay by using their smartphone to scan a QR code, on paper or on screen
 
 - You can generate more than one payment link for a single order ID. Subsequent transactions each have a unique order ID.
 
-{{< details title="iDEAL QR refund rules" >}}
+{{< details title="Refunds" >}}
+
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

@@ -35,7 +35,7 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 
 - Transactions must be processed in the supported countries or a 1024 error is returned on completion of payment.
 
-{{< details title="SOFORT Banking refund rules" >}}
+{{< details title="Refunds" >}}
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

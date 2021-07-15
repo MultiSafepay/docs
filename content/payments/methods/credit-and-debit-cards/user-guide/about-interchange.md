@@ -9,6 +9,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
     - /payment-methods/creditcards/what-is-interchange/
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-interchange/
+    - /payments/methods/credit-and-debit-cards/visa/user-guide/about-interchange/
 ---
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.
@@ -29,7 +30,7 @@ These costs vary considerably depending on a range of factors, including the:
 
 When you create a MultiSafepay account, we provide an estimate of these costs.
 
-## Speciic transaction costs
+## Specific transaction costs
 The actual cost of a specific transaction is difficult to predict. Fees differ per transaction, based on factors such as the:
 
 * Country where the card was issued

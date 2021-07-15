@@ -37,7 +37,7 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
     - An SSL secured connection (HTTPS) is required.
     - American Express is **not** supported.
 
-{{< details title="Apple Pay refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than original amount.
 

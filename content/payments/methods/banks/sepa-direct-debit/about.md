@@ -31,7 +31,7 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 
 You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="SEPA Direct Debit refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the original transaction value.
 

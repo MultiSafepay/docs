@@ -25,6 +25,21 @@ AfterPay is the largest online post-payment method in the Netherlands, and recen
 
 ## Product rules
 
+{{< details title="Refunds" >}}
+- You cannot refund more than the amount of the original transaction.
+
+- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+
+- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+
+- Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
+
+- The customer receives the refund in the bank account they originally paid from within the next business day.
+
+If a refund fails, email the Support Team at <support@multisafepay.com> 
+
+{{< /details >}}
+
 {{< details title="Gift cards" >}}
 &nbsp;  
 Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, AfterPay requires very precise order specifications. 
@@ -42,21 +57,6 @@ If you supply multiple order rules with the same `merchant-item-id`and the custo
 To successfully process partial refunds for the same product with different specifications (e.g. size, color) via the shopping cart, each `merchant-item-id` must be unique.
 
 **Example:** For different-sized products, differentiate the `merchant-item-id` with `-size`: 1001311-xxl, 1001311-m, 1001311-s.
-
-{{< /details >}}
-
-{{< details title="AfterPay refund rules" >}}
-- You cannot refund more than the amount of the original transaction.
-
-- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
-
-- Refunds are only processed if there are enough funds in your MultiSafepay balance.
-
-- Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
-
-- The customer receives the refund in the bank account they originally paid from within the next business day.
-
-If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

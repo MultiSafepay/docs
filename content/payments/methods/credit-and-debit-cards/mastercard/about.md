@@ -8,6 +8,7 @@ short_description: "Key information, supported countries and currencies, product
 layout: 'child'
 aliases:
     - /payment-methods/credit-and-debit-cards/mastercard/what-is-mastercard
+    - /payments/methods/credit-and-debit-cards/mastercard/user-guide/about-chargebacks/
 ---
 
 Mastercard is a leading global credit card scheme. An additional layer of security is provided by SecureCode (Mastercard's version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/), which requires cardholders to verify their identity.
@@ -22,13 +23,13 @@ Mastercard is a leading global credit card scheme. An additional layer of securi
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
 | **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks) {{< br >}} You are solely liable for paying chargebacks.  |
+| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks)  |
 
 ## Product rules
 
 You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
-{{< details title="Mastercard refund rules" >}}
+{{< details title="Refunds" >}}
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -43,5 +44,19 @@ You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-li
 - Depending on the customer's issuer, the amount may not appear directly on their card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), they can email the Support Team at <support@multisafepay.com> 
 
 - If you process a partial refund on the same day, this is technically called a "reversal", but for simplicity is logged as a refund in your MultiSafepay account. On customer credit card statements, the transaction may either be adjusted to the new amount (partial reversal) _or_ not debited at all (full reversal).
+
+{{< /details >}}
+
+{{< details title="Chargebacks" >}}
+
+Cardholders who disagree with or do not recognise a transaction charged to their credit card can ask Mastercard to raise a dispute. Mastercard then notifies MultiSafepay and reclaims the transaction amount from you.
+
+You are solely liable for paying for chargebacks.
+
+Mastercard gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
+
+For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
+
+To help reduce chargebacks, see [Displaying your logo in online banking](/payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking).
 
 {{< /details >}}

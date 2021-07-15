@@ -66,7 +66,8 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 - See also [Emailing payment instructions to the customer yourself](/payments/methods/banks/bank-transfer/user-guide/emailing-payment-instructions/). 
 
-{{< details title="Bank Transfer refund rules" >}}
+{{< details title="Refunds" >}}
+
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

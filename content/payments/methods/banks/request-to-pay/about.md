@@ -32,7 +32,7 @@ Settlement is instant (if supported) or within 24 hours. The funds are transferr
 - Request to Pay supports both instant and non-instant SEPA bank transfers.
 - A minimum amount of 1 EUR and maximum of 15,000 EUR applies.
 
-{{< details title="Request to Pay refund rules" >}}
+{{< details title="Refunds" >}}
 
 - All refunds are processed by Deutsche Bank.
 

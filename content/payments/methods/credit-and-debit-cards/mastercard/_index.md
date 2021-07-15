@@ -7,7 +7,6 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "Mastercard is a leading global credit card scheme. An additional layer of security is provided by SecureCode (Mastercard's version of 3D Secure), which requires cardholders to verify their identity."
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/Mastercard.svg' 
 short_description: 'Leading global credit card scheme.'
 aliases:
