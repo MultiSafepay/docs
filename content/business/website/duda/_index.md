@@ -5,6 +5,7 @@ meta_title: "Duda - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 title_short: "Duda"
+logo: '/svgs/duda.svg'
 read_more: "."
 short_description: "Website building by Duda"
 description_short: "Website building by Duda."

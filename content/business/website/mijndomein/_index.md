@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: 'single'
 title_short: "MijnDomein"
 read_more: "."
+logo: '/svgs/Mijndomein.svg'
 short_description: "Website building by MijnDomein"
 description_short: "Website building by MijnDomein."
 extra_button:
