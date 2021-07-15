@@ -6,7 +6,7 @@ meta_title: 'Business solutions - Manage orders - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/MplusKASSA.svg'
 short_description: 'Solution for managing orders for restaurants and hotels by MplusKASSA.'
-weight: 40
+weight: 60
 aliases:
     - /integrations/cash-register-software/
     - /integrations/cash-register-software/mpluskassa/
