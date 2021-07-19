@@ -14,6 +14,7 @@ Refund rules:
 - Full and partial refunds from the Craft CMS admin panel (see below)
 - [Refund with shopping cart](/api/#refund-with-shopping-cart) via our API
 - No refunds for [post-payment methods](/payment-methods/billing-suite)
+- Discounts are **not** supported.
 
 To process refunds from the Craft Commerce admin panel:  
 
