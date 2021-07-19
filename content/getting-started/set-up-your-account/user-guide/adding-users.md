@@ -1,10 +1,11 @@
 ---
-title : "Adding users"
-weight: 10
-meta_title: "MultiSafepay account - Adding users - MultiSafepay Docs"
+title: Adding users
+weight: 60
+meta_title: "Getting started - Adding users - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
+read_more: "."
 aliases:
+    - /account/multisafepay-account/adding-users/
     - /tools/multisafepay-control/users
     - /tools/multisafepay-control/adding-users
 ---

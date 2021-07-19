@@ -24,8 +24,6 @@ To process payments from a website operated by a separate legal entity, you must
 
 {{< /details >}} 
 
-To add a website, follow these steps:
-
 1. Sign in to your [MultiSafepay test account](https://testmerchant.multisafepay.com). 
 2. Go to **Settings** > **Website settings**.
 3. Click either:  

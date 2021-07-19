@@ -1,6 +1,6 @@
 ---
 title : "Adding funds to your MultiSafepay balance"
-weight: 30
+weight: 10
 meta_title: "MultiSafepay account - Adding funds to your MultiSafepay balance - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'

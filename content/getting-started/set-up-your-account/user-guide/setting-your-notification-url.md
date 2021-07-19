@@ -1,13 +1,15 @@
 ---
-title : "Setting your notification URL"
-weight: 110
-meta_title: "MultiSafepay account - Setting your notification URL - MultiSafepay Docs"
+title: Setting your notification URL
+weight: 80
+meta_title: "Getting started - Setting your notification URL - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
+read_more: "."
 aliases:
     - /tools/multisafepay-control/set-your-notification-url
     - /tools/multisafepay-control/setting-your-notification-url
+    - /account/multisafepay-account/setting-your-notification-url/
 ---
+
 You can use the [notification URL](/developer/api/notification-url/) to automatically update an order in the backend of your ecommerce platform when you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay account.
 
 **Note:** If the notification URL is not correctly set, the order does not update and you may need to manually enter a URL in the **Notification URL** field in your MultiSafepay account.

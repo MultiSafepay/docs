@@ -1,6 +1,6 @@
 ---
 title : "Paying out funds from your MultiSafepay balance"
-weight: 50
+weight: 20
 meta_title: "MultiSafepay account - Paying out funds from your MultiSafepay balance - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
