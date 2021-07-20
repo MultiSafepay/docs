@@ -213,7 +213,7 @@ The unique gateway ID that immediately directs the customer to the payment metho
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are numbers only, the type is integer, otherwise it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`, otherwise it is `string`. Maximum number of characters: 35.
 
 ----------------
 __currency__ | string

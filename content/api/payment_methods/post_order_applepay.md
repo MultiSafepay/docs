@@ -80,7 +80,7 @@ The payment gateway does not need to be specified.
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`, otherwise it is `string`. Maximum number of characters: 35.
 
 ----------------
 __currency__ | string
