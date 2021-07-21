@@ -27,7 +27,7 @@ MultiSafepay transactions are automatically imported daily at midnight.
 To manually import transactions:
 
 1. Log in to your [Duopact account](portal.yukiconnector.nl).
-2. If you operate multiple domains, select the relevant domain from the top-left menu.
+2. If you operate multiple websites, select the relevant site from the top-left menu.
 3. Go to **Bankmutaties** > **MultiSafepay**.
 4. Click the green button under the **Status** tab.
 
