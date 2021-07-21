@@ -23,20 +23,13 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Magento 1 webshop via SFTP upload.
 
+You can also install the plugin via .ZIP file upload in Connect.
+
 MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
-
-{{< details title="Other installation options" >}}
-&nbsp; 
-You can also install the plugin via:
-
-- .ZIP file upload in Connect
-- MarketPlace
-
-{{< /details >}}
 
 {{< details title="Test environment" >}}
 &nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Shopware 6 installation procedure. Make sure you have made a backup.
+We recommend first installing the plugin in a test environment following the recommended Magento 1 installation procedure. Make sure you have made a backup.
 {{< /details >}}
 
 {{< details title="Support" >}}
