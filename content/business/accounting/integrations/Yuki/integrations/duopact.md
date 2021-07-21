@@ -14,7 +14,7 @@ extra_button:
     type: "primary"
 ---
 
-You can integrate with Duopact using your [MultiSafepay API key](/tools/multisafepay-control/retrieving-your-api-key/). 
+You can integrate with Duopact using your [MultiSafepay API key](/getting-started/set-up-your-account/user-guide/viewing-your-api-key/). 
 
 ## Connecting Duopact with MultiSafepay
 
