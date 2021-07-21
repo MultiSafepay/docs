@@ -2,7 +2,7 @@
 title : "Adding and deactivating business bank accounts"
 meta_title: "Risk and fraud - Adding and deactivating business bank accounts - MultiSafepay Docs"
 weight: 6
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support articles for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/risk-and-fraud/new-bank-account
