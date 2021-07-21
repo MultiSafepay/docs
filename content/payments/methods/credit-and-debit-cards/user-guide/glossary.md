@@ -46,7 +46,7 @@ The customer's bank, which verifies transaction information and sends funds to t
 The risk of accepting credit card payments and responsibility for paying for chargebacks.
 
 ### retrieval
-When a customer cancels a credit card transaction within 24 hours. The funds have not yet left the customer's bank account, so they don't receive a credit.
+When a cardholder doesn't recognise a credit card transaction, to find out more about the transaction, they can file a free retrieval request for more information. This can help identify and clarify transactions and avoid chargebacks. You can still refund the transaction at this stage.
 
 ### reversal
 When a customer cancels an order paid by debit card and takes the funds back. 

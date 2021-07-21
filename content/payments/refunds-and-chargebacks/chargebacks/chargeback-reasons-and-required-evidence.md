@@ -206,22 +206,7 @@ To dispute this type of chargeback, you need to provide:
 
 ### Customer dispute 
 
-{{< details title="Reason code 4855: Goods or services not delivered" >}}
-
-You have debited the cardholder's account for a transaction but they didn't receive the product/service you were to ship, deliver, or otherwise provide by the expected delivery date.
-
-To dispute this type of chargeback, you need to provide:
-
-- A description of the product/service 
-- Evidence that the cardholder is in possession of and/or using the product/service, e.g. proof of delivery
-- Proof of delivery of the product/service, e.g. signed by the cardholder
-- An invoice 
-- A Track & Trace number
-- Evidence of communications with the cardholder
-
-{{< /details >}}
-
-{{< details title="Reason code 4853: Cardholder dispute, not as described" >}}
+{{< details title="Reason code 4853: Cardholder dispute: Goods or service not delivered, Goods not as described" >}}
 
 - The product/service did not match your description on the transaction receipt or other record at the time of purchase, or
 - The transaction was not completed, or

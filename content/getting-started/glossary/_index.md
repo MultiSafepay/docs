@@ -145,9 +145,6 @@ A terminal that accepts payments, usually by card or near-field communication (N
 ### RESTful API (application programming interface)
 The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API Reference](/api/) specifies the content and format of requests to our server and the responses the server sends back.
 
-### retrieval
-When a customer cancels a credit card transaction within 24 hours. The funds have not yet left the customer's bank account, so they don't receive a credit.
-
 ### SEPA
 The Single Euro Payments Area (SEPA) is a European Union payment-integration initiative. Customers can quickly and securely transfer euros within the EU and to a number of non-EU countries.
 

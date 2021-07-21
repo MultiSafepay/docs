@@ -15,11 +15,11 @@ Chargebacks arise when a [cardholder](/payments/methods/credit-and-debit-cards/u
 
 The most common reasons for requesting chargebacks are fraud, non-delivery of goods, or goods not as described. 
 
-[Card schemes](/payments/methods/credit-and-debit-cards/user-guide/glossary/#card-scheme) generally allow cardholders to request chargebacks for up to 180 days after the transaction. If you require a longer period (e.g. for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
+[Card schemes](/payments/methods/credit-and-debit-cards/user-guide/glossary/#card-scheme) generally allow cardholders to request chargebacks for up to 120 days after the transaction. If you require a longer period (e.g. for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
 
 By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
 ## See also
 
-- [Disputing chargebacks](/payments/methods/credit-and-debit-cards/user-guide/disputing-chargebacks/)
-- [Minimizing chargebacks](/payments/methods/credit-and-debit-cards/user-guide/minimizing-chargebacks/)
+- [Disputing chargebacks](/payments/chargebacks/disputing/)
+- [Minimizing chargebacks](/payments/chargebacks/minimizing/)
