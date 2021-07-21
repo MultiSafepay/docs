@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
 ---
 
-AfterPay is the largest online post-payment method in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
+AfterPay is a widely used online post-payment method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 
 ### Summary
 
