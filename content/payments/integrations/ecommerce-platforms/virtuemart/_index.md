@@ -65,11 +65,8 @@ Contact us:
     - Set the payment method to **VirtueMart – Payment, MultiSafepay**.
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
-    - API key
     - Account ID
-    - Site ID
-    - Site secure code  
+    - [Site ID, API key, and secure code](/set-up-your-account/site-id-api-key-secure-code)
     - Gateway ID  
-    See [Viewing your API key](/getting-started/set-up-your-account/user-guide/viewing-your-api-key/).
 
 

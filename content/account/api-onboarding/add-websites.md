@@ -14,10 +14,10 @@ Use the following requests to add, retrieve or update websites linked to a merch
 4. [Update website](#update-a-website): Update a website.
 
 ### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website API key, expected minimum and maximum order values need to be supplied. Furthermore, the [notification URL](/developer/api/notification-url/) is required to receive transaction status updates. However, this information may also be provided at a later time. 
+For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website [API key](/set-up-your-account/site-id-api-key-secure-code), expected minimum and maximum order values need to be supplied. Furthermore, the [notification URL](/developer/api/notification-url/) is required to receive transaction status updates. However, this information may also be provided at a later time. 
 
 ## Authentication
-All four website requests require a partner account API key. This is not the same as a [website API key](/tools/multisafepay-control/get-your-api-key/). Ask your Partner Manager for more information.
+All four website requests require a partner account API key. For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain in the URL from `testapi` to `api` and use the corresponding API key.
 
@@ -83,7 +83,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
 }
 ```
 `account_id` → the account ID of the associated merchant account  
-`api_key` → the website-level API key of the linked website  
+`api_key` → the API key of the linked website  
 `id` → the site ID of the linked website
 {{< /collapse >}}
 
@@ -133,7 +133,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
 }
 ```
 `account_id` → the account ID of the associated merchant account  
-`api_key` → the website-level API key of the linked website  
+`api_key` → the API key of the linked website  
 `id` → the site ID of the linked website
 {{< /collapse >}}
 
@@ -178,7 +178,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/account/sites/12345" \
 }
 ```
 `account_id` → the account ID of the associated merchant account  
-`api_key` → the website-level API key of the linked website  
+`api_key` → the API key of the linked website  
 `id` → the site ID of the linked website
 {{< /collapse >}}
 
@@ -238,7 +238,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
 }
 ```
 `account_id` → the account ID of the associated merchant account  
-`api_key` → the website-level API key of the linked website  
+`api_key` → the API key of the linked website  
 `id` → the site ID of the linked website
 {{< /collapse >}}
 
