@@ -18,7 +18,7 @@ You can integrate with Duopact using your [MultiSafepay API key](/tools/multisaf
 
 ## Connecting Duopact with MultiSafepay
 
-To connect Duopact with your MultiSafepay account, [contact duopact](https://www.duopact.nl/nl/contact/). Provide Duopact with your MultiSafepay API key. They will set up a Yuki account for you. 
+To connect Duopact with your MultiSafepay account, see Duopact – [Contact](https://www.duopact.nl/nl/contact/). Provide Duopact with your MultiSafepay API key. They will set up a Yuki account for you. 
 
 ## Using Duopact with MultiSafepay
 
