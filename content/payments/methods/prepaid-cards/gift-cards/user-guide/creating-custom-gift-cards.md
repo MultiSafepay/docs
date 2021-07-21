@@ -19,6 +19,7 @@ MultiSafepay can develop a custom gift card for you.
 - We assess the feasibility of and timeframe for developing the custom gift card.
 - We request from you:
 
+    - Whether you want a [closed-loop or open-loop](/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/) card
     - The name you want to call your gift card
     - A high-resolution visual mockup of the gift card, preferably in .png or .jpg format, showing the logo as **large** as possible
     - A test gift card with credit and a secure code
