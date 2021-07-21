@@ -31,4 +31,4 @@ To manually import transactions:
 3. Go to **Bankmutaties** > **MultiSafepay**.
 4. Click the green button under the **Status** tab.
 
-Manually importing transactions doesn't affect automatic importing.
+**Note:** Manually importing transactions doesn't affect automatic importing.
