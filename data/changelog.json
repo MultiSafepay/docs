@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "Jul 21, 2021",
+            "change": "New page: [Duopact](/business/accounting/accounting-integrations/yuki/integrations/duopact)"
+        },
+        {
             "date": "Jul 14, 2021",
             "change": "New section: [Business operations](/business)"
         },
@@ -51,7 +55,7 @@
         },
         {
             "date": "Jun 2, 2021",
-            "change": "New page: Accounting integrations - [Actuals](/tools/accounting/accounting-integrations/actuals-live)"
+            "change": "New page: Accounting integrations - [Actuals](/business/accounting/accounting-integrations/actuals-live)"
         },
         {
             "date": "May 28, 2021",

@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Yuki.svg'
 layout: 'single'
 title_short: "Yuki"
+buttons_under_text: "Third-party integrations"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Yuki platform"
 description_short: "Read about how you can generate a MultiSafepay Accountant Export for your Yuki software platform."
