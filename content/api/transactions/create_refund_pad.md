@@ -46,15 +46,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ## Refund with shopping cart
-This request is used for creating a refund in orders with shopping cart like Pay After Delivery, E-Invoicing, Klarna and AfterPay.
+Use this endpoint for refunding [post-payment](/payments/methods/billing-suite/) orders that include a shopping cart object.
 
-To proceed with a refund:
+1. Make a GET `/orders/{id}` request to retrieve the items in the shopping cart.
 
-1. A request should be done to GET - /orders/{id} to obtain the cart items of the order and possible refunded items
-2. Add/remove items in the refund. In Klarna, refunds are done adding a "copy" of the item to refund, with negative "unit_price", all others should set negative "quantity".
-3. Please make sure that all data in the items match with the original transaction (except for the quantity/unit_price): In the example, two out of three 'Geometric Candle Holders' were refunded. Please note that the exact same 'merchant_item_id', 'tax_table_selector' and 'unit_price' were provided.
+2. Add or remove items in the POST `/orders/{id}/refunds` request, depending on the type of post-payment method:    
+    - For Klarna, add a "copy" of the item to refund with a negative `unit_price`.  
+    - For all other post-payment methods, set a negative `quantity`.
+&nbsp;      
+3. Make sure that all data in the items matches the original transaction (except for the `quantity` or `unit_price`).
 
-{{% note %}} Klarna needs negative unit prices, whereas Pay After Delivery orders need negative quantities! {{% /note %}}
+In the example, two out of three geometric candle holders were refunded. The exact same `merchant_item_id`, `tax_table_selector` and `unit_price` were provided.
 
 ----------------
 **Parameter**
@@ -62,7 +64,7 @@ To proceed with a refund:
 ----------------
 __checkout_data__ | object
 
-Contains the original shopping cart + copied items to be refunded. 
+Contains the original shopping cart **and** copied items to be refunded. 
 
 
 {{% /description %}}
