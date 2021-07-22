@@ -7,15 +7,14 @@ weight: 60
 url: '/reports/payout-report/'
 ---
 
-Payout reports let you:
+The Payout report provides an overview of the specific transactions and fees included in a payout.
 
-- See the specific transactions and fees included in a payout.
-- Match payouts to specific orders or invoices for accounting purposes. 
+It is helpful for matching payouts to specific orders or invoices for accounting purposes. 
+
+Supported format: Excel
 
 {{< details title="Report contents" >}}
 &nbsp; 
-The Payout report lists:
-
 - Report created: the date the report was generated
 - Payout ID: the reference number for this payout
 - Logic: what time the payout was made
@@ -25,7 +24,7 @@ The Payout report lists:
 - Date till: the end date of the report period
 - Payout currency: the currency the payout was paid in
 
-For each transaction:
+Columns:
 
 - created date: the date the transaction was initiated
 - completed date/time: the date and time the transaction was completed
@@ -41,11 +40,11 @@ For each transaction:
 
 {{< /details >}}
 
-## Downloading Payout reports
+## Generating Payout reports
 
-**Note:** You must have completed at least one payout to download a Payout report.
+**Note:** You must have completed at least one payout to generate a Payout report.
 
-To download a Payout report to Microsoft Excel, follow these steps:
+To generate a Payout report, follow these steps:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
 2. Go to **Finance** > **Daily balance**.
