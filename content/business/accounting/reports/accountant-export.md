@@ -12,7 +12,7 @@ aliases:
     - /tools/reports/automatic-reports/
 ---
 
-The Accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and transaction status (at the time the report was generated).
+The Accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and [transaction status](/api/multisafepay-statuses/) (at the time the report was generated).
 
 {{< details title="View export formats" >}}
 You can generate the report in the following formats:
@@ -28,7 +28,7 @@ You can generate the report in the following formats:
 
 {{< details title="View exclusions" >}}
 &nbsp;  
-MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions don't automatically appear in the Accountant export. To include them, in your backend, make sure the financial status for PayPal transactions is set to **Completed**.
+MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions don't automatically appear in the Accountant export. To include them, in your backend, make sure the transaction status is set to **Completed**.
 
 {{< /details >}}
 
@@ -90,7 +90,6 @@ To filter transactions in the Accountant export (e.g. by payment method), use th
 {{< /details >}}
 
 ## Automating Accountant exports
-
 
 To request automated Accountant exports, email the following information to the Integration Team at <integration@multisafepay.com>:
 

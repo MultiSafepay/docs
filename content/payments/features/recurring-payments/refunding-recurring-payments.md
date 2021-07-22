@@ -8,7 +8,7 @@ aliases:
     - /tools/recurring-payments/
 ---
 
-You can only refund recurring transactions to customers when the financial status of the transaction is marked as **Completed**. 
+You can only refund recurring transactions to customers when the [transaction status](/api/multisafepay-statuses/) is **Completed**. 
 
 To refund a transaction, follow these steps:
 

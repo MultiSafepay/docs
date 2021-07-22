@@ -7,4 +7,4 @@ weight: 5
 ---
 If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments in your [MultiSafepay account](https://merchant.multisafepay.com) via the **Extend** button.
 
-If the order is not captured during this time, both the order and transaction status changes to **Expired**.
+If the order is not captured during this time, both the [order and transaction status](/api/multisafepay-statuses/) changes to **Expired**.

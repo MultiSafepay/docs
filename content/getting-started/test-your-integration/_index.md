@@ -60,7 +60,7 @@ For information about transaction statuses, see [Test payment details](/faq/gett
 
 ## 4. Set the notification URL
 
-MultiSafepay uses the notification URL as a webhook to send transaction status updates to your integration.
+MultiSafepay uses the notification URL as a webhook to send [transaction status](/api/multisafepay-statuses/) updates to your integration.
 
 For custom-built integrations, first create a webhook listener that listens at the notification URL. For more information, see [Notification URL](/developer/api/notification-url/).
 

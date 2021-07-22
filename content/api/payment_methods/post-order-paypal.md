@@ -150,7 +150,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 Creates a PayPal [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
-{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status is set to _Completed_ and the financial status remains set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since the shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
+{{< alert-notice >}} Once the customer has completed payment, the `status` changes to **Completed**. The `financial_status` remains **Initialized**, and during this status you cannot ship the order. You must first set the order to **Completed** for both the `status` and `financial_status` and then ship the order. {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 

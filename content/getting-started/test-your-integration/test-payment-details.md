@@ -239,7 +239,7 @@ Test credentials: [API key](.com/tools/multisafepay-control/get-your-api-key/)
 To test in3 transactions, follow these steps:
 
 1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+2. The payment is processed in the test environment as **Successful**, with [order status](/api/multisafepay-statuses/) **Completed**, and [transaction status](/api/multisafepay-statuses/) **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
     - Change the status in your MultiSafepay test account.

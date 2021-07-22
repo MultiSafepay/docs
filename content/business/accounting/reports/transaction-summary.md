@@ -10,5 +10,5 @@ aliases:
 ---
 
 - Overview of all transactions within a specific timeframe
-- Includes: Currency, transaction status, payment method, website, grouping of costs
+- Includes: Currency, [transaction status](/api/multisafepay-statuses/), payment method, website, grouping of costs
 - Formats: Excel or PDF

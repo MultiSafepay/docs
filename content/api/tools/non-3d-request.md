@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 > JSON Response    
-> When no 3D verification is required, the transaction status response will be processed directly and no form will be sent.
+> When no 3D verification is required, the [transaction status](/api/multisafepay-statuses/) response will be processed directly and no form will be sent.
 
 ```json 
 {

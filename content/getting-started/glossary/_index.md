@@ -155,7 +155,7 @@ A container in the merchant's integration where customers place items for an ord
 Tokenization is storing customer payment details as a token (a unique string of numbers). For customers, it makes future payments faster and easier. For merchants, it enables repeatedly debiting customers, e.g. for subscriptions. 
 
 ### transaction
-An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the transaction status changes as the funds move through the different stages of the payment flow.
+An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/api/multisafepay-statuses/) changes as the funds move through the different stages of the payment flow.
 
 ### ultimate beneficial owner (UBO)
 A person who ultimately benefits from a merchant's company, and owns or controls 25% or more of affairs, shares, or voting rights. 

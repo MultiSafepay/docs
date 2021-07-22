@@ -14,7 +14,7 @@ Follow the **Complete own funds** steps if:
 
 - You have shipped an order and the customer fails to pay. You can no longer cancel the order, and must close the transaction instead.
 
-- A customer pays an invoice to you directly. You need to link the payment to the transaction in your MultiSafepay account to change the transaction status to **Completed**. The transaction status changes to **Completed** or **Void**, and the customer no longer receives payment requests. 
+- A customer pays an invoice to you directly. You need to link the payment to the transaction in your MultiSafepay account to change the [transaction status](/api/multisafepay-statuses/) to **Completed**. The transaction status changes to **Completed** or **Void**, and the customer no longer receives payment requests. 
 
 {{< alert-notice >}} **Known bug:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden and you must process a full refund in your MultiSafepay account instead. {{< /alert-notice >}}
 

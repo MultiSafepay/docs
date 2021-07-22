@@ -35,7 +35,7 @@ You can filter Sales reports by:
 - Device
 - Website
 - Day
-- Transaction status
+- [Transaction status](/api/multisafepay-statuses/)
 
 {{< /details >}}
 

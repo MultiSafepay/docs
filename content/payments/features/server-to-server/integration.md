@@ -38,7 +38,7 @@ To retrieve more information about the order, make a GET `/orders/{order_id}` re
 
 {{< details title="Non-3D Secure requests" >}}
 
-When 3D Secure verification is required, the transaction status response is processed directly and no HTML form is returned.
+When 3D Secure verification is required, the [transaction status](/api/multisafepay-statuses/) response is processed directly and no HTML form is returned.
 
 ```shell 
 

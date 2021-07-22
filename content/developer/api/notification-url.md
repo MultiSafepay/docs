@@ -81,7 +81,7 @@ To calculate the signature/hash, follow these steps:
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
 ## GET vs POST notification
-The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the transaction status from our API again, and receive the updated transaction status directly in the notification payload.
+The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/api/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
 
 For security reasons, you must always validate the payload to make the `POST` notification comes from MultiSafepay and hasn't been tampered with.
 
