@@ -9,6 +9,8 @@ aliases:
 
 Refund rules:
 
-- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full refunds from your OsCommerce backend 
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
+- From your OsCommerce backend:  
+    - Full refunds 
+    - Refunding more than the original transaction is **not** supported
 

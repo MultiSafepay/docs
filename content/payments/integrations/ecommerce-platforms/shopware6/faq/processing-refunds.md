@@ -9,8 +9,10 @@ aliases:
 
 Refund rules:
 
-- Full and partial refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full and partial refunds from your Shopware 6 backend 
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds 
+- From your Shopware 6 backend:  
+    - Full and partial refunds 
+    - Refunding more than the original transaction is **not** supported
 - No refunds for [post-payment methods](/payment-methods/billing-suite)
 
 To process refunds from your backend, follow these steps:

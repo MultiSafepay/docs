@@ -8,5 +8,7 @@ aliases:
 ---
 Refund rules:
 
-- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full refunds from your Drupal 8 or 9 backend 
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
+- From your Drupal 8 or 9 backend:  
+    - Full refunds 
+    - Refunding more than the original transaction is **not** supported

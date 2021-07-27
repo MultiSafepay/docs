@@ -8,11 +8,15 @@ aliases:
     - /integrations/magento2/faq/refunding-magento2/
     - /integrations/ecommerce-integrations/magento2/faq/refunding-magento2/
 ---
-Refund types:
+Refund rules:
 
-- Full and partial refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full and partial refunds and credit memos from your backend (see below)
-- [Refund with shopping cart](/api/#refund-with-shopping-cart) via our API (PATCH requests are not supported)
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds 
+- From your Magento 2 backend (see below):  
+    - Full and partial refunds, and credit memos 
+    - Refunding more than the original transaction is **not** supported
+- API:  
+    - [Refund with shopping cart](/api/#refund-with-shopping-cart) 
+    - PATCH requests are **not** supported
 
 To process refunds from your Magento 2 backend, follow these steps:  
 

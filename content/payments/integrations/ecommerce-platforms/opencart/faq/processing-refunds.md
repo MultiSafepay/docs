@@ -8,8 +8,11 @@ aliases:
 ---
 
 Refund rules:
-- Full refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full refunds from your OpenCart backend
+
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
+- From your OpenCart backend:  
+    - Full refunds
+    - Refunding more than the original transaction is **not** supported
 
 To process refunds from your backend, follow these steps:
 

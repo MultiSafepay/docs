@@ -8,8 +8,12 @@ aliases:
     - /integrations/hosted/lightspeed_app/faq/refunding-lightspeed
     - /integrations/lightspeed_app/faq/refunding-lightspeed
 ---
+Refund rules:
 
-You can refund orders and issue credit notes in your [MultiSafepay account](https://merchant.multisafepay.com) and from your Lightspeed backend.
+- From your [MultiSafepay account](https://merchant.multisafepay.com): Refunds and credit notes
+- From your Lightspeed backend:  
+    - Refunds and credit notes 
+    - Refunding more than the original transaction is **not** supported
 
 To enable refunds from your Lightspeed backend, follow these steps:
 

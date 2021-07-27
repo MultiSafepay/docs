@@ -6,5 +6,9 @@ read_more: "."
 aliases: 
     - /integrations/shopify/faq/refunding-shopify/
 ---
+Refund rules:
 
-You can process refunds directly from your Shopify backend and from your [MultiSafepay account](https://merchant.multisafepay.com).
+- From your [MultiSafepay account](https://merchant.multisafepay.com): Refunds supported
+- From your Shopify backend:  
+    - Refunds supported
+    - Refunding more than the original transaction is **not** supported

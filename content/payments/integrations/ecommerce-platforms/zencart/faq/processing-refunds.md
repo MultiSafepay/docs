@@ -8,6 +8,8 @@ aliases:
 ---
 Refund rules:
 
-- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full refunds from your ZenCart backend 
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
+- From your ZenCart backend:  
+    - Full refunds 
+    - Refunding more than the original transaction is **not** supported
 

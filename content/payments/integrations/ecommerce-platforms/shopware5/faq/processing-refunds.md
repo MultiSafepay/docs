@@ -10,8 +10,10 @@ You can process refunds for all Shopware 5 payment methods except [post-payment 
 
 Refund rules:
 
-- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full refunds from your Shopware 5 backend 
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
+- From your Shopware 5 backend:  
+    - Full refunds 
+    - Refunding more than the original transaction is **not** supported
 - No refunds for [post-payment methods](/payment-methods/billing-suite)
 
 

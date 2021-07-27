@@ -10,11 +10,13 @@ aliases:
 
 Refund rules:
 
-- Full and partial refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
-- Full and partial refunds from the Craft CMS admin panel (see below)
-- [Refund with shopping cart](/api/#refund-with-shopping-cart) via our API
+- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds
+- From the Craft CMS admin panel (see below):  
+    - Full and partial refunds
+    - Refunding more than the original transaction is **not** supported
+- API: [Refund with shopping cart](/api/#refund-with-shopping-cart)
 - No refunds for [post-payment methods](/payment-methods/billing-suite)
-- Discounts are **not** supported.
+- Discounts and  are **not** supported.
 
 To process refunds from the Craft Commerce admin panel:  
 
