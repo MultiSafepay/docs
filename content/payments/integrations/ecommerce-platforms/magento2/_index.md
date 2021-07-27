@@ -130,7 +130,7 @@ php bin/magento setup:static-content:deploy
 
 ### Stock handling
 
-If you have disabled MSI in Magento 2, to disable the MultiSafepay MSI module, use the following command:
+When you disable MSI in Magento 2, you must also disable the MultiSafepay MSI module using the following command:
 ```
 php bin/magento module:disable MultiSafepay_ConnectMSI
 ```
