@@ -13,7 +13,7 @@ extra_button:
     type: "primary"
 ---
 
-To automatically insert MultiSafepay payment links into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink), follow these steps:
+To automatically insert [MultiSafepay payment links](/payments/checkout/payment-link/) into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink), follow these steps:
 
 1. Sign in to your Denovit account.
 2. Go to your **Dashboard**, and then select the **Paylink** module. 

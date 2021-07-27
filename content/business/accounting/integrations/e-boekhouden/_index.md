@@ -33,6 +33,6 @@ To import a MultiSafepay Accountant export, see e-Boekhouden – [Contact](https
 
 For any questions, email the Support Team at <support@multisafepay.com>
 
-## Third-party integrations
+## Payment links
 
-To insert [payment links generated in your MultiSafepay account](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link) into e-Boekhouden invoices to let customers pay invoices directly, see e-Boekhouden – [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).
+To add [MultiSafepay payment links](/payments/checkout/payment-link/) to e-Boekhouden invoices to let customers pay directly, see e-Boekhouden – [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).

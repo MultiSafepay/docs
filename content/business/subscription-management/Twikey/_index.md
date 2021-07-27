@@ -21,7 +21,7 @@ Our partner Twikey offers an online tool for managing and collecting subscriptio
 
 Customers can complete payments via:
 
-- A MultiSafepay payment link added to your invoice
+- A [MultiSafepay payment link](/payments/checkout/payment-link/) added to your invoice. See Twikey – [Naadloze integratie MultiSafepay](https://www.twikey.com/nl/partner/multisafepay.html).
 - A one-off payment link or QR code sent via Twikey, e.g. by email, WhatsApp, SMS
 
 To integrate with MultiSafepay, follow these steps:

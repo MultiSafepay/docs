@@ -23,3 +23,7 @@ For plugins to reconcile Snelstart with the following ecommerce platforms, see P
 - [Lightspeed](https://www.snelkoppeling.eu/lightspeed)
 
 For any questions, email the Support Team at <support@multisafepay.com>
+
+## Payment links
+
+To add [MultiSafepay payment links](/payments/checkout/payment-link/) to SnelStart invoices to let customers pay directly, see SnelKoppeling – [Betaallinks via payment service provider](https://snelkoppeling.eu/productoverzicht/boekhoudtechnisch/emailplus).
