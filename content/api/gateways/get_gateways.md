@@ -24,7 +24,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Retrieve gateways
+## Retrieve all gateways
 
 **Parameters**
 
@@ -32,15 +32,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 __include__ | string
 
-Specify comma delimited additional payment method types. Optional.
+Additional payment methods you want to specify.  
+Format: Comma delimited. Optional.
 
 __Options:__ coupons
 
 ----------------
 
-Adding the __coupons__ value to your GET request will **include** all your webshop's available gift cards in the response. See the response example on the side.
-
-If the parameter __include=coupons__ is not added in the retrieve gateway request, only one coupon will be displayed in the response.
+To include **all** gift cards your website supports in the response, add the __include=coupons__ value to your GET request. Otherwise, only one gift card is returned in the response.
 
 
 {{% /description %}}

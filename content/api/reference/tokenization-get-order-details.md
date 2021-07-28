@@ -91,13 +91,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 This API call allows you to retreive the order details while listing the recurring id and recurring model.
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameter**
 
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.     
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.     
 
 ----------------
 

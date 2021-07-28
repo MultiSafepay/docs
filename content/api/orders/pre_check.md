@@ -1,6 +1,6 @@
 ---
 weight: 220
-meta_title: "API Reference - Order pre-check - MultiSafepay Docs"
+meta_title: "API Reference - Pay After Delivery pre-check - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -170,11 +170,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Pay After Delivery Pre-check
+## Pay After Delivery pre-check
 
-A Pay After Delivery order can have a pre-check carried out. This type of request contains all data related to the order and customer. 
+Submit data related to a Pay After Delivery order and customer for MultiSafepay to conduct a pre-check to determine whether to accept the order. 
 
-The pre-check decides if MultiSafepay accepts the order or whether the customer is required to selected a different payment methods to complete the transaction.
+If not accepted, the customer must select another payment method to complete payment.
 
 
 **Parameters**
@@ -183,17 +183,20 @@ The pre-check decides if MultiSafepay accepts the order or whether the customer 
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct.
+The payment flow for the checkout process.  
+Options: `direct`.
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -203,12 +206,15 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __gateway_info__ | object
@@ -216,49 +222,56 @@ __gateway_info__ | object
 ----------------
 __issuer_id__ | string
 
-Contains the [issuer_id](/api/#gateway-issuers)  
+The unique identifier of the gateway issuer.  
+To retrieve issuer IDs, see [Retrieve gateway issuers](/api/#gateway-issuers). 
 
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+The page the customer is redirected to if the payment fails.
 
 ----------------
 __customer__ | object
 
-Contains the personal information of the customer. Values for first_name and last_name require minimum two characters.
+The customer's personal information.  
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __delivery__ | object
 
-Contains the delivery information for the shipment. Values for first_name and last_name require minimum two characters.
+The delivery information for the shipment.  
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+All items in the shopping cart, including the tax class.  
+If you have a custom integration, include the complete specification of the `shopping_cart`.
 
 ----------------
 
 __items__ | object
 
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of these parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
-
-
-
+Specifications of the items, which you can set to display on your checkout page.  
+For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
 
 {{< /description >}}

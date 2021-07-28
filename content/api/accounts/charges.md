@@ -50,20 +50,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Charges
 
-As a partner or primary account holder, move funds from an affiliated account's balance to your own. 
+As a partner or primary account holder, use this endpoint to move funds from an affiliated account's balance to your own. 
 
 By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
 
 ### Authentication
-Use your account-level API key. 
+Use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-To receive your account-level API key, email your account manager at <sales@multisafepay.com>
+To retrieve your account API key, email your account manager at <sales@multisafepay.com>
 
-### Request parameters
+### Parameters
 
 **affiliated_id** | query parameter
 
-The account ID of the affiliated account you want to debit. **Required**.
+The account ID of the affiliated account you want to charge. **Required**.
 
 **amount** | integer 
 
@@ -80,7 +80,7 @@ Your unique identifier for the charge. **Required**.
 
 **description** | string
 
-A description for the transaction. The description is displayed in the affiliated account and your account. **Optional**. 
+A description of the transaction, which is displayed in both your account and the affiliated account. **Optional**. 
 
 **var1** | string
 

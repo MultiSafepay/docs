@@ -73,7 +73,7 @@ Add a short action text memo mentioning the shipping status of the order.
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. Max 50 char.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string. Required. Max 50 char.
 
 ----------------
 

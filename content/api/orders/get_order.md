@@ -107,7 +107,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Retrieve an order
 
-Get order status & information. Depending on the order type or method, the structure may be different.
+Retrieve the status of and information about a specific order. The structure may differ depending on the order type or method.
 
 **Parameters**
 
@@ -115,7 +115,8 @@ Get order status & information. Depending on the order type or method, the struc
 
 __order_id__ | integer / string
 
-The unique identifier of the order to be returned. If the values are only numbers the type will be integer, otherwise it will be string.                                      
+The unique identifier of the requested order.  
+If the values are numbers only, the type is integer. Otherwise, the type is string.                                      
 
 
 {{% /description %}}

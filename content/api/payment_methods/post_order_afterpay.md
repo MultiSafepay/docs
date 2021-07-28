@@ -218,7 +218,8 @@ Your unique identifier for the order. If the values are numbers only, the type i
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -238,7 +239,8 @@ Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/ap
 ----------------
 __customer__ | object
 
-Contains the customer's personal information. The values for `first_name` and `last_name` require at least 2 characters.
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __delivery__ | object
@@ -303,7 +305,8 @@ __forwarded_ip__ | string
 
 __close_window__ | bool (optional)
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`.   
 
 ----------------
 
@@ -336,12 +339,13 @@ The unique gateway ID that immediately directs the customer to the payment metho
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are numbers only, the type is integer, otherwise it is string.
+Your unique identifier for the order. If the values are numbers only, the type is integer, otherwise it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -361,7 +365,8 @@ Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/ap
 ----------------
 __customer__ | object
 
-Contains the customer's personal information. The values for `first_name` and `last_name` require at least 2 characters.
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __delivery__ | object

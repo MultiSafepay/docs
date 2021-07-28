@@ -35,7 +35,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Update an order
-Update the order details.
+Update the details of an order.
 
 **Parameters**
 
@@ -43,12 +43,13 @@ Update the order details.
 
 __id__ | string
 
-The unique identifier of the order which should be updated.
+The unique identifier of the order you want to update.
 
 ----------------
 __status__ | string
 
-The new order status. Options: cancelled, shipped.
+The new status of the order.  
+Options: `cancelled`, `shipped`.
 
 ----------------
 __tracktrace_code__ | string
@@ -68,22 +69,23 @@ The date that the order was shipped.
 ----------------
 __reason__ | string
 
-Add a short free text memo to the order when setting the shipping status.
+Add a short, free text memo to the order when setting the shipping status.
 
 ----------------
 __invoice_id__ | string
 
-Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within your MultiSafepay account.
+Add your invoice ID to an existing order.  
+The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay account.
 
 ----------------
 __invoice_url__ | string
 
-The invoice url linking to the invoice_id.
+The invoice URL linking to the `invoice_id`.
 
 ----------------
 __po_number__ | string
 
-The Purchase Order number of the shipping company.
+The shipping company's purchase order number.
 
 
 {{< /description >}}

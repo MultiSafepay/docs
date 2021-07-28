@@ -130,13 +130,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Dynamic Template
+## Dynamic template
 
-You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay account or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
+To apply a template to the [MultiSafepay payment page](/payments/checkout/payment-pages/), include in the transaction request:
 
-The template object structure needs to include the JSON CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
+- The `template_id` of a template within your MultiSafepay account, **or**
+- A template object structure. 
 
-When sending images within the template structure for the "logo" and "header", you can use external references but they must be using HTTPS, otherwise they will be ignored.
+If you provide both, the template object is primary.
+
+### Template object structures
+
+The template object structure must include full JSON CSS parameters. If you only send partial CSS settings, the parameter you send overrides the default MultiSafepay template.
+
+When sending images in the template structure for the logo and header, you must use HTTPS, otherwise they will be ignored.
 
 **Parameters**
 
@@ -144,17 +151,20 @@ When sending images within the template structure for the "logo" and "header", y
 
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -164,35 +174,44 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+The page the customer is redirected to if the payment fails.
 
 ----------------
 __template__ | object
 
-A template object structure.Template structure overrules template_id.
+A template object structure.  
+The template structure overrides the `template_id`.
 
 ----------------
 __template_id__ | string
 
-Saved template identifier. Template structure overrules template_id.
+The identifier of a saved template from your MultiSafepay account. 
+The template structure overrides the `template_id`.
 
 
 {{% /description %}}

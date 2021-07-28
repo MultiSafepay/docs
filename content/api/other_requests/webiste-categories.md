@@ -1,7 +1,9 @@
 ---
 weight: 510
-meta_title: "API Reference - Categories - MultiSafepay Docs"
+meta_title: "API Reference - Retrieve website categories - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#categories
 ---
 {{< code-block >}}
 > GET - /categories
@@ -23,6 +25,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Categories
-Returns a list of website categories.
+## Retrieve website categories
+Retrieve a list of website categories.
 {{% /description %}}

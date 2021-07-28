@@ -75,17 +75,19 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: VISA and MASTERCARD. 
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). Option: VISA and MASTERCARD. 
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -95,25 +97,32 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)  
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).  
 
 ----------------
 __customer__ | object
 
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
+
 ----------------
 __locale__ | string
 
-Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. 
+Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
+Default: `en_US`. 
 
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/developer/api/validating-customer-ip-address)
+The customer's IP address.   
+**Required** for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods because MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address).
 
 ----------------
 __first_name__ | string
@@ -128,12 +137,12 @@ The customer’s last name.
 ----------------
 __address1__ | string
 
-First line of customer’s provided address.
+The first line of the customer's address.
 
 ----------------
 __house_number__ | string
 
-First line of customer’s provided house number.
+First line of The customer's house number.
 
 ----------------
 __zip_code__ | string
@@ -143,22 +152,24 @@ First line of customer’s provided zip_code / postal code.
 ----------------
 __city__ | string
 
-Customer’s provided city. 
+The customer's city of residence. 
 
 ----------------
 __country__ | string
 
-Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) 
+The customer’s country of residence.   
+Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html). 
 
 ----------------
 __phone__ | string
 
-Customer’s provided phone number. 
+The customer's phone number. 
 
 ----------------
 __email__ | string
 
-Customer’s provided email address. Used to send Second Chance emails and in fraud checks.  
+The customer’s email address.   
+Used to send Second Chance emails and to conduct fraud checks.  
 
 ----------------
 __gateway_info__ | object
@@ -178,7 +189,8 @@ URL that is used to instruct the card issuer where to redirect the authorisation
 __close_window__ | bool (optional)
 
 
-Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.    
+Options: `True`, `False`. 
 
 ----------------
 

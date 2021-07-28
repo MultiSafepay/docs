@@ -4,8 +4,10 @@ meta_title: "API Reference - Discount added as unit price - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< description >}}
-## Discount added as unit price 
-A discount added as seperate discount rule may conflict in refunding with postpaid payment methods. Therefore, it is advised to add the discount as unit price. As a result, no negative order rule is created, which means that refunding from a postpaid payment method will not cause a conflict.
+## Unit price discounts 
+For [post-payment methods](/payments/methods/billing-suite/), add discounts as a unit price. 
+
+No negative order rule is created, which avoids the refund conflict that can arise if you add discounts as separate discount rules or order rules.
 {{% /description %}}
 
 {{< code-block >}}

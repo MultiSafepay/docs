@@ -63,20 +63,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Payouts
 
-As a partner or primary account holder, move funds from an affiliated account's balance to a connected bank account. 
+As a partner or primary account holder, use this endpoint to pay out funds from an affiliated account's balance to a connected bank account. 
 
 By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email your account manager at <sales@multisafepay.com>
 
 ### Authentication
-Use your account-level API key. 
+Use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-To receive your account-level API key, email your account manager at <sales@multisafepay.com>
+To retrieve your account API key, email your account manager at <sales@multisafepay.com>
 
-### Request parameters
+### Parameters
 
 **affiliated_id** | query parameter  
 
-The account ID of the affiliated account that you want to move funds from. **Required**.
+The account ID of the affiliated account you want to pay out funds from. **Required**.
 
 **amount** | integer 
 
@@ -92,7 +92,7 @@ Your unique identifier for the payout. **Required**.
 
 **description** | string
 
-A description for the transaction. The description is displayed in the affiliated account. **Optional**. 
+A description of the transaction, which is displayed in the affiliated account. **Optional**. 
 
 **var1** | string
 

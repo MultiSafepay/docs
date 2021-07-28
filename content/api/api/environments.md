@@ -22,9 +22,14 @@ https://api.multisafepay.com/v1/json
 {{< description >}}
 ## Environments
 
-MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing a new integration with our API as no real transactions are able to be processed. Once the integration has been developed processing real transactions is as simple as addressing the LIVE API and updating the [API key](/faq/general/multisafepay-glossary/#api-key) being used.
+MultiSafepay provides a:
 
-[TEST Environment](https://testmerchant.multisafepay.com)
+- [Test environment](https://testmerchant.multisafepay.com)
+- [Live environment](https://merchant.multisafepay.com)
 
-[LIVE Environment](https://merchant.multisafepay.com)
+Use the test environment when developing and testing a new integration with our API. No real transactions are processed. 
+
+To start processing real transactions, just address the **live** API and update your [API key](/set-up-your-account/site-id-api-key-secure-code).
+
+
 {{% /description %}}

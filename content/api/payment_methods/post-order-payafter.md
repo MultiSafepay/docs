@@ -210,7 +210,7 @@ Creates a Pay After Delivery [Redirect](/developer/api/difference-between-direct
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -222,17 +222,19 @@ Specifies the payment flow for the checkout process. Options: direct, redirect.
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: PAYAFTER.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: PAYAFTER.
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -242,12 +244,14 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __custom_info__ | object
@@ -257,7 +261,8 @@ custom_info is a 'placeholder' where the merchant can input specific data relate
 ----------------
 __customer__ | object
 
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.     
 
 ----------------
 __delivery__ | object
@@ -268,7 +273,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
+All items in the shopping cart, including the tax class.   
+If you have a custom integration, include the complete specification of the `shopping_cart`.
 
  __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 
@@ -324,7 +330,8 @@ __forwarded_ip__ | string
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`. 
 
 ----------------
 
@@ -339,7 +346,7 @@ Creates a Pay After Delivery [Direct](/developer/api/difference-between-direct-a
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -351,17 +358,19 @@ Specifies the payment flow for the checkout process. Options: direct, redirect.
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: PAYAFTER.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: PAYAFTER.
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -371,12 +380,14 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __custom_info__ | object
@@ -386,7 +397,8 @@ custom_info is a 'placeholder' where the merchant can input specific data relate
 ----------------
 __customer__ | object
 
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.     
 
 ----------------
 __delivery__ | object
@@ -396,7 +408,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 ----------------
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+All items in the shopping cart, including the tax class.   
+If you have a custom integration, include the complete specification of the `shopping_cart`. 
 
  __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
 

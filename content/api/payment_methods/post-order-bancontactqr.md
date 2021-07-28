@@ -50,7 +50,7 @@ Creates a Bancontact QR [Redirect](/developer/api/difference-between-direct-and-
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -62,7 +62,7 @@ Specifies the payment flow for the checkout process. Options: redirect and payme
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __gateway__ | string
@@ -83,10 +83,14 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
+
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __gateway_info__ | object
@@ -96,12 +100,16 @@ The qr_enabled = 1 invokes the qr_url. This parameter contains a deeplink to Ban
 ----------------
 __customer__ | object
 
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
+
 ----------------
 
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`. 
 
 ----------------
 

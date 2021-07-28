@@ -51,7 +51,7 @@ Creates a Gift Card [Redirect](/developer/api/difference-between-direct-and-redi
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -63,17 +63,19 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. All gateway name options of our standard gift cards are shown below. Note: we will only preselect the gift card supplied in the gateway.  
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). All gateway name options of our standard gift cards are shown below. Note: we will only preselect the gift card supplied in the gateway.  
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -83,28 +85,38 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+The page the customer is redirected to if the payment fails.
 
 ----------------
 __customer__ | object
+
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __locale__ | string
@@ -114,24 +126,28 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------    
 __ip_address__ | string
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/developer/api/validating-customer-ip-address) 
+The customer's IP address.   
+**Required** for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods because MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address). 
 
 ---------------- 
 __country__ | string
 
-Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)
+The customer’s country of residence.   
+Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).
 
 ---------------- 
 __email__ | string
 
-Customer’s provided email address. Used to send Second Chance emails and in fraud checks.  
+The customer’s email address.   
+Used to send Second Chance emails and to conduct fraud checks.  
 
 ---------------- 
 
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`. 
 
 ----------------
 

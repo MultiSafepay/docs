@@ -33,16 +33,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Balances
 
-As a partner or primary account holder, request the balance of an affiliated account. 
+As a partner or primary account holder, use this endpoint to retrieve the balance of an affiliated account. 
 
 By default, balance requests are disabled. To enable balance requests for your account, email your account manager at <sales@multisafepay.com>
 
 ### Authentication
-Use your account-level API key. 
+Use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-To receive your account-level API key, email your account manager at <sales@multisafepay.com>
+To retrieve your account API key, email your account manager at <sales@multisafepay.com>
 
-### Request parameters
+### Parameters
 
 **affiliated_id** | query parameter  
 
@@ -50,7 +50,7 @@ The account ID of the affiliated account. **Required**.
 
 ### Response
 
-The response is an array of objects that represent the balance of every available currency.
+The response is an array of objects that represent the affiliate's balance in every available currency.
 
 **account_id**  | integer
 

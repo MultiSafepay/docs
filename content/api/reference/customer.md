@@ -36,7 +36,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 __locale__ | string
 
-Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. 
+Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
+Default: `en_US`. 
 
 __ip_address__ | string
 
@@ -64,7 +65,7 @@ The customer’s birthday.
 
 __address1__ | string
 
-First line of customer’s provided address. 
+The first line of the customer's address. 
 
 __address2__ | string
 
@@ -76,23 +77,25 @@ Customer's provided house number.
 
 __zip_code__ | string
 
-Customer’s provided zip / postal code.                                                 
+The customer's ZIP/ postal code.                                                 
 
 __city__ | string
 
-Customer’s provided city.                                           
+The customer's city of residence.                                           
 
 __country__ | string
 
-Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)
+The customer’s country of residence.   
+Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).
 
 __phone__ | string
 
-Customer’s provided phone number. 
+The customer's phone number. 
 
 __email__ | string
 
-Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
+The customer’s email address.   
+Used to send Second Chance emails and to conduct fraud checks.
 
 __user_agent__ | string
 

@@ -148,7 +148,7 @@ In the case of a _Redirect_ transaction, the customer will be sent to the MultiS
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -160,12 +160,13 @@ Specifies the payment flow for the checkout process. Options: direct, redirect, 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: IDEAL.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: IDEAL.
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
@@ -180,28 +181,38 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+The page the customer is redirected to if the payment fails.
 
 ----------------
 __customer__ | object
+
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __locale__ | string
@@ -218,14 +229,14 @@ In the case of a _Direct_ transaction, the customer has to choose iDEAL and the 
 * Direct transaction requires all fields completed properly
 
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct.  
+The payment flow for the checkout process.  Options: `direct`.  
 
 ----------------
 __gateway_info__ | object

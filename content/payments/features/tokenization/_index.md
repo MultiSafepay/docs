@@ -36,7 +36,7 @@ To use tokenization via our API, see API Reference – [Tokenization and recurri
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or SOFORT Banking transactions. 
 
-{{< details title="Additional request parameters" >}}
+{{< details title="Additional parameters" >}}
 
 | Parameter | Type | Description |
 |---|---|---|

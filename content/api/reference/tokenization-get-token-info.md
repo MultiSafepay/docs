@@ -35,7 +35,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 This API call allows you to retreive the information related to a single token.
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameter**
 

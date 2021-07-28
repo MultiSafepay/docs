@@ -161,7 +161,7 @@ Creates a KBC [Redirect](/developer/api/difference-between-direct-and-redirect) 
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 
 **Parameters**
@@ -179,12 +179,13 @@ The unique gateway id to immediately direct the customer to the payment method. 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -194,24 +195,28 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
 
 ----------------    
 __customer__ | object
 
-Contains personal information about the customer. 
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`. 
 
 ---------------- 
 
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`. 
 
 ----------------
 
@@ -223,7 +228,7 @@ Creates a KBC [Direct](/developer/api/difference-between-direct-and-redirect) or
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -240,12 +245,13 @@ The unique gateway id to immediately direct the customer to the payment method. 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -255,17 +261,20 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
 
 ----------------    
 __customer__ | object
 
-Contains personal information about the customer. 
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`. 
 
 ---------------- 
 

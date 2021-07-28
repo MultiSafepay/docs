@@ -118,23 +118,24 @@ This API call allows you to generate a token transaction by using the recurring 
 
 _It must be noted that the recurring_id, recurring_model and reference must be specified in the request in order for the transaction to be processed_
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct.     
+The payment flow for the checkout process.  Options: `direct`.     
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.     
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.     
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __recurring_id__ | string
@@ -159,10 +160,13 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)                                
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).                                
 
 ----------------
 __redirect_url__ | string
@@ -172,10 +176,13 @@ Customer will be redirected to this page after a successful payment.
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment. 
+The page the customer is redirected to if the payment fails. 
 
 ----------------
-__customer__ | object
+__customer__ | 
+
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __locale__ | string
@@ -202,7 +209,8 @@ Add a short text memo based on the capture reason of the order.
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`. 
 
 ----------------
 

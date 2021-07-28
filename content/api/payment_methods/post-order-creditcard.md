@@ -48,20 +48,24 @@ Creates a Credit Card [Redirect](/developer/api/difference-between-direct-and-re
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All of the following parameters are required fields.:
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: Redirect.                   |
 | gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. Options: [CREDITCARD](/payments/methods/credit-and-debit-cards) |
-| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
-| currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
+| order_id                        | integer / string | Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.                                   |
+| currency                        | string | The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  |
 | amount                          | integer | The amount (in cents) that the customer has to pay.                                     |
 | description                     | string | A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options                 | object |   |
-| notification_url                | string    | Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)|
-| redirect_url                    | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|
-| cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
+| notification_url                | string    | Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).|
+| redirect_url                    | string    | The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.|
+| cancel_url                      | string    | The page the customer is redirected to if the payment fails.  | 
 
 
 

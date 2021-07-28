@@ -45,10 +45,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Split Payments
-The split payment tool allows you to split the amount of a transaction over several MultiSafepay accounts. [Merchants](/faq/general/multisafepay-glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
+## Split payments
+Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
 
-Read more about [split payments](/payments/features/split-payments/) on our documentation page.
+For more information, see [Split payments](/payments/features/split-payments/).
 
 **Parameters**
 
@@ -56,22 +56,26 @@ Read more about [split payments](/payments/features/split-payments/) on our docu
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect and paymentlink.  
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -81,30 +85,38 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).
 
 ----------------
 __notification_method__ | string
 
-Sends push notification (POST,GET) default: GET.
+Sends push notification.  
+Options: `POST`, `GET`. Default: `GET`.
 
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+The page the customer is redirected to if the payment fails.
 
 ----------------
 __split_payments__ | object
@@ -112,22 +124,22 @@ __split_payments__ | object
 ----------------
 __split_payments.merchant__ | integer
 
-Affiliate AccountID of a MultiSafepay account.   
+The account ID of the [affiliated MultiSafepay account](/account/partner-account-control/).   
 
 ----------------
 __split_payments.percentage__ | float
 
-Define a percentage of the amount to split.
+Specify a percentage of the amount to split.
 
 ----------------
 __split_payments.fixed__ | integer
 
-Define amount to split in cents.
+Specify the amount to split in cents.
 
 ----------------
 __split_payments.description__ | string
 
-Description.
+The description of the split payment.
 
 
 {{% /description %}}

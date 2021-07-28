@@ -62,9 +62,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Recurring Payment
+## Recurring payments
 
-A recurring payment can be initiated using [tokenization](/tokenization/tokenization-api-level/) for the following payment methods:
+You can initiate [recurring payments](/payments/features/recurring-payments/) using [tokenization](/payments/features/tokenization/) for the following payment methods:
 
 * VISA
 * MasterCard
@@ -75,9 +75,13 @@ A recurring payment can be initiated using [tokenization](/tokenization/tokeniza
 * SOFORT
 * Direct debit
 
-iDEAL, Bancontact and SOFORT can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The token can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/payments/features/recurring-payments/)
+Customers can make the initial payment using iDEAL, Bancontact, or SOFORT, followed by recurring payments using SEPA Direct Debit. 
 
-For more information please visit our documentation page to read more about [recurring payments](/payments/features/recurring-payments/) and the fields required for [tokenization](/tokenization/tokenization-api-level/).
+### Processing recurring payments
+
+1. Submit a standard transaction request with recurring payments enabled. 
+2. Request the token by [retreiving the order](https://docs.multisafepay.com/api/#retrieve-an-order).
+3. Make recurring payment requests as required.
 
 **Parameters**
 
@@ -85,79 +89,95 @@ For more information please visit our documentation page to read more about [rec
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct.
+The payment flow for the checkout process.  
+Options: `direct`.
 
 ----------------
 __gateway__ | string
 
-Specifies the payment method used for the checkout process. Options: AMEX, DIRDEB, MASTERCARD, VISA. DIRDEB is to be used after initial payment with IDEAL, DIRECTBANK (Sofort) and DIRDEB. 
+The payment method used for the checkout process.  
+Options: AMEX, DIRDEB, MASTERCARD, VISA.  
+Use DIRDEB when the initial payment was made using IDEAL, DIRECTBANK (Sofort) and DIRDEB. 
 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __recurring_id__ | integer
 
-The unique recurring id used for recurring payments.
+The unique identifier for the recurring payment.
 
 ----------------
 __recurring_flow__ | string
 
-The tokenization method used to create a recurring payment. Options: token
+The tokenization method used to create the recurring payment.  
+Options: `token`
 
 ----------------
 
 __recurring_model__ | string
 
-The type of recurring method used in the transaction request. Options: unscheduled, sunscription, cardonfile
+The type of recurring method used in the transaction request.  
+Options: `unscheduled`, `subscription`, `cardonfile`.
 
 ----------------
 
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.  
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html). 
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
+Endpoint for MultiSafepay to send status updates and other notifications to.   
+For more information, see [notification_url](/developer/api/notification-url).
 
 ----------------
 __notification_method__ | string
 
-Sends push notification (POST,GET) default: GET.
+Sends push notification.  
+Options: `POST`, `GET`. Default: `GET`.
 
 ----------------
 __redirect_url__ | string
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
 
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+The page the customer is redirected to if the payment fails.
 
 ----------------
 
 __close_window__ | bool (optional)
 
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+Options: `True`, `False`.   
 
 ----------------
 

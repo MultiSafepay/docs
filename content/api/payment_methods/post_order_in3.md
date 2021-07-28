@@ -521,7 +521,7 @@ Creates an in3 [Direct](/developer/api/difference-between-direct-and-redirect) o
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -538,12 +538,13 @@ The unique gateway id to immediately direct the customer to the payment method. 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -553,17 +554,20 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url) 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url). 
 
 ----------------
 __customer__ | object
 
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __delivery__ | object
@@ -574,7 +578,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+All items in the shopping cart, including the tax class.   
+If you have a custom integration, include the complete specification of the `shopping_cart`. 
 
 ----------------
 
@@ -636,7 +641,7 @@ Creates an in3 [Redirect](/developer/api/difference-between-direct-and-redirect)
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s)
+* All of the following parameters are required fields.
 
 **Parameters**
 
@@ -653,12 +658,13 @@ The unique gateway id to immediately direct the customer to the payment method. 
 ----------------
 __order_id__ | integer / string
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
 
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
@@ -668,17 +674,20 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url) 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.
+The customer's personal information.   
+Format: Minimum two characters for the `first_name` and `last_name`.
 
 ----------------
 __delivery__ | object
@@ -689,7 +698,8 @@ Contains the delivery information for the shipment. _Values for first_name and l
 
 __shopping_cart__ | object
 
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+All items in the shopping cart, including the tax class.   
+If you have a custom integration, include the complete specification of the `shopping_cart`. 
 
 ----------------
 

@@ -14,7 +14,7 @@ aliases:
     - /getting-started/set-up-your-account/user-guide/adding-websites/
 ---
 
-To set up your test account, you must first add at least one website and generate an [API key](/faq/general/multisafepay-glossary/#api-key). 
+To set up your test account, you must first add at least one website and generate an [API key](/getting-started/glossary/#api-key). 
 
 {{< details title="Website requirements" >}}
 
