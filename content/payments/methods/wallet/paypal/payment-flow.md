@@ -29,7 +29,7 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 | 2. | PayPal generates a payment link. |   |  |
 | 3. | The customer completes the payment. | | |
 | 4. | The transaction is successful, and PayPal adds the funds to your PayPal business account. | Completed | Initialized |
-| 5. | Orders cannot be shipped while the transaction status is **Initialized**. To ship the order, set the transaction status to **Completed**. | Completed | Completed |
+| 5. | Orders cannot be shipped while the transaction status is **Initialized**. To ship the order, set the transaction status to **Completed**. | Completed | Initialized |
 
 ## Unsuccessful statuses
 
