@@ -40,7 +40,7 @@ To use tokenization via our API, see API Reference – [Tokenization and recurri
 
 | Parameter | Type | Description |
 |---|---|---|
-| `type` | String | Specifies the payment flow for the checkout process. Options: Direct, Redirect |
+| `type` | String | The payment flow for the checkout process. Options: Direct, Redirect |
 | `gateway` | String | The unique `gateway_id` to redirect the customer to the specific payment method. Retrieve gateways using a GET `/gateway` request. {{< br >}} Options: AMEX, VISA, MASTERCARD and DIRDEB |
 | `recurring_id` | String | A randomly generated recurring ID for the customer. |
 | `reference` | String | The customer's reference number for the token. |

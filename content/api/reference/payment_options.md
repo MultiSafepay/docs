@@ -28,7 +28,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).              
+See also [notification_url](/developer/api/notification-url).              
 
 ----------------
 __redirect_url__ | string
@@ -50,7 +50,7 @@ Enables push notifications (POST,GET) default: GET.
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------

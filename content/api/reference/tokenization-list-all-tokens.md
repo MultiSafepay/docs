@@ -53,7 +53,7 @@ If you have many tokens, you can use the two parameters _limit_ and _offset_ to 
 
 Example: If the _limit_ is set to 15 and the _offset_ to 0, then 17 tokens will be listed (token 0 to token 16)
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameter**
 

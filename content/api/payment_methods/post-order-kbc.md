@@ -157,11 +157,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## KBC
 ### Redirect - KBC
 
-Creates a KBC [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+Creates a KBC [redirect](/developer/api/difference-between-direct-and-redirect) order.
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 
 **Parameters**
@@ -169,28 +169,28 @@ Creates a KBC [Redirect](/developer/api/difference-between-direct-and-redirect) 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink.  
+The payment flow for the checkout process. Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: KBC.
+The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: KBC.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -202,61 +202,62 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------    
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`. 
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ---------------- 
 
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
 
-Read more about [KBC](/payments/methods/banks/kbc) on our documentation page.
+See also [KBC](/payments/methods/banks/kbc).
 
 ### Direct - KBC
 
-Creates a KBC [Direct](/developer/api/difference-between-direct-and-redirect) order.
+Creates a KBC [direct](/developer/api/difference-between-direct-and-redirect) order.
 
-* Direct transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink.  
+The payment flow for the checkout process. Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: KBC.
+The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: KBC.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -268,17 +269,18 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------    
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`. 
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ---------------- 
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [KBC](/payments/methods/banks/kbc) on our documentation page.
+See also [KBC](/payments/methods/banks/kbc).
 {{< /description >}}

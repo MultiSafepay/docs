@@ -65,18 +65,18 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string. Required. Max 50 char.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`. Required. Max 50 char.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -94,13 +94,14 @@ A manual capture has been generated.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __locale__ | string
@@ -112,17 +113,17 @@ Default: `en_US`.
 __ip_address__ | string
 
 The customer's IP address.   
-**Required** for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods because MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address).
+Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
 
-Read more about [Manual Capture](/payments/features/manual-capture) on our documentation page.
+See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

@@ -45,40 +45,42 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## TrustPay
+See also [TrustPay](/payments/methods/banks/trustpay).
 
-Creates a TrustPay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect.  
+The payment flow for the checkout process.  
+Options: `redirect`.  
 
 ----------------
 __gateway__ | string
 
-TRUSTPAY
+The unique gateway identifier.  
+Options: `TRUSTPAY`.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -90,13 +92,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -114,28 +116,25 @@ The page the customer is redirected to if the payment fails.
 __customer__ | object 
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __email__ | string   
 
-Customer’s provided email address. Used to send Second Chance emails, in fraud checks and the sending bank transfer email.                              
+The customer’s email address.  
+Used for sending Second Chance and bank transfer emails, and for conducting fraud checks.                              
 
 ----------------
 __locale__ | string   
 
-Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes.                       
+Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).                         
 
 ----------------
 
 __close_window__ | bool (optional)
 
-
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
-Options: `True`, `False`. 
-
-----------------
-
-Read more about [TrustPay](/payments/methods/banks/trustpay) on our documentation page.
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
+Options: `True`, `False`.
 
 {{< /description >}}

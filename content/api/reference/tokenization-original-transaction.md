@@ -76,29 +76,29 @@ MultiSafepay offers the following recurring models:
 
 
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect.     
+The payment flow for the checkout process. Options: `direct`, `redirect`.     
 
 ----------------
 __gateway__ | string
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) E.g. CREDITCARD.
+The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). E.g. CREDITCARD.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.     
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.     
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __recurring_model__ | string
@@ -108,7 +108,7 @@ The function of the recurring model e.g. Card on file, Subscription, Unscheduled
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.     
+The amount (in cents) the customer needs to pay.     
 
 ----------------
 __description__ | string
@@ -118,13 +118,13 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).                                
+See also [notification_url](/developer/api/notification-url).                                
 
 ----------------
 __redirect_url__ | string
@@ -140,7 +140,8 @@ The page the customer is redirected to if the payment fails.
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
@@ -148,7 +149,7 @@ Read our decicated documentation on [Tokenization](https://docs.multisafepay.com
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------

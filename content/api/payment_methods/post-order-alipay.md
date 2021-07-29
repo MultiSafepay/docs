@@ -143,40 +143,43 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Alipay
-### Redirect - Alipay
-Creates an Alipay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+See also [Alipay](/payments/methods/wallet/alipay).
 
-* Redirect transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
+### Redirect
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect, direct, paymentlink.
+The payment flow for the checkout process. Options: `redirect`, `direct`, `paymentlink`.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: ALIPAY. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `ALIPAY`. 
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -188,60 +191,57 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __close_window__ | bool (optional)
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.    
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.    
 Options: `True`, `False`. 
 
-----------------
+### Direct
 
-Read more about [Alipay](/payments/methods/wallet/alipay) on our documentation page.
-
-### Direct - Alipay
-
-Creates an Alipay [Direct](/developer/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
-
+- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields, except `ip_address`.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect, direct, paymentlink.
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`, `paymentlink`.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: ALIPAY. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: ALIPAY. 
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -253,18 +253,19 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+
+----------------
+__ip_address__ | string
+
+ The customer's IP address.  
+ Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
-
-
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
-
-Read more about [Alipay](/payments/methods/wallet/alipay) on our documentation page.
-
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 {{< /description >}}

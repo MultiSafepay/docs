@@ -1,11 +1,11 @@
 ---
 weight: 304
-meta_title: "API Reference - Create an Apple Pay transaction - MultiSafepay Docs"
+meta_title: "API Reference - Create an Apple Pay order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 
-> Detect Apple Pay on customer's device
+> Detect Apple Pay on the customer's device
 
 ```javascript
 try {
@@ -53,45 +53,48 @@ try {
 {{< description >}}
 
 ## Apple Pay
-Creates an Apple Pay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+See also [Apple Pay](/payments/methods/wallet/applepay).
 
-* Redirect transaction requires all fields completed properly.
+### Detecting Apple Pay on the customer's device
 
-### How to detect Apple Pay on a device
+To avoid an error if the customer's device doesn't support Apple Pay, we recommend running this piece of JavaScript to detect Apple Pay on the device.
 
-This JavaScript code will _detect_ if Apple Pay is supported on a device. We recommend you to use this code to avoid an error being displayed if the device does not support Apple Pay. 
+**Note:** The code still displays Apple Pay as a payment method on a non-supported device. We recommend extending the script as required to hide Apple Pay.  
 
-Please note that the code will still _display_ Apple Pay as a payment method on a non-supported device. We recommend extending the script to your own needs in order to hide Apple Pay.  
-
-* All of the following parameters are required fields.
+### Redirect
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are **required** fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect.  
+The payment flow for the checkout process. Options: `redirect`.  
 
 ----------------
 __gateway__ | string
 
-The payment gateway does not need to be specified.
+The payment gateway doesn't need to be specified.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`, otherwise it is `string`. Maximum number of characters: 35.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`, otherwise it is `string`.  
+Format: Maximum 35 characters.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -103,13 +106,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -127,12 +130,7 @@ The page the customer is redirected to if the payment fails.
 
 __close_window__ | bool (optional)
 
-
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
-----------------
-
-
-Read more about [Apple Pay](/payments/methods/wallet/applepay) on our documentation page.
 {{< /description >}}

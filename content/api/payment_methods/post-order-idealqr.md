@@ -50,44 +50,44 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## iDEAL QR
 
-Creates a iDEAL QR [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+Creates a iDEAL QR [redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 _Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is not available._
 
 {{< alert-notice >}} Please keep in mind that in case min_amount is not set, the value of amount will be used as the min_amount and vice versa.
 If max_amount is not set, the value of amount will be used as the max_amount for this transaction. In case both min_amount and max_amount are used, the value of amount will be disregarded. {{< /alert-notice >}}
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.  
+The payment flow for the checkout process. Options: `redirect`, `direct`.  
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: iDEALQR.
+The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: iDEALQR.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -99,13 +99,14 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __gateway_info__ | object
@@ -141,11 +142,11 @@ __max_amount__ | string
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
 
-Read more about [iDEAL QR](/payments/methods/banks/idealqr) on our documentation page.
+See also [iDEAL QR](/payments/methods/banks/idealqr).
 
 {{< /description >}}

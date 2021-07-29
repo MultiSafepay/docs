@@ -40,5 +40,5 @@ The order status of the manual capture request.
 
 ----------------
 
-Read more about [Manual Capture](/payments/features/manual-capture) on our documentation page.
+See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

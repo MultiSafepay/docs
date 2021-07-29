@@ -39,7 +39,7 @@ Format: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), 
 __currency__ | string
 
 The currency you want the customer to pay with.  
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html). Optional.
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). Optional.
 
 __amount__ | integer
 

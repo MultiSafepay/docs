@@ -42,42 +42,44 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ## American Express
+See also Payment methods – [American Express](/payments/methods/credit-and-debit-cards/american-express).
 
-Creates an American Express [Redirect](/developer/api/difference-between-direct-and-redirect) order.
-
-{{< alert-notice >}} Besides the individual credit card gateways, MultiSafepay offers you a generic gateway called [CREDITCARD](https://docs.multisafepay.com/api/#credit-cards). This can save space on your mobile checkout. The disadvantage is that the customer can not immediately see which credit cards can be used. The correct credit card logo will appear automatically when the card holder provides the first digits of the credit card number. {{< /alert-notice >}}
-
-* Redirect transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields, except `ip_address`.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect.  
+The payment flow for the checkout process.  
+Options: `redirect`.  
 
 ----------------
 __gateway__ | string
 
-Fixed value: [AMEX](/payments/methods/credit-and-debit-cards/american-express)
+The gateway identifier.  
+Fixed value: `AMEX`.
+
+**Note:** We also offer a generic [CREDITCARD](/api/#credit-cards) gateway. This can save space in mobile checkouts, but customers can't immediately see which credit cards are supported. When the customer enters the first digits of their card number, the relevant credit card logo appears automatically.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -89,13 +91,19 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+
+----------------
+__ip_address__ | string
+
+ The customer's IP address.  
+ Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -113,13 +121,6 @@ The page the customer is redirected to if the payment fails.
 
 __close_window__ | bool (optional)
 
-
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
-
-----------------
-
-__Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
-
-Read more about [American Express](/payments/methods/credit-and-debit-cards/american-express) on our documentation page.
 {{< /description >}}

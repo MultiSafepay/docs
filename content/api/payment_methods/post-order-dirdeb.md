@@ -116,50 +116,51 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ## SEPA Direct Debit
-### Redirect - SEPA Direct Debit
+See also Payment methods – [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit).
 
-Creates a SEPA Direct Debit [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+### Redirect
 
-{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay account. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) {{< /alert-notice >}}
-
-* Redirect transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.  
+The payment flow for the checkout process.   
+Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: IDEAL.
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `IDEAL`.
 
 ----------------
-
 __recurring_id__ | string
 
-The recurring_id is a unique id that can be used to process subsequent payments.
+The unique identifier for processing subsequent payments if [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) are enabled in your MultiSafepay account.  
+In recurring payment requests, include in the `gateway_info` section of the request.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -171,13 +172,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -195,59 +196,60 @@ The page the customer is redirected to if the payment fails.
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __locale__ | string
 
- Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
+Displays the correct language and payment methods on the payment page, and influences sending email templates.  
+Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
 Default: `en_US`.
 
 ----------------
-
 __close_window__ | bool (optional)
 
-
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
 
-### Direct - SEPA Direct Debit
+### Direct 
 
-Creates a SEPA Direct Debit [Direct](/developer/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
+- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields, except `ip_address`.
 
 **Parameters**
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.  
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: DIRDEB.
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `DIRDEB`.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -259,13 +261,14 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.     
+Format: Minimum two characters for the `first_name` and `last_name`.    
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
 
 ----------------
 __gateway_info__ | object
@@ -273,37 +276,32 @@ __gateway_info__ | object
 ----------------
 __account_id__ | string
 
-IBAN to be charged for the transaction.
+The international bank account number (IBAN) to be charged for the transaction.
 
 ----------------
 __account_holder_name__ | string
 
-Name of the owner of the bank account to be charged for the transaction. 
+The name of the account holder to be charged for the transaction. 
 
 ----------------
 __account_holder_iban__ | string
 
-IBAN to be charged for the transaction.
+The international bank account number (IBAN) to be charged for the transaction.
 
 ----------------
 __emandate__ | string
 
-For your own adminstration, put the e-mandate here.
+The e-mandate (for your own adminstration).
 
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)
+The IP address of the customer.  
+Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 __forwarded_ip__ | string
 
 The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/developer/api/validating-customer-ip-address)
-
-----------------
-
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
-
-Read more about [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit) on our docuemntation page.
 
 {{< /description >}}

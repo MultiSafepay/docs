@@ -124,22 +124,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## Klarna
 ### Redirect - Klarna
-Creates a Klarna [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
+Creates a Klarna [redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Processing transactions with Klarna (the old environment) is only available as a Redirect request.
 
 Klarna Payments (the new environment of Klarna) is available as a Redirect request, although you may use the Direct request if you have your own integration. The JSON request remains the same for both Klarna and Klarna payments.
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect.  
+The payment flow for the checkout process. Options: `direct`, `redirect`.  
 
 ----------------
 __gateway__ | string
@@ -150,18 +150,18 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: KLARNA.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -173,19 +173,22 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.     
+Format: Minimum two characters for the `first_name` and `last_name`.   
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.  
 
 ----------------
 
 __delivery__ | object
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
+The delivery information for the shipment.  
+Format: Minimum two characters for the `first_name` and `last_name`.   
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
 
 ----------------
 
@@ -200,7 +203,7 @@ If you have a custom integration, include the complete specification of the `sho
 
 __items__ | object
 
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+A specification of the order items to display on the checkout page. For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
 
 ----------------
 
@@ -212,7 +215,7 @@ The quantity of a specific item in the shopping cart. Decimals are not accepted 
 
 __checkout_options__ | object
 
-Contains the definitions for the VAT class.
+The definitions for the VAT class.
 
 ----------------
 
@@ -221,7 +224,7 @@ __gateway_info__ | object
 ----------------
 __phone__ | string
 
-The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. 
+The customer's phone number. Required for credit checks and to contact the customer in case of non-payment. 
 
 ----------------
 __email__ | string
@@ -236,7 +239,7 @@ The gender of the customer. (Required for Klarna, optional for Pay After Deliver
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)      
+The IP address of the customer. Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.      
 
 ----------------
 __forwarded_ip__ | string
@@ -247,16 +250,16 @@ __forwarded_ip__ | string
 
 Please note that *first_name* and *last_name* in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Klarna](/payments/methods/billing-suite/klarna) on our documentation page.
+See also [Klarna](/payments/methods/billing-suite/klarna).
 
 ### Redirect - Klarna Payments
-Creates a Klarna Payments [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
+Creates a Klarna Payments [redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 
 **Parameters**
@@ -264,7 +267,7 @@ Please note this request is for Klarna Payments. This request can only be proces
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect.  
+The payment flow for the checkout process. Options: `direct`, `redirect`.  
 
 ----------------
 __gateway__ | string
@@ -276,20 +279,20 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: KLARNA.
 
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 
@@ -303,19 +306,22 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.     
+Format: Minimum two characters for the `first_name` and `last_name`.    
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
 
 ----------------
 __delivery__ | object
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
+The delivery information for the shipment.  
+Format: Minimum two characters for the `first_name` and `last_name`.    
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
 
 ----------------
 
@@ -330,7 +336,7 @@ If you have a custom integration, include the complete specification of the `sho
 
 __items__ | object
 
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+A specification of the order items to display on the checkout page. For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
 
 ----------------
 
@@ -348,7 +354,7 @@ The quantity of a specific item in the shopping cart. Decimals are not accepted 
 
 __checkout_options__ | object
 
-Contains the definitions for the VAT class.
+The definitions for the VAT class.
 
 ----------------
 
@@ -358,7 +364,7 @@ __gateway_info__ | object
 
 __phone__ | string
 
-The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. 
+The customer's phone number. Required for credit checks and to contact the customer in case of non-payment. 
 
 ----------------
 
@@ -370,7 +376,7 @@ The email address to which the system can send payment instructions to the custo
 
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)      
+The IP address of the customer. Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.      
 
 ----------------
 __forwarded_ip__ | string
@@ -381,6 +387,6 @@ __forwarded_ip__ | string
 
 Please note that *first_name* and *last_name* in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Klarna](/payments/methods/billing-suite/klarna) on our documentation page.
+See also [Klarna](/payments/methods/billing-suite/klarna).
 
 {{< /description >}}

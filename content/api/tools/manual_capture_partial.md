@@ -38,7 +38,7 @@ weight: 1351
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __new_order_id__ | integer / string
@@ -73,9 +73,9 @@ Add a short action text memo mentioning the shipping status of the order.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string. Required. Max 50 char.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`. Required. Max 50 char.
 
 ----------------
 
-Read more about [Manual Capture](/payments/features/manual-capture) on our documentation page.
+See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

@@ -152,7 +152,7 @@ When sending images in the template structure for the logo and header, you must 
 __order_id__ | integer / string
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is integer. Otherwise, it is string.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __gateway__ | string
@@ -164,12 +164,12 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -181,13 +181,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string

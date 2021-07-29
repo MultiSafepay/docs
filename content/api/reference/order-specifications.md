@@ -21,6 +21,6 @@ The line "items" can be added to the JSON request. Post payment methods require 
 
 __items__ | object
 
-Specification of products (items) which can be set in order to be displayed on the checkout page.                
+A specification of the order items to display on the checkout page.                
 
 {{% /description %}}

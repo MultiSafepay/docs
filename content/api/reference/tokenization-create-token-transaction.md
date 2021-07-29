@@ -118,7 +118,7 @@ This API call allows you to generate a token transaction by using the recurring 
 
 _It must be noted that the recurring_id, recurring_model and reference must be specified in the request in order for the transaction to be processed_
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
@@ -129,13 +129,13 @@ The payment flow for the checkout process.  Options: `direct`.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.     
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.     
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __recurring_id__ | string
@@ -150,7 +150,7 @@ The function of the recurring model e.g. Card on file, Subscription, Unscheduled
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.     
+The amount (in cents) the customer needs to pay.     
 
 ----------------
 __description__ | string
@@ -160,13 +160,13 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).                                
+See also [notification_url](/developer/api/notification-url).                                
 
 ----------------
 __redirect_url__ | string
@@ -187,7 +187,7 @@ Format: Minimum two characters for the `first_name` and `last_name`.
 ----------------
 __locale__ | string
 
-Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. 
+Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
 
 ----------------
 __account_holder_name__ | string
@@ -209,7 +209,7 @@ Add a short text memo based on the capture reason of the order.
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------

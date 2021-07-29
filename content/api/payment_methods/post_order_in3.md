@@ -515,41 +515,42 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## in3
-### Direct - in3
+See also [in3](/payments/methods/billing-suite/in3).
+### Direct
 
-Creates an in3 [Direct](/developer/api/difference-between-direct-and-redirect) order to be paid in installments.
-
-* Direct transaction requires all fields completed properly
-
-* All of the following parameters are required fields.
+- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order to be paid in installments.
+- Direct transaction requires all fields completed properly
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.
+The payment flow for the checkout process. Options: `redirect`, `direct`.
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: IN3. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: `IN3`. 
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -561,18 +562,21 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url). 
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url). 
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __delivery__ | object
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters_.
+The delivery information for the shipment.  
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 
@@ -585,91 +589,92 @@ If you have a custom integration, include the complete specification of the `sho
 
 __items__ | object
 
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+A specification of the order items to display on the checkout page.  
+For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
 
 ----------------
 
 __checkout_options__ | object
 
-Contains the definitions for the VAT class.
+The definitions for the VAT class.
 
 ----------------
 __gateway_info__ | object
 
-Contains the issuer_id.
+Contains the `issuer_id`.
 
 ----------------
 __birthday__ | object
 
-The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. Required in countries: DE, NL, DK, BE, AT Optional in countries: CH, NO, FI, SE.
+The customer's date of birth.  
+Required for credit checks in: DE, NL, DK, BE, AT  
+Optional: CH, NO, FI, SE  
+Format: yyyy-mm-dd.
 
 ----------------
 __phone__ | string
 
-The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment.
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment.
 
 ----------------
 __email__ | string
 
-The email address where the system can send payment instructions to the customer.
+The email address for sending payment instructions to the customer.
 
 ----------------
 __gender__ | string
 
-The gender salutation of the customer. Options: mr, mrs, miss. 
+The customer's personal title. Options: `mr`, `mrs`, `miss`. 
 
 ----------------
 __ip_address__ | string
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)
+ The IP address of the customer.  
+ Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 __forwarded_ip__ | string
 
  The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
-
-----------------
-Please note that _first_name<_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
-
-Read more about [in3](/payments/methods/billing-suite/in3) on our documentation page.
 
 ----------------
 
 ### Redirect - in3
 
-Creates an in3 [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid in installments.
+Creates an in3 [redirect](/developer/api/difference-between-direct-and-redirect) order to be paid in installments.
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.
+The payment flow for the checkout process. Options: `redirect`, `direct`.
 
 ----------------
 __gateway__ | string
 
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: IN3. 
+The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: IN3. 
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -681,18 +686,21 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __delivery__ | object
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters_.
+The delivery information for the shipment.  
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 
@@ -705,25 +713,24 @@ If you have a custom integration, include the complete specification of the `sho
 
 __items__ | object
 
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
+A specification of the order items to display on the checkout page.  
+For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
 
 ----------------
 
 __checkout_options__ | object
 
-Contains the definitions for the VAT class.
+The definitions for the VAT class.
 
 ----------------
 __ip_address__ | string
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)
+ The IP address of the customer.  
+ Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 __forwarded_ip__ | string
 
  The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
 
-----------------
-
-Read more about [in3](/payments/methods/billing-suite/in3) on our documentation page.
 {{< /description >}}

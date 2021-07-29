@@ -37,7 +37,7 @@ weight: 1352
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __new_order_id__ | integer / string
@@ -76,5 +76,5 @@ Your unique identifier for the order. If the values are only numbers the type wi
 
 ----------------
 
-Read more about [Manual Capture](/payments/features/manual-capture) on our documentation page.
+See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

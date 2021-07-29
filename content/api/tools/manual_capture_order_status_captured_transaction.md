@@ -87,9 +87,9 @@ weight: 1353
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string. Required. Max 50 char.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`. Required. Max 50 char.
 
 ----------------
 
-Read more about [Manual Capture](/payments/features/manual-capture) on our documentation page.
+See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

@@ -46,41 +46,66 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Gift card
-Creates a Gift Card [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+## Gift cards
 
-* Redirect transaction requires all fields completed properly
+See also [Gift cards](/payments/methods/prepaid-cards/gift-cards).
 
-* All of the following parameters are required fields.
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
+- All fields must be completed correctly.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect.  
+The payment flow for the checkout process. Options: `redirect`.  
 
 ----------------
 __gateway__ | string
 
-The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). All gateway name options of our standard gift cards are shown below. Note: we will only preselect the gift card supplied in the gateway.  
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+**Note:** We only preselect the gift card supplied in the gateway.  
+
+| Gift card  | Gateway    |             
+|---|---|
+| Baby Cadeaubon                 | BABYCAD                     |  
+| Beautyandwellness              | BEAUTYWELL                  |  
+| Bloemencadeaukaart             | BLOEMENCAD                  |  
+| Boekenbon                      | BOEKENBON                   |  
+| Degrotespeelgoedwinkel         | DEGROTESPL                  |   
+| Fashioncheque                  | FASHIONCHQ                  |  
+| Fashiongiftcard                | FASHIONGFT                  |  
+| Fietsenbon                     | FIETSENBON                  |  
+| Good4fun                       | GOOD4FUN                    |  
+| Gezondheidsbon                 | GEZONDHEID                  |  
+| Nationale bioscoopbon          | NATNLBIOSC                  |   
+| Nationaletuinbon               | NATNLETUIN                  |  
+| Parfumcadeaukaart              | PARFUMCADE                  |   
+| Sportenfit                     | SPORTENFIT                  |   
+| Vuur & rook gift card          | VRGIFTCARD                  |   
+| VVV Cadeaukaart                | VVVGIFTCRD                  |  
+| Webshopgiftcard                | WEBSHOPGFT                  |  
+| Wijncadeau                     | WIJNCADEAU                  |   
+| Yourgift                       | YOURGIFT                    | 
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -92,13 +117,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -116,18 +141,20 @@ The page the customer is redirected to if the payment fails.
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __locale__ | string
 
-Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: nl_NL | 
+Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).  
+Default: nl_NL 
 
 ----------------    
 __ip_address__ | string
 
 The customer's IP address.   
-**Required** for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods because MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address). 
+Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments. 
 
 ---------------- 
 __country__ | string
@@ -145,37 +172,7 @@ Used to send Second Chance emails and to conduct fraud checks.
 
 __close_window__ | bool (optional)
 
-
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
-----------------
-
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
-
-The gateway names of the standard gift cards MultiSafepay offers
-
-| Gift card name                 | Gateway name, gift card     |                         |
-|--------------------------------|-----------------------------|-------------------------| 
-| Baby Cadeaubon                 | BABYCAD                     |   |
-| Beautyandwellness              | BEAUTYWELL                  |   |
-| Bloemencadeaukaart             | BLOEMENCAD                  |   |
-| Boekenbon                      | BOEKENBON                   |   |
-| Degrotespeelgoedwinkel         | DEGROTESPL                  |   | 
-| Fashioncheque                  | FASHIONCHQ                  |   |
-| Fashiongiftcard                | FASHIONGFT                  |   |
-| Fietsenbon                     | FIETSENBON                  |   |
-| Good4fun                       | GOOD4FUN                    |   |
-| Gezondheidsbon                 | GEZONDHEID                  |   |
-| Nationale bioscoopbon          | NATNLBIOSC                  |   | 
-| Nationaletuinbon               | NATNLETUIN                  |   |
-| Parfumcadeaukaart              | PARFUMCADE                  |   | 
-| Sportenfit                     | SPORTENFIT                  |   | 
-| Vuur & rook gift card           | VRGIFTCARD                  |   | 
-| VVV Cadeaukaart                | VVVGIFTCRD                  |   |
-| Webshopgiftcard                | WEBSHOPGFT                  |   |
-| Wijncadeau                     | WIJNCADEAU                  |   | 
-| Yourgift                       | YOURGIFT                    |   |           
-
-Read more about the [gift cards](/payments/methods/prepaid-cards/gift-cards) we offer on our documentation page.
 {{< /description >}}

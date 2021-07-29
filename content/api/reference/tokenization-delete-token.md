@@ -26,7 +26,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 This API call allows you to delete a token related to a single customer reference.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameter**
 

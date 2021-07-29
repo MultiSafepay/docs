@@ -134,7 +134,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 This is a standard credit card API [direct order request](https://docs.multisafepay.com/api/#creates-a-direct-order) The gateway has been set to __CREDITCARD__. In this case, the type of credit card will be detected based on the first four digits.
 
-__Please note: Server to Server must first be enabled by our Risk department. Read more about [activation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server) on our documentation page.__ 
+__Please note: Server to Server must first be enabled by our Risk department. See also [activation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server).__ 
 
 **Parameters**
 
@@ -152,18 +152,18 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Option: VISA, MASTERCAR
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -175,13 +175,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -199,7 +199,8 @@ The page the customer is redirected to if the payment fails.
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __locale__ | string
@@ -211,7 +212,7 @@ Default: `en_US`.
 __ip_address__ | string
 
 The customer's IP address.   
-**Required** for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods because MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address).
+Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
 
 ----------------
 __gateway_info__ | object
@@ -241,10 +242,10 @@ Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an addit
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
 
-Read more about [Server to Server](/payments/features/server-to-server) on our documentation page.
+See also [Server to Server](/payments/features/server-to-server).
 {{% /description %}}

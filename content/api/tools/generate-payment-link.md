@@ -62,13 +62,13 @@ As per GDPR requirements, MultiSafepay does not submit emails by default. If you
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in your MultiSafepay account under _Tools_ > _Payment link generator_
+The payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in your MultiSafepay account under _Tools_ > _Payment link generator_
 
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.  Required. Max 50 char.  
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  Required. Max 50 char.  
 
 ----------------
 __gateway__ (optional) | string 
@@ -80,12 +80,12 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -99,7 +99,7 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------

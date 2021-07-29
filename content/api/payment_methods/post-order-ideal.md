@@ -142,20 +142,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## iDEAL
 ### Redirect - iDEAL
 
-Creates a iDEAL [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+Creates a iDEAL [redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 In the case of a _Redirect_ transaction, the customer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.  
+The payment flow for the checkout process. Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
@@ -166,7 +166,7 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: IDEAL.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
@@ -176,7 +176,7 @@ Has to be EUR.
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -188,13 +188,13 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __notification_url__ | string
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+See also [notification_url](/developer/api/notification-url).
 
 ----------------
 __redirect_url__ | string
@@ -212,24 +212,25 @@ The page the customer is redirected to if the payment fails.
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __locale__ | string
 
-Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: nl_NL | 
+Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   Default: nl_NL | 
 
 ----------------    
 
 ### Direct - iDEAL
-Creates a iDEAL [Direct](/developer/api/difference-between-direct-and-redirect) order.
+Creates a iDEAL [direct](/developer/api/difference-between-direct-and-redirect) order.
 
 In the case of a _Direct_ transaction, the customer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 
-* Direct transaction requires all fields completed properly
+- All fields must be completed correctly.
 
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
@@ -248,7 +249,7 @@ The unique identifier of the [issuer](#gateway-issuers)
 
 ----------------
 
-Read more about [iDEAL](/payments/methods/banks/ideal) on our documentation page.
+See also [iDEAL](/payments/methods/banks/ideal).
 
 {{< /description >}}
 

@@ -15,6 +15,6 @@ Tokenization is the process of storing encrypted payment details as tokens for f
 
 This section lists the API calls for different token scenarios and the required parameters.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 {{< /description >}}

@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Plugin information
 
-This [plugin](/faq/general/multisafepay-glossary/#plugin) information is required for a Community Integration. For more information about these requirments, please read more about [a community integration](/payments/integrations/community) on our documentation page.
+This [plugin](/faq/general/multisafepay-glossary/#plugin) information is required for a Community Integration. For more information about these requirments, please See also [a community integration](/payments/integrations/community).
 
 **Parameters**
 

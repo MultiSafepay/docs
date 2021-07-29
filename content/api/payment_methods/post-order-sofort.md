@@ -158,18 +158,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## SOFORT
 ### Redirect - SOFORT
-Creates a SOFORT [Redirect](/developer/api/difference-between-direct-and-redirect) order.
+Creates a SOFORT [redirect](/developer/api/difference-between-direct-and-redirect) order.
 
-* Redirect transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: redirect. |
+The payment flow for the checkout process. Options: `redirect`. |
 
 ----------------
 __gateway__ | string
@@ -180,18 +180,18 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: DIRECTBANK.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -203,30 +203,31 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
 Format: Minimum two characters for the `first_name` and `last_name`.     
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 ----------------
 __close_window__ | bool (optional)
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
 
-Read more about [SOFORT Banking](/payments/methods/banks/sofort-banking) on our documentation page.
+See also [SOFORT Banking](/payments/methods/banks/sofort-banking).
 
 ### Direct - SOFORT
-Creates a SOFORT [Direct](/developer/api/difference-between-direct-and-redirect) order.
+Creates a SOFORT [direct](/developer/api/difference-between-direct-and-redirect) order.
 
-* Direct transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
@@ -244,18 +245,18 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: DIRECTBANK.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -267,19 +268,20 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.     
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.   
 
 ----------------
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [SOFORT Banking](/payments/methods/banks/sofort-banking) on our documentation page.
+See also [SOFORT Banking](/payments/methods/banks/sofort-banking).
 
 
 {{< /description >}}

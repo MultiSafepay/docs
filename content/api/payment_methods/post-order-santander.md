@@ -94,18 +94,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Santander Betaal per Maand
-Creates a Santander Betaal per Maand [Direct](/developer/api/difference-between-direct-and-redirect) order.
+Creates a Santander Betaal per Maand [direct](/developer/api/difference-between-direct-and-redirect) order.
 
-* Direct transaction requires all fields completed properly
+- All fields must be completed correctly.
 
-* All of the following parameters are required fields.
+- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
+The payment flow for the checkout process. Options: `direct`, `redirect`, `paymentlink`. |
 
 ----------------
 __gateway__ | string
@@ -116,18 +116,18 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: SANTANDER.
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string.
+Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) the customer needs to pay.
 
 ----------------
 __description__ | string
@@ -139,7 +139,7 @@ HTML is not supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url).
+Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
 
 ----------------
 __custom_info__ | object
@@ -150,7 +150,8 @@ custom_info is a 'placeholder' where the merchant can input specific data relate
 __customer__ | object
 
 The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.     
+Format: Minimum two characters for the `first_name` and `last_name`.  
+We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.    
 
 ----------------
 __gateway_info__ | object                                                              
@@ -160,7 +161,7 @@ Contains the information of the customer needed for the credit check.
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)      
+The IP address of the customer. Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.      
 
 ----------------
 __forwarded_ip__ | string
@@ -172,7 +173,7 @@ __forwarded_ip__ | string
 __close_window__ | bool (optional)
 
 
-To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`.   
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
 ----------------
@@ -181,5 +182,5 @@ __Note: The ip_address parameter is not required, although its use is recommende
 
 Please note that _first_name_ and _last_name_ in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand) on our documentation page.
+See also [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand).
 {{< /description >}}

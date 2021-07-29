@@ -87,10 +87,10 @@ weight: 1371
 ----------------
 __order_id__ | string / integer
 
- Your unique identifier for the order. If the values are numbers only, the type is integer. Otherwise, it is string. Required. (max. 50 chars).
+ Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`. Required. (max. 50 chars).
 
 ----------------
 
-Read more about [Zero Authorization](/payments/features/zero-authorization) on our documentation page.
+See also [Zero Authorization](/payments/features/zero-authorization).
 
 {{% /description %}}

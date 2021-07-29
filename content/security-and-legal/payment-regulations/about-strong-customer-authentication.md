@@ -42,4 +42,4 @@ Subscriptions and recurring transactions will be exempt to the SCA requirements.
 
 Low value orders will also be exempt once 3D Secure 2.0 is widely adopted. For more information or to apply, email the Integration Team at <integration@multisafepay.com>
 
-Read more about [3D Secure 2.0](/faq/payment-regulations/3d-secure)
+See also [3D Secure 2.0](/faq/payment-regulations/3d-secure)
