@@ -42,10 +42,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Giropay
-Creates a Giropay [redirect](/developer/api/difference-between-direct-and-redirect) order.
 
+See also Payment methods – [Giropay](/payments/methods/banks/giropay).
+
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
 - All fields must be completed correctly.
-
 - All of the following parameters are required fields.
 
 **Parameters**
@@ -53,18 +54,21 @@ Creates a Giropay [redirect](/developer/api/difference-between-direct-and-redire
 ----------------
 __type__ | string
 
-The payment flow for the checkout process. Options: `redirect`.  
+The payment flow for the checkout process.  
+Options: `redirect`.  
 
 ----------------
 __gateway__ | string
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: GIROPAY.
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: GIROPAY.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
@@ -97,14 +101,9 @@ Format: Minimum two characters for the `first_name` and `last_name`.
 We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.  
 
 ----------------
-
 __close_window__ | bool (optional)
-
 
 To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
 
-----------------
-
-See also [Giropay](/payments/methods/banks/giropay).
 {{< /description >}}

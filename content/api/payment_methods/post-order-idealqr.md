@@ -49,34 +49,38 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## iDEAL QR
+See also Payment methods – [iDEAL QR](/payments/methods/banks/idealqr).
 
-Creates a iDEAL QR [redirect](/developer/api/difference-between-direct-and-redirect) order.
-
-_Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is not available._
-
-{{< alert-notice >}} Please keep in mind that in case min_amount is not set, the value of amount will be used as the min_amount and vice versa.
-If max_amount is not set, the value of amount will be used as the max_amount for this transaction. In case both min_amount and max_amount are used, the value of amount will be disregarded. {{< /alert-notice >}}
-
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
 - All fields must be completed correctly.
-
 - All of the following parameters are required fields.
+
+**Note:** The test environment is not available for iDEAL QR. You can only test transactions in the live environment. 
+
+- If the `min_amount` parameter is not set, the `amount` value is used as the `min_amount` and vice versa.  
+- If the `max_amount` parameter is not set, the `amount` is used as the `max_amount`.  
+- If you set both `min_amount` and `max_amount` parameters, the `amount` value is ignored.
 
 **Parameters**
 
 ----------------
 __type__ | string
 
-The payment flow for the checkout process. Options: `redirect`, `direct`.  
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.  
 
 ----------------
 __gateway__ | string
 
-The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: iDEALQR.
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `iDEALQR`.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
@@ -114,39 +118,38 @@ __gateway_info__ | object
 ----------------
 __qr_size__ | integer
 
-QR image size in pixels, default: 250 - Sizes are between 100 and 2000, if the value does not meet this rule, default is applied. 
+The size of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
+Default: 250.  
 
 ----------------
 __allow_multiple__ | boolean
 
-With the allow multiple parameter you can specify if a single QR code should be able to be used more than just once.
+Set if a specific QR code can be used more than once.
 
 ----------------
 
 __allow_change_amount__ | boolean
 
-With the allow_change_amount_parameter you can specify if a customer should be able to change the amount to pay. Requires parameter max_amount or min_amount or both. Often used for donations.
+Set if customers can change the amount to pay. Often used for donations.  
+Required parameters: `max_amount`, or `min_amount`, or both. 
 
 ----------------    
 __min_amount__ | string
 
- With the min_amount you can specify what the minimum amount can be in case the allow_change_amount option is activated. The min_amount should not be bigger than the 'amount'. If only min_amount is used, the 'amount' should be more than the min_amount, therefore the 'amount' = max_amount. 
+Set the minimum amount if `allow_change_amount` is set to `true`.  
+The `min_amount` must not be more than the `amount`.  
+If you only use `min_amount`, the `amount` must be more than the `min_amount`. That is, the `amount` = `max_amount`. 
 
 ----------------    
 __max_amount__ | string
 
- With the max_amount you can specify what the maximum amount can be in case the allow_change_amount option is activated. If only max_amount is used, the 'amount' should be less than the max_amount.
+Set the maximum amount if `allow_change_amount option` is set to `true`.  
+If you only use `max_amount`, the `amount` must be less than the `max_amount`.
 
 ---------------- 
-
 __close_window__ | bool (optional)
-
 
 To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 
-
-----------------
-
-See also [iDEAL QR](/payments/methods/banks/idealqr).
 
 {{< /description >}}

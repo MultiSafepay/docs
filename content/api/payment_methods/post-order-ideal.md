@@ -140,14 +140,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-### Redirect - iDEAL
+See also Payment methods – [iDEAL](/payments/methods/banks/ideal).
 
-Creates a iDEAL [redirect](/developer/api/difference-between-direct-and-redirect) order.
+### Redirect
 
-In the case of a _Redirect_ transaction, the customer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
-
+- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order. Customers are redirected to a MultiSafepay payment page where they can to select iDEAL as a payment method.
 - All fields must be completed correctly.
-
 - All of the following parameters are required fields.
 
 **Parameters**
@@ -155,23 +153,27 @@ In the case of a _Redirect_ transaction, the customer will be sent to the MultiS
 ----------------
 __type__ | string
 
-The payment flow for the checkout process. Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
 __gateway__ | string
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: IDEAL.
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `IDEAL`.
 
 ----------------
 __order_id__ | integer / string
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
 
 ----------------
 __currency__ | string
 
-Has to be EUR.
+The currency for the payment.  
+Fixed value: `EUR`.
 
 ----------------
 __amount__ | integer
@@ -218,18 +220,15 @@ We recommend always requiring the customer to provide their full name, instead o
 ----------------
 __locale__ | string
 
-Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   Default: nl_NL | 
+Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
+Default: nl_NL 
 
 ----------------    
 
-### Direct - iDEAL
-Creates a iDEAL [direct](/developer/api/difference-between-direct-and-redirect) order.
+### Direct
 
-In the case of a _Direct_ transaction, the customer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
-
+- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order. Customers select iDEAL and the issuing bank on the checkout page, and are then directed to the **issuer's** payment page.
 - All fields must be completed correctly.
-
-
 - All of the following parameters are required fields.
 
 **Parameters**
@@ -237,7 +236,8 @@ In the case of a _Direct_ transaction, the customer has to choose iDEAL and the 
 ----------------
 __type__ | string
 
-The payment flow for the checkout process.  Options: `direct`.  
+The payment flow for the checkout process.  
+Options: `direct`.  
 
 ----------------
 __gateway_info__ | object
@@ -245,11 +245,7 @@ __gateway_info__ | object
 ----------------
 __issuer_id__ | integer
 
-The unique identifier of the [issuer](#gateway-issuers)   
-
-----------------
-
-See also [iDEAL](/payments/methods/banks/ideal).
+The unique identifier of the [issuer](#gateway-issuers).
 
 {{< /description >}}
 
