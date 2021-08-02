@@ -147,7 +147,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 10000,
-    "description": "Test Order Description",
+    "description": "Test order description",
 ...
     "payment_data": {
        "payload": "{secure_payload}"

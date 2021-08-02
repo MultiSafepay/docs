@@ -14,13 +14,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
  ```
 {{< /code-block >}}
 {{< description >}}
-## Second Chance
+## Second chance
 
-If the customer didn't finish the payment, you can send a reminder in the form of a payment link.
+If the customer didn't complete the payment, you can email a reminder containing a payment link.
 
-As per GDPR requirements, MultiSafepay does not submit emails by default. Please ensure that when enabling this option, there is a documented consent from the receiver for submitting an email related to the respective payment link.
+For more information and requirements, see [Second Chance](/payments/boost/second-chance/).
 
-It is possible to enable/disable the Second Chance message per transaction. The system uses the following rules:
+You can enable/disable Second Chance emails per transaction request. The system uses the following rules:
 
 (*) provided that the conditions above are fulfilled.
 
@@ -29,26 +29,27 @@ It is possible to enable/disable the Second Chance message per transaction. The 
 
 __second_chance__ | object
 
-Sends a payment reminder to the customer in the form of an email.
+Sends a reminder email to the customer containing a payment link.
 
 __send_email__ | boolean
 
-Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
+When set to:  
+
+- `true`, sends reminder emails.  
+- `false` or left empty, doesn't send reminder emails.   
 
 ----------------
 
-**Suppress Email Second Chance after cancellation**
+### Suppressing Second Chance emails after cancellation
 
-When a customer makes an order, goes to the checkout page but returns, and tries again, some webshops create a second order. If the second chance is on, the customer will receive emails for the first order, even when the second order is paid.
+When a customer plaes an order, goes to the checkout page, doesn't complete payment, but later returns and tries again, some webshops create a second order. If Second Chance emails are enabled, the customer still receives emails for the first order, even after they complete payment for the second order.
 
-Cancellation of the first order doesn't suppress the second chance email.
+Cancelling the first order doesn't suppress Second Chance emails.
 
-To suppress the second chance email you have to add these parameters in the update of the order:
+To suppress Second Chance emails, send a PATCH `/orders` request containing the following parameters:
 ``` 
 "status": "cancelled",
 "exclude_order": 1
 ```
 
-
-The full documentation can be found in the documentation [Second Chance](/payments/boost/second-chance/)
 {{% /description %}}

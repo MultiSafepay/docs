@@ -95,9 +95,11 @@ This API call allows you to retreive the order details while listing the recurri
 
 **Parameter**
 
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.     
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.   
 
 ----------------
 

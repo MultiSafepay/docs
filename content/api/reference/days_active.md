@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
 	"days_active": 30,
 	"seconds_active": 60,
-	"description": "Test Order Description",
+	"description": "Test order description",
 }
 ```
 {{< /code-block >}}
@@ -17,30 +17,35 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## days_active / seconds_active
 
-The days or seconds active indicates the lifetime of a payment link.
+The `days_active` and `seconds_active` parameters set the [lifetime of payment links](/developer/api/adjusting-payment-link-lifetimes).
 
-* If seconds_active is sent in the API request and larger than 0, then seconds_active will be used
-* If days_active is sent in the API request then days_active is used
-* If nothing is sent, then 30 days will be set by default
-* If both seconds_active and days_active are sent in the API request, then seconds_active is used if the value is larger than 0.
-
-The full documentation can be found on our FAQ page, [The lifetime of a payment link](/developer/api/adjusting-payment-link-lifetimes)
+- If `seconds_active` is set and larger than 0, then the `seconds_active` value determines the link lifetime.
+- If `days_active` is set, then the `days_active` value is used.
+- If neither parameter is set, the default is 30 days.
+- If both parameters are set, then the `seconds_active` value is used if larger than 0.
 
 **Parameters**
 
+----------------
+
 __days_active__ | string
 
-The number of days the payment link will be active for. Default is 30.
+The number of days to make the payment link active for.  
+Default: 30 days.
 
 ----------------
 __seconds_active__ | string
 
-The number of seconds the payment link will be active for. Default is 30 days.
+The number of seconds to make the payment link active for.  
+Default: 30 days.
 
 ----------------
+__description__ | string | required
 
-__description__ | string
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
+Format: Maximum 200 characters.  
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
-A text that can be added to the order. The text will be printed on the bank statement of the customer, within the limits of their bank. _Please note: MultiSafepay will remove all html tags and cut the remaining text at 200 charachters_
+----------------
 
 {{< /description >}}

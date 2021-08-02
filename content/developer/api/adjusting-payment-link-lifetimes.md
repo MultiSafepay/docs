@@ -18,7 +18,6 @@ If the customer attempts to complete the payment several times, each attempt is 
 
 You can also cancel payment links.
 
-
 # Adjusting lifetimes
 
 ### Bank transfers

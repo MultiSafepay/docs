@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "DIRDEB",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "DIRDEB",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -120,188 +120,156 @@ See also Payment methods – [SEPA Direct Debit](/payments/methods/banks/sepa-di
 
 ### Redirect
 
-- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
-
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.   
 Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `IDEAL`.
+Fixed value: `IDEAL`. 
 
 ----------------
-__recurring_id__ | string
-
-The unique identifier for processing subsequent payments if [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) are enabled in your MultiSafepay account.  
-In recurring payment requests, include in the `gateway_info` section of the request.
-
-----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-See also [notification_url](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__redirect_url__ | string
+__gateway_info__ | object
 
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
+The customer data (`issuer_id`) required for conducting credit checks.
 
-----------------
-__cancel_url__ | string
+Contains:
 
-The page the customer is redirected to if the payment fails.
+__account_id__ | string
 
-----------------
-__customer__ | object
+The international bank account number (IBAN) to be charged for the transaction.
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+__account_holder_name__ | string
 
-----------------
-__locale__ | string
+The name of the account holder to be charged for the transaction. 
 
-Displays the correct language and payment methods on the payment page, and influences sending email templates.  
-Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
-Default: `en_US`.
+__account_holder_iban__ | string
 
-----------------
-__close_window__ | bool (optional)
+The international bank account number (IBAN) to be charged for the transaction.
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
+__emandate__ | string
+
+The e-mandate (for your own adminstration).
+
+__recurring_id__ | string
+
+For [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) requests, the unique identifier for processing subsequent payments. 
 
 ----------------
 
 ### Direct 
 
-- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields, except `ip_address`.
-
 **Parameters**
 
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `DIRDEB`.
+Fixed value: `DIRDEB`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object
+__customer__ | object | required
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.    
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
+See [customer (object)](/api/#customer-object). 
 
 ----------------
 __gateway_info__ | object
 
-----------------
+The customer data (`issuer_id`) required for conducting credit checks.
+
+Contains:
+
 __account_id__ | string
 
 The international bank account number (IBAN) to be charged for the transaction.
 
-----------------
 __account_holder_name__ | string
 
 The name of the account holder to be charged for the transaction. 
 
-----------------
 __account_holder_iban__ | string
 
 The international bank account number (IBAN) to be charged for the transaction.
 
-----------------
 __emandate__ | string
 
 The e-mandate (for your own adminstration).
 
-----------------
-__ip_address__ | string
+__recurring_id__ | string
 
-The IP address of the customer.  
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
+For [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) requests, the unique identifier for processing subsequent payments. 
 
 ----------------
-__forwarded_ip__ | string
-
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/developer/api/validating-customer-ip-address)
 
 {{< /description >}}

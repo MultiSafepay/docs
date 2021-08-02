@@ -35,7 +35,7 @@ weight: 1352
 **Parameters**
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
@@ -70,9 +70,11 @@ __memo__ | string
 Add a short action text memo mentioning the shipping status of the order.     
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
-Your unique identifier for the order. If the values are only numbers the type will be integer, otherwise it will be string (max. 50 chars).
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
 

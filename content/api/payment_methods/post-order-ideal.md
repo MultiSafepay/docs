@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "IDEAL",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 1000,
     "gateway": "iDEAL",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "custom_info": {},
     "gateway_info": {
         "issuer_id": "0031"
@@ -100,7 +100,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "state": "NH",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -121,7 +121,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount": 1000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "1150001181473373",
         "payment_description": "iDEAL",
         "status": "initialized",
@@ -144,108 +144,82 @@ See also Payment methods – [iDEAL](/payments/methods/banks/ideal).
 
 ### Redirect
 
-- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order. Customers are redirected to a MultiSafepay payment page where they can to select iDEAL as a payment method.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
+Customers are redirected to a MultiSafepay payment page where they can select iDEAL as a payment method.
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `IDEAL`.
+Fixed value: `IDEAL`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency for the payment.  
 Fixed value: `EUR`.
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-See also [notification_url](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__redirect_url__ | string
+__customer__ | object | required
 
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
+See [customer (object)](/api/#customer-object).
 
 ----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
-Default: nl_NL 
-
-----------------    
+ 
 
 ### Direct
 
-- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order. Customers select iDEAL and the issuing bank on the checkout page, and are then directed to the **issuer's** payment page.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
+Customers select iDEAL and the issuing bank on the checkout page, and are then directed to the **issuer's** payment page.
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.  
 
 ----------------
-__gateway_info__ | object
+__gateway_info__ | object | required
 
-----------------
-__issuer_id__ | integer
+Contains:  
+
+__issuer_id__ | integer | required
 
 The unique identifier of the [issuer](#gateway-issuers).
+
+----------------
 
 {{< /description >}}
 

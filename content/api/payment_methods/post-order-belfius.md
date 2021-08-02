@@ -4,6 +4,8 @@ meta_title: "API Reference - Create Belfius order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
+
+> POST - /orders
 ```json
 
 {
@@ -12,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "BELFIUS",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -46,7 +48,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 1000,
     "gateway": "BELFIUS",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "custom_info": {},
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -66,7 +68,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "created": "2019-03-07T13:41:15",
         "currency": "EUR",
         "amount": 1000,
-        "description": "Test Order Description",
+        "description": "Test order description",
         "items": null,
         "amount_refunded":"0",
         "status": "initialized",
@@ -97,7 +99,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "costs": [
         {
             "transaction_id": 123456789
-            "description": "Test Order Description",
+            "description": "Test order description",
             "type": "BELFIUS",
             "amount": 1000,
             }
@@ -120,137 +122,106 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Belfius
 See also Payment methods – [Belfius](/payments/methods/banks/belfius).
-### Redirect 
 
-- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
+### Redirect 
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `BELFIUS`.
+Fixed value: `BELFIUS`.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.    
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__close_window__ | bool (optional)
+__customer__ | object | required
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
+See [customer (object)](/api/#customer-object).
 
----------------- 
+----------------
 
 ### Direct
 
-- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
-
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `BELFIUS`.
+Fixed value: `BELFIUS`.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.    
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-See also [notification_url](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__redirect_url__ | string
-
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
 
 {{< /description >}}

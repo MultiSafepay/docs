@@ -9,9 +9,9 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-## financial_status
+## financial_status (status)
 
-**Note:** In your MultiSafepay account, this is known as the [transaction status](/api/multisafepay-statuses/).
+**Note:** In your MultiSafepay account, this is known as the transaction status.
 
 Transactions can have the following `financial_status`:
 
@@ -24,5 +24,7 @@ Transactions can have the following `financial_status`:
 | Cancelled/Void        | You have cancelled the transaction and no funds will arrive.
 | Expired          | The customer didn't complete payment and the transaction expired. |
 | Reserved         | A [payout](/faq/general/multisafepay-glossary/#payout) or refund has been temporarily reserved while we check your MultiSafepay balance has sufficient funds. |
+
+For more information, see [About MultiSafepay statuses](/api/multisafepay-statuses/).
 
 {{% /description %}}

@@ -17,8 +17,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## custom_info
+## custom_info (object)
 
-custom_info is a 'placeholder' where the merchant can input specific data related to the transaction.
+A placeholder parameter where you can include specific details related to the transaction.
 
 {{< /description >}}

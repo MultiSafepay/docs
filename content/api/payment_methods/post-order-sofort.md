@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "DIRECTBANK",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "DIRECTBANK",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -115,7 +115,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "phone1": "0208500500",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -134,7 +134,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "account_id": 10071970,
         "amount": 9743,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "payment_description": "SOFORT Banking",
         "status": "initialized",
         "type": "DIRECTBANK"
@@ -157,131 +157,120 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 
 ## SOFORT
-### Redirect - SOFORT
-Creates a SOFORT [redirect](/developer/api/difference-between-direct-and-redirect) order.
 
-- All fields must be completed correctly.
+See also Payment methods – [SOFORT Banking](/payments/methods/banks/sofort-banking).
 
-- All of the following parameters are required fields.
+### Redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
-The payment flow for the checkout process. Options: `redirect`. |
+The payment flow for the checkout process.  
+Options: `redirect`. 
 
 ----------------
-__gateway__ | string
+__order_id__ | integer / string | required
+
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: DIRECTBANK.
+Fixed value: `DIRECTBANK`.
 
 ----------------
-__order_id__ | integer / string
-
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
-
-----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+For supported currencies, see [About SOFORT Banking](/payments/methods/banks/sofort-banking/about/).
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.     
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__close_window__ | bool (optional)
+__customer__ | object | required
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
+See [customer (object)](/api/#customer-object).
 
 ----------------
 
-See also [SOFORT Banking](/payments/methods/banks/sofort-banking).
-
-### Direct - SOFORT
-Creates a SOFORT [direct](/developer/api/difference-between-direct-and-redirect) order.
-
-- All fields must be completed correctly.
-
-- All of the following parameters are required fields.
+### Direct
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
-The payment flow for the checkout process.  Options: `direct`. |
+The payment flow for the checkout process.  
+Options: `direct`. 
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: DIRECTBANK.
+Fixed value: `DIRECTBANK`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+For supported currencies, see [About SOFORT Banking](/payments/methods/banks/sofort-banking/about/).
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__manual__ | string | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.   
+Fixed value: `false`.
 
 ----------------
+__payment_options__ | object | required
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+See [payment_options (object)](/api/#payment-options-object).
 
-See also [SOFORT Banking](/payments/methods/banks/sofort-banking).
+----------------
+__customer__ | object | required
 
+See [customer (object)](/api/#customer-object).   
+
+----------------
 
 {{< /description >}}

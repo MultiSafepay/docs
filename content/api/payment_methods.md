@@ -13,8 +13,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 &nbsp;  
 Use these payment method endpoints to [create orders](#orders).
 
+See also [Difference between direct and redirect orders](/developer/api/difference-between-direct-and-redirect).
+
+**Note:** All fields must be completed correctly.
+
 For any questions, email the Integration Team at <integration@multisafepay.com>
-
-
-**All of the following parameters are required fields.**
 {{% /description %}}

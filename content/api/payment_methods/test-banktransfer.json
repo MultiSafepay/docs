@@ -4,7 +4,7 @@
     "currency": "EUR",
     "amount": 1000,
     "gateway": "CREDITCARD",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
         "notification_url": " http://www.example.com/client/notification?type=notification",
         "redirect_url": " http://www.example.com/client/notification?type=redirect ",

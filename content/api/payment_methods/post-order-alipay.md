@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "ALIPAY",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "ALIPAY",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -85,7 +85,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "created": "2020-01-08T10:51:04",
         "currency": "EUR",
         "amount": 1000,
-        "description": "Test Order Description",
+        "description": "Test order description",
         "items": null,
         "amount_refunded": 0,
         "status": "initialized",
@@ -128,7 +128,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "account_id": "",
                     "amount": 1000,
                     "currency": "EUR",
-                    "description": "Test Order Description",
+                    "description": "Test order description",
                     "payment_description": "ALIPAY",
                     "status": "initialized",
                     "type": "ALIPAY"
@@ -143,129 +143,117 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Alipay
-See also [Alipay](/payments/methods/wallet/alipay).
+See also Payment methods – [Alipay](/payments/methods/wallet/alipay).
 
 ### Redirect
-- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
 
 **Parameters**
 
 ----------------
-__type__ | string
-
-The payment flow for the checkout process. Options: `redirect`, `direct`, `paymentlink`.
-
-----------------
-__order_id__ | integer / string
-
-Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
-
-----------------
-__gateway__ | string
-
-The unique gateway identifier to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `ALIPAY`. 
-
-----------------
-__currency__ | string
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-__amount__ | integer
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-__description__ | string
-
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-__payment_options__ | object
-
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-----------------
-__close_window__ | bool (optional)
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.    
-Options: `True`, `False`. 
-
-### Direct
-
-- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields, except `ip_address`.
-
-**Parameters**
-
-----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`, `direct`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: ALIPAY. 
+Fixed value: `ALIPAY`. 
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__ip_address__ | string
-
- The customer's IP address.  
- Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object
+__customer__ | object | required
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [customer (object)](/api/#customer-object).
+
+---------------- 
+
+### Direct
+
+**Parameters**
+
+----------------
+__type__ | string | required
+
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`, `paymentlink`.
+
+----------------
+__order_id__ | integer / string | required
+
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+__gateway__ | string | required
+
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `ALIPAY`. 
+
+----------------
+__currency__ | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+__amount__ | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+__description__ | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+__manual__ | string | required
+
+Fixed value: `false`.
+
+----------------
+__payment_options__ | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+__customer__ | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
 
 {{< /description >}}

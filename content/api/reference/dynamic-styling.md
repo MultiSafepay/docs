@@ -104,23 +104,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Dynamic Styling
+## Dynamic styling (template)
 
-This template can be added to your transaction request for dynamic styling of your payment page.
-
-Below you can find an explanation of the settings which can be included in the transaction request:
+To [dynamically style]((/payments/checkout/payment-pages/dynamic-styling-payment-pages/)) your payment page, include this template in your transaction request.
 
 | Setting                         | Description                  |
 |-----------------------------------|-------------------------------|
 | hide_logo                | Hides header logo                               | 
-| iframe_mode                        | Hides various sections e.g. logo, header                     |                 
+| iframe_mode                        | Hides various sections, e.g. logo, header                     |                 
 | hide_flags                       | Hides flags container                       |                
 | hide_powered                       | Hides powered link                     | 
 | hide_cart                       | Hides cart container                   |               
-| hide_btn_cancel                      | Hides button cancel                   |               
+| hide_btn_cancel                      | Hides **Cancel** button                   |               
 | hide_cc_logos                        | Hides credit card logos                   |                
-| hide_btn_all_methods                     | Hides all methods button               |                 
-
-See also [dynamic styling](https://docs.multisafepay.com/payments/checkout/payment-pages/dynamic-styling-payment-pages/) for a payment page.
+| hide_btn_all_methods                     | Hides **All methods** button               |                 
 
 {{< /description >}}

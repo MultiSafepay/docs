@@ -36,7 +36,7 @@ You can upload the files or documents via a POST `/order/{order_id}/files` reque
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process. Options: `chargeback`.
 

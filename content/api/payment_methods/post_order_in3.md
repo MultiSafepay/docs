@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 37485,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": "false",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -254,7 +254,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "phone1": "0612345678",
       "zip_code": "1039 SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": "<table border=\"0\" cellpadding=\"5\" width=\"100%\">\n<tr>\n<th width=\"10%\"><font size=\"2\" face=\"Verdana\">Aantal </font></th>\n<th align=\"left\"></th>\n<th align=\"left\"><font size=\"2\" face=\"Verdana\">Details </font></th>\n<th width=\"19%\" align=\"right\"><font size=\"2\" face=\"Verdana\">Prijs </font></th>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">3</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Geometric Candle Holders</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">90.00</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Nice apple</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">35.00</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Flat Rate - Fixed</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">10.00</font>\n</td>\n</tr>\n<tr bgcolor=\"#E9F1F7\">\n<td colspan=\"3\" align=\"right\"><font size=\"2\" face=\"Verdana\">BTW:</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">59.85</font>\n</td>\n</tr>\n<tr bgcolor=\"#E9F1F7\">\n<td colspan=\"3\" align=\"right\"><font size=\"2\" face=\"Verdana\">Totaal:</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">374.85</font>\n</td>\n</tr>\n</table>",
@@ -278,7 +278,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "account_id": "1970-07-10",
         "amount": 37485,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "34bfc928374rhjnf9368753da1",
         "payment_description": "in3",
         "status": "initialized",
@@ -359,7 +359,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 37485,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": "false",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -515,222 +515,182 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## in3
-See also [in3](/payments/methods/billing-suite/in3).
-### Direct
+See also Payment methods – [in3](/payments/methods/billing-suite/in3).
 
-- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order to be paid in installments.
-- Direct transaction requires all fields completed properly
-- All of the following parameters are required fields.
+### Direct
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
-The payment flow for the checkout process. Options: `redirect`, `direct`.
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: `IN3`. 
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `IN3`. 
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__manual__ | string | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url). 
+Fixed value: `false`.
 
 ----------------
-__customer__ | object
+__payment_options__ | object | required
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [payment_options (object)](/api/#payment-options-object). 
+
+----------------
+__customer__ | object | required
+
+See [customer (object)](/api/#customer-object).
 
 ----------------
 __delivery__ | object
 
-The delivery information for the shipment.  
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-----------------
-
-__shopping_cart__ | object
-
-All items in the shopping cart, including the tax class.   
-If you have a custom integration, include the complete specification of the `shopping_cart`. 
-
-----------------
-
-__items__ | object
-
-A specification of the order items to display on the checkout page.  
-For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
-
-----------------
-
-__checkout_options__ | object
-
-The definitions for the VAT class.
+See [delivery (object)](/api/#delivery-object).
 
 ----------------
 __gateway_info__ | object
 
-Contains the `issuer_id`.
+The customer data (`issuer_id`) required for conducting credit checks.
 
-----------------
+Contains:  
+
 __birthday__ | object
 
 The customer's date of birth.  
-Required for credit checks in: DE, NL, DK, BE, AT  
-Optional: CH, NO, FI, SE  
+Required for credit checks in: DE, NL, DK, BE, AT. 
+Optional: CH, NO, FI, SE.
 Format: yyyy-mm-dd.
 
-----------------
+__gender__ | string
+
+The customer's personal title.  
+Options: `mr`, `mrs`, `miss`. 
+
 __phone__ | string
 
 The customer's phone number.  
 Required for credit checks and to contact the customer in case of non-payment.
 
 ----------------
-__email__ | string
-
-The email address for sending payment instructions to the customer.
-
-----------------
-__gender__ | string
-
-The customer's personal title. Options: `mr`, `mrs`, `miss`. 
-
-----------------
-__ip_address__ | string
-
- The IP address of the customer.  
- Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
-
-----------------
-__forwarded_ip__ | string
-
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
-
-----------------
-
-### Redirect - in3
-
-Creates an in3 [redirect](/developer/api/difference-between-direct-and-redirect) order to be paid in installments.
-
-- All fields must be completed correctly.
-
-- All of the following parameters are required fields.
-
-**Parameters**
-
-----------------
-__type__ | string
-
-The payment flow for the checkout process. Options: `redirect`, `direct`.
-
-----------------
-__gateway__ | string
-
-The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: IN3. 
-
-----------------
-__order_id__ | integer / string
-
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
-
-----------------
-__currency__ | string
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-__amount__ | integer
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-__description__ | string
-
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-__payment_options__ | object
-
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-----------------
-__delivery__ | object
-
-The delivery information for the shipment.  
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-----------------
-
 __shopping_cart__ | object
 
-All items in the shopping cart, including the tax class.   
-If you have a custom integration, include the complete specification of the `shopping_cart`. 
+See [shopping_cart.items (object)](/api/#shopping_cartitems). 
 
 ----------------
-
 __items__ | object
 
-A specification of the order items to display on the checkout page.  
-For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
+See [items (object)](/api/#items-object/).
 
 ----------------
-
 __checkout_options__ | object
 
 The definitions for the VAT class.
 
 ----------------
-__ip_address__ | string
 
- The IP address of the customer.  
- Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
+### Redirect
+
+**Parameters**
 
 ----------------
-__forwarded_ip__ | string
+__type__ | string | required
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
+
+----------------
+__gateway__ | string | required
+
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `IN3`. 
+
+----------------
+__order_id__ | integer / string | required
+
+Your unique identifier for the order.   
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+__currency__ | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+__amount__ | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+__description__ | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+__payment_options__ | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+__customer__ | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+__delivery__ | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+__shopping_cart__ | object
+
+See [shopping_cart.items (object)](/api/#shopping_cartitems). 
+
+----------------
+__items__ | object
+
+See [items (object)](/api/#items-object/).
+
+----------------
+__checkout_options__ | object
+
+The definitions for the VAT class.
+
+----------------
 
 {{< /description >}}

@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "INGHOME",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -38,7 +38,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "created": "2019-03-11T14:35:13",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "items": null,
     "amount_refunded": 0,
     "status": "initialized",
@@ -115,123 +115,113 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## ING Home'Pay
-### Direct - ING Home'Pay
+See also Payment methods – [ING Home'Pay](/payments/methods/banks/ing-home-pay).
 
-Creates an ING Home'Pay [direct](/developer/api/difference-between-direct-and-redirect) order.
+### Direct
 
-- All fields must be completed correctly.
-
-- All of the following parameters are required fields.
-
-  
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
-The payment flow for the checkout process. Options: `direct`, `redirect`, `paymentlink`.  
-
-----------------
-__gateway__ | string
-
-The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: INGHOME.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
-__order_id__ | integer / string
+__gateway__ | string | required
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `INGHOME`.
 
 ----------------
-__currency__ | string
+__order_id__ | integer / string | required
+
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------    
-__customer__ | object
+__customer__ | object | required
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [customer (object)](/api/#customer-object).
 
 ----------------  
 
-__close_window__ | bool (optional)
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
-
-----------------
-
-See also [ING Home'Pay](/payments/methods/banks/ing-home-pay).
-
-### Redirect - ING Home'Pay
-Creates an ING Home'Pay [redirect](/developer/api/difference-between-direct-and-redirect) order.
-
-- All fields must be completed correctly.
-
-- All of the following parameters are required fields.
+### Redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
-The payment flow for the checkout process. Options: `direct`, `redirect`, `paymentlink`.  
-
-----------------
-__gateway__ | string
-
-The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). Options: INGHOME.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
-__order_id__ | integer / string
+__gateway__ | string | required
 
-Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `INGHOME`.
 
 ----------------
-__currency__ | string
+__order_id__ | integer / string | required
+
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
-----------------    
+----------------
+__custom_info__ | object
+
+See [custom_info (object)](/api/#custom_info).
+
+----------------
 
 
-See also [ING Home'Pay](/payments/methods/banks/ing-home-pay).
 {{< /description >}}

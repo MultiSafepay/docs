@@ -87,7 +87,9 @@ weight: 1371
 ----------------
 __order_id__ | string / integer
 
- Your unique identifier for the order. If the values are numbers only, the type is `integer`. Otherwise, it is `string`. Required. (max. 50 chars).
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
 

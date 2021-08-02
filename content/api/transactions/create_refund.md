@@ -35,23 +35,24 @@ Total or partial refund of an order
 **Parameters**
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
-The order_id of the order you want to refund.
-
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency to process the refund in. This must be the same as the original transaction.  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) to be refunded. **Please be aware that** an amount of 0 (zero) will trigger a full refund! This can be used when the current balance of a transaction is unknown.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
 A description to be displayed with the transaction in your MultiSafepay account. If supported by the customers bank this description will be displayed on the customers bank statement.
 

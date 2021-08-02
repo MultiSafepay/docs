@@ -22,33 +22,38 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## payment_options (object)
 
+URLs for sending notifications to, or to redirect customers to.
+
+Contains:  
 
 **Parameters**
 
-__notification_url__ | string
+__notification_url__ | string | required
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-See also [notification_url](/developer/api/notification-url).              
+For more information, see [notification_url](/developer/api/notification-url).              
 
 ----------------
-__redirect_url__ | string
+__redirect_url__ | string | required
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              
+The page the customer is redirected to after completing payment.   
+If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
+**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.              
 
 ----------------
-__cancel_url__ | string
+__cancel_url__ | string | required
 
 The page the customer is redirected to if the payment fails. 
 
 ----------------
 __notification_method__ | string
 
-Enables push notifications (POST,GET) default: GET.   
+Enables push notifications.  
+Options: `POST`, `GET`.  
+Default: `GET`.   
 
 ----------------
-
-__close_window__ | bool (optional)
-
+__close_window__ | bool | optional
 
 To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
 Options: `True`, `False`. 

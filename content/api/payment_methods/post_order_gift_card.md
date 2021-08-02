@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "VVVGIFTCRD",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/json-live/notification?type=notification",
@@ -48,131 +48,84 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Gift cards
 
-See also [Gift cards](/payments/methods/prepaid-cards/gift-cards).
-
-- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
+- See also Payment methods – [Gift cards](/payments/methods/prepaid-cards/gift-cards).  
+- Redirect only.
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
-The payment flow for the checkout process. Options: `redirect`.  
+The payment flow for the checkout process.  
+Options: `redirect`.  
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
 **Note:** We only preselect the gift card supplied in the gateway.  
 
-| Gift card  | Gateway    |             
-|---|---|
-| Baby Cadeaubon                 | BABYCAD                     |  
-| Beautyandwellness              | BEAUTYWELL                  |  
-| Bloemencadeaukaart             | BLOEMENCAD                  |  
-| Boekenbon                      | BOEKENBON                   |  
-| Degrotespeelgoedwinkel         | DEGROTESPL                  |   
-| Fashioncheque                  | FASHIONCHQ                  |  
-| Fashiongiftcard                | FASHIONGFT                  |  
-| Fietsenbon                     | FIETSENBON                  |  
-| Good4fun                       | GOOD4FUN                    |  
-| Gezondheidsbon                 | GEZONDHEID                  |  
-| Nationale bioscoopbon          | NATNLBIOSC                  |   
-| Nationaletuinbon               | NATNLETUIN                  |  
-| Parfumcadeaukaart              | PARFUMCADE                  |   
-| Sportenfit                     | SPORTENFIT                  |   
-| Vuur & rook gift card          | VRGIFTCARD                  |   
-| VVV Cadeaukaart                | VVVGIFTCRD                  |  
-| Webshopgiftcard                | WEBSHOPGFT                  |  
-| Wijncadeau                     | WIJNCADEAU                  |   
-| Yourgift                       | YOURGIFT                    | 
+Baby Cadeaubon= BABYCAD  
+Beautyandwellness= BEAUTYWELL  
+Bloemencadeaukaart= BLOEMENCAD  
+Boekenbon= BOEKENBON  
+Degrotespeelgoedwinkel= DEGROTESPL  
+Fashioncheque= FASHIONCHQ  
+Fashiongiftcard= FASHIONGFT  
+Fietsenbon= FIETSENBON  
+Good4fun= GOOD4FUN     
+Gezondheidsbon= GEZONDHEID   
+Nationale bioscoopbon= NATNLBIOSC      
+Nationaletuinbon= NATNLETUIN    
+Parfumcadeaukaart= PARFUMCADE   
+Sportenfit= SPORTENFIT    
+Vuur & rook gift card= VRGIFTCARD    
+VVV Cadeaukaart= VVVGIFTCRD   
+Webshopgiftcard= WEBSHOPGFT  
+Wijncadeau= WIJNCADEAU      
+Yourgift= YOURGIFT     
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__manual__ | string | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
-
-----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-See also [notification_url](/developer/api/notification-url).
+Fixed value: `false`.
 
 ----------------
-__redirect_url__ | string
+__payment_options__ | object | required
 
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__cancel_url__ | string
+__customer__ | object | required
 
-The page the customer is redirected to if the payment fails.
-
-----------------
-__customer__ | object
-
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [customer (object)](/api/#customer-object).
 
 ----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).  
-Default: nl_NL 
-
-----------------    
-__ip_address__ | string
-
-The customer's IP address.   
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments. 
-
----------------- 
-__country__ | string
-
-The customer’s country of residence.   
-Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).
-
----------------- 
-__email__ | string
-
-The customer’s email address.   
-Used to send Second Chance emails and to conduct fraud checks.  
-
----------------- 
-
-__close_window__ | bool (optional)
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
 
 {{< /description >}}

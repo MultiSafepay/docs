@@ -33,11 +33,11 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 
 {{< details title="Emailing payment instructions yourself" >}}
 
-To email the payment instructions to the customer yourself, in your POST `/orders` API request, set the `disable_send_email` parameter to `false`. 
+If emailing your own payment instructions to the customer, in your POST `/orders` API request, set the `disable_send_email` parameter to `true`. 
 
 This prevents MultiSafepay emailing the customer.
 
-For more information, see API Reference – [Direct bank transfer](/api/#direct-bank-transfer).
+For more information, see API Reference – [Bank Transfer: Direct](/api/#direct-bank-transfer).
 
 {{< /details >}}
 

@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 26000,
-    "description": "Test Order Description", 
+    "description": "Test order description", 
     "items": "",
     "manual": false,
     "gateway_info": {
@@ -89,7 +89,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "created": "2017-09-29T16:13:10",
         "currency": "EUR",
         "amount": 26000,
-        "description": "Test Order Description",
+        "description": "Test order description",
         "items": "",
         "amount_refunded": 0,
         "status": "completed",
@@ -180,7 +180,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 26000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "gateway_info": {
         "email": "example@multisafepay.com"
@@ -253,83 +253,72 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## E-Invoicing
 See also Payment methods – [E-Invoicing](/payments/methods/billing-suite/e-invoicing).
-### Direct
 
-- Creates a [direct](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields.
+### Direct
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`.  
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `EINVOICE`.
+Fixed value: `EINVOICE`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object
+__customer__ | object | required
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.   
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.  
+See [customer (object)](/api/#customer-object).  
 
 ----------------
 __delivery__ | object
 
-The delivery information for the shipment. 
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [delivery (object)](/api/#delivery-object).
 
 ----------------
 __shopping_cart__ | object
 
-All items in the shopping cart, including the tax class.   
-If you have a custom integration, include the complete specification of the `shopping_cart`.
-
-**Note:** For the `shopping_cart` to function correctly, the shipment item requires a `merchant_item_id` parameter with the value `msp-shipping`.
+See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
 __items__ | object
-
-A specification of the order items to display on the checkout page.  
-For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
+ 
+See [items (object)](/api/#items-object/).
 
 ----------------
 __checkout_options__ | object
@@ -339,127 +328,96 @@ The definitions for the VAT class.
 ----------------
 __gateway_info__ | object
 
-Contains the `issuer_id`.                                                                
+The customer data (`issuer_id`) required for conducting credit checks.                                                                
 
-----------------
+Contains:  
+
 __birthday__ | string
 
 The customer's date of birth.  
 Format: yyyy-mm-dd.                             
 
-----------------
 __bank_account__ | string
 
 The customer's (formatted) international bank account number (IBAN).  
 This is required for credit checks. 
 
-----------------
 __phone__ | string
 
 The customer's phone number.  
 Required for credit checks and to contact the customer in case of non-payment. 
 
-----------------
 __email__ | string
 
 The email address for sending payment instructions to the customer.  
 
 ----------------
-__ip_address__ | string
-
-The IP address of the customer.  
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.      
-
-----------------
-__forwarded_ip__ | string
-
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy.  
-For more information, see [Validating customer IP addresses](/developer/api/validating-customer-ip-address).
-
-----------------
-__close_window__ | bool (optional)
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
-
 
 ### Redirect
-
-- Creates a [redirect](/developer/api/difference-between-direct-and-redirect) order.
-- All fields must be completed correctly.
-- All of the following parameters are required fields, except `ip_address`.
 
 **Parameters**
 
 ----------------
-__type__ | string
+__type__ | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`.  
 
 ----------------
-__gateway__ | string
+__gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Options: `EINVOICE`.
+Fixed value: `EINVOICE`.
 
 ----------------
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string
+__currency__ | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer
+__amount__ | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string
+__description__ | string | required
 
-Text that appears with the order in your MultiSafepay account and on the customer's bank statment (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
-HTML is not supported. Use the `items` or `shopping_cart` objects for this.
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object
+__payment_options__ | object | required
 
-Contains the `redirect_url`, `cancel_url`, and [`notification_url`](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object
+__customer__ | object | required
 
-The customer's personal information.   
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.    
+See [customer (object)](/api/#customer-object).    
 
 ----------------
 __delivery__ | object
 
-The delivery information for the shipment.  
-Format: Minimum two characters for the `first_name` and `last_name`.  
-We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
+See [delivery (object)](/api/#delivery-object).
 
 ----------------
 __shopping_cart__ | object
 
-All items in the shopping cart, including the tax class.   
-If you have a custom integration, include the complete specification of the `shopping_cart`.
-
-**Note:** For the `shopping_cart` to function correctly, the shipment item requires a `merchant_item_id` parameter with the value `msp-shipping`.
+See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
 __items__ | object
-
-A specification of the order items to display on the checkout page.  
-For descriptions of these parameters, see [shopping_cart.items](/api/#shopping-cart-items).
+  
+See [items (object)](/api/#items-object/).
 
 ----------------
 __checkout_options__ | object
@@ -469,22 +427,29 @@ The definitions for the VAT class.
 ----------------
 __gateway_info__ | object
 
-Contains the `issuer_id`.                                                                
+The customer data (`issuer_id`) required for conducting credit checks.                                                                
 
-----------------
+Contains:  
+
+__birthday__ | string
+
+The customer's date of birth.  
+Format: yyyy-mm-dd.                             
+
+__bank_account__ | string
+
+The customer's (formatted) international bank account number (IBAN).  
+This is required for credit checks. 
+
+__phone__ | string
+
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment. 
+
 __email__ | string
 
 The email address for sending payment instructions to the customer.  
 
 ----------------
-__ip_address__ | string
-
-The IP address of the customer.  
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.      
-
-----------------
-__forwarded_ip__ | string
-
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [Validating customer IP addresses](/developer/api/validating-customer-ip-address).
 
 {{< /description >}}

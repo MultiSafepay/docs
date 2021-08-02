@@ -18,7 +18,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "created": "2019-03-01T16:12:47",
     "currency": "EUR",
     "amount": 200,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "var1": null,
     "var2": null,
     "var3": null,
@@ -91,7 +91,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "amount": 200,
         "card_expiry_date": 1904,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": 906015000050,
         "last4": 1234,
         "payment_description": "Visa",
@@ -112,11 +112,10 @@ Retrieve the status of and information about a specific order. The structure may
 **Parameters**
 
 ----------------
-
-__order_id__ | integer / string
+__order_id__ | integer / string | required
 
 The unique identifier of the requested order.  
-If the values are numbers only, the type is integer. Otherwise, the type is string.                                      
-
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.                                      
+Format: Maximum 50 characters.
 
 {{% /description %}}
