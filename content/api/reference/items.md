@@ -1,5 +1,5 @@
 ---
-weight: 610
+weight: 605
 meta_title: "API Reference - items (object) - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -24,8 +24,11 @@ If you want to specify the items in the order without including a full [`shoppin
 
 **Parameter**
 
-__items__ | object
+----------------
+__items__ | object | required
 
-A specification of the order items to display on your checkout page.               
+A specification of the order items to display on your checkout page. 
+
+----------------
 
 {{% /description %}}

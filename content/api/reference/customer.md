@@ -38,6 +38,7 @@ Contains:
 
 **Parameters**
 
+----------------
 __locale__ | string | required
 
 Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
@@ -97,7 +98,7 @@ The customer's city of residence.
 __country__ | string | required
 
 The customer’s country of residence.   
-Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).
+Format: [ISO 3166-1 country code](https://www.iso.org/iso-3166-country-codes.html).
 
 __phone__ | string | required
 
@@ -115,5 +116,11 @@ A characteristic string that identifies a browser.
 __referrer__ | string | required
 
 The unique identifier of where the user/browser originates from.
+
+__reference__ | string | For tokenization transactions: required
+
+See [Create token transaction](/api/#create-token-transaction).
+
+----------------
 
 {{% /description %}}

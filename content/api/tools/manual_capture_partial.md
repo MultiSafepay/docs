@@ -1,5 +1,5 @@
 ---
-weight: 1351
+weight: 1352
 ---
 {{< code-block >}}
 
@@ -16,7 +16,7 @@ weight: 1351
  "memo": ""
 }
 ```
-> JSON Response
+> JSON response
 
 
 ```json
@@ -30,7 +30,7 @@ weight: 1351
 ```
 {{< /code-block >}}
 {{< description >}}
-### Partial Capture
+### Partial capture
 
 
 **Parameter**

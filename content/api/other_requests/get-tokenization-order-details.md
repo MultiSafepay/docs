@@ -1,14 +1,16 @@
 ---
-weight: 605
-meta_title: "API Reference - Tokenization - Get order details - MultiSafepay Docs"
+weight: 543
+meta_title: "API Reference - Retrieve tokenization order details - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#get-order-details
 ---
 
 {{< code-block >}}
 
 > GET - /orders/{order_id}
 
-> JSON Response
+> JSON response
 ```json
 {
     "success": true,
@@ -87,14 +89,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-###  Get order details 
+### Retrieve order details 
 
-This API call allows you to retreive the order details while listing the recurring id and recurring model.
-
-- All of the following parameters are required fields.
+Retreive details about a [tokenization](/payments/features/tokenization) order.
 
 **Parameter**
 
+----------------
 __order_id__ | integer / string | required
 
 Your unique identifier for the order.  
@@ -102,7 +103,5 @@ If the values are numbers only, the type is `integer`. Otherwise, it is `string`
 Format: Maximum 50 characters.   
 
 ----------------
-
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
 
 {{< /description >}}

@@ -1,7 +1,10 @@
 ---
-weight: 650
-meta_title: "API Reference - Dynamic Styling - MultiSafepay Docs"
+weight: 608
+meta_title: "API Reference - settings (object) - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases: 
+    - /api/#dynamic-styling-template
+url: '/api/#settings-object/'
 ---
 {{< code-block >}}
 
@@ -104,19 +107,45 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Dynamic styling (template)
+## settings (object)
 
-To [dynamically style]((/payments/checkout/payment-pages/dynamic-styling-payment-pages/)) your payment page, include this template in your transaction request.
+Contains:  
 
-| Setting                         | Description                  |
-|-----------------------------------|-------------------------------|
-| hide_logo                | Hides header logo                               | 
-| iframe_mode                        | Hides various sections, e.g. logo, header                     |                 
-| hide_flags                       | Hides flags container                       |                
-| hide_powered                       | Hides powered link                     | 
-| hide_cart                       | Hides cart container                   |               
-| hide_btn_cancel                      | Hides **Cancel** button                   |               
-| hide_cc_logos                        | Hides credit card logos                   |                
-| hide_btn_all_methods                     | Hides **All methods** button               |                 
+**Parameters**
+
+----------------
+__hide_logo__ | boolean | optional
+
+Hides header logo
+
+__iframe_mode__ | boolean | optional
+
+Hides various sections, e.g. logo, header
+
+__hide_flags__ | boolean | optional
+
+Hides flags container.
+
+__hide_powered__ | boolean | optional
+
+Hides powered link.
+
+__hide_cart__ | boolean | optional
+
+Hides cart container.
+
+__hide_btn_cancel__ | boolean | optional
+
+Hides **Cancel** button.
+
+__hide_cc_logos__ | boolean | optional
+
+Hides credit card logos.
+
+__hide_btn_all_methods__ | boolean | optional
+
+Hides **All methods** button.
+
+----------------             
 
 {{< /description >}}

@@ -29,7 +29,7 @@ weight: 1350
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -42,7 +42,7 @@ weight: 1350
 ```
 {{< /code-block >}}
 {{< description >}}
-## Manual Capture Authorization
+## Manual capture authorization
 
 Manual Capture is a feature that allows payments to be captured once an order has been shipped or received. The API calls mandate whether a transaction should be captured partially or fully, as well as the authorization and cancellation of the transaction.
 

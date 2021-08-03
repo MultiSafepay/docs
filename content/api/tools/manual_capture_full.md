@@ -1,5 +1,5 @@
 ---
-weight: 1352
+weight: 1351
 ---
 {{< code-block >}}
 
@@ -16,7 +16,7 @@ weight: 1352
  "memo": ""
 }
 ```
-> JSON Response
+> JSON response
 
 
 ```json
@@ -30,7 +30,7 @@ weight: 1352
 ```
 {{< /code-block >}}
 {{< description >}}
-### Full Capture
+### Full capture
 
 **Parameters**
 
@@ -42,12 +42,13 @@ The amount (in cents) the customer needs to pay.
 ----------------
 __new_order_id__ | integer / string
 
-The unique identifier from your system for the order (max. 50 chars).    
+Your unique identifier for the order.  
+Format: Maximum 50 characters.    
 
 ----------------
 __new_order_status__ | string
 
-The current status of the order. 
+The updated status of the order. 
 
 ----------------
 __invoice_id__ | integer / string

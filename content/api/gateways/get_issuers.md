@@ -8,7 +8,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > GET - /issuers{gateway}
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -75,7 +75,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-
 __code__ | string
 
 The unique identifier of the payment gateway you want to retrieve a list of issuers for.  

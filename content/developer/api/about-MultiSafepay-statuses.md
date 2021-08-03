@@ -15,11 +15,11 @@ There are two statuses in your [MultiSafepay account](https://merchant.multisafe
 
 **Order status**  
 The progression of the customer's order with you, independent of the payment, e.g. whether you have shipped the items.   
-API attribute: [`status`](/api/#status)
+API attribute: `status`
 
 **Transaction status**  
 The progression towards settling the funds in your MultiSafepay balance.  
-API attribute: [`financial_status`](/api/#financial_status)
+API attribute: `financial_status`
 
 Statuses are also valuable for understanding [reports](/business/accounting/reports/).
 

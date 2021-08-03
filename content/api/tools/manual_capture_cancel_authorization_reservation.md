@@ -1,5 +1,9 @@
 ---
 weight: 1355
+meta_title: "API Reference - Cancel an authorized or reserved transaction - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#cancel-authorization--reservation
 ---
 {{< code-block >}}
 
@@ -11,7 +15,7 @@ weight: 1355
  "reason": "cancel reservation note text"
 }
 ```
-> JSON Response
+> JSON response
 
 
 ```json
@@ -24,7 +28,7 @@ weight: 1355
 ```
 {{< /code-block >}}
 {{< description >}}
-### Cancel Authorization / Reservation
+### Cancel an authorized or reserved transaction
 
 **Parameters**
 

@@ -1,5 +1,5 @@
 ---
-weight: 230
+weight: 240
 meta_title: "API Reference - Recurring payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -66,18 +66,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 You can initiate [recurring payments](/payments/features/recurring-payments/) using [tokenization](/payments/features/tokenization/) for the following payment methods:
 
-* VISA
-* MasterCard
-* Maestro
-* Bancontact
-* American Express
-* iDEAL
-* SOFORT
-* Direct debit
+- VISA
+- MasterCard
+- Maestro
+- Bancontact
+- American Express
+- iDEAL
+- SOFORT
+- Direct debit
 
 Customers can make the initial payment using iDEAL, Bancontact, or SOFORT, followed by recurring payments using SEPA Direct Debit. 
 
-### Processing recurring payments
+To process recurring payments:
 
 1. Submit a standard transaction request with recurring payments enabled. 
 2. Request the token by [retreiving the order](https://docs.multisafepay.com/api/#retrieve-an-order).
@@ -86,7 +86,6 @@ Customers can make the initial payment using iDEAL, Bancontact, or SOFORT, follo
 **Parameters**
 
 ----------------
-
 __type__ | string | required
 
 The payment flow for the checkout process.  
@@ -96,8 +95,8 @@ Options: `direct`.
 __gateway__ | string | required
 
 The payment method used for the checkout process.  
-Options: AMEX, DIRDEB, MASTERCARD, VISA.  
-Use DIRDEB when the initial payment was made using IDEAL, DIRECTBANK (Sofort) and DIRDEB. 
+Options: `AMEX`, `DIRDEB`, `MASTERCARD`, `VISA`.  
+Use DIRDEB when the initial payment was made using iDEAL, SOFORT, or SEPA Direct Debit. 
 
 ----------------
 __order_id__ | integer / string | required
@@ -107,25 +106,23 @@ If the values are numbers only, the type is `integer`. Otherwise, it is `string`
 Format: Maximum 50 characters.
 
 ----------------
-__recurring_id__ | integer
+__recurring_id__ | integer | required
 
 The unique identifier for the recurring payment.
 
 ----------------
-__recurring_flow__ | string
+__recurring_flow__ | string | required
 
 The tokenization method used to create the recurring payment.  
 Options: `token`
 
 ----------------
+__recurring_model__ | string | required
 
-__recurring_model__ | string
-
-The type of recurring method used in the transaction request.  
+The recurring model.  
 Options: `unscheduled`, `subscription`, `cardonfile`.
 
 ----------------
-
 __currency__ | string | required
 
 The currency you want the customer to pay in.  
@@ -149,36 +146,15 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
-
-----------------
 __notification_method__ | string
 
 Sends push notification.  
 Options: `POST`, `GET`. Default: `GET`.
 
 ----------------
-__redirect_url__ | string
+__customer__ | object | required
 
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
-
-----------------
-
-__close_window__ | bool | optional
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`.   
+See [customer (object)](/api/#customer-object).
 
 ----------------
 

@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > GET - /gateways
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -28,13 +28,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 **Parameters**
 
----
-
-__include__ | string
+----------------
+__include__ | string | optional
 
 Additional payment methods you want to specify.  
-Format: Comma delimited. Optional.
+Format: Comma delimited.
 
+----------------
 __Options:__ coupons
 
 ----------------

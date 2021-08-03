@@ -1,7 +1,8 @@
 ---
-weight: 220
+weight: 210
 meta_title: "API Reference - Create a direct order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+url: '/api/create-direct-order/'
 ---
 
 {{< code-block >}}
@@ -27,7 +28,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -100,14 +101,13 @@ ALIPAY, BANKTRANS, BELFIUS, CBC, CREDITCARD, DIRDEB, DIRECTBANK, EINVOICE, IDEAL
 
 For additional **required** information, see the relevant [payment method](/api/#payment-methods).
 
-
 **Parameters**
 
 ----------------
-
 __type__ | string | required
 
-The payment flow for the checkout process. Options: `direct`.
+The payment flow for the checkout process.  
+Options: `direct`.
 
 ----------------
 __order_id__ | integer / string | required
@@ -143,8 +143,9 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 __gateway_info__ | object
 
-----------------
-__issuer_id__ | string
+Contains:  
+
+__issuer_id__ | string | required
 
 The unique identifier of the gateway issuer.  
 To retrieve issuer IDs, see [Retrieve gateway issuers](/api/#gateway-issuers).
@@ -155,37 +156,5 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.  
-For more information, see [notification_url](/developer/api/notification-url).
-
-----------------
-__notification_method__ | string
-
-Sends push notification.  
-Options: `POST`, `GET`. Default: `GET`.
-
-----------------
-__redirect_url__ | string
-
-The page the customer is redirected to after completing payment.  
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.  
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
-
-----------------
-
-__close_window__ | bool | optional
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.  
-Options: `True`, `False`.  
-
-----------------
-
 
 {{< /description >}}

@@ -1,15 +1,15 @@
 ---
-weight: 510
+weight: 520
 meta_title: "API Reference - Retrieve website categories - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
-    - /api/#categories
+    - /api/#retrieve-website-categories
 ---
 {{< code-block >}}
 > GET - /categories
 
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -26,5 +26,5 @@ aliases:
 
 {{< description >}}
 ## Retrieve website categories
-Retrieve a list of website categories.
+Retrieves a list of website categories.
 {{% /description %}}

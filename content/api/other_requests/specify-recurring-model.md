@@ -1,7 +1,9 @@
 ---
-weight: 604
-meta_title: "API Reference - Tokenization - Original transaction - MultiSafepay Docs"
+weight: 546
+meta_title: "API Reference - Specify recurring model - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#original-tokenization-transaction
 ---
 
 {{< code-block >}}
@@ -61,33 +63,27 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-### Original Tokenization transaction
+### Specify recurring model
 
-This API call allows you to create an original order using a specific recurring model.
+Create an original [tokenization](/payments/features/tokenization) order using a specific recurring model:
 
-MultiSafepay offers the following recurring models: 
-
-1. __Card on file (COF)__: transaction where a cardholder authorized a merchant to store the cardholder's details 
-
-2. __Subscription__: agreement or services that are billed at the end of a merchant’s billing cycle
-
-3. __Unscheduled__: event triggered for application (for example a mobile top up when no credit is left on the phone)
-
-
-
-
-- All of the following parameters are required fields.
+- **Card on file (COF)**: The cardholder has authorized you to store their card details.
+- **Subscription**: Agreement or services that are billed at the end of your billing cycle.
+- **Unscheduled**: Event triggered for application, e.g. a mobile top-up when no credit is left on the phone.
 
 **Parameters**
 
+----------------
 __type__ | string | required
 
-The payment flow for the checkout process. Options: `direct`, `redirect`.     
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`.     
 
 ----------------
 __gateway__ | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method. To retrieve gateway IDs, see [Gateways](/api/#gateways). E.g. CREDITCARD.
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
 __order_id__ | integer / string | required
@@ -103,9 +99,10 @@ The currency you want the customer to pay in.
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__recurring_model__ | string
+__recurring_model__ | string | required
 
-The function of the recurring model e.g. Card on file, Subscription, Unscheduled.
+The recurring model.  
+Options: `unscheduled`, `subscription`, `cardonfile`.
 
 ----------------
 __amount__ | integer | required
@@ -115,7 +112,9 @@ The amount (in cents) the customer needs to pay.
 ----------------
 __description__ | string | required
 
-A text which will be shown with the order in your MultiSafepay account. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is **not** supported. Use the ‘items’ or ‘shopping_cart’ objects for this.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
+Format: Maximum 200 characters.  
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object | required
@@ -123,35 +122,11 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).                                
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails. 
-
-----------------
 __customer__ | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
 
-__close_window__ | bool | optional
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
-
-----------------
 
 {{< /description >}}

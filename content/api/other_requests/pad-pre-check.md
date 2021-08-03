@@ -1,7 +1,9 @@
 ---
-weight: 220
+weight: 510
 meta_title: "API Reference - Pay After Delivery pre-check - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#pay-after-delivery-pre-check
 ---
 
 {{< code-block >}}
@@ -154,7 +156,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -176,11 +178,9 @@ Submit data related to a Pay After Delivery order and customer for MultiSafepay 
 
 If not accepted, the customer must select another payment method to complete payment.
 
-
 **Parameters**
 
 ----------------
-
 __type__ | string | required
 
 The payment flow for the checkout process.  
@@ -233,43 +233,25 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
-
-----------------
-__redirect_url__ | string
-
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
-
-----------------
 __customer__ | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__delivery__ | object
+__delivery__ | object | required
 
 See [delivery (object)](/api/#delivery-object).
 
 ----------------
-
-__shopping_cart__ | object
+__shopping_cart__ | object | required – or use `items`
 
 See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
-
-__items__ | object
+__items__ | object | required – or use `shopping_cart`
 
 See [items (object)](/api/#items-object/).
+
+----------------
 
 {{< /description >}}

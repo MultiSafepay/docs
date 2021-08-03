@@ -1,5 +1,5 @@
 ---
-weight: 260
+weight: 250
 meta_title: "API Reference - Retrieve an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > GET - /orders/{order_id}
 
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -117,5 +117,7 @@ __order_id__ | integer / string | required
 The unique identifier of the requested order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.                                      
 Format: Maximum 50 characters.
+
+----------------
 
 {{% /description %}}

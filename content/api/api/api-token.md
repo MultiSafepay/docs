@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > GET - /auth/api_token/
 
-> JSON Response
+> JSON response
 ```json
 {
   "success": true,

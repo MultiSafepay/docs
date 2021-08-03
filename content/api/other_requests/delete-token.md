@@ -1,14 +1,17 @@
 ---
-weight: 609
-meta_title: "API Reference - Tokenization - Delete token - MultiSafepay Docs"
+weight: 542
+meta_title: "API Reference - Delete a token - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases: 
+    - /api/#delete-a-token
 ---
 
 {{< code-block >}}
 
-> DELETE - recurring/{your_customer_reference}/remove/{your_token}
+> DELETE - /recurring/{your_customer_reference}  
+/remove/{your_token}
 
-> JSON Response
+> JSON response
 ```json
 {
     "success": true,
@@ -24,15 +27,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Delete a token
 
-This API call allows you to delete a token related to a single customer reference.
-
-- All of the following parameters are required fields.
+Delete a token related to a single customer reference.
 
 **Parameter**
 
-__token__ | string
+----------------
+__token__ | string | required
 
-The unique token linked to the customer reference.  
+The unique token identifier linked to the customer reference.  
 
 ----------------
 

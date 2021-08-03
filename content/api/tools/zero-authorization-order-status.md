@@ -4,7 +4,7 @@ weight: 1371
 {{< code-block >}}
 > GET - /orders/<order_id>
 
-> JSON Response
+> JSON response
 
 
 ```json

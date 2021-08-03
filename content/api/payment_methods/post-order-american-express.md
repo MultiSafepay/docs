@@ -28,7 +28,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response 
+> JSON response 
 
 ```json
 {

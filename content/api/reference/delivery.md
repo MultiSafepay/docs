@@ -1,5 +1,5 @@
 ---
-weight: 900
+weight: 603
 meta_title: "API Reference - delivery object - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -29,6 +29,7 @@ Contains:
 
 **Parameters**
 
+----------------
 __first_name__ | string | required
 
 The customer’s first name.  
@@ -60,6 +61,8 @@ The customer's city of residence.
 __country__ | string | required
 
 The customer’s country of residence.   
-Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).
+Format: [ISO 3166-1 country code](https://www.iso.org/iso-3166-country-codes.html).
+
+----------------
 
 {{% /description %}}

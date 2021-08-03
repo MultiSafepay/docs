@@ -1,7 +1,9 @@
 ---
-weight: 606
-meta_title: "API Reference - Tokenization - Create token transaction - MultiSafepay Docs"
+weight: 541
+meta_title: "API Reference - Create tokenization order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#create-token-transaction
 ---
 
 {{< code-block >}}
@@ -16,7 +18,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "recurring_id": "azbkvsE0up4",
     "recurring_model": "unscheduled",
     "amount": 1000,
-    "description": "Tokenization Generate token transaction",
+    "description": "Create tokenization order",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -28,7 +30,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -39,7 +41,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "costs": [
             {
                 "amount": 0.6,
-                "description": " Tokenization Generate token transaction ",
+                "description": "Create tokenization order",
                 "transaction_id": 123456789
                 "type": "SYSTEM"
             }
@@ -112,19 +114,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-### Create token transaction
+### Create tokenization order
 
-This API call allows you to generate a token transaction by using the recurring id and recurring model in the request.
-
-_It must be noted that the recurring_id, recurring_model and reference must be specified in the request in order for the transaction to be processed_
-
-- All of the following parameters are required fields.
+Create a [tokenization](/payments/features/tokenization) order.
 
 **Parameters**
 
+----------------
 __type__ | string | required
 
-The payment flow for the checkout process.  Options: `direct`.     
+The payment flow for the checkout process.  
+Options: `direct`.     
 
 ----------------
 __order_id__ | integer / string | required
@@ -140,14 +140,15 @@ The currency you want the customer to pay in.
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__recurring_id__ | string
+__recurring_id__ | string | required
 
-The unique recurring id used for recurring payments.
+The unique identifier for the recurring payment.
 
 ----------------
-__recurring_model__ | string
+__recurring_model__ | string | required
 
-The function of the recurring model e.g. Card on file, Subscription, Unscheduled.
+The recurring model.  
+Options: `unscheduled`, `subscription`, `cardonfile`.
 
 ----------------
 __amount__ | integer | required
@@ -157,7 +158,9 @@ The amount (in cents) the customer needs to pay.
 ----------------
 __description__ | string | required
 
-A text which will be shown with the order in your MultiSafepay account. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is **not** supported. Use the ‘items’ or ‘shopping_cart’ objects for this.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
+Format: Maximum 200 characters.  
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 __payment_options__ | object | required
@@ -165,30 +168,9 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).                                
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails. 
-
-----------------
-__customer__ | 
+__customer__ | object | required
 
 See [customer (object)](/api/#customer-object).
-
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
 
 ----------------
 __account_holder_name__ | string
@@ -198,7 +180,7 @@ The customer’s name here if provided in transaction request.
 ----------------
 __card_expiry_date__ | string
 
-Card expiry date.
+The expiry date on the credit card.
 
 ----------------
 __reason__ | string
@@ -207,14 +189,5 @@ Add a short text memo based on the capture reason of the order.
 
 ----------------
 
-__close_window__ | bool | optional
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
-
-----------------
-
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
 
 {{< /description >}}

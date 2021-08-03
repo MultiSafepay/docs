@@ -71,7 +71,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## Order rule discounts (non-refundable)
 For all payment methods except [post-payment methods](/payments/methods/billing-suite/), the main way of adding a discount **before** submitting a transaction request is to add it as an order rule.
 
-### Post-payment methods
 For post-payment methods, adding a discount as an order rule or a separate discount rule can create a conflict for partial refunds, especially when the discount is a percentage. You cannot undo or partially refund the negative amount.
 
 Instead, add discounts as a [unit price](/api/#unit-price-discounts).

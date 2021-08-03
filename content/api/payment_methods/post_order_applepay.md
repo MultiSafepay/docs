@@ -36,7 +36,7 @@ try {
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {

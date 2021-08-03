@@ -1,5 +1,9 @@
 ---
-weight: 1330
+weight: 1305
+meta_title: "API Reference - Direct: Flexible 3D set to true - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#direct-server-to-server-flexible-3d-set-on-_true_
 ---
 {{< code-block >}}
 
@@ -47,7 +51,7 @@ weight: 1330
 ```
 
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -126,26 +130,31 @@ weight: 1330
 
 {{< description >}}
 
-### Direct Server to Server, Flexible 3D set on _true_
+### Direct: Flexible 3D set to true
 
-Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/general/glossary/#3d-secure) at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D Secure verification or not.
+Use [Flexible 3D](/payments/features/flexible-3ds/) to set whether or not to complete the transaction with [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/) verification.
 
-Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. Setting Flexible 3D to _false_ will disable the verfication process, while activating Flexible 3D Secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.
+To enable 3D Secure, in the `POST /orders` request > `gateway_info` object, set the `flexible_3d` parameter to `true`.
 
-**__Please note__: MultiSafepay no longer supports [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d) with merchants based in Europe due to PSD2 regulations.**
+**Notes:**  
+
+- Activating Flexible 3D Secure overrides Dynamic 3D settings, so that payments are not enrolled with a 3D authentication.
+
+- We no longer support [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d) for merchants based in Europe due to PSD2 regulations.
 
 **Parameters**
 
 ----------------
 __type__ | string | required
 
-The payment flow for the checkout process.  Options: `direct`.
+The payment flow for the checkout process.  
+Options: `direct`.
 
 ----------------
 __gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Option: CREDITCARD.
+Option: `CREDITCARD`.
 
 ----------------
 __order_id__ | integer / string | required
@@ -183,23 +192,16 @@ __customer__ | object | required
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__gateway_info__ | object
+__gateway_info__ | object | required
 
-Defines certain customer data (payment details).
+Contains:  
 
-----------------
-__flexible_3d__ | boolean
+__flexible_3d__ | boolean | required
 
-True, enable the 3D Secure authentication. False, disable the 3D Secure authentication.
-
-----------------
-
-__close_window__ | bool | optional
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.    
-Options: `True`, `False`. 
+- `true`: enables 3D Secure verification
+- `false`: disable 3D Secure verification
 
 ----------------
+
 
 {{< /description >}}

@@ -27,7 +27,7 @@ aliases: [/api/#direct-bank-transfer]
 
 ```
 
-> JSON Response 
+> JSON response 
 
 ```json
 {
@@ -60,7 +60,7 @@ aliases: [/api/#direct-bank-transfer]
 }
 ```
 
-> JSON Response 
+> JSON response 
 
 ```json
 {

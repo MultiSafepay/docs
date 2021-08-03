@@ -54,44 +54,51 @@ As a partner or primary account holder, use this endpoint to move funds from an 
 
 By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
 
-### Authentication
-Use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-To retrieve your account API key, email your account manager at <sales@multisafepay.com>
+**Parameters**
 
-### Parameters
+----------------
+**affiliated_id** | query parameter | required
 
-**affiliated_id** | query parameter
+The account ID of the affiliated account you want to charge. 
 
-The account ID of the affiliated account you want to charge. **Required**.
+----------------
+**amount** | integer | required
 
-**amount** | integer 
+The amount to charge in cents. 
 
-The amount to charge in cents. **Required**.
+----------------
+**currency** | string | required
 
-**currency** | string
+The currency you want to charge the affiliated account in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
-The currency you want to charge the affiliated account in. **Required**.  
-**Format**: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)
+----------------
+**order_id** | string | required
 
-**order_id** | string 
+Your unique identifier for the charge.  
 
-Your unique identifier for the charge. **Required**. 
+----------------
+**description** | string | optional
 
-**description** | string
+A description of the transaction, which is displayed in both your account and the affiliated account. 
 
-A description of the transaction, which is displayed in both your account and the affiliated account. **Optional**. 
+----------------
+**var1** | string | optional
 
-**var1** | string
+A variable for storing additional data. 
 
-A variable for storing additional data. **Optional**.
+----------------
+**var2** | string | optional
 
-**var2** | string
+A second variable for storing additional data. 
 
-A second variable for storing additional data. **Optional**.
+----------------
+**var3** | string | optional
 
-**var3** | string
+A third variable for storing additional data. 
 
-A third variable for storing additional data. **Optional**.
+----------------
 
 {{< /description >}}

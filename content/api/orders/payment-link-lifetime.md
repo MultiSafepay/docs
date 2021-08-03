@@ -1,7 +1,9 @@
 ---
-weight: 602
-meta_title: "API Reference - days_active - MultiSafepay Docs"
+weight: 215
+meta_title: "API Reference - Adjust payment link lifetime - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases: 
+    - /api/#days_active--seconds_active
 ---
 {{< code-block >}}
 
@@ -15,9 +17,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## days_active / seconds_active
+## Adjust payment link lifetime
 
-The `days_active` and `seconds_active` parameters set the [lifetime of payment links](/developer/api/adjusting-payment-link-lifetimes).
+To set the [lifetime of payment links](/developer/api/adjusting-payment-link-lifetimes), use the `days_active` and `seconds_active` parameters.
 
 - If `seconds_active` is set and larger than 0, then the `seconds_active` value determines the link lifetime.
 - If `days_active` is set, then the `days_active` value is used.

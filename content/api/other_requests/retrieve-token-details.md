@@ -1,14 +1,17 @@
 ---
-weight: 608
-meta_title: "API Reference - Tokenization - Get token info - MultiSafepay Docs"
+weight: 544
+meta_title: "API Reference - Retrieve token details - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#get-info-of-a-token
 ---
 
 {{< code-block >}}
 
-> GET - recurring/{your_customer_reference}/token/{your_token}
+> GET - /recurring/{your_customer_reference}  
+/token/{your_token}
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -31,19 +34,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-### Get info of a token
+### Retrieve token details
 
-This API call allows you to retreive the information related to a single token.
-
-- All of the following parameters are required fields.
+Retreive information about a specific [token](/payments/features/tokenization).
 
 **Parameter**
 
-__token__ | string
+----------------
+__token__ | string | required
 
 The unique token linked to the customer reference.  
 
 ----------------
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
+
 
 {{< /description >}}

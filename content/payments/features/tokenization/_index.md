@@ -31,6 +31,13 @@ Tokenization is mainly used for credit card, recurring, and subscription payment
 
 {{< /details >}}
 
+## Recurring models
+MultiSafepay offers three recurring models:
+
+- **Card on file (COF)**: The cardholder has authorized you to store their card details.
+- **Subscription**: Agreement or services that are billed at the end of your billing cycle.
+- **Unscheduled**: Event triggered for application, e.g. a mobile top-up when no credit is left on the phone.
+
 ## Via API
 To use tokenization via our API, see API Reference – [Tokenization and recurring model](/api/#recurring-payment).
 
@@ -44,7 +51,7 @@ To use tokenization via our API, see API Reference – [Tokenization and recurri
 | `gateway` | String | The unique `gateway_id` to redirect the customer to the specific payment method. Retrieve gateways using a GET `/gateway` request. {{< br >}} Options: AMEX, VISA, MASTERCARD and DIRDEB |
 | `recurring_id` | String | A randomly generated recurring ID for the customer. |
 | `reference` | String | The customer's reference number for the token. |
-| `recurring_model` | String | The type of recurring model to use. {{< br >}} Options: unscheduled, cardOnFile, subscription  |
+| `recurring_model` | String | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`  |
 
 {{< /details >}}
 

@@ -25,7 +25,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -67,7 +67,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -189,7 +189,7 @@ The e-mandate (for your own adminstration).
 
 __recurring_id__ | string
 
-For [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) requests, the unique identifier for processing subsequent payments. 
+The unique identifier for the recurring payment. 
 
 ----------------
 
@@ -268,7 +268,7 @@ The e-mandate (for your own adminstration).
 
 __recurring_id__ | string
 
-For [recurring payments](/payments/features/recurring-payments/processing-recurring-payments/) requests, the unique identifier for processing subsequent payments. 
+The unique identifier for the recurring payment. 
 
 ----------------
 

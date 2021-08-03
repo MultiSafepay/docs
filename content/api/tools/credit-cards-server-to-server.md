@@ -1,6 +1,9 @@
 ---
-weight: 1310
+weight: 1302
+meta_title: "API Reference - Credit card server to server requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#credit-cards-server-to-server
 ---
 {{< code-block >}}
 > POST - /orders
@@ -46,7 +49,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -130,72 +133,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-### Credit Cards Server to Server
-
-This is a standard credit card API [direct order request](https://docs.multisafepay.com/api/#creates-a-direct-order) The gateway has been set to __CREDITCARD__. In this case, the type of credit card will be detected based on the first four digits.
-
-__Please note: Server to Server must first be enabled by our Risk department. See also [activation](https://docs.multisafepay.com/tools/server2server/activate-server-to-server).__ 
+### Credit card requests
 
 **Parameters**
 
 ----------------
 __type__ | string | required
 
-The payment flow for the checkout process.  Options: `direct`.  
+The payment flow for the checkout process.  
+Options: `direct`.  
 
 ----------------
 __gateway__ | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways). Option: VISA, MASTERCARD, AMERICAN EXPRESS, MAESTRO and CREDITCARD.
-
-----------------
-__order_id__ | integer / string | required
-
-Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
-Format: Maximum 50 characters.
-
-----------------
-__currency__ | string | required
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-__amount__ | integer | required
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-__description__ | string | required
-
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-__payment_options__ | object | required
-
-See [payment_options (object)](/api/#payment-options-object).
-
-----------------
-__notification_url__ | string
-
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
-
-----------------
-__redirect_url__ | string
-
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
+Options: `VISA`, `MASTERCARD`, `AMEX`, `MAESTRO`, `CREDITCARD`.  
+When set to `CREDITCARD`, the type of credit card is detected based on the first four digits.
 
 ----------------
 __customer__ | object | required
@@ -203,49 +156,28 @@ __customer__ | object | required
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
-Default: `en_US`.
-
-----------------
-__ip_address__ | string
-
-The customer's IP address.   
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
-
-----------------
 __gateway_info__ | object
 
-----------------
+Contains:  
+
 __card_number__ | string
 
-Full credit card number.
+The customer's full credit card number.
 
-----------------
 __card_holder_name__ | string
 
-Name on the credit card.
+The name of the cardholder on the credit card.
 
-----------------
 __card_expiry_date__ | string
 
-Card expiry date.
+The expiry date on the credit card.
 
-----------------
 __card_cvc__ | string
 
-Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
+The card verification code (CVC) is a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  
+For some cards, like MAESTRO, this may not be required.  
+CVC is also not required for recurring transactions.
 
 ----------------
 
-__close_window__ | bool | optional
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
-
-----------------
-
-See also [Server to Server](/payments/features/server-to-server).
 {{% /description %}}

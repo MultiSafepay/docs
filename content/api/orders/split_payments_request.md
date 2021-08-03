@@ -1,5 +1,5 @@
 ---
-weight: 240
+weight: 260
 meta_title: "API Reference - Split payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -31,7 +31,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -53,7 +53,6 @@ For more information, see [Split payments](/payments/features/split-payments/).
 **Parameters**
 
 ----------------
-
 __type__ | string | required
 
 The payment flow for the checkout process.  
@@ -96,51 +95,25 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
+__split_payments__ | object | required
 
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
+Contains:  
 
-----------------
-__notification_method__ | string
-
-Sends push notification.  
-Options: `POST`, `GET`. Default: `GET`.
-
-----------------
-__redirect_url__ | string
-
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
-
-----------------
-__split_payments__ | object
-
-----------------
 __split_payments.merchant__ | integer
 
 The account ID of the [affiliated MultiSafepay account](/account/partner-account-control/).   
 
-----------------
 __split_payments.percentage__ | float
 
 Specify a percentage of the amount to split.
 
-----------------
 __split_payments.fixed__ | integer
 
 Specify the amount to split in cents.
 
-----------------
 __split_payments.description__ | string
 
 The description of the split payment.
 
-
+----------------
 {{% /description %}}

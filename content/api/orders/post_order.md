@@ -1,5 +1,5 @@
 ---
-weight: 210
+weight: 205
 meta_title: "API Reference - Create a redirect order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -69,7 +69,6 @@ This is the default type of order.
 **Parameters**
 
 ----------------
-
 __type__ | string | required
 
 The payment flow for the checkout process.  
@@ -112,105 +111,21 @@ __payment_options__ | object | required
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_url__ | string
+__google_analytics__ | object | optional
 
-Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).
-
-----------------
-__google_analytics__ | object
-
-Your Google Analytics site ID, which is injected into the payment page so you can trigger custom events and track payment metrics. Optional.  
+Your Google Analytics site ID, which is injected into the payment page so you can trigger custom events and track payment metrics.  
 For more information, see [Google Analytics tracking via the API](/developer/api/google-analytics-tracking).
 
 ----------------
-__account__ | string
+__account__ | string | optional
 
-The Google Analytics Tracking-ID. See your Google Analytics dashboard. 
-
-----------------
-__redirect_url__ | string
-
-The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.
-
-----------------
-__cancel_url__ | string
-
-The page the customer is redirected to if the payment fails.
+The Google Analytics Tracking-ID.  
+See your Google Analytics dashboard. 
 
 ----------------
 __customer__ | object | required
 
 See [customer (object)](/api/#customer-object).
-
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page, and influences sending email templates.  Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).  
-Default: `en_US`.
-
-----------------
-__ip_address__ | object
-
-The customer's IP address.  
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods.  
-MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
-
-----------------
-__first_name__ | string
-
-The customer’s first name.   
-
-----------------
-__last_name__ | string
-
-The customer’s last name.   
-
-----------------
-__address1__ | string
-
-The first line of the customer's address.
-
-----------------
-__house_number__ | string
-
-The customer's house number.
-
-----------------
-__zip_code__ | string
-
-The customer's ZIP/ postal code. 
-
-----------------
-__city__ | string
-
-The customer's city of residence.     
-
-----------------
-__country__ | string
-
-The customer’s country of residence.  
-Format: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html).
-
-----------------
-__phone__ | string
-
-The customer's phone number.  
-
-----------------
-__email__ | string
-
-The customer’s email address.  
-Used to send Second Chance emails and to conduct fraud checks.
-
-----------------
-
-__close_window__ | bool | optional
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.    
-Options: `True`, `False`. 
 
 ----------------
 

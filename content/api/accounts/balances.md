@@ -37,45 +37,45 @@ As a partner or primary account holder, use this endpoint to retrieve the balanc
 
 By default, balance requests are disabled. To enable balance requests for your account, email your account manager at <sales@multisafepay.com>
 
-### Authentication
-Use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-To retrieve your account API key, email your account manager at <sales@multisafepay.com>
+**Parameters**
 
-### Parameters
+----------------
 
-**affiliated_id** | query parameter  
+**affiliated_id** | query parameter  | required
 
-The account ID of the affiliated account. **Required**.
+The account ID of the affiliated account. 
 
-### Response
-
-The response is an array of objects that represent the affiliate's balance in every available currency.
-
-**account_id**  | integer
-
-The account ID of the affiliated account.
-
+----------------
 **amount_available** | integer
 
-The available balance in cents. This is the total balance minus the reserved balance. 
+The available balance in cents.  
+This is the total balance minus the reserved balance. 
 
+----------------
 **amount_reserved** | integer
 
 The reserved balance in cents. 
 
+----------------
 **currency** | string
 
 The currency of the balance.  
-**Format**: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)
+Includes every available currency in the affiliate's account.
+**Format**: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
+----------------
 **id** | string
 
 The balance ID. 
 
+----------------
 **modified** | string
 
-The timestamp of the last modification of the balance. Modifications include incoming payments, refunds, charges, and payouts. **Format**: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)
+The timestamp of the last modification of the balance.  
+Modifications include incoming payments, refunds, charges, and payouts.  
+Format: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601).
 
-
+----------------
 {{< /description >}}

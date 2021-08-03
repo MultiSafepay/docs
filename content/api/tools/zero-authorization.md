@@ -41,7 +41,7 @@ weight: 1370
     }
 }
 ```
-> JSON Response
+> JSON response
 
 
 ```json

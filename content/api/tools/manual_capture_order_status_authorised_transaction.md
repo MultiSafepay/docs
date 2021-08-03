@@ -1,11 +1,15 @@
 ---
 weight: 1354
+meta_title: "API Reference - Set order status of authorized transaction - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#order-status-authorized-transaction
 ---
 {{< code-block >}}
 
 > GET - /orders/{order_id}
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -84,7 +88,7 @@ weight: 1354
 ```
 {{< /code-block >}}
 {{< description >}}
-### Order Status Authorized Transaction
+### Set order status of authorized transaction
 
 **Parameter**
 
