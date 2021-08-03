@@ -192,7 +192,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## AfterPay
 See also Payment methods – [AfterPay](/payments/methods/billing-suite/afterpay/).
 
-### Direct 
+### AfterPay - direct 
 
 **Parameters**
 
@@ -297,7 +297,7 @@ The definitions for the VAT class.
 
 ----------------
 
-### Redirect
+### AfterPay - redirect
 
 **Parameters**
 

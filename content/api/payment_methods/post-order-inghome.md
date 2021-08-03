@@ -117,7 +117,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## ING Home'Pay
 See also Payment methods – [ING Home'Pay](/payments/methods/banks/ing-home-pay).
 
-### Direct
+### ING Home'Pay - direct
 
 **Parameters**
 
@@ -170,7 +170,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------  
 
-### Redirect
+### ING Home'Pay - redirect
 
 **Parameters**
 

@@ -153,10 +153,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Bank transfer
+## Bank Transfer
 See also Payment methods – [Bank transfer](/payments/methods/banks/bank-transfer).
 
-### Redirect
+### Bank Transfer - redirect
 
 **Parameters**
 
@@ -212,7 +212,7 @@ See [customer (object)](/api/#customer-object).
 
 ---------------- 
 
-### Direct  
+### Bank Transfer - direct  
 
 **Parameters**
 

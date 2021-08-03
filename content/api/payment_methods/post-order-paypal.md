@@ -148,7 +148,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## PayPal
 See also Payment methods – [PayPal](/payments/methods/wallet/paypal).
 
-### Redirect
+### PayPal - redirect
 
 Once the customer has completed payment, the `status` changes to **Completed**. The `financial_status` remains **Initialized**, and during this status you cannot ship the order. You must first set the order to **Completed** for both the `status` and `financial_status` and then ship the order.
 
@@ -205,7 +205,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------
 
-### Direct 
+### PayPal - direct 
 
 **Parameters**
 

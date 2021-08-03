@@ -142,7 +142,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## iDEAL
 See also Payment methods – [iDEAL](/payments/methods/banks/ideal).
 
-### Redirect
+### iDEAL - redirect
 
 Customers are redirected to a MultiSafepay payment page where they can select iDEAL as a payment method.
 
@@ -198,7 +198,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
  
 
-### Direct
+### iDEAL - direct
 
 Customers select iDEAL and the issuing bank on the checkout page, and are then directed to the **issuer's** payment page.
 

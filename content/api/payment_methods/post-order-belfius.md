@@ -123,7 +123,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## Belfius
 See also Payment methods – [Belfius](/payments/methods/banks/belfius).
 
-### Redirect 
+### Belfius - redirect 
 
 **Parameters**
 
@@ -176,7 +176,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------
 
-### Direct
+### Belfius - direct
 
 **Parameters**
 

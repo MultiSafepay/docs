@@ -517,7 +517,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## in3
 See also Payment methods – [in3](/payments/methods/billing-suite/in3).
 
-### Direct
+### in3 - direct
 
 **Parameters**
 
@@ -620,7 +620,7 @@ The definitions for the VAT class.
 
 ----------------
 
-### Redirect
+### in3 - redirect
 
 **Parameters**
 

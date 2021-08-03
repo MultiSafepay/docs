@@ -157,7 +157,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## CBC
 See also Payment methods – [CBC](/payments/methods/banks/cbc).
 
-### Redirect
+### CBC - redirect
 
 **Parameters**
 
@@ -210,7 +210,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------  
 
-### Direct
+### CBC - direct
 
 **Parameters**
 

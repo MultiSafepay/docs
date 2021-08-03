@@ -160,7 +160,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 See also Payment methods – [SOFORT Banking](/payments/methods/banks/sofort-banking).
 
-### Redirect
+### SOFORT - redirect
 
 **Parameters**
 
@@ -214,7 +214,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------
 
-### Direct
+### SOFORT - direct
 
 **Parameters**
 

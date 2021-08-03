@@ -254,7 +254,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## E-Invoicing
 See also Payment methods – [E-Invoicing](/payments/methods/billing-suite/e-invoicing).
 
-### Direct
+### E-Invoicing - direct
 
 **Parameters**
 
@@ -353,7 +353,7 @@ The email address for sending payment instructions to the customer.
 
 ----------------
 
-### Redirect
+### E-Invoicing - redirect
 
 **Parameters**
 

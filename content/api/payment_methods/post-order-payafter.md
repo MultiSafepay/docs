@@ -207,7 +207,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 See also Payment methods – [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery).
 
-### Redirect
+### Pay After Delivery - redirect
 
 **Parameters**
 
@@ -318,7 +318,7 @@ See [custom_info (object)](/api/#custom_info).
 ----------------
 
 
-### Direct
+### Pay After Delivery - direct
 
 **Parameters**
 

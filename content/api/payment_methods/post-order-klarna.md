@@ -132,7 +132,7 @@ The new **Klarna payments** environment supports `redirect` orders, and `direct`
 
 JSON requests are the same for both environments.
 
-### Redirect
+### Klarna - redirect
 
 **Parameters**
 

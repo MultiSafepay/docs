@@ -145,7 +145,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## Alipay
 See also Payment methods – [Alipay](/payments/methods/wallet/alipay).
 
-### Redirect
+### Alipay - redirect
 
 **Parameters**
 
@@ -198,7 +198,7 @@ See [customer (object)](/api/#customer-object).
 
 ---------------- 
 
-### Direct
+### Alipay - direct
 
 **Parameters**
 

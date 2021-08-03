@@ -137,7 +137,7 @@ aliases: [/api/#direct-bank-transfer]
 ## Request to Pay
 See also Payment methods – [Request to Pay](/payments/methods/banks/request-to-pay).
 
-### Redirect
+### Request to Pay - redirect
 
 **Parameters**
 
@@ -185,7 +185,7 @@ See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
 
-### Direct
+### Request to Pay - direct
 
 __type__ | string | required
 

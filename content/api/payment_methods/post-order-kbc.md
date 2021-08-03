@@ -157,7 +157,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## KBC 
 See also Payment methods – [KBC](/payments/methods/banks/kbc).
 
-### Redirect
+### KBC - redirect
 
 **Parameters**
 
@@ -210,7 +210,7 @@ See [customer (object)](/api/#customer-object).
 
 ---------------- 
 
-### Direct
+### KBC - direct
 
 **Parameters**
 

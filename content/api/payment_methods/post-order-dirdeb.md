@@ -118,7 +118,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## SEPA Direct Debit
 See also Payment methods – [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit).
 
-### Redirect
+### SEPA Direct Debit - redirect
 
 **Parameters**
 
@@ -193,7 +193,7 @@ The unique identifier for the recurring payment.
 
 ----------------
 
-### Direct 
+### SEPA Direct Debit - direct 
 
 **Parameters**
 
