@@ -5,6 +5,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.8.0
+Release date: Aug 4th, 2021
+
+### Added
++ PLGWOOS-723: Declare support for WooCommerce 5.5.2 and Wordpress 5.8
++ PLGWOOS-711: Add missing titles in setting pages
+
+### Changed
++ PLGWOOS-718: Remove PSP ID string when register the transaction ID in WC_Order->payment_complete()
+
+***
+
 ## 4.7.0
 Release date: Jun 23th, 2021
 
