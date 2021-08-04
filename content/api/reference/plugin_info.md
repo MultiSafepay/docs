@@ -1,5 +1,5 @@
 ---
-weight: 607
+weight: 609
 meta_title: "API Reference - Plugin - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -13,23 +13,27 @@ Contains:
 **Parameters**
 
 ----------------
-__shop__ | string | required
+`shop` | string | required
 
  The ecommerce platform that you use.
 
-__plugin_version__ | string | required
+----------------
+`plugin_version` | string | required
 
 The version of the plugin.
 
-__shop_version__ | string | required
+----------------
+`shop_version` | string | required
 
 The version of the ecommerce webshop you use. 
 
-__partner__ | string | required
+----------------
+`partner` | string | required
 
 The name of the third party that developed the ecommerce webshop. 
 
-__shop_root_url__ | string | required
+----------------
+`shop_root_url` | string | required
 
 The primary URL of the ecommerce webshop.
 

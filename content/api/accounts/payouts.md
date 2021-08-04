@@ -98,19 +98,16 @@ Your unique identifier for the payout.
 A description of the transaction, which is displayed in the affiliated account.
 
 ----------------
-**var1** | string | optional
+`var1` / `var2` / `var3` | string | optional
 
-A variable for storing additional data.  
+Variables for storing additional data.   
 
-----------------
-**var2** | string | optional
-
-A second variable for storing additional data.  
+**Response**
 
 ----------------
-**var3** | string | optional
+`costs` | object
 
-A third variable for storing additional data.  
+See [costs (object)](/api/#costs-object).
 
 ----------------
 

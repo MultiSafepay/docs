@@ -26,7 +26,7 @@ If you change the order status to **Shipped** in your backend, some MultiSafepay
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
-For other MultiSafepay plugins, you can forward the status via our API by making a PATCH `/orders` request. 
+For other MultiSafepay plugins, you can forward the status via our API by making a `PATCH /orders` request. 
 
 Some third-party plugins may not support forwarding the status via our API. 
 

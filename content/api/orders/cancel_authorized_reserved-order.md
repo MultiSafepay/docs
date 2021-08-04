@@ -1,5 +1,5 @@
 ---
-weight: 1355
+weight: 221
 meta_title: "API Reference - Cancel an authorized or reserved transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -33,16 +33,15 @@ aliases:
 **Parameters**
 
 ----------------
-__reason__ | string
+`reason` | string | required
 
-Add a short text memo based on the capture reason of the order.  
-
-----------------
-__status__ | string
-
-The order status of the manual capture request.
+The capture reason for the order.  
 
 ----------------
+`status` | string | required
 
-See also [Manual Capture](/payments/features/manual-capture).
+The [order status](/api/multisafepay-statuses/) of the manual capture request. 
+
+----------------
+
 {{% /description %}}

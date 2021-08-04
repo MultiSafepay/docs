@@ -63,7 +63,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
     "success": true,
     "data": {
-        "transaction_id": 123456789
+        "transaction_id": 123456789,
         "order_id": "my-order-id-1",
         "created": "2019-03-07T13:41:15",
         "currency": "EUR",
@@ -98,10 +98,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         },
         "costs": [
         {
-            "transaction_id": 123456789
-            "description": "Test order description",
-            "type": "BELFIUS",
+            "transaction_id": 123456789,
             "amount": 1000,
+            "description": "Test order description",
+            "type": "BELFIUS"           
             }
         ],
         "payment_methods": [
@@ -128,49 +128,49 @@ See also Payment methods – [Belfius](/payments/methods/banks/belfius).
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
 Fixed value: `BELFIUS`.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.    
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
@@ -181,47 +181,58 @@ See [customer (object)](/api/#customer-object).
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
 Fixed value: `BELFIUS`.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.    
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
-----------------
+**Response**
 
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
+----------------
 {{< /description >}}

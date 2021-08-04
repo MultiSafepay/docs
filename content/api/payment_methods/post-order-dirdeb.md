@@ -73,7 +73,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "success": true,
   "data": {
-    "transaction_id": 123456789
+    "transaction_id": 123456789,
     "order_id": "my-order-id-1",
     "created": "2019-03-08T09:23:46",
     "currency": "EUR",
@@ -101,10 +101,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 123456789
+        "transaction_id": 123456789,
+        "amount": 0.0,
         "description": "0.0 For SEPA Direct Debit Transactions",
-        "type": "SYSTEM",
-        "amount": 0.0
+        "type": "SYSTEM"        
       }
     ],
     "payment_url": "https://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
@@ -123,71 +123,71 @@ See also Payment methods – [SEPA Direct Debit](/payments/methods/banks/sepa-di
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.   
 Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `IDEAL`. 
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 The customer data (`issuer_id`) required for conducting credit checks.
 
 Contains:
 
-__account_id__ | string
+`account_id` | string
 
 The international bank account number (IBAN) to be charged for the transaction.
 
-__account_holder_name__ | string
+`account_holder_name` | string
 
 The name of the account holder to be charged for the transaction. 
 
-__account_holder_iban__ | string
+`account_holder_iban` | string
 
 The international bank account number (IBAN) to be charged for the transaction.
 
-__emandate__ | string
+`emandate` | string
 
 The e-mandate (for your own adminstration).
 
-__recurring_id__ | string
+`recurring_id` | string
 
 The unique identifier for the recurring payment. 
 
@@ -197,78 +197,85 @@ The unique identifier for the recurring payment.
 
 **Parameters**
 
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `DIRDEB`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object). 
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 The customer data (`issuer_id`) required for conducting credit checks.
 
 Contains:
 
-__account_id__ | string
+`account_id` | string
 
 The international bank account number (IBAN) to be charged for the transaction.
 
-__account_holder_name__ | string
+`account_holder_name` | string
 
 The name of the account holder to be charged for the transaction. 
 
-__account_holder_iban__ | string
+`account_holder_iban` | string
 
 The international bank account number (IBAN) to be charged for the transaction.
 
-__emandate__ | string
+`emandate` | string
 
 The e-mandate (for your own adminstration).
 
-__recurring_id__ | string
+`recurring_id` | string
 
 The unique identifier for the recurring payment. 
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
 
 ----------------
 

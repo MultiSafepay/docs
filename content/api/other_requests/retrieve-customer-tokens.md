@@ -1,6 +1,6 @@
 ---
-weight: 545
-meta_title: "API Reference - Retrieve all customer tokens - MultiSafepay Docs"
+weight: 512
+meta_title: "API Reference - Get all customer tokens - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#list-all-tokens-for-a-customer-reference
@@ -47,7 +47,7 @@ aliases:
 
 {{< description >}}
 
-### Retrieve all customer tokens
+### Get all customer tokens
 
 Retrieve all [tokens](/payments/features/tokenization) related to a specific customer reference.
 
@@ -58,18 +58,18 @@ Example: If `limit` is set to 15 and `offset` to 0, then 17 tokens are listed (t
 **Parameter**
 
 ----------------
-__token__ | string | required
+`token` | string | required
 
 The unique token identifier linked to the customer reference.  
 
 ----------------
-__limit__ | integer | required
+`limit` | integer | required
 
 The number of tokens to list.  
 If empty, the default is 10.
 
 ----------------
-__offset__ | integer | required
+`offset` | integer | required
 
 The number of the token to start the list from.  
 If empty, the default is 0, i.e. the first token.

@@ -62,80 +62,80 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`, `direct`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
 Fixed value: `iDEALQR`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 The customer data (`issuer_id`) required for conducting credit checks.
 
 Contains:
 
-__qr_size__ | integer
+`qr_size` | integer
 
 The size of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
 Default: 250.  
 
-__allow_multiple__ | boolean
+`allow_multiple` | boolean
 
 Set if a specific QR code can be used more than once.
 
-__allow_change_amount__ | boolean
+`allow_change_amount` | boolean
 
 Set if customers can change the amount to pay. Often used for donations.  
 Required parameters: `max_amount`, or `min_amount`, or both. 
 
-__min_amount__ | string
+`min_amount` | string
 
 Set the minimum amount if `allow_change_amount` is set to `true`.  
 The `min_amount` must not be more than the `amount`.  
 If you only use `min_amount`, the `amount` must be more than the `min_amount`. That is, the `amount` = `max_amount`. 
     
-__max_amount__ | string
+`max_amount` | string
 
 Set the maximum amount if `allow_change_amount option` is set to `true`.  
 If you only use `max_amount`, the `amount` must be less than the `max_amount`.

@@ -49,49 +49,49 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `GIROPAY`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).  
 

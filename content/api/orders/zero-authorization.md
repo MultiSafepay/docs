@@ -1,5 +1,9 @@
 ---
-weight: 1370
+weight: 238
+meta_title: "API Reference - Zero authorization orders - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#zero-authorization
 ---
 {{< code-block >}}
 > POST - /orders
@@ -55,66 +59,59 @@ weight: 1370
 ```
 {{< /code-block >}}
 {{< description >}}
-## Zero Authorization
+## Zero authorization orders
 
-For a number of scenarios, it can be useful for our merchants to verify an account with Zero Authorization. An amount of zero will be reserved to check the authenticity of the card as well as establish an authorization to collect future payments. 
-
-The _amount_ parameter should be set to 0.
+See [Zero authorization](/payments/features/zero-authorization/). 
 
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.    
 Options: `redirect`, `direct`, `checkout`, `paymentlink`.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+Fixed value: `0`.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__close_window__ | bool | optional
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.    
-Options: `True`, `False`. 
-
-See also [Zero Authorization](/payments/features/zero-authorization).
 {{% /description %}}

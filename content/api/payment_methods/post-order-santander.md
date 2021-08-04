@@ -81,9 +81,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "costs": [
             {
                 "transaction_id": 406933,
-                "description": "Cost Description",
-                "type": "SYSTEM",
-                "amount": 0.49
+                "amount": 0.49,
+                "description": "Cost description",
+                "type": "SYSTEM"                
             }
         ],
         "payment_url": "https://retailersowtest.santander.nl/EDurables/Home.aspx?guid=XXXXX"
@@ -101,83 +101,90 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `paymentlink`. 
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `SANTANDER`.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).    
 
 ----------------
-__gateway_info__ | object                                                              
+`gateway_info` | object                                                              
 
 The customer data (`issuer_id`) required for conducting credit checks.
 
 Contains:
 
-__birthday__ | object | required
+`birthday` | object | required
 
 The customer's date of birth.  
 In the Netherlands and Belgium, this is required for credit checks.  
 Format: yyyy-mm-dd. 
 
-__gender__ | string | required
+`gender` | string | required
 
 The customer's personal title.  
 Options: `mr`, `mrs`, `miss`. 
 
-__phone__ | string | required
+`phone` | string | required
 
 The customer's phone number.  
 Required for credit checks and to contact the customer in case of non-payment.
 
-__email__ | string | required
+`email` | string | required
 
 The email address for sending payment instructions to the customer.
 
 ----------------
-__custom_info__ | object
+`custom_info` | object
 
 See [custom_info (object)](/api/#custom_info).
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
 
 ----------------
 

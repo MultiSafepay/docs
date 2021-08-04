@@ -1,5 +1,5 @@
 ---
-weight: 1303
+weight: 227
 meta_title: "API Reference - 3D disabled or non-3D requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -55,70 +55,70 @@ aliases:
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `CREDITCARD`. 
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 Contains:  
 
-__card_number__ | string
+`card_number` | string
 
 The customer's full credit card number.
 
-__card_holder_name__ | string
+`card_holder_name` | string
 
 The name of the cardholder on the credit card.
 
-__card_expiry_date__ | string
+`card_expiry_date` | string
 
 The expiry date on the credit card.
 
-__card_cvc__ | string
+`card_cvc` | string
 
 The card verification code (CVC) is a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  
 For some cards, like MAESTRO, this may not be required.  

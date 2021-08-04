@@ -1,5 +1,5 @@
 ---
-weight: 215
+weight: 207
 meta_title: "API Reference - Adjust payment link lifetime - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -17,7 +17,7 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-## Adjust payment link lifetime
+### Adjust payment link lifetimes
 
 To set the [lifetime of payment links](/developer/api/adjusting-payment-link-lifetimes), use the `days_active` and `seconds_active` parameters.
 
@@ -30,19 +30,19 @@ To set the [lifetime of payment links](/developer/api/adjusting-payment-link-lif
 
 ----------------
 
-__days_active__ | string
+`days_active` | string
 
 The number of days to make the payment link active for.  
 Default: 30 days.
 
 ----------------
-__seconds_active__ | string
+`seconds_active` | string
 
 The number of seconds to make the payment link active for.  
 Default: 30 days.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
 Format: Maximum 200 characters.  

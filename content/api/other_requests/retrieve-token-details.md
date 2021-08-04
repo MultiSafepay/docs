@@ -1,6 +1,6 @@
 ---
-weight: 544
-meta_title: "API Reference - Retrieve token details - MultiSafepay Docs"
+weight: 511
+meta_title: "API Reference - Get token details - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#get-info-of-a-token
@@ -34,14 +34,14 @@ aliases:
 
 {{< description >}}
 
-### Retrieve token details
+### Get token details
 
 Retreive information about a specific [token](/payments/features/tokenization).
 
 **Parameter**
 
 ----------------
-__token__ | string | required
+`token` | string | required
 
 The unique token linked to the customer reference.  
 

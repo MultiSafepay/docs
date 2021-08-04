@@ -78,7 +78,7 @@ def find_links(path):
     return matches
 
 
-if __name__ == "__main__":
+if `name` == "__main__":
     status = main()
     if status:
         raise ValueError

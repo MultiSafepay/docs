@@ -1,9 +1,10 @@
 ---
-weight: 225
-meta_title: "API Reference - Cancel a transaction - MultiSafepay Docs"
+weight: 206
+meta_title: "API Reference - Cancel an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#cancel-pre-transaction-sessionid
+    - /api/#cancel-a-transaction
 ---
 {{< code-block >}}
 > PATCH - /orders 
@@ -26,20 +27,20 @@ aliases:
 ```
 {{< /code-block >}}
 {{< description >}}
-## Cancel a transaction 
+### Cancel an order 
 
 Cancel a pretransaction and/or a transaction based on the `sessionid`.
 
 **Parameters**
 
 ----------------
-__status__ | string | required
+`status` | string | required
 
-The status of the order.  
+The [order status](/api/multisafepay-statuses/) of the order.  
 Fixed value: `cancelled`.
 
 ----------------
-__exclude_order__ | integer | required
+`exclude_order` | integer | required
 
 Sets the outcome of the cancellation.  
 To cancel the pretransaction, set to `1`.  

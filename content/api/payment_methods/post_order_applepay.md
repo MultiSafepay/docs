@@ -99,49 +99,49 @@ To avoid an error if the customer's device doesn't support Apple Pay, we recomme
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.    
 Fixed value: `APPLEPAY`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`, otherwise it is `string`.  
 Format: Maximum 35 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__manual__ | string | required
+`manual` | string | required
 
 Fixed value: `false`.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
@@ -158,38 +158,38 @@ For a detailed integration manual, see [Apple Pay direct integration](/payments/
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string
 
 Specifies the payment flow for the checkout process. For the Apple Pay direct integration, use `direct`.  
 
 ----------------
-__gateway__ | string
+`gateway` | string
 
 For Apple Pay payments, use `APPLEPAY`.
 
 ----------------
-__order_id__ | integer / string
+`order_id` | integer / string
 
 Your unique identifier for the order. Maximum number of characters: 35.
 
 ----------------
-__currency__ | string
+`currency` | string
 
 The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
 
 ----------------
-__amount__ | integer
+`amount` | integer
 
 The amount (in cents) that the customer needs to pay.
 
 ----------------
-__description__ | string
+`description` | string
 
 A text which will be shown with the order in your MultiSafepay account. Max 200 characters.
 
 ----------------
 
-__payment_options.notification_url__ | string
+`payment_options.notification_url` | string
 
 Your webhook endpoint that handles transaction updates.
 

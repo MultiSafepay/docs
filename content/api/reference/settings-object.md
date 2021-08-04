@@ -1,5 +1,5 @@
 ---
-weight: 608
+weight: 610
 meta_title: "API Reference - settings (object) - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -114,35 +114,42 @@ Contains:
 **Parameters**
 
 ----------------
-__hide_logo__ | boolean | optional
+`hide_logo` | boolean | optional
 
 Hides header logo
 
-__iframe_mode__ | boolean | optional
+----------------
+`iframe_mode` | boolean | optional
 
 Hides various sections, e.g. logo, header
 
-__hide_flags__ | boolean | optional
+----------------
+`hide_flags` | boolean | optional
 
 Hides flags container.
 
-__hide_powered__ | boolean | optional
+----------------
+`hide_powered` | boolean | optional
 
 Hides powered link.
 
-__hide_cart__ | boolean | optional
+----------------
+`hide_cart` | boolean | optional
 
 Hides cart container.
 
-__hide_btn_cancel__ | boolean | optional
+----------------
+`hide_btn_cancel` | boolean | optional
 
 Hides **Cancel** button.
 
-__hide_cc_logos__ | boolean | optional
+----------------
+`hide_cc_logos` | boolean | optional
 
 Hides credit card logos.
 
-__hide_btn_all_methods__ | boolean | optional
+----------------
+`hide_btn_all_methods` | boolean | optional
 
 Hides **All methods** button.
 

@@ -157,7 +157,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 
 ### Redirect the customer
 
-**1.** From your server, pass the `response` to the POST `/orders` request to the customer's device. 
+**1.** From your server, pass the `response` to the `POST /orders` request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 

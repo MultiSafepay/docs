@@ -1,9 +1,10 @@
 ---
-weight: 1302
+weight: 228
 meta_title: "API Reference - Credit card server to server requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#credit-cards-server-to-server
+    - /api/#credit-card-requests
 ---
 {{< code-block >}}
 > POST - /orders
@@ -59,9 +60,9 @@ aliases:
     "amount_refunded": 0,
     "costs": [
       {
+        "transaction_id": 123456789,
         "amount": ,
         "description": "",
-        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -138,45 +139,57 @@ aliases:
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Options: `VISA`, `MASTERCARD`, `AMEX`, `MAESTRO`, `CREDITCARD`.  
 When set to `CREDITCARD`, the type of credit card is detected based on the first four digits.
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 Contains:  
 
-__card_number__ | string
+`card_number` | string
 
 The customer's full credit card number.
 
-__card_holder_name__ | string
+`card_holder_name` | string
 
 The name of the cardholder on the credit card.
 
-__card_expiry_date__ | string
+`card_expiry_date` | string
 
 The expiry date on the credit card.
 
-__card_cvc__ | string
+`card_cvc` | string
 
 The card verification code (CVC) is a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  
 For some cards, like MAESTRO, this may not be required.  
 CVC is also not required for recurring transactions.
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
 
 ----------------
 

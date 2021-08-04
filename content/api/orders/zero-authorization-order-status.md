@@ -1,5 +1,9 @@
 ---
-weight: 1371
+weight: 239
+meta_title: "API Reference - Get zero authorization order details - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#order-status
 ---
 {{< code-block >}}
 > GET - /orders/<order_id>
@@ -80,19 +84,29 @@ weight: 1371
 ```
 {{< /code-block >}}
 {{< description >}}
-### Order Status
+### Get zero authorization order details
 
 **Parameter**
 
 ----------------
-__order_id__ | string / integer
+`order_id` | string / integer
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
-----------------
+**Response**
 
-See also [Zero Authorization](/payments/features/zero-authorization).
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
+----------------
 
 {{% /description %}}

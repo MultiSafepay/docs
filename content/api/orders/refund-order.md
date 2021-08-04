@@ -1,5 +1,5 @@
 ---
-weight: 235
+weight: 212
 meta_title: "API Reference - Process a refund - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -32,33 +32,33 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-## Process a refund
+### Refund an order
 Process a full or partial [refund](/payments/refunds/) for an order.
 
 **Parameters**
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency to process the refund in.  
 This must be the same as the original transaction.  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) to be refunded.  
 
 **Note:** A 0 amount triggers a full refund. Use when the current balance of the transaction is unknown.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
 Format: Maximum 200 characters.  

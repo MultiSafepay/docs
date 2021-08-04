@@ -1,5 +1,5 @@
 ---
-weight: 541
+weight: 235
 meta_title: "API Reference - Create tokenization order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -40,9 +40,9 @@ aliases:
         "amount_refunded": 0,
         "costs": [
             {
+                "transaction_id": 123456789,
                 "amount": 0.6,
                 "description": "Create tokenization order",
-                "transaction_id": 123456789
                 "type": "SYSTEM"
             }
         ],
@@ -121,71 +121,83 @@ Create a [tokenization](/payments/features/tokenization) order.
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.     
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.   
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__recurring_id__ | string | required
+`recurring_id` | string | required
 
 The unique identifier for the recurring payment.
 
 ----------------
-__recurring_model__ | string | required
+`recurring_model` | string | required
 
 The recurring model.  
 Options: `unscheduled`, `subscription`, `cardonfile`.
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.     
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
 Format: Maximum 200 characters.  
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__account_holder_name__ | string
+`account_holder_name` | string
 
-The customer’s name here if provided in transaction request.
+The name of the account holder to be charged for the transaction.
 
 ----------------
-__card_expiry_date__ | string
+`card_expiry_date` | string
 
 The expiry date on the credit card.
 
 ----------------
-__reason__ | string
+`reason` | string
 
-Add a short text memo based on the capture reason of the order.
+The capture reason for the order.
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
 
 ----------------
 

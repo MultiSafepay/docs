@@ -52,56 +52,56 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
 Options: `MISTERCASH`.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency for the order.  
 Fixed value: `EUR`.
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 `qr_enabled` = 1 invokes the `qr_url`.  
 This parameter contains a deeplink to Bancontact/MisterCash, which can be encoded into a QR image.  
 If the request is successful, you receive 2 links: a payment link and a `qr_url`. 
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 

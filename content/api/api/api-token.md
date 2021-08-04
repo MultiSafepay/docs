@@ -23,6 +23,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 API tokens are used to encrypt sensitive payment details from a customer's device.
 
-Generate a new token for every order, **except** POST `/orders` requests initiated from your server.
+Generate a new token for every order, **except** `POST /orders` requests initiated from your server.
 
 {{% /description %}}

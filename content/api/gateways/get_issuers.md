@@ -75,7 +75,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-__code__ | string
+`code` | string | required
 
 The unique identifier of the payment gateway you want to retrieve a list of issuers for.  
 Supported identifiers: [iDEAL](#ideal-issuers) 

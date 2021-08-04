@@ -259,97 +259,104 @@ See also Payment methods – [E-Invoicing](/payments/methods/billing-suite/e-inv
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `EINVOICE`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).  
 
 ----------------
-__delivery__ | object
+`delivery` | object
 
 See [delivery (object)](/api/#delivery-object).
 
 ----------------
-__shopping_cart__ | object
+`shopping_cart` | object
 
 See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
-__items__ | object
+`items` | object
  
 See [items (object)](/api/#items-object/).
 
 ----------------
-__checkout_options__ | object
+`checkout_options` | object
 
 The definitions for the VAT class.
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 The customer data (`issuer_id`) required for conducting credit checks.                                                                
 
 Contains:  
 
-__birthday__ | string
+`birthday` | string
 
 The customer's date of birth.  
 Format: yyyy-mm-dd.                             
 
-__bank_account__ | string
+`bank_account` | string
 
 The customer's (formatted) international bank account number (IBAN).  
 This is required for credit checks. 
 
-__phone__ | string
+`phone` | string
 
 The customer's phone number.  
 Required for credit checks and to contact the customer in case of non-payment. 
 
-__email__ | string
+`email` | string
 
 The email address for sending payment instructions to the customer.  
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
 
 ----------------
 
@@ -358,95 +365,95 @@ The email address for sending payment instructions to the customer.
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Fixed value: `EINVOICE`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).    
 
 ----------------
-__delivery__ | object
+`delivery` | object
 
 See [delivery (object)](/api/#delivery-object).
 
 ----------------
-__shopping_cart__ | object
+`shopping_cart` | object
 
 See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
-__items__ | object
+`items` | object
   
 See [items (object)](/api/#items-object/).
 
 ----------------
-__checkout_options__ | object
+`checkout_options` | object
 
 The definitions for the VAT class.
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 The customer data (`issuer_id`) required for conducting credit checks.                                                                
 
 Contains:  
 
-__birthday__ | string
+`birthday` | string
 
 The customer's date of birth.  
 Format: yyyy-mm-dd.                             
 
-__bank_account__ | string
+`bank_account` | string
 
 The customer's (formatted) international bank account number (IBAN).  
 This is required for credit checks. 
 
-__phone__ | string
+`phone` | string
 
 The customer's phone number.  
 Required for credit checks and to contact the customer in case of non-payment. 
 
-__email__ | string
+`email` | string
 
 The email address for sending payment instructions to the customer.  
 

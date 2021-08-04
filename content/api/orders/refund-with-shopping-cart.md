@@ -1,5 +1,5 @@
 ---
-weight: 245
+weight: 213
 meta_title: "API Reference - Refund with shopping cart - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -45,12 +45,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 {{< /code-block >}}
 {{< description >}}
-## Refund with shopping cart
+### Refund with shopping cart
 Refund [post-payment](/payments/methods/billing-suite/) orders that include a `shopping_cart` object.
 
-1. Make a GET `/orders/{id}` request to retrieve the items in the shopping cart.
+1. Make a `GET /orders/{id}` request to retrieve the items in the shopping cart.
 
-2. Add or remove items in the POST `/orders/{id}/refunds` request, depending on the type of post-payment method:    
+2. Add or remove items in the `POST /orders/{id}/refunds` request, depending on the type of post-payment method:    
     - For Klarna, add a "copy" of the item to refund with a negative `unit_price`.  
     - For all other post-payment methods, set a negative `quantity`.
 &nbsp;      
@@ -61,7 +61,7 @@ In the example, two out of three geometric candle holders were refunded. The exa
 **Parameter**
 
 ----------------
-__checkout_data__ | object | required
+`checkout_data` | object | required
 
 Contains the original `shopping_cart` object **and** copied items to be refunded. 
 

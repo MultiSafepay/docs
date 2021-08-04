@@ -1,5 +1,5 @@
 ---
-weight: 547
+weight: 513
 meta_title: "API Reference - Update card expiry date - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -43,7 +43,7 @@ Make a PATCH request with the required placeholders in the URL:
 **Parameter**
 
 ----------------
-__expiry_date__ | integer | required
+`expiry_date` | integer | required
 
 The updated expiry date.  
 Format: `monthnumberdatenumber`.  

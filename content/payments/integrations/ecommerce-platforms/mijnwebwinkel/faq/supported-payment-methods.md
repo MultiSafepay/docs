@@ -8,12 +8,12 @@ aliases:
     - /integrations/mijnwebwinkel/faq/available-payment-methods-mijnwebwinkel/
 ---
 
-__Credit cards__
+**Credit cards**
 
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/mastercard/visa)
 
-__Banks__
+**Banks**
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -23,15 +23,15 @@ __Banks__
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
-__Billing suites__
+**Billing suite**
 
 + [Klarna](/payments/methods/billing-suite/klarna)
 
-__Wallets__
+**Wallets**
 
 + [PayPal](/payments/methods/wallet/paypal)
 
-__Prepaid cards__
+**Prepaid cards**
 
 + [Baby Cadeaubon](https://www.babycadeaubon.nl)
 + Beauty & Wellness

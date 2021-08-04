@@ -1,6 +1,6 @@
 ---
-weight: 543
-meta_title: "API Reference - Retrieve tokenization order details - MultiSafepay Docs"
+weight: 236
+meta_title: "API Reference - Get tokenization order details - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#get-order-details
@@ -19,9 +19,9 @@ aliases:
         "amount_refunded": 0,
         "costs": [
             {
-                "amount": ,
+                "transaction_id": 123456789,
+                "amount": 0,
                 "description": "Tokenization Test Order",
-                "transaction_id": 123456789
                 "type": "SYSTEM"
             }
         ],
@@ -69,7 +69,7 @@ aliases:
                 "amount": 10000,
                 "card_expiry_date": 4412,
                 "currency": "EUR",
-                "description": "Tokenization – Test Order",
+                "description": "Test tokenization order",
                 "external_transaction_id": 234374824,
                 "payment_description": "Visa CreditCards",
                 "status": "completed",
@@ -89,18 +89,30 @@ aliases:
 
 {{< description >}}
 
-### Retrieve order details 
+### Get tokenization order details 
 
 Retreive details about a [tokenization](/payments/features/tokenization) order.
 
 **Parameter**
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.   
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
 
 ----------------
 

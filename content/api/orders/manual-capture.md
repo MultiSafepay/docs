@@ -1,5 +1,9 @@
 ---
-weight: 1350
+weight: 218
+meta_title: "API Reference - Cancel an authorized or reserved transaction - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#manual-capture-authorization
 ---
 
 {{< code-block >}}
@@ -42,88 +46,68 @@ weight: 1350
 ```
 {{< /code-block >}}
 {{< description >}}
-## Manual capture authorization
+## Manual capture orders
 
-Manual Capture is a feature that allows payments to be captured once an order has been shipped or received. The API calls mandate whether a transaction should be captured partially or fully, as well as the authorization and cancellation of the transaction.
+See [Manual capture](/payments/features/manual-capture). 
 
-The feature can only be used with specific credit card payment methods including MasterCard, VISA and Maestro.
+This only applies to specific credit card payment methods, including MasterCard, VISA and Maestro.
+
+### Create a manual capture order
 
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.    
 Options: `redirect`, `direct`, `checkout`, `paymentlink`.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
-
 ----------------
-__capture__ | string
+`capture` | string
 
 A manual capture has been generated. 
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__locale__ | string
 
-Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
-Default: `en_US`.
-
-----------------
-__ip_address__ | string
-
-The customer's IP address.   
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods. MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.
-
-----------------
-
-__close_window__ | bool | optional
-
-
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
-
-----------------
-
-See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

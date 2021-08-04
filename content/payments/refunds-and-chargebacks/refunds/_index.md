@@ -87,7 +87,7 @@ You can process refunds in the backend of most ecommerce platforms. For more inf
 
 ## Via our API
 
-For post-payment methods, you can also refund via our API. Make a POST `/orders/{order_id}/refunds` request. 
+For post-payment methods, you can also refund via our API. Make a `POST /orders/{order_id}/refunds` request. 
 
 See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 

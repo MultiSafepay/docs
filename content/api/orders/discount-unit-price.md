@@ -1,18 +1,19 @@
 ---
-weight: 352
-meta_title: "API Reference - Discount added as unit price - MultiSafepay Docs"
+weight: 215
+meta_title: "API Reference - Discount with unit price - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#unit-price-discounts
 ---
 {{< description >}}
-## Unit price discounts 
-For [post-payment methods](/payments/methods/billing-suite/), add discounts as a unit price. 
+### Discount with unit price 
+For [post-payment methods](/payments/methods/billing-suite/), add discounts as a unit price. The example request is for a 20% discount on all unit prices.
 
 No negative order rule is created, which avoids the refund conflict that can arise if you add discounts as separate discount rules or order rules.
 {{% /description %}}
 
 {{< code-block >}}
-> Example with 20% discount calculated in all unit prices:
-
+> POST /orders  
 ```json 
 {
     "type": "redirect",

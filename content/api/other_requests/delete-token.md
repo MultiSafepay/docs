@@ -1,5 +1,5 @@
 ---
-weight: 542
+weight: 514
 meta_title: "API Reference - Delete a token - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -32,7 +32,7 @@ Delete a token related to a single customer reference.
 **Parameter**
 
 ----------------
-__token__ | string | required
+`token` | string | required
 
 The unique token identifier linked to the customer reference.  
 

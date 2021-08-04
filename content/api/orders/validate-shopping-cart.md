@@ -1,5 +1,5 @@
 ---
-weight: 270
+weight: 210
 meta_title: "API Reference - Validate shopping cart - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -19,7 +19,7 @@ aliases:
 
 {{< description >}}
 
-## Validate shopping cart
+### Validate shopping cart
 
 Applies to non-[post payment](/payments/methods/billing-suite/) methods.
 

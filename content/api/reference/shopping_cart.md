@@ -1,5 +1,5 @@
 ---
-weight: 609
+weight: 611
 meta_title: "API Reference - Shopping cart - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -35,50 +35,59 @@ Contains:
 **Parameters**
 
 ----------------
-__name__ | string | required
+`name` | string | required
 
 The customer's name.
 
-__description__ | string | required
+----------------
+`description` | string | required
 
 A description of the item that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
-__unit_price__ | float | required
+----------------
+`unit_price` | float | required
 
 The unit price (in decimals) of the item, excluding VAT.  
 Format: Maximum 10 decimal places.
 
-__quantity__ | integer | required
+----------------
+`quantity` | integer | required
 
 The number of units of the item. 
 
-__merchant_item_id__ | string | required
+----------------
+`merchant_item_id` | string | required
 
 Fixed value: `msp-shipping`.
 
-__tax_table_selector__ | string | required
+----------------
+`tax_table_selector` | string | required
 
 The tax ruling.  
 
 **Note:** A 0 value throws an error: _'1029: Invalid tax rate specified for item'_.  
 Format: The `tax_table_selector` and `tax_table` names are both `strings`.
 
-__weight__ | string | required
+----------------
+`weight` | string | required
 
 The weight of the item.  
 
-__options__ | string | required
+----------------
+`options` | string | required
 
 An array of objects including `id`, `set_id`, `value`, `price`, `type`, and `price_type`. 
 
-__value__ | integer | required
+----------------
+`value` | integer | required
 
 The weight of the item corresponding to the [unit](/api/#unit).  
 Example: unit= KG, value= 12. The weight of the item is 12 kilograms. 
 
-__unit__ | string | required
+----------------
+`unit` | string | required
 
 The unit of weight, e.g. `KG`.
 

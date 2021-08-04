@@ -1,5 +1,9 @@
 ---
-weight: 1351
+weight: 219
+meta_title: "API Reference - Full capture - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#full-capture
 ---
 {{< code-block >}}
 
@@ -35,43 +39,44 @@ weight: 1351
 **Parameters**
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__new_order_id__ | integer / string
+`new_order_id` | integer / string
 
 Your unique identifier for the order.  
 Format: Maximum 50 characters.    
 
 ----------------
-__new_order_status__ | string
+`new_order_status` | string
 
 The updated status of the order. 
 
 ----------------
-__invoice_id__ | integer / string
+`invoice_id` | integer / string
 
-Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within your MultiSafepay account (max. 50 chars).  
+Update an existing order with a reference to your invoice ID.  
+The invoice ID is added to [reports](/business/accounting/reports/) generated from your MultiSafepay account.  Format: Maximum 50 characters.  
 
 ----------------
-__carrier__ | string
+`carrier` | string
 
 The name of the shipping company delivering the customer’s order.
 
 ----------------
-__reason__ | string
+`reason` | string
 
-Add a short text memo based on the capture reason of the order.       
-
-----------------
-__memo__ | string
-
-Add a short action text memo mentioning the shipping status of the order.     
+The capture reason for the order.       
 
 ----------------
-__order_id__ | integer / string | required
+`memo` | string
+
+The shipping status of the order.     
+
+----------------
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
@@ -79,5 +84,4 @@ Format: Maximum 50 characters.
 
 ----------------
 
-See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

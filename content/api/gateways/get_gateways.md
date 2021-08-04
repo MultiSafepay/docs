@@ -29,17 +29,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 **Parameters**
 
 ----------------
-__include__ | string | optional
+`include` | string | optional
 
 Additional payment methods you want to specify.  
-Format: Comma delimited.
+Format: Comma delimited.  
+Options: `coupons`.  
+To include **all** gift cards your website supports in the response, add the `include=coupons` value to your GET request. Otherwise, only one gift card is returned in the response.
 
 ----------------
-__Options:__ coupons
 
-----------------
 
-To include **all** gift cards your website supports in the response, add the __include=coupons__ value to your GET request. Otherwise, only one gift card is returned in the response.
 
 
 {{% /description %}}

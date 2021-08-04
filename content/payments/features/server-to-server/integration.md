@@ -12,7 +12,7 @@ To integrate Server to Server using our API, see API Reference – [Server to Se
 
 {{< details title="3D Secure requests" >}}
 
-Make a `direct` POST `/orders` request. 
+Make a `direct` `POST /orders` request. 
 
 ```
 "type": "direct",
@@ -32,7 +32,7 @@ Otherwise, you can use the rendered HTML form returned in the response.
 
 Once the customer has successfully processed the verification step to finalize the payment, we send **Completed** status to your backend via the `notification_url`.
 
-To retrieve more information about the order, make a GET `/orders/{order_id}` request. 
+To retrieve more information about the order, make a `GET /orders/{order_id}` request. 
 
 {{< /details >}}
 

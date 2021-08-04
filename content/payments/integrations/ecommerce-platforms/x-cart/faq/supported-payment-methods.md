@@ -8,13 +8,13 @@ weight: 1
 aliases: 
     - /integrations/x-cart/faq/available-payment-methods-x-cart/
 ---
-__Credit cards__
+**Credit cards**
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
-__Banks__
+**Banks**
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -34,7 +34,7 @@ __Banks__
 + [V PAY](/payments/methods/credit-and-debit-cards/vpay)
 
 
-__Billing suites__
+**Billing suite**
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
@@ -42,12 +42,12 @@ __Billing suites__
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
-__Wallets__ 
+**Wallets** 
 
 + [Alipay](/payments/methods/wallet/alipay)
 + [PayPal](/payments/methods/wallet/paypal)
 
-__Prepaid cards__ 
+**Prepaid cards** 
 
 + Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)

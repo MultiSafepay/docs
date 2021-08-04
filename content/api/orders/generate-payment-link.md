@@ -1,6 +1,8 @@
 ---
-weight: 1360
+weight: 217
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#generating-a-payment-link
 ---
 {{< code-block >}}
 > POST - /orders
@@ -45,65 +47,64 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Generating a payment link
+## Generate payment links
 
 Generate a payment link.  Your MultiSafepay account creates a unique transaction to match to the payment.
-
-See [Send second chance emails](/api/#send-second-chance-emails).
-
-{{< alert-notice >}} Payment links no longer send Second Chance emails by default. You must include the Second Chance script in the JSON request. See the Second Chance JSON script on the right-hand side. {{< /alert-notice >}}
-
 
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
-The payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in your MultiSafepay account under _Tools_ > _Payment link generator_
+The payment flow for the checkout process.  
+Fixed value: `paymentlink`.  
+These orders are visible in your MultiSafepay account under **Tools** > **Payment link generator**.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters. 
 
 ----------------
-__gateway__ (optional) | string 
+`gateway` | string | optional
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__second_chance__ | object | optional
+`second_chance` | object | optional
 
 Sends a payment reminder to the customer in the form of an email.
 
+**Note:** Payment links no longer [send second chance emails](/api/#send-second-chance-emails) by default. You must include the Second Chance script in the JSON request as per the example request.
+
 Contains:  
 
-__send_email__ | boolean | optional
+`send_email` | boolean | optional
 
-Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
+- `true`: Sends a Second Chance email to the customer.  
+- `false` or empty: No email reminder is sent.
 
 ----------------
 
-The rest of the fields are optional.
 {{% /description %}}

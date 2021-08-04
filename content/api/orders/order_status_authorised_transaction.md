@@ -1,5 +1,5 @@
 ---
-weight: 1354
+weight: 222
 meta_title: "API Reference - Set order status of authorized transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -62,10 +62,10 @@ aliases:
         },
         "costs": [
             {
-                "transaction_id": 123456789
+                "transaction_id": 123456789,
+                "amount": 2.83,
                 "description": "",
-                "type": "SYSTEM",
-                "amount": 2.83
+                "type": "SYSTEM",   
             }
         ],
         "related_transactions": null,
@@ -93,13 +93,24 @@ aliases:
 **Parameter**
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
 ----------------
 
-See also [Manual Capture](/payments/features/manual-capture).
 {{% /description %}}

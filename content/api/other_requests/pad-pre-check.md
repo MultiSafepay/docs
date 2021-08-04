@@ -1,5 +1,5 @@
 ---
-weight: 510
+weight: 520
 meta_title: "API Reference - Pay After Delivery pre-check - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -181,74 +181,74 @@ If not accepted, the customer must select another payment method to complete pay
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__gateway_info__ | object | required
+`gateway_info` | object | required
 
 Contains:  
 
-__issuer_id__ | string | required
+`issuer_id` | string | required
 
 The unique identifier of the gateway issuer.  
 See [Retrieve gateway issuers](/api/#gateway-issuers). 
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__delivery__ | object | required
+`delivery` | object | required
 
 See [delivery (object)](/api/#delivery-object).
 
 ----------------
-__shopping_cart__ | object | required – or use `items`
+`shopping_cart` | object | required – or use `items`
 
 See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
-__items__ | object | required – or use `shopping_cart`
+`items` | object | required – or use `shopping_cart`
 
 See [items (object)](/api/#items-object/).
 

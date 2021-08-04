@@ -1,5 +1,5 @@
 ---
-weight: 255
+weight: 209
 meta_title: "API Reference - Send second chance emails - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
@@ -16,7 +16,7 @@ aliases:
  ```
 {{< /code-block >}}
 {{< description >}}
-## Send Second chance emails
+### Send second chance emails
 
 If the customer didn't complete the payment, you can email a reminder containing a payment link.
 
@@ -30,13 +30,13 @@ You can enable/disable Second Chance emails per transaction request. The system 
 **Parameters**
 
 ----------------
-__second_chance__ | object | required
+`second_chance` | object | required
 
 Sends a reminder email to the customer containing a payment link.  
 
 Contains:  
 
-__send_email__ | boolean | required
+`send_email` | boolean | required
 
 Options:  
 
@@ -51,7 +51,7 @@ When a customer plaes an order, goes to the checkout page, doesn't complete paym
 
 Cancelling the first order doesn't suppress Second Chance emails.
 
-To suppress Second Chance emails, send a PATCH `/orders` request containing the following parameters:
+To suppress Second Chance emails, send a `PATCH /orders` request containing the following parameters:
 ``` 
 "status": "cancelled",
 "exclude_order": 1

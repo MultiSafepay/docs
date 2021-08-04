@@ -40,7 +40,7 @@ There are two ways to initiate a transaction:
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
 1. In your API testing environment, enter your test API key.
-2. For the payment method you want to test, on the API Reference - [Payment methods](/api/#payment-methods) page, make a POST `/orders` request. Make sure you include __all__ required parameters in the request.
+2. For the payment method you want to test, on the API Reference - [Payment methods](/api/#payment-methods) page, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
 
 ## 2. Complete the payment
 
@@ -66,12 +66,12 @@ For custom-built integrations, first create a webhook listener that listens at t
 
 For all integrations, to set the notification URL in your MultiSafepay test account, follow these steps:
 
-1. Go to __Settings__ > __Website settings__.
+1. Go to **Settings** > **Website settings**.
 2. Select the relevant website.
-3. In the __Notification URL__ field, enter your [notification URL](/tools/multisafepay-control/setting-your-notification-url/).
-4. Click __Save__.
+3. In the **Notification URL** field, enter your [notification URL](/tools/multisafepay-control/setting-your-notification-url/).
+4. Click **Save**.
 
-__Note:__ If you provide a `notification_url` in your POST `/orders` request, it overides the notification URL in your MultiSafepay test account. 
+**Note:** If you provide a `notification_url` in your `POST /orders` request, it overides the notification URL in your MultiSafepay test account. 
 
 ## 5. Check your connection with MultiSafepay
 
@@ -80,7 +80,7 @@ To check that you have succesfully connected to our system, follow these steps:
 1. Sign in to your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 2. Go to **Transactions** > **Transactions overview**.
 3. Select the transaction to view the **Transaction details** page.
-4. Under __Offline actions__, in the __Status__ field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
+4. Under **Offline actions**, in the **Status** field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
 
 **Note:** Once your live account is approved, ensure you use the API key from your live account instead of your test account.
 

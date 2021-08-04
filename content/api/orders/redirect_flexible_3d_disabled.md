@@ -1,6 +1,6 @@
 ---
-weight: 1306
-meta_title: "API Reference - Redirect: Flexible 3D set to false - MultiSafepay Docs"
+weight: 232
+meta_title: "API Reference - Redirect: Flexible 3D disabled - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#redirect-flexible-3d-set-on-_false_
@@ -59,7 +59,7 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-### Redirect: Flexible 3D set to false
+### Redirect: Flexible 3D disabled
 
 Use [Flexible 3D](/payments/features/flexible-3ds/) to set whether or not to complete the transaction with [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/) verification.
 
@@ -74,63 +74,63 @@ To enable 3D Secure, in the `POST /orders` request > `gateway_info` object, set 
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 Options: `VISA`, `MASTERCARD`. 
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).  
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
 ----------------
-__gateway_info__ | object | required
+`gateway_info` | object | required
 
 Contains:  
 
-__flexible_3d__ | boolean | required
+`flexible_3d` | boolean | required
 
 - `true`: enables 3D Secure verification
 - `false`: disable 3D Secure verification
 
-__term_url__ | string | required
+`term_url` | string | required
 
 The URL to inform the card [issuer](/credit-and-debit-cards/glossary/#issuer) where to redirect the authorisation query. 
 

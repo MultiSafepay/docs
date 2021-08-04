@@ -6,13 +6,13 @@ read_more: "."
 aliases: 
     - /integrations/myshop/faq/available-payment-methods-myshop/
 ---
-__Credit cards__
+**Credit cards**
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa)
 
-__Banks__
+**Banks**
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -25,19 +25,19 @@ __Banks__
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
 
-__Billing suites__
+**Billing suite**
 
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
 
-__Wallets__
+**Wallets**
 
 + [FastCheckout](/payments/methods/fastcheckout)
 + [PayPal](/payments/methods/wallet/paypal)
 
 
-__Prepaid cards__
+**Prepaid cards**
 
 + [123TCS](/payments/methods/prepaid-cards/gift-cards)
 + [Intersolve](/payments/methods/prepaid-cards/gift-cards)

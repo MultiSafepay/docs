@@ -33,7 +33,7 @@ You can link Bank Transfer directly to your website. When a customer selects Ban
 
 To simplify transfers for customers and avoid them incurring international transfer and currency conversion fees, MultiSafepay has a local bank account in several European countries in the local currency. Customers then only pay the standard fee charged by their bank.
 
-To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your POST `/orders` request in the `country` parameter, e.g. `"country": "DE",`.
+To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your `POST /orders` request in the `country` parameter, e.g. `"country": "DE",`.
 
 {{< details title="View countries" >}}
 

@@ -8,13 +8,13 @@ aliases:
     - /integrations/ccvshop/faq/available-payment-methods-ccv-shop/
 ---
 
-__Credit cards__
+**Credit cards**
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
-__Banks__
+**Banks**
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)

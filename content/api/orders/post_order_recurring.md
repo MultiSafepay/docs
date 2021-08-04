@@ -1,5 +1,5 @@
 ---
-weight: 240
+weight: 224
 meta_title: "API Reference - Recurring payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -86,73 +86,73 @@ To process recurring payments:
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The payment method used for the checkout process.  
 Options: `AMEX`, `DIRDEB`, `MASTERCARD`, `VISA`.  
 Use DIRDEB when the initial payment was made using iDEAL, SOFORT, or SEPA Direct Debit. 
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__recurring_id__ | integer | required
+`recurring_id` | integer | required
 
 The unique identifier for the recurring payment.
 
 ----------------
-__recurring_flow__ | string | required
+`recurring_flow` | string | required
 
 The tokenization method used to create the recurring payment.  
 Options: `token`
 
 ----------------
-__recurring_model__ | string | required
+`recurring_model` | string | required
 
 The recurring model.  
 Options: `unscheduled`, `subscription`, `cardonfile`.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.  
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). 
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__notification_method__ | string
+`notification_method` | string
 
 Sends push notification.  
 Options: `POST`, `GET`. Default: `GET`.
 
 ----------------
-__customer__ | object | required
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 

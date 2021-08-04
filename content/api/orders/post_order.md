@@ -1,5 +1,5 @@
 ---
-weight: 205
+weight: 202
 meta_title: "API Reference - Create a redirect order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -62,70 +62,76 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Create a redirect order
+### Create a redirect order
 
 This is the default type of order.
 
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `redirect`, `direct`, `checkout`, `paymentlink`.
 
 ----------------
-__gateway__ | string | required
-
-The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).
-
-----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`gateway` | string | required
+
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
+
+----------------
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
-
-See [payment_options (object)](/api/#payment-options-object).
-
-----------------
-__google_analytics__ | object | optional
+`google_analytics` | object | optional
 
 Your Google Analytics site ID, which is injected into the payment page so you can trigger custom events and track payment metrics.  
 For more information, see [Google Analytics tracking via the API](/developer/api/google-analytics-tracking).
 
-----------------
-__account__ | string | optional
+Contains:  
+
+`account` | string | optional
 
 The Google Analytics Tracking-ID.  
 See your Google Analytics dashboard. 
 
 ----------------
-__customer__ | object | required
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
+
+----------------
+`second_chance` | object | optional
+
+See [Send second chance emails](/api/#send-second-chance-emails).
 
 ----------------
 

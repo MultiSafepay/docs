@@ -1,5 +1,5 @@
 ---
-weight: 210
+weight: 203
 meta_title: "API Reference - Create a direct order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 url: '/api/create-direct-order/'
@@ -79,10 +79,10 @@ url: '/api/create-direct-order/'
     },
     "costs": [
       {
-        "transaction_id": 123456789
+        "transaction_id": 123456789,
+        "amount": ,
         "description": "iDEAL Transactions",
-        "type": "SYSTEM",
-        "amount": 
+        "type": "SYSTEM"
       }
     ],
     "payment_url": "https://betalen.rabobank.nl/ideal-betaling/landingpage?random=44b2dcf080f29f6f52d05802fd76e31285ac564dc974319f0109e1d978234770&trxid=0050003729272772"
@@ -94,7 +94,7 @@ url: '/api/create-direct-order/'
 
 {{< description >}}
 
-## Create a direct order
+### Create a direct order
 
 Supported payment methods:   
 ALIPAY, BANKTRANS, BELFIUS, CBC, CREDITCARD, DIRDEB, DIRECTBANK, EINVOICE, IDEAL, ING, KBC, KLARNA, PAYAFTER, PAYPAL
@@ -104,56 +104,63 @@ For additional **required** information, see the relevant [payment method](/api/
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`.
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.  
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). 
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
 Format: Maximum 200 characters.  
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__gateway_info__ | object
+`gateway_info` | object
 
 Contains:  
 
-__issuer_id__ | string | required
+`issuer_id` | string | required
 
 The unique identifier of the gateway issuer.  
-To retrieve issuer IDs, see [Retrieve gateway issuers](/api/#gateway-issuers).
+See [Retrieve gateway issuers](/api/#gateway-issuers).
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
 
 ----------------
 

@@ -1,5 +1,5 @@
 ---
-weight: 220
+weight: 208
 meta_title: "API Reference - Apply dynamic template - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -130,7 +130,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Apply dynamic template
+### Apply dynamic templates
 
 To apply a template to the [MultiSafepay payment page](/payments/checkout/payment-pages/), include in the transaction request:
 
@@ -148,43 +148,43 @@ When sending images in the template structure for the logo and header, you must 
 **Parameters**
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__template__ | object | optional
+`template` | object | optional
 
 A template object structure.  
 The template structure overrides the `template_id`.
@@ -194,7 +194,7 @@ Contains:
 See [settings (object)](/api/#settings-object).
 
 ----------------
-__template_id__ | string | optional
+`template_id` | string | optional
 
 The identifier of a saved template from your MultiSafepay account. 
 The template structure overrides the `template_id`.

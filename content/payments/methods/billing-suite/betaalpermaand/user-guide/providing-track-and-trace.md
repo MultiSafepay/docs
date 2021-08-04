@@ -12,4 +12,4 @@ You can provide track-and-trace codes to MultiSafepay:
 
   **or**  
 
-- Via our API. Make a PATCH `/orders` request to change the order status to **Shipped** and provide the track-and-trace code. For more information, see API Reference – [Update an order](https://docs.multisafepay.com/api/#update-an-order).
+- Via our API. Make a `PATCH /orders` request to change the order status to **Shipped** and provide the track-and-trace code. For more information, see API Reference – [Update an order](https://docs.multisafepay.com/api/#update-an-order).

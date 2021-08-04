@@ -1,5 +1,5 @@
 ---
-weight: 230
+weight: 216
 meta_title: "API Reference - Challenge chargebacks - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -29,33 +29,33 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-## Challenge chargebacks
+### Challenge chargebacks
 
 MultiSafepay can challenge [chargebacks](/payments/chargebacks/) on your behalf. To do so, we need documented proof of the order.
 
-You can upload the files or documents via a POST `/order/{order_id}/files` request.
+You can upload the files or documents via a `POST /order/{order_id}/files` request.
 
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `chargeback`.
 
 ----------------
-__base64__ | string | required
+`base64` | string | required
 
 Binary Base 64 encoded.  
 Format: PDF, JPEG, PNG. 
 
 ----------------
-__description__ | integer | required
+`description` | integer | required
 
 Description of or comments on the submitted file. 
 
 ----------------
-__name__ | string | required
+`name` | string | required
 
 Name of the submitted file.
 

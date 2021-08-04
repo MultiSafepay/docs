@@ -1,5 +1,5 @@
 ---
-weight: 260
+weight: 233
 meta_title: "API Reference - Split payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -53,65 +53,65 @@ For more information, see [Split payments](/payments/features/split-payments/).
 **Parameters**
 
 ----------------
-__type__ | string | required
+`type` | string | required
 
 The payment flow for the checkout process.  
 Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
-__gateway__ | string | required
+`gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__order_id__ | integer / string | required
+`order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------
-__currency__ | string | required
+`currency` | string | required
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__amount__ | integer | required
+`amount` | integer | required
 
 The amount (in cents) the customer needs to pay.
 
 ----------------
-__description__ | string | required
+`description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__payment_options__ | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__split_payments__ | object | required
+`split_payments` | object | required
 
 Contains:  
 
-__split_payments.merchant__ | integer
+`split_payments.merchant` | integer
 
 The account ID of the [affiliated MultiSafepay account](/account/partner-account-control/).   
 
-__split_payments.percentage__ | float
+`split_payments.percentage` | float
 
 Specify a percentage of the amount to split.
 
-__split_payments.fixed__ | integer
+`split_payments.fixed` | integer
 
 Specify the amount to split in cents.
 
-__split_payments.description__ | string
+`split_payments.description` | string
 
 The description of the split payment.
 

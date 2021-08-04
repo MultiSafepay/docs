@@ -30,35 +30,41 @@ Contains:
 **Parameters**
 
 ----------------
-__first_name__ | string | required
+`first_name` | string | required
 
 The customer’s first name.  
 Format: Minimum two characters.  
 We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
 
-__last_name__ | string | required
+----------------
+`last_name` | string | required
 
 The customer’s last name.  
 Format: Minimum two characters.  
 We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
-__address1__ | string | required
+----------------
+`address1` | string | required
 
 The first line of the customer's address. 
 
-__house_number__ | string | required
+----------------
+`house_number` | string | required
 
 The customer's house number.   
 
-__zip_code__ | string | required
+----------------
+`zip_code` | string | required
 
 The customer's ZIP/postal code.                                                 
 
-__city__ | string | required
+----------------
+`city` | string | required
 
 The customer's city of residence.                                           
 
-__country__ | string | required
+----------------
+`country` | string | required
 
 The customer’s country of residence.   
 Format: [ISO 3166-1 country code](https://www.iso.org/iso-3166-country-codes.html).

@@ -7,13 +7,13 @@ read_more: "."
 aliases: 
     - /integrations/drupal7/faq/available-payment-methods-drupal/
 ---
-__Credit cards__
+**Credit cards**
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
-__Banks__
+**Banks**
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -31,20 +31,20 @@ __Banks__
 + [TrustPay](/payments/methods/banks/trustpay)
 + [V PAY](/payments/methods/credit-and-debit-cards/vpay)
 
-__Billing suites__
+**Billing suite**
 
 + [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
-__Wallets__ 
+**Wallets** 
 
 + [Alipay](/payments/methods/wallet/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
 + [PayPal](/payments/methods/wallet/paypal)
 
 
-__Prepaid cards__ 
+**Prepaid cards** 
 
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
 + [Fashioncheque](https://www.fashioncheque.com/nl)

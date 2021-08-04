@@ -39,85 +39,102 @@ Contains:
 **Parameters**
 
 ----------------
-__locale__ | string | required
+`locale` | string | required
 
 Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
 Default: `en_US`. 
 
-__ip_address__ | string | optional but recommended
+----------------
+`ip_address` | string | optional but recommended
 
 The IP address of the customer.  
 Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods.  
 MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.       
 
-__forwarded_ip__ | string | required
+----------------
+`forwarded_ip` | string | required
 
 The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy.  
 For more information, see [Validating customer IP addresses](/developer/api/validating-customer-ip-address).                         
 
-__first_name__ | string | required
+----------------
+`first_name` | string | required
 
 The customer’s first name.  
 Format: Minimum two characters.  
 We recommend always requiring the customer to provide their full name, instead of initials or abbreviations. 
 
-__last_name__ | string | required
+----------------
+`last_name` | string | required
 
 The customer’s last name.  
 Format: Minimum two characters.  
 We recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
-__gender__ | string | required
+----------------
+`gender` | string | required
 
 The customer's gender.   
 
-__birthday__ | string | required
+----------------
+`birthday` | string | required
 
 The customer’s birthday.
 
-__address1__ | string | required
+----------------
+`address1` | string | required
 
 The first line of the customer's address. 
 
-__address2__ | string | required
+----------------
+`address2` | string | required
 
 The second line of the customer’s address. 
 
-__house_number__ | string | required
+----------------
+`house_number` | string | required
 
 The customer's house number.   
 
-__zip_code__ | string | required
+----------------
+`zip_code` | string | required
 
 The customer's ZIP/postal code.                                                 
 
-__city__ | string | required
+----------------
+`city` | string | required
 
 The customer's city of residence.                                           
 
-__country__ | string | required
+----------------
+`country` | string | required
 
 The customer’s country of residence.   
 Format: [ISO 3166-1 country code](https://www.iso.org/iso-3166-country-codes.html).
 
-__phone__ | string | required
+----------------
+`phone` | string | required
 
 The customer's phone number. 
 
-__email__ | string | required
+----------------
+`email` | string | required
 
 The customer’s email address.   
 Used to send [Second Chance](/payments/boost/second-chance/) emails and to conduct fraud checks.
 
-__user_agent__ | string | required
+----------------
+`user_agent` | string | required
 
 A characteristic string that identifies a browser.
 
-__referrer__ | string | required
+----------------
+`referrer` | string | required
 
 The unique identifier of where the user/browser originates from.
 
-__reference__ | string | For tokenization transactions: required
+----------------
+`reference` | string | For tokenization transactions: required
 
 See [Create token transaction](/api/#create-token-transaction).
 
