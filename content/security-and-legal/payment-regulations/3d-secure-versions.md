@@ -11,6 +11,7 @@ aliases:
     - /faq/payment-regulations/about-3d-secure/
     - /faq/payment-regulations/3d-secure-2
 ---
+
 We are working on supporting 3DS 2.0 and we expect to rollout the support in 2021. In the meantime, transactions use 3DS 1.0 and are fully PSD2 compliant.
 
 3DS 2.0 aims to provide better security and greater customer experience than its predecessor. This is achieved through the collection of more contextual data from the customer. The contextual data is used 'behind-the-scenes' to verify the identity of the customer. This reduces the complexity of the check-out flow, resulting in higher conversion and lower cart abandonment.
@@ -26,4 +27,4 @@ Examples of data used for risk assessment include:
 - Transactional history
 - Location of customer
 
-If the contextual data indicates a legitimate transaction, the payment is verified without further user-side authentication. This is also called a frictionless flow. In case the contextual data include abnormalities, the customer is asked to provide additional authentication (e.g. through password, code via SMS or fingerprint).
+If the contextual data indicates a legitimate transaction, the payment is verified without further user-side authentication. This is also called a frictionless flow. In case the contextual data include abnormalities, the customer is asked to provide additional authentication, e.g. through password, code via SMS or fingerprint.
