@@ -8,23 +8,24 @@ aliases:
     - /faq/api/masking-iban-numbers
 ---
 
-International Bank Account Numbers (IBAN) are sensitive data. 
+International bank account numbers (IBANs) are sensitive data. 
 
-For security reasons, we mask IBAN by default in:
+For security reasons, we mask IBANs by default in:
 
-- [POST notifications](/developer/api/notification-url/#post-notification-example)
-- [GET /orders/{order_id}](/api/#retrieve-an-order) responses
+- [`POST` notifications](/developer/api/notification-url/#post-notification-example)
+- [`GET /orders/{order_id} responses`](/api/#retrieve-an-order)
 
 When masked, only the last 4 digits of the IBAN are visible, e.g. `*** 1234`.
 
-### Unmasking IBAN
+### Unmasking IBANs
 
-You can still perform most business operations with masked IBAN, e.g. processing refunds.
+You can still perform most business operations with masked IBANs, e.g. processing refunds.
 
-To unmask IBAN for a specific website, follow these steps:
+To unmask IBANs for a specific website, follow these steps:
 
-1. in your MultiSafepay account, go to **Settings** > **Website settings**.
-2. Click the relevant website.
-3. Under **Website functionality**, click the **Unmask IBAN numbers in API requests and responses** toggle.
+1. Sign in to your MultiSafepay account.
+2. Go to **Settings** > **Website settings**.
+3. Click the relevant website.
+4. Under **Website functionality**, click the **Unmask IBAN numbers in API requests and responses** toggle.
 
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.

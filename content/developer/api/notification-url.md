@@ -16,7 +16,7 @@ Notifications are webhooks where the API notifies your web server when the statu
   
 We add 2 parameters to the notification request:
 
-- `transactionid`  
+- `transaction_id`  
 - `timestamp`
 
 For `POST` requests, we add the order data to the request body.
@@ -26,7 +26,7 @@ You can ignore requests if:
 - We request the `notification_url` without the `timestamp` parameter.  
 - You receive the same `order status`. 
 
-Our API provides a GET and POST notification.
+Our API provides a `GET` and `POST` notification.
 
 ## GET notification example
 We recieve the following request from your web server:

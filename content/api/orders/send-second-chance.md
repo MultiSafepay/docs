@@ -4,6 +4,9 @@ meta_title: "API Reference - Send second chance emails - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#second-chance
+    - /faq/api/disable-second-chance
+    - /faq/api/disabling-second-chance
+    - /developer/api/disabling-second-chance/
 ---
 
 {{< code-block >}}

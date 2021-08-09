@@ -8,7 +8,7 @@ aliases:
     - /faq/api/required-transaction-details
 ---
 
-As a PSP, MultiSafepay is obliged by law to monitor transactions, merchants, and customers. We have to know the type of product or service involved in each transaction, and who is buying and selling.
+As a [PSP](/getting-started/glossary/#payment-service-provider-psp), MultiSafepay is obliged by law to monitor transactions, merchants, and customers. We have to know the type of product or service involved in each transaction, and who is buying and selling.
 
 For each transaction, you must include details about the product and the customer's:
 
