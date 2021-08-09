@@ -36,7 +36,7 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/payments/methods/credit-and-debit-cards/american-express/user-guide/declined-status/). | Declined | Declined   |
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction has been canceled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 | The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/).  | Chargeback | Completed   |
 

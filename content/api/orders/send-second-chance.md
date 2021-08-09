@@ -53,7 +53,7 @@ Cancelling the first order doesn't suppress Second Chance emails.
 
 To suppress Second Chance emails, send a `PATCH /orders` request containing the following parameters:
 ``` 
-"status": "cancelled",
+"status": "canceled",
 "exclude_order": 1
 ```
 

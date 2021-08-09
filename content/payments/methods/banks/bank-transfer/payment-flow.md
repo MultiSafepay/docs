@@ -45,7 +45,7 @@ For more information, see API Reference – [Bank Transfer: Direct](/api/#direct
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction has been canceled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
 ## Refund statuses

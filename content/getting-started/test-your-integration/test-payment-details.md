@@ -50,7 +50,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled 
+| **Cancelled** | Transaction was canceled 
 
 {{< /details >}}
 
@@ -63,7 +63,7 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction is void / cancelled |
+| **Cancelled** | Transaction is void / canceled |
 
 {{< /details >}}
 
@@ -102,7 +102,7 @@ Sample statuses:
 | --------------------- | ------------------------ |
 | **Completed**             | Transaction was completed |
 | **Declined**              | Transaction was declined |
-| **Cancelled**             | Transaction was cancelled |
+| **Cancelled**             | Transaction was canceled |
 | **Initialized**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Completed**. |
 | **Initialized**/ **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
 
@@ -121,7 +121,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -134,7 +134,7 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction is void / cancelled |
+| **Cancelled** | Transaction is void / canceled |
 
 {{< /details >}}
 
@@ -147,7 +147,7 @@ Sample statuses:
 | Status    | Testing instructions | Description              |
 | --------- | ----------------------- | ----------------------- |
 | **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
-| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
+| Canceled | Click the **Close** button at the top right of the screen. | Transaction was canceled |
 
 {{< /details >}}
 
@@ -179,7 +179,7 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -190,7 +190,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -439,7 +439,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -461,7 +461,7 @@ Sample statuses:
 | **Declined** | Transaction was declined |
 | **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted |
 | **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 

@@ -35,7 +35,7 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 | Description | Order status | Transaction status |
 |---|---|---|
 | Giropay has declined the transaction. | Declined | Declined   |
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction has been canceled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
 ## Refund statuses

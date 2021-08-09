@@ -45,8 +45,8 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 |  Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |
 | Full capture | The full amount is captured relating to a previous order ID. | Completed    | Completed  |
-| Partial cancel reservation | The reserved or remaining amount that was partially captured has been cancelled. | Void | Void |
-| Full cancel reservation | The fully captured reserved amount has been cancelled.  | Void | Void | 
+| Partial cancel reservation | The reserved or remaining amount that was partially captured has been canceled. | Void | Void |
+| Full cancel reservation | The fully captured reserved amount has been canceled.  | Void | Void | 
 | Partial authorization expiry | The remaining authorized amount expired without being captured. | Void | Void |
 | Full authorization expiry | The full authorized amount expired without being captured. | Void    | Void  |
 

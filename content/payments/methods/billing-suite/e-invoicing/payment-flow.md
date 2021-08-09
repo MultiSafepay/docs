@@ -41,7 +41,7 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Description | Order status | Transaction status |
 |---|---|---|
 | E-Invoicing has declined the payment. | Declined | Declined |
-| The payment has been cancelled. | Void | Cancelled |
+| The payment has been canceled. | Void | Cancelled |
 | The payment was not completed and it expired. | Expired | Expired |
 
 ## Refund statuses

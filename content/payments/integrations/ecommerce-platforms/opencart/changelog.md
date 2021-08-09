@@ -187,7 +187,7 @@ Release date: September, 7th 2020
 + Add support for customer balance
 + Add support for all native order totals extensions
 + Add support for Gift Voucher
-+ Add support tu update order status as cancelled or expired from the admin
++ Add support tu update order status as canceled or expired from the admin
 
 ### Fixed
 + PLGOPNS-226: Tax issue

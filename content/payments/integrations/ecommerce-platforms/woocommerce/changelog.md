@@ -94,7 +94,7 @@ Release date: Mar 23th, 2021
 Release date: Mar 18th, 2021
 
 ### Fixed
-+ PLGWOOS-626: Fix order not being cancelled when customer cancels the order
++ PLGWOOS-626: Fix order not being canceled when customer cancels the order
 + PLGWOOS-630: Fix include shipping item in full refund of billing suite payment methods
 
 ### Added
@@ -138,7 +138,7 @@ Release date: Mar 9th, 2021
 ### Changed
 + PLGWOOS-602: Move invoice and shipped settings field from order status tab to options tab
 + PLGWOOS-602: Remove completed status from order status tab in settings page
-+ PLGWOOS-601: Change default status for declined transactions from wc-cancelled to wc-failed
++ PLGWOOS-601: Change default status for declined transactions from wc-canceled to wc-failed
 
 ### Fixed
 + PLGWOOS-599: Fix typo in string message when payment method changes
@@ -701,7 +701,7 @@ Release date: Mar 21, 2014
 + Added house number check
 
 ### Fixes
-+ Fixed bug when customer cancelled a payment
++ Fixed bug when customer canceled a payment
 + Fixed bug that causes an empty status
 + Fixed bug in refund check
 
@@ -713,7 +713,7 @@ Release date: Mar 06, 2014
 + Auto spit house number from address if needed
 
 ### Fixes
-+ Fixed bug when customer cancelled a payment
++ Fixed bug when customer canceled a payment
 + Fixed bug that causes an empty status
 + Fixed bug in refund check
 

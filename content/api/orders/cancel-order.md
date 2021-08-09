@@ -12,7 +12,7 @@ aliases:
 ```json
 
 {
-    "status": "cancelled",
+    "status": "canceled",
     "exclude_order": 1
 }
 ```
@@ -37,7 +37,7 @@ Cancel a pretransaction and/or a transaction based on the `sessionid`.
 `status` | string | required
 
 The [order status](/api/multisafepay-statuses/) of the order.  
-Fixed value: `cancelled`.
+Fixed value: `canceled`.
 
 ----------------
 `exclude_order` | integer | required
@@ -45,7 +45,7 @@ Fixed value: `cancelled`.
 Sets the outcome of the cancellation.  
 To cancel the pretransaction, set to `1`.  
 To cancel both the pretransaction and the transaction, set to `0`.  
-**Note:** Setting to `0` only works if the transaction status is **Initialized**. Transactions with **Reserved** status cannot be cancelled.
+**Note:** Setting to `0` only works if the transaction status is **Initialized**. Transactions with **Reserved** status cannot be canceled.
 
 ----------------
 {{% /description %}}

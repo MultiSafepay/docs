@@ -69,7 +69,7 @@ Release date: Apr. 2nd, 2020
 
 ### Changed
 + PLGMAGONE-599: Hide Pay After Delivery when shipping address differs
-+ PLGMAGONE-574: Prevent orders to be cancelled when set to processing
++ PLGMAGONE-574: Prevent orders to be canceled when set to processing
 + Update translations for "select your credit card"
 
 ***
@@ -333,7 +333,7 @@ Release date: Dec 28th, 2015
 + Fixes bug with directdebit using a wrong gateway code
 + Fixes for wrong credit memo amounts that are processed.
 + Fixes Store id is now used to get the correct store URL's to redirect to
-+ Fixes cancelled status for Pay After Delivery and Klarna notifications are now ignored as the order was already set to Paid. If set to cancelled then a credit memo can't be created anymore.
++ Fixes canceled status for Pay After Delivery and Klarna notifications are now ignored as the order was already set to Paid. If set to canceled then a credit memo can't be created anymore.
 + Fixes bug causing the order status set to "payment review" instead of "processing". This was caused because the order grandtotal had to be rounded to two so it matches the paid amount in the transaction.
 
 
@@ -385,7 +385,7 @@ Release date: Aug 20th, 2015
 + Disabled gift card Ebon.
 + Return-URL's are now always ending with only /success/ for better support for GUA module.
 + Disabled FastCheckout payment method in normal checkout as this is causing confusion for merchants.
-+ Don't set state to cancelled when partial refunded as it still has to be processed partially.
++ Don't set state to canceled when partial refunded as it still has to be processed partially.
 + Disabled some gift cards that are for one merchant.
 + Added FCO button on login/register page.
 + Redirect URL always added for Pay After Delivery.
@@ -461,7 +461,7 @@ Release date: Mar 19, 2015
 + Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to Sign in to the Ewallet and manually create a payment link for the order
 
 ### Improvements
-+ If there is an invoice, the order can't be cancelled anymore
++ If there is an invoice, the order can't be canceled anymore
 + Added more language files
 + Better support for Keep Cart alive, so it is compatible with Onestepcheckout
 + Added check for - phone number for BNO trans. Compatibility with some Onestepcheckout modules that add - when phone number is empty or not available as custom field
@@ -494,7 +494,7 @@ Release date: Mar 19, 2015
 + Added extra setQuote to solve issues reported by one merchant where Magento didn't add the quote correctly to the order. To solve this bug with Magento, we set the quote manually within the order
 + Fixed bug with payment details to be added to the transaction record. Payment details are now stored again within the transaction record
 + Fixed bug with unpaid invoices when completed
-+ Fixed issue to treat order status cancelled or cancelled (American vs English) the same correct way
++ Fixed issue to treat order status canceled or canceled (American vs English) the same correct way
 + Fixed bug that caused product from a manually created order to be in the cart for the customer that the order was created for when the customer returns to the store and logs in
 + Fixed bug with paid status
 + When creating an invoice, Magento gets the totalpaid value and add it to the total invoiced value. When we don't create an invoice automatically, we set the totalpaid to inform the merchant that the order was paid. This resulted in a double totalPaid value because Magento added the invoiced total to the totalPaid when manually creating the invoice. This is now changed so that we reset the Total Paid in this situation just before the invoice is created and Magento updates the totalPaid again
@@ -650,7 +650,7 @@ Release date: Mar 26, 2013
 ### Improvements
 + Added an 'send order status update email' option
 + Added an option to keep the cart active
-+ Added override for the order submit function. Now we can keep the cart active when a customer cancelled the order.
++ Added override for the order submit function. Now we can keep the cart active when a customer canceled the order.
 + Added the Fast Checkout method to the normal checkout process
 + Added creation of an account within the store when a customer uses Fast Checkout.
 + Better UTF-8 compatibility for Fast Checkout to prevent error 1000 messages.
@@ -673,7 +673,7 @@ Release date: Mar 10, 2013
 ### Fixes
 + Fixed bug iDEAL issuers list with production environment.
 + Fixed bug registered bank_id bug, now we have a select your bank option to avoid errors when customers forget to select a bank.
-+ Fixed bug for empty order status when an order was cancelled.
++ Fixed bug for empty order status when an order was canceled.
 + Fixed bug that caused a duplicate transaction request
 + Fixed store_id bug.
 + Fixed bug that cause useless Notification notices within the error logs.
@@ -698,7 +698,7 @@ Release date: Dec 10, 2012
 Release date: Jan 12, 2011
 ### Improvements
 + New order email option is active, you can now set when you want to send the order emails.
-+ New feature added that allows for reopening cancelled orders. If a cancelled order got paid by using Second Chance etc, the order will be processed again and an invoice is created etc.
++ New feature added that allows for reopening canceled orders. If a canceled order got paid by using Second Chance etc, the order will be processed again and an invoice is created etc.
 + Added gateways for ebon, baby gift card, boekenbon, erotiekbon, fijncadeau, webshop
 
 
@@ -717,7 +717,7 @@ card, parfumnl, parfumcadeaukaart.
 + STATE_CANCELED changed to STATE_PENDING due to Second Chance.
 
 ### Fixes
-+ Cancelled Orders will now actually be cancelled.
++ Cancelled Orders will now actually be canceled.
 
 ***
 
@@ -728,7 +728,7 @@ card, parfumnl, parfumcadeaukaart.
 + use_shipping_notification set to false to overcome issue with "Cannot send order to ##Specified## country.
 
 ### Fixes
-+ Cancelled Orders will now actually be cancelled.
++ Cancelled Orders will now actually be canceled.
 
 ***
 

@@ -224,7 +224,7 @@ To dispute this type of chargeback, you need to provide:
 
 {{< /details >}}
 
-{{< details title="Reason code 4841: Digital goods, cancelled recurring transaction" >}}
+{{< details title="Reason code 4841: Digital goods, canceled recurring transaction" >}}
 
 The cardholder:
 

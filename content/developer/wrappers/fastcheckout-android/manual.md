@@ -8,7 +8,7 @@ aliases:
 
 ### Introduction
 
-As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
+As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, canceled, etc.) once it completes a transaction. The checkout process flow includes:
 
 * Shipping details:
     * Preferred shipping details

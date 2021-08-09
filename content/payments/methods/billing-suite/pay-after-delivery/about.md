@@ -27,23 +27,23 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 
 {{< details title="Refunds" >}}
 
-- If the customer hasn't paid, you can cancel the transaction by performing a full refund.
-
 - You cannot refund more than the amount of the original transaction.
 
-- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+- You can't process refunds after the invoice is transfered to a collection agency (usually 6 weeks after shipping the order). **Shipped** status is not visible in your MultiSafepay account. To check the date of shipment, email <support@multifactor.nl>.
 
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
 - Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
 
-- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is canceled.
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-- With full refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
+- For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+-  You cannot reverse full refunds.
+
+- If a refund fails, email the Support Team at <support@multifactor.nl> 
 
 {{< /details >}}
 

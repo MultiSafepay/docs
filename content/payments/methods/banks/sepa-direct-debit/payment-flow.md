@@ -41,7 +41,7 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 | Description | Order status | Transaction status |
 |---|---|---|
 | The transaction was declined while **Uncleared**. | Declined | Declined   |
-| The transaction has been cancelled or you provided incorrect customer information. | Cancelled   | Cancelled   |
+| The transaction has been canceled or you provided incorrect customer information. | Cancelled   | Cancelled   |
 
 ## Refund statuses
 

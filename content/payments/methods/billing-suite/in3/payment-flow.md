@@ -26,7 +26,7 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
 | 1. | The customer initiates a transaction, is redirected to in3, and enters their details. | Initialized   | Initialized  |
 | 2. | in3 authorizes the payment. |   |   |
-| 3. | The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
+| 3. | The customer has 5 minutes to pay the first installment, or the transaction is canceled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
 | 4. | The customer pays the first installment. {{< br >}} Settlement is now guaranteed. | Completed  | Uncleared  |
 | 5. | Ship the order. | | |
 | 6. | [Change the order status to Shipped](/payments/methods/billing-suite/in3/user-guide/changing-order-status--to-shipped/).  | Shipped | Uncleared | 
@@ -40,7 +40,7 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Description                      | Order status      | Transaction status |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | in3 has declined the payment. No order was created.    | Declined   | Declined   |
-| The payment was cancelled or abandoned. | Void    | Void    |
+| The payment was canceled or abandoned. | Void    | Void    |
 
 ## Refund statuses
 

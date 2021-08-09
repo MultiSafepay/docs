@@ -20,6 +20,6 @@ For the SOFORT Banking logo, see MultiSafepay GitHub – [MultiSafepay icons](ht
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}

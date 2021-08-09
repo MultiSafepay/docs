@@ -22,6 +22,6 @@ In advanced mode, you can enter the order items and add extra information about 
 |-----|----|
 | Active      | A payment link has been generated, but the payment has not yet been completed.  | 
 | Completed   | The customer has completed the payment. | 
-| Cancelled   | The merchant has cancelled the payment link.| 
+| Cancelled   | The merchant has canceled the payment link.| 
 | Expired     | The link has expired.  | 
 

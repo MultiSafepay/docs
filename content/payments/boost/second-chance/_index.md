@@ -71,7 +71,7 @@ Second Chance emails can create conflicts with external warehouse systems. In so
 
 For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see [Adjusting payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/). 
 
-If a cancelled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock. 
+If a canceled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock. 
 
 {{< /details >}}
 

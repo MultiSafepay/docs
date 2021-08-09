@@ -204,7 +204,7 @@ Release date: Apr 15th, 2016
 ### Improvements
 + The payment method shown in the Fast Checkout orders are now updated to show the payment method eventually used.
 + Added (limited) support for the BVK Additional Payment Fees module; payment fees can be applied per payment method.
-+ Added "daysactive" to the configuration. Orders are cancelled after X number of days when configured.
++ Added "daysactive" to the configuration. Orders are canceled after X number of days when configured.
 + An extra configuration option has been added for skipping the default extra confirmation screen before payment.
 + Added Dotpay as a payment method.
 + Added e-Invoice as a payment method.

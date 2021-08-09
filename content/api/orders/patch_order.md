@@ -48,7 +48,7 @@ The unique identifier of the order you want to update.
 `status` | string | required
 
 The new [order status](/api/multisafepay-statuses/) of the order.  
-Options: `cancelled`, `shipped`.
+Options: `canceled`, `shipped`.
 
 ----------------
 `tracktrace_code` | string | optional

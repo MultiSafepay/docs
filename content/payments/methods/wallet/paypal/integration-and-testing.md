@@ -32,6 +32,6 @@ Sample statuses:
 | **Declined** | Transaction was declined |
 | **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted |
 | **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}

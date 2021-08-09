@@ -38,6 +38,6 @@ For the Trustly logo, see MultiSafepay GitHub – [MultiSafepay icons](https://g
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}

@@ -21,7 +21,7 @@ For the iDEAL logo, see MultiSafepay GitHub – [MultiSafepay icons](https://git
 | --------------------- | ------------------------ |
 | **Completed**             | Transaction was completed |
 | **Declined**              | Transaction was declined |
-| **Cancelled**             | Transaction was cancelled |
+| **Cancelled**             | Transaction was canceled |
 | **Initialized**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Completed**. |
 | **Initialized**/ **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
 

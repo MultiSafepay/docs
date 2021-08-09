@@ -33,7 +33,7 @@ For more information, see [About MultiSafepay statuses](/api/multisafepay-status
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction has been canceled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
 ## Refund statuses
@@ -69,7 +69,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed    | Completed        | A successful Trustpay transaction has been received and the funds will be added to your MultiSafepay account balance.  | 
 | Declined     | Declined         | Transaction has been rejected.                                                                                       | 
 | Expired      | Expired          | An unfinished transaction will automatically expire after a predefined period.                                       | 
-| Void         | Cancelled        | Transaction has been cancelled.                                                                                       | 
+| Void         | Cancelled        | Transaction has been canceled.                                                                                       | 
 
 
 #### Refund flow

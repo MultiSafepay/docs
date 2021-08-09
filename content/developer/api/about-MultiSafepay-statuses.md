@@ -40,7 +40,7 @@ The table below sets out possible order and transaction statuses and what they c
 | Uncleared | The customer has completed payment, but the funds are not yet settled. You need to manually [authorize or decline the transaction](/faq/finance/evaluating-uncleared-card-transactions/). |
 | Completed | - **Order:** The customer has completed payment and settlement is guaranteed. Proceed with shipment. {{< br >}} - **Transaction:** The funds are settled in your MultiSafepay balance. |
 | Declined | The [issuer](/getting-started/glossary/#issuer) has declined the transaction. {{< br >}} See also [About Declined status](/payments/methods/credit-and-debit-cards/user-guide/declined-status/). |
-| Void / Cancelled | You have cancelled the transaction. |
+| Void / Cancelled | You have canceled the transaction. |
 | Expired | The customer didn't complete payment and the transaction expired. |
 
 ### Refunds and chargebacks

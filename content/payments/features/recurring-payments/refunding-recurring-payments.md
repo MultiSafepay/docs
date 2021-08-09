@@ -20,6 +20,6 @@ To refund a transaction, follow these steps:
 
 By default, you cannot refund more than the amount of the original transaction. To check if you are eligible to refund more, email your account manager at <sales@multisafepay.com>
 
-The transaction status is now **Initialized**. As long as the transaction status is **Initialized**, the refund can be cancelled. When the status changes to **Completed**, the refund is processed correctly. 
+The transaction status is now **Initialized**. As long as the transaction status is **Initialized**, the refund can be canceled. When the status changes to **Completed**, the refund is processed correctly. 
 
 The customer receives the refund in the bank account from which the transaction was paid within the next business day.
