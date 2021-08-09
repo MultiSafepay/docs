@@ -1,14 +1,16 @@
 ---
-title : "About 3D Secure"
-weight: 30
-meta_title: "Payment regulations - About 3D Secure - MultiSafepay Docs"
+title : "3D Secure"
+weight: 20
+meta_title: "Payment regulations - 3D Secure - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/payment-regulations/3d-secure'
 aliases:
     - /faq/payment-regulations/3D-secure
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
     - /faq/general/what-is-3d-secure
     - /faq/payment-regulations/about-3d-secure/
+    - /security-and-legal/payment-regulations/about-3d-secure/
 ---
 
 3D Secure is an authentication protocol for online credit and debit card payments. It provides an extra layer of security and prevents [fraud-related chargebacks](/payments/methods/credit-and-debit-cards/user-guide/minimizing-chargebacks/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.

@@ -1,15 +1,15 @@
 ---
-title : "About strong customer authentication"
-weight: 20
-meta_title: "Payment regulations - About strong customer authentication - MultiSafepay Docs"
+title : "Strong customer authentication (SCA)"
+weight: 30
+meta_title: "Payment regulations - Strong customer authentication (SCA) - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/payment-regulations/sca/'
 aliases:
     - /faq/payment-regulations/strong-customer-authentication
     - /faq/payment-regulations/about-strong-customer-authentication
+    - /security-and-legal/payment-regulations/about-strong-customer-authentication/
 ---
-
-### What is SCA?
 
 Since September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses and payment service providers being required to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. Three methods of authentication are recognized in SCA. Every SCA compliant transaction uses at least two out of three methods.
 
