@@ -72,6 +72,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Retrieve gateway issuers
 
+**Note:** The list of issuers may differ when requested via the [test environment](/api/#environments).
+
 **Parameters**
 
 ----------------
