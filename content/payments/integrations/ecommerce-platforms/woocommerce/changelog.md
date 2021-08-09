@@ -5,6 +5,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.8.1
+Release date: Aug 9th, 2021
+
+### Fixed
++ PLGWOOS-727: Show error message from the API in the checkout page, when there is an error on direct transactions
+
+***
+
 ## 4.8.0
 Release date: Aug 4th, 2021
 
