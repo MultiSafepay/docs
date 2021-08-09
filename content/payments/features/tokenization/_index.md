@@ -35,8 +35,8 @@ Tokenization is mainly used for credit card, recurring, and subscription payment
 MultiSafepay offers three recurring models:
 
 - **Card on file (COF)**: The cardholder has authorized you to store their card details.
-- **Subscription**: Agreement or services that are billed at the end of your billing cycle.
-- **Unscheduled**: Event triggered for application, e.g. a mobile top-up when no credit is left on the phone.
+- **Subscription**: An agreement or services that are billed at the end of your billing cycle, e.g. weekly, monthly.
+- **Unscheduled**: Event-triggered, e.g. mobile top-up when no credit left on the phone.
 
 ## Via API
 To use tokenization via our API, see API Reference – [Tokenization and recurring model](/api/#recurring-payment).

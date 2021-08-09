@@ -148,7 +148,9 @@ The unique identifier for the recurring payment.
 `recurring_model` | string | required
 
 The recurring model.  
-Options: `unscheduled`, `subscription`, `cardonfile`.
+Options: `cardonfile`, `subscription`, `unscheduled`.  
+See also [Recurring models](/payments/features/tokenization/#recurring-models).
+
 
 ----------------
 `amount` | integer | required

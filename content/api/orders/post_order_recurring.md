@@ -120,7 +120,8 @@ Options: `token`
 `recurring_model` | string | required
 
 The recurring model.  
-Options: `unscheduled`, `subscription`, `cardonfile`.
+Options: `unscheduled`, `subscription`, `cardonfile`.  
+See also [Recurring models](/payments/features/tokenization/#recurring-models).
 
 ----------------
 `currency` | string | required
