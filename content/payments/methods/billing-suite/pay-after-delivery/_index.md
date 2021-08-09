@@ -18,5 +18,6 @@ aliases:
     - /payment-methods/billing-suite/pay-after-delivery/refund-pay-after-delivery
     - /payment-methods/billing-suite/pay-after-delivery/what-is-pay-after-delivery
     - /payment-methods/billing-suite/pay-after-delivery
+keywords: 'BNO, PAD, Betalen Na Ontvangst, Betaling Na Ontvangst'
 ---
 
