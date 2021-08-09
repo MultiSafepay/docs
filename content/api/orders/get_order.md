@@ -126,7 +126,7 @@ Format: Maximum 50 characters.
 ----------------
 `transaction_id` | integer
 
-The payment service provider identifier.
+MultiSafepay's identifier for the transaction (also known as the PSP ID).
 
 ----------------
 `created` | string
