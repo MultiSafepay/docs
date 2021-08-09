@@ -12,26 +12,33 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 Welcome to the MultiSafepay API Reference (``JSON`` gateway).
 
-### Navigating the API Reference
+**Navigating the reference**
 
-The **left column** contains a table of contents. 
+Use the table of contents on the left to navigate endpoints and requests. 
 
-The **middle column** provides detailed information about each topic and how to make an API request, including parameters and data types.
+The **middle column** provides detailed information about each request, including parameters and data types.
 
-The **right column** shows example ``JSON`` requests and responses.
+The **right column** shows example `JSON` requests and responses.
 
-### Using our API
+**Using our API**
 
-You can use our API to make requests, for example, to:
+You can use our API, for example, to:
 
-- [Create transactions](#orders)
-- [Update transactions](#update-an-order)
+- [Create orders](#orders)
+- [Update orders](#update-an-order)
+- [Retrieve information about orders](#retrieve-an-order)
 - [Process refunds](#create-a-refund)
-- [Retrieve information about transactions](#retrieve-an-order)
 
-Advanced requests include making [split payments](#split-payments) and [recurring payments](#recurring-payment).
+Advanced requests include:
 
-You can also use our API to build a custom integration. You can test your integration in the [``TEST`` environment](#environments). See also our [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) of sample requests.
+- [Split payments](#split-payments)
+- [Recurring payments](#recurring-payment)
+- [Accounts](#accounts)
+- [Payouts](#payouts)
+
+You can also use our API to build a custom integration. You can test your integration in the [``TEST`` environment](#environments). 
+
+See also our [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) of sample requests.
 
 For any questions, email the Integration Team at <integration@multisafepay.com>
 

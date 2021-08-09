@@ -1,5 +1,5 @@
 ---
-weight: 650
+weight: 602
 meta_title: "API Reference - custom_info - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -17,8 +17,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## custom_info
+## custom_info (object)
 
-custom_info is a 'placeholder' where the merchant can input specific data related to the transaction.
+A placeholder parameter where you can include specific details related to the transaction.
 
 {{< /description >}}

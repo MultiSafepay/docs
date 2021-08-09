@@ -8,13 +8,13 @@
     </div>
   </div>
 
-    {{ if isset .Params "faq" }}
+    {{ if or (isset .Params "faq") (isset .Params "faq-bottom") }}
     {{ partial "block-faq-intro" . }}
     {{ end }}
 
     {{ partial "blocklist" . }}
 
-    {{ if isset .Params "faq" }}
+    {{ if isset .Params "faq-bottom" }}
     {{ partial "block-faq" . }}
     {{ end }}
 

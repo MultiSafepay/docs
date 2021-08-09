@@ -71,80 +71,75 @@ name = "Shell"
     weight = 7
 
 [[menu.main]]
-    name = "Integrations"
-    url  = "/integrations/"
-    identifier = "integrations"
-    pre = "fa fa-plug fa-lg"
+    name = "Account"
+    url  = "/account/"
+    pre = "fa fa-user-circle fa-lg"
     weight = 10
 
 [[menu.main]]
-    name = "Ecommerce integrations"
-    url  = "/integrations/ecommerce-integrations"
-    parent = "integrations"
-    weight = 10
+    name = "Payments"
+    url  = "/payments/"
+    identifier = "payments"
+    pre = "fa fa-credit-card fa-lg"
+    weight = 20
 
 [[menu.main]]
-    name = "PWA"
-    url  = "/integrations/pwa"
-    parent = "integrations"
-    weight = 10
+    name = "Add payment methods"
+    url  = "/payments/methods/"
+    parent = "payments"
+    identifier = "payment-methods"
+    weight = 210
 
 [[menu.main]]
-    name = "Wrappers and SDKs"
-    url  = "/integrations/wrappers"
-    parent = "integrations"
-    weight = 40
+    name = "Build your integration"
+    url  = "/payments/integrations/"
+    parent = "payments"
+    weight = 220
 
 [[menu.main]]
-    name = "Cash register software"
-    url  = "/integrations/cash-register-software"
-    parent = "integrations"
-    weight = 60
+    name = "Choose your checkout"
+    url  = "/payments/checkout"
+    parent = "payments"
+    weight = 240
 
 [[menu.main]]
-    name = "Payment Components"
-    url  = "/integrations/payment-components"
-    parent = "integrations"
-    weight = 45
+    name = "Boost your integration"
+    url  = "/payments/boost"
+    parent = "payments"
+    weight = 250
 
 [[menu.main]]
-    name = "Community"
-    url  = "/integrations/community"
-    parent = "integrations"
-    weight = 50
+    name = "Refunds and chargebacks"
+    url  = "/payments/refunds-and-chargebacks"
+    parent = "payments"
+    weight = 260
 
 [[menu.main]]
-    name = "Credit and subscription management"
-    url  = "/integrations/credit-and-subscription-management"
-    parent = "integrations"
-    weight = 50
+    name = "Additional payment features"
+    url  = "/payments/features"
+    parent = "payments"
+    weight = 270
 
 [[menu.main]]
-    name = "Reservation management"
-    url  = "/integrations/reservation-management/"
-    parent = "integrations"
-    weight = 50
-
-[[menu.main]]
-    name = "FAQs"
-    url  = "/faq/"
-    pre = "fa fa-question-circle-o fa-lg"
+    name = "Business operations"
+    url  = "/business/"
+    pre = "fa fa-briefcase fa-lg"
     weight = 30
 
 [[menu.main]]
-    name = "Payment methods"
-    url  = "/payment-methods/"
-    pre = "fa fa-credit-card fa-lg"
-    weight = 40
+    name = "Security and legal"
+    url  = "/security-and-legal/"
+    pre = "fa fa-lock fa-lg"
+    weight = 60
+
+    [[menu.main]]
+    name = "Developer tools"
+    url  = "/developer/"
+    pre = "fa fa-cube fa-lg"
+    weight = 70
 
 [[menu.main]]
     name = "API Reference"
     url  = "/api/"
     pre = "fa fa-code fa-lg"
-    weight = 20
-
-[[menu.main]]
-    name = "Tools"
-    url  = "/tools/"
-    pre = "fa fa-wrench fa-lg"
-    weight = 50
+    weight = 80

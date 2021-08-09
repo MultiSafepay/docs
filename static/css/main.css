@@ -657,8 +657,8 @@ img.magento_badge {
 
 /********* NEWSLETTER  *************/
 
-.changelog {
-    background-color: #f9f9f9;
+.light-grey-background {
+    background-color: #f9f9f9 !important;
 }
 
 /********* NAVBAR  *************/

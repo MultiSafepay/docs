@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "IDEAL",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -25,7 +25,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 1000,
     "gateway": "iDEAL",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "custom_info": {},
     "gateway_info": {
         "issuer_id": "0031"
@@ -61,7 +61,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 
 ```
-> JSON Response 
+> JSON response 
 
 ```json 
 {
@@ -71,9 +71,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "amount_refunded": 0,
     "costs": [
       {
+        "transaction_id": 123456789,
         "amount":,
         "description": "",
-        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -100,7 +100,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "state": "NH",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -121,7 +121,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount": 1000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "1150001181473373",
         "payment_description": "iDEAL",
         "status": "initialized",
@@ -132,7 +132,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 123456789
+    "transaction_id": 123456789,
     "payment_url": "https://www.abnamro.nl/en/ideal-betalen/index.html?randomizedstring=8641247395&trxid=1150001181473373"
   }
 }
@@ -140,104 +140,99 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-### Redirect - iDEAL
+See also Payment methods – [iDEAL](/payments/methods/banks/ideal).
 
-Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+### iDEAL - redirect
 
-In the case of a _Redirect_ transaction, the customer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+Customers are redirected to a MultiSafepay payment page where they can select iDEAL as a payment method.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.  
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: IDEAL.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-Has to be EUR.
+The unique gateway ID to direct the customer straight to the payment method.  
+Fixed value: `IDEAL`.
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency for the payment.  
+Fixed value: `EUR`.
 
 ----------------
-__notification_url__ | string
+`amount` | integer | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__cancel_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a failed payment.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__customer__ | object
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__locale__ | string
+`customer` | object | required
 
-Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: nl_NL | 
+See [customer (object)](/api/#customer-object).
 
-----------------    
+----------------
+ 
 
-### Direct - iDEAL
-Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect) order.
+### iDEAL - direct
 
-In the case of a _Direct_ transaction, the customer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
-
-* Direct transaction requires all fields completed properly
-
-
-* All parameters shown are required field(s)
+Customers select iDEAL and the issuing bank on the checkout page, and are then directed to the **issuer's** payment page.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct.  
-
-----------------
-__gateway_info__ | object
+The payment flow for the checkout process.  
+Options: `direct`.  
 
 ----------------
-__issuer_id__ | integer
+`gateway_info` | object | required
 
-The unique identifier of the [issuer](#gateway-issuers)   
+Contains:  
+
+`issuer_id` | integer | required
+
+The unique identifier of the gateway issuer.  
+See [Retrieve gateway issuers](/api/#gateway-issuers).
+
+**Response**
 
 ----------------
+`costs` | object
 
-Read more about [iDEAL](/payment-methods/banks/ideal) on our documentation page.
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
+----------------
 
 {{< /description >}}
 

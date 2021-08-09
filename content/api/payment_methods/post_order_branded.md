@@ -1,6 +1,6 @@
 ---
 weight: 309
-meta_title: "API Reference - Create a Co-branded Credit Card order - MultiSafepay Docs"
+meta_title: "API Reference - Create a co-branded credit card order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "VISA",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
      "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -26,7 +26,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json 
 
@@ -42,89 +42,66 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Co-branded credit card 
+## Co-branded credit cards 
 
-Creates a Co-branded credit card [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+- See also Payment methods:  
+  - [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires)
+  - [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
+  - [Postepay](/payments/methods/credit-and-debit-cards/postepay)  
+- Redirect only.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct , redirect , paymentlink.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.
 
 ----------------
-__gateway__ | string
+`order_id` | integer / string | required
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: CREDITCARD, VISA and MASTERCARD.
-
-----------------
-__currency__ | string
-
-The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `CREDITCARD`, `VISA`, `MASTERCARD`.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency you want the customer to pay in.    
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__notification_url__ | string
+`amount` | integer | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__cancel_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a failed payment.
-
-----------------
-__customer__ | object
-
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__ip_address__ | string
+`payment_options` | object | required
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
-
-----------------
-
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
+`customer` | object | required
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+See [customer (object)](/api/#customer-object).
 
- The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
+**Note:** The co-branded card logo only displays if the locale is correctly supplied.
 
-Please make sure to read more about [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires), [Dankort](/payment-methods/credit-and-debit-cards/dankort) and [Postepay](/payment-methods/credit-and-debit-cards/postepay) on our documentation page.
+---------------- 
+
 {{< /description >}}

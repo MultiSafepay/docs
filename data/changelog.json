@@ -2,6 +2,50 @@
     "entries" : 
     [   
         {
+            "date": "Aug 3, 2021",
+            "change": "New payment method: [Apple Pay direct](/payments/methods/wallet/applepay/direct-integration/)"
+        },
+        {
+            "date": "Jul 21, 2021",
+            "change": "New accounting integration: [Duopact](/business/accounting/accounting-integrations/yuki/integrations/duopact)"
+        },
+        {
+            "date": "Jul 14, 2021",
+            "change": "New section: [Business operations](/business)"
+        },
+        {
+            "date": "Jul 13, 2021",
+            "change": "New section: [Payments](/payments)"
+        },
+        {
+            "date": "Jul 12, 2021",
+            "change": "New section: [Account](/account)"
+        },
+        {
+            "date": "Jul 11, 2021",
+            "change": "Updated section: [Payment methods](/payments/methods)"
+        },
+        {
+            "date": "Jul 10, 2021",
+            "change": "New API request: [Payouts](/api/#payouts)"
+        },
+        {
+            "date": "Jul 10, 2021",
+            "change": "New API request: [Charges](/api/#charges)"
+        },
+        {
+            "date": "Jul 10, 2021",
+            "change": "New API request: [Balances](/api/#balances)"
+        },
+        {
+            "date": "Jul 9, 2021",
+            "change": "New section: [Developer tools](/developer)"
+        },
+        {
+            "date": "Jul 9, 2021",
+            "change": "New section: [Security and legal](/security-and-legal)"
+        },
+        {
             "date": "Jun 20, 2021",
             "change": "Updated section: [Getting started](/getting-started)"
         },
@@ -15,15 +59,15 @@
         },
         {
             "date": "Jun 2, 2021",
-            "change": "New page: Accounting integrations - [Actuals](/tools/accounting/accounting-integrations/actuals-live)"
+            "change": "New page: Accounting integrations - [Actuals](/business/accounting/accounting-integrations/actuals-live)"
         },
         {
             "date": "May 28, 2021",
-            "change": "Updated section: [Payment components](/integrations/payment-components/)"
+            "change": "Updated section: [Payment Components](/payments/checkout/payment-components/)"
         },
         {
             "date": "May 19, 2021",
-            "change": "New page: [Unmasking IBAN numbers](/faq/api/masking-iban-numbers/)"
+            "change": "New page: [Unmasking IBAN numbers](/developer/api/masking-iban-numbers/)"
         }
     ]
 }

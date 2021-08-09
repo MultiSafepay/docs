@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "SANTANDER",
     "currency": "EUR",
     "amount": 50000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -44,7 +44,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```shell
 {
@@ -81,9 +81,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "costs": [
             {
                 "transaction_id": 406933,
-                "description": "Cost Description",
-                "type": "SYSTEM",
-                "amount": 0.49
+                "amount": 0.49,
+                "description": "Cost description",
+                "type": "SYSTEM"                
             }
         ],
         "payment_url": "https://retailersowtest.santander.nl/EDurables/Home.aspx?guid=XXXXX"
@@ -94,86 +94,99 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Santander Betaal per Maand
-Creates a Santander Betaal per Maand [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+- See also Payment methods – [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand).  
+- Direct only.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: SANTANDER.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`. 
 
 ----------------
-__order_id__ | integer / string
+`order_id` | integer / string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway ID to direct the customer straight to the payment method.  
+Fixed value: `SANTANDER`.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__custom_info__ | object
-
-custom_info is a 'placeholder' where the merchant can input specific data related to the transaction.
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__customer__ | object
+`amount` | integer | required
 
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
-
-----------------
-__gateway_info__ | object                                                              
-
-Contains the information of the customer needed for the credit check.                     
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__ip_address__ | string
+`description` | string | required
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
-
-----------------
-__forwarded_ip__ | string
-
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
-
-----------------  
-
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
+`payment_options` | object | required
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+See [payment_options (object)](/api/#payment-options-object).
 
-Please note that _first_name_ and _last_name_ in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
+----------------
+`customer` | object | required
 
-Read more about [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand) on our documentation page.
+See [customer (object)](/api/#customer-object).    
+
+----------------
+`gateway_info` | object                                                              
+
+The customer data (`issuer_id`) required for conducting credit checks.
+
+Contains:
+
+`birthday` | object | required
+
+The customer's date of birth.  
+In the Netherlands and Belgium, this is required for credit checks.  
+Format: yyyy-mm-dd. 
+
+`gender` | string | required
+
+The customer's personal title.  
+Options: `mr`, `mrs`, `miss`. 
+
+`phone` | string | required
+
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment.
+
+`email` | string | required
+
+The email address for sending payment instructions to the customer.
+
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom_info).
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+
+
 {{< /description >}}

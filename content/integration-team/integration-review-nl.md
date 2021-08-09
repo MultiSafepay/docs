@@ -2,8 +2,8 @@
 title : "MultiSafepay Integration Team Review"
 ---
 
-Afgelopen periode hebben wij jou op weg geholpen met een technisch vraagstuk.
-Dit keer vragen wij jouw hulp. Wil je ons helpen met een eerlijke review?
+Afgelopen periode hebben wij u op weg geholpen met een technisch vraagstuk.
+Dit keer vragen wij uw hulp. Wil je ons helpen met een eerlijke review?
 
 ### Waarom is een review nodig?
 Elke dag werkt ons Integratie Team hard om merchants te helpen.

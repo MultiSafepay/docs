@@ -1,5 +1,5 @@
 ---
-weight: 250
+weight: 205
 meta_title: "API Reference - Update an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -23,7 +23,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -34,56 +34,57 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Update an order
-Update the order details.
+### Update an order
+Update the details of an order.
 
 **Parameters**
 
 ----------------
+`id` | string | required
 
-__id__ | string
-
-The unique identifier of the order which should be updated.
-
-----------------
-__status__ | string
-
-The new order status. Options: cancelled, shipped.
+The unique identifier of the order you want to update.
 
 ----------------
-__tracktrace_code__ | string
+`status` | string | required
+
+The new [order status](/api/multisafepay-statuses/) of the order.  
+Options: `canceled`, `shipped`.
+
+----------------
+`tracktrace_code` | string | optional
 
 The track and trace code provided by the shipping company.
 
 ----------------
-__carrier__ | string
+`carrier` | string | optional
 
 The name of the shipping company delivering the customer's order.
 
 ----------------
-__ship_date__ | string
+`ship_date` | string | optional
 
 The date that the order was shipped.
 
 ----------------
-__reason__ | string
+`reason` | string | optional
 
-Add a short free text memo to the order when setting the shipping status.
-
-----------------
-__invoice_id__ | string
-
-Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control.
+The capture reason for the order.
 
 ----------------
-__invoice_url__ | string
+`invoice_id` | string | optional
 
-The invoice url linking to the invoice_id.
+Add your invoice ID to an existing order.  
+The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay account.
 
 ----------------
-__po_number__ | string
+`invoice_url | string | optional
 
-The Purchase Order number of the shipping company.
+The invoice URL linking to the `invoice_id`.
 
+----------------
+`po_number` | string | optional
 
+The shipping company's purchase order number.
+
+----------------
 {{< /description >}}

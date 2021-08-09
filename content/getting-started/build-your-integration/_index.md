@@ -19,7 +19,7 @@ For help selecting a method, email the Integration Team at <integration@multisaf
 MultiSafepay solutions developed in-house require fewer development resources and let you start testing your integration straight away. 
 
 {{< two-buttons href-2="/integrations/ecommerce-integrations" text-2="Ecommerce platforms" description-2="Integrations for platforms like Magento, WooCommerce, Shopify, and Lightspeed." img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
-{{< two-buttons href-2="/integrations/pwa" text-2="PWAs" description-2="Plugins for progressive web applications." img-2="/svgs/PWA.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payments/integrations/pwa" text-2="PWAs" description-2="Plugins for progressive web applications." img-2="/svgs/PWA.svg" alt-2="Right arrow" >}}
 
 ## Custom integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.

@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "MISTERCASH",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -42,59 +42,59 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## Bancontact
-Creates a Bancontact [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+- See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
+- Redirect only.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect and payment link.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+The payment flow for the checkout process.  
+Options: `redirect`, `paymentlink`.
 
 ----------------
-__gateway__ | string
+`order_id` | integer / string | required
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: MISTERCASH.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+`gateway` | string | required
+
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `MISTERCASH`.
+
+----------------
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
 
 ----------------
 
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
-
-----------------
-__amount__ | integer
-
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
-
-----------------
-__payment_options__ | object
-
-----------------
-__customer__ | object
-
-----------------
-
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
-
-----------------
-
-Read more about [Bancontact](/payment-methods/banks/bancontact) on our documentation page.
 {{< /description >}}

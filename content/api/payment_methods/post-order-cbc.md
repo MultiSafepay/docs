@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "CBC",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "CBC",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -89,9 +89,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "type": "SYSTEM"
       },
       {
+        "transaction_id": 123456789,
         "amount":,
         "description": "",
-        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -116,7 +116,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "phone1": "0208500500",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -134,7 +134,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount": 1000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": 325062361,
         "payment_description": "CBC",
         "status": "initialized",
@@ -155,121 +155,125 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## CBC
-### Redirect - CBC
+See also Payment methods – [CBC](/payments/methods/banks/cbc).
 
-Creates a CBC [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
-
+### CBC - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink.  
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: CBC.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `CBC`.
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------    
-__customer__ | object
+`customer` | object | required
 
-Contains personal information about the customer. 
+See [customer (object)](/api/#customer-object).
 
----------------- 
+----------------  
 
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
-
-----------------
-
-Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
-
-### Direct - CBC
-
-Creates a CBC [Direct](/faq/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### CBC - direct
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink.  
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: CBC.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `CBC`.
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------    
-__customer__ | object
+`customer` | object | required
 
-Contains personal information about the customer. 
+See [customer (object)](/api/#customer-object).
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
 
 ---------------- 
+`payment_methods` | object
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+See [payment_methods (object)](/api/#payment_methods-object).
 
-Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
+----------------
+
+
 {{< /description >}}

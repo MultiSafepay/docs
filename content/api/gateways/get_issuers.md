@@ -1,6 +1,6 @@
 ---
 weight: 130
-meta_title: "API Reference - Gateway issuers - MultiSafepay Docs"
+meta_title: "API Reference - Retrieve gateway issuers - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -8,7 +8,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > GET - /issuers{gateway}
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -70,19 +70,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Gateway issuers
+## Retrieve gateway issuers
+
+**Note:** The list of issuers may differ when requested via the [test environment](/api/#environments).
 
 **Parameters**
 
 ----------------
+`code` | string | required
 
-__code__ | string
-
-The unique identifier of the payment gateway to retrieve an issuer list for. Supported identifiers are: [iDEAL](#ideal-issuers) 
+The unique identifier of the payment gateway you want to retrieve a list of issuers for.  
+Supported identifiers: [iDEAL](#ideal-issuers) 
 
 ----------------
 
-Direct iDEAL transactions can have the following issuers:
+Possible issuers for `direct` iDEAL transactions:
 
 | IssuerID | Bank                  |
 |----------|-----------------------|

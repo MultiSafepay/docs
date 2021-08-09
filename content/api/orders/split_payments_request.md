@@ -1,5 +1,5 @@
 ---
-weight: 240
+weight: 233
 meta_title: "API Reference - Split payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -31,7 +31,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -45,89 +45,75 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Split Payments
-The split payment tool allows you to split the amount of a transaction over several MultiSafepay Control accounts. [Merchants](/faq/general/multisafepay-glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
+## Split payments
+Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
 
-Read more about [split payments](/tools/split-payments) on our documentation page.
+For more information, see [Split payments](/payments/features/split-payments/).
 
 **Parameters**
 
 ----------------
+`type` | string | required
 
-__type__ | string
-
-Specifies the payment flow for the checkout process. Options: direct, redirect and paymentlink.  
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__notification_url__ | string
+`amount` | integer | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__notification_method__ | string
-
-Sends push notification (POST,GET) default: GET.
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__redirect_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
-
-----------------
-__cancel_url__ | string
-
-Customer will be redirected to this page after a failed payment.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__split_payments__ | object
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__split_payments.merchant__ | integer
+`split_payments` | object | required
 
-Affiliate AccountID of a MultiSafepay Control.   
+Contains:  
+
+`split_payments.merchant` | integer
+
+The account ID of the [affiliated MultiSafepay account](/account/partner-account-control/).   
+
+`split_payments.percentage` | float
+
+Specify a percentage of the amount to split.
+
+`split_payments.fixed` | integer
+
+Specify the amount to split in cents.
+
+`split_payments.description` | string
+
+The description of the split payment.
 
 ----------------
-__split_payments.percentage__ | float
-
-Define a percentage of the amount to split.
-
-----------------
-__split_payments.fixed__ | integer
-
-Define amount to split in cents.
-
-----------------
-__split_payments.description__ | string
-
-Description.
-
-
 {{% /description %}}

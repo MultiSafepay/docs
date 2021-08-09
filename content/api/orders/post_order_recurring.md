@@ -1,5 +1,5 @@
 ---
-weight: 230
+weight: 224
 meta_title: "API Reference - Recurring payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -62,102 +62,100 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Recurring Payment
+## Recurring payments
 
-A recurring payment can be initiated using [tokenization](/tokenization/tokenization-api-level/) for the following payment methods:
+You can initiate [recurring payments](/payments/features/recurring-payments/) using [tokenization](/payments/features/tokenization/) for the following payment methods:
 
-* VISA
-* MasterCard
-* Maestro
-* Bancontact
-* American Express
-* iDEAL
-* SOFORT
-* Direct debit
+- VISA
+- MasterCard
+- Maestro
+- Bancontact
+- American Express
+- iDEAL
+- SOFORT
+- Direct debit
 
-iDEAL, Bancontact and SOFORT can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The token can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
+Customers can make the initial payment using iDEAL, Bancontact, or SOFORT, followed by recurring payments using SEPA Direct Debit. 
 
-For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments) and the fields required for [tokenization](/tokenization/tokenization-api-level/).
+To process recurring payments:
+
+1. Submit a standard transaction request with recurring payments enabled. 
+2. Request the token by [retreiving the order](https://docs.multisafepay.com/api/#retrieve-an-order).
+3. Make recurring payment requests as required.
 
 **Parameters**
 
 ----------------
+`type` | string | required
 
-__type__ | string
-
-Specifies the payment flow for the checkout process. Options: direct.
-
-----------------
-__gateway__ | string
-
-Specifies the payment method used for the checkout process. Options: AMEX, DIRDEB, MASTERCARD, VISA. DIRDEB is to be used after initial payment with IDEAL, DIRECTBANK (Sofort) and DIRDEB. 
+The payment flow for the checkout process.  
+Options: `direct`.
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__recurring_id__ | integer
-
-The unique recurring id used for recurring payments.
+The payment method used for the checkout process.  
+Options: `AMEX`, `DIRDEB`, `MASTERCARD`, `VISA`.  
+Use DIRDEB when the initial payment was made using iDEAL, SOFORT, or SEPA Direct Debit. 
 
 ----------------
-__recurring_flow__ | string
+`order_id` | integer / string | required
 
-The tokenization method used to create a recurring payment. Options: token
-
-----------------
-
-__recurring_model__ | string
-
-The type of recurring method used in the transaction request. Options: unscheduled, sunscription, cardonfile
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
+`recurring_id` | integer | required
 
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
-
-----------------
-__amount__ | integer
-
-The amount (in cents) that the customer needs to pay.
+The unique identifier for the recurring payment.
 
 ----------------
-__description__ | string
+`recurring_flow` | string | required
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
-
-----------------
-__payment_options__ | object
+The tokenization method used to create the recurring payment.  
+Options: `token`
 
 ----------------
-__notification_url__ | string
+`recurring_model` | string | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__notification_method__ | string
-
-Sends push notification (POST,GET) default: GET.
+The recurring model.  
+Options: `unscheduled`, `subscription`, `cardonfile`.  
+See also [Recurring models](/payments/features/tokenization/#recurring-models).
 
 ----------------
-__redirect_url__ | string
+`currency` | string | required
 
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
-
-----------------
-__cancel_url__ | string
-
-Customer will be redirected to this page after a failed payment.
+The currency you want the customer to pay in.  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). 
 
 ----------------
+`amount` | integer | required
 
-__close_window__ | bool (optional)
+The amount (in cents) the customer needs to pay.
 
+----------------
+`description` | string | required
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`notification_method` | string
+
+Sends push notification.  
+Options: `POST`, `GET`. Default: `GET`.
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
 
 ----------------
 

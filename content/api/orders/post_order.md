@@ -1,6 +1,6 @@
 ---
-weight: 210
-meta_title: "API Reference - Create a Redirect order - MultiSafepay Docs"
+weight: 202
+meta_title: "API Reference - Create a redirect order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "google_analytics": { 
       "account": "UA-XXXXXXXXX" 
       },
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -62,137 +62,76 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Create a Redirect order
+### Create a redirect order
 
-A _Redirect_ order is the default type.
+This is the default type of order.
 
 **Parameters**
 
 ----------------
+`type` | string | required
 
-__type__ | string
-
-Specifies the payment flow for the checkout process. Options: redirect, direct, checkout, paymentlink.
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`, `checkout`, `paymentlink`.
 
 ----------------
-__order_id__ | integer / string
+`order_id` | integer / string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__notification_url__ | string
+`amount` | integer | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__google_analytics__ | object
-
-Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Read more about Google Analytics on the [FAQ page](/faq/api/google-analytics-tracking)
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__account__ | string
+`description` | string | required
 
-Google Analytics Tracking-ID. You can find this in your Google Analytics Dashboard. 
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__cancel_url__ | string
+`google_analytics` | object | optional
 
-Customer will be redirected to this page after a failed payment.
+Your Google Analytics site ID, which is injected into the payment page so you can trigger custom events and track payment metrics.  
+For more information, see [Google Analytics tracking via the API](/developer/api/google-analytics-tracking).
 
-----------------
-__customer__ | object
+Contains:  
 
-Customer will be redirected to this page after a failed payment.
+`account` | string | optional
 
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US.
+The Google Analytics Tracking-ID.  
+See your Google Analytics dashboard. 
 
 ----------------
-__ip_address__ | object
+`payment_options` | object | required
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address)
-
-----------------
-__first_name__ | string
-
-The customer’s first name.   
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__last_name__ | string
+`customer` | object | required
 
-The customer’s last name.   
-
-----------------
-__address1__ | string
-
-First line of customer’s provided address.
+See [customer (object)](/api/#customer-object).
 
 ----------------
-__house_number__ | string
+`second_chance` | object | optional
 
-Customer’s provided house number.
-
-----------------
-__zip_code__ | string
-
-Customer’s provided zip / postal code. 
-
-----------------
-__city__ | string
-
-Customer’s provided city.     
-
-----------------
-__country__ | string
-
-Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)
-
-----------------
-__phone__ | string
-
-Customer’s provided phone number.  
-
-----------------
-__email__ | string
-
-Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
-
-----------------
-
-__close_window__ | bool (optional)
-
-
-Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+See [Send second chance emails](/api/#send-second-chance-emails).
 
 ----------------
 

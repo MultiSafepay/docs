@@ -41,10 +41,6 @@
       {{ partial "manual" . }}
 {{ end }}
 
-{{ if isset .Params "changelog" }}
-{{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
-{{ end }}
-
 {{ if isset .Params "buttons_under_text" }}
 {{ partial "buttons_under_text" . }}
 {{ end }}

@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 1000,
     "gateway": "BANKTRANS",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
         "notification_url": " http://www.example.com/client/notification?type=notification",
         "redirect_url": " http://www.example.com/client/notification?type=redirect ",
@@ -29,7 +29,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response 
+> JSON response 
 
 ```json
 {
@@ -51,7 +51,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 1000,
     "gateway": "BANKTRANS",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -67,18 +67,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 
 ```
-> JSON Response 
+> JSON response 
 
 ```json
 {
     "success": true,
     "data": {
-        "transaction_id": 123456789
+        "transaction_id": 123456789,
         "order_id": "my-order-id-1",
         "created": "2019-03-01T16:12:47",
         "currency": "EUR",
         "amount": 1000,
-        "description": "Test Order Description",
+        "description": "Test order description",
         "var1": null,
         "var2": null,
         "var3": null,
@@ -107,7 +107,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "zip_code": "1033SC"
         },
         "payment_details": {
-            "type": "BANKTRANS"
+            "type": "BANKTRANS",
             "account_holder_name": "",
             "account_id": null,
             "external_transaction_id": "9201727123406700",
@@ -117,7 +117,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         },
         "costs": [
             {
-                "transaction_id": 123456789
+                "transaction_id": 123456789,
                 "amount": 0,
                 "description": "",
                 "type": "SYSTEM"
@@ -127,7 +127,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "account_holder_name": " ",
             "amount": 1000,
             "currency": "EUR",
-            "description": "Test Order Description",
+            "description": "Test order description",
             "external_transaction_id": "234374824",
             "payment_description": "Bank transfer",
             "status": "initialized",
@@ -150,259 +150,191 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-__Please note: The parameter 'email' must be present, otherwise MultiSafepay will be unable to send the payment details to the customer.__
-
 {{< /code-block >}}
 
 {{< description >}}
-## Bank transfer
-### Redirect - Bank transfer 
+## Bank Transfer
+See also Payment methods – [Bank transfer](/payments/methods/banks/bank-transfer).
 
-Creates a Bank transfer [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### Bank Transfer - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`.
 
 ----------------
-__currency__ | string
+`order_id` | integer / string | required
 
-The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
-
-----------------
-__amount__ | integer
-
-The amount (in cents) that the customer needs to pay.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string
+`currency` | string | required
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BANKTRANS.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The currency you want the customer to pay in.    
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__payment_options__ | object
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__notification_url__ | string
+`gateway` | string | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `BANKTRANS`.
 
 ----------------
-__cancel_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a failed payment.
-
-----------------
-__customer__ | object
-
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__ip_address__ | string
+`payment_options` | object | required
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
-
-----------------
-__email__ | string
-
-The email address where the system can send payment instructions to the customer. 
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__country__ | string
+`customer` | object | required
 
-Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  
+See [customer (object)](/api/#customer-object).
 
-----------------
+- If the `email` parameter is not provided, MultiSafepay cannot send the payment details to the customer.
+- The `country` parameter provides the customer a local bank account to pay to, where available.  
 
-__close_window__ | bool (optional)
+---------------- 
 
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
-
-----------------
-
-
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
-
-Read more about [bank transfers](/payment-methods/banks/bank-transfer) on our documentation page.
-
-
-### Direct - Bank transfer 
-
-Creates a Bank transfer [Direct](/faq/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
-
+### Bank Transfer - direct  
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`.
 
 ----------------
-__currency__ | string
+`order_id` | integer / string | required
 
-The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
-
-----------------
-__amount__ | integer
-
-The amount (in cents) that the customer needs to pay.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__gateway__ | string
+`currency` | string | required
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BANKTRANS.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The currency you want the customer to pay in.    
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__payment_options__ | object
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__notification_url__ | string
+`gateway` | string | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `BANKTRANS`.
 
 ----------------
-__cancel_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a failed payment.
-
-----------------
-__customer__ | object
-
-----------------
-__locale__ | string
-
-Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__ip_address__ | string
+`payment_options` | object | required
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
-
- ----------------
-
-  __disable_send_email (optional)__	| boolean
-
-Set to _True_ if you will send your own bank transfer payment instructions to customers and do not want MultiSafepay to do this. This value defaults to _false_.
-
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__email__ | string
+`customer` | object | required
 
-The email address where the system can send payment instructions to the customer. 
+See [customer (object)](/api/#customer-object).
 
-----------------
-__country__ | string
-
-Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  
+- If the `email` parameter is not provided, MultiSafepay cannot send the payment details to the customer.
+- The `country` parameter provides the customer a local bank account to pay to, where available. 
 
 ----------------
+`disable_send_email (optional)`	| boolean | required
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+If emailing payment instructions to the customer yourself, set to `true`.  
+For MultiSafepay to email payment instructions, set to `false`.  
+Options: `true`, `false`.  
+Default: `false`.
 
-In the JSON response for a direct transaction, it is important to send payment instructions to the customer by yourself. Please be aware that all of the parameters can be different for every single transaction. Do not store this information other than for a specific transaction.
-
-**Parameters**
-
-----------------
-__gateway_info__ | object
-
-Contains the information for the customer in order to pay for the transaction.
+**Note:** In the JSON response, it is important to send payment instructions to the customer yourself. Note that all parameters can be different for every single transaction. Do not store this information except for a specific transaction.
 
 ----------------
-__reference__ | string
+`gateway_info` | object
 
-A unique number the customer must mention within the bank transfer in order to have the payment recognized by MultiSafepay.
+The customer data (`issuer_id`) required for conducting credit checks.
+
+Contains:  
+
+`reference` | string | required
+
+A unique number the customer must provide in the bank transfer for MultiSafepay to recognize the payment.
+
+`issuer_name` | string | required
+
+The name of MultiSafepay's bank to send the funds to.    
+
+`destination_holder_name` | string | required
+
+The account holder name for MultiSafepay's bank account.
+
+`destination_holder_city` | string | required
+
+The city where the MultiSafepay bank account is registered.  
+
+`destination_holder_country` | string | required
+
+The country where the MultiSafepay bank account is registered.
+
+`destination_holder_iban` | string | required
+
+The international bank account number (IBAN) to send the funds to.
+
+`destination_holder_swift` | string | required
+
+The bank identification code (BIC) to send the funds to. 
+
+`account_holder_name` | string | required
+
+The name of the account holder to be charged for the transaction. 
+
+`account_holder_city` | string | required
+
+The customer's city, if provided in the transaction request.  
+
+`account_holder_country` | string | required
+
+The customer's country, if provided in the transaction request.  
+
+**Response**
 
 ----------------
-__issuer_name__ | string
+`costs` | object
 
-The name of our bank to send the money to.    
-
-----------------
-__destination_holder_name__ | string
-
-The account holder name registered to our bank account.
+See [costs (object)](/api/#costs-object).
 
 ----------------
-__destination_holder_city__ | string
+`payment_methods` | object
 
-The city which our bank account is registered in.  
-
-----------------
-__destination_holder_country__ | string
-
-The country which our bank account is registered in.
+See [payment_methods (object)](/api/#payment_methods-object).
 
 ----------------
-__destination_holder_iban__ | string
-
-The International Bank Account Number to send the money to.
-
-----------------
-__destination_holder_swift__ | string
-
-The Bank Identification Code to send the money to. 
-
-----------------
-__account_holder_name__ | string
-
-The customer's name here if provided in transaction request. 
-
-----------------
-__account_holder_city__ | string
-
-The customer's city here if provided in transaction request.  
-
-----------------
-__account_holder_country__ | string
-
-The customer's country here if provided in transaction request.  
-
 
 {{% /description %}}

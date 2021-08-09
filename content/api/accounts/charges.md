@@ -1,12 +1,12 @@
 ---
-weight: 371
+weight: 372
 meta_title: "API - Charges - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
 
-> /accounts/{affiliated_id}/charges
+> POST /accounts/{affiliated_id}/charges
 
 ```json 
 {
@@ -50,43 +50,52 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Charges
 
-As a partner or primary account holder, use /charges to move funds from an affiliated account balance to your own. 
+As a partner or primary account holder, use this endpoint to move funds from an affiliated account's balance to your own. 
 
 By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
 
-### Parameters
+For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-**affiliated_id** | query parameter
+**Parameters**
 
-The account ID of the affiliated account you want to debit. **Required**.
+----------------
+**affiliated_id** | query parameter | required
 
-**amount** | integer 
+The account ID of the affiliated account you want to charge. 
 
-The amount to charge in cents. **Required**.
+----------------
+**amount** | integer | required
 
-**currency** | string
+The amount to charge in cents. 
 
-The currency you want to charge the affiliated account in. **Required**.  
-**Format**: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)
+----------------
+**currency** | string | required
 
-**order_id** | string 
+The currency you want to charge the affiliated account in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
-Your unique identifier for the charge. **Required**. 
+----------------
+**order_id** | string | required
 
-**description** | string
+Your unique identifier for the charge.  
 
-A description for the transaction. The description is displayed in the affiliated account and your account. **Optional**. 
+----------------
+**description** | string | optional
 
-**var1** | string
+A description of the transaction, which is displayed in both your account and the affiliated account. 
 
-A variable for storing additional data. **Optional**.
+----------------
+`var1` / `var2` / `var3` | string | optional
 
-**var2** | string
+Variables for storing additional data. 
 
-A variable used to store additional data. **Optional**.
+**Response**
 
-**var3** | string
+----------------
+`costs` | object
 
-A variable used to store additional data. **Optional**.
+See [costs (object)](/api/#costs-object).
+
+----------------
 
 {{< /description >}}

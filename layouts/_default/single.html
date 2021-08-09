@@ -1,5 +1,6 @@
 {{ define "main"}}
-{{ if (not ( isset .Params "hideMenu" ))}}
+{{ if or (isset .Params "hideMenu") (isset .Params "childlist") }}
+{{ else }}
 <div class="sticky-with-menu">
     <div class="container">
         <aside id="toc" class="col-md-3 offset-md-9">
@@ -16,18 +17,21 @@
 
 <div class="js-toc-content">
 <div class="container">
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-md-9">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 mt-2">
                     <h1 id="{{ .Title}}">{{ .Title}}</h1>
                     <hr class="separator">
                 </div>
+                {{ if not (isset .Params "linktomarketing")}}
                 <div class="col-md-2 d-none d-md-inline">
                     {{ if .Params.logo }}
                     <img class="plugin-logo" src="{{ .Params.logo }}">
                     {{ end }}
                 </div>
+                {{ end }}
+
             </div>
             <div class="row pb-3">
                 <div class="col-md-8">
@@ -67,8 +71,15 @@
                     {{ end }}
                 </div>
             </div>
+
+            {{ if isset .Params "linktomarketing" }}
+            <div>
+                {{ partial "linktomarketing" . }}
+            </div>
+            {{ end }}
+
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-lg-9">
                     {{ .Content}}
                 </div>
             </div>
@@ -77,6 +88,10 @@
 </div>
 {{ if isset .Params "manual" }}
       {{ partial "manual" . }}
+{{ end }}
+
+{{ if isset .Params "childlist" }}
+{{ partial "childlist" . }}
 {{ end }}
 
 {{ if isset .Params "changelog" }}

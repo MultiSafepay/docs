@@ -50,7 +50,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled 
+| **Cancelled** | Transaction was canceled 
 
 {{< /details >}}
 
@@ -63,7 +63,7 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction is void / cancelled |
+| **Cancelled** | Transaction is void / canceled |
 
 {{< /details >}}
 
@@ -102,7 +102,7 @@ Sample statuses:
 | --------------------- | ------------------------ |
 | **Completed**             | Transaction was completed |
 | **Declined**              | Transaction was declined |
-| **Cancelled**             | Transaction was cancelled |
+| **Cancelled**             | Transaction was canceled |
 | **Initialized**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Completed**. |
 | **Initialized**/ **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
 
@@ -121,7 +121,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -134,7 +134,7 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction is void / cancelled |
+| **Cancelled** | Transaction is void / canceled |
 
 {{< /details >}}
 
@@ -147,13 +147,13 @@ Sample statuses:
 | Status    | Testing instructions | Description              |
 | --------- | ----------------------- | ----------------------- |
 | **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
-| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
+| Canceled | Click the **Close** button at the top right of the screen. | Transaction was canceled |
 
 {{< /details >}}
 
 {{< details title="Recurring payments" >}}
 
-To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
+To enable [recurring payments](/payments/features/recurring-payments/) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
 
 {{< /details >}}
 
@@ -179,7 +179,7 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -190,7 +190,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -206,7 +206,7 @@ It is not possible to test TrustPay payments.
 
 To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
-To generate a test API key from AfterPay for authentication, create an AfterPay Sandbox account. See AfterPay - [Log in](https://developer.afterpay.io/auth/login). 
+To generate a test API key from AfterPay for authentication, create an AfterPay Sandbox account. See AfterPay - [Sign in](https://developer.afterpay.io/auth/login). 
 
 The API key appears on the AfterPay **Account** page, which also specifies how long it is valid. The key is generated immediately, but you may need to refresh the page after a few seconds to display it. 
 
@@ -238,8 +238,8 @@ Test credentials: [API key](.com/tools/multisafepay-control/get-your-api-key/)
 
 To test in3 transactions, follow these steps:
 
-1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
+2. The payment is processed in the test environment as **Successful**, with [order status](/api/multisafepay-statuses/) **Completed**, and [transaction status](/api/multisafepay-statuses/) **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
     - Change the status in your MultiSafepay test account.
@@ -247,6 +247,7 @@ To test in3 transactions, follow these steps:
 4. No invoice is generated in the test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in in3.
 
 You can also test in3 transactions by entering the following details on the in3 checkout page:
+
 | Date of birth    | Postal code | House number |
 | ------------------- | ------------------- | ----------------- |
 | 01-01-1999 | 1234AB | 1 |
@@ -268,7 +269,7 @@ Test credentials:
 
 To test Klarna transactions, follow these steps:
 
-1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
+1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
 2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
@@ -276,7 +277,7 @@ To test Klarna transactions, follow these steps:
 {{< br >}}The transaction status remains **Uncleared**.
 4. No invoice is generated in the test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/billing-suite/klarna).
+For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
 
 {{< /details >}}
 
@@ -427,7 +428,7 @@ For any questions, email the Integration Team at <integration@multisafepay.com>
 
 {{< details title="Apple Pay" >}}
 
-To test Apple Pay, see [Compatibility and testing](/payment-methods/wallet/applepay/#compatibility-and-testing) to learn how to test on supported devices.
+To test Apple Pay, see [Compatibility and testing](/payments/methods/wallet/applepay/#compatibility-and-testing) to learn how to test on supported devices.
 
 {{< /details >}}
 
@@ -438,7 +439,7 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 
@@ -448,7 +449,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 To test PayPal transactions, follow these steps:
 
-1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
+1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
 2. The payment is processed in MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status remains **Initialized** and cannot be changed to **Completed**.
 
@@ -460,7 +461,7 @@ Sample statuses:
 | **Declined** | Transaction was declined |
 | **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted |
 | **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Transaction was canceled |
 
 {{< /details >}}
 

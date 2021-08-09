@@ -10,6 +10,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 # Accounts
 <hr class="separator">
 
-Partners and primary account holders use these endpoints to perform actions on affiliated accounts.
+Partners and primary account holders can use these endpoints to perform actions on affiliated accounts.
 
 {{% /description %}}

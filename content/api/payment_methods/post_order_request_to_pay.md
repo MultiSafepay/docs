@@ -16,7 +16,7 @@ aliases: [/api/#direct-bank-transfer]
     "gateway": "DBRTP",
     "currency": "EUR",
     "amount": 9743,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -27,7 +27,7 @@ aliases: [/api/#direct-bank-transfer]
 
 ```
 
-> JSON Response 
+> JSON response 
 
 ```json
 {
@@ -49,7 +49,7 @@ aliases: [/api/#direct-bank-transfer]
   "gateway": "DBRTP",
   "currency": "EUR",
   "amount": 9743,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": false,
   "payment_options": {
     "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -60,7 +60,7 @@ aliases: [/api/#direct-bank-transfer]
 }
 ```
 
-> JSON Response 
+> JSON response 
 
 ```json
 {
@@ -70,9 +70,9 @@ aliases: [/api/#direct-bank-transfer]
     "amount_refunded": 0,
     "costs": [
       {
-        "amount":,
+        "transaction_id": 123456789,
+        "amount": ,
         "description": "",
-        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -95,7 +95,7 @@ aliases: [/api/#direct-bank-transfer]
       "phone1": "0208500500",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -113,7 +113,7 @@ aliases: [/api/#direct-bank-transfer]
       {
         "amount": 9743,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "P-26660200325-0935",
         "payment_description": "Request to Pay",
         "status": "initialized",
@@ -135,97 +135,80 @@ aliases: [/api/#direct-bank-transfer]
 {{< description >}}
 
 ## Request to Pay
+See also Payment methods – [Request to Pay](/payments/methods/banks/request-to-pay).
 
-### Redirect - Request to Pay
-
-
-Creates a Request to Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### Request to Pay - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: Redirect.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+The payment flow for the checkout process.  
+Options: `redirect`.
 
 ----------------
-__gateway__ | string
+`order_id` | integer / string | required
 
-The payment gateway does not need to be specified.
-
-----------------
-__currency__ | string
-
-The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `DBRTP`.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency you want the customer to pay in.    
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
-__notification_url__ | string
+`amount` | integer | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__cancel_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a failed payment.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
 
-__close_window__ | bool (optional)
+### Request to Pay - direct
 
+`type` | string | required
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
-
-----------------
-
-
-
-
-
-### Direct - Request to Pay
-
-Creates a Request to Pay [Direct](/faq/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
-
-__type__ | string
-
-Specifies the payment flow for the checkout process. Options: Direct.
+The payment flow for the checkout process.  
+Options: `direct`.
 
 ----------------
-__payment_options__ | object
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+**Response**
 
 ----------------
+`costs` | object
 
+See [costs (object)](/api/#costs-object).
 
-Read more about [Request to Pay](/payment-methods/banks/request-to-pay) on our documentation page.
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
+----------------
 
 {{< /description >}}

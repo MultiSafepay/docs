@@ -24,12 +24,10 @@ curl -X POST "https://api.multisafepay.com/v1/json/" \
 {{< description >}}
 ## Authentication
 
-All requests to the MultiSafepay [API](/faq/general/multisafepay-glossary/#api) require authentication. Authentication is provided by including an [API key](/faq/general/multisafepay-glossary/#api-key) as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites make sure to use the corresponding key. 
+All requests to the MultiSafepay API require authentication. 
 
-The API key can be found under the website settings in [MultiSafepay Control](/faq/general/multisafepay-glossary/#multisafepay-control)
+Include your [website API key](/set-up-your-account/site-id-api-key-secure-code) as an HTTP header in your request: `api_key`
 
-The HTTP header name for the API key is: **api_key**
-
-**Note**: When you use API keys in your integrations, keep them secure. Publicly exposing your credentials can result in your account being compromised.
+**Note**: Always keep your API keys secure. Publicly exposing your credentials can compromise your account.
 
 {{% /description %}}

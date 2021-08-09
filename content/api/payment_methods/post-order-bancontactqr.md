@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "MISTERCASH",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -30,7 +30,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -46,68 +46,65 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Bancontact QR
 
-Creates a Bancontact QR [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+- See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
+- Redirect only.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect and payment link.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+The payment flow for the checkout process.  
+Options: `redirect`, `paymentlink`.
 
 ----------------
-__gateway__ | string
+`order_id` | integer / string | required
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: MISTERCASH.
-
-----------------
-
-__currency__ | string
-
-Has to be EUR.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway identifier to direct the customer straight to the payment method.  
+Options: `MISTERCASH`.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency for the order.  
+Fixed value: `EUR`.
 
 ----------------
-__gateway_info__ | object
+`amount` | integer | required
 
-The qr_enabled = 1 invokes the qr_url. This parameter contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point.
-
-----------------
-__customer__ | object
+The amount (in cents) the customer needs to pay.
 
 ----------------
+`description` | string | required
 
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
+`payment_options` | object | required
 
-After placing the order, you will receive 2 links as response on a successfull Bancontact QR request: a payment link and a qr_url. This qr_url contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point.
+See [payment_options (object)](/api/#payment-options-object).
 
+----------------
+`gateway_info` | object
 
-Read more about [Bancontact](/payment-methods/banks/bancontact) on our documentation page.
+`qr_enabled` = 1 invokes the `qr_url`.  
+This parameter contains a deeplink to Bancontact/MisterCash, which can be encoded into a QR image.  
+If the request is successful, you receive 2 links: a payment link and a `qr_url`. 
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
 
 {{< /description >}}

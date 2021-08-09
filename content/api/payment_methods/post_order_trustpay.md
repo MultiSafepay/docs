@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "CZK",
     "amount": 1000,
     "gateway": "TRUSTPAY",
-    "description": "Test Order Description",
+    "description": "Test order description",
     "custom_info": {},
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -29,7 +29,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 
 ```json
@@ -46,84 +46,58 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## TrustPay
 
-Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+- See also Payment methods – [TrustPay](/payments/methods/banks/trustpay).  
+- Redirect only.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect.  
-
-----------------
-__gateway__ | string
-
-TRUSTPAY
+The payment flow for the checkout process.  
+Options: `redirect`.  
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway identifier.  
+Fixed value: `TRUSTPAY`.
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__notification_url__ | string
+`amount` | integer | required
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__redirect_url__ | string
-
-Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/general/multisafepay-glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+The amount (in cents) the customer needs to pay.
 
 ----------------
-__cancel_url__ | string
+`description` | string | required
 
-Customer will be redirected to this page after a failed payment.
-
-----------------
-__customer__ | object                                
-
-----------------
-__email__ | string   
-
-Customer’s provided email address. Used to send Second Chance emails, in fraud checks and the sending bank transfer email.                              
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__locale__ | string   
+`payment_options` | object | required
 
-Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes.                       
-
-----------------
-
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
+`customer` | object | required 
 
-Read more about [TrustPay](/payment-methods/banks/trustpay) on our documentation page.
+See [customer (object)](/api/#customer-object).
+
+----------------
 
 {{< /description >}}

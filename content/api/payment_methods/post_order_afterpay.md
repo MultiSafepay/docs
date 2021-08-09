@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 26000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": "false",
     "gateway_info": {
         "birthday": "1970-07-10",
@@ -64,7 +64,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```
 
-> JSON Response
+> JSON response
 
 ```shell
 
@@ -92,9 +92,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "amount":,
-        "description": "",
         "transaction_id": 2045938,
+        "amount": ,
+        "description": "",
         "type": "SYSTEM"
       },
       {
@@ -127,7 +127,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 26000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "items": "",
     "manual": "false"
     ...
@@ -175,7 +175,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -190,217 +190,191 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## AfterPay
-### Direct - AfterPay
+See also Payment methods – [AfterPay](/payments/methods/billing-suite/afterpay/).
 
-Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
-
-* For direct transactions, all fields must be completed properly.
-
-* All the following parameters are required fields.
+### AfterPay - direct 
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.
-
-----------------
-__gateway__ | string
-
-The unique gateway ID that immediately directs the customer to the payment method. Retrieve gateway IDs using a [gateway request](#retrieve-all-gateways). Options: AFTERPAY. 
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are numbers only, the type is integer, otherwise it is string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway identifier that directs the customer straight to the payment method.  
+Fixed value: `AFTERPAY`. 
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-Text displayed with the order in your MultiSafepay Control, and on the customer's bank statement (if supported by the bank). Max. 200 characters. HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`, otherwise it is `string`.  
+Format: Maximum 35 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/faq/api/how-does-the-notification-url-work). 
-
-----------------
-__customer__ | object
-
-Contains the customer's personal information. The values for `first_name` and `last_name` require at least 2 characters.
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__delivery__ | object
+`amount` | integer | required
 
-Contains the delivery information for the shipment. The values for `first_name` and `last_name` require at least 2 characters.
-
-----------------
-__shopping_cart__ | object
-
-Contains all purchased items, including the tax class. If you have a custom integration, include a complete specification of the `shopping_cart` when sending the transaction.
-
- **Note:** For the `shopping_cart` to function correctly, the shipment item requires a `merchant_item_id` parameter with the value `msp-shipping`.
+The amount (in cents) the customer needs to pay.
 
 ----------------
+`description` | string | required
 
-__items__ | object
-
-Specification of products (items) you want to display on the checkout page. For descriptions of these parameters, see API Reference - [shopping_cart.items](/api/#shopping-cart-items).
-
-----------------
-
-__checkout_options__ | object
-
-Contains the definitions for the VAT class.
+Text displayed with the order in your MultiSafepay account, and on the customer's bank statement (if supported by the bank).  
+Max. 200 characters.  
+HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
 
 ----------------
-__gateway_info__ | object
+`manual` | string | required
 
-Contains the `issuer_id`.
-
-----------------
-__birthday__ | object
-
-The customer's date of birth. Format: yyyy-mm-dd. This is required for credit checks in NL and BE.
+Fixed value: `false`.
 
 ----------------
-__phone__ | string
+`gateway_info` | object  | required
 
-The customer's phone number. This is required for credit checks and to contact the customer in case of non-payment.
+The customer data (`issuer_id`) required for conducting credit checks.
+
+Contains:
+
+`birthday` | object | required
+
+The customer's date of birth.  
+In the Netherlands and Belgium, this is required for credit checks.  
+Format: yyyy-mm-dd. 
+
+`gender` | string | required
+
+The customer's personal title.  
+Options: `mr`, `mrs`, `miss`. 
+
+`phone` | string | required
+
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment.
+
+`email` | string | required
+
+The email address for sending payment instructions to the customer.
 
 ----------------
-__email__ | string
+`payment_options` | object | required
 
-The email address where the system can send payment instructions to the customer.
-
-----------------
-__gender__ | string
-
-The customer's personal title. Options: `mr`, `mrs`, `miss`. 
+See [payment_options (object)](/api/#payment-options-object). 
 
 ----------------
-__ip_address__ | string
+`shopping_cart` | object
 
- The customer's IP address. This is required for post-payment methods and credit cards. To validate the customer's IP address, we need to receive the actual IP address of the end user in the [`ip_address`](/faq/api/ip_address) field.
-
-----------------
-__forwarded_ip__ | string
-
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 ----------------
+`customer` | object | required
 
-__close_window__ | bool (optional)
+See [customer (object)](/api/#customer-object).
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+`items` | object
+
+See [items (object)](/api/#items-object/).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.  
 
 ----------------
 
-**Note:** The `first_name` and `last_name` fields in both the `customer` and `delivery` objects require at least 2 characters. For Afterpay, we recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).
-
-----------------
-
-### Redirect - AfterPay
-
-Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
-
-- For redirect transactions, all fields must be completed properly.
-
-- All the following parameters are required fields.
+### AfterPay - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.
-
-----------------
-__gateway__ | string
-
-The unique gateway ID that immediately directs the customer to the payment method. Retrieve gateway IDs using a [gateway request](#retrieve-all-gateways). Options: AFTERPAY. 
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are numbers only, the type is integer, otherwise it is string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway ID that immediately directs the customer to the payment method.  
+Fixed value: `AFTERPAY`. 
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-Text displayed with the order in your MultiSafepay Control, and on the customer's bank statement (if supported by the bank). Max. 200 characters. HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`, otherwise it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/faq/api/how-does-the-notification-url-work). 
-
-----------------
-__customer__ | object
-
-Contains the customer's personal information. The values for `first_name` and `last_name` require at least 2 characters.
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__delivery__ | object
+`amount` | integer | required
 
-Contains the delivery information for the shipment. The values for `first_name` and `last_name` require at least 2 characters.
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object). 
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping_cartitems).
+
+----------------
+`items` | object
+
+See [items (object)](/api/#items-object/).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
 
 ----------------
 
-__shopping_cart__ | object
-
-Contains all purchased items, including the tax class. If you have a custom integration, include a complete specification of the `shopping_cart` when sending the transaction.
-
- **Note:** For the `shopping_cart` to function correctly, the shipment item requires a `merchant_item_id` parameter with the value `msp-shipping`.
-
-----------------
-
-__items__ | object
-
-Specification of products (items) you want to display on the checkout page. For descriptions of these parameters, see API Reference - [shopping_cart.items](/api/#shopping-cart-items).
-
-----------------
-
-__checkout_options__ | object
-
-Contains the definitions for the VAT class.
-
-----------------
-__ip_address__ | string
-
- The customer's IP address. This is required for post-payment methods and credit cards. To validate the customer's IP address, we need to receive the actual IP address of the end user in the [`ip_address`](/faq/api/ip_address) field.
-
-----------------
-__forwarded_ip__ | string
-
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
-
-----------------
-
-**Note:** The `first_name` and `last_name` fields in both the `customer` and `delivery` objects require at least 2 characters. For Afterpay, we recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
-
-For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).
 {{< /description >}}

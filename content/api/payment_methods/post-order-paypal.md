@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "PAYPAL",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -26,7 +26,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "PAYPAL",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -75,7 +75,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -104,7 +104,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "phone1": "0208500500",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -125,7 +125,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "account_id": "https://www.paypal.com/cgi-bin/webscr?cmdmsp=_express-checkout&token=EC-8K013819T00365502LLL-msp",
         "amount": 1000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "EC-8K013819T00365502L",
         "payment_description": "PayPal",
         "status": "initialized",
@@ -146,135 +146,130 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## PayPal
-### Redirect - PayPal
+See also Payment methods – [PayPal](/payments/methods/wallet/paypal).
 
-Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+### PayPal - redirect
 
-{{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status is set to _Completed_ and the financial status remains set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since the shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+Once the customer has completed payment, the `status` changes to **Completed**. The `financial_status` remains **Initialized**, and during this status you cannot ship the order. You must first set the order to **Completed** for both the `status` and `financial_status` and then ship the order.
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. 
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: PAYPAL.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`. 
 
 ----------------
-__order_id__ | integer / string
+`order_id` | integer / string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway ID to direct the customer straight to the payment method.  
+Fixed value: `PAYPAL`.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
+`amount` | integer | required
 
-__close_window__ | bool (optional)
-
-
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+The amount (in cents) the customer needs to pay.
 
 ----------------
+`description` | string | required
 
-__state__ | string
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
-To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+**Note:** To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes) the transaction request must include the `state` parameter in the customer's address. 
 
 ----------------
 
-Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
-
-### Direct - PayPal
-Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### PayPal - direct 
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. 
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: PAYPAL.
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `checkout`, `paymentlink`. 
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway ID to direct the customer straight to the payment method.   
+Fixed value: `PAYPAL`.
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. 
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
+`amount` | integer | required
 
-__state__ | string
-
-To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), the transaction request needs to have the correct state in the customer address details for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes)
+The amount (in cents) the customer needs to pay.
 
 ----------------
+`description` | string | required
 
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+----------------
+`payment_options` | object | required
 
-Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+**Note:** To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156), for the following [countries](https://developer.paypal.com/docs/nvp-soap-api/state-codes) the transaction request must include the `state` parameter in the customer's address.
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
+----------------
 
 {{< /description >}}

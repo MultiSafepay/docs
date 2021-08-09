@@ -24,12 +24,12 @@ If you sell alcohol, you must:
 
 {{< details title="Download a declaration" >}}
 
-* [Dutch merchant declaration](/faq/getting-started/form/NL-Verklaring_alcoholische_dranken.pdf)   
-* [English merchant declaration](/faq/getting-started/form/EN-Declaration_alcoholic_beverages.pdf)  
-* [French merchant declaration](/faq/getting-started/form/FR-Déclaration_des_boissons_alcoolisées.pdf)  
-* [German merchant declaration](/faq/getting-started/form/DE-Erklärung_für_alkoholischen_Getränke.pdf)
-* [Italian merchant declaration](/faq/getting-started/form/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
-* [Spanish merchant declaration](/faq/getting-started/form/ES-Declaración_sobre_bebidas_alcohólicas.docx)  
+* [Dutch merchant declaration](/getting-started/go-live/form/NL-Verklaring_alcoholische_dranken.pdf)   
+* [English merchant declaration](/getting-started/go-live/form/EN-Declaration_alcoholic_beverages.pdf)  
+* [French merchant declaration](/getting-started/go-live/form/FR-Déclaration_des_boissons_alcoolisées.pdf)  
+* [German merchant declaration](/getting-started/go-live/form/DE-Erklärung_für_alkoholischen_Getränke.pdf)
+* [Italian merchant declaration](/getting-started/go-live/form/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
+* [Spanish merchant declaration](/getting-started/go-live/form/ES-Declaración_sobre_bebidas_alcohólicas.docx)  
 
 {{< /details >}}
 

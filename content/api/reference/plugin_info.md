@@ -1,38 +1,43 @@
 ---
-weight: 630
+weight: 609
 meta_title: "API Reference - Plugin - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< description >}}
-## Plugin information
+## plugin (object)
 
-This [plugin](/faq/general/multisafepay-glossary/#plugin) information is required for a Community Integration. For more information about these requirments, please read more about [a community integration](/integrations/community) on our documentation page.
+This object is required for [community-developed integrations](/payments/integrations/community/). 
+
+Contains:  
 
 **Parameters**
 
-__shop__ | string
+----------------
+`shop` | string | required
 
- The ecommerce platform in use.
+ The ecommerce platform that you use.
 
 ----------------
-__plugin_version__ | string
+`plugin_version` | string | required
 
 The version of the plugin.
 
 ----------------
-__shop_version__ | string
+`shop_version` | string | required
 
-The version of the ecommerce webshop. 
-
-----------------
-__partner__ | string
-
-The third party developing the ecommerce webshop. 
+The version of the ecommerce webshop you use. 
 
 ----------------
-__shop_root_url__ | string
+`partner` | string | required
+
+The name of the third party that developed the ecommerce webshop. 
+
+----------------
+`shop_root_url` | string | required
 
 The primary URL of the ecommerce webshop.
+
+----------------
 
 {{% /description %}}
 

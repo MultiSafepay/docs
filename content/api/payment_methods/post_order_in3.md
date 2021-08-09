@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 37485,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": "false",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -157,7 +157,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
  
-> JSON Response 
+> JSON response 
 
 ```json
 {
@@ -254,7 +254,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "phone1": "0612345678",
       "zip_code": "1039 SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": "<table border=\"0\" cellpadding=\"5\" width=\"100%\">\n<tr>\n<th width=\"10%\"><font size=\"2\" face=\"Verdana\">Aantal </font></th>\n<th align=\"left\"></th>\n<th align=\"left\"><font size=\"2\" face=\"Verdana\">Details </font></th>\n<th width=\"19%\" align=\"right\"><font size=\"2\" face=\"Verdana\">Prijs </font></th>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">3</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Geometric Candle Holders</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">90.00</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Nice apple</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">35.00</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Flat Rate - Fixed</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">10.00</font>\n</td>\n</tr>\n<tr bgcolor=\"#E9F1F7\">\n<td colspan=\"3\" align=\"right\"><font size=\"2\" face=\"Verdana\">BTW:</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">59.85</font>\n</td>\n</tr>\n<tr bgcolor=\"#E9F1F7\">\n<td colspan=\"3\" align=\"right\"><font size=\"2\" face=\"Verdana\">Totaal:</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">374.85</font>\n</td>\n</tr>\n</table>",
@@ -278,7 +278,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "account_id": "1970-07-10",
         "amount": 37485,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "34bfc928374rhjnf9368753da1",
         "payment_description": "in3",
         "status": "initialized",
@@ -359,7 +359,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 37485,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": "false",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -500,7 +500,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response 
+> JSON response 
 
 ```json
 {
@@ -515,205 +515,194 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## in3
-### Direct - in3
+See also Payment methods – [in3](/payments/methods/billing-suite/in3).
 
-Creates an in3 [Direct](/faq/api/difference-between-direct-and-redirect) order to be paid in installments.
-
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### in3 - direct
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: IN3. 
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Options: `IN3`. 
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work) 
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__delivery__ | object
+`amount` | integer | required
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters_.
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`manual` | string | required
+
+Fixed value: `false`.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object). 
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+`gateway_info` | object
+
+The customer data (`issuer_id`) required for conducting credit checks.
+
+Contains:  
+
+`birthday` | object
+
+The customer's date of birth.  
+Required for credit checks in: DE, NL, DK, BE, AT. 
+Optional: CH, NO, FI, SE.
+Format: yyyy-mm-dd.
+
+`gender` | string
+
+The customer's personal title.  
+Options: `mr`, `mrs`, `miss`. 
+
+`phone` | string
+
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment.
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping_cartitems). 
+
+----------------
+`items` | object
+
+See [items (object)](/api/#items-object/).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
 
 ----------------
 
-__shopping_cart__ | object
-
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
-
-----------------
-
-__items__ | object
-
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
-
-----------------
-
-__checkout_options__ | object
-
-Contains the definitions for the VAT class.
-
-----------------
-__gateway_info__ | object
-
-Contains the issuer_id.
-
-----------------
-__birthday__ | object
-
-The birth date of the customer in the format yyyy-mm-dd. This is required for credit checks. Required in countries: DE, NL, DK, BE, AT Optional in countries: CH, NO, FI, SE.
-
-----------------
-__phone__ | string
-
-The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment.
-
-----------------
-__email__ | string
-
-The email address where the system can send payment instructions to the customer.
-
-----------------
-__gender__ | string
-
-The gender salutation of the customer. Options: mr, mrs, miss. 
-
-----------------
-__ip_address__ | string
-
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
-
-----------------
-__forwarded_ip__ | string
-
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
-
-----------------
-Please note that _first_name<_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
-
-Read more about [in3](/payment-methods/billing-suite/in3) on our documentation page.
-
-----------------
-
-### Redirect - in3
-
-Creates an in3 [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid in installments.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### in3 - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect, direct.
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: IN3. 
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `IN3`. 
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.   
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work) 
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__delivery__ | object
+`amount` | integer | required
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters_.
-
-----------------
-
-__shopping_cart__ | object
-
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
+The amount (in cents) the customer needs to pay.
 
 ----------------
+`description` | string | required
 
-__items__ | object
-
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
-
-----------------
-
-__checkout_options__ | object
-
-Contains the definitions for the VAT class.
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-__ip_address__ | string
+`payment_options` | object | required
 
- The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__forwarded_ip__ | string
+`customer` | object | required
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping_cartitems). 
+
+----------------
+`items` | object
+
+See [items (object)](/api/#items-object/).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.
 
 ----------------
 
-Read more about [in3](/payment-methods/billing-suite/in3) on our documentation page.
 {{< /description >}}

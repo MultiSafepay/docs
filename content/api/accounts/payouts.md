@@ -1,12 +1,12 @@
 ---
-weight: 372
+weight: 373
 meta_title: "API - Payouts - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
 
-> /accounts/{affiliated_id}/payouts
+> POST /accounts/{affiliated_id}/payouts
 
 ```json 
 {
@@ -63,43 +63,52 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Payouts
 
-As a partner or primary account holder, use payouts to move funds from an affiliated account's balance to a connected bank account. 
+As a partner or primary account holder, use this endpoint to pay out funds from an affiliated account's balance to a connected bank account. 
 
-By default, payouts for affiliated accounts are disabled. Contact your account manager to enable payouts for your affiliated accounts.
+By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email your account manager at <sales@multisafepay.com>
 
-### Parameters
+For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
-**affiliated_id** | query parameter
+**Parameters**
 
-The account ID of the affiliated account that is to be paid out. **Required**.
+----------------
+**affiliated_id** | query parameter  | required
 
-**amount** | integer 
+The account ID of the affiliated account you want to pay out funds from. 
 
-The amount to pay out in cents. **Required**.
+----------------
+**amount** | integer | required
 
-**currency** | string
+The amount to pay out in cents. 
 
-The currency of the payout. **Required**.  
-**Format**: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)
+----------------
+**currency** | string | required
 
-**order_id** | string 
+The currency of the payout.  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
-Your unique identifier for the payout. **Required**. 
+----------------
+**order_id** | string | required
 
-**description** | string
+Your unique identifier for the payout. 
 
-A description for the transaction. The description is displayed in the affiliated account. **Optional**. 
+----------------
+**description** | string | optional
 
-**var1** | string
+A description of the transaction, which is displayed in the affiliated account.
 
-A variable for storing additional data. **Optional**.
+----------------
+`var1` / `var2` / `var3` | string | optional
 
-**var2** | string
+Variables for storing additional data.   
 
-A second variable for storing additional data. **Optional**.
+**Response**
 
-**var3** | string
+----------------
+`costs` | object
 
-A third variable for storing additional data. **Optional**.
+See [costs (object)](/api/#costs-object).
+
+----------------
 
 {{< /description >}}

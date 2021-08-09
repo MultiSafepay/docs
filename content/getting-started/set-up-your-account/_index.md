@@ -14,7 +14,7 @@ aliases:
     - /getting-started/set-up-your-account/user-guide/adding-websites/
 ---
 
-To set up your test account, you must first add at least one website and generate an [API key](/faq/general/multisafepay-glossary/#api-key). 
+To set up your test account, you must first add at least one website and generate an [API key](/getting-started/glossary/#api-key). 
 
 {{< details title="Website requirements" >}}
 
@@ -24,9 +24,7 @@ To process payments from a website operated by a separate legal entity, you must
 
 {{< /details >}} 
 
-To add a website, follow these steps:
-
-1. Log in to your [MultiSafepay test account](https://testmerchant.multisafepay.com). 
+1. Sign in to your [MultiSafepay test account](https://testmerchant.multisafepay.com). 
 2. Go to **Settings** > **Website settings**.
 3. Click either:  
     {{< details title="Quick add website" >}}
@@ -45,7 +43,7 @@ To add a website, follow these steps:
 2. From the **Website platform** dropdown, select your ecommerce platform.  
     You are prompted to install the MultiSafepay plugin for your ecommerce platform in your website. 
 3. From the **Category** dropdown, select the type of products and/or services you sell from this website, and then click **Continue**.
-4. If you want to receive transaction status updates via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+4. If you want to receive [transaction status](/api/multisafepay-statuses/) updates via webhook, in the **Notification URL** field, enter a URL for us to send them to.
 5. In the **Description** field, enter the company name you want to appear on payment pages and customer bank statements, and then click **Continue**.  
     A template of your MultiSafepay payment page is generated.
 6. Customize the template as required.  

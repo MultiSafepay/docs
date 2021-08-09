@@ -14,7 +14,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "DIRECTBANK",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -26,7 +26,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "gateway": "DIRECTBANK",
     "currency": "EUR",
     "amount": 1000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -73,7 +73,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -83,15 +83,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "amount_refunded": 0,
     "costs": [
       {
+        "transaction_id": 123456789,
         "amount":,
         "description": "",
-        "transaction_id": 123456789
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 123456789
+        "transaction_id": 123456789,
         "type": "SYSTEM"
       }
     ],
@@ -115,7 +115,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "phone1": "0208500500",
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -134,7 +134,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "account_id": 10071970,
         "amount": 9743,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "payment_description": "SOFORT Banking",
         "status": "initialized",
         "type": "DIRECTBANK"
@@ -144,7 +144,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 123456789
+    "transaction_id": 123456789,
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=de_DE",
     "cancel_url": "http://www.example.com/client/notification?type=cancel"
   }
@@ -157,118 +157,132 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 
 ## SOFORT
-### Redirect - SOFORT
-Creates a SOFORT [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
-* Redirect transaction requires all fields completed properly
+See also Payment methods – [SOFORT Banking](/payments/methods/banks/sofort-banking).
 
-* All parameters shown are required field(s)
+### SOFORT - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: redirect. |
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: DIRECTBANK.
+The payment flow for the checkout process.  
+Options: `redirect`. 
 
 ----------------
-__order_id__ | integer / string
+`order_id` | integer / string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__amount__ | integer
+`gateway` | string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+The unique gateway ID to direct the customer straight to the payment method.  
+Fixed value: `DIRECTBANK`.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+For supported currencies, see [About SOFORT Banking](/payments/methods/banks/sofort-banking/about/).
 
 ----------------
-__close_window__ | bool (optional)
+`amount` | integer | required
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
 
 ----------------
 
-Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
-
-### Direct - SOFORT
-Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect) order.
-
-* Direct transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
+### SOFORT - direct
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct. |
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: DIRECTBANK.
+The payment flow for the checkout process.  
+Options: `direct`. 
 
 ----------------
-__order_id__ | integer / string
+`gateway` | string | required
 
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. Check out the availble currencies in this [page](https://docs.multisafepay.com/payment-methods/banks/sofort-banking/#supported-currencies)
+The unique gateway ID to direct the customer straight to the payment method.  
+Fixed value: `DIRECTBANK`.
 
 ----------------
-__amount__ | integer
+`order_id` | integer / string | required
 
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
-__payment_options__ | object
+`currency` | string | required
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+For supported currencies, see [About SOFORT Banking](/payments/methods/banks/sofort-banking/about/).
 
 ----------------
+`amount` | integer | required
 
-__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+The amount (in cents) the customer needs to pay.
 
-Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
+----------------
+`description` | string | required
 
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`manual` | string | required
+
+Fixed value: `false`.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).   
+
+**Response**
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_methods` | object
+
+See [payment_methods (object)](/api/#payment_methods-object).
+
+----------------
 
 {{< /description >}}

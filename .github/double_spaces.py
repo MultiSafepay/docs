@@ -36,6 +36,6 @@ def open_file(file):
         return list(filter(None, file_content.read().splitlines()))
 
 
-if __name__ == "__main__":
+if `name` == "__main__":
     if main():
         raise ValueError

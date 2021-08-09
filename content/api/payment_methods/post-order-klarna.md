@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 26000,
-    "description": "Test Order Description",
+    "description": "Test order description",
     "items": "",
     "manual": "false",
     "gateway_info": {
@@ -107,7 +107,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
 }
 ```
-> JSON Response
+> JSON response
 
 ```json
 {
@@ -123,252 +123,124 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## Klarna
-### Redirect - Klarna
-Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
 
-Processing transactions with Klarna (the old environment) is only available as a Redirect request.
+See also Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
 
-Klarna Payments (the new environment of Klarna) is available as a Redirect request, although you may use the Direct request if you have your own integration. The JSON request remains the same for both Klarna and Klarna payments.
+The old Klarna environment only supports `redirect` orders.
 
-* Redirect transaction requires all fields completed properly
+The new **Klarna payments** environment supports `redirect` orders, and `direct` orders if using a custom itegration.
 
-* All parameters shown are required field(s)
+JSON requests are the same for both environments.
 
-**Parameters**
-
-----------------
-__type__ | string
-
-Specifies the payment flow for the checkout process. Options: direct, redirect.  
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: KLARNA.
-
-----------------
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
-
-----------------
-__amount__ | integer
-
-The amount (in cents) that the customer needs to pay.
-
-----------------
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
-
-----------------
-__payment_options__ | object
-
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-__customer__ | object
-
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
-
-----------------
-
-__delivery__ | object
-
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
-
-----------------
-
-__shopping_cart__ | object
-
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart.
-
- __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
-
-----------------
-
-__items__ | object
-
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
-
-----------------
-
-__quantity__ | integer
-
-The quantity of a specific item in the shopping cart. Decimals are not accepted and the value should be stated as a whole number e.g. '13'
-
-----------------
-
-__checkout_options__ | object
-
-Contains the definitions for the VAT class.
-
-----------------
-
-__gateway_info__ | object                                                              
-
-----------------
-__phone__ | string
-
-The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. 
-
-----------------
-__email__ | string
-
-The email address to which the system can send payment instructions to the customer.  
-
-----------------
-__gender__ | string
-
-The gender of the customer. (Required for Klarna, optional for Pay After Delivery and E-Invoicing) Options: male, female.
-
-----------------
-__ip_address__ | string
-
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
-
-----------------
-__forwarded_ip__ | string
-
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
-
-----------------    
-
-Please note that *first_name* and *last_name* in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
-
-Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
-
-### Redirect - Klarna Payments
-Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
-
-Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
-
-* Redirect transaction requires all fields completed properly
-
-* All parameters shown are required field(s)
-
+### Klarna - redirect
 
 **Parameters**
 
 ----------------
-__type__ | string
+`type` | string | required
 
-Specifies the payment flow for the checkout process. Options: direct, redirect.  
-
-----------------
-__gateway__ | string
-
-The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: KLARNA.
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.  
 
 ----------------
+`gateway` | string | required
 
-__order_id__ | integer / string
-
-The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
-
-----------------
-
-__currency__ | string
-
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+The unique gateway ID to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+Fixed value: `KLARNA`.
 
 ----------------
+`order_id` | integer / string | required
 
-__amount__ | integer
-
-The amount (in cents) that the customer needs to pay.
-
-----------------
-
-__description__ | string
-
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
+`currency` | string | required
 
-__payment_options__ | object
-
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
-
-----------------
-
-__customer__ | object
-
-Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-__delivery__ | object
+`amount` | integer | required
 
-Contains the delivery information for the shipment. _Values for first_name and last_name require minimum two characters._
-
-----------------
-
-__shopping_cart__ | object
-
-Contains all purchased items including tax class. If you are using your own integration, the transaction should be sent including the complete specification of the shopping_cart. 
-
- __Please note__: In order for the shopping_cart to function correctly, the shipment item requires a parameter ‘merchant_item_id’ with the value ‘msp-shipping'
+The amount (in cents) the customer needs to pay.
 
 ----------------
+`description` | string | required
 
-__items__ | object
-
-Specification of products (items) which can be set in order to be displayed on the checkout page. The descriptions of the shopping cart parameters can be viewed in the [shopping_cart.items](/api/#shopping-cart-items) API section.
-
-----------------
-
-__unit_price__ | float
-
-The unit price (in decimals) of the specific product excluding VAT. A maximum of 10 decimal places is accepted. 
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
+`items` | object
 
-__quantity__ | integer
-
-The quantity of a specific item in the shopping cart. Decimals are not accepted and the value should be stated as a whole number e.g. '13'
-
-----------------
-
-__checkout_options__ | object
-
-Contains the definitions for the VAT class.
+See [items (object)](/api/#items-object/).
 
 ----------------
+`manual` | string | required
 
-__gateway_info__ | object                                                              
-
-----------------
-
-__phone__ | string
-
-The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. 
+Fixed value: `false`.
 
 ----------------
+`gateway_info` | object  | required
 
-__email__ | string
+The customer data (`issuer_id`) required for conducting credit checks.
 
-The email address to which the system can send payment instructions to the customer.  
+Contains:
+
+`birthday` | object | required
+
+The customer's date of birth.  
+In the Netherlands and Belgium, this is required for credit checks.  
+Format: yyyy-mm-dd. 
+
+`gender` | string | required
+
+The customer's personal title.  
+Options: `mr`, `mrs`, `miss`. 
+
+`phone` | string | required
+
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment.
+
+`email` | string | required
+
+The email address for sending payment instructions to the customer.
 
 ----------------
+`payment_options` | object | required
 
-__ip_address__ | string
-
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-__forwarded_ip__ | string
+`plugin` | object | required
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+See [plugin (object)](/api/#plugin-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping_cartitems).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.   
 
 ----------------    
-
-Please note that *first_name* and *last_name* in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
-
-Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
 
 {{< /description >}}
