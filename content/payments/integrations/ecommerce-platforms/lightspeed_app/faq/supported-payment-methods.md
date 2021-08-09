@@ -8,14 +8,13 @@ aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/available-payment-methods-lightspeed/
 ---
 
-**Credit cards**
-
+{{< details title="Credit cards" >}}
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
++ [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
+{{< /details >}}
 
-**Banks**
-
+{{< details title="Banks" >}}
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
 + [Belfius](/payments/methods/banks/belfius)
@@ -30,26 +29,25 @@ aliases:
 + [Request to Pay](/payments/methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
-+ [Trustly](/payments/methods/banks/trustly)
++ [Trustly](/payments/methods/banks/trustly) 
+{{< /details >}}
 
-
-**Billing suite**
-
+{{< details title="Billing suite" >}}
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
 + [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+{{< /details >}}
 
-**Wallets** 
-
+{{< details title="Wallets" >}}
 + [Alipay](/payments/methods/wallet/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
 + [PayPal](/payments/methods/wallet/paypal)
+{{< /details >}}
 
-**Prepaid cards** 
-
+{{< details title="Prepaid cards" >}}
 + Baby gift card
 + Beauty and Wellness gift card
 + [Bloemencadeaukaart](https://www.bloemen-cadeaukaart.nl)
@@ -68,4 +66,7 @@ aliases:
 + [Webshop gift card](https://www.webshopgiftcard.nl/)
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl/)
-+ [Yourgift](https://www.yourgift.nl)
++ [Yourgift](https://www.yourgift.nl)  
+{{< /details >}}
+
+

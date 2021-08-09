@@ -17,7 +17,7 @@ Refund rules:
 
 To enable refunds from your Lightspeed backend, follow these steps:
 
-1. Sign in to lightspeed.multisafepay.com.
+1. Sign in to your Lightspeed app.
 2. Go to **Settings**.
 3. In the sidebar, click **Enable refunds**.
 

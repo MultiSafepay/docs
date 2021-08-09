@@ -18,6 +18,7 @@ aliases:
     - /integrations/hosted/lightspeed_app
     - /integrations/lightspeed_app
     - /integrations/ecommerce-integrations/lightspeed_app 
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/multiple-accounts/
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Lightspeed webshop.  
@@ -44,7 +45,8 @@ Contact us:
 
 {{< details title="Requirements" >}}
 - MultiSafepay account – See [Getting started](/getting-started/).
-- A MultiSafepay [API key](/tools/multisafepay-control/get-your-api-key))
+- A MultiSafepay [API key](/tools/multisafepay-control/get-your-api-key)
+- The app only supports one account per webshop
 
 {{< /details >}}
 

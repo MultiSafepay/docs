@@ -7,5 +7,6 @@ read_more: "."
 
 To add an inline checkbox to sign up for a newsletter next to a payment method, follow these steps:
 
-1. Go to **Settings** > **Inline newsletter**.
-2. Click **Show inline**. The inline buy has to be enabled.
+1. Sign in to your Lightspeed app.
+2. Go to **Settings** > **Inline newsletter**.
+3. Click **Show inline**. The inline buy has to be enabled.

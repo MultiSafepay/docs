@@ -13,7 +13,7 @@ The Lightspeed app does not support this by default. Ask your developer to add t
 
 To automatically add icons using a MultiSafepay script, follow these steps: 
 
-1. Sign in to the MultiSafepay app.
+1. Sign in to your Lightspeed app.
 2. Go to **Settings** > **Footer icons**.
 3. Click the **Generate script** button. A script appears in the text area below. 
 4. Copy the script to your clipboard.

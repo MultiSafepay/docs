@@ -9,5 +9,6 @@ aliases:
 
 To add an extra inline buy button near a payment method, follow these steps:
 
-1. Go to **Settings**.
-2. Click **Inline buy button**, and then **Show inline**.
+1. Sign in to your Lightspeed app.
+2. Go to **Settings**.
+3. Click **Inline buy button**, and then **Show inline**.
