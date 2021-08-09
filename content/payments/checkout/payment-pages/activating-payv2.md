@@ -1,6 +1,6 @@
 ---
 title : "Activating PayV2"
-weight: 45
+weight: 10
 meta_title: "Payment pages - Activating PayV2 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
@@ -10,8 +10,7 @@ aliases:
     - /faq/general/which-languages-are-supported-by-multisafepay
 ---
 
-PayV2 is the MultiSafepay payment page, starting with `payv2.multisafepay.com`. It supports all payment methods and can be styled to fit your website look and feel.
-{{< youtube r1I6pthxlGo >}}
+PayV2 is the MultiSafepay payment page, starting with `payv2.multisafepay.com`. It supports all payment methods and can be styled to fit the look and feel of your website.
 
 To activate PayV2, follow these steps:
 

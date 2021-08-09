@@ -1,6 +1,6 @@
 ---
 title : "Dynamic styling payment pages"
-weight: 41
+weight: 50
 meta_title: "Payment pages - Dynamic styling - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
@@ -20,7 +20,6 @@ If you have stored a template, you can request it in the first-level JSON object
 2. Navigate to the WYSIWYG editor, and use it to style the template.
 3. Save the template with a unique name, e.g. "template_1". This is used as the `template_id`.
 4. Add the `template_id` to your API request for **every** transaction.
-
 
 ## Provide template object structure in the transaction request
 You can also style templates in real time. See the template code on API Reference - [Dynamic styling](https://docs.multisafepay.com/api/#dynamic-styling).
