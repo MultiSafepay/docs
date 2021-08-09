@@ -1,9 +1,10 @@
 ---
-title : "3D Secure versions"
+title : "Versions of 3D Secure"
 weight: 40
-meta_title: "Payment regulations - 3D Secure versions - MultiSafepay Docs"
+meta_title: "Payment regulations - Versions of 3D Secure - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/payment-regulations/versions-3d-secure'
 aliases:
     - /faq/payment-regulations/3D-secure
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
