@@ -1,11 +1,14 @@
 ---
-title : "Disabling classic Lightspeed"
-meta_title: "Lightspeed app - Disabling classic Lightspeed - MultiSafepay Docs"
+title : "Disabling the Lightspeed core integration"
+meta_title: "Lightspeed app - Disabling the Lightspeed core integration - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/ecommerce-platforms/lightspeed/disabling-core-integration/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/disabling-classic-lightspeed/
 ---
 
-To disable the classic Lightspeed integration after migrating to the new app, follow these steps:
+To disable the deprecated Lightspeed core integration after migrating to the new app, follow these steps:
 
 1. Sign in to your Lightspeed backend.
 2. Go to **Settings** > **Payment providers** > **MultiSafepay**.

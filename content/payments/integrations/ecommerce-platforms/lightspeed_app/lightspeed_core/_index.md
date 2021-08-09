@@ -10,6 +10,7 @@ title_short: "Lightspeed"
 description_short: "Free core integration to integrate MultiSafepay payment solutions into your Lightspeed webshop "
 layout: 'single'
 tags: 'hidden'
+url: '/ecommerce-platforms/lightspeed-core/'
 aliases: 
     - /hosted/lightspeed_core
     - /integrations/hosted/lightspeed_core
@@ -19,26 +20,10 @@ aliases:
     - /integrations/lightspeed_core/manual
     - /integrations/lightspeed/manual
     - /integrations/ecommerce-integrations/lightspeed_core
+    - /payments/integrations/ecommerce-platforms/lightspeed_core/
 ---
 
-This technical manual is for installing and configuring our free core integration for integrating MultiSafepay payment solutions into your Lightspeed webshop.
+Our Lightspeed core integration is now deprecated. You can no longer download or install it. 
 
-{{< details title="Support" >}}
-&nbsp;  
-For support, contact Lightspeed – [Support](https://www.lightspeedhq.nl/support).
-{{< /details >}}
-
-{{< details title="Requirements" >}}
-&nbsp; 
-You will need a MultiSafepay account – See [Getting started](/getting-started/).
-
-{{< /details >}}
-
-## Installation and configuration
-1. Sign in to your Lightspeed backend.
-2. Go to **Settings** > **Payment providers**.
-2. Click **Add payment provider**, and then select **MultiSafepay**.
-3. Enter your account ID, site ID, and site security code. {{% account_info %}}
-Your account ID appears in the top-right corner of your MultiSafepay account.
-4. Select the payment methods you want to offer.
+To migrate to the new app, see [Upgrading to the new app](/payments/integrations/ecommerce-platforms/lightspeed_app/faq/upgrading-to-new-app/).
 

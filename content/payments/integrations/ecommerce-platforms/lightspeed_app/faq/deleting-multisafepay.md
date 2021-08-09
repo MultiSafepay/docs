@@ -1,6 +1,6 @@
 ---
 title: "Deleting MultiSafepay from Lightspeed"
-meta_title: "Lightspeed core integration - Deleting MultiSafepay from Lightspeed - MultiSafepay Docs"
+meta_title: "Lightspeed app - Deleting MultiSafepay from Lightspeed - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 4

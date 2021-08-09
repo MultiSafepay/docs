@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay app for Lightspeed"
-meta_title: "Lightspeed plugin - MultiSafepay Docs"
+meta_title: "Lightspeed app - MultiSafepay Docs"
 faq: "."
 changelog_url: '.'
 changelog: 'https://lightspeed.multisafepay.com/changelog'
@@ -9,6 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed app"
+url: '/ecommerce-platforms/lightspeed/'
 description_short: "Free app to integrate MultiSafepay payment solutions into your Lightspeed webshop"
 aliases: 
     - /integrations/hosted/lightspeed/
@@ -19,9 +20,9 @@ aliases:
     - /integrations/ecommerce-integrations/lightspeed_app 
 ---
 
-This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Lightspeed webshop. 
+This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Lightspeed webshop.  
 
-For our Lightspeed core integration, see [Lightspeed core](/payments/integrations/ecommerce-platforms/lightspeed_core).
+For our deprecated Lightspeed core integration, see [Lightspeed core](/ecommerce-platforms/lightspeed-core/).
 
 {{< details title="Test environment" >}}
 &nbsp;  
