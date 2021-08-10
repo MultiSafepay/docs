@@ -9,6 +9,6 @@ aliases:
 
 To change your [API key](/faq/general/multisafepay-glossary/#api-key) or environment after installation, follow these steps:
 
-1. Sign in to your Lightspeed app.
-2. Go to **Settings** > **Environment & API key**.
-3. In the **Environment & API key** page, you can edit your **API key**, and the **Environment**.
+1. Sign in to the MultiSafepay app for Lightspeed app.
+2. Press the hamburger menu and goto **Environment**.
+3. In this section you can edit your **API key**, and the **Environment**.

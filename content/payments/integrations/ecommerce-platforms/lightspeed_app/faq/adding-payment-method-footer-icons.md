@@ -14,12 +14,13 @@ The Lightspeed app does not support this by default. Ask your developer to add t
 To automatically add icons using a MultiSafepay script, follow these steps: 
 
 1. Sign in to your Lightspeed app.
-2. Go to **Settings** > **Footer icons**.
-3. Click the **Generate script** button. A script appears in the text area below. 
-4. Copy the script to your clipboard.
+2. Go to **Settings** > **Storefront payment icons**.
+3. Click the **copy to clipboard** button. 
 5. In your **Lightspeed Admin area**, go to **Settings** > **Web extras and custom Javascript**. 
 6. Paste the script into the **Javascript textbox**.
 7. Set the status to **Enable**.
 8. Click **Save**. The icons appear in the footer.
 
 Depending on the storefront, the display order of the generated icons is determined by the settings at the time of generation. If you update the settings, you need to update the script as well.
+
+By default the icons are 16px of height. In most themes the footer icons are found in the "div.payment-methods p". In needed you can change the selector based on the thema.

@@ -8,15 +8,15 @@ aliases:
 ---
 
 ### Disabling payment methods
-You can disable payment methods in the **Payment methods ordering list**. Disabled payment methods appear with a strikethrough.
+You can disable payment methods in the **Payment method settings list**. Enabled payment methods show a green dot, when disabled its grey.
 
 To disable payment methods for specific languages, follow these steps:
 
 1. Sign in to your Lightspeed app.
-2. Under **Payment methods ordering**, select the relevant country.
-3. For each language, disable the relevant payment methods. 
+2. Select the relevant storefont.
+4. For each language, disable the relevant payment methods. 
 
-If no specific language rule-set, **Default** is used.
+If no specific language rule-set is found, **Default** is used.
 
 ### Missing payment methods
 
