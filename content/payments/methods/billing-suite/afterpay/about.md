@@ -36,7 +36,7 @@ AfterPay is a widely used online post-payment method in the Netherlands and Belg
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

@@ -86,7 +86,7 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

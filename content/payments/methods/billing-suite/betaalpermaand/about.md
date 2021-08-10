@@ -52,7 +52,7 @@ Betaal per Maand bears the risk and guarantees settlement.
 
 - The amount is deducted from the transaction. The refund remains linked to the original transaction.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

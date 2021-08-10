@@ -78,6 +78,6 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}

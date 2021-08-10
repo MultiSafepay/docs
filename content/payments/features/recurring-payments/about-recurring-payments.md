@@ -4,8 +4,10 @@ weight: 51
 meta_title: "About recurring payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
+url: '/recurring-payments/about/'
 aliases:
     - /tools/recurring-payments/what-is-recurring-payments
+    - /payments/features/recurring-payments/about-recurring-payments/
 ---
 
 Recurring payments let you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.

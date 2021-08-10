@@ -53,6 +53,6 @@ Customers pay by using their smartphone to scan a QR code, on paper or on screen
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}

@@ -49,6 +49,6 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
 
 - The customer receives the refund in their Apple Pay account and it appears on their credit card statement within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com>
+- If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}

@@ -13,7 +13,7 @@ aliases:
     - /payment-methods/banks/direct-debit/what-is-direct-debit/
 ---
 
-SEPA Direct Debit is a European payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports SOFORT Banking and iDEAL.
+SEPA Direct Debit is a European payment method where customers authorize automatic one-off debits or recurring payments directly from their bank account. It is available in 36 countries. 
 
 ## Summary
 
@@ -29,7 +29,8 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 
 ## Product rules
 
-You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+- For [recurring payments](/recurring-payments/about/), customers can also make the initial payment via [SOFORT Banking](/payments/methods/banks/sofort-banking/) or [iDEAL](/payments/methods/banks/ideal/).
 
 {{< details title="Refunds" >}}
 
@@ -43,13 +44,16 @@ You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 
-## Chargebacks
-SEPA Direct Debit payments are not fully guaranteed. The customer can request a [chargeback](/faq/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. You cannot dispute chargebacks.
+{{< details title="Chargebacks" >}}
+
+SEPA Direct Debit payments are not fully guaranteed. The customer can request a [chargeback](/payments/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. You cannot dispute chargebacks.
 
 This process involves both your bank and the customer's bank and may cost up to 65 EUR. 
 
 This makes SEPA Direct Debit unsuitable for normal retail businesses (e.g. clothing).
+
+{{< /details >}}

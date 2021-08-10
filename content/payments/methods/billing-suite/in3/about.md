@@ -43,6 +43,6 @@ in3 is a Dutch online post-payment method where customers pay in 3 installments 
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}

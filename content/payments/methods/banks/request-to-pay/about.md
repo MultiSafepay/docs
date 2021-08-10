@@ -42,6 +42,6 @@ Settlement is instant (if supported) or within 24 hours. The funds are transferr
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}

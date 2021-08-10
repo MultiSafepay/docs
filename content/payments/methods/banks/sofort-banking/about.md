@@ -46,6 +46,6 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-If a refund fails, email the Support Team at <support@multisafepay.com> 
+- If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
