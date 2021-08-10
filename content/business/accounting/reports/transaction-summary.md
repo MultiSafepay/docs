@@ -14,7 +14,7 @@ The Transaction summary provides an overview of all transactions within a specif
 Includes:  
 
 - Currency
-- [Transaction status](/api/multisafepay-statuses/)
+- [Transaction status](/payments/multisafepay-statuses/)
 - Payment method
 - Website
 - Grouping of costs

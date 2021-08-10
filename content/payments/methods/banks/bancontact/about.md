@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/what-is-bancontact/
 ---
 
-Bancontact is a leading Belgian payment method that supports online, mobile app, and POS payments. Bancontact is a household name and supported by over 80% of Belgian webshops. It was formerly known as Mister Cash.
+Bancontact is a leading Belgian payment method that supports online, mobile app, and [POS](/getting-started/glossary/#point-of-sale-pos-terminal) payments. Bancontact is a household name and supported by over 80% of Belgian webshops. It was formerly known as Mister Cash.
 
 Once a payment is completed, the customer cannot reverse it and Bancontact guarantees settlement.
 

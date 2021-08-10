@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/
 ---
 
-Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. 
+Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or [POS](/getting-started/glossary/#point-of-sale-pos-terminal) payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. 
 
 Gift cards can be open-loop (redeemable at multiple merchants) or closed-loop (redeemable at one specific merchant). For more information, see [About open-loop and closed-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/).
 

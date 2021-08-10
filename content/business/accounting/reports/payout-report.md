@@ -7,7 +7,7 @@ weight: 60
 url: '/reports/payout-report/'
 ---
 
-The Payout report provides an overview of the specific transactions and fees included in a payout.
+The Payout report provides an overview of the specific transactions and fees included in a [payout](/account/payouts/).
 
 It is helpful for matching payouts to specific orders or invoices for accounting purposes. 
 
@@ -29,8 +29,8 @@ Columns:
 
 - Created date: the date the transaction was initiated
 - Completed date/time: the date and time the transaction was completed
-- Mt status: the [transaction status](/api/multisafepay-statuses/)
-- Mt order status: the [order status](/api/multisafepay-statuses/)
+- Mt status: the [transaction status](/payments/multisafepay-statuses/)
+- Mt order status: the [order status](/payments/multisafepay-statuses/)
 - Psp id: 
 - Amount: the transaction amount in whole currency
 - Amount cents: the transactio amount in cents

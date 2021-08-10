@@ -8,7 +8,7 @@ aliases:
     - /tools/payment-pages/show-all-methods
 ---
 
-If a customer's country is unclear or your backend doesn't let you provide the correct country code, consider displaying all your enabled payment methods on the payment page. This is only supported for [PayV2 payment pages](/payments/checkout/payment-pages/activating-payv2/).
+If a customer's country is unclear or your [backend](/getting-started/glossary/#backend) doesn't let you provide the correct country code, consider displaying all your enabled payment methods on the payment page. This is only supported for [PayV2 payment pages](/payments/checkout/payment-pages/activating-payv2/).
 
 To display all payment methods on the payment page, follow these steps:
 

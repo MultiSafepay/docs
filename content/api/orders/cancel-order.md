@@ -36,7 +36,7 @@ Cancel a pretransaction and/or a transaction based on the `sessionid`.
 ----------------
 `status` | string | required
 
-The [order status](/api/multisafepay-statuses/) of the order.  
+The [order status](/payments/multisafepay-statuses/) of the order.  
 Fixed value: `canceled`.
 
 ----------------

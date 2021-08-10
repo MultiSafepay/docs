@@ -13,7 +13,7 @@ aliases:
 ---
 Payment Components are building blocks for embedding payment methods directly into your checkout page that:
 
-- Provide a seamless checkout experience to increase conversion.
+- Provide a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate).
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 

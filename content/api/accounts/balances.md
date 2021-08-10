@@ -74,7 +74,7 @@ The balance ID.
 **modified** | string
 
 The timestamp of the last modification of the balance.  
-Modifications include incoming payments, refunds, charges, and payouts.  
+Modifications include incoming payments, refunds, charges, and [payouts](/account/payouts/).  
 Format: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601).
 
 ----------------

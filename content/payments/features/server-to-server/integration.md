@@ -30,7 +30,7 @@ Otherwise, you can use the rendered HTML form returned in the response.
     }
 ```
 
-Once the customer has successfully processed the verification step to finalize the payment, we send **Completed** status to your backend via the `notification_url`.
+Once the customer has successfully processed the verification step to finalize the payment, we send **Completed** status to your [backend](/getting-started/glossary/#backend) via the `notification_url`.
 
 To retrieve more information about the order, make a `GET /orders/{order_id}` request. 
 
@@ -38,7 +38,7 @@ To retrieve more information about the order, make a `GET /orders/{order_id}` re
 
 {{< details title="Non-3D Secure requests" >}}
 
-When 3D Secure verification is required, the [transaction status](/api/multisafepay-statuses/) response is processed directly and no HTML form is returned.
+When 3D Secure verification is required, the [transaction status](/payments/multisafepay-statuses/) response is processed directly and no HTML form is returned.
 
 ```shell 
 

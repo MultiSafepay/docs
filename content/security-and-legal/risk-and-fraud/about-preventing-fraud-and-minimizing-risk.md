@@ -12,7 +12,7 @@ MultiSafepay prevents fraud by monitoring payments and actively tracking and rep
 
 We offer the highest industry protection under the [PCI DSS](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss), including HTTPS, data encryption, and 3D Secure technology. 
 
-We act as processor and acquirer for Visa and Mastercard, and are therefore also required to comply with the card schemes' own operating regulations.
+We act as processor and [acquirer](/getting-started/glossary/#acquirer) for Visa and Mastercard, and are therefore also required to comply with the card schemes' own operating regulations.
 
 
 

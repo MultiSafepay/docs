@@ -10,7 +10,7 @@ aliases:
 ### About Shopware 6
 Shopware 6 is the latest version of the Shopware ecommerce platform. It maintains simplicity, but features a great new interface and functionalities, including:
 
-* Sales Channels function that links to social shopping platforms (e.g. Facebook, Instagram), and supports mobile apps and POS systems
+* Sales Channels function that links to social shopping platforms (e.g. Facebook, Instagram), and supports mobile apps and [POS](/getting-started/glossary/#point-of-sale-pos-terminal) systems
 * Rule Builder that lets you set price rules per country, and supports multi-currency options, VAT rules, and delivery options, e.g. free delivery for orders above a specified amount
 * Content management function that uses stylized blocks on Experience and Storytelling pages
 * Text editor that is easier and more user-friendly

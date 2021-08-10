@@ -18,7 +18,7 @@ There are three cost components for the [Interchange++ model](/payments/methods/
 
 - The Interchange fee that is paid to the issuing bank
 - The scheme fee charged by Visa or Mastercard
-- The acquirer fee 
+- The [acquirer](/getting-started/glossary/#acquirer) fee 
 
 These costs vary considerably depending on a range of factors, including the:
 

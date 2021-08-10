@@ -63,7 +63,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `status` | string
 
-The [order status](/api/multisafepay-statuses/) of the order. 
+The [order status](/payments/multisafepay-statuses/) of the order. 
 
 **Response**
 

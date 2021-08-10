@@ -42,7 +42,7 @@ When the status of this transaction changes, we notify your web server at the fo
 
 **Note:** In the notification url, the `transaction_id` should have the same value as the `order_id`.
 
-In your backend, follow these steps: 
+In your [backend](/getting-started/glossary/#backend), follow these steps: 
 
 1. Send a [status request](/api/#retrieve-an-order) on the order using the `transaction_id` provided.
 2. Check the `status` field in the response and update the status of the order in your backend.
@@ -81,7 +81,7 @@ To calculate the signature/hash, follow these steps:
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
 ## GET vs POST notification
-The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/api/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
+The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
 
 For security reasons, you must always validate the payload to make the `POST` notification comes from MultiSafepay and hasn't been tampered with.
 

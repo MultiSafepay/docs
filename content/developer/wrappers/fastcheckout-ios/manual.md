@@ -85,7 +85,7 @@ manager.startCheckout(transactionId: "ID", host: self, onCompletion: { status, e
 })
 ```
 
-And that’s it, that’s all you need to do to integrate the iOS SDK to start a checkout and retrieve the [transaction status](/api/multisafepay-statuses/) once it completes.
+And that’s it, that’s all you need to do to integrate the iOS SDK to start a checkout and retrieve the [transaction status](/payments/multisafepay-statuses/) once it completes.
 
 ###### Complete example
 

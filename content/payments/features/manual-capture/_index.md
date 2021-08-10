@@ -36,7 +36,7 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 - Order status: the progress of the customer's order with you, independent of the payment
 - Transaction status: the progression towards settling the funds in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/api/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 

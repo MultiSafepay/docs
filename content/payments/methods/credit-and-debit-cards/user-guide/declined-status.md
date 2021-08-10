@@ -24,6 +24,6 @@ Only the customer can contact their credit card issuer to find out the specific 
 | Declined | Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
 | Declined | Merchant only accepts 3D Secure-verified cards | Email requests to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
 
-For more information, see [About MultiSafepay statuses](/api/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 For any questions, email the Support Team at <support@multisafepay.com>

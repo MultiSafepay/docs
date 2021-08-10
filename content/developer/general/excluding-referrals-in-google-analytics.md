@@ -17,7 +17,7 @@ Google Analytics starts a new session whenever a customer comes to your site fro
 
 For example, a customer selects iDEAL (redirect) and then specifies their bank. They are redirected to the bank's payment page and briefly "exit" the session on your site, before returning to your success page. The customer is now counted as a new visitor, even though no new session is initiated.
 
-This makes Google Analytics reports unreliable, and they don't accurately capture conversion rates. There are two ways to mitigate this.
+This makes Google Analytics reports unreliable, and they don't accurately capture [conversion rates](/getting-started/glossary/#conversion-rate). There are two ways to mitigate this.
 
 ## Referral exclusion list
 

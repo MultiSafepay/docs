@@ -60,7 +60,7 @@ The payment method.
 ----------------
 `status` | string 
 
-The [order status](/api/multisafepay-statuses/) of the manual capture request. 
+The [order status](/payments/multisafepay-statuses/) of the manual capture request. 
 
 ----------------
 `external_transaction_id` | string

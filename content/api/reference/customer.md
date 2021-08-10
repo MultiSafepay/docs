@@ -134,7 +134,7 @@ A characteristic string that identifies a browser.
 The unique identifier of where the user/browser originates from.
 
 ----------------
-`reference` | string | For tokenization transactions: required
+`reference` | string | For [tokenization](/payments/features/tokenization/) transactions: required
 
 See [Create token transaction](/api/#create-token-transaction).
 

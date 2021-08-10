@@ -21,7 +21,7 @@ The major credit card schemes each offer their own branded version of 3D Secure:
 - Mastercard SecureCode
 - Verified by Visa
 
-If a customer requests a [chargeback](/faq/chargebacks/about-chargebacks/) due to fraud and the transaction passed 3D Secure authentication, the acquirer is then responsible for the costs instead of the merchant.
+If a customer requests a [chargeback](/faq/chargebacks/about-chargebacks/) due to fraud and the transaction passed 3D Secure authentication, the [acquirer](/getting-started/glossary/#acquirer) is then responsible for the costs instead of the merchant.
 
 ## PSD2 requirements
 

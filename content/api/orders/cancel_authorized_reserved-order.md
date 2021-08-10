@@ -40,7 +40,7 @@ The capture reason for the order.
 ----------------
 `status` | string | required
 
-The [order status](/api/multisafepay-statuses/) of the manual capture request. 
+The [order status](/payments/multisafepay-statuses/) of the manual capture request. 
 
 ----------------
 

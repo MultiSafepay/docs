@@ -44,7 +44,7 @@ Contact MultiSafepay:
 
 To install and configure the app, follow these steps:
 
-1. Sign in to your CCV Shop backend and install the MultiSafepay app from the App Store.
+1. Sign in to your CCV Shop [backend](/getting-started/glossary/#backend) and install the MultiSafepay app from the App Store.
 2. Go to **Mijn Webshop** > **Instellingen** > **Bestelproces & Voorraad** > **Betaalmethoden**.
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
 4. Enter your account ID, [site ID and secure code](/set-up-your-account/site-id-api-key-secure-code).

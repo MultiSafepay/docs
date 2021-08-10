@@ -12,7 +12,7 @@ The MultiSafepay Magento 2 plugin supports the Credit Card Component, which lets
 
 The component:
 
-- Provides a seamless checkout experience to increase conversion.
+- Provides a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate).
 - Encrypts customer payment details for secure processing.
 - Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 

@@ -52,7 +52,7 @@ Contact us:
  4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [notification URL](/tools/multisafepay-control/set-your-notification-url).
 
 ## Configuration
-1. Sign in to your CS-Cart backend.
+1. Sign in to your CS-Cart [backend](/getting-started/glossary/#backend).
 2. Go to **Administration** > **Payment methods**.
 3. To add payment methods, click the **+** button.
 4. In the next screen, enter a name for the payment method to display during checkout. 

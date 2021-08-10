@@ -16,7 +16,7 @@ Advanced reports include Sales reports and Conversion reports. They help you fin
 - Where they are from
 - What payment methods they use
 - What devices they use
-- Your conversion rate per website
+- Your [conversion rate](/getting-started/glossary/#conversion-rate) per website
 
 Supported format: Excel
 

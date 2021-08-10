@@ -37,7 +37,7 @@ aliases:
 }
 ```
 > JSON response    
-> When no 3D verification is required, the [transaction status](/api/multisafepay-statuses/) response will be processed directly and no form will be sent.
+> When no 3D verification is required, the [transaction status](/payments/multisafepay-statuses/) response will be processed directly and no form will be sent.
 
 ```json 
 {

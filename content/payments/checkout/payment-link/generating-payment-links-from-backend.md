@@ -8,7 +8,7 @@ read_more: '.'
 layout: 'faq'
 ---
 
-For some ecommerce integrations, you can generate payment links in your backend. 
+For some ecommerce integrations, you can generate payment links in your [backend](/getting-started/glossary/#backend). 
 
 For example, for Magento 1 or a custom integration, you can make a create an order request to our API. 
 

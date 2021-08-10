@@ -164,12 +164,12 @@ See [items (object)](/api/#items-object/).
 ----------------
 `status` | string
 
-The [order status](/api/multisafepay-statuses/) of the order. 
+The [order status](/payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/api/multisafepay-statuses/) of the order. 
+The [transaction status](/payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `modified` | string

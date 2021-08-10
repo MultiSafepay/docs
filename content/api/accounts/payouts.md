@@ -62,6 +62,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ## Payouts
+See also [Making payouts](/account/payouts/).
 
 As a partner or primary account holder, use this endpoint to pay out funds from an affiliated account's balance to a connected bank account. 
 

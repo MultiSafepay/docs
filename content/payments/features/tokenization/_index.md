@@ -15,7 +15,7 @@ aliases:
 
 Tokenization is substituting sensitive customer payment details with a non-sensitive token to reduce risk. For example, a unique recurring ID is created to replace credit card details, which is encrypted as a unique string of numbers that is automatically issued in real-time. The token is used online in approved environments to complete the payment. 
 
-Customers can complete payments in one step by selecting the stored token in their account. Customers may have multiple tokens.
+Customers can then complete payments in one step by selecting the stored token in their account. Customers may have multiple tokens.
 
 Tokenization is mainly used for credit card, recurring, and subscription payments, but is also available for bank payment methods. 
 

@@ -7,7 +7,7 @@ aliases:
     - /integrations/magento1/faq/tokenization-magento1/
 ---
 
-To enable [tokenization](/tools/tokenization/):
+To enable tokenization:
 
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.

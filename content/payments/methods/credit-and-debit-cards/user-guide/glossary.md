@@ -1,7 +1,7 @@
 ---
-title : "Credit card glossary"
+title : "Credit and debit card glossary"
 weight: 10
-meta_title: "Credit card user guide - About chargebacks - MultiSafepay Docs"
+meta_title: "Credit and debit card glossary - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Get familiar with commonly used credit card terms and processes"
 read_more: "."
@@ -39,9 +39,6 @@ A card issued by a bank that transfers funds directly from the customer's bank a
 ### dispute
 If a customer wants a merchant to return funds that have already been captured, the customer can request a refund. If the merchant refuses, the customer may request their bank to make a chargeback. If the merchant disagrees, they can dispute the chargeback.
 
-### fraud
-When a person tries to receive products without paying for them by tricking a customer or merchant.
-
 ### issuer
 The customer's bank, which verifies transaction information and sends funds to the collecting party. For credit or debit card payments, the bank issues the card.
 
@@ -53,9 +50,6 @@ When a cardholder doesn't recognise a credit card transaction, to find out more 
 
 ### reversal
 When a customer cancels an order paid by debit card and takes the funds back. 
-
-### token/tokenization
-Tokenization is storing customer payment details as a token (a unique string of numbers). For customers, it makes future payments faster and easier. For merchants, it enables repeatedly debiting customers, e.g. for subscriptions. 
 
 ### Uncleared transactions
 When a customer has initiated a transaction, but the funds are reserved while the transaction is checked and authorized, e.g. because the MultiSafepay fraud filter detected unusual or risky patterns in the order data. Once authorized, the funds are captured and transferred to the collecting party. For credit card payments, merchants must manually check and authorize Uncleared transactions.

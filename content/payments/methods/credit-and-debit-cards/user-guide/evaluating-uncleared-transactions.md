@@ -10,7 +10,7 @@ aliases:
     - /faq/risk-and-fraud/accepting-uncleared-credit-card-payments/
 ---
 
-If the [transaction status](/api/multisafepay-statuses/) of a credit card payment is **Uncleared**, it means that MultiSafepay's automated fraud filter has placed the payment on hold. The fraud filter detects increased **risk** of fraud, but doesn't prevent all fraudulent payments. Not every payment the filter places on hold is necessarily fraudulent.
+If the [transaction status](/payments/multisafepay-statuses/) of a credit card payment is **Uncleared**, it means that MultiSafepay's automated fraud filter has placed the payment on hold. The fraud filter detects increased **risk** of fraud, but doesn't prevent all fraudulent payments. Not every payment the filter places on hold is necessarily fraudulent.
 
 There are risks associated with accepting credit card payments. You bear the risk of financial damage (e.g. due to fraud), for which neither MultiSafepay nor the cardholder is accountable.
 

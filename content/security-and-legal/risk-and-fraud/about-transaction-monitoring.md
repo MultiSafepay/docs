@@ -15,7 +15,7 @@ We may request a copy of an invoice, e.g. if:
 * The order value is unusually high.
 * The order deviates from your normal customer profile.
 
-We may also ask other questions about the transaction. Following our investigation, if we still don't understand the transaction (e.g. if the merchant isn't cooperating), we may pause payouts or take other punitive measures.
+We may also ask other questions about the transaction. Following our investigation, if we still don't understand the transaction (e.g. if the merchant isn't cooperating), we may pause [payouts](/account/payouts/) or take other punitive measures.
 
 For more information, email your account manager or the Support Team at <support@multisafepay.com>
 

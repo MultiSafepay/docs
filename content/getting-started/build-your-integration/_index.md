@@ -11,7 +11,7 @@ weight: 30
 short_description: "Choose a ready-made solution or build a custom integration."
 ---
 
-We support multiple integration methods. Choose one that matches your business needs and tech stack.   
+We support multiple [integration](/getting-started/glossary/#integration) methods. Choose one that matches your business needs and tech stack.   
 
 For help selecting a method, email the Integration Team at <integration@multisafepay.com>
 

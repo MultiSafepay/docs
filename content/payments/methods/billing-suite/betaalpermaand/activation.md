@@ -21,7 +21,7 @@ To activate Betaal per Maand for your MultiSafepay account, you need a Santander
 |   |  | 2. | MultiSafepay checks your connection and your eligibility. |
 |   |  | 3. | MultiSafepay submits your application to Betaal per Maand. |
 | No  | No | 1. | [Create a MultiSafepay account](/getting-started/). |
-|   |  | 2. | MultiSafepay submits your application to Betaal per Maand during your onboarding process. |
+|   |  | 2. | MultiSafepay submits your application to Betaal per Maand during your [onboarding](/account/onboarding-golive/) process. |
 | No  | Yes | 1. | [Create a MultiSafepay account](/getting-started/) or email <sales@multisafepay.com> |
 
 {{< details title="View eligibility criteria" >}}

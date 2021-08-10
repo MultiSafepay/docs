@@ -5,8 +5,8 @@ breadcrumb_title: 'Payment methods'
 layout: 'block'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Payment_methods.svg'
-short_description: 'Choose payment methods that suit your business and customers'
-weight: 10
+short_description: 'Choose payment methods that suit your business and customers.'
+weight: 20
 aliases:
     - /support-tab/magento2/payment-methods
     - /payment-methods/

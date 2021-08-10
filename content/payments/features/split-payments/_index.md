@@ -70,7 +70,7 @@ To refund a split payment, follow these steps:
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.  
 
-The [transaction status](/api/multisafepay-statuses/) changes to **Initialized**, and you can [cancel the refund](/tools/multisafepay-control/processing-refunds/).  
+The [transaction status](/payments/multisafepay-statuses/) changes to **Initialized**, and you can [cancel the refund](/tools/multisafepay-control/processing-refunds/).  
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 

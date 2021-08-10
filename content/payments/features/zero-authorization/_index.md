@@ -26,7 +26,7 @@ For how Zero Authorization can benefit your business, see [0-Authorization](http
 - Order status: the progression of the customer's order with you, independent of the payment
 - Transaction status: the progression towards settling the funds in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/api/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
