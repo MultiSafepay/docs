@@ -26,14 +26,11 @@ To configure your PayPal account, follow these steps:
 4. Under **Pre-built payment solution**, click **Grant API permission**.
 5. In the **Third-party permission username** field, enter `paypal_api1.multisafepay.com`. 
 7. Click **Lookup**.  
-
-Here you can:
-
-- Use Express Checkout to process online and mobile payments.
-- Process refunds.
-- Process credit and debit card payments.
-- Obtain information about a specific transaction.
-- Obtain authorization for pre-approved payments and initiate pre-approved transactions.
+8. Select the checkboxes of the relevant permissions, e.g.:  
+    - Use Express Checkout to process payments.
+    - Issue a refund for a specific transaction.
+    - Process your customers' credit or debit card payments.
+    - Obtain information about a single transaction.
 
 To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**. Follow these steps:
 
