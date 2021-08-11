@@ -8,7 +8,7 @@ aliases:
 ---
 
 ## Updating version 2.2.0 to 3.x.x
-To update the plugin using the extension installer tool in your OpenCart backend:
+To update the plugin using the extension installer tool in your OpenCart [backend](/getting-started/glossary/#backend):
 
 1. For security, always create a backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.

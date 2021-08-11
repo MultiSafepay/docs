@@ -28,4 +28,4 @@ MultiSafepay supports 3 gift card connections:
 
 {{< /details >}}
 
-**5.** Activate the gift card in the backend of your ecommerce platform.
+**5.** Activate the gift card in your [backend](/getting-started/glossary/#backend).

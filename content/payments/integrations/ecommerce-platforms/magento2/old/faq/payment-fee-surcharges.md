@@ -12,9 +12,9 @@ Adding a payment fee or [surcharge](/security-and-legal/payment-regulations/abou
 
 However, an external package of [Fooman](https://store.fooman.co.nz/extensions/magento2) is available. This allows you to still add a payment fee or surcharge within the desired payment method.
 
-Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay account](https://merchant.multisafepay.com)
+For orders with a Fooman surcharge, you cannot refund from your Magento 2 [backend](/getting-started/glossary/#backend) but you can from your [MultiSafepay account](https://merchant.multisafepay.com).
 
-_Do mind that because an external module has to be installed, our Integration Team's help will be limited_.
+**Note:** Support from the Integration Team is limited because an external module is installed.
 
 Of course, we do our best to support and assist as best as possible, but we investigate or reproduce on the core of a plugin. Therefore, we do not guarantee a perfect compatibility when installing an external package.
 

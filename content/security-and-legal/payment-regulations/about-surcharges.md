@@ -46,7 +46,7 @@ The rules for surcharging customers outside the EU remain unchanged. The PSD2 ai
 If you are currently surcharging prohibited transactions:
 
 - You do not need to change any settings in your MultiSafepay account.
-- You may need to update your settings in your backend. 
+- You may need to update your settings in your [backend](/getting-started/glossary/#backend). 
 
 For support, contact the support department of the webshop plugin or your web developer.
 

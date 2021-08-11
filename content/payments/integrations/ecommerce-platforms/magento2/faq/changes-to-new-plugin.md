@@ -11,7 +11,7 @@ aliases:
 ## Changes to refunds
 After deleting the deprecated plugin and installing the new one, the payment gateways from the deprecated plugin are no longer available in Magento.
 
-You can refund transactions processed through these gateways in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 backend.
+You can refund transactions processed through these gateways in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/getting-started/glossary/#backend).
 
 ## Changes to configuration fields
 Under **General settings**, we have changed the following configuration fields from the deprecated plugin.

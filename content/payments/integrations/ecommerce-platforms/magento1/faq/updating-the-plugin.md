@@ -9,7 +9,7 @@ aliases:
 
 There are 3 ways to update the plugin:
 
-- In your backend
+- In your [backend](/getting-started/glossary/#backend)
 - In the CMS marketplace 
 - Using SFTP
 

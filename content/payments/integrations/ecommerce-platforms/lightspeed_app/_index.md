@@ -71,7 +71,7 @@ All payment methods still work if you don't use the Javascript files.
 
 ## Installation 
 
-1. Sign in to your Lightspeed backend.
+1. Sign in to your Lightspeed [backend](/getting-started/glossary/#backend).
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  

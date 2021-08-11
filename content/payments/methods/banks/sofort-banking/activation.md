@@ -18,7 +18,7 @@ To activate SOFORT Banking, follow these steps:
 3. Under **Standard payment methods**, select the **SOFORT Banking** checkbox.
 3. Click **Save changes**.
 
-Enable SOFORT Banking as payment method in the backend of your ecommerce platform to finalize the activation.
+Enable SOFORT Banking as payment method in the [backend](/getting-started/glossary/#backend) of your ecommerce platform to finalize the activation.
 
 For any questions, email your account manager at <sales@multisafepay.com>
 

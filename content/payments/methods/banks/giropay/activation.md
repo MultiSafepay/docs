@@ -20,6 +20,6 @@ aliases:
 2. Under **Standard payment methods**, select the **Giropay** checkbox.
 3. Click **Save changes**.
 
-**3.** Enable Giropay as a payment method in the backend of your ecommerce platform to finalize the connection.
+**3.** Enable Giropay as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
 
 For any questions, email the Sales Team at <sales@multisafepay.com>

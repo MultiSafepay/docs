@@ -45,7 +45,7 @@ We support most Magento functionalities. For any questions, email the Integratio
 ### New features
 
 - Improved:
-    - Magento backend configuration
+    - Magento [backend](/getting-started/glossary/#backend) configuration
     - Translations
     - Error handling
     - Event and error logs

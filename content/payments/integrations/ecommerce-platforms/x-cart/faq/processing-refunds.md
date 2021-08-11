@@ -10,7 +10,7 @@ aliases:
 Refund rules:
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
-- From your X-Cart backend:  
+- From your X-Cart [backend](/getting-started/glossary/#backend):  
     - Full refunds
     - Refunding more than the original transaction is **not** supported
 

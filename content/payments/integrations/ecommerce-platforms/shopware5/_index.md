@@ -47,7 +47,7 @@ Contact us:
 {{< /details >}}
 
 ## Installation and configuration
-1. Sign in to your Shopware 5 backend.
+1. Sign in to your Shopware 5 [backend](/getting-started/glossary/#backend).
 2. Go to **Configuration** > **Plugin manager**.
 3. Search for the MultiSafepay plugin and click **Download now**.
 4. Go to **Configuration** > **Plugin manager** > **Installed**.

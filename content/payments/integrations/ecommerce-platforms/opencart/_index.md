@@ -51,7 +51,7 @@ Contact us:
 ## Installation
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
-3. Sign in to your OpenCart backend, and go to **Extensions** > **Installer**.
+3. Sign in to your OpenCart [backend](/getting-started/glossary/#backend), and go to **Extensions** > **Installer**.
 4. Click the **Upload** button, and then select the downloaded file.
 5. Once installed, click the **Dashboard** menu.
 7. To clear both caches, click the blue cog wheel button in the top-right corner, and then click the **Refresh** icon. 

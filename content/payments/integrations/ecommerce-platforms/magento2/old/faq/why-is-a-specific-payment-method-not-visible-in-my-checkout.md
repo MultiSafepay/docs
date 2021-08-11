@@ -12,5 +12,5 @@ When you enabled a payment method, it should always be visible, even when your [
 Payment methods may also not be visible in the checkout due to the following:
 
 - When another gateway filter outside of MultiSafepay is activated, for example, the one from [Rico Neitzel Payment Filter](https://github.com/riconeitzel/PaymentFilter)
-- Configuration errors in the Magento 2 backend and/or in the database, that prevent changes from being saved.
+- Configuration errors in the Magento 2 [backend](/getting-started/glossary/#backend) and/or in the database, that prevent changes from being saved.
 - The _Enabled in checkout_ is unchecked for the ‘MultiSafepay payment method’. For the MultiSafepay payment method, there is an _Enabled in checkout_ configuration option, which does not show the gateway in the checkout if it is set to _Disabled_.	

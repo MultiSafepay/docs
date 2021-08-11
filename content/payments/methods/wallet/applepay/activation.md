@@ -30,4 +30,4 @@ If you **don't** already have credit cards enabled, follow these steps:
 
 Once approved by the Risk Team, we activate Visa, Mastercard, Maestro and Apple Pay in your MultiSafepay account.
 
-**Step 4:** Activate Apple Pay in your backend to finalize the connection.
+**Step 4:** Activate Apple Pay in your [backend](/getting-started/glossary/#backend) to finalize the connection.

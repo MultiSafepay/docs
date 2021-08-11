@@ -59,10 +59,10 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 - You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/) in emails to customers. Bank Transfer transactions are active for 60 days. By&nbsp;default, payment links expire after 30 days. 
 
-- To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete the payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
+- To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your [backend](/getting-started/glossary/#backend) until they complete the payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
 **Note:** MultiSafepay bears no responsibility for stock-related issues.
 
-- To change how bank transfers are validated, check whether this is possible in your ecommerce platform backend.
+- To change how bank transfers are validated, check whether this is possible in your backend.
 
 - See also [Emailing payment instructions to the customer yourself](/payments/methods/banks/bank-transfer/user-guide/emailing-payment-instructions/). 
 

@@ -9,4 +9,4 @@ aliases:
 
 The MultiSafepay plugin for Shopware 6 supports [generic gateways](/faq/general/generic-gateways/), e.g. for branded gateways. 
 
-In your Shopware backend, on the MultiSafepay settings page, enter the gateway code provided by MultiSafepay.
+In your Shopware [backend](/getting-started/glossary/#backend), on the MultiSafepay settings page, enter the gateway code provided by MultiSafepay.

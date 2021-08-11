@@ -26,7 +26,7 @@ A specific website:
 3. Under **Payment methods**, select the **Bank Transfer** checkbox.
 4. Click **Save**.
 
-Enable Bank Transfer as a payment method in the backend of your ecommerce platform to finalize the connection.
+Enable Bank Transfer as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
 
 For any questions, email the Sales Team at <sales@multisafepay.com>
 

@@ -23,7 +23,7 @@ Email applications to your account manager at <sales@multisafepay.com>
 
 ## Activating the Credit Card Component
 
-To activate the component in your Magento 2 backend, follow these steps:
+To activate the component in your Magento 2 [backend](/getting-started/glossary/#backend), follow these steps:
 
 1. Sign in to your Magento 2 backend.
 2. Go to **Configuration** > **Credit card**, and then click **Configure**.

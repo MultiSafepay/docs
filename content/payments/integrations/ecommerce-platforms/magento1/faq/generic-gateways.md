@@ -13,4 +13,4 @@ All MultiSafepay payment methods are supported.
 
 You can set the gateway code, gateway logo, gateway label, and whether to include the shopping cart in the transaction.
 
-Refunds and backend orders are fully supported.
+Refunds and [backend](/getting-started/glossary/#backend) orders are fully supported.

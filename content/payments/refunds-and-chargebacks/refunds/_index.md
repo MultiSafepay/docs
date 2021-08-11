@@ -83,7 +83,7 @@ For support, email the Integration Team at <integration@multisafepay.com>
 
 ## In your backend
 
-You can process refunds in the backend of most ecommerce platforms. For more information, see the User guide in the integration manual for the relevant platform, e.g. Magento 2 – [Processing refunds](/payments/integrations/ecommerce-platforms/magento2/faq/processing-refunds/).
+You can process refunds in the [backend](/getting-started/glossary/#backend) of most ecommerce platforms. For more information, see the User guide in the integration manual for the relevant platform, e.g. Magento 2 – [Processing refunds](/payments/integrations/ecommerce-platforms/magento2/faq/processing-refunds/).
 
 ## Via our API
 

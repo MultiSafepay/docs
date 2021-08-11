@@ -18,7 +18,7 @@ You can also:
 - Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
 - Show surcharges with our without VAT at checkout.
 
-To apply a surcharge to a payment method in your backend, follow these steps:
+To apply a surcharge to a payment method in your [backend](/getting-started/glossary/#backend), follow these steps:
 
 1. Sign in to your Magento 1 backend.
 2. Select systems and configuration.

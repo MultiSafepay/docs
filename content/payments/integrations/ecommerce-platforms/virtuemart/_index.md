@@ -49,7 +49,7 @@ Contact us:
 {{< /details >}}
 
 ## Installation
-1. Sign in to your VirtueMart backend.
+1. Sign in to your VirtueMart [backend](/getting-started/glossary/#backend).
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.

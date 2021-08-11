@@ -8,7 +8,7 @@ read_more: "."
 
 To enable tokenization:
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 [backend](/getting-started/glossary/#backend).
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
 For more information, see [Tokenization](/payments/features/tokenization/).

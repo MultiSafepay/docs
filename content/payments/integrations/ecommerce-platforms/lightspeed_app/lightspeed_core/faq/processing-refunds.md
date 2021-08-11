@@ -8,4 +8,4 @@ aliases:
     - /integrations/lightspeed/faq/refunding-lightspeed/
 ---
 
-You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but refunds are not supported from your Lightspeed backend.
+You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but refunds are not supported from your Lightspeed [backend](/getting-started/glossary/#backend).

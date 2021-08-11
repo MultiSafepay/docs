@@ -8,4 +8,4 @@ read_more: "."
 
 For [Billing Suite](/payments/methods/billing-suite/) payment methods, after you ship the order to the customer, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring, and lets the payment method initiate the billing process with the customer and pay the transaction out to your MultiSafepay balance. 
 
-If you change the order status to **Delivered** in your backend, the updated status is passed to your MultiSafepay account automatically.
+If you change the order status to **Delivered** in your [backend](/getting-started/glossary/#backend), the updated status is passed to your MultiSafepay account automatically.

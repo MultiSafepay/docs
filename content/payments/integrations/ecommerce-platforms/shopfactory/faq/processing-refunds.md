@@ -9,4 +9,4 @@ aliases:
 
 You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com). 
 
-To process refunds from your ShopFactory backend, email the Integration Team at <integration@multisafepay.com>
+To process refunds from your ShopFactory [backend](/getting-started/glossary/#backend), email the Integration Team at <integration@multisafepay.com>

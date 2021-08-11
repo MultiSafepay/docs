@@ -9,7 +9,7 @@ aliases:
 
 There are 3 ways to update the Shopware 5 plugin:
 
-- In your Shopware 6 backend
+- In your Shopware 6 [backend](/getting-started/glossary/#backend)
 - In the CMS marketplace 
 - Using SFTP
 

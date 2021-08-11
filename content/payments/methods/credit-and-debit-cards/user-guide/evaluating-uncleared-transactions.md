@@ -78,7 +78,7 @@ Consider:
 {{< /details >}}
 
 {{< details title="Customer" >}}
-You can view customer information in your MultiSafepay account and in your backend, which may contain useful information we do not have. 
+You can view customer information in your MultiSafepay account and in your [backend](/getting-started/glossary/#backend), which may contain useful information we do not have. 
 
 Consider:
 

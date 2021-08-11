@@ -56,7 +56,7 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 
 ## Installation
  1. Unpack the content of the .ZIP file in the root of your webshop.
- 2. Sign in to your Magento 1 backend.
+ 2. Sign in to your Magento 1 [backend](/getting-started/glossary/#backend).
  3. Go to **System** > **Configuration** > **Cache**. 
  4. Clear your invalid cache.
  5. Move all files and folders from Plugin_Magento_x.x.x to the root. Add the content of the app, lib, and media folders to the existing folders with the same name.

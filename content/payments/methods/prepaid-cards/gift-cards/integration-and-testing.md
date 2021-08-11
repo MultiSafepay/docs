@@ -30,7 +30,7 @@ Any other coupon code receives an "Invalide card number" error.
 
 **Other gift cards** 
 
-Once activated in the backend of your ecommerce platform, to check the connection, make a small payment from a gift card. 
+Once activated in the [backend](/getting-started/glossary/#backend) of your ecommerce platform, to check the connection, make a small payment from a gift card. 
 
 **Note:** This is a real payment and the amount is actually deducted from the gift card.
 

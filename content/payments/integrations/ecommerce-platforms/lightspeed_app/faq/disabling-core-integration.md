@@ -10,7 +10,7 @@ aliases:
 
 To disable the deprecated Lightspeed core integration after migrating to the new app, follow these steps:
 
-1. Sign in to your Lightspeed backend.
+1. Sign in to your Lightspeed [backend](/getting-started/glossary/#backend).
 2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
 2. At the top of the screen, disable this payment provider.
 

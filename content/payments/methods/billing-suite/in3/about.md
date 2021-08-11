@@ -25,7 +25,7 @@ in3 is a Dutch online post-payment method where customers pay in 3 installments 
 
 ## Product rules
 
-- The default minimum order amount is 100 EUR and the default maximum amount is 3000 EUR. You can adjust these limits in the backend of our [ecommerce integrations](/payments/integrations/ecommerce-platforms/) to show or hide in3 on your checkout page depending on the order value.
+- The default minimum order amount is 100 EUR and the default maximum amount is 3000 EUR. You can adjust these limits in the [backend](/getting-started/glossary/#backend) of our [ecommerce integrations](/payments/integrations/ecommerce-platforms/) to show or hide in3 on your checkout page depending on the order value.
 
 - Customers can provide different billing and shipping addresses.
 

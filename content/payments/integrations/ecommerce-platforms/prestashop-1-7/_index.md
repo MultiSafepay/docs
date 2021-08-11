@@ -49,7 +49,7 @@ Contact us:
 {{< /details >}}
 
 ## Installation
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop 1.7 [backend](/getting-started/glossary/#backend).
 2. Go to **Modules** > **Modules & services**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.

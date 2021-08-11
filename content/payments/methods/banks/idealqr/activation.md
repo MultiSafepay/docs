@@ -21,7 +21,7 @@ aliases:
     If iDEAL QR is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
 3. Click **Save changes**.  
 
-**3.** Enable iDEAL QR as a payment method in the backend of your ecommerce platform to finalize the connection.
+**3.** Enable iDEAL QR as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
 
 For any questions, email your account manager at <sales@multisafepay.com>
 

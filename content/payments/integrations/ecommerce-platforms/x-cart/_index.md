@@ -51,7 +51,7 @@ Contact us:
 
 ## Installation
 1. In the root of your webshop, unzip the content of the .ZIP file.
-2. Sign in to your X-Cart backend.
+2. Sign in to your X-Cart [backend](/getting-started/glossary/#backend).
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 

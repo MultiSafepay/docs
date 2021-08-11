@@ -62,7 +62,7 @@ Contact us:
     ```
     For more information about dependencies, see Python - [MultiSafepay](https://pypi.org/project/multisafepay).
 5. Restart your Odoo server.
-6. In your Odoo backend, activate developer mode.
+6. In your Odoo [backend](/getting-started/glossary/#backend), activate developer mode.
 7. Go to the **Apps menu** > **Update apps list**.
 8. Search for and open the MultiSafepay payments module `payment_multisafepay_official`.
 9. Click **Install**.
