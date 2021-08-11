@@ -13,7 +13,7 @@ aliases:
     - /payment-methods/banks/direct-debit/what-is-direct-debit/
 ---
 
-SEPA Direct Debit is a European payment method where customers authorize automatic one-off debits or recurring payments directly from their bank account. It is available in 36 countries. 
+SEPA Direct Debit is a European payment method where customers authorize automatic one-off debits or [recurring payments](/recurring-payments/about/) directly from their bank account. It is available in 36 countries. 
 
 ## Summary
 
@@ -29,8 +29,7 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 
 ## Product rules
 
-- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
-- For [recurring payments](/recurring-payments/about/), customers can also make the initial payment via [SOFORT Banking](/payments/methods/banks/sofort-banking/) or [iDEAL](/payments/methods/banks/ideal/).
+You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
 {{< details title="Refunds" >}}
 
