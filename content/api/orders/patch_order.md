@@ -8,16 +8,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "id": "MSP12345",
-    "status": "shipped",
-    "tracktrace_code": "3SMSP0123456789",
-    "tracktrace_url": "http://tracktrace-url.com/",
-    "carrier": "MSP Logistics",
-    "ship_date": "01-01-1911",
-    "reason": "Fulfilled by warehouse",
-    "invoice_id": "AB12345",
-    "invoice_url": "http://mspinvoice-AB12345.com",
-    "po_number": ""
+  "id":"MSP12345",
+  "status":"shipped",
+  "tracktrace_code":"3SMSP0123456789",
+  "tracktrace_url":"http://tracktrace-url.com/",
+  "carrier":"MSP Logistics",
+  "ship_date":"01-01-1911",
+  "reason":"Fulfilled by warehouse",
+  "invoice_id":"AB12345",
+  "invoice_url":"http://mspinvoice-AB12345.com",
+  "po_number":""
 }
 
 ```
@@ -27,8 +27,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": {}
+  "success":true,
+  "data":{
+    
+  }
 }
 ```
 {{< /code-block >}}
@@ -56,6 +58,11 @@ Options: `canceled`, `shipped`.
 The track and trace code provided by the shipping company.
 
 ----------------
+`tracktrace_url` | string | optional
+
+The track and trace URL provided by the shipping company.
+
+----------------
 `carrier` | string | optional
 
 The name of the shipping company delivering the customer's order.
@@ -77,7 +84,7 @@ Add your invoice ID to an existing order.
 The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay account.
 
 ----------------
-`invoice_url | string | optional
+`invoice_url` | string | optional
 
 The invoice URL linking to the `invoice_id`.
 

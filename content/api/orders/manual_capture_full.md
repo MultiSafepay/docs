@@ -11,13 +11,13 @@ aliases:
 
 ```json
 {
- "amount": 10000,
- "new_order_id": "my-order-id-01",
- "new_order_status": "completed",
- "invoice_id": "001",
- "carrier": "",
- "reason": "",
- "memo": ""
+  "amount":10000,
+  "new_order_id":"my-order-id-01",
+  "new_order_status":"completed",
+  "invoice_id":"001",
+  "carrier":"",
+  "reason":"",
+  "memo":""
 }
 ```
 > JSON response
@@ -25,11 +25,11 @@ aliases:
 
 ```json
 {
-    "success": true,
-    "data": {
-        "transaction_id": 123456789
-        "order_id": "my-order-id-01"
-    }
+  "success":true,
+  "data":{
+    "transaction_id":123456789,
+    "order_id":"my-order-id-01"
+  }
 }
 ```
 {{< /code-block >}}
@@ -74,6 +74,13 @@ The capture reason for the order.
 `memo` | string
 
 The shipping status of the order.     
+
+**Response**
+
+----------------
+`transaction_id` | integer
+
+MultiSafepay's identifier for the transaction (also known as the PSP ID).
 
 ----------------
 `order_id` | integer / string | required

@@ -9,25 +9,25 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Split Payment Order",
-    "affiliate": {
-        "split_payments": [
-            {
-                "merchant": 1001001,
-                "fixed": 112,
-                "description": "Fixed fee"
-            },
-            {
-                "merchant": 1001001,
-                "percentage": 11.2,
-                "description": "Percentage fee"
-            }
-        ]
-    }
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "fixed":112,
+        "description":"Fixed fee"
+      },
+      {
+        "merchant":1001001,
+        "percentage":11.2,
+        "description":"Percentage fee"
+      }
+    ]
+  }
 }
 ```
 
@@ -35,10 +35,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US"
   }
 }
 ```
@@ -90,11 +90,6 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-`payment_options` | object | required
-
-See [payment_options (object)](/api/#payment-options-object).
-
-----------------
 `split_payments` | object | required
 
 Contains:  
@@ -114,6 +109,13 @@ Specify the amount to split in cents.
 `split_payments.description` | string
 
 The description of the split payment.
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 {{% /description %}}

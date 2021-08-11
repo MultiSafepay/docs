@@ -9,12 +9,11 @@ aliases:
 > POST - /orders/{order_id}/refunds 
 
 ```json
-
 {
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 8,
-    "description": "Your refund description"
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":8,
+  "description":"Your refund description"
 }
 ```
 
@@ -22,10 +21,10 @@ aliases:
 
 ```json
 {
-  "success": true,
-  "data": {
-    "transaction_id": 123456789
-    "refund_id": 3326969
+  "success":true,
+  "data":{
+    "transaction_id":123456789,
+    "refund_id":3326969
   }
 }
 ```
@@ -63,6 +62,18 @@ The amount (in cents) to be refunded.
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
 Format: Maximum 200 characters.  
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+**Response** 
+
+----------------
+`transaction_id` | integer
+
+MultiSafepay's identifier for the transaction (also known as the PSP ID).
+
+----------------
+`refund_id` | integer
+
+The identifier of the refund.
 
 ----------------
 {{% /description %}}

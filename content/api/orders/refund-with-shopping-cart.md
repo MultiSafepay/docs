@@ -9,38 +9,36 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders/{order_id}/refunds 
 
 ```json
-
-
 {
-    "checkout_data": {
-        "items": [
-            {
-                "name": "Geometric Candle Holders",
-                "description": "",
-                "unit_price": 90,
-                "quantity": 3,
-                "merchant_item_id": "111111",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 12
-                }
-            },
-                ...
-            {
-                "name": "Flat Rat - Fixed",
-                "description": "Shipping",
-                "unit_price": 10,
-                "quantity": 1,
-                "merchant_item_id": "msp-shipping",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 0
-                }
-            }
-        ]
-    }
+  "checkout_data":{
+    "items":[
+      {
+        "name":"Geometric Candle Holders",
+        "description":"",
+        "unit_price":90,
+        "quantity":3,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
+        }
+      },
+      ...
+      {
+        "name":"Flat Rat - Fixed",
+        "description":"Shipping",
+        "unit_price":10,
+        "quantity":1,
+        "merchant_item_id":"msp-shipping",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":0
+        }
+      }
+    ]
+  }
 }
 ```
 {{< /code-block >}}
@@ -63,7 +61,8 @@ In the example, two out of three geometric candle holders were refunded. The exa
 ----------------
 `checkout_data` | object | required
 
-Contains the original `shopping_cart` object **and** copied items to be refunded. 
+Contains the original `shopping_cart.items` object **and** copied items to be refunded.  
+See [shopping_cart.items object](/api/#shopping_cartitems-object).
 
 ----------------
 {{% /description %}}

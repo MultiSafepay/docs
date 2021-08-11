@@ -11,11 +11,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "success": true,
-    "data": {
-      "id": null,
-      "description": null
-    }
+  "success":true,
+  "data":{
+    "id":null,
+    "description":null
+  }
 }
 ```
 {{< /code-block >}}

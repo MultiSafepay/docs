@@ -11,13 +11,13 @@ aliases:
 
 ```json
 {
- "amount": 2000,
- "new_order_id": "my-order-id-01",
- "new_order_status": "completed",
- "invoice_id": "",
- "carrier": "",
- "reason": "",
- "memo": ""
+  "amount":2000,
+  "new_order_id":"my-order-id-01",
+  "new_order_status":"completed",
+  "invoice_id":"",
+  "carrier":"",
+  "reason":"",
+  "memo":""
 }
 ```
 > JSON response
@@ -25,11 +25,11 @@ aliases:
 
 ```json
 {
-    "success": true,
-    "data": {
-        "transaction_id": 123456789
-        "order_id": "my-order-id-01"
-    }
+  "success":true,
+  "data":{
+    "transaction_id":123456789,
+    "order_id":"my-order-id-01"
+  }
 }
 ```
 {{< /code-block >}}

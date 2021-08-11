@@ -8,26 +8,25 @@ aliases:
 > POST - /orders
 
 ```json
-
 {
-    "type": "paymentlink",
-    "order_id": "test-123",
-    "gateway": "",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-    "second_chance": { 
-        "send_email" : true
-    },
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": true
-    },
-    "customer": {
-        "locale": "en_US"
-    }
+  "type":"paymentlink",
+  "order_id":"test-123",
+  "gateway":"",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "second_chance":{
+    "send_email":true
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"en_US"
+  }
 }
 ```
 
@@ -37,10 +36,10 @@ aliases:
 
 ```json 
 {
-  "success": true,
-  "data": {
-    "order_id": "test-123",
-    "payment_url": "https://devpayv2.multisafepay.com/connect/89QENbhQYcJoP2CO0kx6pSRrw8v2JFnTynr/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"test-123",
+    "payment_url":"https://devpayv2.multisafepay.com/connect/89QENbhQYcJoP2CO0kx6pSRrw8v2JFnTynr/?lang=nl_NL"
   }
 }
 ```
@@ -104,6 +103,23 @@ Contains:
 
 - `true`: Sends a Second Chance email to the customer.  
 - `false` or empty: No email reminder is sent.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

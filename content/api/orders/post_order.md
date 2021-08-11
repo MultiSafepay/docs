@@ -8,40 +8,40 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "gateway": "",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-    "google_analytics": { 
-      "account": "UA-XXXXXXXXX" 
-      },
-    "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "ip_address": "123.123.123.123",
-        "first_name": "Simon",
-        "last_name": "Smit",
-        "company_name": "Test Company Name",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "phone": "0208500500",
-        "email": "simonsmit@example.com",
-        "referrer": "https://example.com",
-        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-    },
-    "second_chance": {
-        "send_email" : true
-    }
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "gateway":"",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "google_analytics":{
+    "account":"UA-XXXXXXXXX"
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123",
+    "first_name":"Simon",
+    "last_name":"Smit",
+    "company_name":"Test Company Name",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "phone":"0208500500",
+    "email":"simonsmit@example.com",
+    "referrer":"https://example.com",
+    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "second_chance":{
+    "send_email":true
+  }
 }
 
 ```
@@ -52,10 +52,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "My-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"My-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
   }
 }
 ```
@@ -133,6 +133,12 @@ See [customer (object)](/api/#customer-object).
 
 See [Send second chance emails](/api/#send-second-chance-emails).
 
+
+**Response**
+
 ----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method. 
 
 {{% /description %}}

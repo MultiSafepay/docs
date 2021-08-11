@@ -12,8 +12,8 @@ aliases:
 {{< code-block >}}
 ```json 
 {
-  "second_chance": {
-    "send_email": true
+  "second_chance":{
+    "send_email":true
   }
 }
  ```

@@ -8,111 +8,111 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "gateway": "",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-    "manual": false,
-   "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "template_id": "123456",
-        "template": {
-            "version": "1.0",
-            "settings": {
-                "hide_logo": false,
-                "hide_flags": false,
-                "hide_powered": false,
-                "hide_cart": false,
-                "hide_btn_cancel": false,
-                "hide_cc_logos": false,
-                "hide_btn_all_methods": false
-            },
-            "header": {
-                "logo": {
-                    "image": ""
-                },
-                "cover": {
-                    "image": ""
-                },
-                "background": "",
-                "text": "#333"
-            },
-            "body": {
-                "text": "#ab141b",
-                "background": "#fdfcfc",
-                "link": {
-                    "text": "#00acf1",
-                    "hover": {
-                        "text": "",
-                        "border": ""
-                    }
-                }
-            },
-            "container": {
-                "text": "#ffffff",
-                "label": "#a4a3a3",
-                "background": "#080808",
-                "link": {
-                    "text": ""
-                }
-            },
-            "cart": {
-                "text": "#333333",
-                "label": "#8b8b8b",
-                "background": "#ffffff",
-                "border": "#333333"
-            },
-            "payment_form": {
-                "text": "#ab141b",
-                "background": "#ffffff",
-                "border": "#333333",
-                "inputs": {
-                    "border": "#bdbbbb",
-                    "label": "#8b8b8b"
-                }
-            },
-            "buttons": {
-                "payment_method": {
-                    "background": "#ffffff",
-                    "text": "#ab141b",
-                    "border": "#333333",
-                    "hover": {
-                        "background": "#ab141b",
-                        "text": "#ffffff",
-                        "border": ""
-                    },
-                    "active": {
-                        "background": "",
-                        "text": "",
-                        "border": ""
-                    }
-                },
-                "secondary": {
-                    "background": "#00acf1",
-                    "text": "#ffffff",
-                    "hover": {
-                        "background": "",
-                        "text": ""
-                    }
-                },
-                "primary": {
-                    "background": "#cccccc",
-                    "text": "#ffffff",
-                    "hover": {
-                        "background": "",
-                        "text": ""
-                    }
-                }
-            }
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "gateway":"",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "manual":false,
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "template_id":"123456",
+    "template":{
+      "version":"1.0",
+      "settings":{
+        "hide_logo":false,
+        "hide_flags":false,
+        "hide_powered":false,
+        "hide_cart":false,
+        "hide_btn_cancel":false,
+        "hide_cc_logos":false,
+        "hide_btn_all_methods":false
+      },
+      "header":{
+        "logo":{
+          "image":""
+        },
+        "cover":{
+          "image":""
+        },
+        "background":"",
+        "text":"#333"
+      },
+      "body":{
+        "text":"#ab141b",
+        "background":"#fdfcfc",
+        "link":{
+          "text":"#00acf1",
+          "hover":{
+            "text":"",
+            "border":""
+          }
         }
-    },
-    "customer": {
-        "email": "simonsmit@example.com"
+      },
+      "container":{
+        "text":"#ffffff",
+        "label":"#a4a3a3",
+        "background":"#080808",
+        "link":{
+          "text":""
+        }
+      },
+      "cart":{
+        "text":"#333333",
+        "label":"#8b8b8b",
+        "background":"#ffffff",
+        "border":"#333333"
+      },
+      "payment_form":{
+        "text":"#ab141b",
+        "background":"#ffffff",
+        "border":"#333333",
+        "inputs":{
+          "border":"#bdbbbb",
+          "label":"#8b8b8b"
+        }
+      },
+      "buttons":{
+        "payment_method":{
+          "background":"#ffffff",
+          "text":"#ab141b",
+          "border":"#333333",
+          "hover":{
+            "background":"#ab141b",
+            "text":"#ffffff",
+            "border":""
+          },
+          "active":{
+            "background":"",
+            "text":"",
+            "border":""
+          }
+        },
+        "secondary":{
+          "background":"#00acf1",
+          "text":"#ffffff",
+          "hover":{
+            "background":"",
+            "text":""
+          }
+        },
+        "primary":{
+          "background":"#cccccc",
+          "text":"#ffffff",
+          "hover":{
+            "background":"",
+            "text":""
+          }
+        }
+      }
     }
+  },
+  "customer":{
+    "email":"simonsmit@example.com"
+  }
 }
 ```
 
@@ -120,10 +120,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
   }
 }
 ```
@@ -146,6 +146,12 @@ The template object structure must include full JSON CSS parameters. If you only
 When sending images in the template structure for the logo and header, you must use HTTPS, otherwise they will be ignored.
 
 **Parameters**
+
+----------------
+`type` | string | required
+
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`.  
 
 ----------------
 `order_id` | integer / string | required
@@ -179,6 +185,11 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
+`manual` | string | required
+
+Fixed value: `false`.
+
+----------------
 `payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
@@ -191,13 +202,47 @@ The template structure overrides the `template_id`.
 
 Contains:  
 
-See [settings (object)](/api/#settings-object).
+- `settings` | object
+
+    See [settings (object)](/api/#settings-object).
+
+- `header` | object
+- `cover` | object
+- `background` | object
+- `body` | object
+- `container` | object
+- `cart` | object
+- `payment_form` | object
+- `buttons` | object
+
+    Contains:  
+
+    - `payment_methods` | object
+
+        See [payment_methods (object)](/api/#payment_methods-object).
+
+    - `active` | object
+    - `secondary` | object
+    - `primary` | object
+
 
 ----------------
 `template_id` | string | optional
 
 The identifier of a saved template from your MultiSafepay account. 
 The template structure overrides the `template_id`.
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+**Response**  
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

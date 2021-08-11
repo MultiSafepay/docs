@@ -11,8 +11,8 @@ aliases:
 
 ```json
 {
- "status": "canceled",
- "reason": "cancel reservation note text"
+  "status":"canceled",
+  "reason":"cancel reservation note text"
 }
 ```
 > JSON response
@@ -20,10 +20,10 @@ aliases:
 
 ```json
 {
-    "success": true,
-    "data": {
-        ...
-    }
+  "success":true,
+  "data":{
+    
+  }
 }
 ```
 {{< /code-block >}}
@@ -33,15 +33,16 @@ aliases:
 **Parameters**
 
 ----------------
-`reason` | string | required
-
-The capture reason for the order.  
-
-----------------
 `status` | string | required
 
 The [order status](/payments/multisafepay-statuses/) of the manual capture request. 
 
 ----------------
+`reason` | string | required
+
+The capture reason for the order.  
+
+----------------
+
 
 {{% /description %}}

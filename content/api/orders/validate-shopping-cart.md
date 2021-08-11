@@ -9,9 +9,9 @@ aliases:
 
 ```json 
 {
-    "checkout_options": {
-        "validate_cart": true
-    }
+  "checkout_options":{
+    "validate_cart":true
+  }
 }
 ```
 
@@ -26,7 +26,11 @@ Applies to non-[post payment](/payments/methods/billing-suite/) methods.
 **Parameters**
 
 ----------------
-**checkout_options.validate_cart** | boolean | required
+`checkout_options` | object | required
+
+Contains:  
+
+`validate_cart` | boolean | required
 
 If set to `true`, the value of `amount` is compared with the calculated total value of the shopping cart.  
 

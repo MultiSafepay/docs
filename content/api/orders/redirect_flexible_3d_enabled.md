@@ -9,40 +9,37 @@ aliases:
 > POST - /orders 
 
 ```json
-
-
 {
-   "type": "redirect",
-   "gateway": "MASTERCARD",
-   "order_id": "my-order-id-01",
-  "currency": "EUR",
-   "amount": 100,
-   "description": "test product description",
-   "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-   }, 
-   "customer": {
-       "locale": "nl_NL",
-       "ip_address": "123.123.123.123",
-       "first_name": "Simon",
-       "last_name": "Smit",
-       "address1": "Kraanspoor",
-       "house_number": "39C",
-       "zip_code": "1033SC",
-       "city": "Amsterdam",
-       "country": "NL",
-       "email": "simonsmit@example.com",
-       "referrer": "http://example.com",
-       "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-    },
-   "gateway_info": {
-       "flexible_3d": true,
-       "term_url": "http://example.com/?type=term&api_key=<api_key>"
-        
-   }
+  "type":"redirect",
+  "gateway":"MASTERCARD",
+  "order_id":"my-order-id-01",
+  "currency":"EUR",
+  "amount":100,
+  "description":"test product description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123",
+    "first_name":"Simon",
+    "last_name":"Smit",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "email":"simonsmit@example.com",
+    "referrer":"http://example.com",
+    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "gateway_info":{
+    "flexible_3d":true,
+    "term_url":"http://example.com/?type=term&api_key=<api_key>"
+  }
 }
 ```
 
@@ -50,11 +47,11 @@ aliases:
 
 ```json
 {
-    "success": true,
-    "data": {
-        "order_id": "my-order-id-01",
-        "payment_url": "https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL"
-    }
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-01",
+    "payment_url":"https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL"
+  }
 }
 ```
 {{< /code-block >}}
@@ -134,6 +131,13 @@ Contains:
 `term_url` | string | required
 
 The URL to inform the card [issuer](/credit-and-debit-cards/glossary/#issuer) where to redirect the authorisation query. 
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

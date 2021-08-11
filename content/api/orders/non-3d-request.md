@@ -10,29 +10,28 @@ aliases:
 > POST - /orders
 
 ```json
-
 {
-  "type": "direct",
-  "gateway": "CREDITCARD",
-  "order_id": "order-1",
-  "currency": "EUR",
-  "amount": 1000,
-  "description": "product description",
-  "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
+  "type":"direct",
+  "gateway":"CREDITCARD",
+  "order_id":"order-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"product description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
   },
-  "customer": {
-    "locale": "nl_NL",
-    "ip_address": "123.123.123.123"
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123"
   },
-  "gateway_info": {
-    "card_number": "4111111111111111",
-    "card_holder_name": "Holder Name",
-    "card_expiry_date": "1612",
-    "card_cvc": "123"
+  "gateway_info":{
+    "card_number":"4111111111111111",
+    "card_holder_name":"Holder Name",
+    "card_expiry_date":"1612",
+    "card_cvc":"123"
   }
 }
 ```
@@ -41,10 +40,10 @@ aliases:
 
 ```json 
 {
-    "success": true,
-    "data": {
-        ...
-    }
+  "success":true,
+  "data":{
+    ...
+  }
 }
 ```
 {{< /code-block >}}

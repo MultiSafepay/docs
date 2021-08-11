@@ -10,10 +10,10 @@ aliases:
 
 ```json
 {
-    "type": "",
-    "base64": "",
-    "description": "",
-    "name": ""
+  "type":"",
+  "base64":"",
+  "description":"",
+  "name":""
 }
 ```
 
@@ -21,9 +21,10 @@ aliases:
 
 ```json
 {
-    "success": true,
-    "data": {
-    }
+  "success":true,
+  "data":{
+    
+  }
 }
 ```
 {{< /code-block >}}

@@ -13,55 +13,55 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": [
+  "success":true,
+  "data":[
     {
-      "code": "0031",
-      "description": "ABN AMRO"
+      "code":"0031",
+      "description":"ABN AMRO"
     },
     {
-      "code": "0751",
-      "description": "SNS Bank"
+      "code":"0751",
+      "description":"SNS Bank"
     },
     {
-      "code": "0721",
-      "description": "ING"
+      "code":"0721",
+      "description":"ING"
     },
     {
-      "code": "0021",
-      "description": "Rabobank"
+      "code":"0021",
+      "description":"Rabobank"
     },
     {
-      "code": "0761",
-      "description": "ASN Bank"
+      "code":"0761",
+      "description":"ASN Bank"
     },
     {
-      "code": "0771",
-      "description": "Regio Bank"
+      "code":"0771",
+      "description":"Regio Bank"
     },
     {
-      "code": "0511",
-      "description": "Triodos Bank"
+      "code":"0511",
+      "description":"Triodos Bank"
     },
     {
-      "code": "0161",
-      "description": "Van Lanschot Bankiers"
+      "code":"0161",
+      "description":"Van Lanschot Bankiers"
     },
     {
-      "code": "0801",
-      "description": "Knab"
+      "code":"0801",
+      "description":"Knab"
     },
     {
-      "code": "1099",
-      "description": "Revolut"
+      "code":"1099",
+      "description":"Revolut"
     },
     {
-      "code": "4371",
-      "description": "Bunq"
+      "code":"4371",
+      "description":"Bunq"
     },
     {
-      "code": "1235",
-      "description": "Handelsbanken"
+      "code":"1235",
+      "description":"Handelsbanken"
     }
   ]
 }

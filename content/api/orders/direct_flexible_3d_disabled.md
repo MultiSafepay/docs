@@ -9,43 +9,42 @@ aliases:
 > POST - /orders 
 
 ```json 
-
 {
-   "type": "direct",
-   "gateway": "VISA",
-   "order_id": "my-test-order-01",
-   "currency": "EUR",
-   "amount": 100,
-   "description": "test product description",
-    "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-    },
-   "customer": {
-       "locale": "nl_NL",
-       "ip_address": "123.123.123.123",
-       "first_name": "Simon",
-       "last_name": "Smit",
-       "address1": "Kraanspoor",
-       "house_number": "39C",
-       "zip_code": "1033SC",
-       "city": "Amsterdam",
-       "country": "NL",
-       "phone": "0208500500",
-       "email": "simonsmit@example.com",
-       "referrer": "http://example.com",
-       "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-   },
-   "gateway_info": {
-       "flexible_3d": false,
-       "card_number": "4111111111111111",
-       "card_holder_name": "MultiSafepay",
-       "card_expiry_date": "2412",
-      "term_url": "http://example.com/?type=term&api_key=<api_key>",
-        "card_cvc": "321"
-   }
+  "type":"direct",
+  "gateway":"VISA",
+  "order_id":"my-test-order-01",
+  "currency":"EUR",
+  "amount":100,
+  "description":"test product description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123",
+    "first_name":"Simon",
+    "last_name":"Smit",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "phone":"0208500500",
+    "email":"simonsmit@example.com",
+    "referrer":"http://example.com",
+    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "gateway_info":{
+    "flexible_3d":false,
+    "card_number":"4111111111111111",
+    "card_holder_name":"MultiSafepay",
+    "card_expiry_date":"2412",
+    "term_url":"http://example.com/?type=term&api_key=<api_key>",
+    "card_cvc":"321"
+  }
 }
 
 ```
@@ -53,66 +52,65 @@ aliases:
 
 ```json 
 {
-    "success": true,
-    "data": {
-        "transaction_id": 123456789
-        "order_id": "my-test-order-01",
-        "created": "2019-05-16T10:51:54",
-        "currency": "EUR",
-        "amount": 100,
-        "description": "test product description",
-        "var1": null,
-        "var2": null,
-        "var3": null,
-        "items": null,
-        "amount_refunded": 0,
-        "status": "completed",
-        "financial_status": "completed",
-        "reason": "",
-        "reason_code": "",
-        "fastcheckout": "NO",
-        "modified": "2019-05-16T10:51:54",
-        "customer": {
-            "locale": "nl_NL",
-            "first_name": "Simon",
-            "last_name": "Smit",
-            "address1": "Kraanspoor",
-            "address2": "",
-            "house_number": "39C",
-            "zip_code": "1033SC",
-            "city": "Amsterdam",
-            "state": "NH",
-            "country": "NL",
-            "country_name": "The Netherlands",
-            "phone1": "0208500500",
-            "phone2": "00310000001",
-            "email": "simonsmit@example.com"
-        },
-        "custom_info": {
-            "custom_1": null,
-            "custom_2": null,
-            "custom_3": null
-        },
-        "payment_details": {
-            "type": "VISA",
-            "account_id": null,
-            "account_holder_name": "MultiSafepay",
-            "external_transaction_id": 0010,
-            "last4": 1111,
-            "card_expiry_date": 2412
-        },
-        "costs": [
-            {
-                "transaction_id": 123456789,
-                "amount": 0.0,
-                "description": "0.0 % for visa credit card transactions",
-                "type": "SYSTEM"
-                
-            }
-        ],
-         "payment_url": "https://www.example.com/client/notification?type=redirect&transactionid=my-test-order-01",
-    "cancel_url": "https://www.example.com/client/notification?type=cancel&transactionid=my-test-order-01"
-    }
+  "success":true,
+  "data":{
+    "transaction_id":123456789,
+    "order_id":"my-test-order-01",
+    "created":"2019-05-16T10:51:54",
+    "currency":"EUR",
+    "amount":100,
+    "description":"test product description",
+    "var1":null,
+    "var2":null,
+    "var3":null,
+    "items":null,
+    "amount_refunded":0,
+    "status":"completed",
+    "financial_status":"completed",
+    "reason":"",
+    "reason_code":"",
+    "fastcheckout":"NO",
+    "modified":"2019-05-16T10:51:54",
+    "customer":{
+      "locale":"nl_NL",
+      "first_name":"Simon",
+      "last_name":"Smit",
+      "address1":"Kraanspoor",
+      "address2":"",
+      "house_number":"39C",
+      "zip_code":"1033SC",
+      "city":"Amsterdam",
+      "state":"NH",
+      "country":"NL",
+      "country_name":"The Netherlands",
+      "phone1":"0208500500",
+      "phone2":"00310000001",
+      "email":"simonsmit@example.com"
+    },
+    "custom_info":{
+      "custom_1":null,
+      "custom_2":null,
+      "custom_3":null
+    },
+    "payment_details":{
+      "type":"VISA",
+      "account_id":null,
+      "account_holder_name":"MultiSafepay",
+      "external_transaction_id":1234,
+      "last4":1111,
+      "card_expiry_date":2412
+    },
+    "costs":[
+      {
+        "transaction_id":123456789,
+        "amount":0.0,
+        "description":"0.0 % for visa credit card transactions",
+        "type":"SYSTEM"
+      }
+    ],
+    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=my-test-order-01",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=my-test-order-01"
+  }
 }
 ```
 {{< /code-block >}}
@@ -198,9 +196,80 @@ URL that is used to instruct the card issuer where to redirect the authorisation
 **Response**
 
 ----------------
+`transaction_id` | integer
+
+MultiSafepay's identifier for the transaction (also known as the PSP ID).
+
+----------------
+`created` | string
+
+The timestamp for when the order was created.
+
+----------------
+`var1` / `var2` / `var3` | string 
+
+Variables for storing additional data.
+
+----------------
+`items` | object 
+
+See [items (object)](/api/#items-object/).
+
+----------------
+`amount_refunded` | integer
+
+The amount refunded to the customer.
+
+----------------
+`status` | string 
+
+The [order status](/payments/multisafepay-statuses/) of the manual capture request.
+
+----------------
+`financial_status` | string
+
+The [transaction status](/payments/multisafepay-statuses/) of the order.
+
+----------------
+`reason` | string 
+
+The capture reason for the order.
+
+----------------
+`fastcheckout` | string 
+
+Whether this is a [FastCheckout](/payments/methods/fastcheckout/) transaction.  
+Options: `YES`, `NO`.
+
+----------------
+`modified` | string
+
+The timestamp when the order was last modified.
+
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom_info).
+
+----------------
+`payment_details` | object
+
+See [payment_details (object)](/api/#payment_details-object).
+
+----------------
 `costs` | object
 
 See [costs (object)](/api/#costs-object).
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
+`cancel_url` | string 
+
+The page the customer is redirected to if the payment fails.
 
 ----------------
 

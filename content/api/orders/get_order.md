@@ -13,92 +13,92 @@ aliases:
 
 ```json
 {
-  "success": true,
-  "data": {
-    "transaction_id": 123456789,
-    "order_id": "{order_id}",
-    "created": "2019-03-01T16:12:47",
-    "currency": "EUR",
-    "amount": 200,
-    "description": "Test order description",
-    "var1": null,
-    "var2": null,
-    "var3": null,
-    "items": null,
-    "amount_refunded": 200,
-    "status": "refunded",
-    "financial_status": "completed",
-    "reason": "Successful approval/completion",
-    "reason_code": "",
-    "fastcheckout": "NO",
-    "modified": "2019-03-01T16:13:14",
-    "customer": {
-      "locale": "nl_NL",
-      "first_name": "Simon",
-      "last_name": "Smit",
-      "address1": "Kraanspoor",
-      "address2": "",
-      "house_number": "39C",
-      "zip_code": "1033SC",
-      "city": "Amsterdam",
-      "state": "NH",
-      "country": "NL",
-      "country_name": "The Netherlands",
-      "phone1": "0208500500",
-      "phone2": "00310000001",
-      "email": "simonsmit@example.com"
+  "success":true,
+  "data":{
+    "transaction_id":123456789,
+    "order_id":"{order_id}",
+    "created":"2019-03-01T16:12:47",
+    "currency":"EUR",
+    "amount":200,
+    "description":"Test order description",
+    "var1":null,
+    "var2":null,
+    "var3":null,
+    "items":null,
+    "amount_refunded":200,
+    "status":"refunded",
+    "financial_status":"completed",
+    "reason":"Successful approval/completion",
+    "reason_code":"",
+    "fastcheckout":"NO",
+    "modified":"2019-03-01T16:13:14",
+    "customer":{
+      "locale":"nl_NL",
+      "first_name":"Simon",
+      "last_name":"Smit",
+      "address1":"Kraanspoor",
+      "address2":"",
+      "house_number":"39C",
+      "zip_code":"1033SC",
+      "city":"Amsterdam",
+      "state":"NH",
+      "country":"NL",
+      "country_name":"The Netherlands",
+      "phone1":"0208500500",
+      "phone2":"00310000001",
+      "email":"simonsmit@example.com"
     },
-    "payment_details": {
-      "recurring_id": "133761993_gTp2",
-      "type": "VISA",
-      "account_id": null,
-      "account_holder_name": "Testperson-nl approved",
-      "external_transaction_id": 906015000050,
-      "last4": "1234",
-      "card_expiry_date": 1904
+    "payment_details":{
+      "recurring_id":"133761993_gTp2",
+      "type":"VISA",
+      "account_id":null,
+      "account_holder_name":"Testperson-nl approved",
+      "external_transaction_id":906015000050,
+      "last4":"1234",
+      "card_expiry_date":1904
     },
-    "costs": [
+    "costs":[
       {
-        "transaction_id": 123456789,
-        "amount": 0.19,
-        "description": "Refund order 258655825 for TEST TEST",
-        "type": "internal",
-        "created": "2019-03-01T16:14:02",
-        "status": "completed"  
+        "transaction_id":123456789,
+        "amount":0.19,
+        "description":"Refund order 258655825 for TEST TEST",
+        "type":"internal",
+        "created":"2019-03-01T16:14:02",
+        "status":"completed"
       }
     ],
-    "related_transactions": [
+    "related_transactions":[
       {
-        "amount": 200,
-        "costs": [
+        "amount":200,
+        "costs":[
           {
-            "amount": 19,
-            "description": "EURO 0.19 per refund",
-            "type": "SYSTEM",
-            "currency": "EUR",
-            "status": "reserved"
+            "amount":19,
+            "description":"EURO 0.19 per refund",
+            "type":"SYSTEM",
+            "currency":"EUR",
+            "status":"reserved"
           }
         ],
-        "created": "2019-03-01T16:14:02",
-        "currency": "EUR",
-        "description": "Refund order 258655825 for TEST TEST",
-        "modified": "2019-03-01T16:14:02",
-        "status": "completed",
-        "transaction_id": 123456789
+        "created":"2019-03-01T16:14:02",
+        "currency":"EUR",
+        "description":"Refund order 258655825 for TEST TEST",
+        "modified":"2019-03-01T16:14:02",
+        "status":"completed",
+        "transaction_id":123456789
       }
     ],
-    "payment_methods": [
+    "payment_methods":[
       {
-        "account_holder_name": "Testperson-nl approved",
-        "amount": 200,
-        "card_expiry_date": 1904,
-        "currency": "EUR",
-        "description": "Test order description",
-        "external_transaction_id": 906015000050,
-        "last4": 1234,
-        "payment_description": "Visa",
-        "status": "completed",
-        "type": "VISA"
+        "account_holder_name":"Testperson-nl approved",
+        "amount":200,
+        "card_expiry_date":1904,
+        "currency":"EUR",
+        "description":"Test order description",
+        "external_transaction_id":906015000050,
+        "last4":1234,
+        "payment_description":"Visa",
+        "status":"completed",
+        "type":"VISA"
       }
     ]
   }
@@ -140,19 +140,19 @@ The currency you want the customer to pay with.
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). 
 
 ----------------
-`amount` | integer | 
+`amount` | integer 
 
 The amount (in cents) for the customer to pay. 
 
 ----------------
-`description` | string | 
+`description` | string 
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-`var1` / `var2` / `var3` | string | 
+`var1` / `var2` / `var3` | string 
 
 Variables for storing additional data. 
 
@@ -169,7 +169,18 @@ The [order status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order. 
+The [transaction status](/payments/multisafepay-statuses/) of the order.
+
+----------------
+`reason` | string | required
+
+The capture reason for the order. 
+
+----------------
+`fastcheckout` | string 
+
+Whether this is a [FastCheckout](/payments/methods/fastcheckout/) transaction.  
+Options: `YES`, `NO`.
 
 ----------------
 `modified` | string
@@ -186,9 +197,13 @@ See [customer (object)](/api/#customer-object).
 
 See [payment_details (object)](/api/#payment_details-object).
 
-**Response**
-
 ----------------
+`related_transactions` | object
+
+Information about linked transactions.
+
+Contains:  
+
 `costs` | object
 
 See [costs (object)](/api/#costs-object).
