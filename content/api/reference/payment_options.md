@@ -32,14 +32,13 @@ Contains:
 `notification_url` | string | required
 
 Endpoint for MultiSafepay to send status updates and other notifications to.   
-For more information, see [notification_url](/developer/api/notification-url).              
+For more information, see [Notification URL](/developer/api/notification-url).              
 
 ----------------
 `redirect_url` | string | required
 
 The page the customer is redirected to after completing payment.   
-If the transaction status changes to [**Uncleared**](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), the customer is also redirected to your thank-you page.   
-**Note:** Customers never see an **Uncleared** status. They always experience the payment as successful.              
+For more information, see [Redirect URL](/developer/api/redirect-url/).          
 
 ----------------
 `cancel_url` | string | required
