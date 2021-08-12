@@ -7,10 +7,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 
 ```json 
-"custom_info": {
-      "custom_1": null,
-      "custom_2": null,
-      "custom_3": null
+{
+  "custom_info":{
+    "custom_1":null,
+    "custom_2":null,
+    "custom_3":null
+  }
+}
 ```
 
 {{< /code-block >}}

@@ -7,14 +7,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 ```json 
 {
-	"payment_details": {
-	    "account_holder_name": null,
-        "account_id": "NL87ABNA0000000001",
-        "external_transaction_id": null,
-        "recurring_id": null,
-        "recurring_model": null,
-        "type": "DIRECTBANK"
-	}
+  "payment_details":{
+    "account_holder_name":null,
+    "account_id":"NL87ABNA0000000001",
+    "external_transaction_id":null,
+    "recurring_id":null,
+    "recurring_model":null,
+    "type":"DIRECTBANK"
+  }
 }
 ```
 

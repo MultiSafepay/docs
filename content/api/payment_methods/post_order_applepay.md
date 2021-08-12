@@ -21,18 +21,18 @@ try {
 
 ```json
 {
-  "type": "redirect",
-  "order_id": "my-order-id-1",
-  "gateway": "APPLEPAY",
-  "currency": "EUR",
-  "amount": 9743,
-  "description": "Test Order Description",
-  "manual": false,
-  "payment_options": {
-      "notification_url": "http://www.example.com/client/notification?type=notification",
-      "redirect_url": "http://www.example.com/client/notification?type=redirect",
-      "cancel_url": "http://www.example.com/client/notification?type=cancel",
-      "close_window": true
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "gateway":"APPLEPAY",
+  "currency":"EUR",
+  "amount":9743,
+  "description":"Test Order Description",
+  "manual":false,
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
   }
 }
 ```
@@ -41,10 +41,10 @@ try {
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/13ztRF4ic5Kz23n2Lf5F3UzcVqMRxwjlfQw/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13ztRF4ic5Kz23n2Lf5F3UzcVqMRxwjlfQw/?lang=nl_NL"
   }
 }
 ```
@@ -53,17 +53,17 @@ try {
 
 ```json
 {
-  "type": "direct",
-  "order_id": "my-order-id-1",
-  "gateway": "APPLEPAY",
-  "currency": "EUR",
-  "amount": 1495,
-  "description": "Order Description",
-  "payment_options": {
-      "notification_url": "http://www.example.com/client/notification?type=notification",
+  "type":"direct",
+  "order_id":"my-order-id-1",
+  "gateway":"APPLEPAY",
+  "currency":"EUR",
+  "amount":1495,
+  "description":"Order Description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification"
   },
-  "gateway_info": {
-    "payment_token": "{\"paymentData\":{\"data\":\"string\"},\"transactionIdentifier\":\"string\",\"paymentMethod\":{\"network\":\"string\",\"displayName\":\"string\"}}"
+  "gateway_info":{
+    "payment_token":"{\"paymentData\":{\"data\":\"string\"},\"transactionIdentifier\":\"string\",\"paymentMethod\":{\"network\":\"string\",\"displayName\":\"string\"}}"
   }
 }
 ```
@@ -72,10 +72,10 @@ try {
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/13ztRF4ic5Kz23n2Lf5F3UzcVqMRxwjlfQw/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13ztRF4ic5Kz23n2Lf5F3UzcVqMRxwjlfQw/?lang=nl_NL"
   }
 }
 ```
@@ -86,7 +86,7 @@ try {
 
 ## Apple Pay
 
-- See also Payment methods – [Apple Pay](/payments/methods/wallet/applepay).  
+See also Payment methods – [Apple Pay](/payments/methods/wallet/applepay).  
 
 ### Detecting Apple Pay on the customer's device
 
@@ -105,17 +105,17 @@ The payment flow for the checkout process.
 Options: `redirect`.  
 
 ----------------
-`gateway` | string | required
-
-The unique gateway identifier to direct the customer straight to the payment method.    
-Fixed value: `APPLEPAY`.
-
-----------------
 `order_id` | integer / string | required
 
 Your unique identifier for the order.  
 If the values are numbers only, the type is `integer`, otherwise it is `string`.  
 Format: Maximum 35 characters.
+
+----------------
+`gateway` | string | required
+
+The unique gateway identifier to direct the customer straight to the payment method.    
+Fixed value: `APPLEPAY`.
 
 ----------------
 `currency` | string | required
@@ -145,6 +145,13 @@ Fixed value: `false`.
 
 See [payment_options (object)](/api/#payment-options-object).
 
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
 ----------------
 
 ### Apple Pay - direct 
@@ -158,50 +165,60 @@ For a detailed integration manual, see [Apple Pay direct integration](/payments/
 **Parameters**
 
 ----------------
-`type` | string
+`type` | string | required
 
 Specifies the payment flow for the checkout process. For the Apple Pay direct integration, use `direct`.  
 
 ----------------
-`gateway` | string
-
-For Apple Pay payments, use `APPLEPAY`.
-
-----------------
-`order_id` | integer / string
+`order_id` | integer / string | required
 
 Your unique identifier for the order. Maximum number of characters: 35.
 
 ----------------
-`currency` | string
+`gateway` | string | required
+
+For Apple Pay payments, use `APPLEPAY`.
+
+----------------
+`currency` | string | required
 
 The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
 
 ----------------
-`amount` | integer
+`amount` | integer | required
 
 The amount (in cents) that the customer needs to pay.
 
 ----------------
-`description` | string
+`description` | string | required
 
 A text which will be shown with the order in your MultiSafepay account. Max 200 characters.
 
 ----------------
+`payment_options` | object | required
 
-`payment_options.notification_url` | string
-
-Your webhook endpoint that handles transaction updates.
-
-For more information, see [notification_url](/developer/api/notification-url).
+See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
+`gateway_info` | object
 
-**gateway_info.payment_token** | string
+Contains:  
+
+`payment_token` | string
 
 The JSON-encoded `payment.token` with the customer's encrypted payment details, generated by the Apple Pay JS API.
 
 For more information, see Apple Pay direct integration – [Create an order](/payments/methods/wallet/applepay/direct-integration/#client-side-integration-1) and Apple Developer – [ApplePayPaymentToken](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymenttoken).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
+
 
 {{< /description >}}
 

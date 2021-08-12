@@ -14,32 +14,33 @@ aliases:
 
 ```json
 {
-	"success": true,
-	"data": {
-		"tokens": [{
-				"token": "QZTCh7jdk8",
-				"code": "MASTERCARD",
-				"display": "1234 5678 9101 2345",
-				"bin": 555555,
-				"name_holder": "Test-person-nl",
-				"expiry_date": 0988,
-				"expired": 0,
-				"last4": 1111,
-				"recurring_model": "cardOnFile"
-			},
-			{
-				"token": "GVXjq3432o4",
-				"code": "VISA",
-				"display": "1234 5678 9101 2345",
-				"bin": 411111,
-				"name_holder": "WebcashierE2E",
-				"expiry_date": 0988,
-				"expired": 0,
-				"last4": 2222,
-				"recurring_model": "unscheduled"
-			}
-		]
-	}
+  "success":true,
+  "data":{
+    "tokens":[
+      {
+        "token":"QZTCh7jdk8",
+        "code":"MASTERCARD",
+        "display":"1234 5678 9101 2345",
+        "bin":555555,
+        "name_holder":"Test-person-nl",
+        "expiry_date":1234,
+        "expired":0,
+        "last4":1111,
+        "recurring_model":"cardOnFile"
+      },
+      {
+        "token":"GVXjq3432o4",
+        "code":"VISA",
+        "display":"1234 5678 9101 2345",
+        "bin":411111,
+        "name_holder":"WebcashierE2E",
+        "expiry_date":1234,
+        "expired":0,
+        "last4":2222,
+        "recurring_model":"unscheduled"
+      }
+    ]
+  }
 }
 ```
 
@@ -74,7 +75,44 @@ If empty, the default is 10.
 The number of the token to start the list from.  
 If empty, the default is 0, i.e. the first token.
 
-----------------
+**Response**
 
+----------------
+`tokens` | object
+
+Contains:  
+
+`code` | string 
+
+The unique identifier of the payment gateway.
+
+`display` | string 
+
+How the customer's credit card number is displayed.
+
+`name_holder` | string 
+
+The card holder's name. 
+
+`expiry_date` | integer 
+
+The credit card expiry date.  
+Format: `monthnumberdatenumber`.  
+Example: December 2025 is formatted as `1225`.
+
+`expired` | boolean 
+
+Whether the card has expired.
+
+`last4` | string 
+
+The last 4 digits of the credit card number.
+
+`recurring_model` | string 
+
+The [recurring model](/payments/features/tokenization/#recurring-models).  
+Options: `cardonfile`, `subscription`, `unscheduled`.  
+
+----------------
 
 {{< /description >}}

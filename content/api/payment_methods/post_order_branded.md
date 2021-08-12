@@ -1,5 +1,5 @@
 ---
-weight: 309
+weight: 310
 meta_title: "API Reference - Create a co-branded credit card order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -8,33 +8,32 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json 
 {
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "gateway": "VISA",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-     "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-    },
-    "customer": {
-        "locale": "it_IT",
-         "ip_address": "123.123.123.123"
-    }
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "gateway":"VISA",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"it_IT",
+    "ip_address":"123.123.123.123"
+  }
 }
 ```
 > JSON response
 
 ```json 
-
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=it_IT"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=it_IT"
   }
 }
 ```
@@ -42,7 +41,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Co-branded credit cards 
+### Co-branded credit cards 
 
 - See also Payment methods:  
   - [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires)
@@ -101,6 +100,13 @@ See [payment_options (object)](/api/#payment-options-object).
 See [customer (object)](/api/#customer-object).
 
 **Note:** The co-branded card logo only displays if the locale is correctly supplied.
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ---------------- 
 

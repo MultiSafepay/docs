@@ -263,7 +263,7 @@ Information about linked transactions.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/) of the manual capture request.
+The [order status](/payments/multisafepay-statuses/) of the order.
 
 ----------------
 `transaction_id` | integer

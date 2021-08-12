@@ -1,5 +1,5 @@
 ---
-weight: 318
+weight: 321
 meta_title: "API Reference - Create a Klarna order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -8,113 +8,112 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders
 
 ```json
-
 {
-    "type": "redirect",
-    "gateway": "KLARNA",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 26000,
-    "description": "Test order description",
-    "items": "",
-    "manual": "false",
-    "gateway_info": {
-        "birthday": "1970-07-10",
-        "gender": "male",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
-    },
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
-    },
-    "plugin": {
-        "shop": "my-shop",
-        "plugin_version": "1.0.0",
-        "shop_version": "1",
-        "partner": "partner",
-        "shop_root_url": "http://multisafepay.com"
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "ip_address": "127.0.0.1",
-        "forwarded_ip": "127.0.0.1",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": 39C,
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "phone": "0612345678",
-        "email": "example@multisafepay.com",
-        "disable_send_email": false,
-        "referrer": "http://test.com",
-        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-    },
-    "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": 39C,
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL"
-    },
-    "shopping_cart": {
-        "items": [
-            {
-                "name": "Item demo 1",
-                "description": "",
-                "unit_price": 90,
-                "quantity": 2,
-                "merchant_item_id": "111111",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 12
-                }
-            },
-            {
-                "name": "Item shipping - Flat Rate - Fixed",
-                "description": "Shipping",
-                "unit_price": 10,
-                "quantity": 1,
-                "merchant_item_id": "msp-shipping",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 0
-                }
-            }
-        ]
-    },
-    "checkout_options": {
-        "tax_tables": {
-            "alternate": [
-                {
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": 0.00
-                        }
-                    ]
-                }
-            ]
+  "type":"redirect",
+  "gateway":"KLARNA",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":26000,
+  "description":"Test order description",
+  "items":"",
+  "manual":"false",
+  "gateway_info":{
+    "birthday":"1970-07-10",
+    "gender":"male",
+    "phone":"0208500500",
+    "email":"example@multisafepay.com"
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":""
+  },
+  "plugin":{
+    "shop":"my-shop",
+    "plugin_version":"1.0.0",
+    "shop_version":"1",
+    "partner":"partner",
+    "shop_root_url":"http://multisafepay.com"
+  },
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"127.0.0.1",
+    "forwarded_ip":"127.0.0.1",
+    "first_name":"Testperson-nl",
+    "last_name":"Approved",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033 SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "phone":"0612345678",
+    "email":"example@multisafepay.com",
+    "disable_send_email":false,
+    "referrer":"http://test.com",
+    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "delivery":{
+    "first_name":"Testperson-nl",
+    "last_name":"Approved",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033 SC",
+    "city":"Amsterdam",
+    "country":"NL"
+  },
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Item demo 1",
+        "description":"",
+        "unit_price":90,
+        "quantity":2,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
         }
+      },
+      {
+        "name":"Item shipping - Flat Rate - Fixed",
+        "description":"Shipping",
+        "unit_price":10,
+        "quantity":1,
+        "merchant_item_id":"msp-shipping",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":0
+        }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "alternate":[
+        {
+          "name":"none",
+          "rules":[
+            {
+              "rate":0.00
+            }
+          ]
+        }
+      ]
     }
+  }
 }
 ```
 > JSON response
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
   }
 }
 ```
@@ -240,6 +239,13 @@ See [shopping_cart.items (object)](/api/#shopping_cartitems).
 `checkout_options` | object
 
 The definitions for the VAT class.   
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------    
 

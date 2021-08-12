@@ -6,17 +6,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 ```json 
 {
-	"payment_methods": [
-      {
-        "account_id": 10071970,
-        "amount": 9743,
-        "currency": "EUR",
-        "description": "Test order description",
-        "payment_description": "SOFORT Banking",
-        "status": "initialized",
-        "type": "DIRECTBANK"
-      }
-    ]
+  "payment_methods":[
+    {
+      "account_id":10071970,
+      "amount":9743,
+      "currency":"EUR",
+      "description":"Test order description",
+      "payment_description":"SOFORT Banking",
+      "status":"initialized",
+      "type":"DIRECTBANK"
+    }
+  ]
+}
 ```
 
 
@@ -60,7 +61,7 @@ The payment method.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/) of the manual capture request. 
+The [order status](/payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `external_transaction_id` | string

@@ -13,17 +13,17 @@ aliases:
 
 ```json
 {
-    "expiry_date": "2903"
+  "expiry_date":"2903"
 }
 ```
 > JSON response
 
 ```json
 {
-    "success": true,
-    "data": {
-        "updated": true
-    }
+  "success":true,
+  "data":{
+    "updated":true
+  }
 }
 ```
 

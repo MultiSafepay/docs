@@ -10,7 +10,7 @@ url: '/api/#items-object/'
 {{< code-block >}}
 ```json 
 {
-    "items": "<ol><li>Article 1: € 1,95</li><li>Article 2: € 2,95</li><li>Article 3: € 3,95</li></ol>",
+  "items":"<ol><li>Article 1: € 1,95</li><li>Article 2: € 2,95</li><li>Article 3: € 3,95</li></ol>"
 }
  ```
 {{< /code-block >}}

@@ -7,16 +7,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 
 ```json 
-"costs": [
-      {
-        "transaction_id": 123456789,
-        "amount": 0.19,
-        "description": "Refund order 258655825 for TEST TEST",
-        "type": "internal",
-        "created": "2019-03-01T16:14:02",
-        "status": "completed"       
-        }
-]
+{
+  "costs":[
+    {
+      "transaction_id":123456789,
+      "amount":0.19,
+      "description":"Refund order 258655825 for TEST TEST",
+      "type":"internal",
+      "created":"2019-03-01T16:14:02",
+      "status":"completed"
+    }
+  ]
+}
 ```
 
 {{< /code-block >}}

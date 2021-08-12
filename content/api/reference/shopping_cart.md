@@ -6,19 +6,23 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< code-block >}}
 ```json 
-{	
-	"shopping_cart": {
-		"name": "",
-		"description": "",
-		"unit_price": ,
-		"quantity": ,
-		"merchant_item_id": "",
-		"tax_table_selector": "",
-		"weight": {},
-		"options": [],
-		"value": ,
-		"unit": ""
-	}
+{
+  "shopping_cart":{
+    "name":"",
+    "description":"",
+    "unit_price":100,
+    "quantity":2,
+    "merchant_item_id":"",
+    "tax_table_selector":"",
+    "weight":{
+      
+    },
+    "options":[
+      
+    ],
+    "value":200,
+    "unit":""
+  }
 }
 ```
 

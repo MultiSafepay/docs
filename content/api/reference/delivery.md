@@ -6,15 +6,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 ```json 
 {
-"delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": 39C,
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL"
-    
+  "delivery":{
+    "first_name":"Testperson-nl",
+    "last_name":"Approved",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033 SC",
+    "city":"Amsterdam",
+    "country":"NL"
+  }
 }
 ```
 

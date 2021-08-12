@@ -12,49 +12,49 @@ aliases:
 
 ```json
 {
-        "type": "redirect",
-        "gateway": "CREDITCARD",
-        "order_id": "my-order-id-1",
-        "currency": "EUR",
-        "recurring_model": "unscheduled",
-        "amount": 10000,
-        "description": "Tokenization - ALL - Original unscheduled",
-        "payment_options": {
-                "notification_url": "http://www.example.com/client/notification?type=notification",
-                "redirect_url": "http://www.example.com/client/notification?type=redirect",
-                "cancel_url": "http://www.example.com/client/notification?type=cancel",
-                "close_window": true
-        },
-        "customer": {
-                "locale": "nl_NL",
-                "ip_address": "123.123.123.123",
-                "forwarded_ip": "",
-                "first_name": "Simon",
-                "last_name": "Smit",
-                "address1": "Kraanspoor",
-                "house_number": "39C",
-                "zip_code": "1033SC",
-                "city": "Amsterdam",
-                "country": "NL",
-                "birthday": "1970-07-10",
-                "gender": "mr",
-                "phone": "0208500500",
-                "email": "simonsmit@example.com",
-                "referrer": "http://example.com",
-                "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
-                "reference": "AutoQAReference"
-        }
+  "type":"redirect",
+  "gateway":"CREDITCARD",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "recurring_model":"unscheduled",
+  "amount":10000,
+  "description":"Tokenization - ALL - Original unscheduled",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123",
+    "forwarded_ip":"",
+    "first_name":"Simon",
+    "last_name":"Smit",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1033SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "birthday":"1970-07-10",
+    "gender":"mr",
+    "phone":"0208500500",
+    "email":"simonsmit@example.com",
+    "referrer":"http://example.com",
+    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
+    "reference":"AutoQAReference"
+  }
 }
 ```
 > JSON response
 
 ```json
 {
-    "success": true,
-    "data": {
-        "order_id": "my-order-id-1",
-        "payment_url": "https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL"
-    }
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL"
+  }
 }
 ```
 
@@ -126,6 +126,13 @@ See [payment_options (object)](/api/#payment-options-object).
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

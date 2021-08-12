@@ -8,181 +8,177 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders
 
 ```json
-
 {
-    "type": "direct",
-    "gateway": "AFTERPAY",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 26000,
-    "description": "Test order description",
-    "manual": "false",
-    "gateway_info": {
-        "birthday": "1970-07-10",
-        "gender": "mr",
-        "phone": "0612345678",
-        "email": "rejection@afterpay.nl"
-    },
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
-    },
-    ...
-    "shopping_cart": {
-        "items": [
-            {
-                "name": "Geometric Candle Holders",
-                "description": "",
-                "unit_price": 90,
-                "quantity": 2,
-                "merchant_item_id": "111111",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 12
-                }
-            },
-        ]
-    },
-    "checkout_options": {
-        "tax_tables": {
-            "alternate": [
-                {
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": 0.00
-                        }
-                    ]
-                }
-            ]
+  "type":"direct",
+  "gateway":"AFTERPAY",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":26000,
+  "description":"Test order description",
+  "manual":"false",
+  "gateway_info":{
+    "birthday":"1970-07-10",
+    "gender":"mr",
+    "phone":"0612345678",
+    "email":"rejection@afterpay.nl"
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":""
+  },
+  ...
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Geometric Candle Holders",
+        "description":"",
+        "unit_price":90,
+        "quantity":2,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
         }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "alternate":[
+        {
+          "name":"none",
+          "rules":[
+            {
+              "rate":0.00
+            }
+          ]
+        }
+      ]
     }
+  }
 }
-
 ```
 
 > JSON response
 
 ```shell
-
 {
-  "success": true,
-  "data": {
-    "amount": 26000,
-    "amount_refunded": 0,
-    "checkout_options": {
-      "alternate": [
+  "success":true,
+  "data":{
+    "amount":26000,
+    "amount_refunded":0,
+    "checkout_options":{
+      "alternate":[
         {
-          "name": "none",
-          "rules": [
+          "name":"none",
+          "rules":[
             {
-              "country": "",
-              "rate": 0.00
+              "country":"",
+              "rate":0.00
             }
           ]
         }
       ],
-      "default": {
-        "rate": 0.21,
-        "shipping_taxed": true
+      "default":{
+        "rate":0.21,
+        "shipping_taxed":true
       }
     },
-    "costs": [
+    "costs":[
       {
-        "transaction_id": 2045938,
-        "amount": ,
-        "description": "",
-        "type": "SYSTEM"
+        "transaction_id":2045938,
+        "amount":2600,
+        "description":"",
+        "type":"SYSTEM"
       },
       {
-        "amount":,
-        "description": "",
-        "transaction_id": 2045939,
-        "type": "SYSTEM"
+        "amount":2600,
+        "description":"",
+        "transaction_id":2045939,
+        "type":"SYSTEM"
       }
     ],
-    "created": "2019-01-12T13:55:38",
-    "currency": "EUR",
-    "custom_info": {
+    "created":"2019-01-12T13:55:38",
+    "currency":"EUR",
+    "custom_info":{
+      
     },
     ...
-    
-    "status": "uncleared",
-    "transaction_id": 4022655,
-    "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
-    "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
+    "status":"uncleared",
+    "transaction_id":4022655,
+    "payment_url":" https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
+    "cancel_url":" http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }
 }
 ```
 > POST - /orders
 
 ```json
-
 {
-    "type": "redirect",
-    "gateway": "AFTERPAY",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 26000,
-    "description": "Test order description",
-    "items": "",
-    "manual": "false"
-    ...
-    "shopping_cart": {
-        "items": [
-            {
-                "name": "Item demo 1",
-                "description": "",
-                "unit_price": 90,
-                "quantity": 2,
-                "merchant_item_id": "111111",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 12
-                }
-            },
-            {
-                "name": "Item shipping - Flat Rate - Fixed",
-                "description": "Shipping",
-                "unit_price": 10,
-                "quantity": 1,
-                "merchant_item_id": "msp-shipping",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 0
-                }
-            }
-        ]
-    },
-    "checkout_options": {
-        "tax_tables": {
-            "alternate": [
-                {
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": 0.00
-                        }
-                    ]
-                }
-            ]
+  "type":"redirect",
+  "gateway":"AFTERPAY",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":26000,
+  "description":"Test order description",
+  "items":"",
+  "manual":"false"
+  ...
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Item demo 1",
+        "description":"",
+        "unit_price":90,
+        "quantity":2,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
         }
+      },
+      {
+        "name":"Item shipping - Flat Rate - Fixed",
+        "description":"Shipping",
+        "unit_price":10,
+        "quantity":1,
+        "merchant_item_id":"msp-shipping",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":0
+        }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "alternate":[
+        {
+          "name":"none",
+          "rules":[
+            {
+              "rate":0.00
+            }
+          ]
+        }
+      ]
     }
+  }
 }
 ```
 > JSON response
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
   }
 }
 ```
@@ -295,6 +291,48 @@ See [items (object)](/api/#items-object/).
 
 The definitions for the VAT class.  
 
+**Response**
+
+----------------
+`amount_refunded` | integer
+
+The amount refunded to the customer.
+
+----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
+`created` | string
+
+The timestamp for when the order was created.
+
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom_info).
+
+----------------
+`status` | string
+
+The [order status](/payments/multisafepay-statuses/).
+
+----------------
+`transaction_id` | integer
+
+MultiSafepay's identifier for the transaction (also known as the PSP ID).
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
+`cancel_url` | string 
+
+The page the customer is redirected to if the payment fails.
+
 ----------------
 
 ### AfterPay - redirect
@@ -339,6 +377,26 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
+`items` | object
+
+See [items (object)](/api/#items-object/).
+
+----------------
+`manual` | string | required
+
+Fixed value: `false`.
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping_cartitems).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.
+
+----------------
 `payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object). 
@@ -353,27 +411,13 @@ See [customer (object)](/api/#customer-object).
 
 See [delivery (object)](/api/#delivery-object).
 
-----------------
-`shopping_cart` | object
-
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
-
-----------------
-`items` | object
-
-See [items (object)](/api/#items-object/).
-
-----------------
-`checkout_options` | object
-
-The definitions for the VAT class.
 
 **Response**
 
 ----------------
-`costs` | object
+`payment_url` | string 
 
-See [costs (object)](/api/#costs-object).
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

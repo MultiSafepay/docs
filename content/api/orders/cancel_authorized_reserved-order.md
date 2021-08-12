@@ -35,7 +35,7 @@ aliases:
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/) of the manual capture request. 
+The [order status](/payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `reason` | string | required

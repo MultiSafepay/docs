@@ -1,5 +1,5 @@
 ---
-weight: 323
+weight: 324
 meta_title: "API Reference - Create a Pay After Delivery order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -7,7 +7,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders 
 
 ```json
-
 {
     "type": "redirect",
     "gateway": "PAYAFTER",
@@ -81,68 +80,67 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/820UDg9zumqA13QovrRq1YVgpdTVxAlpJAP/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/820UDg9zumqA13QovrRq1YVgpdTVxAlpJAP/?lang=nl_NL"
   }
 }
 ```
 > POST - /orders
 
 ```json
-
 {
-    "type": "direct",
-    "gateway": "PAYAFTER",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 26000,
-    "description": "Test order description",
-    "manual": "false",
-    "gateway_info": {
-        "birthday": "1979-02-22",
-        "bank_account": "0417164300",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
-    },
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
-    },
-    ...
-    "shopping_cart": {
-        "items": [
-            {
-                "name": "Geometric Candle Holders",
-                "description": "",
-                "unit_price": 90,
-                "quantity": 2,
-                "merchant_item_id": "111111",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": 12
-                }
-            },
-        ]
-    },
-    "checkout_options": {
-        "tax_tables": {
-            "alternate": [
-                {
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": 0.00
-                        }
-                    ]
-                }
-            ]
+  "type":"direct",
+  "gateway":"PAYAFTER",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":26000,
+  "description":"Test order description",
+  "manual":"false",
+  "gateway_info":{
+    "birthday":"1979-02-22",
+    "bank_account":"0417164300",
+    "phone":"0208500500",
+    "email":"example@multisafepay.com"
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":""
+  },
+  ...
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Geometric Candle Holders",
+        "description":"",
+        "unit_price":90,
+        "quantity":2,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
         }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "alternate":[
+        {
+          "name":"none",
+          "rules":[
+            {
+              "rate":0.00
+            }
+          ]
+        }
+      ]
     }
+  }
 }
 
 ```
@@ -150,53 +148,52 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON response
 
 ```json
-
 {
-  "success": true,
-  "data": {
-    "amount": 26000,
-    "amount_refunded": 0,
-    "checkout_options": {
-      "alternate": [
+  "success":true,
+  "data":{
+    "amount":26000,
+    "amount_refunded":0,
+    "checkout_options":{
+      "alternate":[
         {
-          "name": "none",
-          "rules": [
+          "name":"none",
+          "rules":[
             {
-              "country": "",
-              "rate": 0.00
+              "country":"",
+              "rate":0.00
             }
           ]
         }
       ],
-      "default": {
-        "rate": 0.21,
-        "shipping_taxed": true
+      "default":{
+        "rate":0.21,
+        "shipping_taxed":true
       }
     },
-    "costs": [
+    "costs":[
       {
-        "transaction_id": 2045938,
-        "amount":,
-        "description": "",
-        "type": "SYSTEM"
+        "transaction_id":2045938,
+        "amount":500,
+        "description":"",
+        "type":"SYSTEM"
       },
       {
-        "amount":,
-        "description": "",
-        "transaction_id": 2045939,
-        "type": "SYSTEM"
+        "amount":500,
+        "description":"",
+        "transaction_id":2045939,
+        "type":"SYSTEM"
       }
     ],
-    "created": "2019-01-12T13:55:38",
-    "currency": "EUR",
-    "custom_info": {
+    "created":"2019-01-12T13:55:38",
+    "currency":"EUR",
+    "custom_info":{
+      
     },
     ...
-    
-    "status": "uncleared",
-    "transaction_id": 4022655,
-    "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
-    "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
+    "status":"uncleared",
+    "transaction_id":4022655,
+    "payment_url":" https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
+    "cancel_url":" http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }
 }
 ```
@@ -291,16 +288,6 @@ The email address for sending payment instructions to the customer.
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object). 
-
-----------------
-`delivery` | object
-
-See [delivery (object)](/api/#delivery-object).
-
-----------------
 `shopping_cart` | object
 
 See [shopping_cart.items (object)](/api/#shopping_cartitems).
@@ -310,10 +297,12 @@ See [shopping_cart.items (object)](/api/#shopping_cartitems).
 
 The definitions for the VAT class.
 
-----------------
-`custom_info` | object
+**Response**
 
-See [custom_info (object)](/api/#custom_info).
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 
@@ -397,41 +386,56 @@ The email address for sending payment instructions to the customer.
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object).
-
-----------------
-`delivery` | object
-
-See [delivery (object)](/api/#delivery-object).
-
-----------------
 `shopping_cart` | object
 
 See [shopping_cart.items (object)](/api/#shopping_cartitems).
-
-----------------
-`items` | object
-  
-See [items (object)](/api/#items-object/).
 
 ----------------
 `checkout_options` | object
 
 The definitions for the VAT class. 
 
-----------------
-`custom_info` | object
-
-See [custom_info (object)](/api/#custom_info).
-
 **Response**
+
+----------------
+`amount_refunded` | integer
+
+The amount refunded to the customer.
 
 ----------------
 `costs` | object
 
 See [costs (object)](/api/#costs-object).
+
+----------------
+`created` | string
+
+The timestamp for when the order was created.
+
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom_info).
+
+----------------
+`status` | string
+
+The [order status](/payments/multisafepay-statuses/).
+
+----------------
+`transaction_id` | integer
+
+MultiSafepay's identifier for the transaction (also known as the PSP ID).
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
+`cancel_url` | string 
+
+The page the customer is redirected to if the payment fails.
 
 ----------------
 

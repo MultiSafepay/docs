@@ -180,7 +180,7 @@ The amount refunded to the customer.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/) of the manual capture request. 
+The [order status](/payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `financial_status` | string

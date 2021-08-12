@@ -8,38 +8,36 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 
 ```json 
-
 {
-    "type": "redirect",
-    "order_id": "my-order-id",
-    "gateway": "VVVGIFTCRD",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-    "manual": false,
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/json-live/notification?type=notification",
-        "redirect_url": "http://www.example.comclient/json-live/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/json-live/notification?type=cancel",
-        "close_window": true
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "ip_address": "123.123.123.123",
-        "country": "NL",
-        "email": "simonsmit@example.com"
-    }
+  "type":"redirect",
+  "order_id":"my-order-id",
+  "gateway":"VVVGIFTCRD",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "manual":false,
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/json-live/notification?type=notification",
+    "redirect_url":"http://www.example.comclient/json-live/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/json-live/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123",
+    "country":"NL",
+    "email":"simonsmit@example.com"
+  }
 }
 ```
 
 > JSON response
 ```json 
-
 {
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
   }
 }
 ```  
@@ -58,6 +56,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 The payment flow for the checkout process.  
 Options: `redirect`.  
+
+----------------
+`order_id` | integer / string | required
+
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Format: Maximum 50 characters.
 
 ----------------
 `gateway` | string | required
@@ -85,13 +90,6 @@ VVV Cadeaukaart= VVVGIFTCRD
 Webshopgiftcard= WEBSHOPGFT  
 Wijncadeau= WIJNCADEAU      
 Yourgift= YOURGIFT     
-
-----------------
-`order_id` | integer / string | required
-
-Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
-Format: Maximum 50 characters.
 
 ----------------
 `currency` | string | required
@@ -125,6 +123,13 @@ See [payment_options (object)](/api/#payment-options-object).
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

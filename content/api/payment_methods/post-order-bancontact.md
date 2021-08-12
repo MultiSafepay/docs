@@ -7,23 +7,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders
 
 ```json
-
 {
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "gateway": "MISTERCASH",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-    "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-    },
-    "customer": {
-        "locale": "nl_NL"
-    }
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "gateway":"MISTERCASH",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"nl_NL"
+  }
 }
 ```
 
@@ -31,11 +30,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "success": true,
-    "data": {
-        "order_id": "my-order-id-1",
-        "payment_url": "https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL"
-    }
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL"
+  }
 }
 ```
 {{< /code-block >}}
@@ -94,6 +93,13 @@ See [payment_options (object)](/api/#payment-options-object).
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

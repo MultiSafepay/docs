@@ -7,26 +7,25 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - /orders
 
 ```json
-
 {
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "gateway": "MISTERCASH",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test order description",
-    "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-    },
-    "gateway_info": {
-        "qr_enabled": 1
-    },
-    "customer": {
-        "locale": "nl_BE"
-    }
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "gateway":"MISTERCASH",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "gateway_info":{
+    "qr_enabled":1
+  },
+  "customer":{
+    "locale":"nl_BE"
+  }
 }
 ```
 
@@ -34,12 +33,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "success": true,
-    "data": {
-        "order_id": "my-order-id-1",
-        "payment_url": "https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL",
-        "qr_url": "https://payv2.multisafepay.com/simulator/qr?mtp_method=mistercash&token=xxxx"
-    }
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=nl_NL",
+    "qr_url":"https://payv2.multisafepay.com/simulator/qr?mtp_method=mistercash&token=xxxx"
+  }
 }
 ```
 {{< /code-block >}}
@@ -96,6 +95,8 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `gateway_info` | object
 
+Contains:  
+
 `qr_enabled` = 1 invokes the `qr_url`.  
 This parameter contains a deeplink to Bancontact/MisterCash, which can be encoded into a QR image.  
 If the request is successful, you receive 2 links: a payment link and a `qr_url`. 
@@ -104,6 +105,18 @@ If the request is successful, you receive 2 links: a payment link and a `qr_url`
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
+`qr_url` | string 
+
+The URL of the QR code.
 
 ----------------
 

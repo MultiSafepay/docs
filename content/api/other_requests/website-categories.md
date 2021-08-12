@@ -13,13 +13,13 @@ aliases:
 
 ```json
 {
-    "success": true,
-    "data": [
-        {
-            "code": 106,
-            "description": "Child and toys"
-        }
-    ]
+  "success":true,
+  "data":[
+    {
+      "code":106,
+      "description":"Child and toys"
+    }
+  ]
 }
 ```
 {{< /code-block >}}
@@ -27,4 +27,19 @@ aliases:
 {{< description >}}
 ## Retrieve website categories
 Retrieves a list of website categories.
+
+**Response**
+
+----------------
+`code` | string 
+
+The unique identifier of the payment gateway.
+
+----------------
+`description` | string 
+
+A description of the transaction, which is displayed in both your account and the affiliated account.
+
+----------------
+
 {{% /description %}}
