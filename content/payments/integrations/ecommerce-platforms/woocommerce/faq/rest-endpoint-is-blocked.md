@@ -14,7 +14,7 @@ Notifications are webhooks where the MultiSafepay API notifies your web server w
 
 In the MultiSafepay plugin for WooCommerce version 4.7.0, we introduced a change to process notifications via POST request, instead of GET request.
 
-You can See also this in the following article: 
+You can see also this in the following article: 
 
   - https://docs.multisafepay.com/faq/api/notification-url/#get-vs-post-notification
 
