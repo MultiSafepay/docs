@@ -23,7 +23,7 @@ To benefit the lead time, provide us with available information by answering the
 ### Integration Team Rules
 
 
-* Investigation takes place in a staging or test environment of your ecommerce platform. Therefore, when access is being requested, we will require the credentials of your staging or test ecommerce platform. Create a temporary user-name with password for us to be able to access the staging or test environment.  
+* Investigation takes place in a staging or test environment of your ecommerce platform. Therefore, when access is being requested, we will require the credentials of your staging or test ecommerce platform. Create a temporary username with password for us to be able to access the staging or test environment.  
 
    >_For security reasons, we request that you create a strong [password](https://www.lastpass.com/nl/password-generator) when requested._
 
