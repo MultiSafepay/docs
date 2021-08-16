@@ -21,7 +21,7 @@ aliases:
 
 ### Validate shopping cart
 
-Applies to non-[post payment](/payments/methods/billing-suite/) methods.
+Applies to [non-post payment](/payments/methods/billing-suite/) methods.
 
 **Parameters**
 
