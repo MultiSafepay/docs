@@ -296,7 +296,7 @@ The timestamp for when the order was created.
 ----------------
 `items` | object 
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `amount_refunded` | integer
@@ -332,7 +332,7 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `costs` | object

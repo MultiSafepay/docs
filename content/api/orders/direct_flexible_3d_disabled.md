@@ -213,7 +213,7 @@ Variables for storing additional data.
 ----------------
 `items` | object 
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `amount_refunded` | integer
@@ -249,12 +249,12 @@ The timestamp when the order was last modified.
 ----------------
 `custom_info` | object
 
-See [custom_info (object)](/api/#custom_info).
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `costs` | object

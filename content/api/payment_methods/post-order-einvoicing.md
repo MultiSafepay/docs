@@ -304,7 +304,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `items` | object
  
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `manual` | string 
@@ -345,7 +345,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object
@@ -406,12 +406,12 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `shopping_cart.items` | required
 
-See [shopping_cart.items object](/api/#shopping_cartitems-object).
+See [shopping_cart.items object](/api/#shopping-cart-items-object).
 
 ----------------
 `costs` | object
@@ -493,7 +493,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object

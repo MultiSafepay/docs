@@ -235,7 +235,7 @@ See [delivery (object)](/api/#delivery-object).
 ----------------
 `shopping_cart` | object | required – or use `items`
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object

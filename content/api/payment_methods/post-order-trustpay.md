@@ -92,7 +92,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `custom_info` | object
 
-See [custom_info (object)](/api/#custom_info).
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `payment_options` | object | required

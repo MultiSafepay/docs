@@ -248,7 +248,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `items` | object
   
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `manual` | string | required
@@ -290,7 +290,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object
@@ -388,7 +388,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object
@@ -415,7 +415,7 @@ The timestamp for when the order was created.
 ----------------
 `custom_info` | object
 
-See [custom_info (object)](/api/#custom_info).
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `status` | string

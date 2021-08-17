@@ -211,7 +211,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `costs` | object

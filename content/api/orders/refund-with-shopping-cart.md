@@ -62,7 +62,7 @@ In the example, two out of three geometric candle holders were refunded. The exa
 `checkout_data` | object | required
 
 Contains the original `shopping_cart.items` object **and** copied items to be refunded.  
-See [shopping_cart.items object](/api/#shopping_cartitems-object).
+See [shopping_cart.items object](/api/#shopping-cart-items-object).
 
 ----------------
 {{% /description %}}

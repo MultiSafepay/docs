@@ -133,7 +133,7 @@ Variables for storing additional data.
 ----------------
 `items` | object 
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `amount_refunded` | integer
@@ -174,7 +174,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `costs` | object
@@ -189,7 +189,7 @@ Information about linked transactions.
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment_methods-object).
+See [payment_methods (object)](/api/#payment-methods-object/).
 
 ----------------
 

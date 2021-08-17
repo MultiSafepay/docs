@@ -133,7 +133,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `custom_info` | object
 
-See [custom_info (object)](/api/#custom_info).
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `customer` | object | required
@@ -161,7 +161,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `items` | object 
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `modified` | string
@@ -171,12 +171,12 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment_methods-object).
+See [payment_methods (object)](/api/#payment-methods-object/).
 
 ----------------
 `reason` | string | required

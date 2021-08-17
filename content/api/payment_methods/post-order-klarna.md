@@ -176,7 +176,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `items` | object
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `manual` | string | required
@@ -233,7 +233,7 @@ See [delivery (object)](/api/#delivery-object).
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems).
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object
