@@ -16,7 +16,7 @@ aliases:
   "order_id":"order-1",
   "currency":"EUR",
   "amount":1000,
-  "description":"product description",
+  "description":"Product description",
   "payment_options":{
     "notification_url":"http://www.example.com/client/notification?type=notification",
     "redirect_url":"http://www.example.com/client/notification?type=redirect",

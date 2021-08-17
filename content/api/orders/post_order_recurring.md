@@ -37,7 +37,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "state":"",
     "country":"NL",
     "birthday":"07061993",
-    "gender":"male",
+    "gender":"Male",
     "phone":"0612345678",
     "email":"example@multisafepay.com",
     "referrer":"http://example.com",

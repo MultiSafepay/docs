@@ -52,7 +52,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric Candle Holders",
+        "name":"Geometric candle holders",
         "description":"",
         "unit_price":90,
         "quantity":3,
@@ -297,7 +297,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "description":"",
           "image":"",
           "merchant_item_id":1111,
-          "name":"Geometric Candle Holders",
+          "name":"Geometric candle holders",
           "options":[
             
           ],
@@ -403,7 +403,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric Candle Holders",
+        "name":"Geometric candle holders",
         "description":"",
         "unit_price":90,
         "quantity":3,

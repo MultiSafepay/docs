@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "checkout_data":{
     "items":[
       {
-        "name":"Geometric Candle Holders",
+        "name":"Geometric candle holders",
         "description":"",
         "unit_price":90,
         "quantity":3,
