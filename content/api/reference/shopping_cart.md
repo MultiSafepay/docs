@@ -2,6 +2,7 @@
 weight: 611
 meta_title: "API Reference - Shopping cart - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+url: '/api/#shopping-cart-items-object'
 ---
 
 {{< code-block >}}
@@ -29,7 +30,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## shopping_cart.items (object)
+## shopping cart items (object)
 
 All items in the shopping cart, including the tax class.    
 If you have a custom integration, include the complete specification of the `shopping_cart`.  

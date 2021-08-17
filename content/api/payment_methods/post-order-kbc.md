@@ -291,7 +291,7 @@ The timestamp for when the order was created.
 ----------------
 `custom_info` | object
 
-See [custom_info (object)](/api/#custom_info).
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `fastcheckout` | string 
@@ -307,7 +307,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `items` | object 
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `modified` | string
@@ -319,12 +319,12 @@ Format: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment_methods-object).
+See [payment_methods (object)](/api/#payment-methods-object/).
 
 ----------------
 `reason` | string

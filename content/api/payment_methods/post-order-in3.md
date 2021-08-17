@@ -612,12 +612,12 @@ Required for credit checks and to contact the customer in case of non-payment.
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems). 
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object). 
 
 ----------------
 `items` | object
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `checkout_options` | object
@@ -644,7 +644,7 @@ The timestamp for when the order was created.
 ----------------
 `custom_info` | object
 
-See [custom_info (object)](/api/#custom_info).
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `fastcheckout` | string 
@@ -660,12 +660,12 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment_methods-object).
+See [payment_methods (object)](/api/#payment-methods-object/).
 
 ----------------
 `reason` | string
@@ -779,7 +779,7 @@ Required for credit checks and to contact the customer in case of non-payment.
 ----------------
 `shopping_cart` | object
 
-See [shopping_cart.items (object)](/api/#shopping_cartitems). 
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object). 
 
 ----------------
 `checkout_options` | object

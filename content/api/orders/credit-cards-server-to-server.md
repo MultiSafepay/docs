@@ -234,7 +234,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `items` | object 
 
-See [items (object)](/api/#items-object/).
+See [items (object)](/api/#items-object).
 
 ----------------
 `modified` | string
@@ -244,12 +244,12 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment_details-object).
+See [payment_details (object)](/api/#payment-details-object/).
 
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment_methods-object).
+See [payment_methods (object)](/api/#payment-methods-object/).
 
 ----------------
 `reason` | string 

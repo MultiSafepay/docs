@@ -118,7 +118,7 @@ The amount (in cents) for the customer to pay.
 ----------------
 `shopping_cart.items` | required
 
-See [shopping_cart.items object](/api/#shopping_cartitems-object).
+See [shopping_cart.items object](/api/#shopping-cart-items-object).
 
 ----------------
 `checkout_options` | object | required
