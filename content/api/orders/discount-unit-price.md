@@ -70,7 +70,7 @@ The definitions for the VAT class.
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric candle holders",
+        "name":"Geometric Candle Holders",
         "description":"",
         "unit_price":72,
         "quantity":2,

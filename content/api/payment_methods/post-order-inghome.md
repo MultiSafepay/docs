@@ -87,7 +87,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "currency":"EUR",
   "amount":1000,
   "gateway":"INGHOME",
-  "description":"Product description",
+  "description":"product description",
   "custom_info":{
     
   },

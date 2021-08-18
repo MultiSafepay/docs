@@ -36,7 +36,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | Deutsche Bank or the customer's bank has declined the transaction. | Declined | Declined   |
-| The customer canceled the payment in Deutsche Bank online banking. | Void | Void |
+| The customer cancelled the payment in Deutsche Bank online banking. | Void | Void |
 | The customer didn't complete the payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses

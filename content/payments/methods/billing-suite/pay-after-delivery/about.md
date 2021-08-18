@@ -35,7 +35,7 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 
 - Refunds can only be processed for payments linked to transactions. If no payment is linked to the transaction, the customer receives credit on their invoice instead.
 
-- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is canceled.
+- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 

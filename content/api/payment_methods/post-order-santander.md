@@ -37,7 +37,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   },
   "gateway_info":{
     "birthday":"1970-07-10",
-    "gender":"Male",
+    "gender":"male",
     "phone":"0612345678",
     "email":"youremail@email.com"
   }
@@ -54,7 +54,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "created":"2017-08-07T10:07:07",
     "currency":"EUR",
     "amount":100000,
-    "description":"Product description",
+    "description":"product description",
     "var1":null,
     "var2":null,
     "var3":null,

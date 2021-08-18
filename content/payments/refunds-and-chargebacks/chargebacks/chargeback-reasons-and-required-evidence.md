@@ -123,7 +123,7 @@ To dispute this type of chargeback, you need to provide:
 
 {{< details title="Reason code 13.7: Cancelled service and/or merchandise" >}}
 
-The cardholder canceled or returned the product/service. Or, you did not properly disclose, or did disclose but did not apply, a limited return or cancellation policy at the time of the transaction.
+The cardholder cancelled or returned the product/service. Or, you did not properly disclose, or did disclose but did not apply, a limited return or cancellation policy at the time of the transaction.
 
 To dispute this type of chargeback, you need to provide:
 
@@ -224,7 +224,7 @@ To dispute this type of chargeback, you need to provide:
 
 {{< /details >}}
 
-{{< details title="Reason code 4841: Digital goods, canceled recurring transaction" >}}
+{{< details title="Reason code 4841: Digital goods, cancelled recurring transaction" >}}
 
 The cardholder:
 
@@ -301,7 +301,7 @@ To dispute this type of chargeback, you need to provide:
 
 {{< details title="Reason code 4513: Credit not presented" >}}
 
-The cardholder received written acknowledgement from you for a credit or they canceled in line with your policy, but they haven't received the credit in their account.
+The cardholder received written acknowledgement from you for a credit or they cancelled in line with your policy, but they haven't received the credit in their account.
 
 To dispute this type of chargeback, you need to provide:
 
@@ -386,7 +386,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 - The cardholder or authorized person did receive the product/service, e.g. proof of delivery 
 - The product/service was delivered to the cardholder's billing address 
-- The cardholder neither canceled nor returned the product/service 
+- The cardholder neither cancelled nor returned the product/service 
 
 {{< /details >}}
 
