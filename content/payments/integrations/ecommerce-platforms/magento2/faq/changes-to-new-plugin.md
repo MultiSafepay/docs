@@ -50,7 +50,7 @@ We have updated the order status flow from version 2.5.0:
 - When redirecting the customer, the status changes to **Pending payment**, until the customer reaches the 'Thank you' page. 
 - If the payment is succesfully received at this point, the status changes to **Processing**. 
 - Around the same time, the offline action is triggered and the invoice is created. The offline action sets the status to **Processing** if it isn't already. 
-- For bank transfer payment methods, the status doesn't change to **Pending payment**, therefore the order isn't automatically canceled after a set period of time to give the customer more time to pay.
+- For bank transfer payment methods, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
 
 ## Changes to the checkout
 For the following payment methods, we have changed the payment flow from [redirect to direct](/developer/api/difference-between-direct-and-redirect/):

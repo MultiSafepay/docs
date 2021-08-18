@@ -26,6 +26,6 @@ Sample statuses:
 | Status    | Testing instructions | Description              |
 | --------- | ----------------------- | ----------------------- |
 | **Completed** | Follow the steps from Deutsche Bank. | The transaction was completed. |
-| **Canceled** | Click the **Close** button at the top right of the screen. | The transaction was canceled. |
+| **Canceled** | Click the **Close** button at the top right of the screen. | The transaction was cancelled. |
 
 {{< /details >}}

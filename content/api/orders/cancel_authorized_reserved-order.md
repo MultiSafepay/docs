@@ -11,7 +11,7 @@ aliases:
 
 ```json
 {
-  "status":"canceled",
+  "status":"cancelled",
   "reason":"cancel reservation note text"
 }
 ```

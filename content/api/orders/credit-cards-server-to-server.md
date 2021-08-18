@@ -16,7 +16,7 @@ aliases:
   "currency":"EUR",
   "amount":1000,
   "gateway":"CREDITCARD",
-  "description":"Product description",
+  "description":"product description",
   "payment_options":{
     "notification_url":"http://www.example.com/client/notification?type=notification",
     "redirect_url":"http://www.example.com/client/notification?type=redirect",
@@ -84,7 +84,7 @@ aliases:
       "phone1":"0208500500",
       "zip_code":"1033SC"
     },
-    "description":"Product description",
+    "description":"product description",
     "fastcheckout":"NO",
     "financial_status":"initialized",
     "items":null,

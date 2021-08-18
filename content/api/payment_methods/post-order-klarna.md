@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "manual":"false",
   "gateway_info":{
     "birthday":"1970-07-10",
-    "gender":"Male",
+    "gender":"male",
     "phone":"0208500500",
     "email":"example@multisafepay.com"
   },
@@ -77,7 +77,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         }
       },
       {
-        "name":"Item shipping - Flat rate - Fixed",
+        "name":"Item shipping - Flat Rate - Fixed",
         "description":"Shipping",
         "unit_price":10,
         "quantity":1,

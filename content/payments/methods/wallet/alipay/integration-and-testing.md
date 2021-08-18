@@ -21,6 +21,6 @@ Sample statuses:
  Status    | Description              |
 | --------- | ------------------------ |
 | **Completed** | Transaction was completed |
-| **Cancelled** | Transaction was canceled |
+| **Cancelled** | Transaction was cancelled |
 
 {{< /details >}}

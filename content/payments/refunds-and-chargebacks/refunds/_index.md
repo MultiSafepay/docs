@@ -39,7 +39,7 @@ To refund the full transaction, follow these steps:
 4. Click **Refund order** > **Full refund**.
 5. Click **Save**.
 
-   The transaction is canceled.
+   The transaction is cancelled.
 
 {{< /details >}}
 

@@ -44,7 +44,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
               }
             }
             {
-                "name": "Item shipping - Flat rate - Fixed",
+                "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
                 "unit_price": 10,
                 "quantity": 1,
@@ -114,7 +114,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric candle holders",
+        "name":"Geometric Candle Holders",
         "description":"",
         "unit_price":90,
         "quantity":2,

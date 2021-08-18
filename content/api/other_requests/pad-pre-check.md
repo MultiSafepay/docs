@@ -51,7 +51,7 @@ aliases:
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric candle holders",
+        "name":"Geometric Candle Holders",
         "description":"",
         "unit_price":90,
         "quantity":1,

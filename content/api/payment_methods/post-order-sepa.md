@@ -102,7 +102,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "transaction_id":123456789,
         "amount":0.0,
-        "description":"0.0 For SEPA Direct Debit transactions",
+        "description":"0.0 For SEPA Direct Debit Transactions",
         "type":"SYSTEM"
       }
     ],
