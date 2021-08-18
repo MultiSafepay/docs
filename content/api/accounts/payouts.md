@@ -139,7 +139,7 @@ See [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/) of the order.
+The [order status](/payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

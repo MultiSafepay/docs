@@ -7,10 +7,9 @@ aliases:
     - /api/#cancel-a-transaction
 ---
 {{< code-block >}}
-> PATCH - /orders 
+> PATCH - /orders/{order_id}  
 
 ```json
-
 {
   "status":"cancelled",
   "exclude_order":1
@@ -31,14 +30,14 @@ aliases:
 {{< description >}}
 ### Cancel an order 
 
-Cancel a pretransaction and/or a transaction based on the `sessionid`.
+Cancel a pretransaction and/or a transaction based on the `order_id`.
 
 **Parameters**
 
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/) of the order.  
+The [order status](/payments/multisafepay-statuses/).  
 Fixed value: `cancelled`.
 
 ----------------
@@ -47,7 +46,8 @@ Fixed value: `cancelled`.
 Sets the outcome of the cancellation.  
 To cancel the pretransaction, set to `1`.  
 To cancel both the pretransaction and the transaction, set to `0`.  
-**Note:** Setting to `0` only works if the transaction status is **Initialized**. Transactions with **Reserved** status cannot be cancelled.
+
+**Note:** Setting to `0` does not work for iDEAL payments. For other payment methods, it only works if the transaction status is **Initialized**. Transactions with **Reserved** status cannot be cancelled.
 
 ----------------
 {{% /description %}}

@@ -147,7 +147,7 @@ The amount refunded to the customer.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/) of the order.
+The [order status](/payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
