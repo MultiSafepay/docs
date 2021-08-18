@@ -38,6 +38,8 @@ MultiSafepay offers three recurring models:
 - **Subscription**: An agreement or services that are billed at the end of your billing cycle, e.g. weekly, monthly.
 - **Unscheduled**: Event-triggered, e.g. mobile top-up when no credit left on the phone.
 
+Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
+
 ## Via API
 To use tokenization via our API, see API Reference – [Tokenization and recurring model](/api/#recurring-payment).
 
