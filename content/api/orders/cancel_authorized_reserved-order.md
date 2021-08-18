@@ -35,7 +35,7 @@ aliases:
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/) of the order. 
+The [order status](/payments/multisafepay-statuses/). 
 
 ----------------
 `reason` | string | required
