@@ -20,7 +20,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "birthday":"1970-07-10",
     "gender":"mr",
     "phone":"0612345678",
-    "email":"rejection@afterpay.nl"
+    "email":"example@afterpay.nl"
   },
   "payment_options":{
     "notification_url":"http://www.example.com/client/notification?type=notification",
