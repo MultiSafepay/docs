@@ -4,39 +4,30 @@ weight:
 aliases: [/techsupport/webshop-access/]
 ---
 
-The ecommerce integrations created by MultiSafepay are tested before release, however, it’s possible that a functionality in your website malfunctions. This can occur due to customized integration, a deviant configuration or a bug.
+We test all our ecommerce integrations before release, but your integration may still encounter configuration issues or a bug, especially if it's a [custom integration](/getting-started/glossary/#custom-integration).
 
-Our support focuses on problems that are reproducible on a standard website environment. Despite that, we will always try to help you further, even if the problem falls outside our scope.
+We are best able to support issues that are reproducible in a standard website environment. But we always try to offer support, even for issues outside our scope.
 
 ## Basics 
-When beginning an investigation to reproduce an issue, it’s important to always start checking the basics. This way, we all prevent to overlook something. This is done to exclude the possibilities that the issue is occurring in the base.
+When we start trying to reproduce an issue, we always begin with the basics. 
 
-To benefit the lead time, provide us with available information by answering the following questions:
+Help us by answering the following questions:
 
-1. Does the issue occur in the core of the plugin?
-2. Does it occur in the core of a payment method?
-3. Since when did the issue occur?
-4. Has there been an update within a plugin or system recently?
-5. Were you able to reproduce the issue yourself?
-6. Are examples available?
+1. Does the issue occur in the plugin core?
+2. Does it occur in the payment method core?
+3. When did the issue start occuring?
+4. Has there been a recent plugin or system update?
+5. Can you reproduce the issue?
+6. Do you have any examples?
 
-### Integration Team Rules
+### Integration Team rules
 
+* We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a [strong password](https://www.lastpass.com/nl/password-generator) to give us access. Always delete the temporary account after we finish the investigation.
 
-* Investigation takes place in a staging or test environment of your ecommerce platform. Therefore, when access is being requested, we will require the credentials of your staging or test ecommerce platform. Create a temporary username with password for us to be able to access the staging or test environment.  
+* We only ask for the credentials for your live ecommerce platform account in extraordinary circumstances. In such cases, we recommended making a backup beforehand - just in case.
 
-   >_For security reasons, we request that you create a strong [password](https://www.lastpass.com/nl/password-generator) when requested._
+**Note:** MultiSafepay assumes **no** responsibility for mistakes in your live environment.
 
-   >_Always delete an account after finalized work._
+- If we require server access, we work exclusively with SFTP and SSH, using Port 22. For security reasons, we no longer support the FTP protocol.
 
-* It is advised that you do not provide us with your live account credentials of your ecommerce platform without the consultation or approval from one of our Integration Specialists. In the extraordinary case, we do ask for access to your live environment, it is recommended to make a backup beforehand just in case.
-
-  >_Note: MultiSafepay will not be responsible for mistakes made in a live environment._
-
-1. When server access is required, we exclusively work with SFTP and SSH. Port 22 should be used for SSH. Due to security reasons, we no longer support the FTP protocol.
-
-2. When an issue cannot be reproduced in a standard staging or test environment it will be considered as a time-box project.
-
-  A time-box project is when a defined period of time is given during which a task must be accomplished.
-
-  Due to the unknown cause, we are not able to guarantee a solution.
+- If we cannot reproduce an issue in a standard staging or test environment, we consider it a _time-box project_. This means we allocate a limited period of time to work on it further. We cannot guarantee a solution.

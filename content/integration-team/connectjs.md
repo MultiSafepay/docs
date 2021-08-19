@@ -5,23 +5,21 @@ meta_title: "ConnectJS - MultiSafepay Docs"
 meta_description: "ConnectJS is a simplified checkout process that prevents the punch out which we have when we redirect the customer to the Connect page for the gateway selection and filling in the additional data"
 ---
 
-## What it is
+ConnectJS is a simplified checkout process that prevents the ‘punch out’ that occurs when we redirect customers to the PayV2 page to select a gateway and enter their payment details.
 
-ConnectJS is a simplified checkout process that prevents the ‘punch out’ which we have when we redirect the customer to the Connect page for the gateway selection and filling in the additional data.
-
-The MultiSafepay JavaScript ConnectJS library supports all payment methods and [gift cards](/payments/methods/prepaid-cards/gift-cards) The library aims to directly integrate these payment methods in your payment process/checkout in a convenient and secure way. By default, all available payment methods will be visible, but it is also possible to show either a single or selection of payment methods which are all configurable while initiating the library.
+MultiSafepay's ConnectJS JavaScript library supports all payment methods and [gift cards](/payments/methods/prepaid-cards/gift-cards). It lets you directly integrate them in your payment process/checkout quickly and securely. By default, all available payment methods appear, but you can also display just one payment method or  a selection. You can configure all payment methods while initiating the library.
 
 ## Integration
 
-As a merchant, the first step to integrate Connect is by creating a container where Connect will load; the container could be what the merchant wants.
+1. Create a container for PayV2 to load in.
 
-The first thing to do is to insert the ConnectJS container with the proper ID:
+2. Insert the following ID into the ConnectJS container:
 
 ``` 
 <div id="multisafepayContainer"></div>  
 ```
 
-When the pretransaction is created, the reference must be added to a global JavaScript object. The object must also contain a method called onPaymentAction where ConnectJS will send the response to the ecommerce platform when the transaction is executed.
+3. When the pretransaction is created, add the reference to a global JavaScript object. The object must also contain the `onPaymentAction` method where ConnectJS sends the response to the ecommerce platform when the transaction is executed.
 
 ```
 MultiSafepay = {
@@ -36,14 +34,16 @@ MultiSafepay = {
     }
 }
 ```
-Please note: containerId uses 'multisafepayContainer' as class as example. Any classname can be used. 
+**Note:** The `containerId` uses `multisafepayContainer` as an example class name. You can enter your own container name. 
 
-Include the ConnectJS library:
+4. Add the ConnectJS library:
 ```
 <script src="https://devpay.multisafepay.com/js/connect.js"></script>
 ```
 
-When the order and the JSON are created, the setting for ConnectJS must be included under the payment_options as show in this example:
+When making the `POST /orders` request, include the setting for ConnectJS in the `payment_options` object. 
+
+Example:  
 ```
 {
   "type": "redirect",
@@ -75,20 +75,28 @@ When the order and the JSON are created, the setting for ConnectJS must be inclu
 ```
 
 ## Settings
-It is possible to customize some parameters like the following ones: 
+You can customize certain parameters, for example: 
 ```
 "connectjs": {
   "show_cart": true,
   "hide_coupons": false,
   "settings": {
-    "redirect_mode": "iframe" | "redirect" | "modal"
+    "redirect_mode": "iframe"
   },
 }
 ```
-The show_cart parameters by default is set as "false" and wont show the cart.
-The redirect_mode parameter set how the 3D-Secure process must be shown. It allows 3 options: iframe, redirect, modal.
-The default value is "redirect".
+----------------
+`show_cart` | boolean
 
+Sets whether to display the shopping cart.  
+Default: `false` - doesn't display the cart.
+
+----------------
+`redirect_mode` | string
+
+Sets how to display [3D Secure](/payment-regulations/3d-secure/) verification.  
+Options: `iframe`, `redirect`, `modal`.  
+Default: `redirect`.
 
 ## Example
 For a proof of concept, email the Integration Team at <integration@multisafepay.com>
