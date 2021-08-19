@@ -29,7 +29,7 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 
 - You cannot refund more than the amount of the original transaction.
 
-- You can't process refunds after the invoice is transfered to a collection agency (usually 6 weeks after shipping the order). **Shipped** status is not visible in your MultiSafepay account. To check the date of shipment, email <support@multifactor.nl>.
+- You can't process refunds after the invoice is transfered to a collection agency (usually 6 weeks after shipping the order). **Shipped** status is not visible in your MultiSafepay account. To check the date of shipment, email <support@multifactor.nl>
 
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
