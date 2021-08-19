@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/sepa-direct-debit/sepa-direct-debit-testing
 ---
 
-To integrate SEPA Direct Debit using our API, see API Reference – [SEPA Direct Debit](/api/#sepa-direct-debit).
+To process SEPA Direct Debit payments via our API, see API Reference – [SEPA Direct Debit](/api/#sepa-direct-debit).
 
 For the SEPA Direct Debit logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

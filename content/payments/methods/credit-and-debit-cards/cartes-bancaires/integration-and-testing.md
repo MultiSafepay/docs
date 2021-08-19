@@ -8,7 +8,7 @@ short_description: "Testing Cartes Bancaires in your ecommerce platform"
 layout: 'child'
 ---
 
-To integrate Cartes Bancaires using our API, see API Reference – [Credit cards](/api/#credit-cards).
+To process Cartes Bancaires payments via our API, see API Reference – [Credit cards](/api/#credit-cards).
 
 {{< details title="Credentials and testing process" >}}
 

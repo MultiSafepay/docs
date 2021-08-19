@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/svgs/in3.svg'
 ---
 
-To integrate in3 using our API, see API Reference – [in3](/api/#in3).
+To process in3 payments via our API, see API Reference – [in3](/api/#in3).
 
 For the in3 logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
 ---
 
-To integrate Betaal per Maand using our API, see API Reference – [Betaal per Maand](/api/#santander-betaal-per-maand).
+To process Betaal per Maand payments via our API, see API Reference – [Betaal per Maand](/api/#santander-betaal-per-maand).
 
 For the Betaal per Maand logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/eps/eps-testing
 ---
 
-To integrate EPS using our API, see API Reference – [EPS](/api/#eps).
+To process EPS payments via our API, see API Reference – [EPS](/api/#eps).
 
 For the EPS logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

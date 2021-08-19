@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/request-to-pay-testing
 ---
 
-To integrate Request to Pay using our API, see API Reference – [Request to Pay](/api/#directbanktransfer).
+To process Request to Pay payments via our API, see API Reference – [Request to Pay](/api/#directbanktransfer).
 
 For the Request to Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

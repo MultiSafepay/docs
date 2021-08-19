@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/ideal/ideal-testing
 ---
 
-To integrate iDEAL using our API, see API Reference - [iDEAL](/api/#ideal).
+To process iDEAL payments via our API, see API Reference - [iDEAL](/api/#ideal).
 
 For the iDEAL logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

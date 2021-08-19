@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
 ---
 
-To integrate AfterPay using our API, see API Reference – [AfterPay](/api/#afterpay).
+To process AfterPay payments via our API, see API Reference – [AfterPay](/api/#afterpay).
 
 For the AfterPay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
