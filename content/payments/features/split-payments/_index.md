@@ -14,52 +14,25 @@ aliases:
     - /tools/split-payments/refunding-split-payments/
     - /tools/split-payments/how-do-i-refund-split-payment-orders
 ---
-Split payments lets you spread a transaction amount over several MultiSafepay accounts, e.g. to charge a fee for using your platform to other parties. Customers can also pay for products and services from several webshops in a single transaction. 
+Split payments lets:  
 
-You can split payments based on percentage, fixed amount, or a combination of the two. 
+- Merchants divide a transaction amount between several MultiSafepay accounts, e.g. to charge a fee for using your platform
+- Customers pay for products and services from multiple webshops in a single transaction. 
 
-## Processing split payments
-Split payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add it as a custom feature via our API. See API Reference – [Split payments](/api/#split-payments).
+You can split payments by a percentage, a fixed amount, or a combination of the two. 
 
-You can select to split by a "fixed" amount, a "percentage", or a combination of both. The amount for "fixed" payments is in cents and matches the currency the transaction was paid in. This data is stored in `var3`. Any value you provide for `var3` is overwritten.
+## Activating split payments
+Split payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add them to your `POST /orders` request via our API. See API Reference – [Split payments](/api/#split-payments).
 
-{{< details title="Prerequisites" >}}
+### Prerequisites
 
 - Two active MultiSafepay accounts  
-- Access to the code that creates the JSON request
-
-{{< /details >}}
-
-{{< details title="Add an affiliate object" >}}
-
-To process split payments, add an `affiliate` object:
-
-```shell
-"affiliate": {
-   "split_payments": [
-        {
-            "merchant": 987654321,
-            "fixed": 123,
-            "description": "Fixed fee"
-        },
-        {
-            "merchant": 987654321,
-            "percentage": 12.3,
-            "description": "Relative fee"
-        }
-    ]
-}
-```
-{{< /details >}}
+- Access to the code that creates JSON requests
 
 ## Refunding split payments
-You can only refund split payments (in full or in part) from the account that originally received the funds and split them to another account.
+You can only refund split payments (in full or in part) from the account that originally received the funds and split them to other accounts.
 
-{{< details title="Example" >}}
-
-Account A receives a payment of 80 EUR of which 10 EUR is split to account B. The customer receives a refund of 50 EUR from account A. 
-
-{{< /details >}}
+For example, account A receives a payment of 80 EUR of which 10 EUR is split to account B. The customer receives a refund of 50 EUR from account A. 
 
 To refund a split payment, follow these steps:
 
@@ -74,7 +47,7 @@ The [transaction status](/payments/multisafepay-statuses/) changes to **Initiali
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 
-For refunding more than the original amount, see [Processing refunds](/tools/multisafepay-control/processing-refunds/).
+To refund more than the original amount, see [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 
 
