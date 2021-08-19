@@ -8,7 +8,7 @@ short_description: "Testing Dankort transactions in your ecommerce platform"
 layout: 'child'
 ---
 
-To integrate Dankort using our API, see API Reference – [Credit cards](/api/#credit-cards).
+To process Dankort payments via our API, see API Reference – [Credit cards](/api/#credit-cards).
 
 For the Dankort logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

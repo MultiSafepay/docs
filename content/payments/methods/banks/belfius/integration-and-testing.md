@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/belfius/belfius-testing
 ---
 
-To integrate Belfius using our API, see API Reference – [Belfius](/api/#belfius).
+To process Belfius payments via our API, see API Reference – [Belfius](/api/#belfius).
 
 For the Belfius logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

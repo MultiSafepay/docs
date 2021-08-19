@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/wallet/paypal/paypal-testing
 ---
 
-To integrate Alipay using our API, see API Reference – [Alipay](/api/#alipay).
+To process Alipay payments via our API, see API Reference – [Alipay](/api/#alipay).
 
 For the Alipay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

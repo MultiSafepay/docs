@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/giropay/giropay-testing
 ---
 
-To integrate Giropay using our API, see API Reference – [Giropay](/api/#giropay).
+To process Giropay payments via our API, see API Reference – [Giropay](/api/#giropay).
 
 For the Giropay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

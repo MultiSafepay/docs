@@ -12,7 +12,7 @@ aliases:
 
 Maestro payments are processed as credit card payments.
 
-To integrate Maestro using our API, see API Reference – [Credit cards](/api/#credit-cards).
+To process Maestro payments via our API, see API Reference – [Credit cards](/api/#credit-cards).
 
 For the Maestro logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

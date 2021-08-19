@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/wallet/paypal/paypal-testing
 ---
 
-To integrate PayPal using our API, see API Reference – [PayPal](/api/#paypal).
+To process PayPal payments via our API, see API Reference – [PayPal](/api/#paypal).
 
 For the PayPal logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

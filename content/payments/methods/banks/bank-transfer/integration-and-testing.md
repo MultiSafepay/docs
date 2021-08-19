@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/bank-transfer-testing
 ---
 
-To integrate Bank Transfer using our API, see API Reference - [Bank Transfer](/api/#bank-transfer).
+To process Bank Transfer payments via our API, see API Reference - [Bank Transfer](/api/#bank-transfer).
 
 For the Bank Transfer logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

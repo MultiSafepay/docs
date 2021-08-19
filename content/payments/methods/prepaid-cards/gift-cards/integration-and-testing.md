@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/gift-cards/test-gift-cards
 ---
 
-To integrate gift cards using our API, see API Reference – [Gift cards](/api/#gift-card).
+To process gift card payments via our API, see API Reference – [Gift cards](/api/#gift-card).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 

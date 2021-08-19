@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/kbc/kbc-testing
 ---
 
-To integrate KBC using our API, see API Reference – [KBC](/api/#kbc).
+To process KBC payments via our API, see API Reference – [KBC](/api/#kbc).
 
 For the KBC logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

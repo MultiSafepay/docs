@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/trustly/trustly-testing
 ---
 
-To integrate Trustly using our API, see API Reference – [Trustly](/api/#trustly).
+To process Trustly payments via our API, see API Reference – [Trustly](/api/#trustly).
 
 For the Trustly logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

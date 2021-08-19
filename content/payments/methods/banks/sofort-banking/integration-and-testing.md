@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/sofort-banking-testing
 ---
 
-To integrate SOFORT Banking using our API, see API Reference - [SOFORT Banking](/api/#sofort).
+To process SOFORT Banking payments via our API, see API Reference - [SOFORT Banking](/api/#sofort).
 
 For the SOFORT Banking logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

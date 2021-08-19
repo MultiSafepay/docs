@@ -8,7 +8,7 @@ short_description: "Testing Postepay transactions in your ecommerce platform"
 layout: 'child'
 ---
 
-To integrate Postepay using our API, see API Reference – [Credit cards](/api/#credit-cards).
+To process Postepay payments via our API, see API Reference – [Credit cards](/api/#credit-cards).
 
 For the Postepay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

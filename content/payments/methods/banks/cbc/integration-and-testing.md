@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/cbc/cbc-testing
 ---
 
-To integrate CBC using our API, see API Reference – [CBC](/api/#cbc).
+To process CBC payments via our API, see API Reference – [CBC](/api/#cbc).
 
 For the CBC logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

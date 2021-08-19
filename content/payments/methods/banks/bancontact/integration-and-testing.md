@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/bancontact-testing
 ---
 
-To integrate Bancontact using our API, see API Reference - [Bancontact](/api/#bancontact).
+To process Bancontact payments via our API, see API Reference - [Bancontact](/api/#bancontact).
 
 For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

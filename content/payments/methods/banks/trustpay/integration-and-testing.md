@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/TrustPay.svg'
 ---
 
-To integrate TrustPay using our API, see API Reference – [TrustPay](/api/#trustpay).
+To process TrustPay payments via our API, see API Reference – [TrustPay](/api/#trustpay).
 
 For the TrustPay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
