@@ -17,7 +17,7 @@ aliases:
 Split payments lets:  
 
 - Merchants divide a transaction amount between several MultiSafepay accounts, e.g. to charge a fee for using your platform
-- Customers pay for products and services from multiple webshops in a single transaction. 
+- Customers pay for products and services from multiple webshops in a single transaction
 
 You can split payments by a percentage, a fixed amount, or a combination of the two. 
 
