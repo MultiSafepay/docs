@@ -1,7 +1,6 @@
 ---
 title : Add bank accounts
 layout : single
-tags : hidden
 aliases: 
     - /tools/api-onboarding/add-bank-accounts
 ---
