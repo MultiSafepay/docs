@@ -60,10 +60,9 @@ Fixed value: `paymentlink`.
 These orders are visible in your MultiSafepay account under **Tools** > **Payment link generator**.
 
 ----------------
-`order_id` | integer / string | required
+`order_id` | string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters. 
 
 ----------------

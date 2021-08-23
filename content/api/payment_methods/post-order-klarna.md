@@ -149,10 +149,9 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 Fixed value: `KLARNA`.
 
 ----------------
-`order_id` | integer / string | required
+`order_id` | string | required
 
-Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
+Your unique identifier for the order.   
 Format: Maximum 50 characters.
 
 ----------------
