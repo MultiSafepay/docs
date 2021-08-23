@@ -15,9 +15,10 @@ aliases:
   "new_order_id":"my-order-id-01",
   "new_order_status":"completed",
   "invoice_id":"",
+  "tracktrace_code": "",
   "carrier":"",
   "reason":"",
-  "memo":""
+  "description":""
 }
 ```
 > JSON response
@@ -39,48 +40,55 @@ aliases:
 **Parameter**
 
 ----------------
-`amount` | integer | required
+`amount` | integer | optional
 
-The amount (in cents) the customer needs to pay.
+The amount (in cents) to charge.
+
+For partial captures, specify the amount to capture.
 
 ----------------
-`new_order_id` | integer / string
+`new_order_id` | string | optional
 
 Your unique identifier for the order.  
 Format: Maximum 50 characters.    
 
 ----------------
-`new_order_status` | string
+`new_order_status` | string | required
 
-The current status of the order. 
+The updated status of the order.
 
 ----------------
-`invoice_id` | integer / string
+`invoice_id` | string | optional
 
 Update an existing order with a reference to your internal invoice ID.  
 The invoice ID is added to [reports](/business/accounting/reports/) generated from your MultiSafepay account.  
 Format: Maximum 50 characters.  
 
 ----------------
-`carrier` | string
+`tracktrace_code` | string | optional
+
+The track and trace code linked to the shipment of the order.
+
+----------------
+`carrier` | string | optional
 
 The name of the shipping company delivering the customer’s order.
 
 ----------------
-`reason` | string
+`reason` | string | optional
 
 The capture reason for the order.       
-
-----------------
-`memo` | string
-
-The shipping status of the order.     
 
 ----------------
 `order_id` | string | required
 
 Your unique identifier for the order.  
 Format: Maximum 50 characters.
+
+----------------
+`description` | string | optional
+
+Can be used to store additional information.
 
 ----------------
 
