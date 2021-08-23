@@ -15,11 +15,12 @@ aliases:
 
 This page provides an overview of setting up your MultiSafepay test account:  
 
-1. [Add at least one website](/account/adding-websites/).
-2. [Generate an API key](/account/site-id-api-key-secure-code/). 
-3. [Add users](/account/adding-users/).
-4. [Connect your website to your backend](/account/connecting-websites-to-backend/).
-5. [Activate your selected payment methods](/account/activating-payment-methods/).
+1. [Set the language of your account](/account/setting-account-language/).
+2. [Add at least one website](/account/adding-websites/).
+3. [Generate an API key](/account/site-id-api-key-secure-code/). 
+4. [Add users](/account/adding-users/).
+5. [Connect your website to your backend](/account/connecting-websites-to-backend/).
+6. [Activate your selected payment methods](/account/activating-payment-methods/).
 
 Then, consider:  
 

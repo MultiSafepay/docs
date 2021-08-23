@@ -1,6 +1,6 @@
 ---
 title : "Deleting websites"
-weight: 100
+weight: 95
 meta_title: "Account- Deleting websites - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
