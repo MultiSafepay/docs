@@ -1,7 +1,6 @@
 ---
 title : Add websites 
 layout : single
-tags : hidden
 aliases: 
     - /tools/api-onboarding/add-websites
 ---
