@@ -1,7 +1,6 @@
 ---
 title : Create a merchant account
 layout : single
-tags : hidden
 aliases: 
     - /tools/api-onboarding/create-account
 ---
