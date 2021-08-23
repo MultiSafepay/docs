@@ -41,7 +41,7 @@ MultiSafepay offers three recurring models:
 Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
 
 ## Via API
-To use tokenization via our API, see API Reference – [Tokenization and recurring model](/api/#recurring-payment).
+To use tokenization via our API, see API Reference – [Tokenization and recurring model](/api/#recurring-payments).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or SOFORT Banking transactions. 
 

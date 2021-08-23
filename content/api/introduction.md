@@ -32,7 +32,7 @@ You can use our API, for example, to:
 Advanced requests include:
 
 - [Split payments](#split-payments)
-- [Recurring payments](#recurring-payment)
+- [Recurring payments](#recurring-payments)
 - [Accounts](#accounts)
 - [Payouts](#payouts)
 
