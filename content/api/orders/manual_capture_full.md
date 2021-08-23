@@ -92,10 +92,9 @@ Can be used to store additional information.
 MultiSafepay's identifier for the transaction (also known as the PSP ID).
 
 ----------------
-`order_id` | integer / string | required
+`order_id` | string | required
 
 Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.  
 Format: Maximum 50 characters.
 
 ----------------

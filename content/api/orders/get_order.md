@@ -114,10 +114,9 @@ Retrieve the status of and information about a specific order. The structure may
 **Parameters**
 
 ----------------
-`order_id` | integer / string | required
+`order_id` | string | required
 
-The unique identifier of the requested order.  
-If the values are numbers only, the type is `integer`. Otherwise, it is `string`.                                      
+The unique identifier of the requested order.                             
 Format: Maximum 50 characters.
 
 

@@ -80,6 +80,12 @@ The name of the shipping company delivering the customer’s order.
 The capture reason for the order.       
 
 ----------------
+`order_id` | string | required
+
+Your unique identifier for the order.  
+Format: Maximum 50 characters.
+
+----------------
 `description` | string | optional
 
 Can be used to store additional information.

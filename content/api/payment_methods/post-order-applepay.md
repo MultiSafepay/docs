@@ -105,10 +105,9 @@ The payment flow for the checkout process.
 Options: `redirect`.  
 
 ----------------
-`order_id` | integer / string | required
+`order_id` | string | required
 
-Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`, otherwise it is `string`.  
+Your unique identifier for the order.    
 Format: Maximum 35 characters.
 
 ----------------
@@ -170,9 +169,10 @@ For a detailed integration manual, see [Apple Pay direct integration](/payments/
 Specifies the payment flow for the checkout process. For the Apple Pay direct integration, use `direct`.  
 
 ----------------
-`order_id` | integer / string | required
+`order_id` | string | required
 
-Your unique identifier for the order. Maximum number of characters: 35.
+Your unique identifier for the order.  
+Format: Maximum 35 characters.
 
 ----------------
 `gateway` | string | required
