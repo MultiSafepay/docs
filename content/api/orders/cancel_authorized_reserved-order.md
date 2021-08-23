@@ -35,12 +35,20 @@ aliases:
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/payments/multisafepay-statuses/).
+
+To cancel an authorized or reserved transactions, specify `cancelled`.
 
 ----------------
 `reason` | string | required
 
-The capture reason for the order.  
+The capture reason for the order.
+
+----------------
+
+`description` | string | optional
+
+Can be used to store additional information.
 
 ----------------
 
