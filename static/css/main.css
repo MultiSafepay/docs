@@ -1623,9 +1623,8 @@ p code, td code, li code {
 
 /* Collapse-header */
 
-.collapse-header:hover {
-	color: #008DCB;
-	cursor: pointer;
+.details-heading {
+    background-color: transparent;
 }
 
 .no-decoration , .no-decoration:hover{
@@ -1640,7 +1639,7 @@ details {
 	margin: 2rem 0;
 }
 
-details > summary {
+details > summary:hover {
 	color: #008DCB;
 }
 
