@@ -8,11 +8,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 intro_description: "Apple Pay is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. An additional layer of security is provided by 3D Secure, which requires customers to verify their identity."
 layout: 'single'
 logo: '/logo/Payment_methods/Apple.svg' 
-short_description: 'Leading global digital wallet that supports near-field communication payments.'
+short_description: "Digital wallet for online and in-app payments from Apple devices."
 aliases:
     - /support-tab/magento2/payment-methods/applepay
     - /payment-methods/wallet/applepay
 ---
-
-
 
