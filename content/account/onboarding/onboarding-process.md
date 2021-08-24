@@ -23,7 +23,7 @@ You can upload all required documents and information in your MultiSafepay test 
     - VAT number
     - Chamber of Commerce number
 * The URL of any websites you receive payments through 
-* Information about the [ultimate beneficial owners](/account/ubo-form/) (UBOs) of your company, including color scans of valid identity documents. 
+* Information about the [ultimate beneficial owners](/account/ubo/) (UBOs) of your company, including color scans of valid identity documents. 
     We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
 * A payment of 1 EUR from your business bank account. Alternatively, you can provide a copy or screenshot of a bank statement that includes your IBAN and company name.
 

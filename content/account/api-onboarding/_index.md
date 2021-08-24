@@ -19,7 +19,7 @@ See also [About account types](/account/partner-account-control/about-account-ty
 
 ### Step 1: Create a merchant account
 
-See the [Create a merchant account](create-account) API reference for how to submit the merchant's company details, including:
+See the [Create a merchant account](/account/api-onboarding/create-account) API reference for how to submit the merchant's company details, including:
 
 - Company name and address
 - Chamber of commerce number
@@ -29,7 +29,7 @@ See the [Create a merchant account](create-account) API reference for how to sub
 The API returns an account ID.
 
 ### Step 2: Add a bank account
-See the [Add bank accounts](add-bank-accounts) API reference for how to submit information about each bank account added to the merchant account, including: 
+See the [Add bank accounts](/account/api-onboarding/add-bank-accounts) API reference for how to submit information about each bank account added to the merchant account, including: 
 
 - Name of account holder
 - IBAN
@@ -43,7 +43,7 @@ MultiSafepay verifies all bank accounts added to merchant accounts. This can be 
 The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
 
 ### Step 3: Add UBO details
-See the [Add UBO details](add-ubos) API reference for how to submit details about the ultimate beneficial owner(s) (UBOs) of the merchant's company, including:
+See the [Add UBOs](/account/api-onboarding/add-ubos) API reference for how to submit details about the [ultimate beneficial owner(s)](/account/ubo/) (UBOs) of the merchant's company, including:
 
 - Name and other identifying information
 - Contact details
@@ -52,7 +52,7 @@ See the [Add UBO details](add-ubos) API reference for how to submit details abou
 The API returns a unique UBO identifier, which you can use to submit the UBO's identification documents.
 
 ### Step 4: Add a website
-See the [Add websites](add-websites) API reference for how to submit the following information about the merchant's website:
+See the [Add websites](/account/api-onboarding/add-websites) API reference for how to submit the following information about the merchant's website:
 
 - Website name and URL
 - [Notification URL](/developer/api/notification-url)

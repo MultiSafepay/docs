@@ -5,7 +5,7 @@ aliases:
     - /tools/api-onboarding/add-ubos
 ---
 
-Use the following requests to add, retrieve or update [Ultimate Beneficial Owner](/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) (UBO) details linked to a merchant account affiliated with your partner account:
+Use the following requests to add, retrieve or update [ultimate beneficial owner](/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) (UBO) details linked to a merchant account affiliated with your partner account:
 
 1. [Create a UBO](#create-a-ubo): Add a UBO to a merchant account.
 2. [List UBOs](#list-ubos): Retrieve all UBOs for a merchant account.

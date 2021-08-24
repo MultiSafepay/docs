@@ -1,14 +1,15 @@
 ---
-title : "Ultimate Beneficial Owner form"
+title : "Ultimate beneficial owners"
 weight: 20
-meta_title: "Account - Ultimate Beneficial Owner form - MultiSafepay Docs"
+meta_title: "Account - Ultimate beneficial owners - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
-url: '/account/ubo-form/'
+url: '/account/ubo/'
 aliases:
     - faq/getting-started/guidance-notes-ultimate-beneficial-owner-form
     - /faq/getting-started/ultimate-beneficial-owner-form
     - /getting-started/go-live/user-guide/ultimate-beneficial-owner-form/
+    - /account/ubo-form/
 ---
 
 MultiSafepay is legally required under the Wwft to establish and verify the identity of each merchant enterprise's ultimate beneficial owners (UBOs).
