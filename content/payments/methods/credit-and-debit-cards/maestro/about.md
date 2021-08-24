@@ -26,7 +26,7 @@ Maestro is a debit card service owned by Mastercard. It is accepted across Europ
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 {{< details title="Refunds" >}}
 

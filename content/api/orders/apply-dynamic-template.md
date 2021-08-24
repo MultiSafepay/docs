@@ -1,5 +1,5 @@
 ---
-weight: 208
+weight: 209
 meta_title: "API Reference - Apply dynamic template - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---

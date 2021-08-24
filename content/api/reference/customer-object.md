@@ -2,6 +2,10 @@
 weight: 601
 meta_title: "API Reference - customer object - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+aliases:
+    - /faq/api/ip_address
+    - /faq/api/validating-customer-ip-address
+    - /developer/api/validating-customer-ip-address/
 ---
 {{< code-block >}}
 ```json 
@@ -42,21 +46,26 @@ Contains:
 ----------------
 `locale` | string | required
 
-Displays the correct language and payment methods on the payment page, and influences sending email templates.   Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
-Default: `en_US`. 
+Localizes the payment page with the customer's language, region, and available payment methods.   
+For more information, see [Locale parameter](/developer/api/locale-parameter/).  
+Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
+Default: `en_US` (American English). 
 
 ----------------
-`ip_address` | string | optional but recommended
+`ip_address` | string | required / recommended 
 
-The IP address of the customer.  
-Recommended for [post-payment](/payments/methods/billing-suite/) and [credit card](/payments/methods/credit-and-debit-cards/) payment methods.  
-MultiSafepay [validates customer IP addresses](/developer/api/validating-customer-ip-address) to help detect fraudulent payments.       
+The customer's IP address.  
+Required for [post-payment methods](/payments/methods/billing-suite/) and [credit cards](/payments/methods/credit-and-debit-cards/) as part of our [fraud check](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), optional but recommended for other payment methods.  
+If empty or incorrect (e.g. your IP address instead of the customer's) when required, the transaction status may be **Uncleared**, or even **Declined**.       
 
 ----------------
 `forwarded_ip` | string | required
 
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy.  
-For more information, see [Validating customer IP addresses](/developer/api/validating-customer-ip-address).                         
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer object when using a proxy.  
+To retrieve the customer's IP address:
+
+- If there is a proxy, use `forwarded_ip`.
+- Otherwise, use `ip_address`.                        
 
 ----------------
 `first_name` | string | required

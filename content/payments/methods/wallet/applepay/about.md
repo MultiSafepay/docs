@@ -26,7 +26,7 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
 
 ## Product rules
 
-- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).  
+- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).  
 
 - Customers must use the Safari browser.  
 

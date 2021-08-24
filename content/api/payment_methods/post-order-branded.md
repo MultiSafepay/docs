@@ -98,7 +98,7 @@ See [payment_options (object)](/api/#payment-options-object).
 
 See [customer (object)](/api/#customer-object).
 
-**Note:** The co-branded card logo only displays if the locale is correctly supplied.
+**Note:** The co-branded card logo only displays if the `locale` is correctly supplied.
 
 **Response**
 

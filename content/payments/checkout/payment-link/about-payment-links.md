@@ -10,6 +10,17 @@ layout: 'faq'
 
 Payment links create a unique transaction in your [MultiSafepay account](https://merchant.multisafepay.com/) to match to a payment.
 
+## Lifetimes
+
+The lifetime of a payment link is how long it remains valid for the customer to complete payment. The default is 30 days. 
+
+To set or adjust lifetimes, see API Reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+
+## Attempts 
+The customer can click a payment link to attempt payment up to 20 times, after which the link is disabled.
+
+Each attempt is registered as a separate transaction (`PSP ID`). If payment for one of the transactions is successfully completed, all the others remain open until they expire.
+
 ## Simple mode and advanced mode
 
 Simple mode is the default payment link mode, which contains the minimum necessary information. 

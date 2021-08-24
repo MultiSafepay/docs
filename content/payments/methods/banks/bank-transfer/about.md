@@ -57,7 +57,7 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 - Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/developer/api/masking-iban-numbers/).
 
-- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/) in emails to customers. Bank Transfer transactions are active for 60 days. By&nbsp;default, payment links expire after 30 days. 
+- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes) in emails to customers. Bank Transfer transactions are active for 60 days. By&nbsp;default, payment links expire after 30 days. 
 
 - To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your [backend](/getting-started/glossary/#backend) until they complete the payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
 **Note:** MultiSafepay bears no responsibility for stock-related issues.

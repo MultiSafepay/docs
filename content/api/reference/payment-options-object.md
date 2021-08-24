@@ -23,7 +23,7 @@ url: '/api/#payment-options-object/'
 {{< description >}}
 ## payment options (object)
 
-URLs for sending notifications to, or to redirect customers to.
+URLs for sending notifications to, or redirecting customers to.
 
 Contains:  
 
@@ -32,13 +32,13 @@ Contains:
 ----------------
 `notification_url` | string | required
 
-Endpoint for MultiSafepay to send status updates and other notifications to.   
+Endpoint for MultiSafepay to send status updates and other notifications to you.   
 For more information, see [Notification URL](/developer/api/notification-url).              
 
 ----------------
 `redirect_url` | string | required
 
-The page the customer is redirected to after completing payment.   
+Your success/thank you page, where the customer is redirected after completing payment.   
 For more information, see [Redirect URL](/developer/api/redirect-url/).          
 
 ----------------

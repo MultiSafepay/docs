@@ -27,7 +27,7 @@ Belfius is a popular online banking payment method for Belfius bank customers in
 
 ## Product rules
 
-- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - Belfius transactions automatically expire after 5 days.
 

@@ -5,4 +5,4 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 weight: 3
 ---
-You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes) for Klarna.
+You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes) for Klarna.

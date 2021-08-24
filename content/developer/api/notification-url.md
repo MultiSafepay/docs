@@ -12,7 +12,7 @@ aliases:
 Notifications are webhooks where the API notifies your web server when the status of a transaction changes. They are triggered by actions by:
 
 - Customers, e.g. completing a payment
-- Merchants, e.g. initiating a refund
+- Merchants, e.g. processing a refund
   
 We add 2 parameters to the notification request:
 
@@ -24,7 +24,7 @@ For `POST` requests, we add the order data to the request body.
 You can ignore requests if:
 
 - We request the `notification_url` without the `timestamp` parameter.  
-- You receive the same `order status`. 
+- You receive the same [order status](/payments/multisafepay-statuses/). 
 
 Our API provides a `GET` and `POST` notification.
 
@@ -40,11 +40,11 @@ We recieve the following request from your web server:
 
 When the status of this transaction changes, we notify your web server at the following URL through a `GET` request: https://yourdomain.com/index/paymentprovidernotification?invoice_id=840&transactionid=12345&timestamp=140292929
 
-**Note:** In the notification url, the `transaction_id` should have the same value as the `order_id`.
+**Note:** In the notification url, the `transaction_id` value should be the same as the `order_id`.
 
 In your [backend](/getting-started/glossary/#backend), follow these steps: 
 
-1. Send a [status request](/api/#retrieve-an-order) on the order using the `transaction_id` provided.
+1. Send a [get order details request](/api/#get-order-details) using the `transaction_id` provided.
 2. Check the `status` field in the response and update the status of the order in your backend.
 3. Return an OK message. We expect an empty page with with an HTTP 200 OK in the header and the word `OK` in the response body.
 

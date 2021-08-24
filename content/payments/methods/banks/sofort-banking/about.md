@@ -29,7 +29,7 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 
 ## Product rules
 
-- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - The minimum amount for SOFORT transactions is 0,10 EUR.
 

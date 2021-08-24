@@ -29,7 +29,7 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 
 ## Product rules
 
-You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 {{< details title="Refunds" >}}
 

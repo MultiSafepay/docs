@@ -29,7 +29,7 @@ Betaal per Maand bears the risk and guarantees settlement.
 
 ### Product rules
 
-- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
+- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - See also:
     - User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/).

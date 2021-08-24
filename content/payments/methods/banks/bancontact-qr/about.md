@@ -30,7 +30,7 @@ Once payment is completed, the customer cannot reverse it and Bancontact QR guar
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 {{< details title="Refunds" >}}
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).

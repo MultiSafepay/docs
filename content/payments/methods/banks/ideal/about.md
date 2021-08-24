@@ -30,7 +30,7 @@ To increase transparency for customers, the name of your website appears on the 
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 {{< details title="Refunds" >}}
 - You cannot refund more than the amount of the original transaction.

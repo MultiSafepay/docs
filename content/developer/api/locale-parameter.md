@@ -1,14 +1,19 @@
 ---
-title: "Using locale parameters"
+title: "Locale parameter"
 weight: 4
-meta_title: "API Documentation - Using locale parameters - MultiSafepay Docs"
+meta_title: "API - Locale parameter - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/locale
     - /faq/api/using-locale-parameters
+    - /developer/api/using-locale-parameters/
 ---
-`locale` parameters specify the customer's language, region, and any special preferences they want to see in the user interface. You can use them to localize payment pages and send email templates in the customer's preferred language. 
+The `locale` parameter:
+
+- Localizes the payment page with the customer's language, region, and available payment methods
+- Sends [email templates](/payments/boost/email-template/) in the customer's preferred language
+- Specifies any special preferences for the user interface.
 
 **Note:** If an email template is set for a German customer, but the `locale` parameter is `en_US`, the English email template is sent instead of the German one.
 

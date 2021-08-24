@@ -88,7 +88,7 @@ Some rules may apply to certain payment methods. For TrustPay, the following rul
 
 * Successful TrustPay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* As a direct banking payment method, TrustPay has a different payment flow and therefore the setting of days or seconds active will have no influence. The customer processes the payment from his/her own banking environment. Full documentation can be found on our [lifetime of a payment link](/developer/api/adjusting-payment-link-lifetimes) FAQ page
+* As a direct banking payment method, TrustPay has a different payment flow and therefore the setting of days or seconds active will have no influence. The customer processes the payment from his/her own banking environment. Full documentation can be found on our [lifetime of a payment link](/api/#adjust-payment-link-lifetimes) FAQ page
 
 * As it is a standard bank transfer method, an expiry date exception for TrustPay transactions has been set to 10 days
 

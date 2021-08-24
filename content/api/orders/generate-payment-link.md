@@ -1,5 +1,5 @@
 ---
-weight: 217
+weight: 207
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#generating-a-payment-link
@@ -46,9 +46,10 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-## Generate payment links
+### Generate payment links
 
-Generate a payment link.  Your MultiSafepay account creates a unique transaction to match to the payment.
+Generate a payment link to send to a customer.  
+Your MultiSafepay account creates a unique transaction to match to the payment.
 
 **Parameters**
 
