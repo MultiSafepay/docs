@@ -26,7 +26,7 @@ PayPal is a leading global payment method that lets customers pay by credit card
 
 ## Product rules
 
-- PayPal payment links are valid for 14 days. The [payment link lifetime](/developer/api/adjusting-payment-link-lifetimes/) is set by PayPal.
+- PayPal payment links are valid for 14 days. The [payment link lifetime](/api/#adjust-payment-link-lifetimes) is set by PayPal.
 
 - You can only decline or authorize **Uncleared** transactions in your PayPal account.
 

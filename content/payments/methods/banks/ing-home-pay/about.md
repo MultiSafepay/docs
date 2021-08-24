@@ -27,7 +27,7 @@ ING Home'Pay is an online payment method for ING customers in Belgium. Customers
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 {{< details title="Refunds" >}}
 

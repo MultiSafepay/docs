@@ -7,6 +7,6 @@ read_more: "."
 url: '/account/setting-account-language/'
 ---
 
-To set the language of your MultiSafepay account interface, in the bottom-right corner from the **Language** dropdown menu, select your prefered language.  
+To set the language of your MultiSafepay account interface, in the bottom-right corner from the **Language** dropdown menu, select your preferred language.  
 
 All instructions for the interface are provided in English. 

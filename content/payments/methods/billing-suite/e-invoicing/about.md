@@ -25,7 +25,7 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 
 ## Product rules
 
-- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
+- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - E-Invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
 

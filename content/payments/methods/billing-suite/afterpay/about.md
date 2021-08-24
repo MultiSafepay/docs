@@ -60,7 +60,7 @@ To successfully process partial refunds for the same product with different spec
 
 {{< /details >}}
 
-- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
+- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - AfterPay requires an additional API key for Belgium. Contact AfterPay.
 

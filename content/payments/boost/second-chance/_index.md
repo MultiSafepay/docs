@@ -28,7 +28,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 - Second Chance emails cannot be activated or sent to the customer while the status of the original transaction is **Uncleared**, or once it is **Completed**.
 
-- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
+- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - The following payments methods are not supported because they follow a different payment flow:
     - [Klarna](/payments/methods/billing-suite/klarna)
@@ -61,15 +61,13 @@ The Second Chance email template is completely customizable. Follow these steps:
 
 For how to customize the template, see [Email templates](/payments/boost/email-template/).
 
-
-
 ## Potential errors
 
 {{< details title="External plugins" >}}
 
 Second Chance emails can create conflicts with external warehouse systems. In some cases, this can be resolved using a [cron job](/faq/general/multisafepay-glossary/#cron). However, this is not always a stable solution. 
 
-For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see [Adjusting payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/). 
+For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API Reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes). 
 
 If a cancelled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock. 
 

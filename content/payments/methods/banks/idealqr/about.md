@@ -31,7 +31,7 @@ Customers pay by using their smartphone to scan a QR code, on paper or on screen
 
 ## Product rules
 
-- The lifetime of iDEAL QR payment links is 30 days by default. You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+- The lifetime of iDEAL QR payment links is 30 days by default. You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - To set the payment amount using the `min_amount` and `max_amount` parameters in the payment request, see API Reference&nbsp;–&nbsp;[iDEAL QR](/api/#ideal-qr).
 

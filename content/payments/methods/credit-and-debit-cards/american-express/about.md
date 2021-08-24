@@ -26,7 +26,7 @@ American Express is one of the biggest global credit card schemes, accepted in m
 
 ## Product rules
 
-- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
+- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - All transactions higher than 30 EUR require Safekey.
 
