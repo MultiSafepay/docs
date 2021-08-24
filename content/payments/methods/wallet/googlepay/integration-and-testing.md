@@ -2,13 +2,10 @@
 title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Apple Pay - Integration and testing - MultiSafepay Docs"
+meta_title: "GooglePay - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-short_description: "Integrating and testing Apple Pay in your ecommerce platform"
+short_description: "Integrating and testing GooglePay in your ecommerce platform"
 layout: 'child'
-aliases:
-    - /payment-methods/wallet/applepay/apple-pay-compatibility-and-testing
-    - /payment-methods/wallet/applepay/apple-pay-guidelines
 ---
 ## Integration
 
