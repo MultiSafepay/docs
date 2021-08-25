@@ -89,7 +89,7 @@ The balance of funds held in a MultiSafepay account.
 All information related to a single instance of products and/or services sold to a customer that is linked to one or more transactions.
 
 ### payment
-The industry and the product MultiSafepay sells. For customers: When you confirm to transfer funds.
+The industry and the product MultiSafepay sells. For customers: When you confirm to transfer funds. For merchants and collecting parties: when you receive funds.
 
 ### payment details
 The payment information for a specific customer, e.g. credit card number, CVC code.
