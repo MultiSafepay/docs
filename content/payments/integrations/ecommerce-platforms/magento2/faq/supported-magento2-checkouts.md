@@ -12,3 +12,5 @@ We test our plugin at two Magento 2 checkouts:
 - [MagePlaza OneStepCheckout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
 
 Most Magento checkout plugins are compatible with our plugin, but we cannot guarantee that all features will function properly.
+
+See also [Hyvä themes and checkout](/payments/integrations/ecommerce-platforms/magento2/faq/hyva-themes-checkout/).
