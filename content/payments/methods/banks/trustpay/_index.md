@@ -2,6 +2,7 @@
 title: 'TrustPay'
 weight: 120
 meta_title: "Payment methods - TrustPay - MultiSafepay Docs"
+childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 intro_description: "TrustPay is a bank payment method in the Czech Republic. Customers pay from their own online banking environment."
 layout: 'single'
@@ -13,4 +14,4 @@ aliases:
     - /payment-methods/banks/trustpay
 ---
 
-TrustPay is a bank payment method in the Czech Republic. Customers pay from their own online banking environment.
+TrustPay is a payment method from the Czech Republic where customers pay from their own online banking environment.
