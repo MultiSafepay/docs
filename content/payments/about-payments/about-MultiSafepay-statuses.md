@@ -47,9 +47,11 @@ The table below sets out possible order and transaction statuses and what they c
 
 | Status | Description |
 |---|---|
-|Initialized | The customer has requested a refund.|
+| Initialized | The customer has requested a refund.|
 | Chargeback | The customer has requested a [chargeback](/payments/chargebacks/).|
-| Completed | The refund or chargeback has been  processed successfully. |
+| Completed | The refund or chargeback has been processed successfully. |
+| Refunded | The refund has been processed successfully.|
+| Partial_refunded | The [partial refund](/payments/refunds/) has been processed successfully.|
 | Declined | The payment method has declined the refund request. |
 | Reserved | A [payout](/account/payouts/) or refund has been temporarily reserved while we check your MultiSafepay balance has sufficient funds. |
 
