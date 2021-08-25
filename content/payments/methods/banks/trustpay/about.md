@@ -10,14 +10,14 @@ aliases:
     - /payment-methods/trustpay/trustpay-what-is-it/
 ---
 
-TrustPay is a bank payment method in the Czech Republic. Customers pay from their own online banking environment.
+TrustPay is a payment method from the Czech Republic where customers pay from their own online banking environment.
 
 ## Summary
 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/`Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Czech Republic  | |
 | **Currencies**  | CZK | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
