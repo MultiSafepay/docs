@@ -55,7 +55,7 @@ To filter transactions in the Accountant export (e.g. by payment method), see [N
 To request automated Accountant exports, email the following information to the Integration Team at <integration@multisafepay.com>:
 
 - Your account ID: Top-right corner of your MultiSafepay account
-- Method: SFTP Pull or Push request, or email
+- Method: SFTP Pull or Push request
 - Frequency: Daily, weekly, or monthly
 - File format: CAMT053, CODA, CSV, MT940, XLS, or XLSX
 - Desired time: Based on Central European (Summer) Time (CET/CEST)
