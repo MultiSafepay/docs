@@ -11,7 +11,8 @@ ignore_characters = ['http',
                 '##',
                 '-',
                 '"',
-                '**']
+                '**',
+                '`']
 
 with open('.github/banned_words.txt', 'r') as f:
     banned_words = f.read().split('\n')
@@ -49,10 +50,25 @@ def walk(start):
         paths.append(filename)
     return paths
 
+def content_without_frontmatter(lines):
+    look_up='---'
+    look_up_list=[]
+
+    for (num, line) in enumerate(lines,1):
+        if look_up in line:
+            look_up_list.append(num)
+
+            if len(look_up_list) == 2:
+                break
+
+    if len(look_up_list) == 2:
+        lines = lines[look_up_list[1]:]
+
+    return lines
 
 def open_file(file):
     with open(file, 'r') as file_content:
-        return list(filter(None, file_content.read().splitlines()))
+        return list(filter(None, content_without_frontmatter(file_content.read().splitlines())))
 
 
 if __name__ == "__main__":
