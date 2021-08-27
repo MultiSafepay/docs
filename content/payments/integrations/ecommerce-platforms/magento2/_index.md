@@ -31,7 +31,7 @@ This technical manual is for installing and configuring our new free plugin for 
 {{< details title="Requirements" >}}
 
 - MultiSafepay account – See [Getting started](/getting-started/).
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
+- Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 
 {{< /details >}}
