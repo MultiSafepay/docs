@@ -44,4 +44,13 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The customer requests a refund. | Initialized    | Completed   |
 | The refund is successfully processed.  | Completed      | Completed   |
 
+{{< details title="Get support" >}}
+&nbsp;  
+For customers:
 
+- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service)
+- Email the Support Team at <support@multisafepay.com>
+
+For merchants, email MultiSafepay at <klarna@multisafepay.com>
+
+{{< /details >}}
