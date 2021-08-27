@@ -25,7 +25,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | E-Invoicing authorizes the payment. | Completed  | Initialized  |
 | 3. | Once authorized, MultiSafepay sends a capture to E-Invoicing. |  |  |
 | 4. | Ship the order. |  |  |
-| 5. | [Change the order status to Shipped](/payments/methods/billing-suite/e-invoicing/user-guide/changing-order-status--to-shipped/).  | Shipped | Initialized | 
+| 5. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/e-invoicing/user-guide/changing-order-status--to-shipped/) in your MultiSafepay account.  | Shipped | Initialized | 
 | 6. | E-Invoicing invoices the customer. |     |   |
 | 7. | The customer completes the payment. |     |   |
 | 8. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed    | Completed  |
