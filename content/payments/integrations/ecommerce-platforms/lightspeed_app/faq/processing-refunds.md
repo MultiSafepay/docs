@@ -21,7 +21,7 @@ To enable refunds from your Lightspeed backend, follow these steps:
 2. Go to **Settings**.
 3. In the sidebar, click **Enable refunds**.
 
-## Known issues
+**Known issues**
 
 - If you use Lightspeed [Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), you cannot process refunds via MultiSafepay.
 

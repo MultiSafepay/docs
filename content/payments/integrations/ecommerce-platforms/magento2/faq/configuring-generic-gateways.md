@@ -9,7 +9,7 @@ read_more: "."
 
 The Magento 2 plugin supports [generic gateways](/faq/general/generic-gateways/). Generic gateways work like regular redirect payment methods. All features are supported, except for recurring payments.
 
-## Configuring generic gateways
+**Configuring generic gateways**
 To configure generic gateways, follow these steps:
 
 1. Sign in to your Magento 2 [backend](/getting-started/glossary/#backend).

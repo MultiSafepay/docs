@@ -7,7 +7,7 @@ aliases:
     - /integrations/ecommerce-integrations/shopware5/faq/shopware-6-migration/
 ---
 
-### About Shopware 6
+**About Shopware 6**  
 Shopware 6 is the latest version of the Shopware ecommerce platform. It maintains simplicity, but features a great new interface and functionalities, including:
 
 * Sales Channels function that links to social shopping platforms (e.g. Facebook, Instagram), and supports mobile apps and [POS](/getting-started/glossary/#point-of-sale-pos-terminal) systems
@@ -15,7 +15,7 @@ Shopware 6 is the latest version of the Shopware ecommerce platform. It maintain
 * Content management function that uses stylized blocks on Experience and Storytelling pages
 * Text editor that is easier and more user-friendly
 
-### Shopware 5 phase out
+**Shopware 5 phase out**  
 
 Support for Shopware 5 will be phased out as follows:
 
@@ -26,7 +26,7 @@ Support for Shopware 5 will be phased out as follows:
 
 MultiSafepay will continue to support Shopware 5 as long as it remains in the market.
 
-### Migrating to Shopware 6
+**Migrating to Shopware 6**  
 
 For instructions, see the [Shopware migration manual](https://docs.shopware.com/en/migration-en).
 

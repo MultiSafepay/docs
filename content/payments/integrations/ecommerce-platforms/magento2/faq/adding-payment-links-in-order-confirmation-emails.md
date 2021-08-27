@@ -23,7 +23,7 @@ To add payment links to order confirmation emails and customize settings, follow
 {{/depend}}
 ```
 
-### Magento 2.3.4+
+**Magento 2.3.4+**
 The email template syntax is different for Magento 2.3.4+. Add this code snippet instead:
 
 ```
@@ -31,10 +31,10 @@ The email template syntax is different for Magento 2.3.4+. Add this code snippet
 <a href="{{var order.payment.additional_information.payment_link}}">Pay now with {{var order.payment.additional_information.method_title}}</a>
 {{/depend}}
 ```
-### Backend emails
+**Backend emails**
 To add payment links to order confirmation emails from your Magento **backend**, you can use the `payment_link` variable and an `if/else` statement in the template. 
 
-### Frontend emails
+**Frontend emails**
 You cannot add payment links to order confirmation emails created in your **frontend**, but you can dispaly the name of the payment method:
 
 `{{if payment_link}}`

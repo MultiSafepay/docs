@@ -26,9 +26,9 @@ To process refunds from your Magento 2 backend, follow these steps:
     - **Offline refund**: Doesn't send a refund request to MultiSafepay.
     - **Refund**: Sends a refund request to MultiSafepay.
 
-## Deprecated plugin
+**Deprecated plugin**
 You can refund orders for payment methods from the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 backend. 
 
-## Fooman surcharges
+**Fooman surcharges**
 You can refund orders with a [Fooman surcharge](/payments/integrations/ecommerce-platforms/magento2/faq/applying-surcharges/) applied in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 backend.
 

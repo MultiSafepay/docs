@@ -14,5 +14,5 @@ To enable tokenization:
 
 For more information, see [Tokenization](/payments/features/tokenization).
 
-### Credit cards
+**Credit cards**
 Tokenization is not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
