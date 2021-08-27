@@ -26,7 +26,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | Pay After Delivery authorizes the payment within 2 business days. |  |  | 
 | 3. | Once authorized, MultiSafepay sends Pay After Delivery a capture. | Completed | Uncleared | 
 | 4. | Ship the order. |  |  |
-| 5. | [Change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). | Shipped | Uncleared |
+| 5. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/) in your MultiSafepay account. | Shipped | Uncleared |
 | 6. | MultiFactor invoices the customer within 24 hours of changing to **Shipped** status. {{< br >}} Settlement is now guaranteed. |  |  |
 | 7. | The customer has 14 days to pay the invoice.  |  |  |
 | 8. | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status.  | Shipped | Completed |

@@ -28,7 +28,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | AfterPay authorizes the payment. | Uncleared | Uncleared |
 | 3. | Once authorized, MultiSafepay sends a capture to AfterPay.  | Completed  | Uncleared  |
 | 4. | Ship the order. | | |
-| 5. | [Change the order status to Shipped](/payments/methods/billing-suite/afterpay/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared |
+| 5. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/afterpay/faq/changing-order-status-to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared |
 | 6. | AfterPay invoices the customer with a standard payment period of 14 days. Settlement is now guaranteed. | | |
 | 7. | The customer completes the payment with AfterPay via [iDEAL](/payments/methods/banks/ideal/) or online banking, within 14 days unless otherwise agreed in writing. |  |  |
 | 8. | AfterPay settles the funds with MultiSafepay. | Shipped | Completed |
