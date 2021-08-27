@@ -7,7 +7,7 @@ aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/disable-payment-methods/
 ---
 
-### Disabling payment methods
+**Disabling payment methods**
 You can disable payment methods in the **Payment method settings list**. Enabled payment methods show a green dot, when disabled its grey.
 
 To disable payment methods for specific languages, follow these steps:
@@ -18,7 +18,7 @@ To disable payment methods for specific languages, follow these steps:
 
 If no specific language rule-set is found, **Default** is used.
 
-### Missing payment methods
+**Missing payment methods**
 
 By default, newly activated payment methods in your MultiSafepay account are disabled in the Lightspeed app's MultiSafepay payments settings. You need to enable them in both environments.
 

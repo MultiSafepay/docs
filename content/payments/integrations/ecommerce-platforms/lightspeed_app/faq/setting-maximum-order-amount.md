@@ -15,7 +15,7 @@ To set a maximum/minimum order amount for a payment method to display on your ch
     **OR**
     - **Minimum** field. E.g. A minimum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **more** then 15 EUR.
 
-### Setting a maximum/minimum order amount per language
+**Setting a maximum/minimum order amount per language**
 
 To set different maximum/minimum order amounts for different languages, under the **Payment methods ordering** header > **Country** dropdown menu, select a country and set the maximum/minimum amount per language.
 

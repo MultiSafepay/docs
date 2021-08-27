@@ -7,7 +7,7 @@ aliases:
     - /integrations/opencart/faq/how-can-i-update-the-plugin-for-opencart/
 ---
 
-## Updating version 2.2.0 to 3.x.x
+**Updating version 2.2.0 to 3.x.x**
 To update the plugin using the extension installer tool in your OpenCart [backend](/getting-started/glossary/#backend):
 
 1. For security, always create a backup of your OpenCart application.
@@ -23,7 +23,7 @@ To update the plugin using the extension installer tool in your OpenCart [backen
 11. A warning appears requesting you to delete old plugin files. 
 12. In the **Maintenance** tab, click **Delete old plugin files**. 
 
-## Updating version 2.1.0 or below
+**Updating version 2.1.0 or below**
 1. For security, create a backup of your OpenCart application.
 2. Manually remove all files from the MultiSafepay extension using an FTP program or server file administration program.
 3. See the [OpenCart manual](/payments/integrations/ecommerce-platforms/opencart/) and follow the installation instructions.

@@ -13,7 +13,7 @@ To change the order in which payment methods appear on your checkout page, follo
 2. Drag and drop the payment methods to the preferred order.
 3. Click **Save**.
 
-### Setting payment method order per language
+**Setting payment method order per language**
 
 To set the payment method order for different languages, under the **Payment method settings** select a country / store language and set the order per language.
 
