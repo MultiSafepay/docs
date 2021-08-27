@@ -82,4 +82,6 @@ All payment methods still work if you don't use the Javascript files.
     - Enter your account or website API key.
     - Select **Test** or **Live** environment.
     - Click **Save and continue**.
-7. After being redirected to the Settings page, verify the current settings and click **Save** to activate the app.
+You are redirected to the Settings page.
+7. Verify the current settings and then click Save.
+The app is now activated.
