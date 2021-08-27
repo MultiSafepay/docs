@@ -21,6 +21,7 @@ For the Trustly logo, see MultiSafepay GitHub – [MultiSafepay icons](https://g
 |---|---|  
 | [CS-Cart](/payments/integrations/ecommerce-platforms/cs-cart)  | 1.3.0 |
 | [Drupal 8](/payments/integrations/ecommerce-platforms/drupal8)  | 1.0   |
+| [Lightspeed](/ecommerce-platforms/lightspeed/)  | 1.0   |
 | [Magento 1](/payments/integrations/ecommerce-platforms/magento1)   | 2.4.1 |
 | [Magento 2](/payments/integrations/ecommerce-platforms/magento2)  | 1.5.0 |  
 | [OpenCart](/payments/integrations/ecommerce-platforms/opencart)  | 2.2.0 |
