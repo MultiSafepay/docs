@@ -75,11 +75,13 @@ All payment methods still work if you don't use the Javascript files.
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  
-5. In the login page that appears, Sign in using your Lightspeed credentials.
-6. Click **Next**, and then approve the required permissions.  
-    You are redirected to <https://lightspeed.multisafepay.com/install>.
-7. Complete the Signup page, and then click **Create account and continue**.
-8. Fill in your MultiSafepay API key.
-9. Select **Test** or **live** environment, and then click **Register account and continue**.
-
-
+5. A dialog appears. Approve the permissions required for the app.  
+   You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
+6. In the **Setup** page:  
+    - Enter your email address.
+    - Enter your account or website API key.
+    - Select **Test** or **Live** environment.
+    - Click **Save and continue**.
+You are redirected to the Settings page.
+7. Verify the current settings and then click Save.
+The app is now activated.
