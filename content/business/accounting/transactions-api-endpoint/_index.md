@@ -11,7 +11,7 @@ aliases:
     - /tools/accounting/transactions-api-endpoint/
 ---
 
-The transactions API endpoint returns details transactions in your account. You can use it to automate business operations and gain insights into your transactions.
+The transactions API endpoint returns details about transactions in your account. You can use it to automate business operations and gain insights into your transactions.
 
 ## Endpoints
 

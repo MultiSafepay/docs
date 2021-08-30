@@ -13,8 +13,6 @@ aliases:
 
 ## Server to server requests
 
-See Additional payment features – [Server to server](/payments/features/server-to-server).
-
-**Note:** Server to server must first be [activated](/payments/features/server-to-server/activation/) by the Risk Team. 
+[Server to server](/payments/features/server-to-server) must first be [activated](/payments/features/server-to-server/activation/) by the Risk Team. 
 
 {{< /description >}}
