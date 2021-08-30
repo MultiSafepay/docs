@@ -1,7 +1,7 @@
 ---
 title : "Unmasking IBAN numbers"
 meta_title: "Unmasking IBAN numbers - MultiSafepay Docs"
-weight: 9
+weight: 6
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
