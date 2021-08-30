@@ -298,7 +298,6 @@ See [payment_details (object)](/api/#payment-details-object/).
 ----------------
 `reason` | string
 
-The capture reason for the order.
 
 ----------------
 `related_transactions` | object

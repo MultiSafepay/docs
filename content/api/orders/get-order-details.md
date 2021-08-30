@@ -172,8 +172,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string | required
-
-The capture reason for the order. 
+ 
 
 ----------------
 `fastcheckout` | string 

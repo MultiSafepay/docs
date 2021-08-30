@@ -77,7 +77,7 @@ The name of the shipping company delivering the customer’s order.
 ----------------
 `reason` | string | optional
 
-The capture reason for the order.       
+The reason for capturing the order.       
 
 ----------------
 `description` | string | optional

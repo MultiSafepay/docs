@@ -327,7 +327,6 @@ See [payment_methods (object)](/api/#payment-methods-object/).
 ----------------
 `reason` | string
 
-The capture reason for the order.
 
 ----------------
 `related_transactions` | object

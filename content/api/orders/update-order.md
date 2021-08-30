@@ -75,7 +75,7 @@ The date that the order was shipped.
 ----------------
 `reason` | string | optional
 
-The capture reason for the order.
+The reason for updating the order.
 
 ----------------
 `invoice_id` | string | optional

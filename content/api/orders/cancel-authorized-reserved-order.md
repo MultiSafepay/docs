@@ -37,18 +37,17 @@ aliases:
 
 The [order status](/payments/multisafepay-statuses/).
 
-To cancel an authorized or reserved transactions, specify `cancelled`.
+To cancel an authorized or reserved transaction, specify `cancelled`.
 
 ----------------
 `reason` | string | required
 
-The capture reason for the order.
+The reason for cancelling the order.
 
 ----------------
-
 `description` | string | optional
 
-Can be used to store additional information.
+Use to provide additional information.
 
 ----------------
 
