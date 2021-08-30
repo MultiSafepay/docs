@@ -13,135 +13,9 @@ aliases:
 
 The transactions API endpoint returns details about transactions in your account. You can use it to automate business operations and gain insights into your transactions.
 
-## Endpoints
+See API Reference – [Retrieve transactions](/api/#retrieve-transactions).
 
-The endpoint URLs are:
-
-- **Test:** `https://testapi.multisafepay.com/v1/json/transactions`
-
-- **Live:** `https://api.multisafepay.com/v1/json/transactions`
-
-## API key
-
-You will need a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
-
-```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "Content-Type: application/json" --header "api_key: <your-account-api-key>"
-```
-
-**Note:** Use your test API key when making requests to the test API URL.
-
-## Parameters 
-
-Requests retrieve an array of all transactions under your account. Use the following optional parameters to filter the returned transactions:
-
-**Note:** For timestamps:  
-
-- All timestamps are in CET/CEST timezone.  
-- Multiple formats are supported and automatically detected:  
-  - [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601), e.g. `2021-01-01T12:00:00` or `2021-01-01`  
-  - [Unix time](https://en.wikipedia.org/wiki/Unix_time), e.g. `1609502400`
-
-------------------
-`site_id` | integer (single value or array of values)
-
-Returns transactions for a specific website in your account.  
-Default: Returns transactions for all sites under your account.  
-Format: `12345`
-
-------------------
-`created_from` | string
-
-Timestamp. Returns transactions created on or after the specified date.     
-
-------------------
-`created_until` | string 
-
-Timestamp. Returns transactions created before but not on the specified date.  
-
-------------------
-`completed_from` | string 
-
-Timestamp. Returns transactions completed on or before the specified date.  
-
-------------------
-`completed_until` | string 
-
-Timestamp. Returns transactions completed before but not on the specified date.  
-
-------------------
-`financial_status` | string (single value or array of values)
-
-Returns transactions with the specified [transaction status](/payments/multisafepay-statuses/).  
-Options: `completed`, `created`, `declined`, `error`, `expired`, `initialized`, `manual`, `new`, `refunded`, `reserved`, `uncleared`, `void`.               
-
-------------------
-`status` | string (single value or array of values)
-
-Returns transactions with the specified [order status](/payments/multisafepay-statuses/).  
-Options: `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`.   
-
-------------------
-`payment_method` | string (single value or array of values)
-
-Returns transactions with the specified payment method.  
-Format: See [Retrieve all gateways](/api/#retrieve-all-gateways), e.g. `VISA`. 
-
-------------------
-`type` | string (single value or array of values)
-
-Returns transactions of the specified type.  
-Options: `admin_fee`, `affiliate_payout`, `automatic_payout`, `chargeback`, `coupon`, `currency_conversion`, `deposit`, `fastcheckout`, `monthly_fee`, `payment`, `refund`, `reserve_chargeback`, `singup_fee`.
-
-------------------
-`limit` | integer
-
-Specifies the maximum number of results to return per [page](#pagination).  
-Default: `100`.
-
-------------------
-`after` | string
-
-Use the `after` cursor to request the next page of [paginated](#pagination) results.  
-Format: cursor, e.g. `ZD1ftlaZLHQ90EQCeQ`.
-
-------------------
-`before` | string
-
-Use the `before` cursor to request the previous page of [paginated](#pagination) results.  
-Format: cursor, e.g. `ZD1gIU-ZLPQ9AEX73Q`.
-
-------------------
-
-
-## Example JSON response
-
-```
-{
-  "amount":0,
-  "completed":"string",
-  "costs":[
-    null
-  ],
-  "created":"string",
-  "currency":"string",
-  "debit_credit":"D_C",
-  "description":"string",
-  "financial_status":"string",
-  "invoice_id":"string",
-  "order_id":"string",
-  "payment_method":"string",
-  "site_id":0,
-  "status":"string",
-  "transaction_id":0,
-  "type":"string",
-  "var1":"string",
-  "var2":"string",
-  "var3":"string"
-}
-```
-
-## Common uses
+Common uses include:
 
 {{< details title="Overview of all transactions" >}}
 **Use case:** I want a complete overview of all transactions in my MultiSafepay account.
@@ -188,7 +62,5 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_fro
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
 {{< /details >}}
-
-## Support
 
 For support, email the Integration Team at <integration@multisafepay.com>
