@@ -48,7 +48,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## Split payments
 Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
 
-For more information, see [Split payments](/payments/features/split-payments/).
+See [Split payments](/payments/features/split-payments/).
 
 **Parameters**
 

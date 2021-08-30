@@ -67,14 +67,5 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 
 The [order status](/payments/multisafepay-statuses/). 
 
-**Response**
-
-----------------
-`costs` | object
-
-See [costs (object)](/api/#costs-object).
-
-----------------
-
 
 {{< /description >}}

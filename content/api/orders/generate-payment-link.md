@@ -48,7 +48,7 @@ aliases:
 {{< description >}}
 ### Generate payment links
 
-Generate a payment link to send to a customer.  
+Generate a [payment link](/payments/checkout/payment-link/) to send to a customer.  
 Your MultiSafepay account creates a unique transaction to match to the payment.
 
 **Parameters**

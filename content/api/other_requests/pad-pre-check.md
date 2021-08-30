@@ -174,7 +174,7 @@ aliases:
 
 ## Pay After Delivery pre-check
 
-Submit data related to a Pay After Delivery order and customer for MultiSafepay to conduct a pre-check to determine whether to accept the order. 
+Submit data related to a [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery/) order and customer for MultiSafepay to conduct a pre-check to determine whether to accept the order. 
 
 If not accepted, the customer must select another payment method to complete payment.
 

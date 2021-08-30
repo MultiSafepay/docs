@@ -23,7 +23,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## delivery (object)
 
-The delivery information for the shipment.  
+The delivery information for shipping the order.  
 
 Contains:  
 
