@@ -16,7 +16,7 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | `Direct`/`Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full, partial, discounts, API  | [More information](/payments/refunds/) | 

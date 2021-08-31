@@ -1,6 +1,6 @@
 ---
-title: "About ING Home Pay"
-breadcrumb_title: 'About ING Home Pay'
+title: "About ING Home'Pay"
+breadcrumb_title: "About ING Home'Pay"
 weight: 10
 meta_title: "About ING Home'Pay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
@@ -18,7 +18,7 @@ ING Home'Pay is an online payment method for ING customers in Belgium. Customers
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 

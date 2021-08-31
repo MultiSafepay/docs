@@ -18,7 +18,7 @@ Mastercard is a leading global credit card scheme. An additional layer of securi
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Credit card  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#create-a-direct-order) / {{< br >}} [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 

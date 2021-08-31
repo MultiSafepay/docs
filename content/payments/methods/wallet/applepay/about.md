@@ -10,14 +10,14 @@ aliases:
     - /payment-methods/wallet/applepay/apple-pay-what-is-it
 ---
 
-Apple Pay is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. An additional layer of security is provided by [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/), which requires customers to verify their identity.
+Apple Pay is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. An additional layer of security is provided by [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/), which requires customers to verify their identity.
 
 ### Summary
 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Wallet  | |
-| **API flow**  | `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | [More information](https://support.apple.com/en-us/HT207957) |
 | **Currencies**  | Multiple | [More information](https://support.apple.com/en-us/HT207957) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
