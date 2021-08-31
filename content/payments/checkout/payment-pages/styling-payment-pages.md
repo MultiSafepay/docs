@@ -14,7 +14,7 @@ For support, email the Integration Team at <integration@multisafepay.com>
 To style payment page templates, follow these steps:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Navigate to **Settings** > **Website settings** > **Website**.
+2. Go to **Settings** > **Website settings** > **Website**.
 3. Click the **Template** button. 
 4. Use the WYSIWYG editor to style the payment page template.
     - Choosing colors: In the left menu, a color chart appears when you click on the field of a page element. You can also enter a [Hex color](https://www.w3schools.com/colors/colors_picker.asp) in the input field next to it.
@@ -23,10 +23,10 @@ To style payment page templates, follow these steps:
 5. To save the finished template to the relevant website, click **Submit website**. 
 
 ### Other tips
-If you have more than one template and want to set one as your default template, use the **Set default** option. You can also give this template a name which forms the `template_id`. 
+If you have more than one template and want to set one as your default template, use the **Set default** option. You can also give this template a name which is used as the `template_id`. 
 
-To edit saved templates, click the **Edit template** button in the top left corner.
+To edit saved templates, click the **Edit template** button in the top-left corner.
 
-To apply the style from a template for another website in your account, click the **Apply style from** button in the top right corner. Save the template to the relevant website.
+To apply the style from a template for another website in your account, click the **Apply style from** button in the top-right corner. Save the template to the relevant website.
 
 To use dynamic styling, see [Dynamic styling payment pages](/payments/checkout/payment-pages/dynamic-styling-payment-pages/).

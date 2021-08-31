@@ -10,7 +10,7 @@ aliases:
     - /faq/general/which-languages-are-supported-by-multisafepay
 ---
 
-PayV2 is the MultiSafepay payment page, starting with `payv2.multisafepay.com`. It supports all payment methods and can be styled to fit the look and feel of your website.
+PayV2 is the MultiSafepay payment page, starting with `payv2.multisafepay.com`. It supports all payment methods, is fully mobile responsive, and can be styled to fit the look and feel of your website.
 
 To activate PayV2, follow these steps:
 
