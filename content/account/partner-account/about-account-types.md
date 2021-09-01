@@ -18,7 +18,7 @@ Partner and [merchant](/getting-started/glossary/#merchant) accounts each repres
 - Bank accounts
 - Users with their own login credentials and permissions
 
-Partner accounts act as a parent to affiliated merchant accounts and may receive commissions. For more information about commissions, see [Managing commissions](/tools/partner-account-control/managing-commissions).
+Partner accounts act as a parent to affiliated merchant accounts and may charge them. For more information, see [Charging affiliates](/account/charging-affiliates/).
 
 If you currently have a merchant account, contact your account manager to discuss your options. 
 If you don't have a MultiSafepay account, [sign up for a partner account](https://merchant.multisafepay.com/signup?partner).

@@ -16,7 +16,7 @@ To create a MultiSafepay partner account, follow these steps:
 1. Fill out the [Create an account form](https://merchant.multisafepay.com/signup?partner).
 2. Log in to your account.
 
-You now have full access to the partner dashboard and can receive commission from affiliates in your MultiSafepay balance.
+You now have full access to the partner dashboard and can charge affiliates to your MultiSafepay balance.
 
 ## Onboarding and go live
 
