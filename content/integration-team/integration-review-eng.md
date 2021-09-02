@@ -43,7 +43,6 @@ We would greatly appreciate it!
 - [Francesca Cook](https://www.linkedin.com/in/francesca-cook-ba786a29/)  
 - [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)  
 - [Jelle Sprangers](https://www.linkedin.com/in/jelle-sprangers-partnermanager)  
-- [Jeroen Hehemann](https://www.linkedin.com/in/jeroenhehemann)  
 - [Joris Steenmans](https://www.linkedin.com/in/jorissteenmans)  
 - [Kris Stallenberg](https://www.linkedin.com/in/kris-stallenberg-a21471ba)  
 - [Mike de Decker](https://www.linkedin.com/in/mike-de-decker-54443a163)  
