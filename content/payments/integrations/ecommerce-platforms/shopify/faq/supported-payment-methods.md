@@ -7,13 +7,15 @@ weight: 1
 aliases: 
     - /integrations/shopify/faq/available-payment-methods-shopify/
 ---
-**Credit cards**
+{{< details title="Credit cards" >}}
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
-**Banks**
+{{< /details >}}
+
+{{< details title="Banking methods" >}}
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -31,11 +33,17 @@ aliases:
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
 + [Trustly](/payments/methods/banks/trustly)
 
-**Wallets** 
+{{< /details >}}
+
+{{< details title="Wallets" >}}
 
 + [Alipay](/payments/methods/wallet/alipay)
 + [PayPal](/payments/methods/wallet/paypal)
 
-**Prepaid cards** 
+{{< /details >}}
+
+{{< details title="Prepaid cards" >}}
 
 + [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
+
+{{< /details >}}

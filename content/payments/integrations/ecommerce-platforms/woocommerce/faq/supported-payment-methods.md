@@ -8,13 +8,15 @@ weight: 1
 aliases: 
     - /integrations/woocommerce/faq/available-payment-methods-woocommerce/
 ---
-**Credit cards**
+{{< details title="Credit cards" >}}
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
-**Banks**
+{{< /details >}}
+
+{{< details title="Banking methods" >}}
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -34,8 +36,9 @@ aliases:
 + [Trustly](/payments/methods/banks/trustly)
 + [V PAY](/payments/methods/credit-and-debit-cards/vpay)
 
+{{< /details >}}
 
-**Billing suite**
+{{< details title="Billing Suite" >}}
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/)
@@ -44,13 +47,17 @@ aliases:
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
-**Wallets** 
+{{< /details >}}
+
+{{< details title="Wallets" >}}
 
 + [Alipay](/payments/methods/wallet/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
 + [PayPal](/payments/methods/wallet/paypal)
 
-**Prepaid cards** 
+{{< /details >}}
+
+{{< details title="Prepaid cards" >}}
 
 + Baby Cadeaubon
 + Beauty and Wellness gift card
@@ -72,3 +79,5 @@ aliases:
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
+
+{{< /details >}}

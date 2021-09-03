@@ -6,13 +6,15 @@ read_more: "."
 aliases: 
     - /integrations/myshop/faq/available-payment-methods-myshop/
 ---
-**Credit cards**
+{{< details title="Credit cards" >}}
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa)
 
-**Banks**
+{{< /details >}}
+
+{{< details title="Banking methods" >}}
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -24,21 +26,26 @@ aliases:
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
+{{< /details >}}
 
-**Billing suite**
+{{< details title="Billing Suite" >}}
 
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
+{{< /details >}}
 
-**Wallets**
+{{< details title="Wallets" >}}
 
 + [FastCheckout](/payments/methods/fastcheckout)
 + [PayPal](/payments/methods/wallet/paypal)
 
+{{< /details >}}
 
-**Prepaid cards**
+{{< details title="Prepaid cards" >}}
 
 + [123TCS](/payments/methods/prepaid-cards/gift-cards)
 + [Intersolve](/payments/methods/prepaid-cards/gift-cards)
 + [Fashioncheque](/payments/methods/prepaid-cards/gift-cards)
+
+{{< /details >}}
