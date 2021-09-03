@@ -36,7 +36,7 @@ See also:
 - [Batching transactions for subscriptions](/payments/methods/billing-suite/e-invoicing/user-guide/batching-transactions/)
 
 ## Unsuccessful statuses
-You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
+You can cancel payments before the funds are captured. After the funds are captured, you can only process a refund.
 
 | Description | Order status | Transaction status |
 |---|---|---|
