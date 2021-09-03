@@ -23,7 +23,8 @@ To process payments from a website operated by a separate legal entity, you must
     {{< details title="Quick add website" >}}
 
 1. From the **Category** dropdown menu, select what type of products or services your website sells.
-2. In the **Description** field, enter the website name. This is displayed on the MultiSafepay payment page and, depending on the payment method, on the customer’s bank statement.
+2. In the **Description** field, enter the website name.  
+    **Note:** This is displayed on the MultiSafepay payment page and, depending on the payment method, on the customer’s bank statement.
 3. In the **Base URL** field, add the website’s URL. This must be the URL where you receive payments.
 4. In the **Notification URL** field, provide a notification URL for MultiSafepay to send status updates to, if required.
 5. Click **Save**.
@@ -37,7 +38,8 @@ To process payments from a website operated by a separate legal entity, you must
     You are prompted to install the MultiSafepay plugin for your ecommerce platform in your website. 
 3. From the **Category** dropdown, select the type of products and/or services you sell from this website, and then click **Continue**.
 4. If you want to receive [transaction status](/payments/multisafepay-statuses/) updates via webhook, in the **Notification URL** field, enter a URL for us to send them to.
-5. In the **Description** field, enter the company name you want to appear on payment pages and customer bank statements, and then click **Continue**.  
+5. In the **Description** field, enter your company name, and then click **Continue**.  
+    **Note:** This name appears on payment pages and customer bank statements (if supported by their bank).  
     A template of your MultiSafepay payment page is generated.
 6. Customize the template as required.  
     - To toggle the view of the payment page, click:
@@ -59,3 +61,5 @@ Your test account is now linked to your website.
     - Secure code
     - API key
 5. Copy the API key to start building your integration. The API key also lets you monitor transactions, configure [payouts](/account/payouts/), generate reports, and more. 
+
+**Note:** Website names are displayed on MultiSafepay payment pages and, for some payment methods, on the customer’s bank statement (if supported by their bank).
