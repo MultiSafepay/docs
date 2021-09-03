@@ -8,12 +8,14 @@ aliases:
     - /integrations/mijnwebwinkel/faq/available-payment-methods-mijnwebwinkel/
 ---
 
-**Credit cards**
+{{< details title="Credit cards" >}}
 
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/mastercard/visa)
 
-**Banks**
+{{< /details >}}
+
+{{< details title="Banking methods" >}}
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -23,15 +25,21 @@ aliases:
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
-**Billing suite**
+{{< /details >}}
+
+{{< details title="Billing Suite" >}}
 
 + [Klarna](/payments/methods/billing-suite/klarna)
 
-**Wallets**
+{{< /details >}}
+
+{{< details title="Wallets" >}}
 
 + [PayPal](/payments/methods/wallet/paypal)
 
-**Prepaid cards**
+{{< /details >}}
+
+{{< details title="Prepaid cards" >}}
 
 + [Baby Cadeaubon](https://www.babycadeaubon.nl)
 + Beauty & Wellness
@@ -51,3 +59,5 @@ aliases:
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl)
+
+{{< /details >}}

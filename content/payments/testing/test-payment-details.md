@@ -12,7 +12,7 @@ aliases:
 
 This page is for testing payment methods and scenarios in your [MultiSafepay test account](https://testMerchant.MultiSafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
 
-## Banks
+## Banking methods
 
 {{< details title="Bancontact" >}}
 

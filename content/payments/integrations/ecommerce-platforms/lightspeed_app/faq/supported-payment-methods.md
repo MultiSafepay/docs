@@ -14,7 +14,7 @@ aliases:
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
 {{< /details >}}
 
-{{< details title="Banks" >}}
+{{< details title="Banking methods" >}}
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
 + [Belfius](/payments/methods/banks/belfius)
@@ -32,7 +32,7 @@ aliases:
 + [Trustly](/payments/methods/banks/trustly) 
 {{< /details >}}
 
-{{< details title="Billing suite" >}}
+{{< details title="Billing Suite" >}}
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payments/methods/billing-suite/e-invoicing)

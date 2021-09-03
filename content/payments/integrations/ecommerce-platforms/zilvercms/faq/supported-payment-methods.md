@@ -5,13 +5,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 ---
 
-**Credit cards**
+{{< details title="Credit cards" >}}
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
-**Banks**
+{{< /details >}}
+
+{{< details title="Banking methods" >}}
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -27,15 +29,23 @@ read_more: "."
 + [Request to Pay](/payments/methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
 
-**Billing suite**
+{{< /details >}}
+
+{{< details title="Billing Suite" >}}
 
 + [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
 
-**Wallets** 
+{{< /details >}}
+
+{{< details title="Wallets" >}}
 
 + [Alipay](/payments/methods/wallet/alipay)
 + [PayPal](/payments/methods/wallet/paypal)
 
-**Prepaid cards** 
+{{< /details >}}
+
+{{< details title="Prepaid cards" >}}
 
 + [VVV gift card](https://www.vvvcadeaukaarten.nl)
+
+{{< /details >}}

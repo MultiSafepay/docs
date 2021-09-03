@@ -7,13 +7,15 @@ aliases:
     - /integrations/logic4/faq/available-payment-methods-logic4/
 ---
 
-**Credit cards**
+{{< details title="Credit cards" >}}
 
 + [American Express](/payments/methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [Visa](/payments/methods/credit-and-debit-cards/visa)
 
-**Banks**
+{{< /details >}}
+
+{{< details title="Banking methods" >}}
 
 + [Bancontact](/payments/methods/banks/bancontact)
 + [Bank transfer](/payments/methods/banks/bank-transfer)
@@ -30,13 +32,17 @@ aliases:
 + [SOFORT Banking](/payments/methods/banks/sofort-banking)
 + [Trustly](/payments/methods/banks/trustly)
 
-**Billing suite**
+{{< /details >}}
+
+{{< details title="Billing Suite" >}}
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
 + [Klarna](/payments/methods/billing-suite/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 + [in3](/payments/methods/billing-suite/in3)
+
+{{< /details >}}
 
 
 
