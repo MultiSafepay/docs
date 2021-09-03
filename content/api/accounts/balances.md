@@ -35,8 +35,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 As a partner or primary account holder, use this endpoint to retrieve the balance of an affiliated account. 
 
-By default, balance requests are disabled. To enable balance requests for your account, email your account manager at <sales@multisafepay.com>
-
 For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 
 **Parameters**
