@@ -10,10 +10,9 @@ aliases:
     - /payments/features/recurring-payments/about-recurring-payments/
 ---
 
-Recurring payments let you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.
+Recurring Payments let you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.
 
 ## Supported payment methods
-You can set up recurring payments for:
 
 - Credit cards: Visa, Mastercard, American Express
 - SEPA Direct Debit: SOFORT Banking, iDEAL
@@ -21,7 +20,7 @@ You can set up recurring payments for:
 
 We offer a work-around option to use Bancontact for the initial payment. For more information, email your account manager at <sales@multisafepay.com>
 
-If you already process recurring payments for SEPA Direct Debit customers with another PSP, you cannot use recurring payments for the same customers with MultiSafepay. 
+If you already process Recurring Payments for SEPA Direct Debit customers with another PSP, you cannot use Recurring Payments for the same customers with MultiSafepay. 
 
 For these customers, you can use a [SEPA Direct Debit](/api/#direct-sepa-direct-debit) using the retrieved IBAN and account holder name.
 
@@ -29,7 +28,7 @@ For these customers, you can use a [SEPA Direct Debit](/api/#direct-sepa-direct-
 
 You are responsible for scheduling recurring payments and optional retries.
 
-You must inform customers about recurring payments and stored mandates:
+You must inform customers about Recurring Payments and stored mandates:
 
 - During the checkout process and/or in your general terms and conditions which the customer must agree to before checkout.
 - Before each transaction, e.g. by email.
