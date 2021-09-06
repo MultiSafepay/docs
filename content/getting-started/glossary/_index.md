@@ -98,7 +98,7 @@ The payment information for a specific customer, e.g. credit card number, CVC co
 Transfers the customer's payment details to where the payment method is processed.
 
 ### payment page
-A webpage the customer is redirected to from the merchant's checkout page where they complete payment. The page may be hosted by MultiSafepay (see [PayV2](/payments/checkout/payment-pages/activating-payv2/)), the issuer, or the payment method. 
+A webpage the customer is redirected to from the merchant's checkout page where they complete payment. The page may be hosted by MultiSafepay (see [Activating MultiSafepay payment pages](/payments/activating-payment-pages/), the issuer, or the payment method. 
 
 ### payment service provider (PSP)
 MultiSafepay is a PSP and provides services that let merchants accept payments using different payment methods. 
