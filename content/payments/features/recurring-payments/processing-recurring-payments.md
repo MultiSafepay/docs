@@ -1,13 +1,13 @@
 ---
-title : "Processing recurring payments"
+title : "Processing Recurring Payments"
 weight: 52
-meta_title: "Processing recurring payments - MultiSafepay Docs"
+meta_title: "Processing Recurring Payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/recurring-payments/recurring-payments-how-does-it-work/
 ---
-To process recurring payments, follow these steps:
+To process Recurring Payments, follow these steps:
 
 **Step 1:** Ensure the payment gateway is configured for the payment method:
 
