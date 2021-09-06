@@ -5,7 +5,7 @@ layout: 'single'
 meta_title: 'Payment Components - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Payment pages.svg'
-short_description: 'MultiSafepay solution to embed payment methods in your ecommerce platform'
+short_description: 'Embedded solution: Embed payment methods directly in your ecommerce integration'
 hideMenu : 'true'
 weight: 51
 aliases:
@@ -13,9 +13,9 @@ aliases:
 ---
 Payment Components are building blocks for embedding payment methods directly into your checkout page that:
 
-- Provide a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate).
-- Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
+- Provide a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
+- Encrypt customer payment details for secure processing
+- Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
 
 ## Integration
 
