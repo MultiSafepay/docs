@@ -5,6 +5,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.8.3
+Release date: Sep 6th, 2021
+
+### Fixed
++ PLGWOOS-737: Fix error related with refunds by updating the PHP-SDK to 5.2.1
+
+***
+
 ## 4.8.2
 Release date: Sep 2nd, 2021
 
