@@ -118,7 +118,6 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
 }
 ```
 `account.id` → the account ID
-`user.id` → the contact person ID
 {{< /collapse >}}
 
 ---
