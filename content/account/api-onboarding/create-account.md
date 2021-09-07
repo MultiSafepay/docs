@@ -106,7 +106,6 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
       "zipcode": "1234 ZP"
     },
     "user": {
-      "id": "123456",
       "name": "Ad Admin",
       "email": "admin@funcompany.com",
       "password": "password"
