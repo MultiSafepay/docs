@@ -1,6 +1,6 @@
 ---
 weight: 218
-meta_title: "API Reference - Manual capture - MultiSafepay Docs"
+meta_title: "API Reference - Manual Capture - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#manual-capture-authorization
@@ -46,13 +46,13 @@ aliases:
 ```
 {{< /code-block >}}
 {{< description >}}
-## Manual capture orders
+## Manual Capture orders
 
-See [Manual capture](/payments/features/manual-capture). 
+See [Manual Capture](/payments/features/manual-capture). 
 
 This only applies to specific credit card payment methods, including MasterCard, VISA and Maestro.
 
-### Create a manual capture order
+### Create a Manual Capture order
 
 **Parameters**
 

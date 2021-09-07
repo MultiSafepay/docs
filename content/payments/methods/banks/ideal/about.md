@@ -25,7 +25,7 @@ To increase transparency for customers, the name of your website appears on the 
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

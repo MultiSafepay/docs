@@ -21,7 +21,7 @@ American Express is one of the biggest global credit card schemes, accepted in m
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks)  |
 
 ## Product rules

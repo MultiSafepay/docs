@@ -40,10 +40,10 @@ For notifying you when a customer requests a [chargeback](/payments/methods/cred
 Make sure you add one or more email addresses to send these emails to in your MultiSafepay account, under 
 **Contact information** > **Chargeback email**. 
 
-**Manual capture reservation completed (to customer)**  
+**Manual Capture reservation completed (to customer)**  
 For notifying customers that you have manually captured reserved funds for an [Uncleared transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). 
 
-**Manual capture reservation completed (to merchant)**  
+**Manual Capture reservation completed (to merchant)**  
 For confirming that you have manually captured reserved funds for an [Uncleared transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/).  
 
 **Partial and/or full capture completed (to customer)**  

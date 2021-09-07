@@ -20,7 +20,7 @@ AfterPay is a widely used online post-payment method in the Netherlands and Belg
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full, partial, discounts, API  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

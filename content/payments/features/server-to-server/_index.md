@@ -9,4 +9,4 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: 'Complete credit card payments without redirecting to a payment page.'
 ---
 
-Server to Server is a MultiSafepay service that lets customers make credit card payments in your checkout page without being redirected to a MultiSafepay payment page.
+Server to Server is a MultiSafepay solution that lets customers make credit card payments in your checkout page without being redirected to a MultiSafepay payment page.

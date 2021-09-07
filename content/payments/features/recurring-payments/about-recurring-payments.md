@@ -1,7 +1,7 @@
 ---
-title : "About recurring payments"
+title : "About Recurring Payments"
 weight: 51
-meta_title: "About recurring payments - MultiSafepay Docs"
+meta_title: "About Recurring Payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 url: '/recurring-payments/about/'
@@ -10,7 +10,7 @@ aliases:
     - /payments/features/recurring-payments/about-recurring-payments/
 ---
 
-Recurring Payments let you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.
+Recurring Payments is a MutiSafepay solution let you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.
 
 ## Supported payment methods
 
@@ -37,7 +37,7 @@ You must inform customers about Recurring Payments and stored mandates:
 
 | Term    | Description  |
 |---|---|
-| Initial payment  | The first payment initiated by a customer having understood and approved recurring payments.  |
+| Initial payment  | The first payment initiated by a customer having understood and approved Recurring Payments.  |
 | Subsequent payments  | All payments after the initial payment.  |
 | Single Euro Payments Area (SEPA)  | All countries within the European Union and Norway, Iceland, Liechtenstein, Switzerland, and Monaco.  |
 | SEPA Direct Debit  | International SEPA Direct Debit  |

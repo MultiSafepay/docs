@@ -24,7 +24,7 @@ Settlement is instant (if supported) or within 24 hours. The funds are transferr
 | **Countries**  | Germany  | More countries will follow as more banks migrate to PSD2 APIs. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

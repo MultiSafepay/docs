@@ -21,7 +21,7 @@ Maestro is a debit card service owned by Mastercard. It is accepted across Europ
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks) |
 
 ## Product rules

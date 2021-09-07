@@ -1,7 +1,7 @@
 ---
 title : "MOTO"
 weight: 100
-meta_title: "Credit card user guide - MOTO - MultiSafepay Docs"
+meta_title: "MOTO - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/MOTO.svg'
@@ -11,7 +11,7 @@ aliases:
     - /tools/moto/moto
 ---
 
-Mail Order/Telephone Order (MOTO) lets you accept credit card payments by manually entering a customer's payment details (provided by phone or email) in your payment gateway via your MultiSafepay account. It supports American Express, Mastercard, and Visa.
+Mail Order/Telephone Order (MOTO) is a MultiSafepay solution lets you accept credit card payments by manually entering a customer's payment details (provided by phone or email) in your payment gateway via your MultiSafepay account. It supports American Express, Mastercard, and Visa.
 
 {{< alert-notice >}} **Note:** Using MOTO skips [3D Secure](/security-and-legal/payment-regulations/about-3d-secure) verification. {{< /alert-notice >}}
 

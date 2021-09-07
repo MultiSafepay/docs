@@ -21,7 +21,7 @@ PayPal is a leading global payment method that lets customers pay by credit card
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](https://developer.paypal.com/docs/payouts/reference/country-and-currency-codes/) | 
 | **Refunds**  | Full and partial  | [More information](/payments/methods/wallet/paypal/user-guide/processing-refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 
 ## Product rules

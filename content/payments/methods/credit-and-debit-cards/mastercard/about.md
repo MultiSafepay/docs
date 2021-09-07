@@ -22,7 +22,7 @@ Mastercard is a leading global credit card scheme. An additional layer of securi
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks)  |
 
 ## Product rules

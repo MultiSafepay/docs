@@ -24,7 +24,7 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland  | |
 | **Currencies**  | EUR {{< br >}} **Note:** British Pounds (GBP), Swiss Francs (CHF) and Polish Zloty (PLN) are **not** supported. | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules
