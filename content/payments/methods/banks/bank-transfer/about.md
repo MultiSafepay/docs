@@ -20,8 +20,7 @@ You can link Bank Transfer directly to your website. When a customer selects Ban
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | [Redirect](/api/#bank-transfer-redirect) {{< br >}} [Direct](/api/#bank-transfer-direct) | [More information](/developer/api/difference-between-direct-and-redirect) |
-
+| **API flow**  | [Direct](/api/#bank-transfer-direct) / [Redirect](/api/#bank-transfer-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Europe (SEPA area)  | |
 | **Currencies**  | CZK, EUR, GBP, HUF, PLN | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
