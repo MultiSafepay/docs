@@ -18,7 +18,6 @@ Dotpay is an inter-bank payment method that links all major Polish retail banks.
 |---|---|---|
 | **Payment type**   | Bank  | |
 | **API flow**  | [Redirect](/api/#dotpay) | [More information](/developer/api/difference-between-direct-and-redirect) |
-
 | **Countries**  | Poland  | |
 | **Currencies**  | EUR, PLN | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
