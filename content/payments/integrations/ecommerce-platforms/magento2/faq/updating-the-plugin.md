@@ -17,7 +17,7 @@ To update the plugin in your [backend](/getting-started/glossary/#backend), foll
 2. Sign in to your Magento 2 backend.
 3. Run the following commands via the CLI:
 ```
-composer update multisafepay/magento2 --with-dependencies
+composer update multisafepay/magento2 --with-all-dependencies
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
