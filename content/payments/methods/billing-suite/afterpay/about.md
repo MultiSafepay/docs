@@ -16,7 +16,8 @@ AfterPay is a widely used online post-payment method in the Netherlands and Belg
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order)| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#afterpay-direct) / [Redirect](/api/#afterpay-redirect)| [More information](/developer/api/difference-between-direct-and-redirect) |
+
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full, partial, discounts, API  | [More information](/payments/refunds/) | 
