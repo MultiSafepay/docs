@@ -20,7 +20,7 @@ The payment method functions the same for both the CBC branch and the KBC branch
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | [Direct](/api/#cbc-direct) / {{< br >}} [Redirect](/api/#cbc-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#cbc-direct) / [Redirect](/api/#cbc-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
