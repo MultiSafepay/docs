@@ -20,7 +20,7 @@ in3 is a Dutch online post-payment method where customers pay in 3 installments 
 | **Countries**  | The Netherlands  | in3 checks the customer's country, and billing/shipping address to confirm. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full, partial, API  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

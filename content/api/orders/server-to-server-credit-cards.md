@@ -1,6 +1,6 @@
 ---
 weight: 228
-meta_title: "API Reference - Credit card server to server requests - MultiSafepay Docs"
+meta_title: "API Reference - Credit card Server to Server requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#credit-cards-server-to-server

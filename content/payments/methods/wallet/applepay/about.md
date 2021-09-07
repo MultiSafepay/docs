@@ -21,7 +21,7 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
 | **Countries**  | Worldwide  | [More information](https://support.apple.com/en-us/HT207957) |
 | **Currencies**  | Multiple | [More information](https://support.apple.com/en-us/HT207957) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 
 ## Product rules

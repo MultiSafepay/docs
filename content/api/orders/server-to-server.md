@@ -1,6 +1,6 @@
 ---
 weight: 225
-meta_title: "API Reference - Server to server requests - MultiSafepay Docs"
+meta_title: "API Reference - Server to Server requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#server-to-server-requests
@@ -11,8 +11,8 @@ aliases:
 
 {{< description >}}
 
-## Server to server requests
+## Server to Server requests
 
-[Server to server](/payments/features/server-to-server) must first be [activated](/payments/features/server-to-server/activation/) by the Risk Team. 
+[Server to Server](/payments/features/server-to-server) must first be [activated](/payments/features/server-to-server/activation/) by the Risk Team. 
 
 {{< /description >}}

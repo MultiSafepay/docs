@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 **1.** Check your eligibility with your account manager at <sales@multisafepay.com>
 
-**2.** Make sure you are [PCI](/faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments) compliant.
+**2.** Make sure you are [PCI DSS](/payment-regulations/pci-dss/) compliant.
 
 **3.** Email your application to the Risk Team at <risk@multisafepay.com>
 

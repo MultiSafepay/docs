@@ -22,7 +22,7 @@ V Pay is a debit card service owned by Visa. It is accepted across Europe. An ad
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks) |
 
 ## Product rules

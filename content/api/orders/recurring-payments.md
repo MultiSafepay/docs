@@ -1,6 +1,6 @@
 ---
 weight: 224
-meta_title: "API Reference - Recurring payments - MultiSafepay Docs"
+meta_title: "API Reference - Recurring Payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -62,9 +62,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Recurring payments
+## Recurring Payments
 
-You can initiate [recurring payments](/payments/features/recurring-payments/) using [tokenization](/payments/features/tokenization/) for the following payment methods:
+You can initiate [Recurring Payments](/payments/features/recurring-payments/) using [tokenization](/payments/features/tokenization/) for the following payment methods:
 
 - VISA
 - MasterCard
@@ -77,11 +77,11 @@ You can initiate [recurring payments](/payments/features/recurring-payments/) us
 
 Customers can make the initial payment using iDEAL, Bancontact, or SOFORT, followed by recurring payments using SEPA Direct Debit. 
 
-To process recurring payments:
+To process Recurring Payments:
 
-1. Submit a standard transaction request with recurring payments enabled. 
+1. Submit a standard `POST /orders` request with Recurring Payments enabled. 
 2. Request the token by [retreiving the order](https://docs.multisafepay.com/api/#retrieve-an-order).
-3. Make recurring payment requests as required.
+3. Make Recurring Rayments requests as required.
 
 **Parameters**
 

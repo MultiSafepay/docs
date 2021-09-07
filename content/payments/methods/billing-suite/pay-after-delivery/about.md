@@ -20,7 +20,7 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
 | **Refunds** | Full, partial, discount, API | [More information](/payments/refunds/) |
-| **Recurring payments** | No | [More information](/payments/features/recurring-payments/) |
+| **Recurring Payments** | No | [More information](/payments/features/recurring-payments/) |
 | **Chargebacks** | No | [More information](/faq/chargebacks) |
 
 ### Product rules

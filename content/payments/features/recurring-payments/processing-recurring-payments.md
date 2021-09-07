@@ -38,10 +38,10 @@ GET - /orders/{order_id}
   "recurring_id": "",
 ```
 
-**Step 6:** To process each [recurring payment](/api/#recurring-payments), make a `POST /orders` request including the `recurring_id` in the `gateway` information.
+**Step 6:** To process each payment, make a [`POST /orders` request](/api/#recurring-payments) with the `recurring_id` in the `gateway` information.
 
 - You must provide the payment gateway, customer's details, transaction amount, and order description. 
-- You do **not** need to provide the customer's bank account number or credit card details again. Recurring payments are processed using the same payment details as the initial transaction. 
+- You do **not** need to provide the customer's bank account number or credit card details again. Recurring Payments are processed using the same payment details as the initial transaction. 
 - Request type: `Direct`
 
 ```
@@ -52,4 +52,4 @@ POST - /orders
   "recurring_id": "XXXX" 
 ```
 
-**Note:** MultiSafepay automatically uses the `Site Description` and `Order ID` to identify the transaction on the customer's bank statement.
+**Note:** MultiSafepay automatically uses the `site_id` and `order_id` to identify the transaction on the customer's bank statement.

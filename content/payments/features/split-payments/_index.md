@@ -1,8 +1,8 @@
 ---
-title: 'Split payments'
+title: 'Split Payments'
 weight: 60
 layout: 'single'
-meta_title: "Split payments - MultiSafepay Docs"
+meta_title: "Split Payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Split payments.svg'
 short_description: 'Split funds to different bank accounts based on percentage or fixed amount.'
@@ -14,7 +14,7 @@ aliases:
     - /tools/split-payments/refunding-split-payments/
     - /tools/split-payments/how-do-i-refund-split-payment-orders
 ---
-Split payments lets:  
+Split Payments is a MultiSafepay solution that lets:  
 
 - Merchants or [partners](/account/account-types/) divide a transaction amount between several MultiSafepay accounts, e.g. to charge [affiliates](/account/account-types/) a fee for using your platform
 - Customers pay for products and services from multiple webshops in a single transaction
@@ -22,7 +22,7 @@ Split payments lets:
 You can split payments by a percentage, a fixed amount, or a combination of the two. 
 
 ## Activating split payments
-Split payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add them to your `POST /orders` request via our API. See API Reference – [Split payments](/api/#split-payments).
+Split Payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add them to your `POST /orders` request via our API. See API Reference – [Split Payments](/api/#split-payments).
 
 ### Prerequisites
 

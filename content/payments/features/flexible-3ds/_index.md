@@ -1,7 +1,7 @@
 ---
 title : "Using Flexible 3D"
 weight: 90
-meta_title: "Credit card user guide - Using Flexible 3D - MultiSafepay Docs"
+meta_title: "Using Flexible 3D - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Flexible 3D.svg'
