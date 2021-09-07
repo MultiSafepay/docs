@@ -8,22 +8,28 @@ aliases:
     - /faq/general/generic-gateways/
 ---
 
-In our plugins, we use predefined gateways for specific payment methods. When we start supporting a new payment method, merchants need to update their plugin to use the new gateway. 
+In our plugins, we use predefined gateways for specific payment methods. When we start supporting a new payment method, you need to update your plugin to use the new gateway. 
 
 To avoid this, some of our plugins use generic gateways which include a flexible gateway code that lets them connect to almost every payment method we offer, without updating the plugin.
 
-### Gift cards 
+### Requirements
+
+Generic gateways only support [`redirect`](/developer/api/difference-between-direct-and-redirect/) requests.
+
+## Gift cards 
 
 Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/faq/general/multisafepay-glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
 
 For more information about integrating open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>
 
-### Requirements
+## Co-branded credit cards
 
-We only support [`redirect`](/developer/api/difference-between-direct-and-redirect/) gateways.
+You can integrate Visa co-branded credit cards, such as [Cartes Bancaires](/payments/methods/cartes-bancaires/) and [Dankort](/payments/methods/dankort/), using the generic `VISA` gateway code.  
 
-### Specific plugins
-For more information about a specific plugin, see:
+For the gateway image, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
+
+## Specific plugins
+For more information about generic gateways for a specific plugin, see:
 
 - [Craft commerce](/payments/integrations/ecommerce-platforms/craftcommerce/faq/generic-gateways/)
 - [Drupal 8 & 9](/payments/integrations/ecommerce-platforms/drupal8/faq/configuring-generic-gateways/)
