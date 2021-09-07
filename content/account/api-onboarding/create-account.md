@@ -73,10 +73,10 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
     "vat_number": "NL999999999B99",
     "zipcode": "1234 ZP"
   },
-  "contact_person": {
-    "name": "Contact Person",
-    "password": "password",
-    "title": "mr"
+  "user": {
+    "name": "Ad Admin",
+    "email": "admin@funcompany.com",
+    "password": "password"
   },
   "currencies": [
     "EUR"
@@ -105,11 +105,11 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
       "vat_number": "NL999999999B99",
       "zipcode": "1234 ZP"
     },
-    "contact_person": {
-      "id": 123456,
-      "name": "Contact Person",
-      "password": "***",
-      "title": "mr"
+    "user": {
+      "id": "123456",
+      "name": "Ad Admin",
+      "email": "admin@funcompany.com",
+      "password": "password"
     },
     "currencies": [
       "EUR"
@@ -119,7 +119,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
 }
 ```
 `account.id` → the account ID
-`contact_person.id` → the contact person ID
+`user.id` → the contact person ID
 {{< /collapse >}}
 
 ---
@@ -157,7 +157,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
       "country": "NL",
       "email": "info@funcompany.com",
       "fax": "00311234567890",
-	  "id": "12345678",
+	    "id": "12345678",
       "phone": "00311234567890",
       "vat_number": "NL999999999B99",
       "zipcode": "1234 ZP"
@@ -274,7 +274,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
     "country": "NL",
     "email": "newemail@funcompany.com",
     "fax": "00311234567890",
-	"id": "12345678",
+	  "id": "12345678",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
     "zipcode": "5678 NW"
