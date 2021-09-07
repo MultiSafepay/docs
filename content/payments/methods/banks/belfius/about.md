@@ -18,7 +18,8 @@ Belfius is a popular online banking payment method for Belfius bank customers in
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | [Direct](/api/#create-a-direct-order) / {{< br >}} [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#belfius-direct) / {{< br >}} [Redirect](/api/#belfius-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
