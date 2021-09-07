@@ -18,8 +18,7 @@ ING Home'Pay is an online payment method for ING customers in Belgium. Customers
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | [Direct](/api/#ing-home-pay-direct) {{< br >}} [Redirect](/api/#ing-home-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-
+| **API flow**  | [Direct](/api/#ing-home-pay-direct) / [Redirect](/api/#ing-home-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
