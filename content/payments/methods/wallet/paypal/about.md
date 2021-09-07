@@ -17,7 +17,7 @@ PayPal is a leading global payment method that lets customers pay by credit card
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Wallet  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#paypal-direct) / {{< br >}} [Redirect](/api/#paypal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](https://developer.paypal.com/docs/payouts/reference/country-and-currency-codes/) | 
 | **Refunds**  | Full and partial  | [More information](/payments/methods/wallet/paypal/user-guide/processing-refunds/) | 

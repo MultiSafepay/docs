@@ -19,7 +19,7 @@ Visa is a leading global credit card scheme. An additional layer of security is 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Credit card  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Redirect](/api/#visa) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies)  | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 

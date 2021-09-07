@@ -20,7 +20,8 @@ Betaal per Maand bears the risk and guarantees settlement.
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | `Direct`| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#santander-betaal-per-maand) | [More information](/developer/api/difference-between-direct-and-redirect) |
+
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](https://docs.multisafepay.com/faq/general/supported-currencies/) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
