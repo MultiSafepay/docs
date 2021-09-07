@@ -17,7 +17,7 @@ Apple Pay is a leading global payment method that lets customers tokenize their 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Wallet  | |
-| **API flow**  | [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#apple-pay-direct) / [Redirect](/api/#apple-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | [More information](https://support.apple.com/en-us/HT207957) |
 | **Currencies**  | Multiple | [More information](https://support.apple.com/en-us/HT207957) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
