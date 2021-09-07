@@ -51,7 +51,7 @@ MultiSafepay supports the following gift cards as standard:
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Prepaid card  | |
-| **API flow**  | [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Redirect](/api/#gift-cards) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium, the Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Only payments with a gift card **and** another payment method  | [More information](/payments/methods/prepaid-cards/gift-cards/user-guide/processing-refunds) | 
