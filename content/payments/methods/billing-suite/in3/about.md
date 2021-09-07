@@ -16,7 +16,8 @@ in3 is a Dutch online post-payment method where customers pay in 3 installments 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | [Direct](/api/#create-a-direct-order) / {{< br >}} [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Direct](/api/#in3-direct) / [Redirect](/api/#in3-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+
 | **Countries**  | The Netherlands  | in3 checks the customer's country, and billing/shipping address to confirm. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full, partial, API  | [More information](/payments/refunds/) | 
