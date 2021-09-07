@@ -17,7 +17,7 @@ American Express is one of the biggest global credit card schemes, accepted in m
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Credit card  | |
-| **API flow**  | [Direct](/api/#create-a-direct-order) / {{< br >}} [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **API flow**  | [Redirect](/api/#american-express) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
