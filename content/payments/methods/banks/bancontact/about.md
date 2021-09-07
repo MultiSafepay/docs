@@ -23,7 +23,6 @@ Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0
 |---|---|---|
 | **Payment type**   | Bank  | |
 | **API flow**  | [Redirect](/api/#bancontact) | [More information](/developer/api/difference-between-direct-and-redirect) |
-
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
