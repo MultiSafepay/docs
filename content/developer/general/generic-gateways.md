@@ -24,7 +24,7 @@ For more information about integrating open-loop and closed-loop gift cards in o
 
 ## Co-branded credit cards
 
-You can integrate Visa co-branded credit cards, such as [Cartes Bancaires](/payments/methods/cartes-bancaires/) and [Dankort](/payments/methods/dankort/), using the generic `VISA` gateway.  
+You can integrate Visa co-branded credit cards, such as [Cartes Bancaires](/payments/methods/cartes-bancaires/) and [Dankort](/payments/methods/dankort/), using the generic `VISA` gateway code.  
 
 For the gateway image, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
 
