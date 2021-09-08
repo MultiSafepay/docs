@@ -27,7 +27,8 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 | 3. | Ship the order within 28 days, or [extend the shipping period](/payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/). {{< br >}} See also [Supported addresses](/payments/methods/billing-suite/klarna/user-guide/supported-addresses/). | | |
 | 4. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/klarna/user-guide/changing-order-status--to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared | 
-| 5. | Klarna invoices the customer. Settlement is now guaranteed. {{< br >}} See also [Customizing invoices](/payments/methods/billing-suite/klarna/user-guide/customizing-invoices/). | | |
+| 5. | Klarna invoices the customer. {{< br >}} See also [Customizing invoices](/payments/methods/billing-suite/klarna/user-guide/customizing-invoices/). | | |
+
 | 6. | Klarna settles the funds with MultiSafepay, and we add them to your MultiSafepay balance. | Shipped    | Completed  |
 
 ## Unsuccessful statuses
