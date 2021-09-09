@@ -8,7 +8,7 @@ aliases:
     - /integrations/woocommerce/faq/payment-fee-surcharges/
 ---
 
-Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is not supported in the Woocommerce plugin.
+Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is possible with the WooCommerce plugin when combined with a third-party package.
 
 **Using third-party packages**
 To apply a surcharge or payment fee to a payment method, you can use third-party packages that follow the WooCommerce and Wordpress development guidelines.
