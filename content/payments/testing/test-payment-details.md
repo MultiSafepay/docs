@@ -208,9 +208,10 @@ It is not possible to test TrustPay payments.
 
 To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
-To generate a test API key from AfterPay for authentication, create an AfterPay Sandbox account. See AfterPay – [Sign in](https://developer-sandbox.afterpay.io/). 
+To get a test AfterPay API key, you can either:
 
-The API key appears on the AfterPay **Account** page, which also specifies how long it is valid. The key is generated immediately, but you may need to refresh the page after a few seconds to display it. 
+- Request one in your implementation ticket with AfterPay, or
+- Email <sales@afterpay.nl> 
 
 To force and test a rejected order, use the following email address: <rejection@afterpay.nl>  
 
