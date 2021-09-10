@@ -88,7 +88,7 @@ An array of objects including `id`, `set_id`, `value`, `price`, `type`, and `pri
 ----------------
 `value` | integer | required
 
-The weight of the item corresponding to the [unit](/api/#unit).  
+The weight of the item corresponding to the unit.  
 Example: unit= KG, value= 12. The weight of the item is 12 kilograms. 
 
 ----------------
