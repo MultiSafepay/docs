@@ -256,12 +256,12 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment-methods-object/).
+See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `reason` | string
@@ -386,12 +386,12 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment-methods-object/).
+See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `reason` | string

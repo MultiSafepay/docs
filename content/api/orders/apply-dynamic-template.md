@@ -218,7 +218,7 @@ Contains:
 
     - `payment_methods` | object
 
-        See [payment_methods (object)](/api/#payment-methods-object/).
+        See [payment_methods (object)](/api/#payment-methods-object).
 
     - `active` | object
     - `secondary` | object
