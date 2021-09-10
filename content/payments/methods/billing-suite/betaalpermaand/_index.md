@@ -5,7 +5,7 @@ meta_title: "Payment methods - Betaal per Maand - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander"
 childlist: '.'
-intro_description: "Betaal per Maand is an online post-payment method in collaboration with Santander. MultiSafepay is the only payment service provider that supports Betaaal per Maand online."
+intro_description: "Betaal per Maand is an online payment method in collaboration with Santander. Customers pay for orders after receiving them as a one-off payment or in monthly installments. They are only charged for the items they keep from the order. Betaal per Maand bears the risk and guarantees settlement. MultiSafepay is the only payment service provider that supports Betaal per Maand online."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/betaalpermaand.svg'

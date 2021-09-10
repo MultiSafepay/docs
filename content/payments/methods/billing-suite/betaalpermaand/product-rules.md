@@ -1,41 +1,30 @@
 ---
-title: 'About Betaal per Maand'
-breadcrumb_title: 'About Betaal per Maand'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Betaal per Maand - MultiSafepay Docs"
+meta_title: "Betaal per Maand Product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
+aliases:
+    - /payments/methods/billing-suite/betaalpermaand/about/
 ---
-
-Betaal per Maand is an online post-payment method in collaboration with Santander. MultiSafepay is the only payment service provider that supports Betaal per Maand online.
-
-Customers pay for orders after receiving them as a one-off post-payment or in monthly installments. They are only charged for the items they keep from the order. 
-
-Betaal per Maand bears the risk and guarantees settlement. 
-
-### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Post-payment method  | |
-| **API flow**  | [Direct](/api/#santander-betaal-per-maand) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](https://docs.multisafepay.com/faq/general/supported-currencies/) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Direct](/api/#santander-betaal-per-maand) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
-
-### Product rules
-
-- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
-
-- See also:
-    - User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/).
-    - MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+| **Transactions expire after**  | 1 day | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
+
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -66,4 +55,7 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 
 {{< /details >}}
 
+See also:  
 
+- User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/)
+- MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies)

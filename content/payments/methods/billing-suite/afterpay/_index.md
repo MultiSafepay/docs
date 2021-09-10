@@ -5,7 +5,7 @@ meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/afterpay"
 childlist: '.'
-intro_description: "AfterPay is a widely used post-payment method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement."
+intro_description: "AfterPay is a widely used payment method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/AfterPay.svg' 

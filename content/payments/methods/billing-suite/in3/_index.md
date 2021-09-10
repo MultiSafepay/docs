@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: 'single'
 linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/in3'
 childlist: '.'
-intro_description: "in3 is a Dutch online post-payment method where customers pay in 3 installments at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one."
+intro_description: "in3 is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one."
 faq: '.'
 logo: '/svgs/in3.svg' 
 short_description: 'Dutch post-payment method where customers pay in 3 installments'

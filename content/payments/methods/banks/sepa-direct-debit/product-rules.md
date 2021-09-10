@@ -1,8 +1,8 @@
 ---
-title : "About SEPA Direct Debit"
-breadcrumb_title: 'About SEPA Direct Debit'
+title : "Product rules"
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About SEPA Direct Debit - MultiSafepay Docs"
+meta_title: "SEPA Direct Debit product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
@@ -11,27 +11,22 @@ aliases:
     - /payment-methods/sepa-direct-debit/what-is-sepa-direct-debit/
     - /payment-methods/direct-debit/what-is-direct-debit/
     - /payment-methods/banks/direct-debit/what-is-direct-debit/
+    - /payments/methods/banks/sepa-direct-debit/about/
 ---
-
-SEPA Direct Debit is a European payment method where customers authorize automatic one-off debits or [Recurring Payments](/recurring-payments/about/) directly from their bank account. It is available in 36 countries. 
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Bank  | |
-| **API flow**  | [Direct](/api/#sepa-direct-debit-direct) / {{< br >}} [Redirect](/api/#sepa-direct-debit-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | SEPA region  | [More information](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf) |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | Yes | See below.  |
+| **Payment flow**  | [Direct](/api/#sepa-direct-debit-direct) / {{< br >}} [Redirect](/api/#sepa-direct-debit-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
-
-## Product rules
-
-You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+| **Transactions expire after**  | Doesn't apply | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
 
 - You cannot refund more than the original transaction value.
 

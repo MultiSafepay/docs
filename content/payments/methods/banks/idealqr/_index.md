@@ -16,3 +16,5 @@ aliases:
 ---
 See also [iDEAL](/payments/methods/banks/ideal/).
 
+**Note:** Most Dutch banks have their own QR code on their payment page, but this is not the same as iDEAL QR.
+

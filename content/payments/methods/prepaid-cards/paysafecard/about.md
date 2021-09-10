@@ -22,7 +22,7 @@ Paysafecard lets customers make online payments using secure prepaid vouchers, a
 | **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Only payments with Paysafecard **and** another payment method  | [More information](/payments/refunds/) | 
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 
 ## Product rules
 
