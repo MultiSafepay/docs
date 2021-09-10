@@ -1,35 +1,31 @@
 ---
-title: "About TrustPay"
-breadcrumb_title: 'About TrustPay'
+title: "Product rules"
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About TrustPay - MultiSafepay Docs"
+meta_title: "EPS product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
+logo: '/logo/Payment_methods/bancepsontact.svg'
 aliases: 
-    - /payment-methods/trustpay/trustpay-what-is-it/
+    - /payment-methods/eps/what-is-eps/
+    - /payments/methods/banks/eps/about/
 ---
-
-TrustPay is a payment method from the Czech Republic where customers pay from their own online banking environment.
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Bank  | |
-| **API flow**  | [Redirect](/api/#trustpay) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Countries**  | Czech Republic  | |
-| **Currencies**  | CZK | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Countries**  | Austria  | |
+| **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Redirect](/api/#eps) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
-
-## Product rules
-
-You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+| **Transactions expire after**  | Doesn't apply | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
-- You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
+- [Full and partial refunds](/payments/refunds/) are supported.
+
+- You cannot refund more than the original transaction value.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 

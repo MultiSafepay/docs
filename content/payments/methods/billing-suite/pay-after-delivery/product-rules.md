@@ -1,31 +1,29 @@
 ---
-title: 'About Pay After Delivery'
-breadcrumb_title: 'About Pay After Delivery'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Pay After Delivery - MultiSafepay Docs"
+meta_title: "Pay After Delivery product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
+aliases:
+    - /payments/methods/billing-suite/pay-after-delivery/about/
 ---
-
-Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and [conversion](/getting-started/glossary/#conversion-rate). Customers are only charged for the items they keep from the order. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
-
-### General
 
 |   |   |   |
 |---|---|---| 
-| **Payment type** | Post-payment method   |  | 
-| **API flow** | [Direct](/api/#paypal-direct) / [Redirect](/api/#paypal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
-| **Refunds** | Full, partial, discount, API | [More information](/payments/refunds/) |
+| **Chargebacks** | No | [More information](/payments/chargebacks/) |
+| **Payment flow** | [Direct](/api/#paypal-direct) / [Redirect](/api/#paypal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) | 
 | **Recurring Payments** | No | [More information](/payments/features/recurring-payments/) |
-| **Chargebacks** | No | [More information](/faq/chargebacks) |
-
-### Product rules
+| **Transactions expire after**  | Doesn't apply | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- Full, partial, and API refunds and discounts are supported. See [Refunds](/payments/refunds/).
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -67,4 +65,3 @@ To successfully process partial refunds for the same product with different spec
 
 - The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
 
-- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).

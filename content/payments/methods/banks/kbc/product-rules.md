@@ -1,38 +1,33 @@
 ---
-title: "About Bancontact QR"
-breadcrumb_title: 'About Bancontact QR'
+title: "Product rules"
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Bancontact QR - MultiSafepay Docs"
+meta_title: "KBC product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-logo: '/logo/Payment_methods/bancontact-qr.svg'
+logo: '/logo/Payment_methods/KBC.svg'
 aliases: 
-    - /payment-methods/bancontact/what-is-bancontact-qr/
+    - /payment-methods/kbc/what-is-kbc/
+    - /payments/methods/banks/kbc/about/
 ---
-
-Bancontact QR is an additional service offered by Bancontact. Customers use their smartphone to scan a QR code to complete payment.
-
-Once payment is completed, the customer cannot reverse it and Bancontact QR guarantees settlement.
-
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Bank  | |
-| **API flow**  | [Redirect](/api/#bancontact-qr) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Direct](/api/#kbc-direct) / {{< br >}} [Redirect](/api/#kbc-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
-
-## Product rules
-
-You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+| **Transactions expire after**  | 5 days | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
+
+- MultiSafepay doesn’t automatically receive the IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. You can process refunds after 1 business day.
+
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -46,3 +41,5 @@ You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 - If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
+
+The payment method functions the same for both the KBC branch and the CBC branch. However, MultiSafepay's payment gateway includes KBC and CBC as separate options because customers of one branch can't pay through the other.

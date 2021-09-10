@@ -5,7 +5,7 @@ meta_title: "Payment methods - E-Invoicing - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/e-invoicing"
 childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-intro_description: "E-Invoicing is a MultiSafepay post-payment method with automation tools that gives you full control of credit management, the payment process, and customer contact. Customers pay for orders after receiving them."
+intro_description: "E-Invoicing is a MultiSafepay payment method with automation tools that gives you full control of credit management, the payment process, and customer contact. Customers pay for orders after receiving them."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/e-invoicing.svg' 

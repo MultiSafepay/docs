@@ -1,41 +1,31 @@
 ---
-title: "About SOFORT Banking"
-breadcrumb_title: 'About SOFORT Banking'
+title: "Product rules"
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About SOFORT Banking - MultiSafepay Docs"
+meta_title: "SOFORT Banking product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/SOFORT.svg'
 aliases: 
     - /payment-methods/bancontact/what-is-sofort-banking/
+    - /payments/methods/banks/sofort-banking/about/
 ---
-
-SOFORT Banking is a payment method available in several European countries, and particularly popular in Germany. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
-
-Once a payment is completed, the customer cannot reverse it and SOFORT Banking guarantees settlement.
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Bank  | |
-| **API flow**  | [Direct](/api/#sofort-direct) / [Redirect](/api/#sofort-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland  | |
 | **Currencies**  | EUR {{< br >}} **Note:** British Pounds (GBP), Swiss Francs (CHF) and Polish Zloty (PLN) are **not** supported. | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Direct](/api/#sofort-direct) / [Redirect](/api/#sofort-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
-
-## Product rules
-
-- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
-
-- The minimum amount for SOFORT transactions is 0,10 EUR.
-
-- Transactions must be processed in the supported countries or a 1024 error is returned on completion of payment.
+| **Transactions expire after**  | 1 day | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
+
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -49,3 +39,8 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 - If a refund fails, email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
+
+
+- The minimum amount for SOFORT transactions is 0,10 EUR.
+
+- Transactions must be processed in the supported countries or a 1024 error is returned on completion of payment.

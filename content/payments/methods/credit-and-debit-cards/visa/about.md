@@ -24,7 +24,7 @@ Visa is a leading global credit card scheme. An additional layer of security is 
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies)  | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
 | **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
+| **Chargebacks**  | Yes | [More information](/payments/chargebacks/)  |
 
 ## Product rules
 

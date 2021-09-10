@@ -1,39 +1,32 @@
 ---
-title: "About Bancontact"
-breadcrumb_title: 'About Bancontact'
+title: "Product rules"
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Bancontact - MultiSafepay Docs"
+meta_title: "Bancontact product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
 aliases: 
     - /payment-methods/bancontact/what-is-bancontact/
+    - /payments/methods/banks/bancontact/about/
 ---
-
-Bancontact is a leading Belgian payment method that supports online, mobile app, and [POS](/getting-started/glossary/#point-of-sale-pos-terminal) payments. Bancontact is a household name and supported by over 80% of Belgian webshops. It was formerly known as Mister Cash.
-
-Once a payment is completed, the customer cannot reverse it and Bancontact guarantees settlement.
-
-Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0 verification.
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Bank  | |
-| **API flow**  | [Redirect](/api/#bancontact) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Redirect](/api/#bancontact) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
+| **Transactions expire after**  | 1 hour | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
-## Product rules
-
-You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0 verification.
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported. 
 - You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.

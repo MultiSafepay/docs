@@ -24,7 +24,7 @@ Postepay is a popular Visa or Mastercard-branded credit card in Italy. An additi
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 
 ## Product rules
 

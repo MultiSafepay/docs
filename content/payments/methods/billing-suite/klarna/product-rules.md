@@ -1,31 +1,32 @@
 ---
-title: 'About Klarna'
-breadcrumb_title: 'About Klarna'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Klarna - MultiSafepay Docs"
+meta_title: "Klarna product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
+aliases:
+    - /payments/methods/billing-suite/klarna/about/
 ---
-
-Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Post-payment method  | |
-| **API flow**  | [Direct](/api/#klarna) / [Redirect](/api/#klarna-redirect) {{< br >}} Both direct to the Klarna payment page| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, Netherlands  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full, partial, discounts, API | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Direct](/api/#klarna) / [Redirect](/api/#klarna-redirect) {{< br >}} Both direct to the Klarna payment page| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
+| **Transactions expire after**  | 1 day | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 ## Product rules
 
 {{< details title="Refunds" >}}
+
+- Full, partial, and API refunds, and discounts are supported. See [Refunds](/payments/refunds/). 
+
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -87,5 +88,5 @@ Instead of deleting an item in the checkout editor, you may want to add a discou
 
 {{< /details >}}
 
-- See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
-- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+

@@ -29,7 +29,7 @@ To identify transactions in reports by payment method, use the following N-codes
 | N092   | [DIRECTBANK](/payment-methods/banks/sofort-banking)          |   |
 | N093   | CURRENCY CONVERSION                                     |   |
 | N094   | [MISTERCASH](/payment-methods/banks/bancontact)              |   |
-| N095   | [CHARGEBACK](/faq/chargebacks) |   |
+| N095   | [CHARGEBACK](/payments/chargebacks/) |   |
 | N096   | WITHDRAWAL                                              |   |
 | N097   | Refund                                                  |   |
 | N098   | [COUPON](/payment-methods/prepaid-cards/gift-cards)                  |   |

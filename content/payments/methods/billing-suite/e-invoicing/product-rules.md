@@ -1,37 +1,30 @@
 ---
-title: 'About E-Invoicing'
-breadcrumb_title: 'About E-Invoicing'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About E-Invoicing - MultiSafepay Docs"
+meta_title: "E-Invoicing product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
+aliases:
+    - /payments/methods/billing-suite/e-invoicing/about/
 ---
-
-E-Invoicing is a MultiSafepay post-payment method with automation tools that gives you full control of credit management, the payment process, and customer contact. Customers pay for orders after receiving them.
-
-## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Post-payment method  | |
-| **API flow**  | [Direct](/api/#e-invoicing-direct) / [Redirect](/api/#e-invoicing-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full, partial, discounts, API  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  | 
+| **Payment flow**  | [Direct](/api/#e-invoicing-direct) / [Redirect](/api/#e-invoicing-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
-
-## Product rules
-
-- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
-
-- E-Invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
-
-- See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+| **Transactions expire after**  | Doesn't apply | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- Full and partial refunds, discounts, and API refunds are supported. See [Refunds](/payments/refunds/).
+
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -56,4 +49,6 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 
 {{< /details >}}
 
+- E-Invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
 
+- See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).

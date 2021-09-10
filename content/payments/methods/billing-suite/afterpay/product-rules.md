@@ -1,31 +1,31 @@
 ---
-title: 'About AfterPay'
-breadcrumb_title: 'About AfterPay'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About AfterPay - MultiSafepay Docs"
+meta_title: "AfterPay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
+aliases:
+    - /payments/methods/billing-suite/afterpay/about/
 ---
-
-AfterPay is a widely used online post-payment method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
-
-### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Post-payment method  | |
-| **API flow**  | [Direct](/api/#afterpay-direct) / [Redirect](/api/#afterpay-redirect)| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full, partial, discounts, API  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  | 
+| **Payment flow**  | [Direct](/api/#afterpay-direct) / [Redirect](/api/#afterpay-redirect)| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/faq/chargebacks)  |
+| **Transactions expire after**  | 90 days | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
-## Product rules
 
 {{< details title="Refunds" >}}
+
+- Full and partial refunds, discounts, API refunds are supported. See [Refunds](/payments/refunds/).
+
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
@@ -60,11 +60,9 @@ To successfully process partial refunds for the same product with different spec
 
 {{< /details >}}
 
-- You cannot [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
-
 - AfterPay requires an additional API key for Belgium. Contact AfterPay.
 
-- You must [activate MultiSafepay PayV2 payment pages](/payments/methods/billing-suite/afterpay/faq/activating-payv2/) at website level in your MultiSafepay account. 
+- You must [activate MultiSafepay payment pages](/payments/methods/billing-suite/afterpay/faq/activating-payv2/) at website level in your MultiSafepay account. 
 
 - Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API Reference – [Retrieve an order](/api/#retrieve-an-order). 
 
