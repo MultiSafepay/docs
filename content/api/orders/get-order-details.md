@@ -193,7 +193,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `related_transactions` | object
@@ -209,7 +209,7 @@ See [costs (object)](/api/#costs-object).
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment-methods-object/).
+See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 
