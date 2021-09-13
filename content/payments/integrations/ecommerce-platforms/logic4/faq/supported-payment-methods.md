@@ -9,28 +9,28 @@ aliases:
 
 {{< details title="Credit cards" >}}
 
-+ [American Express](/payments/methods/credit-and-debit-cards/american-express)
-+ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payments/methods/credit-and-debit-cards/visa)
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa)
 
 {{< /details >}}
 
 {{< details title="Banking methods" >}}
 
-+ [Bancontact](/payments/methods/banks/bancontact)
-+ [Bank transfer](/payments/methods/banks/bank-transfer)
-+ [Belfius](/payments/methods/banks/belfius)
-+ [EPS](/payments/methods/banks/eps)
-+ [Giropay](/payments/methods/banks/giropay)
-+ [iDEAL](/payments/methods/banks/ideal)
-+ [iDEAL QR](/payments/methods/banks/idealqr)
-+ [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-+ [KBC](/payments/methods/banks/kbc)
-+ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [iDEAL QR](/payments/methods/banks/idealqr)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 + MultiSafepay Wallet
 + [PayPal](/payments/methods/wallet/paypal)
-+ [SOFORT Banking](/payments/methods/banks/sofort-banking)
-+ [Trustly](/payments/methods/banks/trustly)
+- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
 
 {{< /details >}}
 

@@ -8,23 +8,23 @@ aliases:
     - /integrations/lightspeed/faq/available-payment-methods-lightspeed/
 
 ---
-+ [American Express](/payments/methods/credit-and-debit-cards/american-express)
-+ [Bancontact](/payments/methods/banks/bancontact)
-+ [Bank transfer](/payments/methods/banks/bank-transfer)
-+ [Belfius](/payments/methods/banks/belfius)
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-+ [Dotpay](/payments/methods/banks/dotpay)
-+ [EPS](/payments/methods/banks/eps)
-+ [Giropay](/payments/methods/banks/giropay)
-+ [iDEAL](/payments/methods/banks/ideal)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
 + [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
-+ [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-+ [KBC](/payments/methods/banks/kbc)
-+ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
-+ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [PayPal](/payments/methods/wallet/paypal)
-+ [SOFORT Banking](/payments/methods/banks/sofort-banking)
-+ [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 
 **Gift cards**
