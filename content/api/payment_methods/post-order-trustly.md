@@ -1,7 +1,7 @@
 ---
-weight: 330
-meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+weight: 332
+meta_title: "API Reference - Create a Trustly order - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 

@@ -1,53 +1,61 @@
 ---
-weight: 333
-meta_title: "API Reference - Create a TrustPay order - MultiSafepay Docs"
+weight: 312
+meta_title: "API Reference - Create an Edenred order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
-> POST - /orders 
+> POST - / order 
 
-```json
+
+```json 
 {
   "type":"redirect",
-  "order_id":"my-order-id-1",
-  "currency":"CZK",
-  "amount":1000,
-  "gateway":"TRUSTPAY",
+  "order_id":"my-order-id",
+  "gateway":"EDENCO",
+  "currency":"EUR",
+  "amount":100,
   "description":"Test order description",
-  "custom_info":{
-    
-  },
-  "payment_options":{
+  "manual":false,
+  "payment_options": {
     "notification_url":"http://www.example.com/client/notification?type=notification",
     "redirect_url":"http://www.example.com/client/notification?type=redirect",
     "cancel_url":"http://www.example.com/client/notification?type=cancel",
-    "close_window":true
-  },
+    "settings": {
+      "gateways": {
+        "coupons": {
+          "allow": [
+            "EDENECO"
+                    ],
+          "disabled": false
+                }
+            }
+        }
+    },
   "customer":{
-    "email":"simonsmit@example.com",
-    "locale":"cs_CZ"
+    "locale":"nl_NL",
+    "ip_address":"123.123.123.123",
+    "country":"NL",
+    "email":"simonsmit@example.com"
   }
 }
 ```
 
 > JSON response
-
-
-```json
+```json 
 {
   "success":true,
   "data":{
     "order_id":"my-order-id-1",
-    "payment_url":"https://payv2.multisafepay.com/connect/13oElUaESR7YS2b4gUJV9oI4tUXeb1mj1D8/?lang=en_CZ"
+    "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
   }
 }
-```
+```  
 {{< /code-block >}}
 
 {{< description >}}
-## TrustPay
+## Edenred
 
-- See also Payment methods – [TrustPay](/payments/methods/banks/trustpay).  
+- See also Payment methods – [Edenred](/payments/methods/prepaid-cards/edenred).  
 - Redirect only.
 
 **Parameters**
@@ -61,8 +69,20 @@ Options: `redirect`.
 ----------------
 `order_id` | string | required
 
-Your unique identifier for the order.    
+Your unique identifier for the order.  
 Format: Maximum 50 characters.
+
+----------------
+`gateway` | string | optional
+
+The unique gateway identifier to direct the customer straight to the payment method.  
+To retrieve gateway IDs, see [Gateways](/api/#gateways).  
+
+Options:  
+`EDENCOM` = Ticket Compliments  
+`EDENECO` = Ticket EcoCheque  
+`EDENRES` = Ticket Restaurant  
+`EDENSPORTS` = Ticket Sport & Culture  
 
 ----------------
 `currency` | string | required
@@ -76,12 +96,6 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 The amount (in cents) the customer needs to pay.
 
 ----------------
-`gateway` | string | required
-
-The unique gateway identifier.  
-Fixed value: `TRUSTPAY`.
-
-----------------
 `description` | string | required
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
@@ -89,21 +103,23 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-`custom_info` | object
+`manual` | string | required
 
-See [custom_info (object)](/api/#custom-info-object).
+Fixed value: `false`.
 
 ----------------
 `payment_options` | object | required
 
-See [payment_options (object)](/api/#payment-options-object).
+To manage which vouchers are offered to the customer.
+
+For more information, see [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-`customer` | object | required 
+`customer` | object | required
 
 See [customer (object)](/api/#customer-object).
 
-**Response** 
+**Response**
 
 ----------------
 `payment_url` | string 

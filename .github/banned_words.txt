@@ -24,7 +24,6 @@ Magento2
 Merchant Back-office
 Merchant Control
 Merchant Control Panel
-Merchant ID
 MerchantID
 multicurrency
 Multisafepay
