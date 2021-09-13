@@ -8,7 +8,7 @@ short_description: "Key information, supported countries and currencies, product
 layout: 'child'
 logo: '/svgs/in3.svg'
 url: '/payments/methods/in3/product-rules/'
-aliases:
+aliases: 
     - /payments/methods/billing-suite/in3/about/
 ---
 

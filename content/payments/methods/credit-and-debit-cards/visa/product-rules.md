@@ -24,6 +24,7 @@ aliases:
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
+
 {{< details title="Refunds" >}}
 
 - [Full and partial refunds](/payments/refunds/) are supported.

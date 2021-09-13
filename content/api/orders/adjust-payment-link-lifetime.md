@@ -9,13 +9,31 @@ aliases:
     - /developer/api/adjusting-payment-link-lifetimes/
 ---
 {{< code-block >}}
+> POST - /orders
 
 ```json 
+
 {
-  "days_active":30,
-  "seconds_active":60,
-  "description":"Test order description"
-}
+  "type":"paymentlink",
+  "order_id":"test-123",
+  "gateway":"",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Test order description",
+  "days_active":14,
+  "second_chance":{
+    "send_email":true
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  "customer":{
+    "locale":"en_US"
+  }
+  }
 ```
 {{< /code-block >}}
 
@@ -40,7 +58,7 @@ If set for under 24 hours:
 
 **Parameters**
 
-Include in your `POST /orders` request:
+Include in the main body of your `POST /orders` request:
 
 ----------------
 

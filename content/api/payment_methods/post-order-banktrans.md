@@ -337,7 +337,7 @@ Format: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `costs` | object
@@ -347,7 +347,7 @@ See [costs (object)](/api/#costs-object).
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment-methods-object/).
+See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `gateway_info` | object

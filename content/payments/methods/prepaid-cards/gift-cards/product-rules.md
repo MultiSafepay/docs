@@ -61,8 +61,6 @@ MultiSafepay supports the following gift cards as standard:
 
 {{< details title="Paying with multiple cards" >}}
 
-Customers can pay for an order using multiple gift cards of the same or different types.
-
 For [open-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/open-closed-loop/):
 
 - The maximum credit value is 150 EUR.

@@ -404,7 +404,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `shopping_cart.items` | required

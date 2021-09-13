@@ -329,7 +329,7 @@ The timestamp when the order was last modified.
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `costs` | object

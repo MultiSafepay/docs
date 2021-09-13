@@ -8,6 +8,7 @@ short_description: "Key information, supported countries and currencies, product
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
 url: '/payments/methods/e-invoicing/product-rules/'
+
 aliases:
     - /payments/methods/billing-suite/e-invoicing/about/
 ---

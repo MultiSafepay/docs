@@ -176,7 +176,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_details` | object
 
-See [payment_details (object)](/api/#payment-details-object/).
+See [payment_details (object)](/api/#payment-details-object).
 
 ----------------
 `costs` | object
@@ -191,7 +191,7 @@ Information about linked transactions.
 ----------------
 `payment_methods` | object
 
-See [payment_methods (object)](/api/#payment-methods-object/).
+See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 
