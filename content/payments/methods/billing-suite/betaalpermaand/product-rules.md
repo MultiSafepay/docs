@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
+url: '/payments/methods/betaal-per-maand/product-rules/'
 aliases:
     - /payments/methods/billing-suite/betaalpermaand/about/
 ---

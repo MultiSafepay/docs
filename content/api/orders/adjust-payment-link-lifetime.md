@@ -22,7 +22,7 @@ aliases:
 {{< description >}}
 ### Adjust payment link lifetimes
 
-The lifetime of a [payment link](/payments/checkout/payment-link/) is how long it remains valid for the customer to complete payment. The default is 30 days, after which the link expires. Except for:  
+The lifetime of [payment links](/payments/checkout/payment-link/) for MultiSafepay payment pages is how long the link remains valid for the customer to complete payment. This applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only. The default is 30 days, after which the link expires. Except for:  
 
 - [Bank Transfer](/payments/methods/banks/bank-transfer/): 60 days
 - [PayPal](/payments/methods/wallet/paypal/): 14 days

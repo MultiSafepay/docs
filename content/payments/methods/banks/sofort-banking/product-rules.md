@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/SOFORT.svg'
+url: '/payments/methods/sofort-banking/product-rules/'
 aliases: 
     - /payment-methods/bancontact/what-is-sofort-banking/
     - /payments/methods/banks/sofort-banking/about/

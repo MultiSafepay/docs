@@ -20,10 +20,8 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 {{< /details >}}
 
-### Payment flow
-
 |                       | Flow      | Order status | Transaction status |
-|--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
+|-----|----|---|------|
 | 1. | The customer initiates a transaction, is redirected to in3, and enters their details. | Initialized   | Initialized  |
 | 2. | in3 authorizes the payment. |   |   |
 | 3. | The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
@@ -38,14 +36,14 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description                      | Order status      | Transaction status |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
+|----|---|----------|
 | in3 has declined the payment. No order was created.    | Declined   | Declined   |
 | The payment was cancelled or abandoned. | Void    | Void    |
 
 ## Refund statuses
 
 | Description                      | Order status      | Transaction status |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
+|----|-----|-----|
 | in3 has successfully processed a full or partial refund. | Completed    | Completed   |
 | in3 has declined a full or partial refund request.  | Declined      | Declined   |
 

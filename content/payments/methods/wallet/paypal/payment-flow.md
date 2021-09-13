@@ -37,7 +37,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The payment was made in a currency that is not enabled in your PayPal business account. Enable the currency for the order status to change to completed. {{< br >}} You can only decline or authorize **Uncleared** transactions in your PayPal account. | Uncleared | Initialized |
 | PayPal has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
+| The customer didn't complete the payment and the transaction expired after the 14-day period. | Expired | Expired |
 
 ## Refund statuses
 

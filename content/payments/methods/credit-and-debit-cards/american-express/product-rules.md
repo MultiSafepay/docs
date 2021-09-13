@@ -1,34 +1,26 @@
 ---
-title: 'About American Express'
-breadcrumb_title: 'About American Express'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About American Express - MultiSafepay Docs"
+meta_title: "American Express product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
+url: '/payments/methods/amex/product-rules/'
 aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
+    - /payments/methods/credit-and-debit-cards/american-express/about/
 ---
-
-American Express is one of the biggest global credit card schemes, accepted in more than 160 countries. An additional layer of security is provided by Safekey (the American Express-branded version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
-
-### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Credit card  | |
-| **API flow**  | [Redirect](/api/#american-express) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | Yes | See below.  |
+| **Payment flow**  | [Redirect](/api/#american-express) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/payments/chargebacks)  |
-
-## Product rules
-
-- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
-
-- All transactions higher than 30 EUR require Safekey.
+| **Transactions expire after**  | 1 hour | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="American Express MerchantID" >}}
 
@@ -43,6 +35,8 @@ For more information, email the Support Team at <support@multisafepay.com>
 {{< /details >}}
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
 
 - You cannot refund more than the amount of the original transaction.
 
@@ -74,6 +68,6 @@ To help reduce chargebacks, see [Your logo in online banking](/payments/methods/
 
 {{< /details >}}
     
-
+**Note:** All transactions higher than 30 EUR require Safekey.
 
 

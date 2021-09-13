@@ -39,7 +39,7 @@ You can cancel payments before the funds are captured. After the funds are captu
 |---|---|---|
 | Betaal per Maand has declined the payment. Betaal per Maand only provides the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
 | The payment was cancelled.   | Void   | Cancelled   |
-| The customer did not complete the payment, and it expired. | Expired    | Expired    |
+| The customer did not complete the payment within the 1-day period and the transaction expired. | Expired    | Expired    |
 
 ## Refund statuses
 

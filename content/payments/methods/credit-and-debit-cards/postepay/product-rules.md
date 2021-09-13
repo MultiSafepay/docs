@@ -1,34 +1,32 @@
 ---
-title: 'About Postepay'
-breadcrumb_title: 'About Postepay'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Postepay - MultiSafepay Docs"
+meta_title: "Postepay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies"
 layout: 'child'
 read_more: '.'
+url: '/payments/methods/postepay/product-rules/'
 aliases:
     - /payment-methods/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
+    - /payments/methods/credit-and-debit-cards/postepay/about/
 ---
-
-Postepay is a popular Visa or Mastercard-branded credit card in Italy. An additional layer of security is provided by Verified by Visa or or MasterCard SecureCode (branded versions of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which require cardholders to verify their identity.
-
-### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Credit card  | |
-| **API flow**  | [Direct](/api/#create-a-direct-order) / {{< br >}} [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Italy  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
+| **Payment flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Transactions expire after**  | 1 hour | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
-## Product rules
+{{< details title="Refunds" >}}
 
-{{< details title="Postepay refund rules" >}}
+- [Full and partial refunds](/payments/refunds/) are supported.
 
 - You cannot refund more than the amount of the original transaction.
 

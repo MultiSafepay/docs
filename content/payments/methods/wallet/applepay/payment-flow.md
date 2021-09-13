@@ -38,7 +38,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The issuer has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Void   |
-| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
+| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
 
 ## Refund statuses
 

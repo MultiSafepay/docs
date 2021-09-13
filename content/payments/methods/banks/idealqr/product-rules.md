@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal_QR.svg' 
+url: '/payments/methods/ideal-qr/product-rules/'
 aliases: 
     - /payment-methods/idealqr/what-is-idealqr/
     - /payments/methods/banks/idealqr/about/

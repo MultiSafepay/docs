@@ -1,38 +1,29 @@
 ---
-title: 'About Alipay'
-breadcrumb_title: 'About Alipay'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About Alipay - MultiSafepay Docs"
+meta_title: "Alipay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
+url: '/payments/methods/alipay/product-rules/'
 aliases:
-    - /payment-methods/wallet/alipay/alipay-what-is-it
+    - /payments/methods/wallet/alipay/about/
 ---
-
-Alipay is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless [POS](/getting-started/glossary/#point-of-sale-pos-terminal) payments, as well as international money transfers.
-
-### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Wallet  | |
-| **API flow**  | [Direct](/api/#alipay-direct) / [Redirect](/api/#alipay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, USD | [More information](/faq/general/supported-currencies/) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-
-## Product rules
-
-- For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
-
-- You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
-
-- Currency conversion is processed in EUR only.
+| **Payment flow**  | [Direct](/api/#alipay-direct) / [Redirect](/api/#alipay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Transactions expire after**  | 5 hours | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
 
 - You can refund more than original amount. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
 
@@ -47,3 +38,7 @@ Alipay is a leading global payment method that lets Chinese customers link their
 - If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< /details >}}
+
+- For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
+
+- Currency conversion is processed in EUR only.

@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/svgs/in3.svg'
+url: '/payments/methods/in3/product-rules/'
 aliases:
     - /payments/methods/billing-suite/in3/about/
 ---
