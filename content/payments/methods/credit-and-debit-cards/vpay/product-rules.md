@@ -1,35 +1,30 @@
 ---
-title: 'About V Pay'
-breadcrumb_title: 'About V Pay'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About V Pay - MultiSafepay Docs"
+meta_title: "V Pay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
+url: '/payments/methods/vpay/product-rules/'
 aliases:
     - /payment-methods/vpay/what-is-vpay/
     - /payments/methods/credit-and-debit-cards/vpay/user-guide/about-chargebacks/
 ---
 
-V Pay is a debit card service owned by Visa. It is accepted across Europe. An additional layer of security is provided by mandatory [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/) authentication, which requires cardholders to verify their identity.
-
-### Summary
-
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Debit card  | |
-| **API flow**  | [Direct](/api/#create-a-direct-order) / {{< br >}} [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Chargebacks**  | Yes | See below. |
+| **Payment flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/payments/chargebacks) |
-
-## Product rules
-
-You can [adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+| **Transactions expire after**  | 1 hour | |
+| **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
+
+- [Full and partial refunds](/payments/refunds/) are supported.
 
 - You cannot refund more than the amount of the original transaction.
 

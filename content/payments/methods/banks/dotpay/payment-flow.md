@@ -36,7 +36,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | Dotpay has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
+| The customer didn't complete the payment and the transaction expired after the 3-day period. | Expired | Expired |
 
 ## Refund statuses
 

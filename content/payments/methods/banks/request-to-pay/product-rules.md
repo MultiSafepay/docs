@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
+url: '/payments/methods/request-to-pay/product-rules/'
 aliases: 
     - /payment-methods/bancontact/what-is-request-to-pay/
     - /payments/methods/banks/request-to-pay/about/
@@ -17,7 +18,7 @@ aliases:
 | **Countries**  | Germany  | More countries will follow as more banks migrate to PSD2 APIs. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Direct](/api/#request-to-pay-direct) / {{< br >}} [Redirect](/api/#request-to-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#request-to-pay-direct) / [Redirect](/api/#request-to-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |

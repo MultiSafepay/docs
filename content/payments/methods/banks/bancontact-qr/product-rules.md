@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact-qr.svg'
+url: '/payments/methods/bancontact-qr/product-rules/'
 aliases: 
     - /payment-methods/bancontact/what-is-bancontact-qr/
     - /payments/methods/banks/bancontact-qr/about/

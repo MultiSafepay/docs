@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal.svg'
+url: '/payments/methods/ideal/product-rules/'
 aliases: 
     - /payment-methods/ideal/what-is-ideal/
     - /payments/methods/banks/ideal/about/

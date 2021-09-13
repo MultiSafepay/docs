@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: 'single'
 logo: '/logo/Payment_methods/Paysafecard.svg'
 short_description: 'Accept online payments using secure prepaid vouchers.'
+childlist: '.'
 aliases:
     - /support-tab/magento2/payment-methods/paysafecard
     - /payment-methods/paysafecard/

@@ -40,7 +40,7 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Description | Order status | Transaction status |
 |---|---|---|
 | AfterPay has declined the payment. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **Or** {{< br >}} The payment was cancelled. | Void | Cancelled |
-| The customer did not complete the payment within 90 days of initiating it and the transaction has expired. | Expired | Expired |
+| The customer did not complete the payment within the 90-day period and the transaction expired. | Expired | Expired |
 
 ### Return process
 If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 

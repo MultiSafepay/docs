@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/KBC.svg'
+url: '/payments/methods/kbc/product-rules/'
 aliases: 
     - /payment-methods/kbc/what-is-kbc/
     - /payments/methods/banks/kbc/about/

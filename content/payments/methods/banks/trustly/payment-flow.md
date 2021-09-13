@@ -35,7 +35,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | Trustly has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
+| The customer didn't complete the payment and the transaction expired after the 2-hour period. | Expired | Expired |
 | In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} The **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
 
 ## Refund statuses

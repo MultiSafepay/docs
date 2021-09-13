@@ -1,34 +1,25 @@
 ---
-title: 'About PayPal'
-breadcrumb_title: 'About PayPal'
+title: 'Product rules'
+breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "About PayPal - MultiSafepay Docs"
+meta_title: "PayPal product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
+url: '/payments/methods/paypal/product-rules/'
 aliases:
-    - /payment-methods/wallet/paypal/what-is-paypal
+    - /payments/methods/wallet/paypal/about/
 ---
-
-PayPal is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
-
-### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Wallet  | |
-| **API flow**  | [Direct](/api/#paypal-direct) / [Redirect](/api/#paypal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](https://developer.paypal.com/docs/payouts/reference/country-and-currency-codes/) | 
-| **Refunds**  | Full and partial  | [More information](/payments/methods/wallet/paypal/user-guide/processing-refunds/) | 
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks/)  |
-
-## Product rules
-
-- PayPal payment links are valid for 14 days. The [payment link lifetime](/api/#adjust-payment-link-lifetimes) is set by PayPal.
-
-- You can only decline or authorize **Uncleared** transactions in your PayPal account.
+| **Payment flow**  | [Direct](/api/#paypal-direct) / [Redirect](/api/#paypal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Transactions expire after**  | 14 days | |
+| **Adjust payment link lifetimes**  | Links are valid for 14 days. The lifetime is set by PayPal. | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="PayPal Seller Protection" >}}
 
@@ -42,6 +33,8 @@ For more information, see PayPal – [What is Seller Pretection](https://www.pay
 
 {{< details title="Refunds" >}}
 
+- [Full and partial refunds](/payments/refunds/) are supported.
+
 - You cannot refund more than the amount of the original transaction.
 
 - The maximum refund period is 60 days. After this period, we recommend processing refunds by bank transfer.
@@ -53,3 +46,5 @@ For more information, see PayPal – [What is Seller Pretection](https://www.pay
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
 {{< /details >}}
+
+You can only decline or authorize **Uncleared** transactions in your PayPal account.

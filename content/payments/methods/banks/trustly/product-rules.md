@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/trustly.svg'
+url: '/payments/methods/trustly/product-rules/'
 aliases: 
     - /payment-methods/trustly/what-is-trustly/
     - /payments/methods/banks/trustly/about/
