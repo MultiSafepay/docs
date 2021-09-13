@@ -8,23 +8,23 @@ aliases:
 ---
 {{< details title="Credit cards" >}}
 
-+ [American Express](/payments/methods/credit-and-debit-cards/american-express)
-+ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payments/methods/credit-and-debit-cards/visa)
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa)
 
 {{< /details >}}
 
 {{< details title="Banking methods" >}}
 
-+ [Bancontact](/payments/methods/banks/bancontact)
-+ [Bank transfer](/payments/methods/banks/bank-transfer)
-+ [Dotpay](/payments/methods/banks/dotpay)
-+ [EPS](/payments/methods/banks/eps)
-+ [Giropay](/payments/methods/banks/giropay)
-+ [iDEAL](/payments/methods/banks/ideal)
-+ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
 {{< /details >}}
 
