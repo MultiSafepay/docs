@@ -5,6 +5,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/general/multisafepay-ip-ranges/
+    - /faq/general/ip-ranges/
 ---
 To avoid failed offline actions in status updates (e.g. an HTTP 403 response), you may need to authorize the Multisafepay servers' ip addresses on your notification URL. 
 
