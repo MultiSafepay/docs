@@ -11,19 +11,19 @@ aliases:
     - /payment-methods/ing-home-pay/activate-ing-home-pay/
 ---
 
-**1.** Check whether ING Home'Pay is supported by your ecommerce platform.
+**1.** If you use a commercial ecommerce platform, check whether ING Home'Pay is supported.
 
-**2.** To activate ING Home'Pay:
+**2.** To apply for ING Home'Pay, email your account manager at <sales@multisafepay.com>
+
+**3.** Once your application is approved:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Payment methods**.
 3. Under **Additional payment methods**, select the **ING Home'Pay** checkbox.    
-    If ING Home'Pay is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
+    **Note:** If the ING Home'Pay checkbox is not visible, contact your account manager. 
 4. Click **Save changes**.
 
-**3.** Enable ING Home'Pay as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
-
-For any questions, email the Sales Team at <sales@multisafepay.com>
+**4.** Enable ING Home'Pay as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
 
 
 
