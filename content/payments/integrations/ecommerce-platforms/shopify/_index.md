@@ -17,6 +17,7 @@ aliases:
     - /integrations/hosted/shopify/manual
     - /integrations/shopify/manual
     - /integrations/ecommerce-integrations/shopify
+    - /ecommerce-platforms/shopify/
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Shopify webshop.
