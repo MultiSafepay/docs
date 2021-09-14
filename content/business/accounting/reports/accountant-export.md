@@ -69,7 +69,7 @@ To request automated Accountant exports, email the following information to the 
 
 - We support SFTP with username/password and username/SSH keys.
 - For SFTP connections, we only support ports **22** and **2222**.
-- Make sure our IP address is on your allow list. For more information, see [MultiSafepay IP ranges](/faq/general/ip-ranges).
+- Make sure our IP address is on your allow list. For more information, see [MultiSafepay IP ranges](/developer/errors-explained/multisafepay-ip-ranges/).
 - To deliver the report using SFTP Push requests, you must support the following protocol on your SFTP server:
 
   sh-ed25519,
