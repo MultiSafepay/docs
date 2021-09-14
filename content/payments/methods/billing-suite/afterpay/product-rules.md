@@ -3,7 +3,7 @@ title: 'Product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "AfterPay product rules - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
@@ -65,6 +65,6 @@ To successfully process partial refunds for the same product with different spec
 
 - You must [activate MultiSafepay payment pages](/payments/methods/billing-suite/afterpay/faq/activating-payv2/) at website level in your MultiSafepay account. 
 
-- Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API Reference – [Retrieve an order](/api/#retrieve-an-order). 
+- Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API reference – [Retrieve an order](/api/#retrieve-an-order). 
 
 - See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).

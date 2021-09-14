@@ -2,7 +2,7 @@
 title: 'Manual Capture'
 weight: 40
 meta_title: "Manual Capture - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "single"
 logo: '/svgs/Manual_capture.svg'
 short_description: 'Receive credit card payments from your customers in full or partial captures.'
@@ -66,7 +66,7 @@ After expiration, the issuer can cancel the authorization and the funds are retu
 To activate Manual Capture in your MultiSafepay account, email the Risk Team at <risk@multisafepay.com>
 
 ## Integration
-To integrate Manual Capture using our API, see API Reference – [Manual Capture authorization](/api/#manual-capture-authorization).
+To integrate Manual Capture using our API, see API reference – [Manual Capture authorization](/api/#manual-capture-authorization).
 
 Manual Capture is not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but you can customize it via our API.
 

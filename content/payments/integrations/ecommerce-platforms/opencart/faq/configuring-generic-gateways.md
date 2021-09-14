@@ -1,7 +1,7 @@
 ---
 title : "Configuring generic gateways"
 meta_title: "OpenCart plugin - Configuring generic gateways - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 ---
 The OpenCart plugin supports [generic gateways](/faq/general/generic-gateways/) for all payment methods.  

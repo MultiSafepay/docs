@@ -2,7 +2,7 @@
 title : "Styling payment pages"
 weight: 30
 meta_title: "Payment pages - Styling payment pages - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/payment-pages/payment-page-templates/
@@ -34,6 +34,6 @@ To style payment page templates from your MultiSafepay account, follow these ste
 
 ## Via our API
 
-Dynamically style the payment page template for specific transaction requests via our API. See API Reference – [Apply dynamic templates](/api/#apply-dynamic-templates).
+Dynamically style the payment page template for specific transaction requests via our API. See API reference – [Apply dynamic templates](/api/#apply-dynamic-templates).
 
 For support, email the Integration Team at <integration@multisafepay.com>

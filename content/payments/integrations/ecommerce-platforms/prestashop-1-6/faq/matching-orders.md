@@ -1,7 +1,7 @@
 ---
 title : "Matching orders in PrestaShop and your MultiSafepay account"
 meta_title: "PrestaShop 1.6 plugin - Matching orders in PrestaShop and your MultiSafepay account - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases:
     - /integrations/ecommerce-integrations/prestashop-1-6/faq/order-ids-not-matching/
 ---

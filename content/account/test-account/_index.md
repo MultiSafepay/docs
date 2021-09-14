@@ -3,7 +3,7 @@ title: 'Test accounts'
 weight: 10
 meta_title: "Test accounts - MultiSafepay Docs"
 layout: 'faqplugins'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Zero_Authorization.svg'
 url: '/account/test-accounts/'
 short_description: "Create a free MultiSafepay test account."

@@ -3,14 +3,14 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "V Pay - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing V Pay in your ecommerce platform"
 layout: 'child'
 ---
 
 V Pay payments are processed as credit card payments.
 
-To process V Pay payments via our API, see API Reference – [Credit cards](/api/#credit-cards).
+To process V Pay payments via our API, see API reference – [Credit cards](/api/#credit-cards).
 
 For the V Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

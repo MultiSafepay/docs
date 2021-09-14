@@ -1,7 +1,7 @@
 ---
 weight: 208
-meta_title: "API Reference - Adjust payment link lifetime - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Adjust payment link lifetime - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases: 
     - /api/#days_active--seconds_active
     - /faq/api/lifetime-of-a-payment-link

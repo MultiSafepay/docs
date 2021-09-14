@@ -2,7 +2,7 @@
 title : "Testing process"
 weight: 10
 meta_title: "Testing - Testing process - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 url: '/testing/testing-process/'
 ---
@@ -30,7 +30,7 @@ There are two ways to initiate a transaction:
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
 1. In your API testing environment, enter your test API key.
-2. For the payment method you want to test, on the API Reference - [Payment methods](/api/#payment-methods) page, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
+2. For the payment method you want to test, on the API reference - [Payment methods](/api/#payment-methods) page, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
 
 ## 2. Complete the payment
 

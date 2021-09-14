@@ -3,14 +3,14 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Gift cards - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing gift cards in your ecommerce platform"
 layout: 'child'
 aliases:
     - /payment-methods/gift-cards/test-gift-cards
 ---
 
-To process gift card payments via our API, see API Reference – [Gift cards](/api/#gift-card).
+To process gift card payments via our API, see API reference – [Gift cards](/api/#gift-card).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 

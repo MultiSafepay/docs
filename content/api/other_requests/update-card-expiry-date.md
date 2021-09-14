@@ -1,7 +1,7 @@
 ---
 weight: 513
-meta_title: "API Reference - Update card expiry date - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Update card expiry date - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases: 
     - /api/#update-credit-card-expiry-date-of-a-token
 ---

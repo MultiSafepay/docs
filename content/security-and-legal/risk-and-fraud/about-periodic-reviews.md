@@ -2,7 +2,7 @@
 title: 'About periodic reviews'
 weight: 7
 meta_title: "Risk and fraud - About periodic reviews - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/risk-and-fraud/periodical-review

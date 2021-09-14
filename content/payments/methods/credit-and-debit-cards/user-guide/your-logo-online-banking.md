@@ -2,7 +2,7 @@
 title : "Your logo in customers' online banking"
 weight: 70
 meta_title: "Credit card user guide - Your logo in customers' online banking - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Display your logo in customers' online banking environment to build trust"
 read_more: "."
 aliases: 

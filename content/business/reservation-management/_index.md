@@ -3,7 +3,7 @@ title: 'Manage reservations'
 breadcrumb_title: "Manage reservations"
 layout: 'single'
 meta_title: 'Business solutions - Manage reservations - MultiSafepay Docs'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Planyo.svg'
 short_description: 'Solution for managing reservations and paying online by our partner Planyo.'
 weight: 40

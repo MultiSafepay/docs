@@ -1,7 +1,7 @@
 ---
 title : "Enabling tokenization"
 meta_title: "PrestaShop 1.6 plugin - Enabling tokenization - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
     - /integrations/prestashop-1-6/faq/tokenization-prestashop16/

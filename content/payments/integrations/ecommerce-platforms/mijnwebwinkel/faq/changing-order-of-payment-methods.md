@@ -1,7 +1,7 @@
 ---
 title : "Changing the order of payment methods"
 meta_title: "Mijnwebwinkel app - Changing the order of payment methods - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /integrations/ecommerce-integrations/mijnwebwinkel/faq/change-order-of-payment-methods/

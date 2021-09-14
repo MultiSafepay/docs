@@ -1,7 +1,7 @@
 ---
 title : "Setting a max/min order value to display payment methods"
 meta_title: "Lightspeed app - Setting a max/min order value to display payment method - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/maximal-order-amount/

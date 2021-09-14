@@ -2,7 +2,7 @@
 title : "Displaying all payment methods"
 weight: 20
 meta_title: "Payment pages - Displaying all payment methods - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/payment-pages/show-all-methods

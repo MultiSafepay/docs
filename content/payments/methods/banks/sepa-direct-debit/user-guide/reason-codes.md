@@ -1,7 +1,7 @@
 ---
 title : "Reason codes"
 meta_title: "SEPA Direct Debit - Reason codes - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 10
 url: /payments/sepa-direct-debit/reason-codes

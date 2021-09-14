@@ -1,7 +1,7 @@
 ---
 title : "Adding payment method icons in footers"
 meta_title: "Lightspeed app - Adding payment method icons in footers"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
   - /integrations/hosted/lightspeed_app/faq/footer-icons

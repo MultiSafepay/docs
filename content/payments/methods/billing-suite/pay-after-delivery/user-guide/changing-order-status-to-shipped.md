@@ -1,7 +1,7 @@
 ---
 title : "Changing order status to Shipped"
 meta_title: "Pay After Delivery - Changing order status to Shipped - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 3
 ---
@@ -30,7 +30,7 @@ For other MultiSafepay plugins, you can forward the status via our API by making
 
 Some third-party plugins may not support forwarding the status via our API. 
 
-See API Reference – [Update an order](/api/#update-an-order).
+See API reference – [Update an order](/api/#update-an-order).
 
 ## Shipping policies
 For more information about MultiFactor shipping policies, see MultiFactor:

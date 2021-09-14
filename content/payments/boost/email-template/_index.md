@@ -2,7 +2,7 @@
 title: 'Email templates'
 weight: 5
 meta_title: "Email templates - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "single"
 logo: '/svgs/Email_template.svg'
 short_description: 'Customize templates to make your customer emails unique'

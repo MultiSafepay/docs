@@ -1,7 +1,7 @@
 ---
 title : "Disabling the Lightspeed core integration"
 meta_title: "Lightspeed app - Disabling the Lightspeed core integration - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 url: '/ecommerce-platforms/lightspeed/disabling-core-integration/'
 aliases:

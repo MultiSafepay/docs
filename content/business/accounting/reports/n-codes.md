@@ -1,7 +1,7 @@
 ---
 title : "N-codes for identifying payment methods"
 meta_title: "Reports - N-codes for identifying payment methods - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 weight: 70
 url: '/reports/n-codes/'

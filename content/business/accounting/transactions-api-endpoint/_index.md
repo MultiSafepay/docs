@@ -3,7 +3,7 @@ title : "Transactions endpoint"
 weight: 30
 meta_title: "Transactions API endpoint - MultiSafepay Docs"
 layout : "single"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: 'Request your transactions through our API for programmatic integrations.'
 logo: '/svgs/API.svg'
 aliases: 
@@ -13,7 +13,7 @@ aliases:
 
 The transactions API endpoint returns details about transactions in your account. You can use it to automate business operations and gain insights into your transactions.
 
-See API Reference – [Retrieve transactions](/api/#retrieve-transactions).
+See API reference – [Retrieve transactions](/api/#retrieve-transactions).
 
 Common uses include:
 

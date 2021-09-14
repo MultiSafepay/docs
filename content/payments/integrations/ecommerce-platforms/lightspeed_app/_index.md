@@ -5,7 +5,7 @@ faq: "."
 changelog_url: '.'
 changelog: 'https://lightspeed.multisafepay.com/changelog'
 layout: 'single'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: "/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed app"

@@ -3,7 +3,7 @@ title : "About payment links"
 weight: 10
 meta_title: "Payments - About payment links - MultiSafepay Docs"
 url: '/payment-links/about'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 layout: 'faq'
 ---
@@ -14,7 +14,7 @@ Payment links create a unique transaction in your [MultiSafepay account](https:/
 
 The lifetime of a payment link is how long it remains valid for the customer to complete payment. The default is 30 days. 
 
-To set or adjust lifetimes, see API Reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+To set or adjust lifetimes, see API reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 ## Attempts 
 The customer can click a payment link to attempt payment up to 20 times, after which the link is disabled.

@@ -2,7 +2,7 @@
 title : "Integrating a single payment method"
 breadcrumb_title : "Integrating a single payment method"
 meta_title: "Payment Components - Integrating a single payment gateway - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 --- 
@@ -30,7 +30,7 @@ To integrate a payment component into your checkout for a single payment method,
 ## Step 2: Initialize
 
 ### Generate an API token
-Payment Components require a MultiSafepay API token. See API Reference&nbsp;–&nbsp;[Generate an API token](/api/#generate-an-api-token).
+Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](/api/#generate-an-api-token).
 
 **Note:** To keep your API key private, request the token from your own server. 
 

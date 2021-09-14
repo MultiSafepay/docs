@@ -3,7 +3,7 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Bank Transfer - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Bank Transfer in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/bank-transfer-testing
 ---
 
-To process Bank Transfer payments via our API, see API Reference - [Bank Transfer](/api/#bank-transfer).
+To process Bank Transfer payments via our API, see API reference - [Bank Transfer](/api/#bank-transfer).
 
 For the Bank Transfer logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

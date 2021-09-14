@@ -6,7 +6,7 @@ changelog: https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGEL
 faq: "."
 layout: 'single'
 meta_title: "Drupal 8 & 9 plugin integration - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/Drupal_8.svg"
 weight: 16
 title_short: "Drupal 8 & 9"

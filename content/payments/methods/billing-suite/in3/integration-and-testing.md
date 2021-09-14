@@ -3,13 +3,13 @@ title: 'Integration and testing in3'
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Integration and testing in3 - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integration and testing in3 in your ecommerce platform"
 layout: 'child'
 logo: '/svgs/in3.svg'
 ---
 
-To process in3 payments via our API, see API Reference – [in3](/api/#in3).
+To process in3 payments via our API, see API reference – [in3](/api/#in3).
 
 For the in3 logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

@@ -1,7 +1,7 @@
 ---
 weight: 229
-meta_title: "API Reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#direct-server-to-server-flexible-3d-set-on-_true_
 ---

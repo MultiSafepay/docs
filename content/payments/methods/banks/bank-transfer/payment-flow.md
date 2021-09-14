@@ -3,7 +3,7 @@ title: "Bank Transfer payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Bank Transfer payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
@@ -37,7 +37,7 @@ If emailing your own payment instructions to the customer, in your `POST /orders
 
 This prevents MultiSafepay emailing the customer.
 
-For more information, see API Reference – [Bank Transfer: Direct](/api/#direct-bank-transfer).
+For more information, see API reference – [Bank Transfer: Direct](/api/#direct-bank-transfer).
 
 {{< /details >}}
 

@@ -1,16 +1,16 @@
 ---
 weight: 10
-meta_title: "API Reference - Introduction - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Introduction - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block hide >}}
 {{< /code-block >}}
 
 {{< description >}}
-# API Reference
+# API reference
 <hr class="separator">
 
-Welcome to the MultiSafepay API Reference (``JSON`` gateway).
+Welcome to the MultiSafepay API reference (``JSON`` gateway).
 
 **Navigating the reference**
 

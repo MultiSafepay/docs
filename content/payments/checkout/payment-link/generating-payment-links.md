@@ -3,7 +3,7 @@ title : "Generating payment links"
 weight: 20
 meta_title: "Payment links - Generating payment links - MultiSafepay Docs"
 url: '/payment-links/generating-payment-links'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 layout: 'single'
 aliases:
@@ -72,9 +72,9 @@ To send a payment link for an existing transaction:
 
 For some ecommerce integrations, you can generate payment links in your [backend](/getting-started/glossary/#backend).
 
-To use the `POST /orders` request, see API Reference – [Create an order](https://docs.multisafepay.com/api/#create-an-order). In the `type` parameter, enter `payment link`. 
+To use the `POST /orders` request, see API reference – [Create an order](https://docs.multisafepay.com/api/#create-an-order). In the `type` parameter, enter `payment link`. 
 
-Or, see API Reference – [Generating a payment link](/api/#generating-a-payment-link).
+Or, see API reference – [Generating a payment link](/api/#generating-a-payment-link).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 

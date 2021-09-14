@@ -3,7 +3,7 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Giropay - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Giropay in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/Giropay.svg'
@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/giropay/giropay-testing
 ---
 
-To process Giropay payments via our API, see API Reference – [Giropay](/api/#giropay).
+To process Giropay payments via our API, see API reference – [Giropay](/api/#giropay).
 
 For the Giropay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

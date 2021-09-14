@@ -2,7 +2,7 @@
 title : "Refunds"
 weight: 20
 meta_title: "Payments - Refunds - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 url: "/payments/refunds"
 short_description: 'Process refunds in your MultiSafepay account, from your ready-made integration, or via our API'
@@ -89,7 +89,7 @@ You can process refunds in the [backend](/getting-started/glossary/#backend) of 
 
 For post-payment methods, you can also refund via our API. Make a `POST /orders/{order_id}/refunds` request. 
 
-See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
+See API reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
 ## Refund rules
 

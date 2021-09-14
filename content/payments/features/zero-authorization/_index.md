@@ -2,7 +2,7 @@
 title: 'Zero Authorization'
 weight: 30
 meta_title: "Zero Authorization - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "single"
 logo: '/svgs/Zero_Authorization.svg'
 short_description: 'Verify credit card information with a 0 EUR transaction.'
@@ -38,7 +38,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 Email requests to activate Zero Authorization in your MultiSafepay account to the Risk Team at <risk@multisafepay.com>
 
 ## Integration
-To integrate Zero Authorization using our API, see API Reference – [Zero Authorization](/api/#zero-authorization).
+To integrate Zero Authorization using our API, see API reference – [Zero Authorization](/api/#zero-authorization).
 
 Zero Authorization is not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but you can customize it via our API.
 

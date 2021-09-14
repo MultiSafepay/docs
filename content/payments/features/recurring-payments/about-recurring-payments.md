@@ -2,7 +2,7 @@
 title : "About Recurring Payments"
 weight: 51
 meta_title: "About Recurring Payments - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 url: '/recurring-payments/about/'
 aliases:
