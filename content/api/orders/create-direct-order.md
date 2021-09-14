@@ -154,6 +154,11 @@ See [Retrieve gateway issuers](/api/#gateway-issuers).
 
 See [payment_options (object)](/api/#payment-options-object).
 
+----------------
+`shopping_cart.items` | optional
+
+See [shopping_cart.items object](/api/#shopping-cart-items-object).
+
 **Response**
 
 ----------------

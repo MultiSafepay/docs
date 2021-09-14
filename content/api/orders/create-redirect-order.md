@@ -132,6 +132,11 @@ See [customer (object)](/api/#customer-object).
 
 See [Send second chance emails](/api/#send-second-chance-emails).
 
+----------------
+`shopping_cart.items` | optional
+
+See [shopping_cart.items object](/api/#shopping-cart-items-object).
+
 
 **Response**
 
