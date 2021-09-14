@@ -1,17 +1,16 @@
 ---
-weight: 309
-meta_title: "API reference - Create a CBC order - MultiSafepay Docs"
+weight: 335
+meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
-
 > POST - /orders
 
 ```json
 {
   "type":"redirect",
   "order_id":"my-order-id-1",
-  "gateway":"CBC",
+  "gateway":"WECHAT",
   "currency":"EUR",
   "amount":1000,
   "description":"Test order description",
@@ -21,12 +20,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "cancel_url":"http://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
-  "customer":{
-    "locale":"nl_BE"
-  }
 }
 ```
-> JSON response
+
+> JSON response 
 
 ```json
 {
@@ -43,7 +40,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "type":"direct",
   "order_id":"my-order-id-1",
-  "gateway":"CBC",
+  "gateway":"WECHAT",
   "currency":"EUR",
   "amount":1000,
   "description":"Test order description",
@@ -55,7 +52,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "close_window":true
   },
   "customer":{
-    "locale":"nl_BE",
+    "locale":"cn_CN",
     "ip_address":"123.123.123.123",
     "forwarded_ip":"",
     "first_name":"Simon",
@@ -73,91 +70,96 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 }
 ```
 
-> JSON Response
+> JSON response
+
 ```json
 {
-  "success":true,
-  "data":{
-    "amount":1000,
-    "amount_refunded":0,
-    "costs":[
+  "success": true,
+  "data": {
+    "amount": 1000,
+    "amount_refunded": 0,
+    "costs": [
       {
-        "amount":500,
-        "description":"",
-        "transaction_id":123456789,
-        "type":"SYSTEM"
-      },
-      {
-        "transaction_id":123456789,
-        "amount":500,
-        "description":"",
-        "type":"SYSTEM"
+        "amount": 0.3,
+        "description": "Test order description",
+        "transaction_id": 123456789,
+        "type": "SYSTEM"
       }
     ],
-    "created":"2019-03-08T10:15:37",
-    "currency":"EUR",
-    "custom_info":{
-      "custom_1":null,
-      "custom_2":null,
-      "custom_3":null
+    "created": "2021-09-16T14:39:50",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
     },
-    "customer":{
-      "address1":"Kraanspoor",
-      "city":"Amsterdam",
-      "country":"NL",
-      "country_name":"The Netherlands",
-      "email":"simonsmit@example.com",
-      "first_name":"Simon",
-      "house_number":"39C",
-      "last_name":"Smit",
-      "phone1":"0208500500",
-      "locale":"nl_BE",
-      "zip_code":"1033SC"
+    "customer": {
+      "address1": "Kraanspoor",
+      "address2": null,
+      "city": "Amsterdam",
+      "country": "NL",
+      "country_name": null,
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "house_number": "39C",
+      "last_name": "Smit",
+      "locale": "cn_CN",
+      "phone1": "0208500500",
+      "phone2": "",
+      "state": null,
+      "zip_code": "1033SC"
     },
-    "description":"Test order description",
-    "fastcheckout":"NO",
-    "financial_status":"initialized",
-    "items":null,
-    "modified":"2019-03-08T10:15:37",
-    "order_id":"my-order-id-1",
-    "payment_details":{
-      "account_holder_name":null,
-      "account_id":null,
-      "external_transaction_id":325062361,
-      "recurring_id":null,
-      "recurring_model":null,
-      "type":"CBC"
+    "description": "product description",
+    "fastcheckout": "NO",
+    "financial_status": "initialized",
+    "items": null,
+    "modified": "2021-09-16T14:39:50",
+    "order_id": "my-order-id-1",
+    "payment_details": {
+      "account_holder_name": 123456789,
+      "account_id": "wx<string>",
+      "external_transaction_id": "wx<string>",
+      "recurring_flow": null,
+      "recurring_id": null,
+      "recurring_model": null,
+      "type": "WECHAT"
     },
-    "payment_methods":[
+    "payment_methods": [
       {
-        "amount":1000,
-        "currency":"EUR",
-        "description":"Test order description",
-        "external_transaction_id":325062361,
-        "payment_description":"CBC",
-        "status":"initialized",
-        "type":"CBC"
+        "account_holder_name": 123456789,
+        "account_id": "wx<string>",
+        "amount": 1000,
+        "currency": "EUR",
+        "description": "product description",
+        "external_transaction_id": "wx<string>",
+        "payment_description": "WeChat Pay",
+        "status": "initialized",
+        "type": "WECHAT"
       }
     ],
-    "reason":"",
-    "reason_code":"",
-    "related_transactions":null,
-    "status":"initialized",
-    "transaction_id":123456789,
-    "payment_url":"https://www.cbc.be/olpayment?langWebSite=N&olpId=S132&olpCtx=%2FH8s4RM8GN%2FSKLOcUoTBBPus%2BWBbXCz9ChR12y5ozVDe8Rc70DjFQNQy2TaiSnTOEQkziFEQmgQy%2BHDxrqqzB%2F8I1yk5zE0%"
+    "qr_url": "weixin://wxpay/bizpayurl?pr=<string>",
+    "reason": "",
+    "reason_code": "",
+    "related_transactions": null,
+    "status": "initialized",
+    "transaction_id": 123456789,
+    "var1": null,
+    "var2": null,
+    "var3": null,
+    "payment_url": "http://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel"
   }
 }
+
 ```
 
 {{< /code-block >}}
 
 {{< description >}}
-## CBC/KBC
-See also Payment methods – [CBC/KBC](/payments/methods/banks/cbc-kbc/).
+## WeChat Pay
+See also Payment methods – [WeChat Pay](/payments/methods/wallet/wechat-pay).
 
-**Note:** Ensure you provide the relevant `gateway`.
-
-### CBC/KBC - redirect
+### WeChat Pay - redirect
 
 **Parameters**
 
@@ -165,19 +167,19 @@ See also Payment methods – [CBC/KBC](/payments/methods/banks/cbc-kbc/).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Value: `redirect`.  
+Options: `redirect`, `direct`, `paymentlink`.
 
 ----------------
 `order_id` | string | required
 
-Your unique identifier for the order.    
+Your unique identifier for the order.  
 Format: Maximum 50 characters.
 
 ----------------
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Options: `CBC`, `KBC`.
+Fixed value: `WECHAT`. 
 
 ----------------
 `currency` | string | required
@@ -202,11 +204,6 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 See [payment_options (object)](/api/#payment-options-object).
 
-----------------    
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object).
-
 **Response**
 
 ----------------
@@ -214,9 +211,9 @@ See [customer (object)](/api/#customer-object).
 
 The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
-----------------  
+---------------- 
 
-### CBC/KBC - direct
+### WeChat Pay - direct
 
 **Parameters**
 
@@ -224,19 +221,19 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Value: `direct`.  
+Options: `redirect`, `direct`, `paymentlink`.
 
 ----------------
 `order_id` | string | required
 
-Your unique identifier for the order.    
+Your unique identifier for the order.  
 Format: Maximum 50 characters.
 
 ----------------
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Value: `CBC`, `KBC`.
+Fixed value: `WECHAT`. 
 
 ----------------
 `currency` | string | required
@@ -259,14 +256,14 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Value: `false`.
+Fixed value: `false`.
 
 ----------------
 `payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
-----------------    
+----------------
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).
@@ -279,6 +276,11 @@ See [customer (object)](/api/#customer-object).
 The amount refunded to the customer.
 
 ----------------
+`costs` | object
+
+See [costs (object)](/api/#costs-object).
+
+----------------
 `created` | string
 
 The timestamp for when the order was created.
@@ -289,19 +291,25 @@ The timestamp for when the order was created.
 See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
+`customer` | object 
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`description` | string
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+
+----------------
 `fastcheckout` | string 
 
-Value: `NO`.
+Fixed value: `NO`.
 
 ----------------
 `financial_status` | string
 
 The [transaction status](/payments/multisafepay-statuses/) of the order.
-
-----------------
-`items` | object 
-
-See [items (object)](/api/#items-object).
 
 ----------------
 `modified` | string
@@ -311,20 +319,44 @@ Modifications include incoming payments, refunds, charges, and [payouts](/accoun
 Format: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601).
 
 ----------------
+`items` | object 
+
+See [items (object)](/api/#items-object).
+
+
+----------------
+`modified` | string
+
+The timestamp of the last modification of the balance.  
+Modifications include incoming payments, refunds, charges, and [payouts](/account/payouts/).  
+Format: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601).
+
+----------------
+`order_id` | string | required
+
+Your unique identifier for the order.  
+Format: Maximum 50 characters.
+
+----------------
 `payment_details` | object
 
 See [payment_details (object)](/api/#payment-details-object).
 
----------------- 
+----------------
 `payment_methods` | object
 
 See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
+`qr_url` | string 
+
+The URL of the QR code.
+
+----------------
 `reason` | string
 
 ----------------
-`related_transactions` | object
+`related_transactions` | string
 
 Information about linked transactions.
 
@@ -339,11 +371,19 @@ The [order status](/payments/multisafepay-statuses/).
 MultiSafepay's identifier for the transaction (also known as the PSP ID).
 
 ----------------
+`var1` / `var2` / `var3` | string 
+
+Variables for storing additional data.
+
+----------------
 `payment_url` | string 
 
 The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
+`cancel_url` | string
+The page the customer is redirected to if the payment fails.
 
+----------------
 
 {{< /description >}}
