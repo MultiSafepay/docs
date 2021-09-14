@@ -2,7 +2,7 @@
 title : "MultiSafepay app for Mijnwebwinkel"
 meta_title: "Mijnwebwinkel app - MultiSafepay Docs"
 faq: "."
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: "/logo/Integrations/Mijnwebwinkel.svg"
 weight: 25
 title_short: "Mijnwebwinkel"

@@ -3,7 +3,7 @@ title: 'Build your integration'
 breadcrumb_title: 'Build your integration'
 weight: 10
 meta_title: "Getting Started - Build your integration - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Integrations.svg'
 layout: 'single'
@@ -24,7 +24,7 @@ MultiSafepay solutions developed in-house require fewer development resources an
 ## Custom integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
-{{< two-buttons href-2="/api/" text-2="API Reference" img-2="/svgs/API.svg" description-2="Gives you full control." alt-2="API Reference logo" >}}
+{{< two-buttons href-2="/api/" text-2="API reference" img-2="/svgs/API.svg" description-2="Gives you full control." alt-2="API Reference logo" >}}
 {{< two-buttons href-2="/integrations/wrappers" text-2="Wrappers and SDKs" description-2="Facilitate easier, faster development." img-2="/svgs/Wrappers.svg" alt-2="Wrappers and SKDs logo" >}}
 
 ## Next steps

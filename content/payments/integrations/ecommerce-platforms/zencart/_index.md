@@ -5,7 +5,7 @@ download_url : "https://github.com/MultiSafepay/Zencart/releases/download/3.1.0/
 changelog_url : "."
 faq: "."
 meta_title: "ZenCart plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: "/logo/Plugins/Zen_Cart.svg"
 weight: 20
 title_short: "Zen Cart"

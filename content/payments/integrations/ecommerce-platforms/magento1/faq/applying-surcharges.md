@@ -2,7 +2,7 @@
 title: Applying surcharges
 weight:
 meta_title: "Magento 1 plugin - Applying surcharges - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
     - /integrations/magento1/faq/payment-fee-surcharges/

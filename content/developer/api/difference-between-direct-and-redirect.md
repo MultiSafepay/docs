@@ -2,7 +2,7 @@
 title: "Difference between direct and redirect API requests"
 weight: 1
 meta_title: "API Documentation - Difference between direct and redirect - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/difference-between-direct-and-redirect

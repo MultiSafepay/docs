@@ -2,7 +2,7 @@
 title : "Changing your company details"
 meta_title: "Risk and fraud - Changing your company details - MultiSafepay Docs"
 weight: 8
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/risk-and-fraud/change-of-company-details

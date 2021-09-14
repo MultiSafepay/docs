@@ -3,7 +3,7 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Mastercard - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Mastercard in your ecommerce platform"
 layout: 'child'
 aliases:
@@ -17,12 +17,12 @@ There are two options for integrating Mastercard, depending on whether you want 
  
 Customers are redirected to a MultiSafepay credit card payment page, where all credit cards are bundled together. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits.
 
-See API Reference – [Credit cards](/api/#credit-cards).
+See API reference – [Credit cards](/api/#credit-cards).
 
 #### Mastercard only
 Customers are redirected straight to Mastercard. 
 
-See API Reference – [Mastercard](/api/#mastercard).
+See API reference – [Mastercard](/api/#mastercard).
 
 ## Testing
 

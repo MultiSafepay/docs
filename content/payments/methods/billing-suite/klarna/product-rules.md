@@ -3,7 +3,7 @@ title: 'Product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Klarna product rules - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
@@ -67,7 +67,7 @@ To successfully process partial refunds for the same product with different spec
 Discounts are processed as a **negative amount** instead of a **negative quantity**. This method of adding discounts only applies to successful transactions. 
 
 **API**  
-For how to add a discount in your transaction request via our API, see API Reference – [Discount](/api/#discount):
+For how to add a discount in your transaction request via our API, see API reference – [Discount](/api/#discount):
 
 - Discount added as a unit price
 - Discount added as an order rule (non-refundable)

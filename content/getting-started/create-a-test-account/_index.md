@@ -3,7 +3,7 @@ title: 'Create a test account'
 breadcrumb_title: 'Create a test account'
 weight: 10
 meta_title: "Getting Started - Create a test account - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Zero_Authorization.svg'
 layout: 'single'

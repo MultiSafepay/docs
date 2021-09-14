@@ -3,7 +3,7 @@ title: 'Tokenization'
 weight: 20
 meta_title: "Tokenization - MultiSafepay Docs"
 layout: 'single'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Tokenization.svg'
 short_description: 'Store credit card information as a token to make checkout more convenient.'
 aliases: 
@@ -41,7 +41,7 @@ MultiSafepay offers three recurring models:
 Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
 
 ## Via API
-To use tokenization via our API, see API Reference – [Tokenization and recurring model](/api/#recurring-payments).
+To use tokenization via our API, see API reference – [Tokenization and recurring model](/api/#recurring-payments).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or SOFORT Banking transactions. 
 

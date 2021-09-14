@@ -2,7 +2,7 @@
 title : "PCI DSS compliance"
 weight: 30
 meta_title: "Credit card user guide - PCI DSS compliance - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 short_description: "Comply with the payment industry's data security standard, meant to protect your and your customer's data"
 aliases:

@@ -1,7 +1,7 @@
 ---
 title : "Hyvä themes and checkout"
 meta_title: "Magento 2 plugin FAQ - Hyvä themes and checkout - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
 ---

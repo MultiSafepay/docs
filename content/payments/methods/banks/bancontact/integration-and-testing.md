@@ -3,7 +3,7 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Bancontact - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Bancontact in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/bancontact/bancontact-testing
 ---
 
-To process Bancontact payments via our API, see API Reference - [Bancontact](/api/#bancontact).
+To process Bancontact payments via our API, see API reference - [Bancontact](/api/#bancontact).
 
 For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

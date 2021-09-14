@@ -4,11 +4,11 @@ breadcrumb_title: "Integration and API requests"
 weight: 40
 layout: child
 meta_title: "Server to Server - Integration and API requests - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating Server to Server in your ecommerce platform via our API"
 ---
 
-To integrate Server to Server using our API, see API Reference – [Server to Server](/api/#server-to-server).
+To integrate Server to Server using our API, see API reference – [Server to Server](/api/#server-to-server).
 
 {{< details title="3D Secure requests" >}}
 

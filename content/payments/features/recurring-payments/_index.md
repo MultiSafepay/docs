@@ -3,7 +3,7 @@ title: 'Recurring Payments'
 weight: 10
 meta_title: "Recurring Payments - MultiSafepay Docs"
 layout: 'faqplugins'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Recurring payments.svg'
 short_description: 'Charge customers with automatic payments on a regular and recurring basis.'
 ---

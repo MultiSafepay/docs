@@ -9,7 +9,7 @@ At [MultiSafepay Docs](https://docs.multisafepay.com), you can:
 - Sign up.
 - Build and test your payments integration.
 - Explore our products and services. 
-- Use our API Reference, SDKs, and wrappers. 
+- Use our API reference, SDKs, and wrappers. 
 - Get support.
 
 To build this project, you need to install the Hugo static site generator. See Hugo – [Installing](https://gohugo.io/getting-started/installing/).

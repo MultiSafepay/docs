@@ -3,7 +3,7 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Trustly - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Trustly in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/trustly.svg'
@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/trustly/trustly-testing
 ---
 
-To process Trustly payments via our API, see API Reference – [Trustly](/api/#trustly).
+To process Trustly payments via our API, see API reference – [Trustly](/api/#trustly).
 
 For the Trustly logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

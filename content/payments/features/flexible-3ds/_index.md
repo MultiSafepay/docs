@@ -2,7 +2,7 @@
 title : "Using Flexible 3D"
 weight: 90
 meta_title: "Using Flexible 3D - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Flexible 3D.svg'
 short_description: 'Use 3D Secure verification for extra security for credit card payments'
@@ -24,7 +24,7 @@ Setting Flexible 3D to:
 
 - `true` enables 3D Secure verification and the payment is classified as **3D Secure Result: Enrolled Liability**.
 
-See API Reference:
+See API reference:
 
 - [3D disabled or NON 3D transaction](/api/#3d-disabled-or-non-3d-transaction)
 - [Direct, Flexible 3D set to false](/api/#direct-flexible-3d-set-on-_false_)

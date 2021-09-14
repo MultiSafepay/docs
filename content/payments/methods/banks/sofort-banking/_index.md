@@ -4,7 +4,7 @@ weight: 40
 meta_title: "Payment methods - SOFORT Banking - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/sofort"
 childlist: '.'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 intro_description: "SOFORT Banking is a payment method available in several European countries, and particularly popular in Germany. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. Once a payment is completed, the customer cannot reverse it and SOFORT Banking guarantees settlement."
 layout: 'single'
 logo: '/logo/Payment_methods/SOFORT.svg' 

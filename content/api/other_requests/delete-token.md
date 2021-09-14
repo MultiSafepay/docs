@@ -1,7 +1,7 @@
 ---
 weight: 514
-meta_title: "API Reference - Delete a token - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Delete a token - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases: 
     - /api/#delete-a-token
 ---

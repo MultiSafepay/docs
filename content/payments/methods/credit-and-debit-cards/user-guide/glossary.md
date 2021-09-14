@@ -2,7 +2,7 @@
 title : "Credit and debit card glossary"
 weight: 10
 meta_title: "Credit and debit card glossary - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Get familiar with commonly used credit card terms and processes"
 read_more: "."
 url: '/credit-and-debit-cards/glossary/'

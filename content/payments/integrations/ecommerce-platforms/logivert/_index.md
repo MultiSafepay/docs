@@ -2,7 +2,7 @@
 title : "MultiSafepay app for LogiVert"
 meta_title: "LogiVert app - MultiSafepay Docs"
 faq: "."
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: "/logo/Integrations/LogiVert.svg"
 weight: 27
 title_short: "LogiVert"

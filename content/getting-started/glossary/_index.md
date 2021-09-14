@@ -5,7 +5,7 @@ weight: 60
 meta_title: "MultiSafepay glossary - MultiSafepay Docs"
 layout: 'single'
 short_description: "Get familiar with payments terminology and specific MultiSafepay uses."
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Guides.svg'
 read_more: "."
 aliases:
@@ -107,7 +107,7 @@ MultiSafepay is a PSP and provides services that let merchants accept payments u
 A terminal that accepts payments, usually by card or near-field communication (NFC), at a merchant's physical location, e.g. a store.
 
 ### RESTful API (application programming interface)
-The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API Reference](/api/) specifies the content and format of requests to our server and the responses the server sends back.
+The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](/api/) specifies the content and format of requests to our server and the responses the server sends back.
 
 ### SEPA
 The Single Euro Payments Area (SEPA) is a European Union payment-integration initiative. Customers can quickly and securely transfer euros within the EU and to a number of non-EU countries.

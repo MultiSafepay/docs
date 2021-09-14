@@ -5,7 +5,7 @@ layout: block
 block-range-pages: '.'
 meta_title: "Payments - Chargebacks - MultiSafepay Docs"
 short_description: "Chargebacks arise when a cardholder requests the issuer to reverse a transaction"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 url: "/payments/chargebacks"
 aliases: 

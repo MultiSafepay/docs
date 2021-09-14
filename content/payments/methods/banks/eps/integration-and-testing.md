@@ -3,7 +3,7 @@ title: "Integration and testing"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "EPS - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing EPS in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/eps.svg'
@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/eps/eps-testing
 ---
 
-To process EPS payments via our API, see API Reference – [EPS](/api/#eps).
+To process EPS payments via our API, see API reference – [EPS](/api/#eps).
 
 For the EPS logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

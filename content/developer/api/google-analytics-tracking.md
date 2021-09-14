@@ -2,7 +2,7 @@
 title: "Google Analytics tracking via our API"
 weight: 2
 meta_title: "Google Analytics tracking via our API - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/google-analytics-tracking

@@ -1,7 +1,7 @@
 ---
 title : "Ensuring data protection"
 meta_title: "GDPR - Ensuring data protection - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/gdpr/what-steps-does-multisafepay-take-to-ensure-data-protection

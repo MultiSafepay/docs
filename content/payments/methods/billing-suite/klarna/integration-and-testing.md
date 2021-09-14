@@ -3,7 +3,7 @@ title: 'Integration and testing'
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Klarna - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Klarna in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
@@ -11,7 +11,7 @@ logo: '/logo/Payment_methods/Klarna.svg'
 
 Klarna makes your ecommerce platform available in the MultiSafepay partner portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay account. 
 
-To process Klarna payments via our API, see API Reference - [Klarna](/api/#klarna).
+To process Klarna payments via our API, see API reference - [Klarna](/api/#klarna).
 
 For questions about your Klarna integration and the connection with your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
 

@@ -3,7 +3,7 @@ title: "Cartes Bancaires payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Cartes Bancaires payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 ---

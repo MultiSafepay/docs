@@ -2,7 +2,7 @@
 title: "Snelstart"
 weight: 20
 meta_title: "Snelstart - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Snelstart.svg'
 buttons_under_text: "Third-party integrations"
 layout: 'single'

@@ -2,7 +2,7 @@
 title : "Connecting websites to your backend"
 weight: 40
 meta_title: "Account - Connecting websites to your backend - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 url: '/account/connecting-websites-to-backend/'
 aliases:

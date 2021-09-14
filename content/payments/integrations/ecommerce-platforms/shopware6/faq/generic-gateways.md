@@ -1,7 +1,7 @@
 ---
 title : "Generic gateways"
 meta_title: "Shopware 6 plugin - Generic gateways - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 aliases:
     - /integrations/ecommerce-integrations/shopware6/faq/generic-gateways/

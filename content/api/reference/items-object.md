@@ -1,7 +1,7 @@
 ---
 weight: 605
-meta_title: "API Reference - items (object) - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - items (object) - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases:
     - /api/#order-specification-with-items
 url: '/api/#items-object'

@@ -3,7 +3,7 @@ title: "Activating Postepay"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Postepay - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating Postepay to use in your MultiSafepay account"
 layout: 'child'
 ---
