@@ -186,7 +186,7 @@ Fixed value: `DIRECTBANK`.
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-For supported currencies, see [About SOFORT Banking](/payments/methods/banks/sofort-banking/about/).
+For supported currencies, see [SOFORT Banking product rules](/payments/methods/banks/sofort-banking/about/).
 
 ----------------
 `amount` | integer | required

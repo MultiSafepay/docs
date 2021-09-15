@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "Paysafecard product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Paysafecard product rules - MultiSafepay Docs"

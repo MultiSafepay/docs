@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'Alipay product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Alipay product rules - MultiSafepay Docs"

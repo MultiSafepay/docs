@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "Bancontact QR product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Bancontact product rules - MultiSafepay Docs"

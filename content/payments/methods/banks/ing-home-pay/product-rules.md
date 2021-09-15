@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "ING Home'Pay product rules"
 breadcrumb_title: "Product rules"
 weight: 10
 meta_title: "ING Home'Pay product rules - MultiSafepay Docs"

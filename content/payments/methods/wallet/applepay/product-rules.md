@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'Apple Pay product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Apple Pay product rules - MultiSafepay Docs"

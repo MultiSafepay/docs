@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "KBC product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "KBC product rules - MultiSafepay Docs"

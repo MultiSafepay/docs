@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'American Express product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "American Express product rules - MultiSafepay Docs"

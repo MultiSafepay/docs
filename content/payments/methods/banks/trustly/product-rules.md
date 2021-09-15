@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "Trustly product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Trustly product rules - MultiSafepay Docs"

@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'Betaal per Maand product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Betaal per Maand Product rules - MultiSafepay Docs"

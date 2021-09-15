@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "Bank transfer product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Bank transfer rules - MultiSafepay Docs"
