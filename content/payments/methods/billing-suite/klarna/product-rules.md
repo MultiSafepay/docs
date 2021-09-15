@@ -22,8 +22,6 @@ aliases:
 | **Transactions expire after**  | 1 day | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
-## Product rules
-
 {{< details title="Refunds" >}}
 
 - Full, partial, and API refunds, and discounts are supported. See [Refunds](/payments/refunds/). 
