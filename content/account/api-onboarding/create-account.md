@@ -40,7 +40,7 @@ Create a new affiliated merchant account.
 |account.coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters. Optional.|
 |account.company_name{{< br >}}`string`|Name of company {{< br >}}**Format**: max 200 characters. Required.|
 |account.country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Required.|
-|account.email{{< br >}}`string`|Company email address {{< br >}}**Format**: max 100 characters. Required.|
+|account.email{{< br >}}`string`|Company email address. Transaction updates are sent to this address. {{< br >}}**Format**: max 100 characters. Required.|
 |account.fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. Optional.|
 |account.phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. Optional.|
 |account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
