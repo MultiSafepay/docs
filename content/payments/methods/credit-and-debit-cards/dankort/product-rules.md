@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'Dankort product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Dankort product rules - MultiSafepay Docs"

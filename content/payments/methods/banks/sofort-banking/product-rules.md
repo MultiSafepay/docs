@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "SOFORT Banking product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "SOFORT Banking product rules - MultiSafepay Docs"

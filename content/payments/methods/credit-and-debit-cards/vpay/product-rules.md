@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'V Pay product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "V Pay product rules - MultiSafepay Docs"

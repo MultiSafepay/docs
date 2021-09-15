@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'Cartes Bancaires product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Cartes Bancaires product rules - MultiSafepay Docs"

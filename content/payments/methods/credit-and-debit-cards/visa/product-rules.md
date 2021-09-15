@@ -1,5 +1,5 @@
 ---
-title: 'Product rules'
+title: 'Visa product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Visa product  - MultiSafepay Docs"

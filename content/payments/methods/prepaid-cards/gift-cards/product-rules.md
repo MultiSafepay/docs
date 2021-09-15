@@ -1,5 +1,5 @@
 ---
-title: "Product rules"
+title: "Gift cards product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Gift card product rules - MultiSafepay Docs"
