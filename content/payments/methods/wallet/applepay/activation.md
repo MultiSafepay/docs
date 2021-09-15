@@ -21,7 +21,7 @@ If you **don't** already have credit cards enabled, follow these steps:
 3. Under **Standard payment methods**, select the **Maestro**, **Mastercard**, **Visa**, and **Apple Pay** checkboxes.
 4. Click **Save changes**.
 
-**Step 2:** Email your application to enable credit cards **and** Apply Pay as payment methods to the Risk Team at <risk@multisafepay.com> 
+**Step 2:** Email your application to enable credit cards **and** Apple Pay as payment methods to your account manager at <sales@multisafepay.com> 
 
 **Step 3:** Provide the following information:
 

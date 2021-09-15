@@ -10,10 +10,7 @@ aliases:
 
 Recurring Payments are not enabled by default in your [MultiSafepay account](https://merchant.multisafepay.com).
 
-Email activation request to either:
-
-- Your account manager at <sales@multisafepay.com>
-- The Risk Team at <risk@multisafepay.com>
+Email requests to activate recurring payments to your account manager at <sales@multisafepay.com>
 
 The default frequency limit for Recurring Payments is once every 24 hours per `recurring ID`. See API reference – [Recurring Payments](/api/#recurring-payments)
 

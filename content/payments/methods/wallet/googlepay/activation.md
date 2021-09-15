@@ -1,31 +1,30 @@
 ---
-title: "Activating GooglePay"
+title: "Activating Google Pay"
 breadcrumb_title: 'Activation'
 weight: 20
-meta_title: "Activating GooglePay - MultiSafepay Docs"
+meta_title: "Activating Google Pay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-short_description: "Activating GooglePay to use in your MultiSafepay account"
+short_description: "Activating Google Pay to use in your MultiSafepay account"
 layout: 'child'
+noindex: '.'
 ---
 
-If you already have credit cards enabled as a payment method in your MultiSafepay account, to activate Apple Pay email the Integration Team at <integration@multisafepay.com>
+To process Google Pay payments, you need to activate credit card payments and Google Pay for your MultiSafepay account.
 
-If you **don't** already have credit cards enabled, follow these steps:
+To activate credit card payments and Google Pay:
 
-**Step 1:** Enable credit card payment methods in your MultiSafepay account. 
+**1.** Enable the payment methods in your MultiSafepay account. 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/). 
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
 2. Go to **Settings** > **Payment methods**.
-3. Under **Standard payment methods**, select the **Maestro**, **Mastercard**, **Visa**, and **Apple Pay** checkboxes.
+3. Under **Standard payment methods**, select the checkboxes for the credit card payment methods you want to offer and **Google Pay**.
 4. Click **Save changes**.
 
-**Step 2:** Email your application to enable credit cards **and** Apply Pay as payment methods to the Risk Team at <risk@multisafepay.com> 
+**2.** Email your application to activate credit card payment methods to your account manager at <sales@multisafepay.com>
 
-**Step 3:** Provide the following information:
+In the email, provide your expected:
 
-- Maximum, average, and minimum transaction amount
-- Annual turnover in credit cards transactions
+- Average, minimum, and maximum credit card transaction amount
+- Annual turnover in credit card transactions
 
-Once approved by the Risk Team, we activate Visa, Mastercard, Maestro and Apple Pay in your MultiSafepay account.
-
-**Step 4:** Activate Apple Pay in your [backend](/getting-started/glossary/#backend) to finalize the connection.
+To process Google Pay direct payments, you need a Google Business account. For more information, see [Google Pay direct integration](/payments/methods/wallet/googlepay/direct-integration/).

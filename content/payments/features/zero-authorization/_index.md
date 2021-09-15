@@ -35,7 +35,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |  Zero amount transaction | A transaction for 0 EUR has been processed. | Completed   | Completed  |
 
 ## Activation
-Email requests to activate Zero Authorization in your MultiSafepay account to the Risk Team at <risk@multisafepay.com>
+Email requests to activate Zero Authorization in your MultiSafepay account to your account manager at <sales@multisafepay.com>
 
 ## Integration
 To integrate Zero Authorization using our API, see API reference – [Zero Authorization](/api/#zero-authorization).

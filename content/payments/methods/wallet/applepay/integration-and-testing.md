@@ -1,5 +1,5 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Apple Pay"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Apple Pay - Integration and testing - MultiSafepay Docs"
@@ -12,7 +12,7 @@ aliases:
 ---
 ## Integration
 
-{{< two-buttons href-2="/payments/methods/wallet/applepay/direct-integration" text-2="Apple Pay direct" description-2="Integrate Apple Pay directly in your checkout page" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payments/methods/wallet/applepay/direct-integration" text-2="Apple Pay direct" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/api/#apple-pay" text-2="Apple Pay redirect" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 

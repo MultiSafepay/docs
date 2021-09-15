@@ -16,5 +16,3 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 The Risk Team checks your account and company performance. 
 
 If approved, the Integration Team activates Server to Server in your account.
-
-
