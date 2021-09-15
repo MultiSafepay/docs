@@ -45,10 +45,10 @@ Create a new affiliated merchant account.
 |account.phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. Optional.|
 |account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
 |account.zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. Optional.|
-|**contact_person**{{< br >}}`object`|This object holds contact person information|
-|contact_person.name{{< br >}}`string`|Name of company contact person{{< br >}}**Format**:  . Required.|
-|contact_person.password{{< br >}}`string`|Set a password for the company contact person's account. Required.|
-|contact_person.title{{< br >}}`string`|Title of company contact person{{< br >}}**Options**: `mr`, `ms`, `mrs`. Required.|
+|**user**{{< br >}}`object`|This object holds user information|
+|user.name{{< br >}}`string`|Full name of the primary user. The name can be modified later. Required.|
+|user.email{{< br >}}`string`|Email address of the primary user. The welcome email with secure code is sent to this address. Required.|
+|user.password{{< br >}}`string`|Password of the primary user. Required.|
 |currencies{{< br >}}`array`|List of currencies the company wishes to process{{< br >}}**Format**: array of strings in [ISO-4217 format](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `[EUR,USD]`). Required.|
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -155,7 +155,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
       "country": "NL",
       "email": "info@funcompany.com",
       "fax": "00311234567890",
-	    "id": "12345678",
+      "id": "12345678",
       "phone": "00311234567890",
       "vat_number": "NL999999999B99",
       "zipcode": "1234 ZP"
@@ -204,7 +204,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
     "country": "NL",
     "email": "info@funcompany.com",
     "fax": "00311234567890",
-	"id": "12345678",
+    "id": "12345678",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
     "zipcode": "1234 ZP"
@@ -272,7 +272,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
     "country": "NL",
     "email": "newemail@funcompany.com",
     "fax": "00311234567890",
-	  "id": "12345678",
+    "id": "12345678",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
     "zipcode": "5678 NW"
