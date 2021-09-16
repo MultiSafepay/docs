@@ -9,7 +9,7 @@ read_more: "."
 MultiSafepay supports multiple checkouts:
 
 {{< details title="Magento 2 core checkout" >}}
-Our plugin works out of the box with the Magento 2 core checkout which is based on the Luma theme.
+Our plugin works out of the box with the Magento 2 core checkout, which is based on the Luma theme.
 {{< /details >}}
 
 {{< details title="OneStepCheckout.com" >}}
