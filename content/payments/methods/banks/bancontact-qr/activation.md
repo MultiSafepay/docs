@@ -14,11 +14,13 @@ aliases:
 To activate Bancontact QR along with Bancontact in to your [MultiSafepay account](https://merchant.multisafepay.com) for:
 
 All your websites:
+
 1. Go to **Settings** > **Payment methods**.
 2. Under **Standard payment methods**, select the **Bancontact** checkbox.
 3. Click **Save changes**.
 
 A specific website:
+
 1. Go to **Settings** > **Website settings**.
 2. Click the relevant website to open the **Website settings** page.
 3. Under **Payment methods**, select the **Bancontact** checkbox.
