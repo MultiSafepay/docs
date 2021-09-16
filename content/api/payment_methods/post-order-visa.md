@@ -25,7 +25,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "locale":"nl_NL",
     "ip_address":"123.123.123.123"
   }
-}```
+}
+```
 
 > JSON response 
 
