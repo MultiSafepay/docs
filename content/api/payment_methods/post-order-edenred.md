@@ -1,6 +1,6 @@
 ---
-weight: 315
-meta_title: "API reference - Create a gift card order - MultiSafepay Docs"
+weight: 312
+meta_title: "API reference - Create an Edenred order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -9,24 +9,33 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json 
 {
-  "type":"redirect",
-  "order_id":"my-order-id",
-  "gateway":"VVVGIFTCRD",
-  "currency":"EUR",
-  "amount":1000,
-  "description":"Test order description",
-  "manual":false,
-  "payment_options":{
-    "notification_url":"http://www.example.com/client/json-live/notification?type=notification",
-    "redirect_url":"http://www.example.comclient/json-live/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/json-live/notification?type=cancel",
-    "close_window":true
+  "type": "redirect",
+  "order_id": "my-order-id",
+  "gateway": "EDENCO",
+  "currency": "EUR",
+  "amount": 100,
+  "description": "Test order description",
+  "manual": false,
+  "payment_options": {
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
+    "settings": {
+      "gateways": {
+        "coupons": {
+          "allow": [
+            "EDENECO"
+          ],
+          "disabled": false
+        }
+      }
+    }
   },
-  "customer":{
-    "locale":"nl_NL",
-    "ip_address":"123.123.123.123",
-    "country":"NL",
-    "email":"simonsmit@example.com"
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "123.123.123.123",
+    "country": "NL",
+    "email": "simonsmit@example.com"
   }
 }
 ```
@@ -44,9 +53,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Gift cards
+## Edenred
 
-- See also Payment methods – [Gift cards](/payments/methods/prepaid-cards/gift-cards).  
+- See also Payment methods – [Edenred](/payments/methods/prepaid-cards/edenred).  
 - Redirect only.
 
 **Parameters**
@@ -64,36 +73,16 @@ Your unique identifier for the order.
 Format: Maximum 50 characters.
 
 ----------------
-`gateway` | string | required
+`gateway` | string | optional
 
 The unique gateway identifier to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-**Note:** We only preselect the gift card supplied in the gateway.  
 
 Options:  
-Baby Cadeaubon= `BABYCAD`  
-Beautyandwellness= `BEAUTYWELL`  
-Bloemencadeaukaart= `BLOEMENCAD`  
-Boekenbon= `BOEKENBON`  
-Degrotespeelgoedwinkel= `DEGROTESPL`  
-Edenred Ticket Compliments= `EDENCOM`  
-Edenred Ticket EcoCheque= `EDENCO`  
-Edenred Ticket Restaurant= `EDENRES`  
-Edenred Ticket Sport & Culture= `EDENSPORTS`  
-Fashioncheque= `FASHIONCHQ`   
-Fashiongiftcard= `FASHIONGFT`  
-Fietsenbon= `FIETSENBON`   
-Good4fun= `GOOD4FUN`  
-Gezondheidsbon= `GEZONDHEID`   
-Nationale bioscoopbon= `NATNLBIOSC`      
-Nationaletuinbon= `NATNLETUIN`    
-Parfumcadeaukaart= `PARFUMCADE`   
-Sportenfit= `SPORTENFIT`    
-Vuur & rook gift card= `VRGIFTCARD`    
-VVV Cadeaukaart= `VVVGIFTCRD`   
-Webshopgiftcard= `WEBSHOPGFT`  
-Wijncadeau= `WIJNCADEAU`      
-Yourgift= `YOURGIFT`  
+`EDENCOM` = Ticket Compliments  
+`EDENECO` = Ticket EcoCheque  
+`EDENRES` = Ticket Restaurant  
+`EDENSPORTS` = Ticket Sport & Culture  
 
 ----------------
 `currency` | string | required
@@ -121,7 +110,9 @@ Fixed value: `false`.
 ----------------
 `payment_options` | object | required
 
-See [payment_options (object)](/api/#payment-options-object).
+Specifies which vouchers to display to the customer.
+
+For more information, see [payment_options (object)](/api/#payment-options-object).
 
 ----------------
 `customer` | object | required

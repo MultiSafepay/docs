@@ -7,12 +7,22 @@ url: '/api/#payment-options-object'
 {{< code-block >}}
 ```json 
 {
-  "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
-    "notification_method":"POST",
-    "close_window":true
+  "payment_options": {
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
+    "notification_method": "POST",
+    "close_window": true,
+    "settings": {
+      "gateways": {
+        "coupons": {
+          "allow": [
+            "EDENECO"
+          ],
+          "disabled": false
+        }
+      }
+    }
   }
 }
 ```
@@ -54,10 +64,37 @@ Options: `POST`, `GET`.
 Default: `GET`.   
 
 ----------------
-`close_window` | bool | optional
+`close_window` | boolean | optional
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `true`.   
+Options: `true`, `false`. 
+
+----------------
+`settings` | object | optional
+
+Configures options for the payment.
+
+Contains:
+- `gateways` | object | optional
+
+  Contains:
+  - `coupons` | object | optional
+
+    Contains:
+    - `allow` | array of strings | optional
+    
+    An array specifying the vouchers to display to the customer.  
+    If empty, no vouchers display.  
+    If not included, then all activated vouchers display.  
+    See [specify vouchers](/api/#specify-vouchers).
+
+    - `disable` | boolean | optional
+
+    Disables displaying all vouchers to the customer.  
+    If set to `true`, the `allow` parameter is ignored.  
+    
+    Options: `true`, `false`.    
+
 
 ----------------
 
