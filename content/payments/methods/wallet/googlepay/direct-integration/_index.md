@@ -114,7 +114,7 @@ For more information about authentication methods, see Google Pay – [Request o
 
 **5.** Describe your allowed payment methods.
 
-Combine the supported payment card networds and authentication methods to describe your site's support for the `CARD` payment method:
+Combine the supported payment card networks and authentication methods to describe your site's support for the `CARD` payment method:
 
 ```
 const baseCardPaymentMethod = {
@@ -191,7 +191,9 @@ function addGooglePayButton() {
 }
 ```
 
-For infomation about styling your **Google Pay** button, see Google Pay – [Customize your button](https://developers.google.com/pay/api/web/guides/resources/customize).
+For infomation about styling your **Google Pay** button, see Google Pay:
+- [Customize your button](https://developers.google.com/pay/api/web/guides/resources/customize)
+- [User experience best practices](https://developers.google.com/pay/api/web/guides/ux-best-practices)
 
 ## Create payment request
 
@@ -230,10 +232,12 @@ paymentDataRequest.merchantInfo = {
 ```
 
 When using the `TEST` environment, specify:
+
 - `Example Merchant` for `merchantName`
 - `12345678901234567890` for `merchantId`
 
 When using the `PRODUCTION` environment, specify:
+
 - Your merchant name for `merchantName`
 - Your Google Pay merchant ID for `merchantId`
 

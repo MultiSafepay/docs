@@ -22,9 +22,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a payment. | Initialized | Initialized |
+| 1. | The customer initiates a payment. 
 | 2. | The customer completes the payment through their Google Pay account. |  |  |
-| 3. | MultiSafepay receives the customer's credit card details as an encrypted token. |   |  |
+| 3. | MultiSafepay receives the customer's credit card details as an encrypted token.| Initialized | Initialized |
 | 4. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
 | 5. | The transaction passes through MultiSafepay's automated fraud filter. |  |  |
 | 6. | If necessary, manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |

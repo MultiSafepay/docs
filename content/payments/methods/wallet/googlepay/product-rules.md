@@ -15,8 +15,7 @@ noindex: '.'
 | **Currencies**  | Multiple | | 
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 | **Payment flow**  | [Direct](/api/#google-pay---direct) / [Redirect](/api/#google-pay---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Transactions expire after**  | 1 hour | |
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Adjust payment link lifetimes** | Yes | [More information](/developer/api/adjusting-payment-link-lifetimes/) |
 
 **Note:** Google Pay transactions are processed as credit card transactions and follow similar product rules.
