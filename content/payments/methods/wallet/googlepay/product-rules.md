@@ -16,14 +16,14 @@ noindex: '.'
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 | **Payment flow**  | [Direct](/api/#google-pay---direct) / [Redirect](/api/#google-pay---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Refunds**  | Full and partial  | [More information](/payments/refunds/) |
-| **Adjust payment link lifetimes** | You can adjust payment link lifetimes | [More information](/developer/api/adjusting-payment-link-lifetimes/). |
+| **Transactions expire after**  | 1 hour | |
+| **Adjust payment link lifetimes** | Yes | [More information](/developer/api/adjusting-payment-link-lifetimes/) |
 
-**Note**: Google Pay transactions are processed as credit card transactions and follow similar product rules.
+**Note:** Google Pay transactions are processed as credit card transactions and follow similar product rules.
 
 {{< details title="Refunds" >}}
 
-- Full and partial refunds are possible. For more information, see [Refunds](/payments/refunds/).
+- [Full and partial refunds](/payments/refunds/) are supported.
 
 - You cannot refund more than original amount.
 
