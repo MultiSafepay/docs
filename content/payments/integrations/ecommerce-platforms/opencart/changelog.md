@@ -5,6 +5,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/opencart/changelog/]
 ---
 
+## 3.10.5
+Release date: Sep 13, 2021
+
+
+### Fixed
++ PLGOPNS-416: Fix ShoppingCart using stricter comparison statements, where some items were not being included in the cart in case their position in the checkout was defined as 0.
++ PLGOPNS-417: Fix Gift Vouchers support to include them in the cart correctly when these are a product, or when these are a discount.
+
+### Changed
++ PLGOPNS-384: Upgrade PHP-SDK to 5.2.1.
+
+***
+
 ## 3.10.4
 Release date: Jun, 17th 2021
 
