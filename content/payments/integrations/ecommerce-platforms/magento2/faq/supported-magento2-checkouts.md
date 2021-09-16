@@ -15,7 +15,7 @@ Our plugin works out of the box with the Magento 2 core checkout which is based 
 {{< details title="OneStepCheckout.com" >}}
 MultiSafepay is an official partner of [OneStepCheckout.com](https://www.onestepcheckout.com/).
 
-Our plugin works with the latest version of the OneStepCheckout extension. If you have questions or notice missing features or bugs when both plugins are installed, feel free to contact our integration team at [integration@multisafepay.com](mailto:integration@multisafepay.com)
+Our plugin works with the latest version of the OneStepCheckout extension. If you have questions or notice missing features or bugs when both plugins are installed, email the Integration Team at [integration@multisafepay.com](mailto:integration@multisafepay.com)
 {{< /details >}}
 
 {{< details title="Other checkouts" >}}
