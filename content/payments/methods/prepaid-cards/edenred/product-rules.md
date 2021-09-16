@@ -23,4 +23,3 @@ layout: 'child'
 - An Edenred card can contain multiple Edenred vouchers.
 - Edenred vouchers can be used for partial payments in combination with another payment method.
 - Merchants can find all the Edenred transactions for their website on [Edenred](https://myedenred.be).
-- To request support for another currency, contact your account manager.
