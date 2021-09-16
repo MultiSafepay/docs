@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/ideal/ideal-testing
 ---
 
-To process iDEAL QR payments via our API, see API reference - [iDEAL QR](/api/#ideal-qr).
+To process iDEAL QR payments via our API, see API reference – [iDEAL QR](/api/#ideal-qr).
 
 MultiSafepay supports seamless integration for iDEAL QR. You can:
 
