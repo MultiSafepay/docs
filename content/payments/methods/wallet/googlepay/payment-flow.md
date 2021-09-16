@@ -23,12 +23,12 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
 | 1. | The customer initiates a payment. | Initialized | Initialized |
-| 3. | The customer completes the payment through their Google Pay account |  |  |
-| 4. | MultiSafepay receives the customer's credit card details as an encrypted token. |   |  |
-| 5. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
-| 6. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 7. | If necessary, manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 8. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
+| 2. | The customer completes the payment through their Google Pay account. |  |  |
+| 3. | MultiSafepay receives the customer's credit card details as an encrypted token. |   |  |
+| 4. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
+| 5. | The transaction passes through MultiSafepay's automated fraud filter. |  |  |
+| 6. | If necessary, manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
 
@@ -36,7 +36,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The issuer has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Void   |
-| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
+| The customer didn't complete the payment within 1 hour and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
