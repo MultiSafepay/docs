@@ -19,7 +19,7 @@ Our plugin works with the latest version of the OneStepCheckout extension. If yo
 {{< /details >}}
 
 {{< details title="Other checkouts" >}}
-Our plugin has been tested with the following checkouts:
+We have tested our plugin with the following checkouts:
 
 - [MagePlaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
 - [Amasty One Step Checkout](https://amasty.com/one-step-checkout-for-magento-2.html)
