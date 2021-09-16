@@ -26,7 +26,7 @@
                                 {{ .Name }}
                             </a>
                         </span>
-                        {{ if and (eq $currentPage.Title "API Reference") (eq .Name "API Reference") }}
+                        {{ if and (eq $currentPage.Title "API reference") (eq .Name "API reference") }}
                             <ul>
                                 <li {{if in ($.Scratch.Get "path") .URL }}class="Selected"{{end}}>
                                 </li>
