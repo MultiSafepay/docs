@@ -74,13 +74,16 @@ Options: `true`, `false`.
 
 Configures options for the payment.
 
-Contains:
+Contains:  
+
 - `gateways` | object | optional
 
-  Contains:
+  Contains:  
+
   - `coupons` | object | optional
 
-    Contains:
+    Contains:  
+    
     - `allow` | array of strings | optional
     
     An array specifying the vouchers to display to the customer.  
