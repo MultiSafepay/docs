@@ -152,3 +152,4 @@ Sign in to your Magento 2 backend, and go to **Stores** > **Configuration** > **
     - Make sure you have activated your selected gift cards in your [MultiSafepay account](https://merchant.multisafepay.com).  
     - For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
   
+{{< blue-notice >}}MultiSafepay is an official partner of [OneStepCheckout.com](/payments/integrations/ecommerce-platforms/magento2/faq/supported-magento2-checkouts/). {{< /blue-notice >}}
