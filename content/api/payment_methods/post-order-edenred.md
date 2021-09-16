@@ -1,7 +1,7 @@
 ---
 weight: 312
-meta_title: "API Reference - Create an Edenred order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Create an Edenred order - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - / order 
@@ -9,33 +9,33 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json 
 {
-  "type":"redirect",
-  "order_id":"my-order-id",
-  "gateway":"EDENCO",
-  "currency":"EUR",
-  "amount":100,
-  "description":"Test order description",
-  "manual":false,
+  "type": "redirect",
+  "order_id": "my-order-id",
+  "gateway": "EDENCO",
+  "currency": "EUR",
+  "amount": 100,
+  "description": "Test order description",
+  "manual": false,
   "payment_options": {
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
     "settings": {
       "gateways": {
         "coupons": {
           "allow": [
             "EDENECO"
-                    ],
+          ],
           "disabled": false
-                }
-            }
         }
-    },
-  "customer":{
-    "locale":"nl_NL",
-    "ip_address":"123.123.123.123",
-    "country":"NL",
-    "email":"simonsmit@example.com"
+      }
+    }
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "123.123.123.123",
+    "country": "NL",
+    "email": "simonsmit@example.com"
   }
 }
 ```
@@ -110,7 +110,7 @@ Fixed value: `false`.
 ----------------
 `payment_options` | object | required
 
-To manage which vouchers are offered to the customer.
+Specifies which vouchers to display to the customer.
 
 For more information, see [payment_options (object)](/api/#payment-options-object).
 

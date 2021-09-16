@@ -21,11 +21,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | |  |
-| 2. | MultiSafepay generates a window for the customer to log in to Edenred. |   |  |
-| 3. | The customer enters their Edenred username, password and pin number.| | |
-| 4. | The customer authorizes MultiSafepay to access their Edenred account.| | |
-| 5. | Edenred confirms successful authentication and that enough funds are available. | | |
-| 6. | Edenred transfers funds to the merchant and notifies MultiSafepay. | Completed | Completed |
+| 1. | The customer selects Edenred at checkout. | |  |
+| 2. | The customer is redirected and signs in to Edenred with their username, password, and PIN. {{< br >}} They authorize MultiSafepay to access their Edenred account. |   |  |
+| 3. | Edenred confirms successful authentication and that enough funds are available on the voucher. | | |
+| 4. | Edenred transfers the funds to the merchant and notifies MultiSafepay. | Completed | Completed |
 
 

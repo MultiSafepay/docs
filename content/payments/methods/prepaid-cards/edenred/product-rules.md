@@ -1,5 +1,5 @@
 ---
-title: "Edenred Product rules"
+title: "Edenred product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Edenred product rules - MultiSafepay Docs"
@@ -10,16 +10,15 @@ layout: 'child'
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Prepaid card  | |
-| **API flow**  | [Redirect](/api/#edenred) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
+| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |  
 | **Refunds**  | No  | [More information](/payments/refunds/) | 
+| **Payment flow**  | [Redirect](/api/#edenred) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
-| **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 
-- Merchants must have a contract with Edenred.
-- For each Edenred product, the customer must only be allowed to purchase goods according to Edenred's voucher rules. It is the responsibility of the merchant to adhere to these rules.
-- An Edenred card can contain multiple Edenred vouchers.
+- You must sign a contract with Edenred.
+- For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
+- An Edenred prepaid card can contain multiple Edenred vouchers.
 - Edenred vouchers can be used for partial payments in combination with another payment method.
-- Merchants can find all the Edenred transactions for their website on [Edenred](https://myedenred.be).
+- View all the Edenred transactions for your website in [My Edenred](https://myedenred.be).

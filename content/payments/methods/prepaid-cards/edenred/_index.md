@@ -10,7 +10,8 @@ childlist: '.'
 
 ---
 
-Edenred lets employers provide their employees with a prepaid card loaded with Edenred vouchers:
+Edenred lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
+
 - Ticket Restaurant
 - Ticket EcoCheques
 - Ticket Compliments

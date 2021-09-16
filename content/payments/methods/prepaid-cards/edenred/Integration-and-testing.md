@@ -11,6 +11,6 @@ layout: 'child'
 
 To process Edenred voucher payments via our API, see API reference – [Edenred](/api/#edenred).
 
-At checkout, customers are offered all activated Edenred vouchers as payment methods by default. The merchant can control which Edenred vouchers are offered per transaction using our API, see API reference - [Manage vouchers](/api/#manage-vouchers).
+By default, all activated Edenred vouchers display at checkout. You can specify which Edenred vouchers to display per transaction using our API, see API reference - [Specify vouchers](/api/#specify-vouchers).
 
 For the Edenred voucher logos, see MultiSafepay GitHub - [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

@@ -7,22 +7,22 @@ url: '/api/#payment-options-object'
 {{< code-block >}}
 ```json 
 {
-  "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
-    "notification_method":"POST",
-    "close_window":true,
+  "payment_options": {
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
+    "notification_method": "POST",
+    "close_window": true,
     "settings": {
       "gateways": {
-          "coupons": {
-            "allow": [
-                "EDENECO"
-                  ],
-            "disabled": false
-                } 
-              }
+        "coupons": {
+          "allow": [
+            "EDENECO"
+          ],
+          "disabled": false
+        }
       }
+    }
   }
 }
 ```
@@ -66,13 +66,13 @@ Default: `GET`.
 ----------------
 `close_window` | boolean | optional
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `True`.   
-Options: `True`, `False`. 
+To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `true`.   
+Options: `true`, `false`. 
 
 ----------------
 `settings` | object | optional
 
-To configure options for the payment.
+Configures options for the payment.
 
 Contains:
 - `gateways` | object | optional
@@ -81,15 +81,20 @@ Contains:
   - `coupons` | object | optional
 
     Contains:
-    - `allow` | string (single value or array of values) | optional
+    - `allow` | array of strings | optional
     
-    An array of the vouchers to display to the customer. No vouchers will show if the array is empty. If this parameter is not present then all activated vouchers are shown. See [manage vouchers](/api/#manage-vouchers).
+    An array specifying the vouchers to display to the customer.  
+    If empty, no vouchers display.  
+    If not included, then all activated vouchers display.  
+    See [specify vouchers](/api/#specify-vouchers).
 
     - `disable` | boolean | optional
 
-    To disable the display of all vouchers to the customer. If this is set to `True` then the `allow` parameter is ignored.
+    Disables displaying all vouchers to the customer.  
+    If set to `true`, the `allow` parameter is ignored.  
+    
+    Options: `true`, `false`.    
 
-    Options: `True`, `False`. 
 
 ----------------
 
