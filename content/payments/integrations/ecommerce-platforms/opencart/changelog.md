@@ -6,7 +6,8 @@ aliases: [/integrations/opencart/changelog/]
 ---
 
 ## 3.10.5
-Release date: Sep, 13th 2021
+Release date: Sep 13, 2021
+
 
 ### Fixed
 + PLGOPNS-416: Fix ShoppingCart using stricter comparison statements, where some items were not being included in the cart in case their position in the checkout was defined as 0.
