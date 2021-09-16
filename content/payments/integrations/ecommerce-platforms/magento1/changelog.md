@@ -5,6 +5,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/magento1/changelog/]
 ---
 
+## 3.1.1
+Release date: Sep. 16th, 2021
+
+### Fixed
++ PLGMAGONE-730: Use correct invoice id when order is being updated to shipped
++ PLGMAGONE-731: Remove unused tax tables which could generate wrong taxes
+
+***
+
 ## 3.1.0
 Release date: Jun. 15th, 2021
 
