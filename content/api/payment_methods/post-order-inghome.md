@@ -5,6 +5,38 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 {{< code-block >}}
 
+> POST -/orders
+
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "gateway":"INGHOME",
+  "description":"product description",
+  "custom_info":{
+    
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel"
+  }
+}
+```
+
+> JSON response
+
+```json
+{
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/12RxGzQe6fsi23ml9WkS9lUfwJxo8yYVWgn/?lang=en_US"
+  }
+}
+```
 > POST - /orders
 
 ```json
@@ -78,45 +110,70 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   }
 }
 ```
-> POST -/orders
-
-```json
-{
-  "type":"redirect",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":1000,
-  "gateway":"INGHOME",
-  "description":"product description",
-  "custom_info":{
-    
-  },
-  "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel"
-  }
-}
-```
-
-> JSON response
-
-```json
-{
-  "success":true,
-  "data":{
-    "order_id":"my-order-id-1",
-    "payment_url":"https://payv2.multisafepay.com/connect/12RxGzQe6fsi23ml9WkS9lUfwJxo8yYVWgn/?lang=en_US"
-  }
-}
-```
-
-
 {{< /code-block >}}
 
 {{< description >}}
 ## ING Home'Pay
 See also Payment methods – [ING Home'Pay](/payments/methods/banks/ing-home-pay).
+
+### ING Home'Pay - redirect
+
+**Parameters**
+
+----------------
+`type` | string | required
+
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`, `paymentlink`.  
+
+----------------
+`order_id` | string | required
+
+Your unique identifier for the order.    
+Format: Maximum 50 characters.
+
+----------------
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`gateway` | string | required
+
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `INGHOME`.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom-info-object).
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
 
 ### ING Home'Pay - direct
 
@@ -203,7 +260,6 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `reason` | string
 
-
 ----------------
 `fastcheckout` | string 
 
@@ -231,65 +287,4 @@ See [costs (object)](/api/#costs-object).
 The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------  
-
-### ING Home'Pay - redirect
-
-**Parameters**
-
-----------------
-`type` | string | required
-
-The payment flow for the checkout process.  
-Options: `direct`, `redirect`, `paymentlink`.  
-
-----------------
-`order_id` | string | required
-
-Your unique identifier for the order.    
-Format: Maximum 50 characters.
-
-----------------
-`currency` | string | required
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-`amount` | integer | required
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-`gateway` | string | required
-
-The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `INGHOME`.
-
-----------------
-`description` | string | required
-
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-`custom_info` | object
-
-See [custom_info (object)](/api/#custom-info-object).
-
-----------------
-`payment_options` | object | required
-
-See [payment_options (object)](/api/#payment-options-object).
-
-**Response**
-
-----------------
-`payment_url` | string 
-
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
-
-----------------
-
-
 {{< /description >}}

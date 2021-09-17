@@ -9,6 +9,167 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
+  "type":"redirect",
+  "gateway":"IN3",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":37485,
+  "description":"Test order description",
+  "manual":"false",
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel"
+  },
+  "customer":{
+    "ip_address":"45.46.216.114",
+    "locale":"nl_NL",
+    "first_name":"Testperson-nl",
+    "last_name":"",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1039 SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "email":"example@multisafepay.com"
+  },
+  "delivery":{
+    "first_name":"Testperson-nl",
+    "last_name":"",
+    "address1":"Kraanspoor",
+    "house_number":"39C",
+    "zip_code":"1039 SC",
+    "city":"Amsterdam",
+    "country":"NL",
+    "phone":"0612345678",
+    "email":"example@multisafepay.com"
+  },
+  "gateway_info":{
+    "birthday":"1970-07-10",
+    "gender":"mr",
+    "phone":"0612345678"
+  },
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Geometric Candle Holders",
+        "description":"",
+        "unit_price":90,
+        "quantity":3,
+        "merchant_item_id":"1111",
+        "tax_table_selector":"BTW21",
+        "weight":{
+          "unit":"KG",
+          "value":12
+        }
+      },
+      {
+        "name":"Nice apple",
+        "description":"",
+        "unit_price":35,
+        "quantity":1,
+        "merchant_item_id":"666666",
+        "tax_table_selector":"BTW9",
+        "weight":{
+          "unit":"KG",
+          "value":20
+        }
+      },
+      {
+        "name":"Flat Rate - Fixed",
+        "description":"Shipping",
+        "unit_price":10,
+        "quantity":1,
+        "merchant_item_id":"msp-shipping",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":0
+        }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "default":{
+        "shipping_taxed":"true",
+        "rate":0.21
+      },
+      "alternate":[
+        {
+          "name":"BTW21",
+          "standalone":true,
+          "rules":[
+            {
+              "rate":0.21
+            }
+          ]
+        },
+        {
+          "name":"BTW9",
+          "standalone":true,
+          "rules":[
+            {
+              "rate":0.09
+            }
+          ]
+        },
+        {
+          "name":"BTW6",
+          "standalone":true,
+          "rules":[
+            {
+              "rate":0.06
+            }
+          ]
+        },
+        {
+          "name":"BTW0",
+          "standalone":true,
+          "rules":[
+            {
+              "rate":0
+            }
+          ]
+        },
+        {
+          "name":"none",
+          "standalone":false,
+          "rules":[
+            {
+              "rate":0
+            }
+          ]
+        },
+        {
+          "name":"FEE",
+          "standalone":false,
+          "rules":[
+            {
+              "rate":0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+> JSON response 
+
+```json
+{
+  "success":true,
+  "data":{
+    "order_id":"apitool_10088776",
+    "payment_url":"https://testpayv2.multisafepay.com/connect/82byiUAWKjrn4350x4fhNCzueapaDGvj8cs/?lang=nl_NL"
+  }
+}
+```
+> POST - /orders
+
+```json
+{
   "type":"direct",
   "gateway":"IN3",
   "order_id":"my-order-id-1",
@@ -356,172 +517,111 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   }
 }
 ```
-> POST - /orders
-
-```json
-{
-  "type":"redirect",
-  "gateway":"IN3",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":37485,
-  "description":"Test order description",
-  "manual":"false",
-  "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel"
-  },
-  "customer":{
-    "ip_address":"45.46.216.114",
-    "locale":"nl_NL",
-    "first_name":"Testperson-nl",
-    "last_name":"",
-    "address1":"Kraanspoor",
-    "house_number":"39C",
-    "zip_code":"1039 SC",
-    "city":"Amsterdam",
-    "country":"NL",
-    "email":"example@multisafepay.com"
-  },
-  "delivery":{
-    "first_name":"Testperson-nl",
-    "last_name":"",
-    "address1":"Kraanspoor",
-    "house_number":"39C",
-    "zip_code":"1039 SC",
-    "city":"Amsterdam",
-    "country":"NL",
-    "phone":"0612345678",
-    "email":"example@multisafepay.com"
-  },
-  "gateway_info":{
-    "birthday":"1970-07-10",
-    "gender":"mr",
-    "phone":"0612345678"
-  },
-  "shopping_cart":{
-    "items":[
-      {
-        "name":"Geometric Candle Holders",
-        "description":"",
-        "unit_price":90,
-        "quantity":3,
-        "merchant_item_id":"1111",
-        "tax_table_selector":"BTW21",
-        "weight":{
-          "unit":"KG",
-          "value":12
-        }
-      },
-      {
-        "name":"Nice apple",
-        "description":"",
-        "unit_price":35,
-        "quantity":1,
-        "merchant_item_id":"666666",
-        "tax_table_selector":"BTW9",
-        "weight":{
-          "unit":"KG",
-          "value":20
-        }
-      },
-      {
-        "name":"Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"msp-shipping",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
-        }
-      }
-    ]
-  },
-  "checkout_options":{
-    "tax_tables":{
-      "default":{
-        "shipping_taxed":"true",
-        "rate":0.21
-      },
-      "alternate":[
-        {
-          "name":"BTW21",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0.21
-            }
-          ]
-        },
-        {
-          "name":"BTW9",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0.09
-            }
-          ]
-        },
-        {
-          "name":"BTW6",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0.06
-            }
-          ]
-        },
-        {
-          "name":"BTW0",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        },
-        {
-          "name":"none",
-          "standalone":false,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        },
-        {
-          "name":"FEE",
-          "standalone":false,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        }
-      ]
-    }
-  }
-}
-```
-> JSON response 
-
-```json
-{
-  "success":true,
-  "data":{
-    "order_id":"apitool_10088776",
-    "payment_url":"https://testpayv2.multisafepay.com/connect/82byiUAWKjrn4350x4fhNCzueapaDGvj8cs/?lang=nl_NL"
-  }
-}
-```
 {{< /code-block >}}
 {{< description >}}
 
 ## in3
 See also Payment methods – [in3](/payments/methods/billing-suite/in3).
+
+### in3 - redirect
+
+**Parameters**
+
+----------------
+`type` | string | required
+
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
+
+----------------
+`gateway` | string | required
+
+The unique gateway identifier to direct the customer straight to the payment method.  
+Fixed value: `IN3`. 
+
+----------------
+`order_id` | string | required
+
+Your unique identifier for the order.     
+Format: Maximum 50 characters.
+
+----------------
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`manual` | string | required
+
+Fixed value: `false`.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
+`gateway_info` | object
+
+Contains:  
+
+`birthday` | object | required
+
+The customer's date of birth.  
+In the Netherlands and Belgium, this is required for credit checks.  
+Format: yyyy-mm-dd. 
+
+`gender` | string | required
+
+The customer's personal title.  
+Options: `mr`, `mrs`, `miss`. 
+
+`phone` | string | required
+
+The customer's phone number.  
+Required for credit checks and to contact the customer in case of non-payment.
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object). 
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
 
 ### in3 - direct
 
@@ -684,106 +784,6 @@ The [order status](/payments/multisafepay-statuses/).
 `transaction_id` | integer
 
 MultiSafepay's identifier for the transaction (also known as the PSP ID).
-
-----------------
-`payment_url` | string 
-
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
-
-----------------
-
-### in3 - redirect
-
-**Parameters**
-
-----------------
-`type` | string | required
-
-The payment flow for the checkout process.  
-Options: `redirect`, `direct`.
-
-----------------
-`gateway` | string | required
-
-The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `IN3`. 
-
-----------------
-`order_id` | string | required
-
-Your unique identifier for the order.     
-Format: Maximum 50 characters.
-
-----------------
-`currency` | string | required
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-`amount` | integer | required
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-`description` | string | required
-
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-`manual` | string | required
-
-Fixed value: `false`.
-
-----------------
-`payment_options` | object | required
-
-See [payment_options (object)](/api/#payment-options-object).
-
-----------------
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object).
-
-----------------
-`delivery` | object
-
-See [delivery (object)](/api/#delivery-object).
-
-----------------
-`gateway_info` | object
-
-Contains:  
-
-`birthday` | object | required
-
-The customer's date of birth.  
-In the Netherlands and Belgium, this is required for credit checks.  
-Format: yyyy-mm-dd. 
-
-`gender` | string | required
-
-The customer's personal title.  
-Options: `mr`, `mrs`, `miss`. 
-
-`phone` | string | required
-
-The customer's phone number.  
-Required for credit checks and to contact the customer in case of non-payment.
-
-----------------
-`shopping_cart` | object
-
-See [shopping_cart.items (object)](/api/#shopping-cart-items-object). 
-
-----------------
-`checkout_options` | object
-
-The definitions for the VAT class.
-
-**Response**
 
 ----------------
 `payment_url` | string 

@@ -9,6 +9,74 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
+  "type":"redirect",
+  "gateway":"AFTERPAY",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":26000,
+  "description":"Test order description",
+  "items":"",
+  "manual":"false"
+  ...
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Item demo 1",
+        "description":"",
+        "unit_price":90,
+        "quantity":2,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
+        }
+      },
+      {
+        "name":"Item shipping - Flat Rate - Fixed",
+        "description":"Shipping",
+        "unit_price":10,
+        "quantity":1,
+        "merchant_item_id":"msp-shipping",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":0
+        }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "alternate":[
+        {
+          "name":"none",
+          "rules":[
+            {
+              "rate":0.00
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+> JSON response
+
+```json
+{
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
+  }
+}
+```
+> POST - /orders
+
+```json
+{
   "type":"direct",
   "gateway":"AFTERPAY",
   "order_id":"my-order-id-1",
@@ -114,79 +182,97 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   }
 }
 ```
-> POST - /orders
-
-```json
-{
-  "type":"redirect",
-  "gateway":"AFTERPAY",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":26000,
-  "description":"Test order description",
-  "items":"",
-  "manual":"false"
-  ...
-  "shopping_cart":{
-    "items":[
-      {
-        "name":"Item demo 1",
-        "description":"",
-        "unit_price":90,
-        "quantity":2,
-        "merchant_item_id":"111111",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":12
-        }
-      },
-      {
-        "name":"Item shipping - Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"msp-shipping",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
-        }
-      }
-    ]
-  },
-  "checkout_options":{
-    "tax_tables":{
-      "alternate":[
-        {
-          "name":"none",
-          "rules":[
-            {
-              "rate":0.00
-            }
-          ]
-        }
-      ]
-    }
-  }
-}
-```
-> JSON response
-
-```json
-{
-  "success":true,
-  "data":{
-    "order_id":"my-order-id-1",
-    "payment_url":"https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
-  }
-}
-```
 {{< /code-block >}}
 {{< description >}}
 
 ## AfterPay
 See also Payment methods – [AfterPay](/payments/methods/billing-suite/afterpay/).
+
+### AfterPay - redirect
+
+**Parameters**
+
+----------------
+`type` | string | required
+
+The payment flow for the checkout process.  
+Options: `redirect`, `direct`.
+
+----------------
+`gateway` | string | required
+
+The unique gateway ID that immediately directs the customer to the payment method.  
+Fixed value: `AFTERPAY`. 
+
+----------------
+`order_id` | integer / string | required
+
+Your unique identifier for the order.  
+If the values are numbers only, the type is `integer`, otherwise it is `string`.  
+Format: Maximum 50 characters.
+
+----------------
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`items` | object
+
+See [items (object)](/api/#items-object).
+
+----------------
+`manual` | string | required
+
+Fixed value: `false`.
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class.
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object). 
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+
+**Response**
+
+----------------
+`payment_url` | string 
+
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+
+----------------
 
 ### AfterPay - direct 
 
@@ -332,92 +418,6 @@ The URL of the page where the customer is redirected from your checkout to compl
 `cancel_url` | string 
 
 The page the customer is redirected to if the payment fails.
-
-----------------
-
-### AfterPay - redirect
-
-**Parameters**
-
-----------------
-`type` | string | required
-
-The payment flow for the checkout process.  
-Options: `redirect`, `direct`.
-
-----------------
-`gateway` | string | required
-
-The unique gateway ID that immediately directs the customer to the payment method.  
-Fixed value: `AFTERPAY`. 
-
-----------------
-`order_id` | integer / string | required
-
-Your unique identifier for the order.  
-If the values are numbers only, the type is `integer`, otherwise it is `string`.  
-Format: Maximum 50 characters.
-
-----------------
-`currency` | string | required
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-`amount` | integer | required
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-`description` | string | required
-
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-`items` | object
-
-See [items (object)](/api/#items-object).
-
-----------------
-`manual` | string | required
-
-Fixed value: `false`.
-
-----------------
-`shopping_cart` | object
-
-See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
-
-----------------
-`checkout_options` | object
-
-The definitions for the VAT class.
-
-----------------
-`payment_options` | object | required
-
-See [payment_options (object)](/api/#payment-options-object). 
-
-----------------
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object).
-
-----------------
-`delivery` | object
-
-See [delivery (object)](/api/#delivery-object).
-
-
-**Response**
-
-----------------
-`payment_url` | string 
-
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 
