@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating Sofort in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/Sofort.svg'
+url: '/payments/methods/banks/sofort/activation/'
 aliases: 
     - /payment-methods/sofort-banking/activate-sofort-banking/
+    - /payments/methods/banks/sofort-banking/activation/
 ---
 
 To activate Sofort, follow these steps:

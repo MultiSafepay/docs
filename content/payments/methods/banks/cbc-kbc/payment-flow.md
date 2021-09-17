@@ -1,14 +1,17 @@
 ---
-title: "CBC payment flow"
+title: "CBC/KBC payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
-meta_title: "CBC payment flow - MultiSafepay Docs"
+meta_title: "CBC/KBC payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/cbc.svg'
+url: '/payments/methods/banks/cbc-kbc/payment-flow/'
 aliases: 
     - /payment-methods/cbc/how-does-cbc-work/
+    - /payments/methods/banks/cbc/payment-flow/
+    - /payments/methods/banks/kbc/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  
@@ -24,10 +27,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction and is redirected to a MultiSafepay PayV2 payment page. | Initialized | Initialized |
+| 1. | The customer selects CBC/KBC at checkout and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
 | 2. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
-| 3. | The transaction is successful.  |  |  |
-| 4. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
+| 3. | We collect the funds and settle them in your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 

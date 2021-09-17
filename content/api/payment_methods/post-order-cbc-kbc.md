@@ -2,6 +2,8 @@
 weight: 309
 meta_title: "API reference - Create a CBC order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+aliases:
+    - /api/#kbc
 ---
 {{< code-block >}}
 
@@ -152,10 +154,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## CBC
-See also Payment methods – [CBC](/payments/methods/banks/cbc).
+## CBC/KBC
+See also Payment methods – [CBC/KBC](/payments/methods/banks/cbc-kbc/).
 
-### CBC - redirect
+**Note:** Ensure you provide the relevant `gateway`.
+
+### CBC/KBC - redirect
 
 **Parameters**
 
@@ -175,7 +179,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `CBC`.
+Options: `CBC`, `KBC`.
 
 ----------------
 `currency` | string | required
@@ -214,7 +218,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 
 ----------------  
 
-### CBC - direct
+### CBC/KBC - direct
 
 **Parameters**
 
@@ -234,7 +238,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `CBC`.
+Fixed value: `CBC`, `KBC`.
 
 ----------------
 `currency` | string | required
@@ -321,7 +325,6 @@ See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `reason` | string
-
 
 ----------------
 `related_transactions` | object
