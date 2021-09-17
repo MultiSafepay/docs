@@ -16,7 +16,7 @@ To process Recurring Payments, follow these steps:
 
 **Step 2:** The customer initiates the first payment using their selected payment method:
 
-- SEPA Direct Debit: iDEAL, SOFORT Banking
+- SEPA Direct Debit: iDEAL, Sofort
 - Credit cards: Visa, Mastercard, American Express
 
 **Step 3:** When the payment is complete, make a `GET /orders` request to [retrieve the transaction details](/api/#retrieve-an-order).

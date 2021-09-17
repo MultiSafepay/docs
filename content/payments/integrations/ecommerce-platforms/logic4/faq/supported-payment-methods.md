@@ -29,7 +29,7 @@ aliases:
 - [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 + MultiSafepay Wallet
 + [PayPal](/payments/methods/wallet/paypal)
-- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Sofort](/payments/methods/banks/sofort-banking)
 - [Trustly](/payments/methods/banks/trustly)
 
 {{< /details >}}

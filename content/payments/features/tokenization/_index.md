@@ -26,7 +26,7 @@ Tokenization is mainly used for credit card, recurring, and subscription payment
 - Maestro
 - Amex
 - iDEAL
-- SOFORT Banking
+- Sofort
 - Direct debit
 
 {{< /details >}}
@@ -43,7 +43,7 @@ Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/paymen
 ## Via API
 To use tokenization via our API, see API reference – [Tokenization and recurring model](/api/#recurring-payments).
 
-**Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or SOFORT Banking transactions. 
+**Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
 
 {{< details title="Additional parameters" >}}
 

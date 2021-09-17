@@ -23,7 +23,7 @@ aliases:
 - [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 + [PayPal](/payments/methods/wallet/paypal)
-- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Sofort](/payments/methods/banks/sofort-banking)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 

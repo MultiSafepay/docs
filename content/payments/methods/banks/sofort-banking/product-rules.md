@@ -1,12 +1,12 @@
 ---
-title: "SOFORT Banking product rules"
+title: "Sofort product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "SOFORT Banking product rules - MultiSafepay Docs"
+meta_title: "Sofort product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-logo: '/logo/Payment_methods/SOFORT.svg'
+logo: '/logo/Payment_methods/Sofort.svg'
 url: '/payments/methods/sofort-banking/product-rules/'
 aliases: 
     - /payment-methods/bancontact/what-is-sofort-banking/
@@ -42,6 +42,6 @@ aliases:
 {{< /details >}}
 
 
-- The minimum amount for SOFORT transactions is 0,10 EUR.
+- The minimum amount for Sofort transactions is 0,10 EUR.
 
 - Transactions must be processed in the supported countries or a 1024 error is returned on completion of payment.

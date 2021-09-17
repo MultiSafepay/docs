@@ -1,6 +1,6 @@
 ---
 weight: 331
-meta_title: "API reference - Create a SOFORT order - MultiSafepay Docs"
+meta_title: "API reference - Create a Sofort order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -36,9 +36,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   }
 }
 ```
-
 > POST - /orders
-
 ```json
 {
   "type":"direct",
@@ -154,12 +152,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
+## Sofort
 
-## SOFORT
+See also Payment methods – [Sofort](/payments/methods/banks/sofort-banking).
 
-See also Payment methods – [SOFORT Banking](/payments/methods/banks/sofort-banking).
-
-### SOFORT - redirect
+### Sofort - redirect
 
 **Parameters**
 
@@ -186,7 +183,7 @@ Fixed value: `DIRECTBANK`.
 
 The currency you want the customer to pay in.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-For supported currencies, see [SOFORT Banking product rules](/payments/methods/banks/sofort-banking/about/).
+For supported currencies, see [Sofort product rules](/payments/methods/banks/sofort-banking/about/).
 
 ----------------
 `amount` | integer | required
@@ -266,7 +263,6 @@ See [payment_methods (object)](/api/#payment-methods-object).
 ----------------
 `reason` | string
 
-
 ----------------
 `related_transactions` | object
 
@@ -284,7 +280,7 @@ The page the customer is redirected to if the payment fails.
 
 ----------------
 
-### SOFORT - direct
+### Sofort - direct
 
 **Parameters**
 

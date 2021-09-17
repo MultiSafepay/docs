@@ -28,7 +28,7 @@ It does **not** support the following payment methods:
 
 | Category   | Payment methods     |
 |----------------|-------------------|
-|  Banking methods | Bancontact QR, Belfius, CBC, EPS, iDEALQR, ING Home'Pay, KBC, Request to Pay, Santander, SOFORT Banking, Trustly     |
+|  Banking methods | Bancontact QR, Belfius, CBC, EPS, iDEALQR, ING Home'Pay, KBC, Request to Pay, Santander, Sofort, Trustly     |
 |  Billing Suite | AfterPay, in3, Klarna     |
 |  Wallets | Alipay, Apple Pay, JCB    |
 |  Prepaid cards | PaySafecard   |  

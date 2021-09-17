@@ -56,7 +56,7 @@ The following indicators paint a cumulative picture of Uncleared transactions, b
 
 For [Klarna](/payments/methods/billing-suite/klarna/), [Afterpay](/payments/methods/billing-suite/afterpay/), [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/) and [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery/) after you ship the order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status then changes to **Completed** when MultiSafepay receives settlement and adds the funds to your MultiSafepay balance.
 
-For [Request to Pay](/payments/methods/banks/request-to-pay/), [SOFORT Banking](/payments/methods/banks/sofort-banking/) and [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement (partially or in full, e.g. the remaining instalments of an in3 payment). We recommend **not** shipping orders during this status.
+For [Request to Pay](/payments/methods/banks/request-to-pay/), [Sofort](/payments/methods/banks/sofort-banking/) and [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement (partially or in full, e.g. the remaining instalments of an in3 payment). We recommend **not** shipping orders during this status.
 
 {{< /details >}}
 
