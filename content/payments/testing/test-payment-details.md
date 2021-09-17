@@ -174,7 +174,7 @@ Sample statuses:
 
 {{< /details >}}
 
-{{< details title="SOFORT Banking" >}}
+{{< details title="Sofort" >}}
 
 Sample statuses:
 

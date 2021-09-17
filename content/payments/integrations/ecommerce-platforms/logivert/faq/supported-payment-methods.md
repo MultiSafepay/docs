@@ -22,7 +22,7 @@ aliases:
 - [Giropay](/payments/methods/banks/giropay)
 - [iDEAL](/payments/methods/banks/ideal)
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Sofort](/payments/methods/banks/sofort-banking)
 
 {{< /details >}}
 

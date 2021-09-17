@@ -151,7 +151,7 @@ This table lists the refund period for each payment method:
 | [Paysafecard](/payments/methods/prepaid-cards/paysafecard/) | 180 days |
 | [Request to Pay](/payments/methods/banks/request-to-pay/) | 730 days |
 | [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/) | 730 days |
-| [SOFORT Banking](/payments/methods/banks/sofort-banking/) | 730 days |
+| [Sofort](/payments/methods/banks/sofort-banking/) | 730 days |
 | [Trustly](/payments/methods/banks/trustly/) | 365 days |
 | [Visa](/payments/methods/credit-and-debit-cards/visa/) | 180 days |
 

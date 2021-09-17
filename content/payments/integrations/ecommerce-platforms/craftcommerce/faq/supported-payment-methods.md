@@ -32,7 +32,7 @@ aliases:
 - [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Sofort](/payments/methods/banks/sofort-banking)
 - [Trustly](/payments/methods/banks/trustly)
 + [TrustPay](/payments/methods/banks/trustpay)
 

@@ -22,7 +22,7 @@ aliases:
 - [Bank transfer](/payments/methods/banks/bank-transfer)
 - [Giropay](/payments/methods/banks/giropay)
 - [iDEAL](/payments/methods/banks/ideal)
-- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Sofort](/payments/methods/banks/sofort-banking)
 - [Trustly](/payments/methods/banks/trustly)
 
 {{< /details >}}

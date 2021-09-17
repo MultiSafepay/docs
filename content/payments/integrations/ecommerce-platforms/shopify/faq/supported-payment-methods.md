@@ -29,7 +29,7 @@ aliases:
 - [KBC](/payments/methods/banks/kbc)
 - [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [SOFORT Banking](/payments/methods/banks/sofort-banking)
+- [Sofort](/payments/methods/banks/sofort-banking)
 - [Trustly](/payments/methods/banks/trustly)
 
 {{< /details >}}
