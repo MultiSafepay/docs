@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing Sofort in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/Sofort.svg'
+url: '/payments/methods/banks/sofort/integration-testing/'
 aliases:
     - /payment-methods/bancontact/sofort-banking-testing
+    - /payments/methods/banks/sofort-banking/integration-and-testing/
 ---
 
 To process Sofort payments via our API, see API reference – [Sofort](/api/#sofort).

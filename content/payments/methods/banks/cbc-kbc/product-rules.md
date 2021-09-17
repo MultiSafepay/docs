@@ -1,25 +1,26 @@
 ---
-title: "CBC product rules"
+title: "CBC/KBC product rules"
 breadcrumb_title: 'Product rules'
 weight: 10
-meta_title: "CBC product rules - MultiSafepay Docs"
+meta_title: "CBC/KBC product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/CBC.svg'
-url: '/payments/methods/cbc/product-rules/'
+url: '/payments/methods/cbc-kbc/product-rules/'
 aliases: 
     - /payment-methods/cbc/what-is-cbc/
     - /payments/methods/banks/cbc/about/
+    - /payments/methods/cbc/product-rules/
+    - /payments/methods/kbc/product-rules/
 ---
-The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment gateway includes CBC and [KBC](/payments/methods/banks/kbc/) as separate options because customers of one branch can't pay through the other.
 
 |   |   |   |
 |---|---|---|
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Direct](/api/#cbc-direct) / [Redirect](/api/#cbc-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Redirect](/api/#cbckbc---redirect) / [Direct](/api/#cbckbc---direct) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 5 days | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
@@ -43,5 +44,5 @@ The payment method functions the same for both the CBC branch and the KBC branch
 
 {{< /details >}}
 
-
+The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment gateway includes CBC and [KBC](/payments/methods/banks/kbc/) as separate options because customers of one branch can't pay through the other.
 
