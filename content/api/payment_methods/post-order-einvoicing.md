@@ -4,7 +4,81 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
+> POST -/orders
+```json
+{
+  "type":"redirect",
+  "gateway":"EINVOICE",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":26000,
+  "description":"Test order description",
+  "manual":false,
+  "gateway_info":{
+    "email":"example@multisafepay.com"
+  },
+  "payment_options":{
+    "notification_url":"http://www.example.com/client/notification?type=notification",
+    "redirect_url":"http://www.example.com/client/notification?type=redirect",
+    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "close_window":true
+  },
+  ...
+  "shopping_cart":{
+    "items":[
+      {
+        "name":"Geometric Candle Holders",
+        "description":"",
+        "unit_price":90,
+        "quantity":2,
+        "merchant_item_id":"11111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
+        }
+      },
+      {
+        "name":"Flat Rate - Fixed",
+        "description":"Shipping",
+        "unit_price":10,
+        "quantity":1,
+        "merchant_item_id":"123456",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":0
+        }
+      }
+    ]
+  },
+  "checkout_options":{
+    "tax_tables":{
+      "alternate":[
+        {
+          "name":"none",
+          "rules":[
+            {
+              "rate":0.00
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+> JSON response
 
+```json
+{
+  "success":true,
+  "data":{
+    "order_id":"my-order-id-1",
+    "payment_url":"https://payv2.multisafepay.com/connect/82v6HsoQhaR823uIZ7hexDMwQyielzLrdox/?lang=nl_NL"
+  }
+}
+```
 > POST - /orders
 
 ```json
@@ -73,11 +147,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
   }
 }
-
 ```
-
 > JSON response 
-
 
 ```json
 {
@@ -177,88 +248,82 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     }
   }
 ```
-
-> POST -/orders
-```json
-{
-  "type":"redirect",
-  "gateway":"EINVOICE",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":26000,
-  "description":"Test order description",
-  "manual":false,
-  "gateway_info":{
-    "email":"example@multisafepay.com"
-  },
-  "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
-    "close_window":true
-  },
-  ...
-  "shopping_cart":{
-    "items":[
-      {
-        "name":"Geometric Candle Holders",
-        "description":"",
-        "unit_price":90,
-        "quantity":2,
-        "merchant_item_id":"11111",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":12
-        }
-      },
-      {
-        "name":"Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"123456",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
-        }
-      }
-    ]
-  },
-  "checkout_options":{
-    "tax_tables":{
-      "alternate":[
-        {
-          "name":"none",
-          "rules":[
-            {
-              "rate":0.00
-            }
-          ]
-        }
-      ]
-    }
-  }
-}
-```
-> JSON response
-
-```json
-{
-  "success":true,
-  "data":{
-    "order_id":"my-order-id-1",
-    "payment_url":"https://payv2.multisafepay.com/connect/82v6HsoQhaR823uIZ7hexDMwQyielzLrdox/?lang=nl_NL"
-  }
-}
-```
-
 {{< /code-block >}}
 
 {{< description >}}
 ## E-Invoicing
 See also Payment methods – [E-Invoicing](/payments/methods/billing-suite/e-invoicing).
+
+### E-Invoicing - redirect
+
+**Parameters**
+
+----------------
+`type` | string | required
+
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`.  
+
+----------------
+`gateway` | string | required
+
+The unique gateway ID to direct the customer straight to the payment method.  
+Fixed value: `EINVOICE`.
+
+----------------
+`order_id` | string | required
+
+Your unique identifier for the order.  
+Format: Maximum 50 characters.
+
+----------------
+`currency` | string | required
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
+`amount` | integer | required
+
+The amount (in cents) the customer needs to pay.
+
+----------------
+`description` | string | required
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+Format: Maximum 200 characters.   
+HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+
+----------------
+`manual` | string 
+
+Fixed value: `false`.
+
+----------------
+`gateway_info` | object                                                              
+
+Contains:  
+
+`email` | string
+
+The email address for sending payment instructions to the customer. 
+
+----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object).
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class. 
+
+----------------
 
 ### E-Invoicing - direct
 
@@ -382,7 +447,6 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `reason` | string
 
-
 ----------------
 `fastcheckout` | string 
 
@@ -425,77 +489,6 @@ The URL of the page where the customer is redirected from your checkout to compl
 `cancel_url` | string 
 
 The page the customer is redirected to if the payment fails.
-
-----------------
-
-### E-Invoicing - redirect
-
-**Parameters**
-
-----------------
-`type` | string | required
-
-The payment flow for the checkout process.  
-Options: `direct`, `redirect`.  
-
-----------------
-`gateway` | string | required
-
-The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `EINVOICE`.
-
-----------------
-`order_id` | string | required
-
-Your unique identifier for the order.  
-Format: Maximum 50 characters.
-
-----------------
-`currency` | string | required
-
-The currency you want the customer to pay in.   
-Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
-
-----------------
-`amount` | integer | required
-
-The amount (in cents) the customer needs to pay.
-
-----------------
-`description` | string | required
-
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-`manual` | string 
-
-Fixed value: `false`.
-
-----------------
-`gateway_info` | object                                                              
-
-Contains:  
-
-`email` | string
-
-The email address for sending payment instructions to the customer. 
-
-----------------
-`payment_options` | object | required
-
-See [payment_options (object)](/api/#payment-options-object).
-
-----------------
-`shopping_cart` | object
-
-See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
-
-----------------
-`checkout_options` | object
-
-The definitions for the VAT class. 
 
 ----------------
 
