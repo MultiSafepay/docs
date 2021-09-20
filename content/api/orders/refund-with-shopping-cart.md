@@ -22,11 +22,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "weight":{
           "unit":"KG",
           "value":12
+        },
+      {
+        "name":"Geometric Candle Holders",
+        "description":"",
+        "unit_price":-90,
+        "quantity":2,
+        "merchant_item_id":"111111",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":12
         }
       },
       ...
       {
-        "name":"Flat Rat - Fixed",
+        "name":"Flat Rate - Fixed",
         "description":"Shipping",
         "unit_price":10,
         "quantity":1,
@@ -44,24 +55,24 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ### Refund with shopping cart
-Refund [post-payment](/payments/methods/billing-suite/) orders that include a `shopping_cart` object.
+Refund [post-payment](/payments/methods/billing-suite/) orders that include a [`shopping_cart` object](/api/#shopping-cart-items-object).
 
 1. Make a `GET /orders/{id}` request to retrieve the items in the shopping cart.
 
-2. Add or remove items in the `POST /orders/{id}/refunds` request, depending on the type of post-payment method:    
-    - For Klarna, add a "copy" of the item to refund with a negative `unit_price`.  
+2. Make a `POST /orders/{id}/refunds` request:    
+    - For Klarna, add a duplicate object for each item you need to refund with a **negative** `unit_price`.  
     - For all other post-payment methods, set a negative `quantity`.
-&nbsp;      
-3. Make sure that all data in the items matches the original transaction (except for the `quantity` or `unit_price`).
 
-In the example, two out of three geometric candle holders were refunded. The exact same `merchant_item_id`, `tax_table_selector` and `unit_price` were provided.
+**Note:** Make sure you provide the exact same `merchant_item_id`, `tax_table_selector`, and `unit_price`.
+
+The example refunds two out of three geometric candle holders. 
 
 **Parameter**
 
 ----------------
 `checkout_data` | object | required
 
-Contains the original `shopping_cart.items` object **and** copied items to be refunded.  
+Contains the original `shopping_cart.items` object **and** duplicate objects for items to be refunded.  
 See [shopping_cart.items object](/api/#shopping-cart-items-object).
 
 ----------------
