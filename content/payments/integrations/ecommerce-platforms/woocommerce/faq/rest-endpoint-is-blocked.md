@@ -20,6 +20,6 @@ You can see also this in the following article:
 
 However, sometimes the REST endpoint used to process the notifications could be blocked by a firewall at server level or by some WordPress plugins at application level. 
 
-If this is the case, most of the plugins provide a way to include the notification url in a whitelist. 
+If this is the case, most of the plugins provide a way to include the notification URL in a whitelist. 
 Check this with your developers to include our request in a whitelist. 
 
