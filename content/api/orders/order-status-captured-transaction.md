@@ -157,8 +157,7 @@ The reason for capturing the order.
 ----------------
 `fastcheckout` | string 
 
-Whether this is a [FastCheckout](/payments/methods/fastcheckout/) transaction.  
-Options: `YES`, `NO`.
+Fixed value: `NO`.
 
 ----------------
 `modified` | string

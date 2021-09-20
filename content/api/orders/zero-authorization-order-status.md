@@ -143,8 +143,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `fastcheckout` | string 
 
-Whether this is a [FastCheckout](/payments/methods/fastcheckout/) transaction.  
-Options: `YES`, `NO`.
+Fixed value: `NO`.
 
 ----------------
 `financial_status` | string
