@@ -37,5 +37,6 @@ url: '/payments/methods/wechatpay/product-rules/'
 
 {{< /details >}}
 
-- To request support for more currencies, contact your account manager at <sales@multisafepay.com>
+- To request support for more currencies, email your account manager at <sales@multisafepay.com>
+
 - Currency conversion is processed in EUR only.
