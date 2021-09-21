@@ -164,7 +164,7 @@ See also Payment methods – [Sofort](/payments/methods/banks/sofort-banking).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`. 
+Fixed value: `redirect`. 
 
 ----------------
 `order_id` | string | required
@@ -287,7 +287,7 @@ The page the customer is redirected to if the payment fails.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`. 
+Fixed value: `direct`. 
 
 ----------------
 `order_id` | string | required

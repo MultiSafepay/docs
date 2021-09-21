@@ -49,11 +49,11 @@ To use tokenization via our API, see API reference – [Tokenization and recurri
 
 | Parameter | Type | Description |
 |---|---|---|
-| `type` | String | The payment flow for the checkout process. Options: Direct, Redirect |
-| `gateway` | String | The unique `gateway_id` to redirect the customer to the specific payment method. Retrieve gateways using a `GET /gateway` request. {{< br >}} Options: AMEX, VISA, MASTERCARD and DIRDEB |
-| `recurring_id` | String | A randomly generated recurring ID for the customer. |
-| `reference` | String | The customer's reference number for the token. |
-| `recurring_model` | String | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`  |
+| `type` | string | The payment flow for the checkout process. Options: `direct`, `redirect`. |
+| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Retrieve gateways using a `GET /gateway` request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
+| `recurring_id` | string | A randomly generated recurring ID for the customer. |
+| `reference` | string | The customer's reference number for the token. |
+| `recurring_model` | string | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`.  |
 
 {{< /details >}}
 

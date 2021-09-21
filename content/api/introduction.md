@@ -26,8 +26,8 @@ You can use our API, for example, to:
 
 - [Create orders](#orders)
 - [Update orders](#update-an-order)
-- [Retrieve information about orders](#retrieve-an-order)
-- [Process refunds](#create-a-refund)
+- [Retrieve information about orders](#get-order-details)
+- [Process refunds](#refund-an-order)
 
 Advanced requests include:
 

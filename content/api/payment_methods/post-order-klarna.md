@@ -139,7 +139,7 @@ JSON requests are the same for both environments.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `direct`.  
+Fixed value: `redirect`.  
 
 ----------------
 `gateway` | string | required

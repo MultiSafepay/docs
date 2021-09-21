@@ -262,7 +262,7 @@ See also Payment methods – [E-Invoicing](/payments/methods/billing-suite/e-inv
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`.  
+Options: `redirect`.  
 
 ----------------
 `gateway` | string | required
@@ -333,7 +333,7 @@ The definitions for the VAT class.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`.  
+Options: `direct`.  
 
 ----------------
 `gateway` | string | required

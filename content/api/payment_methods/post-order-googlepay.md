@@ -87,7 +87,7 @@ See also Payment methods – [Google Pay](/payments/methods/wallet/googlepay).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`.  
+Fixed value: `redirect`.  
 
 ----------------
 `order_id` | string | required
@@ -146,7 +146,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`.  
+Fixed value: `direct`.  
 
 ----------------
 `order_id` | string | required
