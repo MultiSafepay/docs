@@ -65,6 +65,6 @@ To successfully process partial refunds for the same product with different spec
 
 - You must [activate MultiSafepay payment pages](/payments/methods/billing-suite/afterpay/faq/activating-payv2/) at website level in your MultiSafepay account. 
 
-- Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API reference – [Retrieve an order](/api/#retrieve-an-order). 
+- Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API reference – [Retrieve an order](/api/#get-order-details). 
 
 - See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).

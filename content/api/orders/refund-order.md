@@ -2,8 +2,6 @@
 weight: 212
 meta_title: "API reference - Process a refund - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-aliases:
-    - /api/#create-a-refund
 ---
 {{< code-block >}}
 > POST - /orders/{order_id}/refunds 

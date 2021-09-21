@@ -10,30 +10,6 @@ logo: '/svgs/Guides.svg'
 read_more: "."
 aliases:
     - /faq/general/glossary
-    - /faq/general/glossary/#3d-secure
-    - /faq/general/glossary/#acquirer
-    - /faq/general/glossary/#api
-    - /faq/general/glossary/#api-key
-    - /faq/general/glossary/#cron-job
-    - /faq/general/glossary/#customer
-    - /faq/general/glossary/#closed-loop-gift-card
-    - /faq/general/glossary/#cvc
-    - /faq/general/glossary/#e-mandate
-    - /faq/general/glossary/#issuer
-    - /faq/general/glossary/#json
-    - /faq/general/glossary/#merchant
-    - /faq/general/glossary/#multisafepay-account
-    - /faq/general/glossary/#open-loop-gift-card
-    - /faq/general/glossary/#payment-method
-    - /faq/general/glossary/#payment-service-provider
-    - /faq/general/glossary/#plugin
-    - /faq/general/glossary/#payment-services-directive-2
-    - /faq/general/glossary/#payment-card-industry-data-security-standard
-    - /faq/general/glossary/#strong-customer-authentication
-    - /faq/general/glossary/#surcharge
-    - /faq/general/glossary/#ultimate-beneficial-owner
-    - /faq/general/glossary/#uncleared
-    - /faq/general/glossary/#website
 ---
 See also [Credit and debit card glossary](/credit-and-debit-cards/glossary/).
 

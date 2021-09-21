@@ -23,7 +23,7 @@ aliases:
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
-Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0 verification.
+Non-mobile payments always use [3D Secure](/payment-regulations/3d-secure/) 1.0 verification.
 
 {{< details title="Refunds" >}}
 

@@ -38,7 +38,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 Email requests to activate Zero Authorization in your MultiSafepay account to your account manager at <sales@multisafepay.com>
 
 ## Integration
-To integrate Zero Authorization using our API, see API reference – [Zero Authorization](/api/#zero-authorization).
+To integrate Zero Authorization using our API, see API reference – [Zero Authorization](/api/#zero-authorization-orders).
 
 Zero Authorization is not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but you can customize it via our API.
 

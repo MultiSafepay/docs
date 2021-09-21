@@ -146,7 +146,7 @@ The unique identifier of where the user/browser originates from.
 ----------------
 `reference` | string | For [tokenization](/payments/features/tokenization/) transactions: required
 
-See [Create token transaction](/api/#create-token-transaction).
+See [Create token transaction](/api/#create-tokenization-order).
 
 ----------------
 
