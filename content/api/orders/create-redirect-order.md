@@ -72,7 +72,7 @@ This is the default type of order.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
+Options: `redirect`
 
 ----------------
 `order_id` | string | required
