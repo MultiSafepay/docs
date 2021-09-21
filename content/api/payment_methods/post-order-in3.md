@@ -531,7 +531,7 @@ See also Payment methods – [in3](/payments/methods/billing-suite/in3).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `direct`.
+Fixed value: `redirect`.
 
 ----------------
 `gateway` | string | required
@@ -631,7 +631,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `direct`.
+Fixed value: `direct`.
 
 ----------------
 `gateway` | string | required

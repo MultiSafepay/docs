@@ -54,7 +54,7 @@ See also [Recurring models](/payments/features/tokenization/#recurring-models).
 ----------------
 `type` | string
 
-The gateway used for the transaction.
+The payment gateway.
 
 ----------------
 `account_bic` | string

@@ -152,7 +152,7 @@ Customers are redirected to a MultiSafepay payment page where they can select iD
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`, `checkout`, `paymentlink`.  
+Options: `redirect`, `checkout`, `paymentlink`.  
 
 ----------------
 `order_id` | string | required
@@ -213,7 +213,7 @@ Customers select iDEAL and the issuing bank on the checkout page, and are then d
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`.  
+Fixed value: `direct`.  
 
 ----------------
 `order_id` | string | required

@@ -114,7 +114,7 @@ Format: See [Retrieve all gateways](/api/#retrieve-all-gateways), e.g. `VISA`.
 `type` | string (single value or array of values)
 
 Returns transactions of the specified type.  
-Options: `admin_fee`, `affiliate_payout`, `automatic_payout`, `chargeback`, `coupon`, `currency_conversion`, `deposit`, `fastcheckout`, `monthly_fee`, `payment`, `refund`, `reserve_chargeback`, `singup_fee`.
+Options: `admin_fee`, `affiliate_payout`, `automatic_payout`, `chargeback`, `coupon`, `currency_conversion`, `deposit`, `fastcheckout`, `monthly_fee`, `payment`, `refund`, `reserve_chargeback`, `signup_fee`.
 
 ------------------
 `limit` | integer

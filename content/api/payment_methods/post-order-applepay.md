@@ -102,7 +102,7 @@ To avoid an error if the customer's device doesn't support Apple Pay, we recomme
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`.  
+Fixed value: `redirect`.  
 
 ----------------
 `order_id` | string | required
@@ -166,7 +166,8 @@ For a detailed integration manual, see [Apple Pay direct integration](/payments/
 ----------------
 `type` | string | required
 
-Specifies the payment flow for the checkout process. For the Apple Pay direct integration, use `direct`.  
+Specifies the payment flow for the checkout process.  
+For the Apple Pay direct integration, use `direct`.  
 
 ----------------
 `order_id` | string | required

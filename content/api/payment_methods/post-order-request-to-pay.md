@@ -143,7 +143,7 @@ See also Payment methods – [Request to Pay](/payments/methods/banks/request-to
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`.
+Fixed value: `redirect`.
 
 ----------------
 `order_id` | string | required
@@ -200,7 +200,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`.
+Fixed value: `direct`.
 
 ----------------
 `order_id` | string | required
