@@ -78,8 +78,11 @@ To add a new automatic payout, follow these steps:
 To make manual payouts, follow these steps:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Finance** > **Balance**.
-3. Select an amount to pay out, the currency, and the IBAN number.
+2. Go to **Finance** > **Payouts**.
+3. Under **Withdraw funds**, select the currency, enter an amount, and click **Withdraw funds**.
+4. Check the details of your withdrawal, click **Submit**.
+5. From the **Select bank account** dropdown, select the business bank account number you want to transfer the withdrawal to. 
+6. Click **Continue**.
 
 ## Payout currency
 The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
