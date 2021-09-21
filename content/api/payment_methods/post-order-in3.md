@@ -531,13 +531,13 @@ See also Payment methods – [in3](/payments/methods/billing-suite/in3).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.
+Value: `redirect`.
 
 ----------------
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `IN3`. 
+Value: `IN3`. 
 
 ----------------
 `order_id` | string | required
@@ -566,7 +566,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -631,7 +631,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `direct`.
+Value: `direct`.
 
 ----------------
 `gateway` | string | required
@@ -667,7 +667,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -748,7 +748,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

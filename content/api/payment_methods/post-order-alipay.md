@@ -164,7 +164,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `ALIPAY`. 
+Value: `ALIPAY`. 
 
 ----------------
 `currency` | string | required
@@ -223,7 +223,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `ALIPAY`. 
+Value: `ALIPAY`. 
 
 ----------------
 `currency` | string | required
@@ -246,7 +246,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -297,7 +297,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

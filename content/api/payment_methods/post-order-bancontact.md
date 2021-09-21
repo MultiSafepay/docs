@@ -63,7 +63,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `MISTERCASH`.
+Value: `MISTERCASH`.
 
 ----------------
 `currency` | string | required

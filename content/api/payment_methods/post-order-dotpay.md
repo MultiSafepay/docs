@@ -65,7 +65,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `DOTPAY`.
+Value: `DOTPAY`.
 
 ----------------
 `currency` | string | required

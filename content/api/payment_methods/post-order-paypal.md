@@ -171,7 +171,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `PAYPAL`.
+Value: `PAYPAL`.
 
 ----------------
 `currency` | string | required
@@ -232,7 +232,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.   
-Fixed value: `PAYPAL`.
+Value: `PAYPAL`.
 
 ----------------
 `currency` | string | required
@@ -255,7 +255,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -294,7 +294,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

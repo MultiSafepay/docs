@@ -143,7 +143,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

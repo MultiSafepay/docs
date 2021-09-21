@@ -147,7 +147,7 @@ The amount (in cents) the customer needs to pay.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `INGHOME`.
+Value: `INGHOME`.
 
 ----------------
 `description` | string | required
@@ -195,7 +195,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `INGHOME`.
+Value: `INGHOME`.
 
 ----------------
 `currency` | string | required
@@ -263,7 +263,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

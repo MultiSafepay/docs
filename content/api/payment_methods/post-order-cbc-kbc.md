@@ -238,7 +238,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `CBC`, `KBC`.
+Value: `CBC`, `KBC`.
 
 ----------------
 `currency` | string | required
@@ -261,7 +261,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -293,7 +293,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

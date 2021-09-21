@@ -51,7 +51,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.  
+Value: `redirect`.  
 
 ----------------
 `order_id` | string | required
@@ -63,7 +63,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The gateway identifier.  
-Fixed value: `AMEX`.
+Value: `AMEX`.
 
 **Note:** We also offer a generic [CREDITCARD](/api/#credit-cards) gateway. This can save space in mobile checkouts, but customers can't immediately see which credit cards are supported. When the customer enters the first digits of their card number, the relevant credit card logo appears automatically.
 

@@ -160,7 +160,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

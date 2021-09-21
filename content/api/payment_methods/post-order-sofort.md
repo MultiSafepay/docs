@@ -164,7 +164,7 @@ See also Payment methods – [Sofort](/payments/methods/banks/sofort-banking).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`. 
+Value: `redirect`. 
 
 ----------------
 `order_id` | string | required
@@ -176,7 +176,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `DIRECTBANK`.
+Value: `DIRECTBANK`.
 
 ----------------
 `currency` | string | required
@@ -232,7 +232,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string
@@ -287,7 +287,7 @@ The page the customer is redirected to if the payment fails.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `direct`. 
+Value: `direct`. 
 
 ----------------
 `order_id` | string | required
@@ -299,7 +299,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `DIRECTBANK`.
+Value: `DIRECTBANK`.
 
 ----------------
 `currency` | string | required
@@ -323,7 +323,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required

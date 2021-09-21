@@ -196,13 +196,13 @@ See also Payment methods – [AfterPay](/payments/methods/billing-suite/afterpay
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.
+Value: `redirect`.
 
 ----------------
 `gateway` | string | required
 
 The unique gateway ID that immediately directs the customer to the payment method.  
-Fixed value: `AFTERPAY`. 
+Value: `AFTERPAY`. 
 
 ----------------
 `order_id` | integer / string | required
@@ -237,7 +237,7 @@ See [items (object)](/api/#items-object).
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `shopping_cart` | object
@@ -282,13 +282,13 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `direct`.
+Value: `direct`.
 
 ----------------
 `gateway` | string | required
 
 The unique gateway identifier that directs the customer straight to the payment method.  
-Fixed value: `AFTERPAY`. 
+Value: `AFTERPAY`. 
 
 ----------------
 `order_id` | integer / string | required
@@ -318,7 +318,7 @@ HTML formatting is not supported. To add descriptions in HTML format, use the `i
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `gateway_info` | object  | required

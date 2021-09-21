@@ -157,7 +157,7 @@ The reason for capturing the order.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

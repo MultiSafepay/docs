@@ -65,7 +65,7 @@ The number of units of the item.
 ----------------
 `merchant_item_id` | string | required
 
-Fixed value: `msp-shipping`.
+Value: `msp-shipping`.
 
 ----------------
 `tax_table_selector` | string | required

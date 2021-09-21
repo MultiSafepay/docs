@@ -72,7 +72,7 @@ Options: `MISTERCASH`.
 `currency` | string | required
 
 The currency for the order.  
-Fixed value: `EUR`.
+Value: `EUR`.
 
 ----------------
 `amount` | integer | required
