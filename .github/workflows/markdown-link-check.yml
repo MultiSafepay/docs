@@ -1,6 +1,8 @@
 name: Check Markdown links
 
 on: [pull_request]
+  schedule:
+  - cron: "0 5 * * *"
 
 jobs:
   markdown-link-check:
@@ -10,4 +12,5 @@ jobs:
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
+        check-modified-files-only: 'yes'
         config-file: './.github/mlc_config.json'
