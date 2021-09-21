@@ -152,7 +152,7 @@ See also Payment methods – [Alipay](/payments/methods/wallet/alipay).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
+Value: `redirect`.
 
 ----------------
 `order_id` | string | required
