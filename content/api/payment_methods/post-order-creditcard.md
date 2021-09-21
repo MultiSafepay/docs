@@ -64,7 +64,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The gateway identifier.  
-Fixed value: `CREDITCARD`.
+Value: `CREDITCARD`.
 
 ----------------
 `currency` | string | required

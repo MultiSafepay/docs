@@ -52,7 +52,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.  
+Value: `redirect`.  
 
 ----------------
 `order_id` | string | required
@@ -64,7 +64,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The gateway identifier.  
-Fixed value: `MAESTRO`.
+Value: `MAESTRO`.
 
 ----------------
 `currency` | string | required

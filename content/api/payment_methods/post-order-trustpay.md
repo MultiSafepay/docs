@@ -56,7 +56,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.  
+Value: `redirect`.  
 
 ----------------
 `order_id` | string | required
@@ -79,7 +79,7 @@ The amount (in cents) the customer needs to pay.
 `gateway` | string | required
 
 The unique gateway identifier.  
-Fixed value: `TRUSTPAY`.
+Value: `TRUSTPAY`.
 
 ----------------
 `description` | string | required

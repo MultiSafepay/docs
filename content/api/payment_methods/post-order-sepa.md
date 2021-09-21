@@ -137,7 +137,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `IDEAL`. 
+Value: `IDEAL`. 
 
 ----------------
 `currency` | string | required
@@ -222,7 +222,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `DIRDEB`.
+Value: `DIRDEB`.
 
 ----------------
 `currency` | string | required
@@ -318,7 +318,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

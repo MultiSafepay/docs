@@ -143,7 +143,7 @@ See also Payment methods – [Request to Pay](/payments/methods/banks/request-to
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.
+Value: `redirect`.
 
 ----------------
 `order_id` | string | required
@@ -155,7 +155,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `DBRTP`.
+Value: `DBRTP`.
 
 ----------------
 `currency` | string | required
@@ -178,7 +178,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -200,7 +200,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `direct`.
+Value: `direct`.
 
 ----------------
 `order_id` | string | required
@@ -212,7 +212,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `DBRTP`.
+Value: `DBRTP`.
 
 ----------------
 `currency` | string | required
@@ -235,7 +235,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required
@@ -272,7 +272,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

@@ -212,13 +212,13 @@ See also Payment methods – [Pay After Delivery](/payments/methods/billing-suit
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.  
+Value: `redirect`.  
 
 ----------------
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `PAYAFTER`.
+Value: `PAYAFTER`.
 
 ----------------
 `order_id` | string | required
@@ -252,7 +252,7 @@ See [items (object)](/api/#items-object).
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `gateway_info` | object  | required
@@ -314,13 +314,13 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `direct`.  
+Value: `direct`.  
 
 ----------------
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `PAYAFTER`.
+Value: `PAYAFTER`.
 
 ----------------
 `order_id` | string | required
@@ -349,7 +349,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `gateway_info` | object  | required

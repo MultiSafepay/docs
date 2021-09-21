@@ -164,13 +164,13 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `IDEAL`.
+Value: `IDEAL`.
 
 ----------------
 `currency` | string | required
 
 The currency for the payment.  
-Fixed value: `EUR`.
+Value: `EUR`.
 
 ----------------
 `amount` | integer | required
@@ -213,7 +213,7 @@ Customers select iDEAL and the issuing bank on the checkout page, and are then d
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `direct`.  
+Value: `direct`.  
 
 ----------------
 `order_id` | string | required
@@ -225,7 +225,7 @@ Format: Maximum 50 characters.
 `currency` | string | required
 
 The currency for the payment.  
-Fixed value: `EUR`.
+Value: `EUR`.
 
 ----------------
 `amount` | integer | required
@@ -290,7 +290,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

@@ -63,7 +63,7 @@ Options: `direct`.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `CREDITCARD`. 
+Value: `CREDITCARD`. 
 
 ----------------
 `order_id` | string | required

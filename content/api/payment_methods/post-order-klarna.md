@@ -139,14 +139,14 @@ JSON requests are the same for both environments.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.  
+Value: `redirect`.  
 
 ----------------
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
-Fixed value: `KLARNA`.
+Value: `KLARNA`.
 
 ----------------
 `order_id` | string | required
@@ -180,7 +180,7 @@ See [items (object)](/api/#items-object).
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `gateway_info` | object  | required

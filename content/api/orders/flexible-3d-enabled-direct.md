@@ -216,7 +216,7 @@ See [costs (object)](/api/#costs-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

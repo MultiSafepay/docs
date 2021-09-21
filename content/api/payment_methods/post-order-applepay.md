@@ -102,7 +102,7 @@ To avoid an error if the customer's device doesn't support Apple Pay, we recomme
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `redirect`.  
+Value: `redirect`.  
 
 ----------------
 `order_id` | string | required
@@ -114,7 +114,7 @@ Format: Maximum 35 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.    
-Fixed value: `APPLEPAY`.
+Value: `APPLEPAY`.
 
 ----------------
 `currency` | string | required
@@ -137,7 +137,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string | required
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `payment_options` | object | required

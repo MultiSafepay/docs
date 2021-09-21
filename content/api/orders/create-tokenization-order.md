@@ -197,7 +197,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `financial_status` | string

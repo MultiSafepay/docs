@@ -38,7 +38,7 @@ Cancel a pretransaction and/or a transaction based on the `order_id`.
 `status` | string | required
 
 The [order status](/payments/multisafepay-statuses/).  
-Fixed value: `cancelled`.
+Value: `cancelled`.
 
 ----------------
 `exclude_order` | integer | required

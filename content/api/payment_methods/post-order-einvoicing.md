@@ -268,7 +268,7 @@ Options: `redirect`.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `EINVOICE`.
+Value: `EINVOICE`.
 
 ----------------
 `order_id` | string | required
@@ -297,7 +297,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `manual` | string 
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `gateway_info` | object                                                              
@@ -339,7 +339,7 @@ Options: `direct`.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-Fixed value: `EINVOICE`.
+Value: `EINVOICE`.
 
 ----------------
 `order_id` | string | required
@@ -373,7 +373,7 @@ See [items (object)](/api/#items-object).
 ----------------
 `manual` | string 
 
-Fixed value: `false`.
+Value: `false`.
 
 ----------------
 `gateway_info` | object
@@ -450,7 +450,7 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 ----------------
 `fastcheckout` | string 
 
-Fixed value: `NO`.
+Value: `NO`.
 
 ----------------
 `modified` | string

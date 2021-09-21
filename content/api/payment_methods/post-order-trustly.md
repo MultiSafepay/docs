@@ -77,7 +77,7 @@ The amount (in cents) the customer needs to pay.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.  
-Fixed value: `TRUSTLY`. 
+Value: `TRUSTLY`. 
 
 ----------------
 `description` | string | required
