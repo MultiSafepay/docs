@@ -79,8 +79,11 @@ To make manual payouts, follow these steps:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Finance** > **Payouts**.
-3. Under **Withdraw funds**, select the currency, enter an amount, and click **Withdraw funds**.
-4. Check the details of your withdrawal, click **Submit**.
+3. Under **Withdraw funds**:  
+    - Select the currency.
+    - Enter an amount.
+    - Click **Withdraw funds**.
+4. Check the details of the payout, and then click **Submit**.
 5. From the **Select bank account** dropdown, select the business bank account number you want to transfer the withdrawal to. 
 6. Click **Continue**.
 
