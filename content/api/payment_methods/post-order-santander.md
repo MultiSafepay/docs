@@ -103,7 +103,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `paymentlink`. 
+Options: `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**). 
 
 ----------------
 `order_id` | string | required

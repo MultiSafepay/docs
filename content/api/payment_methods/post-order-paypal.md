@@ -159,7 +159,7 @@ Once the customer has completed payment, the `status` changes to **Completed**. 
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `checkout`, `paymentlink`. 
+Options: `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**). 
 
 ----------------
 `order_id` | string | required
@@ -220,7 +220,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `checkout`, `paymentlink`. 
+Options: `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**). 
 
 ----------------
 `order_id` | string | required

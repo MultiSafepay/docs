@@ -57,8 +57,7 @@ Your MultiSafepay account creates a unique transaction to match to the payment.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Fixed value: `paymentlink`.  
-These orders are visible in your MultiSafepay account under **Tools** > **Payment link generator**.
+Fixed value: `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
 
 ----------------
 `order_id` | string | required

@@ -69,7 +69,7 @@ See [Zero Authorization](/payments/features/zero-authorization/).
 `type` | string | required
 
 The payment flow for the checkout process.    
-Options: `redirect`, `direct`, `checkout`, `paymentlink`.
+Options: `redirect`, `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
 
 ----------------
 `order_id` | string | required
