@@ -89,7 +89,7 @@ Wijncadeau= `WIJNCADEAU`
 Yourgift= `YOURGIFT`    
 
 ------------------
-`disable` | boolean | optional
+`disabled` | boolean | optional
 
 Disables displaying all vouchers to the customer.  
 
