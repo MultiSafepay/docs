@@ -132,7 +132,7 @@ See also Payment methods – [Belfius](/payments/methods/banks/belfius).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `paymentlink`.
+Value: `redirect`.
 
 ----------------
 `order_id` | string | required
@@ -191,7 +191,7 @@ The URL of the page where the customer is redirected from your checkout to compl
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `paymentlink`.
+Value: `direct`.
 
 ----------------
 `order_id` | string | required

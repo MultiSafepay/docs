@@ -152,7 +152,7 @@ Customers are redirected to a MultiSafepay payment page where they can select iD
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `checkout`, `paymentlink`.  
+Value: `redirect`.  
 
 ----------------
 `order_id` | string | required

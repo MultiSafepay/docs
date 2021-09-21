@@ -60,7 +60,7 @@ This only applies to specific credit card payment methods, including MasterCard,
 `type` | string | required
 
 The payment flow for the checkout process.    
-Options: `redirect`, `direct`, `checkout`, `paymentlink`.
+Options: `redirect`, `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
 
 ----------------
 `order_id` | string | required

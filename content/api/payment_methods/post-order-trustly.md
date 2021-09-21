@@ -54,7 +54,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `paymentlink`.  
+Value: `redirect`.  
 
 ----------------
 `order_id` | string | required

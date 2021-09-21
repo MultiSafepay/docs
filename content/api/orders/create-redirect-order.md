@@ -72,7 +72,7 @@ This is the default type of order.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `redirect`, `checkout`, `paymentlink`.
+Options: `redirect`
 
 ----------------
 `order_id` | string | required

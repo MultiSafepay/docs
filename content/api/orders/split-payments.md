@@ -56,7 +56,7 @@ See [Split Payments](/payments/features/split-payments/).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`, `paymentlink`.  
+Options: `direct`, `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).  
 
 ----------------
 `gateway` | string | required
