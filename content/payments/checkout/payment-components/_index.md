@@ -5,7 +5,7 @@ layout: 'single'
 meta_title: 'Payment Components - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Payment pages.svg'
-short_description: 'Embedded solution: Embed payment methods directly in your ecommerce integration'
+short_description: 'Embedded solution: Embed payment methods directly in your ecommerce integration.'
 hideMenu : 'true'
 weight: 51
 aliases:
