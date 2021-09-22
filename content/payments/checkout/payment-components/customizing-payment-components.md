@@ -7,7 +7,7 @@ read_more: '.'
 weight: 3
 ---
 
-After integrating the payment component, the default user interface (UI) styling is applied. 
+After integrating the Payment Component, the default user interface (UI) styling is applied. 
 
 You can customize the styling to match your brand's visual identity, including fonts, colors, and layout. 
 
@@ -41,14 +41,12 @@ To edit the default styling of the payment component:
 
 ### Example
 
-To edit the Payment Component to: 
+Add the following to your CSS to edit the Payment Component to add a: 
 
-- Add a 5-pixel `border-radius` to the form fields
-- Add a shadow to the fields on `focus`
-- Add a 10-pixel `border-radius` to the Payment Component container
-- Add a lightgrey `background-color` to the Payment Component container
-
-Add the following to your CSS:
+- 5-pixel `border-radius` to the form fields
+- Shadow to the fields on `focus`
+- 10-pixel `border-radius` to the Payment Component container
+- Light grey `background-color` to the Payment Component container
 
 ```
 .msp-ui-form-control {
@@ -66,7 +64,7 @@ Add the following to your CSS:
 ```
 {{< br >}}
 
-The Payment Component now looks as follows:
+The Payment Component now looks like this:
 
 {{< screen src="/img/Screenshot-Payment-Component.png" align="center" class="medium-img desktop-radius" >}}
 
