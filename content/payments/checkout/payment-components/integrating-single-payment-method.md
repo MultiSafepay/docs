@@ -7,7 +7,7 @@ layout: 'single'
 read_more: '.'
 --- 
 
-To integrate a payment component into your checkout for a single payment method, follow these steps:
+To embed a single payment method into your checkout, follow these steps:
 
 ## Step 1: Install
 
@@ -34,9 +34,9 @@ Payment Components require a MultiSafepay API token. See API reference&nbsp;–&
 
 **Note:** To keep your API key private, request the token from your own server. 
 
-### Construct the payment component object
+### Construct the component object
 
-**1.** Initialize an `orderData` object containing information about the customer's order collected during the checkout process:
+**1.** Initialize an `orderData` object, containing information about the customer's order collected during the checkout process:
 
 ```
 const orderData = {
@@ -67,7 +67,7 @@ const orderData = {
 
 {{< /details >}}
 
-**Note:** We use the `orderData` object to ensure the payment method is enabled, e.g. for the currency, country, and transaction value. 
+**Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
 
 **2.** Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
