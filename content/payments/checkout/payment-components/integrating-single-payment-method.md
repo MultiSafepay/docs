@@ -81,7 +81,7 @@ PaymentComponent = new MultiSafepay({
 
 ### Initialize the payment component
 
-Call the `PaymentComponent.init()` method with the following arguments:
+**1.** Call the `PaymentComponent.init()` method with the following arguments:
 
 ```
 PaymentComponent.init('payment', {
@@ -95,7 +95,7 @@ PaymentComponent.init('payment', {
     }
 });
 ```
-Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
+**2.** Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
 {{< details title="View gateway codes" >}}
 
 |Payment method|Gateway code|
@@ -105,7 +105,7 @@ Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
 
 {{< /details >}}
 
-Create event handlers for the following events:
+**3.** Create event handlers for the following events:
 
 {{< details title="View events" >}}
 
@@ -116,7 +116,7 @@ Create event handlers for the following events:
 
 {{< /details >}}
 
-The `PaymentComponent` uses the following methods:
+**Note:** The `PaymentComponent` uses the following methods:
 
 {{< details title="View methods" >}}
 
@@ -167,7 +167,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 
 ### Redirect the customer
 
-**1.** From your server, pass the `response` to the `POST /orders` request to the customer's device. 
+**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 
@@ -177,9 +177,9 @@ PaymentComponent.init('redirection', {
     order: response.data
 });
 ```
-- If the customer needs to perform additional actions, they are redirected, e.g. to the `payment_url` or 3D Secure. Then, if successful, they are redirected to the `redirect_url`.
+If the customer needs to perform additional actions, they are redirected to the relevant page, e.g. the `payment_url` or 3D Secure. Then, if successful, they are redirected to the `redirect_url`.
 
-- If no further action is required, the customer is redirected to the `redirect_url`.
+If no further action is required, the customer is redirected to the `redirect_url`.
 
 ## Step 4: Go live
 
