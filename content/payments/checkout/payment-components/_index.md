@@ -17,6 +17,17 @@ Payment Components let you embed payment methods directly into your checkout.
 - Encrypts customer payment details for secure processing
 - Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
 
+{{< details title="Supported payment methods" >}}
+
+- [Bank Transfer](/payments/methods/banks/bank-transfer/)
+- [Credit cards](/payments/methods/credit-and-debit-cards/) (America Express, Visa, Mastercard, Bancontact)
+- [iDEAL](/payments/methods/banks/ideal/)
+- [PayPal](/payments/methods/wallet/paypal/)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/)
+- [Sofort](/payments/methods/banks/sofort/)
+
+{{< /details >}}
+
 ## Integration
 
 Embed a selected payment method in your checkout. The customer completes payment within your checkout or is redirected to the relevant payment page.
