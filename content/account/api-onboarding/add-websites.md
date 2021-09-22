@@ -46,7 +46,7 @@ Add a website to an affiliated merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" \
 --header "accept: application/json" 
 --header "Content-Type: application/json" \
 --header "api_key: <your-account-api-key>" \
@@ -101,7 +101,7 @@ Retrieve an array of all websites linked to a merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" \
 --header "accept: application/json" \
 --header "api_key: <your-account-api-key>" 
 ```
@@ -151,7 +151,7 @@ Retrieve a single website by its identifier.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/account/sites/12345" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345" \
 --header "accept: application/json" \
 --header "api_key: <your-account-api-key>" 
 ```
