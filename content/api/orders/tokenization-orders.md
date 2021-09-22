@@ -2,9 +2,6 @@
 weight: 234
 meta_title: "API reference - Tokenization orders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-aliases:
-    - /api/#tokenization-and-recurring-model
-    - /api/#tokenization
 ---
 
 {{< code-block hide >}}

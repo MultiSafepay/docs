@@ -2,8 +2,6 @@
 weight: 210
 meta_title: "API reference - Validate shopping cart - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-aliases:
-    - /api/#validate-the-shopping-cart
 ---
 {{< code-block >}}
 

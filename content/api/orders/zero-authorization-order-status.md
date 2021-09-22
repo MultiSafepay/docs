@@ -2,8 +2,6 @@
 weight: 239
 meta_title: "API reference - Get zero authorization order details - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-aliases:
-    - /api/#order-status
 ---
 {{< code-block >}}
 > GET - /orders/{order_id}
