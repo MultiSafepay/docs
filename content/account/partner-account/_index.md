@@ -10,9 +10,6 @@ url: '/account/partner-accounts/'
 aliases: 
     - /partners/
     - /partners/faq/what-is-the-kickback-commission-for-partners/
-    - /api/#partners
-    - /api/#create-a-merchant-account
-    - /api/#create-a-website-profile-in-multisafepay-control
     - /tools/partner-account-control/
     - /account/multisafepay-account/
     - /account/partner-account-control/

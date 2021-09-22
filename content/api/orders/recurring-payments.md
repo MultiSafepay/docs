@@ -80,7 +80,7 @@ Customers can make the initial payment using iDEAL, Bancontact, or SOFORT, follo
 To process Recurring Payments:
 
 1. Submit a standard `POST /orders` request with Recurring Payments enabled. 
-2. Request the token by [retreiving the order](https://docs.multisafepay.com/api/#retrieve-an-order).
+2. Request the token by [retreiving the order](/api/#get-order-details).
 3. Make Recurring Rayments requests as required.
 
 **Parameters**

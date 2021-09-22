@@ -163,7 +163,7 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway ID to direct the customer straight to the payment method.  
-To retrieve gateway IDs, see [Gateways](/api/#gateways).
+To retrieve gateway IDs, see [Gateways](#gateways).
 
 ----------------
 `currency` | string | required
@@ -191,7 +191,7 @@ Value: `false`.
 ----------------
 `payment_options` | object | required
 
-See [payment_options (object)](/api/#payment-options-object).
+See [payment_options (object)](#payment-options-object).
 
 ----------------
 `template` | object | optional
@@ -203,7 +203,7 @@ Contains:
 
 - `settings` | object
 
-    See [settings (object)](/api/#settings-object).
+    See [settings (object)](#settings-object).
 
 - `header` | object
 - `cover` | object
@@ -218,7 +218,7 @@ Contains:
 
     - `payment_methods` | object
 
-        See [payment_methods (object)](/api/#payment-methods-object).
+        See [payment_methods (object)](#payment-methods-object).
 
     - `active` | object
     - `secondary` | object

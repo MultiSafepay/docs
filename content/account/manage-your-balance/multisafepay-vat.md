@@ -7,7 +7,6 @@ weight: 40
 aliases:
     - /faq/finance/about-vat/
     - /faq/finance/reverse-charging-vat/
-    - /faq/finance/vat-general-questions/#is-reverse-charging-vat-possible
     - /faq/finance/VAT-general-questions
     - /tools/multisafepay-control/multisafepay-vat
 ---

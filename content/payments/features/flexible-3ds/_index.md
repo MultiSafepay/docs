@@ -26,9 +26,7 @@ Setting Flexible 3D to:
 
 See API reference:
 
-- [3D disabled or NON 3D transaction](/api/#3d-disabled-or-non-3d-transaction)
-- [Direct, Flexible 3D set to false](/api/#direct-flexible-3d-set-on-_false_)
-- [Direct Server to Server, Flexible 3D set to true](/api/#direct-server-to-server-flexible-3d-set-on-_true_)
-- [Redirect, Flexible 3D set to false](/api/#redirect-flexible-3d-set-on-_false_)
-
-
+- [3D disabled or NON 3D transaction](/api/#3d-disabled-or-non-3d-requests)
+- [Direct, Flexible 3D set to false](/api/#direct-flexible-3d-enabled)
+- [Direct Server to Server, Flexible 3D set to true](/api/#direct-flexible-3d-enabled)
+- [Redirect, Flexible 3D set to false](/api/#redirect-flexible-3d-disabled)

@@ -2,8 +2,6 @@
 weight: 223
 meta_title: "API reference - Set order status of captured transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-aliases:
-    - /api/#order-status-captured-transaction
 ---
 {{< code-block >}}
 

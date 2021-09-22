@@ -2,8 +2,6 @@
 weight: 227
 meta_title: "API reference - 3D disabled or non-3D requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-aliases:
-    - /api/#3d-disabled-or-non-3d-transaction
 ---
 {{< code-block >}}
 

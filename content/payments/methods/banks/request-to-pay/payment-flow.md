@@ -9,9 +9,6 @@ layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
 aliases: 
     - /payment-methods/bancontact/how-does-request-to-pay-work/
-    - /payment-methods/banks/direct-bank-transfer/#how-does-it-work
-    - /payment-methods/banks/direct-bank-transfer/#transaction-flow
-    - /payment-methods/banks/direct-bank-transfer/#product-rules
 ---
 
 The table below shows a successful payment flow from start to finish.  
