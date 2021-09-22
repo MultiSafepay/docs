@@ -37,7 +37,7 @@ If emailing your own payment instructions to the customer, in your `POST /orders
 
 This prevents MultiSafepay emailing the customer.
 
-For more information, see API reference – [Bank Transfer: Direct](/api/#direct-bank-transfer).
+For more information, see API reference – [Bank Transfer: Direct](/api/#request-to-pay).
 
 {{< /details >}}
 
