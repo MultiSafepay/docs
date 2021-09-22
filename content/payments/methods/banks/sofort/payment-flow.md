@@ -6,7 +6,7 @@ meta_title: "Sofort payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
-logo: '/logo/Payment_methods/Sofort.svg'
+logo: '/logo/Payment_methods/SOFORT.svg'
 url: '/payments/methods/banks/sofort/payment-flow/'
 aliases: 
     - /payment-methods/sofort-banking/how-does-sofort-banking-work/
