@@ -2,7 +2,6 @@
 weight: 608
 meta_title: "API reference - payment_options (object) - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-url: '/api/#payment-options-object'
 ---
 {{< code-block >}}
 ```json 
