@@ -8,7 +8,7 @@ aliases:
     - /faq/payment-regulations/surcharges
     - /faq/payment-regulations/about-surcharges
 ---
-{{< blue-notice >}} Check this page regularly for updates on the implementation of the PSD2 directive. {{< /blue-notice >}}   
+{{< blue-notice >}} Check this page regularly for updates on implementing the PSD2 directive. {{< /blue-notice >}}   
 
 A surcharge is a fee merchants may charge customers on top of the retail price to cover the cost of accepting certain payment methods. Surcharges may be a fixed amount or a percentage of the total order amount.
 
