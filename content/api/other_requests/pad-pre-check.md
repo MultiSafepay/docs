@@ -126,10 +126,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "description_right":{
         "value":[
           {
-            "nl":"Ik ga akkoord met de <a href='http://example.com' target='_blank'>algemene voorwaarden</a>"
+            "nl":"Ik ga akkoord met de <a href='https://example.com' target='_blank'>algemene voorwaarden</a>"
           },
           {
-            "en":"I accept the <a href='http://example.com' target='_blank'>terms and conditions</a>"
+            "en":"I accept the <a href='https://example.com' target='_blank'>terms and conditions</a>"
           }
         ]
       },
