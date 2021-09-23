@@ -75,10 +75,14 @@ PaymentComponent.init('payment', {
 **2.** Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
 {{< details title="View gateway codes" >}}
 
-|Payment method|Gateway code|
+| Payment method| Gateway code|
 |---|---|
-|Credit card|`CREDITCARD`|
-|iDEAL|`IDEAL`|
+| Bank Transfer | `BANKTRANS` |
+| Credit cards |`CREDITCARD`|
+| iDEAL|`IDEAL`|
+| PayPal | `PAYPAL` |
+| SEPA Direct Debit | `DIRDEB` |
+| Sofort | `DIRECTBANK`|
 
 {{< /details >}}
 
