@@ -24,7 +24,7 @@ Make a POST [`/orders`](/api/#orders) request from your server:
 - Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the payment component](#initialize-the-payment-component).
 
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
+curl -X POST "https://testapi.multisafepay.com/2/json/orders" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --header "api_key: <your-website-API-key>" \
