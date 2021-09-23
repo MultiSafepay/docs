@@ -50,7 +50,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "phone":"0612345678",
     "email":"example@multisafepay.com",
     "disable_send_email":false,
-    "referrer":"https://test.com",
+    "referrer":"https://example.com",
     "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
   },
   "delivery":{
