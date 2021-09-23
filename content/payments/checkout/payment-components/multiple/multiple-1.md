@@ -11,12 +11,12 @@ To add elements to your checkout page, follow these steps:
 
 **1.** Add the Payment Component CSS to the `<head>` of your checkout page:  
 ```
-<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">
+<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
 ```
 
 **2.** Add the Payment Component script to the bottom of the `<body>` of your checkout page:  
 ```
-<script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>
+<script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
 ```
 
 **3.** Add the DOM element for the Payment Component UI in the `<body>` of your checkout page:

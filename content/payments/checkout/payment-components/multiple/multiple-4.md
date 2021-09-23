@@ -20,7 +20,7 @@ PaymentComponent = new MultiSafepay({
 
 **2.** In Step 3: [Create an order](#create-an-order), change the test endpoint to the live endpoint:  
 
-`https://api.multisafepay.com/v1/json/orders`
+`https://api.multisafepay.com/v2/json/orders`
 
 {{< two-buttons
 
