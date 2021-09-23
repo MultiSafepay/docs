@@ -24,9 +24,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "email":"example@multisafepay.com"
   },
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":""
   },
   "plugin":{
@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "plugin_version":"1.0.0",
     "shop_version":"1",
     "partner":"partner",
-    "shop_root_url":"http://multisafepay.com"
+    "shop_root_url":"https://multisafepay.com"
   },
   "customer":{
     "locale":"nl_NL",
@@ -50,7 +50,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "phone":"0612345678",
     "email":"example@multisafepay.com",
     "disable_send_email":false,
-    "referrer":"http://test.com",
+    "referrer":"https://example.com",
     "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
   },
   "delivery":{

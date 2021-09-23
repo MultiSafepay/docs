@@ -17,9 +17,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "description":"Test order description",
   "manual":false,
   "payment_options":{
-    "notification_url":"http://www.example.com/client/json-live/notification?type=notification",
-    "redirect_url":"http://www.example.comclient/json-live/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/json-live/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/json-live/notification?type=notification",
+    "redirect_url":"https://www.example.comclient/json-live/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/json-live/notification?type=cancel",
     "close_window":true
   },
   "customer":{

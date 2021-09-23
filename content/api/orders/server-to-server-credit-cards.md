@@ -15,9 +15,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "gateway":"CREDITCARD",
   "description":"product description",
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
   "customer":{
@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "country":"NL",
     "phone":"0208500500",
     "email":"simonsmit@example.com",
-    "referrer":"http://example.com",
+    "referrer":"https://example.com",
     "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
   },
   "gateway_info":{
@@ -121,7 +121,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "html":""
     },
     "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel"
+    "cancel_url":"https://www.example.com/client/notification?type=cancel"
   }
 }
 ```

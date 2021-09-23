@@ -18,9 +18,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "email":"example@multisafepay.com"
   },
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
   ...
@@ -98,9 +98,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "email":"example@multisafepay.com"
   },
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
   ...
@@ -243,8 +243,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "costs":[
         
       ],
-      "payment_url":"http://www.example.com/client/?action=notification&type=redirect&transactionid=2340676",
-      "cancel_url":"http://www.example.com/client/?action=notification&type=cancel&transactionid=2340676"
+      "payment_url":"https://www.example.com/client/?action=notification&type=redirect&transactionid=2340676",
+      "cancel_url":"https://www.example.com/client/?action=notification&type=cancel&transactionid=2340676"
     }
   }
 ```
