@@ -7,25 +7,26 @@ layout: 'single'
 read_more: '.'
 --- 
 
-To integrate a payment component into your checkout for multiple payment methods, follow these steps:
+To embed multiple payment methods into your checkout, follow these steps:
 
 ## Step 1: Install
 
 ### Add elements to your checkout page
 **1.** Add the Payment Component CSS to the `<head>` of your checkout page:  
 ```
-<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">
+<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
 ```
 
 **2.** Add the Payment Component script to the bottom of the `<body>` of your checkout page:  
 ```
-<script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>
+<script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
 ```
 
 **3.** Add the DOM element for the Payment Component UI in the `<body>` of your checkout page:
 ```
 <div id="MultiSafepayPayment"></div>
 ```
+**Note:** If using the previous release, use `v1` instead of `v2` in the pathway where relevant.
 
 ## Step 2: Initialize
 
@@ -138,7 +139,7 @@ Make a POST [`/orders`](/api/#orders) request from your server:
 - Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the payment component](#initialize-the-payment-component).
 
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
+curl -X POST "https://testapi.multisafepay.com/v2/json/orders" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --header "api_key: <your-website-API-key>" \
@@ -187,7 +188,7 @@ PaymentComponent = new MultiSafepay({
 
 **2.** In Step 3: [Create an order](#create-an-order), change the test endpoint to the live endpoint:  
 
-`https://api.multisafepay.com/v1/json/orders`
+`https://api.multisafepay.com/v2/json/orders`
 
 ## Next steps
 
