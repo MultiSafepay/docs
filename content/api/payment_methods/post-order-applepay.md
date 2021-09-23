@@ -29,9 +29,9 @@ try {
   "description":"Test Order Description",
   "manual":false,
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   }
 }
@@ -60,7 +60,7 @@ try {
   "amount":1495,
   "description":"Order Description",
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification"
+    "notification_url":"https://www.example.com/client/notification?type=notification"
   },
   "gateway_info":{
     "payment_token":"{\"paymentData\":{\"data\":\"string\"},\"transactionIdentifier\":\"string\",\"paymentMethod\":{\"network\":\"string\",\"displayName\":\"string\"}}"

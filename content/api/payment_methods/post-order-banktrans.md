@@ -52,9 +52,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "gateway":"BANKTRANS",
   "description":"Test order description",
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
   "customer":{
@@ -143,8 +143,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "destination_holder_swift":"DEUTNL2NXXX",
       "account_holder_country":"NL"
     },
-    "payment_url":"http://www.example.com/client/notification?type=redirect&transactionid=apitool_13890779",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel&transactionid=apitool_13890779"
+    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=apitool_13890779",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=apitool_13890779"
   }
 }
 ```

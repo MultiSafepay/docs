@@ -15,9 +15,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "amount":1000,
   "description":"Test order description",
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
   "customer":{
@@ -47,9 +47,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "description":"Test order description",
   "manual":false,
   "payment_options":{
-    "notification_url":"http://www.example.com/client/notification?type=notification",
-    "redirect_url":"http://www.example.com/client/notification?type=redirect",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel",
     "close_window":true
   },
   "customer":{
@@ -143,7 +143,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "status":"initialized",
     "transaction_id":123456789,
     "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=de_DE",
-    "cancel_url":"http://www.example.com/client/notification?type=cancel"
+    "cancel_url":"https://www.example.com/client/notification?type=cancel"
   }
 }
 ```
