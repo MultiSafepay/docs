@@ -8,7 +8,7 @@ aliases:
     - /faq/general/google-analytics-referral-exclusions
 ---
 
-For redirect payment methods where customers are directed to a third party site to complete payment and then back to your website, Google Analytics doesn't correctly track these visits to your website, e.g.:
+For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your website, Google Analytics doesn't correctly track these visits to your website, e.g.:
 
 - Gateway: Source (instead of your website) 
 - Referral: Medium (instead of direct) 

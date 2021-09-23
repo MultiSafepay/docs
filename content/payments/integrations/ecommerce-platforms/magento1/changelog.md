@@ -94,7 +94,7 @@ Release date: Mar. 25th, 2019
 + PLGMAGONE-344: Enable refund shipping amount when shipping includes tax
 
 ### Fixed
-+ PLGMAGONE-465: Fixed service costs not showing with some third party modules
++ PLGMAGONE-465: Fixed service costs not showing with some third-party modules
 + PLGMAGONE-456: Fixed service costs not working on clean installation
 + PLGMAGONE-448: Fixed Qwindo does not work in compiled mode
 + PLGMAGONE-431: Fixed notice "undefined index" on invoice creation
@@ -527,7 +527,7 @@ Release date: Oct 10, 2014
 ### Changes
 + FEE base is rewritten.
 + Upgrade the php dependence to 5.5.12.
-+ Now get the selected gateway from the quote instead of the gateway model. This adds better compatibility with third party onestepcheckout plugins.
++ Now get the selected gateway from the quote instead of the gateway model. This adds better compatibility with third-party onestepcheckout plugins.
 
 ### Fixes
 + Fixed bug for error #1016 on the Return-URL.
