@@ -6,7 +6,7 @@ childlist: '.'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 logo: '/logo/Payment_methods/wechat.svg' 
-short_description: 'Leading global digital wallet for Chinese customers.'
+short_description: 'Accept WeChat Pay payments via QR codes'
 
 ---
 

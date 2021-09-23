@@ -31,7 +31,6 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| WeChat Pay has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the 2-hour period. | Expired | Expired |
 

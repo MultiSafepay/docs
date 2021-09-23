@@ -23,8 +23,6 @@ url: '/payments/methods/wechatpay/product-rules/'
 
 - [Full and partial refunds](/payments/refunds/) are supported.
 
-- You can refund more than the original amount. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
-
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 
 - While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
@@ -38,5 +36,3 @@ url: '/payments/methods/wechatpay/product-rules/'
 {{< /details >}}
 
 - To request support for more currencies, email your account manager at <sales@multisafepay.com>
-
-- Currency conversion is processed in EUR only.
