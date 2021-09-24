@@ -57,7 +57,7 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-## Initialize the payment component
+## Initialize the Payment Component
 
 Call the `PaymentComponent.init()` method with the following arguments:
 ```
@@ -97,6 +97,8 @@ The `PaymentComponent` has the following methods:
 
 {{< /details >}}
 
+### Gateway request
+To help you offer the best-suited selection of payment methods for the customer, the JavaScript library automatically makes a `GET /gateways` request to retrieve the gateway IDs for all methods enabled in your account. It matches the methods to the customer's country passed in the `orderData` object. The Payment Component then only renders methods available in that country, sorted by default priority. 
 
 {{< two-buttons
 
