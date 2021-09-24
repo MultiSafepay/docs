@@ -109,6 +109,21 @@ PaymentComponent.init('payment', {
 
 {{< /details >}}
 
+### Credit card gateway
+To activate the credit card gateway, pass the following additional object:
+
+```
+var orderData = {
+    currency: 'EUR',
+    payment_options: {
+        settings: {
+            connect: {
+                group_cards: true
+    }
+    }
+    }
+}
+```
 
 {{< two-buttons
 

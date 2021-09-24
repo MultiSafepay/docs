@@ -97,7 +97,21 @@ The `PaymentComponent` has the following methods:
 
 {{< /details >}}
 
+### Credit card gateway
+To activate the credit card gateway, pass the following additional object:
 
+```
+var orderData = {
+    currency: 'EUR',
+    payment_options: {
+        settings: {
+            connect: {
+                group_cards: true
+    }
+    }
+    }
+}
+```
 {{< two-buttons
 
 href-1="/payments/checkout/payment-components/multiple/multiple-1" header-1="Back" text-1="Step 1: Install" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
