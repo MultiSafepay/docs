@@ -40,6 +40,31 @@ curl -X POST "https://testapi.multisafepay.com/2/json/orders" \
     },
 }'
 ```
+### Bank Transfer flow
+
+For Bank Transfer payments, in the JSON response to the `POST /orders` request in the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
+
+You **must** then render the account details in the interface for the customer with clear payment instructions. 
+
+**Example gateway_info object**
+```
+{
+  "gateway_info":{
+    "mtpinfo":"NL25DEUT7351811717",
+    "reference":"9202124254788300",
+    "issuer_name":"Sofortbank",
+    "destination_account_id":"003001380000",
+    "destination_holder_name":"MultiSafepay",
+    "destination_holder_city":"Zurich",
+    "destination_holder_country":"CH",
+    "destination_holder_iban":"NL25DEUT7351811717",
+    "destination_holder_swift":"DEUTCHZZ",
+    "account_holder_name":"testperson-nl approved",
+    "account_holder_city":"gravenhage",
+    "account_holder_coutry":"NL"
+  }
+}
+```
 
 ## Redirect the customer
 
