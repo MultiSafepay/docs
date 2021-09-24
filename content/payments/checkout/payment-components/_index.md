@@ -10,13 +10,20 @@ weight: 51
 aliases:
     - /tools/credit-card-component/
 ---
-Payment Components let you embed payment methods directly into your checkout. The customer completes payment within your checkout or is redirected to the relevant payment page.
+Payment Components let you embed payment methods directly into your checkout. 
 
-- Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
-- Encrypts customer payment details for secure processing
-- Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
+- Create a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
+- Encrypt customer payment details for secure processing
+- Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
+- Customize the component interface to match your brand's visual identity
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
+
+## Payment methods
+
+Embed a single payment method or multiple methods, which are automatically sorted by availability in the customer's country. 
+
+The customer completes payment within your checkout or is redirected to the [issuer's](/getting-started/glossary/#issuer) payment page. 
 
 {{< details title="Supported payment methods" >}}
 
@@ -33,20 +40,20 @@ Payment Components let you embed payment methods directly into your checkout. Th
 
 {{< /details >}}
 
-## Integration
+## Credit card features
 
-Embed a single payment method or multiple methods, which are automatically sorted by availability in the customer's country.
+Payment Components:
 
+- Bundle all supported credit cards in one gateway
+- Detect the credit card brand automatically and display the logo in the card number field
+- Validate the card number
+- Display error messages for credit card fields, e.g. card not supported, card expired, incorrect [CVC](/credit-and-debit-cards/glossary/#card-verification-code-cvc)
+- Support iframe implementation for increased security 
+- Support tokenization
+
+## Manuals 
 {{< two-buttons href-2="/payments/checkout/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
-## Tokenization
-
-For credit cards, you can leverage tokenization to....
-
 {{< two-buttons href-2="/payments/checkout/payment-components/using-tokenization" header-2="Manual" text-2="Tokenization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
-
-## Customization
-
-Customize the look of the component to match your brand's visual identity, and set the display language.
 
 {{< two-buttons href-2="/payments/checkout/payment-components/customizing-payment-components" header-2="Manual" text-2="Customization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
