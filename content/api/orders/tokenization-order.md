@@ -1,6 +1,6 @@
 ---
 weight: 234
-meta_title: "API reference - Tokenization orders - MultiSafepay Docs"
+meta_title: "API reference - Tokenization order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 
@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Tokenization orders
+## Tokenization order
 
 [Tokenization](/payments/features/tokenization) is the process of storing payment details as encrypted tokens for future payments, e.g. recurring transactions.
 
