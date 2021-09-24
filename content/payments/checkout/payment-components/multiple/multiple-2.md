@@ -57,31 +57,90 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-## Initialize the payment component
+## Initialize the Payment Component
 
-Call the `PaymentComponent.init()` method with the following arguments:
+When initializing the payment component, specify if you want MultiSafepay to generate the payment button or to generate your own, e.g. if your ecommerce platform already includes one.
+
+{{< details title="Initialize with MultiSafepay button" >}}
 ```
-PaymentComponent.init('dropin', {
-    container: '#MultiSafepayPayment',
-    onLoad: state => {
-        console.log('onLoad', state);
-    },
-    onError: state => {
+multiSafepay.init('dropin', {
+    container : '#MSPDropin',
+    onSelect : state => {
+        console.log('onSelect', state);
+    }, 
+    onError : state => {
         console.log('onError', state);
     },
-    onSelect: state => {
-        console.log('onSelect', state);
+    onLoad : state => {
+        console.log('onLoad', state);
+    },
+    onSubmit : state => {
+        if(multiSafepay.hasErrors()) {
+            let errors = multiSafepay.getErrors();
+            console.log(errors);
+            return;
+        }
+                
+        setOrder(state.paymentData).then(response => {
+            console.log(response);
+            if(response.success) {
+                multiSafepay.init('redirection', {
+                    order: response.data
+                });
+            }
+        });
     }
 });
 ```
+
+{{< /details >}}
+
+{{< details title="Initialize with own button" >}}
+
+```
+const paymentButton = document.querySelector('#paymentButton');
+    
+multiSafepay.init('dropin', {
+    container : '#MSPDropin',
+    onSelect : state => {
+        console.log('onSelect', state);
+    }, 
+    onError : state => {
+        console.log('onError', state);
+    },
+    onLoad : state => {
+        console.log('onLoad', state);
+    }
+});
+
+paymentButton.addEventListener('click', e => {
+    if (multiSafepay.hasErrors()) {
+        let errors = multiSafepay.getErrors();
+        console.log(errors);
+        return false;
+    }
+    setOrder(multiSafepay.getPaymentData()).then(response => {
+        if(!response || !response.success) {
+            paymentButton.removeAttribute('disabled');
+            console.log(response);
+        } else {
+            multiSafepay.init('redirection', {
+                order: response.data
+            });
+        }
+    });
+});
+``` 
+{{< /details >}}
+
 In the method call, create event handlers for the following events: 
 {{< details title="View events" >}}
 
 | Event | Event handler |
 | ---- | ---- |
-|`onError`| Called when an error occurs in the payment component|
-|`onSubmit`| Called when the customer selects a payment method |
 |`onLoad`| Called when the Payment Component UI is rendered |
+|`onError`| Called when an error occurs in the payment component|
+|`onSelect`| Called when the customer selects a payment method |
 
 {{< /details >}}
 
@@ -96,7 +155,6 @@ The `PaymentComponent` has the following methods:
 |`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see Step&nbsp;3:&nbsp;[Collect&nbsp;payment&nbsp;data](#collect-payment-data)|
 
 {{< /details >}}
-
 
 {{< two-buttons
 

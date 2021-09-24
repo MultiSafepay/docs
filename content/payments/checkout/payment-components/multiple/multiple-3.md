@@ -43,7 +43,7 @@ curl -X POST "https://testapi.multisafepay.com/2/json/orders" \
 
 ## Redirect the customer
 
-**1.** From your server, pass the `response` to the `POST /orders` request to the customer's device. 
+**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 
@@ -53,9 +53,11 @@ PaymentComponent.init('redirection', {
     order: response.data
 });
 ```
-- If 3D Secure verification is required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
+If 3D Secure verification is:
 
-- If 3D Secure is not required, the customer is redirected to the `redirect_url`.
+- Required, the customer is first directed to 3D Secure. If successful, they are then redirected to the `redirect_url`. 
+
+- Not required, the customer is redirected to the `redirect_url`.
 
 {{< two-buttons
 
