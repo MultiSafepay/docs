@@ -8,18 +8,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 >  POST - /orders
 
 ```json
-curl -X POST "https://testapi.multisafepay.com/v2/json/orders" \
---header "accept: application/json" \
---header "Content-Type: application/json" \
---header "api_key: <your-website-test-API-key>" \
---data-raw '{
+{
+  "order_id": 1018051,
+  "type": "direct",
+  "currency": "EUR",
+  "amount": "100",
   "customer": {
     "locale": "en_US"
   },
-  "currency": "EUR",
-  "amount": "100",
-  "gateway": "IDEAL",
-  "id": 1018051,
   "browser": {
     "java_enabled": 0,
     "javascript_enabled": 1,
@@ -35,7 +31,7 @@ curl -X POST "https://testapi.multisafepay.com/v2/json/orders" \
   "payment_data": {
     "payload": "eyJnYXRld2F5IjoiSURFQUwiLCJjdXN0b21lciI6eyJicm93c2VyIjp7ImphdmFfZW5hYmxlZCI6MCwiamF2YXNjcmlwdF9lbmFibGVkIjoxLCJsYW5ndWFnZSI6ImVuLUdCIiwic2NyZWVuX2NvbG9yX2RlcHRoIjoyNCwic2NyZWVuX2hlaWdodCI6MTQ0MCwic2NyZWVuX3dpZHRoIjozNDQwLCJ0aW1lX3pvbmUiOi0xMjAsInVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTMuMC40NTc3LjYzIFNhZmFyaS81MzcuMzYiLCJjb29raWVzX2VuYWJsZWQiOjEsInBsYXRmb3JtIjoiTWFjSW50ZWwifSwibG9jYWxlIjoiZW5fVVMifSwiZmllbGRzIjp7ImV4dHZhcjgiOiIwMDMxIn0sImVuY3J5cHRlZCI6ZmFsc2UsImFwcGxpY2F0aW9uIjoiQVBJQ09OTkNPTVA6VjEifQ=="
   }
-}'
+}
 ```
 
 > JSON response
@@ -166,6 +162,16 @@ See [payment_options (object)](/api/#payment-options-object).
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).
+
+----------------
+`payment_data.payload` | string | required
+
+The response to the `getPaymentData()` Payment Component method.
+
+See Step 3: Redirect to pay:
+
+- [Single payment method](/payments/checkout/payment-components/single/single-3/)
+- [Multiple payment methods](/payments/checkout/payment-components/multiple/multiple-3/)
 
 **Response**
 
