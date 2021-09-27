@@ -42,11 +42,19 @@ curl -X POST "https://testapi.multisafepay.com/v2/json/orders" \
 }'
 ```
 
-### Bank Transfer flow
+## Redirect the customer
 
-For Bank Transfer payments, in the JSON response to the `POST /orders` request in the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
+**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
 
-You **must** then render the account details in the interface for the customer with clear payment instructions. 
+**2.** Check that `response.success` is `true`.
+
+**3.** Handle the response:
+
+{{< details title="Bank transfer payments" >}}
+
+In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
+
+Then render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
 
 **Example gateway_info object**
 ```
@@ -67,23 +75,19 @@ You **must** then render the account details in the interface for the customer w
   }
 }
 ```
-
-## Redirect the customer
-
-**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
-
-**2.** Check that `response.success` is `true`.
-
-**3.** Call the `PaymentComponent.init()` method using the following arguments:
+{{< /details >}}
+{{< details title="Other payment methods" >}}
+Call the `PaymentComponent.init()` method using the following arguments:
 ```
 PaymentComponent.init('redirection', {
     order: response.data
 });
 ```
-If the customer needs to perform additional actions, they are redirected to the relevant page, e.g. the `payment_url` or 3D Secure. Then, if successful, they are redirected to the `redirect_url`.
+- If 3D Secure verification is required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
 
-If no further action is required, the customer is redirected to the `redirect_url`.
+- If 3D Secure is not required, the customer is redirected to the `redirect_url`.
 
+{{< /details >}}
 
 
 {{< two-buttons
