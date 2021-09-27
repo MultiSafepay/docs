@@ -56,7 +56,7 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-## Initialize the payment component
+## Initialize the Payment Component
 
 **1.** Call the `PaymentComponent.init()` method with the following arguments:
 
