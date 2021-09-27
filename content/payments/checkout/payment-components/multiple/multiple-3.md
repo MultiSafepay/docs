@@ -82,9 +82,11 @@ PaymentComponent.init('redirection', {
     order: response.data
 });
 ```
-- If 3D Secure verification is required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
 
-- If 3D Secure is not required, the customer is redirected to the `redirect_url`.
+If 3D Secure verification is:
+
+- Required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
+- Not required, the customer is redirected to the `redirect_url`.
 
 {{< /details >}}
 
