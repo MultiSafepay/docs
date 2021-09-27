@@ -109,7 +109,6 @@ PaymentComponent.init('payment', {
 
 {{< /details >}}
 
-
 {{< two-buttons
 
 href-1="/payments/checkout/payment-components/single/single-1" header-1="Back" text-1="Step 1: Install" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
