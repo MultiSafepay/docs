@@ -24,6 +24,13 @@ const orderData = {
         country: 'NL',
         reference: 'Customer123'
     },
+    payment_options: {
+        settings: {
+            connect: {
+                group_cards: true
+            }
+        }
+    },
     template : {
         settings: {
             embed_mode: true
@@ -41,6 +48,8 @@ const orderData = {
 | customer.country| Customer's country code. Used to check the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
 |customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
+|payment_options.settings.connect.group_cards||
+
 
 {{< /details >}}
 
@@ -108,22 +117,6 @@ PaymentComponent.init('payment', {
 |`getPaymentData`| Creates a `payload` object with the customer's payment details, used to create orders|
 
 {{< /details >}}
-
-### Credit card gateway
-To activate the credit card gateway, pass the following additional object:
-
-```
-var orderData = {
-    currency: 'EUR',
-    payment_options: {
-        settings: {
-            connect: {
-                group_cards: true
-            }
-        }
-    }
-}
-```
 
 {{< two-buttons
 
