@@ -24,6 +24,13 @@ const orderData = {
         locale: 'EN',
         country: 'NL',
         reference: 'Customer123'
+    },    
+    payment_options: {
+        settings: {
+            connect: {
+                group_cards: true
+            }
+        }
     },
     template : {
         settings: {
@@ -42,6 +49,7 @@ const orderData = {
 | customer.country|Customer's country code. Used to validate the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
 |customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
+|payment_options.settings.connect.group_cards| Groups all credit card payment methods as a single option in the list of payment methods. Format:&nbsp;Boolean. **Optional**. Default: `false`.|
 
 {{< /details >}}
 
