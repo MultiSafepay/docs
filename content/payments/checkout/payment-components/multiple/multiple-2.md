@@ -59,7 +59,7 @@ PaymentComponent = new MultiSafepay({
 
 ## Initialize the Payment Component
 
-When initializing the payment component, specify if you want MultiSafepay to generate the payment button or to generate your own, e.g. if your ecommerce platform already includes one.
+**1.** When initializing the payment component, specify if you want MultiSafepay to generate the payment button or to generate your own, e.g. if your ecommerce platform already includes one.
 
 {{< details title="Initialize with MultiSafepay button" >}}
 ```
@@ -133,7 +133,12 @@ paymentButton.addEventListener('click', e => {
 ``` 
 {{< /details >}}
 
-In the method call, create event handlers for the following events: 
+**Note:** When using your own payment button, if the customer clicks it multiple times during the latency before redirection, they can create multiple orders. To avoid this, we recommend disabling the button until your server sends the `POST /orders` response to the client's device and you have checked the `response.status`:
+
+- If `true`, don't re-enable the button and proceed to the redirect. See [Step 3](/payments/checkout/payment-components/multiple/multiple-3).
+- If `false`, re-enable the button for the customer to try again. 
+
+**2.** In the method call, create event handlers for the following events: 
 {{< details title="View events" >}}
 
 | Event | Event handler |
