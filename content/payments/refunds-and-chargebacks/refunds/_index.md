@@ -154,6 +154,7 @@ This table lists the refund period for each payment method:
 | [Sofort](/payments/methods/banks/sofort-banking/) | 730 days |
 | [Trustly](/payments/methods/banks/trustly/) | 365 days |
 | [Visa](/payments/methods/credit-and-debit-cards/visa/) | 180 days |
+| [WeChat Pay](/payments/methods/wallet/wechat-pay) | 365 days |
 
 {{< /details >}}
 
