@@ -1,6 +1,6 @@
 ---
 weight: 233
-meta_title: "API reference - Split Payments - MultiSafepay Docs"
+meta_title: "API reference - Split Payments order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -45,7 +45,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Split Payments
+## Split Payments order
 Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
 
 See [Split Payments](/payments/features/split-payments/).
