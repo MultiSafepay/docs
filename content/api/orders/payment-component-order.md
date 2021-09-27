@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "order_id": 1018051,
+  "order_id": "12345678",
   "type": "direct",
   "currency": "EUR",
   "amount": "100",
