@@ -107,8 +107,8 @@ var orderData = {
         settings: {
             connect: {
                 group_cards: true
-    }
-    }
+            }
+        }
     }
 }
 ```
