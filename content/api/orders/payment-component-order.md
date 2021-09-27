@@ -78,7 +78,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "financial_status": "initialized",
     "items": null,
     "modified": "2021-09-24T12:09:28",
-    "order_id": "connect-comp614da3d8a00e8",
+    "order_id": "12345678",
     "payment_details": {
       "account_holder_name": null,
       "account_iban": "https://testpayv2.multisafepay.com/simulator/ideal?trxid=2826044090080124&ideal=prob&issuerid=0031&merchantReturnURL=https%3A%2F%2Ftestpay%2Emultisafepay%2Ecom%2Fdirect%2Fcomplete%2F%3Fmspid%3D4990929",
