@@ -12,7 +12,7 @@ If the customer pays via the **second** email (24 hours later), the payment is p
 
 To avoid this, you must match the order lifetime to the MultiSafepay payment link lifetime in your [backend](/getting-started/glossary/#backend).
 
-We recommend setting the lifetimes to 2 days (2880 minutes):
+We recommend setting the lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but to avoid issues with external services. 
 
 
 ## Setting the Magento 2 order lifetime
