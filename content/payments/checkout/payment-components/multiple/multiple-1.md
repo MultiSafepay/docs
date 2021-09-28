@@ -7,7 +7,7 @@ layout: 'single'
 read_more: '.'
 --- 
 
-To add elements to your checkout page, follow these steps:
+## Add elements to your checkout page
 
 **1.** Add the Payment Component CSS to the `<head>` of your checkout page:  
 ```
@@ -23,6 +23,19 @@ To add elements to your checkout page, follow these steps:
 ```
 <div id="MultiSafepayPayment"></div>
 ```
+
+## Choose your payment button
+
+Decide if you want to:
+
+- Generate a button with the component (see [Step 2](/payments/checkout/payment-components/multiple/multiple-2/))
+- Use an existing button e.g. if your checkout already includes one
+- Create your own button:
+
+```
+<button id="payment-button"></button>
+```
+
 {{< two-buttons
 
 href-1="/payments/checkout/payment-components/multiple" header-1="Back" text-1="Integrating multiple payment methods" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 

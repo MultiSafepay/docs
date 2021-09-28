@@ -59,12 +59,12 @@ PaymentComponent = new MultiSafepay({
 
 ## Initialize the Payment Component
 
-**1.** When initializing the payment component, specify if you want MultiSafepay to generate the payment button or to generate your own, e.g. if your ecommerce platform already includes one.
+Initialize the component using:
 
-{{< details title="Initialize with MultiSafepay button" >}}
+{{< details title="Payment Component button" >}}
 ```
-multiSafepay.init('dropin', {
-    container : '#MSPDropin',
+PaymentComponent.init('dropin', {
+    container : '#MultiSafepayPayment',
     onSelect : state => {
         console.log('onSelect', state);
     }, 
@@ -75,16 +75,21 @@ multiSafepay.init('dropin', {
         console.log('onLoad', state);
     },
     onSubmit : state => {
-        if(multiSafepay.hasErrors()) {
-            let errors = multiSafepay.getErrors();
+        if(PaymentComponent.hasErrors()) {
+            let errors = PaymentComponent.getErrors();
             console.log(errors);
             return;
         }
-                
-        setOrder(state.paymentData).then(response => {
+
+        // Send state.paymentData to your server (createOrder)
+        // Create an order from your server
+        // Return the response from your server to the client-side
+        // With the response, redirect the customer or log an error
+
+        createOrder(state.paymentData).then(response => {
             console.log(response);
             if(response.success) {
-                multiSafepay.init('redirection', {
+                PaymentComponent.init('redirection', {
                     order: response.data
                 });
             }
@@ -95,13 +100,11 @@ multiSafepay.init('dropin', {
 
 {{< /details >}}
 
-{{< details title="Initialize with own button" >}}
+{{< details title="Own or existing button" >}}
 
-```
-const paymentButton = document.querySelector('#paymentButton');
-    
-multiSafepay.init('dropin', {
-    container : '#MSPDropin',
+```    
+PaymentComponent.init('dropin', {
+    container : '#MultiSafepayPayment',
     onSelect : state => {
         console.log('onSelect', state);
     }, 
@@ -112,33 +115,10 @@ multiSafepay.init('dropin', {
         console.log('onLoad', state);
     }
 });
-
-paymentButton.addEventListener('click', e => {
-    if (multiSafepay.hasErrors()) {
-        let errors = multiSafepay.getErrors();
-        console.log(errors);
-        return false;
-    }
-    setOrder(multiSafepay.getPaymentData()).then(response => {
-        if(!response || !response.success) {
-            paymentButton.removeAttribute('disabled');
-            console.log(response);
-        } else {
-            multiSafepay.init('redirection', {
-                order: response.data
-            });
-        }
-    });
-});
 ``` 
 {{< /details >}}
 
-**Note:** When using your own payment button, if the customer clicks it multiple times during the latency before redirection, they can create multiple orders. To avoid this, we recommend disabling the button until your server sends the `POST /orders` response to the client's device and you have checked the `response.status`:
-
-- If `true`, don't re-enable the button and proceed to the redirect. See [Step 3](/payments/checkout/payment-components/multiple/multiple-3).
-- If `false`, re-enable the button for the customer to try again. 
-
-**2.** In the method call, create event handlers for the following events: 
+In the method call, create event handlers for the following events: 
 {{< details title="View events" >}}
 
 | Event | Event handler |
@@ -146,6 +126,7 @@ paymentButton.addEventListener('click', e => {
 |`onLoad`| Called when the Payment Component UI is rendered |
 |`onError`| Called when an error occurs in the payment component|
 |`onSelect`| Called when the customer selects a payment method |
+|`onSubmit`| Called when the customer clicks the payment button |
 
 {{< /details >}}
 
@@ -157,7 +138,7 @@ The `PaymentComponent` has the following methods:
 | ---- | ---- |
 |`getErrors`| Returns error messages or codes.|
 |`hasErrors`| Returns a boolean value about whether errors were registered. |
-|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see Step&nbsp;3:&nbsp;[Collect&nbsp;payment&nbsp;data](#collect-payment-data)|
+|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see [Step 3: Redirect to pay](/payments/checkout/payment-components/multiple/multiple-3/)|
 
 {{< /details >}}
 
