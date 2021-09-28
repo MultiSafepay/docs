@@ -58,7 +58,7 @@ Sample statuses:
 
 {{< details title="CBC" >}}
 
-Payment page: CBC can only be processed on our new payment page starting with PayV2.
+CBC doesn't support deprecated payment pages. See [MultiSafepay payment pages](/payments/checkout/payment-pages/).
 
 Sample statuses:
 
@@ -129,7 +129,7 @@ Sample statuses:
 
 {{< details title="KBC" >}}
 
-Payment page: KBC can only be processed on our new payment page starting with PayV2.
+KBC doesn't support deprecated payment pages. See [MultiSafepay payment pages](/payments/checkout/payment-pages/).
 
 Sample statuses:
 
