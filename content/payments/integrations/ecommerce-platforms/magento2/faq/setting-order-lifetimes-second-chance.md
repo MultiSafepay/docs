@@ -8,7 +8,7 @@ read_more: "."
 
 [Second Chance](/payments/boost/second-chance/) emails are sent 1 hour and 24 hours after the order was created. By default, Magento 2 orders are valid for 2 hours.
 
-If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update isn't handled correctly in Magento 2 because the order has expired.
+If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services (e.g. ERP/inventory management), if items are low in stock, or for one-off products like antiques.
 
 To avoid this, you must match the order lifetime to the MultiSafepay payment link lifetime in your [backend](/getting-started/glossary/#backend).
 
