@@ -10,7 +10,7 @@ read_more: "."
 
 The plugin supports the OpenCart core checkout and is compatible with most premium themes, unless you have a custom checkout.
 
-The following patches for third party themes and extensions are available:
+The following patches for third-party themes and extensions are available:
 
 - [Journal3 Quick Checkout For OpenCart 3.0.X](/payments/integrations/ecommerce-platforms/opencart/patches/multisafepay-patch-for-journal3-opencart-3.0.X.ocmod.zip)
 - [Journal3 Quick Checkout For OpenCart 2.3.X](/payments/integrations/ecommerce-platforms/opencart/patches/multisafepay-patch-for-journal3-opencart-2.3.X.ocmod.zip)

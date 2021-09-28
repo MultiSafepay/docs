@@ -56,7 +56,7 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-## Initialize the payment component
+## Initialize the Payment Component
 
 **1.** Call the `PaymentComponent.init()` method with the following arguments:
 
@@ -108,7 +108,6 @@ PaymentComponent.init('payment', {
 |`getPaymentData`| Creates a `payload` object with the customer's payment details, used to create orders|
 
 {{< /details >}}
-
 
 {{< two-buttons
 

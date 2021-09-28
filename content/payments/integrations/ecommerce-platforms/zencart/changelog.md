@@ -71,7 +71,7 @@ Release date: Nov 27, 2014
 + Create a record in the history of the order status when a payment is completed
 + Product attributes are now visible in backend
 + Added country restrictions to the shipping methods request
-+ Added support for extra Pay After Delivery fee (when using the third party 'Surcharge Fee by Payment Method Order Total Module')
++ Added support for extra Pay After Delivery fee (when using the third-party 'Surcharge Fee by Payment Method Order Total Module')
 + Added support for all coupons to the ZenCart plugin
 + Add support for several types of discount for use with Pay After Delivery
 + Added specific order statuses for Pay After Delivery
