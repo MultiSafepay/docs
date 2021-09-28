@@ -62,7 +62,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Recurring Payment order
+## Recurring Payments
 
 You can initiate [Recurring Payments](/payments/features/recurring-payments/) using [tokenization](/payments/features/tokenization/) for the following payment methods:
 
@@ -94,7 +94,7 @@ Options: `direct`.
 ----------------
 `gateway` | string | required
 
-The gateway identifier for the payment method.  
+The payment method used for the checkout process.  
 Options: `AMEX`, `DIRDEB`, `MASTERCARD`, `VISA`.  
 Use DIRDEB when the initial payment was made using iDEAL, SOFORT, or SEPA Direct Debit. 
 

@@ -1,6 +1,6 @@
 ---
 weight: 238
-meta_title: "API reference - Zero Authorization order - MultiSafepay Docs"
+meta_title: "API reference - Zero Authorization orders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -57,7 +57,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 {{< /code-block >}}
 {{< description >}}
-## Zero Authorization order
+## Zero Authorization orders
 
 See [Zero Authorization](/payments/features/zero-authorization/). 
 

@@ -44,7 +44,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 {{< /code-block >}}
 {{< description >}}
-## Manual Capture order
+## Manual Capture orders
 
 See [Manual Capture](/payments/features/manual-capture). 
 
