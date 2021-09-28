@@ -22,9 +22,9 @@ aliases:
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
-{{< details title="American Express Merchant ID" >}}
+{{< details title="American Express merchant account number" >}}
 
-If you use your American Express Merchant ID (MID):
+If you use your American Express merchant account number:
     
 - American Express settles the funds directly in your business bank account.
 - You are automatically added to the Safekey directory. 
