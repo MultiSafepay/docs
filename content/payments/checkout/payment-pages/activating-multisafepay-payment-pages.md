@@ -14,13 +14,11 @@ aliases:
     - /tools/payment-pages/visa-shows-address
 ---
 
-MultiSafepay payment pages:
+MultiSafepay payment pages (URL: `payv2.multisafepay.com`):
 
 - Are easy to integrate, completely secure, and fully mobile responsive
 - Support all payment methods
 - Can be styled to fit the look and feel of your website
-
-Payment page URLs begin with `payv2.multisafepay.com`.
 
 To activate payment pages, follow these steps:
 
