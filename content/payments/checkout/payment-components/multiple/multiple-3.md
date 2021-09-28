@@ -20,7 +20,7 @@ const paymentButton = document.querySelector('#payment-button');
 **2.** Create an event handler for the payment button:
 
 - When the customer clicks the payment button, call the `getPaymentData()` method.
-- Send the response to the call to your server (`createOrder`) to create an order (see [Create an order](#create-an-order)).
+- Send the response to your server and create an order. See [Create an order](#create-an-order)).
 - Return the reponse from your server to the client-side to redirect the customer.
 
 ```
@@ -53,7 +53,7 @@ To avoid duplicate orders, disable the button until you have attempted to create
 
 {{< details title="Redirect to 3D verification" >}}
 
-The `init('redirection')` method redirects customers that pay with credit card to the relevant page.
+The `init('redirection')` method redirects customers who pay by credit card to the relevant page.
 
 If 3D Secure verification is:
 

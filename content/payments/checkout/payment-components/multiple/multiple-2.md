@@ -127,7 +127,7 @@ PaymentComponent.init('dropin', {
 {{< /details >}}
 
 In the method call, create event handlers for the following events: 
-{{< details title="View events" >}}
+{{< details title="Events" >}}
 
 | Event | Event handler |
 | ---- | ---- |
@@ -146,7 +146,7 @@ The `PaymentComponent` has the following methods:
 | ---- | ---- |
 |`getErrors`| Returns error messages or codes.|
 |`hasErrors`| Returns a boolean value about whether errors were registered. |
-|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see [Step 3: Redirect to pay](/payments/checkout/payment-components/multiple/multiple-3/)|
+|`getPaymentData`| Creates a `payload` object containing the customer's payment details. Used to create orders. For more information, see [Step 3: Redirect to pay](/payments/checkout/payment-components/multiple/multiple-3/).|
 
 {{< /details >}}
 

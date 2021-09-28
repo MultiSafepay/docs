@@ -28,8 +28,8 @@ read_more: '.'
 
 Decide if you want to:
 
-- Generate a button with the component (see [Step 2](/payments/checkout/payment-components/multiple/multiple-2/))
-- Use an existing button e.g. if your checkout already includes one
+- Generate a button with the component (see [Step 2](/payments/checkout/payment-components/multiple/multiple-2/)).
+- Use an existing button, e.g. if your checkout already includes one.
 - Create your own button:
 
 ```
