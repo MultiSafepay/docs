@@ -124,7 +124,7 @@ In the method call, create event handlers for the following events:
 | Event | Event handler |
 | ---- | ---- |
 |`onLoad`| Called when the Payment Component UI is rendered |
-|`onError`| Called when an error occurs in the payment component|
+|`onError`| Called when an error occurs in the Payment Component|
 |`onSelect`| Called when the customer selects a payment method |
 |`onSubmit`| Called when the customer clicks the payment button |
 
