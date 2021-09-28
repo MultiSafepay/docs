@@ -14,7 +14,6 @@ To avoid this, you must match the order lifetime to the MultiSafepay payment lin
 
 We recommend setting the lifetimes to 2 days (2880 minutes):
 
-- Shorter gives the the customer too little time to complete the payment. 
 - Longer can cause issues with external services (e.g. ERP/inventory management), which may be problematic when items are low in stock or for one-off products like antiques.
 
 ## Setting the Magento 2 order lifetime
