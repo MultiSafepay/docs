@@ -13,8 +13,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   "type": "direct",
   "currency": "EUR",
   "amount": "100",
+  "description": "Test order description",
   "customer": {
-    "locale": "en_US"
+    "locale": "en_US",
+    "reference": "Your customer reference"
   },
   "browser": {
     "java_enabled": 0,
@@ -124,16 +126,16 @@ Create a [Payment Component](/payments/checkout/payment-components/) order.
 **Parameters**
 
 ----------------
-`type` | string | required
-
-The payment flow for the checkout process.  
-Options: `direct`, `redirect`.
-
-----------------
 `order_id` | string | required
 
 Your unique identifier for the order.  
 Format: Maximum 50 characters.
+
+----------------
+`type` | string | required
+
+The payment flow for the checkout process.  
+Options: `direct`, `redirect`.
 
 ----------------
 `currency` | string | required
@@ -154,14 +156,33 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
+
+`recurring_model` | string | optional
+
+For tokenization orders, in the initial request only, specify the [recurring model](/payments/features/tokenization/#recurring-models).  
+Options: `cardOnFile`
+
+For more information, see Payment Components – [Tokenization](/payments/checkout/payment-components/using-tokenization/).
+
+----------------
+
+`customer` | object | optional
+
+See [customer (object)](/api/#customer-object).
+
+Contains: 
+
+`customer.reference` | string | optional
+
+For tokenization orders, in the initial request only, provide your unique customer identifier. Not required for subsequent requests.
+
+For more information, see Payment Components – [Tokenization](/payments/checkout/payment-components/using-tokenization/).
+
+----------------
+
 `payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
-
-----------------
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object).
 
 ----------------
 `payment_data.payload` | string | required
