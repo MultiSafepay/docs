@@ -7,49 +7,63 @@ layout: 'single'
 read_more: '.'
 --- 
 
-## Collect payment data
-**1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
+## Handle the interaction
+
+{{< blue-notice >}} This step only applies if using your own or an existing payment button. {{< /blue-notice >}}
+
+**1.** Assign the button element to a variable:
 
 ```
-PaymentComponent.getPaymentData()
+const paymentButton = document.querySelector('#payment-button');
 ```
 
-**2.** Pass the `payment_data` to your server.
+**2.** Create an event handler for the payment button:
 
-## Create an order
-
-Make a POST [`/orders`](/api/#orders) request from your server:
-
-- Append the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process.
-- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the payment component](#initialize-the-payment-component).
+- When the customer clicks the payment button, call the `getPaymentData()` method.
+- Send the response to your server and create an order. See [Create an order](#create-an-order)).
+- Return the reponse from your server to the client-side to redirect the customer.
 
 ```
-curl -X POST "https://testapi.multisafepay.com/2/json/orders" \
---header "accept: application/json" \
---header "Content-Type: application/json" \
---header "api_key: <your-website-API-key>" \
---data-raw '{
-    "type": "direct",
-    "order_id": "my-order-id-1",
-    "currency": "EUR",
-    "amount": 10000,
-    "description": "Test order description",
-...
-    "payment_data": {
-       "payload": "{secure_payload}"
-    },
-}'
+paymentButton.addEventListener('click', e => {
+    paymentButton.addAttribute('disabled');
+    if (PaymentComponent.hasErrors()) {
+        let errors = PaymentComponent.getErrors();
+        console.log(errors);
+        return false;
+    }
+    createOrder(PaymentComponent.getPaymentData()).then(response => {
+        if(!response || !response.success) {
+            paymentButton.removeAttribute('disabled');
+            console.log(response);
+        } else {
+            PaymentComponent.init('redirection', {
+                order: response.data
+            });
+        }
+    });
+});
 ```
 
-## Redirect the customer
+**Note:** When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
 
-**1.** From your server, pass the `response` to the `POST /orders` request to the customer's device. 
+To avoid duplicate orders, disable the button until you have attempted to create an order. Then, check `response.success`:
 
-**2.** Check that `response.success` is `true`.
+- If `true`, don't re-enable the button and proceed to the redirect.
+- If `false`, re-enable the button for the customer to try again. 
 
-**3.** Handle the response:
+{{< details title="Redirect to 3D verification" >}}
 
-{{< details title="Bank transfer payments" >}}
+The `init('redirection')` method redirects customers who pay by credit card to the relevant page.
+
+If 3D Secure verification is:
+
+- Required, the customer is first directed to 3D Secure. If successful, they are then redirected to the `redirect_url`. 
+
+- Not required, the customer is redirected to the `redirect_url`.
+
+{{< /details >}}
+
+{{< details title="Redirect bank transfer payments" >}}
 
 In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
 
@@ -75,20 +89,31 @@ Then render the account details in the interface for the customer with clear ins
 }
 ```
 {{< /details >}}
-{{< details title="Other payment methods" >}}
-Call the `PaymentComponent.init()` method using the following arguments:
+
+## Create an order
+
+Make a POST [`/orders`](/api/#orders) request from your server:
+
+- Append the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process.
+- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the payment component](#initialize-the-payment-component).
+
 ```
-PaymentComponent.init('redirection', {
-    order: response.data
-});
+curl -X POST "https://testapi.multisafepay.com/2/json/orders" \
+--header "accept: application/json" \
+--header "Content-Type: application/json" \
+--header "api_key: <your-website-API-key>" \
+--data-raw '{
+    "type": "direct",
+    "order_id": "my-order-id-1",
+    "currency": "EUR",
+    "amount": 10000,
+    "description": "Test order description",
+...
+    "payment_data": {
+       "payload": "{secure_payload}"
+    },
+}'
 ```
-
-If 3D Secure verification is:
-
-- Required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
-- Not required, the customer is redirected to the `redirect_url`.
-
-{{< /details >}}
 
 {{< two-buttons
 
