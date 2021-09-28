@@ -21,7 +21,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
-| 1. | The customer initiates a transaction. {{< br >}} You **cannot** cancel the transaction at this point. | Uncleared   | Initialized  |
+| 1. | The customer selects Betaal per Maand at checkout and initiates a transaction. {{< br >}} To cancel the transaction at this point, email <support@multisafepay.com> | Uncleared   | Initialized  |
 | 2. | Betaal per Maand authorizes the payment. | Uncleared   | Uncleared  |
 | 3. | Once authorized, MultiSafepay sends a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You **can** cancel the transaction at this point. | Completed  | Uncleared  |
 | 4. | Ship the order. {{< br >}} **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared | 
