@@ -135,7 +135,7 @@ Format: Maximum 50 characters.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`.
+Value: `direct`
 
 ----------------
 `currency` | string | required
