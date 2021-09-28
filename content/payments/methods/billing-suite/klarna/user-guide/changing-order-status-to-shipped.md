@@ -23,14 +23,13 @@ To change the order status in your MultiSafepay account, follow these steps:
 
 ## In your backend
 
-If you change the order status to **Shipped** in your [backend](/getting-started/glossary/#backend), some MultiSafepay plugins can pass the updated status to your MultiSafepay account automatically:
+Some MultiSafepay plugins can pass the updated status to your MultiSafepay account automatically when you set the order status in your [backend](/getting-started/glossary/#backend) to:
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **Delivered** in your backend.
+- Magento 2: **Shipped** 
+- Shopware 5: **Completed**
+- WooCommerce: **Completed**
 
-For other MultiSafepay plugins, you can forward the status via our API by making a `PATCH /orders` request. 
-
-Some third-party plugins may not support forwarding the status via our API. 
+For other MultiSafepay plugins, you can forward the status via our API by making a `PATCH /orders` request. Some third-party plugins may not support this. 
 
 See API reference – [Update an order](/api/#update-an-order).
 
