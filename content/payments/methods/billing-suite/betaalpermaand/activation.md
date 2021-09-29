@@ -42,4 +42,4 @@ The following order amounts also apply:
 
 ### Activating Betaal per Maand
 
-To activate Betaal per Maand, email the Sales Team at <sales@multisafepay.com>
+To activate Betaal per Maand, email your account manager at <sales@multisafepay.com>
