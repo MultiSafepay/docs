@@ -10,6 +10,10 @@ pygmentsStyle = "monokai"
 # The monokai stylesheet is included in the base template.
 pygmentsUseClasses = true
 
+# Enable nested shortcode
+[markup.goldmark.renderer]
+unsafe= true
+
 [outputs]
     home = [ "HTML", "JSON"]
     page = [ "HTML"]
