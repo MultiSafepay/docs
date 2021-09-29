@@ -9,4 +9,4 @@ layout: 'child'
 logo: '/svgs/in3.svg'
 ---
 
-To apply for in3, email the Sales Team at <sales@multisafepay.com>
+To apply for in3, email your account manager at <sales@multisafepay.com>
