@@ -28,6 +28,9 @@ MultiSafepay supports the following exemptions (on request):
 
 This can help you optimize [conversion](/getting-started/glossary/#conversion-rate) and minimize risk.
 
-To apply, email the Integration Team at <integration@multisafepay.com>
+To apply, email your account manager at <sales@multisafepay.com>
 
-See also [3D Secure 2.0](/faq/payment-regulations/3d-secure).
+## See also 
+
+- [About 3D Secure](/payment-regulations/3d-secure/)
+- [Versions of 3D Secure](/payment-regulations/versions-3d-secure/)
