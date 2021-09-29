@@ -20,11 +20,6 @@ To be eligible for Betaal per Maand, you must:
 - Sell products or services to European citizens with a residential or delivery address in Netherlands (no exceptions)
 - Be able to connect to MultiSafepay via our API or [ecommerce integrations](/payments/integrations/ecommerce-platforms/)
 
-The following order amounts also apply:
-
-- Minimum order amount 250 EUR
-- Maximum order amount 8000 EUR
-
 ## Applying for a Santander account
 
 **Note:** If you already have an active working relationship with Santander for any other product, you are considered a Santander client.

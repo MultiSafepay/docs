@@ -56,6 +56,9 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 
 {{< /details >}}
 
+- Minimum order amount 250 EUR
+- Maximum order amount 8000 EUR
+
 See also:  
 
 - User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/)
