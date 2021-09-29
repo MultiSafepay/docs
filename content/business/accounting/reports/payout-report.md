@@ -19,8 +19,6 @@ Supported format: Excel
 - Report created: the date the report was generated
 - Payout ID: the reference number for this payout
 - Logic: what time the payout was made
-- Continue on error:
-- Target hash:
 - Date from: the start date of the period the report covers
 - Date till: the end date of the report period
 - Payout currency: the currency the payout was paid in
@@ -33,11 +31,17 @@ Columns:
 - Mt order status: the [order status](/payments/multisafepay-statuses/)
 - Psp id: 
 - Amount: the transaction amount in whole currency
-- Amount cents: the transactio amount in cents
+- Amount cents: the transaction amount in cents
 - Creditdebit: C means credit, D means debit
 - N code: see [N-codes for identifying payment methods](/reports/n-codes/)
 - Payment type: a MultiSafepay fee, or the payment method
 - Mt description: your description of the transaction 
+- Sub description:
+- Sub status:
+- Sub id:
+- Ms description:
+- Order id:
+- Var1/Var2/Var3:
 
 {{< /details >}}
 

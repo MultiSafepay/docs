@@ -35,6 +35,38 @@ MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions d
 
 {{< /details >}}
 
+{{< details title="Report contents" >}}
+&nbsp; 
+
+- Report created: the date the report was generated
+- Merchant ID:
+- Date from: the start date of the period the report covers
+- Date till: the end date of the report period
+- Currency: the currency the payout was paid in
+- Opening balance: the balance at the start date
+- Total credit: the amount credited in the report period
+- Total debit: the amount debited in the report period
+- Closing balance: the balance at the end date
+
+Columns:
+
+- Completed date/time: the date and time the transaction was completed
+- Amount: the transaction amount
+- Creditdebit: C means credit, D means debit
+- Typetransaction: see [N-codes for identifying payment methods](/reports/n-codes/)
+- Paymenttype: a MultiSafepay fee, or the payment method
+- Description/Description2/Description3/Description4:
+- Tr status: the [transaction status](/payments/multisafepay-statuses/)
+- Ms description: 
+- Mt merchanttransactionid:
+- Mt cust firstname: the customer’s first name
+- Mt cust lastname: the customer’s last name
+- Mt cust city: the customer's city
+- Mt cust country: the customer's country
+- Invoice id:
+
+{{< /details >}}
+
 ## Generating Accountant exports
 
 To generate an Accountant export, follow these steps:
