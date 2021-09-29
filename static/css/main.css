@@ -1692,7 +1692,18 @@ div[class^='mermaid'] :hover {opacity: 0.7;}
     }
 }
 
-#mermaid-modal-content {
+#mermaid-modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    padding: 10px 0;
+    height: 150px;
+    }
+
+
+#mermaid-modal-content, #mermaid-modal-caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }

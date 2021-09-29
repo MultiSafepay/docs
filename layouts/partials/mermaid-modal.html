@@ -2,20 +2,22 @@
 <script src="{{ "js/mermaid.min.js" | relURL }}"></script>
 
 <div id="mermaid-modal">
-    <!-- The Close Button -->
     <span id="mermaid-modal-close">&times;</span>
-    <!-- Modal Content (The Image) -->
-    <div id="mermaid-modal-content"> </div>
+    <div id="mermaid-modal-content"></div>
+    <div id="mermaid-modal-caption"></div>
 </div>
 
 <script>
     let onMermaidClick = (container) => {
         let modal = document.querySelector("#mermaid-modal");
         let contentContainer = document.querySelector("#mermaid-modal-content");
-        if(modal && contentContainer) 
+        let contentCaption = document.querySelector("#mermaid-modal-caption");
+
+        if(modal && contentContainer && contentCaption) 
         {
-            modal.style.display = 'block';
+            modal.style.display = "block";
             contentContainer.innerHTML = container.innerHTML;
+            contentCaption.innerHTML = container.getAttribute("aria-label") ?? "";
         }
 
     };
@@ -24,11 +26,11 @@
         let modal = document.querySelector("#mermaid-modal");
         if(modal) 
         {
-            modal.style.display = 'none';
+            modal.style.display = "none";
             let contentContainer = document.querySelector("#mermaid-modal-content");
             if(contentContainer) 
             {
-                contentContainer.innerHTML = '';
+                contentContainer.innerHTML = "";
             }
         }
     };
@@ -42,7 +44,7 @@
 
         document.querySelector("#mermaid-modal-close").addEventListener("click", hideMermaidModal)
 
-        document.addEventListener('keyup', hideMermaidModal);
+        document.addEventListener("keyup", hideMermaidModal);
     });
 
     </script>
