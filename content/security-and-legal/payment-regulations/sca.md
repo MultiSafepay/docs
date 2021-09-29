@@ -21,15 +21,12 @@ If transactions aren't appropriately authenticated, banks may have to decline th
 
 ## Exemptions
 
-Transactions are exempt from SCA requirements if they are:
+MultiSafepay supports the following exemptions (on request):
 
 - Low value payments (LVP), i.e. under 30 EUR
-- Subject to transaction risk analysis (TRA)
-- Safelisted
-- Recurring payments, if the initial transaction was successfully authenticated
-- Corporate payments
+- Payments subject to transaction risk analysis (TRA)
 
-MultiSafepay supports LVP and TRA exemptions (on request), which can help you optimize [conversion](/getting-started/glossary/#conversion-rate) and minimize risk.
+This can help you optimize [conversion](/getting-started/glossary/#conversion-rate) and minimize risk.
 
 To apply, email the Integration Team at <integration@multisafepay.com>
 
