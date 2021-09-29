@@ -30,7 +30,7 @@ To create a tokenization order, see API reference – [Payment Component order](
 
 ### New customer
 
-{{< mermaid class="text-center">}}
+{{< mermaid class="text-center" caption="New customer" >}}
 sequenceDiagram
     autonumber
     participant C as Customer
@@ -56,7 +56,7 @@ sequenceDiagram
 
 ### Returning customer
 
-{{< mermaid class="text-center">}}
+{{< mermaid class="text-center" caption="Existing customer" >}}
 sequenceDiagram
     autonumber
     participant C as Customer
