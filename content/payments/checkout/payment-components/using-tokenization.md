@@ -3,34 +3,14 @@ title : "Using tokenization"
 meta_title: "Payment Components - Using tokenization - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
+draft: 'true'
 read_more: '.'
 weight: 4
 ---
-Tokenization lets you store a customer's payment details as a secure, encrypted token to make subsequent payments faster and easier. 
-
-Improve checkout experience and increase conversion:
-
-- Customers don't need to re-provide payment details, which autofill at checkout.
-- Subsequent payments are exempt from [SCA requirements](/payment-regulations/sca/) and can skip two-factor authentication.
-
-
-## Creating tokenziation orders
-
-{{< details title="New customers">}}
-
-{{< /details >}}
-
-{{< details title="Returning customers">}}
-
-{{< /details >}}
-
-To create a tokenization order, see API reference – [Payment Component order](/api/#payment-component-order).
-
-## How it works
 
 ### New customer
 
-{{< mermaid class="text-center" caption="New customer" >}}
+{{< mermaid class="text-center" caption="How it works: New customer" >}}
 sequenceDiagram
     autonumber
     participant C as Customer
@@ -56,7 +36,7 @@ sequenceDiagram
 
 ### Returning customer
 
-{{< mermaid class="text-center" caption="Existing customer" >}}
+{{< mermaid class="text-center" caption="How it works: Returning customer" >}}
 sequenceDiagram
     autonumber
     participant C as Customer

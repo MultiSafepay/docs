@@ -15,6 +15,7 @@ Payment Components let you embed payment methods directly into your checkout. Th
 - Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
 - Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
+- Supports [tokenization](/payments/features/tokenization/)
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
 
@@ -38,12 +39,6 @@ Payment Components let you embed payment methods directly into your checkout. Th
 Embed a single payment method or multiple methods, which are automatically sorted by availability in the customer's country.
 
 {{< two-buttons href-2="/payments/checkout/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
-
-## Tokenization
-
-For credit cards, you can leverage tokenization to....
-
-{{< two-buttons href-2="/payments/checkout/payment-components/using-tokenization" header-2="Manual" text-2="Tokenization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 ## Customization
 
