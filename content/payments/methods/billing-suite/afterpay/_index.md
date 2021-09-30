@@ -9,7 +9,7 @@ intro_description: "AfterPay is a widely used payment method in the Netherlands 
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/AfterPay.svg' 
-short_description: 'Widely used post-payment method in the Netherlands and Belgium.'
+short_description: 'Widely used pay later method in the Netherlands and Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/afterpay
     - /payment-methods/afterpay/

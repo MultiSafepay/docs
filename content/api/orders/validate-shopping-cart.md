@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Validate shopping cart
 
-Applies to all payment methods except [post-payment methods](/payments/methods/billing-suite/).
+Applies to all payment methods except [pay later methods](/payments/methods/billing-suite/).
 
 **Parameters**
 

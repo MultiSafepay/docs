@@ -5,7 +5,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 {{< description >}}
 ### Discount with unit price 
-For [post-payment methods](/payments/methods/billing-suite/), add discounts as a unit price. The example request is for a 20% discount on all unit prices.
+For [pay later methods](/payments/methods/billing-suite/), add discounts as a unit price. The example request is for a 20% discount on all unit prices.
 
 No negative order rule is created, which avoids the refund conflict that can arise if you add discounts as separate discount rules or order rules.
 

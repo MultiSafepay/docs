@@ -23,5 +23,5 @@ When you click on a transaction, you can:
 
 - Edit the shopping cart.
 - Process full and partial refunds.
-- Change the order status to **Shipped** for post-payment methods.
+- Change the order status to **Shipped** for pay later methods.
 - Process shipments.
