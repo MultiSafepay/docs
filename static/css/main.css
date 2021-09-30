@@ -1657,13 +1657,12 @@ div.mermaid > svg {
 /* Add modal to mermaid diagrams */
 
 /* Style the Image Used to Trigger the Modal */
-div[class^='mermaid'] {
-    border-radius: 5px;
+
+.modal-preview {
     cursor: pointer;
-    transition: 0.3s;
 }
 
-div[class^='mermaid'] :hover {opacity: 0.7;}
+.modal-preview:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 #mermaid-modal {
@@ -1701,15 +1700,9 @@ div[class^='mermaid'] :hover {opacity: 0.7;}
     padding: 10px 0;
 }
 
-
 #mermaid-modal-content, #mermaid-modal-caption {
     animation-name: zoom;
     animation-duration: 0.6s;
-}
-    
-@keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
 }
 
 .mermaid-modal-container {
