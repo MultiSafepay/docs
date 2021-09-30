@@ -1,4 +1,8 @@
-<div class="mermaid {{ with .Get "class" }} {{ . }}{{ end }}" {{ if isset .Params "caption" }} alt="{{ index .Params "caption" }}" aria-label="{{ index .Params "caption" }}"{{ end }}>
+<div class="mermaid {{ with .Get "class" }} {{ . }}{{ end }}" 
+{{ if isset .Params "caption" }} 
+  alt="{{ index .Params "caption" }}" 
+  aria-label="{{ index .Params "caption" }}"
+{{ end }}>
   {{- .Inner -}}
 </div>
 {{ .Page.Scratch.Set "mermaid" true }}

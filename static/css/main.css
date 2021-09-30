@@ -1699,8 +1699,7 @@ div[class^='mermaid'] :hover {opacity: 0.7;}
     max-width: 700px;
     text-align: center;
     padding: 10px 0;
-    height: 150px;
-    }
+}
 
 
 #mermaid-modal-content, #mermaid-modal-caption {
@@ -1711,6 +1710,13 @@ div[class^='mermaid'] :hover {opacity: 0.7;}
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
+}
+
+.mermaid-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 /* The Close Button */
