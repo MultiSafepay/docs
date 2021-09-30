@@ -1,5 +1,5 @@
 ---
-title : "Step 2: Initialize"
+title : "Step 2: Initialize the component"
 breadcrumb_title : "Step 2"
 meta_title: "Payment Components - Integrating multiple payment methods step 2 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
@@ -190,9 +190,9 @@ The `PaymentComponent` has the following methods:
 
 {{< two-buttons
 
-href-1="/payments/checkout/payment-components/multiple/multiple-1" header-1="Back" text-1="Step 1: Install" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/payments/checkout/payment-components/multiple/multiple-1" header-1="Back" text-1="Step 1: Add the elements" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/payments/checkout/payment-components/multiple/multiple-3" header-2="Next" text-2="Step 3: Redirect to pay" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/payments/checkout/payment-components/multiple/multiple-3" header-2="Next" text-2="Step 3: Create an order" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 
 

@@ -18,17 +18,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "locale": "en_US",
     "reference": "Your customer reference"
   },
-  "browser": {
-    "java_enabled": 0,
-    "javascript_enabled": 1,
-    "language": "en-GB",
-    "screen_color_depth": 24,
-    "screen_height": 1440,
-    "screen_width": 3440,
-    "time_zone": -120,
-    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
-    "cookies_enabled": 1,
-    "platform": "MacIntel"
+  "payment_options":{
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel"
   },
   "payment_data": {
     "payload": "eyJnYXRld2F5IjoiSURFQUwiLCJjdXN0b21lciI6eyJicm93c2VyIjp7ImphdmFfZW5hYmxlZCI6MCwiamF2YXNjcmlwdF9lbmFibGVkIjoxLCJsYW5ndWFnZSI6ImVuLUdCIiwic2NyZWVuX2NvbG9yX2RlcHRoIjoyNCwic2NyZWVuX2hlaWdodCI6MTQ0MCwic2NyZWVuX3dpZHRoIjozNDQwLCJ0aW1lX3pvbmUiOi0xMjAsInVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTMuMC40NTc3LjYzIFNhZmFyaS81MzcuMzYiLCJjb29raWVzX2VuYWJsZWQiOjEsInBsYXRmb3JtIjoiTWFjSW50ZWwifSwibG9jYWxlIjoiZW5fVVMifSwiZmllbGRzIjp7ImV4dHZhcjgiOiIwMDMxIn0sImVuY3J5cHRlZCI6ZmFsc2UsImFwcGxpY2F0aW9uIjoiQVBJQ09OTkNPTVA6VjEifQ=="
@@ -149,7 +142,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 The amount (in cents) the customer needs to pay.
 
 ----------------
-`description` | string | required
+`description` | string | optional
 
 The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
 Format: Maximum 200 characters.   
@@ -157,26 +150,9 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 
-`recurring_model` | string | optional
-
-For tokenization orders, in the initial request only, specify the [recurring model](/payments/features/tokenization/#recurring-models).  
-Options: `cardOnFile`
-
-For more information, see Payment Components – [Tokenization](/payments/checkout/payment-components/using-tokenization/).
-
-----------------
-
 `customer` | object | optional
 
 See [customer (object)](/api/#customer-object).
-
-Contains: 
-
-`customer.reference` | string | optional
-
-For tokenization orders, in the initial request only, provide your unique customer identifier. Not required for subsequent requests.
-
-For more information, see Payment Components – [Tokenization](/payments/checkout/payment-components/using-tokenization/).
 
 ----------------
 
@@ -189,7 +165,7 @@ See [payment_options (object)](/api/#payment-options-object).
 
 The response to the `getPaymentData()` Payment Component method.
 
-See Step 3: Redirect to pay:
+See Payment Component integration manual – Step 3: Create an order:
 
 - [Single payment method](/payments/checkout/payment-components/single/single-3/)
 - [Multiple payment methods](/payments/checkout/payment-components/multiple/multiple-3/)
