@@ -1,5 +1,5 @@
 ---
-weight: 319
+weight: 323
 meta_title: "API reference - Create an iDEAL QR order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## iDEAL QR
+### iDEAL QR
 
 - See also Payment methods – [iDEAL QR](/payments/methods/banks/idealqr).  
 - Redirect only.

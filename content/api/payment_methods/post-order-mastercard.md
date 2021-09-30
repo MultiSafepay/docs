@@ -1,5 +1,5 @@
 ---
-weight: 325
+weight: 312
 meta_title: "API reference - Create a Mastercard transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -44,7 +44,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Mastercard
+### Mastercard
 
 - See also Payment methods – [Mastercard](/payments/methods/credit-and-debit-cards/mastercard).  
 - Redirect only.

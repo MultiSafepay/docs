@@ -1,5 +1,5 @@
 ---
-weight: 335
+weight: 336
 meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---

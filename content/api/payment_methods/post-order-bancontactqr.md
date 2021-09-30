@@ -43,7 +43,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 {{< /code-block >}}
 {{< description >}}
-## Bancontact QR
+### Bancontact QR
 
 - See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
 - Redirect only.
