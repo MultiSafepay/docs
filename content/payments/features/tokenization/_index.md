@@ -13,21 +13,28 @@ aliases:
     - /tools/tokenization/tokenization-available-for-plugins/
 ---
 
-Tokenization is substituting sensitive customer payment details with a non-sensitive token to reduce risk. For example, a unique recurring ID is created to replace credit card details, which is encrypted as a unique string of numbers that is automatically issued in real-time. The token is used online in approved environments to complete the payment. 
+With tokenization, MultiSafepay encrypts a customer's sensitive payment details as a secure, non-sensitive token. The customer can then select a token at checkout to make subsequent payments faster and easier.
 
-Customers can then complete payments in one step by selecting the stored token in their account. Customers may have multiple tokens.
+**Benefits**
 
-Tokenization is mainly used for credit card, recurring, and subscription payments, but is also available for bank payment methods. 
+- Subsequent payments are exempt from [SCA and 2FA](/payment-regulations/sca/).
+- MultiSafepay assumes responsibility for compliant storage of payment details. 
+- Customers can store multiple tokens.
+
+**Uses** 
+
+- Easily manage recurring payments and subscriptions. 
+- Payment details can autofill at checkout.
 
 {{< details title="Supported payment methods" >}}
 
-- Visa
-- Mastercard
-- Maestro
-- Amex
+- American Express
 - iDEAL
+- Maestro
+- Mastercard
+- SEPA Direct Debit
 - Sofort
-- Direct debit
+- Visa
 
 {{< /details >}}
 
@@ -40,8 +47,8 @@ MultiSafepay offers three recurring models:
 
 Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
 
-## Via API
-To use tokenization via our API, see API reference – [Tokenization and recurring model](/api/#recurring-payments).
+## Via our API
+See API reference – [Tokenization orders](/api/#tokenization-orders).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
 
