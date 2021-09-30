@@ -9,7 +9,7 @@ intro_description: "Betaal per Maand is an online payment method in collaboratio
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
-short_description: 'Dutch post-payment method with Santander based on monthly installments'
+short_description: 'Dutch pay later method with Santander based on monthly installments'
 aliases:
     - /support-tab/magento2/payment-methods/betaalplan
     - /payment-methods/billing-suite/betaalplan

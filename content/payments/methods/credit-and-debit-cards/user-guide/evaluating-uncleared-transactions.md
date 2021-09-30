@@ -52,7 +52,7 @@ The following indicators paint a cumulative picture of Uncleared transactions, b
 
 {{< details title="Billing Suite payment methods" >}}
 
-**Uncleared** status applies to a number of post-payment methods in our [Billing Suite ](/payments/methods/billing-suite/). <br>
+**Uncleared** status applies to a number of pay later methods in our [Billing Suite ](/payments/methods/billing-suite/). <br>
 
 For [Klarna](/payments/methods/billing-suite/klarna/), [Afterpay](/payments/methods/billing-suite/afterpay/), [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/) and [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery/) after you ship the order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status then changes to **Completed** when MultiSafepay receives settlement and adds the funds to your MultiSafepay balance.
 

@@ -70,7 +70,7 @@ For [open-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide
 
 {{< details title="Pay later methods" >}}
 &nbsp;  
-[Pay later methods](/payments/methods/billing-suite/) do not generally support entering gift card details for partial payments or **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, post-payment methods require very precise order specifications. 
+[Pay later methods](/payments/methods/billing-suite/) do not generally support entering gift card details for partial payments or **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, pay later methods require very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 

@@ -13,7 +13,7 @@ Refund rules:
 - From your Shopware 6 [backend](/getting-started/glossary/#backend):  
     - Full and partial refunds 
     - Refunding more than the original transaction is **not** supported
-- No refunds for [post-payment methods](/payment-methods/billing-suite)
+- No refunds for [pay later methods](/payment-methods/billing-suite)
 
 To process refunds from your backend, follow these steps:
 

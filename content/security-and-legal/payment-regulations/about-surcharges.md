@@ -31,7 +31,7 @@ Surcharges are banned for:
 ## Exempt payment methods
 The following payment methods are exempt from the surcharge prohibition:
 
-* For PayPal and pay-after-delivery (post-payment) methods, merchants can only charge customers for the actual cost the merchant incurs for using the payment method and no more.
+* For PayPal and pay later methods, merchants can only charge customers for the actual cost the merchant incurs for using the payment method and no more.
 
 * Credit card payments, including American Express and Diners Club, with a card issued outside the EEA, e.g. a tourist with a credit card issued in India
 

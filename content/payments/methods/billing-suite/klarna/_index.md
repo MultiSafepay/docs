@@ -9,7 +9,7 @@ intro_description: "Klarna is an online payment method that lets customers pay f
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
 faq: '.'
-short_description: 'Popular post-payment method in Austria, Germany, and the Netherlands'
+short_description: 'Popular pay later method in Austria, Germany, and the Netherlands'
 aliases:
     - /support-tab/magento2/payment-methods/klarna
     - /payment-methods/klarna/
