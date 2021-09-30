@@ -40,7 +40,44 @@ const orderData = {
 | amount| Value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
 | customer.country| Customer's country code. Used to check the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
 |customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
+| customer.reference| Your unique customer reference. **Required for tokenization**. |
+| recurring.model| The [tokenization](/payments/features/tokenization/) model. **Required for tokenization**. |
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
+
+{{< /details >}}
+
+{{< details title="Supporting tokenization" >}}
+
+[Tokenization](/payments/features/tokenization/) encrypts the customer’s payment details as a secure token to make subsequent payments faster and easier.
+
+To use tokenization in your Payment Component:
+
+- Add the `cardOnFile` recurring model.
+- Provide the relevant `customer.reference`.
+
+```
+const orderData = {
+    currency: 'EUR',
+    amount: 10000,
+    customer: {
+        locale: 'EN',
+        country: 'NL',
+        reference: 'Customer123'
+    },
+    recurring: {
+        model: 'cardOnFile'
+    },
+    template : {
+        settings: {
+            embed_mode: true
+        }
+    }
+};
+```
+
+Tokenization is supported for all credit card payments.
+
+To use tokenization in your Payment Component, it must be enabled for your account. If not already enabled, email your account manager at <sales@multisafepay.com>
 
 {{< /details >}}
 

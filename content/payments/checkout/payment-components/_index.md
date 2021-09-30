@@ -12,9 +12,10 @@ aliases:
 ---
 Payment Components let you embed payment methods directly into your checkout. 
 
-- Create a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate).
-- Encrypt customer payment details for secure processing.
-- Customize the component interface to match your brand's visual identity.
+- Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
+- Encrypts customer payment details for secure processing
+- Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
+- Supports [tokenization](/payments/features/tokenization/)
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
 
@@ -53,7 +54,5 @@ Reduce your responsibility for [PCI DSS compliance](/faq/general/multisafepay-gl
 
 ## Manuals 
 {{< two-buttons href-2="/payments/checkout/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
-
-{{< two-buttons href-2="/payments/checkout/payment-components/using-tokenization" header-2="Manual" text-2="Tokenization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/payments/checkout/payment-components/customizing-payment-components" header-2="Manual" text-2="Customization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
