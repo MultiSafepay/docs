@@ -24,6 +24,13 @@ const orderData = {
         locale: 'EN',
         country: 'NL',
         reference: 'Customer123'
+    },    
+    payment_options: {
+        settings: {
+            connect: {
+                group_cards: true
+            }
+        }
     },
     template : {
         settings: {
@@ -44,6 +51,7 @@ const orderData = {
 | customer.reference| Your unique customer reference. For tokenization orders: **required**. |
 | recurring.model| The [tokenization](/payments/features/tokenization/) model. For tokenization orders: **required**. |
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
+|payment_options.settings.connect.group_cards| Groups all credit card payment methods as a single option in the list of payment methods. Format:&nbsp;Boolean. **Optional**. Default: `false`.|
 
 {{< /details >}}
 
@@ -95,31 +103,76 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-## Initialize the payment component
+## Initialize the Payment Component
 
-Call the `PaymentComponent.init()` method with the following arguments:
+Initialize the component using:
+
+{{< details title="Payment Component button" >}}
 ```
 PaymentComponent.init('dropin', {
-    container: '#MultiSafepayPayment',
-    onLoad: state => {
-        console.log('onLoad', state);
-    },
-    onError: state => {
+    container : '#MultiSafepayPayment',
+    onSelect : state => {
+        console.log('onSelect', state);
+    }, 
+    onError : state => {
         console.log('onError', state);
     },
-    onSelect: state => {
-        console.log('onSelect', state);
+    onLoad : state => {
+        console.log('onLoad', state);
+    },
+    onSubmit : state => {
+        if(PaymentComponent.hasErrors()) {
+            let errors = PaymentComponent.getErrors();
+            console.log(errors);
+            return;
+        }
+
+        // Send state.paymentData to your server (createOrder)
+        // Create an order from your server
+        // Return the response from your server to the client-side
+        // With the response, redirect the customer or log an error
+
+        createOrder(state.paymentData).then(response => {
+            console.log(response);
+            if(response.success) {
+                PaymentComponent.init('redirection', {
+                    order: response.data
+                });
+            }
+        });
     }
 });
 ```
+
+{{< /details >}}
+
+{{< details title="Own or existing button" >}}
+
+```    
+PaymentComponent.init('dropin', {
+    container : '#MultiSafepayPayment',
+    onSelect : state => {
+        console.log('onSelect', state);
+    }, 
+    onError : state => {
+        console.log('onError', state);
+    },
+    onLoad : state => {
+        console.log('onLoad', state);
+    }
+});
+``` 
+{{< /details >}}
+
 In the method call, create event handlers for the following events: 
-{{< details title="View events" >}}
+{{< details title="Events" >}}
 
 | Event | Event handler |
 | ---- | ---- |
-|`onError`| Called when an error occurs in the payment component|
-|`onSubmit`| Called when the customer selects a payment method |
 |`onLoad`| Called when the Payment Component UI is rendered |
+|`onError`| Called when an error occurs in the Payment Component|
+|`onSelect`| Called when the customer selects a payment method |
+|`onSubmit`| Called when the customer clicks the payment button |
 
 {{< /details >}}
 
@@ -131,10 +184,9 @@ The `PaymentComponent` has the following methods:
 | ---- | ---- |
 |`getErrors`| Returns error messages or codes.|
 |`hasErrors`| Returns a boolean value about whether errors were registered. |
-|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see Step&nbsp;3:&nbsp;[Collect&nbsp;payment&nbsp;data](#collect-payment-data)|
+|`getPaymentData`| Creates a `payload` object containing the customer's payment details. Used to create orders. For more information, see [Step 3: Redirect to pay](/payments/checkout/payment-components/multiple/multiple-3/).|
 
 {{< /details >}}
-
 
 {{< two-buttons
 

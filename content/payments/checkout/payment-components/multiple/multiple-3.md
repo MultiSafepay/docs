@@ -7,14 +7,88 @@ layout: 'single'
 read_more: '.'
 --- 
 
-## Collect payment data
-**1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
+## Handle the interaction
+
+{{< blue-notice >}} This step only applies if using your own or an existing payment button. {{< /blue-notice >}}
+
+**1.** Assign the button element to a variable:
 
 ```
-PaymentComponent.getPaymentData()
+const paymentButton = document.querySelector('#payment-button');
 ```
 
-**2.** Pass the `payment_data` to your server.
+**2.** Create an event handler for the payment button:
+
+- When the customer clicks the payment button, call the `getPaymentData()` method.
+- Send the response to your server and create an order. See [Create an order](#create-an-order)).
+- Return the reponse from your server to the client-side to redirect the customer.
+
+```
+paymentButton.addEventListener('click', e => {
+    paymentButton.addAttribute('disabled');
+    if (PaymentComponent.hasErrors()) {
+        let errors = PaymentComponent.getErrors();
+        console.log(errors);
+        return false;
+    }
+    createOrder(PaymentComponent.getPaymentData()).then(response => {
+        if(!response || !response.success) {
+            paymentButton.removeAttribute('disabled');
+            console.log(response);
+        } else {
+            PaymentComponent.init('redirection', {
+                order: response.data
+            });
+        }
+    });
+});
+```
+
+**Note:** When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
+
+To avoid duplicate orders, disable the button until you have attempted to create an order. Then, check `response.success`:
+
+- If `true`, don't re-enable the button and proceed to the redirect.
+- If `false`, re-enable the button for the customer to try again. 
+
+{{< details title="Redirect to 3D verification" >}}
+
+The `init('redirection')` method redirects customers who pay by credit card to the relevant page.
+
+If 3D Secure verification is:
+
+- Required, the customer is first directed to 3D Secure. If successful, they are then redirected to the `redirect_url`. 
+
+- Not required, the customer is redirected to the `redirect_url`.
+
+{{< /details >}}
+
+{{< details title="Redirect bank transfer payments" >}}
+
+In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
+
+Then render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
+
+**Example gateway_info object**
+```
+{
+  "gateway_info":{
+    "mtpinfo":"NL25DEUT7351811717",
+    "reference":"9202124254788300",
+    "issuer_name":"Sofortbank",
+    "destination_account_id":"003001380000",
+    "destination_holder_name":"MultiSafepay",
+    "destination_holder_city":"Zurich",
+    "destination_holder_country":"CH",
+    "destination_holder_iban":"NL25DEUT7351811717",
+    "destination_holder_swift":"DEUTCHZZ",
+    "account_holder_name":"testperson-nl approved",
+    "account_holder_city":"gravenhage",
+    "account_holder_coutry":"NL"
+  }
+}
+```
+{{< /details >}}
 
 ## Create an order
 
@@ -40,22 +114,6 @@ curl -X POST "https://testapi.multisafepay.com/2/json/orders" \
     },
 }'
 ```
-
-## Redirect the customer
-
-**1.** From your server, pass the `response` to the `POST /orders` request to the customer's device. 
-
-**2.** Check that `response.success` is `true`.
-
-**3.** Call the `PaymentComponent.init()` method using the following arguments:
-```
-PaymentComponent.init('redirection', {
-    order: response.data
-});
-```
-- If 3D Secure verification is required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
-
-- If 3D Secure is not required, the customer is redirected to the `redirect_url`.
 
 {{< two-buttons
 
