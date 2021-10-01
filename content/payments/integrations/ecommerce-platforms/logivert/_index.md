@@ -32,7 +32,7 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
 
 {{< details title="Requirements" >}}
 &nbsp; 
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+New merchants will need a MultiSafepay account.  See [Getting started](/getting-started/).
 
 {{< /details >}}
 

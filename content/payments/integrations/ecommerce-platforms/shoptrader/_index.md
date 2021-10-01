@@ -23,4 +23,4 @@ This free plugin to integrate MultiSafepay payment solutions into your Shoptrade
 For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>
 
 ## Requirements
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+New merchants will need a MultiSafepay account.  See [Getting started](/getting-started/).

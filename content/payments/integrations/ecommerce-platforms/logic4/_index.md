@@ -24,7 +24,7 @@ This technical manual is for installing and configuring our free plugin for inte
 
 {{< details title="Requirements" >}}
 &nbsp;  
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+New merchants will need a MultiSafepay account.  See [Getting started](/getting-started/).
 {{< /details >}}
 
 For the installation manual and technical support, see Logic4 - [Contact](https://www.logic4.nl/contact/).

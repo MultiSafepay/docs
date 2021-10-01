@@ -11,5 +11,8 @@ Refund rules:
 
 - From your [MultiSafepay account](https://merchant.multisafepay.com): Refunds supported
 - From your Shopify [backend](/getting-started/glossary/#backend):  
-    - Refunds supported
-    - Refunding more than the original transaction is **not** supported
+    - Refunds are supported. See Shopify – [Creating returns and refunds](https://help.shopify.com/en/manual/orders/refund-cancel-order).
+    - Refunding more than the original transaction is **not** supported.
+    - Cancelled orders are not automatically refunded in your backend. You must refund them from your MultiSafepay account. 
+
+**Note:** It can take up to 24 hours for refunds to be fully synchronized between your backend and your MultiSafepay account. 

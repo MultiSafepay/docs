@@ -23,4 +23,4 @@ This free plugin to integrate MultiSafepay payment solutions into your ShopFacto
 
 For technical queries about the plugin, see ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
 
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+New merchants will need a MultiSafepay account.  See [Getting started](/getting-started/).

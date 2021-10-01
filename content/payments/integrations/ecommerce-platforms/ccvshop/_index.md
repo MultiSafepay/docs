@@ -27,7 +27,7 @@ We recommend first installing the app in a test environment following the recomm
 
 {{< details title="Requirements" >}}
 &nbsp;  
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+New merchants will need a MultiSafepay account.  See [Getting started](/getting-started/).
 {{< /details >}}
 
 {{< details title="Support" >}}
