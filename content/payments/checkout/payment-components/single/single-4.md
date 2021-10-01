@@ -24,8 +24,10 @@ PaymentComponent = new MultiSafepay({
 
 ## Next steps
 
+[Customizing Payment Components](/payments/checkout/payment-components/customizing-payment-components)
+
 {{< two-buttons
 
 href-1="/payments/checkout/payment-components/single/single-3" header-1="Back" text-1="Step 3: Create an order" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/payments/checkout/payment-components/customizing-payment-components" header-2="Next" text-2="Customizing Payment Components" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="" header-2="Next" text-2="Customizing Payment Components" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

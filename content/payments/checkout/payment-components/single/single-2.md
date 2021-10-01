@@ -1,17 +1,20 @@
 ---
-title : "Step 2: Initialize the component"
+title : "Integrating a single payment method"
 breadcrumb_title : "Step 2"
 meta_title: "Payment Components - Integrating a single payment method step 2 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 --- 
-## Generate an API token
+
+## Step 2: Initialize the component
+
+### Generate an API token
 Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](/api/#generate-an-api-token).
 
 **Note:** To keep your API key private, request the token from your own server. 
 
-## Construct the component object
+### Construct the component object
 
 **1.** Initialize an `orderData` object, containing information about the customer's order collected during the checkout process:
 
@@ -93,7 +96,7 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-## Initialize the Payment Component
+### Initialize the Payment Component
 
 **1.** Call the `PaymentComponent.init()` method with the following arguments:
 
@@ -146,6 +149,11 @@ PaymentComponent.init('payment', {
 |`getPaymentData`| Creates a `payload` object with the customer's payment details, used to create orders|
 
 {{< /details >}}
+
+### Next steps
+
+- Step 3: [Create an order](/payments/checkout/payment-components/single/single-3)
+- Step 4: [Go live](/payments/checkout/payment-components/single/single-4)
 
 {{< two-buttons
 

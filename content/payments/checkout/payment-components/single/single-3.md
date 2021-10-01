@@ -1,5 +1,5 @@
 ---
-title : "Step 3: Create an order"
+title : "Integrating a single payment method"
 breadcrumb_title : "Step 3"
 meta_title: "Payment Components - Integrating a single payment method step 3 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
@@ -7,7 +7,9 @@ layout: 'single'
 read_more: '.'
 --- 
 
-## Collect payment data
+## Step 3: Create an order
+
+### Collect payment data
 
 **1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
 
@@ -17,13 +19,13 @@ PaymentComponent.getPaymentData()
 
 **2.** Pass the `payment_data` to your server.
 
-## Create an order
+### Create an order
 
 Create an order from your server, appending the `payment_data` collected from the Payment Component UI to the order data.
 
 See API reference – [Payment Component order](/api/#payment-component-order).
 
-## Redirect the customer
+### Redirect the customer
 
 **1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
 
@@ -71,6 +73,10 @@ If 3D Secure verification is:
 - Not required, the customer is redirected to the `redirect_url`.
 
 {{< /details >}}
+
+## Next steps
+
+Step 4: [Go live](/payments/checkout/payment-components/single/single-4)
 
 {{< two-buttons
 

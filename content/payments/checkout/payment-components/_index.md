@@ -15,7 +15,7 @@ Payment Components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
-- Reduce your [PCI DSS](/payment-regulations/pci-dss/) responsibility. With the Payment Component, you only fall under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf).
+- Reduces your [PCI DSS](/payment-regulations/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
 - Supports [tokenization](/payments/features/tokenization/)
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
@@ -42,7 +42,7 @@ Embed a single or multiple payment methods in your checkout.
 ## Credit card features
 
 - Bundles all supported credit cards in one gateway
-- Detects the credit card brand automatically and displays the logo in the card number field
+- Displays the logos of available card brands in the card number field, and then detects the specific brand as the customer enters their card number and displays the relevant logo
 - Validates the card number
 - Displays error messages for credit card fields, e.g. card not supported, card expired
 - Supports tokenization for fast, secure repeat payments

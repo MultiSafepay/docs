@@ -26,6 +26,12 @@ Add the following elements to your checkout page:
 <div id="MultiSafepayPayment"></div>
 ```
 
+## Next steps
+
+- Step 2: [Initialize the component](/payments/checkout/payment-components/single/single-2)
+- Step 3: [Create an order](/payments/checkout/payment-components/single/single-3)
+- Step 4: [Go live](/payments/checkout/payment-components/single/single-4)
+
 {{< two-buttons
 
 href-1="/payments/checkout/payment-components/single" header-1="Back" text-1="Integrating a single payment method" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
