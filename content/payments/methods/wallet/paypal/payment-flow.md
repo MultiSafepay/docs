@@ -12,7 +12,7 @@ aliases:
 
 The table below shows a successful transaction flow from start to finish. 
 
-**Note:** MultiSafepay does not collect funds for PayPal.
+**Note:** MultiSafepay does **not** collect funds for PayPal.
 
 {{< details title="About order and transaction statuses" >}}
 
@@ -25,10 +25,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | PayPal generates a payment link. |   |  |
-| 3. | The customer completes the payment. | | |
-| 4. | The transaction is successful, and PayPal adds the funds to your PayPal business account. | Completed | Initialized |
+| 1. | The customer selects PayPal at checkout and is redirected to PayPal. | Initialized | Initialized |
+| 2. | The customer authenticates their account and completes payment. |   |  |
+| 3. | PayPal adds the funds to your PayPal business account. {{< br >}} **Note:** The transaction status is not updated because MultiSafepay doesn't collect the funds. | Completed | Initialized |
 
 ## Unsuccessful statuses
 
