@@ -29,7 +29,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | MultiSafepay generates a payment link and redirects the customer to a [MultiSafepay payment page](/payments/activating-payment-pages/). |   |  |
 | 3. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
 | 4. | The transaction is successful. |  |  |
-| 5. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
+| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 

@@ -7,11 +7,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies"
 layout: 'child'
 read_more: '.'
-url: '/payments/methods/postepay/product-rules/'
+url: '/postepay/product-rules/'
 aliases:
     - /payment-methods/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
     - /payments/methods/credit-and-debit-cards/postepay/about/
+    - /payments/methods/postepay/product-rules/
 ---
 
 |   |   |   |

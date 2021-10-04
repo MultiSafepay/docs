@@ -28,7 +28,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 4. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
 | 5. | The transaction passes through MultiSafepay's automated fraud filter. |  |  |
 | 6. | If necessary, manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
+| 7. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
 

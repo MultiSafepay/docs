@@ -26,7 +26,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer enters the 16-digit PIN code on the Paysafecard voucher, and completes the payment. | | |
-| 4. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
+| 4. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 
