@@ -25,10 +25,8 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | PayPal generates a payment link. |   |  |
-| 3. | The customer completes the payment. | | |
-| 4. | The transaction is successful, and PayPal adds the funds to your PayPal business account. | Completed | Initialized |
+| 1. | The customer selects PayPal at checkout and is redirected to PayPal to complete payment. | Initialized | Initialized |
+| 2. | PayPal settles the funds in your PayPal business account. | Completed | Initialized |
 
 ## Unsuccessful statuses
 
