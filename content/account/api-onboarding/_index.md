@@ -1,6 +1,6 @@
 ---
 title: "Affiliate onboarding via API"
-layout: 'faqplugins'
+layout: 'single'
 logo: "/svgs/Community.svg"
 weight: 50
 short_description: "Create and onboard affiliated merchant accounts via our API."
