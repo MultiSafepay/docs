@@ -5,6 +5,7 @@ meta_title: "Payment Components - Integrating a single payment method step 3 - M
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
+url: '/payment-components/single/step-3/'
 --- 
 
 ## Step 3: Create an order
@@ -37,7 +38,7 @@ See API reference – [Payment Component order](/api/#payment-component-order).
 
 In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
 
-Then render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
+Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
 
 **Example gateway_info object**
 ```
@@ -76,11 +77,11 @@ If 3D Secure verification is:
 
 ## Next steps
 
-Step 4: [Go live](/payments/checkout/payment-components/single/single-4)
+Step 4: [Go live](/payment-components/single/step-4)
 
 {{< two-buttons
 
-href-1="/payments/checkout/payment-components/single/single-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/payment-components/single/step-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/payments/checkout/payment-components/single/single-4" header-2="Next" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/payment-components/single/step-4" header-2="Next" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 

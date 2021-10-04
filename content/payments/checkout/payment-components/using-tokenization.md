@@ -6,6 +6,7 @@ layout: 'single'
 draft: 'true'
 read_more: '.'
 weight: 4
+url: '/payment-components/tokenization/'
 ---
 
 ### New customer
@@ -57,4 +58,4 @@ sequenceDiagram
 
 {{< /mermaid >}}
 
-{{< two-buttons href-1="/payments/checkout/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
+{{< two-buttons href-1="/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}

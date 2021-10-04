@@ -5,15 +5,46 @@ meta_title: "Payment Components - Integrating multiple payment components - Mult
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
+url: '/payment-components/multiple/'
 --- 
 
-To embed multiple payment methods into your checkout, follow these steps:
+## Step 1: Add the elements
 
-{{< two-buttons href-2="/payments/checkout/payment-components/multiple/multiple-1" text-2="Step 1: Add the elements" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+**1.** Add the component's CSS to the `<head>` of your checkout page:  
+```
+<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
+```
 
-{{< two-buttons href-2="/payments/checkout/payment-components/multiple/multiple-2" text-2="Step 2: Initialize the component" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+**2.** Add the component's script tothe bottom of the `<body>` of your checkout page:  
+```
+<script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
+```
 
-{{< two-buttons href-2="/payments/checkout/payment-components/multiple/multiple-3" text-2="Step 3: Create an order" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+**3.** Add the DOM element for the component's UI in the `<body>` of your checkout page:
+```
+<div id="MultiSafepayPayment"></div>
+```
 
-{{< two-buttons href-2="/payments/checkout/payment-components/multiple/multiple-4" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+### Choose your payment button
 
+Decide if you want to:
+
+- Generate a button with the component (see [Step 2](/payment-components/multiple/step-2/)). **Recommended.**
+- Use an existing button, e.g. if your checkout already includes one.
+- Create your own button:
+
+```
+<button id="payment-button"></button>
+```
+
+## Next steps
+
+- Step 2: [Initialize the component](/payment-components/multiple/step-2)
+- Step 3: [Create an order](/payment-components/multiple/step-3)
+- Step 4: [Go live](/payment-components/multiple/step-4)
+
+{{< two-buttons
+
+href-1="/payment-components/" header-1="Back" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+
+href-2="/payment-components/multiple/step-2" header-2="Next" text-2="Step 2: Initialize the component" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

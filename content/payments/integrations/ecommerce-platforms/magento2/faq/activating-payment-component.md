@@ -9,7 +9,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/activating-credit-card-component/
 ---
 
-The MultiSafepay Magento 2 plugin supports [Payment Components](/payments/checkout/payment-components/), which:
+The MultiSafepay Magento 2 plugin supports [Payment Components](/payment-components/), which:
 
 - Provide a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate).
 - Encrypt customer payment details for secure processing.

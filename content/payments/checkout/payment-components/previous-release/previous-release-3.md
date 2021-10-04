@@ -1,13 +1,16 @@
 ---
-title : "Step 3: Redirect to pay"
+title : "Integrating the previous release"
 breadcrumb_title : "Step 3"
 meta_title: "Payment Components - Integrating the previous release step 3 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
+url: '/payment-components/previous-release/step-3/'
 --- 
 
-## Collect payment data
+## Step 3: Create an order
+
+### Collect payment data
 **1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
 
 ```
@@ -16,12 +19,12 @@ PaymentComponent.getPaymentData()
 
 **2.** Pass the `payment_data` to your server.
 
-## Create an order
+### Create an order
 
 Make a POST [`/orders`](/api/#orders) request from your server:
 
 - Append the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process.
-- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the payment component](#initialize-the-payment-component).
+- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the component](/payment-components/previous-release/step-2).
 
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
@@ -42,7 +45,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 }'
 ```
 
-## Redirect the customer
+### Redirect the customer
 
 **1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
 
@@ -60,6 +63,6 @@ If no further action is required, the customer is redirected to the `redirect_ur
 
 {{< two-buttons
 
-href-1="/payments/checkout/payment-components/previous-release/previous-release-2" header-1="Back" text-1="Step 2: Initialize" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/payment-components/previous-release/step-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/payments/checkout/payment-components/previous-release/previous-release-4" header-2="Next" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/payment-components/previous-release/step-4" header-2="Next" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

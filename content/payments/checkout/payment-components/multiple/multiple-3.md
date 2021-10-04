@@ -1,15 +1,18 @@
 ---
-title : "Step 3: Create an order"
+title : "Integrating multiple payment components"
 breadcrumb_title : "Step 3"
 meta_title: "Payment Components - Integrating multiple payment methods step 3 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
+url: '/payment-components/multiple/step-3/'
 --- 
 
-## Handle the interaction
+## Step 3: Create an order
 
-{{< blue-notice >}} This step only applies if using your own or an existing payment button. {{< /blue-notice >}}
+### Handle the interaction
+
+{{< alert-notice >}} **Note:** This step only applies if using your own or an existing payment button. {{< /alert-notice >}}
 
 **1.** Assign the button element to a variable:
 
@@ -43,8 +46,10 @@ paymentButton.addEventListener('click', e => {
     });
 });
 ```
+&nbsp;  
+#### Avoid duplicate orders
 
-**Note:** When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
+When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
 
 To avoid duplicate orders, disable the button until you have attempted to create an order. Then, check `response.success`:
 
@@ -53,7 +58,7 @@ To avoid duplicate orders, disable the button until you have attempted to create
 
 {{< details title="Redirect to 3D verification" >}}
 
-The `init('redirection')` method redirects customers who pay by credit card to the relevant page.
+The `init('redirection')` method redirects customers paying by credit card to the relevant page.
 
 If 3D Secure verification is:
 
@@ -67,7 +72,7 @@ If 3D Secure verification is:
 
 In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
 
-Then render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
+Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
 
 **Example gateway_info object**
 ```
@@ -96,10 +101,14 @@ Create an order from your server, appending the `payment_data` collected from th
 
 See API reference – [Payment Component order](/api/#payment-component-order).
 
+## Next steps
+
+Step 4: [Go live](/payment-components/multiple/step-4)
+
 {{< two-buttons
 
-href-1="/payments/checkout/payment-components/multiple/multiple-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/payment-components/multiple/step-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/payments/checkout/payment-components/multiple/multiple-4" header-2="Next" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/payment-components/multiple/step-4" header-2="Next" text-2="Step 4: Go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 

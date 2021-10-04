@@ -1,6 +1,6 @@
 ---
 weight: 224
-meta_title: "API reference - Payment Component order - MultiSafepay Docs"
+meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 
@@ -112,9 +112,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Payment Component order
+## Payment Component orders
 
-Create a [Payment Component](/payments/checkout/payment-components/) order.
+Create a [Payment Component](/payment-components/) order.
 
 **Parameters**
 
@@ -167,8 +167,8 @@ The response to the `getPaymentData()` Payment Component method.
 
 See Payment Component integration manual – Step 3: Create an order:
 
-- [Single payment method](/payments/checkout/payment-components/single/single-3/)
-- [Multiple payment methods](/payments/checkout/payment-components/multiple/multiple-3/)
+- [Single payment method](/payment-components/single/step-3/)
+- [Multiple payment methods](/payment-components/multiple/step-3/)
 
 **Response**
 

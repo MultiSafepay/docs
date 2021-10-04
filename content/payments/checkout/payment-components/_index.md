@@ -8,6 +8,7 @@ short_description: 'Embedded solution: Embed payment methods directly in your ec
 hideMenu : 'true'
 logo: '/svgs/API.svg'
 weight: 51
+url: '/payment-components/'
 aliases:
     - /tools/credit-card-component/
 ---
@@ -48,6 +49,6 @@ Embed a single or multiple payment methods in your checkout.
 - Supports tokenization for fast, secure repeat payments
 
 ## Manuals 
-{{< two-buttons href-2="/payments/checkout/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="/payments/checkout/payment-components/customizing-payment-components" header-2="Manual" text-2="Customization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payment-components/customization" header-2="Manual" text-2="Customization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

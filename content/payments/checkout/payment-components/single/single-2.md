@@ -5,6 +5,7 @@ meta_title: "Payment Components - Integrating a single payment method step 2 - M
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
+url: '/payment-components/single/step-2/'
 --- 
 
 ## Step 2: Initialize the component
@@ -12,7 +13,7 @@ read_more: '.'
 ### Generate an API token
 Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](/api/#generate-an-api-token).
 
-**Note:** To keep your API key private, request the token from your own server. 
+{{< alert-notice >}} **Note:** To keep your API key private, request the token from your own server. {{< /alert-notice >}} 
 
 ### Construct the component object
 
@@ -39,12 +40,12 @@ const orderData = {
 
 | Key | Value |
 | ---- | ---- |
-| currency| Currency of the order. Format: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. **Required**. |
-| amount| Value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
-| customer.country| Customer's country code. Used to check the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
-|customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
+| currency| The currency of the order. Format: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. **Required**. |
+| amount| The value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
+| customer.country| The customer's country code. Checks the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
+|customer.locale | The customer's language. Sets the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
 | customer.reference| Your unique customer reference. **Required for tokenization**. |
-| recurring.model| The [tokenization](/payments/features/tokenization/) model. **Required for tokenization**. |
+| recurring.model| The [tokenization model](/payments/features/tokenization/). **Required for tokenization**. |
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
 
 {{< /details >}}
@@ -96,7 +97,7 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-### Initialize the Payment Component
+### Initialize the component
 
 **1.** Call the `PaymentComponent.init()` method with the following arguments:
 
@@ -117,8 +118,8 @@ PaymentComponent.init('payment', {
 
 | Payment method| Gateway code|
 |---|---|
-| Bank Transfer | `BANKTRANS` |
-| Bankcontact | `MISTERCASH` |
+| Bank transfer | `BANKTRANS` |
+| Bancontact | `MISTERCASH` |
 | Credit cards |`CREDITCARD`|
 | iDEAL|`IDEAL`|
 | PayPal | `PAYPAL` |
@@ -133,7 +134,7 @@ PaymentComponent.init('payment', {
 
 | Event | Event handler |
 | ---- | ---- |
-|`onError`| Called when an error occurs in the payment component|
+|`onError`| Called when an error occurs in the Payment Component|
 |`onLoad`| Called when the Payment Component UI is rendered |
 
 {{< /details >}}
@@ -144,21 +145,21 @@ PaymentComponent.init('payment', {
 
 | Method | Description |
 | ---- | ---- |
-|`getErrors`| Returns error details, like error messages or codes.|
-|`hasErrors`| Returns a boolean value depending on whether errors have been registered. |
-|`getPaymentData`| Creates a `payload` object with the customer's payment details, used to create orders|
+|`getErrors`| Returns error details, e.g. error messages or codes|
+|`hasErrors`| Returns a boolean value depending on whether errors have been registered |
+|`getPaymentData`| Creates a `payload` object with the customer's payment details, used to [create orders](/payment-components/single/step-3/)|
 
 {{< /details >}}
 
-### Next steps
+## Next steps
 
-- Step 3: [Create an order](/payments/checkout/payment-components/single/single-3)
-- Step 4: [Go live](/payments/checkout/payment-components/single/single-4)
+- Step 3: [Create an order](/payment-components/single/step-3)
+- Step 4: [Go live](/payment-components/single/step-4)
 
 {{< two-buttons
 
-href-1="/payments/checkout/payment-components/single/single-1" header-1="Back" text-1="Step 1: Add the elements" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/payment-components/single/step-1" header-1="Back" text-1="Step 1: Add the elements" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/payments/checkout/payment-components/single/single-3" header-2="Next" text-2="Step 3: Create an order" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/payment-components/single/step-3" header-2="Next" text-2="Step 3: Create an order" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 
