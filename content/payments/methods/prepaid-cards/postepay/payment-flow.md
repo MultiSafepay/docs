@@ -6,6 +6,9 @@ meta_title: "Postepay payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/postepay/payment-flow/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/postepay/payment-flow/
 ---
 
 The table below shows a successful transaction flow from start to finish.  
@@ -21,13 +24,11 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer enters their credit card details, verifies their identify via [Verified by Visa](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
-| 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 5. | Manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 6. | The transaction is successful. |  |  |
-| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
+| 1. | The customer selects Postepay at checkout and is redirected to a MultiSafepay payment page.  | Initialized | Initialized |
+| 2. | The customer enters their card details, verifies their identify via [Verified by Visa](/security-and-legal/payment-regulations/about-3d-secure/) or Mastercard [SecureCode](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
+| 3. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
+| 4. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
 

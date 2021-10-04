@@ -28,7 +28,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer authenticates their account and completes the payment. | | |
 | 4. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. | Completed | Completed |
-| 5. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| | |
+| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| | |
 
 ## Unsuccessful statuses
 

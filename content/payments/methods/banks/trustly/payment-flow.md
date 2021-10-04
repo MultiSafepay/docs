@@ -27,7 +27,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 1. | The customer initiates a transaction, and selects their country and their bank. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer authenticates their account and completes the payment. | | |
-| 4. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
+| 4. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 
