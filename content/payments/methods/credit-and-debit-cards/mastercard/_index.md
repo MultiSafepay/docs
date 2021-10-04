@@ -1,6 +1,6 @@
 ---
 title: 'Mastercard'
-weight: 50
+weight: 60
 meta_title: "Payment methods - Mastercard - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/mastercard"
 childlist: '.'
