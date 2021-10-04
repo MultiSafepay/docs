@@ -21,7 +21,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized   | Initialized  |
+| 1. | The customer selects E-Invoicing at checkout. | Initialized   | Initialized  |
 | 2. | E-Invoicing authorizes the payment. | Completed  | Initialized  |
 | 3. | Once authorized, MultiSafepay sends a capture to E-Invoicing. |  |  |
 | 4. | Ship the order. |  |  |

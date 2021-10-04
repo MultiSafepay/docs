@@ -23,11 +23,10 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer enters the gift card details, and completes the payment. | | |
-| 4. | The card issuer processes the payment and sends a **Completed** notification to MultiSafepay. | | |
-| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. | Completed | Completed |
+| 1. | The customer selects the relevant gift card at checkout and is redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/). | Initialized | Initialized |
+| 2. | The customer enters the gift card details, and completes the payment. | | |
+| 3. | The card issuer processes the payment and sends a **Completed** notification to MultiSafepay. | | |
+| 4. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. | Completed | Completed |
 
 ## Unsuccessful statuses
 

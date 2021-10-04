@@ -30,7 +30,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 7. | Betaal per Maand invoices the customer. Settlement is now guaranteed.  | | |
 | 8. | The customer selects their preferred period and payment method for the monthly payment to Betaal per Maand. | | |
 | 9. | Betaal per Maand settles the funds with MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
-| 10. | MultiSafepay adds the funds to your MultiSafepay balance within 5 business days.| | |
+| 10. | MultiSafepay settles the funds in your MultiSafepay balance within 5 business days.| | |
 
 ## Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
