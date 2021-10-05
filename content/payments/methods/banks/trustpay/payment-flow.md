@@ -23,11 +23,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account and completes the payment. | | |
-| 4. | The transaction is successful.  |  |  |
-| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
+| 1. | The customer selects TrustPay at checkout and is redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/). | Initialized | Initialized |
+| 2. | The customer authenticates their account and completes payment. | | |
+| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 
