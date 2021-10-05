@@ -23,7 +23,7 @@ We recommend setting the lifetimes to 2 days (2880 minutes) to allow enough time
 
 ## Setting the MultiSafepay payment link lifetime
 
-1. From your Magneto 2 admin panel, go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways**.
+1. From your Magento 2 admin panel, go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways**.
 2. Select the relevant gateway, and then go to **Custom payment link lifetime**.
 3. Select **Pending payment order lifetime** and set to **2880 minutes**.
 
