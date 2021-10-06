@@ -57,13 +57,13 @@ Columns:
 - Paymenttype: a MultiSafepay fee, or the payment method
 - Description/Description2/Description3/Description4:
 - Tr status: the [transaction status](/payments/multisafepay-statuses/)
-- Ms description: 
+- Ms description: website name
 - Mt merchanttransactionid:
 - Mt cust firstname: the customer’s first name
 - Mt cust lastname: the customer’s last name
 - Mt cust city: the customer's city
 - Mt cust country: the customer's country
-- Invoice id:
+- Invoice id: your internal invoice ID
 
 {{< /details >}}
 
