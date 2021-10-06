@@ -35,6 +35,6 @@ To enable refunds from your Lightspeed backend, follow these steps:
 
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
 
-- Some [billing suite](https://docs.multisafepay.com/payment-methods/billing-suite/) payment methods require us to provide product ids related to the refunded items. When using product variants make sure the variants have different ids from each other and default product otherwise we cannot distinguish what items are refunded.
+- Some [billing suite](https://docs.multisafepay.com/payment-methods/billing-suite/) payment methods require us to provide product ids related to the refunded items. When using product variants make sure the variants have different ids from each other and the default product. With duplicate ids we cannot distinguish what items need to be refunded.
 
 For any questions, email the Integration Team at <integration@multisafepay.com>
