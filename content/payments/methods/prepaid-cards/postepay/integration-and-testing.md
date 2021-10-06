@@ -6,6 +6,9 @@ meta_title: "Postepay - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Testing Postepay transactions in your ecommerce platform"
 layout: 'child'
+url: '/postepay/integration-testing/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/postepay/integration-and-testing/
 ---
 
 To process Postepay payments via our API, see API reference – [Credit cards](/api/#credit-cards).

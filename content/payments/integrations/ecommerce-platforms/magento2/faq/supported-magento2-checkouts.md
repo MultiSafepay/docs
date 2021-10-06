@@ -1,24 +1,25 @@
 ---
-title : "Supported Magento 2 checkouts"
-meta_title: "Magento 2 plugin FAQ - Supported Magento 2 checkouts - MultiSafepay Docs"
+title : "Supported checkouts"
+meta_title: "Magento 2 plugin FAQ - Supported checkouts - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+aliases:
+    - /payments/integrations/ecommerce-platforms/magento2/faq/hyva-themes-checkout/
 ---
 
 MultiSafepay supports multiple checkouts:
 
-{{< details title="Magento 2 core checkout" >}}
+**Magento 2 core checkout**  
 Our plugin works out of the box with the Magento 2 core checkout, which is based on the Luma theme.
-{{< /details >}}
 
-{{< details title="OneStepCheckout.com" >}}
-MultiSafepay is an official partner of [OneStepCheckout.com](https://www.onestepcheckout.com/).
+**OneStepCheckout.com**  
+MultiSafepay is an official partner of [OneStepCheckout.com](https://www.onestepcheckout.com/). Our plugin works with the latest version of the OneStepCheckout extension. 
 
-Our plugin works with the latest version of the OneStepCheckout extension. If you have questions or notice missing features or bugs when both plugins are installed, email the Integration Team at [integration@multisafepay.com](mailto:integration@multisafepay.com)
-{{< /details >}}
+**Hyvä**  
+Our plugin is compatible with Hyvä's [themes](https://hyva.io/hyva-themes-license.html) and [checkout](https://hyva.io/hyva-checkout.html). 
 
-{{< details title="Other checkouts" >}}
+**Other checkouts**  
 We have tested our plugin with the following checkouts:
 
 - [MagePlaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
@@ -26,4 +27,4 @@ We have tested our plugin with the following checkouts:
 
 Most Magento checkout plugins are compatible with our plugin, but we cannot guarantee that all features will function properly.
 
-See also [Hyvä themes and checkout](/payments/integrations/ecommerce-platforms/magento2/faq/hyva-themes-checkout/).
+For questions or support, email the Integration Team at [integration@multisafepay.com](mailto:integration@multisafepay.com)
