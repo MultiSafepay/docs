@@ -6,7 +6,7 @@ read_more: "."
 aliases: 
     - /integrations/shopware5/faq/refunding-shopware/
 ---
-You can process refunds for all Shopware 5 payment methods except [post-payment methods](/payments/methods/billing-suite) from your:
+You can process refunds for all Shopware 5 payment methods except [pay later methods](/payments/methods/billing-suite) from your:
 
 Refund rules:
 
@@ -14,6 +14,6 @@ Refund rules:
 - From your Shopware 5 [backend](/getting-started/glossary/#backend):  
     - Full refunds 
     - Refunding more than the original transaction is **not** supported
-- No refunds for [post-payment methods](/payment-methods/billing-suite)
+- No refunds for [pay later methods](/payment-methods/billing-suite)
 
 

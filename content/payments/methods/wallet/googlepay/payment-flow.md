@@ -22,13 +22,12 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a payment. 
-| 2. | The customer completes the payment through their Google Pay account. |  |  |
-| 3. | MultiSafepay receives the customer's credit card details as an encrypted token.| Initialized | Initialized |
-| 4. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
-| 5. | The transaction passes through MultiSafepay's automated fraud filter. |  |  |
-| 6. | If necessary, manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 7. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
+| 1. | The customer selects Google Pay at checkout and is redirected to their Google Pay account to complete payment. | Initialized | Initialized |
+| 2. | MultiSafepay receives the customer's credit card details as an encrypted token.|  |  |
+| 3. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
+| 4. | The transaction passes through MultiSafepay's automated fraud filter. |  |  |
+| 5. | If necessary, manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| 6. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
 

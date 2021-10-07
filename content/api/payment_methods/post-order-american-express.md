@@ -1,5 +1,5 @@
 ---
-weight: 303
+weight: 311
 meta_title: "API reference - Create American Express - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -40,7 +40,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 {{< /code-block >}}
 {{< description >}}
-## American Express
+### American Express
 
 - See also Payment methods – [American Express](/payments/methods/credit-and-debit-cards/american-express).  
 - Redirect only.

@@ -87,7 +87,7 @@ You can process refunds in the [backend](/getting-started/glossary/#backend) of 
 
 ## Via our API
 
-For post-payment methods, you can also refund via our API. Make a `POST /orders/{order_id}/refunds` request. 
+For pay later methods, you can also refund via our API. Make a `POST /orders/{order_id}/refunds` request. 
 
 See API reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
@@ -97,7 +97,7 @@ See API reference – [Refund with shopping cart](/api/#refund-with-shopping-car
 
 You can refund customers more than the amount of the original transaction, e.g. if you want to cover the customer's postage costs when returning an order. 
 
-This option is only available for debit card transactions, and **not** for credit cards or post-payment methods. A maximum ammount limit applies. 
+This option is only available for debit card transactions, and **not** for credit cards or pay later methods. A maximum ammount limit applies. 
 
 To enable this option, follow these steps:
 

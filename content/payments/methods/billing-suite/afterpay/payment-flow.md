@@ -24,15 +24,15 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |  | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. |  |  |
+| 1. | The customer selects AfterPay at checkout. |  |  |
 | 2. | AfterPay authorizes the payment. | Uncleared | Uncleared |
 | 3. | Once authorized, MultiSafepay sends a capture to AfterPay.  | Completed  | Uncleared  |
 | 4. | Ship the order. | | |
-| 5. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/afterpay/faq/changing-order-status-to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared |
+| 5. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/afterpay/user-guide/changing-order-status-to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared |
 | 6. | AfterPay invoices the customer with a standard payment period of 14 days. Settlement is now guaranteed. | | |
 | 7. | The customer completes the payment with AfterPay via [iDEAL](/payments/methods/banks/ideal/) or online banking, within 14 days unless otherwise agreed in writing. |  |  |
 | 8. | AfterPay settles the funds with MultiSafepay. | Shipped | Completed |
-| 9. | MultiSafepay adds the funds to your MultiSafepay balance.| Completed | Completed |
+| 9. | MultiSafepay settles the funds in your MultiSafepay balance.| Completed | Completed |
 
 ### Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.

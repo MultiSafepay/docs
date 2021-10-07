@@ -6,23 +6,33 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< code-block >}}
 ```json 
-{
-  "shopping_cart":{
-    "name":"",
-    "description":"",
-    "unit_price":100,
-    "quantity":2,
-    "merchant_item_id":"",
-    "tax_table_selector":"",
-    "weight":{
-      
+"shopping_cart":{
+  "items":[
+    {
+      "name":"Item demo 1",
+      "description":"",
+      "unit_price":90,
+      "quantity":2,
+      "merchant_item_id":"111111",
+      "tax_table_selector":"none",
+      "weight":{
+        "unit":"KG",
+        "value":12
+      }
     },
-    "options":[
-      
-    ],
-    "value":200,
-    "unit":""
-  }
+    {
+      "name":"Item shipping - Flat Rate - Fixed",
+      "description":"Shipping",
+      "unit_price":10,
+      "quantity":1,
+      "merchant_item_id":"msp-shipping",
+      "tax_table_selector":"none",
+      "weight":{
+        "unit":"KG",
+        "value":0
+      }
+    }
+  ]
 }
 ```
 

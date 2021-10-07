@@ -38,8 +38,6 @@ Advanced requests include:
 
 You can also use our API to build a custom integration. You can test your integration in the [``TEST`` environment](#environments). 
 
-See also our [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) of sample requests.
-
 For any questions, email the Integration Team at <integration@multisafepay.com>
 
 {{% /description %}}

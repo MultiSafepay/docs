@@ -9,7 +9,7 @@ intro_description: "E-Invoicing is a MultiSafepay payment method with automation
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/e-invoicing.svg' 
-short_description: 'A MultiSafepay post-payment method that is highly flexible and gives you control'
+short_description: 'A MultiSafepay pay later method that is highly flexible and gives you control'
 aliases:
     - /support-tab/magento2/payment-methods/e-invoicing
     - /payment-methods/e-invoicing/

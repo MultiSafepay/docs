@@ -1,6 +1,6 @@
 ---
 title: 'American Express'
-weight: 30
+weight: 10
 meta_title: "Payment methods - American Express - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/american-express"
 childlist: '.'

@@ -17,7 +17,7 @@ MultiSafepay supports seamless integration for iDEAL QR. You can:
 
 - Retrieve and process the PNG image for the QR code in your system to display it to the customer.  
 
-- Redirect the customer to a MultiSafepay PayV2 page where the iDEAL QR code is displayed under **Payment methods**.
+- Redirect the customer to a [MultiSafepay payment page](/payments/checkout/payment-pages/) where the iDEAL QR code is displayed under **Payment methods**.
 
 - Generate a generic link that can be used multiple times. 
 

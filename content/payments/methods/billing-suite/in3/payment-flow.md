@@ -22,15 +22,15 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |                       | Flow      | Order status | Transaction status |
 |-----|----|---|------|
-| 1. | The customer initiates a transaction, is redirected to in3, and enters their details. | Initialized   | Initialized  |
+| 1. | The customer selects in3 at checkout, is redirected to in3, and enters their details. | Initialized   | Initialized  |
 | 2. | in3 authorizes the payment. |   |   |
 | 3. | The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
 | 4. | The customer pays the first installment. {{< br >}} Settlement is now guaranteed. | Completed  | Uncleared  |
 | 5. | Ship the order. | | |
 | 6. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/in3/user-guide/changing-order-status--to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared | 
-| 7. | MultiSafepay adds the funds to your MultiSafepay balance (within 15 days of the first installment). | Completed | Completed |
-| 8. | The customer has 30 days to pay the second installment. |  | |
-| 9. | The customer has 60 days to pay the third installment. |  | |
+| 7. | MultiSafepay settles the funds in your MultiSafepay balance (within 15 days of the first installment). | Completed | Completed |
+| 8. | The customer has 30 days to pay the second installment, and 60 days to pay the third. |  | |
+
 
 ## Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.

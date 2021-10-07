@@ -21,7 +21,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
-| 1. | The customer initiates a transaction. {{< br >}} You **cannot** cancel the transaction at this point. | Uncleared   | Initialized  |
+| 1. | The customer selects Betaal per Maand at checkout and initiates a transaction. {{< br >}} To cancel the transaction at this point, email <support@multisafepay.com> | Uncleared   | Initialized  |
 | 2. | Betaal per Maand authorizes the payment. | Uncleared   | Uncleared  |
 | 3. | Once authorized, MultiSafepay sends a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You **can** cancel the transaction at this point. | Completed  | Uncleared  |
 | 4. | Ship the order. {{< br >}} **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared | 
@@ -30,7 +30,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 7. | Betaal per Maand invoices the customer. Settlement is now guaranteed.  | | |
 | 8. | The customer selects their preferred period and payment method for the monthly payment to Betaal per Maand. | | |
 | 9. | Betaal per Maand settles the funds with MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
-| 10. | MultiSafepay adds the funds to your MultiSafepay balance within 5 business days.| | |
+| 10. | MultiSafepay settles the funds in your MultiSafepay balance within 5 business days.| | |
 
 ## Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.

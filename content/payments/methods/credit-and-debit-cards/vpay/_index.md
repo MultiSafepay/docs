@@ -1,6 +1,6 @@
 ---
 title: 'V Pay'
-weight: 80
+weight: 60
 meta_title: "Payment methods - V Pay - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/vpay"
 childlist: '.'

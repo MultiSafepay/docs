@@ -8,6 +8,7 @@ read_more: '.'
 weight: 4
 url: '/payment-components/tokenization/'
 ---
+<<<<<<< HEAD
 
 ### New customer
 
@@ -59,3 +60,5 @@ sequenceDiagram
 {{< /mermaid >}}
 
 {{< two-buttons href-1="/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
+=======
+>>>>>>> origin/master

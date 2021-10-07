@@ -12,9 +12,9 @@ To process WeChat Pay payments via our API, see API Reference – [WeChat Pay](/
 
 To display the QR code for WeChat Pay payments, you have two options:
 
-- Use [redirect](/api/#wechat-pay---redirect) orders, to redirect the customer to a MultiSafepay PayV2 page where the QR code is displayed under **Payment methods**.
+- Use [redirect](/api/#wechat-pay---redirect) orders, to redirect the customer to a [MultiSafepay payment page](/payments/checkout/payment-pages/) where the QR code is displayed under **Payment methods**.
 
-- Use [direct](/api/#wechat-pay---direct) orders, retrieve the `qr_url` and render the QR code using a third-party application in your system to display it to the customer.
+- Use [direct](/api/#wechat-pay---direct) orders, retrieve the `qr_url` and render the QR code in your system to display it to the customer.
 
 For the WeChat Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

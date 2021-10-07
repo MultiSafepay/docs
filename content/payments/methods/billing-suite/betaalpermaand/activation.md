@@ -11,7 +11,16 @@ logo: '/logo/Payment_methods/betaalpermaand.svg'
 
 To activate Betaal per Maand for your MultiSafepay account, you need a Santander account.
 
-### Applying for a Santander account
+## Eligibility criteria
+
+To be eligible for Betaal per Maand, you must:
+
+- Be registered with a Dutch Chamber of Commerce (no exceptions)
+- Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
+- Sell products or services to European citizens with a residential or delivery address in Netherlands (no exceptions)
+- Be able to connect to MultiSafepay via our API or [ecommerce integrations](/payments/integrations/ecommerce-platforms/)
+
+## Applying for a Santander account
 
 **Note:** If you already have an active working relationship with Santander for any other product, you are considered a Santander client.
 
@@ -24,22 +33,6 @@ To activate Betaal per Maand for your MultiSafepay account, you need a Santander
 |   |  | 2. | MultiSafepay submits your application to Betaal per Maand during your [onboarding](/account/onboarding-golive/) process. |
 | No  | Yes | 1. | [Create a MultiSafepay account](/getting-started/) or email <sales@multisafepay.com> |
 
-{{< details title="View eligibility criteria" >}}
+## Activating Betaal per Maand
 
-To be eligible for Betaal per Maand, you must:
-
-- Be registered with a Dutch Chamber of Commerce (no exceptions)
-- Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
-- Sell products or services to European citizens with a residential or delivery address in Netherlands (no exceptions)
-- Be able to connect to MultiSafepay via our API or [ecommerce integrations](/payments/integrations/ecommerce-platforms/)
-
-The following order amounts also apply:
-
-- Minimum order amount 250 EUR
-- Maximum order amount 8000 EUR
-
-{{< /details >}}
-
-### Activating Betaal per Maand
-
-To activate Betaal per Maand, email the Sales Team at <sales@multisafepay.com>
+To activate Betaal per Maand, email your account manager at <sales@multisafepay.com>

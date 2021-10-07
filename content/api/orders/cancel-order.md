@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ### Cancel an order 
 
-Cancel a pretransaction and/or a transaction based on the `order_id`.
+Cancel a pretransaction based on the `order_id`.
 
 **Parameters**
 
@@ -38,13 +38,10 @@ The [order status](/payments/multisafepay-statuses/).
 Value: `cancelled`.
 
 ----------------
-`exclude_order` | integer | required
+`exclude_order` | integer | optional
 
 Sets the outcome of the cancellation.  
 To cancel the pretransaction, set to `1`.  
-To cancel both the pretransaction and the transaction, set to `0`.  
-
-**Note:** Setting to `0` does not work for iDEAL payments. For other payment methods, it only works if the transaction status is **Initialized**. Transactions with **Reserved** status cannot be cancelled.
 
 ----------------
 {{% /description %}}
