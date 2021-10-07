@@ -15,7 +15,7 @@ For payment methods with a validation period longer than 8 hours, the status of 
 
 **Setting pending payment order lifetimes**
 
-To set the lifetime of pending payments orders, see Magento - [Pending payment order lifetime](https://docs.magento.com/m2/ee/user_guide/sales/order-pending-payment-lifetime.html).
+To set the lifetime of pending payments orders, see Magento - [Pending payment order lifetime](https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html).
 
 **ERP systems**
 
