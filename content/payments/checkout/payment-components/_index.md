@@ -17,24 +17,17 @@ Payment Components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
-<<<<<<< HEAD
 - Reduces your [PCI DSS](/payment-regulations/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
-- Supports [tokenization](/payments/features/tokenization/)
+- Supports [recurring payments](/payments/features/tokenization/)
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
 
 ## Payment methods
 
 Embed a single or multiple payment methods in your checkout.
-=======
-- Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
 
-## Integration
->>>>>>> origin/master
+{{< details title="Available payment methods">}}
 
-Embed a selected payment method in your checkout. The customer completes payment within your checkout or is redirected to the relevant payment page.
-
-<<<<<<< HEAD
 - [Bancontact](/payments/methods/banks/bancontact/)
 - [Bank Transfer](/payments/methods/banks/bank-transfer/)
 - Credit cards:  
@@ -60,14 +53,3 @@ Embed a selected payment method in your checkout. The customer completes payment
 {{< two-buttons href-2="/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/payment-components/customization" header-2="Manual" text-2="Customization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
-=======
-{{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
-
-## Customization
-
-You can customize the look of the component to match your brand's visual identity, and set the display language.
-
-For instructions, see [Customizing payment components](/payments/checkout/payment-components/customizing-payment-components/).
-
-{{< two-buttons href-2="/payments/checkout/payment-components/integrating-single-payment-method" header-2="Integration manual" text-2="Single payment method" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
->>>>>>> origin/master

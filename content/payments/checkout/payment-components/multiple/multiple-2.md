@@ -186,7 +186,7 @@ The `PaymentComponent` has the following methods:
 |`getErrors`| Returns error messages or codes|
 |`hasErrors`| Returns a boolean value about whether errors were registered |
 |`getPaymentData`| Creates a `payload` object containing the customer's payment details, used to [create orders](/payment-components/multiple/step-3/)|
-|`getOrderData`| Creates an order_data object containing a `payment_data` object and the full order configuration. |
+|`getOrderData`| Creates an `order_data` object containing a `payment_data` object and the full order configuration. |
 
 {{< /details >}}
 

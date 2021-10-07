@@ -24,7 +24,7 @@ PaymentComponent.getPaymentData()
 
 Create an order from your server, appending the `payment_data` collected from the Payment Component UI to the order data.
 
-See API reference – [Payment Component order](/api/#payment-component-order).
+See API reference – [Payment Component order](/api/#payment-component-orders).
 
 ### Redirect the customer
 

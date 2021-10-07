@@ -99,7 +99,7 @@ Render the account details in the interface for the customer with clear instruct
 
 Create an order from your server, appending the `payment_data` collected from the Payment Component UI to the order data.
 
-See API reference – [Payment Component order](/api/#payment-component-order).
+See API reference – [Payment Component order](/api/#payment-component-orders).
 
 {{< two-buttons
 
