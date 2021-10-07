@@ -24,7 +24,7 @@ const orderData = {
     currency: 'EUR',
     amount: 10000,
     customer: {
-        locale: 'EN',
+        locale: 'en',
         country: 'NL',
         reference: 'Customer123'
     },

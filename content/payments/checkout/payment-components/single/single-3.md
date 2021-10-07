@@ -75,10 +75,6 @@ If 3D Secure verification is:
 
 {{< /details >}}
 
-## Next steps
-
-Step 4: [Go live](/payment-components/single/step-4)
-
 {{< two-buttons
 
 href-1="/payment-components/single/step-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 

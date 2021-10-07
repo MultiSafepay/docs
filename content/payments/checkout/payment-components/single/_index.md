@@ -16,12 +16,12 @@ Add the following elements to your checkout page:
 
 **1.** Add the component's CSS to the `<head>` of your checkout page:  
 ```
-<link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
+<link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v2/components.css">
 ```
 
-**2.** Add the component's script tothe bottom of the `<body>` of your checkout page:  
+**2.** Add the component's script to the bottom of the `<body>` of your checkout page:  
 ```
-<script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
+<script src="https://testpay.multisafepay.com/sdk/components/v2/components.js"></script>
 ```
 
 **3.** Add the DOM element for the component's UI in the `<body>` of your checkout page:

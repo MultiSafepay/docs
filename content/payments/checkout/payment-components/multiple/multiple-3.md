@@ -101,10 +101,6 @@ Create an order from your server, appending the `payment_data` collected from th
 
 See API reference – [Payment Component order](/api/#payment-component-order).
 
-## Next steps
-
-Step 4: [Go live](/payment-components/multiple/step-4)
-
 {{< two-buttons
 
 href-1="/payment-components/multiple/step-2" header-1="Back" text-1="Step 2: Initialize the component" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
