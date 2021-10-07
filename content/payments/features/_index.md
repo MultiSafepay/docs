@@ -5,6 +5,6 @@ layout: 'block'
 meta_title: 'Additional payment features - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Recurring payments.svg'
-short_description: 'From processing Recurring Payments to splitting incoming funds.'
+short_description: 'From split payments to recurring payments, and special credit card features.'
 weight: 80
 ---
