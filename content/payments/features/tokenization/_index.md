@@ -29,6 +29,7 @@ With tokenization, MultiSafepay encrypts a customer's sensitive payment details 
 {{< details title="Supported payment methods" >}}
 
 - American Express
+- Bancontact
 - iDEAL
 - Maestro
 - Mastercard
