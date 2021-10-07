@@ -46,9 +46,8 @@ The unique identifier for the recurring payment.
 ----------------
 `recurring_model` | string 
 
-The recurring model.  
+The [recurring model](/features/recurring-payments/#recurring-models).  
 Options: `unscheduled`, `subscription`, `cardonfile`.  
-See also [Recurring models](/payments/features/tokenization/#recurring-models).
 
 ----------------
 `type` | string

@@ -21,7 +21,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | Yes | See below.  |
 | **Payment flow**  | [Direct](/api/#sepa-direct-debit-direct) / {{< br >}} [Redirect](/api/#sepa-direct-debit-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | Doesn't apply | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 

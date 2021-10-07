@@ -144,9 +144,9 @@ A characteristic string that identifies a browser.
 The unique identifier of where the user/browser originates from.
 
 ----------------
-`reference` | string | For [tokenization](/payments/features/tokenization/) transactions: required
+`reference` | string | For [recurring payments](/features/recurring-payments/) transactions: required
 
-See [Create token transaction](/api/#create-tokenization-order).
+See [Create recurring payments orders](/api/#create-recurring-payments-orders).
 
 ----------------
 

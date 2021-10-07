@@ -17,7 +17,7 @@ aliases:
 | **Currencies**  | Multiple | [More information](https://support.apple.com/en-us/HT207957) | 
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#apple-pay-direct) / [Redirect](/api/#apple-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

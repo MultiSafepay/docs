@@ -17,7 +17,7 @@ aliases:
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | Yes | See below. |
 | **Payment flow**  | [Redirect](/api/#maestro) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

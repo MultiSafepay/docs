@@ -1,6 +1,6 @@
 ---
 weight: 235
-meta_title: "API reference - Create tokenization order - MultiSafepay Docs"
+meta_title: "API reference - Create recurring payments orders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 
@@ -112,9 +112,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-### Create tokenization order
+### Create recurring payments orders
 
-Create a [tokenization](/payments/features/tokenization) order.
+Create [recurring payments](/features/recurring-payments) orders.
 
 **Parameters**
 
@@ -144,9 +144,8 @@ The unique identifier for the recurring payment.
 ----------------
 `recurring_model` | string | required
 
-The recurring model.  
+The [recurring model](/features/recurring-payments/#recurring-models).  
 Options: `cardonfile`, `subscription`, `unscheduled`.  
-See also [Recurring models](/payments/features/tokenization/#recurring-models).
 
 ----------------
 `amount` | integer | required
