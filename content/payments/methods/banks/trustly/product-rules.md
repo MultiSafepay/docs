@@ -18,7 +18,7 @@ aliases:
 | **Countries**  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | |
 | **Currencies**  | EUR, GBP, SEK | [More information](/faq/general/supported-currencies) | 
 | **Payment flow**  | [Redirect](/api/#trustly) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Transactions expire after**  | 2 hours | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |

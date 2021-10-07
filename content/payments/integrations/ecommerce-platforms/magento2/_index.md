@@ -56,12 +56,12 @@ We support most Magento functionalities. For any questions, email the Integratio
 
 As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html). For more information, see MultiSafepay Blog - [Magento 2: Boost conversion through Magento Vault & Instant Purchase](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase). 
 
-These features are based on MultiSafepay Recurring Payments. For more information, see [Recurring Payments](/payments/features/recurring-payments/).
+These features are based on [recurring payments](/features/recurring-payments/).
 
 ### Obsolete features
 Features that are no longer available:
 
-- Tokenization – replaced by Magento Vault and Instant Purchase
+- Recurring payments – replaced by Magento Vault and Instant Purchase
 - FastCheckout – no longer supported
 - PWA (REST) endpoints – replaced by GraphQL endpoints
 

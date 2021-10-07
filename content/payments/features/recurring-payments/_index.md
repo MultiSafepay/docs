@@ -1,19 +1,21 @@
 ---
-title: 'Tokenization'
+title: 'Recurring payments'
 weight: 20
-meta_title: "Tokenization - MultiSafepay Docs"
+meta_title: "Recurring payments - MultiSafepay Docs"
 layout: 'single'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Tokenization.svg'
-short_description: 'Store credit card information as a token to make checkout more convenient.'
+short_description: 'Store payment details to make checkout more convenient.'
+url: '/features/recurring-payments/'
 aliases: 
     - /tools/tokenization/how-do-i-get-tokenization/
     - /tools/tokenization/tokenization-api-level/
     - /tools/tokenization/tokenization-via-api/
     - /tools/tokenization/tokenization-available-for-plugins/
+    - /payments/features/tokenization/
 ---
 
-With tokenization, MultiSafepay encrypts a customer's sensitive payment details as a secure, non-sensitive token. The customer can then select a token at checkout to make subsequent payments faster and easier.
+To process recurring payments, MultiSafepay encrypts the customer's sensitive payment details from an initial transaction as a secure, non-sensitive token. For subsequent payments, the customer can select stored details for faster and easier checkout. This is also known as tokenization. 
 
 **Benefits**
 
@@ -49,7 +51,7 @@ MultiSafepay offers three recurring models:
 Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
 
 ## Via our API
-See API reference – [Tokenization orders](/api/#tokenization-orders).
+See API reference – [Recurring payments](/api/#recurring-payments-orders).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
 
@@ -67,13 +69,13 @@ See API reference – [Tokenization orders](/api/#tokenization-orders).
 
 ## Via plugins
 
-Make sure you have enabled credit card payments and Recurring Payments in your MultiSafepay account.
+Make sure you have enabled credit card payments and recurring payments in your MultiSafepay account.
 
-Email your request to enable tokenization to your account manager at <sales@multisafepay.com>
+Email requests to your account manager at <sales@multisafepay.com>
 
 {{< details title="Supported MultiSafepay plugins" >}}
 
-We support tokenization in our plugins for:
+We support recurring payments in our plugins for:
 
 - [Magento 1](/payments/integrations/ecommerce-platforms/magento1)
 - [Magento 2](/payments/integrations/ecommerce-platforms/magento2)

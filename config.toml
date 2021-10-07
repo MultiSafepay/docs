@@ -119,7 +119,7 @@ name = "Shell"
     weight = 260
 
 [[menu.main]]
-    name = "Additional payment features"
+    name = "Payment features"
     url  = "/payments/features"
     parent = "payments"
     weight = 270

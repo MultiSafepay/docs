@@ -1,6 +1,6 @@
 ---
 weight: 236
-meta_title: "API reference - Get tokenization order details - MultiSafepay Docs"
+meta_title: "API reference - Get recurring payments order details - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 
@@ -87,9 +87,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-### Get tokenization order details 
+### Get recurring payment order details 
 
-Retreive details about a [tokenization](/payments/features/tokenization) order.
+Retreive details about a [recurring payment](/features/recurring-payments) order.
 
 **Parameter**
 

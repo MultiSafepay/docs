@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Get token details
 
-Retreive information about a specific [token](/payments/features/tokenization).
+Retreive information about a specific [token](/features/recurring-payments).
 
 **Parameter**
 
@@ -81,7 +81,7 @@ The last 4 digits of the credit card number.
 ----------------
 `model` | string 
 
-The [recurring model](/payments/features/tokenization/#recurring-models).  
+The [recurring model](/features/recurring-payments/#recurring-models).  
 Options: `cardonfile`, `subscription`, `unscheduled`.  
 
 ----------------

@@ -11,7 +11,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## Manage tokens
 
-[Tokenization](/payments/features/tokenization) is the process of storing payment details as encrypted tokens for future payments, e.g. recurring transactions.
+To process [recurring payments](/features/recurring-payments), MultiSafepay stores payment details as encrypted tokens for subsequent payments, e.g. subscriptions.
 
 This section lists the API requests and parameters for different token scenarios.
 

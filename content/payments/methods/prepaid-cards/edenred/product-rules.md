@@ -15,7 +15,7 @@ layout: 'child'
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |  
 | **Refunds**  | No  | [More information](/payments/refunds/) | 
 | **Payment flow**  | [Redirect](/api/#edenred) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 
 - You must sign a contract with Edenred.
 - For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
