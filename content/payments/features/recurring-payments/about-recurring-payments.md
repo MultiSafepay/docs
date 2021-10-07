@@ -10,7 +10,7 @@ aliases:
     - /payments/features/recurring-payments/about-recurring-payments/
 ---
 
-Recurring Payments is a MutiSafepay solution let you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.
+Recurring Payments is a MultiSafepay solution that lets you automatically charge a customer's bank account or credit card on a regular basis, e.g. for a monthly or annual subscription. The customer must initiate the first payment.
 
 ## Supported payment methods
 
