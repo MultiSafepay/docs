@@ -32,8 +32,6 @@ You will need:
 - Two active MultiSafepay accounts  
 - Access to the code that creates JSON requests
 
-Split payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default.
-
 ## Refunding split payments
 You can only refund split payments (in full or in part) from the account that originally received the funds and then split them to other accounts. 
 
@@ -52,5 +50,5 @@ When the transaction status changes to **Completed**, the refund has been proces
 
 To refund more than the original amount, see [Refunds](/payments/refunds/).
 
-
+**Note:** Split payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations).
 
