@@ -59,7 +59,4 @@ Customers can enter gift card details **before** placing the order, i.e. on your
 - Minimum order amount 250 EUR
 - Maximum order amount 8000 EUR
 
-See also:  
-
-- User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/)
-- MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies)
+See also User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/).
