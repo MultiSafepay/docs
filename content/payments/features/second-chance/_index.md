@@ -1,11 +1,12 @@
 ---
-title: 'Second chance'
-weight: 70
-meta_title: "Second chance - MultiSafepay Docs"
+title: 'Second Chance'
+weight: 10
+meta_title: "Second Chance - MultiSafepay Docs"
 layout: 'single'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Second Chance.svg'
 short_description: 'Send customers a friendly reminder to complete payments'
+url: '/features/second-chance/'
 aliases:
     - /tools/second-chance/about-second-chance/
     - /tools/second-chance/what-is-second-chance
