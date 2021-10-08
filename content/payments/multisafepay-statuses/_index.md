@@ -1,10 +1,12 @@
 ---
-title: "About MultiSafepay statuses"
-weight: 10
-meta_title: "About MultiSafepay statuses - MultiSafepay Docs"
+title: "MultiSafepay statuses"
+weight: 40
+meta_title: "MultiSafepay statuses - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 url: '/payments/multisafepay-statuses/'
+logo: '/svgs/General.svg'
+short_description: 'Statuses that track the progress of payments.'
 aliases:
     - /faq/api/difference-between-status-and-transaction-status
     - /faq/api/difference-between-status-and-financial-status
@@ -54,7 +56,3 @@ The table below sets out possible order and transaction statuses and what they c
 | Partial_refunded | The [partial refund](/payments/refunds/) has been processed successfully.|
 | Declined | The payment method has declined the refund request. |
 | Reserved | A [payout](/account/payouts/) or refund has been temporarily reserved while we check your MultiSafepay balance has sufficient funds. |
-
-
-
-
