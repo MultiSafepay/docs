@@ -4,8 +4,10 @@ weight: 60
 meta_title: "Payment pages - Deprecated version - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
+url: '/payment-pages/deprecated/'
 aliases:
     - /tools/payment-pages/Difference between V1 and V2
+    - /payments/checkout/payment-pages/classic-payment-page/
     - /payments/checkout/payment-pages/classic-payment-page/
 ---
 

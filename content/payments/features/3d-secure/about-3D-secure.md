@@ -4,7 +4,7 @@ weight: 20
 meta_title: "Payment regulations - About 3D Secure - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
-url: '/payment-regulations/3d-secure'
+url: '/features/3d-secure/about/'
 aliases:
     - /faq/payment-regulations/3D-secure
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/

@@ -4,9 +4,11 @@ weight: 30
 meta_title: "Payment pages - Styling payment pages - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
+url: '/payment-pages/styling/'
 aliases:
     - /tools/payment-pages/payment-page-templates/
     - /payments/checkout/payment-pages/dynamic-styling-payment-pages/
+    - /payments/checkout/payment-pages/styling-payment-pages/
 ---
 We recommend styling MultiSafepay payment pages to be consistent with the look and feel of your website.
 
