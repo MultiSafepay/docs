@@ -1,13 +1,15 @@
 ---
-title: 'About periodic reviews'
-weight: 7
-meta_title: "Risk and fraud - About periodic reviews - MultiSafepay Docs"
+title: 'Periodic reviews'
+weight: 6
+meta_title: "Risk and fraud - Periodic reviews - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/risk-fraud/periodic-reviews/'
 aliases:
     - /faq/risk-and-fraud/periodical-review
     - /faq/risk-and-fraud/about-periodical-reviews
     - /security-and-legal/risk-and-fraud/about-periodical-reviews/
+    - /security-and-legal/risk-and-fraud/about-periodic-reviews/
 ---
 MultiSafepay is legally required to periodically review all merchant accounts to maintain a close relationship and ensure the accuracy of company information in our system. 
 
