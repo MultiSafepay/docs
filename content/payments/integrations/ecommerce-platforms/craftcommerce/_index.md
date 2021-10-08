@@ -12,11 +12,13 @@ description_short: "Free plugin to integrate MultiSafepay payment solutions into
 changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md
 layout: 'single'
 faq: "."
+url: '/ecommerce-platforms/craft-commerce/'
 aliases: 
     - /plugins/craftcommerce
     - /integrations/plugins/craftcommerce
     - /integrations/craftcommerce
     - /integrations/ecommerce-integrations/craftcommerce
+    - /payments/integrations/ecommerce-platforms/craftcommerce/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Craft Commerce 3 webshop via Composer.

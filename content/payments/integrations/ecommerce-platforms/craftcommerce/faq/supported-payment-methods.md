@@ -5,8 +5,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: "faqdetail"
 read_more: "." 
 weight: 1
+url: '/ecommerce-platforms/craft-commerce/payment-methods/'
 aliases:
     - /integrations/ecommerce-integrations/craftcommerce/faq/available-payment-methods-craft-commerce/
+    - /payments/integrations/ecommerce-platforms/craftcommerce/faq/supported-payment-methods/
 ---
 
 {{< details title="Credit cards" >}}

@@ -7,6 +7,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/PWA.svg'
 short_description: 'MultiSafepay plugins for progressive web applications (PWAs)'
 weight: 10 
+url: '/integrations/pwas/'
 aliases:
     - /integrations/pwa/
+    - /payments/integrations/pwa/
 ---

@@ -7,4 +7,5 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Payment pages.svg'
 short_description: 'Reduce friction and optimize conversion with your checkout.'
 weight: 50
+url: '/checkouts/'
 ---

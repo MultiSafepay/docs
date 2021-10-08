@@ -2,12 +2,13 @@
 title : "Disabling payment links for a payment method"
 weight: 50
 meta_title: "Payment links - Disabling payment links for a payment method - MultiSafepay Docs"
-url: '/payment-links/disabling-payment-links-for-payment-methods'
+url: '/payment-links/disabling-links/'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 layout: 'faq'
 aliases:
     - /tools/multisafepay-control/generating-and-disabling-payment-links
+    - /payment-links/disabling-payment-links-for-payment-methods/
 ---
 
 You can only disable a payment link in your MultiSafepay account under **Website settings**. 

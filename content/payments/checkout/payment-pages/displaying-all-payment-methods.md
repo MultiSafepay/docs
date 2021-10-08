@@ -4,8 +4,10 @@ weight: 20
 meta_title: "Payment pages - Displaying all payment methods - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
+url: '/payment-pages/displaying-payment-methods/'
 aliases:
     - /tools/payment-pages/show-all-methods
+    - /payments/checkout/payment-pages/displaying-all-payment-methods/
 ---
 
 If a customer's country is unclear or your [backend](/getting-started/glossary/#backend) doesn't let you provide the correct country code, consider displaying all your enabled payment methods on the payment page. This is not supported for [classic payment pages](/payments/checkout/payment-pages/classic-payment-page/).

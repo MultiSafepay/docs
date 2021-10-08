@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: "single"
 logo: '/svgs/Email_template.svg'
 short_description: 'Customize templates to make your customer emails unique'
+url: '/features/email-templates/'
 aliases:
     - /tools/email-template/customizing-email-templates/
     - /tools/email-template/about-email-templates/
