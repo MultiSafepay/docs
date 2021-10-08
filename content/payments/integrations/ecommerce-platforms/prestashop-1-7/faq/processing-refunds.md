@@ -6,7 +6,7 @@ read_more: "."
 aliases: 
     - /integrations/prestashop-1-7/faq/refunding-prestashop/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
 - From your Prestashop 1.7 [backend](/getting-started/glossary/#backend):  

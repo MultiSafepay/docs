@@ -8,7 +8,7 @@ aliases:
     - /integrations/magento2/faq/refunding-magento2/
     - /integrations/ecommerce-integrations/magento2/faq/refunding-magento2/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds 
 - From your Magento 2 [backend](/getting-started/glossary/#backend) (see below):  

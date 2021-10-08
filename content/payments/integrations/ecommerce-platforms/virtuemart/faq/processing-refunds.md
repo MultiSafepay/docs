@@ -7,7 +7,7 @@ aliases:
     - /integrations/virtuemart/faq/refunding-virtuemart/
 ---
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
 - From your VirtueMart [backend](/getting-started/glossary/#backend):  

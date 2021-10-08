@@ -8,7 +8,7 @@ aliases:
 ---
 You can process refunds for all Shopware 5 payment methods except [pay later methods](/payments/methods/billing-suite) from your:
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
 - From your Shopware 5 [backend](/getting-started/glossary/#backend):  

@@ -7,7 +7,7 @@ aliases:
     - /integrations/x-cart/faq/refunding-x-cart/
 ---
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
 - From your X-Cart [backend](/getting-started/glossary/#backend):  

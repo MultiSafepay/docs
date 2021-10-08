@@ -6,7 +6,7 @@ read_more: "."
 aliases: 
     - /integrations/shopify/faq/refunding-shopify/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](https://merchant.multisafepay.com): Refunds supported
 - From your Shopify [backend](/getting-started/glossary/#backend):  

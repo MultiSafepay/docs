@@ -6,7 +6,7 @@ read_more: "."
 aliases: 
     - /integrations/zencart/faq/refunding-zen-cart/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
 - From your ZenCart [backend](/getting-started/glossary/#backend):  
