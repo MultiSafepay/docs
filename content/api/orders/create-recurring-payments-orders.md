@@ -1,5 +1,5 @@
 ---
-weight: 235
+weight: 225
 meta_title: "API reference - Create recurring payments orders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -12,6 +12,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "type":"direct",
   "order_id":"my-order-id-1",
+  "gateway":"",
   "currency":"EUR",
   "recurring_id":"azbkvsE0up4",
   "recurring_model":"unscheduled",
@@ -128,7 +129,23 @@ Options: `direct`.
 `order_id` | string | required
 
 Your unique identifier for the order.   
-Format: Maximum 50 characters.   
+Format: Maximum 50 characters.  
+
+----------------
+`gateway` | string | required
+
+The unique gateway identifier for the payment method.  
+Options:  
+
+- American Express: `AMEX`
+- Bancontact: `MISTERCASH`
+- Credit cards: `CREDITCARD`
+- iDEAL: `IDEAL`
+- Maestro: `MAESTRO`
+- Mastercard: `MASTERCARD`
+- SEPA Direct Debit: `DIRDEB`
+- Sofort: `DIRECTBANK`
+- Visa: `VISA`
 
 ----------------
 `currency` | string | required

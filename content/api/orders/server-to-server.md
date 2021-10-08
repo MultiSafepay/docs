@@ -1,5 +1,5 @@
 ---
-weight: 225
+weight: 228
 meta_title: "API reference - Server to Server requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
