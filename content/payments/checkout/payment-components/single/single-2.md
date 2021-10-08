@@ -147,8 +147,8 @@ PaymentComponent.init('payment', {
 | ---- | ---- |
 |`getErrors`| Returns error details, e.g. error messages or codes|
 |`hasErrors`| Returns a boolean value depending on whether errors have been registered |
-|`getPaymentData`| Creates a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/payment-components/single/step-3/), and the `gateway`.|
-|`getOrderData`| Creates an `order_data` object containing a `payment_data` object and the full order configuration. |
+|`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/payment-components/single/step-3/), and the `gateway`.|
+|`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
 
 {{< /details >}}
 

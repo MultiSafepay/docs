@@ -20,8 +20,6 @@ Payment Components let you embed payment methods directly into your checkout.
 - Reduces your [PCI DSS](/payment-regulations/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
 - Supports [recurring payments](/payments/features/tokenization/)
 
-{{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
-
 ## Payment methods
 
 Embed a single or multiple payment methods in your checkout.
