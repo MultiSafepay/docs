@@ -1,24 +1,25 @@
 ---
-title : "Filtering the order request using the hook multisafepay_order_request"
-meta_title: "WooCommerce - Filtering the order request - MultiSafepay Docs"
+title : "Modifying order requests"
+meta_title: "WooCommerce - Modifying order requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/]
+url: '/woo-commerce/modifying-order-requests/'
+aliases: 
+    - /integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/
+    - /payments/integrations/ecommerce-platforms/woocommerce/faq/modifying-order-requests/
 ---
 
-There may be cases in which a developer needs to modify something in the transaction before it is processed.
+To change something in the OrderRequest before the transaction is processed, use the `multisafepay_order_request` filter hook in our plugin.
 
-If you want to change something in the OrderRequest, this is possible using the filter hook “multisafepay_order_request”, built into our plugin.
-
-Ask your developer to read:
+First, read the following:
 
 + [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
 + [MultiSafepay PHP-SDK](https://github.com/MultiSafepay/php-sdk/)
 
 &nbsp;
 
-A simple example of how to implement this and overwrite the Shopping Cart could be something like this: 
+Example of how to implement and overwrite the shopping cart: 
 
 ``` 
 add_filter('multisafepay_order_request', 'return_my_multisafepay_order_request');

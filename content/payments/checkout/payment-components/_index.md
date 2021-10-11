@@ -8,14 +8,16 @@ logo: '/svgs/Payment pages.svg'
 short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
 hideMenu : 'true'
 weight: 51
+url: '/payment-components/'
 aliases:
     - /tools/credit-card-component/
+    - /payments/checkout/payment-components/
 ---
 Payment Components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
-- Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay
+- Shifts responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/) to MultiSafepay
 
 ## Integration
 

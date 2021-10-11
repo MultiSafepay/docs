@@ -4,8 +4,10 @@ meta_title: "CCV Shop app - Supported payment methods - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 1
+url: '/ecommerce-platforms/ccv-shop/payment-methods/'
 aliases: 
     - /integrations/ccvshop/faq/available-payment-methods-ccv-shop/
+    - /payments/integrations/ecommerce-platforms/ccvshop/faq/supported-payment-methods/
 ---
 
 {{< details title="Credit cards" >}}

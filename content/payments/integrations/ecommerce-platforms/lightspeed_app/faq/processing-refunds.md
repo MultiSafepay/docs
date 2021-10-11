@@ -3,10 +3,12 @@ title : "Processing refunds"
 meta_title: "Lightspeed app - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/lightspeed-app/refunds/'
 aliases:
     - /hosted/lightspeed_app/faq/refunding-lightspeed
     - /integrations/hosted/lightspeed_app/faq/refunding-lightspeed
     - /integrations/lightspeed_app/faq/refunding-lightspeed
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/processing-refunds/
 ---
 **Refund rules**  
 
@@ -45,9 +47,8 @@ To enable refunds from your backend, follow these steps:
 - Some [pay later](/payment-methods/billing-suite/) payment methods do not let you refund a partial amount and a full item in a single request.  
 Example: A shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 
+- Some [pay later](/payment-methods/billing-suite/) payment methods do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
+
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
-
-
-
 
 For any questions, email the Integration Team at <integration@multisafepay.com>

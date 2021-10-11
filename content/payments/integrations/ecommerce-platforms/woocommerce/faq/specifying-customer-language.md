@@ -1,11 +1,13 @@
 ---
-title : "Changing the language for MultiSafepay payment pages and messages"
-meta_title: "WooCommerce plugin - Changing language - MultiSafepay Docs"
+title : "Specifying customer language"
+meta_title: "WooCommerce plugin - Specifying customer language - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/woo-commerce/customer-language/'
 aliases: 
     - /integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/
+    - /payments/integrations/ecommerce-platforms/woocommerce/faq/payment-page-and-messages-to-customer-in-other-language/
 ---
 
 MultiSafepay supports payment pages and messages to customers (e.g. Second Chance emails, links, order confirmations) in several languages. 

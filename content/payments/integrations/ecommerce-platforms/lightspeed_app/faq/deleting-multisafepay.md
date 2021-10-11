@@ -1,9 +1,12 @@
 ---
-title: "Deleting MultiSafepay from Lightspeed"
-meta_title: "Lightspeed app - Deleting MultiSafepay from Lightspeed - MultiSafepay Docs"
+title: "Deleting MultiSafepay"
+meta_title: "Lightspeed app - Deleting MultiSafepay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 4
+url: '/lightspeed-app/deleting-multisafepay/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/deleting-multisafepay/
 ---
 
 After terminating your contract with MultiSafepay, our payment methods may still be visible in your checkout. 

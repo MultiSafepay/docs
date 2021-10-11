@@ -1,11 +1,12 @@
 ---
-title : "Disabling the Lightspeed core integration"
-meta_title: "Lightspeed app - Disabling the Lightspeed core integration - MultiSafepay Docs"
+title : "Disabling the core integration"
+meta_title: "Lightspeed app - Disabling the core integration - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
-url: '/ecommerce-platforms/lightspeed/disabling-core-integration/'
+url: '/lightspeed/disabling-core-integration/'
 aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/disabling-classic-lightspeed/
+    - /ecommerce-platforms/lightspeed/disabling-core-integration/
 ---
 
 To disable the deprecated Lightspeed core integration after migrating to the new app, follow these steps:

@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Plugins.svg'
 short_description: 'MultiSafepay apps and plugins for popular ecommerce platforms'
 weight: 10
+url: '/ecommerce-platforms/'
 aliases: 
     - /plugins/
     - /integrations/plugins/

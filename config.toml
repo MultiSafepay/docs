@@ -104,25 +104,19 @@ name = "Shell"
     name = "Choose your checkout"
     url  = "/payments/checkout"
     parent = "payments"
-    weight = 240
-
-[[menu.main]]
-    name = "Boost your integration"
-    url  = "/payments/boost"
-    parent = "payments"
-    weight = 250
+    weight = 230
 
 [[menu.main]]
     name = "Refunds and chargebacks"
     url  = "/payments/refunds-and-chargebacks"
     parent = "payments"
-    weight = 260
+    weight = 250
 
 [[menu.main]]
     name = "Payment features"
     url  = "/payments/features"
     parent = "payments"
-    weight = 270
+    weight = 240
 
 [[menu.main]]
     name = "Business operations"

@@ -1,6 +1,6 @@
 ---
 title: 'Split payments'
-weight: 20
+weight: 40
 layout: 'single'
 meta_title: "Split payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."

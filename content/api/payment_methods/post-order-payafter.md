@@ -217,7 +217,7 @@ Value: `redirect`.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `PAYAFTER`.
 
 ----------------
@@ -319,7 +319,7 @@ Value: `direct`.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `PAYAFTER`.
 
 ----------------

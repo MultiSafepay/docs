@@ -3,8 +3,10 @@ title : "Sending payment reminders"
 meta_title: "Lightspeed app - Sending payment reminders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/lightspeed-app/payment-reminders/'
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/payment-reminders/
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/sending-payment-reminders/
 ---
 
 The Lightspeed app doesn't support [Second Chance](/payments/boost/second-chance/) emails because Lightspeed orders expire after 12 hours. 

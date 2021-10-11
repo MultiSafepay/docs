@@ -4,6 +4,9 @@ meta_title: "WooCommerce plugin - Generating payment links - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/woo-commerce/payment-links/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/woocommerce/faq/generating-payment-links/
 ---
 
 To generate a payment link in your WooCommerce [backend](/getting-started/glossary/#backend) once an order is created, follow these steps:

@@ -2,7 +2,7 @@
 title : "Generating payment links"
 weight: 20
 meta_title: "Payment links - Generating payment links - MultiSafepay Docs"
-url: '/payment-links/generating-payment-links'
+url: '/payment-links/generating-links/'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: '.'
 layout: 'single'
@@ -11,6 +11,7 @@ aliases:
     - /payment-links/generating-payment-links-from-account
     - /payment-links/generating-payment-links-from-app/
     - /payment-links/generating-payment-links-from-backend/
+    - /payment-links/generating-payment-links/
 ---
 
 You might need to manually generate a payment link if:
@@ -24,7 +25,7 @@ You might need to manually generate a payment link if:
 
 Check specific [payment methods](/payments/methods/) to see if manually generated payment links are supported.
 
-**Note:** [Post-payment methods](/payments/methods/billing-suite/) do **not** support manually generated payment links.
+**Note:** [Pay later methods](/payments/methods/billing-suite/) do **not** support manually generated payment links.
 
 ## Generating payment links
 

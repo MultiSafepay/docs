@@ -163,7 +163,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `IDEAL`.
 
 ----------------
@@ -235,7 +235,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Options: `iDEAL`.
 
 ----------------
