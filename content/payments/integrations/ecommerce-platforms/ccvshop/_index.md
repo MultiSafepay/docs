@@ -9,6 +9,7 @@ weight: 29
 title_short: "CCVShop"
 description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop "
 layout: 'single'
+url: '/ecommerce-platforms/ccv-shop/'
 aliases: 
     - /plugins/ccvshop
     - /integrations/plugins/ccvshop
@@ -16,6 +17,7 @@ aliases:
     - /plugins/ccvshop/manual/
     - /integrations/plugins/ccvshop/manual/
     - /integrations/ecommerce-integrations/ccvshop
+    - /payments/integrations/ecommerce-platforms/ccvshop/
 ---
 This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop.
 

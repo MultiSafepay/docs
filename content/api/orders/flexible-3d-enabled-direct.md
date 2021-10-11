@@ -196,8 +196,8 @@ Contains:
 
 `flexible_3d` | boolean | required
 
-- `true`: enables 3D Secure verification
-- `false`: disable 3D Secure verification
+- `true`: Enables 3D Secure verification. The payment is classified as **3D Secure Result: Enrolled Liability**.
+- `false`: Disables 3D Secure verification. The payment is classified as **"Not Enrolled, Liability".**
 
 **Response**
 
@@ -243,7 +243,6 @@ See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `reason` | string 
-
 
 ----------------
 `related_transactions` | object

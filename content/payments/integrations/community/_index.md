@@ -7,4 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Tools.svg'
 short_description: 'Integrations for MultiSafepay payments developed by our community'
 weight: 60
+url: '/integrations/community/'
+aliases:
+    - /payments/integrations/community/
 ---

@@ -1,12 +1,14 @@
 ---
-title : "About preventing fraud and minimizing risk"
-meta_title: "Risk and fraud - About preventing fraud and minimizing risk - MultiSafepay Docs"
+title : "Preventing fraud and minimizing risk"
+meta_title: "Risk and fraud - Preventing fraud and minimizing risk - MultiSafepay Docs"
 weight: 1
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/risk-fraud/fraud-prevention/'
 aliases:
     - /faq/risk-and-fraud/how-does-multisafepay-prevent-fraud-and-minimize-risks
     - /faq/risk-and-fraud/about-preventing-fraud-and-minimizing-risk
+    - /security-and-legal/risk-and-fraud/about-preventing-fraud-and-minimizing-risk/
 ---
 MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our custom risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team actively works to reduce chargeback rates and analyzes high-risk transactions.
 

@@ -6,6 +6,9 @@ weight: 30
 layout: child
 meta_title: "Server to Server payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+url: '/features/server-to-server/payment-flow/'
+aliases:
+    - /payments/features/server-to-server/payment-flow/
 ---
 The table below shows a successful transaction flow from start to finish.  
 

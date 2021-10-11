@@ -1,11 +1,12 @@
 ---
-title: 'Second chance'
-weight: 70
-meta_title: "Second chance - MultiSafepay Docs"
+title: 'Second Chance'
+weight: 10
+meta_title: "Second Chance - MultiSafepay Docs"
 layout: 'single'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Second Chance.svg'
 short_description: 'Send customers a friendly reminder to complete payments'
+url: '/features/second-chance/'
 aliases:
     - /tools/second-chance/about-second-chance/
     - /tools/second-chance/what-is-second-chance
@@ -65,7 +66,7 @@ For how to customize the template, see [Email templates](/payments/boost/email-t
 
 {{< details title="External plugins" >}}
 
-Second Chance emails can create conflicts with external warehouse systems. In some cases, this can be resolved using a [cron job](/faq/general/multisafepay-glossary/#cron). However, this is not always a stable solution. 
+Second Chance emails can create conflicts with external warehouse systems. In some cases, this can be resolved using a cron job. However, this is not always a stable solution. 
 
 For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes). 
 
