@@ -111,7 +111,7 @@ The installation process is the same for the Adobe Commerce version.
 
 ## Installation
 
-**Note:** First make sure you have [uninstalled the deprecated plugin](/payments/integrations/ecommerce-platforms/magento2/faq/deleting-deprecated-plugin/).
+**Note:** If you have the deprecated plugin installed, we recommend to keep it installed alongside the new plugin to process the orders that were created with it. When you are done processing all the orders from the deprecated plugin (e.g. refunding, shipping) you can [uninstall the deprecated plugin](/payments/integrations/ecommerce-platforms/magento2/faq/deleting-deprecated-plugin/).
 
 **1.** We recommend installing the meta-package using Composer:
 

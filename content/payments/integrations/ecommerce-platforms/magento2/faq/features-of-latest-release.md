@@ -9,10 +9,12 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/changes-to-new-plugin/
 ---
 
-**Changes to refunds**  
-After deleting the deprecated plugin and installing the new one, the payment gateways from the deprecated plugin are no longer available in Magento.
+**Changes to refunds and shipping**  
+After deleting the deprecated plugin and installing the new one, the payment gateways from the deprecated plugin are no longer available in Magento. We therefore recommend to keep the deprecated plugin installed, until you have processed all the orders that were created with the deprecated plugin.
 
-You can refund transactions processed through these gateways in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/getting-started/glossary/#backend).
+You can refund transactions processed through the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/getting-started/glossary/#backend).
+
+Please also note that if you ship an order that has been made with the deprecated plugin, after removing the deprecated plugin the shipment requests are not automatically sent to MultiSafepay any more for these orders. These orders need to be set to shipped manually inside your [MultiSafepay account](https://merchant.multisafepay.com).
 
 **Changes to configuration fields**  
 Under **General settings**, we have changed the following configuration fields from the deprecated plugin.
@@ -53,7 +55,7 @@ We have updated the order status flow from version 2.5.0:
 - For bank transfer payment methods, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
 
 **Changes to the checkout**  
-For the following payment methods, we have changed the payment flow from [redirect to direct](/developer/api/difference-between-direct-and-redirect/):
+For the following payment methods, we have changed the default payment flow from [redirect to direct](/developer/api/difference-between-direct-and-redirect/):
 
 - Afterpay
 - Request to Pay
@@ -63,6 +65,9 @@ For the following payment methods, we have changed the payment flow from [redire
 - Pay After Delivery (Betaal na Ontvangst)
 
 We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL issuers checkout field and the new checkout fields for these payment methods.
+
+Alternatively you can turn the use of additional checkout fields off for these payment methods and change it back to redirect in the following configuration field:
+**Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways** > **Gateway** > **Additional checkout fields**
 
 **Example**  
 This example shows the differences between the Luma checkout for Afterpay in the deprecated plugin and the new one
