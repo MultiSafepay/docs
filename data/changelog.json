@@ -2,6 +2,14 @@
     "entries" : 
     [   
         {
+            "date": "Sep 22, 2021",
+            "change": "New payment method: [WeChat Pay](/payments/methods/wallet/wechatpay/)"
+        },
+        {
+            "date": "Sep 17, 2021",
+            "change": "New payment method: [Edenred](/payments/methods/prepaid-cards/edenred/)"
+        },
+        {
             "date": "Aug 3, 2021",
             "change": "New payment method: [Apple Pay direct](/payments/methods/wallet/applepay/direct-integration/)"
         },
