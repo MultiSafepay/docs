@@ -3,10 +3,12 @@ title : "Logging in"
 meta_title: "Lightspeed app - Logging in - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/lightspeed-app/login/'
 aliases:
     - /hosted/lightspeed_app/faq/how-to-login
     - /integrations/hosted/lightspeed_app/faq/how-to-login
     - /integrations/lightspeed_app/faq/how-to-login
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/logging-in/
 ---
 
 In early 2021, we changed the login method from a password to Lightspeed's single sign-on. You can now sign in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click or tap the **Login** button.

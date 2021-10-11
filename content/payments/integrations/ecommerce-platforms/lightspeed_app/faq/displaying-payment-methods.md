@@ -1,11 +1,13 @@
 ---
-title : "Setting a max/min order value to display payment methods"
-meta_title: "Lightspeed app - Setting a max/min order value to display payment method - MultiSafepay Docs"
+title : "Displaying payment methods"
+meta_title: "Lightspeed app - Displaying payment methods - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/lightspeed-app/displaying-payment-methods/'
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/maximal-order-amount/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/setting-minimum-order-amount/
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/setting-maximum-order-amount/
 ---
 To set a maximum/minimum order amount for a payment method to display on your checkout page, follow these steps:
 
