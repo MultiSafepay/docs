@@ -1,5 +1,5 @@
 ---
-weight: 234
+weight: 224
 meta_title: "API reference - Recurring payments orders - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---

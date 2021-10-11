@@ -1,5 +1,5 @@
 ---
-weight: 228
+weight: 235
 meta_title: "API reference - Credit card Server to Server requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -160,7 +160,7 @@ The amount (in cents) for the customer to pay.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Options: `VISA`, `MASTERCARD`, `AMEX`, `MAESTRO`, `CREDITCARD`.  
 When set to `CREDITCARD`, the type of credit card is detected based on the first four digits.
 
