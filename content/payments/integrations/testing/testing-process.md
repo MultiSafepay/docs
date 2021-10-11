@@ -9,7 +9,7 @@ url: '/testing/testing-process/'
 
 Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 
-If you encounter any issues during testing, see [Diagnosing errors](/developer/errors-explained/diagnosing-errors/).
+If you encounter any issues during testing, see [Understanding and resolving errors](/developer/errors-explained/understanding-and-resolving-errors/).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 
@@ -17,7 +17,7 @@ For support, email the Integration Team at <integration@multisafepay.com>
 
 There are two ways to initiate a transaction:
 
-- Create a test payment through your [ecommerce integration](/integrations/).
+- Create a test payment through your [ecommerce platform](/ecommerce-platforms/).
 - Send a request using our [API](/api/).
 
 ### Ecommerce integration
