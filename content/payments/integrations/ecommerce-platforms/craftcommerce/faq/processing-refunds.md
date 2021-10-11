@@ -10,7 +10,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/craftcommerce/faq/processing-refunds/
 ---
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds
 - From the Craft CMS admin panel (see below):  

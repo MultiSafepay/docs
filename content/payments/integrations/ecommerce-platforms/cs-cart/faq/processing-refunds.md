@@ -7,7 +7,7 @@ aliases:
     - /integrations/cs-cart/faq/refunding-cs-cart/
 ---
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
 - From your CS-Cart [backend](/getting-started/glossary/#backend):  

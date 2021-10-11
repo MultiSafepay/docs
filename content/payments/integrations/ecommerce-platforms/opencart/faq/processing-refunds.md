@@ -7,7 +7,7 @@ aliases:
     - /integrations/opencart/faq/refunding-opencart/
 ---
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
 - From your OpenCart [backend](/getting-started/glossary/#backend):  

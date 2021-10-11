@@ -7,7 +7,7 @@ aliases:
     - /integrations/ecommerce-integrations/shopware6/faq/how-to-refund-within-shopware6
 ---
 
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds 
 - From your Shopware 6 [backend](/getting-started/glossary/#backend):  

@@ -6,7 +6,7 @@ read_more: "."
 aliases: 
     - /integrations/drupal8/faq/refunding-drupal/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
 - From your Drupal 8 or 9 [backend](/getting-started/glossary/#backend):  

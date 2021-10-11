@@ -8,7 +8,7 @@ aliases:
     - /integrations/shopify/faq/refunding-shopify/
     - /payments/integrations/ecommerce-platforms/shopify/faq/processing-refunds/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](https://merchant.multisafepay.com): Refunds supported
 - From your Shopify [backend](/getting-started/glossary/#backend):  

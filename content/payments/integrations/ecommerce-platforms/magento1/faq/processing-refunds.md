@@ -6,7 +6,7 @@ read_more: "."
 aliases: 
     - /integrations/magento1/faq/request-refund/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
 -  From your Magento 1 [backend](/getting-started/glossary/#backend) (see below):  
