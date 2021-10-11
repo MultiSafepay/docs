@@ -5,9 +5,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: "faqdetail"
 summary: "We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking."
 read_more: "."
+url: '/magento-2/payment-links-in-emails/'
 aliases:
     - /magento2/faq/payment-links-in-order-confirmation-for-backend-orders
     - /integrations/magento2/faq/payment-links-in-order-confirmation-for-backend-orders/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/adding-payment-links-in-order-confirmation-emails/
 ---
 
 To add payment links to order confirmation emails and customize settings, follow these steps:

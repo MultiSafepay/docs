@@ -3,8 +3,10 @@ title : "Configuring generic gateways"
 meta_title: "Shopware 5 - Configuring generic gateways - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
+url: '/shopware-5/generic-gateways/'
 aliases:
     - /integrations/ecommerce-integrations/shopware5/faq/generic-gateways
+    - /payments/integrations/ecommerce-platforms/shopware5/faq/configuring-generic-gateways/
 ---
 
 The plugin supports [generic gateways](/faq/general/generic-gateways/), e.g. for branded gateways. They work much like other redirect payment methods. All features are supported, except for recurring payments.
@@ -16,3 +18,5 @@ The plugin supports [generic gateways](/faq/general/generic-gateways/), e.g. for
 5. Specify if the gateway requires a shopping cart or not.
 
 For any questions about integrating generic gateways, email the Integration Team at <integration@multisafepay.com>
+
+

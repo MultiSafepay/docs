@@ -4,6 +4,9 @@ meta_title: "Magento 2 plugin FAQ - Setting order lifetimes for Second Chance - 
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/second-chance-order-lifetimes/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/magento2/faq/setting-order-lifetimes-second-chance/
 ---
 
 [Second Chance](/payments/boost/second-chance/) emails are sent 1 hour and 24 hours after the order was created. By default, the status of Magento 2 orders changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).

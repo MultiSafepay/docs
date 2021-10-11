@@ -5,8 +5,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: "faqdetail"
 read_more: "."
 weight: 2
+url: '/magento-2/updates/'
 aliases: 
     - /integrations/magento2/faq/how-can-i-update-the-plugin-for-magento2/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/updating-the-plugin/
 ---
 
 You can update the plugin via [Composer](https://getcomposer.org).

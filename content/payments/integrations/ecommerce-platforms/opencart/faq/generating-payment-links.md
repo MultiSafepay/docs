@@ -4,6 +4,9 @@ meta_title: "OpenCart plugin - Generating payment links - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/opencart/payment-links/'
+aliases: 
+    - /payments/integrations/ecommerce-platforms/opencart/faq/generating-payment-links/
 ---
 
 To generate a payment link for orders created in your OpenCart [backend](/getting-started/glossary/#backend), follow these steps:

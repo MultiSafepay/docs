@@ -11,6 +11,7 @@ weight: 20
 title_short: "Zen Cart"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
+url: '/ecommerce-platforms/zen-cart/'
 aliases: 
     - /plugins/zencart
     - /integrations/plugins/zencart
@@ -19,6 +20,7 @@ aliases:
     - /integrations/plugins/zencart/manual
     - /integrations/zencart/manual
     - /integrations/ecommerce-integrations/zencart
+    - /payments/integrations/ecommerce-platforms/zencart/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Zen Cart webshop.
@@ -44,6 +46,68 @@ Contact us:
 - MultiSafepay account – See [Getting started](/getting-started/).
 - ZenCart 1.5.5
 - Tested on PHP 7.0
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Request to Pay](/payments/methods/banks/request-to-pay)
++ [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
++ [V PAY](/payments/methods/credit-and-debit-cards/vpay)
+
+**Pay later methods**
+
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+
+**Wallets**
+
++ [Alipay](/payments/methods/wallet/alipay)
++ [Apple Pay](/payments/methods/wallet/applepay)
++ [PayPal](/payments/methods/wallet/paypal)
+
+**Prepaid cards**
+
++ Beauty and Wellness gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
++ Fietsenbon
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Podium](https://www.podiumcadeaukaart.nl)
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Wellness gift card](https://www.wellnessgiftcard.nl)
++ Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl)
++ [Yourgift](https://www.yourgift.nl/)
 
 {{< /details >}}
 

@@ -4,8 +4,10 @@ weight:
 meta_title: "PrestaShop 1.6 plugin - Applying surcharges - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/prestashop/surcharges/'
 aliases: 
     - /integrations/prestashop-1-6/faq/payment-fee-surcharges/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/applying-surcharges/
 ---
 
 Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is not automatically enabled in our PrestaShop 1.6 plugin.

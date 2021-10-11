@@ -4,8 +4,10 @@ weight:
 meta_title: "PrestaShop 1.6 plugin - Skipping the extra confirmation page - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/prestashop/skipping-confirmation-page/'
 aliases: 
     - /integrations/prestashop-1-6/faq/extra-confirmation-page/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/skipping-extra-confirmation-page/
 ---
 
 PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.

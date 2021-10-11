@@ -4,9 +4,11 @@ meta_title: "Magento 2 plugin - Activating Payment Components - MultiSafepay Doc
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/payment-components/'
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/does-the-magento-2-plugin-support-magento-vault/
     - /payments/integrations/ecommerce-platforms/magento2/faq/activating-credit-card-component/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/activating-payment-component/
 ---
 
 The MultiSafepay Magento 2 plugin supports [Payment Components](/payments/checkout/payment-components/), which:

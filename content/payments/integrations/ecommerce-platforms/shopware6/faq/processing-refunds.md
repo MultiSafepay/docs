@@ -3,8 +3,10 @@ title : "Processing refunds"
 meta_title: "Shopware 6 plugin - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/shopware-6/refunds/'
 aliases:
     - /integrations/ecommerce-integrations/shopware6/faq/how-to-refund-within-shopware6
+    - /payments/integrations/ecommerce-platforms/shopware6/faq/processing-refunds/
 ---
 
 **Refund rules**  

@@ -3,8 +3,10 @@ title : "Updating the plugin"
 meta_title: "OsCommerce plugin - Updating the plugin - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/oscommerce/updates/'
 aliases: 
     - /integrations/oscommerce/faq/how-can-i-update-the-plugin-for-oscommerce/
+    - /payments/integrations/ecommerce-platforms/oscommerce/faq/updating-the-plugin/
 ---
 
 There are 3 ways to update the plugin:

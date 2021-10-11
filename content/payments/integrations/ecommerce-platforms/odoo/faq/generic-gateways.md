@@ -1,7 +1,10 @@
 ---
-title : "Generic gateways"
-meta_title: "Generic gateways - MultiSafepay Docs"
+title : "Configuring generic gateways"
+meta_title: "Configuring generic gateways - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+url: '/odoo/generic-gateways/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/odoo/faq/generic-gateways/
 ---
 The Odoo plugin offers a [generic gateway](/developer/general/generic-gateways/). The generic gateway can be found under **Invoicing** > **Payment method** > **Other payment acquirer** > **MultiSafepay**.
 
