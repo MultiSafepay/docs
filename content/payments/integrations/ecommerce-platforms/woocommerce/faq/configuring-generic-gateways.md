@@ -2,8 +2,10 @@
 title : "Configuring generic gateways"
 meta_title: "WooCommerce plugin - Configuring generic gateways - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+url: '/woo-commerce/generic-gateways/'
 aliases:
     - /integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/
+    - /payments/integrations/ecommerce-platforms/woocommerce/faq/configuring-generic-gateways/
 ---
 The WooCommerce plugin supports a [generic gateway](/faq/general/generic-gateways/) for all payment methods. 
 
