@@ -11,6 +11,7 @@ meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay p
 weight: 11
 logo: "/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
+url: '/ecommerce-platforms/odoo/'
 aliases: 
     - /plugins/odoo
     - /integrations/plugins/odoo
@@ -20,6 +21,7 @@ aliases:
     - /integrations/plugins/odoo/manual
     - /integrations/odoo/manual
     - /integrations/ecommerce-integrations/odoo
+    - /payments/integrations/ecommerce-platforms/odoo/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Odoo webshop. Our plugin receives regular updates from Odoo and MultiSafepay.
@@ -45,6 +47,47 @@ Contact us:
 - MultiSafepay account – See [Getting started](/getting-started/).
 - Odoo 13.0
 - Tested on Python 3.6
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
+
+**Pay later methods**
+
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/)
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+
+**Wallets**
+
++ [Alipay](/payments/methods/wallet/alipay)
++ [Apple Pay](/payments/methods/wallet/applepay)
++ [PayPal](/payments/methods/wallet/paypal)
 
 {{< /details >}}
 

@@ -1,10 +1,12 @@
 ---
-title : "Generic gateways"
-meta_title: "Generic gateways - MultiSafepay Docs"
+title : "Configuring generic gateways"
+meta_title: "Configuring generic gateways - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
+url: '/magento-1/generic-gateways/'
 aliases:
     - /integrations/ecommerce-integrations/magento1/faq/generic-gateways/
+    - /payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/
 ---
 
 The MultiSafepay plugin for Magento 1 supports 3 [generic gateways](/faq/general/generic-gateways/) and 3 generic gift cards.

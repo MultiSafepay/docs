@@ -3,8 +3,10 @@ title : "Enabling recurring payments"
 meta_title: "Magento 1 plugin - Enabling recurring payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/magento-1/recurring-payments/'
 aliases: 
     - /integrations/magento1/faq/tokenization-magento1/
+    - /payments/integrations/ecommerce-platforms/magento1/faq/enabling-tokenization/
 ---
 
 To enable recurring payments:

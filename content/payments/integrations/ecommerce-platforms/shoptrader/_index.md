@@ -1,12 +1,12 @@
 ---
 title : "MultiSafepay app for Shoptrader"
 meta_title: "Shoptrader plugin - MultiSafepay Docs"
-faq: "."
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: "/logo/Integrations/Shoptrader.svg"
 weight: 26
 title_short: "Shoptrader"
 layout: 'single'
+url: '/ecommerce-platforms/shoptrader/'
 aliases: 
     - /integrations/shoptrader/
     - /hosted/shoptrader
@@ -16,11 +16,21 @@ aliases:
     - /integrations/hosted/shoptrader/manual
     - /integrations/shoptrader/manual
     - /integrations/ecommerce-integrations/shoptrader
+    - /payments/integrations/ecommerce-platforms/shoptrader/
+    - /payments/integrations/ecommerce-platforms/shoptrader/faq/processing-refunds/
 ---
 This free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop is developed and maintained by Shoptrader. 
 
-## Support
-For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>
+For information about supported payment methods, email the Integration Team at <integration@multisafepay.com>
 
 ## Requirements
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
+
+## Refunds
+
+You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com).
+
+To process refunds from your Shoptrader [backend](/getting-started/glossary/#backend), email the Integration Team at <integration@multisafepay.com>
+
+## Support
+For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>

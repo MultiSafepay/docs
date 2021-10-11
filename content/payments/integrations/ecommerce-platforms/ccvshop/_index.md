@@ -44,6 +44,30 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+  
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
+
+**Pay later methods**
+
+- [AfterPay](/payments/methods/billing-suite/afterpay/)
+- [Klarna](/payments/methods/billing-suite/klarna/)
+
+{{< /details >}}
+
 To install and configure the app, follow these steps:
 
 1. Sign in to your CCV Shop [backend](/getting-started/glossary/#backend) and install the MultiSafepay app from the App Store.

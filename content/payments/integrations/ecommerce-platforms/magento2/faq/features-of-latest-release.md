@@ -4,9 +4,11 @@ meta_title: "Magento 2 plugin - Features of latest release  - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/latest-release-features/'
 aliases: 
     - /integrations/ecommerce-integrations/magento2/faq/migrating-to-new-plugin
     - /payments/integrations/ecommerce-platforms/magento2/faq/changes-to-new-plugin/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/features-of-latest-release/
 ---
 
 **Changes to refunds**  

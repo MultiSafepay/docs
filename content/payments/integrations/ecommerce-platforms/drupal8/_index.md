@@ -11,11 +11,13 @@ logo: "/logo/Plugins/Drupal_8.svg"
 weight: 16
 title_short: "Drupal 8 & 9"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 8 webshop"
+url: '/ecommerce-plaforms/drupal-8-9/'
 aliases: 
     - /plugins/drupal8
     - /integrations/plugins/drupal8
     - /integrations/drupal8
     - /integrations/ecommerce-integrations/drupal8
+    - /payments/integrations/ecommerce-platforms/drupal8/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Drupal 8 webshop via Composer.
@@ -28,7 +30,7 @@ We recommend first installing the plugin in a test environment following the rec
 
 {{< /details >}}
 
-{{< details title="Support phase out" >}}
+{{< details title="Versions" >}}
 &nbsp;  
 Drupal no longer provides security updates for Drupal 8.9.x, and will only provide bugfix support until early 2021 and security fixes until November 2021. 
 
@@ -52,6 +54,70 @@ Contact us:
 - Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [iDEAL QR](/payments/methods/banks/idealqr)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
+- [TrustPay](/payments/methods/banks/trustpay)
+- [V PAY](/payments/methods/credit-and-debit-cards/vpay)
+
+**Pay later methods**
+
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+
+**Wallets**
+
++ [Alipay](/payments/methods/wallet/alipay)
++ [Apple Pay](/payments/methods/wallet/applepay)
++ [PayPal](/payments/methods/wallet/paypal)
+
+**Prepaid cards**
+
++ Beauty and Wellness gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
++ Fietsenbon
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Podium](https://www.podiumcadeaukaart.nl)
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Wellness gift card](https://www.wellnessgiftcard.nl)
++ Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl)
++ [Yourgift](https://www.yourgift.nl)
 
 {{< /details >}}
 

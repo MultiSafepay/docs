@@ -4,8 +4,10 @@ weight:
 meta_title: "PrestaShop 1.7 plugin - Enabling my carrier - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/prestashop/my-carrier/'
 aliases: 
     - /integrations/prestashop-1-7/faq/my-carrier-preferences/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/enabling-my-carrier/
 ---
 
 If you don't use any external shipping method, you must enable My carrier. If disabled, no MultiSafepy payment methods appear in your webshop frontend.

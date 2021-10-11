@@ -3,8 +3,10 @@ title : "Updating the plugin"
 meta_title: "Drupal 8 plugin - Updating the plugin - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/drupal-8-9/updates/'
 aliases: 
     - /integrations/drupal8/faq/how-can-i-update-the-plugin-for-drupal8/
+    - /payments/integrations/ecommerce-platforms/drupal8/faq/updating-the-plugin/
 ---
 
 There are 3 ways to update the plugin:

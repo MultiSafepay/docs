@@ -4,8 +4,10 @@ meta_title: "Magento 2 plugin FAQ - Supported checkouts - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/checkouts/'
 aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/hyva-themes-checkout/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/supported-magento2-checkouts/
 ---
 
 MultiSafepay supports multiple checkouts:

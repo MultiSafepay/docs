@@ -4,8 +4,10 @@ meta_title: "Magento 2 plugin - Deleting the deprecated plugin - MultiSafepay Do
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/deleting-deprecated-plugin/'
 aliases:
     - /ecommerce-integrations/magento2/faq/how-to-delete-deprecated-plugin/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/deleting-deprecated-plugin/
 ---
 
 The way you delete the deprecated plugin depends on the way you installed it:

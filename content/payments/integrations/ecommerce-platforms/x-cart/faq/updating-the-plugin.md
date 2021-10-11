@@ -3,8 +3,10 @@ title : "Updating the plugin"
 meta_title: "X-Cart plugin - Updating the plugin - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/x-cart/updates/'
 aliases: 
     - /integrations/x-cart/faq/how-can-i-update-the-plugin-for-x-cart/
+    - /payments/integrations/ecommerce-platforms/x-cart/faq/updating-the-plugin/
 ---
 
 There are 3 ways to update the plugin:

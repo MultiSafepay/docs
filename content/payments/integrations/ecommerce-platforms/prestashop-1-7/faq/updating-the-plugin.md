@@ -3,6 +3,9 @@ title : "Updating the plugin"
 meta_title: "PrestaShop 1.7 plugin - Updating the plugin - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/prestashop/updates/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/updating-the-plugin/
 ---
 
 There are 3 ways to update the plugin:
