@@ -27,7 +27,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 3. | The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
 | 4. | The customer pays the first installment. {{< br >}} Settlement is now guaranteed. | Completed  | Uncleared  |
 | 5. | Ship the order. | | |
-| 6. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/in3/user-guide/changing-order-status--to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared | 
+| 6. | **Important:** You **must** manually [change the order status to Shipped](/payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/) in your MultiSafepay account.  | Shipped | Uncleared | 
 | 7. | MultiSafepay settles the funds in your MultiSafepay balance (within 15 days of the first installment). | Completed | Completed |
 | 8. | The customer has 30 days to pay the second installment, and 60 days to pay the third. |  | |
 
