@@ -10,7 +10,7 @@ weight: 17
 title_short: "OsCommerce"
 description_short: "For support, contact OsCommerce."
 layout: 'single'
-url: '/ecommerce-platforms/oscommerce/'
+url: '/oscommerce/'
 aliases: 
     - /plugins/oscommerce
     - /integrations/plugins/oscommerce

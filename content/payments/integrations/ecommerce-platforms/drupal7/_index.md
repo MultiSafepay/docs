@@ -11,7 +11,7 @@ weight: 15
 title_short: "Drupal 7"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop"
 layout: 'single'
-url: '/ecommerce-platforms/drupal-7/'
+url: '/drupal-7/'
 aliases: 
     - /plugins/drupal7
     - /integrations/plugins/drupal7

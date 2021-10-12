@@ -12,7 +12,7 @@ description_short: "Free plugin to integrate MultiSafepay payment solutions into
 changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md
 layout: 'single'
 faq: "."
-url: '/ecommerce-platforms/craft-commerce/'
+url: '/craft-commerce/'
 aliases: 
     - /plugins/craftcommerce
     - /integrations/plugins/craftcommerce

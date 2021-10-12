@@ -6,7 +6,7 @@ logo: "/logo/Integrations/Shoptrader.svg"
 weight: 26
 title_short: "Shoptrader"
 layout: 'single'
-url: '/ecommerce-platforms/shoptrader/'
+url: '/shoptrader/'
 aliases: 
     - /integrations/shoptrader/
     - /hosted/shoptrader

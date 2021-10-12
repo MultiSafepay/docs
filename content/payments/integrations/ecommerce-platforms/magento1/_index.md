@@ -10,7 +10,7 @@ logo: "/logo/Plugins/Magento.svg"
 weight: 02
 title_short: "Magento 1"
 layout: 'single'
-url: '/ecommerce-platforms/magento-1/'
+url: '/magento-1/'
 aliases: 
     - /plugins/magento1
     - /integrations/plugins/magento1

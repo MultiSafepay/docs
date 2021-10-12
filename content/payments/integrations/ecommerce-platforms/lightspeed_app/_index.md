@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed app"
-url: '/ecommerce-platforms/lightspeed/'
+url: '/lightspeed/'
 description_short: "Free app to integrate MultiSafepay payment solutions into your Lightspeed webshop"
 aliases: 
     - /integrations/hosted/lightspeed/

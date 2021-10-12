@@ -8,7 +8,7 @@ weight: 19
 title_short: "Sana Commerce"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Sana Commerce platform"
 layout: 'single'
-url: '/ecommerce-platforms/sana-commerce/'
+url: '/sana-commerce/'
 aliases: 
     - /integrations/sanacommerce/
     - /hosted/sanacommerce

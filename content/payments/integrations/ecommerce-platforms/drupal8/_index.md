@@ -11,7 +11,7 @@ logo: "/logo/Plugins/Drupal_8.svg"
 weight: 16
 title_short: "Drupal 8 & 9"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 8 webshop"
-url: '/ecommerce-plaforms/drupal-8-9/'
+url: '/drupal-8-9/'
 aliases: 
     - /plugins/drupal8
     - /integrations/plugins/drupal8

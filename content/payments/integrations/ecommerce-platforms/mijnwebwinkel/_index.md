@@ -7,7 +7,7 @@ logo: "/logo/Integrations/Mijnwebwinkel.svg"
 weight: 25
 title_short: "Mijnwebwinkel"
 layout: 'single'
-url: '/ecommerce-platforms/mijnwebwinkel/'
+url: '/mijnwebwinkel/'
 aliases: 
     - /integrations/mijnwebwinkel/
     - /hosted/mijnwebwinkel

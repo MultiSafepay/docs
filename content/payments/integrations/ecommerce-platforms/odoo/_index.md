@@ -11,7 +11,7 @@ meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay p
 weight: 11
 logo: "/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
-url: '/ecommerce-platforms/odoo/'
+url: '/odoo/'
 aliases: 
     - /plugins/odoo
     - /integrations/plugins/odoo

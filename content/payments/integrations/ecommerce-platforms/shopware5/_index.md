@@ -10,7 +10,7 @@ weight: 07
 title_short: "Shopware 5"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md"
-url: '/ecommerce-platforms/shopware-5/'
+url: '/shopware-5/'
 aliases: 
     - /plugins/shopware5
     - /integrations/plugins/shopware5

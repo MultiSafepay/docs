@@ -11,7 +11,7 @@ weight: 13
 title_short: "CS-Cart"
 layout: 'single'
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop"
-url: '/ecommerce-platforms/cs-cart/'
+url: '/cs-cart/'
 aliases: 
     - /plugins/cs-cart
     - /integrations/plugins/cs-cart

@@ -12,7 +12,7 @@ title_short: "PrestaShop 1.7"
 layout: 'single'
 layout: 'single'
 changelog: 'https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md'
-url: '/ecommerce-platforms/prestashop/'
+url: '/prestashop/'
 aliases: 
     - /plugins/prestashop-1-7
     - /integrations/plugins/prestashop-1-7

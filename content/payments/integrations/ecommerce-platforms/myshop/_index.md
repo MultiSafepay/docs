@@ -7,7 +7,7 @@ weight: 23
 title_short: "myShop"
 description_short: "Free app integrate MultiSafepay payment solutions into your myShop"
 layout: 'single'
-url: '/ecommerce-platforms/myshop/'
+url: '/myshop/'
 aliases: 
     - /hosted/myshop
     - /integrations/hosted/myshop

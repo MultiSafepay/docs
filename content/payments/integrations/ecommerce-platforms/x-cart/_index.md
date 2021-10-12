@@ -11,7 +11,7 @@ weight: 14
 title_short: "X-Cart"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
-url: '/ecommerce-platforms/x-cart/'
+url: '/x-cart/'
 aliases:
     - /integrations/x-cart/
     - /plugins/x-cart
