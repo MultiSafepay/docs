@@ -6,9 +6,11 @@ meta_title: "Apple Pay - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Apple Pay in your ecommerce platform"
 layout: 'child'
+url: '/payment-methods/apple-pay/integration-testing/'
 aliases:
     - /payment-methods/wallet/applepay/apple-pay-compatibility-and-testing
     - /payment-methods/wallet/applepay/apple-pay-guidelines
+    - /payments/methods/wallet/applepay/integration-and-testing/
 ---
 ## Integration
 

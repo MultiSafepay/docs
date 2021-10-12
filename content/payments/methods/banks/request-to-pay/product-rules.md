@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
-url: '/payments/methods/request-to-pay/product-rules/'
+url: '/payment-methods/request-to-pay/product-rules/'
 aliases: 
     - /payment-methods/bancontact/what-is-request-to-pay/
     - /payments/methods/banks/request-to-pay/about/
+    - /payments/methods/request-to-pay/product-rules/
 ---
 
 |   |   |   |

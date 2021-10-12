@@ -9,8 +9,10 @@ intro_description: "PayPal is a leading global payment method that lets customer
 layout: 'single'
 logo: '/logo/Payment_methods/PayPal.svg' 
 short_description: 'Leading global payment method that supports credit cards and a digital wallet.'
+url: '/payment-methods/paypal/'
 aliases:
     - /support-tab/magento2/payment-methods/paypal
     - /payment-methods/paypal/
     - /payment-methods/wallet/paypal
+    - /payments/methods/wallet/paypal/
 ---

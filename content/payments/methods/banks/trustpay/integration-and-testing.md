@@ -7,6 +7,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing TrustPay in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/TrustPay.svg'
+url: '/payment-methods/trustpay/integration-testing/'
+aliases:
+    - /payments/methods/banks/trustpay/integration-and-testing/
 ---
 
 To process TrustPay payments via our API, see API reference – [TrustPay](/api/#trustpay).

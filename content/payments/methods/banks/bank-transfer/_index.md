@@ -10,7 +10,9 @@ intro_description: "Bank Transfer, also known as SEPA Credit Transfer, is a secu
 layout: 'single'
 logo: '/logo/Payment_methods/banktransfer-en.svg' 
 short_description: 'A secure, trusted, international payment method within the SEPA region.'
+url: '/payment-methods/bank-transfer/'
 aliases: 
     - /support-tab/magento2/payment-methods/bank-transfer
     - /payment-methods/banks/bank-transfer
+    - /payments/methods/banks/bank-transfer/
 ---

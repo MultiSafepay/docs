@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing iDEAL in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/iDEAL.svg'
+url: '/payment-methods/ideal/integration-testing/'
 aliases:
     - /payment-methods/ideal/ideal-testing
+    - /payments/methods/banks/ideal/integration-and-testing/
 ---
 
 To process iDEAL payments via our API, see API reference - [iDEAL](/api/#ideal).

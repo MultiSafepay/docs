@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/ING_Homepay.svg'
-url: '/payments/methods/ing-home-pay/product-rules/'
+url: '/payment-methods/ing-home-pay/product-rules/'
 aliases: 
     - /payment-methods/ing-home-pay/what-is-ing-home-pay/
     - /payments/methods/banks/ing-home-pay/about/
+    - /payments/methods/ing-home-pay/product-rules/
 ---
 
 |   |   |   |

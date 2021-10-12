@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Applying to activate Dotpay in your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/Dotpay.svg'
+url: '/payment-methods/dotpay/activation/'
 aliases: 
     - /payment-methods/dotpay/activate-dotpay/
+    - /payments/methods/banks/dotpay/activation/
 ---
 
 Before applying for Dotpay, check your eligibility with your account manager at <sales@multisafepay.com>

@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating iDEAL in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal.svg'
+url: '/payment-methods/ideal/activation/'
 aliases: 
     - /payment-methods/ideal/activate-ideal/
+    - /payments/methods/banks/ideal/activation/
 ---
 
 To activate iDEAL, follow these steps:

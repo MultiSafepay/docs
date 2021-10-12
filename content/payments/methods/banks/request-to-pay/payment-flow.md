@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
+url: '/payment-methods/request-to-pay/payment-flow/'
 aliases: 
     - /payment-methods/bancontact/how-does-request-to-pay-work/
+    - /payments/methods/banks/request-to-pay/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

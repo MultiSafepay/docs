@@ -6,8 +6,10 @@ meta_title: "Activating TrustPay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Applying to activate TrustPay in your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/trustpay/activation/'
 aliases: 
     - /payment-methods/trustpay/activate-trustpay/
+    - /payments/methods/banks/trustpay/activation/
 ---
 
 **1.** Check whether TrustPay is supported by your ecommerce platform.

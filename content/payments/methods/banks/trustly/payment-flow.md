@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/trustly.svg'
+url: '/payment-methods/trustly/payment-flow/'
 aliases: 
     - /payment-methods/trustly/how-does-trustly-work/
+    - /payments/methods/banks/trustly/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

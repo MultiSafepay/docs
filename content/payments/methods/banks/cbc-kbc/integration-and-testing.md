@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/cbc.svg'
-url: '/payments/methods/banks/cbc-kbc/integrating-testing'
+url: '/payment-methods/cbc-kbc/integration-testing/'
 aliases:
     - /payment-methods/cbc/cbc-testing
     - /payments/methods/banks/kbc/integration-and-testing/
+    - /payments/methods/banks/cbc-kbc/integrating-testing
 ---
 
 To process CBC/KBC payments via our API, see API reference – [CBC/KBC](/api/#cbc).

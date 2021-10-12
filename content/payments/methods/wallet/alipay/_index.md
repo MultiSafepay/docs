@@ -9,10 +9,12 @@ intro_description: "Alipay is a leading global payment method that lets Chinese 
 layout: 'single'
 logo: '/logo/Payment_methods/Alipay.svg' 
 short_description: 'Leading global digital wallet for Chinese customers.'
+url: '/payment-methods/alipay/'
 aliases:
     - /support-tab/magento2/payment-methods/alipay
     - /payment-methods/alipay/
     - /payment-methods/wallet/alipay
+    - /payments/methods/wallet/alipay/
 ---
 
 

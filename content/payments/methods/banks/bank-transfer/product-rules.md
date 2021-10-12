@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
-url: '/payments/methods/bank-transfer/product-rules/'
+url: '/payment-methods/bank-transfer/product-rules/'
 aliases: 
     - /payment-methods/bank-transfer/what-is-bank-transfer/
     - /payments/methods/banks/bank-transfer/about/
+    - /payments/methods/bank-transfer/product-rules/
 ---
 
 |   |   |   |

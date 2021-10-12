@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating Bank Transfer in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
+url: '/payment-methods/bank-transfer/activation/'
 aliases: 
     - /payment-methods/bank-transfer/activate-bank-transfer/
+    - /payments/methods/banks/bank-transfer/activation/
 ---
 
 To activate Bank Transfer in to your [MultiSafepay account](https://merchant.multisafepay.com) for:

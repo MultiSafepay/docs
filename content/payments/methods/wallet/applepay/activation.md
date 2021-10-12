@@ -6,8 +6,10 @@ meta_title: "Activating Apple Pay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating Apple Pay to use in your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/apple-pay/activation/'
 aliases: 
     - /payment-methods/wallet/applepay/activate-apple-pay
+    - /payments/methods/wallet/applepay/activation/
 ---
 
 If you already have credit cards enabled as a payment method in your MultiSafepay account, to activate Apple Pay email the Integration Team at <integration@multisafepay.com>

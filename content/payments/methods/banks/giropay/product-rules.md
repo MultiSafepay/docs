@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/Giropay.svg'
-url: '/payments/methods/giropay/product-rules/'
+url: '/payment-methods/giropay/product-rules/'
 aliases: 
     - /payment-methods/giropay/what-is-giropay/
     - /payments/methods/banks/giropay/about/
+    - /payments/methods/giropay/product-rules/
 ---
 
 |   |   |   |

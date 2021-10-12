@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating the method in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/cbc.svg'
-url: '/payments/methods/banks/cbc-kbc/activation/'
+url: '/payment-methods/cbc-kbc/activation/'
 aliases: 
     - /payment-methods/cbc/activate-cbc/
     - /payments/methods/banks/kbc/activation/
