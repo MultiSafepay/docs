@@ -7,7 +7,7 @@ weight: 27
 title_short: "LogiVert"
 description_short: "App to integrate MultiSafepay payment solutions into your LogiVert app"
 layout: 'single'
-url: '/ecommerce-platforms/logivert/'
+url: '/logivert/'
 aliases: 
     - /hosted/logivert
     - /integrations/hosted/logivert

@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"
-url: '/ecommerce-platforms/shopify/'
+url: '/shopify/'
 layout: 'single'
 aliases: 
     - /hosted/shopify

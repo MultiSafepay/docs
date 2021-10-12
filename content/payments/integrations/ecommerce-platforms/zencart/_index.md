@@ -11,7 +11,7 @@ weight: 20
 title_short: "Zen Cart"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
-url: '/ecommerce-platforms/zen-cart/'
+url: '/zen-cart/'
 aliases: 
     - /plugins/zencart
     - /integrations/plugins/zencart

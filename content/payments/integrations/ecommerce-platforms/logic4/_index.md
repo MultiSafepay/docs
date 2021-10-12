@@ -7,7 +7,7 @@ weight: 28
 title_short: "Logic4"
 description_short: "Plugin to integrate MultiSafepay payment solutions into your Logic4 webshop."
 layout: 'single'
-url: '/ecommerce-platforms/logic4/'
+url: '/logic4/'
 aliases: 
     - /integrations/logic4/
     - /hosted/logic4

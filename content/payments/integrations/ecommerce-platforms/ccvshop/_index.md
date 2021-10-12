@@ -9,7 +9,7 @@ weight: 29
 title_short: "CCVShop"
 description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop "
 layout: 'single'
-url: '/ecommerce-platforms/ccv-shop/'
+url: '/ccv-shop/'
 aliases: 
     - /plugins/ccvshop
     - /integrations/plugins/ccvshop

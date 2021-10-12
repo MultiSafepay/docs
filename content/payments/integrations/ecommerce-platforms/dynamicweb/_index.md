@@ -8,11 +8,13 @@ weight: 22
 title_short: "Dynamicweb"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb platform"
 layout: 'single'
+url: '/dynamicweb/'
 aliases: 
     - /hosted/dynamicweb
     - /integrations/hosted/dynamicweb
     - /integrations/dynamicweb
     - /integrations/ecommerce-integrations/dynamicweb
+    - /payments/integrations/ecommerce-platforms/dynamicweb/
 ---
 Free app to integrate MultiSafepay payment solutions into your Dynamicweb platform. 
 

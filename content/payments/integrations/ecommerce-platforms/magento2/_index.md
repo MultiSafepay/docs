@@ -11,7 +11,7 @@ changelog: https://github.com/MultiSafepay/magento2/blob/master/CHANGELOG.md
 weight: 01
 logo: "/logo/Plugins/Magento_2.svg"
 title_short: "Magento 2"
-url: '/ecommerce-platforms/magento-2/'
+url: '/magento-2/'
 aliases: 
     - /plugins/magento2
     - /integrations/plugins/magento2

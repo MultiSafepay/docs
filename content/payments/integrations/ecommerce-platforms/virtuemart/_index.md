@@ -11,7 +11,7 @@ weight: 18
 title_short: "VirtueMart"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md"
-url: '/ecommerce-platforms/virtuemart/'
+url: '/virtuemart/'
 aliases:
     - /integrations/virtuemart/
     - /plugins/virtuemart

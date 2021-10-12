@@ -10,7 +10,7 @@ weight: 06
 title_short: "Shopware 6"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md"
-url: '/ecommerce-platforms/shopware-6/'
+url: '/shopware-6/'
 aliases: 
     - /plugins/shopware6
     - /integrations/plugins/shopware6

@@ -9,7 +9,7 @@ title_short: "ZilverCMS"
 description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform"
 description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform."
 layout: 'single'
-url: '/ecommerce-platforms/zilvercms/'
+url: '/zilvercms/'
 aliases: 
     - /hosted/zilvercms
     - /integrations/hosted/zilvercms

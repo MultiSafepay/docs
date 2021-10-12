@@ -10,7 +10,7 @@ weight: 10
 title_short: "OpenCart"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md"
-url: '/ecommerce-platforms/opencart/'
+url: '/opencart/'
 aliases: 
     - /plugins/opencart
     - /integrations/plugins/opencart

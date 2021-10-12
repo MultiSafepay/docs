@@ -8,7 +8,7 @@ weight: 24
 title_short: "ShopFactory"
 description: ""
 layout: 'single'
-url: '/ecommerce-platforms/shopfactory/'
+url: '/shopfactory/'
 aliases: 
     - /integrations/shopfactory/
     - /hosted/shopfactory

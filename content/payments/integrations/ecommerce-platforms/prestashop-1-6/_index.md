@@ -10,7 +10,7 @@ logo: "/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.6"
 layout: 'single'
-url: '/ecommerce-platforms/prestashop-1-6/'
+url: '/prestashop-1-6/'
 aliases: 
     - /plugins/prestashop-1-6
     - /integrations/plugins/prestashop-1-6
