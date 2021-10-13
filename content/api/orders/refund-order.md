@@ -8,10 +8,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":8,
-  "description":"Your refund description"
+    "currency": "EUR",
+    "amount": "500",
+    "description": "",
+    "refund_order_id": "refund-order-id-1234",
+    "var1": "test-string1",
+    "var2": "test-string2",
+    "var3": "test-string3"
 }
 ```
 
@@ -35,12 +38,6 @@ Process a full or partial [refund](/payments/refunds/) for an order.
 **Parameters**
 
 ----------------
-`order_id` | string | required
-
-Your unique identifier for the order.  
-Format: Maximum 50 characters.
-
-----------------
 `currency` | string | required
 
 The currency to process the refund in.  
@@ -60,17 +57,28 @@ The order description that appears in your MultiSafepay account and on the custo
 Format: Maximum 200 characters.  
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
+----------------
+`refund_order_id` | string | optional
+
+Your unique identifier for the refund.  If this is not set, the `order_id` is used.  
+Format: Maximum 50 characters.
+
+----------------
+`var1` / `var2` / `var3` | string | optional
+
+Variables for storing additional data with the refund.
+
 **Response** 
 
 ----------------
 `transaction_id` | integer
 
-MultiSafepay's identifier for the transaction (also known as the PSP ID).
+MultiSafepay's identifier for the original transaction for payment (also known as the PSP ID for the original order).
 
 ----------------
 `refund_id` | integer
 
-The identifier of the refund.
+MultiSafepay's identifier for the transaction for refund (also known as the PSP ID for the refund).
 
 ----------------
 {{% /description %}}
