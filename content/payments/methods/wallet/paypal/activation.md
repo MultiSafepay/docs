@@ -6,10 +6,12 @@ meta_title: "Activating PayPal - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating PayPal to use in your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/paypal/activation/'
 aliases: 
     - /payment-methods/paypal/activate-paypal
     - /faq/errors-explained/paypal-error-10002
     - /faq/errors-explained/iframe-errors
+    - /payments/methods/wallet/paypal/activation/
 ---
 ## Configuring your PayPal account
 {{< details title="Changing the language of the PayPal interface" >}}

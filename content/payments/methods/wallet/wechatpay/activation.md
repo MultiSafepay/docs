@@ -6,6 +6,9 @@ meta_title: "Activating WeChat Pay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Activating WeChat Pay to use in your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/wechat-pay/activation/'
+aliases:
+    - /payments/methods/wallet/wechatpay/activation/
 ---
 
 **1.** Before applying for WeChat Pay, check your eligibility with your account manager at <sales@multisafepay.com>
