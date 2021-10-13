@@ -31,7 +31,7 @@ aliases:
 
 - MultiSafepay doesn’t automatically receive the IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. You can process refunds after 1 business day.
 
-- You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
+- You can refund more than the original transaction value. See [Refunds](/payments/refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 

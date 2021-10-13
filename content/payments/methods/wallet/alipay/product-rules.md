@@ -26,7 +26,7 @@ aliases:
 
 - [Full and partial refunds](/payments/refunds/) are supported.
 
-- You can refund more than original amount. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
+- You can refund more than original amount. See [Refunds](/payments/refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 
