@@ -10,7 +10,7 @@ aliases:
 ---
 
 **Changes to refunds and shipping**  
-After deleting the deprecated plugin and installing the new one, the payment gateways from the deprecated plugin are no longer available in Magento. We therefore recommend to keep the deprecated plugin installed, until you have processed all the orders that were created with the deprecated plugin.
+Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
 
 You can refund transactions processed through the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/getting-started/glossary/#backend).
 
