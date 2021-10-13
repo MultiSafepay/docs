@@ -1,10 +1,11 @@
 ---
-title : "Customizing payment components"
-meta_title: "Payment Components - Customizing payment components - MultiSafepay Docs"
+title : "Customizing Payment Components"
+meta_title: "Payment Components - Customizing Payment Components - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 weight: 3
+url: '/payment-components/customization/'
 ---
 
 After integrating the Payment Component, the default user interface (UI) styling is applied. 
@@ -13,14 +14,14 @@ You can customize the styling to match your brand's visual identity, including f
 
 ## Customizing the UI
 
-To edit the default styling of the payment component:
+To edit the default styling of the component:
 
 1. Select each CSS class you want to edit.
 2. Add the relevant [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) and set the values. 
 
 ### CSS class selectors
 
-{{< details title="View CSS class selectors" >}}
+{{< details title="CSS class selectors" >}}
 
 |CSS class|What it does|
 |---|---|
@@ -45,8 +46,8 @@ Add the following to your CSS to edit the Payment Component to add a:
 
 - 5-pixel `border-radius` to the form fields
 - Shadow to the fields on `focus`
-- 10-pixel `border-radius` to the Payment Component container
-- Light grey `background-color` to the Payment Component container
+- 10-pixel `border-radius` to the component container
+- Light grey `background-color` to the component container
 
 ```
 .msp-ui-form-control {
@@ -68,4 +69,4 @@ The Payment Component now looks like this:
 
 {{< screen src="/img/Screenshot-Payment-Component.png" align="center" class="medium-img desktop-radius" >}}
 
-{{< two-buttons href-1="/payments/checkout/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
+{{< two-buttons href-1="/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}

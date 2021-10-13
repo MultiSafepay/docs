@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Payment pages.svg'
 short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
 hideMenu : 'true'
+logo: '/svgs/API.svg'
 weight: 51
 url: '/payment-components/'
 aliases:
@@ -17,18 +18,38 @@ Payment Components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
-- Shifts responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/) to MultiSafepay
+- Reduces your [PCI DSS](/payment-regulations/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
+- Supports [recurring payments](/payments/features/tokenization/)
 
-## Integration
+## Payment methods
 
-Embed a selected payment method in your checkout. The customer completes payment within your checkout or is redirected to the relevant payment page.
+Embed a single or multiple payment methods in your checkout.
 
-{{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
+{{< details title="Available payment methods">}}
 
-## Customization
+- [Bancontact](/payments/methods/banks/bancontact/)
+- [Bank Transfer](/payments/methods/banks/bank-transfer/)
+- Credit cards:  
+    - [American Express](/payments/methods/credit-and-debit-cards/american-express/)
+    - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard/)
+    - [Visa](/payments/methods/credit-and-debit-cards/visa/)
+    - [Maestro](/payments/methods/credit-and-debit-cards/maestro/)
+- [iDEAL](/payments/methods/banks/ideal/)
+- [PayPal](/payments/methods/wallet/paypal/)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/)
+- [Sofort](/payments/methods/banks/sofort/)
 
-You can customize the look of the component to match your brand's visual identity, and set the display language.
+{{< /details >}}
 
-For instructions, see [Customizing payment components](/payments/checkout/payment-components/customizing-payment-components/).
+## Credit card features
 
-{{< two-buttons href-2="/payments/checkout/payment-components/integrating-single-payment-method" header-2="Integration manual" text-2="Single payment method" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+- Bundles all supported credit cards in one gateway
+- Displays the logos of available card brands in the card number field, and then detects the specific brand as the customer enters their card number and displays the relevant logo
+- Validates the card number
+- Displays error messages for credit card fields, e.g. card not supported, card expired
+- Supports tokenization for fast, secure repeat payments
+
+## Manuals 
+{{< two-buttons href-2="/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+
+{{< two-buttons href-2="/payment-components/customization" header-2="Manual" text-2="Customization" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
