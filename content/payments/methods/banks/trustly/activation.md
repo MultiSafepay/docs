@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Applying to activate Trustly in your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/trustly.svg'
+url: '/payment-methods/trustly/activation/'
 aliases: 
     - /payment-methods/trustly/activate-trustly/
+    - /payments/methods/banks/trustly/activation/
 ---
 
 **1.** Check whether Trustly is supported by your ecommerce platform.

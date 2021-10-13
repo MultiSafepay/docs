@@ -7,12 +7,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/CBC.svg'
-url: '/payments/methods/cbc-kbc/product-rules/'
+url: '/payment-methods/cbc-kbc/product-rules/'
 aliases: 
     - /payment-methods/cbc/what-is-cbc/
     - /payments/methods/banks/cbc/about/
     - /payments/methods/cbc/product-rules/
     - /payments/methods/kbc/product-rules/
+    - /payments/methods/cbc-kbc/product-rules/
 ---
 
 |   |   |   |

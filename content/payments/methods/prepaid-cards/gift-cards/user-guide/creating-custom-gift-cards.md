@@ -4,9 +4,11 @@ meta_title: "Gift cards - Creating custom gift cards - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 30
+url: '/payment-methods/gift-cards/custom-cards/'
 aliases: 
     - /payment-methods/gift-cards/branded-personalized-gift-card/
     - payment-methods/prepaid-cards/gift-cards/custom-gift-cards
+    - /payments/methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/
 ---
 
 MultiSafepay can develop a custom gift card for you. 

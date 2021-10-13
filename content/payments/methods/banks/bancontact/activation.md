@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating Bancontact in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
+url: '/payment-methods/bancontact/activation/'
 aliases: 
     - /payment-methods/bancontact/activate-bancontact/
+    - /payments/methods/banks/bancontact/activation/
 ---
 
 **1.** Check whether Bancontact is supported by your ecommerce platform.

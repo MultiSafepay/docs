@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing ING Home Pay in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/ING_Homepay.svg'
+url: '/payment-methods/ing-home-pay/integration-testing/'
 aliases:
     - /payment-methods/ing-home-pay/ing-home-pay-testing
+    - /payments/methods/banks/ing-home-pay/integration-and-testing/
 ---
 
 To integrate ING Home'Pay using our API, see API reference - [ING Home'Pay](/api/#ing-home-pay).

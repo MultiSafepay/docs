@@ -7,10 +7,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating SEPA Direct Debit in your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/direcdebit-en.svg'
+url: '/payment-methods/sepa-direct-debit/activation/'
 aliases: 
     - /payment-methods/direct-debit/activate-direct-debit/
     - /payment-methods/banks/direct-debit/activate-direct-debit/
     - /payment-methods/sepa-direct-debit/activate-sepa-direct-debit/
+    - /payments/methods/banks/sepa-direct-debit/activation/
 ---
 
 Email applications to use SEPA Direct Debit to your account manager at <sales@multisafepay.com>

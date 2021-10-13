@@ -7,11 +7,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/cbc.svg'
-url: '/payments/methods/banks/cbc-kbc/payment-flow/'
+url: '/payment-methods/cbc-kbc/payment-flow/'
 aliases: 
     - /payment-methods/cbc/how-does-cbc-work/
     - /payments/methods/banks/cbc/payment-flow/
     - /payments/methods/banks/kbc/payment-flow/
+    - /payments/methods/banks/cbc-kbc/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

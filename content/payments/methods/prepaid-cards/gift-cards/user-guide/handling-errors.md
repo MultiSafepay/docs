@@ -4,6 +4,9 @@ meta_title: "Gift cards - Handling errors - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 40
+url: '/payment-methods/gift-cards/handling-errors/'
+aliases:
+    - /payments/methods/prepaid-cards/gift-cards/user-guide/handling-errors/
 ---
 
 VVV gift cards can sometimes throw an error where the credit balance appears to be 0, but is then restored within 24 hours (potentially affected by weekends and holidays). This appears to be due to temporary failures in the card issuer's system. 

@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing Bank Transfer in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
+url: '/payment-methods/bank-transfer/integration-testing/'
 aliases:
     - /payment-methods/bancontact/bank-transfer-testing
+    - /payments/methods/banks/bank-transfer/integration-and-testing/
 ---
 
 To process Bank Transfer payments via our API, see API reference - [Bank Transfer](/api/#bank-transfer).

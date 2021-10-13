@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating Belfius in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/belfius.svg'
+url: '/payment-methods/belfius/activation/'
 aliases: 
     - /payment-methods/belfius/activate-belfius/
+    - /payments/methods/banks/belfius/activation/
 ---
 
 **1.** Check whether Belfius is supported by your ecommerce platform.

@@ -9,8 +9,10 @@ intro_description: "Belfius is a popular online banking payment method for Belfi
 layout: 'single'
 logo: '/logo/Payment_methods/Belfius.svg' 
 short_description: 'Accept online banking payments from Belfius customers in Belgium.'
+url: '/payment-methods/belfius/'
 aliases:
     - /support-tab/magento2/payment-methods/belfius
     - /payment-methods/banks/belfius
+    - /payments/methods/banks/belfius/
 ---
 

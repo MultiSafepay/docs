@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing EPS in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/eps.svg'
+url: '/payment-methods/eps/integration-testing/'
 aliases:
     - /payment-methods/eps/eps-testing
+    - /payments/methods/banks/eps/integration-and-testing/
 ---
 
 To process EPS payments via our API, see API reference – [EPS](/api/#eps).

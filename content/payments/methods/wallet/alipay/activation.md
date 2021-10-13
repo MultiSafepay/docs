@@ -6,8 +6,10 @@ meta_title: "Activating Alipay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating Alipay to use in your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/alipay/activation/'
 aliases: 
     - /payment-methods/wallet/alipay/activate-alipay
+    - /payments/methods/wallet/alipay/activation/
 ---
 
 **1.** Before applying for Alipay, check your eligibility with your account manager at <sales@multisafepay.com>

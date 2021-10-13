@@ -9,10 +9,12 @@ intro_description: "iDEAL is an inter-bank payment method that links all major D
 layout: 'single'
 logo: '/logo/Payment_methods/iDeal.svg' 
 short_description: 'Leading Dutch payment method connecting all major retail banks.'
+url: '/payment-methods/ideal/'
 aliases:
     - /support-tab/magento2/payment-methods/ideal
     - /payment-methods/ideal/
     - /payment-methods/banks/ideal/
+    - /payments/methods/banks/ideal/
 ---
 
 See also [iDEAL QR](/payments/methods/banks/idealqr/).

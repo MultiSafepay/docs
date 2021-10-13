@@ -9,7 +9,9 @@ intro_description: "Giropay is the leading inter-bank payment method in Germany,
 layout: 'single'
 logo: '/logo/Payment_methods/Giropay.svg' 
 short_description: 'Leading payment method in Germany connecting all major German banks.'
+url: '/payment-methods/giropay/'
 aliases:
     - /support-tab/magento2/payment-methods/giropay
     - /payment-methods/banks/giropay
+    - /payments/methods/banks/giropay/
 ---

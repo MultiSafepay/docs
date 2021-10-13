@@ -6,8 +6,10 @@ meta_title: "Gift cards payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/gift-cards/payment-flow/'
 aliases: 
     - /payment-methods/gift-cards/how-do-gift-cards-work
+    - /payments/methods/prepaid-cards/gift-cards/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

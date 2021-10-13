@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Applying to activate EPS in your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/eps.svg'
+url: '/payment-methods/eps/activation/'
 aliases: 
     - /payment-methods/eps/activate-eps/
+    - /payments/methods/banks/eps/activation/
 ---
 
 **1.** Check whether EPS is supported by your ecommerce platform.

@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating Giropay in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/Giropay.svg'
+url: '/payment-methods/giropay/activation/'
 aliases: 
     - /payment-methods/giropay/activate-giropay/
+    - /payments/methods/banks/giropay/activation/
 ---
 
 **1.** Check whether Giropay is supported by your ecommerce platform.

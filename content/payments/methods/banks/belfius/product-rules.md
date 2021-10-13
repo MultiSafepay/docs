@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/belfius.svg'
-url: '/payments/methods/belfius/product-rules/'
+url: '/payment-methods/belfius/product-rules/'
 aliases: 
     - /payment-methods/belfius/what-is-belfius/
     - /payments/methods/banks/belfius/about/
+    - /payments/methods/belfius/product-rules/
 ---
 
 |   |   |   |

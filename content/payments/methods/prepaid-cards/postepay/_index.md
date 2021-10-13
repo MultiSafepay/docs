@@ -9,13 +9,14 @@ intro_description: "Postepay is a popular Visa or Mastercard-branded credit card
 layout: 'single'
 logo: '/logo/Payment_methods/Postepay.svg' 
 short_description: 'Popular pre-paid card in Italy co-branded with Mastercard or Visa.'
-url: '/postepay/'
+url: '/payment-methods/postepay/'
 aliases: 
     - /payment-methods/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/postepay
     - /payments/methods/credit-and-debit-cards/postepay/
+    - /postepay/
 ---
 
 

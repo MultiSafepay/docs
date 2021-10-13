@@ -6,9 +6,10 @@ meta_title: "Apple Pay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-url: '/payments/methods/apple-pay/product-rules/'
+url: '/payment-methods/apple-pay/product-rules/'
 aliases:
     - /payments/methods/wallet/applepay/about/
+    - /payments/methods/apple-pay/product-rules/
 ---
 
 |   |   |   |

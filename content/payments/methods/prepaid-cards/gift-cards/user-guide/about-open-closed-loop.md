@@ -4,8 +4,10 @@ meta_title: "Gift cards - About open and closed-loop gift cards - MultiSafepay D
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 20
+url: '/payment-methods/gift-cards/open-loop-closed-loop/'
 aliases: 
     - /payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
+    - /payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/
 ---
 
 MultiSafepay supports two types of gift card: open-loop and closed-loop.

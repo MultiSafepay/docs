@@ -9,8 +9,10 @@ intro_description: "Request to Pay is a Deutsche Bank payment method based on th
 layout: 'single'
 logo: '/logo/Payment_methods/RTP.svg'
 short_description: 'Deutsche Bank payment method based on secure SEPA transfers.'
+url: '/payment-methods/request-to-pay/'
 aliases:
     - /support-tab/magento2/payment-methods/request-to-pay
     - /payment-methods/banks/direct-bank-transfer/
     - /payment-methods/banks/request-to-pay
+    - /payments/methods/banks/request-to-pay/
 ---

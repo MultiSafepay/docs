@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing Belfius in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/belfius.svg'
+url: '/payment-methods/belfius/integration-testing/'
 aliases:
     - /payment-methods/belfius/belfius-testing
+    - /payments/methods/banks/belfius/integration-and-testing/
 ---
 
 To process Belfius payments via our API, see API reference – [Belfius](/api/#belfius).

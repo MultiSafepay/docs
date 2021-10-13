@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating Request to Pay in your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
+url: '/payment-methods/request-to-pay/activation/'
 aliases: 
     - /payment-methods/bancontact/how-to-activate-request-to-pay/
+    - /payments/methods/banks/request-to-pay/activation/
 ---
 
 **1.** Check whether Request to Pay is supported by your ecommerce platform.
