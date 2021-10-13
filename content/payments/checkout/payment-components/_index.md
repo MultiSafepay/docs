@@ -32,6 +32,7 @@ Embed a single or multiple payment methods in your checkout.
     - [American Express](/payments/methods/credit-and-debit-cards/american-express/)
     - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard/)
     - [Visa](/payments/methods/credit-and-debit-cards/visa/)
+    - [Maestro](/payments/methods/credit-and-debit-cards/maestro/)
 - [iDEAL](/payments/methods/banks/ideal/)
 - [PayPal](/payments/methods/wallet/paypal/)
 - [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/)
