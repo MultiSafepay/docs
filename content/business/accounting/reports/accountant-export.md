@@ -39,9 +39,9 @@ MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions d
 &nbsp; 
 
 - Report created: the date the report was generated
-- Merchant ID:
-- Date from: the start date of the period the report covers
-- Date till: the end date of the report period
+- Merchant ID: your MultiSafepay account number
+- Date from: the start date of the reporting period
+- Date till: the end date of the reporting period
 - Currency: the currency the payout was paid in
 - Opening balance: the balance at the start date
 - Total credit: the amount credited in the report period
@@ -55,10 +55,10 @@ Columns:
 - Creditdebit: C means credit, D means debit
 - Typetransaction: see [N-codes for identifying payment methods](/reports/n-codes/)
 - Paymenttype: a MultiSafepay fee, or the payment method
-- Description/Description2/Description3/Description4:
+- Description/Description2/Description3/Description4: descriptions of the order
 - Tr status: the [transaction status](/payments/multisafepay-statuses/)
 - Ms description: website name
-- Mt merchanttransactionid:
+- Mt merchanttransactionid: your unique identifier for the order
 - Mt cust firstname: the customer’s first name
 - Mt cust lastname: the customer’s last name
 - Mt cust city: the customer's city
@@ -74,11 +74,12 @@ To generate an Accountant export, follow these steps:
 1. Sign in to your live [MultiSafepay account](https://merchant.multisafepay.com), or for test reports, your [MultiSafepay test account](https://testmerchant.multisafepay.com).
 2. Go to **Reports** > **Accountant export**.
 3. From the **Date selection** dropdown, select the relevant timeframe (last 2 years only), and then click **Apply**.
-4. From the **Report type** dropdown, select the relevant export format. 
-5. **Group costs in 1 record** toggle:   
+4. From the **Currency** dropdown, select the relevant currency.
+5. From the **Report type** dropdown, select the relevant export format. 
+6. **Group costs in 1 record** toggle:   
     - **Yes**: Show only the total of all MultiSafepay transaction fees for the selected timeframe.
     - **No**: List each MultiSafepay fee below the matching transaction.
-6. Click **Generate report**.
+7. Click **Generate report**.
 
 To filter transactions in the Accountant export (e.g. by payment method), see [N-codes for identifying payment methods](/reports/n-codes/).
 

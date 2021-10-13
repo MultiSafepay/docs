@@ -15,7 +15,7 @@ Includes:
 
 - Grouping of costs
 - Currency
-- [Transaction status](/payments/multisafepay-statuses/)
+- Number of transactions
 - Amount
 - Cost
 - Website

@@ -56,4 +56,5 @@ To generate a Financial summary, follow these steps:
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial summary**.
 3. Under **Options** > in the **Date** field, enter the start and end dates of the period you want the report to cover.
-4. Click **Generate report**.
+4. Under **Currency**, select the relevant currency.
+5. Click **Generate report**.
