@@ -11,6 +11,7 @@ url: '/payment-methods/bancontact/payment-flow/'
 aliases: 
     - /payment-methods/bancontact/how-does-bancontact-work/
     - /payments/methods/banks/bancontact/payment-flow/
+    - /payments/methods/banks/bancontact-qr/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  
@@ -26,11 +27,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account, and completes the payment. | | |
-| 4. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. |  |  |
-| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
+| 1. | The customer selects Bancontact or Bancontact QR at checkout and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
+| 2. | The customer authenticates their account and completes payment, or scans the QR code. | Completed | Completed |
+| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.|  |  |
 
 ## Unsuccessful statuses
 
@@ -38,7 +37,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
+| The customer didn't complete the payment and the transaction expired after the 1-hour period (banking only). | Expired | Expired |
 
 ## Refund statuses
 

@@ -12,6 +12,7 @@ aliases:
     - /payment-methods/bancontact/what-is-bancontact/
     - /payments/methods/banks/bancontact/about/
     - /payments/methods/bancontact/product-rules/
+    - /payments/methods/bancontact-qr/product-rules/
 ---
 
 |   |   |   |
@@ -19,9 +20,9 @@ aliases:
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Redirect](/api/#bancontact) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
-| **Transactions expire after**  | 1 hour | |
+| **Payment flow**  | Banking: [Redirect](/api/#bancontact) {{< br >}} QR: [Redirect](/api/#bancontact-qr) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Recurring payments**  | Banking: Yes {{< br >}} QR: No | [More information](/features/recurring-payments/)  |
+| **Transactions expire after**  | Banking: 1 hour {{< br >}} QR: Doesn't apply | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 Non-mobile payments always use [3D Secure](/payment-regulations/3d-secure/) 1.0 verification.
@@ -29,7 +30,8 @@ Non-mobile payments always use [3D Secure](/payment-regulations/3d-secure/) 1.0 
 {{< details title="Refunds" >}}
 
 - [Full and partial refunds](/payments/refunds/) are supported. 
-- You can refund more than the original transaction value. See [Processing refunds](/tools/multisafepay-control/processing-refunds/).
+
+- You can refund more than the original transaction value. See [Refunds](/payments/refunds/).
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
 

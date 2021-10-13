@@ -11,17 +11,21 @@ url: '/payment-methods/bancontact/integration-testing/'
 aliases:
     - /payment-methods/bancontact/bancontact-testing
     - /payments/methods/banks/bancontact/integration-and-testing/
+    - /payments/methods/banks/bancontact-qr/integration-and-testing/
 ---
 
-To process Bancontact payments via our API, see API reference - [Bancontact](/api/#bancontact).
+To process payments via our API, see API reference:
+
+- [Bancontact](/api/#bancontact)
+- [Bancontact QR](/api/#bancontact-qr)
 
 For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="View credentials and testing process" >}}
+{{< details title="Testing" >}}
 
-Test card number: See the table below.
+Test card numbers: See the table below.
 
-Possible errors: The test QR codes can only be read with a general QR code application. If you scan the code using the Bancontact app, an error occurs.
+Possible errors: Test QR codes can only be read with a general QR reader. If you scan the code using the Bancontact app, an error occurs.
 
 Sample statuses:
 
@@ -33,3 +37,4 @@ Sample statuses:
 | 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds) |
 
 {{< /details >}}
+

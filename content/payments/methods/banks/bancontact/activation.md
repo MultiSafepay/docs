@@ -11,11 +11,12 @@ url: '/payment-methods/bancontact/activation/'
 aliases: 
     - /payment-methods/bancontact/activate-bancontact/
     - /payments/methods/banks/bancontact/activation/
+    - /payments/methods/banks/bancontact-qr/activation/
 ---
 
 **1.** Check whether Bancontact is supported by your ecommerce platform.
 
-**2.** To activate Bancontact in to your [MultiSafepay account](https://merchant.multisafepay.com) for:
+**2.** To activate Bancontact and Bancontact QR in to your [MultiSafepay account](https://merchant.multisafepay.com) for:
 
 All your websites:
 
@@ -32,4 +33,5 @@ A specific website:
 
 **3.** Enable Bancontact as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
 
-For any questions, email the Sales Team at <sales@multisafepay.com>
+For any questions, email your account manager at <sales@multisafepay.com>
+
