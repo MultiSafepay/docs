@@ -33,7 +33,7 @@ To generate a Sales or Conversion report, follow these steps:
 ### Sales reports
 1. Under **Date**, select the date range you want the report to cover.
 2. If relevant, specify one or two websites under **Site** and **Site 2**.
-3. Click **XLS** or **XLSX** to download. 
+3. To download, click **XLS** or **XLSX**. 
 
 Select to view the total revenue or number of transactions per:
 
