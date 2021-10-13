@@ -67,7 +67,6 @@ For the following payment methods, we have changed the default payment flow from
 We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL issuers checkout field and the new checkout fields for these payment methods.
 
 Alternatively you can turn the use of additional checkout fields off for these payment methods and change it back to redirect in the following configuration field:
-**Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways** > **Gateway** > **Additional checkout fields**
 
 **Example**  
 This example shows the differences between the Luma checkout for Afterpay in the deprecated plugin and the new one
