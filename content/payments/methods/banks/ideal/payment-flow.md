@@ -11,6 +11,7 @@ url: '/payment-methods/ideal/payment-flow/'
 aliases: 
     - /payment-methods/ideal/how-does-ideal-work/
     - /payments/methods/banks/ideal/payment-flow/
+    - /payments/methods/banks/idealqr/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  
@@ -26,11 +27,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account and completes the payment. | | |
-| 4. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. | Completed | Completed |
-| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| | |
+| 1. | The customer selects iDEAL or iDEAL QR at checkout and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
+| 2. | The customer authenticates their account and completes the payment, or scans the QR code. | Completed | Completed |
+| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| | |
 
 ## Unsuccessful statuses
 
@@ -44,7 +43,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund is pending.  | Reserved | Reserved |
+| The refund is pending (banking only).  | Reserved | Reserved |
 | The refund has been successfully processed. | Completed | Completed |
 
 

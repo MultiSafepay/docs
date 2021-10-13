@@ -11,13 +11,33 @@ url: '/payment-methods/ideal/integration-testing/'
 aliases:
     - /payment-methods/ideal/ideal-testing
     - /payments/methods/banks/ideal/integration-and-testing/
+    - /payments/methods/banks/idealqr/integration-and-testing/
 ---
 
-To process iDEAL payments via our API, see API reference - [iDEAL](/api/#ideal).
+To process payments via our API, see API reference:
 
-For the iDEAL logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+- [iDEAL](/api/#ideal)
+- [iDEAL QR](/api/#ideal-qr)
 
-{{< details title="View test statuses" >}}
+## iDEAL QR
+
+MultiSafepay supports seamless integration for iDEAL QR. You can:
+
+- Retrieve and process the PNG image for the QR code in your system to display it to the customer.  
+
+- Redirect the customer to a [MultiSafepay payment page](/payments/checkout/payment-pages/) where the iDEAL QR code is displayed under **Payment methods**.
+
+- Generate a generic link that can be used multiple times. 
+
+- Print a QR code, e.g. on leaflets or menus. 
+
+You can enable an option to allow the customer change the amount.
+
+Only 4 Dutch banks support iDEAL QR in their own banking app: Knab, Rabobank, ING, and ABN AMRO. Customers of other banks must use the iDEAL app.
+
+## Testing
+
+{{< details title="iDEAL test statuses" >}}
 
 | Status                | Description              |
 | --------------------- | ------------------------ |
@@ -28,3 +48,9 @@ For the iDEAL logo, see MultiSafepay GitHub – [MultiSafepay icons](https://git
 | **Initialized**/ **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
 
 {{< /details >}}
+
+You cannot test iDEAL QR in your MultiSafepay test account. You can only make test payments in your live MultiSafepay account.
+
+## Logos
+
+For the iDEAL and iDEAL QR logos, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

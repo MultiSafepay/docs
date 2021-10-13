@@ -12,15 +12,16 @@ aliases:
     - /payment-methods/ideal/what-is-ideal/
     - /payments/methods/banks/ideal/about/
     - /payments/methods/ideal/product-rules/
+    - /payments/methods/ideal-qr/product-rules/
 ---
  
 |   |   |   |
 |---|---|---|
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
+| **Payment flow**  | Banking: [Direct](/api/#ideal-direct) / [Redirect](/api/#ideal-redirect) {{< br >}} QR: [Redirect](/api/#ideal-qr) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Recurring payments**  | Banking: Yes {{< br >}} QR: No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Direct](/api/#ideal-direct) / [Redirect](/api/#ideal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1.5 hours | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 
@@ -44,3 +45,11 @@ aliases:
 {{< /details >}}
 
 To increase transparency for customers, the name of your website appears on the iDEAL payment page and "Your-website-name by MultiSafepay" on the customer's bank statement.
+
+## iDEAL QR
+
+- To set the payment amount using the `min_amount` and `max_amount` parameters in the payment request, see API reference&nbsp;–&nbsp;[iDEAL QR](/api/#ideal-qr).
+
+- You can use the same iDEAL QR code more than once.
+
+- You can generate more than one payment link for a single order ID. Subsequent transactions each have a unique order ID.
