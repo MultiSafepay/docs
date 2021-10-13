@@ -18,7 +18,7 @@ aliases:
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | Yes | See below. |
 | **Payment flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

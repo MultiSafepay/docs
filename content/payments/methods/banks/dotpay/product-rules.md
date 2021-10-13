@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/Dotpay.svg'
-url: '/payments/methods/dotpay/product-rules/'
+url: '/payment-methods/dotpay/product-rules/'
 aliases: 
     - /payment-methods/dotpay/dotpay-what-is-it/
     - /payments/methods/banks/dotpay/about/
+    - /payments/methods/dotpay/product-rules/
 ---
 
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | EUR, PLN | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Redirect](/api/#dotpay) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 3 days | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

@@ -10,6 +10,7 @@ weight: 17
 title_short: "OsCommerce"
 description_short: "For support, contact OsCommerce."
 layout: 'single'
+url: '/oscommerce/'
 aliases: 
     - /plugins/oscommerce
     - /integrations/plugins/oscommerce
@@ -18,6 +19,7 @@ aliases:
     - /integrations/plugins/oscommerce/manual
     - /integrations/oscommerce/manual
     - /integrations/ecommerce-integrations/oscommerce
+    - /payments/integrations/ecommerce-platforms/oscommerce/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your OsCommerce webshop.
@@ -47,6 +49,60 @@ Contact MultiSafepay:
 - MultiSafepay account – See [Getting started](/getting-started/).
 - OsCommerce 2.3
 - Tested on PHP 7.0
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [V PAY](/payments/methods/credit-and-debit-cards/vpay)
+
+**Pay later methods**
+
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+
+**Wallets**
+
++ [PayPal](/payments/methods/wallet/paypal)
+
+**Prepaid cards**
+
++ Beauty and Wellness gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
++ Fietsenbon
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Podium](https://www.podiumcadeaukaart.nl)
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Wellness gift card](https://www.wellnessgiftcard.nl)
++ Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl)
++ [Yourgift](https://www.yourgift.nl/)
 
 {{< /details >}}
 

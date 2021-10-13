@@ -7,12 +7,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/directdebit-en.svg'
-url: '/payments/methods/sepa/product-rules/'
+url: '/payment-methods/sepa-direct-debit/product-rules/'
 aliases: 
     - /payment-methods/sepa-direct-debit/what-is-sepa-direct-debit/
     - /payment-methods/direct-debit/what-is-direct-debit/
     - /payment-methods/banks/direct-debit/what-is-direct-debit/
     - /payments/methods/banks/sepa-direct-debit/about/
+    - /payments/methods/sepa/product-rules/
 ---
 
 |   |   |   |
@@ -21,7 +22,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | Yes | See below.  |
 | **Payment flow**  | [Direct](/api/#sepa-direct-debit-direct) / {{< br >}} [Redirect](/api/#sepa-direct-debit-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | Doesn't apply | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 

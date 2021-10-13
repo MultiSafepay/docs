@@ -3,9 +3,11 @@ title : "Compatibility with Picqer"
 meta_title: "Magento 1 plugin - Compatibility with Picqer - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/magento-1/picqer/'
 aliases: 
     - /integrations/magento1/faq/how-can-i-update-the-plugin-for-magento1/
     - /integrations/magento1/faq/is-the-multisafepay-magento-1-plugin-compatible-with-picqer/
+    - /payments/integrations/ecommerce-platforms/magento1/faq/compatibility-with-picqer/
 ---
 
 To make the MultiSafepay Magento 1 plugin compatible with Picqer, follow two additional steps, because orders must not receive **Cancelled** status.

@@ -6,6 +6,9 @@ meta_title: "Edenred product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
+url: '/payment-methods/edenred/product-rules/'
+aliases:
+    - /payments/methods/prepaid-cards/edenred/product-rules/
 ---
 
 |   |   |   |
@@ -15,7 +18,7 @@ layout: 'child'
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |  
 | **Refunds**  | No  | [More information](/payments/refunds/) | 
 | **Payment flow**  | [Redirect](/api/#edenred) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 
 - You must sign a contract with Edenred.
 - For each voucher, you must comply with Edenred's rules regarding permitted products and services. 

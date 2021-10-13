@@ -4,10 +4,12 @@ meta_title: "Magento 2 plugin - Configuring generic gateways - MultiSafepay Docs
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
-
+url: '/magento-2/generic-gateways/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/magento2/faq/configuring-generic-gateways/
 ---
 
-The Magento 2 plugin supports [generic gateways](/faq/general/generic-gateways/). Generic gateways work like regular redirect payment methods. All features are supported, except for Recurring Payments.
+The Magento 2 plugin supports [generic gateways](/faq/general/generic-gateways/). Generic gateways work like regular redirect payment methods. All features are supported, except for recurring payments.
 
 **Configuring generic gateways**
 To configure generic gateways, follow these steps:

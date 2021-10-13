@@ -6,6 +6,9 @@ meta_title: "WeChat Pay - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing WeChat Pay in your ecommerce platform"
 layout: 'child'
+url: '/payment-methods/wechat-pay/integration-testing/'
+aliases:
+    - /payments/methods/wallet/wechatpay/integration-and-testing/
 ---
 
 To process WeChat Pay payments via our API, see API Reference – [WeChat Pay](/api/#wechat-pay).

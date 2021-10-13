@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing Giropay in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/Giropay.svg'
+url: '/payment-methods/giropay/integration-testing/'
 aliases:
     - /payment-methods/giropay/giropay-testing
+    - /payments/methods/banks/giropay/integration-and-testing/
 ---
 
 To process Giropay payments via our API, see API reference – [Giropay](/api/#giropay).

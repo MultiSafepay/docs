@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
-url: '/payments/methods/bancontact/product-rules/'
+url: '/payment-methods/bancontact/product-rules/'
 aliases: 
     - /payment-methods/bancontact/what-is-bancontact/
     - /payments/methods/banks/bancontact/about/
+    - /payments/methods/bancontact/product-rules/
 ---
 
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Redirect](/api/#bancontact) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

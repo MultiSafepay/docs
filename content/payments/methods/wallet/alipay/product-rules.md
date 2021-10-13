@@ -6,9 +6,10 @@ meta_title: "Alipay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-url: '/payments/methods/alipay/product-rules/'
+url: '/payment-methods/alipay/product-rules/'
 aliases:
     - /payments/methods/wallet/alipay/about/
+    - /payments/methods/alipay/product-rules/
 ---
 
 |   |   |   |
@@ -17,7 +18,7 @@ aliases:
 | **Currencies**  | EUR, USD | [More information](/faq/general/supported-currencies/) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#alipay-direct) / [Redirect](/api/#alipay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 5 hours | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

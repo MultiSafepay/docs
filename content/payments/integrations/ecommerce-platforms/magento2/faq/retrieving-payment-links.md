@@ -4,8 +4,10 @@ meta_title: "Magento 2 plugin - Retrieving payment links - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/retrieving-payment-links/'
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/how-can-i-generate-a-payment-link/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/retrieving-payment-links/
 ---
 
 From version 2.0 and higher, payment links are automatically generated for every order using a MultiSafepay payment method.

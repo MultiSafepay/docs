@@ -8,11 +8,13 @@ weight: 31
 title_short: "EasyWebshop"
 description_short: "Free app to integrate MultiSafepay payment solutions into your EasyWebshop platform."
 layout: 'single'
+url: '/easywebshop/'
 aliases: 
     - /hosted/easywebshop
     - /integrations/hosted/easywebshop
     - /integrations/easywebshop
     - /integrations/ecommerce-integrations/easywebshop
+    - /payments/integrations/ecommerce-platforms/dynamicweb/
 ---
 
 Free app to integrate MultiSafepay payment solutions into your EasyWebshop platform.

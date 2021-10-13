@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing Bancontact in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
+url: '/payment-methods/bancontact/integration-testing/'
 aliases:
     - /payment-methods/bancontact/bancontact-testing
+    - /payments/methods/banks/bancontact/integration-and-testing/
 ---
 
 To process Bancontact payments via our API, see API reference - [Bancontact](/api/#bancontact).

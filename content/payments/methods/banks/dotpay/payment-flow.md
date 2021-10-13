@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/Dotpay.svg'
+url: '/payment-methods/dotpay/payment-flow/'
 aliases: 
     - /payment-methods/dotpay/dotpay-how-does-it-work/
+    - /payments/methods/banks/dotpay/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

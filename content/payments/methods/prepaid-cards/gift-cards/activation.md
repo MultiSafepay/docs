@@ -6,8 +6,10 @@ meta_title: "Activating gift cards - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating gift cards in your MultiSafepay account and backend"
 layout: 'child'
+url: '/payment-methods/gift-cards/activation/'
 aliases: 
     - /payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
+    - /payments/methods/prepaid-cards/gift-cards/activation/
 ---
 
 **1.** Before applying for a gift card, check your eligibility with your account manager at <sales@multisafepay.com> 

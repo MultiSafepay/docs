@@ -1,5 +1,5 @@
 ---
-weight: 229
+weight: 231
 meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -169,7 +169,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Option: `CREDITCARD`.
 
 ----------------
@@ -196,8 +196,8 @@ Contains:
 
 `flexible_3d` | boolean | required
 
-- `true`: enables 3D Secure verification
-- `false`: disable 3D Secure verification
+- `true`: Enables 3D Secure verification. The payment is classified as **3D Secure Result: Enrolled Liability**.
+- `false`: Disables 3D Secure verification. The payment is classified as **"Not Enrolled, Liability".**
 
 **Response**
 
@@ -243,7 +243,6 @@ See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `reason` | string 
-
 
 ----------------
 `related_transactions` | object

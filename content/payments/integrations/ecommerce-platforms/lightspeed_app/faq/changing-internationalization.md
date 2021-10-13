@@ -1,11 +1,14 @@
 ---
-title : "Changing internationalization within Lightspeed eCom"
-meta_title: "Lightspeed app - Changing internationalization within Lightspeed eCom - MultiSafepay Docs"
+title : "Changing internationalization"
+meta_title: "Lightspeed app - Changing internationalization - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/lightspeed-app/internationalization/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/changing-internationalization/
 ---
 
-When changing internationalization in your Lightspeed eCom backend, make sure the primary language remains active/inactive while installing the app.  
+When changing internationalization in your Lightspeed eCom backend, do not change the primary language setting while installing the app.  
 
 Lightspeed eCom requires a language, an API key, and a cluster to validate API requests. 
 

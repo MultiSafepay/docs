@@ -9,10 +9,12 @@ intro_description: "ING Home'Pay is an online payment method for ING customers i
 layout: 'single'
 logo: '/logo/Payment_methods/ING_Homepay.svg' 
 short_description: 'Accept secure bank transfers from ING customers in Belgium.'
+url: '/payment-methods/ing-home-pay/'
 aliases:
     - /support-tab/magento2/payment-methods/ing-home-pay
     - /payment-methods/ing-home-pay/
     - /payment-methods/banks/ing-home-pay
+    - /payments/methods/banks/ing-home-pay/
 
 ---
 

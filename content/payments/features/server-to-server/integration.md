@@ -6,6 +6,9 @@ layout: child
 meta_title: "Server to Server - Integration and API requests - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating Server to Server in your ecommerce platform via our API"
+url: '/features/server-to-server/integration/'
+aliases:
+    - /payments/features/server-to-server/integration/
 ---
 
 To integrate Server to Server using our API, see API reference – [Server to Server](/api/#server-to-server).

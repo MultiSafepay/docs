@@ -12,6 +12,7 @@ weight: 51
 url: '/payment-components/'
 aliases:
     - /tools/credit-card-component/
+    - /payments/checkout/payment-components/
 ---
 Payment Components let you embed payment methods directly into your checkout.
 

@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/ING_Homepay.svg'
+url: '/payment-methods/ing-home-pay/payment-flow/'
 aliases: 
     - /payment-methods/ing-home-pay/how-does-ing-home-pay-work/
+    - /payments/methods/banks/ing-home-pay/payment-flow/
 ---
 
 

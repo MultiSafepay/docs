@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/bancepsontact.svg'
-url: '/payments/methods/eps/product-rules/'
+url: '/payment-methods/eps/product-rules/'
 aliases: 
     - /payment-methods/eps/what-is-eps/
     - /payments/methods/banks/eps/about/
+    - /payments/methods/eps/product-rules/
 ---
 
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Redirect](/api/#eps) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | Doesn't apply | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

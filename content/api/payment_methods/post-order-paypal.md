@@ -170,7 +170,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `PAYPAL`.
 
 ----------------
@@ -231,7 +231,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.   
+The unique gateway identifier for the payment method.   
 Value: `PAYPAL`.
 
 ----------------

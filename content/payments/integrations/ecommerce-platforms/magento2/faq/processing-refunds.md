@@ -4,11 +4,13 @@ meta_title: "Magento 2 plugin - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/refunds/'
 aliases: 
     - /integrations/magento2/faq/refunding-magento2/
     - /integrations/ecommerce-integrations/magento2/faq/refunding-magento2/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/processing-refunds/
 ---
-Refund rules:
+**Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds 
 - From your Magento 2 [backend](/getting-started/glossary/#backend) (see below):  

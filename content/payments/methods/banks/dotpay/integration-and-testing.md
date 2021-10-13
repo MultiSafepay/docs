@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing Dotpay in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/Dotpay.svg'
+url: '/payment-methods/dotpay/integration-testing/'
 aliases:
     - /payment-methods/dotpay/dotpay-testing
+    - /payments/methods/banks/dotpay/integration-and-testing/
 ---
 
 To process Dotpay payments via our API, see API reference – [Dotpay](/api/#dotpay).

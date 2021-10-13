@@ -6,9 +6,10 @@ meta_title: "PayPal product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-url: '/payments/methods/paypal/product-rules/'
+url: '/payment-methods/paypal/product-rules/'
 aliases:
     - /payments/methods/wallet/paypal/about/
+    - /payments/methods/paypal/product-rules/
 ---
 
 |   |   |   |
@@ -17,7 +18,7 @@ aliases:
 | **Currencies**  | Multiple | [More information](https://developer.paypal.com/docs/payouts/reference/country-and-currency-codes/) | 
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#paypal-direct) / [Redirect](/api/#paypal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 14 days | |
 | **Adjust payment link lifetimes**  | Links are valid for 14 days. The lifetime is set by PayPal. | [More information](/api/#adjust-payment-link-lifetimes)  |
 

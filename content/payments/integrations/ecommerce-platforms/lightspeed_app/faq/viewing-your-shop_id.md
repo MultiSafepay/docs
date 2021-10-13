@@ -3,8 +3,10 @@ title : "Viewing your shop ID"
 meta_title: "Lightspeed app - Viewing your shop ID - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/lightspeed-app/shop-id/'
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/shop_id/
+    - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/viewing-your-shop_id/
 ---
 
 To view your shop ID, follow these steps:

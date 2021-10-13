@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/SOFORT.svg'
-url: '/payments/methods/banks/sofort/payment-flow/'
+url: '/payment-methods/sofort/payment-flow/'
 aliases: 
     - /payment-methods/sofort-banking/how-does-sofort-banking-work/
     - /payments/methods/banks/sofort-banking/payment-flow/
+    - /payments/methods/banks/sofort/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

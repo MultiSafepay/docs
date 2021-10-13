@@ -6,9 +6,10 @@ meta_title: "Postepay payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
-url: '/postepay/payment-flow/'
+url: '/payment-methods/postepay/payment-flow/'
 aliases:
     - /payments/methods/credit-and-debit-cards/postepay/payment-flow/
+    - /postepay/payment-flow/
 ---
 
 The table below shows a successful transaction flow from start to finish.  

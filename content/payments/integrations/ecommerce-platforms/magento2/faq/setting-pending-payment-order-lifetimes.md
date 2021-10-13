@@ -5,8 +5,10 @@ meta_title: "Magento 2 plugin - Setting pending payment order lifetimes - MultiS
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+url: '/magento-2/pending-payment-lifetimes/'
 aliases: 
     - /integrations/magento2/faq/pending-payment-order-lifetime/
+    - /payments/integrations/ecommerce-platforms/magento2/faq/setting-pending-payment-order-lifetimes/
 ---
 
 The lifetime of orders marked as **Pending payments** in Magento 2 is determined by the **Order Cron settings** configuration. The default value is 480 minutes (8 hours).

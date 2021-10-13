@@ -5,7 +5,10 @@ meta_title: "Activating Server to Server - MultiSafepay Docs"
 short_description: "Activating Server to Server to use in your MultiSafepay account"
 weight: 20
 layout: child
+url: '/features/server-to-server/activation/'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+aliases:
+    - /payments/features/server-to-server/activation/
 ---
 **1.** Check your eligibility with your account manager at <sales@multisafepay.com>
 

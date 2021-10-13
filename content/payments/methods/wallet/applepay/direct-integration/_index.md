@@ -6,6 +6,9 @@ meta_title: "Apple Pay direct - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Apple Pay direct"
 layout: 'single'
+url: '/payment-methods/apple-pay/direct/'
+aliases:
+    - /payments/methods/wallet/applepay/direct-integration
 ---
 
 With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/).

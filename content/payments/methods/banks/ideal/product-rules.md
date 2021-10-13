@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal.svg'
-url: '/payments/methods/ideal/product-rules/'
+url: '/payment-methods/ideal/product-rules/'
 aliases: 
     - /payment-methods/ideal/what-is-ideal/
     - /payments/methods/banks/ideal/about/
+    - /payments/methods/ideal/product-rules/
 ---
  
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#ideal-direct) / [Redirect](/api/#ideal-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1.5 hours | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

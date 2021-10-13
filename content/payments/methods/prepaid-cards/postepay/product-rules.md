@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies"
 layout: 'child'
 read_more: '.'
-url: '/postepay/product-rules/'
+url: '/payment-methods/postepay/product-rules/'
 aliases:
     - /payment-methods/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
@@ -21,7 +21,7 @@ aliases:
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

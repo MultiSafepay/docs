@@ -11,6 +11,7 @@ changelog: https://github.com/MultiSafepay/magento2/blob/master/CHANGELOG.md
 weight: 01
 logo: "/logo/Plugins/Magento_2.svg"
 title_short: "Magento 2"
+url: '/magento-2/'
 aliases: 
     - /plugins/magento2
     - /integrations/plugins/magento2
@@ -22,6 +23,7 @@ aliases:
     - /integrations/ecommerce-integrations/magento2
     - /integrations/plugins/magento2/beta
     - /integrations/ecommerce-integrations/magento2
+    - /payments/integrations/ecommerce-platforms/magento2/
 ---
 
 This technical manual is for installing and configuring our new free plugin for integrating MultiSafepay payment solutions into your Magento 2 webshop.
@@ -56,12 +58,12 @@ We support most Magento functionalities. For any questions, email the Integratio
 
 As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html). For more information, see MultiSafepay Blog - [Magento 2: Boost conversion through Magento Vault & Instant Purchase](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase). 
 
-These features are based on MultiSafepay Recurring Payments. For more information, see [Recurring Payments](/payments/features/recurring-payments/).
+These features are based on [recurring payments](/features/recurring-payments/).
 
 ### Obsolete features
 Features that are no longer available:
 
-- Tokenization – replaced by Magento Vault and Instant Purchase
+- Recurring payments – replaced by Magento Vault and Instant Purchase
 - FastCheckout – no longer supported
 - PWA (REST) endpoints – replaced by GraphQL endpoints
 
@@ -77,6 +79,75 @@ Contact us:
 - [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments
 
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
+- [CBC](/payments/methods/banks/cbc)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [iDEAL QR](/payments/methods/banks/idealqr)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
+- [TrustPay](/payments/methods/banks/trustpay) 
+
+**Pay later methods**
+
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+
+**Wallets**
+
++ [Alipay](/payments/methods/wallet/alipay)
++ [Apple Pay](/payments/methods/wallet/applepay)
++ [PayPal](/payments/methods/wallet/paypal)
+
+**Prepaid cards**
+
++ Baby gift card
++ Beauty and Wellness gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashioncheque](https://www.fashioncheque.com/nl/)
++ [Fashion gift card](https://www.fashion-giftcard.nl/)
++ Fietsenbon
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
++ [Givacard](https://www.givacard.nl/)
++ [Good4fun](https://www.good4fun.nl/)
++ Goodcard
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
++ [Podium](https://www.podiumcadeaukaart.nl/)
++ [Sport en Fit](https://www.sportenfitcadeau.nl/)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl/)
++ [Webshop gift card](https://www.webshopgiftcard.nl/)
++ [Wellness gift card](https://www.wellnessgiftcard.nl/)
++ Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl/)
++ [Yourgift](https://www.yourgift.nl)
 
 {{< /details >}}
 
@@ -111,7 +182,7 @@ The installation process is the same for the Adobe Commerce version.
 
 ## Installation
 
-**Note:** First make sure you have [uninstalled the deprecated plugin](/payments/integrations/ecommerce-platforms/magento2/faq/deleting-deprecated-plugin/).
+**Note:** Make sure you finish processing all orders created in the deprecated plugin **before** you [delete it](/magento-2/deleting-deprecated-plugin/). Meanwhile, it can run in parallel with the new plugin. 
 
 **1.** We recommend installing the meta-package using Composer:
 

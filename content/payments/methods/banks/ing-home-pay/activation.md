@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Activating ING Home Pay in your MultiSafepay account and backend"
 layout: 'child'
 logo: '/logo/Payment_methods/ING_Homepay.svg'
+url: '/payment-methods/ing-home-pay/activation/'
 aliases: 
     - /payment-methods/ing-home-pay/activate-ing-home-pay/
+    - /payments/methods/banks/ing-home-pay/activation/
 ---
 
 **1.** If you use a commercial ecommerce platform, check whether ING Home'Pay is supported.

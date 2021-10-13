@@ -6,8 +6,10 @@ meta_title: "Activating Paysafecard - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating Paysafecard in your MultiSafepay account and backend"
 layout: 'child'
+url: '/payment-methods/paysafecard/activation/'
 aliases: 
     - /payment-methods/paysafecard/activate-paysafecard
+    - /payments/methods/prepaid-cards/paysafecard/activation/
 ---
 
 Paysafecard doesn't require activation.

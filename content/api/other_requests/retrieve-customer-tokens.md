@@ -48,7 +48,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Get all customer tokens
 
-Retrieve all [tokens](/payments/features/tokenization) related to a specific customer reference.
+Retrieve all [tokens](/features/recurring-payments) related to a specific customer reference.
 
 If there are lots of tokens, you can use the `limit` and `offset` parameters to limit the number of tokens retrieved.
 
@@ -108,7 +108,7 @@ The last 4 digits of the credit card number.
 
 `recurring_model` | string 
 
-The [recurring model](/payments/features/tokenization/#recurring-models).  
+The [recurring model](/features/recurring-payments/#recurring-models).  
 Options: `cardonfile`, `subscription`, `unscheduled`.  
 
 ----------------

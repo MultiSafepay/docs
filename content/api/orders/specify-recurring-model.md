@@ -1,5 +1,5 @@
 ---
-weight: 237
+weight: 227
 meta_title: "API reference - Specify recurring model - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -63,7 +63,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Specify recurring model
 
-Create an original [tokenization](/payments/features/tokenization) order using a specific recurring model:
+Create an initial [recurring payment](/features/recurring-payments) order using a specific recurring model:
 
 - **Card on file (COF)**: The cardholder has authorized you to store their card details.
 - **Subscription**: Agreement or services that are billed at the end of your billing cycle.
@@ -98,9 +98,8 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `recurring_model` | string | required
 
-The recurring model.  
+The [recurring model](/features/recurring-payments/#recurring-models).  
 Options: `unscheduled`, `subscription`, `cardonfile`.  
-See also [Recurring models](/payments/features/tokenization/#recurring-models).
 
 ----------------
 `amount` | integer | required

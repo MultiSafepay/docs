@@ -10,9 +10,11 @@ layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/VVV_Giftcards.svg'
 short_description: 'Accept payments using a wide range of Dutch gift cards.'
+url: '/payment-methods/gift-cards/'
 aliases: 
     - /payment-methods/gift-cards/
     - /payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
     - /payment-methods/giftcards/branded-personalized-gift-card/
     - /payment-methods/prepaid-cards/gift-cards
+    - /payments/methods/prepaid-cards/gift-cards/
 ---

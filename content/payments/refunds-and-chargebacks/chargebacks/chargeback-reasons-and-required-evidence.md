@@ -357,7 +357,7 @@ To dispute this type of chargeback, you need to provide fully itemized documents
 ### Customer disputes
 {{< details title="Reason code 4544: Goods and services, cancellation of recurring payments" >}}
 
-You have continued to charge the cardholder's account after they notified you to cancel or revoke consent for Recurring Payments.
+You have continued to charge the cardholder's account after they notified you to cancel or revoke consent for [recurring payments](/features/recurring-payments/).
 
 To dispute this type of chargeback, you need to provide:
 

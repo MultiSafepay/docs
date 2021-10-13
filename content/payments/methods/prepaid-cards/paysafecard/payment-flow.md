@@ -6,8 +6,10 @@ meta_title: "Paysafecard payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/paysafecard/payment-flow/'
 aliases: 
     - /payment-methods/paysafecard/how-does-paysafecard-work
+    - /payments/methods/prepaid-cards/paysafecard/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

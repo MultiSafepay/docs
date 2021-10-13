@@ -10,6 +10,7 @@ logo: "/logo/Plugins/Magento.svg"
 weight: 02
 title_short: "Magento 1"
 layout: 'single'
+url: '/magento-1/'
 aliases: 
     - /plugins/magento1
     - /integrations/plugins/magento1
@@ -18,6 +19,7 @@ aliases:
     - /integrations/plugins/magento1/manual
     - /integrations/magento1/manual
     - /integrations/ecommerce-integrations/magento1
+    - /payments/integrations/ecommerce-platforms/magento1/
 ---
 
 {{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. For more information and instructions, see the [MultiSafepay blog](https://bit.ly/2YX2LGL).{{< /alert-notice >}}
@@ -51,6 +53,71 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 - MultiSafepay account – See [Getting started](/getting-started/).
 - Magento Open Source 1.7 - 1.9
 - Tested on PHP 7.0
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Belfius](/payments/methods/banks/belfius)
+- [CBC](/payments/methods/banks/cbc)
+- [Dotpay](/payments/methods/banks/dotpay)
+- [EPS](/payments/methods/banks/eps)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [iDEAL QR](/payments/methods/banks/idealqr)
+- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
+- [KBC](/payments/methods/banks/kbc)
+- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
+
+**Pay later methods**
+
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+
+**Wallets**
+
++ [Alipay](/payments/methods/wallet/alipay)
++ [Apple Pay](/payments/methods/wallet/applepay)
++ [PayPal](/payments/methods/wallet/paypal)
+
+**Prepaid cards**
+
++ Beauty and Wellness gift card
++ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Fashioncheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
++ Fietsenbon
++ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Good4fun](https://www.good4fun.nl)
++ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
++ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Podium](https://www.podiumcadeaukaart.nl)
++ [Sport en Fit](https://www.sportenfitcadeau.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Wellness gift card](https://www.wellnessgiftcard.nl)
++ Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl)
++ [Yourgift](https://www.yourgift.nl)
 
 {{< /details >}}
 

@@ -1,8 +1,11 @@
 ---
 title : "Configuring generic gateways"
-meta_title: "Drupa 8 plugin - Configuring generic gateways - MultiSafepay Docs"
+meta_title: "Drupal 8 plugin - Configuring generic gateways - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
+url: '/drupal-8-9/generic-gateways/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/drupal8/faq/configuring-generic-gateways/
 ---
 
 The MultiSafepay plugin for Drupal 8 & 9 supports [generic gateways](/faq/general/generic-gateways/).

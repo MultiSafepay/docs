@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Integrating and testing SEPA Direct Debit in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/directdebit-en.svg'
+url: '/payment-methods/sepa-direct-debit/integration-testing/'
 aliases:
     - /payment-methods/sepa-direct-debit/sepa-direct-debit-testing
+    - /payments/methods/banks/sepa-direct-debit/integration-and-testing/
 ---
 
 To process SEPA Direct Debit payments via our API, see API reference – [SEPA Direct Debit](/api/#sepa-direct-debit).

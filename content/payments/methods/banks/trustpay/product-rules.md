@@ -6,10 +6,11 @@ meta_title: "TrustPay product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-url: '/payments/methods/trustpay/product-rules/'
+url: '/payment-methods/trustpay/product-rules/'
 aliases: 
     - /payment-methods/trustpay/trustpay-what-is-it/
     - /payments/methods/banks/trustpay/about/
+    - /payments/methods/trustpay/product-rules/
 ---
 
 |   |   |   |
@@ -17,7 +18,7 @@ aliases:
 | **Countries**  | Czech Republic  | |
 | **Currencies**  | CZK | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Payment flow**  | [Redirect](/api/#trustpay) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Transactions expire after**  | 10 days | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |

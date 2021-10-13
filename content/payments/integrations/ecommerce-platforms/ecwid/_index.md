@@ -8,11 +8,13 @@ weight: 12
 title_short: "Ecwid"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
 layout: 'single'
+url: '/ecwid/'
 aliases: 
     - /hosted/ecwid
     - /integrations/hosted/ecwid
     - /integrations/ecwid
     - /integrations/ecommerce-integrations/ecwid
+    - /payments/integrations/ecommerce-platforms/ecwid/
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Ecwid store.
@@ -32,6 +34,25 @@ For any questions about the app, contact the Integration Team:
 - Telephone: +31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [Sofort](/payments/methods/banks/sofort-banking)
 
 {{< /details >}}
 

@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
-url: '/payments/methods/bank-transfer/product-rules/'
+url: '/payment-methods/bank-transfer/product-rules/'
 aliases: 
     - /payment-methods/bank-transfer/what-is-bank-transfer/
     - /payments/methods/banks/bank-transfer/about/
+    - /payments/methods/bank-transfer/product-rules/
 ---
 
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | CZK, EUR, GBP, HUF, PLN | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#bank-transfer-direct) / [Redirect](/api/#bank-transfer-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 60 days | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

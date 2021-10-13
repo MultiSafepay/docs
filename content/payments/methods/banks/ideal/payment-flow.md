@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal.svg'
+url: '/payment-methods/ideal/payment-flow/'
 aliases: 
     - /payment-methods/ideal/how-does-ideal-work/
+    - /payments/methods/banks/ideal/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

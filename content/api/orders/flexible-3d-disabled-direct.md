@@ -1,5 +1,5 @@
 ---
-weight: 230
+weight: 232
 meta_title: "API reference - Direct: Flexible 3D disabled - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
@@ -138,7 +138,7 @@ Options: `direct`.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Options: `VISA`, `MASTERCARD`.
 
 ----------------

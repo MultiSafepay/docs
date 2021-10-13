@@ -7,10 +7,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 logo: '/logo/Payment_methods/ING_Homepay.svg'
-url: '/payments/methods/ing-home-pay/product-rules/'
+url: '/payment-methods/ing-home-pay/product-rules/'
 aliases: 
     - /payment-methods/ing-home-pay/what-is-ing-home-pay/
     - /payments/methods/banks/ing-home-pay/about/
+    - /payments/methods/ing-home-pay/product-rules/
 ---
 
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Direct](/api/#ing-home-pay-direct) / [Redirect](/api/#ing-home-pay-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 5 days | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
 

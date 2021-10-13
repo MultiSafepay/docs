@@ -9,6 +9,7 @@ weight: 29
 title_short: "CCVShop"
 description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop "
 layout: 'single'
+url: '/ccv-shop/'
 aliases: 
     - /plugins/ccvshop
     - /integrations/plugins/ccvshop
@@ -16,6 +17,7 @@ aliases:
     - /plugins/ccvshop/manual/
     - /integrations/plugins/ccvshop/manual/
     - /integrations/ecommerce-integrations/ccvshop
+    - /payments/integrations/ecommerce-platforms/ccvshop/
 ---
 This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop.
 
@@ -39,6 +41,30 @@ Contact MultiSafepay:
 - Telephone: +31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
+
+{{< /details >}}
+
+{{< details title="Supported payment methods" >}}
+
+**Credit cards**
+  
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+
+**Banking methods**
+
+- [Bancontact](/payments/methods/banks/bancontact)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Giropay](/payments/methods/banks/giropay)
+- [iDEAL](/payments/methods/banks/ideal)
+- [Sofort](/payments/methods/banks/sofort-banking)
+- [Trustly](/payments/methods/banks/trustly)
+
+**Pay later methods**
+
+- [AfterPay](/payments/methods/billing-suite/afterpay/)
+- [Klarna](/payments/methods/billing-suite/klarna/)
 
 {{< /details >}}
 

@@ -6,8 +6,10 @@ meta_title: "PayPal - Integration and testing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing PayPal in your ecommerce platform"
 layout: 'child'
+url: '/payment-methods/paypal/integration-testing/'
 aliases:
     - /payment-methods/wallet/paypal/paypal-testing
+    - /payments/methods/wallet/paypal/integration-and-testing/
 ---
 
 To process PayPal payments via our API, see API reference – [PayPal](/api/#paypal).

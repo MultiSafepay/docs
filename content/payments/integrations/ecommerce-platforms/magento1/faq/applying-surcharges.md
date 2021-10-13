@@ -4,8 +4,10 @@ weight:
 meta_title: "Magento 1 plugin - Applying surcharges - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: '/magento-1/surcharges/'
 aliases: 
     - /integrations/magento1/faq/payment-fee-surcharges/
+    - /payments/integrations/ecommerce-platforms/magento1/faq/applying-surcharges/
 ---
 
 You can apply [surcharges](/faq/general/multisafepay-glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.

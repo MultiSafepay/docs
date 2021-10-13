@@ -6,6 +6,9 @@ meta_title: "Edenred payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/edenred/payment-flow/'
+aliases:
+    - /payments/methods/prepaid-cards/edenred/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

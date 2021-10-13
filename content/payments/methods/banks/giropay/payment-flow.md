@@ -7,8 +7,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/Giropay.svg'
+url: '/payment-methods/giropay/payment-flow/'
 aliases: 
     - /payment-methods/giropay/how-does-giropay-work/
+    - /payments/methods/banks/giropay/payment-flow/
 ---
 
 The table below shows a successful payment flow from start to finish.  

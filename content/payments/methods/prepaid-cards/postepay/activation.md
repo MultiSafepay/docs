@@ -6,9 +6,10 @@ meta_title: "Activating Postepay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Activating Postepay to use in your MultiSafepay account"
 layout: 'child'
-url: '/postepay/activation/'
+url: '/payment-methods/postepay/activation/'
 aliases:
     - /payments/methods/credit-and-debit-cards/postepay/activation/
+    - /postepay/activation/
 ---
 Postepay payments are processed through the Visa or Mastercard gateway.
 

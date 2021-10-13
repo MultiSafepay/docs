@@ -6,11 +6,12 @@ meta_title: "Gift card product rules - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
-url: '/payments/methods/gift-cards/product-rules/'
+url: '/payment-methods/gift-cards/product-rules/'
 aliases: 
     - /payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
     - /payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/
     - /payments/methods/prepaid-cards/gift-cards/about/
+    - /payments/methods/gift-cards/product-rules/
 ---
 
 |   |   |   |
@@ -19,7 +20,7 @@ aliases:
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Payment flow**  | [Redirect](/api/#gift-cards) | [More information](/developer/api/difference-between-direct-and-redirect) |
-| **Recurring Payments**  | No | [More information](/payments/features/recurring-payments/)  |
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | Doesn't apply | |
 | **Adjust payment link lifetimes**  | Yes, if using a gift card and another payment method. | [More information](/api/#adjust-payment-link-lifetimes)  |
 
