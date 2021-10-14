@@ -71,29 +71,28 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 **Note:** We only preselect the gift card supplied in the gateway.  
 
 Options:  
-Baby Cadeaubon= `BABYCAD`  
-Beautyandwellness= `BEAUTYWELL`  
-Bloemencadeaukaart= `BLOEMENCAD`  
-Boekenbon= `BOEKENBON`  
-Degrotespeelgoedwinkel= `DEGROTESPL`  
-Edenred Ticket Compliments= `EDENCOM`  
-Edenred Ticket EcoCheque= `EDENCO`  
-Edenred Ticket Restaurant= `EDENRES`  
-Edenred Ticket Sport & Culture= `EDENSPORTS`  
-Fashioncheque= `FASHIONCHQ`   
-Fashiongiftcard= `FASHIONGFT`  
-Fietsenbon= `FIETSENBON`   
-Good4fun= `GOOD4FUN`  
-Gezondheidsbon= `GEZONDHEID`   
-Nationale bioscoopbon= `NATNLBIOSC`      
-Nationaletuinbon= `NATNLETUIN`    
-Parfumcadeaukaart= `PARFUMCADE`   
-Sportenfit= `SPORTENFIT`    
-Vuur & rook gift card= `VRGIFTCARD`    
-VVV Cadeaukaart= `VVVGIFTCRD`   
-Webshopgiftcard= `WEBSHOPGFT`  
-Wijncadeau= `WIJNCADEAU`      
-Yourgift= `YOURGIFT`  
+- [Baby Cadeaubon](https://www.babycadeaubon.nl/)= `BABYCAD`
+- [Beauty Cadeau](https://www.beautycadeau.nl/)= `BEAUTYCAD`
+- [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/page/hoe-het-werkt/)= `BEAUTYWELL`
+- [Biercheque](https://biercheque.nl/)= `BIERCHEQUE`
+- [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/)= `BLOEMENCAD`
+- [Boekenbon](https://bestel.boekenbon.nl/)= `BOEKENBON`
+- [Boeken Voordeel](https://www.boekenVoordeel.nl/)= `BOEKENVOOR`
+- [Fashioncheque](https://www.fashioncheque.com/)= `FASHIONCHQ`
+- [Fashion Giftcard](https://www.fashion-giftcard.nl/)= `FASHIONGFT`
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)= `GEZONDHEID`
+- [Good4fun](https://www.good4fun.nl/)= `GOOD4FUN`
+- [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/)= `HUISTUIN`
+- [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)= `KIDSCADEAU`
+- [Klus Cadeau](https://www.kluscadeau.nl/)= `KLUSCADEAU`
+- [Nationale Tuinbon](https://www.nationale-tuinbon.nl/)= `NATNLETUIN`
+- [Ohmygood Giftcard](https://ohmygood.nl/)= `OHMYGOOD`
+- [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/)= `SPEELGOED`
+- [Sport & Fit](https://www.sportenfitcadeau.nl/)= `SPORTENFIT`
+- [Sports Gift Card](https://www.sports-giftcard.com/)= `SPORTSGIFT`
+- [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/)= `VVVGIFTCRD`
+- [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/)= `WIJNCADEAU`
+- [YourGift](https://www.yourgift.nl/)= `YOURGIFT`
 
 ----------------
 `currency` | string | required
