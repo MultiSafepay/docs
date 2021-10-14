@@ -29,7 +29,7 @@ By payment type:
 - Paymentmethod: the payment method
 - Completed: the number of completed transactions
 - Declined: the number of declined transactions
-- Retry completed: the number of transactions that were completed after retry
+- Retry completed: the number of transactions that were completed after retrying
 - Retry completed diff paymentmethod: the number of transactions that were completed after retrying with a different payment method
 - Perc completed: the percentage of all transactions that were successfully completed
 
@@ -38,7 +38,7 @@ By country:
 - Country: the country where the transaction took place
 - Completed: the number of completed transactions
 - Declined: the number of declined transactions
-- Retry completed: the number of transactions that were completed after retry
+- Retry completed: the number of transactions that were completed after retrying
 - Retry completed diff paymentmethod: the number of transactions that were completed after retrying with a different payment method
 - Perc completed: the percentage of all transactions that were successfully completed
 
@@ -48,7 +48,7 @@ Declined:
 - Maintransaction: MultiSafepay's transaction reference number
 - Paymenttype: the payment method
 - Country: the country where the transaction took place
-- Email: your customer email address
+- Email: your customer's email address
 - Merchant id: your unique identifier for the order
 - Reason: the reason why the transaction was declined, if applicable
 
@@ -58,7 +58,7 @@ Completed retry:
 - Maintransaction: MultiSafepay's transaction reference number
 - Paymenttype: the payment method
 - Country: the country where the transaction took place
-- Email: your customer email address
+- Email: your customer's email address
 - Merchant id: your unique identifier for the order
 - Result: additional information about the transaction, if applicable
 
@@ -68,7 +68,7 @@ Completed diff method:
 - Maintransaction: MultiSafepay's transaction reference number
 - Paymenttype: the payment method
 - Country: the country where the transaction took place
-- Email: your customer email address
+- Email: your customer's email address
 - Merchant id: your unique identifier for the order
 - Original: the original payment method
 - Retry: the payment method used to retry
@@ -81,7 +81,7 @@ Second Chance orders:
 - Amount: the amount paid
 - Paymenttype: the payment method
 - Country: the country where the transaction took place
-- Email: your customer email address
+- Email: your customer's email address
 - Merchant id: your unique identifier for the order
 - Totals: the total number of transactions, and total amount paid
 
