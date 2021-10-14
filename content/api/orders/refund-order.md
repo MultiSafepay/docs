@@ -8,13 +8,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "currency": "EUR",
-    "amount": "500",
-    "description": "",
-    "refund_order_id": "refund-order-id-1234",
-    "var1": "test-string1",
-    "var2": "test-string2",
-    "var3": "test-string3"
+  "currency": "EUR",
+  "amount": "500",
+  "description": "",
+  "refund_order_id": "refund-order-id-1234",
+  "var1": "test-string1",
+  "var2": "test-string2",
+  "var3": "test-string3"
 }
 ```
 
