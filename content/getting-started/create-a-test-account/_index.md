@@ -11,6 +11,17 @@ weight: 10
 short_description: "Create a free MultiSafepay test account."
 ---
 
+{{< mermaid class="text-center">}}
+sequenceDiagram
+    participant C as Customer
+    participant OB as Openbank's balance
+    participant AB as Affiliate's balance
+    participant ABA as Affiliate's bank account
+    
+    Note over C,ABA: Openbank requests and receives customer credit score from MultiSafepay
+    AB-->>OB:Pays risk assessment fee
+{{< /mermaid >}}
+
 A test account lets you:
 
 * Build and test your integration.

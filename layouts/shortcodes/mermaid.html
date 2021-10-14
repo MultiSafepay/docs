@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div class="mermaid modal-preview{{ with .Get "class" }} {{ . }}{{ end }}" 
 {{ if isset .Params "caption" }} 
   alt="{{ index .Params "caption" }}" 
@@ -7,17 +6,3 @@
   {{- .Inner -}}
 </div>
 {{ .Page.Scratch.Set "mermaid" true }}
-=======
-{{ if not (.Page.Scratch.Get "mermaid") }}
-<!-- Include mermaid only first time -->
-<script src="{{ "js/mermaid.min.js" | relURL }}"></script>
-{{ with resources.Get "mermaid.json" }}
-  <script>mermaid.initialize({{ .Content | safeJS }})</script>
-{{ end }}
-{{ .Page.Scratch.Set "mermaid" true }}
-{{ end }}
-
-<p class="mermaid{{ with .Get "class" }} {{ . }}{{ end }}">
-  {{- .Inner -}}
-</p>
->>>>>>> origin/master
