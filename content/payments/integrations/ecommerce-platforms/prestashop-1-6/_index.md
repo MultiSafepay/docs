@@ -22,6 +22,8 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/
 ---
 
+{{< alert-notice >}} **Note:** We are phasing out support for our Prestashop 1.6 plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop/) as soon as possible. {{< /alert-notice >}}
+
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.6 webshop.
 
 {{< details title="Test environment" >}}
