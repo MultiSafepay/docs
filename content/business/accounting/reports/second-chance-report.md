@@ -7,6 +7,7 @@ read_more: '.'
 ---
 
 The Second Chance report provides an overview of all transactions:
+
 - By payment method or country
 - Declined
 - Retried and completed 
@@ -56,7 +57,7 @@ Supported formats: Excel or PDF
 | **Different payment method:** ||
 | Retry | The payment method used to retry |
 | Result | Any additional information about the transaction  |
-| **Second Chance:** ||
+| **Completed with Second Chance:** ||
 | Amount | The amount paid |
 | Totals | The total number of transactions, and total amount paid |
 
