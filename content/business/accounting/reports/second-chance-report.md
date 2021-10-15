@@ -6,91 +6,62 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 ---
 
-The Second Chance report provides an overview of:
-
-- All transactions by payment type
-- All transactions by country
-- All declined transactions
-- All transactions that were retried and completed
-- All transactions that were retried and completed with a different payment method
-- All paid transactions that were a result of [Second Chance](/features/second-chance/)
+The Second Chance report provides an overview of all transactions:
+- By payment method or country
+- Declined
+- Retried and completed 
+- Retried and completed with a different payment method
+- Completed with [Second Chance](/features/second-chance/) 
 
 Supported formats: Excel or PDF
 
-{{< details title="Report contents" >}}
+## Report contents
 
-- Report created: the date the report was generated
-- Merchant ID: your MultiSafepay account number
-- Date from: the start date of the reporting period
-- Date till: the end date of the reporting period
+{{< details title="By payment method or country" >}}
 
-By payment type:
-
-- Paymentmethod: the payment method
-- Completed: the number of completed transactions
-- Declined: the number of declined transactions
-- Retry completed: the number of transactions that were completed after retrying
-- Retry completed diff paymentmethod: the number of transactions that were completed after retrying with a different payment method
-- Perc completed: the percentage of all transactions that were successfully completed
-
-By country:
-
-- Country: the country where the transaction took place
-- Completed: the number of completed transactions
-- Declined: the number of declined transactions
-- Retry completed: the number of transactions that were completed after retrying
-- Retry completed diff paymentmethod: the number of transactions that were completed after retrying with a different payment method
-- Perc completed: the percentage of all transactions that were successfully completed
-
-Declined:
-
-- Created: the time the transaction was created
-- Maintransaction: MultiSafepay's transaction reference number
-- Paymenttype: the payment method
-- Country: the country where the transaction took place
-- Email: your customer's email address
-- Merchant id: your unique identifier for the order
-- Reason: the reason why the transaction was declined, if applicable
-
-Completed retry:
-
-- Created: the time the transaction was created
-- Maintransaction: MultiSafepay's transaction reference number
-- Paymenttype: the payment method
-- Country: the country where the transaction took place
-- Email: your customer's email address
-- Merchant id: your unique identifier for the order
-- Result: additional information about the transaction, if applicable
-
-Completed diff method:
-
-- Created: the time the transaction was created
-- Maintransaction: MultiSafepay's transaction reference number
-- Paymenttype: the payment method
-- Country: the country where the transaction took place
-- Email: your customer's email address
-- Merchant id: your unique identifier for the order
-- Original: the original payment method
-- Retry: the payment method used to retry
-- Result: additional information about the transaction, if applicable
-
-Second Chance orders:
-
-- Created: the time the transaction was created
-- Maintransaction: MultiSafepay's transaction reference number
-- Amount: the amount paid
-- Paymenttype: the payment method
-- Country: the country where the transaction took place
-- Email: your customer's email address
-- Merchant id: your unique identifier for the order
-- Totals: the total number of transactions, and total amount paid
+| Column | Description | 
+|---|---|
+| Report created| The date the report was generated | 
+| Merchant ID | Your MultiSafepay account number | 
+| Date from | The start date of the reporting period | 
+| Date till | The end date of the reporting period | 
+| Paymentmethod | The payment method | 
+| Country | The country where the transaction took place | By country |
+| Completed | The number of completed transactions | |
+| Declined | The number of declined transactions | By payment method, By country |
+| Retry completed | The number of transactions that were completed after retrying | |
+| Retry completed diff paymentmethod | The number of transactions completed after retrying with a different payment method | |
+| Perc completed | The percentage of all transactions that were successfully completed | |
 
 {{< /details >}}
 
-## Generating a Second Chance report
+{{< details title="Other reports" >}}
 
-To request a second chance report, email your account manager at <sales@multisafepay.com>
+| Column | Description | 
+|---|---|
+| Report created| The date the report was generated | 
+| Merchant ID | Your MultiSafepay account number | 
+| Date from | The start date of the reporting period | All |
+| Date till | The end date of the reporting period | All |
+| Created | The time the transaction was created | All |
+| Maintransaction | MultiSafepay's transaction reference number | All |
+| Paymenttype | The payment method | All |
+| Country | The country where the transaction took place | All |
+| Email | The customer's email address | All |
+| Merchant ID | Your unique identifier for the order | All |
+| **Declined:** | |
+| Reason| Any reason why the transaction was declined |
+| **Retried and completed:** ||
+| Result | Any additional information about the transaction  |
+| **Different payment method:** ||
+| Retry | The payment method used to retry |
+| Result | Any additional information about the transaction  |
+| **Second Chance:** ||
+| Amount | The amount paid |
+| Totals | The total number of transactions, and total amount paid |
 
-## See also
+{{< /details >}}
 
-- [Second Chance](/features/second-chance/)
+## Requesting reports
+
+To request a Second Chance report, email your account manager at <sales@multisafepay.com>
