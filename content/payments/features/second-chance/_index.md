@@ -87,6 +87,6 @@ If you have another order for the same total amount with the same customer email
 
 {{< /details >}}
 
-## Generating a Second Chance report
+## Second Chance reports
 
-To see an overview of all Second Chance email reminders that resulted in successful payment, see [Second Chance report](/business/accounting/reports/second-chance-report/).
+For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/business/accounting/reports/second-chance-report/).
