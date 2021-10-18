@@ -18,6 +18,7 @@ aliases:
     - /integrations/ecommerce-integrations/shoptrader
     - /payments/integrations/ecommerce-platforms/shoptrader/
     - /payments/integrations/ecommerce-platforms/shoptrader/faq/processing-refunds/
+    - /ecommerce-platforms/shoptrader/
 ---
 This free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop is developed and maintained by Shoptrader. 
 

@@ -20,6 +20,7 @@ aliases:
     - /integrations/ecommerce-integrations/lightspeed_app 
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/multiple-accounts/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/supported-payment-methods/
+    - /ecommerce-platforms/lightspeed/
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Lightspeed webshop.  

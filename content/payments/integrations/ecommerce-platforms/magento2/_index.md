@@ -24,6 +24,7 @@ aliases:
     - /integrations/plugins/magento2/beta
     - /integrations/ecommerce-integrations/magento2
     - /payments/integrations/ecommerce-platforms/magento2/
+    - /ecommerce-platforms/magento-2/
 ---
 
 This technical manual is for installing and configuring our new free plugin for integrating MultiSafepay payment solutions into your Magento 2 webshop.

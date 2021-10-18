@@ -20,6 +20,7 @@ aliases:
     - /integrations/shopfactory/manual
     - /integrations/ecommerce-integrations/shopfactory
     - /payments/integrations/ecommerce-platforms/shopfactory/
+    - /ecommerce-platforms/shopfactory/
 ---
 This free plugin to integrate MultiSafepay payment solutions into your ShopFactory webshop is developed and maintained by ShopFactory.
 

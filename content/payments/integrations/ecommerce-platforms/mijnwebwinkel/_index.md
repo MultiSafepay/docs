@@ -17,6 +17,8 @@ aliases:
     - /integrations/hosted/mijnwebwinkel/manual
     - /integrations/mijnwebwinkel/manual
     - /integrations/ecommerce-integrations/mijnwebwinkel
+    - /payments/integrations/ecommerce-platforms/mijnwebwinkel/
+    - /ecommerce-platforms/mijnwebwinkel/
 ---
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Mijnwebwinkel webshop. This app is managed by our partner Mijnwebwinkel (MyOnlineStore).
 

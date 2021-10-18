@@ -17,6 +17,7 @@ aliases:
     - /integrations/logivert/manual
     - /integrations/ecommerce-integrations/logivert
     - /payments/integrations/ecommerce-platforms/logivert/
+    - /ecommerce-platforms/logivert/
 ---
 To install and configure our free app for integrating MultiSafepay payment solutions into your LogiVert app, see LogiVert – [Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen).
 

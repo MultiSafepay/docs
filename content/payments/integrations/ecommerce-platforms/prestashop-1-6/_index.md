@@ -20,6 +20,7 @@ aliases:
     - /integrations/prestashop-1-6/manual
     - /integrations/ecommerce-integrations/prestashop-1-6
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/
+    - /ecommerce-platforms/prestashop-1-6/
 ---
 
 {{< alert-notice >}} **Note:** We are phasing out support for our Prestashop 1.6 plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop/) as soon as possible. {{< /alert-notice >}}

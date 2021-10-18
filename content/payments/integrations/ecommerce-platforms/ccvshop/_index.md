@@ -18,6 +18,7 @@ aliases:
     - /integrations/plugins/ccvshop/manual/
     - /integrations/ecommerce-integrations/ccvshop
     - /payments/integrations/ecommerce-platforms/ccvshop/
+    - /ecommerce-platforms/ccv-shop/
 ---
 This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop.
 
