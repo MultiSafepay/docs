@@ -5,6 +5,23 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 aliases: [/integrations/woocommerce/changelog/]
 ---
 
+## 4.9.0
+Release date: Oct 18th, 2021
+
+### Added
++ PLGWOOS-715: Add 2 "Generic Gateways" which include a flexible gateway code that allow any merchant to connect to almost every payment method we offer.
++ PLGWOOS-746: Declare support for Wordpress 5.8.1 and WooCommerce 5.8.0
+
+### Changed
++ PLGWOOS-740: Improve the helper text of the Google Analytics ID setting field, adding a link to Documentation Center
++ PLGWOOS-747: Upgrade the [PHP-SDK](https://github.com/MultiSafepay/php-sdk) component to 5.3.0
+
+### Fixed
++ PLGWOOS-739: Fix fatal error related with undefined method when processing orders using iDEAL QR
++ PLGWOOS-743: Fix broken links to Documentation Center in settings page
+
+***
+
 ## 4.8.3
 Release date: Sep 6th, 2021
 
