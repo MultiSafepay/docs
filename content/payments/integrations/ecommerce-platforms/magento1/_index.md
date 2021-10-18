@@ -20,6 +20,7 @@ aliases:
     - /integrations/magento1/manual
     - /integrations/ecommerce-integrations/magento1
     - /payments/integrations/ecommerce-platforms/magento1/
+    - /ecommerce-platforms/magento-1/
 ---
 
 {{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. For more information and instructions, see the [MultiSafepay blog](https://bit.ly/2YX2LGL).{{< /alert-notice >}}

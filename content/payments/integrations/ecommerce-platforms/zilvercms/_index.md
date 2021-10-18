@@ -16,6 +16,7 @@ aliases:
     - /integrations/zilvercms
     - /integrations/ecommerce-integrations/zilvercms
     - /payments/integrations/ecommerce-platforms/zilvercms/
+    - /ecommerce-platforms/zilvercms/
 ---
 
 This app is managed by our partner ZilverCMS. 

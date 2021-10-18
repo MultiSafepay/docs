@@ -22,6 +22,7 @@ aliases:
     - /integrations/prestashop-1-7/manual
     - /integrations/ecommerce-integrations/prestashop-1-7
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/
+    - /ecommerce-platforms/prestashop-1-7/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.

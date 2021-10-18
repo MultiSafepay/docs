@@ -10,7 +10,7 @@ title_short: "Lightspeed"
 description_short: "Free core integration to integrate MultiSafepay payment solutions into your Lightspeed webshop "
 layout: 'single'
 tags: 'hidden'
-url: '/ecommerce-platforms/lightspeed-core/'
+url: '/lightspeed-core/'
 aliases: 
     - /hosted/lightspeed_core
     - /integrations/hosted/lightspeed_core
@@ -21,6 +21,7 @@ aliases:
     - /integrations/lightspeed/manual
     - /integrations/ecommerce-integrations/lightspeed_core
     - /payments/integrations/ecommerce-platforms/lightspeed_core/
+    - /ecommerce-platforms/lightspeed-core/
 ---
 
 Our Lightspeed core integration is now deprecated. You can no longer download or install it. 

@@ -20,6 +20,7 @@ aliases:
     - /integrations/shopware5/manual
     - /integrations/ecommerce-integrations/shopware5
     - /payments/integrations/ecommerce-platforms/shopware5/
+    - /ecommerce-platforms/shopware-5/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Shopware 5 webshop.
