@@ -14,7 +14,7 @@ The Second Chance report provides an overview of all transactions:
 - Retried and completed with a different payment method
 - Completed with [Second Chance](/features/second-chance/) 
 
-Supported formats: Excel or PDF
+Supported format: Excel
 
 ## Report contents
 
