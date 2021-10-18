@@ -60,7 +60,7 @@ The Second Chance email template is completely customizable. Follow these steps:
 6. From the **Language** dropdown menu, select the relevant language.
 7. Click **Load default template**. 
 
-For how to customize the template, see [Email templates](/payments/boost/email-template/).
+For how to customize the template, see [Email templates](/features/email-templates/).
 
 ## Potential errors
 
