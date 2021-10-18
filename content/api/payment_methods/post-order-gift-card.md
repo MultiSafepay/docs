@@ -85,6 +85,7 @@ Options:
 - [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/)= `HUISTUIN`
 - [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)= `KIDSCADEAU`
 - [Klus Cadeau](https://www.kluscadeau.nl/)= `KLUSCADEAU`
+- [Nationale Bioscoopbon](https://www.bioscoopbon.nl/)= `NATNLBIOSC`
 - [Nationale Tuinbon](https://www.nationale-tuinbon.nl/)= `NATNLETUIN`
 - [Ohmygood Giftcard](https://ohmygood.nl/)= `OHMYGOOD`
 - [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/)= `SPEELGOED`
