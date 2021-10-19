@@ -14,9 +14,20 @@
     {{ if or (.Site.Params.noindex) (isset .Params "noindex" ) }}
     <meta name="robots" content="noindex,nofollow" />
     {{ end }}
+
+    {{ if or (.Site.Params.noindex) (isset .Params "noindex" ) }}
+    <!-- Targets all crawlers e.g. Google, Algolia Crawler -->
+
+    <meta name="robots" content="noindex,nofollow" />
+    {{ end }}
     
     <!-- Allow Algolia to Crawl the page -->
     <meta name="Algolia crawler" content="index">
+
+    {{ if isset .Params "no-algolia-index" }}
+    <!-- Will target only the Algolia Crawler -->
+        <meta name="Algolia crawler" content="noindex">
+    {{ end }}
 
     {{ partial "meta/name-description" . }}
     {{ partial "meta/name-author" . }}

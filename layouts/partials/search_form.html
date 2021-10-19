@@ -1,10 +1,23 @@
-<div id="search-home" class="search">
-  <input
-    class="addsearch search-form-input flex-search"
-    id="search-input"
-    placeholder="Search"
-    type="text"
-    role="combobox"
-    disabled="disabled"
-  />
-</div>
+<div id="search"></div>
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'W2PVSJV8D8',
+    apiKey: 'ec65682e3f739b6ceb8d0d1c064fea78',
+    siteId: 'a0010b2c-3382-435d-baf4-a8da61602d8d',
+    branch: 'master',
+    selector: 'div#search',
+    analytics: true,
+    hitsPerPage: 8,
+    placeholder: 'Search',
+    theme: {
+      mark: '#3fa9f5',                                 // Color of the matching content
+      background: '#ffffff',
+      selected: '#DFE9EE',                          // Background Color of the selected item
+      colorSourceIcon: '#d6d6e7'                    // Color of the icon on the left of results
+    }
+  });
+</script>
