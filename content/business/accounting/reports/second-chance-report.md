@@ -20,8 +20,8 @@ Supported format: Excel
 
 - Report created: the date the report was generated
 - Merchant ID: your MultiSafepay account number
-- Date from: The start date of the reporting period
-- Date till: The end date of the reporting period
+- Date from: the start date of the reporting period
+- Date till: the end date of the reporting period
 
 {{< details title="By payment method or country" >}}
 
