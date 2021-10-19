@@ -71,6 +71,7 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 **Note:** We only preselect the gift card supplied in the gateway.  
 
 Options:  
+
 - [Baby Cadeaubon](https://www.babycadeaubon.nl/)= `BABYCAD`
 - [Beauty Cadeau](https://www.beautycadeau.nl/)= `BEAUTYCAD`
 - [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/page/hoe-het-werkt/)= `BEAUTYWELL`
