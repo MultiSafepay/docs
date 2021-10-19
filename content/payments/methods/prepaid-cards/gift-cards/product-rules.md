@@ -44,7 +44,7 @@ MultiSafepay supports the following gift cards as standard:
 - [Boeken Voordeel](https://www.boekenVoordeel.nl/)
 - [Fashioncheque](https://www.fashioncheque.com/)
 - [Fashion Giftcard](https://www.fashion-giftcard.nl/)
-- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/)
 - [Good4fun](https://www.good4fun.nl/)
 - [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/)
 - [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)
