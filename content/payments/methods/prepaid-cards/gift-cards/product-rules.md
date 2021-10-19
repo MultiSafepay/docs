@@ -50,6 +50,7 @@ MultiSafepay supports the following gift cards as standard:
 - [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)
 - [Klus Cadeau](https://www.kluscadeau.nl/)
 - [Nationale Bioscoopbon](https://www.bioscoopbon.nl/)
+- [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/)
 - [Nationale Tuinbon](https://www.nationale-tuinbon.nl/)
 - [Ohmygood Giftcard](https://ohmygood.nl/)
 - [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/)
