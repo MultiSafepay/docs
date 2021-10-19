@@ -80,7 +80,7 @@ Options:
 - [Boeken Voordeel](https://www.boekenVoordeel.nl/)= `BOEKENVOOR`
 - [Fashioncheque](https://www.fashioncheque.com/)= `FASHIONCHQ`
 - [Fashion Giftcard](https://www.fashion-giftcard.nl/)= `FASHIONGFT`
-- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)= `GEZONDHEID`
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/)= `GEZONDHEID`
 - [Good4fun](https://www.good4fun.nl/)= `GOOD4FUN`
 - [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/)= `HUISTUIN`
 - [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)= `KIDSCADEAU`
