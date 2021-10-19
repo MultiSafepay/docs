@@ -13,7 +13,7 @@ aliases:
     - /security-and-legal/payment-regulations/about-3d-secure/
 ---
 
-3D Secure is an authentication protocol for online credit and debit card payments. It provides an extra layer of security and prevents [fraud-related chargebacks](/payments/methods/credit-and-debit-cards/user-guide/minimizing-chargebacks/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
+3D Secure is an authentication protocol for online credit and debit card payments. It provides an extra layer of security and prevents [fraud-related chargebacks](/payments/chargebacks/minimizing/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
 
 The major credit card schemes each offer their own branded version of 3D Secure:
 
@@ -25,7 +25,7 @@ If a customer requests a [chargeback](/faq/chargebacks/about-chargebacks/) due t
 
 ## PSD2 requirements
 
-Under the Payment Services Directive 2 ([PSD2]((/faq/payment-regulations/payment-service-directive-2))), MultiSafepay is required to apply the 3D Secure protocol to all Europe-based credit card payments we process.
+Under the Payment Services Directive 2 ([PSD2](/payment-regulations/psd2/), MultiSafepay is required to apply the 3D Secure protocol to all Europe-based credit card payments we process.
 
 The PSD2 is a set of laws and regulations that aims to improve European consumer rights while promoting competition within the financial industry. 
 
