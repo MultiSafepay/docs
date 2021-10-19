@@ -15,7 +15,7 @@ The MultiSafepay Magento 2 plugin supports [Payment Components](/payment-compone
 
 - Provide a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate).
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/getting-started/glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 
 If you're new to accepting credit card payments, email applications to activate them your account manager at <sales@multisafepay.com>
 

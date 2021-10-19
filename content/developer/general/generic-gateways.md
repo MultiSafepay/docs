@@ -18,7 +18,7 @@ Generic gateways only support [`redirect`](/developer/api/difference-between-dir
 
 ## Gift cards 
 
-Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/faq/general/multisafepay-glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
+Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/getting-started/glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
 
 For more information about integrating open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>
 

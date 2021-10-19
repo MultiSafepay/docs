@@ -22,7 +22,7 @@ aliases:
 
 If a customer initiated a transaction but didn't complete payment, you can email a reminder containing a payment link.
 
-For more information and requirements, see [Second Chance](/payments/boost/second-chance/).
+For more information and requirements, see [Second Chance](/features/second-chance/).
 
 You can enable/disable Second Chance emails in each transaction request. 
 

@@ -132,7 +132,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ### Apply dynamic templates
 
-To apply a template to the [MultiSafepay payment page](/payments/checkout/payment-pages/), include in the transaction request:
+To apply a template to the [MultiSafepay payment page](/payment-pages/), include in the transaction request:
 
 - The `template_id` of a template within your MultiSafepay account, **or**
 - A template object structure. 
@@ -241,7 +241,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
 ----------------
 

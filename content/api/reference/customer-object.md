@@ -55,7 +55,7 @@ Default: `en_US` (American English).
 `ip_address` | string | required / recommended 
 
 The customer's IP address.  
-Required for [pay later methods](/payments/methods/billing-suite/) and [credit cards](/payments/methods/credit-and-debit-cards/) as part of our [fraud check](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), optional but recommended for other payment methods.  
+Required for [pay later methods](/payments/methods/pay-later/) and [credit cards](/payments/methods/credit-and-debit-cards/) as part of our [fraud check](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), optional but recommended for other payment methods.  
 If empty or incorrect (e.g. your IP address instead of the customer's) when required, the transaction status may be **Uncleared**, or even **Declined**.       
 
 ----------------
@@ -131,7 +131,7 @@ The customer's phone number.
 `email` | string | required
 
 The customer’s email address.   
-Used to send [Second Chance](/payments/boost/second-chance/) emails and to conduct fraud checks.
+Used to send [Second Chance](/features/second-chance/) emails and to conduct fraud checks.
 
 ----------------
 `user_agent` | string | required

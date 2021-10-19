@@ -59,7 +59,7 @@ For notifying customers that you have processed their refund.
 **Second Chance email (to customer)**  
 For sending customers a friendly reminder to complete a payment. 
 
-Make sure you have enabled [Second Chance](/payments/boost/second-chance/) in your MultiSafepay account.
+Make sure you have enabled [Second Chance](/features/second-chance/) in your MultiSafepay account.
 
 **Transaction completed email (to customer)**  
 For sending payment confirmation to customers. 

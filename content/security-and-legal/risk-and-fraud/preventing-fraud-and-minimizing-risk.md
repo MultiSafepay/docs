@@ -12,7 +12,7 @@ aliases:
 ---
 MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our custom risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team actively works to reduce chargeback rates and analyzes high-risk transactions.
 
-We offer the highest industry protection under the [PCI DSS](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss), including HTTPS, data encryption, and 3D Secure technology. 
+We offer the highest industry protection under the [PCI DSS](/getting-started/glossary/#payment-card-industry-data-security-standard-pci-dss), including HTTPS, data encryption, and 3D Secure technology. 
 
 We act as processor and [acquirer](/getting-started/glossary/#acquirer) for Visa and Mastercard, and are therefore also required to comply with the card schemes' own operating regulations.
 

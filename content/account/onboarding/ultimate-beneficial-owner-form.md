@@ -68,9 +68,3 @@ Download the:
 * [German UBO form](/getting-started/go-live/form/UBOform_DE.pdf)
 
 {{< /details >}}
-
-
-
-
-
-

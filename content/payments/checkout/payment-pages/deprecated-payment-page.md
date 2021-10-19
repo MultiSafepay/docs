@@ -11,7 +11,7 @@ aliases:
     - /payments/checkout/payment-pages/classic-payment-page/
 ---
 
-The deprecated version of the MultiSafepay payment page (URL: `pay.multisafepay.com`) is still fully supported, but we strongly recommend [upgrading to the current version](/payments/activating-payment-pages/), which: 
+The deprecated version of the MultiSafepay payment page (URL: `pay.multisafepay.com`) is still fully supported, but we strongly recommend [upgrading to the current version](/payment-pages/activation/), which: 
 
 - Processes requests to and responses from the MultiSafepay server much faster
 

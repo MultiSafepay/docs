@@ -43,12 +43,12 @@ The lifetime of [payment links](/payments/checkout/payment-link/) for MultiSafep
 
 - [Bank Transfer](/payments/methods/banks/bank-transfer/): 60 days
 - [PayPal](/payments/methods/wallet/paypal/): 14 days
-- [Post-payment methods](/payments/methods/billing-suite/): You cannot adjust payment link lifetimes.
+- [Post-payment methods](/payments/methods/pay-later/): You cannot adjust payment link lifetimes.
 
 To cancel a payment link, see [Cancel an order](/api/#cancel-an-order).
 
 **Second Chance**  
-You cannot edit payment links in [Second Chance](/payments/boost/second-chance/) emails, because the `session_id` of the initial transaction has already been used. You can only edit the link in the initial `POST /orders` request. 
+You cannot edit payment links in [Second Chance](/features/second-chance/) emails, because the `session_id` of the initial transaction has already been used. You can only edit the link in the initial `POST /orders` request. 
 
 If set for under 24 hours:  
 

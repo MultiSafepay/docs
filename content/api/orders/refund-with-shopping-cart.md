@@ -55,7 +55,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ### Refund with shopping cart
-Refund [pay later](/payments/methods/billing-suite/) orders that include a [`shopping_cart` object](/api/#shopping-cart-items-object).
+Refund [pay later](/payments/methods/pay-later/) orders that include a [`shopping_cart` object](/api/#shopping-cart-items-object).
 
 1. Make a `GET /orders/{id}` request to retrieve the items in the shopping cart.
 

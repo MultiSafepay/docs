@@ -9,6 +9,6 @@ aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/sending-payment-reminders/
 ---
 
-The Lightspeed app doesn't support [Second Chance](/payments/boost/second-chance/) emails because Lightspeed orders expire after 12 hours. 
+The Lightspeed app doesn't support [Second Chance](/features/second-chance/) emails because Lightspeed orders expire after 12 hours. 
 
 Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed - [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders)
