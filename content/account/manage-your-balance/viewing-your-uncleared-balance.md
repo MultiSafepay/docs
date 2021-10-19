@@ -11,7 +11,7 @@ aliases:
 
 The [daily balance report](/faq/finance/viewing-your-daily-balance/) now includes the balance of [Uncleared transactions](/faq/finance/evaluating-uncleared-card-transactions/). 
 
-This is particularly useful if you offer [Billing Suite](/payments/methods/billing-suite/) and/or [credit card](/payments/methods/credit-and-debit-cards/) payment methods. 
+This is particularly useful if you offer [Billing Suite](/payments/methods/pay-later/) and/or [credit card](/payments/methods/credit-and-debit-cards/) payment methods. 
 
 To activate the Uncleared balance feature in your daily balance report, email an application to your account manager at <sales@multisafepay.com>
 

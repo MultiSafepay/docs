@@ -25,7 +25,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer selects Alipay at checkout and is redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/). | Initialized | Initialized |
+| 1. | The customer selects Alipay at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
 | 2. | The customer completes the payment. | | |
 | 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
 

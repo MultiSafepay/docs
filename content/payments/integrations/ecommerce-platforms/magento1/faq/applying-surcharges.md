@@ -10,7 +10,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento1/faq/applying-surcharges/
 ---
 
-You can apply [surcharges](/faq/general/multisafepay-glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.
+You can apply [surcharges](/getting-started/glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.
 
 For how applying surcharges may affect your webshop in relation to PSD2, see [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).
 

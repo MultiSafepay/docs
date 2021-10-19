@@ -8,7 +8,7 @@ short_description: "Integrating and testing Apple Pay direct"
 layout: 'single'
 noindex: '.'
 ---
-With a direct integration, the **Google Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/).
+With a direct integration, the **Google Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payment-pages/).
 
 {{< screen src="/img/google-pay-screen.png" align="center" class="small-img desktop-radius" >}}
 

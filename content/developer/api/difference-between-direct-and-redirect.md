@@ -21,7 +21,7 @@ You can make direct requests repeatedly, e.g. for [recurring payments](/features
 
 ### Redirect requests
 
-Redirect requests send the customer to a [MultiSafepay payment page](/payments/checkout/payment-pages/) where they complete payment.
+Redirect requests send the customer to a [MultiSafepay payment page](/payment-pages/) where they complete payment.
 
 If you specify the payment method [`gateway`](/api/#gateways), the page is tailored to the selected payment method. For example, if the `gateway` is set to `VISA`, the page includes fields for the customer to enter their credit card details.  
 If you leave the `gateway` parameter empty, all payment methods enabled in your MultiSafepay account appear on the payment page.

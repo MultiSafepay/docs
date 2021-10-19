@@ -22,7 +22,7 @@ The table below sets out example notification URLs for specific ecommerce platfo
 |----------|-----------------------|
 | CS-Cart    | https://www.example.com/index.php?dispatch=payment_notification.notify&payment=multisafepay_ideal            |
 | Drupal 7     | https://www.example.com/multisafepay/callback                 |
-| Lightspeed    | https://www.example.com/index.php?dispatch=payment_notification.notify&payment=multisafepay_ideal<br>  For more information, see FAQ - [Lightspeed plugin](/integrations/hosted/lightspeed_core/faq/).          |
+| Lightspeed    | https://www.example.com/index.php?dispatch=payment_notification.notify&payment=multisafepay_ideal |
 | Magento 1    | https://www.example.com/index.php/msp/standard/notification           |
 | Magento 2    | https://www.example.com/storeview/multisafepay/connect/notification          |
 | OpenCart    | https://www.example.com/index.php?route=extension/payment/multisafepay/callback          |

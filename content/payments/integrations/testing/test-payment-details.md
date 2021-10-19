@@ -58,7 +58,7 @@ Sample statuses:
 
 {{< details title="CBC" >}}
 
-CBC doesn't support deprecated payment pages. See [MultiSafepay payment pages](/payments/checkout/payment-pages/).
+CBC doesn't support deprecated payment pages. See [MultiSafepay payment pages](/payment-pages/).
 
 Sample statuses:
 
@@ -129,7 +129,7 @@ Sample statuses:
 
 {{< details title="KBC" >}}
 
-KBC doesn't support deprecated payment pages. See [MultiSafepay payment pages](/payments/checkout/payment-pages/).
+KBC doesn't support deprecated payment pages. See [MultiSafepay payment pages](/payment-pages/).
 
 Sample statuses:
 

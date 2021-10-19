@@ -75,7 +75,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ### Discount with order rule
-For all payment methods except [pay later methods](/payments/methods/billing-suite/), the main way of adding a discount **before** submitting a transaction request is to add it as an order rule (non-refundable). 
+For all payment methods except [pay later methods](/payments/methods/pay-later/), the main way of adding a discount **before** submitting a transaction request is to add it as an order rule (non-refundable). 
 
 For pay later methods, adding a discount as an order rule or a separate discount rule can create a conflict for partial refunds, especially when the discount is a percentage. You cannot undo or partially refund the negative amount. Instead, add discounts as a [unit price](#discount-with-unit-price).
 

@@ -17,7 +17,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 If you want to specify the items in the order without including a full [`shopping_cart` object]((/api/#shopping-cart-items), you can add a single `items` line. 
 
-**Note:** [Post-payment methods](/payments/methods/billing-suite/) require the full `shopping_cart` object.
+**Note:** [Post-payment methods](/payments/methods/pay-later/) require the full `shopping_cart` object.
 
 **Parameter**
 

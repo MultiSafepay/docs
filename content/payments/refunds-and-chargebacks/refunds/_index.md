@@ -133,7 +133,7 @@ This table lists the refund period for each payment method:
 | [Bank transfer](/payments/methods/banks/bank-transfer/) | 730 days |
 | [Belfius](/payments/methods/banks/belfius/) | 730 days |
 | [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/) | 730 days |
-| [CBC](/payments/methods/banks/cbc/) | 730 days |
+| [CBC](/payment-methods/cbc-kbc/) | 730 days |
 | [Dotpay](/payments/methods/banks/dotpay/) | 730 days |
 | [E-Invoicing](/payments/methods/billing-suite/e-invoicing/) | 730 days |
 | [EPS](/payments/methods/banks/eps/) | 730 days |
@@ -154,7 +154,7 @@ This table lists the refund period for each payment method:
 | [Sofort](/payments/methods/banks/sofort-banking/) | 730 days |
 | [Trustly](/payments/methods/banks/trustly/) | 365 days |
 | [Visa](/payments/methods/credit-and-debit-cards/visa/) | 180 days |
-| [WeChat Pay](/payments/methods/wallet/wechat-pay) | 365 days |
+| [WeChat Pay](/payment-methods/wechat-pay/) | 365 days |
 
 {{< /details >}}
 
@@ -180,7 +180,7 @@ The refund status is **Reserved** until midnight on the day the refund was initi
 You can process refunds in batches using our refund script. The script requires 2 parameters: 
 
 - A .csv file that specifies the order ID, amount, and a description of every transaction
-- Your [API key](/faq/general/multisafepay-glossary/#api-key)
+- Your [API key](/getting-started/glossary/#api-key)
 
 The script is written in PHP, so make sure you have a PHP interpreter installed.
 

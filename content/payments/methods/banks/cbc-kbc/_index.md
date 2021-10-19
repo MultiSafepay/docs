@@ -15,4 +15,5 @@ aliases:
     - /payment-methods/banks/cbc
     - /payments/methods/banks/kbc/
     - /payments/methods/banks/cbc-kbc/
+    - /payments/methods/banks/cbc/
 ---

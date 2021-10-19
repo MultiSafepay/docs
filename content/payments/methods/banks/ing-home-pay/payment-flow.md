@@ -27,7 +27,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer selects ING Home'Pay at checkout and is redirected to a [MultiSafepay payment page](/payments/activating-payment-pages/). | Initialized | Initialized |
+| 1. | The customer selects ING Home'Pay at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/activation/). | Initialized | Initialized |
 | 2. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
 | 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
 

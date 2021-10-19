@@ -25,7 +25,7 @@ You might need to manually generate a payment link if:
 
 Check specific [payment methods](/payments/methods/) to see if manually generated payment links are supported.
 
-**Note:** [Pay later methods](/payments/methods/billing-suite/) do **not** support manually generated payment links.
+**Note:** [Pay later methods](/payments/methods/pay-later/) do **not** support manually generated payment links.
 
 ## Generating payment links
 

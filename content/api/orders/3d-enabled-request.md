@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 > JSON response     
-> When [3D Secure](/faq/general/multisafepay-glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
+> When [3D Secure](/getting-started/glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
 
 ```json
 "customer_verification": {

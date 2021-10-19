@@ -75,7 +75,7 @@ To calculate the signature/hash, follow these steps:
 1. Base64 decode the Auth header.
 2. Split the decoded Auth header using the colon (`:`) as separator. The first string is the timestamp, the second string is a SHA512 hash of the payload.
 3. Concatenate the timestamp, colon, and (non-hashed) payload of the notification.
-4. SHA512 hash the concatenated string that resulted from step 3 using your [website API key](/tools/multisafepay-account/get-your-api-key) as HMAC key.
+4. SHA512 hash the concatenated string that resulted from step 3 using your [website API key](/account/site-id-api-key-secure-code/) as HMAC key.
 5. Check whether the the SHA512 hash that resulted from step 4 matches the SHA512 hash from step 2.
 
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
