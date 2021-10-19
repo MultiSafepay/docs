@@ -31,12 +31,12 @@ Supported formats: Excel or PDF
 
 Columns:
 
-- Description: Payment method/refunds/chargebacks/reversals/transaction fees, broken down by revenue and cost
-- Column 1: The transaction fee
-- Number: The number of transactions
-- Debit: The total amount debited
-- Credit: The total amount credited 
-- Net income: The total revenue minus costs
+- Description: payment method/refunds/chargebacks/reversals/transaction fees, broken down by revenue and cost
+- Column 1: the transaction fee
+- Number: the number of transactions
+- Debit: the total amount debited
+- Credit: the total amount credited 
+- Net income: the total revenue minus costs
 
 {{< /details >}}
 

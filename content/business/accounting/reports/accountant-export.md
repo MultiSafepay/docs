@@ -42,7 +42,7 @@ MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions d
 - Merchant ID: your MultiSafepay account number
 - Date from: the start date of the reporting period
 - Date till: the end date of the reporting period
-- Currency: the currency the payout was paid in
+- Currency: the currency of transactions
 - Opening balance: the balance at the start date
 - Total credit: the amount credited in the report period
 - Total debit: the amount debited in the report period
