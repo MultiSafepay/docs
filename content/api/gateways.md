@@ -10,8 +10,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 # Gateways
 <hr class="separator">
 
-Payment gateways facilitate transactions by transfering information between your [backend](/getting-started/glossary/#backend), MultiSafepay, and the payment method.
+In our API, a payment method is identified as `gateway`. 
 
-Available payment methods in your MultiSafepay account are returned as `gateways`.
+To activate payment methods, see [Activating payment methods](/account/activating-payment-methods/).
+
+Use the gateway requests to:
+
+- [Retrieve all activated gateways](/api/#retrieve-activated-gateways)
+- [Retrieve a single activated gateway](/api/#retrieve-a-gateway)
+- [Retrieve all issuers for a gateway](/api/#retrieve-gateway-issuers)
 
 {{% /description %}}
