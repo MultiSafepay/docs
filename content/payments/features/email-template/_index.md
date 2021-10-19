@@ -36,7 +36,7 @@ To speed up and customize customer emails, you can use preformatted and/or prewr
 For sending customers MultiSafepay's bank details when they select [Bank Transfer](/payments/methods/banks/bank-transfer) as payment method and you send a [`redirect`](/developer/api/difference-between-direct-and-redirect/) transaction request. 
 
 **Chargeback email (to merchant)**  
-For notifying you when a customer requests a [chargeback](/payments/methods/credit-and-debit-cards/user-guide/chargebacks/) (recommended if you accept credit card payments).
+For notifying you when a customer requests a [chargeback](/payments/chargebacks/about/) (recommended if you accept credit card payments).
 
 Make sure you add one or more email addresses to send these emails to in your MultiSafepay account, under 
 **Contact information** > **Chargeback email**. 
