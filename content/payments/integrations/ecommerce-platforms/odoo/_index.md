@@ -22,6 +22,7 @@ aliases:
     - /integrations/odoo/manual
     - /integrations/ecommerce-integrations/odoo
     - /payments/integrations/ecommerce-platforms/odoo/
+    - /ecommerce-platforms/odoo/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Odoo webshop. Our plugin receives regular updates from Odoo and MultiSafepay.

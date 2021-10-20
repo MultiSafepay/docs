@@ -17,6 +17,8 @@ aliases:
     - /integrations/hosted/mijnwebwinkel/manual
     - /integrations/mijnwebwinkel/manual
     - /integrations/ecommerce-integrations/mijnwebwinkel
+    - /payments/integrations/ecommerce-platforms/mijnwebwinkel/
+    - /ecommerce-platforms/mijnwebwinkel/
 ---
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Mijnwebwinkel webshop. This app is managed by our partner Mijnwebwinkel (MyOnlineStore).
 
@@ -99,7 +101,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 1. Sign in to your Mijwebwinkel [backend](/getting-started/glossary/#backend).
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
-2. Add your MultiSafepay account ID, site ID, site security code, and [API key](/faq/general/multisafepay-glossary/#api-key).
+2. Add your MultiSafepay account ID, site ID, site security code, and [API key](/getting-started/glossary/#api-key).
 6. Select the relevant payment methods.
 
 **Note:** You can apply a [surcharge](/security-and-legal/payment-regulations/about-surcharges/) to payment methods.

@@ -20,7 +20,7 @@ aliases:
     - /features/3d-secure/about/
 ---
 
-3D Secure 2.0 is an authentication protocol that provides an extra layer of security for online credit and debit card payments. 
+3D Secure is an authentication protocol for online credit and debit card payments. It provides an extra layer of security and prevents [fraud-related chargebacks](/payments/chargebacks/minimizing/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
 
 If a customer requests a [chargeback](/payments/chargebacks/) due to fraud after the transaction passed 3D&nbsp;Secure authentication, the card scheme is responsible for the costs instead of you.
 
@@ -52,9 +52,3 @@ MultiSafepay is required under the Payment Services Directive 2 ([PSD2](/payment
 
 - [Dynamic 3D Secure](/features/3d-secure/dynamic/)
 - [Flexible 3D](/features/flexible-3d/)
-
-
-
-
-
-

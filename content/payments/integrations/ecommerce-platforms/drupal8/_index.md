@@ -18,6 +18,7 @@ aliases:
     - /integrations/drupal8
     - /integrations/ecommerce-integrations/drupal8
     - /payments/integrations/ecommerce-platforms/drupal8/
+    - /ecommerce-platforms/drupal-8-9/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Drupal 8 webshop via Composer.

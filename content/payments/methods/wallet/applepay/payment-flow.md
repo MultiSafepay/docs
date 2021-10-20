@@ -25,7 +25,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer selects Apple Pay at checkout and is redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/). | Initialized | Initialized |
+| 1. | The customer selects Apple Pay at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
 | 2. | The customer completes the payment on an iOS device, using either [Touch ID or Face ID](https://www.apple.com/apple-pay). |   |  |
 | 3. | MultiSafepay receives the customer's credit card details as an encrypted token. |   |  |
 | 4. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |

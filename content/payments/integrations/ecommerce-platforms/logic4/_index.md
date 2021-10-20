@@ -19,6 +19,7 @@ aliases:
     - /integrations/logic4/manual
     - /integrations/ecommerce-integrations/logic4
     - /payments/integrations/ecommerce-platforms/logic4/
+    - /ecommerce-platforms/logic4/
 ---
 
 To install and configure our free plugin for integrating MultiSafepay payment solutions into your Logic4 webshop, see Logic4 – [Contact](https://www.logic4.nl/contact/). 

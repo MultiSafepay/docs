@@ -12,7 +12,7 @@ aliases:
 The `locale` parameter:
 
 - Localizes the payment page with the customer's language, region, and available payment methods
-- Sends [email templates](/payments/boost/email-template/) in the customer's preferred language
+- Sends [email templates](/features/email-templates/) in the customer's preferred language
 - Specifies any special preferences for the user interface.
 
 **Note:** If an email template is set for a German customer, but the `locale` parameter is `en_US`, the English email template is sent instead of the German one.

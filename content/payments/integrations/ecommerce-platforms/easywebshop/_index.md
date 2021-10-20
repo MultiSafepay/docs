@@ -14,7 +14,8 @@ aliases:
     - /integrations/hosted/easywebshop
     - /integrations/easywebshop
     - /integrations/ecommerce-integrations/easywebshop
-    - /payments/integrations/ecommerce-platforms/dynamicweb/
+    - /payments/integrations/ecommerce-platforms/easywebshop/
+    - /ecommerce-platforms/easywebshop/
 ---
 
 Free app to integrate MultiSafepay payment solutions into your EasyWebshop platform.

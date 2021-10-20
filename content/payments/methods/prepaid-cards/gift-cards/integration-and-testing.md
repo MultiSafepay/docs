@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/prepaid-cards/gift-cards/integration-and-testing/
 ---
 
-To process gift card payments via our API, see API reference – [Gift cards](/api/#gift-card).
+To process gift card payments via our API, see API reference – [Gift cards](/api/#gift-cards).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 

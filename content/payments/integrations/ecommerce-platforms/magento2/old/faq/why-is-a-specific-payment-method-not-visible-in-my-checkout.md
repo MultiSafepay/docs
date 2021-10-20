@@ -7,7 +7,7 @@ noindex: 'true'
 read_more: "."
 ---
 
-When you enabled a payment method, it should always be visible, even when your [API key](/faq/general/multisafepay-glossary/#api-key) is incorrect.
+When you enabled a payment method, it should always be visible, even when your [API key](/getting-started/glossary/#api-key) is incorrect.
 
 Payment methods may also not be visible in the checkout due to the following:
 

@@ -32,5 +32,5 @@ To apply, email your account manager at <sales@multisafepay.com>
 
 ## See also 
 
-- [About 3D Secure](/payment-regulations/3d-secure/)
-- [Versions of 3D Secure](/payment-regulations/versions-3d-secure/)
+- [About 3D Secure](/features/3d-secure/)
+- [Versions of 3D Secure](/features/3d-secure/versions/)

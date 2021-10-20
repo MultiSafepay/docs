@@ -47,7 +47,7 @@ Embed a single or multiple payment methods in your checkout.
 - Displays the logos of available card brands in the card number field, and then detects the specific brand as the customer enters their card number and displays the relevant logo
 - Validates the card number
 - Displays error messages for credit card fields, e.g. card not supported, card expired
-- Supports tokenization for fast, secure repeat payments
+- Supports tokenization for fast, secure recurring payments
 
 ## Manuals 
 {{< two-buttons href-2="/payment-components/integration" header-2="Manual" text-2="Integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

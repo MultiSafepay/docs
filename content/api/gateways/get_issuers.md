@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< code-block >}}
 
-> GET - /issuers{gateway}
+> GET - /issuers/{gateway}
 
 > JSON response
 

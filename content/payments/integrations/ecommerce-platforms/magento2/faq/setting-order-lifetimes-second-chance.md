@@ -9,7 +9,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/setting-order-lifetimes-second-chance/
 ---
 
-[Second Chance](/payments/boost/second-chance/) emails are sent 1 hour and 24 hours after the order was created. By default, the status of Magento 2 orders changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
+[Second Chance](/features/second-chance/) emails are sent 1 hour and 24 hours after the order was created. By default, the status of Magento 2 orders changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services (e.g. ERP/inventory management), if items are low in stock, or for one-off products like antiques.
 

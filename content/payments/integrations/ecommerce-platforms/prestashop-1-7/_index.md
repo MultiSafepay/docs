@@ -22,6 +22,7 @@ aliases:
     - /integrations/prestashop-1-7/manual
     - /integrations/ecommerce-integrations/prestashop-1-7
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/
+    - /ecommerce-platforms/prestashop-1-7/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
@@ -127,7 +128,7 @@ Contact us:
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **Modules & services**.
 3. Search for MultiSafepay, and then click **Configure**.
-4. Enter your [API key](/faq/general/multisafepay-glossary/#api-key). {{% account_info %}}
+4. Enter your [API key](/getting-started/glossary/#api-key). {{% account_info %}}
 5. Click **Save**.
 3. On the **Payments** tab, enable the relevant payment methods.
 

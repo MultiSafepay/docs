@@ -21,7 +21,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
-| 1. | The customer selects Cartes Bancaires at checkout and is redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/). | Initialized | Initialized |
+| 1. | The customer selects Cartes Bancaires at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
 | 2. | The customer enters their credit card details, verifies their identify via [Verified by Visa](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
 | 3. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
 | 4. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |

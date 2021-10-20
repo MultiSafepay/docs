@@ -20,6 +20,7 @@ aliases:
     - /integrations/prestashop-1-6/manual
     - /integrations/ecommerce-integrations/prestashop-1-6
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/
+    - /ecommerce-platforms/prestashop-1-6/
 ---
 
 {{< alert-notice >}} **Note:** We are phasing out support for our Prestashop 1.6 plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop/) as soon as possible. {{< /alert-notice >}}
@@ -114,7 +115,7 @@ Contact us:
 3. Go to **Modules and services** > **Payments and gateways**.  
     **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.
-5. Enter your [API key](/faq/general/multisafepay-glossary/#api-key), and then click **Save**. {{% account_info %}}
+5. Enter your [API key](/getting-started/glossary/#api-key), and then click **Save**. {{% account_info %}}
 6. On the **Payments** tab, enable the relevant payment methods.
 
 **Note:** Payment links generated manually in your MultiSafepay account don't automatically create or update orders in your PrestaShop 1.6 backend.

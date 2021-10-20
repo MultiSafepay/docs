@@ -24,6 +24,7 @@ aliases:
     - /integrations/plugins/magento2/beta
     - /integrations/ecommerce-integrations/magento2
     - /payments/integrations/ecommerce-platforms/magento2/
+    - /ecommerce-platforms/magento-2/
 ---
 
 This technical manual is for installing and configuring our new free plugin for integrating MultiSafepay payment solutions into your Magento 2 webshop.
@@ -215,7 +216,7 @@ Sign in to your Magento 2 backend, and go to **Stores** > **Configuration** > **
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
   - Here you can configure all gateways and gift cards.  
-  - For finding your account ID, site ID, site secure code, or [API key](/faq/general/multisafepay-glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
+  - For finding your account ID, site ID, site secure code, or [API key](/getting-started/glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
   - Your account ID appears in the top-right corner of your MultiSafepay account.
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
     - Make sure you have activated your selected payment methods in your [MultiSafepay account](https://merchant.multisafepay.com).

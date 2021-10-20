@@ -56,7 +56,7 @@ The customer's bank, which verifies transaction information and sends funds to t
 A company (legal entity) that sells products and services to customers.
 
 ### MultiSafepay account
-A merchant's account with MultiSafepay, managed via a [web dashboard](/tools/multisafepay-account/).
+A merchant's account with MultiSafepay, managed via a [web dashboard](https://merchant.multisafepay.com/).
 
 ### MultiSafepay balance
 The balance of funds held in a MultiSafepay account.
@@ -74,7 +74,7 @@ The payment information for a specific customer, e.g. credit card number, CVC co
 Transfers the customer's payment details to where the payment method is processed.
 
 ### payment page
-A webpage the customer is redirected to from the merchant's checkout page where they complete payment. The page may be hosted by MultiSafepay (see [Activating MultiSafepay payment pages](/payments/activating-payment-pages/), the issuer, or the payment method. 
+A webpage the customer is redirected to from the merchant's checkout page where they complete payment. The page may be hosted by MultiSafepay (see [Activating MultiSafepay payment pages](/payment-pages/activation/), the issuer, or the payment method. 
 
 ### payment service provider (PSP)
 MultiSafepay is a PSP and provides services that let merchants accept payments using different payment methods. 

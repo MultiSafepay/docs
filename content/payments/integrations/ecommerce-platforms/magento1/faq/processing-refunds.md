@@ -22,7 +22,7 @@ To process refunds from your backend, follow these steps:
 1. Sign in to your Magento 1 backend. 
 2. Go to **System** > **Connect settings**.
 3. Check that you have:
-    - Entered an [API key](/faq/general/multisafepay-glossary/#api-key)
+    - Entered an [API key](/getting-started/glossary/#api-key)
     - Enabled the **Credit Memo** option
 4. Search for and open the order you want to refund.
 5. Click the **Invoices** tab on the left of the **Order overview**.

@@ -18,6 +18,7 @@ aliases:
     - /integrations/cs-cart
     - /integrations/ecommerce-integrations/cs-cart
     - /payments/integrations/ecommerce-platforms/cs-cart/
+    - /ecommerce-platforms/cs-cart/
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your CS-Cart webshop.

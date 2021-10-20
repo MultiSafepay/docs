@@ -13,4 +13,5 @@ aliases:
     - /integrations/plugins/
     - /integrations/hosted/
     - /integrations/ecommerce-integrations/
+    - /payments/integrations/ecommerce-platforms/
 ---

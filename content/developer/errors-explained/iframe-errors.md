@@ -9,7 +9,7 @@ aliases:
     - /faq/errors-explained/iframe-errors
 ---
  
-An inline frame, or iFrame, is an HTML document embedded inside another HTML document on a [website](/faq/general/multisafepay-glossary/#website). 
+An inline frame, or iFrame, is an HTML document embedded inside another HTML document on a [website](/getting-started/glossary/#website). 
  
 Although MultiSafepay doesn't prohibit iFrames, we don't recommend them. Reasons include:
 

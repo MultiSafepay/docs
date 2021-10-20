@@ -25,4 +25,6 @@ API tokens are used to encrypt sensitive payment details from a customer's devic
 
 Generate a new token for every order, **except** `POST /orders` requests initiated from your server.
 
+**Note**: Tokens are active for 600 seconds.
+
 {{% /description %}}
