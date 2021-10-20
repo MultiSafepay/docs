@@ -18,7 +18,7 @@ aliases:
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](https://docs.multisafepay.com/faq/general/supported-currencies/) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Direct](/api/#santander-betaal-per-maand) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#santander-betaal-per-maand---direct) / [Redirect](/api/#santander-betaal-per-maand---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 day | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
