@@ -11,7 +11,7 @@ aliases:
 
 To upgrade from the classic [MultiSafepay Lightspeed core integration](/payments/integrations/ecommerce-platforms/lightspeed_core) to the Lightspeed app, follow these steps:
 
-1. In the [Lightspeed app manual](/payments/integrations/ecommerce-platforms/lightspeed_app/#manual), follow the steps to install the Lightspeed app.
+1. In the [Lightspeed app manual](/lightspeed/#installation), follow the steps to install the Lightspeed app.
 
 2. Place a test order to make sure it is working properly.
 
