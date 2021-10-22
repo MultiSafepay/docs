@@ -76,7 +76,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## Google Pay
 
-See also Payment methods – [Google Pay](/payments/methods/wallet/googlepay).  
+See also Payment methods – [Google Pay](/payment-methods/google-pay/).  
 
 ### Google Pay - redirect
 

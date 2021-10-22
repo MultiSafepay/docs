@@ -6,6 +6,7 @@ meta_title: "Google Pay payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/google-pay/payment-flow'
 noindex: '.'
 ---
 

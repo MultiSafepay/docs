@@ -6,6 +6,7 @@ meta_title: "Activating Google Pay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Activating Google Pay to use in your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/google-pay/activation'
 noindex: '.'
 ---
 
