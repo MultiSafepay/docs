@@ -8,7 +8,6 @@ intro_description: "Google Pay is a digital wallet that enables in-app and onlin
 layout: 'single'
 logo: '/logo/Payment_methods/GooglePay.svg' 
 short_description: "Digital wallet for online and in-app purchases."
-noindex: '.'
 aliases:
     - /support-tab/magento2/payment-methods/applepay
     - /payment-methods/wallet/applepay
