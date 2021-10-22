@@ -9,7 +9,6 @@ layout: 'single'
 logo: '/logo/Payment_methods/GooglePay.svg' 
 short_description: "Digital wallet for online and in-app purchases."
 noindex: '.'
-tags: 'hidden'
 aliases:
     - /support-tab/magento2/payment-methods/applepay
     - /payment-methods/wallet/applepay
