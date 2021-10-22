@@ -93,10 +93,10 @@ const tokenizationSpecification = {
 Create an array, with card networks accepted by your website:
 
 ```
-const allowedCardNetworks = ["AMEX", "MASTERCARD", "VISA", "MAESTRO"];
+const allowedCardNetworks = ["MASTERCARD", "VISA", "MAESTRO"];
 ```
 
-**Options**: `AMEX`, `MASTERCARD`, `VISA`, `MAESTRO`
+**Options**: `MASTERCARD`, `VISA`, `MAESTRO`
 
 For more information about supported payment card networks, see Google Pay – [Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
 
