@@ -1,6 +1,6 @@
 ---
 title : "Payment Services Directive 2 (PSD2)"
-weight: 10
+weight: 20
 meta_title: "Payment regulations - About Payment Services Directive 2 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
