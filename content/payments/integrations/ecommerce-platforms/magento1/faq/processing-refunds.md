@@ -20,7 +20,7 @@ aliases:
 To process refunds from your backend, follow these steps:
 
 1. Sign in to your Magento 1 backend. 
-2. Go to **System** > **Connect settings**.
+2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect settings**.
 3. Check that you have:
     - Entered an [API key](/getting-started/glossary/#api-key)
     - Enabled the **Credit Memo** option
