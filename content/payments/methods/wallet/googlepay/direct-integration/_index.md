@@ -21,7 +21,7 @@ By accessing or using the Google Pay API, you agree to the [Google APIs Terms of
 
 ## Prerequisites
 
-- To activate Google Pay for your MultiSafepay account, see [Activating Google Pay](/payments/methods/wallet/googlepay/activation/).
+- To activate Google Pay for your MultiSafepay account, see [Activating Google Pay](/payment-methods/google-pay/activation/).
 - To process Google Pay direct payments, you need a [Google Pay business account](https://pay.google.com/business/console/).
 - Serve an HTTPS webpage with a TLS domain-validated certificate.
 
@@ -59,7 +59,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 <div id="button-container" style="width: 160px; height: 40px;"></div>
 ```
 
-**Note**: This element is populated in a later step. For more information, see [Display Google Pay button](/payments/methods/wallet/googlepay/direct-integration/#display-google-pay-button).
+**Note**: This element is populated in a later step. For more information, see [Display Google Pay button](/payment-methods/google-pay/direct/#display-google-pay-button).
 
 ### Configure Google Pay
 
