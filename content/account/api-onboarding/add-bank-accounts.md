@@ -7,9 +7,9 @@ aliases:
 
 Use seven requests to perform actions on bank account details of merchant accounts affiliated to your partner account:
 
-1. [Add bank account](#add-bank-account): add a bank account to a merchant account
-2. [List bank accounts](#list-bank-accounts): retrieve a list of all bank accounts
-3. [Get bank account](#get-bank-account): retrieve a single bank account
+1. [Add bank account](#add-bank-account/): add a bank account to a merchant account
+2. [List bank accounts](/account/api-onboarding/add-bank-accounts/#list-bank-accounts): retrieve a list of all bank accounts
+3. [Get bank account](/account/api-onboarding/add-bank-accounts#get-bank-account): retrieve a single bank account
 5. [Create payment link](#create-payment-link): create a payment link to verify a bank account
 6. [Add bank statement](#add-bank-statement): add a bank statement to verify a bank account
 7. [List bank statements](#list-bank-statements): retrieve a list of all bank statements
@@ -24,7 +24,7 @@ The requests above can be split into two steps:
 2. **Verify bank accounts**: Use the last four requests to verify bank accounts. You can choose to verify through a payment link or by supplying a bank statement.
 
 ## Authentication
-All seven bank account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your Partner Manager.
+All seven bank account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code/). For more information, email your Partner Manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the corresponding API key.
 
