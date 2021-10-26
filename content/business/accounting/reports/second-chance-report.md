@@ -30,7 +30,7 @@ Supported format: Excel
 | Paymentmethod | The payment method | 
 | Country | The country where the transaction took place |
 | Completed | The number of completed transactions |
-| Declined | The number of declined transactions | By payment method, By country |
+| Declined | The number of declined transactions |
 | Retry completed | The number of transactions that were completed after retrying |
 | Retry completed diff paymentmethod | The number of transactions completed after retrying with a different payment method |
 | Perc completed | The percentage of all transactions that were successfully completed |
