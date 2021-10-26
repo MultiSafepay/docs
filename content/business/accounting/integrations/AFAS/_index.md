@@ -35,6 +35,12 @@ For any questions, email the Support Team at <support@multisafepay.com>
 
 ## Third-party integrations
 
-To generate automated accounting reports, see Forque - [AFAS](https://www.forque.nl/afas-consultancy).
+{{< screen src="/img/Logo-Forque.png" align="left" class="medium-img desktop-radius" >}}
+
+For generating automated accounting reports, see Forque – [AFAS](https://www.forque.nl/afas-consultancy).
+
+{{< screen src="/img/Logo-DeViske.png" align="left" class="medium-img desktop-radius" >}}
+
+For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
 
