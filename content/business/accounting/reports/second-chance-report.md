@@ -24,7 +24,7 @@ Supported format: Excel
 - Date till: the end date of the reporting period
 
 {{< details title="By payment method or country" >}}
-
+  
 | Column | Description | 
 |---|---|
 | Paymentmethod | The payment method | 
@@ -38,7 +38,7 @@ Supported format: Excel
 {{< /details >}}
 
 {{< details title="Other sections" >}}
-
+  
 | Column | Description | 
 |---|---|
 | Created | The time the transaction was created |
