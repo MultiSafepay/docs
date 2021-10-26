@@ -21,7 +21,7 @@ Once approved, to activate credit card payments and Google Pay in your MultiSafe
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
 2. Go to **Settings** > **Payment methods**.
-3. Under **Standard payment methods**, select the **Google Pay** checkbox and the checkboxes for the credit cards you want to offer.
+3. Under **Additional payment methods**, select the **Google Pay** checkbox and the checkboxes for the credit cards you want to offer.
 4. Click **Save changes**.
 
 To process Google Pay direct payments, you need a Google Business account. For more information, see [Google Pay direct integration](/payments/methods/wallet/googlepay/direct-integration/).
