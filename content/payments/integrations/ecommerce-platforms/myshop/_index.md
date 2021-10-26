@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay app for myShop"
 meta_title: "myShop app - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Integrations/myShop.svg"
 weight: 23
 title_short: "myShop"

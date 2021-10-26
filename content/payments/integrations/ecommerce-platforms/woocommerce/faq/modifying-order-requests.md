@@ -1,7 +1,7 @@
 ---
 title : "Modifying order requests"
 meta_title: "WooCommerce - Modifying order requests - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: "faqdetail"
 read_more: "."
 url: '/woo-commerce/modifying-order-requests/'

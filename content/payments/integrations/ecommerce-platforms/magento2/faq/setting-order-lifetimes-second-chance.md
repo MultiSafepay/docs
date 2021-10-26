@@ -1,7 +1,7 @@
 ---
 title : "Setting order lifetimes for Second Chance"
 meta_title: "Magento 2 plugin FAQ - Setting order lifetimes for Second Chance - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: "faqdetail"
 read_more: "."
 url: '/magento-2/second-chance-order-lifetimes/'

@@ -2,7 +2,7 @@
 title : "Chargeback reasons and required evidence"
 weight: 60
 meta_title: "Credit card user guide - Chargeback reasons and required evidence - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: "/payments/chargebacks/reasons"
 short_description: "Learn about the reasons why cardholders may request a chargeback"

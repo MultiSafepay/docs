@@ -4,7 +4,6 @@ breadcrumb_title: "Credit and debit cards"
 layout: 'block'
 faq: '.'
 meta_title: 'Credit and debit cards - MultiSafepay Docs'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Credit cards.svg'
 short_description: 'Accept credit and debit card payments worldwide'
 intro_description: 'Credit cards are issued by a bank, building society, or card scheme and let customers pay for products or services on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account.'

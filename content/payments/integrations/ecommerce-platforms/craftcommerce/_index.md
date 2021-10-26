@@ -2,7 +2,6 @@
 title : "MultiSafepay plugin for Craft Commerce"
 title_short: "Craft Commerce"
 meta_title: "Craft Commerce plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 github_url : "https://github.com/MultiSafepay/craft-commerce"
 changelog_url : "."
 logo: "/logo/Integrations/Craft_Commerce.svg"

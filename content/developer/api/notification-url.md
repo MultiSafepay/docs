@@ -2,7 +2,6 @@
 title : "Notification URL"
 meta_title: "Notification URL - MultiSafepay Docs"
 weight: 3
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/how-does-the-notification-url-work

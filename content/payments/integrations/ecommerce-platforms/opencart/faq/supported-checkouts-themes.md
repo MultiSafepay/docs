@@ -1,7 +1,7 @@
 ---
 title : "Supported checkouts and themes"
 meta_title: "OpenCart plugin - Supported checkouts and themes - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: "faqdetail"
 url: '/opencart/checkouts-themes/'
 aliases:

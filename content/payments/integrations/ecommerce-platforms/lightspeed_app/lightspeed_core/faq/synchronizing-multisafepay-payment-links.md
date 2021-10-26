@@ -1,7 +1,7 @@
 ---
 title: "Synchronizing MultiSafepay payment links"
 meta_title: "Lightspeed core integration - Synchronizing MultiSafepay payment links - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 weight: 3
 aliases: 

@@ -2,7 +2,7 @@
 title : "MultiSafepay app for Ecwid"
 meta_title: "Ecwid plugin - MultiSafepay Docs"
 faq: "."
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Integrations/Ecwid.svg"
 weight: 12
 title_short: "Ecwid"

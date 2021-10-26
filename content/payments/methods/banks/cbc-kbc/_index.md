@@ -4,7 +4,6 @@ weight: 70
 meta_title: "Payment methods - CBC/KBC - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/kbccbc"
 childlist: '.'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 intro_description: "An online banking payment method of two of Belgium's largest banks: CBC which serves the French speaking population, and KBC which serves the Dutch-speaking population."
 layout: 'single'
 url: '/payment-methods/cbc-kbc/'

@@ -2,7 +2,7 @@
 title : "Disputing chargebacks"
 weight: 40
 meta_title: "Credit card user guide - Disputing chargebacks - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 short_description: "To dispute a chargeback, provide evidence that the chargeback is unjustified"
 url: "/payments/chargebacks/disputing"

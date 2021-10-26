@@ -5,7 +5,7 @@ download_url : "https://github.com/MultiSafepay/Drupal-Commerce/releases/downloa
 changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/drupal7/changelog/
 faq: "."
 meta_title: "Drupal 7 plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Plugins/Drupal_7.svg"
 weight: 15
 title_short: "Drupal 7"

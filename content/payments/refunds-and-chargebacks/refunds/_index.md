@@ -2,7 +2,7 @@
 title : "Refunds"
 weight: 10
 meta_title: "Payments - Refunds - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: '.'
 url: "/payments/refunds"
 short_description: 'Process refunds in your MultiSafepay account, from your ready-made integration, or via our API'

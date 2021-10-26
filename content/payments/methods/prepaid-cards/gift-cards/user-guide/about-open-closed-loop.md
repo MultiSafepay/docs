@@ -1,7 +1,6 @@
 ---
 title : "About open and closed-loop gift cards"
 meta_title: "Gift cards - About open and closed-loop gift cards - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 20
 url: '/payment-methods/gift-cards/open-loop-closed-loop/'

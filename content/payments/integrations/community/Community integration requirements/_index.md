@@ -2,7 +2,7 @@
 title : "Submit a community integration"
 meta_title: "Submit a community integration - MultiSafepay Docs"
 layout: 'paymentdetails'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 weight: 102
 title_short: "Submit a community integration"
 description_short: "Submit and promote your plugin and become part of the MultiSafepay community."

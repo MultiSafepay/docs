@@ -2,7 +2,6 @@
 title: 'Pay After Delivery'
 weight: 20
 meta_title: "Payment methods - Pay After Delivery - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery"
 childlist: '.'
 intro_description: "Pay After Delivery is MultiSafepay's own online payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement."

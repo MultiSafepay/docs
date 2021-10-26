@@ -5,7 +5,7 @@ changelog_url : "."
 changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/prestashop-1-6/changelog/
 faq: "."
 meta_title: "PrestaShop 1.6 plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.6"

@@ -3,7 +3,6 @@ title: "Integrating and testing CBC/KBC"
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "CBC/KBC - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/cbc.svg'

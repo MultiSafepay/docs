@@ -2,7 +2,6 @@
 title: "Duopact"
 weight: 10
 meta_title: "Yuki integrations - Duopact - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Duopact.png'
 layout: 'single'
 read_more: "."

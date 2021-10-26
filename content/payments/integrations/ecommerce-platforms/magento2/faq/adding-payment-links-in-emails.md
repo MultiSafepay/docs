@@ -1,7 +1,7 @@
 ---
 title : "Adding payment links to order confirmation emails"
 meta_title: "Magento 2 plugin FAQ - Adding payment links - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: "faqdetail"
 summary: "We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking."
 read_more: "."

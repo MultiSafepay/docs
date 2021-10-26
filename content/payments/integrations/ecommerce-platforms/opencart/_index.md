@@ -4,7 +4,7 @@ github_url : "https://github.com/MultiSafepay/Opencart"
 download_url : "https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960"
 faq: "."
 meta_title: "OpenCart plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Plugins/OpenCart.svg"
 weight: 10
 title_short: "OpenCart"

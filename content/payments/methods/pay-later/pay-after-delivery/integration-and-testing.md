@@ -3,7 +3,6 @@ title: 'Integration and testing Pay After Delivery'
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Integration and testing Pay After Delivery - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integration and testing Pay After Delivery in your ecommerce platform"
 layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'

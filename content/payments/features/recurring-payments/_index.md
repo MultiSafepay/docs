@@ -3,7 +3,7 @@ title: 'Recurring payments'
 weight: 30
 meta_title: "Recurring payments - MultiSafepay Docs"
 layout: 'single'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: '/svgs/Tokenization.svg'
 short_description: 'Store payment details to make checkout more convenient.'
 url: '/features/recurring-payments/'

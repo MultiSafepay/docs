@@ -1,7 +1,6 @@
 ---
 title : "Providing track-and-trace codes"
 meta_title: "Betaal per Maand - Providing track-and-trace codes - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 
 url: '/payment-methods/betaal-per-maand/track-and-trace/'

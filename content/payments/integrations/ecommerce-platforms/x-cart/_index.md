@@ -5,7 +5,7 @@ download_url : "https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/P
 changelog_url : "."
 faq: "."
 meta_title: "X-Cart plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Plugins/X-Cart.svg"
 weight: 14
 title_short: "X-Cart"

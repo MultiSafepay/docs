@@ -3,7 +3,6 @@ title: 'Google Pay product rules'
 breadcrumb_title: 'Product rules'
 weight: 10
 meta_title: "Product rules - Google Pay - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
 url: '/payment-methods/google-pay/product-rules'

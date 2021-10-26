@@ -2,7 +2,7 @@
 title : "Activating MultiSafepay payment pages"
 weight: 10
 meta_title: "Payment pages - Activating MultiSafepay payment pages - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: '.'
 url: '/payment-pages/activation/'
 aliases:

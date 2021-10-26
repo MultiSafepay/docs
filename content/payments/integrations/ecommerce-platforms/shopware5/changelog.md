@@ -1,7 +1,7 @@
 ---
 title : "Release Notes Shopware 5 plugin"
 meta_title: "Shopware 5 plugin changelog - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 aliases: [/integrations/shopware5/changelog/]
 ---
 

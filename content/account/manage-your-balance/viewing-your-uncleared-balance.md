@@ -1,7 +1,7 @@
 ---
 title : "Viewing your Uncleared balance"
 meta_title: "MultiSafepay account - Viewing your Uncleared balance - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 weight: 60
 aliases:

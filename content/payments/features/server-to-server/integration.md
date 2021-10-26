@@ -4,7 +4,7 @@ breadcrumb_title: "Integration and API requests"
 weight: 40
 layout: child
 meta_title: "Server to Server - Integration and API requests - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 short_description: "Integrating Server to Server in your ecommerce platform via our API"
 url: '/features/server-to-server/integration/'
 aliases:

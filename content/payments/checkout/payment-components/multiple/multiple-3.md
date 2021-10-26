@@ -2,7 +2,7 @@
 title : "Integrating multiple payment components"
 breadcrumb_title : "Step 3"
 meta_title: "Payment Components - Integrating multiple payment methods step 3 - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: 'single'
 read_more: '.'
 url: '/payment-components/multiple/step-3/'

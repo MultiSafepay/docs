@@ -4,7 +4,6 @@ weight: 10
 meta_title: "Payment methods - iDEAL - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/ideal"
 childlist: '.'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 intro_description: "iDEAL is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, QR code, or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees settlement."
 layout: 'single'
 logo: '/logo/Payment_methods/iDeal.svg' 

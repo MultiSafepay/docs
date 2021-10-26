@@ -2,7 +2,7 @@
 title: "HostBill"
 weight: 20
 meta_title: "HostBill - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: '/svgs/HostBill.svg'
 layout: 'single'
 title_short: "HostBill"
