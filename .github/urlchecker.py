@@ -4,7 +4,7 @@ import re
 
 # This script checks links to markdown anchors in headers. If the link contains a / at the end, an error is raised.
 
-regex = '(\/[\w\-\.]+)+\/#[\w\-\.]+[\/]|\/#[\w\-\.]+[\/]'
+regex = '(\/[\w\-\.]+)+\/#[\w\-\.]+[\/]|#[\w\-\.]+[\/]'
 
 
 def searcher():
