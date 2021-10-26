@@ -10,19 +10,15 @@ Release date: Oct 18th, 2021
 
 ### Added
 + PLGWOOS-715: Add two "Generic Gateways" which include a flexible gateway code that allows merchants to connect to almost every payment method we offer.
-
 + PLGWOOS-746: Declare support for Wordpress 5.8.1 and WooCommerce 5.8.0
 
 ### Changed
 + PLGWOOS-740: Improve the helper text of the Google Analytics ID setting field, adding a link to the documentation.
-
 + PLGWOOS-747: Upgrade the [PHP-SDK](https://github.com/MultiSafepay/php-sdk) component to 5.3.0
 
 ### Fixed
 + PLGWOOS-739: Fix fatal error related to undefined method when processing orders using iDEAL QR
-
 + PLGWOOS-743: Fix broken links to the documentation on the settings page
-
 
 ***
 
