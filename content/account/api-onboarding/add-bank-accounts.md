@@ -10,10 +10,10 @@ Use seven requests to perform actions on bank account details of merchant accoun
 1. [Add bank account](#add-bank-account/): add a bank account to a merchant account
 2. [List bank accounts](/account/api-onboarding/add-bank-accounts/#list-bank-accounts): retrieve a list of all bank accounts
 3. [Get bank account](/account/api-onboarding/add-bank-accounts#get-bank-account): retrieve a single bank account
-5. [Create payment link](#create-payment-link): create a payment link to verify a bank account
-6. [Add bank statement](#add-bank-statement): add a bank statement to verify a bank account
-7. [List bank statements](#list-bank-statements): retrieve a list of all bank statements
-8. [Get bank statement](#get-bank-statement): retrieve a single bank statement
+4. [Create payment link](/account/api-onboarding/add-bank-accounts/#create-payment-link/): create a payment link to verify a bank account
+5. [Add bank statement](#add-bank-statement): add a bank statement to verify a bank account
+6. [List bank statements](#list-bank-statements): retrieve a list of all bank statements
+7. [Get bank statement](#get-bank-statement): retrieve a single bank statement
 
 
 ### The process
