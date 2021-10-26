@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for WooCommerce"
 github_url : "https://github.com/MultiSafepay/WooCommerce"
-download_url : "https://github.com/MultiSafepay/WooCommerce/releases/download/4.8.3/Plugin_WooCommerce_4.8.3.zip"
+download_url : "https://github.com/MultiSafepay/WooCommerce/releases/download/4.9.0/Plugin_WooCommerce_4.9.0.zip"
 changelog_url : "."
 faq: "."
 repo_url : "MultiSafepay/WooCommerce"
