@@ -12,7 +12,7 @@ pygmentsUseClasses = true
 
 # Enable nested shortcode
 [markup.goldmark.renderer]
-unsafe= true
+unsafe= false
 
 [outputs]
     home = [ "HTML", "JSON"]
