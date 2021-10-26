@@ -3,7 +3,7 @@ title : "N-codes for identifying payment methods"
 meta_title: "Reports - N-codes for identifying payment methods - MultiSafepay Docs"
 
 read_more: '.'
-weight: 8
+weight: 70
 url: '/reports/n-codes/'
 ---
 
