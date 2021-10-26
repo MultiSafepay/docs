@@ -215,15 +215,28 @@ To get a test AfterPay API key, you can either:
 - Request one in your implementation ticket with AfterPay, or
 - Email <sales@afterpay.nl> 
 
-To force and test a rejected order, use the following email address: <rejection@afterpay.nl>  
+**Test an AfterPay transaction**
 
-{{< /details >}}
+1. Send a [Direct or redirect](/api/#afterpay) API request. For more information, see [difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page and click **Bevestig**.
+3. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
-{{< details title="Betaal per Maand" >}}
+**Change the order status**  
 
-You cannot test Betaal per Maand in MultiSafepay test account. 
+You can change the order status to: **Shipped** or **Cancelled**.
+To change the order status, either:  
+- Send an [Update an order](/api/#update-an-order) API request, or 
+- Change the order status in **Order Summary** in your MultiSafepay test account.
 
-When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live.
+**Test declining or refunding an order**  
+- To decline an order, in **Order Summary** click **Decline**. The transaction and order status changes to **Void**.
+- To refund an order, in **Order Summary** click **Refund order**. The transaction and order status changes to **Void**.
+
+**Test order rejection**  
+
+To test AfterPay rejecting an order, use the following email address: <rejection@afterpay.nl> in your direct or redirect API request. The transaction and order status changes to **Declined**.
+
+{{< blue-notice >}} **Note:** You can't simulate receiving a successful payment notification from AfterPay. You can't test changing the transaction status from **Uncleared** to **Completed**. {{< /blue-notice >}} 
 
 {{< /details >}}
 
@@ -272,20 +285,31 @@ Sample statuses:
 Test credentials:
 
 - [API key](/tools/multisafepay-control/get-your-api-key/)
-- [Klarna's test credentials](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+- [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
-To test Klarna transactions, follow these steps:
+**Test a Klarna transaction**  
+1. Send a [Direct or redirect](/api/#klarna) API request. For more information, see [difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+2. On the Klarna page, click **Kopen**.
+3. Enter any mobile number in the **Telefoonnummer** field. Click **Ga verder**.
+4. Enter any six digit number in the **Verificatiecode** field. Click **Bevestigen**.
+5. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
-1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-3. To change the order status to **Shipped**, either:
-    - Send an [Update an order](/api/#update-an-order) API request, or 
-    - Change the status in your MultiSafepay test account.
-{{< br >}}The transaction status remains **Uncleared**.
-4. No invoice is generated in the test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
+**Change the order status**  
+You can change the order status to: **Shipped** or **Cancelled**.
+To change the order status, either:  
+- Send an [Update an order](/api/#update-an-order) API request, or 
+- Change the order status in **Order Summary** in your MultiSafepay test account.
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/klarna).
+**Test declining or refunding an order**  
+- To decline an order, in **Order Summary** click **Decline**. The transaction and order status changes to **Void**.
+- To refund an order, in **Order Summary** click **Refund order**. The transaction and order status changes to **Completed**.
 
+**Receive an invoice**  
+Testing the invoice process is possible only in your live MultiSafepay account. To do this, change the order status to **Shipped**.
+
+**Note:** You can't simulate receiving a successful payment notification from Klarna. You can't test changing the transaction status from **Uncleared** to **Completed** unless you are testing a refund.
+
+For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
 {{< /details >}}
 
 {{< details title="Pay After Delivery (Betaal na Ontvangst)" >}}
