@@ -26,7 +26,7 @@ Supported format: Excel
 {{< details title="By payment method or country" >}}
   
 | Column | Description | 
-|---|---|
+| --- | --- |
 | Paymentmethod | The payment method | 
 | Country | The country where the transaction took place |
 | Completed | The number of completed transactions |
@@ -40,7 +40,7 @@ Supported format: Excel
 {{< details title="Other sections" >}}
   
 | Column | Description | 
-|---|---|
+| --- | --- |
 | Created | The time the transaction was created |
 | Maintransaction | MultiSafepay's transaction reference number |
 | Paymenttype | The payment method |
