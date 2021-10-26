@@ -24,6 +24,8 @@ For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https:
 
 Test card numbers: See the table below.
 
+Test card expiry date: Any future date is accepted.
+
 Possible errors: Test QR codes can only be read with a general QR reader. If you scan the code using the Bancontact app, an error occurs.
 
 Sample statuses:

@@ -18,6 +18,8 @@ This page is for testing payment methods and scenarios in your [MultiSafepay tes
 
 Test card number: See the table below.
 
+Test card expiry date: Any future date is accepted.
+
 Possible errors: The test QR codes can only be read with a general QR code application. If you scan the code using the Bancontact app, an error occurs.
 
 Sample statuses:
