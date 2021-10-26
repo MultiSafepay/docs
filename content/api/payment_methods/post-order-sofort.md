@@ -203,7 +203,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-`customer` | object | required
+`customer` | object | optional
 
 See [customer (object)](/api/#customer-object).
 
@@ -331,7 +331,7 @@ Value: `false`.
 See [payment_options (object)](/api/#payment-options-object).
 
 ----------------
-`customer` | object | required
+`customer` | object | optional
 
 See [customer (object)](/api/#customer-object).   
 
