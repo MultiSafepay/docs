@@ -1,9 +1,10 @@
 ---
 title: "Advanced reporting"
+weight: 50
 meta_title: "Reports - Advanced reporting - MultiSafepay Docs"
 
 read_more: '.'
-weight: 7
+weight: 5
 aliases:
     - /tools/reports/advanced-sales-and-conversions-report
     - /tools/accounting/reports/advanced-reporting/

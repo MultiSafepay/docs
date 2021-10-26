@@ -1,5 +1,6 @@
 ---
 title: "Accountant export"
+weight: 40
 meta_title: "Reports - Accountant export - MultiSafepay Docs"
 
 read_more: '.'

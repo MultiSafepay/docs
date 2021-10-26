@@ -1,5 +1,6 @@
 ---
 title : "Financial summary"
+weight: 30
 meta_title: "Reports - Financial summary - MultiSafepay Docs"
 
 read_more: '.'
