@@ -2,7 +2,6 @@
 title: "dealer4dealer"
 weight: 20
 meta_title: "Integrations - Accounting and bookkeeping - dealer4dealer - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/D4D.svg'
 layout: 'single'
 title_short: "dealer4dealer"

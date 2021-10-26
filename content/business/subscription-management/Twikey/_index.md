@@ -2,7 +2,7 @@
 title: "Twikey"
 weight: 20
 meta_title: "Twikey - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: '/svgs/Twikey.svg'
 layout: 'single'
 title_short: "Twikey"

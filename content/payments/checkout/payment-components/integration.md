@@ -2,7 +2,7 @@
 title : "Payment Component integration manuals"
 breadcrumb_title : "Integration manuals"
 meta_title: "Payment Components - Integration manuals - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: 'single'
 read_more: '.'
 url: '/payment-components/integration/'

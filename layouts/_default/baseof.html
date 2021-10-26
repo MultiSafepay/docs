@@ -8,8 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     {{ if isset .Params "meta_title" }}<title>{{ index .Params "meta_title" }}</title>
     {{ else }}<title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>{{ end }}
+   
+    {{ if isset .Params "meta_description" }}
     {{ with .Description }}
     <meta name="description" content="{{ . }}"> {{ end }}
+    {{ else }}
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    {{ end }}
 
     {{ if or (.Site.Params.noindex) (isset .Params "noindex" ) }}
     <meta name="robots" content="noindex,nofollow" />

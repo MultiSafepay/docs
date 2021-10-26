@@ -3,7 +3,7 @@ title: 'Split payments'
 weight: 40
 layout: 'single'
 meta_title: "Split payments - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: '/svgs/Split payments.svg'
 short_description: 'Split funds to different bank accounts based on percentage or fixed amount.'
 url: '/features/split-payments/'

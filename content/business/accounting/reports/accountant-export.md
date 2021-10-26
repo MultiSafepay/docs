@@ -2,7 +2,7 @@
 title: "Accountant export"
 weight: 40
 meta_title: "Reports - Accountant export - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: '.'
 weight: 1
 aliases:

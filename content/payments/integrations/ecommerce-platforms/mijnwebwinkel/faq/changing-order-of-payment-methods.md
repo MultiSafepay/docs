@@ -1,7 +1,7 @@
 ---
 title : "Changing payment method order"
 meta_title: "Mijnwebwinkel app - Changing payment method order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/mijnwebwinkel/payment-method-order/'
 aliases:

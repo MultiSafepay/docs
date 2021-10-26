@@ -2,7 +2,7 @@
 title : "Integrating the previous release"
 breadcrumb_title : "Step 4"
 meta_title: "Payment Components - Integrating the previous release step 4 - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: 'single'
 read_more: '.'
 url: '/payment-components/previous-release/step-4/'

@@ -2,7 +2,6 @@
 title : "Evaluating Uncleared transactions"
 weight: 70
 meta_title: "Credit card user guide - Evaluating Uncleared transactions - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Review and evaluate transactions that our automated fraud filter has placed on hold"
 read_more: "."
 aliases: 

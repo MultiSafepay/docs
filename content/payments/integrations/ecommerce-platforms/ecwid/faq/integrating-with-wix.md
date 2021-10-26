@@ -1,7 +1,7 @@
 ---
 title : "Integrating with Wix"
 meta_title: "Ecwid app - Integrating with Wix - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 weight: 30
 url: '/ecwid/wix/'

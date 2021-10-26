@@ -2,7 +2,7 @@
 title: "Enabling My carrier"
 weight:
 meta_title: "PrestaShop 1.7 plugin - Enabling my carrier - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/prestashop/my-carrier/'
 aliases: 

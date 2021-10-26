@@ -2,7 +2,7 @@
 title: 'Zero Authorization'
 weight: 60
 meta_title: "Zero Authorization - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 layout: "single"
 logo: '/svgs/Zero_Authorization.svg'
 short_description: 'Verify credit card information with a 0 EUR transaction.'

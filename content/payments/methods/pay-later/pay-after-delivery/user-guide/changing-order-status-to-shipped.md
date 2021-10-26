@@ -1,7 +1,6 @@
 ---
 title : "Changing order status to Shipped"
 meta_title: "Pay After Delivery - Changing order status to Shipped - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 3
 url: '/payment-methods/pay-after-delivery/changing-order-status-to-shipped/'

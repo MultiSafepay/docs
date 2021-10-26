@@ -2,7 +2,7 @@
 title : "About 3D Secure"
 weight: 10
 meta_title: "Payment regulations - About 3D Secure - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/features/3d-secure/about/'
 aliases:

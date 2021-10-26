@@ -2,7 +2,6 @@
 title: 'in3'
 weight: 50
 meta_title: "Payment methods - in3 - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: 'single'
 linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/in3'
 childlist: '.'

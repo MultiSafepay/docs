@@ -2,7 +2,7 @@
 title : "Making payouts"
 weight: 20
 meta_title: "Making payouts - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/account/payouts/'
 aliases:

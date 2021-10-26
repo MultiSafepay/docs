@@ -3,7 +3,7 @@ title : "Cancelling payment links"
 weight: 30
 meta_title: "Payments - Cancelling payment links - MultiSafepay Docs"
 url: '/payment-links/cancelling-payment-links'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: '.'
 url: '/payment-links/cancellation/'
 layout: 'faq'

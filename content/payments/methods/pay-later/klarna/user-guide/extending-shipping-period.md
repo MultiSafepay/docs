@@ -1,7 +1,6 @@
 ---
 title : "Extending the shipping period"
 meta_title: "Klarna - Extending the shipping period - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 weight: 5
 url: '/payment-methods/klarna/extending-shipping-period/'

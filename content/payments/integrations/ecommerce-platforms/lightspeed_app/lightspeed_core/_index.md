@@ -3,7 +3,7 @@ title : "Lightspeed core integration"
 meta_title: "Lightspeed core integration - MultiSafepay Docs"
 faq: "."
 layout: 'single'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed"

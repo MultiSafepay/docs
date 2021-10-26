@@ -2,7 +2,7 @@
 title: "About account types"
 weight: 10
 meta_title: "Partner account - About account types - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: '.'
 url: '/account/account-types/'
 aliases: 

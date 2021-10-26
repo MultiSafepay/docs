@@ -4,7 +4,7 @@ meta_title: "Shopware 6 plugin - MultiSafepay Docs"
 github_url : "https://github.com/MultiSafepay/shopware6/"
 download_url : "https://github.com/MultiSafepay/shopware6/releases/download/2.4.1/Plugin_Shopware6_2.4.1.zip"
 faq: "."
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 logo: "/logo/Plugins/Shopware_6.svg"
 weight: 06
 title_short: "Shopware 6"

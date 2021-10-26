@@ -2,7 +2,7 @@
 title: 'Monitoring transactions'
 weight: 2
 meta_title: "Risk and fraud - Monitoring transactions - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/risk-fraud/transaction-monitoring/'
 aliases:    

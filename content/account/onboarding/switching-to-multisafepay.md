@@ -2,7 +2,7 @@
 title : "Switching to MultiSafepay from another PSP"
 weight: 60
 meta_title: "Account - Switching PSPs - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/account/switching-psps/'
 aliases:

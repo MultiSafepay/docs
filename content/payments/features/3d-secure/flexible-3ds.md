@@ -2,7 +2,7 @@
 title : "Flexible 3D"
 weight: 30
 meta_title: "Flexible 3D - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 logo: '/svgs/Flexible 3D.svg'
 short_description: 'Use 3D Secure verification for extra security for credit card payments.'

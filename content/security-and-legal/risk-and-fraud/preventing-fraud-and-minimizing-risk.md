@@ -2,7 +2,7 @@
 title : "Preventing fraud and minimizing risk"
 meta_title: "Risk and fraud - Preventing fraud and minimizing risk - MultiSafepay Docs"
 weight: 1
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 read_more: "."
 url: '/risk-fraud/fraud-prevention/'
 aliases:

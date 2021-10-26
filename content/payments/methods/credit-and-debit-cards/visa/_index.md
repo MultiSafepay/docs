@@ -2,7 +2,6 @@
 title: 'Visa'
 weight: 30
 meta_title: "Payment methods - Visa - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 intro_description: "Visa is a leading global credit card scheme. An additional layer of security is provided by Verified by Visa (Visa's version of 3D Secure), which requires cardholders to verify their identity."
 layout: 'single'
 linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/visa/'

@@ -2,7 +2,6 @@
 title: 'CSRF errors'
 weight: 3
 meta_title: "Errors - CSRF errors - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/errors-explained/csrf

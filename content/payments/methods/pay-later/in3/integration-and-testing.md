@@ -3,7 +3,6 @@ title: 'Integration and testing in3'
 breadcrumb_title: 'Integration and testing'
 weight: 40
 meta_title: "Integration and testing in3 - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integration and testing in3 in your ecommerce platform"
 layout: 'child'
 logo: '/svgs/in3.svg'
