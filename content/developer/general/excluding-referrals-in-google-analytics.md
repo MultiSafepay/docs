@@ -77,14 +77,16 @@ verifiedbyvisa.comdirect.de
 
 ## utm_nooverride=1 parameter
 
-Add the utm_nooverride=1 parameter to your payment gateway return pages. 
+Add the utm_nooverride=1 parameter to your payment gateway success pages. 
 
 For example, for the page URL ```checkout/payment/success```, pass your gateway the following URL: ```/checkout/payment/success?utm_nooverride=1```. 
 
-This tells Google that the customer's initial session is still in progress and it ignores the referral information for the "new" session. 
+This tells Google that the customer's initial session is still in progress and Google ignores the referral information for the "new" session. 
 
 In your code, the parameter should look like this: ```$this→_redirect('checkout/onepage/success', ['utm_nooverride' => '1'])``` .
 
 Make sure you do this for all links from the payment gateway to your website.
 
 For more information, email the Integration Team at <integration@multisafepay.com>
+
+**Note:** Our plugins for Magento 1 and 2 do this automatically. 
