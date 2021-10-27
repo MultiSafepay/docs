@@ -26,25 +26,19 @@ To add users with different permission profiles, follow these steps:
     - Password
     - Email address
 5. From the **Status** dropdown menu, select **Active**.
-6. Under **Rights** on the right side of the page, select the appropriate user rights check boxes. See [User rights overview](#user-rights-overview) below.
-7. Click **Add user** in the top right corner.
+6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. See [User permissions overview](#user-permissions-overview) below.
+7. Click **Add user** in the top-right corner.
 
-## User rights overview
+## User permissions overview
+
+| User | Permissions |
+|---|---|
+| Administrator | Access all functionalities |
+| Basic | - View all transactions {{< br >}} - Generate payment links |
+| DisableBalance | Cannot view the account balance |
+| Refund | - Create refunds {{< br >}} - View all transactions {{< br >}} - Generate payment links |
+| Reporting | - View all transactions and the account balance {{< br >}} - Create and download reports {{< br >}} - Generate payment links |
+| Technical | - View all transactions {{< br >}} - Add and edit websites and payment pages {{< br >}} - Edit email templates {{< br >}} - Resend offline actions |
+| Uncleared | - View all transactions {{< br >}} - Accept or decline uncleared transactions |
     
-- Administrator has access to all functionalities in the account
-- Reporting can:
-  - See all transactions and the account's MultiSafepay balance 
-  - Create and download reports
-  - Generate payment links
-- Technical can:
-  - Add and edit websites and payment pages
-  - Edit email templates
-- Refund can:
-  - Create refunds
-  - See all transactions
-  - Generate payment links
-- Basic can:
-  - See all transactions
-  - Generate payment links
-- DisableBalance cannot see the MultiSafepay balance
-- Uncleared can accept or decline uncleared transactions
+ 
