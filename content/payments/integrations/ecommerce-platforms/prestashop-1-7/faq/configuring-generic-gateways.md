@@ -2,7 +2,10 @@
 title : "Configuring generic gateways"
 meta_title: "PrestaShop 1.7 plugin - Configuring generic gateways - MultiSafepay Docs"
 
+read_more: "."
 url: '/prestashop/generic-gateways/'
+aliases:
+    - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/configuring-generic-gateways/
 
 ---
 The PrestaShop 1.7 plugin supports a [generic gateway](/faq/general/generic-gateways/) for all payment methods. 
