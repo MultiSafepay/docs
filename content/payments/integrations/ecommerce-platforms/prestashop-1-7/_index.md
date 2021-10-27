@@ -24,6 +24,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/
     - /ecommerce-platforms/prestashop-1-7/
 ---
+{{< alert-notice >}} **Important:** This page contains information about the new MultiSafepay PrestaShop 1.7 plugin, which is currently a release candidate. For the latest stable version, please visit us at [Github](https://github.com/MultiSafepay/prestashop). {{< /alert-notice>}}
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
 
@@ -47,7 +48,7 @@ Contact us:
 
 - MultiSafepay account – See [Getting started](/getting-started/).
 - PrestaShop 1.7
-- Tested on PHP 7.0
+- Tested on PHP 7.2
 
 {{< /details >}}
 
@@ -78,7 +79,6 @@ Contact us:
 - [Sofort](/payments/methods/banks/sofort-banking)
 - [Trustly](/payments/methods/banks/trustly)
 - [TrustPay](/payments/methods/banks/trustpay)
-- [V PAY](/payments/methods/credit-and-debit-cards/vpay)
 
 **Pay later methods**
 
@@ -97,6 +97,7 @@ Contact us:
 
 **Prepaid cards**
 
++ Baby gift card
 + Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
 + [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
@@ -105,6 +106,7 @@ Contact us:
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
 + [Good4fun](https://www.good4fun.nl)
++ Goodcard
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
@@ -114,23 +116,23 @@ Contact us:
 + [Webshop gift card](https://www.webshopgiftcard.nl)
 + [Wellness gift card](https://www.wellnessgiftcard.nl)
 + Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
 
 {{< /details >}}
 
 ## Installation
 1. Sign in to your PrestaShop 1.7 [backend](/getting-started/glossary/#backend).
-2. Go to **Modules** > **Modules & services**.
+2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 
 ## Configuration
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Modules & services**.
-3. Search for MultiSafepay, and then click **Configure**.
-4. Enter your [API key](/getting-started/glossary/#api-key). {{% account_info %}}
+2. Go to **IMPROVE** > **MultiSafepay**.
+3. Enter your [API key](/getting-started/glossary/#api-key). {{% account_info %}}
+4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
-3. On the **Payments** tab, enable the relevant payment methods.
 
 
 
