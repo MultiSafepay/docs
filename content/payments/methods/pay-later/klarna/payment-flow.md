@@ -53,7 +53,7 @@ You can cancel payments before the funds are captured. After the funds are captu
 
 **Customers**:
 
-- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service)
+- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
 - Email Customer Operations at <support@multisafepay.com>
 
 {{< /details >}}
