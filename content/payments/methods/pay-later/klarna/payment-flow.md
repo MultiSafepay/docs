@@ -49,7 +49,8 @@ You can cancel payments before the funds are captured. After the funds are captu
 
 {{< details title="Get support" >}} 
 
-**Merchants**: email MultiSafepay at <klarna@multisafepay.com>
+**Merchants**: Email MultiSafepay at <klarna@multisafepay.com>
+
 
 **Customers**:
 
