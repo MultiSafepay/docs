@@ -257,7 +257,6 @@ For more information about the `merchantInfo` object, see Google Pay – [Reques
 ```
 function onGooglePaymentButtonClicked() {
     const paymentDataRequest = getGooglePaymentDataRequest();
-    const paymentsClient = getGooglePaymentsClient();
     paymentsClient.loadPaymentData(paymentDataRequest)
         .then(function(paymentData) {
             processPayment(paymentData);
