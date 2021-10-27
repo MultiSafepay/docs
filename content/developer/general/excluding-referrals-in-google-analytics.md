@@ -90,4 +90,4 @@ Make sure you do this for all links from the payment gateway to your website.
 
 For more information, email the Integration Team at <integration@multisafepay.com>
 
-**Note:** Some of our plugins for ecommerce integrations do this automatically, e.g. Magento 1. 
+**Note:** Our plugins for Magento 1 and 2 do this automatically. 
