@@ -35,8 +35,9 @@ You can cancel payments before the funds are captured. After the funds are captu
 
 | Description                      | Order status      | Transaction status |
 |------|----|----|
-| Klarna has declined the payment. See Klarna&nbsp;–&nbsp;[Contact customer service](https://www.klarna.com/international/contact-customer-service). {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the payment.    | Void   | Cancelled   |
-| The payment was not completed within the 1-day period or the [order status did not change to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay account **Transaction overview**. Create a new order, if required.  | Expired    | Expired    |
+| Klarna did not authorize the transaction. For more information, email <klarna@multisafepay.com> {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the payment.    | Void   | Cancelled |
+| You did not [change the order status to **Shipped**](/payment-methods/klarna/changing-order-status-to-shipped/) within 28 days. {{< br >}} If you have already shipped the order but didn't change the status: {{< br>}} - In your MultiSafepay account, go to **Transaction overview**, and select the expired transaction. {{< br >}} - Click **Payment link**, and then click **Duplicate this order**. {{< br >}} - Click **Generate payment link**. {{< br >}} - Send the payment link to the customer. {{< br >}} Alternatively, you can [create a new Klarna order](/api/#klarna), [change the status to **Shipped**](/payment-methods/klarna/changing-order-status-to-shipped/), and send the payment link to the customer. | Expired    | Expired    |
+
 
 ## Refund statuses
 
@@ -45,13 +46,15 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The customer requests a refund. | Initialized    | Completed   |
 | The refund is successfully processed.  | Completed      | Completed   |
 
-{{< details title="Get support" >}}
-&nbsp;  
-For customers:
+{{< details title="Get support" >}} 
 
-- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service)
+**Merchants**: Email MultiSafepay at <klarna@multisafepay.com>
+
+
+**Customers**:
+
+- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
 - Email the Support Team at <support@multisafepay.com>
 
-For merchants, email MultiSafepay at <klarna@multisafepay.com>
 
 {{< /details >}}
