@@ -25,6 +25,7 @@ aliases:
     - /ecommerce-platforms/prestashop-1-7/
 ---
 {{< alert-notice >}} **Important:** This page contains information about the new MultiSafepay PrestaShop 1.7 plugin, which is currently a release candidate. For the latest stable version, please visit us at [Github](https://github.com/MultiSafepay/prestashop). {{< /alert-notice>}}
+{{< alert-notice >}} **Important:** If you are updating from a 4.x version of our plugin, please don't uninstall the previous plugin until you are sure all orders created through a payment method from that plugin are fully processed. {{< /alert-notice>}}
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
 
