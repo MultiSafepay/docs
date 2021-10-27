@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for PrestaShop 1.7"
 github_url : "https://github.com/MultiSafepay/PrestaShop"
 meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
-download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/4.8.0/Plugin_PrestaShop_4.8.0.zip"
+download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/5.0.0-RC1/Plugin_PrestaShop_5.0.0-RC1.zip"
 changelog_url : "."
 faq: "."
 
@@ -48,7 +48,7 @@ Contact us:
 {{< details title="Requirements" >}}
 
 - MultiSafepay account – See [Getting started](/getting-started/).
-- PrestaShop 1.7
+- PrestaShop 1.7.6 or higher
 - Tested on PHP 7.2
 
 {{< /details >}}
@@ -61,10 +61,11 @@ Contact us:
 - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
+
 **Banking methods**
 
 - [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Bank Transfer](/payments/methods/banks/bank-transfer)
 - [Belfius](/payments/methods/banks/belfius)
 - [CBC](/payments/methods/banks/cbc)
 - [Dotpay](/payments/methods/banks/dotpay)
@@ -95,17 +96,20 @@ Contact us:
 + [Alipay](/payments/methods/wallet/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
 + [PayPal](/payments/methods/wallet/paypal)
++ [Google Pay](/payment-methods/google-pay/)
++ [WeChat Pay](/payment-methods/wechat-pay/)
 
 **Prepaid cards**
 
-+ Baby gift card
-+ Beauty and Wellness gift card
++ Baby Giftcard
++ Beauty and wellness
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
 + [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
 + [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ Givacard
 + [Good4fun](https://www.good4fun.nl)
 + Goodcard
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
