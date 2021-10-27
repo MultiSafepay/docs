@@ -36,6 +36,7 @@ For more information about generic gateways for a specific plugin, see:
 - [Magento 2](/payments/integrations/ecommerce-platforms/magento2/faq/configuring-generic-gateways/)
 - [Odoo](/payments/integrations/ecommerce-platforms/odoo/faq/generic-gateways/)
 - [OpenCart](/payments/integrations/ecommerce-platforms/opencart/faq/configuring-generic-gateways/)
+- [PrestaShop](/payments/integrations/ecommerce-platforms/prestashop-1-7/faq/configuring-generic-gateways/)
 - [Shopware 5](/payments/integrations/ecommerce-platforms/shopware5/faq/configuring-generic-gateways/)
 - [Shopware 6](/payments/integrations/ecommerce-platforms/shopware6/faq/generic-gateways/)
 - [WooCommerce](/payments/integrations/ecommerce-platforms/woocommerce/faq/configuring-generic-gateways/)
