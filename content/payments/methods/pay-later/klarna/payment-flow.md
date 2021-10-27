@@ -37,7 +37,8 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Description                      | Order status      | Transaction status |
 |------|----|----|
 | Klarna did not authorize the transaction. For more information, email <klarna@multisafepay.com> {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the payment.    | Void   | Cancelled |
-| You [did not mark the order as shipped within 28 days](/payment-methods/klarna/changing-order-status-to-shipped/). {{< br >}} If you have already shipped the goods but forgot to mark the order as shipped: {{< br>}} - Go to **Transaction overview** > click the expired transaction. {{< br >}} - Click **Payment link** and select **Duplicate this order**. {{< br >}} - Click **Generate payment link**. {{< br >}} - Send the payment link to the customer. {{< br >}} Alternatively, you can [create a new Klarna order](/api/#klarna), [mark it as shipped](/payment-methods/klarna/changing-order-status-to-shipped/), and send the payment link to the customer. | Expired    | Expired    |
+| You did not [change the order status to **Shipped**](/payment-methods/klarna/changing-order-status-to-shipped/) within 28 days. {{< br >}} If you have already shipped the order but didn't change the status: {{< br>}} - In your MultiSafepay account, go to **Transaction overview**, and select the expired transaction. {{< br >}} - Click **Payment link**, and then click **Duplicate this order**. {{< br >}} - Click **Generate payment link**. {{< br >}} - Send the payment link to the customer. {{< br >}} Alternatively, you can [create a new Klarna order](/api/#klarna), [change the status to **Shipped**](/payment-methods/klarna/changing-order-status-to-shipped/), and send the payment link to the customer. | Expired    | Expired    |
+
 
 ## Refund statuses
 
