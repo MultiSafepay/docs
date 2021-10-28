@@ -9,10 +9,12 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/configuring-tax-settings/
 ---
 
-**Configuring Magento tax settings**
+**Configuring Magento tax settings**  
+
 To configure tax settings in Magento, go to **Stores** > **Configuration** > **Sales** > **Tax** > **Calculation settings**.
 
-**Recommended tax settings**
+**Recommended tax settings**  
+
 To avoid discrepancies between item amounts in MultiSafepay transactions and Magento orders, we recommend using the following tax settings in Magento.
 
 To show prices **excluding tax**, use the following settings:
