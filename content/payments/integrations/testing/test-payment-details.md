@@ -320,7 +320,7 @@ To change the order status, either:
 To refund an order:
 
   1. Change the order status to **Shipped**.
-  2. Under **Order Summary**, click **Refund order**.  
+  2. Under **Order Summary**, click **Refund order**, or send a [Refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
   The transaction status changes to **Completed**.
 
 **Receive an invoice**  
