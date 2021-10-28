@@ -3,7 +3,7 @@ title : "Payout report"
 meta_title: "Reports - Payout report - MultiSafepay Docs"
 
 read_more: '.'
-weight: 60
+weight: 5
 url: '/reports/payout-report/'
 ---
 
