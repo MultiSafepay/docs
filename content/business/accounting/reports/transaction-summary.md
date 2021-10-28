@@ -1,6 +1,5 @@
 ---
 title: "Transaction summary"
-weight: 10
 meta_title: "Reports - Transaction summary - MultiSafepay Docs"
 
 read_more: '.'
