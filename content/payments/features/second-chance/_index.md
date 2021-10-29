@@ -3,7 +3,6 @@ title: 'Second Chance'
 weight: 10
 meta_title: "Second Chance - MultiSafepay Docs"
 layout: 'single'
-
 logo: '/svgs/Second Chance.svg'
 short_description: 'Send customers a friendly reminder to complete payments'
 url: '/features/second-chance/'
@@ -41,6 +40,8 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
     - [Direct Debit](/payments/methods/banks/sepa-direct-debit)
 
 {{< /details >}}
+
+**Note:** Second Chance emails are also sent for [manually generated payment links](/payment-links/generating-links/) if the customer doesn't click the link to complete payment.
 
 ## Activating Second Chance
 To activate Second Chance, follow these steps:
