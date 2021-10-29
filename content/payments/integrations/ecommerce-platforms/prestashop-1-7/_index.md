@@ -26,7 +26,7 @@ aliases:
 ---
 
 {{< alert-notice >}}
-**Important:** There is a new release candidate for the MultiSafepay plugin for PrestaShop 1.7 which supports PrestaShop 1.7.6 or higher versions available to download [clicking here](/payments/integrations/ecommerce-platforms/prestashop-1-7/releases/Plugin_PrestaShop_5.0.0-RC.zip). 
+**Important:** There is a new release candidate for our PrestaShop 1.7 plugin for version 1.7.6 or higher available to [download now](/payments/integrations/ecommerce-platforms/prestashop-1-7/releases/Plugin_PrestaShop_5.0.0-RC.zip). 
 {{< /alert-notice>}}
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
