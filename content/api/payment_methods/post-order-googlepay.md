@@ -98,7 +98,7 @@ Format: Maximum 35 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.    
-Value: `APPLEPAY`.
+Value: `GOOGLEPAY`.
 
 ----------------
 `currency` | string | required
@@ -157,7 +157,7 @@ Format: Maximum 35 characters.
 `gateway` | string | required
 
 The unique gateway identifier to direct the customer straight to the payment method.    
-Value: `APPLEPAY`.
+Value: `GOOGLEPAY`.
 
 ----------------
 `currency` | string | required
