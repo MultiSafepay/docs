@@ -9,6 +9,8 @@ layout: 'child'
 
 To process Dankort payments via our API, see API reference – [Credit cards](/api/#credit-cards).
 
+**Note:** You can integrate Cartes Bancaires using the [generic gateway](/developer/general/generic-gateways/) for Visa.
+
 For the Dankort logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
 {{< details title="Credentials and testing process" >}}
