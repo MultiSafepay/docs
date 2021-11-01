@@ -13,6 +13,7 @@ url: '/payment-components/'
 aliases:
     - /tools/credit-card-component/
     - /payments/checkout/payment-components/
+    - /integrations/payment-components/
 ---
 Payment Components let you embed payment methods directly into your checkout.
 
