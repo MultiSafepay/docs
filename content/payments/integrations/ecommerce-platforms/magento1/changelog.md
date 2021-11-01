@@ -1,12 +1,11 @@
 ---
-title : "Release Notes Magento 1 plugin"
+title : "Magento 1 plugin changelog"
 meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
-
 aliases: [/integrations/magento1/changelog/]
 ---
 
 ## 3.1.1
-Release date: Sep. 16th, 2021
+Release date: Sep 16, 2021
 
 ### Fixed
 + PLGMAGONE-730: Use correct invoice id when order is being updated to shipped
@@ -15,7 +14,7 @@ Release date: Sep. 16th, 2021
 ***
 
 ## 3.1.0
-Release date: Jun. 15th, 2021
+Release date: Jun 15, 2021
 
 ### Added
 + PLGMAGONE-710: Add support for [Generic Gateways](https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/) which can be used for branded giftcards
@@ -31,7 +30,7 @@ Release date: Jun. 15th, 2021
 ***
 
 ## 3.0.0
-Release date: Oct. 21st, 2020
+Release date: Oct 21, 2020
 
 ### Added
 + DAVAMS-234: Add in3
@@ -60,7 +59,7 @@ Release date: Oct. 21st, 2020
 ***  
 
 ## 2.6.0
-Release date: Apr. 2nd, 2020
+Release date: Apr 2, 2020
 
 ### Added
 + PLGMAGONE-617: Add Apple Pay
@@ -84,7 +83,7 @@ Release date: Apr. 2nd, 2020
 ***
 
 ## 2.5.1
-Release date: Mar. 25th, 2019
+Release date: Mar 25, 2019
 
 ### Added
 + PLGMAGONE-457: Added Handelsbanken iDEAL issuer logo
@@ -102,7 +101,7 @@ Release date: Mar. 25th, 2019
 ***
 
 ## 2.5.0
-Release date: Sept. 21th, 2018
+Release date: Sept 21, 2018
 ### Features
 + PLGMAGONE-339: Add Tokenization
 + PLGMAGONE-411: Added support for E-Invoice gateway for manually created orders
@@ -113,7 +112,7 @@ PLGMAGONE-429: Corrected Paysafecard gateway for manually created orders
 ***
 
 ## 2.4.2
-Release date: Jun. 15th, 2018
+Release date: Jun 15, 2018
 
 ### Fixed
 + PLGMAGONE-384: Log refund errors to order notes
@@ -123,7 +122,7 @@ Release date: Jun. 15th, 2018
 ***
 
 ## 2.4.1
-Release date: May. 25th, 2018
+Release date: May 25, 2018
 
 ### Added
 + PLGMAGONE-378: Add support for Santander Betaal per Maand
@@ -138,7 +137,7 @@ Release date: May. 25th, 2018
 ***
 
 ## 2.4.0
-Release date: Mar. 12th, 2018
+Release date: Mar 12, 2018
 ### Fixes
 + Add support for Qwindo
 + PLGMAGONE-370: Updated Dutch translations
@@ -162,7 +161,7 @@ Release date: Mar. 12th, 2018
 ***
 
 ## 2.3.6
-Release date: Nov. 7th, 2017
+Release date: Nov 7, 2017
 ### Fixes
 + PLGMAGONE-326: add daysactive/secondsactive for Klarna/Pay After Delivery
 + PLGMAGONE-327: Removed Klarna quote loading to prevent infinite loop
@@ -172,32 +171,20 @@ Release date: Nov. 7th, 2017
 + PLGMAGONE-96: Restricted currencies used are now loaded from the correct store
 + PLGMAGONE-313: _selecteer uw credit card_ is now translatable
 + PLGMAGONE-33: Added support for AliPay
-+ PLGMAGONE-96: Improvements to currency restriction in
-
-
-
-
-
-
-
-
-
-
-
-t cards/gateways
++ PLGMAGONE-96: Improvements to currency restriction in cards/gateways
 + PLGMAGONE-96: Restricted currencies used are now loaded from the correct store
 
 ***
 
 ## 2.3.5
-Release date: Oct. 23th, 2017
+Release date: Oct 23, 2017
 ### Fixes
 + Fixed an issue causing a double iDEAL issuer selection.
 
 ***
 
 ## 2.3.4
-Release date: Aug. 3th, 2017
+Release date: Aug 3, 2017
 ### Fixes
 + Fixed issue trying to get property of non-object payment_data.
 + Fixed issue where manual orders could be placed with decimals.
@@ -226,14 +213,14 @@ Release date: Aug. 3th, 2017
 ***
 
 ## 2.3.3
-Release date: Feb. 16th, 2017
+Release date: Feb 16, 2017
 ### Fixes
 + Resolved PHP7 deprecated warnings occuring in the MultiSafepay class file.
 
 ***
 
 ## 2.3.2
-Release date: Jan 25th, 2017
+Release date: Jan 25, 2017
 ### Fixes
 + Removed whitespace which resulted in the PHP error "headers already sent" being triggered when selecting the credit card gateway
 + Resolved an issue when used with OneStepCheckout causing the wrong gateway to be used.
@@ -241,7 +228,7 @@ Release date: Jan 25th, 2017
 ***
 
 ## 2.3.0
-Release date: Oct 12th, 2016
+Release date: Oct 12, 2016
 ### Improvements
 + Added EPS and FerBuy as payment methods.
 + iDEAL issuerlist alignment improved.
@@ -268,7 +255,7 @@ Release date: Aug 10, 2016
 ***
 
 ## 2.2.8
-Release date: June 21st, 2016
+Release date: June 21, 2016
 
 ### Improvements
 + Added E-Invoicing.
@@ -285,7 +272,7 @@ Release date: June 21st, 2016
 ***
 
 ## 2.2.7
-Release date: May 26th, 2016
+Release date: May 26, 2016
 ### Improvements
 + Added logging of refund requests.
 + The currency is now retrieved from the order when creating a credit memo and refunding, rather than from the store.
@@ -305,14 +292,14 @@ Release date: May 26th, 2016
 ***
 
 ## 2.2.6
-Release date: March 10th, 2016
+Release date: March 10, 2016
 ### Fixes
 + Resolved incorrect tax amount visible in the invoice when using a fee.
 
 ***
 
 ## 2.2.5
-Release date: March 4th, 2016
+Release date: March 4, 2016
 ### New features
 
 + Added Dotpay as payment method.
@@ -329,7 +316,7 @@ Release date: March 4th, 2016
 ***
 
 ## 2.2.2
-Release date: Dec 28th, 2015
+Release date: Dec 28, 2015
 ### Improvements
 + If paid amount difference from total order amount. A note is added with extra info. No invoice is created.
 + Added (incl Tax) to totals line to make it more clear as other lines can be set in tax totals settings. Also added this for the frontend.
@@ -347,7 +334,7 @@ Release date: Dec 28th, 2015
 
 
 ## 2.2.1
-Release date: Nov 12th, 2015
+Release date: Nov 12, 2015
 ### New features
 + Payment fee can now be refunded
 + Added min/max amount restrictions for all gateways.
@@ -368,7 +355,7 @@ Release date: Nov 12th, 2015
 ***
 
 ## 2.2.0
-Release date: Aug 20th, 2015
+Release date: Aug 20, 2015
 ### New features
 + Added Klarna as payment method.
 + gift card now have their own API key config.

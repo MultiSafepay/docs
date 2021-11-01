@@ -1,5 +1,5 @@
 ---
-title : "MultiSafepay app for Sana Commerce"
+title : "Sana Commerce app for MultiSafepay"
 meta_title: "Sana Commerce app integration - MultiSafepay Docs"
 layout: 'single'
 meta_description: "Free app to integrate MultiSafepay payment solutions into your Sana Commerce platform"
@@ -18,7 +18,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/sanacommerce/
     - /ecommerce-platforms/sana-commerce/
 ---
-Free app to integrate MultiSafepay payment solutions into your Sana Commerce platform. You must use at least Sana Commerce version 9.3. 
+Free app by Sana Commerce to integrate MultiSafepay payment solutions into your webshop (version 9.3 and higher). 
 
 - For integration instructions, see Sana Commerce – [MultiSafepay](https://help.sana-commerce.com/sana-commerce-93/payment-services/multisafepay/introduction).  
 - For support, see Sana Commerce – [Contact](https://www.sana-commerce.com/nl/contact).

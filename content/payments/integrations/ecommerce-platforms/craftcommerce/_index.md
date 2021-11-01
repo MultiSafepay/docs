@@ -7,7 +7,7 @@ changelog_url : "."
 logo: "/logo/Integrations/Craft_Commerce.svg"
 weight: 21
 title_short: "Craft Commerce"
-description_short: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop"
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop."
 changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md
 layout: 'single'
 faq: "."

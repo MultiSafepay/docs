@@ -1,13 +1,12 @@
 ---
 title : "MultiSafepay app for CCV Shop"
-meta_title: "CCV Shop app integration - MultiSafepay Docs"
+meta_title: "CCV Shop app - MultiSafepay Docs"
 faq: "."
 layout: 'single'
-
 logo: "/logo/Integrations/CCVShop.svg"
 weight: 29
 title_short: "CCVShop"
-description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop "
+description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop webshop."
 layout: 'single'
 url: '/ccv-shop/'
 aliases: 
@@ -20,7 +19,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/ccvshop/
     - /ecommerce-platforms/ccv-shop/
 ---
-This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop.
+This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop webshop.
 
 {{< details title="Test environment" >}}
 &nbsp;  

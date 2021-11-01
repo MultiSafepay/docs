@@ -1,8 +1,7 @@
 ---
 title : "MultiSafepay app for Shopify"
-meta_title: "Shopify plugin - MultiSafepay Docs"
+meta_title: "Shopify app - MultiSafepay Docs"
 faq: "."
-
 logo: "/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"

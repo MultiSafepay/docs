@@ -1,8 +1,7 @@
 ---
 title : "MultiSafepay app for Ecwid"
-meta_title: "Ecwid plugin - MultiSafepay Docs"
+meta_title: "Ecwid app - MultiSafepay Docs"
 faq: "."
-
 logo: "/logo/Integrations/Ecwid.svg"
 weight: 12
 title_short: "Ecwid"
@@ -18,7 +17,7 @@ aliases:
     - /ecommerce-platforms/ecwid/
 ---
 
-This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Ecwid store.
+This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Ecwid webshop.
 
 {{< details title="Requirements" >}}
 &nbsp;  

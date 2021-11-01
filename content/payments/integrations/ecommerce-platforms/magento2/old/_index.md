@@ -3,7 +3,6 @@ title : "MultiSafepay Magento 2 (Deprecated)"
 github_url : "https://github.com/MultiSafepay/Magento2Msp"
 description : "This manual is for the deprecated Magento 2 plugin."
 meta_title: "Magento 2 plugin manual V1 - MultiSafepay Docs"
-
 changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 layout: 'single'
 faq: '.'

@@ -1,11 +1,10 @@
 ---
-title : "MultiSafepay plugin for Logic4"
+title : "Logic4 plugin for MultiSafepay"
 meta_title: "Logic4 plugin - MultiSafepay Docs"
-
 logo: "/logo/Integrations/Logic_4.svg"
 weight: 28
 title_short: "Logic4"
-description_short: "Plugin to integrate MultiSafepay payment solutions into your Logic4 webshop."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Logic4 webshop."
 layout: 'single'
 url: '/logic4/'
 aliases: 
@@ -22,9 +21,7 @@ aliases:
     - /ecommerce-platforms/logic4/
 ---
 
-To install and configure our free plugin for integrating MultiSafepay payment solutions into your Logic4 webshop, see Logic4 – [Contact](https://www.logic4.nl/contact/). 
-
-This plugin is managed by our partner Logic4.
+To install and configure Logic4's free plugin for integrating MultiSafepay payment solutions into your webshop, see Logic4 – [Contact](https://www.logic4.nl/contact/). 
 
 {{< details title="Requirements" >}}
 &nbsp;  
