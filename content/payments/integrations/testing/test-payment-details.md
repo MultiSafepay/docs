@@ -456,9 +456,9 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 **Test a PayPal order**
 
-1. Send a [Direct](/api/#paypal---direct) API request.
-2. On the Test Platform page, in the **Test Scenario** list, select **Completed**, and then click **Test**.
-2. The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
+1. Send a [direct](/api/#paypal---direct) API request.
+2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
 ---
 
@@ -478,19 +478,20 @@ You can change the order status to:
 | **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
 | **Cancelled** | Order was cancelled |
 
-To change the order status, on the Test Platform page, in the **Test Scenario** list, select the desired order status.
+To change the order status, on the Test platform page, in the **Test scenario** list, select the relevant order status.
 
 **Test refunding an order**
 
 To refund an order:
 
 1. In your test account, under **Order summary**, click **Refund order**.
-2. Under **Refund**, in the **Reason/Description** field, enter a reason for the refund. In the **Amount** field, enter the amount to refund, and then click **Continue**.
-3. Under **Refund confirmation**, check the description and amount are correct, and then click **Confirm**.
+2. Under **Refund**, in the **Reason/Description** field, enter a reason for the refund. 
+3. In the **Amount** field, enter the amount to refund, and then click **Continue**.
+4. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-4. Under **Related transactions**, select the **ID** of the refund order.
-5. Under **Order summary**, click **Accept**.
-6. In the **Add transaction comment** field, add a comment, and then click **Add**.
+5. Under **Related transactions**, select the **ID** of the refund order.
+6. Under **Order summary**, click **Accept**.
+7. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
 Alternatively, send a [Refund](/api/#refund-an-order) API request.
