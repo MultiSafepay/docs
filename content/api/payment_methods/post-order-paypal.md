@@ -147,7 +147,7 @@ meta_title: "API reference - Create a PayPal order - MultiSafepay Docs"
 
 {{< description >}}
 ## PayPal
-See also Payment methods – [PayPal](/payments/methods/wallet/paypal).
+See also Payment methods – [PayPal](/payment-methods/paypal).
 
 ### PayPal - redirect
 

@@ -42,7 +42,7 @@ meta_title: "API reference - Create Bancontact order - MultiSafepay Docs"
 
 ## Bancontact
 
-- See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
+- See also Payment methods – [Bancontact](/payment-methods/bancontact).  
 - Redirect only.
 
 **Parameters**

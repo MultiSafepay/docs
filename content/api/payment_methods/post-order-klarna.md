@@ -123,7 +123,7 @@ meta_title: "API reference - Create a Klarna order - MultiSafepay Docs"
 
 ## Klarna
 
-See also Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
+See also Payment methods – [Klarna](/payment-methods/klarna).
 
 The old Klarna environment only supports `redirect` orders.
 

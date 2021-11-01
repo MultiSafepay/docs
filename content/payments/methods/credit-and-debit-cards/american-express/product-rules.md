@@ -8,7 +8,7 @@ layout: 'child'
 url: '/payments/methods/amex/product-rules/'
 aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
-    - /payments/methods/credit-and-debit-cards/american-express/about/
+    - /payment-methods/american-express/about/
 ---
 
 |   |   |   |

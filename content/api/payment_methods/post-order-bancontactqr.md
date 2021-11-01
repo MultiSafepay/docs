@@ -45,7 +45,7 @@ meta_title: "API reference - Create a Bancontact QR order - MultiSafepay Docs"
 {{< description >}}
 ### Bancontact QR
 
-- See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
+- See also Payment methods – [Bancontact](/payment-methods/bancontact).  
 - Redirect only.
 
 **Parameters**

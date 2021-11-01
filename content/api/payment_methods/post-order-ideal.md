@@ -140,7 +140,7 @@ meta_title: "API reference - Create an iDEAL order - MultiSafepay Docs"
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-See also Payment methods – [iDEAL](/payments/methods/banks/ideal).
+See also Payment methods – [iDEAL](/payment-methods/ideal).
 
 ### iDEAL - redirect
 

@@ -36,7 +36,7 @@ To test Klarna transactions, follow these steps:
 {{< br >}}The transaction status remains **Uncleared**.
 4. No invoice is generated in your test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
+For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/klarna).
 
 {{< /details >}}
 

@@ -6,7 +6,7 @@ short_description: "Display your logo in customers' online banking environment t
 read_more: "."
 aliases: 
     - /payments/methods/credit-and-debit-cards/visa/user-guide/displaying-your-logo-in-online-banking/
-    - /payments/methods/credit-and-debit-cards/american-express/user-guide/displaying-your-logo-in-online-banking/
+    - /payment-methods/american-express/user-guide/displaying-your-logo-in-online-banking/
     - /payments/methods/credit-and-debit-cards/mastercard/user-guide/displaying-your-logo-in-online-banking/
 ---
 

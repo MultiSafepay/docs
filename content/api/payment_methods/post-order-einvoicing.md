@@ -252,7 +252,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
 
 {{< description >}}
 ## E-Invoicing
-See also Payment methods – [E-Invoicing](/payments/methods/billing-suite/e-invoicing).
+See also Payment methods – [E-Invoicing](/payment-methods/e-invoicing).
 
 ### E-Invoicing - redirect
 

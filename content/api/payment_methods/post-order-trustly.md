@@ -45,7 +45,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
 {{< description >}}
 ## Trustly
 
-- See also Payment methods – [Trustly](/payments/methods/banks/trustly).  
+- See also Payment methods – [Trustly](/payment-methods/trustly).  
 - Redirect only.
 
 **Parameters**

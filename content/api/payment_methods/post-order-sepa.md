@@ -115,7 +115,7 @@ meta_title: "API reference - Create a SEPA Direct Debit order - MultiSafepay Doc
 {{< /code-block >}}
 {{< description >}}
 ## SEPA Direct Debit
-See also Payment methods – [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit).
+See also Payment methods – [SEPA Direct Debit](/payment-methods/sepa-direct-debit).
 
 ### SEPA Direct Debit - redirect
 

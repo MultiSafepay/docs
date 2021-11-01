@@ -18,7 +18,7 @@ The `locale` parameter:
 
 You can also use `locale` to show variants of specific payment methods, e.g.:
 
-* [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) (fr_FR needed) 
+* [Cartes Bancaires](/payment-methods/cartes-bancaires) (fr_FR needed) 
 * [Dankort](/payments/methods/credit-and-debit-cards/dankort) (da_DK needed)
 * [Postepay](/payments/methods/credit-and-debit-cards/postepay) (it_IT needed)
 

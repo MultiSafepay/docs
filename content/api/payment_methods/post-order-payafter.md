@@ -202,7 +202,7 @@ meta_title: "API reference - Create a Pay After Delivery order - MultiSafepay Do
 {{< description >}}
 ## Pay After Delivery
 
-See also Payment methods – [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery).
+See also Payment methods – [Pay After Delivery](/payment-methods/pay-after-delivery).
 
 ### Pay After Delivery - redirect
 

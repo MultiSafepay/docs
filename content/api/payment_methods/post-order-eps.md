@@ -42,7 +42,7 @@ meta_title: "API reference - Create an EPS order - MultiSafepay Docs"
 {{< description >}}
 ## EPS
 
-- See also Payment methods – [EPS](/payments/methods/banks/eps).  
+- See also Payment methods – [EPS](/payment-methods/eps).  
 - Redirect only.
 
 **Parameters**

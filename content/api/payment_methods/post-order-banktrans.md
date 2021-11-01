@@ -153,7 +153,7 @@ meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
 
 {{< description >}}
 ## Bank Transfer
-See also Payment methods – [Bank transfer](/payments/methods/banks/bank-transfer).
+See also Payment methods – [Bank transfer](/payment-methods/bank-transfer).
 
 ### Bank Transfer - redirect
 
