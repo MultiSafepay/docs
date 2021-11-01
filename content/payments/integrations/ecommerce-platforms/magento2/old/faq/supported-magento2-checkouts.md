@@ -1,15 +1,17 @@
 ---
-title : "Which Magento 2 Checkouts are supported?"
-meta_title: "Magento 2 plugin FAQ - Checkouts - MultiSafepay Docs"
-
+title : "Supported checkouts"
+meta_title: "Magento 2 plugin - Supported checkouts - MultiSafepay Docs"
 layout: "faqdetail"
 noindex: 'true'
 read_more: "."
 ---
 
-We test our plugin at two Magento 2 checkouts:  
+Our plugin is compatible with most Magento 2 checkouts. However, we cannot guarantee that all checkouot features will function properly.
 
-* Magento 2 core checkout  
-* [MagePlaza OneStepCheckout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
+We test our plugin with two Magento 2 checkouts:  
 
->_Most Magento checkout plugins are compatible with our plugin. However, we can not guarantee the proper functioning of all features within the checkout plugin_.
+- Magento 2 core checkout  
+- [MagePlaza OneStepCheckout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
+
+{{< blue-notice>}}**Note:** Always test OneStepCheckout before use to make sure it is compatible with your specific configuration of the plugin. {{< /blue-notice>}}
+
