@@ -8,7 +8,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopfactory/faq/support-from-globecharge/
 ---
 
-GlobeCharge does support MultiSafepay, but for best results, we recommend using our plugin. 
+GlobeCharge is an ecommerce solutions provider that manages a payment plugin within ShopFactory. You can also process payments with MultiSafepay via the GlobeCharge plugin. However, for best results, we recommend using our plugin. 
 
 For GlobeCharge support, see [GlobeCharge](https://www.globecharge.com).
 
