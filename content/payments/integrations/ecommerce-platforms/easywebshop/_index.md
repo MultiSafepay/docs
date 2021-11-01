@@ -18,7 +18,7 @@ aliases:
     - /ecommerce-platforms/easywebshop/
 ---
 
-EasyWebshop has developed a free app to integrate MultiSafepay payment solutions into your webshop.
+Free app by EasyWebshop to integrate MultiSafepay payment solutions into your webshop.
 
 For integration support, email the Integration Team at <integration@multisafepay.com>
 

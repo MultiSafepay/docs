@@ -17,8 +17,8 @@ aliases:
     - /payments/integrations/ecommerce-platforms/dynamicweb/
     - /ecommerce-platforms/dynamicweb/
 ---
-Dynamicweb has developed a free app to integrate MultiSafepay payment solutions into your webshop. 
-
-For support, contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us). 
+Free app by Dynamicweb to integrate MultiSafepay payment solutions into your webshop. 
 
 To integrate the app, email the Integration Team at <integration@multisafepay.com>
+
+For support, contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us). 
