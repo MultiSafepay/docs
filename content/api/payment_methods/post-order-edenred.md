@@ -6,12 +6,11 @@ meta_title: "API reference - Create an Edenred order - MultiSafepay Docs"
 {{< code-block >}}
 > POST - / order 
 
-
 ```json 
 {
   "type": "redirect",
   "order_id": "my-order-id",
-  "gateway": "EDENCO",
+  "gateway": "EDENCOM",
   "currency": "EUR",
   "amount": 100,
   "description": "Test order description",
