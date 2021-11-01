@@ -128,7 +128,7 @@ This table lists the refund period for each payment method:
 | --------- | ------------------------ |
 | [AfterPay](/payments/methods/billing-suite/afterpay/) | 730 days |
 | [Alipay](/payments/methods/wallet/alipay/) | 365 days |
-| [American Express](/payments/methods/credit-and-debit-cards/american-express/) | 180 days |
+| [American Express](/payment-methods/american-express/) | 180 days |
 | [Bancontact / Bancontact Mobile](/payments/methods/banks/bancontact/) | 180 days |
 | [Bank transfer](/payments/methods/banks/bank-transfer/) | 730 days |
 | [Belfius](/payments/methods/banks/belfius/) | 730 days |

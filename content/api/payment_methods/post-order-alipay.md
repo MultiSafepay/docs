@@ -142,7 +142,7 @@ meta_title: "API reference - Create an Alipay order - MultiSafepay Docs"
 
 {{< description >}}
 ## Alipay
-See also Payment methods – [Alipay](/payments/methods/wallet/alipay).
+See also Payment methods – [Alipay](/payment-methods/alipay).
 
 ### Alipay - redirect
 

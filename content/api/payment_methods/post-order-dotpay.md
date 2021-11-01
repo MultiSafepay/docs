@@ -44,7 +44,7 @@ meta_title: "API reference - Create Dotpay order - MultiSafepay Docs"
 {{< description >}}
 ## Dotpay
 
-- See also Payment methods – [Dotpay](/payments/methods/banks/dotpay).  
+- See also Payment methods – [Dotpay](/payment-methods/dotpay).  
 - Redirect only.
 
 **Parameters**

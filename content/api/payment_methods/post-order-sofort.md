@@ -154,7 +154,7 @@ meta_title: "API reference - Create a Sofort order - MultiSafepay Docs"
 
 ## Sofort
 
-See also Payment methods – [Sofort](/payments/methods/banks/sofort-banking).
+See also Payment methods – [Sofort](/payment-methods/sofort).
 
 ### Sofort - redirect
 

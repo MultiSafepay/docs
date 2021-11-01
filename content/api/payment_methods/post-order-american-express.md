@@ -42,7 +42,7 @@ meta_title: "API reference - Create American Express - MultiSafepay Docs"
 {{< description >}}
 ### American Express
 
-- See also Payment methods – [American Express](/payments/methods/credit-and-debit-cards/american-express).  
+- See also Payment methods – [American Express](/payment-methods/american-express).  
 - Redirect only.
 
 **Parameters**

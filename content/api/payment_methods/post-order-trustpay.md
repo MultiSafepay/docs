@@ -47,7 +47,7 @@ meta_title: "API reference - Create a TrustPay order - MultiSafepay Docs"
 {{< description >}}
 ## TrustPay
 
-- See also Payment methods – [TrustPay](/payments/methods/banks/trustpay).  
+- See also Payment methods – [TrustPay](/payment-methods/trustpay).  
 - Redirect only.
 
 **Parameters**

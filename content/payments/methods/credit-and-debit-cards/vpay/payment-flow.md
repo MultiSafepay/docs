@@ -32,7 +32,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/payments/methods/credit-and-debit-cards/american-express/user-guide/declined-status/). | Declined | Declined   |
+| The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/payment-methods/american-express/user-guide/declined-status/). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
 | The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/).  | Chargeback | Completed   |

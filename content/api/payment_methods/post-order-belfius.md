@@ -122,7 +122,7 @@ meta_title: "API reference - Create Belfius order - MultiSafepay Docs"
 
 {{< description >}}
 ## Belfius
-See also Payment methods – [Belfius](/payments/methods/banks/belfius).
+See also Payment methods – [Belfius](/payment-methods/belfius).
 
 ### Belfius - redirect 
 

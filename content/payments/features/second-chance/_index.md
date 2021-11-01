@@ -33,12 +33,12 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 - Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
 - The following payments methods are not supported because they follow a different payment flow:
-    - [Klarna](/payments/methods/billing-suite/klarna)
+    - [Klarna](/payment-methods/klarna)
     - [AfterPay](/payments/methods/billing-suite/afterpay)
-    - [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
-    - [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
-    - [Bank transfer](/payments/methods/banks/bank-transfer)
-    - [Direct Debit](/payments/methods/banks/sepa-direct-debit)
+    - [Betaal per Maand](/payment-methods/betaal-per-maand)
+    - [Pay After Delivery](/payment-methods/pay-after-delivery)
+    - [Bank transfer](/payment-methods/bank-transfer)
+    - [Direct Debit](/payment-methods/sepa-direct-debit)
 
 {{< /details >}}
 

@@ -114,7 +114,7 @@ meta_title: "API reference - Create an ING Home'Pay order - MultiSafepay Docs"
 
 {{< description >}}
 ## ING Home'Pay
-See also Payment methods – [ING Home'Pay](/payments/methods/banks/ing-home-pay).
+See also Payment methods – [ING Home'Pay](/payment-methods/ing-home-pay).
 
 ### ING Home'Pay - redirect
 

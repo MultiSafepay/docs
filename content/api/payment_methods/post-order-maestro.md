@@ -43,7 +43,7 @@ meta_title: "API reference - Create a Maestro order - MultiSafepay Docs"
 
 ## Maestro
 
-- See also Payment methods – [Maestro](/payments/methods/credit-and-debit-cards/maestro).  
+- See also Payment methods – [Maestro](/payment-methods/maestro).  
 - Redirect only.
 
 **Parameters**

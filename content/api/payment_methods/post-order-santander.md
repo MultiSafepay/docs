@@ -169,7 +169,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 {{< description >}}
 ## Santander Betaal per Maand
 
-- Payment methods – [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)  
+- Payment methods – [Betaal per Maand](/payment-methods/betaal-per-maand)  
 - Direct and redirect
 
 ### Santander Betaal per Maand - direct

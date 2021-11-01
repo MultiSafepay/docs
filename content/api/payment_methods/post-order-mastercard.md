@@ -46,7 +46,7 @@ meta_title: "API reference - Create a Mastercard transaction - MultiSafepay Docs
 
 ### Mastercard
 
-- See also Payment methods – [Mastercard](/payments/methods/credit-and-debit-cards/mastercard).  
+- See also Payment methods – [Mastercard](/payment-methods/mastercard).  
 - Redirect only.
 
 **Parameters**

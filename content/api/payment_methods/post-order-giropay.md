@@ -42,7 +42,7 @@ meta_title: "API reference - Create a Giropay order - MultiSafepay Docs"
 {{< description >}}
 ## Giropay
 
-- See also Payment methods – [Giropay](/payments/methods/banks/giropay).  
+- See also Payment methods – [Giropay](/payment-methods/giropay).  
 - Redirect only.
 
 **Parameters**
