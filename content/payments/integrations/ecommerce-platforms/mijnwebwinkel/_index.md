@@ -1,8 +1,7 @@
 ---
-title : "MultiSafepay app for Mijnwebwinkel"
+title : "Mijnwebwinkel app for MultiSafepay"
 meta_title: "Mijnwebwinkel app - MultiSafepay Docs"
 faq: "."
-
 logo: "/logo/Integrations/Mijnwebwinkel.svg"
 weight: 25
 title_short: "Mijnwebwinkel"
@@ -20,7 +19,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/mijnwebwinkel/
     - /ecommerce-platforms/mijnwebwinkel/
 ---
-This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Mijnwebwinkel webshop. This app is managed by our partner Mijnwebwinkel (MyOnlineStore).
+This technical manual is for installing and configuring Mijnwebwinkel's free app for integrating MultiSafepay payment solutions into your webshop. 
 
 {{< details title="Test environment" >}}
 &nbsp;  

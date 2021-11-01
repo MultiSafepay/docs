@@ -1,7 +1,6 @@
 ---
-title : "MultiSafepay app for myShop"
+title : "myShop app for MultiSafepay"
 meta_title: "myShop app - MultiSafepay Docs"
-
 logo: "/logo/Integrations/myShop.svg"
 weight: 23
 title_short: "myShop"
@@ -20,7 +19,7 @@ aliases:
     - /ecommerce-platforms/myshop/
 ---
 
-This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your myShop. This app is managed by our partner myShop.
+This technical manual is for installing and configuring myShop's free app for integrating MultiSafepay payment solutions into your webshop.
 
 {{< details title="Test environment" >}}
 &nbsp;  

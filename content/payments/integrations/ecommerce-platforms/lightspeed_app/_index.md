@@ -5,7 +5,6 @@ faq: "."
 changelog_url: '.'
 changelog: 'https://lightspeed.multisafepay.com/changelog'
 layout: 'single'
-
 logo: "/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed app"

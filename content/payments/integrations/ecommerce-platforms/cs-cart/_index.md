@@ -4,13 +4,12 @@ github_url : "https://github.com/MultiSafepay/CS-Cart"
 download_url : "https://github.com/MultiSafepay/CS-Cart/releases/download/1.6.0/Plugin_CS-Cart_1.6.0.zip"
 faq: "."
 changelog: "https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md"
-meta_title: "CS-Cart plugin integration - MultiSafepay Docs"
-
+meta_title: "CS-Cart plugin - MultiSafepay Docs"
 logo: "/logo/Plugins/CS-Cart.svg"
 weight: 13
 title_short: "CS-Cart"
 layout: 'single'
-description_short: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop"
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop."
 url: '/cs-cart/'
 aliases: 
     - /plugins/cs-cart

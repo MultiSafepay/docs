@@ -3,6 +3,7 @@ title: "MultiSafepay plugin for Odoo"
 github_url : "https://github.com/MultiSafepay/official-odoo-integration"
 download_url : "https://github.com/MultiSafepay/official-odoo-integration/archive/13.0-develop.zip"
 breadcrumb_title: "Odoo"
+changelog: https://github.com/MultiSafepay/official-odoo-integration/blob/13.0-develop/CHANGELOG.md
 changelog_url : "."
 faq: "."
 layout: 'single'

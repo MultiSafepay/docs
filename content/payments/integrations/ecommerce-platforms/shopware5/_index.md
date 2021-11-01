@@ -4,7 +4,6 @@ download_url : "https://store.shopware.com/en/mltis39871819230f/multisafepay-onl
 github_url : "https://github.com/MultiSafepay/Shopware"
 faq: "."
 meta_title: "Shopware 5 plugin - MultiSafepay Docs"
-
 logo: "/logo/Plugins/Shopware_5.svg"
 weight: 07
 title_short: "Shopware 5"

@@ -1,12 +1,12 @@
 ---
-title : "MultiSafepay app for ZilverCMS"
-meta_title: "ZilverCMS app integration - MultiSafepay Docs"
+title : "ZilverCMS app for MultiSafepay"
+meta_title: "ZilverCMS app - MultiSafepay Docs"
 layout: 'single'
-meta_description: "MultiSafepay app for ZilverCMS. Easily integrate MultiSafepay payment solutions into your ZilverCMS platform with the free app"
+meta_description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
 logo: "/logo/Integrations/ZilverCMS.svg"
 weight: 30
 title_short: "ZilverCMS"
-description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform"
+description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
 description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform."
 layout: 'single'
 url: '/zilvercms/'
@@ -18,8 +18,6 @@ aliases:
     - /payments/integrations/ecommerce-platforms/zilvercms/
     - /ecommerce-platforms/zilvercms/
 ---
-
-This app is managed by our partner ZilverCMS. 
 
 {{< details title="Supported payment methods" >}}
 

@@ -3,6 +3,7 @@ title : "MultiSafepay plugin for OsCommerce"
 github_url : "https://github.com/MultiSafepay/OsCommerce"
 download_url : "https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip"
 faq: "."
+changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/oscommerce/changelog/
 meta_title: "OsCommerce plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your OsCommerce platform"
 logo: "/logo/Plugins/OsCommerce.svg"
@@ -79,11 +80,11 @@ Contact MultiSafepay:
 
 + [E-Invoicing](/payment-methods/e-invoicing)
 + [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
 **Wallets**
 
-+ [PayPal](/payment-methods/paypal)
++ [PayPal](/payments/methods/wallet/paypal)
 
 **Prepaid cards**
 
@@ -95,7 +96,7 @@ Contact MultiSafepay:
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-+ [Paysafecard](/payment-methods/paysafecard)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
 + [Podium](https://www.podiumcadeaukaart.nl)
 + [Sport en Fit](https://www.sportenfitcadeau.nl)
 + [VVV gift card](https://www.vvvcadeaukaarten.nl)
