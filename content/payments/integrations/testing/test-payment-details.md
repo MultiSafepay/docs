@@ -478,7 +478,7 @@ You can change the order status to:
 | **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
 | **Cancelled** | Order was cancelled |
 
-To change the order status, on the Test platform page, in the **Test scenario** list, select the relevant order status.
+To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant order status.
 
 **Test refunding an order**
 
