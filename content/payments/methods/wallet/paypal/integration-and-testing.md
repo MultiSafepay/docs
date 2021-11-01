@@ -64,7 +64,4 @@ Alternatively, send a [Refund](/api/#refund-an-order) API request.
 
 **Note**: You can't test sending a redirect API request.
 
-___
-
-
 {{< /details >}}
