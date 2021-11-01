@@ -9,7 +9,7 @@ layout: 'child'
 
 To process Cartes Bancaires payments via our API, see API reference – [Credit cards](/api/#credit-cards).
 
-**Note:** You can integrate Cartes Bancaires using the [generic gateway](/developer/general/generic-gateways/) for Visa.
+**Note:** With our [ready-made integrations](/ecommerce-platforms/), you can also integrate Cartes Bancaires using the [generic Visa gateway](/developer/general/generic-gateways/).
 
 {{< details title="Credentials and testing process" >}}
 
