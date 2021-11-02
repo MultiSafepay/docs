@@ -37,3 +37,5 @@ For more information about testing, see Google Pay – [Test with sample tokens]
 
 {{< /details >}}
 3. Check the status of the payment [in your test account](https://testmerchant.multisafepay.com/).
+
+For questions about integration and testing, email the Integration Team at <integration@multisafepay.com>
