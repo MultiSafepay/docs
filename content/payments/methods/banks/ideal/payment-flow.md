@@ -21,22 +21,23 @@ sequenceDiagram
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
-    participant I as iDEAL
+    participant I as Issuer
     participant Me as Merchant
 
-    C->>Mu: Initiates payment.
-    alt Redirect flow
-    Mu->>C: Redirects to a MultiSafepay payment page.
-    C->>I: Authenticates their account/scans the QR code and completes payment.
-    else Direct flow
-    Mu->>I: Processes payment directly.
-    end
-    I->>Mu: Transfers funds. 
-    Mu->>Me: Settles funds in your MultiSafepay balance.
+    C->>Mu: Initiates payment
+    Mu->>C: Connects to issuer
+    C->>I: Completes payment
+    I->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
 {{< /mermaid >}}
+&nbsp;  
 
-1. Initiates payment: The customer selects iDEAL (QR) at checkout.
+1. The customer selects iDEAL (QR) at checkout.  
+2. We connect the customer with the issuer directly or redirect them to a MultiSafepay payment page. 
+3. The customer authenticates their account or scans the QR code and completes payment.  
+4. The issuer transfers the funds to MultiSafepay.  
+5. We settle the funds in your MultiSafepay balance. 
 
 ## Payment statuses
 
