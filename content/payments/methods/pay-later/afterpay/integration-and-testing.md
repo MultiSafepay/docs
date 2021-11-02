@@ -24,6 +24,8 @@ To get a test AfterPay API key, you can either:
 - Request one in your implementation ticket with AfterPay, or
 - Email <sales@afterpay.nl> 
 
+AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay can configure this for you.
+
 **Test an AfterPay order**
 
 1. Send a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
@@ -32,7 +34,7 @@ To get a test AfterPay API key, you can either:
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order Summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
 
 **Test AfterPay rejecting an order**  
 
@@ -46,7 +48,7 @@ You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
 - Send an [Update an order](/api/#update-an-order) API request, or 
-- In your MultiSafepay test account, go to **Order Summary**, and then click **Order status**.
+- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 ---
 
