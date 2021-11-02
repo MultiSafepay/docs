@@ -46,11 +46,12 @@ Contact MultiSafepay:
 
 {{< details title="Supported payment methods" >}}
 
-**Credit cards**
+**Credit and debit cards**
   
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Maestro](/payment-methods/maestro)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -65,6 +66,10 @@ Contact MultiSafepay:
 
 - [AfterPay](/payments/methods/billing-suite/afterpay/)
 - [Klarna](/payments/methods/billing-suite/klarna/)
+
+**Wallets**
+
+- [PayPal](/payment-methods/paypal)
 
 {{< /details >}}
 
