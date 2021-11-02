@@ -18,7 +18,7 @@ aliases:
 |---|---|---|
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Payment flow**  | Banking: [Direct](/api/#ideal-direct) / [Redirect](/api/#ideal-redirect) {{< br >}} QR: [Redirect](/api/#ideal-qr) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | Banking: [Direct](/api/#ideal---direct) / [Redirect](/api/#ideal---redirect) {{< br >}} QR: [Redirect](/api/#ideal-qr) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | Banking: Yes {{< br >}} QR: No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
 | **Transactions expire after**  | 1.5 hours | |
