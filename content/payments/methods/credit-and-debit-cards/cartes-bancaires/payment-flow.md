@@ -10,9 +10,10 @@ layout: 'child'
 The table below shows a successful transaction flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status:** The progression of the customer's order with you, independent of the payment  
+**Transaction status:** The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 

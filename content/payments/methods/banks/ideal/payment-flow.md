@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/ideal/payment-flow/
     - /payments/methods/banks/idealqr/payment-flow/
 ---
-## How iDEAL works
+## How it works
 
 {{< mermaid class="text-center" >}}
 
@@ -23,17 +23,24 @@ sequenceDiagram
     participant I as iDEAL
     participant Me as Merchant
 
-    C->>Mu: Selects iDEAL or iDEAL QR at checkout.
+    C->>Mu: Initiates payment.
+    alt Redirect flow
     Mu->>C: Redirects to a MultiSafepay payment page.
-    C->>I: Authenticates their account and completes payment, or scans the QR code.
+    C->>I: Authenticates their account/scans the QR code and completes payment.
+    else Direct flow
+    Mu->>I: Processes payment directly.
+    end
     I->>Mu: Transfers funds. 
     Mu->>Me: Settles funds in your MultiSafepay balance.
 
 {{< /mermaid >}}
 
+1. Initiates payment: The customer selects iDEAL (QR) at checkout.
+
 ## Payment statuses
 
 {{< details title="About order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
 **Order status:** The progression of the customer's order with you, independent of the payment  
 **Transaction status:** The progression towards settling the funds in your MultiSafepay balance

@@ -34,6 +34,7 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 ## Statuses
 
 {{< details title="About order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
 - Order status: the progress of the customer's order with you, independent of the payment
 - Transaction status: the progression towards settling the funds in your MultiSafepay balance
