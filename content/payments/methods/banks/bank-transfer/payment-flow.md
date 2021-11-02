@@ -12,12 +12,40 @@ aliases:
     - /payments/methods/banks/bank-transfer/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant I as Issuer
+    participant Me as Merchant
+
+    C->>Mu: Selects Bank transfer at checkout and provides email address.
+    alt Redirect flow
+    Mu->>C: Redirects to a MultiSafepay payment page.
+    C->>Mu: Confirms their bank account number. 
+    else Direct flow
+    Mu->>I: Initiates transfer directly.
+    end
+    C->>Mu: Receives MultiSafepay bank details by email and completes payment
+    Note over C,Mu: Online or with teller, takes 1-3 business days
+    I->>Mu: Transfers funds. 
+    Mu->>Me: Settles funds in your MultiSafepay balance.
+
+{{< /mermaid >}}
+
+1. 
+
+## Payment statuses 
 
 {{< details title="About order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status:** The progression of the customer's order with you, independent of the payment  
+**Transaction status:** The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
@@ -55,9 +83,3 @@ For more information, see API reference – [Bank Transfer: Direct](/api/#reques
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund has been successfully processed. | Completed | Completed |
-
-
-
-
-
-
