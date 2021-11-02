@@ -42,15 +42,15 @@ To decline an order, in your test account under **Order summary**, click **Decli
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [Update an order](/api/#update-an-order) API request, or 
+- Send an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 **Test refunding an order**
 
 To refund an order:
 
-  1. Change the order status to **Shipped**.
-  2. Under **Order summary**, click **Refund order**, or send a [Refund with shopping cart](/api/#refund-with-shopping-cart) API request.
+1. Change the order status to **Shipped**.
+2. Under **Order summary**, click **Refund order**, or send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
   The transaction status changes to **Completed**.
 
 **Receive an invoice**  

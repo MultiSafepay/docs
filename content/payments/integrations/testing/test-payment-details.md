@@ -220,7 +220,7 @@ AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay
 **Test an AfterPay order**
 
 1. Send a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
-2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Bevestig**.
+2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.
 3. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
@@ -238,7 +238,7 @@ The transaction and order statuses change to **Declined**.
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [Update an order](/api/#update-an-order) API request, or 
+- Send an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 ---
@@ -314,15 +314,15 @@ To decline an order, in your test account under **Order summary**, click **Decli
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [Update an order](/api/#update-an-order) API request, or 
+- Send an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 **Test refunding an order**
 
 To refund an order:
 
-  1. Change the order status to **Shipped**.
-  2. Under **Order summary**, click **Refund order**, or send a [Refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
+1. Change the order status to **Shipped**.
+2. Under **Order summary**, click **Refund order**, or send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
   The transaction status changes to **Completed**.
 
 **Receive an invoice**  
