@@ -17,7 +17,7 @@ aliases:
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, Netherlands  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Direct](/api/#klarna) / [Redirect](/api/#klarna-redirect) {{< br >}} Both direct to the Klarna payment page| [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#klarna) / [Redirect](/api/#klarna---redirect) {{< br >}} Both direct to the Klarna payment page| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 day | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
