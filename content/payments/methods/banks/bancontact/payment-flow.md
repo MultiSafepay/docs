@@ -13,30 +13,49 @@ aliases:
     - /payments/methods/banks/bancontact-qr/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant B as Bancontact
+    participant Me as Merchant
+
+    C->>Mu: Selects Bancontact (QR) at checkout.
+    alt Redirect flow
+    Mu->>C: Redirects to a MultiSafepay payment page.
+    C->>B: Authenticates their account/scans the QR code and completes payment.
+    else Direct flow
+    Mu->>B: Processes payment directly.
+    end
+    B->>Mu: Transfers funds. 
+    Mu->>Me: Settles funds in your MultiSafepay balance.
+
+{{< /mermaid >}}
+
+## Payment statuses
 
 {{< details title="About order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+
+**Order status:** The progression of the customer's order with you, independent of the payment  
+**Transaction status:** The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects Bancontact or Bancontact QR at checkout and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
-| 2. | The customer authenticates their account and completes payment, or scans the QR code. | Completed | Completed |
-| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.|  |  |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The customer has completed payment. | Completed | Completed |
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period (banking only). | Expired | Expired |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 

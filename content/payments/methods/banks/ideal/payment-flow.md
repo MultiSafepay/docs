@@ -13,29 +13,49 @@ aliases:
     - /payments/methods/banks/idealqr/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant I as iDEAL
+    participant Me as Merchant
+
+    C->>Mu: Initiates payment.
+    alt Redirect flow
+    Mu->>C: Redirects to a MultiSafepay payment page.
+    C->>I: Authenticates their account/scans the QR code and completes payment.
+    else Direct flow
+    Mu->>I: Processes payment directly.
+    end
+    I->>Mu: Transfers funds. 
+    Mu->>Me: Settles funds in your MultiSafepay balance.
+
+{{< /mermaid >}}
+
+1. Initiates payment: The customer selects iDEAL (QR) at checkout.
+
+## Payment statuses
 
 {{< details title="About order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status:** The progression of the customer's order with you, independent of the payment  
+**Transaction status:** The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects iDEAL or iDEAL QR at checkout and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
-| 2. | The customer authenticates their account and completes the payment, or scans the QR code. | Completed | Completed |
-| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| | |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The customer has completed payment. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1.5-hour period. | Expired | Expired |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
