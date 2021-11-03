@@ -37,14 +37,14 @@ Sample statuses:
 
 Test credentials:
 
-- [API key](/tools/multisafepay-control/get-your-api-key/)
+- [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Bank Transfer**
+**Test a Bank Transfer order**
 
-1. To test a Bank Transfer, send a [redirect](/api/#bank-transfer---redirect) API request.
+1. To test a Bank Transfer order, send a [redirect](/api/#bank-transfer---redirect) API request.
 2. Open the payment link. 
 3. In the **Your bank account** field, enter an IBAN. 
-4. In the **Bank's country** list, select a country, and then click **Confirm**.
+4. From the **Bank's country** list, select a country, and then click **Confirm**.
 
 Use the following IBANs to test different transaction statuses.
 
@@ -58,8 +58,9 @@ Use the following IBANs to test different transaction statuses.
 **Test cancelling an order**
 
 To test cancelling an order, either:
+
 - Send an [update an order](/api/#update-an-order) API request with status **Cancelled**, or 
-- In your MultiSafepay test account, go to **Order Summary**, and then click **Cancel**.  
+- In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
 The transaction status changes to **Void**.
 
 **Test refunding an order**
@@ -67,8 +68,8 @@ The transaction status changes to **Void**.
 To test refunding an order:
 
 1. Create an order using IBAN: NL87ABNA0000000001. 
-2. Wait until the transaction status is **Completed**.
-3. In your MultiSafepay test account, go to **Order Summary**, and then click **Refund order**.
+2. Wait until the transaction status changes to **Completed**.
+3. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
 4. Under **Refund**, in the **Account holder name** field, enter the account holder name of the account you want to refund to. 
 5. In the **IBAN** field, enter the IBAN of the account you want to refund to.
 6. In the **Reason/Description** field, enter a reason for the refund. 
@@ -82,7 +83,7 @@ To test refunding an order:
 
 ---
 
-**Note**: You can't test the following:
+**Note:** You can't test the following:
 - Sending a refund API request
 - Sending a direct API request with an IBAN to test different transaction statuses
 
