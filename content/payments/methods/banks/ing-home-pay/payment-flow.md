@@ -12,37 +12,67 @@ aliases:
     - /payments/methods/banks/ing-home-pay/payment-flow/
 ---
 
+## How it works
 
-The table below shows a successful payment flow from start to finish.  
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    participant Me as Merchant
+
+    C->>Mu: Selects ING Home'Pay at checkout
+    Mu->>C: Connects to customer's bank (direct/redirect)
+    C->>CB: Authenticates account and completes payment
+    CB->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#ing-homepay---direct)  
+The customer selects ING Home'Pay and their bank at checkout and is redirected straight to their online banking environment.  
+
+[Redirect flow](/api/#ing-homepay---redirect)  
+The customer selects ING Home'Pay at checkout and is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment. 
+
+{{< /details>}}
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects ING Home'Pay at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/activation/). | Initialized | Initialized |
-| 2. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
-| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete.| Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 5-day period. | Expired | Expired |
+| The customer didn't complete  payment and the transaction expired . | Expired | Expired |
+
+**Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**.  
+We import our bank statements daily and finalize all incoming payments.
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund was successful. | Completed | Completed |
 
 
 

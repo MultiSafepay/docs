@@ -50,5 +50,5 @@ You can cancel payments before the funds are captured. After the funds are captu
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed.  | Completed | Completed |
+| The refund was successful.  | Completed | Completed |
 

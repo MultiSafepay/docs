@@ -19,13 +19,13 @@ sequenceDiagram
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
-    participant I as Issuer
+    participant CB as Customer's bank
     participant Me as Merchant
 
     C->>Mu: Selects Belfius at checkout
-    Mu->>C: Connects to issuer (direct/redirect)
-    C->>I: Authenticates account and completes payment
-    I->>Mu: Transfers funds 
+    Mu->>C: Connects to customer's bank (direct/redirect)
+    C->>CB: Authenticates account and completes payment
+    CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
@@ -34,10 +34,10 @@ sequenceDiagram
 {{< details title="Direct vs redirect">}}
 
 [Direct flow](/api/#belfius---direct)  
-The customer selects Belfius and the issuer (their bank) at checkout and is redirected straight to their online banking environment.  
+The customer selects Belfius and their bank at checkout and is redirected straight to their online banking environment.  
 
 [Redirect flow](/api/#belfius---redirect)  
-The customer selects Belfius at checkout and is redirected first to a MultiSafepay payment page to select the issuer, and then to their online banking environment. 
+The customer selects Belfius at checkout and is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment. 
 
 {{< /details>}}
 
@@ -71,7 +71,7 @@ We import our bank statements daily and finalize all incoming payments.
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund was successful. | Completed | Completed |
 
 
 

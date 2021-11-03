@@ -17,34 +17,55 @@ aliases:
 
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
 
-{{< details title="Order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    
+    C->>Me: Selects SEPA Direct Debit <br> at checkout
+    Me->>Mu: Sends request and <br> customer information
+    Mu->>CB: Conducts background check <br> and sends e-mandate
+    CB->>Mu: Processes transaction (see reason codes) <br> and transfers funds 
+    Note over CB,Mu: -500 EUR= 7 business days <br> +500 EUR= 20 business days
+    Mu->>Me: Settles funds
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#sepa-direct-debit---direct)  
+The customer selects SEPA Direct Debit at checkout and a request with the customer's information is sent straight to MultiSafepay.  
+
+[Redirect flow](/api/#sepa-direct-debit---redirect)  
+The customer selects SEPA Direct Debit at checkout and is redirected first to a MultiSafepay payment page to confirm their IBAN and account name.  
+A request with the customer's information is sent to MultiSafepay.  
+The customer is redirected to your success page. 
+
+{{< /details>}}
+
+{{< details title="About e-mandates">}}
+
+MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a:
+
+- `first` debit (processed within 5 days), or 
+- `recurring` debit (processed within 2 days)
+
+We send all e-mandates to our bank at the end of every business day.  
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | Make a SEPA Direct Debit request to MultiSafepay, providing information about the customer. |  |  |
-| 2. | MultiSafepay conducts a background check on the customer's information, and if successful, creates an order. | Initialized  | Initialized |
-| 3. | MultiSafepay creates an e-mandate automatically based on the customer's IBAN and your site ID. {{< br >}} We specify if it is a `first` debit (processed within 5 days) or `recurring` debit (processed within 2 days). {{< br >}} We send all e-mandates to our bank at the end of every business day. {{< br >}} You can no longer cancel the transaction. | Uncleared | Uncleared |
-| 4. | The customer's bank processes the transaction. {{< br >}} For reasons why it may not be successful, see the reason codes below. {{< br >}} If the IBAN or BIC is incorrect, our bank informs us the next business day. |  |  |
-| 5. | MultiSafepay collects the funds. {{< br >}} For amounts smaller than 500 EUR, settlement takes 7 business days, and for amounts larger than 500 EUR it takes 20 days. | Completed | Uncleared |
-| 6. | MultiSafepay adds the funds to your MultiSafepay balance.| Completed | Completed |
+{{< details title="Reason codes">}}
 
-{{< details title="Reason codes" >}}
-&nbsp;  
-For more information in:
+The table below sets out the reason codes for why SEPA Direct Debit transactions might be unsuccessful and suggested actions to take.
 
-- English, see European Payments Council – [Guidance on reason codes](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf). 
-- Dutch, see Betaal Vereniging – [Reasoncodes en vervolgacties](https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf).
-
-The table below sets out the reason codes for unsuccessful SEPA Direct Debit transactions and suggested actions to take.
+If the IBAN or BIC is incorrect, our bank informs us the next business day.
 
 | Code | Reason | |
 |-----|-------|---|
@@ -77,22 +98,45 @@ The table below sets out the reason codes for unsuccessful SEPA Direct Debit tra
 |RR04|Regulatory reason| Contact your bank. |
 |SL01|Specific service offered by debtor agent| Contact the debtor. |
 |TM01|File received after cut-off time| |
+
+For more information in:
+
+- English, see European Payments Council – [Guidance on reason codes](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf). 
+- Dutch, see Betaal Vereniging – [Reasoncodes en vervolgacties](https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf).
+
 {{< /details >}}
 
-## Unsuccessful statuses
+## Payment statuses
+
+{{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
+
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction was declined while **Uncleared**. | Declined | Declined   |
-| The transaction has been cancelled or you provided incorrect customer information. | Cancelled   | Cancelled   |
+| MultiSafepay's customer background check was successful and the transaction is initiated. | Initialized  | Initialized |
+| MultiSafepay has sent an e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
+| The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
+| The transaction is complete.| Completed | Completed |
+| The transaction was declined. | Declined | Declined   |
+| The transaction has been cancelled or the customer information was incorrect. | Cancelled   | Cancelled   |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
-| The customer requested a chargeback. You cannot dispute this. | Chargeback  | Completed | 
+| The refund was successful. | Completed | Completed |
+| The customer has requested a chargeback. | Chargeback  | Completed | 
 
 
 

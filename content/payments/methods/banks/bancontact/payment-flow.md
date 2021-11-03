@@ -21,20 +21,20 @@ sequenceDiagram
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
-    participant I as Issuer
+    participant CB as Customer's bank
     participant Me as Merchant
 
     C->>Mu: Selects Bancontact (QR) at checkout
-    Mu->>C: Connects to issuer (redirect only)
-    C->>I: Authenticates account/scans QR code and completes payment
-    I->>Mu: Transfers funds 
+    Mu->>C: Connects to customer's bank (redirect only)
+    C->>CB: Authenticates account/scans QR code and completes payment
+    CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds 
 
 {{< /mermaid >}}
 
 {{< details title="Redirect flow">}}
 
-The customer selects Bancontact at checkout and is redirected first to a MultiSafepay payment page to select the issuer, and then to their online banking environment. 
+The customer selects Bancontact at checkout and is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment. 
 
 See API reference – [Bancontact](/api/#bancontact).
 
@@ -68,4 +68,4 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund was successful. | Completed | Completed |
