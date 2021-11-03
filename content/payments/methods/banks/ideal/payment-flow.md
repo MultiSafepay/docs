@@ -17,14 +17,6 @@ aliases:
 
 {{< mermaid class="text-center" >}}
 
-flowchart TD
-    id1(["Customer selects iDEAL (QR) at checkout"]) --> id2(["Direct: {{< br >}} Customer is redirected straight to their online banking page"]) & id3(["Redirect: {{< br >}} Customer is redirected to a MultiSafepay payment page to select their bank, and then to the online banking page"])--> id4([Customer authenticates their account or scans the QR code and completes payment]) --> id5(["MultiSafepay collects the funds from the customer's bank and settles them in your MultiSafepay balance"]) 
-
-{{< /mermaid >}}
-
-
-{{< mermaid class="text-center" >}}
-
 sequenceDiagram
     autonumber
     participant C as Customer
@@ -33,27 +25,34 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects iDEAL (QR) at checkout
-    Mu->>C: Connects to issuer
-    C->>I: Completes payment
+    Mu->>C: Connects to issuer (direct/redirect)
+    C->>I: Authenticates account/scans QR code and completes payment
     I->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
 
-1. The customer selects iDEAL (QR) at checkout.  
-2. We connect the customer with the [issuer](/getting-started/glossary/#issuer) directly or redirect them to a MultiSafepay payment page. 
-3. The customer authenticates their account or scans the QR code and completes payment.  
-4. The issuer transfers the funds to MultiSafepay.  
-5. We settle the funds in your MultiSafepay balance. 
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#ideal---direct)  
+The customer selects iDEAL and the issuer (their bank) at checkout and is redirected straight to their online banking environment.  
+
+[Redirect flow](/api/#ideal---redirect)  
+The customer selects iDEAL at checkout and is redirected first to a MultiSafepay payment page to select the issuer, and then to their online banking environment. 
+
+{{< /details>}}
 
 ## Payment statuses
 
-{{< details title="About order and transaction statuses" >}}
+{{< details title="Order and transaction statuses" >}}
 For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-**Order status:** The progression of the customer's order with you, independent of the payment  
-**Transaction status:** The progression towards settling the funds in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
@@ -62,7 +61,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The funds are in your MultiSafepay balance. | Completed | Completed |
+| The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 

@@ -15,7 +15,7 @@ The table below shows a successful transaction flow from start to finish.
 
 **Note:** MultiSafepay does **not** collect funds for PayPal.
 
-{{< details title="About order and transaction statuses" >}}
+{{< details title="Order and transaction statuses" >}}
 
 - Order status: the progression of the customer's order with you, independent of the payment
 - Transaction status: the progression towards settlement in your MultiSafepay balance

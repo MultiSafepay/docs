@@ -11,7 +11,7 @@ aliases:
 
 The table below shows a successful transaction flow from start to finish.  
 
-{{< details title="About order and transaction statuses" >}}
+{{< details title="Order and transaction statuses" >}}
 
 In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 

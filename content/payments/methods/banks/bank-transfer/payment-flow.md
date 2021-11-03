@@ -20,48 +20,54 @@ sequenceDiagram
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
-    participant I as Issuer
     participant Me as Merchant
 
-    C->>Mu: Initiates payment
-    Mu->>C: Connects to issuer
-    C->>I: Completes payment 
-    I->>Mu: Transfers funds
-    Mu->>Me: Settles funds
-
+    C->>Mu: Selects Bank Transfer at checkout
+    Mu->>C: Emails MultiSafepay's bank account details
+    Note over Mu,C: Or email the details yourself
+    C->>Mu: Transfers funds (online or with teller)
+    Note over C,Mu: Takes 1–3 business days 
+    Mu->>Me: Matches transaction and settles funds
+    
 {{< /mermaid >}}
-&nbsp;  
 
-1. The customer selects Bank transfer at checkout and provides an email address.  
-2. MultiSafepay connects the customer with the [issuer](/getting-started/glossary/#issuer) directly or redirects them to a MultiSafepay payment page, where they confirm their bank account number. 
-3. The customer:  
-    - Receives MultiSafepay's bank account details by email, sent by MultiSafepay or yourself. 
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#bank-transfer---direct)  
+The customer selects Bank Transfer at checkout and is redirected to your success page.  
+
+[Redirect flow](/api/#bank-transfer---redirect)  
+The customer selects Bank Transfer at checkout and is redirected to a MultiSafepay payment page, where they confirm their bank account number and (optionally) the bank country.  
+MultiSafepay's bank account details are then displayed. 
+
+{{< /details>}}
+
 {{< details title="Emailing payment instructions yourself" >}}
 
-If emailing your own payment instructions to the customer, in your `POST /orders` API request, set the `disable_send_email` parameter to `true`. 
+MultiSafepay automatically emails our bank account details to the customer. Alternatively, you can email them yourself, e.g. for consistent, branded communications.
 
-This prevents us from emailing the customer.
+To prevent MultiSafepay from emailing the customer, in your `POST /orders` API request, set the `disable_send_email` parameter to `true`. 
 
 For more information, see API reference – [Bank Transfer: Direct](/api/#request-to-pay).
 
 {{< /details >}}
-    - Completes payment to our account, either online or with a teller.  
-This may take 1-3 business days. 
-4. The issuer transfers the funds to MultiSafepay.  
-5. MultiSafepay:  
-    - Collects the funds and matches them to the outstanding transaction.  
-    - Settles the funds in your MultiSafepay balance.  
 
-**Note:** If the customer provides incorrect payment details and/or pays the wrong amount and we can't match the payment correctly, we refund it to the customer. 
+{{< details title="Matching transactions">}}
+&nbsp;  
+If the customer provides incorrect payment details and/or pays the wrong amount and we can't match the payment correctly, we refund it to the customer. 
 
+{{< /details >}}
 
-## Payment statuses 
+## Payment statuses
 
-{{< details title="About order and transaction statuses" >}}
+{{< details title="Order and transaction statuses" >}}
 For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-**Order status:** The progression of the customer's order with you, independent of the payment  
-**Transaction status:** The progression towards settling the funds in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
@@ -70,7 +76,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The funds are in your MultiSafepay balance. | Completed | Completed |
+| The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete  payment and the transaction expired. | Expired | Expired |
 
