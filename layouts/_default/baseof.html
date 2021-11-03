@@ -29,8 +29,11 @@
 
     {{ if .IsHome }} {{ partial "site_verification" . }} {{ end }}
 
+    <!-- DOCS-2843: Remove tracking 
     {{ template "_internal/google_analytics_async.html" . }}
     {{ partial "google-tag-manager" . }}
+    -->
+
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
 
@@ -48,21 +51,22 @@
     <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
     <script src="{{ .Site.BaseURL }}js/main.js?v=8"></script>
 
-
-    <!-- Cookie consent script -->
+    <!-- DOCS-2843: Remove tracking
+    Cookie consent script
     <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="ce3ce69a-721a-49db-a27e-dbb7f17690bf"></script>
 
-        <!-- Hotjar Tracking Code for https://docs.multisafepay.com/ -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:1743879,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
+    Hotjar Tracking Code for https://docs.multisafepay.com/
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1743879,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    -->
 </head>
 
 <body class='{{ if .IsHome }}home{{end}}'>
