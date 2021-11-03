@@ -1,5 +1,5 @@
 ---
-weight: 331
+weight: 332
 meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSafepay Docs"
 
 ---

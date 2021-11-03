@@ -1,5 +1,5 @@
 ---
-weight: 330
+weight: 331
 meta_title: "API reference - Create a Request to Pay transaction - MultiSafepay Docs"
 
 ---

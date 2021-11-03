@@ -1,5 +1,5 @@
 ---
-weight: 333
+weight: 334
 meta_title: "API reference - Create a Sofort order - MultiSafepay Docs"
 
 ---
