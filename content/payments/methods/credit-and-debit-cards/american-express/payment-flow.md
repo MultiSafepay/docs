@@ -9,33 +9,71 @@ aliases:
     - /payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
 ---
 
-The table below shows a successful transaction flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant A as American Express
+    participant Me as Merchant
+
+    C->>Mu: Selects American Express at checkout
+    Mu->>C: Connects to American Express <br> (embedded/redirect)
+    C->>A: Enters payment details, verifies identity with Safekey, <br> and completes payment
+    Mu->>Me: Runs fraud filter and provides risk report
+    Me->>Mu: Authorizes (or declines) transaction
+    alt MultiSafepay collects
+        A->>Mu: Transfers funds 
+        Mu->>Me: Settles funds
+    else With American Express MID
+        A->>Me: Settles funds
+    end
+    
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Embedded vs redirect">}}
+
+**Embedded solution**   
+The customer selects American Express and enters their payment details at checkout.  
+See [Payment Components](/payment-components/).
+
+**Redirect flow**  
+The customer selects American Express at checkout and is redirected to a MultiSafepay payment page to enter their payment details.  
+See API reference – [American Express](/api/#american-express). 
+
+{{< /details>}}
+
+**Note:** Safekey is the American Express version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/).
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects American Express at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
-| 2. | The customer enters their credit card details, verifies their identify via [Safekey](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
-| 3. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 4. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} **Or** {{< br >}} If you use your American Express MID (MerchantID), Amercian Express settles the funds directly in your business bank account. | Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| The transaction is completed. | Completed | Completed |
 | The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status/). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
+| The customer didn't complete  payment and the transaction expired. | Expired | Expired |
+| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 ## Refund statuses
 
@@ -43,7 +81,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund was successfully processed.  | Completed      | Completed   |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
+| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 
 

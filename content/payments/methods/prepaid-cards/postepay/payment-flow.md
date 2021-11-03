@@ -27,7 +27,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 1. | The customer selects Postepay at checkout and is redirected to a MultiSafepay payment page.  | Initialized | Initialized |
 | 2. | The customer enters their card details, verifies their identify via [Verified by Visa](/security-and-legal/payment-regulations/about-3d-secure/) or Mastercard [SecureCode](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
 | 3. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 4. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| 4. | You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses

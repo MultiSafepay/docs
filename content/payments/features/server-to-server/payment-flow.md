@@ -27,7 +27,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer enters their credit card details, verifies their identify via [3D Secure](/faq/payment-regulations/about-3d-secure/) or branded version (if required), and completes the payment. | | |
 | 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 5. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| 5. | You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | 6. | The transaction is successful. |  |  |
 | 7. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} **Or** {{< br >}} If you use your American Express MID (MerchantID), Amercian Express settles the funds directly in your business bank account. | Completed | Completed |
 
@@ -38,7 +38,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status/). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
+| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 ### Refund statuses
 

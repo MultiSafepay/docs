@@ -25,7 +25,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 1. | The customer selects V Pay at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
 | 2. | The customer enters their credit card details, verifies their identify via [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
 | 3. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 4. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| 4. | You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
 
 ## Unsuccessful statuses
@@ -35,7 +35,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/payment-methods/american-express/user-guide/declined-status/). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/).  | Chargeback | Completed   |
+| The customer requested a [chargeback](/payments/chargebacks/).  | Chargeback | Completed   |
 
 ## Refund statuses
 
@@ -43,6 +43,6 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund was successfully processed.  | Completed      | Completed   |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
+| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 

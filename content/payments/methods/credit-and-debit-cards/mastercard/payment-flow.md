@@ -9,33 +9,85 @@ aliases:
     - /payment-methods/mastercard/how-does-mastercard-work
 ---
 
-The table below shows a successful transaction flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant Ma as Mastercard
+    participant Me as Merchant
+
+    C->>Mu: Selects Mastercard at checkout
+    Mu->>C: Connects to Mastercard <br> (embedded/redirect)
+    C->>Ma: Enters payment details, verifies identity with SecureCode, <br> and completes payment
+    Mu->>Me: Runs fraud filter and provides risk report
+    Me->>Mu: Authorizes (or declines) transaction
+    Ma->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+       
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Embedded vs redirect">}}
+
+**Embedded solution**   
+The customer selects Mastercard and enters their payment details at checkout.  
+See [Payment Components](/payment-components/).
+
+**Redirect flow**  
+The customer selects Mastercard at checkout and is redirected to a MultiSafepay payment page to enter their payment details.  
+See API reference – [Mastercard](/api/#mastercard). 
+
+{{< /details>}}
+
+**Note:** SecureCode is the Mastercard version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/).
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects Mastercard at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
-| 2. | The customer enters their credit card details, verifies their identify via [SecureCode](/security-and-legal/payment-regulations/about-3d-secure/), and completes the payment. | | |
-| 3. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 4. | You manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 5. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status/). | Declined | Declined   |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/).  | Chargeback | Completed   |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer's bank has declined the transaction (see below). | Declined | Declined   |
+
+{{< details title="Declined status">}}
+
+The table below shows possible reasons for **Declined** status. 
+
+Only the customer can contact their credit card issuer to find out the specific reason.
+
+| Reason | Description |
+|----------|---------|
+| Transaction declined by MultiSafepay | Our automated fraud filter declined the transaction. Email the Support Team at <support@multisafepay.com> |
+| Do not honor | The reason is not shared with MultiSafepay. |
+| 3D authorisation cancelled | [3D Secure](/features/3d-secure/about/) verification was incomplete or couldn't be validated. |
+| Expired card | The credit card has expired. |
+| Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
+| Merchant only accepts 3D Secure-verified cards | Email requests to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
+
+For any questions, email the Support Team at <support@multisafepay.com>
+
+{{< /details >}}
 
 ## Refund statuses
 
@@ -43,6 +95,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund was successfully processed.  | Completed      | Completed   |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
+| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
+
 
 
