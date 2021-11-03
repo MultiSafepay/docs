@@ -36,7 +36,7 @@ Use the following IBANs to test different transaction statuses.
 | NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**. |
 | NL87ABNA0000000002| **Initialized**/ **Expired** | Transaction is initialized. After 2 minutes, this changes to **Expired**. |
 | NL87ABNA0000000004| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
-| Any other IBAN | **Initialized**/ **Expired** | Transaction is initialized. After 5 minutes, this changes to **Expired**. |
+| Any other IBAN | **Initialized**/ **Expired** | Transaction is initialized. After 5 days, this changes to **Expired**. |
 
 **Test cancelling an order**
 
