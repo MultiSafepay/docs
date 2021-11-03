@@ -33,17 +33,59 @@ Sample statuses:
 
 {{< /details >}}
 
-{{< details title="Banktransfer" >}}
+{{< details title="Bank Transfer" >}}
 
-Test IBANs: See the table below.
+Test credentials:
 
-Sample statuses:
+- [API key](/account/site-id-api-key-secure-code/)
+
+**Test a Bank Transfer order**
+
+1. To test a Bank Transfer order, send a [redirect](/api/#bank-transfer---redirect) API request.
+2. Open the payment link. 
+3. In the **Your bank account** field, enter an IBAN. 
+4. From the **Bank's country** list, select a country, and then click **Confirm**.
+
+Use the following IBANs to test different transaction statuses.
 
 | IBAN | Status    | Description              |
 | ---------| --------- | ------------------------ |
-| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initialized. After 1 minute, this changes to declined. |
-| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
-| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initialized. After 1 minute, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
+| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**. |
+| NL87ABNA0000000002| **Initialized**/ **Expired** | Transaction is initialized. After 2 minutes, this changes to **Expired**. |
+| NL87ABNA0000000004| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
+| Any other IBAN | **Initialized**/ **Expired** | Transaction is initialized. After 5 minutes, this changes to **Expired**. |
+
+**Test cancelling an order**
+
+To test cancelling an order, either:
+
+- Send an [update an order](/api/#update-an-order) API request with status **Cancelled**, or 
+- In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
+The transaction status changes to **Void**.
+
+**Test refunding an order**
+
+To test refunding an order:
+
+1. Create an order using IBAN: NL87ABNA0000000001. 
+2. Wait until the transaction status changes to **Completed**.
+3. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+4. Under **Refund**, in the **Account holder name** field, enter the account holder name of the account you want to refund to. 
+5. In the **IBAN** field, enter the IBAN of the account you want to refund to.
+6. In the **Reason/Description** field, enter a reason for the refund. 
+7. In the **Amount** field, enter the amount to refund, and then click **Continue**.
+8. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
+9. Under **Related transactions**, select the **ID** of the refund order.
+10. Under **Order summary**, click **Accept**.
+11. In the **Add transaction comment** field, add a comment, and then click **Add**.
+  The order status changes to **Completed**.
+
+---
+
+**Note:** You can't test the following:
+- Sending a refund API request
+- Sending a direct API request with an IBAN to test different transaction statuses
 
 {{< /details >}}
 

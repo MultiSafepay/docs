@@ -32,7 +32,7 @@ aliases:
 
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
-- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+- While the transaction status is **Reserved**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
