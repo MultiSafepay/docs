@@ -68,9 +68,9 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| The customer's bank has declined the transaction (see below). | Declined | Declined   |
+| The customer's bank has declined the transaction. | Declined | Declined   |
 
-{{< details title="Declined status">}}
+{{< details title="Reasons for Declined status">}}
 
 The table below shows possible reasons for **Declined** status. 
 

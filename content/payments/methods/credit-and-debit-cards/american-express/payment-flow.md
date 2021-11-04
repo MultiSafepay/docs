@@ -70,10 +70,28 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer has initiated a transaction. | Initialized | Initialized |
 | You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is completed. | Completed | Completed |
-| The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status/). | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete  payment and the transaction expired. | Expired | Expired |
-| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
+| The customer's bank has declined the transaction. | Declined | Declined   |
+
+{{< details title="Reasons for Declined status">}}
+
+The table below shows possible reasons for **Declined** status. 
+
+Only the customer can contact their credit card issuer to find out the specific reason.
+
+| Reason | Description |
+|----------|---------|
+| Transaction declined by MultiSafepay | Our automated fraud filter declined the transaction. Email the Support Team at <support@multisafepay.com> |
+| Do not honor | The reason is not shared with MultiSafepay. |
+| 3D authorisation cancelled | [3D Secure](/features/3d-secure/about/) verification was incomplete or couldn't be validated. |
+| Expired card | The credit card has expired. |
+| Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
+| Merchant only accepts 3D Secure-verified cards | Email requests to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
+
+For any questions, email the Support Team at <support@multisafepay.com>
+
+{{< /details >}}
 
 ## Refund statuses
 
