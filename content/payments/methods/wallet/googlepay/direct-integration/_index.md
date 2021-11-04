@@ -199,39 +199,36 @@ For infomation about styling your **Google Pay** button, see Google Pay:
 
 ## Create payment request
 
-**1.** Create a `PaymentDataRequest` object and describe your integration's support for the Google Pay API:
+Create a function that returns a `PaymentDataRequest` object:
+
+- Describe your integration's support for the Google Pay API:
+- Add your supported payment methods.
+- Add the amount and currency for the customer to authorize.
+- Add your merchant name and Google Pay merchant ID for display.
 
 ```
-const paymentDataRequest = Object.assign({}, baseRequest);
+function getGooglePaymentDataRequest() {
+    const paymentDataRequest = Object.assign({}, baseRequest);
+    paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
+    paymentDataRequest.transactionInfo = {
+        totalPriceStatus: 'FINAL',
+        totalPrice: '123.45',
+        currencyCode: 'EUR',
+        countryCode: 'NL'
+    };
+    paymentDataRequest.merchantInfo = {
+        merchantName: 'Example Merchant'
+        merchantId: '12345678901234567890'
+    };
+    return paymentDataRequest;
+}
 ```
 
-**2.** Add your supported payment methods:
+You will call this function from the **Google Pay** button event handler in the next step. This way, attributes such as the `totalPrice` may be updated up until the customer chooses to pay.
 
-```
-paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
-```
+For more information about the `transactionInfo` object, see Google Pay – [TransactionInfo](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
 
-**3.** Add the amount and currency for the customer to authorize:
-
-```
-paymentDataRequest.transactionInfo = {
-  totalPriceStatus: 'FINAL',
-  totalPrice: '123.45',
-  currencyCode: 'EUR',
-  countryCode: 'NL'
-};
-```
-
-For more information about the `transactionInfo` object, see Google Pay – [Request object](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
-
-**4.** Add your merchant name and Google Pay merchant ID for display:
-
-```
-paymentDataRequest.merchantInfo = {
-  merchantName: 'Example Merchant'
-  merchantId: '12345678901234567890'
-};
-```
+### About `merchantInfo`
 
 When using the `TEST` environment, specify:
 
@@ -252,12 +249,12 @@ For more information about the `merchantInfo` object, see Google Pay – [Reques
 **1.** Create an event handler for the **Google Pay** button:
 
 - When the customer clicks the **Google Pay** button, call the `loadPaymentData()` method.
+- The customer is prompted by Google to select their card and authorize the payment.
 - After the customer authorizes the payment, handle the response from the Google Pay API.
 
 ```
 function onGooglePaymentButtonClicked() {
     const paymentDataRequest = getGooglePaymentDataRequest();
-    const paymentsClient = getGooglePaymentsClient();
     paymentsClient.loadPaymentData(paymentDataRequest)
         .then(function(paymentData) {
             processPayment(paymentData);

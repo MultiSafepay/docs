@@ -20,6 +20,27 @@ noindex: '.'
 
 **Note:** Google Pay transactions are processed as credit card transactions and follow similar product rules.
 
+{{< details title="Supported payment methods" >}}
+Google Pay tokenizes a customer's payment details (credit and debit cards).
+
+We can process of the following gateways:
+
+- Mastercard
+- Visa
+- Maestro
+{{< /details >}}
+
+{{< details title="Supported browsers" >}}
+Google Pay is supported in the following browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Apple Safari
+- Microsoft Edge
+- Opera
+- UCWeb UC Browser
+{{< /details >}}
+
 {{< details title="Refunds" >}}
 
 - [Full and partial refunds](/payments/refunds/) are supported.
