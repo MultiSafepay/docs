@@ -55,9 +55,9 @@ meta_title: "API reference - Refund with shopping cart - MultiSafepay Docs"
 {{< /code-block >}}
 {{< description >}}
 ### Refund with shopping cart
-Refund [pay later](/payments/methods/pay-later/) orders that include a [`shopping_cart` object](/api/#shopping-cart-items-object).
+To refund a [pay later](/payments/methods/pay-later/) order, include a [`shopping_cart` object](/api/#shopping-cart-items-object) in the refund request.
 
-1. Make a `GET /orders/{id}` request to retrieve the items in the shopping cart.
+1. To retrieve the items in the shopping cart, make a `GET /orders/{id}` request.
 
 2. Make a `POST /orders/{id}/refunds` request:    
     - For Klarna, add a duplicate object for each item you need to refund with a **negative** `unit_price`.  
