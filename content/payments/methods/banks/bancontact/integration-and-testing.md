@@ -20,18 +20,16 @@ To process payments via our API, see API reference:
 
 For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="Testing" >}}
+{{< details title="View credentials and testing process" >}}
 
-Test credentials:
-
-- [API key](/account/site-id-api-key-secure-code/)
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Bancontact order**
 
 1. To test a Bancontact order, send a [redirect](/api/#bancontact) API request.
 2. Open the payment link.
 3. In the **Card number** field, enter a 16-digit card number.
-4. From the **Expiry date** lists, select any future date, and then click **Confirm**.
+4. In the **Expiry date** fields, enter any future date, and then click **Confirm**.
 
 Use the following card numbers to test different transaction statuses.
 
@@ -44,42 +42,37 @@ Use the following card numbers to test different transaction statuses.
 
 ---
 
-**Note:** The reason a transaction is declined can be seen in your MultiSafepay test account under **Notes**.
+**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
 ---
 
 **Test a Bancontact QR code**
 1. Send a [redirect](/api/#bancontact-qr) API request.
 2. Open the payment link.
-3. Scan the QR code with a general QR reader.
-4. On the Test platform page, from the **Test Scenario** list, select **Completed**, and then click **Test**.
-
----
-
-**Note:** The test QR codes can only be read with a general QR code application. If you scan the code using the Bancontact app, an error occurs.
-
-___
+3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
+4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.
 
 **Test refunding an order**
 
 To test refunding an order:
 
-1. Create an order using card number: `67034500054620008`. 
+1. Create an order using card number `67034500054620008`. 
 2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, in the **Reason/Description** field, enter a reason for the refund. 
-4. In the **Amount** field, enter the amount to refund, and then click **Continue**.
+3. Under **Refund**, enter in the:
+    - **Reason/Description** field the reason for the refund. 
+    - **Amount** field the amount to refund.
+4. Click **Continue**.
 5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 6. Under **Related transactions**, select the **ID** of the refund order.
 7. Under **Order summary**, click **Accept**.
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test refunding an order with an API request**
+**Test an API refund**
 
-To test refunding an order with an API request:
+To test refunding an order via the API:
 
-1. Create an order using card number: `67034500054620008`. 
+1. Create an order using card number `67034500054620008`. 
 2. Send a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
@@ -91,8 +84,8 @@ To test refunding an order with an API request:
 
 **Note:** 
 
-- You can't test cancelling an order. 
-- In the live environment you can't accept a refund order. This is done automatically.
+- You can't test cancelling orders. 
+- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
