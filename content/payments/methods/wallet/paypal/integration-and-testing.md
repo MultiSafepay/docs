@@ -49,20 +49,26 @@ To change the order status, on the Test platform page, from the **Test scenario*
 
 To refund an order:
 
-1. In your test account, under **Order summary**, click **Refund order**.
-2. Under **Refund**, in the **Reason/Description** field, enter a reason for the refund. 
-3. In the **Amount** field, enter the amount to refund, and then click **Continue**.
-4. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+1. Create an order. 
+2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+3. Under **Refund**, enter in the:
+    - **Reason/Description** field the reason for the refund. 
+    - **Amount** field the amount to refund.
+4. Click **Continue**.
+5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-5. Under **Related transactions**, select the **ID** of the refund order.
-6. Under **Order summary**, click **Accept**.
-7. In the **Add transaction comment** field, add a comment, and then click **Add**.
+6. Under **Related transactions**, select the **ID** of the refund order.
+7. Under **Order summary**, click **Accept**.
+8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
 Alternatively, send a [Refund](/api/#refund-an-order) API request.
 
 ---
 
-**Note**: You can't test sending a redirect API request.
+**Note**:  
+
+- You can't test sending a redirect API request.
+- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
