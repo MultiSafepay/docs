@@ -11,4 +11,4 @@ aliases:
 
 To make V Pay available as a payment method on the MultiSafepay credit card payment page, you need to enable the Visa gateway.
 
-Note that the V Pay logo never appears on the MultiSafepay payment page because it is part of the VISA Europe circuit.
+Note that the V Pay logo never appears on the MultiSafepay payment page because it is part of the Visa Europe circuit.

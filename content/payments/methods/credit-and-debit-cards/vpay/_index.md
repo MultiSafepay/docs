@@ -8,7 +8,7 @@ intro_description: "V Pay is a debit card service owned by Visa. It is accepted 
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/VPay.svg' 
-short_description: 'Visa-branded credit card throughout Europe.'
+short_description: 'Visa-branded debit card throughout Europe.'
 url: '/payment-methods/vpay/'
 aliases:
     - /payment-methods/credit-and-debit-cards/vpay

@@ -1,5 +1,5 @@
 ---
-weight: 332
+weight: 333
 meta_title: "API reference - Create a SEPA Direct Debit order - MultiSafepay Docs"
 
 ---

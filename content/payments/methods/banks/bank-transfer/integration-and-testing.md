@@ -66,9 +66,12 @@ To test refunding an order:
 
 ---
 
-**Note:** You can't test the following:
-- Sending a refund API request
-- Sending a direct API request with an IBAN to test different transaction statuses
+**Note:** 
+
+- You can't test:
+  - Refunding via the API
+  - Sending direct API requests with an IBAN to test different transaction statuses
+- In the live environment, you can't accept refund orders. These are done automatically.
 
 
 {{< /details >}}

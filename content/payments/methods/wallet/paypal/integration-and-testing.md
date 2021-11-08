@@ -68,7 +68,7 @@ Alternatively, send a [Refund](/api/#refund-an-order) API request.
 
 **Note**:  
 
-- You can't test sending a redirect API request.
+- You can't test sending redirect API requests.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
