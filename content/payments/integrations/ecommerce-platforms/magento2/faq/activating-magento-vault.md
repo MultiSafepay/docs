@@ -13,7 +13,7 @@ Our plugin supports Magento Vault, which is essentially a way of processing [rec
 
 Magento Vault:
 
-- Stores customers' payment details as a token in the Magento database
+- Stores the customer's payment details as a token in the Magento database
 - Facilitates a fast, secure checkout process
 - Increases [conversion](/getting-started/glossary/#conversion-rate)
 
