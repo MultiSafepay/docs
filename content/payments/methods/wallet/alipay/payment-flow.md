@@ -11,37 +11,65 @@ aliases:
     - /payments/methods/wallet/alipay/payment-flow/
 ---
 
-The table below shows a successful transaction flow from start to finish. 
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant A as Alipay
+    participant Me as Merchant
+
+    C->>Mu: Selects Alipay at checkout
+    Mu->>C: Connects to Alipay (direct/redirect)
+    C->>A: Completes payment
+    A->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#alipay---direct)  
+The customer selects Alipay at checkout and payment is processed directly with Alipay.  
+
+[Redirect flow](/api/#alipay---redirect)  
+The customer selects Alipay at checkout and is briefly redirected to a MultiSafepay payment page before the payment is processed directly with Alipay. 
+
+{{< /details>}}
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects Alipay at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
-| 2. | The customer completes the payment. | | |
-| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete. | Completed | Completed |
 | Alipay has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 5-hour period. | Expired | Expired |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |
+| The refund has been successfully processed.  | Completed      | Completed   |
 
 
 
