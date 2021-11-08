@@ -34,7 +34,7 @@ aliases:
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 
-- Depending on the customer's issuer, the amount may not appear directly on their card. We recommend that they contact the issuer. If they need an [acquirer reference number (ARN)](/credit-and-debit-cards/glossary/#acquirer-reference-number-arn), they can email the Support Team at <support@multisafepay.com> 
+- Depending on the customer's issuer, the amount may not appear directly on their card. We recommend that they contact the issuer. If they need an [acquirer reference number (ARN)](/credit-cards-user-guide/glossary/#acquirer-reference-number-arn), they can email the Support Team at <support@multisafepay.com> 
 
 {{< /details >}}
 

@@ -5,5 +5,5 @@ layout: 'block'
 block-range-pages: '.'
 tags: 'hidden'
 meta_title: "Credit cards user guide - MultiSafepay Docs"
-
+url: '/credit-cards-user-guide/'
 ---
