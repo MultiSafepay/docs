@@ -3,7 +3,7 @@ title: "Activating Apple Pay"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Apple Pay - MultiSafepay Docs"
-short_description: "Activating Apple Pay to use in your MultiSafepay account"
+short_description: "Activating Apple Pay in your MultiSafepay account"
 layout: 'child'
 url: '/payment-methods/apple-pay/activation/'
 aliases: 
@@ -11,24 +11,16 @@ aliases:
     - /payments/methods/wallet/applepay/activation/
 ---
 
-If you already have credit cards enabled as a payment method in your MultiSafepay account, to activate Apple Pay email the Integration Team at <integration@multisafepay.com>
+To use Apple Pay, you must also have credit card payments activated in your MultiSafepay account. If not already activated, email an application to your account manager at <sales@multisafepay.com>
 
-If you **don't** already have credit cards enabled, follow these steps:
+In the email, provide your expected:
 
-**Step 1:** Enable credit card payment methods in your MultiSafepay account. 
+- Average, minimum, and maximum credit card transaction amounts
+- Annual turnover in credit card transactions
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/). 
+Once approved, to activate credit card payments and Apple Pay in your MultiSafepay account, follow these steps:
+
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
 2. Go to **Settings** > **Payment methods**.
-3. Under **Standard payment methods**, select the **Maestro**, **Mastercard**, **Visa**, and **Apple Pay** checkboxes.
+3. Under **Additional payment methods**, select the checkboxes for **Apple Pay** and the credit cards you want to offer.
 4. Click **Save changes**.
-
-**Step 2:** Email your application to enable credit cards **and** Apple Pay as payment methods to your account manager at <sales@multisafepay.com> 
-
-**Step 3:** Provide the following information:
-
-- Maximum, average, and minimum transaction amount
-- Annual turnover in credit cards transactions
-
-Once approved by the Risk Team, we activate Visa, Mastercard, Maestro and Apple Pay in your MultiSafepay account.
-
-**Step 4:** Activate Apple Pay in your [backend](/getting-started/glossary/#backend) to finalize the connection.
