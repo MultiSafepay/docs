@@ -12,27 +12,69 @@ aliases:
     - /payments/methods/pay-later/afterpay/user-guide/changing-order-status-to-shipped/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant A as AfterPay
+    participant Me as Merchant
+
+    C->>Mu: Selects AfterPay at checkout
+    Mu->>C: Connects to AfterPay (direct/redirect)
+    A->>Mu: Authorizes the payment
+    Mu->>A: Sends a capture
+    Me->>C: Ships the order
+    Note over Me,C: Manually change the order status to Shipped! 
+    A->>C: Sends invoice (standard period of 14 days) 
+    Note over A,C: Settlement is now guaranteed!
+    C->>A: Completes payment with preferred method
+    A->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#afterpay---direct)  
+The customer selects AfterPay at checkout and is redirected straight to AfterPay.  
+
+[Redirect flow](/api/#afterpay---redirect)  
+The customer:
+
+- Selects AfterPay at checkout and is redirected to a MultiSafepay payment page 
+- Provides their birthdate, email address, and phone number, and accepts the terms and conditions
+- Is redirected to your success page
+
+{{< /details>}}
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|  | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects AfterPay at checkout. |  |  |
-| 2. | AfterPay authorizes the payment. | Uncleared | Uncleared |
-| 3. | Once authorized, MultiSafepay sends a capture to AfterPay.  | Completed  | Uncleared  |
-| 4. | Ship the order. {{< br >}} You **must**: {{< br >}} - Manually change the order status to **Shipped** (see below). {{< br >}} - Ship the order to receive payment. | Shipped | Uncleared |
-| 6. | AfterPay invoices the customer with a standard payment period of 14 days. Settlement is now guaranteed. | | |
-| 7. | The customer completes the payment with AfterPay via [iDEAL](/payments/methods/banks/ideal/) or online banking, within 14 days unless otherwise agreed in writing. |  |  |
-| 8. | AfterPay settles the funds with MultiSafepay. | Shipped | Completed |
-| 9. | MultiSafepay settles the funds in your MultiSafepay balance.|  |  |
+| Description | Order status | Transaction status |
+|---|---|---|
+| AfterPay is authorizing the payment. {{< br >}} You can still cancel the transaction at this point. | Uncleared | Uncleared |
+| MultiSafepay has sent a capture to AfterPay. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| Manually change the order status to **Shipped** (see below). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
+| The transaction is complete. | Shipped | Completed |
+| AfterPay has declined the payment. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **or** the payment was cancelled. | Void | Cancelled |
+| You did not ship the order within 90 days of creating the transaction and it expired. | Expired | Expired |
 
 {{< details title="Changing order status to Shipped" >}}
  
@@ -63,13 +105,6 @@ Some third-party plugins may not support forwarding the status via our API.
 See API reference – [Update an order](/api/#update-an-order).
 {{< /details >}}
 
-### Unsuccessful statuses
-You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| AfterPay has declined the payment. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **Or** {{< br >}} The payment was cancelled. | Void | Cancelled |
-| You did not ship the order within 90 days of creating the transaction and it expired. | Expired | Expired |
 
 ### Return process
 If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 

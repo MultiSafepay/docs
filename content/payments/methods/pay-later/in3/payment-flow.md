@@ -12,26 +12,71 @@ aliases:
     - /payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant I as in3
+    participant Me as Merchant
+
+    C->>Mu: Selects in3 at checkout
+    Mu->>C: Connects to in3 (direct/redirect)
+    C->>I: Selects their bank, accepts the payment periods, and terms & conditions
+    I->>Mu: Authorizes the payment
+    Mu->>I: Sends a capture
+    C->>I: Pays 1st instalment within 5 mins
+    Note over C,I: Settlement is now guaranteed!
+    Me->>C: Ships the order
+    Note over Me,C: Manually change the order status to Shipped! 
+    I->>Mu: Transfers funds 
+    Mu->>Me: Settles funds (within 15 days of 1st instalment)
+    C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#afterpay---direct)  
+The customer selects in3 at checkout and is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions.  
+
+[Redirect flow](/api/#afterpay---redirect)  
+The customer:
+
+- Selects in3 at checkout and is redirected to a MultiSafepay payment page 
+- Provides their birthdate, title, and phone number
+- Is redirected to your success page
+
+{{< /details>}}
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|                       | Flow      | Order status | Transaction status |
-|-----|----|---|------|
-| 1. | The customer selects in3 at checkout, is redirected to in3, and enters their details. | Initialized   | Initialized  |
-| 2. | in3 authorizes the payment. |   |   |
-| 3. | The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
-| 4. | The customer pays the first installment. {{< br >}} Settlement is now guaranteed. | Completed  | Uncleared  |
-| 5. | Ship the order. {{< br >}} **Important:** You **must** manually change the order status to **Shipped** (see below).  | Shipped | Uncleared | 
-| 6. | MultiSafepay settles the funds in your MultiSafepay balance (within 15 days of the first installment). | Completed | Completed |
-| 7. | The customer has 30 days to pay the second installment, and 60 days to pay the third. |  | |
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has initiated a transaction. {{< br >}} You can still cancel the transaction at this point. | Initialized   | Initialized  |
+| in3 is authorizing the payment or waiting for the customer to pay the first installment. {{< br >}} The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
+| The customer has paid the first installment. {{< br >}} Settlement is now guaranteed. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| Ship the order. {{< br >}} You **must** manually change the order status to **Shipped** (see below).  | Shipped | Uncleared | 
+| The transaction is complete. | Completed | Completed |
+| in3 has declined the payment. {{< br >}} No order was created. | Declined | Declined |
+| The transaction was cancelled or abandoned. | Void | Void |
 
 {{< details title="Changing order status to Shipped" >}}
 
@@ -62,17 +107,9 @@ Some third-party plugins may not support forwarding the status via our API.
 See API reference – [Update an order](/api/#update-an-order).
 {{< /details >}}
 
-## Unsuccessful statuses
-You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
-
-| Description                      | Order status      | Transaction status |
-|----|---|----------|
-| in3 has declined the payment. No order was created.    | Declined   | Declined   |
-| The payment was cancelled or abandoned. | Void    | Void    |
-
 ## Refund statuses
 
-| Description                      | Order status      | Transaction status |
+| Description  | Order status      | Transaction status |
 |----|-----|-----|
 | in3 has successfully processed a full or partial refund. | Completed    | Completed   |
 | in3 has declined a full or partial refund request.  | Declined      | Declined   |
