@@ -18,19 +18,18 @@ For the Dotpay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://gi
 
 {{< details title="View credentials and testing process" >}}
 
-Test credentials:
-
-- [API key](/account/site-id-api-key-secure-code/)
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Dotpay order**
 
 1. To test a Dotpay order, send a [redirect](/api/#dotpay) API request.
-2. On the Dotpay page, in the **E-mail address** field, enter any email address.
-3. In the **Phone number** field, enter any phone number.
-4. Select a bank.  
+2. On the Dotpay page, enter in the:
+    - **E-mail address** field: Any email address
+    - **Phone number** field: Any phone number
+3. Select a bank.  
   You are automatically redirected.
-5. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.
-6. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 ---
 
@@ -42,25 +41,28 @@ Test credentials:
 
 To test refunding an order:
 
-1. Create an order.
+1. Create an order. 
 2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, in the **Account holder name** field, enter the account holder name of the account you want to refund to. 
-4. In the **IBAN** field, enter the IBAN of the account you want to refund to.
-5. In the **Reason/Description** field, enter a reason for the refund. 
-6. In the **Amount** field, enter the amount to refund, and then click **Continue**.
-7. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+3. Under **Refund**, enter in the:
+    - **Account holder name** field the account holder name of the account you want to refund to. 
+    - **IBAN** field the IBAN of the account you want to refund to.
+    - **Reason/Description** field the reason for the refund. 
+    - **Amount** field the amount to refund.
+4. Click **Continue**.
+5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-8. Under **Related transactions**, select the **ID** of the refund order.
-9. Under **Order summary**, click **Accept**.
-10. In the **Add transaction comment** field, add a comment, and then click **Add**.
+6. Under **Related transactions**, select the **ID** of the refund order.
+7. Under **Order summary**, click **Accept**.
+8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
 ---
 
 **Note:** 
 
-- You can't test cancelling an order. 
-- You can't test sending a refund API request.
-- In the live environment you can't accept a refund order. This is done automatically.
+- You can't test:
+  - Cancelling orders
+  - Refunding via the API
+- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}

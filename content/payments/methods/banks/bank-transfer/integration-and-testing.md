@@ -18,9 +18,7 @@ For the Bank Transfer logo, see MultiSafepay GitHub – [MultiSafepay icons](htt
 
 {{< details title="View credentials and testing process" >}}
 
-Test credentials:
-
-- [API key](/account/site-id-api-key-secure-code/)
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Bank Transfer order**
 
@@ -53,15 +51,17 @@ To test refunding an order:
 1. Create an order using IBAN: NL87ABNA0000000001. 
 2. Wait until the transaction status changes to **Completed**.
 3. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
-4. Under **Refund**, in the **Account holder name** field, enter the account holder name of the account you want to refund to. 
-5. In the **IBAN** field, enter the IBAN of the account you want to refund to.
-6. In the **Reason/Description** field, enter a reason for the refund. 
-7. In the **Amount** field, enter the amount to refund, and then click **Continue**.
-8. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+4. Under **Refund**, enter in the:
+    - **Account holder name** field the account holder name of the account you want to refund to. 
+    - **IBAN** field the IBAN of the account you want to refund to.
+    - **Reason/Description** field the reason for the refund. 
+    - **Amount** field the amount to refund.
+5. Click **Continue**.
+6. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-9. Under **Related transactions**, select the **ID** of the refund order.
-10. Under **Order summary**, click **Accept**.
-11. In the **Add transaction comment** field, add a comment, and then click **Add**.
+7. Under **Related transactions**, select the **ID** of the refund order.
+8. Under **Order summary**, click **Accept**.
+9. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
 ---
@@ -69,5 +69,6 @@ To test refunding an order:
 **Note:** You can't test the following:
 - Sending a refund API request
 - Sending a direct API request with an IBAN to test different transaction statuses
+
 
 {{< /details >}}
