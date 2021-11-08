@@ -25,31 +25,33 @@ sequenceDiagram
     C->>Mu: Selects Klarna at checkout
     Mu->>C: Connects to Klarna (direct/redirect)
     K->>Mu: Authorizes the payment
-    Mu->>K: Sends a capture
-    Me->>C: Ships the order
+    Mu->>K: Captures the funds
+    Note over Mu,K: Settlement is now guaranteed!
+    Me->>C: Ships the order (within 28 days, or extend the shipping period)
     Note over Me,C: Manually change the order status to Shipped! 
-    K->>C: Sends invoice (standard period of 14 days) 
-    Note over K,C: Settlement is now guaranteed!
-    C->>K: Completes payment with preferred method
+    K->>C: Sends invoice 
+    Note over K,C: You can customize the invoice! 
+    C->>K: Completes payment with preferred payment method
     K->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
+    Mu->>Me: Settles funds (within 21 days)
 
 {{< /mermaid >}}
 &nbsp;  
 
 {{< details title="Direct vs redirect">}}
 
-[Direct flow](/api/#afterpay---direct)  
-The customer selects AfterPay at checkout and is redirected straight to AfterPay.  
+[Direct flow](/api/#klarna---direct)  
+The customer selects Klarna at checkout and is redirected straight to Klarna.  
 
-[Redirect flow](/api/#afterpay---redirect)  
+[Redirect flow](/api/#klarna---redirect)  
 The customer:
 
-- Selects AfterPay at checkout and is redirected to a MultiSafepay payment page 
+- Selects Klarna at checkout and is redirected to a MultiSafepay payment page 
 - Provides their birthdate, email address, and phone number, and accepts the terms and conditions
 - Is redirected to your success page
 
 {{< /details>}}
+
 
 ## Payment statuses
 
@@ -68,34 +70,18 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| 1. | The customer selects Klarna at checkout and is redirected to the Klarna payment page to initiate a transaction. {{< br >}} See also [Reservation and invoice numbers](/payments/methods/billing-suite/klarna/user-guide/reservation-and-invoice-number/). | Uncleared   | Initialized  |
-| 2. | Klarna authorizes the payment. Settlement is now guaranteed, but not received until after you ship the order. | Completed  | Uncleared  |
-| 3. | Ship the order within 28 days, or [extend the shipping period](/payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/). {{< br >}} You **must**: {{< br >}} - Ship the order to receive payment. {{< br >}} - Manually [change the order status to Shipped](/payments/methods/billing-suite/klarna/user-guide/changing-order-status-to-shipped/). {{< br >}} See also [Supported addresses](/payments/methods/billing-suite/klarna/user-guide/supported-addresses/). | Shipped | Uncleared |
-| 4. | Klarna invoices the customer. {{< br >}} See also [Customizing invoices](/payments/methods/billing-suite/klarna/user-guide/customizing-invoices/). | | |
-| 5. | Klarna settles the funds with MultiSafepay, and we add them to your MultiSafepay balance within 21 days. | Shipped    | Completed  |
-
-## Unsuccessful statuses
-You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
-
-| Description                      | Order status      | Transaction status |
-|------|----|----|
-| Klarna did not authorize the transaction. For more information, email <klarna@multisafepay.com> {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the payment.    | Void   | Cancelled |
+| The customer has initiated a transaction. {{< br >}} You can cancel the transation at this stage. {{< br >}} See [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) | Uncleared   | Initialized  |
+| Klarna has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| Manually [change the order status to Shipped](/payments/methods/billing-suite/klarna/user-guide/changing-order-status-to-shipped/). {{< br >}} See: {{< br >}} - [Extend the shipping period](/payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/) {{< br >}} - [Supported addresses](/payments/methods/billing-suite/klarna/user-guide/supported-addresses/) {{< br >}} - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) | Shipped | Uncleared |
+| The transaction is complete. | Shipped    | Completed  |
+| Klarna declined the transaction, or it was cancelled. {{< br >}} For more information, email <klarna@multisafepay.com> {{< br >}}    | Void   | Cancelled |
 | You did not [change the order status to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/) within 28 days. {{< br >}} See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
 
 ## Refund statuses
 
 | Description  | Order status      | Transaction status |
 |-----|----|------|
-| The customer requests a refund. | Initialized    | Completed   |
-| The refund is successfully processed.  | Completed      | Completed   |
+| The customer has requested a refund. | Initialized    | Completed   |
+| The refund has been successfully processed.  | Completed      | Completed   |
 
-{{< details title="Get support" >}} 
 
-**Merchants**: Email MultiSafepay at <klarna@multisafepay.com>
-
-**Customers**:
-
-- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
-- Email the Support Team at <support@multisafepay.com>
-
-{{< /details >}}

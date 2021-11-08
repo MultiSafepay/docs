@@ -24,7 +24,7 @@ sequenceDiagram
     C->>Mu: Selects E-Invoicing at checkout
     Mu->>C: Connects to MultiFactor (direct/redirect)
     MF->>Mu: Authorizes the payment
-    Mu->>MF: Sends a capture
+    Mu->>MF: Captures the funds
     Me->>C: Ships the order
     Note over Me,C: Manually change the order status to Shipped! 
     MF->>C: Sends invoice 
@@ -39,7 +39,7 @@ sequenceDiagram
 {{< details title="Direct vs redirect">}}
 
 [Direct flow](/api/#e-invoicing---direct)  
-The customer selects E-Invoicing at checkout and the order details are sent directly to E-Invoicing.  
+The customer selects E-Invoicing at checkout and the order details are sent directly to MultiFactor.  
 
 [Redirect flow](/api/#e-invoicing---redirect)  
 The customer:

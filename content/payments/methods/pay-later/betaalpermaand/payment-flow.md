@@ -24,7 +24,7 @@ sequenceDiagram
     C->>Mu: Selects Betaal per Maand at checkout
     Mu->>C: Connects to Santander <br> (direct/redirect)
     S->>Mu: Authorizes the payment
-    Mu->>S: Sends a capture
+    Mu->>S: Captures the funds
     Me->>C: Ships the order
     Note over Me,C: Manually change the order status to Shipped. 
     Me->>Mu: Provides track & trace code

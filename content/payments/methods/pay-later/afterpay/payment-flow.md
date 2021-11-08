@@ -26,7 +26,7 @@ sequenceDiagram
     C->>Mu: Selects AfterPay at checkout
     Mu->>C: Connects to AfterPay (direct/redirect)
     A->>Mu: Authorizes the payment
-    Mu->>A: Sends a capture
+    Mu->>A: Captures the funds
     Me->>C: Ships the order
     Note over Me,C: Manually change the order status to Shipped! 
     A->>C: Sends invoice (standard period of 14 days) 

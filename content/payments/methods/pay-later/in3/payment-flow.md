@@ -27,7 +27,7 @@ sequenceDiagram
     Mu->>C: Connects to in3 (direct/redirect)
     C->>I: Selects their bank, accepts the payment periods, and terms & conditions
     I->>Mu: Authorizes the payment
-    Mu->>I: Sends a capture
+    Mu->>I: Captures the funds
     C->>I: Pays 1st instalment within 5 mins
     Note over C,I: Settlement is now guaranteed!
     Me->>C: Ships the order
