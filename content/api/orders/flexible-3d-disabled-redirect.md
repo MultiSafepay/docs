@@ -128,7 +128,7 @@ Contains:
 
 `term_url` | string | required
 
-The URL to inform the card [issuer](/credit-and-debit-cards/glossary/#issuer) where to redirect the authorisation query. 
+The URL to inform the card [issuer](/credit-cards-user-guide/glossary/#issuer) where to redirect the authorisation query. 
 
 **Response**
 

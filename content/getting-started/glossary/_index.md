@@ -11,7 +11,7 @@ read_more: "."
 aliases:
     - /faq/general/glossary
 ---
-See also [Credit and debit card glossary](/credit-and-debit-cards/glossary/).
+See also [Credit and debit card glossary](/credit-cards-user-guide/glossary/).
 
 ### acquirer
 A financial institution that processes credit and debit card payments with card issuers on behalf of merchants. MultiSafepay is an acquirer for Visa, Mastercard, and Bancontact.

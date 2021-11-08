@@ -3,11 +3,13 @@ title : "About Declined status"
 weight: 50
 meta_title: "Credit card user guide - About Declined status - MultiSafepay Docs"
 read_more: "."
-short_description: "Learn how customers can handle declined credit card transactions"
+short_description: "Reasons why credit card transactions may be declined"
+url: '/credit-cards-user-guide/declined-status/'
 aliases: 
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
     - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
     - /faq/general/declined-status/
+    - /payments/methods/credit-and-debit-cards/user-guide/declined-status/
 ---
 
 The table below shows possible reasons for the **Declined** status, which may appear in the relevant **Transaction details** page in your MultiSafepay account. 

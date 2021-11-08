@@ -4,9 +4,11 @@ weight: 70
 meta_title: "Credit card user guide - Evaluating Uncleared transactions - MultiSafepay Docs"
 short_description: "Review and evaluate transactions that our automated fraud filter has placed on hold"
 read_more: "."
+url: '/credit-cards-user-guide/uncleared-transactions/'
 aliases: 
     - /faq/finance/evaluating-uncleared-card-transactions/
     - /faq/risk-and-fraud/accepting-uncleared-credit-card-payments/
+    - /payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/
 ---
 
 If the [transaction status](/payments/multisafepay-statuses/) of a credit card payment is **Uncleared**, it means that MultiSafepay's automated fraud filter has placed the payment on hold. The fraud filter detects increased **risk** of fraud, but doesn't prevent all fraudulent payments. Not every payment the filter places on hold is necessarily fraudulent.

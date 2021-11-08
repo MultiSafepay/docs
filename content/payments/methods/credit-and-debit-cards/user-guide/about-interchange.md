@@ -4,11 +4,13 @@ weight: 20
 meta_title: "Credit card user guide - About Interchange++ - MultiSafepay Docs"
 read_more: "."
 short_description: "Learn about the Interchange++ pricing model offered by some banks and card schemes"
+url: '/credit-cards-user-guide/about-interchange/'
 aliases: 
     - /payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
     - /payment-methods/creditcards/what-is-interchange/
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-interchange/
     - /payments/methods/credit-and-debit-cards/visa/user-guide/about-interchange/
+    - /payments/methods/credit-and-debit-cards/user-guide/about-interchange/
 ---
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.

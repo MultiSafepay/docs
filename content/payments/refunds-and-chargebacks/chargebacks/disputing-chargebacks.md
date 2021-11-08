@@ -14,7 +14,7 @@ The table below sets out the process for disputing chargebacks.
 
 |   |   |   |   |   |
 |---|---|---|---|---|
-| 1. | [Cardholder](/payments/methods/credit-and-debit-cards/user-guide/glossary/#cardholder)  | To find out more about a transaction, the cardholder can file a free [retrieval](/credit-and-debit-cards/glossary/#retrieval) request for more information. This can help identify and clarify transactions and avoid chargebacks. {{< br >}} You can still refund the transaction at this stage.  |   
+| 1. | [Cardholder](/payments/methods/credit-and-debit-cards/user-guide/glossary/#cardholder)  | To find out more about a transaction, the cardholder can file a free [retrieval](/credit-cards-user-guide/glossary/#retrieval) request for more information. This can help identify and clarify transactions and avoid chargebacks. {{< br >}} You can still refund the transaction at this stage.  |   
 | 2.  | Cardholder  | If the cardholder still disagrees with the transaction, they request a chargeback.  | 
 | 3.  | [Issuer](/payments/methods/credit-and-debit-cards/user-guide/glossary/#issuer)  | The issuer usually refunds the cardholder as soon as they request the chargeback. {{< br >}} We don't support refunding chargeback transactions from this point, because then the cardholder likely receives the refund twice. |
 | 4.  | Merchant  | MultiSafepay can dispute the chargeback on your behalf. {{< br >}} You must provide evidence that the chargeback is unjustified. {{< br >}} A separate transaction for the chargeback, connected to the original transaction, is created in your MultiSafepay account.  | 
