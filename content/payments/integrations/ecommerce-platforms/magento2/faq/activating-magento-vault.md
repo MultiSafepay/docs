@@ -13,9 +13,6 @@ Our plugin supports Magento Vault, which lets customers securely store their pay
 
 Magento Vault:
 
-- Stores the customer's payment details as a token in the Magento database
-- Facilitates a fast, secure checkout process
-- Increases [conversion](/getting-started/glossary/#conversion-rate)
 
 For more information, see Magento 2 – [Adding vault integration](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html).
 
