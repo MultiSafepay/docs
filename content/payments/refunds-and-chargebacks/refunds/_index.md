@@ -87,9 +87,9 @@ You can process refunds in the [backend](/getting-started/glossary/#backend) of 
 
 ## Via our API
 
-For pay later methods, you can also refund via our API. Make a `POST /orders/{order_id}/refunds` request. 
+For non-pay later payment methods, see API reference – [Refund an order](/api/#refund-an-order).
 
-See API reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
+Pay later refunds require a shopping cart object in the request, see API reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
 ## Refund rules
 
