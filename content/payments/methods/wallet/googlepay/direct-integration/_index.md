@@ -10,34 +10,38 @@ noindex: '.'
 aliases:
     - /payments/methods/wallet/googlepay/direct-integration
 ---
-With a direct integration, the **Google Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payment-pages/).
+With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [MultiSafepay payment page](/payment-pages/).
 
 {{< screen src="/img/google-pay-screen.png" align="center" class="small-img desktop-radius" >}}
 
 {{< blue-notice >}}
-By accessing or using the Google Pay API, you agree to the [Google APIs Terms of Service](https://payments.developers.google.com/terms/sellertos).
+**Note:** By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 {{< /blue-notice >}}
 
-## Prerequisites
+{{< details title="Prerequisites">}}
 
-- To activate Google Pay for your MultiSafepay account, see [Activating Google Pay](/payment-methods/google-pay/activation/).
-- To process Google Pay direct payments, you need a [Google Pay business account](https://pay.google.com/business/console/).
-- Serve an HTTPS webpage with a TLS domain-validated certificate.
+- Google Pay must be [activated in your MultiSafepay account](/payment-methods/google-pay/activation/).
+- You need a [Google Pay My Business account](https://pay.google.com/business/console/).
+- You must serve an HTTPS webpage with a TLS domain-validated certificate.
 
-### Supported browsers
+{{< /details >}}
 
-Customers can use one of the following supported web browsers: 
+{{< details title="Supported browsers" >}}
 
-- Google Chrome
-- Mozilla Firefox
+Customers can use the following supported web browsers: 
+
 - Apple Safari
+- Google Chrome
 - Microsoft Edge
+- Mozilla Firefox
 - Opera
 - UCWeb UC Browser
 
-## Initialize
+{{< /details >}}
 
-### Include the Google Pay library
+## Step 1: Initialize
+
+### Add the Google Pay library
 
 Add the Google Pay JavaScript library to the bottom of the `<body>` of your checkout page:
 
@@ -48,7 +52,7 @@ Add the Google Pay JavaScript library to the bottom of the `<body>` of your chec
   onload="onGooglePayLoaded()">
 </script>
 ```
-**Note**: The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display Google Pay button](/payments/methods/wallet/googlepay/direct-integration/#display-google-pay-button).
+**Note**: The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](/payment-methods/google-pay/direct/#display-the-google-pay-button).
 
 ### Place the Google Pay button
 
@@ -58,13 +62,13 @@ Create an element in the `<body>` of your checkout page where you want to displa
 <div id="button-container" style="width: 160px; height: 40px;"></div>
 ```
 
-**Note**: This element is populated in a later step. For more information, see [Display Google Pay button](/payment-methods/google-pay/direct/#display-google-pay-button).
+**Note**: This element is populated in a later step. For more information, see [Display the Google Pay button](/payment-methods/google-pay/direct/#display-the-google-pay-button).
 
 ### Configure Google Pay
 
-**1.** Define your Google Pay API version.
+**1.** Define which version of the Google Pay API you are using.
 
-On the client-side, create an object with the major and minor versions of the Google Pay API that your integration supports:
+On the client-side, create an object containing the major and minor versions of the Google Pay API that your integration supports:
 
 ```
 const baseRequest = {
@@ -73,9 +77,11 @@ const baseRequest = {
 };
 ```
 
-**2.** Request a Google Pay payment token.
+**2.** Configure the Google Pay payment token request.
 
-Google Pay creates a payment token to encrypt the customer's payment details for secure processing. Create a `tokenizationSpecification` object: 
+**Note:** Google Pay uses payment tokens to encrypt the customer's payment details for secure processing. 
+
+Create a `tokenizationSpecification` object: 
 
 ```
 const tokenizationSpecification = {
@@ -92,31 +98,31 @@ const tokenizationSpecification = {
 
 **3.** Define supported payment card networks.
 
-Create an array, with card networks accepted by your website:
+Create an `allowedCardNetworks` array containing card networks accepted by your website:
 
 ```
-const allowedCardNetworks = ["MASTERCARD", "VISA", "MAESTRO"];
+const allowedCardNetworks = ["MAESTRO", "MASTERCARD", "VISA"];
 ```
 
-**Options**: `MASTERCARD`, `VISA`, `MAESTRO`
+**Options**: `MAESTRO`, `MASTERCARD`, `VISA`.
 
-For more information about supported payment card networks, see Google Pay – [Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
+For more information about supported payment card networks, see Google Pay&nbsp;–&nbsp;[Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
 
 **4.** Define supported authentication methods.
 
-Create an array `allowedCardAuthMethods`, with authentication methods accepted by your website:
+Create an `allowedCardAuthMethods` array containing authentication methods accepted by your website:
 
 ```
-const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
+const allowedCardAuthMethods = ["CRYPTOGRAM_3DS", "PAN_ONLY"];
 ```
 
-**Options**: `PAN_ONLY`, `CRYPTOGRAM_3DS`
+**Options**: `CRYPTOGRAM_3DS`, `PAN_ONLY`.
 
-For more information about authentication methods, see Google Pay – [Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
+For more information about authentication methods, see Google Pay&nbsp;–&nbsp;[Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
 
-**5.** Describe your allowed payment methods.
+**5.** Describe your supported payment methods.
 
-Combine the supported payment card networks and authentication methods to describe your site's support for the `CARD` payment method:
+Combine the supported payment card networks and authentication methods to describe what your site supports for the `CARD` payment method:
 
 ```
 const baseCardPaymentMethod = {
@@ -146,13 +152,13 @@ const paymentsClient =
     new google.payments.api.PaymentsClient({environment: 'TEST'});
 ```
 
-When you're done testing, change the environment to `PRODUCTION`.
+When you have finished testing, change the environment to `PRODUCTION`.
 
-## Display pay button
+## Step 2: Display the button
 
 ### Check for Google Pay support
 
-**1.** Add your allowed payment methods to your `baseRequest` object:
+**1.** Add your supported payment methods to your `baseRequest` object:
 
 ```
 const isReadyToPayRequest = Object.assign({}, baseRequest);
@@ -161,7 +167,7 @@ isReadyToPayRequest.allowedPaymentMethods = [baseCardPaymentMethod];
 
 **2.** Create an event handler for when the Google Pay JavaScript library is loaded.
 
-With the `isReadyToPay()` method, determine whether the Google Pay API is supported by the customer's device and browser:
+With the `isReadyToPay()` method, check if the Google Pay API is supported by the customer's device and browser:
 
 ```
 function onGooglePayLoaded() {
@@ -178,9 +184,9 @@ function onGooglePayLoaded() {
 }
 ```
 
-### Display Google Pay button
+### Display the Google Pay button
 
-Populate the `button-container` element to create a **Google Pay** button:
+To create a **Google Pay** button, populate the `button-container` element:
 
 ```
 function addGooglePayButton() {
@@ -192,16 +198,17 @@ function addGooglePayButton() {
     buttonContainer.appendChild(button);
 }
 ```
+### Style the button
 
 For infomation about styling your **Google Pay** button, see Google Pay:
 - [Customize your button](https://developers.google.com/pay/api/web/guides/resources/customize)
 - [User experience best practices](https://developers.google.com/pay/api/web/guides/ux-best-practices)
 
-## Create payment request
+## Step 3: Create a payment request
 
 Create a function that returns a `PaymentDataRequest` object:
 
-- Describe your integration's support for the Google Pay API:
+- Describe your integration's support for the Google Pay API.
 - Add your supported payment methods.
 - Add the amount and currency for the customer to authorize.
 - Add your merchant name and Google Pay merchant ID for display.
@@ -224,32 +231,32 @@ function getGooglePaymentDataRequest() {
 }
 ```
 
-You will call this function from the **Google Pay** button event handler in the next step. This way, attributes such as the `totalPrice` may be updated up until the customer chooses to pay.
+You will call this function from the **Google Pay** button event handler in the next step. This way, attributes like the `totalPrice` can be updated up until the customer chooses to pay.
 
-For more information about the `transactionInfo` object, see Google Pay – [TransactionInfo](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
+For more information about the `transactionInfo` object, see Google Pay&nbsp;–&nbsp;[TransactionInfo](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
 
-### About `merchantInfo`
+### merchantInfo values
 
-When using the `TEST` environment, specify:
+In the `TEST` environment:
 
-- `Example Merchant` for `merchantName`
-- `12345678901234567890` for `merchantId`
+- `merchantName` = `Example Merchant`
+- `merchantId` = `12345678901234567890` 
 
-When using the `PRODUCTION` environment, specify:
+In the `PRODUCTION` environment:
 
-- Your merchant name for `merchantName`
-- Your Google Pay merchant ID for `merchantId`
+- `merchantName` = Your merchant name  
+- `merchantId` = Your Google Pay merchant ID  
 
-To see your Google Pay merchant ID, sign into your [Google Business Console](https://pay.google.com/business/console/home).
+To see your Google Pay merchant ID, sign in to your [Google Pay Business Console](https://pay.google.com/business/console/home).
 
-For more information about the `merchantInfo` object, see Google Pay – [Request object](https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo).
+For more information about the `merchantInfo` object, see Google Pay&nbsp;–&nbsp;[Request object](https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo).
 
-## Handle the interaction
+## Step 4: Handle the interaction
 
 **1.** Create an event handler for the **Google Pay** button:
 
 - When the customer clicks the **Google Pay** button, call the `loadPaymentData()` method.
-- The customer is prompted by Google to select their card and authorize the payment.
+- Google prompts the customer to select their card and authorize the payment.
 - After the customer authorizes the payment, handle the response from the Google Pay API.
 
 ```
@@ -273,11 +280,10 @@ function processPayment(paymentData) {
 }
 ```
 
-For more information about the `paymentData` object, see Google Pay – [Response objects](https://developers.google.com/pay/api/web/reference/response-objects#PaymentData).
+For more information about the `paymentData` object, see Google Pay&nbsp;–&nbsp;[Response objects](https://developers.google.com/pay/api/web/reference/response-objects#PaymentData).
 
-## Create an order
+## Step 5: Create an order
 
-From your server, [create a Google Pay direct order](/api/#google-pay---direct).
+From your server, create a [Google Pay direct order](/api/#google-pay---direct).
 
-Use:
-`PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token` as `gateway_info.payment_token`.
+For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
