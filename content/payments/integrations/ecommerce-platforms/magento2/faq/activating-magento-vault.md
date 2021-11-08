@@ -11,7 +11,6 @@ aliases:
 
 Our plugin supports Magento Vault, which lets customers securely store their payment details as a token in the Magento database. This makes subsequent payments faster and easier, increasing conversion. At checkout, customers can simply select the **Instant purchase** button and don't have to re-provide their CVC. Magento Vault uses [card-on-file tokenziation](/features/recurring-payments/).
 
-Magento Vault:
 
 
 For more information, see Magento 2 – [Adding vault integration](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html).
