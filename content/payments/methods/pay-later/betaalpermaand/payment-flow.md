@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/billing-suite/betaalpermaand/payment-flow/
 ---
 
-## How it works
+This diagram shows the flow for a successful transaction.
 
 {{< mermaid class="text-center" >}}
 
@@ -37,31 +37,18 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-{{< details title="Direct vs redirect">}}
-
-[Direct flow](/api/#santander-betaal-per-maand---direct)  
-The customer selects Betaal per Maand at checkout and is redirected straight to Betaal per Maand.  
-
-[Redirect flow](/api/#santander-betaal-per-maand---redirect)  
-The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to Santander. | [API reference](/api/#santander-betaal-per-maand---direct) |
+| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | [API reference](/api/#/api/#santander-betaal-per-maand---redirect) |
 
 ## Payment statuses
 
-{{< details title="Order and transaction statuses" >}}
-For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Order status**  
-The progression of the customer's order with you, independent of the payment
-
-**Transaction status**  
-The progression towards settling the funds in your MultiSafepay balance
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|

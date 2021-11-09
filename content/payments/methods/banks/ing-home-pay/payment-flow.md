@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/ing-home-pay/payment-flow/
 ---
 
-## How it works
+This diagram shows the flow for a successful transaction.
 
 {{< mermaid class="text-center" >}}
 
@@ -32,30 +32,18 @@ sequenceDiagram
 {{< /mermaid >}}
 &nbsp;  
 
-{{< details title="Direct vs redirect">}}
-
-[Direct flow](/api/#ing-homepay---direct)  
-The customer selects ING Home'Pay and their bank at checkout and is redirected straight to their online banking environment.  
-
-[Redirect flow](/api/#ing-homepay---redirect)  
-The customer selects ING Home'Pay at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected to their online banking environment. | [API reference](/api/#ing-homepay---direct) |
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. | [API reference](/api/#ing-homepay---redirect) |
 
 ## Payment statuses
 
-{{< details title="Order and transaction statuses" >}}
-For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Order status**  
-The progression of the customer's order with you, independent of the payment
-
-**Transaction status**  
-The progression towards settling the funds in your MultiSafepay balance
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|

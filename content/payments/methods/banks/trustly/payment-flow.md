@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/trustly/how-does-trustly-work/
     - /payments/methods/banks/trustly/payment-flow/
 ---
-## How it works
+This diagram shows the flow for a successful transaction.
 
 {{< mermaid class="text-center" >}}
 
@@ -30,27 +30,17 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-{{< details title="Redirect flow">}}
-&nbsp;  
-The customer selects Trustly at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. | [API reference](/api/#trustly) |
 
 ## Payment statuses
 
-{{< details title="Order and transaction statuses" >}}
-For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Order status**  
-The progression of the customer's order with you, independent of the payment
-
-**Transaction status**  
-The progression towards settling the funds in your MultiSafepay balance
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|

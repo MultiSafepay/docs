@@ -17,7 +17,7 @@ aliases:
 
 ---
 
-## How it works
+This diagram shows the flow for a successful transaction.
 
 {{< mermaid class="text-center" >}}
 
@@ -38,17 +38,10 @@ sequenceDiagram
 {{< /mermaid >}}
 &nbsp;  
 
-{{< details title="Direct vs redirect">}}
-
-[Direct flow](/api/#sepa-direct-debit---direct)  
-The customer selects SEPA Direct Debit at checkout and a request with the customer's information is sent straight to MultiSafepay.  
-
-[Redirect flow](/api/#sepa-direct-debit---redirect)  
-The customer selects SEPA Direct Debit at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name.  
-A request with the customer's information is sent to MultiSafepay.  
-The customer is redirected to your success page. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | A request with the customer's information is sent straight to MultiSafepay. | [API reference](/api/#sepa-direct-debit---direct) |
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name. {{< br >}} A request with the customer's information is sent to MultiSafepay. {{< br >}} The customer is redirected to your success page. | [API reference](/api/#sepa-direct-debit---redirect) |
 
 {{< details title="About e-mandates">}}
 
@@ -108,18 +101,11 @@ For more information in:
 
 ## Payment statuses
 
-{{< details title="Order and transaction statuses" >}}
-For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Order status**  
-The progression of the customer's order with you, independent of the payment
-
-**Transaction status**  
-The progression towards settling the funds in your MultiSafepay balance
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|

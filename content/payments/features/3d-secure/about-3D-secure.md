@@ -26,7 +26,7 @@ If a customer requests a [chargeback](/payments/chargebacks/) due to fraud after
 
 MultiSafepay is required under the Payment Services Directive 2 ([PSD2](/payment-regulations/psd2/)) to apply 3D&nbsp;Secure to all Europe-based credit card payments.
 
-## How it works
+This diagram shows the flow for a successful transaction.
 
 **1.** The customer provides their card information and is redirected to the card scheme to verify their identity:
 

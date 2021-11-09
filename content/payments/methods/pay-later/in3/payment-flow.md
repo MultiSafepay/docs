@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/
 ---
 
-## How it works
+This diagram shows the flow for a successful transaction.
 
 {{< mermaid class="text-center" >}}
 
@@ -39,30 +39,18 @@ sequenceDiagram
 {{< /mermaid >}}
 &nbsp;  
 
-{{< details title="Direct vs redirect">}}
-
-[Direct flow](/api/#afterpay---direct)  
-The customer selects in3 at checkout and is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions.  
-
-[Redirect flow](/api/#afterpay---redirect)  
-The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, title, and phone number. They are then redirected to your success page.
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions. | [API reference](/api/#in3---direct) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, title, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#in3---redirect) |
 
 ## Payment statuses
 
-{{< details title="Order and transaction statuses" >}}
-For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Order status**  
-The progression of the customer's order with you, independent of the payment
-
-**Transaction status**  
-The progression towards settling the funds in your MultiSafepay balance
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
