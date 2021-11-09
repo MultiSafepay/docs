@@ -34,7 +34,7 @@ sequenceDiagram
 
 {{< details title="Redirect flow">}}
 
-The customer is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment.
+The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment.
 
 See API reference – [EPS](/api/#eps).
 

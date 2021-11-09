@@ -36,7 +36,7 @@ sequenceDiagram
 The customer selects WeChat Pay at checkout and MultiSafepay displays a WeChat QR code.  
 
 [Redirect flow](/api/#wechat-pay---redirect)  
-The customer is redirected to a MultiSafepay payment page containing a WeChat QR code. 
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) containing a WeChat QR code. 
 
 {{< /details>}}
 

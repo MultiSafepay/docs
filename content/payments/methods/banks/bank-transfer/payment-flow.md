@@ -37,7 +37,7 @@ sequenceDiagram
 The customer selects Bank Transfer at checkout and is redirected to your success page.  
 
 [Redirect flow](/api/#bank-transfer---redirect)  
-The customer selects Bank Transfer at checkout and is redirected to a MultiSafepay payment page, where they confirm their bank account number and (optionally) the bank country.  
+The customer selects Bank Transfer at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/), where they confirm their bank account number and (optionally) the bank country.  
 MultiSafepay's bank account details are then displayed. 
 
 {{< /details>}}

@@ -38,7 +38,7 @@ sequenceDiagram
 The customer selects ING Home'Pay and their bank at checkout and is redirected straight to their online banking environment.  
 
 [Redirect flow](/api/#ing-homepay---redirect)  
-The customer selects ING Home'Pay at checkout and is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment. 
+The customer selects ING Home'Pay at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. 
 
 {{< /details>}}
 

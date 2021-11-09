@@ -34,7 +34,7 @@ sequenceDiagram
 
 {{< details title="Redirect flow">}}
 &nbsp;    
-The customer selects TrustPay at checkout and is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment. 
+The customer selects TrustPay at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. 
 
 {{< /details>}}
 

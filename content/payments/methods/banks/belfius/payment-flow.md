@@ -37,7 +37,7 @@ sequenceDiagram
 The customer selects Belfius and their bank at checkout and is redirected straight to their online banking environment.  
 
 [Redirect flow](/api/#belfius---redirect)  
-The customer selects Belfius at checkout and is redirected first to a MultiSafepay payment page to select their bank, and then to their online banking environment. 
+The customer selects Belfius at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. 
 
 {{< /details>}}
 

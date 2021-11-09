@@ -45,11 +45,7 @@ sequenceDiagram
 The customer selects in3 at checkout and is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions.  
 
 [Redirect flow](/api/#afterpay---redirect)  
-The customer:
-
-- Selects in3 at checkout and is redirected to a MultiSafepay payment page 
-- Provides their birthdate, title, and phone number
-- Is redirected to your success page
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, title, and phone number. They are then redirected to your success page.
 
 {{< /details>}}
 

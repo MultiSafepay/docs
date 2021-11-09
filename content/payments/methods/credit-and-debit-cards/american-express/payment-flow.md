@@ -43,7 +43,8 @@ The customer selects American Express and enters their payment details at checko
 See [Payment Components](/payment-components/).
 
 **Redirect flow**  
-The customer selects American Express at checkout and is redirected to a MultiSafepay payment page to enter their payment details.  
+The customer selects American Express at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details. 
+ 
 See API reference – [American Express](/api/#american-express). 
 
 {{< /details>}}

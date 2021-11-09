@@ -44,7 +44,7 @@ sequenceDiagram
 The customer selects Betaal per Maand at checkout and is redirected straight to Betaal per Maand.  
 
 [Redirect flow](/api/#santander-betaal-per-maand---redirect)  
-The customer is briefly redirected to a MultiSafepay payment page and then to Santander. 
+The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. 
 
 {{< /details>}}
 

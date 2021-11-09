@@ -39,7 +39,7 @@ The customer selects Mastercard and enters their payment details at checkout.
 See [Payment Components](/payment-components/).
 
 **Redirect flow**  
-The customer selects Mastercard at checkout and is redirected to a MultiSafepay payment page to enter their payment details.  
+The customer selects Mastercard at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details.  
 See API reference – [Mastercard](/api/#mastercard). 
 
 {{< /details>}}

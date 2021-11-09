@@ -44,11 +44,7 @@ sequenceDiagram
 The customer selects Klarna at checkout and is redirected straight to Klarna.  
 
 [Redirect flow](/api/#klarna---redirect)  
-The customer:
-
-- Selects Klarna at checkout and is redirected to a MultiSafepay payment page 
-- Provides their birthdate, email address, and phone number, and accepts the terms and conditions
-- Is redirected to your success page
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) provides their birthdate, email address, and phone number, and accepts the terms and conditions. They are then redirected to your success page.
 
 {{< /details>}}
 

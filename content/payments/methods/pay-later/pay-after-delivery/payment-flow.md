@@ -43,12 +43,7 @@ sequenceDiagram
 The customer selects Pay After Delivery at checkout and the order details are sent directly to MultiFactor.  
 
 [Redirect flow](/api/#pay-after-delivery---redirect)  
-The customer:
-
-- Selects Pay After Delivery at checkout and is redirected to a MultiSafepay payment page 
-- Provides their birthdate, bank account, email address, and phone number
-- Agrees with the terms and conditions
-- Is redirected to your success page
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) agrees to the terms and conditions, and provides their birthdate, bank account, email address, and phone number. They are then redirected to your success page.
 
 {{< /details>}}
 

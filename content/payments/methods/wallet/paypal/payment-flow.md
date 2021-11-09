@@ -36,7 +36,7 @@ sequenceDiagram
 The customer is redirected straight to their PayPal account.  
 
 [Redirect flow](/api/#paypal---redirect)  
-The customer is redirected briefly to a MultiSafepay payment page and then to PayPal. 
+The customer is redirected briefly to a [MultiSafepay payment page](/payment-pages/) and then to PayPal. 
 
 {{< /details>}}
 

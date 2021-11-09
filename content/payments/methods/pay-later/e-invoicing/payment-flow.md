@@ -42,11 +42,7 @@ sequenceDiagram
 The customer selects E-Invoicing at checkout and the order details are sent directly to MultiFactor.  
 
 [Redirect flow](/api/#e-invoicing---redirect)  
-The customer:
-
-- Selects E-Invoicing at checkout and is redirected to a MultiSafepay payment page 
-- Provides their birthdate, bank account, email address, and phone number
-- Is redirected to your success page
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, bank account, email address, and phone number. They are then redirected to your success page.
 
 {{< /details>}}
 

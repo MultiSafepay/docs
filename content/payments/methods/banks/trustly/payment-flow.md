@@ -33,7 +33,7 @@ sequenceDiagram
 
 {{< details title="Redirect flow">}}
 &nbsp;  
-The customer selects Trustly at checkout and is redirected first to a MultiSafepay payment page to select their country and bank, and then to their online banking environment. 
+The customer selects Trustly at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
 
 {{< /details>}}
 

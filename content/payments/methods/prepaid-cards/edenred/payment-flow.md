@@ -10,22 +10,51 @@ aliases:
     - /payments/methods/prepaid-cards/edenred/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant E as Edenred
+    participant Me as Merchant
+
+    C->>Mu: Selects Edenred at checkout
+    Mu->>C: Connects to Edenred (redirect only)
+    C->>E: Authenticates account, authorizes MultiSafepay access
+    E->>Mu: Confirms authorization and sufficient funds on voucher
+    E->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Redirect flow">}}
+
+The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
+
+See API reference – [Edenred](/api/#edenred).
+
+{{< /details>}}
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects Edenred at checkout. | |  |
-| 2. | The customer is redirected and signs in to Edenred with their username, password, and PIN. {{< br >}} They authorize MultiSafepay to access their Edenred account. |   |  |
-| 3. | Edenred confirms successful authentication and that enough funds are available on the voucher. | | |
-| 4. | Edenred transfers the funds to the merchant and notifies MultiSafepay. | Completed | Completed |
+| Description | Order status | Transaction status |
+|---|---|---|
+| The transaction is complete. | Completed | Completed |
 
 

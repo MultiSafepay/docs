@@ -37,7 +37,7 @@ The customer selects Cartes Bancaires and enters their payment details at checko
 See [Payment Components](/payment-components/).
 
 **Redirect flow**  
-The customer selects Cartes Bancaires at checkout and is redirected to a MultiSafepay payment page to enter their payment details.  
+The customer selects Cartes Bancaires at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details.  
 See API reference – [Co-branded credit cards](/api/#co-branded-credit-cards). 
 
 {{< /details>}}

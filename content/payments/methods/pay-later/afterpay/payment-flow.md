@@ -44,11 +44,8 @@ sequenceDiagram
 The customer selects AfterPay at checkout and is redirected straight to AfterPay.  
 
 [Redirect flow](/api/#afterpay---redirect)  
-The customer:
-
-- Selects AfterPay at checkout and is redirected to a MultiSafepay payment page 
-- Provides their birthdate, email address, and phone number, and accepts the terms and conditions
-- Is redirected to your success page
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to accept the terms and conditions and provide their birth date, email address, and phone number. 
+They are then redirected to your success page.
 
 {{< /details>}}
 

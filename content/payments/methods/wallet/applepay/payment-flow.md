@@ -43,7 +43,7 @@ sequenceDiagram
 The customer selects Apple Pay and completes payment on your checkout page.  
 
 [Redirect flow](/api/#apple-pay---redirect)  
-The customer selects Apple Pay at checkout and is redirected to a MultiSafepay payment page. 
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/) and then to Apple. 
 
 {{< /details>}}
 

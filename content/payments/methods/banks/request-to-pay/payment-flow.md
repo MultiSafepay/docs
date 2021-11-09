@@ -38,7 +38,7 @@ sequenceDiagram
 The customer selects Request to Pay at checkout and is redirected straight to the Deutsche Bank online banking environment.  
 
 [Redirect flow](/api/#request-to-pay---redirect)  
-The customer selects Request to Pay at checkout and is redirected first to a MultiSafepay payment page, and then to the Deutsche  online banking environment. 
+The customer selects Request to Pay at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to the Deutsche  online banking environment. 
 
 {{< /details>}}
 

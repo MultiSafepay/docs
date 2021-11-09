@@ -40,7 +40,7 @@ sequenceDiagram
 The customer is redirected straight to their Google account.  
 
 [Redirect flow](/api/#google-pay---redirect)  
-The customer is redirected to a MultiSafepay payment page. They click the Google Pay button and are redirected to their Google account to complete payment. 
+The customer is redirected to a [MultiSafepay payment page](/payment-pages/). They click the Google Pay button and are redirected to their Google account to complete payment. 
 
 {{< /details>}}
 

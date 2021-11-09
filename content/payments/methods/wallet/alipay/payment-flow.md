@@ -37,7 +37,7 @@ sequenceDiagram
 The customer selects Alipay at checkout and payment is processed directly with Alipay.  
 
 [Redirect flow](/api/#alipay---redirect)  
-The customer selects Alipay at checkout and is briefly redirected to a MultiSafepay payment page before the payment is processed directly with Alipay. 
+The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) before the payment is processed directly with Alipay. 
 
 {{< /details>}}
 

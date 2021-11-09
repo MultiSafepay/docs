@@ -44,7 +44,7 @@ sequenceDiagram
 The customer selects SEPA Direct Debit at checkout and a request with the customer's information is sent straight to MultiSafepay.  
 
 [Redirect flow](/api/#sepa-direct-debit---redirect)  
-The customer selects SEPA Direct Debit at checkout and is redirected first to a MultiSafepay payment page to confirm their IBAN and account name.  
+The customer selects SEPA Direct Debit at checkout and is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name.  
 A request with the customer's information is sent to MultiSafepay.  
 The customer is redirected to your success page. 
 
