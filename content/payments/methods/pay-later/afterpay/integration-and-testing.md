@@ -54,7 +54,8 @@ To change the order status, either:
 
 **Note:** You can't test:  
 
-- Receiving a successful payment notification from AfterPay
-- Changing the transaction status from **Uncleared** to **Completed**
-- Processing a refund
+- Receiving successful payment notifications from AfterPay
+- Changing transaction statuses from **Uncleared** to **Completed**
+- Processing refunds
+
 {{< /details >}}

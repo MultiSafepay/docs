@@ -26,8 +26,8 @@ meta_title: "API reference - Refund with shopping cart - MultiSafepay Docs"
       {
         "name":"Geometric Candle Holders",
         "description":"",
-        "unit_price":-90,
-        "quantity":2,
+        "unit_price":90,
+        "quantity":-2,
         "merchant_item_id":"111111",
         "tax_table_selector":"none",
         "weight":{
@@ -60,8 +60,7 @@ To refund a [pay later](/payments/methods/pay-later/) order, include a [`shoppin
 1. To retrieve the items in the shopping cart, make a `GET /orders/{id}` request.
 
 2. Make a `POST /orders/{id}/refunds` request:    
-    - For Klarna, add a duplicate object for each item you need to refund with a **negative** `unit_price`.  
-    - For all other pay later methods, set a negative `quantity`.
+    - Add a duplicate object for each item you need to refund with a **negative** `quantity`.
 
 **Note:** Make sure you provide the exact same `merchant_item_id`, `tax_table_selector`, and `unit_price`.
 

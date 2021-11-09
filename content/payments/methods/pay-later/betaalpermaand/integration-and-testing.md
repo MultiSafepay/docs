@@ -15,10 +15,4 @@ To process Betaal per Maand payments via our API, see API reference – [Betaal 
 
 For the Betaal per Maand logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="View testing process" >}}
-
-You cannot test Betaal per Maand in your MultiSafepay test account. 
-
-When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live.
-
-{{< /details >}}
+You can't test Betaal per Maand in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.

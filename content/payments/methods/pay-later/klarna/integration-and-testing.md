@@ -19,11 +19,11 @@ For the Klarna logo, see MultiSafepay GitHub – [MultiSafepay icons](https://gi
 
 Test credentials:
 
-- [API key](/tools/multisafepay-control/get-your-api-key/)
+- [API key](/account/site-id-api-key-secure-code/)
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  
-1. Send a [direct or redirect](/api/#klarna) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+1. Send a [direct](/api/#klarna) API request. 
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
 4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.
@@ -51,14 +51,16 @@ To refund an order:
 
 **Receive an invoice**  
 
-You can only test the invoice process in your live MultiSafepay account. To do this, change the order status to **Shipped**.
+You can only test the invoice process in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
 ---
 
 **Note:** You can't test:
 
-- Receiving a successful payment notification from Klarna
-- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
+- Receiving successful payment notifications from Klarna
+- Changing transaction statuses from **Uncleared** to **Completed**, except for refunds
+- Sending redirect API requests
+
 
 {{< /details >}}
 

@@ -83,63 +83,91 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
 
 ```json
 {
-  "type":"direct",
-  "gateway":"EINVOICE",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":26000,
-  "description":"Test order description",
-  "items":"",
-  "manual":false,
-  "gateway_info":{
-    "birthday":"1980-01-30",
-    "bankaccount":"0417164300",
-    "phone":"0208500500",
-    "email":"example@multisafepay.com"
+  "type": "direct",
+  "gateway": "EINVOICE",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 19000,
+  "description": "Test order description",
+  "items": "",
+  "manual": false,
+  "gateway_info": {
+    "birthday": "1980-01-30",
+    "bankaccount": "0417164300",
+    "phone": "0208500500",
+    "email": "example@multisafepay.com"
   },
-  "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel",
-    "close_window":true
+  "payment_options": {
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
   },
-  ...
-  "shopping_cart":{
-    "items":[
+  "customer": {
+    "locale": "nl",
+    "ip_address": "102.129.255.0",
+    "forwarded_ip": "",
+    "first_name": "Simon",
+    "last_name": "Smit",
+    "address1": "Neherkade",
+    "address2": "",
+    "house_number": "1",
+    "zip_code": "2521VA",
+    "city": "Gravenhage",
+    "state": "",
+    "country": "NL",
+    "email": "example@multisafepay.com",
+    "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "delivery": {
+    "first_name": "Simon",
+    "last_name": "Smit",
+    "address1": "Neherkade",
+    "address2": "",
+    "house_number": "1",
+    "zip_code": "2521VA",
+    "city": "Gravenhage",
+    "state": "",
+    "country": "NL",
+    "email": "example@multisafepay.com"
+  },
+  "shopping_cart": {
+    "items": [
       {
-        "name":"Item demo 1",
-        "description":"",
-        "unit_price":90,
-        "quantity":2,
-        "merchant_item_id":"666666",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":12
+        "name": "Item demo 1",
+        "description": "",
+        "unit_price": 90,
+        "quantity": 2,
+        "merchant_item_id": "666666",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
         }
       },
       {
-        "name":"Item shipping - Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"msp-shipping",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
+        "name": "Item shipping - Flat Rate - Fixed",
+        "description": "Shipping",
+        "unit_price": 10,
+        "quantity": 1,
+        "merchant_item_id": "msp-shipping",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 0
         }
       }
     ]
   },
-  "checkout_options":{
-    "tax_tables":{
-      "alternate":[
+  "checkout_options": {
+    "tax_tables": {
+      "alternate": [
         {
-          "name":"none",
-          "rules":[
+          "name": "none",
+          "rules": [
             {
-              "rate":0.00
+              "rate": 0.00
             }
           ]
         }
