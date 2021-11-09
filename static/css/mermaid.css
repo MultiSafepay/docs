@@ -1,7 +1,3 @@
-.mermaid > svg {
-	padding: 2px;
-}
-
 .mermaid, #mermaid-modal {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 }
@@ -15,7 +11,7 @@
 .mermaid .actor, #mermaid-modal .actor {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 	font-size: 1.75rem !important;
-	stroke: #f2f7fc !important;
+	stroke: #3fa9f5 !important;
 	fill: #3fa9f5 !important;
 }
 
@@ -26,8 +22,8 @@
 .mermaid .note, #mermaid-modal .note {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 	font-size: 1.75rem !important;
-	fill: white !important;
-	stroke: #3fa9f5 !important;
+	fill: #fdf3d5 !important;
+	stroke: #FABD00 !important;
 }
 
 .mermaid .noteText, #mermaid-modal .noteText {
