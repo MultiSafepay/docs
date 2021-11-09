@@ -74,7 +74,7 @@ We import our bank statements daily and finalize all incoming payments.
  Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund was successful. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
 
 
 

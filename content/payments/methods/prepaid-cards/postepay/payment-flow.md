@@ -43,7 +43,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |
+| The refund is complete.  | Completed      | Completed   |
 
 
 

@@ -24,7 +24,7 @@ sequenceDiagram
     C->>Mu: Selects Google Pay at checkout
     Mu->>C: Connects to Google Pay (direct/redirect)
     C->>G: Completes payment 
-    G->>Mu: Sends the customer's credit card details as an encrypted token
+    G->>Mu: Sends customer's credit card details as an encrypted token
     Mu->>CS: Decrypts card details and processes credit card transaction
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes (or declines) transaction
@@ -37,13 +37,10 @@ sequenceDiagram
 {{< details title="Direct vs redirect">}}
 
 [Direct flow](/api/#google-pay---direct)  
-The customer selects Google Pay and is redirected straight to their Google account.  
+The customer is redirected straight to their Google account.  
 
 [Redirect flow](/api/#google-pay---redirect)  
-The customer:  
-
-- Selects Google Pay at checkout and is redirected to a MultiSafepay payment page. 
-- Click the Google Pay button and is redirect to their Google account to complete payment. 
+The customer is redirected to a MultiSafepay payment page. They click the Google Pay button and are redirected to their Google account to complete payment. 
 
 {{< /details>}}
 
@@ -97,7 +94,7 @@ For any questions, email the Support Team at <support@multisafepay.com>
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund has been successfully processed.  | Completed      | Completed   |
+| The refund is complete.  | Completed      | Completed   |
 | The customer has requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 

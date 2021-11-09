@@ -10,37 +10,64 @@ aliases:
     - /payments/methods/wallet/wechatpay/payment-flow/
 ---
 
-The table below shows a successful transaction flow from start to finish. 
+## How it works
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant W as WeChat Pay
+    participant Me as Merchant
+
+    C->>Mu: Selects WeChat Pay at checkout
+    Mu->>C: Connects to WeChat Pay and generates QR code (direct/redirect)
+    C->>W: Scans code with WeChat app to complete payment 
+    W->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+
+{{< details title="Direct vs redirect">}}
+
+[Direct flow](/api/#wechat-pay---direct)  
+The customer selects WeChat Pay at checkout and MultiSafepay displays a WeChat QR code.  
+
+[Redirect flow](/api/#wechat-pay---redirect)  
+The customer is redirected to a MultiSafepay payment page containing a WeChat QR code. 
+
+{{< /details>}}
+
+## Payment statuses
 
 {{< details title="Order and transaction statuses" >}}
+For each payment in your MultiSafepay account, there are two statuses that change as payment progresses:
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+**Order status**  
+The progression of the customer's order with you, independent of the payment
+
+**Transaction status**  
+The progression towards settling the funds in your MultiSafepay balance
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects WeChat at checkout. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link with a QR code. |   |  |
-| 3. | The customer scans the QR code with the WeChat app and completes payment. | | |
-| 4. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. | Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 2-hour period. | Expired | Expired |
+| The customer didn't complete payment within 2 hours and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |
+| The refund is complete.  | Completed      | Completed   |
 
 
 

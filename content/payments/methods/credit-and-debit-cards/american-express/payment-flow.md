@@ -98,7 +98,7 @@ For any questions, email the Support Team at <support@multisafepay.com>
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |
+| The refund is complete.  | Completed      | Completed   |
 | The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 

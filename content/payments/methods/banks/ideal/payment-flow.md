@@ -71,4 +71,4 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is pending (banking only).  | Reserved | Reserved |
-| The refund was successful. | Completed | Completed |
+| The refund is complete. | Completed | Completed |

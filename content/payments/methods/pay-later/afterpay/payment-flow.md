@@ -116,4 +116,4 @@ Phone +31 207230230 or email <merchant@afterpay.com>
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized    | Completed   |
-| The refund was successfully processed.  | Completed      | Completed   |
+| The refund is complete.  | Completed      | Completed   |

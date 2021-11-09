@@ -103,6 +103,6 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |  
-| The refund has been successfully processed. | Completed | Completed | 
+| The refund is complete. | Completed | Completed | 
 
 
