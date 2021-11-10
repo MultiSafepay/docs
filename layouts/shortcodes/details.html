@@ -1,5 +1,5 @@
 <div>
-	<details id="details-{{ .Get "title" | lower }}">
+	<details id="details-{{ replace (.Get "title" | lower) " " "-" }}">
 		<summary>
 			{{ .Get "title" }}
 		</summary>
