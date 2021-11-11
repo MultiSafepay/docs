@@ -27,7 +27,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer enters their credit card details, verifies their identify via [3D Secure](/faq/payment-regulations/about-3d-secure/) or branded version (if required), and completes the payment. | | |
 | 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 5. | You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| 5. | [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | 6. | The transaction is successful. |  |  |
 | 7. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} **Or** {{< br >}} If you use your American Express MID (MerchantID), Amercian Express settles the funds directly in your business bank account. | Completed | Completed |
 

@@ -25,20 +25,15 @@ sequenceDiagram
     C->>Mu: Selects PayPal at checkout
     Mu->>C: Connects to PayPal (direct/redirect)
     C->>P: Authenticates account, completes payment 
-    P->>Me: Settles funds in your PayPal business account
+    P->>Me: Settles funds in your <br> PayPal business account
 
 {{< /mermaid >}}
 &nbsp;  
 
-{{< details title="Direct vs redirect">}}
-
-[Direct flow](/api/#paypal---direct)  
-The customer is redirected straight to their PayPal account.  
-
-[Redirect flow](/api/#paypal---redirect)  
-The customer is redirected briefly to a [MultiSafepay payment page](/payment-pages/) and then to PayPal. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to their PayPal account. | [API reference](/api/#paypal---direct) |
+| **Redirect flow** | The customer is redirected briefly to a [MultiSafepay payment page](/payment-pages/) and then to PayPal. | [API reference](/api/#paypal---redirect) |  
 
 **Note:** MultiSafepay does **not** collect funds for PayPal transactions.
 
@@ -48,8 +43,6 @@ The customer is redirected briefly to a [MultiSafepay payment page](/payment-pag
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
@@ -57,7 +50,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The currency is not enabled in your PayPal business account. {{< br >}} To change the order status to **Completed**, enable the relevant currency. {{< br >}} You can only decline or authorize **Uncleared** transactions in your PayPal account. | Uncleared | Initialized |
 | PayPal has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 14 days and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -67,6 +60,6 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The refund is complete.  | Completed | Initialized |
 | The customer has requested a refund but there are not enough funds in your PayPal business account. | Uncleared | Initialized   |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 

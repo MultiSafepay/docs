@@ -29,14 +29,10 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. | [API reference](/api/#edenred) |
 
-{{< details title="Redirect flow">}}
-
-The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
-
-See API reference – [Edenred](/api/#edenred).
-
-{{< /details>}}
 
 ## Payment statuses
 
@@ -44,10 +40,8 @@ See API reference – [Edenred](/api/#edenred).
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The transaction is complete. | Completed | Completed |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

@@ -38,7 +38,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The order details are sent directly to MultiFactor. | [API reference](/api/#e-invoicing---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, bank account, email address, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#/api/#e-invoicing---redirect) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, bank account, email address, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#e-invoicing---redirect) |
 
 ## Payment statuses
 
@@ -46,13 +46,11 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can cancel the transaction at this point. | Initialized   | Initialized  |
+| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
 | E-Invoicing has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
-| Ship the order. {{< br >}} You **must**: {{< br >}} - [Change the order status to Shipped](/payments/methods/billing-suite/e-invoicing/user-guide/changing-order-status-to-shipped/). {{< br >}} - Ship the order to receive payment. | Shipped | Initialized |
+| **Important**: [Manually change the order status to Shipped](/payments/methods/billing-suite/e-invoicing/user-guide/changing-order-status-to-shipped/). {{< br >}} You must ship to receive payment. | Shipped | Initialized |
 | The transaction is complete. | Completed    | Completed  |
 | E-Invoicing has declined the payment. | Declined | Declined |
 | The payment has been cancelled. | Void | Cancelled |
@@ -70,3 +68,4 @@ See also:
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete.  | Completed | Completed |
 
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

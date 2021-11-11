@@ -30,14 +30,9 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-{{< details title="Redirect flow">}}
-
-The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. 
-
-See API reference – [Gift cards](/api/#gift-cards).
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. | [API reference](/api/#gift-cards) | 
 
 ## Payment statuses
 
@@ -45,15 +40,14 @@ See API reference – [Gift cards](/api/#gift-cards).
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The customer enters the gift card details, and completes the payment. | | |
-| The transaction is complete. {{< br >}} **Note:** If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. | Completed | Completed |
+| The transaction is complete. {{< br >}}  | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
+
+{{< blue-notice >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. {{< /blue-notice >}}
 
 ## Refund statuses
 
@@ -61,3 +55,5 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

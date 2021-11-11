@@ -43,8 +43,6 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
@@ -52,7 +50,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The transaction is complete. | Completed | Completed |
 | Deutsche Bank has declined the transaction. | Declined | Declined   |
 | The customer cancelled the payment. | Void | Void |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 1 hour and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -62,6 +60,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The refund is complete. | Completed | Completed |
 | Deutsche Bank has declined the refund. | Declined | Declined |
 
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
         
 

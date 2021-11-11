@@ -42,8 +42,6 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
@@ -58,4 +56,4 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund is complete. | Completed | Completed |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

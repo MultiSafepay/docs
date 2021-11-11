@@ -22,13 +22,13 @@ sequenceDiagram
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
-    participant CB as Customer's bank
+    participant CK as CBC/KBC
     participant Me as Merchant
 
     C->>Mu: Selects CBC/KBC at checkout
-    Mu->>C: Connects to customer's bank (direct/redirect)
-    C->>CB: Authenticates account and completes payment
-    CB->>Mu: Transfers funds 
+    Mu->>C: Connects to CBC/KBC (direct/redirect)
+    C->>CK: Authenticates account and completes payment
+    CK->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
@@ -45,17 +45,15 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete.| Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 5 days and the transaction expired. | Expired | Expired |
 
-**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
-We import our bank statements daily and finalize all incoming payments.
+{{< blue-notice >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
+We import our bank statements daily and match all incoming payments. {{< /blue-notice >}}
 
 ## Refund statuses
 
@@ -64,6 +62,7 @@ We import our bank statements daily and finalize all incoming payments.
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
 
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 
 

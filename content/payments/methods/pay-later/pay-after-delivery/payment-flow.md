@@ -39,9 +39,9 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The order details are sent directly to MultiFactor. | [API reference](/api/#pay-after-delivery---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) agrees to the terms and conditions, and provides their birthdate, bank account, email address, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#pay-after-delivery---redirect) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | [API reference](/api/#pay-after-delivery---redirect) |
 
-## Failure to pay
+### Failure to pay
 
 If the customer fails to pay within the initial 14 day period, MultiFactor emails them reminders with new payment links, each valid for 6 days: 
 
@@ -49,12 +49,12 @@ If the customer fails to pay within the initial 14 day period, MultiFactor email
 - With the third, we add a fee of 7.50 EUR to the invoice. 
 - With the fourth, we add a fee of 12.50 EUR to the invoice. 
 
-If the customer still fails to pay, the amount of the total invoice is transferred to a debt collection agency. 
+If the customer still fails to pay, the total invoice is transferred to a debt collection agency. 
 
 To stop sending reminders, you can either:
 
 - Credit the invoice for a zero amount, or
-- Request to place the transactin on hold for up to 1 month
+- Request to place the transaction on hold for up to 1 month
 
 Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
 Provide the following information:
@@ -69,13 +69,11 @@ Provide the following information:
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can cancel the transaction at this stage. | Uncleared   | Uncleared | 
+| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Uncleared   | Uncleared | 
 | Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See [Closing transactions](/payments/methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Completed | Uncleared | 
-| Manually [change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/user-guide/changing-order-status-to-shipped/). | Shipped | Uncleared |
+| **Important:** [Manually change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/user-guide/changing-order-status-to-shipped/). | Shipped | Uncleared |
 | The transaction is complete.  | Shipped | Completed |
 | The transaction has been cancelled. | Void   | Cancelled | 
 | The customer did not complete payment within 90 days and the transaction expired. | Expired | Expired | 
@@ -87,4 +85,4 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer has requested a refund. | Initialized | Initialized |  
 | The refund is complete. | Completed | Completed | 
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
