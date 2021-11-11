@@ -130,7 +130,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
     "reason_code":"",
     "related_transactions":null,
     "status":"initialized",
-    "transaction_id":5095261,
+    "transaction_id":1234567,
     "var1":null,
     "var2":null,
     "var3":null,
