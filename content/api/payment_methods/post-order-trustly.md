@@ -54,7 +54,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
     
   },
   "payment_options":{
-    "notification_url":"http://10.1.10.111/testtool/client/json-test/notification?type=notification",
+    "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
     "cancel_url":"https://www.example.com/client/notification?type=cancel"
   },
