@@ -56,7 +56,7 @@ The customer's name.
 ----------------
 `description` | string | required
 
-A description of the item that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+A description of the item that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
