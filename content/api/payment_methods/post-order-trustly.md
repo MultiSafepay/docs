@@ -109,7 +109,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
     "payment_details":{
       "account_holder_name":null,
       "account_id":null,
-      "external_transaction_id":5095261,
+      "external_transaction_id":1234567,
       "recurring_flow":null,
       "recurring_id":null,
       "recurring_model":null,
