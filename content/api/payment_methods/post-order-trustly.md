@@ -15,9 +15,6 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
   "amount":1000,
   "gateway":"TRUSTLY",
   "description":"Test order description",
-  "custom_info":{
-    
-  },
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
@@ -45,18 +42,15 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
 ```json
 {
   "type":"direct",
-  "order_id":"my-order-id-1",
+  "order_id":"apitool_13557764",
   "currency":"EUR",
   "amount":1000,
   "gateway":"TRUSTLY",
   "description":"product description",
-  "custom_info":{
-    
-  },
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel"
+    "notification_url":"http://10.1.10.111/testtool/client/json-test/notification?type=notification",
+    "redirect_url":"http://10.1.10.111/testtool/client/json-test/notification?type=redirect",
+    "cancel_url":"http://10.1.10.111/testtool/client/json-test/notification?type=cancel"
   },
   "customer":{
     "first_name":"Testperson-nl",
@@ -105,11 +99,11 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
     "financial_status":"initialized",
     "items":null,
     "modified":"2021-11-08T13:14:05",
-    "order_id":"my-order-id-1",
+    "order_id":"apitool_13557764",
     "payment_details":{
       "account_holder_name":null,
       "account_id":null,
-      "external_transaction_id":1234567,
+      "external_transaction_id":5095261,
       "recurring_flow":null,
       "recurring_id":null,
       "recurring_model":null,
@@ -120,7 +114,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
         "amount":1000,
         "currency":"EUR",
         "description":"product description",
-        "external_transaction_id":1234567,
+        "external_transaction_id":5095261,
         "payment_description":"Trustly",
         "status":"initialized",
         "type":"TRUSTLY"
@@ -130,7 +124,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
     "reason_code":"",
     "related_transactions":null,
     "status":"initialized",
-    "transaction_id":1234567,
+    "transaction_id":5095261,
     "var1":null,
     "var2":null,
     "var3":null,
