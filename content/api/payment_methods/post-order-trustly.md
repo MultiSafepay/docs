@@ -45,7 +45,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
 ```json
 {
   "type":"direct",
-  "order_id":"apitool_13557764",
+  "order_id":"my-order-id-1",
   "currency":"EUR",
   "amount":1000,
   "gateway":"TRUSTLY",
