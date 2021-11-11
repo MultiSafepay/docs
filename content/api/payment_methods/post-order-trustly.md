@@ -105,7 +105,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
     "financial_status":"initialized",
     "items":null,
     "modified":"2021-11-08T13:14:05",
-    "order_id":"apitool_13557764",
+    "order_id":"my-order-id-1",
     "payment_details":{
       "account_holder_name":null,
       "account_id":null,
