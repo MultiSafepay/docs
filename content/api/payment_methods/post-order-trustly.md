@@ -120,7 +120,7 @@ meta_title: "API reference - Create a Trustly order - MultiSafepay Docs"
         "amount":1000,
         "currency":"EUR",
         "description":"product description",
-        "external_transaction_id":5095261,
+        "external_transaction_id":1234567,
         "payment_description":"Trustly",
         "status":"initialized",
         "type":"TRUSTLY"
