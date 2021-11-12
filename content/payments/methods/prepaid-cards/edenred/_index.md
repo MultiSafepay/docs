@@ -11,9 +11,4 @@ aliases:
     - /payments/methods/prepaid-cards/edenred/
 ---
 
-Edenred lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
-
-- Ticket Restaurant
-- Ticket EcoCheques
-- Ticket Compliments
-- Ticket Sport & Culture
+Edenred lets employers provide their employees with a prepaid card loaded with Edenred vouchers.

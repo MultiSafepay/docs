@@ -1,38 +1,46 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing PayPal"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "PayPal - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing PayPal in your ecommerce platform"
+meta_title: "Integrating and testing PayPal - MultiSafepay Docs"
+short_description: "Options for integrating PayPal and testing payments"
 layout: 'child'
 url: '/payment-methods/paypal/integration-testing/'
 aliases:
     - /payment-methods/wallet/paypal/paypal-testing
     - /payments/methods/wallet/paypal/integration-and-testing/
 ---
+## Integration
 
-To process PayPal payments via our API, see API reference – [PayPal](/api/#paypal).
+| | |
+|---|---|
+| **API** | [Direct](/api/#paypal---direct) and [redirect](/api/#paypal---redirect) |
+| **Ready-made integrations** | PayPal is supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – Links are valid for 14 days. The lifetime is set by PayPal. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the PayPal logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+### Displaying your logo in the PayPal checkout
+To display your header or logo on the PayPal checkout page, follow these steps:
 
-{{< details title="View credentials and testing process" >}}
+1. Sign in into your [MultiSafepay account](https://merchant.multisafepay.com).
+2. Go to **Settings** > **Files**, and upload the relevant images. 
+3. Go to **Payment methods** at the bottom right, and then select the relevant images from the **Logo** and **Header** dropdown menu. 
+4. Click **Save**.
+
+## Testing
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
-**Test a PayPal order**
+### Test a PayPal order
 
 1. Make a [direct](/api/#paypal---direct) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
----
+**Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the transaction status remains **Initialized** and can't be changed to **Completed**.
 
-**Note**: Since MultiSafepay does not collect payments on behalf of PayPal, the transaction status remains **Initialized** and can't be changed to **Completed**.
-
----
-
-**Change the order status**
+### Change the order status
 
 You can change the order status to:
 
@@ -44,7 +52,7 @@ You can change the order status to:
 
 To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant test scenario.
 
-**Test refunding an order**
+### Test refunding an order
 
 To refund an order:
 
@@ -63,11 +71,8 @@ To refund an order:
 
 Alternatively, make a [Refund](/api/#refund-an-order) API request.
 
----
-
-**Note**:  
+**Notes:**  
 
 - You can't test making redirect API requests.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
-{{< /details >}}

@@ -30,24 +30,29 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The payment is processed directly with Alipay. | [API reference](/api/#alipay---direct) |
-| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) before the payment is processed directly with Alipay. | [API reference](/api/#alipay---redirect) | 
+| **Direct flow** | The payment is processed directly with Alipay. | 
+| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) before the payment is processed directly with Alipay. |
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete. | Completed | Completed |
 | Alipay has declined the transaction. | Declined | Declined   |
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment within 5&nbsp;hours and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
@@ -57,5 +62,5 @@ sequenceDiagram
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed      | Completed   |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
 

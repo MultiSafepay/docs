@@ -13,14 +13,12 @@ aliases:
     - /payments/methods/banks/sofort/activation/
 ---
 
-To activate Sofort, follow these steps:
+{{< blue-notice >}} If using a ready-made integration: 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com). 
-2. Go to **Settings** > **Payment methods**.
-3. Under **Standard payment methods**, select the **Sofort** checkbox.
-3. Click **Save changes**.
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/getting-started/glossary/#backend).  {{< /blue-notice >}} 
 
-Enable Sofort as payment method in the [backend](/getting-started/glossary/#backend) of your ecommerce platform to finalize the activation.
+{{< activate_payment_method name="Sofort" >}}
 
-For any questions, email your account manager at <sales@multisafepay.com>
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
 

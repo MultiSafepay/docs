@@ -23,22 +23,26 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects a Paysafecard at checkout
-    Mu->>C: Connects to Paysafecard (redirect only)
+    Mu->>C: Connects to Paysafecard (redirect)
     C->>P: Enters card PIN and completes payment
     P->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. | [API reference](/api/#gift-cards) |  
+**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -55,4 +59,3 @@ sequenceDiagram
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

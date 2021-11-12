@@ -37,56 +37,31 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer is redirected straight to AfterPay. | [API reference](/api/#afterpay---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to accept the terms and conditions and provide their birth date, email address, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#afterpay---redirect) |
+| **Direct flow** | The customer is redirected straight to AfterPay. | 
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to accept the terms and conditions and provide their birth date, email address, and phone number. {{< br >}} They are then redirected to your success page. |
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | AfterPay is authorizing the payment. {{< br >}} You can still cancel it. | Uncleared | Uncleared |
 | MultiSafepay has sent a capture to AfterPay. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** Manually change the order status to **Shipped** (see below). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
+| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
 | The transaction is complete. | Shipped | Completed |
 | AfterPay has declined the payment **or** the payment was cancelled. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Void | Cancelled |
 | You did not ship within 90 days of creating the transaction and it expired. | Expired | Expired |
-
-{{< details title="Changing the order status to Shipped" >}}
- 
-Changing the order status from **Completed** to **Shipped** prevents the order expiring, and triggers AfterPay to invoice customer and transfer the funds to MultiSafepay. 
-
-**In your MultiSafepay account**
-
-To change the order status in your MultiSafepay account, follow these steps:
-
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Transactions** > **Transactions overview**.
-3. Search for the transaction, and click to open the **Transaction details** page. 
-4. Under **Order details**, click **Change order status**. 
-5. Change the status to **Shipped**.
-6. Send the customer the track and trace details, if relevant.
-
-**In your backend**
-
-If you change the order status to **Shipped** in your [backend](/getting-started/glossary/#backend), some MultiSafepay plugins can pass the updated status to your MultiSafepay account automatically:
-
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **Delivered** in your backend.
-
-For other MultiSafepay plugins, you can forward the status via our API by making a `PATCH /orders` request. 
-
-Some third-party plugins may not support forwarding the status via our API. 
-
-See API reference – [Update an order](/api/#update-an-order).
-{{< /details >}}
-
 
 ### Return process
 If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
@@ -100,4 +75,3 @@ Phone **+31 207 230 230** or email <merchant@afterpay.com>
 | The customer has requested a refund. | Initialized    | Completed   |
 | The refund is complete.  | Completed      | Completed   |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

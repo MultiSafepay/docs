@@ -1,32 +1,36 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Alipay"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Alipay - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Alipay in your ecommerce platform"
+meta_title: "Integrating and testing Alipay - MultiSafepay Docs"
+short_description: "Options for integrating Alipay and testing payments"
 layout: 'child'
 url: '/payment-methods/alipay/integration-testing/'
 aliases:
     - /payment-methods/wallet/paypal/paypal-testing
     - /payments/methods/wallet/alipay/integration-and-testing/
 ---
+## Integration
 
-To process Alipay payments via our API, see API reference – [Alipay](/api/#alipay).
+| | |
+|---|---|
+| **API** | [Direct](/api/#alipay---direct) and [redirect](/api/#alipay---redirect)  |
+| **Ready-made integrations** | Alipay (direct) is supported in all our [ready-made integrations](/ecommerce-platforms/) **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the Alipay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
-**Test an Alipay order**
+### Test an Alipay order
 
 1. Make a [direct](/api/#alipay---direct) or [redirect](/api/#alipay---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
-**Test cancelling an order**
+### Test cancelling an order
 
 To test cancelling an order:
 
@@ -38,7 +42,7 @@ To test cancelling an order:
 5. In the **Add transaction comment** field, add a comment, and then click **Ok**.  
   The order status changes to **Void**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -57,13 +61,10 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
-**Note**:  
+**Notes**:  
 
 - You can't test:
     - Refunding via the API.
     - Alipay declining transactions.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
-{{< /details >}}

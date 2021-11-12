@@ -8,11 +8,9 @@ layout: 'child'
 aliases: 
     - /payment-methods/credit-and-debit-cards/mastercard/activate-mastercard
 ---
-Email applications to activate Mastercard to your account manager at <sales@multisafepay.com>
+{{< blue-notice >}} If using a ready-made integration: 
 
-Include in your application the following information:
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/getting-started/glossary/#backend).  {{< /blue-notice >}}
 
-* Average, minimum, and maximum transaction amount
-* Annual credit card turnover
-
-The Risk Team checks your eligibilty and if approved, activates Mastercard in your account.
+{{< activate_payment_method type="non-standard" name="Mastercard" >}}

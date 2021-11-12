@@ -33,9 +33,9 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 
 ## Statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Action | Description | Order status | Transaction status |
 |---|---|---|---|

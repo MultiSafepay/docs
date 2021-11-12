@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing SEPA Direct Debit"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "SEPA Direct Debit - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing SEPA Direct Debit in your ecommerce platform"
+meta_title: "Integrating and testing SEPA Direct Debit - MultiSafepay Docs"
+short_description: "Options for integrating SEPA Direct Debit and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/directdebit-en.svg'
 url: '/payment-methods/sepa-direct-debit/integration-testing/'
@@ -11,16 +11,20 @@ aliases:
     - /payment-methods/sepa-direct-debit/sepa-direct-debit-testing
     - /payments/methods/banks/sepa-direct-debit/integration-and-testing/
 ---
+## Integration
 
-To process SEPA Direct Debit payments via our API, see API reference – [SEPA Direct Debit](/api/#sepa-direct-debit).
+| | |
+|---|---|
+| **API** | [Direct](/api/#sepa-direct-debit---direct) and [redirect](/api/#sepa-direct-debit---redirect) |
+| **Ready-made integrations** | EPA Direct Debit (direct) is supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the SEPA Direct Debit logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View test credentials and process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a SEPA Direct Debit order**
+### Test a SEPA Direct Debit order
 
 1. To test a SEPA Direct Debit order, make a [direct](/api/#sepa-direct-debit---direct) or [redirect](/api/#sepa-direct-debit---redirect) API request.
 2. If you make a redirect API request, enter in the:
@@ -32,12 +36,12 @@ Use the following IBANs to test different transaction statuses.
 
 | IBAN | Status    | Description              |
 | ---------| --------- | ------------------------ |
-| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**. |
-| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
-| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
-| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
+| NL87ABNA0000000001| **Initialized**/ **Completed** | The transaction is initialized. After 2 minutes, this changes to **Completed**. |
+| NL87ABNA0000000002| **Initialized**/ **Declined** | The transaction is initialized. After 2 minutes, this changes to **Declined**. |
+| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | The transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | The transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -56,7 +60,7 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
@@ -68,10 +72,7 @@ To test refunding an order via the API:
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
-**Note:** 
+**Notes:** 
 
 - You can't test cancelling orders.
 - In the live environment, you can't accept refund orders. These are done automatically.
-{{< /details >}}

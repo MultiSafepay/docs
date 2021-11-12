@@ -14,4 +14,4 @@ aliases:
     - /payments/methods/prepaid-cards/paysafecard/
 ---
 
-Paysafecard lets customers make online payments using secure prepaid vouchers, available for purchase locally. Customers enter the voucher code, without providing any personal payment details. Vouchers for different amounts are available in the local currency in 46 countries.
+Paysafecard lets customers make online payments using secure prepaid vouchers, available for purchase locally. 

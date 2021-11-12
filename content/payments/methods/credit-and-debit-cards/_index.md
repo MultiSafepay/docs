@@ -2,12 +2,10 @@
 title: 'Credit and debit cards'
 breadcrumb_title: "Credit and debit cards"
 layout: 'block'
-faq: '.'
 meta_title: 'Credit and debit cards - MultiSafepay Docs'
 logo: '/svgs/Credit cards.svg'
 short_description: 'Accept credit and debit card payments worldwide'
 intro_description: 'Credit cards are issued by a bank, building society, or card scheme and let customers pay for products or services on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account.'
-user_guide_title: 'credit cards'
 weight: 20
 aliases:
     - /support-tab/magento2/payment-methods/credit-and-debit-cards

@@ -4,10 +4,10 @@ weight: 60
 meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/afterpay"
 childlist: '.'
-intro_description: "AfterPay is a widely used payment method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement."
+intro_description: "AfterPay is a widely used payment method in the Netherlands and Belgium."
 layout: 'single'
 logo: '/logo/Payment_methods/AfterPay.svg' 
-short_description: 'Widely used pay later method in the Netherlands and Belgium.'
+short_description: 'A widely used pay later method in the Netherlands and Belgium.'
 url: '/payment-methods/afterpay/'
 aliases:
     - /support-tab/magento2/payment-methods/afterpay

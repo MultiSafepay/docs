@@ -30,23 +30,27 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. | [API reference](/api/#trustly) |
+**Redirect flow**: The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete.| Completed | Completed |
 | Trustly has declined the transaction. | Declined | Declined   |
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 2 hours and the transaction expired. | Expired | Expired |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 | In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
 
 ## Refund statuses
@@ -56,7 +60,7 @@ sequenceDiagram
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
 
 
 
