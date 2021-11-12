@@ -3,7 +3,6 @@ title: 'Split payments'
 weight: 40
 layout: 'single'
 meta_title: "Split payments - MultiSafepay Docs"
-
 logo: '/svgs/Split payments.svg'
 short_description: 'Split funds to different bank accounts based on percentage or fixed amount.'
 url: '/features/split-payments/'
@@ -16,21 +15,11 @@ aliases:
     - /tools/split-payments/how-do-i-refund-split-payment-orders
     - /payments/features/split-payments/
 ---
-Split payments lets:  
-
-- Merchants or [partners](/account/account-types/) divide a transaction amount between several MultiSafepay accounts, e.g. to charge [affiliates](/account/account-types/) a fee for using your platform
-- Customers pay for products and services from multiple webshops in a single transaction
+Split payments lets you divide a transaction amount between [partner](/account/account-types/) or [affiliate](/account/account-types/) accounts, e.g. as a fee for using your platform.
 
 You can split payments by a percentage, a fixed amount, or a combination of the two. 
 
 See API reference – [Split payments orders](/api/#split-payments-orders).
-
-## Prerequisites
-
-You will need:
-
-- Two active MultiSafepay accounts  
-- Access to the code that creates JSON requests
 
 ## Refunding split payments
 You can only refund split payments (in full or in part) from the account that originally received the funds and then split them to other accounts. 
