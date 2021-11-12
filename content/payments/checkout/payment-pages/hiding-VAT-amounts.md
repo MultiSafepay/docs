@@ -3,7 +3,7 @@ title : "Hiding VAT amounts"
 weight: 50
 meta_title: "Payment pages - Hiding VAT amounts - MultiSafepay Docs"
 read_more: '.'
-url: '/payment-pages/hiding-vat-details/'
+url: '/payment-pages/hiding-vat-amounts/'
 ---
 
 By default, payment pages display the VAT amount for each item in the customer's order. You can also hide the VAT amounts and show the total order price only. 
