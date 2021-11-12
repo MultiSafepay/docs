@@ -21,11 +21,10 @@ sequenceDiagram
     participant CS as Card scheme
     participant Me as Merchant
     participant CB as Customer's bank
-
+    
     C->>Mu: Selects Google Pay at checkout
     Mu->>C: Connects to Google Pay (direct/redirect)
     C->>G: Completes payment 
-   
     alt is Direct integration
     G->>Me: Sends the customer's payment details as an encrypted token
     Me->>Mu: Sends the customer's payment details as an encrypted token

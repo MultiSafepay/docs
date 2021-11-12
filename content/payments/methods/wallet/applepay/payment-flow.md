@@ -23,7 +23,7 @@ sequenceDiagram
     participant A as Apple Pay
     participant CS as Card scheme
     participant Me as Merchant
-
+    
     C->>Mu: Selects Apple Pay at checkout
     Mu->>C: Connects to Apple Pay (direct/redirect)
     C->>A: Authorizes payment on an iOS device with Touch ID or Face ID
