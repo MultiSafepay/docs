@@ -5,8 +5,48 @@ meta_title: "API reference - Split payments - MultiSafepay Docs"
 ---
 {{< code-block >}}
 
-> POST - /orders
-
+> POST - /orders  
+Split by percentage only
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "percentage":11.2,
+        "description":"Percentage fee"
+      }
+    ]
+  }
+}
+```
+> POST - /orders  
+Split by fixed amount only 
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "fixed":112,
+        "description":"Fixed fee"
+      }
+    ]
+  }
+}
+```
+> POST - /orders  
+Split by percentage and fixed amount
 ```json
 {
   "type":"redirect",
@@ -30,7 +70,6 @@ meta_title: "API reference - Split payments - MultiSafepay Docs"
   }
 }
 ```
-
 > JSON response
 
 ```json
@@ -46,7 +85,9 @@ meta_title: "API reference - Split payments - MultiSafepay Docs"
 
 {{< description >}}
 ## Split payments orders
-Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
+Split the amount of a transaction between partner or affiliate accounts by a percentage, a fixed amount, or both.
+
+{{< alert-notice >}}**Important:** If splitting by both, never give a 0 value for the percentage or the fixed amount.  {{< /alert-notice >}}
 
 See [Split payments](/features/split-payments/).
 
@@ -99,11 +140,13 @@ The account ID of the [affiliated MultiSafepay account](/account/partner-account
 
 `split_payments.percentage` | float
 
-Specify a percentage of the amount to split.
+Specify a percentage of the amount to split.  
+**Important:** Never give a 0 value. 
 
 `split_payments.fixed` | integer
 
-Specify the amount to split in cents.
+Specify the amount to split in cents.  
+**Important:** Never give a 0 value. 
 
 `split_payments.description` | string
 
