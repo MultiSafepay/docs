@@ -10,42 +10,60 @@ aliases:
     - /payments/methods/billing-suite/betaalpermaand/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant S as Santander
+    participant Me as Merchant
+
+    C->>Mu: Selects Betaal per Maand at checkout
+    Mu->>C: Connects to Santander <br> (direct/redirect)
+    S->>Mu: Authorizes the payment
+    Mu->>S: Captures the funds
+    Me->>C: Ships the order
+    Note over Me,C: Manually change the order status to Shipped. 
+    Me->>Mu: Provides track & trace code
+    Mu->>S: Forwards track & trace code 
+    S->>C: Sends invoice 
+    Note over S,C: Settlement is now guaranteed!
+    C->>S: Selects payment period and method, and completes payment 
+    S->>Mu: Transfers funds within 5 business days <br> of order status changing to Shipped
+    Mu->>Me: Settles funds within 5 business days
+
+{{< /mermaid >}}
 &nbsp;  
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to Santander. | [API reference](/api/#santander-betaal-per-maand---direct) |
+| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | [API reference](/api/#santander-betaal-per-maand---redirect) |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+## Payment statuses
 
-{{< /details >}}
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-|      | Flow      | Order status | Transaction status |
-|---|----|---|----|
-| 1. | The customer selects Betaal per Maand at checkout and initiates a transaction. {{< br >}} To cancel the transaction at this point, email <support@multisafepay.com> | Uncleared   | Initialized  |
-| 2. | Betaal per Maand authorizes the payment. | Uncleared   | Uncleared  |
-| 3. | Once authorized, MultiSafepay sends a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You **can** cancel the transaction at this point. | Completed  | Uncleared  |
-| 4. | Ship the order. {{< br >}} You **must**: {{< br >}} - Ship the order to receive payment. {{< br >}} - [Change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/user-guide/changing-order-status-to-shipped/). {{< br >}} - [Provide the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/) to MultiSafepay. | Shipped | Uncleared |
-| 5. | MultiSafepay sends the track-and-trace code to Betaal per Maand to confirm shipment. | | |
-| 6. | Betaal per Maand invoices the customer. Settlement is now guaranteed.  | | |
-| 7. | The customer selects their preferred period and payment method for the monthly payment to Betaal per Maand. | | |
-| 8. | Betaal per Maand settles the funds with MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
-| 9. | MultiSafepay settles the funds in your MultiSafepay balance within 5 business days.| | |
-
-## Unsuccessful statuses
-You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| Betaal per Maand has declined the payment. Betaal per Maand only provides the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
+| The customer has initiated a transaction. {{< br >}} To cancel it, email <support@multisafepay.com> | Uncleared   | Initialized  |
+| Betaal per Maand is authorizing the payment. | Uncleared   | Uncleared  |
+| MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| **Important:** {{< br >}} - [Manually change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/user-guide/changing-order-status-to-shipped/). {{< br >}} - [Send us the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
+| The transaction is complete. | Shipped    | Completed  |
+| Santander has declined the payment. {{< br >}} They only provide the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
 | The payment was cancelled.   | Void   | Cancelled   |
-| The customer did not complete the payment within the 1-day period and the transaction expired. | Expired    | Expired    |
+| The customer didn't complete payment within 1&nbsp;day and the transaction expired. | Expired | Expired  |
 
 ## Refund statuses
 
-| Description   | Order status      | Transaction status |
+| Description   | Order status | Transaction status |
 |----|----|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |
+| The refund is complete.  | Completed      | Completed   |
 
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

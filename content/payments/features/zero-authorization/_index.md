@@ -23,14 +23,9 @@ For how Zero Authorization can benefit your business, see [0-Authorization](http
 
 ## Statuses
 
-{{< details title="About order and transaction statuses" >}}
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settling the funds in your MultiSafepay balance
-
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Action | Description | Order status | Transaction status |
 |---|---|---|---|
