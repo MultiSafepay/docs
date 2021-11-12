@@ -46,15 +46,13 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The customer's bank is processing the transaction and transfering the funds.  {{< br >}} May take up to 3 business days for all amounts. {{< br >}} Do **not** ship during this status. MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete  payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 1 day and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -63,7 +61,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund is complete. | Completed | Completed |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 
 

@@ -40,7 +40,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to Santander. | [API reference](/api/#santander-betaal-per-maand---direct) |
-| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | [API reference](/api/#/api/#santander-betaal-per-maand---redirect) |
+| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | [API reference](/api/#santander-betaal-per-maand---redirect) |
 
 ## Payment statuses
 
@@ -48,18 +48,16 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} To cancel the transaction at this point, email <support@multisafepay.com> | Uncleared   | Initialized  |
+| The customer has initiated a transaction. {{< br >}} To cancel it, email <support@multisafepay.com> | Uncleared   | Initialized  |
 | Betaal per Maand is authorizing the payment. | Uncleared   | Uncleared  |
 | MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| Ship the order. {{< br >}} You **must**: {{< br >}} - Ship the order to receive payment. {{< br >}} - [Change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/user-guide/changing-order-status-to-shipped/). {{< br >}} - [Provide the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/) to MultiSafepay. | Shipped | Uncleared |
+| **Important:** {{< br >}} - [Manually change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/user-guide/changing-order-status-to-shipped/). {{< br >}} - [Send us the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
 | The transaction is complete. | Shipped    | Completed  |
-| Betaal per Maand has declined the payment. Betaal per Maand only provides the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
+| Santander has declined the payment. {{< br >}} They only provide the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
 | The payment was cancelled.   | Void   | Cancelled   |
-| The customer did not complete payment and the transaction expired. | Expired | Expired  |
+| The customer didn't complete payment within 1&nbsp;day and the transaction expired. | Expired | Expired  |
 
 ## Refund statuses
 
@@ -68,3 +66,4 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed      | Completed   |
 
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

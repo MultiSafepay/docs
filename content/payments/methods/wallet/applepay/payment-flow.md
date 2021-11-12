@@ -28,24 +28,19 @@ sequenceDiagram
     Mu->>C: Connects to Apple Pay (direct/redirect)
     C->>A: Completes payment on an iOS device with Touch ID or Face ID
     A->>Mu: Sends the customer's credit card details as an encrypted token
-    Mu->>CS: Decrypts card details and processes credit card transaction
+    Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
-    Me->>Mu: Authorizes (or declines) transaction
+    Me->>Mu: Authorizes transaction
     CS->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
 
-{{< details title="Direct vs redirect">}}
-
-[Direct flow](/api/#apple-pay---direct)  
-The customer selects Apple Pay and completes payment on your checkout page.  
-
-[Redirect flow](/api/#apple-pay---redirect)  
-The customer is redirected to a [MultiSafepay payment page](/payment-pages/) and then to Apple. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer selects Apple Pay and completes payment on your checkout page. | [API reference](/api/#apple-pay---direct) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) and then to Apple to complete payment. | [API reference](/api/#apple-pay---redirect) |  
 
 For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
@@ -55,15 +50,13 @@ For more information about using Apple Pay, see Apple – [How to use Apple Pay]
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Void   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
 | The issuer has declined the transaction (see possible reasons below). | Declined | Declined   |
 
 {{< details title="Reasons for Declined status">}}
@@ -93,7 +86,7 @@ For any questions, email the Support Team at <support@multisafepay.com>
 | The refund is complete.  | Completed  | Completed  |
 | The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 
 

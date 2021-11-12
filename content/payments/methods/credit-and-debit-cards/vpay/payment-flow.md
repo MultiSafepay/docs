@@ -19,13 +19,14 @@ sequenceDiagram
     participant Mu as MultiSafepay
     participant V as Visa
     participant Me as Merchant
+    participant CB as Customer's bank
 
     C->>Mu: Selects V Pay at checkout
     Mu->>C: Connects to Visa <br> (embedded/redirect)
     C->>V: Enters payment details, passes Verified by Visa, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes (or declines) transaction
-    V->>Mu: Transfers funds 
+    CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
        
 
@@ -34,7 +35,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Embedded solution** | The customer selects V Pay and enters their payment details at checkout. | [Payment Components](/payment-components/) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details. | [API reference](/api/#/api/#co-branded-credit-cards) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details. | [API reference](/api/#co-branded-credit-cards) |
 
 **Note:** Verified by Visa is Visa's version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/).
 
@@ -44,15 +45,13 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
 | The customer's bank has declined the transaction (see possible reasons below). | Declined | Declined   |
 
 {{< details title="Reasons for Declined status">}}
@@ -82,4 +81,4 @@ For any questions, email the Support Team at <support@multisafepay.com>
 | The refund is complete.  | Completed      | Completed   |
 | The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

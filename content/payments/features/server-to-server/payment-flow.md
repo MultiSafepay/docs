@@ -10,35 +10,66 @@ url: '/features/server-to-server/payment-flow/'
 aliases:
     - /payments/features/server-to-server/payment-flow/
 ---
-The table below shows a successful transaction flow from start to finish.  
 
-{{< details title="Order and transaction statuses" >}}
+This diagram shows the flow for a successful transaction.
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settling the funds in your MultiSafepay balance
+{{< mermaid class="text-center" >}}
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CS as Card scheme
+    participant Me as Merchant
+    participant CB as Customer's bank
 
-{{< /details >}}
+    C->>Mu: Initiates a transaction
+    Mu->>C: Connects to card scheme <br> (redirect only)
+    C->>CS: Enters payment details, verifies identity with 3D Secure, <br> and completes payment
+    Mu->>Me: Runs fraud filter and provides risk report
+    Me->>Mu: Authorizes transaction
+    CB->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer enters their credit card details, verifies their identify via [3D Secure](/faq/payment-regulations/about-3d-secure/) or branded version (if required), and completes the payment. | | |
-| 4. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 5. | You need to manually [authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
-| 6. | The transaction is successful. |  |  |
-| 7. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} **Or** {{< br >}} If you use your American Express MID (MerchantID), Amercian Express settles the funds directly in your business bank account. | Completed | Completed |
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details. | [API reference](/api/#server-to-server-requests) |  
 
-### Unsuccessful statuses
+## Payment statuses
+
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer's bank has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status/). | Declined | Declined   |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
-| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
+| The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
+| The customer's bank has declined the transaction (see possible reasons below). | Declined | Declined   |
+
+{{< details title="Reasons for Declined status">}}
+
+The table below shows possible reasons for **Declined** status. 
+
+Only the customer can contact their credit card issuer to find out the specific reason.
+
+| Reason | Description |
+|----------|---------|
+| Transaction declined by MultiSafepay | Our automated fraud filter declined the transaction. Email the Support Team at <support@multisafepay.com> |
+| Do not honor | The reason is not shared with MultiSafepay. |
+| 3D authorisation cancelled | [3D Secure](/features/3d-secure/about/) verification was incomplete or couldn't be validated. |
+| Expired card | The credit card has expired. |
+| Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
+| Merchant only accepts 3D Secure-verified cards | Email requests to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
+
+For any questions, email the Support Team at <support@multisafepay.com>
+
+{{< /details >}}
 
 ### Refund statuses
 
@@ -46,7 +77,8 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed      | Completed   |
+| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 

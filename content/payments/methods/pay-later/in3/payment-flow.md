@@ -42,7 +42,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions. | [API reference](/api/#in3---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, title, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#in3---redirect) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birth date, title, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#in3---redirect) |
 
 ## Payment statuses
 
@@ -50,17 +50,16 @@ sequenceDiagram
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel the transaction at this point. | Initialized   | Initialized  |
+| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
 | in3 is authorizing the payment or waiting for the customer to pay the first installment. {{< br >}} The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
 | The customer has paid the first installment. {{< br >}} Settlement is now guaranteed. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| Ship the order. {{< br >}} You **must** manually change the order status to **Shipped** (see below).  | Shipped | Uncleared | 
+| **Important:** Manually change the order status to **Shipped** (see below).  | Shipped | Uncleared | 
 | The transaction is complete. | Completed | Completed |
 | in3 has declined the payment. {{< br >}} No order was created. | Declined | Declined |
 | The transaction was cancelled or abandoned. | Void | Void |
+| The transaction expired after 2 hours | Expired | Expired |
 
 {{< details title="Changing order status to Shipped" >}}
 
@@ -98,4 +97,4 @@ See API reference – [Update an order](/api/#update-an-order).
 | in3 has successfully processed a full or partial refund. | Completed    | Completed   |
 | in3 has declined a full or partial refund request.  | Declined      | Declined   |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

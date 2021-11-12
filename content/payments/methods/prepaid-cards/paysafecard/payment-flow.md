@@ -30,12 +30,9 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-{{< details title="Redirect flow">}}
-&nbsp;  
-The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
-
-{{< /details>}}
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. | [API reference](/api/#gift-cards) |  
 
 ## Payment statuses
 
@@ -43,15 +40,13 @@ The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to 
 
 **Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete.| Completed | Completed |
-| The transaction was declined. | Declined   | Declined   |
+| Paysafecard declined the transaction. | Declined   | Declined   |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 3 hours and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 3&nbsp;hours and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -59,3 +54,5 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

@@ -31,8 +31,8 @@ sequenceDiagram
     C->>Me: Selects SEPA Direct Debit <br> at checkout
     Me->>Mu: Sends request and <br> customer information
     Mu->>CB: Conducts background check <br> and sends e-mandate
-    CB->>Mu: Processes transaction (see reason codes) <br> and transfers funds 
-    Note over CB,Mu: -500 EUR= 7 business days <br> +500 EUR= 20 business days
+    CB->>Mu: Processes transaction and transfers funds 
+    Note over CB,Mu: -500 EUR= 7 business days <br> +500 EUR= 20 business days <br> See reason codes for declined transactions below.
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
@@ -43,7 +43,7 @@ sequenceDiagram
 | **Direct flow** | A request with the customer's information is sent straight to MultiSafepay. | [API reference](/api/#sepa-direct-debit---direct) |
 | **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name. {{< br >}} A request with the customer's information is sent to MultiSafepay. {{< br >}} The customer is redirected to your success page. | [API reference](/api/#sepa-direct-debit---redirect) |
 
-{{< details title="About e-mandates">}}
+### E-mandates
 
 MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a:
 
@@ -52,9 +52,22 @@ MultiSafepay creates e-mandates automatically based on the customer's IBAN and y
 
 We send all e-mandates to our bank at the end of every business day.  
 
-{{< /details >}}
+## Payment statuses
 
-{{< details title="Reason codes">}}
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| MultiSafepay's customer background check was successful and the transaction is initiated. | Initialized  | Initialized |
+| MultiSafepay has sent an e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
+| The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
+| The transaction is complete.| Completed | Completed |
+| The transaction was cancelled or the customer information was incorrect. | Cancelled   | Cancelled   |
+| The transaction was declined. {{< br >}} See the reason codes below. | Declined | Declined   |
+
+{{< details title="Reason codes for declined transactions">}}
 
 The table below sets out the reason codes for why SEPA Direct Debit transactions might be unsuccessful and suggested actions to take.
 
@@ -99,23 +112,6 @@ For more information in:
 
 {{< /details >}}
 
-## Payment statuses
-
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
-
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| MultiSafepay's customer background check was successful and the transaction is initiated. | Initialized  | Initialized |
-| MultiSafepay has sent an e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
-| The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
-| The transaction is complete.| Completed | Completed |
-| The transaction was declined. | Declined | Declined   |
-| The transaction has been cancelled or the customer information was incorrect. | Cancelled   | Cancelled   |
-
 ## Refund statuses
 
 | Description | Order status | Transaction status |
@@ -124,6 +120,6 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The refund is complete. | Completed | Completed |
 | The customer has requested a chargeback. | Chargeback  | Completed | 
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 
