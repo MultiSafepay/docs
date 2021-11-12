@@ -3,7 +3,7 @@ title : "Hiding shopping cart details on payment pages"
 weight: 50
 meta_title: "Hiding shopping cart details on payment pages - MultiSafepay Docs"
 read_more: '.'
-url: '/payment-pages/hiding-vat-amounts/'
+url: '/payment-pages/hiding-shopping-cart/'
 ---
 
 By default, payment pages display the shopping cart details, i.e. all items in the customer's order, with the price and VAT for each. 
