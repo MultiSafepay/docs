@@ -26,8 +26,13 @@ sequenceDiagram
 
     C->>Mu: Selects Apple Pay at checkout
     Mu->>C: Connects to Apple Pay (direct/redirect)
-    C->>A: Completes payment on an iOS device with Touch ID or Face ID
-    A->>Mu: Sends the customer's credit card details as an encrypted token
+    C->>A: Authorizes payment on an iOS device with Touch ID or Face ID
+    alt is Direct integration
+    A->>Me: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends the customer's payment details as an encrypted token
+    else is Redirect integration
+    A->>Mu: Sends the customer's payment details as an encrypted token
+    end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction

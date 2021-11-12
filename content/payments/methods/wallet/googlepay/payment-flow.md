@@ -25,7 +25,13 @@ sequenceDiagram
     C->>Mu: Selects Google Pay at checkout
     Mu->>C: Connects to Google Pay (direct/redirect)
     C->>G: Completes payment 
-    G->>Mu: Sends customer's credit card details <br> as an encrypted token
+   
+    alt is Direct integration
+    G->>Me: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends the customer's payment details as an encrypted token
+    else is Redirect integration
+    G->>Mu: Sends the customer's payment details as an encrypted token
+    end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes (or declines) transaction
