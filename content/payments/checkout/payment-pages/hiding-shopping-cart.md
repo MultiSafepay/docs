@@ -1,14 +1,14 @@
 ---
-title : "Hiding VAT amounts"
+title : "Hiding shopping cart details on payment pages"
 weight: 50
-meta_title: "Payment pages - Hiding VAT amounts - MultiSafepay Docs"
+meta_title: "Hiding shopping cart details on payment pages - MultiSafepay Docs"
 read_more: '.'
 url: '/payment-pages/hiding-vat-amounts/'
 ---
 
-By default, payment pages display the VAT amount for each item in the customer's order. You can also hide the VAT amounts and show the total order price only. 
+By default, payment pages display the shopping cart details, i.e. all items in the customer's order, with the price and VAT for each. 
 
-To hide VAT details on payment pages:
+To hide shopping cart details on payment pages:
 
 **1.** Request the Integration Team to enable **Advanced website templates** in your MultiSafepay account. Email <integration@multisafepay.com>
 
