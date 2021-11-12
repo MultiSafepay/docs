@@ -69,7 +69,7 @@ Simply divide the EUR amount by the foreign currency amount (or the other way ar
 
 {{< details title="Interchange++" >}}
 
-For more information about costs related to Interchange++, see [About Interchange++](/payments/methods/credit-and-debit-cards/user-guide/about-interchange/).  
+For more information about costs related to Interchange++, see [About Interchange++](/credit-cards-user-guide/about-interchange/).  
 
 {{< /details >}}
 

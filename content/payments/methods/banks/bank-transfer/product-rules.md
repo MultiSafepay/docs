@@ -18,7 +18,7 @@ aliases:
 | **Countries**  | Europe (SEPA area)  | |
 | **Currencies**  | CZK, EUR, GBP, HUF, PLN | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  |
-| **Payment flow**  | [Direct](/api/#bank-transfer-direct) / [Redirect](/api/#bank-transfer-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#bank-transfer---direct) / [Redirect](/api/#bank-transfer---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 60 days | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
@@ -32,7 +32,7 @@ aliases:
 
 - Refunds are only processed if there are enough funds in your MultiSafepay balance.
 
-- While the transaction status is **Initialized**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
+- While the transaction status is **Reserved**, you can cancel the refund. Once the status changes to **Completed**, the refund has been processed. 
 
 - The customer receives the refund in the bank account they originally paid from within the next business day.
 

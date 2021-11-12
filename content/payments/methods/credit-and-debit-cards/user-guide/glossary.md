@@ -4,9 +4,10 @@ weight: 10
 meta_title: "Credit and debit card glossary - MultiSafepay Docs"
 short_description: "Get familiar with commonly used credit card terms and processes"
 read_more: "."
-url: '/credit-and-debit-cards/glossary/'
+url: '/credit-cards-user-guide/glossary/'
 aliases:
     - /payments/methods/credit-and-debit-cards/user-guide/glossary/
+    - /credit-and-debit-cards/glossary/
 ---
 ### 3D Secure
 An authentication protocol that provides an additional layer of security for online credit and debit card payments to reduce fraud. Also known by brand names such as Mastercard Identity Check, Visa Secure, and American Express SafeKey. May use a 3D Secure code.

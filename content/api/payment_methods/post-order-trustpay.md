@@ -1,5 +1,5 @@
 ---
-weight: 335
+weight: 336
 meta_title: "API reference - Create a TrustPay order - MultiSafepay Docs"
 
 ---
@@ -84,7 +84,7 @@ Value: `TRUSTPAY`.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

@@ -15,3 +15,4 @@ aliases:
     - /payment-methods/banks/request-to-pay
     - /payments/methods/banks/request-to-pay/
 ---
+{{< alert-notice>}}**Note:** Request to Pay is currently not available to new merchants. {{< br >}} It is still supported for existing merchants. {{< /alert-notice>}}
