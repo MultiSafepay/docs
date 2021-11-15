@@ -1,7 +1,7 @@
 ---
-title : "Deprecated version"
+title : "Deprecated payment pages"
 weight: 60
-meta_title: "Payment pages - Deprecated version - MultiSafepay Docs"
+meta_title: "Deprecated payment pages - MultiSafepay Docs"
 
 read_more: '.'
 url: '/payment-pages/deprecated/'
