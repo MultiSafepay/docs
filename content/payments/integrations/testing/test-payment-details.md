@@ -806,17 +806,17 @@ AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay
 **Test an AfterPay order**
 
 1. Send a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
-2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.
-3. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The transaction and order statuses change to **Void**.
 
 **Test AfterPay rejecting an order**  
 
-To test AfterPay rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>
-
+To test AfterPay rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>  
 The transaction and order statuses change to **Declined**.
 
 **Change the order status**  
@@ -849,13 +849,21 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test an E-Invoicing order**
 
-To test an E-Invoicing order, send a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.  
+To test an E-Invoicing order, send a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.
+
+If you send a redirect API request, enter in the:
+  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
+  - **Bank account** field any 10-digit bank account number.
+  - **Email address** field any email address.
+  - **Phone number** field any phone number.
+  Click **Confirm**.
+
 The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
 
 **Test declining an order**  
 
 To decline an order, in your test account under **Order summary**, click **Decline**.  
-The transaction and order statuses change to **Void**.
+The order and transaction statuses change to **Void**.
 
 **Test cancelling an order**
 
@@ -894,8 +902,9 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - **Phone number** field any phone number.  
   Select your title, and then click **Confirm**.
 2. Select the checkbox confirming that you accept in3's payment terms and privacy statement, and then click **Afronden**.
-3. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**. 
-4. On the in3 page, click **Terug naar webshop**.  
+3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**. 
+5. On the in3 page, click **Terug naar webshop**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test in3 declining an order**  
@@ -906,7 +915,7 @@ To test in3 declining an order, send a [direct](/api/#in3---direct) or [redirect
 | ------------------- | ------------------- | ----------------- |
 | 01-01-2000 | 1111AB | 1 |
 
-The transaction and order statuses change to **Declined**.
+The order and transaction statuses change to **Declined**.
 
 **Test shipping an order**  
 To test shipping an order, either:
@@ -924,7 +933,7 @@ To test refunding an order:
 
 1. Create an order. 
 2. Change the order status to `shipped`.
-3. Click **Refund complete order** and then click **Save item changes**.
+3. Click **Refund complete order**, and then click **Save item changes**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
 
 **Test an API refund**
@@ -954,12 +963,13 @@ Test credentials:
 1. Send a [direct](/api/#klarna) API request. 
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
-4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.
-5. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The transaction and order statuses change to **Void**.
 
 **Change the order status**  
 
@@ -998,19 +1008,21 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Pay After Delivery order**
 
-1. To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
-2. If you send a redirect API request, click **Pay After Delivery**.
-3. Enter in the:
-    - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
-    - **Bank account** field any bank account number.
-    - **E-mail address** field any email address.
-    - **Phone number** field any phone number.
-4. Click **Confirm**.
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
+
+If you send a redirect API request, click **Pay After Delivery**.  Enter in the:
+  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
+  - **Bank account** field any 10-digit bank account number.
+  - **E-mail address** field any email address.
+  - **Phone number** field any phone number.  
+Click **Confirm**.
+
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The order and transaction statuses change to **Void**.
 
 **Test cancelling an order**
 
@@ -1019,7 +1031,7 @@ To test cancelling an order:
 1. Create an order.
 2. In your MultiSafepay test account, go to **Order summary**, click **Order status**.
 3. From **Change status to**, select **cancelled**, in the **memo** field enter a reason, and then click **Ok**.  
-  The transaction status changes to **Void** and the order status changes to **Cancelled**.
+  The order status changes to **Cancelled**, and the transaction status changes to **Void**.
 
 ---
 

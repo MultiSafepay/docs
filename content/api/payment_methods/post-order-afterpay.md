@@ -9,51 +9,85 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
 
 ```json
 {
-  "type":"redirect",
-  "gateway":"AFTERPAY",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":26000,
-  "description":"Test order description",
-  "items":"",
-  "manual":"false"
-  ...
-  "shopping_cart":{
-    "items":[
+  "type": "redirect",
+  "gateway": "AFTERPAY",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 10000,
+  "description": "Test Order Description",
+  "manual": "false",
+  "payment_options": {
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Hogehilweg",
+    "house_number": "8",
+    "zip_code": "1101 CC",
+    "city": "Amsterdam",
+    "country": "NL",
+    "email": "example@multisafepay.com"
+  },
+  "delivery": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Hogehilweg",
+    "house_number": "8",
+    "zip_code": "1101 CC",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "gateway_info": {
+    "birthday": "1970-07-10",
+    "gender": "mr",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "shopping_cart": {
+    "items": [
       {
-        "name":"Item demo 1",
-        "description":"",
-        "unit_price":90,
-        "quantity":2,
-        "merchant_item_id":"111111",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":12
-        }
-      },
-      {
-        "name":"Item shipping - Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"msp-shipping",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": "12"
         }
       }
     ]
   },
-  "checkout_options":{
-    "tax_tables":{
-      "alternate":[
+  "checkout_options": {
+    "tax_tables": {
+      "default": {
+        "shipping_taxed": "false",
+        "rate": 0
+      },
+      "alternate": [
         {
-          "name":"none",
-          "rules":[
+          "name": "none",
+          "standalone": false,
+          "rules": [
             {
-              "rate":0.00
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "name": "FEE",
+          "standalone": false,
+          "rules": [
+            {
+              "rate": 0
             }
           ]
         }
@@ -69,7 +103,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
   "success":true,
   "data":{
     "order_id":"my-order-id-1",
-    "payment_url":"https://payv2.multisafepay.com/connect/13sEMtA491h823BLOx5Upa9H9XGEpYeUEg9/?lang=en_US"
+    "payment_url":"https://example.com"
   }
 }
 ```
@@ -77,50 +111,85 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
 
 ```json
 {
-  "type":"direct",
-  "gateway":"AFTERPAY",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":26000,
-  "description":"Test order description",
-  "manual":"false",
-  "gateway_info":{
-    "birthday":"1970-07-10",
-    "gender":"mr",
-    "phone":"0612345678",
-    "email":"example@afterpay.nl"
+  "type": "direct",
+  "gateway": "AFTERPAY",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 10000,
+  "description": "Test Order Description",
+  "manual": "false",
+  "payment_options": {
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
   },
-  "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel",
-    "close_window":""
+  "customer": {
+    "locale": "nl_NL",
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Hogehilweg",
+    "house_number": "8",
+    "zip_code": "1101 CC",
+    "city": "Amsterdam",
+    "country": "NL",
+    "email": "example@multisafepay.com"
   },
-  ...
-  "shopping_cart":{
-    "items":[
+  "delivery": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Hogehilweg",
+    "house_number": "8",
+    "zip_code": "1101 CC",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "gateway_info": {
+    "birthday": "1970-07-10",
+    "gender": "mr",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "shopping_cart": {
+    "items": [
       {
-        "name":"Geometric Candle Holders",
-        "description":"",
-        "unit_price":90,
-        "quantity":2,
-        "merchant_item_id":"111111",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":12
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": "12"
         }
       }
     ]
   },
-  "checkout_options":{
-    "tax_tables":{
-      "alternate":[
+  "checkout_options": {
+    "tax_tables": {
+      "default": {
+        "shipping_taxed": "false",
+        "rate": 0
+      },
+      "alternate": [
         {
-          "name":"none",
-          "rules":[
+          "name": "none",
+          "standalone": false,
+          "rules": [
             {
-              "rate":0.00
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "name": "FEE",
+          "standalone": false,
+          "rules": [
+            {
+              "rate": 0
             }
           ]
         }
@@ -132,53 +201,45 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
 
 > JSON response
 
-```shell
+```json
 {
-  "success":true,
-  "data":{
-    "amount":26000,
-    "amount_refunded":0,
-    "checkout_options":{
-      "alternate":[
+  "success": true,
+  "data": {
+    "amount": 10000,
+    "amount_refunded": 0,
+    "checkout_options": {
+      "alternate": [
         {
-          "name":"none",
-          "rules":[
+          "name": "none",
+          "rules": [
             {
-              "country":"",
-              "rate":0.00
+              "country": "",
+              "rate": 0.00
             }
           ]
         }
       ],
-      "default":{
-        "rate":0.21,
-        "shipping_taxed":true
+      "default": {
+        "rate": 0,
+        "shipping_taxed": false
       }
     },
-    "costs":[
+    "costs": [
       {
-        "transaction_id":2045938,
-        "amount":2600,
-        "description":"",
-        "type":"SYSTEM"
-      },
-      {
-        "amount":2600,
-        "description":"",
-        "transaction_id":2045939,
-        "type":"SYSTEM"
+        "transaction_id": 2045938,
+        "amount": 1000,
+        "description": "",
+        "type": "SYSTEM"
       }
     ],
-    "created":"2019-01-12T13:55:38",
-    "currency":"EUR",
-    "custom_info":{
-      
-    },
+    "created": "2019-01-12T13:55:38",
+    "currency": "EUR",
+    "custom_info": {},
     ...
-    "status":"uncleared",
-    "transaction_id":4022655,
-    "payment_url":" https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
-    "cancel_url":" http://www.example.com/client/notification?type=cancel&transactionid=apitool"
+    "status": "uncleared",
+    "transaction_id": 4022655,
+    "payment_url": "https://example.com",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel&transactionid=my-order-id-1"
   }
 }
 ```
@@ -250,7 +311,7 @@ See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 ----------------
 `checkout_options` | object
 
-The definitions for the VAT class.
+The definitions for the VAT class. See [checkout_options (object)](/api/#checkout-options-object).
 
 ----------------
 `payment_options` | object | required
@@ -327,6 +388,21 @@ HTML formatting is not supported. To add descriptions in HTML format, use the `i
 Value: `false`.
 
 ----------------
+`payment_options` | object | required
+
+See [payment_options (object)](/api/#payment-options-object). 
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`delivery` | object
+
+See [delivery (object)](/api/#delivery-object).
+
+----------------
 `gateway_info` | object  | required
 
 The customer data (`issuer_id`) required for conducting credit checks.
@@ -354,24 +430,9 @@ Required for credit checks and to contact the customer in case of non-payment.
 The email address for sending payment instructions to the customer.
 
 ----------------
-`payment_options` | object | required
-
-See [payment_options (object)](/api/#payment-options-object). 
-
-----------------
 `shopping_cart` | object | required
 
 See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
-
-----------------
-`customer` | object | required
-
-See [customer (object)](/api/#customer-object).
-
-----------------
-`delivery` | object
-
-See [delivery (object)](/api/#delivery-object).
 
 ----------------
 `items` | object
@@ -381,7 +442,7 @@ See [items (object)](/api/#items-object).
 ----------------
 `checkout_options` | object
 
-The definitions for the VAT class.  
+The definitions for the VAT class. See [checkout_options (object)](/api/#checkout-options-object).
 
 **Response**
 

@@ -20,13 +20,21 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test an E-Invoicing order**
 
-To test an E-Invoicing order, send a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.  
+To test an E-Invoicing order, send a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.
+
+If you send a redirect API request, enter in the:
+  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
+  - **Bank account** field any 10-digit bank account number.
+  - **Email address** field any email address.
+  - **Phone number** field any phone number.
+  Click **Confirm**.
+
 The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
 
 **Test declining an order**  
 
 To decline an order, in your test account under **Order summary**, click **Decline**.  
-The transaction and order statuses change to **Void**.
+The order and transaction statuses change to **Void**.
 
 **Test cancelling an order**
 

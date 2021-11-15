@@ -26,12 +26,13 @@ Test credentials:
 1. Send a [direct](/api/#klarna) API request. 
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
-4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.
-5. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The transaction and order statuses change to **Void**.
 
 **Change the order status**  
 
@@ -60,7 +61,6 @@ You can only test the invoice process in your MultiSafepay live account. To do t
 - Receiving successful payment notifications from Klarna
 - Changing transaction statuses from **Uncleared** to **Completed**, except for refunds
 - Sending redirect API requests
-
 
 {{< /details >}}
 

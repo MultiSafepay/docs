@@ -31,8 +31,9 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - **Phone number** field any phone number.  
   Select your title, and then click **Confirm**.
 2. Select the checkbox confirming that you accept in3's payment terms and privacy statement, and then click **Afronden**.
-3. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**. 
-4. On the in3 page, click **Terug naar webshop**.  
+3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**. 
+5. On the in3 page, click **Terug naar webshop**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test in3 declining an order**  
@@ -43,7 +44,7 @@ To test in3 declining an order, send a [direct](/api/#in3---direct) or [redirect
 | ------------------- | ------------------- | ----------------- |
 | 01-01-2000 | 1111AB | 1 |
 
-The transaction and order statuses change to **Declined**.
+The order and transaction statuses change to **Declined**.
 
 **Test shipping an order**  
 To test shipping an order, either:
@@ -61,7 +62,7 @@ To test refunding an order:
 
 1. Create an order. 
 2. Change the order status to `shipped`.
-3. Click **Refund complete order** and then click **Save item changes**.
+3. Click **Refund complete order**, and then click **Save item changes**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
 
 **Test an API refund**

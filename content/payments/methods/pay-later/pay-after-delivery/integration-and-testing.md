@@ -22,19 +22,21 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Pay After Delivery order**
 
-1. To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
-2. If you send a redirect API request, click **Pay After Delivery**.
-3. Enter in the:
-    - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
-    - **Bank account** field any bank account number.
-    - **E-mail address** field any email address.
-    - **Phone number** field any phone number.
-4. Click **Confirm**.
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
+
+If you send a redirect API request, click **Pay After Delivery**.  Enter in the:
+  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
+  - **Bank account** field any 10-digit bank account number.
+  - **E-mail address** field any email address.
+  - **Phone number** field any phone number.  
+Click **Confirm**.
+
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The order and transaction statuses change to **Void**.
 
 **Test cancelling an order**
 
@@ -43,7 +45,7 @@ To test cancelling an order:
 1. Create an order.
 2. In your MultiSafepay test account, go to **Order summary**, click **Order status**.
 3. From **Change status to**, select **cancelled**, in the **memo** field enter a reason, and then click **Ok**.  
-  The transaction status changes to **Void** and the order status changes to **Cancelled**.
+  The order status changes to **Cancelled**, and the transaction status changes to **Void**.
 
 ---
 
