@@ -51,7 +51,7 @@ To test cancelling an order:
 
 1. Send a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -86,5 +86,9 @@ To test refunding an order via the API:
 
 ---
 
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
+**Note:** 
+
+- In the live environment, you can't accept refund orders. These are done automatically.
+- You can't test Trustly declining transactions.
+
 {{< /details >}}

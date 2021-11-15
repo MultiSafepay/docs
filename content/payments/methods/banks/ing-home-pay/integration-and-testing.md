@@ -31,8 +31,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test declining an order:
 
 1. Send a [direct](/api/#ing-homepay---direct) or [redirect](/api/#ing-homepay---redirect) API request.
-2. If you send a redirect API request, select a bank. 
-3. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
   The transaction status changes to **Declined**.
 
 **Test refunding an order**

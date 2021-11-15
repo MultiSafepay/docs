@@ -458,7 +458,7 @@ To test refunding an order via the API:
 
 {{< details title="iDEAL QR" >}}
 
-You can't test iDEAL QR in your test MultiSafepay account. You can only make test payments in your live MultiSafepay account.
+You can't test iDEAL QR in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
 {{< /details >}}
 
@@ -477,8 +477,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test declining an order:
 
 1. Send a [direct](/api/#ing-homepay---direct) or [redirect](/api/#ing-homepay---redirect) API request.
-2. If you send a redirect API request, select a bank. 
-3. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
   The transaction status changes to **Declined**.
 
 **Test refunding an order**
@@ -647,7 +646,7 @@ To test cancelling an order:
 
 1. Send a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -702,7 +701,7 @@ To test cancelling an order:
 
 1. Send a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -737,13 +736,16 @@ To test refunding an order via the API:
 
 ---
 
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
+**Note:** 
+
+- In the live environment, you can't accept refund orders. These are done automatically.
+- You can't test Trustly declining transactions.
 
 {{< /details >}}
 
 {{< details title="TrustPay" >}}
 
-You can't test TrustPay in your test MultiSafepay account. You can only make test payments in your live MultiSafepay account.
+You can't test TrustPay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
 {{< /details >}}
 

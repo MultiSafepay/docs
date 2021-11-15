@@ -101,7 +101,7 @@ To test refunding an order via the API:
 
 {{< /details >}}
 
-You can't test iDEAL QR in your test MultiSafepay account. You can only make test payments in your live MultiSafepay account.
+You can't test iDEAL QR in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
 ## Logos
 
