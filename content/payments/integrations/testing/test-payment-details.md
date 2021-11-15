@@ -552,14 +552,7 @@ To test refunding an order:
 
 {{< details title="Request to Pay" >}}
 
-Testing environment: You can test Request to Pay transactions through Deutsche Bank. In the **Bank** field > **Fill-in Demo Bank**. 
-
-Sample statuses:
-
-| Status    | Testing instructions | Description              |
-| --------- | ----------------------- | ----------------------- |
-| **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
-| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
+You can't test Request to Pay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
 {{< /details >}}
 
