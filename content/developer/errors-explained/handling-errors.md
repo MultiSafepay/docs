@@ -12,9 +12,10 @@ aliases:
 
 This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay account, and possible causes.
 
+
 #### Error 1000: Unknown message type
 
-Payment method is disabled or unavailable.
+The payment method is disabled or unavailable.
 
 To check the payment method settings in your MultiSafepay account, email the Support Team at <support@multisafepay.com>
 
@@ -165,6 +166,8 @@ The transaction may already exist with a third party, e.g. if an iDEAL transacti
 
 #### Error 1023: No gateway available
 
+The transaction may already exist with a third party, e.g. if an iDEAL transaction already exists and another direct iDEAL transaction is initiated, you receive an `Error 1022: Kan geen transactie starten: ERR_EXISTS: transaction error.`
+
 The gateway for the payment method is unavailable. This error can occur with direct requests.
 
 - Check whether the specified payment gateway supports direct requests.
@@ -277,7 +280,7 @@ Check:
 - If the same refund was paid within in a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick. To avoid this error, delay refund requests by at least 1 second.
 
 #### Error 1035: Invalid signature
-&nbsp;  
+
 The MD5 signature supplied with the message doesn’t match the message contents for the transaction.
 
 #### Error 1036: Invalid iDEAL issuer ID
@@ -300,4 +303,3 @@ Email the Integration Team at <integration@multisafepay.com>
 #### Error 9999: Unknown error
 
 An unknown error occurred. Email the Integration Team at <integration@multisafepay.com>
-

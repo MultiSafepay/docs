@@ -1,0 +1,46 @@
+.mermaid, #mermaid-modal {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+.mermaid .messageText, #mermaid-modal .messageText {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+	font-weight: 100 !important;
+	font-size: 1.5rem !important;
+}
+
+.mermaid .actor, #mermaid-modal .actor {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+	font-size: 1.75rem !important;
+	stroke: #3fa9f5 !important;
+	fill: #3fa9f5 !important;
+}
+
+.mermaid text.actor > tspan, #mermaid-modal text.actor > tspan {
+	fill: white !important;
+}
+
+.mermaid .note, #mermaid-modal .note {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+	font-size: 1.75rem !important;
+	fill: #faebbf !important;
+	stroke: #faebbf !important;
+}
+
+.mermaid .noteText, #mermaid-modal .noteText {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+	font-size: 1.5rem !important;
+}
+
+.mermaid .labelText, .mermaid .loopText , #mermaid-modal .labelText, #mermaid-modal .loopText {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+	font-size: 1.5rem !important;
+}
+
+.mermaid .labelBox, #mermaid-modal .labelBox {
+	fill: #f2f7fc !important;
+	stroke: #aebac7 !important;
+}
+
+.mermaid .loopLine, #mermaid-modal .loopLine {
+	stroke: #aebac7 !important;
+}

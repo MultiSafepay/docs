@@ -11,42 +11,52 @@ aliases:
     - /payment-methods/trustly/how-does-trustly-work/
     - /payments/methods/banks/trustly/payment-flow/
 ---
+This diagram shows the flow for a successful transaction.
 
-The table below shows a successful payment flow from start to finish.  
+{{< mermaid class="text-center" >}}
 
-{{< details title="About order and transaction statuses" >}}
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    participant Me as Merchant
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+    C->>Mu: Selects Trustly at checkout
+    Mu->>C: Connects to customer's bank (redirect only)
+    C->>CB: Authenticates account and completes payment
+    CB->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. | [API reference](/api/#trustly) |
 
-{{< /details >}}
+## Payment statuses
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction, and selects their country and their bank. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account and completes the payment. | | |
-| 4. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-## Unsuccessful statuses
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete.| Completed | Completed |
 | Trustly has declined the transaction. | Declined | Declined   |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 2-hour period. | Expired | Expired |
-| In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} The **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
+| The customer didn't complete payment within 2 hours and the transaction expired. | Expired | Expired |
+| In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 
 
