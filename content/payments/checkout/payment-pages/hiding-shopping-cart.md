@@ -6,17 +6,7 @@ read_more: '.'
 url: '/payment-pages/hiding-shopping-cart/'
 ---
 
-For payment methods that include a shopping_cart object in the `POST /orders` request, the cart details are displayed on the payment page by default. That is, all items in the customer's order, with the price and VAT for each. 
-
-{{< details title="Applicable payment methods" >}}
-
-- AfterPay
-- E-Invoicing
-- In3
-- Klarna
-- Pay After Delivery
-
-{{< /details >}}
+If you include a shopping_cart object in your `POST /orders` request, the cart details are displayed on the payment page by default. That is, all items in the customer's order, with the price and VAT for each. 
 
 To hide shopping cart details on payment pages:
 
