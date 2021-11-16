@@ -15,8 +15,8 @@ We support multiple [integration](/getting-started/glossary/#integration) method
 
 For help selecting a method, email the Integration Team at <integration@multisafepay.com>
 
-## Ready-made solutions
-MultiSafepay solutions developed in-house require fewer development resources and let you start testing your integration straight away. 
+## Ready-made integrations
+MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. 
 
 {{< two-buttons href-2="/integrations/ecommerce-integrations" text-2="Ecommerce platforms" description-2="Integrations for platforms like Magento, WooCommerce, Shopify, and Lightspeed." img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
 {{< two-buttons href-2="/payments/integrations/pwa" text-2="PWAs" description-2="Plugins for progressive web applications." img-2="/svgs/PWA.svg" alt-2="Right arrow" >}}
