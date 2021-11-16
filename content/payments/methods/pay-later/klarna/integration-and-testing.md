@@ -11,11 +11,7 @@ aliases:
     - /payments/methods/billing-suite/klarna/integration-and-testing/
 ---
 
-Klarna makes your ecommerce platform available in the MultiSafepay partner portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay account. 
-
 To process Klarna payments via our API, see API reference - [Klarna](/api/#klarna).
-
-For questions about your Klarna integration and the connection with your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
 
 For the Klarna logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

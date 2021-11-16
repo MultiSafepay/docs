@@ -11,19 +11,32 @@ aliases:
     - /payments/methods/billing-suite/klarna/activation/
 ---
 
-Before applying for Klarna, check your eligibility with your account manager at <sales@multisafepay.com> 
+## Test account
+
+1. Sign up with Klarna for a test account, selecting the **Playground** environment. 
+2. Under **Settings**, generate a user name and password.
+3. Email these credentials to your MultiSafepay account manager at <sales@multisafepay.com> 
+4. MultiSafepay connects to Klarna. 
+5. Test payments in your test environment. 
+
+We recommend testing Klarna payments via the Klarna Portal to experience the full functionality. You can also test from your MultiSafepay account with more limited functionality.
+
+## Live account
+
+1. Sign up for a live Klarna account:
+
+    - Via the Klarna website, selecting the **Production** environment, **or**  
+    - Email your Klarna account manager or <verkoop@klarna.com>
+&nbsp;  
+&nbsp;     
+2. Specify MultiSafepay as your PSP and the countries you want to activate Klarna for.
+3. Sign an agreement with Klarna, including pricing.
+4. MultiSafepay activates Klarna in your MultiSafepay account. 
+5. If using a ready-made integration, activate Klarna in your [backend](/getting-started/glossary/#backend).
+
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
- 
-## New Klarna clients
-1. To sign up as a new Klarna client, email Klarna Sales at <verkoop@klarna.com>, and specify MultiSafepay as your payment service provider. You must sign an independent agreement with Klarna, including pricing.
-2. Klarna asks MultiSafepay to activate Klarna as a payment method for your ecommerce platform.
-3. You activate Klarna in the [backend](/getting-started/glossary/#backend) of your ecommerce platform.
-4. Test your integration.
-5. Request an acceptance test for specific URLs to Klarna Sales at <verkoop@klarna.com>
-6. Having completed the acceptance test, in your Klarna Online dashboard, change the status to **Live environment**.
 
-## Existing Klarna clients
+For support, email the Integration Team at <integration@multisafepay.com>
 
-For more information and support for existing clients, email Klarna Verkoop at <verkoop@klarna.com>
 
