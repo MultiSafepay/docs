@@ -71,7 +71,7 @@ To test refunding an order via the API:
 
 1. Create an order. 
 2. Change the order status to `shipped`.
-3. Send a [refund](/api/#refund-an-order) API request.
+3. Send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
 
 ---
