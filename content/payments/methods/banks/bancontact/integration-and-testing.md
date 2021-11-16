@@ -50,7 +50,8 @@ Use the following card numbers to test different transaction statuses.
 1. Send a [redirect](/api/#bancontact-qr) API request.
 2. Open the payment link.
 3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.
 
 **Test refunding an order**
 

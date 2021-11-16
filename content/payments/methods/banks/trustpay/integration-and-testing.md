@@ -15,5 +15,5 @@ To process TrustPay payments via our API, see API reference – [TrustPay](/api/
 
 For the TrustPay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-You can't test TrustPay in your test MultiSafepay account. You can only make test payments in your live MultiSafepay account.
+You can't test TrustPay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 

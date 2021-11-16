@@ -16,17 +16,4 @@ To process Request to Pay payments via our API, see API reference – [Request t
 
 For the Request to Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="View testing process" >}}
-
-You can test Request to Pay transactions through Deutsche Bank: 
-
-In the **Bank** field > **Fill-in Demo Bank**. 
-
-Sample statuses:
-
-| Status    | Testing instructions | Description              |
-| --------- | ----------------------- | ----------------------- |
-| **Completed** | Follow the steps from Deutsche Bank. | The transaction was completed. |
-| **Canceled** | Click the **Close** button at the top right of the screen. | The transaction was cancelled. |
-
-{{< /details >}}
+You can't test Request to Pay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.

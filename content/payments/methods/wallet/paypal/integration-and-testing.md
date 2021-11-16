@@ -15,14 +15,15 @@ To process PayPal payments via our API, see API reference – [PayPal](/api/#pay
 
 For the PayPal logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="Credentials and testing process" >}}
+{{< details title="View credentials and testing process" >}}
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 **Test a PayPal order**
 
 1. Send a [direct](/api/#paypal---direct) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
 ---

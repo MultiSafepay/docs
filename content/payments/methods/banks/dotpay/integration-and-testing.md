@@ -28,7 +28,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - **Phone number** field: Any phone number
 3. Select a bank.  
   You are automatically redirected.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 ---
