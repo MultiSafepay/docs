@@ -44,7 +44,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 1. To test an iDEAL order, send a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
 2. If you send a redirect API request, select a bank.
-3. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -53,7 +54,8 @@ To test cancelling an order:
 
 1. Send a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
 2. If you send a redirect API request, select a bank. 
-3. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+3. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+4. Click **Test**.  
   The transaction status changes to **Void**.
 
 Use the following test scenarios on the Test platform page to test different transaction statuses.

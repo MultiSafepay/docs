@@ -23,7 +23,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test an ING Home'Pay order**
 
 1. To test an ING Home'Pay order, send a [direct](/api/#ing-homepay---direct) or [redirect](/api/#ing-homepay---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test declining an order**
@@ -31,7 +32,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test declining an order:
 
 1. Send a [direct](/api/#ing-homepay---direct) or [redirect](/api/#ing-homepay---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
   The transaction status changes to **Declined**.
 
 **Test refunding an order**

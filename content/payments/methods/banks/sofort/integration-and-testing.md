@@ -24,7 +24,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test a Sofort order**
 
 1. To test a Sofort order, send a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -32,7 +33,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test cancelling an order:
 
 1. Send a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
   The order status changes to **Void**.
 
 **Test refunding an order**

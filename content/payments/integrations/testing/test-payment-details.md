@@ -44,7 +44,8 @@ Use the following card numbers to test different transaction statuses.
 1. Send a [redirect](/api/#bancontact-qr) API request.
 2. Open the payment link.
 3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.
 
 **Test refunding an order**
 
@@ -148,7 +149,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test a Belfius order**
 
 1. To test a Belfius order, send a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test refunding an order**
@@ -188,7 +190,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test a CBC order**
 
 1. To test a CBC order, send a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test refunding an order**
@@ -233,7 +236,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - **Phone number** field: Any phone number
 3. Select a bank.  
   You are automatically redirected.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 ---
@@ -281,7 +285,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 1. To test an EPS order, send a [redirect](/api/#eps) API request.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -291,7 +296,8 @@ To test cancelling an order:
 1. Send a [redirect](/api/#eps) API request.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Cancelled**. 
+5. Click **Test**.  
   The transaction status changes to **Void**.
 
 **Test refunding an order**
@@ -342,7 +348,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 1. To test a Giropay order, send a [redirect](/api/#giropay) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -352,7 +359,8 @@ To test cancelling an order:
 1. Send a [redirect](/api/#eps) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+5. Click **Test**.  
   The transaction status changes to **Void**.
 
 **Test refunding an order**
@@ -399,7 +407,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 1. To test an iDEAL order, send a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
 2. If you send a redirect API request, select a bank.
-3. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -408,7 +417,8 @@ To test cancelling an order:
 
 1. Send a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
 2. If you send a redirect API request, select a bank. 
-3. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+3. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+4. Click **Test**.  
   The transaction status changes to **Void**.
 
 Use the following test scenarios on the Test platform page to test different transaction statuses.
@@ -469,7 +479,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test an ING Home'Pay order**
 
 1. To test an ING Home'Pay order, send a [direct](/api/#ing-homepay---direct) or [redirect](/api/#ing-homepay---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test declining an order**
@@ -477,7 +488,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test declining an order:
 
 1. Send a [direct](/api/#ing-homepay---direct) or [redirect](/api/#ing-homepay---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
   The transaction status changes to **Declined**.
 
 **Test refunding an order**
@@ -517,7 +529,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test a KBC order**
 
 1. To test a KBC order, send a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test refunding an order**
@@ -630,7 +643,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test a Sofort order**
 
 1. To test a Sofort order, send a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -638,7 +652,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test cancelling an order:
 
 1. Send a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
   The order status changes to **Void**.
 
 **Test refunding an order**
@@ -685,7 +700,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Test a Trustly order**
 
 1. To test a Trustly order, send a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -693,7 +709,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 To test cancelling an order:
 
 1. Send a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
   The order status changes to **Void**.
 
 **Test refunding an order**
@@ -1169,7 +1186,8 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 **Test a PayPal order**
 
 1. Send a [direct](/api/#paypal---direct) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
 ---

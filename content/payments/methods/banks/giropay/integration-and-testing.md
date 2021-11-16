@@ -25,7 +25,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 1. To test a Giropay order, send a [redirect](/api/#giropay) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test cancelling an order**
@@ -35,7 +36,8 @@ To test cancelling an order:
 1. Send a [redirect](/api/#eps) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Cancelled**, and then click **Test**.  
+4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+5. Click **Test**.  
   The transaction status changes to **Void**.
 
 **Test refunding an order**
