@@ -1,18 +1,21 @@
 ---
-title : "Which order totals appear on the MultiSafepay payment page?"
-meta_title: "Which order totals appear on the MultiSafepay payment page? - MultiSafepay Docs"
+title : "Order totals on MultiSafepay payment pages"
+meta_title: "Order totals on MultiSafepay payment pages - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
 ---
 
-From version 1.9.0 and higher, all the order totals, including custom ones, are automatically read and shown on the MultiSafepay payment page.
+From version 1.9.0 and higher, all order totals, including custom ones, are automatically read and displayed on MultiSafepay payment pages.
 
-We pick up all the custom totals in the cart. Sometimes this can result in the MultiSafepay payment page showing unwanted custom totals.
+We read **all **custom totals in the cart. Sometimes this results in unwanted custom totals appearing on payment pages.
 
-To prevent this from happening, these custom totals can be excluded in the advanced section of the webshop configuration: _Stores_ > _Configuration_ > _MultiSafepay_ > _General Settings_ > _Advanced Settings_ > _Exclude custom totals_.
+To exclude custom totals from payment pages, follow these steps:  
+ 1. Sign in to your Magento 2 backend.
+ 2. Go to **Stores** > **Configuration** > **MultiSafepay**.
+ 3. Select **General settings** > **Advanced settings** > **Exclude custom totals**.
 
-If you have created a custom total and it is not being picked up by our plugin, please make sure that your custom total implements the following methods:
+If you have included a custom total and it is **not** being read, make sure that it implements the following methods:
 
 - getCode()
 - getTitle() or getLabel()
@@ -20,4 +23,4 @@ If you have created a custom total and it is not being picked up by our plugin, 
 - getTaxRate() or getBaseTaxRate()
 - getTaxAmount() or getBaseTaxAmount()
 
-The base values are needed if you are using the 'use base currency' setting inside the MultiSafepay general settings.
+The base values are required if you have enabled the `use base currency` setting under **MultiSafepay** > **General settings**.
