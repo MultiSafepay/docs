@@ -95,6 +95,6 @@ See API reference – [Update an order](/api/#update-an-order).
 | Description  | Order status      | Transaction status |
 |----|-----|-----|
 | in3 has successfully processed a full or partial refund. | Completed    | Completed   |
-| in3 has declined a full or partial refund request.  | Declined      | Declined   |
+| The refund was declined.  | Declined      | Declined   |
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
