@@ -58,7 +58,7 @@ sequenceDiagram
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund is complete. | Completed | Completed |
-| Deutsche Bank has declined the refund. | Declined | Declined |
+| The refund was declined. | Declined | Declined |
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
