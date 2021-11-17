@@ -32,7 +32,7 @@ sequenceDiagram
     Me->>Mu: Sends request and <br> customer information
     Mu->>CB: Conducts background check <br> and sends e-mandate
     CB->>Mu: Processes transaction and transfers funds 
-    Note over CB,Mu: -500 EUR= 7 business days <br> +500 EUR= 20 business days <br> See reason codes for declined transactions below.
+    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> See reason codes for declined transactions below.
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
