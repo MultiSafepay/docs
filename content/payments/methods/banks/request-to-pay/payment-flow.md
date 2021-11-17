@@ -46,9 +46,9 @@ sequenceDiagram
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is successful and settlement is pending. | Uncleared  | Completed |
+| The customer's bank is processing the transaction and transfering the funds. | Uncleared  | Completed |
 | The transaction is complete. | Completed | Completed |
-| Deutsche Bank has declined the transaction. | Declined | Declined   |
+| The transaction was declined. | Declined | Declined   |
 | The transaction is cancelled. | Void | Void |
 | The customer didn't complete payment within 1 hour and the transaction expired. | Expired | Expired |
 
