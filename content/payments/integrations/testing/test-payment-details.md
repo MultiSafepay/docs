@@ -1063,31 +1063,61 @@ To test refunding an order via the API:
 
 ## Prepaid cards
 
+{{< details title="Edenred" >}}
+
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
+
+**Test an Edenred order**
+
+1. Send a [redirect](/api/#edenred) API request.
+2. On the payment page, click **Add discount**.
+3. From the **Test scenario** list, select the relevant discount, and then click **Test**.
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+
+{{< /details >}}
+
 {{< details title="Gift cards" >}}
 
-**Intersolve gift cards**
+You can test the following gift cards:
 
-You can only test gift cards that use the Intersolve connection. 
+- Beauty Cadeau
+- Boeken Voordeel
+- Huis & Tuin Cadeau
+- Klus Cadeau
+- Nationale Bioscoopbon
+- VVV Cadeaukaart
+- Wijn Cadeaukaart
 
-| Test coupon code     | Balance    |
+**Test a gift card order**
+
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
+
+1. Send a [redirect](/api/#gift-cards) API request.
+2. On the payment page:
+    - In the **Card number** field, enter `111115`.
+    - In the **Security code** field, enter any 4-digit number.
+    - Click **Add discount**.  
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+
+Use the following card numbers to test different gift card balances.
+
+| Card numbers     | Balance    |
 | ------- | --------- |
 | 111115  | € 100  |
 | 111112 | € 5  |
 | 111110 | No balance  |
 
-Any other coupon code receives an "Invalide card number" error.
+Any other card number receives an "Invalid card number" error.
 
 **Other gift cards** 
 
-Once activated in your [backend](/getting-started/glossary/#backend), to check the connection, make a small payment from a gift card. 
-
-**Note:** This is a real payment and the amount is actually deducted from the gift card.
+You can't test other gift cards in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account. You make a small payment and the amount is actually deducted from the gift card.
 
 {{< /details >}}
 
 {{< details title="Paysafecard" >}}
 
-You cannot test Paysafecard.
+You can't test Paysafecard in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
 For any questions, email the Integration Team at <integration@multisafepay.com>
 {{< /details >}}
@@ -1097,14 +1127,16 @@ For any questions, email the Integration Team at <integration@multisafepay.com>
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Postepay order**  
-1. Send a [redirect](/api/#postepay) API request.
+1. Send a [redirect](/api/#postepay) API request with the `locale` set to `it_IT`.
 2. On the payment page:
     - In the **Numero carta** field, enter `4111111111111111`.
     - In the **Titolare carta** field, enter any name.
     - From the **Data di scadenza** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
     - Click **Conferma**.
-3. On the 3D payment page, from the drop-down list, select **Authenticated (Y)**, and then click **Confirm**.  
+3. On the 3D payment page:
+    - From the drop-down list, select **Authenticated (Y)**.
+    - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 Use the following card numbers to test different transaction statuses.
@@ -1113,7 +1145,7 @@ Use the following card numbers to test different transaction statuses.
 | ------------------- | --------- | ------------------------ |
 | 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
 | 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
-| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
 | 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
 | 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
