@@ -49,7 +49,7 @@ sequenceDiagram
 | The transaction is successful and settlement is pending. | Uncleared  | Completed |
 | The transaction is complete. | Completed | Completed |
 | Deutsche Bank has declined the transaction. | Declined | Declined   |
-| The customer cancelled the payment. | Void | Void |
+| The transaction is cancelled. | Void | Void |
 | The customer didn't complete payment within 1 hour and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
