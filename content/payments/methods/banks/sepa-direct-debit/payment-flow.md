@@ -64,7 +64,7 @@ We send all e-mandates to our bank at the end of every business day.
 | MultiSafepay has sent an e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
 | The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
 | The transaction is complete.| Completed | Completed |
-| The transaction was cancelled or the customer information was incorrect. | Cancelled   | Cancelled   |
+| The transaction was cancelled. {{< br >}} The customer's information may have been incorrect. | Cancelled   | Cancelled   |
 | The transaction was declined. {{< br >}} See the reason codes below. | Declined | Declined   |
 
 {{< details title="Reason codes for declined transactions">}}
