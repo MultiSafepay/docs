@@ -58,7 +58,7 @@ sequenceDiagram
 | **Important:** Manually change the order status to **Shipped** (see below).  | Shipped | Uncleared | 
 | The transaction is complete. | Completed | Completed |
 | in3 has declined the payment. {{< br >}} No order was created. | Declined | Declined |
-| The transaction was cancelled or abandoned. | Void | Void |
+| The transaction is cancelled. | Void | Void |
 | The transaction expired after 2 hours | Expired | Expired |
 
 {{< details title="Changing order status to Shipped" >}}
