@@ -29,7 +29,7 @@ See API reference – [Mastercard](/api/#mastercard).
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-Testing Mastercard is similar to Visa. For extensive testing, see [Visa](#details-visa-v-pay). 
+Testing Mastercard is similar to Visa. For extensive testing, see [Visa](/testing/test-payment-details/#details-visa). 
 
 **Test a Mastercard order**  
 

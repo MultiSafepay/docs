@@ -15,11 +15,11 @@ To process Maestro payments via our API, see API reference – [Credit cards](/a
 
 For the Maestro logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="Credentials and testing process" >}}
+{{< details title="View credentials and testing process" >}}
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-Testing Maestro is similar to Visa. For extensive testing, see [Visa](/payments/methods/credit-and-debit-cards/visa/integration-and-testing/). 
+Testing Maestro is similar to Visa. For extensive testing, see [Visa](/testing/test-payment-details/#details-visa). 
 
 **Test a Maestro order**  
 
@@ -30,7 +30,9 @@ Testing Maestro is similar to Visa. For extensive testing, see [Visa](/payments/
     - From the **Expiry date** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
     - Click **Confirm**.
-3. On the 3D payment page, from the drop-down list, select **Authenticated (Y)**, and then click **Confirm**.  
+3. On the 3D payment page:
+    - From the drop-down list, select **Authenticated (Y)**.
+    - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 **Test refunding an order**

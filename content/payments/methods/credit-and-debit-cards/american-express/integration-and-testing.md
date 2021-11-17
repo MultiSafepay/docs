@@ -45,7 +45,7 @@ Use the following card numbers to test different transaction statuses.
 | Card number| Status    | Description              |
 | ---------| --------- | ------------------------ |
 | 374200000000004| **Declined**  | Transaction was declined |
-| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
 
 **Test refunding an order**
 

@@ -913,7 +913,7 @@ Sample statuses:
 ## Credit and debit cards
 
 {{< details title="Cartes Bancaires / Dankort / V Pay" >}}
-The following cards can be tested using the Visa test instructions. For some cards to be visible on the payment page, the `locale` parameter in the redirect API request must be set to a specific locale.
+You can test the following cards using the Visa test instructions. To display these cards on MultiSafepay payment pages, you must set the `locale` parameter in the redirect API request to a specific locale.
 
 | Card             | `locale` |
 |------------------|----------|
@@ -936,7 +936,9 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - From the **Expiry date** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
     - Click **Confirm**.
-3. On the 3D payment page, from the drop-down list, select **Authenticated (Y)**, and then click **Confirm**.  
+3. On the 3D payment page:
+    - From the drop-down list, select **Authenticated (Y)**.
+    - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 Use the following card numbers to test different transaction statuses.
@@ -945,7 +947,7 @@ Use the following card numbers to test different transaction statuses.
 | ------------------- | --------- | ------------------------ |
 | 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
 | 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
-| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
 | 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
 | 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
@@ -973,7 +975,9 @@ Testing Maestro is similar to Visa. For extensive testing, see [Visa](#details-v
     - From the **Expiry date** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
     - Click **Confirm**.
-3. On the 3D payment page, from the drop-down list, select **Authenticated (Y)**, and then click **Confirm**.  
+3. On the 3D payment page:
+    - From the drop-down list, select **Authenticated (Y)**.
+    - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 {{< /details >}}
@@ -982,7 +986,7 @@ Testing Maestro is similar to Visa. For extensive testing, see [Visa](#details-v
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-Testing Mastercard is similar to Visa. For extensive testing, see [Visa](#details-visa-v-pay). 
+Testing Mastercard is similar to Visa. For extensive testing, see [Visa](#details-visa). 
 
 **Test a Mastercard order**  
 
@@ -1017,7 +1021,7 @@ Use the following card numbers to test different transaction statuses.
 | Card number| Status    | Description              |
 | ---------| --------- | ------------------------ |
 | 374200000000004| **Declined**  | Transaction was declined |
-| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
 
 {{< /details >}}
 
