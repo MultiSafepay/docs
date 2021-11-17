@@ -912,79 +912,18 @@ Sample statuses:
 
 ## Credit and debit cards
 
-{{< details title="American Express" >}}
+{{< details title="Cartes Bancaires / Dankort / V Pay" >}}
+You can test the following cards using the Visa test instructions. To display these cards on MultiSafepay payment pages, you must set the `locale` parameter in the redirect API request to a specific locale.
 
-Test card details:
-
-- Card number: See the table below.
-- CVC code: 123
-- Expiry date in the future
-
-Sample statuses:
-
-| Card number| Status    | Description              |
-| ---------| --------- | ------------------------ |
-| 378282246310005| **Completed** | Transaction was completed (not 3D enrolled) |
-| 374200000000004| **Declined**  | Transaction was declined |
-| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| Card             | `locale` |
+|------------------|----------|
+| Cartes Bancaires | `fr_FR`  |
+| Dankort          | `da_DK`  |
+| V Pay            | `it_IT`  |
 
 {{< /details >}}
 
-{{< details title="Cartes Bancaires" >}}
-
-Test credentials: MultiSafepay provides Visa test credentials to test Cartes Bancaires.
-
-Payment page: Cartes Bancaires only appears on the MultiSafepay payment page if:
-
-- The Visa gateway is enabled, and
-- The `locale` parameter is set to `fr_FR` (France) in the transaction API request.
-
-{{< /details >}}
-
-{{< details title="Dankort" >}}
-
-Test credentials: MultiSafepay provides Visa test credentials for Dankort.
-
-Payment page: Dankort only appears on the MultiSafepay payment page if:
-
-- The Visa gateway is enabled, and
-- The `locale` is set to `da_DK` (Denmark) in the transaction request sent to MultiSafepay.
-
-{{< /details >}}
-
-{{< details title="Maestro" >}}
-
-Testing Maestro is similar to Visa. For extensive testing, use Visa. 
-
-Test card number: 6759000000005
-
-Sample statuses:
-
-| Status    | Description              |
-| --------- | ------------------------ |
-| **Completed** | Transaction was completed (3D enrolled)|
-
-{{< /details >}}
-
-{{< details title="Mastercard" >}}
-
-Testing Mastercard is similar to Visa. For extensive testing, use Visa. 
-
-Test card details: 
-
-- Card number: 5500000000000004
-- CVC code: 123
-- Expiry date in the future
-
-Sample statuses:
-
-| Status    | Description              |
-| --------- | ------------------------ |
-| **Completed** | Transaction was completed (3D enrolled)|
-
-{{< /details >}}
-
-{{< details title="Visa/V Pay" >}}
+{{< details title="Visa" >}}
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
@@ -997,7 +936,9 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - From the **Expiry date** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
     - Click **Confirm**.
-3. On the 3D payment page, from the drop-down list, select **Authenticated (Y)**, and then click **Confirm**.  
+3. On the 3D payment page:
+    - From the drop-down list, select **Authenticated (Y)**.
+    - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 Use the following card numbers to test different transaction statuses.
@@ -1006,22 +947,90 @@ Use the following card numbers to test different transaction statuses.
 | ------------------- | --------- | ------------------------ |
 | 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
 | 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
-| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
 | 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
 | 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
 ---
 
-**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+**Note:** 
+- You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+- You can't test cancelling orders. 
 
----
+{{< /details >}}
 
+{{< details title="Maestro" >}}
+
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
+
+Testing Maestro is similar to Visa. For extensive testing, see [Visa](#details-visa). 
+
+**Test a Maestro order**  
+
+1. Send a [redirect](/api/#maestro) API request.
+2. On the payment page:
+    - In the **Card number** field, enter `6759000000005`.
+    - In the **Card holder** field, enter any name.
+    - From the **Expiry date** lists, select any future date.
+    - In the **CVC/CVV** field, enter `123`.
+    - Click **Confirm**.
+3. On the 3D payment page:
+    - From the drop-down list, select **Authenticated (Y)**.
+    - Click **Confirm**.  
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+
+{{< /details >}}
+
+{{< details title="Mastercard" >}}
+
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
+
+Testing Mastercard is similar to Visa. For extensive testing, see [Visa](#details-visa). 
+
+**Test a Mastercard order**  
+
+1. Send a [redirect](/api/#mastercard) API request.
+2. On the payment page:
+    - In the **Card number** field, enter `5500000000000004`.
+    - In the **Card holder** field, enter any name.
+    - From the **Expiry date** lists, select any future date.
+    - In the **CVC/CVV** field, enter `123`.
+    - Click **Confirm**. 
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+
+{{< /details >}}
+
+{{< details title="American Express" >}}
+
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
+
+**Test an American Express order**  
+
+1. Send a [redirect](/api/#american-express) API request.
+2. On the payment page:
+    - In the **Card number** field, enter `378282246310005`.
+    - In the **Card holder** field, enter any name.
+    - From the **Expiry date** lists, select any future date.
+    - In the **CVC/CVV** field, enter `123`.
+    - Click **Confirm**.
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+
+Use the following card numbers to test different transaction statuses.
+
+| Card number| Status    | Description              |
+| ---------| --------- | ------------------------ |
+| 374200000000004| **Declined**  | Transaction was declined |
+| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
+
+{{< /details >}}
+
+{{< details title="Refunding credit and debit card orders" >}}
 **Test refunding an order**
 
-To test refunding an order:
+To refund an order:
 
-1. Create an order using card number `4012001038443335`. 
+1. Create an order. 
 2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
@@ -1029,9 +1038,6 @@ To test refunding an order:
 4. Click **Continue**.
 5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-8. Under **Related transactions**, select the **ID** of the refund order.
-9. Under **Order summary**, click **Accept**.
-10. In the **Add transaction comment** field, add a comment, and then click **Add**.
 6. Under **Related transactions**, select the **ID** of the refund order.
 7. Under **Order summary**, click **Accept**.
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
@@ -1041,19 +1047,17 @@ To test refunding an order:
 
 To test refunding an order via the API:
 
-1. Create an order using card number `4012001038443335`. 
+1. Create an order. 
 2. Send a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
+
 ---
 
-**Note:**
-
-- You can't test cancelling orders. 
-- In the live environment, you can't accept refund orders. These are done automatically.
+**Note:** In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
