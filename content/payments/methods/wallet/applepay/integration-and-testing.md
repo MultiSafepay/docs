@@ -48,7 +48,7 @@ To test Apple Pay transactions, follow these steps:
 
 1. Click the **Apple Pay** button.  
     You can ignore the "This device is not supported" error.
-2. Complete a payment using [test card data](/getting-started/test-your-integration/test-payment-details/#credit-and-debit-cards).
+2. Complete a payment using [test card data](/testing/test-payment-details/#credit-and-debit-cards).
 3. The transaction is completed.
 
 ### Test environment

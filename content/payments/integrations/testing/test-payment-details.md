@@ -1198,8 +1198,6 @@ To test refunding an order via the API:
 
 ## Wallets
 
-
-
 {{< details title="Alipay" >}}
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
@@ -1242,6 +1240,8 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
+---
+
 **Note**:  
 
 - You can't test:
@@ -1253,13 +1253,13 @@ To test refunding an order:
 
 {{< details title="Apple Pay" >}}
 
-To test Apple Pay, see [Compatibility and testing](/payments/methods/wallet/applepay/#compatibility-and-testing) to learn how to test on supported devices.
+To test Apple Pay, see [Testing](/payment-methods/apple-pay/integration-testing/#testing) to learn how to test on supported devices.
 
 {{< /details >}}
 
 {{< details title="Google Pay" >}}
 
-Test
+To test Google Pay, see [Testing](/payment-methods/google-pay/integration-testing/#testing).
 
 {{< /details >}}
 
@@ -1324,7 +1324,51 @@ Alternatively, send a [Refund](/api/#refund-an-order) API request.
 
 {{< details title="WeChat Pay" >}}
 
-Test
+Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
+
+**Test a WeChat Pay order**
+
+1. Send a [direct](/api/#wechat-pay---direct) or [redirect](/api/#wechat-pay---redirect) API request.
+2. Scan the QR code with a general QR reader (**not** the WeChat app - an error occurs).
+3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**.  
+The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Completed**.
+
+**Test refunding an order**
+
+To refund an order:
+
+1. Create an order. 
+2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+3. Under **Refund**, enter in the:
+    - **Reason/Description** field the reason for the refund. 
+    - **Amount** field the amount to refund.
+4. Click **Continue**.
+5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
+6. Under **Related transactions**, select the **ID** of the refund order.
+7. Under **Order summary**, click **Accept**.
+8. In the **Add transaction comment** field, add a comment, and then click **Add**.
+  The order status changes to **Completed**.
+
+**Test an API refund**
+
+To test refunding an order via the API:
+
+1. Create an order. 
+2. Send a [refund](/api/#refund-an-order) API request.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
+3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+4. Under **Order summary**, click **Accept**.
+5. In the **Add transaction comment** field, add a comment, and then click **Add**.
+  The order status changes to **Completed**.
+
+---
+
+**Note**:  
+
+- You can't test cancelling orders.
+- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
