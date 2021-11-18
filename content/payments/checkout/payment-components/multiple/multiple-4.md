@@ -9,6 +9,8 @@ url: '/payment-components/multiple/step-4/'
 --- 
 
 ## Step 4: Go live
+To test the payment methods, use our [Test payment details](/testing/test-payment-details/).
+
 When you're ready to process real payments, make the following changes:
 
 **1.** In Step 1: [Add the elements](/payment-components/multiple/), replace test JavaScript library with the live JavaScript library:
