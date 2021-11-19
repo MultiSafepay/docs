@@ -759,7 +759,7 @@ You can't test TrustPay in your MultiSafepay test account. You can only make tes
 
 {{< /details >}}
 
-## Billing Suite
+## Pay later methods
 
 {{< details title="AfterPay" >}}
 

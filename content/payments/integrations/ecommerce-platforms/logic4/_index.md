@@ -55,11 +55,11 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Pay later methods**
 
-+ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [AfterPay](/payment-methods/afterpay)
 + [Betaal per Maand](/payment-methods/betaal-per-maand)
 + [Klarna](/payment-methods/klarna)
 + [Pay After Delivery](/payment-methods/pay-after-delivery)
-+ [in3](/payments/methods/billing-suite/in3)
++ [in3](/payment-methods/in3)
 
 {{< /details >}}
 

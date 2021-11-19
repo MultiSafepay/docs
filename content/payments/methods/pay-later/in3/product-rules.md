@@ -20,6 +20,7 @@ aliases:
 | **Payment flow**  | [Direct](/api/#in3---direct) / [Redirect](/api/#in3---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 2 hours | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
 

@@ -1,7 +1,6 @@
 ---
 weight: 209
 meta_title: "API reference - Apply dynamic template - MultiSafepay Docs"
-
 ---
 {{< code-block >}}
 > POST - /orders 

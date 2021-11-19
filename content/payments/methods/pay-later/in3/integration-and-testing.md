@@ -1,9 +1,9 @@
 ---
-title: 'Integration and testing in3'
-breadcrumb_title: 'Integration and testing'
+title: 'Integrating and testing in3'
+breadcrumb_title: 'Integrating and testing'
 weight: 40
-meta_title: "Integration and testing in3 - MultiSafepay Docs"
-short_description: "Integration and testing in3 in your ecommerce platform"
+meta_title: "Integrating and testing in3 - MultiSafepay Docs"
+short_description: "Integrating and testing in3"
 layout: 'child'
 logo: '/svgs/in3.svg'
 url: '/payment-methods/in3/integration-testing/'
