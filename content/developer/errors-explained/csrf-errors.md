@@ -1,7 +1,7 @@
 ---
 title: 'CSRF errors'
 weight: 3
-meta_title: "Errors - CSRF errors - MultiSafepay Docs"
+meta_title: "CSRF errors - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/errors-explained/csrf
