@@ -17,7 +17,7 @@ aliases:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL](/payment-methods/ideal)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [in3](/payment-methods/in3)
 - [ING Home'Pay](/payment-methods/ing-home-pay)
 - [CBC/KBC](/payment-methods/cbc-kbc)
 - [Maestro](/payment-methods/maestro)

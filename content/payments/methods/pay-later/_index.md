@@ -1,10 +1,10 @@
 ---
-title: 'Billing Suite'
-breadcrumb_title: "Billing Suite"
+title: 'Pay later methods'
+breadcrumb_title: "Pay later methods"
 layout: 'block'
-meta_title: 'Billing Suite - MultiSafepay Docs'
+meta_title: 'Pay later methods - MultiSafepay Docs'
 logo: '/svgs/Billing Suite.svg'
-short_description: 'Accept payments with pay later methods'
+short_description: 'Enable customers to shop now and pay later'
 weight: 30
 data:
   - { title: 'AfterPay', url: 'afterpay', logo: '/logo/Payment_methods/AfterPay.svg' }

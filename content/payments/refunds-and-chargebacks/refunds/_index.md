@@ -140,7 +140,7 @@ This table lists the refund period for each payment method:
 | [Giropay](/payments/methods/banks/giropay/) | 730 days |
 | [iDEAL](/payments/methods/banks/ideal/) | 730 days |
 | [iDEAL QR](/payments/methods/banks/idealqr/) | 730 days |
-| [in3](/payments/methods/billing-suite/in3/) | 730 days |
+| [in3](/payment-methods/in3/) | 730 days |
 | [ING Home'Pay](/payments/methods/banks/ing-home-pay/) | 730 days |
 | [KBC](/payments/methods/banks/kbc/) | 730 days |
 | [Klarna](/payments/methods/billing-suite/klarna/) | 730 days |

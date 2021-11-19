@@ -1,7 +1,6 @@
 ---
 weight: 208
 meta_title: "API reference - Adjust payment link lifetime - MultiSafepay Docs"
-
 aliases: 
     - /faq/api/lifetime-of-a-payment-link
     - /faq/api/adjusting-payment-link-lifetimes
@@ -43,7 +42,7 @@ The lifetime of [payment links](/payments/checkout/payment-link/) for MultiSafep
 
 - [Bank Transfer](/payments/methods/banks/bank-transfer/): 60 days
 - [PayPal](/payments/methods/wallet/paypal/): 14 days
-- [Post-payment methods](/payments/methods/pay-later/): You cannot adjust payment link lifetimes.
+- [Pay later methods](/payments/methods/pay-later/): You cannot adjust payment link lifetimes.
 
 To cancel a payment link, see [Cancel an order](/api/#cancel-an-order).
 

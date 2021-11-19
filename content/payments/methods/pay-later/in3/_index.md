@@ -1,7 +1,7 @@
 ---
 title: 'in3'
 weight: 50
-meta_title: "Payment methods - in3 - MultiSafepay Docs"
+meta_title: "in3 - MultiSafepay Docs"
 layout: 'single'
 linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/in3'
 childlist: '.'

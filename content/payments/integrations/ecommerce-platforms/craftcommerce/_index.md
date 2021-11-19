@@ -27,10 +27,10 @@ You can also install the plugin via the [Craft Plugin Store](https://plugins.cra
 
 {{< details title="Features" >}}
 &nbsp;  
-- Support for separate payment methods, billing suites, and gift cards
-- Partial and full refunds for non-billing suite payment methods
+- Support for separate payment methods, pay later methods, and gift cards
+- Partial and full refunds for all payment methods, except pay later
 - Customizable order statuses
-- Shipment notifications for billing suite payment methods
+- Shipment notifications for pay later methods
 
 {{< /details >}}
 
@@ -83,7 +83,7 @@ Contact MultiSafepay:
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [E-Invoicing](/payment-methods/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [in3](/payment-methods/billing-suite/in3)
 + [Klarna](/payment-methods/klarna)
 + [Pay After Delivery](/payment-methods/pay-after-delivery)
 

@@ -17,7 +17,7 @@ To configure the generic gateway, follow these steps:
    * Gateway code
    * Gateway logo
    * Gateway label
-   * For billing suites, whether to include the shopping cart in refunds (**required**)
+   * For pay later methods, whether to include the shopping cart in refunds (**required**)
 
 - You can filter the generic gateway by:
   - Country
@@ -26,4 +26,4 @@ To configure the generic gateway, follow these steps:
 
 - You can also set a custom initial order status.
 
-- Full refunds, partial refunds (except for billing suites), and backend orders are fully supported.
+- Full refunds, partial refunds (except for pay later methods), and backend orders are fully supported.

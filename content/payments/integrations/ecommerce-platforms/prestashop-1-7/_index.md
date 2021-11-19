@@ -88,7 +88,7 @@ Contact us:
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/betaal-per-maand)
 + [E-Invoicing](/payment-methods/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [in3](/payment-methods/in3)
 + [Klarna](/payment-methods/klarna)
 + [Pay After Delivery](/payment-methods/pay-after-delivery)
 
