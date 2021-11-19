@@ -148,7 +148,7 @@ Specify a percentage of the amount to split.
 `split_payments.fixed` | integer
 
 Specify the amount to split in cents.  
-**Important:** Never give a 0 value. 
+**Important:** Never set the value to `0`. 
 
 `split_payments.description` | string
 
