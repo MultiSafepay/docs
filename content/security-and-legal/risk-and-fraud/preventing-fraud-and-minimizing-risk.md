@@ -1,6 +1,6 @@
 ---
 title : "Preventing fraud and minimizing risk"
-meta_title: "Risk and fraud - Preventing fraud and minimizing risk - MultiSafepay Docs"
+meta_title: "Preventing fraud and minimizing risk - MultiSafepay Docs"
 weight: 1
 
 read_more: "."
