@@ -1,6 +1,6 @@
 ---
 title: 'MultiSafepay IP ranges'
-meta_title: "Errors - MultiSafepay IP ranges - MultiSafepay Docs"
+meta_title: "MultiSafepay IP ranges - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/general/multisafepay-ip-ranges/
