@@ -13,7 +13,7 @@ Split by percentage only
   "order_id":"my-order-id-1",
   "currency":"EUR",
   "amount":1000,
-  "description":"Split Payment Order",
+  "description":"Split Payment Order - 11.2% flows to merchant ID 1001001",
   "affiliate":{
     "split_payments":[
       {
@@ -33,7 +33,7 @@ Split by fixed amount only
   "order_id":"my-order-id-1",
   "currency":"EUR",
   "amount":1000,
-  "description":"Split Payment Order",
+  "description":"Split Payment Order - €1.12 flows to merchant ID 1001001",
   "affiliate":{
     "split_payments":[
       {
@@ -130,7 +130,9 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-`split_payments` | object | required
+`split_payments` | array of objects | required
+
+For every split payment rule, add an object to the array.
 
 Contains:  
 
