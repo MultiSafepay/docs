@@ -1,7 +1,7 @@
 ---
 title: "Locale parameter"
 weight: 4
-meta_title: "API - Locale parameter - MultiSafepay Docs"
+meta_title: "Locale parameter - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/api/locale
