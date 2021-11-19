@@ -1,7 +1,7 @@
 ---
 title: "Generic gateways"
 weight: 13
-meta_title: "General developer information - Generic gateways - MultiSafepay Docs"
+meta_title: "Generic gateways - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/general/generic-gateways/
