@@ -1,7 +1,7 @@
 ---
 title: 'Monitoring transactions'
 weight: 2
-meta_title: "Risk and fraud - Monitoring transactions - MultiSafepay Docs"
+meta_title: "Monitoring transactions - MultiSafepay Docs"
 
 read_more: "."
 url: '/risk-fraud/transaction-monitoring/'
