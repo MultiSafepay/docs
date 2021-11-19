@@ -15,7 +15,8 @@ aliases:
     - /tools/split-payments/how-do-i-refund-split-payment-orders
     - /payments/features/split-payments/
 ---
-Split payments lets you divide a transaction amount between [partner](/account/account-types/) or [affiliate](/account/account-types/) accounts, e.g. as a fee for using your platform.
+Split payments lets you divide an incoming transaction amount between two or more [partner](/account/account-types/) or [affiliate](/account/account-types/) accounts, e.g. as a fee for using your platform.
+
 
 You can split payments by percentage, a fixed amount, or by both. 
 
