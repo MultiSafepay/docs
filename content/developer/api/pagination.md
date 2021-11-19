@@ -1,7 +1,7 @@
 ---
-title: "Pagination"
+title: "API request pagination"
 weight: 7
-meta_title: "API - Pagination - MultiSafepay Docs"
+meta_title: "API request pagination - MultiSafepay Docs"
 read_more: "."
 ---
 
