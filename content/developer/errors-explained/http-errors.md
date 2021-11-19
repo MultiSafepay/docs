@@ -1,7 +1,7 @@
 ---
 title: 'HTTP errors'
 weight: 5
-meta_title: "Errors - HTTP errors - MultiSafepay Docs"
+meta_title: "HTTP errors - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/errors-explained/http-errors
