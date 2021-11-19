@@ -1,7 +1,7 @@
 ---
 title : "Adding SPF DNS records for MultiSafepay emails"
 weight: 9
-meta_title: "General developer information - Adding SPF DNS records - MultiSafepay Docs"
+meta_title: "Adding SPF DNS records - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/general/add-spf-dns-records
