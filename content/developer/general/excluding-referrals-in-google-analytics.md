@@ -1,7 +1,7 @@
 ---
 title : "Excluding referrals in Google Analytics"
 weight: 7
-meta_title: "General developer information - Excluding referrals in Google Analytics - MultiSafepay Docs"
+meta_title: "Excluding referrals in Google Analytics - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/general/google-analytics-referral-exclusions
