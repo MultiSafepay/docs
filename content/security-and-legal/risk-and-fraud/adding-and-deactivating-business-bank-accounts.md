@@ -1,6 +1,6 @@
 ---
 title : "Adding and deactivating business bank accounts"
-meta_title: "Risk and fraud - Adding and deactivating business bank accounts - MultiSafepay Docs"
+meta_title: "Adding and deactivating business bank accounts - MultiSafepay Docs"
 weight: 4
 
 read_more: "."
