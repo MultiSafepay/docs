@@ -1,7 +1,7 @@
 ---
 title: "Deprecated XML API"
 weight: 8
-meta_title: "API - Deprecated XML API - MultiSafepay Docs"
+meta_title: "Deprecated XML API - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /developer/api/xml-api/
