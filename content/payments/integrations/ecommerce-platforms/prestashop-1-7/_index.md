@@ -47,7 +47,7 @@ Contact us:
 - PrestaShop 1.7.6 or higher
 - Tested on PHP 7.2
 
-For PrestaShop 1.7.5 or lower, please consider updating PrestaShop or use an older version (4.x) of our plugin which can be found on our [GitHub page](https://github.com/MultiSafepay/prestashop/releases). 
+If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
 
 {{< /details >}}
 
