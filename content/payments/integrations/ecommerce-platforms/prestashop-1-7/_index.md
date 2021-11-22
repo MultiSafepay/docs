@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for PrestaShop 1.7"
 github_url : "https://github.com/MultiSafepay/PrestaShop"
 meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
-download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/5.0.0-RC1/Plugin_PrestaShop_5.0.0-RC1.zip"
+download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.0.0/Plugin_PrestaShop_5.0.0.zip"
 changelog_url : "."
 faq: "."
 logo: "/logo/Plugins/PrestaShop.svg"
@@ -23,13 +23,6 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/
     - /ecommerce-platforms/prestashop-1-7/
 ---
-{{< alert-notice >}} **Important:** This page contains information about the new MultiSafepay PrestaShop 1.7 plugin, which is currently a release candidate. For the latest stable version, please visit us at [Github](https://github.com/MultiSafepay/prestashop). {{< /alert-notice>}}
-{{< alert-notice >}} **Important:** If you are updating from a 4.x version of our plugin, please don't uninstall the previous plugin until you are sure all orders created through a payment method from that plugin are fully processed. {{< /alert-notice>}}
-
-{{< alert-notice >}}
-**Important:** There is a new release candidate for our PrestaShop 1.7 plugin for version 1.7.6 or higher available to [download now](/payments/integrations/ecommerce-platforms/prestashop-1-7/releases/Plugin_PrestaShop_5.0.0-RC2.zip). 
-{{< /alert-notice>}}
-
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
 
 {{< details title="Test environment" >}}
@@ -127,6 +120,21 @@ Contact us:
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
+
+{{< /details >}}
+
+{{< details title="Upgrading to 5.x from an older version" >}}
+
+When updating from an older version of our plugin to the 5.x version, please make sure to keep the older version of the plugin installed until you are sure that all order created with that plugin have been fully processed.
+
+## Switching to the new plugin
+1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**
+2. Open the **Payment Methods** tab
+3. Set all Payment Methods to off
+4. Open the **Giftcards** tab
+5. Set all Giftcards to off
+6. Install and configure the new plugin following the instructions below
+7. Don't uninstall the older plugin until you are sure all orders created with that plugin have been fully processed 
 
 {{< /details >}}
 
