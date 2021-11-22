@@ -35,7 +35,7 @@ To configure your PayPal account, follow these steps:
 
 To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**. Follow these steps:
 
-1. Click PayPal – [Account settings](https://www.paypal.com/businessmanage/account/website).
+1. Click PayPal – [Profile language encoding](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding).
 2. Next to **Language coding for PayPal buttons**, click **Edit**.
 3. From the dropdown menu, select **Western European languages (including English)**.
 4. Click **More options**.
