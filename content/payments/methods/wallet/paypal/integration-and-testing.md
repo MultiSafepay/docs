@@ -36,15 +36,13 @@ The payment is processed in your MultiSafepay test account as **Successful**, wi
 
 You can change the order status to:
 
-| Status    | Description              |
-| --------- | ------------------------ |
-| **Completed** | Order was completed |
-| **Declined** | Order was declined |
-| **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted |
-| **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
-| **Cancelled** | Order was cancelled |
+| Status    | Description              | Test scenario     |
+| --------- | ------------------------ | ----------------- |
+| **Completed** | Order was completed | Completed  |
+| **Void** | Order was cancelled | Cancelled  |
+| **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted after 2 minutes | Initialized completed |
 
-To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant order status.
+To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant test scenario.
 
 **Test refunding an order**
 
