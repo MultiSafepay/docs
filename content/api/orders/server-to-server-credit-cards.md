@@ -196,7 +196,8 @@ The name of the cardholder on the credit card.
 
 `card_expiry_date` | string
 
-The expiry date on the credit card.
+The expiry date on the credit card.  
+Format: YYMM
 
 `card_cvc` | string
 
