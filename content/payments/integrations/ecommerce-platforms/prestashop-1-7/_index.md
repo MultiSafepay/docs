@@ -133,7 +133,7 @@ When updating from an older version of our plugin to the 5.x version, please mak
 
 1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**
 2. Open the **Payment Methods** tab
-3. Set all Payment Methods to off
+3. Set all Payment Methods to **off**.
 4. Open the **Giftcards** tab
 5. Set all Giftcards to off
 6. Install and configure the new plugin following the instructions below
