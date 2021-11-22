@@ -131,7 +131,7 @@ When you update from an older version of the plugin to 5.x, keep the older versi
 
 ## Switching to the new plugin
 
-1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**
+1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**.
 2. Open the **Payment Methods** tab
 3. Set all Payment Methods to **off**.
 4. Open the **Giftcards** tab.
