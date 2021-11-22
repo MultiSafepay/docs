@@ -127,7 +127,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 {{< details title="Upgrading to version 5.x from an older version" >}}
 
-When updating from an older version of our plugin to the 5.x version, please make sure to keep the older version of the plugin installed until you are sure that all order created with that plugin have been fully processed.
+When you update from an older version of the plugin to 5.x, keep the older version installed until you are sure that orders created with the new plugin are successfully processed.
 
 ## Switching to the new plugin
 
