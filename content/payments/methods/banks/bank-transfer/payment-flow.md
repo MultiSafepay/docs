@@ -23,31 +23,40 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Bank Transfer at checkout
-    Mu->>C: Emails MultiSafepay's bank account details
-    Note over Mu,C: Or email the details yourself
+    Mu->>C: Provides the payment details (direct/redirect)
     C->>Mu: Transfers funds (online or with teller)
     Note over C,Mu: Takes 1–3 business days 
-    Mu->>Me: Matches transaction and settles funds
+    Mu->>Me: Matches payment and settles funds
     
 {{< /mermaid >}}
 &nbsp;  
 
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer is redirected straight to your success page and receives our bank details by email. | [API reference](/api/#bank-transfer---direct) |
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), where they confirm their bank account number and (optionally) bank country. {{< br >}} MultiSafepay's bank account details are then displayed. | [API reference](/api/#bank-transfer---redirect) |
+| **Direct flow** | 1. The customer is redirected to your success page. {{< br >}} 2. MultiSafepay emails them the payment details to transfer the funds. {{< br >}} **Or** you can email them the payment details yourself, e.g. for consistent, branded communications. {{< br >}} To prevent us from emailing the customer, in your `POST /orders` request, set the `disable_send_email` parameter to `true`. | [API reference](/api/#bank-transfer---direct) |
+| **Redirect flow** | 1. The customer is redirected first to a [MultiSafepay payment page](/payment-pages/). {{< br >}} 2. They confirm their bank account number (helps us match payments correctly) and (optionally) bank country. {{< br >}} 3. The customer clicks **Confirm**. {{< br >}}**Note:** Required to successfully create the transaction in our system. {{< br >}} 4. The payment details are displayed for the customer to transfer the funds. | [API reference](/api/#bank-transfer---redirect) |
 
-**Note:** If the customer provides incorrect payment details and/or pays the wrong amount and we can't match the payment correctly, we refund it to the customer. 
+### Example payment details
 
-{{< details title="Emailing bank details yourself" >}}
+You can view the payment details for a transaction in your MultiSafepay account, in the relevant **Transaction details** page under **Offline actions**.
 
-MultiSafepay automatically emails our bank account details to the customer. Alternatively, you can email them yourself, e.g. for consistent, branded communications.
+{{< screen src="/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius" >}}
 
-To prevent MultiSafepay from emailing the customer, in your `POST /orders` request, set the `disable_send_email` parameter to `true`. 
+## Customers transfering funds
 
-For more information, see API reference – [Bank Transfer: Direct](/api/#request-to-pay).
+When transfering the funds, the customer must correctly input:  
 
-{{< /details >}}
+- The amount
+- The payment reference number (16 digits, numbers only, no words)
+- Their bank account number (optional, but recommended to help us match payments correctly)
+
+## Matching payments
+
+We match incoming payments to the correct outstanding transactions in our system.
+
+If the payment details or amount are missing or incorrect and we can't match the payment, we refund it to the customer. 
+
+To help avoid this, see [Unmatched payments](/bank-transfer/unmatched-payments/).
 
 ## Payment statuses
 
