@@ -40,8 +40,8 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
     "state": "",
     "country": "NL",
     "email": "example@multisafepay.com",
-    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
-    "referrer":"https://example.com"
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
+    "referrer": "https://example.com"
   },
   "shopping_cart": {
     "items": [
@@ -93,10 +93,10 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
 
 ```json
 {
-  "success":true,
-  "data":{
-    "order_id":"my-order-id-1",
-    "payment_url":"https://example.com"
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://example.com"
   }
 }
 ```
@@ -137,8 +137,8 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
     "state": "",
     "country": "NL",
     "email": "example@multisafepay.com",
-    "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
-    "referrer":"https://example.com"
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
+    "referrer": "https://example.com"
   },
   "delivery": {
     "first_name": "John",

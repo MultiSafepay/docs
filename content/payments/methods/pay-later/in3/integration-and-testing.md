@@ -26,11 +26,12 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 | ------------------- | ------------------- | ----------------- |
 | 01-01-1999 | 1234AB | 1 |
 
-- If you send a redirect API request, enter in the:
+    If you send a redirect API request:
+- Enter in the:
     - **Birthdate** field `01-01-1999`.
     - **Phone number** field any phone number.  
-  Select your title, and then click **Confirm**.
-2. Select the checkbox confirming that you accept in3's payment terms and privacy statement, and then click **Afronden**.
+- Select your title, and then click **Confirm**.
+2. Select the checkbox to accept in3's payment terms and privacy statement, and then click **Afronden**.
 3. On the Test platform page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**. 
 5. On the in3 page, click **Terug naar webshop**.  
@@ -54,7 +55,7 @@ To test shipping an order, either:
 
 **Receive an invoice**  
 
-You can only test the invoice process in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
 **Test refunding an order**
 
@@ -76,6 +77,5 @@ To test refunding an order via the API:
 
 ---
 
-**Note:** 
-You can't test cancelling orders.
+**Note:** You can't test cancelling orders.
 {{< /details >}}

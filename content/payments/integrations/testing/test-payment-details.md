@@ -832,7 +832,7 @@ To change the order status, either:
 **Note:** You can't test:  
 
 - Receiving successful payment notifications from AfterPay
-- Changing transaction statuses from **Uncleared** to **Completed**
+- Changing the transaction status from **Uncleared** to **Completed**
 - Processing refunds
 
 {{< /details >}}
@@ -851,12 +851,13 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test an E-Invoicing order, send a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.
 
-If you send a redirect API request, enter in the:
+If you send a redirect API request:
+- Enter in the:
   - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
   - **Bank account** field any 10-digit bank account number.
   - **Email address** field any email address.
   - **Phone number** field any phone number.
-  Click **Confirm**.
+- Click **Confirm**.
 
 The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
 
@@ -872,8 +873,10 @@ To test cancelling an order:
 1. Send a [direct](/api/#e-invoicing---direct) API request.
 2. Either:
     - Send an [update an order](/api/#update-an-order) API request with status `"cancelled"`, or 
-    - In your MultiSafepay test account, go to **Order summary**, click **Order status**.
-    - From **Change status to**, select **cancelled**, in the **memo** field enter a reason, and then click **Ok**.  
+    - In your MultiSafepay test account, go to **Order summary** > **Order status**.
+    - From **Change status to**, select **Cancelled**.
+    - In the **memo** field enter a reason.
+    - Click **Ok**.  
   The transaction status changes to **Void** and the order status changes to **Cancelled**.
 
 **Test shipping an order**  
@@ -897,11 +900,12 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 | ------------------- | ------------------- | ----------------- |
 | 01-01-1999 | 1234AB | 1 |
 
-- If you send a redirect API request, enter in the:
+    If you send a redirect API request:
+- Enter in the:
     - **Birthdate** field `01-01-1999`.
     - **Phone number** field any phone number.  
-  Select your title, and then click **Confirm**.
-2. Select the checkbox confirming that you accept in3's payment terms and privacy statement, and then click **Afronden**.
+- Select your title, and then click **Confirm**.
+2. Select the checkbox to accept in3's payment terms and privacy statement, and then click **Afronden**.
 3. On the Test platform page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**. 
 5. On the in3 page, click **Terug naar webshop**.  
@@ -925,7 +929,7 @@ To test shipping an order, either:
 
 **Receive an invoice**  
 
-You can only test the invoice process in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
 **Test refunding an order**
 
@@ -947,8 +951,7 @@ To test refunding an order via the API:
 
 ---
 
-**Note:** 
-You can't test cancelling orders.
+**Note:** You can't test cancelling orders.
 
 {{< /details >}}
 
@@ -989,14 +992,14 @@ To refund an order:
 
 **Receive an invoice**  
 
-You can only test the invoice process in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
 ---
 
 **Note:** You can't test:
 
 - Receiving successful payment notifications from Klarna
-- Changing transaction statuses from **Uncleared** to **Completed**, except for refunds
+- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
 - Sending redirect API requests
 
 For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
@@ -1010,12 +1013,13 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
 
-If you send a redirect API request, click **Pay After Delivery**.  Enter in the:
+If you send a redirect API request, click **Pay After Delivery**.  
+- Enter in the:
   - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
   - **Bank account** field any 10-digit bank account number.
   - **E-mail address** field any email address.
   - **Phone number** field any phone number.  
-Click **Confirm**.
+- Click **Confirm**.
 
 The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
@@ -1030,7 +1034,9 @@ To test cancelling an order:
 
 1. Create an order.
 2. In your MultiSafepay test account, go to **Order summary**, click **Order status**.
-3. From **Change status to**, select **cancelled**, in the **memo** field enter a reason, and then click **Ok**.  
+3. From **Change status to**, select **Cancelled**. 
+4. In the **memo** field enter a reason.
+5. Click **Ok**.  
   The order status changes to **Cancelled**, and the transaction status changes to **Void**.
 
 ---
@@ -1038,7 +1044,7 @@ To test cancelling an order:
 **Note:** 
 You can't test:  
   - Processing refunds
-  - Changing the statuses of orders to shipped
+  - Changing the order status to shipped
 
 {{< /details >}}
 

@@ -100,10 +100,10 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 
 ```json
 {
-  "success":true,
-  "data":{
-    "order_id":"my-order-id-1",
-    "payment_url":"https://example.com"
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://example.com"
   }
 }
 ```

@@ -24,12 +24,13 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
 
-If you send a redirect API request, click **Pay After Delivery**.  Enter in the:
+If you send a redirect API request, click **Pay After Delivery**.  
+- Enter in the:
   - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
   - **Bank account** field any 10-digit bank account number.
   - **E-mail address** field any email address.
   - **Phone number** field any phone number.  
-Click **Confirm**.
+- Click **Confirm**.
 
 The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
@@ -44,7 +45,9 @@ To test cancelling an order:
 
 1. Create an order.
 2. In your MultiSafepay test account, go to **Order summary**, click **Order status**.
-3. From **Change status to**, select **cancelled**, in the **memo** field enter a reason, and then click **Ok**.  
+3. From **Change status to**, select **Cancelled**.
+4. In the **memo** field enter a reason.
+5. Click **Ok**.  
   The order status changes to **Cancelled**, and the transaction status changes to **Void**.
 
 ---
@@ -52,6 +55,6 @@ To test cancelling an order:
 **Note:** 
 You can't test:  
   - Processing refunds
-  - Changing the statuses of orders to shipped
+  - Changing the order status to shipped
 
 {{< /details >}}

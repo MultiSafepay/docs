@@ -112,10 +112,10 @@ meta_title: "API reference - Create a Pay After Delivery order - MultiSafepay Do
 
 ```json
 {
-  "success":true,
-  "data":{
-    "order_id":"my-order-id-1",
-    "payment_url":"https://example.com"
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://example.com"
   }
 }
 ```

@@ -124,7 +124,7 @@ Contains:
 ----------------
 `alternate.name` | string
 
-Client-defined ID. Used to apply tax settings to items in the [shopping cart](/api/#shopping-cart-items-object) through their `tax_table_selector` attribute.
+The client-defined ID. Used to apply tax settings to items in the [shopping cart](/api/#shopping-cart-items-object) through the `tax_table_selector` attribute.
 
 ----------------
 `alternate.standalone` | boolean
