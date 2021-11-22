@@ -39,22 +39,12 @@ The payment is processed in the test environment as **Successful**, with order s
 To decline an order, in your test account under **Order summary**, click **Decline**.  
 The order and transaction statuses change to **Void**.
 
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Create an order.
-2. In your MultiSafepay test account, go to **Order summary**, click **Order status**.
-3. From **Change status to**, select **Cancelled**.
-4. In the **memo** field enter a reason.
-5. Click **Ok**.  
-  The order status changes to **Cancelled**, and the transaction status changes to **Void**.
-
 ---
 
 **Note:** 
 You can't test:  
   - Processing refunds
   - Changing the order status to shipped
+  - Cancelling orders
 
 {{< /details >}}

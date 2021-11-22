@@ -37,25 +37,15 @@ The payment is processed in the test environment as **Successful**, with order a
 To decline an order, in your test account under **Order summary**, click **Decline**.  
 The order and transaction statuses change to **Void**.
 
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Send a [direct](/api/#e-invoicing---direct) API request.
-2. Either:
-    - Send an [update an order](/api/#update-an-order) API request with status `"cancelled"`, or 
-    - In your MultiSafepay test account, go to **Order summary** > **Order status**.
-    - From **Change status to**, select **Cancelled**
-    - In the **memo** field enter a reason
-    - Click **Ok**.  
-  The transaction status changes to **Void** and the order status changes to **Cancelled**.
-
 **Test shipping an order**  
 
 To test shipping an order, send an [update an order](/api/#update-an-order) API request with status `"shipped"`. You receive the `invoice_url` in the API response.
 
 ---
 
-**Note:** You can't test processing refunds.
+**Note:** 
+You can't test:
+- Processing refunds
+- Cancelling orders
 
 {{< /details >}}
