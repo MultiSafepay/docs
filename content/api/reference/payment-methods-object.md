@@ -81,7 +81,8 @@ The payment gateway.
 ----------------
 `card_expiry_date` | string 
 
-The expiry date of the credit card.    
+The expiry date of the credit card.   
+Format: YYMM   
 
 ----------------
 `last4` | string 
