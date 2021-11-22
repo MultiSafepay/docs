@@ -6,4 +6,4 @@ read_more: "."
 url: '/prestashop/older-versions/'
 ---
 
-To use an older version of the plugin, please visit our [github page](https://github.com/MultiSafepay/prestashop/releases).
+To use an older version of the plugin, please visit our [GitHub page](https://github.com/MultiSafepay/prestashop/releases).
