@@ -124,13 +124,16 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
 + [Alipay](/payment-methods/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
++ [Google Pay](/payment-methods/google-pay)
 + [PayPal](/payment-methods/paypal)
++ [WeChat Pay](/payment-methods/wechat-pay)
 
 **Prepaid cards**
 
 + Baby gift card
 + Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Edenred](/payment-methods/edenred)
 + [Fashioncheque](https://www.fashioncheque.com/nl/)
 + [Fashion gift card](https://www.fashion-giftcard.nl/)
 + Fietsenbon
