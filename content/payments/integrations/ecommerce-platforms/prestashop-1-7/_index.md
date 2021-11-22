@@ -130,6 +130,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 When updating from an older version of our plugin to the 5.x version, please make sure to keep the older version of the plugin installed until you are sure that all order created with that plugin have been fully processed.
 
 ## Switching to the new plugin
+
 1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**
 2. Open the **Payment Methods** tab
 3. Set all Payment Methods to off
