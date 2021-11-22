@@ -21,7 +21,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/ecwid/faq/processing-refunds/
 ---
 
-Ecwid has developed an XML integration with MultiSafepay, which redirects customers to a [MultiSafepay payment page](/payment-pages/).
+Ecwid has developed an integration with MultiSafepay, which redirects customers to a [MultiSafepay payment page](/payment-pages/).
 
 ### Requirements
 
