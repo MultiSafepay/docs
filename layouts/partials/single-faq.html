@@ -6,6 +6,7 @@
               <div id="accordion" class="row pt-4">
                   {{range .Sections}}
                   {{ range .Pages}}
+                  {{ if not (in .Params.tags "hidden") }}
                   <div class="col-lg-6 pb-4">
                       <div class="block-faq py-3 px-4">
                           <div id="heading-{{ .Title | anchorize}}">
@@ -47,7 +48,8 @@
                       </div>
                   </div>
                 {{ end }}
-                {{end}}
+                {{ end }}
+                {{ end }}
               </div>
           </div>
       </div>
