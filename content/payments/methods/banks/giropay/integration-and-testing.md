@@ -38,7 +38,7 @@ To test cancelling an order:
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 5. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
