@@ -56,7 +56,7 @@ To test cancelling an order:
 2. If you send a redirect API request, select a bank. 
 3. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 4. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 Use the following test scenarios on the Test platform page to test different transaction statuses.
 

@@ -38,11 +38,11 @@ Use the following IBANs to test different transaction statuses.
 
 **Test cancelling an order**
 
-To test cancelling an order, either:
+To test cancelling an order:
 
-- Send an [update an order](/api/#update-an-order) API request with status **Cancelled**, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
-The transaction status changes to **Void**.
+1. Create an order.
+2. In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -72,6 +72,5 @@ To test refunding an order:
   - Refunding via the API
   - Sending direct API requests with an IBAN to test different transaction statuses
 - In the live environment, you can't accept refund orders. These are done automatically.
-
 
 {{< /details >}}

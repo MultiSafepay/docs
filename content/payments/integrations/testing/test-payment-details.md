@@ -106,11 +106,11 @@ Use the following IBANs to test different transaction statuses.
 
 **Test cancelling an order**
 
-To test cancelling an order, either:
+To test cancelling an order:
 
-- Send an [update an order](/api/#update-an-order) API request with status **Cancelled**, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
-The transaction status changes to **Void**.
+1. Create an order.
+2. In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -282,7 +282,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test an EPS order**
 
-1. To test an EPS order, send a [redirect](/api/#eps) API request.
+1. To test an EPS order, send a [redirect](/api/#eps) API request with the `locale` set to `at_AT`.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Completed**.
@@ -293,12 +293,12 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test cancelling an order:
 
-1. Send a [redirect](/api/#eps) API request.
+1. Send a [redirect](/api/#eps) API request with the `locale` set to `at_AT`.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Cancelled**. 
 5. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -333,9 +333,7 @@ To test refunding an order via the API:
 
 ---
 
-**Note:** In the live environment:
-- You can't accept refund orders. These are done automatically.
-- EPS only appears if you set `customer.locale` for Austria `at_AT` in your API request.
+**Note:** In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
@@ -361,7 +359,7 @@ To test cancelling an order:
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 5. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -419,7 +417,7 @@ To test cancelling an order:
 2. If you send a redirect API request, select a bank. 
 3. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 4. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 Use the following test scenarios on the Test platform page to test different transaction statuses.
 
