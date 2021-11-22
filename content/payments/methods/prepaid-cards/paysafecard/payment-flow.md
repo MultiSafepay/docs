@@ -11,34 +11,48 @@ aliases:
     - /payments/methods/prepaid-cards/paysafecard/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant P as Paysafecard
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects a Paysafecard at checkout
+    Mu->>C: Connects to Paysafecard (redirect only)
+    C->>P: Enters card PIN and completes payment
+    P->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
-{{< /details >}}
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. | [API reference](/api/#gift-cards) |  
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects Paysafecard at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
-| 2. | The customer enters the 16-digit PIN code on the Paysafecard voucher, and completes the payment. | | |
-| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| Completed | Completed |
+## Payment statuses
 
-## Unsuccessful statuses
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been declined. | Declined   | Declined   |
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 3-hour period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete.| Completed | Completed |
+| Paysafecard declined the transaction. | Declined   | Declined   |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment within 3&nbsp;hours and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

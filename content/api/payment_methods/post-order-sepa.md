@@ -1,5 +1,5 @@
 ---
-weight: 332
+weight: 333
 meta_title: "API reference - Create a SEPA Direct Debit order - MultiSafepay Docs"
 
 ---
@@ -115,7 +115,7 @@ meta_title: "API reference - Create a SEPA Direct Debit order - MultiSafepay Doc
 {{< /code-block >}}
 {{< description >}}
 ## SEPA Direct Debit
-See also Payment methods – [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit).
+See also Payment methods – [SEPA Direct Debit](/payment-methods/sepa-direct-debit).
 
 ### SEPA Direct Debit - redirect
 
@@ -153,7 +153,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -238,7 +238,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

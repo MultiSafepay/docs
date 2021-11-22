@@ -1,8 +1,7 @@
 ---
 title : "MultiSafepay app for Shopify"
-meta_title: "Shopify plugin - MultiSafepay Docs"
+meta_title: "Shopify app - MultiSafepay Docs"
 faq: "."
-
 logo: "/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"
@@ -50,35 +49,35 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Belfius](/payments/methods/banks/belfius)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Belfius](/payment-methods/belfius)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
 - [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [ING Home'Pay](/payment-methods/ing-home-pay)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [Trustly](/payments/methods/banks/trustly)
+- [Sofort](/payment-methods/sofort)
+- [Trustly](/payment-methods/trustly)
 
 **Wallets**
 
-- [Alipay](/payments/methods/wallet/alipay)
-- [PayPal](/payments/methods/wallet/paypal)
+- [Alipay](/payment-methods/alipay)
+- [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
-[Paysafecard](/payments/methods/prepaid-cards/paysafecard)
+[Paysafecard](/payment-methods/paysafecard)
 
 {{< /details >}}
 

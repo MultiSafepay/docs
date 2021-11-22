@@ -12,30 +12,43 @@ aliases:
     - /payments/methods/banks/ideal/payment-flow/
     - /payments/methods/banks/idealqr/payment-flow/
 ---
+This diagram shows the flow for a successful transaction.
 
-The table below shows a successful payment flow from start to finish.  
+{{< mermaid class="text-center" >}}
 
-{{< details title="About order and transaction statuses" >}}
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    participant Me as Merchant
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+    C->>Mu: Selects iDEAL (QR) at checkout
+    Mu->>C: Connects to customer's bank (direct/redirect)
+    C->>CB: Authenticates account/scans QR code and completes payment
+    CB->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+{{< /mermaid >}}
+&nbsp;  
 
-{{< /details >}}
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer selects iDEAL and their bank at checkout and is redirected to their online banking environment. | [API reference](/api/#ideal---direct) |
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. | [API reference](/api/#ideal---redirect) |
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects iDEAL or iDEAL QR at checkout and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
-| 2. | The customer authenticates their account and completes the payment, or scans the QR code. | Completed | Completed |
-| 3. | MultiSafepay collects the funds and settles them in your MultiSafepay balance.| | |
+## Payment statuses
 
-## Unsuccessful statuses
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete. | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1.5-hour period. | Expired | Expired |
+| The customer didn't complete payment within 1.5 hours and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -43,10 +56,6 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is pending (banking only).  | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
 
-
-
-
-
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

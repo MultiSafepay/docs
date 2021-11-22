@@ -147,7 +147,7 @@ meta_title: "API reference - Create a PayPal order - MultiSafepay Docs"
 
 {{< description >}}
 ## PayPal
-See also Payment methods – [PayPal](/payments/methods/wallet/paypal).
+See also Payment methods – [PayPal](/payment-methods/paypal).
 
 ### PayPal - redirect
 
@@ -187,7 +187,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -248,7 +248,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

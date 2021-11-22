@@ -140,7 +140,7 @@ meta_title: "API reference - Create an iDEAL order - MultiSafepay Docs"
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-See also Payment methods – [iDEAL](/payments/methods/banks/ideal).
+See also Payment methods – [iDEAL](/payment-methods/ideal).
 
 ### iDEAL - redirect
 
@@ -180,7 +180,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -241,7 +241,7 @@ Options: `iDEAL`.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

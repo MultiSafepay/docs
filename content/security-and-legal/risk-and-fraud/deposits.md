@@ -1,7 +1,7 @@
 ---
 title: 'Deposits'
 weight: 5
-meta_title: "Risk and fraud - Deposits - MultiSafepay Docs"
+meta_title: "Deposits - MultiSafepay Docs"
 
 read_more: "."
 url: '/risk-fraud/deposits/'

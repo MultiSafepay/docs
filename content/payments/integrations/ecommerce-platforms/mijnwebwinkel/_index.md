@@ -1,8 +1,7 @@
 ---
-title : "MultiSafepay app for Mijnwebwinkel"
+title : "Mijnwebwinkel app for MultiSafepay"
 meta_title: "Mijnwebwinkel app - MultiSafepay Docs"
 faq: "."
-
 logo: "/logo/Integrations/Mijnwebwinkel.svg"
 weight: 25
 title_short: "Mijnwebwinkel"
@@ -20,7 +19,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/mijnwebwinkel/
     - /ecommerce-platforms/mijnwebwinkel/
 ---
-This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Mijnwebwinkel webshop. This app is managed by our partner Mijnwebwinkel (MyOnlineStore).
+This technical manual is for installing and configuring Mijnwebwinkel's free app for integrating MultiSafepay payment solutions into your webshop. 
 
 {{< details title="Test environment" >}}
 &nbsp;  
@@ -53,26 +52,26 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Credit cards**
 
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/mastercard/visa)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [Sofort](/payments/methods/banks/sofort-banking)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
+- [Maestro](/payment-methods/maestro)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+- [Sofort](/payment-methods/sofort)
 
 **Pay later methods**
 
-+ [Klarna](/payments/methods/billing-suite/klarna)
++ [Klarna](/payment-methods/klarna)
 
 **Wallets**
 
-+ [PayPal](/payments/methods/wallet/paypal)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 

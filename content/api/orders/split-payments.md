@@ -5,8 +5,48 @@ meta_title: "API reference - Split payments - MultiSafepay Docs"
 ---
 {{< code-block >}}
 
-> POST - /orders
-
+> POST - /orders  
+Split by percentage only
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order - 11.2% flows to merchant ID 1001001",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "percentage":11.2,
+        "description":"Percentage fee"
+      }
+    ]
+  }
+}
+```
+> POST - /orders  
+Split by fixed amount only 
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order - €1.12 flows to merchant ID 1001001",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "fixed":112,
+        "description":"Fixed fee"
+      }
+    ]
+  }
+}
+```
+> POST - /orders  
+Split by percentage and fixed amount
 ```json
 {
   "type":"redirect",
@@ -30,7 +70,6 @@ meta_title: "API reference - Split payments - MultiSafepay Docs"
   }
 }
 ```
-
 > JSON response
 
 ```json
@@ -46,7 +85,9 @@ meta_title: "API reference - Split payments - MultiSafepay Docs"
 
 {{< description >}}
 ## Split payments orders
-Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
+Split the amount of a transaction between partner or affiliate accounts by a percentage, a fixed amount, or both.
+
+{{< alert-notice >}}**Important:** If splitting by both, never give a 0 value for the percentage or the fixed amount.  {{< /alert-notice >}}
 
 See [Split payments](/features/split-payments/).
 
@@ -84,12 +125,14 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-`split_payments` | object | required
+`split_payments` | array of objects | required
+
+For every split payment rule, add an object to the array.
 
 Contains:  
 
@@ -99,11 +142,13 @@ The account ID of the [affiliated MultiSafepay account](/account/partner-account
 
 `split_payments.percentage` | float
 
-Specify a percentage of the amount to split.
+Specify a percentage of the amount to split.  
+**Important:** Never set the value to `0`. 
 
 `split_payments.fixed` | integer
 
-Specify the amount to split in cents.
+Specify the amount to split in cents.  
+**Important:** Never set the value to `0`. 
 
 `split_payments.description` | string
 

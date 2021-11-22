@@ -153,7 +153,7 @@ meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
 
 {{< description >}}
 ## Bank Transfer
-See also Payment methods – [Bank transfer](/payments/methods/banks/bank-transfer).
+See also Payment methods – [Bank transfer](/payment-methods/bank-transfer).
 
 ### Bank Transfer - redirect
 
@@ -185,13 +185,13 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `BANKTRANS`.
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -247,13 +247,13 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `BANKTRANS`.
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

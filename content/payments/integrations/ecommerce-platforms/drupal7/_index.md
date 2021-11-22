@@ -1,15 +1,14 @@
 ---
-title : "MultiSafepay plugin for Drupal 7"
-github_url : "https://github.com/MultiSafepay/Drupal-Commerce"
-download_url : "https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip"
-changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/drupal7/changelog/
+title: "MultiSafepay plugin for Drupal 7"
+github_url: "https://github.com/MultiSafepay/Drupal-Commerce"
+download_url: "https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip"
+changelog: https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG.md
 faq: "."
 meta_title: "Drupal 7 plugin - MultiSafepay Docs"
-
 logo: "/logo/Plugins/Drupal_7.svg"
 weight: 15
 title_short: "Drupal 7"
-description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop"
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop."
 layout: 'single'
 url: '/drupal-7/'
 aliases: 
@@ -52,39 +51,39 @@ Contact us:
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Belfius](/payments/methods/banks/belfius)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
-- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Belfius](/payment-methods/belfius)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
+- [ING Home'Pay](/payment-methods/ing-home-pay)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [TrustPay](/payments/methods/banks/trustpay)
-- [V PAY](/payments/methods/credit-and-debit-cards/vpay)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+- [Sofort](/payment-methods/sofort)
+- [TrustPay](/payment-methods/trustpay)
+- [V PAY](/payment-methods/vpay)
 
 **Pay later methods**
 
-+ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
-+ [Klarna](/payments/methods/billing-suite/klarna)
-+ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [E-Invoicing](/payment-methods/e-invoicing)
++ [Klarna](/payment-methods/klarna)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [Alipay](/payments/methods/wallet/alipay)
++ [Alipay](/payment-methods/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
-+ [PayPal](/payments/methods/wallet/paypal)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
@@ -93,7 +92,7 @@ Contact us:
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl
-+ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Paysafecard](/payment-methods/paysafecard)
 + Wijn cadeau
 + [Yourgift](https://www.yourgift.nl)
 

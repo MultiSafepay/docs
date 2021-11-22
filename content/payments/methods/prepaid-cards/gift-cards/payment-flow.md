@@ -11,34 +11,49 @@ aliases:
     - /payments/methods/prepaid-cards/gift-cards/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant G as Gift card issuer
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects a gift card at checkout
+    Mu->>C: Connects to the card issuer (redirect only)
+    C->>G: Enters gift card details and completes payment
+    G->>Mu: Processes payment and transfers funds 
+    Mu->>Me: Settles funds
 
-{{< /details >}}
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. | [API reference](/api/#gift-cards) | 
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer selects the relevant gift card at checkout and is redirected to a [MultiSafepay payment page](/payment-pages/). | Initialized | Initialized |
-| 2. | The customer enters the gift card details, and completes the payment. | | |
-| 3. | The card issuer processes the payment and sends a **Completed** notification to MultiSafepay. | | |
-| 4. | MultiSafepay collects the funds and settles them in your MultiSafepay balance. {{< br >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. | Completed | Completed |
+## Payment statuses
 
-## Unsuccessful statuses
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete. {{< br >}}  | Completed | Completed |
 | The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+
+{{< blue-notice >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. {{< /blue-notice >}}
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

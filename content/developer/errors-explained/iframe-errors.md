@@ -1,7 +1,7 @@
 ---
 title: 'iFrame errors'
 weight: 2
-meta_title: "Errors - iFrame errors - MultiSafepay Docs"
+meta_title: "iFrame errors - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/errors-explained/iframe

@@ -1,9 +1,9 @@
 ---
-title: 'Integration and testing in3'
-breadcrumb_title: 'Integration and testing'
+title: 'Integrating and testing in3'
+breadcrumb_title: 'Integrating and testing'
 weight: 40
-meta_title: "Integration and testing in3 - MultiSafepay Docs"
-short_description: "Integration and testing in3 in your ecommerce platform"
+meta_title: "Integrating and testing in3 - MultiSafepay Docs"
+short_description: "Integrating and testing in3"
 layout: 'child'
 logo: '/svgs/in3.svg'
 url: '/payment-methods/in3/integration-testing/'
@@ -30,6 +30,7 @@ To test in3 transactions, follow these steps:
 4. No invoice is generated in your test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in in3.
 
 You can also test in3 transactions by entering the following details on the in3 checkout page:
+
 | Date of birth    | Postal code | House number |
 | ------------------- | ------------------- | ----------------- |
 | 01-01-1999 | 1234AB | 1 |

@@ -3,10 +3,12 @@ title : "PCI DSS compliance"
 weight: 30
 meta_title: "Credit card user guide - PCI DSS compliance - MultiSafepay Docs"
 read_more: "."
-short_description: "Comply with the payment industry's data security standard, meant to protect your and your customer's data"
+short_description: "Make sure you comply with the payment industry's data security standard."
+url: '/credit-cards-user-guide/pci-dss/'
 aliases:
     - /faq/risk-and-fraud/about-credit-card-payments/
     - /faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments
+    - /payments/methods/credit-and-debit-cards/user-guide/pci-dss-compliance/
 ---
 
 Under the [PCI DSS](/faq/general/glossary#Payment-Card-Industry-Data-Security-Standard), payment service providers and businesses that handle credit card data must follow extensive security protocols and data management practices to protect customers and merchants. MultiSafepay is PCI compliant and you can accept credit card payments through MultiSafepay payment pages even if you are not PCI compliant.

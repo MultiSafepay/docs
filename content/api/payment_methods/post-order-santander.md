@@ -1,5 +1,5 @@
 ---
-weight: 331
+weight: 332
 meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSafepay Docs"
 
 ---
@@ -34,12 +34,6 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
     "email":"test@example.com",
     "referrer":"https://example.com",
     "user_agent":"Mozilla//5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-  },
-  "gateway_info":{
-    "birthday":"1970-07-10",
-    "gender":"male",
-    "phone":"0612345678",
-    "email":"youremail@email.com"
   }
 }
 ```
@@ -120,12 +114,6 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
     "email":"test@example.com",
     "referrer":"https://example.com",
     "user_agent":"Mozilla//5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-  },
-  "gateway_info":{
-    "birthday":"1970-07-10",
-    "gender":"male",
-    "phone":"0612345678",
-    "email":"youremail@email.com"
   }
 }
 ```
@@ -176,14 +164,13 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 }
 ```
 
-
 {{< /code-block >}}
 
 {{< description >}}
 ## Santander Betaal per Maand
 
-- See also Payment methods – [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand).  
-- Direct and redirect.
+- Payment methods – [Betaal per Maand](/payment-methods/betaal-per-maand)  
+- Direct and redirect
 
 ### Santander Betaal per Maand - direct
 
@@ -194,7 +181,6 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 
 The payment flow for the checkout process.  
 Value: `direct`. 
-
 
 ----------------
 `order_id` | string | required
@@ -222,7 +208,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -235,33 +221,6 @@ See [payment_options (object)](/api/#payment-options-object).
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).    
-
-----------------
-`gateway_info` | object                                                              
-
-The customer data (`issuer_id`) required for conducting credit checks.
-
-Contains:
-
-`birthday` | object | required
-
-The customer's date of birth.  
-In the Netherlands and Belgium, this is required for credit checks.  
-Format: yyyy-mm-dd. 
-
-`gender` | string | required
-
-The customer's personal title.  
-Options: `mr`, `mrs`, `miss`. 
-
-`phone` | string | required
-
-The customer's phone number.  
-Required for credit checks and to contact the customer in case of non-payment.
-
-`email` | string | required
-
-The email address for sending payment instructions to the customer.
 
 **Response**
 
@@ -302,7 +261,6 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string
-
 
 ----------------
 `fastcheckout` | string 
@@ -329,8 +287,6 @@ See [costs (object)](/api/#costs-object).
 
 The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
 
-----------------
-
 ### Santander Betaal per Maand - redirect
 
 **Parameters**
@@ -340,7 +296,6 @@ The URL of the page where the customer is redirected from your checkout to compl
 
 The payment flow for the checkout process.  
 Value: `redirect`. 
-
 
 ----------------
 `order_id` | string | required
@@ -368,7 +323,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -381,33 +336,6 @@ See [payment_options (object)](/api/#payment-options-object).
 `customer` | object | required
 
 See [customer (object)](/api/#customer-object).    
-
-----------------
-`gateway_info` | object                                                              
-
-The customer data (`issuer_id`) required for conducting credit checks.
-
-Contains:
-
-`birthday` | object | required
-
-The customer's date of birth.  
-In the Netherlands and Belgium, this is required for credit checks.  
-Format: YYYY-MM-DD. 
-
-`gender` | string | required
-
-The customer's personal title.  
-Options: `mr`, `mrs`, `miss`. 
-
-`phone` | string | required
-
-The customer's phone number.  
-Required for credit checks and to contact the customer in case of non-payment.
-
-`email` | string | required
-
-The email address for sending payment instructions to the customer.
 
 **Response**
 
@@ -448,7 +376,6 @@ The [transaction status](/payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string
-
 
 ----------------
 `fastcheckout` | string 

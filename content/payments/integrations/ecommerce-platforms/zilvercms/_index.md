@@ -1,12 +1,12 @@
 ---
-title : "MultiSafepay app for ZilverCMS"
-meta_title: "ZilverCMS app integration - MultiSafepay Docs"
+title : "ZilverCMS app for MultiSafepay"
+meta_title: "ZilverCMS app - MultiSafepay Docs"
 layout: 'single'
-meta_description: "MultiSafepay app for ZilverCMS. Easily integrate MultiSafepay payment solutions into your ZilverCMS platform with the free app"
+meta_description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
 logo: "/logo/Integrations/ZilverCMS.svg"
 weight: 30
 title_short: "ZilverCMS"
-description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform"
+description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
 description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform."
 layout: 'single'
 url: '/zilvercms/'
@@ -19,40 +19,38 @@ aliases:
     - /ecommerce-platforms/zilvercms/
 ---
 
-This app is managed by our partner ZilverCMS. 
-
 {{< details title="Supported payment methods" >}}
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Belfius](/payments/methods/banks/belfius)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay) 
-- [iDEAL](/payments/methods/banks/ideal)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Belfius](/payment-methods/belfius)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay) 
+- [iDEAL](/payment-methods/ideal)
 - [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [ING Home'Pay](/payment-methods/ing-home-pay)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 
 **Pay later methods**
 
-+ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
++ [Betaal per Maand](/payment-methods/betaal-per-maand)
 
 **Wallets**
 
-+ [Alipay](/payments/methods/wallet/alipay)
-+ [PayPal](/payments/methods/wallet/paypal)
++ [Alipay](/payment-methods/alipay)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 

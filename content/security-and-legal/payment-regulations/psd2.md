@@ -1,7 +1,7 @@
 ---
 title : "Payment Services Directive 2 (PSD2)"
 weight: 20
-meta_title: "Payment regulations - About Payment Services Directive 2 - MultiSafepay Docs"
+meta_title: "Payment Services Directive 2 - MultiSafepay Docs"
 
 read_more: "."
 url: '/payment-regulations/psd2/'

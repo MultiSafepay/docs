@@ -12,39 +12,55 @@ aliases:
     - /payments/methods/banks/request-to-pay/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant D as Deutsche Bank
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects Request to Pay at checkout
+    Mu->>C: Connects to Deutsche Bank (direct/redirect)
+    C->>D: Authenticates account and authorizes SEPA bank transfer
+    D->>Me: Settles funds
+    Note over D,Me: Within 24 hours <br> (if Instant SEPA not supported)
 
-{{< /details >}}
+{{< /mermaid >}}
+&nbsp;  
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction and is redirected to the Deutsche Bank payment page. {{< br >}} They authenticate themselves with the same credentials as for online banking, and authorize a SEPA bank transfer. | Initialized | Initialized |
-| 2. | The transaction is successful and the customer is redirected to MultiSafepay. | Uncleared  | Completed |
-| 3. | Deutsche Bank settles the funds in your business bank account. {{< br >}} For banks that support instant SEPA, settlement is instant. Otherwise, it is within 24 hours.  | Completed | Completed |
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to their online banking environment. | [API reference](/api/#request-to-pay---direct) |
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. | [API reference](/api/#request-to-pay---redirect) |
 
-## Unsuccessful statuses
+## Payment statuses
+
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| Deutsche Bank or the customer's bank has declined the transaction. | Declined | Declined   |
-| The customer cancelled the payment in Deutsche Bank online banking. | Void | Void |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The customer's bank is processing the transaction and transfering the funds. | Uncleared  | Completed |
+| The transaction is complete. | Completed | Completed |
+| The transaction was declined. | Declined | Declined   |
+| The transaction is cancelled. | Void | Void |
+| The customer didn't complete payment within 1 hour and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
-| Deutsche Bank has declined the refund. | Declined | Declined |
+| The refund is complete. | Completed | Completed |
+| The refund was declined. | Declined | Declined |
 
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
         
 

@@ -122,7 +122,7 @@ meta_title: "API reference - Create Belfius order - MultiSafepay Docs"
 
 {{< description >}}
 ## Belfius
-See also Payment methods – [Belfius](/payments/methods/banks/belfius).
+See also Payment methods – [Belfius](/payment-methods/belfius).
 
 ### Belfius - redirect 
 
@@ -143,7 +143,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `BELFIUS`.
 
 ----------------
@@ -160,7 +160,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -213,13 +213,13 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `BELFIUS`.
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

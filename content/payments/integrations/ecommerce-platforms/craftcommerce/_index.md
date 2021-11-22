@@ -7,7 +7,7 @@ changelog_url : "."
 logo: "/logo/Integrations/Craft_Commerce.svg"
 weight: 21
 title_short: "Craft Commerce"
-description_short: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop"
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop."
 changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md
 layout: 'single'
 faq: "."
@@ -27,10 +27,10 @@ You can also install the plugin via the [Craft Plugin Store](https://plugins.cra
 
 {{< details title="Features" >}}
 &nbsp;  
-- Support for separate payment methods, billing suites, and gift cards
-- Partial and full refunds for non-billing suite payment methods
+- Support for separate payment methods, pay later methods, and gift cards
+- Partial and full refunds for all payment methods, except pay later
 - Customizable order statuses
-- Shipment notifications for billing suite payment methods
+- Shipment notifications for pay later methods
 
 {{< /details >}}
 
@@ -56,41 +56,41 @@ Contact MultiSafepay:
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Belfius](/payments/methods/banks/belfius)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Belfius](/payment-methods/belfius)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
 - [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [ING Home'Pay](/payment-methods/ing-home-pay)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [Trustly](/payments/methods/banks/trustly)
-- [TrustPay](/payments/methods/banks/trustpay)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+- [Sofort](/payment-methods/sofort)
+- [Trustly](/payment-methods/trustly)
+- [TrustPay](/payment-methods/trustpay)
 
 **Pay later methods**
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
-+ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
-+ [Klarna](/payments/methods/billing-suite/klarna)
-+ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [E-Invoicing](/payment-methods/e-invoicing)
++ [in3](/payment-methods/billing-suite/in3)
++ [Klarna](/payment-methods/klarna)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [Alipay](/payments/methods/wallet/alipay)
-+ [PayPal](/payments/methods/wallet/paypal)
++ [Alipay](/payment-methods/alipay)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 

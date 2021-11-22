@@ -42,7 +42,7 @@ meta_title: "API reference - Create Bancontact order - MultiSafepay Docs"
 
 ## Bancontact
 
-- See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
+- See also Payment methods – [Bancontact](/payment-methods/bancontact).  
 - Redirect only.
 
 **Parameters**
@@ -62,7 +62,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `MISTERCASH`.
 
 ----------------
@@ -79,7 +79,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

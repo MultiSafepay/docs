@@ -1,12 +1,12 @@
 ---
-title : "MultiSafepay app for Dynamicweb"
-meta_title: "Dynamicweb app integration - MultiSafepay Docs"
+title : "Dynamicweb app for MultiSafepay"
+meta_title: "Dynamicweb app - MultiSafepay Docs"
 layout: 'single'
-meta_description: "MultiSafepay app for Dynamicweb. Easily integrate MultiSafepay payment solutions into your Dynamicweb platform with the free app"
+meta_description: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb webshop."
 logo: "/logo/Integrations/Dynamic_Web.svg"
 weight: 22
 title_short: "Dynamicweb"
-description_short: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb platform"
+description_short: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb webshop."
 layout: 'single'
 url: '/dynamicweb/'
 aliases: 
@@ -17,8 +17,8 @@ aliases:
     - /payments/integrations/ecommerce-platforms/dynamicweb/
     - /ecommerce-platforms/dynamicweb/
 ---
-Free app to integrate MultiSafepay payment solutions into your Dynamicweb platform. 
-
-For support, contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us). 
+Free app by Dynamicweb to integrate MultiSafepay payment solutions into your webshop. 
 
 To integrate the app, email the Integration Team at <integration@multisafepay.com>
+
+For support, contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us). 

@@ -6,7 +6,7 @@ changelog_url : "."
 faq: "."
 layout: 'single-old-button'
 meta_title: "Magento 2 plugin - MultiSafepay Docs"		
-meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 2 platform"
+meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 2 webshop."
 changelog: https://github.com/MultiSafepay/magento2/blob/master/CHANGELOG.md
 weight: 01
 logo: "/logo/Plugins/Magento_2.svg"
@@ -87,50 +87,53 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Belfius](/payments/methods/banks/belfius)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Belfius](/payment-methods/belfius)
 - [CBC](/payments/methods/banks/cbc)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
 - [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [ING Home'Pay](/payment-methods/ing-home-pay)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [Trustly](/payments/methods/banks/trustly)
-- [TrustPay](/payments/methods/banks/trustpay) 
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+- [Sofort](/payment-methods/sofort)
+- [Trustly](/payment-methods/trustly)
+- [TrustPay](/payment-methods/trustpay) 
 
 **Pay later methods**
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
-+ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
-+ [Klarna](/payments/methods/billing-suite/klarna)
-+ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [Betaal per Maand](/payment-methods/betaal-per-maand)
++ [E-Invoicing](/payment-methods/e-invoicing)
++ [in3](/payment-methods/in3)
++ [Klarna](/payment-methods/klarna)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [Alipay](/payments/methods/wallet/alipay)
++ [Alipay](/payment-methods/alipay)
 + [Apple Pay](/payments/methods/wallet/applepay)
-+ [PayPal](/payments/methods/wallet/paypal)
++ [Google Pay](/payment-methods/google-pay)
++ [PayPal](/payment-methods/paypal)
++ [WeChat Pay](/payment-methods/wechat-pay)
 
 **Prepaid cards**
 
 + Baby gift card
 + Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Edenred](/payment-methods/edenred)
 + [Fashioncheque](https://www.fashioncheque.com/nl/)
 + [Fashion gift card](https://www.fashion-giftcard.nl/)
 + Fietsenbon
@@ -139,7 +142,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 + [Good4fun](https://www.good4fun.nl/)
 + Goodcard
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
-+ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Paysafecard](/payment-methods/paysafecard)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
 + [Podium](https://www.podiumcadeaukaart.nl/)
 + [Sport en Fit](https://www.sportenfitcadeau.nl/)

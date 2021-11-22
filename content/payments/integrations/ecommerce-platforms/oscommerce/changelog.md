@@ -1,12 +1,11 @@
 ---
-title : "Release Notes OsCommerce plugin"
+title : "OsCommerce plugin changelog"
 meta_title: "OsCommerce plugin changelog - MultiSafepay Docs"
-
 aliases: [/integrations/oscommerce/changelog/]
 ---
 
 ## 3.0.0
-Release date: May 9th, 2017
+Release date: May 9, 2017
 ### Changes
 + This plugin now uses the JSON API, rather than the XML API.
 + Added all available payment methods as separate gateways

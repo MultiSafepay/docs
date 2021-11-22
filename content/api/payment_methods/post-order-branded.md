@@ -44,7 +44,7 @@ meta_title: "API reference - Create a co-branded credit card order - MultiSafepa
 ### Co-branded credit cards 
 
 - See also Payment methods:  
-  - [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires)
+  - [Cartes Bancaires](/payment-methods/cartes-bancaires)
   - [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
   - [Postepay](/payments/methods/credit-and-debit-cards/postepay)  
 - Redirect only.
@@ -66,7 +66,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
 Options: `CREDITCARD`, `VISA`, `MASTERCARD`.
 
@@ -84,7 +84,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

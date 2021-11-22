@@ -3,6 +3,7 @@ title : "MultiSafepay plugin for OsCommerce"
 github_url : "https://github.com/MultiSafepay/OsCommerce"
 download_url : "https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip"
 faq: "."
+changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/oscommerce/changelog/
 meta_title: "OsCommerce plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your OsCommerce platform"
 logo: "/logo/Plugins/OsCommerce.svg"
@@ -57,28 +58,28 @@ Contact MultiSafepay:
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [V PAY](/payments/methods/credit-and-debit-cards/vpay)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+- [Sofort](/payment-methods/sofort)
+- [V PAY](/payment-methods/vpay)
 
 **Pay later methods**
 
-+ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
-+ [Klarna](/payments/methods/billing-suite/klarna)
++ [E-Invoicing](/payment-methods/e-invoicing)
++ [Klarna](/payment-methods/klarna)
 + [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
 **Wallets**

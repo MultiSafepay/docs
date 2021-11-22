@@ -1,5 +1,5 @@
 ---
-title : "MultiSafepay plugin for Shopfactory"
+title : "Shopfactory plugin for MultiSafepay"
 meta_title: "ShopFactory plugin - MultiSafepay Docs"
 faq: "."
 logo: "/logo/Integrations/ShopFactory.svg"
@@ -21,7 +21,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopfactory/
     - /ecommerce-platforms/shopfactory/
 ---
-This free plugin to integrate MultiSafepay payment solutions into your ShopFactory webshop is developed and maintained by ShopFactory.
+Free plugin by ShopFactory to integrate MultiSafepay payment solutions into your webshop.
 
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
 

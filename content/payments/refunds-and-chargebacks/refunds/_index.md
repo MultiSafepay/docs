@@ -87,9 +87,9 @@ You can process refunds in the [backend](/getting-started/glossary/#backend) of 
 
 ## Via our API
 
-For pay later methods, you can also refund via our API. Make a `POST /orders/{order_id}/refunds` request. 
+For non-pay later payment methods, see API reference – [Refund an order](/api/#refund-an-order).
 
-See API reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
+Pay later refunds require a shopping cart object in the request, see API reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
 ## Refund rules
 
@@ -128,7 +128,7 @@ This table lists the refund period for each payment method:
 | --------- | ------------------------ |
 | [AfterPay](/payments/methods/billing-suite/afterpay/) | 730 days |
 | [Alipay](/payments/methods/wallet/alipay/) | 365 days |
-| [American Express](/payments/methods/credit-and-debit-cards/american-express/) | 180 days |
+| [American Express](/payment-methods/american-express/) | 180 days |
 | [Bancontact / Bancontact Mobile](/payments/methods/banks/bancontact/) | 180 days |
 | [Bank transfer](/payments/methods/banks/bank-transfer/) | 730 days |
 | [Belfius](/payments/methods/banks/belfius/) | 730 days |
@@ -140,7 +140,7 @@ This table lists the refund period for each payment method:
 | [Giropay](/payments/methods/banks/giropay/) | 730 days |
 | [iDEAL](/payments/methods/banks/ideal/) | 730 days |
 | [iDEAL QR](/payments/methods/banks/idealqr/) | 730 days |
-| [in3](/payments/methods/billing-suite/in3/) | 730 days |
+| [in3](/payment-methods/in3/) | 730 days |
 | [ING Home'Pay](/payments/methods/banks/ing-home-pay/) | 730 days |
 | [KBC](/payments/methods/banks/kbc/) | 730 days |
 | [Klarna](/payments/methods/billing-suite/klarna/) | 730 days |

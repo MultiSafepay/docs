@@ -17,9 +17,10 @@ aliases:
 | **Countries**  | The Netherlands  | in3 checks the customer's country, and billing/shipping address to confirm. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  | 
-| **Payment flow**  | [Direct](/api/#in3-direct) / [Redirect](/api/#in3-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#in3---direct) / [Redirect](/api/#in3---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 2 hours | |
+| **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |
 
 {{< details title="Refunds" >}}
 

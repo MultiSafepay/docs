@@ -20,7 +20,7 @@ aliases:
 | **Countries**  | SEPA region  | [More information](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf) |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | Yes | See below.  |
-| **Payment flow**  | [Direct](/api/#sepa-direct-debit-direct) / {{< br >}} [Redirect](/api/#sepa-direct-debit-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#sepa-direct-debit---direct) / {{< br >}} [Redirect](/api/#sepa-direct-debit---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | Doesn't apply | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |

@@ -11,11 +11,7 @@ aliases:
     - /payments/methods/billing-suite/klarna/integration-and-testing/
 ---
 
-Klarna makes your ecommerce platform available in the MultiSafepay partner portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay account. 
-
 To process Klarna payments via our API, see API reference - [Klarna](/api/#klarna).
-
-For questions about your Klarna integration and the connection with your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
 
 For the Klarna logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
@@ -24,19 +20,45 @@ For the Klarna logo, see MultiSafepay GitHub – [MultiSafepay icons](https://gi
 Test credentials:
 
 - [API key](/tools/multisafepay-control/get-your-api-key/)
-- [Klarna's test credentials](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+- [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
-To test Klarna transactions, follow these steps:
+**Test a Klarna order**  
+1. Send a [direct or redirect](/api/#klarna) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+2. On the Klarna page, click **Kopen**.
+3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
+4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.
+5. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
-1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-3. To change the order status to **Shipped**, either:
-    - Send an [Update an order](/api/#update-an-order) API request, or 
-    - Change the status in your MultiSafepay test account.
-{{< br >}}The transaction status remains **Uncleared**.
-4. No invoice is generated in your test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
+**Test declining an order**  
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
+To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+
+**Change the order status**  
+
+You can change the order status to **Shipped** or **Cancelled**.
+To change the order status, either:  
+
+- Send an [update an order](/api/#update-an-order) API request, or 
+- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+
+**Test refunding an order**
+
+To refund an order:
+
+1. Change the order status to **Shipped**.
+2. Under **Order summary**, click **Refund order**, or send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
+  The transaction status changes to **Completed**.
+
+**Receive an invoice**  
+
+You can only test the invoice process in your live MultiSafepay account. To do this, change the order status to **Shipped**.
+
+---
+
+**Note:** You can't test:
+
+- Receiving a successful payment notification from Klarna
+- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
 
 {{< /details >}}
 

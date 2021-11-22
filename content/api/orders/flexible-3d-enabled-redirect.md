@@ -101,7 +101,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -127,7 +127,7 @@ Contains:
 
 `term_url` | string | required
 
-The URL to inform the card [issuer](/credit-and-debit-cards/glossary/#issuer) where to redirect the authorisation query. 
+The URL to inform the card [issuer](/credit-cards-user-guide/glossary/#issuer) where to redirect the authorisation query. 
 
 **Response**
 

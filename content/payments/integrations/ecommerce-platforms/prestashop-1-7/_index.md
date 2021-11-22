@@ -5,7 +5,6 @@ meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
 download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/5.0.0-RC1/Plugin_PrestaShop_5.0.0-RC1.zip"
 changelog_url : "."
 faq: "."
-
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.7"
@@ -26,6 +25,10 @@ aliases:
 ---
 {{< alert-notice >}} **Important:** This page contains information about the new MultiSafepay PrestaShop 1.7 plugin, which is currently a release candidate. For the latest stable version, please visit us at [Github](https://github.com/MultiSafepay/prestashop). {{< /alert-notice>}}
 {{< alert-notice >}} **Important:** If you are updating from a 4.x version of our plugin, please don't uninstall the previous plugin until you are sure all orders created through a payment method from that plugin are fully processed. {{< /alert-notice>}}
+
+{{< alert-notice >}}
+**Important:** There is a new release candidate for our PrestaShop 1.7 plugin for version 1.7.6 or higher available to [download now](/payments/integrations/ecommerce-platforms/prestashop-1-7/releases/Plugin_PrestaShop_5.0.0-RC2.zip). 
+{{< /alert-notice>}}
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
 
@@ -57,47 +60,48 @@ Contact us:
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank Transfer](/payments/methods/banks/bank-transfer)
-- [Belfius](/payments/methods/banks/belfius)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Belfius](/payment-methods/belfius)
 - [CBC](/payments/methods/banks/cbc)
-- [Dotpay](/payments/methods/banks/dotpay)
-- [EPS](/payments/methods/banks/eps)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
+- [Dotpay](/payment-methods/dotpay)
+- [EPS](/payment-methods/eps)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
 - [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payments/methods/banks/ing-home-pay)
-- [KBC](/payments/methods/banks/kbc)
-- [Maestro](/payments/methods/credit-and-debit-cards/maestro)
+- [ING Home'Pay](/payment-methods/ing-home-pay)
+- [CBC/KBC](/payment-methods/cbc-kbc)
+- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [Trustly](/payments/methods/banks/trustly)
-- [TrustPay](/payments/methods/banks/trustpay)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+- [Sofort](/payment-methods/sofort)
+- [Trustly](/payment-methods/trustly)
+- [TrustPay](/payment-methods/trustpay)
+- [V PAY](/payment-methods/vpay)
 
 **Pay later methods**
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
-+ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
-+ [Klarna](/payments/methods/billing-suite/klarna)
-+ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [Betaal per Maand](/payment-methods/betaal-per-maand)
++ [E-Invoicing](/payment-methods/e-invoicing)
++ [in3](/payment-methods/in3)
++ [Klarna](/payment-methods/klarna)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [Alipay](/payments/methods/wallet/alipay)
-+ [Apple Pay](/payments/methods/wallet/applepay)
-+ [PayPal](/payments/methods/wallet/paypal)
++ [Alipay](/payment-methods/alipay)
++ [Apple Pay](/payment-methods/apple-pay/)
 + [Google Pay](/payment-methods/google-pay/)
 + [WeChat Pay](/payment-methods/wechat-pay/)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
@@ -114,7 +118,7 @@ Contact us:
 + Goodcard
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-+ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
++ [Paysafecard](/payment-methods/paysafecard)
 + [Podium](https://www.podiumcadeaukaart.nl)
 + [Sport en Fit](https://www.sportenfitcadeau.nl)
 + [VVV gift card](https://www.vvvcadeaukaarten.nl)

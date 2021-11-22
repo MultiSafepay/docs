@@ -15,24 +15,61 @@ To process PayPal payments via our API, see API reference – [PayPal](/api/#pay
 
 For the PayPal logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="Credentials and testing process" >}}
+{{< details title="View credentials and testing process" >}}
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
-To test PayPal transactions, follow these steps:
+**Test a PayPal order**
 
-1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status remains **Initialized** and cannot be changed to **Completed**.
+1. Send a [direct](/api/#paypal---direct) API request.
+2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Click **Test**.  
+The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
-Sample statuses:
+---
+
+**Note**: Since MultiSafepay does not collect payments on behalf of PayPal, the transaction status remains **Initialized** and can't be changed to **Completed**.
+
+---
+
+**Change the order status**
+
+You can change the order status to:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| **Completed** | Transaction was completed |
-| **Declined** | Transaction was declined |
+| **Completed** | Order was completed |
+| **Declined** | Order was declined |
 | **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted |
 | **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
-| **Cancelled** | Transaction was cancelled |
+| **Cancelled** | Order was cancelled |
+
+To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant order status.
+
+**Test refunding an order**
+
+To refund an order:
+
+1. Create an order. 
+2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+3. Under **Refund**, enter in the:
+    - **Reason/Description** field the reason for the refund. 
+    - **Amount** field the amount to refund.
+4. Click **Continue**.
+5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
+6. Under **Related transactions**, select the **ID** of the refund order.
+7. Under **Order summary**, click **Accept**.
+8. In the **Add transaction comment** field, add a comment, and then click **Add**.
+  The order status changes to **Completed**.
+
+Alternatively, send a [Refund](/api/#refund-an-order) API request.
+
+---
+
+**Note**:  
+
+- You can't test sending redirect API requests.
+- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}

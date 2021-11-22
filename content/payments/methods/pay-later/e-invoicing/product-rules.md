@@ -17,7 +17,7 @@ aliases:
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | No | [More information](/payments/chargebacks/)  | 
-| **Payment flow**  | [Direct](/api/#e-invoicing-direct) / [Redirect](/api/#e-invoicing-redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Direct](/api/#e-invoicing---direct) / [Redirect](/api/#e-invoicing---redirect) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | Doesn't apply | |
 | **Adjust payment link lifetimes**  | No | [More information](/api/#adjust-payment-link-lifetimes)  |

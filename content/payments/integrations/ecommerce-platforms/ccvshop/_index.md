@@ -1,13 +1,12 @@
 ---
 title : "MultiSafepay app for CCV Shop"
-meta_title: "CCV Shop app integration - MultiSafepay Docs"
+meta_title: "CCV Shop app - MultiSafepay Docs"
 faq: "."
 layout: 'single'
-
 logo: "/logo/Integrations/CCVShop.svg"
 weight: 29
 title_short: "CCVShop"
-description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop "
+description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop webshop."
 layout: 'single'
 url: '/ccv-shop/'
 aliases: 
@@ -20,7 +19,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/ccvshop/
     - /ecommerce-platforms/ccv-shop/
 ---
-This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop.
+This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop webshop.
 
 {{< details title="Test environment" >}}
 &nbsp;  
@@ -47,25 +46,30 @@ Contact MultiSafepay:
 
 {{< details title="Supported payment methods" >}}
 
-**Credit cards**
+**Credit and debit cards**
   
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [American Express](/payment-methods/american-express)
+- [Mastercard](/payment-methods/mastercard)
+- [Maestro](/payment-methods/maestro)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
-- [Bancontact](/payments/methods/banks/bancontact)
-- [Bank transfer](/payments/methods/banks/bank-transfer)
-- [Giropay](/payments/methods/banks/giropay)
-- [iDEAL](/payments/methods/banks/ideal)
-- [Sofort](/payments/methods/banks/sofort-banking)
-- [Trustly](/payments/methods/banks/trustly)
+- [Bancontact](/payment-methods/bancontact)
+- [Bank transfer](/payment-methods/bank-transfer)
+- [Giropay](/payment-methods/giropay)
+- [iDEAL](/payment-methods/ideal)
+- [Sofort](/payment-methods/sofort)
+- [Trustly](/payment-methods/trustly)
 
 **Pay later methods**
 
 - [AfterPay](/payments/methods/billing-suite/afterpay/)
 - [Klarna](/payments/methods/billing-suite/klarna/)
+
+**Wallets**
+
+- [PayPal](/payment-methods/paypal)
 
 {{< /details >}}
 

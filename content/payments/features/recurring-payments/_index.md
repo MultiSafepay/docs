@@ -12,6 +12,7 @@ aliases:
     - /tools/tokenization/tokenization-api-level/
     - /tools/tokenization/tokenization-via-api/
     - /tools/tokenization/tokenization-available-for-plugins/
+    - /tools/recurring-payments/what-is-recurring-payments/
     - /payments/features/tokenization/
 ---
 

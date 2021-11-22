@@ -1,6 +1,6 @@
 ---
 title : "Changing your company details"
-meta_title: "Risk and fraud - Changing your company details - MultiSafepay Docs"
+meta_title: "Changing your company details - MultiSafepay Docs"
 weight: 3
 
 read_more: "."

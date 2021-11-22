@@ -13,6 +13,7 @@ url: '/payment-components/'
 aliases:
     - /tools/credit-card-component/
     - /payments/checkout/payment-components/
+    - /integrations/payment-components/
 ---
 Payment Components let you embed payment methods directly into your checkout.
 
@@ -30,7 +31,7 @@ Embed a single or multiple payment methods in your checkout.
 - [Bancontact](/payments/methods/banks/bancontact/)
 - [Bank Transfer](/payments/methods/banks/bank-transfer/)
 - Credit cards:  
-    - [American Express](/payments/methods/credit-and-debit-cards/american-express/)
+    - [American Express](/payment-methods/american-express/)
     - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard/)
     - [Visa](/payments/methods/credit-and-debit-cards/visa/)
     - [Maestro](/payments/methods/credit-and-debit-cards/maestro/)

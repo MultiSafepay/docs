@@ -1,12 +1,11 @@
 ---
-title : "Release Notes PrestaShop plugin"
+title : "PrestaShop plugin changelog"
 meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Docs"
-
 aliases: [/integrations/prestashop-1-6/changelog/]
 ---
 
 ## 3.6.0
-Release date: Jul 21st, 2020
+Release date: Jul 21, 2020
 
 ### Added
 + DAVAMS-269: Add CBC payment method
@@ -18,7 +17,7 @@ Release date: Jul 21st, 2020
 ***
 
 ## 3.5.0
-Release date: Apr 9th, 2020
+Release date: Apr 9, 2020
 
 ### Added
 + PLGPRSS-344: Add AfterPay
@@ -30,7 +29,7 @@ Release date: Apr 9th, 2020
 ***
 
 ## 3.4.0
-Release date: Apr 2nd, 2020
+Release date: Apr 2, 2020
 
 ### Added
 + PLGPRSS-400: Add Apple Pay
@@ -39,7 +38,7 @@ Release date: Apr 2nd, 2020
 ***
 
 ## 3.3.0
-Release date: Feb 26th, 2020
+Release date: Feb 26, 2020
 
 ### Fixed
 + PLGPRSS-309: Prevent multiple transactions being created for the same order
@@ -53,7 +52,7 @@ Release date: Feb 26th, 2020
 ***
 
 ## 3.2.0
-Release date: Nov. 8th, 2017
+Release date: Nov 8, 2017
 ### Improvements
 + Add gift card Givacard.
 + Error-messages are now showed according to the PrestaShop guidelines.
@@ -78,7 +77,7 @@ Release date: Nov. 8th, 2017
 ***
 
 ## 3.1.7
-Release date: Sept. 8th, 2017
+Release date: Sept 8, 2017
 ### Improvements
 + Add ING Home'Pay as payment method.
 + Add BKC as payment method.
@@ -108,7 +107,7 @@ Release date: Sept. 8th, 2017
 ***
 
 ## 3.1.5
-Release date: May. 12th, 2017
+Release date: May 12, 2017
 ### Improvements
 + New logo for Mastercard.
 + Add PaySafeCard as payment method.
@@ -122,7 +121,7 @@ Release date: May. 12th, 2017
 ***
 
 ## 3.1.4
-Release date: Dec. 20th, 2016
+Release date: Dec 20, 2016
 ### Improvements
 + MultiSafepay notices and error messages are now shown in the webshop (front-end).
 + Added input field placeholders for the payment methods Klarna and Pay After Delivery.
@@ -138,7 +137,7 @@ Release date: Dec. 20th, 2016
 ***
 
 ## 3.1.2
-Release date: Nov. 23th, 2016
+Release date: Nov 23, 2016
 ### Improvements
 + Added full support for BVK payment fees module; percentages, fixed amounts and combinations are supported.
 + Added bundled gift card payment method; the seperate gateways Visa, Mastercard, Maestro and American Express are not visible during checkout.
@@ -160,7 +159,7 @@ Release date: Nov. 23th, 2016
 ***
 
 ## 3.1.1
-Release date: Okt 17th, 2016
+Release date: Oct 17, 2016
 ### Improvements
 + Resolved an issue resulting in the wrong calculations being applied for shipping and wrapping taxes.
 + A check was added to see whether or not SSL has been enabled in the webshop. Resulting in HTTP301 not occurring when calling the Notification URL.
@@ -177,14 +176,14 @@ Release date: Okt 17th, 2016
 ***
 
 ## 3.0.3
-Release date: July 27th, 2016
+Release date: July 27, 2016
 ### Fixes
 + Resolved a bug preventing order's from being created using certain configurations.
 
 ***
 
 ## 3.0.2
-Release date: July 12th, 2016
+Release date: July 12, 2016
 ### Improvements
 + Orders are now created for initialized Bank transfer payments and uncleared transactions when using the setting; "Only when an order was paid in full".
 + Added E-Invoicing as a payment method.
@@ -200,7 +199,7 @@ Release date: July 12th, 2016
 ***
 
 ## 3.0.0
-Release date: Apr 15th, 2016
+Release date: Apr 15, 2016
 ### Improvements
 + The payment method shown in the Fast Checkout orders are now updated to show the payment method eventually used.
 + Added (limited) support for the BVK Additional Payment Fees module; payment fees can be applied per payment method.
@@ -250,7 +249,7 @@ Release date: Apr 15th, 2016
 
 ***
 
-## 2.1.1 (Nov 2, 2015
+## 2.1.1 Nov 2, 2015
 ### Improvements
 + Added support for gift card VVV-Bon.
 + During installation of the plugin, the order states will not be removed anymore. So old orders remain their correct order status.

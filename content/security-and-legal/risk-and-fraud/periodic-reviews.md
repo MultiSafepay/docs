@@ -1,7 +1,7 @@
 ---
 title: 'Periodic reviews'
 weight: 6
-meta_title: "Risk and fraud - Periodic reviews - MultiSafepay Docs"
+meta_title: "Periodic reviews - MultiSafepay Docs"
 
 read_more: "."
 url: '/risk-fraud/periodic-reviews/'

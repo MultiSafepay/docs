@@ -17,7 +17,7 @@ aliases:
 | **Countries**  | France  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Chargebacks**  | Yes | [More information](/payments/chargebacks)  |
-| **Payment flow**  | [Direct](/api/#create-a-direct-order) / [Redirect](/api/#create-a-redirect-order) | [More information](/developer/api/difference-between-direct-and-redirect) |
+| **Payment flow**  | [Redirect](/api/#visa) | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
 | **Transactions expire after**  | 1 hour | |
 | **Adjust payment link lifetimes**  | Yes | [More information](/api/#adjust-payment-link-lifetimes)  |
@@ -40,7 +40,7 @@ aliases:
 
 Cardholders who disagree with or do not recognise a transaction charged to their credit card can ask Cartes Bancaires to raise a dispute. Cartes Bancaires then notifies MultiSafepay and reclaims the transaction amount from you.
 
-You are solely liable for paying for chargebacks
+You are solely liable for paying for chargebacks.
 
 Cartes Bancaires gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
 

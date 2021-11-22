@@ -11,6 +11,7 @@ aliases:
 ---
 
 **Changes to refunds and shipping**  
+
 Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
 
 You can refund transactions processed through the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/getting-started/glossary/#backend).
@@ -18,14 +19,17 @@ You can refund transactions processed through the deprecated plugin in your [Mul
 **Note:** After deleting the deprecated plugin, shipment requests for orders created in it are not automatically sent to MultiSafepay. You must set the order status to **Shipped** manually in your [MultiSafepay account](https://merchant.multisafepay.com).
 
 **Changes to configuration fields**  
+
 Under **General settings**, we have changed the following configuration fields from the deprecated plugin.
 
 If you want one of these features back, email the Integration Team at <integration@multisafepay.com>
 
-**Email invoice to customer**  
+**Emailing invoices to customers**  
+
 This feature is still supported in the new plugin, but it now uses the following Magento core configuration field: **Sales** > **Sales emails** > **Invoice** > **Enabled**.
 
-**Order status**  
+**Order status** 
+
 We have removed the following **Order status** fields:
 
 - **Declined**
@@ -36,17 +40,21 @@ We have removed the following **Order status** fields:
 All MultiSafepay statuses now set the order to the default **Canceled** status via the offline action.
 
 **Create payment link**  
+
 We have removed this field. Payment links are now generated automatically. See [Retrieving payment links](/payments/integrations/ecommerce-platforms/magento2/faq/retrieving-payment-links/).
 
 **Reset gateway**  
+
 We have removed this field. When creating an order in the Magento 2 backend, you can now select the MultiSafepay payment gateway instead. The payment gateway displays all active payment gateways to the customer based on the website settings in your MultiSafepay account. 
 
 To enable or disable the gateway on your checkout page, we have added the **Can use checkout** configuration field.
 
 **Keep cart alive**  
+
 We have removed this field. Now the cart is always kept alive when the customer clicks the back button on the MultiSafepay payment page.
 
 **Changes to order status flow**  
+
 We have updated the order status flow from version 2.5.0:
 
 - All new orders first receive **Pending** status.
@@ -56,6 +64,7 @@ We have updated the order status flow from version 2.5.0:
 - For bank transfer payment methods, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
 
 **Changes to the checkout**  
+
 For the following payment methods, we have changed the default payment flow from [redirect to direct](/developer/api/difference-between-direct-and-redirect/):
 
 - Afterpay

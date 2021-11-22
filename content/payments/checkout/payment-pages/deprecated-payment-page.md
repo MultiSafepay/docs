@@ -1,7 +1,7 @@
 ---
-title : "Deprecated version"
+title : "Deprecated payment pages"
 weight: 60
-meta_title: "Payment pages - Deprecated version - MultiSafepay Docs"
+meta_title: "Deprecated payment pages - MultiSafepay Docs"
 
 read_more: '.'
 url: '/payment-pages/deprecated/'
@@ -31,7 +31,7 @@ It does **not** support the following payment methods:
 | Category   | Payment methods     |
 |----------------|-------------------|
 | Banking methods | Bancontact QR, Belfius, CBC, EPS, iDEALQR, ING Home'Pay, KBC, Request to Pay, Santander, Sofort, Trustly     |
-| Billing Suite | AfterPay, in3, Klarna     |
+| Pay later methods | AfterPay, in3, Klarna     |
 | Wallets | Alipay, Apple Pay, JCB    |
 | Prepaid cards | PaySafecard   |  
 

@@ -1,7 +1,7 @@
 ---
 title: "Difference between direct and redirect API requests"
 weight: 1
-meta_title: "API Documentation - Difference between direct and redirect - MultiSafepay Docs"
+meta_title: "Difference between direct and redirect - MultiSafepay Docs"
 read_more: "."
 aliases:
     - /faq/api/difference-between-direct-and-redirect

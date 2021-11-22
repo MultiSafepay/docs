@@ -11,26 +11,35 @@ aliases:
     - /payments/methods/billing-suite/pay-after-delivery/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant MF as MultiFactor
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects Pay After Delivery at checkout
+    Mu->>C: Connects to MultiFactor (direct/redirect)
+    MF->>Mu: Authorizes the payment (within 2 business days)
+    Mu->>MF: Captures the funds
+    Me->>C: Ships the order
+    Note over Me,C: Manually change the order status to Shipped! 
+    MF->>C: Sends invoice (within 24 hours of Shipped status)
+    Note over MF,C: Settlement is now guaranteed!
+    C->>MF: Completes payment (within 14 days)
+    MF->>Mu: Transfers funds 
+    Mu->>Me: Settles funds (within 30 days of Shipped status)
 
-{{< /details >}}
-
-|   | Flow  | Order status  | Transaction status  |
-|---|---|---|---| 
-| 1. | The customer agrees with the terms and conditions and initiates a transaction. | Uncleared   | Uncleared | 
-| 2. | Pay After Delivery authorizes the payment within 2 business days. |  |  | 
-| 3. | Once authorized, MultiSafepay sends Pay After Delivery a capture. | Completed | Uncleared | 
-| 4. | Ship the order. {{< br >}} You **must**: {{< br >}} - Ship the order to receive payment. {{< br >}} - Manually [change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/user-guide/changing-order-status-to-shipped/). | Shipped | Uncleared |
-| 5. | MultiFactor invoices the customer within 24 hours of changing to **Shipped** status. {{< br >}} Settlement is now guaranteed. |  |  |
-| 6. | The customer has 14 days to pay the invoice.  |  |  |
-| 7. | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status.  | Shipped | Completed |
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The order details are sent directly to MultiFactor. | [API reference](/api/#pay-after-delivery---direct) |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | [API reference](/api/#pay-after-delivery---redirect) |
 
 ### Failure to pay
 
@@ -40,12 +49,12 @@ If the customer fails to pay within the initial 14 day period, MultiFactor email
 - With the third, we add a fee of 7.50 EUR to the invoice. 
 - With the fourth, we add a fee of 12.50 EUR to the invoice. 
 
-If the customer still fails to pay, the amount of the total invoice is transferred to a debt collection agency. 
+If the customer still fails to pay, the total invoice is transferred to a debt collection agency. 
 
 To stop sending reminders, you can either:
 
 - Credit the invoice for a zero amount, or
-- Request to place the transactin on hold for up to 1 month
+- Request to place the transaction on hold for up to 1 month
 
 Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
 Provide the following information:
@@ -54,13 +63,18 @@ Provide the following information:
 - Reason for your request
 - Expected date to start the billing process again
 
-### Unsuccessful statuses
-You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
+## Payment statuses
 
-See also [Closing transactions](/payments/methods/billing-suite/pay-after-delivery/faq/closing-transactions).
+**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-| Description  | Order status  | Transaction status  |
-|---|---|---| 
+**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Uncleared   | Uncleared | 
+| Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See [Closing transactions](/payments/methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Completed | Uncleared | 
+| **Important:** [Manually change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/user-guide/changing-order-status-to-shipped/). | Shipped | Uncleared |
+| The transaction is complete.  | Shipped | Completed |
 | The transaction has been cancelled. | Void   | Cancelled | 
 | The customer did not complete payment within 90 days and the transaction expired. | Expired | Expired | 
 
@@ -69,6 +83,6 @@ See also [Closing transactions](/payments/methods/billing-suite/pay-after-delive
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |  
-| The refund is successfully processed. | Completed | Completed | 
+| The refund is complete. | Completed | Completed | 
 
-
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

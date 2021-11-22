@@ -1,7 +1,7 @@
 ---
 title: "Logos and icons"
 Weight: 12
-meta_title: "General developer information - Logos and icons - MultiSafepay Docs"
+meta_title: "Logos and icons - MultiSafepay Docs"
 
 read_more: "."
 aliases:

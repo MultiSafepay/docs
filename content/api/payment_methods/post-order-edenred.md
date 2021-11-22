@@ -6,12 +6,11 @@ meta_title: "API reference - Create an Edenred order - MultiSafepay Docs"
 {{< code-block >}}
 > POST - / order 
 
-
 ```json 
 {
   "type": "redirect",
   "order_id": "my-order-id",
-  "gateway": "EDENCO",
+  "gateway": "EDENCOM",
   "currency": "EUR",
   "amount": 100,
   "description": "Test order description",
@@ -75,7 +74,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | optional
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
 
 Options:  
@@ -98,7 +97,7 @@ The amount (in cents) the customer needs to pay.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
