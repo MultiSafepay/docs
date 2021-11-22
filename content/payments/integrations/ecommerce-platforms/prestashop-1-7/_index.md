@@ -135,7 +135,7 @@ When you update from an older version of the plugin to 5.x, keep the older versi
 2. Open the **Payment Methods** tab
 3. Set all Payment Methods to **off**.
 4. Open the **Giftcards** tab
-5. Set all Giftcards to off
+5. Set all gift cards to **off**.
 6. Install and configure the new plugin following the instructions below
 7. Don't uninstall the older plugin until you are sure all orders created with that plugin have been fully processed 
 
