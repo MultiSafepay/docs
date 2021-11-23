@@ -43,10 +43,12 @@ meta_title: "API reference - Create a co-branded credit card order - MultiSafepa
 {{< description >}}
 ### Co-branded credit cards 
 
-- See also Payment methods:  
-  - [Cartes Bancaires](/payment-methods/cartes-bancaires)
-  - [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
-  - [Postepay](/payments/methods/credit-and-debit-cards/postepay)  
+- See also:  
+  - [Cartes Bancaires](/payment-methods/cartes-bancaires/)
+  - [Dankort](/payment-methods/dankort/) 
+  - [Maestro](/payment-methods/maestro/)
+  - [Postepay](/payment-methods/postepay/) 
+  - [V Pay](/payment-methods/vpay/)  
 - Redirect only.
 
 **Parameters**
