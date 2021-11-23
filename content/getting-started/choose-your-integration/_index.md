@@ -1,14 +1,14 @@
 ---
-title: 'Create your integration'
-breadcrumb_title: 'Create your integration'
+title: 'Choose your integration'
+breadcrumb_title: 'Choose your integration'
 weight: 10
-meta_title: "Getting Started - Create your integration - MultiSafepay Docs"
+meta_title: "Getting Started - Choose your integration - MultiSafepay Docs"
 
 read_more: "."
 logo: '/svgs/Integrations.svg'
 layout: 'single'
 weight: 30
-short_description: "Choose a ready-made solution or build a custom integration."
+short_description: "Choose a ready-made solution or build your own."
 aliases:
     - /getting-started/build-your-integration
 ---
@@ -22,11 +22,10 @@ MultiSafepay's integrations developed in-house require fewer development resourc
 
 {{< two-buttons href-2="/integrations/ready-made" text-2="Ready-made integrations" description-2="Integrations for platforms like Magento, WooCommerce, Shopware, and Lightspeed." img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
 
-## Custom integrations
+## Self-made integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
-{{< two-buttons href-2="/api/" text-2="API reference" img-2="/svgs/API.svg" description-2="Gives you full control." alt-2="API Reference logo" >}}
-{{< two-buttons href-2="/integrations/wrappers" text-2="Wrappers and SDKs" description-2="Facilitate easier, faster development." img-2="/svgs/Wrappers.svg" alt-2="Wrappers and SKDs logo" >}}
+{{< two-buttons href-2="/integrations/self-made/" text-2="Build your integration" img-2="/svgs/Wrappers.svg" description-2="Gives you full control." alt-2="Build your own logo" >}}
 
 ## Next steps
 

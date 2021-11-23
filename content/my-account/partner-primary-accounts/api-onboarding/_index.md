@@ -54,7 +54,6 @@ The API returns a unique UBO identifier, which you can use to submit the UBO ide
 See API reference – [Add websites](/api-onboarding/add-websites/) for how to submit the following information about merchants' website(s):
 
 - Website name and URL
-- [Notification URL](/developer/api/notification-url)
 - Contact details for customer support
  
 The API returns an API key for the website. 
