@@ -136,7 +136,7 @@ else:
 ```
 {{< /details >}}
 
-## Respond to the notification
+## Respond to notifications
 
 To acknowledge the successful receipt of a valid notification, return:
 
@@ -145,6 +145,10 @@ To acknowledge the successful receipt of a valid notification, return:
 - HTTP message body containing `MULTISAFEPAY_OK`
 
 While we haven't received an acknowledgement, we resend the notification four times at 15 minute intervals, each including a new timestamp.
+
+---
+
+You've successfully configured your webhook endpoint and web server to handle notifications. For next steps, either review our API reference documentation or test your integration.
 
 {{< two-buttons href-2="/api/" text-2="API reference" description-2="Our comprehensive API reference documentation." img-2="/svgs/API.svg" alt-2="Right arrow" >}}
 
