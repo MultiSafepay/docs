@@ -1,31 +1,33 @@
 ---
-title: "Generic gateways"
+title: "Generic gateways in ready-made integrations"
 weight: 13
-meta_title: "Generic gateways - MultiSafepay Docs"
+meta_title: "Generic gateways in ready-made integrations - MultiSafepay Docs"
 read_more: "."
+url: '/integrations/generic-gateways/'
 aliases:
     - /faq/general/generic-gateways/
+    - /developer/general/generic-gateways/
 ---
 
-In our plugins, we use predefined gateways for specific payment methods. When we start supporting a new payment method, you need to update your plugin to use the new gateway. 
+Some of our ready-made integrations use generic gateways, which connect to almost all payment methods we offer. Simply specify the payment method name, logo, and code. 
 
-To avoid this, some of our plugins use generic gateways which include a flexible gateway code that lets them connect to almost every payment method we offer, without updating the plugin.
+This avoids the need to update your plugin when we start supporting a new payment method to add its unique gateway. 
 
-### Requirements
+Generic gateways support [redirect requests](/developer/api/difference-between-direct-and-redirect/) only.
 
-Generic gateways only support [`redirect`](/developer/api/difference-between-direct-and-redirect/) requests.
+## Applications
 
-## Gift cards 
+### Gift cards 
 
-Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/getting-started/glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
+Generic gateways can be particularly useful for gift cards, because we don't support all [open-loop gift cards](/payment-methods/gift-cards/open-loop-closed-loop/) in our ready-made integrations and **no** closed-loop gift cards. 
 
-For more information about integrating open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>
+To use generic gateways for gift cards, email the Integration Team at <integration@multisafepay.com>
 
-## Co-branded credit cards
+### Co-branded credit cards
 
-You can integrate Visa co-branded credit cards, such as [Cartes Bancaires](/payments/methods/cartes-bancaires/) and [Dankort](/payments/methods/dankort/), using the generic `VISA` gateway code.  
+You can integrate Visa co-branded credit cards ([Cartes Bancaires](/payment-methods/cartes-bancaires/), [Dankort](/payment-methods/dankort/), [V&nbsp;Pay](/payment-methods/vpay/)), using the generic `VISA` gateway.  
 
-For the gateway image, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
+For the logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
 
 ## Specific plugins
 For more information about generic gateways for a specific plugin, see:
