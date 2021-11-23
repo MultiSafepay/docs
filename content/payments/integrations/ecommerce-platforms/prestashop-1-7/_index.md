@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for PrestaShop 1.7"
 github_url : "https://github.com/MultiSafepay/PrestaShop"
 meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
-download_url : "https://github.com/MultiSafepay/PrestaShop/releases/download/4.8.0/Plugin_PrestaShop_4.8.0.zip"
+download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.0.0/Plugin_PrestaShop_5.0.0.zip"
 changelog_url : "."
 faq: "."
 logo: "/logo/Plugins/PrestaShop.svg"
@@ -23,11 +23,6 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/
     - /ecommerce-platforms/prestashop-1-7/
 ---
-
-{{< alert-notice >}}
-**Important:** There is a new release candidate for our PrestaShop 1.7 plugin for version 1.7.6 or higher available to [download now](/payments/integrations/ecommerce-platforms/prestashop-1-7/releases/Plugin_PrestaShop_5.0.0-RC2.zip). 
-{{< /alert-notice>}}
-
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
 
 {{< details title="Test environment" >}}
@@ -49,8 +44,10 @@ Contact us:
 {{< details title="Requirements" >}}
 
 - MultiSafepay account – See [Getting started](/getting-started/).
-- PrestaShop 1.7
-- Tested on PHP 7.0
+- PrestaShop 1.7.6 or higher
+- Tested on PHP 7.2
+
+If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
 
 {{< /details >}}
 
@@ -61,6 +58,7 @@ Contact us:
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+
 
 **Banking methods**
 
@@ -95,19 +93,24 @@ Contact us:
 **Wallets**
 
 + [Alipay](/payment-methods/alipay)
-+ [Apple Pay](/payments/methods/wallet/applepay)
++ [Apple Pay](/payment-methods/apple-pay/)
++ [Google Pay](/payment-methods/google-pay/)
++ [WeChat Pay](/payment-methods/wechat-pay/)
 + [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
-+ Beauty and Wellness gift card
++ Baby Giftcard
++ Beauty and wellness
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
 + [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
 + [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ Givacard
 + [Good4fun](https://www.good4fun.nl)
++ Goodcard
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/paysafecard)
@@ -117,23 +120,39 @@ Contact us:
 + [Webshop gift card](https://www.webshopgiftcard.nl)
 + [Wellness gift card](https://www.wellnessgiftcard.nl)
 + Wijncadeau
++ [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
+
+{{< /details >}}
+
+{{< details title="Upgrading to version 5.x from an older version" >}}
+
+When you update from an older version of the plugin to 5.x, keep the older version installed until you are sure that orders created with the new plugin are successfully processed.
+
+## Switching to the new plugin
+
+1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**.
+2. Open the **Payment Methods** tab.
+3. Set all Payment Methods to **off**.
+4. Open the **Giftcards** tab.
+5. Set all gift cards to **off**.
+6. Install and configure the new plugin following the instructions below.
+7. Don't uninstall the older plugin until you are sure that orders created with the new plugin are successfully processed 
 
 {{< /details >}}
 
 ## Installation
 1. Sign in to your PrestaShop 1.7 [backend](/getting-started/glossary/#backend).
-2. Go to **Modules** > **Modules & services**.
+2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 
 ## Configuration
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Modules & services**.
-3. Search for MultiSafepay, and then click **Configure**.
-4. Enter your [API key](/getting-started/glossary/#api-key). {{% account_info %}}
+2. Go to **IMPROVE** > **MultiSafepay**.
+3. Enter your [API key](/getting-started/glossary/#api-key). {{% account_info %}}
+4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
-3. On the **Payments** tab, enable the relevant payment methods.
 
 
 
