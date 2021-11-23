@@ -9,9 +9,9 @@ aliases:
     - /developer/general/generic-gateways/
 ---
 
-Some of our ready-made integrations use generic gateways, which connect to almost all payment methods we offer. Simply specify the payment method name, logo, and code. 
+Some of our ready-made integrations use a generic gateway, which connects to almost all payment methods we offer. Simply specify the payment method name, logo, and code. 
 
-This avoids the need to update your plugin when we start supporting a new payment method to add its unique gateway. 
+This avoids the need to update your plugin to support the unique gateway for new payment methods. 
 
 Generic gateways support [redirect requests](/developer/api/difference-between-direct-and-redirect/) only.
 
@@ -19,9 +19,11 @@ Generic gateways support [redirect requests](/developer/api/difference-between-d
 
 ### Gift cards 
 
-Generic gateways can be particularly useful for gift cards, because we don't support all [open-loop gift cards](/payment-methods/gift-cards/open-loop-closed-loop/) in our ready-made integrations and **no** closed-loop gift cards. 
+Use the generic gateway to integrate [custom gift cards](/payment-methods/gift-cards/custom-cards/).
 
-To use generic gateways for gift cards, email the Integration Team at <integration@multisafepay.com>
+The generic gateway is particularly useful for gift cards, because we don't support all [open-loop gift cards](/payment-methods/gift-cards/open-loop-closed-loop/) in our ready-made integrations and **no** closed-loop gift cards. 
+
+For support, email the Integration Team at <integration@multisafepay.com>
 
 ### Co-branded credit cards
 
