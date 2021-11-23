@@ -25,7 +25,6 @@ Then, consider:
 
 - [Adding a financial email address](/account/adding-financial-email-address/) for us to send invoices to. 
 - [Enabling two-factor authentication](/account/enabling-2FA/) for an additional layer of security for your account.
-- [Setting your notification URL](/account/setting-your-notification-url/) for us to send notifications about orders.
 - [Downloading the MultiSafepay app](/account/multisafepay-app/) to manage your account on the go.
 
 For full guidance, see [Account setup](/account/account-setup/).

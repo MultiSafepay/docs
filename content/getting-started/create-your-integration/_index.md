@@ -26,8 +26,8 @@ MultiSafepay's integrations developed in-house require fewer development resourc
 ## Custom integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
-{{< two-buttons href-2="/api/" text-2="API reference" img-2="/svgs/API.svg" description-2="Gives you full control." alt-2="API Reference logo" >}}
 {{< two-buttons href-2="/integrations/wrappers" text-2="Wrappers and SDKs" description-2="Facilitate easier, faster development." img-2="/svgs/Wrappers.svg" alt-2="Wrappers and SKDs logo" >}}
+{{< two-buttons href-2="/api/" text-2="Build your own" img-2="/svgs/SDKs.svg" description-2="Gives you full control." alt-2="Build your own logo" >}}
 
 ## Next steps
 
