@@ -11,70 +11,140 @@ weight: 30
 short_description: "Build your own custom integration."
 ---
 
-## Set up webhooks
+## Configure webhook
 
-- Always use **https** in the `notification_url`.
+MultiSafepay provides a webhook that sends event notifications to your web server when the transaction status of an order changes.
 
-We recieve the following request from your web server:
+To use this webhook you need to set a webhook endpoint. The webhook endpoint must:
+- Be an URL that can be accessed [from the public web](/developer/errors-explained/multisafepay-ip-ranges/)
+- Be a HTTPS endpoint (HTTP endpoints aren't accepted for security reasons)
+- Not include port numbers
+
+### For website
+
+1. Sign in to your MultiSafepay account.
+2. Go to **Settings** > **Website settings**.
+3. Select the relevant website.
+4. In the **Notification URL** field, set your webhook endpoint.
+
+### For order
+
+1. [Create an order](/api/#orders) via our API.
+2. In the request body, set:
+	- `payment_options.notification_url` to your webhook endpoint
+	- `payment_options.notification_method` to `POST`
+
+**Example**:
 
 ```
-"order_id": 12345,  
-"payment_options": {
-    "notification_url": "https://yourdomain.com/index/paymentprovidernotification?invoice_id=840",
-    "notification_method": "POST",
-}
+curl -X POST \
+"https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
+-d '{
+  "type": "direct",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 1000,
+  "gateway": "PAYAFTER",
+  "description": "product description",
+  // This request is truncated
+  "payment_options": {
+      "notification_url": "https://www.example.com/paymentnotification",
+      "notification_method": "POST"
+  }
+}'
 ```
 
-When the status of this transaction changes, we notify your web server at the following URL through a `POST` request: https://yourdomain.com/index/paymentprovidernotification?invoice_id=840&transactionid=12345&timestamp=140292929
+**Note:**
+If you leave the `notification_url` parameter empty in the API request then the **Notification URL** set in your [MultiSafepay account](https://merchant.multisafepay.com) is used.
 
 ## Handle event notifications
 
-We add 2 parameters to the notification request:
+When the transaction status of an order changes, we notify your web server at the following URL through a `POST` request:  
+`{your-webhook-endpoint}&transactionid=12345&timestamp=140292929`
 
-- `transaction_id`  
+This URL is your webhook endpoint combined with two additional parameters:
+
+- `transactionid`  
 - `timestamp`
 
-For `POST` requests, we add the order data to the request body.
+We add the current order details to the request body.
 
-You can ignore requests if:
+**Note:** You can ignore event notifications if:
 
 - We request the `notification_url` without the `timestamp` parameter.  
 - You receive the same [order status](/payments/multisafepay-statuses/). 
 
 ## Validate event notifications
 
-Before accepting the order data, you need to validate the `POST` notification request by comparing the provided and calculated signature/hash.
+Every `POST` notification request includes a signature that you must use to validate its authenticity.
 
-To calculate the signature/hash, follow these steps:
+To validate the notification:
 
-1. Base64 decode the Auth header.
-2. Split the decoded Auth header using the colon (`:`) as separator. The first string is the timestamp, the second string is a SHA512 hash of the payload.
-3. Concatenate the timestamp, colon, and (non-hashed) payload of the notification.
-4. SHA512 hash the concatenated string that resulted from step 3 using your [website API key](/account/site-id-api-key-secure-code/) as HMAC key.
-5. Check whether the the SHA512 hash that resulted from step 4 matches the SHA512 hash from step 2.
+1. Base64 decode the `Auth` header value of the request.
+2. Split the decoded `Auth` header value using the colon (`:`) as separator.
+    - The first string is the timestamp.
+    - The second string is the hash-based signature. 
+3. Concatenate the:
+    - Timestamp
+    - colon (`:`)
+    - Payload of the request
+4. SHA512 hash the concatenated string that resulted from step 3 using your API key as HMAC key.
+5. For valid requests, the hashed value from step 4 matches the hash-based signature from step 2.
 
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
-Check the `status` field in the response and update the status of the order in your backend.
+{{< details title="Sample notification validation in Python" >}}
 
-## Send event notification responses
+``` python
+#!/usr/bin/python
 
-For the response, we expect an empty page with either:
+import argparse
+import base64
+import hashlib
+import hmac
+import sys
 
-- "OK" as the first two characters in the response body **or**
-- "MULTISAFEPAY_OK" anywhere in the response body
+# Parse command-line arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("-k", "--apikey", help="API key", required=True)
+parser.add_argument("-p", "--payload", help="Payload", required=True)
+parser.add_argument("-a", "--authheader", help="Auth header", required=True)
+args = parser.parse_args()
 
-If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend the notification with a timestamp. Notifications are repeated twice within 15 minutes. 
+# Step 1: Base64 decode the auth header
+encoded_auth_bytes = args.authheader.encode("ascii")
+decoded_auth_bytes = base64.b64decode(encoded_auth_bytes)
+decoded_auth = decoded_auth_bytes.decode("ascii")
 
----
+# Step 2: Split the decoded auth header
+timestamp = decoded_auth.split(':')[0]
+signature = decoded_auth.split(':')[1]
 
-### Note:
+# Step 3: Concatenate the timestamp, colon, and payload
+concatenated_string = timestamp + ":" + args.payload
 
-- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay account](https://merchant.multisafepay.com).
-- Never include port numbers in your notification URL. For security reasons, we only process standard ports.
-- Make sure you authorize our [IP ranges](/developer/errors-explained/multisafepay-ip-ranges/) to access the notification URL.
+# Step 4: SHA512 hash the concatenated string
+hashed_value = hmac.new(args.apikey.encode(), concatenated_string.encode(), hashlib.sha512).hexdigest()
 
+# Step 5: Compare the hashed value with the signature
+if hashed_value == signature:
+	print("The notification is authentic")
+	sys.exit(0)
+else:
+	print("Error: The notification is not authentic")
+	sys.exit(1)
+```
+{{< /details >}}
 
+## Respond to the notification
+
+To acknowledge the successful receipt of a valid notification, return:
+
+- HTTP status code `200` 
+- HTTP message body starting with `OK` or
+- HTTP message body containing `MULTISAFEPAY_OK`
+
+While we haven't received an acknowledgement, we resend the notification four times at 15 minute intervals, each including a new timestamp.
 
 {{< two-buttons href-2="/api/" text-2="API reference" description-2="Our comprehensive API reference documentation." img-2="/svgs/API.svg" alt-2="Right arrow" >}}
 
