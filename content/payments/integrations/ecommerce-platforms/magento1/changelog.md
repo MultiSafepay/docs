@@ -4,6 +4,15 @@ meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
 aliases: [/integrations/magento1/changelog/]
 ---
 
+## 3.1.2
+Release date: Nov. 23rd, 2021
+
+### Fixed
++ PLGMAGONE-734: Fix unable to create backend orders (items not showing)
++ PLGMAGONE-735: Fix conflict with service cost and non MultiSafepay plugins
+
+***
+
 ## 3.1.1
 Release date: Sep 16, 2021
 
