@@ -33,36 +33,48 @@ sequenceDiagram
 
 |  |  |  |
 |---|---|---|
-| **Direct flow** | 1. The customer is redirected to your success page. {{< br >}} 2. MultiSafepay emails them the payment details to transfer the funds. {{< br >}} **Or** you can email them the payment details yourself, e.g. for consistent, branded communications. {{< br >}} To prevent us from emailing the customer, in your `POST /orders` request, set the `disable_send_email` parameter to `true`. | [API reference](/api/#bank-transfer---direct) |
-| **Redirect flow** | 1. The customer is redirected first to a [MultiSafepay payment page](/payment-pages/). {{< br >}} 2. They confirm their bank account number (helps us match payments correctly) and (optionally) bank country. {{< br >}} 3. The customer clicks **Confirm**. {{< br >}}**Note:** Required to successfully create the transaction in our system. {{< br >}} 4. The payment details are displayed for the customer to transfer the funds. | [API reference](/api/#bank-transfer---redirect) |
+| **Direct flow** | The customer is redirected to your success page. | [API reference](/api/#bank-transfer---direct)  |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/). {{< br >}} They enter their bank account number and bank country, and then click **Confirm** (creates the transaction in our system). {{< br >}} | [API reference](/api/#bank-transfer---redirect) |
 
-### Example payment details
+## 1. Email payment details
 
-You can view the payment details for a transaction in your MultiSafepay account, in the relevant **Transaction details** page under **Offline actions**.
+MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can [email them yourself](/payment-methods/bank-transfer/payment-flow/#emailing-payment-instructions-yourself).
 
 {{< screen src="/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius" >}}
 
-## Customers transfering funds
+You can view the payment details for a transaction in your MultiSafepay account, in the relevant **Transaction details** page under **Offline actions**.
 
-When transfering the funds, the customer must correctly input:  
+### Emailing payment instructions yourself
 
+You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;2.&nbsp;below).
+
+To prevent us from emailing the customer, in your `POST /orders` request, set the `disable_send_email` parameter to `true`. See API reference – [Bank Transfer](/api/#bank-transfer).
+
+## 2. Customer transfers funds
+
+The customer must only pay for **one** order per transfer. When transfering the funds, they must correctly input:  
+    
 - The amount
-- The payment reference number (16 digits, numbers only, no words)
-- Their bank account number (optional, but recommended to help us match payments correctly)
+- Their bank account number
+- The payment reference number (**not** the order number)  
+    **Format:** 16 digits, numbers only, no words
 
-## Matching payments
+## 3. MultiSafepay matches the payment
 
-We match incoming payments to the correct outstanding transactions in our system.
+When we receive payment from the customer (1–3 business days later), we automatically match it to the corresponding transaction in our system based on the payment details provided. If auto-matching fails, we try to match the payment manually.
 
-If the payment details or amount are missing or incorrect and we can't match the payment, we refund it to the customer. 
+If we cannot match the payment:
 
-To help avoid this, see [Unmatched payments](/bank-transfer/unmatched-payments/).
+- For smaller amounts, we refund the customer.
+- For larger amounts, we contact you for information to help identify the correct transaction.
+
+This costs all parties time and effort, and creates a negative customer experience. 
+
+See [Resolving unmatched payments](/bank-transfer/unmatched-payments/).
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -78,4 +90,3 @@ To help avoid this, see [Unmatched payments](/bank-transfer/unmatched-payments/)
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund is complete. | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
