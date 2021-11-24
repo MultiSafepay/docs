@@ -89,4 +89,3 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund is complete. | Completed | Completed |
-
