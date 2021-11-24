@@ -4,6 +4,14 @@ meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
 aliases: [/integrations/magento1/changelog/]
 ---
 
+## 3.1.3
+Release date: Nov. 24th, 2021
+
+### Fixed
++ PLGMAGONE-736: Fix invalid method backendOrdersAllowed on backend orders
+
+***
+
 ## 3.1.2
 Release date: Nov. 23rd, 2021
 
