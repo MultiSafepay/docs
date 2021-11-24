@@ -18,6 +18,6 @@ For full guidance, see [Test your integration](/payments/testing/).
 ## Next steps
 
 {{< two-buttons
-href-1="/getting-started/build-your-integration" header-1="Previous" text-1="Build your integration" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/getting-started/create-your-integration" header-1="Previous" text-1="Create your integration" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
 href-2="/getting-started/go-live" header-2="Next" text-2="Onboard and go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

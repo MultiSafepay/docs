@@ -1,14 +1,16 @@
 ---
-title: 'Build your integration'
-breadcrumb_title: 'Build your integration'
+title: 'Create your integration'
+breadcrumb_title: 'Create your integration'
 weight: 10
-meta_title: "Getting Started - Build your integration - MultiSafepay Docs"
+meta_title: "Getting Started - Create your integration - MultiSafepay Docs"
 
 read_more: "."
 logo: '/svgs/Integrations.svg'
 layout: 'single'
 weight: 30
 short_description: "Choose a ready-made solution or build a custom integration."
+aliases:
+    - /getting-started/build-your-integration
 ---
 
 We support multiple [integration](/getting-started/glossary/#integration) methods. Choose one that matches your business needs and tech stack.   
