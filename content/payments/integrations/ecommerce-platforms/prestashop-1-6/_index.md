@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay plugin for PrestaShop 1.6"
-download_url : "/payments/integrations/ecommerce-platforms/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.6.0.zip"
+download_url : "/payments/integrations/ecommerce-platforms/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.7.0.zip"
 changelog_url : "."
 changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/prestashop-1-6/changelog/
 faq: "."
@@ -80,6 +80,7 @@ Contact us:
 
 + [AfterPay](/payments/methods/billing-suite/afterpay)
 + [E-Invoicing](/payment-methods/e-invoicing)
++ [in3](/payment-methods/in3)
 + [Klarna](/payment-methods/klarna)
 + [Pay After Delivery](/payment-methods/pay-after-delivery)
 
@@ -98,6 +99,7 @@ Contact us:
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Good4fun](https://www.good4fun.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/paysafecard)
 + [Sport en Fit](https://www.sportenfitcadeau.nl)
