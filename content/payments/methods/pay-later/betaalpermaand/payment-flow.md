@@ -52,7 +52,7 @@ sequenceDiagram
 |---|---|---|
 | The customer has initiated a transaction. {{< br >}} To cancel it, email <support@multisafepay.com> | Uncleared   | Initialized  |
 | Betaal per Maand is authorizing the payment. | Uncleared   | Uncleared  |
-| MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via our [webhook](/developer/api/webhooks/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | **Important:** {{< br >}} - [Manually change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/user-guide/changing-order-status-to-shipped/). {{< br >}} - [Send us the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
 | The transaction is complete. | Shipped    | Completed  |
 | Santander has declined the payment. {{< br >}} They only provide the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
