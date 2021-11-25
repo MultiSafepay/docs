@@ -4,6 +4,25 @@ meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Docs"
 aliases: [/integrations/prestashop-1-6/changelog/]
 ---
 
+## 3.7.0
+Release date: Nov 25th, 2021
+
+### Added
++ DAVAMS-232: Add support for in3 payment method
++ PLGPRSS-420: Add Payment Component support for Credit Card payment method
++ PLGPRSS-409: Add support for gift products within the Shopping Cart object
++ PLGPRSS-406: Add support for Good4fun gift card
+
+### Fixed
++ PLGPRSS-414: Fix locale code when submit the Order Request, which was generating errors in case payment address code of the customer is different from the language selected
+
+### Changed
++ PLGPRSS-408: When a payment is cancelled, the shopping cart will not be emptied
++ DAVAMS-314: Rebrand Klarna with new logo
++ DAVAMS-298: Rebrand Direct Bank Transfer as Request to Pay
+
+***
+
 ## 3.6.0
 Release date: Jul 21, 2020
 
