@@ -13,7 +13,7 @@ short_description: "Build your own custom integration."
 
 ## Configure webhook
 
-MultiSafepay provides a webhook that sends event notifications to your web server when the transaction status of an order changes.
+MultiSafepay provides a [webhook](/developer/api/webhooks/) that sends notifications to your web server when the status of an order changes.
 
 To use this webhook you need to set a webhook endpoint. The webhook endpoint must:
 - Be an URL that can be accessed [from the public web](/developer/errors-explained/multisafepay-ip-ranges/)
@@ -22,7 +22,7 @@ To use this webhook you need to set a webhook endpoint. The webhook endpoint mus
 
 ### For website
 
-1. Sign in to your MultiSafepay account.
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. In the **Notification URL** field, set your webhook endpoint.
@@ -57,24 +57,26 @@ curl -X POST \
 **Note:**
 If you leave the `notification_url` parameter empty in the API request then the **Notification URL** set in your [MultiSafepay account](https://merchant.multisafepay.com) is used.
 
-## Handle event notifications
+## Handle notifications
 
-When the transaction status of an order changes, we notify your web server at the following URL through a `POST` request:  
+When the status of an order changes, we notify your web server at the following URL through a `POST` request:  
 `{your-webhook-endpoint}&transactionid=12345&timestamp=140292929`
 
 This URL is your webhook endpoint combined with two additional parameters:
 
 - `transactionid`  
-- `timestamp`
+  Your unique identifier for the order
+- `timestamp`  
+  The time the notification was triggered
 
-We add the current order details to the request body.
+We add the current order details to the request body. Check the order status in the `status` field and update the status of the order in your backend.
 
-**Note:** You can ignore event notifications if:
+**Note:** You can ignore notifications that:
 
-- We request the `notification_url` without the `timestamp` parameter.  
-- You receive the same [order status](/payments/multisafepay-statuses/). 
+- Don't have the `timestamp` parameter in the URL.  
+- Have the same [order status](/payments/multisafepay-statuses/). 
 
-## Validate event notifications
+## Validate notifications
 
 Every `POST` notification request includes a signature that you must use to validate its authenticity.
 

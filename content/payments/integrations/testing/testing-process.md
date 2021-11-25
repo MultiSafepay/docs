@@ -48,22 +48,7 @@ To check the transaction details in your MultiSafepay test account:
 
 For information about transaction statuses, see [Test payment details](/testing/test-payment-details/).
 
-## 4. Set the notification URL
-
-MultiSafepay uses the notification URL as a webhook to send [transaction status](/payments/multisafepay-statuses/) updates to your integration.
-
-For custom-built integrations, first create a webhook listener that listens at the notification URL. For more information, see [Notification URL](/developer/api/notification-url/).
-
-For all integrations, to set the notification URL in your MultiSafepay test account, follow these steps:
-
-1. Go to **Settings** > **Website settings**.
-2. Select the relevant website.
-3. In the **Notification URL** field, enter your [notification URL](/tools/multisafepay-control/setting-your-notification-url/).
-4. Click **Save**.
-
-**Note:** If you provide a `notification_url` in your `POST /orders` request, it overrides the notification URL in your MultiSafepay test account. 
-
-## 5. Check your connection with MultiSafepay
+## 4. Check your connection with MultiSafepay
 
 To check that you have succesfully connected to our system, follow these steps:
 
