@@ -60,7 +60,7 @@ For more information about using Apple Pay, see Apple – [How to use Apple Pay]
 | The customer has initiated a transaction. | Initialized | Initialized |
 | [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
-| The transaction has been cancelled. | Void   | Void   |
+| The transaction has been cancelled or the customer has requested a chargeback. | Void   | Void   |
 | The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
 | The issuer has declined the transaction (see possible reasons below). | Declined | Declined   |
 
@@ -89,7 +89,6 @@ For any questions, email the Support Team at <support@multisafepay.com>
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed  | Completed  |
-| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
