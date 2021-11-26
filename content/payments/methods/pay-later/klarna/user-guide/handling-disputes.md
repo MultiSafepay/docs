@@ -6,7 +6,7 @@ weight: 1
 url: '/klarna/handling-disputes/'
 ---
 
-Resolve any order disputes with customers in the Disputes app in the Klarna Merchant Portal. 
+The best way of handling order disputes with customers is with the Disputes app in the Klarna Merchant Portal. 
 
 ## Connecting to the Klarna Merchant Portal
 
@@ -15,8 +15,8 @@ Resolve any order disputes with customers in the Disputes app in the Klarna Merc
 2. Click **Activate account**.
 3. Read the Merchant Portal Agreement, agree to the terms and conditions, and then click **Continue**.
 4. Enter a password, and click **Update password**.
-5. Enter your first and last names, and click **Update profile**.
-6. To log in for the first time, enter your email address and the password you just created, and then click **Log in**.
+5. Enter your first and last names, and then click **Update profile**.
+6. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
 ### Setting up two-factor authentication
 If you want to increase the security of your account, set up two-factor authentication with the Google Authenticator app.
@@ -28,9 +28,13 @@ If you want to increase the security of your account, set up two-factor authenti
 
 ## Getting started with Disputes
 
-1. In the lefthand side menu, click **Disputes**.
+To open the Disputes app, in the lefthand side menu, click **Disputes**.
 
-## Using the Disputes app
+The side menu contains three pre-set filters to view:
+
+- All disputes
+- Unauthorized disputes
+- Diputes expiring soon
 
 See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/) for detailed information on:
 
