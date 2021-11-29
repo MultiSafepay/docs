@@ -11,9 +11,81 @@ weight: 30
 short_description: "Build your own custom integration."
 ---
 
-MultiSafepay provides a [webhook](/developer/api/webhooks/) that sends notifications to your web server when the status of an order changes.
+This page provides a quick start guide to building your own custom integration.
 
-## Configuring the webhook
+- [Prerequisites](/getting-started/create-your-integration/build-your-own/#details-prerequisites)
+- [Step 1: Creating orders](/getting-started/create-your-integration/build-your-own/#step-1-creating-orders)
+- [Step 2: Configuring the webhook](/getting-started/create-your-integration/build-your-own/#step-2-configuring-the-webhook)
+- [Step 3: Handling notifications](/getting-started/create-your-integration/build-your-own/#step-3-handling-notifications)
+- [Next steps](/getting-started/create-your-integration/build-your-own/#next-steps)
+
+Before building your own custom integration, check that you have completed these prerequisite steps:
+
+{{< details title="Prerequisites">}}
+1. [Create a test account](/getting-started/create-a-test-account/)
+2. [Set up your account](/getting-started/set-up-your-account/)
+{{< /details >}}
+
+To save you development time and effort, we provide wrappers and SDKs that you can use to build your custom integration.
+
+{{< two-buttons href-2="/integrations/wrappers" text-2="Wrappers and SDKs" description-2="Facilitate easier, faster development." img-2="/svgs/SDKs.svg" alt-2="Wrappers and SKDs logo" >}}
+
+## Step 1: Creating orders
+
+In your integration, send a HTTP POST request to [create an order](/api/#orders):
+
+```
+curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test-api-key}" \
+-H 'Content-Type: application/json' \
+-H 'accept: application/json' \
+-d '{
+  "type": "redirect",
+  "order_id": "my-order-id-1",
+  "gateway": "",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "Test order description",
+  "payment_options": {
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "notification_method": "POST",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "123.123.123.123",
+    "first_name": "John",
+    "last_name": "Doe",
+    "company_name": "Test Company Name",
+    "address1": "Kraanspoor",
+    "house_number": "39C",
+    "zip_code": "1033SC",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0208500500",
+    "email": "jdoe@example.com",
+    "referrer": "https://example.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  }
+}'
+```
+
+Check that you receive a response with `success` set to `true`:
+```
+{
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://example.com/?lang=nl_NL"
+  }
+}
+```
+If you receive an error in the response, see [Handling errors](/errors/handling-errors/).
+
+## Step 2: Configuring the webhook
+
+MultiSafepay provides a [webhook](/developer/api/webhooks/) that sends notifications to your web server when the status of an order changes.
 
 You can configure the webhook at website level or for specific orders.
 
@@ -60,9 +132,9 @@ curl -X POST \
 **Note:**
 If you set the **Notification URL** in your [MultiSafepay account](https://merchant.multisafepay.com) then this overrides anything set in `payment_options.notification_url` as part of an API request.
 
-## Handling notifications
+## Step 3: Handling notifications
 
-### Step 1: Receive notification
+### Receive notification
 
 When the status of an order changes, we notify your web server at the following URL through a `POST` request:  
 `{your-webhook-endpoint}?transactionid=12345&timestamp=140292929`
@@ -74,7 +146,7 @@ This URL is your webhook endpoint combined with two additional parameters:
 
 We add the current order details to the request body. 
 
-### Step 2: Check the order status
+### Check the order status
 
 Check the order status in the `status` field, and update the status of the order in your backend.
 
@@ -83,7 +155,7 @@ Check the order status in the `status` field, and update the status of the order
 - Don't have the `timestamp` parameter in the URL.  
 - Have the same [order status](/payments/multisafepay-statuses/). 
 
-### Step 3: Validate the request
+### Validate the request
 
 Every `POST` notification request includes a signature that you must use to validate its authenticity. To validate the request:
 
@@ -144,7 +216,7 @@ else:
 ```
 {{< /details >}}
 
-### Step 4: Acknowledge the notification
+### Acknowledge the notification
 
 Acknowledge that you have successfully received a valid notification by returning:
 
@@ -156,9 +228,11 @@ Until we receive your acknowledgement, we resend the notification 4 times at 15 
 
 ## Next steps
 
-You've successfully configured your webhook endpoint and web server to handle notifications. For next steps, either review our API reference documentation or test your integration.
+You've successfully created an order, and configured your webhook endpoint and web server to handle notifications. For next steps, either review our API reference documentation or test your integration.
 
 {{< two-buttons href-2="/api/" text-2="API reference" description-2="Our comprehensive API reference documentation." img-2="/svgs/API.svg" alt-2="Right arrow" >}}
+
+---
 
 {{< two-buttons
 href-1="/getting-started/build-your-integration" header-1="Previous" text-1="Build your integration" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
