@@ -8,7 +8,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/changing-internationalization/
 ---
 
-When changing internationalization in your Lightspeed eCom backend, do not change the primary language setting while installing the app.  
+When changing internationalization in your Lightspeed eCom backend, do **not** change the primary language setting while installing the app.  
 
 Lightspeed eCom requires a language, an API key, and a cluster to validate API requests. 
 
