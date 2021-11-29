@@ -1,10 +1,9 @@
 ---
 title: Applying surcharges
 weight:
-meta_title: "PrestaShop 1.6 plugin - Applying surcharges - MultiSafepay Docs"
-
+meta_title: "PrestaShop 1.6 - Applying surcharges - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop/surcharges/'
+url: '/prestashop-1-6/surcharges/'
 aliases: 
     - /integrations/prestashop-1-6/faq/payment-fee-surcharges/
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/applying-surcharges/

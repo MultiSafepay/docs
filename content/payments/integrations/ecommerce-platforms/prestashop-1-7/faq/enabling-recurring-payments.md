@@ -1,9 +1,8 @@
 ---
 title : "Enabling recurring payments"
-meta_title: "PrestaShop 1.7 plugin - Recurring payments - MultiSafepay Docs"
-
+meta_title: "PrestaShop 1.7 - Recurring payments - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop/recurring-payments/'
+url: '/prestashop-1-7/recurring-payments/'
 aliases: 
     - /integrations/prestashop-1-7/faq/tokenization-prestashop17/
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/enabling-tokenization/
