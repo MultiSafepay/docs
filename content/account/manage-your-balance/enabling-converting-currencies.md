@@ -10,8 +10,14 @@ aliases:
     - /faq/general/supported-currencies/
     - /tools/multisafepay-control/enabling-converting-currencies
 ---
+You can process payments in a large number of currencies, provided that they are:
 
-{{< details title="Supported currencies per payment method" >}}
+- Supported by the specific payment method.
+- Enabled in your [MultiSafepay account](https://merchant.multisafepay.com) and in the settings of any plugins.
+- Correctly processed in the transaction [API request](/api/#orders).
+
+
+{{< details title="Supported payment methods per currency" >}}
 
 | Currency  | All payment methods  | Visa, Mastercard, Maestro  | Payouts  |
 |---|---|---|---|
@@ -55,17 +61,9 @@ aliases:
 
 {{< /details >}}
 
-{{< details title="Currencies on request" >}}
+### Currencies on request
 
 For Visa, MasterCard, and Maestro, we can potentially support additional currencies on request. Email the Support Team at <support@multisafepay.com>  
-
-{{< /details >}}
-
-You can process payments in a large number of currencies, provided that they are:
-
-- Supported by the specific payment method.
-- Enabled in your [MultiSafepay account](https://merchant.multisafepay.com) and in the settings of any plugins.
-- Correctly processed in the transaction [API request](/api/#orders).
 
 ## Enabling currencies in your MultiSafepay account
 

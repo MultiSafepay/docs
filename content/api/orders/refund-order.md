@@ -47,7 +47,10 @@ This must be the same as the original transaction.
 ----------------
 `amount` | integer | required
 
-The amount (in cents) to be refunded.  
+The amount to be refunded in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10  
 
 **Note:** A 0 amount triggers a full refund. Use when the current balance of the transaction is unknown.
 
