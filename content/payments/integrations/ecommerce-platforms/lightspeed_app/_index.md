@@ -144,3 +144,7 @@ All payment methods still work if you don't use the Javascript files.
 You are redirected to the Settings page.
 7. Verify the current settings and then click Save.
 The app is now activated.
+
+## Updates
+
+You don't need to manually update our app. 
