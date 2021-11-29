@@ -48,6 +48,8 @@ sequenceDiagram
 
 ### One-click payments
 
+During a subsequent payment, customers are shown summaries of their previously used payment details. When customers confirm the payment, the merchant includes the relevant token in the request to MultiSafepay. MultiSafepay then decrypts the payment details to process the payment.
+
 {{< mermaid class="text-center" >}}
 
 sequenceDiagram
