@@ -27,6 +27,15 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
+**Test cancelling an order**
+
+To test cancelling an order:
+
+1. Send a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
+  The order status changes to **Void**.
+
 **Test refunding an order**
 
 To test refunding an order:
@@ -50,8 +59,7 @@ To test refunding an order:
 
 **Note:** 
 
-- You can't test:
-  - Cancelling orders
-  - Refunding via the API
+- You can't test refunding via the API.
 - In the live environment, you can't accept refund orders. These are done automatically.
+
 {{< /details >}}
