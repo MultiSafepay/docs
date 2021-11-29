@@ -80,7 +80,10 @@ The account ID of the affiliated account you want to pay out funds from.
 ----------------
 `amount` | integer | required
 
-The amount to pay out in cents. 
+The amount to pay out in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10  
 
 ----------------
 `currency` | string | required
