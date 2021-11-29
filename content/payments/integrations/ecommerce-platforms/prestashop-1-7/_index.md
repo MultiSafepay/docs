@@ -51,6 +51,16 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 {{< /details >}}
 
+{{< details title="Supported versions" >}}
+
+- 1.7.6
+- 1.7.7
+- 1.7.8
+
+To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop releases](https://github.com/MultiSafepay/prestashop/releases).
+
+{{< /details >}}
+
 {{< details title="Supported payment methods" >}}
 
 **Credit cards**
@@ -58,7 +68,6 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
-
 
 **Banking methods**
 

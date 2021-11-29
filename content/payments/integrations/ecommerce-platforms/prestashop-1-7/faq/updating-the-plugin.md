@@ -1,9 +1,8 @@
 ---
 title : "Updating the plugin"
-meta_title: "PrestaShop 1.7 plugin - Updating the plugin - MultiSafepay Docs"
-
+meta_title: "PrestaShop 1.7 - Updating the plugin - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop/updates/'
+url: '/prestashop-1-7/updates/'
 aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/updating-the-plugin/
 ---

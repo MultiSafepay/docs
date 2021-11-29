@@ -1,9 +1,8 @@
 ---
 title : "Processing refunds"
-meta_title: "PrestaShop 1.7 plugin - Processing refunds - MultiSafepay Docs"
-
+meta_title: "PrestaShop 1.7 - Processing refunds - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop/refunds/'
+url: '/prestashop-1-7/refunds/'
 aliases: 
     - /integrations/prestashop-1-7/faq/refunding-prestashop/
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/processing-refunds/

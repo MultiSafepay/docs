@@ -1,9 +1,8 @@
 ---
 title : "Configuring generic gateways"
-meta_title: "PrestaShop 1.7 plugin - Configuring generic gateways - MultiSafepay Docs"
-
+meta_title: "PrestaShop 1.7 - Configuring generic gateways - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop/generic-gateways/'
+url: '/prestashop-1-7/generic-gateways/'
 aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/configuring-generic-gateways/
 
