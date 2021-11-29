@@ -12,8 +12,6 @@ Use the following requests to add, retrieve or update websites linked to a merch
 3. [Get website](#get-a-website): Retrieve a single website by its identifier.
 4. [Update website](#update-a-website): Update a website.
 
-### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website [API key](/set-up-your-account/site-id-api-key-secure-code), expected minimum and maximum order values need to be supplied.
 ## Authentication
 All four website requests require a partner account API key. For more information, email your partner manager.
 

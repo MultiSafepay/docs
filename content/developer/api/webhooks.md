@@ -10,10 +10,11 @@ aliases:
     - /developer/api/notification-url
 ---
 
-MultiSafepay provides a webhook that you can use to receive notifications when there are updates to your orders.
+MultiSafepay uses a webhook to notify you about updates to your orders.
 
-Webhooks send notifications in real-time when an event occurs. For MultiSafepay this can be when:
+The webhook is triggered when the [order or transaction status](/payments/multisafepay-statuses/) changes, e.g. when:
 - A customer completes payment
+- A customer's attempt to pay fails (order status **Initialized**, transaction status **Void**)
 - A refund is processed
 
 MultiSafepay uses HTTPS to send notifications securely to the webhook endpoint configured for your web server.
@@ -27,12 +28,14 @@ sequenceDiagram
     participant Mu as MultiSafepay
     participant Me as Merchant
 
-    C-->>Mu: Customer completes payment
-    Mu->>Me: Notification
+    C-->>Mu: Completes payment
+    Mu->>Me: Sends notification
     Me-->>Me: Updates order in system
 
 {{< /mermaid >}}
 &nbsp;  
+
+## Integration requirements
 
 If you use one of our [ready-made integrations](/getting-started/create-your-integration/#ready-made-integrations) this is set up automatically for you and you don't need to do anything.
 

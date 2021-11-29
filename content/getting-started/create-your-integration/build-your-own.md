@@ -11,23 +11,26 @@ weight: 30
 short_description: "Build your own custom integration."
 ---
 
-## Configure webhook
-
 MultiSafepay provides a [webhook](/developer/api/webhooks/) that sends notifications to your web server when the status of an order changes.
 
-To use this webhook you need to set a webhook endpoint. The webhook endpoint must:
-- Be an URL that can be accessed [from the public web](/developer/errors-explained/multisafepay-ip-ranges/)
-- Be a HTTPS endpoint (HTTP endpoints aren't accepted for security reasons)
-- Not include port numbers
+## Configuring the webhook
 
-### For website
+You can configure the webhook at website level or for specific orders.
+
+### Requirements
+
+To use this webhook, you need to set a webhook endpoint. The webhook endpoint must **not** include port numbers and must be:
+- A URL that can be accessed [from the public web](/developer/errors-explained/multisafepay-ip-ranges/)
+- A HTTPS endpoint - HTTP endpoints aren't accepted for security reasons.
+
+### Website level
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. In the **Notification URL** field, set your webhook endpoint.
 
-### For order
+### Order level
 
 1. [Create an order](/api/#orders) via our API.
 2. In the request body, set:
@@ -55,32 +58,34 @@ curl -X POST \
 ```
 
 **Note:**
-If you leave the `notification_url` parameter empty in the API request then the **Notification URL** set in your [MultiSafepay account](https://merchant.multisafepay.com) is used.
+If you set the **Notification URL** in your [MultiSafepay account](https://merchant.multisafepay.com) then this overrides anything set in `payment_options.notification_url` as part of an API request.
 
-## Handle notifications
+## Handling notifications
+
+### Step 1: Receive notification
 
 When the status of an order changes, we notify your web server at the following URL through a `POST` request:  
-`{your-webhook-endpoint}&transactionid=12345&timestamp=140292929`
+`{your-webhook-endpoint}?transactionid=12345&timestamp=140292929`
 
 This URL is your webhook endpoint combined with two additional parameters:
 
-- `transactionid`  
-  Your unique identifier for the order
-- `timestamp`  
-  The time the notification was triggered
+- `transactionid`: Your unique identifier for the order
+- `timestamp`: The time the notification was triggered
 
-We add the current order details to the request body. Check the order status in the `status` field and update the status of the order in your backend.
+We add the current order details to the request body. 
+
+### Step 2: Check the order status
+
+Check the order status in the `status` field, and update the status of the order in your backend.
 
 **Note:** You can ignore notifications that:
 
 - Don't have the `timestamp` parameter in the URL.  
 - Have the same [order status](/payments/multisafepay-statuses/). 
 
-## Validate notifications
+### Step 3: Validate the request
 
-Every `POST` notification request includes a signature that you must use to validate its authenticity.
-
-To validate the notification:
+Every `POST` notification request includes a signature that you must use to validate its authenticity. To validate the request:
 
 1. Base64 decode the `Auth` header value of the request.
 2. Split the decoded `Auth` header value using the colon (`:`) as separator.
@@ -88,12 +93,13 @@ To validate the notification:
     - The second string is the hash-based signature. 
 3. Concatenate the:
     - Timestamp
-    - colon (`:`)
+    - Colon (`:`)
     - Payload of the request
-4. SHA512 hash the concatenated string that resulted from step 3 using your API key as HMAC key.
-5. For valid requests, the hashed value from step 4 matches the hash-based signature from step 2.
+4. SHA512 hash the concatenated string that resulted from step 3, using your API key as HMAC key.
 
-Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
+If the request is valid, the hashed value from step 4 matches the hash-based signature from step 2.
+
+Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's. For a list of MultiSafepay's IP addresses, contact <integration@multisafepay.com>
 
 {{< details title="Sample notification validation in Python" >}}
 
@@ -106,7 +112,7 @@ import hashlib
 import hmac
 import sys
 
-# Parse command-line arguments
+# Parse the command-line arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("-k", "--apikey", help="API key", required=True)
 parser.add_argument("-p", "--payload", help="Payload", required=True)
@@ -138,23 +144,21 @@ else:
 ```
 {{< /details >}}
 
-## Respond to notifications
+### Step 4: Acknowledge the notification
 
-To acknowledge the successful receipt of a valid notification, return:
+Acknowledge that you have successfully received a valid notification by returning:
 
 - HTTP status code `200` 
-- HTTP message body starting with `OK` or
+- HTTP message body starting with `OK`, **or**
 - HTTP message body containing `MULTISAFEPAY_OK`
 
-While we haven't received an acknowledgement, we resend the notification four times at 15 minute intervals, each including a new timestamp.
+Until we receive your acknowledgement, we resend the notification 4 times at 15 minute intervals, each with a new timestamp.
 
----
+## Next steps
 
 You've successfully configured your webhook endpoint and web server to handle notifications. For next steps, either review our API reference documentation or test your integration.
 
 {{< two-buttons href-2="/api/" text-2="API reference" description-2="Our comprehensive API reference documentation." img-2="/svgs/API.svg" alt-2="Right arrow" >}}
-
-## Next steps
 
 {{< two-buttons
 href-1="/getting-started/build-your-integration" header-1="Previous" text-1="Build your integration" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 

@@ -9,14 +9,15 @@ aliases:
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/allowing-notifications/
 ---
 
-MultiSafepay provides a webhook that is used to receive notifications when there are updates to your orders.
+MultiSafepay provides a webhook you can use to receive notifications about updates to your orders.
 
-Webhooks send notifications in real-time when an event occurs. For MultiSafepay this can be when:
+The webhook is triggered when the order or transaction status changes, e.g. when:
 - A customer completes payment
-- A refund is processed
+- A customer's attempt to pay fails 
+- You process a refund
 
 From WooCommerce version 4.7.0, notifications are sent via `POST` requests, instead of `GET` requests.  
 
 However, sometimes the REST endpoint used to process notifications may be blocked by a firewall at server level or by some WordPress plugins at application level. In this case, ensure you include MultiSafepay requests on your safelist. 
 
-For more information, see [webhook](/developer/api/webhooks/).
+For more information, see [Webhooks](/developer/api/webhooks/).
