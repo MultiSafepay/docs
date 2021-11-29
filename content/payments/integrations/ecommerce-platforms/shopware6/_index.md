@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for Shopware 6"
 meta_title: "Shopware 6 plugin - MultiSafepay Docs"
 github_url : "https://github.com/MultiSafepay/shopware6/"
-download_url : "https://github.com/MultiSafepay/shopware6/releases/download/2.4.1/Plugin_Shopware6_2.4.1.zip"
+download_url : "https://github.com/MultiSafepay/shopware6/releases/download/2.5.2/Plugin_Shopware6_2.5.2.zip"
 faq: "."
 logo: "/logo/Plugins/Shopware_6.svg"
 weight: 06
@@ -47,7 +47,7 @@ For support for Shopware 6 Professional/Enterprise, email your account manager a
 {{< details title="Requirements" >}}
 
 - MultiSafepay account – See [Getting started](/getting-started/).
-- Shopware 6.2.x, 6.3.x, 6.4.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
+- Shopware 6.3.x, 6.4.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
 - Tested on PHP 7.2.0
 
 {{< /details >}}
