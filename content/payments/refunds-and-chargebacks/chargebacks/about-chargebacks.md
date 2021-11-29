@@ -15,9 +15,19 @@ Chargebacks arise when a [cardholder](/payments/methods/credit-and-debit-cards/u
 
 The most common reasons for requesting chargebacks are fraud, non-delivery of goods, or goods not as described. 
 
+## Card schemes
+
 [Card schemes](/payments/methods/credit-and-debit-cards/user-guide/glossary/#card-scheme) generally allow cardholders to request chargebacks for up to 120 days after the transaction. If you require a longer period (e.g. for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
 
 By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
+
+## SEPA Direct Debit
+
+Customers can request a chargeback within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. 
+
+You cannot dispute chargebacks and there is no facilitated process like there is for credit card chargebacks. 
+
+Chargebacks can cost up to 65 EUR in bank fees.
 
 ## See also
 
