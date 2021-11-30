@@ -26,7 +26,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Bancontact order**
 
-1. To test a Bancontact order, send a [redirect](/api/#bancontact) API request.
+1. To test a Bancontact order, make a [redirect](/api/#bancontact) API request.
 2. Open the payment link.
 3. In the **Card number** field, enter a 16-digit card number.
 4. In the **Expiry date** fields, enter any future date, and then click **Confirm**.
@@ -47,7 +47,7 @@ Use the following card numbers to test different transaction statuses.
 ---
 
 **Test a Bancontact QR code**
-1. Send a [redirect](/api/#bancontact-qr) API request.
+1. Make a [redirect](/api/#bancontact-qr) API request.
 2. Open the payment link.
 3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
 4. On the Test platform page, from the **Test scenario** list, select **Completed**.
@@ -74,7 +74,7 @@ To test refunding an order:
 To test refunding an order via the API:
 
 1. Create an order using card number `67034500054620008`. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

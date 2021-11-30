@@ -22,9 +22,9 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Pay After Delivery order**
 
-To test a Pay After Delivery order, send a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
+To test a Pay After Delivery order, make a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
 
-If you send a redirect API request, click **Pay After Delivery**.  
+If you make a redirect API request, click **Pay After Delivery**.  
 - Enter in the:
   - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
   - **Bank account** field any 10-digit bank account number.

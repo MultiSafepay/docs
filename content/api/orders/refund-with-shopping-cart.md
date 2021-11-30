@@ -45,7 +45,7 @@ meta_title: "API reference - Refund with shopping cart - MultiSafepay Docs"
 ### Refund with shopping cart
 To refund a [pay later](/payments/methods/pay-later/) order, include a [`shopping_cart` object](/api/#shopping-cart-items-object) in the refund request.
 
-1. To retrieve the items in the shopping cart, make a `GET /orders/{order_id}` request.
+1. To retrieve the items in the shopping cart of the order you want to refund, make a `GET /orders/{order_id}` request.
 
 2. Make a `POST /orders/{order_id}/refunds` request, and add a duplicate object for each item you need to refund with a **negative** `quantity`.
 

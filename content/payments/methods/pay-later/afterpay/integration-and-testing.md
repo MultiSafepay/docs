@@ -28,8 +28,8 @@ AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay
 
 **Test an AfterPay order**
 
-1. Send a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
-2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
+1. Make a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+2. If you make a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
@@ -47,7 +47,7 @@ The transaction and order statuses change to **Declined**.
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [update an order](/api/#update-an-order) API request, or 
+- Make an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 ---
@@ -57,5 +57,4 @@ To change the order status, either:
 - Receiving successful payment notifications from AfterPay
 - Changing the transaction status from **Uncleared** to **Completed**
 - Processing refunds
-
 {{< /details >}}

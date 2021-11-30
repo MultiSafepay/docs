@@ -21,12 +21,12 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test an in3 order**
 
-1. To test an in3 order, send a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details.
+1. To test an in3 order, make a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details.
 | Date of birth    | Postal code | House number |
 | ------------------- | ------------------- | ----------------- |
 | 01-01-1999 | 1234AB | 1 |
 
-    If you send a redirect API request:
+    If you make a redirect API request:
 - Enter in the:
     - **Birthdate** field `01-01-1999`.
     - **Phone number** field any phone number.  
@@ -39,7 +39,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test in3 declining an order**  
 
-To test in3 declining an order, send a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details:
+To test in3 declining an order, make a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details:
 
 | Date of birth    | Postal code | House number |
 | ------------------- | ------------------- | ----------------- |
@@ -50,7 +50,7 @@ The order and transaction statuses change to **Declined**.
 **Test shipping an order**  
 To test shipping an order, either:
 
-- Send an [update an order](/api/#update-an-order) API request with status `shipped`, or 
+- Make an [update an order](/api/#update-an-order) API request with status `shipped`, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 **Receive an invoice**  
@@ -72,7 +72,7 @@ To test refunding an order via the API:
 
 1. Create an order. 
 2. Change the order status to `shipped`.
-3. Send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.
+3. Make a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
 
 ---

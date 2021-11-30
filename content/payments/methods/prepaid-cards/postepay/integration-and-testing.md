@@ -21,7 +21,7 @@ For the Postepay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Postepay order**  
-1. Send a [redirect](/api/#postepay) API request with the `locale` set to `it_IT`.
+1. Make a [redirect](/api/#postepay) API request with the `locale` set to `it_IT`.
 2. On the payment page:
     - In the **Numero carta** field, enter `4111111111111111`.
     - In the **Titolare carta** field, enter any name.
@@ -75,7 +75,7 @@ To test refunding an order:
 To test refunding an order via the API:
 
 1. Create an order using card number `4012001038443335`. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

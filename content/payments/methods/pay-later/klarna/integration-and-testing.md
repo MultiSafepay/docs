@@ -23,7 +23,7 @@ Test credentials:
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  
-1. Send a [direct](/api/#klarna) API request. 
+1. Make a [direct](/api/#klarna) API request. 
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
 4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
@@ -39,7 +39,7 @@ The transaction and order statuses change to **Void**.
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [update an order](/api/#update-an-order) API request, or 
+- Make an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 **Test refunding an order**
@@ -47,7 +47,7 @@ To change the order status, either:
 To refund an order:
 
 1. Change the order status to **Shipped**.
-2. Under **Order summary**, click **Refund order**, or send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
+2. Under **Order summary**, click **Refund order**, or make a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
   The transaction status changes to **Completed**.
 
 **Receive an invoice**  
@@ -60,7 +60,7 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 
 - Receiving successful payment notifications from Klarna
 - Changing the transaction status from **Uncleared** to **Completed**, except for refunds
-- Sending redirect API requests
+- Making redirect API requests
 
 {{< /details >}}
 
