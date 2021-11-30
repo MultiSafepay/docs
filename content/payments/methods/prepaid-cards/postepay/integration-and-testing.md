@@ -62,9 +62,6 @@ To test refunding an order:
 4. Click **Continue**.
 5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-8. Under **Related transactions**, select the **ID** of the refund order.
-9. Under **Order summary**, click **Accept**.
-10. In the **Add transaction comment** field, add a comment, and then click **Add**.
 6. Under **Related transactions**, select the **ID** of the refund order.
 7. Under **Order summary**, click **Accept**.
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
