@@ -31,7 +31,7 @@ You can test the following gift cards:
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-1. Send a [redirect](/api/#gift-cards) API request.
+1. Make a [redirect](/api/#gift-cards) API request.
 2. On the payment page:
     - In the **Card number** field, enter `111115`.
     - In the **Security code** field, enter any 4-digit number.

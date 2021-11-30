@@ -22,7 +22,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test an Edenred order**
 
-1. Send a [redirect](/api/#edenred) API request.
+1. Make a [redirect](/api/#edenred) API request.
 2. On the payment page, click **Add discount**.
 3. From the **Test scenario** list, select the relevant discount, and then click **Test**.
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.

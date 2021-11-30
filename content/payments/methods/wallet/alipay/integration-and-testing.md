@@ -21,7 +21,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 **Test an Alipay order**
 
-1. Send a [direct](/api/#alipay---direct) or [redirect](/api/#alipay---redirect) API request.
+1. Make a [direct](/api/#alipay---direct) or [redirect](/api/#alipay---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
@@ -30,7 +30,7 @@ The payment is processed in your MultiSafepay test account as **Successful**, wi
 
 To test cancelling an order:
 
-1. Send a [direct](/api/#alipay---direct) API request.
+1. Make a [direct](/api/#alipay---direct) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 3. Click **Test**.  
   The order status changes to **Initialized**.

@@ -21,7 +21,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 **Test a PayPal order**
 
-1. Send a [direct](/api/#paypal---direct) API request.
+1. Make a [direct](/api/#paypal---direct) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
@@ -61,13 +61,13 @@ To refund an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-Alternatively, send a [Refund](/api/#refund-an-order) API request.
+Alternatively, make a [Refund](/api/#refund-an-order) API request.
 
 ---
 
 **Note**:  
 
-- You can't test sending redirect API requests.
+- You can't test making redirect API requests.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}

@@ -22,7 +22,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Dotpay order**
 
-1. To test a Dotpay order, send a [redirect](/api/#dotpay) API request.
+1. To test a Dotpay order, make a [redirect](/api/#dotpay) API request.
 2. On the Dotpay page, enter in the:
     - **E-mail address** field: Any email address
     - **Phone number** field: Any phone number
@@ -42,7 +42,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test cancelling an order:
 
-1. Send a [redirect](/api/#dotpay) API request.
+1. Make a [redirect](/api/#dotpay) API request.
 2. On the Dotpay page, enter in the:
     - **E-mail address** field: Any email address
     - **Phone number** field: Any phone number
