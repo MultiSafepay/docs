@@ -12,31 +12,37 @@ aliases:
 
 The way you delete the deprecated plugin depends on the way you installed it:
 
-**Composer**
+## Composer
+
 There are two options:
 
-**Option 1: Remove the code base**
+### Option 1: Remove the code base
+
 ``` 
 composer remove multisafepay/magento2msp
 php bin/magento setup:upgrade
 ```
 
-**Option 2: Do a complete uninstall**
+### Option 2: Do a complete uninstall
+
 This includes removing database entries and configuration.
 ``` 
 bin/magento module:uninstall MultiSafepay_Connect --remove-data --clear-static-content
 php bin/magento setup:upgrade
 ```
 
-**Backups**
+## Backups
+
 You can back up certain parts of the plugin by adding the following parameters: 
+
 - `--backup-code`
 - `--backup-media`
-- `--backup-db`.
+- `--backup-db`
 
 For information about all parameters, see Magento - [Uninstall modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst).
 
-**app/code**
+### app/code
+
 **1.** Disable the plugin:
 ``` 
 php bin/magento module:disable --clear-static-content
@@ -49,5 +55,6 @@ cd app/code/MultiSafepay
 rm -rf Connect
 ```
 
-**Marketplace**
+## Marketplace
+
 If you installed the plugin via the Magento Marketplace in your Magento [backend](/getting-started/glossary/#backend), to delete the plugin, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
