@@ -50,52 +50,50 @@ Contact us:
 
 {{< details title="Supported payment methods" >}}
 
-**Credit cards**
+**Credit and debit cards**
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Maestro](/payment-methods/maestro)
+- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payments/methods/credit-and-debit-cards/dankort), and [V Pay](/payment-methods/vpay)
 
 **Banking methods**
 
 - [Bancontact](/payment-methods/bancontact)
 - [Bank transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
+- [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL](/payment-methods/ideal)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [TrustPay](/payment-methods/trustpay)
-- [V PAY](/payment-methods/vpay)
 
 **Pay later methods**
 
-+ [E-Invoicing](/payment-methods/e-invoicing)
-+ [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
+- [E-Invoicing](/payment-methods/e-invoicing)
+- [Klarna](/payment-methods/klarna)
+- [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [Alipay](/payment-methods/alipay)
-+ [Apple Pay](/payments/methods/wallet/applepay)
-+ [PayPal](/payment-methods/paypal)
+- [Alipay](/payment-methods/alipay)
+- [Apple Pay](/payments/methods/wallet/applepay)
+- [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
-+ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashioncheque](https://www.fashioncheque.com/nl)
-+ [Fashion gift card](https://www.fashion-giftcard.nl)
-+ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-+ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl
-+ [Paysafecard](/payment-methods/paysafecard)
-+ Wijn cadeau
-+ [Yourgift](https://www.yourgift.nl)
+- [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+- [Fashioncheque](https://www.fashioncheque.com/nl)
+- [Fashion gift card](https://www.fashion-giftcard.nl)
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+- [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl
+- [Paysafecard](/payment-methods/paysafecard)
+- Wijn cadeau
+- [Yourgift](https://www.yourgift.nl)
 
 {{< /details >}}
 

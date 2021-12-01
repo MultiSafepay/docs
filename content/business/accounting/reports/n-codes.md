@@ -39,7 +39,6 @@ To identify transactions in reports by payment method, use the following N-codes
 | N103   | [EPS](/payment-methods/banks/eps)                            |   |
 | N104   | [EINVOICE](/payment-methods/billing-suite/e-invoicing)               |   |
 | N105   | [AFTERPAY](/payment-methods/billing-suite/afterpay)                  |   |
-| N106   | [INGHOME](/payment-methods/banks/ing-home-pay)               |   |
 | N107   | FERBUY                                                  |   |
 | N108   | [TRUSTLY](/payment-methods/banks/trustly)                    |   |
 | N109   | [KBC](/payment-methods/banks/kbc)                            |   |
