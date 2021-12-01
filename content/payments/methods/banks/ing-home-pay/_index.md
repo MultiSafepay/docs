@@ -16,4 +16,4 @@ aliases:
     - /payments/methods/banks/ing-home-pay/
 
 ---
-
+{{< alert-notice >}} **Important:** ING will discontinue Home'Pay on December 6, 2021. {{< /alert-notice >}}
