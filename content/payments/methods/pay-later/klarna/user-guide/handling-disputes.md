@@ -5,8 +5,11 @@ read_more: "."
 weight: 1
 url: '/klarna/handling-disputes/'
 ---
+Klarna provides support for resolving order disputes with customers. For a step-by-step overview, see Klarna – [How to handle disputes at Klarna](https://docs.klarna.com/disputes/).
 
-The best way of handling order disputes with customers is with the Disputes app in the Klarna Merchant Portal. 
+The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. The portal also gives you an overview of all your orders. 
+
+{{< blue-notice >}} **Note:** If viewing orders in the portal, you must still update [order and transaction statuses](/payment-methods/klarna/payment-flow/) manually in your MultiSafepay account or automatically via our API. {{< /blue-notice >}}
 
 ## Connecting to the Klarna Merchant Portal
 
@@ -19,6 +22,7 @@ The best way of handling order disputes with customers is with the Disputes app 
 6. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
 ### Setting up two-factor authentication
+
 If you want to increase the security of your account, set up two-factor authentication with the Google Authenticator app.
 
 1. Under **To-dos**, click **Activate two-factor authentication**. 
@@ -44,4 +48,5 @@ See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/dispute
 - Managing settings
 - Responding to disputes
 - Accepting losses
+
 
