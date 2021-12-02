@@ -19,9 +19,9 @@ aliases:
 |---|---|---|
 | [Countries](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | SEPA region  | 
 | [Currencies](/faq/general/supported-currencies)  | EUR | 
-| [Chargebacks](/payments/chargebacks/about/)  | Yes  | 
-| [Refunds](/payments/refunds/) | Full and partial |
-| [Recurring payments](/payments/features/recurring-payments/) | Yes |
+| [Chargebacks](/payments/chargebacks/)  | Yes | 
+| [Refunds](/payments/refunds/) | Full and partial  |
+| [Payment features](/payments/features/) | [Recurring payments](/payments/features/recurring-payments/) | 
 
 ## Chargebacks
 
@@ -44,7 +44,9 @@ To reduce the chances of this happening, we strongly recomend:
 - If refunding:
 
     - First check if the customer has already requested a chargeback.
+    
     - Wait until 7 working days after payment was initiated to be sure payment is now complete. 
+    
     - Communicate clearly to the customer that you are sending a refund and that the funds will take a few days to arrive in their account.
 
 
