@@ -55,8 +55,8 @@ sequenceDiagram
 | Klarna has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | **Important:** [Manually change the order status to Shipped](/payments/methods/billing-suite/klarna/user-guide/changing-order-status-to-shipped/). {{< br >}} See: {{< br >}} - [Extend the shipping period](/payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/) {{< br >}} - [Supported addresses](/payments/methods/billing-suite/klarna/user-guide/supported-addresses/) {{< br >}} - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) | Shipped | Uncleared |
 | The transaction is complete. | Shipped    | Completed  |
-| Klarna declined the transaction, or it was cancelled. {{< br >}} For more information, email <klarna@multisafepay.com> {{< br >}}    | Void   | Cancelled |
-| The transaction expired after 1 hour or you did not [change the order status to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/) within 28 days. {{< br >}} See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
+| The transaction expired after 1 hour or you didn't [change the order status to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/) within 28 days. {{< br >}} See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
+| - The transaction was cancelled, **or** {{< br >}} - Klarna declined the transaction and the customer was redirected to your cancellation page (`cancel-url`). {{< br >}}  {{< br >}} Only the customer can contact Klarna to find out why they declined the transaction. {{< br >}} For merchant support, email <klarna@multisafepay.com> {{< br >}}    | Void   | Cancelled |
 
 ## Refund statuses
 

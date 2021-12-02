@@ -41,7 +41,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Trustly order**
 
-1. To test a Trustly order, send a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
+1. To test a Trustly order, make a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
@@ -50,7 +50,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test cancelling an order:
 
-1. Send a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
+1. Make a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 3. Click **Test**.  
   The order status changes to **Void**.
@@ -79,7 +79,7 @@ To test refunding an order:
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

@@ -6,7 +6,7 @@ meta_title: "API reference - Plugin - MultiSafepay Docs"
 {{< description >}}
 ## plugin (object)
 
-This object is required for [community-developed integrations](/payments/integrations/community/). 
+Specifies information about your integration, useful for debugging.
 
 Contains:  
 

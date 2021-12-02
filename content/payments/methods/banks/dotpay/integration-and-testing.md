@@ -22,7 +22,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Dotpay order**
 
-1. To test a Dotpay order, send a [redirect](/api/#dotpay) API request.
+1. To test a Dotpay order, make a [redirect](/api/#dotpay) API request.
 2. On the Dotpay page, enter in the:
     - **E-mail address** field: Any email address
     - **Phone number** field: Any phone number
@@ -37,6 +37,20 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 **Note:** You may see more banks available in the live environment.
 
 ---
+
+**Test cancelling an order**
+
+To test cancelling an order:
+
+1. Make a [redirect](/api/#dotpay) API request.
+2. On the Dotpay page, enter in the:
+    - **E-mail address** field: Any email address
+    - **Phone number** field: Any phone number
+3. Select a bank.  
+  You are automatically redirected.
+4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+5. Click **Test**.  
+  The order status changes to **Void**.
 
 **Test refunding an order**
 
@@ -61,9 +75,7 @@ To test refunding an order:
 
 **Note:** 
 
-- You can't test:
-  - Cancelling orders
-  - Refunding via the API
+- You can't test refunding via the API.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}

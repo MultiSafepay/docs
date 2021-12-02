@@ -65,6 +65,7 @@ We send all e-mandates to our bank at the end of every business day.
 | The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
 | The transaction is complete.| Completed | Completed |
 | The transaction has been cancelled. {{< br >}} The customer's information may have been incorrect. | Cancelled   | Cancelled   |
+| The customer has requested a chargeback. | Void | Void |
 | The transaction was declined. {{< br >}} See the reason codes below. | Declined | Declined   |
 
 {{< details title="Reason codes for declined transactions">}}
@@ -117,8 +118,7 @@ For more information in:
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-| The customer has requested a chargeback. | Chargeback  | Completed | 
+| The refund/chargeback is complete. | Completed | Completed |
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 

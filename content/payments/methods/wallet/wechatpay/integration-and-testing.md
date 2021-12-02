@@ -26,7 +26,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 **Test a WeChat Pay order**
 
-1. Send a [direct](/api/#wechat-pay---direct) or [redirect](/api/#wechat-pay---redirect) API request.
+1. Make a [direct](/api/#wechat-pay---direct) or [redirect](/api/#wechat-pay---redirect) API request.
 2. Scan the QR code with a general QR reader (**not** the WeChat app - an error occurs).
 3. On the Test platform page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
@@ -54,7 +54,7 @@ To refund an order:
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

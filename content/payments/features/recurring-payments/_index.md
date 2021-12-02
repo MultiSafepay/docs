@@ -51,7 +51,7 @@ sequenceDiagram
 
 ### Subsequent payment: customer-initiated 
 
-During a subsequent payment, customers are shown summaries of their previously used payment details. When customers confirm the payment, the merchant includes the relevant token in the request to MultiSafepay. MultiSafepay then decrypts the payment details to process the payment. 
+For subsequent payments, the merchant displays the customer's available tokens at checkout, e.g. MASTERCARD **43. The customer selects a token and confirms payment. The merchant includes the token in the request to MultiSafepay. MultiSafepay then decrypts the payment details to process the payment.
 
 The customer doesn't need to provide any payment details, this is also called a 'one-click payment'.
 

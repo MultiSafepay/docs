@@ -31,7 +31,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a VISA order**  
 
-1. Send a [redirect](/api/#visa) API request.
+1. Make a [redirect](/api/#visa) API request.
 2. On the payment page:
     - In the **Card number** field, enter `4111111111111111`.
     - In the **Card holder** field, enter any name.
@@ -72,9 +72,6 @@ To test refunding an order:
 4. Click **Continue**.
 5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-8. Under **Related transactions**, select the **ID** of the refund order.
-9. Under **Order summary**, click **Accept**.
-10. In the **Add transaction comment** field, add a comment, and then click **Add**.
 6. Under **Related transactions**, select the **ID** of the refund order.
 7. Under **Order summary**, click **Accept**.
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
@@ -85,7 +82,7 @@ To test refunding an order:
 To test refunding an order via the API:
 
 1. Create an order using card number `4012001038443335`. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
