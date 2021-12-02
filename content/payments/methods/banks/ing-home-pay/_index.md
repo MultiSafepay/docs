@@ -16,4 +16,16 @@ aliases:
     - /payments/methods/banks/ing-home-pay/
 
 ---
-{{< alert-notice >}} **Important:** ING will discontinue Home'Pay on December 6, 2021. {{< /alert-notice >}}
+{{< alert-notice >}} **Important:** ING will discontinue Home'Pay on December 6, 2021. 
+
+**What you need to do** 
+
+Check your integration. If you use a:
+
+-	Direct integration, you need to remove ING Home’Pay from your checkout yourself. 
+-	Redirect (hosted) integration, you don’t need to do anything. We’ll take care of this for you. 
+
+**Alternative payment methods**
+
+[Bancontact](/payment-methods/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/payment-methods/belfius/) or [CBC/KBC](/payment-methods/cbc-kbc/).
+ {{< /alert-notice >}}
