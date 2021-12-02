@@ -28,6 +28,8 @@ In subsequent payments, tokens can be used for:
 
 During the initial payment, customers are always asked to verify their identity through 3D Secure. Upon processing the payment, we encrypt the payment details for secure storage on our own servers. We return a non-sensitive token which is linked to the encrypted payment details. You can use the token to process recurring payments without needing to handle or store sensitive payment details. 
 
+Optionally, the amount for the initial payment can be set to `0`. In this case, no funds are transferred, but if the payment details are valid, a token is created. This is also called [Zero Authorization](/features/zero-authorization/).
+
 {{< mermaid class="text-center" >}}
 
 sequenceDiagram
@@ -41,14 +43,17 @@ sequenceDiagram
     Mu-->>Mu: Encrypts payment details <br> for secure storage
     Mu->>Me: Returns a token <br> for future payments
     Me->>C: Redirects to success page
+    C-->>Me: Funds are transferred
 
 {{< /mermaid >}}
 
 {{< br >}}
 
-### One-click payments
+### Subsequent payment: customer-initiated 
 
-During a subsequent payment, customers are shown summaries of their previously used payment details. When customers confirm the payment, the merchant includes the relevant token in the request to MultiSafepay. MultiSafepay then decrypts the payment details to process the payment.
+During a subsequent payment, customers are shown summaries of their previously used payment details. When customers confirm the payment, the merchant includes the relevant token in the request to MultiSafepay. MultiSafepay then decrypts the payment details to process the payment. 
+
+The customer doesn't need to provide any payment details, this is also called a 'one-click payment'.
 
 {{< mermaid class="text-center" >}}
 
@@ -65,6 +70,35 @@ sequenceDiagram
     Mu-->>Mu: Decrypts relevant payment details <br> to process payment
     Mu->>Me: Confirms successful payment
     Me->>C: Redirects to success page
+    C-->>Me: Funds are transferred
+
+{{< /mermaid >}}
+
+{{< br >}}
+{{< br >}}
+
+### Subsequent payment: merchant-initiated 
+
+There are two common use-cases for merchant-initiated subsequent payments: 
+
+- Subscriptions
+- Unscheduled payments
+
+Both subscriptions and unscheduled payments require a customer's consent, but no actions. In the request to MultiSafepay, the merchant includes the relevant token. MultiSafepay then decrypts the payment details to process the payment.
+
+{{< mermaid class="text-center" >}}
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+
+    C-->>Me: Provides consent for <br> merchant-initiated payments
+    Me->>Mu: Places order with token
+    Mu-->>Mu: Decrypts relevant payment details <br> to process payment
+    Mu->>Me: Confirms successful payment
+    C-->>Me: Funds are transferred
 
 {{< /mermaid >}}
 
@@ -89,6 +123,10 @@ sequenceDiagram
 - Visa
 
 {{< /details >}}
+
+{{< blue-notice >}}
+Tokens are stored on an account-level. If you operate multiple websites from a single MultiSafepay account, you can offer cross-domain recurring payments e.g. tokenize a customer's details on website A to offer one-click payments on website B.
+{{< /blue-notice >}}
 
 ## Recurring models
 MultiSafepay offers three recurring models:
