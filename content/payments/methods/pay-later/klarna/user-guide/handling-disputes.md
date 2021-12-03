@@ -38,7 +38,7 @@ The side menu contains three pre-set filters to view:
 
 - All disputes
 - Unauthorized disputes
-- Diputes expiring soon
+- Disputes expiring soon
 
 See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/) for detailed information on:
 
