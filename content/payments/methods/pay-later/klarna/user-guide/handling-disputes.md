@@ -28,7 +28,7 @@ If you want to increase the security of your account, set up two-factor authenti
 1. Under **To-dos**, click **Activate two-factor authentication**. 
 2. In the dialog, click **Start the setup**.
 3. Open the Google Authenticator app and scan the QR code. 
-4. Enter the one-time code from the app, and click **Set up authentication**.
+4. Enter the one-time authorization code from the app, and click **Set up authentication**.
 
 ## Getting started with Disputes
 
