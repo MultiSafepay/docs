@@ -2,7 +2,6 @@
 title : "Refunds"
 weight: 10
 meta_title: "Payments - Refunds - MultiSafepay Docs"
-
 read_more: '.'
 url: "/payments/refunds"
 short_description: 'Process refunds in your MultiSafepay account, from your ready-made integration, or via our API'
@@ -112,7 +111,7 @@ To enable this option, follow these steps:
 
 The refund processing time depends on the payment method:
 
-- Direct banking (e.g. KBC, Belfius, ING Homepay, Trustly, Direct Debit): 1 business day 
+- Direct banking (e.g. KBC, Belfius, Trustly, Direct Debit): 1 business day 
 - Bank transfers: 2 to 3 business days, depending on the customer's bank
 - Credit cards: Up to 4 weeks 
 
@@ -141,7 +140,6 @@ This table lists the refund period for each payment method:
 | [iDEAL](/payments/methods/banks/ideal/) | 730 days |
 | [iDEAL QR](/payments/methods/banks/idealqr/) | 730 days |
 | [in3](/payment-methods/in3/) | 730 days |
-| [ING Home'Pay](/payments/methods/banks/ing-home-pay/) | 730 days |
 | [KBC](/payments/methods/banks/kbc/) | 730 days |
 | [Klarna](/payments/methods/billing-suite/klarna/) | 730 days |
 | [Maestro](/payments/methods/credit-and-debit-cards/maestro/) | 180 days |

@@ -70,7 +70,6 @@ Contact us:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
 - [Request to Pay](/payment-methods/request-to-pay/)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)

@@ -55,10 +55,11 @@ Contact MultiSafepay:
 
 {{< details title="Supported payment methods" >}}
 
-**Credit cards**
+**Credit and debit cards**
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
+- [Maestro](/payment-methods/maestro)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 **Banking methods**
@@ -66,14 +67,11 @@ Contact MultiSafepay:
 - [Bancontact](/payment-methods/bancontact)
 - [Bank transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
+- [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
-- [iDEAL](/payment-methods/ideal)
-- [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Maestro](/payment-methods/maestro)
+- [iDEAL and iDEAL QR](/payment-methods/ideal)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
