@@ -1,8 +1,8 @@
 ---
 title : "MultiSafepay plugin for Magento 1"
-download_url : "/payments/integrations/ecommerce-platforms/magento1/releases/Plugin_Magento_3.1.3.zip"
-changelog_url : "."
-changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/magento1/changelog/
+download_url : "/payments/integrations/ready-made/magento1/releases/Plugin_Magento_3.1.3.zip"
+changelog_url : "/payments/integrations/ready-made/magento1/changelog/"
+changelog: https://docs.multisafepay.com/payments/integrations/ready-made/magento1/changelog/
 faq: "."
 type: 'Plugin'
 meta_title: "Magento 1 plugin - MultiSafepay Docs"
@@ -141,7 +141,4 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 
 4. To configure MultiSafepay gift cards, go to the **MultiSafepay Gift Cards** page.  
     Make sure gift cards are activated in your MultiSafepay account. For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
-
-5. To configure FastCheckout settings, go to the **FastCheckout** page.    
-    For more information, see [FastCheckout](/payments/methods/fastcheckout).
 
