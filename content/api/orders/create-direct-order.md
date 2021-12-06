@@ -97,7 +97,7 @@ url: '/api/create-direct-order/'
 ### Create a direct order
 
 Supported payment methods:   
-ALIPAY, BANKTRANS, BELFIUS, CBC, CREDITCARD, DIRDEB, DIRECTBANK, EINVOICE, IDEAL, ING, KBC, KLARNA, PAYAFTER, PAYPAL
+ALIPAY, BANKTRANS, BELFIUS, CBC/KBC, CREDITCARD, DIRDEB, DIRECTBANK, EINVOICE, IDEAL, KLARNA, PAYAFTER, PAYPAL
 
 For additional **required** information, see the relevant [payment method](/api/#payment-method-examples).
 

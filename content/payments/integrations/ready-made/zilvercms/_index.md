@@ -25,6 +25,7 @@ aliases:
 **Credit cards**
 
 - [American Express](/payment-methods/american-express)
+- [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
@@ -33,29 +34,26 @@ aliases:
 - [Bancontact](/payment-methods/bancontact)
 - [Bank transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
+- [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay) 
-- [iDEAL](/payment-methods/ideal)
-- [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Maestro](/payment-methods/maestro)
+- [iDEAL and iDEAL QR](/payment-methods/ideal)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 
 **Pay later methods**
 
-+ [Betaal per Maand](/payment-methods/betaal-per-maand)
+- [Betaal per Maand](/payment-methods/betaal-per-maand)
 
 **Wallets**
 
-+ [Alipay](/payment-methods/alipay)
-+ [PayPal](/payment-methods/paypal)
+- [Alipay](/payment-methods/alipay)
+- [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
-+ [VVV gift card](https://www.vvvcadeaukaarten.nl)
+- [VVV gift card](https://www.vvvcadeaukaarten.nl)
 
 {{< /details >}}
 

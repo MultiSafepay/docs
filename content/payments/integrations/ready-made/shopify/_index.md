@@ -48,9 +48,10 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 {{< details title="Supported payment methods" >}}
 
-**Credit cards**
+**Credit and debit cards**
 
 - [American Express](/payment-methods/american-express)
+- [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
@@ -59,14 +60,11 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 - [Bancontact](/payment-methods/bancontact)
 - [Bank transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
+- [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
-- [iDEAL](/payment-methods/ideal)
-- [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Maestro](/payment-methods/maestro)
+- [iDEAL and iDEAL QR](/payment-methods/ideal)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -108,7 +106,6 @@ Payments are processed in the webshop's default currency only.
   * [Giropay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052864)
   * [iDEAL QR](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052850)
   * [iDEAL](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052844)
-  * [ING Home'Pay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052860)
   * [KBC](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052862)
   * [Maestro](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052870)
   * [Mastercard](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052842)
