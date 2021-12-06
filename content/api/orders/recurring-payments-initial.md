@@ -14,10 +14,9 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
   "order_id":"my-order-id-1",
   "gateway":"",
   "currency":"EUR",
-  "recurring_id":"azbkvsE0up4",
   "recurring_model":"unscheduled",
   "amount":1000,
-  "description":"Create tokenization order",
+  "description":"Initial recurring payments order, to create a token",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
@@ -25,7 +24,7 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
     "close_window":true
   },
   "customer":{
-    "reference":"AutoQAReference"
+    "reference":"customer-00001"
   }
 }
 ```
@@ -41,7 +40,7 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
       {
         "transaction_id":123456789,
         "amount":0.6,
-        "description":"Create tokenization order",
+        "description":"",
         "type":"SYSTEM"
       }
     ],
@@ -65,11 +64,11 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
       "locale":"nl_NL",
       "phone1":"0208500500",
       "phone2":"00310000001",
-      "reference":"AutoQAReference",
+      "reference":"customer-00001",
       "state":"NH",
       "zip_code":"1033SC"
     },
-    "description":"Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
+    "description":"Initial recurring payments order, to create a token",
     "fastcheckout":"NO",
     "financial_status":"completed",
     "items":null,
@@ -91,7 +90,7 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
         "amount":1000,
         "card_expiry_date":1112,
         "currency":"EUR",
-        "description":"Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
+        "description":"Initial recurring payments order, to create a token",
         "external_transaction_id":929711011483,
         "last4":0,
         "payment_description":"Visa CreditCards",
@@ -113,9 +112,9 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
 {{< /code-block >}}
 
 {{< description >}}
-### Create recurring payments orders
+### Recurring payments – initial payment
 
-Create [recurring payments](/features/recurring-payments) orders.
+Create an initial [recurring payments](/features/recurring-payments) order. In response to the initial payment, a token is returned as `payment_details.recurring_id`. Store this token with the `customer.reference`, as they're used for [subsequent payments](/api/#recurring-payments--subsequent-payment).
 
 **Parameters**
 
@@ -154,11 +153,6 @@ The currency you want the customer to pay in.
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
-`recurring_id` | string | required
-
-The unique identifier for the recurring payment.
-
-----------------
 `recurring_model` | string | required
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
@@ -171,6 +165,8 @@ The amount the customer needs to pay in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10    
+
+**Note**: For [Zero Authorization](/features/zero-authorization/) payments, specify `0`.
 
 ----------------
 `description` | string | required
@@ -270,6 +266,5 @@ The URL of the page where the customer is redirected from your checkout to compl
 The page the customer is redirected to if the payment fails.
 
 ----------------
-
 
 {{< /description >}}

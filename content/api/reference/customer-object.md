@@ -27,7 +27,8 @@ aliases:
     "phone":"0208500500",
     "email":"simonsmit@example.com",
     "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
-    "referrer":"https://example.com"
+    "referrer":"https://example.com",
+    "reference": "customer-00001"
   }
 }
 ```
@@ -146,7 +147,9 @@ The unique identifier of where the user/browser originates from.
 ----------------
 `reference` | string | For [recurring payments](/features/recurring-payments/) transactions: required
 
-See [Create recurring payments orders](/api/#create-recurring-payments-orders).
+A unique client-defined identifier for your customer.
+
+See [Recurring payments orders](/api/#recurring-payments-orders).
 
 ----------------
 
