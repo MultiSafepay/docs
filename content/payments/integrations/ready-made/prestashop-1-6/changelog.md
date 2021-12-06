@@ -1,7 +1,9 @@
 ---
 title : "PrestaShop plugin changelog"
 meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Docs"
-aliases: [/integrations/prestashop-1-6/changelog/]
+aliases: 
+    - /integrations/prestashop-1-6/changelog/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/changelog/
 ---
 
 ## 3.7.0
