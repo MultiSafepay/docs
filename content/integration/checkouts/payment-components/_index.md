@@ -7,12 +7,13 @@ logo: '/svgs/Payment pages.svg'
 short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
 hideMenu : 'true'
 logo: '/svgs/API.svg'
-weight: 51
-url: '/payment-components/'
+weight: 10
+url: '/checkouts/payment-components/'
 aliases:
     - /tools/credit-card-component/
     - /payments/checkout/payment-components/
     - /integrations/payment-components/
+    - /payment-components/
 ---
 Payment Components let you embed payment methods directly into your checkout.
 
