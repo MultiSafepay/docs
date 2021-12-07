@@ -50,18 +50,27 @@ Payment details:
     
 - Instant input validation and actionable errors
 - Tokenized for fast, secure subsequent payments
+<<<<<<< HEAD
 - Secure, PCI DSS compliant storage 
+=======
+- Secure and PCI DSS compliant storage 
+>>>>>>> DOCS-2866: Introduction draft
 
 ---
 **Order placement**
 
+<<<<<<< HEAD
 - Clear price breakdown (tax inclusive) with no hidden costs
+=======
+- Clear price breakdown, tax inclusive, with no hidden costs
+>>>>>>> DOCS-2866: Introduction draft
 - Supports discount codes and upselling functionality
 - Links to your terms and conditions
 ---
 **Confirmation**
 
 - Displays order number and expected delivery date
+<<<<<<< HEAD
 - Prompts first-time customers to create an account
 - Supports newsletter signup
 ---
@@ -70,3 +79,11 @@ Payment details:
 {{< two-buttons href-2="/fastcheckout/javascript/" header-2="Manual" text-2="JavaScript integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/fastcheckout/api/" header-2="Manual" text-2="API integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+=======
+- Asks first-time customers' permission to create an account
+- Supports newsletter signup
+---
+
+## Maintenance
+New features and payment methods are made available automatically. No updates or upgrades required. 
+>>>>>>> DOCS-2866: Introduction draft
