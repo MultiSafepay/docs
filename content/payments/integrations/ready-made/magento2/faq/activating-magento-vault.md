@@ -1,5 +1,5 @@
 ---
-title : "Activating Magento Vault"
+title : "Using Magento Vault for Instant Purchase"
 meta_title: "Magento 2 plugin - Activating Magento Vault - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
@@ -8,23 +8,32 @@ aliases:
     - /integrations/ecommerce-integrations/magento2/faq/does-the-magento-2-plugin-support-magento-vault/
     - /payments/integrations/ecommerce-platforms/magento2/faq/activating-magento-vault/
 ---
+Magento Vault enables you to use Instant Purchase, a feature that helps make repeat payments faster and easier, increasing conversion. 
 
-Our plugin supports Magento Vault, which lets customers securely store their payment details as a [card-on-file token](/features/recurring-payments] in the Magento database. This makes subsequent payments faster and easier, increasing conversion. At checkout, customers can simply select the **Instant purchase** button and don't have to re-provide their CVC. 
+## How it works
 
+1. After filling out their credit card number, CVC, and expiry date at checkout, customers can give permission to store these details for future payments. 
+2. MultiSafepay encrypts the sensitive payment details and stores the encrypted version on our secure, GDPR compliant servers. 
+3. We return a non-sensitive identifier for the payment details, known as a token, which can only be used in your Magento webshop. 
+4. The token is automatically stored in your Magento Vault. 
+5. For subsequent payments, the customer can simply click **Instant purchase** at checkout. They don't need to re-provide any details. 
 
+To see Instant Purchase in action, see Magento – [Instant purchase](https://magento.com/innovations-lab/instant-purchase).
 
-For more information, see Magento 2 – [Adding vault integration](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html).
-
-**Requirements from Mastercard and Visa**  
+## Requirements set by Mastercard and Visa
 
 You must:  
 
-- Ask customers when entering their card details to check a checkbox to give permission to store the payment details for future purchases.
-- Add information to your terms and conditions about how you will use and store this data.
-- Inform customers how they can delete saved payment details.
+- Include a checkbox at checkout for customers to give permission to tokenize their payment details.
+- Explain in your terms and conditions how you use and store their details.
+- Inform customers how they can delete stored payment details.
 
-**Activating Magento Vault**  
+## Activating Magento Vault
 
-To activate Magento Vault in your backend, you must first enable [recurring payments](/features/recurring-payments/) in your MultiSafepay account. 
+To activate Magento Vault, email a request to enable [recurring payments](/features/recurring-payments/) to your account manager at <sales@multisafepay.com>
 
-For support, email the Integration Team at <integration@multisafepay.com>
+## Vault security
+
+If you host Magento yourself, the security of the vault depends on the security of your server. 
+
+However, the vault only contains tokens valid in your webshop. If your server is compromised, no actual payment details are at risk, only stored customer data.   
