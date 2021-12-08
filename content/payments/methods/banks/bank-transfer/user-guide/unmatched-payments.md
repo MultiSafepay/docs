@@ -5,7 +5,7 @@ read_more: "."
 weight: 1
 url: '/bank-transfer/unmatched-payments/'
 ---
-Read this page in [Dutch](/bank-transfer/unmatched-payments-nl/) or [German](/bank-transfer/unmatched-payments-de/).
+Read this page in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) or [German](/bank-transfer/unmatched-payments-de/).
 
 When MultiSafepay receives a Bank Transfer payment from a customer, we automatically match it to the corresponding transaction in our system based on the payment details provided. 
 
