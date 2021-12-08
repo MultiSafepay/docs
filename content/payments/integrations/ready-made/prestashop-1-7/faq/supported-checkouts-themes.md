@@ -16,4 +16,4 @@ The following patches for third-party themes and extensions are available:
 
 <small>* Payment options must be set on separate pages in the plugin settings page.</small>
 
-The Integration Team will do their best to provide support for third-party plugins and premium themes. Email them at <integration@multisafepay.com>
+The Integration Team will do their best to provide support for third-party plugins and premium themes. Email us at <integration@multisafepay.com>
