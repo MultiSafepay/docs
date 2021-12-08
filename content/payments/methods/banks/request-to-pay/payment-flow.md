@@ -26,9 +26,10 @@ sequenceDiagram
     C->>Mu: Selects Request to Pay at checkout
     Mu->>C: Connects to Deutsche Bank (direct/redirect)
     C->>D: Authenticates account and authorizes SEPA bank transfer
-    D->>Me: Settles funds
-    Note over D,Me: Within 24 hours <br> (if Instant SEPA not supported)
-
+    D->>Mu: Transfers funds 
+    Note over D,Mu: Within 24 hours <br> (if Instant SEPA not supported)
+    Mu->>Me: Settles funds
+    
 {{< /mermaid >}}
 &nbsp;  
 
