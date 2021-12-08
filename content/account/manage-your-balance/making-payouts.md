@@ -112,21 +112,11 @@ Not all banks have instant payments and therefore may take extra time to process
 
 {{< details title="Bank holidays" >}}
 
-On some bank holidays, banks don't process outgoing payments. For example, see the [Deutsche Bank schedule for the Netherlands](https://www.deutschebank.nl/nl/content/producten_en_services_services_international_holidays_2017.html).
+On some bank holidays, banks don't process outgoing payments. 
 
-MultiSafepay pays out every business day of the year, but not on bank holidays. Delayed payouts are made the next business day. The dates of bank holidays change each year.
+MultiSafepay pays out every business day of the year, but **not** on bank holidays. Delayed payouts are made the next business day. 
 
-### Bank holidays 2021
-
-| Date   | Occasion     | Payouts made |
-|----------------|-------------------|-----------|
-|  Friday, April 2, 2021 | Good Friday     | No  |
-|  Monday, April 5, 2021 | Easter Monday     | No  |
-|  Tuesday, April 27, 2021 | King's Day     | Yes  |
-|  Thursday, May 13, 2021 | Ascension Day     | Yes  |
-|  Monday, May 24, 2021 | Pentecost     | Yes  |
-
-For more information, email the Support Team at <support@multisafepay.com>
+Check the dates of local bank holidays. They may change each year.
 
 {{< /details >}}
 
