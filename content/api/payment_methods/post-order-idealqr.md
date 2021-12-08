@@ -106,7 +106,7 @@ Contains:
 
 `qr_size` | integer
 
-Sets the size of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
+Sets the width and height of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
 Default: 250.  
 
 `allow_multiple` | boolean  
