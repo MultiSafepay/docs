@@ -5,21 +5,29 @@ read_more: "."
 weight: 1
 url: '/klarna/handling-disputes/'
 ---
-Klarna provides support for resolving order disputes with customers. For a step-by-step overview, see Klarna – [How to handle disputes at Klarna](https://docs.klarna.com/disputes/).
+A dispute is when you and a customer disagree about an order:
+
+- Goods, e.g. the customer returns all or part of the order, or the goods were faulty when delivered
+- Payments, e.g. invoicing errors, or the customer paid Klarna instead of you
+- Other, e.g. insolvency, or bankruptcy
+
+Klarna provides support for resolving disputes. For a step-by-step overview, see Klarna – [How to handle disputes at Klarna](https://docs.klarna.com/disputes/).
 
 The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. The portal also gives you an overview of all your orders. 
 
-{{< blue-notice >}} **Note:** If viewing orders in the portal, you must still update [order and transaction statuses](/payment-methods/klarna/payment-flow/) manually in your MultiSafepay account or automatically via our API. {{< /blue-notice >}}
+{{< blue-notice >}} **Note:** If viewing orders in the portal, you must still manually [change the order status to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/) to trigger the invoicing process and receive payment. {{< /blue-notice >}}
 
 ## Connecting to the Klarna Merchant Portal
 
-1. You'll receive an email from Klarna inviting you to activate your portal account. 
-    **Note:** The link expires within 3 days and is only usable once.  
-2. Click **Activate account**.
-3. Read the Merchant Portal Agreement, agree to the terms and conditions, and then click **Continue**.
-4. Enter a password, and click **Update password**.
-5. Enter your first and last names, and then click **Update profile**.
-6. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
+You'll receive an email from Klarna inviting you to activate your portal account. 
+
+{{< blue-notice >}} **Note:** The link expires within 3 days and is only usable once. If your link has expired or you haven't received an email, email the Support Team at <support@multisafepay.com> {{< /blue-notice >}}
+
+1. In the email, click **Activate account**.
+2. Read the Merchant Portal Agreement, agree to the terms and conditions, and then click **Continue**.
+3. Enter a password, and click **Update password**.
+4. Enter your first and last names, and then click **Update profile**.
+5. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
 ### Setting up two-factor authentication
 
@@ -30,7 +38,7 @@ If you want to increase the security of your account, set up two-factor authenti
 3. Open the Google Authenticator app and scan the QR code. 
 4. Enter the one-time authorization code from the app, and click **Set up authentication**.
 
-## Getting started with Disputes
+## Getting started with the disputes app
 
 To open the Disputes app, in the lefthand side menu, click **Disputes**.
 
