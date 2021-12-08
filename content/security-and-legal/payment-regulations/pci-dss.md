@@ -2,7 +2,6 @@
 title : "Payment Card Industry Data Security Standard (PCI DSS)"
 weight: 30
 meta_title: "Payment Card Industry Data Security Standard (PCI DSS) - MultiSafepay Docs"
-
 read_more: "."
 url: '/payment-regulations/pci-dss/'
 aliases:
