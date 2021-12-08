@@ -28,12 +28,11 @@ MultiSafepay can develop a custom gift card for you.
 
 **3.** MultiSafepay activates the custom card in your MultiSafepay account.
 
-**4.** To integrate your gift card:
+**4.** To integrate your card:
 
 - Using our API, see API reference – [Gift cards](/api/#gift-card).
 
-- In your custom integration, use our [generic gateway code](/faq/general/generic-gateways/). For assistance, ask your developer.
+- In a ready-made integration, use our [generic gateway code](/integrations/generic-gateways/).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 
-**5.** Start processing payments!

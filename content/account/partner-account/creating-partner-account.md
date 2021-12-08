@@ -18,6 +18,10 @@ To create a MultiSafepay partner account, follow these steps:
 
 You now have full access to the partner dashboard and can charge affiliates to your MultiSafepay balance.
 
+{{< blue-notice >}}
+Alternatively, [create a test partner account](https://testmerchant.multisafepay.com/signup?partner).
+{{< /blue-notice>}}
+
 ## Onboarding and go live
 
 To pay out commissions to your business bank account, you must onboard your account and go live. Follow these steps:

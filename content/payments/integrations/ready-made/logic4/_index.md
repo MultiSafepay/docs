@@ -34,6 +34,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 **Credit cards**
 
 - [American Express](/payment-methods/american-express)
+- [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa)
 
@@ -42,25 +43,24 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 - [Bancontact](/payment-methods/bancontact)
 - [Bank transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
+- [CBC/KBC](/payment-methods/cbc-kbc)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
-- [iDEAL](/payment-methods/ideal)
-- [iDEAL QR](/payments/methods/banks/idealqr)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Maestro](/payment-methods/maestro)
-- MultiSafepay Wallet
-- [PayPal](/payment-methods/paypal)
+- [iDEAL and iDEAL QR](/payment-methods/ideal)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
 
 **Pay later methods**
 
-+ [AfterPay](/payment-methods/afterpay)
-+ [Betaal per Maand](/payment-methods/betaal-per-maand)
-+ [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
-+ [in3](/payment-methods/in3)
+- [AfterPay](/payment-methods/afterpay)
+- [Betaal per Maand](/payment-methods/betaal-per-maand)
+- [Klarna](/payment-methods/klarna)
+- [Pay After Delivery](/payment-methods/pay-after-delivery)
+- [in3](/payment-methods/in3)
+
+**Wallets**
+
+- [PayPal](/payment-methods/paypal)
 
 {{< /details >}}
 

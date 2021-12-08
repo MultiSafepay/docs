@@ -11,18 +11,22 @@ aliases:
 
 MultiSafepay supports multiple checkouts:
 
-**Magento 2 core checkout**  
+## Magento 2 core checkout  
+
 Our plugin works out of the box with the Magento 2 core checkout, which is based on the Luma theme.
 
-**OneStepCheckout.com**  
+## OneStepCheckout.com  
+
 MultiSafepay is an official partner of [OneStepCheckout.com](https://www.onestepcheckout.com/). Our plugin works with the latest version of the OneStepCheckout extension. 
 
 {{< blue-notice>}}**Note:** Always test OneStepCheckout before use to make sure it is compatible with your specific configuration of the plugin. {{< /blue-notice>}}
 
-**Hyvä**  
+## Hyvä  
+
 Our plugin is compatible with Hyvä's [themes](https://hyva.io/hyva-themes-license.html) and [checkout](https://hyva.io/hyva-checkout.html). 
 
-**Other checkouts**  
+## Other checkouts  
+
 We have tested our plugin with the following checkouts:
 
 - [MagePlaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)

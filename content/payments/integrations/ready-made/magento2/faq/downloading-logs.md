@@ -7,9 +7,10 @@ weight: 2
 url: '/magento-2/downloading-logs/'
 ---
 
-You can download MultiSafepay logs via the configuration backend.
+To download MultiSafepay logs:
 
-1. Go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **MultiSafepay payment logs**.
-2. To generate and download the logs, click **Download**.
+1. Sign in to your Magento backend.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **MultiSafepay payment logs**.
+3. Click **Download**.
 
 You receive a ZIP package containing a system report file and any MultiSafepay log(s) stored in the `/var/log` directory.

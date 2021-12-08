@@ -15,11 +15,11 @@ The lifetime of orders marked as **Pending payments** in Magento 2 is determined
 
 For payment methods with a validation period longer than 8 hours, the status of orders in Magento 2 automatically changes to **Canceled** due to the default value. To fix this, increase the **Order Cron settings** value to longer than the validation period. 
 
-**Setting pending payment order lifetimes**
+## Setting pending payment order lifetimes
 
 To set the lifetime of pending payments orders, see Magento - [Pending payment order lifetime](https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html).
 
-**ERP systems**
+## ERP systems
 
 For ERP systems, if the order status is **Declined**, successful payments often fail to process for orders with **Canceled** status.
 

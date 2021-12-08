@@ -90,6 +90,19 @@ To make manual payouts, follow these steps:
 ## Payout currency
 The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
 
+You can make [payouts](/account/payouts/) in: 
+
+- AUD (Australian dollar)
+- CAD (Canadian dollar)
+- CHF (Swiss franc)
+- DKK (Danish krone)
+- GBP (Pound Sterling)
+- HKD (Hong Kong dollar)
+- NOK (Norwegian krone)
+- PLN (Polish złoty)
+- SEK (Swedish krona)
+- USD (United States dollar)
+
 ## Payout processing times 
 The time taken to process payouts is determined by the Risk Team. The default payout delay is 1 day. Payouts may take up to three business days to arrive in your business bank account.
 

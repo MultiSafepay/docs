@@ -1,7 +1,9 @@
 ---
 title : "Magento 1 plugin changelog"
 meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
-aliases: [/integrations/magento1/changelog/]
+aliases: 
+    - /integrations/magento1/changelog/
+    - /payments/integrations/ecommerce-platforms/magento1/changelog/
 ---
 
 ## 3.1.3

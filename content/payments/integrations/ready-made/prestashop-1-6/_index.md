@@ -1,8 +1,8 @@
 ---
 title : "MultiSafepay plugin for PrestaShop 1.6"
-download_url : "/payments/integrations/ecommerce-platforms/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.7.0.zip"
-changelog_url : "."
-changelog: https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/prestashop-1-6/changelog/
+download_url : "/payments/integrations/ready-made/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.7.0.zip"
+changelog_url : "/payments/integrations/ready-made/prestashop-1-6/changelog/"
+changelog: https://docs.multisafepay.com/payments/integrations/ready-made/prestashop-1-6/changelog/
 faq: "."
 meta_title: "PrestaShop 1.6 plugin - MultiSafepay Docs"
 logo: "/logo/Plugins/PrestaShop.svg"
@@ -53,9 +53,10 @@ Contact us:
 
 {{< details title="Supported payment methods" >}}
 
-**Credit cards**
+**Credit and debit cards**
 
 - [American Express](/payment-methods/american-express)
+- [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
@@ -64,50 +65,46 @@ Contact us:
 - [Bancontact](/payment-methods/bancontact)
 - [Bank transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
-- [CBC](/payments/methods/banks/cbc)
+- [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL](/payment-methods/ideal)
-- [ING Home'Pay](/payment-methods/ing-home-pay)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Maestro](/payment-methods/maestro)
 - [Request to Pay](/payments/methods/banks/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
-- [V PAY](/payment-methods/vpay)
 
 **Pay later methods**
 
-+ [AfterPay](/payments/methods/billing-suite/afterpay)
-+ [E-Invoicing](/payment-methods/e-invoicing)
-+ [in3](/payment-methods/in3)
-+ [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
+- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [E-Invoicing](/payment-methods/e-invoicing)
+- [in3](/payment-methods/in3)
+- [Klarna](/payment-methods/klarna)
+- [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [Alipay](/payment-methods/alipay)
-+ [Apple Pay](/payments/methods/wallet/applepay)
-+ [PayPal](/payment-methods/paypal)
+- [Alipay](/payment-methods/alipay)
+- [Apple Pay](/payments/methods/wallet/applepay)
+- [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
-+ Beauty and Wellness gift card
-+ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
-+ [Fashioncheque](https://www.fashioncheque.com/nl)
-+ [Fashion gift card](https://www.fashion-giftcard.nl)
-+ Fietsenbon
-+ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-+ [Good4fun](https://www.good4fun.nl)
-+ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-+ [Paysafecard](/payment-methods/paysafecard)
-+ [Sport en Fit](https://www.sportenfitcadeau.nl)
-+ [VVV gift card](https://www.vvvcadeaukaarten.nl)
-+ [Webshop gift card](https://www.webshopgiftcard.nl)
-+ Wijncadeau
-+ [Yourgift](https://www.yourgift.nl/)
+- Beauty and Wellness gift card
+- [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+- [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
+- [Fashioncheque](https://www.fashioncheque.com/nl)
+- [Fashion gift card](https://www.fashion-giftcard.nl)
+- Fietsenbon
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+- [Good4fun](https://www.good4fun.nl)
+- [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+- [Paysafecard](/payment-methods/paysafecard)
+- [Sport en Fit](https://www.sportenfitcadeau.nl)
+- [VVV gift card](https://www.vvvcadeaukaarten.nl)
+- [Webshop gift card](https://www.webshopgiftcard.nl)
+- Wijncadeau
+- [Yourgift](https://www.yourgift.nl/)
 
 {{< /details >}}
 

@@ -1,7 +1,9 @@
 ---
 title : "OsCommerce plugin changelog"
 meta_title: "OsCommerce plugin changelog - MultiSafepay Docs"
-aliases: [/integrations/oscommerce/changelog/]
+aliases: 
+    - /integrations/oscommerce/changelog/
+    - /payments/integrations/ecommerce-platforms/oscommerce/changelog/
 ---
 
 ## 3.0.0
