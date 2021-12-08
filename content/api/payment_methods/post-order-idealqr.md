@@ -129,7 +129,7 @@ If `min_amount` is not set, the `amount` value is used as the `min_amount` and v
     
 `max_amount` | string
 
-If `allow_change_amount option` is set to `true`, set the `max_amount`.    
+If `allow_change_amount` is set to `true`, set the `max_amount`.    
 If you only use `max_amount`, it must be more than the `amount`.  
 If `max_amount` is not set, the `amount` is used as the `max_amount`.  
 
