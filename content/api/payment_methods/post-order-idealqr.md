@@ -54,10 +54,6 @@ meta_title: "API reference - Create an iDEAL QR order - MultiSafepay Docs"
 
 **Note:** The test environment is not available for iDEAL QR. You can only test transactions in the live environment. 
 
-- If the `min_amount` parameter is not set, the `amount` value is used as the `min_amount` and vice versa.  
-- If the `max_amount` parameter is not set, the `amount` is used as the `max_amount`.  
-- If you set both `min_amount` and `max_amount` parameters, the `amount` value is ignored.
-
 **Parameters**
 
 ----------------
@@ -113,28 +109,33 @@ Contains:
 
 `qr_size` | integer
 
-The size of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
-Default: 250.  
+Sets the width and height of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
+Default: `250` (250 by 250 pixels).  
 
-`allow_multiple` | boolean
+`allow_multiple` | boolean  
 
-Set if a specific QR code can be used more than once.
+True: The QR code can be used more than once.  
+False: The QR code can only be used once.
 
 `allow_change_amount` | boolean
 
-Set if customers can change the amount to pay. Often used for donations.  
-Required parameters: `max_amount`, or `min_amount`, or both. 
+True: The customer can change the amount to pay.  
+False: The customer cannot change the amount the pay.    
+Required parameters: `max_amount`, or `min_amount`, or both.  
 
-`min_amount` | string
+`min_amount` | string | required if `allow_change_amount` is set to `true`
 
-Set the minimum amount if `allow_change_amount` is set to `true`.  
-The `min_amount` must not be more than the `amount`.  
-If you only use `min_amount`, the `amount` must be more than the `min_amount`. That is, the `amount` = `max_amount`. 
+Sets a minimum amount that the customer can pay.     
+
+- The `min_amount` must be lower than the `amount`.  
+- If `min_amount` is not set, but `max_amount` is set, then the `amount` value is used as the `min_amount`. 
     
-`max_amount` | string
+`max_amount` | string | required if `allow_change_amount` is set to `true`
 
-Set the maximum amount if `allow_change_amount option` is set to `true`.  
-If you only use `max_amount`, the `amount` must be less than the `max_amount`.
+Sets a maximum amount that the customer can pay.    
+
+- The `max_amount` must be higher than the `amount`.  
+- If `max_amount` is not set, but `min_amount` is set, then the `amount` value is used as the `max_amount`.  
 
 ----------------
 `customer` | object | required
