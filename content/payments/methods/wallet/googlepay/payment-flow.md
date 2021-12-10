@@ -58,7 +58,7 @@ For more information about the Google Pay payment flow, see Google Pay – [Over
 | The customer has initiated a transaction. | Initialized | Initialized |
 | [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
-| The transaction has been cancelled. | Void   | Void   |
+| The transaction has been cancelled or the customer has requested a chargeback. | Void   | Void   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 | The customer's bank has declined the transaction (see possible reasons below). | Declined | Declined   |
 
@@ -87,6 +87,5 @@ For any questions, email the Support Team at <support@multisafepay.com>
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed      | Completed   |
-| The customer has requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

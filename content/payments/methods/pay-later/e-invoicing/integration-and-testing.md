@@ -16,12 +16,36 @@ For the E-Invoicing logo, see MultiSafepay GitHub – [MultiSafepay icons](https
 
 {{< details title="View credentials and testing process" >}}
 
-Test address: Kraanspoor 39C - 1033SC Amsterdam
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-Sample statuses:
+**Test an E-Invoicing order**
 
-| Status    | Description              |
-| --------- | ------------------------ |
-| **Completed** | Transaction was completed |
+To test an E-Invoicing order, make a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.
+
+If you make a redirect API request:
+- Enter in the:
+  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
+  - **Bank account** field any 10-digit bank account number.
+  - **Email address** field any email address.
+  - **Phone number** field any phone number.
+- Click **Confirm**.
+
+The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
+
+**Test declining an order**  
+
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The order and transaction statuses change to **Void**.
+
+**Test shipping an order**  
+
+To test shipping an order, make an [update an order](/api/#update-an-order) API request with status `"shipped"`. You receive the `invoice_url` in the API response.
+
+---
+
+**Note:** 
+You can't test:
+- Processing refunds
+- Cancelling orders
 
 {{< /details >}}

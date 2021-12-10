@@ -17,28 +17,65 @@ For the in3 logo, see MultiSafepay GitHub – [MultiSafepay icons](https://githu
 
 {{< details title="View credentials and testing process" >}}
 
-Test credentials: [API key](.com/tools/multisafepay-control/get-your-api-key/)
+Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-To test in3 transactions, follow these steps:
+**Test an in3 order**
 
-1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-3. To change the order status to **Shipped**, either:
-    - Send an [Update an order](/api/#update-an-order) API request, or 
-    - Change the status in your MultiSafepay test account.
-{{< br >}}The transaction status remains **Uncleared**.
-4. No invoice is generated in your test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in in3.
-
-You can also test in3 transactions by entering the following details on the in3 checkout page:
-
+1. To test an in3 order, make a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details.
 | Date of birth    | Postal code | House number |
 | ------------------- | ------------------- | ----------------- |
 | 01-01-1999 | 1234AB | 1 |
+
+    If you make a redirect API request:
+- Enter in the:
+    - **Birthdate** field `01-01-1999`.
+    - **Phone number** field any phone number.  
+- Select your title, and then click **Confirm**.
+2. Select the checkbox to accept in3's payment terms and privacy statement, and then click **Afronden**.
+3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**. 
+5. On the in3 page, click **Terug naar webshop**.  
+  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+
+**Test in3 declining an order**  
+
+To test in3 declining an order, make a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details:
+
+| Date of birth    | Postal code | House number |
+| ------------------- | ------------------- | ----------------- |
 | 01-01-2000 | 1111AB | 1 |
 
-Sample statuses:
+The order and transaction statuses change to **Declined**.
 
-- **Approved**
-- **Declined**
+**Test shipping an order**  
+To test shipping an order, either:
 
+- Make an [update an order](/api/#update-an-order) API request with status `shipped`, or 
+- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+
+**Receive an invoice**  
+
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+
+**Test refunding an order**
+
+To test refunding an order:
+
+1. Create an order. 
+2. Change the order status to `shipped`.
+3. Click **Refund complete order**, and then click **Save item changes**.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
+
+**Test an API refund**
+
+To test refunding an order via the API:
+
+1. Create an order. 
+2. Change the order status to `shipped`.
+3. Make a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
+
+---
+
+**Note:** You can't test cancelling orders.
 {{< /details >}}

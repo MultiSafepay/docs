@@ -22,7 +22,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Bank Transfer order**
 
-1. To test a Bank Transfer order, send a [redirect](/api/#bank-transfer---redirect) API request.
+1. To test a Bank Transfer order, make a [redirect](/api/#bank-transfer---redirect) API request.
 2. Open the payment link. 
 3. In the **Your bank account** field, enter an IBAN. 
 4. From the **Bank's country** list, select a country, and then click **Confirm**.
@@ -70,7 +70,7 @@ To test refunding an order:
 
 - You can't test:
   - Refunding via the API
-  - Sending direct API requests with an IBAN to test different transaction statuses
+  - Making direct API requests with an IBAN to test different transaction statuses
 - In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}

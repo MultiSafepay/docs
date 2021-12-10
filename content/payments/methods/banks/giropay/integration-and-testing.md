@@ -22,7 +22,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Giropay order**
 
-1. To test a Giropay order, send a [redirect](/api/#giropay) API request.
+1. To test a Giropay order, make a [redirect](/api/#giropay) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Completed**.
@@ -33,7 +33,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 To test cancelling an order:
 
-1. Send a [redirect](/api/#eps) API request.
+1. Make a [redirect](/api/#eps) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
@@ -64,7 +64,7 @@ To test refunding an order:
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

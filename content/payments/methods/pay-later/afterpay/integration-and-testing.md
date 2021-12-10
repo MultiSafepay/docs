@@ -15,7 +15,7 @@ To process AfterPay payments via our API, see API reference – [AfterPay](/api/
 
 For the AfterPay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-{{< details title="View testing process" >}}
+{{< details title="View credentials and testing process" >}}
 
 To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
@@ -28,18 +28,18 @@ AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay
 
 **Test an AfterPay order**
 
-1. Send a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
-2. If you send a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.
-3. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+1. Make a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+2. If you make a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The transaction and order statuses change to **Void**.
 
 **Test AfterPay rejecting an order**  
 
-To test AfterPay rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>
-
+To test AfterPay rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>  
 The transaction and order statuses change to **Declined**.
 
 **Change the order status**  
@@ -47,14 +47,14 @@ The transaction and order statuses change to **Declined**.
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [update an order](/api/#update-an-order) API request, or 
+- Make an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 ---
 
 **Note:** You can't test:  
 
-- Receiving a successful payment notification from AfterPay
+- Receiving successful payment notifications from AfterPay
 - Changing the transaction status from **Uncleared** to **Completed**
-- Processing a refund
+- Processing refunds
 {{< /details >}}

@@ -17,10 +17,13 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
     "locale": "en_US",
     "reference": "Your customer reference"
   },
-  "payment_options":{
+  "payment_options": {
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
     "cancel_url":"https://www.example.com/client/notification?type=cancel"
+  },
+  "customer": {
+    "ip_address": "123.123.123.123"
   },
   "payment_data": {
     "payload": "eyJnYXRld2F5IjoiSURFQUwiLCJjdXN0b21lciI6eyJicm93c2VyIjp7ImphdmFfZW5hYmxlZCI6MCwiamF2YXNjcmlwdF9lbmFibGVkIjoxLCJsYW5ndWFnZSI6ImVuLUdCIiwic2NyZWVuX2NvbG9yX2RlcHRoIjoyNCwic2NyZWVuX2hlaWdodCI6MTQ0MCwic2NyZWVuX3dpZHRoIjozNDQwLCJ0aW1lX3pvbmUiOi0xMjAsInVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTMuMC40NTc3LjYzIFNhZmFyaS81MzcuMzYiLCJjb29raWVzX2VuYWJsZWQiOjEsInBsYXRmb3JtIjoiTWFjSW50ZWwifSwibG9jYWxlIjoiZW5fVVMifSwiZmllbGRzIjp7ImV4dHZhcjgiOiIwMDMxIn0sImVuY3J5cHRlZCI6ZmFsc2UsImFwcGxpY2F0aW9uIjoiQVBJQ09OTkNPTVA6VjEifQ==",
@@ -61,6 +64,7 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
       "email": "",
       "first_name": null,
       "house_number": null,
+      "ip_address": "123.123.123.123",
       "last_name": null,
       "locale": "en_US",
       "phone1": null,
@@ -139,7 +143,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | optional
@@ -153,6 +160,16 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 `customer` | object | optional
 
 See [customer (object)](/api/#customer-object).
+
+----------------
+
+`customer.ip_address` | string | recommended
+
+The customer's IP address.
+
+{{< blue-notice >}}
+When accepting **credit card** payments through the Payment Component, always supply an IP address for fraud detection purposes.
+{{< /blue-notice >}}
 
 ----------------
 

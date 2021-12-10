@@ -40,7 +40,10 @@ meta_title: "API reference - Partial capture - MultiSafepay Docs"
 ----------------
 `amount` | integer | optional
 
-The amount (in cents) to charge.
+The amount to charge in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 For partial captures, specify the amount to capture.
 

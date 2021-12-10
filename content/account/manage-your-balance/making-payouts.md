@@ -90,6 +90,19 @@ To make manual payouts, follow these steps:
 ## Payout currency
 The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
 
+You can make [payouts](/account/payouts/) in: 
+
+- AUD (Australian dollar)
+- CAD (Canadian dollar)
+- CHF (Swiss franc)
+- DKK (Danish krone)
+- GBP (Pound Sterling)
+- HKD (Hong Kong dollar)
+- NOK (Norwegian krone)
+- PLN (Polish złoty)
+- SEK (Swedish krona)
+- USD (United States dollar)
+
 ## Payout processing times 
 The time taken to process payouts is determined by the Risk Team. The default payout delay is 1 day. Payouts may take up to three business days to arrive in your business bank account.
 
@@ -99,21 +112,11 @@ Not all banks have instant payments and therefore may take extra time to process
 
 {{< details title="Bank holidays" >}}
 
-On some bank holidays, banks don't process outgoing payments. For example, see the [Deutsche Bank schedule for the Netherlands](https://www.deutschebank.nl/nl/content/producten_en_services_services_international_holidays_2017.html).
+On some bank holidays, banks don't process outgoing payments. 
 
-MultiSafepay pays out every business day of the year, but not on bank holidays. Delayed payouts are made the next business day. The dates of bank holidays change each year.
+MultiSafepay pays out every business day of the year, but **not** on bank holidays. Delayed payouts are made the next business day. 
 
-### Bank holidays 2021
-
-| Date   | Occasion     | Payouts made |
-|----------------|-------------------|-----------|
-|  Friday, April 2, 2021 | Good Friday     | No  |
-|  Monday, April 5, 2021 | Easter Monday     | No  |
-|  Tuesday, April 27, 2021 | King's Day     | Yes  |
-|  Thursday, May 13, 2021 | Ascension Day     | Yes  |
-|  Monday, May 24, 2021 | Pentecost     | Yes  |
-
-For more information, email the Support Team at <support@multisafepay.com>
+Check the dates of local bank holidays. They may change each year.
 
 {{< /details >}}
 

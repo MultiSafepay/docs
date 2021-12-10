@@ -9,144 +9,85 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 
 ```json
 {
-  "type":"redirect",
-  "gateway":"IN3",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":37485,
-  "description":"Test order description",
-  "manual":"false",
-  "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel"
+  "type": "redirect",
+  "gateway": "IN3",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 10000,
+  "description": "Test Order Description",
+  "manual": "false",
+  "payment_options": {
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
   },
-  "customer":{
-    "ip_address":"45.46.216.114",
-    "locale":"nl_NL",
-    "first_name":"Testperson-nl",
-    "last_name":"",
-    "address1":"Kraanspoor",
-    "house_number":"39C",
-    "zip_code":"1039 SC",
-    "city":"Amsterdam",
-    "country":"NL",
-    "email":"example@multisafepay.com"
+  "customer": {
+    "ip_address": "84.71.117.69",
+    "locale": "nl_NL",
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Teststraat",
+    "house_number": "1",
+    "zip_code": "1234AB",
+    "city": "Amsterdam",
+    "country": "NL",
+    "email": "example@multisafepay.com"
   },
-  "delivery":{
-    "first_name":"Testperson-nl",
-    "last_name":"",
-    "address1":"Kraanspoor",
-    "house_number":"39C",
-    "zip_code":"1039 SC",
-    "city":"Amsterdam",
-    "country":"NL",
-    "phone":"0612345678",
-    "email":"example@multisafepay.com"
+  "delivery": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Teststraat",
+    "house_number": "1",
+    "zip_code": "1234AB",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
   },
-  "gateway_info":{
-    "birthday":"1970-07-10",
-    "gender":"mr",
-    "phone":"0612345678"
+  "gateway_info": {
+    "birthday": "1999-01-01",
+    "gender": "mr",
+    "phone": "0612345678"
   },
-  "shopping_cart":{
-    "items":[
+  "shopping_cart": {
+    "items": [
       {
-        "name":"Geometric Candle Holders",
-        "description":"",
-        "unit_price":90,
-        "quantity":3,
-        "merchant_item_id":"1111",
-        "tax_table_selector":"BTW21",
-        "weight":{
-          "unit":"KG",
-          "value":12
-        }
-      },
-      {
-        "name":"Nice apple",
-        "description":"",
-        "unit_price":35,
-        "quantity":1,
-        "merchant_item_id":"666666",
-        "tax_table_selector":"BTW9",
-        "weight":{
-          "unit":"KG",
-          "value":20
-        }
-      },
-      {
-        "name":"Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"msp-shipping",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": "12"
         }
       }
     ]
   },
-  "checkout_options":{
-    "tax_tables":{
-      "default":{
-        "shipping_taxed":"true",
-        "rate":0.21
+  "checkout_options": {
+    "tax_tables": {
+      "default": {
+        "shipping_taxed": "false",
+        "rate": 0
       },
-      "alternate":[
+      "alternate": [
         {
-          "name":"BTW21",
-          "standalone":true,
-          "rules":[
+          "name": "none",
+          "standalone": false,
+          "rules": [
             {
-              "rate":0.21
+              "rate": 0
             }
           ]
         },
         {
-          "name":"BTW9",
-          "standalone":true,
-          "rules":[
+          "name": "FEE",
+          "standalone": false,
+          "rules": [
             {
-              "rate":0.09
-            }
-          ]
-        },
-        {
-          "name":"BTW6",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0.06
-            }
-          ]
-        },
-        {
-          "name":"BTW0",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        },
-        {
-          "name":"none",
-          "standalone":false,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        },
-        {
-          "name":"FEE",
-          "standalone":false,
-          "rules":[
-            {
-              "rate":0
+              "rate": 0
             }
           ]
         }
@@ -159,10 +100,10 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 
 ```json
 {
-  "success":true,
-  "data":{
-    "order_id":"apitool_10088776",
-    "payment_url":"https://testpayv2.multisafepay.com/connect/82byiUAWKjrn4350x4fhNCzueapaDGvj8cs/?lang=nl_NL"
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://example.com"
   }
 }
 ```
@@ -170,144 +111,85 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 
 ```json
 {
-  "type":"direct",
-  "gateway":"IN3",
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":37485,
-  "description":"Test order description",
-  "manual":"false",
-  "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel"
+  "type": "direct",
+  "gateway": "IN3",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 10000,
+  "description": "Test Order Description",
+  "manual": "false",
+  "payment_options": {
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
   },
-  "customer":{
-    "ip_address":"89.45.467.110",
-    "locale":"nl_NL",
-    "first_name":"Testperson-nl",
-    "last_name":"",
-    "address1":"Kraanspoor",
-    "house_number":"39C",
-    "zip_code":"1033 SC",
-    "city":"Amsterdam",
-    "country":"NL",
-    "email":"example@multisafepay.com"
+  "customer": {
+    "ip_address": "84.71.117.69",
+    "locale": "nl_NL",
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Teststraat",
+    "house_number": "1",
+    "zip_code": "1234AB",
+    "city": "Amsterdam",
+    "country": "NL",
+    "email": "example@multisafepay.com"
   },
-  "delivery":{
-    "first_name":"Testperson-nl",
-    "last_name":"",
-    "address1":"Kraanspoor",
-    "house_number":"39C",
-    "zip_code":"1033 SC",
-    "city":"Amsterdam",
-    "country":"NL",
-    "phone":"0208500500",
-    "email":"example@multisafepay.com"
+  "delivery": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Teststraat",
+    "house_number": "1",
+    "zip_code": "1234AB",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
   },
-  "gateway_info":{
-    "birthday":"1970-07-10",
-    "gender":"mr",
-    "phone":"0612345678"
+  "gateway_info": {
+    "birthday": "1999-01-01",
+    "gender": "mr",
+    "phone": "0612345678"
   },
-  "shopping_cart":{
-    "items":[
+  "shopping_cart": {
+    "items": [
       {
-        "name":"Geometric Candle Holders",
-        "description":"",
-        "unit_price":90,
-        "quantity":3,
-        "merchant_item_id":"1111",
-        "tax_table_selector":"BTW21",
-        "weight":{
-          "unit":"KG",
-          "value":12
-        }
-      },
-      {
-        "name":"Nice apple",
-        "description":"",
-        "unit_price":35,
-        "quantity":1,
-        "merchant_item_id":"666666",
-        "tax_table_selector":"BTW9",
-        "weight":{
-          "unit":"KG",
-          "value":20
-        }
-      },
-      {
-        "name":"Flat Rate - Fixed",
-        "description":"Shipping",
-        "unit_price":10,
-        "quantity":1,
-        "merchant_item_id":"msp-shipping",
-        "tax_table_selector":"none",
-        "weight":{
-          "unit":"KG",
-          "value":0
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": "12"
         }
       }
     ]
   },
-  "checkout_options":{
-    "tax_tables":{
-      "default":{
-        "shipping_taxed":"true",
-        "rate":0.21
+  "checkout_options": {
+    "tax_tables": {
+      "default": {
+        "shipping_taxed": "false",
+        "rate": 0
       },
-      "alternate":[
+      "alternate": [
         {
-          "name":"BTW21",
-          "standalone":true,
-          "rules":[
+          "name": "none",
+          "standalone": false,
+          "rules": [
             {
-              "rate":0.21
+              "rate": 0
             }
           ]
         },
         {
-          "name":"BTW9",
-          "standalone":true,
-          "rules":[
+          "name": "FEE",
+          "standalone": false,
+          "rules": [
             {
-              "rate":0.09
-            }
-          ]
-        },
-        {
-          "name":"BTW6",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0.06
-            }
-          ]
-        },
-        {
-          "name":"BTW0",
-          "standalone":true,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        },
-        {
-          "name":"none",
-          "standalone":false,
-          "rules":[
-            {
-              "rate":0
-            }
-          ]
-        },
-        {
-          "name":"FEE",
-          "standalone":false,
-          "rules":[
-            {
-              "rate":0
+              "rate": 0
             }
           ]
         }
@@ -321,199 +203,122 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 
 ```json
 {
-  "success":true,
-  "data":{
-    "amount":37485,
-    "amount_refunded":0,
-    "checkout_options":{
-      "alternate":[
+  "success": true,
+  "data": {
+    "amount": 10000,
+    "amount_refunded": 0,
+    "checkout_options": {
+      "alternate": [
         {
-          "name":"BTW21",
-          "rules":[
+          "name": "none",
+          "rules": [
             {
-              "country":"",
-              "rate":0.21
+              "country": "",
+              "rate": "0.00"
             }
           ],
-          "standalone":true
+          "standalone": ""
         },
         {
-          "name":"BTW9",
-          "rules":[
+          "name": "FEE",
+          "rules": [
             {
-              "country":"",
-              "rate":0.09
+              "country": "",
+              "rate": "0.00"
             }
           ],
-          "standalone":true
-        },
-        {
-          "name":"BTW6",
-          "rules":[
-            {
-              "country":"",
-              "rate":0.06
-            }
-          ],
-          "standalone":true
-        },
-        {
-          "name":"BTW0",
-          "rules":[
-            {
-              "country":"",
-              "rate":0.00
-            }
-          ],
-          "standalone":true
-        },
-        {
-          "name":"none",
-          "rules":[
-            {
-              "country":"",
-              "rate":0.00
-            }
-          ],
-          "standalone":""
-        },
-        {
-          "name":"FEE",
-          "rules":[
-            {
-              "country":"",
-              "rate":0.00
-            }
-          ],
-          "standalone":""
+          "standalone": ""
         }
       ],
-      "default":{
-        "rate":0.21,
-        "shipping_taxed":true
+      "default": {
+        "rate": "0.00",
+        "shipping_taxed": false
       }
     },
-    "costs":[
-      
-    ],
-    "created":"2020-08-19T14:55:46",
-    "currency":"EUR",
-    "custom_info":{
-      "custom_1":null,
-      "custom_2":null,
-      "custom_3":null
+    "costs": [],
+    "created": "2021-11-15T15:46:18",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
     },
-    "customer":{
-      "address1":"Kraanspoor",
-      "city":"Amsterdam",
-      "country":"NL",
-      "country_name":null,
-      "email":"example@multisafepay.com",
-      "first_name":"Testperson-nl",
-      "house_number":"39C",
-      "last_name":"",
-      "locale":"nl_NL",
-      "phone1":"0612345678",
-      "zip_code":"1039 SC"
+    "customer": {
+      "address1": "Teststraat",
+      "address2": null,
+      "city": "Amsterdam",
+      "country": "NL",
+      "country_name": null,
+      "email": "example@multisafepay.com",
+      "first_name": "John",
+      "house_number": 1,
+      "last_name": "Doe",
+      "locale": "nl_NL",
+      "phone1": "0612345678",
+      "phone2": "",
+      "state": null,
+      "zip_code": "1234AB"
     },
-    "description":"Test order description",
-    "fastcheckout":"NO",
-    "financial_status":"initialized",
-    "items":"<table border=\"0\" cellpadding=\"5\" width=\"100%\">\n<tr>\n<th width=\"10%\"><font size=\"2\" face=\"Verdana\">Aantal </font></th>\n<th align=\"left\"></th>\n<th align=\"left\"><font size=\"2\" face=\"Verdana\">Details </font></th>\n<th width=\"19%\" align=\"right\"><font size=\"2\" face=\"Verdana\">Prijs </font></th>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">3</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Geometric Candle Holders</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">90.00</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Nice apple</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">35.00</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Flat Rate - Fixed</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">10.00</font>\n</td>\n</tr>\n<tr bgcolor=\"#E9F1F7\">\n<td colspan=\"3\" align=\"right\"><font size=\"2\" face=\"Verdana\">BTW:</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">59.85</font>\n</td>\n</tr>\n<tr bgcolor=\"#E9F1F7\">\n<td colspan=\"3\" align=\"right\"><font size=\"2\" face=\"Verdana\">Totaal:</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">374.85</font>\n</td>\n</tr>\n</table>",
-    "modified":"2020-08-19T14:55:46",
-    "order_adjustment":{
-      "total_adjustment":59.85,
-      "total_tax":59.85
+    "description": "Test Order Description",
+    "fastcheckout": "NO",
+    "financial_status": "initialized",
+    "items": "...",
+    "modified": "2021-11-15T15:46:18",
+    "order_adjustment": {
+      "total_adjustment": "0.00",
+      "total_tax": "0.00"
     },
-    "order_id":"my-order-id-1",
-    "order_total":374.85,
-    "payment_details":{
-      "account_holder_name":null,
-      "account_id":"1970-07-10",
-      "external_transaction_id":"34bfc991bef24558a5b4f9c168753da1",
-      "recurring_id":null,
-      "recurring_model":null,
-      "type":"IN3"
+    "order_id": "my-order-id-1",
+    "order_total": "100.00",
+    "payment_details": {
+      "collecting_flow": null,
+      "external_transaction_id": "9bdb61ee3f8b4acb944e392891b99a7f",
+      "recurring_flow": null,
+      "recurring_id": null,
+      "recurring_model": null,
+      "type": "IN3"
     },
-    "payment_methods":[
+    "payment_methods": [
       {
-        "account_id":"1970-07-10",
-        "amount":37485,
-        "currency":"EUR",
-        "description":"Test order description",
-        "external_transaction_id":"34bfc928374rhjnf9368753da1",
-        "payment_description":"in3",
-        "status":"initialized",
-        "type":"IN3"
+        "amount": 10000,
+        "currency": "EUR",
+        "description": "Test Order Description",
+        "external_transaction_id": "9bdb61ee3f8b4acb944e392891b99a7f",
+        "payment_description": "in3",
+        "status": "initialized",
+        "type": "IN3"
       }
     ],
-    "reason":"",
-    "reason_code":"",
-    "related_transactions":null,
-    "shopping_cart":{
-      "items":[
+    "reason": "",
+    "reason_code": "",
+    "related_transactions": null,
+    "shopping_cart": {
+      "items": [
         {
-          "cashback":"",
-          "currency":"EUR",
-          "description":"",
-          "image":"",
-          "merchant_item_id":1111,
-          "name":"Geometric Candle Holders",
-          "options":[
-            
-          ],
-          "product_url":"",
-          "quantity":3,
-          "tax_table_selector":"BTW21",
-          "unit_price":"90.00",
-          "weight":{
-            "unit":"KG",
-            "value":12
-          }
-        },
-        {
-          "cashback":"",
-          "currency":"EUR",
-          "description":"",
-          "image":"",
-          "merchant_item_id":666666,
-          "name":"Nice apple",
-          "options":[
-            
-          ],
-          "product_url":"",
-          "quantity":1,
-          "tax_table_selector":"BTW9",
-          "unit_price":"35.00",
-          "weight":{
-            "unit":"KG",
-            "value":20
-          }
-        },
-        {
-          "cashback":"",
-          "currency":"EUR",
-          "description":"Shipping",
-          "image":"",
-          "merchant_item_id":"msp-shipping",
-          "name":"Flat Rate - Fixed",
-          "options":[
-            
-          ],
-          "product_url":"",
-          "quantity":1,
-          "tax_table_selector":"none",
-          "unit_price":"10.00",
-          "weight":{
-            "unit":"KG",
-            "value":0
+          "cashback": "",
+          "currency": "EUR",
+          "description": "",
+          "image": "",
+          "merchant_item_id": 1111,
+          "name": "Test",
+          "options": [],
+          "product_url": "",
+          "quantity": 1,
+          "tax_table_selector": "none",
+          "unit_price": "100.00",
+          "weight": {
+            "unit": "KG",
+            "value": 12
           }
         }
       ]
     },
-    "status":"initialized",
-    "transaction_id":4273483,
-    "payment_url":"https://capayable-payment-test.tritac.com/aanbetaling/34bfc991bef24558a5b4f9c168753da1?returnUrl=https%3A%24545F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F%3Fmspid%3D4273483&shopOrderExchangeUrl=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F%3Fmspid%3D4273483"
+    "status": "initialized",
+    "transaction_id": 5119085,
+    "var1": null,
+    "var2": null,
+    "var3": null,
+    "payment_url": "https://example.com"
   }
 }
 ```
@@ -554,7 +359,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
@@ -612,7 +420,7 @@ See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 ----------------
 `checkout_options` | object
 
-The definitions for the VAT class.
+The definitions for the VAT class. See [checkout_options (object)](/api/#checkout-options-object).
 
 **Response**
 
@@ -655,7 +463,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
@@ -721,14 +532,24 @@ See [items (object)](/api/#items-object).
 ----------------
 `checkout_options` | object
 
-The definitions for the VAT class.
+The definitions for the VAT class. See [checkout_options (object)](/api/#checkout-options-object).
 
 **Response**
+
+----------------
+`amount` | integer
+
+The amount (in cents) the customer needs to pay.
 
 ----------------
 `amount_refunded` | integer
 
 The amount refunded to the customer.
+
+----------------
+`checkout_options` | object
+
+The definitions for the VAT class. See [checkout_options (object)](/api/#checkout-options-object).
 
 ----------------
 `costs` | object
@@ -741,9 +562,25 @@ See [costs (object)](/api/#costs-object).
 The timestamp for when the order was created.
 
 ----------------
+`currency` | string
+
+The currency you want the customer to pay in.   
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
+
+----------------
 `custom_info` | object
 
 See [custom_info (object)](/api/#custom-info-object).
+
+----------------
+`customer` | object
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`description` | string
+
+The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
 
 ----------------
 `fastcheckout` | string 
@@ -751,9 +588,24 @@ See [custom_info (object)](/api/#custom-info-object).
 Value: `NO`.
 
 ----------------
+`financial_status` | string
+
+The [transaction status](/payments/multisafepay-statuses/) of the order.
+
+----------------
+`items` | object
+
+See [items (object)](/api/#items-object).
+
+----------------
 `modified` | string
 
 The timestamp when the order was last modified.
+
+----------------
+`order_id` | string
+
+Your unique identifier for the order.   
 
 ----------------
 `payment_details` | object
@@ -768,11 +620,15 @@ See [payment_methods (object)](/api/#payment-methods-object).
 ----------------
 `reason` | string
 
-
 ----------------
 `related_transactions` | object
 
 Information about linked transactions.
+
+----------------
+`shopping_cart` | object
+
+See [shopping_cart.items (object)](/api/#shopping-cart-items-object). 
 
 ----------------
 `status` | string
@@ -788,7 +644,5 @@ MultiSafepay's identifier for the transaction (also known as the PSP ID).
 `payment_url` | string 
 
 The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
-
-----------------
 
 {{< /description >}}

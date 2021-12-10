@@ -19,26 +19,27 @@ For the Klarna logo, see MultiSafepay GitHub – [MultiSafepay icons](https://gi
 
 Test credentials:
 
-- [API key](/tools/multisafepay-control/get-your-api-key/)
+- [API key](/account/site-id-api-key-secure-code/)
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  
-1. Send a [direct or redirect](/api/#klarna) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+1. Make a [direct](/api/#klarna) API request. 
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
-4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.
-5. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
+The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
-To decline an order, in your test account under **Order summary**, click **Decline**. The transaction and order statuses change to **Void**.
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The transaction and order statuses change to **Void**.
 
 **Change the order status**  
 
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Send an [update an order](/api/#update-an-order) API request, or 
+- Make an [update an order](/api/#update-an-order) API request, or 
 - In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
 
 **Test refunding an order**
@@ -46,19 +47,20 @@ To change the order status, either:
 To refund an order:
 
 1. Change the order status to **Shipped**.
-2. Under **Order summary**, click **Refund order**, or send a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
+2. Under **Order summary**, click **Refund order**, or make a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
   The transaction status changes to **Completed**.
 
 **Receive an invoice**  
 
-You can only test the invoice process in your live MultiSafepay account. To do this, change the order status to **Shipped**.
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
 ---
 
 **Note:** You can't test:
 
-- Receiving a successful payment notification from Klarna
+- Receiving successful payment notifications from Klarna
 - Changing the transaction status from **Uncleared** to **Completed**, except for refunds
+- Making redirect API requests
 
 {{< /details >}}
 

@@ -22,8 +22,8 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a SEPA Direct Debit order**
 
-1. To test a SEPA Direct Debit order, send a [direct](/api/#sepa-direct-debit---direct) or [redirect](/api/#sepa-direct-debit---redirect) API request.
-2. If you send a redirect API request, enter in the:
+1. To test a SEPA Direct Debit order, make a [direct](/api/#sepa-direct-debit---direct) or [redirect](/api/#sepa-direct-debit---redirect) API request.
+2. If you make a redirect API request, enter in the:
     - **Account holder** field the account holder name.
     - **IBAN** field the IBAN.
 4. Click **Confirm**.
@@ -61,7 +61,7 @@ To test refunding an order:
 To test refunding an order via the API:
 
 1. Create an order with IBAN `NL87ABNA0000000001`. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

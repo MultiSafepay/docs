@@ -3,7 +3,6 @@ title: 'Set up your account'
 breadcrumb_title: 'Set up your account'
 weight: 10
 meta_title: "Getting started - Set up your account - MultiSafepay Docs"
-
 read_more: "."
 logo: '/svgs/Partner_Account_Control.svg'
 layout: 'single'
@@ -36,4 +35,4 @@ For full guidance, see [Account setup](/account/account-setup/).
 {{< two-buttons
 href-1="/getting-started/create-a-test-account" header-1="Previous" text-1="Create a test account" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/getting-started/build-your-integration" header-2="Next" text-2="Build your integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/getting-started/create-your-integration" header-2="Next" text-2="Create your integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

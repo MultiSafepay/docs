@@ -43,10 +43,12 @@ meta_title: "API reference - Create a co-branded credit card order - MultiSafepa
 {{< description >}}
 ### Co-branded credit cards 
 
-- See also Payment methods:  
-  - [Cartes Bancaires](/payment-methods/cartes-bancaires)
-  - [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
-  - [Postepay](/payments/methods/credit-and-debit-cards/postepay)  
+- See also:  
+  - [Cartes Bancaires](/payment-methods/cartes-bancaires/)
+  - [Dankort](/payment-methods/dankort/) 
+  - [Maestro](/payment-methods/maestro/)
+  - [Postepay](/payment-methods/postepay/) 
+  - [V Pay](/payment-methods/vpay/)  
 - Redirect only.
 
 **Parameters**
@@ -79,7 +81,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
