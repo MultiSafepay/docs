@@ -7,7 +7,7 @@ url: '/bank-transfer/ongematchte-bankoverschrijvingen/'
 tags: "hidden"
 ---
 
-Lees deze pagina ook in het [Engels](/bank-transfer/unmatched-payments/) of [Duits](/bank-transfer/unmatched-payments-de/).
+Lees deze pagina ook in het [Engels](/bank-transfer/unmatched-payments/) of [Duits](/bank-transfer/unzugeordneten-banküberweisungen/).
 
 Wanneer MultiSafepay een bankoverschrijving ontvangt van een klant, matchen we die automatisch aan de bijbehorende transactie in ons systeem. We doen dit op basis van de betalingsgegevens.
 
