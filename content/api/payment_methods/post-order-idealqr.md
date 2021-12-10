@@ -119,7 +119,6 @@ False: The QR code can only be used once.
 True: The customer can change the amount to pay.  
 False: The customer cannot change the amount the pay.    
 Required parameters: `max_amount`, or `min_amount`, or both.  
-If you set both `min_amount` and `max_amount` parameters, the `amount` value is ignored.
 
 `min_amount` | string
 
