@@ -41,16 +41,16 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 
 1.	Klicken Sie auf den Link, um die Zahlungsseite zu öffnen. 
 2.	Falls der Kunde/die Kundin das Feld Kontonummer nicht ausgefüllt hat, füllen Sie es aus. 
-3.	Klicken Sie auf Bestätigen, um die Transaktion in unserem System zu generieren. 
+3.	Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
-## Zahlungslink wurde nicht generiert
+### Zahlungslink wurde nicht generiert
 
 1.	[Erstellen Sie einen Zahlungslink manuell](/payment-links/generating-links/).
 2.	Nennen Sie den Kundennamen und die Bestellnummer in der Beschreibung
-3.	Klicken Sie auf Banküberweisung.
-4.	Klicken Sie auf Bestätigen, um die Transaktion in unserem System zu generieren. 
+3.	Klicken Sie auf **Banküberweisung**.
+4.	Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
-Bitte beachten: Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
+**Bitte beachten:** Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
 
 ## Support
 

@@ -34,13 +34,13 @@ This means the transaction was not created successfully in our system.
 
 To create the transaction again, check if a [payment link](/payment-links/) was created: 
 
-**Payment link created** 
+### Payment link created
 
 1. Click the link to open the payment page. 
 2. If the customer didn't fill in the **Bank account number** field, enter their bank account number for them.
 3. Click **Confirm** to create the transaction in our system.
 
-**Payment link not created**
+### Payment link not created
 
 1. [Generate one manually](/payment-links/generating-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
@@ -50,4 +50,5 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 **Note:** The order ID must be unique for each payment link.
 
 ## Support
+
 Email the Support Team at <support@multisafepay.com>
