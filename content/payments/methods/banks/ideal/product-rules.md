@@ -47,19 +47,19 @@ To increase transparency for customers, the name of your website appears on the 
 
 ## iDEAL QR
 
-iDEAL QR has an enormous range of applications. Customers can scan QR codes off a screen or paper, e.g. invoices, receipts. This makes it particularly suitable for hospitality, charity collectors, and home deliveries. 
+iDEAL QR has a wide range of applications. Customers can scan QR codes off screens or paper, e.g. invoices, receipts. This makes it particularly suitable for hospitality, charity collectors, and home deliveries. 
 
 For more information, see iDEAL – [Offer iDEAL QR](https://www.ideal.nl/en/businesses/offer-ideal-qr/).
 
 - iDEAL QR is supported in all our [ready-made integrations](/payments/integrations/). 
 
-- Not all Dutch banks' apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
+- Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
 
 - You can specify whether the same QR code can be used more than once.
 
-- You can allow customers to change the amount to pay, e.g. for donations. 
+- You can let customers change the amount to pay, e.g. for donations. 
 
-- You can generate more than one payment link for a single order ID. Subsequent transactions each have a unique order ID.
+
 
 
 

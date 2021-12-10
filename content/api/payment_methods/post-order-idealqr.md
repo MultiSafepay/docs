@@ -119,19 +119,20 @@ False: The QR code can only be used once.
 True: The customer can change the amount to pay.  
 False: The customer cannot change the amount the pay.    
 Required parameters: `max_amount`, or `min_amount`, or both.  
-If you set both `min_amount` and `max_amount` parameters, the `amount` value is ignored.
 
-`min_amount` | string
+`min_amount` | string | required if `allow_change_amount` is set to `true`
 
-If `allow_change_amount` is set to `true`, set the `min_amount`.    
-The `min_amount` must not be more than the `amount`, i.e. `amount` = `max_amount`.  
-If `min_amount` is not set, the `amount` value is used as the `min_amount` and vice versa. 
+Sets a minimum amount that the customer can pay.     
+
+- The `min_amount` must be lower than the `amount`.  
+- If `min_amount` is not set, but `max_amount` is set, then the `amount` value is used as the `min_amount`. 
     
-`max_amount` | string
+`max_amount` | string | required if `allow_change_amount` is set to `true`
 
-If `allow_change_amount option` is set to `true`, set the `max_amount`.    
-If you only use `max_amount`, it must be more than the `amount`.  
-If `max_amount` is not set, the `amount` is used as the `max_amount`.  
+Sets a maximum amount that the customer can pay.    
+
+- The `max_amount` must be higher than the `amount`.  
+- If `max_amount` is not set, but `min_amount` is set, then the `amount` value is used as the `max_amount`.  
 
 ----------------
 `customer` | object | required
