@@ -3,7 +3,7 @@ title : "Surcharges"
 weight: 40
 meta_title: "Payment regulations - Surcharges - MultiSafepay Docs"
 read_more: "."
-url: '/payments/surcharges/'
+url: '/about-payments/surcharges/'
 aliases:
     - /faq/payment-regulations/surcharges
     - /faq/payment-regulations/about-surcharges
