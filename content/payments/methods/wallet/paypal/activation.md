@@ -30,7 +30,7 @@ To configure your PayPal account, follow these steps:
 4. Under **Pre-built payment solution**, click **Grant API permission**.
 5. In the **Third-party permission username** field, enter `paypal_api1.multisafepay.com`. 
 7. Click **Lookup**.  
-8. Select the checkboxes of the relevant permissions, e.g.:  
+8. Select the checkboxes of the relevant permissions:  
     - Use Express Checkout to process payments.
     - Issue a refund for a specific transaction.
     - Process your customers' credit or debit card payments.
