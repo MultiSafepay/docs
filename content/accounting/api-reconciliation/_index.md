@@ -1,16 +1,17 @@
 ---
-title : "Transactions endpoint"
+title : "Reconciliation through API"
 weight: 30
-meta_title: "Transactions API endpoint - MultiSafepay Docs"
+meta_title: "Reconciliation through API - MultiSafepay Docs"
 layout : "single"
-short_description: 'Request your transactions through our API for programmatic integrations.'
+short_description: 'Request your transactions through our API for programmatic reconciliation.'
 logo: '/svgs/API.svg'
 aliases: 
     - /tools/transactions-api-endpoint
     - /tools/accounting/transactions-api-endpoint/
+    - /business/accounting/transactions-api-endpoint/
 ---
 
-The transactions API endpoint returns details about transactions in your account. You can use it to automate business operations and gain insights into your transactions.
+The transactions API endpoint returns details about transactions in your account. You can use it to automate business operations like reconciliation and gain insights into your transactions.
 
 See API reference – [Retrieve transactions](/api/#retrieve-transactions).
 
