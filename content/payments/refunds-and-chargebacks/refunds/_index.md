@@ -5,7 +5,7 @@ meta_title: "Refunds - MultiSafepay Docs"
 layout: block
 read_more: '.'
 block-range-pages: '.'
-url: '/payments/refunds/'
+url: '/refunds/'
 short_description: 'Process refunds in your MultiSafepay account, from your ready-made integration, or via our API'
 aliases:
     - /faq/refunds
@@ -27,6 +27,7 @@ aliases:
     - /faq/finance/paying-out-funds-from-your-multisafepay-control
     - /faq/finance/refund-more-than-original-amount
     - /tools/multisafepay-control/processing-refunds
+    - /payments/refunds/
 ---
 
 
