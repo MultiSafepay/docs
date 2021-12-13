@@ -16,7 +16,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#belfius---direct) and [redirect](/api/#belfius---redirect) |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/ecommerce-platforms/), **except** OsCommerce and ZenCart. |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/), **except** OsCommerce and ZenCart. |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 

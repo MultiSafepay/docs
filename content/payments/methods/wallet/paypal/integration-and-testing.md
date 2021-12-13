@@ -15,7 +15,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#paypal---direct) and [redirect](/api/#paypal---redirect) |
-| **Ready-made integrations** | PayPal is supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Ready-made integrations** | PayPal is supported in all our [ready-made integrations](/integrations/ready-made/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – Links are valid for 14 days. The lifetime is set by PayPal. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
