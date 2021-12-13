@@ -3,7 +3,7 @@ title: "Payment methods by country"
 weight: 60
 meta_title: "Payment methods by country - MultiSafepay Docs"
 read_more: "."
-url: '/payments/countries/'
+url: '/about-payments/countries/'
 ---
 
 View the payment methods supported for different countries:
