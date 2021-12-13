@@ -15,7 +15,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#alipay---direct) and [redirect](/api/#alipay---redirect)  |
-| **Ready-made integrations** | Alipay (direct) is supported in all our [ready-made integrations](/ecommerce-platforms/) **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
+| **Ready-made integrations** | Alipay (direct) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 

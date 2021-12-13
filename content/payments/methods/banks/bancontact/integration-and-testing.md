@@ -18,7 +18,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Bancontact redirect](/api/#bancontact) {{< br >}} [Bancontact QR](/api/#bancontact-qr) |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime.  |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 

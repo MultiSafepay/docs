@@ -19,7 +19,7 @@ noindex: '.'
 
 | | |
 |---|---|
-| **Ready-made integrations** | Google Pay (redirect) is supported in all our [ready-made integrations](/ecommerce-platforms/) **except** Magento 2.    |
+| **Ready-made integrations** | Google Pay (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** Magento 2.    |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Google branding** | When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines). |
 

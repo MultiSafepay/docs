@@ -16,7 +16,7 @@ aliases:
 | | |
 |---|---|
 | **API** | See API reference – [Co-branded credit cards](/api/#co-branded-credit-cards). {{< br >}} **Bundled credit cards** {{< br >}} You can also bundle multiple credit cards together on your MultiSafepay credit card payment page. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits. {{< br >}} To make Postepay available as a payment method on the MultiSafepay credit card payment page, set the [`locale`](/developer/api/using-locale-parameters) to `it_IT` (Italy) in transaction requests. {{< br >}} See API reference – [Credit cards](/api/#credit-cards). |
-| **Ready-made integrations** | You can integrate using the Visa gateway (redirect) in all our [ready-made integrations](/ecommerce-platforms/).   |
+| **Ready-made integrations** | You can integrate using the Visa gateway (redirect) in all our [ready-made integrations](/integrations/ready-made/).   |
 | **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 

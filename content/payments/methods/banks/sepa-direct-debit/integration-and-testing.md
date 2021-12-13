@@ -16,7 +16,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#sepa-direct-debit---direct) and [redirect](/api/#sepa-direct-debit---redirect) |
-| **Ready-made integrations** | EPA Direct Debit (direct) is supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Ready-made integrations** | EPA Direct Debit (direct) is supported in all our [ready-made integrations](/integrations/ready-made/). |
 | **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
