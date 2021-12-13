@@ -58,7 +58,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 **Banking methods**
 
 - [Bancontact](/payment-methods/bancontact)
-- [Bank transfer](/payment-methods/bank-transfer)
+- [Bank Transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
 - [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
@@ -99,7 +99,7 @@ Payments are processed in the webshop's default currency only.
   * [Alipay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872)
   * [American Express](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852)
   * [Bancontact](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052848)
-  * [Bank transfer](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868)
+  * [Bank Transfer](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868)
   * [Belfius](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052846)
   * [Dotpay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052874)
   * [EPS](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052876)

@@ -41,7 +41,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 **Banking methods**
 
 - [Bancontact](/payment-methods/bancontact)
-- [Bank transfer](/payment-methods/bank-transfer)
+- [Bank Transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
 - [CBC/KBC](/payment-methods/cbc-kbc)
 - [EPS](/payment-methods/eps)

@@ -49,7 +49,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 **Banking methods**
 
 - [Bancontact](/payment-methods/bancontact)
-- [Bank transfer](/payment-methods/bank-transfer)
+- [Bank Transfer](/payment-methods/bank-transfer)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL](/payment-methods/ideal)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)

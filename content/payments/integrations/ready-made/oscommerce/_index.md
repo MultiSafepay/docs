@@ -66,7 +66,7 @@ Contact MultiSafepay:
 **Banking methods**
 
 - [Bancontact](/payment-methods/bancontact)
-- [Bank transfer](/payment-methods/bank-transfer)
+- [Bank Transfer](/payment-methods/bank-transfer)
 - [Dotpay](/payment-methods/dotpay)
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)

@@ -1,5 +1,5 @@
 ---
-title: "Activating Bank transfer"
+title: "Activating Bank Transfer"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Bank Transfer - MultiSafepay Docs"

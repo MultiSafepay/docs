@@ -117,7 +117,7 @@ PaymentComponent.init('payment', {
 
 | Payment method| Gateway code|
 |---|---|
-| Bank transfer | `BANKTRANS` |
+| Bank Transfer | `BANKTRANS` |
 | Bancontact | `MISTERCASH` |
 | Credit cards |`CREDITCARD`|
 | iDEAL|`IDEAL`|

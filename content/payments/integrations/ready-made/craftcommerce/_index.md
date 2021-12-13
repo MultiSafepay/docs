@@ -65,7 +65,7 @@ Contact MultiSafepay:
 **Banking methods**
 
 - [Bancontact](/payment-methods/bancontact)
-- [Bank transfer](/payment-methods/bank-transfer)
+- [Bank Transfer](/payment-methods/bank-transfer)
 - [Belfius](/payment-methods/belfius)
 - [CBC/KBC](/payment-methods/cbc-kbc)
 - [Dotpay](/payment-methods/dotpay)
