@@ -33,9 +33,9 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 - The following payments methods are not supported because they follow a different payment flow:
     - [AfterPay](/payments/methods/billing-suite/afterpay)
-    - [Bank transfer](/payment-methods/bank-transfer)
+    - [Bank Transfer](/payment-methods/bank-transfer)
     - [Betaal per Maand](/payment-methods/betaal-per-maand)
-    - [Direct Debit](/payment-methods/sepa-direct-debit)
+    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
     - [Klarna](/payment-methods/klarna)
     - [Pay After Delivery](/payment-methods/pay-after-delivery)
   

@@ -1,6 +1,6 @@
 ---
 weight: 307
-meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
+meta_title: "API reference - Create Bank Transfer order - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -153,7 +153,7 @@ meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
 
 {{< description >}}
 ## Bank Transfer
-See also Payment methods – [Bank transfer](/payment-methods/bank-transfer).
+See also Payment methods – [Bank Transfer](/payment-methods/bank-transfer).
 
 ### Bank Transfer - redirect
 

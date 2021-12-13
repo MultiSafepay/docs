@@ -34,7 +34,7 @@ See API reference – [Payment Component order](/api/#payment-component-orders).
 
 **3.** Handle the response:
 
-{{< details title="Bank transfer payments" >}}
+{{< details title="Bank Transfer payments" >}}
 
 In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
 
