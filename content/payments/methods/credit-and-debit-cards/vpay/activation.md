@@ -8,7 +8,11 @@ layout: 'child'
 aliases: 
     - /payment-methods/vpay/activate-vpay/
 ---
+{{< blue-notice >}} If using a ready-made integration: 
 
-To make V Pay available as a payment method on the MultiSafepay credit card payment page, you need to enable the Visa gateway.
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/getting-started/glossary/#backend).  {{< /blue-notice >}}
 
-Note that the V Pay logo never appears on the MultiSafepay payment page because it is part of the Visa Europe circuit.
+V Pay payments are processed through the Visa gateway.
+
+{{< activate_payment_method type="non-standard" name="V Pay" >}}

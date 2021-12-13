@@ -2,7 +2,6 @@
 title : "Minimizing chargebacks"
 weight: 80
 meta_title: "Credit card user guide - Minimizing chargebacks - MultiSafepay Docs"
-
 short_description: "Minimize chargebacks by providing good customer service and using fraud protection"
 url: "/payments/chargebacks/minimizing"
 read_more: "."
@@ -24,3 +23,7 @@ Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-pr
 
 ## Goods not as described  
 Offer quality items and provide clear descriptions on your website. 
+
+## Transaction not recognized
+
+To help increase brand recognition, include your logo in customer's online bank statments. See [Your logo in online banking](/payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking).

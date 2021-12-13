@@ -9,8 +9,15 @@ url: '/payment-methods/wechat-pay/integration-testing/'
 aliases:
     - /payments/methods/wallet/wechatpay/integration-and-testing/
 ---
+## Integration
 
-To process WeChat Pay payments via our API, see API Reference – [WeChat Pay](/api/#wechat-pay).
+| | |
+|---|---|
+| **API** | [Direct](/api/#wechat-pay---direct) and [redirect](/api/#wechat-pay---redirect) |
+| **Ready-made integrations** | WeChat Pay is supported in our [PrestaShop 1.7 plugin](/prestashop-1-7/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
+
 
 To display the QR code for WeChat Pay payments, you have two options:
 
@@ -18,13 +25,11 @@ To display the QR code for WeChat Pay payments, you have two options:
 
 - Use [direct](/api/#wechat-pay---direct) orders, retrieve the `qr_url` and render the QR code in your system to display it to the customer.
 
-For the WeChat Pay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
-**Test a WeChat Pay order**
+### Test a WeChat Pay order
 
 1. Make a [direct](/api/#wechat-pay---direct) or [redirect](/api/#wechat-pay---redirect) API request.
 2. Scan the QR code with a general QR reader (**not** the WeChat app - an error occurs).
@@ -32,7 +37,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 4. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To refund an order:
 
@@ -49,7 +54,7 @@ To refund an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
@@ -61,11 +66,8 @@ To test refunding an order via the API:
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
-**Note**:  
+**Notes**:  
 
 - You can't test cancelling orders.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
-{{< /details >}}

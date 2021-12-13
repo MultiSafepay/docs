@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Giropay"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Giropay - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Giropay in your ecommerce platform"
+meta_title: "Integrating and testing Giropay - MultiSafepay Docs"
+short_description: "Options for integrating Giropay and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/Giropay.svg'
 url: '/payment-methods/giropay/integration-testing/'
@@ -11,16 +11,20 @@ aliases:
     - /payment-methods/giropay/giropay-testing
     - /payments/methods/banks/giropay/integration-and-testing/
 ---
+## Integration
 
-To process Giropay payments via our API, see API reference – [Giropay](/api/#giropay).
+| | |
+|---|---|
+| **API** | [Redirect](/api/#giropay) |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the Giropay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing 
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Giropay order**
+### Test a Giropay order
 
 1. To test a Giropay order, make a [redirect](/api/#giropay) API request.
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
@@ -29,7 +33,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test cancelling an order**
+### Test cancelling an order
 
 To test cancelling an order:
 
@@ -40,7 +44,7 @@ To test cancelling an order:
 5. Click **Test**.  
   The order status changes to **Void**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -59,7 +63,7 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
@@ -71,7 +75,4 @@ To test refunding an order via the API:
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
 **Note:** In the live environment, you can't accept refund orders. These are done automatically.
-{{< /details >}}

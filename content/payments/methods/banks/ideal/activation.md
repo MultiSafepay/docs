@@ -13,28 +13,11 @@ aliases:
     - /payments/methods/banks/idealqr/activation/
 ---
 
-To activate iDEAL, follow these steps:
+{{< blue-notice >}} If using a ready-made integration: 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Settings** > **Payment methods**. 
-3. Under **Standard payment methods**, select the **iDEAL** checkbox.
-4. Click **Save changes**.
-5. Sign in to your [backend](/getting-started/glossary/#backend) and enable iDEAL.
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/getting-started/glossary/#backend).  {{< /blue-notice >}} 
 
-## iDEAL QR
+{{< activate_payment_method name="iDEAL" >}}
 
-**1.** Check whether iDEAL QR is supported by your ecommerce platform.
-
-**2.** To activate iDEAL QR:
-
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Settings** > **Payment methods**.
-3. Under **Additional payment methods**, select the **iDEAL QR** checkbox.  
-    If iDEAL QR is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
-3. Click **Save changes**.  
-
-**3.** Enable iDEAL QR as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
-
-## Support
-
-For any questions, email your account manager at <sales@multisafepay.com>
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}

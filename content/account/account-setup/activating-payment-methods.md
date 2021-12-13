@@ -13,21 +13,9 @@ aliases:
 
 Some payment methods you must apply to your account manager to activate, others you can activate yourself. Check the relevant [payment method](/payments/methods/) under **Activation**.
 
-To activate payment methods in your MultiSafepay account account for:
+To activate payment methods in your MultiSafepay account:
 
-All your websites:
-
-1. Go to **Settings** > **Payment methods**.
-2. Under **Standard payment methods**, select the relevant checkbox(es).
-3. Click **Save changes**.
-
-A specific website, if you manage multiple websites that support different payment methods:
-
-1. Go to **Settings** > **Website settings**.
-2. Click the relevant website to open the **Website settings** page.
-3. Under **Payment methods**, select the relevant checkbox(es).
-4. Click **Save**.
-**Note:** Make sure you enable the payment methods for every relevant website in your account.
+{{< activate_payment_method name="" >}}
 
 Next, enable the payment methods in the [backend](/getting-started/glossary/#backend) of your integration to finalize the connection.
 

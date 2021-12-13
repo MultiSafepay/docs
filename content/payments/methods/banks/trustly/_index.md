@@ -4,7 +4,7 @@ weight: 130
 meta_title: "Payment methods - Trustly - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/trustly"
 childlist: '.'
-intro_description: "Trustly is a quick, secure banking payment method that is available in 29 European countries. Customers pay from their own online banking environment."
+intro_description: "Trustly is a quick, secure banking payment method that is available in 29 European countries."
 layout: 'single'
 logo: '/logo/Payment_methods/Trustly.svg' 
 short_description: 'Accept online banking payments from a number of European countries.'

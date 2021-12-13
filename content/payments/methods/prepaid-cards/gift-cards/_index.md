@@ -4,7 +4,7 @@ weight: 240
 meta_title: "Payment methods - Gift cards - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/giftcards"
 childlist: '.'
-intro_description: "Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer."
+intro_description: "Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/VVV_Giftcards.svg'

@@ -30,21 +30,25 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. | [API reference](/api/#gift-cards) | 
+**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. 
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete. {{< br >}}  | Completed | Completed |
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 {{< blue-notice >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. {{< /blue-notice >}}
@@ -56,4 +60,3 @@ sequenceDiagram
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

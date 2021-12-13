@@ -5,7 +5,6 @@ layout: block
 block-range-pages: '.'
 meta_title: "Payments - Chargebacks - MultiSafepay Docs"
 short_description: "Chargebacks arise when a cardholder requests the issuer to reverse a transaction"
-
 read_more: "."
 url: "/payments/chargebacks"
 aliases: 

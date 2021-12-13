@@ -1,30 +1,30 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Edenred"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Edenred - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Edenred in your ecommerce platform"
+meta_title: "Integrating and testing Edenred - MultiSafepay Docs"
+short_description: "Options for integrating Edenred and testing payments"
 layout: 'child'
 url: '/payment-methods/edenred/integration-testing/'
 aliases:
     - /payments/methods/prepaid-cards/edenred/integration-and-testing/
 ---
+## Integration
 
-To process Edenred voucher payments via our API, see API reference – [Edenred](/api/#edenred).
+| | |
+|---|---|
+| **API** | [Redirect](/api/#edenred) {{< br >}} By default, all activated Edenred vouchers display at checkout. To specify which Edenred vouchers to display per transaction, see API reference – [Specify vouchers](/api/#specify-vouchers). |
+| **Ready-made integrations** | Edenred is only supported in our [Magento 2](/magento-2/) ready-made integration.   |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-By default, all activated Edenred vouchers display at checkout. You can specify which Edenred vouchers to display per transaction using our API, see API reference - [Specify vouchers](/api/#specify-vouchers).
-
-For the Edenred voucher logos, see MultiSafepay GitHub - [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test an Edenred order**
+### Test an Edenred order
 
 1. Make a [redirect](/api/#edenred) API request.
 2. On the payment page, click **Add discount**.
 3. From the **Test scenario** list, select the relevant discount, and then click **Test**.
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-{{< /details >}}

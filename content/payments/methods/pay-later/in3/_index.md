@@ -5,9 +5,9 @@ meta_title: "in3 - MultiSafepay Docs"
 layout: 'single'
 linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/in3'
 childlist: '.'
-intro_description: "in3 is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one."
+intro_description: "in3 is a Dutch online payment method where customers pay in 3 installments after receiving their order."
 logo: '/svgs/in3.svg' 
-short_description: 'Dutch pay later method where customers pay in 3 installments'
+short_description: 'A Dutch pay later method where customers pay in three installments.'
 url: '/payment-methods/in3/'
 aliases:
     - /support-tab/magento2/payment-methods/billing-suite/in3/

@@ -159,6 +159,12 @@ meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
 ## WeChat Pay
 See also Payment methods – [WeChat Pay](/payment-methods/wechat-pay/).
 
+Displaying the WeChat QR code:
+
+- Redirect orders redirect the customer to a [MultiSafepay payment page](/payment-pages/) where the QR code is displayed under **Payment methods**.
+
+- Direct orders retrieve the `qr_url` and render the QR code in your system to display it to the customer.
+
 ### WeChat Pay - redirect
 
 **Parameters**

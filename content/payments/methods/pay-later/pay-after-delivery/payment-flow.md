@@ -38,8 +38,8 @@ sequenceDiagram
 &nbsp;  
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The order details are sent directly to MultiFactor. | [API reference](/api/#pay-after-delivery---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | [API reference](/api/#pay-after-delivery---redirect) |
+| **Direct flow** | The order details are sent directly to MultiFactor. | 
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | 
 
 ### Failure to pay
 
@@ -65,17 +65,23 @@ Provide the following information:
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. {{< br >}} You can still cancel it. | Uncleared   | Uncleared | 
 | Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See [Closing transactions](/payments/methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Completed | Uncleared | 
-| **Important:** [Manually change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/user-guide/changing-order-status-to-shipped/). | Shipped | Uncleared |
+| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). | Shipped | Uncleared |
 | The transaction is complete.  | Shipped | Completed |
-| The transaction has been cancelled. | Void   | Cancelled | 
+| The transaction was cancelled. | Void   | Cancelled | 
 | The customer did not complete payment within 90 days and the transaction expired. | Expired | Expired | 
 
 ## Refund statuses
@@ -85,4 +91,4 @@ Provide the following information:
 | The customer has requested a refund. | Initialized | Initialized |  
 | The refund is complete. | Completed | Completed | 
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+

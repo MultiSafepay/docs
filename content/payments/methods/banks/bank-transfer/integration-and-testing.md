@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Bank Transfer"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Bank Transfer - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Bank Transfer in your ecommerce platform"
+meta_title: "Integrating and testing Bank Transfer - MultiSafepay Docs"
+short_description: "Options for integrating Bank Transfer and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
 url: '/payment-methods/bank-transfer/integration-testing/'
@@ -11,16 +11,20 @@ aliases:
     - /payment-methods/bancontact/bank-transfer-testing
     - /payments/methods/banks/bank-transfer/integration-and-testing/
 ---
+## Integration
 
-To process Bank Transfer payments via our API, see API reference - [Bank Transfer](/api/#bank-transfer).
-
-For the Bank Transfer logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+| | |
+|---|---|
+| **API** | [Direct](/api/#bank-transfer---direct) {{< br >}} [Redirect](/api/#bank-transfer---redirect) |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
+  
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Bank Transfer order**
+### Test a Bank Transfer order
 
 1. To test a Bank Transfer order, make a [redirect](/api/#bank-transfer---redirect) API request.
 2. Open the payment link. 
@@ -36,7 +40,7 @@ Use the following IBANs to test different transaction statuses.
 | NL87ABNA0000000004| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
 | Any other IBAN | **Initialized**/ **Expired** | Transaction is initialized. After 5 days, this changes to **Expired**. |
 
-**Test cancelling an order**
+### Test cancelling an order
 
 To test cancelling an order:
 
@@ -44,7 +48,7 @@ To test cancelling an order:
 2. In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
   The order status changes to **Void**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -64,13 +68,9 @@ To test refunding an order:
 9. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
-**Note:** 
+**Notes:** 
 
 - You can't test:
   - Refunding via the API
   - Making direct API requests with an IBAN to test different transaction statuses
 - In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}

@@ -15,7 +15,14 @@ Payment links create a unique transaction in your [MultiSafepay account](https:/
 
 The lifetime of a payment link is how long it remains valid for the customer to complete payment. The default is 30 days. 
 
-To set or adjust lifetimes, see API reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+To set or adjust lifetimes, see API reference – [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+
+You can adjust lifetimes for all payment methods except for:  
+
+- [Pay later methods](/payments/methods/pay-later/)
+- PayPal: Links are valid for 14 days. The lifetime is set by PayPal.
+- Prepaid cards: Edenred, Paysafecard
+- SEPA Direct Debit
 
 ## Attempts 
 The customer can click a payment link to attempt payment up to 20 times, after which the link is disabled.

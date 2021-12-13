@@ -34,25 +34,30 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer is redirected straight to their online banking environment. | [API reference](/api/#sofort---direct) |
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. | [API reference](/api/#sofort---redirect) |
+| **Direct flow** | The customer is redirected straight to their online banking environment. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. |
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The customer's bank is processing the transaction and transfering the funds.  {{< br >}} May take up to 3 business days for all amounts. {{< br >}} Do **not** ship during this status. MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 1 day and the transaction expired. | Expired | Expired |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -61,7 +66,7 @@ sequenceDiagram
 | The customer has requested a refund. | Reserved | Reserved |
 | The refund is complete. | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
 
 
 

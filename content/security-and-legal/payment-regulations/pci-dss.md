@@ -8,6 +8,8 @@ aliases:
     - /faq/risk-and-fraud/about-credit-card-payments/
     - /faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments
     - /security-and-legal/payment-regulations/about-pcidss/
+    - /payments/methods/credit-and-debit-cards/user-guide/pci-dss-compliance/
+    - /credit-cards-user-guide/pci-dss/
 ---
 
 The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard mandated by major card schemes that applies to organizations which handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.
