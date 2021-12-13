@@ -118,5 +118,5 @@ For support, email the Support Team at <support@multisafepay.com>
 
 ## See also
 
-- [Transactions API endpoint](/business/accounting/transactions-api-endpoint/) 
+- [Reconciliation through API](/accounting/api-reconciliation/) 
 - [Accounting integrations](/business/accounting/integrations/)
