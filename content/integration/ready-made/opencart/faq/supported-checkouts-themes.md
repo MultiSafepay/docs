@@ -14,9 +14,62 @@ The plugin supports the OpenCart core checkout and is compatible with most premi
 
 The following patches for third-party themes and extensions are available:
 
-- [Journal3 Quick Checkout For OpenCart 3.0.X](/payments/integrations/ready-made/opencart/patches/multisafepay-patch-for-journal3-opencart-3.0.X.ocmod.zip)
-- [Journal3 Quick Checkout For OpenCart 2.3.X](/payments/integrations/ready-made/opencart/patches/multisafepay-patch-for-journal3-opencart-2.3.X.ocmod.zip)
-- [AJAX Quick Checkout 7.3.1 (free version) for OpenCart 3.0.X](/payments/integrations/ready-made/opencart/patches/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-3.0.X.ocmod.zip)
-- [AJAX Quick Checkout 7.3.1 (free version) for OpenCart 2.3.X](/payments/integrations/ready-made/opencart/patches/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-2.3.X.ocmod.zip)
+<table>
+    <tbody>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.journal-theme.com/" target="_blank">Journal3 Quick Checkout for OpenCart 3.0.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-journal3-opencart-3.0.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.journal-theme.com/" target="_blank">Journal3 Quick Checkout for OpenCart 2.3.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-journal3-opencart-2.3.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=15580" target="_blank">AJAX Quick Checkout 7.3.1 (free version) for OpenCart 3.0.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-3.0.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=15580" target="_blank">AJAX Quick Checkout 7.3.1 (free version) for OpenCart 2.3.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-2.3.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.extensionsbazaar.com/opencart-one-page-checkout" target="_blank">OnePage Checkout 4.0.0 for OpenCart 3.0.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-3.0.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.extensionsbazaar.com/opencart-one-page-checkout" target="_blank">OnePage Checkout 4.0.0 for OpenCart 2.3.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-2.3.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
 
 The Integration Team will do their best to provide support for third-party plugins and premium themes. Email them at <integration@multisafepay.com>
