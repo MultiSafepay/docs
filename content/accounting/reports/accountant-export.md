@@ -119,4 +119,4 @@ For support, email the Support Team at <support@multisafepay.com>
 ## See also
 
 - [Reconciliation through API](/accounting/api-reconciliation/) 
-- [Accounting integrations](/business/accounting/integrations/)
+- [Accounting integrations](/accounting/integrations/)
