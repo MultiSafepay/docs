@@ -1,7 +1,7 @@
 ---
-title: "Managing affiliate accounts"
-weight: 60
-meta_title: "Partner account - Managing affiliate accounts - MultiSafepay Docs"
+title: "Managing and charging affiliate accounts"
+weight: 70
+meta_title: "Managing and charging affiliate accounts - MultiSafepay Docs"
 read_more: '.'
 url: '/account/managing-affiliate-accounts/'
 aliases:
