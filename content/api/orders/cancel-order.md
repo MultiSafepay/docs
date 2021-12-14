@@ -27,7 +27,7 @@ meta_title: "API reference - Cancel an order - MultiSafepay Docs"
 {{< description >}}
 ### Cancel an order 
 
-Cancel a pretransaction based on the `order_id`.
+Cancel an unpaid order using on the `order_id`.
 
 **Parameters**
 
@@ -41,7 +41,7 @@ Value: `cancelled`.
 `exclude_order` | integer | optional
 
 Sets the outcome of the cancellation.  
-To cancel the pretransaction, set to `1`.  
+To cancel the order, set to `1`.  
 
 ----------------
 {{% /description %}}
