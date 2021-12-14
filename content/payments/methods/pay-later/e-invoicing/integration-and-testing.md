@@ -14,7 +14,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#e-invoicing---direct) and [redirect](/api/#e-invoicing---redirect) |
-| **Ready-made integrations** | E-Invoicing (direct) is supported in all our [ready-made integrations](/ecommerce-platforms/).  |
+| **Ready-made integrations** | E-Invoicing (direct) is supported in all our [ready-made integrations](/integrations/ready-made/).  |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
