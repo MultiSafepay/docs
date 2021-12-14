@@ -24,7 +24,7 @@ For support, email the Support Team at <support@multisafepay.com>
 
 ## Ready-made integrations
 
-You can process refunds in most of our [ready-made integrations](/ecommerce-platforms/). See the user guide for the relevant integration.
+You can process refunds in most of our [ready-made integrations](/integrations/ready-made/). See the user guide for the relevant integration.
 
 ## API
 

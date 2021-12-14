@@ -16,7 +16,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Redirect](/api/#giropay) |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/ecommerce-platforms/). |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 

@@ -16,7 +16,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#request-to-pay---direct) and [redirect](/api/#request-to-pay---redirect) |
-| **Ready-made integrations** | Not supported in our [ready-made integrations](/ecommerce-platforms/). |
+| **Ready-made integrations** | Not supported in our [ready-made integrations](/integrations/ready-made/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
