@@ -8,4 +8,5 @@ logo: '/svgs/Reports.svg'
 short_description: 'Generate and export reports.'
 aliases:
     - /tools/reports
+    - /business/accounting/reports/
 ---
