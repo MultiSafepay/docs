@@ -9,7 +9,7 @@ read_more: "."
 
 The plugin supports the PrestaShop core checkout and is compatible with most premium themes, unless you have a custom checkout.
 
-The following patches for third-party themes and extensions are available:
+The following third-party modules are supported:
 
 - <a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html" target="_blank">One Page Checkout PS</a>
 - <a href="https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html" target="_blank">The Checkout</a> <sup>*</sup>
