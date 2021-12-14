@@ -9,7 +9,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/generating-payment-links/
 ---
 
-To generate a payment link in your WooCommerce [backend](/getting-started/glossary/#backend) once an order is created, follow these steps:
+To generate a payment link in your WooCommerce [backend](/glossaries/multisafepay-glossary/#backend) once an order is created, follow these steps:
 
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **Orders** > **Add order**.

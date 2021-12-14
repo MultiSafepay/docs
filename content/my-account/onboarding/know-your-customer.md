@@ -8,7 +8,7 @@ read_more: "."
 url: '/account/kyc/'
 ---
 
-MultiSafepay is a [payment service provider](/getting-started/glossary/#payment-service-provider-psp) and [acquirer](/getting-started/glossary/#acquirer), so we are legally required to perform know your customer (KYC) checks.  
+MultiSafepay is a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/glossaries/multisafepay-glossary/#acquirer), so we are legally required to perform know your customer (KYC) checks.  
 
 You need to provide information about your company structure, and your products and services. We then perform KYC checks on the:
 

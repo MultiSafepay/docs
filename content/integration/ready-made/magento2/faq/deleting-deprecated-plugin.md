@@ -57,4 +57,4 @@ rm -rf Connect
 
 ## Marketplace
 
-If you installed the plugin via the Magento Marketplace in your Magento [backend](/getting-started/glossary/#backend), to delete the plugin, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
+If you installed the plugin via the Magento Marketplace in your Magento [backend](/glossaries/multisafepay-glossary/#backend), to delete the plugin, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.

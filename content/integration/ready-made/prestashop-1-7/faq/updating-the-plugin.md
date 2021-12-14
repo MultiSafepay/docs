@@ -9,7 +9,7 @@ aliases:
 
 There are 3 ways to update the plugin:
 
-- In your [backend](/getting-started/glossary/#backend)
+- In your [backend](/glossaries/multisafepay-glossary/#backend)
 - In the CMS marketplace 
 - Using SFTP
 

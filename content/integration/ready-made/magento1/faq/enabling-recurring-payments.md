@@ -11,7 +11,7 @@ aliases:
 
 To enable recurring payments:
 
-1. Sign in to your Magento 1 [backend](/getting-started/glossary/#backend).
+1. Sign in to your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
 For more information, see [Recurring payments](/features/recurring-payments).

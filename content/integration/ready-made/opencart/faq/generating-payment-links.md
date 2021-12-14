@@ -9,7 +9,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/opencart/faq/generating-payment-links/
 ---
 
-To generate a payment link for orders created in your OpenCart [backend](/getting-started/glossary/#backend), follow these steps:
+To generate a payment link for orders created in your OpenCart [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your OpenCart backend.
 2. Go to **System** > **Localisation** > **Order status**.

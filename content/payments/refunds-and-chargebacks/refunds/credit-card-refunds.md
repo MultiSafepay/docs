@@ -15,7 +15,7 @@ For support, email the Support Team at <support@multisafepay.com>
 
 - You **cannot** refund more than the original transaction. 
 
-- MultiSafepay sends refunds to the [issuer](/getting-started/glossary/#issuer) within 1 business day.
+- MultiSafepay sends refunds to the [issuer](/glossaries/multisafepay-glossary/#issuer) within 1 business day.
 
 - Whether or not the refund is visible to the customer depends on the issuer's system.
 

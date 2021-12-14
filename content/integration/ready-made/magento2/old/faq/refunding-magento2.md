@@ -6,7 +6,7 @@ layout: "faqdetail"
 noindex: 'true'
 read_more: "."
 ---
-You can refund orders or issue credit memos from your Magento 2 [backend](/getting-started/glossary/#backend).  
+You can refund orders or issue credit memos from your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend).  
 
 1. Sign in to your Magento backend.
 2. Go to the **Invoices** tab, and click the relevant MultiSafepay invoice.

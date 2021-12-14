@@ -10,7 +10,7 @@ aliases:
     - /faq/getting-started/prohibited-products-and-services
     - /getting-started/go-live/user-guide/prohibited-products-and-services/
 ---
-As a [payment service provider](/getting-started/glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
+As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
 
 We must account for risk and potential reputational damage. Therefore, we prohibit the sale of some products and services, or require additional information from the merchant.
 

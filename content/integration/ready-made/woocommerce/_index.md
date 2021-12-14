@@ -125,7 +125,7 @@ There are two ways to install the plugin:
 **Manual installation**
 
 1. Click the **Download** button above.
-2. Sign in to your WooCommerce [backend](/getting-started/glossary/#backend).
+2. Sign in to your WooCommerce [backend](/glossaries/multisafepay-glossary/#backend).
 3. Go to **Plugins** > **Add new**. 
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.

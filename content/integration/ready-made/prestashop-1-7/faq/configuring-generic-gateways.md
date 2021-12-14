@@ -11,7 +11,7 @@ The PrestaShop 1.7 plugin supports a [generic gateway](/faq/general/generic-gate
 
 To configure the generic gateway, follow these steps:
 
-1. Sign in to your PrestaShop [backend](/getting-started/glossary/#backend).
+1. Sign in to your PrestaShop [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **IMPROVE** > **MultiSafepay** -> **Payment methods**. All payment methods are listed here.
 3. Select **Generic gateway** and set:
    * Gateway code

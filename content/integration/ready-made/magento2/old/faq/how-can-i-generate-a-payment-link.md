@@ -7,7 +7,7 @@ noindex: 'true'
 read_more: "."
 ---
 
-To generate payment links in your [backend](/getting-started/glossary/#backend), follow these steps:
+To generate payment links in your [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your backend.
 2. Go to **Stores** > **MultiSafepay 1.x.x** > **MultiSafepay settings**.

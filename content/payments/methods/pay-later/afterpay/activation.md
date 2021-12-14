@@ -13,7 +13,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/getting-started/glossary/#backend).  {{< /blue-notice >}}
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 **1.** Email your account manager to check you are eligible for AfterPay at <sales@multisafepay.com>
 

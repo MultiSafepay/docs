@@ -13,7 +13,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/getting-started/glossary/#backend).  {{< /blue-notice >}}
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 ## Test account
 
@@ -36,7 +36,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 2. Specify MultiSafepay as your PSP and the countries you want to activate Klarna for.
 3. Sign an agreement with Klarna, including pricing.
 4. MultiSafepay activates Klarna in your MultiSafepay account. 
-5. If using a ready-made integration, activate Klarna in your [backend](/getting-started/glossary/#backend).
+5. If using a ready-made integration, activate Klarna in your [backend](/glossaries/multisafepay-glossary/#backend).
 
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).

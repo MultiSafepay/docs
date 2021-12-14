@@ -42,14 +42,14 @@ This technical manual is for installing and configuring our new free plugin for 
 
 {{< details title="Features" >}}
 
-The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases [conversion](/getting-started/glossary/#conversion-rate).
+The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases [conversion](/glossaries/multisafepay-glossary/#conversion-rate).
 
 We support most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
 
 ### New features
 
 - Improved:
-    - Magento [backend](/getting-started/glossary/#backend) configuration
+    - Magento [backend](/glossaries/multisafepay-glossary/#backend) configuration
     - Translations
     - Error handling
     - Event and error logs
@@ -217,7 +217,7 @@ Sign in to your Magento 2 backend, and go to **Stores** > **Configuration** > **
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
   - Here you can configure all gateways and gift cards.  
-  - For finding your account ID, site ID, site secure code, or [API key](/getting-started/glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
+  - For finding your account ID, site ID, site secure code, or [API key](/glossaries/multisafepay-glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
   - Your account ID appears in the top-right corner of your MultiSafepay account.
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
     - Make sure you have activated your selected payment methods in your [MultiSafepay account](https://merchant.multisafepay.com).

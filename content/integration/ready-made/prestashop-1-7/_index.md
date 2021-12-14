@@ -148,7 +148,7 @@ When you update from an older version of the plugin to 5.x, keep the older versi
 {{< /details >}}
 
 ## Installation
-1. Sign in to your PrestaShop 1.7 [backend](/getting-started/glossary/#backend).
+1. Sign in to your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
@@ -156,7 +156,7 @@ When you update from an older version of the plugin to 5.x, keep the older versi
 ## Configuration
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **IMPROVE** > **MultiSafepay**.
-3. Enter your [API key](/getting-started/glossary/#api-key). {{% account_info %}}
+3. Enter your [API key](/glossaries/multisafepay-glossary/#api-key). {{% account_info %}}
 4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
 

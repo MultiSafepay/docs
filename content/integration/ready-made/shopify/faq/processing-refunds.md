@@ -11,6 +11,6 @@ aliases:
 **Refund rules**  
 
 - From your [MultiSafepay account](https://merchant.multisafepay.com): Refunds supported
-- From your Shopify [backend](/getting-started/glossary/#backend):  
+- From your Shopify [backend](/glossaries/multisafepay-glossary/#backend):  
     - Refunds supported
     - Refunding more than the original transaction is **not** supported
