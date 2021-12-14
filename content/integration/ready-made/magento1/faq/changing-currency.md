@@ -12,6 +12,6 @@ MultiSafepay processes payments in Euros (EUR) as the default [currency](/faq/ge
 
 To change to a different currency for your webshop, follow these steps:
 
-1. Sign in to your Magento 1 [backend](/getting-started/glossary/#backend). 
+1. Sign in to your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend). 
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.
 3. Under **Allow currency conversion to Euro**, change to **No**.

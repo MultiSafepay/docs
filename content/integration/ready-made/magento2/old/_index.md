@@ -49,7 +49,7 @@ Depending on your webserver/webshop configuration you also need to check:
 - Flush cache.
 
 ### 3. Configuration
-1. Sign in to your [backend](/getting-started/glossary/#backend). Go to **Stores** > **Configuration** > **MultiSafepay x.x.x** > **MultiSafepay settings**.  
+1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). Go to **Stores** > **Configuration** > **MultiSafepay x.x.x** > **MultiSafepay settings**.  
 This page contains all main settings and is used for all gateways and gift cards.
 {{% account_info %}}
 Your Account ID is shown in the dashboard of your MultiSafepay account in the top right corner

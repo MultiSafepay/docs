@@ -13,7 +13,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration:
 
 - First check that the gift card is supported.
-- Once we have activated the card in your MultiSafepay account, you must also enable it in your [backend](/getting-started/glossary/#backend). {{< /blue-notice >}}
+- Once we have activated the card in your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
 
 1. Check your eligibility with your account manager at <sales@multisafepay.com> 
 2. Send an application to the **card issuer**, providing your company details and MultiSafepay account ID.

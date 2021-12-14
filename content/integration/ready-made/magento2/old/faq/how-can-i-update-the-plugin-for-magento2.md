@@ -9,7 +9,7 @@ noindex: 'true'
 
 You can update the plugin:  
 
-- In your [backend](/getting-started/glossary/#backend)
+- In your [backend](/glossaries/multisafepay-glossary/#backend)
 - Via marketplace from a CMS or through SFTP
 - Via [Composer](https://getcomposer.org)
 

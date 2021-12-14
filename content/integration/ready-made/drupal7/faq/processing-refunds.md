@@ -11,6 +11,6 @@ aliases:
 **Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
-- From your Drupal 7 [backend](/getting-started/glossary/#backend):  
+- From your Drupal 7 [backend](/glossaries/multisafepay-glossary/#backend):  
     - Full refunds 
     - Refunding more than the original transaction is **not** supported

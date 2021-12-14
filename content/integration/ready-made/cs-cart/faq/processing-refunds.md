@@ -12,7 +12,7 @@ aliases:
 **Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
-- From your CS-Cart [backend](/getting-started/glossary/#backend):  
+- From your CS-Cart [backend](/glossaries/multisafepay-glossary/#backend):  
     - Full refunds
     - Refunding more than the original transaction is **not** supported
 

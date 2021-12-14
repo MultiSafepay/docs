@@ -17,7 +17,7 @@ To automatically insert [MultiSafepay payment links](/payments/checkout/payment-
 1. Sign in to your Denovit account.
 2. Go to your **Dashboard**, and then select the **Paylink** module. 
 3. Connect to your Exact account.
-4. Under **PSP settings**, enter your [MultiSafepay API key](/getting-started/glossary/#api-key) and the payment conditions you use in Exact. 
+4. Under **PSP settings**, enter your [MultiSafepay API key](/glossaries/multisafepay-glossary/#api-key) and the payment conditions you use in Exact. 
 5. Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
 
 For each new invoice in Exact, if you:

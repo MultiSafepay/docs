@@ -21,7 +21,7 @@ There are two ways to initiate a transaction:
 
 ### Ecommerce integration
 
-1. Enter the [API key](/getting-started/set-up-your-account/user-guide/viewing-your-api-key/) from your test account in your [backend](/getting-started/glossary/#backend).
+1. Enter the [API key](/getting-started/set-up-your-account/user-guide/viewing-your-api-key/) from your test account in your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Place a test order, and then initiate a transaction using the payment method you want to test.
 
 ### API

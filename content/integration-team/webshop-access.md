@@ -4,7 +4,7 @@ weight:
 aliases: [/techsupport/webshop-access/]
 ---
 
-We test all our ecommerce integrations before release, but your integration may still encounter configuration issues or a bug, especially if it's a [custom integration](/getting-started/glossary/#custom-integration).
+We test all our ecommerce integrations before release, but your integration may still encounter configuration issues or a bug, especially if it's a [custom integration](/glossaries/multisafepay-glossary/#custom-integration).
 
 We are best able to support issues that are reproducible in a standard website environment. But we always try to offer support, even for issues outside our scope.
 

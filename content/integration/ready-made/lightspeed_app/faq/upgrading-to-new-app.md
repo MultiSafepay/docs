@@ -30,7 +30,7 @@ To access the MultiSafepay Payments app **Settings** page:
 
 To disable the core integration after migrating to the new app, follow these steps:
 
-1. Sign in to your Lightspeed [backend](/getting-started/glossary/#backend).
+1. Sign in to your Lightspeed [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
 2. At the top of the screen, click **Disable this payment provider**.
 

@@ -13,7 +13,7 @@ aliases:
 
 To help combat financial and data fraud, the [PSD2](/payment-regulations/psd2/) requires strong customer authentication (SCA) for most online payments in Europe. 
 
-Merchants and [PSPs](/getting-started/glossary/#payment-service-provider-psp) must verify customer identity for most transactions using two factor authentication (2FA), that is at least two out of the following three authentication methods:
+Merchants and [PSPs](/glossaries/multisafepay-glossary/#payment-service-provider-psp) must verify customer identity for most transactions using two factor authentication (2FA), that is at least two out of the following three authentication methods:
 
 {{< responsive_svg src="/diagrams/svg/SCA" alt="Strong Customer Authetication methods" align="center" >}}
 
@@ -26,7 +26,7 @@ MultiSafepay supports the following exemptions (on request):
 - Low value payments (LVP), i.e. under 30 EUR
 - Payments subject to transaction risk analysis (TRA)
 
-This can help you optimize [conversion](/getting-started/glossary/#conversion-rate) and minimize risk.
+This can help you optimize [conversion](/glossaries/multisafepay-glossary/#conversion-rate) and minimize risk.
 
 To apply, email your account manager at <sales@multisafepay.com>
 

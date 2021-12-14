@@ -8,7 +8,7 @@ aliases:
     - /getting-started/set-up-your-account/user-guide/connecting-websites-to-your-backend/
 ---
 
-To connect a website in your [backend](/getting-started/glossary/#backend):
+To connect a website in your [backend](/glossaries/multisafepay-glossary/#backend):
 
 Most MultiSafepay [ecommerce integrations](/integrations/ecommerce-integrations) require your API key, site ID, secure code, and account ID to connect to a website. Your account ID appears in the top-right corner of your MultiSafepay account. If you are building your own integration using our API, SDK, or wrapper, use the API key under your website settings.
 

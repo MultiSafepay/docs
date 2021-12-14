@@ -10,7 +10,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento1/faq/applying-surcharges/
 ---
 
-You can apply [surcharges](/getting-started/glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.
+You can apply [surcharges](/glossaries/multisafepay-glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.
 
 For how applying surcharges may affect your webshop in relation to PSD2, see [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).
 
@@ -20,7 +20,7 @@ You can also:
 - Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
 - Show surcharges with our without VAT at checkout.
 
-To apply a surcharge to a payment method in your [backend](/getting-started/glossary/#backend), follow these steps:
+To apply a surcharge to a payment method in your [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your Magento 1 backend.
 2. Select systems and configuration.

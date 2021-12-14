@@ -7,7 +7,7 @@ noindex: 'true'
 ---
 By default, the selection of payment methods is not adjusted per country. To change this setting, follow these steps:
 
-1. Sign in to your [backend](/getting-started/glossary/#backend).
+1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Stores** > **Sales** > **Checkout** > **Checkout options**.
 3. Locate **Display billing address on (store view)**.
 4. Select **Payment page**.

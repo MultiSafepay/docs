@@ -68,7 +68,7 @@ You can process refunds in batches using our refund script.
 Provide:
 
 - A .csv file specifying the order ID, amount, and description of all the transactions
-- Your [API key](/getting-started/glossary/#api-key)
+- Your [API key](/glossaries/multisafepay-glossary/#api-key)
 
 The script is written in PHP, so make sure you have a PHP interpreter installed.
 
