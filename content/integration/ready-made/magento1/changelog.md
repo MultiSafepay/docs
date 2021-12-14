@@ -171,7 +171,7 @@ Release date: Mar 12, 2018
 + PLGMAGONE-354: Add iDEAL QR gateway
 + PLGMAGONE-343: Don't update an order when it's closed (due to offline refund)
 + PLGMAGONE-337: Add check to only update order status when order exists
-+ PLGMAGONE-338: Undefined index error on expired pretransactions
++ PLGMAGONE-338: Undefined index error on expired orders
 + PLGMAGONE-357: Update ING gateway to INGHOME
 + PLGMAGONE-340: Prevent cancel on api error when order has already been paid
 + PLGMAGONE-342: Fixes headers already send error when credit card gateway is used
@@ -433,11 +433,11 @@ Release date: May 7th, 2015
 ### Changes
 + The 'Keep Cart Alive' plugin setting has been enabled by default.
 + The 'Keep Cart Alive' plugin setting now only works for MultiSafepay payment methods.
-+ Fast Checkout no longer creates an order for an expired pretransaction
++ Fast Checkout no longer creates an order for an expired order
 
 ### Fixes
 + 'Allowed currencies' for the MultiSafepay Gateways were not requested correctly.
-+ Added delivery address data to pretransactions for PayPal's Sellers Protection.
++ Added delivery address data to orders for PayPal's Sellers Protection.
 + Call to undefined method error occuring with the Pay After Delivery object
 + Paymentlinks generated in the Magento backend for manually created orders always used the test environment
 + Fixed double payment method titles
