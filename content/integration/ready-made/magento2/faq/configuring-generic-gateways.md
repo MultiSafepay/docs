@@ -14,7 +14,7 @@ The Magento 2 plugin supports [generic gateways](/faq/general/generic-gateways/)
 
 To configure generic gateways, follow these steps:
 
-1. Sign in to your Magento 2 [backend](/getting-started/glossary/#backend).
+1. Sign in to your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
 
 - Enter the gateway code and upload a custom gateway image.

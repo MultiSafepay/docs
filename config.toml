@@ -69,8 +69,8 @@ name = "Shell"
     weight = 6
 
 [[menu.main]]
-    name = "Glossary"
-    url  = "/getting-started/glossary"
+    name = "Glossaries"
+    url  = "/getting-started/glossaries/"
     parent = "Getting started"
     weight = 7
 
@@ -99,7 +99,7 @@ name = "Shell"
     name = "Partner accounts"
     url  = "/account/partner-accounts/"
     parent = "my-account"
-    identifier = "ready-made"
+    identifier = "partner-accounts"
     weight = 130
 
 [[menu.main]]

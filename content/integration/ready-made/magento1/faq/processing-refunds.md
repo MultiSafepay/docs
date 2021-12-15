@@ -11,7 +11,7 @@ aliases:
 **Refund rules**  
 
 - From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
--  From your Magento 1 [backend](/getting-started/glossary/#backend) (see below):  
+-  From your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend) (see below):  
     - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html)
     - Refunding more than the original transaction is **not** supported
 - Refunds processed in your MultiSafepay account may not appear in your backend. 
@@ -22,7 +22,7 @@ To process refunds from your backend, follow these steps:
 1. Sign in to your Magento 1 backend. 
 2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect settings**.
 3. Check that you have:
-    - Entered an [API key](/getting-started/glossary/#api-key)
+    - Entered an [API key](/glossaries/multisafepay-glossary/#api-key)
     - Enabled the **Credit Memo** option
 4. Search for and open the order you want to refund.
 5. Click the **Invoices** tab on the left of the **Order overview**.

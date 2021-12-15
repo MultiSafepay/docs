@@ -71,7 +71,7 @@ To send a payment link for an existing transaction:
 
 {{< details title="From your backend" >}}
 
-For some ecommerce integrations, you can generate payment links in your [backend](/getting-started/glossary/#backend).
+For some ecommerce integrations, you can generate payment links in your [backend](/glossaries/multisafepay-glossary/#backend).
 
 To use the `POST /orders` request, see API reference – [Create an order](https://docs.multisafepay.com/api/#create-an-order). In the `type` parameter, enter `paymentlink`. 
 

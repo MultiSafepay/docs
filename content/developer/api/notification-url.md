@@ -41,7 +41,7 @@ When the status of this transaction changes, we notify your web server at the fo
 
 **Note:** In the notification url, the `transaction_id` value should be the same as the `order_id`.
 
-In your [backend](/getting-started/glossary/#backend), follow these steps: 
+In your [backend](/glossaries/multisafepay-glossary/#backend), follow these steps: 
 
 1. Send a [get order details request](/api/#get-order-details) using the `transaction_id` provided.
 2. Check the `status` field in the response and update the status of the order in your backend.

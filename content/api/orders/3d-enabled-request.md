@@ -34,7 +34,7 @@ meta_title: "API reference - 3D enabled requests - MultiSafepay Docs"
 ```
 
 > JSON response     
-> When [3D Secure](/getting-started/glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
+> When [3D Secure](/glossaries/multisafepay-glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
 
 ```json
 "customer_verification": {

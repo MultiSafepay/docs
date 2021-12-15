@@ -30,7 +30,7 @@ The Accountant export lists all successful incoming and outgoing transactions, i
 
 {{< details title="Exclusions" >}}
 &nbsp;  
-MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions don't automatically appear in the Accountant export. To include them, in your [backend](/getting-started/glossary/#backend), make sure the transaction status is set to **Completed**.
+MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions don't automatically appear in the Accountant export. To include them, in your [backend](/glossaries/multisafepay-glossary/#backend), make sure the transaction status is set to **Completed**.
 
 {{< /details >}}
 
@@ -119,4 +119,4 @@ For support, email the Support Team at <support@multisafepay.com>
 ## See also
 
 - [Reconciliation through API](/accounting/api-reconciliation/) 
-- [Accounting integrations](/business/accounting/integrations/)
+- [Accounting integrations](/accounting/integrations/)

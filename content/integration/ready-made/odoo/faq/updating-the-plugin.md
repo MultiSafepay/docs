@@ -11,7 +11,7 @@ aliases:
 
 To update the plugin:
 
-1. Sign in to your Odoo [backend](/getting-started/glossary/#backend). 
+1. Sign in to your Odoo [backend](/glossaries/multisafepay-glossary/#backend). 
 2. Go to the **Apps** menu.
 3. Search for and open the **MultiSafepay payments** module.
 4. Click **Upgrade**.

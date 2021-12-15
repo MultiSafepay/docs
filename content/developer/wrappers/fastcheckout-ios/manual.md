@@ -45,7 +45,7 @@ To learn more about creating, updating and retrieving orders, see API reference 
 
 ### Installation
 
-First you have to access into your Back Office and get a valid [API key](/getting-started/glossary/#api-key) (_Settings_ > _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/glossaries/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
 

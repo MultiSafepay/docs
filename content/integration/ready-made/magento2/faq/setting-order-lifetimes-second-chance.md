@@ -13,7 +13,7 @@ aliases:
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services (e.g. ERP/inventory management), if items are low in stock, or for one-off products like antiques.
 
-To avoid this, you must match the order lifetime to the MultiSafepay payment link lifetime in your [backend](/getting-started/glossary/#backend).
+To avoid this, you must match the order lifetime to the MultiSafepay payment link lifetime in your [backend](/glossaries/multisafepay-glossary/#backend).
 
 We recommend setting the lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but to avoid issues with external services. 
 

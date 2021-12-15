@@ -10,7 +10,7 @@ aliases:
     - /payments/checkout/payment-pages/displaying-all-payment-methods/
 ---
 
-If a customer's country is unclear or your [backend](/getting-started/glossary/#backend) doesn't let you provide the correct country code, consider displaying all your enabled payment methods on the payment page. This is not supported for [classic payment pages](/payments/checkout/payment-pages/classic-payment-page/).
+If a customer's country is unclear or your [backend](/glossaries/multisafepay-glossary/#backend) doesn't let you provide the correct country code, consider displaying all your enabled payment methods on the payment page. This is not supported for [classic payment pages](/payments/checkout/payment-pages/classic-payment-page/).
 
 To display all payment methods on the payment page, follow these steps:
 

@@ -13,6 +13,6 @@ You can match orders using the transaction ID.
 
 To view a payment's transaction ID:
 
-1. Sign in to your Prestashop 1.6 [backend](/getting-started/glossary/#backend).
+1. Sign in to your Prestashop 1.6 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Payment** > **Order details**. 
 

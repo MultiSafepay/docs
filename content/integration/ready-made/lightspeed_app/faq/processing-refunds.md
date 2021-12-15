@@ -13,7 +13,7 @@ aliases:
 **Refund rules**  
 
 - From your [MultiSafepay account](https://merchant.multisafepay.com): [Full and partial refunds](/payments/refunds/) and credit notes
-- From your Lightspeed eCom [backend](/getting-started/glossary/#backend):  
+- From your Lightspeed eCom [backend](/glossaries/multisafepay-glossary/#backend):  
     - Refunds and credit notes 
     - Refunding more than the original transaction is **not** supported
 

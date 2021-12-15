@@ -16,7 +16,7 @@ aliases:
 ---
 Payment Components let you embed payment methods directly into your checkout.
 
-- Creates a seamless checkout experience to increase [conversion](/getting-started/glossary/#conversion-rate)
+- Creates a seamless checkout experience to increase [conversion](/glossaries/multisafepay-glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
 - Reduces your [PCI DSS](/payment-regulations/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
 - Supports [recurring payments](/payments/features/tokenization/)

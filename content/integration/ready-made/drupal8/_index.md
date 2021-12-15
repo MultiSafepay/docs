@@ -23,7 +23,7 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Drupal 8 webshop via Composer.
 
-You can also install the plugin via your Drupal 8 & 9 [backend](/getting-started/glossary/#backend). 
+You can also install the plugin via your Drupal 8 & 9 [backend](/glossaries/multisafepay-glossary/#backend). 
 
 {{< details title="Test environment" >}}
 &nbsp;  
@@ -129,7 +129,7 @@ composer require drupal/commerce_multisafepay_payments
 The latest stable release is downloaded and installed in your Drupal Commerce 2.x webshop.
 
 ## Configuration  
-1. Sign in to the [backend](/getting-started/glossary/#backend) of your webshop.
+1. Sign in to the [backend](/glossaries/multisafepay-glossary/#backend) of your webshop.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your account ID, site ID, site code or API key. {{% account_info %}}
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.

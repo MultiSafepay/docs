@@ -12,7 +12,7 @@ A partner account is the account of a company that is not itself a merchant, but
 
 Affiliated merchants are referred to MultiSafepay and controlled by a primary merchant account or a partner account.
 
-Partner and [merchant](/getting-started/glossary/#merchant) accounts each represent a single legal entity that processes payments. They can support multiple:
+Partner and [merchant](/glossaries/multisafepay-glossary/#merchant) accounts each represent a single legal entity that processes payments. They can support multiple:
 
 - Bank accounts
 - Users with their own login credentials and permissions

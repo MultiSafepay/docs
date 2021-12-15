@@ -13,7 +13,7 @@ aliases:
     - /getting-started/build-your-integration
 ---
 
-We support multiple [integration](/getting-started/glossary/#integration) methods. Choose one that matches your business needs and tech stack.   
+We support multiple [integration](/glossaries/multisafepay-glossary/#integration) methods. Choose one that matches your business needs and tech stack.   
 
 For help selecting a method, email the Integration Team at <integration@multisafepay.com>
 
