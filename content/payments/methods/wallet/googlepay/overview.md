@@ -10,7 +10,7 @@ noindex: '.'
 aliases:
     - /payment-methods/google-pay/product-rules
 ---
-Google Pay is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account.
+Google Pay™ is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account.
 
 |   |   |   |
 |---|---|---|
@@ -26,6 +26,9 @@ Google Pay is a digital wallet for in-app and online payments. Customers can tok
 Google Pay tokenizes a customer's payment details for credit and debit cards.
 
 We can process payments through the Maestro, Mastercard, or Visa gateways.
+
+## Terms and conditions
+By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 
 ## Supported browsers
 

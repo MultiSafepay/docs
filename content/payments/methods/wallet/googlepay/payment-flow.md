@@ -45,7 +45,7 @@ sequenceDiagram
 | **Direct flow** | The customer is redirected straight to their Google account. | 
 | **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/). They click the Google Pay button and are redirected to their Google account to complete payment. | 
 
-For more information about the Google Pay payment flow, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
+For more information about the Google Pay™ payment flow, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
 
 ## Payment statuses
 
