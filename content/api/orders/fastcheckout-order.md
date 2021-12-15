@@ -4,7 +4,7 @@ meta_title: "API reference - FastCheckout orders - MultiSafepay Docs"
 ---
 
 {{< code-block >}}
-> POST - /orders/{order_id}/files
+> POST - /orders
 
 ```json
 {
@@ -16,8 +16,6 @@ meta_title: "API reference - FastCheckout orders - MultiSafepay Docs"
   "var1":"",
   "var2":"",
   "var3":"",
-  "items":"",
-  "manual":"false",
   "payment_options":{
     "notification_url":"http://10.1.10.111/testtool/client/json-live/notification?type=notification",
     "redirect_url":"http://10.1.10.111/testtool/client/json-live/notification?type=redirect",
@@ -28,23 +26,23 @@ meta_title: "API reference - FastCheckout orders - MultiSafepay Docs"
         "redirect_mode":null,
         "checkout":{
           "user_login":{
-            "enabled":1
+            "enabled": true
           },
           "flow":"primary"
         },
         "qr":{
-          "enabled":1
+          "enabled": true
         },
         "cart":{
-          "disabled":0,
-          "edit":0
+          "disabled": false,
+          "edit": false
         },
         "shipping":{
           "address":{
-            "required":1
+            "required": true
           },
           "invoice":{
-            "enabled":1
+            "enabled": true
           }
         }
       }
@@ -289,8 +287,11 @@ Create a hosted or embedded checkout. See [FastCheckout](/fastcheckout).
 ----------------
 `type` | string | required
 
-???  
-Options: `checkout`.??
+Creates a hosted FastCheckout page.
+
+For embedded FastCheckout integrations, see [FastCheckout JavaScript integration](/fastcheckout/javascript/).
+
+Value: `checkout`
 
 ----------------
 `order_id` | string | required
@@ -323,52 +324,48 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 Variables for storing additional data. 
 
 ----------------
-`items` | object 
-
-???
-
-----------------
-`manual` | string | required
-
-Value: `false`.
-
-----------------
 `payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
-`settings` | object | required 
+Contains: `settings` | object | optional 
 
-Contains: `fco` | object | required
+Contains: `fco` | object | optional
 
 `fco` object contains:
 
-**1.** `version` | string | required
+**1.** `version` | string | optional
 
-Specifies the version of FastCheckout. 
+Specifies the version of FastCheckout.  
 Value: `1.0`
 
-**2.** `redirect_mode` | string? | required
+**2.** `redirect_mode` | string | optional
 
-Sets whether FastCheckout is hosted or embedded??? )
+Sets how the payment method is displayed to the customer, if relevant.
 
-**3.** `checkout` | object | required?
+Options: 
+
+- `redirect`: The customer is redirected to the payment method to complete the payment.
+- `iframe`: The payment method is embedded as an iframe on the FastCheckout page.
+- `modal`: The payment method is embedded in a modal window on the FastCheckout page.
+
+**3.** `checkout` | object | optional
 
 Specifies characteristics of the checkout.
 
-- `user_login` | object | required?  
-Sets whether the customer has to sign in to their FastCheckout account. 
-Contains: `enabled` | boolean  
-True: Customer must sign in.  
-False: Customer doesn't need to sign in. 
+- `user_login` | object | optional 
+Sets whether the customer has to sign in to their FastCheckout account.
+  - `enabled` | boolean  
+  True: Customer must sign in.  
+  False: Customer doesn't need to sign in. 
 
-- `flow` | string | required?  
+- `flow` | string | optional  
 Sets the layout of the FastCheckout page.  
 Values:  
 `primary`: 3 column view  
 `secondary`: 3 step flow
 
-**4.** `qr` | object | required?
+**4.** `qr` | object | optional
 
 Sets whether to display a QR code for payment. 
 
@@ -376,50 +373,50 @@ Sets whether to display a QR code for payment.
 True: Display a QR code.  
 False: Don't display a QR code. 
 
-**5.** `cart` | object | required?
+**5.** `cart` | object | optional
 
 Sets characteristics of the shopping cart.  
 
-- `disabled` | boolean | required  
+- `disabled` | boolean | optional 
 True: Displays the shopping cart module.  
 False: Hides the shopping cart module. 
 
-- `edit` | boolean | required  
+- `edit` | boolean | optional  
 True: Customer can edit the shopping cart?  
 False: Customer cannot edit the shopping cart? 
 
-**6.** `shipping` | object | required
+**6.** `shipping` | object | optional
 
 Sets characteristics of the shipping module.
 
-- `address` | object | required
+- `address` | object | optional
 Contains: `required` | boolean | required  
 True: The customer must provide their address?  
 False: The customer doesn't need to provide their address.  
 
-- `invoice` | object | required  
+- `invoice` | object | optional  
 Contains: `enabled` | boolean | required  
 True: ???  
 False: ???
 
 ----------------
-`plugin` | object | required?
+`plugin` | object | optional
 
 Contains:  
 
-- `shop` | string | required?  
+- `shop` | string | optional
 Sets the website the customer is buying from??  
 
-- `plugin_version` | string | required?  
+- `plugin_version` | string | optional 
 Sets the version of the ready-made integration you use, if any??
 
-- `shop_version` | boolean? | ?  
+- `shop_version` | boolean? | optional
 Sets ???  
 
-- `partner` | string | ?  
+- `partner` | string | optional
 Sets ???  
 
-- `shop_root_url` | string | ?  
+- `shop_root_url` | string | optional 
 The URL of the website the customer is buying from??
 
 ----------------
@@ -433,7 +430,7 @@ See [customer (object)](/api/#customer-object).
 See [delivery (object)](/api/#delivery-object).
 
 ----------------
-`shopping_cart` | object | required – or use `items`
+`shopping_cart` | object | required
 
 See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 
