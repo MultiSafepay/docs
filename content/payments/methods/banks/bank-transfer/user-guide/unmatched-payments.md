@@ -7,7 +7,10 @@ url: '/bank-transfer/unmatched-payments/'
 ---
 Read this page in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) or [German](/bank-transfer/unzugeordneten-banküberweisungen/).
 
-When MultiSafepay receives a Bank Transfer payment from a customer, we automatically match it to the corresponding transaction in our system based on the payment details provided. 
+When MultiSafepay receives a Bank Transfer payment from a customer, we automatically match it to the corresponding transaction in our system based on the: 
+
+- Amount and payment reference, **or**
+- Amount and customer bank account number
 
 If automatic matching fails, we try to match the payment manually.
 
@@ -37,7 +40,7 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 ### Payment link created
 
 1. Click the link to open the payment page. 
-2. If the customer didn't fill in the **Bank account number** field, enter their bank account number for them.
+2. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
 3. Click **Confirm** to create the transaction in our system.
 
 ### Payment link not created
@@ -45,7 +48,8 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 1. [Generate one manually](/payment-links/generating-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
 3. Click **Bank Transfer**.
-4. Click **Confirm** to create the transaction in our system.
+4. Add the customer's bank account number (if known) to help us match the payment.
+5. Click **Confirm** to create the transaction in our system.
 
 **Note:** The order ID must be unique for each payment link.
 
