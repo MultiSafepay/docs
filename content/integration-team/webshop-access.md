@@ -1,10 +1,11 @@
 ---
-title : "Integration Team, help us help you"
+title : "Integration Team: Help us help you"
 weight:
-aliases: [/techsupport/webshop-access/]
+aliases: 
+    - /techsupport/webshop-access/
 ---
 
-We test all our ecommerce integrations before release, but your integration may still encounter configuration issues or a bug, especially if it's a [custom integration](/glossaries/multisafepay-glossary/#custom-integration).
+We test all our ready-made integrations before release, but your integration may still encounter configuration issues or a bug, especially if you built your own.
 
 We are best able to support issues that are reproducible in a standard website environment. But we always try to offer support, even for issues outside our scope.
 
@@ -13,18 +14,18 @@ When we start trying to reproduce an issue, we always begin with the basics.
 
 Help us by answering the following questions:
 
-1. Does the issue occur in the plugin core?
-2. Does it occur in the payment method core?
-3. When did the issue start occuring?
-4. Has there been a recent plugin or system update?
-5. Can you reproduce the issue?
-6. Do you have any examples?
+- Does the issue occur in the plugin core?
+- Does it occur in the payment method core?
+- When did the issue start occuring?
+- Has there been a recent plugin or system update?
+- Can you reproduce the issue?
+- Do you have any examples?
 
-### Integration Team rules
+## Integration Team rules
 
-* We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a [strong password](https://www.lastpass.com/nl/password-generator) to give us access. Always delete the temporary account after we finish the investigation.
+- We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a [strong password](https://www.lastpass.com/nl/password-generator) to give us access. Always delete the temporary account after we finish the investigation.
 
-* We only ask for the credentials for your live ecommerce platform account in extraordinary circumstances. In such cases, we recommended making a backup beforehand - just in case.
+- We only ask for the credentials for your live ecommerce platform account in extraordinary circumstances. In such cases, we recommended making a backup beforehand - just in case.
 
 **Note:** MultiSafepay assumes **no** responsibility for mistakes in your live environment.
 
