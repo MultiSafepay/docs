@@ -11,9 +11,9 @@ noindex: '.'
 
 ## Integration
 
-{{< two-buttons href-2="/payment-methods/google-pay/direct/" text-2="Google Pay direct" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payment-methods/google-pay/direct/" text-2="Google Pay™ direct" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="/api/#google-pay" text-2="Google Pay redirect" description-2="Easily integrate Google Pay using MultiSafepay payment pages." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/api/#google-pay" text-2="Google Pay™ redirect" description-2="Easily integrate Google Pay using MultiSafepay payment pages." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
 
 {{< br >}}
 

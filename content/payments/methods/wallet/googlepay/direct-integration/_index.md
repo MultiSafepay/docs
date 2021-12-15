@@ -201,8 +201,10 @@ function addGooglePayButton() {
 ### Style the button
 
 For infomation about styling your **Google Pay** button, see Google Pay:
+
 - [Customize your button](https://developers.google.com/pay/api/web/guides/resources/customize)
 - [User experience best practices](https://developers.google.com/pay/api/web/guides/ux-best-practices)
+- [Brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines)
 
 ## Step 3: Create a payment request
 
@@ -287,3 +289,15 @@ For more information about the `paymentData` object, see Google Pay&nbsp;–&nbs
 From your server, create a [Google Pay direct order](/api/#google-pay---direct).
 
 For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
+
+## Test and go live
+
+After you've implemented the steps above, to test your integration:
+
+- [MultiSafepay's Google Pay testing procedure](/payment-methods/google-pay/integration-testing/#testing)
+- [Google Pay – Integration checklist](https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist)
+
+Then, when you're ready to go live:
+
+- When constructing the `paymentsClient` object, set the environment to `PRODUCTION`.
+- Set the attributes of `merchantInfo` to your business name and Google Pay merchant ID.
