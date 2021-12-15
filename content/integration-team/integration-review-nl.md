@@ -31,9 +31,7 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 
 ### LinkedIn profielen
 
-- [Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)  
 - [Alex Carletto](https://www.linkedin.com/in/alexcarletto)  
-- [Berend Lantink](https://www.linkedin.com/in/berendlantink)  
 - [Daniel Civit](https://www.linkedin.com/in/danielcivit)  
 - [Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra)  
 - [Francesca Cook](https://www.linkedin.com/in/francesca-cook-ba786a29/)  
