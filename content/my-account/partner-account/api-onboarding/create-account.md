@@ -54,10 +54,9 @@ Create a new affiliated merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "account": {
     "address1": "Flowerstreet 123",
@@ -134,9 +133,8 @@ This request doesn't require any parameters.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< br >}}
 {{< /collapse >}}
@@ -184,9 +182,8 @@ Retrieve the account details of a specific affiliated merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< br >}}
 {{< /collapse >}}
@@ -248,10 +245,9 @@ Update the account details of an affiliated merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
+curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "email" :"newemail@funcompany.com",
   "zipcode" :"5678 NW"

@@ -66,10 +66,9 @@ Add a new UBO to a merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "name": "Firstname Lastname",
   "title": "mrs",
@@ -137,9 +136,8 @@ Retrieve an array of all UBOs linked to a merchant account.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -193,9 +191,8 @@ Retrieve a single UBO by its identifier.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -265,9 +262,8 @@ Update information about an existing UBO.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n" \
+curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>" \
 --header "Content-Type: application/json" \
 --data-raw '{
   "email": "newemail@address.com" 
@@ -328,10 +324,9 @@ Upload an identity document used to verify the UBO.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 
-curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "document_type":"id",
   "encoded_content":"string",
@@ -374,9 +369,8 @@ Retrieve an array of all identity documents linked to a UBO.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -418,9 +412,8 @@ Description.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/agi6ehoreex6a
+curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/agi6ehoreex6a?api_key={your-account-api-key}
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
