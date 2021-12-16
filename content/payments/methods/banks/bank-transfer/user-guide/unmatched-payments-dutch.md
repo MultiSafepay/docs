@@ -49,6 +49,7 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 1. [Genereer handmatig een betaallink](/payment-links/generating-links/). 
 2. Voeg de naam van de klant en het ordernummer toe aan de beschrijving (voor uw eigen administratie). 
 3. Klik op **Bankoverschrijving**.
+4. Voeg het bankrekeningnummer van de klant toe (indien bij u bekend), zodat we de betaling gemakkelijker kunnen matchen.
 4. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
 
 **Opmerking:** Iedere betaallink heeft een uniek order ID nodig.
