@@ -52,7 +52,7 @@ To prevent us from emailing the customer, in your `POST /orders` request, set th
 
 ## 2. Customer transfers funds
 
-The customer must only pay for **one** order per transfer. When transfering the funds, they must correctly input:  
+The customer must only pay for **one** order per bank transfer. When transferring the funds, they must correctly input:  
     
 - The amount
 - Their bank account number
