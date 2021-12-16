@@ -14,7 +14,7 @@ meta_title: "MultiSafepay plugin for ScandiPWA - MultiSafepay Docs"
 
 {{< details title="Supported payment methods" >}}
 &nbsp;  
-See Magento 2 user guide – [Supported payment methods](/payments/integrations/ecommerce-platforms/magento2/faq/supported-payment-methods).
+See [Magento 2](/magento-2/) supported payment methods.
 
 {{< /details >}}
 

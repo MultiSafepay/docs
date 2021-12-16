@@ -113,6 +113,8 @@ For support for Shopware 6 Professional/Enterprise, email your account manager a
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+
 {{< /details >}}
 
 ## Installation and configuration

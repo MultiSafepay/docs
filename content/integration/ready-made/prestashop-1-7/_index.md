@@ -129,6 +129,8 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+
 {{< /details >}}
 
 {{< details title="Upgrading to version 5.x from an older version" >}}

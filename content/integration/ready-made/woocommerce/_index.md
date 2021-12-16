@@ -28,7 +28,7 @@ aliases:
     - /ecommerce-platforms/woocommerce/
 ---
 
-This technical manual is for installing and configuring the MultiSafepay plugin for WooCommerce. WooCommerce is a free, open-source ecommerce platform for Wordpress.
+This technical manual is for installing and configuring our free plugin for WooCommerce. WooCommerce is a free, open-source ecommerce platform for Wordpress.
 
 {{< details title="Test environment" >}}
 &nbsp;  
@@ -115,6 +115,8 @@ Contact us:
 - Wijncadeau
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
+
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 
 {{< /details >}}
 

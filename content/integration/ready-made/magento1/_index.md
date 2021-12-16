@@ -118,6 +118,8 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl)
 
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+
 {{< /details >}}
 
 ## Installation

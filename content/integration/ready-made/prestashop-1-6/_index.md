@@ -106,6 +106,8 @@ Contact us:
 - Wijncadeau
 - [Yourgift](https://www.yourgift.nl/)
 
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+
 {{< /details >}}
 
 ## Installation and configuration
