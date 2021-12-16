@@ -25,7 +25,7 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ## Signup account
 
-`POST` `https://testapi.multisafepay.com/v1/json/signup-account`
+`POST` `https://testapi.multisafepay.com/v1/json/signup-account?api_key={your-account-api-key}`
 
 Create a new affiliated merchant account.
 
@@ -39,16 +39,16 @@ Create a new affiliated merchant account.
 |account.apartment{{< br >}}`string`|Apartment number of company address{{< br >}}**Format**: max 9 characters. Optional.|
 |account.city{{< br >}}`string`|City of company address{{< br >}}**Format**: max 50 characters Optional.|
 |account.coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters. Optional.|
-|account.company_name{{< br >}}`string`|Name of company {{< br >}}**Format**: max 200 characters. Required.|
+|account.company_name{{< br >}}`string`|Name of company. This must be unique. {{< br >}}**Format**: max 200 characters. Required.|
 |account.country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Required.|
-|account.email{{< br >}}`string`|Company email address. Transaction updates are sent to this address. {{< br >}}**Format**: max 100 characters. Required.|
+|account.email{{< br >}}`string`|Company email address. Transaction updates are sent to this address. This must be unique. {{< br >}}**Format**: max 100 characters. Required.|
 |account.fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. Optional.|
 |account.phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. Optional.|
 |account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
 |account.zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. Optional.|
 |**user**{{< br >}}`object`|This object holds user information|
 |user.name{{< br >}}`string`|Full name of the primary user. The name can be modified later. Required.|
-|user.email{{< br >}}`string`|Email address of the primary user. The welcome email with secure code is sent to this address. Required.|
+|user.email{{< br >}}`string`|Email address of the primary user. The welcome email with secure code is sent to this address. This must be unique. Required.|
 |user.password{{< br >}}`string`|Password of the primary user. Required.|
 |currencies{{< br >}}`array`|List of currencies the company wishes to process{{< br >}}**Format**: array of strings in [ISO-4217 format](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `[EUR,USD]`). Required.|
 
@@ -65,9 +65,9 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={y
     "apartment": "5A",
     "city": "Amsterdam",
     "coc_number": "123456",
-    "company_name": "Fun B.V.",
+    "company_name": "{affiliate-company-name}",
     "country": "NL",
-    "email": "info@funcompany.com",
+    "email": "{affiliate-email-address}",
     "fax": "00311234567890",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
@@ -75,7 +75,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={y
   },
   "user": {
     "name": "Ad Admin",
-    "email": "admin@funcompany.com",
+    "email": "{affiliate-email-address}",
     "password": "password"
   },
   "currencies": [
@@ -96,9 +96,9 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={y
       "apartment": "5A",
       "city": "Amsterdam",
       "coc_number": "123456",
-      "company_name": "Fun B.V.",
+      "company_name": "{affiliate-company-name},
       "country": "NL",
-      "email": "info@funcompany.com",
+      "email": "{affiliate-email-address}",
       "fax": "00311234567890",
       "id": 12345678,
       "phone": "00311234567890",
@@ -107,7 +107,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={y
     },
     "user": {
       "name": "Ad Admin",
-      "email": "admin@funcompany.com",
+      "email": "{affiliate-email-address}",
       "password": "***"
     },
     "currencies": [
@@ -117,14 +117,13 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={y
   "success": true
 }
 ```
-`account.id` → the account ID
 {{< /collapse >}}
 
 ---
  
 ## List accounts
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts?api_key={your-account-api-key}`
 
 Retrieve an array of all merchant accounts affiliated to your partner account.
 
@@ -150,9 +149,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts?api_key={your-acc
       "apartment": "5A",
       "city": "Funtown",
       "coc_number": "123456",
-      "company_name": "Fun B.V.",
+      "company_name": "{affiliate-company-name}",
       "country": "NL",
-      "email": "info@funcompany.com",
+      "email": "{affiliate-email-address}",
       "fax": "00311234567890",
       "id": "12345678",
       "phone": "00311234567890",
@@ -163,21 +162,20 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts?api_key={your-acc
   "success": true
 }
 ```
-`account.id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Get account
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}?api_key={your-account-api-key}`
 
 Retrieve the account details of a specific affiliated merchant account.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -198,9 +196,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678?api_key=
     "apartment": "5A",
     "city": "Funtown",
     "coc_number": "123456",
-    "company_name": "Fun B.V.",
+    "company_name": "{affiliate-company-name}",
     "country": "NL",
-    "email": "info@funcompany.com",
+    "email": "{affiliate-email-address}",
     "fax": "00311234567890",
     "id": "12345678",
     "phone": "00311234567890",
@@ -210,21 +208,20 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678?api_key=
   "success": true
 }
 ```
-`id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Update account
 
-`PATCH` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}`
+`PATCH` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}?api_key={your-account-api-key}`
 
 Update the account details of an affiliated merchant account.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
 ### Query parameters
 |Key|Description|
@@ -277,13 +274,12 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678?api_ke
   "success": true
 }
 ```
-`id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Next steps
-You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the unique merchant account ID.
+You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the affiliate merchant account ID.
 
 {{< two-buttons
 

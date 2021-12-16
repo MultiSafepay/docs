@@ -31,14 +31,14 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ## Add bank account 
 
-`POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/bank-accounts`
+`POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/bank-accounts?api_key={your-account-api-key}`
 
 Add a new bank account to a merchant account.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
 ### Query parameters
 |Key|Description|
@@ -54,7 +54,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-ac
 --header "Content-Type: application/json" \
 --data-raw '{
   "currency" :"EUR",
-  "holder_name" :"Fun B.V.",
+  "holder_name" :"{affiliate-company-name}",
   "iban" :"NL02ABNA0123456789"
 }'
 ```
@@ -65,19 +65,21 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-ac
 {
   "data": {
     "currency" :"EUR",
-    "holder_name" :"Fun B.V.",
-    "iban" :"NL02ABNA0123456789"
+    "holder_name" :"{affiliate-company-name}",
+    "iban" :"NL02ABNA0123456789",
+    "id" :"t4xwvomi45heq"
   },
   "success": true
 }
 ```
+`id` is the unique identifier of the bank account.
 {{< /collapse >}}
 
 ---
 
 ## List bank accounts
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/bank-accounts`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/bank-accounts?api_key={your-account-api-key}`
 
 Retrieve a list of all bank accounts linked to an affiliated merchant account.
 
@@ -99,32 +101,37 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-acc
   "data": [
     {
       "currency": "EUR",
-      "holder_name": "Fun B.V.",
-      "iban": "NL02ABNA0123456789"
+      "holder_name": "{affiliate-company-name}",
+      "iban": "NL02ABNA0123456789",
+      "id" :"t4xwvomi45heq",
+      "status": "pending"
     },
     {
       "currency": "USD",
-      "holder_name": "Fun B.V.",
-      "iban": "NL02ABNA0123456789"
+      "holder_name": "{affiliate-company-name}",
+      "iban": "NL02ABNA0123456789",
+      "id": "ytipdsfs746os",
+      "status": "pending"
     }
   ],
   "success": true
 }
 ```
+`id` is the unique identifier of the bank account.
 {{< /collapse >}}
 
 ---
 
 ## Get bank account
 
-`GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}?api_key={your-account-api-key}`
 
 Retrieve a single bank account by its identifier.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required. |
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -138,8 +145,10 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678?api
 {
   "data": {
     "currency": "EUR",
-    "holder_name": "Fun B.V.",
-    "iban": "NL02ABNA0123456789"
+    "holder_name": "{affiliate-company-name}",
+    "iban": "NL02ABNA0123456789",
+    "id": "ytipdsfs746os",
+    "status": "pending"
   },
   "success": true
 }
@@ -150,7 +159,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678?api
 
 ## Create payment link
 
-`POST` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/payment-links`
+`POST` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/payment-links?api_key={your-account-api-key}`
 
 Create a payment link for a refundable 1 EUR payment. This payment is used to verify the ownership of the associated bank account. Alternatively, supply a copy of a bank statement through the `bank-statements` request.
 
@@ -161,7 +170,7 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/payment-links?api_key={your-account-api-key}" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/payment-links?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -170,7 +179,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/pa
 ```
 {
   "data": {
-    "bankaccount_id": 12345678,
+    "bankaccount_id": {bankaccount_id},
     "payment_link": "https://paymentlink.com/link"
   },
   "success": true
@@ -182,7 +191,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/pa
 
 ## Add bank statement
 
-`POST` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements`
+`POST` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements?api_key={your-account-api-key}`
 
 Upload a bank statement to verify the ownership of the associated bank . Alternatively, create a payment link through the `payment-links` request.
 
@@ -200,7 +209,7 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/bank-statements?api_key={your-account-api-key}" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --data-raw '{
@@ -215,8 +224,11 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/ba
 ```
 {
   "data": {
-    "encoded_content": "string",
+    "account_id": "{affiliate_account_id}",
+    "bankaccount_id": "{bankaccount_id}",
+    "document_type": null,
     "filename": "bank-statement.pdf",
+    "id": ""4jrp7krwlrafq",
     "mime_type": "application/pdf"
   },
   "success": "true"
