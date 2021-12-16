@@ -213,7 +213,6 @@ Contains:
 
 If emailing payment instructions to the customer yourself, set to `true`.  
 For MultiSafepay to email payment instructions, set to `false`.  
-Options: `true`, `false`.  
 Default: `false`.
 
 **Response**
