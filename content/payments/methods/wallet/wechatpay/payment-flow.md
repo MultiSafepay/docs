@@ -32,21 +32,27 @@ sequenceDiagram
 
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer selects WeChat Pay at checkout and MultiSafepay displays a WeChat QR code. | [API reference](/api/#wechat-pay---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) containing a WeChat QR code. | [API reference](/api/#wechat-pay---redirect) |   
+| **Direct flow** | The customer selects WeChat Pay at checkout and MultiSafepay displays a WeChat QR code. |
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) containing a WeChat QR code. |   
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete. | Completed | Completed |
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 2&nbsp;hours and the transaction expired. | Expired | Expired |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -55,5 +61,5 @@ sequenceDiagram
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed      | Completed   |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
 

@@ -1,29 +1,31 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Maestro"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Maestro - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Maestro in your ecommerce platform"
+meta_title: "Integrating and testing Maestro - MultiSafepay Docs"
+short_description: "Options for integrating Maestro and testing payments"
 layout: 'child'
 aliases:
     - /payment-methods/credit-and-debit-cards/maestro/maestro-testing
 ---
+## Integration
 
-Maestro payments are processed as credit card payments.
+| | |
+|---|---|
+| **API** | [Redirect](/api/#maestro) |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/).   |
+| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-To process Maestro payments via our API, see API reference – [Credit cards](/api/#credit-cards).
+## Testing
 
-For the Maestro logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+Testing Maestro is similar to Visa. For extensive testing, see [Integrating and testing Visa](/payment-methods/visa/integration-testing/#testing). 
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-Testing Maestro is similar to Visa. For extensive testing, see [Visa](/testing/test-payment-details/#details-visa). 
+### Test a Maestro order
 
-**Test a Maestro order**  
-
-1. Send a [redirect](/api/#maestro) API request.
+1. Make a [redirect](/api/#maestro) API request.
 2. On the payment page:
     - In the **Card number** field, enter `6759000000005`.
     - In the **Card holder** field, enter any name.
@@ -35,7 +37,7 @@ Testing Maestro is similar to Visa. For extensive testing, see [Visa](/testing/t
     - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To refund an order:
 
@@ -52,20 +54,17 @@ To refund an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
 **Note:** In the live environment, you can't accept refund orders. These are done automatically.
 
-{{< /details >}}

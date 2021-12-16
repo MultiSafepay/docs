@@ -2,8 +2,8 @@
 title: "Integrating and testing CBC/KBC"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "CBC/KBC - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing in your ecommerce platform"
+meta_title: "Integrating and testing CBC/KBC - MultiSafepay Docs"
+short_description: "Options for integrating CBC/KBC and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/cbc.svg'
 url: '/payment-methods/cbc-kbc/integration-testing/'
@@ -12,23 +12,36 @@ aliases:
     - /payments/methods/banks/kbc/integration-and-testing/
     - /payments/methods/banks/cbc-kbc/integrating-testing
 ---
+## Integration
 
-To process CBC/KBC payments via our API, see API reference – [CBC/KBC](/api/#cbckbc).
+| | |
+|---|---|
+| **API** | [Direct](/api/#cbckbc---direct) and [redirect](/api/#cbckbc---redirect) |
+| **Ready-made integrations** | CBC/KBC (direct) is supported in the following ready-made integrations: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [OpenCart](/opencart/) {{< br >}} [Magento 1](/magento-1/), [Magento 2](/magento-2/) {{< br >}} [PrestaShop 1.6](/prestashop-1-6/), [PrestaShop 1.7](/prestashop-1-7/) {{< br >}} [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/) {{< br >}} [WooCommerce](/woo-commerce/) |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the CBC and KBC logos, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a CBC/KBC order**
+### Test a CBC/KBC order
 
-1. To test a CBC/KBC order, send a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
+1. To test a CBC/KBC order, make a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test refunding an order**
+### Test cancelling an order
+
+To test cancelling an order:
+
+1. Make a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
+  The order status changes to **Void**.
+
+### Test refunding an order
 
 To test refunding an order:
 
@@ -47,14 +60,8 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
+**Notes:** 
 
-**Note:** 
-
-- You can't test:
-  - Cancelling orders
-  - Refunding via the API
+- You can't test refunding via the API.
 - In the live environment, you can't accept refund orders. These are done automatically.
 
-
-{{< /details >}}

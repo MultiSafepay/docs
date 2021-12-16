@@ -26,22 +26,28 @@ sequenceDiagram
     C->>Mu: Selects Request to Pay at checkout
     Mu->>C: Connects to Deutsche Bank (direct/redirect)
     C->>D: Authenticates account and authorizes SEPA bank transfer
-    D->>Me: Settles funds
-    Note over D,Me: Within 24 hours <br> (if Instant SEPA not supported)
-
+    D->>Mu: Transfers funds 
+    Note over D,Mu: Within 24 hours <br> (if Instant SEPA not supported)
+    Mu->>Me: Settles funds
+    
 {{< /mermaid >}}
 &nbsp;  
-
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer is redirected straight to their online banking environment. | [API reference](/api/#request-to-pay---direct) |
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. | [API reference](/api/#request-to-pay---redirect) |
+| **Direct flow** | The customer is redirected straight to their online banking environment. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. |
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -49,8 +55,8 @@ sequenceDiagram
 | The customer's bank is processing the transaction and transfering the funds. | Uncleared  | Completed |
 | The transaction is complete. | Completed | Completed |
 | The transaction was declined. | Declined | Declined   |
-| The transaction is cancelled. | Void | Void |
-| The customer didn't complete payment within 1 hour and the transaction expired. | Expired | Expired |
+| The transaction was cancelled. | Void | Void |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
@@ -60,7 +66,7 @@ sequenceDiagram
 | The refund is complete. | Completed | Completed |
 | The refund was declined. | Declined | Declined |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
 
         
 

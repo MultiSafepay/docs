@@ -13,4 +13,4 @@ aliases:
     - /payment-methods/wallet/applepay
 ---
 
-Google Pay is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account to make checkout faster.
+Google Pay™ is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account to make checkout faster.

@@ -1,6 +1,6 @@
 ---
 weight: 307
-meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
+meta_title: "API reference - Create Bank Transfer order - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -153,7 +153,7 @@ meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
 
 {{< description >}}
 ## Bank Transfer
-See also Payment methods – [Bank transfer](/payment-methods/bank-transfer).
+See also Payment methods – [Bank Transfer](/payment-methods/bank-transfer).
 
 ### Bank Transfer - redirect
 
@@ -180,7 +180,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `gateway` | string | required
@@ -220,7 +223,7 @@ Default: `false`.
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ---------------- 
 
@@ -249,7 +252,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `gateway` | string | required
@@ -403,7 +409,7 @@ The customer's country, if provided in the transaction request.
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 `cancel_url` | string 

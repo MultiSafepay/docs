@@ -10,16 +10,37 @@ aliases:
 
 Sender Policy Framework (SPF) records let users specify which servers can send emails on behalf of their domain name system (DNS). Receiving servers can check the SPF record and decide to:
 
-- Let the email through.
+- Accept the email.
 - Mark it as unsafe.
-- Refuse it altogether.
+- Refuse the email.
 
 MultiSafepay uses an SPF record to prevent our emails being marked as spam.
 
-You can add the following _TXT record_ to the [DNS](https://nl.wikipedia.org/wiki/Domain_Name_System) of your customers:
+## Accepting MultiSafepay emails
 
-- v = spf1 ip4: 213.189.0.0/23 mx
+To tell your server to accept MultiSafepay emails, add either of the following entries to your TXT record containing `v=spf1` and include `spf.multisafepay.com`:
 
-- v = spf1 ip4: 185.99.128.0/22 mx
+- ip4:213.189.0.0/23
+- ip4:185.99.128.0/22
 
-**Note:** The filename should be the name of your website.
+**Notes:** 
+
+- The filename should be the name of your website. In the examples below, this is given as `example.com`.
+- The total number of includes permitted is 10, including mx records (if listed).
+
+## Examples
+
+### Original TXT record
+```
+example.com.              180     IN      TXT     "v=spf1 mx ip4:188.18.131.146/32 ip4:177.50.28.21/32 ~all"
+```
+
+### Modified TXT record example 1
+```
+example.com.              180     IN      TXT     "v=spf1 mx ip4:188.18.131.146/32 ip4:177.50.28.21/32 ip4:213.189.0.0/23 ip4:185.99.128.0/22 ~all"
+```
+
+### Modified TXT record example 2
+```
+example.com.              180     IN      TXT     "v=spf1 mx ip4:188.18.131.146/32 ip4:177.50.28.21/32 include:spf.multisafepay.com ~all"
+```

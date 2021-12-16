@@ -22,7 +22,7 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Betaal per Maand at checkout
-    Mu->>C: Connects to Santander <br> (direct/redirect)
+    Mu->>C: Connects to Santander (direct/redirect)
     S->>Mu: Authorizes the payment
     Mu->>S: Captures the funds
     Me->>C: Ships the order
@@ -39,21 +39,27 @@ sequenceDiagram
 &nbsp;  
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer is redirected straight to Santander. | [API reference](/api/#santander-betaal-per-maand---direct) |
-| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | [API reference](/api/#santander-betaal-per-maand---redirect) |
+| **Direct flow** | The customer is redirected straight to Santander. | 
+| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | 
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. {{< br >}} To cancel it, email <support@multisafepay.com> | Uncleared   | Initialized  |
 | Betaal per Maand is authorizing the payment. | Uncleared   | Uncleared  |
-| MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/getting-started/glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** {{< br >}} - [Manually change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/user-guide/changing-order-status-to-shipped/). {{< br >}} - [Send us the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
+| MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay account and your [backend](/glossaries/multisafepay-glossary/#backend) via the [notification URL](/developer/api/notification-url/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| **Important:** {{< br >}} - [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} - [Send us the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
 | The transaction is complete. | Shipped    | Completed  |
 | Santander has declined the payment. {{< br >}} They only provide the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
 | The payment was cancelled.   | Void   | Cancelled   |
@@ -66,4 +72,3 @@ sequenceDiagram
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund is complete.  | Completed      | Completed   |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

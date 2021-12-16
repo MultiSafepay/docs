@@ -41,7 +41,7 @@ meta_title: "API reference - Retrieve transactions - MultiSafepay Docs"
 
 Get details about transactions in your account. 
 
-For use cases and sample requests, see [Transactions endpoint](/business/accounting/transactions-api-endpoint/).
+For use cases and sample requests, see [Reconciliation through API](/accounting/api-reconciliation/).
 
 Requests retrieve an array of all transactions under your account. See also [Pagination](/developer/api/pagination/).
 

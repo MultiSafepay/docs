@@ -1,31 +1,26 @@
 ---
 title: "MultiSafepay statuses"
-weight: 10
+weight: 20
 meta_title: "MultiSafepay statuses - MultiSafepay Docs"
-
 read_more: "."
-url: '/payments/multisafepay-statuses/'
+url: '/about-payments/multisafepay-statuses/'
 aliases:
     - /faq/api/difference-between-status-and-transaction-status
     - /faq/api/difference-between-status-and-financial-status
     - /developer/api/difference-between-status-and-financial-status/
 ---
 
-There are two statuses in your [MultiSafepay account](https://merchant.multisafepay.com/) that update as payments are processed. 
+There are two statuses for each transaction that update as it is processed. 
 
-**Order status**  
-The progression of the customer's order with you, independent of the payment, e.g. whether you have shipped the items.   
+In your [MultiSafepay account](https://merchant.multisafepay.com/), go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. Under **Status history**, you can see the order status and transaction status: 
+
+### Order status
+Changes as the customer's order with you progresses towards shipment (independent of payment).  
 API attribute: `status`
 
-**Transaction status**  
-The progression towards settling the funds in your MultiSafepay balance.  
+### Transaction status
+Changes as the funds progress towards settlement in your MultiSafepay balance.  
 API attribute: `financial_status`
-
-Statuses are also valuable for understanding [reports](/business/accounting/reports/).
-
-## Viewing statuses
-
-To view statuses in your MultiSafepay account, go to **Transaction overview** > **Transaction details** page, under **Status history**. 
 
 ## Status meanings
 
@@ -33,28 +28,30 @@ The meaning of statuses (or combinations of statuses) varies per payment method.
 
 The table below sets out possible order and transaction statuses and what they commonly mean.
 
-| Status | Description |
-|---|---|
-| Initialized | A payment link has been generated, but the customer hasn't yet completed payment. |
-| Shipped | You have shipped the order and the funds can be captured. |
-| Uncleared | The customer has completed payment, but the funds are not yet settled. You may need to manually [authorize or decline the transaction](/faq/finance/evaluating-uncleared-card-transactions/), or the [issuer](/getting-started/glossary/#issuer) is authorizing it. |
-| Completed | - **Order:** The customer has completed payment and settlement is guaranteed. Proceed with shipment. {{< br >}} - **Transaction:** The funds are settled in your MultiSafepay balance. |
-| Declined | The [issuer](/getting-started/glossary/#issuer) or [acquirer](/getting-started/glossary/#acquirer) has declined the transaction. {{< br >}} See also [About Declined status](/credit-cards-user-guide/declined-status/). |
-| Void / Cancelled | You or the customer has cancelled the transaction. |
-| Expired | The customer didn't complete payment and the transaction expired. |
+| Description | Order status | Transaction status |
+|---|---|--|
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete. | Completed | Completed |
+| The transaction has been cancelled. | Void | Cancelled |
+| The customer has requested a chargeback. | Void | Void |
+| The customer didn't complete payment and the transaction expired. {{< br >}} Transaction expiry times vary per payment method. | Expired | Expired |
+| The [issuer](/glossaries/multisafepay-glossary/#issuer) or [acquirer](/glossaries/multisafepay-glossary/#acquirer) has declined the transaction. {{< br >}} See also [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined |
+| Manually [authorize or decline the transaction](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| Manually change the order status to shipped. | Shipped | Uncleared |
 
 ### Refunds and chargebacks
 
-| Status | Description |
-|---|---|
-| Initialized | The customer has requested a refund.|
-| Chargeback | The customer has requested a [chargeback](/payments/chargebacks/).|
-| Completed | The refund or chargeback has been processed successfully. |
-| Refunded | The refund has been processed successfully.|
-| Partial_refunded | The [partial refund](/payments/refunds/) has been processed successfully.|
-| Declined | The payment method has declined the refund request. |
-| Reserved | A [payout](/account/payouts/) or refund has been temporarily reserved while we check your MultiSafepay balance has sufficient funds. |
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund.| Initialized/Reserved | Initialized/Reserved |
+| The refund/chargeback is complete. | Completed | Completed |
+| The refund has been processed successfully.| Refunded | Refunded |
+| The [partial refund](/payments/refunds/) has been processed successfully.| Partial_refunded | Partial_refunded |
+| The refund was declined. | Declined | Declined |
 
 
+If the status of the refund  is **Reserved**, it may mean: 
 
+- The refund hasn't been processed yet. Refunds are passed to the customer's bank at midnight on the day they are initiated, and then the status changes to **Completed**. The bank is now responsible for processing the payment. Refunds may be delayed by the issuing bank.
+- The refund cannot be processed due to insufficient funds in your MultiSafepay account. To top up your balance, see [Adding funds to your MultiSafepay balance](https://docs.multisafepay.com/faq/finance/adding-funds-to-your-multisafepay-balance).
 

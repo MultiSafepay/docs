@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Bancontact"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Bancontact - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Bancontact in your ecommerce platform"
+meta_title: "Integrating and testing Bancontact - MultiSafepay Docs"
+short_description: "Options for integrating Bancontact and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
 url: '/payment-methods/bancontact/integration-testing/'
@@ -13,20 +13,22 @@ aliases:
     - /payments/methods/banks/bancontact-qr/integration-and-testing/
 ---
 
-To process payments via our API, see API reference:
+## Integration
 
-- [Bancontact](/api/#bancontact)
-- [Bancontact QR](/api/#bancontact-qr)
+| | |
+|---|---|
+| **API** | [Bancontact redirect](/api/#bancontact) {{< br >}} [Bancontact QR](/api/#bancontact-qr) |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime.  |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the Bancontact logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Bancontact order**
+### Test a Bancontact order
 
-1. To test a Bancontact order, send a [redirect](/api/#bancontact) API request.
+1. To test a Bancontact order, make a [redirect](/api/#bancontact) API request.
 2. Open the payment link.
 3. In the **Card number** field, enter a 16-digit card number.
 4. In the **Expiry date** fields, enter any future date, and then click **Confirm**.
@@ -34,26 +36,22 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 Use the following card numbers to test different transaction statuses.
 
 | Card number| Status    | Description              |
-| ---------| --------- | ------------------------ |
+| ---| ---| --- |
 | 67034500054620008 | **Completed** | Transaction was completed (3D enrolled) |
 | 67034500054610009| **Declined**  | Transaction was declined (card must be 3D enrolled) |
 | 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed) |
 | 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds) |
 
----
-
 **Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
----
-
-**Test a Bancontact QR code**
-1. Send a [redirect](/api/#bancontact-qr) API request.
+### Test a Bancontact QR code
+1. Make a [redirect](/api/#bancontact-qr) API request.
 2. Open the payment link.
 3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
 4. On the Test platform page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -69,24 +67,21 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
 1. Create an order using card number `67034500054620008`. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
-**Note:** 
+**Notes:** 
 
 - You can't test cancelling orders. 
 - In the live environment, you can't accept refund orders. These are done automatically.
 
-{{< /details >}}
 

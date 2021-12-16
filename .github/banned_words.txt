@@ -3,7 +3,6 @@ API Key
 api KEY
 api key
 back-office
-Bank Transfer
 Bank transfer
 banktransfer
 Charge back

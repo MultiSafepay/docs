@@ -12,23 +12,11 @@ aliases:
     - /payments/methods/banks/belfius/activation/
 ---
 
-**1.** Check whether Belfius is supported by your ecommerce platform.
+{{< blue-notice >}} If using a ready-made integration: 
 
-**2.** To activate Belfius in to your [MultiSafepay account](https://merchant.multisafepay.com) for:
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
 
-All your websites:
+{{< activate_payment_method name="Belfius" >}}
 
-1. Go to **Settings** > **Payment methods**.
-2. Under **Additional payment methods**, select the **Belfius** checkbox.
-3. Click **Save changes**.
-
-A specific website:
-
-1. Go to **Settings** > **Website settings**.
-2. Click the relevant website to open the **Website settings** page.
-3. Under **Payment methods**, select the **Belfius** checkbox.
-4. Click **Save**.
-
-**3.** Enable Belfius as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
-
-For any questions, email the Sales Team at <sales@multisafepay.com>
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}

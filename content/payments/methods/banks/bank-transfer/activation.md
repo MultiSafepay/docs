@@ -1,5 +1,5 @@
 ---
-title: "Activating Bank transfer"
+title: "Activating Bank Transfer"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Bank Transfer - MultiSafepay Docs"
@@ -12,22 +12,12 @@ aliases:
     - /payments/methods/banks/bank-transfer/activation/
 ---
 
-To activate Bank Transfer in to your [MultiSafepay account](https://merchant.multisafepay.com) for:
+{{< blue-notice >}} If using a ready-made integration: 
 
-All your websites:
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
 
-1. Go to **Settings** > **Payment methods**.
-2. Under **Standard payment methods**, select the **Bank Transfer** checkbox.
-3. Click **Save changes**.
+{{< activate_payment_method name="Bank transfers" >}}
 
-A specific website:
-
-1. Go to **Settings** > **Website settings**.
-2. Click the relevant website to open the **Website settings** page.
-3. Under **Payment methods**, select the **Bank Transfer** checkbox.
-4. Click **Save**.
-
-Enable Bank Transfer as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
-
-For any questions, email the Sales Team at <sales@multisafepay.com>
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
 

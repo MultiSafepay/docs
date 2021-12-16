@@ -1,23 +1,27 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Cartes Bancaires"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Cartes Bancaires - Integration and testing - MultiSafepay Docs"
-short_description: "Testing Cartes Bancaires in your ecommerce platform"
+meta_title: "Integrating and testing Cartes Bancaires - MultiSafepay Docs"
+short_description: "Options for integrating Cartes Bancaires and testing payments"
 layout: 'child'
 ---
+## Integration
 
-To process Cartes Bancaires payments via our API, see API reference – [Credit cards](/api/#credit-cards).
+| | |
+|---|---|
+| **API** | See API reference – [Co-branded credit cards](/api/#co-branded-credit-cards). {{< br >}} **Bundled credit cards** {{< br >}} You can also bundle multiple credit cards together on your MultiSafepay credit card payment page. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits. {{< br >}} To make Cartes Bancaires available as a payment method on the MultiSafepay credit card payment page, set the [`locale`](/developer/api/using-locale-parameters) to `fr_FR` (France) in transaction requests. {{< br >}} See API reference – [Credit cards](/api/#credit-cards). |
+| **Ready-made integrations** | You can integrate using the Visa gateway (redirect) in all our [ready-made integrations](/integrations/ready-made/).   |
+| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-**Note:** With our [ready-made integrations](/ecommerce-platforms/), you can also integrate Cartes Bancaires using the [generic Visa gateway](/developer/general/generic-gateways/).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Cartes Bancaires order**  
+### Test a Cartes Bancaires order
 
-1. Send a [redirect](/api/#visa) API request with the `locale` set to `fr_FR`.
+1. Make a [redirect](/api/#visa) API request with the `locale` set to `fr_FR`.
 2. On the payment page:
     - In the **Card number** field, enter `4111111111111111`.
     - In the **Card holder** field, enter any name.
@@ -40,7 +44,7 @@ Use the following card numbers to test different transaction statuses.
 | 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
-**Test refunding an order**
+### Test refunding an order
 
 To refund an order:
 
@@ -57,23 +61,19 @@ To refund an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
-**Note:** 
+**Notes:** 
 
 - You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 - In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}

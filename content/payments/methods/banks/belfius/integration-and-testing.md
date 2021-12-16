@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Belfius"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Belfius - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Belfius in your ecommerce platform"
+meta_title: "Integrating and testing Belfius - MultiSafepay Docs"
+short_description: "Options for integrating Belfius and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/belfius.svg'
 url: '/payment-methods/belfius/integration-testing/'
@@ -11,23 +11,36 @@ aliases:
     - /payment-methods/belfius/belfius-testing
     - /payments/methods/banks/belfius/integration-and-testing/
 ---
+## Integration
 
-To process Belfius payments via our API, see API reference – [Belfius](/api/#belfius).
+| | |
+|---|---|
+| **API** | [Direct](/api/#belfius---direct) and [redirect](/api/#belfius---redirect) |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/), **except** OsCommerce and ZenCart. |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the Belfius logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Belfius order**
+### Test a Belfius order
 
-1. To test a Belfius order, send a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
+1. To test a Belfius order, make a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test refunding an order**
+### Test cancelling an order
+
+To test cancelling an order:
+
+1. Make a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
+2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
+  The order status changes to **Void**.
+
+### Test refunding an order
 
 To test refunding an order:
 
@@ -46,12 +59,7 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
+**Notes:** 
 
-**Note:** 
-
-- You can't test:
-  - Cancelling orders
-  - Refunding via the API
+- You can't test refunding via the API.
 - In the live environment, you can't accept refund orders. These are done automatically.
-{{< /details >}}

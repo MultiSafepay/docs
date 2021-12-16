@@ -7,11 +7,12 @@ short_description: "Activating Cartes Bancaires in your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/Carte-Bancaire.svg'
 ---
+
+{{< blue-notice >}} If using a ready-made integration: 
+
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+
 Cartes Bancaires payments are processed through the Visa gateway.
 
-To make Cartes Bancaires available as a payment method on the MultiSafepay credit card payment page, you need to:
-
-- Ensure you have enabled the Visa gateway.
-- Set the [`locale`](/developer/api/using-locale-parameters) to `fr_FR` (France) in transaction requests.
-
-Download the Cartes Bancaires logo from the [MultiSafepay logo collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
+{{< activate_payment_method type="non-standard" name="Cartes Bancaires" >}}

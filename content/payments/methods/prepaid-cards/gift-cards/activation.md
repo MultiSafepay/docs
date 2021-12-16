@@ -10,23 +10,19 @@ aliases:
     - /payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
     - /payments/methods/prepaid-cards/gift-cards/activation/
 ---
+{{< blue-notice >}} If using a ready-made integration:
 
-**1.** Before applying for a gift card, check your eligibility with your account manager at <sales@multisafepay.com> 
+- First check that the gift card is supported.
+- Once we have activated the card in your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
 
-**2.** Check whether the gift card is supported by your ecommerce platform.
+1. Check your eligibility with your account manager at <sales@multisafepay.com> 
+2. Send an application to the **card issuer**, providing your company details and MultiSafepay account ID.
+3. The issuer connects you to the card using one of the following:
 
-**3.** Apply to use the gift card to the **card issuer**, providing your company details and your MultiSafepay account ID.
+    - [Intersolve](https://intersolve.nl/contact) (majority of gift cards)
+    - [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+    - [123TCS](https://www.123tcs.com/#Contact)
 
-**4.** The issuer activates the card on their side using one of three supported gift card connections, and sends MultiSafepay the connection details to activate it on our side.
+4.  The issuer sends us the connection details and we activate the card in your account.
 
-{{< details title="Supported gift card connections" >}}
 
-MultiSafepay supports 3 gift card connections:
-
-* [Intersolve](https://intersolve.nl/contact) – offers the majority of gift cards
-* [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
-* [123TCS](https://www.123tcs.com/#Contact)
-
-{{< /details >}}
-
-**5.** Activate the gift card in your [backend](/getting-started/glossary/#backend).

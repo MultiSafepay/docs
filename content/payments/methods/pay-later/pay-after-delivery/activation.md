@@ -10,7 +10,11 @@ url: '/payment-methods/pay-after-delivery/activation/'
 aliases:
     - /payments/methods/billing-suite/pay-after-delivery/activation/
 ---
+{{< blue-notice >}} If using a ready-made integration: 
 
-To check your eligibility for Pay After Delivery, email your account manager at <sales@multisafepay.com>
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-To activate Pay After Delivery, phone +31 20 8500 502 or email your account manager at <sales@multisafepay.com> 
+**1.** Email an application to use Pay After Delivery to your account manager at <sales@multisafepay.com>
+
+**2.** The Risk Team checks your eligibilty and if approved, activates the payment method in your MultiSafepay account. 

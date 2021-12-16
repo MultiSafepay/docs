@@ -4,11 +4,11 @@ weight: 10
 meta_title: "Payment methods - E-Invoicing - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/e-invoicing"
 childlist: '.'
-intro_description: "E-Invoicing is a MultiSafepay payment method with automation tools that gives you full control of credit management, the payment process, and customer contact. Customers pay for orders after receiving them."
+intro_description: "E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer contact."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/e-invoicing.svg' 
-short_description: 'A MultiSafepay pay later method that is highly flexible and gives you control'
+short_description: 'A MultiSafepay pay later method that is highly flexible and gives you full control.'
 url: '/payment-methods/e-invoicing/'
 aliases:
     - /support-tab/magento2/payment-methods/e-invoicing

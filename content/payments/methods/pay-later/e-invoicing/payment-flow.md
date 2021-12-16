@@ -37,20 +37,26 @@ sequenceDiagram
 &nbsp;  
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The order details are sent directly to MultiFactor. | [API reference](/api/#e-invoicing---direct) |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, bank account, email address, and phone number. {{< br >}} They are then redirected to your success page. | [API reference](/api/#e-invoicing---redirect) |
+| **Direct flow** | The order details are sent directly to MultiFactor. | 
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birthdate, bank account, email address, and phone number. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
 | E-Invoicing has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
-| **Important**: [Manually change the order status to Shipped](/payments/methods/billing-suite/e-invoicing/user-guide/changing-order-status-to-shipped/). {{< br >}} You must ship to receive payment. | Shipped | Initialized |
+| **Important**: [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. | Shipped | Initialized |
 | The transaction is complete. | Completed    | Completed  |
 | E-Invoicing has declined the payment. | Declined | Declined |
 | The payment has been cancelled. | Void | Cancelled |
@@ -68,4 +74,3 @@ See also:
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete.  | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).

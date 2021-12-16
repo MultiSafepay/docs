@@ -8,7 +8,7 @@ aliases:
     - /payments/methods/billing-suite/pay-after-delivery/user-guide/closing-transactions/
 ---
 
-If you have not yet shipped an order, you can cancel the transaction by performing a full refund. See [Processing refunds](/payments/methods/billing-suite/pay-after-delivery/faq/processing-refunds/).
+If you have not yet shipped an order, you can cancel the transaction by performing a [full refund](/payments/refunds/).
 
 ## Complete own funds
 
@@ -28,8 +28,7 @@ Follow these steps:
 4. Click **Complete own funds**. 
 5. Enter a description about what happened with the order. 
 6. Click **Complete**.  
-    The total amount of the transaction is deducted from your MultiSafepay balance.  
-    The invoice is considered settled.
+    The total amount of the transaction is deducted from your MultiSafepay balance. The invoice is considered settled.
 
 
 

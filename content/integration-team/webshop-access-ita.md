@@ -1,5 +1,5 @@
 ---
-title : "Supporto tecnico - aiutaci, ti aiutiamo"
+title : "Supporto tecnico: Aiutaci, ti aiutiamo"
 weight:
 tags: "hidden"
 ---
@@ -18,34 +18,30 @@ Questo ci aiuta ad escludere che la problematica in questione sia legata alle co
 
 Per ridurre il tempo di intervento ti chiediamo di inviarci alcune informazioni, rispondendo alle seguenti domande:
 
-1. Il problema si verifica nel core di un plugin?
-2. Il problema si verifica nel core di un metodo di pagamento? 
-3. Da quando si verifica il malfunzionamento?
-4. Ci sono stati recentemente aggiornamenti di plugin o di sistema? 
-5. Dove riesci a riprodurre il malfunzionamento?
-6. Ci sono degli esempi disponibili? 
+- Il problema si verifica nel core di un plugin?
+- Il problema si verifica nel core di un metodo di pagamento? 
+- Da quando si verifica il malfunzionamento?
+- Ci sono stati recentemente aggiornamenti di plugin o di sistema? 
+- Dove riesci a riprodurre il malfunzionamento?
+- Ci sono degli esempi disponibili? 
 
-### Regole del supporto tecnico 
+## Regole del supporto tecnico 
 
-* Cerchiamo una soluzione solo in ambiente di test o staging della tua piattaforma ecommerce.
-  Pertanto, quando necessario, ti chiederemo le credenziali per accedere all'ambiente di test o staging della tua piattaforma ecommerce.
-  Crea a nome nostro uno username e password temporanei per accedere all'ambiente di test o staging. 
-    
+- Cerchiamo una soluzione solo in ambiente di test o staging della tua piattaforma ecommerce. Pertanto, quando necessario, ti chiederemo le credenziali per accedere all'ambiente di test o staging della tua piattaforma ecommerce. 
+Crea a nome nostro uno username e password temporanei per accedere all'ambiente di test o staging. 
 
-   > Per ragioni di sicurezza, ti chiediamo di creare una [password](https://www.lastpass.com/it/password-generator) sicura quando viene richiesto.
+- Per ragioni di sicurezza, ti chiediamo di creare una [password](https://www.lastpass.com/it/password-generator) sicura quando viene richiesto. Elimina sempre l'account alla fine delle operazioni di verifica.
 
-   > Elimina sempre l'account alla fine delle operazioni di verifica.
-
-* Consigliamo di non fornirci le credenziali per accedere alla versione live della tua piattaforma ecommerce senza aver prima consultato uno dei nostri incaricati al supporto tecnico. 
+- Consigliamo di non fornirci le credenziali per accedere alla versione live della tua piattaforma ecommerce senza aver prima consultato uno dei nostri incaricati al supporto tecnico. 
 Se per qualche caso particolare dovessimo chiedere gli accessi alla versione live della tua piattaforma, ti raccomandiamo di effettuare una copia di backup del sistema.
 
-  >_Nota: non siamo mai responsabili per errori o malfunzionamenti in ambiente live della tua piattaforma_.
+**Nota:** Non siamo mai responsabili per errori o malfunzionamenti in ambiente live della tua piattaforma.
 
-1. Quando è	necessario accedere al server, lavoriamo esclusivamente tramite SFTP/SSH. Per ragioni di sicurezza, non supportiamo più il protocollo SFTP. 
+- Quando è	necessario accedere al server, lavoriamo esclusivamente tramite SFTP/SSH. Per ragioni di sicurezza, non supportiamo più il protocollo SFTP. 
 
-2. Quando non riusciamo a riprodurre un malfunzionamento in un ambiente di staging o test la segnalazione verrà contrassegnata come time-box project.  
+- Quando non riusciamo a riprodurre un malfunzionamento in un ambiente di staging o test la segnalazione verrà contrassegnata come time-box project.  
 
-   Un time-box project consiste in un periodo che va tipicamente dalle due alle cinque settimane.
+Un time-box project consiste in un periodo che va tipicamente dalle due alle cinque settimane.
 
-   Nell'eventualità di una causa sconosciuta, non garantiamo una soluzione del malfunzionamento.
+Nell'eventualità di una causa sconosciuta, non garantiamo una soluzione del malfunzionamento.
    

@@ -51,8 +51,8 @@ name = "Shell"
     weight = 3
 
 [[menu.main]]
-    name = "Build your integration"
-    url  = "/getting-started/build-your-integration"
+    name = "Create your integration"
+    url = "/getting-started/create-your-integration"
     parent = "Getting started"
     weight = 4
 
@@ -69,72 +69,205 @@ name = "Shell"
     weight = 6
 
 [[menu.main]]
-    name = "Glossary"
-    url  = "/getting-started/glossary"
+    name = "Glossaries"
+    url  = "/getting-started/glossaries/"
     parent = "Getting started"
     weight = 7
 
 [[menu.main]]
-    name = "Account"
-    url  = "/account/"
+    name = "My account"
+    url  = "/my-account/"
     pre = "fa fa-user-circle fa-lg"
+    identifier = "my-account"
     weight = 10
+
+[[menu.main]]
+    name = "Test accounts"
+    url  = "/account/test-accounts/"
+    parent = "my-account"
+    identifier = "test-accounts"
+    weight = 110
+
+[[menu.main]]
+    name = "Account setup"
+    url  = "/account/account-setup/"
+    parent = "my-account"
+    identifier = "account-setup"
+    weight = 120
+
+[[menu.main]]
+    name = "Partner accounts"
+    url  = "/account/partner-accounts/"
+    parent = "my-account"
+    identifier = "partner-accounts"
+    weight = 130
+
+[[menu.main]]
+    name = "Onboarding and go live"
+    url  = "/account/onboarding-golive/"
+    parent = "my-account"
+    identifier = "go-live"
+    weight = 140
+
+[[menu.main]]
+    name = "Manage your balance"
+    url  = "/my-account/manage-your-balance/"
+    parent = "my-account"
+    identifier = "manage-your-balance"
+    weight = 150
+
+
+
+[[menu.main]]
+    name = "Integrations"
+    url  = "/integrations/"
+    pre = "fa fa-plug fa-lg"
+    identifier = "integrations"
+    weight = 20
+
+[[menu.main]]
+    name = "Ready-made"
+    url  = "/integrations/ready-made/"
+    parent = "integrations"
+    identifier = "ready-made"
+    weight = 210
+
+[[menu.main]]
+    name = "Partner integrations"
+    url  = "/partner-integrations/"
+    parent = "integrations"
+    identifier = "partner-integrations"
+    weight = 220
+
+[[menu.main]]
+    name = "Checkouts"
+    url  = "/checkouts/"
+    parent = "integrations"
+    identifier = "checkouts"
+    weight = 230
+
+[[menu.main]]
+    name = "Test your integration"
+    url  = "/integrations/testing/"
+    parent = "integrations"
+    identifier = "testing"
+    weight = 240
 
 [[menu.main]]
     name = "Payments"
     url  = "/payments/"
     identifier = "payments"
     pre = "fa fa-credit-card fa-lg"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
-    name = "Add payment methods"
-    url  = "/payments/methods/"
+    name = "Payment methods"
+    url  = "/payment-methods/"
     parent = "payments"
     identifier = "payment-methods"
-    weight = 210
+    weight = 310
 
 [[menu.main]]
-    name = "Build your integration"
-    url  = "/payments/integrations/"
+    name = "About payments"
+    url  = "/payments/about"
     parent = "payments"
-    weight = 220
-
-[[menu.main]]
-    name = "Choose your checkout"
-    url  = "/payments/checkout"
-    parent = "payments"
-    weight = 230
-
-[[menu.main]]
-    name = "Refunds and chargebacks"
-    url  = "/payments/refunds-and-chargebacks"
-    parent = "payments"
-    weight = 250
+    weight = 320
 
 [[menu.main]]
     name = "Payment features"
     url  = "/payments/features"
     parent = "payments"
-    weight = 240
+    weight = 330
 
 [[menu.main]]
-    name = "Business operations"
-    url  = "/business/"
-    pre = "fa fa-briefcase fa-lg"
-    weight = 30
+    name = "Refunds and chargebacks"
+    url  = "/refunds-chargebacks/"
+    parent = "payments"
+    weight = 340
+
+[[menu.main]]
+    name = "Accounting"
+    url  = "/accounting/"
+    pre = "fa fa-calculator fa-lg"
+    identifier = "accounting"
+    weight = 50
+
+[[menu.main]]
+    name = "Reports"
+    url  = "/accounting/reports/"
+    parent = "accounting"
+    identifier = "reports"
+    weight = 510
+
+[[menu.main]]
+    name = "Accounting integrations"
+    url  = "/accounting/integrations/"
+    parent = "accounting"
+    identifier = "accounting-integrations"
+    weight = 520
+
+[[menu.main]]
+    name = "Reconciliation through API"
+    url  = "/accounting/api-reconciliation/"
+    parent = "accounting"
+    identifier = "api-reconciliation"
+    weight = 530
 
 [[menu.main]]
     name = "Security and legal"
     url  = "/security-and-legal/"
     pre = "fa fa-lock fa-lg"
+    identifier = "security-and-legal"
     weight = 60
 
-    [[menu.main]]
+[[menu.main]]
+    name = "Payment regulations"
+    url  = "/payment-regulations/"
+    parent = "security-and-legal"
+    identifier = "payment-regulations"
+    weight = 610
+
+[[menu.main]]
+    name = "Risk and fraud"
+    url  = "/risk-fraud/"
+    parent = "security-and-legal"
+    identifier = "risk-fraud"
+    weight = 620
+
+[[menu.main]]
     name = "Developer tools"
     url  = "/developer/"
+    identifier = "developer"
     pre = "fa fa-cube fa-lg"
     weight = 70
+
+[[menu.main]]
+    name = "About our API"
+    url  = "/developer/api/"
+    parent = "developer"
+    identifier = "about-api"
+    weight = 710
+
+[[menu.main]]
+    name = "Wrappers and SDKs"
+    url  = "/developer/wrappers/"
+    parent = "developer"
+    identifier = "wrappers-sdks"
+    weight = 720
+
+[[menu.main]]
+    name = "Errors explained"
+    url  = "/developer/errors-explained/"
+    parent = "developer"
+    identifier = "errors-explained"
+    weight = 730
+
+[[menu.main]]
+    name = "Developer information"
+    url  = "/developer/general/"
+    parent = "developer"
+    identifier = "developer-information"
+    weight = 740
 
 [[menu.main]]
     name = "API Reference"

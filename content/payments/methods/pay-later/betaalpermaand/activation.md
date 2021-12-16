@@ -10,31 +10,21 @@ url: '/payment-methods/betaal-per-maand/activation/'
 aliases:
     - /payments/methods/billing-suite/betaalpermaand/activation/
 ---
+{{< blue-notice >}} If using a ready-made integration: 
 
-To activate Betaal per Maand for your MultiSafepay account, you need a Santander account.
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-## Eligibility criteria
+You must:
 
-To be eligible for Betaal per Maand, you must:
-
+- Have a [MultiSafepay account](/getting-started/)
 - Be registered with a Dutch Chamber of Commerce (no exceptions)
 - Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
 - Sell products or services to European citizens with a residential or delivery address in Netherlands (no exceptions)
-- Be able to connect to MultiSafepay via our API or [ecommerce integrations](/payments/integrations/ecommerce-platforms/)
+- Connect to MultiSafepay via our API or [ecommerce integrations](/payments/integrations/ecommerce-platforms/)
 
-## Applying for a Santander account
+1. Email an application to your account manager at <sales@multisafepay.com>
 
-**Note:** If you already have an active working relationship with Santander for any other product, you are considered a Santander client.
+2. We check your eligibility and connection with MultiSafepay. 
 
-| MultiSafepay account | Santander account | Step | Instructions |
-|---|---|---|---|
-| Yes   | No  | 1. | Email your application to your account manager at <sales@multisafepay.com> |
-|   |  | 2. | MultiSafepay checks your connection and your eligibility. |
-|   |  | 3. | MultiSafepay submits your application to Betaal per Maand. |
-| No  | No | 1. | [Create a MultiSafepay account](/getting-started/). |
-|   |  | 2. | MultiSafepay submits your application to Betaal per Maand during your [onboarding](/account/onboarding-golive/) process. |
-| No  | Yes | 1. | [Create a MultiSafepay account](/getting-started/) or email <sales@multisafepay.com> |
-
-## Activating Betaal per Maand
-
-To activate Betaal per Maand, email your account manager at <sales@multisafepay.com>
+3. Let us know if you already have a Santander account. If you don't, we'll submit an application for you. 

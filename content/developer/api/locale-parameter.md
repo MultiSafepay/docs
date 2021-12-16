@@ -8,30 +8,48 @@ aliases:
     - /faq/api/using-locale-parameters
     - /developer/api/using-locale-parameters/
 ---
-The `locale` parameter:
+The `locale` parameter is used to:
 
-- Localizes the payment page with the customer's language, region, and available payment methods
-- Sends [email templates](/features/email-templates/) in the customer's preferred language
-- Specifies any special preferences for the user interface.
+- Localize MultiSafepay payment pages for the customer's language, region, and available payment methods.
+- Set any special preferences for the user interface.
+- Send [email templates](/features/email-templates/) in the customer's preferred language.  
+    If an email template is set for a German customer, but the `locale` parameter is set to `en_US`, the English email template is sent instead of the German one.
+- Show local variants of specific payment methods, e.g. For Visa:
+    - Set to `fr_FR` to display [Cartes Bancaires](/payment-methods/cartes-bancaires).
+    - Set to `da_DK` to display [Dankort](/payment-methods/dankort).
+    - Set to `it_IT` to display [Postepay](/payment-methods/postepay). 
 
-**Note:** If an email template is set for a German customer, but the `locale` parameter is `en_US`, the English email template is sent instead of the German one.
 
-You can also use `locale` to show variants of specific payment methods, e.g.:
+### Default
 
-* [Cartes Bancaires](/payment-methods/cartes-bancaires) (fr_FR needed) 
-* [Dankort](/payments/methods/credit-and-debit-cards/dankort) (da_DK needed)
-* [Postepay](/payments/methods/credit-and-debit-cards/postepay) (it_IT needed)
+If `locale` is left empty or contains a unsupported value, the default is American English: `en_US`.
 
-## Format
+### Format
 
-Use the format ab_CD with:
+Use the format ab_CD where:
 
-- [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) 
-- [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html) 
+- ab = two letter [ISO 639 language code](https://www.iso.org/iso-639-language-codes.html)
+- CD = two letter [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html)
 
-## Default
+## Common values
 
-If `locale` parameters are left empty or contain a unsupported value, the default is American English `en_US`.
+The table below sets out the codes for commonly used country/language combinations. 
+
+| Country | Language | Locale value |
+|---|---|---|
+| Austria | German | de_AT |
+| Belgium | Dutch, French | nl_BE, fr_BE |
+| China | Chinese | zh_CN |
+| Denmark | Danish | da_DK |
+| Finland | Finnish | fi_FI |
+| France | French | fr_FR |
+| Germany | German | de_DE |
+| Italy | Italian | it_IT |
+| Netherlands | Dutch | nl_NL |
+| Poland | Polish | pl_PL |
+| Spain | Spanish | es_ES |
+| Sweden | Swedish | sv_SE | 
+
 
 
 

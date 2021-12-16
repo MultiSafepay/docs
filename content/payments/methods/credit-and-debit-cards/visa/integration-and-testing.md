@@ -1,37 +1,31 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Visa"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Visa - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Visa in your ecommerce platform"
+meta_title: "Integrating and testing Visa - MultiSafepay Docs"
+short_description: "Options for integrating Visa and making test payments"
 layout: 'child'
+url: '/payment-methods/visa/integration-testing/'
 aliases:
     - /payment-methods/credit-and-debit-cards/visa/visa-testing
     - /payment-methods/credit-and-debit-cards/mastercard/credit-card-payment-page
 ---
+## Integration
 
-There are two options for integrating Visa, depending on whether you want to accept multiple credit cards or Visa only. 
-
-#### Multiple credit cards
- 
-Customers are redirected to a MultiSafepay credit card payment page, where all credit cards are bundled together. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits.
-
-See API reference – [Credit cards](/api/#credit-cards).
-
-#### Visa only
-Customers are redirected straight to Visa. 
-
-See API reference – [Visa](/api/#visa).
+| | |
+|---|---|
+| **API** | See API reference – [Visa redirect](/api/#visa). {{< br >}} **Bundled credit cards** {{< br >}} You can also bundle multiple credit cards together on your MultiSafepay credit card payment page. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits. {{< br >}} See API reference – [Credit cards](/api/#credit-cards). |
+| **Ready-made integrations** | Visa (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/).   |
+| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ## Testing
 
-{{< details title="View credentials and testing process" >}}
-
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a VISA order**  
+### Test a VISA order
 
-1. Send a [redirect](/api/#visa) API request.
+1. Make a [redirect](/api/#visa) API request.
 2. On the payment page:
     - In the **Card number** field, enter `4111111111111111`.
     - In the **Card holder** field, enter any name.
@@ -54,13 +48,9 @@ Use the following card numbers to test different transaction statuses.
 | 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
----
-
 **Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
----
-
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -72,34 +62,26 @@ To test refunding an order:
 4. Click **Continue**.
 5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-8. Under **Related transactions**, select the **ID** of the refund order.
-9. Under **Order summary**, click **Accept**.
-10. In the **Add transaction comment** field, add a comment, and then click **Add**.
 6. Under **Related transactions**, select the **ID** of the refund order.
 7. Under **Order summary**, click **Accept**.
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
 1. Create an order using card number `4012001038443335`. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
----
 
-**Note:**
+**Notes:**
 
 - You can't test cancelling orders. 
 - In the live environment, you can't accept refund orders. These are done automatically.
 
 
-
-{{< /details >}}
-
-For the Visa logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

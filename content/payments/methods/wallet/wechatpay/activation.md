@@ -9,9 +9,11 @@ url: '/payment-methods/wechat-pay/activation/'
 aliases:
     - /payments/methods/wallet/wechatpay/activation/
 ---
+{{< blue-notice >}} If using a ready-made integration: 
 
-**1.** Before applying for WeChat Pay, check your eligibility with your account manager at <sales@multisafepay.com>
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-**2.** Email your application to activate WeChat Pay to your account manager at <sales@multisafepay.com>
+**1.** Email an application to activate WeChat Pay to your account manager at <sales@multisafepay.com>
 
-**3.** The Risk Team checks your eligibilty and if approved, activates WeChat Pay in your account.
+**2.** The Risk Team checks your eligibilty and if approved, activates WeChat Pay in your account.

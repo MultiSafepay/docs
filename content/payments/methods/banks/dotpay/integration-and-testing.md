@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing Dotpay"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "Dotpay - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Dotpay in your ecommerce platform"
+meta_title: "Integrating and testing Dotpay - MultiSafepay Docs"
+short_description: "Options for integrating Dotpay and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/Dotpay.svg'
 url: '/payment-methods/dotpay/integration-testing/'
@@ -11,18 +11,22 @@ aliases:
     - /payment-methods/dotpay/dotpay-testing
     - /payments/methods/banks/dotpay/integration-and-testing/
 ---
+## Integration
 
-To process Dotpay payments via our API, see API reference – [Dotpay](/api/#dotpay).
+| | |
+|---|---|
+| **API** | [Redirect](/api/#dotpay) |
+| **Ready-made integrations** | Dotpay is supported in all our [ready-made integrations](/integrations/ready-made/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the Dotpay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test a Dotpay order**
+### Test a Dotpay order
 
-1. To test a Dotpay order, send a [redirect](/api/#dotpay) API request.
+1. To test a Dotpay order, make a [redirect](/api/#dotpay) API request.
 2. On the Dotpay page, enter in the:
     - **E-mail address** field: Any email address
     - **Phone number** field: Any phone number
@@ -32,13 +36,23 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
----
-
 **Note:** You may see more banks available in the live environment.
 
----
+### Test cancelling an order
 
-**Test refunding an order**
+To test cancelling an order:
+
+1. Make a [redirect](/api/#dotpay) API request.
+2. On the Dotpay page, enter in the:
+    - **E-mail address** field: Any email address
+    - **Phone number** field: Any phone number
+3. Select a bank.  
+  You are automatically redirected.
+4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
+5. Click **Test**.  
+  The order status changes to **Void**.
+
+### Test refunding an order
 
 To test refunding an order:
 
@@ -57,13 +71,7 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
+**Notes:** 
 
-**Note:** 
-
-- You can't test:
-  - Cancelling orders
-  - Refunding via the API
+- You can't test refunding via the API.
 - In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}

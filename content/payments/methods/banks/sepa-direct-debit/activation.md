@@ -14,8 +14,13 @@ aliases:
     - /payments/methods/banks/sepa-direct-debit/activation/
 ---
 
-Email applications to use SEPA Direct Debit to your account manager at <sales@multisafepay.com>
+{{< blue-notice >}} If using a ready-made integration: 
 
-The Risk Team then checks your eligibility. 
+- First check that the payment method is supported. 
+- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
+
+{{< activate_payment_method name="SEPA Direct Debit" >}}
+
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
 
 

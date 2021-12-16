@@ -22,26 +22,29 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Edenred at checkout
-    Mu->>C: Connects to Edenred (redirect only)
+    Mu->>C: Connects to Edenred (redirect)
     C->>E: Authenticates account, authorizes MultiSafepay access
     E->>Mu: Confirms authorization and sufficient funds on voucher
     E->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. | [API reference](/api/#edenred) |
-
+**Redirect flow:** The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The transaction is complete. | Completed | Completed |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+

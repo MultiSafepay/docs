@@ -22,8 +22,9 @@ sequenceDiagram
     participant Mu as MultiSafepay
     participant Me as Merchant
 
-    C->>Mu: Selects Bank Transfer at checkout
-    Mu->>C: Provides the payment details (direct/redirect)
+    C->>Mu: Selects Bank Transfer at checkout (direct/redirect)
+    Mu->>C: Emails MultiSafepay's bank account details
+    Note over Mu,C: Or email the details yourself
     C->>Mu: Transfers funds (online or with teller)
     Note over C,Mu: Takes 1–3 business days 
     Mu->>Me: Matches payment and settles funds
@@ -33,8 +34,8 @@ sequenceDiagram
 
 |  |  |  |
 |---|---|---|
-| **Direct flow** | The customer is redirected to your success page. | [API reference](/api/#bank-transfer---direct)  |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/). {{< br >}} They enter their bank account number and bank country, and then click **Confirm** (creates the transaction in our system). {{< br >}} | [API reference](/api/#bank-transfer---redirect) |
+| **Direct flow** | The customer is redirected straight to your success page and receives our bank details by email. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), where they confirm their bank account number and (optionally) bank country. {{< br >}} MultiSafepay's bank account details are then displayed. | 
 
 ## 1. Email payment details
 
@@ -74,13 +75,21 @@ See [Resolving unmatched payments](/bank-transfer/unmatched-payments/).
 
 ## Payment statuses
 
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete. | Completed | Completed |
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete  payment within 60 days and the transaction expired. | Expired | Expired |
 
 ## Refund statuses

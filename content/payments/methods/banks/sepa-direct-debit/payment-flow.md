@@ -29,7 +29,7 @@ sequenceDiagram
     participant CB as Customer's bank
     
     C->>Me: Selects SEPA Direct Debit <br> at checkout
-    Me->>Mu: Sends request and <br> customer information
+    Me->>Mu: Sends request and <br> customer information (direct/redirect)
     Mu->>CB: Conducts background check <br> and sends e-mandate
     CB->>Mu: Processes transaction and transfers funds 
     Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> See reason codes for declined transactions below.
@@ -37,11 +37,10 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
 |  |  |  |
 |---|---|---|
-| **Direct flow** | A request with the customer's information is sent straight to MultiSafepay. | [API reference](/api/#sepa-direct-debit---direct) |
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name. {{< br >}} A request with the customer's information is sent to MultiSafepay. {{< br >}} The customer is redirected to your success page. | [API reference](/api/#sepa-direct-debit---redirect) |
+| **Direct flow** | A request with the customer's information is sent straight to MultiSafepay. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name. {{< br >}} A request with the customer's information is sent to MultiSafepay. {{< br >}} The customer is redirected to your success page. | 
 
 ### E-mandates
 
@@ -54,9 +53,15 @@ We send all e-mandates to our bank at the end of every business day.
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+{{< details title= "About order and transaction statuses" >}}
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+
+{{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -64,10 +69,18 @@ We send all e-mandates to our bank at the end of every business day.
 | MultiSafepay has sent an e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
 | The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
 | The transaction is complete.| Completed | Completed |
-| The transaction has been cancelled. {{< br >}} The customer's information may have been incorrect. | Cancelled   | Cancelled   |
-| The transaction was declined. {{< br >}} See the reason codes below. | Declined | Declined   |
+| The customer has requested a chargeback. | Void | Void |
+| The transaction was cancelled. {{< br >}} The customer's information may have been incorrect. | Cancelled   | Cancelled   |
+| The transaction was declined. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/payment-flow/#reason-codes-for-declined-transactions) below. | Declined | Declined   |
 
-{{< details title="Reason codes for declined transactions">}}
+## Refund statuses
+
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Reserved | Reserved |
+| The refund is complete. | Completed | Completed | 
+
+## Reason codes for declined transactions
 
 The table below sets out the reason codes for why SEPA Direct Debit transactions might be unsuccessful and suggested actions to take.
 
@@ -110,16 +123,6 @@ For more information in:
 - English, see European Payments Council – [Guidance on reason codes](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf). 
 - Dutch, see Betaal Vereniging – [Reasoncodes en vervolgacties](https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf).
 
-{{< /details >}}
 
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-| The customer has requested a chargeback. | Chargeback  | Completed | 
-
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
 

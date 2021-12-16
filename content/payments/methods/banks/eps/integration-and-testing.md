@@ -1,9 +1,9 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing EPS"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "EPS - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing EPS in your ecommerce platform"
+meta_title: "Integrating and testing EPS - MultiSafepay Docs"
+short_description: "Options for integrating EPS and making test payments"
 layout: 'child'
 logo: '/logo/Payment_methods/eps.svg'
 url: '/payment-methods/eps/integration-testing/'
@@ -11,36 +11,40 @@ aliases:
     - /payment-methods/eps/eps-testing
     - /payments/methods/banks/eps/integration-and-testing/
 ---
+## Integration
 
-To process EPS payments via our API, see API reference – [EPS](/api/#eps).
+| | |
+|---|---|
+| **API** | [Redirect](/api/#eps) |
+| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-For the EPS logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< details title="View credentials and testing process" >}}
+## Testing
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test an EPS order**
+### Test an EPS order
 
-1. To test an EPS order, send a [redirect](/api/#eps) API request.
+1. To test an EPS order, make a [redirect](/api/#eps) API request with the `locale` set to `at_AT`.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test cancelling an order**
+### Test cancelling an order
 
 To test cancelling an order:
 
-1. Send a [redirect](/api/#eps) API request.
+1. Make a [redirect](/api/#eps) API request with the `locale` set to `at_AT`.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select **Cancelled**. 
 5. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -59,22 +63,17 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
+**Note:** In the live environment, you can't accept refund orders. These are done automatically.
 
-**Note:** In the live environment:
-- You can't accept refund orders. These are done automatically.
-- EPS only appears if you set `customer.locale` for Austria `at_AT` in your API request.
-
-{{< /details >}}

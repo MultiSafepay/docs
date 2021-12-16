@@ -34,7 +34,7 @@ meta_title: "API reference - 3D enabled requests - MultiSafepay Docs"
 ```
 
 > JSON response     
-> When [3D Secure](/getting-started/glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
+> When [3D Secure](/glossaries/multisafepay-glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
 
 ```json
 "customer_verification": {
@@ -77,7 +77,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `description` | string | required

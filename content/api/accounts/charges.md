@@ -68,7 +68,10 @@ The account ID of the affiliated account you want to charge.
 ----------------
 `amount` | integer | required
 
-The amount to charge in cents. 
+The amount to charge in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `currency` | string | required

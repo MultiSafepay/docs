@@ -1,62 +1,49 @@
 ---
-title: "Integration and testing"
+title: "Integrating and testing iDEAL"
 breadcrumb_title: 'Integration and testing'
 weight: 40
-meta_title: "iDEAL - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing iDEAL in your ecommerce platform"
+meta_title: "Integrating and testing iDEAL - MultiSafepay Docs"
+short_description: "Options for integrating iDEAL and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/iDEAL.svg'
-url: '/payment-methods/ideal/integration-testing/'
+url: '/payment-methods/ideal/testing/'
 aliases:
     - /payment-methods/ideal/ideal-testing
     - /payments/methods/banks/ideal/integration-and-testing/
     - /payments/methods/banks/idealqr/integration-and-testing/
 ---
+## Integration
 
-To process payments via our API, see API reference:
-
-- [iDEAL](/api/#ideal)
-- [iDEAL QR](/api/#ideal-qr)
-
-## iDEAL QR
-
-MultiSafepay supports seamless integration for iDEAL QR. You can:
-
-- Retrieve and process the PNG image for the QR code in your system to display it to the customer.  
-
-- Redirect the customer to a [MultiSafepay payment page](/payment-pages/) where the iDEAL QR code is displayed under **Payment methods**.
-
-- Generate a generic link that can be used multiple times. 
-
-- Print a QR code, e.g. on leaflets or menus. 
-
-You can enable an option to allow the customer change the amount.
-
-Only 4 Dutch banks support iDEAL QR in their own banking app: Knab, Rabobank, ING, and ABN AMRO. Customers of other banks must use the iDEAL app.
+| | |
+|---|---|
+| **API** | [iDEAL direct](/api/#ideal---direct), [iDEAL redirect](/api/#ideal---redirect), [iDEAL QR](/api/#ideal-qr) (redirect only) |
+| **Ready-made integrations** | iDEAL is supported in all our [ready-made integrations](/integrations/ready-made/), **except** ZenCart. {{< br >}} iDEAL QR (redirect) is supported in: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [CS-Cart](/cs-cart/) {{< br >}} [Drupal 8](/drupal-8-9/) {{< br >}} [Magento 1](/magento-1/), [Magento 2](/magento-2/) {{< br >}} [Odoo](/odoo/) {{< br >}} [OpenCart](/opencart/) {{< br >}} [PrestaShop 1.7](/prestashop-1-7/) {{< br >}} [Shopware 5](/shopware-5/)  {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [WooCommerce](/woo-commerce/)  {{< br >}} [X-Cart](/x-cart/) |
+| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ## Testing
 
-{{< details title="View credentials and testing process" >}}
+You can't test iDEAL QR in your test MultiSafepay account. You can only make test payments in your live MultiSafepay account.
 
 Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
-**Test an iDEAL order**
+### Test an iDEAL order
 
-1. To test an iDEAL order, send a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
-2. If you send a redirect API request, select a bank.
+1. To test an iDEAL order, make a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
+2. If you make a redirect API request, select a bank.
 3. On the Test platform page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test cancelling an order**
+### Test cancelling an order
 
 To test cancelling an order:
 
-1. Send a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
-2. If you send a redirect API request, select a bank. 
+1. Make a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
+2. If you make a redirect API request, select a bank. 
 3. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 4. Click **Test**.  
-  The transaction status changes to **Void**.
+  The order status changes to **Void**.
 
 Use the following test scenarios on the Test platform page to test different transaction statuses.
 
@@ -66,7 +53,7 @@ Use the following test scenarios on the Test platform page to test different tra
 | **Open** **Completed** | Transaction is initialized. After 1 minute, this changes to **Completed**. |
 | **Open** **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
 
-**Test refunding an order**
+### Test refunding an order
 
 To test refunding an order:
 
@@ -85,26 +72,16 @@ To test refunding an order:
 8. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
-**Test an API refund**
+### Test an API refund
 
 To test refunding an order via the API:
 
 1. Create an order. 
-2. Send a [refund](/api/#refund-an-order) API request.
+2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
 3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
 
----
-
 **Note:** In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
-You can't test iDEAL QR in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
-
-## Logos
-
-For the iDEAL and iDEAL QR logos, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).

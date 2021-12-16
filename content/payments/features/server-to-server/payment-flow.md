@@ -39,16 +39,17 @@ sequenceDiagram
 
 ## Payment statuses
 
-**Order status**: Changes as the customer's order with you progresses towards shipment (independent of payment)
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status**: Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
-| The transaction has been cancelled. | Void   | Cancelled   |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer has requested a chargeback. | Void | Void |
 | The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
 | The customer's bank has declined the transaction (see possible reasons below). | Declined | Declined   |
 
@@ -76,8 +77,7 @@ For any questions, email the Support Team at <support@multisafepay.com>
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
-| The customer requested a [chargeback](/payments/chargebacks/). | Chargeback | Completed   |
+| The refund/chargeback is complete.  | Completed      | Completed   |
 
 For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
 
