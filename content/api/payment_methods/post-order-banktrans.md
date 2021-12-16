@@ -211,6 +211,13 @@ See [customer (object)](/api/#customer-object).
 - If the `email` parameter is not provided, MultiSafepay cannot send the payment details to the customer.
 - The `country` parameter provides the customer a local bank account to pay to, where available.  
 
+Contains:  
+`disable_send_email`	| boolean | optional
+
+If emailing payment instructions to the customer yourself, set to `true`.  
+For MultiSafepay to email payment instructions, set to `false`.  
+Default: `false`.
+
 **Response**
 
 ----------------
@@ -283,8 +290,6 @@ If emailing payment instructions to the customer yourself, set to `true`.
 For MultiSafepay to email payment instructions, set to `false`.  
 Options: `true`, `false`.  
 Default: `false`.
-
-**Note:** In the JSON response, it is important to send payment instructions to the customer yourself. Note that all parameters can be different for every single transaction. Do not store this information except for a specific transaction.
 
 **Response** 
 
