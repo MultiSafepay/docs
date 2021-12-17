@@ -40,8 +40,9 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 ### Payment link created
 
 1. Click the link to open the payment page. 
-2. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
-3. Click **Confirm** to create the transaction in our system.
+2. Click **Bank Transfer**.
+3. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
+4. Click **Confirm** to create the transaction in our system.
 
 ### Payment link not created
 
