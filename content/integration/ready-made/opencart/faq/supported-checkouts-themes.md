@@ -33,7 +33,7 @@ The following patches for third-party themes and extensions are available:
             </td>
         </tr>
         <tr>
-            <td style="padding-bottom: 1rem;"><a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=15580" target="_blank">AJAX Quick Checkout 7.3.1 (free version) for OpenCart 3.0.X</a></td>
+            <td style="padding-bottom: 1rem;"><a href="https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout" target="_blank">AJAX Quick Checkout for OpenCart 3.0.X</a></td>
             <td style="padding-bottom: 1rem;">
                 <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-3.0.X.ocmod.zip" target="_blank" download>
                     Download OCMOD
@@ -41,7 +41,7 @@ The following patches for third-party themes and extensions are available:
             </td>
         </tr>
         <tr>
-            <td style="padding-bottom: 1rem;"><a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=15580" target="_blank">AJAX Quick Checkout 7.3.1 (free version) for OpenCart 2.3.X</a></td>
+            <td style="padding-bottom: 1rem;"><a href="https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout" target="_blank">AJAX Quick Checkout for OpenCart 2.3.X</a></td>
             <td style="padding-bottom: 1rem;">
                 <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-2.3.X.ocmod.zip" target="_blank" download>
                     Download OCMOD
