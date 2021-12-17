@@ -42,9 +42,10 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 
 ### Zahlungslink wurde generiert
 
-1.	Klicken Sie auf den Link, um die Zahlungsseite zu öffnen. 
-2.	Falls der Kunde/die Kundin das Feld **Kontonummer** nicht ausgefüllt hat, füllen Sie es aus (soweit bekannt), um uns dabei zu helfen, die Transaktion zuzuordnen. 
-3.	Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
+1. Klicken Sie auf den Link, um die Zahlungsseite zu öffnen. 
+2. Klicken Sie auf **Banküberweisung**.
+3. Falls der Kunde/die Kundin das Feld **Kontonummer** nicht ausgefüllt hat, füllen Sie es aus (soweit bekannt), um uns dabei zu helfen, die Transaktion zuzuordnen. 
+4. Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
 ### Zahlungslink wurde nicht generiert
 

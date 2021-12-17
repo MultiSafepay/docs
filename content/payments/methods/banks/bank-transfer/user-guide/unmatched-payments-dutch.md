@@ -41,8 +41,9 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 ### Er bestaat al een betaallink
 
 1. Klik op de link om de betaalpagina te openen. 
-2. Als de klant het veld **Bankrekeningnummer** niet heeft ingevuld, vul dan het bankrekeningnummer van de klant in (indien bij u bekend).
-3. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
+2. Klik op **Bankoverschrijving**.
+3. Als de klant het veld **Bankrekeningnummer** niet heeft ingevuld, vul dan het bankrekeningnummer van de klant in (indien bij u bekend).
+4. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
 
 ### Er bestaat nog geen betaallink
 
