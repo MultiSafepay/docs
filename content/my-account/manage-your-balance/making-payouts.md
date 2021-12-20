@@ -90,7 +90,7 @@ To make manual payouts, follow these steps:
 ## Payout currency
 The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
 
-You can make [payouts](/account/payouts/) in: 
+You can make payouts in: 
 
 - AUD (Australian dollar)
 - CAD (Canadian dollar)
