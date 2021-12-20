@@ -22,9 +22,6 @@ The requests above can be divided into the following steps:
 1. **Add UBOs**: Use the first four requests to add, retrieve and update UBOs linked to a merchant account.
 2. **Add identity documents**: Use the last three requests to add and retrieve identity documents of UBOs linked to a merchant account. These documents are used to perform our UBO verification.
 
-### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To perform our UBO verification, we may need _optional_ parameters to be supplied.
-
 ## Authentication
 All seven UBO requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your Partner Manager.
 
@@ -34,16 +31,21 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ## Create a UBO
 
-`POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/ubos` 
+`POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/ubos?api_key={your-account-api-key}` 
 
 Add a new UBO to a merchant account.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`|Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
 ### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
 |Key|Description|
 |---|---|
 |name {{< br >}}`string`|UBO's full name.{{< br >}}**Format**: max 200 characters. Required.|
@@ -64,9 +66,16 @@ Add a new UBO to a merchant account.
 |percentage {{< br >}}`integer`|UBO's percentage of equity.{{< br >}}**Format**: non-fractional number from `25` to `100`. Required.|
 |type {{< br >}}`string`|UBO's type of equity.{{< br >}}**Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Required.|
 
+### Response body
+In addition to the request body parameters.
+
+|Key|Description|
+|-----|------|
+| id{{< br >}}`string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?api_key={your-account-api-key}" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/ubos?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --data-raw '{
@@ -77,16 +86,16 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?ap
   "city": "Funtown",
   "state": "Noord-Holland",
   "country": "NL",
-  "zipcode": "1234 ZP"
+  "zipcode": "1234 ZP",
   "birthday": "1980-01-31",
-  "country_of_birth": "the Netherlands",
+  "country_of_birth": "NL",
   "email": "email@address.com",
   "mobile_phone": "0123456789",
   "office_phone": "0123456789",
   "fax": "0123456789",
   "job_title": "CEO",
   "percentage": 100,
-  "type": "control_rights",
+  "type": "control_rights"
 }'
 ```
 {{< /collapse >}}
@@ -95,7 +104,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?ap
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "address": "Mainstreet 123",
     "address_apartment": "",
     "birthday": "1980-01-31",
@@ -118,25 +127,51 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?ap
   "success": true
 }
 ```
-`id` → the unique identifier of the UBO
 {{< /collapse >}}
 
 ---
 
 ## List UBOs
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/ubos`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/ubos`
 
 Retrieve an array of all UBOs linked to a merchant account.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`|Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.|
+
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|---|---|
+|name {{< br >}}`string`|UBO's full name.{{< br >}}**Format**: max 200 characters.|
+|title {{< br >}}`string`|UBO's title.{{< br >}}**Options**: `mr` or `mrs`.|
+|address {{< br >}}`string`|UBO's address. {{< br >}}**Format**: max 100 characters.|
+|address_apartment {{< br >}}`string`|UBO's apartment number. {{< br >}}**Format**: max 15 characters.|
+|city {{< br >}}`string`|UBO's city of residence.{{< br >}}**Format**: max 100 characters.|
+|state {{< br >}}`string`|UBO's province or state of residence. {{< br >}}**Format**: max 100 characters.|
+|country {{< br >}}`string`|UBO's country of residence.{{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
+|zipcode {{< br >}}`string`|UBO's zip code.{{< br >}}**Format**: max 20 characters.|
+|birthday {{< br >}}`string`|UBO's date of birth. {{< br >}}**Format**: yyyy-mm-dd (e.g., `1980-01-31`).|
+|country_of_birth {{< br >}}`string`|UBO's country of birth.{{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
+|email {{< br >}}`string`|UBO's email address.{{< br >}}**Format**: max 100 characters.|
+|mobile_phone {{< br >}}`string`|UBO's mobile phone number.{{< br >}}**Format**: max 25 characters.|
+|office_phone {{< br >}}`string`|UBO's office phone number.{{< br >}}**Format**: max 25 characters.|
+|fax {{< br >}}`string`|UBO's fax number.{{< br >}}**Format**: max 15 characters.|
+| id{{< br >}}`string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
+|job_title {{< br >}}`string`|UBO's job title.{{< br >}}**Format**: max 100 characters.|
+|percentage {{< br >}}`integer`|UBO's percentage of equity.{{< br >}}**Format**: non-fractional number from `25` to `100`.|
+|type {{< br >}}`string`|UBO's type of equity.{{< br >}}**Options**: `control_rights`, `shareholder`, `voting_rights` or `other`.|
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/ubos?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -146,7 +181,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?api
 {
   "data": [
     {
-      "account_id": 12345678,
+      "account_id": {affiliate_account_id},
       "address": "Mainstreet 123",
       "address_apartment": "",
       "birthday": "1980-01-31",
@@ -173,14 +208,13 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos?api
   "success": true
 }
 ```
-`id` → the unique identifier of the UBO
 {{< /collapse >}}
 
 ---
 
 ## Get a UBO
 
-`GET` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={your-account-api-key}`
 
 Retrieve a single UBO by its identifier.
 
@@ -189,9 +223,43 @@ Retrieve a single UBO by its identifier.
 |---|---|
 |ubo_id{{< br >}} `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
 
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|---|---|
+|name {{< br >}}`string`|UBO's full name.{{< br >}}**Format**: max 200 characters.|
+|title {{< br >}}`string`|UBO's title.{{< br >}}**Options**: `mr` or `mrs`.|
+|address {{< br >}}`string`|UBO's address. {{< br >}}**Format**: max 100 characters.|
+|address_apartment {{< br >}}`string`|UBO's apartment number. {{< br >}}**Format**: max 15 characters.|
+|city {{< br >}}`string`|UBO's city of residence.{{< br >}}**Format**: max 100 characters.|
+|state {{< br >}}`string`|UBO's province or state of residence. {{< br >}}**Format**: max 100 characters.|
+|country {{< br >}}`string`|UBO's country of residence.{{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
+|zipcode {{< br >}}`string`|UBO's zip code.{{< br >}}**Format**: max 20 characters.|
+|birthday {{< br >}}`string`|UBO's date of birth. {{< br >}}**Format**: yyyy-mm-dd (e.g., `1980-01-31`).|
+|country_of_birth {{< br >}}`string`|UBO's country of birth.{{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
+|email {{< br >}}`string`|UBO's email address.{{< br >}}**Format**: max 100 characters.|
+|mobile_phone {{< br >}}`string`|UBO's mobile phone number.{{< br >}}**Format**: max 25 characters.|
+|office_phone {{< br >}}`string`|UBO's office phone number.{{< br >}}**Format**: max 25 characters.|
+|fax {{< br >}}`string`|UBO's fax number.{{< br >}}**Format**: max 15 characters.|
+| id{{< br >}}`string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
+|job_title {{< br >}}`string`|UBO's job title.{{< br >}}**Format**: max 100 characters.|
+|percentage {{< br >}}`integer`|UBO's percentage of equity.{{< br >}}**Format**: non-fractional number from `25` to `100`.|
+|type {{< br >}}`string`|UBO's type of equity.{{< br >}}**Options**: `control_rights`, `shareholder`, `voting_rights` or `other`.|
+
+### Response body
+In addition to the request body parameters.
+
+|Key|Description|
+|-----|------|
+| id{{< br >}}`string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -200,7 +268,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m?api_key
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "address": "Mainstreet 123",
     "address_apartment": "",
     "birthday": "1980-01-31",
@@ -209,7 +277,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m?api_key
     "country_of_birth": "NL",
     "email": "email@address.com",
     "fax": "0123456789",
-    "id": "glmqo15bces6n",
+    "id": "{ubo_id}",
     "job_title": "CEO",
     "mobile_phone": "0123456789",
     "name": "Firstname Lastname",
@@ -223,23 +291,27 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m?api_key
   "success": true
 }
 ```
-`id` → the unique identifier of the UBO
 {{< /collapse >}}
 
 ---
 
 ## Update a UBO
 
-`PATCH` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}`
+`PATCH` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={your-account-api-key}`
 
 Update information about an existing UBO.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|ubo_id{{< br >}} `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
 
 ### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
 |Key|Description|
 |---|---|
 |name {{< br >}}`string`|UBO's full name.{{< br >}}**Format**: max 200 characters. Optional.|
@@ -260,6 +332,13 @@ Update information about an existing UBO.
 |percentage {{< br >}}`integer`|UBO's percentage of equity.{{< br >}}**Format**: non-fractional number from `25` to `100`. Optional.|
 |type {{< br >}}`string`|UBO's type of equity.{{< br >}}**Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Optional.|
 
+### Response body
+In addition to the request body parameters.
+
+|Key|Description|
+|-----|------|
+| id{{< br >}}`string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_key={your-account-api-key}" \
@@ -275,7 +354,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_k
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "address": "Mainstreet 123",
     "address_apartment": "",
     "birthday": "1980-01-31",
@@ -284,7 +363,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_k
     "country_of_birth": "NL",
     "email": "newemail@address.com",
     "fax": "0123456789",
-    "id": "glmqo15bces6n",
+    "id": "{ubo_id}",
     "job_title": "CEO",
     "mobile_phone": "0123456789",
     "name": "Firstname Lastname",
@@ -304,16 +383,21 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_k
 
 ## Add identity document
 
-`POST` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs`
+`POST` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs?api_key={your-account-api-key}`
 
 Upload an identity document used to verify the UBO.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|ubo_id{{< br >}} `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
 
 ### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
 |Key|Description|
 |---|---|
 |document_type{{< br >}}`string`|The type of identity document. {{< br >}}**Options**: `id`, `passport`, `driverslicense`, `proof_of_address`|
@@ -321,10 +405,18 @@ Upload an identity document used to verify the UBO.
 |filename{{< br >}}`string`|Name of the identity document file. {{< br >}}**Format**: max 250 characters. Required. |
 |mime_type{{< br >}} `string`|Media type of the identity document file.{{< br >}}**Options**: `application/pdf`,`image/jpeg`|
 
+### Response body
+In addition to the request body parameters.
+
+|Key|Description|
+|-----|------|
+| id{{< br >}}`string` | The unique identifier of the identity document. Referred to as `identitydoc_id`. |
+| ubo_id  `string`| The unique identifier of a UBO.|
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
 
-curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs?api_key={your-account-api-key}" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --data-raw '{
@@ -344,36 +436,49 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identi
     "document_type": "id",
     "filename": "identity-of-ubo.pdf",
     "id": "agi6ehoreex6a",
-    "merchant_id": 12345678,
+    "merchant_id": {affiliate_account_id},
     "mime_type": "application/pdf",
-    "ubo_id": "glmqo15bces6n"
+    "ubo_id": "{ubo_id}"
   },
   "success": true
 }
 ```
-`id` → the unique identifier of the identity document
 {{< /collapse >}}
 
 ---
 
 ## List identity documents
 
-`GET` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs`
+`GET` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs?api_key={your-account-api-key}`
 
 Retrieve an array of all identity documents linked to a UBO.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|ubo_id{{< br >}} `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|-----|------|
+| document_type{{< br >}}`string`|The type of identity document. {{< br >}}**Options**: `id`, `passport`, `driverslicense`, `proof_of_address`|
+| filename{{< br >}}`string`|Name of the identity document file. {{< br >}}**Format**: max 250 characters.|
+| id{{< br >}}`string` | The unique identifier of the identity document. Referred to as `identitydoc_id`. |
+| merchant_id{{< br >}}`string` | Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`).
+|mime_type{{< br >}} `string`|Media type of the identity document file.{{< br >}}**Options**: `application/pdf`,`image/jpeg`|
+| ubo_id{{< br >}}`string`| The unique identifier of a UBO.|
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
-
 
 {{< collapse title="Sample response" size="h3" >}}
 ```
@@ -383,9 +488,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identit
       "document_type": "identity",
       "filename": "identity-of-ubo.pdf",
       "id": "agi6ehoreex6a",
-      "merchant_id": 12345678,
+      "merchant_id": {affiliate_account_id},
       "mime_type": "application/pdf",
-      "ubo_id": "glmqo15bces6n"
+      "ubo_id": "{ubo_id}"
     }
   ],
   "page": {
@@ -394,14 +499,13 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identit
   "success": true
 }
 ```
-`id` → the unique identifier of the identity document
 {{< /collapse >}}
 
 ---
 
 ## Get identity document
 
-`GET` `https://testapi.multisafepay.com/v1/json/identitydocs/{identitydoc_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/identitydocs/{identitydoc_id}?api_key={your-account-api-key}`
 
 Description.
 
@@ -410,9 +514,24 @@ Description.
 |---|---|
 |identitydoc_id{{< br >}}`string`|The unique identifier of the identity document.{{< br >}}**Tip**: The identitydoc_id is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) request. |
 
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|-----|------|
+| document_type{{< br >}}`string`|The type of identity document. {{< br >}}**Options**: `id`, `passport`, `driverslicense`, `proof_of_address`|
+| filename{{< br >}}`string`|Name of the identity document file. {{< br >}}**Format**: max 250 characters.|
+| id{{< br >}}`string` | The unique identifier of the identity document. Referred to as `identitydoc_id`. |
+| merchant_id{{< br >}}`string` | Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`).
+|mime_type{{< br >}} `string`|Media type of the identity document file.{{< br >}}**Options**: `application/pdf`,`image/jpeg`|
+| ubo_id{{< br >}}`string`| The unique identifier of a UBO.|
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/agi6ehoreex6a?api_key={your-account-api-key}
+curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/{identitydoc_id}?api_key={your-account-api-key}
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -424,10 +543,10 @@ curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/agi6ehoreex6a?
   "data": {
     "document_type": "identity",
     "filename": "identity-of-ubo.pdf",
-    "id": "agi6ehoreex6a",
-    "merchant_id": 11979097,
+    "id": "{identitydoc_id}",
+    "merchant_id": {affiliate_merchant_id},
     "mime_type": "application/pdf",
-    "ubo_id": "glmqo15bces6n"
+    "ubo_id": "{ubo_id}"
   },
   "success": true
 }
@@ -437,7 +556,7 @@ curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/agi6ehoreex6a?
 ---
 
 ## Next steps
-Now that you have created a Merchant account and added one or multiple bank account and UBOs, complete the onboarding by adding one or multiple websites using the unique Merchant account `id` .
+Now that you have created a Merchant account and added one or multiple bank account and UBOs, complete the onboarding by adding one or multiple websites using the unique affiliate merchant `id` .
 
 {{< two-buttons
 

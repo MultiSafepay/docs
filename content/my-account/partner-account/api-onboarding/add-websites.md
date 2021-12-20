@@ -13,9 +13,6 @@ Use the following requests to add, retrieve or update websites linked to a merch
 3. [Get website](#get-a-website): Retrieve a single website by its identifier.
 4. [Update website](#update-a-website): Update a website.
 
-### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website [API key](/set-up-your-account/site-id-api-key-secure-code), expected minimum and maximum order values need to be supplied. Furthermore, the [notification URL](/developer/api/notification-url/) is required to receive [transaction status](/about-payments/multisafepay-statuses/) updates. However, this information may also be provided at a later time. 
-
 ## Authentication
 All four website requests require a partner account API key. For more information, email your partner manager.
 
@@ -25,29 +22,43 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ## Add a website
 
-`POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/sites`
+`POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites`
 
 Add a website to an affiliated merchant account.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|account_id{{< br >}}`string`|account ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.|
 
 ### Query parameters
 |Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
+|Key|Description|
 |---|---|
 |name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Required. |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Required.. |
+|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Required. |
 |notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
 |price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
 |support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). Optional. |
 
+### Response body
+In addition to the request body parameters.
+
+|Key|Description|
+|---|---|
+| account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g. `12345678`).|
+| api_key{{< br >}}`string`| The API key for the website.{{< br >}}**Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id {{< br >}}`integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites?api_key={your-account-api-key}" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}" \
 --header "accept: application/json" 
 --header "Content-Type: application/json" \
 --data-raw '{
@@ -67,7 +78,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites?a
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
     "id": 12345,
     "name": "Funcompany",
@@ -81,27 +92,24 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites?a
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
 {{< /collapse >}}
 
 ---
 
 ## List websites
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/sites`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}`
 
 Retrieve an array of all websites linked to a merchant account.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -112,7 +120,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites?ap
 {
   "data": [
     {
-      "account_id": 12345678,
+      "account_id": {affiliate_account_id},
       "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
       "id": 12345,
       "name": "Funcompany",
@@ -139,7 +147,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites?ap
 
 ## Get website
 
-`GET` `https://testapi.multisafepay.com/v1/json/sites/{site_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}`
 
 Retrieve a single website by its identifier.
 
@@ -150,7 +158,7 @@ Retrieve a single website by its identifier.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/{site_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -160,9 +168,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345?api_k
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
-    "id": 12345,
+    "id": {site_id},
     "name": "Funcompany",
     "notification_url": "https://funcompany.com/transactionhook",
     "price_from": 50,
@@ -183,14 +191,14 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345?api_k
 
 ## Update website
 
-`PATCH` `https://testapi.multisafepay.com/v1/json/sites/{site_id}`
+`PATCH` `https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}`
 
 Update information about an existing website.
 
 ### Path parameters
 |Key|Description|
 |---|---|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
 
 ### Query parameters
 |Key|Description|
@@ -205,7 +213,7 @@ Update information about an existing website.
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345?api_key={your-account-api-key}" \
+curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --data-raw '{
@@ -219,9 +227,9 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345?api_key={you
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
-    "id": 12345,
+    "id": {site_id},
     "name": "Funcompany",
     "notification_url": "https://funcompany.com/newhook",
     "price_from": 50,

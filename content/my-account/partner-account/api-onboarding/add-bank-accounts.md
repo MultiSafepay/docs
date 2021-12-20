@@ -18,7 +18,6 @@ Use seven requests to perform actions on bank account details of merchant accoun
 
 
 ### The process
-
 The requests above can be split into two steps:
 
 1. **Add bank accounts**: Use the first three requests to add and retrieve bank accounts linked to a merchant account. 
@@ -43,13 +42,25 @@ Add a new bank account to a merchant account.
 ### Query parameters
 |Key|Description|
 |-----|------|
-|iban{{< br >}}`string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account.{{< br >}}**Format**: alphanumeric string of up to 34 characters. Required |
-|holder_name{{< br >}}`string`|Full name of the bank account holder. This can be a natural person, company or other legal entity. {{< br >}}**Format**: max 40 characters. Required.|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
+|Key|Description|
+|-----|------|
 |currency{{< br >}}`string`|The currency of the bank account.{{< br >}}**Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `EUR`). Required.|
+|holder_name{{< br >}}`string`|Full name of the bank account holder. This can be a natural person, company or other legal entity. {{< br >}}**Format**: max 40 characters. Required.|
+|iban{{< br >}}`string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account.{{< br >}}**Format**: alphanumeric string of up to 34 characters. Required |
+
+### Response body
+In addition to the request body parameters.
+
+|Key|Description|
+|-----|------|
+| id  `string` | The unique identifier of the bank account. Referred to as `bankaccount_id`. |
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-accounts?api_key={your-account-api-key}" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/bank-accounts?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
 --data-raw '{
@@ -72,7 +83,6 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-ac
   "success": true
 }
 ```
-`id` is the unique identifier of the bank account.
 {{< /collapse >}}
 
 ---
@@ -88,9 +98,23 @@ Retrieve a list of all bank accounts linked to an affiliated merchant account.
 |-----|------|
 |account_id{{< br >}}`string`|Merchant ID of the affiliated merchant account.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|-----|------|
+|currency{{< br >}}`string`|The currency of the bank account.{{< br >}}**Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `EUR`).|
+|holder_name{{< br >}}`string`|Full name of the bank account holder. This can be a natural person, company or other legal entity. {{< br >}}**Format**: max 40 characters.|
+|iban{{< br >}}`string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account.{{< br >}}**Format**: alphanumeric string of up to 34 characters. |
+| id{{< br >}} `string` | The unique identifier of the bank account. Referred to as `bankaccount_id`.|
+| status{{< br >}} `string` | The screening status of the bank account. |
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-accounts?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/bank-accounts?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -117,7 +141,6 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-acc
   "success": true
 }
 ```
-`id` is the unique identifier of the bank account.
 {{< /collapse >}}
 
 ---
@@ -133,9 +156,23 @@ Retrieve a single bank account by its identifier.
 |-----|------|
 |bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required. |
 
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|-----|------|
+|currency{{< br >}}`string`|The currency of the bank account.{{< br >}}**Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `EUR`).|
+|holder_name{{< br >}}`string`|Full name of the bank account holder. This can be a natural person, company or other legal entity. {{< br >}}**Format**: max 40 characters.|
+|iban{{< br >}}`string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account.{{< br >}}**Format**: alphanumeric string of up to 34 characters. |
+| id{{< br >}} `string` | The unique identifier of the bank account. Referred to as `bankaccount_id`.|
+| status{{< br >}} `string` | The screening status of the bank account. |
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -147,7 +184,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678?api
     "currency": "EUR",
     "holder_name": "{affiliate-company-name}",
     "iban": "NL02ABNA0123456789",
-    "id": "ytipdsfs746os",
+    "id": "{bankaccount_id}",
     "status": "pending"
   },
   "success": true
@@ -168,6 +205,20 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 |-----|------|
 |bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogwgfit36`). Required. |
 
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
+There are no parameters sent in this request.
+
+### Response body
+|Key|Description|
+|-----|------|
+| bankaccount_id{{< br >}} `string` | The unique identifier of the bank account. |
+| payment_link{{< br >}} `string` | A URL where you can complete the refundable 1 EUR payment. |
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/payment-links?api_key={your-account-api-key}" \
@@ -179,7 +230,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccoun
 ```
 {
   "data": {
-    "bankaccount_id": {bankaccount_id},
+    "bankaccount_id": "{bankaccount_id}",
     "payment_link": "https://paymentlink.com/link"
   },
   "success": true
@@ -198,13 +249,28 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`). Required. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`). Required. |
+
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
 
 ### Request body
 |Key|Value|
 |-----|------|
 |encoded_content|Base64 encoded content. Required.|
 |filename{{< br >}}`string`|Name of the bank statement file. {{< br >}}**Format**: max 250 characters. Required. |
+|mime_type{{< br >}} `string`|Media type of the bank statement file .{{< br >}}**Options**: `application/pdf` `image/jpeg`|
+
+### Response body
+|Key|Value|
+|-----|------|
+|account_id{{< br >}}`string`| Merchant ID of the affiliated merchant account.{{< br >}}**Format**: 8 character string (e.g., `12345678`).|
+|bankaccount_id{{< br >}}`string`|The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`).|
+|document_type{{< br >}} `string`|Document type of the file. |
+|filename{{< br >}}`string`|Name of the bank statement file. {{< br >}}**Format**: max 250 characters.|
+| id{{< br >}} `string`| The unique identifier of the bank statement. Referred to as `{bankstatement_id}`. |
 |mime_type{{< br >}} `string`|Media type of the bank statement file .{{< br >}}**Options**: `application/pdf` `image/jpeg`|
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -228,7 +294,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccoun
     "bankaccount_id": "{bankaccount_id}",
     "document_type": null,
     "filename": "bank-statement.pdf",
-    "id": ""4jrp7krwlrafq",
+    "id": "4jrp7krwlrafq",
     "mime_type": "application/pdf"
   },
   "success": "true"
@@ -240,7 +306,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccoun
 
 ## List bank statements
 
-`GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements`
+`GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements?api_key={your-account-api-key}`
 
 Retrieve a list of all bank statements associated with a bank account.
 
@@ -249,44 +315,24 @@ Retrieve a list of all bank statements associated with a bank account.
 |-----|------|
 |bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwldt36`). Required. |
 
-{{< collapse title="Sample request" size="h3" >}}
-```
-curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/bank-statements?api_key={your-account-api-key}" \
---header "accept: application/json" \
-```
-{{< /collapse >}}
-
-{{< collapse title="Sample response" size="h3" >}}
-```
-{
-  "data": [
-    {
-      "encoded_content": "string",
-      "filename": "bank-statement.pdf",
-      "mime_type": "application/pdf"
-    }
-  ],
-  "success": true
-}
-```
-{{< /collapse >}}
-
----
-
-## Get bank statement
-
-`GET` `https://testapi.multisafepay.com/v1/json/bank-statements/{bankstatement_id}`
-
-Retrieve a single bank statement by its identifier.
-
-### Path parameters
-|Parameter|Description|
+### Query parameters
+|Key|Description|
 |-----|------|
-|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. |
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Value|
+|-----|------|
+|account_id{{< br >}}`string`| Merchant ID of the affiliated merchant account.{{< br >}}**Format**: 8 character string (e.g., `12345678`).|
+|bankaccount_id{{< br >}}`string`|The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`).|
+|document_type{{< br >}} `string`|Document type of the file. |
+|filename{{< br >}}`string`|Name of the bank statement file. {{< br >}}**Format**: max 250 characters.|
+| id{{< br >}} `string`| The unique identifier of the bank statement. Referred to as `{bankstatement_id}`. |
+|mime_type{{< br >}} `string`|Media type of the bank statement file .{{< br >}}**Options**: `application/pdf` `image/jpeg`|
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/12345678?api_key={your-account-api-key}" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 ```
 {{< /collapse >}}
@@ -295,8 +341,62 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/12345678?a
 ```
 {
   "data": {
-    "encoded_content": "string",
+    "account_id": "{affiliate_account_id}",
+    "bankaccount_id": "{bankaccount_id}",
+    "document_type": "bankstatement",
     "filename": "bank-statement.pdf",
+    "id": "4jrp7krwlrafq",
+    "mime_type": "application/pdf"
+  },
+  "success": "true"
+}
+```
+{{< /collapse >}}
+
+---
+
+## Get bank statement
+
+`GET` `https://testapi.multisafepay.com/v1/json/bank-statements/{bankstatement_id}?api_key={your-account-api-key}`
+
+Retrieve a single bank statement by its identifier.
+
+### Path parameters
+|Parameter|Description|
+|-----|------|
+|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. |
+
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Value|
+|-----|------|
+|account_id{{< br >}}`string`| Merchant ID of the affiliated merchant account.{{< br >}}**Format**: 8 character string (e.g., `12345678`).|
+|bankaccount_id{{< br >}}`string`|The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`).|
+|document_type{{< br >}} `string`|Document type of the file. |
+|filename{{< br >}}`string`|Name of the bank statement file. {{< br >}}**Format**: max 250 characters.|
+| id{{< br >}} `string`| The unique identifier of the bank statement. Referred to as `{bankstatement_id}`. |
+|mime_type{{< br >}} `string`|Media type of the bank statement file .{{< br >}}**Options**: `application/pdf` `image/jpeg`|
+
+{{< collapse title="Sample request" size="h3" >}}
+```
+curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/{bankstatement_id}?api_key={your-account-api-key}" \
+--header "accept: application/json" \
+```
+{{< /collapse >}}
+
+{{< collapse title="Sample response" size="h3" >}}
+```
+{
+  "data": {
+    "account_id": "{affiliate_account_id}",
+    "bankaccount_id": "{bankaccount_id}",
+    "document_type": "bankstatement",
+    "filename": "bank-statement.pdf",
+    "id": "{bankstatement_id},
     "mime_type": "application/pdf"
   },
   "success": true
@@ -307,7 +407,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/12345678?a
 ---
 
 ## Next steps
-You have added one or multiple bank accounts to a merchant account. Next, you can add UBOs and websites using the unique merchant account `id` .
+You have added one or multiple bank accounts to a merchant account. Next, you can add UBOs and websites using the unique affiliate merchant ID.
 
 {{< two-buttons
 
