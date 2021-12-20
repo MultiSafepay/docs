@@ -1,14 +1,15 @@
 ---
-title: "Adding users"
+title: "Managing users"
 weight: 30
-meta_title: "Account - Adding users - MultiSafepay Docs"
+meta_title: "Managing users - MultiSafepay Docs"
 read_more: "."
-url: '/account/adding-users/'
+url: '/account/managing-users/'
 aliases:
     - /account/multisafepay-account/adding-users/
     - /tools/multisafepay-control/users
     - /tools/multisafepay-control/adding-users
     - /getting-started/set-up-your-account/user-guide/adding-users/
+    - /account/adding-users/
 ---
 
 You can add an unlimited number of users to your MultiSafepay account. All users on one account share the same secure code. 
