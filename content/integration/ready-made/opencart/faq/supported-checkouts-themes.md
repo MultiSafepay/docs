@@ -64,6 +64,22 @@ The following patches for third-party themes and extensions are available:
                 </a>
             </td>
         </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.modulepoints.com/quickcheckout" target="_blank">Quick Checkout / Onepage Checkout for OpenCart 3.0.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-quick-checkout-from-module-points-opencart-3.0.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 1rem;"><a href="https://www.modulepoints.com/quickcheckout" target="_blank">Quick Checkout / Onepage Checkout for OpenCart 2.3.X</a></td>
+            <td style="padding-bottom: 1rem;">
+                <a href="/integration/ready-made/opencart/patches/multisafepay-patch-for-quick-checkout-from-module-points-opencart-2.3.X.ocmod.zip" target="_blank" download>
+                    Download OCMOD
+                </a>
+            </td>
+        </tr>
     </tbody>
 </table>
 
