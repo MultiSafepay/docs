@@ -1,8 +1,8 @@
 ---
-title: "Affiliate onboarding via API"
+title: "Onboarding affiliates via the API"
 layout: 'single'
 logo: "/svgs/Community.svg"
-weight: 50
+weight: 30
 read_more: '.'
 short_description: "Create and onboard affiliated merchant accounts via our API."
 url: '/account/affiliate-onboarding-api/'

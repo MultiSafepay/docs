@@ -1,7 +1,7 @@
 ---
-title: "Managing and charging affiliate accounts"
+title: "Managing affiliate accounts"
 weight: 70
-meta_title: "Managing and charging affiliate accounts - MultiSafepay Docs"
+meta_title: "Managing affiliate accounts - MultiSafepay Docs"
 read_more: '.'
 url: '/account/managing-affiliate-accounts/'
 aliases:
@@ -9,9 +9,7 @@ aliases:
     - /account/partner-account-control/managing-affiliate-accounts/
 ---
 
-You can manage affiliates' accounts using your affiliate dashboard. Once an affiliate is approved, to access their account, under the **Action** column for the relevant merchant, click the blue **Sign in** button.
-
-The affiliate dashboard provides overview of affiliates':
+Once affiliates are onboarded, you can manage their accounts using your affiliate dashboard. The dashboard provides overview of affiliates':
 
 - Account ID
 - Name
@@ -29,6 +27,12 @@ The affiliate dashboard provides overview of affiliates':
 - Tools
 
 You can also process refunds or carry out technical integrations.
+
+## Accessing affiliate accounts
+
+To access an affiliate account, under the **Action** column for the relevant merchant, click **Sign in**.
+
+
 
 
 
