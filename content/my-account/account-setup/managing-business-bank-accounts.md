@@ -1,6 +1,6 @@
 ---
-title : "Adding and deactivating business bank accounts"
-meta_title: "Adding and deactivating business bank accounts - MultiSafepay Docs"
+title : "Managing business bank accounts"
+meta_title: "Managing business bank accounts - MultiSafepay Docs"
 weight: 4
 read_more: "."
 url: '/account/business-bank-accounts/'
