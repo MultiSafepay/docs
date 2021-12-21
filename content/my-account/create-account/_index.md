@@ -35,7 +35,7 @@ All account types represent a single legal entity, but can support multiple bank
 
 ## Creating an account
 
-You can create an account and start the [onboarding process](/getting-started/go-live/) straight away.
+You can create a live account and start the [onboarding process](/getting-started/go-live/) straight away.
 
 Or, you may want to first create a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then onboard your account to start processing real payments. 
 
@@ -43,17 +43,17 @@ Or, you may want to first create a test account. This is a free account where yo
 
 |   |  |  | 
 |---|---|---|
-| Merchant account | [Onboarding signup form](https://merchant.multisafepay.com/signup) | [Test signup form](https://testmerchant.multisafepay.com/signup) |
-| Partner/primary account | [Onboarding signup form](https://merchant.multisafepay.com/signup?partner) | [Test signup form](https://testmerchant.multisafepay.com/signup?partner) |
+| Merchant account | [Live signup form](https://merchant.multisafepay.com/signup) | [Test signup form](https://testmerchant.multisafepay.com/signup) |
+| Partner/primary account | [Live signup form](https://merchant.multisafepay.com/signup?partner) | [Test signup form](https://testmerchant.multisafepay.com/signup?partner) |
 
 You receive an email containing your **security code**. 
 
 **2.** Use your security code to sign in to your account: 
 
-- [Onboarding accounts](https://merchant.multisafepay.com/) 
-- [Test accounts](https://testmerchant.multisafepay.com/) 
+- [Live account](https://merchant.multisafepay.com/) 
+- [Test account](https://testmerchant.multisafepay.com/) 
 
-**3.** Onboarding accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
+**3.** Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
 
 **4.** For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/getting-started/go-live/).  
 
