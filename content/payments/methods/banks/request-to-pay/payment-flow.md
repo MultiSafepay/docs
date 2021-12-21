@@ -52,7 +52,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The customer's bank is processing the transaction and transfering the funds. | Uncleared  | Completed |
+| Deutsche Bank is processing the transaction and transfering the funds. | Completed  | Uncleared |
 | The transaction is complete. | Completed | Completed |
 | The transaction was declined. | Declined | Declined   |
 | The transaction was cancelled. | Void | Void |
