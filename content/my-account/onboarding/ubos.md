@@ -1,7 +1,7 @@
 ---
 title : "Ultimate beneficial owners"
 weight: 20
-meta_title: "Account - Ultimate beneficial owners - MultiSafepay Docs"
+meta_title: "Ultimate beneficial owners - MultiSafepay Docs"
 read_more: "."
 url: '/account/ubo/'
 aliases:

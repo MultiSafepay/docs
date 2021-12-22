@@ -2,7 +2,7 @@
 title: 'Onboarding process'
 breadcrumb_title: 'Onboarding process'
 weight: 10
-meta_title: "Account - Onboarding - MultiSafepay Docs"
+meta_title: "Onboarding process - MultiSafepay Docs"
 read_more: "."
 url: '/account/onboarding-process/'
 ---

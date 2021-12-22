@@ -1,6 +1,6 @@
 ---
 title: "Managing websites"
-weight: 10
+weight: 1
 meta_title: "Managing websites - MultiSafepay Docs"
 read_more: '.'
 url: '/account/managing-websites/'

@@ -1,6 +1,6 @@
 ---
 title : "Site ID, API key, and secure code"
-weight: 20
+weight: 7
 meta_title: "Account - Site ID, API key, and secure code - MultiSafepay Docs"
 read_more: '.'
 url: '/account/site-id-api-key-secure-code'

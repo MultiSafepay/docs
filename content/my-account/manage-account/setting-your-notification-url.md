@@ -1,6 +1,6 @@
 ---
 title: "Setting your notification URL"
-weight: 80
+weight: 11
 meta_title: "Account - Setting your notification URL - MultiSafepay Docs"
 read_more: "."
 url: '/account/setting-your-notification-url/'

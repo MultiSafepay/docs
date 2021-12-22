@@ -1,7 +1,7 @@
 ---
 title : "Managing business bank accounts"
 meta_title: "Managing business bank accounts - MultiSafepay Docs"
-weight: 4
+weight: 2
 read_more: "."
 url: '/account/business-bank-accounts/'
 aliases:

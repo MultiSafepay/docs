@@ -1,6 +1,6 @@
 ---
 title: "Setting your account language"
-weight: 100
+weight: 13
 meta_title: "Account - Setting your account language - MultiSafepay Docs"
 read_more: "."
 url: '/account/setting-account-language/'
