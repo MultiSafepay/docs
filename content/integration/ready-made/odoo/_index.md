@@ -91,6 +91,8 @@ Contact us:
 - [Apple Pay](/payments/methods/wallet/applepay)
 - [PayPal](/payment-methods/paypal)
 
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+
 {{< /details >}}
 
 ## Installation

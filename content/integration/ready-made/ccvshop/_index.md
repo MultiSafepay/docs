@@ -72,6 +72,8 @@ Contact MultiSafepay:
 
 - [PayPal](/payment-methods/paypal)
 
+See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+
 {{< /details >}}
 
 To install and configure the app, follow these steps:
