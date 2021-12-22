@@ -1,6 +1,6 @@
 ---
 title: "Adding your financial email address"
-weight: 60
+weight: 12
 meta_title: "Account - Adding your financial email address - MultiSafepay Docs"
 read_more: "."
 url: '/account/adding-financial-email-address/'

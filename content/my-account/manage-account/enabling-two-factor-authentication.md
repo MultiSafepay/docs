@@ -1,6 +1,6 @@
 ---
 title : "Enabling two-factor authentication"
-weight: 70
+weight: 9
 meta_title: "Account - Enabling two-factor authentication - MultiSafepay Docs"
 read_more: '.'
 url: '/account/enabling-2FA/'

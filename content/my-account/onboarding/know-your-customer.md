@@ -2,7 +2,7 @@
 title: 'Know your customer checks'
 breadcrumb_title: 'Know your customer checks'
 weight: 50
-meta_title: "Account - Know your customer checks - MultiSafepay Docs"
+meta_title: "Know your customer checks - MultiSafepay Docs"
 
 read_more: "."
 url: '/account/kyc/'

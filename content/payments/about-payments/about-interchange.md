@@ -1,7 +1,7 @@
 ---
-title : "About Interchange++"
+title : "Interchange++"
 weight: 90
-meta_title: "Credit card user guide - About Interchange++ - MultiSafepay Docs"
+meta_title: "Interchange++ - MultiSafepay Docs"
 read_more: "."
 short_description: "Learn about the Interchange++ pricing model offered by some banks and card schemes."
 url: '/about-payments/interchange/'

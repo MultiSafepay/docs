@@ -1,6 +1,6 @@
 ---
 title: "Managing users"
-weight: 30
+weight: 3
 meta_title: "Managing users - MultiSafepay Docs"
 read_more: "."
 url: '/account/managing-users/'

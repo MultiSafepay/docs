@@ -1,8 +1,7 @@
 ---
 title : "Switching to MultiSafepay from another PSP"
-weight: 60
-meta_title: "Account - Switching PSPs - MultiSafepay Docs"
-
+weight: 70
+meta_title: "Switching to MultiSafepay - MultiSafepay Docs"
 read_more: "."
 url: '/account/switching-psps/'
 aliases:

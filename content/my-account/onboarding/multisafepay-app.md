@@ -1,7 +1,7 @@
 ---
 title: "MultiSafepay app"
 weight: 90
-meta_title: "Account - MultiSafepay app - MultiSafepay Docs"
+meta_title: "MultiSafepay app - MultiSafepay Docs"
 read_more: "."
 url: '/account/multisafepay-app/'
 aliases:

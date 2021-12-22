@@ -1,6 +1,6 @@
 ---
 title: "Activating payment methods"
-weight: 10
+weight: 5
 meta_title: "Activating payment methods - MultiSafepay Docs"
 read_more: "."
 url: '/payments/activating-payment-methods/'

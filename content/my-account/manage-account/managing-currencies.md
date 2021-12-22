@@ -1,13 +1,15 @@
 ---
-title : "Enabling and converting currencies"
-meta_title: "MultiSafepay account - Enabling and converting currencies - MultiSafepay Docs"
+title : "Managing currencies"
+meta_title: "Managing currencies - MultiSafepay Docs"
 read_more: '.'
-weight: 30
+weight: 8
+url: '/account/currencies/'
 aliases:
     - /faq/general/which-currencies-are-supported-by-multisafepay
     - /faq/general/currencies-supported
     - /faq/general/supported-currencies/
     - /tools/multisafepay-control/enabling-converting-currencies
+    - /my-account/manage-your-balance/enabling-converting-currencies/
 ---
 You can process payments in a large number of currencies, provided that they are:
 
@@ -63,11 +65,11 @@ You can make [payouts](/account/payouts/) in:
 
 ## Enabling currencies
 
-To view the currencies currently enabled in your MultiSafepay account, go to **Finance > Balance**.
+To view the currencies currently enabled in your account, go to **Finance > Balance**.
 
-To enable new currencies in your MultiSafepay account, email the Support Team at <support@multisafepay.com>
+To enable new currencies, email the Support Team at <support@multisafepay.com>
 
-You must also add a business bank account that supports the currency to your MultiSafepay account. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
+You must also add a [business bank account](/account/business-bank-accounts/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Finance > Balance > Add bank account**.
@@ -77,7 +79,7 @@ Once your new business bank account has been approved by the Risk Team, you can 
 
 ## Converting currencies
 
-To convert other currencies to Euros (EUR)in your [MultiSafepay account](https://merchant.multisafepay.com), go to **Finance > Currency conversion**. 
+To convert other currencies to Euros (EUR) in your [MultiSafepay account](https://merchant.multisafepay.com), go to **Finance > Currency conversion**. 
 
 Take into account the exchange rate and/or any other costs.
 
