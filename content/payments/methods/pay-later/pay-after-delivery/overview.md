@@ -21,7 +21,7 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} See [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules). |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} See also: {{< br >}} - [Processing refunds and discounts](/payment-methods/pay-after-delivery/refunds-discounts/) {{< br >}} - [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules) |
 | **Transactions expire after** | 90 days |
 
 ## Notes
@@ -29,16 +29,6 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 - Minimum and maximum order amounts apply. For more information, email your account manager at <sales@multisafepay.com>
 
 - The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
-
-## Refunds
-
-- You can't process refunds after the invoice is transfered to a collection agency (usually 6 weeks after shipping the order). **Shipped** status is not visible in your MultiSafepay account. To check the date of shipment, email <support@multifactor.nl>
-
-- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
-
-- For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
-
--  You cannot reverse full refunds.
 
 ## See also
 
