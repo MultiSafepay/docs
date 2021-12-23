@@ -96,9 +96,6 @@ url: '/api/create-direct-order/'
 
 ### Create a direct order
 
-Supported payment methods:   
-ALIPAY, BANKTRANS, BELFIUS, CBC/KBC, CREDITCARD, DIRDEB, DIRECTBANK, EINVOICE, IDEAL, KLARNA, PAYAFTER, PAYPAL
-
 For additional **required** information, see the relevant [payment method](/api/#payment-method-examples).
 
 **Parameters**
@@ -132,7 +129,15 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier for the payment method.  
+The unique gateway identifier for the payment method. 
+
+**Options:**  
+
+- `ALIPAY`, `PAYPAL`.
+- `CREDITCARD`.
+- `EINVOICE` (E-Invoicing), `KLARNA`, `PAYAFTER` (Pay After Delivery).
+- `BANKTRANS` (Bank Transfer), `BELFIUS`, `CBC`, `DIRDEB` (SEPA Direct Debit), `DIRECTBANK` (Sofort), `IDEAL`.
+ 
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
