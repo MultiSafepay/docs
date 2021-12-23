@@ -86,10 +86,11 @@ Format: Maximum 50 characters.
 The unique gateway identifier for the payment method.  
 
 **Options**: 
-- `AFTERPAY`, `EINVOICE` (E-Invoicing), `IN3`, `KLARNA`, `PAYAFTER`(Pay After Delivery), `SANTANDER` (Betaal per Maand).
+- `AFTERPAY`, `EINVOICE` (E-Invoicing), `IN3`, `KLARNA`, `PAYAFTER` (Pay After Delivery), `SANTANDER` (Betaal per Maand).
 - `ALIPAY`, `APPLEPAY`, `GOOGLEPAY`, `PAYPAL`, `WECHAT`.
 - `CREDITCARD`, `AMEX`, `MAESTRO`, `MASTERCARD`, `VISA`.
-- `MISTERCASH`(Bancontact), `BANKTRANS` (Bank Transfer), `BELFIUS`, `CBC`, `DOTPAY`, `EDENCOM`, `EPS`, `GIROPAY`, `IDEAL`, `DBRTP` (Request to Pay), `DIREB` (SEPA Direct Debit), `DIRECTBANK` (Sofort), `TRUSTLY`, `TRUSTPAY`. 
+- `MISTERCASH` (Bancontact), `BANKTRANS` (Bank Transfer), `BELFIUS`, `CBC`, `DOTPAY`, `EPS`, `GIROPAY`, `IDEAL`, `DBRTP` (Request to Pay), `DIREB` (SEPA Direct Debit), `DIRECTBANK` (Sofort), `TRUSTLY`, `TRUSTPAY`. 
+- `EDENCOM`.
 
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
