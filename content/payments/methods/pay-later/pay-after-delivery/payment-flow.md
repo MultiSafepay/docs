@@ -78,7 +78,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. {{< br >}} You can still cancel it. | Uncleared   | Uncleared | 
-| Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See [Closing transactions](/payments/methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Completed | Uncleared | 
+| Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
 | **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). | Shipped | Uncleared |
 | The transaction is complete.  | Shipped | Completed |
 | The transaction was cancelled. | Void   | Cancelled | 
