@@ -84,6 +84,9 @@ Format: Maximum 50 characters.
 `gateway` | string | required
 
 The unique gateway identifier for the payment method.  
+
+**Options**: `AFTERPAY` `ALIPAY` `APPLEPAY` `MISTERCASH` `BANKTRANS` `BELFIUS` `CBC` `CREDITCARD` `AMEX` `MASTERCARD` `VISA` `DOTPAY` `EDENCOM` `EINVOICE` `EPS` `GIROPAY` `GOOGLEPAY` `IDEAL` `IN3` `KLARNA` `MAESTRO` `PAYAFTER` `PAYPAL` `DBRTP` `SANTANDER` `DIREB` `DIRECTBANK` `TRUSTLY` `TRUSTPAY` `WECHAT`
+
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
