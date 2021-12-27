@@ -57,15 +57,15 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is completed. | Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer has requested a chargeback. | Void | Void |
+| The customer has requested a refund. | Void | Void |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 | The customer's bank has declined the transaction. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
 
-## Refund statuses
+## Refund/chargeback statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
+| The customer has requested a refund/chargeback. | Reserved    | Reserved   |
 | The refund/chargeback is complete.  | Completed      | Completed   |
 
 
