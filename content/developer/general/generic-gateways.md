@@ -76,7 +76,7 @@ For how to configure generic gateways, see the manual of your ready-made integra
 | Pay After Delivery | `PAYAFTER` |
 | PayPal | `PAYPAL` |
 | Request to Pay | `DBRTP` |
-| SEPA Direct Debit | `DIREB` |
+| SEPA Direct Debit | `DIRDEB` |
 | Sofort | `DIRECTBANK` |
 | Trustly | `TRUSTLY` |
 | TrustPay | `TRUSTPAY` |
