@@ -26,6 +26,8 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your OpenCart webshop.
 
+For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
+
 {{< details title="Test environment" >}}
 &nbsp;  
 
