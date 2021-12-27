@@ -8,9 +8,12 @@ aliases:
     - /ecommerce-platforms/craft-commerce/generic-gateways/
 ---
 
-The Craft Commerce 3 plugin supports [generic gateways](/faq/general/generic-gateways/) and generic gift cards.
+The Craft Commerce 3 plugin offers [generic gateways](/integrations/generic-gateways/) and generic gift cards, which support all payment methods.
 
-You can specify the gateway code and gateway label. 
+To configure a generic gateway:
 
-All payment methods are supported.
+1. Sign in to your backend. 
+2. Go to *** (Dennis to check).
+3. Set the relevant [payment method gateway codes](/integrations/generic-gateways/#gateway-codes) and the gateway label. 
+
 
