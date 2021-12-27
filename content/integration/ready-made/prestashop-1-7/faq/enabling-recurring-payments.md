@@ -11,8 +11,9 @@ aliases:
 To enable [recurring payments](/features/recurring-payments), follow these steps:
 
 1. Sign in to your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend). 
-2. Go to **IMPROVE** > **MultiSafepay**.
-3. Select the payment method for which you want to enable recurring payments
-4. Set the **Enable tokenization** field to **ENABLED**.
+2. Go to **Improve** > **MultiSafepay**.
+3. In the MultiSafepay module, go to the **Payment methods** tab.  
+    You can select the bundled credit cards gateway, or select specific credit cards. 
+4. Set the **Enable tokenization** field to **Enabled**.
 5. Click **Save**.
 
