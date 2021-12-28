@@ -13,4 +13,4 @@ To configure a generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 
 2. Go to **Commerce** > **Configuration** > **Payments** > **Payments gateways** > **Add payment gateway** > **Generic gateway**.
-3. Set the relevant [payment method gateway codes](/integrations/gateway-codes) and the gateway label.
+3. Set the relevant [payment method gateway codes](/developer/gateway-codes) and the gateway label.

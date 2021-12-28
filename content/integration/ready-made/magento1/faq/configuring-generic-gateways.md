@@ -18,7 +18,7 @@ To configure generic gateways:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 
 2. Go to *** (Dennis to check).
-3. Set the relevant [payment method gateway codes](/integrations/gateway-codes) and the gateway label.
+3. Set the relevant [payment method gateway codes](/developer/gateway-codes) and the gateway label.
 4. Set how to display the payment method logos. 
 5. For pay later methods, set whether to include the shopping cart.
 
