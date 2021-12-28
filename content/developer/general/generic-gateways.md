@@ -3,14 +3,13 @@ title: "Generic gateways in ready-made integrations"
 weight: 13
 meta_title: "Generic gateways in ready-made integrations - MultiSafepay Docs"
 read_more: "."
-url: '/integrations/generic-gateways/'
+url: '/developer/generic-gateways/'
 aliases:
     - /faq/general/generic-gateways/
     - /developer/general/generic-gateways/
     - /integrations/multisafepay-gateway/
+    - /integrations/generic-gateways/
 ---
-## Generic gateways
-
 Some of our ready-made integrations use a generic gateway, which redirects customers from your webshop checkout to a MultiSafepay payment page displaying your selected payment methods. You can specify which methods to include, and how to display their logos on the page.
 
 Generic gateways support:
@@ -29,7 +28,7 @@ For support, email the Integration Team at <integration@multisafepay.com>
 
 ### Co-branded credit cards
 
-You can integrate Visa co-branded credit cards ([Cartes Bancaires](/payment-methods/cartes-bancaires/), [Dankort](/payment-methods/dankort/), [V&nbsp;Pay](/payment-methods/vpay/)), using the generic `VISA` gateway.  
+You can integrate Visa co-branded credit cards ([Cartes Bancaires](/payment-methods/cartes-bancaires/), [Dankort](/payment-methods/dankort/), and [V&nbsp;Pay](/payment-methods/vpay/)), using the generic `VISA` gateway.  
 
 For the logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
 
@@ -46,44 +45,7 @@ For how to configure generic gateways, see the manual of your ready-made integra
 - [Shopware 5](/shopware-5/generic-gateways/), [Shopware 6](/shopware-6/generic-gateways/)
 - [WooCommerce](/woo-commerce/generic-gateways/)
 
-### Gateway codes
-
-{{< details title="Use the relevant payment method gateway codes">}}
-
-| Payment method | Gateway code |
-|---|---|
-| AfterPay | `AFTERPAY` |
-| Alipay | `ALIPAY` |
-| American Express | `AMEX` |
-| Apple Pay | `APPLEPAY` |
-| Bancontact | `MISTERCASH` |
-| Bank Transfer | `BANKTRANS` |
-| Belfius | `BELFIUS` |
-| Betaal per Maand | `SANTANDER` |
-| CBC/KBC | `CBC` |
-| Credit cards | `CREDITCARD` |
-| Dotpay | `DOTPAY` |
-| Edenred | `EDENCOM` |
-| E-Invoicing | `EINVOICE` |
-| EPS | `EPS` |
-| Giropay | `GIROPAY` |
-| Google Pay | `GOOGLEPAY` |
-| iDEAL | `IDEAL` |
-| in3 | `IN3` |
-| Klarna | `KLARNA` |
-| Maestro | `MAESTRO` |
-| Mastercard | `MASTERCARD` |
-| Pay After Delivery | `PAYAFTER` |
-| PayPal | `PAYPAL` |
-| Request to Pay | `DBRTP` |
-| SEPA Direct Debit | `DIREB` |
-| Sofort | `DIRECTBANK` |
-| Trustly | `TRUSTLY` |
-| TrustPay | `TRUSTPAY` |
-| Visa, Cartes Bancaires, Dankort, V Pay | `VISA` |
-| WeChat Pay | `WECHAT` |
-
-{{< /details >}}
+Use the relevant [payment method gateway codes](/developer/gateway-codes).
 
 ## MultiSafepay gateways
 

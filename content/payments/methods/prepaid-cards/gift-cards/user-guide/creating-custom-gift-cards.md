@@ -32,7 +32,7 @@ MultiSafepay can develop a custom gift card for you.
 
 - Using our API, see API reference – [Gift cards](/api/#gift-card).
 
-- In a ready-made integration, use our [generic gateway code](/integrations/generic-gateways/).
+- In a ready-made integration, use our [generic gateway code](/developer/generic-gateways/).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 

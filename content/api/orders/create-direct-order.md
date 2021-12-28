@@ -129,14 +129,9 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier for the payment method. 
+The gateway code for the payment method. 
 
-**Options:**  
-
-- `ALIPAY`, `PAYPAL`.
-- `CREDITCARD`.
-- `EINVOICE` (E-Invoicing), `KLARNA`, `PAYAFTER` (Pay After Delivery).
-- `BANKTRANS` (Bank Transfer), `BELFIUS`, `CBC`, `DIRDEB` (SEPA Direct Debit), `DIRECTBANK` (Sofort), `IDEAL`.
+For the gateway codes, see [Payment method gateway codes](/developer/gateway-codes/).
  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 

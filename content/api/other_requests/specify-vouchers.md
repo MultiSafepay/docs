@@ -1,6 +1,6 @@
 ---
 weight: 550
-meta_title: "API reference - Specify vouchers - MultiSafepay Docs"
+meta_title: "API reference - Specify gift cards - MultiSafepay Docs"
 
 ---
 
@@ -48,50 +48,27 @@ meta_title: "API reference - Specify vouchers - MultiSafepay Docs"
 {{< /code-block >}}
 
 {{< description >}}
-## Specify vouchers
+## Specify gift cards
 
-Specify which vouchers are displayed as options to the customer for the transaction.
+Specify which gift cards to display to the customer.
 
 **Parameters**
 
-Use the following optional parameters in the [payment_options (object)](#payment-options-object) to specify which vouchers to display.
+Use the following optional parameters in the [payment_options (object)](#payment-options-object) to specify which gift cards to display.
 
 ------------------
 `allow` | array of strings | optional
 
-An array specifying the vouchers to display to the customer.  
-If empty, no vouchers display.  
-If not included, then all activated vouchers display.
+An array of gateway codes for the gift cards to display to the customer.  
+If empty, no gift cards display.  
+If not included, then all activated gift cards display.
     
-Options:  
-Baby Cadeaubon= `BABYCAD`  
-Beautyandwellness= `BEAUTYWELL`  
-Bloemencadeaukaart= `BLOEMENCAD`  
-Boekenbon= `BOEKENBON`  
-Degrotespeelgoedwinkel= `DEGROTESPL`  
-Edenred Ticket Compliments= `EDENCOM`  
-Edenred Ticket EcoCheque= `EDENCO`  
-Edenred Ticket Restaurant= `EDENRES`  
-Edenred Ticket Sport & Culture= `EDENSPORTS`  
-Fashioncheque= `FASHIONCHQ`   
-Fashiongiftcard= `FASHIONGFT`  
-Fietsenbon= `FIETSENBON`   
-Good4fun= `GOOD4FUN`  
-Gezondheidsbon= `GEZONDHEID`   
-Nationale bioscoopbon= `NATNLBIOSC`      
-Nationaletuinbon= `NATNLETUIN`    
-Parfumcadeaukaart= `PARFUMCADE`   
-Sportenfit= `SPORTENFIT`    
-Vuur & rook gift card= `VRGIFTCARD`    
-VVV Cadeaukaart= `VVVGIFTCRD`   
-Webshopgiftcard= `WEBSHOPGFT`  
-Wijncadeau= `WIJNCADEAU`      
-Yourgift= `YOURGIFT`    
+For the gateway codes, see [Payment method gateway codes](/developer/gateway-codes/).
 
 ------------------
 `disabled` | boolean | optional
 
-Disables displaying all vouchers to the customer.  
+Disables displaying all gift cards to the customer.  
 
 If set to `true`, the `allow` parameter is ignored.
 

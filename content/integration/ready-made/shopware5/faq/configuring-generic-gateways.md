@@ -9,15 +9,15 @@ aliases:
     - /shopware-5/generic-gateways/
 ---
 
-The plugin supports [generic gateways](/integrations/generic-gateways/).
+The plugin supports [generic gateways](/developer/generic-gateways/).
 
 To configure a generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **MultiSafepay settings**.
-3. Set the relevant [payment method gateway codes](/integrations/generic-gateways/#gateway-codes).
+3. Set the relevant [payment method gateway codes](/integrations/gateway-codes).
 4. Upload a custom gateway image, if relevant.
-5. For pay later methods, specify whether to include a shopping cart.
+5. For [pay later](/payment-methods/pay-later/) methods, specify whether to include a shopping cart.
 
 For support, email the Integration Team at <integration@multisafepay.com>
 
