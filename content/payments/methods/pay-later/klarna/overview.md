@@ -19,7 +19,7 @@ aliases:
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, The Netherlands  | 
 | **Currencies**  | EUR, SEK, NOK, DKK  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} See [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules). |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) |
 | **Transactions expire after** | 1 hour |
 
 {{< blue-notice >}}**Recent changes** {{< br >}} - Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. {{< br >}} - Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. {{< br >}} 

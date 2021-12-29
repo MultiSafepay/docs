@@ -10,7 +10,7 @@ Pay After Delivery supports:
 
 - [Full and partial refunds](/refunds/full-partial/)
 - [Discounts](/refunds/discounts/)
-- [API refunds](/refunds/pay-later-refunds) 
+- [API refunds](/refunds/pay-later/) 
 
 ## Refund guidance
 

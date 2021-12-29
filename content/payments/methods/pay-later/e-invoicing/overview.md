@@ -19,7 +19,7 @@ E-Invoicing is a MultiSafepay pay later method with automation tools that gives 
 | **Countries**  | Worldwide  | 
 | **Currencies** | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](refunds/pay-later-refunds/) |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) |
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 
