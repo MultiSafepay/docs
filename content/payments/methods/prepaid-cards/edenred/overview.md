@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/prepaid-cards/edenred/product-rules/
     - /payment-methods/edenred/product-rules/
 ---
-Edenred lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
+[Edenred](https://www.edenred.be/nl) lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
 
 - Ticket Restaurant
 - Ticket EcoCheques

@@ -15,7 +15,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/dankort/about/
     - /payments/methods/dankort/product-rules/
 ---
-Dankort is a popular Visa-branded credit card in Denmark. 
+[Dankort](https://www.dankort.dk/en/privat/) is a popular Visa-branded credit card in Denmark. 
 
 An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/features/3d-secure/)), which requires cardholders to verify their identity.
 

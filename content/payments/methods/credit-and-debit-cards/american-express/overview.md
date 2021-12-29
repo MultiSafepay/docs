@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/american-express/about/
     - /payments/methods/amex/product-rules/
 ---
-American Express is one of the biggest global credit card schemes, accepted in more than 160 countries. 
+[American Express](https://www.americanexpress.com/nl-nl/) is one of the biggest global credit card schemes, accepted in more than 160 countries. 
 
 An additional layer of security is provided by Safekey (the American Express-branded version of [3D Secure](/features/3d-secure/)), which requires cardholders to verify their identity. All transactions higher than 30 EUR require Safekey.
 

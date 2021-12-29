@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/betaal-per-maand/product-rules/
     - /payment-methods/betaal-per-maand/product-rules/
 ---
-Betaal per Maand is a MultiSafepay pay later method for large amounts in collaboration with Santander. 
+[Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay pay later method for large amounts in collaboration with Santander. 
 
 Customers pay for orders after receiving them as a one-off payment or in monthly installments. They are only charged for the items they keep. Santander bears the risk and guarantees settlement.
 

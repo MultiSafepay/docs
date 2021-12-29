@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/vpay/user-guide/about-chargebacks/
     - /payments/methods/vpay/product-rules/
 ---
-V Pay is a debit card service owned by Visa, and is accepted across Europe. 
+[V Pay](https://www.visaeurope.lu/en_LU/products/vpay.html) is a debit card service owned by Visa, and is accepted across Europe. 
 
 An additional layer of security is provided by mandatory [3D Secure](/features/3d-secure/) authentication, which requires cardholders to verify their identity.
 

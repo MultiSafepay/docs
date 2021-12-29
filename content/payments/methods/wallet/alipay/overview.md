@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/alipay/product-rules/
     - /payment-methods/alipay/product-rules/
 ---
-Alipay is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. 
+[Alipay](https://global.alipay.com/platform/site/ihome) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. 
 
 It supports online, QR, and contactless POS payments, as well as international money transfers.
 
