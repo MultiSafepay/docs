@@ -4,7 +4,7 @@ weight: 40
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/klarna"
 childlist: '.'
-intro_description: "Klarna is an online payment method that lets customers pay for orders after receiving them."
+intro_description: "Klarna is a flexible online payment method that lets customers pay now or later."
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
 faq: '.'

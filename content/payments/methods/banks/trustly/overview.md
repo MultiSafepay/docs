@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/trustly/product-rules/
     - /payment-methods/trustly/product-rules/
 ---
-Trustly is a quick, secure banking payment method that is available in 29 European countries. Customers pay from their own online banking environment.
+[Trustly](https://www.trustly.net/nl-NL) is a quick, secure banking payment method that is available in 29 European countries. Customers pay from their own online banking environment.
 
 |   |   |  
 |---|---|

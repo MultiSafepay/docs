@@ -14,7 +14,7 @@ aliases:
     - /payments/methods/bancontact-qr/product-rules/
     - /payment-methods/bancontact/product-rules/
 ---
-Bancontact is a leading Belgian banking method that supports online, mobile app, QR, and POS payments. It is a household name and supported by over 80% of Belgian webshops. 
+[Bancontact](https://www.bancontact.com/en) is a leading Belgian banking method that supports online, mobile app, QR, and POS payments. It is a household name and supported by over 80% of Belgian webshops. 
 
 Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
 

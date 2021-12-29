@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/ideal/product-rules/
     - /payments/methods/ideal-qr/product-rules/
 ---
-iDEAL is the leading payment method in the Netherlands and links all major Dutch retail banks. 
+[iDEAL](https://www.ideal.nl/en/) is the leading payment method in the Netherlands and links all major Dutch retail banks. 
 
 Customers pay via mobile banking app, QR code, or in their own online banking environment. 
 

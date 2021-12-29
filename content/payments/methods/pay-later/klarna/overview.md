@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/klarna/product-rules/
     - /payment-methods/klarna/product-rules/
 ---
-Klarna is an online payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
+[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now or later. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
 |   |   |   |
 |---|---|---|
@@ -21,6 +21,9 @@ Klarna is an online payment method that lets customers pay for orders after rece
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} See [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules). |
 | **Transactions expire after** | 1 hour |
+
+{{< alert-notice >}}**Recent changes** {{< br >}} - Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. {{< br >}} - Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. {{< br >}} 
+For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). {{< /alert-notice >}}
 
 ## See also 
 
