@@ -22,8 +22,8 @@ aliases:
 | **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} See [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules). |
 | **Transactions expire after** | 1 hour |
 
-{{< alert-notice >}}**Recent changes** {{< br >}} - Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. {{< br >}} - Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. {{< br >}} 
-For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). {{< /alert-notice >}}
+{{< blue-notice >}}**Recent changes** {{< br >}} - Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. {{< br >}} - Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. {{< br >}} 
+For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). {{< /blue-notice >}}
 
 ## See also 
 
