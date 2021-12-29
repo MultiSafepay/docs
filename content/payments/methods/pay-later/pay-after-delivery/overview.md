@@ -21,7 +21,7 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} See also: {{< br >}} - [Processing refunds and discounts](/payment-methods/pay-after-delivery/refunds-discounts/) {{< br >}} - [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules) |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) {{< br >}} See also [Processing refunds and discounts](/payment-methods/pay-after-delivery/refunds-discounts/) |
 | **Transactions expire after** | 90 days |
 
 ## Notes
