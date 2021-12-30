@@ -81,9 +81,11 @@ Your unique identifier for the order.
 Format: Maximum 50 characters.
 
 ----------------
-`gateway` | string | required
+`gateway` | string | optional
 
-The unique gateway identifier for the payment method.  
+The identifier for a specific payment method gateway.  
+
+If unset, a MultiSafepay payment page with **all** available payment methods is returned.
 
 **Options**: 
 - `AFTERPAY`, `EINVOICE` (E-Invoicing), `IN3`, `KLARNA`, `PAYAFTER` (Pay After Delivery), `SANTANDER` (Betaal per Maand).
