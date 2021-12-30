@@ -9,35 +9,44 @@ aliases:
     - /developer/api/difference-between-direct-and-redirect/
 ---
 
-In our API, you can make direct and redirect requests.
+With our API, you can make requests to create direct transactions and redirect transactions.
 
 {{< mermaid class="text-center" >}}
 
-flowchart TD
-    id1(Direct request)--> id3(Is further customer action required?)
-    id2(Redirect request)--> id4(MultiSafepay payment page)
-    id4(MultiSafepay payment page)--> id3(Is further customer action required?)
-    id3(Is further customer action required?)--> id5(Yes) & id6(No)
-    id5(Yes)--> id7(Redirects customer to payment method)
-    id6(No)--> id8(Transaction completed)
-    id7(Redirects customer to payment method)--> id8(Transaction completed)
-    id8(Transaction completed)--> id9(Redirects customer to your success page)
-    style id1 fill: #b4a7d6, stroke: #b4a7d6
-    style id2 fill: #b6d7a8, stroke: #b6d7a8
-    style id3 fill: #9fc5e8, stroke: #9fc5e8
-    style id4 fill: #ffe599, stroke: #ffe599
+flowchart LR
+    id1(Redirect request)--> id2{Is the gateway <br> specified?}
+    id2{Is the gateway <br> specified?}-- Yes --> id4(Customer is redirected to <br> MultiSafepay payment page <br> tailored to payment method)
+    id2{Is the gateway <br> specified?}-- No --> id5(Customer is redirected to <br> MultiSafepay payment page <br> displaying all activated <br> payment methods)
+    id4(Customer is redirected to <br> MultiSafepay payment page <br> tailored to payment method)--> id6{Is further customer <br> action required?}
+    id5(Customer is redirected to <br> MultiSafepay payment page <br> displaying all activated <br> payment methods)--> id9[/Customer selects <br> payment method/]
+    id9[/Customer selects <br> payment method/]--> id6{Is further customer <br> action required?}
+    id10(Direct request: <br> Gateway required )--> id6{Is further customer <br> action required?}
+    id6{Is further customer <br> action required?}-- No --> id7(Customer is redirected to <br> success page)
+    id6{Is further customer <br> action required?}-- Yes --> id8(Customer is redirected to <br> payment method)
+    id8(Customer is redirected to <br> payment method)--> id7(Customer is redirected to <br> success page)
+
+    style id1 fill: #ffe599, stroke: #ffe599
+    style id2 fill: #9fc5e8, stroke: #9fc5e8
+    style id4 fill: #9fc5e8, stroke: #9fc5e8
     style id5 fill: #9fc5e8, stroke: #9fc5e8
     style id6 fill: #9fc5e8, stroke: #9fc5e8
     style id7 fill: #9fc5e8, stroke: #9fc5e8
     style id8 fill: #9fc5e8, stroke: #9fc5e8
     style id9 fill: #9fc5e8, stroke: #9fc5e8
+    style id10 fill: #ffe599, stroke: #ffe599
 
 {{< /mermaid >}}
+
 &nbsp;  
 
-Direct requests connect directly to the payment method, whereas redirect requests send the customer to a [MultiSafepay payment page](/payment-pages/).
+Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [MultiSafepay payment page](/payment-pages/).
 
-If further customer action is:
+For redirect requests, if the gateway for a specific payment method is:
+
+- Provided, the payment page is tailored for that payment method, e.g. for Visa, the page includes fields for the customer to enter their credit card details. 
+- Not provided, the payment page displays all payment methods 
+
+Then, if further customer action is:
 
 - Required, they are redirected to complete payment, e.g. for iDEAL the customer is redirected to their online banking environment. 
 - Not required, the transaction is completed automatically. 
