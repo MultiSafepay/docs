@@ -26,13 +26,8 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 Create a new affiliated merchant account.
 
-### Query parameters
-|Key|Description|
-|-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-{{< collapse title="Request body" size="h3" >}}
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |-----|------|
 |**account**  <br /> `object`|This object holds company information|
 |account.address1  `string`|First line of company address  <br /> **Format**: max 64 characters. Optional.|
@@ -56,12 +51,13 @@ Create a new affiliated merchant account.
 
 {{< /collapse >}}
 
-### Response body
+{{< collapse title="Response body parameters" size="h3" >}}
 In addition to the request body parameters.
 
-|Key|Description|
+|Parameter|Description|
 |-----|------|
 | id  `string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -138,29 +134,25 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={y
 
 Retrieve an array of all merchant accounts affiliated to your partner account.
 
-### Query parameters
-|Key|Description|
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
 |-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Response body
-|Key|Description|
-|-----|------|
-|**account**{{< br >}}`object`|This object holds company information|
-|account.address1{{< br >}}`string`|First line of company address {{< br >}}**Format**: max 64 characters. |
-|account.address2{{< br >}}`string`|Second line of company address{{< br >}}**Format**: max 64 characters.|
-|account.address3{{< br >}}`string`|Third line of company address {{< br >}}**Format**: max 64 characters.|
-|account.apartment{{< br >}}`string`|Apartment number of company address{{< br >}}**Format**: max 9 characters.|
-|account.city{{< br >}}`string`|City of company address{{< br >}}**Format**: max 50 characters.|
-|account.coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters.|
-|account.company_name{{< br >}}`string`|Name of company. {{< br >}}**Format**: max 200 characters.|
-|account.country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
-|account.email{{< br >}}`string`|Company email address. Transaction updates are sent to this address. {{< br >}}**Format**: max 100 characters.|
-|account.fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. |
-|account.id{{< br >}}`string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
-|account.phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. |
-|account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. |
-|account.zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. |
+|**account** <br /> `object`|This object holds company information|
+|account.address1 <br /> `string`|First line of company address  <br /> **Format**: max 64 characters. |
+|account.address2 <br /> `string`|Second line of company address <br /> **Format**: max 64 characters.|
+|account.address3 <br /> `string`|Third line of company address  <br /> **Format**: max 64 characters.|
+|account.apartment <br /> `string`|Apartment number of company address <br /> **Format**: max 9 characters.|
+|account.city <br /> `string`|City of company address <br /> **Format**: max 50 characters.|
+|account.coc_number <br /> `string`|Chamber of commerce number  <br /> **Format**: max 50 characters.|
+|account.company_name <br /> `string`|Name of company.  <br /> **Format**: max 200 characters.|
+|account.country <br /> `string`|Country code of company  <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
+|account.email <br /> `string`|Company email address. Transaction updates are sent to this address.  <br /> **Format**: max 100 characters.|
+|account.fax <br /> `string`|Company fax number <br /> **Format**: max 15 characters. |
+|account.id <br /> `string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
+|account.phone <br /> `string`|Company phone number <br /> **Format**: max 15 characters. |
+|account.vat_number <br /> `string`|Company VAT number <br /> **Format**: max 50 characters. |
+|account.zipcode <br /> `string`|Company ZIP Code <br /> **Format**: max 30 characters. |
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -204,34 +196,30 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts?api_key={your-acc
 
 Retrieve the account details of a specific affiliated merchant account.
 
-### Path parameters
+#### Path parameters
 |Parameter|Description|
 |-----|------|
 |account_id{{< br >}}`string`|Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
-### Query parameters
-|Key|Description|
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
 |-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Response body
-|Key|Description|
-|-----|------|
-|**account**{{< br >}}`object`|This object holds company information|
-|account.address1{{< br >}}`string`|First line of company address {{< br >}}**Format**: max 64 characters. |
-|account.address2{{< br >}}`string`|Second line of company address{{< br >}}**Format**: max 64 characters.|
-|account.address3{{< br >}}`string`|Third line of company address {{< br >}}**Format**: max 64 characters.|
-|account.apartment{{< br >}}`string`|Apartment number of company address{{< br >}}**Format**: max 9 characters.|
-|account.city{{< br >}}`string`|City of company address{{< br >}}**Format**: max 50 characters.|
-|account.coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters.|
-|account.company_name{{< br >}}`string`|Name of company. {{< br >}}**Format**: max 200 characters.|
-|account.country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
-|account.email{{< br >}}`string`|Company email address. Transaction updates are sent to this address. {{< br >}}**Format**: max 100 characters.|
-|account.fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. |
-|account.id{{< br >}}`string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
-|account.phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. |
-|account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. |
-|account.zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. |
+|**account** <br /> `object`|This object holds company information|
+|account.address1 <br /> `string`|First line of company address  <br /> **Format**: max 64 characters. |
+|account.address2 <br /> `string`|Second line of company address <br /> **Format**: max 64 characters.|
+|account.address3 <br /> `string`|Third line of company address  <br /> **Format**: max 64 characters.|
+|account.apartment <br /> `string`|Apartment number of company address <br /> **Format**: max 9 characters.|
+|account.city <br /> `string`|City of company address <br /> **Format**: max 50 characters.|
+|account.coc_number <br /> `string`|Chamber of commerce number  <br /> **Format**: max 50 characters.|
+|account.company_name <br /> `string`|Name of company.  <br /> **Format**: max 200 characters.|
+|account.country <br /> `string`|Country code of company  <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
+|account.email <br /> `string`|Company email address. Transaction updates are sent to this address.  <br /> **Format**: max 100 characters.|
+|account.fax <br /> `string`|Company fax number <br /> **Format**: max 15 characters. |
+|account.id <br /> `string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
+|account.phone <br /> `string`|Company phone number <br /> **Format**: max 15 characters. |
+|account.vat_number <br /> `string`|Company VAT number <br /> **Format**: max 50 characters. |
+|account.zipcode <br /> `string`|Company ZIP Code <br /> **Format**: max 30 characters. |
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -273,32 +261,28 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
 
 Update the account details of an affiliated merchant account.
 
-### Path parameters
+#### Path parameters
 |Parameter|Description|
 |-----|------|
 |account_id{{< br >}}`string`|Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
-### Query parameters
+{{< collapse title="Request body parameters" size="h3" >}}
 |Key|Description|
 |-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Request body
-|Key|Description|
-|-----|------|
-|address1{{< br >}}`string`|First line of company address {{< br >}}**Format**: max 64 characters. Optional.|
-|address2{{< br >}}`string`|Second line of company address{{< br >}}**Format**: max 64 characters. Optional.|
-|address3{{< br >}}`string`|Third line of company address {{< br >}}**Format**: max 64 characters. Optional.|
-|apartment{{< br >}}`string`|Apartment number of company address{{< br >}}**Format**: max 9 characters. Optional.|
-|city{{< br >}}`string`|City of company address{{< br >}}**Format**: max 50 characters Optional.|
-|coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters. Optional.|
-|company_name{{< br >}}`string`|Name of company {{< br >}}**Format**: max 200 characters. Optional.|
-|country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Optional.|
-|email{{< br >}}`string`|Company email address {{< br >}}**Format**: max 100 characters. Optional.|
-|fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. Optional.|
-|phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. Optional.|
-|vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
-|zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. Optional.|
+|address1 <br /> `string`|First line of company address  <br /> **Format**: max 64 characters. Optional.|
+|address2 <br /> `string`|Second line of company address <br /> **Format**: max 64 characters. Optional.|
+|address3 <br /> `string`|Third line of company address  <br /> **Format**: max 64 characters. Optional.|
+|apartment <br /> `string`|Apartment number of company address <br /> **Format**: max 9 characters. Optional.|
+|city <br /> `string`|City of company address <br /> **Format**: max 50 characters Optional.|
+|coc_number <br /> `string`|Chamber of commerce number  <br /> **Format**: max 50 characters. Optional.|
+|company_name <br /> `string`|Name of company  <br /> **Format**: max 200 characters. Optional.|
+|country <br /> `string`|Country code of company  <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Optional.|
+|email <br /> `string`|Company email address  <br /> **Format**: max 100 characters. Optional.|
+|fax <br /> `string`|Company fax number <br /> **Format**: max 15 characters. Optional.|
+|phone <br /> `string`|Company phone number <br /> **Format**: max 15 characters. Optional.|
+|vat_number <br /> `string`|Company VAT number <br /> **Format**: max 50 characters. Optional.|
+|zipcode <br /> `string`|Company ZIP Code <br /> **Format**: max 30 characters. Optional.|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
