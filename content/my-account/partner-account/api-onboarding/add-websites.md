@@ -107,6 +107,25 @@ Retrieve an array of all websites linked to a merchant account.
 |---|---|
 |affiliate_account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|---|---|
+| account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g. `12345678`).|
+| api_key{{< br >}}`string`| The API key for the website.{{< br >}}**Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id {{< br >}}`integer`| The unique site ID for the website.{{< br >}}**Format**: 5-digit integer (e.g. `12345`).|
+|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. |
+|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). |
+|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
+|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
+|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). |
+|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). |
+|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters).|
+
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}" \
@@ -138,9 +157,6 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
 {{< /collapse >}}
 
 ---
@@ -155,6 +171,25 @@ Retrieve a single website by its identifier.
 |Key|Description|
 |---|---|
 |site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
+
+### Query parameters
+|Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Response body
+|Key|Description|
+|---|---|
+| account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g. `12345678`).|
+| api_key{{< br >}}`string`| The API key for the website.{{< br >}}**Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id {{< br >}}`integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
+|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. |
+|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). |
+|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
+|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
+|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). |
+|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). |
+|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters).|
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -182,9 +217,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/{site_id}?a
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
+
 {{< /collapse >}}
 
 ---
@@ -202,14 +235,19 @@ Update information about an existing website.
 
 ### Query parameters
 |Key|Description|
+|-----|------|
+|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
+
+### Request body
+|Key|Description|
 |---|---|
 |name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Optional. |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
 |notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
 |price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
 |support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). Optional. |
+|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -241,16 +279,13 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key=
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
 {{< /collapse >}}
 
 ---
 
-## That's it
+## That's it!
 You've successfully created an affiliated merchant account and added the associated bank accounts, UBOs, and websites. Next, we will perform checks on the provided information.
-Once those checks have been passed successfully, the newly created account is ready to process payments.  
+Once those checks have passed successfully, the newly created account is ready to process payments.  
 
 {{< two-buttons href-1="/tools/api-onboarding/add-ubos" header-1="Previous" text-1="Add UBOs" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
 {{< two-buttons href-1="/tools/api-onboarding" header-1="Overview" text-1="Onboarding using our API" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}

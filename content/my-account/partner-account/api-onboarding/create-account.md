@@ -31,7 +31,7 @@ Create a new affiliated merchant account.
 |-----|------|
 |{your-account-api-key}{{< br >}}`string`|Your partner account API key|
 
-{{< collapse title="Request body" size="h2" >}}
+{{< collapse title="Request body" size="h3" >}}
 |Key|Description|
 |-----|------|
 |**account**  <br /> `object`|This object holds company information|
