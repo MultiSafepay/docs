@@ -304,10 +304,10 @@ Depending on how the customer's card is stored in their Google Pay account, the 
 
 If the customer's credit card was stored as:
 
-- **Token** (`CRYPTOGRAM_3DS`): the `payment_url` redirects to your succes page
-- **Card on file** (`PAN_ONLY`): the `payment_url` may redirect to a 3D Secure authentication page
+- **Token** (`CRYPTOGRAM_3DS`), the `payment_url` redirects to your success page.
+- **Card on file** (`PAN_ONLY`), the `payment_url` may redirect to a 3D Secure authentication page.
 
-If 3D Secure authentication is required, the customer is automatically redirected to your succes page after authentication.
+If 3D Secure authentication is required, the customer is automatically redirected to your success page after authentication.
 
 ## Test and go live
 

@@ -200,12 +200,12 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page that you need to redirect your customer to. 
+The URL of the page to redirect the customer to to complete payment. 
 
-Depending on [how to customer's card is stored](/payment-methods/google-pay/direct/#step-6-redirect-the-customer) in their Google Pay account, this URL references:
+Depending on [how the customer's card is stored](/payment-methods/google-pay/direct/#step-6-redirect-the-customer) in their Google Pay account, this URL references:
 
-- A 3D Secure authentication page. **or**
-- Your success page (`payment_options.redirect_url`).
+- A 3D Secure authentication page, **or**
+- Your success page (`payment_options.redirect_url`)
 
 ----------------
 
