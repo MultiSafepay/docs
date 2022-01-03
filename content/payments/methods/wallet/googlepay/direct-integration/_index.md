@@ -290,6 +290,25 @@ From your server, create a [Google Pay direct order](/api/#google-pay---direct).
 
 For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
 
+## Step 6: Redirect the customer
+
+In response to the API request you made in the previous step, you receive a `payment_url` (see API Reference – [Google Pay direct order](/api/#google-pay---direct)).
+
+Pass the `payment_url` from your server to the customer's device and redirect the customer to the URL:
+
+```
+document.location = payment_url
+```
+
+Depending on how the customer's card is stored in their Google Pay account, the URL references your success page, or a 3D Secure authentication page.
+
+If the customer's credit card was stored as:
+
+- **Token** (`CRYPTOGRAM_3DS`), the `payment_url` redirects to your success page.
+- **Card on file** (`PAN_ONLY`), the `payment_url` may redirect to a 3D Secure authentication page.
+
+If 3D Secure authentication is required, the customer is automatically redirected to your success page after authentication.
+
 ## Test and go live
 
 After you've implemented the steps above, to test your integration:
