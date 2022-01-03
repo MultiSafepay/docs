@@ -1,11 +1,14 @@
 ---
-title: "Transaction session expiry periods"
+title: "Payment method expiry periods"
 weight: 40
-meta_title: "Transaction session expiry periods - MultiSafepay Docs"
+meta_title: "Payment method expiry periods - MultiSafepay Docs"
 read_more: "."
-url: '/developer/transaction-session-expiry/'
+url: '/developer/payment-method-expiry-periods/'
 ---
-When MultiSafepay connects to a payment method to initiate a transaction, a session is created and a session ID returned. If the customer doesn't complete payment within the time period set by the payment method, the session expires.
+Different payment methods set different expiry periods for transactions. The period begins:
+
+- For direct requests: When you make the `POST /orders` request.
+- For redirect requests: When the customer selects the payment method on the [MultiSafepay payment page](/payment-pages/). 
 
 This does **not** apply to:
 
