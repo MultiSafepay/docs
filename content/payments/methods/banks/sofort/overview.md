@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/sofort-banking/product-rules/
     - /payment-methods/sofort/product-rules/
 ---
-Sofort is a banking payment method by Klarna. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
+[Sofort](https://www.klarna.com/pay-now/) is a banking payment method by Klarna. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
 
 Once payment is completed, the customer cannot reverse it and Sofort guarantees settlement.
 

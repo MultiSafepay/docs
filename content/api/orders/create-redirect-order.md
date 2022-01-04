@@ -81,7 +81,7 @@ Your unique identifier for the order.
 Format: Maximum 50 characters.
 
 ----------------
-`gateway` | string | required
+`gateway` | string | optional
 
 The gateway code for the payment method.  
 

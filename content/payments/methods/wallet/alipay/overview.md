@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/alipay/product-rules/
     - /payment-methods/alipay/product-rules/
 ---
-Alipay is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. 
+[Alipay](https://global.alipay.com/platform/site/ihome) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. 
 
 It supports online, QR, and contactless POS payments, as well as international money transfers.
 
@@ -22,7 +22,7 @@ For Chinese customers, Alipay accounts are verified and linked to their Chinese 
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds/)  |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/)  |
 | **Payment features**  | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 5 hours |
 

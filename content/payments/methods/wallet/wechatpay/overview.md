@@ -10,8 +10,7 @@ aliases:
     - /payments/methods/wechatpay/product-rules/
     - /payment-methods/wechatpay/product-rules/
 ---
-
-WeChat Pay is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
+[WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
 
 |   |   |  
 |---|---|

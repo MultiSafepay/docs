@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/giropay/product-rules/
     - /payment-methods/giropay/product-rules/
 ---
-Giropay is the leading inter-bank payment method in Germany, connecting all major German retail banks. 
+[Giropay](https://www.giropay.de/) is the leading inter-bank payment method in Germany, connecting all major German retail banks. 
 
 Customers pay from their own online banking environment. Settlement is instant and guaranteed.
 

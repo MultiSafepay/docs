@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/trustpay/product-rules/
     - /payment-methods/trustpay/product-rules/
 ---
-TrustPay is a bank payment method in the Czech Republic. 
+[TrustPay](https://www.trustpay.eu/) is a bank payment method in the Czech Republic. 
 
 Customers pay from their own online banking environment.
 

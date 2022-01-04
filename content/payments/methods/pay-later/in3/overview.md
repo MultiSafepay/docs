@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/in3/product-rules/
     - /payment-methods/in3/product-rules/
 ---
-in3 is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). 
+[in3](https://payin3.eu/en/) is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). 
 
 in3 processes all the installments and guarantees settlement after receiving the first one.
 
@@ -21,7 +21,7 @@ in3 processes all the installments and guarantees settlement after receiving the
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds) {{< br >}} You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) {{< br >}} You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 2 hours |
 

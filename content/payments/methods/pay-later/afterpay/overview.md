@@ -12,15 +12,14 @@ aliases:
     - /payments/methods/afterpay/product-rules/
     - /payment-methods/afterpay/product-rules/
 ---
-AfterPay is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
-
+[AfterPay](https://www.afterpay.nl/en/) is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
  
 |   |   |   |
 |---|---|---|
 | **Countries**  | The Netherlands, Belgium  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later-refunds/) {{< br >}} See [Multiple order rules](/payments/refunds/#pay-later-method-multiple-order-rules). |
+| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) |
 | **Transactions expire after** | 90 days |
 
 ## Notes

@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/cartes-bancaires/about/
     - /payments/methods/cartes-bancaires/product-rules/
 ---
-Cartes Bancaires is a popular Visa-branded credit card in France. 
+[Cartes Bancaires](https://www.cartes-bancaires.com/) is a popular Visa-branded credit card in France. 
 
 An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
 

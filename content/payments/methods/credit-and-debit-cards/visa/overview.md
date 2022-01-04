@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/visa/about/
     - /payments/methods/visa/product-rules/
 ---
-Visa is a leading global credit card scheme. 
+[Visa](https://www.visa.com/globalgateway/?retcountry=1) is a leading global credit card scheme. 
 
 An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/features/3d-secure/)), which requires cardholders to verify their identity.
 

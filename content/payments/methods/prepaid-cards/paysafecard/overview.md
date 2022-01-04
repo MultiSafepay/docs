@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/paysafecard/product-rules/
     - /payment-methods/paysafecard/product-rules/
 ---
-Paysafecard lets customers make online payments using secure prepaid vouchers, available for purchase locally. 
+[Paysafecard](https://www.paysafecard.com/en/) lets customers make online payments using secure prepaid vouchers, available for purchase locally. 
 
 The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. The funds are available immediately.
 

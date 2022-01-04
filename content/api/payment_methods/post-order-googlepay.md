@@ -49,7 +49,9 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
   "amount":1495,
   "description":"Order Description",
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification"
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel"
   },
   "gateway_info":{
     "payment_token":"<google-pay-payment-token>"
@@ -136,7 +138,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
+The URL of the MultiSafepay payment page where the customer is redirected from your checkout to complete payment.
 
 ----------------
 
@@ -189,7 +191,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 Value: `false`.
 
 ----------------
-`payment_options.` | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
@@ -198,7 +200,12 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
+The URL of the page to redirect the customer to to complete payment. 
+
+Depending on [how the customer's card is stored](/payment-methods/google-pay/direct/#step-6-redirect-the-customer) in their Google Pay account, this URL references:
+
+- A 3D Secure authentication page, **or**
+- Your success page (`payment_options.redirect_url`)
 
 ----------------
 

@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/apple-pay/product-rules/
     - /payment-methods/apple-pay/product-rules/
 ---
-Apple Pay is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. 
+[Apple Pay](https://www.apple.com/apple-pay/) is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. 
 
 Customers can make both online and near-field communication (NFC) payments. 
 

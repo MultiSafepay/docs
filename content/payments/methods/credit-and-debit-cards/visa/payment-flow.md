@@ -49,19 +49,19 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
-| The transaction is complete. | Completed | Completed |
+| The transaction is initiated and the customer has been redirected to 3D Secure. | Initialized | Initialized |
+| 3D Secure authorization was sucessful, but the transaction is flagged for potential fraud risk. [Manually capture or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| MultiSafepay has collected payment. | Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer has requested a chargeback. | Void | Void |
+| Payment wasn't captured manually or within 7 days. | Void | Void |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| The customer's bank has declined the transaction. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
+| 3D Secure authorization failed or was cancelled, and the transaction was declined. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
 
-## Refund statuses
+## Refund/chargeback statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| The refund/chargeback is initiated. | Reserved    | Reserved   |
+| The refund/chargeback is complete.  | Completed      | Completed   |
 
 
