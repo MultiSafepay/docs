@@ -10,6 +10,7 @@ aliases:
 ---
 
 The Magento 2 plugin supports [generic gateways](/developer/generic-gateways/).
+You can filter generic gateways by country, and minimum and maximum amount.
 
 To configure a generic gateway:
 

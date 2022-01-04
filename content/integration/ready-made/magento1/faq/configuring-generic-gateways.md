@@ -14,6 +14,8 @@ The Magento 1 plugin offers 3 [generic gateways](/developer/generic-gateways/) a
 - Refunds 
 - [Backend](/glossaries/multisafepay-glossary/#backend) orders
 
+You can filter generic gateways by country, and minimum and maximum amount.
+
 To configure generic gateways:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 

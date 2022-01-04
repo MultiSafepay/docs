@@ -11,6 +11,8 @@ aliases:
 
 The Shopware 6 plugin supports [generic gateways](/developer/generic-gateways/). 
 
+You can filter generic gateways by country, and minimum and maximum amount.
+
 To configure a generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend).

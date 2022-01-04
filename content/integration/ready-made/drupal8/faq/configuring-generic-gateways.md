@@ -9,6 +9,8 @@ aliases:
 
 The Drupal 8 & 9 plugin offers [generic gateways](/developer/generic-gateways/) that support all payment methods.
 
+You can filter generic gateways by country, and minimum and maximum amount.
+
 To configure a generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 

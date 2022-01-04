@@ -10,6 +10,8 @@ aliases:
 
 The Craft Commerce 3 plugin offers [generic gateways](/developer/generic-gateways/) and generic gift cards, which support all payment methods.
 
+You can filter generic gateways by country, and minimum and maximum amount.
+
 To configure a generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 
