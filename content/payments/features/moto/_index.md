@@ -46,7 +46,7 @@ The transaction appears in your **Transaction overview**.
 
 ## Via our API
 
-See API reference – Server to Server: [Credit card requests](/api/#credit-card-requests).
+See API reference – Server to Server: [Credit card and MOTO requests](/api/#credit-card-and-moto-requests).
 
 In the `gateway_info` object, include the `moto` parameter.
 
