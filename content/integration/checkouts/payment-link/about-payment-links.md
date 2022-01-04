@@ -12,14 +12,14 @@ aliases:
     - /payments/checkout/payment-link/
 ---
 
-You can manually generate a link to a [MultiSafepay payment page](/payment-pages/) to send to a customer to complete payment. 
+You can manually generate a link to a [MultiSafepay payment page](/payment-pages/) to pass to a customer to complete payment. 
 
 ## Use cases 
 
 - A customer wants to adjust an existing order and instead of starting over with a new order.
 - You need to create a transaction for a manually generated order.
-- MultiSafepay receives a payment from a customer for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to MultiSafepay.
-- A [Bank Transfer](/payment-methods/bank-transfer/) payment link has expired.
+- MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
+- A [Bank Transfer](/payment-methods/bank-transfer/) transaction has expired.
 
 ## Payment methods
 
@@ -29,16 +29,16 @@ The payment page displays **all** payment methods activated for the relevant web
 
 ## Lifetimes
 
-The lifetime of a payment link is how long it remains valid for the customer to access the payment page and complete payment. The default is 30 days. 
+The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
 
 To set or adjust the lifetime, see API reference – [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
 
-**Note:** This is different to the [payment method expiry period](/developer/payment-method-expiry-periods/). 
+{{< blue-notice >}} **Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). {{< /blue-notice >}} 
 
 ## Attempts 
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, all the others remain **Initialized** until they expire.
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/about-payments/multisafepay-statuses/) of the other transactions remains **Initialized** until they expire.
 
 ## Viewing payment links
 

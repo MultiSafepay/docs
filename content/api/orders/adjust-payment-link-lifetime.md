@@ -12,7 +12,7 @@ aliases:
 ```json 
 
 {
-  "type":"paymentlink",
+  "type":"redirect",
   "order_id":"test-123",
   "gateway":"",
   "currency":"EUR",
@@ -38,21 +38,19 @@ aliases:
 {{< description >}}
 ### Adjust payment link lifetimes
 
-The lifetime of [payment links](/payments/checkout/payment-link/) for MultiSafepay payment pages is how long the link remains valid for the customer to complete payment. This applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only. The default is 30 days, after which the link expires. Except for:  
+The lifetime of a [payment link](/payments/checkout/payment-link/) to a [MultiSafepay payment page](/payment-pages/) is how long the customer can use the link to access the payment page and complete payment. 
 
-- [Bank Transfer](/payments/methods/banks/bank-transfer/): 60 days
-- [PayPal](/payments/methods/wallet/paypal/): 14 days
-- [Pay later methods](/payments/methods/pay-later/): You cannot adjust payment link lifetimes.
+The lifetime begins when the payment link is generated. A `session_id` is returned in the payment page URL. The default lifetime is 30 days, after which the link expires.
+
+This applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only.  
 
 To cancel a payment link, see [Cancel an order](/api/#cancel-an-order).
 
-**Second Chance**  
-You cannot edit payment links in [Second Chance](/features/second-chance/) emails, because the `session_id` of the initial transaction has already been used. You can only edit the link in the initial `POST /orders` request. 
+{{< alert-notice >}} If you have [Second Chance](/features/second-chance/) enabled, we recommend a minimum lifetime of **48&nbsp;hours**.   
+&nbsp;  
+Second Chance emails the customer two payment reminders: 1 hour and 24 hours after the payment link was generated. If the payment link lifetime is less than 24 hours, the link in the second email is no longer active. {{< /alert-notice >}}
 
-If set for under 24 hours:  
-
-- `days_active`: The payment link displays an error message when opened.
-- `seconds_active`: The second email is still sent, even though the payment link it contains is no longer valid. This can't be changed.  
+**Note:** Payment link lifetimes are different to [transaction expiration times per payment method](/developer/transaction-expiration/). 
 
 **Parameters**
 
@@ -62,19 +60,17 @@ Include in the main body of your `POST /orders` request:
 
 `days_active` | string | optional
 
-The number of days the payment link is valid for.  
+Sets the number of days the payment link is active for.  
 If not set, or if `seconds_active` is also set, `seconds_active` is used.  
 If neither `days_active` nor `seconds_active` is set, the default is used.  
-Default: 30 days.
 
 ----------------
 `seconds_active` | string | optional
 
-The number of seconds the payment link is valid for.  
-Example: 86.400 `seconds_active` = 1 `days_active`.  
+Sets the number of seconds the payment link is active for.  
+Example: 86,400 `seconds_active` = 1 `days_active`.  
 If set and larger than 0, `seconds_active` overrides `days_active`.  
 If neither `days_active` nor `seconds_active` is set, the default is used.  
-Default: 30 days. 
 
 ----------------
 `description` | string | optional

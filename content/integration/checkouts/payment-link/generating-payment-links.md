@@ -20,7 +20,6 @@ You can generate payment links in:
 - Your MultiSafepay account
 - The MultiSafepay app
 - Some [ready-made integrations](/integrations/ready-made/)
-- Via our API
 
 ## MultiSafepay account
 
@@ -37,7 +36,7 @@ You can generate payment links in:
 8. In the **Link expiration (days)** field, enter the number of days for the link to remain active. Default: 30 days.
 9. To send [Second Chance emails](/features/second-chance/), select the **Second chance email** check box. 
 10. Optionally, enter the customer's:  
-    - **First name** and - **Last name**
+    - **First name** and **Last name**
     - **Email address**
     - **Country**
     - **Language**
@@ -67,8 +66,6 @@ When the customer scans the QR code, they are directed to a pre-filled MultiSafe
 ## Ready-made integrations
 
 For some of our [ready-made integrations](/integrations/ready-made/), you can generate payment links in your [backend](/glossaries/multisafepay-glossary/#backend).
-
-## API
 
 See API reference:
 

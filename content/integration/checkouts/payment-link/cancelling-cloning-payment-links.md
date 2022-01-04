@@ -12,6 +12,7 @@ aliases:
     - /payment-links/disabling-payment-links-for-payment-methods/
     - /payment-links/disabling-links/
 ---
+This page sets out how to clone and how to cancel payment links.
 
 ## Cloning payment links
 
