@@ -2,12 +2,13 @@
 title: "Logos and icons"
 Weight: 12
 meta_title: "Logos and icons - MultiSafepay Docs"
-
+url: '/developer/logos-icons/'
 read_more: "."
 aliases:
     - /faq/general/styleguide
     - /faq/general/where-find-logo-payment-methods
     - /faq/general/logos-and-icons/
+    - /developer/general/logos-and-icons/
 --- 
 For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
 

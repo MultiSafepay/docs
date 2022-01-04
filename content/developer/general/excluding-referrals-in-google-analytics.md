@@ -3,8 +3,10 @@ title : "Excluding referrals in Google Analytics"
 weight: 7
 meta_title: "Excluding referrals in Google Analytics - MultiSafepay Docs"
 read_more: "."
+url: '/developer/excluding-referrals-in-google-analytics/'
 aliases:
     - /faq/general/google-analytics-referral-exclusions
+    - /developer/general/excluding-referrals-in-google-analytics/
 ---
 
 For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your website, Google Analytics doesn't correctly track these visits to your website, e.g.:

@@ -1,10 +1,12 @@
 ---
-title: "Difference between direct and redirect API requests"
+title: "Direct vs redirect API requests"
 weight: 1
-meta_title: "Difference between direct and redirect - MultiSafepay Docs"
+meta_title: "Direct vs redirect API requests - MultiSafepay Docs"
 read_more: "."
+url: '/developer/direct-vs-redirect/'
 aliases:
     - /faq/api/difference-between-direct-and-redirect
+    - /developer/api/difference-between-direct-and-redirect/
 ---
 
 In our API, you can make direct and redirect requests.
