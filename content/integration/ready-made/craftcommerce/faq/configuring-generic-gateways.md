@@ -13,7 +13,7 @@ The Craft Commerce 3 plugin offers [generic gateways](/developer/generic-gateway
 To configure a generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 
-2. Go to **Commerce** > **System Settings** > **Gateways** > **+ New gateway**.
+2. Go to **Commerce** > **System settings** > **Gateways** > **+ New gateway**.
 3. In the Gateway field select **Generic Gateway**.
 4. Set the relevant [payment method gateway codes](/developer/gateway-codes) and the gateway label.
 
