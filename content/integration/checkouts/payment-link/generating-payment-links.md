@@ -19,7 +19,7 @@ You can generate payment links in:
 
 - Your MultiSafepay account
 - The MultiSafepay app
-- Some [ready-made integrations](/integrations/ready-made/)
+- Some ready-made integrations
 
 ## MultiSafepay account
 
@@ -65,7 +65,13 @@ When the customer scans the QR code, they are directed to a pre-filled MultiSafe
 
 ## Ready-made integrations
 
-For some of our [ready-made integrations](/integrations/ready-made/), you can generate payment links in your [backend](/glossaries/multisafepay-glossary/#backend).
+You can generate payment links in the [backend](/glossaries/multisafepay-glossary/#backend) of the following [ready-made integrations](/integrations/ready-made/):
+
+- [Magento 1](/magento-1/)
+- [Magento 2](/magento-2)
+- [OpenCart](/opencart/)
+- [Shopware 5](/shopware-5/)
+- [WooCommerce](/woo-commerce/)
 
 See API reference:
 
