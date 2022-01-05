@@ -20,7 +20,7 @@ To activate the Payment Component in your Wordpress - WooCommerce [backend](/glo
 
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > **Credit card**, and then click **Manage**.
-3. Click in the **Payment Components** checkbox to enable this feature.
+3. Select the **Payment components** checkbox.
 4. Click **Save changes**.
 
 For questions, email the Integration Team at <integration@multisafepay.com>
