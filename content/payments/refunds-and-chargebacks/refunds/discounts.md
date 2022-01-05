@@ -7,9 +7,16 @@ short_description: "Process discounts via your MultiSafepay account or our API"
 read_more: "."
 url: '/refunds/discounts/'
 ---
-You can process discounts either via your MultiSafepay account or our API.
+You can process discounts either via your MultiSafepay account or our API for the following payment methods:
 
-Discounts are processed as a negative **amount** instead of a negative **quantity**.
+- AfterPay
+- Alipay
+- E-Invoicing
+- in3
+- Klarna
+- Pay After Delivery
+
+**Note:** Discounts are processed as a negative **amount** instead of a negative **quantity**.
 
 ## MultiSafepay account
 
