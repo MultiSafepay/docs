@@ -16,7 +16,7 @@ aliases:
     - /set-up-your-account/site-id-api-key-secure-code
 ---
 ## Account API key
-Your MultiSafepay account API key is automatically generated when your account is created. To retrieve it, email your account manager at <sales@multisafepay.com>
+Your MultiSafepay account API key is automatically generated when your account is created. To retrieve it, email <sales@multisafepay.com>
 
 ## Website API key, site ID, and secure code
 To view the site ID, API key, and secure code for a specific website:

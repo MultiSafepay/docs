@@ -28,7 +28,7 @@ MultiSafepay supports the following exemptions (on request):
 
 This can help you optimize [conversion](/glossaries/multisafepay-glossary/#conversion-rate) and minimize risk.
 
-To apply, email your account manager at <sales@multisafepay.com>
+To apply, email <sales@multisafepay.com>
 
 ## See also 
 

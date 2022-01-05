@@ -21,7 +21,7 @@ The most common reason for disabling 3D Secure is if you have a lot of customers
 {{< alert-notice >}} **Important:** Removing the layer of security provided by 3D Secure increases the risk of fraud. You bear the risk and become liable for any [fraud-related chargebacks](/payments/chargebacks/). {{< /alert-notice>}}
 
 ## Applying for Dynamic 3D Secure
-To apply to use Dynamic 3D Secure, email your account manager at <sales@multisafepay.com>
+To apply to use Dynamic 3D Secure, email <sales@multisafepay.com>
 
 You must:
 

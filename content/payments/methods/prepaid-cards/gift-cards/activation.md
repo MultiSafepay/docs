@@ -15,8 +15,8 @@ aliases:
 - First check that the gift card is supported.
 - Once we have activated the card in your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
 
-1. Check your eligibility with your account manager at <sales@multisafepay.com> 
-2. Send an application to the **card issuer**, providing your company details and MultiSafepay account ID.
+1. To check your eligibility, email <sales@multisafepay.com> 
+2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
 3. The issuer connects you to the card using one of the following:
 
     - [Intersolve](https://intersolve.nl/contact) (majority of gift cards)

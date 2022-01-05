@@ -41,7 +41,7 @@ Contact us:
 - Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
 - Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
 
-For support for Shopware 6 Professional/Enterprise, email your account manager at <sales@multisafepay.com>
+For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>
 
 {{< /details >}}
 

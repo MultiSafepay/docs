@@ -38,9 +38,9 @@ Applies to:
 - All [pay later methods](/payments/methods/pay-later/)
 - All [wallets](/payments/methods/wallet/), except [PayPal](/payment-methods/paypal/)
 
-Email an application to your account manager at <sales@multisafepay.com>
+Email a request to <sales@multisafepay.com>
 
-For credit cards, Apple Pay, and Google Pay, include in the application your:
+For credit cards, Apple Pay, and Google Pay, include in the request your:
 
 - Average, minimum, and maximum transaction amount
 - Annual turnover in credit card transactions

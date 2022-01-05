@@ -19,7 +19,7 @@ aliases:
 
 1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
 2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
-3. Email these credentials to your MultiSafepay account manager at <sales@multisafepay.com> 
+3. Email these credentials to <sales@multisafepay.com> 
 4. MultiSafepay connects to Klarna. 
 5. Test payments in your test environment. 
 

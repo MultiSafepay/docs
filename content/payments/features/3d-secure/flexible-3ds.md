@@ -14,7 +14,7 @@ aliases:
 ---
 
 {{< alert-notice >}}
-**Note:** MultiSafepay no longer supports Flexible 3D in Europe due to [PSD2 regulations](/payment-regulations/psd2/). If you are a European merchant with a lot of customers outside Europe and you need a more flexible setup, email your account manager at <sales@multisafepay.com>
+**Note:** MultiSafepay no longer supports Flexible 3D in Europe due to [PSD2 regulations](/payment-regulations/psd2/). If you are a European merchant with a lot of customers outside Europe and you need a more flexible setup, email <sales@multisafepay.com>
 {{< /alert-notice >}}
 
 Flexible 3D lets you enable and disable mandatory [3D Secure](/features/3d-secure/about/) authentication of credit card transactions via our API.

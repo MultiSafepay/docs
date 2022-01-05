@@ -15,7 +15,7 @@ aliases:
 - First check that the payment method is supported. 
 - Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-To use Apple Pay, you must also have credit card payments activated in your MultiSafepay account. If not already activated, email an application to your account manager at <sales@multisafepay.com>
+To use Apple Pay, you must also have credit card payments activated in your MultiSafepay account. If not already activated, email a request to <sales@multisafepay.com>
 
 In the email, provide your expected:
 

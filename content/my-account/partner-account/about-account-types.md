@@ -19,5 +19,6 @@ Partner and [merchant](/glossaries/multisafepay-glossary/#merchant) accounts eac
 
 Partner accounts act as a parent to affiliated merchant accounts and may charge them. For more information, see [Charging affiliates](/account/charging-affiliates/).
 
-If you currently have a merchant account, contact your account manager to discuss your options. 
+If you currently have a merchant account, to discuss your options, email <sales@multisafepay.com> 
+
 If you don't have a MultiSafepay account, [sign up for a partner account](https://merchant.multisafepay.com/signup?partner).

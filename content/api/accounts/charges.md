@@ -54,7 +54,7 @@ meta_title: "API - Charges - MultiSafepay Docs"
 
 As a partner or primary account holder, use this endpoint to move funds from an affiliated account's balance to your own. 
 
-By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
+By default, charges are disabled. To enable charges for your account, email <sales@multisafepay.com>
 
 For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
 

@@ -10,11 +10,11 @@ url: '/features/server-to-server/activation/'
 aliases:
     - /payments/features/server-to-server/activation/
 ---
-**1.** Check your eligibility with your account manager at <sales@multisafepay.com>
+**1.** To check your eligibility, email <sales@multisafepay.com>
 
 **2.** Make sure you are [PCI DSS](/payment-regulations/pci-dss/) compliant.
 
-**3.** Email your application to the Risk Team at <risk@multisafepay.com>
+**3.** Email a request to the Risk Team at <risk@multisafepay.com>
 
 The Risk Team checks your account and company performance. 
 
