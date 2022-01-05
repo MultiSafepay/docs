@@ -1,8 +1,9 @@
 ---
-title : "Unmasking IBAN numbers"
-meta_title: "Unmasking IBAN numbers - MultiSafepay Docs"
+title : "Unmasking IBANs"
+meta_title: "Unmasking IBANs - MultiSafepay Docs"
 weight: 6
 read_more: "."
+url: '/developer/unmasking-ibans/'
 aliases:
     - /faq/api/masking-iban-numbers
 ---

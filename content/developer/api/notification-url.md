@@ -3,6 +3,7 @@ title : "Notification URL"
 meta_title: "Notification URL - MultiSafepay Docs"
 weight: 3
 read_more: "."
+url: '/developer/webhooks/'
 aliases:
     - /faq/api/how-does-the-notification-url-work
     - /faq/api/notification-url
