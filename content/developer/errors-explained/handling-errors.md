@@ -152,7 +152,7 @@ To reactivate the website in your MultiSafepay account:
 
 For security reasons, we have blocked your MultiSafepay account and it cannot process payments. 
 
-Email your account manager at <sales@multisafepay.com>
+Email <sales@multisafepay.com>
 
 #### Error 1021: Cannot create transaction
 

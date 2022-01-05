@@ -23,7 +23,7 @@ You must:
 - Sell products or services to European citizens with a residential or delivery address in Netherlands (no exceptions)
 - Connect to MultiSafepay via our API or [ecommerce integrations](/payments/integrations/ecommerce-platforms/)
 
-1. Email an application to your account manager at <sales@multisafepay.com>
+1. Email a request to <sales@multisafepay.com>
 
 2. We check your eligibility and connection with MultiSafepay. 
 

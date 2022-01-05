@@ -19,7 +19,7 @@ An additional layer of security is provided by SecureCode (Mastercard's version 
 |   |   |   |
 |---|---|---|
 | **Countries**  | Worldwide  | 
-| **Currencies**  | Multiple {{< br >}} Email requests to support additional currencies to <support@multisafepay.com> | 
+| **Currencies**  | Multiple {{< br >}} Email a request to support additional currencies to <support@multisafepay.com> | 
 | **Chargebacks**   | Yes – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Transactions expire after** | 1 hour |

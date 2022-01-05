@@ -63,4 +63,4 @@ Supported format: Excel
 
 ## Requesting reports
 
-To request a Second Chance report, email your account manager at <sales@multisafepay.com>
+To request a Second Chance report, email <sales@multisafepay.com>

@@ -35,7 +35,7 @@ meta_title: "API - Balances - MultiSafepay Docs"
 
 As a partner or primary account holder, use this endpoint to retrieve the balance of an affiliated account.
 
-By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
+By default, charges are disabled. To enable charges for your account, email <sales@multisafepay.com>
 
 For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/).
 

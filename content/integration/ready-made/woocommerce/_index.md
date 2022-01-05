@@ -141,7 +141,7 @@ There are two ways to install the plugin:
 
 ## Configuration
 1. Sign in to your WooCommerce backend.
-2. Go to **WooCommerce** > **MultiSafepay Settings**
+2. Go to **WooCommerce** > **MultiSafepay settings**
 3. On the **Account** tab, enter your API key. For where to find your API key, see [API key](/tools/multisafepay-control/get-your-api-key).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.
 4. On the **Options** tab, confirm your settings, and then click **Save changes**.

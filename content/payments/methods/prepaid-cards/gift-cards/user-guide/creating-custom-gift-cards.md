@@ -12,7 +12,7 @@ aliases:
 
 MultiSafepay can develop a custom gift card for you. 
 
-**1.** Email an application to your account manager at <sales@multisafepay.com> 
+**1.** Email a request to <sales@multisafepay.com> 
 
 **2.** MultiSafepay performs checks and requests information:
 

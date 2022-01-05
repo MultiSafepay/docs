@@ -15,7 +15,7 @@ aliases:
 - First check that the payment method is supported. 
 - Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-**1.** Email your account manager to check you are eligible for AfterPay at <sales@multisafepay.com>
+**1.** To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
 **2.** For new AfterPay clients, apply directly to AfterPay:
 
