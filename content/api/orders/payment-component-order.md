@@ -163,7 +163,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------
 
-`customer.ip_address` | string | recommended
+`customer.ip_address` | string | required
 
 The customer's IP address.
 

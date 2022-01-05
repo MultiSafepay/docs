@@ -754,7 +754,7 @@ AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay
 
 **Test an AfterPay order**
 
-1. Make a [direct or redirect](/api/#afterpay) API request. For more information, see [Difference between direct and redirect API requests](/developer/api/difference-between-direct-and-redirect).
+1. Make a [direct or redirect](/api/#afterpay) API request. For more information, see [Direct vs redirect API requests](/developer/direct-vs-redirect).
 2. If you make a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 

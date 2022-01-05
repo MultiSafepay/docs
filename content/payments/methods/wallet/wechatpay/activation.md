@@ -14,6 +14,6 @@ aliases:
 - First check that the payment method is supported. 
 - Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-**1.** Email an application to activate WeChat Pay to your account manager at <sales@multisafepay.com>
+**1.** Email a request to activate WeChat Pay to <sales@multisafepay.com>
 
 **2.** The Risk Team checks your eligibilty and if approved, activates WeChat Pay in your account.

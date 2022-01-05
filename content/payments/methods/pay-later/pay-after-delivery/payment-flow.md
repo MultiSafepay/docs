@@ -56,7 +56,7 @@ To stop sending reminders, you can either:
 - Credit the invoice for a zero amount, or
 - Request to place the transaction on hold for up to 1 month
 
-Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
+Email a request to place transactions on hold to <klantenservice@multifactor.nl>  
 Provide the following information:
 
 - Transaction details

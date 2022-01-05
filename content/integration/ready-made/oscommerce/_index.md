@@ -31,7 +31,7 @@ This technical manual is for installing and configuring our free plugin for inte
 
 We recommend first installing the plugin in a test environment following the recommended OsCommerce installation procedure. Make sure you have made a backup.
 
-Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email your account manager at <sales@multisafepay.com>
+Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
 
 {{< /details >}}
 

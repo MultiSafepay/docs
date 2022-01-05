@@ -40,7 +40,7 @@ We may request a copy of an invoice, e.g. if:
 
 We may also ask other questions about the transaction. Following our investigation, if we still don't understand the transaction, we may pause [payouts](/account/payouts/) or take other punitive measures.
 
-For more information, email your account manager or the Support Team at <support@multisafepay.com>
+For more information, email the Support Team at <support@multisafepay.com>
 
 ## Periodic reviews
 

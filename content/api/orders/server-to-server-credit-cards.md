@@ -1,7 +1,6 @@
 ---
 weight: 235
 meta_title: "API reference - Credit card Server to Server requests - MultiSafepay Docs"
-
 ---
 {{< code-block >}}
 > POST - /orders
@@ -41,7 +40,8 @@ meta_title: "API reference - Credit card Server to Server requests - MultiSafepa
     "card_number":"5555555555554444",
     "card_holder_name":"MasterCard-Test-Order",
     "card_expiry_date":"2512",
-    "card_cvc":"123"
+    "card_cvc":"123",
+    "moto": true
   }
 }
 ```
@@ -130,7 +130,9 @@ meta_title: "API reference - Credit card Server to Server requests - MultiSafepa
 
 {{< description >}}
 
-### Credit card requests
+### Credit card and MOTO requests
+
+For more information, see [MOTO](/features/moto/).
 
 **Parameters**
 
@@ -147,13 +149,13 @@ Your unique identifier for the order.
 Format: Maximum 50 characters.
 
 ----------------
-`currency` | string | optional
+`currency` | string | required
 
 The currency you want the customer to pay with.  
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). 
 
 ----------------
-`amount` | integer | optional
+`amount` | integer | required
 
 The amount the customer needs to pay in the currency's smallest unit:
 
@@ -185,28 +187,32 @@ See [payment_options (object)](/api/#payment-options-object).
 See [customer (object)](/api/#customer-object).
 
 ----------------
-`gateway_info` | object
+`gateway_info` | object | required
 
 Contains:  
 
-`card_number` | string
+`card_number` | string | required
 
 The customer's full credit card number.
 
-`card_holder_name` | string
+`card_holder_name` | string | required
 
 The name of the cardholder on the credit card.
 
-`card_expiry_date` | string
+`card_expiry_date` | string | required
 
 The expiry date on the credit card.  
 Format: YYMM
 
-`card_cvc` | string
+`card_cvc` | string | required
 
 The card verification code (CVC) is a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  
 For some cards, like MAESTRO, this may not be required.  
 CVC is also not required for recurring transactions.
+
+`moto` | boolean | optional
+
+Processes a [MOTO](/features/moto/) transaction.
 
 **Response**
 

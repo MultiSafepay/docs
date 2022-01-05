@@ -26,7 +26,7 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 
 ## Notes
 
-- Minimum and maximum order amounts apply. For more information, email your account manager at <sales@multisafepay.com>
+- Minimum and maximum order amounts apply. For more information, email <sales@multisafepay.com>
 
 - The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
 

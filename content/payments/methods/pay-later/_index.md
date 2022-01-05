@@ -6,6 +6,7 @@ meta_title: 'Pay later methods - MultiSafepay Docs'
 logo: '/svgs/Billing Suite.svg'
 short_description: 'Enable customers to shop now and pay later'
 weight: 30
+url: '/payment-methods/pay-later/'
 data:
   - { title: 'AfterPay', url: 'afterpay', logo: '/logo/Payment_methods/AfterPay.svg' }
   - { title: 'Pay After Delivery', url: 'pay-after-delivery', logo: '/logo/Payment_methods/Pay_After_Delivery.svg' }
@@ -15,6 +16,6 @@ data:
 aliases:
     - /payment-methods/billing-suite/
     - /payment-methods/pay-after-delivery/
-
+    - /payments/methods/pay-later/
 --- 
 

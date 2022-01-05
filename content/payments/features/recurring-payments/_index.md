@@ -158,7 +158,7 @@ See API reference – [Recurring payments](/api/#recurring-payments-orders).
 
 Make sure you have enabled credit card payments and recurring payments in your MultiSafepay account.
 
-Email requests to your account manager at <sales@multisafepay.com>
+Email a request to <sales@multisafepay.com>
 
 {{< details title="Supported MultiSafepay plugins" >}}
 

@@ -8,7 +8,6 @@ aliases:
     - /faq/api/difference-between-direct-and-redirect
     - /developer/api/difference-between-direct-and-redirect/
 ---
-
 With our API, you can make requests to create direct transactions and redirect transactions.
 
 {{< mermaid class="text-center" >}}

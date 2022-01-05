@@ -56,6 +56,6 @@ In accordance with relevant Dutch legislation, we automatically destroy data as 
 
 Customers can also request us to delete their data in accordance with the right to Privacy by Design. 
 
-Email requests to delete data to the data protection officer at <dataprotection@multisafepay.com>
+Email a request to delete data to the data protection officer at <dataprotection@multisafepay.com>
 
 

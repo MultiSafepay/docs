@@ -66,7 +66,7 @@ Only the customer can contact their credit card issuer to find out the specific 
 | 3D authorisation cancelled | [3D Secure](/features/3d-secure/about/) verification was incomplete or couldn't be validated. |
 | Expired card | The credit card has expired. |
 | Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
-| Merchant only accepts 3D Secure-verified cards | Email requests to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
+| Merchant only accepts 3D Secure-verified cards | Email a request to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
 
 For any questions, email the Support Team at <support@multisafepay.com>
 

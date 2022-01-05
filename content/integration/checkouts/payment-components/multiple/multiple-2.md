@@ -89,7 +89,7 @@ Recurring payments are supported for all credit card payments.
 
 **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/testing/test-payment-details/#credit-and-debit-cards).
 
-To use recurring payments in your Payment Component, you need to enable recurring payments for your account. If you haven't already, email your account manager at <sales@multisafepay.com>
+To use recurring payments in your Payment Component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
 {{< /details >}}
 

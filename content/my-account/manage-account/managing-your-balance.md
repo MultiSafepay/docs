@@ -45,4 +45,4 @@ There you can see your:
 
 You can set your daily balance report to include the balance of uncleared transactions. This is particularly useful if you offer [pay later](/payments/methods/pay-later/) and/or [credit card](/payments/methods/credit-and-debit-cards/) payment methods. 
 
-To activate this feature in your daily balance report, email a request to your account manager at <sales@multisafepay.com>
+To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>

@@ -2,7 +2,7 @@
 title : "MOTO"
 weight: 80
 meta_title: "MOTO - MultiSafepay Docs"
-
+layout: 'single'
 read_more: "."
 logo: '/svgs/MOTO.svg'
 short_description: 'Accept credit card payments by mail or telephone using MOTO'
@@ -13,24 +13,40 @@ aliases:
     - /payments/features/moto/
 ---
 
-Mail Order/Telephone Order (MOTO) is a MultiSafepay solution lets you accept credit card payments by manually entering a customer's payment details (provided by phone or email) in your payment gateway via your MultiSafepay account. It supports American Express, Mastercard, and Visa.
+Mail Order/Telephone Order (MOTO) is a feature that lets you process credit card payments with card details provided by phone or email. You can create the transaction via your MultiSafepay account or our API. 
+
+Supported payment methods:
+
+- American Express
+- Mastercard
+- Visa
 
 {{< alert-notice >}} **Note:** Using MOTO skips [3D Secure](/security-and-legal/payment-regulations/about-3d-secure) verification. {{< /alert-notice >}}
 
 ## Activating MOTO
-Check your eligibility for MOTO with your account manager at <sales@multisafepay.com>
+Email a request to activate MOTO to <sales@multisafepay.com>
 
-The Risk Team then assesses your application, and if approved, activates MOTO in your MultiSafepay account. 
+The Risk Team assesses your request and, if approved, activates MOTO in your MultiSafepay account. 
 
-## Using MOTO
+## Via your MultiSafepay account
 
-To process MOTO payments, follow these steps:
+Once activated, to process MOTO payments, follow these steps:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Tools**. 
-3. The customer provides their credit card details by email or telephone. 
-4. Select a [currency](/faq/general/supported-currencies) and the total amount.
-5. Finalize the payment.
+2. Go to **Tools** > **Mail & phone payments**.
+3. Under **Payment details**:  
+    - From the **Currency** list, select the currency, and then enter the amount.
+    - From the **Site** list, select the relevant website. 
+    - Enter an order ID, if relevant.
+    - Enter an order description.
+4. Under **Credit card details**, enter the payment details provided by the customer by email or telephone. 
+5. Under **Customer details**, enter the customer's name, address, and contact information. 
+6. Click **Submit order**.  
+The transaction appears in your **Transaction overview**.
 
+## Via our API
 
+See API reference – Server to Server: [Credit card and MOTO requests](/api/#credit-card-and-moto-requests).
+
+In the `gateway_info` object, include the `moto` parameter.
 

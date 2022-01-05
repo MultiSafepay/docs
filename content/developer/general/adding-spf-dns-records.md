@@ -3,9 +3,11 @@ title : "Adding SPF DNS records for MultiSafepay emails"
 weight: 9
 meta_title: "Adding SPF DNS records - MultiSafepay Docs"
 read_more: "."
+url: '/developer/general/adding-spf-dns-records/'
 aliases:
     - /faq/general/add-spf-dns-records
     - /faq/general/adding-spf-dns-records/
+    - /developer/general/adding-spf-dns-records/
 ---
 
 Sender Policy Framework (SPF) records let users specify which servers can send emails on behalf of their domain name system (DNS). Receiving servers can check the SPF record and decide to:
