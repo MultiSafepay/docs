@@ -8,13 +8,13 @@ aliases:
 
 Use the following requests to add, retrieve or update [ultimate beneficial owner](/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) (UBO) details linked to a merchant account affiliated with your partner account:
 
-1. [Create a UBO](#create-a-ubo): Add a UBO to a merchant account.
-2. [List UBOs](#list-ubos): Retrieve all UBOs for a merchant account.
-3. [Get UBO](#get-a-ubo): Retrieve a single UBO by its identifier.
-4. [Update UBO](#update-a-ubo): Update a UBO.
-5. [Add identity document](#add-identity-document): Add an identity document to an existing UBO.
-6. [List identity documents](#list-identity-documents): Retrieve all identity documents for a UBO.
-7. [Get identity document](#get-identity-document): Retrieve a single identity document for a UBO.
+1. [Create a UBO](#1-create-a-ubo): Add a UBO to a merchant account.
+2. [List UBOs](#2-list-ubos): Retrieve all UBOs for a merchant account.
+3. [Get UBO](#3-get-a-ubo): Retrieve a single UBO by its identifier.
+4. [Update UBO](#4-update-a-ubo): Update a UBO.
+5. [Add identity document](#5-add-identity-document): Add an identity document to an existing UBO.
+6. [List identity documents](#6-list-identity-documents): Retrieve all identity documents for a UBO.
+7. [Get identity document](#7-get-identity-document): Retrieve a single identity document for a UBO.
 
 ### The process
 The requests above can be divided into the following steps:
@@ -216,7 +216,7 @@ Retrieve a single UBO by its identifier.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -289,7 +289,7 @@ Update information about an existing UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
@@ -373,7 +373,7 @@ Upload an identity document used to verify the UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
@@ -436,7 +436,7 @@ Retrieve an array of all identity documents linked to a UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}} **Tip**: The ubo_id is returned as `id` in the [create a UBO](#create-a-ubo), [list UBOs](#list-ubos), and [get a UBO](#get-a-ubo) request. |
+|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -488,7 +488,7 @@ Description.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|identitydoc_id{{< br >}}`string`|The unique identifier of the identity document.{{< br >}}**Tip**: The identitydoc_id is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) request. |
+|identitydoc_id{{< br >}}`string`|The unique identifier of the identity document.{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The identitydoc_id is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) request. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|

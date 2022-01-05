@@ -8,13 +8,13 @@ aliases:
 
 Use seven requests to perform actions on bank account details of merchant accounts affiliated to your partner account:
 
-1. [Add bank account](#add-bank-account): add a bank account to a merchant account
-2. [List bank accounts](#list-bank-accounts): retrieve a list of all bank accounts
-3. [Get bank account](#get-bank-account): retrieve a single bank account
-4. [Create payment link](#create-payment-link): create a payment link to verify a bank account
-5. [Add bank statement](#add-bank-statement): add a bank statement to verify a bank account
-6. [List bank statements](#list-bank-statements): retrieve a list of all bank statements
-7. [Get bank statement](#get-bank-statement): retrieve a single bank statement
+1. [Add bank account](#1-add-bank-account): add a bank account to a merchant account
+2. [List bank accounts](#2-list-bank-accounts): retrieve a list of all bank accounts
+3. [Get bank account](#3-get-bank-account): retrieve a single bank account
+4. [Create payment link](#4-create-payment-link): create a payment link to verify a bank account
+5. [Add bank statement](#5-add-bank-statement): add a bank statement to verify a bank account
+6. [List bank statements](#6-list-bank-statements): retrieve a list of all bank statements
+7. [Get bank statement](#7-get-bank-statement): retrieve a single bank statement
 
 
 ### The process
@@ -52,7 +52,7 @@ In addition to the request body parameters.
 
 |Parameter|Description|
 |-----|------|
-| id  `string` | The unique identifier of the bank account. Referred to as `bankaccount_id`. |
+| id<br />`string` | The unique identifier of the bank account. Referred to as `bankaccount_id`. |
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -147,7 +147,7 @@ Retrieve a single bank account by its identifier.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -192,7 +192,7 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogwgfit36`). Required. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 There are no parameters sent in this request.
@@ -235,12 +235,12 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`). Required. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Value|
 |-----|------|
-|encoded_content|Base64 encoded content. Required.|
+|encoded_content<br /> `string`|Base64 encoded content. Required.|
 |filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters. Required. |
 |mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
@@ -252,7 +252,7 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 |bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: string (e.g., `upp6ogjwpot36`).|
 |document_type <br />  `string`|Document type of the file. |
 |filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters.|
-| id <br />  `string`| The unique identifier of the bank statement. Referred to as `{bankstatement_id}`. |
+| id <br />  `string`| The unique identifier of the bank statement. Referred to as `bankstatement_id`. |
 |mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 
@@ -296,7 +296,7 @@ Retrieve a list of all bank statements associated with a bank account.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwldt36`). Required. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|
@@ -305,7 +305,7 @@ Retrieve a list of all bank statements associated with a bank account.
 |bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: string (e.g., `upp6ogjwpot36`).|
 |document_type <br />  `string`|Document type of the file. |
 |filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters.|
-| id <br />  `string`| The unique identifier of the bank statement. Referred to as `{bankstatement_id}`. |
+| id <br />  `string`| The unique identifier of the bank statement. Referred to as `bankstatement_id`. |
 |mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 
@@ -343,7 +343,7 @@ Retrieve a single bank statement by its identifier.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. |
+|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankstatement_id is returned as `id` in the [add bank statement](#5-add-bank-statement) and [list bank statements](#6-list-bank-statements) request. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|
@@ -352,7 +352,7 @@ Retrieve a single bank statement by its identifier.
 |bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: string (e.g., `upp6ogjwpot36`).|
 |document_type <br />  `string`|Document type of the file. |
 |filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters.|
-| id <br />  `string`| The unique identifier of the bank statement. Referred to as `{bankstatement_id}`. |
+| id <br />  `string`| The unique identifier of the bank statement. Referred to as `bankstatement_id`. |
 |mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 

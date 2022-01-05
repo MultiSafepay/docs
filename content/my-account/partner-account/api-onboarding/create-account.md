@@ -56,7 +56,7 @@ In addition to the request body parameters.
 
 |Parameter|Description|
 |-----|------|
-| id  `string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
+| id<br />`string`| The unique identifier of the affiliated merchant account. Referred to as `{account_id}`. |
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}

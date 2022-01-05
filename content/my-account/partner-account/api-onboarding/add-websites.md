@@ -8,10 +8,10 @@ aliases:
 
 Use the following requests to add, retrieve or update websites linked to a merchant account affiliated with your partner account:
 
-1. [Add a website](#add-a-website): Add a website to a merchant account.
-2. [List websites](#list-websites): Retrieve all websites for a merchant account.
-3. [Get website](#get-a-website): Retrieve a single website by its identifier.
-4. [Update website](#update-a-website): Update a website.
+1. [Add a website](#1-add-a-website): Add a website to a merchant account.
+2. [List websites](#2-list-websites): Retrieve all websites for a merchant account.
+3. [Get website](#3-get-website): Retrieve a single website by its identifier.
+4. [Update website](#4-update-website): Update a website.
 
 ## Authentication
 All four website requests require a partner account API key. For more information, email your partner manager.
@@ -163,7 +163,7 @@ Retrieve a single website by its identifier.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
+|site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The site_id is returned as `id` in the [add a website](#1-add-a-website) and [list websites](#2-list-websites) request.|
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -220,7 +220,7 @@ Update information about an existing website.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
+|site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The site_id is returned as `id` in the [add a website](#1-add-a-website) and [list websites](#2-list-websites) request.|
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
