@@ -19,7 +19,7 @@ If you're new to accepting credit card payments, email a request to activate the
 To activate the Payment Component in your Wordpress - WooCommerce [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your Wordpress backend.
-2. Go to **WooCommerce** > **MultiSafepay Settings** > **Payment Methods** > **Credit Card**, and then click **Manage**.
+2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > **Credit card**, and then click **Manage**.
 3. Click in the **Payment Components** checkbox to enable this feature.
 4. Click **Save changes**.
 
