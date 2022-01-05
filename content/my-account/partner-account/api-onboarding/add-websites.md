@@ -20,41 +20,38 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ---
 
-## Add a website
+## 1. Add a website
 
 `POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites`
 
 Add a website to an affiliated merchant account.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
 |affiliate_account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.|
 
-### Query parameters
-|Key|Description|
-|-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Request body
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |---|---|
-|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Required. |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Required. |
-|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
-|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
-|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). Optional. |
+|name <br /> `string`|Name of the website.  <br /> **Format**: max 120 characters. Required. |
+|notification_url <br /> `string`|[Notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+|price_from <br /> `integer`| Expected minimum order value for credit card transactions.  <br /> **Format**: unsigned integer. Optional. |
+|price_till <br /> `integer`| Expected maximum order value for credit card transactions.  <br /> **Format**: unsigned integer. Optional. |
+|support_email <br /> `string`| Email address used to support the website's customers.  <br /> **Format**: email address (max 100 characters). Optional. |
+|support_phone <br /> `string`| Phone number used to support the website's customers.  <br /> **Format**: phone number (max 100 characters). Optional. |
+|URL <br /> `string`| URL of the website.  <br /> **Format**: URL (max 150 characters). Required. |
+{{< /collapse >}}
 
-### Response body
+{{< collapse title="Response body parameters" size="h3" >}}
 In addition to the request body parameters.
 
-|Key|Description|
+|Parameter|Description|
 |---|---|
-| account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g. `12345678`).|
-| api_key{{< br >}}`string`| The API key for the website.{{< br >}}**Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
-| id {{< br >}}`integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
+| account_id <br /> `string`| Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g. `12345678`).|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id  <br /> `integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -96,35 +93,31 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accou
 
 ---
 
-## List websites
+## 2. List websites
 
 `GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}`
 
 Retrieve an array of all websites linked to a merchant account.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
 |affiliate_account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
-### Query parameters
-|Key|Description|
-|-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Response body
-|Key|Description|
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
 |---|---|
-| account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g. `12345678`).|
-| api_key{{< br >}}`string`| The API key for the website.{{< br >}}**Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
-| id {{< br >}}`integer`| The unique site ID for the website.{{< br >}}**Format**: 5-digit integer (e.g. `12345`).|
-|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. |
-|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). |
-|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
-|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
-|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). |
-|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters).|
+| account_id <br /> `string`| Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g. `12345678`).|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id  <br /> `integer`| The unique site ID for the website. <br /> **Format**: 5-digit integer (e.g. `12345`).|
+|name <br /> `string`|Name of the website.  <br /> **Format**: max 120 characters. |
+|notification_url <br /> `string`|[Notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|price_from <br /> `integer`| Expected minimum order value for credit card transactions.  <br /> **Format**: unsigned integer. |
+|price_till <br /> `integer`| Expected maximum order value for credit card transactions.  <br /> **Format**: unsigned integer. |
+|support_email <br /> `string`| Email address used to support the website's customers.  <br /> **Format**: email address (max 100 characters). |
+|support_phone <br /> `string`| Phone number used to support the website's customers.  <br /> **Format**: phone number (max 100 characters). |
+|URL <br /> `string`| URL of the website.  <br /> **Format**: URL (max 150 characters).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -161,35 +154,31 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
 
 ---
 
-## Get website
+## 3. Get website
 
 `GET` `https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}`
 
 Retrieve a single website by its identifier.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
 |site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
 
-### Query parameters
-|Key|Description|
-|-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Response body
-|Key|Description|
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
 |---|---|
-| account_id{{< br >}}`string`| Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g. `12345678`).|
-| api_key{{< br >}}`string`| The API key for the website.{{< br >}}**Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
-| id {{< br >}}`integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
-|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. |
-|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). |
-|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
-|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. |
-|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). |
-|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters).|
+| account_id <br /> `string`| Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g. `12345678`).|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id  <br /> `integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
+|name <br /> `string`|Name of the website.  <br /> **Format**: max 120 characters. |
+|notification_url <br /> `string`|[Notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|price_from <br /> `integer`| Expected minimum order value for credit card transactions.  <br /> **Format**: unsigned integer. |
+|price_till <br /> `integer`| Expected maximum order value for credit card transactions.  <br /> **Format**: unsigned integer. |
+|support_email <br /> `string`| Email address used to support the website's customers.  <br /> **Format**: email address (max 100 characters). |
+|support_phone <br /> `string`| Phone number used to support the website's customers.  <br /> **Format**: phone number (max 100 characters). |
+|URL <br /> `string`| URL of the website.  <br /> **Format**: URL (max 150 characters).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -222,32 +211,43 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/{site_id}?a
 
 ---
 
-## Update website
+## 4. Update website
 
 `PATCH` `https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}`
 
 Update information about an existing website.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
 |site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
 
-### Query parameters
-|Key|Description|
-|-----|------|
-|{your-account-api-key}{{< br >}}`string`|Your partner account API key|
-
-### Request body
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |---|---|
-|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Optional. |
-|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
-|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
-|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). Optional. |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
+|name <br /> `string`|Name of the website.  <br /> **Format**: max 120 characters. Optional. |
+|notification_url <br /> `string`|[Notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+|price_from <br /> `integer`| Expected minimum order value for credit card transactions.  <br /> **Format**: unsigned integer. Optional. |
+|price_till <br /> `integer`| Expected maximum order value for credit card transactions.  <br /> **Format**: unsigned integer. Optional. |
+|support_email <br /> `string`| Email address used to support the website's customers.  <br /> **Format**: email address (max 100 characters). Optional. |
+|support_phone <br /> `string`| Phone number used to support the website's customers.  <br /> **Format**: phone number (max 100 characters). Optional. |
+|URL <br /> `string`| URL of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+{{< /collapse >}}
+
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|---|---|
+| account_id <br /> `string`| Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g. `12345678`).|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string (e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`).|
+| id  <br /> `integer`| The unique site ID for the website. **Format**: 5-digit integer (e.g. `12345`).|
+|name <br /> `string`|Name of the website.  <br /> **Format**: max 120 characters. |
+|notification_url <br /> `string`|[Notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|price_from <br /> `integer`| Expected minimum order value for credit card transactions.  <br /> **Format**: unsigned integer. |
+|price_till <br /> `integer`| Expected maximum order value for credit card transactions.  <br /> **Format**: unsigned integer. |
+|support_email <br /> `string`| Email address used to support the website's customers.  <br /> **Format**: email address (max 100 characters). |
+|support_phone <br /> `string`| Phone number used to support the website's customers.  <br /> **Format**: phone number (max 100 characters). |
+|URL <br /> `string`| URL of the website.  <br /> **Format**: URL (max 150 characters).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
