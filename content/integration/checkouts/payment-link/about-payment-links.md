@@ -31,7 +31,7 @@ The payment page displays **all** payment methods activated for the relevant web
 
 The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
 
-To set or adjust the lifetime, see API reference – [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+To set or adjust the lifetime, see API reference – [Adjust session lifetimes](/api/#adjust-session-lifetimes).
 
 {{< blue-notice >}} **Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). {{< /blue-notice >}} 
 

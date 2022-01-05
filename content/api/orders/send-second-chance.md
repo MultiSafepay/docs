@@ -26,7 +26,7 @@ For more information and requirements, see [Second Chance](/features/second-chan
 
 You can enable/disable Second Chance emails in each transaction request. 
 
-See also [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+See also [Adjust session lifetimes](/api/#adjust-session-lifetimes).
 
 
 **Parameters**
