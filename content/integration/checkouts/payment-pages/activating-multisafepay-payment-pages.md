@@ -14,11 +14,19 @@ aliases:
     - /tools/payment-pages/visa-shows-address
 ---
 
-MultiSafepay payment pages (URL: `payv2.multisafepay.com`):
+MultiSafepay payment pages are hosted by us  (URL: payv2.multisafepay.com) and are the easiest way to connect to payment methods. 
 
-- Are easy to integrate, completely secure, and fully mobile responsive
+Payment pages:
+
+- Are completely secure, and fully mobile responsive
 - Support all payment methods
 - Can be styled to fit the look and feel of your website
+
+If you specify a payment method gateway, the page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their credit card details.  
+
+If you don't specify a gateway, all payment methods enabled in your MultiSafepay account appear on the payment page.
+
+## Activating payment pages
 
 To activate payment pages, follow these steps:
 
