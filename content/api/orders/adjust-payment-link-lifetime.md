@@ -38,7 +38,7 @@ aliases:
 {{< description >}}
 ### Adjust session lifetimes
 
-The lifetime of a [payment link](/payments/checkout/payment-link/) to a [MultiSafepay payment page](/payment-pages/) is how long the customer can use the link to access the payment page and complete payment. 
+The lifetime of a session determines how long the customer can access the MultiSafepay payment page and complete payment. 
 
 The lifetime begins when the payment link is generated. A `session_id` is returned in the payment page URL. The default lifetime is 30 days, after which the link expires.
 
