@@ -60,7 +60,7 @@ Include in the main body of your `POST /orders` request:
 
 `days_active` | string | optional
 
-Sets the number of days the payment link is active for.  
+Sets the number of days the session is active for.  
 If not set, or if `seconds_active` is also set, `seconds_active` is used.  
 If neither `days_active` nor `seconds_active` is set, the default is used.  
 
