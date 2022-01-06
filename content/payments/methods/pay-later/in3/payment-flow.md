@@ -30,8 +30,7 @@ sequenceDiagram
     Mu->>I: Captures the funds
     C->>I: Pays 1st instalment within 5 mins
     Note over C,I: Settlement is now guaranteed!
-    Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped! 
+    Me->>C: Ships the order 
     I->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 15 days of 1st instalment)
     C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
@@ -60,7 +59,7 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
 | in3 is authorizing the payment or waiting for the customer to pay the first installment. {{< br >}} The customer has 5 minutes to pay the first installment, or The transaction was cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
 | The customer has paid the first installment. {{< br >}} Settlement is now guaranteed. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/).  | Shipped | Uncleared | 
+| You can [manually change the order status to Shipped](/about-payments/pay-later-shipped-status/) for your records, but this is not required to trigger invoicing.  | Shipped | Uncleared | 
 | The transaction is complete. | Completed | Completed |
 | in3 has declined the payment. {{< br >}} No order was created. | Declined | Declined |
 | The transaction was cancelled. | Void | Void |
