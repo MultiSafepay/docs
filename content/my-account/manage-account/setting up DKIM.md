@@ -34,8 +34,8 @@ v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSR
 ```
 You have successfully added a TXT record for Mandrill.
 
-## See also 
-Adding SPF DNS records for MultiSafepay emails.
+## See also
+[Adding SPF DNS records for MultiSafepay emails](/account/adding-spf-dns-records/)
 
 
 
