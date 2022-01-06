@@ -3,7 +3,7 @@ title : "Adding SPF DNS records for MultiSafepay emails"
 weight: 13
 meta_title: "Adding SPF DNS records - MultiSafepay Docs"
 read_more: "."
-url: '/account/adding-spf-dns-records/'
+url: '/my-account/adding-spf-dns-records/'
 aliases:
     - /faq/general/add-spf-dns-records
     - /faq/general/adding-spf-dns-records/
@@ -42,4 +42,4 @@ example.com.              180     IN      TXT     "v=spf1 mx ip4:188.18.131.146/
 ```
 
 ## See also
-[Setting up DKIM email authentication](/account/setting-up-dkim/)
+[Setting up DKIM email authentication](/my-account/setting-up-dkim/)

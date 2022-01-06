@@ -3,7 +3,7 @@ title: "Setting up DKIM email authentication"
 weight: 12
 meta_title: "Setting up DKIM email authentication - MultiSafepay Docs"
 read_more: "."
-url: '/account/setting-up-dkim/'
+url: '/my-account/setting-up-dkim/'
 ---
 
 MultiSafepay supports DomainKeys Identified Mail (DKIM) email authentication on all emails that we send. DKIM allows email servers to verify that emails they receive are actually from that domain and have not been altered or forged.
@@ -35,7 +35,7 @@ v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSR
 You have successfully added a TXT record for Mandrill.
 
 ## See also
-[Adding SPF DNS records for MultiSafepay emails](/account/adding-spf-dns-records/)
+[Adding SPF DNS records for MultiSafepay emails](/my-account/adding-spf-dns-records/)
 
 
 
