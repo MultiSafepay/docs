@@ -36,7 +36,7 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-### Adjust payment link lifetimes
+### Adjust session lifetimes
 
 The lifetime of a [payment link](/payments/checkout/payment-link/) to a [MultiSafepay payment page](/payment-pages/) is how long the customer can use the link to access the payment page and complete payment. 
 
