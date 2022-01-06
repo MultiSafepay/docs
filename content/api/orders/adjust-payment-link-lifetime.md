@@ -44,7 +44,7 @@ The lifetime begins when the payment link is generated. A `session_id` is return
 
 This applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only.  
 
-To cancel a payment link, see [Cancel an order](/api/#cancel-an-order).
+To manually cancel a session, see [Cancel an order](/api/#cancel-an-order).
 
 {{< alert-notice >}} If you have [Second Chance](/features/second-chance/) enabled, we recommend a minimum lifetime of **48&nbsp;hours**.   
 &nbsp;  
