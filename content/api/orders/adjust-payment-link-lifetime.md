@@ -50,7 +50,7 @@ To cancel a payment link, see [Cancel an order](/api/#cancel-an-order).
 &nbsp;  
 Second Chance emails the customer two payment reminders: 1 hour and 24 hours after the order is created. If the session lifetime is less than 24 hours, the link in the second email is no longer active when the customer receives it. {{< /alert-notice >}}
 
-**Note:** Payment link lifetimes are different to [transaction expiration times per payment method](/developer/transaction-expiration/). 
+**Note:** Session lifetimes are different to [transaction expiration times per payment method](/developer/transaction-expiration/). 
 
 **Parameters**
 
