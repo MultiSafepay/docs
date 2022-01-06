@@ -1,16 +1,16 @@
 ---
-title : "Adding SPF DNS records for MultiSafepay emails"
+title : "Adding SPF records for MultiSafepay emails"
 weight: 13
-meta_title: "Adding SPF DNS records - MultiSafepay Docs"
+meta_title: "Adding SPF records - MultiSafepay Docs"
 read_more: "."
-url: '/my-account/adding-spf-dns-records/'
+url: '/my-account/adding-spf-records/'
 aliases:
     - /faq/general/add-spf-dns-records
     - /faq/general/adding-spf-dns-records/
     - /developer/general/adding-spf-dns-records/
 ---
 
-Sender Policy Framework (SPF) records let you specify who is authorized to send emails on behalf of your domain. Receiving email servers can check the SPF record to verify the sender. Using an SPF record prevents emails sent by MultiSafepay on your behalf from being marked as spam.
+Sender Policy Framework (SPF) records let you specify who is authorized to send emails on your domain's behalf. Receiving email servers can check the SPF record to verify the sender. Using an SPF record prevents emails sent by MultiSafepay on your behalf from being marked as spam.
 
 ## Adding an SPF record
 
@@ -20,9 +20,10 @@ Sender Policy Framework (SPF) records let you specify who is authorized to send 
     - `ip4:213.189.0.0/23`
     - `ip4:185.99.128.0/22`
     - `include:spf.multisafepay.com`
-  
+
     **Note:** The total number of includes permitted is 10, including mx records (if listed).
-  You have successfully created a SPF record.
+
+    You have successfully created an SPF record.
 
 ## Examples
 
