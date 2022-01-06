@@ -67,7 +67,7 @@ If neither `days_active` nor `seconds_active` is set, the default is used.
 ----------------
 `seconds_active` | string | optional
 
-Sets the number of seconds the payment link is active for.  
+Sets the number of seconds the session is active for.  
 Example: 86,400 `seconds_active` = 1 `days_active`.  
 If set and larger than 0, `seconds_active` overrides `days_active`.  
 If neither `days_active` nor `seconds_active` is set, the default is used.  
