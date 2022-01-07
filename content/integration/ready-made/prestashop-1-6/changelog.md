@@ -6,6 +6,14 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/changelog/
 ---
 
+## 3.7.1
+Release date: Jan 7th, 2022
+
+### Changed
+PLGPRSS-423: Rename Client class to MultiSafepayClient to avoid conflict with third party modules
+
+***
+
 ## 3.7.0
 Release date: Nov 25th, 2021
 
