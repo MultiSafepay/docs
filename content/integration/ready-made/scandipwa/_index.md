@@ -15,4 +15,6 @@ url: "/scandipwa/"
 title_short: "ScandiPWA"
 type: "PWA"
 description_short: "MultiSafepay plugin for ScandiPWA."
+aliases:
+  - /payments/integrations/pwa/scandipwa/
 ---
