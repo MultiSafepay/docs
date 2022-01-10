@@ -15,4 +15,6 @@ title_short: "Vue Storefront"
 type: "PWA"
 url: "/vue-storefront/"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Vue Storefront application."
+aliases:
+  - /payments/integrations/pwa/vue-storefront/
 ---
