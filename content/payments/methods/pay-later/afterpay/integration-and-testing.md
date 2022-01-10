@@ -21,14 +21,14 @@ aliases:
 
 ## Testing
 
-To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
+**1.** Request a test API key from AfterPay via either:
 
-To get a test AfterPay API key, you can either:
-
-- Request one in your implementation ticket with AfterPay, **or**
+- Your implementation ticket with AfterPay, **or**
 - Email <sales@afterpay.nl> 
 
-AfterPay shares the test AfterPay API key with MultiSafepay so that we can configure it for you.
+AfterPay shares the test key with MultiSafepay.
+
+**2.** To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
 ### Test an AfterPay order
 
