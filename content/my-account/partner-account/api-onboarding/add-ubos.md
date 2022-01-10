@@ -6,30 +6,29 @@ aliases:
     - /tools/api-onboarding/add-ubos
 ---
 
-Use the following requests to add, retrieve or update [ultimate beneficial owner](/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) (UBO) details linked to a merchant account affiliated with your partner account:
+Use the following requests to add, retrieve or update [ultimate beneficial owner](/account/ubo/) (UBO) details for an affiliated merchant account:
 
-1. [Create a UBO](#1-create-a-ubo): Add a UBO to a merchant account.
-2. [List UBOs](#2-list-ubos): Retrieve all UBOs for a merchant account.
-3. [Get UBO](#3-get-a-ubo): Retrieve a single UBO by its identifier.
-4. [Update UBO](#4-update-a-ubo): Update a UBO.
-5. [Add identity document](#5-add-identity-document): Add an identity document to an existing UBO.
-6. [List identity documents](#6-list-identity-documents): Retrieve all identity documents for a UBO.
-7. [Get identity document](#7-get-identity-document): Retrieve a single identity document for a UBO.
+Add, retrieve, and update UBOs:
 
-### The process
-The requests above can be divided into the following steps:
+- [Create a UBO](#create-a-ubo): Add a UBO to a merchant account.
+- [List UBOs](#list-ubos): Retrieve all UBOs for a merchant account.
+- [Get UBO](#get-a-ubo): Retrieve a single UBO by its identifier.
+- [Update UBO](#update-a-ubo): Update a UBO.
 
-1. **Add UBOs**: Use the first four requests to add, retrieve and update UBOs linked to a merchant account.
-2. **Add identity documents**: Use the last three requests to add and retrieve identity documents of UBOs linked to a merchant account. These documents are used to perform our UBO verification.
+Add and retrieve UBO identification documents:
+
+- [Add identity document](#add-identity-document): Add an identity document to an existing UBO.
+- [List identity documents](#list-identity-documents): Retrieve all identity documents for a UBO.
+- [Get identity document](#get-identity-document): Retrieve a single identity document for a UBO.
 
 ## Authentication
-All seven UBO requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your Partner Manager.
+All the UBO requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain in the URL from `testapi` to `api` and use the corresponding API key.
 
 ---
 
-## 1. Create a UBO
+## Create a UBO
 
 `POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/ubos?api_key={your-account-api-key}` 
 
@@ -38,36 +37,36 @@ Add a new UBO to a merchant account.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|affiliate_account_id{{< br >}}`string`|Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`| The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
 |---|---|
-|name  <br /> `string`|UBO's full name. <br /> **Format**: max 200 characters. Required.|
-|title  <br /> `string`|UBO's title. <br /> **Options**: `mr` or `mrs`. Required.|
-|address  <br /> `string`|UBO's address.  <br /> **Format**: max 100 characters. Optional.|
-|address_apartment  <br /> `string`|UBO's apartment number.  <br /> **Format**: max 15 characters. Optional.|
-|city  <br /> `string`|UBO's city of residence. <br /> **Format**: max 100 characters. Optional.|
-|state  <br /> `string`|UBO's province or state of residence.  <br /> **Format**: max 100 characters. Optional.|
-|country  <br /> `string`|UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Required.|
-|zipcode  <br /> `string`|UBO's zip code. <br /> **Format**: max 20 characters. Optional.|
-|birthday  <br /> `string`|UBO's date of birth.  <br /> **Format**: yyyy-mm-dd (e.g., `1980-01-31`). Required.|
-|country_of_birth  <br /> `string`|UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Required.|
-|email  <br /> `string`|UBO's email address. <br /> **Format**: max 100 characters. Required.|
-|mobile_phone  <br /> `string`|UBO's mobile phone number. <br /> **Format**: max 25 characters. Optional.|
-|office_phone  <br /> `string`|UBO's office phone number. <br /> **Format**: max 25 characters. Optional.|
-|fax  <br /> `string`|UBO's fax number. <br /> **Format**: max 15 characters. Optional.|
-|job_title  <br /> `string`|UBO's job title. <br /> **Format**: max 100 characters. Required.|
-|percentage  <br /> `integer`|UBO's percentage of equity. <br /> **Format**: non-fractional number from `25` to `100`. Required.|
-|type  <br /> `string`|UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Required.|
+|name  <br /> `string`|The UBO's full name. <br /> **Format**: Max 200 characters. Required.|
+|title  <br /> `string`|The UBO's title. <br /> **Options**: `mr` or `mrs`. Required.|
+|address  <br /> `string`|The UBO's address.  <br /> **Format**: Max 100 characters. Optional.|
+|address_apartment  <br /> `string`|The UBO's apartment number.  <br /> **Format**: Max 15 characters. Optional.|
+|city  <br /> `string`|The UBO's city of residence. <br /> **Format**: Max 100 characters. Optional.|
+|state  <br /> `string`|The UBO's province or state of residence.  <br /> **Format**: Max 100 characters. Optional.|
+|country  <br /> `string`|The UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Required.|
+|zipcode  <br /> `string`|The UBO's ZIP code. <br /> **Format**: max 20 characters. Optional.|
+|birthday  <br /> `string`|The UBO's date of birth.  <br /> **Format**: yyyy-mm-dd, e.g. `1980-01-31`. Required.|
+|country_of_birth  <br /> `string`|The UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Required.|
+|email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters. Required.|
+|mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters. Optional.|
+|office_phone  <br /> `string`|The UBO's office phone number. <br /> **Format**: Max 25 characters. Optional.|
+|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters. Optional.|
+|job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters. Required.|
+|percentage  <br /> `integer`|The UBO's percentage of equity. <br /> **Format**: Non-fractional number from `25` to `100`. Required.|
+|type  <br /> `string`|The UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Required.|
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
-In addition to the request body parameters.
+The following are in addition to the request body parameters.
 
 |Parameter|Description|
 |-----|------|
-| account_id <br /> `string` | Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).|
+| account_id <br /> `string` | The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
 | id <br /> `string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
 {{< /collapse >}}
 
@@ -129,7 +128,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accou
 
 ---
 
-## 2. List UBOs
+## List UBOs
 
 `GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/ubos`
 
@@ -138,30 +137,30 @@ Retrieve an array of all UBOs linked to a merchant account.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|affiliate_account_id{{< br >}}`string`|Affiliate merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.|
+|affiliate_account_id{{< br >}}`string`|The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.|
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |---|---|
-| account_id <br /> `string` | Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).|
-|address  <br /> `string`|UBO's address.  <br /> **Format**: max 100 characters.|
-|address_apartment  <br /> `string`|UBO's apartment number.  <br /> **Format**: max 15 characters.|
-|birthday  <br /> `string`|UBO's date of birth.  <br /> **Format**: yyyy-mm-dd (e.g., `1980-01-31`).|
-|city  <br /> `string`|UBO's city of residence. <br /> **Format**: max 100 characters.|
-|country  <br /> `string`|UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
-|country_of_birth  <br /> `string`|UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
-|email  <br /> `string`|UBO's email address. <br /> **Format**: max 100 characters.|
-|fax  <br /> `string`|UBO's fax number. <br /> **Format**: max 15 characters.|
+| account_id <br /> `string` | The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+|address  <br /> `string`|The UBO's address.  <br /> **Format**: Max 100 characters.|
+|address_apartment  <br /> `string`|The UBO's apartment number.  <br /> **Format**: Max 15 characters.|
+|birthday  <br /> `string`|The UBO's date of birth.  <br /> **Format**: yyyy-mm-dd (e.g., `1980-01-31`).|
+|city  <br /> `string`|The UBO's city of residence. <br /> **Format**: Max 100 characters.|
+|country  <br /> `string`|The UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|country_of_birth  <br /> `string`|The UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters.|
+|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters.|
 | id <br /> `string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
-|job_title  <br /> `string`|UBO's job title. <br /> **Format**: max 100 characters.|
-|mobile_phone  <br /> `string`|UBO's mobile phone number. <br /> **Format**: max 25 characters.|
-|name  <br /> `string`|UBO's full name. <br /> **Format**: max 200 characters.|
-|office_phone  <br /> `string`|UBO's office phone number. <br /> **Format**: max 25 characters.|
-|percentage  <br /> `integer`|UBO's percentage of equity. <br /> **Format**: non-fractional number from `25` to `100`.|
-|state  <br /> `string`|UBO's province or state of residence.  <br /> **Format**: max 100 characters.|
-|title  <br /> `string`|UBO's title. <br /> **Options**: `mr` or `mrs`.|
-|type  <br /> `string`|UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`.|
-|zipcode  <br /> `string`|UBO's zip code. <br /> **Format**: max 20 characters.|
+|job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters.|
+|mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters.|
+|name  <br /> `string`|The UBO's full name. <br /> **Format**: Max 200 characters.|
+|office_phone  <br /> `string`|The UBO's office phone number. <br /> **Format**: Max 25 characters.|
+|percentage  <br /> `integer`|The UBO's percentage of equity. <br /> **Format**: Non-fractional number from `25` to `100`.|
+|state  <br /> `string`|The UBO's province or state of residence.  <br /> **Format**: Max 100 characters.|
+|title  <br /> `string`|The UBO's title. <br /> **Options**: `mr` or `mrs`.|
+|type  <br /> `string`|The UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`.|
+|zipcode  <br /> `string`|The UBO's ZIP code. <br /> **Format**: Max 20 characters.|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -207,39 +206,39 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
 
 ---
 
-## 3. Get a UBO
+## Get a UBO
 
 `GET` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={your-account-api-key}`
 
-Retrieve a single UBO by its identifier.
+Retrieve a specific UBO.
 
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
+|ubo_id  `string` | The unique identifier of the UBO you want to retrieve. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |---|---|
-| account_id <br /> `string` | Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).|
-|address  <br /> `string`|UBO's address.  <br /> **Format**: max 100 characters.|
-|address_apartment  <br /> `string`|UBO's apartment number.  <br /> **Format**: max 15 characters.|
-|birthday  <br /> `string`|UBO's date of birth.  <br /> **Format**: yyyy-mm-dd (e.g., `1980-01-31`).|
-|city  <br /> `string`|UBO's city of residence. <br /> **Format**: max 100 characters.|
-|country  <br /> `string`|UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
-|country_of_birth  <br /> `string`|UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`).|
-|email  <br /> `string`|UBO's email address. <br /> **Format**: max 100 characters.|
-|fax  <br /> `string`|UBO's fax number. <br /> **Format**: max 15 characters.|
+| account_id <br /> `string` | The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+|address  <br /> `string`|The UBO's address.  <br /> **Format**: Max 100 characters.|
+|address_apartment  <br /> `string`|The UBO's apartment number.  <br /> **Format**: Max 15 characters.|
+|birthday  <br /> `string`|The UBO's date of birth.  <br /> **Format**: yyyy-mm-dd, e.g. `1980-01-31`.|
+|city  <br /> `string`|The UBO's city of residence. <br /> **Format**: Max 100 characters.|
+|country  <br /> `string`|The UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|country_of_birth  <br /> `string`|The UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters.|
+|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters.|
 | id <br /> `string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
-|job_title  <br /> `string`|UBO's job title. <br /> **Format**: max 100 characters.|
-|mobile_phone  <br /> `string`|UBO's mobile phone number. <br /> **Format**: max 25 characters.|
-|name  <br /> `string`|UBO's full name. <br /> **Format**: max 200 characters.|
-|office_phone  <br /> `string`|UBO's office phone number. <br /> **Format**: max 25 characters.|
-|percentage  <br /> `integer`|UBO's percentage of equity. <br /> **Format**: non-fractional number from `25` to `100`.|
-|state  <br /> `string`|UBO's province or state of residence.  <br /> **Format**: max 100 characters.|
-|title  <br /> `string`|UBO's title. <br /> **Options**: `mr` or `mrs`.|
-|type  <br /> `string`|UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`.|
-|zipcode  <br /> `string`|UBO's zip code. <br /> **Format**: max 20 characters.|
+|job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters.|
+|mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters.|
+|name  <br /> `string`|The UBO's full name. <br /> **Format**: Max 200 characters.|
+|office_phone  <br /> `string`|The UBO's office phone number. <br /> **Format**: Max 25 characters.|
+|percentage  <br /> `integer`|The UBO's percentage of equity. <br /> **Format**: Non-fractional number from `25` to `100`.|
+|state  <br /> `string`|The UBO's province or state of residence.  <br /> **Format**: Max 100 characters.|
+|title  <br /> `string`|The UBO's title. <br /> **Options**: `mr` or `mrs`.|
+|type  <br /> `string`|The UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`.|
+|zipcode  <br /> `string`|The UBO's ZIP code. <br /> **Format**: Max 20 characters.|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -280,7 +279,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={you
 
 ---
 
-## 4. Update a UBO
+## Update a UBO
 
 `PATCH` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={your-account-api-key}`
 
@@ -289,36 +288,36 @@ Update information about an existing UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
+|ubo_id  `string` | The unique identifier of the UBO you want to update. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
 |---|---|
-|name  <br /> `string`|UBO's full name. <br /> **Format**: max 200 characters. Optional.|
-|title  <br /> `string`|UBO's title. <br /> **Options**: `mr` or `mrs`. Optional.|
-|address  <br /> `string`|UBO's address.  <br /> **Format**: max 100 characters. Optional.|
-|address_apartment  <br /> `string`|UBO's apartment number.  <br /> **Format**: max 15 characters. Optional.|
-|city  <br /> `string`|UBO's city of residence. <br /> **Format**: max 100 characters. Optional.|
-|state  <br /> `string`|UBO's province or state of residence.  <br /> **Format**: max 100 characters. Optional.|
-|country  <br /> `string`|UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Optional.|
-|zipcode  <br /> `string`|UBO's zip code. <br /> **Format**: max 20 characters. Optional.|
-|birthday  <br /> `string`|UBO's date of birth.  <br /> **Format**: yyyy-mm-dd (e.g., `1980-01-31`). Optional.|
-|country_of_birth  <br /> `string`|UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Optional.|
-|email  <br /> `string`|UBO's email address. <br /> **Format**: max 100 characters. Optional.|
-|mobile_phone  <br /> `string`|UBO's mobile phone number. <br /> **Format**: max 25 characters. Optional.|
-|office_phone  <br /> `string`|UBO's office phone number. <br /> **Format**: max 25 characters. Optional.|
-|fax  <br /> `string`|UBO's fax number. <br /> **Format**: max 15 characters. Optional.|
-|job_title  <br /> `string`|UBO's job title. <br /> **Format**: max 100 characters. Optional.|
-|percentage  <br /> `integer`|UBO's percentage of equity. <br /> **Format**: non-fractional number from `25` to `100`. Optional.|
-|type  <br /> `string`|UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Optional.|
+|name  <br /> `string`|The UBO's full name. <br /> **Format**: Max 200 characters. Optional.|
+|title  <br /> `string`|The UBO's title. <br /> **Options**: `mr` or `mrs`. Optional.|
+|address  <br /> `string`|The UBO's address.  <br /> **Format**: Max 100 characters. Optional.|
+|address_apartment  <br /> `string`|The UBO's apartment number.  <br /> **Format**: Max 15 characters. Optional.|
+|city  <br /> `string`|The UBO's city of residence. <br /> **Format**: Max 100 characters. Optional.|
+|state  <br /> `string`|The UBO's province or state of residence.  <br /> **Format**: Max 100 characters. Optional.|
+|country  <br /> `string`|The UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Optional.|
+|zipcode  <br /> `string`|The UBO's ZIP code. <br /> **Format**: Max 20 characters. Optional.|
+|birthday  <br /> `string`|The UBO's date of birth.  <br /> **Format**: yyyy-mm-dd, e.g. `1980-01-31`. Optional.|
+|country_of_birth  <br /> `string`|The UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Optional.|
+|email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters. Optional.|
+|mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters. Optional.|
+|office_phone  <br /> `string`|The UBO's office phone number. <br /> **Format**: Max 25 characters. Optional.|
+|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters. Optional.|
+|job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters. Optional.|
+|percentage  <br /> `integer`|The UBO's percentage of equity. <br /> **Format**: Non-fractional number from `25` to `100`. Optional.|
+|type  <br /> `string`|The UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Optional.|
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
-In addition to the request body parameters.
+The following are in addition to the request body parameters.
 
 |Parameter|Description|
 |-----|------|
-| account_id <br /> `string` | Affiliate Merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).|
+| account_id <br /> `string` | The affiliated merchant ID. <br /> **Format**: 8 character string, e.g., `12345678`.|
 | id <br /> `string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
 {{< /collapse >}}
 
@@ -364,28 +363,28 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_k
 
 ---
 
-## 5. Add identity document
+## Add identity document
 
 `POST` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs?api_key={your-account-api-key}`
 
-Upload an identity document used to verify the UBO.
+Upload an identity document to verify a UBO.
 
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
+|ubo_id  `string` | The unique identifier of the UBO you want to verify. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
 |---|---|
 |document_type <br /> `string`|The type of identity document.  <br /> **Options**: `id`, `passport`, `driverslicense`, `proof_of_address`|
 |encoded_content <br /> `string`|Base64 encoded content. Required.|
-|filename <br /> `string`|Name of the identity document file.  <br /> **Format**: max 250 characters. Required. |
-|mime_type <br />  `string`|Media type of the identity document file. <br /> **Options**: `application/pdf`,`image/jpeg`|
+|filename <br /> `string`|The identity document filename.  <br /> **Format**: Max 250 characters. Required. |
+|mime_type <br />  `string`|The media type of the identity document file. <br /> **Options**: `application/pdf`,`image/jpeg`|
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
-In addition to the request body parameters.
+The following are in addition to the request body parameters.
 
 |Parameter|Description|
 |-----|------|
@@ -427,25 +426,25 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydoc
 
 ---
 
-## 6. List identity documents
+## List identity documents
 
 `GET` `https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs?api_key={your-account-api-key}`
 
-Retrieve an array of all identity documents linked to a UBO.
+Retrieve an array of all identity documents for a UBO.
 
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of a UBO. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The ubo_id is returned as `id` in the [create a UBO](#1-create-a-ubo) and [list UBOs](#2-list-ubos) request. |
+|ubo_id  `string` | The unique identifier of the UBO you want to retrieve identity documents for. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |-----|------|
 | document_type <br /> `string`|The type of identity document.  <br /> **Options**: `id`, `passport`, `driverslicense`, `proof_of_address`|
-| filename <br /> `string`|Name of the identity document file.  <br /> **Format**: max 250 characters.|
+| filename <br /> `string`|The identity document filename.  <br /> **Format**: Max 250 characters.|
 | id <br /> `string` | The unique identifier of the identity document. Referred to as `identitydoc_id`. |
-| merchant_id <br /> `string` | Affiliate merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).
-|mime_type <br />  `string`|Media type of the identity document file. <br /> **Options**: `application/pdf`,`image/jpeg`|
+| merchant_id <br /> `string` | The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.
+|mime_type <br />  `string`|The media type of the identity document file. <br /> **Options**: `application/pdf`,`image/jpeg`|
 | ubo_id <br /> `string`| The unique identifier of a UBO.|
 {{< /collapse >}}
 
@@ -479,26 +478,26 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}/identitydocs
 
 ---
 
-## 7. Get identity document
+## Get identity document
 
 `GET` `https://testapi.multisafepay.com/v1/json/identitydocs/{identitydoc_id}?api_key={your-account-api-key}`
 
-Description.
+Retrieve a specific identity document.
 
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|identitydoc_id{{< br >}}`string`|The unique identifier of the identity document.{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The identitydoc_id is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) request. |
+|identitydoc_id{{< br >}}`string`|The unique identifier of the identity document you want to retrieve.{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `identitydoc_id` is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |-----|------|
 | document_type <br /> `string`|The type of identity document.  <br /> **Options**: `id`, `passport`, `driverslicense`, `proof_of_address`|
-| filename <br /> `string`|Name of the identity document file.  <br /> **Format**: max 250 characters.|
+| filename <br /> `string`|The identity document filename.  <br /> **Format**: Max 250 characters.|
 | id <br /> `string` | The unique identifier of the identity document. Referred to as `identitydoc_id`. |
-| merchant_id <br /> `string` | Affiliate merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).
-|mime_type <br />  `string`|Media type of the identity document file. <br /> **Options**: `application/pdf`,`image/jpeg`|
-| ubo_id <br /> `string`| The unique identifier of a UBO.|
+| merchant_id <br /> `string` | The affiliated merchant ID. <br /> **Format**: 8 character string (e.g., `12345678`).
+|mime_type <br />  `string`|The media type of the identity document file. <br /> **Options**: `application/pdf`,`image/jpeg`|
+| ubo_id <br /> `string`| The unique identifier of the UBO the identity document is for.|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -528,7 +527,7 @@ curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/{identitydoc_i
 ---
 
 ## Next steps
-Now that you have created a Merchant account and added one or multiple bank account and UBOs, complete the onboarding by adding one or multiple websites using the unique affiliate merchant `id` .
+Now that you have created an affiliated merchant account and added one or multiple bank account and UBOs, complete the onboarding by adding one or multiple websites using the unique affiliated merchant `id` .
 
 {{< two-buttons
 

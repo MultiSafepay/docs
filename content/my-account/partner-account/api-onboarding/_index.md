@@ -28,7 +28,7 @@ See API reference – [Create a merchant account](/api-onboarding/create-account
 The API returns a merchant account ID.
 
 ### Step 2: Add a bank account
-See API reference – [Add bank accounts](/api-onboarding/add-bank-accounts/)  for how to submit information about each bank account added to the merchant account, including: 
+See API reference – [Add bank accounts](/api-onboarding/add-bank-accounts/) for how to submit information about each bank account added to the merchant account, including: 
 
 - Name of account holder
 - IBAN

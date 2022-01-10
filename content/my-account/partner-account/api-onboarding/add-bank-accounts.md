@@ -6,29 +6,27 @@ aliases:
     - /tools/api-onboarding/add-bank-accounts
 ---
 
-Use seven requests to perform actions on bank account details of merchant accounts affiliated to your partner account:
+Use the following API requests to manage the bank account details of affiliated merchant accounts:
 
-1. [Add bank account](#1-add-bank-account): add a bank account to a merchant account
-2. [List bank accounts](#2-list-bank-accounts): retrieve a list of all bank accounts
-3. [Get bank account](#3-get-bank-account): retrieve a single bank account
-4. [Create payment link](#4-create-payment-link): create a payment link to verify a bank account
-5. [Add bank statement](#5-add-bank-statement): add a bank statement to verify a bank account
-6. [List bank statements](#6-list-bank-statements): retrieve a list of all bank statements
-7. [Get bank statement](#7-get-bank-statement): retrieve a single bank statement
+Add and retrieve bank accounts:
 
+- [Add bank account](#add-bank-account): Add a bank account to a merchant account.
+- [List bank accounts](#list-bank-accounts): Retrieve a list of all bank accounts.
+- [Get bank account](#get-bank-account): Retrieve a single bank account.
 
-### The process
-The requests above can be split into two steps:
+Verify bank accounts by payment link or bank statement:
 
-1. **Add bank accounts**: Use the first three requests to add and retrieve bank accounts linked to a merchant account. 
-2. **Verify bank accounts**: Use the last four requests to verify bank accounts. You can choose to verify through a payment link or by supplying a bank statement.
+- [Create payment link](#create-payment-link): Create a payment link to verify a bank account.
+- [Add bank statement](#add-bank-statement): Add a bank statement to verify a bank account.
+- [List bank statements](#list-bank-statements): Retrieve a list of all bank statements.
+- [Get bank statement](#get-bank-statement): Retrieve a single bank statement.
 
 ## Authentication
-All seven bank account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your Partner Manager.
+All the bank account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the corresponding API key.
 
-## 1. Add bank account 
+## Add bank account 
 
 `POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/bank-accounts?api_key={your-account-api-key}`
 
@@ -37,18 +35,18 @@ Add a new bank account to a merchant account.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Affiliate Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
 |-----|------|
-|currency <br /> `string`|The currency of the bank account. <br /> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `EUR`). Required.|
-|holder_name <br /> `string`|Full name of the bank account holder. This can be a natural person, company or other legal entity.  <br /> **Format**: max 40 characters. Required.|
-|iban <br /> `string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account. <br /> **Format**: alphanumeric string of up to 34 characters. Required |
+|currency <br /> `string`|The currency of the bank account. <br /> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. Required.|
+|holder_name <br /> `string`|The full name of the bank account holder. This can be a natural person, company, or other legal entity.  <br /> **Format**: Max 40 characters. Required.|
+|iban <br /> `string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account. <br /> **Format**: Alphanumeric string of up to 34 characters. Required. |
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
-In addition to the request body parameters.
+The following are in addition to the request body parameters.
 
 |Parameter|Description|
 |-----|------|
@@ -84,7 +82,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accou
 
 ---
 
-## 2. List bank accounts
+## List bank accounts
 
 `GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/bank-accounts?api_key={your-account-api-key}`
 
@@ -93,14 +91,14 @@ Retrieve a list of all bank accounts linked to an affiliated merchant account.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID of the affiliated merchant account.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |-----|------|
-|currency <br /> `string`|The currency of the bank account. <br /> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `EUR`).|
-|holder_name <br /> `string`|Full name of the bank account holder. This can be a natural person, company or other legal entity.  <br /> **Format**: max 40 characters.|
-|iban <br /> `string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account. <br /> **Format**: alphanumeric string of up to 34 characters. |
+|currency <br /> `string`|The currency of the bank account. <br /> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`.|
+|holder_name <br /> `string`| The full name of the bank account holder. This can be a natural person, company, or other legal entity.  <br /> **Format**: Max 40 characters.|
+|iban <br /> `string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account. <br /> **Format**: Alphanumeric string of up to 34 characters. |
 | id <br />  `string` | The unique identifier of the bank account. Referred to as `bankaccount_id`.|
 | status <br />  `string` | The screening status of the bank account. |
 {{< /collapse >}}
@@ -138,7 +136,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
 
 ---
 
-## 3. Get bank account
+## Get bank account
 
 `GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}?api_key={your-account-api-key}`
 
@@ -147,14 +145,14 @@ Retrieve a single bank account by its identifier.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g. `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |-----|------|
-|currency <br /> `string`|The currency of the bank account. <br /> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `EUR`).|
-|holder_name <br /> `string`|Full name of the bank account holder. This can be a natural person, company or other legal entity.  <br /> **Format**: max 40 characters.|
-|iban <br /> `string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account. <br /> **Format**: alphanumeric string of up to 34 characters. |
+|currency <br /> `string`|The currency of the bank account. <br /> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`.|
+|holder_name <br /> `string`|The full name of the bank account holder. This can be a natural person, company or other legal entity.  <br /> **Format**: Max 40 characters.|
+|iban <br /> `string`|The [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) of the bank account. <br /> **Format**: Alphanumeric string of up to 34 characters. |
 | id <br />  `string` | The unique identifier of the bank account. Referred to as `bankaccount_id`.|
 | status <br />  `string` | The screening status of the bank account. |
 {{< /collapse >}}
@@ -183,7 +181,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount
 
 ---
 
-## 4. Create payment link
+## Create payment link
 
 `POST` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/payment-links?api_key={your-account-api-key}`
 
@@ -192,17 +190,17 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g. `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
-There are no parameters sent in this request.
+No parameters are sent in this request.
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
 |-----|------|
 | bankaccount_id <br />  `string` | The unique identifier of the bank account. |
-| payment_link <br />  `string` | A URL where you can complete the refundable 1 EUR payment. |
+| payment_link <br />  `string` | The URL where you can make the refundable 1 EUR payment. |
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -226,34 +224,34 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccoun
 
 ---
 
-## 5. Add bank statement
+## Add bank statement
 
 `POST` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements?api_key={your-account-api-key}`
 
-Upload a bank statement to verify the ownership of the associated bank . Alternatively, create a payment link through the `payment-links` request.
+Upload a bank statement to verify the ownership of the bank account. Alternatively, create a payment link using the `payment-links` request.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g., `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Value|
 |-----|------|
 |encoded_content<br /> `string`|Base64 encoded content. Required.|
-|filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters. Required. |
-|mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
+|filename <br /> `string`| The bank statement filename.  <br /> **Format**: Max 250 characters. Required. |
+|mime_type <br />  `string`| The media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|
 |-----|------|
-|account_id <br /> `string`| Merchant ID of the affiliated merchant account. <br /> **Format**: 8 character string (e.g., `12345678`).|
-|bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: string (e.g., `upp6ogjwpot36`).|
-|document_type <br />  `string`|Document type of the file. |
-|filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters.|
+|account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+|bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: String, e.g. `upp6ogjwpot36`.|
+|document_type <br />  `string`| The document type of the file. |
+|filename <br /> `string`|The bank statement filename.  <br /> **Format**: Max 250 characters.|
 | id <br />  `string`| The unique identifier of the bank statement. Referred to as `bankstatement_id`. |
-|mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
+|mime_type <br />  `string`|The media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -287,7 +285,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccoun
 
 ---
 
-## 6. List bank statements
+## List bank statements
 
 `GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}/bank-statements?api_key={your-account-api-key}`
 
@@ -296,17 +294,17 @@ Retrieve a list of all bank statements associated with a bank account.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: string (e.g., `upp6ogjqret36`). Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankaccount_id is returned as `id` in the [add bank account](#1-add-bank-account) and [list bank accounts](#2-list-bank-accounts) request. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g., `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|
 |-----|------|
-|account_id <br /> `string`| Merchant ID of the affiliated merchant account. <br /> **Format**: 8 character string (e.g., `12345678`).|
-|bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: string (e.g., `upp6ogjwpot36`).|
-|document_type <br />  `string`|Document type of the file. |
-|filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters.|
+|account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+|bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: String, e.g. `upp6ogjwpot36`.|
+|document_type <br />  `string`|The document type of the file. |
+|filename <br /> `string`|The name of the bank statement file.  <br /> **Format**: Max 250 characters.|
 | id <br />  `string`| The unique identifier of the bank statement. Referred to as `bankstatement_id`. |
-|mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
+|mime_type <br />  `string`|The media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -334,26 +332,26 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount
 
 ---
 
-## 7. Get bank statement
+## Get bank statement
 
 `GET` `https://testapi.multisafepay.com/v1/json/bank-statements/{bankstatement_id}?api_key={your-account-api-key}`
 
-Retrieve a single bank statement by its identifier.
+Retrieve a specific bank statement by its identifier.
 
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The bankstatement_id is returned as `id` in the [add bank statement](#5-add-bank-statement) and [list bank statements](#6-list-bank-statements) request. |
+|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: String, e.g. `it613jfo4psde`. Required. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankstatement_id` is returned as `id` in the [add bank statement](#add-bank-statement) and [list bank statements](#list-bank-statements) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|
 |-----|------|
-|account_id <br /> `string`| Merchant ID of the affiliated merchant account. <br /> **Format**: 8 character string (e.g., `12345678`).|
-|bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: string (e.g., `upp6ogjwpot36`).|
-|document_type <br />  `string`|Document type of the file. |
-|filename <br /> `string`|Name of the bank statement file.  <br /> **Format**: max 250 characters.|
+|account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+|bankaccount_id <br /> `string`|The unique identifier of the bank account.  <br /> **Format**: String, e.g. `upp6ogjwpot36`.|
+|document_type <br />  `string`| The document type of the file. |
+|filename <br /> `string`|The name of the bank statement file.  <br /> **Format**: Max 250 characters.|
 | id <br />  `string`| The unique identifier of the bank statement. Referred to as `bankstatement_id`. |
-|mime_type <br />  `string`|Media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
+|mime_type <br />  `string`|The media type of the bank statement file . <br /> **Options**: `application/pdf` `image/jpeg`|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -382,7 +380,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/{bankstate
 ---
 
 ## Next steps
-You have added one or multiple bank accounts to a merchant account. Next, you can add UBOs and websites using the unique affiliate merchant ID.
+You have added one or multiple bank accounts to a merchant account. Next, you can add UBOs and websites using the unique affiliated merchant ID.
 
 {{< two-buttons
 
