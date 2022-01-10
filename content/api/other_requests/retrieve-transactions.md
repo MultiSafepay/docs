@@ -95,13 +95,13 @@ Timestamp. Returns transactions completed before but not on the specified date.
 ------------------
 `financial_status` | string (single value or array of values)
 
-Returns transactions with the specified [transaction status](/payments/multisafepay-statuses/).  
+Returns transactions with the specified [transaction status](/about-payments/multisafepay-statuses/).  
 Options: `completed`, `created`, `declined`, `error`, `expired`, `initialized`, `manual`, `new`, `refunded`, `reserved`, `uncleared`, `void`.               
 
 ------------------
 `status` | string (single value or array of values)
 
-Returns transactions with the specified [order status](/payments/multisafepay-statuses/).  
+Returns transactions with the specified [order status](/about-payments/multisafepay-statuses/).  
 Options: `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`.   
 
 ------------------

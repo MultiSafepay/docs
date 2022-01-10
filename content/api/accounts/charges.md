@@ -116,7 +116,7 @@ Includes every available currency in the affiliate's account.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `payment_method` | string
@@ -132,7 +132,7 @@ See [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

@@ -64,7 +64,7 @@ The payment method.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 ----------------
 `external_transaction_id` | string
