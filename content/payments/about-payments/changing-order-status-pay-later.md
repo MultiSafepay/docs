@@ -6,7 +6,7 @@ read_more: "."
 url: '/about-payments/pay-later-shipped-status/'
 ---
 
-For [pay later methods](/payments/methods/pay-later/), you must manually change the [order status](/payments/multisafepay-statuses/) from **Completed** to **Shipped**. This triggers the payment method to invoice the customer and transfer the funds to MultiSafepay. It also prevents the order from expiring. 
+For [pay later methods](/payments/methods/pay-later/), you must manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**. This triggers the payment method to invoice the customer and transfer the funds to MultiSafepay. It also prevents the order from expiring. 
 
 ## In your MultiSafepay account
 

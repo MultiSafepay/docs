@@ -240,7 +240,7 @@ Value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object 
@@ -372,7 +372,7 @@ Options: `YES`, `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object 
@@ -406,7 +406,7 @@ Information about linked transactions.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

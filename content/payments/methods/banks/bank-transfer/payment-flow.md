@@ -81,7 +81,7 @@ See [Resolving unmatched payments](/bank-transfer/unmatched-payments/).
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 

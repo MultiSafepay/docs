@@ -590,7 +590,7 @@ Value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object
@@ -633,7 +633,7 @@ See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

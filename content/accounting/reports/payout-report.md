@@ -28,8 +28,8 @@ Columns:
 
 - Created date: the date the transaction was initiated
 - Completed date/time: the date and time the transaction was completed
-- Mt status: the [transaction status](/payments/multisafepay-statuses/)
-- Mt order status: the [order status](/payments/multisafepay-statuses/)
+- Mt status: the [transaction status](/about-payments/multisafepay-statuses/)
+- Mt order status: the [order status](/about-payments/multisafepay-statuses/)
 - Psp id: MultiSafepay's transaction reference number
 - Amount: the transaction amount in whole currency
 - Amount cents: the transaction amount in cents
@@ -38,7 +38,7 @@ Columns:
 - Payment type: a MultiSafepay fee, or the payment method
 - Mt description: description of the transaction 
 - Sub description: description of a component of the transaction. For example, an issuer fee or currency conversion cost.
-- Sub status: the [transaction status](/payments/multisafepay-statuses/)
+- Sub status: the [transaction status](/about-payments/multisafepay-statuses/)
 - Sub id: MultiSafepay's transaction reference number
 - Ms description: website name
 - Order id: your unique identifier for the order

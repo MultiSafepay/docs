@@ -79,6 +79,6 @@ For any questions, email the Support Team at <support@multisafepay.com>
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund/chargeback is complete.  | Completed      | Completed   |
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 

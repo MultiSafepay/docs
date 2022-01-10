@@ -469,7 +469,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

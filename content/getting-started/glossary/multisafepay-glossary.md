@@ -89,7 +89,7 @@ The Single Euro Payments Area (SEPA) is a European Union payment-integration ini
 A container in the merchant's integration where customers place items for an order preparing for payment.
 
 ### transaction
-An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/payments/multisafepay-statuses/) changes as the funds move through the different stages of the payment flow.
+An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/about-payments/multisafepay-statuses/) changes as the funds move through the different stages of the payment flow.
 
 ### we
 MultiSafepay

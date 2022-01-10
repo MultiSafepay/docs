@@ -15,7 +15,7 @@ The Accountant export lists all successful incoming and outgoing transactions, i
 
 - Amount
 - Payment method
-- [Transaction status](/payments/multisafepay-statuses/) (at the time the report was generated)
+- [Transaction status](/about-payments/multisafepay-statuses/) (at the time the report was generated)
 
 {{< details title="Supported formats" >}}
 
@@ -55,7 +55,7 @@ Columns:
 - Typetransaction: see [N-codes for identifying payment methods](/reports/n-codes/)
 - Paymenttype: a MultiSafepay fee, or the payment method
 - Description/Description2/Description3/Description4: descriptions of the order
-- Tr status: the [transaction status](/payments/multisafepay-statuses/)
+- Tr status: the [transaction status](/about-payments/multisafepay-statuses/)
 - Ms description: website name
 - Mt merchanttransactionid: your unique identifier for the order
 - Mt cust firstname: the customer’s first name

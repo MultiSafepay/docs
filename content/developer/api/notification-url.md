@@ -23,7 +23,7 @@ For `POST` requests, we add the order data to the request body.
 You can ignore requests if:
 
 - We request the `notification_url` without the `timestamp` parameter.  
-- You receive the same [order status](/payments/multisafepay-statuses/). 
+- You receive the same [order status](/about-payments/multisafepay-statuses/). 
 
 Our API provides a `GET` and `POST` notification.
 
@@ -80,7 +80,7 @@ To calculate the signature/hash, follow these steps:
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
 ## GET vs POST notification
-The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
+The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/about-payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
 
 For security reasons, you must always validate the payload to make the `POST` notification comes from MultiSafepay and hasn't been tampered with.
 

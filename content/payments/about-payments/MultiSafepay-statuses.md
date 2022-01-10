@@ -5,6 +5,7 @@ meta_title: "MultiSafepay statuses - MultiSafepay Docs"
 read_more: "."
 url: '/about-payments/multisafepay-statuses/'
 aliases:
+    - /payments/multisafepay-statuses/
     - /faq/api/difference-between-status-and-transaction-status
     - /faq/api/difference-between-status-and-financial-status
     - /developer/api/difference-between-status-and-financial-status/

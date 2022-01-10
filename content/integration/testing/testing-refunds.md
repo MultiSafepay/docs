@@ -12,6 +12,6 @@ You can process full refunds in your [MultiSafepay test account](https://testmer
 
 To enable partial refunds, email the Integration Team at <integration@multisafepay.com>
 
-If you refund a payment in your MultiSafepay test account, the [transaction status](/payments/multisafepay-statuses/) remains **Reserved** until the refund is manually approved, since there is no settlement with a bank.
+If you refund a payment in your MultiSafepay test account, the [transaction status](/about-payments/multisafepay-statuses/) remains **Reserved** until the refund is manually approved, since there is no settlement with a bank.
 
 

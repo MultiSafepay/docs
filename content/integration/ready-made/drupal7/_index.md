@@ -114,4 +114,4 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 This rule sets the order to `processing` when the order is paid in full.  
 
     * MultiSafepay order complete: Shipped at MultiSafepay  
-This rule updates the [transaction status](/payments/multisafepay-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
+This rule updates the [transaction status](/about-payments/multisafepay-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.

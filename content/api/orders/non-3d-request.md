@@ -34,7 +34,7 @@ meta_title: "API reference - 3D disabled or non-3D requests - MultiSafepay Docs"
 }
 ```
 > JSON response    
-> When no 3D verification is required, the [transaction status](/payments/multisafepay-statuses/) response will be processed directly and no form will be sent.
+> When no 3D verification is required, the [transaction status](/about-payments/multisafepay-statuses/) response will be processed directly and no form will be sent.
 
 ```json 
 {
