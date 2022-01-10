@@ -14,7 +14,7 @@ Sender Policy Framework (SPF) records let you specify who is authorized to send 
 
 ## Adding an SPF record
 
-1. Through your hosting provider, domain registrar, or DNS provider, create a DNS TXT record that is named after your domain. For example: `example.com`
+1. Through your hosting provider, domain registrar, or DNS provider, create a DNS TXT record that is named after your domain, e.g. `example.com`.
 
 2. Add either of the following entries to your TXT record containing `v=spf1` and including at least one of the following:
     - `ip4:213.189.0.0/23`
