@@ -15,4 +15,6 @@ url: "/pwa-studio/"
 title_short: "PWA Studio (Venia)"
 type: "PWA"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your PWA Studio (Venia)  application."
+aliases:
+  - /payments/integrations/pwa/pwa-studio/
 ---
