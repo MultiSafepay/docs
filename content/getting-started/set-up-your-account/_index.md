@@ -28,7 +28,7 @@ Then, consider:
 - [Setting your notification URL](/account/setting-your-notification-url/) for us to send notifications about orders.
 - [Downloading the MultiSafepay app](/account/multisafepay-app/) to manage your account on the go.
 
-For full guidance, see [Account setup](/account/account-setup/).
+For full guidance, see [Manage my account](/account/manage-account/).
 
 ## Next steps
 

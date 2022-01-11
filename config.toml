@@ -82,24 +82,24 @@ name = "Shell"
     weight = 10
 
 [[menu.main]]
-    name = "Test accounts"
-    url  = "/account/test-accounts/"
+    name = "Creating an account"
+    url  = "/account/create-account/"
     parent = "my-account"
-    identifier = "test-accounts"
+    identifier = "create-account"
     weight = 110
 
 [[menu.main]]
-    name = "Account setup"
-    url  = "/account/account-setup/"
+    name = "Manage my account"
+    url  = "/account/manage-account/"
     parent = "my-account"
-    identifier = "account-setup"
+    identifier = "manage-account"
     weight = 120
 
 [[menu.main]]
-    name = "Partner accounts"
-    url  = "/account/partner-accounts/"
+    name = "Partner and primary accounts"
+    url  = "/account/partner-primary-accounts/"
     parent = "my-account"
-    identifier = "partner-accounts"
+    identifier = "partner-primary-accounts"
     weight = 130
 
 [[menu.main]]
