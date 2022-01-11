@@ -38,7 +38,7 @@ Add a website to an affiliated merchant account.
 |notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
-|support_email <br /> `string`| The email address used to support the website's customers.  <br /> **Format**: Email address (max 100 characters). Optional. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). Optional. |
 |support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). Optional. |
 |URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters). Required. |
 {{< /collapse >}}
@@ -114,7 +114,7 @@ Retrieve an array of all websites linked to a merchant account.
 |notification_url <br /> `string`|The [motification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
-|support_email <br /> `string`| The email address used to support the website's customers.  <br /> **Format**: Email address (max 100 characters). |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
 |support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). |
 |URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters).|
 {{< /collapse >}}
@@ -175,7 +175,7 @@ Retrieve information about a specific website.
 |notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
-|support_email <br /> `string`| The email address used to support the website's customers.  <br /> **Format**: Email address (max 100 characters). |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
 |support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). |
 |URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters).|
 {{< /collapse >}}
@@ -229,7 +229,7 @@ Update information about an existing website.
 |notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
-|support_email <br /> `string`| The email address used to support the website's customers.  <br /> **Format**: Email address (max 100 characters). Optional. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). Optional. |
 |support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). Optional. |
 |URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
 {{< /collapse >}}
@@ -244,7 +244,7 @@ Update information about an existing website.
 |notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
-|support_email <br /> `string`| The email address used to support the website's customers.  <br /> **Format**: Email address (max 100 characters). |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
 |support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). |
 |URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters).|
 {{< /collapse >}}

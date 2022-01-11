@@ -12,7 +12,7 @@ Add and retrieve bank accounts:
 
 - [Add bank account](#add-bank-account): Add a bank account to a merchant account.
 - [List bank accounts](#list-bank-accounts): Retrieve a list of all bank accounts.
-- [Get bank account](#get-bank-account): Retrieve a single bank account.
+- [Get bank account](#get-bank-account): Retrieve a specific bank account.
 
 Verify bank accounts by payment link or bank statement:
 

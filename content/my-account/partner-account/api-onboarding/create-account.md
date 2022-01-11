@@ -35,7 +35,7 @@ Create a new affiliated merchant account.
 |account.address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters. Optional.|
 |account.apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters. Optional.|
 |account.city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters Optional.|
-|account.coc_number<br />`string`|The chamber of commerce number. <br />**Format**: Max 50 characters. Optional.|
+|account.coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters. Optional.|
 |account.company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters. Required.|
 |account.country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Required.|
 |account.email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters. Required.|
@@ -142,7 +142,7 @@ Retrieve an array of all affiliated merchant accounts.
 |address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters.|
 |apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters.|
 |city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters.|
-|coc_number<br />`string`|The chamber of commerce number. <br />**Format**: Max 50 characters.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters.|
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
@@ -208,7 +208,7 @@ Retrieve the account details of a specific affiliated merchant account.
 |address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters.|
 |apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters.|
 |city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters.|
-|coc_number<br />`string`|The chamber of commerce number. <br />**Format**: Max 50 characters.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters.|
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
@@ -272,7 +272,7 @@ Update the account details of an affiliated merchant account.
 |address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters. Optional.|
 |apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters. Optional.|
 |city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters. Optional.|
-|coc_number<br />`string`|The chamber of commerce number. <br />**Format**: Max 50 characters. Optional.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters. Optional.|
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters. Optional.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Optional.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters. Optional.|
@@ -290,7 +290,7 @@ Update the account details of an affiliated merchant account.
 |address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters.|
 |apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters.|
 |city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters.|
-|coc_number<br />`string`|The chamber of commerce number. <br />**Format**: Max 50 characters.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters.|
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
