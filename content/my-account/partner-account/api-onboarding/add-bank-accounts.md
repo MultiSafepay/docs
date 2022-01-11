@@ -19,7 +19,7 @@ Verify bank accounts by payment link or bank statement:
 - [Create payment link](#create-payment-link): Create a payment link to verify a bank account.
 - [Add bank statement](#add-bank-statement): Add a bank statement to verify a bank account.
 - [List bank statements](#list-bank-statements): Retrieve a list of all bank statements.
-- [Get bank statement](#get-bank-statement): Retrieve a single bank statement.
+- [Get bank statement](#get-bank-statement): Retrieve a specific bank statement.
 
 ## Authentication
 All the bank account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your partner manager.
@@ -140,7 +140,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
 
 `GET` `https://testapi.multisafepay.com/v1/json/bank-accounts/{bankaccount_id}?api_key={your-account-api-key}`
 
-Retrieve a single bank account by its identifier.
+Retrieve a specific bank account by its identifier.
 
 ### Path parameters
 |Parameter|Description|

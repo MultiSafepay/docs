@@ -10,7 +10,7 @@ Use the following requests to create, retrieve or update affiliated merchant acc
 
 - [Sign up account](#sign-up-account): Create a new merchant account.
 - [List accounts](#list-accounts): Retrieve a list of all merchant accounts.
-- [Get account](#get-account): Retrieve a single merchant account.
+- [Get account](#get-account): Retrieve a specific merchant account.
 - [Update account](#update-account): Update a merchant account.
 
 ## Authentication
@@ -39,10 +39,10 @@ Create a new affiliated merchant account.
 |account.company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters. Required.|
 |account.country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Required.|
 |account.email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters. Required.|
-|account.fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters. Optional.|
-|account.phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters. Optional.|
-|account.vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters. Optional.|
-|account.zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters. Optional.|
+|account.fax<br />`string`|The company's fax number.<br />**Format**: Max 15 characters. Optional.|
+|account.phone<br />`string`|The company's phone number.<br />**Format**: Max 15 characters. Optional.|
+|account.vat_number<br />`string`|The company's VAT number.<br />**Format**: Max 50 characters. Optional.|
+|account.zipcode<br />`string`|The company's ZIP code.<br />**Format**: Max 30 characters. Optional.|
 |**user**<br />`object`|Contains user information.|
 |user.name<br />`string`|The full name of the primary user (can be modified later). Required.|
 |user.email<br />`string`|The primary user's unique email address to which the welcome email containing the secure code is sent. Required.|
@@ -146,11 +146,11 @@ Retrieve an array of all affiliated merchant accounts.
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
-|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters.|
+|fax<br />`string`|The company's fax number.<br />**Format**: Max 15 characters.|
 |id <br /> `string`| The affiliated merchant ID. Referred to as `{account_id}`. |
-|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters.|
-|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters.|
-|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters.|
+|phone<br />`string`|The company's phone number.<br />**Format**: Max 15 characters.|
+|vat_number<br />`string`|The company's VAT number.<br />**Format**: Max 50 characters.|
+|zipcode<br />`string`|The company's ZIP code.<br />**Format**: Max 30 characters.|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -212,11 +212,11 @@ Retrieve the account details of a specific affiliated merchant account.
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
-|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters.|
+|fax<br />`string`|The company's fax number.<br />**Format**: Max 15 characters.|
 |id <br /> `string`| The affiliated merchant ID. Referred to as `{account_id}`. |
-|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters.|
-|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters.|
-|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters.|
+|phone<br />`string`|The company's phone number.<br />**Format**: Max 15 characters.|
+|vat_number<br />`string`|The company's VAT number.<br />**Format**: Max 50 characters.|
+|zipcode<br />`string`|The company's ZIP code.<br />**Format**: Max 30 characters.|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
@@ -276,10 +276,10 @@ Update the account details of an affiliated merchant account.
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters. Optional.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Optional.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters. Optional.|
-|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters. Optional.|
-|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters. Optional.|
-|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters. Optional.|
-|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters. Optional.|
+|fax<br />`string`|The company's fax number.<br />**Format**: Max 15 characters. Optional.|
+|phone<br />`string`|The company's phone number.<br />**Format**: Max 15 characters. Optional.|
+|vat_number<br />`string`|The company's VAT number.<br />**Format**: Max 50 characters. Optional.|
+|zipcode<br />`string`|The company's ZIP code.<br />**Format**: Max 30 characters. Optional.|
 {{< /collapse >}}
 
 {{< collapse title="Response body parameters" size="h3" >}}
@@ -294,11 +294,11 @@ Update the account details of an affiliated merchant account.
 |company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
 |country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
-|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters.|
+|fax<br />`string`|The company's fax number.<br />**Format**: Max 15 characters.|
 |id <br /> `string`| The affiliated merchant ID. Referred to as `{account_id}`. |
-|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters.|
-|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters.|
-|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters.|
+|phone<br />`string`|The company's phone number.<br />**Format**: Max 15 characters.|
+|vat_number<br />`string`|The company's VAT number.<br />**Format**: Max 50 characters.|
+|zipcode<br />`string`|The company's ZIP code.<br />**Format**: Max 30 characters.|
 {{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}

@@ -12,14 +12,14 @@ Add, retrieve, and update UBOs:
 
 - [Create a UBO](#create-a-ubo): Add a UBO to a merchant account.
 - [List UBOs](#list-ubos): Retrieve all UBOs for a merchant account.
-- [Get UBO](#get-a-ubo): Retrieve a single UBO by its identifier.
+- [Get UBO](#get-a-ubo): Retrieve a specific UBO by its identifier.
 - [Update UBO](#update-a-ubo): Update a UBO.
 
 Add and retrieve UBO identification documents:
 
 - [Add identity document](#add-identity-document): Add an identity document to an existing UBO.
 - [List identity documents](#list-identity-documents): Retrieve all identity documents for a UBO.
-- [Get identity document](#get-identity-document): Retrieve a single identity document for a UBO.
+- [Get identity document](#get-identity-document): Retrieve a specific identity document for a UBO.
 
 ## Authentication
 All the UBO requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your partner manager.
