@@ -12,7 +12,7 @@ Different payment methods set different expiration times for transactions. The t
 
 The expiration time is set by the payment method and cannot be changed.
 
-{{< blue-notice >}}**Note:** Transaction expiration times are different to [payment link lifetimes](/payment-links/about/#lifetimes). {{< /blue-notice >}}
+{{< blue-notice >}}**Note:** Transaction expiration times are different to [session lifetimes](/api/#adjust-session-lifetimes). {{< /blue-notice >}}
 
 The table below sets out the expiration time per payment method:
 

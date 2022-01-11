@@ -1,6 +1,6 @@
 ---
 weight: 208
-meta_title: "API reference - Adjust payment link lifetime - MultiSafepay Docs"
+meta_title: "API reference - Adjust session lifetime - MultiSafepay Docs"
 aliases: 
     - /faq/api/lifetime-of-a-payment-link
     - /faq/api/adjusting-payment-link-lifetimes
@@ -10,7 +10,6 @@ aliases:
 > POST - /orders
 
 ```json 
-
 {
   "type":"redirect",
   "order_id":"test-123",
