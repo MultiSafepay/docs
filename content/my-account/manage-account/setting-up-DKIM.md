@@ -15,7 +15,7 @@ DKIM authenticates emails using a pair of cryptographic keys.
 
 ## Adding TXT records
 
-In addition to our own mail servers, we use Mandrill to send emails. This means you need to add **two** TXT records.
+If you have a [pay later method](/payment-methods/pay-later/) activated, we also use Mandrill to send emails in addition to our own mail servers. In this case, you need to add **two** TXT records.
 
 ### MultiSafepay email servers
 1. Add a TXT record named: `msp-2021._domainkey.{your domain}`, e.g. `msp-2021._domainkey.example.com`.
@@ -26,7 +26,7 @@ In addition to our own mail servers, we use Mandrill to send emails. This means 
     ```
 You have successfully added a TXT record for MultiSafepay's email servers.
 
-### Mandrill
+### Mandrill for pay later methods
 1. Add a TXT record named: `mandrill._domainkey.{your domain}`, e.g. `mandrill._domainkey.example.com`.
 
 2. Add the following content to your TXT record:
