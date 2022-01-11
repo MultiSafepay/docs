@@ -5,6 +5,7 @@ meta_title: "e-Boekhouden - MultiSafepay Docs"
 logo: '/svgs/E-boekhouden.svg'
 layout: 'single'
 title_short: "e-Boekhouden"
+buttons_under_text: "Third-party integrations"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your e-Boekhouden platform"
 description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your e-Boekhouden system."
