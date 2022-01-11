@@ -1,7 +1,7 @@
 ---
 title: "PSP betalingen"
 weight: 10
-meta_title: "Integrations - Accounting and bookkeeping - PSP betalingen - MultiSafepay Docs"
+meta_title: "PSP betalingen - MultiSafepay Docs"
 logo: '/svgs/psp-betalingen.png'
 layout: 'single'
 title_short: "PSP betalingen"
