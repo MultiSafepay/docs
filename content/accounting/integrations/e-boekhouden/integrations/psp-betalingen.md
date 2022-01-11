@@ -10,7 +10,7 @@ short_description: "Automatically reconcile MultiSafepay payments with sales in 
 description_short: "Information about PSP betalingen's reconiliation integration for e-Boekhouden"
 ---
 
-PSP betalingen lets you connect your MultiSafepay account to e-Boekhouden. With this connection, your MultiSafepay transactions are continually imported into e-Boekhouden, allowing you to automate your reconciliation.
+PSP betalingen has developed an integration that connects your MultiSafepay account to e-Boekhouden. Your MultiSafepay transactions are continually imported into e-Boekhouden, allowing you to automate your reconciliation.
 
 For more information, see PSP&nbsp;betalingen&nbsp;–&nbsp;[Koppeling MultiSafepay- e-Boekhouden (Dutch)](https://www.webwinkelfacturen.nl/koppelingpsp.php?shopsystem=multisafepay&invoicesystem=eboekhouden).
 
