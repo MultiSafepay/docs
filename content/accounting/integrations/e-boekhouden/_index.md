@@ -8,7 +8,7 @@ title_short: "e-Boekhouden"
 buttons_under_text: "Third-party integrations"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your e-Boekhouden platform"
-description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your e-Boekhouden system."
+description_short: "Easily generate MultiSafepay accountant export reports and import them into your e-Boekhouden system."
 extra_button:
     url: "https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387"
     text: "Go to site"
