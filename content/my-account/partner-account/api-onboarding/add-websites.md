@@ -6,18 +6,15 @@ aliases:
     - /tools/api-onboarding/add-websites
 ---
 
-Use the following requests to add, retrieve or update websites linked to a merchant account affiliated with your partner account:
+Use the following requests to add, retrieve, or update websites linked to an affiliated merchant account:
 
-1. [Add a website](#add-a-website): Add a website to a merchant account.
-2. [List websites](#list-websites): Retrieve all websites for a merchant account.
-3. [Get website](#get-a-website): Retrieve a single website by its identifier.
-4. [Update website](#update-a-website): Update a website.
-
-### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website [API key](/set-up-your-account/site-id-api-key-secure-code), expected minimum and maximum order values need to be supplied. Furthermore, the [notification URL](/developer/api/notification-url/) is required to receive [transaction status](/about-payments/multisafepay-statuses/) updates. However, this information may also be provided at a later time. 
+- [Add a website](#add-a-website): Add a website to a merchant account.
+- [List websites](#list-websites): Retrieve all websites for a merchant account.
+- [Get website](#get-website): Retrieve a specific website.
+- [Update website](#update-website): Update a website.
 
 ## Authentication
-All four website requests require a partner account API key. For more information, email your partner manager.
+All of the website requests require a partner account API key. For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain in the URL from `testapi` to `api` and use the corresponding API key.
 
@@ -25,32 +22,42 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ## Add a website
 
-`POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/sites`
+`POST` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites`
 
 Add a website to an affiliated merchant account.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
-|account_id{{< br >}}`string`|account ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`| The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.|
 
-### Query parameters
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |---|---|
-|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Required. |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Required.. |
-|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
-|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
-|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). Optional. |
+|name <br /> `string`|Name of the website.  <br /> **Format**: Max 120 characters. Required. |
+|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+|price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
+|price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). Optional. |
+|support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). Optional. |
+|URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters). Required. |
+{{< /collapse >}}
+
+{{< collapse title="Response body parameters" size="h3" >}}
+The following are in addition to the request body parameters.
+
+|Parameter|Description|
+|---|---|
+| account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
+| id  <br /> `integer`| The unique identifier of the website. <br /> **Format**: 5-digit integer, e.g. `12345`.|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}" \
 --header "accept: application/json" 
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "name":"Funcompany",
   "notification_url":"https://funcompany.com/transactionhook",
@@ -68,7 +75,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" 
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
     "id": 12345,
     "name": "Funcompany",
@@ -82,29 +89,40 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" 
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
 {{< /collapse >}}
 
 ---
 
 ## List websites
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/sites`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}`
 
 Retrieve an array of all websites linked to a merchant account.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|affiliate_account_id{{< br >}}`string`|The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.
+
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|---|---|
+| account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
+| id  <br /> `integer`| The unique identifier of the website. Referred to as `site_id`. <br /> **Format**: 5-digit integer, e.g. `12345`.|
+|name <br /> `string`| The name of the website.  <br /> **Format**: Max 120 characters. |
+|notification_url <br /> `string`|The [motification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
+|price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
+|support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). |
+|URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}/sites?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>" 
 ```
 {{< /collapse >}}
 
@@ -114,7 +132,7 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" \
 {
   "data": [
     {
-      "account_id": 12345678,
+      "account_id": {affiliate_account_id},
       "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
       "id": 12345,
       "name": "Funcompany",
@@ -132,29 +150,40 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/sites" \
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
 {{< /collapse >}}
 
 ---
 
 ## Get website
 
-`GET` `https://testapi.multisafepay.com/v1/json/sites/{site_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}`
 
-Retrieve a single website by its identifier.
+Retrieve information about a specific website.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
-|site_id{{< br >}}`string`|Site ID.{{< br >}}**Format**: 5 character string (e.g., `12345`). Required.
+|site_id{{< br >}}`integer`|The unique identifier of the website.{{< br >}}**Format**: 5-digit integer, e.g. `12345`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `site_id` is returned as `id` in the [add a website](#add-a-website) and [list websites](#list-websites) requests.|
+
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|---|---|
+| account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
+| id  <br /> `integer`| The unique identifier of the website. Referred to as `site_id`. **Format**: 5-digit integer, e.g. `12345`.|
+|name <br /> `string`|Name of the website.  <br /> **Format**: Max 120 characters. |
+|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
+|price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
+|support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). |
+|URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/{site_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>" 
 ```
 {{< /collapse >}}
 
@@ -163,9 +192,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345" \
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
-    "id": 12345,
+    "id": {site_id},
     "name": "Funcompany",
     "notification_url": "https://funcompany.com/transactionhook",
     "price_from": 50,
@@ -177,40 +206,53 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/sites/12345" \
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
+
 {{< /collapse >}}
 
 ---
 
 ## Update website
 
-`PATCH` `https://testapi.multisafepay.com/v1/json/sites/{site_id}`
+`PATCH` `https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}`
 
 Update information about an existing website.
 
 ### Path parameters
-|Key|Description|
+|Parameter|Description|
 |---|---|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|site_id{{< br >}}`integer`|The unique identifier of the website.{{< br >}}**Format**: 5-digit integer, e.g. `12345`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `site_id` is returned as `id` in the [add a website](#add-a-website) and [list websites](#list-websites) requests.|
 
-### Query parameters
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |---|---|
-|name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Optional. |
-|URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
-|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
-|price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
-|support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
-|support_phone{{< br >}}`string`| Phone number used to support the website's customers. {{< br >}}**Format**: phone number (max 100 characters). Optional. |
+|name <br /> `string`|The name of the website.  <br /> **Format**: Max 120 characters. Optional. |
+|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+|price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
+|price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). Optional. |
+|support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). Optional. |
+|URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+{{< /collapse >}}
+
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|---|---|
+| account_id <br /> `string`| The affiliated merchant ID. <br /> **Format**: 8 character string, e.g. `12345678`.|
+| api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
+| id  <br /> `integer`| The unique identifier of the website. Referred to as `site_id`. **Format**: 5-digit integer, e.g. `12345`.|
+|name <br /> `string`|The name of the website.  <br /> **Format**: max 120 characters. |
+|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
+|price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
+|support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
+|support_phone <br /> `string`| The customer support phone number for the website.  <br /> **Format**: Phone number (max 100 characters). |
+|URL <br /> `string`| The URL of the website.  <br /> **Format**: URL (max 150 characters).|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
+curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/{site_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>" \
 --header "Content-Type: application/json" \
 --data-raw '{
   "notification_url": "https://funcompany.com/newhook"
@@ -223,9 +265,9 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
 ```
 {
   "data": {
-    "account_id": 12345678,
+    "account_id": {affiliate_account_id},
     "api_key": "4192937dffd72a34bcaef4e4f589beb74188d0fa",
-    "id": 12345,
+    "id": {site_id},
     "name": "Funcompany",
     "notification_url": "https://funcompany.com/newhook",
     "price_from": 50,
@@ -237,16 +279,13 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
   "success": true
 }
 ```
-`account_id` → the account ID of the associated merchant account  
-`api_key` → the API key of the linked website  
-`id` → the site ID of the linked website
 {{< /collapse >}}
 
 ---
 
-## That's it
+## That's it!
 You've successfully created an affiliated merchant account and added the associated bank accounts, UBOs, and websites. Next, we will perform checks on the provided information.
-Once those checks have been passed successfully, the newly created account is ready to process payments.  
+Once those checks have passed successfully, the newly created account is ready to process payments.  
 
 {{< two-buttons href-1="/tools/api-onboarding/add-ubos" header-1="Previous" text-1="Add UBOs" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
 {{< two-buttons href-1="/tools/api-onboarding" header-1="Overview" text-1="Onboarding using our API" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}

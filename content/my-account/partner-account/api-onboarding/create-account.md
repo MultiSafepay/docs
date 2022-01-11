@@ -6,58 +6,64 @@ aliases:
     - /tools/api-onboarding/create-account
 ---
 
-Use the following requests to create, retrieve or update merchant accounts affiliated to your partner account:
+Use the following requests to create, retrieve or update affiliated merchant accounts:
 
-1. [Signup account](#signup-account): create a new merchant account
-2. [List accounts](#list-accounts): retrieve a list of all merchant accounts
-3. [Get account](#get-account): retrieve a single merchant account
-4. [Update account](#update-account): update a merchant account
-
-### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To perform our know your customer checks, we may need _optional_ parameters to be supplied.
+- [Sign up account](#sign-up-account): Create a new merchant account.
+- [List accounts](#list-accounts): Retrieve a list of all merchant accounts.
+- [Get account](#get-account): Retrieve a single merchant account.
+- [Update account](#update-account): Update a merchant account.
 
 ## Authentication
-All four account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your Partner Manager.
+All of the account requests require a partner account API key. This is not the same as a [website API key](/set-up-your-account/site-id-api-key-secure-code). For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the corresponding API key.
 
 ---
 
-## Signup account
+## Sign up account
 
-`POST` `https://testapi.multisafepay.com/v1/json/signup-account`
+`POST` `https://testapi.multisafepay.com/v1/json/signup-account?api_key={your-account-api-key}`
 
 Create a new affiliated merchant account.
 
-### Query parameters
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |-----|------|
-|**account**{{< br >}}`object`|This object holds company information|
-|account.address1{{< br >}}`string`|First line of company address {{< br >}}**Format**: max 64 characters. Optional.|
-|account.address2{{< br >}}`string`|Second line of company address{{< br >}}**Format**: max 64 characters. Optional.|
-|account.address3{{< br >}}`string`|Third line of company address {{< br >}}**Format**: max 64 characters. Optional.|
-|account.apartment{{< br >}}`string`|Apartment number of company address{{< br >}}**Format**: max 9 characters. Optional.|
-|account.city{{< br >}}`string`|City of company address{{< br >}}**Format**: max 50 characters Optional.|
-|account.coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters. Optional.|
-|account.company_name{{< br >}}`string`|Name of company {{< br >}}**Format**: max 200 characters. Required.|
-|account.country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Required.|
-|account.email{{< br >}}`string`|Company email address. Transaction updates are sent to this address. {{< br >}}**Format**: max 100 characters. Required.|
-|account.fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. Optional.|
-|account.phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. Optional.|
-|account.vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
-|account.zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. Optional.|
-|**user**{{< br >}}`object`|This object holds user information|
-|user.name{{< br >}}`string`|Full name of the primary user. The name can be modified later. Required.|
-|user.email{{< br >}}`string`|Email address of the primary user. The welcome email with secure code is sent to this address. Required.|
-|user.password{{< br >}}`string`|Password of the primary user. Required.|
-|currencies{{< br >}}`array`|List of currencies the company wishes to process{{< br >}}**Format**: array of strings in [ISO-4217 format](https://en.wikipedia.org/wiki/ISO_4217) (e.g., `[EUR,USD]`). Required.|
+|**account**  <br /> `object`|Contains company information.|
+|account.address1  `string`|The first line of the company address.  <br /> **Format**: Max 64 characters. Optional.|
+|account.address2<br />`string`|The second line of the company address.<br />**Format**: Max 64 characters. Optional.|
+|account.address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters. Optional.|
+|account.apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters. Optional.|
+|account.city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters Optional.|
+|account.coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters. Optional.|
+|account.company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters. Required.|
+|account.country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Required.|
+|account.email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters. Required.|
+|account.fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters. Optional.|
+|account.phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters. Optional.|
+|account.vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters. Optional.|
+|account.zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters. Optional.|
+|**user**<br />`object`|Contains user information.|
+|user.name<br />`string`|The full name of the primary user (can be modified later). Required.|
+|user.email<br />`string`|The primary user's unique email address to which the welcome email containing the secure code is sent. Required.|
+|user.password<br />`string`|The primary user's password. Required.|
+|currencies<br />`array`|The list of currencies the company wants to process.<br />**Format**: Array of strings in [ISO-4217 format](https://en.wikipedia.org/wiki/ISO_4217), e.g. `[EUR,USD]`. Required.|
+
+{{< /collapse >}}
+
+{{< collapse title="Response body parameters" size="h3" >}}
+The following are in addition to the request body parameters.
+
+|Parameter|Description|
+|-----|------|
+| id<br />`string`| The affiliated merchant ID. Referred to as `{account_id}`. |
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "account": {
     "address1": "Flowerstreet 123",
@@ -66,9 +72,9 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
     "apartment": "5A",
     "city": "Amsterdam",
     "coc_number": "123456",
-    "company_name": "Fun B.V.",
+    "company_name": "{affiliate-company-name}",
     "country": "NL",
-    "email": "info@funcompany.com",
+    "email": "{affiliate-email-address}",
     "fax": "00311234567890",
     "phone": "00311234567890",
     "vat_number": "NL999999999B99",
@@ -76,7 +82,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
   },
   "user": {
     "name": "Ad Admin",
-    "email": "admin@funcompany.com",
+    "email": "{affiliate-email-address}",
     "password": "password"
   },
   "currencies": [
@@ -97,9 +103,9 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
       "apartment": "5A",
       "city": "Amsterdam",
       "coc_number": "123456",
-      "company_name": "Fun B.V.",
+      "company_name": "{affiliate-company-name},
       "country": "NL",
-      "email": "info@funcompany.com",
+      "email": "{affiliate-email-address}",
       "fax": "00311234567890",
       "id": 12345678,
       "phone": "00311234567890",
@@ -108,7 +114,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
     },
     "user": {
       "name": "Ad Admin",
-      "email": "admin@funcompany.com",
+      "email": "{affiliate-email-address}",
       "password": "***"
     },
     "currencies": [
@@ -118,25 +124,39 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/signup-account" \
   "success": true
 }
 ```
-`account.id` → the account ID
 {{< /collapse >}}
 
 ---
  
 ## List accounts
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts?api_key={your-account-api-key}`
 
-Retrieve an array of all merchant accounts affiliated to your partner account.
+Retrieve an array of all affiliated merchant accounts.
 
-### Parameters
-This request doesn't require any parameters.
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|-----|------|
+|address1  `string`|The first line of the company address.  <br /> **Format**: Max 64 characters.|
+|address2<br />`string`|The second line of the company address.<br />**Format**: Max 64 characters.|
+|address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters.|
+|apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters.|
+|city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters.|
+|company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
+|country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
+|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters.|
+|id <br /> `string`| The affiliated merchant ID. Referred to as `{account_id}`. |
+|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters.|
+|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters.|
+|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters.|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< br >}}
 {{< /collapse >}}
@@ -152,9 +172,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
       "apartment": "5A",
       "city": "Funtown",
       "coc_number": "123456",
-      "company_name": "Fun B.V.",
+      "company_name": "{affiliate-company-name}",
       "country": "NL",
-      "email": "info@funcompany.com",
+      "email": "{affiliate-email-address}",
       "fax": "00311234567890",
       "id": "12345678",
       "phone": "00311234567890",
@@ -165,28 +185,44 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts" \
   "success": true
 }
 ```
-`account.id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Get account
 
-`GET` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}`
+`GET` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}?api_key={your-account-api-key}`
 
 Retrieve the account details of a specific affiliated merchant account.
 
-### Path parameters
+#### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|The affiliated merchant ID.{{< br >}}**Format**: 8 character string, e.g. `12345678`. Required.
 
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|-----|------|
+|address1  `string`|The first line of the company address.  <br /> **Format**: Max 64 characters.|
+|address2<br />`string`|The second line of the company address.<br />**Format**: Max 64 characters.|
+|address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters.|
+|apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters.|
+|city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters.|
+|company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
+|country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
+|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters.|
+|id <br /> `string`| The affiliated merchant ID. Referred to as `{account_id}`. |
+|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters.|
+|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters.|
+|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters.|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
+curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
---header "api_key: <your-account-api-key>"
 ```
 {{< br >}}
 {{< /collapse >}}
@@ -201,9 +237,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
     "apartment": "5A",
     "city": "Funtown",
     "coc_number": "123456",
-    "company_name": "Fun B.V.",
+    "company_name": "{affiliate-company-name}",
     "country": "NL",
-    "email": "info@funcompany.com",
+    "email": "{affiliate-email-address}",
     "fax": "00311234567890",
     "id": "12345678",
     "phone": "00311234567890",
@@ -213,45 +249,63 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
   "success": true
 }
 ```
-`id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Update account
 
-`PATCH` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}`
+`PATCH` `https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}?api_key={your-account-api-key}`
 
 Update the account details of an affiliated merchant account.
 
-### Path parameters
+#### Path parameters
 |Parameter|Description|
 |-----|------|
-|account_id{{< br >}}`string`|Merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
+|account_id{{< br >}}`string`|The affiliated merchant ID.{{< br >}}**Format**: 8 character string (e.g., `12345678`). Required.
 
-### Query parameters
-|Key|Description|
+{{< collapse title="Request body parameters" size="h3" >}}
+|Parameter|Description|
 |-----|------|
-|address1{{< br >}}`string`|First line of company address {{< br >}}**Format**: max 64 characters. Optional.|
-|address2{{< br >}}`string`|Second line of company address{{< br >}}**Format**: max 64 characters. Optional.|
-|address3{{< br >}}`string`|Third line of company address {{< br >}}**Format**: max 64 characters. Optional.|
-|apartment{{< br >}}`string`|Apartment number of company address{{< br >}}**Format**: max 9 characters. Optional.|
-|city{{< br >}}`string`|City of company address{{< br >}}**Format**: max 50 characters Optional.|
-|coc_number{{< br >}}`string`|Chamber of commerce number {{< br >}}**Format**: max 50 characters. Optional.|
-|company_name{{< br >}}`string`|Name of company {{< br >}}**Format**: max 200 characters. Optional.|
-|country{{< br >}}`string`|Country code of company {{< br >}}**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g., `NL`). Optional.|
-|email{{< br >}}`string`|Company email address {{< br >}}**Format**: max 100 characters. Optional.|
-|fax{{< br >}}`string`|Company fax number{{< br >}}**Format**: max 15 characters. Optional.|
-|phone{{< br >}}`string`|Company phone number{{< br >}}**Format**: max 15 characters. Optional.|
-|vat_number{{< br >}}`string`|Company VAT number{{< br >}}**Format**: max 50 characters. Optional.|
-|zipcode{{< br >}}`string`|Company ZIP Code{{< br >}}**Format**: max 30 characters. Optional.|
+|address1  `string`|The first line of the company address.  <br /> **Format**: Max 64 characters. Optional.|
+|address2<br />`string`|The second line of the company address.<br />**Format**: Max 64 characters. Optional.|
+|address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters. Optional.|
+|apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters. Optional.|
+|city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters. Optional.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters. Optional.|
+|company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters. Optional.|
+|country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Optional.|
+|email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters. Optional.|
+|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters. Optional.|
+|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters. Optional.|
+|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters. Optional.|
+|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters. Optional.|
+{{< /collapse >}}
+
+{{< collapse title="Response body parameters" size="h3" >}}
+|Parameter|Description|
+|-----|------|
+|address1  `string`|The first line of the company address.  <br /> **Format**: Max 64 characters.|
+|address2<br />`string`|The second line of the company address.<br />**Format**: Max 64 characters.|
+|address3<br />`string`|The third line of the company address. <br />**Format**: Max 64 characters.|
+|apartment<br />`string`|The apartment number of the company address.<br />**Format**: Max 9 characters.|
+|city<br />`string`|The city of the company address.<br />**Format**: Max 50 characters.|
+|coc_number<br />`string`|The company's chamber of commerce number. <br />**Format**: Max 50 characters.|
+|company_name<br />`string`|The unique company name. <br />**Format**: Max 200 characters.|
+|country<br />`string`|The country code of the company <br />**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
+|email<br />`string`|The unique company email address to which transaction updates are sent. <br />**Format**: Max 100 characters.|
+|fax<br />`string`|The company fax number.<br />**Format**: Max 15 characters.|
+|id <br /> `string`| The affiliated merchant ID. Referred to as `{account_id}`. |
+|phone<br />`string`|The company phone number.<br />**Format**: Max 15 characters.|
+|vat_number<br />`string`|The company VAT number.<br />**Format**: Max 50 characters.|
+|zipcode<br />`string`|The company ZIP code.<br />**Format**: Max 30 characters.|
+{{< /collapse >}}
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
-curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
+curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_account_id}?api_key={your-account-api-key}" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "api_key: <your-account-api-key>" \
 --data-raw '{
   "email" :"newemail@funcompany.com",
   "zipcode" :"5678 NW"
@@ -269,7 +323,7 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
     "apartment": "5A",
     "city": "Funtown",
     "coc_number": "123456",
-    "company_name": "Fun B.V.",
+    "company_name": "{affiliate-company-name}",
     "country": "NL",
     "email": "newemail@funcompany.com",
     "fax": "00311234567890",
@@ -281,13 +335,12 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/accounts/12345678" \
   "success": true
 }
 ```
-`id` → the account ID
 {{< /collapse >}}
 
 ---
 
 ## Next steps
-You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the unique merchant account ID.
+You have successfully created a merchant account. Now, you can add bank accounts, UBOs, and websites, using the affiliated merchant account ID.
 
 {{< two-buttons
 

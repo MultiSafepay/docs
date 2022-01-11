@@ -25,10 +25,10 @@ See API reference – [Create a merchant account](/api-onboarding/create-account
 - VAT number
 - Contact details
 
-The API returns an account ID.
+The API returns a merchant account ID.
 
 ### Step 2: Add a bank account
-See API reference – [Add bank accounts](/api-onboarding/add-bank-accounts/)  for how to submit information about each bank account added to the merchant account, including: 
+See API reference – [Add bank accounts](/api-onboarding/add-bank-accounts/) for how to submit information about each bank account added to the merchant account, including: 
 
 - Name of account holder
 - IBAN
@@ -57,7 +57,7 @@ See API reference – [Add websites](/api-onboarding/add-websites/) for how to s
 - [Notification URL](/developer/api/notification-url)
 - Contact details for customer support
  
-The API returns an API key. 
+The API returns an API key for the website. 
 
 ## Screening and approval 
 
