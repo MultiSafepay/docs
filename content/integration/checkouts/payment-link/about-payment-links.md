@@ -1,46 +1,54 @@
 ---
-title : "About payment links"
+title: 'About payment links'
 weight: 10
-meta_title: "Payments - About payment links - MultiSafepay Docs"
-url: '/payment-links/about'
-
-read_more: '.'
+meta_title: "About payment links - MultiSafepay Docs"
+layout: 'single'
+logo: '/svgs/External link.svg'
+short_description: 'Generate payment links via our API or in your MultiSafepay account.'
 url: '/payment-links/about/'
-layout: 'faq'
+read_more: "."
+aliases:
+    - /tools/payment-link/payment-link-api/
+    - /payments/checkout/payment-link/
 ---
 
-Payment links create a unique transaction in your [MultiSafepay account](https://merchant.multisafepay.com/) to match to a payment.
+You can manually generate a link to a [MultiSafepay payment page](/payment-pages/) to pass to a customer to complete payment. 
+
+## Use cases 
+
+- A customer wants to adjust an existing order and instead of starting over with a new order.
+- You need to create a transaction for a manually generated order.
+- MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
+- A [Bank Transfer](/payment-methods/bank-transfer/) transaction has expired.
+
+## Payment methods
+
+All payment methods are supported except Paysafecard, in3, Betaal per Maand, Pay After Delivery, Klarna, and AfterPay. 
+
+The payment page displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
 
 ## Lifetimes
 
-The lifetime of a payment link is how long it remains valid for the customer to complete payment. The default is 30 days. 
+The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
 
-To set or adjust lifetimes, see API reference – [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+To set or adjust the lifetime, see API reference – [Adjust session lifetimes](/api/#adjust-session-lifetimes).
 
-You can adjust lifetimes for all payment methods except for:  
-
-- [Pay later methods](/payments/methods/pay-later/)
-- PayPal: Links are valid for 14 days. The lifetime is set by PayPal.
-- Prepaid cards: Edenred, Paysafecard
-- SEPA Direct Debit
+{{< blue-notice >}} **Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). {{< /blue-notice >}} 
 
 ## Attempts 
-The customer can click a payment link to attempt payment up to 20 times, after which the link is disabled.
+The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt is registered as a separate transaction (`PSP ID`). If payment for one of the transactions is successfully completed, all the others remain open until they expire.
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/about-payments/multisafepay-statuses/) of the other transactions remains **Initialized** until they expire.
 
-## Simple mode and advanced mode
+## Viewing payment links
 
-Simple mode is the default payment link mode, which contains the minimum necessary information. 
+For an overview of all payment links in your [MultiSafepay account](https://merchant.multisafepay.com), go to **Tools** > **Payment link generator**.
 
-In advanced mode, you can enter the order items and add extra information about the customer, e.g. birthday, full address, phone number. 
+### Payment link statuses
 
-## Payment link statuses
-
-|  Status      | Description |
-|-----|----|
-| Active      | A payment link has been generated, but the payment has not yet been completed.  | 
-| Completed   | The customer has completed the payment. | 
-| Cancelled   | The merchant has cancelled the payment link.| 
-| Expired     | The link has expired.  | 
-
+| Status | Description |
+|---|---|
+| Active | The link is generated, but the customer hasn't paid yet.  | 
+| Completed | The customer has paid. | 
+| Cancelled | You cancelled the link.| 
+| Expired | The link has expired.  | 

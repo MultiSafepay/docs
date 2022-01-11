@@ -1,64 +1,50 @@
 ---
-title : "Generating payment links"
-weight: 20
-meta_title: "Payment links - Generating payment links - MultiSafepay Docs"
-url: '/payment-links/generating-links/'
-
-read_more: '.'
+title: 'Generating payment links'
+weight: 30
+meta_title: "Generating payment links - MultiSafepay Docs"
 layout: 'single'
+logo: '/svgs/External link.svg'
+short_description: 'Generate payment links via our API or in your MultiSafepay account.'
+url: '/payment-links/generating-links/'
+read_more: "."
 aliases:
+    - /tools/payment-link/manually-generating-a-payment-link/
+    - /tools/payment-link/payment-link-api/
     - /tools/multisafepay-control/manually-generated-payment-link
-    - /payment-links/generating-payment-links-from-account
-    - /payment-links/generating-payment-links-from-app/
-    - /payment-links/generating-payment-links-from-backend/
-    - /payment-links/generating-payment-links/
+    - /tools/multisafepay-control/generating-and-disabling-payment-links
+    - /account/multisafepay-account/generating-and-disabling-payment-links/
+    - /payments/checkout/payment-link/
 ---
+You can generate payment links in:
 
-You might need to manually generate a payment link if:
+- Your MultiSafepay account
+- The MultiSafepay app
+- Some ready-made integrations
 
-- A customer wants to adjust an existing order and instead of starting over with a new order, you generate an adjusted (new) payment link.
-- You have created an order manually for a customer.
-- MultiSafepay receives a payment from a customer for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to MultiSafepay.
-- A [Bank Transfer](/payments/methods/banks/bank-transfer/) payment link has expired.
+## MultiSafepay account
 
-## Payment methods
-
-Check specific [payment methods](/payments/methods/) to see if manually generated payment links are supported.
-
-**Note:** [Pay later methods](/payments/methods/pay-later/) do **not** support manually generated payment links.
-
-## Generating payment links
-
-You can generate payment links:
-
-{{< details title="From your MultiSafepay account" >}}
-
-To manually generate a payment link from your account, follow these steps:
+### New transactions
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Tools** > **Payment link generator**.
-3. Click the **New payment link** button.
-4. From the **Site** dropdown menu, select the relevant website.
-5. Under **Amount**, select the currency from the dropdown menu, and then enter the whole value and cents.
-6. In the **Order ID** field, enter the order ID from your webshop. The Order ID in every payment link must be unique.
+3. Click **New payment link**.
+4. From the **Site** list, select the relevant website.
+5. Under **Amount**, select the currency from the list, and then enter the whole value and cents.
+6. In the **Order ID** field, enter the order ID from your webshop.  
+**Note:** The order ID for every payment link must be unique.
 7. In the **Description** field, enter a description of the order. 
-8. In the **Link expiration (days)** field, enter the number of days the link remains active. The default is 30 days.
-9. If needed, select the **Second chance email** check box. 
+8. In the **Link expiration (days)** field, enter the number of days for the link to remain active. Default: 30 days.
+9. To send [Second Chance emails](/features/second-chance/), select the **Second chance email** check box. 
 10. Optionally, enter the customer's:  
-    - **First name**
-    - **Last name**
+    - **First name** and **Last name**
     - **Email address**
     - **Country**
     - **Language**
-11. Click **Generate payment link**.
-12. Copy the newly generated link from the green bar and email it to the customer.
+11. To include additional information, in the top-right corner, click **Advanced mode** to display more fields. 
+12. Click **Generate payment link**.
+13. In the green bar that appears, copy the link from the green bar and pass it to the customer.
 
-To view all manually generated payment links, including date of creation and status:
-
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Tools** > **Payment link generator**.
-
-To send a payment link for an existing transaction:
+### Existing transactions
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
@@ -67,29 +53,27 @@ To send a payment link for an existing transaction:
 
 **Note:** The order ID must be unique.
 
-{{< /details >}}
-
-{{< details title="From your backend" >}}
-
-For some ecommerce integrations, you can generate payment links in your [backend](/glossaries/multisafepay-glossary/#backend).
-
-To use the `POST /orders` request, see API reference – [Create an order](https://docs.multisafepay.com/api/#create-an-order). In the `type` parameter, enter `paymentlink`. 
-
-Or, see API reference – [Generating a payment link](/api/#generate-payment-links).
-
-For support, email the Integration Team at <integration@multisafepay.com>
-
-{{< /details >}}
-
-{{< details title="From your MultiSafepay app" >}}
+## MultiSafepay app
 
 To generate a payment link from your MultiSafepay app, follow these steps:
 
 1. Go to **Tools** > **Payment link generator**.
 2. Fill in the required fields.
 3. Click **Generate payment link**.
-4. Save the QR code generated to your device and then send it to the customer. 
-5. Use the QR code that is generated to complete the payment.
-6. When the customer scans the QR code, they are directed to a pre-filled MultiSafepay payment page to complete payment.
+4. Save the QR code generated to your device and then send it to the customer.   
+When the customer scans the QR code, they are directed to a pre-filled MultiSafepay payment page to complete payment.
 
-{{< /details >}}
+## Ready-made integrations
+
+You can generate payment links in the [backend](/glossaries/multisafepay-glossary/#backend) of the following [ready-made integrations](/integrations/ready-made/):
+
+- [Magento 1](/magento-1/)
+- [Magento 2](/magento-2)
+- [OpenCart](/opencart/)
+- [Shopware 5](/shopware-5/)
+- [WooCommerce](/woo-commerce/)
+
+See API reference:
+
+- [Create an order](https://docs.multisafepay.com/api/#create-an-order) – In the `type` parameter, enter `paymentlink`. 
+- [Generating a payment link](/api/#generate-payment-links)
