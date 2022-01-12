@@ -20,3 +20,5 @@ There is paid parking in front of the office.
 
 ## Our entrance
 <br><img src='../malaga-door.jpg'>
+
+This is a [bad link](/my-account/this-is-a-bad-link/)
