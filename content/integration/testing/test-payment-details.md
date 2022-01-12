@@ -743,14 +743,14 @@ You can't test TrustPay in your MultiSafepay test account. You can only make tes
 
 {{< details title="AfterPay" >}}
 
-To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
+**1.** Request a test API key from AfterPay via either:
 
-To get a test AfterPay API key, you can either:
+- Your implementation ticket with AfterPay, **or**
+- Email <sales@afterpay.nl>
 
-- Request one in your implementation ticket with AfterPay, or
-- Email <sales@afterpay.nl> 
+AfterPay shares the test key with MultiSafepay.
 
-AfterPay shares the test AfterPay API key with MultiSafepay so that MultiSafepay can configure this for you.
+**2.** To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
 **Test an AfterPay order**
 
