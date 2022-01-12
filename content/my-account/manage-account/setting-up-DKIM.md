@@ -8,14 +8,8 @@ url: '/my-account/setting-up-dkim/'
 
 MultiSafepay supports DomainKeys Identified Mail (DKIM) email authentication for all emails that we send. DKIM lets email servers verify that received emails actually came from the specified domain and haven't been altered or forged.
 
-DKIM authenticates emails using a pair of cryptographic keys.
-
-- **Private key:** MultiSafepay uses this to encrypt the email content and generate a DKIM signature before sending. 
-- **Public key:** You set this in a TXT record through your hosting provider, domain registrar, or DNS provider. Receiving email servers can access and use it to verify the integrity of the email and the authenticity of the sender.
-
 ## Adding TXT records
-
-If you have [E-Invoicing](/payment-methods/e-invoicing/) or [Pay After Delivery](/payment-methods/pay-after-delivery/) activated, we also use Mandrill to send emails in addition to our own mail servers. In this case, you need to add **two** TXT records.
+To set up DKIM you need to add a TXT record for MultiSafepay through your hosting provider, domain registrar, or DNS provider.
 
 ### MultiSafepay email servers
 1. Add a TXT record named: `msp-2021._domainkey.{your domain}`, e.g. `msp-2021._domainkey.example.com`.
@@ -27,6 +21,9 @@ If you have [E-Invoicing](/payment-methods/e-invoicing/) or [Pay After Delivery]
 You have successfully added a TXT record for MultiSafepay's email servers.
 
 ### Mandrill
+
+If you have [E-Invoicing](/payment-methods/e-invoicing/) or [Pay After Delivery](/payment-methods/pay-after-delivery/) activated, we also use Mandrill to send emails in addition to our own mail servers. In this case, you need to add another TXT record for Mandrill.
+
 1. Add a TXT record named: `mandrill._domainkey.{your domain}`, e.g. `mandrill._domainkey.example.com`.
 
 2. Add the following content to your TXT record:
