@@ -46,7 +46,7 @@ meta_title: "API reference - Create a Visa transaction - MultiSafepay Docs"
 
 ### Visa
 
-- See also Payment methods – [Visa](/payments/methods/credit-and-debit-cards/visa).  
+- See also Payment methods – [Visa](/payment-methods/visa).  
 - Redirect only.
 
 **Parameters**

@@ -247,7 +247,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
 {{< description >}}
 
 ## AfterPay
-See also Payment methods – [AfterPay](/payments/methods/billing-suite/afterpay/).
+See also Payment methods – [AfterPay](/payment-methods/afterpay/).
 
 ### AfterPay - redirect
 

@@ -9,5 +9,5 @@ aliases:
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/processing-refunds/
 ---
 
-You can process full and partial refunds for all payment methods, except [pay later methods](/payments/methods/billing-suite) for which you can only process **full** refunds.
+You can process full and partial refunds for all payment methods, except [pay later methods](/payment-methods/pay-later) for which you can only process **full** refunds.
 

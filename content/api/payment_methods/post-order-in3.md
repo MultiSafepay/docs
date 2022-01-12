@@ -326,7 +326,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 {{< description >}}
 
 ## in3
-See also Payment methods – [in3](/payments/methods/billing-suite/in3).
+See also Payment methods – [in3](/payment-methods/in3).
 
 ### in3 - redirect
 

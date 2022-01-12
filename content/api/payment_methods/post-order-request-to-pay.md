@@ -132,7 +132,7 @@ meta_title: "API reference - Create a Request to Pay transaction - MultiSafepay 
 {{< description >}}
 
 ## Request to Pay
-See also Payment methods – [Request to Pay](/payments/methods/banks/request-to-pay).
+See also Payment methods – [Request to Pay](/payment-methods/request-to-pay).
 
 ### Request to Pay - redirect
 

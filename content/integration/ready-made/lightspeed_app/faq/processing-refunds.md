@@ -42,12 +42,12 @@ To enable refunds from your backend, follow these steps:
 
 - Refunds created in your MultiSafepay account are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
 
-- Some [pay later](/payment-methods/billing-suite/) methods require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
+- Some [pay later](/payment-methods/pay-later/) methods require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
 
-- Some [pay later](/payment-methods/billing-suite/) payment methods do not let you refund a partial amount and a full item in a single request.  
+- Some [pay later](/payment-methods/pay-later/) payment methods do not let you refund a partial amount and a full item in a single request.  
 Example: A shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 
-- Some [pay later](/payment-methods/billing-suite/) payment methods do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
+- Some [pay later](/payment-methods/pay-later/) payment methods do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
 

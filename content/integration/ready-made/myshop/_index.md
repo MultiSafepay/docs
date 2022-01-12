@@ -51,7 +51,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa)
+- [Visa](/payment-methods/visa)
 
 **Banking methods**
 
