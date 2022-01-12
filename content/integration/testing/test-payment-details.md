@@ -902,7 +902,7 @@ Test credentials:
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  
-1. Make a [direct](/api/#klarna) API request. 
+1. Make a [direct or redirect](/api/#klarna) API request. 
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
 4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
@@ -937,11 +937,10 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 
 **Note:** You can't test:
 
-- Receiving successful payment notifications from Klarna
-- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
-- Making redirect API requests
+- Receiving successful payment notifications from Klarna.
+- Changing the transaction status from **Uncleared** to **Completed**, except for refunds.
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
+For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/klarna).
 {{< /details >}}
 
 {{< details title="Pay After Delivery (Betaal na Ontvangst)" >}}
