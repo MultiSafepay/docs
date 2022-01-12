@@ -66,8 +66,7 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 
 **Notes:** You can't test:
 
-- Receiving successful payment notifications from Klarna
-- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
-- Making redirect API requests
+- Receiving successful payment notifications from Klarna.
+- Changing the transaction status from **Uncleared** to **Completed**, except for refunds.
 
 
