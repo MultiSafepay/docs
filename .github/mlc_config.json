@@ -42,7 +42,7 @@
           "pattern": "https://www.nationale-tuinbon.nl"
         },
         {
-          "pattern": "https://www.shopify.com/login\?redirect=%2Fadmin%2Fauthorize_gateway%.*"
+          "pattern": "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%.*"
         }
       ],
     "retryOn429": true,
