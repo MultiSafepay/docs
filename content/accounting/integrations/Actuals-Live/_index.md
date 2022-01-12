@@ -31,3 +31,5 @@ To check that your Actuals account is successfully connected to your MultiSafepa
 For any questions, email the Support Team at <support@multisafepay.com>
 
 This is a [bad link](/my-account/bad-link/).
+
+And another [bad link](/my-account/bad-link-2/).
