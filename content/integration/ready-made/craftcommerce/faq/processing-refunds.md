@@ -16,7 +16,7 @@ aliases:
     - Full and partial refunds
     - Refunding more than the original transaction is **not** supported
 - API: [Refund with shopping cart](/api/#refund-with-shopping-cart)
-- No refunds for [pay later methods](/payment-methods/billing-suite).
+- No refunds for [pay later methods](/payment-methods/pay-later).
 - Discounts are **not** supported.
 
 To process refunds from the Craft Commerce admin panel:  

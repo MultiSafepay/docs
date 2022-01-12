@@ -38,7 +38,7 @@ Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including co-branded cards
+- [Visa](/payment-methods/visa), including co-branded cards
 
 **Banking methods**
 

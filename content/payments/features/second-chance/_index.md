@@ -32,7 +32,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 - Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting session lifetimes](/api/#adjust-session-lifetimes).
 
 - The following payments methods are not supported because they follow a different payment flow:
-    - [AfterPay](/payments/methods/billing-suite/afterpay)
+    - [AfterPay](/payment-methods/afterpay)
     - [Bank Transfer](/payment-methods/bank-transfer)
     - [Betaal per Maand](/payment-methods/betaal-per-maand)
     - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)

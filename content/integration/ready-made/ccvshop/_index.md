@@ -52,7 +52,7 @@ Contact MultiSafepay:
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Maestro](/payment-methods/maestro)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -65,8 +65,8 @@ Contact MultiSafepay:
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay/)
-- [Klarna](/payments/methods/billing-suite/klarna/)
+- [AfterPay](/payment-methods/afterpay/)
+- [Klarna](/payment-methods/klarna/)
 
 **Wallets**
 

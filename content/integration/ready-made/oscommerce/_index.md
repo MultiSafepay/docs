@@ -61,7 +61,7 @@ Contact MultiSafepay:
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -81,11 +81,11 @@ Contact MultiSafepay:
 
 + [E-Invoicing](/payment-methods/e-invoicing)
 + [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [PayPal](/payments/methods/wallet/paypal)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
