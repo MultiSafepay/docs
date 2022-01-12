@@ -43,7 +43,7 @@ For authentication, use your [account API key](/set-up-your-account/site-id-api-
 
 ----------------
 
-`affiliated_id` | query parameter  | required
+`affiliated_id` | path parameter  | required
 
 The account ID of the affiliated account. 
 
