@@ -7,7 +7,7 @@
         {
             "pattern": "&quot;",
             "replacement": ""
-        }
+        },
         {
             "pattern": "&amp;",
             "replacement": "&"
