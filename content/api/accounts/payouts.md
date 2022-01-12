@@ -73,7 +73,7 @@ For authentication, use your [account API key](/set-up-your-account/site-id-api-
 **Parameters**
 
 ----------------
-`affiliated_id` | query parameter  | required
+`affiliated_id` | path parameter  | required
 
 The account ID of the affiliated account you want to pay out funds from. 
 
