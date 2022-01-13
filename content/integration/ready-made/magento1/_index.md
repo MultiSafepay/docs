@@ -6,6 +6,7 @@ type: 'Plugin'
 meta_title: "Magento 1 plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 1 platform."
 logo: "/logo/Plugins/Magento.svg"
+changelog: https://docs.multisafepay.com/integration/ready-made/magento1/changelog/
 weight: 02
 title_short: "Magento 1"
 layout: 'single'
