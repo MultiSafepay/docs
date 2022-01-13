@@ -35,8 +35,8 @@ Applies to all [banking methods](/payments/methods/banks/).
 Applies to:    
 
 - All [credit and debit cards](/payments/methods/credit-and-debit-cards/)
-- All [pay later methods](/payments/methods/pay-later/)
-- All [wallets](/payments/methods/wallet/), except [PayPal](/payment-methods/paypal/)
+- All [pay later methods](/payment-methods/pay-later/)
+- All [wallets](/payment-methods/wallet/), except [PayPal](/payment-methods/paypal/)
 
 Email a request to <sales@multisafepay.com>
 
@@ -54,7 +54,7 @@ The following methods (also) require an account with the payment method:
 - [AfterPay](/payment-methods/afterpay/activation/)
 - [Betaal per Maand](/payment-methods/betaal-per-maand/activation/)
 - [Edenred](/payment-methods/edenred/activation/)
-- [Gift cards]((/payment-methods/gift-cards/activation/))
+- [Gift cards](/payment-methods/gift-cards/activation/)
 - [Klarna](/payment-methods/klarna/activation/)
 - [PayPal](/payment-methods/paypal/activation/)
 

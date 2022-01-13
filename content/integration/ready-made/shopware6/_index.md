@@ -90,7 +90,7 @@ For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.co
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**

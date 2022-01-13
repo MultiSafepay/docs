@@ -17,5 +17,5 @@ If you have already shipped an order but it expired because you didn't change th
 **Or**
 
 1. Create a new [Klarna order](/api/#klarna).
-2. [Change the order status to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/).
+2. [Change the order status to Shipped](/about-payments/pay-later-shipped-status/).
 3. Send the payment link to the customer.

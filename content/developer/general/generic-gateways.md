@@ -37,8 +37,8 @@ For the logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.co
 For how to configure generic gateways, see the manual of your ready-made integration:
 
 - [Craft Commerce](/craft-commerce/configuring-generic-gateways/)
-- [Drupal 8 & 9](/drupal-8-9/generic-gateways/)
-- [Magento 2](/magento-2/generic-gateways/), [Magento 1](/magento-1/generic-gateways/)
+- [Drupal 8 & 9](/drupal-8-9/configuring-generic-gateways/)
+- [Magento 2](/magento-2/generic-gateways/), [Magento 1](/magento-1/configuring-generic-gateways/)
 - [Odoo](/odoo/generic-gateways/)
 - [OpenCart](/opencart/generic-gateways/)
 - [PrestaShop 1.7](/prestashop-1-7/generic-gateways/)

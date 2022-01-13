@@ -46,7 +46,7 @@ read_more: "."
 {{< details title="Wallets" >}}
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 {{< /details >}}

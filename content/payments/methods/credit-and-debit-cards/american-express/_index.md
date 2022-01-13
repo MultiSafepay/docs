@@ -8,6 +8,7 @@ intro_description: "American Express is one of the biggest global credit card sc
 layout: 'single'
 logo: '/logo/Payment_methods/American_Express.svg' 
 short_description: 'Global credit card scheme accepted in more than 160 countries.'
+url: '/payment-methods/american-express/'
 aliases:
     - /support-tab/magento2/payment-methods/american-express
     - /payment-methods/creditcards/american-express/

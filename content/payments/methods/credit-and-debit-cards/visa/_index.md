@@ -6,12 +6,12 @@ intro_description: "Visa is a leading global credit card scheme. An additional l
 layout: 'single'
 linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/visa/'
 childlist: '.'
-logo: '/logo/Payment_methods/VISA.svg' 
+logo: '/logo/Payment_methods/VISA.svg'
 short_description: 'Leading global credit card scheme.'
 aliases:
     - /support-tab/magento2/payment-methods/visa
     - /payment-methods/credit-and-debit-cards/mastercard/visa
-    - /payment-methods/visa/
+    - /payment/methods/visa/
     - /payment-methods/credit-and-debit-cards/visa
 ---
 

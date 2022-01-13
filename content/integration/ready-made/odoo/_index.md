@@ -79,7 +79,7 @@ Contact us:
 **Pay later methods**
 
 - [AfterPay](/payment-methods/afterpay)
-- [Betaal per Maand](/payment-methods/betaalpermaand/)
+- [Betaal per Maand](/payment-methods/betaal-per-maand/)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
 - [Klarna](/payment-methods/klarna)
@@ -88,7 +88,7 @@ Contact us:
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).

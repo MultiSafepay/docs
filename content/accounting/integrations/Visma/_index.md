@@ -16,7 +16,7 @@ aliases:
     - /tools/accounting/accounting-integrations/visma/
 ---
 
-For generating MultiSafepay accounting reports, see [Accountant export](/business/accounting/reports/accountant-export/).
+For generating MultiSafepay accounting reports, see [Accountant export](/accounting/reports/accountant-export/).
 
 {{< details title="Supported import formats" >}}  
 &nbsp;  

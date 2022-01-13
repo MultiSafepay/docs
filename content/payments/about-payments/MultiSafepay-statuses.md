@@ -25,7 +25,7 @@ API attribute: `financial_status`
 
 ## Status meanings
 
-The meaning of statuses (or combinations of statuses) varies per payment method. To check specific meanings, see the relevant [payment method](/payments/methods/) page. 
+The meaning of statuses (or combinations of statuses) varies per payment method. To check specific meanings, see the relevant [payment method](/payment-methods/) page. 
 
 The table below sets out possible order and transaction statuses and what they commonly mean.
 

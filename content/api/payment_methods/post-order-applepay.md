@@ -86,7 +86,7 @@ try {
 
 ## Apple Pay
 
-See also Payment methods – [Apple Pay](/payment-methods/applepay).  
+See also Payment methods – [Apple Pay](/payment-methods/apple-pay).  
 
 ### Detecting Apple Pay on the customer's device
 

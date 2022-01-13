@@ -121,7 +121,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [Google Pay](/payment-methods/google-pay)
 - [PayPal](/payment-methods/paypal)
 - [WeChat Pay](/payment-methods/wechat-pay)

@@ -10,7 +10,7 @@ aliases:
 ---
 **Refund rules**  
 
-- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds
+- From your [MultiSafepay account](/refunds/full-partial/): Full refunds
 -  From your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend) (see below):  
     - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html)
     - Refunding more than the original transaction is **not** supported

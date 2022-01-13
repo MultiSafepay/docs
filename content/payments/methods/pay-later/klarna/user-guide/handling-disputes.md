@@ -15,7 +15,7 @@ Klarna provides support for resolving disputes. For a step-by-step overview, see
 
 The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. The portal also gives you an overview of all your orders. 
 
-{{< blue-notice >}} **Note:** If viewing orders in the portal, you must still manually [change the order status to Shipped](/payment-methods/klarna/changing-order-status-to-shipped/) to trigger the invoicing process and receive payment. {{< /blue-notice >}}
+{{< blue-notice >}} **Note:** If viewing orders in the portal, you must still manually [change the order status to Shipped](/about-payments/pay-later-shipped-status/) to trigger the invoicing process and receive payment. {{< /blue-notice >}}
 
 ## Connecting to the Klarna Merchant Portal
 

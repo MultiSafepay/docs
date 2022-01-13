@@ -44,7 +44,7 @@ Columns:
 The report does **not** include:
 
 - Payouts – see [Payout report](/reports/payout-report/)
-- Monthly transaction costs and VAT – see your monthly [VAT invoice](/account/multisafepay-account/multisafepay-vat/)
+- Monthly transaction costs and VAT – see your monthly [VAT invoice](/account/vat-invoices/)
 
 {{< /details >}}
 

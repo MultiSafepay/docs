@@ -26,7 +26,7 @@ Non-mobile payments always use [3D Secure](/features/3d-secure/) 1.0 verificatio
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
-| **Payment features**  | [Recurring payments](/payments/features/recurring-payments/) (banking only) {{< br >}} [Second Chance](/features/second-chance/) |
+| **Payment features**  | [Recurring payments](/features/recurring-payments/) (banking only) {{< br >}} [Second Chance](/features/second-chance/) |
 | **Transactions expire after**  | Banking: 1 hour, QR: Doesn't apply | 
 
 

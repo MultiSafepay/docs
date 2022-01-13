@@ -12,7 +12,7 @@ meta_title: "API reference - Gateways - MultiSafepay Docs"
 
 In our API, a payment method is identified as `gateway`. 
 
-To activate payment methods, see [Activating payment methods](/account/activating-payment-methods/).
+To activate payment methods, see [Activating payment methods](/payments/activating-payment-methods/).
 
 Use the gateway requests to:
 

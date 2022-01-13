@@ -17,7 +17,7 @@ aliases:
     - /tools/accounting/accounting-integrations/yuki/
 ---
 
-For generating MultiSafepay accounting reports, see [Accountant export](/business/accounting/reports/accountant-export/).
+For generating MultiSafepay accounting reports, see [Accountant export](/accounting/reports/accountant-export/).
 
 {{< details title="Supported import formats" >}}  
 &nbsp;  
@@ -30,17 +30,17 @@ Yuki can import reports in MT940 format.
 To import a MultiSafepay Accountant export, follow these steps:
 
 1. Sign in to your Yuki domain ending in **@yukiworks.be**.
-2. Go to **Yuki Postbus** > **Yuki Upload**.
+2. Go to **Yuki Postbus** > **Submit**.
 3. Click **Upload**, and select the relevant MT940 file, or choose one of the other upload methods.
 
-For more information, see Yuki - [Documenten uploaden](https://support.yuki.be/nl/support/solutions/articles/11000063683-documenten-uploaden).
+For more information, see Yuki - [Upload files from PO box](https://yuki.freshdesk.com/en/support/solutions/articles/11000066154-upload-files-from-po-box).
 
 To automatically reconcile your files using bank recognition rules:
 
-1. Go to **Bank** > **Bank recognition rules**.
+1. Go to **Bank transactions to be processed** > **(New) Processing rule**.
 2. Create a new rule. 
 
-For more information, see Yuki - [Bankherkenningsregel aanmaken](https://support.yuki.be/nl/support/solutions/articles/11000071225-bankherkenningsregel-aanmaken).
+For more information, see Yuki - [Create bank processing rule](https://support2.yuki.nl/nl/support/solutions/articles/11000066038-bank-verwerkingsregel-aanmaken).
 
 
 {{< /details >}}

@@ -93,7 +93,7 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**

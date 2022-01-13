@@ -16,7 +16,7 @@ aliases:
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.
 
-There are three cost components for the [Interchange++ model](/payments/methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/):
+There are three cost components for the Interchange++ model:
 
 - The Interchange fee that is paid to the issuing bank
 - The scheme fee charged by Visa or Mastercard

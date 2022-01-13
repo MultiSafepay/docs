@@ -13,7 +13,7 @@ meta_title: "PWA Studio (Venia) integration plugin manual - MultiSafepay Docs"
 
 {{< details title="Supported payment methods" >}}
 
-By default, this plugin supports all [payment methods supported by our Magento 2 plugin](/payments/integrations/ecommerce-platforms/magento2/faq/supported-payment-methods/) out of the box, except: 
+By default, this plugin supports all [payment methods supported by our Magento 2 plugin](/magento-2/#details-supported-payment-methods) out of the box, except: 
 - Request To Pay
 - Direct Debit
 - E-Invoicing 

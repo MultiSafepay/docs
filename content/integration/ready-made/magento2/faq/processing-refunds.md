@@ -11,7 +11,7 @@ aliases:
 ---
 ## Refund rules
 
-- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds 
+- From your [MultiSafepay account](/refunds/full-partial/): Full and partial refunds 
 - From your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend) (see below):  
     - Full and partial refunds, and credit memos 
     - Refunding more than the original transaction is **not** supported
