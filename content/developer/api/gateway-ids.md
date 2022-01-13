@@ -1,12 +1,14 @@
 ---
-title: "Payment method gateway codes"
+title: "Payment method gateway IDs"
 weight: 13
-meta_title: "Payment method gateway codes - MultiSafepay Docs"
+meta_title: "Payment method gateway IDs - MultiSafepay Docs"
 read_more: "."
-url: '/developer/gateway-codes/'
+url: '/developer/gateway-ids/'
+aliases: 
+    - /developer/gateway-codes/
 ---
-The table below sets out the gateway codes for all payment methods, and the supported [request types](/developer/direct-vs-redirect/).
-| Payment method | Gateway code | Request type |
+The table below sets out the gateway identifiers for all payment methods, and the supported [request types](/developer/direct-vs-redirect/).
+| Payment method | Gateway ID | Request type |
 |---|---|---|
 | AfterPay | `AFTERPAY` | Redirect |
 | Alipay | `ALIPAY` | Redirect, direct |

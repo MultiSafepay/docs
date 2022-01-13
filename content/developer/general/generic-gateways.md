@@ -45,7 +45,7 @@ For how to configure generic gateways, see the manual of your ready-made integra
 - [Shopware 5](/shopware-5/generic-gateways/), [Shopware 6](/shopware-6/generic-gateways/)
 - [WooCommerce](/woo-commerce/generic-gateways/)
 
-Use the relevant [payment method gateway codes](/developer/gateway-codes).
+Use the relevant [payment method gateway IDs](/developer/gateway-ids).
 
 ## MultiSafepay gateways
 
