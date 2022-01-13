@@ -1,12 +1,12 @@
 {
     "replacementPatterns": [
         {
-            "pattern": "^/",
-	        "replacement": "https://docs.multisafepay.com/"
-        },
-        {
             "pattern": "&quot;",
             "replacement": ""
+        },
+        {
+          "pattern": "^/",
+          "replacement": "DEPLOYMENT_URL"
         },
         {
             "pattern": "&amp;",
