@@ -58,10 +58,10 @@ Contact us:
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payments/methods/credit-and-debit-cards/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payments/methods/cartes-bancaires), [Dankort](/payments/methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -81,7 +81,7 @@ Contact us:
 **Pay later methods**
 
 - [AfterPay](/payment-methods/afterpay)
-- [Betaal per Maand](/payment-methods/betaalpermaand/)
+- [Betaal per Maand](/payment-methods/betaal-per-maand)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
 - [Klarna](/payment-methods/klarna)
@@ -90,7 +90,7 @@ Contact us:
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
