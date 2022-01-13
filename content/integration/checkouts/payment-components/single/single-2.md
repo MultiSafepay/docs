@@ -112,10 +112,10 @@ PaymentComponent.init('payment', {
     }
 });
 ```
-**2.** Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
-{{< details title="View gateway codes" >}}
+**2.** Replace the `<GATEWAY>` placeholder with the relevant payment gateway identifier.
+{{< details title="View gateway IDs" >}}
 
-| Payment method| Gateway code|
+| Payment method| Gateway ID|
 |---|---|
 | Bank Transfer | `BANKTRANS` |
 | Bancontact | `MISTERCASH` |

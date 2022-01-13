@@ -83,9 +83,9 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | optional
 
-The gateway code for the payment method.  
+The gateway identifier for the payment method.  
 
-For the gateway codes, see [Payment method gateway codes](/developer/gateway-codes/).
+For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
 
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
