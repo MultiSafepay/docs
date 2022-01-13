@@ -32,7 +32,7 @@ Supported formats: Excel or CSV
 - Currency: the currency of the transaction
 - Amount: the amount of the transaction
 - Payment type: a MultiSafepay fee, or the payment method
-- Payment status: the [transaction status](/api/multisafepay-statuses)
+- Payment status: the [transaction status](/about-payments/multisafepay-statuses/)
 
 {{< /details >}}
 

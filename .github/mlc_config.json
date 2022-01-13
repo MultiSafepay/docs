@@ -43,6 +43,9 @@
         },
         {
           "pattern": "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%.*"
+        },
+        {
+          "pattern": "https://yourdomain.webshop.com.*"
         }
       ],
     "retryOn429": true,

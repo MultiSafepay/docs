@@ -11,7 +11,7 @@ aliases:
 
 **Refund rules**  
 
-- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full and partial refunds
+- From your [MultiSafepay account](/refunds/full-partial/): Full and partial refunds
 - From the Craft CMS admin panel (see below):  
     - Full and partial refunds
     - Refunding more than the original transaction is **not** supported

@@ -91,4 +91,4 @@ If you have another order for the same total amount with the same customer email
 
 ## Second Chance reports
 
-For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/business/accounting/reports/second-chance-report/).
+For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/accounting/reports/second-chance-report/).

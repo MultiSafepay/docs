@@ -940,7 +940,7 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 - Receiving successful payment notifications from Klarna.
 - Changing the transaction status from **Uncleared** to **Completed**, except for refunds.
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/klarna).
+For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/klarna/).
 {{< /details >}}
 
 {{< details title="Pay After Delivery (Betaal na Ontvangst)" >}}
@@ -949,7 +949,7 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
 
 **Test a Pay After Delivery order**
 
-To test a Pay After Delivery order, make a [direct](api/#pay-after-delivery---direct) or [redirect](api/#pay-after-delivery---redirect) API request.
+To test a Pay After Delivery order, make a [direct](/api/#pay-after-delivery---direct) or [redirect](/api/#pay-after-delivery---redirect) API request.
 
 If you make a redirect API request, click **Pay After Delivery**.  
 - Enter in the:

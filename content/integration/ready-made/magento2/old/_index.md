@@ -28,7 +28,7 @@ In this manual we describe the installation via Composer.
 - PHP 7.0 and higher
 - Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
 
-_*If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
+_*If you are using [Magento Commerce](https://business.adobe.com/products/magento/magento-commerce.html), contact us at <integration@multisafepay.com>_
 
 ### 2. Installation
 Run the following commands via the CLI:
@@ -60,11 +60,7 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 
 3. MultiSafepay Gift cards  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Gift cards need to be activated, more information can be found on our [gift card page](/payments/methods/prepaid-cards/gift-cards)
-
-4. FastCheckout  
-This page contains the FastCheckout specific settings.  
-More information about the FastCheckout can be found in our [documentation of FastCheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
+Gift cards need to be activated, more information can be found on our [gift card page](/payments/methods/prepaid-cards/gift-cards).
 
 For any questions about the plugin:
 

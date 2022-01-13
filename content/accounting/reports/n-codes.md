@@ -24,7 +24,7 @@ To identify transactions in reports by payment method, use the following N-codes
 | N085   | [AMEX](/payment-methods/american-express)     |   |
 | N086   | [KLARNA](/payment-methods/klarna)    |   |
 | N088   | [PAYAFTER](/payment-methods/pay-after-delivery)  |   |
-| N089   | [SANTANDER](/payment-methods/betaalpermaand)  |   |
+| N089   | [SANTANDER](/payment-methods/betaal-per-maand)  |   |
 | N090   | [in3](/payment-methods/in3)  |   |
 | N092   | [DIRECTBANK](/payment-methods/sofort)  |   |
 | N093   | CURRENCY CONVERSION     |   |
@@ -41,5 +41,5 @@ To identify transactions in reports by payment method, use the following N-codes
 | N105   | [AFTERPAY](/payment-methods/afterpay)     |   |
 | N107   | FERBUY      |   |
 | N108   | [TRUSTLY](/payment-methods/trustly)   |   |
-| N109   | [KBC](/payment-methods/kbc)    |   |
+| N109   | [KBC](/payment-methods/cbc-kbc)    |   |
 | N913   | FEE     |   |

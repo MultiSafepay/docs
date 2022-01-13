@@ -19,7 +19,7 @@ This page provides an overview of setting up your MultiSafepay test account:
 3. [Generate an API key](/account/site-id-api-key-secure-code/). 
 4. [Add users](/account/adding-users/).
 5. [Connect your website to your backend](/account/connecting-websites-to-backend/).
-6. [Activate your selected payment methods](/account/activating-payment-methods/).
+6. [Activate your selected payment methods](/payments/activating-payment-methods/).
 
 Then, consider:  
 

@@ -8,10 +8,11 @@ intro_description: "Dankort is a popular Visa-branded credit card in Denmark. An
 layout: 'single'
 logo: '/logo/Payment_methods/Dankort.svg' 
 short_description: 'Visa-branded credit card in Denmark.'
-url: '/payments/methods/dankort/'
+url: '/payment-methods/dankort/'
 aliases:
     - /payment-methods/credit-and-debit-cards/dankort
     - /payments/methods/credit-and-debit-cards/dankort/
+    - '/payments/methods/dankort/'
 ---
 
 

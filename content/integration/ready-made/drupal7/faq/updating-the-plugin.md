@@ -18,5 +18,5 @@ There are 3 ways to update the plugin:
 To update the plugin using SFTP, follow these steps:
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [Drupal 7 manual](/integrations/drupal7/manual), download the plugin again.
+2. From the [Drupal 7 manual](/drupal-7/), download the plugin again.
 3. Follow the Installation and configuration instructions from step 2.

@@ -72,7 +72,6 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Wallets**
 
-+ [FastCheckout](/payments/methods/fastcheckout)
 + [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
