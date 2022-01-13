@@ -38,9 +38,19 @@ If you want to increase the security of your account, set up two-factor authenti
 3. Open the Google Authenticator app and scan the QR code. 
 4. Enter the one-time authorization code from the app, and click **Set up authentication**.
 
-## Getting started with the disputes app
+## Getting started with the Disputes app
 
-To open the Disputes app, in the lefthand side menu, click **Disputes**.
+To sign up to use the Disputes app, follow these steps:
+
+1. Sign in to the [Klarna Merchant Portal](https://eu.portal.klarna.com/).
+2. In the side menu, click **Disputes**.
+3. Select an email address and preferred language for receiving dispute-related emails, e.g. reminders.
+4. Agree to the terms and conditions. 
+5. Click **Sign up**. 
+
+Klarna will send you an email when the first dispute appears in the app. 
+
+### Using the Disputes app
 
 The side menu contains three pre-set filters to view:
 
