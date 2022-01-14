@@ -31,12 +31,12 @@ Retrieves a list of website categories.
 ----------------
 `code` | string 
 
-The unique identifier of the payment gateway.
+The unique identifier of the website category.
 
 ----------------
 `description` | string 
 
-A description of the transaction, which is displayed in both your account and the affiliated account.
+The website category name.
 
 ----------------
 
