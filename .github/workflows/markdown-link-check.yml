@@ -2,7 +2,18 @@ name: Check Markdown links on pull request
 on: [pull_request]
 
 jobs:
+  check-netlify-pages-changed:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Wait for Netlify pages changed to become neutral
+      uses: fountainhead/action-wait-for-check@v1.0.0
+      id: wait-for-netlify-pages-changed
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        ref: ${{ github.event.pull_request.head.sha || github.sha }}
+        checkName: 'Pages changed - multisafepay-docs'
   netlify-preview-check:
+    needs: check-netlify-pages-changed
     runs-on: ubuntu-latest
     outputs:
       url: ${{ steps.wait-for-netlify-preview.outputs.url }}
@@ -14,13 +25,10 @@ jobs:
         site_name: "multisafepay-docs"
         max_timeout: 300
   markdown-link-check:
-    needs: netlify-preview-check
+    needs: [netlify-preview-check, check-netlify-pages-changed]
     if: ${{ needs.netlify-preview-check.outputs.url != '' }}
     runs-on: ubuntu-latest
     steps:
-    - name: Sleep for 30 seconds
-      run: sleep 30s
-      shell: bash
     - name: Checkout source branch
       uses: actions/checkout@master
     - name: Insert deployment URL
