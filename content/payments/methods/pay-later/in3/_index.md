@@ -3,7 +3,7 @@ title: 'in3'
 weight: 50
 meta_title: "in3 - MultiSafepay Docs"
 layout: 'single'
-linktomarketing: 'https://www.multisafepay.com/solutions/payment-methods/in3'
+linktomarketing: https://www.multisafepay.com/solutions/payment-methods/in3
 childlist: '.'
 intro_description: "in3 is a Dutch online payment method where customers pay in 3 installments after receiving their order."
 logo: '/svgs/in3.svg' 

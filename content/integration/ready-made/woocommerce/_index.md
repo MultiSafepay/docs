@@ -58,7 +58,7 @@ Contact us:
 
 **Credit cards**
 
-- [American Express](/payments/methods/credit-and-debit-cards/american-express)
+- [American Express](/payment-methods/american-express/)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payments/methods/cartes-bancaires), [Dankort](/payments/methods/dankort), and [V Pay](/payment-methods/vpay/)

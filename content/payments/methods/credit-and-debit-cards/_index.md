@@ -21,6 +21,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
     - /payment-methods/credit-and-debit-cards/creditcards/
     - /payments/methods/credit-and-debit-cards/
+    - /payment-methods/credit-and-debit-cards/
 --- 
 
 {{< details title="About credit and debit cards" >}}

@@ -13,6 +13,7 @@ aliases:
     - /support-tab/magento2/payment-methods/american-express
     - /payment-methods/creditcards/american-express/
     - /payment-methods/credit-and-debit-cards/american-express
+    - /payments/methods/credit-and-debit-cards/american-express
 ---
 
 
