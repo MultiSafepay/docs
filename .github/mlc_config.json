@@ -52,6 +52,15 @@
       },
       {
         "pattern": "https://support\\.ecwid\\.com/.*"
+      },
+      {
+        "pattern": "https://business\\.adobe\\.com/products/magento/magento-commerce\\.html.*"
+      },
+      {
+        "pattern": "https://www\\.duda\\.co/.*"
+      },
+      {
+        "pattern": "https://developer\\.android\\.com/guide/components/processes-and-threads.*"
       }
     ],
   "timeout": "60s",
