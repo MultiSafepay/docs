@@ -13,7 +13,7 @@ aliases:
     - /credit-cards-user-guide/declined-status/
 ---
 
-The table below shows possible reasons for the **Declined** status, which may appear in the relevant **Transaction details** page in your MultiSafepay account. 
+The table below shows possible reasons for the **Declined** status, which may appear in the relevant **Transaction details** page in your MultiSafepay dashboard. 
 
 Only the customer can contact their credit card issuer to find out the specific reason.
 

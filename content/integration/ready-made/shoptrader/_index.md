@@ -29,7 +29,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ## Refunds
 
-You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com).
+You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
 To process refunds from your Shoptrader [backend](/glossaries/multisafepay-glossary/#backend), email the Integration Team at <integration@multisafepay.com>
 

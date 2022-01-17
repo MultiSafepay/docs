@@ -135,5 +135,5 @@ The latest stable release is downloaded and installed in your Drupal Commerce 2.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your account ID, site ID, site code or API key. {{% account_info %}}
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
-5. Configure the options for all supported payment methods activated in your [MultiSafepay account](https://merchant.multisafepay.com).
+5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 

@@ -133,7 +133,7 @@ meta_title: "API reference - Apply dynamic template - MultiSafepay Docs"
 
 To apply a template to the [MultiSafepay payment page](/payment-pages/), include in the transaction request:
 
-- The `template_id` of a template within your MultiSafepay account, **or**
+- The `template_id` of a template within your MultiSafepay dashboard, **or**
 - A template object structure. 
 
 If you provide both, the template object is primary.
@@ -181,7 +181,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -230,7 +230,7 @@ Contains:
 ----------------
 `template_id` | string | optional
 
-The identifier of a saved template from your MultiSafepay account. 
+The identifier of a saved template from your MultiSafepay dashboard. 
 The template structure overrides the `template_id`.
 
 ----------------

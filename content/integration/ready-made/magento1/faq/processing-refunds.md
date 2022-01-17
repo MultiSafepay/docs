@@ -10,11 +10,11 @@ aliases:
 ---
 **Refund rules**  
 
-- From your [MultiSafepay account](/refunds/full-partial/): Full refunds
+- From your [MultiSafepay dashboard](/refunds/full-partial/): Full refunds
 -  From your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend) (see below):  
     - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html)
     - Refunding more than the original transaction is **not** supported
-- Refunds processed in your MultiSafepay account may not appear in your backend. 
+- Refunds processed in your MultiSafepay dashboard may not appear in your backend. 
 - For [pay later methods](/payments/methods/pay-later/), you can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded.
 
 To process refunds from your backend, follow these steps:

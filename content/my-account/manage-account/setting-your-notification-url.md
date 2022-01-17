@@ -11,9 +11,9 @@ aliases:
     - /getting-started/set-up-your-account/user-guide/setting-your-notification-url/
 ---
 
-The [notification URL](/developer/api/notification-url/) is a webhook for sending notifications about orders. You can also use it to automatically update orders in your [backend](/glossaries/multisafepay-glossary/#backend) when you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay account.
+The [notification URL](/developer/api/notification-url/) is a webhook for sending notifications about orders. You can also use it to automatically update orders in your [backend](/glossaries/multisafepay-glossary/#backend) when you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay dashboard.
 
-**Note:** If the notification URL is not correctly set, the order does not update and you may need to manually enter a URL in the **Notification URL** field in your MultiSafepay account.
+**Note:** If the notification URL is not correctly set, the order does not update and you may need to manually enter a URL in the **Notification URL** field in your MultiSafepay dashboard.
 
 The table below sets out example notification URLs for specific ecommerce platforms.
 

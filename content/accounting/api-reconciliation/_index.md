@@ -11,14 +11,14 @@ aliases:
     - /business/accounting/transactions-api-endpoint/
 ---
 
-The transactions API endpoint returns details about transactions in your account. You can use it to automate business operations like reconciliation and gain insights into your transactions.
+The transactions API endpoint returns details about your transactions. You can use it to automate business operations such as reconciliation and gain insights into your transactions.
 
 See API reference – [Retrieve transactions](/api/#retrieve-transactions).
 
 Common uses include:
 
 {{< details title="Overview of all transactions" >}}
-**Use case:** I want a complete overview of all transactions in my MultiSafepay account.
+**Use case:** I want a complete overview of all my transactions.
 
 **Parameters:** You can use the optional parameters above to filter the transactions returned as required.
 

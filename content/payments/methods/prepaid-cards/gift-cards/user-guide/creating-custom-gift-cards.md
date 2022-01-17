@@ -26,7 +26,7 @@ MultiSafepay can develop a custom gift card for you.
     - A test gift card with credit and a secure code
     - A startup fee of 200 EUR
 
-**3.** MultiSafepay activates the custom card in your MultiSafepay account.
+**3.** MultiSafepay activates the custom card for your MultiSafepay account.
 
 **4.** To integrate your card:
 

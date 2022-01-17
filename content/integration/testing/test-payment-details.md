@@ -51,7 +51,7 @@ Use the following card numbers to test different transaction statuses.
 To test refunding an order:
 
 1. Create an order using card number `67034500054620008`. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.
@@ -69,7 +69,7 @@ To test refunding an order via the API:
 1. Create an order using card number `67034500054620008`. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -108,7 +108,7 @@ Use the following IBANs to test different transaction statuses.
 To test cancelling an order:
 
 1. Create an order.
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Cancel**.  
   The order status changes to **Void**.
 
 **Test refunding an order**
@@ -117,7 +117,7 @@ To test refunding an order:
 
 1. Create an order using IBAN: NL87ABNA0000000001. 
 2. Wait until the transaction status changes to **Completed**.
-3. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 4. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -166,7 +166,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -214,7 +214,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -278,7 +278,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -330,7 +330,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -351,7 +351,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -391,7 +391,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -412,7 +412,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -457,7 +457,7 @@ Use the following test scenarios on the Test platform page to test different tra
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -478,7 +478,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -520,7 +520,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -581,7 +581,7 @@ Use the following IBANs to test different transaction statuses.
 To test refunding an order:
 
 1. Create an order with IBAN `NL87ABNA0000000001`. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -602,7 +602,7 @@ To test refunding an order via the API:
 1. Create an order with IBAN `NL87ABNA0000000001`. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -641,7 +641,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -662,7 +662,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -698,7 +698,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -719,7 +719,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -774,7 +774,7 @@ You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
 - Make an [update an order](/api/#update-an-order) API request, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 ---
 
@@ -864,7 +864,7 @@ The order and transaction statuses change to **Declined**.
 To test shipping an order, either:
 
 - Make an [update an order](/api/#update-an-order) API request with status `shipped`, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 **Receive an invoice**  
 
@@ -919,7 +919,7 @@ You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
 - Make an [update an order](/api/#update-an-order) API request, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 **Test refunding an order**
 
@@ -1097,7 +1097,7 @@ Use the following card numbers to test different transaction statuses.
 To refund an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.
@@ -1116,7 +1116,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -1227,7 +1227,7 @@ Use the following card numbers to test different transaction statuses.
 To test refunding an order:
 
 1. Create an order using card number `4012001038443335`. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.
@@ -1246,7 +1246,7 @@ To test refunding an order via the API:
 1. Create an order using card number `4012001038443335`. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.
@@ -1289,7 +1289,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order.
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -1360,7 +1360,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 To refund an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.
@@ -1400,7 +1400,7 @@ The payment is processed in your MultiSafepay test account as **Successful**, wi
 To refund an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.
@@ -1419,7 +1419,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.

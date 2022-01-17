@@ -39,6 +39,6 @@ To test Google Pay payments, follow these steps:
     &nbsp;  
     For more information about testing, see Google Pay – [Test with sample tokens](https://developers.google.com/pay/api/web/guides/resources/sample-tokens).
 &nbsp;  
-3. Check the status of the payment [in your test account](https://testmerchant.multisafepay.com/).
+3. Check the status of the payment [in your test dashboard](https://testmerchant.multisafepay.com/).
 
 For support, email the Integration Team at <integration@multisafepay.com>

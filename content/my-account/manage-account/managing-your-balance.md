@@ -22,15 +22,15 @@ aliases:
 
 To add funds to your MultiSafepay balance, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance** > **Fund account**.
-3. Select the currency and amount you want to add to your account.
+3. Select the currency and amount you want to add to your balance.
 4. Select the payment method you want to use for the transaction.
 5. Click **Send**.
 
 ## Viewing your daily balance
 
-To view your daily balance in your [MultiSafepay account](https://merchant.multisafepay.com), go to **Finance** > **Daily balance**.
+To view your daily balance in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance** > **Daily balance**.
 
 There you can see your:
 

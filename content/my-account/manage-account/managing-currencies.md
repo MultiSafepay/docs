@@ -65,13 +65,13 @@ You can make [payouts](/account/payouts/) in:
 
 ## Enabling currencies
 
-To view the currencies currently enabled in your account, go to **Finance > Balance**.
+To view the currencies currently enabled for your account, in your dashboard go to **Finance > Balance**.
 
 To enable new currencies, email the Support Team at <support@multisafepay.com>
 
 You must also add a [business bank account](/account/business-bank-accounts/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance > Balance > Add bank account**.
 3. Process a bank transfer in the new currency to confirm the business bank account.
 
@@ -79,7 +79,7 @@ Once your new business bank account has been approved by the Risk Team, you can 
 
 ## Converting currencies
 
-To convert other currencies to Euros (EUR) in your [MultiSafepay account](https://merchant.multisafepay.com), go to **Finance > Currency conversion**. 
+To convert other currencies to Euros (EUR) in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance > Currency conversion**. 
 
 Take into account the exchange rate and/or any other costs.
 

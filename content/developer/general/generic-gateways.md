@@ -51,9 +51,9 @@ Use the relevant [payment method gateway IDs](/developer/gateway-ids).
 
 Our ready-made integrations also support a MultiSafepay payment gateway. This redirects customers from your webshop checkout to a MultiSafepay payment page displaying **all** of your activated payment methods. 
 
-To activate the MultiSafepay gateway for all websites in your account:
+To activate the MultiSafepay gateway for all websites under your account:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Settings** > **Payment methods**.
 3. Under **Standard payment methods**, select the **MultiSafepay** checkbox.
 4. Click **Save changes**.

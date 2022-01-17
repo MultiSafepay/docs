@@ -39,7 +39,7 @@ meta_title: "API reference - Retrieve transactions - MultiSafepay Docs"
 {{< description >}}
 ## Retrieve transactions
 
-Get details about transactions in your account. 
+Get details about your transactions under your account. 
 
 For use cases and sample requests, see [Reconciliation through API](/accounting/api-reconciliation/).
 

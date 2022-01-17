@@ -16,7 +16,7 @@ For the logos and icons of all MultiSafepay payment methods, see our Github repo
 
 To generate a PNG image of payment method logos to display on your website, use the payment logo designer. 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Tools** > **Payment logo designer**.
 3. Select a layout template.
 4. From the **Select elements** window, select the logos you want to include.

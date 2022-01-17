@@ -289,7 +289,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -378,7 +378,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-Text displayed with the order in your MultiSafepay account, and on the customer's bank statement (if supported by the bank).  
+Text displayed with the order in your MultiSafepay dashboard, and on the customer's bank statement (if supported by the bank).  
 Max. 200 characters.  
 HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
 

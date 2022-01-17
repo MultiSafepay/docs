@@ -10,9 +10,9 @@ If you include a `shopping_cart` object in your `POST /orders` request, the cart
 
 To hide shopping cart details on payment pages:
 
-**1.** Request the Integration Team to enable **Advanced website templates** in your MultiSafepay account. Email <integration@multisafepay.com>
+**1.** To request to enable **Advanced website templates** for your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
 
-**2.** Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/). 
+**2.** Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/). 
 
 **3.** Go to **Settings** > **New payment pages**.
 

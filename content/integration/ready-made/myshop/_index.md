@@ -87,7 +87,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
 4. Enter your account ID, site ID, and site secure code.  
-    Your account ID appears in the top-right corner of your MultiSafepay account.
+    Your account ID appears in the top-right corner of your MultiSafepay dashboard.
 6. If using a test account, select **Test mode**.
 7. Click **Save**.
 

@@ -25,7 +25,7 @@ Supported formats: Excel or PDF
 
 To generate a Transaction summary, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Transaction summary**.
 3. Under **Report settings** > in the **From** and **To** fields, enter the start and end dates of the period you want the report to cover.
 4. Under **Extra**, specify any other relevant parameters:  

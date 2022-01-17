@@ -62,7 +62,7 @@ The updated status of the order.
 `invoice_id` | string | optional
 
 Update an existing order with a reference to your internal invoice ID.  
-The invoice ID is added to [reports](/business/accounting/reports/) generated from your MultiSafepay account.  
+The invoice ID is added to [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.  
 Format: Maximum 50 characters.  
 
 ----------------

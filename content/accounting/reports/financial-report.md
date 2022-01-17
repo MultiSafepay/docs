@@ -40,7 +40,7 @@ Supported formats: Excel or CSV
 
 To generate a Financial report, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial report**.
 3. In the **Between** and **And** fields, enter the start and end dates of the period you want the report to cover.
 4. In the **Cost grouping** dropdown menu:  

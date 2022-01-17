@@ -9,5 +9,5 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopware6/faq/enabling-tokenization/
 ---
 
-You need to [enable recurring payments](/features/recurring-payments) in your MultiSafepay account and then in the plugin settings. 
+You need to [enable recurring payments](/features/recurring-payments) in your MultiSafepay dashboard and then in the plugin settings. 
 

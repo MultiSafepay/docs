@@ -3,7 +3,7 @@ title: "Activating Paysafecard"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Paysafecard - MultiSafepay Docs"
-short_description: "Activating Paysafecard in your MultiSafepay account and backend"
+short_description: "Activating Paysafecard for your MultiSafepay account"
 layout: 'child'
 url: '/payment-methods/paysafecard/activation/'
 aliases: 

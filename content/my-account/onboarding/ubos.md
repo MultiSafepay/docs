@@ -56,7 +56,7 @@ The three ultimate beneficial owners are therefore:
 
 ## UBO form
 
-Provide the details of all UBOs in the Statement of ultimate beneficial owner form. Upload in your MultiSafepay account color copies of the identity documents of all UBOs.
+Provide the details of all UBOs in the Statement of ultimate beneficial owner form. Upload in your MultiSafepay dashboard color copies of the identity documents of all UBOs.
 
 {{< details title="Download the UBO form" >}}
 Download the:

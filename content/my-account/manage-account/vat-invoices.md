@@ -22,11 +22,11 @@ For payment methods where MultiSafepay is the [collecting party](/glossaries/mul
 
 ## Invoices 
 
-We automatically deduct the total amount of VAT from your MultiSafepay balance at the end of each month. To view the exact amount, in your MultiSafepay account, go to **Transaction overview**, and search for "VAT" or "Invoice". 
+We automatically deduct the total amount of VAT from your MultiSafepay balance at the end of each month. To view the exact amount, in your MultiSafepay dashboard, go to **Transaction overview**, and search for "VAT" or "Invoice". 
 
-We upload a monthly VAT invoice in your account. See **Finance** > **Invoices**. The invoices are for your records only. You **don't** need to pay the amount separately.
+We upload a monthly VAT invoice for your account. In your dashboard, go to **Finance** > **Invoices**. The invoices are for your records only. You **don't** need to pay the amount separately.
 
-We also email the invoice to the [financial email address](/account/adding-financial-email-address/) set in your account. If you have not set an email address, we use the main business email address provided in your account.
+We also email the invoice to the [financial email address](/account/adding-financial-email-address/) set for your account. If you have not set an email address, we use the main business email address provided in your account.
 
 ### Refunds
 

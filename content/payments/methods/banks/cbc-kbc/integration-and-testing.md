@@ -46,7 +46,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.

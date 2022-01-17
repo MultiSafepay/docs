@@ -11,7 +11,7 @@ aliases:
     - /risk-fraud/business-bank-accounts/
 ---
 ## Adding a new business bank account
-To add a new business bank account for [payouts](/account/payouts/), add the new IBAN in your [MultiSafepay account](https://merchant.multisafepay.com).
+To add a new business bank account for [payouts](/account/payouts/), add the new IBAN in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
 To verify the account:
 

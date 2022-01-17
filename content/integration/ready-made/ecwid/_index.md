@@ -65,6 +65,6 @@ For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc
 
 For instructions on integrating your Ecwid store with Wix, see Ecwid - [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
 
-You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but refunds are not supported in Wix webshops.
+You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com), but refunds are not supported in Wix webshops.
 
 

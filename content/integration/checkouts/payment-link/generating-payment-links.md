@@ -4,7 +4,7 @@ weight: 30
 meta_title: "Generating payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'
-short_description: 'Generate payment links via our API or in your MultiSafepay account.'
+short_description: 'Generate payment links via our API or in your MultiSafepay dashboard.'
 url: '/payment-links/generating-links/'
 read_more: "."
 aliases:
@@ -17,15 +17,15 @@ aliases:
 ---
 You can generate payment links in:
 
-- Your MultiSafepay account
+- Your MultiSafepay dashboard
 - The MultiSafepay app
 - Some ready-made integrations
 
-## MultiSafepay account
+## MultiSafepay dashboard
 
 ### New transactions
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Tools** > **Payment link generator**.
 3. Click **New payment link**.
 4. From the **Site** list, select the relevant website.
@@ -46,7 +46,7 @@ You can generate payment links in:
 
 ### Existing transactions
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Click on the relevant transaction.
 4. In the **Transaction details** page, under **Order summary**, click **Payment link** > **Duplicate this order**.
@@ -60,7 +60,7 @@ To generate a payment link from your MultiSafepay app, follow these steps:
 1. Go to **Tools** > **Payment link generator**.
 2. Fill in the required fields.
 3. Click **Generate payment link**.
-4. Save the QR code generated to your device and then send it to the customer.   
+4. Save the QR code generated to your device, and then send it to the customer.   
 When the customer scans the QR code, they are directed to a pre-filled MultiSafepay payment page to complete payment.
 
 ## Ready-made integrations

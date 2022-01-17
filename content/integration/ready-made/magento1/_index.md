@@ -138,8 +138,8 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 
 3. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect MultiSafepay gateways**.  
     This page contains the configuration options for all MultiSafepay payment methods.    
-    Make sure your selected payment methods are actived in your [MultiSafepay account](https://merchant.multisafepay.com).
+    Make sure your selected payment methods are actived in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
 4. To configure MultiSafepay gift cards, go to the **MultiSafepay Gift Cards** page.  
-    Make sure gift cards are activated in your MultiSafepay account. For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
+    Make sure gift cards are activated in your MultiSafepay dashboard. For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
 

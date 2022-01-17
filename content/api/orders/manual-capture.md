@@ -58,7 +58,7 @@ This only applies to specific credit card payment methods, including MasterCard,
 `type` | string | required
 
 The payment flow for the checkout process.    
-Options: `redirect`, `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
+Options: `redirect`, `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay dashboard under **Tools** > **Payment link generator**).
 
 ----------------
 `order_id` | string | required
@@ -89,7 +89,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

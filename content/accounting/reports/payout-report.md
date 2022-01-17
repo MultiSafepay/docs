@@ -52,7 +52,7 @@ Columns:
 
 To generate a Payout report, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com/).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Finance** > **Daily balance**.
 3. In the **Daily balance overview** page, under **Payout transaction** for the relevant date, click the green Excel icon.
 

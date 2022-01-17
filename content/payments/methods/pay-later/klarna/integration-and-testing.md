@@ -19,7 +19,7 @@ aliases:
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
-Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay account. 
+Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway for your MultiSafepay account. 
 
 
 For questions about your Klarna integration and the connection with your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
@@ -41,7 +41,7 @@ The payment is processed in the test environment as **Successful**, with order s
 
 ### Test declining an order  
 
-To decline an order, in your test account under **Order summary**, click **Decline**.  
+To decline an order, in your test dashboard under **Order summary**, click **Decline**.  
 The transaction and order statuses change to **Void**.
 
 ### Change the order status  
@@ -50,7 +50,7 @@ You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
 - Make an [update an order](/api/#update-an-order) API request, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 ### Test refunding an order
 
@@ -62,7 +62,7 @@ To refund an order:
 
 ### Receive an invoice  
 
-You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+You can only test invoicing in your MultiSafepay live dashboard. To do this, change the order status to **Shipped**.
 
 **Notes:** You can't test:
 

@@ -16,7 +16,7 @@ This page sets out how to activate payment methods. See also the **Activation** 
 
 Applies to all [banking methods](/payments/methods/banks/).
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
 3. To activate the payment method for:
 
@@ -45,7 +45,7 @@ For credit cards, Apple Pay, and Google Pay, include in the request your:
 - Average, minimum, and maximum transaction amount
 - Annual turnover in credit card transactions
 
-The Risk Team checks your eligibilty and if approved, activates the payment method in your MultiSafepay account. 
+The Risk Team checks your eligibilty and if approved, activates the payment method for your MultiSafepay account. 
 
 ## Create payment method account
 

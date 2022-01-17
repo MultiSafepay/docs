@@ -13,4 +13,4 @@ For every transaction, Klarna generates:
 - A reservation number for while the order is not yet activated. Use this as a reference number when contacting Klarna with any questions at this stage.
 - An invoice number when the order status changes to **Shipped**.
 
-Both numbers appear in the relevant **Transaction details** page in your MultiSafepay account.
+Both numbers appear in the relevant **Transaction details** page in your MultiSafepay dashboard.

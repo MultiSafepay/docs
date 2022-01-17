@@ -3,7 +3,7 @@ title: "Activating Request to Pay"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Request to Pay - MultiSafepay Docs"
-short_description: "Activating Request to Pay in your MultiSafepay account"
+short_description: "Activating Request to Pay for your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
 url: '/payment-methods/request-to-pay/activation/'
@@ -15,7 +15,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
 
 {{< activate_payment_method name="Request to Pay" >}}
 

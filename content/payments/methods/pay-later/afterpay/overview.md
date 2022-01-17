@@ -24,7 +24,7 @@ aliases:
 
 ## Notes
 
-Customers can provide different invoice and delivery addresses, but the customer's first and last name must be at least two characters long. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API reference – [Retrieve an order](/api/#get-order-details). 
+Customers can provide different invoice and delivery addresses, but the customer's first and last name must be at least two characters long. The **Transaction details** page in your MultiSafepay dashboard only shows the invoice address. To retrieve other transaction details, make a `GET /orders` request. See API reference – [Retrieve an order](/api/#get-order-details). 
 
 ## See also
 
