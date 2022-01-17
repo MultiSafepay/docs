@@ -119,5 +119,5 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 5. Enter your [API key](/glossaries/multisafepay-glossary/#api-key), and then click **Save**. {{% account_info %}}
 6. On the **Payments** tab, enable the relevant payment methods.
 
-**Note:** Payment links generated manually in your MultiSafepay account don't automatically create or update orders in your PrestaShop 1.6 backend.
+**Note:** Payment links generated manually in your MultiSafepay dashboard don't automatically create or update orders in your PrestaShop 1.6 backend.
 

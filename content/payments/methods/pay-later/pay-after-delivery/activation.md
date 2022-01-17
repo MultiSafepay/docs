@@ -13,8 +13,8 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 **1.** Email a request to use Pay After Delivery to <sales@multisafepay.com>
 
-**2.** The Risk Team checks your eligibilty and if approved, activates the payment method in your MultiSafepay account. 
+**2.** The Risk Team checks your eligibilty and if approved, activates the payment method for your MultiSafepay account. 

@@ -2,7 +2,7 @@
 title: "Activating Server to Server"
 breadcrumb_title: 'Activation'
 meta_title: "Activating Server to Server - MultiSafepay Docs"
-short_description: "Activating Server to Server to use in your MultiSafepay account"
+short_description: "Activating Server to Server for your MultiSafepay account"
 weight: 20
 layout: child
 url: '/features/server-to-server/activation/'
@@ -18,4 +18,4 @@ aliases:
 
 The Risk Team checks your account and company performance. 
 
-If approved, the Integration Team activates Server to Server in your account.
+If approved, the Integration Team activates Server to Server for your account.

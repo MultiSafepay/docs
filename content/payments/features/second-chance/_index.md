@@ -47,7 +47,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 ## Activating Second Chance
 To activate Second Chance, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
@@ -55,7 +55,7 @@ To activate Second Chance, follow these steps:
 ## Customizing the emails
 The Second Chance email template is completely customizable. Follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Email templates**.
 3. Select the relevant website.
 4. Click **Add new template**.

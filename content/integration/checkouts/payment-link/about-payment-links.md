@@ -4,7 +4,7 @@ weight: 10
 meta_title: "About payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'
-short_description: 'Generate payment links via our API or in your MultiSafepay account.'
+short_description: 'Generate payment links via our API or in your MultiSafepay dashboard.'
 url: '/payment-links/about/'
 read_more: "."
 aliases:
@@ -42,7 +42,7 @@ Each attempt creates a new transaction. If the customer completes payment in one
 
 ## Viewing payment links
 
-For an overview of all payment links in your [MultiSafepay account](https://merchant.multisafepay.com), go to **Tools** > **Payment link generator**.
+For an overview of all payment links in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Tools** > **Payment link generator**.
 
 ### Payment link statuses
 

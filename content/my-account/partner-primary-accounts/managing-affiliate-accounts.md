@@ -28,9 +28,9 @@ Once affiliates are onboarded, you can manage their accounts using your affiliat
 
 You can also process refunds or carry out technical integrations.
 
-## Accessing affiliate accounts
+## Accessing affiliated accounts
 
-To access an affiliate account, under the **Action** column for the relevant merchant, click **Sign in**.
+To access an affiliated account, under the **Action** column for the relevant merchant, click **Sign in**.
 
 
 

@@ -3,7 +3,7 @@ title: "Activating PayPal"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating PayPal - MultiSafepay Docs"
-short_description: "Activating PayPal to use in your MultiSafepay account"
+short_description: "Activating PayPal for your MultiSafepay account"
 layout: 'child'
 url: '/payment-methods/paypal/activation/'
 aliases: 
@@ -16,7 +16,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once you have activated the method for your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 The instructions below are for the PayPal interface in English. If your PayPal webpage is in another language, you can change the language easily by clicking the links at the bottom right of the page.
 
@@ -61,7 +61,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in into your [MultiSafepay account](https://merchant.multisafepay.com).
+4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 5. Go to **Settings**. 
 6. To activate PayPal for:
 
@@ -77,7 +77,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 
 7. Click **Save changes**.
 
-**Note:** If PayPal is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com> 
+**Note:** If PayPal is not visible as a payment method in your MultiSafepay dashboard, email the Integration Team at <integration@multisafepay.com> 
 
 Your account is now configured. We strongly recommend [testing some transactions](/payment-methods/paypal/integration-testing/) before processing live payments.
 

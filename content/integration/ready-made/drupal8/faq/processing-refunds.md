@@ -10,7 +10,7 @@ aliases:
 ---
 **Refund rules**  
 
-- From your [MultiSafepay account](/refunds/full-partial/): Full refunds
+- From your [MultiSafepay dashboard](/refunds/full-partial/): Full refunds
 - From your Drupal 8 or 9 [backend](/glossaries/multisafepay-glossary/#backend):  
     - Full refunds 
     - Refunding more than the original transaction is **not** supported

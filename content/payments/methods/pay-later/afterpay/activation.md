@@ -13,7 +13,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 **1.** To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
@@ -22,7 +22,7 @@ aliases:
     - The Netherlands: [Offerte](https://www.afterpay.nl/nl/zakelijk/offerte)
     - Belgium: [Offerte aanvragen](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
 
-**3.** For existing AfterPay clients, to activate AfterPay in your MultiSafepay account email AfterPay Sales at <sales@afterpay.nl>  
+**3.** For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
 
 
 

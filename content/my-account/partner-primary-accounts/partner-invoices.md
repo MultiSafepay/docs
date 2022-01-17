@@ -16,7 +16,7 @@ MultiSafepay sends you partner invoices for the previous month, including:
 - Invoice period: The month of the commission payout
 - Payout fee: [Payouts](/account/payouts/) from your MultiSafepay balance to your business bank account cost 0,50 EUR each
 - Your monthly commission payout (excluding VAT)
-- VAT (21%): refunded to your account
+- VAT (21%): refunded to your balance
 
 Partner invoices are for your records only. You **don't** need to pay anything.
 

@@ -3,7 +3,7 @@ title: 'Activating Betaal per Maand'
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Betaal per Maand - MultiSafepay Docs"
-short_description: "Applying for Betaal per Maand and activating in your MultiSafepay account"
+short_description: "Applying for Betaal per Maand and activating for your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
 url: '/payment-methods/betaal-per-maand/activation/'
@@ -13,7 +13,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 You must:
 

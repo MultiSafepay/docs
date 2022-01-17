@@ -7,7 +7,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/matching-orders/
 ---
 
-In Prestashop 1.6, the order ID is generated after the payment, which causes a mismatch with the order ID in your MultiSafepay account. 
+In Prestashop 1.6, the order ID is generated after the payment, which causes a mismatch with the order ID in your MultiSafepay dashboard. 
 
 You can match orders using the transaction ID. 
 

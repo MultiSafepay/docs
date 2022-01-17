@@ -12,7 +12,7 @@ aliases:
 ---
 **Refund rules**  
 
-- From your [MultiSafepay account](https://merchant.multisafepay.com): [Full and partial refunds](/payments/refunds/) and credit notes
+- From your [MultiSafepay dashboard](https://merchant.multisafepay.com): [Full and partial refunds](/payments/refunds/) and credit notes
 - From your Lightspeed eCom [backend](/glossaries/multisafepay-glossary/#backend):  
     - Refunds and credit notes 
     - Refunding more than the original transaction is **not** supported
@@ -40,7 +40,7 @@ To enable refunds from your backend, follow these steps:
 
 - For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
 
-- Refunds created in your MultiSafepay account are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
+- Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
 
 - Some [pay later](/payment-methods/pay-later/) methods require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
 

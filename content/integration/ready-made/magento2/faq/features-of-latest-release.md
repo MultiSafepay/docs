@@ -14,9 +14,9 @@ aliases:
 
 Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
 
-You can refund transactions processed through the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend).
+You can refund transactions processed through the deprecated plugin in your [MultiSafepay dashboard](https://merchant.multisafepay.com), but **not** from your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend).
 
-**Note:** After deleting the deprecated plugin, shipment requests for orders created in it are not automatically sent to MultiSafepay. You must set the order status to **Shipped** manually in your [MultiSafepay account](https://merchant.multisafepay.com).
+**Note:** After deleting the deprecated plugin, shipment requests for orders created in it are not automatically sent to MultiSafepay. You must set the order status to **Shipped** manually in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
 ## Configuration fields
 

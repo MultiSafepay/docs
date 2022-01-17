@@ -17,7 +17,7 @@ Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/)
 
 To apply a surcharge or payment fee to a payment method, you can use the third-party [Fooman](https://store.fooman.co.nz/extensions/magento2) package.
 
-You can refund orders with a Fooman surcharge applied in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend). 
+You can refund orders with a Fooman surcharge applied in your [MultiSafepay dashboard](https://merchant.multisafepay.com), but not from your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend). 
 
 ## Support
 

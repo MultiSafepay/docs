@@ -28,7 +28,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 1. Make a [direct](/api/#alipay---direct) or [redirect](/api/#alipay---redirect) API request.
 2. On the Test platform page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
-The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
+The payment is processed as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
 ### Test cancelling an order
 
@@ -38,7 +38,7 @@ To test cancelling an order:
 2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
 3. Click **Test**.  
   The order status changes to **Initialized**.
-4. In your MultiSafepay test account, under **Order summary**, click **Cancel**.
+4. In your MultiSafepay test dashboard, under **Order summary**, click **Cancel**.
 5. In the **Add transaction comment** field, add a comment, and then click **Ok**.  
   The order status changes to **Void**.
 
@@ -47,7 +47,7 @@ To test cancelling an order:
 To test refunding an order:
 
 1. Create an order.
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.

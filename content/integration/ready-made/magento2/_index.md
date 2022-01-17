@@ -220,11 +220,11 @@ Sign in to your Magento 2 backend, and go to **Stores** > **Configuration** > **
 - **General settings:** Contains all main settings.  
   - Here you can configure all gateways and gift cards.  
   - For finding your account ID, site ID, site secure code, or [API key](/glossaries/multisafepay-glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
-  - Your account ID appears in the top-right corner of your MultiSafepay account.
+  - Your account ID appears in the top-right corner of your MultiSafepay dashboard.
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
-    - Make sure you have activated your selected payment methods in your [MultiSafepay account](https://merchant.multisafepay.com).
+    - Make sure you have activated your selected payment methods in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
-    - Make sure you have activated your selected gift cards in your [MultiSafepay account](https://merchant.multisafepay.com).  
+    - Make sure you have activated your selected gift cards in your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
     - For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
   
 {{< blue-notice >}}MultiSafepay is an official partner of [OneStepCheckout.com](/payments/integrations/ecommerce-platforms/magento2/faq/supported-magento2-checkouts/). {{< /blue-notice >}}

@@ -11,18 +11,18 @@ noindex: '.'
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-To use Google Pay™, you must also have credit card payments activated in your MultiSafepay account. If not already activated, email a request to <sales@multisafepay.com>
+To use Google Pay™, you must also have credit card payments activated for your MultiSafepay account. If not already activated, email a request to <sales@multisafepay.com>
 
 In the email, provide your expected:
 
 - Average, minimum, and maximum credit card transaction amounts
 - Annual turnover in credit card transactions
 
-Once approved, to activate credit card payments and Google Pay in your MultiSafepay account, follow these steps:
+Once approved, to activate credit card payments and Google Pay for your MultiSafepay account, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
 3. To activate the payment method for:
 

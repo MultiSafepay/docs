@@ -11,26 +11,24 @@ noindex: 'true'
 
 {{< alert-notice >}} **Alert!** This plugin is end-of-life and we are phasing out support. Migrate to the [new plugin](/payments/integrations/ecommerce-platforms/magento2/) as soon as possible. {{< /alert-notice >}}
 
-### Introduction
-
-The installation can be carried out in three ways:
+You can install the plugin via:
 
 + SFTP
 + Composer
-+ Magento Marketplace.
++ Magento Marketplace
 
-In this manual we describe the installation via Composer.
+This manual is for installation via Composer.
 
 {{% introduction_plugin "Magento 2" %}}
 
-### 1. Requirements
+### Requirements
 - Magento Open Source version 2.2.x & 2.3.x & 2.4.x 
 - PHP 7.0 and higher
 - Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
 
 _*If you are using [Magento Commerce](https://business.adobe.com/products/magento/magento-commerce.html), contact us at <integration@multisafepay.com>_
 
-### 2. Installation
+## Installation
 Run the following commands via the CLI:
 
 ```
@@ -39,42 +37,45 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-After running these commands, the latest stable release is downloaded and installed within your
-Magento 2 webshop.
+After running these commands, the latest stable release is downloaded and installed in your Magento 2 webshop.
 
-Depending on your webserver/webshop configuration you also need to check:
+Depending on your webserver/webshop configuration, you may also need to:
 
-- Set rights on files correctly. Our files can be found at vendor/multisafepay/magento2msp
-- Empty static files when running in production mode
-- Flush cache.
+- Set the rights on files correctly. Our files can be found at vendor/multisafepay/magento2msp.
+- Empty static files when running in production mode.
+- Flush your cache.
 
-### 3. Configuration
-1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). Go to **Stores** > **Configuration** > **MultiSafepay x.x.x** > **MultiSafepay settings**.  
+## Configuration
+1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend). 
+2. Go to **Stores** > **Configuration** > **MultiSafepay x.x.x** > **MultiSafepay settings**.  
+
 This page contains all main settings and is used for all gateways and gift cards.
 {{% account_info %}}
-Your Account ID is shown in the dashboard of your MultiSafepay account in the top right corner
+Your account ID appears in the top-right corner of your MultiSafepay dashboard. 
 
-2. Go to **Stores** > **(Settings) Configuration** > **MultiSafepay x.x.x** > **MultiSafepay gateways**.  
+3. Go to **Stores** > **(Settings) Configuration** > **MultiSafepay x.x.x** > **MultiSafepay gateways**.  
+
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
-Be sure that you have the selected payment methods active in your [MultiSafepay account](https://merchant.multisafepay.com)
+Make sure the selected payment methods are actived for your [MultiSafepay account](https://merchant.multisafepay.com).
 
-3. MultiSafepay Gift cards  
+4. MultiSafepay gift cards  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Gift cards need to be activated, more information can be found on our [gift card page](/payments/methods/prepaid-cards/gift-cards).
+For how to activate gift cards, see [Gift cards](/payment-methods/gift-cards).
 
-For any questions about the plugin:
+For support:
 
  - Email the Integration Team at <integration@multisafepay.com> 
  - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
-### 5. Updates 
+## Updates 
 Run the following commands via the CLI:
 ```
 composer update multisafepay/magento2msp 
 php bin/magento setup:upgrade
 ```
 
-Depending on your webserver/webshop configuration you also need to check:
-- check the rights on files correctly. Our files can be found at vendor/multisafepay/magento2msp
-- Empty static files when running in production mode
-- Flush cache.
+Depending on your webserver/webshop configuration, you may also need to:
+
+- Set the rights on files correctly. Our files can be found at vendor/multisafepay/magento2msp.
+- Empty static files when running in production mode.
+- Flush your cache.

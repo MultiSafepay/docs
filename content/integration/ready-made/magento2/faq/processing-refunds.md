@@ -11,7 +11,7 @@ aliases:
 ---
 ## Refund rules
 
-- From your [MultiSafepay account](/refunds/full-partial/): Full and partial refunds 
+- From your [MultiSafepay dashboard](/refunds/full-partial/): Full and partial refunds 
 - From your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend) (see below):  
     - Full and partial refunds, and credit memos 
     - Refunding more than the original transaction is **not** supported
@@ -29,9 +29,9 @@ To process refunds from your Magento 2 backend, follow these steps:
 
 ## Deprecated plugin
 
-You can refund orders for payment methods from the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 backend. 
+You can refund orders for payment methods from the deprecated plugin in your [MultiSafepay dashboard](https://merchant.multisafepay.com), but not from your Magento 2 backend. 
 
 ## Fooman surcharges
 
-You can refund orders with a [Fooman surcharge](/payments/integrations/ecommerce-platforms/magento2/faq/applying-surcharges/) applied in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 backend.
+You can refund orders with a [Fooman surcharge](/payments/integrations/ecommerce-platforms/magento2/faq/applying-surcharges/) applied in your [MultiSafepay dashboard](https://merchant.multisafepay.com), but not from your Magento 2 backend.
 

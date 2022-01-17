@@ -14,6 +14,6 @@ You can refund orders or issue credit memos from your Magento 2 [backend](/gloss
     - Offline refund: No refund request is sent to MultiSafepay.
     - Refund: A refund request is sent to MultiSafepay.
 
-You can also refund from your [MultiSafepay account](https://merchant.multisafepay.com).
+You can also refund from your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
-**Note:** For orders with a Fooman surcharge, you cannot refund from your backend but you can from your [MultiSafepay account](https://merchant.multisafepay.com).
+**Note:** For orders with a Fooman surcharge, you cannot refund from your backend but you can from your [MultiSafepay dashboard](https://merchant.multisafepay.com).

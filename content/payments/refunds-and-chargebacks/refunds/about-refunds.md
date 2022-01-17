@@ -53,7 +53,7 @@ To apply, follow these steps:
 
 1. Email a request to <sales@multisafepay.com>
 2. The Risk Team assesses your request. 
-3. Once approved, the Risk Team enables the **Allow more than original** function in your MultiSafepay account.
+3. Once approved, the Risk Team enables the **Allow more than original** function for your MultiSafepay account.
 
 ## Cancelling refunds
 

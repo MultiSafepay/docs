@@ -1,8 +1,8 @@
 ---
 title : "Evaluating uncleared transactions"
 weight: 30
-meta_title: "Evaluating Uncleared transactions - MultiSafepay Docs"
-short_description: "Review and evaluate transactions that our automated fraud filter has placed on hold"
+meta_title: "Evaluating uncleared transactions - MultiSafepay Docs"
+short_description: "Review and evaluate transactions that our automated fraud filter has placed on hold."
 read_more: "."
 url: '/about-payments/uncleared-transactions/'
 aliases: 
@@ -16,26 +16,26 @@ If the [transaction status](/about-payments/multisafepay-statuses/) of a credit 
 
 There are risks associated with accepting credit card payments. You bear the risk of financial damage (e.g. due to fraud), for which neither MultiSafepay nor the cardholder is accountable.
 
-You must review and evaluate all **Uncleared** transactions, and either authorize or decline them.
+You must review and evaluate all uncleared transactions, and either authorize or decline them.
 
 ## Fraud score 
-All **Uncleared** transactions are assigned a fraud score from 1-10 (10 being the most at risk of fraud). Transactions that score 10 aren't always fraudulent, and low-scoring transactions may still carry risk.
+All uncleared transactions are assigned a fraud score from 1-10: 10 being the most at risk of fraud. Transactions that score 10 aren't always fraudulent, and low-scoring transactions may still carry risk.
 
-Transactions that score 6 to 8 you can accept or decline yourself in MultiSafepay account following the steps below.
+Transactions that score 6 to 8 you can accept or decline yourself in your MultiSafepay dashboard following the steps below.
 
 Transactions that score 8 or above can only be approved by MultiSafepay. For help with evaluating potential risks or fraud indicators, and professional advice, email the Risk Team at <risk@multisafepay.com> 
 
 The final decision to authorize or decline transactions lies with you. MultiSafepay is not responsible nor liable for any damage after you authorize a payment.
 
-## Reviewing Uncleared transactions
+## Reviewing uncleared transactions
 
-When Uncleared transactions are awaiting your approval, you receive notification in your MultiSafepay account and by email to the address provided under **Contact details** in your account.
+When uncleared transactions are awaiting your approval, you receive a notification in your MultiSafepay dashboard and by email to the address provided under **Contact details** for your account.
 
-{{< blue-notice >}} **Note:** You can only authorize or decline **Uncleared** transactions in your MultiSafepay account. If you take no action, the transaction automatically expires after 5 days. {{< /blue-notice >}}
+{{< blue-notice >}} **Note:** You can only authorize or decline uncleared transactions in your MultiSafepay dashboard. If you take no action, the transaction automatically expires after 5 days. {{< /blue-notice >}}
 
-To view the list of uncleared payments, click on the notification, or:
+To view uncleared transactions, click on the notification, or:
 
-1. Sign in to your MultiSafepay account.
+1. Sign in to your MultiSafepay dashboard.
 2. Go to **Transactions** > **Uncleared transactions**.
 3. Click each transaction in the list to view the **Transaction details** page. 
 
@@ -49,14 +49,14 @@ The **Transaction details** page includes:
 - History data
 - Transaction notes 
 
-## Evaluating Uncleared transactions
-The following indicators paint a cumulative picture of Uncleared transactions, but are no guarantee against fraud. If you are in any doubt about a transaction, we recommend declining it and notifying the customer.
+## Evaluating uncleared transactions
+The following indicators paint a cumulative picture of uncleared transactions, but are no guarantee against fraud. If you are in any doubt about a transaction, we recommend declining it and notifying the customer.
 
 {{< details title="Pay later methods" >}}
 
 **Uncleared** status applies to a number of [pay later methods](/payments/methods/pay-later/). <br>
 
-For [Klarna](/payment-methods/klarna/), [Afterpay](/payment-methods/afterpay/), [Betaal per Maand](/payment-methods/betaal-per-maand/) and [Pay After Delivery](/payment-methods/pay-after-delivery/) after you ship the order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status then changes to **Completed** when MultiSafepay receives settlement and adds the funds to your MultiSafepay balance.
+For [Klarna](/payment-methods/klarna/), [Afterpay](/payment-methods/afterpay/), [Betaal per Maand](/payment-methods/betaal-per-maand/) and [Pay After Delivery](/payment-methods/pay-after-delivery/), after you ship the order the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status changes to **Completed** when MultiSafepay receives settlement and adds the funds to your MultiSafepay balance.
 
 For [Request to Pay](/payment-methods/request-to-pay/), [Sofort](/payment-methods/sofort-banking/) and [SEPA Direct Debit](/payment-methods/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement (partially or in full, e.g. the remaining instalments of an in3 payment). We recommend **not** shipping orders during this status.
 
@@ -80,7 +80,7 @@ Consider:
 {{< /details >}}
 
 {{< details title="Customer" >}}
-You can view customer information in your MultiSafepay account and in your [backend](/glossaries/multisafepay-glossary/#backend), which may contain useful information we do not have. 
+You can view customer information in your MultiSafepay dashboard and in your [backend](/glossaries/multisafepay-glossary/#backend), which may contain useful information we do not have. 
 
 Consider:
 
@@ -115,8 +115,8 @@ If the customer is enrolled for 3D Secure, in the **Transaction details** page >
  
 ### 3D Secure statuses
 
-| 3D Secure result            | Description      |
-|---------------------|-----------|
+| 3D Secure result | Description |
+|---|---|
 | Enrolled Liability  | 3D Secure available and successfully verified. Liability for fraud is shifted to the cardholder. Fraud chargebacks are not possible. |
 | Not Enrolled, Liability  | 3D Secure available, but not used or successfully verified. Liability for fraud is shifted to the cardholder. Fraud chargebacks are not possible |
 |  No Liability  | No 3D Secure verification available. Liability not shifted. Fraud chargeback is possible.|
@@ -133,7 +133,7 @@ We recommend comparing where payments were made to where the card was initially 
 
 {{< details title="Risk report" >}}
 
-For more information about the card used for the transaction, in the **Transaction details** page, click **View Risk report**. 
+For more information about the card used for the transaction, in the **Transaction details** page, click **View risk report**. 
 
 You can view:
 - Information about the number of credit cards used via a specific IP address
@@ -145,9 +145,9 @@ You can view:
 
 Under **Fraud info** (next to the fraud score), there are several other fraud risk indicators based on the email address and shipping details.
 
-Under **History Data**, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.
+Under **History data**, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.
 {{< /details >}}
 
 ## See also 
 
-[Viewing your Uncleared balance](/faq/finance/viewing-your-uncleared-balance/)
+[Viewing your uncleared balance](/faq/finance/viewing-your-uncleared-balance/)

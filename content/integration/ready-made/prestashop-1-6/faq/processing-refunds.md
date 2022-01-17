@@ -10,5 +10,5 @@ aliases:
 
 **Refund rules**  
 
-- You can only process refunds from your [MultiSafepay account](/refunds/full-partial/).
+- You can only process refunds from your [MultiSafepay dashboard](/refunds/full-partial/).
 - You cannot process refunds from your PrestaShop 1.6 [backend](/glossaries/multisafepay-glossary/#backend).

@@ -8,7 +8,7 @@ changelog_url : "."
 faq: "."
 layout: 'single'
 meta_title: "Odoo plugin - MultiSafepay Docs"		
-meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay payment solutions into your Odoo platform with the free plugin"
+meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay payment solutions into your Odoo platform with the free plugin."
 weight: 11
 logo: "/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
@@ -123,8 +123,8 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 6. Enter **Live** and/or **Test** **API key**.
 7. On the **Configuration tab**, set **Journal**.
 8. Click **Save**.
-9. To get payment methods from your MultiSafepay account,Oo the **Configuration** tab, click **Pull payment methods**.  
-    Make sure you have activated the relevant payment methods in your [MultiSafepay account](https://testmerchant.multisafepay.com).
+9. To get payment methods from your MultiSafepay account, go the **Configuration** tab, click **Pull payment methods**.  
+    Make sure the relevant payment methods are activated for your account.
 10.  Configure for each payment method separately:  
     - Name  
     - State  

@@ -22,7 +22,7 @@ aliases:
 ### Displaying your logo in the PayPal checkout
 To display your header or logo on the PayPal checkout page, follow these steps:
 
-1. Sign in into your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Files**, and upload the relevant images. 
 3. Go to **Payment methods** at the bottom right, and then select the relevant images from the **Logo** and **Header** dropdown menu. 
 4. Click **Save**.
@@ -57,7 +57,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 To refund an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.

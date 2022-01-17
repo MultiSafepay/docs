@@ -12,11 +12,11 @@ aliases:
 ---
 We recommend styling MultiSafepay payment pages to be consistent with the look and feel of your website.
 
-## Via your MultiSafepay account
+## Via your MultiSafepay dashboard
 
-To style payment page templates from your MultiSafepay account, follow these steps:
+To style payment page templates from your MultiSafepay dashboard, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings** > **Website**.
 3. Click the **Template** button. 
 4. Use the WYSIWYG editor to style the payment page template.  
@@ -30,7 +30,7 @@ To style payment page templates from your MultiSafepay account, follow these ste
 
 - To edit saved templates, click the **Edit template** button in the top-left corner.
 
-- To apply the style from one template to another website in your account, click the **Apply style from** button in the top-right corner. Save the template to the relevant website.
+- To apply the style from one template to another website under your account, click the **Apply style from** button in the top-right corner. Save the template to the relevant website.
 
 {{< /details >}}
 

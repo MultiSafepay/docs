@@ -11,11 +11,11 @@ aliases:
    - /getting-started/set-up-your-account/user-guide/adding-your-financial-email-address/
 ---
 
-Provide an email address for MultiSafepay to send invoices to. If you don't provide a financial email address, we send invoices to the main business email address provided in your account.
+Provide an email address for MultiSafepay to send invoices to. If you don't provide a financial email address, we send invoices to the main business email address for your account.
 
-To add your financial email address to your MultiSafepay account, follow these steps:
+To add a financial email address for your MultiSafepay account, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Select the drop-down-menu in the right hand corner of your screen, next to the search bar.
 3. Click **Contact details**. 
 4. In the **Financial email** field, enter the email address.

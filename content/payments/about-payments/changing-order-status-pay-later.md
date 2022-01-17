@@ -8,11 +8,11 @@ url: '/about-payments/pay-later-shipped-status/'
 
 For [pay later methods](/payments/methods/pay-later/), you must manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**. This triggers the payment method to invoice the customer and transfer the funds to MultiSafepay. It also prevents the order from expiring. 
 
-## In your MultiSafepay account
+## In your MultiSafepay dashboard
 
-To change the order status in your MultiSafepay account, follow these steps:
+To change the order status in your MultiSafepay dashboard, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
@@ -21,7 +21,7 @@ To change the order status in your MultiSafepay account, follow these steps:
 
 ## In your backend
 
-If you change the order status in your [backend](/glossaries/multisafepay-glossary/#backend), the following [ready-made integrations](/integrations/ready-made/) can pass the updated status to your MultiSafepay account automatically:
+If you change the order status in your [backend](/glossaries/multisafepay-glossary/#backend), the following [ready-made integrations](/integrations/ready-made/) can pass the updated status to your MultiSafepay dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.

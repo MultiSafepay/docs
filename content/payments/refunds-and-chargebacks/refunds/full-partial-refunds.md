@@ -3,18 +3,18 @@ title : "Full and partial refunds"
 weight: 30
 layout: 'single'
 meta_title: "Full and partial refunds - MultiSafepay Docs"
-short_description: "Via your MultiSafepay account, ready-made integration, or API"
+short_description: "Via your MultiSafepay dashboard, ready-made integration, or API"
 read_more: "."
 url: '/refunds/full-partial/'
 ---
 
-You can process full and partial refunds via your MultiSafepay account, our ready-made integrations, and our API. 
+You can process full and partial refunds via your MultiSafepay dashboard, our ready-made integrations, and our API. 
 
 For support, email the Support Team at <support@multisafepay.com>
 
-## MultiSafepay account
+## MultiSafepay dashboard
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).  
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
 2. Go to **Transactions** > **Transaction overview**.  
 3. Search for the transaction you want to refund and click to open the **Transaction details** page.  
 4. Click **Refund order**:    

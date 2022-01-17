@@ -46,8 +46,7 @@ weight: 207
 {{< description >}}
 ### Generate payment links
 
-Generate a [payment link](/payments/checkout/payment-link/) to send to a customer.  
-Your MultiSafepay account creates a unique transaction to match to the payment.
+Generate a [payment link](/payments/checkout/payment-link/) to send to a customer, creating a new transaction. 
 
 **Parameters**
 
@@ -55,7 +54,7 @@ Your MultiSafepay account creates a unique transaction to match to the payment.
 `type` | string | required
 
 The payment flow for the checkout process.  
-Value: `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
+Value: `paymentlink` (makes the transaction appear in your MultiSafepay dashboard under **Tools** > **Payment link generator**).
 
 ----------------
 `order_id` | string | required
@@ -86,7 +85,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

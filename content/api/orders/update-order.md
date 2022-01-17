@@ -81,7 +81,7 @@ The reason for updating the order.
 `invoice_id` | string | optional
 
 Add your invoice ID to an existing order.  
-The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay account.
+The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.
 
 ----------------
 `invoice_url` | string | optional

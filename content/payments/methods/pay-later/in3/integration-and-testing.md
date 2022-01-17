@@ -56,7 +56,7 @@ The order and transaction statuses change to **Declined**.
 To test shipping an order, either:
 
 - Make an [update an order](/api/#update-an-order) API request with status `shipped`, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 ### Receive an invoice
 

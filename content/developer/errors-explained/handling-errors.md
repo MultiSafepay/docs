@@ -10,14 +10,14 @@ aliases:
     - /developer/errors-explained/understanding-and-resolving-errors/
 ---
 
-This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay account, and possible causes.
+This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, and possible causes.
 
 
 #### Error 1000: Unknown message type
 
 The payment method is disabled or unavailable.
 
-To check the payment method settings in your MultiSafepay account, email the Support Team at <support@multisafepay.com>
+To check the payment method settings for your MultiSafepay account, email the Support Team at <support@multisafepay.com>
 
 #### Error 1001: Invalid amount
 
@@ -41,19 +41,19 @@ Check that your account ID was properly formatted, e.g. fix typing errors and re
 
 The `POST /orders` request contains an invalid site ID, or the site ID provided doesn’t match the account ID. 
 
-To retrieve a site ID from your MultiSafepay account, go to **Settings** > **Website settings**, and then click the relevant website.
+To retrieve a site ID from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant website.
 
 #### Error 1005: Invalid secure code
 
 The `POST /orders` request contains an invalid secure code, or the secure code doesn't match the account ID or site ID provided. 
 
-To retrieve a secure code from your MultiSafepay account, go to **Settings** > **Website settings**, and then click the relevant website.
+To retrieve a secure code from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant website.
 
 #### Error 1006: Invalid transaction ID
 
 The `POST /orders` request contains an invalid transaction ID. 
 
-The transaction ID provided must be unique. The transaction ID you provided may have already been used for a completed transaction for that website (site ID). Consider creating a new website profile in your MultiSafepay account.
+The transaction ID provided must be unique. The transaction ID you provided may have already been used for a completed transaction for that website (site ID). Consider creating a new website profile in your MultiSafepay dashboard.
 
 #### Error 1007: Invalid IP address
 
@@ -67,7 +67,7 @@ See API reference – [Customer object](/api/#customer-object).
 
 The order description in the `POST /orders` request was missing or invalid.
 
-Enter a free text description, which appears in the order details in your MultiSafepay account and on the customer’s bank statement (if supported by the customer’s bank). 
+Enter a free text description, which appears in the order details in your MultiSafepay dashboard and on the customer’s bank statement (if supported by the customer’s bank). 
 
 Format: Max 200 characters.   
 HTML is not supported. Use the required [shopping-cart object](/api/#shopping-cart-items-object).
@@ -109,7 +109,7 @@ The MD5 signature supplied with the message doesn’t match the message contents
 
 #### Error 1014: Unspecified error
 
-Check your logs and your MultiSafepay account message screen for other error codes that may be causing this error.
+Check your logs and your MultiSafepay dashboard message screen for other error codes that may be causing this error.
 
 For help diagnosing unspecified errors, email the Integration Team at <integration@multisafepay.com>
 
@@ -140,9 +140,9 @@ The country code in the `POST /orders` request was not recognized.
 
 #### Error 1019: Site is inactive
 
-The requested site is disabled in your MultiSafepay account.
+The requested site is disabled in your MultiSafepay dashboard.
 
-To reactivate the website in your MultiSafepay account:
+To reactivate the website in your MultiSafepay dashboard:
 
 1. Go to **Settings** > **Website settings**, and select the relevant website.
 2. From the **Status** list, select **Active**.
@@ -274,7 +274,7 @@ The refund cannot be processed.
 Check: 
 
 - That the sum of any partial refunds doesn’t exceed the original transaction amount.
-- That you can make withdrawals from your MultiSafepay account.
+- That you can make payouts from your MultiSafepay balance.
 - If the transaction has already been refunded
 - If the transaction was cancelled
 - If the same refund was paid within in a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick. To avoid this error, delay refund requests by at least 1 second.

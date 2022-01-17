@@ -38,7 +38,7 @@ The payment is processed in the test environment as **Successful**, with order a
 
 ### Test declining an order
 
-To decline an order, in your test account under **Order summary**, click **Decline**.  
+To decline an order, in your test dashboard under **Order summary**, click **Decline**.  
 The order and transaction statuses change to **Void**.
 
 ### Test shipping an order

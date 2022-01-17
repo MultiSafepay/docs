@@ -16,7 +16,7 @@ aliases:
 |---|---|
 | **API** | [Direct](/api/#afterpay---direct) and [redirect](/api/#afterpay---redirect) |
 | **Ready-made integrations** | Supported in the following ready-made integrations: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [CS-Cart](/cs-cart/) {{< br >}} [Drupal 8](/drupal-8-9/) {{< br >}} [Magento 1](/magento-1/), [Magento 2](/magento-2/) {{< br >}} [Odoo](/odoo/) {{< br >}} [OpenCart](/opencart/)  {{< br >}} [PrestaShop 1.6](/prestashop-1-6/), [PrestaShop 1.7](/prestashop/) {{< br >}} [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/) {{< br >}}  [WooCommerce](/woo-commerce/) {{< br >}}  [X-Cart](/x-cart/)    |
-| **Checkout options** | [Payment links](/payment-links/about/) – You can't adjust the lifetime. {{< br >}} [Multisafepay payment pages](/payment-pages/) – Activate at website level in your MultiSafepay account. {{< br >}}   |
+| **Checkout options** | [Payment links](/payment-links/about/) – You can't adjust the lifetime. {{< br >}} [Multisafepay payment pages](/payment-pages/) – Activate at website level in your MultiSafepay dashboard. {{< br >}}   |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ## Testing
@@ -28,7 +28,7 @@ aliases:
 
 AfterPay shares the test key with MultiSafepay.
 
-**2.** To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
+**2.** To enable AfterPay for your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
 ### Test an AfterPay order
 
@@ -41,7 +41,7 @@ AfterPay shares the test key with MultiSafepay.
 
 ### Test declining an order  
 
-To decline an order, in your test account under **Order summary**, click **Decline**.  
+To decline an order, in your test dashboard under **Order summary**, click **Decline**.  
 The transaction and order statuses change to **Void**.
 
 ### Test AfterPay rejecting an order
@@ -55,7 +55,7 @@ You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
 - Make an [update an order](/api/#update-an-order) API request, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 **Note:** You can't test:  
 

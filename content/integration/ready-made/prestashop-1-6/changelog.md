@@ -131,7 +131,7 @@ Release date: Sept 8, 2017
 + Free Shipping information was not included in the transaction.
 
 ### Changes
-+ Removed support for BVKPayment for FastCheckout. as this can configured within your MultiSafepay account.
++ Removed support for BVKPayment for FastCheckout. as this can configured within your MultiSafepay dashboard.
 
 ***
 
@@ -216,7 +216,7 @@ Release date: July 12, 2016
 ### Improvements
 + Orders are now created for initialized Bank transfer payments and uncleared transactions when using the setting; "Only when an order was paid in full".
 + Added E-Invoicing as a payment method.
-+ The PSP ID is added to the order, so it can be used to find the corresponding transaction in your MultiSafepay account.
++ The PSP ID is added to the order, so it can be used to find the corresponding transaction in your MultiSafepay dashboard.
 
 ### Fixes
 + Fixed issue with crypt function were no 'salt' was used. This resulted in a notice when using PHP 5.6 or above.

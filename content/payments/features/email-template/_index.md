@@ -23,7 +23,7 @@ To speed up and customize customer emails, you can use preformatted and/or prewr
 
 **Step 1.** Set an email template.
 
-- Sign in to your MultiSafepay account. 
+- Sign in to your MultiSafepay dashboard. 
 - Go to **Settings** > **Email templates**.  
 - Click the relevant website.  
 - Click **Add new template**.   
@@ -38,7 +38,7 @@ For sending customers MultiSafepay's bank details when they select [Bank Transfe
 **Chargeback email (to merchant)**  
 For notifying you when a customer requests a [chargeback](/payments/chargebacks/about/) (recommended if you accept credit card payments).
 
-Make sure you add one or more email addresses to send these emails to in your MultiSafepay account, under 
+Make sure you add one or more email addresses to send these emails to in your MultiSafepay dashboard, under 
 **Contact information** > **Chargeback email**. 
 
 **Manual Capture reservation completed (to customer)**  
@@ -59,7 +59,7 @@ For notifying customers that you have processed their refund.
 **Second Chance email (to customer)**  
 For sending customers a friendly reminder to complete a payment. 
 
-Make sure you have enabled [Second Chance](/features/second-chance/) in your MultiSafepay account.
+Make sure you have enabled [Second Chance](/features/second-chance/) in your MultiSafepay dashboard.
 
 **Transaction completed email (to customer)**  
 For sending payment confirmation to customers. 
@@ -195,7 +195,7 @@ The table below describes all available tokens.
 
 To add your logo to emails to increase customers' recognition and trust, follow these steps:
 
-1. Sign in to your MultiSafepay account.
+1. Sign in to your MultiSafepay dashboard.
 2. Go to **Settings** > **Website settings** > **Upload a new file**.  
 3. In the **Files** directory, under **Actions**, click **Copy to clipboard** to copy the file's URL (starting with https://media.multisafepay.com/merchants/).
 4. Go to **Settings** > **Email templates**.

@@ -48,14 +48,14 @@ Use the following card numbers to test different transaction statuses.
 | 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
 | 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
-**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+**Note:** You can see the reason a transaction was declined in your MultiSafepay test dashboard under **Notes**.
 
 ### Test refunding an order
 
 To test refunding an order:
 
 1. Create an order using card number `4012001038443335`. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Reason/Description** field the reason for the refund. 
     - **Amount** field the amount to refund.
@@ -74,7 +74,7 @@ To test refunding an order via the API:
 1. Create an order using card number `4012001038443335`. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.

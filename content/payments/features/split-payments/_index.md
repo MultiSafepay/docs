@@ -27,7 +27,7 @@ You can only refund split payments (in full or in part) from the account that or
 
 To refund a split payment, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and open the **Transaction details** page.
 4. Click **Refund**.

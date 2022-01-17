@@ -22,7 +22,7 @@ MultiSafepay payment pages (URL: `payv2.multisafepay.com`):
 
 To activate payment pages, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Click the relevant website.
 4. Select the **Use new payment pages** checkbox.

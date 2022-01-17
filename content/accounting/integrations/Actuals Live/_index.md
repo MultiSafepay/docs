@@ -21,7 +21,7 @@ To connect your Actuals account to your MultiSafepay account:
 5. In the **MultiSafepay API Key** field, enter your MultiSafepay API key.
 6. Click **Save**.
 
-To check that your Actuals account is successfully connected to your MultiSafepay Account:
+To check that your Actuals account is successfully connected to your MultiSafepay account:
 
 1. Go to **Configuration**
 2. Under **In Use Sources**, check that the **Status** of your MultiSafepay configuration is **Live**.

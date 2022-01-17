@@ -3,7 +3,7 @@ title: "Activating gift cards"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating gift cards - MultiSafepay Docs"
-short_description: "Activating gift cards in your MultiSafepay account and backend"
+short_description: "Activating gift cards for your MultiSafepay account"
 layout: 'child'
 url: '/payment-methods/gift-cards/activation/'
 aliases: 
@@ -13,7 +13,7 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration:
 
 - First check that the gift card is supported.
-- Once we have activated the card in your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
+- Once we have activated the card for your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
 
 1. To check your eligibility, email <sales@multisafepay.com> 
 2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
@@ -23,6 +23,6 @@ aliases:
     - [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
     - [123TCS](https://www.123tcs.com/#Contact)
 
-4.  The issuer sends us the connection details and we activate the card in your account.
+4.  The issuer sends us the connection details and we activate the card for your account.
 
 

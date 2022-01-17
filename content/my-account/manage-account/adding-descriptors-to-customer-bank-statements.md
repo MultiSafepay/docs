@@ -15,7 +15,7 @@ You can specify how your company name appears on customer bank or credit card st
 
 To set how your company name displays, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. In the **Name** field, enter the name to display (maximum 35 characters).
 4. Click **Save**.
