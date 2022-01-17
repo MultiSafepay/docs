@@ -36,7 +36,7 @@ Applies to:
 
 - All [credit and debit cards](/payments/methods/credit-and-debit-cards/)
 - All [pay later methods](/payment-methods/pay-later/)
-- All [wallets](/payment-methods/wallet/), except [PayPal](/payment-methods/paypal/)
+- All [wallets](/payment-methods/wallets/), except [PayPal](/payment-methods/paypal/)
 
 Email a request to <sales@multisafepay.com>
 

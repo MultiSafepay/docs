@@ -21,13 +21,7 @@
           "pattern": "https://www.mijnwebwinkel.nl/beheer/payment/sorting"
         },
         {
-          "pattern": "https://lightspeed.multisafepay.com/changelog&#39;"
-        },
-        {
           "pattern": "https://www.shopware.com/en/pricing"
-        },
-        {
-          "pattern": "https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md&#39;"
         },
         {
           "pattern": "https://eur-lex.europa.eu/legal-content/EN/TXT/.*"
@@ -46,8 +40,15 @@
         },
         {
           "pattern": "https://yourdomain.webshop.com.*"
+        },
+        {
+          "pattern": "https://support.cloudflare.com/hc/en-us/articles.*"
+        },
+        {
+          "pattern": "https://support.ecwid.com/.*"
         }
       ],
+    "timeout": "60s",
     "retryOn429": true,
     "aliveStatusCodes": [200, 206, 999]
 }

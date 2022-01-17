@@ -3,7 +3,7 @@ title : "MultiSafepay app for Lightspeed"
 meta_title: "Lightspeed app - MultiSafepay Docs"
 faq: "."
 changelog_url: '.'
-changelog: 'https://lightspeed.multisafepay.com/changelog'
+changelog: https://lightspeed.multisafepay.com/changelog
 layout: 'single'
 type: 'App'
 logo: "/logo/Integrations/Lightspeed.svg"

@@ -16,7 +16,7 @@ aliases:
 |   |   |  
 |---|---|
 | **Countries**  | Worldwide  | 
-| **Currencies**  | [Multiple](https://developer.paypal.com/docs/payouts/reference/country-and-currency-codes/) | 
+| **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
 | **Chargebacks**  | Yes – See [Chargebacks](/payments/chargebacks/).  |
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an [eCheck](https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082). {{< br >}} To avoid PayPal cancelling the refund, in your PayPal account authorize PayPal to withdraw funds from another bank account instead. {{< br >}} For support, contact PayPal – [Help Center Home](https://www.paypal.com/us/smarthelp/home). | 
 | **Payment features** | [Second Chance](/features/second-chance/) |
