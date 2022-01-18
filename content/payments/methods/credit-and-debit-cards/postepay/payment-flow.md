@@ -54,7 +54,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | 3D Secure authorization was sucessful, but the transaction is flagged for potential fraud risk. [Manually capture or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
-| Payment wasn't captured manually or within 7 days. | Void | Void |
+| Payment wasn't captured manually or within 5 days. | Void | Void |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 | 3D Secure authorization failed or was cancelled, and the transaction was declined. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
 
