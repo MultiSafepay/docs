@@ -48,9 +48,6 @@
         "pattern": "https://media\\.multisafepay\\.com.*"
       },
       {
-        "pattern": "^/payments/methods/billing-suite/klarna/user-guide/supported-addresses/.*"
-      },
-      {
         "pattern": "https://support\\.ecwid\\.com/.*"
       },
       {
