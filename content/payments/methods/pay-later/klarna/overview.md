@@ -25,6 +25,10 @@ aliases:
 {{< blue-notice >}}**Recent changes** {{< br >}} - Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. {{< br >}} - Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. {{< br >}} 
 For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). {{< /blue-notice >}}
 
+## Notes
+
+The customer's billing and shipping addresses must be the **same**.
+
 ## See also 
 
 [Gift cards and pay later methods](/payment-methods/gift-cards/pay-later-methods/)
