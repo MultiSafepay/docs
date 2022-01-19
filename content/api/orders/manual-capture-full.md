@@ -45,24 +45,25 @@ The amount the customer needs to pay in the currency's smallest unit:
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
 
-For full captures, you can omit the attribute or specify the original amount.
+You can omit this, or specify the original amount.
 
 ----------------
 `new_order_id` | string | optional
 
-Your unique identifier for the order.  
+Your unique identifier for the full capture order.  
 Format: Maximum 50 characters.    
 
 ----------------
 `new_order_status` | string | required
 
-The updated status of the order. 
+The status of the full capture order. 
+Options: `initialized`, `cancelled`, `completed`, `refunded`, `declined`, `expired`, `reserved`, `shipped`, `uncleared`, `void`
 
 ----------------
 `invoice_id` | string | optional
 
-Update an existing order with a reference to your internal invoice ID.  
-The invoice ID is added to [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.  
+Your unique identifier for the invoice.  
+The invoice ID appears in [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.  
 Format: Maximum 50 characters.  
 
 ----------------
