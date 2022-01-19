@@ -23,7 +23,7 @@ You can manually generate a link to a [MultiSafepay payment page](/payment-pages
 
 ## Payment methods
 
-All payment methods are supported except Paysafecard, in3, Betaal per Maand, Pay After Delivery, Klarna, and AfterPay. 
+All payment methods are supported. 
 
 The payment page displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
 
