@@ -69,12 +69,12 @@ Format: Maximum 50 characters.
 ----------------
 `tracktrace_code` | string | optional
 
-The track and trace code linked to the shipment of the order.
+The track and trace code provided by the shipping company.
 
 ----------------
 `carrier` | string | optional
 
-The name of the shipping company delivering the customer’s order.
+The name of the shipping company.
 
 ----------------
 `reason` | string | optional
