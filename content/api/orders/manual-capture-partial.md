@@ -45,7 +45,7 @@ The amount to charge in the currency's smallest unit:
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
 
-For partial captures, specify the amount to capture.
+Specify the amount to capture.
 
 ----------------
 `new_order_id` | string | optional
@@ -56,13 +56,14 @@ Format: Maximum 50 characters.
 ----------------
 `new_order_status` | string | required
 
-The updated status of the order.
+The status of the order.
+Options: `initialized`, `cancelled`, `completed`, `refunded`, `declined`, `expired`, `reserved`, `shipped`, `uncleared`, `void`
 
 ----------------
 `invoice_id` | string | optional
 
-Update an existing order with a reference to your internal invoice ID.  
-The invoice ID is added to [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.  
+Your unique identifier for the invoice.  
+The invoice ID appears in [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.  
 Format: Maximum 50 characters.  
 
 ----------------
