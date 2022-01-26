@@ -1322,7 +1322,7 @@ To test Apple Pay, see [Testing](/payment-methods/apple-pay/integration-testing/
 
 {{< details title="Google Pay" >}}
 
-To test Google Pay, see [Testing](/payment-methods/google-pay/integration-testing/#testing).
+To test Google Pay, see [Testing Google Pay](/payment-methods/google-pay/integration-testing/#testing).
 
 {{< /details >}}
 
