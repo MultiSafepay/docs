@@ -13,7 +13,7 @@ meta_title: "API reference - Redirect: Flexible 3D disabled - MultiSafepay Docs"
   "order_id":"my-order-id-1",
   "currency":"EUR",
   "amount":100,
-  "description":"test product description",
+  "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",

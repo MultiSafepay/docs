@@ -13,7 +13,7 @@ meta_title: "API reference - Direct: Flexible 3D disabled - MultiSafepay Docs"
   "order_id":"my-test-order-01",
   "currency":"EUR",
   "amount":100,
-  "description":"test product description",
+  "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
@@ -57,7 +57,7 @@ meta_title: "API reference - Direct: Flexible 3D disabled - MultiSafepay Docs"
     "created":"2019-05-16T10:51:54",
     "currency":"EUR",
     "amount":100,
-    "description":"test product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,

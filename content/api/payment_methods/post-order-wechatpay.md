@@ -109,7 +109,7 @@ meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
       "state": null,
       "zip_code": "1033SC"
     },
-    "description": "product description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -130,7 +130,7 @@ meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
         "account_id": "wx<string>",
         "amount": 1000,
         "currency": "EUR",
-        "description": "product description",
+        "description": "Test order description",
         "external_transaction_id": "wx<string>",
         "payment_description": "WeChat Pay",
         "status": "initialized",

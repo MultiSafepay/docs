@@ -12,7 +12,7 @@ meta_title: "API reference - costs (object) - MultiSafepay Docs"
     {
       "transaction_id":123456789,
       "amount":0.19,
-      "description":"Refund order 258655825 for TEST TEST",
+      "description":"Refund order 258655825 for Test",
       "type":"internal",
       "created":"2019-03-01T16:14:02",
       "status":"completed"

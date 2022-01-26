@@ -12,7 +12,7 @@ meta_title: "API reference - Credit card Server to Server requests - MultiSafepa
   "currency":"EUR",
   "amount":1000,
   "gateway":"CREDITCARD",
-  "description":"product description",
+  "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
@@ -81,7 +81,7 @@ meta_title: "API reference - Credit card Server to Server requests - MultiSafepa
       "phone1":"0208500500",
       "zip_code":"1033SC"
     },
-    "description":"product description",
+    "description":"Test order description",
     "fastcheckout":"NO",
     "financial_status":"initialized",
     "items":null,
@@ -103,7 +103,7 @@ meta_title: "API reference - Credit card Server to Server requests - MultiSafepa
         "amount":1000,
         "card_expiry_date":2512,
         "currency":"EUR",
-        "description":"Product Description",
+        "description":"Test order description",
         "external_transaction_id":"6652390295520298",
         "last4":4444,
         "payment_description":"MasterCard",

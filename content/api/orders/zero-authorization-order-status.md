@@ -40,7 +40,7 @@ meta_title: "API reference - Get zero authorization order details - MultiSafepay
       "state":"NH",
       "zip_code":"1033SC"
     },
-    "description":"MultiSafepay Test",
+    "description":"Zero Authorization Test",
     "fastcheckout":"NO",
     "financial_status":"completed",
     "items":null,
@@ -62,7 +62,7 @@ meta_title: "API reference - Get zero authorization order details - MultiSafepay
         "amount":9743,
         "card_expiry_date":2203,
         "currency":"EUR",
-        "description":"MultiSafepay Test",
+        "description":"Zero Authorization Test",
         "external_transaction_id":234374824,
         "last4":0,
         "payment_description":"Visa CreditCards",

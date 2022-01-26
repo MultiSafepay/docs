@@ -58,7 +58,7 @@ meta_title: "API reference - Get order details - MultiSafepay Docs"
       {
         "transaction_id":123456789,
         "amount":0.19,
-        "description":"Refund order 258655825 for TEST TEST",
+        "description":"Refund order 258655825 for Test",
         "type":"internal",
         "created":"2019-03-01T16:14:02",
         "status":"completed"
@@ -78,7 +78,7 @@ meta_title: "API reference - Get order details - MultiSafepay Docs"
         ],
         "created":"2019-03-01T16:14:02",
         "currency":"EUR",
-        "description":"Refund order 258655825 for TEST TEST",
+        "description":"Refund order 258655825 for Test",
         "modified":"2019-03-01T16:14:02",
         "status":"completed",
         "transaction_id":123456789

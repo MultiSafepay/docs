@@ -13,7 +13,7 @@ meta_title: "API reference - 3D enabled requests - MultiSafepay Docs"
   "order_id":"order-1",
   "currency":"EUR",
   "amount":1000,
-  "description":"product description",
+  "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",

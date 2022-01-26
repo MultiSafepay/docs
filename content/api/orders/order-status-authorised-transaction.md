@@ -1,6 +1,6 @@
 ---
 weight: 222
-meta_title: "API reference - Set order status of authorized transaction - MultiSafepay Docs"
+meta_title: "API reference - Fetch order status of authorized transaction - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -73,7 +73,7 @@ meta_title: "API reference - Set order status of authorized transaction - MultiS
         "amount":9743,
         "card_expiry_date":4412,
         "currency":"EUR",
-        "description":"MultiSafepay Test",
+        "description":"Zero Authorization Test",
         "external_transaction_id":234374824,
         "last4":1111,
         "payment_description":"Visa CreditCards",
@@ -86,7 +86,7 @@ meta_title: "API reference - Set order status of authorized transaction - MultiS
 ```
 {{< /code-block >}}
 {{< description >}}
-### Set order status of authorized transaction
+### Fetch order status of authorized transaction
 
 **Parameter**
 

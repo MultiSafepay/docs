@@ -12,7 +12,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": "10000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "gateway_info": {
     "birthday": "1980-01-30",
@@ -109,7 +109,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": "10000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "gateway_info": {
     "birthday": "1980-01-30",
@@ -258,7 +258,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
       "state": null,
       "zip_code": "2521VA"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "uncleared",
     "items": "...",
@@ -283,7 +283,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
       {
         "amount": 10000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "payment_description": "Einvoice",
         "status": "uncleared",
         "type": "EINVOICE"

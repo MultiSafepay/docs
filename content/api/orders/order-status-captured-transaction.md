@@ -1,6 +1,6 @@
 ---
 weight: 223
-meta_title: "API reference - Set order status of captured transaction - MultiSafepay Docs"
+meta_title: "API reference - Fetch order status of captured transaction - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -82,7 +82,7 @@ meta_title: "API reference - Set order status of captured transaction - MultiSaf
 ```
 {{< /code-block >}}
 {{< description >}}
-### Set order status of captured transaction
+### Fetch order status of captured transaction
 
 **Parameter**
 
