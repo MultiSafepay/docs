@@ -24,13 +24,17 @@ aliases:
 
 Ecwid has developed an integration with MultiSafepay, which redirects customers to a [MultiSafepay payment page](/payment-pages/).
 
-### Requirements
+{{< details title="Requirements" >}}
 
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
-### Support
+{{< /details >}}
+
+{{< details title="Support" >}}
 
 Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
+
+{{< /details >}}
 
 {{< details title="Supported payment methods" >}}
 

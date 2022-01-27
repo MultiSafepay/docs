@@ -27,14 +27,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your OsCommerce webshop.
 
-{{< details title="Test environment" >}}
-
-We recommend first installing the plugin in a test environment following the recommended OsCommerce installation procedure. Make sure you have made a backup.
-
-Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 
 For support, contact OsCommerce.
@@ -107,11 +99,18 @@ Contact MultiSafepay:
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended OsCommerce installation procedure. Make sure you have made a backup. 
+
+Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
+
+{{< /blue-notice >}}
+
 1. Unpack the content of the .ZIP file in the root of your webshop.
 2. Sign in to your OsCommerce [backend](/glossaries/multisafepay-glossary/#backend).
 3. Go to **Modules** > **Payment**.
