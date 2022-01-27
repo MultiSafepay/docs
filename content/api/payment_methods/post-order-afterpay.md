@@ -14,7 +14,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -116,7 +116,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",

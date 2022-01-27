@@ -24,12 +24,6 @@ aliases:
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Shopify webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended Shopify installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 
 Contact us:
@@ -120,6 +114,8 @@ Payments are processed in the webshop's default currency only.
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Shopify installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
 
 1. To install payment methods, use the relevant links above. For each, click the **Install** button on the bottom right.
 2. Sign in to your Shopify [backend](/glossaries/multisafepay-glossary/#backend).

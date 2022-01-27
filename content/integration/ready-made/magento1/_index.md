@@ -31,11 +31,6 @@ You can also install the plugin via .ZIP file upload in Connect.
 
 MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Magento 1 installation procedure. Make sure you have made a backup.
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp; 
 Contact us:
@@ -117,11 +112,14 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Magento 1 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
  1. Unpack the content of the .ZIP file in the root of your webshop.
  2. Sign in to your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend).
  3. Go to **System** > **Configuration** > **Cache**. 

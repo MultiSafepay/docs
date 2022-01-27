@@ -39,7 +39,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 ```
 > JSON response
 
-```shell
+```json
 {
   "success":true,
   "data":{
@@ -48,7 +48,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
     "created":"2017-08-07T10:07:07",
     "currency":"EUR",
     "amount":100000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,
@@ -119,7 +119,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 ```
 > JSON response
 
-```shell
+```json
 {
   "success":true,
   "data":{
@@ -128,7 +128,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
     "created":"2017-08-07T10:07:07",
     "currency":"EUR",
     "amount":100000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,

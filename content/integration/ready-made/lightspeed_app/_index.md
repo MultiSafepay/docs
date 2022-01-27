@@ -27,14 +27,6 @@ This technical manual is for installing and configuring our free app for integra
 
 For our deprecated Lightspeed core integration, see [Lightspeed core](/ecommerce-platforms/lightspeed-core/).
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended Lightspeed installation procedure. Make sure you have made a backup.
-
-This app is tested using the default one-step and one-page checkout using the default theme.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp;  
 Contact us:
@@ -131,8 +123,11 @@ All payment methods still work if you don't use the Javascript files.
 
 {{< /details >}}
 
-
 ## Installation 
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Lightspeed installation procedure. Make sure you have made a backup.
+
+This app is tested using the default one-step and one-page checkout using the default theme. {{< /blue-notice >}}
 
 1. Sign in to your Lightspeed [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Apps** on the left-hand side of the dashboard.

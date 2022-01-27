@@ -14,7 +14,7 @@ meta_title: "API reference - 3D disabled or non-3D requests - MultiSafepay Docs"
   "order_id":"order-1",
   "currency":"EUR",
   "amount":1000,
-  "description":"product description",
+  "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
@@ -87,8 +87,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 `description` | string | required
 
 The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+Format: Maximum 200 characters.
 
 ----------------
 `payment_options` | object | required

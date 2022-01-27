@@ -26,7 +26,7 @@ We recommend redirecting customers to the `payment_url` returned in the response
 
 Otherwise, you can use the rendered HTML form returned in the response.
 
-```shell 
+```
     "customer_verification": {
          "html": "<html>\n<head>\n<title>3D Html form</title>....",
          "type": "form" 
@@ -43,8 +43,7 @@ To retrieve more information about the order, make a `GET /orders/{order_id}` re
 
 When 3D Secure verification is required, the [transaction status](/about-payments/multisafepay-statuses/) response is processed directly and no HTML form is returned.
 
-```shell 
-
+```
     "success": true,
     "data": { }
 ```
@@ -56,10 +55,9 @@ When 3D Secure verification is required, the [transaction status](/about-payment
 ## POST notifications
 Optionally, to automatically send the transaction status to the `notification_url` via a POST call (instead of the default GET method), enable POST notifications.
 
-```shell 
+```
 "payment_options": {
-    {
-        "notification_url": "https://my.notificatio.url",
+        "notification_url": "https://my.notification.url",
         "notification_method" : "POST",
         "cancel_url": null,
         "redirect_url": null,

@@ -14,7 +14,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
   "gateway":"GOOGLEPAY",
   "currency":"EUR",
   "amount":9743,
-  "description":"Test Order Description",
+  "description":"Test order description",
   "manual":false,
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
@@ -31,7 +31,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
 {
   "success": true,
   "data": {
-    "order_id": "apitool_6735216",
+    "order_id": "my-order-id-1",
     "payment_url": "https://devpayv2.multisafepay.com/connect/926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0/?lang=nl_NL",
     "session_id": "926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0"
   }
@@ -47,7 +47,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
   "gateway":"GOOGLEPAY",
   "currency":"EUR",
   "amount":1495,
-  "description":"Order Description",
+  "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
     "redirect_url":"https://www.example.com/client/notification?type=redirect",
@@ -65,7 +65,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
 {
   "success": true,
   "data": {
-    "order_id": "apitool_6735216",
+    "order_id": "my-order-id-1",
     "payment_url": "https://devpayv2.multisafepay.com/connect/926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0/?lang=nl_NL",
     "session_id": "926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0"
   }

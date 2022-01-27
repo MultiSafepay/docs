@@ -14,7 +14,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -116,7 +116,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -259,7 +259,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
       "state": null,
       "zip_code": "1234AB"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": "...",
@@ -282,7 +282,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
       {
         "amount": 10000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "9bdb61ee3f8b4acb944e392891b99a7f",
         "payment_description": "in3",
         "status": "initialized",

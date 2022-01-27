@@ -25,12 +25,6 @@ This technical manual is for installing and configuring our free plugin for inte
 
 You can also install the plugin via your Drupal 8 & 9 [backend](/glossaries/multisafepay-glossary/#backend). 
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Shopware 6 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Versions" >}}
 &nbsp;  
 Drupal no longer provides security updates for Drupal 8.9.x, and will only provide bugfix support until early 2021 and security fixes until November 2021. 
@@ -117,11 +111,14 @@ Contact us:
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Drupal 8 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 To install the latest stable version of our Drupal Commerce 2.x plugin, run the following command in your terminal:
 
 ```

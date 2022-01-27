@@ -13,7 +13,7 @@ meta_title: "API reference - Create a Pay After Delivery order - MultiSafepay Do
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": "10000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "var1": "",
   "var2": "",
   "var3": "",
@@ -128,7 +128,7 @@ meta_title: "API reference - Create a Pay After Delivery order - MultiSafepay Do
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": "10000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "items": "",
   "manual": "false",
   "gateway_info": {
@@ -288,7 +288,7 @@ meta_title: "API reference - Create a Pay After Delivery order - MultiSafepay Do
       "state": null,
       "zip_code": "1033SC"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "uncleared",
     "items": "...",
@@ -312,7 +312,7 @@ meta_title: "API reference - Create a Pay After Delivery order - MultiSafepay Do
       {
         "amount": 10000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "payment_description": "Pay after delivery",
         "status": "uncleared",
         "type": "PAYAFTER"

@@ -143,8 +143,8 @@ meta_title: "API reference - Create Bank Transfer order - MultiSafepay Docs"
       "destination_holder_swift":"DEUTNL2NXXX",
       "account_holder_country":"NL"
     },
-    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=apitool_13890779",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=apitool_13890779"
+    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=my-order-id-1"
   }
 }
 ```

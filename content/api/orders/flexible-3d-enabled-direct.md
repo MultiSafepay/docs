@@ -80,7 +80,7 @@ meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
       "phone1":"0208500500",
       "zip_code":"1033SC"
     },
-    "description":"Test Product Description",
+    "description":"Test order description",
     "fastcheckout":"NO",
     "financial_status":"initialized",
     "items":null,
@@ -102,7 +102,7 @@ meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
         "amount":10,
         "card_expiry_date":,
         "currency":"EUR",
-        "description":"Test Product Description",
+        "description":"Test order description",
         "payment_description":"MasterCard",
         "status":"initialized",
         "type":"MASTERCARD"
@@ -121,7 +121,7 @@ meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
       "type":"form"
     },
     "payment_url":"https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=apitool_"
+    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=my-order-id-1"
   }
 }
 ```
@@ -179,8 +179,7 @@ Option: `CREDITCARD`.
 `description` | string | required
 
 The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+Format: Maximum 200 characters.
 
 ----------------
 `payment_options` | object | required
