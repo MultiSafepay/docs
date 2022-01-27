@@ -26,12 +26,6 @@ aliases:
 ---
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended PrestaShop 1.7 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 
 Contact us:
@@ -129,27 +123,16 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
-{{< details title="Upgrading to version 5.x from an older version" >}}
-
-When you update from an older version of the plugin to 5.x, keep the older version installed until you are sure that orders created with the new plugin are successfully processed.
-
-## Switching to the new plugin
-
-1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**.
-2. Open the **Payment Methods** tab.
-3. Set all Payment Methods to **off**.
-4. Open the **Giftcards** tab.
-5. Set all gift cards to **off**.
-6. Install and configure the new plugin following the instructions below.
-7. Don't uninstall the older plugin until you are sure that orders created with the new plugin are successfully processed 
-
-{{< /details >}}
+{{< blue-notice >}}**Important change:** In the previous version of the plugin, PrestaShop backend orders were only created for MultiSafepay orders with **Completed** status. Now, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status. {{< /blue-notice >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended PrestaShop 1.7 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Sign in to your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
@@ -162,6 +145,12 @@ When you update from an older version of the plugin to 5.x, keep the older versi
 4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
 
+## Upgrading to version 5.x from an older version
 
+1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
+2. On the **Payment methods** tab, set all payment methods to **Off**.
+3. On the **Gift cards** tab, set all gift cards to **Off**.
+4. Install and configure the new plugin following the instructions below.
+5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
 

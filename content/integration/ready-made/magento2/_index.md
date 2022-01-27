@@ -151,7 +151,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 - [Winkelcheque](https://www.winkelcheque.nl/)
 - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 

@@ -29,12 +29,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Odoo webshop. Our plugin receives regular updates from Odoo and MultiSafepay.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Odoo installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp;  
 Contact us:
@@ -91,11 +85,14 @@ Contact us:
 - [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Odoo installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.
 3. In your Odoo server (`/mnt/extra-addons/`), under **Custom apps**, add the **payment_multisafepay_official** folder. 
