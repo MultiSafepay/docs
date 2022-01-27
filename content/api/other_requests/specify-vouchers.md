@@ -13,7 +13,7 @@ meta_title: "API reference - Specify gift cards - MultiSafepay Docs"
   "gateway": "",
   "currency": "EUR",
   "amount": "1000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",

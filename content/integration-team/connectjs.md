@@ -47,7 +47,7 @@ Example:
 ```
 {
   "type": "redirect",
-  "order_id": "apitool_461892",
+  "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 9430,
   "description": "Order with cart",

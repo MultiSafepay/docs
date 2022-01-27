@@ -15,7 +15,7 @@ url: '/api/create-direct-order/'
   "currency":"EUR",
   "amount":1000,
   "gateway":"IDEAL",
-  "description":"product description",
+  "description":"Test order description",
   "gateway_info":{
     "issuer_id":"0021"
   },
@@ -39,7 +39,7 @@ url: '/api/create-direct-order/'
     "created":"2019-03-04T13:52:07",
     "currency":"EUR",
     "amount":1000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,
