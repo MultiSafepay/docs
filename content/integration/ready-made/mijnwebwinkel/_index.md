@@ -22,11 +22,6 @@ aliases:
 ---
 This technical manual is for installing and configuring Mijnwebwinkel's free app for integrating MultiSafepay payment solutions into your webshop. 
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended Mijnwebwinkel installation procedure. Make sure you have made a backup.
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp;  
 The plugin is developed and supported by Mijnwebwinkel. See Mijnwebwinkel - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).
@@ -98,6 +93,8 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Mijnwebwinkel installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
 
 1. Sign in to your Mijwebwinkel [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.

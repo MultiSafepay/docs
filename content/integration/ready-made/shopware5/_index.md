@@ -25,12 +25,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Shopware 5 webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Shopware 5 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 
 Contact us:
@@ -110,11 +104,14 @@ Contact us:
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Shopware 5 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Sign in to your Shopware 5 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Configuration** > **Plugin manager**.
 3. Search for the MultiSafepay plugin and click **Download now**.

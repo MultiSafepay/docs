@@ -23,13 +23,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your CS-Cart webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-
-We recommend first installing the plugin in a test environment following the recommended Shopware 6 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp; 
 Contact us:
@@ -107,11 +100,14 @@ Contact us:
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended CS-Cart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
  1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
  2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
  3. Delete the `msp_installer.php` file.

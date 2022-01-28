@@ -72,7 +72,7 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
       "state": null,
       "zip_code": null
     },
-    "description": "product description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -93,7 +93,7 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
       {
         "amount": 100,
         "currency": "EUR",
-        "description": "product description",
+        "description": "Test order description",
         "external_transaction_id": 2826044090080124,
         "payment_description": "iDEAL",
         "status": "initialized",

@@ -59,6 +59,8 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
+**Note:** Amounts less than 100 EUR are completed immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
+
 ## Refund statuses
 
 | Description | Order status | Transaction status |

@@ -28,13 +28,6 @@ This technical manual is for installing and configuring our free plugin for inte
 
 For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
 
-{{< details title="Test environment" >}}
-&nbsp;  
-
-We recommend first installing the plugin in a test environment following the recommended OpenCart installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp;  
 Contact us:
@@ -113,11 +106,14 @@ Contact us:
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended OpenCart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
 3. Sign in to your OpenCart [backend](/glossaries/multisafepay-glossary/#backend), and go to **Extensions** > **Installer**.

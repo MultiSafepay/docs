@@ -26,7 +26,7 @@ try {
   "gateway":"APPLEPAY",
   "currency":"EUR",
   "amount":9743,
-  "description":"Test Order Description",
+  "description":"Test order description",
   "manual":false,
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
@@ -58,7 +58,7 @@ try {
   "gateway":"APPLEPAY",
   "currency":"EUR",
   "amount":1495,
-  "description":"Order Description",
+  "description":" Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification"
   },

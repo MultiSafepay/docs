@@ -30,12 +30,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for WooCommerce. WooCommerce is a free, open-source ecommerce platform for Wordpress.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended WooCommerce installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 
 Contact us:
@@ -116,11 +110,13 @@ Contact us:
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended WooCommerce installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
 
 There are two ways to install the plugin:
 
