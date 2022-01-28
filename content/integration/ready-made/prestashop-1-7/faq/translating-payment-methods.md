@@ -1,5 +1,5 @@
 ---
-title : "Translating the module"
+title : "Translating the MultiSafepay module"
 meta_title: "PrestaShop 1.7 - Translating the module - MultiSafepay Docs"
 read_more: "."
 url: '/prestashop-1-7/translating-the-module/'
