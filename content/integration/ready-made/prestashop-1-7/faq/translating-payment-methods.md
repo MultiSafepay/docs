@@ -1,6 +1,6 @@
 ---
 title : "Translating the MultiSafepay module"
-meta_title: "PrestaShop 1.7 - Translating the module - MultiSafepay Docs"
+meta_title: "PrestaShop 1.7 - Translating the MultiSafepay module - MultiSafepay Docs"
 read_more: "."
 url: '/prestashop-1-7/translating-the-module/'
 ---
