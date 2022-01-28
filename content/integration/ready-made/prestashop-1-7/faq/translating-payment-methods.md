@@ -13,7 +13,7 @@ To translate elements of the MultiSafepay module in the PrestaShop 1.7 plugin, f
 4. Select the **MultiSafepay** module.
 5. Select the **Language**.
 6. Click **Modify**.
-7. On this page you can make the required translations
+7. Enter the required translations.
 
 
 In the specific case of the translations of the names of the payment methods:
