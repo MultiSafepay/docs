@@ -2,7 +2,7 @@
 title : "Translating the MultiSafepay module"
 meta_title: "PrestaShop 1.7 - Translating the MultiSafepay module - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop-1-7/translating-the-module/'
+url: '/prestashop-1-7/translating-multisafepay-module/'
 ---
 To translate elements of the MultiSafepay module in the PrestaShop 1.7 plugin, follow these steps:
 
