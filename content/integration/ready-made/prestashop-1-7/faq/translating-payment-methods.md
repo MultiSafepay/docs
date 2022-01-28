@@ -6,7 +6,6 @@ url: '/prestashop-1-7/translating-multisafepay-module/'
 ---
 To translate elements of the MultiSafepay module in the PrestaShop 1.7 plugin, follow these steps:
 
-To translate the module:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Improve** > **International** > **Translations**.
