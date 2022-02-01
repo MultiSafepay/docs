@@ -255,7 +255,8 @@ MultiSafepay's identifier for the transaction (also known as the PSP ID).
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `payment_url` | string 

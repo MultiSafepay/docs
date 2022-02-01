@@ -417,7 +417,8 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object
@@ -534,7 +535,8 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object
