@@ -192,7 +192,7 @@ Contains:
 
 `flexible_3d` | boolean | required
 
-- `true`: Enables 3D Secure authetication. The payment is classified as **3D Secure Result: Enrolled Liability**.
+- `true`: Enables 3D Secure authentication. The payment is classified as **3D Secure Result: Enrolled Liability**.
 - `false`: Disables 3D Secure authentication. The payment is classified as **"Not Enrolled, Liability".**
 
 `term_url` | string | required for redirect requests
