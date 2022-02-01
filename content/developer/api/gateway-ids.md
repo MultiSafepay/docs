@@ -13,7 +13,7 @@ The table below sets out the gateway identifiers for all payment methods, and th
 | AfterPay | `AFTERPAY` | Redirect, direct |
 | Alipay | `ALIPAY` | Redirect, direct |
 | American Express | `AMEX` | Redirect |
-| Apple Pay | `APPLEPAY` | Redirect |
+| Apple Pay | `APPLEPAY` | Redirect, direct |
 | Bancontact | `MISTERCASH` | Redirect |
 | Bank Transfer | `BANKTRANS` | Redirect, direct |
 | Belfius | `BELFIUS` | Redirect, direct |
