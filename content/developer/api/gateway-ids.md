@@ -25,7 +25,7 @@ The table below sets out the gateway identifiers for all payment methods, and th
 | E-Invoicing | `EINVOICE` | Redirect, direct |
 | EPS | `EPS` | Redirect |
 | Giropay | `GIROPAY` | Redirect |
-| Google Pay | `GOOGLEPAY` | Redirect |
+| Google Pay | `GOOGLEPAY` | Redirect, direct |
 | iDEAL | `IDEAL` | Redirect, direct |
 | in3 | `IN3` | Redirect |
 | Klarna | `KLARNA` | Redirect, direct |
