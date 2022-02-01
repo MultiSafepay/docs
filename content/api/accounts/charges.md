@@ -92,7 +92,8 @@ A description of the transaction, which is displayed in both your account and th
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 **Response**
 
