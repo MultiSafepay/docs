@@ -10,7 +10,7 @@ meta_title: "API reference - Handle PANs - MultiSafepay Docs"
 {
   "type":"direct",
   "gateway":"MASTERCARD",
-  "order_id":"order-1",
+  "order_id":"my-order-id-1",
   "currency":"EUR",
   "amount":1000,
   "description":"Test order description",
