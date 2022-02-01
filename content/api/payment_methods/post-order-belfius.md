@@ -47,14 +47,11 @@ meta_title: "API reference - Create Belfius order - MultiSafepay Docs"
   "currency":"EUR",
   "amount":1000,
   "gateway":"BELFIUS",
-  "description":"Test order description",
-  "custom_info":{
-    
-  },
+  "description":"product description",
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel"
+    "notification_url":"http://10.1.10.111/testtool/client/json-test/notification?type=notification",
+    "redirect_url":"http://10.1.10.111/testtool/client/json-test/notification?type=redirect",
+    "cancel_url":"http://10.1.10.111/testtool/client/json-test/notification?type=cancel"
   }
 }
 ```
@@ -230,11 +227,6 @@ Format: Maximum 200 characters.
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
-`custom_info` | object
-
-See [custom_info (object)](/api/#custom-info-object).
-
-----------------
 `payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
@@ -274,6 +266,10 @@ The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 ----------------
 `reason` | string
 
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `fastcheckout` | string 
