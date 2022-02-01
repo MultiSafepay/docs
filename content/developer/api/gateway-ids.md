@@ -10,7 +10,7 @@ aliases:
 The table below sets out the gateway identifiers for all payment methods, and the supported [request types](/developer/direct-vs-redirect/).
 | Payment method | Gateway ID | Request type |
 |---|---|---|
-| AfterPay | `AFTERPAY` | Redirect |
+| AfterPay | `AFTERPAY` | Redirect, direct |
 | Alipay | `ALIPAY` | Redirect, direct |
 | American Express | `AMEX` | Redirect |
 | Apple Pay | `APPLEPAY` | Redirect |
