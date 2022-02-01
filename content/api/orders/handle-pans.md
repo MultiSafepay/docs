@@ -81,7 +81,7 @@ meta_title: "API reference - Handle PANs - MultiSafepay Docs"
       "state":null,
       "zip_code":"2521VA"
     },
-    "description":"product description",
+    "description":"Test order description",
     "fastcheckout":"NO",
     "financial_status":"initialized",
     "items":null,
