@@ -27,6 +27,7 @@ The table below sets out the gateway identifiers for all payment methods, and th
 | Giropay | `GIROPAY` | Redirect |
 | Google Pay | `GOOGLEPAY` | Redirect, direct |
 | iDEAL | `IDEAL` | Redirect, direct |
+| iDEAL QR | `IDEALQR` | Redirect |
 | in3 | `IN3` | Redirect |
 | Klarna | `KLARNA` | Redirect, direct |
 | Maestro | `MAESTRO` | Redirect |
