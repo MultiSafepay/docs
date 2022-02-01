@@ -86,7 +86,7 @@ meta_title: "API reference - Handle PANs - MultiSafepay Docs"
     "financial_status":"initialized",
     "items":null,
     "modified":"2022-01-31T14:37:26",
-    "order_id":"apitool_4767937",
+    "order_id":"my-order-id-1",
     "payment_details":{
       "account_holder_name":"Test Holder Name",
       "account_id":null,
