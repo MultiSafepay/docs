@@ -26,7 +26,7 @@ curl -X POST "https://api.multisafepay.com/v1/json/" \
 
 All requests to the MultiSafepay API require authentication. 
 
-Include your [website API key](/set-up-your-account/site-id-api-key-secure-code) as an HTTP header in your request: `api_key`
+Include your [website API key](/account/site-id-api-key-secure-code/) as an HTTP header in your request: `api_key`
 
 **Note**: Always keep your API keys secure. Publicly exposing your credentials can compromise your account.
 

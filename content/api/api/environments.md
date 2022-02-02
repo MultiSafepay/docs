@@ -29,7 +29,7 @@ MultiSafepay provides a:
 
 Use the test environment when developing and testing a new integration via our API. No real transactions are processed. 
 
-To start processing real transactions, just address the **live** API and update your [API key](/set-up-your-account/site-id-api-key-secure-code).
+To start processing real transactions, just address the **live** API and update your [API key](/account/site-id-api-key-secure-code/).
 
 
 {{% /description %}}

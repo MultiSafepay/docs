@@ -68,7 +68,7 @@ As a partner or primary account holder, use this endpoint to pay out funds from 
 
 By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email <sales@multisafepay.com>
 
-For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/account/site-id-api-key-secure-code/). 
 
 **Parameters**
 
