@@ -3,6 +3,7 @@ title: "Actuals"
 weight: 20
 meta_title: "Actuals IO - MultiSafepay Docs"
 logo: '/svgs/actuals-io.svg'
+url: '/accounting/integrations/actuals-live/'
 layout: 'single'
 aliases:
     - /tools/accounting/accounting-integrations/actuals-live/
