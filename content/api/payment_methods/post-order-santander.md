@@ -191,7 +191,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-Valuegateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `SANTANDER`.
 
 ----------------
@@ -309,7 +309,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-Valuegateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `SANTANDER`.
 
 ----------------
