@@ -134,7 +134,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
     - Account ID
-    - [Site ID, API key, and secure code](/set-up-your-account/site-id-api-key-secure-code)
+    - [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/)
     - Gateway ID  
 
 
