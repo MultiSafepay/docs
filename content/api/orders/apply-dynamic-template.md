@@ -134,15 +134,15 @@ meta_title: "API reference - Apply dynamic template - MultiSafepay Docs"
 To apply a template to the [MultiSafepay payment page](/payment-pages/), include in the transaction request:
 
 - The `template_id` of a template within your MultiSafepay dashboard, **or**
-- A template object structure. 
+- A `template` object. 
 
-If you provide both, the template object is primary.
+If you provide both, `template` is used.
 
-**Template object structures**
+**Template object**
 
-The template object structure must include full JSON CSS parameters. If you only send partial CSS settings, the parameter you send overrides the default MultiSafepay template.
+The `template` object must include full JSON CSS parameters. If you only send partial CSS settings, the parameter you send overrides the default MultiSafepay template.
 
-When sending images in the template structure for the logo and header, you must use HTTPS, otherwise they will be ignored.
+When sending images in the template structure for the logo and header, you must use HTTPS, otherwise the images are ignored.
 
 **Parameters**
 
