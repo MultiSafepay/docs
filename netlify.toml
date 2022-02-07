@@ -10,3 +10,12 @@
 
   # Default build command.
   command = "npm run hugo:build"
+
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['main']
+  disabled = true
+  pathPrefix = ""
+  customDomain = "docs.multisafepay.com"
+  renderJavaScript = true
