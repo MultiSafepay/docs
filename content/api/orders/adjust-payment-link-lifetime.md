@@ -37,11 +37,9 @@ aliases:
 {{< description >}}
 ### Adjust session lifetimes
 
-The lifetime of a session determines how long the customer can access the MultiSafepay payment page and complete payment. 
+The lifetime of a MultiSafepay payment page session determines how long the customer can access the page and complete payment. This therefore applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only.
 
 The lifetime begins when the payment link is generated. A `session_id` is returned in the payment page URL. The default lifetime is 30 days, after which the link expires.
-
-This applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only.  
 
 To manually cancel a session, see [Cancel an order](/api/#cancel-an-order).
 
