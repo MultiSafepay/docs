@@ -61,7 +61,7 @@ const orderData = {
 
 {{< details title="Processing recurring payments" >}}
 
-[Recurring payments](/payments/features/tokenization/) let you store a customer’s payment details as a secure, encrypted token.
+[Recurring Payments](/payments/features/tokenization/) is a feature that lets you store a customer’s payment details as a secure, encrypted token.
 
 Upon subsequent payments, customers can select their stored payment details and pay with a single click.
 
@@ -85,7 +85,7 @@ const orderData = {
 };
 ```
 
-Recurring payments are supported for all credit card payments.
+Recurring Payments are supported for all credit card payments.
 
 **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/testing/test-payment-details/#credit-and-debit-cards).
 

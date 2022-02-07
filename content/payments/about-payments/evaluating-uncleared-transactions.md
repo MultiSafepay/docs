@@ -1,8 +1,8 @@
 ---
-title : "Evaluating uncleared transactions"
+title : "Uncleared credit card payments"
 weight: 30
-meta_title: "Evaluating uncleared transactions - MultiSafepay Docs"
-short_description: "Review and evaluate transactions that our automated fraud filter has placed on hold."
+meta_title: "Uncleared credit card payments - MultiSafepay Docs"
+short_description: "Review credit card payments flagged by our automated fraud filter."
 read_more: "."
 url: '/about-payments/uncleared-transactions/'
 aliases: 

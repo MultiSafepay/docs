@@ -1,6 +1,6 @@
 ---
 weight: 224
-meta_title: "API reference - Recurring payments orders - MultiSafepay Docs"
+meta_title: "API reference - Recurring Payments orders - MultiSafepay Docs"
 
 ---
 
@@ -9,9 +9,9 @@ meta_title: "API reference - Recurring payments orders - MultiSafepay Docs"
 
 {{< description >}}
 
-## Recurring payments orders
+## Recurring Payments orders
 
-[Recurring payments](/features/recurring-payments) is the process of storing payment details from an initial transaction as encrypted tokens for subsequent payments.
+[Recurring Payments](/features/recurring-payments) is a feature that involves storing payment details from an initial transaction as encrypted tokens for subsequent payments.
 
 This section lists the API requests and parameters for:
 

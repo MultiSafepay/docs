@@ -1,6 +1,6 @@
 ---
-weight: 229
-meta_title: "API reference - Handle PANs - MultiSafepay Docs"
+weight: 314
+meta_title: "API reference - Credit card – direct - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -92,11 +92,11 @@ meta_title: "API reference - Handle PANs - MultiSafepay Docs"
       "account_id":null,
       "card_expiry_date":2512,
       "external_transaction_id":null,
-      "last4":1442,
+      "last4":4444,
       "recurring_flow":null,
       "recurring_id":null,
       "recurring_model":null,
-      "type":"MAESTRO"
+      "type":"MASTERCARD"
     },
     "payment_methods":[
       {
@@ -105,9 +105,9 @@ meta_title: "API reference - Handle PANs - MultiSafepay Docs"
         "card_expiry_date":2512,
         "currency":"EUR",
         "description":"product description",
-        "payment_description":"Maestro",
+        "payment_description":"MASTERCARD",
         "status":"initialized",
-        "type":"MAESTRO"
+        "type":"MASTERCARD"
       }
     ],
     "reason":"",
@@ -126,26 +126,15 @@ meta_title: "API reference - Handle PANs - MultiSafepay Docs"
   }
 }
 ```
-
-```
-> JSON response    
-> When no 3D verification is required, the [transaction status](/about-payments/multisafepay-statuses/) response will be processed directly and no form will be sent.
-
-```json 
-{
-  "success":true,
-  "data":{
-    ...
-  }
-}
-```
 {{< /code-block >}}
 
 {{< description >}}
 
-## Handle PANs 
+### Credit card – direct 
 
-See [Handle PANs](/features/handle-pans/). 
+**Note:** To make credit card – direct requests, you need to handle cardholder data on your server, which requires PCI DSS certification. Instead, we recommend accepting credit card payments using a [MultiSafepay payment page](/payment-pages/) or [Payment Component](/payment-components/). 
+
+See [Handling cardholder data](/about-payments/handling-cardholder-data/). 
 
 **Parameters**
 
@@ -159,7 +148,7 @@ Options: `direct`.
 `gateway` | string | required
 
 The unique gateway identifier for the payment method.  
-Options: `VISA`, `MASTERCARD`, `AMEX`, `MAESTRO`, `CREDITCARD`. 
+Options: `AMEX`, `CREDITCARD`, `MAESTRO`, `MASTERCARD`, `MISTERCASH` (Bancontact), `VISA`. 
 
 ----------------
 `order_id` | string | required
@@ -176,7 +165,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:  
+The payment amount in the currency's smallest unit:  
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10 
@@ -184,7 +173,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The description of the customer's order. This appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+The description of the customer's order. Also appears on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.
 
 ----------------

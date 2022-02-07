@@ -1,10 +1,10 @@
 ---
-title: 'Split payments'
-weight: 40
+title: 'Split Payments'
+weight: 20
 layout: 'single'
-meta_title: "Split payments - MultiSafepay Docs"
+meta_title: "Split Payments - MultiSafepay Docs"
 logo: '/svgs/Split payments.svg'
-short_description: 'Split funds to different bank accounts based on percentage or fixed amount.'
+short_description: 'Split funds between your partner/primary account and affiliated merchants.'
 url: '/features/split-payments/'
 aliases:
     - /tools/split-payments/about-split-payments/
@@ -15,14 +15,14 @@ aliases:
     - /tools/split-payments/how-do-i-refund-split-payment-orders
     - /payments/features/split-payments/
 ---
-Split payments lets you divide an incoming transaction amount between two or more [partner](/account/account-types/) or [affiliate](/account/account-types/) accounts, e.g. as a fee for using your platform.
+Split Payments lets you divide an incoming transaction amount between two or more [partner](/account/account-types/) or [affiliate](/account/account-types/) accounts, e.g. as a fee for using your platform.
 
 
 You can split payments by percentage, a fixed amount, or by both. 
 
-See API reference – [Split payments orders](/api/#split-payments-orders).
+See API reference – [Split Payments orders](/api/#split-payments-orders).
 
-## Refunding split payments
+## Refunds
 You can only refund split payments (in full or in part) from the account that originally received the funds and then split them to other accounts. 
 
 To refund a split payment, follow these steps:
@@ -40,5 +40,5 @@ When the transaction status changes to **Completed**, the refund has been proces
 
 To refund more than the original amount, see [Refunds](/payments/refunds/).
 
-**Note:** Split payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations).
+**Note:** Split Payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations).
 

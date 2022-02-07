@@ -65,7 +65,7 @@ These features are based on [recurring payments](/features/recurring-payments/).
 ### Obsolete features
 Features that are no longer available:
 
-- Recurring payments – replaced by Magento Vault and Instant Purchase
+- Recurring Payments – replaced by Magento Vault and Instant Purchase
 - FastCheckout – no longer supported
 - PWA (REST) endpoints – replaced by GraphQL endpoints
 
