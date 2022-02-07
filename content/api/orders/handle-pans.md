@@ -1,6 +1,6 @@
 ---
 weight: 229
-meta_title: "API reference - Self-hosted credit card payments - MultiSafepay Docs"
+meta_title: "API reference - Handle PANs - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -143,9 +143,9 @@ meta_title: "API reference - Self-hosted credit card payments - MultiSafepay Doc
 
 {{< description >}}
 
-## Self-hosted credit card payments 
+## Handle PANs 
 
-See [Self-hosted credit card payments](self-hosted-credit-card-payments).
+See [Handle PANs](/features/handle-pans/). 
 
 **Parameters**
 
