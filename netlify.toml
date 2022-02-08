@@ -15,7 +15,7 @@
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['master']
-  disabled = true
+  disabled = false
   pathPrefix = ""
   customDomain = "docs.multisafepay.com"
   renderJavaScript = true
