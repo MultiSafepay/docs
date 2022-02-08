@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Kris-MultiSafepay/docs#readme",
   "devDependencies": {
-    "hugo-bin": "^0.79.2"
+    "hugo-bin": "^0.79.2",
+    "semver-regex": ">=3.1.3"
   }
 }
