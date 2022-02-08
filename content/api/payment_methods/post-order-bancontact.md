@@ -96,6 +96,8 @@ See [payment_options (object)](/api/#payment-options-object).
 
 See [customer (object)](/api/#customer-object).
 
+**Note**: You need to set `customer.country` to `BE`.
+
 **Response**
 
 ----------------
