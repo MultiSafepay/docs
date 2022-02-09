@@ -28,8 +28,7 @@ When you accept credit and debit card payments using a [MultiSafepay payment pag
 
 We bear the risk and responsibility for [PCI&nbsp;DSS compliance](/payment-regulations/pci-dss/). 
 
-Alternatively, you can collect cardholder data through other means. Because you will handle sensitive cardholder data on your server before sending it to MultiSafepay, you must also have PCI DSS certification. 
-
+Alternatively, you can collect cardholder data through other means. Because you handle sensitive data on your server before sending it to MultiSafepay, you must also have PCI DSS certification. 
 
 You are responsible for arranging certification, which is a complex, time-consuming, and expensive process. Consider carefully if this makes sense for your business model. 
 
@@ -37,7 +36,7 @@ For more information and advice, email <sales@multisafepay.com>
 
 ## Activation
 
-**1.** To check your eligibility to handle cardholder data with MultiSafepay, email <sales@multisafepay.com>
+**1.** To check your eligibility to use this feature, email <sales@multisafepay.com>
 
 **2.** We check your account and company performance.
 
