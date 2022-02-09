@@ -1,11 +1,10 @@
 ---
-title: 'Recurring payments'
-weight: 30
-meta_title: "Recurring payments - MultiSafepay Docs"
+title: 'Recurring Payments'
+weight: 10
+meta_title: "Recurring Payments - MultiSafepay Docs"
 layout: 'single'
-
 logo: '/svgs/Tokenization.svg'
-short_description: 'Store payment details to make checkout more convenient.'
+short_description: 'Boost conversion and manage subscriptions using tokenization.'
 url: '/features/recurring-payments/'
 aliases: 
     - /tools/tokenization/how-do-i-get-tokenization/
@@ -138,7 +137,7 @@ MultiSafepay offers three recurring models:
 Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
 
 ## Via our API
-See API reference – [Recurring payments](/api/#recurring-payments-orders).
+See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
 

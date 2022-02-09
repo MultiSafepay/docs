@@ -5,7 +5,7 @@ layout: 'block'
 meta_title: 'Payment features - MultiSafepay Docs'
 logo: '/svgs/Recurring payments.svg'
 short_description: 'From split payments to recurring payments, and special credit card features.'
-weight: 20
+weight: 40
 url: '/payment-features/'
 aliases:
     - /payments/features/

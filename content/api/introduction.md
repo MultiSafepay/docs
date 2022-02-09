@@ -31,8 +31,8 @@ You can use our API, for example, to:
 
 Advanced requests include:
 
-- [Split payments](#split-payments-orders)
-- [Recurring payments](#recurring-payments-orders)
+- [Split Payments](#split-payments-orders)
+- [Recurring Payments](#recurring-payments-orders)
 - [Accounts](#accounts)
 - [Payouts](#payouts)
 

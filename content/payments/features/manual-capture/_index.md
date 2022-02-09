@@ -1,8 +1,7 @@
 ---
 title: 'Manual Capture'
-weight: 70
+weight: 60
 meta_title: "Manual Capture - MultiSafepay Docs"
-
 layout: "single"
 logo: '/svgs/Manual_capture.svg'
 url: '/features/manual-capture/'

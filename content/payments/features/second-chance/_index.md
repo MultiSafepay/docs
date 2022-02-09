@@ -1,10 +1,10 @@
 ---
 title: 'Second Chance'
-weight: 10
+weight: 30
 meta_title: "Second Chance - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/Second Chance.svg'
-short_description: 'Send customers a friendly reminder to complete payments'
+short_description: 'Boost conversion by sending customers reminders about abandoned payments.'
 url: '/features/second-chance/'
 aliases:
     - /tools/second-chance/about-second-chance/
@@ -63,7 +63,7 @@ The Second Chance email template is completely customizable. Follow these steps:
 6. From the **Language** dropdown menu, select the relevant language.
 7. Click **Load default template**.
 
-For how to customize the template, see [Email templates](/features/email-templates/).
+For how to customize the template, see [Email Templates](/features/email-templates/).
 
 ## Potential errors
 

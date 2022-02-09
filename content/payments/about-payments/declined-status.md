@@ -1,9 +1,9 @@
 ---
-title : "Declined status"
-weight: 50
-meta_title: "Declined status - MultiSafepay Docs"
+title : "Declined credit card payments"
+weight: 70
+meta_title: "Declined credit card payments - MultiSafepay Docs"
 read_more: "."
-short_description: "Reasons why credit card transactions may be declined"
+short_description: "Understanding why credit card payments may be declined."
 url: '/about-payments/declined-status/'
 aliases: 
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
@@ -13,7 +13,7 @@ aliases:
     - /credit-cards-user-guide/declined-status/
 ---
 
-The table below shows possible reasons for the **Declined** status, which may appear in the relevant **Transaction details** page in your MultiSafepay dashboard. 
+The table below shows possible reasons why a credit card payment may be declined. 
 
 Only the customer can contact their credit card issuer to find out the specific reason.
 
@@ -25,7 +25,5 @@ Only the customer can contact their credit card issuer to find out the specific 
 | Declined | Expired card | The credit card has expired. |
 | Declined | Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
 | Declined | Merchant only accepts 3D Secure-verified cards | Email a request to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
-
-For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 For any questions, email the Support Team at <support@multisafepay.com>
