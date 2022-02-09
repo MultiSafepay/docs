@@ -1,6 +1,6 @@
 ---
 weight: 236
-meta_title: "API reference - Split payments - MultiSafepay Docs"
+meta_title: "API reference - Split Payments - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -84,12 +84,12 @@ Split by percentage and fixed amount
 {{< /code-block >}}
 
 {{< description >}}
-## Split payments orders
+## Split Payments orders
 Split the amount of a transaction between partner or affiliate accounts by a percentage, a fixed amount, or both.
 
 {{< alert-notice >}}**Important:** If splitting by both, never give a 0 value for the percentage or the fixed amount.  {{< /alert-notice >}}
 
-See [Split payments](/features/split-payments/).
+See [Split Payments](/features/split-payments/).
 
 **Parameters**
 

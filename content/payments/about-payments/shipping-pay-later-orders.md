@@ -1,7 +1,7 @@
 ---
-title: "Shipped status for pay later methods"
-weight: 40
-meta_title: "Shipped status for pay later methods - MultiSafepay Docs"
+title: "Shipping pay later orders"
+weight: 50
+meta_title: "Shipping pay later orders - MultiSafepay Docs"
 read_more: "."
 url: '/about-payments/pay-later-shipped-status/'
 ---

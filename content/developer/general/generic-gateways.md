@@ -15,7 +15,7 @@ Some of our ready-made integrations use a generic gateway, which redirects custo
 Generic gateways support:
 
 - All payment methods
-- All [payment features](/payment-features/), except [Recurring payments](/features/recurring-payments/)
+- All [payment features](/payment-features/), except [Recurring Payments](/features/recurring-payments/)
 - [Redirect requests](/developer/api/difference-between-direct-and-redirect/) only
 
 Using a generic gateway means you don't need to update your integration when we add new payment methods. 

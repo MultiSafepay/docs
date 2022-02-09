@@ -1,6 +1,6 @@
 ---
-weight: 231
-meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
+weight: 217
+meta_title: "API reference - Flexible 3D - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -10,10 +10,10 @@ meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
 ```json 
 {
   "type":"direct",
+  "gateway":"CREDITCARD",
   "order_id":"my-order-id-1",
   "currency":"EUR",
   "amount":10,
-  "gateway":"CREDITCARD",
   "description":"Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
@@ -47,9 +47,7 @@ meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
 }
 ```
 
-
 > JSON response
-
 
 ```json
 {
@@ -129,17 +127,13 @@ meta_title: "API reference - Direct: Flexible 3D enabled - MultiSafepay Docs"
 
 {{< description >}}
 
-### Direct: Flexible 3D enabled
+## Flexible 3D orders
+
+{{< alert-notice >}} We no longer support Flexible 3D for merchants based in Europe due to PSD2 regulations. {{< /alert-notice >}}
 
 Use [Flexible 3D](/payments/features/flexible-3ds/) to set whether or not to complete the transaction with [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/) verification.
 
-To enable 3D Secure, in the `POST /orders` request > `gateway_info` object, set the `flexible_3d` parameter to `true`.
-
-**Notes:**  
-
-- Activating Flexible 3D Secure overrides Dynamic 3D settings, so that payments are not enrolled with a 3D authentication.
-
-- We no longer support [Flexible 3D](https://docs.multisafepay.com/tools/flexible_3d) for merchants based in Europe due to PSD2 regulations.
+Activating Flexible 3D overrides [Dynamic 3D](/features/3d-secure/dynamic/) settings, so that payments are not enrolled with a 3D authentication.
 
 **Parameters**
 
@@ -147,7 +141,13 @@ To enable 3D Secure, in the `POST /orders` request > `gateway_info` object, set 
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`.
+Options: `direct`, `redirect`.
+
+----------------
+`gateway` | string | required
+
+The unique gateway identifier for the payment method.  
+Options: `CREDITCARD`, `VISA`, `MASTERCARD`.
 
 ----------------
 `order_id` | string | required
@@ -158,7 +158,7 @@ Format: Maximum 50 characters.
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the transaction.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
@@ -170,15 +170,9 @@ The amount the customer needs to pay in the currency's smallest unit:
 - Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
-`gateway` | string | required
-
-The unique gateway identifier for the payment method.  
-Option: `CREDITCARD`.
-
-----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+The description of the customer's order. This appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.
 
 ----------------
@@ -198,10 +192,37 @@ Contains:
 
 `flexible_3d` | boolean | required
 
-- `true`: Enables 3D Secure verification. The payment is classified as **3D Secure Result: Enrolled Liability**.
-- `false`: Disables 3D Secure verification. The payment is classified as **"Not Enrolled, Liability".**
+- `true`: Enables 3D Secure authentication. The payment is classified as **3D Secure Result: Enrolled Liability**.
+- `false`: Disables 3D Secure authentication. The payment is classified as **Not Enrolled, Liability**.
+
+`term_url` | string | required for redirect requests
+
+The URL to inform the card [issuer](/credit-cards-user-guide/glossary/#issuer) where to redirect the authentication query.  
+Example: ```"term_url":"https://example.com/?type=term&api_key=<api_key>"```
+
+`card_number` | string | required
+
+The customer's full credit card number.
+
+`card_holder_name` | string | required
+
+The name of the cardholder on the credit card.
+
+`card_expiry_date` | string | required
+
+The expiry date on the credit card.  
+Format: YYMM
+
+`card_cvc` | string | required for most cards, except Maestro and recurring payments.
+
+The card verification code (CVC) is a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  
 
 **Response**
+
+----------------
+`amount` | integer
+
+The amount of the transaction. 
 
 ----------------
 `amount_refunded` | integer
@@ -212,6 +233,31 @@ The amount refunded to the customer.
 `costs` | object
 
 See [costs (object)](/api/#costs-object).
+
+----------------
+`created` | string
+
+The timestamp for when the order was created. 
+
+----------------
+`currency` | string
+
+The currency of the transaction.
+
+----------------
+`custom_info`  | object
+
+See [custom_info (object)](/api/#custom-info-object).
+
+----------------
+`customer` | object | required
+
+See [customer (object)](/api/#customer-object).
+
+----------------
+`description` | string | required
+
+The description of the customer's order.
 
 ----------------
 `fastcheckout` | string 
@@ -234,6 +280,11 @@ See [items (object)](/api/#items-object).
 The timestamp when the order was last modified.
 
 ----------------
+`order_id` | string 
+
+Your unique identifier for the order. 
+
+----------------
 `payment_details` | object
 
 See [payment_details (object)](/api/#payment-details-object).
@@ -245,6 +296,11 @@ See [payment_methods (object)](/api/#payment-methods-object).
 
 ----------------
 `reason` | string 
+
+Specifies the 3D enrollment status of the transaction.
+
+----------------
+`reason_code` | string 
 
 ----------------
 `related_transactions` | object
@@ -266,6 +322,22 @@ MultiSafepay's identifier for the transaction (also known as the PSP ID).
 
 Variables for storing additional data.  
 Format: Maximum 500 characters.
+
+----------------
+`customer_verification` | object
+
+Contains: 
+
+`html` | string
+
+If [3D Secure](/glossaries/multisafepay-glossary/#3d-secure) authentication is:
+
+- Required: An HTML form is returned. You can either render the form and redirect the customer to it to pass authentication, or redirect them to the payment_url (recommended).
+- Not required: The [transaction status](/about-payments/multisafepay-statuses/) response is processed directly and no HTML form is returned.
+
+`type` | string
+
+Value: `form`.
 
 ----------------
 `payment_url` | string 

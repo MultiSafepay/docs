@@ -1,6 +1,6 @@
 ---
 weight: 225
-meta_title: "API reference - Create recurring payments orders - MultiSafepay Docs"
+meta_title: "API reference - Create Recurring Payments orders - MultiSafepay Docs"
 
 ---
 
@@ -112,9 +112,9 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
 {{< /code-block >}}
 
 {{< description >}}
-### Recurring payments – initial payment
+### Recurring Payments – initial payment
 
-Create an initial [recurring payments](/features/recurring-payments) order. In response to the initial payment, a token is returned as `payment_details.recurring_id`. Store this token with the `customer.reference`, as they're used for [subsequent payments](/api/#recurring-payments--subsequent-payment).
+Create an initial [Recurring Payments](/features/recurring-payments) order. In response to the initial payment, a token is returned as `payment_details.recurring_id`. Store this token with the `customer.reference`, as they're used for [subsequent payments](/api/#recurring-payments--subsequent-payment).
 
 **Parameters**
 

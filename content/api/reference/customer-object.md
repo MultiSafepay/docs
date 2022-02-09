@@ -149,7 +149,7 @@ The unique identifier of where the user/browser originates from.
 
 A unique client-defined identifier for your customer.
 
-See [Recurring payments orders](/api/#recurring-payments-orders).
+See [Recurring Payments orders](/api/#recurring-payments-orders).
 
 ----------------
 

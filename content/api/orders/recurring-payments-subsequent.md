@@ -1,6 +1,6 @@
 ---
 weight: 225
-meta_title: "API reference - Recurring payments: subsequent order - MultiSafepay Docs"
+meta_title: "API reference - Recurring Payments: Subsequent order - MultiSafepay Docs"
 
 ---
 
@@ -113,9 +113,9 @@ meta_title: "API reference - Recurring payments: subsequent order - MultiSafepay
 {{< /code-block >}}
 
 {{< description >}}
-### Recurring payments – subsequent payment
+### Recurring Payments – Subsequent payment
 
-Create a subsequent [recurring payments](/features/recurring-payments) order. In the request, provide the token that's returned from the [initial payment](/api/#recurring-payments--initial-payment).
+Create a subsequent [Recurring Payments](/features/recurring-payments) order. In the request, provide the token that's returned from the [initial payment](/api/#recurring-payments--initial-payment).
 
 **Parameters**
 

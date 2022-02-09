@@ -1,11 +1,10 @@
 ---
-title: 'Recurring payments'
-weight: 30
-meta_title: "Recurring payments - MultiSafepay Docs"
+title: 'Recurring Payments'
+weight: 10
+meta_title: "Recurring Payments - MultiSafepay Docs"
 layout: 'single'
-
 logo: '/svgs/Tokenization.svg'
-short_description: 'Tokenize payment details to make checkout more convenient.'
+short_description: 'Boost conversion and manage subscriptions using tokenization.'
 url: '/features/recurring-payments/'
 aliases: 
     - /tools/tokenization/how-do-i-get-tokenization/
@@ -16,7 +15,7 @@ aliases:
     - /payments/features/tokenization/
 ---
 
-Recurring payments involves MultiSafepay encrypting customers' sensitive payment details for secure storage and providing merchants a non-sensitive identifier, known as a "token", to enable quick, easy repeat payments, e.g.:
+Recurring Payments involves MultiSafepay encrypting customers' sensitive payment details for secure storage and providing merchants a non-sensitive identifier, known as a "token", to enable quick, easy repeat payments, e.g.:
 
 
 - **One-click payments:** The customer selects stored details for faster checkout.
@@ -156,8 +155,8 @@ MultiSafepay offers three recurring models:
 
 Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/payments/integrations/) use `COF` only. 
 
-### Via our API
-See API reference – [Recurring payments](/api/#recurring-payments-orders).
+## Via our API
+See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
 
