@@ -6,7 +6,7 @@ layout: single
 meta_title: "Handling cardholder data - MultiSafepay Docs"
 logo: '/svgs/Server to server.svg'
 short_description: 'Handle sensitive cardholder data on your own PCI DSS compliant server.'
-url: '/about-payments/handling-cardholder-data/'
+url: '/features/handling-cardholder-data/'
 aliases:
     - /payments/features/server-to-server/
     - /payments/features/server-to-server/payment-flow/
