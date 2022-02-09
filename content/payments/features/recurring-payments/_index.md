@@ -133,7 +133,8 @@ sequenceDiagram
     C-->>Me: Consents to <br> merchant-initiated payments
     Me->>Mu: Places order with token
     Mu-->>Mu: Decrypts payment details <br> to process payment
-    Mu->>Me: Confirms successful payment <br> and collects funds
+    Mu->>Me: Confirms successful payment
+    C-->>Me: Collects funds
 
 {{< /mermaid >}}
 
