@@ -67,7 +67,8 @@ sequenceDiagram
     Mu-->>Mu: Encrypts payment details <br> for secure storage
     Mu->>Me: Returns a token <br> for subsequent payments
     Me->>C: Redirects to success page
-    Mu-->>Me: Collects funds
+    C-->>Me: Collects funds
+
 
 {{< /mermaid >}}
 
