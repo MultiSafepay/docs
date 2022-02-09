@@ -16,7 +16,8 @@ aliases:
     - /payments/features/tokenization/
 ---
 
-Recurring payments involves MultiSafepay encrypting customers' sensitive payment details and storing them securely as a non-sensitive identifier, known as a "token", to enable quick, easy repeat payments, e.g.:
+Recurring payments involves MultiSafepay encrypting customers' sensitive payment details for secure storage and providing merchants a non-sensitive identifier, known as a "token", to enable quick, easy repeat payments, e.g.:
+
 
 - **One-click payments:** The customer selects stored details for faster checkout.
 - **Subscriptions:** You use the token to collect payments at specific intervals, e.g. weekly, monthly.
