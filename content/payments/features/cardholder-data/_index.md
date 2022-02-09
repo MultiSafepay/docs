@@ -59,6 +59,6 @@ The table below sets out supported payment methods and [3D Secure](/features/3d-
 
 ## Integration
 
-See API reference – [Credit card – direct](/api/#credit-card--direct).
+See API reference – [Credit card: Direct](/api/#credit-card--direct).
 
 
