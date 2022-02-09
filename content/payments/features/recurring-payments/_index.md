@@ -103,7 +103,8 @@ sequenceDiagram
     Mu-->>Mu: Decrypts relevant payment details <br> to process payment
     Mu->>Me: Confirms successful payment
     Me->>C: Redirects to success page
-    Mu-->>Me: Collects funds 
+    C-->>Me: Collects funds 
+
 
 {{< /mermaid >}}
 
