@@ -99,7 +99,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 `recurring_model` | string | required
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
-Options: `unscheduled`, `subscription`, `cardonfile`.  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 `amount` | integer | required
