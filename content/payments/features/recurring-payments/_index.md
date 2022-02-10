@@ -149,11 +149,11 @@ Email a request to activate Recurring Payments to <sales@multisafepay.com>
 ### Recurring models
 MultiSafepay offers three recurring models:
 
-- `COF` (card on file)
-- `Subscription`
-- `Unscheduled` (event-triggered)
+- `cardOnFile` 
+- `subscription`
+- `unscheduled` (event-triggered)
 
-Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/payments/integrations/) use `COF` only. 
+Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/payments/integrations/) use `cardOnFile` only. 
 
 ## Via our API
 See API reference – [Recurring Payments](/api/#recurring-payments-orders).
