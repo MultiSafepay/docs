@@ -19,7 +19,8 @@ To upgrade from our deprecated [core integration](/payments/integrations/ecommer
 
 2. Place a test order to make sure it's working properly.
 
-3. Open the [classic MultiSafepay payment gateway settings](https://services.webshopapp.com/login/?redirect=/payment_providers/859452), and then disable the payment provider.
+3. Open the core integration, and then [disable](/lightspeed-app/upgrading/#disabling-the-core-integration) the payment provider.
+
 
 To access the MultiSafepay Payments app **Settings** page:
 
