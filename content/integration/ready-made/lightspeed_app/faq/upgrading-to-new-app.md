@@ -16,9 +16,7 @@ aliases:
 To upgrade from our deprecated [core integration](/payments/integrations/ecommerce-platforms/lightspeed_core) to the Lightspeed app, follow these steps:
 
 1. In the [Lightspeed app manual](/lightspeed/#installation), follow the steps to install the Lightspeed app.
-
 2. Place a test order to make sure it's working properly.
-
 3. Open the core integration, and then [disable the payment provider](/lightspeed-app/upgrading/#disabling-the-core-integration).
 
 
