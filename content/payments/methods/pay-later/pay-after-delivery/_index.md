@@ -20,4 +20,4 @@ aliases:
     - /payment-methods/billing-suite/pay-after-delivery
     - /payments/methods/billing-suite/pay-after-delivery/
 ---
-
+{{< alert-notice >}} **Note for Dutch merchants** <br> Due to changes to the Consumer Credit Act (Wet op het consumentenkrediet), merchants who apply [surcharges](https://docs.multisafepay.com/about-payments/surcharges/) to pay later methods are now deemed credit providers. This requires a permit from the Authority for Financial Markets (AFM). <br> We therefore strongly recommend discontinuing any surcharges as of February 18, 2022. <br> For more information, email <sales@multisafepay.com> {{< /alert-notice >}}
