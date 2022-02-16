@@ -63,7 +63,7 @@
         "pattern": "https://developer\\.android\\.com/guide/components/processes-and-threads.*"
       },
       {
-        "pattern": "https://edenred\\.be.*"
+        "pattern": "https://myedenred\\.be.*"
       }
     ],
   "timeout": "60s",
