@@ -14,3 +14,5 @@ To apply a [surcharge](/about-payments/surcharges/) to a payment in Lightspeed:
     - Fixed amount under **Flat payment fee**, **or**
     - Percentage under **Dynamic payment fee**.
 5. Click **Save**.
+
+{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}

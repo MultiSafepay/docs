@@ -1,7 +1,6 @@
 ---
 title : "Applying surcharges"
 meta_title: "WooCommerce plugin - Applying surcharges  - MultiSafepay Docs"
-
 layout: "faqdetail"
 read_more: "."
 url: '/woo-commerce/surcharges/'
@@ -16,3 +15,5 @@ The Integration Team will do their best to help you install third-party packages
 
 **PSD2 implications**  
 For more information about how the Payment Services Directive 2 may affect surcharges or payment fees, see [Payment Services Directive 2](/payment-regulations/psd2/).
+
+{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}

@@ -38,6 +38,8 @@ The following payment methods are exempt from the surcharge prohibition:
 
 For hybrid card schemes such as American Express and Diners Club, each EU country can decide whether to permit surcharging. Surcharging is permitted under Dutch law.
 
+{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+
 ## Customers outside the EU
 
 The rules for surcharging customers outside the EU remain unchanged. The PSD2 aims to protect European customers.

@@ -20,7 +20,7 @@ aliases:
     - /payment-methods/billing-suite/afterpay
     - /payments/methods/billing-suite/afterpay/
 ---
-{{< alert-notice >}} **Note for Dutch merchants** <br> Due to changes to the Consumer Credit Act (Wet op het consumentenkrediet), merchants who apply [surcharges](https://docs.multisafepay.com/about-payments/surcharges/) to pay later methods are now deemed credit providers. This requires a permit from the Authority for Financial Markets (AFM). <br> AfterPay therefore strongly recommends discontinuing any surcharges as of February 18, 2022. <br> For more information, see AfterPay – [Merchant support](https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/). {{< /alert-notice >}}
+{{< alert-notice >}} **Note for Dutch merchants** <br> Due to changes to the Consumer Credit Act (Wet op het consumentenkrediet), merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers. This requires a permit from the Authority for Financial Markets (AFM). <br> AfterPay therefore strongly recommends discontinuing any surcharges as of February 18, 2022. <br> For more information, see AfterPay – [Merchant support](https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/). {{< /alert-notice >}}
 
 
 
