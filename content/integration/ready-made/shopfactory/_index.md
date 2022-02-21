@@ -28,8 +28,6 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 For technical queries about the plugin, see ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
 
-<<<<<<< HEAD:content/payments/integrations/ecommerce-platforms/shopfactory/_index.md
-New merchants will need a MultiSafepay account.  See [Getting started](/getting-started/).
-=======
+New merchants will need a MultiSafepay account, see [Getting started](/getting-started/).
+
 For information about supported payment methods, email the Integration Team at <integration@multisafepay.com>
->>>>>>> master:content/integration/ready-made/shopfactory/_index.md
