@@ -67,7 +67,6 @@ Features that are no longer available:
 
 - Recurring Payments – replaced by Magento Vault and Instant Purchase
 - FastCheckout – no longer supported
-- PWA (REST) endpoints – replaced by GraphQL endpoints
 
 {{< /details >}}
 
