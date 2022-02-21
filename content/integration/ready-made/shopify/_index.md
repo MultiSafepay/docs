@@ -5,12 +5,8 @@ faq: "."
 logo: "/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"
-<<<<<<< HEAD:content/payments/integrations/ecommerce-platforms/shopify/_index.md
-url: 'shopify'
-=======
 type: 'App'
 url: '/shopify/'
->>>>>>> master:content/integration/ready-made/shopify/_index.md
 layout: 'single'
 aliases: 
     - /hosted/shopify
@@ -26,15 +22,12 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopify/
 ---
 
-{{< alert-notice >}} **Urgent action required:** Migrate to our updated app before March 31, 2022.  {{< /alert-notice>}}
+{{< alert-notice >}} **Urgent action required:** [Migrate](#installation) to our updated app before March 31, 2022.  {{< /alert-notice>}}
 
-<<<<<<< HEAD:content/payments/integrations/ecommerce-platforms/shopify/_index.md
 This technical manual is for installing/migrating to our free app for integrating MultiSafepay payment solutions into your Shopify webshop.
 
 This new app leverages a single, powerful gateway for a faster, safer connection between your Shopify store and MultiSafepay.
 
-=======
->>>>>>> master:content/integration/ready-made/shopify/_index.md
 {{< details title="Support" >}}
 
 - Telephone: +31 (0)20 8500 500
@@ -45,6 +38,12 @@ This new app leverages a single, powerful gateway for a faster, safer connection
 {{< details title="Requirements" >}}
 &nbsp;  
 New merchants will need a MultiSafepay account. See [Getting started](/getting-started/).
+
+{{< /details >}}
+
+{{< details title="Currencies" >}}
+&nbsp;  
+Payments are processed in the webshop's default currency only.
 
 {{< /details >}}
 
@@ -90,40 +89,9 @@ For more information, email the Integration Team at <integration@multisafepay.co
 
 {{< /details >}}
 
-<<<<<<< HEAD:content/payments/integrations/ecommerce-platforms/shopify/_index.md
+## Installation
+
 To install or migrate, follow these steps:
-=======
-{{< details title="Currencies" >}}
-&nbsp;  
-Payments are processed in the webshop's default currency only.
-
-{{< /details >}}
-
-{{< details title="Payment method links" >}}
-
-  * [Alipay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872)
-  * [American Express](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852)
-  * [Bancontact](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052848)
-  * [Bank Transfer](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868)
-  * [Belfius](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052846)
-  * [Dotpay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052874)
-  * [EPS](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052876)
-  * [Giropay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052864)
-  * [iDEAL QR](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052850)
-  * [iDEAL](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052844)
-  * [KBC](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052862)
-  * [Maestro](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052870)
-  * [Mastercard](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052842)
-  * [PayPal](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052854)
-  * [PaySafecard](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052856)
-  * [Request to Pay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1055441)
-  * [SEPA Direct Debit](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052858)
-  * [Sofort](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052866)
-  * [Trustly](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945)
-  * [Visa (including Cartes Bancaires & Dankort)](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328)
-
-{{< /details >}}
->>>>>>> master:content/integration/ready-made/shopify/_index.md
 
 1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
 2. From the [Shopify app store](https://apps.shopify.com/), install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).  
@@ -132,17 +100,4 @@ Payments are processed in the webshop's default currency only.
   **Note:** If using a test [API key](/account/site-id-api-key-secure-code/), make sure you also enable **Test mode**. 
 5. For existing merchants, you must disable the deprecated individual MultiSafepay payment method gateways under **Admin** > **Settings** > **Payments** > **Third-party payment providers**.
 6. Once testing is complete, disable password protection again.
-
-<<<<<<< HEAD:content/payments/integrations/ecommerce-platforms/shopify/_index.md
-=======
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Shopify installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
-
-1. To install payment methods, use the relevant links above. For each, click the **Install** button on the bottom right.
-2. Sign in to your Shopify [backend](/glossaries/multisafepay-glossary/#backend).
-3. Go to **Settings** > **Payment providers** > **Alternative payments**.
-4. Search for and click on the payment methods you have installed.
-5. Enter your [site ID and secure code](/account/site-id-api-key-secure-code/).
-6. Activate the payment method.
->>>>>>> master:content/integration/ready-made/shopify/_index.md
-
 
