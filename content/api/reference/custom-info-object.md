@@ -24,4 +24,19 @@ meta_title: "API reference - custom_info - MultiSafepay Docs"
 
 A placeholder parameter where you can include specific details related to the transaction.
 
+----------------
+`custom_1` | string
+
+Max length: 500 characters
+
+----------------
+`custom_2` | string
+
+Max length: 500 characters
+
+----------------
+`custom_3` | string
+
+Max length: 500 characters
+
 {{< /description >}}
