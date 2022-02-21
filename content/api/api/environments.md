@@ -1,7 +1,7 @@
 ---
 weight: 30
 meta_title: "API reference - Environments - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 
@@ -29,7 +29,7 @@ MultiSafepay provides a:
 
 Use the test environment when developing and testing a new integration via our API. No real transactions are processed. 
 
-To start processing real transactions, just address the **live** API and update your [API key](/set-up-your-account/site-id-api-key-secure-code).
+To start processing real transactions, just address the **live** API and update your [API key](/account/site-id-api-key-secure-code/).
 
 
 {{% /description %}}

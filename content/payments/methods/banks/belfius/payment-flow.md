@@ -3,45 +3,66 @@ title: "Belfius payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Belfius payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/belfius.svg'
+url: '/payment-methods/belfius/payment-flow/'
 aliases: 
     - /payment-methods/belfius/how-does-belfius-work/
+    - /payments/methods/banks/belfius/payment-flow/
 ---
+This diagram shows the flow for a successful transaction.
 
-The table below shows a successful payment flow from start to finish.  
+{{< mermaid class="text-center" >}}
 
-{{< details title="About order and transaction statuses" >}}
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant B as Belfius
+    participant Me as Merchant
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+    C->>Mu: Selects Belfius at checkout
+    Mu->>C: Connects to Belfius (direct/redirect)
+    C->>B: Authenticates account and completes payment
+    B->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to their online banking environment. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. | 
+
+## Payment statuses
+
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction and is redirected to a MultiSafepay payment page. | Initialized | Initialized |
-| 2. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
-| 3. | The transaction is successful.  |  |  |
-| 4. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 5-day period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete.| Completed | Completed |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment within 5 days and the transaction expired. | Expired | Expired |
+
+{{< blue-notice >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
+We import our bank statements daily and finalize all incoming payments. {{< /blue-notice >}}
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
 
 
 

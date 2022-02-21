@@ -1,12 +1,12 @@
 ---
-title: 'Add payment methods'
+title: 'Payment methods'
 meta_title: 'Payment methods - MultiSafepay Docs'
 breadcrumb_title: 'Payment methods'
 layout: 'block'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Payment_methods.svg'
 short_description: 'Choose payment methods that suit your business and customers.'
-weight: 20
+weight: 10
+url: '/payment-methods/'
 aliases:
     - /support-tab/magento2/payment-methods
     - /payment-methods/

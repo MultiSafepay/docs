@@ -3,15 +3,18 @@ title: "Activating Alipay"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Alipay - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-short_description: "Activating Alipay to use in your MultiSafepay account"
+short_description: "Activating Alipay for your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/alipay/activation/'
 aliases: 
     - /payment-methods/wallet/alipay/activate-alipay
+    - /payments/methods/wallet/alipay/activation/
 ---
+{{< blue-notice >}} If using a ready-made integration: 
 
-**1.** Before applying for Alipay, check your eligibility with your account manager at <sales@multisafepay.com>
+- First check that the payment method is supported. 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-**2.** Email your application to activate Alipay to your account manager at <sales@multisafepay.com>
+**1.** Email a request to activate Alipay to <sales@multisafepay.com>
 
-**3.** The Risk Team checks your eligibilty and if approved, activates Alipay in your account.
+**2.** The Risk Team checks your eligibilty and if approved, activates the payment method for your account.

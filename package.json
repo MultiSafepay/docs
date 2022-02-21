@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "version": "2.0.0",
+  "description": "MultiSafepay documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "hugo:build": "hugo -d build",
+    "hugo:server": "hugo server",
+    "hugo:clean": "rm -rf build resources public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kris-MultiSafepay/docs.git"
+  },
+  "author": "MultiSafepay Docs",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Kris-MultiSafepay/docs/issues"
+  },
+  "homepage": "https://github.com/Kris-MultiSafepay/docs#readme",
+  "devDependencies": {
+    "hugo-bin": "^0.79.2",
+    "semver-regex": ">=3.1.3"
+  }
+}

@@ -1,7 +1,7 @@
 ---
 weight: 511
 meta_title: "API reference - Get token details - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Get token details
 
-Retreive information about a specific [token](/payments/features/tokenization).
+Retreive information about a specific [token](/features/recurring-payments).
 
 **Parameter**
 
@@ -81,8 +81,8 @@ The last 4 digits of the credit card number.
 ----------------
 `model` | string 
 
-The [recurring model](/payments/features/tokenization/#recurring-models).  
-Options: `cardonfile`, `subscription`, `unscheduled`.  
+The [recurring model](/features/recurring-payments/#recurring-models).  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 

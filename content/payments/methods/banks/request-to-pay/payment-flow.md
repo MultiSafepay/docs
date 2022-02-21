@@ -3,46 +3,69 @@ title: "Request to Pay payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Request to Pay payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/RTP.svg'
+url: '/payment-methods/request-to-pay/payment-flow/'
 aliases: 
     - /payment-methods/bancontact/how-does-request-to-pay-work/
+    - /payments/methods/banks/request-to-pay/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant D as Deutsche Bank
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects Request to Pay at checkout
+    Mu->>C: Connects to Deutsche Bank (direct/redirect)
+    C->>D: Authenticates account and authorizes SEPA bank transfer
+    D->>Mu: Transfers funds 
+    Note over D,Mu: Within 24 hours <br> (if Instant SEPA not supported)
+    Mu->>Me: Settles funds
+    
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to their online banking environment. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. |
+
+## Payment statuses
+
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction and is redirected to the Deutsche Bank payment page. {{< br >}} They authenticate themselves with the same credentials as for online banking, and authorize a SEPA bank transfer. | Initialized | Initialized |
-| 2. | The transaction is successful and the customer is redirected to MultiSafepay. | Uncleared  | Completed |
-| 3. | Deutsche Bank settles the funds in your business bank account. {{< br >}} For banks that support instant SEPA, settlement is instant. Otherwise, it is within 24 hours.  | Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| Deutsche Bank or the customer's bank has declined the transaction. | Declined | Declined   |
-| The customer cancelled the payment in Deutsche Bank online banking. | Void | Void |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| Deutsche Bank is processing the transaction and transfering the funds. | Completed  | Uncleared |
+| The transaction is complete. | Completed | Completed |
+| The transaction was declined. | Declined | Declined   |
+| The transaction was cancelled. | Void | Void |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
-| Deutsche Bank has declined the refund. | Declined | Declined |
+| The refund is complete. | Completed | Completed |
+| The refund was declined. | Declined | Declined |
+
 
 
         

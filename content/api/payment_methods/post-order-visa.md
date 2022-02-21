@@ -1,7 +1,7 @@
 ---
-weight: 334
+weight: 313
 meta_title: "API reference - Create a Visa transaction - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 
@@ -44,9 +44,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Visa
+### Visa
 
-- See also Payment methods – [Visa](/payments/methods/credit-and-debit-cards/visa).  
+- See also Payment methods – [Visa](/payment-methods/visa).  
 - Redirect only.
 
 **Parameters**
@@ -80,12 +80,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -104,7 +107,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

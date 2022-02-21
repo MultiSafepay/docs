@@ -1,7 +1,7 @@
 ---
 weight: 110
-meta_title: "API reference - Retrieve all gateways - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+meta_title: "API Reference - Retrieve activated gateways - MultiSafepay Docs"
+
 ---
 {{< code-block >}}
 
@@ -11,11 +11,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success":true,
+  "success": true,
   "data":[
     {
-      "id":null,
-      "description":null
+      "id": "VISA",
+      "description": "Visa"
+    },
+    {
+      "id": "IDEAL",
+      "description": "iDEAL"
     }
   ]
 }
@@ -24,21 +28,41 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 
-## Retrieve all gateways
+## Retrieve activated gateways
+
+Retrieve all activated gateways.
 
 **Parameters**
 
 ----------------
-`include` | string | optional
+`include` | string | optional | query parameter
 
-Additional payment methods you want to specify.  
-Format: Comma delimited.  
-Options: `coupons`.  
-To include **all** gift cards your website supports in the response, add the `include=coupons` value to your GET request. Otherwise, only one gift card is returned in the response.
+By default, only one activated gift card is included in the response.
+
+To include all activated [gift cards](/api/#gift-cards) in the response, specify `coupons`.
+
+**Options**: `coupons`
 
 ----------------
+`country` | string | optional | query parameter
 
+The customer’s country code.  
+Format: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. 
 
+----------------
+`currency` | string | optional | query parameter
 
+The currency you want the customer to pay with.  
+Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html). 
+
+----------------
+`amount` | integer | optional | query parameter
+
+The amount the customer needs to pay in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
+
+----------------
 
 {{% /description %}}

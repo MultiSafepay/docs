@@ -1,7 +1,7 @@
 ---
 weight: 371
 meta_title: "API - Balances - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -33,15 +33,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Balances
 
-As a partner or primary account holder, use this endpoint to retrieve the balance of an affiliated account. 
+As a partner or primary account holder, use this endpoint to retrieve the balance of an affiliated account.
 
-For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+By default, charges are disabled. To enable charges for your account, email <sales@multisafepay.com>
+
+For authentication, use your [account API key](/account/site-id-api-key-secure-code/).
 
 **Parameters**
 
 ----------------
 
-`affiliated_id` | query parameter  | required
+`affiliated_id` | path parameter  | required
 
 The account ID of the affiliated account. 
 

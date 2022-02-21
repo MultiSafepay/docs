@@ -28,16 +28,15 @@ We would greatly appreciate it!
 
 ### Review our ecommerce integrations
 
-- [Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2.html)
-- [Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)
-- [Shopware Store - Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html)
-- [WooCommerce plugins](https://wordpress.org/plugins/multisafepay)
+- [Magento 2](https://marketplace.magento.com/multisafepay-magento2.html)
+- [Opencart](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960)
+- [Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)
+- [Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html)
+- [WooCommerce](https://wordpress.org/plugins/multisafepay)
 
 ### View our LinkedIn profiles
 
-- [Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)  
 - [Alex Carletto](https://www.linkedin.com/in/alexcarletto)  
-- [Berend Lantink](https://www.linkedin.com/in/berendlantink)  
 - [Daniel Civit](https://www.linkedin.com/in/danielcivit)  
 - [Dennis Dijkstra](https://www.linkedin.com/in/doubledijkstra)  
 - [Francesca Cook](https://www.linkedin.com/in/francesca-cook-ba786a29/)  

@@ -1,11 +1,10 @@
 ---
 weight: 215
 meta_title: "API reference - Discount with unit price - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< description >}}
 ### Discount with unit price 
-For [post-payment methods](/payments/methods/billing-suite/), add discounts as a unit price. The example request is for a 20% discount on all unit prices.
+For [pay later methods](/payments/methods/pay-later/), add discounts as a unit price. The example request is for a 20% discount on all unit prices.
 
 No negative order rule is created, which avoids the refund conflict that can arise if you add discounts as separate discount rules or order rules.
 
@@ -20,7 +19,7 @@ Options: `direct`.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Options: `VISA`, `MASTERCARD`, `AMEX`, `MAESTRO`, `CREDITCARD`.
 
 ----------------
@@ -38,7 +37,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) for the customer to pay.
+The amount the customer needs to pay in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `shopping_cart.items` | required

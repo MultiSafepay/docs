@@ -1,7 +1,7 @@
 ---
 weight: 214
 meta_title: "API reference - Discount with order rule - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 
@@ -75,9 +75,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 {{< description >}}
 ### Discount with order rule
-For all payment methods except [post-payment methods](/payments/methods/billing-suite/), the main way of adding a discount **before** submitting a transaction request is to add it as an order rule (non-refundable). 
+For all payment methods except [pay later methods](/payments/methods/pay-later/), the main way of adding a discount **before** submitting a transaction request is to add it as an order rule (non-refundable). 
 
-For post-payment methods, adding a discount as an order rule or a separate discount rule can create a conflict for partial refunds, especially when the discount is a percentage. You cannot undo or partially refund the negative amount. Instead, add discounts as a [unit price](#discount-with-unit-price).
+For pay later methods, adding a discount as an order rule or a separate discount rule can create a conflict for partial refunds, especially when the discount is a percentage. You cannot undo or partially refund the negative amount. Instead, add discounts as a [unit price](#discount-with-unit-price).
 
 **Note:** Avoid adding discounts as a separate discount rule because, for partial refunds, you can't undo the negative amount.
 
@@ -92,7 +92,7 @@ Options: `direct`.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Options: `VISA`, `MASTERCARD`, `AMEX`, `MAESTRO`, `CREDITCARD`.
 
 ----------------
@@ -110,7 +110,10 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) for the customer to pay.
+The amount the customer needs to pay in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `shopping_cart.items` | required

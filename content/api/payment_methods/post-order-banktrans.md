@@ -1,7 +1,7 @@
 ---
 weight: 307
-meta_title: "API reference - Create Bank transfer order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+meta_title: "API reference - Create Bank Transfer order - MultiSafepay Docs"
+
 ---
 {{< code-block >}}
 > POST - /orders
@@ -143,8 +143,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "destination_holder_swift":"DEUTNL2NXXX",
       "account_holder_country":"NL"
     },
-    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=apitool_13890779",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=apitool_13890779"
+    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=my-order-id-1"
   }
 }
 ```
@@ -153,7 +153,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Bank Transfer
-See also Payment methods – [Bank transfer](/payments/methods/banks/bank-transfer).
+See also Payment methods – [Bank Transfer](/payment-methods/bank-transfer).
 
 ### Bank Transfer - redirect
 
@@ -180,18 +180,21 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `BANKTRANS`.
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -208,12 +211,19 @@ See [customer (object)](/api/#customer-object).
 - If the `email` parameter is not provided, MultiSafepay cannot send the payment details to the customer.
 - The `country` parameter provides the customer a local bank account to pay to, where available.  
 
+Contains:  
+`disable_send_email`	| boolean | optional
+
+If emailing payment instructions to the customer yourself, set to `true`.  
+For MultiSafepay to email payment instructions, set to `false`.  
+Default: `false`.
+
 **Response**
 
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ---------------- 
 
@@ -242,18 +252,21 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `BANKTRANS`.
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -278,8 +291,6 @@ For MultiSafepay to email payment instructions, set to `false`.
 Options: `true`, `false`.  
 Default: `false`.
 
-**Note:** In the JSON response, it is important to send payment instructions to the customer yourself. Note that all parameters can be different for every single transaction. Do not store this information except for a specific transaction.
-
 **Response** 
 
 ----------------
@@ -295,7 +306,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -310,12 +322,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string 
@@ -398,7 +410,7 @@ The customer's country, if provided in the transaction request.
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 `cancel_url` | string 

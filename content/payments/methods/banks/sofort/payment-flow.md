@@ -3,49 +3,77 @@ title: "Sofort payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Sofort payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/SOFORT.svg'
-url: '/payments/methods/banks/sofort/payment-flow/'
+url: '/payment-methods/sofort/payment-flow/'
 aliases: 
     - /payment-methods/sofort-banking/how-does-sofort-banking-work/
     - /payments/methods/banks/sofort-banking/payment-flow/
+    - /payments/methods/banks/sofort/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects Sofort at checkout
+    Mu->>C: Connects to customer's bank (direct/redirect)
+    C->>CB: Authenticates account and completes payment
+    CB->>Mu: Transfers funds 
+    Note over CB,Mu: May take 3 business days <br> Don't ship yet!
+    Me->>C: Ships order
+    Mu->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to their online banking environment. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. |
+
+## Payment statuses
+
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer authenticates their account and completes the payment. | | |
-| 4. | Settlement is pending. This may take up to 3 business days and applies to all payments regardless of the amount. {{< br >}} Do **not** ship orders during this status. MultiSafepay assumes no responsibility if you ship orders and the transaction fails. | Uncleared | Uncleared |
-| 5. | The transaction is successful. {{< br >}} It cannot be reversed by the customer and settlement is guaranteed. | Completed | Completed |
-| 6. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| | |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 1-day period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The customer's bank is processing the transaction and transfering the funds.  {{< br >}} May take up to 3 business days for all amounts. {{< br >}} Do **not** ship during this status. MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
+| The transaction is complete. | Completed | Completed |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+
+**Note:** Amounts less than 100 EUR are completed immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
+
+
+
+
+
+
+
 
 
 

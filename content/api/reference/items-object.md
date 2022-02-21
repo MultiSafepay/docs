@@ -1,7 +1,7 @@
 ---
 weight: 605
 meta_title: "API reference - items (object) - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -15,16 +15,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## items (object)
 
-If you want to specify the items in the order without including a full [`shopping_cart` object]((/api/#shopping-cart-items), you can add a single `items` line. 
+Lets you display the items in the customer's order in a single line on your checkout page instead of including a full [`shopping_cart` object](/api/#shopping-cart-items). 
 
-**Note:** [Post-payment methods](/payments/methods/billing-suite/) require the full `shopping_cart` object.
+**Note:** [Pay later methods](/payments/methods/pay-later/) require a full `shopping_cart` object.
 
 **Parameter**
 
 ----------------
 `items` | object | required
 
-A specification of the order items to display on your checkout page. 
+Contains the order items to display on your checkout page. 
 
 ----------------
 

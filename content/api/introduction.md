@@ -1,7 +1,7 @@
 ---
 weight: 10
 meta_title: "API reference - Introduction - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block hide >}}
 {{< /code-block >}}
@@ -31,14 +31,12 @@ You can use our API, for example, to:
 
 Advanced requests include:
 
-- [Split Payments](#split-payments)
-- [Recurring Payments](#recurring-payments)
+- [Split Payments](#split-payments-orders)
+- [Recurring Payments](#recurring-payments-orders)
 - [Accounts](#accounts)
 - [Payouts](#payouts)
 
 You can also use our API to build a custom integration. You can test your integration in the [``TEST`` environment](#environments). 
-
-See also our [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) of sample requests.
 
 For any questions, email the Integration Team at <integration@multisafepay.com>
 

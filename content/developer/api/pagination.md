@@ -1,8 +1,7 @@
 ---
-title: "Pagination"
+title: "API request pagination"
 weight: 7
-meta_title: "API - Pagination - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+meta_title: "API request pagination - MultiSafepay Docs"
 read_more: "."
 ---
 

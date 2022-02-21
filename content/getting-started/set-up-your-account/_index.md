@@ -3,7 +3,6 @@ title: 'Set up your account'
 breadcrumb_title: 'Set up your account'
 weight: 10
 meta_title: "Getting started - Set up your account - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Partner_Account_Control.svg'
 layout: 'single'
@@ -20,7 +19,7 @@ This page provides an overview of setting up your MultiSafepay test account:
 3. [Generate an API key](/account/site-id-api-key-secure-code/). 
 4. [Add users](/account/adding-users/).
 5. [Connect your website to your backend](/account/connecting-websites-to-backend/).
-6. [Activate your selected payment methods](/account/activating-payment-methods/).
+6. [Activate your selected payment methods](/payments/activating-payment-methods/).
 
 Then, consider:  
 
@@ -29,11 +28,11 @@ Then, consider:
 - [Setting your notification URL](/account/setting-your-notification-url/) for us to send notifications about orders.
 - [Downloading the MultiSafepay app](/account/multisafepay-app/) to manage your account on the go.
 
-For full guidance, see [Account setup](/account/account-setup/).
+For full guidance, see [Manage my account](/account/manage-account/).
 
 ## Next steps
 
 {{< two-buttons
 href-1="/getting-started/create-a-test-account" header-1="Previous" text-1="Create a test account" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/getting-started/build-your-integration" header-2="Next" text-2="Build your integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/getting-started/create-your-integration" header-2="Next" text-2="Create your integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

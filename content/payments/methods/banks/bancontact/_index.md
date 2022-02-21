@@ -4,13 +4,14 @@ weight: 30
 meta_title: "Payment methods - Bancontact - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/bancontact"
 childlist: '.'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-intro_description: "Bancontact is a leading Belgian banking method that supports online, mobile app, and POS payments. Once a payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. Bancontact is a household name and supported by over 80% of Belgian webshops."
+intro_description: "Bancontact is a leading Belgian banking method that supports online, mobile app, QR, and POS payments. It is a household name and supported by over 80% of Belgian webshops."
 layout: 'single'
 logo: '/logo/Payment_methods/Bancontact.svg'
 short_description: 'Leading Belgian payment method for online, mobile app, and POS payments.'
+url: '/payment-methods/bancontact/'
 aliases: 
     - /support-tab/magento2/payment-methods/bancontact
     - /payment-methods/banks/bancontact
+    - /payments/methods/banks/bancontact/
+    - /payments/methods/banks/bancontact-qr/
 ---
-See also [Bancontact QR](/payments/methods/banks/bancontact-qr/).

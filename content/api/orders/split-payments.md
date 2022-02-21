@@ -1,12 +1,52 @@
 ---
-weight: 233
+weight: 236
 meta_title: "API reference - Split Payments - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 
-> POST - /orders
-
+> POST - /orders  
+Split by percentage only
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order - 11.2% flows to merchant ID 1001001",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "percentage":11.2,
+        "description":"Percentage fee"
+      }
+    ]
+  }
+}
+```
+> POST - /orders  
+Split by fixed amount only 
+```json
+{
+  "type":"redirect",
+  "order_id":"my-order-id-1",
+  "currency":"EUR",
+  "amount":1000,
+  "description":"Split Payment Order - €1.12 flows to merchant ID 1001001",
+  "affiliate":{
+    "split_payments":[
+      {
+        "merchant":1001001,
+        "fixed":112,
+        "description":"Fixed fee"
+      }
+    ]
+  }
+}
+```
+> POST - /orders  
+Split by percentage and fixed amount
 ```json
 {
   "type":"redirect",
@@ -30,7 +70,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   }
 }
 ```
-
 > JSON response
 
 ```json
@@ -45,10 +84,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Split Payments
-Split the amount of a transaction between multiple MultiSafepay accounts, based on a percentage, a fixed amount, or a combination of the two.
+## Split Payments orders
+Split the amount of a transaction between partner or affiliate accounts by a percentage, a fixed amount, or both.
 
-See [Split Payments](/payments/features/split-payments/).
+{{< alert-notice >}}**Important:** If splitting by both, never give a 0 value for the percentage or the fixed amount.  {{< /alert-notice >}}
+
+See [Split Payments](/features/split-payments/).
 
 **Parameters**
 
@@ -56,12 +97,12 @@ See [Split Payments](/payments/features/split-payments/).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).  
+Options: `direct`, `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay dashboard under **Tools** > **Payment link generator**).  
 
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
@@ -79,17 +120,21 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+Format: Maximum 200 characters.
 
 ----------------
-`split_payments` | object | required
+`split_payments` | array of objects | required
+
+For every split payment rule, add an object to the array.
 
 Contains:  
 
@@ -99,11 +144,13 @@ The account ID of the [affiliated MultiSafepay account](/account/partner-account
 
 `split_payments.percentage` | float
 
-Specify a percentage of the amount to split.
+Specify a percentage of the amount to split.  
+**Important:** Never set the value to `0`. 
 
 `split_payments.fixed` | integer
 
-Specify the amount to split in cents.
+Specify the amount to split in cents.  
+**Important:** Never set the value to `0`. 
 
 `split_payments.description` | string
 
@@ -114,7 +161,7 @@ The description of the split payment.
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 {{% /description %}}

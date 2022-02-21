@@ -1,7 +1,7 @@
 ---
-weight: 311
+weight: 314
 meta_title: "API reference - Create a co-branded credit card order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > POST - /order
@@ -43,10 +43,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ### Co-branded credit cards 
 
-- See also Payment methods:  
-  - [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires)
-  - [Dankort](/payments/methods/credit-and-debit-cards/dankort) 
-  - [Postepay](/payments/methods/credit-and-debit-cards/postepay)  
+- See also:  
+  - [Cartes Bancaires](/payment-methods/cartes-bancaires/)
+  - [Dankort](/payment-methods/dankort/) 
+  - [Maestro](/payment-methods/maestro/)
+  - [Postepay](/payment-methods/postepay/) 
+  - [V Pay](/payment-methods/vpay/)  
 - Redirect only.
 
 **Parameters**
@@ -66,7 +68,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
 Options: `CREDITCARD`, `VISA`, `MASTERCARD`.
 
@@ -79,12 +81,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -105,7 +110,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ---------------- 
 

@@ -3,42 +3,59 @@ title: "Paysafecard payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Paysafecard payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/paysafecard/payment-flow/'
 aliases: 
     - /payment-methods/paysafecard/how-does-paysafecard-work
+    - /payments/methods/prepaid-cards/paysafecard/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant P as Paysafecard
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects a Paysafecard at checkout
+    Mu->>C: Connects to Paysafecard (redirect)
+    C->>P: Enters card PIN and completes payment
+    P->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+
+{{< /mermaid >}}
+&nbsp;  
+**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
+
+## Payment statuses
+
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer enters the 16-digit PIN code on the Paysafecard voucher, and completes the payment. | | |
-| 4. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been declined. | Declined   | Declined   |
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 3-hour period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete.| Completed | Completed |
+| Paysafecard declined the transaction. | Declined   | Declined   |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete payment within 3&nbsp;hours and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
-| The refund has been successfully processed. | Completed | Completed |
+| The refund is complete. | Completed | Completed |
+

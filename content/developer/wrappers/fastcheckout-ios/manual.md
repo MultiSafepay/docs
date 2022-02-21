@@ -1,7 +1,6 @@
 ---
 title : "FastCheckout iOS SDK manual"
 meta_title: "FastCheckout iOS SDK manual - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases: 
     - /integrations/fastcheckout-ios/manual/
 ---
@@ -46,7 +45,7 @@ To learn more about creating, updating and retrieving orders, see API reference 
 
 ### Installation
 
-First you have to access into your Back Office and get a valid [API key](/faq/general/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/glossaries/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
 
@@ -85,7 +84,7 @@ manager.startCheckout(transactionId: "ID", host: self, onCompletion: { status, e
 })
 ```
 
-And that’s it, that’s all you need to do to integrate the iOS SDK to start a checkout and retrieve the [transaction status](/payments/multisafepay-statuses/) once it completes.
+And that’s it, that’s all you need to do to integrate the iOS SDK to start a checkout and retrieve the [transaction status](/about-payments/multisafepay-statuses/) once it completes.
 
 ###### Complete example
 

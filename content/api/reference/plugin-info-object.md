@@ -1,12 +1,12 @@
 ---
 weight: 609
 meta_title: "API reference - Plugin - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< description >}}
 ## plugin (object)
 
-This object is required for [community-developed integrations](/payments/integrations/community/). 
+Specifies information about your integration, useful for debugging.
 
 Contains:  
 

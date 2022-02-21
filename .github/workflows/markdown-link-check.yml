@@ -1,15 +1,47 @@
 name: Check Markdown links on pull request
-
-on: 
-  pull_request:
+on: [pull_request]
 
 jobs:
-  markdown-link-check:
+  check-netlify-pages-changed:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - name: Wait for Netlify pages changed to become neutral
+      uses: fountainhead/action-wait-for-check@v1.0.0
+      id: wait-for-netlify-pages-changed
       with:
-        use-quiet-mode: 'yes'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        ref: ${{ github.event.pull_request.head.sha || github.sha }}
+        checkName: 'Pages changed - multisafepay-docs'
+  netlify-preview-check:
+    needs: check-netlify-pages-changed
+    runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.wait-for-netlify-preview.outputs.url }}
+    steps:
+    - name: Wait for Netlify Preview
+      uses: jakepartusch/wait-for-netlify-action@v1.3
+      id: wait-for-netlify-preview
+      with:
+        site_name: "multisafepay-docs"
+        max_timeout: 300
+  markdown-link-check:
+    needs: [netlify-preview-check, check-netlify-pages-changed]
+    if: ${{ needs.netlify-preview-check.outputs.url != '' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source branch
+      uses: actions/checkout@master
+    - name: Insert deployment URL
+      uses: jacobtomlinson/gha-find-replace@v2
+      with:
+        find: "DEPLOYMENT_URL"
+        replace: "${{ needs.netlify-preview-check.outputs.url }}"
+        regex: false
+        include: '**mlc_config.json'
+    - name: Check markdown links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-verbose-mode: 'yes'
         check-modified-files-only: 'yes'
         config-file: './.github/mlc_config.json'
+

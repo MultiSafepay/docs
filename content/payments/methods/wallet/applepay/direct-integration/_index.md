@@ -3,12 +3,14 @@ title: "Apple Pay direct integration"
 breadcrumb_title: 'Direct integration'
 weight: 10
 meta_title: "Apple Pay direct - Integration and testing - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Integrating and testing Apple Pay direct"
 layout: 'single'
+url: '/payment-methods/apple-pay/direct/'
+aliases:
+    - /payments/methods/wallet/applepay/direct-integration
 ---
 
-With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/).
+With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payment-pages/).
 
 {{< screen src="/img/applePayHero.png" align="center" class="small-img desktop-radius" >}}
 {{< br >}}
@@ -36,7 +38,7 @@ https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
 ```
 ### Request registration 
 
-To request registration for Apple Pay direct, email the relevant Site ID to your account manager at <sales@multisafepay.com>
+To request registration for Apple Pay direct, email the relevant site ID to <sales@multisafepay.com>
 
 **Note**: You don't need an Apple Merchant ID to offer Apple Pay with MultiSafepay.
 

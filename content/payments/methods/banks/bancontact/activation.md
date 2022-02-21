@@ -3,31 +3,23 @@ title: "Activating Bancontact"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Bancontact - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-short_description: "Activating Bancontact in your MultiSafepay account and backend"
+short_description: "Activating Bancontact for your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/bancontact.svg'
+url: '/payment-methods/bancontact/activation/'
 aliases: 
     - /payment-methods/bancontact/activate-bancontact/
+    - /payments/methods/banks/bancontact/activation/
+    - /payments/methods/banks/bancontact-qr/activation/
 ---
 
-**1.** Check whether Bancontact is supported by your ecommerce platform.
+{{< blue-notice >}} If using a ready-made integration: 
 
-**2.** To activate Bancontact in to your [MultiSafepay account](https://merchant.multisafepay.com) for:
+- First check that the payment method is supported. 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-All your websites:
+{{< activate_payment_method name="Bancontact" >}}
 
-1. Go to **Settings** > **Payment methods**.
-2. Under **Standard payment methods**, select the **Bancontact** checkbox.
-3. Click **Save changes**.
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
 
-A specific website:
 
-1. Go to **Settings** > **Website settings**.
-2. Click the relevant website to open the **Website settings** page.
-3. Under **Payment methods**, select the **Bancontact** checkbox.
-4. Click **Save**.
-
-**3.** Enable Bancontact as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
-
-For any questions, email the Sales Team at <sales@multisafepay.com>

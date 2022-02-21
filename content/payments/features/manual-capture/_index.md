@@ -1,10 +1,10 @@
 ---
 title: 'Manual Capture'
-weight: 40
+weight: 60
 meta_title: "Manual Capture - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 layout: "single"
 logo: '/svgs/Manual_capture.svg'
+url: '/features/manual-capture/'
 short_description: 'Receive credit card payments from your customers in full or partial captures.'
 aliases:
     - /tools/manual-capture/full-capture/
@@ -12,6 +12,7 @@ aliases:
     - /tools/manual-capture/what-is-a-manual-capture/
     - /tools/manual-capture/how-to-activate-manual-capture/
     - /tools/manual-capture
+    - /payments/features/manual-capture/
 ---
 Manual Capture is a MultiSafepay solution that lets you capture credit card payments either partially or in full. It supports Maestro, Mastercard, and Visa.
 
@@ -31,14 +32,9 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 
 ## Statuses
 
-{{< details title="About order and transaction statuses" >}}
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-- Order status: the progress of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settling the funds in your MultiSafepay balance
-
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
-
-{{< /details >}}
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
 | Action | Description | Order status | Transaction status |
 |---|---|---|---|
@@ -63,7 +59,7 @@ After expiration, the issuer can cancel the authorization and the funds are retu
 
 ## Activation
 
-To activate Manual Capture in your MultiSafepay account, email your account manager at <sales@multisafepay.com>
+To activate Manual Capture for your MultiSafepay account, email <sales@multisafepay.com>
 
 ## Integration
 To integrate Manual Capture using our API, see API reference – [Manual Capture authorization](/api/#manual-capture-orders).

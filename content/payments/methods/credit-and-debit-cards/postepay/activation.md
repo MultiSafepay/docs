@@ -3,15 +3,18 @@ title: "Activating Postepay"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Postepay - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-short_description: "Activating Postepay to use in your MultiSafepay account"
+short_description: "Activating Postepay for your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/postepay/activation/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/postepay/activation/
+    - /postepay/activation/
 ---
+{{< blue-notice >}} If using a ready-made integration: 
+
+- First check that the payment method is supported. 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+
 Postepay payments are processed through the Visa or Mastercard gateway.
 
-To make Postepay available as a payment method on the MultiSafepay credit card payment page, you need to:
-
-- Ensure you have enabled the Visa or Mastercard gateway.
-- Set the [`locale`](/developer/api/using-locale-parameters) to `it_IT` (Italy) in transaction requests.
-
-Download the Postepay logo from the [MultiSafepay logo collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
+{{< activate_payment_method type="non-standard" name="Postepay" >}}

@@ -2,7 +2,6 @@
 title : "Notification URL"
 meta_title: "Notification URL - MultiSafepay Docs"
 weight: 3
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/how-does-the-notification-url-work
@@ -24,7 +23,7 @@ For `POST` requests, we add the order data to the request body.
 You can ignore requests if:
 
 - We request the `notification_url` without the `timestamp` parameter.  
-- You receive the same [order status](/payments/multisafepay-statuses/). 
+- You receive the same [order status](/about-payments/multisafepay-statuses/). 
 
 Our API provides a `GET` and `POST` notification.
 
@@ -42,7 +41,7 @@ When the status of this transaction changes, we notify your web server at the fo
 
 **Note:** In the notification url, the `transaction_id` value should be the same as the `order_id`.
 
-In your [backend](/getting-started/glossary/#backend), follow these steps: 
+In your [backend](/glossaries/multisafepay-glossary/#backend), follow these steps: 
 
 1. Send a [get order details request](/api/#get-order-details) using the `transaction_id` provided.
 2. Check the `status` field in the response and update the status of the order in your backend.
@@ -75,13 +74,13 @@ To calculate the signature/hash, follow these steps:
 1. Base64 decode the Auth header.
 2. Split the decoded Auth header using the colon (`:`) as separator. The first string is the timestamp, the second string is a SHA512 hash of the payload.
 3. Concatenate the timestamp, colon, and (non-hashed) payload of the notification.
-4. SHA512 hash the concatenated string that resulted from step 3 using your [website API key](/tools/multisafepay-account/get-your-api-key) as HMAC key.
+4. SHA512 hash the concatenated string that resulted from step 3 using your [website API key](/account/site-id-api-key-secure-code/) as HMAC key.
 5. Check whether the the SHA512 hash that resulted from step 4 matches the SHA512 hash from step 2.
 
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
 ## GET vs POST notification
-The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
+The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/about-payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
 
 For security reasons, you must always validate the payload to make the `POST` notification comes from MultiSafepay and hasn't been tampered with.
 
@@ -97,7 +96,7 @@ If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend th
 ### Note:
 
 - Always use **https** in the `notification_url`.
-- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay account](https://merchant.multisafepay.com).
+- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 - Never include port numbers in your notification URL. For security reasons, we only process standard ports.
 - Make sure you authorize our [IP ranges](/developer/errors-explained/multisafepay-ip-ranges/) to access the notification URL.
 

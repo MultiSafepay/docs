@@ -1,7 +1,7 @@
 ---
-weight: 335
+weight: 338
 meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > POST - /orders
@@ -109,7 +109,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "state": null,
       "zip_code": "1033SC"
     },
-    "description": "product description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -130,7 +130,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "account_id": "wx<string>",
         "amount": 1000,
         "currency": "EUR",
-        "description": "product description",
+        "description": "Test order description",
         "external_transaction_id": "wx<string>",
         "payment_description": "WeChat Pay",
         "status": "initialized",
@@ -157,7 +157,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## WeChat Pay
-See also Payment methods – [WeChat Pay](/payments/methods/wallet/wechat-pay).
+See also Payment methods – [WeChat Pay](/payment-methods/wechat-pay/).
+
+Displaying the WeChat QR code:
+
+- Redirect orders redirect the customer to a [MultiSafepay payment page](/payment-pages/) where the QR code is displayed under **Payment methods**.
+
+- Direct orders retrieve the `qr_url` and render the QR code in your system to display it to the customer.
 
 ### WeChat Pay - redirect
 
@@ -178,7 +184,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Fixed value: `WECHAT`. 
 
 ----------------
@@ -190,12 +196,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -209,7 +218,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ---------------- 
 
@@ -232,7 +241,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Fixed value: `WECHAT`. 
 
 ----------------
@@ -244,12 +253,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -298,7 +310,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `description` | string
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 
 ----------------
@@ -309,7 +321,7 @@ Fixed value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `modified` | string
@@ -363,7 +375,7 @@ Information about linked transactions.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer
@@ -378,7 +390,7 @@ Variables for storing additional data.
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 `cancel_url` | string

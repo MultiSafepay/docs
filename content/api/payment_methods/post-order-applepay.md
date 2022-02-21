@@ -1,7 +1,7 @@
 ---
 weight: 304
 meta_title: "API reference - Create an Apple Pay order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 
@@ -26,7 +26,7 @@ try {
   "gateway":"APPLEPAY",
   "currency":"EUR",
   "amount":9743,
-  "description":"Test Order Description",
+  "description":"Test order description",
   "manual":false,
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
@@ -58,7 +58,7 @@ try {
   "gateway":"APPLEPAY",
   "currency":"EUR",
   "amount":1495,
-  "description":"Order Description",
+  "description":" Test order description",
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification"
   },
@@ -86,7 +86,7 @@ try {
 
 ## Apple Pay
 
-See also Payment methods – [Apple Pay](/payments/methods/wallet/applepay).  
+See also Payment methods – [Apple Pay](/payment-methods/apple-pay).  
 
 ### Detecting Apple Pay on the customer's device
 
@@ -113,7 +113,7 @@ Format: Maximum 35 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.    
+The unique gateway identifier for the payment method.    
 Value: `APPLEPAY`.
 
 ----------------
@@ -125,12 +125,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -149,7 +152,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 
@@ -188,12 +191,15 @@ The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you wa
 ----------------
 `amount` | integer | required
 
-The amount (in cents) that the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-A text which will be shown with the order in your MultiSafepay account. Max 200 characters.
+A text which will be shown with the order in your MultiSafepay dashboard. Max 200 characters.
 
 ----------------
 `payment_options` | object | required
@@ -216,7 +222,7 @@ For more information, see Apple Pay direct integration – [Create an order](/pa
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

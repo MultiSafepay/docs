@@ -1,11 +1,12 @@
 ---
 title : "Excluding referrals in Google Analytics"
 weight: 7
-meta_title: "General developer information - Excluding referrals in Google Analytics - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+meta_title: "Excluding referrals in Google Analytics - MultiSafepay Docs"
 read_more: "."
+url: '/developer/excluding-referrals-in-google-analytics/'
 aliases:
     - /faq/general/google-analytics-referral-exclusions
+    - /developer/general/excluding-referrals-in-google-analytics/
 ---
 
 For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your website, Google Analytics doesn't correctly track these visits to your website, e.g.:
@@ -17,7 +18,7 @@ Google Analytics starts a new session whenever a customer comes to your site fro
 
 For example, a customer selects iDEAL (redirect) and then specifies their bank. They are redirected to the bank's payment page and briefly "exit" the session on your site, before returning to your success page. The customer is now counted as a new visitor, even though no new session is initiated.
 
-This makes Google Analytics reports unreliable, and they don't accurately capture [conversion rates](/getting-started/glossary/#conversion-rate). There are two ways to mitigate this.
+This makes Google Analytics reports unreliable, and they don't accurately capture [conversion rates](/glossaries/multisafepay-glossary/#conversion-rate). There are two ways to mitigate this.
 
 ## Referral exclusion list
 
@@ -78,14 +79,16 @@ verifiedbyvisa.comdirect.de
 
 ## utm_nooverride=1 parameter
 
-Add the utm_nooverride=1 parameter to your payment gateway return pages. 
+Add the utm_nooverride=1 parameter to your payment gateway success pages. 
 
 For example, for the page URL ```checkout/payment/success```, pass your gateway the following URL: ```/checkout/payment/success?utm_nooverride=1```. 
 
-This tells Google that the customer's initial session is still in progress and it ignores the referral information for the "new" session. 
+This tells Google that the customer's initial session is still in progress and Google ignores the referral information for the "new" session. 
 
 In your code, the parameter should look like this: ```$this→_redirect('checkout/onepage/success', ['utm_nooverride' => '1'])``` .
 
 Make sure you do this for all links from the payment gateway to your website.
 
 For more information, email the Integration Team at <integration@multisafepay.com>
+
+**Note:** Our plugins for Magento 1 and 2 do this automatically. 

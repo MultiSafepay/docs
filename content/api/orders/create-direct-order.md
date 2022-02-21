@@ -1,7 +1,7 @@
 ---
 weight: 203
 meta_title: "API reference - Create a direct order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 url: '/api/create-direct-order/'
 ---
 
@@ -15,7 +15,7 @@ url: '/api/create-direct-order/'
   "currency":"EUR",
   "amount":1000,
   "gateway":"IDEAL",
-  "description":"product description",
+  "description":"Test order description",
   "gateway_info":{
     "issuer_id":"0021"
   },
@@ -39,7 +39,7 @@ url: '/api/create-direct-order/'
     "created":"2019-03-04T13:52:07",
     "currency":"EUR",
     "amount":1000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,
@@ -96,9 +96,6 @@ url: '/api/create-direct-order/'
 
 ### Create a direct order
 
-Supported payment methods:   
-ALIPAY, BANKTRANS, BELFIUS, CBC, CREDITCARD, DIRDEB, DIRECTBANK, EINVOICE, IDEAL, ING, KBC, KLARNA, PAYAFTER, PAYPAL
-
 For additional **required** information, see the relevant [payment method](/api/#payment-method-examples).
 
 **Parameters**
@@ -124,18 +121,24 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The gateway identifier for the payment method. 
+
+For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
+ 
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
 Format: Maximum 200 characters.  
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -174,7 +177,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `amount_refunded` | integer
@@ -184,12 +188,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order. 
+The [transaction status](/about-payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `reason` | string 
@@ -222,7 +226,7 @@ See [costs (object)](/api/#costs-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

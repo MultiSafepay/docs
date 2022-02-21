@@ -1,12 +1,12 @@
 ---
 weight: 130
 meta_title: "API reference - Retrieve gateway issuers - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
 
-> GET - /issuers{gateway}
+> GET - /issuers/{gateway}
 
 > JSON response
 

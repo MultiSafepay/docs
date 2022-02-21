@@ -3,52 +3,81 @@ title: "Apple Pay payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Apple Pay payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/apple-pay/payment-flow/'
 aliases: 
     - /payment-methods/wallet/applepay/apple-pay-how-does-it-work
+    - /payments/methods/wallet/applepay/payment-flow/
 ---
 
-The table below shows a successful transaction flow from start to finish. 
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant A as Apple Pay
+    participant CS as Card scheme
+    participant Me as Merchant
+    
+    C->>Mu: Selects Apple Pay at checkout
+    Mu->>C: Connects to Apple Pay (direct/redirect)
+    C->>A: Authorizes payment on an iOS device with Touch ID or Face ID
+    alt is Direct integration
+    A->>Me: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends the customer's payment details as an encrypted token
+    else is Redirect integration
+    A->>Mu: Sends the customer's payment details as an encrypted token
+    end
+    Mu->>CS: Decrypts token and processes payment
+    Mu->>Me: Runs fraud filter and provides risk report
+    Me->>Mu: Authorizes transaction
+    CS->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+{{< /mermaid >}}
+&nbsp;  
+
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer selects Apple Pay and completes payment on your checkout page. | 
+| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) and then to Apple to complete payment. | 
+
+For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
+
+## Payment statuses
+
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer completes the payment on an iOS device, using either [Touch ID or Face ID](https://www.apple.com/apple-pay). |   |  |
-| 4. | MultiSafepay receives the customer's credit card details as an encrypted token. |   |  |
-| 5. | MultiSafepay decrypts the card details and authorizes the payment as a standard credit card transaction. | | |
-| 6. | The transaction passes through the automated MultiSafepay fraud filter. |  |  |
-| 7. | Manually authorize or decline the transaction. {{< br >}} See [Evaluating Uncleared credit card transactions](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
-| 8. | MultiSafepay collects the funds and adds them to your MultiSafepay balance. | Completed | Completed |
-
-## Unsuccessful statuses
-
 | Description | Order status | Transaction status |
 |---|---|---|
-| The issuer has declined the transaction. {{< br >}} For more information, see [Declined status](/faq/general/declined-status). | Declined | Declined   |
-| The transaction has been cancelled. | Void   | Void   |
-| The customer didn't complete the payment and the transaction expired after the 1-hour period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| The transaction is complete. | Completed | Completed |
+| The transaction was cancelled or the customer requested a chargeback. | Void   | Void   |
+| The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
+| The issuer has declined the transaction. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
+
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved    | Reserved   |
-| The refund was successfully processed.  | Completed      | Completed   |
-| The customer requested their bank to force reversal of funds. {{< br >}} See [About chargebacks](/faq/chargebacks/about-chargebacks/). | Chargeback | Completed   |
+| The refund is complete.  | Completed  | Completed  |
 
-For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
+
 
 
 

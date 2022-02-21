@@ -1,7 +1,7 @@
 ---
 weight: 34
 meta_title: "API reference - Required transaction details - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 aliases:
     - /developer/api/required-transaction-details/
     - /faq/api/required-transaction-details
@@ -15,7 +15,7 @@ url: '/api/required-transaction-details/'
 
 ## Required transaction details
 
-As a [PSP](/getting-started/glossary/#payment-service-provider-psp), MultiSafepay is obliged by law to monitor transactions, merchants, and customers. We have to know the type of product or service involved in each transaction, and who is buying and selling.
+As a [PSP](/glossaries/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is obliged by law to monitor transactions, merchants, and customers. We have to know the type of product or service involved in each transaction, and who is buying and selling.
 
 For each transaction, you must include details about the product and the customer's:
 

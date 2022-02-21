@@ -1,7 +1,7 @@
 ---
 weight: 238
 meta_title: "API reference - Zero Authorization orders - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > POST - /orders
@@ -67,7 +67,7 @@ See [Zero Authorization](/payments/features/zero-authorization/).
 `type` | string | required
 
 The payment flow for the checkout process.    
-Options: `redirect`, `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).
+Options: `redirect`, `direct`, `paymentlink` (makes the transaction appear in your MultiSafepay dashboard under **Tools** > **Payment link generator**).
 
 ----------------
 `order_id` | string | required
@@ -78,7 +78,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
@@ -95,9 +95,8 @@ Value: `0`.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+Format: Maximum 200 characters.
 
 ----------------
 `manual` | string | required
@@ -119,7 +118,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

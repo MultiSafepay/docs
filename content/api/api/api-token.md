@@ -1,7 +1,7 @@
 ---
 weight: 32
 meta_title: "API reference - Generating API tokens - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 
@@ -24,5 +24,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 API tokens are used to encrypt sensitive payment details from a customer's device.
 
 Generate a new token for every order, **except** `POST /orders` requests initiated from your server.
+
+**Note**: Tokens are active for 600 seconds.
 
 {{% /description %}}

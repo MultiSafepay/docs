@@ -1,7 +1,7 @@
 ---
 weight: 607
 meta_title: "API reference - payment_methods (object) - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 ```json 
@@ -38,7 +38,10 @@ The international bank account number (IBAN) to be charged for the transaction.
 ----------------
 `amount` | integer 
 
-The amount (in cents) for the customer to pay.              
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `currency` | string 
@@ -49,9 +52,9 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `description` | string 
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard.
+   
+Format: Maximum 200 characters.
 
 ----------------
 `payment_description` | string
@@ -61,7 +64,7 @@ The payment method.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 ----------------
 `external_transaction_id` | string
@@ -81,7 +84,8 @@ The payment gateway.
 ----------------
 `card_expiry_date` | string 
 
-The expiry date of the credit card.    
+The expiry date of the credit card.   
+Format: YYMM   
 
 ----------------
 `last4` | string 

@@ -1,7 +1,7 @@
 ---
-weight: 319
+weight: 323
 meta_title: "API reference - Create an iDEAL QR order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > POST - /orders
@@ -47,16 +47,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## iDEAL QR
+### iDEAL QR
 
 - See also Payment methods – [iDEAL QR](/payments/methods/banks/idealqr).  
 - Redirect only.
 
 **Note:** The test environment is not available for iDEAL QR. You can only test transactions in the live environment. 
-
-- If the `min_amount` parameter is not set, the `amount` value is used as the `min_amount` and vice versa.  
-- If the `max_amount` parameter is not set, the `amount` is used as the `max_amount`.  
-- If you set both `min_amount` and `max_amount` parameters, the `amount` value is ignored.
 
 **Parameters**
 
@@ -75,7 +71,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `iDEALQR`.
 
 ----------------
@@ -87,12 +83,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -110,28 +109,33 @@ Contains:
 
 `qr_size` | integer
 
-The size of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
-Default: 250.  
+Sets the width and height of the QR image in pixels. Sizes are between 100 and 2000 pixels. If the value does not meet this rule, default is used.  
+Default: `250` (250 by 250 pixels).  
 
-`allow_multiple` | boolean
+`allow_multiple` | boolean  
 
-Set if a specific QR code can be used more than once.
+True: The QR code can be used more than once.  
+False: The QR code can only be used once.
 
 `allow_change_amount` | boolean
 
-Set if customers can change the amount to pay. Often used for donations.  
-Required parameters: `max_amount`, or `min_amount`, or both. 
+True: The customer can change the amount to pay.  
+False: The customer cannot change the amount the pay.    
+Required parameters: `max_amount`, or `min_amount`, or both.  
 
-`min_amount` | string
+`min_amount` | string | required if `allow_change_amount` is set to `true`
 
-Set the minimum amount if `allow_change_amount` is set to `true`.  
-The `min_amount` must not be more than the `amount`.  
-If you only use `min_amount`, the `amount` must be more than the `min_amount`. That is, the `amount` = `max_amount`. 
+Sets a minimum amount that the customer can pay.     
+
+- The `min_amount` must be lower than the `amount`.  
+- If `min_amount` is not set, but `max_amount` is set, then the `amount` value is used as the `min_amount`. 
     
-`max_amount` | string
+`max_amount` | string | required if `allow_change_amount` is set to `true`
 
-Set the maximum amount if `allow_change_amount option` is set to `true`.  
-If you only use `max_amount`, the `amount` must be less than the `max_amount`.
+Sets a maximum amount that the customer can pay.    
+
+- The `max_amount` must be higher than the `amount`.  
+- If `max_amount` is not set, but `min_amount` is set, then the `amount` value is used as the `max_amount`.  
 
 ----------------
 `customer` | object | required
@@ -143,7 +147,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 `qr_url` | string 

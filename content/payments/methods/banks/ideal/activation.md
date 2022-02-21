@@ -3,20 +3,21 @@ title: "Activating iDEAL"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating iDEAL - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-short_description: "Activating iDEAL in your MultiSafepay account and backend"
+short_description: "Activating iDEAL for your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal.svg'
+url: '/payment-methods/ideal/activation/'
 aliases: 
     - /payment-methods/ideal/activate-ideal/
+    - /payments/methods/banks/ideal/activation/
+    - /payments/methods/banks/idealqr/activation/
 ---
 
-To activate iDEAL, follow these steps:
+{{< blue-notice >}} If using a ready-made integration: 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Settings** > **Payment methods**. 
-3. Under **Standard payment methods**, select the **iDEAL** checkbox.
-4. Click **Save changes**.
-5. Sign in to your [backend](/getting-started/glossary/#backend) and enable iDEAL.
+- First check that the payment method is supported. 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
 
-For any questions, email your account manager at <sales@multisafepay.com>
+{{< activate_payment_method name="iDEAL" >}}
+
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}

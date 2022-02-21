@@ -1,7 +1,7 @@
 ---
 weight: 210
 meta_title: "API reference - Send second chance emails - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 aliases:
     - /faq/api/disable-second-chance
     - /faq/api/disabling-second-chance
@@ -22,11 +22,11 @@ aliases:
 
 If a customer initiated a transaction but didn't complete payment, you can email a reminder containing a payment link.
 
-For more information and requirements, see [Second Chance](/payments/boost/second-chance/).
+For more information and requirements, see [Second Chance](/features/second-chance/).
 
 You can enable/disable Second Chance emails in each transaction request. 
 
-See also [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+See also [Adjust session lifetimes](/api/#adjust-session-lifetimes).
 
 
 **Parameters**

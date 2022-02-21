@@ -1,14 +1,15 @@
 ---
 title : "Payment Card Industry Data Security Standard (PCI DSS)"
-weight: 50
-meta_title: "Payment regulations - Payment Card Industry Data Security Standard (PCI DSS) - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+weight: 30
+meta_title: "Payment Card Industry Data Security Standard (PCI DSS) - MultiSafepay Docs"
 read_more: "."
-url: '/payment-regulations/pci-dss'
+url: '/payment-regulations/pci-dss/'
 aliases:
     - /faq/risk-and-fraud/about-credit-card-payments/
     - /faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments
     - /security-and-legal/payment-regulations/about-pcidss/
+    - /payments/methods/credit-and-debit-cards/user-guide/pci-dss-compliance/
+    - /credit-cards-user-guide/pci-dss/
 ---
 
 The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard mandated by major card schemes that applies to organizations which handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.

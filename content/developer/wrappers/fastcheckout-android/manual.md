@@ -1,7 +1,6 @@
 ---
 title : "FastCheckout Android SDK manual"
 meta_title: "FastCheckout Android SDK manual - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 aliases:
     - /integrations/fastcheckout-android/manual/
 ---
@@ -52,7 +51,7 @@ Check the example below to see how you can setup the environment you want to use
 
 ### Installation
 
-First you have to access into your Back Office and get a valid [API key](/faq/general/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
+First you have to access into your Back Office and get a valid [API key](/glossaries/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
 
 Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
@@ -96,6 +95,24 @@ SDK.setApiKey(API_KEY);
 …
 …
 }
+```
+The SDK is thread safe, but you cannot access the main UI elements from background threads. Creating and accessing UI controls from background thread is **not** thread safe.
+
+** Updating the UI from a background thread in Android**
+(Note: Check Android developers’ official site on Threads (https://developer.android.com/guide/components/processes-and-threads) for proper integration based on JAVA/Android versioning).
+
+```java
+…
+…
+YourActivity.this.runOnUiThread(new Runnable() {
+    public void run() {
+
+        //UI update here...
+
+    }
+});
+…
+…
 ```
 
 If you want to change the running environment from LIVE to TEST, add the following line of code after SDK.setApiKey(API_KEY):

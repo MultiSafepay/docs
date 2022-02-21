@@ -1,7 +1,7 @@
 ---
-weight: 315
+weight: 319
 meta_title: "API reference - Create a gift card order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > POST - / order 
@@ -66,34 +66,36 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).  
 **Note:** We only preselect the gift card supplied in the gateway.  
 
 Options:  
-Baby Cadeaubon= `BABYCAD`  
-Beautyandwellness= `BEAUTYWELL`  
-Bloemencadeaukaart= `BLOEMENCAD`  
-Boekenbon= `BOEKENBON`  
-Degrotespeelgoedwinkel= `DEGROTESPL`  
-Edenred Ticket Compliments= `EDENCOM`  
-Edenred Ticket EcoCheque= `EDENCO`  
-Edenred Ticket Restaurant= `EDENRES`  
-Edenred Ticket Sport & Culture= `EDENSPORTS`  
-Fashioncheque= `FASHIONCHQ`   
-Fashiongiftcard= `FASHIONGFT`  
-Fietsenbon= `FIETSENBON`   
-Good4fun= `GOOD4FUN`  
-Gezondheidsbon= `GEZONDHEID`   
-Nationale bioscoopbon= `NATNLBIOSC`      
-Nationaletuinbon= `NATNLETUIN`    
-Parfumcadeaukaart= `PARFUMCADE`   
-Sportenfit= `SPORTENFIT`    
-Vuur & rook gift card= `VRGIFTCARD`    
-VVV Cadeaukaart= `VVVGIFTCRD`   
-Webshopgiftcard= `WEBSHOPGFT`  
-Wijncadeau= `WIJNCADEAU`      
-Yourgift= `YOURGIFT`  
+
+- [Baby Cadeaubon](https://www.babycadeaubon.nl/)= `BABYCAD`
+- [Beauty Cadeau](https://www.beautycadeau.nl/)= `BEAUTYCAD`
+- [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/page/hoe-het-werkt/)= `BEAUTYWELL`
+- [Biercheque](https://biercheque.nl/)= `BIERCHEQUE`
+- [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/)= `BLOEMENCAD`
+- [Boekenbon](https://bestel.boekenbon.nl/)= `BOEKENBON`
+- [Boeken Voordeel](https://www.boekenVoordeel.nl/)= `BOEKENVOOR`
+- [Fashioncheque](https://www.fashioncheque.com/)= `FASHIONCHQ`
+- [Fashion Giftcard](https://www.fashion-giftcard.nl/)= `FASHIONGFT`
+- [Gezondheidsbon](https://www.gezondheidsbon.nl/)= `GEZONDHEID`
+- [Good4fun](https://www.good4fun.nl/)= `GOOD4FUN`
+- [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/)= `HUISTUIN`
+- [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)= `KIDSCADEAU`
+- [Klus Cadeau](https://www.kluscadeau.nl/)= `KLUSCADEAU`
+- [Nationale Bioscoopbon](https://www.bioscoopbon.nl/)= `NATNLBIOSC`
+- [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/)= `NATENCRD`
+- [Nationale Tuinbon](https://www.nationale-tuinbon.nl/)= `NATNLETUIN`
+- [Ohmygood Giftcard](https://ohmygood.nl/)= `OHMYGOOD`
+- [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/)= `SPEELGOED`
+- [Sport & Fit](https://www.sportenfitcadeau.nl/)= `SPORTENFIT`
+- [Sports Gift Card](https://www.sports-giftcard.com/)= `SPORTSGIFT`
+- [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/)= `VVVGIFTCRD`
+- [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/)= `WIJNCADEAU`
+- [YourGift](https://www.yourgift.nl/)= `YOURGIFT`
 
 ----------------
 `currency` | string | required
@@ -104,12 +106,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -133,7 +138,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

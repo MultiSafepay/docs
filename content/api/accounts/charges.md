@@ -1,7 +1,7 @@
 ---
 weight: 372
 meta_title: "API - Charges - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -54,21 +54,24 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 As a partner or primary account holder, use this endpoint to move funds from an affiliated account's balance to your own. 
 
-By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
+By default, charges are disabled. To enable charges for your account, email <sales@multisafepay.com>
 
-For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/account/site-id-api-key-secure-code/). 
 
 **Parameters**
 
 ----------------
-`affiliated_id` | query parameter | required
+`affiliated_id` | path parameter | required
 
 The account ID of the affiliated account you want to charge. 
 
 ----------------
 `amount` | integer | required
 
-The amount to charge in cents. 
+The amount to charge in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `currency` | string | required
@@ -89,7 +92,8 @@ A description of the transaction, which is displayed in both your account and th
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 **Response**
 
@@ -113,7 +117,7 @@ Includes every available currency in the affiliate's account.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `payment_method` | string
@@ -129,7 +133,7 @@ See [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

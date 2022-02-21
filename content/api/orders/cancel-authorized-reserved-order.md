@@ -1,7 +1,7 @@
 ---
 weight: 221
 meta_title: "API reference - Cancel an authorized or reserved transaction - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 
@@ -33,7 +33,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 To cancel an authorized or reserved transaction, specify `cancelled`.
 

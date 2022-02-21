@@ -1,7 +1,6 @@
 ---
 weight: 209
 meta_title: "API reference - Apply dynamic template - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders 
@@ -132,18 +131,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ### Apply dynamic templates
 
-To apply a template to the [MultiSafepay payment page](/payments/checkout/payment-pages/), include in the transaction request:
+To apply a template to the [MultiSafepay payment page](/payment-pages/), include in the transaction request:
 
-- The `template_id` of a template within your MultiSafepay account, **or**
-- A template object structure. 
+- The `template_id` of a template within your MultiSafepay dashboard, **or**
+- A `template` object. 
 
-If you provide both, the template object is primary.
+If you provide both, `template` is used.
 
-**Template object structures**
+**Template object**
 
-The template object structure must include full JSON CSS parameters. If you only send partial CSS settings, the parameter you send overrides the default MultiSafepay template.
+The `template` object must include full JSON CSS parameters. If you only send partial CSS settings, the parameter you send overrides the default MultiSafepay template.
 
-When sending images in the template structure for the logo and header, you must use HTTPS, otherwise they will be ignored.
+When sending images in the template structure for the logo and header, you must use HTTPS, otherwise the images are ignored.
 
 **Parameters**
 
@@ -162,7 +161,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](#gateways).
 
 ----------------
@@ -174,12 +173,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10 
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -228,7 +230,7 @@ Contains:
 ----------------
 `template_id` | string | optional
 
-The identifier of a saved template from your MultiSafepay account. 
+The identifier of a saved template from your MultiSafepay dashboard. 
 The template structure overrides the `template_id`.
 
 ----------------
@@ -241,7 +243,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

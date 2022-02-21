@@ -1,7 +1,7 @@
 ---
 weight: 606
 meta_title: "API reference - payment_details (object) - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -46,9 +46,8 @@ The unique identifier for the recurring payment.
 ----------------
 `recurring_model` | string 
 
-The recurring model.  
-Options: `unscheduled`, `subscription`, `cardonfile`.  
-See also [Recurring models](/payments/features/tokenization/#recurring-models).
+The [recurring model](/features/recurring-payments/#recurring-models).  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 `type` | string

@@ -3,13 +3,13 @@ title: 'Prepaid cards'
 breadcrumb_title: "Prepaid cards"
 layout: 'block'
 meta_title: 'Prepaid cards - MultiSafepay Docs'
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Prepaid cards.svg'
 short_description: 'Accept payments using prepaid debit cards'
 weight: 40
+url: '/payment-methods/prepaid-cards/'
 data:
   - { title: 'Paysafecard', url: 'paysafecard', logo: '/logo/Payment_methods/Paysafecard.svg' }
   - { title: 'Gift cards', url: 'gift-cards', logo: '/logo/Payment_methods/VVV_Giftcards.svg' }
 aliases:
-    - /payment-methods/prepaid-cards/
+    - /payments/methods/prepaid-cards/
 --- 

@@ -1,7 +1,7 @@
 ---
-weight: 237
+weight: 227
 meta_title: "API reference - Specify recurring model - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -63,7 +63,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ### Specify recurring model
 
-Create an original [tokenization](/payments/features/tokenization) order using a specific recurring model:
+Create an initial [recurring payment](/features/recurring-payments) order using a specific recurring model:
 
 - **Card on file (COF)**: The cardholder has authorized you to store their card details.
 - **Subscription**: Agreement or services that are billed at the end of your billing cycle.
@@ -80,7 +80,7 @@ Options: `direct`, `redirect`.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
@@ -98,21 +98,22 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `recurring_model` | string | required
 
-The recurring model.  
-Options: `unscheduled`, `subscription`, `cardonfile`.  
-See also [Recurring models](/payments/features/tokenization/#recurring-models).
+The [recurring model](/features/recurring-payments/#recurring-models).  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.     
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10     
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
-Format: Maximum 200 characters.  
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
+Format: Maximum 200 characters.
 
 ----------------
 `payment_options` | object | required
@@ -129,7 +130,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 

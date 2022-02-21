@@ -3,25 +3,21 @@ title: "Activating EPS"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating EPS - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-short_description: "Applying to activate EPS in your MultiSafepay account"
+short_description: "Applying to activate EPS for your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/eps.svg'
+url: '/payment-methods/eps/activation/'
 aliases: 
     - /payment-methods/eps/activate-eps/
+    - /payments/methods/banks/eps/activation/
 ---
 
-**1.** Check whether EPS is supported by your ecommerce platform.
+{{< blue-notice >}} If using a ready-made integration: 
 
-**2.** To activate EPS:
+- First check that the payment method is supported. 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Settings** > **Payment methods**.
-3. Under **Additional payment methods**, select the **EPS** checkbox.  
-    If EPS is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
-3. Click **Save changes**.  
+{{< activate_payment_method name="EPS" >}}
 
-**3.** Enable EPS as a payment method in your [backend](/getting-started/glossary/#backend) to finalize the connection.
-
-For any questions, email your account manager at <sales@multisafepay.com>
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
 

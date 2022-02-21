@@ -1,7 +1,7 @@
 ---
 weight: 200
 meta_title: "API reference - Orders - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block hide >}}
 {{< /code-block >}}
@@ -14,10 +14,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 To process a transaction, you must create an order. There are two main types of orders:
 
-+ `Redirect`: The customer is redirected to a [MultiSafepay payment page](/payments/checkout/payment-pages/) (Connect) to complete payment.
++ `Redirect`: The customer is redirected to a [MultiSafepay payment page](/payment-pages/) (Connect) to complete payment.
 + `Direct`: The transaction is processed directly in the payment method's environment.
 
-For more information, see [Difference between direct and redirect](/developer/api/difference-between-direct-and-redirect).
+For more information, see [Direct vs redirect API requests](/developer/direct-vs-redirect).
 
 **Note:** All fields must be completed correctly.
 {{% /description %}}

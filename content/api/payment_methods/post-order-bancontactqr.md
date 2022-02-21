@@ -1,7 +1,7 @@
 ---
 weight: 306
 meta_title: "API reference - Create a Bancontact QR order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > POST - /orders
@@ -43,9 +43,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 {{< /code-block >}}
 {{< description >}}
-## Bancontact QR
+### Bancontact QR
 
-- See also Payment methods – [Bancontact](/payments/methods/banks/bancontact).  
+- See also Payment methods – [Bancontact](/payment-methods/bancontact).  
 - Redirect only.
 
 **Parameters**
@@ -65,7 +65,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Options: `MISTERCASH`.
 
 ----------------
@@ -77,12 +77,15 @@ Value: `EUR`.
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -110,7 +113,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
 
 ----------------
 `qr_url` | string 

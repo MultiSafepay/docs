@@ -3,60 +3,98 @@ title: "Bank Transfer payment flow"
 breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Bank Transfer payment flow - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
+url: '/payment-methods/bank-transfer/payment-flow/'
 aliases: 
     - /payment-methods/bank-transfer/how-does-bank-transfer-work/
+    - /payments/methods/banks/bank-transfer/payment-flow/
 ---
 
-The table below shows a successful payment flow from start to finish.  
+This diagram shows the flow for a successful transaction.
 
-{{< details title="About order and transaction statuses" >}}
+{{< mermaid class="text-center" >}}
 
-- Order status: the progression of the customer's order with you, independent of the payment
-- Transaction status: the progression towards settlement in your MultiSafepay balance
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant Me as Merchant
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+    C->>Mu: Selects Bank Transfer at checkout (direct/redirect)
+    Mu->>C: Emails MultiSafepay's bank account details
+    Note over Mu,C: Or email the details yourself
+    C->>Mu: Transfers funds (online or with teller)
+    Note over C,Mu: Takes 1–3 business days 
+    Mu->>Me: Matches payment and settles funds
+    
+{{< /mermaid >}}
+&nbsp;  
+
+|  |  |  |
+|---|---|---|
+| **Direct flow** | The customer is redirected straight to your success page and receives our bank details by email. | 
+| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), where they confirm their bank account number and (optionally) bank country. {{< br >}} MultiSafepay's bank account details are then displayed. | 
+
+## 1. Email payment details
+
+MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can [email them yourself](/payment-methods/bank-transfer/payment-flow/#emailing-payment-instructions-yourself).
+
+{{< screen src="/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius" >}}
+
+You can view the payment details for a transaction in your MultiSafepay dashboard, in the relevant **Transaction details** page under **Offline actions**.
+
+### Emailing payment instructions yourself
+
+You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;2.&nbsp;below).
+
+To prevent us from emailing the customer, in your `POST /orders` request, set the `disable_send_email` parameter to `true`. See API reference – [Bank Transfer](/api/#bank-transfer).
+
+## 2. Customer transfers funds
+
+The customer must only pay for **one** order per bank transfer. When transferring the funds, they must correctly input:  
+    
+- The amount
+- Their bank account number
+- The payment reference number (**not** the order number)  
+    **Format:** 16 digits, numbers only, no words
+
+## 3. MultiSafepay matches the payment
+
+When we receive payment from the customer (1–3 business days later), we automatically match it to the corresponding transaction in our system based on the payment details provided. If auto-matching fails, we try to match the payment manually.
+
+If we cannot match the payment:
+
+- For smaller amounts, we refund the customer.
+- For larger amounts, we contact you for information to help identify the correct transaction.
+
+This costs all parties time and effort, and creates a negative customer experience. 
+
+See [Resolving unmatched payments](/bank-transfer/unmatched-payments/).
+
+## Payment statuses
+
+{{< details title= "About order and transaction statuses" >}}
+
+**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
+
+**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
-
-|   | Flow | Order status | Transaction status |
-|---|---|---|---|
-| 1. | The customer initiates a transaction and provides an email address. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link. |   |  |
-| 3. | The customer receives details for a MultiSafepay bank account by email, sent by MultiSafepay or yourself (see below).  |   |  |
-| 4. | The customer transfers the funds to the MultiSafepay bank account, either online or with a bank teller. {{< br >}} The funds may take 1 to 3 business days to arrive in our account. | | |
-| 5. | MultiSafepay collects the funds and matches the payment to the outstanding transaction. {{< br >}} **Note:** If the customer provides incorrect data and/or pays the wrong amount, we won't link the payment to the outstanding transaction and instead refund the payment to the customer. | Completed | Completed |
-| 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
-
-{{< details title="Emailing payment instructions yourself" >}}
-
-If emailing your own payment instructions to the customer, in your `POST /orders` API request, set the `disable_send_email` parameter to `true`. 
-
-This prevents MultiSafepay emailing the customer.
-
-For more information, see API reference – [Bank Transfer: Direct](/api/#request-to-pay).
-
-{{< /details >}}
-
-## Unsuccessful statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction has been cancelled. | Void   | Cancelled   |
-| The customer didn't complete the payment and the transaction expired after the 60-day period. | Expired | Expired |
+| The customer has initiated a transaction. | Initialized | Initialized |
+| The transaction is complete. | Completed | Completed |
+| The transaction was cancelled. | Void   | Cancelled   |
+| The customer didn't complete  payment within 60 days and the transaction expired. | Expired | Expired |
 
 ## Refund statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has requested a refund. | Reserved | Reserved |
-| The refund has been successfully processed. | Completed | Completed |
-
-
-
-
-
-
+| The refund is complete. | Completed | Completed |

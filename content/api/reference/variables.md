@@ -1,7 +1,7 @@
 ---
 weight: 612
 meta_title: "API reference - Variables - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -20,6 +20,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 {{% /description %}}

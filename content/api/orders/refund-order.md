@@ -1,17 +1,19 @@
 ---
 weight: 212
 meta_title: "API reference - Process a refund - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders/{order_id}/refunds 
 
 ```json
 {
-  "order_id":"my-order-id-1",
-  "currency":"EUR",
-  "amount":8,
-  "description":"Your refund description"
+  "currency": "EUR",
+  "amount": "500",
+  "description": "",
+  "refund_order_id": "refund-order-id-1234",
+  "var1": "test-string1",
+  "var2": "test-string2",
+  "var3": "test-string3"
 }
 ```
 
@@ -32,13 +34,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ### Refund an order
 Process a full or partial [refund](/payments/refunds/) for an order.
 
+To refund pay later orders, see [Refund with shopping cart](/api/#refund-with-shopping-cart).
+
 **Parameters**
-
-----------------
-`order_id` | string | required
-
-Your unique identifier for the order.  
-Format: Maximum 50 characters.
 
 ----------------
 `currency` | string | required
@@ -49,28 +47,42 @@ This must be the same as the original transaction.
 ----------------
 `amount` | integer | required
 
-The amount (in cents) to be refunded.  
+The amount to be refunded in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10  
 
 **Note:** A 0 amount triggers a full refund. Use when the current balance of the transaction is unknown.
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).  
-Format: Maximum 200 characters.  
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
+Format: Maximum 200 characters.
+
+----------------
+`refund_order_id` | string | optional
+
+Your unique identifier for the refund.  If this is not set, the `order_id` is used.  
+Format: Maximum 50 characters.
+
+----------------
+`var1` / `var2` / `var3` | string | optional
+
+Variables for storing additional data with the refund.  
+Format: Maximum 500 characters.
 
 **Response** 
 
 ----------------
 `transaction_id` | integer
 
-MultiSafepay's identifier for the transaction (also known as the PSP ID).
+MultiSafepay's identifier for the original transaction for payment (also known as the PSP ID for the original order).
 
 ----------------
 `refund_id` | integer
 
-The identifier of the refund.
+MultiSafepay's identifier for the transaction for refund (also known as the PSP ID for the refund).
 
 ----------------
 {{% /description %}}

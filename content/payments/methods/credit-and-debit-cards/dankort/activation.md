@@ -3,15 +3,14 @@ title: "Activating Dankort"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Dankort - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-short_description: "Activating Dankort to use in your MultiSafepay account"
+short_description: "Activating Dankort for your MultiSafepay account"
 layout: 'child'
 ---
+{{< blue-notice >}} If using a ready-made integration: 
+
+- First check that the payment method is supported. 
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+
 Dankort payments are processed through the Visa gateway.
 
-To make Dankort available as a payment method on the MultiSafepay credit card payment page, you need to:
-
-- Ensure you have enabled the Visa gateway.
-- Set the [`locale`](/developer/api/using-locale-parameters) to `da_DK` (Denmark) in transaction requests.
-
-Download the Dankort logo from the [MultiSafepay logo collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 
+{{< activate_payment_method type="non-standard" name="Dankort" >}}

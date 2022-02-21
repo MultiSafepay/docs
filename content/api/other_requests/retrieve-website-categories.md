@@ -1,7 +1,7 @@
 ---
 weight: 540
 meta_title: "API reference - Retrieve website categories - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 {{< code-block >}}
 > GET - /categories
@@ -31,12 +31,12 @@ Retrieves a list of website categories.
 ----------------
 `code` | string 
 
-The unique identifier of the payment gateway.
+The unique identifier of the website category.
 
 ----------------
 `description` | string 
 
-A description of the transaction, which is displayed in both your account and the affiliated account.
+The website category name.
 
 ----------------
 

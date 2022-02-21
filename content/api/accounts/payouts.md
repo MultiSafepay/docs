@@ -1,7 +1,7 @@
 ---
 weight: 373
 meta_title: "API - Payouts - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -66,21 +66,24 @@ See also [Making payouts](/account/payouts/).
 
 As a partner or primary account holder, use this endpoint to pay out funds from an affiliated account's balance to a connected bank account. 
 
-By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email your account manager at <sales@multisafepay.com>
+By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email <sales@multisafepay.com>
 
-For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/account/site-id-api-key-secure-code/). 
 
 **Parameters**
 
 ----------------
-`affiliated_id` | query parameter  | required
+`affiliated_id` | path parameter  | required
 
 The account ID of the affiliated account you want to pay out funds from. 
 
 ----------------
 `amount` | integer | required
 
-The amount to pay out in cents. 
+The amount to pay out in the currency's smallest unit:  
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10  
 
 ----------------
 `currency` | string | required
@@ -101,7 +104,8 @@ A description of the transaction, which is displayed in the affiliated account.
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data.   
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 **Response**
 
@@ -118,7 +122,7 @@ The timestamp for when the order was created.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `order_id` | string 
@@ -139,7 +143,7 @@ See [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

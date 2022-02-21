@@ -1,8 +1,7 @@
 ---
-weight: 315
+weight: 321
 meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-draft: true
+
 ---
 {{< code-block >}}
 
@@ -15,7 +14,7 @@ draft: true
   "gateway":"GOOGLEPAY",
   "currency":"EUR",
   "amount":9743,
-  "description":"Test Order Description",
+  "description":"Test order description",
   "manual":false,
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
@@ -32,7 +31,7 @@ draft: true
 {
   "success": true,
   "data": {
-    "order_id": "apitool_6735216",
+    "order_id": "my-order-id-1",
     "payment_url": "https://devpayv2.multisafepay.com/connect/926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0/?lang=nl_NL",
     "session_id": "926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0"
   }
@@ -48,9 +47,11 @@ draft: true
   "gateway":"GOOGLEPAY",
   "currency":"EUR",
   "amount":1495,
-  "description":"Order Description",
+  "description":"Test order description",
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification"
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel"
   },
   "gateway_info":{
     "payment_token":"<google-pay-payment-token>"
@@ -64,7 +65,7 @@ draft: true
 {
   "success": true,
   "data": {
-    "order_id": "apitool_6735216",
+    "order_id": "my-order-id-1",
     "payment_url": "https://devpayv2.multisafepay.com/connect/926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0/?lang=nl_NL",
     "session_id": "926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0"
   }
@@ -77,7 +78,7 @@ draft: true
 
 ## Google Pay
 
-See also Payment methods – [Google Pay](/payments/methods/wallet/googlepay).  
+See also Payment methods – [Google Pay](/payment-methods/google-pay/).  
 
 ### Google Pay - redirect
 
@@ -98,8 +99,8 @@ Format: Maximum 35 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.    
-Value: `APPLEPAY`.
+The unique gateway identifier for the payment method.    
+Value: `GOOGLEPAY`.
 
 ----------------
 `currency` | string | required
@@ -110,12 +111,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -134,7 +138,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the MultiSafepay payment page where the customer is redirected from your checkout to complete payment.
 
 ----------------
 
@@ -157,8 +161,8 @@ Format: Maximum 35 characters.
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier to direct the customer straight to the payment method.    
-Value: `APPLEPAY`.
+The unique gateway identifier for the payment method.    
+Value: `GOOGLEPAY`.
 
 ----------------
 `currency` | string | required
@@ -169,12 +173,15 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount (in cents) the customer needs to pay.
+The amount the customer needs to pay in the currency's smallest unit:
+
+- Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+- Zero-decimal currencies: Value for ¥10 = 10
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by the customer's bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -184,7 +191,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 Value: `false`.
 
 ----------------
-`payment_options.` | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
@@ -193,7 +200,12 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payments/checkout/payment-pages/), the [issuer](/getting-started/glossary/#issuer), or the payment method.
+The URL of the page to redirect the customer to to complete payment. 
+
+Depending on [how the customer's card is stored](/payment-methods/google-pay/direct/#step-6-redirect-the-customer) in their Google Pay account, this URL references:
+
+- A 3D Secure authentication page, **or**
+- Your success page (`payment_options.redirect_url`)
 
 ----------------
 

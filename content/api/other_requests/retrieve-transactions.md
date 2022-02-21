@@ -1,7 +1,7 @@
 ---
 weight: 530
 meta_title: "API reference - Retrieve transactions - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 ---
 
 {{< code-block >}}
@@ -39,9 +39,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Retrieve transactions
 
-Get details about transactions in your account. 
+Get details about your transactions under your account. 
 
-For use cases and sample requests, see [Transactions endpoint](/business/accounting/transactions-api-endpoint/).
+For use cases and sample requests, see [Reconciliation through API](/accounting/api-reconciliation/).
 
 Requests retrieve an array of all transactions under your account. See also [Pagination](/developer/api/pagination/).
 
@@ -95,13 +95,13 @@ Timestamp. Returns transactions completed before but not on the specified date.
 ------------------
 `financial_status` | string (single value or array of values)
 
-Returns transactions with the specified [transaction status](/payments/multisafepay-statuses/).  
+Returns transactions with the specified [transaction status](/about-payments/multisafepay-statuses/).  
 Options: `completed`, `created`, `declined`, `error`, `expired`, `initialized`, `manual`, `new`, `refunded`, `reserved`, `uncleared`, `void`.               
 
 ------------------
 `status` | string (single value or array of values)
 
-Returns transactions with the specified [order status](/payments/multisafepay-statuses/).  
+Returns transactions with the specified [order status](/about-payments/multisafepay-statuses/).  
 Options: `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`.   
 
 ------------------

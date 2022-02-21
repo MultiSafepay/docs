@@ -1,7 +1,7 @@
 ---
 weight: 601
 meta_title: "API reference - customer object - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
+
 aliases:
     - /faq/api/ip_address
     - /faq/api/validating-customer-ip-address
@@ -27,7 +27,8 @@ aliases:
     "phone":"0208500500",
     "email":"simonsmit@example.com",
     "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
-    "referrer":"https://example.com"
+    "referrer":"https://example.com",
+    "reference": "customer-00001"
   }
 }
 ```
@@ -55,7 +56,7 @@ Default: `en_US` (American English).
 `ip_address` | string | required / recommended 
 
 The customer's IP address.  
-Required for [post-payment methods](/payments/methods/billing-suite/) and [credit cards](/payments/methods/credit-and-debit-cards/) as part of our [fraud check](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/), optional but recommended for other payment methods.  
+Required for [pay later methods](/payments/methods/pay-later/) and [credit cards](/payments/methods/credit-and-debit-cards/) as part of our [fraud check](/credit-cards-user-guide/uncleared-transactions/), optional but recommended for other payment methods.  
 If empty or incorrect (e.g. your IP address instead of the customer's) when required, the transaction status may be **Uncleared**, or even **Declined**.       
 
 ----------------
@@ -131,7 +132,7 @@ The customer's phone number.
 `email` | string | required
 
 The customer’s email address.   
-Used to send [Second Chance](/payments/boost/second-chance/) emails and to conduct fraud checks.
+Used to send [Second Chance](/features/second-chance/) emails and to conduct fraud checks.
 
 ----------------
 `user_agent` | string | required
@@ -144,9 +145,11 @@ A characteristic string that identifies a browser.
 The unique identifier of where the user/browser originates from.
 
 ----------------
-`reference` | string | For [tokenization](/payments/features/tokenization/) transactions: required
+`reference` | string | For [recurring payments](/features/recurring-payments/) transactions: required
 
-See [Create token transaction](/api/#create-tokenization-order).
+A unique client-defined identifier for your customer.
+
+See [Recurring Payments orders](/api/#recurring-payments-orders).
 
 ----------------
 
