@@ -32,16 +32,16 @@ This feature is still supported in the new plugin, but it now uses the following
 
 As of version 2.16, the following MultiSafepay statuses can be assigned to a Magento order status:
 
-- **initialized**
-- **uncleared**
-- **reserved**
-- **chargeback**
-- **refunded**
-- **partial refunded**
-- **void**
-- **declined**
-- **expired**
-- **canceled**
+- **Cancelled**
+- **Chargeback**
+- **Declined**
+- **Expired**
+- **Initialized**
+- **Partial refunded**
+- **Refunded**
+- **Reserved**
+- **Uncleared**
+- **Void**
 
 ## Order status flow  
 
