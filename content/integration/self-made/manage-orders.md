@@ -29,7 +29,7 @@ Before making any API requests, you must:
 - Have a [website-level API key](/account/site-id-api-key-secure-code/).
 - Choose the test or live [environment](/api/#environments).
 
-Your must include your API key in the request URL as a query parameter to be able to authenticate your request.  
+You must include your API key in the request URL as a query parameter to be able to authenticate your request.  
 
 While building your integration we recommend using the test environment: `https://testapi.multisafepay.com/v1/json`.
 

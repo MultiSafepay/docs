@@ -41,7 +41,7 @@ sequenceDiagram
 
 ## Integration requirements
 
-If you use one of our [ready-made integrations](/getting-started/choose-your-integration/#ready-made-integrations), this is set up automatically for you and you don't need to do anything.
+If you use one of our [ready-made integrations](/integrations/ready-made/), this is set up automatically for you and you don't need to do anything.
 
 If you use one of our [wrappers or SDKs](/developer/wrappers/), then you need to configure this as part of your integration. For more information, read the documentation that comes with the wrapper or SDK.
 
