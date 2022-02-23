@@ -15,7 +15,7 @@ Direct requests connect directly to the payment method, whereas redirect request
 
 For redirect requests, if the gateway for a specific payment method is:
 
-- Provided, the payment page is tailored for that payment method, e.g. for Visa, the page includes fields for the customer to enter their credit card details. 
+- Provided, the payment page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their credit card details. 
 - Not provided, the payment page displays all payment methods 
 
 Then, if further customer action is:
