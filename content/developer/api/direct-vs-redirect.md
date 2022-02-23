@@ -9,7 +9,7 @@ aliases:
     - /developer/api/difference-between-direct-and-redirect/
 ---
 
-With our API, you can make requests to create direct transactions and redirect transactions.
+With our API, you can create transactions through direct and redirect requests.
 
 Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [MultiSafepay payment page](/payment-pages/).
 
