@@ -1,11 +1,11 @@
 ---
 weight: 520
-meta_title: "API reference - Pay After Delivery pre-check - MultiSafepay Docs"
+meta_title: "API reference - Pay After Delivery customer credit score - MultiSafepay Docs"
 
 ---
 
 {{< code-block >}}
-> POST - /json/padprechecks
+> POST - /json/pad/css
 
 ```json
 {
@@ -170,19 +170,19 @@ meta_title: "API reference - Pay After Delivery pre-check - MultiSafepay Docs"
 
 {{< description >}}
 
-## Pay After Delivery pre-check
+## Pay After Delivery customer credit score
 
-Submit data related to a [Pay After Delivery](/payment-methods/pay-after-delivery/) order and customer for MultiSafepay to conduct a pre-check to determine whether to accept the order. 
+Submit data about a [Pay After Delivery](/payment-methods/pay-after-delivery/) order and customer. MultiSafepay conducts a pre-check and returns a customer credit score (CCS) to advise whether to accept the order. 
 
-If not accepted, the customer must select another payment method to complete payment.
+If the CCS recommends not accepting the order, the customer must select another payment method to complete payment.
 
-**Parameters**
+**Request body parameters**
 
 ----------------
 `type` | string | required
 
-The payment flow for the checkout process.  
-Options: `direct`.
+The payment flow.  
+Value: `direct`.
 
 ----------------
 `gateway` | string | required
@@ -199,13 +199,13 @@ Format: Maximum 50 characters.
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
