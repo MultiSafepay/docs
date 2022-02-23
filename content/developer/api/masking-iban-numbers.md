@@ -12,7 +12,7 @@ International bank account numbers (IBANs) are sensitive data.
 
 For security reasons, we mask IBANs by default in:
 
-- [`POST` notifications](/developer/api/notification-url/#post-notification-example)
+- [`POST` webhook notifications](/developer/webhooks/)
 - [`GET /orders/{order_id} responses`](/api/#get-order-details)
 
 When masked, only the last 4 digits of the IBAN are visible, e.g. `*** 1234`.

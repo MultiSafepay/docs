@@ -12,6 +12,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/cartes-bancaires/
     - /payment-methods/credit-and-debit-cards/cartes-bancaires
     - /payments/methods/credit-and-debit-cards/cartes-bancaires/
+    - /payments/methods/cartes-bancaires/
 ---
 
 Cartes Bancaires is a popular Visa-branded credit card in France.
