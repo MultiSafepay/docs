@@ -23,7 +23,7 @@ Then, if further customer action is:
 - Required, they are redirected to complete payment, e.g. for iDEAL the customer is redirected to their online banking environment. 
 - Not required, the transaction is completed automatically. 
 
-If you provide a [redirect URL](/developer/api/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
+If you provide a [redirect URL](/developer/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
 &nbsp;
 
 {{< mermaid class="text-center" >}}
