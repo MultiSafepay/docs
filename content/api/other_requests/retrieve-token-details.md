@@ -1,6 +1,6 @@
 ---
 weight: 511
-meta_title: "API reference - Get token details - MultiSafepay Docs"
+meta_title: "API reference - Get token - MultiSafepay Docs"
 
 ---
 
@@ -32,29 +32,41 @@ meta_title: "API reference - Get token details - MultiSafepay Docs"
 
 {{< description >}}
 
-### Get token details
+### Get token
 
-Retreive information about a specific [token](/features/recurring-payments).
+Get information about a [token](/features/recurring-payments).
 
 **Parameter**
 
 ----------------
-`token` | string | required
+`token` | string | path parameter | required
 
-The unique token linked to the customer reference.  
+The unique identifier of the token.  
 
 **Response**
 
 ----------------
+`token` | string | 
+
+The unique identifier of the token.
+
+----------------
 `code` | string 
 
-The unique identifier of the payment gateway you want to retrieve a list of issuers for.  
-Supported identifiers: [iDEAL](#ideal-issuers).
+The unique identifier of the payment method.  
+Options: `AMEX`, `DIREB`, `DIRECTBANK`, `IDEAL`, `MAESTRO`, `MASTERCARD`, `MISTERCASH`, `VISA`. 
+
+For more information, see [Payment method gateway IDs](https://docs.multisafepay.com/developer/gateway-ids/).
 
 ----------------
 `display` | string 
 
-How the customer's credit card number is displayed.  
+How the card number is displayed. 
+
+----------------
+`bin` | integer 
+
+The bank identification number (BIN) of the card. 
 
 ----------------
 `name_holder` | string 
@@ -64,7 +76,7 @@ The card holder's name.
 ----------------
 `expiry_date` | integer 
 
-The credit card expiry date.  
+The card expiry date.  
 Format: `monthnumberdatenumber`.  
 Example: December 2025 is formatted as `1225`.
 
@@ -76,7 +88,7 @@ Whether the card has expired.
 ----------------
 `last4` | string 
 
-The last 4 digits of the credit card number. 
+The last 4 digits of the card number. 
 
 ----------------
 `model` | string 
