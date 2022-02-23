@@ -47,6 +47,8 @@ For how to configure generic gateways, see the manual of your ready-made integra
 
 Use the relevant [payment method gateway IDs](/developer/gateway-ids).
 
+**Note:** Our [Lightspeed app](/lightspeed/) supports similar functionality automatically and doesn't require configuration.
+
 ## MultiSafepay gateways
 
 Our ready-made integrations also support a MultiSafepay payment gateway. This redirects customers from your webshop checkout to a MultiSafepay payment page displaying **all** of your activated payment methods. 
