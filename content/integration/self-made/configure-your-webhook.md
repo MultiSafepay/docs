@@ -18,8 +18,10 @@ You can configure the webhook at website level or at order level.
 You must set a webhook endpoint, which is a URL that:
 
 - Doesn't include port numbers.
-- Is publicly accessible, or has [MultiSafepay on your allow list](/developer/errors-explained/multisafepay-ip-ranges/).
+- Is publicly accessible, or has MultiSafepay on your allow list.
 - Uses HTTPS - We don't accept HTTP for security reasons.
+
+For a list of MultiSafepay IP addresses, email the Integration Team at <integration@multisafepay.com>
 
 ### Website level
 
