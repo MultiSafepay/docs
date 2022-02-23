@@ -84,7 +84,7 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
