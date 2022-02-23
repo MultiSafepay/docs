@@ -1,8 +1,7 @@
 ---
 title : "Activating MultiSafepay payment pages"
 weight: 10
-meta_title: "Payment pages - Activating MultiSafepay payment pages - MultiSafepay Docs"
-
+meta_title: "Activating MultiSafepay payment pages - MultiSafepay Docs"
 read_more: '.'
 url: '/payment-pages/activation/'
 aliases:
@@ -12,6 +11,9 @@ aliases:
     - /payments/checkout/payment-pages/activating-payv2/
     - /payments/checkout/payment-pages/requirements-for-visa/
     - /tools/payment-pages/visa-shows-address
+    - /faq/errors-explained/csrf
+    - /faq/errors-explained/csrf-errors
+    - /developer/errors-explained/csrf-errors/
 ---
 
 MultiSafepay payment pages (URL: `payv2.multisafepay.com`):
@@ -60,3 +62,15 @@ MultiSafepay payment pages support the following languages:
 When customers select Visa as payment method, Visa requires us to display on the payment page the city and country where your webshop is located. This measure aims to increase reliability, transparency, and safety for customers.
 
 {{< /details >}}
+
+## Integration
+
+See API reference – [Create a redirect order](/api/#create-a-redirect-order).
+
+### Known errors
+A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a `POST /orders` request.
+ 
+* `https://api.multisafepay.com` accepts `POST` and `GET` requests.
+* `https://payv2.multisafepay.com` only accepts `GET` requests.
+ 
+For support, email the Integration Team at <integration@multisafepay.com>

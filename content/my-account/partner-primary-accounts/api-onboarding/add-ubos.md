@@ -55,7 +55,6 @@ Add a new UBO to a merchant account.
 |email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters. Required.|
 |mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters. Optional.|
 |office_phone  <br /> `string`|The UBO's office phone number. <br /> **Format**: Max 25 characters. Optional.|
-|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters. Optional.|
 |job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters. Required.|
 |percentage  <br /> `integer`|The UBO's percentage of equity. <br /> **Format**: Non-fractional number from `25` to `100`. Required.|
 |type  <br /> `string`|The UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Required.|
@@ -89,7 +88,6 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accou
   "email": "email@address.com",
   "mobile_phone": "0123456789",
   "office_phone": "0123456789",
-  "fax": "0123456789",
   "job_title": "CEO",
   "percentage": 100,
   "type": "control_rights"
@@ -109,7 +107,6 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accou
     "country": "NL",
     "country_of_birth": "NL",
     "email": "email@address.com",
-    "fax": "0123456789",
     "id": "glmqo15bces6n",
     "job_title": "CEO",
     "mobile_phone": "0123456789",
@@ -150,7 +147,6 @@ Retrieve an array of all UBOs linked to a merchant account.
 |country  <br /> `string`|The UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |country_of_birth  <br /> `string`|The UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters.|
-|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters.|
 | id <br /> `string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
 |job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters.|
 |mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters.|
@@ -183,7 +179,6 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/{affiliate_accoun
       "country": "NL",
       "country_of_birth": "NL",
       "email": "email@address.com",
-      "fax": "0123456789",
       "id": "glmqo15bces6n",
       "job_title": "CEO",
       "mobile_phone": "0123456789",
@@ -228,7 +223,6 @@ Retrieve a specific UBO.
 |country  <br /> `string`|The UBO's country of residence. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |country_of_birth  <br /> `string`|The UBO's country of birth. <br /> **Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.|
 |email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters.|
-|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters.|
 | id <br /> `string` | The unique identifier of the UBO. Referred to as `ubo_id`. |
 |job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters.|
 |mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters.|
@@ -260,7 +254,6 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/{ubo_id}?api_key={you
     "country": "NL",
     "country_of_birth": "NL",
     "email": "email@address.com",
-    "fax": "0123456789",
     "id": "{ubo_id}",
     "job_title": "CEO",
     "mobile_phone": "0123456789",
@@ -306,7 +299,6 @@ Update information about an existing UBO.
 |email  <br /> `string`|The UBO's email address. <br /> **Format**: Max 100 characters. Optional.|
 |mobile_phone  <br /> `string`|The UBO's mobile phone number. <br /> **Format**: Max 25 characters. Optional.|
 |office_phone  <br /> `string`|The UBO's office phone number. <br /> **Format**: Max 25 characters. Optional.|
-|fax  <br /> `string`|The UBO's fax number. <br /> **Format**: Max 15 characters. Optional.|
 |job_title  <br /> `string`|The UBO's job title. <br /> **Format**: Max 100 characters. Optional.|
 |percentage  <br /> `integer`|The UBO's percentage of equity. <br /> **Format**: Non-fractional number from `25` to `100`. Optional.|
 |type  <br /> `string`|The UBO's type of equity. <br /> **Options**: `control_rights`, `shareholder`, `voting_rights` or `other`. Optional.|
@@ -344,7 +336,6 @@ curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n?api_k
     "country": "NL",
     "country_of_birth": "NL",
     "email": "newemail@address.com",
-    "fax": "0123456789",
     "id": "{ubo_id}",
     "job_title": "CEO",
     "mobile_phone": "0123456789",

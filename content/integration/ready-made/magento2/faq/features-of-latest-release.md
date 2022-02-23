@@ -30,14 +30,18 @@ This feature is still supported in the new plugin, but it now uses the following
 
 ## Order status
 
-We have removed the following **Order status** fields:
+As of version 2.16, the following MultiSafepay statuses can be assigned to a Magento order status:
 
-- **Declined**
-- **Canceled**
-- **Expired** 
+- **Cancelled**
 - **Chargeback**
-
-All MultiSafepay statuses now set the order to the default **Canceled** status via the offline action.
+- **Declined**
+- **Expired**
+- **Initialized**
+- **Partial refunded**
+- **Refunded**
+- **Reserved**
+- **Uncleared**
+- **Void**
 
 ## Order status flow  
 
