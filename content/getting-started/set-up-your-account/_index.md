@@ -19,7 +19,7 @@ This page provides an overview of setting up your MultiSafepay test account:
 3. [Generate an API key](/account/site-id-api-key-secure-code/). 
 4. [Add users](/account/adding-users/).
 5. [Connect your website to your backend](/account/connecting-websites-to-backend/).
-6. [Activate your selected payment methods](/account/activating-payment-methods/).
+6. [Activate your selected payment methods](/payments/activating-payment-methods/).
 
 Then, consider:  
 
@@ -28,7 +28,7 @@ Then, consider:
 - [Setting your notification URL](/account/setting-your-notification-url/) for us to send notifications about orders.
 - [Downloading the MultiSafepay app](/account/multisafepay-app/) to manage your account on the go.
 
-For full guidance, see [Account setup](/account/account-setup/).
+For full guidance, see [Manage my account](/account/manage-account/).
 
 ## Next steps
 

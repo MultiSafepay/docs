@@ -8,8 +8,16 @@ jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - name: Checkout source branch
+      uses: actions/checkout@master
+    - name: Insert deployment URL
+      uses: jacobtomlinson/gha-find-replace@v2
+      with:
+        find: "DEPLOYMENT_URL"
+        replace: "https://docs.multisafepay.com/"
+        regex: false
+        include: '**mlc_config.json'
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
-        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
         config-file: './.github/mlc_config.json'

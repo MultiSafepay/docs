@@ -26,5 +26,5 @@ An additional layer of security is provided by Verified by Visa (Visa's version 
 | **Chargebacks**   | Yes – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Transactions expire after** | 1 hour |
-| **Payment features** | [3D Secure](/features/3d-secure/) {{< br >}} [Manual Capture](/features/manual-capture/) {{< br >}} [MOTO](/features/moto/) {{< br >}} [Recurring payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) {{< br >}} [Server to Server](/features/server-to-server/) {{< br >}} [Zero Authorization](/features/zero-authorization/) |
+| **Payment features** | [3D Secure](/features/3d-secure/) {{< br >}} [Manual Capture](/features/manual-capture/) {{< br >}} [MOTO](/features/moto/) {{< br >}} [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) {{< br >}} [Server to Server](/features/server-to-server/) {{< br >}} [Zero Authorization](/features/zero-authorization/) |
 

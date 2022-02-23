@@ -1,8 +1,7 @@
 ---
 title: 'Manual Capture'
-weight: 70
+weight: 60
 meta_title: "Manual Capture - MultiSafepay Docs"
-
 layout: "single"
 logo: '/svgs/Manual_capture.svg'
 url: '/features/manual-capture/'
@@ -60,7 +59,7 @@ After expiration, the issuer can cancel the authorization and the funds are retu
 
 ## Activation
 
-To activate Manual Capture in your MultiSafepay account, email your account manager at <sales@multisafepay.com>
+To activate Manual Capture for your MultiSafepay account, email <sales@multisafepay.com>
 
 ## Integration
 To integrate Manual Capture using our API, see API reference – [Manual Capture authorization](/api/#manual-capture-orders).

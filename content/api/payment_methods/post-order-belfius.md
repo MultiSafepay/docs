@@ -47,14 +47,11 @@ meta_title: "API reference - Create Belfius order - MultiSafepay Docs"
   "currency":"EUR",
   "amount":1000,
   "gateway":"BELFIUS",
-  "description":"Test order description",
-  "custom_info":{
-    
-  },
+  "description":"product description",
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel"
+    "notification_url":"http://10.1.10.111/testtool/client/json-test/notification?type=notification",
+    "redirect_url":"http://10.1.10.111/testtool/client/json-test/notification?type=redirect",
+    "cancel_url":"http://10.1.10.111/testtool/client/json-test/notification?type=cancel"
   }
 }
 ```
@@ -163,7 +160,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -225,14 +222,9 @@ Value: `BELFIUS`.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-`custom_info` | object
-
-See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `payment_options` | object | required
@@ -264,16 +256,20 @@ The amount refunded to the customer.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string
 
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `fastcheckout` | string 

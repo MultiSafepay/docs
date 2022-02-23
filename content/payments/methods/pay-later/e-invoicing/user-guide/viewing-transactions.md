@@ -10,5 +10,5 @@ aliases:
 
 To see an overview of all successful transactions:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **E-Invoicing** > **Invoices**. 

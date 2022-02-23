@@ -1,6 +1,6 @@
 ---
 weight: 222
-meta_title: "API reference - Set order status of authorized transaction - MultiSafepay Docs"
+meta_title: "API reference - Fetch order status of authorized transaction - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -73,7 +73,7 @@ meta_title: "API reference - Set order status of authorized transaction - MultiS
         "amount":9743,
         "card_expiry_date":4412,
         "currency":"EUR",
-        "description":"MultiSafepay Test",
+        "description":"Zero Authorization Test",
         "external_transaction_id":234374824,
         "last4":1111,
         "payment_description":"Visa CreditCards",
@@ -86,7 +86,7 @@ meta_title: "API reference - Set order status of authorized transaction - MultiS
 ```
 {{< /code-block >}}
 {{< description >}}
-### Set order status of authorized transaction
+### Fetch order status of authorized transaction
 
 **Parameter**
 
@@ -125,14 +125,14 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string 
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+Format: Maximum 200 characters.
 
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -147,12 +147,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string | required

@@ -1,50 +1,72 @@
 {
     "replacementPatterns": [
         {
-            "pattern": "^/",
-	        "replacement": "https://docs.multisafepay.com/"
-        },
-        {
             "pattern": "&quot;",
             "replacement": ""
-        }
+        },
+        {
+          "pattern": "^/",
+          "replacement": "DEPLOYMENT_URL"
+        },
         {
             "pattern": "&amp;",
             "replacement": "&"
         }
     ],
     "ignorePatterns": [
-        {
-          "pattern": "^https*://www.example.com/"
-        },
-        {
-          "pattern": "https://www.mijnwebwinkel.nl/beheer/payment/sorting"
-        },
-        {
-          "pattern": "https://lightspeed.multisafepay.com/changelog&#39;"
-        },
-        {
-          "pattern": "https://www.shopware.com/en/pricing"
-        },
-        {
-          "pattern": "https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md&#39;"
-        },
-        {
-          "pattern": "https://eur-lex.europa.eu/legal-content/EN/TXT/.*"
-        },
-        {
-          "pattern": "https://yourdomain.com/index/paymentprovidernotification.*"
-        },
-        {
-          "pattern": "https://payv2.multisafepay.com/files/{{accountid}}/{{filename}"
-        },
-        {
-          "pattern": "https://www.nationale-tuinbon.nl"
-        },
-        {
-          "pattern": "https://www.shopify.com/login\?redirect=%2Fadmin%2Fauthorize_gateway%.*"
-        }
-      ],
-    "retryOn429": true,
-    "aliveStatusCodes": [200, 206, 999]
+      {
+        "pattern": "^https*://www\\.example\\.com/"
+      },
+      {
+        "pattern": "https://www\\.mijnwebwinkel\\.nl/beheer/payment/sorting"
+      },
+      {
+        "pattern": "https://www\\.shopware\\.com/en/pricing"
+      },
+      {
+        "pattern": "https://eur-lex\\.europa\\.eu/legal-content/EN/TXT/.*"
+      },
+      {
+        "pattern": "https://yourdomain\\.com/index/paymentprovidernotification.*"
+      },
+      {
+        "pattern": "https://payv2\\.multisafepay\\.com/files/{{accountid}}/{{filename}"
+      },
+      {
+        "pattern": "https://www\\.nationale-tuinbon\\.nl"
+      },
+      {
+        "pattern": "https://www\\.shopify\\.com/login\\?redirect=%2Fadmin%2Fauthorize_gateway%.*"
+      },
+      {
+        "pattern": "https://yourdomain\\.webshop\\.com.*"
+      },
+      {
+        "pattern": "https://support\\.cloudflare\\.com/hc/en-us/articles.*"
+      },
+      {
+        "pattern": "https://media\\.multisafepay\\.com.*"
+      },
+      {
+        "pattern": "https://support\\.ecwid\\.com/.*"
+      },
+      {
+        "pattern": "https://business\\.adobe\\.com/products/magento/magento-commerce\\.html.*"
+      },
+      {
+        "pattern": "https://www\\.duda\\.co/.*"
+      },
+      {
+        "pattern": "https://www\\.drupal\\.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher.*"
+      },
+      {
+        "pattern": "https://developer\\.android\\.com/guide/components/processes-and-threads.*"
+      },
+      {
+        "pattern": "https://myedenred\\.be.*"
+      }
+    ],
+  "timeout": "60s",
+  "retryOn429": true,
+  "aliveStatusCodes": [200, 206, 999]
 }

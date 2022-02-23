@@ -21,7 +21,7 @@ There are two ways to initiate a transaction:
 
 ### Ecommerce integration
 
-1. Enter the [API key](/getting-started/set-up-your-account/user-guide/viewing-your-api-key/) from your test account in your [backend](/glossaries/multisafepay-glossary/#backend).
+1. Enter the [API key](/account/site-id-api-key-secure-code/) from your test account in your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Place a test order, and then initiate a transaction using the payment method you want to test.
 
 ### API
@@ -40,7 +40,7 @@ A unique payment link is returned for you to complete the payment.
 
 ## 3. Check the transaction details
 
-To check the transaction details in your MultiSafepay test account:
+To check the transaction details in your dashboard:
 
 1. Go to **Transactions** > **Transactions overview**.
 2. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
@@ -49,26 +49,27 @@ For information about transaction statuses, see [Test payment details](/testing/
 
 ## 4. Set the notification URL
 
-MultiSafepay uses the notification URL as a webhook to send [transaction status](/payments/multisafepay-statuses/) updates to your integration.
+MultiSafepay uses the notification URL as a webhook to send [transaction status](/about-payments/multisafepay-statuses/) updates to your integration.
 
 For custom-built integrations, first create a webhook listener that listens at the notification URL. For more information, see [Notification URL](/developer/api/notification-url/).
 
-For all integrations, to set the notification URL in your MultiSafepay test account, follow these steps:
+For all integrations, to set the notification URL for your MultiSafepay test account, follow these steps:
 
-1. Go to **Settings** > **Website settings**.
-2. Select the relevant website.
-3. In the **Notification URL** field, enter your [notification URL](/tools/multisafepay-control/setting-your-notification-url/).
-4. Click **Save**.
+1. Sign in to your test dashboard. 
+2. Go to **Settings** > **Website settings**.
+3. Select the relevant website.
+4. In the **Notification URL** field, enter your [notification URL](/tools/multisafepay-control/setting-your-notification-url/).
+5. Click **Save**.
 
-**Note:** If you provide a `notification_url` in your `POST /orders` request, it overrides the notification URL in your MultiSafepay test account. 
+**Note:** If you provide a `notification_url` in your `POST /orders` request, it overrides the notification URL for your MultiSafepay test account. 
 
 ## 5. Check your connection with MultiSafepay
 
 To check that you have succesfully connected to our system, follow these steps:
 
-1. Sign in to your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
+1. Sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
 2. Go to **Transactions** > **Transactions overview**.
 3. Select the transaction to view the **Transaction details** page.
 4. Under **Offline actions**, in the **Status** field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
 
-**Note:** Once your live account is approved, ensure you use the API key from your live account instead of your test account.
+**Note:** Once your live account is approved, ensure you use the API key for your live account instead of your test account.

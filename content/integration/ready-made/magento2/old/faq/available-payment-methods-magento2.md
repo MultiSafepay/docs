@@ -10,7 +10,7 @@ read_more: "."
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payments/methods/credit-and-debit-cards/dankort), and [V Pay](/payment-methods/vpay)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay)
 
 {{< /details >}}
 
@@ -24,7 +24,7 @@ read_more: "."
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -34,7 +34,7 @@ read_more: "."
 
 {{< details title="Pay later" >}}
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [AfterPay](/payment-methods/afterpay)
 - [Betaal per Maand](/payment-methods/betaal-per-maand)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
@@ -46,7 +46,7 @@ read_more: "."
 {{< details title="Wallets" >}}
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 {{< /details >}}

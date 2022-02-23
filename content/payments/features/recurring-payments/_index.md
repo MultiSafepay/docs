@@ -1,11 +1,10 @@
 ---
-title: 'Recurring payments'
-weight: 30
-meta_title: "Recurring payments - MultiSafepay Docs"
+title: 'Recurring Payments'
+weight: 10
+meta_title: "Recurring Payments - MultiSafepay Docs"
 layout: 'single'
-
 logo: '/svgs/Tokenization.svg'
-short_description: 'Store payment details to make checkout more convenient.'
+short_description: 'Boost conversion and manage subscriptions using tokenization.'
 url: '/features/recurring-payments/'
 aliases: 
     - /tools/tokenization/how-do-i-get-tokenization/
@@ -16,19 +15,43 @@ aliases:
     - /payments/features/tokenization/
 ---
 
-To process recurring payments, MultiSafepay encrypts the customer's sensitive payment details for secure storage. The encrypted payment details can be referenced through a non-sensitive identifier, also called 'token'.
+Recurring Payments involves MultiSafepay encrypting customers' sensitive payment details for secure storage and providing merchants a non-sensitive identifier, known as a "token", to enable quick, easy repeat payments, e.g.:
 
-In subsequent payments, tokens can be used for:
 
-- **One-click payments**: The customer selects stored details for a frictionless checkout.
-- **Subscriptions**: The merchant uses the token to schedule payments periodically.
-- **Unscheduled**: The merchant uses the token for event-triggered payments e.g. toppping up an in-app balance.
+- **One-click payments:** The customer selects stored details for faster checkout.
+- **Subscriptions:** You use the token to collect payments at specific intervals, e.g. weekly, monthly.
+- **Unscheduled payments:** You use the token for event-triggered payments, e.g. mobile top-up when no credit left on phone.
+
+### Benefits
+
+- Subsequent payments are exempt from [SCA and 2FA](/payment-regulations/sca/).
+- MultiSafepay is responsible for [PCI DSS](/payment-regulations/pci-dss/) compliant storage of payment details. 
+- Customers can save multiple tokens.
+
+{{< blue-notice >}}
+Tokens are stored at account level rather than website level. If you operate multiple websites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Website A and offer one-click payments on Website B.
+{{< /blue-notice >}}
+
+## How it works
+
+{{< details title="Supported payment methods" >}}
+
+- American Express
+- Bancontact
+- iDEAL
+- Maestro
+- Mastercard
+- SEPA Direct Debit
+- Sofort
+- Visa
+
+{{< /details >}}
 
 ### Initial payment
 
-During the initial payment, customers are always asked to verify their identity through 3D Secure. Upon processing the payment, we encrypt the payment details for secure storage on our own servers. We return a non-sensitive token which is linked to the encrypted payment details. You can use the token to process recurring payments without needing to handle or store sensitive payment details. 
-
-Optionally, the amount for the initial payment can be set to `0`. In this case, no funds are transferred, but if the payment details are valid, a token is created. This is also called [Zero Authorization](/features/zero-authorization/).
+1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure. 
+2. MultiSafepay encrypts the payment details during processing and stores them securely on our servers. We return to you a non-sensitive token that references the encrypted payment details. 
+3. You can use the token to process recurring payments without needing to handle or store sensitive payment details.
 
 {{< mermaid class="text-center" >}}
 
@@ -38,22 +61,32 @@ sequenceDiagram
     participant Me as Merchant
     participant Mu as MultiSafepay
 
-    C->>Me: Enters payment details, <br> verifies identity with 3D Secure
+    C->>Me: Enters payment details, <br> and verifies identity with 3D Secure
     Me->>Mu: Forwards payment details
     Mu-->>Mu: Encrypts payment details <br> for secure storage
-    Mu->>Me: Returns a token <br> for future payments
+    Mu->>Me: Returns a token <br> for subsequent payments
     Me->>C: Redirects to success page
-    C-->>Me: Funds are transferred
+    C-->>Me: Collects funds
+
 
 {{< /mermaid >}}
 
 {{< br >}}
+&nbsp;
 
-### Subsequent payment: customer-initiated 
+#### Zero Authorization
+Optionally, you can set the amount for the initial payment `0`. No funds are transferred but a token is created (if the payment details are valid). 
 
-For subsequent payments, the merchant displays the customer's available tokens at checkout, e.g. MASTERCARD **43. The customer selects a token and confirms payment. The merchant includes the token in the request to MultiSafepay. MultiSafepay then decrypts the payment details to process the payment.
+See [Zero Authorization](/features/zero-authorization/).
 
-The customer doesn't need to provide any payment details, this is also called a 'one-click payment'.
+### Subsequent payments: Customer-initiated 
+
+1. You display the customer's available tokens at checkout, e.g. `MASTERCARD **43`. 
+2. The customer selects a token and confirms payment. They don't need to reprovide any payment details or pass 3D Secure authentication again. 
+3. You include the token in the request to MultiSafepay. 
+4. MultiSafepay decrypts the payment details and processes the payment. 
+
+This is also known as "one-click payment".
 
 {{< mermaid class="text-center" >}}
 
@@ -70,21 +103,24 @@ sequenceDiagram
     Mu-->>Mu: Decrypts relevant payment details <br> to process payment
     Mu->>Me: Confirms successful payment
     Me->>C: Redirects to success page
-    C-->>Me: Funds are transferred
+    C-->>Me: Collects funds 
+
 
 {{< /mermaid >}}
 
 {{< br >}}
 {{< br >}}
 
-### Subsequent payment: merchant-initiated 
+### Subsequent payments: Merchant-initiated 
 
-There are two common use-cases for merchant-initiated subsequent payments: 
+There are two common use cases for merchant-initiated subsequent payments: 
 
 - Subscriptions
 - Unscheduled payments
 
-Both subscriptions and unscheduled payments require a customer's consent, but no actions. In the request to MultiSafepay, the merchant includes the relevant token. MultiSafepay then decrypts the payment details to process the payment.
+1. The customer must give consent (once only). 
+2. You include the token in the request to MultiSafepay. 
+3. MultiSafepay decrypts the payment details and processes the payment.
 
 {{< mermaid class="text-center" >}}
 
@@ -94,51 +130,33 @@ sequenceDiagram
     participant Me as Merchant
     participant Mu as MultiSafepay
 
-    C-->>Me: Provides consent for <br> merchant-initiated payments
+    C-->>Me: Consents to <br> merchant-initiated payments
     Me->>Mu: Places order with token
-    Mu-->>Mu: Decrypts relevant payment details <br> to process payment
+    Mu-->>Mu: Decrypts payment details <br> to process payment
     Mu->>Me: Confirms successful payment
-    C-->>Me: Funds are transferred
+    C-->>Me: Collects funds
 
 {{< /mermaid >}}
 
 {{< br >}}
-{{< br >}}
 
-**Benefits**
+## Activation
 
-- Subsequent payments are exempt from [SCA and 2FA](/payment-regulations/sca/).
-- MultiSafepay assumes responsibility for compliant storage of payment details. 
-- Customers can store multiple tokens.
+Email a request to activate Recurring Payments to <sales@multisafepay.com>
 
-{{< details title="Supported payment methods" >}}
+## Integration
 
-- American Express
-- Bancontact
-- iDEAL
-- Maestro
-- Mastercard
-- SEPA Direct Debit
-- Sofort
-- Visa
-
-{{< /details >}}
-
-{{< blue-notice >}}
-Tokens are stored on an account-level. If you operate multiple websites from a single MultiSafepay account, you can offer cross-domain recurring payments e.g. tokenize a customer's details on website A to offer one-click payments on website B.
-{{< /blue-notice >}}
-
-## Recurring models
+### Recurring models
 MultiSafepay offers three recurring models:
 
-- **Card on file (COF)**: The cardholder has authorized you to store their card details.
-- **Subscription**: An agreement or services that are billed at the end of your billing cycle, e.g. weekly, monthly.
-- **Unscheduled**: Event-triggered, e.g. mobile top-up when no credit left on the phone.
+- `cardOnFile` 
+- `subscription`
+- `unscheduled` (event-triggered)
 
-Our [SDKs](/developer/wrappers/) support all three models. Our [plugins](/payments/integrations/) use COF only. 
+Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/payments/integrations/) use `cardOnFile` only. 
 
 ## Via our API
-See API reference – [Recurring payments](/api/#recurring-payments-orders).
+See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
 **Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
 
@@ -154,11 +172,9 @@ See API reference – [Recurring payments](/api/#recurring-payments-orders).
 
 {{< /details >}}
 
-## Via plugins
+### Via ready-made integrations
 
-Make sure you have enabled credit card payments and recurring payments in your MultiSafepay account.
-
-Email requests to your account manager at <sales@multisafepay.com>
+You must have **both** credit card payments and recurring payments enabled for your MultiSafepay account.
 
 {{< details title="Supported MultiSafepay plugins" >}}
 

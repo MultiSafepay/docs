@@ -172,7 +172,7 @@ meta_title: "API reference - Pay After Delivery pre-check - MultiSafepay Docs"
 
 ## Pay After Delivery pre-check
 
-Submit data related to a [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery/) order and customer for MultiSafepay to conduct a pre-check to determine whether to accept the order. 
+Submit data related to a [Pay After Delivery](/payment-methods/pay-after-delivery/) order and customer for MultiSafepay to conduct a pre-check to determine whether to accept the order. 
 
 If not accepted, the customer must select another payment method to complete payment.
 
@@ -213,7 +213,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

@@ -3,7 +3,7 @@ title : "MultiSafepay plugin for OsCommerce"
 github_url : "https://github.com/MultiSafepay/OsCommerce"
 download_url : "https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip"
 faq: "."
-changelog: https://docs.multisafepay.com/payments/integrations/ready-made/oscommerce/changelog/
+changelog: https://docs.multisafepay.com/integration/ready-made/oscommerce/changelog/
 meta_title: "OsCommerce plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your OsCommerce platform"
 logo: "/logo/Plugins/OsCommerce.svg"
@@ -26,14 +26,6 @@ aliases:
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your OsCommerce webshop.
-
-{{< details title="Test environment" >}}
-
-We recommend first installing the plugin in a test environment following the recommended OsCommerce installation procedure. Make sure you have made a backup.
-
-Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email your account manager at <sales@multisafepay.com>
-
-{{< /details >}}
 
 {{< details title="Support" >}}
 
@@ -61,7 +53,7 @@ Contact MultiSafepay:
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -81,11 +73,11 @@ Contact MultiSafepay:
 
 + [E-Invoicing](/payment-methods/e-invoicing)
 + [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**
 
-+ [PayPal](/payments/methods/wallet/paypal)
++ [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
 
@@ -107,11 +99,18 @@ Contact MultiSafepay:
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended OsCommerce installation procedure. Make sure you have made a backup. 
+
+Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
+
+{{< /blue-notice >}}
+
 1. Unpack the content of the .ZIP file in the root of your webshop.
 2. Sign in to your OsCommerce [backend](/glossaries/multisafepay-glossary/#backend).
 3. Go to **Modules** > **Payment**.

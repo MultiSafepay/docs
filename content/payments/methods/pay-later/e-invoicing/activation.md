@@ -13,10 +13,10 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
 3. To activate the payment method for:
 
@@ -32,19 +32,19 @@ aliases:
 
 ## Setup
 
-To set up E-Invoicing in your MultiSafepay account, follow these steps:
+To set up E-Invoicing in your MultiSafepay dashboard, follow these steps:
 
 {{< details title="1. Create an action" >}}
 
 Create an action in the form of an email, text message, or letter. Multiple actions form a collection flow. 
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **E-Invoicing** > **Action**.
 3. Click **Add new template**.
 4. Select the relevant delivery option(s): **Email address**, **SMS**, or **Letter**.
 5. For each delivery option, provide a description, e.g. "NL 1st invoice".
 6. Select a language.
-7. The default **From address** is `noreply@multisafepay.com`. When you edit this address, we recommend also adding a DNS record to your domain to avoid your messages being marked as spam. For more information, see your MultiSafepay account.
+7. The default **From address** is `noreply@multisafepay.com`. When you edit this address, we recommend also adding a DNS record to your domain to avoid your messages being marked as spam. For more information, see your MultiSafepay dashboard.
 8. Enter a **From name**.
 9. Enter a **Subject line**, e.g. "Invoice from Amazing Socks Ltd."
 10. **Plain body** indicates unformatted text. Design your preferred layout.
@@ -97,7 +97,7 @@ For questions about your order, call customer service on 0208500500 or email exa
 
 To create a collection flow, follow these steps:
 
-1. in your MultiSafepay account, go to **E-Invoicing** > **Workflows**.
+1. In your MultiSafepay dashboard, go to **E-Invoicing** > **Workflows**.
 2. Click **Create new**.
 3. Under **Settings**, select a template. 
 4. In the **Description** field, enter a name for the collection flow, e.g. "B2B Netherlands".
@@ -123,7 +123,7 @@ To create a collection flow, follow these steps:
 
 To activate your collection flow, follow these steps to link it to a specific website in your MultiSafepay account:
 
-1. in your MultiSafepay account, go to **Settings** > **Website settings**.
+1. In your MultiSafepay dashboard, go to **Settings** > **Website settings**.
 2. Click the relevant website to open the **Website settings** page.
 3. From the **E-Invoicing workflow** dropdown menu, select your preferred flow.
 

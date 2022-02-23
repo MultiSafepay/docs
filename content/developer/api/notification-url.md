@@ -24,7 +24,7 @@ For `POST` requests, we add the order data to the request body.
 You can ignore requests if:
 
 - We request the `notification_url` without the `timestamp` parameter.  
-- You receive the same [order status](/payments/multisafepay-statuses/). 
+- You receive the same [order status](/about-payments/multisafepay-statuses/). 
 
 Our API provides a `GET` and `POST` notification.
 
@@ -81,7 +81,7 @@ To calculate the signature/hash, follow these steps:
 Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's.
 
 ## GET vs POST notification
-The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
+The advantage of using the `POST` notification is it saves your web server trips. It doesn't have to request the [transaction status](/about-payments/multisafepay-statuses/) from our API again, and receive the updated transaction status directly in the notification payload.
 
 For security reasons, you must always validate the payload to make the `POST` notification comes from MultiSafepay and hasn't been tampered with.
 
@@ -97,7 +97,7 @@ If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend th
 ### Note:
 
 - Always use **https** in the `notification_url`.
-- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay account](https://merchant.multisafepay.com).
+- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 - Never include port numbers in your notification URL. For security reasons, we only process standard ports.
 - Make sure you authorize our [IP ranges](/developer/errors-explained/multisafepay-ip-ranges/) to access the notification URL.
 

@@ -49,7 +49,7 @@ The unique identifier of the order you want to update.
 ----------------
 `status` | string | required
 
-The new [order status](/payments/multisafepay-statuses/) of the order.  
+The new [order status](/about-payments/multisafepay-statuses/) of the order.  
 Options: `cancelled`, `shipped`.
 
 ----------------
@@ -81,7 +81,7 @@ The reason for updating the order.
 `invoice_id` | string | optional
 
 Add your invoice ID to an existing order.  
-The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay account.
+The ID appears on [reports](/business/accounting/reports/) generated from your MultiSafepay dashboard.
 
 ----------------
 `invoice_url` | string | optional

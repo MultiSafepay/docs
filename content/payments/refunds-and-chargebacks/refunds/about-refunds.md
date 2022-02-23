@@ -51,9 +51,9 @@ You can refund customers more than the amount of the original transaction, e.g. 
 
 To apply, follow these steps:
 
-1. Email your request to your account manager at <sales@multisafepay.com>
-2. The Risk Team assesses your application. 
-3. Once approved, the Risk Team enables the **Allow more than original** function in your MultiSafepay account.
+1. Email a request to <sales@multisafepay.com>
+2. The Risk Team assesses your request. 
+3. Once approved, the Risk Team enables the **Allow more than original** function for your MultiSafepay account.
 
 ## Cancelling refunds
 

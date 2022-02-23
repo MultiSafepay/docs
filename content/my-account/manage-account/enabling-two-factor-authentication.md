@@ -15,15 +15,15 @@ Two-factor authentication (2FA) is an optional, additional layer of security for
 When enabled, users must verify their identity with:
 
 - A password
-- A 6-digit token generated in the user's MultiSafepay mobile app for **every** Sign in
+- A 6-digit token generated in the user's MultiSafepay mobile app for **every** sign in
 
 ## Enabling 2FA
 
 ### Administrator 
 
-To enable 2FA in your MultiSafepay account, you must have administrator rights. 
+To enable 2FA for your MultiSafepay account, you must have administrator rights. 
 
-1. Sign in to your MultiSafepay account and go to [User management](https://merchant.multisafepay.com/user-management).
+1. Sign in to your MultiSafepay dashboard and go to [User management](https://merchant.multisafepay.com/user-management).
 
 2. Click the name of the user you want to enable 2FA for to open the **User details** page.
 
@@ -31,17 +31,17 @@ To enable 2FA in your MultiSafepay account, you must have administrator rights.
 
 4. Click **Save changes**.
 
-{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in your MultiSafepay account" align="center" screen_size="desktop" >}}
+{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling two-factor authentication in your MultiSafepay dashboard" align="center" screen_size="desktop" >}}
 
 For support, email the Support Team at <support@multisafepay.com>
 
 ### User
 
-The first time the user logs in to MultiSafepay account after 2FA is enabled, they must configure 2FA.
+The first time the user signs in to the MultiSafepay dashboard after 2FA is enabled, they must configure 2FA.
 
-1.  Sign in to [MultiSafepay account](https://merchant.multisafepay.com) on your laptop or PC. A dialog requesting a 6-digit token appears.
+1.  Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com) on your laptop or PC. A dialog requesting a 6-digit token appears.
 
-2. Open or [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app) the MultiSafepay app and Sign in.
+2. Open or [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app) the MultiSafepay app and sign in.
 
 3. Tap **More** in the bottom-right corner.
 
@@ -49,7 +49,7 @@ The first time the user logs in to MultiSafepay account after 2FA is enabled, th
 
 5. Copy the 6-digit token from your mobile device to the 2FA dialog on your computer or laptop.
 
-{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in your MultiSafepay account app" align="center" caption="The 6-digit token remains visible for 30 seconds" screen_size="mobile" >}}
+{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token in your MultiSafepay account app" align="center" caption="The 6-digit token remains visible for 30 seconds." screen_size="mobile" >}}
 
 ### Notes 
 

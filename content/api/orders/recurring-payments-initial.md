@@ -1,6 +1,6 @@
 ---
 weight: 225
-meta_title: "API reference - Create recurring payments orders - MultiSafepay Docs"
+meta_title: "API reference - Create Recurring Payments orders - MultiSafepay Docs"
 
 ---
 
@@ -112,9 +112,9 @@ meta_title: "API reference - Create recurring payments orders - MultiSafepay Doc
 {{< /code-block >}}
 
 {{< description >}}
-### Recurring payments – initial payment
+### Recurring Payments – initial payment
 
-Create an initial [recurring payments](/features/recurring-payments) order. In response to the initial payment, a token is returned as `payment_details.recurring_id`. Store this token with the `customer.reference`, as they're used for [subsequent payments](/api/#recurring-payments--subsequent-payment).
+Create an initial [Recurring Payments](/features/recurring-payments) order. In response to the initial payment, a token is returned as `payment_details.recurring_id`. Store this token with the `customer.reference`, as they're used for [subsequent payments](/api/#recurring-payments--subsequent-payment).
 
 **Parameters**
 
@@ -156,7 +156,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 `recurring_model` | string | required
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
-Options: `cardonfile`, `subscription`, `unscheduled`.  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 `amount` | integer | required
@@ -171,9 +171,8 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).  
-Format: Maximum 200 characters.  
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
+Format: Maximum 200 characters.
 
 ----------------
 `payment_options` | object | required
@@ -215,7 +214,7 @@ Value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object 
@@ -248,7 +247,7 @@ Information about linked transactions.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

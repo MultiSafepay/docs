@@ -57,9 +57,8 @@ The amount to be refunded in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).  
-Format: Maximum 200 characters.  
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
+Format: Maximum 200 characters.
 
 ----------------
 `refund_order_id` | string | optional
@@ -70,7 +69,8 @@ Format: Maximum 50 characters.
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data with the refund.
+Variables for storing additional data with the refund.  
+Format: Maximum 500 characters.
 
 **Response** 
 

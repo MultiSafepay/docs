@@ -52,9 +52,9 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `description` | string 
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard.
+   
+Format: Maximum 200 characters.
 
 ----------------
 `payment_description` | string
@@ -64,7 +64,7 @@ The payment method.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 ----------------
 `external_transaction_id` | string

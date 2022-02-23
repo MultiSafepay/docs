@@ -65,9 +65,8 @@ These features are based on [recurring payments](/features/recurring-payments/).
 ### Obsolete features
 Features that are no longer available:
 
-- Recurring payments – replaced by Magento Vault and Instant Purchase
+- Recurring Payments – replaced by Magento Vault and Instant Purchase
 - FastCheckout – no longer supported
-- PWA (REST) endpoints – replaced by GraphQL endpoints
 
 {{< /details >}}
 
@@ -91,7 +90,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -103,7 +102,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -111,7 +110,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [AfterPay](/payment-methods/afterpay)
 - [Betaal per Maand](/payment-methods/betaal-per-maand)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
@@ -121,7 +120,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [Google Pay](/payment-methods/google-pay)
 - [PayPal](/payment-methods/paypal)
 - [WeChat Pay](/payment-methods/wechat-pay)
@@ -151,7 +150,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 - [Winkelcheque](https://www.winkelcheque.nl/)
 - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
@@ -220,11 +219,11 @@ Sign in to your Magento 2 backend, and go to **Stores** > **Configuration** > **
 - **General settings:** Contains all main settings.  
   - Here you can configure all gateways and gift cards.  
   - For finding your account ID, site ID, site secure code, or [API key](/glossaries/multisafepay-glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
-  - Your account ID appears in the top-right corner of your MultiSafepay account.
+  - Your account ID appears in the top-right corner of your MultiSafepay dashboard.
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
-    - Make sure you have activated your selected payment methods in your [MultiSafepay account](https://merchant.multisafepay.com).
+    - Make sure you have activated your selected payment methods in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
-    - Make sure you have activated your selected gift cards in your [MultiSafepay account](https://merchant.multisafepay.com).  
+    - Make sure you have activated your selected gift cards in your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
     - For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
   
 {{< blue-notice >}}MultiSafepay is an official partner of [OneStepCheckout.com](/payments/integrations/ecommerce-platforms/magento2/faq/supported-magento2-checkouts/). {{< /blue-notice >}}

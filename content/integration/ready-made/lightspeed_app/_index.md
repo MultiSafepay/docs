@@ -3,7 +3,7 @@ title : "MultiSafepay app for Lightspeed"
 meta_title: "Lightspeed app - MultiSafepay Docs"
 faq: "."
 changelog_url: '.'
-changelog: 'https://lightspeed.multisafepay.com/changelog'
+changelog: https://lightspeed.multisafepay.com/changelog
 layout: 'single'
 type: 'App'
 logo: "/logo/Integrations/Lightspeed.svg"
@@ -21,19 +21,10 @@ aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/multiple-accounts/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/supported-payment-methods/
     - /ecommerce-platforms/lightspeed/
+    - /lightspeed-core/
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Lightspeed webshop.  
-
-For our deprecated Lightspeed core integration, see [Lightspeed core](/ecommerce-platforms/lightspeed-core/).
-
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended Lightspeed installation procedure. Make sure you have made a backup.
-
-This app is tested using the default one-step and one-page checkout using the default theme.
-
-{{< /details >}}
 
 {{< details title="Support" >}}
 &nbsp;  
@@ -58,7 +49,7 @@ Contact us:
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/) 
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/) 
 
 **Banking methods**  
 
@@ -70,24 +61,24 @@ Contact us:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly) 
 
 **Pay later methods**  
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [AfterPay](/payment-methods/afterpay)
 - [Betaal per Maand](/payment-methods/betaal-per-maand)
 - [E-Invoicing](/payment-methods/e-invoicing)
-- [in3](/payment-methods/billing-suite/in3)
+- [in3](/payment-methods/in3)
 - [Klarna](/payment-methods/klarna)
 - [Pay After Delivery](/payment-methods/pay-after-delivery)
 
 **Wallets**  
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**  
@@ -131,8 +122,11 @@ All payment methods still work if you don't use the Javascript files.
 
 {{< /details >}}
 
-
 ## Installation 
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Lightspeed installation procedure. Make sure you have made a backup.
+
+This app is tested using the default one-step and one-page checkout using the default theme. {{< /blue-notice >}}
 
 1. Sign in to your Lightspeed [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Apps** on the left-hand side of the dashboard.

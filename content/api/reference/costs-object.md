@@ -12,7 +12,7 @@ meta_title: "API reference - costs (object) - MultiSafepay Docs"
     {
       "transaction_id":123456789,
       "amount":0.19,
-      "description":"Refund order 258655825 for TEST TEST",
+      "description":"Refund order 258655825 for Test",
       "type":"internal",
       "created":"2019-03-01T16:14:02",
       "status":"completed"
@@ -45,9 +45,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | 
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+A description of the transaction.
 
 ----------------
 `type` | string 
@@ -68,7 +66,7 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 
 {{< /description >}}

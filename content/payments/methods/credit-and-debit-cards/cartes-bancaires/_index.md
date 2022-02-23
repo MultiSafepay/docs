@@ -6,8 +6,9 @@ layout: 'single'
 childlist: '.'
 logo: '/logo/Payment_methods/Carte-Bancaire.svg' 
 short_description: 'Visa-branded credit card in France.'
-url: '/payments/methods/cartes-bancaires/'
+url: '/payment-methods/cartes-bancaires/'
 aliases:
+    - /payments/methods/cartes-bancaires/
     - /payment-methods/credit-and-debit-cards/cartes-bancaires/
     - /payment-methods/credit-and-debit-cards/cartes-bancaires
     - /payments/methods/credit-and-debit-cards/cartes-bancaires/

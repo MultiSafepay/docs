@@ -39,7 +39,7 @@ meta_title: "API reference - Retrieve transactions - MultiSafepay Docs"
 {{< description >}}
 ## Retrieve transactions
 
-Get details about transactions in your account. 
+Get details about your transactions under your account. 
 
 For use cases and sample requests, see [Reconciliation through API](/accounting/api-reconciliation/).
 
@@ -95,13 +95,13 @@ Timestamp. Returns transactions completed before but not on the specified date.
 ------------------
 `financial_status` | string (single value or array of values)
 
-Returns transactions with the specified [transaction status](/payments/multisafepay-statuses/).  
+Returns transactions with the specified [transaction status](/about-payments/multisafepay-statuses/).  
 Options: `completed`, `created`, `declined`, `error`, `expired`, `initialized`, `manual`, `new`, `refunded`, `reserved`, `uncleared`, `void`.               
 
 ------------------
 `status` | string (single value or array of values)
 
-Returns transactions with the specified [order status](/payments/multisafepay-statuses/).  
+Returns transactions with the specified [order status](/about-payments/multisafepay-statuses/).  
 Options: `completed`, `initialized`, `uncleared`, `declined`, `cancelled`, `void`, `expired`, `refunded`, `partial_refunded`, `reserved`, `chargeback`, `shipped`.   
 
 ------------------

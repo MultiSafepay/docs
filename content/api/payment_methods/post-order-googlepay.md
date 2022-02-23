@@ -14,7 +14,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
   "gateway":"GOOGLEPAY",
   "currency":"EUR",
   "amount":9743,
-  "description":"Test Order Description",
+  "description":"Test order description",
   "manual":false,
   "payment_options":{
     "notification_url":"https://www.example.com/client/notification?type=notification",
@@ -31,7 +31,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
 {
   "success": true,
   "data": {
-    "order_id": "apitool_6735216",
+    "order_id": "my-order-id-1",
     "payment_url": "https://devpayv2.multisafepay.com/connect/926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0/?lang=nl_NL",
     "session_id": "926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0"
   }
@@ -47,9 +47,11 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
   "gateway":"GOOGLEPAY",
   "currency":"EUR",
   "amount":1495,
-  "description":"Order Description",
+  "description":"Test order description",
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification"
+    "notification_url":"https://www.example.com/client/notification?type=notification",
+    "redirect_url":"https://www.example.com/client/notification?type=redirect",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel"
   },
   "gateway_info":{
     "payment_token":"<google-pay-payment-token>"
@@ -63,7 +65,7 @@ meta_title: "API reference - Create a Google Pay order - MultiSafepay Docs"
 {
   "success": true,
   "data": {
-    "order_id": "apitool_6735216",
+    "order_id": "my-order-id-1",
     "payment_url": "https://devpayv2.multisafepay.com/connect/926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0/?lang=nl_NL",
     "session_id": "926YjHh8ZJUj83eQWPgTWKcy70J5F8s6vJ0"
   }
@@ -117,7 +119,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -136,7 +138,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
+The URL of the MultiSafepay payment page where the customer is redirected from your checkout to complete payment.
 
 ----------------
 
@@ -179,7 +181,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -189,7 +191,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 Value: `false`.
 
 ----------------
-`payment_options.` | object | required
+`payment_options` | object | required
 
 See [payment_options (object)](/api/#payment-options-object).
 
@@ -198,7 +200,12 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the page where the customer is redirected from your checkout to complete payment, which may be hosted by [MultiSafepay](/payment-pages/), the [issuer](/glossaries/multisafepay-glossary/#issuer), or the payment method.
+The URL of the page to redirect the customer to to complete payment. 
+
+Depending on [how the customer's card is stored](/payment-methods/google-pay/direct/#step-6-redirect-the-customer) in their Google Pay account, this URL references:
+
+- A 3D Secure authentication page, **or**
+- Your success page (`payment_options.redirect_url`)
 
 ----------------
 

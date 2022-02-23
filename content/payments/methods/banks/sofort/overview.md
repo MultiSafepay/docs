@@ -23,7 +23,7 @@ Once payment is completed, the customer cannot reverse it and Sofort guarantees 
 | **Currencies**  | EUR {{< br >}} **Note:** GBP, CHF, PLN are **not** supported. | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Recurring payments](/payments/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) |
+| **Payment features** | [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 day |
 | **Minimum amount** | 0,10 EUR |
 

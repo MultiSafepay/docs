@@ -3,7 +3,7 @@ title: "Activating Apple Pay"
 breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating Apple Pay - MultiSafepay Docs"
-short_description: "Activating Apple Pay in your MultiSafepay account"
+short_description: "Activating Apple Pay for your MultiSafepay account"
 layout: 'child'
 url: '/payment-methods/apple-pay/activation/'
 aliases: 
@@ -13,18 +13,18 @@ aliases:
 {{< blue-notice >}} If using a ready-made integration: 
 
 - First check that the payment method is supported. 
-- Once you have activated the method in your MultiSafepay dashboard, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
+- Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
 
-To use Apple Pay, you must also have credit card payments activated in your MultiSafepay account. If not already activated, email an application to your account manager at <sales@multisafepay.com>
+To use Apple Pay, you must also have credit card payments activated for your MultiSafepay account. If not already activated, email a request to <sales@multisafepay.com>
 
 In the email, provide your expected:
 
 - Average, minimum, and maximum credit card transaction amounts
 - Annual turnover in credit card transactions
 
-Once approved, to activate credit card payments and Apple Pay in your MultiSafepay account, follow these steps:
+Once approved, to activate credit card payments and Apple Pay for your MultiSafepay account, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
 3. To activate the payment method for:
 

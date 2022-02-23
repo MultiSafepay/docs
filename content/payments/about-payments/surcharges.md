@@ -1,7 +1,7 @@
 ---
 title : "Surcharges"
-weight: 40
-meta_title: "Payment regulations - Surcharges - MultiSafepay Docs"
+weight: 50
+meta_title: "Surcharges - MultiSafepay Docs"
 read_more: "."
 url: '/about-payments/surcharges/'
 aliases:
@@ -42,11 +42,11 @@ For hybrid card schemes such as American Express and Diners Club, each EU countr
 
 The rules for surcharging customers outside the EU remain unchanged. The PSD2 aims to protect European customers.
 
-## Settings changes in your backend and MultiSafepay account
+## Settings changes in your backend and MultiSafepay dashboard
 
 If you are currently surcharging prohibited transactions:
 
-- You do not need to change any settings in your MultiSafepay account.
+- You do not need to change any settings in your MultiSafepay dashboard.
 - You may need to update your settings in your [backend](/glossaries/multisafepay-glossary/#backend). 
 
 For support, contact the support department of the webshop plugin or your web developer.

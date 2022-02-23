@@ -11,7 +11,7 @@ aliases:
 
 **Refund rules**  
 
-- From your [MultiSafepay account](/account/multisafepay-account/processing-refunds/): Full refunds 
+- From your [MultiSafepay dashboard](/refunds/full-partial/): Full refunds 
 - From your VirtueMart [backend](/glossaries/multisafepay-glossary/#backend):  
     - Full refunds 
     - Refunding more than the original transaction is **not** supported

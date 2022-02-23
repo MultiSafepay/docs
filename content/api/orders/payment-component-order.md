@@ -72,7 +72,7 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
       "state": null,
       "zip_code": null
     },
-    "description": "product description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -93,7 +93,7 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
       {
         "amount": 100,
         "currency": "EUR",
-        "description": "product description",
+        "description": "Test order description",
         "external_transaction_id": 2826044090080124,
         "payment_description": "iDEAL",
         "status": "initialized",
@@ -151,7 +151,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | optional
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -163,7 +163,7 @@ See [customer (object)](/api/#customer-object).
 
 ----------------
 
-`customer.ip_address` | string | recommended
+`customer.ip_address` | string | required
 
 The customer's IP address.
 
@@ -212,7 +212,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object 
@@ -245,7 +245,7 @@ Information about linked transactions.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer
@@ -255,7 +255,8 @@ MultiSafepay's identifier for the transaction (also known as the PSP ID).
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `payment_url` | string 

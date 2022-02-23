@@ -1,6 +1,6 @@
 ---
 title : "MultiSafepay plugin for PrestaShop 1.6"
-download_url : "/integration/ready-made/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.7.0.zip"
+download_url : "/integration/ready-made/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.7.1.zip"
 changelog_url : "/integration/ready-made/prestashop-1-6/changelog/"
 changelog: https://docs.multisafepay.com/integration/ready-made/prestashop-1-6/changelog/
 faq: "."
@@ -27,12 +27,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.6 webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended PrestaShop 1.6 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 
 Contact us:
@@ -58,7 +52,7 @@ Contact us:
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -70,13 +64,13 @@ Contact us:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [AfterPay](/payment-methods/afterpay)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
 - [Klarna](/payment-methods/klarna)
@@ -85,7 +79,7 @@ Contact us:
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
@@ -106,11 +100,14 @@ Contact us:
 - Wijncadeau
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended PrestaShop 1.6 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
 2. Sign in to your PrestaShop 1.6 [backend](/glossaries/multisafepay-glossary/#backend).
 3. Go to **Modules and services** > **Payments and gateways**.  
@@ -119,5 +116,5 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 5. Enter your [API key](/glossaries/multisafepay-glossary/#api-key), and then click **Save**. {{% account_info %}}
 6. On the **Payments** tab, enable the relevant payment methods.
 
-**Note:** Payment links generated manually in your MultiSafepay account don't automatically create or update orders in your PrestaShop 1.6 backend.
+**Note:** Payment links generated manually in your MultiSafepay dashboard don't automatically create or update orders in your PrestaShop 1.6 backend.
 

@@ -24,13 +24,17 @@ aliases:
 
 Ecwid has developed an integration with MultiSafepay, which redirects customers to a [MultiSafepay payment page](/payment-pages/).
 
-### Requirements
+{{< details title="Requirements" >}}
 
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
-### Support
+{{< /details >}}
+
+{{< details title="Support" >}}
 
 Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
+
+{{< /details >}}
 
 {{< details title="Supported payment methods" >}}
 
@@ -38,7 +42,7 @@ Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including co-branded cards
+- [Visa](/payment-methods/visa), including co-branded cards
 
 **Banking methods**
 
@@ -65,6 +69,6 @@ For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc
 
 For instructions on integrating your Ecwid store with Wix, see Ecwid - [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
 
-You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but refunds are not supported in Wix webshops.
+You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com), but refunds are not supported in Wix webshops.
 
 

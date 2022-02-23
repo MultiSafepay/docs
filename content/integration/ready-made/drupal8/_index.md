@@ -25,12 +25,6 @@ This technical manual is for installing and configuring our free plugin for inte
 
 You can also install the plugin via your Drupal 8 & 9 [backend](/glossaries/multisafepay-glossary/#backend). 
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Shopware 6 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Versions" >}}
 &nbsp;  
 Drupal no longer provides security updates for Drupal 8.9.x, and will only provide bugfix support until early 2021 and security fixes until November 2021. 
@@ -65,7 +59,7 @@ Contact us:
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Maestro](/payment-methods/maestro)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payments/methods/credit-and-debit-cards/dankort), and [V Pay](/payment-methods/vpay)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay)
 
 **Banking methods**
 
@@ -77,7 +71,7 @@ Contact us:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -85,7 +79,7 @@ Contact us:
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [AfterPay](/payment-methods/afterpay)
 - [Betaal per Maand](/payment-methods/betaal-per-maand)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [Klarna](/payment-methods/klarna)
@@ -94,7 +88,7 @@ Contact us:
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
@@ -117,11 +111,14 @@ Contact us:
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Drupal 8 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 To install the latest stable version of our Drupal Commerce 2.x plugin, run the following command in your terminal:
 
 ```
@@ -135,5 +132,5 @@ The latest stable release is downloaded and installed in your Drupal Commerce 2.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your account ID, site ID, site code or API key. {{% account_info %}}
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
-5. Configure the options for all supported payment methods activated in your [MultiSafepay account](https://merchant.multisafepay.com).
+5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 

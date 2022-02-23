@@ -58,7 +58,7 @@ meta_title: "API reference - Get order details - MultiSafepay Docs"
       {
         "transaction_id":123456789,
         "amount":0.19,
-        "description":"Refund order 258655825 for TEST TEST",
+        "description":"Refund order 258655825 for Test",
         "type":"internal",
         "created":"2019-03-01T16:14:02",
         "status":"completed"
@@ -78,7 +78,7 @@ meta_title: "API reference - Get order details - MultiSafepay Docs"
         ],
         "created":"2019-03-01T16:14:02",
         "currency":"EUR",
-        "description":"Refund order 258655825 for TEST TEST",
+        "description":"Refund order 258655825 for Test",
         "modified":"2019-03-01T16:14:02",
         "status":"completed",
         "transaction_id":123456789
@@ -146,14 +146,14 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string 
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+Format: Maximum 200 characters.
 
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -163,12 +163,12 @@ See [items (object)](/api/#items-object).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string | required

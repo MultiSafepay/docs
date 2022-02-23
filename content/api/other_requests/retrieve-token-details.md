@@ -82,7 +82,7 @@ The last 4 digits of the credit card number.
 `model` | string 
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
-Options: `cardonfile`, `subscription`, `unscheduled`.  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 

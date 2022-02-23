@@ -25,7 +25,7 @@ E-Invoicing is a MultiSafepay pay later method with automation tools that gives 
 
 ## Notes
 
-E-Invoicing supports different delivery and invoice addresses. To enable this, email a request to your account manager at <sales@multisafepay.com>
+E-Invoicing supports different delivery and invoice addresses. To enable this, email a request to <sales@multisafepay.com>
 
 ## See also  
 

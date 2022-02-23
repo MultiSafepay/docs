@@ -19,7 +19,7 @@ noindex: '.'
 
 | | |
 |---|---|
-| **Ready-made integrations** | Google Pay (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** Magento 2.    |
+| **Ready-made integrations** | Google Pay (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** Magento 2 and WooCommerce. For these, use a [generic gateway](/developer/generic-gateways/).   |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Google branding** | When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines). |
 
@@ -39,6 +39,6 @@ To test Google Pay payments, follow these steps:
     &nbsp;  
     For more information about testing, see Google Pay – [Test with sample tokens](https://developers.google.com/pay/api/web/guides/resources/sample-tokens).
 &nbsp;  
-3. Check the status of the payment [in your test account](https://testmerchant.multisafepay.com/).
+3. Check the status of the payment [in your test dashboard](https://testmerchant.multisafepay.com/).
 
 For support, email the Integration Team at <integration@multisafepay.com>

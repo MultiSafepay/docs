@@ -20,7 +20,7 @@ For help selecting a method, email the Integration Team at <integration@multisaf
 ## Ready-made integrations
 MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. 
 
-{{< two-buttons href-2="/integrations/ready-made" text-2="Ready-made integrations" description-2="Integrations for platforms like Magento, WooCommerce, Shopify, and Lightspeed." img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/integrations/ready-made" text-2="Ready-made integrations" description-2="Integrations for platforms like Magento, WooCommerce, Shopware, and Lightspeed." img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
 
 ## Custom integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.

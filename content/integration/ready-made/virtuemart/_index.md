@@ -27,12 +27,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your VirtueMart webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended VirtueMart installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp; 
 Contact us:
@@ -115,11 +109,14 @@ Contact us:
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended VirtueMart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Sign in to your VirtueMart [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
@@ -137,7 +134,7 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
     - Account ID
-    - [Site ID, API key, and secure code](/set-up-your-account/site-id-api-key-secure-code)
+    - [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/)
     - Gateway ID  
 
 

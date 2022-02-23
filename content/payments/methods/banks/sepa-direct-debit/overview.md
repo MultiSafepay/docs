@@ -21,11 +21,11 @@ It is available in 36 countries and supports Sofort and iDEAL.
 
 |   |   |   |
 |---|---|---|
-| **Countries**  | [SEPA region]((https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf))  | 
+| **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | Yes – See below. | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Recurring payments](/payments/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) | 
+| **Payment features** | [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) | 
 
 ## Chargebacks
 

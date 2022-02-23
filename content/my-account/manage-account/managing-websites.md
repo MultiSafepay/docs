@@ -22,7 +22,7 @@ To process payments from a website operated by a separate legal entity, you must
 
 ## Adding websites
 
-1. Sign in to your MultiSafepay account. 
+1. Sign in to your MultiSafepay dashboard. 
 2. Go to **Settings** > **Website settings**.
 3. Click either:  
     {{< details title="Quick add website" >}}
@@ -31,7 +31,7 @@ To process payments from a website operated by a separate legal entity, you must
 2. In the **Description** field, enter the website name.  
     **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
 3. In the **Base URL** field, add the website’s URL. This must be the URL where you receive payments.
-4. If you want to receive [status updates](/payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+4. If you want to receive [status updates](/about-payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
 5. Click **Save**.
 
 {{< /details >}} 
@@ -42,7 +42,7 @@ To process payments from a website operated by a separate legal entity, you must
 2. From the **Website platform** list, select your ecommerce platform.  
     You are prompted to install the MultiSafepay ready-made integration for your ecommerce platform in your website. 
 3. From the **Category** list, select the type of products and/or services you sell from this website, and then click **Continue**.
-4. If you want to receive [status updates](/payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+4. If you want to receive [status updates](/about-payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
 5. In the **Description** field, enter your company name, and then click **Continue**.  
     **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.  
     A template of your MultiSafepay payment page is generated.
@@ -73,7 +73,7 @@ Your account is now linked to your website.
 
 To connect a website to your [backend](/glossaries/multisafepay-glossary/#backend), enter the required details: 
 
-- Most [ready-made integrations](/integrations/ecommerce-integrations): Your [API key, site ID, secure code](/account/site-id-api-key-secure-code/), and account ID (top-right corner of your account)  
+- Most [ready-made integrations](/integrations/ecommerce-integrations): Your [API key, site ID, secure code](/account/site-id-api-key-secure-code/), and account ID (top-right corner of your dashboard)  
 
 - Self-made integrations: The API key under **Website settings** in your account
 
@@ -83,7 +83,7 @@ The connection is finalized. To validate the connection, [place a test order](/i
 
 To delete a website from your account, follow these steps:
 
-1. Sign in to your MultiSafepay account.
+1. Sign in to your MultiSafepay dashboard.
 2. Go to **Settings** > **Website settings**.
 3. For the website you want to delete, click the green **Enabled** button in the right most column.
 4. In the **Disable payments** dialog, click **Delete**.

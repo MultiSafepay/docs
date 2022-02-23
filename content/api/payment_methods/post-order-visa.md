@@ -46,7 +46,7 @@ meta_title: "API reference - Create a Visa transaction - MultiSafepay Docs"
 
 ### Visa
 
-- See also Payment methods – [Visa](/payments/methods/credit-and-debit-cards/visa).  
+- See also Payment methods – [Visa](/payment-methods/visa).  
 - Redirect only.
 
 **Parameters**
@@ -88,7 +88,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

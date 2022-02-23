@@ -15,7 +15,7 @@ aliases:
 |   |   |  
 |---|---|
 | **Countries**  | Worldwide  | 
-| **Currencies**  | EUR {{< br >}} To request support for more currencies, email your account manager at <sales@multisafepay.com> | 
+| **Currencies**  | EUR {{< br >}} To request support for more currencies, email <sales@multisafepay.com> | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) | 
 | **Transactions expire after**  | 2 hours | 

@@ -8,7 +8,7 @@ aliases:
     - /developer/api/xml-api/
 ---
 
-Our XML API was superceeded by the [JSON API](/api).
+Our XML API was superceded by the [JSON API](/api).
 
 You can still use the XML endpoint to process transaction requests, but new payment methods, features, and tools are only supported by the JSON API.
 

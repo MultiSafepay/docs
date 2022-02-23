@@ -27,7 +27,7 @@ To increase transparency for customers, the name of your website appears on the 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
-| **Payment features** | [Second Chance](/features/second-chance/) {{< br >}} [Recurring payments](/payments/features/recurring-payments/) (banking only) |
+| **Payment features** | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/features/recurring-payments/) (banking only) |
 | **Transactions expire after** | 1.5 hours |
 
 ## iDEAL QR

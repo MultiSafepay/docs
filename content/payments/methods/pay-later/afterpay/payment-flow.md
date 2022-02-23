@@ -50,15 +50,15 @@ sequenceDiagram
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay is authorizing the payment. {{< br >}} You can still cancel it. | Uncleared | Uncleared |
-| MultiSafepay has sent a capture to AfterPay. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
+| AfterPay is authorizing the payment. {{< br >}} You can still decline it. | Uncleared | Uncleared |
+| MultiSafepay has sent a capture to AfterPay. {{< br >}} You can still decline it. | Completed  | Uncleared  |
+| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. {{< br >}} You can no longer decline the payment; you can only refund. | Shipped | Uncleared |
 | The transaction is complete. | Shipped | Completed |
 | AfterPay has declined the payment **or** the payment was cancelled. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Void | Cancelled |
 | You did not ship within 90 days of creating the transaction and it expired. | Expired | Expired |

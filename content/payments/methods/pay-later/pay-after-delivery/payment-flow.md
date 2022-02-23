@@ -56,7 +56,7 @@ To stop sending reminders, you can either:
 - Credit the invoice for a zero amount, or
 - Request to place the transaction on hold for up to 1 month
 
-Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
+Email a request to place transactions on hold to <klantenservice@multifactor.nl>  
 Provide the following information:
 
 - Transaction details
@@ -71,7 +71,7 @@ Provide the following information:
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 

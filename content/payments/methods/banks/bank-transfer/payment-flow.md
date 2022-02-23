@@ -43,7 +43,7 @@ MultiSafepay emails the customer the following payment details to include when t
 
 {{< screen src="/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius" >}}
 
-You can view the payment details for a transaction in your MultiSafepay account, in the relevant **Transaction details** page under **Offline actions**.
+You can view the payment details for a transaction in your MultiSafepay dashboard, in the relevant **Transaction details** page under **Offline actions**.
 
 ### Emailing payment instructions yourself
 
@@ -81,7 +81,7 @@ See [Resolving unmatched payments](/bank-transfer/unmatched-payments/).
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 

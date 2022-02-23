@@ -45,7 +45,7 @@ Use the following IBANs to test different transaction statuses.
 To test cancelling an order:
 
 1. Create an order.
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Cancel**.  
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Cancel**.  
   The order status changes to **Void**.
 
 ### Test refunding an order
@@ -54,7 +54,7 @@ To test refunding an order:
 
 1. Create an order using IBAN: NL87ABNA0000000001. 
 2. Wait until the transaction status changes to **Completed**.
-3. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 4. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.

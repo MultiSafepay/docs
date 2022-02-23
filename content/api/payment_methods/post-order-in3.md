@@ -14,7 +14,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -116,7 +116,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -259,7 +259,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
       "state": null,
       "zip_code": "1234AB"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": "...",
@@ -282,7 +282,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
       {
         "amount": 10000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "external_transaction_id": "9bdb61ee3f8b4acb944e392891b99a7f",
         "payment_description": "in3",
         "status": "initialized",
@@ -326,7 +326,7 @@ meta_title: "API reference - Create an in3 order - MultiSafepay Docs"
 {{< description >}}
 
 ## in3
-See also Payment methods – [in3](/payments/methods/billing-suite/in3).
+See also Payment methods – [in3](/payment-methods/in3).
 
 ### in3 - redirect
 
@@ -367,7 +367,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -471,7 +471,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -580,7 +580,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `description` | string
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 
 ----------------
 `fastcheckout` | string 
@@ -590,7 +590,7 @@ Value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object
@@ -633,7 +633,7 @@ See [shopping_cart.items (object)](/api/#shopping-cart-items-object).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

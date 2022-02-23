@@ -39,7 +39,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 ```
 > JSON response
 
-```shell
+```json
 {
   "success":true,
   "data":{
@@ -48,7 +48,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
     "created":"2017-08-07T10:07:07",
     "currency":"EUR",
     "amount":100000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,
@@ -119,7 +119,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
 ```
 > JSON response
 
-```shell
+```json
 {
   "success":true,
   "data":{
@@ -128,7 +128,7 @@ meta_title: "API reference - Create a Santander Betaal per Maand order - MultiSa
     "created":"2017-08-07T10:07:07",
     "currency":"EUR",
     "amount":100000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,
@@ -191,7 +191,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-Valuegateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `SANTANDER`.
 
 ----------------
@@ -211,7 +211,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -240,7 +240,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -255,12 +256,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string
@@ -309,7 +310,7 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-Valuegateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `SANTANDER`.
 
 ----------------
@@ -329,7 +330,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -358,7 +359,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -373,12 +375,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string

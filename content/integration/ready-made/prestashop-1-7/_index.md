@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for PrestaShop 1.7"
 github_url : "https://github.com/MultiSafepay/prestashop-official"
 meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
-download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.1.1/Plugin_PrestaShop_5.1.1.zip"
+download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.2.0/Plugin_PrestaShop_5.2.0.zip"
 changelog_url : "."
 faq: "."
 logo: "/logo/Plugins/PrestaShop.svg"
@@ -11,7 +11,7 @@ title_short: "PrestaShop 1.7"
 type: 'Plugin'
 layout: 'single'
 layout: 'single'
-changelog: 'https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md'
+changelog: https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md
 url: '/prestashop/'
 aliases: 
     - /plugins/prestashop-1-7
@@ -25,12 +25,6 @@ aliases:
     - /ecommerce-platforms/prestashop-1-7/
 ---
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
-
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended PrestaShop 1.7 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
 
 {{< details title="Support" >}}
 
@@ -69,7 +63,7 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -81,7 +75,7 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -89,7 +83,7 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [AfterPay](/payment-methods/afterpay)
 - [Betaal per Maand](/payment-methods/betaal-per-maand)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
@@ -129,27 +123,16 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
-{{< details title="Upgrading to version 5.x from an older version" >}}
-
-When you update from an older version of the plugin to 5.x, keep the older version installed until you are sure that orders created with the new plugin are successfully processed.
-
-## Switching to the new plugin
-
-1. Go to **Modules** > **Module Manager** > **MultiSafepay** > **Configure**.
-2. Open the **Payment Methods** tab.
-3. Set all Payment Methods to **off**.
-4. Open the **Giftcards** tab.
-5. Set all gift cards to **off**.
-6. Install and configure the new plugin following the instructions below.
-7. Don't uninstall the older plugin until you are sure that orders created with the new plugin are successfully processed 
-
-{{< /details >}}
+{{< blue-notice >}}**Important change:** In the previous version of the plugin, PrestaShop backend orders were only created for MultiSafepay orders with **Completed** status. Now, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status. {{< /blue-notice >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended PrestaShop 1.7 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Sign in to your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
@@ -162,6 +145,12 @@ When you update from an older version of the plugin to 5.x, keep the older versi
 4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
 
+## Upgrading to version 5.x from an older version
 
+1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
+2. On the **Payment methods** tab, set all payment methods to **Off**.
+3. On the **Gift cards** tab, set all gift cards to **Off**.
+4. Install and configure the new plugin following the instructions below.
+5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
 

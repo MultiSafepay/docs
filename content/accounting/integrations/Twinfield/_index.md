@@ -18,7 +18,7 @@ aliases:
     - /tools/accounting/accounting-integrations/twinfield/
 ---
 
-You can export MT940 accountant reports from your MultiSafepay account and import them into your Twinfield account. 
+You can export MT940 accountant reports from your MultiSafepay dashboard and import them into your Twinfield account. 
 
 You must first provide Twinfield with an additional international bank account number (IBAN). This can be a _dummy_, or placeholder, IBAN.
 
@@ -33,10 +33,10 @@ To generate a dummy IBAN, follow these steps:
 5. Click **Calculate IBAN**.
 6. A dummy IBAN and BIC code are generated.
 
-## Exporting from your MultiSafepay account
-To export a MT940 accountant report from your MultiSafepay account, follow these steps:
+## Exporting from your MultiSafepay dashboard
+To export a MT940 accountant report from your MultiSafepay dashboard, follow these steps:
 
-1. Sign in to your MultiSafepay account.
+1. Sign in to your MultiSafepay dashboard.
 2. Go to **Reports** > **Accountant Export**. 
 3. In **Data Selection**, select a date range.
 4. In the **Report Type** field, select **MT940**.

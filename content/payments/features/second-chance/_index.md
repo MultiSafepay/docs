@@ -1,10 +1,10 @@
 ---
 title: 'Second Chance'
-weight: 10
+weight: 30
 meta_title: "Second Chance - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/Second Chance.svg'
-short_description: 'Send customers a friendly reminder to complete payments'
+short_description: 'Boost conversion by sending customers reminders about abandoned payments.'
 url: '/features/second-chance/'
 aliases:
     - /tools/second-chance/about-second-chance/
@@ -29,10 +29,10 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 - Second Chance emails cannot be activated or sent to the customer while the status of the original transaction is **Uncleared**, or once it is **Completed**.
 
-- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting session lifetimes](/api/#adjust-session-lifetimes).
 
 - The following payments methods are not supported because they follow a different payment flow:
-    - [AfterPay](/payments/methods/billing-suite/afterpay)
+    - [AfterPay](/payment-methods/afterpay)
     - [Bank Transfer](/payment-methods/bank-transfer)
     - [Betaal per Maand](/payment-methods/betaal-per-maand)
     - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
@@ -47,7 +47,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 ## Activating Second Chance
 To activate Second Chance, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
@@ -55,7 +55,7 @@ To activate Second Chance, follow these steps:
 ## Customizing the emails
 The Second Chance email template is completely customizable. Follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Email templates**.
 3. Select the relevant website.
 4. Click **Add new template**.
@@ -63,7 +63,7 @@ The Second Chance email template is completely customizable. Follow these steps:
 6. From the **Language** dropdown menu, select the relevant language.
 7. Click **Load default template**.
 
-For how to customize the template, see [Email templates](/features/email-templates/).
+For how to customize the template, see [Email Templates](/features/email-templates/).
 
 ## Potential errors
 
@@ -71,7 +71,7 @@ For how to customize the template, see [Email templates](/features/email-templat
 
 Second Chance emails can create conflicts with external warehouse systems. In some cases, this can be resolved using a cron job. However, this is not always a stable solution.
 
-For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API reference - [Adjust payment link lifetimes](/api/#adjust-payment-link-lifetimes).
+For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API reference - [Adjust session lifetimes](/api/#adjust-session-lifetimes).
 
 If a cancelled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock.
 
@@ -91,4 +91,4 @@ If you have another order for the same total amount with the same customer email
 
 ## Second Chance reports
 
-For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/business/accounting/reports/second-chance-report/).
+For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/accounting/reports/second-chance-report/).

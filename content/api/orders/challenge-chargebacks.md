@@ -32,31 +32,31 @@ meta_title: "API reference - Challenge chargebacks - MultiSafepay Docs"
 
 MultiSafepay can challenge [chargebacks](/payments/chargebacks/) on your behalf. To do so, we need documented proof of the order.
 
-You can upload the files or documents via a `POST /order/{order_id}/files` request.
+Use this request to upload relevant files.
 
 **Parameters**
 
 ----------------
 `type` | string | required
 
-The payment flow for the checkout process.  
+The type of order you want to create, in this case a chargeback challenge.  
 Options: `chargeback`.
 
 ----------------
 `base64` | string | required
 
-Binary Base 64 encoded.  
+The format of the file you're uploading.  
 Format: PDF, JPEG, PNG. 
 
 ----------------
 `description` | integer | required
 
-Description of or comments on the submitted file. 
+A Description of or comments on the file you're uploading. 
 
 ----------------
 `name` | string | required
 
-Name of the submitted file.
+The name of the file you're uploading.
 
 ----------------
 

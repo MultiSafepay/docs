@@ -143,8 +143,8 @@ meta_title: "API reference - Create Bank Transfer order - MultiSafepay Docs"
       "destination_holder_swift":"DEUTNL2NXXX",
       "account_holder_country":"NL"
     },
-    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=apitool_13890779",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=apitool_13890779"
+    "payment_url":"https://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
+    "cancel_url":"https://www.example.com/client/notification?type=cancel&transactionid=my-order-id-1"
   }
 }
 ```
@@ -194,7 +194,7 @@ Value: `BANKTRANS`.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -266,7 +266,7 @@ Value: `BANKTRANS`.
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -306,7 +306,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -321,12 +322,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `reason` | string 

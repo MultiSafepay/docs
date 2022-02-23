@@ -15,7 +15,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#in3---direct) and [redirect](/api/#in3---redirect) |
-| **Ready-made integrations** | in3 (direct) is supported in the following ready-made integrations: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [Magento 1](/magento-1/) {{< br >}} [OpenCart](/opencart/) {{< br >}} [PrestaShop 1.7](/prestashop-1-7/) {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [WooCommerce](/woo-commerce/)   |
+| **Ready-made integrations** | in3 (direct) is supported in the following ready-made integrations: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [Magento 1](/magento-1/) {{< br >}} [OpenCart](/opencart/) {{< br >}} [PrestaShop 1.7](/prestashop/) {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [WooCommerce](/woo-commerce/)   |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
@@ -56,7 +56,7 @@ The order and transaction statuses change to **Declined**.
 To test shipping an order, either:
 
 - Make an [update an order](/api/#update-an-order) API request with status `shipped`, or 
-- In your MultiSafepay test account, go to **Order summary**, and then click **Order status**.
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 ### Receive an invoice
 

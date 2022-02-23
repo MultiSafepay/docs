@@ -23,13 +23,6 @@ aliases:
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your CS-Cart webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-
-We recommend first installing the plugin in a test environment following the recommended Shopware 6 installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp; 
 Contact us:
@@ -55,7 +48,7 @@ Contact us:
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Maestro](/payment-methods/maestro)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payments/methods/credit-and-debit-cards/dankort), and [V Pay](/payment-methods/vpay)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay)
 
 **Banking methods**
 
@@ -67,7 +60,7 @@ Contact us:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -75,7 +68,7 @@ Contact us:
 
 **Pay later methods**
 
-+ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [AfterPay](/payment-methods/afterpay)
 + [Betaal per Maand](/payment-methods/betaal-per-maand)
 + [E-Invoicing](/payment-methods/e-invoicing)
 + [Klarna](/payment-methods/klarna)
@@ -84,7 +77,7 @@ Contact us:
 **Wallets**
 
 + [Alipay](/payment-methods/alipay)
-+ [Apple Pay](/payments/methods/wallet/applepay)
++ [Apple Pay](/payment-methods/apple-pay)
 + [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
@@ -107,15 +100,18 @@ Contact us:
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended CS-Cart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
  1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
  2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
  3. Delete the `msp_installer.php` file.
- 4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [notification URL](/tools/multisafepay-control/set-your-notification-url).
+ 4. In your [MultiSafepay dashboard](https://merchant.multisafepay.com), provide your [notification URL](/tools/multisafepay-control/set-your-notification-url).
 
 ## Configuration
 1. Sign in to your CS-Cart [backend](/glossaries/multisafepay-glossary/#backend).
@@ -126,6 +122,6 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 6. Fill out the other fields as required.
 7. Click **Create**.
 8. In the **Configure** tab, enter your account ID, site ID, and site code. {{% account_info %}}
-Your account ID appears in the top right corner of your MultiSafepay account.
+Your account ID appears in the top right corner of your MultiSafepay dashboard.
 
 Extra options such as **IP-Validation** and **debugmode** are intended for developers. Leave them unchanged.

@@ -109,7 +109,7 @@ meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
       "state": null,
       "zip_code": "1033SC"
     },
-    "description": "product description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
@@ -130,7 +130,7 @@ meta_title: "API reference - Create a WeChat Pay order - MultiSafepay Docs"
         "account_id": "wx<string>",
         "amount": 1000,
         "currency": "EUR",
-        "description": "product description",
+        "description": "Test order description",
         "external_transaction_id": "wx<string>",
         "payment_description": "WeChat Pay",
         "status": "initialized",
@@ -204,7 +204,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -261,7 +261,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -310,7 +310,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `description` | string
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 
 ----------------
@@ -321,7 +321,7 @@ Fixed value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `modified` | string
@@ -375,7 +375,7 @@ Information about linked transactions.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

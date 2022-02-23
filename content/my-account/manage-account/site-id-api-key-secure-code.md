@@ -13,15 +13,14 @@ aliases:
     - /developer/api/generating-your-api-key/
     - /faq/api/generate-your-api-key
     - /faq/api/generating-your-api-key
-    - /set-up-your-account/site-id-api-key-secure-code
 ---
 ## Account API key
-Your MultiSafepay account API key is automatically generated when your account is created. To retrieve it, email your account manager at <sales@multisafepay.com>
+Your MultiSafepay account API key is automatically generated when your account is created. To retrieve it, email <sales@multisafepay.com>
 
 ## Website API key, site ID, and secure code
 To view the site ID, API key, and secure code for a specific website:
 
-1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay account.
+1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay dashboard.
 
 2. Go to **Settings** > **Website settings**.
 

@@ -60,7 +60,7 @@ Contact MultiSafepay:
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Maestro](/payment-methods/maestro)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payment-methods/dankort)
 
 **Banking methods**
 
@@ -72,7 +72,7 @@ Contact MultiSafepay:
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -80,9 +80,9 @@ Contact MultiSafepay:
 
 **Pay later methods**
 
-+ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [AfterPay](/payment-methods/afterpay)
 + [E-Invoicing](/payment-methods/e-invoicing)
-+ [in3](/payment-methods/billing-suite/in3)
++ [in3](/payment-methods/in3)
 + [Klarna](/payment-methods/klarna)
 + [Pay After Delivery](/payment-methods/pay-after-delivery)
 
@@ -110,7 +110,7 @@ Contact MultiSafepay:
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 

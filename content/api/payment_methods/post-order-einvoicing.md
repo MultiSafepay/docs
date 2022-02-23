@@ -12,7 +12,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": "10000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "gateway_info": {
     "birthday": "1980-01-30",
@@ -109,7 +109,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": "10000",
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "gateway_info": {
     "birthday": "1980-01-30",
@@ -258,7 +258,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
       "state": null,
       "zip_code": "2521VA"
     },
-    "description": "Test Order Description",
+    "description": "Test order description",
     "fastcheckout": "NO",
     "financial_status": "uncleared",
     "items": "...",
@@ -283,7 +283,7 @@ meta_title: "API reference - Create E-Invoicing order - MultiSafepay Docs"
       {
         "amount": 10000,
         "currency": "EUR",
-        "description": "Test Order Description",
+        "description": "Test order description",
         "payment_description": "Einvoice",
         "status": "uncleared",
         "type": "EINVOICE"
@@ -368,7 +368,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -463,7 +463,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -574,7 +574,7 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `description` | string 
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).  
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
 
 ----------------
 `fastcheckout` | string 
@@ -584,7 +584,7 @@ Value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object
@@ -629,7 +629,7 @@ See [shopping_cart.items object](/api/#shopping-cart-items-object).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

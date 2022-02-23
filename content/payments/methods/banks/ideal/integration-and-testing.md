@@ -17,7 +17,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [iDEAL direct](/api/#ideal---direct), [iDEAL redirect](/api/#ideal---redirect), [iDEAL QR](/api/#ideal-qr) (redirect only) |
-| **Ready-made integrations** | iDEAL is supported in all our [ready-made integrations](/integrations/ready-made/), **except** ZenCart. {{< br >}} iDEAL QR (redirect) is supported in: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [CS-Cart](/cs-cart/) {{< br >}} [Drupal 8](/drupal-8-9/) {{< br >}} [Magento 1](/magento-1/), [Magento 2](/magento-2/) {{< br >}} [Odoo](/odoo/) {{< br >}} [OpenCart](/opencart/) {{< br >}} [PrestaShop 1.7](/prestashop-1-7/) {{< br >}} [Shopware 5](/shopware-5/)  {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [WooCommerce](/woo-commerce/)  {{< br >}} [X-Cart](/x-cart/) |
+| **Ready-made integrations** | iDEAL is supported in all our [ready-made integrations](/integrations/ready-made/), **except** ZenCart. {{< br >}} iDEAL QR (redirect) is supported in: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [CS-Cart](/cs-cart/) {{< br >}} [Drupal 8](/drupal-8-9/) {{< br >}} [Magento 1](/magento-1/), [Magento 2](/magento-2/) {{< br >}} [Odoo](/odoo/) {{< br >}} [OpenCart](/opencart/) {{< br >}} [PrestaShop 1.7](/prestashop/) {{< br >}} [Shopware 5](/shopware-5/)  {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [WooCommerce](/woo-commerce/)  {{< br >}} [X-Cart](/x-cart/) |
 | **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
@@ -58,7 +58,7 @@ Use the following test scenarios on the Test platform page to test different tra
 To test refunding an order:
 
 1. Create an order. 
-2. In your MultiSafepay test account, go to **Order summary**, and then click **Refund order**.
+2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 3. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
     - **IBAN** field the IBAN of the account you want to refund to.
@@ -79,7 +79,7 @@ To test refunding an order via the API:
 1. Create an order. 
 2. Make a [refund](/api/#refund-an-order) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test account, go to **Related transactions**, and then select the **ID** of the refund order.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
   The order status changes to **Completed**.

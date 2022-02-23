@@ -1,6 +1,6 @@
 {{ if or (eq (.Get "type") ("standard")) (eq (.Get "type") ("")) }}
 <ol>
-	<li>Sign in to your <a href="https://merchant.multisafepay.com">MultiSafepay account</a>.</li>
+	<li>Sign in to your <a href="https://merchant.multisafepay.com">MultiSafepay dashboard</a>.</li>
 	<li>Go to <strong>Settings</strong>.</li>
 	<li>To activate {{ with .Get "name" }}{{ . }}{{ else }}the payment method{{ end }} for:</li>
 	<ul>
@@ -12,7 +12,7 @@
 </ol>
 {{ else }}
 <ol>
-	<li>Email an application to activate {{ with .Get "name" }}{{ . }}{{ else }}the payment method{{ end }} to your account manager at <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
+	<li>Email a request to activate {{ with .Get "name" }}{{ . }}{{ else }}the payment method{{ end }} to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
 	<br>
 	<p>
 		Include the following information:
@@ -21,6 +21,6 @@
 			<li>Annual credit card turnover</li>
 		</ul>
 	</p>
-	<li>The Risk Team checks your eligibilty and if approved, activates {{ with .Get "name" }}{{ . }}{{ else }}the payment method{{ end }} in your account.</li>
+	<li>The Risk Team checks your eligibilty and if approved, activates {{ with .Get "name" }}{{ . }}{{ else }}the payment method{{ end }} for your account.</li>
 </ol>
 {{ end }}

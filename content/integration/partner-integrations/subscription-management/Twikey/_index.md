@@ -29,6 +29,6 @@ To integrate with MultiSafepay, follow these steps:
 
 1. Sign in to your Twikey account.
 2. Go to **Settings** > **Integrations** > **MultiSafepay**.
-3. Enter your [MultiSafepay API key](/getting-started/set-up-your-account/user-guide/viewing-your-api-key/).
+3. Enter your [MultiSafepay API key](/account/site-id-api-key-secure-code/).
 4. To add a payment link to your invoices, update your invoice settings in your [Twikey template settings](https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html).
 5. To create a payment link, go to [Payment links](https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html) enter the relevant information, e.g. amount, customer.

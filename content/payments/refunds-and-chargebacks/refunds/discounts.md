@@ -3,17 +3,24 @@ title : "Discounts"
 weight: 50
 layout: 'single'
 meta_title: "Discounts - MultiSafepay Docs"
-short_description: "Process discounts via your MultiSafepay account or our API"
+short_description: "Process discounts via your MultiSafepay dashboard or our API"
 read_more: "."
 url: '/refunds/discounts/'
 ---
-You can process discounts either via your MultiSafepay account or our API.
+You can process discounts either via your MultiSafepay dashboard or our API for the following payment methods:
 
-Discounts are processed as a negative **amount** instead of a negative **quantity**.
+- AfterPay
+- Alipay
+- E-Invoicing
+- in3
+- Klarna
+- Pay After Delivery
 
-## MultiSafepay account
+**Note:** Discounts are processed as a negative **amount** instead of a negative **quantity**.
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).  
+## MultiSafepay dashboard
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
 2. Go to **Transactions** > **Transaction overview**.  
 3. Search for the transaction you want to discount and click to open the **Transaction details** page.  
 4. Click **Refund order**.  

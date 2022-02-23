@@ -22,12 +22,6 @@ aliases:
 ---
 This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended CCV Shop installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
-
 {{< details title="Requirements" >}}
 &nbsp;  
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
@@ -52,7 +46,7 @@ Contact MultiSafepay:
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
 - [Maestro](/payment-methods/maestro)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -65,23 +59,25 @@ Contact MultiSafepay:
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay/)
-- [Klarna](/payments/methods/billing-suite/klarna/)
+- [AfterPay](/payment-methods/afterpay/)
+- [Klarna](/payment-methods/klarna/)
 
 **Wallets**
 
 - [PayPal](/payment-methods/paypal)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
-To install and configure the app, follow these steps:
+## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended CCV Shop installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
 
 1. Sign in to your CCV Shop [backend](/glossaries/multisafepay-glossary/#backend) and install the MultiSafepay app from the App Store.
-2. Go to **Mijn Webshop** > **Instellingen** > **Bestelproces & Voorraad** > **Betaalmethoden**.
+2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
-4. Enter your account ID, [site ID and secure code](/set-up-your-account/site-id-api-key-secure-code).
+4. Enter your account ID, [site ID and secure code](/account/site-id-api-key-secure-code/).
 5. If using your MultiSafepay test account, select **Test mode**.
 6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
 

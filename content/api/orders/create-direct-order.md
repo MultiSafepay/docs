@@ -15,7 +15,7 @@ url: '/api/create-direct-order/'
   "currency":"EUR",
   "amount":1000,
   "gateway":"IDEAL",
-  "description":"product description",
+  "description":"Test order description",
   "gateway_info":{
     "issuer_id":"0021"
   },
@@ -39,7 +39,7 @@ url: '/api/create-direct-order/'
     "created":"2019-03-04T13:52:07",
     "currency":"EUR",
     "amount":1000,
-    "description":"product description",
+    "description":"Test order description",
     "var1":null,
     "var2":null,
     "var3":null,
@@ -129,21 +129,16 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `gateway` | string | required
 
-The unique gateway identifier for the payment method. 
+The gateway identifier for the payment method. 
 
-**Options:**  
-
-- `ALIPAY`, `PAYPAL`.
-- `CREDITCARD`.
-- `EINVOICE` (E-Invoicing), `KLARNA`, `PAYAFTER` (Pay After Delivery).
-- `BANKTRANS` (Bank Transfer), `BELFIUS`, `CBC`, `DIRDEB` (SEPA Direct Debit), `DIRECTBANK` (Sofort), `IDEAL`.
+For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).  
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).  
 Format: Maximum 200 characters.  
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -182,7 +177,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `amount_refunded` | integer
@@ -192,12 +188,12 @@ The amount refunded to the customer.
 ----------------
 `status` | string 
 
-The [order status](/payments/multisafepay-statuses/). 
+The [order status](/about-payments/multisafepay-statuses/). 
 
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order. 
+The [transaction status](/about-payments/multisafepay-statuses/) of the order. 
 
 ----------------
 `reason` | string 

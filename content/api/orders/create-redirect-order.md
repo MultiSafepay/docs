@@ -81,16 +81,11 @@ Your unique identifier for the order.
 Format: Maximum 50 characters.
 
 ----------------
-`gateway` | string | required
+`gateway` | string | optional
 
-The unique gateway identifier for the payment method.  
+The gateway identifier for the payment method.  
 
-**Options**: 
-- `AFTERPAY`, `EINVOICE` (E-Invoicing), `IN3`, `KLARNA`, `PAYAFTER` (Pay After Delivery), `SANTANDER` (Betaal per Maand).
-- `ALIPAY`, `APPLEPAY`, `GOOGLEPAY`, `PAYPAL`, `WECHAT`.
-- `CREDITCARD`, `AMEX`, `MAESTRO`, `MASTERCARD`, `VISA`.
-- `MISTERCASH` (Bancontact), `BANKTRANS` (Bank Transfer), `BELFIUS`, `CBC`, `DOTPAY`, `EPS`, `GIROPAY`, `IDEAL`, `DBRTP` (Request to Pay), `DIREB` (SEPA Direct Debit), `DIRECTBANK` (Sofort), `TRUSTLY`, `TRUSTPAY`. 
-- `EDENCOM`.
+For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
 
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
@@ -111,7 +106,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 

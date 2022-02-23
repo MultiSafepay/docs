@@ -24,7 +24,7 @@ PaymentComponent.getPaymentData()
 Make a POST [`/orders`](/api/#orders) request from your server:
 
 - Append the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process.
-- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the component](/payment-components/previous-release/step-2).
+- Replace the `<GATEWAY>` placeholder with the relevant gateway identifier, see Step 2: [Initialize the component](/payment-components/previous-release/step-2).
 
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \

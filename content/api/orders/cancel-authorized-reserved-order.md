@@ -33,7 +33,7 @@ meta_title: "API reference - Cancel an authorized or reserved transaction - Mult
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 To cancel an authorized or reserved transaction, specify `cancelled`.
 

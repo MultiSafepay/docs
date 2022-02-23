@@ -39,7 +39,7 @@ If you don't own an Apple device, we recommend using the [Appetize.io](https://a
 - Use a [compatible device](https://support.apple.com/en-us/HT208531).
 - Use Safari browser.
 - The website uses HTTPS.
-- Maestro must be activated in your MultiSafepay account.
+- Maestro must be activated for your MultiSafepay account.
 
 If any of these requirements is not met, Apple Pay doesn't appear on the checkout page.
 

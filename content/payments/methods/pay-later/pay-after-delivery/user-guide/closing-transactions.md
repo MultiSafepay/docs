@@ -12,7 +12,7 @@ If a customer pays for an order into your business bank account directly instead
 
 To close a transaction manually, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Complete own funds**. 

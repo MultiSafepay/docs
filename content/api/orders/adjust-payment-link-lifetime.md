@@ -1,6 +1,6 @@
 ---
 weight: 208
-meta_title: "API reference - Adjust payment link lifetime - MultiSafepay Docs"
+meta_title: "API reference - Adjust session lifetime - MultiSafepay Docs"
 aliases: 
     - /faq/api/lifetime-of-a-payment-link
     - /faq/api/adjusting-payment-link-lifetimes
@@ -10,9 +10,8 @@ aliases:
 > POST - /orders
 
 ```json 
-
 {
-  "type":"paymentlink",
+  "type":"redirect",
   "order_id":"test-123",
   "gateway":"",
   "currency":"EUR",
@@ -36,23 +35,19 @@ aliases:
 {{< /code-block >}}
 
 {{< description >}}
-### Adjust payment link lifetimes
+### Adjust session lifetimes
 
-The lifetime of [payment links](/payments/checkout/payment-link/) for MultiSafepay payment pages is how long the link remains valid for the customer to complete payment. This applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only. The default is 30 days, after which the link expires. Except for:  
+The lifetime of a MultiSafepay payment page session determines how long the customer can access the page and complete payment. This therefore applies to [redirect](/developer/api/difference-between-direct-and-redirect/) orders only.
 
-- [Bank Transfer](/payments/methods/banks/bank-transfer/): 60 days
-- [PayPal](/payments/methods/wallet/paypal/): 14 days
-- [Pay later methods](/payments/methods/pay-later/): You cannot adjust payment link lifetimes.
+The lifetime begins when the payment link is generated. A `session_id` is returned in the payment page URL. The default lifetime is 30 days, after which the link expires.
 
-To cancel a payment link, see [Cancel an order](/api/#cancel-an-order).
+To manually cancel a session, see [Cancel an order](/api/#cancel-an-order).
 
-**Second Chance**  
-You cannot edit payment links in [Second Chance](/features/second-chance/) emails, because the `session_id` of the initial transaction has already been used. You can only edit the link in the initial `POST /orders` request. 
+{{< alert-notice >}} If you have [Second Chance](/features/second-chance/) enabled, we recommend a minimum lifetime of **48&nbsp;hours**.   
+&nbsp;  
+Second Chance emails the customer two payment reminders: 1 hour and 24 hours after the order is created. If the session lifetime is less than 24 hours, the link in the second email is no longer active when the customer receives it. {{< /alert-notice >}}
 
-If set for under 24 hours:  
-
-- `days_active`: The payment link displays an error message when opened.
-- `seconds_active`: The second email is still sent, even though the payment link it contains is no longer valid. This can't be changed.  
+**Note:** Session lifetimes are different to [transaction expiration times per payment method](/developer/transaction-expiration/). 
 
 **Parameters**
 
@@ -62,26 +57,17 @@ Include in the main body of your `POST /orders` request:
 
 `days_active` | string | optional
 
-The number of days the payment link is valid for.  
+Sets the number of days the session is active for.  
 If not set, or if `seconds_active` is also set, `seconds_active` is used.  
 If neither `days_active` nor `seconds_active` is set, the default is used.  
-Default: 30 days.
 
 ----------------
 `seconds_active` | string | optional
 
-The number of seconds the payment link is valid for.  
-Example: 86.400 `seconds_active` = 1 `days_active`.  
+Sets the number of seconds the session is active for.  
+Example: 86,400 `seconds_active` = 1 `days_active`.  
 If set and larger than 0, `seconds_active` overrides `days_active`.  
 If neither `days_active` nor `seconds_active` is set, the default is used.  
-Default: 30 days. 
-
-----------------
-`description` | string | optional
-
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).  
-Format: Maximum 200 characters.  
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
 ----------------
 

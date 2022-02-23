@@ -1,11 +1,12 @@
 ---
 title : "MultiSafepay plugin for Magento 1"
-download_url : "/payments/integrations/ready-made/magento1/releases/Plugin_Magento_3.1.3.zip"
+download_url : "/integration/ready-made/magento1/releases/Plugin_Magento_3.1.3.zip"
 faq: "."
 type: 'Plugin'
 meta_title: "Magento 1 plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 1 platform."
 logo: "/logo/Plugins/Magento.svg"
+changelog: https://docs.multisafepay.com/integration/ready-made/magento1/changelog/
 weight: 02
 title_short: "Magento 1"
 layout: 'single'
@@ -29,11 +30,6 @@ This technical manual is for installing and configuring our free plugin for inte
 You can also install the plugin via .ZIP file upload in Connect.
 
 MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
-
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Magento 1 installation procedure. Make sure you have made a backup.
-{{< /details >}}
 
 {{< details title="Support" >}}
 &nbsp; 
@@ -63,7 +59,7 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 **Banking methods**
 
@@ -75,7 +71,7 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 - [EPS](/payment-methods/eps)
 - [Giropay](/payment-methods/giropay)
 - [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payments/methods/banks/request-to-pay)
+- [Request to Pay](/payment-methods/request-to-pay)
 - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 - [Sofort](/payment-methods/sofort)
 - [Trustly](/payment-methods/trustly)
@@ -92,7 +88,7 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
@@ -116,11 +112,14 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 - [Winkelcheque](https://www.winkelcheque.nl)
 - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Magento 1 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
  1. Unpack the content of the .ZIP file in the root of your webshop.
  2. Sign in to your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend).
  3. Go to **System** > **Configuration** > **Cache**. 
@@ -137,8 +136,8 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 
 3. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect MultiSafepay gateways**.  
     This page contains the configuration options for all MultiSafepay payment methods.    
-    Make sure your selected payment methods are actived in your [MultiSafepay account](https://merchant.multisafepay.com).
+    Make sure your selected payment methods are actived in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
 4. To configure MultiSafepay gift cards, go to the **MultiSafepay Gift Cards** page.  
-    Make sure gift cards are activated in your MultiSafepay account. For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
+    Make sure gift cards are activated in your MultiSafepay dashboard. For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
 

@@ -7,6 +7,7 @@ logo: '/svgs/Credit cards.svg'
 short_description: 'Accept credit and debit card payments worldwide'
 intro_description: 'Credit cards are issued by a bank, building society, or card scheme and let customers pay for products or services on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account.'
 weight: 20
+url: '/payment-methods/credit-debit-cards/'
 aliases:
     - /support-tab/magento2/payment-methods/credit-and-debit-cards
     - /payment-methods/credit-cards/
@@ -19,6 +20,8 @@ aliases:
     - /payment-methods/creditcards/activate-credit-cards/
     - /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
     - /payment-methods/credit-and-debit-cards/creditcards/
+    - /payments/methods/credit-and-debit-cards/
+    - /payment-methods/credit-and-debit-cards/
 --- 
 
 {{< details title="About credit and debit cards" >}}

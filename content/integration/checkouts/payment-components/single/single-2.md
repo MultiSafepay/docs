@@ -52,9 +52,9 @@ const orderData = {
 
 {{< details title="Processing recurring payments" >}}
 
-[Recurring payments](/payments/features/tokenization/) let you store a customer’s payment details as a secure, encrypted token.
+[Recurring Payments](/features/recurring-payments/) is a feature that lets you store a customer’s payment details as a secure, encrypted token.
 
-Upon subsequent payments, customers can select their stored payment details and pay with a single click.
+For subsequent payments, customers can select their stored payment details and pay with a single click.
 
 To process recurring payments in your Payment Component:
 
@@ -76,11 +76,11 @@ const orderData = {
 };
 ```
 
-Recurring payments are supported for all credit card payments.
+Recurring Payments are supported for all credit card payments.
 
 **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/testing/test-payment-details/#credit-and-debit-cards).
 
-To use recurring payments in your Payment Component, you need to enable recurring payments for your account. If you haven't already, email your account manager at <sales@multisafepay.com>
+To use recurring payments in your Payment Component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
 {{< /details >}}
 
@@ -112,10 +112,10 @@ PaymentComponent.init('payment', {
     }
 });
 ```
-**2.** Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
-{{< details title="View gateway codes" >}}
+**2.** Replace the `<GATEWAY>` placeholder with the relevant payment gateway identifier.
+{{< details title="View gateway IDs" >}}
 
-| Payment method| Gateway code|
+| Payment method| Gateway ID|
 |---|---|
 | Bank Transfer | `BANKTRANS` |
 | Bancontact | `MISTERCASH` |

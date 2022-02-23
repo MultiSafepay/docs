@@ -18,13 +18,11 @@ With direct integration, the **Google Pay** button appears in your checkout page
 **Note:** By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 {{< /blue-notice >}}
 
-{{< details title="Prerequisites">}}
+## Prerequisites
 
 - Google Pay must be [activated in your MultiSafepay account](/payment-methods/google-pay/activation/).
-- You need a [Google Pay My Business account](https://pay.google.com/business/console/).
+- You need to register your business and website in [Google Pay's Business Console](https://pay.google.com/business/console/).
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
-
-{{< /details >}}
 
 {{< details title="Supported browsers" >}}
 
@@ -289,6 +287,25 @@ For more information about the `paymentData` object, see Google Pay&nbsp;–&nbs
 From your server, create a [Google Pay direct order](/api/#google-pay---direct).
 
 For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
+
+## Step 6: Redirect the customer
+
+In response to the API request you made in the previous step, you receive a `payment_url` (see API Reference – [Google Pay direct order](/api/#google-pay---direct)).
+
+Pass the `payment_url` from your server to the customer's device and redirect the customer to the URL:
+
+```
+document.location = payment_url
+```
+
+Depending on how the customer's card is stored in their Google Pay account, the URL references your success page, or a 3D Secure authentication page.
+
+If the customer's credit card was stored as:
+
+- **Token** (`CRYPTOGRAM_3DS`), the `payment_url` redirects to your success page.
+- **Card on file** (`PAN_ONLY`), the `payment_url` may redirect to a 3D Secure authentication page.
+
+If 3D Secure authentication is required, the customer is automatically redirected to your success page after authentication.
 
 ## Test and go live
 

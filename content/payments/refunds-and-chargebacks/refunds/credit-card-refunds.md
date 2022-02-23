@@ -25,7 +25,7 @@ For support, email the Support Team at <support@multisafepay.com>
 
 ## Reversals
 
-If you process a partial refund on the same day, this is technically called a "reversal", but for simplicity is logged as a refund in your MultiSafepay account. 
+If you process a partial refund on the same day, this is technically called a "reversal", but for simplicity is logged as a refund in your MultiSafepay dashboard. 
 
 On the customer's credit card statement, the transaction may either be:
 

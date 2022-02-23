@@ -21,10 +21,7 @@ aliases:
 ---
 To install and configure LogiVert's free app for integrating MultiSafepay payment solutions into your webshop, see LogiVert – [Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen).
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended LogiVert installation procedure. Make sure you have made a backup.
-{{< /details >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Logivert installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
 
 {{< details title="Support" >}}
 &nbsp;  
@@ -44,7 +41,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 **Banking methods**
 

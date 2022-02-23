@@ -22,11 +22,6 @@ aliases:
 
 This technical manual is for installing and configuring myShop's free app for integrating MultiSafepay payment solutions into your webshop.
 
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the app in a test environment following the recommended myShop installation procedure. Make sure you have made a backup.
-{{< /details >}}
-
 {{< details title="Support" >}}
 &nbsp;  
 For any technical queries about the app, email myShop at <support@myshop.com>
@@ -51,7 +46,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 - [American Express](/payment-methods/american-express)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa)
+- [Visa](/payment-methods/visa)
 
 **Banking methods**
 
@@ -72,7 +67,6 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Wallets**
 
-+ [FastCheckout](/payments/methods/fastcheckout)
 + [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**
@@ -84,11 +78,14 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 {{< /details >}}
 
 ## Installation and configuration
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended MyShop installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Sign in to your myShop [backend](/glossaries/multisafepay-glossary/#backend).
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
 4. Enter your account ID, site ID, and site secure code.  
-    Your account ID appears in the top-right corner of your MultiSafepay account.
+    Your account ID appears in the top-right corner of your MultiSafepay dashboard.
 6. If using a test account, select **Test mode**.
 7. Click **Save**.
 

@@ -47,7 +47,7 @@ sequenceDiagram
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/payments/multisafepay-statuses/).
+For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
 
 {{< /details >}}
 
@@ -58,6 +58,8 @@ For more information, see [About MultiSafepay statuses](/payments/multisafepay-s
 | The transaction is complete. | Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
+
+**Note:** Amounts less than 100 EUR are completed immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
 
 ## Refund statuses
 

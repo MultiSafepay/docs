@@ -31,7 +31,7 @@ You can process payments immediately after creating a MultiSafepay test account 
 
 To check if your account is fully activated, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance** > **Payouts**.
 3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page where you can upload the documents required to approve your account.
 
@@ -59,7 +59,7 @@ Automatic payouts let you schedule payouts on a specific day.
 
 To add a new automatic payout, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com). 
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 2. Go to **Finance** > **Payouts**.
 3. Under **Automatic withdrawals**, click **+ Add**.
 4. In the **Automatic withdrawals** window:
@@ -76,7 +76,7 @@ To add a new automatic payout, follow these steps:
 
 To make manual payouts, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance** > **Payouts**.
 3. Under **Withdraw funds**:  
     - Select the currency.
@@ -133,4 +133,4 @@ The status of the pay out is **Reserved** for 24 hours before it is added to our
 
 ## Paying out to a different bank account
 
-To pay out to a different bank account than the one activated in your MultiSafepay account, you must first add it under **Business documents**.
+To pay out to a different bank account than the one activated for your MultiSafepay account, you must first add it under **Business documents**.

@@ -40,7 +40,7 @@ meta_title: "API reference - Get zero authorization order details - MultiSafepay
       "state":"NH",
       "zip_code":"1033SC"
     },
-    "description":"MultiSafepay Test",
+    "description":"Zero Authorization Test",
     "fastcheckout":"NO",
     "financial_status":"completed",
     "items":null,
@@ -62,7 +62,7 @@ meta_title: "API reference - Get zero authorization order details - MultiSafepay
         "amount":9743,
         "card_expiry_date":2203,
         "currency":"EUR",
-        "description":"MultiSafepay Test",
+        "description":"Zero Authorization Test",
         "external_transaction_id":234374824,
         "last4":0,
         "payment_description":"Visa CreditCards",
@@ -137,9 +137,8 @@ See [customer (object)](/api/#customer-object).
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+Format: Maximum 200 characters.
 
 ----------------
 `fastcheckout` | string 
@@ -149,7 +148,7 @@ Value: `NO`.
 ----------------
 `financial_status` | string
 
-The [transaction status](/payments/multisafepay-statuses/) of the order.
+The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 
 ----------------
 `items` | object 
@@ -183,7 +182,7 @@ Information about linked transactions.
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer
@@ -193,7 +192,8 @@ MultiSafepay's identifier for the transaction (also known as the PSP ID).
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 

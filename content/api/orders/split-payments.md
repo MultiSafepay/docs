@@ -1,6 +1,6 @@
 ---
 weight: 236
-meta_title: "API reference - Split payments - MultiSafepay Docs"
+meta_title: "API reference - Split Payments - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -84,12 +84,12 @@ Split by percentage and fixed amount
 {{< /code-block >}}
 
 {{< description >}}
-## Split payments orders
+## Split Payments orders
 Split the amount of a transaction between partner or affiliate accounts by a percentage, a fixed amount, or both.
 
 {{< alert-notice >}}**Important:** If splitting by both, never give a 0 value for the percentage or the fixed amount.  {{< /alert-notice >}}
 
-See [Split payments](/features/split-payments/).
+See [Split Payments](/features/split-payments/).
 
 **Parameters**
 
@@ -97,7 +97,7 @@ See [Split payments](/features/split-payments/).
 `type` | string | required
 
 The payment flow for the checkout process.  
-Options: `direct`, `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay account under **Tools** > **Payment link generator**).  
+Options: `direct`, `redirect`, `paymentlink` (makes the transaction appear in your MultiSafepay dashboard under **Tools** > **Payment link generator**).  
 
 ----------------
 `gateway` | string | required
@@ -128,9 +128,8 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
-Format: Maximum 200 characters.   
-HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
+Format: Maximum 200 characters.
 
 ----------------
 `split_payments` | array of objects | required

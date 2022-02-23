@@ -32,7 +32,7 @@ For how Zero Authorization can benefit your business, see [0-Authorization](http
 |  Zero amount transaction | A transaction for 0 EUR has been processed. | Completed   | Completed  |
 
 ## Activation
-Email requests to activate Zero Authorization in your MultiSafepay account to your account manager at <sales@multisafepay.com>
+Email a request to activate Zero Authorization to <sales@multisafepay.com>
 
 ## Integration
 To integrate Zero Authorization using our API, see API reference – [Zero Authorization](/api/#zero-authorization-orders).

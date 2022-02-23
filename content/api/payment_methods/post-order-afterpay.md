@@ -14,7 +14,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -116,7 +116,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
   "order_id": "my-order-id-1",
   "currency": "EUR",
   "amount": 10000,
-  "description": "Test Order Description",
+  "description": "Test order description",
   "manual": "false",
   "payment_options": {
     "notification_url": "https://www.example.com/client/notification?type=notification",
@@ -247,7 +247,7 @@ meta_title: "API reference - Create AfterPay order - MultiSafepay Docs"
 {{< description >}}
 
 ## AfterPay
-See also Payment methods – [AfterPay](/payments/methods/billing-suite/afterpay/).
+See also Payment methods – [AfterPay](/payment-methods/afterpay/).
 
 ### AfterPay - redirect
 
@@ -289,7 +289,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-The order description that appears in your MultiSafepay account and on the customer's bank statement (if supported by their bank).   
+The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 
@@ -378,7 +378,7 @@ The amount the customer needs to pay in the currency's smallest unit:
 ----------------
 `description` | string | required
 
-Text displayed with the order in your MultiSafepay account, and on the customer's bank statement (if supported by the bank).  
+Text displayed with the order in your MultiSafepay dashboard, and on the customer's bank statement (if supported by the bank).  
 Max. 200 characters.  
 HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
 
@@ -469,7 +469,7 @@ See [custom_info (object)](/api/#custom-info-object).
 ----------------
 `status` | string
 
-The [order status](/payments/multisafepay-statuses/).
+The [order status](/about-payments/multisafepay-statuses/).
 
 ----------------
 `transaction_id` | integer

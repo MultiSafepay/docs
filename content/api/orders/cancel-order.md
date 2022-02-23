@@ -34,7 +34,7 @@ Cancel an unpaid order using on the `order_id`.
 ----------------
 `status` | string | required
 
-The [order status](/payments/multisafepay-statuses/).  
+The [order status](/about-payments/multisafepay-statuses/).  
 Value: `cancelled`.
 
 ----------------

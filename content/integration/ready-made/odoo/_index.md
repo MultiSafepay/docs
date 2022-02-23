@@ -8,7 +8,7 @@ changelog_url : "."
 faq: "."
 layout: 'single'
 meta_title: "Odoo plugin - MultiSafepay Docs"		
-meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay payment solutions into your Odoo platform with the free plugin"
+meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay payment solutions into your Odoo platform with the free plugin."
 weight: 11
 logo: "/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
@@ -28,12 +28,6 @@ aliases:
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Odoo webshop. Our plugin receives regular updates from Odoo and MultiSafepay.
-
-{{< details title="Test environment" >}}
-&nbsp;  
-We recommend first installing the plugin in a test environment following the recommended Odoo installation procedure. Make sure you have made a backup.
-
-{{< /details >}}
 
 {{< details title="Support" >}}
 &nbsp;  
@@ -60,7 +54,7 @@ Contact us:
 - [American Express](/payment-methods/american-express)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
 
 **Banking methods**
 
@@ -78,8 +72,8 @@ Contact us:
 
 **Pay later methods**
 
-- [AfterPay](/payments/methods/billing-suite/afterpay)
-- [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/)
+- [AfterPay](/payment-methods/afterpay)
+- [Betaal per Maand](/payment-methods/betaal-per-maand/)
 - [E-Invoicing](/payment-methods/e-invoicing)
 - [in3](/payment-methods/in3)
 - [Klarna](/payment-methods/klarna)
@@ -88,14 +82,17 @@ Contact us:
 **Wallets**
 
 - [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payments/methods/wallet/applepay)
+- [Apple Pay](/payment-methods/apple-pay)
 - [PayPal](/payment-methods/paypal)
 
-See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
 ## Installation
+
+{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Odoo installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.
 3. In your Odoo server (`/mnt/extra-addons/`), under **Custom apps**, add the **payment_multisafepay_official** folder. 
@@ -123,8 +120,8 @@ See also [MultiSafepay gateway](/integrations/multisafepay-gateway/).
 6. Enter **Live** and/or **Test** **API key**.
 7. On the **Configuration tab**, set **Journal**.
 8. Click **Save**.
-9. To get payment methods from your MultiSafepay account,Oo the **Configuration** tab, click **Pull payment methods**.  
-    Make sure you have activated the relevant payment methods in your [MultiSafepay account](https://testmerchant.multisafepay.com).
+9. To get payment methods from your MultiSafepay account, go the **Configuration** tab, click **Pull payment methods**.  
+    Make sure the relevant payment methods are activated for your account.
 10.  Configure for each payment method separately:  
     - Name  
     - State  
