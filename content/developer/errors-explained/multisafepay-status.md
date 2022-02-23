@@ -3,8 +3,10 @@ title: 'MultiSafepay status'
 weight: 2
 meta_title: "MultiSafepay status - MultiSafepay Docs"
 read_more: "."
+url: '/developer/multisafepay-status/'
 aliases:
     - /faq/general/multisafepay-status/
+    - /developer/errors-explained/multisafepay-status/
 ---
 
 In the rare event of an outage of MultiSafepay systems, go to [MultiSafepay Status](https://status.multisafepay.com), which lists the current status of all our systems.
