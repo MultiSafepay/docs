@@ -10,6 +10,7 @@ logo: '/logo/Payment_methods/American_Express.svg'
 short_description: 'Global credit card scheme accepted in more than 160 countries.'
 url: '/payment-methods/american-express/'
 aliases:
+    - /payments/methods/american-express/
     - /support-tab/magento2/payment-methods/american-express
     - /payment-methods/creditcards/american-express/
     - /payment-methods/credit-and-debit-cards/american-express
