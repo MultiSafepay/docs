@@ -5,7 +5,7 @@ meta_title: "API reference - Pay After Delivery customer credit score - MultiSaf
 ---
 
 {{< code-block >}}
-> POST - /json/pad/ccs
+> POST - /pad/ccs
 
 ```json
 {
