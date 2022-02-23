@@ -11,6 +11,21 @@ aliases:
 
 With our API, you can make requests to create direct transactions and redirect transactions.
 
+Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [MultiSafepay payment page](/payment-pages/).
+
+For redirect requests, if the gateway for a specific payment method is:
+
+- Provided, the payment page is tailored for that payment method, e.g. for Visa, the page includes fields for the customer to enter their credit card details. 
+- Not provided, the payment page displays all payment methods 
+
+Then, if further customer action is:
+
+- Required, they are redirected to complete payment, e.g. for iDEAL the customer is redirected to their online banking environment. 
+- Not required, the transaction is completed automatically. 
+
+If you provide a [redirect URL](/developer/api/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
+&nbsp;
+
 {{< mermaid class="text-center" >}}
 
 flowchart LR
@@ -36,22 +51,7 @@ flowchart LR
     style id10 fill: #ffe599, stroke: #ffe599
 
 {{< /mermaid >}}
-
-&nbsp;  
-
-Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [MultiSafepay payment page](/payment-pages/).
-
-For redirect requests, if the gateway for a specific payment method is:
-
-- Provided, the payment page is tailored for that payment method, e.g. for Visa, the page includes fields for the customer to enter their credit card details. 
-- Not provided, the payment page displays all payment methods 
-
-Then, if further customer action is:
-
-- Required, they are redirected to complete payment, e.g. for iDEAL the customer is redirected to their online banking environment. 
-- Not required, the transaction is completed automatically. 
-
-If you provide a [redirect URL](/developer/api/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
+&nbsp;
 
 For more information about the direct and redirect flows for a specific payment method, see the **Payment flow** section on the relevant [payment method](/payment-methods/) page.
 
