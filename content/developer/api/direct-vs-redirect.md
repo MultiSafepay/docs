@@ -20,7 +20,7 @@ For redirect requests, if the gateway for a specific payment method is:
 
 Then, if further customer action is:
 
-- Required, they are redirected to complete payment, e.g. for iDEAL the customer is redirected to their online banking environment. 
+- Required, they are redirected to complete payment. For example, for iDEAL, the customer is redirected to their online banking environment. 
 - Not required, the transaction is completed automatically. 
 
 If you provide a [redirect URL](/developer/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
