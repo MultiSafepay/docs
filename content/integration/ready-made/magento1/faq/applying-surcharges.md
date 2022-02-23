@@ -8,6 +8,7 @@ aliases:
     - /integrations/magento1/faq/payment-fee-surcharges/
     - /payments/integrations/ecommerce-platforms/magento1/faq/applying-surcharges/
 ---
+{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 You can apply [surcharges](/glossaries/multisafepay-glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.
 
@@ -18,8 +19,6 @@ You can also:
 - Set the tax class for surcharges.
 - Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
 - Show surcharges with our without VAT at checkout.
-
-{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 To apply a surcharge to a payment method in your [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 

@@ -11,6 +11,8 @@ aliases:
 ---
 {{< blue-notice >}} Check this page regularly for updates on implementing the PSD2 directive. {{< /blue-notice >}}   
 
+{{< alert-notice >}} **Attention Dutch merchants** <br> Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). <br> We therefore strongly recommend discontinuing any surcharges. <br> For more information, email <sales@multisafepay.com> {{< /alert-notice >}}
+
 A surcharge is a fee merchants may charge customers on top of the retail price to cover the cost of accepting certain payment methods. Surcharges may be a fixed amount or a percentage of the total order amount.
 
 Your right to apply surcharges varies by payment method and the customer’s country. 
@@ -37,8 +39,6 @@ The following payment methods are exempt from the surcharge prohibition:
 * Credit card payments, including American Express and Diners Club, with a card issued outside the EEA, e.g. a tourist with a credit card issued in India
 
 For hybrid card schemes such as American Express and Diners Club, each EU country can decide whether to permit surcharging. Surcharging is permitted under Dutch law.
-
-{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 ## Customers outside the EU
 
