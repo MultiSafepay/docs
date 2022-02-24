@@ -5,6 +5,7 @@ meta_title: "Locale parameter - MultiSafepay Docs"
 read_more: "."
 url: '/developer/locale/'
 aliases:
+    - /developer/api/locale-parameter/
     - /faq/api/locale
     - /faq/api/using-locale-parameters
     - /developer/api/using-locale-parameters/

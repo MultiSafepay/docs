@@ -4,6 +4,8 @@ weight: 7
 meta_title: "API request pagination - MultiSafepay Docs"
 read_more: "."
 url: '/developer/pagination/'
+aliases:
+    - /developer/api/pagination/
 ---
 
 Some requests can return a lot of results, e.g. `GET /transactions`. To make responses easier to handle, we paginate the results. You can specity how many results to return per request using the `limit` parameter. 
