@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/e-invoicing/product-rules/
     - /payment-methods/e-invoicing/product-rules/
 ---
-E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer contact.
+E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 
 |   |   |   |
 |---|---|---|

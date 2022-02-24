@@ -35,7 +35,7 @@ Add a website to an affiliated merchant account.
 |Parameter|Description|
 |---|---|
 |name <br /> `string`|Name of the website.  <br /> **Format**: Max 120 characters. Required. |
-|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+|notification_url <br /> `string`|The [webhook endpoint](/developer/webhooks/) for the website.  <br /> **Format**: URL (max 150 characters). Optional. |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
 |support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). Optional. |
@@ -111,7 +111,7 @@ Retrieve an array of all websites linked to a merchant account.
 | api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
 | id  <br /> `integer`| The unique identifier of the website. Referred to as `site_id`. <br /> **Format**: 5-digit integer, e.g. `12345`.|
 |name <br /> `string`| The name of the website.  <br /> **Format**: Max 120 characters. |
-|notification_url <br /> `string`|The [motification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|notification_url <br /> `string`|The [webhook endpoint](/developer/webhooks/) for the website.  <br /> **Format**: URL (max 150 characters). |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
@@ -172,7 +172,7 @@ Retrieve information about a specific website.
 | api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
 | id  <br /> `integer`| The unique identifier of the website. Referred to as `site_id`. **Format**: 5-digit integer, e.g. `12345`.|
 |name <br /> `string`|Name of the website.  <br /> **Format**: Max 120 characters. |
-|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|notification_url <br /> `string`|The [webhook endpoint](/developer/webhooks/) for the website.  <br /> **Format**: URL (max 150 characters). |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |
@@ -226,7 +226,7 @@ Update information about an existing website.
 |Parameter|Description|
 |---|---|
 |name <br /> `string`|The name of the website.  <br /> **Format**: Max 120 characters. Optional. |
-|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). Optional. |
+|notification_url <br /> `string`|The [webhook endpoint](/developer/webhooks/) for the website.  <br /> **Format**: URL (max 150 characters). Optional. |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. Optional. |
 |support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). Optional. |
@@ -241,7 +241,7 @@ Update information about an existing website.
 | api_key <br /> `string`| The API key for the website. <br /> **Format**: 40 character string, e.g. `4192937dffd72a34bcaef4e4f589beb74188d0fa`.|
 | id  <br /> `integer`| The unique identifier of the website. Referred to as `site_id`. **Format**: 5-digit integer, e.g. `12345`.|
 |name <br /> `string`|The name of the website.  <br /> **Format**: max 120 characters. |
-|notification_url <br /> `string`|The [notification URL](/developer/api/notification-url/) of the website.  <br /> **Format**: URL (max 150 characters). |
+|notification_url <br /> `string`|The [webhook endpoint](/developer/webhooks/) for the website.  <br /> **Format**: URL (max 150 characters). |
 |price_from <br /> `integer`| The expected minimum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |price_till <br /> `integer`| The expected maximum order value for credit card transactions.  <br /> **Format**: Unsigned integer. |
 |support_email <br /> `string`| The website's customer support email address.  <br /> **Format**: Email address (max 100 characters). |

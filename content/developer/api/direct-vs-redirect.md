@@ -9,24 +9,49 @@ aliases:
     - /developer/api/difference-between-direct-and-redirect/
 ---
 
-In our API, you can make direct and redirect requests.
+With our API, you can create transactions through direct and redirect requests.
 
-### Direct requests
+Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [MultiSafepay payment page](/payment-pages/).
 
-Direct requests connect directly to the specified payment method and either:
+For redirect requests, if the gateway for a specific payment method is:
 
-- Generate a direct link to the payment method, e.g. specifying iDEAL in the `gateway` parameter takes the customer to the payment page of their bank. 
-- Complete the transaction immediately without the customer having to do anything. 
+- Provided, the payment page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their credit card details. 
+- Not provided, the payment page displays all payment methods 
 
-You can make direct requests repeatedly, e.g. for [recurring payments](/features/recurring-payments/).
+Then, if further customer action is:
 
-### Redirect requests
+- Required, they are redirected to complete payment. For example, for iDEAL, the customer is redirected to their online banking environment. 
+- Not required, the transaction is completed automatically. 
 
-Redirect requests send the customer to a [MultiSafepay payment page](/payment-pages/) where they complete payment.
+If you provide a [redirect URL](/developer/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
+&nbsp;
 
-If you specify the payment method [`gateway`](/api/#gateways), the page is tailored to the selected payment method. For example, if the `gateway` is set to `VISA`, the page includes fields for the customer to enter their credit card details.  
-If you leave the `gateway` parameter empty, all payment methods enabled for your MultiSafepay account appear on the payment page.
+{{< mermaid class="text-center" >}}
 
-If you provide a [redirect URL](/developer/api/redirect-url/), after completing payment, the customer is then directed to your success/thank you page.
+flowchart LR
+    id1(Redirect request)--> id2{Is the gateway <br> specified?}
+    id2{Is the gateway <br> specified?}-- Yes --> id4(Customer is redirected to <br> MultiSafepay payment page <br> tailored to payment method)
+    id2{Is the gateway <br> specified?}-- No --> id5(Customer is redirected to <br> MultiSafepay payment page <br> displaying all activated <br> payment methods)
+    id4(Customer is redirected to <br> MultiSafepay payment page <br> tailored to payment method)--> id6{Is further customer <br> action required?}
+    id5(Customer is redirected to <br> MultiSafepay payment page <br> displaying all activated <br> payment methods)--> id9[/Customer selects <br> payment method/]
+    id9[/Customer selects <br> payment method/]--> id6{Is further customer <br> action required?}
+    id10(Direct request: <br> Gateway required )--> id6{Is further customer <br> action required?}
+    id6{Is further customer <br> action required?}-- No --> id7(Customer is redirected to <br> success page)
+    id6{Is further customer <br> action required?}-- Yes --> id8(Customer is redirected to <br> payment method)
+    id8(Customer is redirected to <br> payment method)--> id7(Customer is redirected to <br> success page)
 
+    style id1 fill: #ffe599, stroke: #ffe599
+    style id2 fill: #9fc5e8, stroke: #9fc5e8
+    style id4 fill: #9fc5e8, stroke: #9fc5e8
+    style id5 fill: #9fc5e8, stroke: #9fc5e8
+    style id6 fill: #9fc5e8, stroke: #9fc5e8
+    style id7 fill: #9fc5e8, stroke: #9fc5e8
+    style id8 fill: #9fc5e8, stroke: #9fc5e8
+    style id9 fill: #9fc5e8, stroke: #9fc5e8
+    style id10 fill: #ffe599, stroke: #ffe599
+
+{{< /mermaid >}}
+&nbsp;
+
+For more information about the direct and redirect flows for a specific payment method, see the **Payment flow** section on the relevant [payment method](/payment-methods/) page.
 

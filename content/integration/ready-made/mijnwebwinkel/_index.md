@@ -103,3 +103,5 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Note:** You can apply a [surcharge](/security-and-legal/payment-regulations/about-surcharges/) to payment methods.
 
+{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+

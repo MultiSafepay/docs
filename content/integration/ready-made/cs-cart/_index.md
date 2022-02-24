@@ -111,7 +111,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
  1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
  2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
  3. Delete the `msp_installer.php` file.
- 4. In your [MultiSafepay dashboard](https://merchant.multisafepay.com), provide your [notification URL](/tools/multisafepay-control/set-your-notification-url).
+ 4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/integrations/self-made/configure-your-webhook/).
 
 ## Configuration
 1. Sign in to your CS-Cart [backend](/glossaries/multisafepay-glossary/#backend).
