@@ -45,4 +45,12 @@ To include all activated gift cards in the response, specify `coupons`.
 
 ----------------
 
+`country` | string | query parameter | optional
+
+Filter the returned payment methods by availability per country. 
+
+**Format**: [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`.
+
+----------------
+
 {{% /description %}}
