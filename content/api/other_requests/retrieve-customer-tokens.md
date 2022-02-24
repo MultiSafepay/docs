@@ -1,6 +1,6 @@
 ---
 weight: 512
-meta_title: "API reference - Get all customer tokens - MultiSafepay Docs"
+meta_title: "API reference - List customer tokens - MultiSafepay Docs"
 
 ---
 
@@ -46,70 +46,82 @@ meta_title: "API reference - Get all customer tokens - MultiSafepay Docs"
 
 {{< description >}}
 
-### Get all customer tokens
+### List customer tokens
 
-Retrieve all [tokens](/features/recurring-payments) related to a specific customer reference.
+List all [tokens](/features/recurring-payments) related to a customer reference.
 
-If there are lots of tokens, you can use the `limit` and `offset` parameters to limit the number of tokens retrieved.
+If there are lots of tokens, you can use the `limit` and `offset` query parameters to limit the number of tokens returned.
 
 Example: If `limit` is set to 15 and `offset` to 0, then 17 tokens are listed (tokens 0 to 16).
 
-**Parameter**
+**Parameters**
 
 ----------------
-`token` | string | required
-
-The unique token identifier linked to the customer reference.  
-
-----------------
-`limit` | integer | required
+`limit` | integer | query parameter | optional
 
 The number of tokens to list.  
 If empty, the default is 10.
 
 ----------------
-`offset` | integer | required
+`offset` | integer | query parameter | optional
 
 The number of the token to start the list from.  
 If empty, the default is 0, i.e. the first token.
 
 **Response**
 
+**Response**
+
 ----------------
-`tokens` | object
+`token` | string | 
 
-Contains:  
+The unique identifier of the token.
 
+----------------
 `code` | string 
 
-The unique identifier of the payment gateway.
+The unique identifier of the payment method.  
+Options: `AMEX`, `DIREB`, `DIRECTBANK`, `IDEAL`, `MAESTRO`, `MASTERCARD`, `MISTERCASH`, `VISA`. 
 
+For more information, see [Payment method gateway IDs](https://docs.multisafepay.com/developer/gateway-ids/).
+
+----------------
 `display` | string 
 
-How the customer's credit card number is displayed.
+How the card number is displayed. 
 
+----------------
+`bin` | integer 
+
+The bank identification number (BIN) of the card. 
+
+----------------
 `name_holder` | string 
 
-The card holder's name. 
+The card holder's name.  
 
+----------------
 `expiry_date` | integer 
 
-The credit card expiry date.  
+The card expiry date.  
 Format: `monthnumberdatenumber`.  
 Example: December 2025 is formatted as `1225`.
 
+----------------
 `expired` | boolean 
 
 Whether the card has expired.
 
+----------------
 `last4` | string 
 
-The last 4 digits of the credit card number.
+The last 4 digits of the card number. 
 
-`recurring_model` | string 
+----------------
+`model` | string 
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
-Options: `cardonfile`, `subscription`, `unscheduled`.  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 

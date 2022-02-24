@@ -92,13 +92,13 @@ To retrieve gateway IDs, see [Gateways](/api/#gateways).
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:  
+The payment amount in the currency's smallest unit:  
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10 
@@ -114,7 +114,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 `google_analytics` | object | optional
 
 Your Google Analytics site ID, which is injected into the payment page so you can trigger custom events and track payment metrics.  
-For more information, see [Google Analytics tracking via the API](/developer/api/google-analytics-tracking).
+For more information, see [Google Analytics tracking via the API](/developer/google-analytics-tracking-api/).
 
 Contains:  
 

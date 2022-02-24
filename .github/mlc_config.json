@@ -57,7 +57,13 @@
         "pattern": "https://www\\.duda\\.co/.*"
       },
       {
+        "pattern": "https://www\\.drupal\\.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher.*"
+      },
+      {
         "pattern": "https://developer\\.android\\.com/guide/components/processes-and-threads.*"
+      },
+      {
+        "pattern": "https://myedenred\\.be.*"
       }
     ],
   "timeout": "60s",

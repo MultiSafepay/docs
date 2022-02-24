@@ -10,10 +10,10 @@ aliases:
 The table below sets out the gateway identifiers for all payment methods, and the supported [request types](/developer/direct-vs-redirect/).
 | Payment method | Gateway ID | Request type |
 |---|---|---|
-| AfterPay | `AFTERPAY` | Redirect |
+| AfterPay | `AFTERPAY` | Redirect, direct |
 | Alipay | `ALIPAY` | Redirect, direct |
 | American Express | `AMEX` | Redirect |
-| Apple Pay | `APPLEPAY` | Redirect |
+| Apple Pay | `APPLEPAY` | Redirect, direct |
 | Bancontact | `MISTERCASH` | Redirect |
 | Bank Transfer | `BANKTRANS` | Redirect, direct |
 | Belfius | `BELFIUS` | Redirect, direct |
@@ -25,8 +25,9 @@ The table below sets out the gateway identifiers for all payment methods, and th
 | E-Invoicing | `EINVOICE` | Redirect, direct |
 | EPS | `EPS` | Redirect |
 | Giropay | `GIROPAY` | Redirect |
-| Google Pay | `GOOGLEPAY` | Redirect |
+| Google Pay | `GOOGLEPAY` | Redirect, direct |
 | iDEAL | `IDEAL` | Redirect, direct |
+| iDEAL QR | `IDEALQR` | Redirect |
 | in3 | `IN3` | Redirect |
 | Klarna | `KLARNA` | Redirect, direct |
 | Maestro | `MAESTRO` | Redirect |

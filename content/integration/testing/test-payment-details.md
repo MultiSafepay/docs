@@ -549,9 +549,9 @@ You can't test Request to Pay in your MultiSafepay test account. You can only ma
 
 {{< /details >}}
 
-{{< details title="Recurring payments" >}}
+{{< details title="Recurring Payments" >}}
 
-To enable [recurring payments](/features/recurring-payments/) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
+To enable [Recurring Payments](/features/recurring-payments/) for your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
 
 {{< /details >}}
 

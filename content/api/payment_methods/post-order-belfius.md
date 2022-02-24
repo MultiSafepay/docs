@@ -47,14 +47,11 @@ meta_title: "API reference - Create Belfius order - MultiSafepay Docs"
   "currency":"EUR",
   "amount":1000,
   "gateway":"BELFIUS",
-  "description":"Test order description",
-  "custom_info":{
-    
-  },
+  "description":"product description",
   "payment_options":{
-    "notification_url":"https://www.example.com/client/notification?type=notification",
-    "redirect_url":"https://www.example.com/client/notification?type=redirect",
-    "cancel_url":"https://www.example.com/client/notification?type=cancel"
+    "notification_url":"http://10.1.10.111/testtool/client/json-test/notification?type=notification",
+    "redirect_url":"http://10.1.10.111/testtool/client/json-test/notification?type=redirect",
+    "cancel_url":"http://10.1.10.111/testtool/client/json-test/notification?type=cancel"
   }
 }
 ```
@@ -149,13 +146,13 @@ Value: `BELFIUS`.
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.    
+The currency of the payment.    
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
@@ -205,13 +202,13 @@ Format: Maximum 50 characters.
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.    
+The currency of the payment.    
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
@@ -228,11 +225,6 @@ Value: `BELFIUS`.
 The order description that appears in your MultiSafepay dashboard and on the customer's bank statement (if supported by their bank).   
 Format: Maximum 200 characters.   
 HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
-
-----------------
-`custom_info` | object
-
-See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `payment_options` | object | required
@@ -274,6 +266,10 @@ The [transaction status](/about-payments/multisafepay-statuses/) of the order.
 ----------------
 `reason` | string
 
+----------------
+`custom_info` | object
+
+See [custom_info (object)](/api/#custom-info-object).
 
 ----------------
 `fastcheckout` | string 

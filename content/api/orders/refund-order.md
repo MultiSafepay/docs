@@ -69,7 +69,8 @@ Format: Maximum 50 characters.
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data with the refund.
+Variables for storing additional data with the refund.  
+Format: Maximum 500 characters.
 
 **Response** 
 

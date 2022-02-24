@@ -51,7 +51,7 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 ## Notes 
 
-- Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/developer/api/masking-iban-numbers/).
+- Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/developer/unmasking-ibans/).
 
 - To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your [backend](/glossaries/multisafepay-glossary/#backend) until they complete the payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
 **Note:** MultiSafepay bears no responsibility for stock-related issues.

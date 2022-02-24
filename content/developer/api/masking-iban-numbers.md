@@ -1,9 +1,11 @@
 ---
-title : "Unmasking IBAN numbers"
-meta_title: "Unmasking IBAN numbers - MultiSafepay Docs"
+title : "Unmasking IBANs"
+meta_title: "Unmasking IBANs - MultiSafepay Docs"
 weight: 6
 read_more: "."
+url: '/developer/unmasking-ibans/'
 aliases:
+    - /developer/api/masking-iban-numbers/
     - /faq/api/masking-iban-numbers
 ---
 
@@ -11,7 +13,7 @@ International bank account numbers (IBANs) are sensitive data.
 
 For security reasons, we mask IBANs by default in:
 
-- [`POST` notifications](/developer/api/notification-url/#post-notification-example)
+- [`POST` webhook notifications](/developer/webhooks/)
 - [`GET /orders/{order_id} responses`](/api/#get-order-details)
 
 When masked, only the last 4 digits of the IBAN are visible, e.g. `*** 1234`.

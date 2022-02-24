@@ -98,7 +98,7 @@ Format: Maximum 50 characters.
 ----------------
 `amount` | integer
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
@@ -192,7 +192,8 @@ MultiSafepay's identifier for the transaction (also known as the PSP ID).
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 

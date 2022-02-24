@@ -51,8 +51,8 @@ name = "Shell"
     weight = 3
 
 [[menu.main]]
-    name = "Create your integration"
-    url = "/getting-started/create-your-integration"
+    name = "Choose your integration"
+    url = "/getting-started/choose-your-integration"
     parent = "Getting started"
     weight = 4
 

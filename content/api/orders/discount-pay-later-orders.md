@@ -1,12 +1,15 @@
 ---
 weight: 215
-meta_title: "API reference - Discount with unit price - MultiSafepay Docs"
+meta_title: "API reference - Discount pay later orders - MultiSafepay Docs"
 ---
 {{< description >}}
-### Discount with unit price 
-For [pay later methods](/payments/methods/pay-later/), add discounts as a unit price. The example request is for a 20% discount on all unit prices.
+### Discount pay later orders
+To discount a [pay later](/payments/methods/pay-later/) order:
 
-No negative order rule is created, which avoids the refund conflict that can arise if you add discounts as separate discount rules or order rules.
+1. Reduce the total order `amount`.
+2. Reduce the `unit_price` of the items in the shopping cart you want to discount.
+
+**Note:** Do **not** add a separate `discount` item in the `shopping cart` because it is non-refundable.
 
 **Parameters**
 
@@ -37,10 +40,12 @@ Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.ht
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:  
+The payment amount in the currency's smallest unit:  
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10 
+
+**Note**: This amount includes the discount.
 
 ----------------
 `shopping_cart.items` | required
@@ -64,29 +69,21 @@ The definitions for the VAT class.
   "gateway":"PAYAFTER",
   "order_id":"my-order-id-1",
   "currency":"EUR",
-  "amount":20800,
+  "amount":3000,
   ...
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric Candle Holders",
+        "name":"Candle Holders – 50% discount",
         "description":"",
-        "unit_price":72,
+        "unit_price":15.00,
         "quantity":2,
-        "merchant_item_id":"111111",
-        "tax_table_selector":"BTW21",
+        "merchant_item_id":"000001",
+        "tax_table_selector":"none",
         "weight":{
           "unit":"KG",
           "value":12
         }
-      },
-      {
-        "name":"20% discount on all items",
-        "description":"Discount",
-        "unit_price":13930,
-        "quantity":1,
-        "merchant_item_id":"discount",
-        "tax_table_selector":"none"
       }
     ]
   },

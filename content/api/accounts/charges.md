@@ -56,7 +56,7 @@ As a partner or primary account holder, use this endpoint to move funds from an 
 
 By default, charges are disabled. To enable charges for your account, email <sales@multisafepay.com>
 
-For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/account/site-id-api-key-secure-code/). 
 
 **Parameters**
 
@@ -92,7 +92,8 @@ A description of the transaction, which is displayed in both your account and th
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data. 
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 **Response**
 

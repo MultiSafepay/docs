@@ -15,7 +15,7 @@ Some of our ready-made integrations use a generic gateway, which redirects custo
 Generic gateways support:
 
 - All payment methods
-- All [payment features](/payment-features/), except [Recurring payments](/features/recurring-payments/)
+- All [payment features](/payment-features/), except [Recurring Payments](/features/recurring-payments/)
 - [Redirect requests](/developer/api/difference-between-direct-and-redirect/) only
 
 Using a generic gateway means you don't need to update your integration when we add new payment methods. 
@@ -46,6 +46,8 @@ For how to configure generic gateways, see the manual of your ready-made integra
 - [WooCommerce](/woo-commerce/generic-gateways/)
 
 Use the relevant [payment method gateway IDs](/developer/gateway-ids).
+
+**Note:** Our [Lightspeed app](/lightspeed/) supports similar functionality automatically and doesn't require configuration.
 
 ## MultiSafepay gateways
 

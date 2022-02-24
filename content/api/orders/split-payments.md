@@ -1,6 +1,6 @@
 ---
 weight: 236
-meta_title: "API reference - Split payments - MultiSafepay Docs"
+meta_title: "API reference - Split Payments - MultiSafepay Docs"
 
 ---
 {{< code-block >}}
@@ -84,12 +84,12 @@ Split by percentage and fixed amount
 {{< /code-block >}}
 
 {{< description >}}
-## Split payments orders
+## Split Payments orders
 Split the amount of a transaction between partner or affiliate accounts by a percentage, a fixed amount, or both.
 
 {{< alert-notice >}}**Important:** If splitting by both, never give a 0 value for the percentage or the fixed amount.  {{< /alert-notice >}}
 
-See [Split payments](/features/split-payments/).
+See [Split Payments](/features/split-payments/).
 
 **Parameters**
 
@@ -114,13 +114,13 @@ Format: Maximum 50 characters.
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10

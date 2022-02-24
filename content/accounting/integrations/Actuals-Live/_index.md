@@ -3,12 +3,13 @@ title: "Actuals"
 weight: 20
 meta_title: "Actuals IO - MultiSafepay Docs"
 logo: '/svgs/actuals-io.svg'
+url: '/accounting/integrations/actuals-live/'
 layout: 'single'
 aliases:
     - /tools/accounting/accounting-integrations/actuals-live/
 ---
 
-You can integrate with Actuals using your [MultiSafepay API key](/tools/multisafepay-control/retrieving-your-api-key/). 
+You can integrate with Actuals using your [MultiSafepay API key](/account/site-id-api-key-secure-code/). 
 
 ## Connecting Actuals with MultiSafepay
 

@@ -51,10 +51,9 @@ See API reference – [Add UBOs](/api-onboarding/add-ubos/) for how to submit de
 The API returns a unique UBO identifier, which you can use to submit the UBO identification documents.
 
 ### Step 4: Add websites
-See API reference – [Add websites](/api-onboarding/add-websites/)for how to submit the following information about merchants' website(s):
+See API reference – [Add websites](/api-onboarding/add-websites/) for how to submit the following information about merchants' website(s):
 
 - Website name and URL
-- [Notification URL](/developer/api/notification-url)
 - Contact details for customer support
  
 The API returns an API key for the website. 

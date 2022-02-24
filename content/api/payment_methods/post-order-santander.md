@@ -191,19 +191,19 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-Valuegateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `SANTANDER`.
 
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
@@ -240,7 +240,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 
@@ -309,19 +310,19 @@ Format: Maximum 50 characters.
 ----------------
 `gateway` | string | required
 
-Valuegateway ID to direct the customer straight to the payment method.  
+The unique gateway identifier for the payment method.  
 Value: `SANTANDER`.
 
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10
@@ -358,7 +359,8 @@ The timestamp for when the order was created.
 ----------------
 `var1` / `var2` / `var3` | string 
 
-Variables for storing additional data.
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 ----------------
 `items` | object 

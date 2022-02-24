@@ -25,7 +25,7 @@ It is available in 36 countries and supports Sofort and iDEAL.
 | **Currencies**  | EUR | 
 | **Chargebacks**  | Yes – See below. | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Recurring payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) | 
+| **Payment features** | [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) | 
 
 ## Chargebacks
 

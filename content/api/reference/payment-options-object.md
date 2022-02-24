@@ -41,8 +41,8 @@ Contains:
 ----------------
 `notification_url` | string | required
 
-Endpoint for MultiSafepay to send status updates and other notifications to you.   
-For more information, see [Notification URL](/developer/api/notification-url).              
+Webhook endpoint for MultiSafepay to send you order status updates and other notifications.   
+For more information, see [Webhook](/developer/webhooks/).              
 
 ----------------
 `redirect_url` | string | required

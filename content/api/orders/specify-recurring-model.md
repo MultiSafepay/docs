@@ -92,19 +92,19 @@ Format: Maximum 50 characters.
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
 `recurring_model` | string | required
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
-Options: `unscheduled`, `subscription`, `cardonfile`.  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:
+The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10     

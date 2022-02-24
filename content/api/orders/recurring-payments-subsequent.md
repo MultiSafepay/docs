@@ -1,6 +1,6 @@
 ---
 weight: 225
-meta_title: "API reference - Recurring payments: subsequent order - MultiSafepay Docs"
+meta_title: "API reference - Recurring Payments: Subsequent order - MultiSafepay Docs"
 
 ---
 
@@ -113,9 +113,9 @@ meta_title: "API reference - Recurring payments: subsequent order - MultiSafepay
 {{< /code-block >}}
 
 {{< description >}}
-### Recurring payments – subsequent payment
+### Recurring Payments – Subsequent payment
 
-Create a subsequent [recurring payments](/features/recurring-payments) order. In the request, provide the token that's returned from the [initial payment](/api/#recurring-payments--initial-payment).
+Create a subsequent [Recurring Payments](/features/recurring-payments) order. In the request, provide the token that's returned from the [initial payment](/api/#recurring-payments--initial-payment).
 
 **Parameters**
 
@@ -150,7 +150,7 @@ Options:
 ----------------
 `currency` | string | required
 
-The currency you want the customer to pay in.   
+The currency of the payment.   
 Format: [ISO-4217 currency codes](https://www.iso.org/iso-4217-currency-codes.html).  
 
 ----------------
@@ -162,12 +162,12 @@ The unique identifier for the recurring payment.
 `recurring_model` | string | required
 
 The [recurring model](/features/recurring-payments/#recurring-models).  
-Options: `cardonfile`, `subscription`, `unscheduled`.  
+Options: `cardOnFile`, `subscription`, `unscheduled`.  
 
 ----------------
 `amount` | integer | required
 
-The amount the customer needs to pay in the currency's smallest unit:  
+The payment amount in the currency's smallest unit:  
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10    

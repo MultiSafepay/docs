@@ -68,7 +68,7 @@ As a partner or primary account holder, use this endpoint to pay out funds from 
 
 By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email <sales@multisafepay.com>
 
-For authentication, use your [account API key](/set-up-your-account/site-id-api-key-secure-code/). 
+For authentication, use your [account API key](/account/site-id-api-key-secure-code/). 
 
 **Parameters**
 
@@ -104,7 +104,8 @@ A description of the transaction, which is displayed in the affiliated account.
 ----------------
 `var1` / `var2` / `var3` | string | optional
 
-Variables for storing additional data.   
+Variables for storing additional data.  
+Format: Maximum 500 characters.
 
 **Response**
 

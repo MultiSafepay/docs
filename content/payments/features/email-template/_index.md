@@ -1,11 +1,10 @@
 ---
-title: 'Email templates'
-weight: 20
-meta_title: "Email templates - MultiSafepay Docs"
-
+title: 'Email Templates'
+weight: 40
+meta_title: "Email Templates - MultiSafepay Docs"
 layout: "single"
 logo: '/svgs/Email_template.svg'
-short_description: 'Customize templates to make your customer emails unique'
+short_description: "Customize communications to match your brand's look and feel."
 url: '/features/email-templates/'
 aliases:
     - /tools/email-template/customizing-email-templates/

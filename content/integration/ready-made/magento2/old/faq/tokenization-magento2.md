@@ -1,6 +1,6 @@
 ---
 title : "Processing recurring payments in the Magento 2 plugin"
-meta_title: "Magento 2 plugin - Recurring payments - MultiSafepay Docs"
+meta_title: "Magento 2 plugin - Recurring Payments - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."

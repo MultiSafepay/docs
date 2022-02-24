@@ -4,7 +4,7 @@ weight: 40
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/klarna"
 childlist: '.'
-intro_description: "Klarna is a flexible online payment method that lets customers pay now or later."
+intro_description: "Klarna is a flexible online payment method that lets customers pay now, later, or in installments."
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
 faq: '.'
@@ -17,13 +17,4 @@ aliases:
     - /payments/methods/billing-suite/klarna/
 ---
 
-{{< details title="Get support" >}}
-&nbsp;  
-For customers:
-
-- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service)
-- Email the Support Team at <support@multisafepay.com>
-
-For merchants, email MultiSafepay at <klarna@multisafepay.com>
-
-{{< /details >}}
+{{< alert-notice >}} **Attention Dutch merchants** <br> Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). <br> We therefore strongly recommend discontinuing any surcharges. <br> For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen aan mijn klant?](https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/) {{< /alert-notice >}}

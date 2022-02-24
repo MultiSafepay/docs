@@ -13,7 +13,6 @@ aliases:
     - /developer/api/generating-your-api-key/
     - /faq/api/generate-your-api-key
     - /faq/api/generating-your-api-key
-    - /set-up-your-account/site-id-api-key-secure-code
 ---
 ## Account API key
 Your MultiSafepay account API key is automatically generated when your account is created. To retrieve it, email <sales@multisafepay.com>
