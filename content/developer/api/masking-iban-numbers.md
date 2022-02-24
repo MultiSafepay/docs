@@ -5,6 +5,7 @@ weight: 6
 read_more: "."
 url: '/developer/unmasking-ibans/'
 aliases:
+    - /developer/api/masking-iban-numbers/
     - /faq/api/masking-iban-numbers
 ---
 

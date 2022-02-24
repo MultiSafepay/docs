@@ -48,7 +48,7 @@ Contains:
 `locale` | string | required
 
 Localizes the payment page with the customer's language, region, and available payment methods.   
-For more information, see [Locale parameter](/developer/api/locale-parameter/).  
+For more information, see [Locale parameter](/developer/locale/).  
 Format: ab_CD with [ISO 639 language codes](https://www.iso.org/iso-639-language-codes.html) and [ISO 3166 country codes](https://www.iso.org/iso-3166-country-codes.html).   
 Default: `en_US` (American English). 
 
