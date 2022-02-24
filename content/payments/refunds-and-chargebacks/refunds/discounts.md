@@ -34,5 +34,5 @@ You can process discounts either via your MultiSafepay dashboard or our API for 
 
 See API reference:
 
-- [Discount regular orders](/api/#discount-regular-orders)
+- [Discount an order](/api/#discount-an-order)
 - [Discount pay later orders](/api/#discount-pay-later-orders)

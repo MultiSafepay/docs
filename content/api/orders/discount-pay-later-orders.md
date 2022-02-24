@@ -4,12 +4,12 @@ meta_title: "API reference - Discount pay later orders - MultiSafepay Docs"
 ---
 {{< description >}}
 ### Discount pay later orders
-To add a discount to your [pay later](/payments/methods/pay-later/) order:
+To discount a [pay later](/payments/methods/pay-later/) order:
 
-- Reduce the `amount` of the order.
-- Reduce the `unit_price` of items in the shopping cart that are discounted.
+1. Reduce the total order `amount`.
+2. Reduce the `unit_price` of the items in the shopping cart you want to discount.
 
-**Note**: Don't add a separate 'discount' item in the `shopping cart`, as you can't refund those.
+**Note:** Do **not** add a separate `discount` item in the `shopping cart` because it is non-refundable.
 
 **Parameters**
 

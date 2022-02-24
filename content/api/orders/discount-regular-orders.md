@@ -1,6 +1,6 @@
 ---
 weight: 214
-meta_title: "API reference - Discount regular orders - MultiSafepay Docs"
+meta_title: "API reference - Discount an order - MultiSafepay Docs"
 ---
 
 {{< code-block >}}
@@ -85,16 +85,16 @@ meta_title: "API reference - Discount regular orders - MultiSafepay Docs"
 {{< /code-block >}}
 {{< description >}}
 
-### Discount regular orders
+### Discount an order
 
-To add a discount to your order (except for [pay later methods](/payments/methods/pay-later/)):
+To discount an order (except for [pay later](/api/#discount-pay-later-orders) orders):
 
-- Reduce the `amount` of the order (this determines how much the customer pays).
-- Optionally:
-  - Add a separate "discount" item in the  `shopping cart` for general discounts.
-  - Reduce the `unit_price` of items in the shopping cart that are discounted.
+- Reduce the total order `amount` (this determines how much the customer pays).
+- Optionally, to discount:
+  - All items in the order, add a separate "discount" item in the `shopping_cart`.
+  - Specific items in the order, reduce the `unit_price` of those items in the `shopping_cart`.
 
-For discounting pay later orders, see [Discount pay later orders](/api/#discount-pay-later-orders).
+See also [Discount pay later orders](/api/#discount-pay-later-orders).
 
 **Parameters**
 
