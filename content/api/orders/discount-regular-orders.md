@@ -1,9 +1,7 @@
 ---
 weight: 214
-meta_title: "API reference - Discount with order rule - MultiSafepay Docs"
-
+meta_title: "API reference - Discount an order - MultiSafepay Docs"
 ---
-
 
 {{< code-block >}}
 
@@ -14,26 +12,38 @@ meta_title: "API reference - Discount with order rule - MultiSafepay Docs"
   "gateway":"PAYAFTER",
   "order_id":"my-order-id-1",
   "currency":"EUR",
-  "amount":17424,
+  "amount":8000,
   ...
   "shopping_cart":{
     "items":[
       {
-        "name":"Geometric Candle Holders",
+        "name":"Candle Holders",
         "description":"",
-        "unit_price":90.00,
+        "unit_price":30.00,
         "quantity":2,
-        "merchant_item_id":"111111",
+        "merchant_item_id":"000001",
         "tax_table_selector":"none",
         "weight":{
           "unit":"KG",
-          "value":12
+          "value":1
+        }
+      },
+      {
+        "name":"Chair",
+        "description":"",
+        "unit_price":40.00,
+        "quantity":1,
+        "merchant_item_id":"000002",
+        "tax_table_selector":"none",
+        "weight":{
+          "unit":"KG",
+          "value":3
         }
       },
       {
         "name":"20% discount on all items",
         "description":"Discount",
-        "unit_price":-43.56,
+        "unit_price":-20.00,
         "quantity":1,
         "merchant_item_id":"discount",
         "tax_table_selector":"none",
@@ -74,12 +84,17 @@ meta_title: "API reference - Discount with order rule - MultiSafepay Docs"
 ```
 {{< /code-block >}}
 {{< description >}}
-### Discount with order rule
-For all payment methods except [pay later methods](/payments/methods/pay-later/), the main way of adding a discount **before** submitting a transaction request is to add it as an order rule (non-refundable). 
 
-For pay later methods, adding a discount as an order rule or a separate discount rule can create a conflict for partial refunds, especially when the discount is a percentage. You cannot undo or partially refund the negative amount. Instead, add discounts as a [unit price](#discount-with-unit-price).
+### Discount an order
 
-**Note:** Avoid adding discounts as a separate discount rule because, for partial refunds, you can't undo the negative amount.
+To discount an order (except for [pay later](/api/#discount-pay-later-orders) orders):
+
+- Reduce the total order `amount` (this determines how much the customer pays).
+- Optionally, to discount:
+  - All items in the order, add a separate "discount" item in the `shopping_cart`.
+  - Specific items in the order, reduce the `unit_price` of those items in the `shopping_cart`.
+
+See also [Discount pay later orders](/api/#discount-pay-later-orders).
 
 **Parameters**
 
@@ -114,6 +129,8 @@ The payment amount in the currency's smallest unit:
 
 - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
 - Zero-decimal currencies: Value for ¥10 = 10 
+
+**Note**: This amount includes the discount.
 
 ----------------
 `shopping_cart.items` | required
