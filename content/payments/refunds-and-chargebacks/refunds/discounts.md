@@ -26,7 +26,7 @@ You can process discounts either via your MultiSafepay dashboard or our API for 
 4. Click **Refund order**.  
 5. Click **Edit**.
 6. In the checkout editor:  
-   - Add the discount as a new page, e.g. Quantity= 1 > Discount= Item or name > Amount (negative) > VAT
+   - Add the discount as a new page, e.g. Quantity = 1 > Discount = Item or name > Amount (negative) > VAT
    - To deduct the amount of the discount, add a new line to the order.  
 7. Click **Save**.
 
@@ -34,5 +34,5 @@ You can process discounts either via your MultiSafepay dashboard or our API for 
 
 See API reference:
 
-- [Discount added as a unit price](/api/#discount-with-unit-price)
-- [Discount with order rule](/api/#discount-with-order-rule)
+- [Discount regular orders](/api/#discount-regular-orders)
+- [Discount pay later orders](/api/#discount-pay-later-orders)
