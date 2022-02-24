@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/klarna/product-rules/
     - /payment-methods/klarna/product-rules/
 ---
-[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now or later. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
+[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, later, or in installments. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
 |   |   |   |
 |---|---|---|

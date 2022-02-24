@@ -43,7 +43,7 @@ Get details about your transactions under your account.
 
 For use cases and sample requests, see [Reconciliation through API](/accounting/api-reconciliation/).
 
-Requests retrieve an array of all transactions under your account. See also [Pagination](/developer/api/pagination/).
+Requests retrieve an array of all transactions under your account. See also [Pagination](/developer/pagination/).
 
 **API key**
 
