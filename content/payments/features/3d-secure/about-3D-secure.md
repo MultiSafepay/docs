@@ -2,7 +2,6 @@
 title : "About 3D Secure"
 weight: 10
 meta_title: "Payment regulations - About 3D Secure - MultiSafepay Docs"
-
 read_more: "."
 url: '/features/3d-secure/about/'
 aliases:
@@ -20,15 +19,15 @@ aliases:
     - /features/3d-secure/about/
 ---
 
-3D Secure is an authentication protocol for online credit and debit card payments. It provides an extra layer of security and prevents [fraud-related chargebacks](/payments/chargebacks/minimizing/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
+3D Secure is an authentication protocol for online credit and debit card payments. It&nbsp;provides an extra layer of security and helps prevent [fraud-related chargebacks](/payments/chargebacks/minimizing/). After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
 
-If a customer requests a [chargeback](/payments/chargebacks/) due to fraud after the transaction passed 3D&nbsp;Secure authentication, the card scheme is responsible for the costs instead of you.
+If a customer requests a [chargeback](/payments/chargebacks/) due to fraud after passing 3D&nbsp;Secure authentication, the card scheme is responsible for the costs instead of you.
 
-MultiSafepay is required under the Payment Services Directive 2 ([PSD2](/payment-regulations/psd2/)) to apply 3D&nbsp;Secure to all Europe-based credit card payments.
+Under [PSD2](/payment-regulations/psd2/), MultiSafepay is required to apply 3D&nbsp;Secure authentication to all Europe-based credit card payments.
 
 ## How it works
 
-**1.** The customer provides their card information and is redirected to the card scheme to verify their identity:
+**1.** The customer provides their cardholder data and is redirected to the card scheme to verify their identity:
 
 - American Express Safekey
 - Mastercard SecureCode
@@ -48,7 +47,11 @@ MultiSafepay is required under the Payment Services Directive 2 ([PSD2](/payment
 
 {{< responsive_svg src="/diagrams/svg/3DS-flow" alt="3D Secure Flow" align="center" title="3D Secure 2.0 flow">}}
 
-## See also
+## Disabling 3D Secure
 
-- [Dynamic 3D Secure](/features/3d-secure/dynamic/)
+For **European** credit card payments, MultiSafepay can conduct a transaction risk analysis (TRA) and exempt payments from 3D Secure for amounts up to EUR 500. However, the card issuer may still decline the exemption. 
+
+For **non-European** credit card payments, MultiSafepay can disable 3D Secure on request. See also: 
+
+- [Dynamic 3D](/features/3d-secure/dynamic/) 
 - [Flexible 3D](/features/flexible-3d/)
