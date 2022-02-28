@@ -40,4 +40,4 @@ PaymentComponent = new MultiSafepay({
 
 href-1="/fastcheckout/api/step-3" header-1="Back" text-1="Step 3: Create an order" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/api/#fastcheckout-order/" header-2="Next" text-2="API reference – FastCheckout orders" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/api/#fastcheckout-order" header-2="Next" text-2="API reference – FastCheckout orders" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
