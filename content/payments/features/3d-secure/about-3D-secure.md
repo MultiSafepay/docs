@@ -54,4 +54,4 @@ For **European** credit card payments, MultiSafepay can conduct a transaction ri
 For **non-European** credit card payments, MultiSafepay can disable 3D Secure on request. See also: 
 
 - [Dynamic 3D](/features/3d-secure/dynamic/) 
-- [Flexible 3D](/features/flexible-3d/)
+- [Flexible 3D](/features/3d-secure/flexible/)

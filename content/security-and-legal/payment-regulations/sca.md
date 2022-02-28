@@ -2,7 +2,6 @@
 title : "Strong customer authentication (SCA)"
 weight: 40
 meta_title: "Strong customer authentication (SCA) - MultiSafepay Docs"
-
 read_more: "."
 url: '/payment-regulations/sca/'
 aliases:
@@ -32,5 +31,5 @@ To apply, email <sales@multisafepay.com>
 
 ## See also 
 
-- [About 3D Secure](/features/3d-secure/)
-- [Versions of 3D Secure](/features/3d-secure/versions/)
+- [3D Secure](/features/3d-secure/about/)
+
