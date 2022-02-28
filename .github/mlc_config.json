@@ -64,6 +64,9 @@
       },
       {
         "pattern": "https://myedenred\\.be.*"
+      },
+      {
+        "pattern": "https://store\\.shopware\\.com.*"
       }
     ],
   "timeout": "60s",
