@@ -10,6 +10,7 @@ aliases:
     - /faq/general/supported-currencies/
     - /tools/multisafepay-control/enabling-converting-currencies
     - /my-account/manage-your-balance/enabling-converting-currencies/
+    - /account/manage-your-balance/enabling-converting-currencies/
 ---
 You can process payments in a large number of currencies, provided that they are:
 
