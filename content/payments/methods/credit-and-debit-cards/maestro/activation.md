@@ -5,8 +5,10 @@ weight: 20
 meta_title: "Activating Maestro - MultiSafepay Docs"
 short_description: "Activating Maestro for your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/maestro/activation/'
 aliases: 
     - /payment-methods/maestro/activate-maestro/
+    - /payments/methods/credit-and-debit-cards/maestro/activation/
 ---
 
 {{< blue-notice >}} If using a ready-made integration: 

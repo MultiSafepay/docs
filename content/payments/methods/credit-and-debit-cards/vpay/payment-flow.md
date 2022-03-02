@@ -5,8 +5,10 @@ weight: 30
 meta_title: "V Pay payment flow - MultiSafepay Docs"
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/vpay/payment-flow/'
 aliases: 
     - /payment-methods/vpay/how-does-vpay-work/
+    - /payments/methods/credit-and-debit-cards/vpay/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.

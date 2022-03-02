@@ -5,8 +5,10 @@ weight: 30
 meta_title: "Mastercard payment flow - MultiSafepay Docs"
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/mastercard/payment-flow/'
 aliases: 
     - /payment-methods/mastercard/how-does-mastercard-work
+    - /payments/methods/credit-and-debit-cards/mastercard/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.
