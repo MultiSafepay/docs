@@ -5,8 +5,10 @@ weight: 30
 meta_title: "Maestro payment flow - MultiSafepay Docs"
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/maestro/payment-flow/'
 aliases: 
     - /payment-methods/maestro/how-does-maestro-work/
+    - /payments/methods/credit-and-debit-cards/maestro/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.

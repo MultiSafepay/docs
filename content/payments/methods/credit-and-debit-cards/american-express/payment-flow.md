@@ -5,8 +5,10 @@ weight: 30
 meta_title: "American Express payment flow - MultiSafepay Docs"
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/amex/payment-flow/'
 aliases: 
     - /payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
+    - https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/american-express/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.

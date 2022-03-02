@@ -5,6 +5,9 @@ weight: 30
 meta_title: "Cartes Bancaires payment flow - MultiSafepay Docs"
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/cartes-bancaires/payment-flow/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/cartes-bancaires/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.

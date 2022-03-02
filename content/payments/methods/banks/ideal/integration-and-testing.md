@@ -6,11 +6,12 @@ meta_title: "Integrating and testing iDEAL - MultiSafepay Docs"
 short_description: "Options for integrating iDEAL and testing payments"
 layout: 'child'
 logo: '/logo/Payment_methods/iDEAL.svg'
-url: '/payment-methods/ideal/testing/'
+url: '/payment-methods/ideal/integration-testing/'
 aliases:
     - /payment-methods/ideal/ideal-testing
     - /payments/methods/banks/ideal/integration-and-testing/
     - /payments/methods/banks/idealqr/integration-and-testing/
+    - /payment-methods/ideal/testing/
 ---
 ## Integration
 
