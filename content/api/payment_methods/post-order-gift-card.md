@@ -74,7 +74,7 @@ Options:
 
 - [Baby Cadeaubon](https://www.babycadeaubon.nl/)= `BABYCAD`
 - [Beauty Cadeau](https://www.beautycadeau.nl/)= `BEAUTYCAD`
-- [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/page/hoe-het-werkt/)= `BEAUTYWELL`
+- [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/)= `BEAUTYWELL`
 - [Biercheque](https://biercheque.nl/)= `BIERCHEQUE`
 - [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/)= `BLOEMENCAD`
 - [Boekenbon](https://bestel.boekenbon.nl/)= `BOEKENBON`
