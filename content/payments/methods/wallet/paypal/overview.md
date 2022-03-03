@@ -5,10 +5,11 @@ weight: 10
 meta_title: "PayPal overview - MultiSafepay Docs"
 short_description: "Key information, supported countries, currencies, and features"
 layout: 'child'
-url: '/payment-methods/paypal/product-rules/'
+url: '/payment-methods/paypal/overview/'
 aliases:
     - /payments/methods/wallet/paypal/about/
     - /payments/methods/paypal/product-rules/
+    - /payment-methods/paypal/product-rules/
     - /payment-methods/paypal/product-rules/
 ---
 [PayPal](https://www.paypal.com/nl/home) is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
