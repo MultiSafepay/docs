@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "Feb 23, 2022",
+            "change": "[Self-made integration tutorial](/integrations/self-made/)"
+        },
+        {
             "date": "Sep 22, 2021",
             "change": "New payment method: [WeChat Pay](/payments/methods/wallet/wechatpay/)"
         },
