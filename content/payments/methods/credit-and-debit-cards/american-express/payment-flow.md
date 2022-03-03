@@ -8,7 +8,7 @@ layout: 'child'
 url: '/payment-methods/amex/payment-flow/'
 aliases: 
     - /payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
-    - https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/american-express/payment-flow/
+    - /payments/methods/credit-and-debit-cards/american-express/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.
