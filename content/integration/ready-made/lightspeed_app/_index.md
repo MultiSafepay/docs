@@ -79,6 +79,7 @@ Contact us:
 
 - [Alipay](/payment-methods/alipay)
 - [Apple Pay](/payment-methods/apple-pay)
+- [Google Pay](/payment-methods/google-pay/)
 - [PayPal](/payment-methods/paypal)
 
 **Prepaid cards**  
