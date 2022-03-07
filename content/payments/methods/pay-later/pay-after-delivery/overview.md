@@ -24,11 +24,19 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 | **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) {{< br >}} See also [Processing refunds and discounts](/payment-methods/pay-after-delivery/refunds-discounts/) |
 | **Transactions expire after** | 90 days |
 
-## Notes
+## Amounts
 
-- Minimum and maximum order amounts apply. For more information, email <sales@multisafepay.com>
+Minimum and maximum order amounts apply. For more information, email <sales@multisafepay.com>
 
-- The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+## Addresses
+
+The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+
+## Surcharges
+
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). We therefore strongly recommend discontinuing any surcharges. 
+
+For more information, email <sales@multisafepay.com> 
 
 ## See also
 
