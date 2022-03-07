@@ -1,7 +1,7 @@
 ---
 title : "Site ID, API key, and secure code"
 weight: 7
-meta_title: "Account - Site ID, API key, and secure code - MultiSafepay Docs"
+meta_title: "Site ID, API key, and secure code - MultiSafepay Docs"
 read_more: '.'
 url: '/account/site-id-api-key-secure-code'
 aliases:
@@ -14,11 +14,8 @@ aliases:
     - /faq/api/generate-your-api-key
     - /faq/api/generating-your-api-key
 ---
-## Account API key
-Your MultiSafepay account API key is automatically generated when your account is created. To retrieve it, email <sales@multisafepay.com>
 
-## Website API key, site ID, and secure code
-To view the site ID, API key, and secure code for a specific website:
+To view the site ID, API key, and secure code for a website:
 
 1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay dashboard.
 
