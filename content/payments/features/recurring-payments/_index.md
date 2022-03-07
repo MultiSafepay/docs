@@ -49,7 +49,7 @@ Tokens are stored at account level rather than website level. If you operate mul
 
 ### Initial payment
 
-1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure. 
+1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure (**except for** Bancontact). 
 2. MultiSafepay encrypts the payment details during processing and stores them securely on our servers. We return to you a non-sensitive token that references the encrypted payment details. 
 3. You can use the token to process recurring payments without needing to handle or store sensitive payment details.
 
