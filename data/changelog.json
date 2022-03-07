@@ -2,6 +2,18 @@
     "entries" : 
     [   
         {
+            "date": "Feb 23, 2022",
+            "change": "[Self-made integration tutorial](/integrations/self-made/)"
+        },
+        {
+            "date": "Jan 11, 2022",
+            "change": "[Google Pay direct integration](/payment-methods/google-pay/direct/)"
+        },
+        {
+            "date": "Jan 8, 2022",
+            "change": "Accounting integration: [PSP Betalingen and e-Boekhouden](/accounting/integrations/e-boekhouden/integrations/psp-betalingen/)"
+        },
+        {
             "date": "Sep 22, 2021",
             "change": "New payment method: [WeChat Pay](/payments/methods/wallet/wechatpay/)"
         },
