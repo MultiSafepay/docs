@@ -62,11 +62,11 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
+| [Manually authorize or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
 | The transaction was cancelled or the customer requested a chargeback. | Void   | Void   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| The customer's bank has declined the transaction. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
+| The customer's bank has declined the transaction. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
 
 ## Refund statuses
 

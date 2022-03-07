@@ -181,9 +181,9 @@ You should receive a response like this:
   }
 }
 ```
-The most important parameter is `status`, which represents the [status of the order](/payments/multisafepay-statuses/), i.e. the progression of the customer’s order with you. 
+The most important parameter is `status`, which represents the [status of the order](/about-payments/multisafepay-statuses/), i.e. the progression of the customer’s order with you. 
 
-The second most important parameter is `financial_status`, which represents the [status of the transaction](/payments/multisafepay-statuses/), i.e. the progression towards settling the funds in your MultiSafepay balance.
+The second most important parameter is `financial_status`, which represents the [status of the transaction](/about-payments/multisafepay-statuses/), i.e. the progression towards settling the funds in your MultiSafepay balance.
 
 We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Status meanings](/payments/multisafepay-statuses/#status-meanings).
 

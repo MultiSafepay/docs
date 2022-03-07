@@ -8,7 +8,7 @@ layout: 'child'
 url: '/payment-methods/amex/payment-flow/'
 aliases: 
     - /payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
-    - https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/american-express/payment-flow/
+    - /payments/methods/credit-and-debit-cards/american-express/payment-flow/
 ---
 
 This diagram shows the flow for a successful transaction.
@@ -62,7 +62,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | The transaction was cancelled. | Void   | Cancelled   |
 | Payment wasn't captured manually or within 5 days. | Void | Void |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| 3D Secure authorization failed or was cancelled, and the transaction was declined. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
+| 3D Secure authorization failed or was cancelled, and the transaction was declined. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
 
 ## Refund/chargeback statuses
 

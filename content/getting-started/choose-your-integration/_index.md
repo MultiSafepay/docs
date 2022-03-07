@@ -2,8 +2,7 @@
 title: 'Choose your integration'
 breadcrumb_title: 'Choose your integration'
 weight: 10
-meta_title: "Getting Started - Choose your integration - MultiSafepay Docs"
-
+meta_title: "Choose your integration - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Integrations.svg'
 layout: 'single'

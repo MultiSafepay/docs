@@ -2,7 +2,6 @@
 title : "Strong customer authentication (SCA)"
 weight: 40
 meta_title: "Strong customer authentication (SCA) - MultiSafepay Docs"
-
 read_more: "."
 url: '/payment-regulations/sca/'
 aliases:

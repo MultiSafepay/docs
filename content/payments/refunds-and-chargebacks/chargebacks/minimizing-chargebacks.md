@@ -1,10 +1,12 @@
 ---
 title : "Minimizing chargebacks"
 weight: 80
-meta_title: "Credit card user guide - Minimizing chargebacks - MultiSafepay Docs"
+meta_title: "Minimizing chargebacks - MultiSafepay Docs"
 short_description: "Minimize chargebacks by providing good customer service and using fraud protection"
-url: "/payments/chargebacks/minimizing"
+url: '/chargebacks/minimizing/'
 read_more: "."
+aliases: 
+    - /payments/chargebacks/minimizing
 ---
 
 The best way of minimizing chargebacks is providing good customer service.
@@ -12,7 +14,7 @@ The best way of minimizing chargebacks is providing good customer service.
 We set out below ways to minimize the risk of the most common types of chargeback: 
 
 ## Fraud
-Use [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/) for all credit card transactions. 
+Use [3D Secure](/glossaries/credit-cards/#3d-secure) for all credit card transactions. 
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 
@@ -26,4 +28,4 @@ Offer quality items and provide clear descriptions on your website.
 
 ## Transaction not recognized
 
-To help increase brand recognition, include your logo in customer's online bank statments. See [Your logo in online banking](/payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking).
+To help increase brand recognition, include your logo in customer's online bank statments. See [Your logo in online banking](/about-payments/logos-in-online-banking/).

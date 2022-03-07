@@ -40,8 +40,8 @@ For more information, email the Integration Team at <integration@multisafepay.co
 
 Credit cards:
 
-- [American Express](/payment-methods/american-express/)
-- [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
+- [American Express](/payment-methods/amex/)
+- [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa/), including [Cartes Bancaires](/payment-methods/cartes-bancaires/) and [Dankort](/payment-methods/dankort/)
 
 Banking methods:
