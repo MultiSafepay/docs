@@ -36,13 +36,13 @@ A merchant's bespoke integration with MultiSafepay's services built using [our A
 A software developer a merchant employs to work on the technical side of their integration.
 
 ### ecommerce platform
-An online [platform](/payments/integrations/ecommerce-platforms/) merchants use for accepting payments, e.g. website, mobile app, [PWA](/payments/integrations/pwa/). 
+An online [platform](/integrations/ready-made/) merchants use for accepting payments, e.g. website, mobile app, PWAs. 
 
 ### fraud
 When a person tries to receive products without paying for them by tricking a customer or merchant.
 
 ### integration
-Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/payments/integrations/pwa/). Merchants may use [ecommerce platforms](/payments/integrations/ecommerce-platforms/) or build a custom integration.
+Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/payments/integrations/pwa/). Merchants may use [ecommerce platforms](/integrations/ready-made/) or build a custom integration.
 
 ### item
 A product or service in a customer's shopping cart and/or order.

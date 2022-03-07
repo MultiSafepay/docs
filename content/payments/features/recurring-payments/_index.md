@@ -153,7 +153,7 @@ MultiSafepay offers three recurring models:
 - `subscription`
 - `unscheduled` (event-triggered)
 
-Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/payments/integrations/) use `cardOnFile` only. 
+Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
 
 ## Via our API
 See API reference – [Recurring Payments](/api/#recurring-payments-orders).
@@ -180,12 +180,12 @@ You must have **both** credit card payments and recurring payments enabled for y
 
 We support recurring payments in our plugins for:
 
-- [Magento 1](/payments/integrations/ecommerce-platforms/magento1)
-- [Magento 2](/payments/integrations/ecommerce-platforms/magento2)
-- [PrestaShop 1.6](/payments/integrations/ecommerce-platforms/prestashop-1-6)
-- [PrestaShop 1.7](/payments/integrations/ecommerce-platforms/prestashop-1-7)
-- [Shopware 6](/payments/integrations/ecommerce-platforms/shopware6) 
-- [Woocommerce](/payments/integrations/ecommerce-platforms/woocommerce/) 
+- [Magento 1](/magento1)
+- [Magento 2](/magento2)
+- [PrestaShop 1.6](/prestashop-1-6)
+- [PrestaShop 1.7](/prestashop-1-7)
+- [Shopware 6](/shopware-6) 
+- [Woocommerce](/woocommerce/) 
 
 {{< /details >}}
 

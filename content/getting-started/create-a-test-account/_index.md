@@ -2,8 +2,7 @@
 title: 'Create a test account'
 breadcrumb_title: 'Create a test account'
 weight: 10
-meta_title: "Getting Started - Create a test account - MultiSafepay Docs"
-
+meta_title: "Create a test account - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Zero_Authorization.svg'
 layout: 'single'
@@ -17,7 +16,7 @@ A test account lets you:
 * Explore new features and tools.
 * Process test transactions for free.
 
-See also [About account types](/account/partner-account-control/about-account-types/).
+See also [Account types](/account/create-account/#account-types).
 
 ## Creating a test account
 

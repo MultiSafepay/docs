@@ -4,7 +4,7 @@ meta_title: 'Security and legal'
 breadcrumb_title: 'Security and legal'
 tags: 'hidden'
 layout: 'block'
-
+url: '/security-and-legal/'
 logo: '/svgs/FAQ.svg'
 weight: 10
 ---

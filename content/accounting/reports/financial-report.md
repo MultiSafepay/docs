@@ -1,7 +1,6 @@
 ---
 title: "Financial report"
-meta_title: "Reports - Financial report - MultiSafepay Docs"
-
+meta_title: "Financial report - MultiSafepay Docs"
 read_more: '.'
 weight: 3
 aliases:
