@@ -5,6 +5,9 @@ weight: 40
 meta_title: "Integrating and testing V Pay - MultiSafepay Docs"
 short_description: "Options for integrating V Pay and testing payments"
 layout: 'child'
+url: '/payment-methods/vpay/integration-testing/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/vpay/integration-and-testing/
 ---
 ## Integration
 

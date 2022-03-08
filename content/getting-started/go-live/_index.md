@@ -2,8 +2,7 @@
 title: 'Onboard and go live'
 breadcrumb_title: 'Onboard and go live'
 weight: 10
-meta_title: "Getting started - Onboard and go live - MultiSafepay Docs"
-
+meta_title: "Onboard and go live - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Getting started.svg'
 faq: '.'

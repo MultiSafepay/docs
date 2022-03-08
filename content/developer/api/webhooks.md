@@ -13,7 +13,7 @@ aliases:
 
 MultiSafepay uses a webhook to send you updates about orders and other notifications.
 
-The webhook is triggered when the [order or transaction status](/payments/multisafepay-statuses/) changes, e.g. when:
+The webhook is triggered when the [order or transaction status](/about-payments/multisafepay-statuses/) changes, e.g. when:
 
 - A customer completes payment
 - A customer's payment is declined or fails

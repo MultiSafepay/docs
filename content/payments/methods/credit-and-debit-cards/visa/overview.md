@@ -5,13 +5,14 @@ weight: 10
 meta_title: "Visa overview  - MultiSafepay Docs"
 short_description: "Key information, supported countries, currencies, and features"
 layout: 'child'
-url: '/payments/methods/visa/overview/'
+url: '/payment-methods/visa/overview/'
 aliases:
     - /payment-methods/credit-and-debit-cards/visa/what-is-visa
     - /payment-methods/credit-and-debit-cards/visa/what-is-a-chargeback
     - /payments/methods/credit-and-debit-cards/visa/user-guide/about-chargebacks/
     - /payments/methods/credit-and-debit-cards/visa/about/
     - /payments/methods/visa/product-rules/
+    - /payments/methods/visa/overview/
 ---
 [Visa](https://www.visa.com/globalgateway/?retcountry=1) is a leading global credit card scheme. 
 

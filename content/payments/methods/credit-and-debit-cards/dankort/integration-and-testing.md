@@ -5,6 +5,9 @@ weight: 40
 meta_title: "Integrating and testing Dankort - MultiSafepay Docs"
 short_description: "Options for integrating Dankort and testing payments"
 layout: 'child'
+url: '/payment-methods/dankort/integration-testing/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/dankort/integration-and-testing/
 ---
 ## Integration
 

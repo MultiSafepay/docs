@@ -5,11 +5,12 @@ weight: 10
 meta_title: "American Express overview - MultiSafepay Docs"
 short_description: "Key information, supported countries, currencies, and features"
 layout: 'child'
-url: '/payments/methods/amex/overview/'
+url: '/payment-methods/amex/overview/'
 aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
     - /payment-methods/american-express/about/
     - /payments/methods/amex/product-rules/
+    - /payments/methods/amex/overview/
 ---
 [American Express](https://www.americanexpress.com/nl-nl/) is one of the biggest global credit card schemes, accepted in more than 160 countries. 
 

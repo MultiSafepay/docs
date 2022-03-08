@@ -39,9 +39,9 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payment-methods/dankort)
 
 **Banking methods**
 
