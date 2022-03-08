@@ -180,12 +180,12 @@ You must have **both** credit card payments and recurring payments enabled for y
 
 We support recurring payments in our plugins for:
 
-- [Magento 1](/magento1)
-- [Magento 2](/magento2)
+- [Magento 1](/magento-1)
+- [Magento 2](/magento-2)
 - [PrestaShop 1.6](/prestashop-1-6)
-- [PrestaShop 1.7](/prestashop-1-7)
+- [PrestaShop 1.7](/prestashop)
 - [Shopware 6](/shopware-6) 
-- [Woocommerce](/woocommerce/) 
+- [Woocommerce](/woo-commerce/) 
 
 {{< /details >}}
 
