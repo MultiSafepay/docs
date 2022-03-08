@@ -56,7 +56,7 @@ Default: `en_US` (American English).
 `ip_address` | string | required / recommended 
 
 The customer's IP address.  
-Required for [pay later methods](/payments/methods/pay-later/) and [credit cards](/payment-methods/credit-debit-cards/) as part of our [fraud check](/glossaries/credit-cards/#uncleared-transactions), optional but recommended for other payment methods.  
+Required for [pay later methods](/payment-methods/pay-later/) and [credit cards](/payment-methods/credit-debit-cards/) as part of our [fraud check](/glossaries/credit-cards/#uncleared-transactions), optional but recommended for other payment methods.  
 If empty or incorrect (e.g. your IP address instead of the customer's) when required, the transaction status may be **Uncleared**, or even **Declined**.       
 
 ----------------
