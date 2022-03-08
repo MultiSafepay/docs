@@ -59,5 +59,5 @@ aliases:
 
 For support: 
 
-- See ZilverCMS - [Contact](https://www.zilvercms.nl/contact)
+- See ZilverCMS - [Contact](https://www.zilverhq.nl/contact)
 - Email the Integration Team at <integration@multisafepay.com>
