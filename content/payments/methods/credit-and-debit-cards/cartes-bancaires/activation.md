@@ -6,6 +6,9 @@ meta_title: "Activating Cartes Bancaires - MultiSafepay Docs"
 short_description: "Activating Cartes Bancaires for your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/Carte-Bancaire.svg'
+url: '/payment-methods/cartes-bancaires/activation/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/cartes-bancaires/activation/
 ---
 
 {{< blue-notice >}} If using a ready-made integration: 

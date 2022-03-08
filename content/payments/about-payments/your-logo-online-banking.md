@@ -15,4 +15,4 @@ aliases:
 
 Displaying your logo in customers' online banking environments and applications can help improve your brand presence, recognition, and trust. This in turn helps reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognise or trust a transaction.
 
-[Upload your logo](https://logo.ethoca.com/) for the [card scheme](/payments/methods/credit-and-debit-cards/user-guide/glossary/#card-scheme) to display in all participating banking environments and applications. 
+[Upload your logo](https://logo.ethoca.com/) for the [card scheme](/glossaries/credit-cards/#card-scheme) to display in all participating banking environments and applications. 

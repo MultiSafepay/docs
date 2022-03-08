@@ -33,7 +33,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa)

@@ -1,7 +1,6 @@
 ---
 title : "Customizing Payment Components"
 meta_title: "Payment Components - Customizing Payment Components - MultiSafepay Docs"
-
 layout: 'single'
 read_more: '.'
 weight: 3

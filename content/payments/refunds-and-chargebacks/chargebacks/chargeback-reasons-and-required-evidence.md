@@ -1,17 +1,17 @@
 ---
 title : "Chargeback reasons and required evidence"
 weight: 60
-meta_title: "Credit card user guide - Chargeback reasons and required evidence - MultiSafepay Docs"
-
+meta_title: "Chargeback reasons and required evidence - MultiSafepay Docs"
 read_more: "."
-url: "/payments/chargebacks/reasons"
-short_description: "Learn about the reasons why cardholders may request a chargeback"
+url: '/chargebacks/reasons/'
+short_description: "Learn about why cardholders may request chargebacks."
 aliases:
     - /faq/chargebacks/dispute-chargeback
     - /faq/chargebacks/disputing-chargebacks/
+    - /payments/chargebacks/reasons
 ---
 
-When a [cardholder](/payments/methods/credit-and-debit-cards/user-guide/glossary/#cardholder) requests a [chargeback](/payments/methods/credit-and-debit-cards/user-guide/glossary/#chargeback), they must provide a reason. This page sets out the chargeback reason codes for the major [card schemes](/payments/methods/credit-and-debit-cards/user-guide/glossary/#card-scheme). 
+When a [cardholder](/glossaries/credit-cards/#cardholder) requests a [chargeback](/glossaries/credit-cards/#chargeback), they must provide a reason. This page sets out the chargeback reason codes for the major [card schemes](/glossaries/credit-cards/#card-scheme). 
 
 If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible. 
 
@@ -247,7 +247,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**.
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/glossaries/credit-cards/#3d-secure).
 
 {{< /details >}}
 
@@ -259,13 +259,13 @@ To dispute this type of chargeback, you need to provide proof that:
 
 - The receipt is signed, or 
 - The cardholder was present at the time of the transaction, or 
-- The transaction was verified by [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure)
+- The transaction was verified by [3D Secure](/glossaries/credit-cards/#3d-secure)
 
 {{< /details >}}
 
 {{< details title="Reason code 4540: Card not present" >}}
 
-The cardholder denies participating in a [MOTO](/payments/features/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
+The cardholder denies participating in a [MOTO](/features/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
 
 To dispute this type of chargeback, you need to provide evidence that:
 
@@ -394,6 +394,6 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/glossaries/credit-cards/#3d-secure).
 
 {{< /details >}}

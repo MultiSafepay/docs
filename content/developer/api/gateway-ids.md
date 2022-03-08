@@ -8,6 +8,7 @@ aliases:
     - /developer/gateway-codes/
 ---
 The table below sets out the gateway identifiers for all payment methods, and the supported [request types](/developer/direct-vs-redirect/).
+
 | Payment method | Gateway ID | Request type |
 |---|---|---|
 | AfterPay | `AFTERPAY` | Redirect, direct |
