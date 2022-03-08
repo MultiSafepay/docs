@@ -14,7 +14,7 @@ aliases:
     - /payments/methods/bancontact-qr/product-rules/
     - /payment-methods/bancontact/product-rules/
 ---
-[Bancontact](https://www.bancontact.com/en) is a leading Belgian banking method that supports online, mobile app, QR, and POS payments. It is a household name and supported by over 80% of Belgian webshops. 
+[Bancontact](https://www.bancontact.com/en) is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. 
 
 Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
 
@@ -33,22 +33,26 @@ Non-mobile payments always use [3D Secure](/features/3d-secure/) 1.0 verificatio
 
 Bancontact WIP is a wallet initiated payment service you can use for:
 
-- Customer-initiated OneClickPayments to make checkout faster and more convenient and increase conversion
-- Merchant-initiated Recurring Payments to manage subscriptions
-- Your own apps and customer loyalty schemes
+- Bancontact One-Click Pay: customer-initiated one-click payments to make checkout faster and increase conversion
+- Bancontact Recurring: merchant-initiated subscription payments
 
-Bancontact creates a Merchant Wallet for your to securely store customers' payment details. The customer gives one-time consent for you to register their Bancontact card and passes [3D Secure](/features/3d-secure/) authentication. 
+### How it works
+
+Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication (SCA)](/payment-regulations/sca/) for their first purchase. 
+
+There is no liability shift from [issuer](/glossaries/multisafepay-glossary/#issuer) to [acquirer](/glossaries/multisafepay-glossary/#acquirer) since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
 
 ### Criteria and activation
 
-- Bancontact WIP is only available to low-risk, high-volume merchants (+100,000 transactions per year), within the SEPA area. 
-- You must support refunds and resolve disputes with customers bilaterally. 
-- A maximum amount applies. 
-- You must be able to continually demonstrate low rates of fraudulent transactions, or access to your Merchant Wallet may be revoked. 
+- Bancontact WIP is only available to low-risk, high-volume merchants (25,000 transactions quarterly), within the SEPA area. 
+- You must be [PCI DSS](/payment-regulations/pci-dss/) compliant.
+- You must have easy-to-use procedures in place for refunds, cancellations, and disputes.
+- Customers must be able to add, update, and delete their stored payment details.  
+- You must be able to continually demonstrate low rates of fraudulent transactions, or access to your merchant wallet may be revoked. 
 
 Email a request to activate Bancontact WIP to <sales@multisafepay.com>
 
-Requests must then be approved by Bancontact Payconiq. 
+Requests are screened and approved by Bancontact Payconiq. 
 
 ### Integration
 
