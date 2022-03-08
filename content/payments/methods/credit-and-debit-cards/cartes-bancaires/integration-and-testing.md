@@ -5,6 +5,9 @@ weight: 40
 meta_title: "Integrating and testing Cartes Bancaires - MultiSafepay Docs"
 short_description: "Options for integrating Cartes Bancaires and testing payments"
 layout: 'child'
+url: '/payment-methods/cartes-bancaires/integration-testing/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/cartes-bancaires/integration-and-testing/
 ---
 ## Integration
 

@@ -30,6 +30,6 @@ An additional layer of security is provided by 3D Secure, which requires custome
 
 - Customers must use the Safari browser.  
 
-- Apple Pay transactions are processed as [credit card transactions](/payments/methods/credit-and-debit-cards/) except:
+- Apple Pay transactions are processed as [credit card transactions](/payment-methods/credit-debit-cards/) except:
     - An SSL secured connection (HTTPS) is required.
     - American Express is **not** supported.

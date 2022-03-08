@@ -2,8 +2,7 @@
 title: 'Test your integration'
 breadcrumb_title: 'Test your integration'
 weight: 10
-meta_title: "Getting started - Test your integration - MultiSafepay Docs"
-
+meta_title: "Test your integration - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Testing.svg'
 layout: 'single'

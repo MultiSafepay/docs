@@ -64,6 +64,6 @@ To activate Manual Capture for your MultiSafepay account, email <sales@multisafe
 ## Integration
 To integrate Manual Capture using our API, see API reference – [Manual Capture authorization](/api/#manual-capture-orders).
 
-Manual Capture is not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but you can customize it via our API.
+Manual Capture is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 
 For any questions, email the Integration Team at <integration@multisafepay.com>

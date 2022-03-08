@@ -3,7 +3,6 @@ title: 'Getting started'
 breadcrumb_title: 'Getting started'
 weight: 10
 meta_title: "Getting started - MultiSafepay Docs"
-
 read_more: "."
 logo: '/svgs/Getting started.svg'
 layout: 'block'

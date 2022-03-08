@@ -26,7 +26,7 @@ Check the order status in the `status` field. If necessary, update your backend.
 **Note:** You can ignore notifications that:
 
 - Don't have the `timestamp` parameter in the URL  
-- Have the same [order status](/payments/multisafepay-statuses/) 
+- Have the same [order status](/about-payments/multisafepay-statuses/) 
 
 ### Validate the request
 
