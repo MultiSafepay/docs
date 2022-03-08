@@ -29,7 +29,8 @@ in3 processes all the installments and guarantees settlement after receiving the
 
 The default minimum order amount is 100 EUR and the default maximum amount is 3000 EUR. You can adjust these limits in the [backend](/glossaries/multisafepay-glossary/#backend) of our [ready-made integrations](/payments/integrations/ecommerce-platforms/) to show or hide in3 on your checkout page depending on the order value.
 
-## Addresses
+## Customer addresses
+
 
 Customers can provide different billing and shipping addresses.
 
