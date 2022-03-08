@@ -1,7 +1,6 @@
 ---
 title: "Advanced reporting"
-meta_title: "Reports - Advanced reporting - MultiSafepay Docs"
-
+meta_title: "Advanced reporting - MultiSafepay Docs"
 read_more: '.'
 weight: 7
 aliases:

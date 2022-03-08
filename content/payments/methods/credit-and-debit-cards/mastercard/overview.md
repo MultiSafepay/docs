@@ -5,12 +5,13 @@ weight: 10
 meta_title: "Mastercard overview - MultiSafepay Docs"
 short_description: "Key information, supported countries, currencies, and features"
 layout: 'child'
-url: '/payments/methods/mastercard/overview/'
+url: '/payment-methods/mastercard/overview/'
 aliases:
     - /payment-methods/credit-and-debit-cards/mastercard/what-is-mastercard
     - /payments/methods/credit-and-debit-cards/mastercard/user-guide/about-chargebacks/
     - /payments/methods/credit-and-debit-cards/mastercard/about/
     - /payments/methods/mastercard/product-rules/
+    - /payments/methods/mastercard/overview/
 ---
 [Mastercard](https://www.mastercard.com/global/en.html) is a leading global credit card scheme. 
 

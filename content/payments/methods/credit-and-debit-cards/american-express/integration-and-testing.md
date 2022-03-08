@@ -5,9 +5,11 @@ weight: 40
 meta_title: "Integrating and testing American Express - MultiSafepay Docs"
 short_description: "Options for integrating American Express and testing payments"
 layout: 'child'
+url: '/payment-methods/amex/integration-testing/'
 aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-testing
     - /payment-methods/credit-and-debit-cards/credit-card-payment-page
+    - /payments/methods/credit-and-debit-cards/american-express/integration-and-testing/
 ---
 ## Integration
 

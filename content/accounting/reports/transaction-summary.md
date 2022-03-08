@@ -1,7 +1,6 @@
 ---
 title: "Transaction summary"
-meta_title: "Reports - Transaction summary - MultiSafepay Docs"
-
+meta_title: "Transaction summary - MultiSafepay Docs"
 read_more: '.'
 weight: 2
 aliases:

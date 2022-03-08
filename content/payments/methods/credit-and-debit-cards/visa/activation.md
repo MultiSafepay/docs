@@ -5,8 +5,10 @@ weight: 20
 meta_title: "Activating Visa - MultiSafepay Docs"
 short_description: "Activating Visa for your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/visa/activation/'
 aliases: 
     - /payment-methods/credit-and-debit-cards/visa/activate-visa
+    - /payments/methods/credit-and-debit-cards/visa/activation/
 ---
 {{< blue-notice >}} If using a ready-made integration: 
 

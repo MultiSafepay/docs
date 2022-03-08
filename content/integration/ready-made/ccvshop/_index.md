@@ -43,7 +43,7 @@ Contact MultiSafepay:
 
 **Credit and debit cards**
   
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Mastercard](/payment-methods/mastercard)
 - [Maestro](/payment-methods/maestro)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)

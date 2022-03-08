@@ -5,10 +5,11 @@ weight: 10
 meta_title: "Maestro overview - MultiSafepay Docs"
 short_description: "Key information, supported countries, currencies, and features"
 layout: 'child'
-url: '/payments/methods/maestro/overview/'
+url: '/payment-methods/maestro/overview/'
 aliases:
     - /payments/methods/credit-and-debit-cards/maestro/about/
     - /payments/methods/maestro/product-rules/
+    - /payments/methods/maestro/overview/
 ---
 Maestro is a debit card service owned by Mastercard. It is accepted across Europe and in many other countries, and is especially popular in Belgium. 
 

@@ -59,7 +59,7 @@ The transaction ID provided must be unique. The transaction ID you provided may 
 
 The `ip_address` or `forwarded_ip` parameters in the `POST /orders` request contains an invalid customer IP address. 
 
-For [pay later methods](/payments/methods/pay-later/) and [credit cards](/payments/methods/credit-and-debit-cards/), we check the customer's IP address as part of our [fraud check](/credit-cards-user-guide/uncleared-transactions/).  
+For [pay later methods](/payment-methods/pay-later/) and [credit cards](/payment-methods/credit-debit-cards/), we check the customer's IP address as part of our [fraud check](/about-payments/uncleared-transactions/).  
 
 See API reference – [Customer object](/api/#customer-object).  
 
