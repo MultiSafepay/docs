@@ -5,8 +5,10 @@ weight: 40
 meta_title: "Integrating and testing Maestro - MultiSafepay Docs"
 short_description: "Options for integrating Maestro and testing payments"
 layout: 'child'
+url: '/payment-methods/maestro/integration-testing/'
 aliases:
     - /payment-methods/credit-and-debit-cards/maestro/maestro-testing
+    - /payments/methods/credit-and-debit-cards/maestro/integration-and-testing/
 ---
 ## Integration
 

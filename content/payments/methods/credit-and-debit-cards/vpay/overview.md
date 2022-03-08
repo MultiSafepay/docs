@@ -5,11 +5,12 @@ weight: 10
 meta_title: "V Pay overview - MultiSafepay Docs"
 short_description: "Key information, supported countries, currencies, and features"
 layout: 'child'
-url: '/payments/methods/vpay/overview/'
+url: '/payment-methods/vpay/overview/'
 aliases:
     - /payment-methods/vpay/what-is-vpay/
     - /payments/methods/credit-and-debit-cards/vpay/user-guide/about-chargebacks/
     - /payments/methods/vpay/product-rules/
+    - /payments/methods/vpay/overview/
 ---
 [V Pay](https://www.visaeurope.lu/en_LU/products/vpay.html) is a debit card service owned by Visa, and is accepted across Europe. 
 

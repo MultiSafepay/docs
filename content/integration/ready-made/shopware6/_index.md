@@ -51,10 +51,10 @@ For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.co
 
 **Credit and debit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payments/methods/credit-and-debit-cards/dankort), and [V Pay](/payment-methods/vpay)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay)
 
 **Banking methods**
 
