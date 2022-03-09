@@ -12,7 +12,7 @@ type: 'Plugin'
 layout: 'single'
 layout: 'single'
 changelog: https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md
-url: '/prestashop/'
+url: '/prestashop-1-7/'
 aliases: 
     - /plugins/prestashop-1-7
     - /integrations/plugins/prestashop-1-7
