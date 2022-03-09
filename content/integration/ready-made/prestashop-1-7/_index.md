@@ -40,7 +40,7 @@ Contact us:
 
 - MultiSafepay account – See [Getting started](/getting-started/).
 - PrestaShop 1.7.6 or higher
-- Tested on PHP 7.2
+- Minimum supported PHP version: 7.2
 
 If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
 
