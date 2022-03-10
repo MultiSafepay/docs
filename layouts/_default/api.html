@@ -1,0 +1,23 @@
+{{define "main"}}
+
+<!-- Redoc web component with link to our OpenAPI definition -->
+<redoc spec-url="https://raw.githubusercontent.com/MultiSafepay/openapi/main/openapi/openapi.yaml"></redoc>
+
+<!-- Link to Redoc JavaScript on CDN for rendering standalone element -->
+<script src="https://cdn.jsdelivr.net/npm/redoc@latest/bundles/redoc.standalone.js"></script>
+
+<!-- Ensure mmenu.js is collapsed -->
+<script>
+    function collapseMenu() {
+        document.body.classList.remove('mm-wrapper_sidebar-expanded');
+        document.body.classList.remove('mm-wrapper_opened');
+        document.body.classList.remove('mm-wrapper_blocking');
+        document.body.classList.remove('mm-wrapper_background');
+        document.body.classList.remove('mm-wrapper_opening');
+        document.body.classList.add('mm-wrapper_sidebar-collapsed');
+    }
+    document.body.onload = collapseMenu;
+    window.onresize = collapseMenu;
+</script>
+
+{{end}}
