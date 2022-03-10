@@ -14,7 +14,7 @@ aliases:
 | | |
 |---|---|
 | **API** | [Direct](/api/#wechat-pay---direct) and [redirect](/api/#wechat-pay---redirect) |
-| **Ready-made integrations** | WeChat Pay is supported in our [PrestaShop 1.7 plugin](/prestashop/). |
+| **Ready-made integrations** | WeChat Pay is supported in our [PrestaShop 1.7 plugin](/prestashop-1-7/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
