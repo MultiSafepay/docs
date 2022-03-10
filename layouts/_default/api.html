@@ -1,0 +1,25 @@
+{{define "main"}}
+
+<!-- Stoplight web component with link to our OpenAPI definition -->
+<elements-api apiDescriptionUrl="https://raw.githubusercontent.com/MultiSafepay/openapi/main/openapi/openapi.yaml"
+    router="hash" />
+
+<!-- Link to Stoplight JavaScript and stylesheet on CDN for rendering standalone element -->
+<script src="https://unpkg.com/@stoplight/elements/web-components.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@stoplight/elements/styles.min.css">
+
+<!-- Ensure mmenu.js is collapsed -->
+<script>
+    function collapseMenu() {
+        document.body.classList.remove('mm-wrapper_sidebar-expanded');
+        document.body.classList.remove('mm-wrapper_opened');
+        document.body.classList.remove('mm-wrapper_blocking');
+        document.body.classList.remove('mm-wrapper_background');
+        document.body.classList.remove('mm-wrapper_opening');
+        document.body.classList.add('mm-wrapper_sidebar-collapsed');
+    }
+    document.body.onload = collapseMenu;
+    window.onresize = collapseMenu;
+</script>
+
+{{end}}
