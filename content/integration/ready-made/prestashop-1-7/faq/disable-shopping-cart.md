@@ -5,11 +5,11 @@ read_more: "."
 url: '/prestashop-1-7/disabling-shopping-cart/'
 ---
 
-If you experience any issues with shopping cart calculations, you can disable sending the shopping cart with the payment request.
+If you notice errors in shopping cart calculations, email <integration@multisafepay.com>
 
-This should be used as a temporary solution. If any calculation errors occur, please contact us via email at <integration@multisafepay.com>
+ As a temporary solution, you can disable sending the shopping cart with the payment request.
 
-Buy now, Pay later payment methods can't be used if the shopping cart is disabled.
+{{< alert-notice >}} **Note:** Pay later methods do not work if the shopping cart is disabled. {{< /alert-notice >}}
 
 1. Sign in to your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Improve** > **Module manager** > **MultiSafepay**.
