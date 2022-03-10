@@ -22,4 +22,4 @@ We'll send you a MultiSafepay t-shirt in thanks!
 For support, create an issue in this repository or email the Integration Team at <integration@multisafepay.com>
 
 ## Join us
-Are you a developer interested in working at MultiSafepay? Check out our [job openings](https://www.multisafepay.com/careers/#jobopenings) and get in touch!
+Are you a developer interested in working at MultiSafepay? Check out our [job openings](https://apply.workable.com/multisafepay/) and get in touch!
