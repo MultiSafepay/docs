@@ -1,5 +1,5 @@
 ---
-title : "Disable shopping cart"
+title : "Disabling the shopping cart"
 meta_title: "PrestaShop 1.7 - Disable shopping cart - MultiSafepay Docs"
 read_more: "."
 url: '/prestashop-1-7/disable-shopping-cart/'
