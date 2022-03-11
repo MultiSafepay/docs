@@ -5,16 +5,18 @@ meta_title: "Activating payment methods - MultiSafepay Docs"
 read_more: "."
 url: '/payments/activating-payment-methods/'
 ---
-This page sets out how to activate payment methods. See also the **Activation** section for a specific payment method. 
+This page sets out how to activate payment methods. 
 
-{{< blue-notice>}} If using a ready-made integration: 
+See also the **Activation** section for a specific payment method. 
+
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
-- Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice>}}
+- Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
 
 ## Activate in your dashboard
 
-Applies to all [banking methods](/payments/methods/banks/).
+For all [banking methods](/payments/methods/banks/), **except** [SEPA Direct Debit](/payment-methods/sepa-direct-debit/) (see [Apply to MultiSafepay](#apply-to-multisafepay)).
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
@@ -32,20 +34,34 @@ Applies to all [banking methods](/payments/methods/banks/).
 
 ## Apply to MultiSafepay 
 
-Applies to:    
+For:    
 
 - All [credit and debit cards](/payment-methods/credit-debit-cards/)
 - All [pay later methods](/payment-methods/pay-later/)
-- All [wallets](/payment-methods/wallets/), except [PayPal](/payment-methods/paypal/)
+- All [wallets](/payment-methods/wallets/), **except** [PayPal](/payment-methods/paypal/) 
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit/)
 
-Email a request to <sales@multisafepay.com>
+See also [Create payment method account](#create-payment-method-account) below.
 
-For credit cards, Apple Pay, and Google Pay, include in the request your:
-
+1. Email a request to the Risk Team at <risk@multisafepay.com>
+{{< details title="Credit cards, Apple Pay, and Google Pay" >}}
+Include in the request your:
+    
 - Average, minimum, and maximum transaction amount
 - Annual turnover in credit card transactions
+{{< /details >}}
+{{< details title="SEPA Direct Debit" >}}
+- Include in the request the following information:
+    - Monthly and annual SEPA Direct Debit transaction volume
+    - Minimum and maximum transaction amount
+    - Type of products sold using this payment method
+    - One-off and/or [recurring payments](/features/recurring-payments/)
+    - Subscriptions: Monthly, quarterly, or annual
+- Depending on the details provided, the Risk Team sends you a form requesting additional information.
+- Fill out and sign the form, and send it back to the Risk Team.
+{{< /details >}}
 
-The Risk Team checks your eligibilty and if approved, activates the payment method for your MultiSafepay account. 
+2. The Risk Team checks your eligibilty and if approved, activates the payment method for your MultiSafepay account. 
 
 ## Create payment method account
 
