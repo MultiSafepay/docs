@@ -46,7 +46,7 @@ Contact us:
 {{< details title="Supported payment methods" >}}
 **Credit and debit cards** 
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/) 
@@ -124,7 +124,7 @@ All payment methods still work if you don't use the Javascript files.
 
 ## Installation 
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Lightspeed installation procedure. Make sure you have made a backup.
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the recommended Lightspeed installation procedure. Make sure you have made a backup.
 
 This app is tested using the default one-step and one-page checkout using the default theme. {{< /blue-notice >}}
 
@@ -132,15 +132,18 @@ This app is tested using the default one-step and one-page checkout using the de
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  
-5. A dialog appears. Approve the permissions required for the app.  
+5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:  
     - Enter your email address.
     - Enter your account or website API key.
     - Select **Test** or **Live** environment.
-    - Click **Save and continue**.
+    - Click **Save and continue**.  
 You are redirected to the Settings page.
-7. Verify the current settings and then click Save.
+7. We recommend enabling:
+    - Refunds
+    - MultiSafepay checkout scripts – Creates a dropdown list of iDEAL issuers, and suppresses Apple Pay for non-Apple devices.
+8. Verify the other settings, and then click **Save**.  
 The app is now activated.
 
 ## Updates

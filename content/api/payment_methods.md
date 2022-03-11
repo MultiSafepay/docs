@@ -11,7 +11,7 @@ meta_title: "API reference - Payment method examples - MultiSafepay Docs"
 <hr class="separator">
 
 &nbsp;  
-This section contains example `POST /orders` requests for all supported payment methods, both [direct and redirect orders](/developer/api/difference-between-direct-and-redirect) (where relevant).
+This section contains example `POST /orders` requests for all supported payment methods, both [direct and redirect orders](/developer/direct-vs-redirect) (where relevant).
 
 **Note:** All fields must be completed correctly.
 

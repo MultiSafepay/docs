@@ -43,7 +43,7 @@ meta_title: "API reference - Create credit card order - MultiSafepay Docs"
 {{< description >}}
 ## Credit cards
 
-- See also Payment methods – [Credit cards](/payments/methods/credit-and-debit-cards).  
+- See also Payment methods – [Credit cards](/payment-methods/credit-debit-cards).  
 - Redirect only.
 
 **Parameters**

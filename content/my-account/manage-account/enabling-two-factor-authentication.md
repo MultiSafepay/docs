@@ -41,7 +41,7 @@ The first time the user signs in to the MultiSafepay dashboard after 2FA is enab
 
 1.  Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com) on your laptop or PC. A dialog requesting a 6-digit token appears.
 
-2. Open or [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app) the MultiSafepay app and sign in.
+2. Open or download the [MultiSafepay app](/account/multisafepay-app/) and sign in.
 
 3. Tap **More** in the bottom-right corner.
 

@@ -5,8 +5,10 @@ weight: 20
 meta_title: "Activating V Pay - MultiSafepay Docs"
 short_description: "Activating V Pay for your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/vpay/activation/'
 aliases: 
     - /payment-methods/vpay/activate-vpay/
+    - /payments/methods/credit-and-debit-cards/vpay/activation/
 ---
 {{< blue-notice >}} If using a ready-made integration: 
 

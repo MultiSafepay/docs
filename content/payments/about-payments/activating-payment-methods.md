@@ -34,7 +34,7 @@ Applies to all [banking methods](/payments/methods/banks/).
 
 Applies to:    
 
-- All [credit and debit cards](/payments/methods/credit-and-debit-cards/)
+- All [credit and debit cards](/payment-methods/credit-debit-cards/)
 - All [pay later methods](/payment-methods/pay-later/)
 - All [wallets](/payment-methods/wallets/), except [PayPal](/payment-methods/paypal/)
 

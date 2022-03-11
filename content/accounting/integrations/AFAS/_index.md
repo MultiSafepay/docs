@@ -6,8 +6,8 @@ logo: '/svgs/AFAS.svg'
 layout: 'single'
 title_short: "AFAS Software"
 read_more: "."
-short_description: "Read about how you can generate a MultiSafepay export and import to your AFAS platform"
-description_short: "Read about how you can generate a MultiSafepay Accountant Export for your AFAS Software platform."
+short_description: "Import your MultiSafepay transactions to your AFAS platform."
+description_short: "Import your MultiSafepay transactions to your AFAS platform."
 extra_button:
     url: "https://www.afas.nl/" 
     text: "Go to site" 

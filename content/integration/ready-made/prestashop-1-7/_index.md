@@ -12,7 +12,7 @@ type: 'Plugin'
 layout: 'single'
 layout: 'single'
 changelog: https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md
-url: '/prestashop/'
+url: '/prestashop-1-7/'
 aliases: 
     - /plugins/prestashop-1-7
     - /integrations/plugins/prestashop-1-7
@@ -39,8 +39,8 @@ Contact us:
 {{< details title="Requirements" >}}
 
 - MultiSafepay account – See [Getting started](/getting-started/).
-- PrestaShop 1.7.6 or higher
-- Tested on PHP 7.2
+- PrestaShop version 1.7.6 or higher
+- PHP version 7.2 or higher
 
 If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
 
@@ -60,7 +60,7 @@ To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop r
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
