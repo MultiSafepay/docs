@@ -23,7 +23,7 @@ aliases:
     - /ecommerce-platforms/prestashop-1-6/
 ---
 
-{{< alert-notice >}} **Note:** We are phasing out support for our Prestashop 1.6 plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop/) as soon as possible. {{< /alert-notice >}}
+{{< alert-notice >}} **Note:** We are phasing out support for our Prestashop 1.6 plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop-1-7/) as soon as possible. {{< /alert-notice >}}
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.6 webshop.
 
@@ -49,7 +49,7 @@ Contact us:
 
 **Credit and debit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)

@@ -21,7 +21,7 @@ Supported payment methods:
 - Mastercard
 - Visa
 
-{{< alert-notice >}} **Note:** Using MOTO skips [3D Secure](/security-and-legal/payment-regulations/about-3d-secure) verification. {{< /alert-notice >}}
+{{< alert-notice >}} **Note:** Using MOTO skips [3D Secure](/features/3d-secure/about) verification. {{< /alert-notice >}}
 
 ## Activating MOTO
 Email a request to activate MOTO to <sales@multisafepay.com>

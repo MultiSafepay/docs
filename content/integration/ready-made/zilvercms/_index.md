@@ -24,7 +24,7 @@ aliases:
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
@@ -59,5 +59,5 @@ aliases:
 
 For support: 
 
-- See ZilverCMS - [Contact](https://www.zilvercms.nl/contact)
+- See ZilverCMS - [Contact](https://www.zilverhq.nl/contact)
 - Email the Integration Team at <integration@multisafepay.com>

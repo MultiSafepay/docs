@@ -22,9 +22,15 @@ aliases:
 | **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) |
 | **Transactions expire after** | 90 days |
 
-## Notes
+## Customer addresses
 
 Customers can provide different billing and shipping addresses, but the customer's first and last name must be at least two characters long. The **Transaction details** page in your MultiSafepay dashboard only shows the billing address. To retrieve other transaction details, make a `GET /orders` request. See API reference – [Retrieve an order](/api/#get-order-details). 
+
+## Surcharges
+
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). AfterPay therefore strongly recommends discontinuing any surcharges. 
+
+For more information, see AfterPay – [Merchant support](https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/).
 
 ## See also
 

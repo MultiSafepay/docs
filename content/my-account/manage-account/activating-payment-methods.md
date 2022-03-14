@@ -14,7 +14,7 @@ This page sets out how to activate payment methods. See also the **Activation** 
 
 ## Activate in your dashboard
 
-Applies to all [banking methods](/payments/methods/banks/).
+Applies to all [banking methods](/payment-methods/banks/).
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 

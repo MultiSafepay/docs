@@ -27,17 +27,17 @@ Embed a single or multiple payment methods in your checkout.
 
 {{< details title="Available payment methods">}}
 
-- [Bancontact](/payments/methods/banks/bancontact/)
-- [Bank Transfer](/payments/methods/banks/bank-transfer/)
+- [Bancontact](/payment-methods/bancontact/)
+- [Bank Transfer](/payment-methods/bank-transfer/)
 - Credit cards:  
-    - [American Express](/payment-methods/american-express/)
-    - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard/)
-    - [Visa](/payments/methods/credit-and-debit-cards/visa/)
+    - [American Express](/payment-methods/amex/)
+    - [Mastercard](/payment-methods/mastercard/)
+    - [Visa](/payment-methods/visa/)
     - [Maestro](/payment-methods/maestro/)
-- [iDEAL](/payments/methods/banks/ideal/)
-- [PayPal](/payments/methods/wallet/paypal/)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/)
-- [Sofort](/payments/methods/banks/sofort/)
+- [iDEAL](/payment-methods/ideal/)
+- [PayPal](/payment-methods/paypal/)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit/)
+- [Sofort](/payment-methods/sofort/)
 
 {{< /details >}}
 

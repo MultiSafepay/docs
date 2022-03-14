@@ -30,7 +30,7 @@ A financial institution that issues credit cards, provides infrastructure, and p
 A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [recurring payments](/features/recurring-payments/).
 
 ### chargeback
-When a customer disputes a credit card transaction and the transaction is reversed. See [About chargebacks](/faq/chargebacks/).
+When a customer disputes a credit card transaction and the transaction is reversed. See [Chargebacks](/chargebacks/).
 
 ### credit card
 A card issued by a bank, building society, or card scheme that lets the holder pay for products or services on credit.
