@@ -1,6 +1,6 @@
 ---
 title : "Prohibited products and services"
-weight: 30
+weight: 20
 meta_title: "Prohibited products and services - MultiSafepay Docs"
 read_more: "."
 url: '/account/prohibited-products-services/'

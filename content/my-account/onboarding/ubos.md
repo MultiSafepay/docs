@@ -1,6 +1,6 @@
 ---
 title : "Ultimate beneficial owners"
-weight: 20
+weight: 30
 meta_title: "Ultimate beneficial owners - MultiSafepay Docs"
 read_more: "."
 url: '/account/ubo/'
@@ -34,12 +34,13 @@ If the enterprise consists of a number of (intermediate) holding companies, then
 {{< /details >}}
 
 {{< details title="No UBOs" >}} 
+&nbsp; 
 Enterprises are not required to have a UBO. For example, if an enterprise has five owners with an equal distribution of capital and control, none of them owns 25% or more of the enterprise.
 
 {{< /details >}}
 
 {{< details title="Example" >}}
-
+ 
 The limited company Good Ltd has a sole shareholder: Better Ltd. The shares of Better Ltd are held equally by two other limited companies:
 
 * Anders Ltd. which has two equal shareholders: Mr A. Jansen and Ms B. Jansen - de Jong
@@ -54,16 +55,4 @@ The three ultimate beneficial owners are therefore:
 
 {{< /details >}}
 
-## UBO form
 
-Provide the details of all UBOs in the Statement of ultimate beneficial owner form. Upload in your MultiSafepay dashboard color copies of the identity documents of all UBOs.
-
-{{< details title="Download the UBO form" >}}
-Download the:
-
-* [Dutch UBO form](/getting-started/go-live/form/UBOform_NL_V2.0.pdf)
-* [English UBO form](/getting-started/go-live/form/UBOform_EN_V2.0.pdf)
-* [French UBO form](/getting-started/go-live/form/UBOform_FR.pdf)
-* [German UBO form](/getting-started/go-live/form/UBOform_DE.pdf)
-
-{{< /details >}}

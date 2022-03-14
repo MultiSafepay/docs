@@ -21,9 +21,9 @@ To create accounts for affiliates, follow these steps:
 
 ## Onboarding and go live
 
-All affiliates must be [onboarded](/getting-started/go-live/) and sign an agreement with MultiSafepay, containing general terms and conditions.
+All affiliates must be [onboarded](/account/onboarding-process/) and sign an agreement with MultiSafepay, containing general terms and conditions.
 
-You can also onboard affiliates [via our API](/account/affiliate-onboarding-api/).
+You can also automate onboarding affiliates [via our API](/account/affiliate-onboarding-api/).
 
 For any questions, affiliates can email <partner@multisafepay.com>
 

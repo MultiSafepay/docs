@@ -1,7 +1,7 @@
 ---
 title : "Changing your company details"
 meta_title: "Changing your company details - MultiSafepay Docs"
-weight: 3
+weight: 80
 read_more: "."
 url: '/account/changing-company-details/'
 aliases:
