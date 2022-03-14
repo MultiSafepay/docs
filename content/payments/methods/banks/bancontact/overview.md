@@ -46,7 +46,6 @@ There is no liability shift from [issuer](/glossaries/multisafepay-glossary/#iss
 
 - Bancontact WIP is only available to low-risk, high-volume merchants (25,000 transactions quarterly), within the SEPA area. 
 - Applies to services only, not physical products. 
-- You must be [PCI DSS compliant](/features/handling-cardholder-data/).
 - You must have easy-to-use procedures in place for refunds, cancellations, and disputes.
 - Customers must be able to add, update, and delete their stored payment details.  
 - You must be able to continually demonstrate low rates of fraudulent transactions, or access to your merchant wallet may be revoked. 
