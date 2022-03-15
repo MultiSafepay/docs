@@ -3,7 +3,7 @@ title: 'Pay After Delivery overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Pay After Delivery overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
 url: '/payment-methods/pay-after-delivery/overview/'
@@ -11,6 +11,7 @@ aliases:
     - /payments/methods/billing-suite/pay-after-delivery/about/
     - /payments/methods/pay-after-delivery/product-rules/
     - /payment-methods/pay-after-delivery/product-rules/
+    - /payment-methods/pay-after-delivery/refunds-discounts/
 ---
 Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. 
 
@@ -21,15 +22,24 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) {{< br >}} See also [Processing refunds and discounts](/payment-methods/pay-after-delivery/refunds-discounts/) |
+| **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 90 days |
+
+## Refunds
+
+- You can't process refunds after the invoice is passed to a collection agency (usually 6 weeks after shipping the order). This is not visible in your MultiSafepay dashboard. To check when the invoice was passed to the agency, email <support@multifactor.nl>
+
+- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
+
+- For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
+
+- You cannot reverse full refunds.
 
 ## Amounts
 
 Minimum and maximum order amounts apply. For more information, email <sales@multisafepay.com>
 
 ## Customer addresses
-
 
 The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
 
