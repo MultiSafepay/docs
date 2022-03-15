@@ -183,7 +183,7 @@ We support recurring payments in our plugins for:
 - [Magento 1](/magento-1)
 - [Magento 2](/magento-2)
 - [PrestaShop 1.6](/prestashop-1-6)
-- [PrestaShop 1.7](/prestashop)
+- [PrestaShop 1.7](/prestashop-1-7)
 - [Shopware 6](/shopware-6) 
 - [Woocommerce](/woo-commerce/) 
 
