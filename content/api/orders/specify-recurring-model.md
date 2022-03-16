@@ -1,5 +1,5 @@
 ---
-weight: 227
+weight: 229
 meta_title: "API reference - Specify recurring model - MultiSafepay Docs"
 
 ---

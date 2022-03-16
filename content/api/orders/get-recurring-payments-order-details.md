@@ -1,5 +1,5 @@
 ---
-weight: 226
+weight: 228
 meta_title: "API reference - Get recurring payments order details - MultiSafepay Docs"
 
 ---
