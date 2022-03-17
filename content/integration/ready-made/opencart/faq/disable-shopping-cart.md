@@ -7,7 +7,7 @@ url: '/opencart/disabling-shopping-cart/'
 
 If you notice any errors in shopping cart calculations, email <integration@multisafepay.com>
 
-As a temporary solution, you can disable sending the shopping cart with the payment request.
+As a temporary solution, you can disable payments with shopping carts.
 
 {{< alert-notice >}} **Note:** Pay later methods do not work if the shopping cart is disabled. {{< /alert-notice >}}
 
