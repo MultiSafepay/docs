@@ -52,7 +52,8 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The transaction is complete. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
+| The customer cancelled the transaction via their bank. | Void   | Cancelled/Void   |
+| iDEAL processing error. | Declined   | Declined   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 ## Refund statuses

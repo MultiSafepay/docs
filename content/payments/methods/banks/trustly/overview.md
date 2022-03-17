@@ -3,7 +3,7 @@ title: "Trustly overview"
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Trustly overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/trustly.svg'
 url: '/payment-methods/trustly/overview/'

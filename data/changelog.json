@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "Mar 14, 2022",
+            "change": "[Bancontact WIP Service](/payment-methods/bancontact/overview/#bancontact-wip-service)"
+        },
+        {
             "date": "Feb 23, 2022",
             "change": "[Self-made integration tutorial](/integrations/self-made/)"
         },
