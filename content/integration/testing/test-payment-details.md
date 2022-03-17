@@ -9,7 +9,7 @@ aliases:
     - /getting-started/test-your-integration/test-payment-details
 ---
 
-This page is for testing payment methods and scenarios in your [MultiSafepay test account](https://testMerchant.MultiSafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
+This page is for testing payment methods and scenarios in your [MultiSafepay test account](https://testmerchant.multisafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
 
 ## Banking methods
 

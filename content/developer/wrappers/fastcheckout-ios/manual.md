@@ -39,9 +39,9 @@ To learn more about creating, updating and retrieving orders, see API reference 
 
 ### Requirements
 
-* Xcode 11.0 and iOS 13 SDK
+* Xcode 12.0 and iOS 15 SDK
 * iOS 9+ target
-* Swift 5.1 or Objective-C
+* Swift 5.3 or Objective-C
 
 ### Installation
 
@@ -148,6 +148,7 @@ settings.environmentKey = FastcheckoutTestEnvironment
 settings.debug = true
 settings.biometricAuthenticationEnabled = true
 settings.skipShowCartAtBeginning = true
+settings.pinning = false
         
 let client = FastcheckoutClient(apiKey: apiKey, settings: settings)
 self.manager = FastcheckoutManager(client: client)

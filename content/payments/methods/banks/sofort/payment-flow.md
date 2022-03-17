@@ -56,7 +56,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | The customer has initiated a transaction. | Initialized | Initialized |
 | The customer's bank is processing the transaction and transfering the funds.  {{< br >}} May take up to 3 business days for all amounts. {{< br >}} Do **not** ship during this status. MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
 | The transaction is complete. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
+| The customer cancelled the transaction via Sofort. | Void   | Cancelled/Void   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
 
 **Note:** Amounts less than 100 EUR are completed immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
