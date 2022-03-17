@@ -67,6 +67,9 @@
       },
       {
         "pattern": "https://store\\.shopware\\.com.*"
+      },
+      {
+        "pattern": "https://postepay\\.poste\\.it.*"
       }
     ],
   "timeout": "60s",
