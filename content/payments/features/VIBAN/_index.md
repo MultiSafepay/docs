@@ -7,7 +7,7 @@ layout: 'single'
 short_description: "Collect bank transfers and direct debits in your own bank account."
 url: '/features/virtual-ibans/'
 ---
-A virtual international bank account number (IBAN) routes incoming [Bank Transfer](/payment-methods/bank-transfer/) and [SEPA Direct Debit]((/payment-methods/sepa-direct-debit/)) payments into your business bank account, instead of MultiSafepay collecting them on your behalf. It is not itself connected to an actual bank account.   
+A virtual international bank account number (IBAN) routes incoming [Bank Transfer](/payment-methods/bank-transfer/) and [SEPA Direct Debit](/payment-methods/sepa-direct-debit/) payments into your business bank account, instead of MultiSafepay collecting them on your behalf. It is not itself connected to an actual bank account.   
 
 ## How it works
 
