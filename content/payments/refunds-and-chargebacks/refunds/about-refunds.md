@@ -3,7 +3,7 @@ title : "About refunds"
 weight: 10
 layout: 'single'
 meta_title: "About refunds - MultiSafepay Docs"
-short_description: "Information about processing refunds and different actions"
+short_description: "Refund rules, processing times, and cancelling refunds."
 read_more: "."
 url: '/refunds/about/'
 ---

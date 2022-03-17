@@ -49,7 +49,7 @@ Tokens are stored at account level rather than website level. If you operate mul
 
 ### Initial payment
 
-1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure. 
+1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure (**except for** Bancontact). 
 2. MultiSafepay encrypts the payment details during processing and stores them securely on our servers. We return to you a non-sensitive token that references the encrypted payment details. 
 3. You can use the token to process recurring payments without needing to handle or store sensitive payment details.
 
@@ -183,7 +183,7 @@ We support recurring payments in our plugins for:
 - [Magento 1](/magento-1)
 - [Magento 2](/magento-2)
 - [PrestaShop 1.6](/prestashop-1-6)
-- [PrestaShop 1.7](/prestashop)
+- [PrestaShop 1.7](/prestashop-1-7)
 - [Shopware 6](/shopware-6) 
 - [Woocommerce](/woo-commerce/) 
 

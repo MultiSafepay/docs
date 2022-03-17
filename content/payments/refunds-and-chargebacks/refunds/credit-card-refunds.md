@@ -3,13 +3,11 @@ title : "Credit card refunds"
 weight: 20
 layout: 'single'
 meta_title: "Credit card refunds - MultiSafepay Docs"
-short_description: "Specific information about refunding credit card payments"
+short_description: "Guidance on refunding credit card payments."
 read_more: "."
 url: '/refunds/credit-cards/'
 ---
-This page provides general guidance on credit card refunds. 
-
-For support, email the Support Team at <support@multisafepay.com>
+This page provides general guidance on refunding credit card payments. 
 
 ## Refund rules
 
@@ -31,3 +29,7 @@ On the customer's credit card statement, the transaction may either be:
 
 - Adjusted to the new amount= Partial reversal
 - Not debited at all= Full reversal
+
+## Support
+
+Email the Support Team at <support@multisafepay.com>
