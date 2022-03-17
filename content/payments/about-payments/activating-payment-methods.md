@@ -7,9 +7,9 @@ layout: 'single'
 hide_menu: 'true'
 url: '/payments/activating-payment-methods/'
 ---
-This page sets out how to activate payment methods. 
+Most payment methods follow one of two activation flows: activate in your dashboard, **or** apply to MultiSafepay. Methods with specific requirements follow their own flow. 
 
-**Note:** If using a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).
+If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).
 
 ## Activate in your dashboard
 
