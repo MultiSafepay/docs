@@ -9,7 +9,7 @@ If you notice any errors in shopping cart calculations, email <integration@multi
 
 As a temporary solution, you can disable payments with shopping carts.
 
-{{< alert-notice >}} **Note:** Pay later methods do not work if the shopping cart is disabled. {{< /alert-notice >}}
+{{< alert-notice >}} **Note:** Disabling payments with shopping carts disables all [Pay later methods](/payment-methods/pay-later/). {{< /alert-notice >}}
 
 1. Sign in to your OpenCart [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.
