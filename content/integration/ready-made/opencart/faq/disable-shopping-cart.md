@@ -5,7 +5,7 @@ read_more: "."
 url: '/opencart/disabling-shopping-cart/'
 ---
 
-If you notice errors in shopping cart calculations, email <integration@multisafepay.com>
+If you notice any errors in shopping cart calculations, email <integration@multisafepay.com>
 
 As a temporary solution, you can disable sending the shopping cart with the payment request.
 
