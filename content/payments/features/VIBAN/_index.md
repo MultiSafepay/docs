@@ -28,7 +28,7 @@ There is no change for the customer, as they don't see your virtual IBAN when co
 
 ## Matching payments
 
-Most incoming payments are automatically matched the relevant order in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, payments need to be matched manually. 
+Most incoming payments are automatically matched to the relevant order in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, payments need to be matched manually. 
 
 With a virtual IBAN, you can resolve unmatched payments in your MultiSafepay dashboard, instead of MultiSafepay doing it on your behalf (see [Resolving unmatched Bank Transfer payments](/bank-transfer/unmatched-payments/)).
 
