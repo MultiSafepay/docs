@@ -14,5 +14,5 @@ As a temporary solution, you can disable payments with shopping carts.
 1. Sign in to your OpenCart [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.
 3. In the MultiSafepay extension, go to the **Options** tab.
-4. Set the **Disable Shopping Cart** dropdown field to **Yes**.
+4. From the **Disable Shopping Cart** list, select **Yes**.
 5. Click **Save**.
