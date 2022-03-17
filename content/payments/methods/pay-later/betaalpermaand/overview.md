@@ -3,7 +3,7 @@ title: 'Betaal per Maand overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Betaal per Maand overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
 url: '/payment-methods/betaal-per-maand/overview/'

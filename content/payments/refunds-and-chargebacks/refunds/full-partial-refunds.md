@@ -3,16 +3,16 @@ title : "Full and partial refunds"
 weight: 30
 layout: 'single'
 meta_title: "Full and partial refunds - MultiSafepay Docs"
-short_description: "Via your MultiSafepay dashboard, ready-made integration, or API"
+short_description: "Via your dashboard, ready-made integration, or our API."
 read_more: "."
 url: '/refunds/full-partial/'
 ---
 
 You can process full and partial refunds via your MultiSafepay dashboard, our ready-made integrations, and our API. 
 
-For support, email the Support Team at <support@multisafepay.com>
+For pay later methods, see [Pay later refunds](/refunds/pay-later/).
 
-## MultiSafepay dashboard
+## Dashboard
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
 2. Go to **Transactions** > **Transaction overview**.  
@@ -25,14 +25,21 @@ For support, email the Support Team at <support@multisafepay.com>
 The refund becomes a new transaction, which you can find on the original **Transaction details** page under **Related transactions**.
 
 The status of the refund starts as **Reserved**, and changes to **Completed** at midnight. 
-{{< alert-notice >}}If there are insufficient funds in your MultiSafepay balance, the refund is **not** processed. {{< /alert-notice >}}
+{{< alert-notice >}}Refunds are only processed if there are enough funds in your MultiSafepay balance. {{< /alert-notice >}}
 
 ## Ready-made integrations
 
-You can process refunds in most of our [ready-made integrations](/integrations/ready-made/). See the user guide for the relevant integration.
+You can process refunds in most of our [ready-made integrations](/integrations/ready-made/). 
+
+See the user guide for the relevant integration.
 
 ## API
 
-For all payment methods except [pay later methods](/refunds/about/), see API reference – [Refund an order](/api/#refund-an-order).
+See API reference:
 
+- [Refund an order](/api/#refund-an-order)
+- [Pay later refund](/api/#pay-later-refund)
 
+## Support
+
+Email the Support Team at <support@multisafepay.com>
