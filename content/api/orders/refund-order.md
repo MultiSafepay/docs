@@ -34,7 +34,7 @@ meta_title: "API reference - Process a refund - MultiSafepay Docs"
 ### Refund an order
 Process a full or partial [refund](/payments/refunds/) for an order.
 
-To refund pay later orders, see [Refund with shopping cart](/api/#refund-with-shopping-cart).
+To refund pay later orders, see [Pay later refund](/api/#pay-later-refund).
 
 **Parameters**
 

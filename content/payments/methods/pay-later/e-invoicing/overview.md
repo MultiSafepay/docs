@@ -3,7 +3,7 @@ title: 'E-Invoicing overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "E-Invoicing overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
 url: '/payment-methods/e-invoicing/overview/'
@@ -19,7 +19,7 @@ E-Invoicing is a MultiSafepay pay later method with automation tools that gives 
 | **Countries**  | Worldwide  | 
 | **Currencies** | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) |
+| **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 

@@ -3,7 +3,7 @@ title: 'American Express overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "American Express overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 url: '/payment-methods/amex/overview/'
 aliases:

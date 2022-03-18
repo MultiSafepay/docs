@@ -20,5 +20,5 @@ To close a transaction manually, follow these steps:
 6. Click **Complete**.  
     The total amount of the transaction is deducted from your MultiSafepay balance. The invoice is considered settled.
 
-{{< blue-notice >}} **Note:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/full-partial/) instead. {{< /blue-notice >}}
+{{< blue-notice >}} **Note:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/pay-later/) instead. {{< /blue-notice >}}
 
