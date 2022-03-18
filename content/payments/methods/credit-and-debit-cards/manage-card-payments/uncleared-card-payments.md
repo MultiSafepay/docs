@@ -1,15 +1,16 @@
 ---
-title : "Uncleared credit card payments"
+title : "Uncleared card payments"
 weight: 30
-meta_title: "Uncleared credit card payments - MultiSafepay Docs"
+meta_title: "Uncleared card payments - MultiSafepay Docs"
 short_description: "Review credit card payments flagged by our automated fraud filter."
 read_more: "."
-url: '/about-payments/uncleared-transactions/'
+url: '/cards/uncleared-payments/'
 aliases: 
     - /faq/finance/evaluating-uncleared-card-transactions/
     - /faq/risk-and-fraud/accepting-uncleared-credit-card-payments/
     - /payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/
     - /credit-cards-user-guide/uncleared-transactions/
+    - /about-payments/uncleared-transactions/
 ---
 
 If the [transaction status](/about-payments/multisafepay-statuses/) of a credit card payment is **Uncleared**, it means that MultiSafepay's automated fraud filter has placed the payment on hold. The fraud filter detects increased **risk** of fraud, but doesn't prevent all fraudulent payments. Not every payment the filter places on hold is necessarily fraudulent.

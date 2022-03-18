@@ -8,6 +8,7 @@ layout: 'child'
 url: '/payment-methods/vpay/integration-testing/'
 aliases:
     - /payments/methods/credit-and-debit-cards/vpay/integration-and-testing/
+    - /payment-methods/vpay/integration-testing/
 ---
 ## Integration
 

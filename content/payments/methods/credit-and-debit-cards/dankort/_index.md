@@ -1,6 +1,6 @@
 ---
 title: 'Dankort'
-weight: 40
+weight: 90
 meta_title: "Payment methods - Dankort - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/dankort"
 childlist: '.'
