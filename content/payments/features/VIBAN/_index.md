@@ -15,7 +15,7 @@ A VIBAN is a dummy IBAN number in your company name. It is not connected to an a
 
 For bank transfers, customers receive your VIBAN details in payment instructions instead of MultiSafepay's IBAN, in both [payment pages](/payment-pages/) and emails (including for the [direct flow](/payment-methods/bank-transfer/payment-flow/)). Your company name appears on the customer's bank statement. Customers don't see MultiSafepay's name at any point and enjoy a cohesive experience with your brand.
 
-For direct debits, there is no change for customers when completing payment. Your company name appears on bank statements, which increases brand recognition and trust, and can reduce [chargebacks](/payment-methods/sepa-direct-debit/overview/#chargebacks).
+For direct debits, there is no change for customers when completing payment. However, your company name appears on bank statements, which increases brand recognition and trust, and can reduce [chargebacks](/payment-methods/sepa-direct-debit/overview/#chargebacks).
 
 You can apply for a VIBAN for your MultiSafepay account, or for a specific site.
 
