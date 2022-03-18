@@ -17,7 +17,7 @@ For bank transfers, customers receive your VIBAN details in payment instructions
 
 For direct debits, there is no change for customers when completing payment. Your company name appears on bank statements, which increases brand recognition and trust, and can reduce [chargebacks](/payment-methods/sepa-direct-debit/overview/#chargebacks).
 
-You can link a VIBAN to your MultiSafepay account, or to a specific site.
+You can apply for a VIBAN for your MultiSafepay account, or for a specific site.
 
 VIBANs can only be used for transactions in EUR.
 
