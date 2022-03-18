@@ -1,16 +1,17 @@
 ---
-title : "Declined credit card payments"
+title : "Declined card payments"
 weight: 70
-meta_title: "Declined credit card payments - MultiSafepay Docs"
+meta_title: "Declined card payments - MultiSafepay Docs"
 read_more: "."
 short_description: "Understanding why credit card payments may be declined."
-url: '/about-payments/declined-status/'
+url: '/cards/declined-payments/'
 aliases: 
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
     - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
     - /faq/general/declined-status/
     - /payments/methods/credit-and-debit-cards/user-guide/declined-status/
     - /credit-cards-user-guide/declined-status/
+    - /about-payments/declined-status/
 ---
 
 The table below shows possible reasons why a credit card payment may be declined. 
