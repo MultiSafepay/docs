@@ -56,7 +56,7 @@ Include in the request:
     - Refunds tool
     - Matching tool
 - The company name you want to appear on bank statements
-- Whether you want to be able to:
+- Whether you want to use the VIBAN to:
     - Receive funds only
     - Refund/pay out funds only
     - Receive **and** refund/pay out funds
