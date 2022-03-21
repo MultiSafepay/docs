@@ -15,6 +15,8 @@ aliases:
     - /payment-methods/vpay/activate-vpay/
     - /payments/methods/credit-and-debit-cards/vpay/activation/
     - /payment-methods/vpay/activation/
+    - /payments/methods/credit-and-debit-cards/dankort/activation/
+    - /payment-methods/dankort/activation/
 ---
 {{< blue-notice >}} If using a ready-made integration: 
 

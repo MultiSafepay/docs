@@ -35,7 +35,7 @@ sequenceDiagram
 {{< /mermaid >}}
 &nbsp;  
 
-**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details.
+**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to complete payment.
 
 ## Payment statuses
 

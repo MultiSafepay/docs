@@ -1,18 +1,26 @@
 ---
 title : "Card payment flow"
-weight: 1
-layout: 'single'
+weight: 10
 meta_title: "Card payment flow - MultiSafepay Docs"
-short_description: "Flow and statuses from start to finish."
 read_more: "."
-url: '/payment-methods/credit-debit-cards/payment-flow/'
-aliases:
-    - /payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
-    - /payments/methods/credit-and-debit-cards/american-express/payment-flow/
-    - /payment-methods/amex/payment-flow/
-    - /payments/methods/credit-and-debit-cards/cartes-bancaires/payment-flow/
-    - /payment-methods/cartes-bancaires/payment-flow/
+short_description: "Flow from start to finish, including order and transaction status changes"
+url: '/cards/declined-payments/'
+aliases: 
+    - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /faq/general/declined-status/
+    - /payments/methods/credit-and-debit-cards/user-guide/declined-status/
+    - /credit-cards-user-guide/declined-status/
+    - /about-payments/declined-status/
+    - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /faq/general/declined-status/
+    - /payments/methods/credit-and-debit-cards/user-guide/declined-status/
+    - /credit-cards-user-guide/declined-status/
+    - /about-payments/declined-status/
+    - /cards/declined-payments/
 ---
+
 This diagram shows the flow for a successful transaction.
 
 {{< mermaid class="text-center" >}}
@@ -73,20 +81,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | 3D Secure authentication successful and MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication within 1 hour. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled the payment. {{< br >}} See [Declined status](/payment-methods/credit-debit-cards/payment-flow/#declined-status) below. | Declined | Declined   |
-
-## Declined status
-
-Here are some reasons why a card payment may be declined. Only the customer can contact their card issuer to find out the specific reason.
-
-- Our automated fraud filter declined the transaction. Email <support@multisafepay.com> 
-- Do not honor: The reason is not shared with MultiSafepay. The cardholder must contact the issuer.
-- 3D authentication failed
-- The card has expired.
-- The customer has insufficient credit on their card to complete payment. 
-- You currently mandate 3D&nbsp;Secure. See [Flexible 3D](/features/3d-secure/flexible/) and [Dynamic 3D](/features/3d-secure/dynamic/).
-
-For any questions, email the Support Team at <support@multisafepay.com>
+| The customer failed 3D Secure authentication or cancelled the payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
 
 ## Refund/chargeback statuses
 
@@ -94,7 +89,3 @@ For any questions, email the Support Team at <support@multisafepay.com>
 |---|---|---|
 | The refund/chargeback is initiated. | Reserved    | Reserved   |
 | The refund/chargeback is complete.  | Completed      | Completed   |
-
-
-
-

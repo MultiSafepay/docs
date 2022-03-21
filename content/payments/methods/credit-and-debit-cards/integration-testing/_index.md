@@ -13,6 +13,8 @@ aliases:
     - /payment-methods/amex/integration-testing/
     - /payments/methods/credit-and-debit-cards/cartes-bancaires/integration-and-testing/
     - /payment-methods/cartes-bancaires/integration-testing/
+    - /payments/methods/credit-and-debit-cards/dankort/integration-and-testing/
+    - /payment-methods/dankort/integration-testing/
 ---
 ## Integration
 
