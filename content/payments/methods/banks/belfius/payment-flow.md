@@ -49,10 +49,10 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete.| Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 5 days and the transaction expired. | Expired | Expired |
+| The customer has been redirected to Belfius. | Initialized | Initialized |
+| MultiSafepay has collected payment.| Completed | Completed |
+| You cancelled the transaction. | Void   | Void/Cancelled   |
+| The customer didn't complete payment within 5 days. | Expired | Expired |
 
 {{< blue-notice >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
 We import our bank statements daily and finalize all incoming payments. {{< /blue-notice >}}

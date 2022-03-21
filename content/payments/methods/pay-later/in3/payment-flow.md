@@ -56,14 +56,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
-| in3 is authorizing the payment or waiting for the customer to pay the first installment. {{< br >}} The customer has 5 minutes to pay the first installment, or The transaction was cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
+| in3's credit check is in progress. {{< br >}} You can still cancel. | Initialized   | Initialized  |
+| in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
 | The customer has paid the first installment. {{< br >}} Settlement is now guaranteed. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to Shipped](/about-payments/pay-later-shipped-status/) for your records, but this is not required to trigger invoicing.  | Shipped | Uncleared | 
-| The transaction is complete. | Completed | Completed |
-| in3 has declined the payment. {{< br >}} No order was created. | Declined | Declined |
-| The transaction was cancelled. | Void | Void |
-| The transaction expired after 2 hours. | Expired | Expired |
+| MultiSafepay has collected payment. | Completed | Completed |
+| in3 declined the transaction. | Declined | Declined |
+| The customer cancelled the transaction or abandoned payment of the first installment. | Void | Void |
+| The customer didn't pay the first installment. | Expired | Expired |
 
 ## Refund statuses
 
