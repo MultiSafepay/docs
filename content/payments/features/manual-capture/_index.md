@@ -14,7 +14,7 @@ aliases:
     - /tools/manual-capture
     - /payments/features/manual-capture/
 ---
-Manual Capture is a MultiSafepay solution that lets you capture credit card payments either partially or in full. It supports Maestro, Mastercard, and Visa.
+Manual Capture is a MultiSafepay solution that lets you capture credit card payments either partially or in full when you ship the order to reduce your risk. 
 
 {{< details title="Full capture" >}}
 
@@ -28,6 +28,7 @@ Partial capture is when a customer places an order for multiple items but you ca
 
 {{< /details >}}
 
+It supports Maestro, Mastercard, and Visa.
 For how Manual Capture can benefit your business, see [Capture your payments](https://www.multisafepay.com/blog/capture-your-payments).
 
 ## Statuses
@@ -46,16 +47,12 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 | Partial authorization expiry | The remaining authorized amount expired without being captured. | Void | Void |
 | Full authorization expiry | The full authorized amount expired without being captured. | Void    | Void  |
 
-{{< details title="Expiration periods" >}}
+### Expiration periods
 
-Expiration period for supported payment methods: 
-
-* VISA: 7 days
-* Mastercard / Maestro: 30 days
+- VISA: 7 days
+- Mastercard and Maestro: 30 days
 
 After expiration, the issuer can cancel the authorization and the funds are returned to the customer’s account.
-
-{{< /details >}}
 
 ## Activation
 
