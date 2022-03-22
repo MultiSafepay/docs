@@ -62,7 +62,8 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | MultiSafepay has collected payment. | Shipped | Completed |
 | AfterPay has declined the transaction. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Declined | Declined |
 | AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
-| - AfterPay authorized the transaction, but you did not ship within 90 days of creating the transaction **or** {{< br >}} - The customer didn't complete payment. | Expired | Expired |
+| AfterPay authorized the transaction, but you did not ship within 90 days of creating the transaction **or** {{< br >}} The customer didn't complete payment. | Expired | Expired |
+
 
 ### Return process
 If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
