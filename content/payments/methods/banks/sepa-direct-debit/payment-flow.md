@@ -32,7 +32,7 @@ sequenceDiagram
     Me->>Mu: Sends request and <br> customer information (direct/redirect)
     Mu->>CB: Conducts background check <br> and sends e-mandate
     CB->>Mu: Processes transaction and transfers funds 
-    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> See reason codes for declined transactions below.
+    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> Processing time can be reduced on request. <br> Email sales@multisafepay.com
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
@@ -44,12 +44,8 @@ sequenceDiagram
 
 ### E-mandates
 
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a:
-
-- `first` debit (processed within 5 days), or 
-- `recurring` debit (processed within 2 days)
-
-We send all e-mandates to our bank at the end of every business day.  
+MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a
+first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
 
 ## Payment statuses
 

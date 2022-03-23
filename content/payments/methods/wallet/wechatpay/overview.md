@@ -3,7 +3,7 @@ title: 'WeChat Pay overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "WeChat Pay overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 url: '/payment-methods/wechat-pay/overview/'
 aliases:
