@@ -51,12 +51,12 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| Deutsche Bank is processing the transaction and transfering the funds. | Completed  | Uncleared |
-| The transaction is complete. | Completed | Completed |
-| The transaction was declined. | Declined | Declined   |
-| The transaction was cancelled. | Void | Void |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer has been redirected to Deutsche Bank. | Initialized | Initialized |
+| Deutsche Bank has authorized the transaction and is transfering the funds. | Completed  | Uncleared |
+| MultiSafepay has collected payment. | Completed | Completed |
+| Deutsche Bank declined the transaction. | Declined | Declined   |
+| The customer cancelled the transaction at Deutsche Bank. | Void | Void |
+| The customer didn't complete payment within 1 hour. | Expired | Expired |
 
 ## Refund statuses
 

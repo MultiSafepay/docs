@@ -56,14 +56,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} To cancel it, email <support@multisafepay.com> | Uncleared   | Initialized  |
-| Betaal per Maand is authorizing the payment. | Uncleared   | Uncleared  |
-| MultiSafepay has sent a capture to Betaal per Maand. {{< br >}} The transaction appears in both your MultiSafepay dashboard and your [backend](/glossaries/multisafepay-glossary/#backend) via our [webhook](/developer/webhooks/). {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| The customer has been redirected to Santander. {{< br >}} To cancel the transaction, email <support@multisafepay.com> | Initialized   | Initialized  |
+| The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
+| Santander has authorized the transaction and the funds are awaiting capture. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | **Important:** {{< br >}} - [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} - [Send us the track-and-trace code](/payment-methods/betaal-per-maand/track-and-trace/). {{< br >}} You must ship to receive payment. | Shipped | Uncleared |
-| The transaction is complete. | Shipped    | Completed  |
-| Santander has declined the payment. {{< br >}} They only provide the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
-| The payment was cancelled.   | Void   | Cancelled   |
-| The customer didn't complete payment within 1&nbsp;day and the transaction expired. | Expired | Expired  |
+| MultiSafepay has collected payment. | Shipped    | Completed  |
+| Santander declined the transaction. {{< br >}} They only provide the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
+| You cancelled the transaction before capture.   | Void   | Void   |
+| The customer didn't complete payment or the funds weren't captured within 1&nbsp;day. | Expired | Expired  |
 
 ## Refund statuses
 
