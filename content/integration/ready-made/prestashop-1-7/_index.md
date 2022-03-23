@@ -25,7 +25,9 @@ aliases:
     - /ecommerce-platforms/prestashop-1-7/
     - /prestashop/
 ---
-This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
+This technical manual is for installing and configuring our latest free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.7 webshop.
+
+{{< alert-notice>}} If you are still using the [deprecated plugin](https://github.com/MultiSafepay/prestashop), we recommend migrating to this new version as soon as possible. {{< /alert-notice >}}
 
 {{< details title="Support" >}}
 
@@ -146,7 +148,9 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
 
-## Upgrading to version 5.x from an older version
+## Upgrading 
+
+To upgrade to version 5.x from an older version, follow these steps:
 
 1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
 2. On the **Payment methods** tab, set all payment methods to **Off**.
