@@ -39,9 +39,11 @@ In your request:
 
 - State why you want to use Dynamic 3D Secure, e.g. customer base outside Europe, TRA and/or LVP exemption.
 - Provide evidence that you process a significant volume of transactions for customers outside of Europe.
-- Confirm that you understand the increased fraud risk and the pricing structure.
 - Specify which sites under your account this applies to.
 - Confirm you have excellent processing performance, especially for chargebacks.
+- Confirm that you understand the:
+  - Increased fraud risk 
+  - Pricing structure
 
 ## Integration
-
+Once activated, this solution works automatically. You don't need to do anything to integrate it.
