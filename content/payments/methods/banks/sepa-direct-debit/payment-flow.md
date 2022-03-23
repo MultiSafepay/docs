@@ -62,7 +62,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | Description | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
-| We've sent the e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
+| We've sent the e-mandate to the customer's bank. {{< br >}} You can no longer cancel. | Uncleared | Uncleared |
 | The customer's bank is processing the e-mandate and transfering the funds. | Completed | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The transaction was cancelled by the customer, or rejected by their bank. | Void/Cancelled | Void/Cancelled |
