@@ -14,7 +14,7 @@ aliases:
     - /tools/manual-capture
     - /payments/features/manual-capture/
 ---
-Manual Capture is a MultiSafepay solution that lets you capture credit card payments either partially or in full when you ship the order to reduce your risk. 
+Manual Capture is a MultiSafepay solution that reduces your risk by letting you capture credit card payments either partially or in full when you ship the order. 
 
 {{< details title="Full capture" >}}
 
