@@ -221,4 +221,5 @@ To test, follow these steps:
 1. In your integration, click the **Apple Pay** button.  
     You can ignore the "This device is not supported" error.
 2. Sign in to your Apple Developer account and select your test card.
-3. Authorize the payment and the transaction is completed.
+3. Authorize the payment.
+  The transaction is completed.
