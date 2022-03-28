@@ -6,7 +6,7 @@ read_more: '.'
 url: '/account/uploading-files/'
 ---
 
-To upload files to MultiSafepay (e.g. during [onboarding](/account/onboarding-golive/) or when challenging [chargebacks](/chargebanks/)), follow these steps:
+To upload files to MultiSafepay (e.g. during [onboarding](/account/onboarding-golive/) or when challenging [chargebacks](/chargebacks/)), follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Files**.
