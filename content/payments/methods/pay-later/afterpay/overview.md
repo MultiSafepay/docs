@@ -3,7 +3,7 @@ title: 'AfterPay overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "AfterPay overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
 url: '/payment-methods/afterpay/overview/'
@@ -19,7 +19,7 @@ aliases:
 | **Countries**  | The Netherlands, Belgium  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) |
+| **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 90 days |
 
 ## Customer addresses

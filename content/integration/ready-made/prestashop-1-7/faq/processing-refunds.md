@@ -9,7 +9,7 @@ aliases:
 ---
 **Refund rules**  
 
-- From your [MultiSafepay dashboard](/refunds/full-partial/): Full refunds 
+- From your [MultiSafepay dashboard](/refunds/full-partial/): Full and partial refunds for all payment methods 
 - From your Prestashop 1.7 [backend](/glossaries/multisafepay-glossary/#backend):  
-    - Full refunds 
-    - Refunding more than the original transaction is **not** supported
+    - Full and partial refunds 
+    - Refunding [pay later methods](/payment-methods/pay-later/) is **not** supported

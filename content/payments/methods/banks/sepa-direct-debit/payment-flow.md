@@ -32,7 +32,7 @@ sequenceDiagram
     Me->>Mu: Sends request and <br> customer information (direct/redirect)
     Mu->>CB: Conducts background check <br> and sends e-mandate
     CB->>Mu: Processes transaction and transfers funds 
-    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> See reason codes for declined transactions below.
+    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> Processing time can be reduced on request. <br> Email sales@multisafepay.com
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
@@ -44,12 +44,8 @@ sequenceDiagram
 
 ### E-mandates
 
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a:
-
-- `first` debit (processed within 5 days), or 
-- `recurring` debit (processed within 2 days)
-
-We send all e-mandates to our bank at the end of every business day.  
+MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a
+first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
 
 ## Payment statuses
 
@@ -65,12 +61,11 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's customer background check was successful and the transaction is initiated. | Initialized  | Initialized |
-| MultiSafepay has sent an e-mandate to the customer's bank. {{< br >}} (You can no longer cancel the transaction.) | Uncleared | Uncleared |
-| The customer's bank is processing the transaction and transfering the funds. | Completed | Uncleared |
-| The transaction is complete.| Completed | Completed |
-| The customer has requested a chargeback. | Void | Void |
-| The transaction was cancelled. {{< br >}} The customer's information may have been incorrect. | Cancelled   | Cancelled   |
+| MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
+| We've sent the e-mandate to the customer's bank. {{< br >}} You can no longer cancel. | Uncleared | Uncleared |
+| The customer's bank is processing the e-mandate and transfering the funds. | Completed | Uncleared |
+| MultiSafepay has collected payment.| Completed | Completed |
+| The transaction was cancelled by the customer, or rejected by their bank. | Void/Cancelled | Void/Cancelled |
 | The transaction was declined. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/payment-flow/#reason-codes-for-declined-transactions) below. | Declined | Declined   |
 
 ## Refund statuses

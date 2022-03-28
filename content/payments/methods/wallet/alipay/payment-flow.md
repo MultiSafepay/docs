@@ -49,11 +49,9 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
-| Alipay has declined the transaction. | Declined | Declined   |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 5&nbsp;hours and the transaction expired. | Expired | Expired |
+| The customer has been redirected to Alipay. | Initialized | Initialized |
+| MultiSafepay has collected payment. | Completed | Completed |
+| The customer didn't complete payment within 5&nbsp;hours, or it was cancelled. | Expired | Expired |
 
 ## Refund statuses
 

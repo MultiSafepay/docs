@@ -61,12 +61,12 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| [Manually authorize or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
-| The transaction is complete. | Completed | Completed |
-| The transaction was cancelled or the customer requested a chargeback. | Void   | Void   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| The customer's bank has declined the transaction. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+| The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| MultiSafepay has collected payment. | Completed | Completed |
+| Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
+| The customer didn't complete 3D Secure authentication. | Expired | Expired |
+| The customer failed 3D Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
 
 ## Refund statuses
 
