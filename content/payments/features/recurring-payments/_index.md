@@ -153,11 +153,10 @@ MultiSafepay offers three recurring models:
 - `subscription`
 - `unscheduled` (event-triggered)
 
-Our [SDKs](/developer/wrappers/) support all three models. 
-
+Our API and [PHP SDK](https://github.com/MultiSafepay/php-sdk) support all three models.  
 Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
 
-## Via our API
+### Via our API
 See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
 **Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
