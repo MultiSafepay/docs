@@ -40,8 +40,6 @@ https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
 
 To request registration for Apple Pay direct, email the relevant site ID to <sales@multisafepay.com>
 
-**Note**: You don't need an Apple Merchant ID to offer Apple Pay with MultiSafepay.
-
 ### Customer device compatibility
 
 To see which Apple products are compatible with Apple Pay, see Apple Developer – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
@@ -210,3 +208,17 @@ For more information about the `payment` object, see Apple Developer:
 **Note**: Billing and shipping data are not encrypted.
 
 For more information about the `payment` object and its properties, see Apple Developer – [ApplePayPayment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment).
+
+## Test your integration
+
+To test your Apple Pay direct integration, you need to:
+
+- Meet the [testing prerequisites](/payment-methods/apple-pay/integration-testing/#testing-prerequisites)
+- Have an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing), configured for Apple Pay, with at least one Apple Pay test card in your wallet
+
+To test, follow these steps:
+
+1. In your integration, click the **Apple Pay** button.  
+    You can ignore the "This device is not supported" error.
+2. Sign in to your Apple Developer account and select your test card.
+3. Authorize the payment and the transaction is completed.
