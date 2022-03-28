@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/wallet/paypal/activation/
 ---
 
-{{< blue-notice >}} If using a ready-made integration: 
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
 - Once you have activated the method for your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}

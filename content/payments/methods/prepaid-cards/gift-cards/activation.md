@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
     - /payments/methods/prepaid-cards/gift-cards/activation/
 ---
-{{< blue-notice >}} If using a ready-made integration:
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/):
 
 - First check that the gift card is supported.
 - Once we have activated the card for your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice >}}
