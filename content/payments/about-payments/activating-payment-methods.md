@@ -12,7 +12,7 @@ You can enable payment methods yourself in your dashboard, but for some you need
 | Activation flow | Payment methods |
 |---|---|
 | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, {{< br >}} SEPA Direct Debit |
-| [Enable in dashboard](/payments/activating-payment-methods/#enable-in-dashboard) | [Banking methods](/payment-flows/banks), E-Invoicing   |
+| [Enable in dashboard](/payments/activating-payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
 | [Own flow](/payments/activating-payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, {{< br >}} Edenred, gift cards, Paysafecard, {{< br >}} PayPal |
 
 {{< blue-notice >}} If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).{{< /blue-notice >}}
