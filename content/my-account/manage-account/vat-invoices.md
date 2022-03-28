@@ -14,11 +14,10 @@ aliases:
 
 For payment methods where MultiSafepay is the [collecting party](/glossaries/multisafepay-glossary/#collecting-party), we are required to charge VAT on all: 
 
-- Transaction fees: Charged as each transaction is processed. The transaction fee total is the sum of all processed and completed transactions within a specified timeframe and the (universal) transaction fee agreed when you created an account with MultiSafepay.
+- Transaction, payout, and refund fees, which are charged during processing. The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay.
 
-- Bank fees: Charged at the beginning of each month
+- Bank fees, which are charged at the end of each month, along with the VAT.
 
-- Payout and refund fees 
 
 ## Invoices 
 
