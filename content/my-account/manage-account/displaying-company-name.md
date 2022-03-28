@@ -1,7 +1,7 @@
 ---
-title : "Displaying company names"
+title : "Displaying your company name"
 weight: 14
-meta_title: "Displaying company names - MultiSafepay Docs"
+meta_title: "Displaying your company name - MultiSafepay Docs"
 read_more: '.'
 url: '/account/displaying-company-names/'
 aliases:
