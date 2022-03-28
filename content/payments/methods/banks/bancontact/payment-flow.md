@@ -50,7 +50,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
+| MultiSafepay has collected payment. | Completed | Completed |
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |

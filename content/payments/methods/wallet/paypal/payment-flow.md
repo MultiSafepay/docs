@@ -51,12 +51,12 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. {{< br >}} **Note:** The transaction status doesn't change because MultiSafepay doesn't collect the funds. | Completed | Initialized |
-| - PayPal is authorizing the payment. {{< br >}} **Or** {{< br >}} - You may need to enable the currency and then authorize the payment in your PayPal business account. {{< br >}} For more information, see your PayPal business account. | Uncleared | Initialized |
+| The customer has been redirected to PayPal. | Initialized | Initialized |
+| PayPal has collected payment. | Completed | Initialized |
+| - Awaiting the customer to pay in their PayPal account **or** {{< br >}} - PayPal is authorizing the transaction **or** {{< br >}} - You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
 | PayPal has declined the transaction. | Declined | Declined   |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 14 days and the transaction expired. | Expired | Expired |
+| The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
+| The customer didn't complete payment within 14 days. | Expired | Expired |
 
 ## Refund statuses
 

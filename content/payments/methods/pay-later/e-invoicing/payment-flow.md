@@ -54,13 +54,13 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
-| E-Invoicing has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
+| MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
+| E-Invoicing has authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
 | **Important**: [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. | Shipped | Initialized |
-| The transaction is complete. | Completed    | Completed  |
-| E-Invoicing has declined the payment. | Declined | Declined |
-| The payment has been cancelled. | Void | Cancelled |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| MultiSafepay has collected payment. | Completed    | Completed  |
+| E-Invoicing declined the transaction. | Declined | Declined |
+| The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
+| The customer didn't complete payment. | Expired | Expired |
 
 See also:
 

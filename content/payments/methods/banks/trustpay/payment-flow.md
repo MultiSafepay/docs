@@ -47,10 +47,10 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete.| Completed | Completed |
+| The customer has been redirected to their bank. | Initialized | Initialized |
+| MultiSafepay has collected payment.| Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment within 10 days. | Expired | Expired |
 
 ## Refund statuses
 

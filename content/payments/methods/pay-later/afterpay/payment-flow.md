@@ -56,12 +56,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay is authorizing the payment. {{< br >}} You can still decline it. | Uncleared | Uncleared |
-| MultiSafepay has sent a capture to AfterPay. {{< br >}} You can still decline it. | Completed  | Uncleared  |
-| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. {{< br >}} You can no longer decline the payment; you can only refund. | Shipped | Uncleared |
-| The transaction is complete. | Shipped | Completed |
-| AfterPay has declined the payment **or** the payment was cancelled. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Void | Cancelled |
-| You did not ship within 90 days of creating the transaction and it expired. | Expired | Expired |
+| AfterPay is authorizing the transaction. {{< br >}} You can still decline it. | Uncleared | Uncleared |
+| AfterPay has authorized the transaction and the funds are awaiting capture. {{< br >}} You can still decline it. | Completed  | Uncleared  |
+| The funds are captured. {{< br >}} **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. {{< br >}} You can no longer decline the payment; you can only refund. | Shipped | Uncleared |
+| MultiSafepay has collected payment. | Shipped | Completed |
+| AfterPay has declined the transaction. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Declined | Declined |
+| AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
+| AfterPay authorized the transaction, but you did not ship within 90 days of creating the transaction **or** {{< br >}} The customer didn't complete payment. | Expired | Expired |
+
 
 ### Return process
 If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 

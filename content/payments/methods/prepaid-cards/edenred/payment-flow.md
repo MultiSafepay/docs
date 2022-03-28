@@ -45,6 +45,6 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The transaction is complete. | Completed | Completed |
+| MultiSafepay has collected payment. | Completed | Completed |
 
 

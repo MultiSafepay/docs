@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.multisafepay.com/img/multisafepaylogo.svg" width="400px" position="center">
+  <img src="/static/logo/MSP-Docs_logo.svg" width="400px" position="center">
 </p>
 
 MultiSafepay is a collecting payment service provider. We take care of contracts, technical integration, and payment collection for a range of payment methods. Start selling online today and manage all your transactions in one place.
