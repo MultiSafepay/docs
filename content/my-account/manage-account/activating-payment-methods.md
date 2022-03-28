@@ -6,7 +6,7 @@ read_more: "."
 layout: 'single'
 url: '/payments/activating-payment-methods/'
 ---
-You can enable payment methods in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
+You can enable payment methods yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
 
 | Activation flow | Payment methods |
 |---|---|
