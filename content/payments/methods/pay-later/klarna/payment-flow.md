@@ -56,12 +56,13 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel it. {{< br >}} See [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna). | Uncleared   | Initialized  |
-| Klarna has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| The customer has been redirected to Klarna. {{< br >}} You can still cancel with Klarna (see [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/)). | Initialized   | Initialized  |
+| Klarna has authorized the transaction and the funds are awaiting capture. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} See: {{< br >}} - [Extend the shipping period](/payment-methods/klarna/extending-shipping-period/) {{< br >}} - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) {{< br >}} **Note:** The billing and shipping addresses must be the **same**. | Shipped | Uncleared |
-| The transaction is complete. | Shipped    | Completed  |
+| MultiSafepay has collected payment. | Shipped    | Completed  |
 | The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. {{< br >}} See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
-| - The transaction was cancelled, **or** {{< br >}} - Klarna declined the transaction and the customer was redirected to your cancellation page (`cancel-url`). {{< br >}}  {{< br >}} Only the customer can contact Klarna to find out why they declined the transaction. {{< br >}} For merchant support, email <klarna@multisafepay.com> {{< br >}}    | Void   | Cancelled |
+| Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
+| Klarna declined the transaction. {{< br >}} Only the customer can contact Klarna to find out why they declined the transaction. {{< br >}} For merchant support, email <klarna@multisafepay.com> {{< br >}} | Declined | Declined |
 
 ## Refund statuses
 

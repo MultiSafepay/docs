@@ -36,9 +36,6 @@ AfterPay shares the test key with MultiSafepay.
 2. If you make a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.
 3. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
-2. If you make a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.
-3. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-
 ### Test declining an order  
 
 To decline an order, in your test dashboard under **Order summary**, click **Decline**.  

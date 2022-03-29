@@ -1,6 +1,6 @@
 ---
 logo: "/logo/Integrations/Sylius.svg"
-weight: 100
+weight: 104
 title_short: "Sylius"
 redirect_show_info:
     url: "https://github.com/BitBagCommerce/SyliusMultiSafepayPlugin"

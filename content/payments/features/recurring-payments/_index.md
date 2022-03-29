@@ -41,7 +41,7 @@ Tokens are stored at account level rather than website level. If you operate mul
 - iDEAL
 - Maestro
 - Mastercard
-- SEPA Direct Debit
+- SEPA Direct Debit – First you need to provide us with some information. See [Activating SEPA Direct Debit](/payment-methods/sepa-direct-debit/activation/).
 - Sofort
 - Visa
 
@@ -153,12 +153,13 @@ MultiSafepay offers three recurring models:
 - `subscription`
 - `unscheduled` (event-triggered)
 
-Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
+Our API and [PHP SDK](https://github.com/MultiSafepay/php-sdk) support all three models.  
+Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
 
-## Via our API
+### Via our API
 See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
-**Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
+**Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
 
 {{< details title="Additional parameters" >}}
 
@@ -174,17 +175,17 @@ See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
 ### Via ready-made integrations
 
-You must have **both** credit card payments and recurring payments enabled for your MultiSafepay account.
+You must have both credit card payments **and** recurring payments enabled for your MultiSafepay account.
 
 {{< details title="Supported MultiSafepay plugins" >}}
 
 We support recurring payments in our plugins for:
 
-- [Magento 1](/magento-1)
-- [Magento 2](/magento-2)
-- [PrestaShop 1.6](/prestashop-1-6)
-- [PrestaShop 1.7](/prestashop-1-7)
-- [Shopware 6](/shopware-6) 
+- [Magento 1](/magento-1/)
+- [Magento 2](/magento-2/)
+- [PrestaShop 1.6](/prestashop-1-6/)
+- [PrestaShop 1.7](/prestashop-1-7/)
+- [Shopware 6](/shopware-6/) 
 - [Woocommerce](/woo-commerce/) 
 
 {{< /details >}}

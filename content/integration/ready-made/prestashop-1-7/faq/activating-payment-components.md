@@ -14,7 +14,7 @@ The MultiSafepay PrestaShop 1.7 plugin supports [Payment Components](/payment-co
 
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
 
-## Activating Payment Components
+**Activating Payment Components**
 
 To activate the Payment Component in your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
