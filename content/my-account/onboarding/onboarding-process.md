@@ -61,20 +61,20 @@ Validate your business bank account by either:
 
 ## 4. Identify UBOs
 
-Provide information about the [ultimate beneficial owners](/account/ubo/) (UBOs) of your company:
-
-- Download and complete a Statement of ultimate beneficial owner form, providing information about **all** UBOs:
-    - [Dutch UBO form](/getting-started/go-live/form/UBOform_NL_V2.0.pdf)
-    - [English UBO form](/getting-started/go-live/form/UBOform_EN_V2.0.pdf)
-    - [French UBO form](/getting-started/go-live/form/UBOform_FR.pdf)
-    - [German UBO form](/getting-started/go-live/form/UBOform_DE.pdf) 
-    - [Italian UBO form](/getting-started/go-live/form/UBOform_IT_V2.0.pdf)
-    - [Spanish UBO form](/getting-started/go-live/form/UBOform_ES.pdf)
-- Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-- Go to **Settings** > **Files**.
-- Under **Upload a new file**, click **Choose file**.
-- Select the UBO form, and then click **Open**.
-- Upload color copies of the identity documents of all UBOs.
+1. Complete a Statement of ultimate beneficial owner form to identify the [ultimate beneficial owners](/account/ubo/) (UBOs) of your company.
+{{< details title="Download a form" >}}
+- [Dutch UBO form](/getting-started/go-live/form/UBOform_NL_V2.0.pdf)
+- [English UBO form](/getting-started/go-live/form/UBOform_EN_V2.0.pdf)
+- [French UBO form](/getting-started/go-live/form/UBOform_FR.pdf)
+- [German UBO form](/getting-started/go-live/form/UBOform_DE.pdf) 
+- [Italian UBO form](/getting-started/go-live/form/UBOform_IT_V2.0.pdf)
+- [Spanish UBO form](/getting-started/go-live/form/UBOform_ES.pdf)
+{{< /details >}}
+2. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Go to **Settings** > **Files**.
+4. Under **Upload a new file**, click **Choose file**.
+5. Select the UBO form, and then click **Open**.
+6. Upload color copies of the identity documents of all UBOs.
 
 {{< blue-notice >}} We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs. {{< /blue-notice >}}
 
