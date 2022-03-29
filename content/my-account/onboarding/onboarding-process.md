@@ -14,17 +14,21 @@ To onboard with MultiSafepay and start processing real transactions, follow thes
 
 Complete and submit the live account [sign up form](https://merchant.multisafepay.com/signup).
 
+We'll create a live account and email you a security code to sign in to your [live dashboard](https://merchant.multisafepay.com/).
+
 ## 2. Provide company information
 
-In your MultiSafepay test account under [Business details](https://merchant.multisafepay.com/onboarding), provide your:
-- Company address
-- VAT number
-- Chamber of Commerce number
-- URL of any websites you accept payments through 
-- Your business bank account number (must exactly match at least one of the trade names listed on your Chamber of Commerce extract)
-&nbsp;  
+1. [Sign in](https://merchant.multisafepay.com/) to your dashboard.
+2. Under [Business details](https://merchant.multisafepay.com/onboarding), provide your:
+    - Company address
+    - VAT number
+    - Chamber of Commerce number
+    - Business bank account number (must exactly match at least one of the trade names listed on your Chamber of Commerce extract)
+3. Add the URL of at least one website you accept payments through, or select the **I don't have a website** checkbox.
 
-We may ask you to provide additional documents, e.g. if you have an unusual company structure.
+If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot pay funds out to your business bank account until the onboarding process is completed. 
+
+We may then ask you to provide additional documents, e.g. if you have an unusual company structure.
 
 {{< blue-notice >}} You must inform us if [your company details change](/account/changing-company-details/). {{< /blue-notice >}}
 
@@ -34,15 +38,20 @@ If you want to process credit card payments, provide your:
 - Minimum, average, and maximum order value
 - Annual turnover from credit card transactions
 
-**Note:** Requests to process credit cards may be denied, e.g. if a [product you sell is prohibited](/account/prohibited-products-services/) by the [issuer](/glossaries/multisafepay-glossary/#issuer).
+**Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products/services](/account/prohibited-products-services/).
 
 ### Products and services
 
 Provide information about what products and services you sell. Some products and services can't be sold with MultiSafepay, or only if additional requirements are met. 
 
-For a list based on relevant legislation, risk factors, potential reputational damage, and payment method policies, see [Prohibited products and services](/account/prohibited-products-services/).
+For more information, see:
 
-See also [Conditions for selling alcohol](/account/conditions-for-alcohol/).
+- [Prohibited products and services](/account/prohibited-products-services/)
+- [Conditions for selling alcohol](/account/conditions-for-alcohol/)
+
+### Pre-screening
+
+We pre-screen your account to check if the products/services you sell are low, medium, or high risk. Payments for medium and high-risk products/services are pauzed until onboarding is complete. 
 
 ## 3. Validate bank account
 
@@ -80,11 +89,11 @@ Display the following required information on your website:
 - Privacy policy
 
 ## Screening and approval
-The Risk Team screens your information and performs [know your customer checks](/account/kyc/).
+We assess the information provided and perform [know your customer checks](/account/kyc/).
 
-If approved, your account goes live.
+If approved, your account goes live and you can [make payouts](/account/payouts/).
 
-For questions about onboarding, email the Risk Team at <risk@multisafepay.com>
+For any questions, email <risk@multisafepay.com>
 
 {{< blue-notice >}} **Disclaimer:** The information on this website is intended for informational purposes. No rights can be derived from this information. {{< /blue-notice >}}
 
