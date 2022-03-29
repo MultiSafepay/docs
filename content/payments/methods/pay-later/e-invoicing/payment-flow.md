@@ -54,7 +54,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
+| MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel. | Initialized   | Initialized  |
 | E-Invoicing has authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
 | **Important**: [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |

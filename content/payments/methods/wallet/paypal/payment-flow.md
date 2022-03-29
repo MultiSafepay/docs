@@ -52,9 +52,8 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to PayPal. | Initialized | Initialized |
-| PayPal has collected payment. | Completed | Initialized |
 | - Awaiting the customer to pay in their PayPal account **or** {{< br >}} - PayPal is authorizing the transaction **or** {{< br >}} - You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
-| PayPal has declined the transaction. | Declined | Declined   |
+| PayPal has collected payment. | Completed | Initialized |
 | The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 14 days. | Expired | Expired |
 
@@ -65,6 +64,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | The customer has requested a refund. | Reserved | Initialized |
 | The refund is complete.  | Completed | Initialized |
 | - PayPal is authorizing the refund. {{< br >}} **Or** {{< br >}} - There are not enough funds in your PayPal business account to process the refund. {{< br >}} For more information, see your PayPal business account. | Uncleared | Initialized   |
+| The refund was declined. | Declined | Declined |
 
 
 
