@@ -12,4 +12,4 @@ aliases:
 - From your [MultiSafepay dashboard](/refunds/full-partial/): Full and partial refunds for all payment methods 
 - From your Prestashop 1.7 [backend](/glossaries/multisafepay-glossary/#backend):  
     - Full and partial refunds 
-    - Refunding [pay later methods](/payment-methods/pay-later/) is **not** supported
+    - [Pay later refunds](/payment-methods/pay-later/) **not** supported
