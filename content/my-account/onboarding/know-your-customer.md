@@ -19,4 +19,4 @@ You need to provide information about your company structure, and your products 
 To help you start accepting payments as quickly as possible, we divide our KYC checks into two phases:
 
 - **Identification:** As soon as we have established the identity of the account holder, you can start accepting payments.
-- **Verification:** As soon as we have verified the identity of the account holder, you can start receiving [payouts](/account/payouts/) to your business bank account.
+- **Verification:** As soon as we have verified the identity of the account holder, you can start making [payouts](/account/payouts/) to your business bank account.
