@@ -88,7 +88,7 @@ Display the following required information on your website:
 - General terms and conditions, including the right to withdrawal (14 days)
 - Privacy policy
 
-## Screening and approval
+## Approval and go live
 We assess the information provided and perform [know your customer checks](/account/kyc/).
 
 If approved, your account goes live and you can [make payouts](/account/payouts/).
