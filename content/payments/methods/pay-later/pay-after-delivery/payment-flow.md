@@ -77,12 +77,13 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Uncleared   | Uncleared | 
-| Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
+| MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel. | Initialized | Initialized | 
+| We have authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
 | **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). | Shipped | Uncleared |
-| The transaction is complete.  | Shipped | Completed |
-| The transaction was cancelled. | Void   | Cancelled | 
-| The customer did not complete payment within 90 days and the transaction expired. | Expired | Expired | 
+| MultiSafepay has collected payment.  | Shipped | Completed |
+| The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
+| MultiSafepay declined the transaction. | Declined | Declined |
+| The customer didn't complete payment within 90 days. | Expired | Expired | 
 
 ## Refund statuses
 

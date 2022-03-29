@@ -49,10 +49,10 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| A QR code has been generated. | Initialized | Initialized |
+| MultiSafepay has collected payment. | Completed | Completed |
+| The customer cancelled the payment. | Void   | Void   |
+| The customer didn't complete payment within 2 hours. | Expired | Expired |
 
 ## Refund statuses
 

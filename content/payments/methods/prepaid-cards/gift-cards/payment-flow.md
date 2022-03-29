@@ -47,9 +47,9 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. {{< br >}}  | Completed | Completed |
+| MultiSafepay has collected payment. | Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment. | Expired | Expired |
 
 {{< blue-notice >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. {{< /blue-notice >}}
 

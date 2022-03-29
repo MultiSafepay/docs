@@ -32,7 +32,7 @@ The table below sets out possible order and transaction statuses and what they c
 | Description | Order status | Transaction status |
 |---|---|--|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
+| MultiSafepay has collected payment. | Completed | Completed |
 | The transaction has been cancelled. | Void | Cancelled |
 | The customer has requested a chargeback. | Void | Void |
 | The customer didn't complete payment and the transaction expired. {{< br >}} Transaction expiry times vary per payment method. | Expired | Expired |
