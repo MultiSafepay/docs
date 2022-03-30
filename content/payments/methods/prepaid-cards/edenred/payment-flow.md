@@ -45,6 +45,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 
 

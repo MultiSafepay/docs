@@ -48,7 +48,6 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 |---|---|---|
 | The customer has been redirected to Paysafecard. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
-| Paysafecard declined the transaction. | Declined   | Declined   |
 | The customer cancelled the transaction at Paysafecard. | Void   | Void   |
 | The customer didn't complete payment within 3&nbsp;hours. | Expired | Expired |
 

@@ -28,33 +28,35 @@ aliases:
 
 ## Testing
 
-### Supported devices
+### Compatible devices
 
-For supported devices, see Apple – [Apple is compatible with these devices](https://support.apple.com/en-us/HT208531).
+For compatible devices, see Apple – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
 
 If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay gateway preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
 
-### Requirements
+### Testing prerequisites
 
-- Use a [compatible device](https://support.apple.com/en-us/HT208531).
-- Use Safari browser.
-- The website uses HTTPS.
-- Maestro must be activated for your MultiSafepay account.
+- Use a [compatible device](https://support.apple.com/en-us/HT208531)
+- Use Safari browser
+- Activate Maestro for your MultiSafepay account
 
-If any of these requirements is not met, Apple Pay doesn't appear on the checkout page.
+If these requirements are not met, Apple Pay doesn't appear on the checkout page.
 
-### Test environment
+### Testing Apple Pay redirect
 
-We recommend using an Apple Pay – [Sandbox account](https://developer.apple.com/apple-pay/sandbox-testing).
+To test your [Apple Pay redirect](/api/#apple-pay) integration, there are two ways:
 
-### Testing 
+- If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
+- Alternatively, you can use an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing) configured for Apple Pay, with at least one Apple Pay test card in your wallet.
 
-To test Apple Pay transactions, follow these steps:
+To test, follow these steps:
 
-1. Click the **Apple Pay** button.  
+1. On the MultiSafepay payment page, click the **Apple Pay** button.  
     You can ignore the "This device is not supported" error.
-2. Complete a payment using [test card data](/testing/test-payment-details/#credit-and-debit-cards).
-3. The transaction is completed.
+2. Sign in to your Apple Developer account and select your test card.
+3. Authorize the payment.
+  The transaction is completed.
 
+### Testing Apple Pay direct
 
-
+To test your Apple Pay direct integration, see Apple Pay direct integration – [Test your integration](/payment-methods/apple-pay/direct/#test-your-integration).
