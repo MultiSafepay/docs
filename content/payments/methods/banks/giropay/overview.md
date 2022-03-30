@@ -21,7 +21,6 @@ Customers pay from their own online banking environment. Settlement is instant a
 |---|---|---|
 | **Countries**  | Germany  | 
 | **Currencies**  | EUR | 
-| **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
+| **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Payment features** | [Second Chance](/features/second-chance/) |
-| **Transactions expire after** | Doesn't apply |
