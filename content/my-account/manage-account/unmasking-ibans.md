@@ -12,15 +12,9 @@ aliases:
 
 International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them so that only the last 4 digits are visible, e.g. `*** 1234`.
 
-
-- [`POST` webhook notifications](/developer/webhooks/)
-- [`GET /orders/{order_id} responses`](/api/#get-order-details)
-
-When masked, only the last 4 digits of the IBAN are visible, e.g. `*** 1234`.
+You can still perform most business operations with masked IBANs, e.g. processing refunds.
 
 ### Unmasking IBANs
-
-You can still perform most business operations with masked IBANs, e.g. processing refunds.
 
 To unmask IBANs for a specific website, follow these steps:
 
