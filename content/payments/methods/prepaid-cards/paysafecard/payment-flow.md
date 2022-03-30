@@ -30,7 +30,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
+**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
 
 ## Payment statuses
 

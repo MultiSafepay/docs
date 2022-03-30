@@ -40,7 +40,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | A request with the customer's information is sent straight to MultiSafepay. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to confirm their IBAN and account name. {{< br >}} A request with the customer's information is sent to MultiSafepay. {{< br >}} The customer is redirected to your success page. | 
+| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/) to confirm their IBAN and account name. {{< br >}} A request with the customer's information is sent to MultiSafepay. {{< br >}} The customer is redirected to your success page. | 
 
 ### E-mandates
 

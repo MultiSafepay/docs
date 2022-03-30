@@ -8,7 +8,7 @@ aliases:
     - /integrations/ecommerce-integrations/magento1/faq/currency-automatically-converted-into-euro-magento1/
     - /payments/integrations/ecommerce-platforms/magento1/faq/changing-your-webshop-currency/
 ---
-MultiSafepay processes payments in Euros (EUR) as the default [currency](/faq/general/which-currencies-are-supported-by-multisafepay). Our Magento 1 plugin follows the same default.
+MultiSafepay processes payments in Euros (EUR) as the default [currency](/account/currencies). Our Magento 1 plugin follows the same default.
 
 To change to a different currency for your webshop, follow these steps:
 

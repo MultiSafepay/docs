@@ -11,7 +11,7 @@ aliases:
 
 With our API, you can create transactions through direct and redirect requests.
 
-Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [MultiSafepay payment page](/payment-pages/).
+Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [payment page](/payment-pages/).
 
 For redirect requests, if the gateway for a specific payment method is:
 
@@ -30,10 +30,10 @@ If you provide a [redirect URL](/developer/redirect-url/), after completing paym
 
 flowchart LR
     id1(Redirect request)--> id2{Is the gateway <br> specified?}
-    id2{Is the gateway <br> specified?}-- Yes --> id4(Customer is redirected to <br> MultiSafepay payment page <br> tailored to payment method)
-    id2{Is the gateway <br> specified?}-- No --> id5(Customer is redirected to <br> MultiSafepay payment page <br> displaying all activated <br> payment methods)
-    id4(Customer is redirected to <br> MultiSafepay payment page <br> tailored to payment method)--> id6{Is further customer <br> action required?}
-    id5(Customer is redirected to <br> MultiSafepay payment page <br> displaying all activated <br> payment methods)--> id9[/Customer selects <br> payment method/]
+    id2{Is the gateway <br> specified?}-- Yes --> id4(Customer is redirected to <br> payment page <br> tailored to payment method)
+    id2{Is the gateway <br> specified?}-- No --> id5(Customer is redirected to <br> payment page <br> displaying all activated <br> payment methods)
+    id4(Customer is redirected to <br> payment page <br> tailored to payment method)--> id6{Is further customer <br> action required?}
+    id5(Customer is redirected to <br> payment page <br> displaying all activated <br> payment methods)--> id9[/Customer selects <br> payment method/]
     id9[/Customer selects <br> payment method/]--> id6{Is further customer <br> action required?}
     id10(Direct request: <br> Gateway required )--> id6{Is further customer <br> action required?}
     id6{Is further customer <br> action required?}-- No --> id7(Customer is redirected to <br> success page)

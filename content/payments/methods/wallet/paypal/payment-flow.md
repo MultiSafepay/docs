@@ -33,7 +33,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to their PayPal account. | 
-| **Redirect flow** | The customer is redirected briefly to a [MultiSafepay payment page](/payment-pages/) and then to PayPal. | 
+| **Redirect flow** | The customer is redirected briefly to a [payment page](/payment-pages/) and then to PayPal. | 
 
 **Note:** MultiSafepay does **not** collect funds for PayPal transactions.
 

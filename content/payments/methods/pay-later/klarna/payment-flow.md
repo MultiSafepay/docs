@@ -40,7 +40,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to Klarna. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birth date, email address, and phone number, and accept the term and conditions. {{< br >}} They are then redirected to your success page. | 
+| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to provide their birth date, email address, and phone number, and accept the term and conditions. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 

@@ -31,7 +31,7 @@ Sometimes, the customer's bank has added comments to the transfer.
 The customer made a transfer but did not:
     
 - Place their order with you, **or**
-- Click **Confirm** on the MultiSafepay payment page (redirect orders).  
+- Click **Confirm** on the [payment page](/payment-pages/) (redirect orders).  
 
 This means the transaction was not created successfully in our system.
 

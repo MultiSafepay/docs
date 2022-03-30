@@ -30,7 +30,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. 
+**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter the gift card details. 
 
 ## Payment statuses
 

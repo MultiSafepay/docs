@@ -11,7 +11,7 @@ url: '/payment-components/previous-release/step-3/'
 ## Step 3: Create an order
 
 ### Collect payment data
-**1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
+**1.** To collect the customer's payment details from the payment component UI, call the `PaymentComponent.getPaymentData()` method:
 
 ```
 PaymentComponent.getPaymentData()
@@ -23,7 +23,7 @@ PaymentComponent.getPaymentData()
 
 Make a POST [`/orders`](/api/#orders) request from your server:
 
-- Append the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process.
+- Append the `payment_data` collected from the payment component UI to the `orderData` collected during the checkout process.
 - Replace the `<GATEWAY>` placeholder with the relevant gateway identifier, see Step 2: [Initialize the component](/payment-components/previous-release/step-2).
 
 ```

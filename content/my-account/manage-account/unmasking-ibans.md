@@ -1,12 +1,13 @@
 ---
 title : "Unmasking IBANs"
 meta_title: "Unmasking IBANs - MultiSafepay Docs"
-weight: 6
+weight: 16
 read_more: "."
-url: '/developer/unmasking-ibans/'
+url: '/account/unmasking-ibans/'
 aliases:
     - /developer/api/masking-iban-numbers/
     - /faq/api/masking-iban-numbers
+    - /developer/unmasking-ibans/
 ---
 
 International bank account numbers (IBANs) are sensitive data. 

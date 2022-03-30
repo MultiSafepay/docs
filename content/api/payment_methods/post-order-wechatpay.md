@@ -161,7 +161,7 @@ See also Payment methods – [WeChat Pay](/payment-methods/wechat-pay/).
 
 Displaying the WeChat QR code:
 
-- Redirect orders redirect the customer to a [MultiSafepay payment page](/payment-pages/) where the QR code is displayed under **Payment methods**.
+- Redirect orders redirect the customer to a [payment page](/payment-pages/) where the QR code is displayed under **Payment methods**.
 
 - Direct orders retrieve the `qr_url` and render the QR code in your system to display it to the customer.
 

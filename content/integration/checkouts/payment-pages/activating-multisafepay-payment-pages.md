@@ -1,7 +1,7 @@
 ---
-title : "Activating MultiSafepay payment pages"
+title : "Activating payment pages"
 weight: 10
-meta_title: "Activating MultiSafepay payment pages - MultiSafepay Docs"
+meta_title: "Activating payment pages - MultiSafepay Docs"
 read_more: '.'
 url: '/payment-pages/activation/'
 aliases:
@@ -16,7 +16,7 @@ aliases:
     - /developer/errors-explained/csrf-errors/
 ---
 
-MultiSafepay payment pages are hosted by us  (URL: payv2.multisafepay.com) and are the easiest way to connect to payment methods. 
+Payment pages are hosted by MultiSafepay (URL: payv2.multisafepay.com) and are the easiest way to connect to payment methods. 
 
 Payment pages:
 
@@ -41,7 +41,7 @@ To activate payment pages, follow these steps:
 
 {{< details title="Supported languages" >}}
 
-MultiSafepay payment pages support the following languages:
+Payment pages support the following languages:
 
 * Arabic
 * Czech
@@ -67,7 +67,7 @@ MultiSafepay payment pages support the following languages:
 
 {{< details title="Requirements for Visa" >}}
 
-When customers select Visa as payment method, Visa requires us to display on the payment page the city and country where your webshop is located. This measure aims to increase reliability, transparency, and safety for customers.
+When customers select Visa as payment method, Visa requires us to display on the [payment page](/payment-pages/) the city and country where your webshop is located. This measure aims to increase reliability, transparency, and safety for customers.
 
 {{< /details >}}
 
@@ -78,7 +78,7 @@ See API reference – [Create a redirect order](/api/#create-a-redirect-order).
 ### Known errors
 A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a `POST /orders` request.
  
-* `https://api.multisafepay.com` accepts `POST` and `GET` requests.
-* `https://payv2.multisafepay.com` only accepts `GET` requests.
+- `https://api.multisafepay.com` accepts `POST` and `GET` requests.
+- `https://payv2.multisafepay.com` only accepts `GET` requests.
  
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

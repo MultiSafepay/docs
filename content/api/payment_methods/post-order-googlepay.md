@@ -138,7 +138,7 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_url` | string 
 
-The URL of the MultiSafepay payment page where the customer is redirected from your checkout to complete payment.
+The URL of the [payment page](/payment-pages/) where the customer is redirected from your checkout to complete payment.
 
 ----------------
 

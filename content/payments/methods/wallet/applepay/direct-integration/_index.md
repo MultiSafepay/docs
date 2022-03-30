@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/wallet/applepay/direct-integration
 ---
 
-With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [MultiSafepay payment page](/payment-pages/).
+With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [payment page](/payment-pages/).
 
 {{< screen src="/img/applePayHero.png" align="center" class="small-img desktop-radius" >}}
 {{< br >}}

@@ -33,7 +33,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The payment is processed directly with Alipay. | 
-| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) before the payment is processed directly with Alipay. |
+| **Redirect flow** | The customer is briefly redirected to a [payment page](/payment-pages/) before the payment is processed directly with Alipay. |
 
 ## Payment statuses
 

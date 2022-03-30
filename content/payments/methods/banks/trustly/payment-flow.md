@@ -30,7 +30,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow**: The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
+**Redirect flow**: The customer is redirected first to a [payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
 
 ## Payment statuses
 

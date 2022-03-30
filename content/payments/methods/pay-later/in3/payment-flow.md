@@ -40,7 +40,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birth date, title, and phone number. {{< br >}} They are then redirected to your success page. | 
+| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to provide their birth date, title, and phone number. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 

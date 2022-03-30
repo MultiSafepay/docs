@@ -10,7 +10,7 @@ aliases:
     - /integrations/multisafepay-gateway/
     - /integrations/generic-gateways/
 ---
-Some of our ready-made integrations use a generic gateway, which redirects customers from your webshop checkout to a MultiSafepay payment page displaying your selected payment methods. You can specify which methods to include, and how to display their logos on the page.
+Some of our ready-made integrations use a generic gateway, which redirects customers from your webshop checkout to a [payment page](/payment-pages/) displaying your selected payment methods. You can specify which methods to include, and how to display their logos on the page.
 
 Generic gateways support:
 
@@ -51,7 +51,7 @@ Use the relevant [payment method gateway IDs](/developer/gateway-ids).
 
 ## MultiSafepay gateways
 
-Our ready-made integrations also support a MultiSafepay payment gateway. This redirects customers from your webshop checkout to a MultiSafepay payment page displaying **all** of your activated payment methods. 
+Our ready-made integrations also support a MultiSafepay payment gateway. This redirects customers from your webshop checkout to a MultiSafepay [payment page](/payment-pages/) displaying **all** of your activated payment methods. 
 
 To activate the MultiSafepay gateway for all websites under your account:
 
