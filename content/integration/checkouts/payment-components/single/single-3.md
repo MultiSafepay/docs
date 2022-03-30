@@ -24,7 +24,7 @@ PaymentComponent.getPaymentData()
 
 Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
-See API reference – [Payment component order](/api/#payment-component-orders).
+See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder): Payment component.
 
 ### Redirect the customer
 

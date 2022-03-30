@@ -20,8 +20,9 @@ You can generate payment links in:
 - Your MultiSafepay dashboard
 - The MultiSafepay app
 - Some ready-made integrations
+- Via our API
 
-## MultiSafepay dashboard
+## Dashboard
 
 ### New transactions
 
@@ -73,7 +74,6 @@ You can generate payment links in the [backend](/glossaries/multisafepay-glossar
 - [Shopware 5](/shopware-5/)
 - [WooCommerce](/woo-commerce/)
 
-See API reference:
+## API
 
-- [Create an order](https://docs.multisafepay.com/api/#create-an-order) – In the `type` parameter, enter `paymentlink`. 
-- [Generating a payment link](/api/#generate-payment-links)
+See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder). In the `type` parameter, enter `paymentlink`. 

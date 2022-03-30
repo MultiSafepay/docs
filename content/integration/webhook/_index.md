@@ -1,14 +1,17 @@
 ---
 title : "Webhook"
 meta_title: "Webhook - MultiSafepay Docs"
-weight: 3
+weight: 40
 read_more: "."
-logo: '/svgs/Wrappers.svg'
-url: '/developer/webhooks/'
+layout: single
+logo: '/svgs/General.svg'
+url: '/integration/webhooks/'
+short_description: 'Receive updates about orders and other notifications.'
 aliases:
     - /faq/api/how-does-the-notification-url-work
     - /faq/api/notification-url
     - /developer/api/notification-url
+    - /developer/webhooks/
 ---
 
 MultiSafepay uses a webhook to send you updates about orders and other notifications.

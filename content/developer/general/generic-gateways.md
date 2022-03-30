@@ -16,7 +16,7 @@ Generic gateways support:
 
 - All payment methods
 - All [payment features](/payment-features/), except [Recurring Payments](/features/recurring-payments/)
-- [Redirect requests](/developer/direct-vs-redirect/) only
+- [Redirect requests](https://multisafepay.readme.io/reference/introduction#direct-vs-redirect) only
 
 Using a generic gateway means you don't need to update your integration when we add new payment methods. 
 

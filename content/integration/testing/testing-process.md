@@ -10,16 +10,16 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 If you encounter any issues during testing, see [Understanding and resolving errors](/developer/errors-explained/understanding-and-resolving-errors/).
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 
 ## 1. Initiate a transaction
 
 There are two ways to initiate a transaction:
 
-- Create a test payment through your [ecommerce platform](/ecommerce-platforms/).
-- Send a request using our [API](/api/).
+- Create a test payment through your [ready-made integration](/integrations/).
+- Send a request using our [API](https://api-docs.multisafepay.com/reference/introduction).
 
-### Ecommerce integration
+### Ready-made integration
 
 1. Enter the [API key](/account/site-id-api-key-secure-code/) from your test account in your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Place a test order, and then initiate a transaction using the payment method you want to test.
@@ -29,7 +29,7 @@ There are two ways to initiate a transaction:
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
 1. In your API testing environment, enter your test API key.
-2. For the payment method you want to test, on the API reference - [Payment methods](/api/#payment-methods) page, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
+2. For the payment method you want to test, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
 
 ## 2. Complete the payment
 
@@ -56,4 +56,4 @@ To check that you have succesfully connected to our system, follow these steps:
 3. Select the transaction to view the **Transaction details** page.
 4. Under **Offline actions**, in the **Status** field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
 
-**Note:** Once your live account is approved, ensure you use the API key from your live account instead of your test account.
+**Note:** Once your live account is approved, make sure you use the API key from your live account instead of your test account.

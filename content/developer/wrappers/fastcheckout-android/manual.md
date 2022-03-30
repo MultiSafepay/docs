@@ -5,60 +5,47 @@ aliases:
     - /integrations/fastcheckout-android/manual/
 ---
 
-### Introduction
-
 As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
 
-* Shipping details:
-    * Preferred shipping details
-    * Add shipping details
-* Payment methods:
-    * Preferred payment methods
-    * Add payment methods
-    * Gift cards
-* Confirmation details
+- Shipping details:
+    - Preferred shipping details
+    - Add shipping details
+- Payment methods:
+    - Preferred payment methods
+    - Add payment methods
+    - Gift cards
+- Confirmation details
 
-#### Additional details
+#### Features
 
-The FastCheckout SDK provides the additional following features:
+The FastCheckout SDK provides the following additional features:
 
-* Authentication into FastCheckout: 
-    * It provides secure sign-up/login functionality
-* Check orders:
-    * Open seamless support tickets to related orders
-* Support orders:
-    * Easily open a support ticket related to an order
-* Edit payment information:
-    * List and edit user’s stored payment details
-* Manage shipping addresses:
-    * List, add and edit shipping information
+- Secure sign up and sign in functionality
+- Open seamless support tickets to related orders
+- List and edit users' stored payment details
+- List, add, and edit shipping information
 
-For more information, see the documentation inside the SDK, which contains all classes, methods, common troubleshooting and more details.
+For more information, see the documentation in the SDK, which contains all classes, methods, and troubleshooting.
 
-To learn more about creating, updating and retrieving orders, see API reference - [Orders](https://docs.multisafepay.com/api/#orders).
+To learn more about creating, updating and retrieving orders, see the [API reference](https://api-docs.multisafepay.com/reference/introduction).
 
-#### Advanced Setup
-The SDK has two environments on which it operates, LIVE, the default environment, and TEST. You might want to use the TEST environment to test your integration before releasing your App. No real transaction is performed in TEST environment. 
+#### Advanced setup
+The SDK operates in two environments: live (default) and test (no real transactions processed). We recommend testing your integration before releasing your app.  
 
-Check the example below to see how you can setup the environment you want to use. 
+For how to set up each environment, see the example below. 
 
 ### Requirements
 
-* Android Studio 3 and up
-* Android version 4.4 and up
-* Java or Kotlin
-
+- Android Studio version 3 or higher
+- Android version 4.4 or higher
+- Java or Kotlin
 
 ### Installation
 
-First you have to access into your Back Office and get a valid [API key](/glossaries/multisafepay-glossary/#api-key) (_Settings_ > _Website Settings_).
-
-Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
-
-Add the msp-android-sdk-release.aar as an embedded framework into your project. The next steps will guide you through the process:
-
-1. Add the msp-android-sdk-release.aar into your library’s /lib folder.
-2. In your build.gradle (Module.app) inside of the dependencies script add the following
+1. Copy your [API key](/account/site-id-api-key-secure-code/) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk).
+2. Add the msp-android-sdk-release.aar as an embedded framework into your project. 
+3. Add the msp-android-sdk-release.aar into your library’s /lib folder.
+4. In your build.gradle (Module.app) in the dependencies script, add the following:
 
    ```gradle
    implementation(name: 'msp-android-sdk-release', ext: 'aar')
@@ -70,15 +57,15 @@ Add the msp-android-sdk-release.aar as an embedded framework into your project. 
    }
    ```
 
-3. Sync Gradle
+5. Sync Gradle.
 
-You can now start using the Android SDK in your App.
+You can now start using the Android SDK in your app.
 
 ### Demo
 
-You can easily integrate the Fastcheckout Android SDK into your app, you just need to follow the next steps:
+To integrate the Fastcheckout Android SDK into your app, follow these steps:
 
-1. Setup the Android SDK. Add the following to your MainActivity or Class:
+1. To set up the Android SDK, add the following to your MainActivity or Class:
 
 ```java
 import com.multisafepay.sdk.FastCheckoutSDK;
@@ -115,7 +102,7 @@ YourActivity.this.runOnUiThread(new Runnable() {
 …
 ```
 
-If you want to change the running environment from LIVE to TEST, add the following line of code after SDK.setApiKey(API_KEY):
+To change the running environment from LIVE to TEST, add the following line of code after SDK.setApiKey(API_KEY):
 
 ```java
 …
@@ -127,7 +114,7 @@ SDK.setEnvironment(FastCheckoutSDK.ENV_TEST)
 …
 ```
 
-Remember to comment out or delete this line of code before you release your App.
+Remember to comment out or delete this line of code before you release your app.
 
 ```java
 …
@@ -138,7 +125,7 @@ Remember to comment out or delete this line of code before you release your App.
 …
 ```
 
-Custom settings.
+Custom settings:
 
 ```java
 …
@@ -153,7 +140,7 @@ SDK.skipCheckoutInit(boolean);
 …
 ```
 
-2. Start checkout and add callback interface to your Activity
+2. Start checkout and add callback interface to your Activity:
 
 ```java
 //your class should implement the FastCheckoutSDK.Callback interface 
@@ -182,12 +169,15 @@ public void callback(FastCheckoutSDK.Result result) {
    }
 }
 ```
-3. Setup styles in your Application class (these styles might be changed to suit your theme):
+3. Set up styles in your Application class (can be changed to suit your theme):
 
-#### One note on fonts
+#### Fonts
 
-The fonts used in this demo are not part of the code that is provided to you. These fonts are part of your application, not the SDK.
-You will need to download the fonts you want to use, place them inside of a folder called assets (if you don't see it, create one) which is inside of the main foder (the main folder is inside of the src folder, and it is created for you by Android Studio when you create a project). Add the fonts as Typeface to your code accordingly as shown in the demo.
+The fonts used in this demo are not part of the code provided, but are part of your application.
+
+1. Download the fonts you want to use.
+2. Put them in **SRC** folder > **Main** folder (created for you by Android Studio when you create a project) > **Assets** folder (if you don't have an assets folder already, create one). 
+3. Add the fonts as Typeface to your code as shown in the demo.
 
 ```java
 Styles.Builder builder = new Styles.Builder();
@@ -314,37 +304,37 @@ sdk.setStyles(styles);
 }
 
 ```
-### SDK Snapshots:
+### SDK snapshots
 
-1. The following snapshots will walk you through some of features offered by the Fastcheckout Android SDK. The Fastcheckout iOS SDK provides the same functionalities.
+1. The following snapshots walk you through some of features offered by the Fastcheckout Android/iOS SDK. 
     * Logging in with a registered email: 
         
       {{< zoom_able class="img-size zoomable" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
 
-    * Logging in with a non-registered email will automatically take the user to the register SDK screen: 
+    * Logging in with an unregistered email automatically takes the custer to the **Register** screen: 
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-3.png" title="screenshot 3">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-4.png" title="screenshot 4">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-5.png" title="screenshot 5">}}
 
-    * If the user is registered and resets its email account, the SDK  will automatically send a new security code to new entered email: 
+    * If the customer is registered and resets their email account, the SDK automatically sends a new security code to new email provided: 
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-6.png" title="screenshot 6">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-7.png" title="screenshot 7">}}
 
-    * Once the user enters the security code received by email (if the security code is received via SMS it will automatically get added to appropriate field, and the SDK will move into the following state) the SDK will ask for a new security PIN, once entered, the SDK will provide Biometric options (in iOS face recognition is also available):
+    * Once the customer enters the security code received by email (if the security code is received via SMS it is automatically added to the appropriate field, and the SDK moves into the following state) the SDK asks for a new security PIN. Having entered the PIN, the SDK provides biometric options (iOS also supports face recognition):
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-8.png" title="screenshot 8">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-9.png" title="screenshot 9">}}
 
-    * The checkout process follows. From a merchant’s webshop checkout option, the SDK enters into the checkout process. The first view will be the delivery view with shipping options if available. Once the continue button is selected, the SDK moves into the Payment screen and the payment logic follows.
+    * The checkout process follows. From the webshop checkout, the SDK enters into the checkout process. The first screen is the **Delivery** screen, with shipping options (if available). When the customer clicks **Continue**, the SDK moves to the **Payment** screen and the payment logic follows.
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-10.png" title="screenshot 10">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-11.png" title="screenshot 11">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
     
-    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client app about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
+    * Once the payment process is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. Clicking **Back to shop** redirect the customer back to the webshop.
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}
