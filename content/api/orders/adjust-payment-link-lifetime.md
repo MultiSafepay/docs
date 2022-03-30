@@ -37,7 +37,7 @@ aliases:
 {{< description >}}
 ### Adjust session lifetimes
 
-The lifetime of a [payment page](/payment-pages/)session determines how long the customer can access the page and complete payment. This therefore applies to [redirect](/developer/direct-vs-redirect/) orders only.
+The lifetime of a [payment page](/payment-pages/) session determines how long the customer can access the page and complete payment. This therefore applies to [redirect](/developer/direct-vs-redirect/) orders only.
 
 The lifetime begins when the payment link is generated. A `session_id` is returned in the payment page URL. The default lifetime is 30 days, after which the link expires.
 
