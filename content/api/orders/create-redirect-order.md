@@ -113,7 +113,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 ----------------
 `google_analytics` | object | optional
 
-Your Google Analytics site ID, which is injected into the payment page so you can trigger custom events and track payment metrics.  
+Your Google Analytics site ID, which is injected into the [payment page](/payment-pages/) so you can trigger custom events and track payment metrics.  
 For more information, see [Google Analytics tracking via the API](/developer/google-analytics-tracking-api/).
 
 Contains:  

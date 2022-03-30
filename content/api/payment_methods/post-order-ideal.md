@@ -144,7 +144,7 @@ See also Payment methods – [iDEAL](/payment-methods/ideal).
 
 ### iDEAL - redirect
 
-Customers are redirected to a MultiSafepay payment page where they can select iDEAL as a payment method.
+Customers are redirected to a [payment page](/payment-pages/) where they can select iDEAL as a payment method.
 
 **Parameters**
 

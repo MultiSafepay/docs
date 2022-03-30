@@ -16,7 +16,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 **Activating Payment Components**
 
-To activate the Payment Component in your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
+To activate the payment component in your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **MultiSafepay module** > **Payment methods** > **Credit card**.
@@ -25,4 +25,4 @@ To activate the Payment Component in your PrestaShop 1.7 [backend](/glossaries/m
 
 For support, email the Integration Team at <integration@multisafepay.com>
 
-**Note:** If you have a custom checkout and encounter a conflict with the Payment Component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

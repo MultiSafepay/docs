@@ -10,7 +10,7 @@ noindex: '.'
 aliases:
     - /payments/methods/wallet/googlepay/direct-integration
 ---
-With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [MultiSafepay payment page](/payment-pages/).
+With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/payment-pages/).
 
 {{< screen src="/img/google-pay-screen.png" align="center" class="small-img desktop-radius" >}}
 

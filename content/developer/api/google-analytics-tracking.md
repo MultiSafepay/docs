@@ -12,6 +12,6 @@ aliases:
 
 You can track the behavior of your customers through Google Analytics [tracking](/api/#create-an-order).  
 
-This only applies to [redirect](/developer/direct-vs-redirect/) requests. When the customer reaches the MultiSafepay payment page, the UA-code is generated and appears in the HTML.
+This only applies to [redirect](/developer/direct-vs-redirect/) requests. When the customer reaches the payment page, the UA-code is generated and appears in the HTML.
 
-Tracking isn't available for [direct](/developer/direct-vs-redirect/) requests because the customer doesn't go to a [MultiSafepay payment page](/payment-pages/) between your checkout and success page. 
+Tracking isn't available for [direct](/developer/direct-vs-redirect/) requests because the customer doesn't go to a [payment page](/payment-pages/) between your checkout and success page. 

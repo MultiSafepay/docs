@@ -1,6 +1,6 @@
 ---
 weight: 224
-meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
+meta_title: "API reference - Payment component orders - MultiSafepay Docs"
 ---
 
 {{< code-block >}}
@@ -116,9 +116,9 @@ meta_title: "API reference - Payment Component orders - MultiSafepay Docs"
 {{< /code-block >}}
 
 {{< description >}}
-## Payment Component orders
+## Payment component orders
 
-Create a [Payment Component](/payment-components/) order.
+Create a [payment component](/payment-components/) order.
 
 **Parameters**
 
@@ -168,7 +168,7 @@ See [customer (object)](/api/#customer-object).
 The customer's IP address.
 
 {{< blue-notice >}}
-When accepting **credit card** payments through the Payment Component, always supply an IP address for fraud detection purposes.
+When accepting **credit card** payments through the payment component, always supply an IP address for fraud detection purposes.
 {{< /blue-notice >}}
 
 ----------------
@@ -180,11 +180,11 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 `payment_data` | object | required
 
-The response to the `getPaymentData()` Payment Component method.
+The response to the `getPaymentData()` payment Component method.
 
 The payment_data object contains the `payload` and `gateway` identifier. 
 
-See Payment Component integration manual – Step 3: Create an order:
+See the Payment component integration manual – Step 3: Create an order:
 
 - [Single payment method](/payment-components/single/step-3/)
 - [Multiple payment methods](/payment-components/multiple/step-3/)

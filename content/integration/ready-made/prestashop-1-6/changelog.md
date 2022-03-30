@@ -19,7 +19,7 @@ Release date: Nov 25th, 2021
 
 ### Added
 + DAVAMS-232: Add support for in3 payment method
-+ PLGPRSS-420: Add Payment Component support for Credit Card payment method
++ PLGPRSS-420: Add payment component support for Credit Card payment method
 + PLGPRSS-409: Add support for gift products within the Shopping Cart object
 + PLGPRSS-406: Add support for Good4fun gift card
 

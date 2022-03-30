@@ -20,7 +20,7 @@ The most common operation to perform with our API is creating an order. To speci
 |  |  |  |
 |---|---|---|
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
-| **Redirect** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their payment method. | 
+| **Redirect** | The customer is redirected first to a [payment page](/payment-pages/) to select their payment method. | 
 
 ## Prerequisites
 
@@ -87,7 +87,7 @@ Check that you receive a response with `success` set to `true`:
 ```
 If you receive an error in the response, see [Handling errors](/errors/handling-errors/).
 
-Otherwise, open the `payment_url` to complete the payment on the MultiSafepay payment page. 
+Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
 For further details on how to test each payment method, see [Test payment details](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/test-payment-details/#details-ideal).
 

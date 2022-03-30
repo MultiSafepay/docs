@@ -121,7 +121,7 @@ Check that the account ID is formatted correctly, e.g. fix typing errors and rem
 
 #### Error 1016: Missing data
 
-The `POST /orders` request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a payment page link.
+The `POST /orders` request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment page](/payment-pages/) link.
 
 Check that the site ID, secure code, and transaction ID are included.
 
@@ -156,7 +156,7 @@ Email <sales@multisafepay.com>
 
 #### Error 1021: Cannot create transaction
 
-Direct requests don't involve a MultiSafepay payment page, which means we can't filter out connection errors. This error can cause an increase in unpaid or expired transactions.
+Direct requests don't involve a payment page, which means we can't filter out connection errors. This error can cause an increase in unpaid or expired transactions.
 
 Check whether the customer’s bank is experiencing a temporary malfunction.
 

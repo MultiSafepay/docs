@@ -1,13 +1,13 @@
 ---
-title : "Customizing Payment Components"
-meta_title: "Payment Components - Customizing Payment Components - MultiSafepay Docs"
+title : "Customizing payment components"
+meta_title: "Customizing payment components - MultiSafepay Docs"
 layout: 'single'
 read_more: '.'
 weight: 3
 url: '/payment-components/customization/'
 ---
 
-After integrating the Payment Component, the default user interface (UI) styling is applied. 
+After integrating the payment component, the default user interface (UI) styling is applied. 
 
 You can customize the styling to match your brand's visual identity, including fonts, colors, and layout. 
 
@@ -24,7 +24,7 @@ To edit the default styling of the component:
 
 |CSS class|What it does|
 |---|---|
-|`.msp-container-ui`|Selects the Payment Component|
+|`.msp-container-ui`|Selects the payment component|
 |`.msp-ui-payment-form`|Selects the payment form|
 |`.msp-ui-method-header`|Selects the payment `.msp-ui-method-image` and heading|
 |`.msp-ui-method-image`|Selects the payment method logo|
@@ -41,7 +41,7 @@ To edit the default styling of the component:
 
 ### Example
 
-Add the following to your CSS to edit the Payment Component to add a: 
+Add the following to your CSS to edit the payment component to add a: 
 
 - 5-pixel `border-radius` to the form fields
 - Shadow to the fields on `focus`
@@ -64,8 +64,8 @@ Add the following to your CSS to edit the Payment Component to add a:
 ```
 {{< br >}}
 
-The Payment Component now looks like this:
+The payment component now looks like this:
 
 {{< screen src="/img/Screenshot-Payment-Component.png" align="center" class="medium-img desktop-radius" >}}
 
-{{< two-buttons href-1="/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
+{{< two-buttons href-1="/payment-components/" header-1="Overview" text-1="Payment components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}

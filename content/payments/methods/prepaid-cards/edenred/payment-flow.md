@@ -29,7 +29,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
+**Redirect flow:** The customer is redirected first to a [payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
 
 ## Payment statuses
 

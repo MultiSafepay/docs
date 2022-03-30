@@ -150,4 +150,4 @@ Under **History data**, there is information about the number of credit cards us
 
 ## See also 
 
-[Viewing your uncleared balance](/faq/finance/viewing-your-uncleared-balance/)
+[Viewing your uncleared balance](/account/manage-your-balance/#viewing-your-uncleared-balance)
