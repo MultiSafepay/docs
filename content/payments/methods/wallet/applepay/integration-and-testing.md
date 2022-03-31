@@ -44,7 +44,7 @@ If these requirements are not met, Apple Pay doesn't appear on the checkout page
 
 ### Testing Apple Pay redirect
 
-To test your [Apple Pay redirect](/api/#apple-pay) integration, there are two ways:
+To test your Apple Pay redirect integration ([Create order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order > Examples > Apple Pay redirect), there are two ways:
 
 - If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
 - Alternatively, you can use an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing) configured for Apple Pay, with at least one Apple Pay test card in your wallet.

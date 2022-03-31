@@ -16,8 +16,8 @@ To activate payment methods, see [Activating payment methods](/payments/activati
 
 Use the gateway requests to:
 
-- [Retrieve all activated gateways](/api/#retrieve-activated-gateways)
-- [Retrieve a single activated gateway](/api/#retrieve-a-gateway)
-- [Retrieve all issuers for a gateway](/api/#retrieve-gateway-issuers)
+- [List all gateways](https://api-docs.multisafepay.com/reference/listgateways)
+- [Get a gateway](https://api-docs.multisafepay.com/reference/getgateway)
+- [List iDEAL issuers](https://api-docs.multisafepay.com/reference/listidealissuers)
 
 {{% /description %}}

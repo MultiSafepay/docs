@@ -22,7 +22,7 @@ aliases:
 ---
 Free plugin by Shoptrader to integrate MultiSafepay payment solutions into your webshop. 
 
-For supported payment methods, email the Integration Team at <integration@multisafepay.com>
+For supported payment methods, email <integration@multisafepay.com>
 
 ## Requirements
 You will need a MultiSafepay account. See [Getting started](/getting-started/).
@@ -31,7 +31,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
-To process refunds from your Shoptrader [backend](/glossaries/multisafepay-glossary/#backend), email the Integration Team at <integration@multisafepay.com>
+To process refunds from your Shoptrader [backend](/glossaries/multisafepay-glossary/#backend), email <integration@multisafepay.com>
 
 ## Support
 For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>

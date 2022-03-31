@@ -38,6 +38,6 @@ Advanced requests include:
 
 You can also use our API to build a custom integration. You can test your integration in the [``TEST`` environment](#environments). 
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For any questions, email <integration@multisafepay.com>
 
 {{% /description %}}

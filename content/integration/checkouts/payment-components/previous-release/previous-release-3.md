@@ -21,7 +21,7 @@ PaymentComponent.getPaymentData()
 
 ### Create an order
 
-Make a POST [`/orders`](/api/#orders) request from your server:
+Make a [Create order](https://api-docs.multisafepay.com/reference/createorder) > Payment component request from your server:
 
 - Append the `payment_data` collected from the payment component UI to the `orderData` collected during the checkout process.
 - Replace the `<GATEWAY>` placeholder with the relevant gateway identifier, see Step 2: [Initialize the component](/payment-components/previous-release/step-2).
@@ -47,7 +47,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 
 ### Redirect the customer
 
-**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
+**1.** From your server, pass the response to the [create order](https://api-docs.multisafepay.com/reference/createorder) request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 

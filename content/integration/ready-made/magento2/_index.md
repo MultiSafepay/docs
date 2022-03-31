@@ -44,7 +44,7 @@ This technical manual is for installing and configuring our new free plugin for 
 
 The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases [conversion](/glossaries/multisafepay-glossary/#conversion-rate).
 
-We support most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
+We support most Magento functionalities. For any questions, email <integration@multisafepay.com>
 
 ### New features
 

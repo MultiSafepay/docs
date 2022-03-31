@@ -29,7 +29,7 @@ There are two ways to initiate a transaction:
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
 1. In your API testing environment, enter your test API key.
-2. For the payment method you want to test, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
+2. For the payment method you want to test, make a [create order](https://api-docs.multisafepay.com/reference/createorder) request. Make sure you include **all** required parameters in the request.
 
 ## 2. Complete the payment
 

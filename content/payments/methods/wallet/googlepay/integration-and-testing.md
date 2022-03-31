@@ -41,4 +41,4 @@ To test Google Pay payments, follow these steps:
 &nbsp;  
 3. Check the status of the payment [in your test dashboard](https://testmerchant.multisafepay.com/).
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

@@ -29,7 +29,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 - Second Chance emails cannot be activated or sent to the customer while the status of the original transaction is **Uncleared**, or once it is **Completed**.
 
-- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting session lifetimes](/api/#adjust-session-lifetimes).
+- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. 
 
 - The following payments methods are not supported because they follow a different payment flow:
     - [AfterPay](/payment-methods/afterpay)

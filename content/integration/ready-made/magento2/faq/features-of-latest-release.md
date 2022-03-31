@@ -22,7 +22,7 @@ You can refund transactions processed through the deprecated plugin in your [Mul
 
 Under **General settings**, we have changed the following configuration fields from the deprecated plugin.
 
-If you want one of these features back, email the Integration Team at <integration@multisafepay.com>
+If you want one of these features back, email <integration@multisafepay.com>
 
 ## Emailing invoices to customers
 

@@ -25,7 +25,7 @@ The webhook is triggered when the [order or transaction status](/about-payments/
 
 MultiSafepay uses HTTPS to send notifications securely to the webhook endpoint configured for your web server.
 
-Our webhook uses the POST method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
+Our webhook uses the `POST` method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
 
 {{< mermaid class="text-center" >}}
 

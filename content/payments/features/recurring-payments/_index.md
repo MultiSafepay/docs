@@ -165,7 +165,7 @@ See API reference – [Create order](https://api-docs.multisafepay.com/reference
 | Parameter | Type | Description |
 |---|---|---|
 | `type` | string | The payment flow for the checkout process. Options: `direct`, `redirect`. |
-| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Retrieve gateways using a `GET /gateway` request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
+| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Make a [get gateway](https://api-docs.multisafepay.com/reference/getgateway) request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
 | `recurring_id` | string | A randomly generated recurring ID for the customer. |
 | `reference` | string | The customer's reference number for the token. |
 | `recurring_model` | string | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`.  |

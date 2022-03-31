@@ -28,7 +28,7 @@ See API reference – [Create order](https://api-docs.multisafepay.com/reference
 
 ### Redirect the customer
 
-**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
+**1.** From your server, pass the response to the [create order](https://api-docs.multisafepay.com/reference/createorder) request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 

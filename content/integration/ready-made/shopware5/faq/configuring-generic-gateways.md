@@ -21,6 +21,6 @@ To configure a generic gateway:
 4. Upload a custom gateway image, if relevant.
 5. For [pay later](/payment-methods/pay-later/) methods, specify whether to include a shopping cart.
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 
 

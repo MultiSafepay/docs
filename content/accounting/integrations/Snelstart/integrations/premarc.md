@@ -21,7 +21,7 @@ For plugins to reconcile Snelstart with the following ecommerce platforms, see P
 - [CCVshop](https://www.snelkoppeling.eu/ccvshop)
 - [Lightspeed](https://www.snelkoppeling.eu/lightspeed)
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
 
 ## Payment links
 

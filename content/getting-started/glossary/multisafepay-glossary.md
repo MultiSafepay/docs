@@ -15,7 +15,7 @@ aliases:
 A financial institution that processes credit and debit card payments with card issuers on behalf of merchants. MultiSafepay is an acquirer for Visa, Mastercard, and Bancontact.
 
 ### API endpoint
-A specific URL in [our API](/api/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
+A specific URL in [our API](https://api-docs.multisafepay.com/reference/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
 
 ### backend
 The part of a merchant's integration not accessible to customers. Here you can connect with MultiSafepay, configure settings, process refunds, make API requests, and receive notifications.
@@ -30,7 +30,7 @@ How often customers visiting a merchant's integration place an order and complet
 A person or company that buys products and services from merchants.
 
 ### custom integration
-A merchant's bespoke integration with MultiSafepay's services built using [our API](/api), SDKs, or wrappers.
+A merchant's bespoke integration with MultiSafepay's services built using [our API](https://api-docs.multisafepay.com/reference/), SDKs, or wrappers.
 
 ### developer
 A software developer a merchant employs to work on the technical side of their integration.

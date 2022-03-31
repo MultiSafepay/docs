@@ -27,6 +27,6 @@ To activate the payment component in your Magento 2 [backend](/glossaries/multis
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
-For questions, email the Integration Team at <integration@multisafepay.com>
+For questions, email <integration@multisafepay.com>
 
 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

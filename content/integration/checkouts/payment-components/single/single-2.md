@@ -11,7 +11,7 @@ url: '/payment-components/single/step-2/'
 ## Step 2: Initialize the component
 
 ### Generate an API token
-Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](/api/#generating-api-tokens).
+Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](https://api-docs.multisafepay.com/reference/generateapitoken).
 
 {{< alert-notice >}} **Note:** To keep your API key private, request the token from your own server. {{< /alert-notice >}} 
 

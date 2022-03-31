@@ -21,7 +21,7 @@ You must set a webhook endpoint, which is a URL that:
 - Is publicly accessible, or has MultiSafepay on your allow list.
 - Uses HTTPS - We don't accept HTTP for security reasons.
 
-For a list of MultiSafepay IP addresses, email the Integration Team at <integration@multisafepay.com>
+For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
 ### Website level
 
@@ -36,7 +36,7 @@ To configure the webhook endpoint at website level:
 
 To configure the webhook endpoint at order level:
 
-1. [Create an order](/api/#orders) via our API.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) via our API.
 2. In the request body, set:
 	- `payment_options.notification_url` to your webhook endpoint
 	- `payment_options.notification_method` to `POST`

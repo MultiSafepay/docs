@@ -18,4 +18,4 @@ Search for outlets that sell Paysafecard:
 - English-language site: [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/)
 - Dutch-language site: [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/)
 
-For any questions, email the Sales Team at <sales@multisafepay.com>
+For any questions, email <sales@multisafepay.com>

@@ -16,8 +16,8 @@ aliases:
     - Full and partial refunds, and credit memos 
     - Refunding more than the original transaction is **not** supported
 - API:  
-    - [Pay later refund](/api/#pay-later-refund) 
-    - PATCH requests are **not** supported
+    - [Refund order](https://api-docs.multisafepay.com/reference/refundorder) > Pay later refund 
+    - `PATCH` requests are **not** supported
 
 To process refunds from your Magento 2 backend, follow these steps:  
 

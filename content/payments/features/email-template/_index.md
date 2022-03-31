@@ -221,4 +221,4 @@ Inline frames (Iframes) are HTML documents embedded inside another HTML document
 
 **Step 6.** Click **Save**.
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

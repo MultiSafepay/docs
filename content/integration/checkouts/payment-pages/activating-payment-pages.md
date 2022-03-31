@@ -73,14 +73,14 @@ To activate payment pages, follow these steps:
 3. Click the relevant website.
 4. Select the **Use new payment pages** checkbox.
 
-**Note:** If the **Use new payment pages** checkbox is not visible, email the Integration Team at <integration@multisafepay.com>
+**Note:** If the **Use new payment pages** checkbox is not visible, email <integration@multisafepay.com>
 
 ## Integration
 
 See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder): Payment page.
 
 ### Known errors
-A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a `POST /orders` request.
+A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a [create order](https://api-docs.multisafepay.com/reference/createorder) request.
  
 - `https://api.multisafepay.com` accepts `POST` and `GET` requests.
 - `https://payv2.multisafepay.com` only accepts `GET` requests.

@@ -52,7 +52,7 @@ For more information about these costs, see [Interchange++](/credit-cards-user-g
 
 You can only request to reverse-charge VAT if you are **not** registered as a Dutch company. You must also register your VAT number with MultiSafepay.
 
-To register your VAT number, email the Finance Team at <invoice@multisafepay.com>
+To register your VAT number, email <invoice@multisafepay.com>
 
 ## Shifting VAT
 

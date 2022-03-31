@@ -29,7 +29,7 @@ This technical manual is for installing and configuring our free plugin for inte
 
 You can also install the plugin via .ZIP file upload in Connect.
 
-MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
+MultiSafepay supports most Magento functionalities. For any questions, email <integration@multisafepay.com>
 
 {{< details title="Support" >}}
 &nbsp; 
