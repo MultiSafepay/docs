@@ -15,7 +15,7 @@ aliases:
 
 | | |
 |---|---|
-| **API** | See API reference – [American Express redirect](/api/#american-express). {{< br >}} **Bundled credit cards** {{< br >}} You can also bundle multiple credit cards together on your MultiSafepay credit card payment page. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits. {{< br >}} See API reference – [Credit cards](/api/#credit-cards). |
+| **API** | See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder) > Card order > Examples > American Express redirect. {{< br >}} **Bundled credit cards** {{< br >}} You can also bundle multiple credit cards together on your MultiSafepay credit card payment page. This saves space in your checkout. Customers enter their payment details and the page detects the specific card scheme based on the first four digits. {{< br >}} See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder) > Card order > Examples > Credit card redirect. |
 | **Ready-made integrations** | American Express (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/).   |
 | **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |

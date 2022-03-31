@@ -35,11 +35,8 @@ See the user guide for the relevant integration.
 
 ## API
 
-See API reference:
-
-- [Refund an order](/api/#refund-an-order)
-- [Pay later refund](/api/#pay-later-refund)
+See API reference – [Refund order](https://api-docs.multisafepay.com/reference/refundorder). 
 
 ## Support
 
-Email the Support Team at <support@multisafepay.com>
+For support, email <support@multisafepay.com>

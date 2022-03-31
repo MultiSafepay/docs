@@ -30,9 +30,9 @@ MultiSafepay can develop a custom gift card for you.
 
 **4.** To integrate your card:
 
-- Using our API, see API reference – [Gift cards](/api/#gift-card).
+- Using our API, see API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder) > Prepaid card order.
 
 - In a ready-made integration, use our [generic gateway ID](/developer/generic-gateways/).
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 
