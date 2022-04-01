@@ -14,7 +14,7 @@ aliases:
 
 | | |
 |---|---|
-| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Banking order > Examples > Trustpay redirect |
+| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > Trustpay redirect |
 | **Ready-made integrations** | TrustPay (redirect) is supported in the following ready-made integrations: {{< br >}} [Craft Commerce](/craft-commerce/) {{< br >}} [CS-Cart](/cs-cart/) {{< br >}} [Drupal 7](/drupal-7/), [Drupal 8](/drupal-8-9/) {{< br >}} [Magento 2](/magento-2/) {{< br >}} [Odoo](/odoo/) {{< br >}} [PrestaShop 1.7](/prestashop-1-7/) {{< br >}} [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/) {{< br >}} [WooCommerce](/woo-commerce/) {{< br >}} [VirtueMart](/virtuemart/)  {{< br >}} [X-Cart](/x-cart/)   |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |

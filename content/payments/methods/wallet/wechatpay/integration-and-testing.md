@@ -13,7 +13,7 @@ aliases:
 
 | | |
 |---|---|
-| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order > Examples > WeChat Pay direct/redirect |
+| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order. See also Examples > WeChat Pay direct/redirect |
 | **Ready-made integrations** | WeChat Pay is supported in our [PrestaShop 1.7 plugin](/prestashop-1-7/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |

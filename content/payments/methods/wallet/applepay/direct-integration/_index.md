@@ -198,7 +198,7 @@ For more information about the `payment` object, see Apple Developer:
 
 ### Server-side integration
 
-**1.** From your server, [create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order > Examples > Apple pay direct, using the `payment.token` property. To use the `payment.token` property in the order request, convert it to an escaped JSON string.
+**1.** From your server, [create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Apple pay direct, using the `payment.token` property. To use the `payment.token` property in the order request, convert it to an escaped JSON string.
 
 **2.** The billing and shipping details are not required for Apple Pay direct orders. 
 

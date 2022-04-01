@@ -15,7 +15,7 @@ aliases:
 
 | | |
 |---|---|
-| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Banking order > Examples > Bank Transfer direct/redirect |
+| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > Bank Transfer direct/redirect |
 | **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |

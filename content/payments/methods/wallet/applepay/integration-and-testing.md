@@ -28,35 +28,4 @@ aliases:
 
 ## Testing
 
-### Compatible devices
-
-For compatible devices, see Apple – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
-
-If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay gateway preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
-
-### Testing prerequisites
-
-- Use a [compatible device](https://support.apple.com/en-us/HT208531)
-- Use Safari browser
-- Activate Maestro for your MultiSafepay account
-
-If these requirements are not met, Apple Pay doesn't appear on the checkout page.
-
-### Testing Apple Pay redirect
-
-To test your Apple Pay redirect integration ([Create order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order > Examples > Apple Pay redirect), there are two ways:
-
-- If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
-- Alternatively, you can use an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing) configured for Apple Pay, with at least one Apple Pay test card in your wallet.
-
-To test, follow these steps:
-
-1. On the MultiSafepay payment page, click the **Apple Pay** button.  
-    You can ignore the "This device is not supported" error.
-2. Sign in to your Apple Developer account and select your test card.
-3. Authorize the payment.
-  The transaction is completed.
-
-### Testing Apple Pay direct
-
-To test your Apple Pay direct integration, see Apple Pay direct integration – [Test your integration](/payment-methods/apple-pay/direct/#test-your-integration).
+See [Test payment details](/testing/test-payment-details/).
