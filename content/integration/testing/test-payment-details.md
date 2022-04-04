@@ -9,7 +9,7 @@ aliases:
     - /getting-started/test-your-integration/test-payment-details
 ---
 
-This page is for testing payment methods and scenarios in your [MultiSafepay test account](https://testmerchant.multisafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
+This page provides test payment details for different scenarios. 
 
 ## Banking methods
 
@@ -17,28 +17,27 @@ This page is for testing payment methods and scenarios in your [MultiSafepay tes
 
 **Test a Bancontact order**
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > Bancontact redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: Bancontact redirect).
 2. Open the payment link.
-3. In the **Card number** field, enter a 16-digit card number (see table below).
-4. In the **Expiry date** fields, enter any future date, and then click **Confirm**.
+3. In the **Card number** field, enter a card number (see table below).
+4. In the **Expiry date** fields, enter any future date.
+5. Click **Confirm**.
 
-Use the following card numbers to test different transaction statuses.
-
-| Card number| Status | Description |
+| Card number| Scenario | Description |
 | ---| --- | --- |
 | 67034500054620008 | **Completed** | Transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds](/testing/testing-refunds/#test-refunding-an-order) and [API refunds](/testing/testing-refunds/#test-an-api-refund). |
 | 67034500054610009| **Declined**  | Transaction was declined (card must be 3D enrolled). |
 | 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed). |
 | 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds). |
 
-You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+You can see the reason the transaction was declined in your MultiSafepay test account under **Notes**.
 
 ---
 
 **Test a Bancontact QR code**
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > Bancontact QR.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: Bancontact QR).
 2. Open the payment link.
-3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
+3. Scan the QR code with a general QR reader (**not** the Bancontact app or an error occurs).
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.
 
@@ -46,16 +45,12 @@ You can see the reason a transaction was declined in your MultiSafepay test acco
 
 {{< details title="Bank Transfer" >}}
 
-**Test a Bank Transfer order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > Bank Transfer redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: Bank Transfer redirect).
 2. Open the payment link. 
-3. In the **Your bank account** field, enter an IBAN (see below). 
+3. In the **Your bank account** field, enter an IBAN (see table below). 
 4. From the **Bank's country** list, select a country, and then click **Confirm**.
 
-Use the following IBANs to test different transaction statuses.
-
-| IBAN | Status | Description |
+| IBAN | Scenario | Description |
 | ---| ---| ---|
 | NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this for [testing refunds](/testing/testing-refunds/#test-refunding-an-order). |
 | NL87ABNA0000000002| **Initialized**/ **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**. |
@@ -67,47 +62,32 @@ Use the following IBANs to test different transaction statuses.
 
 {{< details title="Belfius, CBC/KBC, Sofort, Trustly" >}}
 
-**Test an order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also the Examples for the specific payment method.
-2. Open the payment link.  On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-3. Click **Test**.  
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. <br> See also the Examples for the specific payment method.
+2. Open the payment link. 
+3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 {{< /details >}}
 
 {{< details title="Dotpay" >}}
 
-**Test a Dotpay order**
-
-1. On the Dotpay page, enter in the:
-    - **E-mail address** field: Any email address
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: Dotpay redirect).
+2. On the Dotpay page, enter in the:
+    - **Email address** field: Any email address
     - **Phone number** field: Any phone number
-2. Select a bank. (You may see more banks available in the live environment.)
+3. Select a bank. (You may see more banks available in the live environment.)
   You are automatically redirected.
-3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-4. Click **Test**.  
+4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
----
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Create an order as above.
-2. On the **Test platform** page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Void**.
 
 {{< /details >}}
 
 {{< details title="EPS" >}}
 
-**Test an EPS order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > EPS redirect. Set the `locale` parameter to `at_AT`.
-2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: EPS redirect). <br> Set the `locale` parameter to `at_AT`.
+2. On the EPS page, in the **BIC** field, enter any BIC code, e.g.&nbsp;`RZOOAT2L420`.
 3. Click **Confirm**.
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
@@ -117,29 +97,26 @@ To test cancelling an order:
 
 {{< details title="Giropay" >}}
 
-**Test a Giropay order**
-
-1. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
-2. Click **Confirm**.
-3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-4. Click **Test**.  
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: Giropay redirect). 
+2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
+3. Click **Confirm**.
+4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
+5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 {{< /details >}}
 
 {{< details title="iDEAL" >}}
 
-**Test an iDEAL order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > iDEAL direct/redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: iDEAL direct/redirect).
 2. For redirect, select a bank.
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-You can also test the following statuses:
+You can also test the following scenarios:
 
-| Status | Description |
+| Scenario | Description |
 | --- | --- |
 | **Declined** | Transaction was declined. |
 | **Open** **Completed** | Transaction is initiated. After 1 minute, this changes to **Completed**. |
@@ -149,17 +126,14 @@ You can also test the following statuses:
 
 {{< details title="SEPA Direct Debit" >}}
 
-**Test a SEPA Direct Debit order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > SEPA Direct Debit direct/redirect.
-2. Open the payment link. For redirect order, enter in the:
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Banking order (Example: SEPA Direct Debit direct/redirect).
+2. For redirect orders, open the payment link. 
+3. Enter in the:
     - **Account holder** field the account holder name.
-    - **IBAN** field the IBAN.
-2. Click **Confirm**.
+    - **IBAN** field an IBAN (see table below).
+4. Click **Confirm**.
 
-Use the following IBANs to test different transaction statuses.
-
-| IBAN | Status | Description |
+| IBAN | Scenario | Description |
 | ---| --- | --- |
 | NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds](/testing/testing-refunds/#test-refunding-an-order) and [API refunds](/testing/testing-refunds/#test-an-api-refund). |
 | NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
@@ -183,7 +157,7 @@ AfterPay shares the test key with MultiSafepay.
 
 **Test an AfterPay order**
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order. See also Examples > AfterPay direct/redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order (Example: AfterPay direct/redirect).
 2. For redirect orders, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
@@ -217,17 +191,18 @@ You can't test:
 
 {{< /details >}}
 
-{{< details title="E-Invoicing" >}}
+{{< details title="E-Invoicing, Pay After Delivery" >}}
 
-**Test an E-Invoicing order**
+**Test an order**
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order. See also Examples > E-Invoicing direct/redirect.
-2. For redirect orders, enter in the:
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order (Example: E-Invoicing/Pay After Delivery direct/redirect).
+2. For redirect orders, open the payment link.
+3. Enter in the:
     - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
     - **Bank account** field any 10-digit bank account number.
     - **Email address** field any email address.
     - **Phone number** field any phone number.
-3. Click **Confirm**.  
+4. Click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
 
 **Test declining an order**  
@@ -235,7 +210,7 @@ The payment is processed in the test environment as **Successful**, with order a
 To decline an order, in your test account under **Order summary**, click **Decline**.  
 The order and transaction statuses change to **Void**.
 
-**Test shipping an order**  
+**Test shipping an E-Invoicing order**  
 
 To test shipping an order, make an [update order](https://api-docs.multisafepay.com/reference/updateorder) API request with status `"shipped"`. You receive the `invoice_url` in the API response.
 
@@ -245,7 +220,7 @@ To test shipping an order, make an [update order](https://api-docs.multisafepay.
 
 **Test an in3 order**
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order. See also Examples > in3 direct/redirect. Use the following customer details:
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order (Example: in3 direct/redirect). Use the following customer details:
     - Date of birth: 01-01-1999
     - Postal code: 1234AB
     - House number: 1
@@ -263,7 +238,7 @@ To test shipping an order, make an [update order](https://api-docs.multisafepay.
 
 **Test in3 declining an order**  
 
-[Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order. See also Examples > in3 direct/redirect. Use the following customer details:
+Use the following customer details:
 
 - Date of birth: 01-01-2000
 - Postal code: 1111AB
@@ -310,7 +285,7 @@ Test credentials:
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order. See also Examples > Klarna direct/redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order (Example: Klarna direct/redirect).
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
 4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
@@ -353,37 +328,9 @@ You can't test:
 For more information about integrating Klarna with MultiSafepay, see [Klarna](/payment-methods/klarna/).
 {{< /details >}}
 
-{{< details title="Pay After Delivery (Betaal na Ontvangst)" >}}
-
-**Test a Pay After Delivery order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Pay later order. See also Examples > Pay After Delivery direct/redirect.
-2. For redirect orders, click **Pay After Delivery**.  
-3. Enter in the:
-    - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
-    - **Bank account** field any 10-digit bank account number.
-    - **E-mail address** field any email address.
-    - **Phone number** field any phone number.  
-4. Click **Confirm**.
-
-The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-
-**Test declining an order**  
-
-To decline an order, in your test account under **Order summary**, click **Decline**.  
-The order and transaction statuses change to **Void**.
-
----
-
-**Note:** You can't test changing the order status to **Shipped**.
-
-{{< /details >}}
-
 ## Credit and debit cards
 
 {{< details title="Credit and debit cards" >}}
-
-**Test a card order**  
 
 1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Card order. See also the Examples for the specific card scheme.  
 For co-branded cards, see the Credit card redirect example, and set the `locale` parameter:
@@ -392,7 +339,7 @@ For co-branded cards, see the Credit card redirect example, and set the `locale`
     - Postepay: `it_IT`
 
 2. On the payment page:
-    - In the **Card number** field, enter a card number (see below).
+    - In the **Card number** field, enter a card number (see table below).
     - In the **Card holder** field, enter any name.
     - From the **Expiry date** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
@@ -402,9 +349,7 @@ For co-branded cards, see the Credit card redirect example, and set the `locale`
     - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-Use the following card numbers to test different transaction statuses.
-
-| Card number | Status | Description |
+| Card number | Scenario | Description |
 | --- | --- | --- |
 | Amex: 378282246310005 <br> Maestro: 6759000000005 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
 | Visa/co-branded: <br> 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
@@ -420,9 +365,7 @@ Use the following card numbers to test different transaction statuses.
 
 {{< details title="Edenred" >}}
 
-**Test an Edenred order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Prepaid card order. See also Examples > Edenred redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Prepaid card order (Example: Edenred redirect).
 2. On the payment page, click **Add discount**.
 3. From the **Test scenario** list, select the relevant discount, and then click **Test**.
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
@@ -443,11 +386,12 @@ You can test the following gift cards:
 
 **Test a gift card order**
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Prepaid card order. See also Examples > Gift card redirect.
-2. On the payment page:
-    - In the **Card number** field, enter `111115`.
-    - In the **Security code** field, enter any 4-digit number.
-    - Click **Add discount**.  
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Prepaid card order (Example: Gift card redirect).
+2. Open the payment link.
+3. Enter in the:
+    - **Card number** field `111115`
+    - **Security code** field any 4-digit number
+4. Click **Add discount**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 Use the following card numbers to test different gift card balances.
@@ -470,9 +414,7 @@ You can't test other gift cards in your MultiSafepay test account. You can only 
 
 {{< details title="Alipay" >}}
 
-**Test an Alipay order**
-
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Alipay direct/redirect.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order (Example: Alipay direct/redirect).
 2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
@@ -483,13 +425,13 @@ The payment is processed in your MultiSafepay test account as **Successful**, wi
 
 {{< details title="Apple Pay" >}}
 
-### Compatible devices
+**Compatible devices**
 
 For compatible devices, see Apple – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
 
 If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay gateway preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
 
-### Testing prerequisites
+**Testing prerequisites**
 
 - Use a [compatible device](https://support.apple.com/en-us/HT208531)
 - Use Safari browser
@@ -497,7 +439,7 @@ If you don't own an Apple device, we recommend using the [Appetize.io](https://a
 
 If these requirements are not met, Apple Pay doesn't appear on the checkout page.
 
-### Testing Apple Pay redirect
+**Testing Apple Pay redirect**
 
 To test your Apple Pay redirect integration, there are two ways:
 
@@ -506,16 +448,16 @@ To test your Apple Pay redirect integration, there are two ways:
 
 To test, follow these steps:
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Apple Pay redirect.
-2. On the MultiSafepay payment page, click the **Apple Pay** button.  
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order (Example: Apple Pay redirect).
+2. On the payment page, click the **Apple Pay** button.  
     You can ignore the "This device is not supported" error.
 3. Sign in to your Apple Developer account and select your test card.
 4. Authorize the payment.
   The transaction is completed.
 
-### Testing Apple Pay direct
+**Testing Apple Pay direct**
 
-To test your Apple Pay direct integration, see Apple Pay direct integration – [Test your integration](/payment-methods/apple-pay/direct/#test-your-integration).
+See Apple Pay direct integration – [Test your integration](/payment-methods/apple-pay/direct/#test-your-integration).
 
 {{< /details >}}
 
@@ -535,7 +477,7 @@ To test Google Pay payments, follow these steps:
     &nbsp;  
     For more information about testing, see Google Pay – [Test with sample tokens](https://developers.google.com/pay/api/web/guides/resources/sample-tokens).
 &nbsp;  
-3. Check the status of the payment [in your test dashboard](https://testmerchant.multisafepay.com/).
+3. Check the status of the payment in your [test dashboard](https://testmerchant.multisafepay.com/).
 
 For support, email <integration@multisafepay.com>
 
@@ -545,7 +487,7 @@ For support, email <integration@multisafepay.com>
 
 **Test a PayPal order**
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order (direct only). See also Examples > PayPal direct.
+1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order (Example: PayPal direct).
 2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
@@ -572,10 +514,8 @@ To change the order status, on the Test platform page, from the **Test scenario*
 
 {{< details title="WeChat Pay" >}}
 
-**Test a WeChat Pay order**
-
-1. [Create order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order. See also Examples > WeChat direct/redirect.
-2. Scan the QR code with a general QR reader (**not** the WeChat app - an error occurs).
+1. [Create order](https://api-docs.multisafepay.com/reference/createorder) > Wallet order (Example: WeChat direct/redirect).
+2. Scan the QR code with a general QR reader (**not** the WeChat app or an error occurs).
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Completed**.
