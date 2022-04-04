@@ -3,7 +3,7 @@ title : "Coppermine integration for MultiSafepay"
 meta_title: "Coppermine integration for MultiSafepay - MultiSafepay Docs"
 layout: 'single'
 meta_description: "Integrate MultiSafepay payment solutions into your Coppermine ecommerce platform."
-logo: "/logo/Integrations/Coppermine.svg"
+logo: "/logo/Integrations/coppermine-docs.svg"
 weight: 32
 title_short: "Coppermine"
 type: 'Integration'
