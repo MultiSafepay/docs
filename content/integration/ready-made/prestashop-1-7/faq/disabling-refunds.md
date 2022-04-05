@@ -10,4 +10,4 @@ if you don't want refunds made from your PrestaShop [backend](/glossaries/multis
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **MultiSafepay module** > **Manage hooks**.
 3. Select **Display non-positionable hooks**.
-4. Find **actionOrderSlipAdd**, select the three dots and click on **Unhook**.
+4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
