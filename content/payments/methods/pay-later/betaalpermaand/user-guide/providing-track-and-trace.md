@@ -14,4 +14,4 @@ You can provide track-and-trace codes to MultiSafepay:
 
   **or**  
 
-- Via our API. See API reference – [Update order](https://api-docs.multisafepay.com/reference/updateorder) > Ship order.
+- Via our API. See API reference – [Update order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order.

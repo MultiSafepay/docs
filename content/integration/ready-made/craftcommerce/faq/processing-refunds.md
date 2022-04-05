@@ -15,7 +15,7 @@ aliases:
 - From the Craft CMS admin panel (see below):  
     - Full and partial refunds
     - Refunding more than the original transaction is **not** supported
-- Via our API: [Refund order](https://api-docs.multisafepay.com/reference/refundorder) > Pay later refund
+- Via our API: [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund
 - No refunds for [pay later methods](/payment-methods/pay-later)
 - Discounts **not** supported
 

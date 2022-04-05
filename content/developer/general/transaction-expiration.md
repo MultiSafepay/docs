@@ -7,7 +7,7 @@ url: '/developer/transaction-expiration/'
 ---
 Different payment methods set different expiration times for transactions. The time begins:
 
-- For direct requests: When you make the [create order](https://api-docs.multisafepay.com/reference/createorder)  request.
+- For direct requests: When you make the [create order](https://docs-api.multisafepay.com/reference/createorder)  request.
 - For redirect requests: When the customer selects the payment method on the [payment page](/payment-pages/). 
 
 The expiration time is set by the payment method and cannot be changed.

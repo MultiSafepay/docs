@@ -36,7 +36,7 @@ To configure the webhook endpoint at website level:
 
 To configure the webhook endpoint at order level:
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder) via our API.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) via our API.
 2. In the request body, set:
 	- `payment_options.notification_url` to your webhook endpoint
 	- `payment_options.notification_method` to `POST`

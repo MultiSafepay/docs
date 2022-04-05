@@ -16,7 +16,7 @@ The API also lets you create a customized onboarding process for new merchants d
 
 ## 1. Create merchant accounts
 
-See API reference – [Create affiliate](https://api-docs.multisafepay.com/reference/createaffiliate) for how to submit the company details for each merchant, including:
+See API reference – [Create affiliate](https://docs-api.multisafepay.com/reference/createaffiliate) for how to submit the company details for each merchant, including:
 
 - Company name and address
 - Chamber of commerce number
@@ -26,7 +26,7 @@ See API reference – [Create affiliate](https://api-docs.multisafepay.com/refer
 The API returns a merchant account ID.
 
 ## 2. Add a bank account
-See API reference – [Add bank account](https://api-docs.multisafepay.com/reference/addaffiliatebankaccount) for how to submit information about each bank account added to the merchant account, including: 
+See API reference – [Add bank account](https://docs-api.multisafepay.com/reference/addaffiliatebankaccount) for how to submit information about each bank account added to the merchant account, including: 
 
 - Name of account holder
 - IBAN
@@ -40,7 +40,7 @@ MultiSafepay verifies all bank accounts added to merchant accounts. This can be 
 **Note:** The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
 
 ## 3. Add UBO details
-See API reference – [Add UBO](https://api-docs.multisafepay.com/reference/addaffiliateubo) for how to submit details about the [ultimate beneficial owner(s)](/account/ubo/) (UBOs) of each merchant's company, including:
+See API reference – [Add UBO](https://docs-api.multisafepay.com/reference/addaffiliateubo) for how to submit details about the [ultimate beneficial owner(s)](/account/ubo/) (UBOs) of each merchant's company, including:
 
 - Name and other identifying information
 - Contact details
@@ -49,7 +49,7 @@ See API reference – [Add UBO](https://api-docs.multisafepay.com/reference/adda
 The API returns a unique UBO identifier, which you can use to submit the UBO identification documents.
 
 ## 4. Add websites
-See API reference – [Add site](https://api-docs.multisafepay.com/reference/addaffiliatesite) for how to submit the following information about merchants' website(s):
+See API reference – [Add site](https://docs-api.multisafepay.com/reference/addaffiliatesite) for how to submit the following information about merchants' website(s):
 
 - Website name and URL
 - Contact details for customer support

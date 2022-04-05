@@ -62,7 +62,7 @@ After expiration, the issuer can cancel the authorization and the funds are retu
 To activate Manual Capture for your MultiSafepay account, email <sales@multisafepay.com>
 
 ## Integration
-See API reference – [Capture payment](https://api-docs.multisafepay.com/reference/capturepayment).
+See API reference – [Capture payment](https://docs-api.multisafepay.com/reference/capturepayment).
 
 Manual Capture is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 

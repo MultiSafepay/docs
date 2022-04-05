@@ -27,7 +27,7 @@ The most common operation to perform with our API is creating an order. To speci
 Before making any API requests, you must:
 
 - Have a [website-level API key](/account/site-id-api-key-secure-code/).
-- Choose the test or live [environment](https://api-docs.multisafepay.com/reference/environments).
+- Choose the test or live [environment](https://docs-api.multisafepay.com/reference/environments).
 
 You must include your API key in the request URL as a query parameter to be able to authenticate your request.  
 
@@ -36,7 +36,7 @@ While building your integration we recommend using the test environment: `https:
 
 ## Create an order
 
-The first operation to test when building your integration, is to [create an order](https://api-docs.multisafepay.com/reference/createorder). Here is a sample request to create a redirect order:
+The first operation to test when building your integration, is to [create an order](https://docs-api.multisafepay.com/reference/createorder). Here is a sample request to create a redirect order:
 
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test-api-key}" \
@@ -93,7 +93,7 @@ For further details on how to test each payment method, see [Test payment detail
 
 ## Get order details
 
-To familiarize yourself with what an order looks like in our system, try making a [Get order](https://api-docs.multisafepay.com/reference/getorder) request for the order you just created, using the `order_id`.
+To familiarize yourself with what an order looks like in our system, try making a [Get order](https://docs-api.multisafepay.com/reference/getorder) request for the order you just created, using the `order_id`.
 
 ```
 curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/my-order-id-1?api_key={your-test-api-key}' \ 

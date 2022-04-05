@@ -15,7 +15,7 @@ aliases:
 A financial institution that processes credit and debit card payments with card issuers on behalf of merchants. MultiSafepay is an acquirer for Visa, Mastercard, and Bancontact.
 
 ### API endpoint
-A specific URL in [our API](https://api-docs.multisafepay.com/reference/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
+A specific URL in [our API](https://docs-api.multisafepay.com/reference/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
 
 ### backend
 The part of a merchant's integration not accessible to customers. Here you can connect with MultiSafepay, configure settings, process refunds, make API requests, and receive notifications.
@@ -30,7 +30,7 @@ How often customers visiting a merchant's integration place an order and complet
 A person or company that buys products and services from merchants.
 
 ### custom integration
-A merchant's bespoke integration with MultiSafepay's services built using [our API](https://api-docs.multisafepay.com/reference/), SDKs, or wrappers.
+A merchant's bespoke integration with MultiSafepay's services built using [our API](https://docs-api.multisafepay.com/reference/), SDKs, or wrappers.
 
 ### developer
 A software developer a merchant employs to work on the technical side of their integration.
@@ -81,7 +81,7 @@ MultiSafepay is a PSP and provides services that let merchants accept payments u
 A terminal that accepts payments, usually by card or near-field communication (NFC), at a merchant's physical location, e.g. a store.
 
 ### RESTful API (application programming interface)
-The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](https://api-docs.multisafepay.com/reference/introduction) specifies the content and format of requests to our server and the responses the server sends back.
+The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](https://docs-api.multisafepay.com/reference/introduction) specifies the content and format of requests to our server and the responses the server sends back.
 
 ### SEPA
 The Single Euro Payments Area (SEPA) is a European Union payment-integration initiative. Customers can quickly and securely transfer euros within the EU and to a number of non-EU countries.

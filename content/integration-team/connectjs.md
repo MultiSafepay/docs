@@ -41,7 +41,7 @@ MultiSafepay = {
 <script src="https://devpay.multisafepay.com/js/connect.js"></script>
 ```
 
-When making the [create order](https://api-docs.multisafepay.com/reference/createorder) request, include the setting for ConnectJS in the `payment_options` object. 
+When making the [create order](https://docs-api.multisafepay.com/reference/createorder) request, include the setting for ConnectJS in the `payment_options` object. 
 
 Example:  
 ```

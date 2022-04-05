@@ -16,8 +16,8 @@ To activate payment methods, see [Activating payment methods](/payments/activati
 
 Use the gateway requests to:
 
-- [List all gateways](https://api-docs.multisafepay.com/reference/listgateways)
-- [Get a gateway](https://api-docs.multisafepay.com/reference/getgateway)
-- [List iDEAL issuers](https://api-docs.multisafepay.com/reference/listidealissuers)
+- [List all gateways](https://docs-api.multisafepay.com/reference/listgateways)
+- [Get a gateway](https://docs-api.multisafepay.com/reference/getgateway)
+- [List iDEAL issuers](https://docs-api.multisafepay.com/reference/listidealissuers)
 
 {{% /description %}}

@@ -35,7 +35,7 @@ See the user guide for the relevant integration.
 
 ## API
 
-See API reference – [Refund order](https://api-docs.multisafepay.com/reference/refundorder). 
+See API reference – [Refund order](https://docs-api.multisafepay.com/reference/refundorder). 
 
 ## Support
 

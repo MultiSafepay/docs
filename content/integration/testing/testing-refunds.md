@@ -29,7 +29,7 @@ You can test refunds for the following methods:
 
 To test refunding an order:
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder). 
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
 2. Wait until the transaction status changes to **Completed**.
 3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 4. Under **Refund**, enter in the:
@@ -60,8 +60,8 @@ You can test refunds for the following methods:
 
 To test refunding an order via the API:
 
-1. [Create an order](https://api-docs.multisafepay.com/reference/createorder). 
-2. Make a [refund](https://api-docs.multisafepay.com/reference/refundorder) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
+2. Make a [refund](https://docs-api.multisafepay.com/reference/refundorder) API request.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved** or **Initialized**.
 3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

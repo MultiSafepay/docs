@@ -55,7 +55,7 @@ To discount a specific amount:
 
 ## API 
 
-See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder).
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder).
 
 To discount: 
       

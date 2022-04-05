@@ -13,7 +13,7 @@ aliases:
 
 The transactions API endpoint returns details about your transactions. You can use it to automate business operations such as reconciliation and gain insights into your transactions.
 
-See API reference – [Get transaction](https://api-docs.multisafepay.com/reference/gettransaction).
+See API reference – [Get transaction](https://docs-api.multisafepay.com/reference/gettransaction).
 
 Common uses include:
 

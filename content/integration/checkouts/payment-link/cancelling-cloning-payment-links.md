@@ -33,7 +33,7 @@ To cancel a payment link:
 3. Next to the relevant payment link, click the red cross icon.  
 The status changes to **Cancelled**. 
 
-Or see API reference – [Cancel an order](https://api-docs.multisafepay.com/reference/updateorder).
+Or see API reference – [Cancel an order](https://docs-api.multisafepay.com/reference/updateorder).
 
 ## Support
 

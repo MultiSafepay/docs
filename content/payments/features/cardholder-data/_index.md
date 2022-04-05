@@ -58,6 +58,6 @@ The table below sets out supported payment methods and [3D Secure](/features/3d-
 
 ## Integration
 
-See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder) > Card order > Set `type` to `direct`.
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order > Set `type` to `direct`.
 
 

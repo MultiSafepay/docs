@@ -37,7 +37,7 @@ To refund part of the amount:
 
 ## API
 
-See API reference – [Refund order](https://api-docs.multisafepay.com/reference/refundorder) > Pay later refund.
+See API reference – [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund.
 
 ## Support
 

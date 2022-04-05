@@ -49,7 +49,7 @@ You can view the payment details for a transaction in your MultiSafepay dashboar
 
 You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;2.&nbsp;below).
 
-To prevent us from emailing the customer, see API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
+To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
 
 ## 2. Customer transfers funds
 

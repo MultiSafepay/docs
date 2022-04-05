@@ -37,6 +37,6 @@ To style payment page templates from your MultiSafepay dashboard, follow these s
 
 ## API
 
-Dynamically style the payment page template for specific transaction requests via our API. See API reference – [Create order](https://api-docs.multisafepay.com/reference/createorder) > Payment page > `payment_options` object. 
+Dynamically style the payment page template for specific transaction requests via our API. See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page > `payment_options` object. 
 
 For support, email <integration@multisafepay.com>

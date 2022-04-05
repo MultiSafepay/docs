@@ -15,7 +15,7 @@ aliases:
 
 | | |
 |---|---|
-| **API** | [Create order](https://api-docs.multisafepay.com/reference/createorder) > Banking order. See also Examples > Belfius direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. See also Examples > Belfius direct/redirect |
 | **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/), **except** OsCommerce and ZenCart. |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
