@@ -23,14 +23,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects a gift card at checkout
-    Mu->>C: Connects to the card issuer (redirect only)
+    Mu->>C: Redirects to payment page
     C->>G: Enters gift card details and completes payment
     G->>Mu: Processes payment and transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the gift card details. 
 
 ## Payment statuses
 
@@ -46,12 +45,9 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
+| For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment. | Expired | Expired |
-
-{{< blue-notice >}} If the customer paid the full amount using the gift card, the transaction status remains **Initialized**. {{< br >}} If they paid with the gift card and another payment method, the transaction status changes to **Completed**. {{< /blue-notice >}}
+| For partial payment with another method: The customer didn't complete payment. | Expired | Expired |
 
 ## Refund statuses
 

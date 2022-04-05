@@ -37,7 +37,7 @@ The table below sets out possible order and transaction statuses and what they c
 | The customer has requested a chargeback. | Void | Void |
 | The customer didn't complete payment and the transaction expired. {{< br >}} Transaction expiry times vary per payment method. | Expired | Expired |
 | The [issuer](/glossaries/multisafepay-glossary/#issuer) or [acquirer](/glossaries/multisafepay-glossary/#acquirer) has declined the transaction. {{< br >}} See also [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined |
-| Manually [authorize or decline the transaction](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| Manually [authorize or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | Manually change the order status to shipped. | Shipped | Uncleared |
 
 ### Refunds and chargebacks

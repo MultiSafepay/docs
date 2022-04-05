@@ -169,7 +169,7 @@ The table below describes all available tokens.
 | MERCHANTPHONESUPPORT          | Your customer service phone number |
 | MERCHANTSUPPORT EMAIL         | Your customer service email address |
 | MERCHANTTRANSACTIONID         | Your reference number |
-| PAYLINK                       | Link to the MultiSafepay payment page for this transaction |
+| PAYLINK                       | Link to the [payment page](/payment-pages/) for this transaction |
 | PAYMENTMETHOD                 | Payment method used for this transaction |
 | PHONE                         | Your company phone number given in your MultiSafepay account |
 | REFUNDDESTINATION             | Bank account number to receive the refund |

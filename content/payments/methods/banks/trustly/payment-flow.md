@@ -30,7 +30,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow**: The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
+**Redirect flow**: The customer is redirected first to a [payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
 
 ## Payment statuses
 
@@ -48,7 +48,6 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
-| Trustly has declined the transaction. | Declined | Declined   |
 | The customer cancelled the transaction at their bank. | Cancelled   | Cancelled   |
 | The customer didn't complete payment within 2 days. | Expired | Expired |
 | In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
@@ -59,6 +58,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 |---|---|---|
 | The customer has requested a refund. | Initialized | Initialized |
 | The refund is complete. | Completed | Completed |
+| The refund was declined. | Declined | Declined |
 
 
 

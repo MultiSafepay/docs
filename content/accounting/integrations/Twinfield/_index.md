@@ -36,7 +36,7 @@ To generate a dummy IBAN, follow these steps:
 ## Exporting from your MultiSafepay dashboard
 To export a MT940 accountant report from your MultiSafepay dashboard, follow these steps:
 
-1. Sign in to your MultiSafepay dashboard.
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Accountant Export**. 
 3. In **Data Selection**, select a date range.
 4. In the **Report Type** field, select **MT940**.

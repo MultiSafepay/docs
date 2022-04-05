@@ -39,7 +39,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The order details are sent directly to MultiFactor. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | 
+| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | 
 
 ### Failure to pay
 

@@ -1,8 +1,8 @@
 ---
-title: 'Payment Components'
-breadcrumb_title: "Payment Components"
+title: 'Payment components'
+breadcrumb_title: "Payment components"
 layout: 'single'
-meta_title: 'Payment Components - MultiSafepay Docs'
+meta_title: 'Payment components - MultiSafepay Docs'
 logo: '/svgs/Payment pages.svg'
 short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
 hideMenu : 'true'
@@ -14,7 +14,7 @@ aliases:
     - /payments/checkout/payment-components/
     - /integrations/payment-components/
 ---
-Payment Components let you embed payment methods directly into your checkout.
+Payment components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase [conversion](/glossaries/multisafepay-glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
@@ -25,7 +25,7 @@ Payment Components let you embed payment methods directly into your checkout.
 
 Embed a single or multiple payment methods in your checkout.
 
-{{< details title="Available payment methods">}}
+{{< details title="Supported payment methods">}}
 
 - [Bancontact](/payment-methods/bancontact/)
 - [Bank Transfer](/payment-methods/bank-transfer/)

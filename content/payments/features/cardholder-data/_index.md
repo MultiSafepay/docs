@@ -19,7 +19,7 @@ aliases:
     - /features/server-to-server/integration/
     - /features/server-to-server/
 ---
-When you accept credit and debit card payments using a [MultiSafepay payment page](/payment-pages/) or [Payment Component](/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
+When you accept credit and debit card payments using a [payment page](/payment-pages/) or [payment component](/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
 
 - Primary account number (PAN)
 - Cardholder name

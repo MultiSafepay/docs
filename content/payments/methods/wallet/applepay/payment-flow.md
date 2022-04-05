@@ -44,7 +44,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer selects Apple Pay and completes payment on your checkout page. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) and then to Apple to complete payment. | 
+| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) and then to Apple to complete payment. | 
 
 For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 

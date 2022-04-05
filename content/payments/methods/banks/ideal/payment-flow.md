@@ -34,7 +34,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer selects iDEAL and their bank at checkout and is redirected to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. | 
+| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/) to select their bank, and then to their online banking environment. | 
 
 ## Payment statuses
 

@@ -33,7 +33,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer selects WeChat Pay at checkout and MultiSafepay displays a WeChat QR code. |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) containing a WeChat QR code. |   
+| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) containing a WeChat QR code. |   
 
 ## Payment statuses
 

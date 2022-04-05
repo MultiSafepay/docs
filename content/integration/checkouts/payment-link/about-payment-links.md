@@ -12,7 +12,7 @@ aliases:
     - /payments/checkout/payment-link/
 ---
 
-You can manually generate a link to a [MultiSafepay payment page](/payment-pages/) to pass to a customer to complete payment. 
+You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. 
 
 ## Use cases 
 
@@ -25,7 +25,7 @@ You can manually generate a link to a [MultiSafepay payment page](/payment-pages
 
 All payment methods are supported. 
 
-The payment page displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
+The [payment page](/payment-pages/) displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
 
 ## Lifetimes
 

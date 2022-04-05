@@ -1,5 +1,5 @@
 ---
-title : "Payment Component integration manuals"
+title : "Payment component integration manuals"
 breadcrumb_title : "Integration manuals"
 meta_title: "Payment Components - Integration manuals - MultiSafepay Docs"
 layout: 'single'

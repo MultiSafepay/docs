@@ -40,7 +40,7 @@ To automatically reconcile your files using bank recognition rules:
 1. Go to **Bank transactions to be processed** > **(New) Processing rule**.
 2. Create a new rule. 
 
-For more information, see Yuki - [Create bank processing rule](https://support2.yuki.nl/nl/support/solutions/articles/11000066038-bank-verwerkingsregel-aanmaken).
+For more information, see Yuki - [Create bank processing rule](https://support.yuki.nl/nl/support/solutions/articles/80000787813-bank-verwerkingsregel-aanmaken).
 
 
 {{< /details >}}

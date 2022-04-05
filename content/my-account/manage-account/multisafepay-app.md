@@ -1,6 +1,6 @@
 ---
 title: "MultiSafepay app"
-weight: 90
+weight: 15
 meta_title: "MultiSafepay app - MultiSafepay Docs"
 read_more: "."
 url: '/account/multisafepay-app/'

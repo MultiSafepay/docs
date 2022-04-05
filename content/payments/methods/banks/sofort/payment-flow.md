@@ -37,7 +37,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. |
+| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/), and then to their online banking environment. |
 
 ## Payment statuses
 
