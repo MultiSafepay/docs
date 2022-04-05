@@ -1,5 +1,5 @@
 ---
-weight: 225
+weight: 226
 meta_title: "API reference - Create Recurring Payments orders - MultiSafepay Docs"
 
 ---
