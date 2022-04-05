@@ -4,7 +4,6 @@ meta_title: "PrestaShop 1.7 - Disabling refunds - MultiSafepay Docs"
 read_more: "."
 url: '/prestashop-1-7/disable-refunds/'
 ---
-**Disable refunds**
 
 if you don't want refunds made from your PrestaShop [backend](/glossaries/multisafepay-glossary/#backend) to automatically process with the MultiSafepay API, you can disable this by following these steps:
 
