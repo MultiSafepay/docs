@@ -11,7 +11,7 @@ url: '/payment-methods/paysafecard/integration-testing/'
 
 | | |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order. See also Examples > Gift card redirect  |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order. See also Examples > Gift card redirect. |
 | **Ready-made integrations** | Paysafecard is supported in the following ready-made integrations: {{< br >}} [OsCommerce](/oscommerce/) {{< br >}} [Magento 1](/magento-1/) {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [X-Cart](/x-cart/) {{< br >}} [Zen Cart](/zen-cart/)   |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 

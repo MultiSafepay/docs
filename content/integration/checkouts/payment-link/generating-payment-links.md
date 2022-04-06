@@ -76,4 +76,4 @@ You can generate payment links in the [backend](/glossaries/multisafepay-glossar
 
 ## API
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder). In the `type` parameter, enter `paymentlink`. 
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page/link. 
