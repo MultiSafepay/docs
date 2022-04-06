@@ -33,7 +33,7 @@ If you use your American Express merchant account number:
 - You are automatically added to the Safekey directory. 
 - All currencies are supported.  
   
-For more information, email the Support Team at <support@multisafepay.com>
+For more information, email <support@multisafepay.com>
 
 
 

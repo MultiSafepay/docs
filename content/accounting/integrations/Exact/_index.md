@@ -76,4 +76,4 @@ Exact Globe and Exact Online both import and match MultiSafepay MT940 reports pr
 
 **Note:** Lightspeed users must request Lightspeed to make an adjustment to make sure order numbers appear in the correct fields in Exact Online to successfully match the MultiSafepay MT940.
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

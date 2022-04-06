@@ -19,7 +19,7 @@ The Wet ter voorkoming van witwassen en financieren van terrorisme (WWFT), or Mo
 
 {{< /details >}}
 
-For more information, email the Risk Team at <risk@multisafepay.com>
+For more information, email <risk@multisafepay.com>
 
 ## About UBOs
 A UBO is a natural person who directly or indirectly holds an equity interest in or exercises control of the enterprise. Most commonly, an individual holds an equity interest of 25% or more of the shares or capital of the enterprise, or exercises:

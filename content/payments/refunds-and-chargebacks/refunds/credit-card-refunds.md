@@ -17,7 +17,7 @@ This page provides general guidance on refunding credit card payments.
 
 - Whether or not the refund is visible to the customer depends on the issuer's system.
 
-- Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an [acquirer reference number (ARN)](/credit-cards-user-guide/glossary/#acquirer-reference-number-arn), they can email the Support Team at <support@multisafepay.com> 
+- Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an [acquirer reference number (ARN)](/credit-cards-user-guide/glossary/#acquirer-reference-number-arn), they can email <support@multisafepay.com> 
 
 - You can process refunds via MultiSafepay for up to 180 days after payment was completed. 
 
@@ -32,4 +32,4 @@ On the customer's credit card statement, the transaction may either be:
 
 ## Support
 
-Email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

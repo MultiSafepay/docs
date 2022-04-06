@@ -25,4 +25,4 @@ For each new invoice in Exact, if you:
 - **Email**: The customer receives a second email containing a payment link, in addition to the normal email.
 - **Print and process**: The customer receives an email containing a payment link.
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

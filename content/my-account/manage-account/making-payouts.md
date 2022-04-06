@@ -47,7 +47,7 @@ If your MultiSafepay balance is negative (e.g. due to refunds, chargebacks, or f
 
 {{< details title="The Risk Team has deactivated this feature for any reason" >}}
 &nbsp;  
-Email the Risk Team at <risk@multisafepay.com>
+Email <risk@multisafepay.com>
 
 {{< /details >}}
 

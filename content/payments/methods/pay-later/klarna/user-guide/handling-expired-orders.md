@@ -16,6 +16,6 @@ If you have already shipped an order but it expired because you didn't change th
 
 **Or**
 
-1. Create a new [Klarna order](/api/#klarna).
-2. [Change the order status to Shipped](/about-payments/pay-later-shipped-status/).
+1. [Create a new order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. See also Examples > Klarna redirect.
+2. [Ship the order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order.
 3. Send the payment link to the customer.

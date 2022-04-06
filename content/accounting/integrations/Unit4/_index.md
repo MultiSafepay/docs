@@ -30,4 +30,4 @@ To import a MultiSafepay Accountant export, see Unit4 - [Support](https://accoun
 
 {{< /details >}}
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

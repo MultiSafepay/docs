@@ -20,6 +20,6 @@ aliases:
 ---
 Free app by Dynamicweb to integrate MultiSafepay payment solutions into your webshop. 
 
-To integrate the app, email the Integration Team at <integration@multisafepay.com>
+To integrate the app, email <integration@multisafepay.com>
 
 For support, contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us). 

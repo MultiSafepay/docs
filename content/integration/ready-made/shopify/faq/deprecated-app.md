@@ -32,7 +32,7 @@ New merchants will need a MultiSafepay account.  See [Getting started](/getting-
 
 Our Shopify app is unavailable in Norway and Finland. 
 
-For more information, email the Integration Team at <integration@multisafepay.com>
+For more information, email <integration@multisafepay.com>
 
 {{< /details >}}
 

@@ -30,4 +30,4 @@ For technical queries about the plugin, see ShopFactory – [ShopFactory Support
 
 New merchants will need a MultiSafepay account, see [Getting started](/getting-started/).
 
-For information about supported payment methods, email the Integration Team at <integration@multisafepay.com>
+For information about supported payment methods, email <integration@multisafepay.com>
