@@ -132,7 +132,7 @@ meta_title: "API reference - Credit card – direct - MultiSafepay Docs"
 
 ### Credit card – direct 
 
-**Note:** To make credit card – direct requests, you need to handle cardholder data on your server, which requires PCI DSS certification. Instead, we recommend accepting credit card payments using a [MultiSafepay payment page](/payment-pages/) or [Payment Component](/payment-components/). 
+**Note:** To make credit card – direct requests, you need to handle cardholder data on your server, which requires PCI DSS certification. Instead, we recommend accepting credit card payments using a [payment page](/payment-pages/) or [payment component](/payment-components/). 
 
 See [Handling cardholder data](/features/handling-cardholder-data/). 
 

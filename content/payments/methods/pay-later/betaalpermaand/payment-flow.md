@@ -40,7 +40,7 @@ sequenceDiagram
 |  |  |  |
 |---|---|---|
 | **Direct flow** | The customer is redirected straight to Santander. | 
-| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) and then to Santander. | 
+| **Redirect flow** | The customer is briefly redirected to a [payment page](/payment-pages/) and then to Santander. | 
 
 ## Payment statuses
 

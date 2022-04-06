@@ -30,7 +30,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
+**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
 
 ## Payment statuses
 
@@ -48,7 +48,6 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 |---|---|---|
 | The customer has been redirected to Paysafecard. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
-| Paysafecard declined the transaction. | Declined   | Declined   |
 | The customer cancelled the transaction at Paysafecard. | Void   | Void   |
 | The customer didn't complete payment within 3&nbsp;hours. | Expired | Expired |
 

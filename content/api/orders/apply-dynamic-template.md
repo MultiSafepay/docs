@@ -131,7 +131,7 @@ meta_title: "API reference - Apply dynamic template - MultiSafepay Docs"
 {{< description >}}
 ### Apply dynamic templates
 
-To apply a template to the [MultiSafepay payment page](/payment-pages/), include in the transaction request:
+To apply a template to the [payment page](/payment-pages/), include in the transaction request:
 
 - The `template_id` of a template within your MultiSafepay dashboard, **or**
 - A `template` object. 

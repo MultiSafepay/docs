@@ -109,14 +109,6 @@ name = "Shell"
     identifier = "go-live"
     weight = 140
 
-[[menu.main]]
-    name = "Manage your balance"
-    url  = "/my-account/manage-your-balance/"
-    parent = "my-account"
-    identifier = "manage-your-balance"
-    weight = 150
-
-
 
 [[menu.main]]
     name = "Integrations"

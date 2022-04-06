@@ -14,9 +14,7 @@ This page is for MultiSafepay partner or primary account holders wanting to subm
 
 The API also lets you create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.  
 
-## Submitting merchant information
-
-### Step 1: Create merchant accounts
+## 1. Create merchant accounts
 
 See API reference – [Create a merchant account](/api-onboarding/create-account/) for how to submit the company details for each merchant, including:
 
@@ -27,7 +25,7 @@ See API reference – [Create a merchant account](/api-onboarding/create-account
 
 The API returns a merchant account ID.
 
-### Step 2: Add a bank account
+## 2. Add a bank account
 See API reference – [Add bank accounts](/api-onboarding/add-bank-accounts/) for how to submit information about each bank account added to the merchant account, including: 
 
 - Name of account holder
@@ -41,7 +39,7 @@ MultiSafepay verifies all bank accounts added to merchant accounts. This can be 
 
 **Note:** The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
 
-### Step 3: Add UBO details
+## 3. Add UBO details
 See API reference – [Add UBOs](/api-onboarding/add-ubos/) for how to submit details about the [ultimate beneficial owner(s)](/account/ubo/) (UBOs) of each merchant's company, including:
 
 - Name and other identifying information
@@ -50,7 +48,7 @@ See API reference – [Add UBOs](/api-onboarding/add-ubos/) for how to submit de
 
 The API returns a unique UBO identifier, which you can use to submit the UBO identification documents.
 
-### Step 4: Add websites
+## 4. Add websites
 See API reference – [Add websites](/api-onboarding/add-websites/) for how to submit the following information about merchants' website(s):
 
 - Website name and URL

@@ -65,7 +65,7 @@ Default: `GET`.
 ----------------
 `close_window` | boolean | optional
 
-To display the MultiSafepay payment page in a new window that automatically closes after the customer completes payment, set to `true`.   
+To display the [payment page](/payment-pages/) in a new window that automatically closes after the customer completes payment, set to `true`.   
 Options: `true`, `false`. 
 
 ----------------

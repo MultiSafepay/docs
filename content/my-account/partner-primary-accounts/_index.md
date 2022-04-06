@@ -1,6 +1,6 @@
 ---
 title: 'Partner and primary accounts'
-weight: 30
+weight: 40
 meta_title: "Partner and primary accounts - MultiSafepay Docs"
 layout: 'faqplugins'
 logo: '/svgs/Partner_Account_Control.svg'

@@ -7,7 +7,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/configuring-generic-gateways/
 
 ---
-The PrestaShop 1.7 plugin offers a [generic gateway](/faq/general/generic-gateways/) that supports all payment methods. You can filter the gateway by:
+The PrestaShop 1.7 plugin offers a [generic gateway](/developer/generic-gateways/) that supports all payment methods. You can filter the gateway by:
 
 - Country
 - Currency

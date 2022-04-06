@@ -29,7 +29,7 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
+**Redirect flow:** The customer is redirected first to a [payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
 
 ## Payment statuses
 
@@ -45,6 +45,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 
 
