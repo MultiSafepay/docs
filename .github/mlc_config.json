@@ -70,6 +70,9 @@
       },
       {
         "pattern": "https://postepay\\.poste\\.it.*"
+      },
+      {
+        "pattern": "https://registreermijnwebsite\\.edenred\\.be.*/"
       }
     ],
   "timeout": "120s",
