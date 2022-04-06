@@ -142,7 +142,6 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 5. Clear your cache.
 
-Please always make sure to clean your cache after installing to prevent any issues.
 
 ## Configuration
 1. Sign in to your PrestaShop 1.7 backend.
