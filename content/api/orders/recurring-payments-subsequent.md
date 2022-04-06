@@ -1,5 +1,5 @@
 ---
-weight: 225
+weight: 227
 meta_title: "API reference - Recurring Payments: Subsequent order - MultiSafepay Docs"
 
 ---

@@ -31,11 +31,7 @@
         },
         {
             "date": "Jul 21, 2021",
-            "change": "New accounting integration: [Duopact](/business/accounting/integrations/yuki/integrations/duopact/)"
-        },
-        {
-            "date": "Jul 14, 2021",
-            "change": "New section: [Business operations](/business)"
+            "change": "New accounting integration: [Duopact](/accounting/integrations/yuki/integrations/duopact/)"
         },
         {
             "date": "Jul 13, 2021",
@@ -43,7 +39,7 @@
         },
         {
             "date": "Jul 12, 2021",
-            "change": "New section: [Account](/account)"
+            "change": "New section: [My account](/my-account/)"
         },
         {
             "date": "Jul 11, 2021",

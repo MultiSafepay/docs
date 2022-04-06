@@ -1,5 +1,5 @@
 ---
-weight: 32
+weight: 225
 meta_title: "API reference - Generating API tokens - MultiSafepay Docs"
 
 ---
@@ -21,7 +21,10 @@ meta_title: "API reference - Generating API tokens - MultiSafepay Docs"
 {{< description >}}
 ## Generating API tokens
 
-API tokens are used to encrypt sensitive payment details from a customer's device.
+API tokens are used to encrypt sensitive payment details from a customer's device for Payment Component orders:
+
+- [Single payment method](/payment-components/single)
+- [Multiple payment methods](/payment-components/multiple/)
 
 Generate a new token for every order, **except** `POST /orders` requests initiated from your server.
 
