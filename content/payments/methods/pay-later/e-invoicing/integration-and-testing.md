@@ -13,7 +13,7 @@ aliases:
 
 | | |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. See also Examples > E-Invoicing direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. See also Examples > E-Invoicing direct/redirect. |
 | **Ready-made integrations** | E-Invoicing (direct) is supported in all our [ready-made integrations](/integrations/ready-made/).  |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
