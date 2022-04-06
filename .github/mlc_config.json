@@ -72,7 +72,7 @@
         "pattern": "https://postepay\\.poste\\.it.*"
       }
     ],
-  "timeout": "60s",
+  "timeout": "120s",
   "retryOn429": true,
   "aliveStatusCodes": [200, 206, 999]
 }
