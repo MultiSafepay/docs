@@ -14,4 +14,4 @@ aliases:
     - Full and partial refunds
     - [Pay later refunds](/payment-methods/pay-later/) **not** supported
     
-When doing a refund through the PrestaShop [backend](/glossaries/multisafepay-glossary/#backend) it will automatically process this refund through the MultiSafepay API. If you choose to use a voucher refund, it will not process this refund through the MultiSafepay API.
+Refunds initiated in your PrestaShop [backend](/glossaries/multisafepay-glossary/#backend) are automatically processed via our API, **except** for voucher refunds.
