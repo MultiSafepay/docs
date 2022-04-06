@@ -3,7 +3,7 @@ title : "Declined credit card payments"
 weight: 70
 meta_title: "Declined credit card payments - MultiSafepay Docs"
 read_more: "."
-short_description: "Understanding why credit card payments may be declined."
+short_description: "Reason codes for why a card payment was declined."
 url: '/about-payments/declined-status/'
 aliases: 
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
@@ -13,17 +13,35 @@ aliases:
     - /credit-cards-user-guide/declined-status/
 ---
 
-The table below shows possible reasons why a credit card payment may be declined. 
+This page sets out possible reasons why a credit card payment was declined. 
 
-Only the customer can contact their credit card issuer to find out the specific reason.
+Only the cardholder can contact the [issuer](/glossaries/credit-cards/#issuer) to find out the specific reason.
 
-| Transaction status | Reason | Description |
-|------- |----------|---------|
-| Declined | Transaction declined by MultiSafepay | Our automated fraud filter declined the transaction. {{< br >}} Email <support@multisafepay.com> |
-| Declined | Do not honor | The reason is not shared with MultiSafepay. {{< br >}} Only the cardholder can ask the issuer. |
-| Declined | 3D authorisation cancelled | The [3D Secure](/features/3d-secure/about/) verification was incomplete or couldn't be validated. |
-| Declined | Expired card | The credit card has expired. |
-| Declined | Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
-| Declined | Merchant only accepts 3D Secure-verified cards | Email a request to accept non-3D Secure verified cards to <risk@multisafepay.com>  |
+#### Declined by MultiSafepay 
+Our automated fraud filter flagged the transaction as probably fraudulent.  
 
-For any questions, email <support@multisafepay.com>
+Email <support@multisafepay.com> 
+
+#### Do not honor
+The issuer declined the transaction. Ask the cardholder to contact them. 
+
+#### 3D Secure authentication cancelled 
+Ask the cardholder if they want to try the transaction again. 
+
+#### Expired card
+Ask the cardholder for a new card number, and process the payment again. 
+
+**Note:** Make sure you update any recurring payments with the new card details. 
+
+#### Insufficient funds
+The card is over the holder's credit limit, or will go over if the transaction is processed.   
+
+- Ask the cardholder to contact the issuer to increase their credit limit, or pay into their account to make more credit available. Once resolved, try again. 
+- If not resolved, ask the cardholder for another card number, or use a different payment method.
+
+#### Merchant only accepts 3D Secure-authenticated cards 
+Email a request to accept non-3D Secure authenticated cards to <risk@multisafepay.com> 
+
+## See also
+[Credit card errors](/about-payments/credit-card-errors/)
+
