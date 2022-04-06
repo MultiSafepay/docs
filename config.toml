@@ -234,13 +234,6 @@ name = "Shell"
     weight = 70
 
 [[menu.main]]
-    name = "About our API"
-    url  = "/developer/api/"
-    parent = "developer"
-    identifier = "about-api"
-    weight = 710
-
-[[menu.main]]
     name = "Wrappers and SDKs"
     url  = "/developer/wrappers/"
     parent = "developer"
@@ -263,6 +256,6 @@ name = "Shell"
 
 [[menu.main]]
     name = "API Reference"
-    url  = "/api/"
+    url  = "https://docs-api.multisafepay.com/reference/introduction"
     pre = "fa fa-code fa-lg"
     weight = 80
