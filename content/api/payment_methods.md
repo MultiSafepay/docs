@@ -11,9 +11,9 @@ meta_title: "API reference - Payment method examples - MultiSafepay Docs"
 <hr class="separator">
 
 &nbsp;  
-This section contains example `POST /orders` requests for all supported payment methods, both [direct and redirect orders](/developer/direct-vs-redirect) (where relevant).
+This section contains example [create order](https://docs-api.multisafepay.com/reference/createorder) requests for all supported payment methods, both [direct and redirect orders](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) (where relevant).
 
 **Note:** All fields must be completed correctly.
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For any questions, email <integration@multisafepay.com>
 {{% /description %}}

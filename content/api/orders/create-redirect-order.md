@@ -85,7 +85,7 @@ Format: Maximum 50 characters.
 
 The gateway identifier for the payment method.  
 
-For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
+For a full list of gateway IDs, see [Payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
 
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 
@@ -114,7 +114,7 @@ HTML is **not** supported. Use the `items` or `shopping_cart` objects for this.
 `google_analytics` | object | optional
 
 Your Google Analytics site ID, which is injected into the [payment page](/payment-pages/) so you can trigger custom events and track payment metrics.  
-For more information, see [Google Analytics tracking via the API](/developer/google-analytics-tracking-api/).
+For more information, see [Google Analytics tracking via the API](https://docs-api.multisafepay.com/reference/introduction).
 
 Contains:  
 

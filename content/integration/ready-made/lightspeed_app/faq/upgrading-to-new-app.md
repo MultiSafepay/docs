@@ -31,4 +31,4 @@ To disable the core integration after migrating to the new app, follow these ste
 2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
 2. At the top of the screen, click **Disable this payment provider**.
 
-For any questions about the app, email the Integration Team at <integration@multisafepay.com>
+For any questions about the app, email <integration@multisafepay.com>

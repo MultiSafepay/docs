@@ -31,6 +31,6 @@ To report a bug or suggest an improvement, create an issue in our GitHub reposit
 
 For support:
 
-- Email the Integration Team at <integration@multisafepay.com>
+- Email <integration@multisafepay.com>
 - Post in the Magento – [MultiSafepay Slack channel](https://magentocommeng.slack.com/messages/multisafepay-payments/)
 

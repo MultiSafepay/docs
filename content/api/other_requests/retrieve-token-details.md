@@ -56,7 +56,7 @@ The unique identifier of the token.
 The unique identifier of the payment method.  
 Options: `AMEX`, `DIREB`, `DIRECTBANK`, `IDEAL`, `MAESTRO`, `MASTERCARD`, `MISTERCASH`, `VISA`. 
 
-For more information, see [Payment method gateway IDs](https://docs.multisafepay.com/developer/gateway-ids/).
+For more information, see [Payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
 
 ----------------
 `display` | string 

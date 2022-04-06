@@ -21,7 +21,7 @@ The easiest way to handle disputes is using the Disputes app in the Klarna Merch
 
 You'll receive an email from Klarna inviting you to activate your portal account. 
 
-{{< blue-notice >}} **Note:** The link expires within 7 days and is only usable once. If your link has expired or you haven't received an email, email the Support Team at <support@multisafepay.com> {{< /blue-notice >}}
+{{< blue-notice >}} **Note:** The link expires within 7 days and is only usable once. If your link has expired or you haven't received an email, email <support@multisafepay.com> {{< /blue-notice >}}
 
 1. In the email, click **Activate account**.
 2. Read the Merchant Portal Agreement, agree to the terms and conditions, and then click **Continue**.

@@ -8,4 +8,4 @@ aliases:
     - /integrations/ecommerce-integrations/craftcommerce/faq/craft-commerce-2-support/
     - /payments/integrations/ecommerce-platforms/craftcommerce/faq/support-for-craft-commerce-2/
 ---
-For support for Craft Commerce 2, email the Integration Team at <integration@multisafepay.com>  
+For support for Craft Commerce 2, email <integration@multisafepay.com>  

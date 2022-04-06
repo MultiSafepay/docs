@@ -131,7 +131,7 @@ The payment amount in the currency's smallest unit:
 
 The gateway identifier for the payment method. 
 
-For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
+For a full list of gateway IDs, see [Payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
  
 To retrieve gateway IDs, see [Gateways](/api/#gateways).
 

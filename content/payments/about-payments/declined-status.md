@@ -19,11 +19,11 @@ Only the customer can contact their credit card issuer to find out the specific 
 
 | Transaction status | Reason | Description |
 |------- |----------|---------|
-| Declined | Transaction declined by MultiSafepay | Our automated fraud filter declined the transaction. {{< br >}} Email the Support Team at <support@multisafepay.com> |
+| Declined | Transaction declined by MultiSafepay | Our automated fraud filter declined the transaction. {{< br >}} Email <support@multisafepay.com> |
 | Declined | Do not honor | The reason is not shared with MultiSafepay. {{< br >}} Only the cardholder can ask the issuer. |
 | Declined | 3D authorisation cancelled | The [3D Secure](/features/3d-secure/about/) verification was incomplete or couldn't be validated. |
 | Declined | Expired card | The credit card has expired. |
 | Declined | Insufficient funds | The customer has insufficient credit on their card to complete the payment. |
-| Declined | Merchant only accepts 3D Secure-verified cards | Email a request to accept non-3D Secure verified cards to the Risk Team at <risk@multisafepay.com>  |
+| Declined | Merchant only accepts 3D Secure-verified cards | Email a request to accept non-3D Secure verified cards to <risk@multisafepay.com>  |
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

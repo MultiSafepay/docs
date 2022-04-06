@@ -53,7 +53,7 @@ When a customer places an order, goes to the checkout page, doesn't complete pay
 
 Cancelling the first order does **not** suppress Second Chance emails.
 
-To suppress Second Chance emails, send a `PATCH /orders` request containing the following parameters:
+To suppress Second Chance emails, send a [cancel order](https://docs-api.multisafepay.com/reference/updateorder) request containing the following parameters:
 ``` 
 "status": "cancelled",
 "exclude_order": 1

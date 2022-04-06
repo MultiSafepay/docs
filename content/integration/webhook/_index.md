@@ -1,14 +1,17 @@
 ---
 title : "Webhook"
 meta_title: "Webhook - MultiSafepay Docs"
-weight: 3
+weight: 40
 read_more: "."
-logo: '/svgs/Wrappers.svg'
-url: '/developer/webhooks/'
+layout: single
+logo: '/svgs/General.svg'
+url: '/integration/webhooks/'
+short_description: 'Receive updates about orders and other notifications.'
 aliases:
     - /faq/api/how-does-the-notification-url-work
     - /faq/api/notification-url
     - /developer/api/notification-url
+    - /developer/webhooks/
 ---
 
 MultiSafepay uses a webhook to send you updates about orders and other notifications.
@@ -22,7 +25,7 @@ The webhook is triggered when the [order or transaction status](/about-payments/
 
 MultiSafepay uses HTTPS to send notifications securely to the webhook endpoint configured for your web server.
 
-Our webhook uses the POST method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
+Our webhook uses the `POST` method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
 
 {{< mermaid class="text-center" >}}
 

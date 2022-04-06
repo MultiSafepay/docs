@@ -26,7 +26,7 @@ If you change the order status in your [backend](/glossaries/multisafepay-glossa
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
-For other ready-made integrations, you can update the status via our API by making a `PATCH /orders` request. See API reference – [Update an order](/api/#update-an-order).
+For other ready-made integrations, you can update the status via our API. See API reference – [Update order](https://docs-api.multisafepay.com/reference/updateorder).
 
 **Note:** Some third-party plugins may not support updating the status via our API. 
 

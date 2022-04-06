@@ -47,7 +47,7 @@ HMAC key: `8HHhGgRWrA3O7NswjmgwyH7buPPCGnR5AkwAQyqI`
 SHA512 hash: `06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93`
 {{< /details >}}
 
-    Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's. For a list of MultiSafepay's IP addresses, email the Integration Team at <integration@multisafepay.com>
+    Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's. For a list of MultiSafepay's IP addresses, email <integration@multisafepay.com>
 
 ## Sample code
 

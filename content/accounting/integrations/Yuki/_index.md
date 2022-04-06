@@ -45,5 +45,5 @@ For more information, see Yuki - [Create bank processing rule](https://support.y
 
 {{< /details >}}
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
 

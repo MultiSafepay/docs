@@ -56,4 +56,4 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 
 ## Support
 
-Email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
