@@ -21,7 +21,7 @@ To check the payment method settings for your MultiSafepay account, email <suppo
 
 #### Error 1001: Invalid amount
 
-The [create order](https://docs-api.multisafepay.com/reference/createorder) request contained an invalid amount.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid amount.
 
 All amounts must be given in cents, e.g. 10 EUR = 1000 **not** 10,00. The minimum transaction amount we can process is 1 euro cent (0.01 EUR).
 

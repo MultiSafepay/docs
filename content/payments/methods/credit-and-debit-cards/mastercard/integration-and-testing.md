@@ -21,5 +21,5 @@ aliases:
 
 ## Testing
 
-See [Test payment details](/testing/test-payment-details/#banking-methods).
+See [Test payment details](/testing/test-payment-details/#credit-and-debit-cards).
 

@@ -46,8 +46,6 @@ To complete the configuration, change the language encoding setting of your PayP
 6. Select the **Yes** checkbox.
 7. Click **Save**.
 
-For support or if any steps are inaccurate, email <integration@multisafepay.com>
-
 {{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
 
 For support or if any steps are inaccurate, email <integration@multisafepay.com>

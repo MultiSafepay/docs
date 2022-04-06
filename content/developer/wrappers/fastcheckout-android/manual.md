@@ -306,19 +306,19 @@ sdk.setStyles(styles);
 ```
 ### SDK snapshots
 
-1. The following snapshots walk you through some of features offered by the Fastcheckout Android/iOS SDK. 
+1. The following snapshots walk you through some of the features offered by the Fastcheckout Android/iOS SDK. 
     * Logging in with a registered email: 
         
       {{< zoom_able class="img-size zoomable" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
 
-    * Logging in with an unregistered email automatically takes the custer to the **Register** screen: 
+    * Logging in with an unregistered email automatically takes the customer to the **Register** screen: 
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-3.png" title="screenshot 3">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-4.png" title="screenshot 4">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-5.png" title="screenshot 5">}}
 
-    * If the customer is registered and resets their email account, the SDK automatically sends a new security code to new email provided: 
+    * If the customer is registered and resets their email account, the SDK automatically sends a new security code to the new email provided: 
 
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-6.png" title="screenshot 6">}}
       {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-7.png" title="screenshot 7">}}

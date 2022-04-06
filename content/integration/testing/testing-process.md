@@ -56,7 +56,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 
 {{< details title="Supported payment methods" >}}
 
-You can test refunds for the following methods:
+You can test cancelling orders for the following methods:
 
 - Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Wallets: Alipay, PayPal
