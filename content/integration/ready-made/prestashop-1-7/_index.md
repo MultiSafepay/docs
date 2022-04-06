@@ -140,6 +140,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
+5. Clear your cache.
 
 Please always make sure to clean your cache after installing to prevent any issues.
 
