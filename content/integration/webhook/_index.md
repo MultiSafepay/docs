@@ -11,7 +11,7 @@ aliases:
     - /faq/api/how-does-the-notification-url-work
     - /faq/api/notification-url
     - /developer/api/notification-url
-    - /developer/webhooks/
+    - /integration/webhooks/
 ---
 
 MultiSafepay uses a webhook to send you updates about orders and other notifications.

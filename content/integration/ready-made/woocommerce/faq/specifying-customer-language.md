@@ -18,10 +18,7 @@ Our plugin sets the language for payment pages and messages based on the locale 
 
 To change this behavior, use the `multisafepay_customer_locale` filter hook in our plugin.
 
-Ask your developer to read:
-
-- WordPress Developer Resources - [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
-- MultiSafepay Docs - [Locale](https://docs.multisafepay.com/faq/api/locale/)
+Ask your developer to read WordPress Developer Resources - [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
 &nbsp;
 
 Example implementation: 
