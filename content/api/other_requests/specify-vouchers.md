@@ -63,7 +63,7 @@ An array of gateway identifiers for the gift cards to display to the customer.
 If empty, no gift cards display.  
 If not included, then all activated gift cards display.
     
-For a full list of gateway IDs, see [Payment method gateway IDs](/developer/gateway-ids/).
+For a full list of gateway IDs, see [Payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
 
 ------------------
 `disabled` | boolean | optional
