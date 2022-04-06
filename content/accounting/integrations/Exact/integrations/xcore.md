@@ -33,4 +33,4 @@ For more information, see xCore - [Afletteren MultiSafepay met Exact Globe](http
 
 ## Support
 
-For questions about integrating the apps with MultiSafepay, email the Support Team at <support@multisafepay.com>
+For questions about integrating the apps with MultiSafepay, email <support@multisafepay.com>

@@ -31,7 +31,7 @@ To import a MultiSafepay Accountant export, see e-Boekhouden – [Contact](https
 
 {{< /details >}}
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
 
 ## Payment links
 

@@ -70,9 +70,12 @@
       },
       {
         "pattern": "https://postepay\\.poste\\.it.*"
+      },
+      {
+        "pattern": "https://registreermijnwebsite\\.edenred\\.be.*/"
       }
     ],
-  "timeout": "60s",
+  "timeout": "120s",
   "retryOn429": true,
   "aliveStatusCodes": [200, 206, 999]
 }

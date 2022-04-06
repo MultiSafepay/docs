@@ -61,7 +61,7 @@ To import at MT940 report into Twinfield, follow these steps:
 7. In **Cash & Banks**, select **Drag and drop bank statements or Browse**.
 8. Upload the MultiSafepay MT940 file.
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
 
 For a free 30-day trial including all accounting functions, see Twinfield - [Proef abonnement aanvragen](https://e.wolterskluwer.com/proefabonnement-aanvragen).
 

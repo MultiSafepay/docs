@@ -21,7 +21,7 @@ aliases:
 
 Free app by EasyWebshop to integrate MultiSafepay payment solutions into your webshop.
 
-For integration support, email the Integration Team at <integration@multisafepay.com>
+For integration support, email <integration@multisafepay.com>
 
 For other support, see EasyWebshop – [Contact](https://www.easywebshop.com/software/contact). 
 

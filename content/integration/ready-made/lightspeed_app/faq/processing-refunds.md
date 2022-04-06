@@ -51,4 +51,4 @@ Example: A shopping cart contains 3 items for a total of 1.70 EUR. If you refund
 
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For any questions, email <integration@multisafepay.com>

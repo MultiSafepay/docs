@@ -30,7 +30,7 @@ To import a MultiSafepay Accountant export, see AFAS - [Contact](https://www.afa
 
 {{< /details >}}
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
 
 ## Third-party integrations
 

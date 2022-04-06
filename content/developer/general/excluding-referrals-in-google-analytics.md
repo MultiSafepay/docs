@@ -89,6 +89,6 @@ In your code, the parameter should look like this: ```$this→_redirect('checkou
 
 Make sure you do this for all links from the payment gateway to your website.
 
-For more information, email the Integration Team at <integration@multisafepay.com>
+For more information, email <integration@multisafepay.com>
 
 **Note:** Our plugins for Magento 1 and 2 do this automatically. 

@@ -19,7 +19,7 @@ aliases:
 
 {{< activate_payment_method name="CBC/KBC" >}}
 
-{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> {{< /alert-notice >}}
 
 
 

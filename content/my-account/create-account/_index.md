@@ -57,5 +57,5 @@ You receive an email containing your **security code**.
 
 **4.** For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/getting-started/go-live/).  
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>
 

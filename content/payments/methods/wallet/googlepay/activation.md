@@ -34,6 +34,6 @@ Once approved, to activate credit card payments and Google Pay for your MultiSaf
 
 5. Click **Save changes**.
 
-{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> {{< /alert-notice >}}
 
 To process Google Pay direct payments, you need a Google My Business account. For more information, see [Google Pay direct integration](/payment-methods/google-pay/direct/).
