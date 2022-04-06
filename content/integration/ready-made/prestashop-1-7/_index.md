@@ -160,4 +160,4 @@ To upgrade to version 5.x from an older version, follow these steps:
 4. Install and configure the new plugin following the instructions below.
 5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
-If you are upgrading from 5.x to a newer version, please check [Updating the plugin](/prestashop-1-7/updates)
+If upgrading from 5.x to a newer version, see [Updating the plugin](/prestashop-1-7/updates).
