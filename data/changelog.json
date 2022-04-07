@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "Apr 6, 2022",
+            "change": "Updated [API reference](https://docs-api.multisafepay.com/reference/introduction)"
+        },
+        {
             "date": "Mar 14, 2022",
             "change": "[Bancontact WIP Service](/payment-methods/bancontact/overview/#bancontact-wip-service)"
         },
