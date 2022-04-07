@@ -6,6 +6,10 @@
             "change": "Updated [API reference](https://docs-api.multisafepay.com/reference/introduction)"
         },
         {
+            "date": "Apr 5, 2022",
+            "change": "[Credit card errors](/about-payments/credit-card-errors/)"
+        },
+        {
             "date": "Mar 14, 2022",
             "change": "[Bancontact WIP Service](/payment-methods/bancontact/overview/#bancontact-wip-service)"
         },
