@@ -13,7 +13,7 @@ As a [payment service provider](/glossaries/multisafepay-glossary/#payment-servi
 
 We must account for risk and potential reputational damage. Therefore, we prohibit the sale of some products and services, or require additional information from the merchant.
 
-For a list of prohibited products and services, email the Sales Team at <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
+For a list of prohibited products and services, email <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
 
 ### Erotica
 - Erotic and pornographic images

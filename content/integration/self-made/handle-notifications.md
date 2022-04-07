@@ -53,7 +53,7 @@ If for some reason you don't receive a notification:
 2. Click <img src='/img/offline-actions-webhookendpoint.png'> and check that the URL displayed is the correct webhook endpoint.
 3. If the webhook endpoint is correct, click <img src='/img/offline-actions-resend.png'> to resend the notification.
 
-If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email the Integration Team at <integration@multisafepay.com>
+If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
 You have successfully configured your web server to handle notifications received from our webhook.
 

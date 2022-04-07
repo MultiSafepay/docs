@@ -64,7 +64,7 @@ For how to activate gift cards, see [Gift cards](/payment-methods/gift-cards).
 
 For support:
 
- - Email the Integration Team at <integration@multisafepay.com> 
+ - Email <integration@multisafepay.com> 
  - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
 ## Updates 

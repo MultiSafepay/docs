@@ -23,6 +23,6 @@ To activate the payment component in your PrestaShop 1.7 [backend](/glossaries/m
 3. Slide the **Enable payment component** radio button to **Enabled**.
 4. Click **Save config**.
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 
 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

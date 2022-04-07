@@ -16,7 +16,7 @@ You can process payments in a large number of currencies, provided that they are
 
 - Supported by the specific payment method.
 - Enabled in your [MultiSafepay account](https://merchant.multisafepay.com) and in the settings of any [ready-made integrations](/integrations/ready-made/).
-- Correctly processed in the transaction [API request](/api/#orders).
+- Correctly processed in the [create order](https://docs-api.multisafepay.com/reference/createorder) API request.
 
 ## Payment methods
 
@@ -49,7 +49,7 @@ Credit and debit cards support:
 For decimal currencies, you provide the amount in cents, e.g. value for 10 EUR = **1000**.  
 For zero-decimal currencies, provide the whole value only, i.e. value for ¥10 = **10**. {{< /blue-notice >}}
 
-For credit and debit cards, we can potentially support additional currencies on request. Email the Support Team at <support@multisafepay.com> 
+For credit and debit cards, we can potentially support additional currencies on request. Email <support@multisafepay.com> 
 
 ## Payouts
 
@@ -68,7 +68,7 @@ You can make [payouts](/account/payouts/) in:
 
 To view the currencies currently enabled for your account, in your dashboard go to **Finance > Balance**.
 
-To enable new currencies, email the Support Team at <support@multisafepay.com>
+To enable new currencies, email <support@multisafepay.com>
 
 You must also add a [business bank account](/account/business-bank-accounts/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
 
@@ -84,4 +84,4 @@ To convert other currencies to Euros (EUR) in your [MultiSafepay dashboard](http
 
 Take into account the exchange rate and/or any other costs.
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

@@ -85,7 +85,7 @@ Payments are processed in the webshop's default currency only.
 
 Our Shopify app is unavailable in Norway and Finland. 
 
-For more information, email the Integration Team at <integration@multisafepay.com>
+For more information, email <integration@multisafepay.com>
 
 {{< /details >}}
 

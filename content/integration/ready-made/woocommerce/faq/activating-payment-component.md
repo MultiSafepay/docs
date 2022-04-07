@@ -23,6 +23,6 @@ To activate the payment component in your Wordpress - WooCommerce [backend](/glo
 3. Select the **Payment components** checkbox.
 4. Click **Save changes**.
 
-For questions, email the Integration Team at <integration@multisafepay.com>
+For questions, email <integration@multisafepay.com>
 
 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

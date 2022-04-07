@@ -17,11 +17,11 @@ This page lists errors you may encounter in transaction responses or statuses, o
 
 The payment method is disabled or unavailable.
 
-To check the payment method settings for your MultiSafepay account, email the Support Team at <support@multisafepay.com>
+To check the payment method settings for your MultiSafepay account, email <support@multisafepay.com>
 
 #### Error 1001: Invalid amount
 
-The `POST /orders` request contained an invalid amount.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid amount.
 
 All amounts must be given in cents, e.g. 10 EUR = 1000 **not** 10,00. The minimum transaction amount we can process is 1 euro cent (0.01 EUR).
 
@@ -33,48 +33,46 @@ For help identifying currencies, see [ISO-4217](https://www.iso.org/iso-4217-cur
 
 #### Error 1003: Invalid account ID
 
-The `POST /orders` request contains an invalid account ID.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid account ID.
 
 Check that your account ID was properly formatted, e.g. fix typing errors and remove blank spaces. Your account ID appears in the top-right corner of your MultiSafepay account.
 
 #### Error 1004: Invalid site ID
 
-The `POST /orders` request contains an invalid site ID, or the site ID provided doesn’t match the account ID. 
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid site ID, or the site ID provided doesn’t match the account ID. 
 
 To retrieve a site ID from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant website.
 
 #### Error 1005: Invalid secure code
 
-The `POST /orders` request contains an invalid secure code, or the secure code doesn't match the account ID or site ID provided. 
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid secure code, or the secure code doesn't match the account ID or site ID provided. 
 
 To retrieve a secure code from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant website.
 
 #### Error 1006: Invalid transaction ID
 
-The `POST /orders` request contains an invalid transaction ID. 
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid transaction ID. 
 
 The transaction ID provided must be unique. The transaction ID you provided may have already been used for a completed transaction for that website (site ID). Consider creating a new website profile in your MultiSafepay dashboard.
 
 #### Error 1007: Invalid IP address
 
-The `ip_address` or `forwarded_ip` parameters in the `POST /orders` request contains an invalid customer IP address. 
+The `ip_address` or `forwarded_ip` parameters in the [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid customer IP address. 
 
-For [pay later methods](/payment-methods/pay-later/) and [credit cards](/payment-methods/credit-debit-cards/), we check the customer's IP address as part of our [fraud check](/about-payments/uncleared-transactions/).  
-
-See API reference – [Customer object](/api/#customer-object).  
+For [pay later methods](/payment-methods/pay-later/) and [credit cards](/payment-methods/credit-debit-cards/), we check the customer's IP address as part of our [fraud check](/about-payments/uncleared-transactions/).   
 
 #### Error 1008: Invalid description
 
-The order description in the `POST /orders` request was missing or invalid.
+The order description in the [create order](https://docs-api.multisafepay.com/reference/createorder) request was missing or invalid.
 
 Enter a free text description, which appears in the order details in your MultiSafepay dashboard and on the customer’s bank statement (if supported by the customer’s bank). 
 
 Format: Max 200 characters.   
-HTML is not supported. Use the required [shopping-cart object](/api/#shopping-cart-items-object).
+HTML is not supported. Use the required `shopping_cart` object.
 
 #### Error 1010: Invalid variable
 
-The `var1`, `var2`, or `var3` parameter in the `POST /orders` request contains an invalid value.
+The `var1`, `var2`, or `var3` parameter in the [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid value.
 
 Check if the:
 
@@ -83,7 +81,7 @@ Check if the:
 
 #### Error 1011: Invalid customer account ID
 
-The customer account ID in the `POST /orders` request was invalid or missing.
+The customer account ID in the [create order](https://docs-api.multisafepay.com/reference/createorder) request was invalid or missing.
 
 Check: 
 
@@ -92,7 +90,7 @@ Check:
 
 #### Error 1012: Invalid customer security code
 
-The customer security code in the `POST /orders` request was invalid or missing.
+The customer security code in the [create order](https://docs-api.multisafepay.com/reference/createorder) request was invalid or missing.
 
 Check that the security code:
 
@@ -111,17 +109,17 @@ The MD5 signature supplied with the message doesn’t match the message contents
 
 Check your logs and your MultiSafepay dashboard message screen for other error codes that may be causing this error.
 
-For help diagnosing unspecified errors, email the Integration Team at <integration@multisafepay.com>
+For help diagnosing unspecified errors, email <integration@multisafepay.com>
 
 #### Error 1015: Account unknown
 
-The account ID in the `POST /orders` request was invalid or missing.
+The account ID in the [create order](https://docs-api.multisafepay.com/reference/createorder) request was invalid or missing.
 
 Check that the account ID is formatted correctly, e.g. fix typing errors and remove blank spaces.
 
 #### Error 1016: Missing data
 
-The `POST /orders` request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment page](/payment-pages/) link.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment page](/payment-pages/) link.
 
 Check that the site ID, secure code, and transaction ID are included.
 
@@ -133,7 +131,7 @@ Advise the customer to top up their MultiSafepay wallet.
 
 #### Error 1018: Invalid country code
 
-The country code in the `POST /orders` request was not recognized.
+The country code in the [create order](https://docs-api.multisafepay.com/reference/createorder) request was not recognized.
 
 - Check that the country code is correct.
 - Ensure you provide country codes in ISO3166-1 format.
@@ -171,7 +169,7 @@ The transaction may already exist with a third party, e.g. if an iDEAL transacti
 The gateway for the payment method is unavailable. This error can occur with direct requests.
 
 - Check whether the specified payment gateway supports direct requests.
-- Ensure a payment gateway was specified in the `POST /orders` request.
+- Ensure a payment gateway was specified in the [create order](https://docs-api.multisafepay.com/reference/createorder) request.
 - Check if the website is correctly configured for direct requests.
 
 #### Error 1024: Transaction refused
@@ -196,7 +194,7 @@ To provide the correct IP address, see Cloudflare – [Restoring original visito
 
 #### Error 1025: Only one currency allowed in shopping cart
 
-The `POST /orders` request contains multiple currencies.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains multiple currencies.
 
 Ensure all items in the shopping cart use the same currency.
 
@@ -219,14 +217,14 @@ For Pay After Delivery payments, the system checks the amount for each item, the
 
 #### Error 1028: Incorrect tax rate in rule
 
-The `POST /orders` request contains an invalid custom tax rule.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid custom tax rule.
 
 - Check that the tax rate specified was formatted correctly as #.##, e.g. 0.19.
 - Fix typing errors and remove blank spaces.
 
 #### Error 1029: Incorrect tax rate for a product
 
-Some payment methods require in the `POST /orders` request:
+Some payment methods require in the [create order](https://docs-api.multisafepay.com/reference/createorder) request:
 
 - Tax table
 - List of order items
@@ -251,7 +249,7 @@ For FastCheckout and Pay After Delivery transactions, check that the currency is
 
 #### Error 1031: Incorrect price for an item
 
-The price for an item in the shopping cart in the `POST /orders` request is incorrect. 
+The price for an item in the shopping cart in the [create order](https://docs-api.multisafepay.com/reference/createorder) request is incorrect. 
 
 Make sure all prices are correct. 
 
@@ -292,14 +290,14 @@ Check:
 - The value is formatted correctly, e.g. fix typing errors and remove blank spaces.
 - If a real bank identifier was used in the test environment, or if a test identifier was used in the live environment.
 
-See [Verify the issuing bank](/api/#gateway-issuers).
+See [List iDEAL issuers](https://docs-api.multisafepay.com/reference/listidealissuers).
 
 #### Error 5001: Cart data not validated
 
 The cart was not validated when the transaction was created, and an incorrect amount was displayed on the bank’s payment page.
 
-Email the Integration Team at <integration@multisafepay.com>
+Email <integration@multisafepay.com>
 
 #### Error 9999: Unknown error
 
-An unknown error occurred. Email the Integration Team at <integration@multisafepay.com>
+An unknown error occurred. Email <integration@multisafepay.com>

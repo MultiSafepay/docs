@@ -19,7 +19,7 @@ aliases:
 - First check that the payment method is supported. 
 - Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}} 
 
-1. Email a request to the Risk Team at <risk@multisafepay.com> with the following information:
+1. Email a request to <risk@multisafepay.com> with the following information:
     - Monthly and annual SEPA Direct Debit transaction volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method

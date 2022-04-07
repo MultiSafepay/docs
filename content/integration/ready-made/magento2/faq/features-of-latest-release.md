@@ -22,7 +22,7 @@ You can refund transactions processed through the deprecated plugin in your [Mul
 
 Under **General settings**, we have changed the following configuration fields from the deprecated plugin.
 
-If you want one of these features back, email the Integration Team at <integration@multisafepay.com>
+If you want one of these features back, email <integration@multisafepay.com>
 
 ## Emailing invoices to customers
 
@@ -69,7 +69,7 @@ We have removed this field. Now the cart is always kept alive when the customer 
 
 ## Checkout  
 
-For the following payment methods, we have changed the default payment flow from [redirect to direct](/developer/direct-vs-redirect/):
+For the following payment methods, we have changed the default payment flow from [redirect to direct](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect):
 
 - Afterpay
 - Request to Pay

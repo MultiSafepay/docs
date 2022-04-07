@@ -55,11 +55,13 @@ To discount a specific amount:
 
 ## API 
 
-See API reference:
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder).
 
-- [Discount an order](/api/#discount-an-order)
-- [Discount pay later orders](/api/#discount-pay-later-orders)
+To discount: 
+      
+- An entire order, enter a reduced `amount`. 
+- Specific items in the order, in the `shopping_cart`, reduce the `unit_price` of the relevant items.
 
 ## Support
 
-Email the Support Team at <support@multisafepay.com>
+For support, email <support@multisafepay.com>
