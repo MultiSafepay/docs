@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/wallet/alipay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,17 +23,16 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Alipay at checkout
-    Mu->>C: Connects to Alipay (direct/redirect)
-    C->>A: Completes payment
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page
+    else Direct flow
+    Mu->>A: Payment is processed with Alipay
+    end
     A->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The payment is processed directly with Alipay. | 
-| **Redirect flow** | The customer is briefly redirected to a [payment page](/payment-pages/) before the payment is processed directly with Alipay. |
 
 ## Payment statuses
 

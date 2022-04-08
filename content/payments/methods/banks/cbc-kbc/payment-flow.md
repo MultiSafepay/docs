@@ -14,7 +14,7 @@ aliases:
     - /payments/methods/banks/cbc-kbc/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 

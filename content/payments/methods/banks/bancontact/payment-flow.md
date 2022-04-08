@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/banks/bancontact-qr/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 

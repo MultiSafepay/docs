@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,12 +24,14 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects in3 at checkout
-    Mu->>C: Connects to in3 (direct/redirect)
-    C->>I: Selects their bank, accepts the payment periods, and terms & conditions
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page <br> to provide their birth date, title, and phone number, <br> and then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects customer to in3 to select their bank, <br> and accept the payment periods and terms & conditions
+    end
     I->>Mu: Authorizes the payment
     Mu->>I: Captures the funds
-    C->>I: Pays 1st instalment within 5 mins
-    Note over C,I: Settlement is now guaranteed!
+    C->>I: Pays 1st instalment within 5 mins <br> Settlement is now guaranteed.
     Me->>C: Ships the order 
     I->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 15 days of 1st instalment)

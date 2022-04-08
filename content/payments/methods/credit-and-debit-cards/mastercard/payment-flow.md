@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/mastercard/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 

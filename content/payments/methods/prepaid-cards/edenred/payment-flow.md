@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/prepaid-cards/edenred/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -22,14 +22,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Edenred at checkout
-    Mu->>C: Connects to Edenred (redirect)
-    C->>E: Authenticates account, authorizes MultiSafepay access
-    E->>Mu: Confirms authorization and sufficient funds on voucher
+    Mu->>C: Redirects customer to payment page <br> to select the relevant voucher, <br> and then to their Edenred account
+    C->>E: Authenticates account, <br> authorizes MultiSafepay access
+    E->>Mu: Confirms authorization <br> and sufficient funds on voucher
     E->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected first to a [payment page](/payment-pages/) to select the relevant voucher, and then to their Edenred account. 
 
 ## Payment statuses
 

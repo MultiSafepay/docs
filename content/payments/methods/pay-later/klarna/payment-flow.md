@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/billing-suite/klarna/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,24 +23,22 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Klarna at checkout
-    Mu->>C: Connects to Klarna (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page <br> to provide their birth date, email address, and phone number, <br> and accept the terms & conditions, <br> and then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects customer to Klarna
+    end
     K->>Mu: Authorizes the payment
-    Mu->>K: Captures the funds
-    Note over Mu,K: Settlement is now guaranteed!
+    Mu->>K: Captures the funds (settlement is now guaranteed)
     Me->>C: Ships the order (within 28 days, or extend the shipping period)
-    Note over Me,C: Manually change the order status to Shipped! 
-    K->>C: Sends invoice 
-    Note over K,C: You can customize the invoice. 
+    Note over Me,C: Manually change the order status to Shipped. 
+    K->>C: Sends invoice (you can customize the invoice) 
     C->>K: Completes payment with preferred payment method
     K->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 21 days)
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to Klarna. | 
-| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to provide their birth date, email address, and phone number, and accept the term and conditions. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 

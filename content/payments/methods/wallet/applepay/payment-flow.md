@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/wallet/applepay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,13 +24,17 @@ sequenceDiagram
     participant Me as Merchant
     
     C->>Mu: Selects Apple Pay at checkout
-    Mu->>C: Connects to Apple Pay (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page, <br> and then to Apple
+    else Direct flow
+    Mu->>C: Redirects customer to Apple
+    end
     C->>A: Authorizes payment on an iOS device with Touch ID or Face ID
-    alt is Direct integration
+    alt Direct integration
     A->>Me: Sends the customer's payment details as an encrypted token
-    Me->>Mu: Sends the customer's payment details as an encrypted token
-    else is Redirect integration
-    A->>Mu: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends token
+    else Redirect integration
+    A->>Mu: Sends token
     end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
@@ -39,12 +43,7 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer selects Apple Pay and completes payment on your checkout page. | 
-| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) and then to Apple to complete payment. | 
+&nbsp;   
 
 For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 

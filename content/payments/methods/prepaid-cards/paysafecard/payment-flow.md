@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/prepaid-cards/paysafecard/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,14 +23,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects a Paysafecard at checkout
-    Mu->>C: Connects to Paysafecard (redirect)
-    C->>P: Enters card PIN and completes payment
+    Mu->>C: Redirects customer to payment page
+    C->>P: Enters 16-digit card PIN and completes payment
     P->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter the 16-digit PIN on the card. 
 
 ## Payment statuses
 

@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/prepaid-cards/gift-cards/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,7 +23,7 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects a gift card at checkout
-    Mu->>C: Redirects to payment page
+    Mu->>C: Redirects customer to payment page
     C->>G: Enters gift card details and completes payment
     G->>Mu: Processes payment and transfers funds 
     Mu->>Me: Settles funds

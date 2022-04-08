@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/pay-later/afterpay/user-guide/changing-order-status-to-shipped/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,23 +24,22 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects AfterPay at checkout
-    Mu->>C: Connects to AfterPay (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page to accept the terms & conditions <br> and provide their email address, date of birth, and phone number, <br> and then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects customer to AfterPay
+    end
     A->>Mu: Authorizes the payment
     Mu->>A: Captures the funds
     Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped! 
-    A->>C: Sends invoice (standard period of 14 days) 
-    Note over A,C: Settlement is now guaranteed!
+    Note over Me,C: Manually change the order status to Shipped. 
+    A->>C: Sends invoice (standard period of 14 days) <br> Settlement is now guaranteed.
     C->>A: Completes payment with preferred method
     A->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to AfterPay. | 
-| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to accept the terms and conditions and provide their birth date, email address, and phone number. {{< br >}} They are then redirected to your success page. |
 
 ## Payment statuses
 

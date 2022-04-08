@@ -9,7 +9,7 @@ url: '/payment-methods/google-pay/payment-flow'
 noindex: '.'
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,13 +23,17 @@ sequenceDiagram
     participant CB as Customer's bank
     
     C->>Mu: Selects Google Pay at checkout
-    Mu->>C: Connects to Google Pay (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page, <br> and then to Google account
+    else Direct flow
+    Mu->>C: Redirects customer to Google account
+    end
     C->>G: Completes payment 
-    alt is Direct integration
+    alt Direct integration
     G->>Me: Sends the customer's payment details as an encrypted token
-    Me->>Mu: Sends the customer's payment details as an encrypted token
-    else is Redirect integration
-    G->>Mu: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends token
+    else Redirect integration
+    G->>Mu: Sends token
     end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
@@ -39,11 +43,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their Google account. | 
-| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/). They click the Google Pay button and are redirected to their Google account to complete payment. | 
 
 For more information about the Google Pay™ payment flow, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
 

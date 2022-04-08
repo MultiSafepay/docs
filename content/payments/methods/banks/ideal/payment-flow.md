@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/ideal/payment-flow/
     - /payments/methods/banks/idealqr/payment-flow/
 ---
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 

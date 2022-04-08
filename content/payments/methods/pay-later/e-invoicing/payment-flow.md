@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/billing-suite/e-invoicing/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -22,13 +22,16 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects E-Invoicing at checkout
-    Mu->>C: Connects to MultiFactor (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page to provide <br> birth date, bank account, email address, and phone number, <br> and then redirects to your success page
+    else Direct flow
+    Mu->>MF: Sends order details
+    end
     MF->>Mu: Authorizes the payment
     Mu->>MF: Captures the funds
     Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped! 
-    MF->>C: Sends invoice 
-    Note over MF,C: Settlement is now guaranteed!
+    Note over Me,C: Manually change the order status to Shipped. 
+    MF->>C: Sends invoice. Settlement is now guaranteed.
     C->>MF: Completes payment 
     MF->>Mu: Transfers funds 
     Mu->>Me: Settles funds

@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/wallet/paypal/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,17 +23,16 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects PayPal at checkout
-    Mu->>C: Connects to PayPal (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer to payment page, <br> and then to their PayPal account
+    else Direct flow
+    Mu->>C: Redirects customer to their PayPal account
+    end
     C->>P: Authenticates account, completes payment 
     P->>Me: Settles funds in your <br> PayPal business account
 
 {{< /mermaid >}}
 &nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their PayPal account. | 
-| **Redirect flow** | The customer is redirected briefly to a [payment page](/payment-pages/) and then to PayPal. | 
 
 **Note:** MultiSafepay does **not** collect funds for PayPal transactions.
 

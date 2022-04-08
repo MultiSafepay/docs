@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/billing-suite/betaalpermaand/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -22,25 +22,24 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Betaal per Maand at checkout
-    Mu->>C: Connects to Santander (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects customer briefly to payment page, <br> and then to Santander
+    else Direct flow
+    Mu->>C: Redirects customer to Santander
+    end
     S->>Mu: Authorizes the payment
     Mu->>S: Captures the funds
-    Me->>C: Ships the order
+    Me->>C: Ships the order and manually changes status to Shipped
     Note over Me,C: Manually change the order status to Shipped. 
     Me->>Mu: Provides track & trace code
     Mu->>S: Forwards track & trace code 
-    S->>C: Sends invoice 
-    Note over S,C: Settlement is now guaranteed!
+    S->>C: Sends invoice. Settlement is now guaranteed.
     C->>S: Selects payment period and method, and completes payment 
-    S->>Mu: Transfers funds within 5 business days <br> of order status changing to Shipped
+    S->>Mu: Transfers funds within 5 business days <br> of changing order status to Shipped
     Mu->>Me: Settles funds within 5 business days
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to Santander. | 
-| **Redirect flow** | The customer is briefly redirected to a [payment page](/payment-pages/) and then to Santander. | 
 
 ## Payment statuses
 
