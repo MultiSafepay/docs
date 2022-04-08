@@ -1,6 +1,9 @@
 ---
 title: 'Create a free test account'
 breadcrumb_title: 'Create a free test account'
+url: '/create-test-account/'
+aliases:
+    - /getting-started/create-a-test-account/
 weight: 10
 meta_title: "Create a test account - MultiSafepay Docs"
 read_more: "."
