@@ -1,9 +1,6 @@
 ---
 title: 'Create a free test account'
 breadcrumb_title: 'Create a free test account'
-url: '/create-test-account/'
-aliases:
-    - /getting-started/create-a-test-account/
 weight: 10
 meta_title: "Create a test account - MultiSafepay Docs"
 read_more: "."
@@ -11,6 +8,9 @@ logo: '/svgs/Zero_Authorization.svg'
 layout: 'single'
 weight: 10
 short_description: "Create a free MultiSafepay test account."
+url: '/create-test-account/'
+aliases:
+    - /getting-started/create-a-test-account/
 ---
 
 Create a free MultiSafepay test account to test your integration, preferred payment methods, and our solutions and features. 
@@ -21,7 +21,7 @@ Create a free MultiSafepay test account to test your integration, preferred paym
 
 For support, email <support@multisafepay.com>
 
-For more information about account types and creating a live account, see [Creating an account](/account/create-account/s).
+For more information about account types and creating a live account, see [Creating an account](/account/create-account/).
 
 {{< two-buttons
 href-1="/getting-started/" header-1="Overview" text-1="Getting started" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
