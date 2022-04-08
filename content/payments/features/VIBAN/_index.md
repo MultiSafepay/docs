@@ -7,9 +7,9 @@ layout: 'single'
 short_description: "Collect bank transfers and direct debits in your own bank account."
 url: '/features/virtual-ibans/'
 ---
-A virtual international bank account number (VIBAN) removes MultiSafepay branding from the customer experience for [Bank Transfer](/payment-methods/bank-transfer/) and [SEPA Direct Debit]((/payment-methods/sepa-direct-debit/)), and helps you better manage payments. 
+A virtual international bank account number (VIBAN) in your company name removes MultiSafepay branding from the customer experience for [Bank Transfer](/payment-methods/bank-transfer/) and [SEPA Direct Debit]((/payment-methods/sepa-direct-debit/)), and helps you better manage payments. 
 
-A VIBAN is a dummy IBAN number in your company name. It is not connected to an actual bank account and simply routes incoming funds to MultiSafepay's account to collect. However, MultiSafepay's name no longer appears in payment instructions or on customer bank statements.   
+A VIBAN isn't connected to an actual bank account and simply routes incoming funds to MultiSafepay's account to collect. However, MultiSafepay's name no longer appears in payment instructions or on customer bank statements.   
 
 ## How it works
 
@@ -21,9 +21,9 @@ You can link a VIBAN to your MultiSafepay account, or to a specific site.
 
 VIBANs can only be used for transactions in EUR.
 
-### Refunds and payouts
+### Refunds
 
-You can also make [refunds](/refunds/) and [payouts](/account/payouts/) using your VIBAN and manage them from your MultiSafepay dashboard. Your company name appears on bank statements instead of MultiSafepay's name.
+You can also make [refunds](/refunds/) using your VIBAN, and manage them from your MultiSafepay dashboard. Your company name appears on bank statements instead of MultiSafepay's name.
 
 You need to request this functionality when applying for your VIBAN.
 
