@@ -23,19 +23,18 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Bank Transfer at checkout (direct/redirect)
-    Mu->>C: Emails MultiSafepay's bank account details
-    Note over Mu,C: Or email the details yourself
+    alt Direct flow
+    Mu->>C: Redirects customer to your success page, <br> emails payment instructions
+    Note over Mu,C: Or email the instructions yourself
+    else Redirect flow
+    Mu->>C: Redirects customer to payment page <br> to confirm their bank account number and (optionally) bank country, <br> then displays payment instructions
+    end
     C->>Mu: Transfers funds (online or with teller)
     Note over C,Mu: Takes 1–3 business days 
     Mu->>Me: Matches payment and settles funds
     
 {{< /mermaid >}}
 &nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to your success page and receives our bank details by email. | 
-| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/), where they confirm their bank account number and (optionally) bank country. {{< br >}} MultiSafepay's bank account details are then displayed. | 
 
 ## 1. Email payment details
 

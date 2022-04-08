@@ -26,17 +26,17 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects CBC/KBC at checkout
-    Mu->>C: Connects to CBC/KBC (direct/redirect)
+    alt Direct flow
+    Mu->>C: Redirects customer to their online banking environment
+    else Redirect flow
+    Mu->>C: Redirects customer to payment page, <br> and then to their online banking environment
+    end
     C->>CK: Authenticates account and completes payment
     CK->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/), and then to their online banking environment. | 
 
 ## Payment statuses
 

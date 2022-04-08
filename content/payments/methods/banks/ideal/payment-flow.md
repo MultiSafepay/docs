@@ -23,18 +23,19 @@ sequenceDiagram
     participant CB as Customer's bank
     participant Me as Merchant
 
+    alt Direct flow
+    C->>Mu: Selects iDEAL and their bank at checkout
+    Mu->>C: Redirects customer to their online banking environment
+    else Redirect flow
     C->>Mu: Selects iDEAL (QR) at checkout
-    Mu->>C: Connects to customer's bank (direct/redirect)
+    Mu->>C: Redirects customer to payment page to select their bank, <br> and then to their online banking environment
+    end
     C->>CB: Authenticates account/scans QR code and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer selects iDEAL and their bank at checkout and is redirected to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/) to select their bank, and then to their online banking environment. | 
+&nbsp;   
 
 ## Payment statuses
 

@@ -24,8 +24,8 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects Postepay at checkout
-    Mu->>C: Connects to card scheme <br> (redirect only)
-    C->>CS: Enters payment details, verifies identity with  3D Secure, <br> and completes payment
+    Mu->>C: Redirects customer to payment page
+    C->>CS: Enters payment details, authenticates, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction
     CB->>Mu: Transfers funds 
@@ -33,8 +33,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter their payment details.
 
 ## Payment statuses
 

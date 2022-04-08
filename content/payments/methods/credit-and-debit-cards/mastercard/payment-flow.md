@@ -24,8 +24,8 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects Mastercard at checkout
-    Mu->>C: Connects to Mastercard (redirect only)
-    C->>Ma: Enters payment details, verifies identity, <br> and completes payment
+    Mu->>C: Redirects customer to payment page
+    C->>Ma: Enters payment details, authenticates, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes payment
     CB->>Mu: Transfers funds 
@@ -33,9 +33,7 @@ sequenceDiagram
        
 
 {{< /mermaid >}}
-&nbsp;  
-
-**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter their payment details. 
+&nbsp;   
 
 ## Payment statuses
 

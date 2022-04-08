@@ -24,8 +24,8 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects American Express at checkout
-    Mu->>C: Connects to American Express (redirect only)
-    C->>A: Enters payment details, verifies identity, <br> and completes payment
+    Mu->>C: Redirects customer to payment page
+    C->>A: Enters payment details, authenticates, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction
     alt MultiSafepay collects
@@ -39,7 +39,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter their payment details. 
 
 ## Payment statuses
 

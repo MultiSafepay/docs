@@ -24,7 +24,11 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Request to Pay at checkout
-    Mu->>C: Connects to Deutsche Bank (direct/redirect)
+    alt Direct flow
+    Mu->>C: Redirects customer to their online banking environment
+    else Redirect flow
+    Mu->>C: Redirects customer to payment page to select their bank, <br> and then to their online banking environment
+    end
     C->>D: Authenticates account and authorizes SEPA bank transfer
     D->>Mu: Transfers funds 
     Note over D,Mu: Within 24 hours <br> (if Instant SEPA not supported)
@@ -32,10 +36,6 @@ sequenceDiagram
     
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [payment page](/payment-pages/), and then to their online banking environment. |
 
 ## Payment statuses
 

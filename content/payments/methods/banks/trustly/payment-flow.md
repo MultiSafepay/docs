@@ -23,14 +23,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Trustly at checkout
-    Mu->>C: Connects to customer's bank (redirect only)
+    Mu->>C: Redirects customer to payment page <br> to select their country and bank, <br> and then to their online banking environment
     C->>CB: Authenticates account and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
-**Redirect flow**: The customer is redirected first to a [payment page](/payment-pages/) to select their country and bank, and then to their online banking environment. 
+&nbsp;   
 
 ## Payment statuses
 

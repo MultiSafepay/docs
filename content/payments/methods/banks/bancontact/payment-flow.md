@@ -25,15 +25,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Bancontact (QR) at checkout
-    Mu->>C: Connects to customer's bank (redirect only)
+    Mu->>C: Redirects customer to payment page to select their bank, and then to their online banking
     C->>CB: Authenticates account/scans QR code and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds 
 
 {{< /mermaid >}}
 &nbsp;  
-
-**Redirect flow:** The customer is redirected first to a [payment page](/payment-pages/) to select their bank, and then to their online banking environment.
 
 ## Payment statuses
 

@@ -24,7 +24,7 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects Visa at checkout
-    Mu->>C: Connects to Visa (redirect only)
+    Mu->>C: Redirects customer to payment page
     C->>V: Enters payment details, verifies identity, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction
@@ -34,8 +34,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter their payment details. 
 
 ## Payment statuses
 
