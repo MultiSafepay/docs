@@ -24,7 +24,7 @@ sequenceDiagram
 
     C->>Mu: Selects Alipay at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page
+    Mu->>C: Redirects to payment page
     else Direct flow
     Mu->>A: Payment is processed with Alipay
     end
@@ -46,18 +46,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Alipay. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer didn't complete payment within 5&nbsp;hours, or it was cancelled. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+|**Refunds**|||
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed      | Completed   |
 
 
 

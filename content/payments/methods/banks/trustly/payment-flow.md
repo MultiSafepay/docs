@@ -23,7 +23,7 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Trustly at checkout
-    Mu->>C: Redirects customer to payment page <br> to select their country and bank, <br> and then to their online banking environment
+    Mu->>C: Redirects to payment page <br> to select their country and bank, <br> then to online banking
     C->>CB: Authenticates account and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
@@ -43,21 +43,17 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction at their bank. | Cancelled   | Cancelled   |
 | The customer didn't complete payment within 2 days. | Expired | Expired |
 | In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is complete. | Completed | Completed |
-| The refund was declined. | Declined | Declined |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund complete. | Completed | Completed |
+| Refund declined. | Declined | Declined |
 
 
 

@@ -23,7 +23,7 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects a gift card at checkout
-    Mu->>C: Redirects customer to payment page
+    Mu->>C: Redirects to payment page
     C->>G: Enters gift card details and completes payment
     G->>Mu: Processes payment and transfers funds 
     Mu->>Me: Settles funds
@@ -43,16 +43,12 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | For partial payment with another method: The customer didn't complete payment. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is complete. | Completed | Completed |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund complete. | Completed | Completed |
 

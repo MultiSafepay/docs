@@ -24,7 +24,7 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects Postepay at checkout
-    Mu->>C: Redirects customer to payment page
+    Mu->>C: Redirects to payment page
     C->>CS: Enters payment details, authenticates, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction
@@ -46,21 +46,17 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
-| The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The refund is initiated | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
+| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete.  | Completed | Completed |
 
 
 

@@ -24,16 +24,16 @@ sequenceDiagram
     
     C->>Mu: Selects Google Pay at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page, <br> and then to Google account
+    Mu->>C: Redirects to payment page, <br> then to Google account
     else Direct flow
-    Mu->>C: Redirects customer to Google account
+    Mu->>C: Redirects to Google account
     end
     C->>G: Completes payment 
-    alt Direct integration
+    alt Redirect integration
+    G->>Mu: Sends token
+    else Direct integration
     G->>Me: Sends the customer's payment details as an encrypted token
     Me->>Mu: Sends token
-    else Redirect integration
-    G->>Mu: Sends token
     end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
@@ -58,20 +58,16 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
-| The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
+| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+|**Refunds**|||
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed      | Completed   |
 
 

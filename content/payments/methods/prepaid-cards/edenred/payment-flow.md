@@ -22,8 +22,8 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Edenred at checkout
-    Mu->>C: Redirects customer to payment page <br> to select the relevant voucher, <br> and then to their Edenred account
-    C->>E: Authenticates account, <br> authorizes MultiSafepay access
+    Mu->>C: Redirects to payment page <br> to select the relevant voucher, <br> then to their Edenred account
+    C->>E: Authenticates account, and authorizes MultiSafepay access
     E->>Mu: Confirms authorization <br> and sufficient funds on voucher
     E->>Me: Settles funds
 

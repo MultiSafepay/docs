@@ -23,7 +23,7 @@ sequenceDiagram
 
     C->>Mu: Selects E-Invoicing at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page to provide <br> birth date, bank account, email address, and phone number, <br> and then redirects to your success page
+    Mu->>C: Redirects to payment page to provide <br> birth date, bank account, email address, and phone number, <br> then redirects to your success page
     else Direct flow
     Mu->>MF: Sends order details
     end
@@ -31,17 +31,13 @@ sequenceDiagram
     Mu->>MF: Captures the funds
     Me->>C: Ships the order
     Note over Me,C: Manually change the order status to Shipped. 
-    MF->>C: Sends invoice. Settlement is now guaranteed.
+    MF->>C: Sends invoice (settlement is now guaranteed)
     C->>MF: Completes payment 
     MF->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The order details are sent directly to MultiFactor. | 
-| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to provide their birthdate, bank account, email address, and phone number. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 
@@ -55,7 +51,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel. | Initialized   | Initialized  |
 | E-Invoicing has authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
@@ -64,16 +60,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | E-Invoicing declined the transaction. | Declined | Declined |
 | The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
 | The customer didn't complete payment. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund complete.  | Completed | Completed |
 
-See also:
+## See also
 
 - [Viewing transactions](/payments/methods/billing-suite/e-invoicing/user-guide/viewing-transactions/)
 - [Batching transactions for subscriptions](/payments/methods/billing-suite/e-invoicing/user-guide/batching-transactions/)
 
-## Refund statuses
 
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is complete.  | Completed | Completed |
+
 

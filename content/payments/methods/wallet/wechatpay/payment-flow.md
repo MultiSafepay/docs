@@ -23,7 +23,7 @@ sequenceDiagram
 
     C->>Mu: Selects WeChat Pay at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page <br> containing a WeChat QR code
+    Mu->>C: Redirects to payment page <br> with WeChat QR code
     else Direct flow
     Mu->>C: Displays WeChat QR code
     end
@@ -53,8 +53,8 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | The customer cancelled the payment. | Void   | Void   |
 | The customer didn't complete payment within 2 hours. | Expired | Expired |
 | **Refunds**|||
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed      | Completed   |
 
 
 

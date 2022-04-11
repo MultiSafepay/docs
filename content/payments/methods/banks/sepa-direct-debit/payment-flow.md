@@ -29,11 +29,9 @@ sequenceDiagram
     participant CB as Customer's bank
     
     C->>Me: Selects SEPA Direct Debit at checkout
-    alt Direct flow
-    Me->>Mu: Sends request and customer information
-    else Redirect flow
-    Mu->>C: Redirects customer to payment page to confirm their IBAN and account name, <br> and then to your success page
-    Me->>Mu: Sends request and customer information
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to confirm their IBAN and account name, <br> then to your success page
+    Me->>Mu: [Direct flow] Sends request and customer information
     end
     Mu->>CB: Conducts background check <br> and sends e-mandate
     CB->>Mu: Processes transaction and transfers funds 
@@ -45,8 +43,7 @@ sequenceDiagram
 
 ### E-mandates
 
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a
-first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
+MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
 
 ## Payment statuses
 
@@ -60,20 +57,16 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
 | We've sent the e-mandate to the customer's bank. {{< br >}} You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
 | The customer's bank declined the transaction. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/payment-flow/#reason-codes-for-declined-transactions) below. | Declined | Declined   |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed | 
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed | 
 
 ## Reason codes for declined transactions
 

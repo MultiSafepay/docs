@@ -44,8 +44,8 @@ The table below sets out possible order and transaction statuses and what they c
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has requested a refund.| Initialized/Reserved | Initialized/Reserved |
-| The refund/chargeback is complete. | Completed | Completed |
+| Refund initiated.| Initialized/Reserved | Initialized/Reserved |
+| Refund/chargeback complete. | Completed | Completed |
 | The refund has been processed successfully.| Refunded | Refunded |
 | The [partial refund](/payments/refunds/) has been processed successfully.| Partial_refunded | Partial_refunded |
 | The refund was declined. | Declined | Declined |

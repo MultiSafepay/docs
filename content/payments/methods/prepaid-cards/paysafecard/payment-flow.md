@@ -22,8 +22,8 @@ sequenceDiagram
     participant P as Paysafecard
     participant Me as Merchant
 
-    C->>Mu: Selects a Paysafecard at checkout
-    Mu->>C: Redirects customer to payment page
+    C->>Mu: Selects Paysafecard at checkout
+    Mu->>C: Redirects to payment page
     C->>P: Enters 16-digit card PIN and completes payment
     P->>Mu: Transfers funds 
     Mu->>Me: Settles funds
@@ -43,17 +43,13 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Paysafecard. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction at Paysafecard. | Void   | Void   |
 | The customer didn't complete payment within 3&nbsp;hours. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is complete. | Completed | Completed |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund complete. | Completed | Completed |
 

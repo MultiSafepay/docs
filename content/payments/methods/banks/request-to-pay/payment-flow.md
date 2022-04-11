@@ -24,14 +24,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Request to Pay at checkout
-    alt Direct flow
-    Mu->>C: Redirects customer to their online banking environment
-    else Redirect flow
-    Mu->>C: Redirects customer to payment page to select their bank, <br> and then to their online banking environment
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects customer to online banking
     end
     C->>D: Authenticates account and authorizes SEPA bank transfer
-    D->>Mu: Transfers funds 
-    Note over D,Mu: Within 24 hours <br> (if Instant SEPA not supported)
+    D->>Mu: Transfers funds (within 24 hours, <br> if Instant SEPA not supported)
     Mu->>Me: Settles funds
     
 {{< /mermaid >}}
@@ -49,7 +48,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Deutsche Bank. | Initialized | Initialized |
 | Deutsche Bank has authorized the transaction and is transfering the funds. | Completed  | Uncleared |
@@ -57,14 +56,10 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | Deutsche Bank declined the transaction. | Declined | Declined   |
 | The customer cancelled the transaction at Deutsche Bank. | Void | Void |
 | The customer didn't complete payment within 1 hour. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-| The refund was declined. | Declined | Declined |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
+| Refund declined. | Declined | Declined |
 
 
 

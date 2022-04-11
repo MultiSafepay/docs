@@ -24,11 +24,11 @@ sequenceDiagram
 
     C->>Mu: Selects PayPal at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page, <br> and then to their PayPal account
+    Mu->>C: Redirects to payment page, <br> then to their PayPal account
     else Direct flow
-    Mu->>C: Redirects customer to their PayPal account
+    Mu->>C: Redirects to PayPal account
     end
-    C->>P: Authenticates account, completes payment 
+    C->>P: Authenticates account, and completes payment 
     P->>Me: Settles funds in your <br> PayPal business account
 
 {{< /mermaid >}}
@@ -48,23 +48,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to PayPal. | Initialized | Initialized |
 | - Awaiting the customer to pay in their PayPal account **or** {{< br >}} - PayPal is authorizing the transaction **or** {{< br >}} - You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
 | PayPal has collected payment. | Completed | Initialized |
 | The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 14 days. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Initialized |
-| The refund is complete.  | Completed | Initialized |
+|**Refunds**|||
+| Refund initiated. | Reserved | Initialized |
+| Refund complete.  | Completed | Initialized |
+| Refund declined. | Declined | Declined |
 | - PayPal is authorizing the refund. {{< br >}} **Or** {{< br >}} - There are not enough funds in your PayPal business account to process the refund. {{< br >}} For more information, see your PayPal business account. | Uncleared | Initialized   |
-| The refund was declined. | Declined | Declined |
-
-
-
-

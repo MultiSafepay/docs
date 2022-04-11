@@ -23,12 +23,12 @@ sequenceDiagram
     participant CB as Customer's bank
     participant Me as Merchant
 
-    alt Direct flow
-    C->>Mu: Selects iDEAL and their bank at checkout
-    Mu->>C: Redirects customer to their online banking environment
-    else Redirect flow
+    alt Redirect flow
     C->>Mu: Selects iDEAL (QR) at checkout
-    Mu->>C: Redirects customer to payment page to select their bank, <br> and then to their online banking environment
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
+    else Direct flow
+    C->>Mu: Selects iDEAL and their bank at checkout
+    Mu->>C: Redirects to online banking
     end
     C->>CB: Authenticates account/scans QR code and completes payment
     CB->>Mu: Transfers funds 
@@ -49,19 +49,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
 | iDEAL processing error. | Declined   | Declined   |
 | The customer didn't complete payment within 1.5 hours. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is pending (banking only).  | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund pending (banking only).  | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 

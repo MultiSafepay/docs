@@ -25,21 +25,25 @@ sequenceDiagram
 
     C->>Mu: Selects AfterPay at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page to accept the terms & conditions <br> and provide their email address, date of birth, and phone number, <br> and then redirects to your success page
+    Mu->>C: Redirects to payment page to accept terms & conditions <br> and provide their email address, date of birth, and phone number, <br> then redirects to your success page
     else Direct flow
-    Mu->>C: Redirects customer to AfterPay
+    Mu->>C: Redirects to AfterPay
     end
     A->>Mu: Authorizes the payment
     Mu->>A: Captures the funds
     Me->>C: Ships the order
     Note over Me,C: Manually change the order status to Shipped. 
-    A->>C: Sends invoice (standard period of 14 days) <br> Settlement is now guaranteed.
+    A->>C: Sends invoice (standard period of 14 days, settlement is now guaranteed)
     C->>A: Completes payment with preferred method
     A->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
+### Return process
+If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
+
+Phone **+31 207 230 230** or email <merchant@afterpay.com> 
 
 ## Payment statuses
 
@@ -53,7 +57,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | AfterPay is authorizing the transaction. {{< br >}} You can still decline it. | Uncleared | Uncleared |
 | AfterPay has authorized the transaction and the funds are awaiting capture. {{< br >}} You can still decline it. | Completed  | Uncleared  |
@@ -62,17 +66,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | AfterPay has declined the transaction. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Declined | Declined |
 | AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
 | AfterPay authorized the transaction, but you did not ship within 90 days of creating the transaction **or** {{< br >}} The customer didn't complete payment. | Expired | Expired |
-
-
-### Return process
-If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
-
-Phone **+31 207 230 230** or email <merchant@afterpay.com> 
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized    | Completed   |
-| The refund is complete.  | Completed      | Completed   |
+|**Refunds**|||
+| Refund initiated. | Initialized | Completed |
+| Refund complete. | Completed | Completed |
 

@@ -22,15 +22,13 @@ sequenceDiagram
     participant Mu as MultiSafepay
     participant Me as Merchant
 
-    C->>Mu: Selects Bank Transfer at checkout (direct/redirect)
-    alt Direct flow
-    Mu->>C: Redirects customer to your success page, <br> emails payment instructions
-    Note over Mu,C: Or email the instructions yourself
-    else Redirect flow
-    Mu->>C: Redirects customer to payment page <br> to confirm their bank account number and (optionally) bank country, <br> then displays payment instructions
+    C->>Mu: Selects Bank Transfer at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to confirm <br> their bank account number and (optionally) bank country, <br> then displays payment instructions
+    else Direct flow
+    Mu->>C: Redirects to your success page, <br> then emails payment instructions <br> (or email the instructions yourself)
     end
-    C->>Mu: Transfers funds (online or with teller)
-    Note over C,Mu: Takes 1–3 business days 
+    C->>Mu: Transfers funds (online or with teller) <br> (takes 1–3 business days) 
     Mu->>Me: Matches payment and settles funds
     
 {{< /mermaid >}}
@@ -84,16 +82,12 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | Awaiting the customer to transfer the funds. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | You cancelled the transaction. | Void   | Void/Cancelled   |
 | The customer didn't complete  payment within 60 days. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |

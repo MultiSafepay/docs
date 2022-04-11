@@ -23,10 +23,10 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Belfius at checkout
-    alt Direct flow
-    Mu->>C: Redirects customer to their online banking environment
-    else Redirect flow
-    Mu->>C: Redirects customer to payment page <br> and then to their online banking environment
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
     end
     C->>B: Authenticates account and completes payment
     B->>Mu: Transfers funds 
@@ -47,35 +47,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Belfius. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | You cancelled the transaction. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 5 days. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 
-{{< blue-notice >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
+{{< blue-notice >}} If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
 We import our bank statements daily and finalize all incoming payments. {{< /blue-notice >}}
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

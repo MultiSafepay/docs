@@ -24,7 +24,7 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Dotpay at checkout
-    Mu->>C: Redirects customer to payment page to select their bank, <br> and then to their online banking environment
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
     C->>CB: Authenticates account and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
@@ -44,18 +44,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized|
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer didn't complete payment within 3 days. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 
 
 

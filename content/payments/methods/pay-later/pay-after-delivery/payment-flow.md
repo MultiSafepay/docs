@@ -24,7 +24,7 @@ sequenceDiagram
 
     C->>Mu: Selects Pay After Delivery at checkout
     alt Redirect flow
-    Mu->>C: Redirects customer to payment page <br> to provide their birth date, email address, bank account and phone numbers, <br> and accept the terms & conditions, <br> and then redirects to your success page
+    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, bank account and phone numbers, <br> and accept the terms & conditions, <br> then redirects to your success page
     else Direct flow
     Mu->>MF: Sends order details
     end
@@ -74,7 +74,7 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel. | Initialized | Initialized | 
 | We have authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
@@ -83,12 +83,8 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
 | The customer didn't complete payment within 90 days. | Expired | Expired | 
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |  
-| The refund is complete. | Completed | Completed | 
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |  
+| Refund complete. | Completed | Completed | 
 
 

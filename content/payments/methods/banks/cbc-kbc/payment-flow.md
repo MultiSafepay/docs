@@ -26,10 +26,10 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects CBC/KBC at checkout
-    alt Direct flow
-    Mu->>C: Redirects customer to their online banking environment
-    else Redirect flow
-    Mu->>C: Redirects customer to payment page, <br> and then to their online banking environment
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
     end
     C->>CK: Authenticates account and completes payment
     CK->>Mu: Transfers funds 
@@ -50,25 +50,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The transaction was cancelled by you or the customer. | Void   | Void   |
 | The customer didn't complete payment within 5 days. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund complete. | Completed | Completed |
 
-{{< blue-notice >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
+{{< blue-notice >}} If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
 We import our bank statements daily and match all incoming payments. {{< /blue-notice >}}
-
-## Refund statuses
-
- Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is complete. | Completed | Completed |
-
-
-
-
-
-

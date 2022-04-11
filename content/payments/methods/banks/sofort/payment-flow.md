@@ -25,10 +25,10 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Sofort at checkout
-    alt Direct flow
-    Mu->>C: Redirects customer to their online banking environment
-    else Redirect flow
-    Mu->>C: Redirects customer to payment page, <br> and then to their online banking environment
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
     end
     C->>CB: Authenticates account and completes payment
     CB->>Mu: Transfers funds 
@@ -51,32 +51,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | The customer's bank has authorized the transaction and is transfering the funds.  {{< br >}} May take up to 3 business days for all amounts. {{< br >}} Do **not** ship yet! MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via Sofort. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 1 day. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 
 **Note:** Amounts less than 100 EUR are completed immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-
-
-
-
-
-
-
-
-
-
-
-
-
