@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/dotpay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,14 +24,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Dotpay at checkout
-    Mu->>C: Connects to customer's bank (redirect only)
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
     C->>CB: Authenticates account and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow**: The customer is redirected first to a [payment page](/payment-pages/) to select their bank, and then to their online banking environment.
 
 ## Payment statuses
 
@@ -45,18 +44,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized|
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer didn't complete payment within 3 days. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 
 
 

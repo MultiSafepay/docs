@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/banks/bancontact-qr/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -25,15 +25,13 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Bancontact (QR) at checkout
-    Mu->>C: Connects to customer's bank (redirect only)
+    Mu->>C: Redirects to payment page <br> to select their bank, <br> and then to their online banking
     C->>CB: Authenticates account/scans QR code and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds 
 
 {{< /mermaid >}}
 &nbsp;  
-
-**Redirect flow:** The customer is redirected first to a [payment page](/payment-pages/) to select their bank, and then to their online banking environment.
 
 ## Payment statuses
 
@@ -47,18 +45,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+| **Refunds** | ||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 

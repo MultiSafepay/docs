@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/billing-suite/klarna/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,24 +23,22 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Klarna at checkout
-    Mu->>C: Connects to Klarna (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, and phone number, <br> and accept the terms & conditions, <br> then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects to Klarna
+    end
     K->>Mu: Authorizes the payment
-    Mu->>K: Captures the funds
-    Note over Mu,K: Settlement is now guaranteed!
+    Mu->>K: Captures the funds (settlement is now guaranteed)
     Me->>C: Ships the order (within 28 days, or extend the shipping period)
-    Note over Me,C: Manually change the order status to Shipped! 
-    K->>C: Sends invoice 
-    Note over K,C: You can customize the invoice. 
+    Note over Me,C: Manually change the order status to Shipped. 
+    K->>C: Sends invoice (you can customize the invoice) 
     C->>K: Completes payment with preferred payment method
     K->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 21 days)
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to Klarna. | 
-| **Redirect flow** | The customer is redirected to a [payment page](/payment-pages/) to provide their birth date, email address, and phone number, and accept the term and conditions. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 
@@ -54,21 +52,17 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Klarna. {{< br >}} You can still cancel with Klarna (see [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/)). | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} See: {{< br >}} - [Extend the shipping period](/payment-methods/klarna/extending-shipping-period/) {{< br >}} - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) {{< br >}} **Note:** The billing and shipping addresses must be the **same**. | Shipped | Uncleared |
+| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} See also: {{< br >}} - [Extend the shipping period](/payment-methods/klarna/extending-shipping-period/) {{< br >}} - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) {{< br >}} **Note:** The billing and shipping addresses must be the **same**. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. {{< br >}} See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
 | Klarna declined the transaction. {{< br >}} Only the customer can contact Klarna to find out why they declined the transaction. {{< br >}} For merchant support, email <klarna@multisafepay.com> {{< br >}} | Declined | Declined |
-
-## Refund statuses
-
-| Description  | Order status      | Transaction status |
-|-----|----|------|
-| The customer has requested a refund. | Initialized    | Completed   |
-| The refund is complete.  | Completed      | Completed   |
+|**Refunds**|||
+| Refund initiated. | Initialized | Completed |
+| Refund complete.  | Completed | Completed |
 
 

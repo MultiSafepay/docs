@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/american-express/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,8 +24,8 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects American Express at checkout
-    Mu->>C: Connects to American Express (redirect only)
-    C->>A: Enters payment details, verifies identity, <br> and completes payment
+    Mu->>C: Redirects to payment page
+    C->>A: Enters payment details, authenticates, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction
     alt MultiSafepay collects
@@ -39,7 +39,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-**Redirect flow:** The customer is redirected to a [payment page](/payment-pages/) to enter their payment details. 
 
 ## Payment statuses
 
@@ -53,22 +52,18 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| **Amex MID flow** {{< br >}} American Express has collected payment. | Completed | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
+| (Amex MID flow) American Express has collected payment. | Completed | Initialized |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
 | The customer failed 3D Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
-
-## Refund/chargeback statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The refund/chargeback is initiated. | Reserved    | Reserved   |
-| The refund/chargeback is complete.  | Completed      | Completed   |
+|**Refunds/chargebacks**|||
+| Refund/chargeback initiated. | Reserved    | Reserved   |
+| Refund/chargeback complete.  | Completed      | Completed   |
 
 
 
