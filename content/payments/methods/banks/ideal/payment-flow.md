@@ -27,7 +27,7 @@ sequenceDiagram
     C->>Mu: Selects iDEAL (QR) at checkout
     Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
     else Direct flow
-    C->>Mu: Selects iDEAL and their bank at checkout
+    C->>Mu: Selects iDEAL (QR) and their bank at checkout
     Mu->>C: Redirects to online banking
     end
     C->>CB: Authenticates account/scans QR code and completes payment
