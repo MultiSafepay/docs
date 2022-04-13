@@ -51,6 +51,10 @@ To activate Second Chance, follow these steps:
 3. Select the relevant website.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
 
+## Using Second Chance
+
+See API recipe – [Send payment reminders](https://docs-api.multisafepay.com/recipes/send-payment-reminders).
+
 ## Customizing the emails
 The Second Chance email template is completely customizable. Follow these steps:
 

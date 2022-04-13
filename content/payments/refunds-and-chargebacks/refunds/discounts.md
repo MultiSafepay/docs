@@ -8,8 +8,6 @@ read_more: "."
 url: '/refunds/discounts/'
 ---
 
-Discounts are processed as a negative **amount** instead of a negative **quantity**.
-
 Supported payment methods:
 
 - AfterPay
@@ -54,6 +52,11 @@ To discount a specific amount:
 {{< /details >}}
 
 ## API 
+
+To discount:
+
+- Regular orders, see API recipe – [Discount an order](https://docs-api.multisafepay.com/recipes/discount-an-order)
+- Pay later orders, see API recipe – [Discount a pay later order](https://docs-api.multisafepay.com/recipes/discount-a-pay-later-order)
 
 See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder).
 

@@ -34,7 +34,8 @@ For how Zero Authorization can benefit your business, see [0-Authorization](http
 Email a request to activate Zero Authorization to <sales@multisafepay.com>
 
 ## Integration
-To integrate Zero Authorization using our API, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order > `amount` parameter.
+
+See API recipe – [Verify a card with Zero Authorization](https://docs-api.multisafepay.com/recipes/verify-a-card-with-zero-authorization).
 
 Zero Authorization is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 
