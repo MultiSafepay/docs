@@ -73,6 +73,9 @@
       },
       {
         "pattern": "https://registreermijnwebsite\\.edenred\\.be.*/"
+      },
+      {
+        "pattern": "^#"
       }
     ],
   "timeout": "120s",
