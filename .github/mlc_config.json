@@ -76,6 +76,9 @@
       },
       {
         "pattern": "^#"
+      },
+      {
+        "pattern": "https://www.\\opencart\\.com.*"
       }
     ],
   "timeout": "120s",
