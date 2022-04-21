@@ -15,7 +15,7 @@ aliases:
 
 {{< two-buttons href-2="/payments/methods/wallet/applepay/direct-integration" text-2="Apple Pay direct" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="https://docs-api.multisafepay.com/reference/createorder" text-2="Apple Pay redirect" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payments/methods/wallet/applepay/redirect-integration" text-2="Apple Pay redirect" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
 {{< br >}}
 
