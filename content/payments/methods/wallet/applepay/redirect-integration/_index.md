@@ -17,7 +17,7 @@ With redirect integration, customers are redirected to a [payment page](/payment
 
 ### Detecting Apple Pay on the customer's device
 
-If a customer lands on an Apple Pay payment page with an unsupported device, the customer can't complete the payment. To avoid this, check whether Apple Pay is supported on the customer's device before creating the payment page.
+If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, check whether Apple Pay is supported on the customer's device before creating the payment page.
 
 ``` 
 try {
