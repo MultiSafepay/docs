@@ -3,12 +3,14 @@ title : "Financial summary"
 meta_title: "Financial summary - MultiSafepay Docs"
 read_more: '.'
 weight: 4
+url: '/reports/financial-summary/'
 aliases:
     - /tools/reports/financial-summary
     - /tools/accounting/reports/financial-summary/
+    - /accounting/reports/financial-summary/
 ---
 
-The Financial summary provides an overview of revenue and costs for:
+The financial summary provides an overview of revenue and costs for:
 
 - Each payment method
 - Refunds
@@ -19,22 +21,20 @@ The Financial summary provides an overview of revenue and costs for:
 Supported formats: Excel or PDF
 
 {{< details title="Report contents" >}}
-
-- Report created: the date the report was generated
-- Merchant ID: your MultiSafepay account number and merchant name
-- Currency: the currency of transactions
-- Date from: the start date of the period the report covers
-- Date till: the end date of the report period
-- Group refunds: whether you have grouped refunds together
-
-Columns:
-
-- Description: payment method/refunds/chargebacks/reversals/transaction fees, broken down by revenue and cost
-- Column 1: the transaction fee
-- Number: the number of transactions
-- Debit: the total amount debited
-- Credit: the total amount credited 
-- Net income: the total revenue minus costs
+| Columns | Description |
+|---|---|
+| Report created | The date the report was generated |
+| Merchant ID | Your MultiSafepay account number and merchant name |
+| Currency | The currency of transactions |
+| Date from | The start date of the period the report covers |
+| Date till | The end date of the report period |
+| Group refunds | Whether you have grouped refunds together |
+| Description | Payment method/refunds/chargebacks/reversals/transaction fees, broken down by revenue and cost |
+| Column 1 | The transaction fee |
+| Number | The number of transactions |
+| Debit | The total amount debited |
+| Credit | The total amount credited |
+| Net income | The total revenue minus costs |
 
 {{< /details >}}
 
@@ -42,14 +42,14 @@ Columns:
 
 The report does **not** include:
 
-- Payouts – see [Payout report](/reports/payout-report/)
-- Monthly transaction costs and VAT – see your monthly [VAT invoice](/account/vat-invoices/)
+- Payouts (see [Payout report](/reports/payout-report/))
+- Monthly transaction costs and VAT (see your monthly [VAT invoice](/account/vat-invoices/))
 
 {{< /details >}}
 
-## Generating a Financial summary
+## Generating a financial summary
 
-To generate a Financial summary, follow these steps:
+To generate a financial summary, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial summary**.

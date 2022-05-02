@@ -1,14 +1,16 @@
 ---
-title: "Advanced reporting"
-meta_title: "Advanced reporting - MultiSafepay Docs"
+title: "Sales and conversion reports"
+meta_title: "Sales and conversion reports - MultiSafepay Docs"
 read_more: '.'
 weight: 7
+url: '/reports/sales-conversion-reports/'
 aliases:
     - /tools/reports/advanced-sales-and-conversions-report
     - /tools/accounting/reports/advanced-reporting/
+    - /accounting/reports/advanced-reporting/
 ---
 
-Advanced reports include Sales reports and Conversion reports. They help you find out:
+Advanced reports include sales reports and conversion reports. They help you find out:
 
 - Who your customers are
 - Where they are from
@@ -20,7 +22,7 @@ Supported format: Excel
 
 ## Generating advanced reports
 
-To generate a Sales or Conversion report, follow these steps:
+To generate a sales or conversion report, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Advanced reporting**.
