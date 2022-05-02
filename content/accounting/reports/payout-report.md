@@ -60,8 +60,7 @@ To request automated reports, email the following information to <integration@mu
 - Your account ID (top-right corner of your MultiSafepay dashboard)
 - Method: SFTP Pull or Push request
 - Frequency: Daily, weekly, or monthly
-- Preferred time time: Based on Central European (Summer) Time (CET/CEST)
-- MultiSafepay transaction fees: Total or listed separately
+- Preferred time after 5:29 (based on Central European (Summer) Time (CET/CEST))
 
 {{< details title="View SFTP requests and requirements" >}} 
 
