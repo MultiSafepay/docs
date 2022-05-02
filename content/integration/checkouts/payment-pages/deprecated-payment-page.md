@@ -10,28 +10,27 @@ aliases:
     - /payments/checkout/payment-pages/classic-payment-page/
 ---
 
-The deprecated version of the MultiSafepay payment page (URL: `pay.multisafepay.com`) is still fully supported, but we strongly recommend [upgrading to the current version](/payment-pages/activation/), which: 
+The deprecated version of the payment page (URL: `pay.multisafepay.com`) is still fully supported, but we strongly recommend [upgrading to the current version](/payment-pages/activation/).
 
-- Processes requests to and responses from the MultiSafepay server much faster
+We cannot guarantee that the deprecated version will support any new payment methods we add to our platform.
 
-- Works responsively across different devices and browsers 
+It does **not** support the following methods:
 
-- Supports [dynamic styling through our API](/api/#apply-dynamic-templates)
-
-- Supports 5 more languages 
-
-- Supports all available payment methods
-
-### Payment methods
-We cannot guarantee the deprecated version will support any new payment methods we add to our platform.
-
-It does **not** support the following payment methods:
-
-| Category   | Payment methods     |
-|----------------|-------------------|
-| Banking methods | Bancontact QR, Belfius, CBC/KBC, EPS, iDEALQR, Request to Pay, Santander, Sofort, Trustly     |
-| Pay later methods | AfterPay, in3, Klarna     |
-| Wallets | Alipay, Apple Pay, JCB    |
-| Prepaid cards | PaySafecard   |  
+- AfterPay
+- Alipay
+- Apple Pay
+- Bancontact QR
+- Belfius
+- CBC/KBC
+- EPS
+- iDEAL QR
+- in3
+- Klarna
+- PaySafecard
+- Request to Pay
+- Santander
+- Sofort
+- Trustly
+  
 
 

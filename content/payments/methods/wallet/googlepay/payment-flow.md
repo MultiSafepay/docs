@@ -9,7 +9,7 @@ url: '/payment-methods/google-pay/payment-flow'
 noindex: '.'
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,13 +23,17 @@ sequenceDiagram
     participant CB as Customer's bank
     
     C->>Mu: Selects Google Pay at checkout
-    Mu->>C: Connects to Google Pay (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to Google account
+    else Direct flow
+    Mu->>C: Redirects to Google account
+    end
     C->>G: Completes payment 
-    alt is Direct integration
+    alt Redirect integration
+    G->>Mu: Sends token
+    else Direct integration
     G->>Me: Sends the customer's payment details as an encrypted token
-    Me->>Mu: Sends the customer's payment details as an encrypted token
-    else is Redirect integration
-    G->>Mu: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends token
     end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
@@ -39,11 +43,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their Google account. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/). They click the Google Pay button and are redirected to their Google account to complete payment. | 
 
 For more information about the Google Pay™ payment flow, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
 
@@ -59,20 +58,16 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| [Manually authorize or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
-| The transaction is complete. | Completed | Completed |
-| The transaction was cancelled or the customer requested a chargeback. | Void   | Void   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| The customer's bank has declined the transaction. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| MultiSafepay has collected payment. | Completed | Completed |
+| Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
+| The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
+| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+|**Refunds**|||
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed      | Completed   |
 
 

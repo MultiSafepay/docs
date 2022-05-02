@@ -6,4 +6,4 @@ read_more: "."
 noindex: 'true'
 ---
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

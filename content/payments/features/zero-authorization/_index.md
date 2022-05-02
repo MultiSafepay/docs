@@ -25,8 +25,10 @@ Email a request to activate Zero Authorization to <sales@multisafepay.com>
 
 ## Integration
 
+See API recipe – [Verify a card with Zero Authorization](https://docs-api.multisafepay.com/recipes/verify-a-card-with-zero-authorization).
+
 **Via our API:** See API reference – [Zero Authorization](/api/#zero-authorization-orders).
 
 **Via ready-made integrations:** Zero Authorization is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

@@ -20,14 +20,14 @@ The most common operation to perform with our API is creating an order. To speci
 |  |  |  |
 |---|---|---|
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
-| **Redirect** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their payment method. | 
+| **Redirect** | The customer is redirected first to a [payment page](/payment-pages/) to select their payment method. | 
 
 ## Prerequisites
 
 Before making any API requests, you must:
 
 - Have a [website-level API key](/account/site-id-api-key-secure-code/).
-- Choose the test or live [environment](/api/#environments).
+- Choose the test or live [environment](https://docs-api.multisafepay.com/reference/environments).
 
 You must include your API key in the request URL as a query parameter to be able to authenticate your request.  
 
@@ -36,7 +36,7 @@ While building your integration we recommend using the test environment: `https:
 
 ## Create an order
 
-The first operation to test when building your integration, is to [create an order](/api/#orders). Here is a sample request to create a redirect order:
+The first operation to test when building your integration, is to [create an order](https://docs-api.multisafepay.com/reference/createorder). Here is a sample request to create a redirect order:
 
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test-api-key}" \
@@ -87,13 +87,13 @@ Check that you receive a response with `success` set to `true`:
 ```
 If you receive an error in the response, see [Handling errors](/errors/handling-errors/).
 
-Otherwise, open the `payment_url` to complete the payment on the MultiSafepay payment page. 
+Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
 For further details on how to test each payment method, see [Test payment details](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/test-payment-details/#details-ideal).
 
 ## Get order details
 
-To familiarize yourself with what an order looks like in our system, try making a [`GET` order details request](/api/#get-order-details) for the order you just created, using the `order_id`.
+To familiarize yourself with what an order looks like in our system, try making a [Get order](https://docs-api.multisafepay.com/reference/getorder) request for the order you just created, using the `order_id`.
 
 ```
 curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/my-order-id-1?api_key={your-test-api-key}' \ 

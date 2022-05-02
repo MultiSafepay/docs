@@ -10,50 +10,64 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 If you encounter any issues during testing, see [Understanding and resolving errors](/developer/errors-explained/understanding-and-resolving-errors/).
 
-For support, email the Integration Team at <integration@multisafepay.com>
+{{< details title="Methods not available in test environment" >}}
 
-## 1. Initiate a transaction
+You can't test the following methods in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
-There are two ways to initiate a transaction:
+- Betaal per Maand
+- iDEAL QR
+- Paysafecard
+- Request to Pay
+- TrustPay
 
-- Create a test payment through your [ecommerce platform](/ecommerce-platforms/).
-- Send a request using our [API](/api/).
+{{< /details >}}
 
-### Ecommerce integration
+For support, email <integration@multisafepay.com>
 
-1. Enter the [API key](/account/site-id-api-key-secure-code/) from your test account in your [backend](/glossaries/multisafepay-glossary/#backend).
-2. Place a test order, and then initiate a transaction using the payment method you want to test.
+## Test credentials
 
-### API
+For all payment methods **except** AfterPay, you need your site's test [API key](/account/site-id-api-key-secure-code/).
 
-The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
+## Make a test payment
 
-1. In your API testing environment, enter your test API key.
-2. For the payment method you want to test, on the API reference - [Payment methods](/api/#payment-methods) page, make a `POST /orders` request. Make sure you include **all** required parameters in the request.
+1. Initiate a payment in your [ready-made integration](/integrations/) or via our API:  
 
-## 2. Complete the payment
+    {{< details title="Ready-made integration" >}}
 
-A unique payment link is returned for you to complete the payment.
+- In your backend, enter your test site [API key](/account/site-id-api-key-secure-code/).
+- Place a test order, and then initiate a transaction with the payment method you are testing. 
 
-1. Enter relevant [test payment details](/testing/test-payment-details/) for the payment method you are testing, or select a payment scenario.
-2. Complete the test payment.
+    {{< /details >}}
+    {{< details title="API" >}}
+  
+- [Create an order](https://docs-api.multisafepay.com/reference/createorder) via our API to the test endpoint: `https://testapi.multisafepay.com/v1/json/` 
+- For example requests for specific payment methods, see **Examples**.
+    {{< /details >}}
+2. Enter the [test payment details](/testing/test-payment-details/) for the payment method you are testing, or select a payment scenario.
+3. Complete the test payment.
+4. To check the transaction details, sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
+5. Go to **Transactions** > **Transactions overview**.
+6. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
+7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
 
-## 3. Check the transaction details
+{{< blue-notice >}} Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. {{< /blue-notice >}}
 
-To check the transaction details in your dashboard:
+## Test cancelling an order
 
-1. Go to **Transactions** > **Transactions overview**.
-2. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
+{{< details title="Supported payment methods" >}}
 
-For information about transaction statuses, see [Test payment details](/testing/test-payment-details/).
+You can test cancelling orders for the following methods:
 
-## 4. Check your connection with MultiSafepay
+- Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Wallets: Alipay, PayPal
 
-To check that you have succesfully connected to our system, follow these steps:
+{{< /details >}}
 
-1. Sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
-2. Go to **Transactions** > **Transactions overview**.
-3. Select the transaction to view the **Transaction details** page.
-4. Under **Offline actions**, in the **Status** field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
+To test cancelling an order:
 
-**Note:** Once your live account is approved, ensure you use the API key from your live account instead of your test account.
+1. Create an order in your backend or via the API as above.
+2. On the **Test platform** page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
+  The order status changes to **Void**.
+
+

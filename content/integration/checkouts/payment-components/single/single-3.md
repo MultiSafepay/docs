@@ -12,7 +12,7 @@ url: '/payment-components/single/step-3/'
 
 ### Collect payment data
 
-**1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
+**1.** To collect the customer's payment details from the payment component UI, call the `PaymentComponent.getPaymentData()` method:
 
 ```
 PaymentComponent.getPaymentData()
@@ -22,13 +22,13 @@ PaymentComponent.getPaymentData()
 
 ### Create an order
 
-Create an order from your server, appending the `payment_data` collected from the Payment Component UI to the order data.
+Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
-See API reference – [Payment Component order](/api/#payment-component-orders).
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment component.
 
 ### Redirect the customer
 
-**1.** From your server, pass the response to the `POST /orders` request to the customer's device. 
+**1.** From your server, pass the response to the [create order](https://docs-api.multisafepay.com/reference/createorder) request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 

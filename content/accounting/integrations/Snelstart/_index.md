@@ -32,4 +32,4 @@ To import a MultiSafepay Accountant export, see Snelstart - [Klantenservice](htt
 
 {{< /details >}}
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

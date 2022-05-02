@@ -20,5 +20,5 @@ Although MultiSafepay doesn't prohibit iFrames, we don't recommend them. Reasons
 
 - Google Chrome's safety checks on iFrames are very strict.
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
  

@@ -20,8 +20,9 @@ You can generate payment links in:
 - Your MultiSafepay dashboard
 - The MultiSafepay app
 - Some ready-made integrations
+- Via our API
 
-## MultiSafepay dashboard
+## Dashboard
 
 ### New transactions
 
@@ -61,7 +62,7 @@ To generate a payment link from your MultiSafepay app, follow these steps:
 2. Fill in the required fields.
 3. Click **Generate payment link**.
 4. Save the QR code generated to your device, and then send it to the customer.   
-When the customer scans the QR code, they are directed to a pre-filled MultiSafepay payment page to complete payment.
+When the customer scans the QR code, they are directed to a pre-filled [payment page](/payment-pages/) to complete payment.
 
 ## Ready-made integrations
 
@@ -73,7 +74,6 @@ You can generate payment links in the [backend](/glossaries/multisafepay-glossar
 - [Shopware 5](/shopware-5/)
 - [WooCommerce](/woo-commerce/)
 
-See API reference:
+## API
 
-- [Create an order](https://docs.multisafepay.com/api/#create-an-order) – In the `type` parameter, enter `paymentlink`. 
-- [Generating a payment link](/api/#generate-payment-links)
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page/link. 

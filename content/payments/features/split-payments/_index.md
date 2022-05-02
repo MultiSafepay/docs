@@ -25,16 +25,12 @@ You can split payments by percentage, a fixed amount, or by both.
 
 ## Integration
 
-To split a payment, [add an object specifying the split](/api/#split-payments-orders) to the payload of a `POST /orders` request.
-
-
+See API recipe – [Split a payment](https://docs-api.multisafepay.com/recipes/split-a-payment).
 
 ## Refunds
 You can process full and partial refunds, but only from the account that created the split payment. 
 
-
 To refund a split payment, follow these steps:
-
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.

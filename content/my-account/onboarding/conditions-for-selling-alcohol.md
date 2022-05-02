@@ -10,27 +10,27 @@ aliases:
     - /getting-started/go-live/user-guide/conditions-for-selling-alcohol/
 ---
 
-Dutch law states that alcohol cannot be sold to customers under the age of 18. 
+Dutch law states that alcohol cannot be sold to customers under the age of **18**. 
 
-MultiSafepay has an obligation to ensure that you comply with relevant legislation and that your customers meet the requirements for purchasing alcohol.
+MultiSafepay has an obligation to ensure you comply with relevant legislation and that your customers meet the requirements for purchasing alcohol.
 
-For questions about these regulations and requirements, email the Risk Team at <risk@multisafepay.com>
+For questions about these regulations and requirements, email <risk@multisafepay.com>
 
 ## Selling alcohol
 
 If you sell alcohol, you must:
 
 - State this clearly on your website.
-- Email a signed declaration about alcoholic beverages (once only) to the Risk Team at <risk@multisafepay.com>
+- Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
 {{< details title="Download a declaration" >}}
 
-* [Dutch merchant declaration](/getting-started/go-live/form/NL-Verklaring_alcoholische_dranken.pdf)   
-* [English merchant declaration](/getting-started/go-live/form/EN-Declaration_alcoholic_beverages.pdf)  
-* [French merchant declaration](/getting-started/go-live/form/FR-Déclaration_des_boissons_alcoolisées.pdf)  
-* [German merchant declaration](/getting-started/go-live/form/DE-Erklärung_für_alkoholischen_Getränke.pdf)
-* [Italian merchant declaration](/getting-started/go-live/form/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
-* [Spanish merchant declaration](/getting-started/go-live/form/ES-Declaración_sobre_bebidas_alcohólicas.docx)  
+- [Dutch merchant declaration](/getting-started/go-live/form/NL-Verklaring_alcoholische_dranken.pdf)   
+- [English merchant declaration](/getting-started/go-live/form/EN-Declaration_alcoholic_beverages.pdf)  
+- [French merchant declaration](/getting-started/go-live/form/FR-Déclaration_des_boissons_alcoolisées.pdf)  
+- [German merchant declaration](/getting-started/go-live/form/DE-Erklärung_für_alkoholischen_Getränke.pdf)
+- [Italian merchant declaration](/getting-started/go-live/form/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
+- [Spanish merchant declaration](/getting-started/go-live/form/ES-Declaración_sobre_bebidas_alcohólicas.docx)  
 
 {{< /details >}}
 
@@ -38,12 +38,12 @@ If you sell alcohol, you must:
 
 If you sell spirits with an alcohol content of 15% or higher, you must hold a valid liquor license. 
 
-Email a copy of your license to the Risk Team at <risk@multisafepay.com>
+Email a copy of your license to <risk@multisafepay.com>
 
 ## Verifying customer age
 
-You must verify customers' age when _selling_ or _delivering_ orders that include alcohol. When orders are delivered, customers must show a valid identification document stating their date of birth, e.g.:
+You must verify customers' age when selling or delivering orders that include alcohol. When orders are delivered, customers must show a valid identification document with their date of birth, e.g.:
 
-* Passport
-* Dutch driving license
-* European or Dutch ID card
+- Passport
+- Dutch driving license
+- European or Dutch ID card

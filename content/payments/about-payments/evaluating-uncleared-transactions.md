@@ -23,7 +23,7 @@ All uncleared transactions are assigned a fraud score from 1-10: 10 being the mo
 
 Transactions that score 6 to 8 you can accept or decline yourself in your MultiSafepay dashboard following the steps below.
 
-Transactions that score 8 or above can only be approved by MultiSafepay. For help with evaluating potential risks or fraud indicators, and professional advice, email the Risk Team at <risk@multisafepay.com> 
+Transactions that score 8 or above can only be approved by MultiSafepay. For help with evaluating potential risks or fraud indicators, and professional advice, email <risk@multisafepay.com> 
 
 The final decision to authorize or decline transactions lies with you. MultiSafepay is not responsible nor liable for any damage after you authorize a payment.
 
@@ -150,4 +150,4 @@ Under **History data**, there is information about the number of credit cards us
 
 ## See also 
 
-[Viewing your uncleared balance](/faq/finance/viewing-your-uncleared-balance/)
+[Viewing your uncleared balance](/account/manage-your-balance/#viewing-your-uncleared-balance)

@@ -15,13 +15,13 @@ aliases:
     - /payments/features/tokenization/
 ---
 
-Recurring Payments is a MultiSafepay solution that securely stores payment details to enable quick, easy repeat payments:
-
-- **One-click payments:** The customer selects stored payment details at checkout for a smoother, faster experience.
-- **Subscriptions:** Collect payments from customers at specific intervals, e.g. weekly, monthly.
-- **Unscheduled payments:** Collect event-triggered payments, e.g. mobile top-up when no credit left on phone.
+Recurring Payments is a MultiSafepay solution that securely stores payment details to enable quick, easy repeat payments.
 
 ## How it works
+
+- **One-click payments:** The customer selects stored details for faster checkout.
+- **Subscriptions:** You use the token to collect payments at specific intervals, e.g. weekly, monthly.
+- **Unscheduled payments:** You use the token for event-triggered payments, e.g. mobile top-up when no credit left on phone.
 
 MultiSafepay encrypts customers' sensitive payment details during an initial payment for secure storage, and provides you with a non-sensitive identifier for the details known as a "token". Customers can save multiple tokens.
 
@@ -37,7 +37,7 @@ Tokens are stored at account level rather than website level. If you operate mul
 - iDEAL
 - Maestro
 - Mastercard
-- SEPA Direct Debit
+- SEPA Direct Debit – First you need to provide us with some information. See [Activating SEPA Direct Debit](/payment-methods/sepa-direct-debit/activation/).
 - Sofort
 - Visa
 
@@ -157,7 +157,8 @@ MultiSafepay offers three recurring models:
 - `subscription`
 - `unscheduled` (event-triggered)
 
-Our [SDKs](/developer/wrappers/) support all three models. Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
+Our API and [PHP SDK](https://github.com/MultiSafepay/php-sdk) support all three models.  
+Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
 
 ### Via ready-made integrations
 
@@ -177,21 +178,20 @@ We support recurring payments in our plugins for:
 {{< /details >}}
 
 ### Via our API
-See API reference – [Recurring Payments](/api/#recurring-payments-orders).
 
-**Note:** Tokens for SEPA Direct Debit "DIRDEB" transactions are originally received as iDEAL or Sofort transactions. 
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer_reference` object.
+
+**Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
 
 {{< details title="Additional parameters" >}}
 
 | Parameter | Type | Description |
 |---|---|---|
 | `type` | string | The payment flow for the checkout process. Options: `direct`, `redirect`. |
-| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Retrieve gateways using a `GET /gateway` request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
+| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Make a [get gateway](https://docs-api.multisafepay.com/reference/getgateway) request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
 | `recurring_id` | string | A randomly generated recurring ID for the customer. |
 | `reference` | string | The customer's reference number for the token. |
 | `recurring_model` | string | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`.  |
 
 {{< /details >}}
-
-
 

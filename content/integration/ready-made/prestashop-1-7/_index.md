@@ -2,7 +2,7 @@
 title : "MultiSafepay plugin for PrestaShop 1.7"
 github_url : "https://github.com/MultiSafepay/prestashop-official"
 meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
-download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.4.0/Plugin_PrestaShop_5.4.0.zip"
+download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.4.2/Plugin_PrestaShop_5.4.2.zip"
 changelog_url : "."
 faq: "."
 logo: "/logo/Plugins/PrestaShop.svg"
@@ -25,7 +25,9 @@ aliases:
     - /ecommerce-platforms/prestashop-1-7/
     - /prestashop/
 ---
-This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions with your Prestashop 1.7 webshop.
+This technical manual is for installing and configuring our latest free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.7 webshop.
+
+{{< alert-notice>}} If you are still using the [deprecated plugin](https://github.com/MultiSafepay/prestashop), we recommend migrating to this new version as soon as possible. {{< /alert-notice >}}
 
 {{< details title="Support" >}}
 
@@ -138,6 +140,8 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 2. Go to **Modules** > **Module Manager**.
 3. Click **Upload a module**.
 4. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
+5. Clear your cache.
+
 
 ## Configuration
 1. Sign in to your PrestaShop 1.7 backend.
@@ -146,7 +150,9 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 4. On the **Payment methods** tab, enable the relevant payment methods.
 5. Click **Save**.
 
-## Upgrading to version 5.x from an older version
+## Upgrading from 4.x or lower
+
+To upgrade to version 5.x from an older version, follow these steps:
 
 1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
 2. On the **Payment methods** tab, set all payment methods to **Off**.
@@ -154,4 +160,4 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 4. Install and configure the new plugin following the instructions below.
 5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
-
+If upgrading from 5.x to a newer version, see [Updating the plugin](/prestashop-1-7/updates).

@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/bank-transfer/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -22,20 +22,17 @@ sequenceDiagram
     participant Mu as MultiSafepay
     participant Me as Merchant
 
-    C->>Mu: Selects Bank Transfer at checkout (direct/redirect)
-    Mu->>C: Emails MultiSafepay's bank account details
-    Note over Mu,C: Or email the details yourself
-    C->>Mu: Transfers funds (online or with teller)
-    Note over C,Mu: Takes 1–3 business days 
+    C->>Mu: Selects Bank Transfer at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to confirm <br> their bank account number and (optionally) bank country, <br> then displays payment instructions
+    else Direct flow
+    Mu->>C: Redirects to your success page, <br> then emails payment instructions <br> (or email the instructions yourself)
+    end
+    C->>Mu: Transfers funds (online or with teller) <br> (takes 1–3 business days) 
     Mu->>Me: Matches payment and settles funds
     
 {{< /mermaid >}}
 &nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to your success page and receives our bank details by email. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), where they confirm their bank account number and (optionally) bank country. {{< br >}} MultiSafepay's bank account details are then displayed. | 
 
 ## 1. Email payment details
 
@@ -49,7 +46,7 @@ You can view the payment details for a transaction in your MultiSafepay dashboar
 
 You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;2.&nbsp;below).
 
-To prevent us from emailing the customer, in your `POST /orders` request, set the `disable_send_email` parameter to `true`. See API reference – [Bank Transfer](/api/#bank-transfer).
+To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
 
 ## 2. Customer transfers funds
 
@@ -85,16 +82,12 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete  payment within 60 days and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+| Awaiting the customer to transfer the funds. | Initialized | Initialized |
+| MultiSafepay has collected payment. | Completed | Completed |
+| You cancelled the transaction. | Void   | Void/Cancelled   |
+| The customer didn't complete  payment within 60 days. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |

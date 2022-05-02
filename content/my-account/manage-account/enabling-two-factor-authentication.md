@@ -33,7 +33,7 @@ To enable 2FA for your MultiSafepay account, you must have administrator rights.
 
 {{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling two-factor authentication in your MultiSafepay dashboard" align="center" screen_size="desktop" >}}
 
-For support, email the Support Team at <support@multisafepay.com>
+For support, email <support@multisafepay.com>
 
 ### User
 
@@ -57,4 +57,4 @@ The first time the user signs in to the MultiSafepay dashboard after 2FA is enab
 - After 5 unsuccessful 6-digit token inputs, the user's account is blocked. Only administrators can unblock user accounts. 
 - If a user loses their 2FA device, disable and re-enable 2FA on their account. 
 
-For support, email the Support Team at <support@multisafepay.com>
+For support, email <support@multisafepay.com>

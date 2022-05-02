@@ -37,7 +37,7 @@ Email a request to activate MOTO to <sales@multisafepay.com>
 
 The Risk Team assesses your request and, if approved, activates MOTO for your MultiSafepay account. 
 
-## Via your MultiSafepay dashboard
+## Dashboard
 
 Once activated, to process MOTO payments, follow these steps:
 
@@ -53,7 +53,9 @@ Once activated, to process MOTO payments, follow these steps:
 6. Click **Submit order**.  
 The transaction appears in your **Transaction overview**.
 
-## Via our API
+## API
 
-See API reference – [MOTO orders](/api/#moto-orders).
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order.
+
+In the `gateway_info` object, include the `moto` parameter.
 
