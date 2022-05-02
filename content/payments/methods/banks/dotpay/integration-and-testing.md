@@ -17,7 +17,7 @@ aliases:
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. See also Examples > Dotpay redirect. |
 | **Ready-made integrations** | Dotpay is supported in all our [ready-made integrations](/integrations/ready-made/). |
-| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) – [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ## Testing

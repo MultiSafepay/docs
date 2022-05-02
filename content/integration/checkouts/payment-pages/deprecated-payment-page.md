@@ -31,6 +31,7 @@ It does **not** support the following methods:
 - Santander
 - Sofort
 - Trustly
+- WeChat Pay
   
 
 

@@ -22,7 +22,7 @@ aliases:
 | | |
 |---|---|
 | **Ready-made integrations** | Apple Pay (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** VirtueMart, OsCommerce, X-Cart, and Zen Cart. {{< br >}} For most of our ready-made integrations, if the customer uses an incompatible device, Apple Pay doesn't appear on the checkout page. {{< br >}} For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout page on incompatible devices, but throws an error when clicked and the payment button is disabled.   |
-| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) – [Current version](/payment-pages/activation/) only {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 | **Apple branding** | When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing). |
 
