@@ -39,7 +39,7 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 
 | Action | Description | Order status | Transaction status |
 |---|---|---|---|
-|  Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
+| Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |
 | Full capture | The full amount is captured relating to a previous order ID. | Completed    | Completed  |
 | Partial cancel reservation | The reserved or remaining amount that was partially captured has been cancelled. | Void | Void |
@@ -52,7 +52,7 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 - VISA: 7 days
 - Mastercard and Maestro: 30 days
 
-After expiration, the issuer can cancel the authorization and the funds are returned to the customer’s account.
+After expiration, the issuer can cancel the authorization.
 
 ## Activation
 
