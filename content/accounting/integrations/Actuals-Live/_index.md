@@ -29,4 +29,4 @@ To check that your Actuals account is successfully connected to your MultiSafepa
 
 **Note:** Actuals imports new transactions daily, between 02:00 AM and 05:00 AM (CET/CEST).
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

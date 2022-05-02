@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/request-to-pay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,18 +24,17 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Request to Pay at checkout
-    Mu->>C: Connects to Deutsche Bank (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects customer to online banking
+    end
     C->>D: Authenticates account and authorizes SEPA bank transfer
-    D->>Mu: Transfers funds 
-    Note over D,Mu: Within 24 hours <br> (if Instant SEPA not supported)
+    D->>Mu: Transfers funds (within 24 hours, <br> if Instant SEPA not supported)
     Mu->>Me: Settles funds
     
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. |
 
 ## Payment statuses
 
@@ -49,22 +48,18 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| Deutsche Bank is processing the transaction and transfering the funds. | Completed  | Uncleared |
-| The transaction is complete. | Completed | Completed |
-| The transaction was declined. | Declined | Declined   |
-| The transaction was cancelled. | Void | Void |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-| The refund was declined. | Declined | Declined |
+| The customer has been redirected to Deutsche Bank. | Initialized | Initialized |
+| Deutsche Bank has authorized the transaction and is transfering the funds. | Completed  | Uncleared |
+| MultiSafepay has collected payment. | Completed | Completed |
+| Deutsche Bank declined the transaction. | Declined | Declined   |
+| The customer cancelled the transaction at Deutsche Bank. | Void | Void |
+| The customer didn't complete payment within 1 hour. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
+| Refund declined. | Declined | Declined |
 
 
 

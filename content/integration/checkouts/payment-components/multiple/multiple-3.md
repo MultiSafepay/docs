@@ -97,9 +97,9 @@ Render the account details in the interface for the customer with clear instruct
 
 ### Create an order
 
-Create an order from your server, appending the `payment_data` collected from the Payment Component UI to the order data.
+Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
-See API reference – [Payment Component order](/api/#payment-component-orders).
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment component.
 
 {{< two-buttons
 

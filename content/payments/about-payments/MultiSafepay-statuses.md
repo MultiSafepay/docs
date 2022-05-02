@@ -32,20 +32,20 @@ The table below sets out possible order and transaction statuses and what they c
 | Description | Order status | Transaction status |
 |---|---|--|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
+| MultiSafepay has collected payment. | Completed | Completed |
 | The transaction has been cancelled. | Void | Cancelled |
 | The customer has requested a chargeback. | Void | Void |
 | The customer didn't complete payment and the transaction expired. {{< br >}} Transaction expiry times vary per payment method. | Expired | Expired |
 | The [issuer](/glossaries/multisafepay-glossary/#issuer) or [acquirer](/glossaries/multisafepay-glossary/#acquirer) has declined the transaction. {{< br >}} See also [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined |
-| Manually [authorize or decline the transaction](/faq/finance/evaluating-uncleared-card-transactions/). | Uncleared | Uncleared |
+| Manually [authorize or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | Manually change the order status to shipped. | Shipped | Uncleared |
 
 ### Refunds and chargebacks
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has requested a refund.| Initialized/Reserved | Initialized/Reserved |
-| The refund/chargeback is complete. | Completed | Completed |
+| Refund initiated.| Initialized/Reserved | Initialized/Reserved |
+| Refund/chargeback complete. | Completed | Completed |
 | The refund has been processed successfully.| Refunded | Refunded |
 | The [partial refund](/payments/refunds/) has been processed successfully.| Partial_refunded | Partial_refunded |
 | The refund was declined. | Declined | Declined |

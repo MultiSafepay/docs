@@ -18,15 +18,15 @@ The MultiSafepay Magento 2 plugin supports [Payment Components](/payment-compone
 
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
 
-## Activating the Payment Component
+## Activating the payment component
 
-To activate the Payment Component in your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
+To activate the payment component in your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your Magento 2 backend.
 2. Go to **Configuration** > **Credit card**, and then click **Configure**.
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
-For questions, email the Integration Team at <integration@multisafepay.com>
+For questions, email <integration@multisafepay.com>
 
-**Note:** If you have a custom checkout and encounter a conflict with the Payment Component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

@@ -10,13 +10,13 @@ aliases:
     - /integrations/multisafepay-gateway/
     - /integrations/generic-gateways/
 ---
-Some of our ready-made integrations use a generic gateway, which redirects customers from your webshop checkout to a MultiSafepay payment page displaying your selected payment methods. You can specify which methods to include, and how to display their logos on the page.
+Some of our ready-made integrations use a generic gateway, which redirects customers from your webshop checkout to a [payment page](/payment-pages/) displaying your selected payment methods. You can specify which methods to include, and how to display their logos on the page.
 
 Generic gateways support:
 
 - All payment methods
 - All [payment features](/payment-features/), except [Recurring Payments](/features/recurring-payments/)
-- [Redirect requests](/developer/direct-vs-redirect/) only
+- [Redirect requests](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) only
 
 Using a generic gateway means you don't need to update your integration when we add new payment methods. 
 
@@ -24,7 +24,7 @@ Using a generic gateway means you don't need to update your integration when we 
 
 Generic gateways are particularly useful for integrating [gift cards](/payment-methods/gift-cards/), including [custom gift cards](/payment-methods/gift-cards/custom-cards/). This is because we don't support all [open-loop gift cards](/payment-methods/gift-cards/open-loop-closed-loop/) in our ready-made integrations and **no** closed-loop gift cards. 
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 
 ### Co-branded credit cards
 
@@ -45,13 +45,13 @@ For how to configure generic gateways, see the manual of your ready-made integra
 - [Shopware 5](/shopware-5/generic-gateways/), [Shopware 6](/shopware-6/generic-gateways/)
 - [WooCommerce](/woo-commerce/generic-gateways/)
 
-Use the relevant [payment method gateway IDs](/developer/gateway-ids).
+Use the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
 
 **Note:** Our [Lightspeed app](/lightspeed/) supports similar functionality automatically and doesn't require configuration.
 
 ## MultiSafepay gateways
 
-Our ready-made integrations also support a MultiSafepay payment gateway. This redirects customers from your webshop checkout to a MultiSafepay payment page displaying **all** of your activated payment methods. 
+Our ready-made integrations also support a MultiSafepay payment gateway. This redirects customers from your webshop checkout to a MultiSafepay [payment page](/payment-pages/) displaying **all** of your activated payment methods. 
 
 To activate the MultiSafepay gateway for all websites under your account:
 

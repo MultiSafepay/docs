@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/wallet/alipay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,17 +23,16 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Alipay at checkout
-    Mu->>C: Connects to Alipay (direct/redirect)
-    C->>A: Completes payment
+    alt Redirect flow
+    Mu->>C: Redirects to payment page
+    else Direct flow
+    Mu->>A: Payment is processed with Alipay
+    end
     A->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The payment is processed directly with Alipay. | 
-| **Redirect flow** | The customer is briefly redirected to a [MultiSafepay payment page](/payment-pages/) before the payment is processed directly with Alipay. |
 
 ## Payment statuses
 
@@ -47,20 +46,14 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
-| Alipay has declined the transaction. | Declined | Declined   |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 5&nbsp;hours and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| The customer has been redirected to Alipay. | Initialized | Initialized |
+| MultiSafepay has collected payment. | Completed | Completed |
+| The customer didn't complete payment within 5&nbsp;hours, or it was cancelled. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed      | Completed   |
 
 
 

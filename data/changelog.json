@@ -2,6 +2,14 @@
     "entries" : 
     [   
         {
+            "date": "Apr 6, 2022",
+            "change": "Updated [API reference](https://docs-api.multisafepay.com/reference/introduction)"
+        },
+        {
+            "date": "Apr 5, 2022",
+            "change": "[Credit card errors](/about-payments/credit-card-errors/)"
+        },
+        {
             "date": "Mar 14, 2022",
             "change": "[Bancontact WIP Service](/payment-methods/bancontact/overview/#bancontact-wip-service)"
         },
@@ -31,11 +39,7 @@
         },
         {
             "date": "Jul 21, 2021",
-            "change": "New accounting integration: [Duopact](/business/accounting/integrations/yuki/integrations/duopact/)"
-        },
-        {
-            "date": "Jul 14, 2021",
-            "change": "New section: [Business operations](/business)"
+            "change": "New accounting integration: [Duopact](/accounting/integrations/yuki/integrations/duopact/)"
         },
         {
             "date": "Jul 13, 2021",
@@ -43,7 +47,7 @@
         },
         {
             "date": "Jul 12, 2021",
-            "change": "New section: [Account](/account)"
+            "change": "New section: [My account](/my-account/)"
         },
         {
             "date": "Jul 11, 2021",
@@ -51,15 +55,15 @@
         },
         {
             "date": "Jul 10, 2021",
-            "change": "New API request: [Payouts](/api/#payouts)"
+            "change": "New API request: [Pay out affiliate](https://docs-api.multisafepay.com/reference/payoutaffiliate)"
         },
         {
             "date": "Jul 10, 2021",
-            "change": "New API request: [Charges](/api/#charges)"
+            "change": "New API request: [Charge affiliate](https://docs-api.multisafepay.com/reference/chargeaffiliate)"
         },
         {
             "date": "Jul 10, 2021",
-            "change": "New API request: [Balances](/api/#balances)"
+            "change": "New API request: [List affiliate balances](https://docs-api.multisafepay.com/reference/listaffiliatebalances)"
         },
         {
             "date": "Jul 9, 2021",

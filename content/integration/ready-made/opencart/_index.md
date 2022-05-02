@@ -42,7 +42,7 @@ Contact us:
 &nbsp;  
 - MultiSafepay account – See [Getting started](/getting-started/).
 - OpenCart 2.X, 3.X
-- Tested on PHP 7.2, 7.3
+- PHP version 7.2, 7.3, or 7.4
 
 {{< /details >}}
 

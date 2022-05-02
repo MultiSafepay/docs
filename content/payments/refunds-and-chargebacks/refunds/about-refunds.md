@@ -10,7 +10,7 @@ url: '/refunds/about/'
 
 This page provides information about processing refunds with MultiSafepay. 
 
-For support with refunds, email the Support Team at <support@multisafepay.com>
+For support with refunds, email <support@multisafepay.com>
 
 ## Refund rules
 
@@ -74,4 +74,4 @@ The script is written in PHP, so make sure you have a PHP interpreter installed.
 
 For how to use the script and to download, see MultiSafepay GitHub – [Refund script](https://github.com/MultiSafepay/refund-script).
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

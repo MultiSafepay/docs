@@ -10,7 +10,7 @@ url: '/payment-methods/klarna/activation/'
 aliases:
     - /payments/methods/billing-suite/klarna/activation/
 ---
-{{< blue-notice >}} If using a ready-made integration: 
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
 - Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
@@ -41,6 +41,6 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 
 

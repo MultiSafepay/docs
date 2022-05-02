@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/banks/ideal/payment-flow/
     - /payments/methods/banks/idealqr/payment-flow/
 ---
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,18 +23,19 @@ sequenceDiagram
     participant CB as Customer's bank
     participant Me as Merchant
 
+    alt Redirect flow
     C->>Mu: Selects iDEAL (QR) at checkout
-    Mu->>C: Connects to customer's bank (direct/redirect)
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
+    else Direct flow
+    C->>Mu: Selects iDEAL (QR) and their bank at checkout
+    Mu->>C: Redirects to online banking
+    end
     C->>CB: Authenticates account/scans QR code and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer selects iDEAL and their bank at checkout and is redirected to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/) to select their bank, and then to their online banking environment. | 
+&nbsp;   
 
 ## Payment statuses
 
@@ -48,19 +49,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
-| The customer cancelled the transaction via their bank. | Void   | Cancelled/Void   |
+| The customer has been redirected to their bank. | Initialized | Initialized |
+| MultiSafepay has collected payment. | Completed | Completed |
+| The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
 | iDEAL processing error. | Declined   | Declined   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |
-| The refund is pending (banking only).  | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
+| The customer didn't complete payment within 1.5 hours. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |
+| Refund pending (banking only).  | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 

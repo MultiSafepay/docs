@@ -1,6 +1,6 @@
 ---
 title: 'Deposits'
-weight: 60
+weight: 70
 meta_title: "Deposits - MultiSafepay Docs"
 read_more: "."
 url: '/account/deposits/'

@@ -13,7 +13,7 @@ aliases:
     - /payments/methods/wallet/paypal/activation/
 ---
 
-{{< blue-notice >}} If using a ready-made integration: 
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
 - Once you have activated the method for your MultiSafepay account, you must also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
@@ -46,11 +46,9 @@ To complete the configuration, change the language encoding setting of your PayP
 6. Select the **Yes** checkbox.
 7. Click **Save**.
 
-For support or if any steps are inaccurate, email the Integration Team at <integration@multisafepay.com>
-
 {{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
 
-For support or if any steps are inaccurate, email the Integration Team at <integration@multisafepay.com>
+For support or if any steps are inaccurate, email <integration@multisafepay.com>
 
 For further support, see PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us).
 
@@ -77,7 +75,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 
 7. Click **Save changes**.
 
-**Note:** If PayPal is not visible as a payment method in your MultiSafepay dashboard, email the Integration Team at <integration@multisafepay.com> 
+**Note:** If PayPal is not visible as a payment method in your MultiSafepay dashboard, email <integration@multisafepay.com> 
 
 Your account is now configured. We strongly recommend [testing some transactions](/payment-methods/paypal/integration-testing/) before processing live payments.
 

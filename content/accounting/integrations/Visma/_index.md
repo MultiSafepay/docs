@@ -30,4 +30,4 @@ To import a MultiSafepay Accountant export, see Visma - [Contact](https://nl.vis
 
 {{< /details >}}
 
-For any questions, email the Support Team at <support@multisafepay.com>
+For any questions, email <support@multisafepay.com>

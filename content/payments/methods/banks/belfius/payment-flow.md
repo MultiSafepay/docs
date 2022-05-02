@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/belfius/how-does-belfius-work/
     - /payments/methods/banks/belfius/payment-flow/
 ---
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,17 +23,17 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Belfius at checkout
-    Mu->>C: Connects to Belfius (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
+    end
     C->>B: Authenticates account and completes payment
     B->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their online banking environment. | 
-| **Redirect flow** | The customer is redirected first to a [MultiSafepay payment page](/payment-pages/), and then to their online banking environment. | 
 
 ## Payment statuses
 
@@ -47,35 +47,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete.| Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 5 days and the transaction expired. | Expired | Expired |
+| The customer has been redirected to Belfius. | Initialized | Initialized |
+| MultiSafepay has collected payment.| Completed | Completed |
+| You cancelled the transaction. | Void   | Void/Cancelled   |
+| The customer didn't complete payment within 5 days. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved | Reserved |
+| Refund complete. | Completed | Completed |
 
-{{< blue-notice >}} **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
+{{< blue-notice >}} If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
 We import our bank statements daily and finalize all incoming payments. {{< /blue-notice >}}
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Reserved |
-| The refund is complete. | Completed | Completed |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

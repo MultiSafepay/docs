@@ -7,7 +7,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/configuring-generic-gateways/
 
 ---
-The PrestaShop 1.7 plugin offers a [generic gateway](/faq/general/generic-gateways/) that supports all payment methods. You can filter the gateway by:
+The PrestaShop 1.7 plugin offers a [generic gateway](/developer/generic-gateways/) that supports all payment methods. You can filter the gateway by:
 
 - Country
 - Currency
@@ -18,7 +18,7 @@ To configure the generic gateway:
 
 1. Sign in to your [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Improve** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](/developer/gateway-codes) and the gateway icon.
+3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway icon.
 
 
     

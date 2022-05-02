@@ -1,7 +1,6 @@
 ---
 title : "Supported checkouts and themes"
 meta_title: "PrestaShop 1.7 - Supported checkouts and themes - MultiSafepay Docs"
-
 layout: "faqdetail"
 url: '/prestashop-1-7/checkouts-themes/'
 read_more: "."
