@@ -73,13 +73,13 @@ To request automated reports, email the following information to <integration@mu
 - Make sure our IP address is on your allow list. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 - To deliver the report using SFTP Push requests, you must support at least one of the following encryption algorithms on your SFTP server:
 
-  sh-ed25519,
-  rsa-sha2-512,
-  rsa-sha2-256,
-  ecdsa-sha2-nistp521,
-  ecdsa-sha2-nistp384,
-  ecdsa-sha2-nistp256,
-  ssh-rsa
+    - sh-ed25519
+    - rsa-sha2-512
+    - rsa-sha2-256
+    - ecdsa-sha2-nistp521
+    - ecdsa-sha2-nistp384
+    - ecdsa-sha2-nistp256
+    - ssh-rsa
 
 {{< /details >}}
 
