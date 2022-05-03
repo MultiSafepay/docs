@@ -17,7 +17,7 @@ aliases:
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. See also Examples > SEPA Direct Debit direct/redirect. |
 | **Ready-made integrations** | SEPA Direct Debit (direct) is supported in all our [ready-made integrations](/integrations/ready-made/). |
-| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
+| **Checkout options** | [Payment Components](/payment-components/) (embedded) {{< br >}} [Multisafepay payment pages](/payment-pages/) (hosted) – [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ## Testing
