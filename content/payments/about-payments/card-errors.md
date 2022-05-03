@@ -7,149 +7,266 @@ short_description: "Reason codes for credit card errors."
 url: '/about-payments/credit-card-errors/'
 ---
 
-This page sets out reason codes for common credit card errors and recommended actions to take. 
+This page sets out reason codes for common credit card errors returned by [issuers](/glossaries/credit-cards/#issuer) and recommended actions to take. 
 
-Only the cardholder can contact the [issuer](/glossaries/credit-cards/#issuer) to find out the specific reason.
+Only the cardholder can contact the issuer to find out the specific reason.
+
+If the issue can't be resolved, ask the cardholder for another card number, or to use a different payment method.
 
 #### 01: Refer to card issuer 
-The issuer won't authorize the transaction.  
+The issuer wants to check the transaction.  
 
-- Ask the cardholder to contact the issuer. Once resolved, try again.
-- If not resolved, ask the cardholder for another card, or to use a different payment method.
+Cardholder: Contact the issuer to complete the transaction.
+
+#### 02: Refer to card issuer, special condition 
+The issuer wants to check the transaction.  
+
+Cardholder: Contact the issuer to complete the transaction.
+
+#### 03: Invalid merchant or service provider
+The merchant or service provider is restricted by the issuer. 
+
+Cardholder: Contact the issuer.
 
 #### 04: Pick up card 
-The issuer won't authorize the transaction.  
+The transaction was declined because the cardholder's account is closed or blocked.  
 
-- Ask the cardholder to contact the issuer. Once resolved, try again.
-- If not resolved, ask the cardholder for another card, or to use a different payment method.
+Cardholder: Contact the issuer.  
+Merchant: Do **not** reattempt. The issuer will never approve. 
 
-#### 05: Do not honour / Card declined by issuer 
-The issuer has flagged a problem with the card and advises you not to accept it.  
+#### 05: Do not honor 
+The issuer has flagged a problem with the card.  
 
-- Ask the cardholder to contact the issuer. Once resolved, try again.
-- If not resolved, ask the cardholder for another card, or to use a different payment method. 
+Cardholder: Contact the issuer.
 
 #### 07: Pick up card, special conditions
-The issuer has detected fraudulent activity on the cardholder's account and won't authorize the transaction.  
+The issuer has detected fraudulent activity on the cardholder's account.  
 
-- If the cardholder has successfully paid with this card before, suggest they try a different card or payment method and advise them to contact the issuer. 
-- If the cardholder is a new customer, assume fraudulent activity. Do **not** attempt to run the card again. 
+Cardholder: If you have successfully paid with this card before, contact the issuer. 
+Merchant: Do **not** reattempt. The issuer will never approve. 
+
+#### 08: Honor with ID
+The issuer needs to verify the cardholder's identity.
+
+Cardholder: Contact the issuer. 
+
+#### 10: Partial approval
+The issuer can approve an amount less than requested, if supported by the merchant.
 
 #### 12: Invalid transaction
-Correct the payment method type and payment details, and then try again.
+Cardholder: Check the payment method type and payment details.  
+Merchant: Do **not** reattempt. The issuer will never approve.
 
 #### 13: Invalid amount
-The payment amount is negative or non-numeric.  
+The payment amount exceeds issuer policies or regulatory limits.  
 
-Correct the amount, and then try again. 
+Cardholder: Contact your bank. 
 
-#### 14: Invalid card number 
-- Correct the card number, and then try again.  
-- Pauze any scheduled recurring payments or you will incur an authorization fee for each attempt with the invalid card number. 
+#### 14: Invalid card/account number 
+The card may have expired, or the account may be invalid or closed. 
 
-#### 15: No such issuer, decline
+Cardholder: Contact the issuer.   
+Merchant: Do **not** reattempt. The issuer will never approve. 
+
+#### 15: Invalid issuer
 The first digit of the card number doesn't match any issuer.  
 
-Correct the first digit of the card number, and then try again. 
+Cardholder: Check the first digit of the card number, or contact the issuer.  
+Merchant: Do **not** reattempt. The issuer will never approve.
 
 #### 19: Re-enter transaction
-There was an unknown error.  
+There was a transaction error, or the issuer was temporarily unavailable.  
 
-Try again. If still unsuccessful after several attempts, email <support@multisafepay.com>
+Merchant: Reattempt. If still unsuccessful after several attempts, email <support@multisafepay.com>
 
-#### 28: File update file locked
+#### 28: File temporarily unavailable
 Authorization failed due to a temporary error.  
 
-Try again. If still unsuccessful after several attempts, email <support@multisafepay.com>
+Merchant: Reattempt. If still unsuccessful after several attempts, email <support@multisafepay.com>
 
-#### 41: Lost card, pick up
-The cardholder has reported this card lost or stolen. The issuer won't authorize any attempted transactions. 
+#### 30: Format error
+Merchant: Check the transaction data.
 
-- If the cardholder is a new customer, assume fraudulent activity. Do **not** attempt to run the card again.
-- If a recurring payment, the cardholder may have reported the card lost or stolen since the last successful payment. Contact them to ask for a new card number, or another payment method. Update the recurring payment with the new payment details. 
+#### 34: Fraud suspicion
+Cardholder: Contact the issuer. 
 
-#### 51: Insufficient funds
+#### 41: Lost/blocked/cancelled card
+The cardholder has reported this card lost. 
+
+Merchant: 
+
+- If the cardholder is a new customer, assume fraudulent activity. <br> Do **not** reattempt. The issuer will never approve.
+- If a recurring payment, the cardholder may have reported the card lost since the last successful payment. Contact them to ask for a new card number, or another payment method. Update the recurring payment with the new payment details. 
+
+#### 43: Stolen card
+Merchant: Do **not** reattempt. The issuer will never approve.
+
+#### 46: Closed account
+Merchant: Do **not** reattempt. The issuer will never approve.
+
+#### 51: Insufficient funds/over credit limit
 The card is over the holder's credit limit, or will go over if the transaction is processed.   
 
-- Ask the cardholder to contact the issuer to increase their credit limit, or pay into their account to make more credit available. Once resolved, try again. 
-- If not resolved, ask the cardholder for another card number, or use a different payment method. 
+Cardholder: Contact the issuer to increase your credit limit, or pay into your account to make more credit available. Once resolved, reattempt.  
+Merchant: Consider implementing a partial authorization service to accept a lesser amount than requested.
 
 #### 54: Expired card
-- Ask the cardholder for a new card number, and process the payment again. 
-- Make sure you update any recurring payments with the new card details. 
+Cardholder: Check the expiry date or try another card.  
+Merchant: Do **not** reattempt. Make sure you update any recurring payments with the new card details. 
+
+#### 55: Invalid PIN
+Cardholder: Try again with the correct PIN.  
+Merchant: Reattempt as a non-PIN transaction, if applicable. 
 
 #### 57: Transaction not permitted to cardholder
-The card doesn't allow this type of transaction. 
+The cardholder isn't permitted to perform this type of transaction, e.g.:
 
-- Ask the cardholder to contact the issuer and request permission for this type of transaction. Once resolved, try again. 
-- If not resolved, ask the cardholder for another card, or to use a different payment method. 
+- Product type
+- Issuer policy
+- Restricted country or across borders
+- Card not yet activated
 
-#### 58: Transaction not permitted to terminal
-Your MultiSafepay account is not set up for this payment method or type of transaction.  
+Cardholder: Contact the issuer.  
+Merchant: Do **not** reattempt. The issuer will never approve.
 
-Email <support@multisafepay.com>
+#### 58: Transaction not permitted to acquirer/terminal
+Merchant: Your MultiSafepay account is not set up for this payment method or type of transaction. Email <support@multisafepay.com>
+
+#### 59: Suspected fraud (Visa)
+Cardholder: Contact the issuer.  
+Merchant: If the cardholder confirms that the issue is resolved, reattempt.
+
+#### 61: Exceeds withdrawal amount limit
+Cardholder: Contact the issuer.  
+Merchant: Do **not** reattempt on the same day to allow limits to reset.
 
 #### 62: Restricted card
-**Either** your MultiSafepay account is not set up for this payment method or type of transaction.  
+The card is restricted, e.g.:
 
-Email <support@multisafepay.com>
+- Deceased cardholder
+- Permanently blocked
+- Embargoed country
 
-**Or** the card has restrictions for online or international payments.  
+Cardholder: Contact the issuer.  
+Merchant: If the cardholder confirms the restriction has been removed, reattempt. Do&nbsp;**not** alter the country code or any other transaction data.
 
-- Ask the cardholder to contact the issuer. Once resolved, try again.  
-- If not resolved, ask the cardholder for another card, or to use a different payment method. 
+#### 63: Security violation
+There is a security violation, suspected fraud, or the card is temporarily blocked. 
 
-#### 63: Security violation on credit card or machine
-The CID or CVV2 code provided doesn't match the card.
+Cardholder: Contact the issuer.
 
-- Ask the cardholder for the correct code, and then try again. 
-- You can try again _without_ a code, but be aware that if the cardholder doesn't have the correct code, it may be a fraudulent transaction.
-
-#### 65: Exceeds withdrawal frequency limit
+#### 65: Exceeds withdrawal count limit/authentication requested
 The cardholder has exceeded their maximum daily credit limit, or will do if the transaction is processed. 
 
-- If the cardholder is a new customer, the transaction may be fraudulent. 
-- Ask the cardholder to contact the issuer to increase their credit limit. Once resolved, try again. 
-- If not resolved, ask the cardholder for another card, or to use a different payment method.
+Cardholder: Contact the issuer to increase your credit limit or provide authentication. Once resolved, reattempt.  
+Merchant: If the cardholder is a new customer, the transaction may be fraudulent. Do&nbsp;**not** reattempt on the same day to allow limits to reset. 
 
-#### 85 or 00: Issuer system unavailable
-Authorization failed due to a temporary communication error with the issuer's system. 
+#### 68: Time out
+&nbsp;
 
-Try again. If still unsuccessful after several attempts, email <support@multisafepay.com>
+#### 70: Contact card issuer
+Cardholder and merchant: Contact the issuer.
 
-#### 91: Issuer or switch is inoperative
+#### 71: PIN not changed
+A PIN change request was not completed successfully.
+
+Cardholder: Contact the issuer.
+
+#### 75: Allowable number of PIN tries exceeded
+Merchant: Do **not** reattempt on the same day to allow limits to reset.
+
+#### 78: Invalid/non-existant account
+The account is temporarily blocked. The card may not have been activated yet. 
+
+Cardholder: Contact the issuer.  
+Merchant: If the cardholder confirms the account is unblocked, or the card has been activated, reattempt.
+
+#### 82: Negative CAM, dCVV, iCVV, or CVV results
+There may have been an issue with the card reader or a voltage spike during the read. 
+
+Merchant: Reattempt, but monitor for potential fraud. 
+
+#### 83: Authentication needed
+Merchant: Enable 3D Secure and reattempt.
+
+#### 85: Not declined
+Used for account status inquiries.
+
+#### 86: Cannot verify PIN
+Merchant: You can reattempt within the same day, or attempt POS transactions as non-PIN transactions, if applicable. 
+
+#### 87: No cashback allowed
+&nbsp;
+
+#### 88: Cryptographic failure
+The issuer cannot authorize the transaction for technical reasons.
+
+#### 89: Unacceptable PIN
+Cardholder: Reattempt with the correct PIN.
+
+#### 91: Authorization/issuer system inoperative
 The issuer couldn't be contacted or the authorization timed out. 
 
-Try again. If still unsuccessful after several attempts, email <support@multisafepay.com>
+Merchant: You can reattempt within the same day.
+
+#### 92: Unable to route the transaction
+There was a technical destination error in the issuer's system.
 
 #### 93: Transaction cannot be completed
-There is a violation on the cardholder's account and the issuer declined the transaction. 
+There is a temporary or permanent restriction on the cardholder's account, e.g.: 
 
-- Ask the cardholder to contact the issuer. Once resolved, try again. 
-- If not resolved, ask the cardholder for another card, or to use a different payment method.
+- Gambling
+- Unauthorized card-not-present transaction
+- No two-factor authentication  
 
-#### 96: System malfunction
-Authorization failed due to a temporary error in the issuer's system. 
+Cardholder: Contact the issuer.   
+Merchant: If the cardholder confirms the restriction has been removed, reattempt. Do&nbsp;**not** alter any transaction data. 
 
-Try again. If still unsuccessful after several attempts, email <support@multisafepay.com>
+#### 94: Duplicate transmission detected
+The same transaction has been sumbitted more than once. 
+
+#### 96: System error
+There is a temporary error in the issuer's system. 
+
+Merchant: Reattempt. If still unsuccessful after several attempts, email <support@multisafepay.com>
 
 #### CV: Card type verification error
-**Either** the CID or CVV2 code provided doesn't match the card.  
+**Either**  
+The CID or CVV2 code provided doesn't match the card.  
 
-- Ask the cardholder for the correct code, and then try again. 
-- You can try again _without_ a code, but be aware that if the cardholder doesn't have the correct code, it may be a fraudulent transaction. 
+Cardholder: Provide the correct code, and then reattempt.  
+Merchant: You can try again _without_ a code, but be aware that if the cardholder doesn't have the correct code, it may be a fraudulent transaction. 
 
-**Or** your MultiSafepay account may be configured incorrectly.  
+**Or**  
+Merchant: Your MultiSafepay account may be configured incorrectly. Email&nbsp;<support@multisafepay.com>
 
-Email <support@multisafepay.com>
+#### R0: Stop payment order
+The cardholder requested the issuer to stop a specific, single recurring payment transaction.
 
-#### R0 or R1: Stop recurring transaction
-The cardholder requested the issuer to cancel a recurring payment.
+Cardholder: Provide an alternative payment method, or contact the issuer.   
+Merchant: Do **not** reattempt. The issuer will never approve. 
 
-To avoid a [chargeback](/chargebacks/), cancel the recurring payment immediately. Then, ask the cardholder what they want to do. If they want to continue the recurring payment with:
+#### R1: Revocation of authorization order
+The cardholder requested the issuer to stop all recurring payment transactions with a specific merchant. 
 
-- The current card, ask them to contact the issuer to remove the stop order against you.
-- Updated card details or a different payment method, get their consent and then update the recurring payment.
+Cardholder: Provide an alternative payment method, or contact the issuer.  
+Merchant: Do **not** reattempt. The issuer will never approve. 
+
+#### R3: Revocation of all authorizations order
+The cardholder requested the issuer to stop all recurring payment transactions for that card.
+
+Cardholder: Provide an alternative payment method, or contact the issuer.  
+Merchant: Do **not** reattempt. The issuer will never approve. 
+
+#### N7: Decline for CVV2 failure
+CVV2 verification failed in card-not-present transaction. 
+
+Merchant: Validate the CVV2 value before reattempting. Monitor reattempts for potential fraud. 
+
+#### 1A: Additional customer authentication required
+The transaction falls within the scope of PSD2 and did not pass 3D Secure.
+
+Merchant: For card-not-present transactions, reattempt with 3D Secure. 
 
 ## Support
 Email <support@multisafepay.com>
