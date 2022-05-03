@@ -134,7 +134,7 @@ Merchant: Your MultiSafepay account is not set up for this payment method or typ
 
 #### 59: Suspected fraud (Visa)
 Cardholder: Contact the issuer.  
-Merchant: If the cardholder confirms, reattempt.
+Merchant: If the cardholder confirms that the issue is resolved, reattempt.
 
 #### 61: Exceeds withdrawal amount limit
 Cardholder: Contact the issuer.  
