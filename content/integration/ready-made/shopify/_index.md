@@ -89,7 +89,6 @@ For more information, email <integration@multisafepay.com>
 
 {{< /details >}} 
 
-For more information, see Shopify – [Recovering abandoned checkouts](https://help.shopify.com/en/manual/orders/abandoned-checkouts).
 ## Installation
 
 To install or migrate, follow these steps:
