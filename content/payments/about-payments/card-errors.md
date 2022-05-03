@@ -217,7 +217,7 @@ There is a temporary or permanent restriction on the cardholder's account, e.g.:
 
 - Gambling
 - Unauthorized card-not-present transaction
-- No 2 factor authentication  
+- No two-factor authentication  
 
 Cardholder: Contact the issuer.   
 Merchant: If the cardholder confirms the restriction has been removed, reattempt. Do&nbsp;**not** alter any transaction data. 
