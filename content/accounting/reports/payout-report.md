@@ -71,7 +71,7 @@ To request automated reports, email the following information to <integration@mu
 - We support SFTP with username/password and username/SSH keys.
 - For SFTP connections, we only support ports **22** and **2222**.
 - Make sure our IP address is on your allow list. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
-- To deliver the report using SFTP Push requests, you must support the following protocol on your SFTP server:
+- To deliver the report using SFTP Push requests, you must support at least one of the following encryption algorithms on your SFTP server:
 
   sh-ed25519,
   rsa-sha2-512,
