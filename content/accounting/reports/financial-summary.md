@@ -42,7 +42,7 @@ Supported formats: Excel or PDF
 
 The report does **not** include:
 
-- Payouts (see [Payout report](/reports/payout-report/))
+- Payouts (see [payout report](/reports/payout-report/))
 - Monthly transaction costs and VAT (see your monthly [VAT invoice](/account/vat-invoices/))
 
 {{< /details >}}
