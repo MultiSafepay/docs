@@ -34,7 +34,7 @@ The transaction was declined because the cardholder's account is closed or block
 Cardholder: Contact the issuer.  
 Merchant: Do **not** reattempt. The issuer will never approve. 
 
-#### 05: Do not honour 
+#### 05: Do not honor 
 The issuer has flagged a problem with the card.  
 
 Cardholder: Contact the issuer.
