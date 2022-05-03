@@ -14,7 +14,7 @@ Supported format: Excel
 
 {{< details title="Report contents" >}}
 &nbsp; 
-| Columns | Description |
+| Headers | Description |
 |---|---|
 | Report created | The date the report was generated |
 | Merchant ID | Your MultiSafepay account number and merchant name |
@@ -23,6 +23,7 @@ Supported format: Excel
 | Date from | The start date of the reporting period |
 | Date till | The end date of the reporting period |
 | Payout currency | The currency the payout was paid in |
+| **Columns** | **Description** |
 | Created date | The date the transaction was initiated |
 | Completed date/time | The date and time the transaction was completed |
 | Mt status | The [transaction status](/about-payments/multisafepay-statuses/) |

@@ -21,7 +21,7 @@ The financial summary provides an overview of revenue and costs for:
 Supported formats: Excel or PDF
 
 {{< details title="Report contents" >}}
-| Columns | Description |
+| Headers | Description |
 |---|---|
 | Report created | The date the report was generated |
 | Merchant ID | Your MultiSafepay account number and merchant name |
@@ -29,6 +29,7 @@ Supported formats: Excel or PDF
 | Date from | The start date of the period the report covers |
 | Date till | The end date of the report period |
 | Group refunds | Whether you have grouped refunds together |
+| **Columns** | **Description** |
 | Description | Payment method/refunds/chargebacks/reversals/transaction fees, broken down by revenue and cost |
 | Column 1 | The transaction fee |
 | Number | The number of transactions |

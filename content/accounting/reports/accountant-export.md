@@ -39,7 +39,7 @@ To include them, in your dashboard or [backend](/glossaries/multisafepay-glossar
 
 {{< details title="Report contents" >}}
 
-| Column | Description |
+| Headers | Description |
 |---|---|
 | Report created | The date the report was generated |
 | Merchant ID | Your MultiSafepay account number |
@@ -50,6 +50,7 @@ To include them, in your dashboard or [backend](/glossaries/multisafepay-glossar
 | Total credit | The amount credited in the report period |
 | Total debit | The amount debited in the report period |
 | Closing balance | The balance at the end date |
+| **Columns** | **Description** |
 | Completed date/time | The date and time the transaction was completed |
 | Amount | The transaction amount |
 | Creditdebit | C means credit, D means debit |
