@@ -7,28 +7,43 @@ url: '/features/3d-secure/dynamic/'
 aliases:
     - /tools/server2server/3d-dynamics
 ---
-
-[3D Secure](/features/3d-secure/about/) authentication is enabled by default for all credit card payments. 
-
-Dynamic 3D Secure lets you set rules to disable 3D Secure for specific credit card payments, e.g. based on:
-
-- Transaction amount
-- Card/customer/IP country
-
-The most common reason for disabling 3D Secure is if you have a lot of customers outside Europe who don't have access to it. Consider setting a rule for transactions with a non-European card and a billing address outside of Europe.
+Dynamic 3D is a MultiSafepay solution that lets you set rules to disable [3D Secure](/features/3d-secure/about/) authentication for specific credit card payments, e.g. based on amount, or card/customer/IP country.
 
 {{< alert-notice >}} **Important:** Removing the layer of security provided by 3D Secure increases the risk of fraud. You bear the risk and become liable for any [fraud-related chargebacks](/chargebacks/). {{< /alert-notice>}}
 
-## Applying for Dynamic 3D Secure
-To apply to use Dynamic 3D Secure, email <sales@multisafepay.com>
+## Use cases
 
-You must:
+The most common reasons for disabling 3D Secure are:
 
-- State why you want to use Dynamic 3D Secure.
+**Customer base outside Europe**  
+You have a lot of customers outside Europe who don't have access to 3D Secure. Consider setting a rule for transactions with a non-European card and a billing address outside of Europe.
+
+**PSD2 exemptions**  
+You want to apply exemptions to [PSD2](/payment-regulations/psd2/) requirements (on request):
+
+- Payments subject to transaction risk analysis (TRA) maximum 250 EUR
+- Low value payments (LVP) under 30 EUR
+
+This can help you optimize conversion and minimize risk.
+
+## Pricing
+MultiSafepay applies a different fee to non-3D Secure transactions. We may also charge a fee for implementing Dynamic 3D. 
+
+To confirm pricing, email <sales@multisafepay.com>
+
+## Activation
+
+Email a request to activate to <sales@multisafepay.com>
+
+In your request:
+
+- State why you want to use Dynamic 3D Secure, e.g. customer base outside Europe, TRA and/or LVP exemption.
 - Provide evidence that you process a significant volume of transactions for customers outside of Europe.
-- Confirm that you understand the increased fraud risk and the fee structure.
-- Specify which sites in your MultiSafepay Control to apply the rule to.
+- Specify which sites under your account this applies to.
 - Confirm you have excellent processing performance, especially for chargebacks.
+- Confirm that you understand the:
+  - Increased fraud risk 
+  - Pricing structure
 
-## Fees
-MultiSafepay applies a different fee to non-3D Secure transactions. We may also charge a fee for implementing Dynamic 3D Secure. 
+## Integration
+Once activated, this solution works automatically. You don't need to do anything to integrate it.
