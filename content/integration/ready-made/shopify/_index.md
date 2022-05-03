@@ -87,11 +87,7 @@ Our Shopify app is unavailable in Norway and Finland.
 
 For more information, email <integration@multisafepay.com>
 
-{{< /details >}}
-
-### Second Chance 
-
-[Second Chance](/features/second-chance/) is **not** supported because Shopify offers a similar native service. 
+{{< /details >}} 
 
 For more information, see Shopify – [Recovering abandoned checkouts](https://help.shopify.com/en/manual/orders/abandoned-checkouts).
 ## Installation
