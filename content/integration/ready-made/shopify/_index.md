@@ -22,7 +22,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopify/
 ---
 
-{{< alert-notice >}} **Urgent action required:** [Migrate](#installation) to our updated app before March 31, 2022.  {{< /alert-notice>}}
+{{< alert-notice >}} **Urgent action required:** [Migrate to our updated app](#installation) before March 31, 2022.  {{< /alert-notice>}}
 
 This technical manual is for installing/migrating to our free app for integrating MultiSafepay payment solutions into your Shopify webshop.
 
@@ -87,7 +87,7 @@ Our Shopify app is unavailable in Norway and Finland.
 
 For more information, email <integration@multisafepay.com>
 
-{{< /details >}}
+{{< /details >}} 
 
 ## Installation
 
