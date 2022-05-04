@@ -3,14 +3,16 @@ title: "Accountant export"
 meta_title: "Accountant export - MultiSafepay Docs"
 read_more: '.'
 weight: 1
+url: '/reports/accountant-export/'
 aliases:
     - /tools/reports/accountant-report-export/
     - /tools/reports/report-validity/
     - /tools/reports/n-codes/
     - /tools/reports/automatic-reports/
+    - /accounting/reports/accountant-export/
 ---
 
-The Accountant export lists all successful incoming and outgoing transactions, including the:
+The accountant export lists all successful incoming and outgoing transactions, including the:
 
 - Amount
 - Payment method
@@ -29,7 +31,7 @@ The Accountant export lists all successful incoming and outgoing transactions, i
 
 {{< details title="Exclusions" >}}
 &nbsp;  
-MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions don't automatically appear in the Accountant export. 
+MultiSafepay does not collect funds for PayPal. Therefore, PayPal transactions don't automatically appear in the accountant export. 
 
 To include them, in your dashboard or [backend](/glossaries/multisafepay-glossary/#backend), set the transaction status to **Completed**.
 
@@ -37,40 +39,40 @@ To include them, in your dashboard or [backend](/glossaries/multisafepay-glossar
 
 {{< details title="Report contents" >}}
 
-- Report created: the date the report was generated
-- Merchant ID: your MultiSafepay account number
-- Date from: the start date of the reporting period
-- Date till: the end date of the reporting period
-- Currency: the currency of transactions
-- Opening balance: the balance at the start date
-- Total credit: the amount credited in the report period
-- Total debit: the amount debited in the report period
-- Closing balance: the balance at the end date
-
-Columns:
-
-- Completed date/time: the date and time the transaction was completed
-- Amount: the transaction amount
-- Creditdebit: C means credit, D means debit
-- Typetransaction: see [N-codes for identifying payment methods](/reports/n-codes/)
-- Paymenttype: a MultiSafepay fee, or the payment method
-- Description/Description2/Description3/Description4: descriptions of the order
-- Tr status: the [transaction status](/about-payments/multisafepay-statuses/)
-- Ms description: website name
-- Mt merchanttransactionid: your unique identifier for the order
-- Mt cust firstname: the customer’s first name
-- Mt cust lastname: the customer’s last name
-- Mt cust city: the customer's city
-- Mt cust country: the customer's country
-- Invoice id: your internal invoice ID
+| Headers | Description |
+|---|---|
+| Report created | The date the report was generated |
+| Merchant ID | Your MultiSafepay account number |
+| Date from | The start date of the reporting period |
+| Date till | The end date of the reporting period |
+| Currency | The currency of transactions |
+| Opening balance | The balance at the start date |
+| Total credit | The amount credited in the report period |
+| Total debit | The amount debited in the report period |
+| Closing balance | The balance at the end date |
+| **Columns** | **Description** |
+| Completed date/time | The date and time the transaction was completed |
+| Amount | The transaction amount |
+| Creditdebit | C means credit, D means debit |
+| Typetransaction | See [N-codes for identifying payment methods](/reports/n-codes/) |
+| Paymenttype | A MultiSafepay fee, or the payment method |
+| Description 2-4 | Descriptions of the order |
+| Tr status | The [transaction status](/about-payments/multisafepay-statuses/) |
+| Ms description | The website name |
+| Mt merchanttransactionid | Your unique identifier for the order |
+| Mt cust firstname | The customer’s first name |
+| Mt cust lastname | The customer’s last name |
+| Mt cust city | The customer's city |
+| Mt cust country | The customer's country |
+| Invoice ID | Your internal invoice ID |
 
 {{< /details >}}
 
-To filter transactions in the Accountant export (e.g. by payment method), see [N-codes for identifying payment methods](/reports/n-codes/).
+To filter transactions in the accountant export (e.g. by payment method), see [N-codes for identifying payment methods](/reports/n-codes/).
 
-## Generating Accountant exports
+## Generating accountant exports
 
-To generate an Accountant export, follow these steps:
+To generate an accountant export, follow these steps:
 
 1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) dashboard.
 2. Go to **Reports** > **Accountant export**.
@@ -82,9 +84,9 @@ To generate an Accountant export, follow these steps:
     - **No**: List each MultiSafepay fee below the matching transaction.
 7. Click **Generate report**.
 
-## Automating Accountant exports
+## Automating accountant exports
 
-To request automated Accountant exports, email the following information to <integration@multisafepay.com>:
+To request automated accountant exports, email the following information to <integration@multisafepay.com>:
 
 - Your account ID: Top-right corner of your MultiSafepay dashboard
 - Method: SFTP Pull or Push request
