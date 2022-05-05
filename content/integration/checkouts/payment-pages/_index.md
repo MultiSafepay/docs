@@ -1,6 +1,6 @@
 ---
 title: 'Payment pages'
-weight: 40
+weight: 10
 meta_title: "Payment pages - MultiSafepay Docs"
 layout: 'faqplugins'
 logo: '/svgs/Payment pages.svg'

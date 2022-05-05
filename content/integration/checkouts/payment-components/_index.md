@@ -7,7 +7,7 @@ logo: '/svgs/Payment pages.svg'
 short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
 hideMenu : 'true'
 logo: '/svgs/API.svg'
-weight: 51
+weight: 30
 url: '/payment-components/'
 aliases:
     - /tools/credit-card-component/

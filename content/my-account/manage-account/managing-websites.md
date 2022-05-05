@@ -12,9 +12,23 @@ aliases:
     - /account/deleting-websites/
     - /getting-started/set-up-your-account/user-guide/connecting-websites-to-your-backend/
     - /account/connecting-websites-to-backend/
+    - /tools/multisafepay-control/get-your-api-key
+    - /tools/multisafepay-control/retrieving-your-api-key
+    - /getting-started/set-up-your-account/user-guide/retrieving-your-api-key/
+    - /getting-started/set-up-your-account/user-guide/viewing-your-api-key/
+    - /set-up-your-account/site-id-api-key-secure-code/
+    - /developer/api/generating-your-api-key/
+    - /faq/api/generate-your-api-key
+    - /faq/api/generating-your-api-key
+    - /account/site-id-api-key-secure-code
+    - /tools/multisafepay-control/autowithdrawl-updates
+    - /faq/general/descriptor-bank-statement
+    - /tools/multisafepay-control/adding-descriptors-to-customer-bank-statements
+    - /my-account/manage-your-balance/adding-descriptors-to-customer-bank-statements/
+    - /account/displaying-company-names/
 ---
 
-To set up your account, you must add at least one website and generate an [API key](/account/site-id-api-key-secure-code/). 
+To set up your account, you must add at least one website, for which we generate an API key. 
 
 You can add an unlimited number of websites to your MultiSafepay account, but they must all be operated by the same legal entity linked to that account.
 
@@ -69,15 +83,35 @@ Your account is now linked to your website.
 
 **Note:** Website names are displayed on MultiSafepay payment pages and, for some payment methods, on the customer’s bank statement (if supported by their bank).
 
+## Viewing the site ID, API key, and secure code
+
+To view the site ID, API key, and secure code for a website:
+
+1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay dashboard.
+
+2. Go to **Settings** > **Website settings**.
+
+3. Click on the relevant website to view the **Website details** page.
+
 ## Connecting websites to your backend
 
 To connect a website to your [backend](/glossaries/multisafepay-glossary/#backend), enter the required details: 
 
-- Most [ready-made integrations](/integrations/ecommerce-integrations): Your [API key, site ID, secure code](/account/site-id-api-key-secure-code/), and account ID (top-right corner of your dashboard)  
+- Most [ready-made integrations](/integrations/ecommerce-integrations): Your site ID, API key, and secure code, and account ID (top-right corner of your dashboard)  
 
 - Self-made integrations: The API key under **Website settings** in your account
 
 The connection is finalized. To validate the connection, [place a test order](/integrations/testing/).
+
+## Displaying your company name
+You can specify how your company name appears on customer bank or credit card statements and on MultiSafepay payment pages, or choose to display an alias instead. Customers may prefer this if you offer adult products. 
+
+To set how your company name displays, follow these steps:
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Settings** > **Website settings**.
+3. In the **Name** field, enter the name to display (maximum 35 characters).
+4. Click **Save**.
 
 ## Deleting websites
 
