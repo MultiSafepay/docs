@@ -10,7 +10,9 @@ aliases:
     - /features/3d-secure/dynamic/
 ---
 
-To help you optimize conversion and manage risk, MultiSafepay supports some exemptions from [3D Secure 2.0](/features/3d-secure/about/) (3DS2) and [strong customer authentication](/payment-regulations/psd2/) (SCA).
+To help you optimize conversion and manage risk, MultiSafepay supports several exemptions from [3D Secure 2.0](/features/3d-secure/about/) (3DS2) and [strong customer authentication](/payment-regulations/psd2/) (SCA).
+
+Under the [PSD2](/payment-regulations/psd2/), some exemptions are only supported **outside** of Europe.
 
 {{< alert-notice >}} **Important:** Exemptions remove an important layer of security and increase the risk of fraud. You bear the risk and become liable for any [fraud-related chargebacks](/chargebacks/). {{< /alert-notice>}}
 
