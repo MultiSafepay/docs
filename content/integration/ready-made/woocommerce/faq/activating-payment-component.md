@@ -14,15 +14,15 @@ The MultiSafepay WooCommerce plugin supports [Payment Components](/payment-compo
 
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
 
-## Activating the Payment Component
+## Activating the payment component
 
-To activate the Payment Component in your Wordpress - WooCommerce [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
+To activate the payment component in your Wordpress - WooCommerce [backend](/glossaries/multisafepay-glossary/#backend), follow these steps:
 
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > **Credit card**, and then click **Manage**.
 3. Select the **Payment components** checkbox.
 4. Click **Save changes**.
 
-For questions, email the Integration Team at <integration@multisafepay.com>
+For questions, email <integration@multisafepay.com>
 
-**Note:** If you have a custom checkout and encounter a conflict with the Payment Component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

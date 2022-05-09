@@ -12,7 +12,7 @@ aliases:
     - /payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,12 +24,14 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects in3 at checkout
-    Mu->>C: Connects to in3 (direct/redirect)
-    C->>I: Selects their bank, accepts the payment periods, and terms & conditions
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> to provide their birth date, title, and phone number, <br> then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects to in3 to select their bank, <br> and accept the payment periods and terms & conditions
+    end
     I->>Mu: Authorizes the payment
     Mu->>I: Captures the funds
-    C->>I: Pays 1st instalment within 5 mins
-    Note over C,I: Settlement is now guaranteed!
+    C->>I: Pays 1st instalment within 5 mins (settlement is now guaranteed)
     Me->>C: Ships the order 
     I->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 15 days of 1st instalment)
@@ -37,10 +39,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to in3 to select their bank, and accept the payment periods and terms and conditions. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to provide their birth date, title, and phone number. {{< br >}} They are then redirected to your success page. | 
 
 ## Payment statuses
 
@@ -54,22 +52,18 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Initialized   | Initialized  |
-| in3 is authorizing the payment or waiting for the customer to pay the first installment. {{< br >}} The customer has 5 minutes to pay the first installment, or The transaction was cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
+| in3's credit check is in progress. {{< br >}} You can still cancel. | Initialized   | Initialized  |
+| in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
 | The customer has paid the first installment. {{< br >}} Settlement is now guaranteed. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| You can [manually change the order status to Shipped](/about-payments/pay-later-shipped-status/) for your records, but this is not required to trigger invoicing.  | Shipped | Uncleared | 
-| The transaction is complete. | Completed | Completed |
-| in3 has declined the payment. {{< br >}} No order was created. | Declined | Declined |
-| The transaction was cancelled. | Void | Void |
-| The transaction expired after 2 hours. | Expired | Expired |
-
-## Refund statuses
-
-| Description  | Order status      | Transaction status |
-|----|-----|-----|
-| in3 has successfully processed a full or partial refund. | Completed    | Completed   |
-| The refund was declined.  | Declined      | Declined   |
+| You can [manually change the order status to Shipped](/about-payments/pay-later-shipped-status/) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
+| MultiSafepay has collected payment. | Completed | Completed |
+| in3 declined the transaction. | Declined | Declined |
+| The customer cancelled the transaction or abandoned payment of the first installment. | Void | Void |
+| The customer didn't pay the first installment. | Expired | Expired |
+|**Refunds**|||
+| in3 has successfully processed a full or partial refund. | Completed | Completed |
+| The refund was declined. | Declined | Declined   |
 
 

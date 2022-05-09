@@ -5,8 +5,11 @@ weight: 20
 meta_title: "Activating Dankort - MultiSafepay Docs"
 short_description: "Activating Dankort for your MultiSafepay account"
 layout: 'child'
+url: '/payment-methods/dankort/activation/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/dankort/activation/
 ---
-{{< blue-notice >}} If using a ready-made integration: 
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
 - Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}

@@ -3,7 +3,7 @@ title: "Gift cards overview"
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Gift card overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 url: '/payment-methods/gift-cards/overview/'
 aliases: 
@@ -31,7 +31,7 @@ Customers can use gift cards to pay for a transaction in full or in part, and ma
 |---|---|
 | [Baby Cadeaubon](https://www.babycadeaubon.nl/) | [Kids' Cadeau](https://www.dekidscadeaukaart.nl/) |
 | [Beauty Cadeau](https://www.beautycadeau.nl/) | [Klus Cadeau](https://www.kluscadeau.nl/) |
-| [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/page/hoe-het-werkt/) | [Nationale Bioscoopbon](https://www.bioscoopbon.nl/) |
+| [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/) | [Nationale Bioscoopbon](https://www.bioscoopbon.nl/) |
 | [Biercheque](https://biercheque.nl/) | [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/) |
 | [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/) | [Nationale Tuinbon](https://www.nationale-tuinbon.nl/) |
 | [Boekenbon](https://bestel.boekenbon.nl/) | [Ohmygood Giftcard](https://ohmygood.nl/) |

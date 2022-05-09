@@ -29,7 +29,7 @@ This technical manual is for installing and configuring our free plugin for inte
 
 You can also install the plugin via .ZIP file upload in Connect.
 
-MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
+MultiSafepay supports most Magento functionalities. For any questions, email <integration@multisafepay.com>
 
 {{< details title="Support" >}}
 &nbsp; 
@@ -56,10 +56,10 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex/)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payments/methods/credit-and-debit-cards/dankort)
+- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payment-methods/dankort)
 
 **Banking methods**
 

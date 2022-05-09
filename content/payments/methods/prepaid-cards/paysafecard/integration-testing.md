@@ -11,15 +11,15 @@ url: '/payment-methods/paysafecard/integration-testing/'
 
 | | |
 |---|---|
-| **API** | [Redirect](/api/#gift-cards)  |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order. See also Examples > Gift card redirect. |
 | **Ready-made integrations** | Paysafecard is supported in the following ready-made integrations: {{< br >}} [OsCommerce](/oscommerce/) {{< br >}} [Magento 1](/magento-1/) {{< br >}} [VirtueMart](/virtuemart/) {{< br >}} [X-Cart](/x-cart/) {{< br >}} [Zen Cart](/zen-cart/)   |
-| **Checkout options** | [Multisafepay payment pages](/payment-pages/) {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
+| **Checkout options** | [Multisafepay payment pages](/payment-pages/) – [Current version](/payment-pages/activation/) only {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 
 ## Testing 
 
 You can’t test Paysafecard in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For any questions, email <integration@multisafepay.com>
 
 
 

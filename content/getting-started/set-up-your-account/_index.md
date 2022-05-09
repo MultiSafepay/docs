@@ -2,7 +2,7 @@
 title: 'Set up your account'
 breadcrumb_title: 'Set up your account'
 weight: 10
-meta_title: "Getting started - Set up your account - MultiSafepay Docs"
+meta_title: "Set up your account - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Partner_Account_Control.svg'
 layout: 'single'
@@ -14,16 +14,12 @@ aliases:
 
 This page provides an overview of setting up your MultiSafepay test account:  
 
-1. [Set the language of your account](/account/setting-account-language/).
-2. [Add at least one website](/account/adding-websites/).
-3. [Generate an API key](/account/site-id-api-key-secure-code/). 
-4. [Add users](/account/adding-users/).
-5. [Connect your website to your backend](/account/connecting-websites-to-backend/).
-6. [Activate your selected payment methods](/payments/activating-payment-methods/).
+1. [Add at least one site](/account/adding-websites/).
+2. [Connect the site to your backend](/account/connecting-websites-to-backend/).
+4. [Activate your selected payment methods](/payments/activating-payment-methods/).
 
 Then, consider:  
 
-- [Adding a financial email address](/account/adding-financial-email-address/) for us to send invoices to. 
 - [Enabling two-factor authentication](/account/enabling-2FA/) for an additional layer of security for your account.
 - [Downloading the MultiSafepay app](/account/multisafepay-app/) to manage your account on the go.
 

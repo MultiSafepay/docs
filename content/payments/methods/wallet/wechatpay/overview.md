@@ -3,12 +3,13 @@ title: 'WeChat Pay overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "WeChat Pay overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
-url: '/payment-methods/wechatpay/overview/'
+url: '/payment-methods/wechat-pay/overview/'
 aliases:
     - /payments/methods/wechatpay/product-rules/
     - /payment-methods/wechatpay/product-rules/
+    - /payment-methods/wechatpay/overview/
 ---
 [WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
 

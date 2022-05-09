@@ -29,7 +29,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 - Second Chance emails cannot be activated or sent to the customer while the status of the original transaction is **Uncleared**, or once it is **Completed**.
 
-- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. For more information, see [Adjusting session lifetimes](/api/#adjust-session-lifetimes).
+- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. 
 
 - The following payments methods are not supported because they follow a different payment flow:
     - [AfterPay](/payment-methods/afterpay)
@@ -38,7 +38,6 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
     - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
     - [Klarna](/payment-methods/klarna)
     - [Pay After Delivery](/payment-methods/pay-after-delivery)
-  
 
 {{< /details >}}
 
@@ -51,6 +50,10 @@ To activate Second Chance, follow these steps:
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
+
+## Using Second Chance
+
+See API recipe – [Send payment reminders](https://docs-api.multisafepay.com/recipes/send-payment-reminders).
 
 ## Customizing the emails
 The Second Chance email template is completely customizable. Follow these steps:
@@ -71,7 +74,7 @@ For how to customize the template, see [Email Templates](/features/email-templat
 
 Second Chance emails can create conflicts with external warehouse systems. In some cases, this can be resolved using a cron job. However, this is not always a stable solution.
 
-For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API reference - [Adjust session lifetimes](/api/#adjust-session-lifetimes).
+For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API reference - [Create order](https://docs-api.multisafepay.com/reference/createorder) > `days_active` parameter.
 
 If a cancelled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock.
 

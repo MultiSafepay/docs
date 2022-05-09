@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/wallet/applepay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -24,13 +24,17 @@ sequenceDiagram
     participant Me as Merchant
     
     C->>Mu: Selects Apple Pay at checkout
-    Mu->>C: Connects to Apple Pay (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> and then to Apple
+    else Direct flow
+    Mu->>C: Redirects to Apple
+    end
     C->>A: Authorizes payment on an iOS device with Touch ID or Face ID
-    alt is Direct integration
+    alt Redirect integration
+    A->>Mu: Sends token
+    else Direct integration
     A->>Me: Sends the customer's payment details as an encrypted token
-    Me->>Mu: Sends the customer's payment details as an encrypted token
-    else is Redirect integration
-    A->>Mu: Sends the customer's payment details as an encrypted token
+    Me->>Mu: Sends token
     end
     Mu->>CS: Decrypts token and processes payment
     Mu->>Me: Runs fraud filter and provides risk report
@@ -39,12 +43,7 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer selects Apple Pay and completes payment on your checkout page. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) and then to Apple to complete payment. | 
+&nbsp;   
 
 For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
@@ -60,22 +59,17 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| [Manually authorize or decline the transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). | Uncleared | Uncleared |
-| The transaction is complete. | Completed | Completed |
-| The transaction was cancelled or the customer requested a chargeback. | Void   | Void   |
-| The customer didn't complete payment within 1&nbsp;hour and the transaction expired. | Expired | Expired |
-| The issuer has declined the transaction. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
-
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed  | Completed  |
+| The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| MultiSafepay has collected payment. | Completed | Completed |
+| Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
+| The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
+| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+|**Refunds**|||
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed  | Completed  |
 
 
 

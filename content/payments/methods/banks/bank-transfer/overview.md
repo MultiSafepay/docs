@@ -4,7 +4,7 @@ title: "Bank Transfer overview"
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Bank Transfer overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/banktransfer-en.svg'
 url: '/payment-methods/bank-transfer/overview/'
@@ -30,7 +30,7 @@ You can link Bank Transfer directly to your website. When a customer selects Ban
 
 To simplify transfers for customers and avoid them incurring international transfer and currency conversion fees, MultiSafepay has a local bank account in several European countries in the local currency. Customers then only pay the standard fee charged by their bank.
 
-To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your `POST /orders` request in the `country` parameter, e.g. `"country": "DE",`.
+To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your [create order](https://docs-api.multisafepay.com/reference/createorder) request in the `country` parameter, e.g. `"country": "DE",`.
 
 {{< details title="Countries with a local MultiSafepay bank account" >}} 
 

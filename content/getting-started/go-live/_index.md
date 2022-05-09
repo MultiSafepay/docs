@@ -2,8 +2,7 @@
 title: 'Onboard and go live'
 breadcrumb_title: 'Onboard and go live'
 weight: 10
-meta_title: "Getting started - Onboard and go live - MultiSafepay Docs"
-
+meta_title: "Onboard and go live - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Getting started.svg'
 faq: '.'
@@ -18,12 +17,13 @@ This page provides an overview of the onboarding process, where MultiSafepay che
 
 1. Check the [list of prohibited products and services](/account/prohibited-products-services/).
 2. Complete the live account [sign up form](https://merchant.multisafepay.com/signup). 
-3. Provide [documents and information about your company](/account/onboarding-process/#2-provide-documents-and-information).
-4. Display [required information on your website](/account/onboarding-process/#required-information-on-your-website).  
+3. Provide [information about your company](/account/onboarding-process/#2-provide-company-information).
+4. Identify the [ultimate beneficial owners](/account/ubo/) of your company.
+5. Display [required information on your website](/account/onboarding-process/#5-display-required-information).  
 
 MultiSafepay then performs [know your customer (KYC) checks](/account/kyc/). If approved, your account goes live.
 
-For full guidance, see [Onboarding and go live](/account/onboarding-golive/).
+For full guidance, see [Onboarding process](/account/onboarding-process/).
 
 ## Next steps
 

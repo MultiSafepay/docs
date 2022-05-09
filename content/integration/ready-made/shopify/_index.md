@@ -22,7 +22,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopify/
 ---
 
-{{< alert-notice >}} **Urgent action required:** [Migrate](#installation) to our updated app before March 31, 2022.  {{< /alert-notice>}}
+{{< alert-notice >}} **Urgent action required:** [Migrate to our updated app](#installation) before March 31, 2022.  {{< /alert-notice>}}
 
 This technical manual is for installing/migrating to our free app for integrating MultiSafepay payment solutions into your Shopify webshop.
 
@@ -51,7 +51,7 @@ Payments are processed in the webshop's default currency only.
 
 **Credit and debit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
@@ -85,9 +85,9 @@ Payments are processed in the webshop's default currency only.
 
 Our Shopify app is unavailable in Norway and Finland. 
 
-For more information, email the Integration Team at <integration@multisafepay.com>
+For more information, email <integration@multisafepay.com>
 
-{{< /details >}}
+{{< /details >}} 
 
 ## Installation
 

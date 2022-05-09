@@ -3,6 +3,7 @@ title : "Configuring generic gateways"
 meta_title: "OpenCart plugin - Configuring generic gateways - MultiSafepay Docs"
 
 layout: "faqdetail"
+read_more: "."
 url: '/opencart/generic-gateways/'
 aliases:
     - /payments/integrations/ecommerce-platforms/opencart/faq/configuring-generic-gateways/

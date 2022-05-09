@@ -3,15 +3,16 @@ title: "iDEAL overview"
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "iDEAL overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/iDeal.svg'
-url: '/payment-methods/ideal/product-rules/'
+url: '/payment-methods/ideal/overview/'
 aliases: 
     - /payment-methods/ideal/what-is-ideal/
     - /payments/methods/banks/ideal/about/
     - /payments/methods/ideal/product-rules/
     - /payments/methods/ideal-qr/product-rules/
+    - /payment-methods/ideal/product-rules/
 ---
 [iDEAL](https://www.ideal.nl/en/) is the leading payment method in the Netherlands and links all major Dutch retail banks. 
 

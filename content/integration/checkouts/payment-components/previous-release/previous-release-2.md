@@ -11,7 +11,7 @@ url: '/payment-components/previous-release/step-2/'
 ## Step 2: Initialize the component
 
 ### Generate an API token
-Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](/api/#generate-an-api-token).
+Payment Components require a MultiSafepay API token. See API reference&nbsp;–&nbsp;[Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
 
 {{< alert-notice >}} **Note:** To keep your API key private, request the token from your own server. {{< /alert-notice >}} 
 
@@ -43,7 +43,7 @@ const orderData = {
 | currency| The currency of the order. Format: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. **Required**. |
 | amount| The value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
 | customer.country| The customer's country code. Checks the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
-|customer.locale | The customer's language. Sets the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
+|customer.locale | The customer's language. Sets the language of the payment component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
 
 {{< /details >}}
@@ -92,8 +92,8 @@ PaymentComponent.init('payment', {
 
 | Event | Event handler |
 | ---- | ---- |
-|`onError`| Called when an error occurs in the Payment Component|
-|`onLoad`| Called when the Payment Component UI is rendered |
+|`onError`| Called when an error occurs in the payment component|
+|`onLoad`| Called when the payment component UI is rendered |
 
 {{< /details >}}
 

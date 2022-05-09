@@ -1,7 +1,7 @@
 ---
 title : "Test payment details"
 weight: 20
-meta_title: "Testing - Test payment details - MultiSafepay Docs"
+meta_title: "Test payment details - MultiSafepay Docs"
 read_more: "."
 url: '/testing/test-payment-details/'
 aliases:
@@ -9,733 +9,136 @@ aliases:
     - /getting-started/test-your-integration/test-payment-details
 ---
 
-This page is for testing payment methods and scenarios in your [MultiSafepay test account](https://testMerchant.MultiSafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
+This page provides test payment details for different scenarios. 
 
 ## Banking methods
 
 {{< details title="Bancontact" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
 **Test a Bancontact order**
 
-1. To test a Bancontact order, make a [redirect](/api/#bancontact) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: Bancontact redirect).
 2. Open the payment link.
-3. In the **Card number** field, enter a 16-digit card number.
-4. In the **Expiry date** fields, enter any future date, and then click **Confirm**.
+3. In the **Card number** field, enter a card number (see table below).
+4. In the **Expiry date** fields, enter any future date.
+5. Click **Confirm**.
 
-Use the following card numbers to test different transaction statuses.
+| Card number| Scenario | Description |
+| ---| --- | --- |
+| 67034500054620008 | **Completed** | Transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds](/testing/testing-refunds/#test-refunding-an-order) and [API refunds](/testing/testing-refunds/#test-an-api-refund). |
+| 67034500054610009| **Declined**  | Transaction was declined (card must be 3D enrolled). |
+| 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed). |
+| 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds). |
 
-| Card number| Status    | Description              |
-| ---------| --------- | ------------------------ |
-| 67034500054620008 | **Completed** | Transaction was completed (3D enrolled) |
-| 67034500054610009| **Declined**  | Transaction was declined (card must be 3D enrolled) |
-| 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed) |
-| 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds) |
-
----
-
-**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+You can see the reason the transaction was declined in your MultiSafepay test account under **Notes**.
 
 ---
 
 **Test a Bancontact QR code**
-1. Make a [redirect](/api/#bancontact-qr) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: Bancontact QR).
 2. Open the payment link.
-3. Scan the QR code with a general QR reader (**not** the Bancontact app - an error occurs).
-4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. Scan the QR code with a general QR reader (**not** the Bancontact app or an error occurs).
+4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order using card number `67034500054620008`. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order using card number `67034500054620008`. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test cancelling orders. 
-- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
 {{< details title="Bank Transfer" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Bank Transfer order**
-
-1. To test a Bank Transfer order, make a [redirect](/api/#bank-transfer---redirect) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: Bank Transfer redirect).
 2. Open the payment link. 
-3. In the **Your bank account** field, enter an IBAN. 
+3. In the **Your bank account** field, enter an IBAN (see table below). 
 4. From the **Bank's country** list, select a country, and then click **Confirm**.
 
-Use the following IBANs to test different transaction statuses.
+| IBAN | Scenario | Description |
+| ---| ---| ---|
+| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this for [testing refunds](/testing/testing-refunds/#test-refunding-an-order). |
+| NL87ABNA0000000002| **Initialized**/ **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**. |
+| NL87ABNA0000000004| **Initialized**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
+| Any other IBAN | **Initialized**/ **Expired** | Transaction is initiated. After 5 days, this changes to **Expired**. |
 
-| IBAN | Status    | Description              |
-| ---------| --------- | ------------------------ |
-| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**. |
-| NL87ABNA0000000002| **Initialized**/ **Expired** | Transaction is initialized. After 2 minutes, this changes to **Expired**. |
-| NL87ABNA0000000004| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
-| Any other IBAN | **Initialized**/ **Expired** | Transaction is initialized. After 5 days, this changes to **Expired**. |
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Create an order.
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Cancel**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order using IBAN: NL87ABNA0000000001. 
-2. Wait until the transaction status changes to **Completed**.
-3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-4. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-5. Click **Continue**.
-6. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-7. Under **Related transactions**, select the **ID** of the refund order.
-8. Under **Order summary**, click **Accept**.
-9. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test:
-  - Refunding via the API
-  - Making direct API requests with an IBAN to test different transaction statuses
-- In the live environment, you can't accept refund orders. These are done automatically.
+**Note:** You can't test making direct API requests with an IBAN to test different transaction statuses.
 {{< /details >}}
 
-{{< details title="Belfius" >}}
+{{< details title="Belfius, CBC/KBC, Sofort, Trustly" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Belfius order**
-
-1. To test a Belfius order, make a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
-3. Click **Test**.  
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. <br> See also the Examples for the specific payment method.
+2. Open the payment link. 
+3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
+4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [direct](/api/#belfius---direct) or [redirect](/api/#belfius---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test refunding via the API.
-- In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
-{{< details title="CBC" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a CBC order**
-
-1. To test a CBC order, make a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
-3. Click **Test**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test refunding via the API.
-- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
 {{< details title="Dotpay" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Dotpay order**
-
-1. To test a Dotpay order, make a [redirect](/api/#dotpay) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: Dotpay redirect).
 2. On the Dotpay page, enter in the:
-    - **E-mail address** field: Any email address
+    - **Email address** field: Any email address
     - **Phone number** field: Any phone number
-3. Select a bank.  
+3. Select a bank. (You may see more banks available in the live environment.)
   You are automatically redirected.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
----
-
-**Note:** You may see more banks available in the live environment.
-
----
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [redirect](/api/#dotpay) API request.
-2. On the Dotpay page, enter in the:
-    - **E-mail address** field: Any email address
-    - **Phone number** field: Any phone number
-3. Select a bank.  
-  You are automatically redirected.
-4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-5. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test refunding via the API.
-- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
 {{< details title="EPS" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test an EPS order**
-
-1. To test an EPS order, make a [redirect](/api/#eps) API request with the `locale` set to `at_AT`.
-2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: EPS redirect). <br> Set the `locale` parameter to `at_AT`.
+2. On the EPS page, in the **BIC** field, enter any BIC code, e.g.&nbsp;`RZOOAT2L420`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [redirect](/api/#eps) API request with the `locale` set to `at_AT`.
-2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
-3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Cancelled**. 
-5. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 
 {{< details title="Giropay" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Giropay order**
-
-1. To test a Giropay order, make a [redirect](/api/#giropay) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: Giropay redirect). 
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Completed**.
+4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [redirect](/api/#eps) API request.
-2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
-3. Click **Confirm**.
-4. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-5. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
 {{< /details >}}
 
 {{< details title="iDEAL" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test an iDEAL order**
-
-1. To test an iDEAL order, make a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
-2. If you make a redirect API request, select a bank.
-3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: iDEAL direct/redirect).
+2. For redirect, select a bank.
+3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-**Test cancelling an order**
+You can also test the following scenarios:
 
-To test cancelling an order:
-
-1. Make a [direct](/api/#ideal---direct) or [redirect](/api/#ideal---redirect) API request.
-2. If you make a redirect API request, select a bank. 
-3. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-4. Click **Test**.  
-  The order status changes to **Void**.
-
-Use the following test scenarios on the Test platform page to test different transaction statuses.
-
-| Status                | Description              |
-| --------------------- | ------------------------ |
-| **Declined**              | Transaction was declined |
-| **Open** **Completed** | Transaction is initialized. After 1 minute, this changes to **Completed**. |
-| **Open** **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
-{{< details title="iDEAL QR" >}}
-
-You can't test iDEAL QR in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
-
-{{< /details >}}
-
-{{< details title="KBC" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a KBC order**
-
-1. To test a KBC order, make a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
-3. Click **Test**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [direct](/api/#cbckbc---direct) or [redirect](/api/#cbckbc---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test refunding via the API.
-- In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
-{{< details title="Request to Pay" >}}
-
-You can't test Request to Pay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
-
-{{< /details >}}
-
-{{< details title="Recurring Payments" >}}
-
-To enable [Recurring Payments](/features/recurring-payments/) for your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
+| Scenario | Description |
+| --- | --- |
+| **Declined** | Transaction was declined. |
+| **Open** **Completed** | Transaction is initiated. After 1 minute, this changes to **Completed**. |
+| **Open** **Declined**  | Transaction is initiated. After 1 minute, this changes to **Declined**. |
 
 {{< /details >}}
 
 {{< details title="SEPA Direct Debit" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a SEPA Direct Debit order**
-
-1. To test a SEPA Direct Debit order, make a [direct](/api/#sepa-direct-debit---direct) or [redirect](/api/#sepa-direct-debit---redirect) API request.
-2. If you make a redirect API request, enter in the:
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Banking order (Example: SEPA Direct Debit direct/redirect).
+2. For redirect orders, open the payment link. 
+3. Enter in the:
     - **Account holder** field the account holder name.
-    - **IBAN** field the IBAN.
+    - **IBAN** field an IBAN (see table below).
 4. Click **Confirm**.
 
-Use the following IBANs to test different transaction statuses.
-
-| IBAN | Status    | Description              |
-| ---------| --------- | ------------------------ |
-| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**. |
-| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
-| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
-| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order with IBAN `NL87ABNA0000000001`. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order with IBAN `NL87ABNA0000000001`. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- You can't test cancelling orders.
-- In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
-{{< details title="Sofort" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Sofort order**
-
-1. To test a Sofort order, make a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
-3. Click **Test**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [direct](/api/#sofort---direct) or [redirect](/api/#sofort---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
-{{< details title="Trustly" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Trustly order**
-
-1. To test a Trustly order, make a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
-3. Click **Test**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [direct](/api/#trustly---direct) or [redirect](/api/#trustly---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** 
-
-- In the live environment, you can't accept refund orders. These are done automatically.
-- You can't test Trustly declining transactions.
-
-{{< /details >}}
-
-{{< details title="TrustPay" >}}
-
-You can't test TrustPay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
+| IBAN | Scenario | Description |
+| ---| --- | --- |
+| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds](/testing/testing-refunds/#test-refunding-an-order) and [API refunds](/testing/testing-refunds/#test-an-api-refund). |
+| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
+| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
 
 {{< /details >}}
 
@@ -750,12 +153,12 @@ You can't test TrustPay in your MultiSafepay test account. You can only make tes
 
 AfterPay shares the test key with MultiSafepay.
 
-**2.** To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
+**2.** To enable AfterPay in your MultiSafepay test account, email <integration@multisafepay.com>
 
 **Test an AfterPay order**
 
-1. Make a [direct or redirect](/api/#afterpay) API request. For more information, see [Direct vs redirect API requests](/developer/direct-vs-redirect).
-2. If you make a redirect API request, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order (Example: AfterPay direct/redirect).
+2. For redirect orders, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
@@ -773,12 +176,14 @@ The transaction and order statuses change to **Declined**.
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Make an [update an order](/api/#update-an-order) API request, or 
+- Make an [update order](https://docs-api.multisafepay.com/reference/updateorder) request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 ---
 
-**Note:** You can't test:  
+**Notes:** 
+
+You can't test:  
 
 - Receiving successful payment notifications from AfterPay
 - Changing the transaction status from **Uncleared** to **Completed**
@@ -786,28 +191,18 @@ To change the order status, either:
 
 {{< /details >}}
 
-{{< details title="Betaal per Maand" >}}
+{{< details title="E-Invoicing, Pay After Delivery" >}}
 
-You can't test Betaal per Maand in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
+**Test an order**
 
-{{< /details >}}
-
-{{< details title="E-Invoicing" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test an E-Invoicing order**
-
-To test an E-Invoicing order, make a [direct](/api/#e-invoicing---direct) or [redirect](/api/#e-invoicing---redirect) API request.
-
-If you make a redirect API request:
-- Enter in the:
-  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
-  - **Bank account** field any 10-digit bank account number.
-  - **Email address** field any email address.
-  - **Phone number** field any phone number.
-- Click **Confirm**.
-
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order (Example: E-Invoicing/Pay After Delivery direct/redirect).
+2. For redirect orders, open the payment link.
+3. Enter in the:
+    - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
+    - **Bank account** field any 10-digit bank account number.
+    - **Email address** field any email address.
+    - **Phone number** field any phone number.
+4. Click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
 
 **Test declining an order**  
@@ -815,55 +210,47 @@ The payment is processed in the test environment as **Successful**, with order a
 To decline an order, in your test account under **Order summary**, click **Decline**.  
 The order and transaction statuses change to **Void**.
 
-**Test shipping an order**  
+**Test shipping an E-Invoicing order**  
 
-To test shipping an order, make an [update an order](/api/#update-an-order) API request with status `"shipped"`. You receive the `invoice_url` in the API response.
-
----
-
-**Note:** 
-You can't test:
-- Processing refunds
-- Cancelling orders
+To test shipping an order, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request with status `"shipped"`. You receive the `invoice_url` in the API response.
 
 {{< /details >}}
 
 {{< details title="in3" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
 **Test an in3 order**
 
-1. To test an in3 order, make a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details.
-| Date of birth    | Postal code | House number |
-| ------------------- | ------------------- | ----------------- |
-| 01-01-1999 | 1234AB | 1 |
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order (Example: in3 direct/redirect). Use the following customer details:
+    - Date of birth: 01-01-1999
+    - Postal code: 1234AB
+    - House number: 1
 
-    If you make a redirect API request:
-- Enter in the:
-    - **Birthdate** field `01-01-1999`.
-    - **Phone number** field any phone number.  
-- Select your title, and then click **Confirm**.
+    For redirect orders:
+    - Enter in the:
+      - **Birthdate** field: `01-01-1999`
+      - **Phone number** field: Any phone number  
+    - Select your title, and then click **Confirm**.
 2. Select the checkbox to accept in3's payment terms and privacy statement, and then click **Afronden**.
-3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**. 
 5. On the in3 page, click **Terug naar webshop**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 
 **Test in3 declining an order**  
 
-To test in3 declining an order, make a [direct](/api/#in3---direct) or [redirect](/api/#in3---redirect) API request with the following customer details:
+Use the following customer details:
 
-| Date of birth    | Postal code | House number |
-| ------------------- | ------------------- | ----------------- |
-| 01-01-2000 | 1111AB | 1 |
+- Date of birth: 01-01-2000
+- Postal code: 1111AB
+- House number: 1 
 
 The order and transaction statuses change to **Declined**.
 
 **Test shipping an order**  
+
 To test shipping an order, either:
 
-- Make an [update an order](/api/#update-an-order) API request with status `shipped`, or 
+- Make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request with status `shipped`, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 **Receive an invoice**  
@@ -885,12 +272,8 @@ To test refunding an order via the API:
 
 1. Create an order. 
 2. Change the order status to `shipped`.
-3. Make a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.
+3. Make a pay later refund API request: [Refund order](https://docs-api.multisafepay.com/reference/) > Pay later refund.
   {{< br >}} A new order is created for the refund. The order status for the refund changes to **Completed**.
-
----
-
-**Note:** You can't test cancelling orders.
 
 {{< /details >}}
 
@@ -902,7 +285,7 @@ Test credentials:
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  
-1. Make a [direct or redirect](/api/#klarna) API request. 
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order (Example: Klarna direct/redirect).
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
 4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
@@ -918,7 +301,7 @@ The transaction and order statuses change to **Void**.
 You can change the order status to **Shipped** or **Cancelled**.
 To change the order status, either:  
 
-- Make an [update an order](/api/#update-an-order) API request, or 
+- Make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 **Test refunding an order**
@@ -926,7 +309,7 @@ To change the order status, either:
 To refund an order:
 
 1. Change the order status to **Shipped**.
-2. Under **Order summary**, click **Refund order**, or make a [refund with shopping cart](/api/#refund-with-shopping-cart) API request.  
+2. Under **Order summary**, click **Refund order**, or make a pay later refund API request: [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund.  
   The transaction status changes to **Completed**.
 
 **Receive an invoice**  
@@ -935,69 +318,28 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 
 ---
 
-**Note:** You can't test:
+**Notes:** 
 
-- Receiving successful payment notifications from Klarna.
-- Changing the transaction status from **Uncleared** to **Completed**, except for refunds.
+You can't test:
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/klarna/).
-{{< /details >}}
+- Receiving successful payment notifications from Klarna
+- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
 
-{{< details title="Pay After Delivery (Betaal na Ontvangst)" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Pay After Delivery order**
-
-To test a Pay After Delivery order, make a [direct](/api/#pay-after-delivery---direct) or [redirect](/api/#pay-after-delivery---redirect) API request.
-
-If you make a redirect API request, click **Pay After Delivery**.  
-- Enter in the:
-  - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
-  - **Bank account** field any 10-digit bank account number.
-  - **E-mail address** field any email address.
-  - **Phone number** field any phone number.  
-- Click **Confirm**.
-
-The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
-
-**Test declining an order**  
-
-To decline an order, in your test account under **Order summary**, click **Decline**.  
-The order and transaction statuses change to **Void**.
-
----
-
-**Note:** 
-You can't test:  
-  - Processing refunds
-  - Changing the order status to shipped
-  - Cancelling orders
-
+For more information about integrating Klarna with MultiSafepay, see [Klarna](/payment-methods/klarna/).
 {{< /details >}}
 
 ## Credit and debit cards
 
-{{< details title="Cartes Bancaires / Dankort / V Pay" >}}
-You can test the following cards using the Visa test instructions. To display these cards on MultiSafepay payment pages, you must set the `locale` parameter in the redirect API request to a specific locale.
+{{< details title="Credit and debit cards" >}}
 
-| Card             | `locale` |
-|------------------|----------|
-| Cartes Bancaires | `fr_FR`  |
-| Dankort          | `da_DK`  |
-| V Pay            | `it_IT`  |
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Card order. See also the Examples for the specific card scheme.  
+For co-branded cards, see the Credit card redirect example, and set the `locale` parameter:
+    - Cartes Bancaires: `fr_FR` 
+    - Dankort: `da_DK`
+    - Postepay: `it_IT`
 
-{{< /details >}}
-
-{{< details title="Visa" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a VISA order**  
-
-1. Make a [redirect](/api/#visa) API request.
 2. On the payment page:
-    - In the **Card number** field, enter `4111111111111111`.
+    - In the **Card number** field, enter a card number (see table below).
     - In the **Card holder** field, enter any name.
     - From the **Expiry date** lists, select any future date.
     - In the **CVC/CVV** field, enter `123`.
@@ -1007,135 +349,23 @@ Test credentials: [API key](/account/site-id-api-key-secure-code/)
     - Click **Confirm**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
-Use the following card numbers to test different transaction statuses.
+| Card number | Scenario | Description |
+| --- | --- | --- |
+| Amex: 378282246310005 <br> Maestro: 6759000000005 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
+| Visa/co-branded: <br> 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
+| Visa/co-branded: <br> 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
+| Amex: 378734493671000 <br> Visa/co-branded: <br> 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
+| Amex: 374200000000004 <br> Visa/co-branded: <br> 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
+| Visa/co-branded: <br> 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
-| Card number         | Status    | Description              |
-| ------------------- | --------- | ------------------------ |
-| 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
-| 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
-| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
-| 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
-| 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
-| 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
-
----
-
-**Note:** 
-- You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
-- You can't test cancelling orders. 
-
-{{< /details >}}
-
-{{< details title="Maestro" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-Testing Maestro is similar to Visa. For extensive testing, see [Visa](#details-visa). 
-
-**Test a Maestro order**  
-
-1. Make a [redirect](/api/#maestro) API request.
-2. On the payment page:
-    - In the **Card number** field, enter `6759000000005`.
-    - In the **Card holder** field, enter any name.
-    - From the **Expiry date** lists, select any future date.
-    - In the **CVC/CVV** field, enter `123`.
-    - Click **Confirm**.
-3. On the 3D payment page:
-    - From the drop-down list, select **Authenticated (Y)**.
-    - Click **Confirm**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-{{< /details >}}
-
-{{< details title="Mastercard" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-Testing Mastercard is similar to Visa. For extensive testing, see [Visa](#details-visa). 
-
-**Test a Mastercard order**  
-
-1. Make a [redirect](/api/#mastercard) API request.
-2. On the payment page:
-    - In the **Card number** field, enter `5500000000000004`.
-    - In the **Card holder** field, enter any name.
-    - From the **Expiry date** lists, select any future date.
-    - In the **CVC/CVV** field, enter `123`.
-    - Click **Confirm**. 
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-{{< /details >}}
-
-{{< details title="American Express" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test an American Express order**  
-
-1. Make a [redirect](/api/#american-express) API request.
-2. On the payment page:
-    - In the **Card number** field, enter `378282246310005`.
-    - In the **Card holder** field, enter any name.
-    - From the **Expiry date** lists, select any future date.
-    - In the **CVC/CVV** field, enter `123`.
-    - Click **Confirm**.
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-Use the following card numbers to test different transaction statuses.
-
-| Card number| Status    | Description              |
-| ---------| --------- | ------------------------ |
-| 374200000000004| **Declined**  | Transaction was declined |
-| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
-
-{{< /details >}}
-
-{{< details title="Refunding credit and debit card orders" >}}
-**Test refunding an order**
-
-To refund an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note:** In the live environment, you can't accept refund orders. These are done automatically.
-
+**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 {{< /details >}}
 
 ## Prepaid cards
 
 {{< details title="Edenred" >}}
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test an Edenred order**
-
-1. Make a [redirect](/api/#edenred) API request.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order (Example: Edenred redirect).
 2. On the payment page, click **Add discount**.
 3. From the **Test scenario** list, select the relevant discount, and then click **Test**.
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
@@ -1156,19 +386,18 @@ You can test the following gift cards:
 
 **Test a gift card order**
 
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-1. Make a [redirect](/api/#gift-cards) API request.
-2. On the payment page:
-    - In the **Card number** field, enter `111115`.
-    - In the **Security code** field, enter any 4-digit number.
-    - Click **Add discount**.  
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order (Example: Gift card redirect).
+2. Open the payment link.
+3. Enter in the:
+    - **Card number** field `111115`
+    - **Security code** field any 4-digit number
+4. Click **Add discount**.  
   The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
 
 Use the following card numbers to test different gift card balances.
 
-| Card numbers     | Balance    |
-| ------- | --------- |
+| Card numbers | Balance |
+| --- | --- |
 | 111115  | € 100  |
 | 111112 | € 5  |
 | 111110 | No balance  |
@@ -1181,159 +410,85 @@ You can't test other gift cards in your MultiSafepay test account. You can only 
 
 {{< /details >}}
 
-{{< details title="Paysafecard" >}}
-
-You can't test Paysafecard in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
-
-For any questions, email the Integration Team at <integration@multisafepay.com>
-{{< /details >}}
-
-{{< details title="Postepay" >}}
-
-Test credentials: [API key](/account/site-id-api-key-secure-code/)
-
-**Test a Postepay order**  
-1. Make a [redirect](/api/#postepay) API request with the `locale` set to `it_IT`.
-2. On the payment page:
-    - In the **Numero carta** field, enter `4111111111111111`.
-    - In the **Titolare carta** field, enter any name.
-    - From the **Data di scadenza** lists, select any future date.
-    - In the **CVC/CVV** field, enter `123`.
-    - Click **Conferma**.
-3. On the 3D payment page:
-    - From the drop-down list, select **Authenticated (Y)**.
-    - Click **Confirm**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-Use the following card numbers to test different transaction statuses.
-
-| Card number         | Status    | Description              |
-| ------------------- | --------- | ------------------------ |
-| 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
-| 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
-| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
-| 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
-| 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
-| 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
-
----
-
-**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
-
----
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order using card number `4012001038443335`. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order using card number `4012001038443335`. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
----
-
-**Note:**
-
-- You can't test cancelling orders. 
-- In the live environment, you can't accept refund orders. These are done automatically.
-
-{{< /details >}}
-
 ## Wallets
 
 {{< details title="Alipay" >}}
 
-Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
-
-**Test an Alipay order**
-
-1. Make a [direct](/api/#alipay---direct) or [redirect](/api/#alipay---redirect) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order (Example: Alipay direct/redirect).
+2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
-**Test cancelling an order**
-
-To test cancelling an order:
-
-1. Make a [direct](/api/#alipay---direct) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Cancelled**.
-3. Click **Test**.  
-  The order status changes to **Initialized**.
-4. In your MultiSafepay test account, under **Order summary**, click **Cancel**.
-5. In the **Add transaction comment** field, add a comment, and then click **Ok**.  
-  The order status changes to **Void**.
-
-**Test refunding an order**
-
-To test refunding an order:
-
-1. Create an order.
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Account holder name** field the account holder name of the account you want to refund to. 
-    - **IBAN** field the IBAN of the account you want to refund to.
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note**:  
-
-- You can't test:
-    - Refunding via the API.
-    - Alipay declining transactions.
-- In the live environment, you can't accept refund orders. These are done automatically.
+**Note:** You can't test Alipay declining transactions.
 
 {{< /details >}}
 
 {{< details title="Apple Pay" >}}
 
-To test Apple Pay, see [Testing](/payment-methods/apple-pay/integration-testing/#testing) to learn how to test on supported devices.
+**Compatible devices**
+
+For compatible devices, see Apple – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
+
+If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay gateway preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
+
+**Testing prerequisites**
+
+- Use a [compatible device](https://support.apple.com/en-us/HT208531)
+- Use Safari browser
+- Activate Maestro for your MultiSafepay account
+
+If these requirements are not met, Apple Pay doesn't appear on the checkout page.
+
+**Testing Apple Pay redirect**
+
+To test your Apple Pay redirect integration, there are two ways:
+
+- If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
+- Alternatively, you can use an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing) configured for Apple Pay, with at least one Apple Pay test card in your wallet.
+
+To test, follow these steps:
+
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order (Example: Apple Pay redirect).
+2. On the payment page, click the **Apple Pay** button.  
+    You can ignore the "This device is not supported" error.
+3. Sign in to your Apple Developer account and select your test card.
+4. Authorize the payment.
+  The transaction is completed.
+
+**Testing Apple Pay direct**
+
+See Apple Pay direct integration – [Test your integration](/payment-methods/apple-pay/direct/#test-your-integration).
 
 {{< /details >}}
 
 {{< details title="Google Pay" >}}
 
-To test Google Pay, see [Testing Google Pay](/payment-methods/google-pay/integration-testing/#testing).
+To test Google Pay payments, follow these steps:
+
+1. In your checkout, click the **Google Pay** button.  
+2. Complete payment using your Google account. 
+
+    Your real card details are never processed in our testing environment, but you must add at least one chargeable card to your Google account.
+
+    Depending on your card's authentication method, you may or may not be redirected to authenticate:
+
+    - **PAN only**: Authentication method for cards stored on file in your Google Account. Returned payment data includes your personal account number (PAN), expiration month, and expiration year. You are redirected to a test 3D Secure page to authenticate the payment.
+    - **Cryptogram 3DS**: Authentication method for cards stored as Android device tokens. Returned payment data includes a 3D Secure cryptogram generated on the device. You are not redirected to authenticate the payment.  
+    &nbsp;  
+    For more information about testing, see Google Pay – [Test with sample tokens](https://developers.google.com/pay/api/web/guides/resources/sample-tokens).
+&nbsp;  
+3. Check the status of the payment in your [test dashboard](https://testmerchant.multisafepay.com/).
+
+For support, email <integration@multisafepay.com>
 
 {{< /details >}}
 
 {{< details title="PayPal" >}}
 
-Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
-
 **Test a PayPal order**
 
-1. Make a [direct](/api/#paypal---direct) API request.
-2. On the Test platform page, from the **Test scenario** list, select **Completed**.
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order (Example: PayPal direct).
+2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
 
@@ -1347,89 +502,23 @@ The payment is processed in your MultiSafepay test account as **Successful**, wi
 
 You can change the order status to:
 
-| Status    | Description              | Test scenario     |
-| --------- | ------------------------ | ----------------- |
+| Status | Description | Test scenario |
+| --- | --- | --- |
 | **Completed** | Order was completed | Completed  |
 | **Void** | Order was cancelled | Cancelled  |
 | **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted after 2 minutes | Initialized completed |
 
 To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant test scenario.
 
-**Test refunding an order**
-
-To refund an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-Alternatively, make a [Refund](/api/#refund-an-order) API request.
-
----
-
-**Note**:  
-
-- You can't test making redirect API requests.
-- In the live environment, you can't accept refund orders. These are done automatically.
-
 {{< /details >}}
 
 {{< details title="WeChat Pay" >}}
 
-Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
-
-**Test a WeChat Pay order**
-
-1. Make a [direct](/api/#wechat-pay---direct) or [redirect](/api/#wechat-pay---redirect) API request.
-2. Scan the QR code with a general QR reader (**not** the WeChat app - an error occurs).
-3. On the Test platform page, from the **Test scenario** list, select **Completed**.
+1. [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order (Example: WeChat direct/redirect).
+2. Scan the QR code with a general QR reader (**not** the WeChat app or an error occurs).
+3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
 The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Completed**.
-
-**Test refunding an order**
-
-To refund an order:
-
-1. Create an order. 
-2. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
-3. Under **Refund**, enter in the:
-    - **Reason/Description** field the reason for the refund. 
-    - **Amount** field the amount to refund.
-4. Click **Continue**.
-5. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-6. Under **Related transactions**, select the **ID** of the refund order.
-7. Under **Order summary**, click **Accept**.
-8. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
-**Test an API refund**
-
-To test refunding an order via the API:
-
-1. Create an order. 
-2. Make a [refund](/api/#refund-an-order) API request.
-  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved**.
-3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
-4. Under **Order summary**, click **Accept**.
-5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **Completed**.
-
----
-
-**Note**:  
-
-- You can't test cancelling orders.
-- In the live environment, you can't accept refund orders. These are done automatically.
 
 {{< /details >}}
 

@@ -15,15 +15,20 @@ aliases:
     - /tools/split-payments/how-do-i-refund-split-payment-orders
     - /payments/features/split-payments/
 ---
-Split Payments lets you divide an incoming transaction amount between two or more [partner](/account/account-types/) or [affiliate](/account/account-types/) accounts, e.g. as a fee for using your platform.
 
+Split Payments lets you divide an incoming transaction amount between two or more MultiSafepay accounts. This feature is supported for all [account types](/account/account-types/) and affiliations, e.g.:
 
-You can split payments by percentage, a fixed amount, or by both. 
+- Partner/primary accounts, e.g. for mixed baskets where customers buy products from multiple affiliated merchants in a single transaction on your marketplace
+- Affiliated accounts, e.g. for franchises splitting 10% of all incoming transactions to the linked primary account
 
-See API reference – [Split Payments orders](/api/#split-payments-orders).
+You can split payments by percentage, a fixed amount, or by both.
+
+## Integration
+
+See API recipe – [Split a payment](https://docs-api.multisafepay.com/recipes/split-a-payment).
 
 ## Refunds
-You can only refund split payments (in full or in part) from the account that originally received the funds and then split them to other accounts. 
+You can process full and partial refunds, but only from the account that created the split payment. 
 
 To refund a split payment, follow these steps:
 
@@ -34,11 +39,11 @@ To refund a split payment, follow these steps:
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.  
 
-The [transaction status](/about-payments/multisafepay-statuses/) changes to **Initialized**, and you can [cancel the refund](/tools/multisafepay-control/processing-refunds/).  
+The [transaction status](/about-payments/multisafepay-statuses/) changes to **Initialized**, and you can [cancel the refund](/refunds/about/#cancelling-refunds).  
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 
-To refund more than the original amount, see [Refunds](/payments/refunds/).
+To refund more than the original amount, see [Refunds](/refunds/).
 
-**Note:** Split Payments are not supported in our [ecommerce integrations](/integrations/ecommerce-integrations).
+**Note:** Split Payments are not supported in our [ready-made integrations](/integrations/ready-made/).
 

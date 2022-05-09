@@ -1,14 +1,14 @@
 ---
 title: "Transaction summary"
-meta_title: "Reports - Transaction summary - MultiSafepay Docs"
-
+meta_title: "Transaction summary - MultiSafepay Docs"
 read_more: '.'
 weight: 2
+url: '/reports/transaction-summary/'
 aliases:
     - /tools/accounting/reports/transaction-summary/
 ---
 
-The Transaction summary provides an overview of all transactions within a specific timeframe.
+The transaction summary provides an overview of all transactions within a specific timeframe.
 
 Includes:  
 
@@ -21,9 +21,9 @@ Includes:
 
 Supported formats: Excel or PDF
 
-## Generating a Transaction summary
+## Generating a transaction summary
 
-To generate a Transaction summary, follow these steps:
+To generate a transaction summary, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Transaction summary**.

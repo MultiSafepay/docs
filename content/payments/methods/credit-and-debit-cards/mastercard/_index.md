@@ -8,10 +8,12 @@ intro_description: "Mastercard is a leading global credit card scheme. An additi
 layout: 'single'
 logo: '/logo/Payment_methods/Mastercard.svg' 
 short_description: 'Leading global credit card scheme.'
+url: '/payment-methods/mastercard/'
 aliases:
     - /support-tab/magento2/payment-methods/mastercard
     - /payment-methods/mastercard/
     - /payment-methods/credit-and-debit-cards/mastercard
+    - /payments/methods/credit-and-debit-cards/mastercard/
 ---
 
 

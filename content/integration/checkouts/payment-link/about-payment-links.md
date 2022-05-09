@@ -12,7 +12,7 @@ aliases:
     - /payments/checkout/payment-link/
 ---
 
-You can manually generate a link to a [MultiSafepay payment page](/payment-pages/) to pass to a customer to complete payment. 
+You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. 
 
 ## Use cases 
 
@@ -25,13 +25,13 @@ You can manually generate a link to a [MultiSafepay payment page](/payment-pages
 
 All payment methods are supported. 
 
-The payment page displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
+The [payment page](/payment-pages/) displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
 
 ## Lifetimes
 
 The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
 
-To set or adjust the lifetime, see API reference – [Adjust session lifetimes](/api/#adjust-session-lifetimes).
+To set or adjust the lifetime, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder): `days_active` parameter.
 
 {{< blue-notice >}} **Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). {{< /blue-notice >}} 
 

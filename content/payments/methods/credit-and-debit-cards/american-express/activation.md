@@ -5,11 +5,12 @@ weight: 20
 meta_title: "Activating American Express - MultiSafepay Docs"
 short_description: "Activating American Express for your MultiSafepay account"
 layout: 'child'
-url: '/payment-methods/american-express/activation/'
+url: '/payment-methods/amex/activation/'
 aliases: 
+    - /payment-methods/american-express/activation/
     - /payment-methods/credit-and-debit-cards/american-express/activate-american-express/
 ---
-{{< blue-notice >}} If using a ready-made integration: 
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
 - Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}

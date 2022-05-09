@@ -1,8 +1,8 @@
 ---
-title: 'Payment Components'
-breadcrumb_title: "Payment Components"
+title: 'Payment components'
+breadcrumb_title: "Payment components"
 layout: 'single'
-meta_title: 'Payment Components - MultiSafepay Docs'
+meta_title: 'Payment components - MultiSafepay Docs'
 logo: '/svgs/Payment pages.svg'
 short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
 hideMenu : 'true'
@@ -14,7 +14,7 @@ aliases:
     - /payments/checkout/payment-components/
     - /integrations/payment-components/
 ---
-Payment Components let you embed payment methods directly into your checkout.
+Payment components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase [conversion](/glossaries/multisafepay-glossary/#conversion-rate)
 - Encrypts customer payment details for secure processing
@@ -25,19 +25,19 @@ Payment Components let you embed payment methods directly into your checkout.
 
 Embed a single or multiple payment methods in your checkout.
 
-{{< details title="Available payment methods">}}
+{{< details title="Supported payment methods">}}
 
-- [Bancontact](/payments/methods/banks/bancontact/)
-- [Bank Transfer](/payments/methods/banks/bank-transfer/)
+- [Bancontact](/payment-methods/bancontact/)
+- [Bank Transfer](/payment-methods/bank-transfer/)
 - Credit cards:  
-    - [American Express](/payment-methods/american-express/)
-    - [Mastercard](/payments/methods/credit-and-debit-cards/mastercard/)
-    - [Visa](/payments/methods/credit-and-debit-cards/visa/)
+    - [American Express](/payment-methods/amex/)
+    - [Mastercard](/payment-methods/mastercard/)
+    - [Visa](/payment-methods/visa/)
     - [Maestro](/payment-methods/maestro/)
-- [iDEAL](/payments/methods/banks/ideal/)
-- [PayPal](/payments/methods/wallet/paypal/)
-- [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit/)
-- [Sofort](/payments/methods/banks/sofort/)
+- [iDEAL](/payment-methods/ideal/)
+- [PayPal](/payment-methods/paypal/)
+- [SEPA Direct Debit](/payment-methods/sepa-direct-debit/)
+- [Sofort](/payment-methods/sofort/)
 
 {{< /details >}}
 

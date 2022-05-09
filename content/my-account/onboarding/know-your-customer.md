@@ -3,12 +3,11 @@ title: 'Know your customer checks'
 breadcrumb_title: 'Know your customer checks'
 weight: 50
 meta_title: "Know your customer checks - MultiSafepay Docs"
-
 read_more: "."
 url: '/account/kyc/'
 ---
 
-MultiSafepay is a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/glossaries/multisafepay-glossary/#acquirer), so we are legally required to perform know your customer (KYC) checks.  
+As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/glossaries/multisafepay-glossary/#acquirer), MultiSafepay is legally required to perform know your customer (KYC) checks.  
 
 You need to provide information about your company structure, and your products and services. We then perform KYC checks on the:
 
@@ -19,5 +18,5 @@ You need to provide information about your company structure, and your products 
 
 To help you start accepting payments as quickly as possible, we divide our KYC checks into two phases:
 
-- **Identification:** When we have established the identity of the account holder, you can start accepting payments.
-- **Verification:** When we have verified the identity of the account holder, you can receive [payouts](/account/payouts/) to your business bank account.
+- **Identification:** As soon as we have established the identity of the account holder, you can start accepting payments.
+- **Verification:** As soon as we have verified the identity of the account holder, you can start making [payouts](/account/payouts/) to your business bank account.

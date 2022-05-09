@@ -1,33 +1,27 @@
 ---
-title: 'Create a test account'
-breadcrumb_title: 'Create a test account'
+title: 'Create a free test account'
+breadcrumb_title: 'Create a free test account'
 weight: 10
-meta_title: "Getting Started - Create a test account - MultiSafepay Docs"
-
+meta_title: "Create a test account - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Zero_Authorization.svg'
 layout: 'single'
 weight: 10
 short_description: "Create a free MultiSafepay test account."
+url: '/create-test-account/'
+aliases:
+    - /getting-started/create-a-test-account/
 ---
 
-A test account lets you:
-
-* Build and test your integration.
-* Explore new features and tools.
-* Process test transactions for free.
-
-See also [About account types](/account/partner-account-control/about-account-types/).
-
-## Creating a test account
-
-To create a free test account, follow these steps:
+Create a free MultiSafepay test account to test your integration, preferred payment methods, and our solutions and features. 
 
 1. Fill out the [signup form](https://testmerchant.multisafepay.com/signup).
-2. You will receive an email containing your **security code**.
-3. [Sign in](https://testmerchant.multisafepay.com) to your account using the **security code**.
+2. You will receive an email containing a **security code**.
+3. [Sign in](https://testmerchant.multisafepay.com) to your test dashboard using the **security code**.
 
-For support, email the Customer Operations Team at <support@multisafepay.com>
+For support, email <support@multisafepay.com>
+
+For more information about account types and creating a live account, see [Creating an account](/account/create-account/).
 
 {{< two-buttons
 href-1="/getting-started/" header-1="Overview" text-1="Getting started" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 

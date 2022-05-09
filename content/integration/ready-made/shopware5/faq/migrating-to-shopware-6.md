@@ -32,4 +32,4 @@ MultiSafepay will continue to support Shopware 5 as long as it remains in the ma
 
 For instructions, see the [Shopware migration manual](https://docs.shopware.com/en/migration-en).
 
-For questions, email the Integration Team at <integration@multisafepay.com>
+For questions, email <integration@multisafepay.com>

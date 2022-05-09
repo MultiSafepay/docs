@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/billing-suite/pay-after-delivery/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,23 +23,22 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects Pay After Delivery at checkout
-    Mu->>C: Connects to MultiFactor (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, bank account and phone numbers, <br> and accept the terms & conditions, <br> then redirects to your success page
+    else Direct flow
+    Mu->>MF: Sends order details
+    end
     MF->>Mu: Authorizes the payment (within 2 business days)
     Mu->>MF: Captures the funds
     Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped! 
-    MF->>C: Sends invoice (within 24 hours of Shipped status)
-    Note over MF,C: Settlement is now guaranteed!
+    Note over Me,C: Manually change the order status to Shipped.
+    MF->>C: Sends invoice (within 24 hours of Shipped status, settlement is now guaranteed)
     C->>MF: Completes payment (within 14 days)
     MF->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 30 days of Shipped status)
 
 {{< /mermaid >}}
 &nbsp;  
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The order details are sent directly to MultiFactor. | 
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to: {{< br >}} - Agree to the terms and conditions {{< br >}} - Provide their birth date, bank account, email address, and phone number {{< br >}} They are then redirected to your success page. | 
 
 ### Failure to pay
 
@@ -75,20 +74,17 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. {{< br >}} You can still cancel it. | Uncleared   | Uncleared | 
-| Pay After Delivery has authorized the payment. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
+| MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel. | Initialized | Initialized | 
+| We have authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. {{< br >}} See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
 | **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). | Shipped | Uncleared |
-| The transaction is complete.  | Shipped | Completed |
-| The transaction was cancelled. | Void   | Cancelled | 
-| The customer did not complete payment within 90 days and the transaction expired. | Expired | Expired | 
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Initialized | Initialized |  
-| The refund is complete. | Completed | Completed | 
+| MultiSafepay has collected payment.  | Shipped | Completed |
+| The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
+| MultiSafepay declined the transaction. | Declined | Declined |
+| The customer didn't complete payment within 90 days. | Expired | Expired | 
+|**Refunds**|||
+| Refund initiated. | Initialized | Initialized |  
+| Refund complete. | Completed | Completed | 
 
 

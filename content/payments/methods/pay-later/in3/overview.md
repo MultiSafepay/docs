@@ -3,7 +3,7 @@ title: 'in3 overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "in3 overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/svgs/in3.svg'
 url: '/payment-methods/in3/overview/'
@@ -21,15 +21,23 @@ in3 processes all the installments and guarantees settlement after receiving the
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/) {{< br >}} You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
+| **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) {{< br >}} You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 2 hours |
 
-## Notes
+## Amount limits
 
-- The default minimum order amount is 100 EUR and the default maximum amount is 3000 EUR. You can adjust these limits in the [backend](/glossaries/multisafepay-glossary/#backend) of our [ready-made integrations](/payments/integrations/ecommerce-platforms/) to show or hide in3 on your checkout page depending on the order value.
+The default minimum order amount is 100 EUR and the default maximum amount is 3000 EUR. You can adjust these limits in the [backend](/glossaries/multisafepay-glossary/#backend) of our [ready-made integrations](/payments/integrations/ecommerce-platforms/) to show or hide in3 on your checkout page depending on the order value.
 
-- Customers can provide different billing and shipping addresses.
+## Customer addresses
+
+Customers can provide different billing and shipping addresses.
+
+## Surcharges
+
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). We therefore strongly recommend discontinuing any surcharges. 
+
+For more information, email <sales@multisafepay.com> 
 
 ## See also
 

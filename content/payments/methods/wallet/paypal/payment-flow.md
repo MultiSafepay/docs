@@ -11,7 +11,7 @@ aliases:
     - /payments/methods/wallet/paypal/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -23,17 +23,16 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects PayPal at checkout
-    Mu->>C: Connects to PayPal (direct/redirect)
-    C->>P: Authenticates account, completes payment 
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to their PayPal account
+    else Direct flow
+    Mu->>C: Redirects to PayPal account
+    end
+    C->>P: Authenticates account, and completes payment 
     P->>Me: Settles funds in your <br> PayPal business account
 
 {{< /mermaid >}}
 &nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer is redirected straight to their PayPal account. | 
-| **Redirect flow** | The customer is redirected briefly to a [MultiSafepay payment page](/payment-pages/) and then to PayPal. | 
 
 **Note:** MultiSafepay does **not** collect funds for PayPal transactions.
 
@@ -49,23 +48,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. {{< br >}} **Note:** The transaction status doesn't change because MultiSafepay doesn't collect the funds. | Completed | Initialized |
-| The currency is not enabled in your PayPal business account. {{< br >}} To change the order status to **Completed**, enable the relevant currency. {{< br >}} You can only decline or authorize **Uncleared** transactions in your PayPal account. | Uncleared | Initialized |
-| PayPal has declined the transaction. | Declined | Declined   |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment within 14 days and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved | Initialized |
-| The refund is complete.  | Completed | Initialized |
-| The customer has requested a refund but there are not enough funds in your PayPal business account. | Uncleared | Initialized   |
-
-
-
-
+| The customer has been redirected to PayPal. | Initialized | Initialized |
+| - Awaiting the customer to pay in their PayPal account **or** {{< br >}} - PayPal is authorizing the transaction **or** {{< br >}} - You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
+| PayPal has collected payment. | Completed | Initialized |
+| The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
+| The customer didn't complete payment within 14 days. | Expired | Expired |
+|**Refunds**|||
+| Refund initiated. | Reserved | Initialized |
+| Refund complete.  | Completed | Initialized |
+| Refund declined. | Declined | Declined |
+| - PayPal is authorizing the refund. {{< br >}} **Or** {{< br >}} - There are not enough funds in your PayPal business account to process the refund. {{< br >}} For more information, see your PayPal business account. | Uncleared | Initialized   |

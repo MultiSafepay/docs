@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/wallet/applepay/activate-apple-pay
     - /payments/methods/wallet/applepay/activation/
 ---
-{{< blue-notice >}} If using a ready-made integration: 
+{{< blue-notice >}} If using a [ready-made integration](/integrations/ready-made/): 
 
 - First check that the payment method is supported. 
 - Once activated for your account, you must also enable the payment method in your [backend](/glossaries/multisafepay-glossary/#backend).  {{< /blue-notice >}}
@@ -36,4 +36,4 @@ Once approved, to activate credit card payments and Apple Pay for your MultiSafe
 
 5. Click **Save changes**.
 
-{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
+{{< alert-notice >}} If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> {{< /alert-notice >}}

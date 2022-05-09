@@ -16,5 +16,5 @@ aliases:
 
 Flexible 3D lets you enable and disable mandatory [3D Secure](/features/3d-secure/about/) authentication of credit card transactions via our API.
 
-See API reference – [Credit card direct](/api/#credit-card--direct).
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order > Set `type` to `direct`.
 

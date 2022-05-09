@@ -14,7 +14,7 @@ aliases:
     - /tools/manual-capture
     - /payments/features/manual-capture/
 ---
-Manual Capture is a MultiSafepay solution that lets you capture credit card payments either partially or in full. It supports Maestro, Mastercard, and Visa.
+Manual Capture is a MultiSafepay solution that reduces your risk by letting you capture credit card payments either partially or in full when you ship the order. 
 
 {{< details title="Full capture" >}}
 
@@ -28,6 +28,7 @@ Partial capture is when a customer places an order for multiple items but you ca
 
 {{< /details >}}
 
+It supports Maestro, Mastercard, and Visa.
 For how Manual Capture can benefit your business, see [Capture your payments](https://www.multisafepay.com/blog/capture-your-payments).
 
 ## Statuses
@@ -38,7 +39,7 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 
 | Action | Description | Order status | Transaction status |
 |---|---|---|---|
-|  Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
+| Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |
 | Full capture | The full amount is captured relating to a previous order ID. | Completed    | Completed  |
 | Partial cancel reservation | The reserved or remaining amount that was partially captured has been cancelled. | Void | Void |
@@ -46,24 +47,20 @@ For how Manual Capture can benefit your business, see [Capture your payments](ht
 | Partial authorization expiry | The remaining authorized amount expired without being captured. | Void | Void |
 | Full authorization expiry | The full authorized amount expired without being captured. | Void    | Void  |
 
-{{< details title="Expiration periods" >}}
+### Expiration periods
 
-Expiration period for supported payment methods: 
+- VISA: 7 days
+- Mastercard and Maestro: 30 days
 
-* VISA: 7 days
-* Mastercard / Maestro: 30 days
-
-After expiration, the issuer can cancel the authorization and the funds are returned to the customer’s account.
-
-{{< /details >}}
+After expiration, the issuer can cancel the authorization.
 
 ## Activation
 
 To activate Manual Capture for your MultiSafepay account, email <sales@multisafepay.com>
 
 ## Integration
-To integrate Manual Capture using our API, see API reference – [Manual Capture authorization](/api/#manual-capture-orders).
+See API reference – [Capture payment](https://docs-api.multisafepay.com/reference/capturepayment).
 
-Manual Capture is not supported in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but you can customize it via our API.
+Manual Capture is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

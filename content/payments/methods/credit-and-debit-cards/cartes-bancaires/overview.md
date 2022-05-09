@@ -3,7 +3,7 @@ title: 'Cartes Bancaires overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Cartes Bancaires overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 logo: '/logo/Payment_methods/Cartes-Bancaire.svg'
 url: '/payment-methods/cartes-bancaires/overview/'
@@ -24,6 +24,4 @@ An additional layer of security is provided by Verified by Visa (Visa's version 
 | **Refunds** | [Full and partial](/refunds/full-partial) |
 | **Transactions expire after** | 1 hour |
 | **Payment features** | [3D Secure](/features/3d-secure/) {{< br >}} [Manual Capture](/features/manual-capture/) {{< br >}} [MOTO](/features/moto/) {{< br >}} [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) {{< br >}} [Server to Server](/features/server-to-server/) {{< br >}} [Zero Authorization](/features/zero-authorization/) |
-
-
 

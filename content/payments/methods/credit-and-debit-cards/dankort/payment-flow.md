@@ -5,9 +5,12 @@ weight: 30
 meta_title: "Dankort payment flow - MultiSafepay Docs"
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
+url: '/payment-methods/dankort/payment-flow/'
+aliases:
+    - /payments/methods/credit-and-debit-cards/dankort/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -20,8 +23,8 @@ sequenceDiagram
     participant CB as Customer's bank
 
     C->>Mu: Selects Dankort at checkout
-    Mu->>C: Connects to Visa (redirect only)
-    C->>V: Enters payment details, verifies identity, <br> and completes payment
+    Mu->>C: Redirects to payment page
+    C->>V: Enters payment details, authenticates, <br> and completes payment
     Mu->>Me: Runs fraud filter and provides risk report
     Me->>Mu: Authorizes transaction
     CB->>Mu: Transfers funds 
@@ -29,8 +32,6 @@ sequenceDiagram
 
 {{< /mermaid >}}
 &nbsp;  
-
-**Redirect flow:** The customer is redirected to a [MultiSafepay payment page](/payment-pages/) to enter their payment details. 
 
 ## Payment statuses
 
@@ -44,22 +45,17 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The transaction is initiated and the customer has been redirected to 3D Secure. | Initialized | Initialized |
-| 3D Secure authorization was sucessful, but the transaction is flagged for potential fraud risk. [Manually capture or decline the transaction](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| Payment wasn't captured manually or within 5 days. | Void | Void |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
-| 3D Secure authorization failed or was cancelled, and the transaction was declined. {{< br >}} See [About Declined status](/credit-cards-user-guide/declined-status/). | Declined | Declined   |
-
-## Refund/chargeback statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The refund/chargeback is initiated. | Reserved    | Reserved   |
-| The refund/chargeback is complete.  | Completed      | Completed   |
+| Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
+| The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
+| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+|**Refunds**|||
+| Refund/chargeback initiated. | Reserved    | Reserved   |
+| Refund/chargeback complete.  | Completed      | Completed   |
 
 
 

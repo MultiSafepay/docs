@@ -3,10 +3,10 @@ title: 'Dankort overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "Dankort overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
 read_more: '.'
-url: '/payments/methods/dankort/overview/'
+url: '/payment-methods/dankort/overview/'
 aliases:
     - /payment-methods/branded-credit-cards/dankort-what-is-it/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
@@ -14,6 +14,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/dankort/user-guide/about-chargebacks/
     - /payments/methods/credit-and-debit-cards/dankort/about/
     - /payments/methods/dankort/product-rules/
+    - /payments/methods/dankort/overview/
 ---
 [Dankort](https://www.dankort.dk/en/privat/) is a popular Visa-branded credit card in Denmark. 
 

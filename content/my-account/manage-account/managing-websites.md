@@ -45,7 +45,7 @@ To process payments from a website operated by a separate legal entity, you must
 4. If you want to receive [status updates](/about-payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
 5. In the **Description** field, enter your company name, and then click **Continue**.  
     **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.  
-    A template of your MultiSafepay payment page is generated.
+    A template of your [payment page](/payment-pages/) is generated.
 6. Customize the template as required.  
     - To toggle the view of the payment page, click:
         - **List view** to see all payment methods in a list

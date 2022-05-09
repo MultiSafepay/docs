@@ -3,60 +3,208 @@ title: "Activating payment methods"
 weight: 10
 meta_title: "Activating payment methods - MultiSafepay Docs"
 read_more: "."
+layout: 'single'
+hide_menu: 'true'
 url: '/payments/activating-payment-methods/'
 ---
-This page sets out how to activate payment methods. See also the **Activation** section for a specific payment method. 
+You can enable payment methods yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
 
-{{< blue-notice>}} If using a ready-made integration: 
+| Activation flow | Payment methods |
+|---|---|
+| [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, {{< br >}} SEPA Direct Debit |
+| [Enable in dashboard](/payments/activating-payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
+| [Own flow](/payments/activating-payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, {{< br >}} Edenred, gift cards, Paysafecard, {{< br >}} PayPal |
 
-- First check that the payment method is supported. 
-- Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend). {{< /blue-notice>}}
-
-## Activate in your dashboard
-
-Applies to all [banking methods](/payments/methods/banks/).
-
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Settings**. 
-3. To activate the payment method for:
-
-    - All your websites, go to **Payment methods**.
-
-    - A specific website, go to **Website settings**, and click the relevant website.
-
-4. Select the checkbox for the relevant payment method.
-
-5. Click **Save changes**.
-
-{{< alert-notice >}} If the payment method isn't visible in your dashboard, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}}
+{{< blue-notice >}} If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).{{< /blue-notice >}}
 
 ## Apply to MultiSafepay 
 
-Applies to:    
+1. Email a request to <risk@multisafepay.com> 
+{{< details title="Cards, Apple Pay, and Google Pay" >}} 
+ 
+Include in the request your: 
+  
+- Average, minimum, and maximum transaction amount 
+- Annual turnover 
+{{< /details>}}
+{{< details title="SEPA Direct Debit" >}} 
+- Include in the request the following information:
+    - Monthly and annual SEPA Direct Debit transaction volume
+    - Minimum and maximum transaction amount
+    - Type of products sold using this payment method
+    - Whether you want to accept [recurring payments](/features/recurring-payments/)
+    - Whether any subscriptions are monthly, quarterly, or annual
+- Depending on the details provided, we may ask for additional information.
+- We send you an agreement to sign and email back to us.
+{{< /details >}}
+2. We check your eligibilty and if approved, activate the payment method for your account. 
+3. Once approved, enable the method in your dashboard as below.
 
-- All [credit and debit cards](/payments/methods/credit-and-debit-cards/)
-- All [pay later methods](/payment-methods/pay-later/)
-- All [wallets](/payment-methods/wallets/), except [PayPal](/payment-methods/paypal/)
+## Enable in dashboard
 
-Email a request to <sales@multisafepay.com>
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Settings**. 
+3. To enable the payment method for:
+    - All sites, go to **Payment methods**.
+    - A specific site, go to **Website settings**, and click the relevant site.
+4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-For credit cards, Apple Pay, and Google Pay, include in the request your:
+**Note:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 
-- Average, minimum, and maximum transaction amount
-- Annual turnover in credit card transactions
+## Own flow
+{{< details title="AfterPay" >}} 
+1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
-The Risk Team checks your eligibilty and if approved, activates the payment method for your MultiSafepay account. 
+2. For new AfterPay clients, apply directly to AfterPay:
 
-## Create payment method account
+- The Netherlands: [Offerte](https://www.afterpay.nl/nl/zakelijk/offerte)
+- Belgium: [Offerte aanvragen](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
 
-The following methods (also) require an account with the payment method:  
+3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
+{{< /details >}}
 
-- [AfterPay](/payment-methods/afterpay/activation/)
-- [Betaal per Maand](/payment-methods/betaal-per-maand/activation/)
-- [Edenred](/payment-methods/edenred/activation/)
-- [Gift cards](/payment-methods/gift-cards/activation/)
-- [Klarna](/payment-methods/klarna/activation/)
-- [PayPal](/payment-methods/paypal/activation/)
+{{< details title="Betaal per Maand" >}}
+You must:
+
+- Have a [MultiSafepay account](/getting-started/)
+- Be registered with a Dutch Chamber of Commerce (no exceptions)
+- Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
+- Sell products or services to European citizens with a residential or delivery address in the Netherlands (no exceptions)
+- Connect to MultiSafepay via our API or [ready-made integrations](/integrations/ready-made/)
+
+1. Email a request to <sales@multisafepay.com>
+2. In the request, let us know if you already have a Santander account. If you don't, we'll submit an application for you. 
+3. We check your eligibility and type of connection. 
+4. Once approved, we activate the payment method for your account.
+{{< /details >}}
+
+{{< details title="Edenred" >}}
+1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
+2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
+3. Email your Edenred Merchant ID to <sales@multisafepay.com>
+4. We activate the payment method for your account.
+{{< /details >}}
+
+{{< details title="Gift cards" >}}
+1. To check your eligibility, email <sales@multisafepay.com> 
+2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
+3. The issuer connects you to the card via either:
+- [Intersolve](https://intersolve.nl/contact) (majority of gift cards)
+- [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+- [123TCS](https://www.123tcs.com/#Contact)
+4.  The issuer sends us the connection details and we activate the card for your account.
+{{< /details >}}
+
+{{< details title="Klarna" >}} 
+**Test account**
+
+1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
+2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
+3. Email these credentials to <sales@multisafepay.com> 
+4. MultiSafepay connects to Klarna. 
+
+We recommend testing Klarna payments via the Klarna Portal to experience the full functionality. You can also test from your **test** MultiSafepay dashboard with more limited functionality.
+
+**Live account**
+
+1. Sign up for a live Klarna account:
+
+- Via the Klarna website, selecting the **Production** environment, **or**  
+- Email your Klarna account manager or <verkoop@klarna.com>
+2. Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.
+3. Sign an agreement with Klarna, including pricing.
+4. We activate Klarna for your MultiSafepay account. 
+5. If using a ready-made integration, activate Klarna in your [backend](/glossaries/multisafepay-glossary/#backend).
+
+For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
+
+For support, email <integration@multisafepay.com>
+{{< /details >}}
+
+{{< details title="PayPal" >}}
+The instructions below are for the PayPal interface in English. If your PayPal webpage is in another language, you can change the language easily by clicking the links at the bottom right of the page.
+
+**Configuring your PayPal account**
+
+To configure your PayPal account, follow these steps:
+
+1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
+2. Mouse over your account name in the top-right corner, and then select **Account settings**.
+3. On the **Account access** tab, under **API access**, click **Update**.
+4. Under **Pre-built payment solution**, click **Grant API permission**.
+5. In the **Third-party permission username** field, enter `paypal_api1.multisafepay.com`. 
+7. Click **Lookup**.  
+8. Select the checkboxes of the relevant permissions:  
+    - Use Express Checkout to process payments.
+    - Issue a refund for a specific transaction.
+    - Process your customers' credit or debit card payments.
+    - Obtain information about a single transaction.
+
+To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**:
+
+1. Click PayPal – [Profile language encoding](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding).
+2. Next to **Language coding for PayPal buttons**, click **Edit**.
+3. From the dropdown menu, select **Western European languages (including English)**.
+4. Click **More options**.
+5. From the **Encoding** dropdown menu, select **UTF-8**.
+6. Select the **Yes** checkbox.
+7. Click **Save**.
+
+For support or if any steps are inaccurate, email <integration@multisafepay.com>
+
+{{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
+
+For support or if any steps are inaccurate, email <integration@multisafepay.com>
+
+For further support, see PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us).
+
+**Configuring your MultiSafepay account**
+
+To configure your MultiSafepay account for PayPal, follow these steps:
+
+1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
+2. Mouse over your account name in the top-right corner, and then select **Account settings**.
+3. On the **Business information** tab, copy your PayPal Merchant ID.
+4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+5. Go to **Settings**. 
+6. To activate PayPal for:
+
+- All your sites:
+    - Go to **Payment methods**, and then select **PayPal**.
+    - In the **PayPal Merchant ID** field, paste in your ID.
+
+- A specific site:
+    - Go to **Website settings**, and click the relevant site.
+    - Under **Payment methods**, select the **PayPal** checkbox.
+
+**Note:** You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
+
+7. Click **Save changes**.
+
+**Note:** If PayPal is not visible as a payment method in your MultiSafepay dashboard, email <integration@multisafepay.com> 
+
+Your account is now configured!  
+We strongly recommend [testing some transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
+{{< /details >}}
+
+{{< details title="Paysafecard" >}}
+Paysafecard doesn't require activation.
+
+Search for outlets that sell Paysafecard:
+
+- English-language site: [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/)
+- Dutch-language site: [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/)
+
+For any questions, email <sales@multisafepay.com>
+{{< /details >}}
+
+
+
+
+
+ 
+
+
 
 
 

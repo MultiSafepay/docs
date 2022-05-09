@@ -9,4 +9,4 @@ To install the MultiSafepay plugin in your Vue Storefront platform, see MultiSaf
 
 ### Support
 
-For support, email the Integration Team at <integration@multisafepay.com> 
+For support, email <integration@multisafepay.com> 

@@ -42,7 +42,7 @@ Contact us:
 &nbsp;  
 - MultiSafepay account – See [Getting started](/getting-started/).
 - OpenCart 2.X, 3.X
-- Tested on PHP 7.2, 7.3
+- PHP version 7.2, 7.3, or 7.4
 
 {{< /details >}}
 
@@ -50,7 +50,7 @@ Contact us:
 
 **Credit and debit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)

@@ -44,7 +44,7 @@ This technical manual is for installing and configuring our new free plugin for 
 
 The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases [conversion](/glossaries/multisafepay-glossary/#conversion-rate).
 
-We support most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
+We support most Magento functionalities. For any questions, email <integration@multisafepay.com>
 
 ### New features
 
@@ -87,7 +87,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
 **Credit cards**
 
-- [American Express](/payment-methods/american-express)
+- [American Express](/payment-methods/amex)
 - [Maestro](/payment-methods/maestro)
 - [Mastercard](/payment-methods/mastercard)
 - [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)

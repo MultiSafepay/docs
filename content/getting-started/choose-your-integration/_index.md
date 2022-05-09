@@ -2,8 +2,7 @@
 title: 'Choose your integration'
 breadcrumb_title: 'Choose your integration'
 weight: 10
-meta_title: "Getting Started - Choose your integration - MultiSafepay Docs"
-
+meta_title: "Choose your integration - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Integrations.svg'
 layout: 'single'
@@ -15,7 +14,7 @@ aliases:
 
 We support multiple [integration](/glossaries/multisafepay-glossary/#integration) methods. Choose one that matches your business needs and tech stack.   
 
-For help selecting a method, email the Integration Team at <integration@multisafepay.com>
+For help selecting a method, email <integration@multisafepay.com>
 
 ## Ready-made integrations
 MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. 

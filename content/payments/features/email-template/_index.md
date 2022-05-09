@@ -32,19 +32,19 @@ To speed up and customize customer emails, you can use preformatted and/or prewr
 {{< details title="Template types" >}}
 
 **Bank Transfer details email (to customer)**  
-For sending customers MultiSafepay's bank details when they select [Bank Transfer](/payment-methods/bank-transfer) as payment method and you send a [`redirect`](/developer/api/difference-between-direct-and-redirect/) transaction request. 
+For sending customers MultiSafepay's bank details when they select [Bank Transfer](/payment-methods/bank-transfer) as payment method and you send a [`redirect`](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) transaction request. 
 
 **Chargeback email (to merchant)**  
-For notifying you when a customer requests a [chargeback](/payments/chargebacks/about/) (recommended if you accept credit card payments).
+For notifying you when a customer requests a [chargeback](/chargebacks/about/) (recommended if you accept credit card payments).
 
 Make sure you add one or more email addresses to send these emails to in your MultiSafepay dashboard, under 
 **Contact information** > **Chargeback email**. 
 
 **Manual Capture reservation completed (to customer)**  
-For notifying customers that you have manually captured reserved funds for an [Uncleared transaction](/credit-cards-user-guide/uncleared-transactions/). 
+For notifying customers that you have manually captured reserved funds for an [Uncleared transaction](/about-payments/uncleared-transactions/). 
 
 **Manual Capture reservation completed (to merchant)**  
-For confirming that you have manually captured reserved funds for an [Uncleared transaction](/credit-cards-user-guide/uncleared-transactions/).  
+For confirming that you have manually captured reserved funds for an [Uncleared transaction](/about-payments/uncleared-transactions/).  
 
 **Partial and/or full capture completed (to customer)**  
 For notifying customers that you have partially or fully captured reserved funds for an [Uncleared transaction](/credit-cards-user-guide/uncleared-transactions/). 
@@ -169,7 +169,7 @@ The table below describes all available tokens.
 | MERCHANTPHONESUPPORT          | Your customer service phone number |
 | MERCHANTSUPPORT EMAIL         | Your customer service email address |
 | MERCHANTTRANSACTIONID         | Your reference number |
-| PAYLINK                       | Link to the MultiSafepay payment page for this transaction |
+| PAYLINK                       | Link to the [payment page](/payment-pages/) for this transaction |
 | PAYMENTMETHOD                 | Payment method used for this transaction |
 | PHONE                         | Your company phone number given in your MultiSafepay account |
 | REFUNDDESTINATION             | Bank account number to receive the refund |
@@ -221,4 +221,4 @@ Inline frames (Iframes) are HTML documents embedded inside another HTML document
 
 **Step 6.** Click **Save**.
 
-For support, email the Integration Team at <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>

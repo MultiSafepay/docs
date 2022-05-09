@@ -10,7 +10,7 @@ aliases:
     - /payments/methods/wallet/wechatpay/payment-flow/
 ---
 
-This diagram shows the flow for a successful transaction.
+This diagram shows the flow for a successful transaction. Click to magnify.
 
 {{< mermaid class="text-center" >}}
 
@@ -22,18 +22,17 @@ sequenceDiagram
     participant Me as Merchant
 
     C->>Mu: Selects WeChat Pay at checkout
-    Mu->>C: Connects to WeChat Pay and generates QR code (direct/redirect)
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> with WeChat QR code
+    else Direct flow
+    Mu->>C: Displays WeChat QR code
+    end
     C->>W: Scans code with WeChat app to complete payment 
     W->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
-
-|  |  |  |
-|---|---|---|
-| **Direct flow** | The customer selects WeChat Pay at checkout and MultiSafepay displays a WeChat QR code. |
-| **Redirect flow** | The customer is redirected to a [MultiSafepay payment page](/payment-pages/) containing a WeChat QR code. |   
+&nbsp;   
 
 ## Payment statuses
 
@@ -47,19 +46,15 @@ For more information, see [About MultiSafepay statuses](/about-payments/multisaf
 
 {{< /details >}}
 
-| Description | Order status | Transaction status |
+| Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
-| The transaction is complete. | Completed | Completed |
-| The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
-
-## Refund statuses
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has requested a refund. | Reserved    | Reserved   |
-| The refund is complete.  | Completed      | Completed   |
+| A QR code has been generated. | Initialized | Initialized |
+| MultiSafepay has collected payment. | Completed | Completed |
+| The customer cancelled the payment. | Void   | Void   |
+| The customer didn't complete payment within 2 hours. | Expired | Expired |
+| **Refunds**|||
+| Refund initiated. | Reserved    | Reserved   |
+| Refund complete.  | Completed      | Completed   |
 
 
 

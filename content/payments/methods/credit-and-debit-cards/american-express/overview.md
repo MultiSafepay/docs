@@ -3,13 +3,14 @@ title: 'American Express overview'
 breadcrumb_title: 'Overview'
 weight: 10
 meta_title: "American Express overview - MultiSafepay Docs"
-short_description: "Key information, supported countries, currencies, and features"
+short_description: "Key information, refunds, countries, currencies, and features"
 layout: 'child'
-url: '/payments/methods/amex/overview/'
+url: '/payment-methods/amex/overview/'
 aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
     - /payment-methods/american-express/about/
     - /payments/methods/amex/product-rules/
+    - /payments/methods/amex/overview/
 ---
 [American Express](https://www.americanexpress.com/nl-nl/) is one of the biggest global credit card schemes, accepted in more than 160 countries. 
 
@@ -32,7 +33,7 @@ If you use your American Express merchant account number:
 - You are automatically added to the Safekey directory. 
 - All currencies are supported.  
   
-For more information, email the Support Team at <support@multisafepay.com>
+For more information, email <support@multisafepay.com>
 
 
 
