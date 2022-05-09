@@ -27,7 +27,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 1. Sign in to your HostBill account.
 2. Click **Extras** > **Plugins**.
 3. From the left menu, select **Payment modules** > **MultiSafepay**.
-4. Click **Edit general settings**, and then enter your [MultiSafepay API key](/account/site-id-api-key-secure-code/).
+4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
 5. Click **Save changes**.
 
 **Step 2.** Configure the module as required, e.g. the [module name and callback URL](https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay).

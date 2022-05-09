@@ -9,7 +9,7 @@ aliases:
     - /tools/accounting/accounting-integrations/actuals-live/
 ---
 
-You can integrate with Actuals using your [MultiSafepay API key](/account/site-id-api-key-secure-code/). 
+You can integrate with Actuals using your [MultiSafepay API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). 
 
 ## Connecting Actuals with MultiSafepay
 

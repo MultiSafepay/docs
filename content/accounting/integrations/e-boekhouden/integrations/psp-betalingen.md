@@ -18,4 +18,4 @@ For more information, see PSP&nbsp;Betalingen&nbsp;–&nbsp;[Koppeling MultiSafe
 
 To connect your MultiSafepay account to e-Boekhouden, see PSP&nbsp;betalingen&nbsp;–&nbsp;[Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden) (in Dutch).
 
-You will need your MultiSafepay [website-level API key](/account/site-id-api-key-secure-code/).
+You will need a MultiSafepay [site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).

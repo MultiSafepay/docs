@@ -26,7 +26,7 @@ For support, email <integration@multisafepay.com>
 
 ## Test credentials
 
-For all payment methods **except** AfterPay, you need your site's test [API key](/account/site-id-api-key-secure-code/).
+For all payment methods **except** AfterPay, you need your site's test [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
 
 ## Make a test payment
 
@@ -34,7 +34,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 
     {{< details title="Ready-made integration" >}}
 
-- In your backend, enter your test site [API key](/account/site-id-api-key-secure-code/).
+- In your backend, enter your test site [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
 - Place a test order, and then initiate a transaction with the payment method you are testing. 
 
     {{< /details >}}
