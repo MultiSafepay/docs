@@ -13,7 +13,7 @@ aliases:
 Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is not automatically supported in our PrestaShop 1.7 plugin.
 
 **Support**  
-The Integration Team will do their best to support you, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
+There are several [third-party addons](https://addons.prestashop.com/en/search?search_query=surcharge) available for surcharges. However, we can't guarantee compatibility with our plugin. Make sure that you test these addons carefully before installing.
 
 **PSD2 implications**  
 For more information about how the Payment Services Directive 2 may affect surcharges or payment fees, see [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).
