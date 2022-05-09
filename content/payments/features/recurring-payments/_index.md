@@ -179,7 +179,7 @@ We support recurring payments in our plugins for:
 
 ### Via our API
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer_reference` object.
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer.reference`.
 
 **Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
 
