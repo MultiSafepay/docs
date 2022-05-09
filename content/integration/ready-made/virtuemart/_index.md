@@ -135,6 +135,6 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 7. On the **Configuration** tab, enter your:
     - Account ID (top-right corner of your dashboard)
     - [Site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
-    - [Gateway ID](/reference/gateway-ids)
+    - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
 
