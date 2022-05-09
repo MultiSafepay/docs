@@ -69,7 +69,7 @@ We have removed this field. Now the cart is always kept alive when the customer 
 
 ## Checkout  
 
-For the following payment methods, we have changed the default payment flow from [redirect to direct](/developer/api/difference-between-direct-and-redirect/):
+For the following payment methods, we have changed the default payment flow from [redirect to direct](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect):
 
 - Afterpay
 - Request to Pay
