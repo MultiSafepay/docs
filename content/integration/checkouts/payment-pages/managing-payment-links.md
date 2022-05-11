@@ -1,10 +1,10 @@
 ---
-title: 'Payment links'
+title: 'Managing payment links'
 weight: 20
-meta_title: "Payment links - MultiSafepay Docs"
+meta_title: "Managing payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'
-short_description: 'Generate payment links via our API or in your MultiSafepay dashboard.'
+short_description: 'Generate links to payment pages via our API or in your dashboard.'
 url: '/payment-links/'
 read_more: "."
 aliases:
@@ -24,7 +24,7 @@ aliases:
     - /payment-links/about/
 ---
 
-You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. Use cases include:
+You can manually generate a link to a [payment page](/payment-pages/) to send to a customer to complete payment. Use cases include:
 
 - A customer wants to adjust an existing order instead of creating a new order.
 - You need to create a transaction for a manually generated order.
