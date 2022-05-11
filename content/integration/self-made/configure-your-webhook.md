@@ -9,7 +9,7 @@ weight: 1
 url: '/integrations/self-made/configure-your-webhook/'
 ---
 
-MultiSafepay uses a [webhook](/integration/webhooks/) to send updates about orders and other notifications to your web server.
+MultiSafepay uses a [webhook](/integrations/webhooks/) to send updates about orders and other notifications to your web server.
 
 You can configure the webhook at website level or at order level.
 

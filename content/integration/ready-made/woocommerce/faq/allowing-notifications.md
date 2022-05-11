@@ -21,4 +21,4 @@ From WooCommerce version 4.7.0, notifications are sent via `POST` requests, inst
 
 However, sometimes the REST endpoint used to process notifications may be blocked by a firewall at server level, or by some WordPress plugins at application level. In this case, ensure you include MultiSafepay requests on your allow list. 
 
-For more information, see [Webhook](/integration/webhooks/).
+For more information, see [Webhook](/integrations/webhooks/).
