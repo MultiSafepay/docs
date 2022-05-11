@@ -1,6 +1,6 @@
 ---
 title: "Activating payment methods"
-weight: 5
+weight: 3
 meta_title: "Activating payment methods - MultiSafepay Docs"
 read_more: "."
 layout: 'single'

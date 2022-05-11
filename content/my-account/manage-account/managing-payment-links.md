@@ -1,6 +1,6 @@
 ---
 title: 'Managing payment links'
-weight: 10
+weight: 7
 meta_title: "Managing payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'
