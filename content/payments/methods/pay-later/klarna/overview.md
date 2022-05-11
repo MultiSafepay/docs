@@ -12,12 +12,12 @@ aliases:
     - /payments/methods/klarna/product-rules/
     - /payment-methods/klarna/product-rules/
 ---
-[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, later, or in installments. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
+[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days, or in 3-4 installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
 |   |   |   |
 |---|---|---|
-| **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, The Netherlands  | 
-| **Currencies**  | EUR, SEK, NOK, DKK  | 
+| **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands  | 
+| **Currencies**  | EUR, GBP, SEK, NOK, DKK  | 
 | **Chargebacks**  | No – See [Chargebacks](/payments/chargebacks/). | 
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 1 hour |

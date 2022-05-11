@@ -1,11 +1,11 @@
 ---
 title: 'Managing payment links'
-weight: 7
+weight: 20
 meta_title: "Managing payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'
-short_description: 'Generate payment links via our API or in your MultiSafepay dashboard.'
-url: '/account/payment-links/'
+short_description: 'Generate links to payment pages via our API or in your dashboard.'
+url: '/payment-links/'
 read_more: "."
 aliases:
     - /tools/payment-link/payment-link-api/
@@ -24,9 +24,9 @@ aliases:
     - /payment-links/about/
 ---
 
-You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. Use cases include:
+You can manually generate a link to a [payment page](/payment-pages/) to send to a customer to complete payment. Use cases include:
 
-- A customer wants to adjust an existing order and instead of starting over with a new order.
+- A customer wants to adjust an existing order instead of creating a new order.
 - You need to create a transaction for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
 - A [Bank Transfer](/payment-methods/bank-transfer/) transaction has expired.
@@ -95,6 +95,41 @@ To generate a payment link for an existing transaction, follow these steps:
 4. In the **Transaction details** page, under **Order summary**, click **Payment link** > **Duplicate this order**.
 
 **Note:** The order ID must be unique.
+
+{{< /details >}}
+
+{{< details title="MultiSafepay app" >}}
+
+To generate a payment link from your MultiSafepay app, follow these steps:
+
+1. Go to **Tools** > **Payment link generator**.
+2. Fill in the required fields.
+3. Click **Generate payment link**.
+4. Save the QR code generated to your device, and then send it to the customer.   
+When the customer scans the QR code, they are directed to a pre-filled [payment page](/payment-pages/) to complete payment.
+
+Download the MultiSafepay app for:
+
+- Android devices from [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
+- Apple iOS devices from the [App Store](https://apps.apple.com/app/multisafepay-control/id929955963)
+
+{{< /details >}}
+
+{{< details title="API" >}}
+
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page/link. 
+
+{{< /details >}}
+
+{{< details title="Ready-made integrations" >}}
+
+You can generate payment links in the [backend](/glossaries/multisafepay-glossary/#backend) of the following [ready-made integrations](/integrations/ready-made/):
+
+- [Magento 1](/magento-1/)
+- [Magento 2](/magento-2)
+- [OpenCart](/opencart/)
+- [Shopware 5](/shopware-5/)
+- [WooCommerce](/woo-commerce/)
 
 {{< /details >}}
 

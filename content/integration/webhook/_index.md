@@ -5,7 +5,7 @@ weight: 40
 read_more: "."
 layout: single
 logo: '/svgs/General.svg'
-url: '/integration/webhooks/'
+url: '/integrations/webhooks/'
 short_description: 'Receive updates about orders and other notifications.'
 aliases:
     - /faq/api/how-does-the-notification-url-work

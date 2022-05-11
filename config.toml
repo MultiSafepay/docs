@@ -125,25 +125,39 @@ name = "Shell"
     weight = 210
 
 [[menu.main]]
+    name = "Self-made"
+    url  = "/integrations/self-made/"
+    parent = "integrations"
+    identifier = "self-made"
+    weight = 220
+
+[[menu.main]]
     name = "Partner integrations"
     url  = "/partner-integrations/"
     parent = "integrations"
     identifier = "partner-integrations"
-    weight = 220
+    weight = 230
 
 [[menu.main]]
     name = "Checkouts"
     url  = "/checkouts/"
     parent = "integrations"
     identifier = "checkouts"
-    weight = 230
+    weight = 240
+
+[[menu.main]]
+    name = "Webhook"
+    url  = "/integrations/webhooks/"
+    parent = "integrations"
+    identifier = "webhook"
+    weight = 250
 
 [[menu.main]]
     name = "Test your integration"
     url  = "/integrations/testing/"
     parent = "integrations"
     identifier = "testing"
-    weight = 240
+    weight = 260
 
 [[menu.main]]
     name = "Payments"

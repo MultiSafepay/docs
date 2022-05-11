@@ -1,6 +1,6 @@
 ---
 title : "Hiding shopping cart details on payment pages"
-weight: 50
+weight: 40
 meta_title: "Hiding shopping cart details on payment pages - MultiSafepay Docs"
 read_more: '.'
 url: '/payment-pages/hiding-shopping-cart/'

@@ -26,7 +26,7 @@ The most common operation to perform with our API is creating an order. To speci
 
 Before making any API requests, you must:
 
-- Have a [website-level API key](/account/site-id-api-key-secure-code/).
+- Have a [site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
 - Choose the test or live [environment](https://docs-api.multisafepay.com/reference/environments).
 
 You must include your API key in the request URL as a query parameter to be able to authenticate your request.  

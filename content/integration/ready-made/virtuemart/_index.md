@@ -133,8 +133,8 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
     - Set the payment method to **VirtueMart – Payment, MultiSafepay**.
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
-    - Account ID
-    - [Site ID, API key, and secure code](/account/site-id-api-key-secure-code/)
-    - Gateway ID  
+    - Account ID (top-right corner of your dashboard)
+    - [Site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
+    - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
 
