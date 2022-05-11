@@ -10,16 +10,19 @@ aliases:
     - /account/partner-account-control/about-partner-invoices/
 ---
 
-MultiSafepay sends you partner invoices for the previous month, including:
+MultiSafepay sends partner invoices for the previous month. 
+These invoices are for your records only. You **don't** need to pay anything.
 
-- Invoice date: The date you receive the invoice and VAT for the previous month
-- Invoice period: The month of the commission payout
-- Payout fee: [Payouts](/account/payouts/) from your MultiSafepay balance to your business bank account cost 0,50 EUR each
-- Your monthly commission payout (excluding VAT)
-- VAT (21%): refunded to your balance
+The invoices include:
 
-Partner invoices are for your records only. You **don't** need to pay anything.
+| | |
+|---|---|
+| **Invoice date** | The date you receive the invoice and VAT for the previous month. |
+| **Invoice period** | The month of the commission payout. |
+| **Payout fee** | [Payouts](/account/payouts/) from your MultiSafepay balance to your business bank account cost 0,50 EUR each. |
+| **Monthly commission payout** | This excludes VAT. |
+| **VAT (21%)** | This amount is refunded to your balance. |
 
 To request an invoice, email <partner@multisafepay.com>
 
-{{< blue-notice >}}**Note:** Primary accounts don't receive partner invoices. They receive [MultiSafepay VAT](/my-account/manage-your-balance/multisafepay-vat/) invoices like merchant accounts.
+{{< blue-notice >}}**Note:** Primary accounts don't receive partner invoices. They receive [MultiSafepay VAT invoices](/my-account/manage-your-balance/multisafepay-vat/), like merchant accounts.
