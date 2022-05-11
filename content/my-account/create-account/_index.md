@@ -35,7 +35,7 @@ All account types represent a single legal entity, but can support multiple bank
 
 ## Creating an account
 
-You can create a live account and start the [onboarding process](/getting-started/go-live/) straight away.
+You can create a live account and start the [onboarding process](/getting-started/guide/#5-onboard-your-account) straight away.
 
 Or, you may want to first create a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then onboard your account to start processing real payments. 
 
@@ -55,7 +55,7 @@ You receive an email containing your **security code**.
 
 **3.** Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
 
-**4.** For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/getting-started/go-live/).  
+**4.** For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/getting-started/guide/#5-onboard-your-account).  
 
 For any questions, email <support@multisafepay.com>
 
