@@ -1,6 +1,6 @@
 ---
 title : "Making payouts"
-weight: 6
+weight: 5
 meta_title: "Making payouts - MultiSafepay Docs"
 read_more: "."
 url: '/account/payouts/'

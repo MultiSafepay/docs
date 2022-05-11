@@ -1,11 +1,12 @@
 ---
-title: 'Email Templates'
-weight: 40
-meta_title: "Email Templates - MultiSafepay Docs"
+title: 'Setting up customer emails'
+weight: 11
+meta_title: "Setting up customer emails - MultiSafepay Docs"
 layout: "single"
+read_more: "."
 logo: '/svgs/Email_template.svg'
-short_description: "Customize communications to match your brand's look and feel."
-url: '/features/email-templates/'
+short_description: "Customize email templates to match your brand's look and feel."
+url: '/account/customer-emails/'
 aliases:
     - /tools/email-template/customizing-email-templates/
     - /tools/email-template/about-email-templates/
@@ -16,19 +17,16 @@ aliases:
     - /tools/multisafepay-control/email-template-token
     - /tools/multisafepay-control/using-email-template-tokens
     - /account/multisafepay-account/using-email-template-tokens/
+    - /features/email-templates/
 ---
 
-To speed up and customize customer emails, you can use preformatted and/or prewritten templates that you populate with relevant content.
+MultiSafepay can help you manage your email communications with customers. Use&nbsp;our preformatted and/or prewritten templates and populate them with your content.
 
-**Step 1.** Set an email template.
-
-- Sign in to your MultiSafepay dashboard. 
-- Go to **Settings** > **Email templates**.  
-- Click the relevant website.  
-- Click **Add new template**.   
-
-**Step 2.** From the **Type** dropdown menu, select the template type.  
-
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+2. Go to **Settings** > **Email templates**.  
+3. Click the relevant website.  
+4. Click **Add new template**.   
+5. From the **Type** list, select the template type.  
 {{< details title="Template types" >}}
 
 **Bank Transfer details email (to customer)**  
@@ -68,39 +66,18 @@ For notifying you that a customer has successfully completed a payment.
 
 {{< /details >}}
 
-**Step 3.** To set the email language either select one from the **Language** dropdown menu, or set the locale. 
+6. From the **Language** list, select the email language. 
+{{< blue-notice >}} The language set here is overridden by the `locale` parameter in [create order](https://docs-api.multisafepay.com/reference/createorder) API requests. {{< /blue-notice >}}
+7. Either click **Load default template**, or fill in the fields as required.
+    - In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com.  
+    {{< alert-notice >}} If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain:  
+**v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx**
+{{< /alert-notice >}}
+    - In the **From name** field, enter the name you want the email sent by, e.g. your company name.
+    - In the **Subject** field, enter a subject.  
 
-{{< details title="Setting the locale" >}}
-
-A locale is a set of parameters that defines the user’s language and region for:
-
-- Payment pages
-- Emails sent by MultiSafepay
-
-Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes, e.g. 'nl_NL' or 'en_US'.
-
-When no locale is provided or the language is not supported by MultiSafepay, American English is used by default. 
-
-For example, if an email template is set for a German customer, but the locale is received as en_US, the email template will be sent in English and not in German.
-
-{{< /details >}}
-
-**Step 4.** You can click **Load default template** or fill in the fields as required.
-
-- In the **From address** field, enter the email address you want the email sent from.
-- In the **From name** field, enter the name you want the email sent by.
-- In the **Subject** field, enter a subject.
-
-{{< details title="Changing the from address" >}}
-&nbsp;  
-If you enter a different from address than noreply@multisafepay.com, we recommend adding the following DNS record to your domain to avoid emails being marked as spam:  
-`v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx`
-{{< /details >}}
-
-**Step 5.** You can edit the text in the **Body plain** field, or if you know HTML and CSS, you can fully customize the content and layout in the **Body HTML** field. 
-
+8. Edit the text **either** in the **Body plain** field, **or** if you know HTML and CSS, you can fully customize the content and layout in the **Body HTML** field.  
 To view the HTML/CSS code, click **Source**.
-
 {{< details title="Adding links" >}}
 
 1. Click the **Link** icon.
@@ -109,7 +86,6 @@ To view the HTML/CSS code, click **Source**.
 4. Click **OK**. 
 
 {{< /details >}}
-
 {{< details title="Using @tokens@" >}}
 
 To save time, you can use @tokens@ to auto-fill personalized details into emails.
@@ -189,12 +165,11 @@ The table below describes all available tokens.
 | ZIPCODE                       | Your company zip code |
 
 {{< /details >}}
-
 {{< details title="Adding your logo" >}}
 
 To add your logo to emails to increase customers' recognition and trust, follow these steps:
 
-1. Sign in to your MultiSafepay dashboard.
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Settings** > **Website settings** > **Upload a new file**.  
 3. In the **Files** directory, under **Actions**, click **Copy to clipboard** to copy the file's URL (starting with https://media.multisafepay.com/merchants/).
 4. Go to **Settings** > **Email templates**.
@@ -206,7 +181,6 @@ To add your logo to emails to increase customers' recognition and trust, follow 
 10. Click **OK**. 
 
 {{< /details >}}
-
 {{< details title="Adding an inline frame" >}}
 
 Inline frames (Iframes) are HTML documents embedded inside another HTML document, which you can use to insert content from another source into the email template. 
@@ -218,7 +192,7 @@ Inline frames (Iframes) are HTML documents embedded inside another HTML document
 5. Click **OK**. 
 
 {{< /details >}}
+9. Click **Save**.
 
-**Step 6.** Click **Save**.
-
-For support, email <integration@multisafepay.com>
+## Support
+Email <integration@multisafepay.com>

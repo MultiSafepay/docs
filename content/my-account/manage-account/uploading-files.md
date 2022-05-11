@@ -1,6 +1,6 @@
 ---
 title : "Uploading files"
-weight: 15
+weight: 12
 meta_title: "Uploading files - MultiSafepay Docs"
 read_more: '.'
 url: '/account/uploading-files/'

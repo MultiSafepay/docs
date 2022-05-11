@@ -2,7 +2,7 @@
 title : "Managing currencies"
 meta_title: "Managing currencies - MultiSafepay Docs"
 read_more: '.'
-weight: 8
+weight: 4
 url: '/account/currencies/'
 aliases:
     - /faq/general/which-currencies-are-supported-by-multisafepay

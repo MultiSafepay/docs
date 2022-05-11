@@ -1,6 +1,6 @@
 ---
 title : "Topping up your balance"
-weight: 4
+weight: 9
 meta_title: "Topping up your balance - MultiSafepay Docs"
 read_more: '.'
 url: '/account/balance/'
@@ -19,7 +19,7 @@ aliases:
     - /my-account/manage-your-balance/viewing-your-uncleared-balance/
     - /account/manage-your-balance/
 ---
-## Adding funds to your balance
+## Topping up your balance
 
 To add funds to your MultiSafepay balance, follow these steps:
 
