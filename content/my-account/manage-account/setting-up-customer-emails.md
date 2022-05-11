@@ -69,7 +69,7 @@ For notifying you that a customer has successfully completed a payment.
 6. From the **Language** list, select the email language. 
 {{< blue-notice >}} The language set here is overridden by the `locale` parameter in [create order](https://docs-api.multisafepay.com/reference/createorder) API requests. {{< /blue-notice >}}
 7. Either click **Load default template**, or fill in the fields as required.
-    - In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com.  
+    - In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com
     {{< alert-notice >}} If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain:  
 **v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx**
 {{< /alert-notice >}}
