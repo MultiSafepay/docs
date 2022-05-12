@@ -33,7 +33,7 @@ To import a MultiSafepay Accountant export, follow these steps:
 2. Go to **Yuki Postbus** > **Submit**.
 3. Click **Upload**, and select the relevant MT940 file, or choose one of the other upload methods.
 
-For more information, see Yuki - [Upload files from PO box](https://yuki.freshdesk.com/en/support/solutions/articles/80000786497-upload-files-from-po-box).
+For more information, see Yuki - [Upload files from PO box](https://support.yuki.nl/en/support/solutions/articles/80000786497-upload-files-from-po-box).
 
 To automatically reconcile your files using bank recognition rules:
 
