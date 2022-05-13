@@ -16,7 +16,8 @@ If automatic matching fails, we try to match the payment manually.
 
 There are two main reasons why automatic matching fails:
 
-## Payment details incorrect, missing, or incorrectly formatted
+**Payment details incorrect, missing, or incorrectly formatted**  
+
 We may not be able to match a payment if the customer:  
 
 - Transfers the wrong amount
@@ -26,7 +27,7 @@ We may not be able to match a payment if the customer:
 
 Sometimes, the customer's bank has added comments to the transfer.
 
-## Transaction not created
+**Transaction not created**
 
 The customer made a transfer but did not:
     
@@ -37,14 +38,14 @@ This means the transaction was not created successfully in our system.
 
 To create the transaction again, check if a [payment link](/payment-links/) was created: 
 
-### Payment link created
+**Payment link created**
 
 1. Click the link to open the payment page. 
 2. Click **Bank Transfer**.
 3. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
 4. Click **Confirm** to create the transaction in our system.
 
-### Payment link not created
+**Payment link not created**
 
 1. [Generate one manually](/payment-links/generating-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
@@ -54,6 +55,6 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 
 **Note:** The order ID must be unique for each payment link.
 
-## Support
+**Support**
 
 For any questions, email <support@multisafepay.com>

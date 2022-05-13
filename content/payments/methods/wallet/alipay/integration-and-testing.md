@@ -16,7 +16,7 @@ aliases:
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Alipay direct/redirect. |
 | **Ready-made integrations** | Alipay (direct) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
-| **Checkout options** | [Multisafepay payment pages](/payment-pages/) – [Current version](/payment-pages/activation/) only {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Checkout options** | [Payment pages](/payment-pages/) – [Current version](/payment-pages/activation/) only {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ## Testing

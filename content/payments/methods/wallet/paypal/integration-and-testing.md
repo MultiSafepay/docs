@@ -16,7 +16,7 @@ aliases:
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > PayPal direct/redirect. |
 | **Ready-made integrations** | PayPal is supported in all our [ready-made integrations](/integrations/ready-made/). |
-| **Checkout options** | [Multisafepay payment pages](/payment-pages/) (hosted) – [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions {{< br >}} [Payment Components](/payment-components/) (embedded) {{< br >}} [Payment links](/payment-links/about/) – Links are valid for 14 days. The lifetime is set by PayPal. |
+| **Checkout options** | [Payment pages](/payment-pages/) (hosted) – [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions {{< br >}} [Payment Components](/payment-components/) {{< br >}} [Payment links](/payment-links/about/) – Links are valid for 14 days. The lifetime is set by PayPal. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
 
 ### Displaying your logo in the PayPal checkout

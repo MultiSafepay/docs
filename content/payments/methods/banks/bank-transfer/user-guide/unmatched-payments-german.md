@@ -18,7 +18,7 @@ Falls die automatische Zuordnung nicht funktioniert, verbinden wir die Zahlung m
 
 Die häufigsten Ursachen für eine nicht geglückte Zuordnung sind: 
 
-## Zahlungsdetails inkorrekt, fehlend, oder inkorrekt formatiert 
+**Zahlungsdetails inkorrekt, fehlend, oder inkorrekt formatiert**
 
 Wir können eine Zahlung nicht zuordnen, wenn ein Kunde/eine Kundin:
 
@@ -29,7 +29,7 @@ Wir können eine Zahlung nicht zuordnen, wenn ein Kunde/eine Kundin:
 
 Manchmal fügt die Bank des Kunden/der Kundin Kommentare zur Überweisung hinzu.
 
-## Transaktion nicht generiert
+**Transaktion nicht generiert**
 
 Der Kunde/die Kundin hat eine Überweisung getätigt, jedoch nicht:
 
@@ -40,14 +40,14 @@ Dies bedeutet, dass die Transaktion nicht erfolgreich in unserem System generier
 
 Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](/payment-links/) generiert wurde: 
 
-### Zahlungslink wurde generiert
+**Zahlungslink wurde generiert**
 
 1. Klicken Sie auf den Link, um die Zahlungsseite zu öffnen. 
 2. Klicken Sie auf **Banküberweisung**.
 3. Falls der Kunde/die Kundin das Feld **Kontonummer** nicht ausgefüllt hat, füllen Sie es aus (soweit bekannt), um uns dabei zu helfen, die Transaktion zuzuordnen. 
 4. Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
-### Zahlungslink wurde nicht generiert
+**Zahlungslink wurde nicht generiert**
 
 1. [Erstellen Sie einen Zahlungslink manuell](/payment-links/generating-links/).
 2. Nennen Sie den Kundennamen und die Bestellnummer in der Beschreibung
@@ -57,6 +57,6 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 
 **Bitte beachten:** Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
 
-## Support
+**Support**
 
 Schicken Sie eine E-mail an unser Support-Team an <support@multisafepay.com>

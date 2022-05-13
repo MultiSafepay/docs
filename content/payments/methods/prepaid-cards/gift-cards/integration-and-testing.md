@@ -16,7 +16,7 @@ aliases:
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order. See also Examples > Gift card redirect. |
 | **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use [generic gateways](/developer/general/generic-gateways/). {{< br >}} To check if a specific gift card is supported in your ready-made integration, email the Integration Team at integration@multisafepay.com   |
-| **Checkout options** | [Multisafepay payment pages](/payment-pages/) – [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
+| **Checkout options** | [Payment pages](/payment-pages/) – [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions {{< br >}} [Payment links](/payment-links/about/) – You can adjust the lifetime. |
 
 ## Testing 
 

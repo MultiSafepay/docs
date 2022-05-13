@@ -2,7 +2,7 @@
 title: 'AfterPay'
 weight: 60
 meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
-linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/afterpay"
+linktomarketing: ""
 childlist: '.'
 intro_description: "AfterPay is a widely used pay later method in the Netherlands and Belgium."
 layout: 'single'
@@ -21,6 +21,6 @@ aliases:
     - /payments/methods/billing-suite/afterpay/
 ---
 
-
+[See how AfterPay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/afterpay)
 
 
