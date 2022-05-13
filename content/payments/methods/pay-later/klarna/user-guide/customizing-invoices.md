@@ -18,7 +18,7 @@ For best results, use a square image with a transparent background.
 
 {{< screen src="/img/Screenshot-Klarna-branding.png" align="left" class="medium-img desktop-radius" >}}
 
-## Brand information
+**Brand information**
 
 Under **Brand information**, you can set up and manage your brand including:
 - Brand name
@@ -26,7 +26,7 @@ Under **Brand information**, you can set up and manage your brand including:
 - Instagram URL
 - Facebook URL
 
-## Support 
-For support, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/).
+**Support** 
+See Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/).
 
 **Note:** You can no longer view PDF invoices in your MultiSafepay dashboard. 

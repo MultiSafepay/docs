@@ -11,7 +11,7 @@ aliases:
 ---
 {{< blue-notice >}} Check this page regularly for updates on implementing the PSD2 directive. {{< /blue-notice >}}   
 
-{{< alert-notice >}} **Attention Dutch merchants** <br> Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). <br> We therefore strongly recommend discontinuing any surcharges. <br> For more information, email <sales@multisafepay.com> {{< /alert-notice >}}
+{{< alert-notice >}} **Attention Dutch merchants** <br> Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). <br> We therefore strongly recommend **not** applying surcharges. <br> For more information, email <sales@multisafepay.com> {{< /alert-notice >}}
 
 A surcharge is a fee merchants may charge customers on top of the retail price to cover the cost of accepting certain payment methods. Surcharges may be a fixed amount or a percentage of the total order amount.
 
