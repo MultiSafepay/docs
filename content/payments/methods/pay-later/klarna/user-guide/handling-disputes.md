@@ -17,7 +17,7 @@ The easiest way to handle disputes is using the Disputes app in the Klarna Merch
 
 {{< blue-notice >}} **Note:** If viewing orders in the portal, you must still manually [change the order status to Shipped](/about-payments/pay-later-shipped-status/) to trigger the invoicing process and receive payment. {{< /blue-notice >}}
 
-## Connecting to the Klarna Merchant Portal
+**Connecting to the Klarna Merchant Portal**
 
 You'll receive an email from Klarna inviting you to activate your portal account. 
 
@@ -29,7 +29,7 @@ You'll receive an email from Klarna inviting you to activate your portal account
 4. Enter your first and last names, and then click **Update profile**.
 5. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
-### Setting up two-factor authentication
+**Setting up two-factor authentication**
 
 If you want to increase the security of your account, set up two-factor authentication with the Google Authenticator app.
 
@@ -38,7 +38,7 @@ If you want to increase the security of your account, set up two-factor authenti
 3. Open the Google Authenticator app and scan the QR code. 
 4. Enter the one-time authorization code from the app, and click **Set up authentication**.
 
-## Getting started with the Disputes app
+**Getting started with the Disputes app**
 
 To sign up to use the Disputes app, follow these steps:
 
@@ -50,7 +50,7 @@ To sign up to use the Disputes app, follow these steps:
 
 Klarna will send you an email when the first dispute appears in the app. 
 
-### Using the Disputes app
+**Using the Disputes app**
 
 The side menu contains three pre-set filters to view:
 
@@ -66,5 +66,3 @@ See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/dispute
 - Managing settings
 - Responding to disputes
 - Accepting losses
-
-

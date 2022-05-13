@@ -51,7 +51,9 @@ Include in the request your:
 **Note:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 
 ## Own flow
-{{< details title="AfterPay" >}} 
+
+### AfterPay
+{{< details title="AfterPay activation" >}} 
 1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
 2. For new AfterPay clients, apply directly to AfterPay:
@@ -61,8 +63,8 @@ Include in the request your:
 
 3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
 {{< /details >}}
-
-{{< details title="Betaal per Maand" >}}
+### Betaal per Maand
+{{< details title="Betaal per Maand activation" >}}
 You must:
 
 - Have a [MultiSafepay account](/getting-started/)
@@ -76,15 +78,15 @@ You must:
 3. We check your eligibility and type of connection. 
 4. Once approved, we activate the payment method for your account.
 {{< /details >}}
-
-{{< details title="Edenred" >}}
+### Edenred
+{{< details title="Edenred activation" >}}
 1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.
 {{< /details >}}
-
-{{< details title="Gift cards" >}}
+### Gift cards
+{{< details title="Gift cards activation" >}}
 1. To check your eligibility, email <sales@multisafepay.com> 
 2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
 3. The issuer connects you to the card via either:
@@ -93,8 +95,8 @@ You must:
 - [123TCS](https://www.123tcs.com/#Contact)
 4.  The issuer sends us the connection details and we activate the card for your account.
 {{< /details >}}
-
-{{< details title="Klarna" >}} 
+### Klarna
+{{< details title="Klarna activation" >}} 
 **Test account**
 
 1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
@@ -119,8 +121,8 @@ For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klanten
 
 For support, email <integration@multisafepay.com>
 {{< /details >}}
-
-{{< details title="PayPal" >}}
+### PayPal
+{{< details title="PayPal activation" >}}
 The instructions below are for the PayPal interface in English. If your PayPal webpage is in another language, you can change the language easily by clicking the links at the bottom right of the page.
 
 **Configuring your PayPal account**
@@ -185,8 +187,8 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 Your account is now configured!  
 We strongly recommend [testing some transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
 {{< /details >}}
-
-{{< details title="Paysafecard" >}}
+### Paysafecard
+{{< details title="Paysafecard activation" >}}
 Paysafecard doesn't require activation.
 
 Search for outlets that sell Paysafecard:
