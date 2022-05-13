@@ -49,13 +49,13 @@ For more information about using Apple Pay, see Apple – [How to use Apple Pay]
 
 ## Payment statuses
 
-{{< details title= "About order and transaction statuses" >}}
+{{< details title= "Payment statuses" >}}
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
+For more information, see [Payment statuses](/payments/payment-statuses/).
 
 {{< /details >}}
 

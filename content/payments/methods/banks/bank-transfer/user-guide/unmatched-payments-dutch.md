@@ -18,7 +18,7 @@ Wanneer we er niet in slagen om de transacties automatisch te matchen, proberen 
 
 De twee meest voorkomende redenen waarom het automatische matchen soms niet lukt, zijn als volgt:
 
-## De betalingsgegevens missen, zijn incorrect, of verkeerd geformatteerd
+**De betalingsgegevens missen, zijn incorrect, of verkeerd geformatteerd**
 
 We kunnen de betaling niet matchen als de klant:
 
@@ -27,7 +27,7 @@ We kunnen de betaling niet matchen als de klant:
 - Het betalingskenmerk incorrect opgeeft, of er iets aan toevoegt, zoals "Betaling 5213 0452 1234 5670"
 - Het ordernummer opgeeft in plaats van het betalingskenmerk
 
-## De transactie bestaat niet in ons systeem
+**De transactie bestaat niet in ons systeem**
 
 De klant heeft wél een bankoverschrijving gedaan, maar heeft niet:
     
@@ -38,14 +38,14 @@ Beide gevallen leiden ertoe dat er geen transactie bestaat in ons systeem waarme
 
 Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payment links](/payment-links/)):
 
-### Er bestaat al een betaallink
+**Er bestaat al een betaallink**
 
 1. Klik op de link om de betaalpagina te openen. 
 2. Klik op **Bankoverschrijving**.
 3. Als de klant het veld **Bankrekeningnummer** niet heeft ingevuld, vul dan het bankrekeningnummer van de klant in (indien bij u bekend).
 4. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
 
-### Er bestaat nog geen betaallink
+**Er bestaat nog geen betaallink**
 
 1. [Genereer handmatig een betaallink](/payment-links/generating-links/). 
 2. Voeg de naam van de klant en het ordernummer toe aan de beschrijving (voor uw eigen administratie). 
@@ -55,6 +55,6 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 
 **Opmerking:** Iedere betaallink heeft een uniek order ID nodig.
 
-## Ondersteuning
+**Ondersteuning**
 
 Email ons Support Team via <support@multisafepay.com>

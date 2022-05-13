@@ -43,6 +43,16 @@ The [payment page](/payment-pages/) displays **all** payment methods activated f
 
 The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
 
+You can adjust the lifetime for the following payment methods:
+
+- Bancontact
+- Bank Transfer
+- Belfius
+- CBC/KBC
+- Dotpay, EPS, Giropay, iDEAL, Request to Pay, Sofort, Trustly, TrustPay
+
+No: SEPA
+
 To set or adjust the lifetime, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder): `days_active` parameter.
 
 **Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). 

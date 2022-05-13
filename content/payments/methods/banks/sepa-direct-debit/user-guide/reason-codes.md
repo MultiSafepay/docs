@@ -1,74 +1,15 @@
 ---
-title: "SEPA Direct Debit payment flow"
-breadcrumb_title: 'Payment flow'
+title: "Reason codes for declined transactions"
+breadcrumb_title: 'Reason codes for declined transactions'
 weight: 30
-meta_title: "SEPA Direct Debit payment flow - MultiSafepay Docs"
-short_description: "Flow from start to finish, including order and transaction status changes"
-layout: 'child'
-logo: '/logo/Payment_methods/directdebit-en.svg'
-url: '/payment-methods/sepa-direct-debit/payment-flow/'
+meta_title: "Reason codes for declined transactions - MultiSafepay Docs"
+short_description: "Reason codes for declined transactions"
+read_more: "."
+url: '/payment-methods/sepa-direct-debit/reason-codes/'
 aliases: 
-    - /payment-methods/direct-debit/how-does-direct-debit-work/
-    - /payment-methods/banks/direct-debit/how-does-direct-debit-work/
-    - /payment-methods/sepa-direct-debit/how-does-sepa-direct-debit-work/
     - /payment-methods/sepa-direct-debit/reason-codes/
-    - /payments/methods/banks/sepa-direct-debit/payment-flow/
     - /payments/sepa-direct-debit/reason-codes
-
 ---
-
-This diagram shows the flow for a successful transaction. Click to magnify.
-
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Me as Merchant
-    participant Mu as MultiSafepay
-    participant CB as Customer's bank
-    
-    C->>Me: Selects SEPA Direct Debit at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page to confirm their IBAN and account name, <br> then to your success page
-    Me->>Mu: [Direct flow] Sends request and customer information
-    end
-    Mu->>CB: Conducts background check <br> and sends e-mandate
-    CB->>Mu: Processes transaction and transfers funds 
-    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> Processing time can be reduced on request. <br> Email sales@multisafepay.com
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
-&nbsp;   
-
-### E-mandates
-
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
-
-## Payment statuses
-
-{{< details title= "About order and transaction statuses" >}}
-
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
-
-For more information, see [About MultiSafepay statuses](/about-payments/multisafepay-statuses/).
-
-{{< /details >}}
-
-| Payments | Order status | Transaction status |
-|---|---|---|
-| MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
-| We've sent the e-mandate to the customer's bank. {{< br >}} You can no longer cancel. | Uncleared | Uncleared |
-| MultiSafepay has collected payment.| Completed | Completed |
-| The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
-| The customer's bank declined the transaction. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/payment-flow/#reason-codes-for-declined-transactions) below. | Declined | Declined   |
-|**Refunds**|||
-| Refund initiated. | Reserved | Reserved |
-| Refund complete. | Completed | Completed | 
-
-## Reason codes for declined transactions
 
 The table below sets out the reason codes for why SEPA Direct Debit transactions might be unsuccessful and suggested actions to take.
 
@@ -110,7 +51,3 @@ For more information in:
 
 - English, see European Payments Council – [Guidance on reason codes](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf). 
 - Dutch, see Betaal Vereniging – [Reasoncodes en vervolgacties](https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf).
-
-
-
-
