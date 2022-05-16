@@ -22,6 +22,8 @@ aliases:
     - /payment-methods/klarna/integration-testing/
     - /payments/methods/billing-suite/klarna/activation/
     - /payment-methods/klarna/activation/
+    - /payments/methods/billing-suite/klarna/user-guide/handling-errors/
+    - /payment-methods/klarna/handling-errors/
 ---
 [Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days, or in 3-4 installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
@@ -37,18 +39,21 @@ aliases:
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 1 hour |
 | **Addresses** | The customer's billing and shipping addresses must be the **same**. |
-| **Gift cards** | [Gift cards and pay later methods](/payment-methods/gift-cards/pay-later-methods/) |
 
-{{< blue-notice >}}**Recent changes** {{< br >}} - Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. {{< br >}} - Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. {{< br >}} 
-For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). {{< /blue-notice >}}
+### Recent changes
 
-{{< alert-notice >}} **Surcharges**  
+- Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. 
+- Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. 
+
+For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). 
+
+### Surcharges  
+
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen aan mijn klant?](https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/) 
-{{< /alert-notice >}}
 
 ## Payment flow
 
@@ -91,16 +96,50 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 | Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has been redirected to Klarna. {{< br >}} You can still cancel with Klarna (see [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/)). | Initialized   | Initialized  |
-| Klarna has authorized the transaction and the funds are awaiting capture. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} See also: {{< br >}} - [Extend the shipping period](/payment-methods/klarna/extending-shipping-period/) {{< br >}} - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) {{< br >}} **Note:** The billing and shipping addresses must be the **same**. | Shipped | Uncleared |
+| The customer has been redirected to Klarna. <br> You can still cancel with Klarna (see [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/)). | Initialized   | Initialized  |
+| Klarna has authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) | Completed  | Uncleared  |
+| **Important:** To capture the funds, [manually change the order status to Shipped](/payment-methods/klarna/#shipping-orders). <br> See also: <br> - [Extend the shipping period](/payment-methods/klarna/extending-shipping-period/) <br> - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
-| The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. {{< br >}} See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
+| The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. <br> See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
-| Klarna declined the transaction. {{< br >}} Only the customer can contact Klarna to find out why they declined the transaction. {{< br >}} For merchant support, email <klarna@multisafepay.com> {{< br >}} | Declined | Declined |
+| Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
 |**Refunds**|||
 | Refund initiated. | Initialized | Completed |
 | Refund complete.  | Completed | Completed |
+
+{{< /details >}}
+
+### Shipping orders
+
+When you ship the order, you **must** manually change the order status to **Shipped**:
+
+- Captures the funds
+- Triggers sending the invoice to the customer
+- Prevents the order from expiring
+
+{{< details title="Changing order status to Shipped" >}}
+
+You can change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
+
+**In your dashboard**
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transactions overview**.
+3. Search for the transaction, and click to open the **Transaction details** page. 
+4. Under **Order details**, click **Change order status**. 
+5. Change the status to **Shipped**.
+6. Send the customer the track and trace details, if relevant.
+
+**In your backend**
+
+If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+
+- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
+
+For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+
+**Note:** Some third-party plugins may not support updating the status via our API.
 
 {{< /details >}}
 
@@ -118,4 +157,18 @@ Klarna makes your ecommerce platform available in their merchant portal, where y
 
 For questions about your Klarna integration and the connection with your MultiSafepay account, email <integration@multisafepay.com>
 
+{{< details title="Gift cards with pay later methods" >}}
 
+When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
+{{< /details >}}
+
+{{< details title="Known errors" >}}
+
+If you receive a `code:BAD_VALUE, Bad value: order_lines[0].reference` error from Klarna, try using shorter SKU numbers, e.g. fewer than 9 characters. 
+
+{{< /details >}}

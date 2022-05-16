@@ -3,7 +3,6 @@ title: 'E-Invoicing'
 weight: 10
 meta_title: "Payment methods - E-Invoicing - MultiSafepay Docs"
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/e-invoicing.svg' 
 short_description: 'A MultiSafepay pay later method that is highly flexible and gives you full control.'
 url: '/payment-methods/e-invoicing/'
@@ -27,6 +26,12 @@ aliases:
     - /payment-methods/e-invoicing/integration-testing/
     - /payments/methods/billing-suite/e-invoicing/activation/
     - /payment-methods/e-invoicing/activation/
+    - /payments/methods/billing-suite/e-invoicing/user-guide/batching-transactions/
+    - /payment-methods/e-invoicing/batching-for-subscriptions/
+    - /payments/methods/billing-suite/e-invoicing/user-guide/viewing-transactions/
+    - /payment-methods/e-invoicing/view-transactions/
+    - /payments/methods/billing-suite/e-invoicing/user-guide/customizing-e-invoices/
+    - /payment-methods/e-invoicing/customizing-invoices/
 ---
 E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 
@@ -43,7 +48,6 @@ E-Invoicing is a MultiSafepay pay later method with automation tools that gives 
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 | **Addresses** | Different billing and shipping addresses are supported. <br> Email a request to <sales@multisafepay.com> |
-| **Gift cards** | [Gift cards and pay later methods](/payment-methods/gift-cards/pay-later-methods/) |
 | **Shipping policies** | [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) <br> [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) |
 
 ## Payment flow
@@ -87,9 +91,9 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 | Payments | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's risk analysis is in progress. {{< br >}} You can still cancel. | Initialized   | Initialized  |
-| E-Invoicing has authorized the transaction. {{< br >}} You can no longer cancel. You can only refund. | Completed  | Initialized  |
-| **Important**: [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. | Shipped | Initialized |
+| MultiSafepay's risk analysis is in progress. <br> (You can still cancel.) | Initialized   | Initialized  |
+| E-Invoicing has authorized the transaction. <br> (You can no longer cancel; you can only refund.) | Completed  | Initialized  |
+| **Important**: [Manually change the order status to Shipped](/payment-methods/e-invoicing/#shipping-orders). <br> You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |
 | E-Invoicing declined the transaction. | Declined | Declined |
 | The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
@@ -97,6 +101,40 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 |**Refunds**|||
 | Refund initiated. | Initialized | Initialized |
 | Refund complete.  | Completed | Completed |
+
+{{< /details >}}
+
+### Shipping orders
+
+When you ship the order, you **must** manually change the order status to **Shipped**:
+
+- Captures the funds
+- Triggers sending the invoice to the customer
+- Prevents the order from expiring
+
+{{< details title="Changing order status to Shipped" >}}
+
+You can change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
+
+**In your dashboard**
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transactions overview**.
+3. Search for the transaction, and click to open the **Transaction details** page. 
+4. Under **Order details**, click **Change order status**. 
+5. Change the status to **Shipped**.
+6. Send the customer the track and trace details, if relevant.
+
+**In your backend**
+
+If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+
+- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
+
+For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+
+**Note:** Some third-party plugins may not support updating the status via our API.
 
 {{< /details >}}
 
@@ -110,5 +148,45 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
 | **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/) (direct).  |
 
+### User guide
 
+{{< details title="Batching transactions for subscriptions" >}}
 
+To generate E-Invoicing transactions in batches for subscription payments:
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **E-Invoicing** > **Batches**. 
+3. Upload a file in .xls, .xlsx or .csv format.
+4. Follow the templates in your MultiSafepay dashboard.
+
+{{< /details >}}
+
+{{< details title="Customizing invoices" >}}
+
+To customize invoices:
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **E-Invoicing** > **E-Invoicing generator**. 
+
+The invoice is sent to the email address provided. 
+
+{{< /details >}}
+
+{{< details title="Using gift cards with pay later methods" >}}
+
+When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
+{{< /details >}}
+
+{{< details title="Viewing transactions" >}}
+
+To see an overview of all successful transactions:
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **E-Invoicing** > **Invoices**. 
+
+{{< /details >}}
