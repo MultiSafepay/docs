@@ -44,13 +44,12 @@ aliases:
 | **Gift cards** | [Gift cards and pay later methods](/payment-methods/gift-cards/pay-later-methods/) |
 | **Addresses** | Different billing and shipping addresses are supported. <br> The **Transaction details** page in your dashboard only shows the billing address. <br> To retrieve other transaction details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder). | 
 
-{{< alert-notice >}} **Surcharges**  
+### Surcharges  
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 AfterPay therefore strongly recommends discontinuing any surcharges. 
 
 For more information, see AfterPay – [Merchant support](https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/).
-{{< /alert-notice >}}
 
 ## Payment flow
 
@@ -93,16 +92,49 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 | Payments | Order status | Transaction status |
 |---|---|---|
-| AfterPay is authorizing the transaction. {{< br >}} You can still decline it. | Uncleared | Uncleared |
-| AfterPay has authorized the transaction and the funds are awaiting capture. {{< br >}} You can still decline it. | Completed  | Uncleared  |
-| The funds are captured. {{< br >}} **Important:** [Manually change the order status to Shipped](/about-payments/pay-later-shipped-status/). {{< br >}} You must ship to receive payment. {{< br >}} You can no longer decline the payment; you can only refund. | Shipped | Uncleared |
+| AfterPay has authorized the transaction and the funds are awaiting capture. <br> (You can still cancel.) <br> **Important:** To capture the funds, when you ship the order you must [manually change the order status to Shipped](/payment-methods/afterpay/#shipping-orders). | Completed  | Uncleared  |
+| The funds are captured.  <br> (You can no longer cancel; you can only refund.) | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
-| AfterPay has declined the transaction. {{< br >}} AfterPay only provides the reason directly to the customer, for privacy and compliance reasons.  | Declined | Declined |
+| AfterPay has declined the transaction. <br> Only the customer can contact AfterPay to find out why (for privacy and compliance reasons).  | Declined | Declined |
 | AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
-| AfterPay authorized the transaction, but you did not ship within 90 days of creating the transaction **or** {{< br >}} The customer didn't complete payment. | Expired | Expired |
+| AfterPay authorized the transaction, but you didn't ship within 90 days of creating the transaction **or** the customer didn't complete payment. | Expired | Expired |
 |**Refunds**|||
 | Refund initiated. | Initialized | Completed |
 | Refund complete. | Completed | Completed |
+
+{{< /details >}}
+
+### Shipping orders
+
+When you ship the order, you **must** manually change the order status to **Shipped**:
+
+- Captures the funds
+- Triggers sending the invoice to the customer
+- Prevents the order from expiring
+
+{{< details title="Changing order status to Shipped" >}}
+
+You can change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
+
+**In your dashboard**
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transactions overview**.
+3. Search for the transaction, and click to open the **Transaction details** page. 
+4. Under **Order details**, click **Change order status**. 
+5. Change the status to **Shipped**.
+6. Send the customer the track and trace details, if relevant.
+
+**In your backend**
+
+If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+
+- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
+
+For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+
+**Note:** Some third-party plugins may not support updating the status via our API.
 
 {{< /details >}}
 
@@ -134,4 +166,14 @@ Supported in:
 - [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/) 
 - [WooCommerce](/woo-commerce/) 
 - [X-Cart](/x-cart/) 
+{{< /details >}}
+
+{{< details title="Gift cards with pay later methods" >}}
+
+When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
 {{< /details >}}
