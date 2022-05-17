@@ -15,8 +15,6 @@ For next steps:
 
 {{< two-buttons href-2="/payments/" text-2="Payment methods and features" description-2="Check out our range of payment methods and features." img-2="/svgs/Wallet.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="/refunds-chargebacks//" text-2="Refunds and chargebacks" description-2="Read about how to process refunds or chargebacks." img-2="/svgs/Refunds.svg" alt-2="Right arrow" >}}
-
 {{< two-buttons href-2="https://docs-api.multisafepay.com/reference/introduction" text-2="API reference" description-2="Learn how to use our API to update an order, process a refund, or apply a discount." img-2="/svgs/API.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/integrations/testing/" text-2="Test your integration" description-2="Test payments and resolve common issues." img-2="/svgs/Testing.svg" alt-2="Right arrow" >}}

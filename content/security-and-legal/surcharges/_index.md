@@ -3,11 +3,13 @@ title : "Surcharges"
 weight: 50
 meta_title: "Surcharges - MultiSafepay Docs"
 read_more: "."
-url: '/about-payments/surcharges/'
+short_description: "About surcharges and European regulations."
+url: '/surcharges/'
 aliases:
     - /faq/payment-regulations/surcharges
     - /faq/payment-regulations/about-surcharges
     - /security-and-legal/payment-regulations/about-surcharges/
+    - /about-payments/surcharges/
 ---
 {{< blue-notice >}} Check this page regularly for updates on implementing the PSD2 directive. {{< /blue-notice >}}   
 
