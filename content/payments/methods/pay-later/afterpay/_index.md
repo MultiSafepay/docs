@@ -41,7 +41,6 @@ aliases:
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 90 days |
-| **Gift cards** | [Gift cards and pay later methods](/payment-methods/gift-cards/pay-later-methods/) |
 | **Addresses** | Different billing and shipping addresses are supported. <br> The **Transaction details** page in your dashboard only shows the billing address. <br> To retrieve other transaction details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder). | 
 
 ### Surcharges  

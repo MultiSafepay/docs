@@ -1,10 +1,19 @@
 ---
-title : "Credit card errors"
+title : "Card errors"
 weight: 70
-meta_title: "Credit card errors - MultiSafepay Docs"
+meta_title: "Card errors - MultiSafepay Docs"
 read_more: "."
-short_description: "Reason codes for credit card errors."
-url: '/about-payments/credit-card-errors/'
+layout: 'single'
+short_description: "Visa and Mastercard reason codes for credit card errors."
+url: '/cards/errors/'
+aliases:
+    - /about-payments/credit-card-errors/
+    - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
+    - /faq/general/declined-status/
+    - /payments/methods/credit-and-debit-cards/user-guide/declined-status/
+    - /credit-cards-user-guide/declined-status/
+    - /about-payments/declined-status/
 ---
 
 This page sets out reason codes for common credit card errors returned by [issuers](/glossaries/credit-cards/#issuer) and recommended actions to take. 
@@ -267,6 +276,21 @@ Merchant: Validate the CVV2 value before reattempting. Monitor reattempts for po
 The transaction falls within the scope of PSD2 and did not pass 3D Secure.
 
 Merchant: For card-not-present transactions, reattempt with 3D Secure. 
+
+This page sets out possible reasons why a credit card payment was declined. 
+
+Only the cardholder can contact the [issuer](/glossaries/credit-cards/#issuer) to find out the specific reason.
+
+#### Declined by MultiSafepay 
+Our automated fraud filter flagged the transaction as probably fraudulent.  
+
+Email <support@multisafepay.com> 
+
+#### 3D Secure authentication cancelled 
+Ask the cardholder if they want to try the transaction again. 
+
+#### Merchant only accepts 3D Secure-authenticated cards 
+Email a request to accept non-3D Secure authenticated cards to <risk@multisafepay.com> 
 
 ## Support
 Email <support@multisafepay.com>

@@ -162,8 +162,8 @@ name = "Shell"
     weight = 330
 
 [[menu.main]]
-    name = "Refunds and chargebacks"
-    url  = "/refunds-chargebacks/"
+    name = "Refunds"
+    url  = "/refunds/"
     parent = "payments"
     weight = 340
 
