@@ -104,7 +104,6 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | You can't test Request to Pay in your MultiSafepay test account. <br> You can only make test payments in your MultiSafepay live account. |
-
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > Request to Pay direct/redirect |
 | **Ready-made integrations** | **Not** supported in our [ready-made integrations](/integrations/ready-made/). |
 
