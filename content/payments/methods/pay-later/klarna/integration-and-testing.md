@@ -15,7 +15,6 @@ aliases:
 | | |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. See also Examples > Klarna direct/redirect. |
-
 | **Ready-made integrations** | Klarna (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/).   |
 | **Checkout options** | [Multisafepay payment pages](/payment-pages/) – [Current version](/payment-pages/activation/) only {{< br >}} [Payment links](/payment-links/about/) – You can't adjust the lifetime. |
 | **Logo** | See MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons). |
