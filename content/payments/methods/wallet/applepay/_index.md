@@ -43,7 +43,7 @@ An additional layer of security is provided by 3D Secure, which requires custome
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
 | **Payment features**  | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 hour |
-| **Requirements** | Customers must use the Safari browser. <br> Apple Pay transactions are processed as [credit card transactions](/payment-methods/credit-debit-cards/) except: <br> - An SSL secured connection (HTTPS) is required. <br> - American Express is **not** supported. |
+| **Requirements** | - Customers must use the Safari browser. <br> - An SSL secured connection (HTTPS) is required. <br> - Apple Pay transactions are processed as [credit card transactions](/payment-methods/credit-debit-cards/), except American Express (**not** supported). |
 
 ## Payment flow
 
