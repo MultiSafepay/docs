@@ -104,5 +104,5 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
 | **Checkout options** | [Payment components](/payment-components/) {{< br >}} [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > Sofort direct/redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Sofort direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |

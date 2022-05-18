@@ -48,9 +48,9 @@ You can adjust the lifetime for some payment methods:
 | Adjustable | Non-adjustable |
 |---|---|
 | Banking methods, except SEPA Direct Debit | SEPA Direct Debit |
-| Gift cards | Edenred |
-| Credit cards | Paysafecard |
+| Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
+| Credit cards |  |
 
 To set or adjust the lifetime, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder): `days_active` parameter.
 

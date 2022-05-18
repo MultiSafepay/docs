@@ -39,17 +39,28 @@ aliases:
 | **Countries**  | Worldwide  | 
 | **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
 | **Chargebacks**  |  [Yes](/payments/chargebacks/)  |
-| **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an [eCheck](https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082). {{< br >}} To avoid PayPal cancelling the refund, in your PayPal account authorize PayPal to withdraw funds from another bank account instead. {{< br >}} For support, contact PayPal – [Help Center Home](https://www.paypal.com/us/smarthelp/home). | 
+| **Refunds** | [Full and partial](/refunds/full-partial/) (see guidance below) | 
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after**  | 14 days | |
+
+### Refunds
+
+Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an [eCheck](https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082). 
+
+To avoid PayPal cancelling the refund, in your PayPal account, authorize PayPal to withdraw funds from another bank account instead. 
+
+For support, contact PayPal – [Help Center Home](https://www.paypal.com/us/smarthelp/home).
 
 ### PayPal Seller Protection
 
 PayPal Seller Protection covers you in the event of claims, chargebacks, or reversals due to unauthorized purchases or items the customer didn't receive. You are covered for the full amount of all eligible transactions.
 
-To be eligible, for specific countries, transaction requests must contain the correct `state` in the `customer_address`. For a list of the countries, see PayPal API – [State codes](https://developer.paypal.com/api/rest/reference/state-codes/).
+To be eligible, for specific countries, transaction requests must contain the correct `state` in the `customer_address`. 
 
-For more information, see PayPal – [What is Seller Pretection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156).
+For:
+
+- A list of the countries, see PayPal API – [State codes](https://developer.paypal.com/api/rest/reference/state-codes/)
+- More information, see PayPal – [What is Seller Pretection](https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156)
 
 ## Payment flow
 
@@ -89,7 +100,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to PayPal. | Initialized | Initialized |
-| - Awaiting the customer to pay in their PayPal account **or** {{< br >}} - PayPal is authorizing the transaction **or** {{< br >}} - You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
+| - Awaiting the customer to pay in their PayPal account **or** <br> - PayPal is authorizing the transaction **or** <br> - You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
 | PayPal has collected payment. | Completed | Initialized |
 | The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 14 days. | Expired | Expired |
@@ -97,7 +108,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Refund initiated. | Reserved | Initialized |
 | Refund complete.  | Completed | Initialized |
 | Refund declined. | Declined | Declined |
-| - PayPal is authorizing the refund. {{< br >}} **Or** {{< br >}} - There are not enough funds in your PayPal business account to process the refund. {{< br >}} For more information, see your PayPal business account. | Uncleared | Initialized   |
+| - PayPal is authorizing the refund. <br> **Or** <br> - There are not enough funds in your PayPal business account to process the refund. <br> For more information, see your PayPal business account. | Uncleared | Initialized   |
 
 {{< /details >}}
 
@@ -108,14 +119,14 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [PayPal activation](/payments/activating-payment-methods/#paypal) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions) {{< br >}} [Payment components](/payment-components/) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> **Examples** > PayPal direct/redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > PayPal direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 
 ### Displaying your logo in the PayPal checkout
 To display your header or logo on the PayPal checkout page, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Files**, and upload the relevant images. 
-3. Go to **Payment methods** at the bottom right, and then select the relevant images from the **Logo** and **Header** dropdown menu. 
+3. Go to **Payment methods** at the bottom right, and then select the relevant images from the **Logo** and **Header** list. 
 4. Click **Save**.
 

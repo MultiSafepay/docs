@@ -89,7 +89,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | Paysafecard doesn't require activation. <br> Search for outlets that sell Paysafecard: <br> - [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/) <br> - [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/) <br> For any questions, email <sales@multisafepay.com> |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | You can’t test Paysafecard in your MultiSafepay test account. <br> You can only make test payments in your MultiSafepay live account. <br> For any questions, email <integration@multisafepay.com> |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> **Examples** > Gift card redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 
 {{< details title="Ready-made integrations" >}} 
 

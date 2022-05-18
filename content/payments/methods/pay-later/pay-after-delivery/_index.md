@@ -206,8 +206,8 @@ To close a transaction manually, follow these steps:
 | **Activation** | [Pay After Delivery activation](/payments/activating-payment-methods/#pay-after-delivery) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> **Examples** > Pay After Delivery direct/redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/) (direct).   |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).   |
 
 {{< details title="Gift cards with pay later methods" >}}
 

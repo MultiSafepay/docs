@@ -1,6 +1,6 @@
 ---
 title : "Interchange++"
-weight: 90
+weight: 35
 meta_title: "Interchange++ - MultiSafepay Docs"
 read_more: "."
 short_description: "Learn about the Interchange++ pricing model offered by some banks and card schemes."
@@ -12,6 +12,7 @@ aliases:
     - /payments/methods/credit-and-debit-cards/visa/user-guide/about-interchange/
     - /payments/methods/credit-and-debit-cards/user-guide/about-interchange/
     - /credit-cards-user-guide/about-interchange/
+    - /about-payments/interchange/
 ---
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.
@@ -35,10 +36,10 @@ When you create a MultiSafepay account, we provide an estimate of these costs.
 ## Specific transaction costs
 The actual cost of a specific transaction is difficult to predict. Fees differ per transaction, based on factors such as the:
 
-* Country where the card was issued
-* Country where the transaction is processed
-* Type of card, e.g. corporate or customer card
-* Way the card is processed, e.g. level of security
-* Amount of the transaction
+- Country where the card was issued
+- Country where the transaction is processed
+- Type of card, e.g. corporate or customer card
+- Way the card is processed, e.g. level of security
+- Amount of the transaction
 
 To ensure transparency, payment service providers can choose the Interchange++ pricing model, which breaks down the costs for each transaction. There are no preset prices, instead the fee is calculated based on the total cost of all transactions processed. 

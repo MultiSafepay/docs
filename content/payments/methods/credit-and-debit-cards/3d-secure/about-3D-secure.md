@@ -3,7 +3,7 @@ title : "About 3D Secure 2.0"
 weight: 10
 meta_title: "3D Secure 2.0 - MultiSafepay Docs"
 read_more: "."
-url: '/features/3d-secure/about/'
+url: '/cards/3ds2/about/'
 aliases:
     - /faq/payment-regulations/3D-secure
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
@@ -16,6 +16,7 @@ aliases:
     - /faq/payment-regulations/about-3d-secure/
     - /faq/payment-regulations/3d-secure-2
     - /features/3d-secure/versions/
+    - /features/3d-secure/about/
     - /features/3d-secure/about/
 ---
 

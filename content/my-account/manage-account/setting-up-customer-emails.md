@@ -94,7 +94,7 @@ Follow these steps:
 
 1. Go to the Body HTML editor on the email template page.
 2. Click the **Token** icon.
-3. Select a token from the dropdown menu.
+3. Select a token from the list.
 4. Click **OK**.
 
 The table below describes all available tokens.

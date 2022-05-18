@@ -117,7 +117,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
 | **Checkout options** | [Payment components](/payment-components/) {{< br >}} [Payment pages](/payment-pages/) {{< br >}} - Banking: [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) {{< br >}} - QR: Current only |
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > iDEAL direct/redirect/QR |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > iDEAL direct/redirect/QR |
 
 {{< details title="Ready-made integrations" >}} 
 Banking supported in: All our [ready-made integrations](/integrations/ready-made/), **except** ZenCart. 

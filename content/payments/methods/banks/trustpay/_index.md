@@ -84,7 +84,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | You can't test TrustPay in your test MultiSafepay account. <br> You can only make test payments in your live MultiSafepay account. |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > Trustpay redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustpay redirect |
 
 {{< details title="Ready-made integrations" >}} 
 TrustPay (redirect) is supported in: 

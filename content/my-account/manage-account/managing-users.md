@@ -42,7 +42,7 @@ To add users to your account, follow these steps:
     - Full name
     - Password
     - Email address
-5. From the **Status** dropdown menu, select **Active**.
+5. From the **Status** list, select **Active**.
 6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. See [User permissions overview](#user-permissions-overview) below.
 7. Click **Add user** in the top-right corner.
 

@@ -19,7 +19,7 @@ To set a maximum/minimum order amount for a payment method to display on your ch
 
 **Setting a maximum/minimum order amount per language**
 
-To set different maximum/minimum order amounts for different languages, under the **Payment methods ordering** header > **Country** dropdown menu, select a country and set the maximum/minimum amount per language.
+To set different maximum/minimum order amounts for different languages, under the **Payment methods ordering** header > **Country** list, select a country and set the maximum/minimum amount per language.
 
 If no specific rule is set for a language, **Default** language is used.
 

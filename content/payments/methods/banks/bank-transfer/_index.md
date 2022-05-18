@@ -3,7 +3,6 @@ title: 'Bank Transfer'
 weight: 60
 meta_title: "Payment methods - Bank Transfer - MultiSafepay Docs"
 layout: 'single'
-faq: '.'
 logo: '/logo/Payment_methods/banktransfer-en.svg' 
 short_description: 'A secure, trusted, international payment method within the SEPA region.'
 url: '/payment-methods/bank-transfer/'
@@ -34,7 +33,7 @@ Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, interna
 |   |   |   
 |---|---|
 | **Countries** | Europe (SEPA area) | 
-| **Currencies** | EUR, CZK, GBP, HUF, PLN {{< br >}} USD is **not** supported due to extremely high transaction and currency conversion fees for customers. |
+| **Currencies** | EUR, CZK, GBP, HUF, PLN {{< br >}} USD is **not** supported due to high transaction and currency conversion fees for customers. |
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Transactions expire after** | 60 days  |
@@ -82,7 +81,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 {{< /details >}}
 
-## How it works
+### Payment instructions
 
 MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can email them yourself.
 
@@ -90,7 +89,7 @@ MultiSafepay emails the customer the following payment details to include when t
 
 {{< details title= "Emailing payment instructions yourself" >}} 
 
-You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;2.&nbsp;below).
+You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;[Transfer guidance for customers](/payment-methods/bank-transfer/#transfer-guidance-for-customers) below).
 
 To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
 
@@ -98,53 +97,13 @@ To prevent us from emailing the customer, see API reference – [Create order](h
 
 **Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/developer/unmasking-ibans/).
 
-You can view the payment details for a transaction in your MultiSafepay dashboard, in the relevant **Transaction details** page under **Offline actions**.
-
-### Transfer guidance for customers
-
-The customer must only pay for **one** order per bank transfer. When transferring the funds, they must correctly input:  
-    
-- The amount
-- Their bank account number
-- The payment reference number (**not** the order number)  
-    **Format:** 16 digits, numbers only, no words
-
-### Matching payments
-
-When we receive payment from the customer (1–3 business days later), we automatically match it to the corresponding transaction in our system based on the payment details provided. If auto-matching fails, we try to match the payment manually.
-
-If we cannot match the payment:
-
-- For smaller amounts, we refund the customer.
-- For larger amounts, we contact you for information to help identify the correct transaction.
-
-This costs all parties time and effort, and creates a negative customer experience. To avoid this, see [Resolving unmatched payments](/bank-transfer/unmatched-payments/).
-
-## Activation and integration
-
-| | |
-|---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) <br> ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)s) {{< br >}} [Payment components](/payment-components/) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > Bank Transfer direct/redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/) |
-
-## Notes
-
-- To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your [backend](/glossaries/multisafepay-glossary/#backend) until they complete the payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
-**Note:** MultiSafepay bears no responsibility for stock-related issues.
-
-- To change how bank transfers are validated, check whether this is possible in your backend.
-
-### MultiSafepay local bank accounts
+### Local MultiSafepay bank accounts
 
 To simplify transfers for customers and avoid them incurring international transfer and currency conversion fees, MultiSafepay has a local bank account in several European countries in the local currency. Customers then only pay the standard fee charged by their bank.
 
-To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your [create order](https://docs-api.multisafepay.com/reference/createorder) request in the `country` parameter, e.g. `"country": "DE",`.
+To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your [create order](https://docs-api.multisafepay.com/reference/createorder) request in the `country` parameter, e.g. `"country": "DE"`.
 
 {{< details title="Countries with a local MultiSafepay bank account" >}}
-
 
 - Austria (EUR)
 - Belgium (EUR)
@@ -160,4 +119,101 @@ To send a customer the details of a local MultiSafepay bank account, include the
 - UK (GBP)
 
 {{< /details >}}
+
+### Transfer guidance for customers
+
+The customer must only pay for **one** order per bank transfer. When transferring the funds, provide:  
+    
+- The amount
+- Their bank account number
+- The payment reference number (**not** the order number)  
+    **Format:** 16 digits, numbers only, no words
+
+{{< alert-notice >}} It is important for customers to enter the details accurately to avoid unmatched payments (see below). {{< /alert-notice >}}
+
+### Matching payments
+
+When we receive payments, we automatically match them to the corresponding transaction in our system by the amount **and** payment reference/customer bank account number. 
+
+Automatic matching can fail if:
+
+{{< details title="Payment details are incorrect, missing, or incorrectly formatted" >}}
+
+We may not be able to match a payment if the customer:  
+
+- Transfers the wrong amount
+- Pays for multiple orders in one transfer
+- Enters the payment reference number incorrectly, or includes words, e.g. "Payment ID 5213 0452 1234 5670" 
+- Provides the order number instead of the payment reference number
+
+Sometimes, the customer's bank has added comments to the transfer.
+
+{{< /details >}}
+
+{{< details title="Transaction wasn't successfully created" >}}
+
+The customer made a transfer but did not:
+    
+- Place their order with you, **or**
+- Click **Confirm** on the [payment page](/payment-pages/) (redirect orders).  
+
+This means the transaction was not created successfully in our system.
+
+{{< /details >}}
+
+We then try to match the payment manually. If that fails:
+
+- For smaller amounts, we refund the customer.
+- For larger amounts, we contact you for information to help identify the correct transaction.
+
+### Resolving unmatched payments
+
+To create the transaction again, check if a [payment link](/payment-links/) was created: 
+
+{{< details title="Payment link created" >}}
+
+1. Click the link to open the payment page. 
+2. Click **Bank Transfer**.
+3. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
+4. Click **Confirm** to create the transaction in our system.
+
+{{< /details >}}
+
+{{< details title="Payment link not created" >}}
+
+1. [Generate a link manually](/payment-links/generating-links/). 
+2. Include in the description the customer's name and the order number (for your records). 
+3. Click **Bank Transfer**.
+4. Add the customer's bank account number (if known) to help us match the payment.
+5. Click **Confirm** to create the transaction in our system.
+
+**Note:** The order ID must be unique for each payment link.
+
+{{< /details >}}
+
+For support, email <support@multisafepay.com>
+
+See this guidance in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) or [German](/bank-transfer/unzugeordneten-banküberweisungen/).
+
+## Activation and integration
+
+| | |
+|---|---|
+| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment pages](/payment-pages/) <br> ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) {{< br >}} [Payment components](/payment-components/) |
+| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
+
+### Stock issues
+
+To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your [backend](/glossaries/multisafepay-glossary/#backend) until they complete payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
+
+**Note:** MultiSafepay bears no responsibility for stock-related issues.
+
+### Validating transfers
+
+To change how bank transfers are validated, check whether this is possible in your backend.
+
+
 

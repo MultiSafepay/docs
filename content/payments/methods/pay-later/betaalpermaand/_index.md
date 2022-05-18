@@ -179,7 +179,7 @@ If the return process takes too long to verify, you can pauze the collection per
 | **Activation** | [Betaal per Maand activation](/payments/activating-payment-methods/#betaal-per-maand) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
 | **Testing** | You cannot test Betaal per Maand in your MultiSafepay test account. <br> When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live. |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> **Examples** > Betaal per Maand direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Betaal per Maand direct/redirect |
 
 {{< details title="Ready-made integrations" >}} 
 

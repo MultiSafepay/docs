@@ -92,7 +92,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > Trustly redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustly redirect |
 
 {{< details title="Ready-made integrations" >}} 
 Trustly (direct) is supported in: 

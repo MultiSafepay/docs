@@ -43,7 +43,12 @@ An additional layer of security is provided by 3D Secure, which requires custome
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
 | **Payment features**  | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 hour |
+<<<<<<< HEAD
 | **Requirements** | - Customers must use the Safari browser. <br> - An SSL secured connection (HTTPS) is required. <br> - Apple Pay transactions are processed as [credit card transactions](/payment-methods/credit-debit-cards/), except American Express (**not** supported). |
+=======
+| **Requirements** | Customers must use the Safari browser. <br> An SSL secured connection (HTTPS) is required. |
+| **Payment gateways** | Maestro, Mastercard, and Visa gateways are supported. <br> American Express is **not** supported. |
+>>>>>>> b5c5041d (DOCS-3182: Refinements and Sara's review)
 
 ## Payment flow
 
@@ -113,12 +118,20 @@ For more information about using Apple Pay, see Apple – [How to use Apple Pay]
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/) |
 | **Apple branding** | When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing). |
-| **Ready-made integrations** | Apple Pay (redirect) is supported in all our [ready-made integrations](/integrations/ready-made/) **except** VirtueMart, OsCommerce, X-Cart, and Zen Cart. {{< br >}} For most of our ready-made integrations, if the customer uses an incompatible device, Apple Pay doesn't appear on the checkout page. {{< br >}} For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout page on incompatible devices, but throws an error when clicked and the payment button is disabled.   |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** VirtueMart, OsCommerce, X-Cart, and Zen Cart.   |
+
+{{< details title="Known errors" >}}
+
+For most of our ready-made integrations, if the customer uses an incompatible device, Apple Pay doesn't appear on the checkout page. 
+
+For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout page on incompatible devices, but throws an error when clicked and the payment button is disabled.
+
+{{< /details >}}
 
 
-{{< two-buttons href-2="/payments/methods/wallet/applepay/direct-integration" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="/payments/methods/wallet/applepay/redirect-integration" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
 {{< br >}}
 

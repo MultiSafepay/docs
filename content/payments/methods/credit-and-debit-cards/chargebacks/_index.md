@@ -1,6 +1,6 @@
 ---
 title : "Chargebacks"
-weight: 20
+weight: 15
 layout: block
 block-range-pages: '.'
 meta_title: "Chargebacks - MultiSafepay Docs"

@@ -22,7 +22,7 @@ To style payment page templates from your MultiSafepay dashboard, follow these s
 3. Click the **Template** button. 
 4. Use the WYSIWYG editor to style the payment page template.  
     - Choosing colors: In the left menu, a color chart appears when you click on the field of a page element. You can also enter a [Hex color](https://www.w3schools.com/colors/colors_picker.asp) in the input field next to it.
-    - Selecting a logo or header image: In **Settings** > **Payment page templates**, upload files for logos or header backgrounds. They may take up to 5 minutes to process, and then automatically appear in the dropdown list in the editor.
+    - Selecting a logo or header image: In **Settings** > **Payment page templates**, upload files for logos or header backgrounds. They may take up to 5 minutes to process, and then automatically appear in the list in the editor.
 5. To save the finished template to the relevant website, click **Submit website**. 
 
 {{< details title="Other tips" >}}

@@ -1,6 +1,6 @@
 ---
 title : "Uncaptured card payments"
-weight: 30
+weight: 20
 meta_title: "Uncaptured card payments - MultiSafepay Docs"
 short_description: "Review card payments flagged by our automated fraud filter and capture or decline them."
 read_more: "."

@@ -128,7 +128,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Gift cards activation](/payments/activating-payment-methods/#gift-cards) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#prepaid-cards) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> **Examples** > Gift card redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 | **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use [generic gateways](/developer/general/generic-gateways/). {{< br >}} To check if a specific gift card is supported in your ready-made integration, email the Integration Team at integration@multisafepay.com   |
 
 ### Pay later methods

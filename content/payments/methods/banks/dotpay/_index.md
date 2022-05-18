@@ -89,6 +89,6 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> **Examples** > Dotpay redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/). |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Dotpay redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 

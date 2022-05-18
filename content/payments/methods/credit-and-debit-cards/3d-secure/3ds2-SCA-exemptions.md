@@ -3,11 +3,12 @@ title : "Exemptions from 3DS2 and SCA"
 weight: 20
 meta_title: "Exemptions from 3DS2 and SCA - MultiSafepay Docs"
 read_more: "."
-url: '/features/3ds2/exemptions/'
+url: '/cards/3ds2/exemptions/'
 aliases:
     - /tools/server2server/3d-dynamics
     - /features/3d-secure/flexible/
     - /features/3d-secure/dynamic/
+    - /features/3ds2/exemptions/
 ---
 
 To help you optimize conversion and manage risk, MultiSafepay supports several exemptions from [3D Secure 2.0](/features/3d-secure/about/) (3DS2) and [strong customer authentication](/payment-regulations/psd2/) (SCA).
