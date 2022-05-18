@@ -1,7 +1,7 @@
 ---
 title : "Webhook"
 meta_title: "Webhook - MultiSafepay Docs"
-weight: 40
+weight: 60
 read_more: "."
 layout: single
 logo: '/svgs/General.svg'

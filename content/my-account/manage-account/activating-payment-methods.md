@@ -123,13 +123,12 @@ For support, email <integration@multisafepay.com>
 {{< /details >}}
 ### PayPal
 {{< details title="PayPal activation" >}}
-The instructions below are for the PayPal interface in English. If your PayPal webpage is in another language, you can change the language easily by clicking the links at the bottom right of the page.
 
 **Configuring your PayPal account**
 
 To configure your PayPal account, follow these steps:
 
-1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
+1. Sign in to your business account at [Paypal.com](https://www.paypal.com).
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Account access** tab, under **API access**, click **Update**.
 4. Under **Pre-built payment solution**, click **Grant API permission**.
@@ -145,47 +144,43 @@ To complete the configuration, change the language encoding setting of your PayP
 
 1. Click PayPal – [Profile language encoding](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding).
 2. Next to **Language coding for PayPal buttons**, click **Edit**.
-3. From the dropdown menu, select **Western European languages (including English)**.
+3. From the list, select **Western European languages (including English)**.
 4. Click **More options**.
-5. From the **Encoding** dropdown menu, select **UTF-8**.
-6. Select the **Yes** checkbox.
-7. Click **Save**.
+5. From the **Encoding** list, select **UTF-8**.
+6. Select the **Yes** checkbox, and then click **Save**.
 
-For support or if any steps are inaccurate, email <integration@multisafepay.com>
+**Support**  
+
+- Email <integration@multisafepay.com>
+- PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 
 {{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
-
-For support or if any steps are inaccurate, email <integration@multisafepay.com>
-
-For further support, see PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us).
 
 **Configuring your MultiSafepay account**
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
-1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
+1. Sign in to your business account at [Paypal.com](https://www.paypal.com).
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-5. Go to **Settings**. 
-6. To activate PayPal for:
+4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com), and then go to **Settings**. 
+5. To activate PayPal for:
 
 - All your sites:
     - Go to **Payment methods**, and then select **PayPal**.
-    - In the **PayPal Merchant ID** field, paste in your ID.
+    - In the **PayPal Merchant ID** field, paste your ID, and click **Save changes**.
 
 - A specific site:
     - Go to **Website settings**, and click the relevant site.
-    - Under **Payment methods**, select the **PayPal** checkbox.
+    - Under **Payment methods**, select the **PayPal** checkbox, and click **Save changes**.
 
-**Note:** You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
+**Notes:** 
 
-7. Click **Save changes**.
-
-**Note:** If PayPal is not visible as a payment method in your MultiSafepay dashboard, email <integration@multisafepay.com> 
+- You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
+- If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
 
 Your account is now configured!  
-We strongly recommend [testing some transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
+We strongly recommend [testing transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
 {{< /details >}}
 ### Paysafecard
 {{< details title="Paysafecard activation" >}}

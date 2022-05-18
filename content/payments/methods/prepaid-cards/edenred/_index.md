@@ -87,6 +87,6 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Edenred activation](/payments/activating-payment-methods/#edenred) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> **Examples** > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
 | **Ready-made integrations** | Only supported in our [Magento 2](/magento-2/) integration.   |
 

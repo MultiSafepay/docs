@@ -41,7 +41,11 @@ aliases:
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 90 days |
-| **Addresses** | Different billing and shipping addresses are supported. <br> The **Transaction details** page in your dashboard only shows the billing address. <br> To retrieve other transaction details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder). | 
+
+### Addresses
+
+Different billing and shipping addresses are supported.  
+The **Transaction details** page in your dashboard only shows the billing address. To retrieve other details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder).
 
 ### Surcharges  
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
@@ -149,7 +153,7 @@ Phone **+31 207 230 230** or email <merchant@afterpay.com>
 | **Activation** | [AfterPay activation](/payments/activating-payment-methods/#afterpay) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) {{< br >}} (Activate at website level in your MultiSafepay dashboard.) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> **Examples** > AfterPay direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect |
 
 {{< details title="Ready-made integrations" >}} 
 

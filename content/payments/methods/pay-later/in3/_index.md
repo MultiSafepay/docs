@@ -143,7 +143,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 | **Activation** | [Appy to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> **Examples** > in3 direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > in3 direct/redirect |
 
 {{< details title="Ready-made integrations" >}} 
 in3 (direct) is supported in: 

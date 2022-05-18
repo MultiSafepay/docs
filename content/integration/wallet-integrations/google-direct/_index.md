@@ -5,10 +5,11 @@ weight: 10
 meta_title: "Google Pay direct - Integration and testing - MultiSafepay Docs"
 short_description: "Integrating and testing Apple Pay direct"
 layout: 'single'
-url: '/payment-methods/google-pay/direct'
+url: '/google-pay/direct'
 noindex: '.'
 aliases:
     - /payments/methods/wallet/googlepay/direct-integration
+    - /payment-methods/google-pay/direct
 ---
 With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/payment-pages/).
 

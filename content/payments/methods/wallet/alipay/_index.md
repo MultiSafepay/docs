@@ -93,5 +93,5 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> **Examples** > Alipay direct/redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |

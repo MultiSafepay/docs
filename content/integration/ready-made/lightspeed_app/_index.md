@@ -144,7 +144,7 @@ This app is tested using the default one-step and one-page checkout using the de
 You are redirected to the Settings page.
 7. We recommend enabling:
     - Refunds
-    - MultiSafepay checkout scripts – Creates a dropdown list of iDEAL issuers, and suppresses Apple Pay for non-Apple devices.
+    - MultiSafepay checkout scripts – Creates a list of iDEAL issuers, and suppresses Apple Pay for non-Apple devices.
 8. Verify the other settings, and then click **Save**.  
 The app is now activated.
 

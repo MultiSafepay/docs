@@ -5,7 +5,7 @@ meta_title: "Manual Capture - MultiSafepay Docs"
 layout: "single"
 logo: '/svgs/Manual_capture.svg'
 url: '/features/manual-capture/'
-short_description: 'Receive credit card payments from your customers in full or partial captures.'
+short_description: 'Capture card payments in full or in part.'
 aliases:
     - /tools/manual-capture/full-capture/
     - /tools/manual-capture/partial-capture/

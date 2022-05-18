@@ -30,7 +30,7 @@ Google Pay™ is a digital wallet for in-app and online payments. Customers can 
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
 | **Payment features**  | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/features/recurring-payments/)  |
 | **Transactions expire after** | 1 hour |
-| **Payment gateways** | Google Pay tokenizes a customer's payment details for credit and debit cards. <br> We can process payments through the Maestro, Mastercard, or Visa gateways. |
+| **Payment gateways** | Maestro, Mastercard, and Visa gateways are supported. <br> American Express is **not** supported. |
 | **Terms and conditions** | By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos). |
 
 {{< details title="Supported browsers" >}} 
@@ -45,6 +45,8 @@ Google Pay is supported in the following browsers:
 - UCWeb UC Browser
 
 {{< /details >}}
+
+For more information, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
 
 ## Payment flow
 
@@ -105,8 +107,6 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 {{< /details >}}
 
-For more information, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
-
 ## Activation and integration
 
 | | |
@@ -115,9 +115,9 @@ For more information, see Google Pay – [Overview](https://developers.google.co
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/) |
 | **Google branding** | When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines). |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, use a [generic gateway](/developer/generic-gateways/).   |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, use a [generic gateway](/developer/generic-gateways/).   |
 
 
-{{< two-buttons href-2="/payment-methods/google-pay/direct/" text-2="Google Pay™ direct integration manual" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/google-pay/direct/" text-2="Google Pay™ direct integration manual" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="https://docs-api.multisafepay.com/reference/createorder" text-2="Google Pay™ redirect integration manual" description-2="Easily integrate Google Pay using MultiSafepay payment pages." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}

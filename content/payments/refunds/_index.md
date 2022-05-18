@@ -6,7 +6,8 @@ layout: block
 read_more: '.'
 block-range-pages: '.'
 url: '/refunds/'
-short_description: 'Process refunds in your MultiSafepay dashboard, from your ready-made integration, or via our API'
+logo: '/svgs/Refunds.svg'
+short_description: 'Process refunds in your dashboard, from your ready-made integration, or via our API'
 aliases:
     - /faq/refunds
     - /faq/refunds/initiating-refunds/

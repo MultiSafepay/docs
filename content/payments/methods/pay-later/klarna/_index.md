@@ -4,7 +4,6 @@ weight: 40
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
-faq: '.'
 short_description: 'A popular pay later method in Austria, Germany, and the Netherlands.'
 url: '/payment-methods/klarna/'
 aliases:
@@ -24,8 +23,18 @@ aliases:
     - /payment-methods/klarna/activation/
     - /payments/methods/billing-suite/klarna/user-guide/handling-errors/
     - /payment-methods/klarna/handling-errors/
+    - /payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/
+    - /payment-methods/klarna/extending-shipping-period/
+    - /payments/methods/billing-suite/klarna/user-guide/reservation-and-invoice-number/
+    - /payment-methods/klarna/reservation-invoice-numbers/
+    - /payment-methods/klarna/handling-expired-orders/
+    - /payments/methods/billing-suite/klarna/user-guide/placing-collection-period-on-hold/
+    - /payment-methods/klarna/pauzing-collection/
+    - /klarna/handling-disputes/
+    - /payments/methods/billing-suite/klarna/user-guide/customizing-invoices/
+    - /payment-methods/klarna/customizing-invoices/
 ---
-[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days, or in 3-4 installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
+[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
 [See how Klarna can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/klarna)
 
@@ -33,19 +42,12 @@ aliases:
 
 |   |   |   |
 |---|---|---|
-| **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands  | 
+| **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands, UK <br> (US **not** supported)  | 
 | **Currencies**  | EUR, GBP, SEK, NOK, DKK  | 
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
 | **Transactions expire after** | 1 hour |
-| **Addresses** | The customer's billing and shipping addresses must be the **same**. |
-
-### Recent changes
-
-- Pay in 3 interest-free payments with a bank mandate or card is now available in the Netherlands. 
-- Pay Later 30 becomes the default in the Netherlands and Belgium from January 11, 2022. 
-
-For more information, see Klarna – [Betaal later](https://www.klarna.com/nl/zakelijk/producten/betaal-later/). 
+| **Addresses** | The customer's billing and shipping addresses must be the **same**. | 
 
 ### Surcharges  
 
@@ -96,11 +98,11 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 | Payments | Order status | Transaction status |
 |---|---|---|
-| The customer has been redirected to Klarna. <br> You can still cancel with Klarna (see [Reservation number](/payment-methods/klarna/reservation-invoice-numbers/)). | Initialized   | Initialized  |
+| The customer has been redirected to Klarna. <br> You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) | Completed  | Uncleared  |
-| **Important:** To capture the funds, [manually change the order status to Shipped](/payment-methods/klarna/#shipping-orders). <br> See also: <br> - [Extend the shipping period](/payment-methods/klarna/extending-shipping-period/) <br> - [Invoice number](/payment-methods/klarna/reservation-invoice-numbers/) (for queries to Klarna) | Shipped | Uncleared |
+| **Important:** To capture the funds, [manually change the order status to Shipped](/payment-methods/klarna/#shipping-orders). | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
-| The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. <br> See [Handling expired orders](/payment-methods/klarna/handling-expired-orders/).  | Expired    | Expired    |
+| The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. <br> See [Expired orders](/payment-methods/klarna/#expired-orders).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
 | Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
 |**Refunds**|||
@@ -109,17 +111,26 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 {{< /details >}}
 
+{{< details title="Klarna reference numbers">}}
+
+For every transaction, Klarna generates two reference numbers:
+
+- Reservation number for before shipment
+- Invoice number for after shipment
+
+Both reference numbers appear in the **Transaction details** page in your dashboard.
+
+{{< /details >}}
+
 ### Shipping orders
 
-When you ship the order, you **must** manually change the order status to **Shipped**:
+When you ship the order, you **must** manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**, which:
 
 - Captures the funds
 - Triggers sending the invoice to the customer
 - Prevents the order from expiring
 
 {{< details title="Changing order status to Shipped" >}}
-
-You can change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
 
 **In your dashboard**
 
@@ -143,6 +154,121 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 {{< /details >}}
 
+### Extending the shipping period
+
+If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments.
+
+If the order is not captured during this time, the [order and transaction status](/about-payments/multisafepay-statuses/) change to **Expired**.
+
+{{< details title="Extending the shipping period" >}} 
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction.
+3. In the **Transaction details** page, click **Extend**.
+
+{{< /details >}}
+
+### Pauzing the collection period
+
+If a customer's return takes too long to verify, you can pauze the collection period for 2-4 weeks. 
+
+Call Klarna on +31 208082853 or email Klarna Sales at <verkoop@klarna.com>
+
+### Handling expired orders
+
+Orders may expire if you don't change the order status to **Shipped** within 28 days. 
+
+{{< details title="Handling expired orders" >}} 
+
+You can send the customer a payment link from the existing order or a new order.
+
+**Existing order**
+
+1. Sign in to your MultiSafepay dashboard.
+2. Go to **Transactions** > **Transaction overview**, and then select the expired transaction.  
+3. Click **Payment link**, and then click **Duplicate this order**.
+4. On the **Payment link generator** page, click **Generate payment link**. 
+5. Send the payment link to the customer. 
+
+**New order**
+
+1. [Create a new order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order.  
+See also Examples > Klarna redirect.
+2. [Ship the order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order.
+3. Send the payment link to the customer.
+
+{{< /details >}}
+
+### Handling disputes
+
+A dispute is when you and a customer disagree about an order:
+
+- Goods, e.g. the customer returns all or part of the order, or the goods were faulty when delivered
+- Payments, e.g. invoicing errors, or the customer paid Klarna instead of you
+- Other, e.g. insolvency, or bankruptcy
+
+Klarna provides support for resolving disputes. For a step-by-step overview, see Klarna – [How to handle disputes at Klarna](https://docs.klarna.com/disputes/).
+
+The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. 
+
+{{< details title="Connecting to the Klarna Merchant Portal" >}}
+  
+You'll receive an email from Klarna inviting you to activate your portal account. The link expires within 7 days and is only usable once. 
+
+If your link has expired or you haven't received an email, email <support@multisafepay.com> 
+
+1. In the email, click **Activate account**.
+2. Read the Merchant Portal Agreement, agree to the terms and conditions, and then click **Continue**.
+3. Enter a password, and click **Update password**.
+4. Enter your first and last names, and then click **Update profile**.
+5. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
+
+**Note:** If viewing orders in the portal, you must still manually change the order status to Shipped to trigger the invoicing process and receive payment.
+
+{{< /details >}}
+
+{{< details title="Setting up two-factor authentication" >}}
+
+If you want to increase the security of your Klarna Merchant Portal, set up two-factor authentication with the Google Authenticator app.
+
+1. Under **To-dos**, click **Activate two-factor authentication**. 
+2. In the dialog, click **Start the setup**.
+3. Open the Google Authenticator app and scan the QR code. 
+4. Enter the one-time authorization code from the app, and click **Set up authentication**.
+
+{{< /details >}}
+
+{{< details title="Signing up for the Disputes app" >}}
+
+To sign up to use the Disputes app, follow these steps:
+
+1. Sign in to the [Klarna Merchant Portal](https://eu.portal.klarna.com/).
+2. In the side menu, click **Disputes**.
+3. Select an email address and preferred language for receiving dispute-related emails, e.g. reminders.
+4. Agree to the terms and conditions. 
+5. Click **Sign up**. 
+
+Klarna will send you an email when the first dispute appears in the app. 
+
+**Using the Disputes app**
+
+The side menu contains three pre-set filters to view:
+
+- All disputes
+- Unauthorized disputes
+- Disputes expiring soon
+
+See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/) for detailed information on:
+
+- Searching and filtering disputes
+- Exporting reports
+- Dispute statuses
+- Managing settings
+- Responding to disputes
+- Accepting losses
+
+{{< /details >}}
+
 ## Activation and integration
 
 | | |
@@ -150,12 +276,8 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 | **Activation** | [Klarna activation](/payments/activating-payment-methods/#klarna) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> **Examples** > Klarna direct/redirect |
-| **Ready-made integrations** | Supported in all our [ready-made integrations](/integrations/ready-made/) (redirect). |
-
-Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway for your MultiSafepay account. 
-
-For questions about your Klarna integration and the connection with your MultiSafepay account, email <integration@multisafepay.com>
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect). |
 
 {{< details title="Gift cards with pay later methods" >}}
 
@@ -172,3 +294,33 @@ You are solely responsible for this in your integration.
 If you receive a `code:BAD_VALUE, Bad value: order_lines[0].reference` error from Klarna, try using shorter SKU numbers, e.g. fewer than 9 characters. 
 
 {{< /details >}}
+
+### Configuring the Klarna gateway 
+
+Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway for your MultiSafepay account. 
+
+For questions about your Klarna integration and the connection with your MultiSafepay account, email <integration@multisafepay.com>
+
+### Managing your brand
+
+{{< details title="Adding your logo to Klarna invoices" >}}
+
+1. Sign in to your Klarna Merchant Account, and then go to **Branding**.
+3. Under **Logo**, upload a .png or .jpeg logo. 
+    - For best results, use a square image with a transparent background. 
+    - Resolution 180x180 px or higher
+
+{{< /details >}}
+
+{{< details title="Managing your brand information" >}}
+
+Under **Brand information**, you can set up and manage your brand including:
+- Brand name
+- Home page
+- Instagram URL
+- Facebook URL
+
+{{< /details >}}
+
+For support, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/). 
+

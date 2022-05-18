@@ -1,6 +1,6 @@
 ---
 title : "Card errors"
-weight: 70
+weight: 25
 meta_title: "Card errors - MultiSafepay Docs"
 read_more: "."
 layout: 'single'

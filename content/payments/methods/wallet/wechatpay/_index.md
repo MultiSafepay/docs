@@ -20,7 +20,7 @@ aliases:
     - /payment-methods/wechat-pay/activation/
 ---
 
-[WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
+[WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It&nbsp;supports online and QR payments.
 
 [See how WeChat Pay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/wechat-pay)
 
@@ -87,11 +87,13 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> **Examples** > WeChat Pay direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > WeChat Pay direct/redirect |
 | **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/prestashop-1-7/). |
 
-To display the QR code for WeChat Pay payments, you have two options:
+### Displaying QR codes
 
-- Use redirect orders to redirect the customer to a [payment page](/payment-pages/) where the QR code is displayed under **Payment methods**.
+To display WeChat Pay QR codes, you can use:
 
-- Use direct orders, retrieve the `qr_url` and render the QR code in your system to display it to the customer.
+- Redirect orders to [payment pages](/payment-pages/), where the QR code is displayed under **Payment methods**.
+
+- Direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
