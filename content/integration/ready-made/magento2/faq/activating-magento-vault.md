@@ -24,7 +24,7 @@ To see Instant Purchase in action, see Magento – [Instant purchase](https://ma
 
 You must:  
 
-- Include a checkbox at checkout for customers to give permission to tokenize their payment details.
+- Include a checkbox at checkout for customers to give permission to tokenize their payment details (Already included with Magento Vault).
 - Explain in your terms and conditions how you use and store their details.
 - Inform customers how they can delete stored payment details.
 
