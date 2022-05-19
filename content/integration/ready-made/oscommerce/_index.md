@@ -41,7 +41,7 @@ Contact MultiSafepay:
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - OsCommerce 2.3
 - Tested on PHP 7.0
 
@@ -105,7 +105,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended OsCommerce installation procedure. Make sure you have made a backup. 
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup. 
 
 Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
 

@@ -71,10 +71,15 @@ There is a risk that if you refund a customer and they also request a chargeback
 To reduce the chances of this happening, we strongly recomend:
 
 - Only processing refunds for trusted, verified customers.
+
 - Avoiding refunding a customer if you have any ongoing dispute with them.
+
 - If refunding:
+
     - First check if the customer has already requested a chargeback.
+
     - Wait until 7 working days after payment was initiated to be sure payment is now complete.
+
     - Communicate clearly to the customer that you are sending a refund and that the funds will take a few days to arrive in their account.
 
 {{< /details >}}
@@ -125,7 +130,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | We've sent the e-mandate to the customer's bank. {{< br >}} You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
-| The customer's bank declined the transaction. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/#declined-transactions) below. | Declined | Declined   |
+| The customer's bank declined the transaction. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/payment-flow/#reason-codes-for-declined-transactions) below. | Declined | Declined   |
 |**Refunds**|||
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed | 

@@ -10,7 +10,7 @@ This technical manual is for installing and configuring the deprecated version o
 
 {{< details title="Test environment" >}}
 &nbsp;  
-We recommend first installing the app in a test environment following the recommended Shopify installation procedure. Make sure you have made a backup.
+We recommend first installing the app in a test environment following the recommended Shopify installation procedure. Always make a backup.
 
 {{< /details >}}
 

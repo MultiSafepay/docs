@@ -39,7 +39,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - PrestaShop 1.6
 - Tested on PHP 7.0
 
@@ -106,7 +106,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended PrestaShop 1.6 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
 2. Sign in to your PrestaShop 1.6 [backend](/glossaries/multisafepay-glossary/#backend).

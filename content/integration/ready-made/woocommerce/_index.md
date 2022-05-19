@@ -42,7 +42,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - Wordpress 5.0
 - PHP 7.2
 
@@ -116,7 +116,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended WooCommerce installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup. {{< /blue-notice >}}
 
 There are two ways to install the plugin:
 

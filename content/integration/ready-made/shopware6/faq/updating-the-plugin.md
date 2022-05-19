@@ -9,7 +9,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopware6/faq/updating-the-plugin/
 ---
 
-There are 3 ways to update the plugin:
+You can update the plugin:
 
 - In your [backend](/glossaries/multisafepay-glossary/#backend)
 - In the CMS marketplace 

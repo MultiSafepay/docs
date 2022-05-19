@@ -1,6 +1,6 @@
 ---
-title : "MultiSafepay plugin for Craft Commerce"
-title_short: "Craft Commerce"
+title : "Craft Commerce plugin"
+title_short: "Craft Commerce plugin"
 meta_title: "Craft Commerce plugin - MultiSafepay Docs"
 github_url : "https://github.com/MultiSafepay/craft-commerce"
 type: 'Plugin'
@@ -11,7 +11,6 @@ title_short: "Craft Commerce"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop."
 changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md
 layout: 'single'
-faq: "."
 url: '/craft-commerce/'
 aliases: 
     - /plugins/craftcommerce
@@ -20,14 +19,25 @@ aliases:
     - /integrations/ecommerce-integrations/craftcommerce
     - /payments/integrations/ecommerce-platforms/craftcommerce/
     - /ecommerce-platforms/craft-commerce/
+    - /payments/integrations/ecommerce-platforms/craftcommerce/faq/generic-gateways/
+    - /ecommerce-platforms/craft-commerce/generic-gateways/
+    - /craft-commerce/configuring-generic-gateways/
+    - /integrations/ecommerce-integrations/craftcommerce/faq/refunding-craft-commerce/
+    - /payments/integrations/ecommerce-platforms/craftcommerce/faq/processing-refunds/
+    - /craft-commerce/refunds/
+    - /integrations/ecommerce-integrations/craftcommerce/faq/craft-commerce-2-support/
+    - /payments/integrations/ecommerce-platforms/craftcommerce/faq/support-for-craft-commerce-2/
+    - /craft-commerce/craft-commerce-2/
 ---
 
-This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Craft Commerce 3 webshop via Composer.
+This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3 via Composer.
 
 You can also install the plugin via the [Craft Plugin Store](https://plugins.craftcms.com/multisafepay).
 
+For support for Craft Commerce 2, email <integration@multisafepay.com>  
+
 {{< details title="Features" >}}
-&nbsp;  
+ 
 - Support for separate payment methods, pay later methods, and gift cards
 - Partial and full refunds for all payment methods, except pay later
 - Customizable order statuses
@@ -36,7 +46,7 @@ You can also install the plugin via the [Craft Plugin Store](https://plugins.cra
 {{< /details >}}
 
 {{< details title="Requirements" >}}
-&nbsp;  
+ 
 - Craft CMS version 3.2 or higher
 - PHP 7.0 and higher
 - Tested with PHP 7.0 
@@ -44,7 +54,7 @@ You can also install the plugin via the [Craft Plugin Store](https://plugins.cra
 {{< /details >}}
 
 {{< details title="Support" >}}
-&nbsp;  
+ 
 Contact MultiSafepay:
 
 - Telephone: +31 (0)20 8500 500
@@ -53,62 +63,29 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
-{{< details title="Supported payment methods" >}}
+{{< details title="Payment methods" >}}
 
-**Credit and debit cards**
-
-- [American Express](/payment-methods/amex)
-- [Mastercard](/payment-methods/mastercard)
-- [Maestro](/payment-methods/maestro)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires) & [Dankort](/payment-methods/dankort)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Belfius](/payment-methods/belfius)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Dotpay](/payment-methods/dotpay)
-- [EPS](/payment-methods/eps)
-- [Giropay](/payment-methods/giropay)
-- [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payment-methods/request-to-pay)
-- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-- [Sofort](/payment-methods/sofort)
-- [Trustly](/payment-methods/trustly)
-- [TrustPay](/payment-methods/trustpay)
-
-**Pay later methods**
-
-+ [AfterPay](/payment-methods/afterpay)
-+ [E-Invoicing](/payment-methods/e-invoicing)
-+ [in3](/payment-methods/in3)
-+ [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
-
-**Wallets**
-
-+ [Alipay](/payment-methods/alipay)
-+ [PayPal](/payment-methods/paypal)
-
-**Prepaid cards**
-
-+ Beauty and Wellness gift card
-+ [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-+ [Fashioncheque](https://www.fashioncheque.com/nl)
-+ [Fashion gift card](https://www.fashion-giftcard.nl)
-+ Fietsenbon
-+ [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-+ [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-+ [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-+ [Podium](https://www.podiumcadeaukaart.nl)
-+ [Sport en Fit](https://www.sportenfitcadeau.nl)
-+ [VVV gift card](https://www.vvvcadeaukaarten.nl)
-+ [Webshop gift card](https://www.webshopgiftcard.nl)
-+ [Wellness gift card](https://www.wellnessgiftcard.nl)
-+ Wijncadeau
-+ [Winkelcheque](https://www.winkelcheque.nl)
-+ [Yourgift](https://www.yourgift.nl/)
+- Cards: All, **except** Postepay and V Pay
+- Banking methods: All
+- Pay later methods: All
+- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
+- Prepaid cards:
+    - Beauty and Wellness gift card
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Fashioncheque](https://www.fashioncheque.com/nl)
+    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - [Podium](https://www.podiumcadeaukaart.nl)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
+    - [Webshop gift card](https://www.webshopgiftcard.nl)
+    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl)
+    - [Yourgift](https://www.yourgift.nl/)
 
 See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
@@ -126,6 +103,44 @@ composer require multisafepay/craft-commerce
 The latest stable release is downloaded and installed in your Craft Commerce webshop.
 
 ## Configuration
-1. Sign in to the [backend](/glossaries/multisafepay-glossary/#backend) of your Craft Commerce webshop.
+1. Sign in to your Craft Commerce backend.
 2. To configure the plugin settings, go to **MultiSafepay** > **Settings**.  
 3. To add payment methods activated in your [MultiSafepay account](https://merchant.multisafepay.com) and configure gateways, go to **Commerce** > **System settings** > **Gateways**.  
+
+## User guide
+
+### Generic gateways
+
+The plugin supports [generic gateways](/developer/generic-gateways/) and generic gift cards, which support all payment methods.
+
+{{< details title="Configuring generic gateways" >}}
+
+1. Sign in to your Craft Commerce backend. 
+2. Go to **Commerce** > **System settings** > **Gateways** > **+ New gateway**.
+3. From the **Gateway** list, select **Generic gateway**.
+4. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
+
+{{< /details >}}
+
+### Refunds
+
+- [MultiSafepay dashboard](/refunds/full-partial/): 
+    - [Full and partial refunds](/refunds/full-partial/)
+    - Generic gateway transactions
+- Backend:  
+    - Full and partial refunds
+    - Refunding more than the original transaction **not** supported
+    - Generic gateway transactions **not** supported
+- API: [Refund order](https://docs-api.multisafepay.com/reference/refundorder) 
+- [Pay later refunds](/payment-methods/pay-later) **not** supported
+- Discounts **not** supported
+
+{{< details title="Processing backend refunds" >}}
+
+To process refunds from the Craft Commerce admin panel:  
+
+1. Go to **Commerce** > **Orders**.
+2. Select the order.
+3. To see the refund options, go to the **Transactions** tab. 
+
+{{< /details >}}

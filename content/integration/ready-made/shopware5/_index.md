@@ -37,7 +37,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - Shopware 5.6.x or 5.5.7 and above.
 - Tested on PHP 7.0
 
@@ -110,7 +110,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Shopware 5 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Sign in to your Shopware 5 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Configuration** > **Plugin manager**.

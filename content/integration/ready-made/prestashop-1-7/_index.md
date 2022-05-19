@@ -41,7 +41,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
@@ -132,7 +132,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended PrestaShop 1.7 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Sign in to your PrestaShop 1.7 [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Modules** > **Module Manager**.

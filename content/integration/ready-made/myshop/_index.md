@@ -36,7 +36,7 @@ Contact MultiSafepay:
 
 {{< details title="Requirements" >}}
 &nbsp; 
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}
 
@@ -79,7 +79,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended MyShop installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the MyShop installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Sign in to your myShop [backend](/glossaries/multisafepay-glossary/#backend).
 2. Install the MultiSafepay app in the App Store.

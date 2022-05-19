@@ -1,13 +1,13 @@
 ---
-title : "EasyWebshop app for MultiSafepay"
+title : "EasyWebshop app"
 meta_title: "EasyWebshop app - MultiSafepay Docs"
 layout: 'single'
-meta_description: "MultiSafepay app for EasyWebshop. Easily integrate MultiSafepay payment solutions into your EasyWebshop platform with the free app."
+meta_description: "Free app to integrate MultiSafepay payment solutions with EasyWebshop."
 logo: "/logo/Integrations/EasyWebshop.svg"
 weight: 31
 type: 'App'
 title_short: "EasyWebshop"
-description_short: "Free app to integrate MultiSafepay payment solutions into your EasyWebshop webshop."
+description_short: "Free app to integrate MultiSafepay payment solutions with EasyWebshop."
 layout: 'single'
 url: '/easywebshop/'
 aliases: 
@@ -19,7 +19,7 @@ aliases:
     - /ecommerce-platforms/easywebshop/
 ---
 
-Free app by EasyWebshop to integrate MultiSafepay payment solutions into your webshop.
+EasyWebshop provides a free app to integrate with MultiSafepay.
 
 For integration support, email <integration@multisafepay.com>
 

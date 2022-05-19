@@ -148,15 +148,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).  |
 
-### Gift cards
-
-When paying with a gift card and E-Invoicing, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
-
-You are solely responsible for this in your integration.
-
-## User guide
-
-### Batching transactions for subscriptions
+### User guide
 
 {{< details title="Batching transactions for subscriptions" >}}
 
@@ -169,8 +161,6 @@ To generate E-Invoicing transactions in batches for subscription payments:
 
 {{< /details >}}
 
-### Customizing invoices
-
 {{< details title="Customizing invoices" >}}
 
 To customize invoices:
@@ -182,7 +172,17 @@ The invoice is sent to the email address provided.
 
 {{< /details >}}
 
-### Viewing transactions
+{{< details title="Gift cards with pay later methods" >}}
+
+[See how E-Invoicing can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/e-invoicing)
+
+When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
+{{< /details >}}
 
 {{< details title="Viewing transactions" >}}
 

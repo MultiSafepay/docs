@@ -38,7 +38,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - ZenCart 1.5.5
 - Tested on PHP 7.0
 
@@ -108,7 +108,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Zen Cart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. In the root of your webshop, unpack the content of the .ZIP file.
 2. Sign in to your Zen Cart [backend](/glossaries/multisafepay-glossary/#backend).

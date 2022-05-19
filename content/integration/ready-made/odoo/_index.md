@@ -41,7 +41,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 &nbsp;  
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - Odoo 13.0
 - Tested on Python 3.6
 
@@ -91,7 +91,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Odoo installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.

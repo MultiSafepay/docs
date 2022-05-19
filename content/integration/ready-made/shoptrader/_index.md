@@ -25,7 +25,7 @@ Free plugin by Shoptrader to integrate MultiSafepay payment solutions into your 
 For supported payment methods, email <integration@multisafepay.com>
 
 ## Requirements
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+You will need a [MultiSafepay account](/getting-started/guide/).
 
 ## Refunds
 

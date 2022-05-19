@@ -41,7 +41,7 @@ For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.co
 
 {{< details title="Requirements" >}}
 
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - Shopware 6.3.x, 6.4.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
 - Tested on PHP 7.2.0
 
@@ -113,7 +113,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Shopware 6 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.

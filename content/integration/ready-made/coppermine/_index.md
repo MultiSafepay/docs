@@ -16,7 +16,7 @@ MultiSafepay has partnered with [Coppermine](https://www.coppermine.nl/), which 
 
 To integrate MultiSafepay as your payment service provider, follow these steps:
 
-## 1. In your dashboard
+### 1. In your dashboard
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Website settings** and [add the required site(s)](/account/managing-websites/#adding-websites) to your account.
@@ -27,14 +27,14 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
     - Account ID (top-right corner of the dashboard)
     - [Site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
 
-## 2. In Coppermine
+### 2. In Coppermine
 
 1. Sign in to your Coppermine backend, and then go to **Settings**.
 2. To configure the MultiSafepay PaymentMethod Gateway, enter your:
     - MultiSafepay account ID
     - Site ID, API key, and secure code
 
-## 3. Testing
+### 3. Testing
 
 1. Place some test orders in your webshop and Coppermine backend.
 2. Check the transactions in Coppermine and your MultiSafepay dashboard. 

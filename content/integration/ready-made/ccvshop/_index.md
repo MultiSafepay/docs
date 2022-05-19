@@ -1,13 +1,12 @@
 ---
-title : "MultiSafepay app for CCV Shop"
+title : "CCV Shop app"
 meta_title: "CCV Shop app - MultiSafepay Docs"
-faq: "."
 type: 'App'
 layout: 'single'
 logo: "/logo/Integrations/CCVShop.svg"
 weight: 29
-title_short: "CCVShop"
-description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop webshop."
+title_short: "CCV Shop"
+description_short: "Free app to integrate MultiSafepay payment solutions with CCV Shop."
 layout: 'single'
 url: '/ccv-shop/'
 aliases: 
@@ -19,12 +18,15 @@ aliases:
     - /integrations/ecommerce-integrations/ccvshop
     - /payments/integrations/ecommerce-platforms/ccvshop/
     - /ecommerce-platforms/ccv-shop/
+    - /integrations/ccvshop/faq/refunding-ccv-shop/
+    - /payments/integrations/ecommerce-platforms/ccvshop/faq/processing-refunds/
+    - /ccv-shop/refunds/
 ---
-This technical manual is for installing and configuring our free app to integrate MultiSafepay payment solutions into your CCV Shop webshop.
+This technical manual is for installing and configuring MultiSafepay's free app for integrating with CCV Shop.
 
 {{< details title="Requirements" >}}
 &nbsp;  
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+You will need a [MultiSafepay account](/getting-started/guide/).
 {{< /details >}}
 
 {{< details title="Support" >}}
@@ -39,32 +41,18 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
-{{< details title="Supported payment methods" >}}
+{{< details title="Payment methods" >}}
 
-**Credit and debit cards**
-  
-- [American Express](/payment-methods/amex)
-- [Mastercard](/payment-methods/mastercard)
-- [Maestro](/payment-methods/maestro)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Giropay](/payment-methods/giropay)
-- [iDEAL](/payment-methods/ideal)
-- [Sofort](/payment-methods/sofort)
-- [Trustly](/payment-methods/trustly)
-
-**Pay later methods**
-
-- [AfterPay](/payment-methods/afterpay/)
-- [Klarna](/payment-methods/klarna/)
-
-**Wallets**
-
-- [PayPal](/payment-methods/paypal)
+- Cards: All
+- Banking methods:
+    - [Bancontact](/payment-methods/bancontact)
+    - [Bank Transfer](/payment-methods/bank-transfer)
+    - [Giropay](/payment-methods/giropay)
+    - [iDEAL](/payment-methods/ideal)
+    - [Sofort](/payment-methods/sofort)
+    - [Trustly](/payment-methods/trustly)
+- Pay later methods: [AfterPay](/payment-methods/afterpay/), [Klarna](/payment-methods/klarna/)
+- Wallets: [PayPal](/payment-methods/paypal)
 
 See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
@@ -72,13 +60,14 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended CCV Shop installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+2. Sign in to your CCV Shop backend and install the MultiSafepay app from the App Store.
+3. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
+4. In the **Electronische betalingen** tab, select **MultiSafepay**.
+5. Enter your account ID, [site ID and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+6. If using your MultiSafepay test account, select **Test mode**.
+7. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
 
-1. Sign in to your CCV Shop [backend](/glossaries/multisafepay-glossary/#backend) and install the MultiSafepay app from the App Store.
-2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
-3. In the **Electronische betalingen** tab, select **MultiSafepay**.
-4. Enter your account ID, [site ID and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
-5. If using your MultiSafepay test account, select **Test mode**.
-6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
+## Refunds
 
-
+You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com), but refunds are **not** supported in the CCV Shop app.

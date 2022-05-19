@@ -24,7 +24,7 @@ aliases:
 ---
 Free plugin by ShopFactory to integrate MultiSafepay payment solutions into your webshop.
 
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+You will need a [MultiSafepay account](/getting-started/guide/).
 
 For technical queries about the plugin, see ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
 

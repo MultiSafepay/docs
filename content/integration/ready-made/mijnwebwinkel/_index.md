@@ -40,7 +40,7 @@ Contact MultiSafepay:
 
 {{< details title="Requirements" >}}
 &nbsp;  
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}
 
@@ -94,7 +94,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ## Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended Mijnwebwinkel installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Sign in to your Mijwebwinkel [backend](/glossaries/multisafepay-glossary/#backend).
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.

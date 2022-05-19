@@ -1,11 +1,11 @@
 ---
-title : "Logic4 plugin for MultiSafepay"
+title : "Logic4 plugin"
 meta_title: "Logic4 plugin - MultiSafepay Docs"
 logo: "/logo/Integrations/Logic_4.svg"
 weight: 28
 title_short: "Logic4"
 type: 'Plugin'
-description_short: "Free plugin to integrate MultiSafepay payment solutions into your Logic4 webshop."
+description_short: "Free plugin to integrate MultiSafepay payment solutions with Logic4."
 layout: 'single'
 url: '/logic4/'
 aliases: 
@@ -22,45 +22,35 @@ aliases:
     - /ecommerce-platforms/logic4/
 ---
 
-To install and configure Logic4's free plugin for integrating MultiSafepay payment solutions into your webshop, see Logic4 – [Contact](https://www.logic4.nl/contact/). 
+Logic4 provides a free plugin for integrating with MultiSafepay. 
 
-{{< details title="Requirements" >}}
+{{< details title="Requirements">}} 
 &nbsp;  
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
-{{< /details >}}
-
-{{< details title="Supported payment methods" >}}
-
-**Credit cards**
-
-- [American Express](/payment-methods/amex)
-- [Maestro](/payment-methods/maestro)
-- [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Belfius](/payment-methods/belfius)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [EPS](/payment-methods/eps)
-- [Giropay](/payment-methods/giropay)
-- [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Sofort](/payment-methods/sofort)
-- [Trustly](/payment-methods/trustly)
-
-**Pay later methods**
-
-- [AfterPay](/payment-methods/afterpay)
-- [Betaal per Maand](/payment-methods/betaal-per-maand)
-- [Klarna](/payment-methods/klarna)
-- [Pay After Delivery](/payment-methods/pay-after-delivery)
-- [in3](/payment-methods/in3)
-
-**Wallets**
-
-- [PayPal](/payment-methods/paypal)
+You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}
 
+{{< details title="Payment methods">}} 
+
+- Cards: 
+    - [American Express](/payment-methods/amex)
+    - [Mastercard](/payment-methods/mastercard) and [Maestro](/payment-methods/maestro)
+    - [Visa](/payment-methods/visa)
+- Banking methods:
+    - [Bancontact](/payment-methods/bancontact)
+    - [Bank Transfer](/payment-methods/bank-transfer)
+    - [Belfius](/payment-methods/belfius)
+    - [CBC/KBC](/payment-methods/cbc-kbc)
+    - [EPS](/payment-methods/eps)
+    - [Giropay](/payment-methods/giropay)
+    - [iDEAL and iDEAL QR](/payment-methods/ideal)
+    - [Sofort](/payment-methods/sofort)
+    - [Trustly](/payment-methods/trustly)
+- Pay later methods: All, **except** E-Invoicing
+- Wallets: [PayPal](/payment-methods/paypal)
+
+{{< /details >}}
+
+## Installation and configuration
+
+To install and configure the plugin, see Logic4 – [Contact](https://www.logic4.nl/contact/). 

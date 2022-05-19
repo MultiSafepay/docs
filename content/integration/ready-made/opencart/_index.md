@@ -40,7 +40,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 &nbsp;  
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - OpenCart 2.X, 3.X
 - PHP version 7.2, 7.3, or 7.4
 
@@ -112,7 +112,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended OpenCart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. For security, always create backup of your OpenCart application.
 2. Download the Plugin_OpenCart_3.x.x.ocmod.zip.

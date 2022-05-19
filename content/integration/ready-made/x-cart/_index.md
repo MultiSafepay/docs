@@ -39,7 +39,7 @@ Contact us:
 
 {{< details title="Requirements" >}}
 &nbsp;  
-- MultiSafepay account – See [Getting started](/getting-started/).
+- [MultiSafepay account](/getting-started/guide/)
 - X-Cart 5.x        
 - Tested on PHP 7.0
 
@@ -108,7 +108,7 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## Installation
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended X-Cart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. In the root of your webshop, unzip the content of the .ZIP file.
 2. Sign in to your X-Cart [backend](/glossaries/multisafepay-glossary/#backend).
