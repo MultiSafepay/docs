@@ -5,6 +5,7 @@ meta_title: "Cards overview - MultiSafepay Docs"
 layout: 'single' 
 short_description: 'How to use, activate, and integrate credit and debit cards.'
 url: '/payment-methods/cards/'
+logo: '/svgs/Credit cards.svg'
 aliases:
     - /payments/methods/american-express/
     - /support-tab/magento2/payment-methods/american-express

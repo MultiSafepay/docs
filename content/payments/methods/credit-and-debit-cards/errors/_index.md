@@ -6,6 +6,7 @@ read_more: "."
 layout: 'single'
 short_description: "Visa and Mastercard reason codes for credit card errors."
 url: '/cards/errors/'
+logo: '/svgs/Errors explained.svg'
 aliases:
     - /about-payments/credit-card-errors/
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
