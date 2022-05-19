@@ -104,7 +104,7 @@ Check if the customer is enrolled for 3D Secure. On the **Transaction details** 
 
 | 3D Secure result | Description |
 |---|---|
-| Enrolled Liability  | 3D Secure available and successfully authenticated. Liability for fraud is shifted to the cardholder and chargebacks are **not** possible. |
+| Enrolled, Liability  | 3D Secure available and successfully authenticated. Liability for fraud is shifted to the cardholder and chargebacks are **not** possible. |
 | Not Enrolled, Liability  | 3D Secure available, but not used or successfully authenticated. Liability for fraud is shifted to the cardholder and chargebacks are **not** possible. |
 |  No Liability  | 3D Secure **not** available. You retain liability for fraud chargebacks.|
 
