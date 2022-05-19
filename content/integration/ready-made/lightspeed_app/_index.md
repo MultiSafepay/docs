@@ -81,6 +81,7 @@ Contact us:
 - [Apple Pay](/payment-methods/apple-pay)
 - [Google Pay](/payment-methods/google-pay/)
 - [PayPal](/payment-methods/paypal)
+- [WeChat Pay](/payment-methods/wechat-pay/)
 
 **Prepaid cards**  
 

@@ -1,17 +1,18 @@
 ---
-title: "MultiSafepay statuses"
+title: "Payment statuses"
 weight: 20
-meta_title: "MultiSafepay statuses - MultiSafepay Docs"
+meta_title: "Payment statuses - MultiSafepay Docs"
 read_more: "."
-url: '/about-payments/multisafepay-statuses/'
+url: '/payments/payment-statuses/'
 aliases:
     - /payments/multisafepay-statuses/
     - /faq/api/difference-between-status-and-transaction-status
     - /faq/api/difference-between-status-and-financial-status
     - /developer/api/difference-between-status-and-financial-status/
+    - /about-payments/multisafepay-statuses/
 ---
 
-There are two statuses for each transaction that update as it is processed. 
+There are two statuses for each payment that update as it is processed. 
 
 In your [MultiSafepay dashboard](https://merchant.multisafepay.com/), go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. Under **Status history**, you can see the order status and transaction status: 
 
@@ -44,8 +45,8 @@ The table below sets out possible order and transaction statuses and what they c
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has requested a refund.| Initialized/Reserved | Initialized/Reserved |
-| The refund/chargeback is complete. | Completed | Completed |
+| Refund initiated.| Initialized/Reserved | Initialized/Reserved |
+| Refund/chargeback complete. | Completed | Completed |
 | The refund has been processed successfully.| Refunded | Refunded |
 | The [partial refund](/payments/refunds/) has been processed successfully.| Partial_refunded | Partial_refunded |
 | The refund was declined. | Declined | Declined |
@@ -54,5 +55,5 @@ The table below sets out possible order and transaction statuses and what they c
 If the status of the refund  is **Reserved**, it may mean: 
 
 - The refund hasn't been processed yet. Refunds are passed to the customer's bank at midnight on the day they are initiated, and then the status changes to **Completed**. The bank is now responsible for processing the payment. Refunds may be delayed by the issuing bank.
-- The refund cannot be processed due to insufficient funds in your MultiSafepay balance. To top up your balance, see [Adding funds to your MultiSafepay balance](https://docs.multisafepay.com/faq/finance/adding-funds-to-your-multisafepay-balance).
+- The refund cannot be processed due to insufficient funds in your MultiSafepay balance. To top up your balance, see [Topping up your balance](/account/balance/).
 

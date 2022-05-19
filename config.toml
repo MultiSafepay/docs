@@ -39,40 +39,16 @@ name = "Shell"
     weight = 1
 
 [[menu.main]]
-    name = "Create a test account"
-    url  = "/getting-started/create-a-test-account"
+    name = "Getting started guide"
+    url = "/getting-started/guide/"
     parent = "Getting started"
     weight = 2
-
-[[menu.main]]
-    name = "Set up your account"
-    url  = "/getting-started/set-up-your-account"
-    parent = "Getting started"
-    weight = 3
-
-[[menu.main]]
-    name = "Choose your integration"
-    url = "/getting-started/choose-your-integration"
-    parent = "Getting started"
-    weight = 4
-
-[[menu.main]]
-    name = "Test your integration"
-    url  = "/getting-started/test-your-integration"
-    parent = "Getting started"
-    weight = 5
-
-[[menu.main]]
-    name = "Onboard and go live"
-    url  = "/getting-started/go-live"
-    parent = "Getting started"
-    weight = 6
 
 [[menu.main]]
     name = "Glossaries"
     url  = "/getting-started/glossaries/"
     parent = "Getting started"
-    weight = 7
+    weight = 3
 
 [[menu.main]]
     name = "My account"
@@ -125,25 +101,39 @@ name = "Shell"
     weight = 210
 
 [[menu.main]]
+    name = "Self-made"
+    url  = "/integrations/self-made/"
+    parent = "integrations"
+    identifier = "self-made"
+    weight = 220
+
+[[menu.main]]
     name = "Partner integrations"
     url  = "/partner-integrations/"
     parent = "integrations"
     identifier = "partner-integrations"
-    weight = 220
+    weight = 230
 
 [[menu.main]]
     name = "Checkouts"
     url  = "/checkouts/"
     parent = "integrations"
     identifier = "checkouts"
-    weight = 230
+    weight = 240
+
+[[menu.main]]
+    name = "Webhook"
+    url  = "/integrations/webhooks/"
+    parent = "integrations"
+    identifier = "webhook"
+    weight = 250
 
 [[menu.main]]
     name = "Test your integration"
     url  = "/integrations/testing/"
     parent = "integrations"
     identifier = "testing"
-    weight = 240
+    weight = 260
 
 [[menu.main]]
     name = "Payments"

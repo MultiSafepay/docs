@@ -25,7 +25,7 @@ You can split payments by percentage, a fixed amount, or by both.
 
 ## Integration
 
-To split a payment, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder).
+See API recipe – [Split a payment](https://docs-api.multisafepay.com/recipes/split-a-payment).
 
 ## Refunds
 You can process full and partial refunds, but only from the account that created the split payment. 

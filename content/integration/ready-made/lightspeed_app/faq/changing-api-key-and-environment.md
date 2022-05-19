@@ -9,10 +9,10 @@ aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/changing-api-key-and-environment/
 ---
 
-To change your API key or environment (live or test) after installation, follow these steps:
+To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
 1. Sign in to your MultiSafepay app for Lightspeed app.
 2. Tap the hamburger menu and go to **Environment**.
 3. Edit your **API key** and/or the **Environment**.
 
-**Note**: To find your MultiSafepay API key, see [Site ID, API key, and secure code](https://docs.multisafepay.com/account/site-id-api-key-secure-code/).
+

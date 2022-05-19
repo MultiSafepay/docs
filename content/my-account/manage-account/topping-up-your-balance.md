@@ -1,9 +1,9 @@
 ---
-title : "Managing your balance"
-weight: 4
-meta_title: "Managing your balance - MultiSafepay Docs"
+title : "Topping up your balance"
+weight: 9
+meta_title: "Topping up your balance - MultiSafepay Docs"
 read_more: '.'
-url: '/account/manage-your-balance/'
+url: '/account/balance/'
 aliases:
     - /tools/multisafepay-control/users
     - /faq/finance/adding-funds-to-your-multiSafepay-balance
@@ -17,8 +17,9 @@ aliases:
     - /faq/finance/viewing-your-uncleared-balance
     - /tools/multisafepay-control/viewing-your-uncleared-balance
     - /my-account/manage-your-balance/viewing-your-uncleared-balance/
+    - /account/manage-your-balance/
 ---
-## Adding funds to your balance
+## Topping up your balance
 
 To add funds to your MultiSafepay balance, follow these steps:
 

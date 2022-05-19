@@ -22,7 +22,7 @@ Add and retrieve UBO identification documents:
 - [Get identity document](#get-identity-document): Retrieve a specific identity document for a UBO.
 
 ## Authentication
-All the UBO requests require a partner account API key. This is not the same as a [website API key](/account/site-id-api-key-secure-code/). For more information, email your partner manager.
+All the UBO requests require a partner account API key. This is not the same as a [site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain in the URL from `testapi` to `api` and use the corresponding API key.
 

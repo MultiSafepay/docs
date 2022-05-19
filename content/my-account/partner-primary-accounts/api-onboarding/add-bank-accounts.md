@@ -22,7 +22,7 @@ Verify bank accounts by payment link or bank statement:
 - [Get bank statement](#get-bank-statement): Retrieve a specific bank statement.
 
 ## Authentication
-All the bank account requests require a partner account API key. This is not the same as a [website API key](/account/site-id-api-key-secure-code/). For more information, email your partner manager.
+All the bank account requests require a partner account API key. This is not the same as a [site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). For more information, email your partner manager.
 
 All URLs on this page are directed to our test API. To use the live API, change the subdomain `testapi` to `api` and use the corresponding API key.
 

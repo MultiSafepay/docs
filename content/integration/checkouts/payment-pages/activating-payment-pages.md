@@ -77,8 +77,7 @@ To activate payment pages, follow these steps:
 
 ## Integration
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page/link.
-
+See API recipe – [Create a payment page](https://docs-api.multisafepay.com/recipes/create-a-payment-pagelink).
 
 ### Known errors
 A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a [create order](https://docs-api.multisafepay.com/reference/createorder) request.

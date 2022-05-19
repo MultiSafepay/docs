@@ -34,27 +34,40 @@ You are responsible for arranging certification, which is a complex, time-consum
 
 For more information and advice, email <sales@multisafepay.com>
 
+## Supported payment methods
+
+The table below sets out supported payment methods and their respective [3D Secure](/features/3d-secure/about/) authentication requirements:
+
+| Card | Authentication protocol |
+|---|---|
+| American Express | American Express Safekey – mandatory for transactions above 30 EUR |
+| Bancontact | 3D Secure only |
+| Maestro | 3D Secure only |
+| Mastercard | Mastercard SecureCode **and** non-3D Secure payments |
+| Visa | Verified by Visa **and** non-3D Secure payments |
+
 ## Activation
 
 **1.** To check your eligibility to use this feature, email <sales@multisafepay.com>
+
+Specify in your request the:
+
+- Payment methods you want to integrate
+- Websites under your account this applies to
+- Type of products you will sell
+
+Provide your average order values and volumes, and any available processing statements. 
 
 **2.** We check your account and company performance.
 
 **3.** Email proof of your PCI DSS certification and an activation request to <risk@multisafepay.com>
 
-**4.** If approved, we complete activation. 
+**4.** If approved, we complete activation.
 
-## Supported payment methods and 3D Secure requirements
+You must then provide us with your:
 
-The table below sets out supported payment methods and [3D Secure](/features/3d-secure/about/) requirements:
-
-| Card | Authentication protocol |
-|---|---|
-| American Express | American Express Safekey – mandatory except for transactions less than 30 EUR |
-| Bancontact | 3D Secure only |
-| Maestro | 3D Secure only |
-| Mastercard | Mastercard SecureCode **and** non-3D Secure payments |
-| Visa | Verified by Visa **and** non-3D Secure payments |
+- Attestation of Compliance each year
+- Approved Scanning Vendor reports every 3 months
 
 ## Integration
 

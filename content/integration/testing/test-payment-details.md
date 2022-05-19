@@ -281,7 +281,7 @@ To test refunding an order via the API:
 
 Test credentials:
 
-- [API key](/account/site-id-api-key-secure-code/)
+- [Site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order**  

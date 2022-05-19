@@ -22,7 +22,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/shopify/
 ---
 
-{{< alert-notice >}} **Urgent action required:** [Migrate](#installation) to our updated app before March 31, 2022.  {{< /alert-notice>}}
+{{< alert-notice >}} **Urgent action required:** [Migrate to our updated app](#installation) before March 31, 2022.  {{< /alert-notice>}}
 
 This technical manual is for installing/migrating to our free app for integrating MultiSafepay payment solutions into your Shopify webshop.
 
@@ -87,7 +87,7 @@ Our Shopify app is unavailable in Norway and Finland.
 
 For more information, email <integration@multisafepay.com>
 
-{{< /details >}}
+{{< /details >}} 
 
 ## Installation
 
@@ -97,7 +97,7 @@ To install or migrate, follow these steps:
 2. From the [Shopify app store](https://apps.shopify.com/), install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).  
 3. Check that the app is successfully added under **Admin** > **Settings** > **Payments** > **Alternative payment methods**.
 4. In your Shopify checkout, test the **MultiSafepay Payments** gateway.  
-  **Note:** If using a test [API key](/account/site-id-api-key-secure-code/), make sure you also enable **Test mode**. 
+  **Note:** If using a test [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), make sure you also enable **Test mode**. 
 5. For existing merchants, you must disable the deprecated individual MultiSafepay payment method gateways under **Admin** > **Settings** > **Payments** > **Third-party payment providers**.
 6. Once testing is complete, disable password protection again.
 

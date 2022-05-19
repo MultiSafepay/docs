@@ -15,28 +15,25 @@ aliases:
     - /payments/features/tokenization/
 ---
 
-Recurring Payments involves MultiSafepay encrypting customers' sensitive payment details for secure storage and providing merchants a non-sensitive identifier, known as a "token", to enable quick, easy repeat payments, e.g.:
+Recurring Payments is a MultiSafepay solution that securely stores payment details to enable quick, easy repeat payments.
+
+## How it works
 
 - **One-click payments:** The customer selects stored details for faster checkout.
 - **Subscriptions:** You use the token to collect payments at specific intervals, e.g. weekly, monthly.
 - **Unscheduled payments:** You use the token for event-triggered payments, e.g. mobile top-up when no credit left on phone.
 
-### Benefits
+MultiSafepay encrypts customers' sensitive payment details during an initial payment for secure storage, and provides you with a non-sensitive identifier for the details known as a "token". Customers can save multiple tokens.
 
-- Subsequent payments are exempt from [SCA and 2FA](/payment-regulations/sca/).
-- MultiSafepay is responsible for [PCI DSS](/payment-regulations/pci-dss/) compliant storage of payment details. 
-- Customers can save multiple tokens.
+Subsequent payments are exempt from [SCA and 2FA](/payment-regulations/sca/).
+MultiSafepay is responsible for [PCI DSS](/payment-regulations/pci-dss/) compliant storage of payment details. 
 
-{{< blue-notice >}}
 Tokens are stored at account level rather than website level. If you operate multiple websites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Website A and offer one-click payments on Website B.
-{{< /blue-notice >}}
-
-## How it works
 
 {{< details title="Supported payment methods" >}}
 
 - American Express
-- Bancontact
+- [Bancontact WIP](/payment-methods/bancontact/overview/#bancontact-wip-service)
 - iDEAL
 - Maestro
 - Mastercard
@@ -48,7 +45,7 @@ Tokens are stored at account level rather than website level. If you operate mul
 
 ### Initial payment
 
-1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure (**except for** Bancontact). 
+1. The customer gives you consent to store their payment details and verifies their identity with 3D Secure. 
 2. MultiSafepay encrypts the payment details during processing and stores them securely on our servers. We return to you a non-sensitive token that references the encrypted payment details. 
 3. You can use the token to process recurring payments without needing to handle or store sensitive payment details.
 
@@ -143,20 +140,46 @@ sequenceDiagram
 
 Email a request to activate Recurring Payments to <sales@multisafepay.com>
 
+Specify in your request which tokenization model(s) you want to use:
+
+- One-click payments
+- Subscriptions
+- Unscheduled payments
+
+We send you an agreement to sign, including terms and conditions for data usage. 
+
 ## Integration
 
 ### Recurring models
 MultiSafepay offers three recurring models:
 
-- `cardOnFile` 
+- `cardOnFile` (one-click payments)
 - `subscription`
 - `unscheduled` (event-triggered)
 
 Our API and [PHP SDK](https://github.com/MultiSafepay/php-sdk) support all three models.  
 Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
 
+### Via ready-made integrations
+
+You must have **both** credit card payments and recurring payments enabled for your MultiSafepay account.
+
+{{< details title="Supported integrations" >}}
+
+We support recurring payments in our plugins for:
+
+- [Magento 1](/magento-1)
+- [Magento 2](/magento-2)
+- [PrestaShop 1.6](/prestashop-1-6)
+- [PrestaShop 1.7](/prestashop-1-7)
+- [Shopware 6](/shopware-6) 
+- [WooCommerce](/woo-commerce/) 
+
+{{< /details >}}
+
 ### Via our API
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer_reference` object.
+
+See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer.reference`.
 
 **Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
 
@@ -169,23 +192,6 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 | `recurring_id` | string | A randomly generated recurring ID for the customer. |
 | `reference` | string | The customer's reference number for the token. |
 | `recurring_model` | string | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`.  |
-
-{{< /details >}}
-
-### Via ready-made integrations
-
-You must have both credit card payments **and** recurring payments enabled for your MultiSafepay account.
-
-{{< details title="Supported MultiSafepay plugins" >}}
-
-We support recurring payments in our plugins for:
-
-- [Magento 1](/magento-1/)
-- [Magento 2](/magento-2/)
-- [PrestaShop 1.6](/prestashop-1-6/)
-- [PrestaShop 1.7](/prestashop-1-7/)
-- [Shopware 6](/shopware-6/) 
-- [Woocommerce](/woo-commerce/) 
 
 {{< /details >}}
 

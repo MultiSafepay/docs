@@ -3,41 +3,43 @@ title: "Financial report"
 meta_title: "Financial report - MultiSafepay Docs"
 read_more: '.'
 weight: 3
+url: '/reports/financial-report/'
 aliases:
     - /tools/accounting/reports/financial-report/
+    - /accounting/reports/financial-report/
 ---
-The Financial report provides an overview of:
+The financial report provides an overview of:
 
-- Transactions within a specific timeframe and grouping of costs
-- The following types of completed transactions:  
-    - Paid transactions
-    - Refunds
-    - Chargebacks/reversals
-    - Payouts
-    - Currency conversions
+- Transactions within a specific timeframe and grouping of costs  
+- Paid transactions
+- Refunds
+- Chargebacks/reversals
+- Payouts
+- Currency conversions
 
 Supported formats: Excel or CSV
 
 {{< details title="Report contents" >}}
-
-- ID: MultiSafepay's transaction reference number
-- Merchant ref: your transaction reference number
-- Created: the date the transaction was initiated
-- Completed: the date the funds were settled in your MultiSafepay balance
-- Site: the website where the customer placed the order
-- First name: the customer's first name
-- Last name: the customer's last name
-- Description: a description of the order
-- Currency: the currency of the transaction
-- Amount: the amount of the transaction
-- Payment type: a MultiSafepay fee, or the payment method
-- Payment status: the [transaction status](/about-payments/multisafepay-statuses/)
+| Columns | Description |
+|---|---|
+| ID | MultiSafepay's transaction reference number |
+| Merchant ref | Your transaction reference number |
+| Created | The date the transaction was initiated |
+| Completed | The date the funds were settled in your MultiSafepay balance |
+| Site | The website where the customer placed the order |
+| First name | The customer's first name |
+| Last name | The customer's last name |
+| Description | A description of the order |
+| Currency | The currency of the transaction |
+| Amount | The amount of the transaction |
+| Payment type | A MultiSafepay fee, or the payment method |
+| Payment status | The [transaction status](/about-payments/multisafepay-statuses/) |
 
 {{< /details >}}
 
-## Generating Financial reports
+## Generating financial reports
 
-To generate a Financial report, follow these steps:
+To generate a financial report, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial report**.
