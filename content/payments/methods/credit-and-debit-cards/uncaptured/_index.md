@@ -6,6 +6,7 @@ short_description: "Review card payments flagged by our automated fraud filter a
 read_more: "."
 layout: 'single'
 url: '/cards/uncaptured/'
+logo: '/svgs/Subscriptions_and_credit_management.svg'
 aliases: 
     - /faq/finance/evaluating-uncleared-card-transactions/
     - /faq/risk-and-fraud/accepting-uncleared-credit-card-payments/

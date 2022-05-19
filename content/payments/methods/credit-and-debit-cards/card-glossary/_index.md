@@ -5,6 +5,7 @@ meta_title: "Credit and debit card glossary - MultiSafepay Docs"
 short_description: "Get familiar with commonly used credit card terms and processes"
 read_more: "."
 url: '/glossaries/credit-cards/'
+logo: '/svgs/Guides.svg'
 aliases:
     - /payments/methods/credit-and-debit-cards/user-guide/glossary/
     - /credit-and-debit-cards/glossary/
