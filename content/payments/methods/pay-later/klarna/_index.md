@@ -102,7 +102,8 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Klarna has authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) | Completed  | Uncleared  |
 | **Important:** To capture the funds, [manually change the order status to Shipped](/payment-methods/klarna/#shipping-orders). | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
-| The transaction expired after 1 hour or you didn't [change the order status to Shipped](/about-payments/pay-later-shipped-status/) within 28 days. <br> See [Expired orders](/payment-methods/klarna/#expired-orders).  | Expired    | Expired    |
+| The transaction expired after 1 hour or you didn't [change the order status to Shipped](#shipping-orders) within 28 days. <br> See [Expired orders](/payment-methods/klarna/#expired-orders).  | Expired    | Expired    |
+
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
 | Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
 |**Refunds**|||
