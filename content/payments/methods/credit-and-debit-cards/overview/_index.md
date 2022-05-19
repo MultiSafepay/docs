@@ -170,7 +170,7 @@ aliases:
 MultiSafepay supports the following credit and debit cards:
 
 - [American Express](https://www.multisafepay.com/solutions/payment-methods/american-express) (Amex)
-- [Mastercard](https://www.multisafepay.com/solutions/payment-methods/mastercard) and [Maestro](https://www.multisafepay.com/solutions/payment-methods/maestro) (debit card)
+- [Mastercard](https://www.multisafepay.com/solutions/payment-methods/mastercard) (credit card) and [Maestro](https://www.multisafepay.com/solutions/payment-methods/maestro) (debit card)
 - [Postepay](https://www.multisafepay.com/solutions/payment-methods/postepay)
 - [Visa](https://www.multisafepay.com/solutions/payment-methods/visa/) and co-branded cards [Cartes Bancaires](https://www.cartes-bancaires.com/), [Dankort](https://www.multisafepay.com/solutions/payment-methods/dankort), [V&nbsp;Pay](https://www.multisafepay.com/solutions/payment-methods/vpay) (debit card) 
 
