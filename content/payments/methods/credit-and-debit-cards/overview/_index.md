@@ -253,12 +253,12 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/cards/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | (Amex MID flow) American Express has collected payment. | Completed | Initialized |
 | Payment wasn't captured manually or within 5&nbsp;days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. <br> See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/cards/errors/). | Declined | Declined   |
 |**Refunds/chargebacks**|||
 | Refund/chargeback initiated. | Reserved    | Reserved   |
 | Refund/chargeback complete.  | Completed      | Completed   |
