@@ -117,7 +117,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | | |
 |---|---|
 | **Activation** | [PayPal activation](/payments/activating-payment-methods/#paypal) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions) {{< br >}} [Payment components](/payment-components/) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) <br> ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > PayPal direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
