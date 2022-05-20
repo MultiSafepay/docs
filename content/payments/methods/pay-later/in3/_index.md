@@ -156,12 +156,10 @@ in3 (direct) is supported in:
 - [WooCommerce](/woo-commerce/)   
  {{< /details >}}
 
-{{< details title="Gift cards" >}}
+### Gift cards
 
 When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
 This is because in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
-
-{{< /details >}}
