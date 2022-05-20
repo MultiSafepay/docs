@@ -211,9 +211,7 @@ To close a transaction manually, follow these steps:
 
 {{< details title="Gift cards" >}}
 
-When paying with a gift card and Pay After Delivery, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+When paying with a gift card and Pay After Delivery, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
