@@ -75,10 +75,11 @@ Gift cards are pre-loaded with a specific amount of credit that customers can us
 
 ### Closed-loop vs open-loop cards
 
-| Format | Redeem with | Amount limits |
-|---|---|---|
- Closed-loop | 1 merchant only | None |
-| Open-loop | Multiple merchants | Max credit: 150 EUR <br> Max transaction amount: 50 EUR <br> Amounts over 50 EUR must be paid with an additional payment method. |
+- Closed-loop: Redeem with 1 merchant only. No amount limits.
+- Open-loop: 
+    - Redeem with multiple merchants 
+    - Max credit: 150 EUR <br> Max transaction amount: 50 EUR
+    - Amounts over 50 EUR must be paid with an additional payment method. |
 
 ## Payment flow
 
