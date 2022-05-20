@@ -202,14 +202,14 @@ See this guidance in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) o
 | | |
 |---|---|
 | **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) <br> ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) {{< br >}} [Payment components](/payment-components/) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) <br> ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 
 ### Stock issues
 
-To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your [backend](/glossaries/multisafepay-glossary/#backend) until they complete payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
+To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
 
 **Note:** MultiSafepay bears no responsibility for stock-related issues.
 
