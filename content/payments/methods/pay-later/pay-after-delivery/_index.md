@@ -57,6 +57,16 @@ We therefore strongly recommend **not** applying surcharges.
 
 For more information, email <sales@multisafepay.com> 
 
+### Refund rules
+
+- You can't process refunds after the invoice is passed to a collection agency (usually 6 weeks after shipment). This is not visible in your dashboard. To check when the invoice was passed to the agency, email <support@multifactor.nl>
+
+- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
+
+- For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
+
+- You cannot reverse full refunds. 
+
 ## Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -167,18 +177,6 @@ Provide the following information:
 - Transaction details
 - Reason for your request
 - When you expect to start the billing process again
-
-{{< /details >}}
-
-{{< details title="Refund rules" >}}
-
-- You can't process refunds after the invoice is passed to a collection agency (usually 6 weeks after shipping the order). This is not visible in your MultiSafepay dashboard. To check when the invoice was passed to the agency, email <support@multifactor.nl>
-
-- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
-
-- For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
-
-- You cannot reverse full refunds. 
 
 {{< /details >}}
 
