@@ -3,7 +3,7 @@ title : "Interchange++"
 weight: 35
 meta_title: "Interchange++ - MultiSafepay Docs"
 read_more: "."
-short_description: "Learn about the Interchange++ pricing model offered by some banks and card schemes."
+short_description: "Some banks and card schemes offer the Interchange++ pricing model."
 url: '/about-payments/interchange/'
 logo: '/svgs/Banks.svg'
 aliases: 
