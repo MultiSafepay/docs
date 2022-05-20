@@ -192,15 +192,6 @@ Supported in the following [ready-made integrations](/integrations/ready-made/):
 - [VirtueMart](/virtuemart/) 
 - [WooCommerce](/woo-commerce/) 
 - [X-Cart](/x-cart/) 
-{{< /details >}}
-
-{{< details title="Gift cards" >}}
-
-When paying with a gift card and Betaal per Maand, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-This is because Santander collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
-
-You are solely responsible for this in your integration.
 
 {{< /details >}}
 
@@ -212,4 +203,10 @@ We recommend always requiring full names, not initials, abbreviations, or acrony
 
 {{< /details >}}
 
+### Gift cards
 
+When paying with a gift card and Betaal per Maand, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because Santander collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
