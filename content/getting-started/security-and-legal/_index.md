@@ -2,9 +2,9 @@
 title: 'Security and legal'
 meta_title: 'Security and legal'
 breadcrumb_title: 'Security and legal'
-tags: 'hidden'
 layout: 'block'
 url: '/security-and-legal/'
-logo: '/svgs/FAQ.svg'
-weight: 10
+short_description: "Payment regulations, risk and fraud, and surcharges."
+logo: '/svgs/Banks.svg'
+weight: 30
 ---
