@@ -1,7 +1,7 @@
 ---
-title: 'Payments regulations'
+title: 'Payment regulations'
 weight: 10
-meta_title: "Payments regulations - MultiSafepay Docs"
+meta_title: "Payment regulations - MultiSafepay Docs"
 logo: '/svgs/PSD2.svg'
 layout: 'faqplugins'
 url: '/payment-regulations/'
