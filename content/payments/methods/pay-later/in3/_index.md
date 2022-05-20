@@ -41,7 +41,7 @@ aliases:
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) {{< br >}} You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
 | **Payment features** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 2 hours |
-| **Amount limits** | Min: 100 EUR Max: 3000 EUR <br> You can adjust these limits in the [backend](/glossaries/multisafepay-glossary/#backend) of our [ready-made integrations](/payments/integrations/ecommerce-platforms/) to show or hide in3 on your checkout page depending on the order value. |
+| **Amount limits** | Min: 100 EUR Max: 3000 EUR <br> You can adjust these limits in the backend of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
 | **Addresses** | Different billing and shipping addresses are supported. |
 
 ### Surcharges
@@ -156,11 +156,11 @@ in3 (direct) is supported in:
 - [WooCommerce](/woo-commerce/)   
  {{< /details >}}
 
-{{< details title="Gift cards with pay later methods" >}}
+{{< details title="Gift cards" >}}
 
-When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
-This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+This is because in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
