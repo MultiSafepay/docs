@@ -124,7 +124,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 ### Displaying your logo in the PayPal checkout
 
-{{< details title="Displaying your logo in the PayPal checkout >}}
+{{< details title="Displaying your logo in the PayPal checkout" >}}
 To display your header or logo on the PayPal checkout page, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
