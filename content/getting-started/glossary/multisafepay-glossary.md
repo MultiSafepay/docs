@@ -5,7 +5,6 @@ weight: 10
 meta_title: "MultiSafepay glossary - MultiSafepay Docs"
 short_description: "Get familiar with payments terminology and specific MultiSafepay uses."
 layout: 'single'
-logo: '/svgs/Guides.svg'
 url: '/glossaries/multisafepay-glossary/'
 aliases:
     - /faq/general/glossary
