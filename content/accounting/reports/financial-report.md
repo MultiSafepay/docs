@@ -44,7 +44,7 @@ To generate a financial report, follow these steps:
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial report**.
 3. In the **Between** and **And** fields, enter the start and end dates of the period you want the report to cover.
-4. In the **Cost grouping** dropdown menu:  
+4. In the **Cost grouping** list:  
     - **No grouping:** Show only the total of all MultiSafepay transaction fees for the selected timeframe.
     - **Single entry for all costs:** List each MultiSafepay fee below the matching transaction.
 5. Click **Generate report**.

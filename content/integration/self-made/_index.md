@@ -5,7 +5,7 @@ layout: 'single'
 meta_title: 'Self-made integrations - MultiSafepay Docs'
 logo: '/svgs/Wrappers.svg'
 short_description: 'Build your own payments integration with our API, wrappers, or SDKs.'
-weight: 15
+weight: 20
 url: '/integrations/self-made/'
 ---
 
