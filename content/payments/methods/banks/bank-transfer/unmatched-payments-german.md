@@ -7,8 +7,6 @@ url: '/bank-transfer/unzugeordneten-banküberweisungen/'
 tags: "hidden"
 ---
 
-Lesen Sie diese Seite auf [Englisch](/bank-transfer/unmatched-payments/) oder [Niederländisch](/bank-transfer/ongematchte-bankoverschrijvingen/).
-
 Wenn MultiSafepay eine Banküberweisung von Kund:innen erhält, verbinden wir diese aufgrund der angegebenen Zahlungsdetails automatisch mit der entsprechenden Transaktion in unserem System. 
 
 Falls die automatische Zuordnung nicht funktioniert, verbinden wir die Zahlung manuell basierend auf:
