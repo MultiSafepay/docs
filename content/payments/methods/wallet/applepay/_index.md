@@ -46,6 +46,8 @@ An additional layer of security is provided by 3D Secure, which requires custome
 | **Requirements** | Customers must use the Safari browser. <br> An SSL secured connection (HTTPS) is required. |
 | **Payment gateways** | Maestro, Mastercard, and Visa gateways are supported. <br> American Express is **not** supported. |
 
+For more information, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
+
 ## Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -93,18 +95,16 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Payments | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/about-payments/uncleared-transactions/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/cards/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
-| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Declined credit card payments](/about-payments/declined-status/). | Declined | Declined   |
+| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Card errors](/cards/errors/). | Declined | Declined   |
 |**Refunds**|||
 | Refund initiated. | Reserved    | Reserved   |
 | Refund complete.  | Completed  | Completed  |
 
 {{< /details >}}
-
-For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
 ## Activation and integration
 
