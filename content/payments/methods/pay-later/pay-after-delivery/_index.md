@@ -99,7 +99,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Payments | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. (You can still cancel.) | Initialized | Initialized | 
-| We have authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) <br> See also [Closing transactions](/payment-methods/pay-after-delivery/#closing-transactions/). | Completed | Uncleared | 
+| We have authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) <br> See also [Closing transactions](/payment-methods/pay-after-delivery/#closing-transactions). | Completed | Uncleared | 
 | **Important:** To capture the funds, [manually change the order status to Shipped](/payment-methods/pay-after-delivery/#shipping-orders). | Shipped | Uncleared |
 | MultiSafepay has collected payment.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
