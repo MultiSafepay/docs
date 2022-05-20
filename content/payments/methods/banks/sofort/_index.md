@@ -39,7 +39,7 @@ aliases:
 |   |   |  
 |---|---|
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland {{< br >}} **Note:** Transactions processed in non-supported countries return a [1024 error](/errors/handling-errors/#error-1024-transaction-refused).  | 
-| **Currencies**  | EUR {{< br >}} **Note:** GBP, CHF, PLN are **not** supported. | 
+| **Currencies**  | EUR <br> (GBP, CHF, PLN **not** supported) | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
 | **Payment features** | [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) |
