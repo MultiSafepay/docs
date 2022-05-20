@@ -207,6 +207,8 @@ See this guidance in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) o
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 
+## User guide
+
 ### Stock issues
 
 To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
