@@ -108,7 +108,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 {{< /details >}}
 
-### Managing orders
+### Changing orders before shipment
 
 {{< details title="Changing orders before shipment" >}}
 
@@ -125,13 +125,15 @@ You cannot increase the amount of the initial order by default. Email a request 
 
 {{< /details >}}
 
+### Shipping orders
+
+When you ship the order, you **must** manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped** to:
+
+- Capture the funds
+- Trigger sending the invoice to the customer
+- Prevent the order from expiring
+
 {{< details title="Changing order status to shipped" >}}
-
-When you ship the order, you **must** manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
-
-- Captures the funds
-- Triggers sending the invoice to the customer
-- Prevents the order from expiring
 
 **In your dashboard**
 
@@ -155,22 +157,16 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 {{< /details >}}
 
-{{< details title="Providing track-and-trace codes" >}}
+### Providing track-and-trace codes
 
 You can provide track-and-trace codes to MultiSafepay:
 
 - In your dashboard when you change the order status to Shipped, **or**  
 - Via our API. See API reference – [Update order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order.
 
-{{< /details >}}
-
-{{< details title="Pauzing the collection period" >}}
-
-Buy now pay later methods let customers pay only for items they keep from an order. This means sometimes customers return products. 
+### Pauzing the collection period
 
 If the return process takes too long to verify, you can pauze the collection period for 2 to 4 weeks. Contact Betaal per Maand.
-
-{{< /details >}}
 
 ## Activation and integration
 
