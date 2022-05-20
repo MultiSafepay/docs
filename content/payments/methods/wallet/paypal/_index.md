@@ -123,6 +123,8 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 
 ### Displaying your logo in the PayPal checkout
+
+{{< details title="Displaying your logo in the PayPal checkout >}}
 To display your header or logo on the PayPal checkout page, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -130,3 +132,4 @@ To display your header or logo on the PayPal checkout page, follow these steps:
 3. Go to **Payment methods** at the bottom right, and then select the relevant images from the **Logo** and **Header** list. 
 4. Click **Save**.
 
+{{< /details >}}
