@@ -56,7 +56,7 @@ iDEAL QR has a wide range of applications. Customers can scan QR codes off scree
 
 - You can specify whether the same QR code can be used more than once.
 
-- You can let customers change the amount to pay, e.g. for donations. 
+- Customers can change the amount to pay, e.g. for donations. 
 
 For more information, see iDEAL – [Offer iDEAL QR](https://www.ideal.nl/en/businesses/offer-ideal-qr/).
 
