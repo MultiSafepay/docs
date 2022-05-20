@@ -148,13 +148,11 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).  |
 
-{{< details title="Gift cards" >}}
+### Gift cards
 
 When paying with a gift card and E-Invoicing, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
-
-{{< /details >}}
 
 ## User guide
 
