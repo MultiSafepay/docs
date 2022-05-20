@@ -289,17 +289,17 @@ You are solely responsible for this in your integration.
 
 {{< /details >}}
 
-{{< details title="Known errors" >}}
-
-If you receive a `code:BAD_VALUE, Bad value: order_lines[0].reference` error from Klarna, try using shorter SKU numbers, e.g. fewer than 9 characters. 
-
-{{< /details >}}
-
 ### Configuring the Klarna gateway 
 
 Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway for your MultiSafepay account. 
 
 For questions about your Klarna integration and the connection with your MultiSafepay account, email <integration@multisafepay.com>
+
+{{< details title="Known errors" >}}
+
+If you receive a `code:BAD_VALUE, Bad value: order_lines[0].reference` error from Klarna, try using shorter SKU numbers, e.g. fewer than 9 characters. 
+
+{{< /details >}}
 
 ### Managing your brand
 
