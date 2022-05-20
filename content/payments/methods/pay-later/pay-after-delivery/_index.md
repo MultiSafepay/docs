@@ -99,7 +99,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | Payments | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. (You can still cancel.) | Initialized | Initialized | 
-| We have authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) <br> See also [Closing transactions](/payment-methods/pay-after-delivery/closing-transactions/). | Completed | Uncleared | 
+| We have authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) <br> See also [Closing transactions](/payment-methods/pay-after-delivery/#closing-transactions/). | Completed | Uncleared | 
 | **Important:** To capture the funds, [manually change the order status to Shipped](/payment-methods/pay-after-delivery/#shipping-orders). | Shipped | Uncleared |
 | MultiSafepay has collected payment.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
@@ -111,15 +111,15 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 {{< /details >}}
 
-### Managing orders
+### Shipping orders
+
+When you ship the order, you **must** manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped** to:
+
+- Capture the funds
+- Trigger sending the invoice to the customer
+- Prevent the order from expiring
 
 {{< details title="Changing order status to shipped" >}}
-
-When you ship the order, you **must** manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
-
-- Captures the funds
-- Triggers sending the invoice to the customer
-- Prevents the order from expiring
 
 **In your dashboard**
 
@@ -143,7 +143,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 {{< /details >}}
 
-{{< details title="Failure to pay" >}}
+### Failure to pay
 
 If the customer fails to pay within the initial 14 day period, MultiFactor emails them reminders with new payment links, each valid for 6 days: 
 
@@ -153,7 +153,7 @@ If the customer fails to pay within the initial 14 day period, MultiFactor email
 
 If the customer still fails to pay, the total invoice is transferred to a debt collection agency. 
 
-**Stopping reminders** 
+{{< details title="Stopping reminders" >}}
 
 To stop sending reminders, you can either:
 
@@ -182,9 +182,11 @@ Provide the following information:
 
 {{< /details >}}
 
-{{< details title="Closing transactions" >}}
+### Closing transactions
 
-If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the transaction status to **Completed**. This closes the transaction and stops MultiFactor sending the customer payment requests.   
+If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the transaction status to **Completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
+
+{{< details title="Closing transactions" >}}
 
 To close a transaction manually, follow these steps:
 
