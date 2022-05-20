@@ -1,7 +1,7 @@
 ---
 title: "Apple Pay redirect integration"
 breadcrumb_title: 'Redirect integration'
-weight: 10
+weight: 30
 meta_title: "Apple Pay redirect - Integration and testing - MultiSafepay Docs"
 short_description: "Integrating and testing Apple Pay redirect"
 layout: 'single'
