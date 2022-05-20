@@ -172,7 +172,8 @@ The invoice is sent to the email address provided.
 
 {{< /details >}}
 
-{{< details title="Using gift cards with pay later methods" >}}
+{{< details title="Gift cards with pay later methods" >}}
+
 
 When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
