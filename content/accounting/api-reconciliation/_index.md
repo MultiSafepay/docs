@@ -1,10 +1,11 @@
 ---
-title : "Reconciliation through API"
+title : "Reconciliation via API"
 weight: 30
-meta_title: "Reconciliation through API - MultiSafepay Docs"
+meta_title: "Reconciliation via API - MultiSafepay Docs"
 layout : "single"
 short_description: 'Request your transactions through our API for programmatic reconciliation.'
 logo: '/svgs/API.svg'
+url: '/accounting/api-reconciliation/'
 aliases: 
     - /tools/transactions-api-endpoint
     - /tools/accounting/transactions-api-endpoint/
