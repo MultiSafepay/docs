@@ -4,7 +4,7 @@ weight: 15
 layout: block
 block-range-pages: '.'
 meta_title: "Chargebacks - MultiSafepay Docs"
-short_description: "How to manage and avoid chargebacks, and how we can help dispute them."
+short_description: "Learn how to avoid, manage, and dispute chargebacks."
 read_more: "."
 url: "/chargebacks/"
 logo: '/svgs/Chargebacks.svg'
