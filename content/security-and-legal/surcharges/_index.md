@@ -5,6 +5,7 @@ meta_title: "Surcharges - MultiSafepay Docs"
 read_more: "."
 short_description: "About surcharges and European regulations."
 url: '/surcharges/'
+layout: single
 aliases:
     - /faq/payment-regulations/surcharges
     - /faq/payment-regulations/about-surcharges
