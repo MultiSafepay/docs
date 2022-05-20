@@ -131,7 +131,7 @@ The customer must only pay for **one** order per bank transfer. When transferrin
 - The payment reference number (**not** the order number)  
     **Format:** 16 digits, numbers only, no words
 
-{{< alert-notice >}} It is important for customers to enter the details accurately to avoid unmatched payments (see below). {{< /alert-notice >}}
+{{< alert-notice >}} Customers **must** enter the details accurately to avoid unmatched payments (see below). {{< /alert-notice >}}
 
 ### Matching payments
 
