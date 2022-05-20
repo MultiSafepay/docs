@@ -97,7 +97,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | The customer has been redirected to Santander. <br> To cancel, email <support@multisafepay.com> | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
 | Santander has authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) | Completed  | Uncleared  |
-| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Managing orders](/payment-methods/betaal-per-maand/#managing-orders)).  | Shipped | Uncleared |
+| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Providing track-and-trace codes](/payment-methods/betaal-per-maand/#providing-track-and-trace-codes)).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
@@ -110,9 +110,9 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 ### Changing orders before shipment
 
-{{< details title="Changing orders before shipment" >}}
+You can still change an order between approval from Santander and shipment.
 
-To change a Betaal per Maand order between approval from Santander and shipment, follow these steps:
+{{< details title="Changing orders before shipment" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
