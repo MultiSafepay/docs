@@ -49,7 +49,7 @@ Gift cards are pre-loaded with a specific amount of credit that customers can us
 | **Countries**  | Belgium, The Netherlands  | 
 | **Currencies** | EUR  | 
 | **Chargebacks** | No  | 
-| **Refunds** | Paid with gift card only: <br> You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: <br> [Full refunds](/payments/refunds/).  |
+| **Refunds** | Paid with gift card only: <br> You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/payments/refunds/).  |
 | **Transactions expire after** | Doesn't apply |
 
 {{< details title="Supported gift cards" >}} 
@@ -133,20 +133,17 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 ### Pay later methods
 
-{{< details title="Using gift cards with pay later methods" >}}
-
 When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
 This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
-{{< /details >}}
-
 ### Custom gift cards
 
-{{< details title="Creating custom gift cards" >}}
 Contact MultiSafepay to develop your own custom gift card! 
+
+{{< details title="Creating custom gift cards" >}}
 
 1. Email a request to <sales@multisafepay.com> 
 2. MultiSafepay:
@@ -166,7 +163,7 @@ Contact MultiSafepay to develop your own custom gift card!
 For support, email <integration@multisafepay.com>
 {{< /details >}}
 
-### Known error
+### Known errors
 
 {{< details title="VVV Cadeaukaart" >}}
 
