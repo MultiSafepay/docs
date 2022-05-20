@@ -17,7 +17,7 @@ This tutorial explains how to build an integration where customers pay through M
 - Step 3: [Handle notifications](/integrations/self-made/handle-notifications)
 - [Next steps](/integrations/self-made/next-steps)
 
-## Prerequisites
+### Prerequisites
 
 Firstly, check that you have completed these prerequisite steps:
 
