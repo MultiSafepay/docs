@@ -95,7 +95,7 @@ To prevent us from emailing the customer, see API reference – [Create order](h
 
 {{< /details >}}
 
-**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/developer/unmasking-ibans/).
+**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/account/unmasking-ibans/).
 
 ### Local MultiSafepay bank accounts
 
@@ -105,18 +105,20 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 {{< details title="Countries with a local MultiSafepay bank account" >}}
 
-- Austria (EUR)
-- Belgium (EUR)
-- Czech Republic (CZK)
-- France (EUR)
-- Germany (EUR)
-- Hungary (HUF)
-- Italy (EUR)
-- Netherlands (EUR)
-- Poland (PLN)
-- Portugal (EUR)
-- Spain (EUR)
-- UK (GBP)
+| Country | Currency |
+|---|---|
+| Austria | EUR |
+| Belgium | EUR |
+| Czech Republic | CZK |
+| France | EUR |
+| Germany | EUR |
+| Hungary | HUF |
+| Italy | EUR |
+| Netherlands | EUR |
+| Poland | PLN |
+| Portugal | EUR |
+| Spain | EUR |
+| UK | GBP |
 
 {{< /details >}}
 
