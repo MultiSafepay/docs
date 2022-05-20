@@ -123,7 +123,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | We've sent the e-mandate to the customer's bank. {{< br >}} You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
-| The customer's bank declined the transaction. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/payment-flow/#reason-codes-for-declined-transactions) below. | Declined | Declined   |
+| The customer's bank declined the transaction. {{< br >}} See the [reason codes](/payment-methods/sepa-direct-debit/#declined-transactions) below. | Declined | Declined   |
 |**Refunds**|||
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed | 
