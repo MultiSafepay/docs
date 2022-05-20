@@ -119,7 +119,7 @@ You can still change an order between approval from Santander and shipment.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Under **Order summary**, click **Change order status**.
 5. Change the status of the initial order to **Shipped**, and then add a **Memo**.
-6. Refund the required amount fully or partially. See [Processing refunds](/payments/methods/billing-suite/betaalpermaand/#processing-refunds).
+6. Refund the required amount [in full or in part](/refunds/full-partial/). 
 
 You cannot increase the amount of the initial order by default. Email a request to <sales@multisafepay.com>
 
@@ -194,11 +194,11 @@ Supported in the following [ready-made integrations](/integrations/ready-made/):
 - [X-Cart](/x-cart/) 
 {{< /details >}}
 
-{{< details title="Gift cards with pay later methods" >}}
+{{< details title="Gift cards" >}}
 
-When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and Betaal per Maand, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
-This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+This is because Santander collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
