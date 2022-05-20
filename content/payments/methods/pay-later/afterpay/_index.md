@@ -109,15 +109,13 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 ### Shipping orders
 
-When you ship the order, you **must** manually change the order status to **Shipped**:
+When you ship the order, you **must** manually change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped** to:
 
-- Captures the funds
-- Triggers sending the invoice to the customer
-- Prevents the order from expiring
+- Capture the funds
+- Trigger sending the invoice to the customer
+- Prevent the order from expiring
 
 {{< details title="Changing order status to Shipped" >}}
-
-You can change the [order status](/about-payments/multisafepay-statuses/) from **Completed** to **Shipped**:
 
 **In your dashboard**
 
@@ -171,11 +169,11 @@ Supported in:
 - [X-Cart](/x-cart/) 
 {{< /details >}}
 
-{{< details title="Gift cards with pay later methods" >}}
+{{< details title="Gift cards" >}}
 
-When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and AfterPay, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
-This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+This is because AfterPay collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
