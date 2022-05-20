@@ -2,8 +2,8 @@
 title: "Google Pay direct integration"
 breadcrumb_title: 'Direct integration'
 weight: 10
-meta_title: "Google Pay direct - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Apple Pay direct"
+meta_title: "Google Pay direct integration - MultiSafepay Docs"
+short_description: "Integrating and testing Google Pay direct"
 layout: 'single'
 url: '/google-pay/direct'
 noindex: '.'
