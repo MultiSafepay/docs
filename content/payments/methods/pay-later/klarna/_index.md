@@ -279,15 +279,13 @@ See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/dispute
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect). |
 
-{{< details title="Gift cards" >}}
+### Gift cards
 
 When paying with a gift card and Klarna, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
 This is because Klarna collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
-
-{{< /details >}}
 
 ### Configuring the Klarna gateway 
 
