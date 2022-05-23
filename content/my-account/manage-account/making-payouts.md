@@ -79,7 +79,7 @@ To set up a new automatic payout, follow these steps:
 
 **Note:** To schedule payouts for different currencies, you must have a MultiSafepay balance and an active business bank account for each currency.
 
-{{< screen src="/img/Screenshot-Automatic-Withdrawals.png" align="center" class="medium-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Automatic-Withdrawals.png" align="center" class="medium-img desktop-radius" >}}
 
 {{< /details >}}
 

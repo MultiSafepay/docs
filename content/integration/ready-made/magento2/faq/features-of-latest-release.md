@@ -87,10 +87,10 @@ Alternatively, you can disable additional checkout fields for these payment meth
 This example shows the differences between the Luma checkout for Afterpay in the deprecated plugin and the new one
 
 Deprecated plugin:
-{{< screen src="/payments/integrations/ecommerce-platforms/magento2/faq/screens/magento2-afterpay-checkout-deprecated.png" align="center" class="desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/integration/ready-made/magento2/faq/screens/magento2-afterpay-checkout-deprecated.png" align="center" class="desktop-radius" >}}
 
 Payment page in the deprecated plugin:
-{{< screen src="/payments/integrations/ecommerce-platforms/magento2/faq/screens/magento2-afterpay-checkout-deprecated-2.png" align="center" class="small-image desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/integration/ready-made/magento2/faq/screens/magento2-afterpay-checkout-deprecated-2.png" align="center" class="small-image desktop-radius" >}}
 
 New plugin:
-{{< screen src="/payments/integrations/ecommerce-platforms/magento2/faq/screens/magento2-afterpay-checkout.png" align="center" class="desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/integration/ready-made/magento2/faq/screens/magento2-afterpay-checkout.png" align="center" class="desktop-radius" >}}
