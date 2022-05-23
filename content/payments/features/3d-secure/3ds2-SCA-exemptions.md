@@ -48,7 +48,7 @@ Dynamic 3D is a MultiSafepay solution that lets you set rules to disable 3DS2 pe
 | | - Provide evidence of significant volumes of non-EU card payments. |
 | | - Specify which sites under your account this applies to. |
 | | - Demonstrate excellent processing performance, especially for chargebacks. |
-| | - Confirm that you understand the increased fraud risk, and the pricing structure. |
+| | - Confirm that you understand the increased risk of [chargebacks](/chargebacks/) and the you accept liability for non-payment after shipment, and the pricing structure. |
 
 ## Flexible 3D 
 
