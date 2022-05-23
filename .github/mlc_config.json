@@ -85,6 +85,9 @@
       },
       {
         "pattern": "https://www\\.wolterskluwer\\.com.*"
+      },
+      {
+        "pattern": "https://taxnl\\.wolterskluwer\\.com.*"
       }
     ],
   "timeout": "120s",
