@@ -135,81 +135,13 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 ## User guide
 
-### Refunds
+### Checkouts
 
-- [MultiSafepay dashboard](/refunds/full-partial/): Full refunds (may not appear in your backend)
--  Magento 1 backend:  
-    - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html)
-    - Refunding more than the original transaction is **not** supported
-- For [pay later methods](/payments/methods/pay-later/), you can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded.
+The plugin is compatible with most Magento 1 checkouts. However, we cannot guarantee that all checkout features will function properly.
 
-{{< details title="Processing backend refunds" >}}
+We test the plugin with Magento 1 core checkout and OneStepCheckout.com (Idev).
 
-1. Sign in to your Magento 1 backend. 
-2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect settings**.
-3. Check that you have:
-    - Entered an [API key](/glossaries/multisafepay-glossary/#api-key)
-    - Enabled the **Credit Memo** option
-4. Search for and open the order you want to refund.
-5. Click the **Invoices** tab on the left of the **Order overview**.
-6. Open the invoice, and click **Credit memo** at the top right of the overview.
-7. Enter the refund amount, and then click **Refund online** to send the request to MultiSafepay.
-
-{{< /details >}}
-
-### Updates
-
-You can update the plugin in your Magento 1 backend or the CMS marketplace, or using SFTP.
-
-{{< details title="Updating via SFTP" >}}
-
-1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [Magento 1 manual](/payments/integrations/ecommerce-platforms/magento1/#manual), download the plugin again.
-3. Follow the Installation and configuration instructions from step 2.
-
-{{< /details >}}
-
-### Surcharges
-
-You can:
-
-- Apply [surcharges](/about-payments/surcharges/) of a percentage or a fixed amount to transactions for every payment method.
-- Set the tax class for surcharges.
-- Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
-- Show surcharges with our without VAT at checkout.
-
-{{< details title="Applying surcharges in your backend" >}}
-
-1. Sign in to your Magento 1 backend.
-2. Select systems and configuration.
-3. In the MultiSafepay module, select the **Option connect** gateway.
-4. Select the relevant payment method.
-5. Under **Payment fee amount**, enter a surcharge percentage or fixed amount. 
-6. Place a test order to verify whether the fee has been correctly processed.
-
-{{< /details >}}
-
-{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
-
-### Generic gateways
-
-The Magento 1 plugin offers 3 [generic gateways](/developer/generic-gateways/) and 3 generic gift cards. Generic gateways support:
-
-- All payment methods
-- Refunds 
-- [Backend](/glossaries/multisafepay-glossary/#backend) orders
-
-You can filter generic gateways by country, and minimum and maximum amount.
-
-{{< details title="Configuring generic gateways" >}}
-
-1. Sign in to your Magento 1 backend. 
-2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect gateways** > **Generic 1/2/3**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
-4. Set how to display the payment method logos. 
-5. For pay later methods, set whether to include the shopping cart.
-
-{{< /details >}}
+**Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
 
 ### Currencies
 
@@ -223,17 +155,17 @@ The default currency is EUR.
 
 {{< /details >}}
 
-### Recurring payments
+### Generic gateways
 
-{{< details title="Enabling recurring payments" >}}
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-1. Sign in to your Magento 1 backend.
-2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
+{{< details title="Configuring generic gateways" >}}
 
-For more information, see [Recurring Payments](/features/recurring-payments).
-
-**Credit cards**
-Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
+1. Sign in to your Magento 1 backend. 
+2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect gateways** > **Generic 1/2/3**.
+3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
+4. Set how to display the payment method logos. 
+5. For pay later methods, set whether to include the shopping cart.
 
 {{< /details >}}
 
@@ -278,11 +210,73 @@ All expired orders retain **Waiting** status until you cancel them:
 
 {{< /details >}}
 
-### Checkouts
+### Recurring payments
 
-The plugin is compatible with most Magento 1 checkouts. However, we cannot guarantee that all checkout features will function properly.
+{{< details title="Enabling recurring payments" >}}
 
-We test the plugin with Magento 1 core checkout and OneStepCheckout.com (Idev).
+1. Sign in to your Magento 1 backend.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
-**Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
+For more information, see [Recurring Payments](/features/recurring-payments).
+
+**Credit cards**
+Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
+
+{{< /details >}}
+
+### Refunds
+
+| | |
+|---|---|
+| MultiSafepay dashboard | Full refunds (may not appear in your backend) |
+| Backend | - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> - Refunding more than the original transaction **not** supported |
+| Pay later methods | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
+
+{{< details title="Processing backend refunds" >}}
+
+1. Sign in to your Magento 1 backend. 
+2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect settings**.
+3. Check that you have:
+    - Entered an [API key](/glossaries/multisafepay-glossary/#api-key)
+    - Enabled the **Credit Memo** option
+4. Search for and open the order you want to refund.
+5. Click the **Invoices** tab on the left of the **Order overview**.
+6. Open the invoice, and click **Credit memo** at the top right of the overview.
+7. Enter the refund amount, and then click **Refund online** to send the request to MultiSafepay.
+
+{{< /details >}}
+
+### Surcharges
+
+You can:
+
+- Apply [surcharges](/about-payments/surcharges/) of a percentage or a fixed amount to transactions for every payment method.
+- Set the tax class for surcharges.
+- Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
+- Show surcharges with our without VAT at checkout.
+
+{{< details title="Applying surcharges in your backend" >}}
+
+1. Sign in to your Magento 1 backend.
+2. Select systems and configuration.
+3. In the MultiSafepay module, select the **Option connect** gateway.
+4. Select the relevant payment method.
+5. Under **Payment fee amount**, enter a surcharge percentage or fixed amount. 
+6. Place a test order to verify whether the fee has been correctly processed.
+
+{{< /details >}}
+
+{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+
+### Updates
+
+You can update the plugin in your Magento 1 backend or the CMS marketplace, or using SFTP.
+
+{{< details title="Updating via SFTP" >}}
+
+1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+2. From the [Magento 1 manual](/payments/integrations/ecommerce-platforms/magento1/#manual), download the plugin again.
+3. Follow the Installation and configuration instructions from step 2.
+
+{{< /details >}}
 

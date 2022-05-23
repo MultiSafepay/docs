@@ -174,52 +174,77 @@ The app is now activated.
 
 ## User guide
 
-### Refunds
+### Changing API keys and environments
 
-- [MultiSafepay dashboard](https://merchant.multisafepay.com): [Full and partial refunds](/payments/refunds/) and credit notes
-- Lightspeed eCom backend:  
-    - Refunds and credit notes 
-    - Refunding more than the original transaction **not** supported
+{{< details title="Changing API keys and between live/test environments" >}}
 
-{{< details title="Enabling refunds in your backend" >}}
+To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
-1. Sign in to your Lightspeed app.
-2. Go to **Settings**.
-3. In the sidebar, click **Enable refunds**.
-4. Select the relevant setting:
-    - Refunds disabled (default)
-    - Refunds enabled:
-        - Create a refund when the credit memo status is **Unpaid** (default when refunds are enabled).
-        - Always create a refund, no matter the credit memo status.
-
-**Notes**
-
-- If you use Lightspeed eCom linked to [Lightspeed Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
-
-- When creating a credit memo, set the status to **Not paid**. If the **Always create a refund, no matter the status** setting is not enabled, MultiSafepay ignores **Paid** status.
-
-**Known issues**
-
-- For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
-
-- Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
-
-- Some [pay later](/payment-methods/pay-later/) methods require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
-
-- Some [pay later](/payment-methods/pay-later/) payment methods do not let you refund a partial amount and a full item in a single request.  
-Example: A shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
-
-- Some [pay later](/payment-methods/pay-later/) payment methods do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
-
-- You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
-
-For any questions, email <integration@multisafepay.com>
+1. Sign in to the app.
+2. Tap the hamburger menu and go to **Environment**.
+3. Edit your **API key** and/or the **Environment**.
 
 {{< /details >}}
 
-### Updates
+### Deleting MultiSafepay
 
-You don't need to manually update the app. 
+After terminating your contract with MultiSafepay, our payment methods may still be visible in your checkout.
+
+{{< details title="Deleting MultiSafepay and removing payment methods" >}}
+
+1. Sign in to your Lightspeed app.
+2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
+3. Click **Go to app**.
+4. Sign in to the MultiSafepay app.
+5. Click **Disable all payment methods**.
+
+{{< /details >}}
+
+### Internationalization
+
+When changing internationalization in your Lightspeed eCom backend, do **not** change the primary language setting while installing the app.  
+
+Lightspeed eCom requires a language, an API key, and a cluster to validate API requests. 
+
+If you remove the language used during installation instead of deactivating it, the app cannot communicate with Lightspeed eCom services.
+
+### Lightspeed shop ID
+
+{{< details title="Viewing your shop ID" >}}
+
+To view your shop ID, follow these steps:
+
+1. Sign in to the **/admin** area of your Lightspeed app.
+2. Click **Help** in the bottom-left corner.
+3. A popup appears containing your shop ID (also known as the store ID).
+
+{{< /details >}}
+
+### Order amounts
+
+{{< details title="Setting maximum/minimum order amounts" >}}
+
+**Setting a maximum/minimum order amount per payment method**
+
+To set a maximum/minimum order amount for a payment method to display on your checkout page, follow these steps:
+
+1. In the **Payment methods ordering** list, click the **+** button to open the relevant payment method.
+2. Enter an amount in EUR cents in the:  
+    - **Maximum** field, e.g. A maximum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **less** then 15 EUR. If you **don't** want a maximum amount, enter **-1**.
+    **OR**
+    - **Minimum** field, e.g. A minimum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **more** then 15 EUR.
+
+**Setting a maximum/minimum order amount per language**
+
+To set different maximum/minimum order amounts for different languages, under the **Payment methods ordering** header > **Country** list, select a country and set the maximum/minimum amount per language.
+
+If no specific rule is set for a language, **Default** language is used.
+
+{{< /details >}}
+
+### Payment links
+
+When you generate a payment link in your [MultiSafepay dashboard](https://merchant.multisafepay.com), you cannot update the [transaction status](/about-payments/multisafepay-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
 
 ### Payment methods
 
@@ -318,6 +343,67 @@ If a payment method is missing:
 
 {{< /details >}}
 
+### Payment reminders
+
+The Lightspeed app doesn't support [Second Chance](/features/second-chance/) emails because Lightspeed orders expire after 12 hours. 
+
+Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed - [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders)
+
+### Refunds
+
+| | |
+|---|---|
+| MultiSafepay dashboard | [Full and partial refunds](/payments/refunds/) and credit notes |
+| Backend | - Refunds and credit notes <br> - Refunding more than the original transaction **not** supported |
+
+{{< details title="Enabling refunds in your backend" >}}
+
+1. Sign in to your Lightspeed app.
+2. Go to **Settings**.
+3. In the sidebar, click **Enable refunds**.
+4. Select the relevant setting:
+    - Refunds disabled (default)
+    - Refunds enabled:
+        - Create a refund when the credit memo status is **Unpaid** (default when refunds are enabled).
+        - Always create a refund, no matter the credit memo status.
+
+**Notes**
+
+- If you use Lightspeed eCom linked to [Lightspeed Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
+
+- When creating a credit memo, set the status to **Not paid**. If the **Always create a refund, no matter the status** setting is not enabled, MultiSafepay ignores **Paid** status.
+
+**Known issues**
+
+- For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
+
+- Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
+
+- Some [pay later](/payment-methods/pay-later/) methods:
+    - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
+    - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
+
+- You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
+
+For any questions, email <integration@multisafepay.com>
+
+{{< /details >}}
+
+### Single sign-on
+
+Lightspeed single sign-on lets you sign in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click or tap the **Login** button.
+
+{{< details title="Signing in with Lightspeed single sign-on" >}}
+
+1. Sign in to the **Admin** section of your Lightspeed store.
+2. In the sidebar, click **Apps**.
+3. Click **Purchased apps**.
+4. In the sidebar, click **Apps**.
+5. Click **MultiSafepay Payments**, **or** to take you straight to the store page, paste **/admin/store/apps/1517** after the base URL of your store.
+6. On the store page, click **Go to app** / **Ga naar app**. 
+
+{{< /details >}}
+
 ### Surcharges
 
 {{< details title="Applying surcharges" >}}
@@ -336,95 +422,6 @@ If a payment method is missing:
 
 We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
-### Single sign-on
+### Updates
 
-Lightspeed single sign-on lets you sign in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click or tap the **Login** button.
-
-{{< details title="Signing in with Lightspeed single sign-on" >}}
-
-1. Sign in to the **Admin** section of your Lightspeed store.
-2. In the sidebar, click **Apps**.
-3. Click **Purchased apps**.
-4. In the sidebar, click **Apps**.
-5. Click **MultiSafepay Payments**, **or** to take you straight to the store page, paste **/admin/store/apps/1517** after the base URL of your store.
-6. On the store page, click **Go to app** / **Ga naar app**. 
-
-{{< /details >}}
-
-### Order amounts
-
-{{< details title="Setting maximum/minimum order amounts" >}}
-
-**Setting a maximum/minimum order amount per payment method**
-
-To set a maximum/minimum order amount for a payment method to display on your checkout page, follow these steps:
-
-1. In the **Payment methods ordering** list, click the **+** button to open the relevant payment method.
-2. Enter an amount in EUR cents in the:  
-    - **Maximum** field, e.g. A maximum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **less** then 15 EUR. If you **don't** want a maximum amount, enter **-1**.
-    **OR**
-    - **Minimum** field, e.g. A minimum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **more** then 15 EUR.
-
-**Setting a maximum/minimum order amount per language**
-
-To set different maximum/minimum order amounts for different languages, under the **Payment methods ordering** header > **Country** list, select a country and set the maximum/minimum amount per language.
-
-If no specific rule is set for a language, **Default** language is used.
-
-{{< /details >}}
-
-### Payment reminders
-
-The Lightspeed app doesn't support [Second Chance](/features/second-chance/) emails because Lightspeed orders expire after 12 hours. 
-
-Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed - [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders)
-
-### Payment links
-
-When you generate a payment link in your [MultiSafepay dashboard](https://merchant.multisafepay.com), you cannot update the [transaction status](/about-payments/multisafepay-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
-
-### Lighspeed shop ID
-
-{{< details title="Viewing your shop ID" >}}
-
-To view your shop ID, follow these steps:
-
-1. Sign in to the **/admin** area of your Lightspeed app.
-2. Click **Help** in the bottom-left corner.
-3. A popup appears containing your shop ID (also known as the store ID).
-
-{{< /details >}}
-
-### Changing API keys and environments
-
-{{< details title="Changing API keys and between live/test environments" >}}
-
-To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
-
-1. Sign in to the app.
-2. Tap the hamburger menu and go to **Environment**.
-3. Edit your **API key** and/or the **Environment**.
-
-{{< /details >}}
-
-### Internationalization
-
-When changing internationalization in your Lightspeed eCom backend, do **not** change the primary language setting while installing the app.  
-
-Lightspeed eCom requires a language, an API key, and a cluster to validate API requests. 
-
-If you remove the language used during installation instead of deactivating it, the app cannot communicate with Lightspeed eCom services.
-
-### Deleting MultiSafepay
-
-After terminating your contract with MultiSafepay, our payment methods may still be visible in your checkout.
-
-{{< details title="Deleting MultiSafepay and removing payment methods" >}}
-
-1. Sign in to your Lightspeed app.
-2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
-3. Click **Go to app**.
-4. Sign in to the MultiSafepay app.
-5. Click **Disable all payment methods**.
-
-{{< /details >}}
+You don't need to manually update the app. 

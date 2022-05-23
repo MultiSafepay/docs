@@ -89,10 +89,10 @@ This rule updates the [transaction status](/about-payments/multisafepay-statuses
 
 ### Refunds
 
-- [MultiSafepay dashboard](/refunds/full-partial/): Full refunds 
-- Drupal 7 backend:  
-    - Full refunds 
-    - Refunding more than the original transaction **not** supported
+| | |
+|---|---|
+| [MultiSafepay dashboard](/refunds/full-partial/) | Full refunds |
+| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
 
 ### Updates
 

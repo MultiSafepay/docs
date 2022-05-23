@@ -111,7 +111,7 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 
 ### Generic gateways
 
-The plugin supports [generic gateways](/developer/generic-gateways/) and generic gift cards, which support all payment methods.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
 {{< details title="Configuring generic gateways" >}}
 
@@ -124,16 +124,11 @@ The plugin supports [generic gateways](/developer/generic-gateways/) and generic
 
 ### Refunds
 
-- [MultiSafepay dashboard](/refunds/full-partial/): 
-    - [Full and partial refunds](/refunds/full-partial/)
-    - Generic gateway transactions
-- Backend:  
-    - Full and partial refunds
-    - Refunding more than the original transaction **not** supported
-    - Generic gateway transactions **not** supported
-- API: [Refund order](https://docs-api.multisafepay.com/reference/refundorder) 
-- [Pay later refunds](/payment-methods/pay-later) **not** supported
-- Discounts **not** supported
+| | |
+|---|---|
+| [MultiSafepay dashboard](/refunds/full-partial/) | - [Full and partial refunds](/refunds/full-partial/) <br> - Generic gateway transactions |
+| Backend | - Full and partial refunds <br> - Refunding more than the original transaction **not** supported <br> - Generic gateway transactions **not** supported |
+| API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/payment-methods/pay-later) **not** supported <br> - Discounts **not** supported |
 
 {{< details title="Processing backend refunds" >}}
 

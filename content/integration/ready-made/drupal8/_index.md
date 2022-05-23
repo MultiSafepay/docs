@@ -99,18 +99,9 @@ composer require drupal/commerce_multisafepay_payments
 
 ## User guide
 
-### Refunds
-
-- [MultiSafepay dashboard](/refunds/full-partial/): Full refunds
-- Drupal 8 or 9 [backend](/glossaries/multisafepay-glossary/#backend):  
-    - Full refunds 
-    - Refunding more than the original transaction **not** supported
-
 ### Generic gateways
 
-The Drupal 8 & 9 plugin offers [generic gateways](/developer/generic-gateways/) that support all payment methods.
-
-You can filter generic gateways by country, and minimum and maximum amount.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
 {{< details title="Configuring generic gateways" >}}
 
@@ -119,6 +110,13 @@ You can filter generic gateways by country, and minimum and maximum amount.
 3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
 
 {{< /details >}}
+
+### Refunds
+
+| | |
+|---|---|
+| [MultiSafepay dashboard](/refunds/full-partial/) | Full refunds |
+| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
 
 ### Updates
 

@@ -1,11 +1,11 @@
 ---
-title : "myShop app for MultiSafepay"
+title : "myShop app"
 meta_title: "myShop app - MultiSafepay Docs"
 logo: "/logo/Integrations/myShop.svg"
 weight: 23
 title_short: "myShop"
 type: 'App'
-description_short: "Free app integrate MultiSafepay payment solutions into your myShop"
+description_short: "Free app integrate MultiSafepay payment solutions with myShop."
 layout: 'single'
 url: '/myshop/'
 aliases: 
@@ -20,11 +20,11 @@ aliases:
     - /ecommerce-platforms/myshop/
 ---
 
-This technical manual is for installing and configuring myShop's free app for integrating MultiSafepay payment solutions into your webshop.
+This technical manual is for installing and configuring myShop's free app for integrating with MultiSafepay.
 
 {{< details title="Support" >}}
-&nbsp;  
-For any technical queries about the app, email myShop at <support@myshop.com>
+ 
+For technical queries about the app, email myShop at <support@myshop.com>
 
 Contact MultiSafepay:
 
@@ -35,58 +35,38 @@ Contact MultiSafepay:
 {{< /details >}}
 
 {{< details title="Requirements" >}}
-&nbsp; 
+&nbsp;  
 You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}
 
-{{< details title="Supported payment methods" >}}
+{{< details title="Payment methods" >}}
 
-**Credit cards**
-
-- [American Express](/payment-methods/amex)
-- [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Dotpay](/payment-methods/dotpay)
-- [EPS](/payment-methods/eps)
-- [Giropay](/payment-methods/giropay)
-- [iDEAL](/payment-methods/ideal)
-- [Maestro](/payment-methods/maestro)
-- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-- [Sofort](/payment-methods/sofort)
-
-**Pay later methods**
-
-+ [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
-
-**Wallets**
-
-+ [PayPal](/payment-methods/paypal)
-
-**Prepaid cards**
-
-+ [123TCS](/payments/methods/prepaid-cards/gift-cards)
-+ [Intersolve](/payments/methods/prepaid-cards/gift-cards)
-+ [Fashioncheque](/payments/methods/prepaid-cards/gift-cards)
-
+- Cards: [American Express](/payment-methods/amex), [Mastercard](/payment-methods/mastercard), and [Visa](/payment-methods/visa)
+- Pay later methods: [Klarna](/payment-methods/klarna) and [Pay After Delivery](/payment-methods/pay-after-delivery)
+- Wallets: [PayPal](/payment-methods/paypal)
+- Prepaid cards: [123TCS](/payments/methods/prepaid-cards/gift-cards), [Intersolve](/payments/methods/prepaid-cards/gift-cards), and [Fashioncheque](/payments/methods/prepaid-cards/gift-cards)
+- Banking methods:
+    - [Bancontact](/payment-methods/bancontact)
+    - [Bank Transfer](/payment-methods/bank-transfer)
+    - [Dotpay](/payment-methods/dotpay)
+    - [EPS](/payment-methods/eps)
+    - [Giropay](/payment-methods/giropay)
+    - [iDEAL](/payment-methods/ideal)
+    - [Maestro](/payment-methods/maestro)
+    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+    - [Sofort](/payment-methods/sofort)
 {{< /details >}}
 
 ## Installation and configuration
 
 {{< blue-notice >}} We recommend first installing the plugin in a test environment, following the MyShop installation procedure. Always make a backup. {{< /blue-notice >}}
 
-1. Sign in to your myShop [backend](/glossaries/multisafepay-glossary/#backend).
+1. Sign in to your myShop backend.
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
-4. Enter your account ID, site ID, and site secure code.  
-    Your account ID appears in the top-right corner of your MultiSafepay dashboard.
-6. If using a test account, select **Test mode**.
-7. Click **Save**.
+4. Enter your [account ID, site ID, and site secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).  
+5. If using a test account, select **Test mode**.
+6. Click **Save**.
 
 
