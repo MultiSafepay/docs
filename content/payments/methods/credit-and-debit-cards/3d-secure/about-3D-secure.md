@@ -45,3 +45,7 @@ Under [PSD2](/payment-regulations/psd2/), MultiSafepay is required to apply 3DS2
 - **Challenge flow:** The transaction appears risky and the customer is asked to provide additional authentication, e.g. password, SMS code, fingerprint.
 
 {{< responsive_svg src="/diagrams/svg/3DS-flow" alt="3D Secure Flow" align="center" title="3D Secure 2.0 flow">}}
+
+## See also
+
+[3DS2 and SCA exemptions](/cards/3ds2/exemptions/)
