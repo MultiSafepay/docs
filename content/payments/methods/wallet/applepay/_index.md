@@ -44,7 +44,7 @@ An additional layer of security is provided by 3D Secure, which requires custome
 | **Payment features**  | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 hour |
 | **Requirements** | Customers must use the Safari browser. <br> An SSL secured connection (HTTPS) is required. |
-| **Payment gateways** | Maestro, Mastercard, and Visa gateways are supported. <br> American Express is **not** supported. |
+| **Payment gateways** | American Express, Maestro, Mastercard, and Visa gateways are supported. |
 
 For more information, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
@@ -114,7 +114,17 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/) |
 | **Apple branding** | When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing). |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** VirtueMart, OsCommerce, X-Cart, and Zen Cart.   |
+
+{{< details title="Ready-made integrations" >}}
+ 
+Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except**:
+
+- OsCommerce
+- VirtueMart 
+- X-Cart
+- Zen Cart
+
+{{< /details >}}
 
 {{< details title="Known errors" >}}
 
@@ -124,10 +134,6 @@ For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout pag
 
 {{< /details >}}
 
-
 {{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
-
-{{< br >}}
-
