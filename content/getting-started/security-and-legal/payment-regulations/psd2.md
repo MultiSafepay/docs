@@ -34,4 +34,4 @@ If transactions aren't appropriately authenticated, banks may have to decline th
 
 ## Exemptions
 
-See [3DS2 and SCA exemptions](/cards/3ds2/exemptions/).
+See [3DS2 and SCA exemptions](/cards/3ds2/#exemptions-from-3ds2-and-sca).
