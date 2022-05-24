@@ -74,7 +74,7 @@ Only administrators can enable 2FA. Follow these steps:
 4. From the **Two-factor** list, select **Enable**.
 5. Click **Save changes**.
 
-{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling two-factor authentication in your MultiSafepay dashboard" align="center" screen_size="desktop" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/gifs/MCP_2FA-1.gif" alt="Enabling two-factor authentication in your MultiSafepay dashboard" align="center" screen_size="desktop" >}}
 
 ### Configuring 2FA
 
@@ -86,7 +86,7 @@ A dialog requesting a 6-digit token appears.
 3. Tap **Authenticator**.
 4. Copy the 6-digit token from your mobile device to the 2FA dialog on your computer or laptop.
 
-{{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token in your MultiSafepay account app" align="center" caption="The 6-digit token remains visible for 30 seconds." screen_size="mobile" >}} 
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token in your MultiSafepay account app" align="center" caption="The 6-digit token remains visible for 30 seconds." screen_size="mobile" >}} 
 
 ## Support
 Email <support@multisafepay.com>
