@@ -1,5 +1,7 @@
 .DS_Store
-/.idea
+
+# ignore all installed nodeJS packages
+node_modules
 
 # ignore vim swap files
 *.swp
