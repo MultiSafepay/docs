@@ -28,7 +28,7 @@ aliases:
 
 3D Secure 2.0 (3DS2) is an authentication protocol card schemes use to verify cardholder identity for online credit and debit card payments. Under [PSD2](/payment-regulations/psd2/), MultiSafepay is required to apply it to **all** Europe-based card payments, and we enable it by default for non-EU payments as well. 
 
-3DS2 provides an extra layer of security and helps reduce fraud-related [chargebacks](/chargebacks/). If transaction passes 3DS2, the card scheme is responsible for chargeback costs instead of you.
+3DS2 provides an extra layer of security and helps reduce fraud-related [chargebacks](/chargebacks/). If a transaction is successfully authenticated using 3DS2, the card scheme is responsible for chargeback costs instead of you.
 
 ## How it works
 
