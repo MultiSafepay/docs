@@ -309,32 +309,32 @@ sdk.setStyles(styles);
 1. The following snapshots walk you through some of the features offered by the Fastcheckout Android/iOS SDK. 
     * Logging in with a registered email: 
         
-      {{< zoom_able class="img-size zoomable" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
+      {{< zoom_able class="img-size zoomable" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
 
     * Logging in with an unregistered email automatically takes the customer to the **Register** screen: 
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-3.png" title="screenshot 3">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-4.png" title="screenshot 4">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-5.png" title="screenshot 5">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-3.png" title="screenshot 3">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-4.png" title="screenshot 4">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-5.png" title="screenshot 5">}}
 
     * If the customer is registered and resets their email account, the SDK automatically sends a new security code to the new email provided: 
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-6.png" title="screenshot 6">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-7.png" title="screenshot 7">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-6.png" title="screenshot 6">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-7.png" title="screenshot 7">}}
 
     * Once the customer enters the security code received by email (if the security code is received via SMS it is automatically added to the appropriate field, and the SDK moves into the following state) the SDK asks for a new security PIN. Having entered the PIN, the SDK provides biometric options (iOS also supports face recognition):
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-8.png" title="screenshot 8">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-9.png" title="screenshot 9">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-8.png" title="screenshot 8">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-9.png" title="screenshot 9">}}
 
     * The checkout process follows. From the webshop checkout, the SDK enters into the checkout process. The first screen is the **Delivery** screen, with shipping options (if available). When the customer clicks **Continue**, the SDK moves to the **Payment** screen and the payment logic follows.
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-10.png" title="screenshot 10">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-11.png" title="screenshot 11">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-10.png" title="screenshot 10">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-11.png" title="screenshot 11">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
     
     * Once the payment process is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. Clicking **Back to shop** redirect the customer back to the webshop.
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}
