@@ -51,13 +51,15 @@ aliases:
 
 {{< responsive_svg src="/diagrams/svg/3DS-flow" alt="3D Secure Flow" align="center" title="3D Secure 2.0 flow">}}
 
-## Exemptions from 3DS2 and SCA
+## Exemptions
 
-To help you optimize conversion and manage risk, MultiSafepay supports several exemptions from 3DS2 and [strong customer authentication](/payment-regulations/psd2/) (SCA).
-
-Under the PSD2, some exemptions are only supported **outside** of Europe.
+To help you optimize conversion and manage risk, MultiSafepay supports exemptions from 3DS2 and [strong customer authentication](/payment-regulations/psd2/) (SCA). Under the PSD2, some exemptions are only supported **outside** of Europe.
 
 {{< alert-notice >}} Exemptions remove an important layer of security and increase the risk of fraud. You are then liable for any fraud-related chargebacks. {{< /alert-notice>}}
+
+### Merchant-initiated transactions
+
+MultiSafepay supports merchant-initiated transactions (MIT) as [recurring payments](/features/recurring-payments).
 
 ### Transaction risk analysis
 
@@ -68,6 +70,12 @@ MultiSafepay can conduct a transaction risk analysis (TRA) for specific transact
 | **Scope** | All EU and non-EU cards  |
 | **Pricing** | Free |
 | **Activation** | Email <sales@multisafepay.com> |
+
+### Low value payments
+
+We will soon support exemptions for low value payments (LVP) under 30&nbsp;EUR.
+
+## Solutions
 
 ### Disabling 3DS2
 MultiSafepay can disable 3DS2 for all your card payments.   
@@ -99,6 +107,3 @@ Flexible 3D is a MultiSafepay solution that lets you enable and disable 3DS2 per
 | **Activation** | Email risk@multisafepay.com |
 | **Integration** | See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order. <br> Set the `type` parameter to `direct`. <br> Include the customer fingerprint data. |
 
-### Coming soon
-
-We will soon support exemptions for low value payments (LVP) under 30&nbsp;EUR.
