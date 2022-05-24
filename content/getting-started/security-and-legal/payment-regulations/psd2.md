@@ -34,9 +34,4 @@ If transactions aren't appropriately authenticated, banks may have to decline th
 
 ## Exemptions
 
-MultiSafepay supports the following exemptions (on request):
-
-- Payments subject to transaction risk analysis (TRA) maximum 250 EUR
-- Low value payments (LVP) under 30 EUR
-
-See [Dynamic 3D](/features/3d-secure/dynamic/).
+See [3DS2 and SCA exemptions](/features/3ds2/exemptions/).
