@@ -101,3 +101,6 @@ To install or migrate, follow these steps:
 5. For existing merchants, you must disable the deprecated individual MultiSafepay payment method gateways under **Admin** > **Settings** > **Payments** > **Third-party payment providers**.
 6. Once testing is complete, disable password protection again.
 
+### Cancelling payments
+
+If a customer cancels a payment to use another payment method instead, they must complete payment within **2 hours** to avoid errors.
