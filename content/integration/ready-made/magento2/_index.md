@@ -111,26 +111,26 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 - Prepaid cards:
     - Baby gift card
     - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Edenred](/payment-methods/edenred)
-    - [Fashioncheque](https://www.fashioncheque.com/nl/)
-    - [Fashion gift card](https://www.fashion-giftcard.nl/)
+    - Boekenbon
+    - Edenred
+    - Fashioncheque
+    - Fashion gift card
     - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
-    - [Givacard](https://www.givacard.nl/)
-    - [Good4fun](https://www.good4fun.nl/)
+    - Gezondheidsbon
+    - Givacard
+    - Good4fun
     - Goodcard
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
-    - [Paysafecard](/payment-methods/paysafecard)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
-    - [Podium](https://www.podiumcadeaukaart.nl/)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl/)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl/)
-    - [Webshop gift card](https://www.webshopgiftcard.nl/)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl/)
+    - Nationale tuinbon
+    - Paysafecard
+    - Parfumcadeaukaart
+    - Podium
+    - Sport en Fit
+    - VVV gift card
+    - Webshop gift card
+    - Wellness gift card
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl/)
-    - [Yourgift](https://www.yourgift.nl)
+    - Winkelcheque
+    - Yourgift
 
 See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 

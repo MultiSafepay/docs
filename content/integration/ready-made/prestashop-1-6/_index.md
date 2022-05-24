@@ -1,9 +1,8 @@
 ---
-title : "MultiSafepay plugin for PrestaShop 1.6"
+title : "PrestaShop 1.6 plugin"
 download_url : "https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip"
 changelog_url : "/integration/ready-made/prestashop-1-6/changelog/"
 changelog: https://docs.multisafepay.com/integration/ready-made/prestashop-1-6/changelog/
-faq: "."
 meta_title: "PrestaShop 1.6 plugin - MultiSafepay Docs"
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 09
@@ -21,11 +20,32 @@ aliases:
     - /integrations/ecommerce-integrations/prestashop-1-6
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/
     - /ecommerce-platforms/prestashop-1-6/
+    - /integrations/prestashop-1-6/faq/payment-fee-surcharges/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/applying-surcharges/
+    - /prestashop-1-6/surcharges/
+    - /integrations/prestashop-1-6/faq/tokenization-prestashop16/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/enabling-tokenization/
+    - /prestashop-1-6/recurring-payments/
+    - /integrations/ecommerce-integrations/prestashop-1-6/faq/order-ids-not-matching/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/matching-orders/
+    - /prestashop-1-6/matching-orders/
+    - /integrations/prestashop-1-6/faq/refunding-prestashop/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/processing-refunds/
+    - /prestashop-1-6/refunds/
+    - /integrations/prestashop-1-6/faq/extra-confirmation-page/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/skipping-extra-confirmation-page/
+    - /prestashop-1-6/skipping-confirmation-page/
+    - /integrations/prestashop-1-6/faq/do-you-support-thirty-bees/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/support-for-thirty-bees/
+    - /prestashop-1-6/thirty-bees/
+    - /integrations/prestashop-1-6/faq/how-can-i-update-the-plugin-for-prestashop-1-6/
+    - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/updating-the-plugin/
+    - /prestashop-1-6/updates/
 ---
 
-{{< alert-notice >}} **Note:** We are phasing out support for our Prestashop 1.6 plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop-1-7/) as soon as possible. {{< /alert-notice >}}
+{{< alert-notice >}} We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop-1-7/) as soon as possible. {{< /alert-notice >}}
 
-This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.6 webshop.
+This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.6.
 
 {{< details title="Support" >}}
 
@@ -45,60 +65,39 @@ Contact us:
 
 {{< /details >}}
 
-{{< details title="Supported payment methods" >}}
+{{< details title="Payment methods" >}}
 
-**Credit and debit cards**
-
-- [American Express](/payment-methods/amex)
-- [Maestro](/payment-methods/maestro)
-- [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Belfius](/payment-methods/belfius)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Dotpay](/payment-methods/dotpay)
-- [EPS](/payment-methods/eps)
-- [Giropay](/payment-methods/giropay)
-- [iDEAL](/payment-methods/ideal)
-- [Request to Pay](/payment-methods/request-to-pay)
-- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-- [Sofort](/payment-methods/sofort)
-
-**Pay later methods**
-
-- [AfterPay](/payment-methods/afterpay)
-- [E-Invoicing](/payment-methods/e-invoicing)
-- [in3](/payment-methods/in3)
-- [Klarna](/payment-methods/klarna)
-- [Pay After Delivery](/payment-methods/pay-after-delivery)
-
-**Wallets**
-
-- [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/apple-pay)
-- [PayPal](/payment-methods/paypal)
-
-**Prepaid cards**
-
-- Beauty and Wellness gift card
-- [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-- [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
-- [Fashioncheque](https://www.fashioncheque.com/nl)
-- [Fashion gift card](https://www.fashion-giftcard.nl)
-- Fietsenbon
-- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-- [Good4fun](https://www.good4fun.nl)
-- [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-- [Paysafecard](/payment-methods/paysafecard)
-- [Sport en Fit](https://www.sportenfitcadeau.nl)
-- [VVV gift card](https://www.vvvcadeaukaarten.nl)
-- [Webshop gift card](https://www.webshopgiftcard.nl)
-- Wijncadeau
-- [Yourgift](https://www.yourgift.nl/)
+- Cards: All
+- Pay later methods: All, except Betaal per Maand
+- Wallets: Alipay, Apple Pay, PayPal
+- Banking methods: 
+    - Bancontact
+    - Bank Transfer
+    - Belfius
+    - CBC/KBC
+    - Dotpay
+    - EPS
+    - Giropay
+    - iDEAL
+    - Request to Pay
+    - SEPA Direct Debit
+    - Sofort
+- Prepaid cards:
+    - Beauty and Wellness gift card
+    - Boekenbon
+    - Degrotespeelgoedwinkel
+    - Fashioncheque
+    - Fashion gift card
+    - Fietsenbon
+    - Gezondheidsbon
+    - Good4fun
+    - Parfumcadeaukaart
+    - Paysafecard
+    - Sport en Fit
+    - VVV gift card
+    - Webshop gift card
+    - Wijncadeau
+    - Yourgift
 
 See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
@@ -109,12 +108,82 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 {{< blue-notice >}} We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup. {{< /blue-notice >}}
 
 1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
-2. Sign in to your PrestaShop 1.6 [backend](/glossaries/multisafepay-glossary/#backend).
+2. Sign in to your PrestaShop 1.6 backend.
 3. Go to **Modules and services** > **Payments and gateways**.  
     **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.
-5. Enter your [API key](/glossaries/multisafepay-glossary/#api-key), and then click **Save**. {{% account_info %}}
+5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then click **Save**.
 6. On the **Payments** tab, enable the relevant payment methods.
 
-**Note:** Payment links generated manually in your MultiSafepay dashboard don't automatically create or update orders in your PrestaShop 1.6 backend.
+## User guide
 
+### Confirmation page
+
+PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
+
+This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](/integration/ready-made/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.1.7.zip). New features might be lost when downgrading.
+
+### Matching orders
+
+In Prestashop 1.6, the order ID is generated after the payment, which causes a mismatch with the order ID in your MultiSafepay dashboard. You can match orders using the transaction ID. 
+
+{{< details title="Viewing transaction IDs" >}}
+
+1. Sign in to your Prestashop 1.6 backend.
+2. Go to **Payment** > **Order details**. 
+
+{{< /details >}}
+
+### Payment links
+
+Payment links generated manually in your MultiSafepay dashboard don't automatically create or update orders in your PrestaShop 1.6 backend.
+
+### Recurring payments
+
+{{< details title="Enabling recurring payments" >}}
+
+To enable [recurring payments](/features/recurring-payments), follow these steps:
+
+1. Sign in to your PrestaShop 1.6 backend. 
+2. Go to **Modules and services** > **Modules and services** > **MultiSafepay**.
+3. Click **Configure**.
+4. Set the **Tokenization** field to **YES**.
+5. Click **Save**.
+
+{{< /details >}}
+
+### Refunds
+
+You can process [full and partial refunds](/refunds/full-partial/) from your MultiSafepay dashboard.  
+Backend refunds are **not** supported.
+
+### Surcharges
+
+[Surcharges](/security-and-legal/payment-regulations/about-surcharges/) are not supported by default.
+
+{{< details title="Applying surcharges with BVK">}}  
+To apply a surcharge or payment fee to a payment method, you can use the third-party [BVK](https://www.bvkyazilim.com/cart/prestashop-modules) package.
+
+The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
+
+**Attention Dutch merchants** 
+
+ We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+
+{{< /details >}}
+
+### Thirty Bees
+
+For support for the Prestashop [Thirty Bees](https://thirtybees.com/blog/what-is-thirty-bees) fork, email <integration@multisafepay.com>
+
+### Updates
+
+You can update the plugin in your backend and the CMS marketplace, or using SFTP.
+
+{{< details title="Updating via SFTP" >}}
+
+1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+2. From the [PrestaShop 1.6 manual](/payments/integrations/ecommerce-platforms/prestashop-1-6/#manual), download the plugin again.
+3. Follow the Installation and configuration instructions from step 2.
+
+{{< /details >}}
