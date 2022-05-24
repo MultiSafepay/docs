@@ -166,7 +166,9 @@ You can provide track-and-trace codes to MultiSafepay:
 
 ### Pauzing the collection period
 
-If the return process takes too long to verify, you can pauze the collection period for 2 to 4 weeks. Contact Betaal per Maand.
+If the return process takes too long to verify, you can pauze the collection period for 2–4 weeks. 
+
+Have your Betaal per Maand client number ready, and email <klantenservice@santander.nl>
 
 ## Activation and integration
 
@@ -202,6 +204,8 @@ The customer's first and last name, and the delivery details must be at least 2 
 We recommend always requiring full names, not initials, abbreviations, or acronyms.
 
 {{< /details >}}
+
+## User guide
 
 ### Gift cards
 
