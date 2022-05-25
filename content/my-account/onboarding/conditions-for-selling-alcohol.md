@@ -25,12 +25,12 @@ If you sell alcohol, you must:
 
 {{< details title="Download a declaration" >}}
 
-- [Dutch merchant declaration](/getting-started/overview/form/NL-Verklaring_alcoholische_dranken.pdf)   
-- [English merchant declaration](/getting-started/overview/form/EN-Declaration_alcoholic_beverages.pdf)  
-- [French merchant declaration](/getting-started/overview/form/FR-Déclaration_des_boissons_alcoolisées.pdf)  
-- [German merchant declaration](/getting-started/overview/form/DE-Erklärung_für_alkoholischen_Getränke.pdf)
-- [Italian merchant declaration](/getting-started/overview/form/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
-- [Spanish merchant declaration](/getting-started/overview/form/ES-Declaración_sobre_bebidas_alcohólicas.docx)  
+- [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
+- [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
+- [French merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-Déclaration_des_boissons_alcoolisées.pdf)  
+- [German merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erklärung_für_alkoholischen_Getränke.pdf)
+- [Italian merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
+- [Spanish merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaración_sobre_bebidas_alcohólicas.docx)  
 
 {{< /details >}}
 
