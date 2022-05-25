@@ -18,21 +18,21 @@ Step 1: Sign in to the **Admin** section of your Lightspeed store.
 
 Step 2: In the sidebar, click **Apps**.
 
-{{< screen src="/payments/integrations/ecommerce-platforms/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/lightspeed_app/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
 Step 3: Click **Purchased apps** / **Aangeschafte apps**.
-{{< screen src="/payments/integrations/ecommerce-platforms/lightspeed_app/faq/img/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/lightspeed_app/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
 
 Step 4: In the sidebar, click **Apps**.
-{{< screen src="/payments/integrations/ecommerce-platforms/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/lightspeed_app/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
 Step 5: Click **MultiSafepay Payments**.
-{{< screen src="/payments/integrations/ecommerce-platforms/lightspeed_app/faq/img/my-apps-click-name.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/lightspeed_app/my-apps-click-name.png" align="center" class="small-img desktop-radius" >}}
 
 **OR**
 Paste **/admin/store/apps/1517** after the base URL of your store to take you straight to the store page.
 
 Step 6: On the store page, click **Go to app** / **Ga naar app**. 
 
-{{< screen src="/payments/integrations/ecommerce-platforms/lightspeed_app/faq/img/app-page.png" align="center" class="small-img desktop-radius">}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/lightspeed_app/app-page.png" align="center" class="small-img desktop-radius">}}
 

@@ -13,7 +13,7 @@ aliases:
 ---
 With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/payment-pages/).
 
-{{< screen src="/img/google-pay-screen.png" align="center" class="small-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/google-pay-screen.png" align="center" class="small-img desktop-radius" >}}
 
 {{< blue-notice >}}
 **Note:** By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
