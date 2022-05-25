@@ -3,7 +3,7 @@ title: 'Bank Transfer'
 weight: 60
 meta_title: "Payment methods - Bank Transfer - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/banktransfer-en.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/banktransfer-en.svg' 
 short_description: 'A secure, trusted, international payment method within the SEPA region.'
 url: '/payment-methods/bank-transfer/'
 aliases: 

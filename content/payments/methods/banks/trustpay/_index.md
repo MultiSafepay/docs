@@ -3,7 +3,7 @@ title: 'TrustPay'
 weight: 120
 meta_title: "Payment methods - TrustPay - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/TrustPay.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/TrustPay.svg' 
 short_description: 'Accept online banking payments from customers in the Czech Republic.'
 url: '/payment-methods/trustpay/'
 aliases:

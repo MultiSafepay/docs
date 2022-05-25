@@ -4,7 +4,7 @@ meta_title: "CCV Shop app - MultiSafepay Docs"
 faq: "."
 type: 'App'
 layout: 'single'
-logo: "/logo/Integrations/CCVShop.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CCVShop.svg"
 weight: 29
 title_short: "CCVShop"
 description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop webshop."

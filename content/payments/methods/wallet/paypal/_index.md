@@ -3,7 +3,7 @@ title: 'PayPal'
 weight: 220
 meta_title: "Payment methods - PayPal - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/PayPal.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/PayPal.svg' 
 short_description: 'Leading global payment method that supports credit cards and a digital wallet.'
 url: '/payment-methods/paypal/'
 aliases:

@@ -1,7 +1,7 @@
 ---
 title : "myShop app for MultiSafepay"
 meta_title: "myShop app - MultiSafepay Docs"
-logo: "/logo/Integrations/myShop.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg"
 weight: 23
 title_short: "myShop"
 type: 'App'

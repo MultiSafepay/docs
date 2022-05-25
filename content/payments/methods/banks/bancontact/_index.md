@@ -3,7 +3,7 @@ title: 'Bancontact'
 weight: 30
 meta_title: "Payment methods - Bancontact - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Bancontact.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Bancontact.svg'
 short_description: 'Leading Belgian payment method for online, mobile app, and POS payments.'
 url: '/payment-methods/bancontact/'
 aliases: 

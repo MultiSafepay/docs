@@ -6,7 +6,7 @@ changelog: https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG
 faq: "."
 type: 'Plugin'
 meta_title: "Drupal 7 plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/Drupal_7.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_7.svg"
 weight: 15
 title_short: "Drupal 7"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop."

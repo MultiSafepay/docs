@@ -10,7 +10,7 @@ meta_title: "Plugin for ScandiPWA - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your ScandiPWA application on Magento 2."
 description : "Free plugin to integrate MultiSafepay payment solutions into your ScandiPWA application on Magento 2."
 weight: 17
-logo: "/logo/Plugins/ScandiPWA.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg"
 url: "/scandipwa/"
 title_short: "ScandiPWA"
 type: "PWA"

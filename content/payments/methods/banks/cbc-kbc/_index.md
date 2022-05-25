@@ -4,7 +4,7 @@ weight: 70
 meta_title: "Payment methods - CBC/KBC - MultiSafepay Docs"
 layout: 'single'
 url: '/payment-methods/cbc-kbc/'
-logo: '/logo/Payment_methods/CBC.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/CBC.svg'
 short_description: 'Accept online banking payments from CBC/KBC customers in Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/cbc

@@ -10,7 +10,7 @@ layout: 'single'
 meta_title: "Odoo plugin - MultiSafepay Docs"		
 meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay payment solutions into your Odoo platform with the free plugin."
 weight: 11
-logo: "/logo/Plugins/Odoo.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
 type: 'Plugin'
 url: '/odoo/'

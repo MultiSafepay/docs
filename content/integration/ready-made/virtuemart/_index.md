@@ -5,7 +5,7 @@ download_url : "https://github.com/MultiSafepay/VirtueMart/releases/download/2.2
 changelog_url : "."
 faq: "."
 meta_title: "VirtueMart plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/VirtueMart.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg"
 weight: 18
 title_short: "VirtueMart"
 type: 'Plugin'

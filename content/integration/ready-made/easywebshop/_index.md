@@ -3,7 +3,7 @@ title : "EasyWebshop app for MultiSafepay"
 meta_title: "EasyWebshop app - MultiSafepay Docs"
 layout: 'single'
 meta_description: "MultiSafepay app for EasyWebshop. Easily integrate MultiSafepay payment solutions into your EasyWebshop platform with the free app."
-logo: "/logo/Integrations/EasyWebshop.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/EasyWebshop.svg"
 weight: 31
 type: 'App'
 title_short: "EasyWebshop"

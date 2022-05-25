@@ -3,7 +3,7 @@ title: 'Request to Pay'
 weight: 60
 meta_title: "Payment methods - Request to Pay - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/RTP.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/RTP.svg'
 short_description: 'Deutsche Bank payment method based on secure SEPA bank transfers.'
 url: '/payment-methods/request-to-pay/'
 aliases:

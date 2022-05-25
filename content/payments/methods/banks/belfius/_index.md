@@ -3,7 +3,7 @@ title: 'Belfius'
 weight: 80
 meta_title: "Payment methods - Belfius - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Belfius.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Belfius.svg' 
 short_description: 'Accept online banking payments from Belfius customers in Belgium.'
 url: '/payment-methods/belfius/'
 aliases:

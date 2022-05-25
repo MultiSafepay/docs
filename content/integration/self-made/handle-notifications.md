@@ -32,7 +32,7 @@ Check the order status in the `status` field. If necessary, update your backend.
 
 Every `POST` notification request includes an HMAC signature that you must use to validate its authenticity. To validate the request, you can either:
 
-{{< two-buttons href-2="https://github.com/MultiSafepay/php-sdk/blob/master/src/Util/Notification.php" text-2="Use our PHP SDK" description-2="Use the notification function from our PHP SDK." img-2="/logo/Integrations/PHP.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="https://github.com/MultiSafepay/php-sdk/blob/master/src/Util/Notification.php" text-2="Use our PHP SDK" description-2="Use the notification function from our PHP SDK." img-2="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PHP.svg" alt-2="Right arrow" >}}
 
 {{< two-buttons href-2="/integrations/self-made/handle-notifications/validate-hmac-signatures" text-2="Validate with your own solution" description-2="Create your own solution to validate HMAC signatures." img-2="/svgs/Wrappers.svg" alt-2="Right arrow" >}}
 

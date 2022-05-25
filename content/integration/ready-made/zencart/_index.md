@@ -5,7 +5,7 @@ download_url : "https://github.com/MultiSafepay/Zencart/releases/download/3.1.0/
 changelog_url : "."
 faq: "."
 meta_title: "ZenCart plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/Zen_Cart.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Zen_Cart.svg"
 weight: 20
 title_short: "Zen Cart"
 type: 'Plugin'

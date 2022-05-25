@@ -5,7 +5,7 @@ meta_title: "PrestaShop 1.7 plugin - MultiSafepay Docs"
 download_url : "https://github.com/MultiSafepay/prestashop-official/releases/download/5.4.2/Plugin_PrestaShop_5.4.2.zip"
 changelog_url : "."
 faq: "."
-logo: "/logo/Plugins/PrestaShop.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.7"
 type: 'Plugin'

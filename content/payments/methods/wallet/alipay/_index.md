@@ -3,7 +3,7 @@ title: 'Alipay'
 weight: 230
 meta_title: "Payment methods - Alipay - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Alipay.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Alipay.svg' 
 short_description: 'Leading global digital wallet for Chinese customers.'
 url: '/payment-methods/alipay/'
 aliases:

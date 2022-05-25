@@ -7,7 +7,7 @@ faq: "."
 repo_url : "MultiSafepay/WooCommerce"
 meta_title: "WooCommerce plugin - MultiSafepay Docs"
 meta_description: "Integrate MultiSafepay payment solutions into your Wordpress WooCommerce webshop. MultiSafepay Docs provides information about getting started, building and testing integrations."
-logo: "/logo/Plugins/WooCommerce.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg"
 weight: 03
 title_short: "WooCommerce"
 type: 'Plugin'

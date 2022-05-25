@@ -2,7 +2,7 @@
 title : "MultiSafepay app for Shopify"
 meta_title: "Shopify app - MultiSafepay Docs"
 faq: "."
-logo: "/logo/Integrations/Shopify.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"
 type: 'App'

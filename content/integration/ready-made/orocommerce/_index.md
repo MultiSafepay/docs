@@ -1,5 +1,5 @@
 ---
-logo: "/logo/Integrations/OroCommerce.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OroCommerce.svg"
 weight: 103
 title_short: "OroCommerce"
 redirect_show_info:

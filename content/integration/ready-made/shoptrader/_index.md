@@ -1,7 +1,7 @@
 ---
 title : "Shoptrader plugin for MultiSafepay"
 meta_title: "Shoptrader plugin - MultiSafepay Docs"
-logo: "/logo/Integrations/Shoptrader.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shoptrader.svg"
 weight: 26
 title_short: "Shoptrader"
 type: 'Plugin'

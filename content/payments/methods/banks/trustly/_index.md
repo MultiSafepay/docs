@@ -3,7 +3,7 @@ title: 'Trustly'
 weight: 130
 meta_title: "Payment methods - Trustly - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Trustly.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Trustly.svg' 
 short_description: 'Accept online banking payments from a number of European countries.'
 url: '/payment-methods/trustly/'
 aliases:

@@ -6,7 +6,7 @@ intro_description: "ING Home'Pay is an online payment method for ING customers i
 layout: 'single'
 short_description: 'Discontinued by ING on December 6, 2021.'
 url: '/payment-methods/ing-home-pay/'
-logo: '/logo/Payment_methods/ING_Homepay.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/ING_Homepay.svg'
 aliases:
     - /support-tab/magento2/payment-methods/ing-home-pay
     - /payment-methods/ing-home-pay/

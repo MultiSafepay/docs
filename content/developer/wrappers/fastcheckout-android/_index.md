@@ -3,7 +3,7 @@ title : "FastCheckout Android SDK"
 meta_title: "FastCheckout Android SDK - MultiSafepay Docs"
 meta_description: "MultiSafepay SDK for Android. Easily integrate MultiSafepay payment solutions into your Android platform with the free SDK"
 github_url: "https://github.com/MultiSafepay/fastcheckout-android-sdk"
-logo: "/logo/Integrations/Fastcheckout_Android.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Fastcheckout_Android.svg"
 weight: 16
 title_short: "FastCheckout Android SDK"
 layout: 'single'

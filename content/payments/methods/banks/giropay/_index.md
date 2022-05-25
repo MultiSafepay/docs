@@ -3,7 +3,7 @@ title: 'Giropay'
 weight: 140
 meta_title: "Payment methods - Giropay - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Giropay.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Giropay.svg' 
 short_description: 'Leading payment method in Germany connecting all major German banks.'
 url: '/payment-methods/giropay/'
 aliases:

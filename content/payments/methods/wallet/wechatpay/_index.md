@@ -3,7 +3,7 @@ title: 'WeChat Pay'
 weight: 240
 meta_title: "Payment methods - WeChat Pay - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/wechat.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/wechat.svg' 
 short_description: 'Accept WeChat Pay payments via QR codes'
 url: '/payment-methods/wechat-pay/'
 aliases:

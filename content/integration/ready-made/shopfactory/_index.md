@@ -2,7 +2,7 @@
 title : "Shopfactory plugin for MultiSafepay"
 meta_title: "ShopFactory plugin - MultiSafepay Docs"
 faq: "."
-logo: "/logo/Integrations/ShopFactory.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ShopFactory.svg"
 weight: 24
 title_short: "ShopFactory"
 type: 'Plugin'

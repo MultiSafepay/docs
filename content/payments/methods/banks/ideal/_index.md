@@ -3,7 +3,7 @@ title: 'iDEAL'
 weight: 10
 meta_title: "Payment methods - iDEAL - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/iDeal.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/iDeal.svg' 
 short_description: 'Leading Dutch payment method connecting all major retail banks.'
 url: '/payment-methods/ideal/'
 aliases:

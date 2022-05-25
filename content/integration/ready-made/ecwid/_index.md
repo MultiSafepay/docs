@@ -1,7 +1,7 @@
 ---
 title : "Ecwid integration for MultiSafepay"
 meta_title: "Ecwid integration - MultiSafepay Docs"
-logo: "/logo/Integrations/Ecwid.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Ecwid.svg"
 weight: 12
 title_short: "Ecwid"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."

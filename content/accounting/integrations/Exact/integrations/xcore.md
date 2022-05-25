@@ -2,7 +2,7 @@
 title: "xCore"
 weight: 20
 meta_title: "Accounting integrations - xCore - MultiSafepay Docs"
-logo: '/logo/accounting/xcore.png'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/accounting/xcore.png'
 layout: 'single'
 title_short: "xCore"
 read_more: "."

@@ -1,7 +1,7 @@
 ---
 title : "Logic4 plugin for MultiSafepay"
 meta_title: "Logic4 plugin - MultiSafepay Docs"
-logo: "/logo/Integrations/Logic_4.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg"
 weight: 28
 title_short: "Logic4"
 type: 'Plugin'

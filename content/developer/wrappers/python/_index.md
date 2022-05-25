@@ -1,5 +1,5 @@
 ---
-logo: "/logo/Integrations/Python.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Python.svg"
 weight: 40
 title_short: "Python"
 redirect_show_info:

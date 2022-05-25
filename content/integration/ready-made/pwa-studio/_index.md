@@ -10,7 +10,7 @@ meta_title: "Plugin for PWA Studio (Venia) - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your PWA Studio application ."
 description : "Free plugin with GraphQL support to integrate MultiSafepay payment solutions into your PWA Studio (Venia) application."
 weight: 17
-logo: "/logo/Plugins/Magento_PWA.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg"
 url: "/pwa-studio/"
 title_short: "PWA Studio (Venia)"
 type: "PWA"

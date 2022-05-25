@@ -6,7 +6,7 @@ faq: "."
 changelog: https://docs.multisafepay.com/integration/ready-made/oscommerce/changelog/
 meta_title: "OsCommerce plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your OsCommerce platform"
-logo: "/logo/Plugins/OsCommerce.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OsCommerce.svg"
 weight: 17
 title_short: "OsCommerce"
 type: 'Plugin'

@@ -2,7 +2,7 @@
 title : "Mijnwebwinkel app for MultiSafepay"
 meta_title: "Mijnwebwinkel app - MultiSafepay Docs"
 faq: "."
-logo: "/logo/Integrations/Mijnwebwinkel.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Mijnwebwinkel.svg"
 weight: 25
 type: 'App'
 title_short: "Mijnwebwinkel"

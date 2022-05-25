@@ -3,7 +3,7 @@ title: 'Pay After Delivery'
 weight: 20
 meta_title: "Payment methods - Pay After Delivery - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Pay_After_Delivery.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Pay_After_Delivery.svg' 
 short_description: "A MultiSafepay pay later method for Dutch merchants."
 url: '/payment-methods/pay-after-delivery/'
 aliases:

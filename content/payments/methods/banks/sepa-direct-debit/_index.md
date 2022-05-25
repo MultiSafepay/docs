@@ -3,7 +3,7 @@ title: 'SEPA Direct Debit'
 weight: 90
 meta_title: "Payment methods - SEPA Direct Debit - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/directdebit-en.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/directdebit-en.svg' 
 short_description: 'Debit European customers directly from their bank account.'
 url: '/payment-methods/sepa-direct-debit/'
 aliases:

@@ -6,7 +6,7 @@ changelog_url: '.'
 changelog: https://lightspeed.multisafepay.com/changelog
 layout: 'single'
 type: 'App'
-logo: "/logo/Integrations/Lightspeed.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed app"
 url: '/lightspeed/'

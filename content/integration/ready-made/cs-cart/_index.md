@@ -6,7 +6,7 @@ faq: "."
 changelog: "https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md"
 meta_title: "CS-Cart plugin - MultiSafepay Docs"
 type: 'Plugin'
-logo: "/logo/Plugins/CS-Cart.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/CS-Cart.svg"
 weight: 13
 title_short: "CS-Cart"
 layout: 'single'

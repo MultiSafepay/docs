@@ -3,7 +3,7 @@ title: Paysafecard
 weight: 250
 meta_title: "Payment methods - Paysafecard - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Paysafecard.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Paysafecard.svg'
 short_description: 'Accept online payments using secure prepaid vouchers.'
 url: '/payment-methods/paysafecard/'
 aliases:

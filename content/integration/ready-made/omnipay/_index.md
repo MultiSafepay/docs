@@ -1,5 +1,5 @@
 ---
-logo: "/logo/Integrations/Omnipay.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Omnipay.svg"
 weight: 102
 title_short: "Omnipay"
 redirect_show_info:

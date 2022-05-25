@@ -3,7 +3,7 @@ title: Edenred
 weight: 260
 meta_title: "Payment methods - Edenred - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/edenred.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/edenred.svg'
 short_description: "Accept payments using Edenred vouchers."
 url: '/payment-methods/edenred/'
 aliases:

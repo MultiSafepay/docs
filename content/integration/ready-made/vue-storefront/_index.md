@@ -10,7 +10,7 @@ meta_title: "Vue Storefront plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Vue Storefront application."
 description : "Free plugin to integrate MultiSafepay payment solutions into your Vue Storefront application."
 weight: 17
-logo: "/logo/Plugins/Vue_Storefront.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg"
 title_short: "Vue Storefront"
 type: "PWA"
 url: "/vue-storefront/"

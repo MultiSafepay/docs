@@ -3,7 +3,7 @@ title: 'Apple Pay'
 weight: 230
 meta_title: "Payment methods - Apple Pay - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/Apple.svg' 
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg' 
 short_description: "Digital wallet for online and in-app payments from Apple devices."
 url: '/payment-methods/apple-pay/'
 aliases:
@@ -134,6 +134,6 @@ For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout pag
 
 {{< /details >}}
 
-{{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}

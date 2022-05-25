@@ -1,7 +1,7 @@
 ---
 title : "LogiVert app for MultiSafepay"
 meta_title: "LogiVert app - MultiSafepay Docs"
-logo: "/logo/Integrations/LogiVert.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/LogiVert.svg"
 weight: 27
 title_short: "LogiVert"
 type: 'App'

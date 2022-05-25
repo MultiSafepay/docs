@@ -3,7 +3,7 @@ title: EPS
 weight: 110
 meta_title: "Payment methods - EPS - MultiSafepay Docs"
 layout: 'single'
-logo: '/logo/Payment_methods/EPS.svg'
+logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/EPS.svg'
 short_description: 'Accept online banking payments from customers of all Austrian banks.'
 url: '/payment-methods/eps/'
 aliases:
