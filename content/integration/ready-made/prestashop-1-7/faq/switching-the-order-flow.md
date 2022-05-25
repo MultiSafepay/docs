@@ -13,7 +13,7 @@ Both of these flows have their upsides and downsides.
 
 In the first flow, the order confirmation emails are sent before the payment is finalized, unless you disable this. Also orders that are initialized by a customer but not completed will eventually receive the status: "Cancelled".
 
-In the second flow, the order is being created through a notification send by MultiSafepay or by a customer going to the confirmation page. In some very rare scenario's this could cause orders to be created twice. Also because the order does not exist yet we are using the cart id instead of order reference to create the order within MultiSafepay.
+In the second flow, the order is being created through a notification send by MultiSafepay. After payment the customer will be redirected to the order confirmation page, and if the notification has not been processed yet, it will show a waiting page with a loader, while the order is being created. Also because the order does not exist yet we are using the cart id instead of order reference to create the order within MultiSafepay.
 
 To change the flow you are using, follow these steps:
 
