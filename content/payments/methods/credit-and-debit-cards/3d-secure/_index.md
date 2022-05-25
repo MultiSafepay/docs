@@ -49,8 +49,6 @@ aliases:
 - **Frictionless flow:** The transaction appears legitimate and is authorized without further user-side authentication. 
 - **Challenge flow:** The transaction appears risky and the cardholder is asked to provide additional authentication, e.g. password, SMS code, fingerprint.
 
-{{< responsive_svg src="/diagrams/svg/3DS-flow" alt="3D Secure Flow" align="center" title="3D Secure 2.0 flow">}}
-
 ## Exemptions
 
 To help you optimize conversion and manage risk, MultiSafepay supports exemptions from 3DS2 and [strong customer authentication](/payment-regulations/psd2/) (SCA). Under the PSD2, some exemptions are only supported **outside** of Europe.
@@ -59,7 +57,9 @@ To help you optimize conversion and manage risk, MultiSafepay supports exemption
 
 ### Merchant-initiated transactions
 
-MultiSafepay supports merchant-initiated transactions (MIT) as [recurring payments](/features/recurring-payments).
+Merchant-initiated transactions are [recurring payments](/features/recurring-payments) initiated by the merchant on behalf of the customer, based on a prior agreement. Examples of merchant-initiated transactions include subscription payments and automatic balance top-ups. 
+
+Merchant-initiated transactions do not require 3D Secure 2.0 authentication.
 
 ### Transaction risk analysis
 
