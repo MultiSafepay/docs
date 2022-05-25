@@ -78,6 +78,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/updating-the-plugin/
     - /magento-2/updates/
 ---
+{{< alert-notice >}} If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible. {{< /alert-notice >}}
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 2.
 
@@ -99,177 +100,6 @@ Contact us:
 - [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments
 
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
-
-{{< /details >}}
-
-{{< details title="Payment methods" >}}
-
-- Cards: All
-- Banking methods: All
-- Pay later methods: All
-- Wallets: All
-- Prepaid cards:
-    - Baby gift card
-    - Beauty and Wellness gift card
-    - Boekenbon
-    - Edenred
-    - Fashioncheque
-    - Fashion gift card
-    - Fietsenbon
-    - Gezondheidsbon
-    - Givacard
-    - Good4fun
-    - Goodcard
-    - Nationale tuinbon
-    - Paysafecard
-    - Parfumcadeaukaart
-    - Podium
-    - Sport en Fit
-    - VVV gift card
-    - Webshop gift card
-    - Wellness gift card
-    - Wijncadeau
-    - Winkelcheque
-    - Yourgift
-
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
-{{< /details >}}
-
-### Deprecated version
-If you are still using the [deprecated plugin](https://github.com/MultiSafepay/Magento2Msp), we recommend upgrading to the latest version as soon as possible.
-
-{{< details title="Why upgrade?" >}}
-
-The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases [conversion](/glossaries/multisafepay-glossary/#conversion-rate).
-
-We support most Magento functionalities. For any questions, email <integration@multisafepay.com>
-
-**New features**
-
-- Improved:
-    - Magento backend configuration, including support information
-    - Translations
-    - Error handling, and event and error logs
-- Documentation for payment methods 
-- Modular setup for greater installation flexibility
-- PWA (GraphQL) endpoints
-- Support for [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) (replace [recurring payments](/features/recurring-payments/))
-
-**Configuration fields**
-
-We have removed or altered the following configuration fields. 
-
-If you want a field from the deprecated plugin back, email <integration@multisafepay.com>
-
-_Emailing invoices to customers_
-
-This feature now uses a Magento core configuration field: **Sales** > **Sales emails** > **Invoice** > **Enabled**.
-
-_Order statuses and flow_
-
-As of version 2.16, you can assign the following MultiSafepay statuses to a Magento order status:
-
-- Cancelled
-- Chargeback
-- Declined
-- Expired
-- Initialized
-- Partial refunded
-- Refunded
-- Reserved
-- Uncleared
-- Void
-
-We have updated the order status flow from version 2.5.0:
-
-- All new orders first receive **Pending** status.
-- When redirecting the customer, the status changes to **Pending payment**, until the customer reaches your success page. 
-- If the payment is succesfully received at this point, the status changes to **Processing**. 
-- Around the same time, the webhook is triggered and the invoice is created. The webhook changes the status to **Processing** (if it isn't already). 
-- For bank transfers, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
-
-_Payment links_ 
-
-Payment links are now generated automatically. 
-
-_Reset gateway_  
-
-When creating an order in your Magento 2 backend, you can now select the MultiSafepay payment gateway instead. The payment gateway displays all active payment gateways to the customer based on the site settings in your MultiSafepay account. 
-
-To enable or disable the gateway on your checkout page, we have added a **Can use checkout** configuration field.
-
-_Keep cart alive_  
-
-The cart is now always kept alive when the customer clicks **Back** on the MultiSafepay payment page.
-
-_Checkout_
-
-We have changed the default payment flow from [redirect to direct](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) for:
-
-- AfterPay, E-Invoicing, in3, Pay After Delivery 
-- Direct Debit, Request to Pay
-
-We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL issuers checkout field and the new checkout fields for these payment methods.
-
-Alternatively, you can disable additional checkout fields for these payment methods and change the flow back to redirect. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways** > **Gateway** > **Additional checkout fields**.
-
-{{< /details >}}
-
-{{< details title="Deleting the deprecated plugin" >}}
-
-Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
-
-You can refund transactions processed through the deprecated plugin in your [MultiSafepay dashboard](https://merchant.multisafepay.com), but **not** from your Magento 2 backend.
-
-The way you delete the deprecated plugin depends on the way you installed it:
-
-**Composer**
-
-There are two options:
-
-Option 1: Remove the code base
-
-``` 
-composer remove multisafepay/magento2msp
-php bin/magento setup:upgrade
-```
-
-Option 2: Do a complete uninstall
-
-This includes removing database entries and configuration.
-``` 
-bin/magento module:uninstall MultiSafepay_Connect --remove-data --clear-static-content
-php bin/magento setup:upgrade
-```
-
-_Backups_
-
-You can back up certain parts of the plugin by adding the following parameters: 
-
-- `--backup-code`
-- `--backup-media`
-- `--backup-db`
-
-For information about all parameters, see Magento - [Uninstall modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst).
-
-**app/code**
-
-**1.** Disable the plugin:
-``` 
-php bin/magento module:disable --clear-static-content
-php bin/magento setup:upgrade
-```
-
-**2.** To remove the code base, delete the app/code/MultiSafepay/Connect directory:
-```
-cd app/code/MultiSafepay
-rm -rf Connect
-```
-
-**Marketplace**
-
-If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
 
 {{< /details >}}
 
@@ -341,10 +171,10 @@ This section contains the following pages:
   - Here you can configure all gateways and gift cards.  
   - Enter your [account ID, site ID, site secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).   
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
-    - Make sure you have activated your selected payment methods in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+    - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
 - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
-    - Make sure you have activated your selected gift cards in your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
-    - For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
+    - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
+    - For more information, see [Gift cards](/payment-methods/gift-cards).
 
 {{< /details >}}
 
@@ -479,7 +309,7 @@ The order status in Magento 2 changes to **Cancelled** before the payment can be
 
 The plugin supports [Payment Components](/payment-components/), which:
 
-- Provide a seamless checkout experience to increase [conversion](/glossaries/multisafepay-glossary/#conversion-rate).
+- Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 
@@ -558,6 +388,42 @@ You cannot add payment links to order confirmation emails created in your **fron
 
 {{< /details >}}
 
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [All](/payment-methods/wallets/)
+- Prepaid cards:
+    - Baby gift card
+    - Beauty and Wellness gift card
+    - Boekenbon
+    - Edenred
+    - Fashioncheque
+    - Fashion gift card
+    - Fietsenbon
+    - Gezondheidsbon
+    - Givacard
+    - Good4fun
+    - Goodcard
+    - Nationale tuinbon
+    - Paysafecard
+    - Parfumcadeaukaart
+    - Podium
+    - Sport en Fit
+    - VVV gift card
+    - Webshop gift card
+    - Wellness gift card
+    - Wijncadeau
+    - Winkelcheque
+    - Yourgift
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+
+{{< /details >}}
+
 ### Progressive web apps
 
 The plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional [GraphQL support module](https://github.com/MultiSafepay/magento2-graphql).
@@ -570,7 +436,7 @@ We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](
 |  |   |
 |---|---|
 | MultiSafepay dashboard | - Full and partial refunds <br> - Orders with [Fooman surcharges](/payments/integrations/ecommerce-platforms/magento2/faq/applying-surcharges/) <br> - Orders from the deprecated plugin |
-| Backend | - Full and partial refunds, and credit memos <br> - Refunding more than the original transaction **not** supported |
+| Backend | - Full and partial refunds, and credit memos <br> - You can't refund more than the original amount in your backend |
 | API | - See [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund <br> - PATCH requests **not** supported |
 
 {{< / details >}}
@@ -613,13 +479,13 @@ To avoid this, match the order lifetime to the [payment link](/payment-links/) l
 
 ### Shipping orders
 
-When you ship [pay later](/payments/methods/pay-later/) orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship [pay later](/payment-methods/pay-later/) orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
 ### Surcharges
 
-[Surcharges](/security-and-legal/payment-regulations/about-surcharges/) are no longer supported.
+[Surcharges](/surcharges/) are no longer supported.
 
 {{< details title="Using Fooman for surcharges" >}}
 
@@ -627,19 +493,15 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 
 **Refunds**
 
-You can refund orders with a Fooman surcharge applied in your [MultiSafepay dashboard](https://merchant.multisafepay.com), but not from your Magento 2 backend. 
+You can refund orders with a Fooman surcharge applied in your MultiSafepay dashboard, but not from your Magento 2 backend. 
 
 **Pay later methods**
 
-For Dutch merchants, we strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+For Dutch merchants, We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
 
 **Support**
 
 The Integration Team will do their best to support you with installing Fooman, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
-
-**PSD2 implications**
-
-See [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).
 
 {{< /details >}}
 
@@ -691,4 +553,142 @@ php bin/magento setup:di:compile
     - Empty static files when running in production mode.
     - Clear your cache.
 
+{{< /details >}}
+
+### Upgrading 
+If you are still using the [deprecated plugin](https://github.com/MultiSafepay/Magento2Msp), we recommend upgrading to the latest version as soon as possible.
+
+{{< details title="Why upgrade?" >}}
+
+The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases conversion.
+
+We support most Magento functionalities. For any questions, email <integration@multisafepay.com>
+
+**New features**
+
+- Improved:
+    - Magento backend configuration, including support information
+    - Translations
+    - Error handling, and event and error logs
+- Documentation for payment methods 
+- Modular setup for greater installation flexibility
+- PWA (GraphQL) endpoints
+- Support for [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) (replace [recurring payments](/features/recurring-payments/))
+
+**Configuration fields**
+
+We have removed or altered the following configuration fields. 
+
+If you want a field from the deprecated plugin back, email <integration@multisafepay.com>
+
+_Emailing invoices to customers_
+
+This feature now uses a Magento core configuration field: **Sales** > **Sales emails** > **Invoice** > **Enabled**.
+
+_Order statuses and flow_
+
+As of version 2.16, you can assign the following MultiSafepay statuses to a Magento order status:
+
+- Cancelled
+- Chargeback
+- Declined
+- Expired
+- Initialized
+- Partial refunded
+- Refunded
+- Reserved
+- Uncleared
+- Void
+
+We have updated the order status flow from version 2.5.0:
+
+- All new orders first receive **Pending** status.
+- When redirecting the customer, the status changes to **Pending payment**, until the customer reaches your success page. 
+- If the payment is succesfully received at this point, the status changes to **Processing**. 
+- Around the same time, the webhook is triggered and the invoice is created. The webhook changes the status to **Processing** (if it isn't already). 
+- For bank transfers, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
+
+_Payment links_ 
+
+Payment links are now generated automatically. 
+
+_Reset gateway_  
+
+When creating an order in your Magento 2 backend, you can now select the MultiSafepay payment gateway instead. The payment gateway displays all active payment gateways to the customer based on the site settings in your MultiSafepay account. 
+
+To enable or disable the gateway on your checkout page, we have added a **Can use checkout** configuration field.
+
+_Keep cart alive_  
+
+The cart is now always kept alive when the customer clicks **Back** on the MultiSafepay payment page.
+
+_Checkout_
+
+We have changed the default payment flow from [redirect to direct](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) for:
+
+- AfterPay, E-Invoicing, in3, Pay After Delivery 
+- Direct Debit, Request to Pay
+
+We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL issuers checkout field and the new checkout fields for these payment methods.
+
+Alternatively, you can disable additional checkout fields for these payment methods and change the flow back to redirect. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways** > **Gateway** > **Additional checkout fields**.
+
+{{< /details >}}
+
+{{< details title="Deleting the deprecated plugin" >}}
+
+Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
+
+You can refund transactions processed through the deprecated plugin in your MultiSafepay dashboard, but **not** from your Magento 2 backend.
+
+The way you delete the deprecated plugin depends on the way you installed it:
+
+**Composer**
+
+There are two options:
+
+Option 1: Remove the code base
+
+``` 
+composer remove multisafepay/magento2msp
+php bin/magento setup:upgrade
+```
+
+Option 2: Do a complete uninstall
+
+This includes removing database entries and configuration.
+``` 
+bin/magento module:uninstall MultiSafepay_Connect --remove-data --clear-static-content
+php bin/magento setup:upgrade
+```
+
+_Backups_
+
+You can back up certain parts of the plugin by adding the following parameters: 
+
+- `--backup-code`
+- `--backup-media`
+- `--backup-db`
+
+For information about all parameters, see Magento - [Uninstall modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst).
+
+**app/code**
+
+**1.** Disable the plugin:
+``` 
+php bin/magento module:disable --clear-static-content
+php bin/magento setup:upgrade
+```
+
+**2.** To remove the code base, delete the app/code/MultiSafepay/Connect directory:
+```
+cd app/code/MultiSafepay
+rm -rf Connect
+```
+
+**Marketplace**
+
+If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
+
+{{< /details >}}
 {{< /details >}}

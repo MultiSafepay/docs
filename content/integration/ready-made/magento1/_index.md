@@ -53,11 +53,9 @@ aliases:
     - /magento-1/updates/
 ---
 
-{{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).{{< /alert-notice >}}
+{{< alert-notice >}} Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).{{< /alert-notice >}}
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 1 via SFTP upload.
-
-You can also install the plugin via .ZIP file upload in Connect.
+This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 1.
 
 MultiSafepay supports most Magento functionalities. For any questions, email <integration@multisafepay.com>
 
@@ -82,45 +80,18 @@ Our Magento 1 plugin is professionally supported by a certified Magento 1 Soluti
 
 {{< /details >}}
 
-{{< details title="Payment methods" >}}
-
-- Cards: All except V Pay
-- Banking methods: All, **except** TrustPay
-- Pay later methods: All
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
-- Prepaid cards:
-    - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
-    - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Good4fun](https://www.good4fun.nl)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
-    - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl)
-
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
-{{< /details >}}
-
 ## Installation
 
- 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
- 2. Unpack the content of the .ZIP file in the root of your webshop.
- 3. Sign in to your Magento 1 backend.
- 4. Go to **System** > **Configuration** > **Cache**, and clear your invalid cache.
- 5. Move all files and folders from Plugin_Magento_x.x.x to the root.  
- 6. Add the content of the app, lib, and media folders to the existing folders with the same name.
- 7. Sign out.
+These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
+
+{{< blue-notice >}} Make sure you have a backup of your production environment, and that you test the plugin in a staging environment. {{< /blue-notice >}}
+
+1. Unpack the content of the .ZIP file in the root of your webshop.
+2. Sign in to your Magento 1 backend.
+3. Go to **System** > **Configuration** > **Cache**, and clear your invalid cache.
+4. Move all files and folders from Plugin_Magento_x.x.x to the root.  
+5. Add the content of the app, lib, and media folders to the existing folders with the same name.
+6. Sign out.
 
 ## Configuration
 1. Sign in to your Magento 1 backend.
@@ -173,13 +144,13 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 The status of all complete orders automatically changes to **Shipped** in order to collect funds from pay later payment methods.
 
-#### Checkout fields for Klarna
+{{< details title="Disabling Klarna checkout fields" >}}
 
 Klarna requires the customer's gender and date of birth. By default, the customer enters their birthday in the Magento checkout in the Klarna payment method fields, and their gender is automatically populated by the core Magento field.
 
 You can disable both fields in the checkout. The customer enters this information on the MultiSafepay payment page instead.
 
-{{< details title="Disabling Klarna checkout fields" >}}
+**Disabling Klarna checkout fields**
 
 This change is only for Magento developers. We recommend testing the change and placing it in your local folder.
 
@@ -191,13 +162,45 @@ This change is only for Magento developers. We recommend testing the change and 
 
 {{< /details >}}
 
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/) except V Pay
+- Banking methods: [All](/payment-methods/banks/), **except** TrustPay
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Prepaid cards:
+    - Beauty and Wellness gift card
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Fashioncheque](https://www.fashioncheque.com/nl)
+    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+    - [Good4fun](https://www.good4fun.nl)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - [Paysafecard](/payment-methods/paysafecard)
+    - [Podium](https://www.podiumcadeaukaart.nl)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
+    - [Webshop gift card](https://www.webshopgiftcard.nl)
+    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl)
+    - [Yourgift](https://www.yourgift.nl)
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+
+{{< /details >}}
+
 ### Picquer
 
 {{< details title="Enabling compatibility with Picquer" >}}
 
 To make the MultiSafepay Magento 1 plugin compatible with Picqer, follow two additional steps, because orders must not receive **Cancelled** status.
 
-1. In your Magento 1 [backend](/glossaries/multisafepay-glossary/#backend), go to the MultiSafepay Connect settings.
+1. In your Magento 1 backend, go to the MultiSafepay Connect settings.
 2. Link **Expired** status to **Waiting** status.
 2. Open `app\code\community\MultiSafepay\Msp\Model\Base.php`, and then copy the file to the local folder in the Magento structure.
 3. Find the line `$order > cancel();` at the expired signal and remove it.
@@ -225,19 +228,21 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 {{< /details >}}
 
 ### Refunds
-
+{{< details title="Refund rules" >}}
 | | |
 |---|---|
 | MultiSafepay dashboard | Full refunds (may not appear in your backend) |
-| Backend | - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> - Refunding more than the original transaction **not** supported |
+| Backend | - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> - You can't refund more than the original amount |
 | Pay later methods | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
+
+{{< /details >}}
 
 {{< details title="Processing backend refunds" >}}
 
 1. Sign in to your Magento 1 backend. 
 2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect settings**.
 3. Check that you have:
-    - Entered an [API key](/glossaries/multisafepay-glossary/#api-key)
+    - Entered an API key
     - Enabled the **Credit Memo** option
 4. Search for and open the order you want to refund.
 5. Click the **Invoices** tab on the left of the **Order overview**.
@@ -250,7 +255,7 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 
 You can:
 
-- Apply [surcharges](/about-payments/surcharges/) of a percentage or a fixed amount to transactions for every payment method.
+- Apply [surcharges](/surcharges/) of a percentage or a fixed amount to transactions for every payment method.
 - Set the tax class for surcharges.
 - Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
 - Show surcharges with our without VAT at checkout.
@@ -266,17 +271,22 @@ You can:
 
 {{< /details >}}
 
-{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 ### Updates
 
-You can update the plugin in your Magento 1 backend or the CMS marketplace, or using SFTP.
+You can update the plugin in your Magento 1 backend or the CMS marketplace, or via SFTP.
 
 {{< details title="Updating via SFTP" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [Magento 1 manual](/payments/integrations/ecommerce-platforms/magento1/#manual), download the plugin again.
+2. Download the plugin again above.
 3. Follow the Installation and configuration instructions from step 2.
 
 {{< /details >}}
 
+### Upgrading
+
+Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. 
+
+For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).

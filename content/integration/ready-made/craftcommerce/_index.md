@@ -30,20 +30,14 @@ aliases:
     - /craft-commerce/craft-commerce-2/
 ---
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3 via Composer.
+This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3.
 
-You can also install the plugin via the [Craft Plugin Store](https://plugins.craftcms.com/multisafepay).
-
-For support for Craft Commerce 2, email <integration@multisafepay.com>  
-
-{{< details title="Features" >}}
+### Features
  
 - Support for separate payment methods, pay later methods, and gift cards
 - Partial and full refunds for all payment methods, except pay later
 - Customizable order statuses
-- Shipment notifications for pay later methods
-
-{{< /details >}}
+- Shipment notifications for pay later methods 
 
 {{< details title="Requirements" >}}
  
@@ -54,6 +48,8 @@ For support for Craft Commerce 2, email <integration@multisafepay.com>
 {{< /details >}}
 
 {{< details title="Support" >}}
+
+For support for Craft Commerce 2, email <integration@multisafepay.com> 
  
 Contact MultiSafepay:
 
@@ -63,35 +59,9 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
-{{< details title="Payment methods" >}}
-
-- Cards: All, **except** Postepay and V Pay
-- Banking methods: All
-- Pay later methods: All
-- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
-- Prepaid cards:
-    - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
-    - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
-    - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl/)
-
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
-{{< /details >}}
-
 ## Installation
+
+These instructions are for installing the plugin via Composer. You can also install via the [Craft Plugin Store](https://plugins.craftcms.com/multisafepay).
 
 Run the following commands in the CLI:
 
@@ -122,12 +92,42 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 {{< /details >}}
 
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/), **except** Postepay and V Pay
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
+- Prepaid cards:
+    - Beauty and Wellness gift card
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Fashioncheque](https://www.fashioncheque.com/nl)
+    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - [Podium](https://www.podiumcadeaukaart.nl)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
+    - [Webshop gift card](https://www.webshopgiftcard.nl)
+    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl)
+    - [Yourgift](https://www.yourgift.nl/)
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+
+{{< /details >}}
+
 ### Refunds
 
 | | |
 |---|---|
-| [MultiSafepay dashboard](/refunds/full-partial/) | - [Full and partial refunds](/refunds/full-partial/) <br> - Generic gateway transactions |
-| Backend | - Full and partial refunds <br> - Refunding more than the original transaction **not** supported <br> - Generic gateway transactions **not** supported |
+| MultiSafepay dashboard | - [Full and partial refunds](/refunds/full-partial/) <br> - Generic gateway transactions |
+| Backend | - Full and partial refunds <br> - You can't refund more than the original amount in your backend <br> - Generic gateway transactions **not** supported |
 | API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/payment-methods/pay-later) **not** supported <br> - Discounts **not** supported |
 
 {{< details title="Processing backend refunds" >}}

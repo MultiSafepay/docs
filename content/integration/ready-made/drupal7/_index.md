@@ -46,10 +46,34 @@ Contact us:
 
 {{< /details >}}
 
+## Installation and configuration
+
+{{< blue-notice >}} Make sure you have a backup of your production environment, and that you test the plugin in a staging environment. {{< /blue-notice >}}
+
+1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
+2. Sign in to your Drupal 7 backend.
+3. Go to **Site settings** > **Modules**. 
+4. Enable the Commerce MultiSafepay JSON module, and your selected payment method modules. 
+5. Click **Save configuration**.
+6. Go to **Store settings** > **Advanced store settings** > **Payment methods**.
+7. **Enable** the `multisafepay` core module.
+8. **Enable** the modules for each payment method.
+9. To configure each payment method, under **Actions**, click the **Edit** button.
+10. When the main module is installed, two rules are created but disabled by default:  
+    - MultiSafepay order paid in full: Order state to `processing`  
+This rule sets the order to `processing` when the order is paid in full.  
+
+    - MultiSafepay order complete: Shipped at MultiSafepay  
+This rule updates the [transaction status](/about-payments/multisafepay-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
+
+## User guide
+
+### Payment methods
+
 {{< details title="Payment methods" >}}
 
-- Cards: All
-- Banking methods: All, **except** iDEAL QR and Trustly
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/), **except** iDEAL QR and Trustly
 - Pay later methods: [E-Invoicing](/payment-methods/e-invoicing), [Klarna](/payment-methods/klarna), [Pay After Delivery](/payment-methods/pay-after-delivery)
 - Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/applepay), [PayPal](/payment-methods/paypal)
 - Prepaid cards: 
@@ -66,42 +90,19 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 {{< /details >}}
 
-## Installation and configuration
-
-1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
-3. Sign in to your Drupal 7 backend.
-4. Go to **Site settings** > **Modules**. 
-5. Enable the Commerce MultiSafepay JSON module, and your selected payment method modules. 
-6. Click **Save configuration**.
-7. Go to **Store settings** > **Advanced store settings** > **Payment methods**.
-8. **Enable** the `multisafepay` core module.
-9. **Enable** the modules for each payment method.
-10. To configure each payment method, under **Actions**, click the **Edit** button.
-11. When the main module is installed, two rules are created but disabled by default:  
-    - MultiSafepay order paid in full: Order state to `processing`  
-This rule sets the order to `processing` when the order is paid in full.  
-
-    - MultiSafepay order complete: Shipped at MultiSafepay  
-This rule updates the [transaction status](/about-payments/multisafepay-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
-
-## User guide
-
 ### Refunds
 
-| | |
-|---|---|
-| [MultiSafepay dashboard](/refunds/full-partial/) | Full refunds |
-| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
+[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backed.  
+Refunding more than the original amount is **not** supported in your backend.
 
 ### Updates
 
-You can update the plugin in your backend or the CMS marketplace, or using SFTP.
+You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 {{< details title="Updating via SFTP" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [Drupal 7 manual](/drupal-7/), download the plugin again.
+2. Download the plugin again above.
 3. Follow the Installation and configuration instructions from step 2.
 
 {{< /details >}}

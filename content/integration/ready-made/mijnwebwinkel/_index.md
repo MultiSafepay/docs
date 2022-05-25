@@ -24,6 +24,12 @@ aliases:
 ---
 This technical manual is for installing and configuring Mijnwebwinkel's free app for MultiSafepay. 
 
+{{< details title="Requirements" >}}
+&nbsp;  
+You will need a [MultiSafepay account](/getting-started/guide/).
+
+{{< /details >}}
+
 {{< details title="Support" >}}
 &nbsp;  
 See Mijnwebwinkel:
@@ -40,15 +46,24 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
-{{< details title="Requirements" >}}
-&nbsp;  
-You will need a [MultiSafepay account](/getting-started/guide/).
+## Installation and configuration
 
-{{< /details >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup. {{< /blue-notice >}}
+
+1. Sign in to your Mijwebwinkel backend.
+2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
+2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+6. Select the relevant payment methods.
+
+## User guide
+
+### Payment methods
 
 {{< details title="Payment methods" >}}
 
 - Cards: [Mastercard](/payment-methods/mastercard) and [Visa](/payment-methods/visa)
+- Pay later methods: [Klarna](/payment-methods/klarna)
+- Wallets: [PayPal](/payment-methods/paypal)
 - Banking methods: 
     - [Bancontact](/payment-methods/bancontact)
     - [Bank Transfer](/payment-methods/bank-transfer)
@@ -57,8 +72,6 @@ You will need a [MultiSafepay account](/getting-started/guide/).
     - [Maestro](/payment-methods/maestro)
     - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
     - [Sofort](/payment-methods/sofort)
-- Pay later methods: [Klarna](/payment-methods/klarna)
-- Wallets: [PayPal](/payment-methods/paypal)
 - Prepaid cards:
     - [Baby Cadeaubon](https://www.babycadeaubon.nl)
     - Beauty & Wellness
@@ -81,18 +94,7 @@ You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}
 
-## Installation and configuration
-
-{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup. {{< /blue-notice >}}
-
-1. Sign in to your Mijwebwinkel backend.
-2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
-2. Add your MultiSafepay account ID, site ID, site security code, and [API key](/glossaries/multisafepay-glossary/#api-key).
-6. Select the relevant payment methods.
-
-## User guide
-
-### Changing payment method order
+{{< details title="Changing payment method order in checkout">}} 
 
 To change the order of payment methods in your checkout, follow these steps:
 
@@ -100,9 +102,11 @@ To change the order of payment methods in your checkout, follow these steps:
 2. Select **Sort manually, defined below**.
 3. Drag and drop the active payment methods to change the order.
 
+{{< /details >}}
+
 ### Surcharges
 
-[Surcharges](/security-and-legal/payment-regulations/about-surcharges/) are supported.
+[Surcharges](/surcharges/) are supported.
 
-{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+{{< alert-notice >}} **For Dutch merchants** <br>  We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 

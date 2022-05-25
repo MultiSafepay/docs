@@ -33,6 +33,14 @@ aliases:
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Odoo. 
 
+{{< details title="Requirements" >}}
+
+- [MultiSafepay account](/getting-started/guide/)
+- Odoo 13.0
+- Tested on Python 3.6
+
+{{< /details >}}
+
 {{< details title="Support" >}}
 
 Contact us:
@@ -42,36 +50,6 @@ Contact us:
 - GitHub: Create a technical issue
 
 The plugin receives regular updates from Odoo and MultiSafepay.
-
-{{< /details >}}
-
-{{< details title="Requirements" >}}
-
-- [MultiSafepay account](/getting-started/guide/)
-- Odoo 13.0
-- Tested on Python 3.6
-
-{{< /details >}}
-
-{{< details title="Payment methods" >}}
-
-- Cards: All
-- Pay later methods: All
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
-- Banking methods:
-    - [Bancontact](/payment-methods/bancontact)
-    - [Bank Transfer](/payment-methods/bank-transfer)
-    - [Belfius](/payment-methods/belfius)
-    - [CBC/KBC](/payment-methods/cbc-kbc)
-    - [Dotpay](/payment-methods/dotpay)
-    - [EPS](/payment-methods/eps)
-    - [Giropay](/payment-methods/giropay)
-    - [iDEAL](/payment-methods/ideal)
-    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-    - [Sofort](/payment-methods/sofort)
-    - [Trustly](/payment-methods/trustly)
-
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 
@@ -131,6 +109,30 @@ The plugin supports generic gateways, which redirect customers from your checkou
 2. Go to **Invoicing** > **Payment method** > **Other payment acquirer** > **MultiSafepay**.
 3. In the **Title** field, set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids). 
 4. Set the gateway logo and name.
+
+{{< /details >}}
+
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Banking methods:
+    - [Bancontact](/payment-methods/bancontact)
+    - [Bank Transfer](/payment-methods/bank-transfer)
+    - [Belfius](/payment-methods/belfius)
+    - [CBC/KBC](/payment-methods/cbc-kbc)
+    - [Dotpay](/payment-methods/dotpay)
+    - [EPS](/payment-methods/eps)
+    - [Giropay](/payment-methods/giropay)
+    - [iDEAL](/payment-methods/ideal)
+    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
+    - [Sofort](/payment-methods/sofort)
+    - [Trustly](/payment-methods/trustly)
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
 

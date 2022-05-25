@@ -46,16 +46,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 {{< alert-notice>}} If you are still using the [deprecated plugin](https://github.com/MultiSafepay/prestashop), we recommend upgrading to the latest version as soon as possible. {{< /alert-notice >}}
 
-{{< details title="Support" >}}
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-{{< /details >}}
-
 {{< details title="Requirements" >}}
 
 - [MultiSafepay account](/getting-started/guide/)
@@ -66,47 +56,17 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 {{< /details >}}
 
-{{< details title="Supported versions" >}}
+{{< details title="Support" >}}
 
-- 1.7.6
-- 1.7.7
-- 1.7.8
+We support versions 1.7.6, 1.7.7, 1.7.8.
 
 To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop releases](https://github.com/MultiSafepay/prestashop/releases).
 
-{{< /details >}}
+Contact us:
 
-{{< details title="Payment methods" >}}
-
-- Cards: All
-- Banking methods: All
-- Pay later methods: All
-- Wallets: All
-- Prepaid cards:
-    - Baby Giftcard
-    - Beauty and wellness
-    - Boekenbon
-    - Degrotespeelgoedwinkel
-    - Fashioncheque
-    - Fashion gift card
-    - Fietsenbon
-    - Gezondheidsbon
-    - Givacard
-    - Good4fun
-    - Goodcard
-    - Nationale tuinbon
-    - Parfumcadeaukaart
-    - Paysafecard
-    - Podium
-    - Sport en Fit
-    - VVV gift card
-    - Webshop gift card
-    - Wellness gift card
-    - Wijncadeau
-    - Winkelcheque
-    - Yourgift
-
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
 
 {{< /details >}}
 
@@ -187,6 +147,42 @@ For support, email <integration@multisafepay.com>
 
 {{< /details >}}
 
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [All](/payment-methods/wallets/)
+- Prepaid cards:
+    - Baby Giftcard
+    - Beauty and wellness
+    - Boekenbon
+    - Degrotespeelgoedwinkel
+    - Fashioncheque
+    - Fashion gift card
+    - Fietsenbon
+    - Gezondheidsbon
+    - Givacard
+    - Good4fun
+    - Goodcard
+    - Nationale tuinbon
+    - Parfumcadeaukaart
+    - Paysafecard
+    - Podium
+    - Sport en Fit
+    - VVV gift card
+    - Webshop gift card
+    - Wellness gift card
+    - Wijncadeau
+    - Winkelcheque
+    - Yourgift
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+
+{{< /details >}}
+
 ### Recurring payments
 
 {{< details title="Enabling recurring payments" >}}
@@ -204,10 +200,8 @@ To enable [Recurring Payments](/features/recurring-payments), follow these steps
 
 ### Refunds
 
-| | |
-|---|---|
-| MultiSafepay dashboard | Full and partial refunds | 
-| Backend | - Full and partial refunds <br> - [Pay later refunds](/payment-methods/pay-later/) **not** supported |
+[Full and partial refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.  
+[Pay later refunds](/payment-methods/pay-later/) are only supported in your dashboard.
     
 {{< details title="Disabling API refunds" >}}
 
@@ -240,14 +234,14 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 ### Surcharges
 
-[Surcharges](/security-and-legal/payment-regulations/about-surcharges/) are not supported by default.
+[Surcharges](/surcharges/) are not supported by default.
 
 {{< details title="Applying surcharges with third-party add-ons" >}}
 There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
 **Attention Dutch merchants** 
 
-We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 {{< /details >}}
 
@@ -276,7 +270,7 @@ To translate the names of payment methods:
 {{< details title="Updating in your backend" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [PrestaShop 1.7 manual](/prestashop-1-7/), download the plugin again.
+2. Download the plugin again above.
 3. Follow the [Installation](/prestashop-1-7/#installation) instructions.
 
 {{< /details >}}

@@ -22,6 +22,12 @@ aliases:
 
 This technical manual is for installing and configuring myShop's free app for integrating with MultiSafepay.
 
+{{< details title="Requirements" >}}
+&nbsp;  
+You will need a [MultiSafepay account](/getting-started/guide/).
+
+{{< /details >}}
+
 {{< details title="Support" >}}
  
 For technical queries about the app, email myShop at <support@myshop.com>
@@ -31,12 +37,6 @@ Contact MultiSafepay:
 - Telephone: +31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
-
-{{< /details >}}
-
-{{< details title="Requirements" >}}
-&nbsp;  
-You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}
 

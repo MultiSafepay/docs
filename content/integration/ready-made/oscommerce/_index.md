@@ -32,6 +32,16 @@ aliases:
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with OsCommerce.
 
+{{< details title="Requirements" >}}
+
+- [MultiSafepay account](/getting-started/guide/)
+- OsCommerce 2.3
+- Tested on PHP 7.0
+
+**Note:** Version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
+
+{{< /details >}}
+
 {{< details title="Support" >}}
 
 For support, contact OsCommerce.
@@ -44,17 +54,25 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
-{{< details title="Requirements" >}}
+## Installation and configuration
 
-- [MultiSafepay account](/getting-started/guide/)
-- OsCommerce 2.3
-- Tested on PHP 7.0
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
 
-{{< /details >}}
+{{< /blue-notice >}}
+
+1. Unpack the content of the .ZIP file in the root of your webshop.
+2. Sign in to your OsCommerce backend.
+3. Go to **Modules** > **Payment**.
+4. Click **Install modules** in the top-right corner.
+5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then complete the other fields as required.
+
+## User guide
+
+### Payment methods
 
 {{< details title="Payment methods" >}}
 
-- Cards: All
+- Cards: [All](/payment-methods/credit-debit-cards/)
 - Pay later methods: [E-Invoicing](/payment-methods/e-invoicing), [Klarna](/payment-methods/klarna), [Pay After Delivery](/payment-methods/pay-after-delivery)
 - Wallets: [PayPal](/payment-methods/paypal)
 - Banking methods:
@@ -90,37 +108,19 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 {{< /details >}}
 
-## Installation and configuration
-
-{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup. 
-
-Plugin version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
-
-{{< /blue-notice >}}
-
-1. Unpack the content of the .ZIP file in the root of your webshop.
-2. Sign in to your OsCommerce backend.
-3. Go to **Modules** > **Payment**.
-4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then complete the other fields as required.
-
-## User guide
-
 ### Refunds
 
-| | |
-|---|---|
-| MultiSafepay dashboard | Full refunds | 
-| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
+[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.  
+You can't refund more than the original amount in your backend.
 
 ### Updates
 
-You can update the plugin in your backend or the CMS marketplace, or using SFTP.
+You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 {{< details title="Updating via SFTP" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [OsCommerce manual](/integrations/oscommerce/manual), download the plugin again.
+2. Download the plugin again above.
 3. Follow the Installation and configuration instructions from step 2.
 
 {{< /details >}}

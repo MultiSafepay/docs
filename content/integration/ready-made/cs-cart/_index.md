@@ -43,17 +43,41 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 &nbsp; 
 Contact us:
 
-- Telephone:     -31 (0)20 8500 500
+- Telephone: -31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
 
 {{< /details >}}
 
+## Installation
+
+{{< blue-notice >}} Make sure you have a backup of your production environment, and that you test the plugin in a staging environment. {{< /blue-notice >}}
+
+1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
+2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
+3. Delete the `msp_installer.php` file.
+4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/integrations/self-made/configure-your-webhook/).
+
+## Configuration
+1. Sign in to your CS-Cart backend.
+2. Go to **Administration** > **Payment methods**.
+3. To add payment methods, click the **    -** button.
+4. In the next screen, enter a name for the payment method to display during checkout. 
+5. In the **Processing unit** field, specify the payment method. 
+6. Fill out the other fields as required, and click **Create**.
+7. In the **Configure** tab, enter your [account ID, site ID, and site code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). 
+
+Extra options such as **IP-Validation** and **debugmode** are intended for developers. Leave them unchanged.
+
+## User guide
+
+### Payment methods
+
 {{< details title="Payment methods" >}}
 
-- Cards: All
-- Banking methods: All
-- Pay later methods: All except in3
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/) except in3
 - Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -78,33 +102,9 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 {{< /details >}}
 
-## Installation
-
-1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
-3. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
-4. Delete the `msp_installer.php` file.
-5. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/integrations/self-made/configure-your-webhook/).
-
-## Configuration
-1. Sign in to your CS-Cart backend.
-2. Go to **Administration** > **Payment methods**.
-3. To add payment methods, click the **    -** button.
-4. In the next screen, enter a name for the payment method to display during checkout. 
-5. In the **Processing unit** field, specify the payment method. 
-6. Fill out the other fields as required, and click **Create**.
-7. In the **Configure** tab, enter your [account ID, site ID, and site code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). 
-
-Extra options such as **IP-Validation** and **debugmode** are intended for developers. Leave them unchanged.
-
-## User guide
-
 ### Refunds
 
-| | |
-|---|---|
-| [MultiSafepay dashboard](/refunds/full-partial/) | Full refunds |
-| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
+[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.   Refunding more than the original amount is **not** supported in your backend.
 
 ### Surcharges
 
@@ -112,16 +112,16 @@ You can apply surcharges when configuring the payment method under **Surcharge**
 
 {{< alert-notice >}} **Attention Dutch merchants**  
 
-We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 ### Updates
 
-You can update the plugin in your CS-Cart backend or the CMS marketplace, or using SFTP.
+You can update the plugin in your CS-Cart backend or the CMS marketplace, or via SFTP.
 
 {{< details title="Updating via SFTP" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [CS-Cart manual](/payments/integrations/ecommerce-platforms/cs-cart/#manual), download the plugin again.
+2. Download the plugin again above.
 3. Follow the Installation instructions from step 2 and then the Configuration instructions.
 
 {{< /details >}}

@@ -45,16 +45,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
 
-{{< details title="Support" >}}
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-{{< /details >}}
-
 {{< details title="Requirements" >}}
 
 - [MultiSafepay account](/getting-started/guide/)
@@ -63,33 +53,13 @@ Contact us:
 
 {{< /details >}}
 
-{{< details title="Payment methods" >}}
+{{< details title="Support" >}}
 
-- Cards: All 
-- Banking methods: All, except TrustPay
-- Pay later methods: All
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
-- Prepaid cards:
-    - [Baby Cadeaubon](https://www.babycadeaubon.nl)
-    - Beauty & Wellness
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashion Cheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
-    - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
-    - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl/)
+Contact us:
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
 
 {{< /details >}}
 
@@ -195,12 +165,42 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 {{< /details >}}
 
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/) 
+- Banking methods: [All](/payment-methods/banks/), except TrustPay
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Prepaid cards:
+    - [Baby Cadeaubon](https://www.babycadeaubon.nl)
+    - Beauty & Wellness
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Fashion Cheque](https://www.fashioncheque.com/nl)
+    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - [Paysafecard](/payment-methods/paysafecard)
+    - [Podium](https://www.podiumcadeaukaart.nl)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
+    - [Webshop gift card](https://www.webshopgiftcard.nl)
+    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl)
+    - [Yourgift](https://www.yourgift.nl/)
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+
+{{< /details >}}
+
 ### Refunds
 
-| | |
-|---|---|
-| MultiSafepay dashboard | Full refunds | 
-| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
+[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.  
+You can't refund more than the original amount in your backend.
 
 {{< details title="Processing backend refunds" >}}
 
@@ -218,7 +218,7 @@ If you notice any errors in shopping cart calculations, email <integration@multi
 As a temporary solution, you can disable payments with shopping carts.
 {{< details title="Disabling shopping carts" >}}
 
-**Alert:** This disables all [Pay later methods](/payment-methods/pay-later/).
+**Alert:** This disables all [pay later methods](/payment-methods/pay-later/).
 
 1. Sign in to your OpenCart backend.
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.
@@ -230,9 +230,10 @@ As a temporary solution, you can disable payments with shopping carts.
 
 ### Surcharges
 
-Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is no longer supported, but you can request a patch. Email <integration@multisafepay.com> 
+[Surcharges](/surcharges/) are no longer supported, but you can request a patch.  
+Email <integration@multisafepay.com> 
 
-{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
+{{< alert-notice >}} **Attention Dutch merchants** <br>  We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 ### Updates
 
@@ -256,6 +257,6 @@ To update the plugin using the extension installer tool in your OpenCart backend
 {{< details title="Updating version 2.1.0 or below">}}
 1. For security, create a backup of your OpenCart application.
 2. Manually remove all files from the MultiSafepay extension using an FTP program or server file administration program.
-3. See the [OpenCart manual](/payments/integrations/ecommerce-platforms/opencart/) and follow the installation instructions.
+3. Follow the [installation](/opencart/#installation) instructions above.
 
 {{< /details >}}

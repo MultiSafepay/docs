@@ -47,6 +47,14 @@ aliases:
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.6.
 
+{{< details title="Requirements" >}}
+
+- [MultiSafepay account](/getting-started/guide/)
+- PrestaShop 1.6
+- Tested on PHP 7.0
+
+{{< /details >}}
+
 {{< details title="Support" >}}
 
 Contact us:
@@ -57,31 +65,49 @@ Contact us:
 
 {{< /details >}}
 
-{{< details title="Requirements" >}}
+## Installation and configuration
 
-- [MultiSafepay account](/getting-started/guide/)
-- PrestaShop 1.6
-- Tested on PHP 7.0
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup. {{< /blue-notice >}}
+
+1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
+2. Sign in to your PrestaShop 1.6 backend.
+3. Go to **Modules and services** > **Payments and gateways**.  
+    **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
+4. In the next screen, proceed with the installation.
+5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then click **Save**.
+6. On the **Payments** tab, enable the relevant payment methods.
+
+## User guide
+
+### Confirmation page
+
+{{< details title="Skipping the confirmation page" >}}
+
+PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
+
+This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](/integration/ready-made/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.1.7.zip). New features might be lost when downgrading.
 
 {{< /details >}}
 
+### Payment methods
+
 {{< details title="Payment methods" >}}
 
-- Cards: All
-- Pay later methods: All, except Betaal per Maand
-- Wallets: Alipay, Apple Pay, PayPal
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Pay later methods: [All](/payment-methods/pay-later/), except Betaal per Maand
+- Wallets: [Alipay](/payment-methods/alipay/), [Apple Pay](/payment-methods/apple-pay/), [PayPal](/payment-methods/paypal/)
 - Banking methods: 
-    - Bancontact
-    - Bank Transfer
-    - Belfius
-    - CBC/KBC
-    - Dotpay
-    - EPS
-    - Giropay
-    - iDEAL
-    - Request to Pay
-    - SEPA Direct Debit
-    - Sofort
+    - [Bancontact](/payment-methods/bancontact/)
+    - [Bank Transfer](/payment-methods/bank-transfer)
+    - [Belfius](/payment-methods/belfius/)
+    - [CBC/KBC](/payment-methods/cbc-kbc/)
+    - [Dotpay](/payment-methods/dotpay/)
+    - [EPS](/payment-methods/eps/)
+    - [Giropay](/payment-methods/giropay/)
+    - [iDEAL](/payment-methods/ideal/)
+    - [Request to Pay](/payment-methods/request-to-pay/)
+    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit/)
+    - [Sofort](/payment-methods/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - Boekenbon
@@ -102,26 +128,6 @@ Contact us:
 See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
 
 {{< /details >}}
-
-## Installation and configuration
-
-{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup. {{< /blue-notice >}}
-
-1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
-2. Sign in to your PrestaShop 1.6 backend.
-3. Go to **Modules and services** > **Payments and gateways**.  
-    **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
-4. In the next screen, proceed with the installation.
-5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then click **Save**.
-6. On the **Payments** tab, enable the relevant payment methods.
-
-## User guide
-
-### Confirmation page
-
-PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
-
-This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](/integration/ready-made/prestashop-1-6/releases/Plugin_PrestaShop1.6_3.1.7.zip). New features might be lost when downgrading.
 
 ### Matching orders
 
@@ -159,7 +165,7 @@ Backend refunds are **not** supported.
 
 ### Surcharges
 
-[Surcharges](/security-and-legal/payment-regulations/about-surcharges/) are not supported by default.
+[Surcharges](/surcharges/) are not supported by default.
 
 {{< details title="Applying surcharges with BVK">}}  
 To apply a surcharge or payment fee to a payment method, you can use the third-party [BVK](https://www.bvkyazilim.com/cart/prestashop-modules) package.
@@ -168,7 +174,7 @@ The Integration Team will do their best to support you with installing BVK, but 
 
 **Attention Dutch merchants** 
 
- We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+ We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
 
 {{< /details >}}
 
@@ -178,12 +184,12 @@ For support for the Prestashop [Thirty Bees](https://thirtybees.com/blog/what-is
 
 ### Updates
 
-You can update the plugin in your backend and the CMS marketplace, or using SFTP.
+You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
 {{< details title="Updating via SFTP" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [PrestaShop 1.6 manual](/payments/integrations/ecommerce-platforms/prestashop-1-6/#manual), download the plugin again.
+2. Download the plugin again above.
 3. Follow the Installation and configuration instructions from step 2.
 
 {{< /details >}}

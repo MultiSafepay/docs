@@ -46,7 +46,7 @@ You will need a [MultiSafepay account](/getting-started/guide/).
     - [iDEAL and iDEAL QR](/payment-methods/ideal)
     - [Sofort](/payment-methods/sofort)
     - [Trustly](/payment-methods/trustly)
-- Pay later methods: All, **except** E-Invoicing
+- Pay later methods: [All](/payment-methods/pay-later/), **except** E-Invoicing
 - Wallets: [PayPal](/payment-methods/paypal)
 
 {{< /details >}}

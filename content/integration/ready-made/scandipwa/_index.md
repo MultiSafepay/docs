@@ -39,10 +39,10 @@ For support:
 
 {{< details title="Payment methods" >}}
  
-- Cards: All
-- Banking methods: All
-- Pay later methods: All
-- Wallets: All
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [All](/payment-methods/wallets/)
 - Prepaid cards:
     - Baby gift card
     - Beauty and Wellness gift card

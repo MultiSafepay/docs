@@ -70,6 +70,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/viewing-your-shop_id/
     - /lightspeed-app/shop-id/
 ---
+{{< alert-notice >}} We recommend [upgrading to the latest version](/lightspeed/#upgrading-to-the-new-app) as soon as possible. {{< /alert-notice >}}
 
 This technical manual is for installing and configuring MultiSafepay's free app for integrating with Lightspeed.  
 
@@ -91,92 +92,30 @@ Contact us:
 
 {{< /details >}}
 
-{{< details title="Payment methods" >}}
-
-- Cards: All
-- Banking methods: All, **except** iDEAL QR and TrustPay
-- Pay later methods: All
-- Wallets: All 
-- Prepaid cards: 
-    - Baby gift card
-    - Beauty and Wellness gift card
-    - [Bloemencadeaukaart](https://www.bloemen-cadeaukaart.nl)
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
-    - [Fashion Cheque](https://www.fashioncheque.com/nl/)
-    - [Fashion gift card](https://www.fashion-giftcard.nl/)
-    - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
-    - Goodcard
-    - [Nationale bioscoopbon](https://www.bioscoopbon.nl)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl/)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl/)
-    - [Webshop gift card](https://www.webshopgiftcard.nl/)
-    - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl/)
-    - [Yourgift](https://www.yourgift.nl)  
-
-To use MultiSafepay payment method icons, see GitHub [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
-
-{{< /details >}}
-
-### Upgrading to the new app
-
-{{< details title="Upgrading to the new app" >}}
-
-**Upgrading to the new app**
-
-To upgrade from our deprecated core integration to the Lightspeed app, follow these steps:
-
-1. In the [Lightspeed app manual](/lightspeed/#installation), follow the steps to install the app.
-2. Place a test order to make sure it's working properly.
-3. Open the core integration, and then [disable the payment provider](/lightspeed-app/upgrading/#disabling-the-core-integration).
-
-To access the MultiSafepay Payments app **Settings** page:
-
-- You are automatically redirected after installing the app, or 
-- Select the MultiSafepay Payments app, and then click **Go to app**.
-
-**Disabling the core integration**
-
-To disable the core integration after migrating to the new app, follow these steps:
-
-1. Sign in to your Lightspeed backend.
-2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
-2. At the top of the screen, click **Disable this payment provider**.
-
-For any questions about the app, email <integration@multisafepay.com>
-
-{{< /details >}}
-
 ## Installation 
 
-1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-This app is tested using the default 1-step and 1-page checkout using the default theme.
-2. Sign in to your Lightspeed backend.
-3. Go to **Apps** on the left-hand side of the dashboard.
-4. Search for the **MultiSafepay payments app**.
-5. Click on the app, and then on **Install app** in the top-right corner.  
-6. In the dialog, approve the permissions required for the app.  
+{{< blue-notice >}} Make sure you have a backup of your production environment, and that you test the plugin in a staging environment. {{< /blue-notice >}}
+
+1. Sign in to your Lightspeed backend.
+2. Go to **Apps** on the left-hand side of the dashboard.
+3. Search for the **MultiSafepay payments app**.
+4. Click on the app, and then on **Install app** in the top-right corner.  
+5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
-7. In the **Setup** page:  
-    - Enter your email address.
-    - Enter your account or website API key.
+6. In the **Setup** page:  
+    - Enter your email address, [account ID and site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
-8. We recommend enabling:
+7. We recommend enabling:
     - Refunds
     - MultiSafepay checkout scripts – Creates a list of iDEAL issuers, and suppresses Apple Pay for non-Apple devices.
-9. Verify the other settings, and then click **Save**.  
-The app is now activated.
+8. Verify the other settings, and then click **Save**.  
 
 ## User guide
 
-### Changing API keys and environments
+### API keys and environments
 
-{{< details title="Changing API keys and between live/test environments" >}}
+{{< details title="Changing API keys and environments" >}}
 
 To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
@@ -186,27 +125,37 @@ To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key
 
 {{< /details >}}
 
-### Deleting MultiSafepay
+### Checkouts
 
-After terminating your contract with MultiSafepay, our payment methods may still be visible in your checkout.
+This app is tested using the default 1-step and 1-page checkout using the default theme.
 
-{{< details title="Deleting MultiSafepay and removing payment methods" >}}
+{{< details title="Ordering payment methods in your checkout" >}}
 
-1. Sign in to your Lightspeed app.
-2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
-3. Click **Go to app**.
-4. Sign in to the MultiSafepay app.
-5. Click **Disable all payment methods**.
+To change the order in which payment methods appear on your checkout page, follow these steps:
+
+1. Go to **Settings** > **Payment method settings**. 
+2. Drag and drop the payment methods to the preferred order.
+3. Click **Save**.
+
+**Setting payment method order per language**
+
+To set the payment method order for different languages, under the **Payment method settings** select a country / store language and set the order per language.
+
+If no specific rule is set for a country, the **Default** order is used.
 
 {{< /details >}}
 
 ### Internationalization
+
+{{< details title="Changing internationalization" >}}
 
 When changing internationalization in your Lightspeed eCom backend, do **not** change the primary language setting while installing the app.  
 
 Lightspeed eCom requires a language, an API key, and a cluster to validate API requests. 
 
 If you remove the language used during installation instead of deactivating it, the app cannot communicate with Lightspeed eCom services.
+
+{{< /details >}}
 
 ### Lightspeed shop ID
 
@@ -244,13 +193,46 @@ If no specific rule is set for a language, **Default** language is used.
 
 ### Payment links
 
-When you generate a payment link in your [MultiSafepay dashboard](https://merchant.multisafepay.com), you cannot update the [transaction status](/about-payments/multisafepay-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
+When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/payments/payment-statuses/) or link it to a transaction in Lightspeed via our app. This&nbsp;is by design in Lightspeed. 
 
 ### Payment methods
 
-By default, the app does **not** support adding payment methods logos to your website footer.  
+{{< details title="Payment methods" >}}
 
-{{< details title="Using our automated script to add logos" >}}
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/), **except** iDEAL QR and TrustPay
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [All](/payment-methods/wallets/) 
+- Prepaid cards: 
+    - Baby gift card
+    - Beauty and Wellness gift card
+    - [Bloemencadeaukaart](https://www.bloemen-cadeaukaart.nl)
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
+    - [Fashion Cheque](https://www.fashioncheque.com/nl/)
+    - [Fashion gift card](https://www.fashion-giftcard.nl/)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
+    - Goodcard
+    - [Nationale bioscoopbon](https://www.bioscoopbon.nl)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl/)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl/)
+    - [Webshop gift card](https://www.webshopgiftcard.nl/)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl/)
+    - [Yourgift](https://www.yourgift.nl)  
+
+To use MultiSafepay payment method icons, see GitHub [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+
+{{< /details >}}
+
+{{< details title="Payment methods logos in your website footer" >}}
+
+By default, the app does **not** support adding payment methods logos to your website footer. We provide a script for this, or you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
+
+**Adding logos via our script**
 
 1. Sign in to your Lightspeed app.
 2. Go to **Settings** > **Storefront payment icons**.
@@ -302,8 +284,6 @@ All payment methods still work if you don't use the Javascript files.
 
 {{< /details >}}
 
-**Or** you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
-
 {{< details title="Ordering payment methods in your checkout" >}}
 
 To change the order in which payment methods appear on your checkout page, follow these steps:
@@ -343,6 +323,18 @@ If a payment method is missing:
 
 {{< /details >}}
 
+{{< details title="Removing payment methods" >}}
+
+After terminating your contract with MultiSafepay, our payment methods may still be visible in your checkout.
+
+1. Sign in to your Lightspeed app.
+2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
+3. Click **Go to app**.
+4. Sign in to the MultiSafepay app.
+5. Click **Disable all payment methods**.
+
+{{< /details >}}
+
 ### Payment reminders
 
 The Lightspeed app doesn't support [Second Chance](/features/second-chance/) emails because Lightspeed orders expire after 12 hours. 
@@ -351,10 +343,8 @@ Lightspeed offers a functionality that lets you configure payment reminders and 
 
 ### Refunds
 
-| | |
-|---|---|
-| MultiSafepay dashboard | [Full and partial refunds](/payments/refunds/) and credit notes |
-| Backend | - Refunds and credit notes <br> - Refunding more than the original transaction **not** supported |
+[Full and partial refunds](/refunds/full-partial/) and credit notes are supported in your MultiSafepay dashboard and backend.  
+You can't refund more than the original amount in your backend.
 
 {{< details title="Enabling refunds in your backend" >}}
 
@@ -416,12 +406,41 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
     - Percentage under **Dynamic payment fee**.
 5. Click **Save**.
 
+**Attention Dutch merchants** 
+
+We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+
 {{< /details >}}
-
-{{< alert-notice >}} **Attention Dutch merchants** 
-
-We strongly recommend that you do **not** apply surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). {{< /alert-notice >}}
 
 ### Updates
 
 You don't need to manually update the app. 
+
+### Upgrading to the new app
+
+{{< details title="Upgrading to the new app" >}}
+
+**Upgrading to the new app**
+
+To upgrade from our deprecated core integration to the Lightspeed app, follow these steps:
+
+1. In the [Lightspeed app manual](/lightspeed/#installation), follow the steps to install the app.
+2. Place a test order to make sure it's working properly.
+3. Open the core integration, and then [disable the payment provider](/lightspeed-app/upgrading/#disabling-the-core-integration).
+
+To access the MultiSafepay Payments app **Settings** page:
+
+- You are automatically redirected after installing the app, or 
+- Select the MultiSafepay Payments app, and then click **Go to app**.
+
+**Disabling the core integration**
+
+To disable the core integration after migrating to the new app, follow these steps:
+
+1. Sign in to your Lightspeed backend.
+2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
+2. At the top of the screen, click **Disable this payment provider**.
+
+For any questions about the app, email <integration@multisafepay.com>
+
+{{< /details >}}

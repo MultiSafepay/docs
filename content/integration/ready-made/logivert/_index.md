@@ -21,15 +21,15 @@ aliases:
 ---
 LogiVert provides a free app for integrating MultiSafepay payment solutions. 
 
-{{< details title="Support" >}}
-&nbsp;  
-For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/support/c-10).
-
-{{< /details >}}
-
 {{< details title="Requirements" >}}
 &nbsp;  
 You will need a [MultiSafepay account](/getting-started/guide/).
+
+{{< /details >}}
+
+{{< details title="Support" >}}
+&nbsp;  
+For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/support/c-10).
 
 {{< /details >}}
 

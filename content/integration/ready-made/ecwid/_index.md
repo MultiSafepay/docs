@@ -36,6 +36,20 @@ Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
 
 {{< /details >}}
 
+## Installation and configuration
+1. Sign in to your Ecwid backend and install the MultiSafepay app from the App Store.
+2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
+3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
+4. Click the **MultiSafepay account details** link. 
+5. Enter your [account ID, site ID, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+5. Save the changes and enable your selected payment methods.
+
+For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup).
+
+## User guide
+
+### Payment methods
+
 {{< details title="Payment methods" >}}
 
 - Cards: [American Express](/payment-methods/amex), [Mastercard](/payment-methods/mastercard), [Visa](/payment-methods/visa) and all co-branded cards
@@ -49,20 +63,10 @@ Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
 
 {{< /details >}}
 
-## Installation and configuration
-1. Sign in to your Ecwid backend and install the MultiSafepay app from the App Store.
-2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
-3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
-4. Click the **MultiSafepay account details** link. 
-5. Enter your [account ID, site ID, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
-5. Save the changes and enable your selected payment methods.
+### Wix
 
-For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup).
+For instructions on integrating Ecwid with Wix, see Ecwid – [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
 
-## Wix
-
-For instructions on integrating Ecwid with Wix, see Ecwid - [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
-
-You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com), but refunds are **not** supported in Wix webshops.
+You can process refunds from your MultiSafepay dashboard, but refunds are **not** supported in Wix webshops.
 
 

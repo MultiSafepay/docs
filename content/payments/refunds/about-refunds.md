@@ -39,7 +39,7 @@ There is a limit on how long after payment was completed that you can refund via
 | 365 days | Alipay, Trustly, WeChat Pay |
 | 730 days | All pay later methods, all banking methods except Trustly |
 
-## Refunding more than the original transaction amount
+## Refunding more than the original amount amount
 Applies to: 
 
 - All banking methods, except EPS and SEPA Direct Debit

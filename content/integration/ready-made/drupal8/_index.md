@@ -28,19 +28,7 @@ aliases:
     - /drupal-8-9/updates/
 ---
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for Drupal 8 & 9 webshop via Composer.
-
-You can also install the plugin via your Drupal 8 & 9 backend. 
-
-{{< details title="Support" >}}
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-{{< /details >}}
+This technical manual is for installing and configuring MultiSafepay's free plugin for Drupal 8 & 9. 
 
 {{< details title="Requirements" >}}
 
@@ -51,38 +39,25 @@ Contact us:
 
 {{< /details >}}
 
-{{< details title="Payment methods" >}}
+{{< details title="Support" >}}
 
-- Cards: All
-- Banking methods: All
-- Pay later methods: All, **except** in3
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
-- Prepaid cards:
-    - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
-    - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
-    - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl)
+Drupal no longer provides support for Drupal 8.9.x.
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+For how to upgrade to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).
+
+Contact MultiSafepay:
+
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
 
 {{< /details >}}
 
 ## Installation
 
-Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+These instructions are for Composer. You can also install the plugin in your backend. 
+
+{{< blue-notice >}} Make sure you have a backup of your production environment, and that you test the plugin in a staging environment. {{< /blue-notice >}}
 
 To install the latest stable version of the Drupal Commerce 2.x plugin, run the following command in your terminal:
 
@@ -111,21 +86,50 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 {{< /details >}}
 
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/), **except** in3
+- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Prepaid cards:
+    - Beauty and Wellness gift card
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Fashioncheque](https://www.fashioncheque.com/nl)
+    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - [Paysafecard](/payment-methods/paysafecard)
+    - [Podium](https://www.podiumcadeaukaart.nl)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
+    - [Webshop gift card](https://www.webshopgiftcard.nl)
+    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl)
+    - [Yourgift](https://www.yourgift.nl)
+
+See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
+
+{{< /details >}}
+
 ### Refunds
 
-| | |
-|---|---|
-| [MultiSafepay dashboard](/refunds/full-partial/) | Full refunds |
-| Backend | - Full refunds <br> - Refunding more than the original transaction **not** supported |
+[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.  
+You can't refund more than the original amount in your backend.
 
 ### Updates
 
-You can update the plugin in your backend or the CMS marketplace, or using SFTP.
+You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 {{< details title="Updating the plugin in your backend" >}}
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. From the [Drupal 8 manual](/payments/integrations/ecommerce-platforms/drupal8/#manual), download the plugin again.
+2. Download the plugin again above.
 3. Follow the Installation instructions and the Configuration instructions from step 2.
 
 {{< /details >}}
