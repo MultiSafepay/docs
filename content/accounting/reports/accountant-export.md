@@ -76,9 +76,9 @@ To generate an accountant export, follow these steps:
 
 1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) dashboard.
 2. Go to **Reports** > **Accountant export**.
-3. From the **Date selection** dropdown, select the relevant timeframe (last 2 years only), and then click **Apply**.
-4. From the **Currency** dropdown, select the relevant currency.
-5. From the **Report type** dropdown, select the relevant export format. 
+3. From the **Date selection** list, select the relevant timeframe (last 2 years only), and then click **Apply**.
+4. From the **Currency** list, select the relevant currency.
+5. From the **Report type** list, select the relevant export format. 
 6. **Group costs in 1 record** toggle:   
     - **Yes**: Show only the total of all MultiSafepay transaction fees for the selected timeframe.
     - **No**: List each MultiSafepay fee below the matching transaction.

@@ -149,32 +149,32 @@ self.manager = FastcheckoutManager(client: client)
 1. The following snapshots walk you through some of features offered by the FastCheckout iOS SDK.
     - Logging in with a registered email: 
         
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-1.png" title="screenshot 1">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-2.png" title="screenshot 2">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-1.png" title="screenshot 1">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-2.png" title="screenshot 2">}}
 
     - Logging in with an unregistered email automatically takes the customer to the **Register** screen: 
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-3.png" title="screenshot 3">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-4.png" title="screenshot 4">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-5.png" title="screenshot 5">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-3.png" title="screenshot 3">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-4.png" title="screenshot 4">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-5.png" title="screenshot 5">}}
 
     - If the customer is registered and resets their email account, the SDK  automatically sends a new security code to new email provided: 
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-6.png" title="screenshot 6">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-7.png" title="screenshot 7">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-6.png" title="screenshot 6">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-7.png" title="screenshot 7">}}
 
     - Once the customer enters the security code received by email (if the security code is received via SMS it is automatically added to the appropriate field, and the SDK moves to the following state), the SDK asks for a new security PIN. Having entered the PIN, the SDK provides biometric options, including face recognition:
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-8.png" title="screenshot 8">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-8.png" title="screenshot 8">}}
 
     - The checkout process follows. From the webshop checkout, the SDK enters into the checkout process. The first screen is the **Delivery** screen, with shipping options (if available). When the customer clicks **Continue**, the SDK moves to the **Payment** screen and the payment logic follows.  
     
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-9.png" title="screenshot 9">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-10.png" title="screenshot 10">}}
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-11.png" title="screenshot 11">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-9.png" title="screenshot 9">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-10.png" title="screenshot 10">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-11.png" title="screenshot 11">}}
     
     - Once payment is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. When the customer clicks **Back to shop**, they are redirected back to the webshop.
 
-      {{< zoom_able class="img-size" url="/developer/wrappers/fastcheckout-ios/fastcheckout-ios-12.png" title="screenshot 12">}}
+      {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/content/developer/wrappers/fastcheckout-ios/fastcheckout-ios-12.png" title="screenshot 12">}}
 
 

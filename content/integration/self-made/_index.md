@@ -5,7 +5,7 @@ layout: 'single'
 meta_title: 'Self-made integrations - MultiSafepay Docs'
 logo: '/svgs/Wrappers.svg'
 short_description: 'Build your own payments integration with our API, wrappers, or SDKs.'
-weight: 15
+weight: 20
 url: '/integrations/self-made/'
 ---
 
@@ -17,7 +17,7 @@ This tutorial explains how to build an integration where customers pay through M
 - Step 3: [Handle notifications](/integrations/self-made/handle-notifications)
 - [Next steps](/integrations/self-made/next-steps)
 
-## Prerequisites
+### Prerequisites
 
 Firstly, check that you have completed these prerequisite steps:
 

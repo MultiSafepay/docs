@@ -45,10 +45,16 @@ name = "Shell"
     weight = 2
 
 [[menu.main]]
+    name = "Security and legal"
+    url  = "/security-and-legal/"
+    parent = "Getting started"
+    weight = 3
+
+[[menu.main]]
     name = "Glossaries"
     url  = "/getting-started/glossaries/"
     parent = "Getting started"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "My account"
@@ -84,7 +90,6 @@ name = "Shell"
     parent = "my-account"
     identifier = "go-live"
     weight = 140
-
 
 [[menu.main]]
     name = "Integrations"
@@ -162,8 +167,8 @@ name = "Shell"
     weight = 330
 
 [[menu.main]]
-    name = "Refunds and chargebacks"
-    url  = "/refunds-chargebacks/"
+    name = "Refunds"
+    url  = "/refunds/"
     parent = "payments"
     weight = 340
 
@@ -194,27 +199,6 @@ name = "Shell"
     parent = "accounting"
     identifier = "api-reconciliation"
     weight = 530
-
-[[menu.main]]
-    name = "Security and legal"
-    url  = "/security-and-legal/"
-    pre = "fa fa-lock fa-lg"
-    identifier = "security-and-legal"
-    weight = 60
-
-[[menu.main]]
-    name = "Payment regulations"
-    url  = "/payment-regulations/"
-    parent = "security-and-legal"
-    identifier = "payment-regulations"
-    weight = 610
-
-[[menu.main]]
-    name = "Risk and fraud"
-    url  = "/risk-fraud/"
-    parent = "security-and-legal"
-    identifier = "risk-fraud"
-    weight = 620
 
 [[menu.main]]
     name = "Developer tools"

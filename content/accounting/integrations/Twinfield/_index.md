@@ -63,5 +63,5 @@ To import at MT940 report into Twinfield, follow these steps:
 
 For any questions, email <support@multisafepay.com>
 
-For a free 30-day trial including all accounting functions, see Twinfield - [Proef abonnement aanvragen](https://e.wolterskluwer.com/proefabonnement-aanvragen).
+For a free 30-day trial including all accounting functions, see Twinfield - [Proef abonnement aanvragen](https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu).
 

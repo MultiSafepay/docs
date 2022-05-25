@@ -145,7 +145,7 @@ Retrieve a specific bank account by its identifier.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g. `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g. `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -190,7 +190,7 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g. `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g. `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 No parameters are sent in this request.
@@ -233,7 +233,7 @@ Upload a bank statement to verify the ownership of the bank account. Alternative
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g., `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g., `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Value|
@@ -294,7 +294,7 @@ Retrieve a list of all bank statements associated with a bank account.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g., `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
+|bankaccount_id| The unique identifier of the bank account. {{< br >}}**Format**: String, e.g., `upp6ogjqret36`. Required.{{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `bankaccount_id` is returned as `id` in the [add bank account](#add-bank-account) and [list bank accounts](#list-bank-accounts) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|
@@ -341,7 +341,7 @@ Retrieve a specific bank statement by its identifier.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: String, e.g. `it613jfo4psde`. Required. {{< br >}}{{< br >}} <img src='/svgs/Note.svg' width="4%" height="auto" /> The `bankstatement_id` is returned as `id` in the [add bank statement](#add-bank-statement) and [list bank statements](#list-bank-statements) requests. |
+|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: String, e.g. `it613jfo4psde`. Required. {{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `bankstatement_id` is returned as `id` in the [add bank statement](#add-bank-statement) and [list bank statements](#list-bank-statements) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Value|

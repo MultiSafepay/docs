@@ -4,7 +4,7 @@ breadcrumb_title: "Payment components"
 layout: 'single'
 meta_title: 'Payment components - MultiSafepay Docs'
 logo: '/svgs/Payment pages.svg'
-short_description: 'Embedded solution: Embed payment methods directly in your checkout.'
+short_description: 'Embed payment methods directly in your checkout.'
 hideMenu : 'true'
 logo: '/svgs/API.svg'
 weight: 30

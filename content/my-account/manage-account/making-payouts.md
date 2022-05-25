@@ -71,15 +71,15 @@ To set up a new automatic payout, follow these steps:
 3. Under **Automatic withdrawals**, click **+ Add**.
 4. In the **Automatic withdrawals** window:
     - Under **Select days**, select a specific day of the week, or the end of the month. 
-    - From the **Select currency** dropdown, select the currency. 
+    - From the **Select currency** list, select the currency. 
     - If you want to schedule withdrawals only when your balance exceeds a specified amount, in the **Withdraw when balance exceeds** fields, enter the amount. 
     - If you want to specify a minimum amount to retain in your balance, in the **Reserve amount** fields, enter an amount.
-    - From the **Select the account number** dropdown, select the business bank account number you want to transfer the withdrawal to.
+    - From the **Select the account number** list, select the business bank account number you want to transfer the withdrawal to.
 5. Click **Schedule payments**.
 
 **Note:** To schedule payouts for different currencies, you must have a MultiSafepay balance and an active business bank account for each currency.
 
-{{< screen src="/img/Screenshot-Automatic-Withdrawals.png" align="center" class="medium-img desktop-radius" >}}
+<img class="-radius max-width medium-img" src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Automatic-Withdrawals.png" alt="" >
 
 {{< /details >}}
 
@@ -94,7 +94,7 @@ To make a payout manually, follow these steps:
     - Enter an amount.
     - Click **Withdraw funds**.
 4. Check the details of the payout, and then click **Submit**.
-5. From the **Select bank account** dropdown, select the business bank account number you want to transfer the withdrawal to. 
+5. From the **Select bank account** list, select the business bank account number you want to transfer the withdrawal to. 
 6. Click **Continue**.
 
 {{< /details >}}

@@ -51,7 +51,9 @@ Include in the request your:
 **Note:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 
 ## Own flow
-{{< details title="AfterPay" >}} 
+
+### AfterPay
+{{< details title="AfterPay activation" >}} 
 1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
 2. For new AfterPay clients, apply directly to AfterPay:
@@ -61,8 +63,8 @@ Include in the request your:
 
 3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
 {{< /details >}}
-
-{{< details title="Betaal per Maand" >}}
+### Betaal per Maand
+{{< details title="Betaal per Maand activation" >}}
 You must:
 
 - Have a [MultiSafepay account](/getting-started/)
@@ -76,15 +78,15 @@ You must:
 3. We check your eligibility and type of connection. 
 4. Once approved, we activate the payment method for your account.
 {{< /details >}}
-
-{{< details title="Edenred" >}}
+### Edenred
+{{< details title="Edenred activation" >}}
 1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.
 {{< /details >}}
-
-{{< details title="Gift cards" >}}
+### Gift cards
+{{< details title="Gift cards activation" >}}
 1. To check your eligibility, email <sales@multisafepay.com> 
 2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
 3. The issuer connects you to the card via either:
@@ -93,8 +95,8 @@ You must:
 - [123TCS](https://www.123tcs.com/#Contact)
 4.  The issuer sends us the connection details and we activate the card for your account.
 {{< /details >}}
-
-{{< details title="Klarna" >}} 
+### Klarna
+{{< details title="Klarna activation" >}} 
 **Test account**
 
 1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
@@ -119,15 +121,14 @@ For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klanten
 
 For support, email <integration@multisafepay.com>
 {{< /details >}}
-
-{{< details title="PayPal" >}}
-The instructions below are for the PayPal interface in English. If your PayPal webpage is in another language, you can change the language easily by clicking the links at the bottom right of the page.
+### PayPal
+{{< details title="PayPal activation" >}}
 
 **Configuring your PayPal account**
 
 To configure your PayPal account, follow these steps:
 
-1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
+1. Sign in to your business account at [Paypal.com](https://www.paypal.com).
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Account access** tab, under **API access**, click **Update**.
 4. Under **Pre-built payment solution**, click **Grant API permission**.
@@ -143,50 +144,46 @@ To complete the configuration, change the language encoding setting of your PayP
 
 1. Click PayPal – [Profile language encoding](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding).
 2. Next to **Language coding for PayPal buttons**, click **Edit**.
-3. From the dropdown menu, select **Western European languages (including English)**.
+3. From the list, select **Western European languages (including English)**.
 4. Click **More options**.
-5. From the **Encoding** dropdown menu, select **UTF-8**.
-6. Select the **Yes** checkbox.
-7. Click **Save**.
+5. From the **Encoding** list, select **UTF-8**.
+6. Select the **Yes** checkbox, and then click **Save**.
 
-For support or if any steps are inaccurate, email <integration@multisafepay.com>
+**Support**  
+
+- Email <integration@multisafepay.com>
+- PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 
 {{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
-
-For support or if any steps are inaccurate, email <integration@multisafepay.com>
-
-For further support, see PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us).
 
 **Configuring your MultiSafepay account**
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
-1. Sign in to [Paypal.com](https://www.paypal.com) with your business account.
+1. Sign in to your business account at [Paypal.com](https://www.paypal.com).
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-5. Go to **Settings**. 
-6. To activate PayPal for:
+4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com), and then go to **Settings**. 
+5. To activate PayPal for:
 
 - All your sites:
     - Go to **Payment methods**, and then select **PayPal**.
-    - In the **PayPal Merchant ID** field, paste in your ID.
+    - In the **PayPal Merchant ID** field, paste your ID, and click **Save changes**.
 
 - A specific site:
     - Go to **Website settings**, and click the relevant site.
-    - Under **Payment methods**, select the **PayPal** checkbox.
+    - Under **Payment methods**, select the **PayPal** checkbox, and click **Save changes**.
 
-**Note:** You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
+**Notes:** 
 
-7. Click **Save changes**.
-
-**Note:** If PayPal is not visible as a payment method in your MultiSafepay dashboard, email <integration@multisafepay.com> 
+- You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
+- If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
 
 Your account is now configured!  
-We strongly recommend [testing some transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
+We strongly recommend [testing transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
 {{< /details >}}
-
-{{< details title="Paysafecard" >}}
+### Paysafecard
+{{< details title="Paysafecard activation" >}}
 Paysafecard doesn't require activation.
 
 Search for outlets that sell Paysafecard:

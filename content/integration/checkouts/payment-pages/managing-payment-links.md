@@ -43,6 +43,15 @@ The [payment page](/payment-pages/) displays **all** payment methods activated f
 
 The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
 
+You can adjust the lifetime for some payment methods:
+
+| Adjustable | Non-adjustable |
+|---|---|
+| Banking methods, except SEPA Direct Debit | SEPA Direct Debit |
+| Gift cards | Edenred, Paysafecard |
+| Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
+| Credit cards |  |
+
 To set or adjust the lifetime, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder): `days_active` parameter.
 
 **Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). 
@@ -90,9 +99,8 @@ To generate a payment link for a new transaction, follow these steps:
 To generate a payment link for an existing transaction, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Transactions** > **Transaction overview**.
-3. Click on the relevant transaction.
-4. In the **Transaction details** page, under **Order summary**, click **Payment link** > **Duplicate this order**.
+2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction.
+3. In the **Transaction details** page, under **Order summary**, click **Payment link** > **Duplicate this order**.
 
 **Note:** The order ID must be unique.
 

@@ -62,8 +62,8 @@ The Second Chance email template is completely customizable. Follow these steps:
 2. Go to **Settings** > **Email templates**.
 3. Select the relevant website.
 4. Click **Add new template**.
-5. From the **Type** dropdown menu, select **Second Chance email (to consumer)**.
-6. From the **Language** dropdown menu, select the relevant language.
+5. From the **Type** list, select **Second Chance email (to consumer)**.
+6. From the **Language** list, select the relevant language.
 7. Click **Load default template**.
 
 For how to customize the template, see [Email Templates](/features/email-templates/).

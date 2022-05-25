@@ -82,6 +82,12 @@
       },
       {
         "pattern": "https://addons\\.prestashop\\.com/en/search\\?search_query=surcharge.*"
+      },
+      {
+        "pattern": "https://www\\.wolterskluwer\\.com.*"
+      },
+      {
+        "pattern": "https://taxnl\\.wolterskluwer\\.com.*"
       }
     ],
   "timeout": "120s",
