@@ -130,8 +130,6 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
 
 {{< /details >}}
 
-{{< blue-notice >}}**Important change:** In the previous version of the plugin, PrestaShop backend orders were only created for MultiSafepay orders with **Completed** status. Now, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status. {{< /blue-notice >}}
-
 ## Installation
 
 {{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended PrestaShop 1.7 installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
