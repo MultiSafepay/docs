@@ -1,0 +1,25 @@
+{
+  "theme": "default",
+  "themeVariables": {
+    "mainBkg": "#3fa9f5",
+    "actorTextColor": "white",
+    "noteTextColor": "black",
+    "actorBorder": "#d2dae3",
+    "noteBkgColor": "#faebbf",
+    "noteBorderColor": "#faebbf",
+    "labelBoxBkgColor": "#f2f7fc",
+    "labelTextColor": "black",
+    "labelBoxBorderColor": "#d2dae3",
+    "loopTextColor": "black"
+  },
+  "sequence": {
+    "messageFontFamily": "helvetica",
+    "messageFontWeight": "normal",
+    "messageFontSize": 12,
+    "actorFontWeight": "normal",
+    "actorFontFamily": "helvetica",
+    "actorFontSize": 16,
+    "noteFontFamily": "helvetica",
+    "noteFontSize": "12"
+  }
+}
