@@ -2,10 +2,12 @@
 
 name: Create mermaid diagrams
 
-# Run on pushes to master (includes merged PRs into master and direct pushes)
+
 on:
-  push:
-    branches: [ master ]
+
+# Run on pushes to master (includes merged PRs into master and direct pushes)
+  # push:
+    # branches: [ master ]
 
   # Enable manual triggers (for testing)
   workflow_dispatch:
