@@ -1,6 +1,6 @@
 ---
 title: 'Virtual IBANs'
-weight: 95
+weight: 60
 meta_title: "Virtual IBANs - MultiSafepay Docs"
 logo: '/svgs/Banks.svg'
 layout: 'single'
