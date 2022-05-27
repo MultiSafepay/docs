@@ -85,7 +85,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 
 MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can email them yourself.
 
-{{< screen src="/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius" >}}
 
 {{< details title= "Emailing payment instructions yourself" >}} 
 

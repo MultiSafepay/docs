@@ -34,11 +34,11 @@ For any questions, email <support@multisafepay.com>
 
 ## Third-party integrations
 
-{{< screen src="/img/Logo-Forque.png" align="left" class="medium-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Logo-Forque.png" align="left" class="medium-img desktop-radius" >}}
 
 For generating automated accounting reports, see Forque – [AFAS](https://www.forque.nl/afas-consultancy).
 
-{{< screen src="/img/Logo-DeViske.png" align="left" class="medium-img desktop-radius" >}}
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Logo-DeViske.png" align="left" class="medium-img desktop-radius" >}}
 
 For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
