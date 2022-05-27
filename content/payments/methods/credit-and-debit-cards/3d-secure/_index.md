@@ -57,7 +57,7 @@ To help you optimize conversion and manage risk, MultiSafepay supports exemption
 
 ### Merchant-initiated transactions
 
-Merchant-initiated transactions (MIT) are [recurring payments](/features/recurring-payments) initiated by the merchant on the customer's behalf, based on a prior agreement. Examples include subscription payments and automatic balance top-ups. 
+Merchant-initiated transactions (MIT) are [recurring payments](/features/recurring-payments) you initiate on the customer's behalf, based on a prior agreement, e.g. subscriptions, automatic balance top-ups. 3DS2 authentication is **not** required.
 
 
 ### Mail Order/Telephone Order (MOTO)
