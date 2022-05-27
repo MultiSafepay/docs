@@ -1,7 +1,7 @@
 ---
-title: 'Creating an account'
+title: 'Creating accounts'
 weight: 10
-meta_title: "Creating an account - MultiSafepay Docs"
+meta_title: "Creating accounts - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/Zero_Authorization.svg'
 url: '/account/create-account/'
@@ -14,8 +14,21 @@ aliases:
     - /account/partner-account-control/about-account-types/
     - /account/account-types/
     - /account/creating-partner-accounts/
+    - /partners/
+    - /partners/faq/what-is-the-kickback-commission-for-partners/
+    - /tools/partner-account-control/
+    - /account/multisafepay-account/
+    - /account/partner-account-control/
+    - /account/partner-accounts/
+    - /account/partner-primary-accounts/
 ---
+This page describes MultiSafepay account types and how to create test and live accounts. 
+
 ## Account types
+
+There are three types of account: merchant, partner, and primary accounts.
+
+All account types represent a single legal entity, but can support multiple bank accounts and users with their own login credentials and permissions.
 
 Check which type of account best fits your company:
 
@@ -31,13 +44,18 @@ flowchart TD
 {{< /mermaid >}}
 &nbsp;  
 
-All account types represent a single legal entity, but can support multiple bank accounts and users with their own login credentials and permissions.
+## Test accounts
 
-## Creating an account
+You may want to start with a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then create a live account and [onboard](/account/onboarding-golive/) to start processing real payments.
 
-You can create a live account and start the [onboarding process](/getting-started/guide/#5-onboard-your-account) straight away.
+To create a free test account:
 
-Or, you may want to first create a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then onboard your account to start processing real payments. 
+- Fill out the [signup form](https://testmerchant.multisafepay.com/signup).
+- Sign in to your [test dashboard](https://testmerchant.multisafepay.com) using the security code we email you.
+
+## Live accounts
+
+To create and [onboard](/account/onboarding-golive/) a live account and start processing real payments, follow these steps: 
 
 **1.** Fill out the relevant signup form: 
 

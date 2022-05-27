@@ -1,7 +1,7 @@
 ---
-title: 'Setting up customer emails'
+title: 'Customer emails'
 weight: 11
-meta_title: "Setting up customer emails - MultiSafepay Docs"
+meta_title: "Customer emails - MultiSafepay Docs"
 layout: "single"
 read_more: "."
 logo: '/svgs/Email_template.svg'
