@@ -1,6 +1,6 @@
 ---
 title: 'Split Payments'
-weight: 20
+weight: 40
 layout: 'single'
 meta_title: "Split Payments - MultiSafepay Docs"
 logo: '/svgs/Split payments.svg'

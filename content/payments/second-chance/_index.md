@@ -1,6 +1,6 @@
 ---
 title: 'Second Chance'
-weight: 30
+weight: 50
 meta_title: "Second Chance - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/Second Chance.svg'
