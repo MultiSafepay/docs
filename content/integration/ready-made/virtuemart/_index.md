@@ -8,10 +8,10 @@ meta_title: "VirtueMart plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg"
 weight: 18
 title_short: "VirtueMart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md"
-url: '/virtuemart/'
+url: "/virtuemart/"
 aliases:
     - /integrations/virtuemart/
     - /plugins/virtuemart

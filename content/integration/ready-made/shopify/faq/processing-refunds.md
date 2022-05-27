@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "Shopify plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/shopify/refunds/'
+url: "/shopify/refunds/"
 aliases: 
     - /integrations/shopify/faq/refunding-shopify/
     - /payments/integrations/ecommerce-platforms/shopify/faq/processing-refunds/

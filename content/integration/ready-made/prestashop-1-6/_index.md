@@ -8,9 +8,9 @@ meta_title: "PrestaShop 1.6 plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.6"
-type: 'Plugin'
-layout: 'single'
-url: '/prestashop-1-6/'
+type: "Plugin"
+layout: "single"
+url: "/prestashop-1-6/"
 aliases: 
     - /plugins/prestashop-1-6
     - /integrations/plugins/prestashop-1-6

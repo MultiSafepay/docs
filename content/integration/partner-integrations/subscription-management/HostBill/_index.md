@@ -2,9 +2,9 @@
 title: "HostBill"
 weight: 20
 meta_title: "HostBill - MultiSafepay Docs"
-url: '/partner-integrations/hostbill/'
-logo: '/svgs/HostBill.svg'
-layout: 'single'
+url: "/partner-integrations/hostbill/"
+logo: "/svgs/HostBill.svg"
+layout: "single"
 title_short: "HostBill"
 read_more: "."
 short_description: "Subscription management by HostBill"

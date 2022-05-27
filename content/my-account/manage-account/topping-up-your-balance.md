@@ -2,8 +2,8 @@
 title : "Topping up your balance"
 weight: 9
 meta_title: "Topping up your balance - MultiSafepay Docs"
-read_more: '.'
-url: '/account/balance/'
+read_more: "."
+url: "/account/balance/"
 aliases:
     - /tools/multisafepay-control/users
     - /faq/finance/adding-funds-to-your-multiSafepay-balance

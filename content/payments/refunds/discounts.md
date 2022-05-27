@@ -1,11 +1,11 @@
 ---
 title : "Discounts"
 weight: 50
-layout: 'single'
+layout: "single"
 meta_title: "Discounts - MultiSafepay Docs"
 short_description: "Process discounts via your MultiSafepay dashboard or our API."
 read_more: "."
-url: '/refunds/discounts/'
+url: "/refunds/discounts/"
 ---
 
 Supported payment methods:

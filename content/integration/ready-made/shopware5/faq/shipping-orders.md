@@ -4,7 +4,7 @@ meta_title: "Shopware 5 plugin - Shipping orders  - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/shopware-5/shipping-orders/'
+url: "/shopware-5/shipping-orders/"
 aliases:
     - /payments/integrations/ecommerce-platforms/shopware5/faq/changing-order-status-to-shipped/
 ---

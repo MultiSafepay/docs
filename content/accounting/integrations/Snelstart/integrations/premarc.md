@@ -2,8 +2,8 @@
 title: "Premarc"
 weight: 20
 meta_title: "Snelstart integrations - Premarc - MultiSafepay Docs"
-logo: '/svgs/Premarc.svg'
-layout: 'single'
+logo: "/svgs/Premarc.svg"
+layout: "single"
 read_more: "."
 title_short: "Snelstart reconciliation by Premarc"
 short_description: "Automatically reconcile SnelStart with your ecommerce integration"

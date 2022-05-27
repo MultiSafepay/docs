@@ -2,8 +2,8 @@
 title: "Yuki"
 weight: 20
 meta_title: "Yuki - MultiSafepay Docs"
-logo: '/svgs/Yuki.svg'
-layout: 'single'
+logo: "/svgs/Yuki.svg"
+layout: "single"
 title_short: "Yuki"
 buttons_under_text: "Third-party integrations"
 read_more: "."

@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "Magento 1 plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/magento-1/refunds/'
+url: "/magento-1/refunds/"
 aliases: 
     - /integrations/magento1/faq/request-refund/
     - /payments/integrations/ecommerce-platforms/magento1/faq/processing-refunds/

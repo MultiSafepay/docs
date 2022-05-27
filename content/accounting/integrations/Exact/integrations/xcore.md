@@ -2,8 +2,8 @@
 title: "xCore"
 weight: 20
 meta_title: "Accounting integrations - xCore - MultiSafepay Docs"
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/accounting/xcore.png'
-layout: 'single'
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/accounting/xcore.png"
+layout: "single"
 title_short: "xCore"
 read_more: "."
 short_description: "Automatically reconcile MultiSafepay payments with sales in Exact Online or Exact Globe."

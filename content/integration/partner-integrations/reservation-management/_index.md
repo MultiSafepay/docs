@@ -1,12 +1,12 @@
 ---
 title: 'Manage reservations'
 breadcrumb_title: "Manage reservations"
-layout: 'single'
+layout: "single"
 meta_title: 'Partner integrations - Manage reservations - MultiSafepay Docs'
-logo: '/svgs/Planyo.svg'
+logo: "/svgs/Planyo.svg"
 short_description: 'Solution for managing reservations and paying online by our partner Planyo.'
 weight: 40
-url: '/partner-integrations/manage-reservations/'
+url: "/partner-integrations/manage-reservations/"
 aliases:
     - /integrations/reservation-management/
     - /integrations/reservation-management/planyo/

@@ -1,9 +1,9 @@
 ---
 title : "N-codes for identifying payment methods"
 meta_title: "N-codes for identifying payment methods - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 8
-url: '/reports/n-codes/'
+url: "/reports/n-codes/"
 ---
 
 To identify transactions in reports by payment method, use the following N-codes:

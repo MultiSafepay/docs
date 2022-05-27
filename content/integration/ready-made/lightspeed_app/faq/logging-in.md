@@ -2,7 +2,7 @@
 title : "Logging in"
 meta_title: "Lightspeed app - Logging in - MultiSafepay Docs"
 read_more: "."
-url: '/lightspeed-app/login/'
+url: "/lightspeed-app/login/"
 aliases:
     - /hosted/lightspeed_app/faq/how-to-login
     - /integrations/hosted/lightspeed_app/faq/how-to-login

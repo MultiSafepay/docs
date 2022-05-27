@@ -4,7 +4,7 @@ meta_title: "Magento 2 plugin FAQ - Setting order lifetimes for Second Chance - 
 
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/second-chance-order-lifetimes/'
+url: "/magento-2/second-chance-order-lifetimes/"
 aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/setting-order-lifetimes-second-chance/
 ---

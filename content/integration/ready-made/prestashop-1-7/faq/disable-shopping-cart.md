@@ -2,7 +2,7 @@
 title : "Disabling the shopping cart"
 meta_title: "PrestaShop 1.7 - Disabling the shopping cart - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop-1-7/disabling-shopping-cart/'
+url: "/prestashop-1-7/disabling-shopping-cart/"
 ---
 
 If you notice errors in shopping cart calculations, email <integration@multisafepay.com>

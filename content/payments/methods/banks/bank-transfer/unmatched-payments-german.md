@@ -3,7 +3,7 @@ title : "Verbinden von unzugeordneten Banküberweisungen"
 meta_title: "Verbinden von unzugeordneten Banküberweisungen - MultiSafepay Docs"
 read_more: "."
 weight: 1
-url: '/bank-transfer/unzugeordneten-banküberweisungen/'
+url: "/bank-transfer/unzugeordneten-banküberweisungen/"
 tags: "hidden"
 ---
 

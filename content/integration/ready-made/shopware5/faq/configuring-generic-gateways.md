@@ -2,7 +2,7 @@
 title : "Configuring generic gateways"
 meta_title: "Shopware 5 - Configuring generic gateways - MultiSafepay Docs"
 layout: "faqdetail"
-url: '/shopware-5/configuring-generic-gateways/'
+url: "/shopware-5/configuring-generic-gateways/"
 aliases:
     - /integrations/ecommerce-integrations/shopware5/faq/generic-gateways
     - /payments/integrations/ecommerce-platforms/shopware5/faq/configuring-generic-gateways/

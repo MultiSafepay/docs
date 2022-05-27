@@ -1,11 +1,11 @@
 ---
-title: 'Dotpay'
+title: "Dotpay"
 weight: 100
 meta_title: "Payment methods - Dotpay - MultiSafepay Docs"
 short_description: 'Accept online banking payments from customers of all Polish banks.'
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Dotpay.svg'
-url: '/payment-methods/dotpay/'
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Dotpay.svg"
+url: "/payment-methods/dotpay/"
 aliases:
     - /support-tab/magento2/payment-methods/dotpay
     - /payment-methods/banks/dotpay

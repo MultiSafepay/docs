@@ -7,10 +7,10 @@ meta_title: "OpenCart plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OpenCart.svg"
 weight: 10
 title_short: "OpenCart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md"
-url: '/opencart/'
+url: "/opencart/"
 aliases: 
     - /plugins/opencart
     - /integrations/plugins/opencart

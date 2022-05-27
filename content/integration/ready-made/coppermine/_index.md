@@ -1,15 +1,15 @@
 ---
 title : "Coppermine integration for MultiSafepay"
 meta_title: "Coppermine integration for MultiSafepay - MultiSafepay Docs"
-layout: 'single'
+layout: "single"
 meta_description: "Integrate MultiSafepay payment solutions into your Coppermine ecommerce platform."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/coppermine-docs.svg"
 weight: 32
 title_short: "Coppermine"
-type: 'Integration'
+type: "Integration"
 description_short: "Integrate MultiSafepay payment solutions into your Coppermine ecommerce platform."
-layout: 'single'
-url: '/coppermine/'
+layout: "single"
+url: "/coppermine/"
 ---
 
 MultiSafepay has partnered with [Coppermine](https://www.coppermine.nl/), which offers a complete ecommerce suite including CRM, B2B, B2C, subscriptions, customer service, logistics, and finance.

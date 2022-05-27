@@ -2,10 +2,10 @@
 title: 'Apple Pay'
 weight: 230
 meta_title: "Payment methods - Apple Pay - MultiSafepay Docs"
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg" 
 short_description: "Digital wallet for online and in-app payments from Apple devices."
-url: '/payment-methods/apple-pay/'
+url: "/payment-methods/apple-pay/"
 aliases:
     - //payment-methods/applepay/
     - /support-tab/magento2/payment-methods/applepay

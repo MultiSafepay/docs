@@ -3,7 +3,7 @@ title : "Allowing notifications"
 meta_title: "WooCommerce plugin - Allowing notifications - MultiSafepay Docs"
 
 read_more: "."
-url: '/woo-commerce/notifications/'
+url: "/woo-commerce/notifications/"
 aliases:
     - /integrations/ecommerce-integrations/woocommerce/faq/rest-endpoint-is-blocked/
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/allowing-notifications/

@@ -5,7 +5,7 @@ meta_title: "Magento 2 plugin - Setting pending payment order lifetimes - MultiS
 
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/pending-payment-lifetimes/'
+url: "/magento-2/pending-payment-lifetimes/"
 aliases: 
     - /integrations/magento2/faq/pending-payment-order-lifetime/
     - /payments/integrations/ecommerce-platforms/magento2/faq/setting-pending-payment-order-lifetimes/

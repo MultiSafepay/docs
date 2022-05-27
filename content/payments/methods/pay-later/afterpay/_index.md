@@ -1,11 +1,11 @@
 ---
-title: 'AfterPay'
+title: "AfterPay"
 weight: 60
 meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg" 
 short_description: 'A widely used pay later method in the Netherlands and Belgium.'
-url: '/payment-methods/afterpay/'
+url: "/payment-methods/afterpay/"
 aliases:
     - /support-tab/magento2/payment-methods/afterpay
     - /payment-methods/afterpay/

@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "Shopware 6 plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/shopware-6/updates/'
+url: "/shopware-6/updates/"
 aliases: 
     - /integrations/shopware6/faq/how-can-i-update-the-plugin-for-shopware/
     - /payments/integrations/ecommerce-platforms/shopware6/faq/updating-the-plugin/

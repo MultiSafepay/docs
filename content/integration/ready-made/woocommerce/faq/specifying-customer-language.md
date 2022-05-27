@@ -4,7 +4,7 @@ meta_title: "WooCommerce plugin - Specifying customer language - MultiSafepay Do
 
 layout: "faqdetail"
 read_more: "."
-url: '/woo-commerce/customer-language/'
+url: "/woo-commerce/customer-language/"
 aliases: 
     - /integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/payment-page-and-messages-to-customer-in-other-language/

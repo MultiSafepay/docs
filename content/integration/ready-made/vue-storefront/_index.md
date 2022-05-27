@@ -5,7 +5,7 @@ github_url : "https://github.com/MultiSafepay/vsf-payment-multisafepay"
 download_url : "https://github.com/MultiSafepay/vsf-payment-multisafepay"
 changelog_url : "."
 manual: "."
-layout: 'single'
+layout: "single"
 meta_title: "Vue Storefront plugin - MultiSafepay Docs"		
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Vue Storefront application."
 description : "Free plugin to integrate MultiSafepay payment solutions into your Vue Storefront application."

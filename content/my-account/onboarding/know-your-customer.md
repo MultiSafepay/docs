@@ -4,7 +4,7 @@ breadcrumb_title: 'Know your customer checks'
 weight: 50
 meta_title: "Know your customer checks - MultiSafepay Docs"
 read_more: "."
-url: '/account/kyc/'
+url: "/account/kyc/"
 ---
 
 As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/glossaries/multisafepay-glossary/#acquirer), MultiSafepay is legally required to perform know your customer (KYC) checks.  

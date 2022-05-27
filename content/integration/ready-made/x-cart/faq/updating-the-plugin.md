@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "X-Cart plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/x-cart/updates/'
+url: "/x-cart/updates/"
 aliases: 
     - /integrations/x-cart/faq/how-can-i-update-the-plugin-for-x-cart/
     - /payments/integrations/ecommerce-platforms/x-cart/faq/updating-the-plugin/

@@ -3,7 +3,7 @@ title : "Changing API key and environment"
 meta_title: "Lightspeed app - Changing API key and environment - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/api-key-environment/'
+url: "/lightspeed-app/api-key-environment/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/change-environment/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/changing-api-key-and-environment/

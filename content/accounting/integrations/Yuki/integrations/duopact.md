@@ -2,8 +2,8 @@
 title: "Duopact"
 weight: 10
 meta_title: "Yuki integrations - Duopact - MultiSafepay Docs"
-logo: '/svgs/Duopact.png'
-layout: 'single'
+logo: "/svgs/Duopact.png"
+layout: "single"
 read_more: "."
 title_short: "Yuki reconciliation by Duopact"
 short_description: "Automatically upload your MultiSafepay transactions to Yuki"

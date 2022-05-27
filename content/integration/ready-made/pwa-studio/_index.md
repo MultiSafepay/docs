@@ -5,7 +5,7 @@ github_url : "https://github.com/MultiSafepay/pwastudio-multisafepay-payment-int
 download_url : "https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration.git"
 changelog_url : "."
 manual: "." 
-layout: 'single'
+layout: "single"
 meta_title: "Plugin for PWA Studio (Venia) - MultiSafepay Docs"		
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your PWA Studio application ."
 description : "Free plugin with GraphQL support to integrate MultiSafepay payment solutions into your PWA Studio (Venia) application."

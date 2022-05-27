@@ -1,15 +1,15 @@
 ---
 title : "Dynamicweb app for MultiSafepay"
 meta_title: "Dynamicweb app - MultiSafepay Docs"
-layout: 'single'
+layout: "single"
 meta_description: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb webshop."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Dynamic_Web.svg"
 weight: 22
 title_short: "Dynamicweb"
-type: 'App'
+type: "App"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb webshop."
-layout: 'single'
-url: '/dynamicweb/'
+layout: "single"
+url: "/dynamicweb/"
 aliases: 
     - /hosted/dynamicweb
     - /integrations/hosted/dynamicweb

@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "OpenCart plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/opencart/refunds/'
+url: "/opencart/refunds/"
 aliases: 
     - /integrations/opencart/faq/refunding-opencart/
     - /payments/integrations/ecommerce-platforms/opencart/faq/processing-refunds/

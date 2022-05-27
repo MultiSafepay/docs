@@ -3,7 +3,7 @@ title: "Adjusting payment methods based on billing address"
 meta_title: "Adjusting payment methods based on billing address - MultiSafepay Docs"
 
 read_more: "."
-noindex: 'true'
+noindex: "true"
 ---
 By default, the selection of payment methods is not adjusted per country. To change this setting, follow these steps:
 

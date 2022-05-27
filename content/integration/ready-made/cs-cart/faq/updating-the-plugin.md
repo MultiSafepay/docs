@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "CS-Cart plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/cs-cart/updates/'
+url: "/cs-cart/updates/"
 aliases: 
     - /integrations/cs-cart/faq/how-can-i-update-the-plugin-for-cs-cart/
     - /payments/integrations/ecommerce-platforms/cs-cart/faq/updating-the-plugin/

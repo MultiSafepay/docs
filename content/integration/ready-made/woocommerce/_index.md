@@ -10,9 +10,9 @@ meta_description: "Integrate MultiSafepay payment solutions into your Wordpress 
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg"
 weight: 03
 title_short: "WooCommerce"
-type: 'Plugin'
-url: '/woo-commerce/'
-layout: 'single'
+type: "Plugin"
+url: "/woo-commerce/"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md"
 aliases: 
     - /plugins/woocommerce

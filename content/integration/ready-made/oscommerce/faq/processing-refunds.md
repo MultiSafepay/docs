@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "OsCommerce plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/oscommerce/refunds/'
+url: "/oscommerce/refunds/"
 aliases: 
     - /integrations/oscommerce/faq/refunding-oscommerce/
     - /payments/integrations/ecommerce-platforms/oscommerce/faq/processing-refunds/

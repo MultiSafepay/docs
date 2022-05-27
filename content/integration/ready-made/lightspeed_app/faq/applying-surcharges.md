@@ -2,7 +2,7 @@
 title : "Applying surcharges"
 meta_title: "Lightspeed app - Applying surcharges"
 read_more: "."
-url: '/lightspeed/surcharges/'
+url: "/lightspeed/surcharges/"
 ---
 
 To apply a [surcharge](/about-payments/surcharges/) to a payment in Lightspeed:

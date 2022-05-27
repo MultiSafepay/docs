@@ -1,11 +1,11 @@
 ---
-title: 'Trustly'
+title: "Trustly"
 weight: 130
 meta_title: "Payment methods - Trustly - MultiSafepay Docs"
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Trustly.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Trustly.svg" 
 short_description: 'Accept online banking payments from a number of European countries.'
-url: '/payment-methods/trustly/'
+url: "/payment-methods/trustly/"
 aliases:
     - /support-tab/magento2/payment-methods/trustly
     - /payment-methods/trustly/

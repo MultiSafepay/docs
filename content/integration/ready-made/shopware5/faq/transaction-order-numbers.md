@@ -5,7 +5,7 @@ meta_title: "Shopware 5 plugin - Transaction and order numbers - MultiSafepay Do
 layout: "faqdetail"
 read_more: "."
 weight: 7
-url: '/shopware-5/transaction-order-numbers/'
+url: "/shopware-5/transaction-order-numbers/"
 aliases:
     - /payments/integrations/ecommerce-platforms/shopware5/faq/transaction-number-order-number/
 ---

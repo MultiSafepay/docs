@@ -2,7 +2,7 @@
 title : "Supported checkouts"
 meta_title: "Magento 1 plugin - Supported checkouts - MultiSafepay Docs"
 read_more: "."
-url: '/magento-1/checkouts/'
+url: "/magento-1/checkouts/"
 aliases:
     - /payments/integrations/ecommerce-platforms/magento1/faq/supported-magento1-checkouts/
 ---

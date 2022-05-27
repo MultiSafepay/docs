@@ -3,7 +3,7 @@ title : "Which order totals appear on the MultiSafepay payment page?"
 meta_title: "Which order totals appear on the MultiSafepay payment page? - MultiSafepay Docs"
 
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 

@@ -4,7 +4,7 @@ meta_title: "Magento 2 plugin update - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-noindex: 'true'
+noindex: "true"
 ---
 
 You can update the plugin:  

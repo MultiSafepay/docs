@@ -4,7 +4,7 @@ weight:
 meta_title: "Magento 2 plugin FAQ - Order Lifetime - MultiSafepay Docs"
 
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 

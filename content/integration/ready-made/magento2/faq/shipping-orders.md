@@ -3,7 +3,7 @@ title : "Shipping orders"
 meta_title: "Magento 2 plugin - Shipping orders  - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/shipping-orders/'
+url: "/magento-2/shipping-orders/"
 aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/changing-order-status-to-shipped/
 ---

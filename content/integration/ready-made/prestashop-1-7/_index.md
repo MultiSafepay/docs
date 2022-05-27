@@ -8,11 +8,11 @@ faq: "."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.7"
-type: 'Plugin'
-layout: 'single'
-layout: 'single'
+type: "Plugin"
+layout: "single"
+layout: "single"
 changelog: https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md
-url: '/prestashop-1-7/'
+url: "/prestashop-1-7/"
 aliases: 
     - /plugins/prestashop-1-7
     - /integrations/plugins/prestashop-1-7

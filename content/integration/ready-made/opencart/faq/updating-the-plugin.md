@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "OpenCart plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/opencart/updates/'
+url: "/opencart/updates/"
 aliases: 
     - /integrations/opencart/faq/how-can-i-update-the-plugin-for-opencart/
     - /payments/integrations/ecommerce-platforms/opencart/faq/updating-the-plugin/

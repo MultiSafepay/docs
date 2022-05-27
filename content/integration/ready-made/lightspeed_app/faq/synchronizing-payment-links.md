@@ -3,7 +3,7 @@ title: "Synchronizing payment links"
 meta_title: "Lightspeed app - Synchronizing payment links - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/synchronizing-payment-links/'
+url: "/lightspeed-app/synchronizing-payment-links/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/lightspeed-orderid/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/synchronizing-payment-links/

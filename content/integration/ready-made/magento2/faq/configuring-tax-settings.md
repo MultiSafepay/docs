@@ -3,7 +3,7 @@ title : "Configuring tax settings"
 meta_title: "Magento 2 - Configuring tax settings - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/tax-settings/'
+url: "/magento-2/tax-settings/"
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/which-tax-settings-should-i-use/
     - /payments/integrations/ecommerce-platforms/magento2/faq/configuring-tax-settings/

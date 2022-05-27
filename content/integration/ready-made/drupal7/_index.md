@@ -4,14 +4,14 @@ github_url: "https://github.com/MultiSafepay/Drupal-Commerce"
 download_url: "https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip"
 changelog: https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG.md
 faq: "."
-type: 'Plugin'
+type: "Plugin"
 meta_title: "Drupal 7 plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_7.svg"
 weight: 15
 title_short: "Drupal 7"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop."
-layout: 'single'
-url: '/drupal-7/'
+layout: "single"
+url: "/drupal-7/"
 aliases: 
     - /plugins/drupal7
     - /integrations/plugins/drupal7

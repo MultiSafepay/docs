@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "Craft Commerce 3 plugin - Processing refunds - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/craft-commerce/refunds/'
+url: "/craft-commerce/refunds/"
 aliases:
     - /integrations/ecommerce-integrations/craftcommerce/faq/refunding-craft-commerce/
     - /payments/integrations/ecommerce-platforms/craftcommerce/faq/processing-refunds/

@@ -2,8 +2,8 @@
 title : "Styling payment pages"
 weight: 30
 meta_title: "Payment pages - Styling payment pages - MultiSafepay Docs"
-read_more: '.'
-url: '/payment-pages/styling/'
+read_more: "."
+url: "/payment-pages/styling/"
 aliases:
     - /tools/payment-pages/payment-page-templates/
     - /payments/checkout/payment-pages/dynamic-styling-payment-pages/

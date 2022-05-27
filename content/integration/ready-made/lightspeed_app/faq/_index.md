@@ -1,6 +1,6 @@
 ---
 title: 'Lightspeed user guide'
-layout: 'faqplugins'
+layout: "faqplugins"
 meta_title: "Lightspeed user guide - MultiSafepay Docs"
 
 aliases:

@@ -3,7 +3,7 @@ title : "Sending payment reminders"
 meta_title: "Lightspeed app - Sending payment reminders - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/payment-reminders/'
+url: "/lightspeed-app/payment-reminders/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/payment-reminders/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/sending-payment-reminders/

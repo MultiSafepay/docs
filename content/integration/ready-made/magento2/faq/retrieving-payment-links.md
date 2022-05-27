@@ -3,7 +3,7 @@ title : "Retrieving payment links"
 meta_title: "Magento 2 plugin - Retrieving payment links - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/retrieving-payment-links/'
+url: "/magento-2/retrieving-payment-links/"
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/how-can-i-generate-a-payment-link/
     - /payments/integrations/ecommerce-platforms/magento2/faq/retrieving-payment-links/

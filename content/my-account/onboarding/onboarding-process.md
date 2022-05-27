@@ -4,7 +4,7 @@ breadcrumb_title: 'Onboarding process'
 weight: 10
 meta_title: "Onboarding process - MultiSafepay Docs"
 read_more: "."
-url: '/account/onboarding-process/'
+url: "/account/onboarding-process/"
 ---
 Onboarding is the process of MultiSafepay checking and approving information submitted by merchants and partners applying for a live account.
 

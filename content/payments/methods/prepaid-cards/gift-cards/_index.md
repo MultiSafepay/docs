@@ -2,10 +2,10 @@
 title: 'Gift cards'
 weight: 240
 meta_title: "Payment methods - Gift cards - MultiSafepay Docs"
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/VVV_Giftcards.svg'
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/VVV_Giftcards.svg"
 short_description: 'Accept payments using a wide range of Dutch gift cards.'
-url: '/payment-methods/gift-cards/'
+url: "/payment-methods/gift-cards/"
 aliases: 
     - /payment-methods/gift-cards/
     - /payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/

@@ -3,7 +3,7 @@ title : "Ultimate beneficial owners"
 weight: 30
 meta_title: "Ultimate beneficial owners - MultiSafepay Docs"
 read_more: "."
-url: '/account/ubo/'
+url: "/account/ubo/"
 aliases:
     - faq/getting-started/guidance-notes-ultimate-beneficial-owner-form
     - /faq/getting-started/ultimate-beneficial-owner-form

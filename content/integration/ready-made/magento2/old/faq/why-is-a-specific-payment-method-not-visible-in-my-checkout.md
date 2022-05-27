@@ -3,7 +3,7 @@ title : "Why is a specific payment method not visible in my checkout?"
 meta_title: "Magento 2 plugin FAQ - Enable Payments - MultiSafepay Docs"
 
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 

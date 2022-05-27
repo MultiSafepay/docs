@@ -3,7 +3,7 @@ title: "Payment statuses"
 weight: 20
 meta_title: "Payment statuses - MultiSafepay Docs"
 read_more: "."
-url: '/payments/payment-statuses/'
+url: "/payments/payment-statuses/"
 aliases:
     - /payments/multisafepay-statuses/
     - /faq/api/difference-between-status-and-transaction-status

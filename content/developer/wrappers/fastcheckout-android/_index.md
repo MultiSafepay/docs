@@ -6,7 +6,7 @@ github_url: "https://github.com/MultiSafepay/fastcheckout-android-sdk"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Fastcheckout_Android.svg"
 weight: 16
 title_short: "FastCheckout Android SDK"
-layout: 'single'
+layout: "single"
 manual: "."
 description_short: "Our Android library provides a connection to MultiSafepay services."
 description: "The FastCheckout Android SDK provides connections to MultiSafepay services from your native Android app. The SDK enables a frictionless, fast, and native checkout experience by storing and reusing data."

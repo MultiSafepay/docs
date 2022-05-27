@@ -6,14 +6,14 @@ breadcrumb_title: "Odoo"
 changelog: https://github.com/MultiSafepay/official-odoo-integration/blob/13.0-develop/CHANGELOG.md
 changelog_url : "."
 faq: "."
-layout: 'single'
+layout: "single"
 meta_title: "Odoo plugin - MultiSafepay Docs"		
 meta_description: "MultiSafepay plugin for Odoo. Easily integrate MultiSafepay payment solutions into your Odoo platform with the free plugin."
 weight: 11
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Odoo.svg"
 title_short: "Odoo"
-type: 'Plugin'
-url: '/odoo/'
+type: "Plugin"
+url: "/odoo/"
 aliases: 
     - /plugins/odoo
     - /integrations/plugins/odoo

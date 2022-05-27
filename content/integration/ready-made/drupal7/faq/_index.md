@@ -1,6 +1,6 @@
 ---
-title: 'FAQ'
-layout: 'faqplugins'
+title: "FAQ"
+layout: "faqplugins"
 meta_title: "Drupal 7 plugin FAQ - MultiSafepay Docs"
 manual: "."
 faq: "."

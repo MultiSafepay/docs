@@ -3,7 +3,7 @@ title : "Displaying payment methods"
 meta_title: "Lightspeed app - Displaying payment methods - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/displaying-payment-methods/'
+url: "/lightspeed-app/displaying-payment-methods/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/maximal-order-amount/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/setting-minimum-order-amount/

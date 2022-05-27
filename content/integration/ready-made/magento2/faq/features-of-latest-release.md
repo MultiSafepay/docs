@@ -3,7 +3,7 @@ title : "Features of latest release"
 meta_title: "Magento 2 plugin - Features of latest release  - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/latest-release-features/'
+url: "/magento-2/latest-release-features/"
 aliases: 
     - /integrations/ecommerce-integrations/magento2/faq/migrating-to-new-plugin
     - /payments/integrations/ecommerce-platforms/magento2/faq/changes-to-new-plugin/

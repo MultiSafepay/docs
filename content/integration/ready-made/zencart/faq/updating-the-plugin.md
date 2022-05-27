@@ -2,7 +2,7 @@
 title : "Updating the plugin"
 meta_title: "Zen Cart plugin - Updating the plugin - MultiSafepay Docs"
 read_more: "."
-url: '/zencart/updates/'
+url: "/zencart/updates/"
 aliases: 
     - /integrations/zencart/faq/how-can-i-update-the-plugin-for-zen-cart/
     - /payments/integrations/ecommerce-platforms/zencart/faq/updating-the-plugin/

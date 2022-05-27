@@ -3,7 +3,7 @@ title : "Changing currency"
 meta_title: "Magento 1 plugin - Changing currency - MultiSafepay Docs"
 
 read_more: "."
-url: '/magento-1/changing-currency/'
+url: "/magento-1/changing-currency/"
 aliases:
     - /integrations/ecommerce-integrations/magento1/faq/currency-automatically-converted-into-euro-magento1/
     - /payments/integrations/ecommerce-platforms/magento1/faq/changing-your-webshop-currency/

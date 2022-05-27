@@ -2,8 +2,8 @@
 title : "Deprecated payment pages"
 weight: 60
 meta_title: "Deprecated payment pages - MultiSafepay Docs"
-read_more: '.'
-url: '/payment-pages/deprecated/'
+read_more: "."
+url: "/payment-pages/deprecated/"
 aliases:
     - /tools/payment-pages/Difference between V1 and V2
     - /payments/checkout/payment-pages/classic-payment-page/

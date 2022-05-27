@@ -4,7 +4,7 @@ meta_title: "WooCommerce plugin - Shipping orders - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/woo-commerce/shipping/'
+url: "/woo-commerce/shipping/"
 aliases:
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/changing-order-status-to-shipped/
 ---

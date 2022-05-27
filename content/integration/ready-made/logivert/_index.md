@@ -4,10 +4,10 @@ meta_title: "LogiVert app - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/LogiVert.svg"
 weight: 27
 title_short: "LogiVert"
-type: 'App'
+type: "App"
 description_short: "App to integrate MultiSafepay payment solutions into your LogiVert app"
-layout: 'single'
-url: '/logivert/'
+layout: "single"
+url: "/logivert/"
 aliases: 
     - /hosted/logivert
     - /integrations/hosted/logivert

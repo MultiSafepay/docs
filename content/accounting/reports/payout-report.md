@@ -1,9 +1,9 @@
 ---
 title : "Payout report"
 meta_title: "Payout report - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 5
-url: '/reports/payout-report/'
+url: "/reports/payout-report/"
 ---
 
 The payout report provides an overview of the specific transactions and fees included in a [payout](/account/payouts/).

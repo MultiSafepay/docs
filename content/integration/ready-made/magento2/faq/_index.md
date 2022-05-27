@@ -1,6 +1,6 @@
 ---
 title: 'User guide'
-layout: 'faqplugins'
+layout: "faqplugins"
 meta_title: "Magento 2 plugin - User guide - MultiSafepay Docs"
 
 aliases:

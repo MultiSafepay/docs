@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "VirtueMart plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/virtuemart/updates/'
+url: "/virtuemart/updates/"
 aliases: 
     - /integrations/virtuemart/faq/how-can-i-update-the-plugin-for-virtuemart/
     - /payments/integrations/ecommerce-platforms/virtuemart/faq/updating-the-plugin/

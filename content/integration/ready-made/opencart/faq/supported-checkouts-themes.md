@@ -3,7 +3,7 @@ title : "Supported extensions and themes"
 meta_title: "OpenCart plugin - Supported extensions and themes - MultiSafepay Docs"
 
 layout: "faqdetail"
-url: '/opencart/extensions-and-themes/'
+url: "/opencart/extensions-and-themes/"
 aliases:
     - /opencart/checkouts-themes/
     - /integrations/ecommerce-integrations/opencart/faq/supported-opencart-checkouts/

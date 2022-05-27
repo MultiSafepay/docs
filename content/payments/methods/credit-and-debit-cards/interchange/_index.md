@@ -4,8 +4,8 @@ weight: 35
 meta_title: "Interchange++ - MultiSafepay Docs"
 read_more: "."
 short_description: "Pricing model offered by some banks and card schemes."
-url: '/about-payments/interchange/'
-logo: '/svgs/Banks.svg'
+url: "/about-payments/interchange/"
+logo: "/svgs/Banks.svg"
 aliases: 
     - /payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
     - /payment-methods/creditcards/what-is-interchange/

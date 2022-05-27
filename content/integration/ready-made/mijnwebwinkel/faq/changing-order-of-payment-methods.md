@@ -3,7 +3,7 @@ title : "Changing payment method order"
 meta_title: "Mijnwebwinkel app - Changing payment method order - MultiSafepay Docs"
 
 read_more: "."
-url: '/mijnwebwinkel/payment-method-order/'
+url: "/mijnwebwinkel/payment-method-order/"
 aliases:
     - /integrations/ecommerce-integrations/mijnwebwinkel/faq/change-order-of-payment-methods/
     - /payments/integrations/ecommerce-platforms/mijnwebwinkel/faq/changing-order-of-payment-methods/

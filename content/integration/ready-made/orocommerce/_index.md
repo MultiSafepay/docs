@@ -7,5 +7,5 @@ redirect_show_info:
     text: "View in store"
 description_short: "OroCommerce extension for MultiSafepay"
 type: "Community integration"
-url: '/orocommerce/'
+url: "/orocommerce/"
 ---

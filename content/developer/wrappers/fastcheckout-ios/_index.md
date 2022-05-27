@@ -6,7 +6,7 @@ github_url : "https://github.com/MultiSafepay/fastcheckout-ios-sdk"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Fastcheckout_iOS.svg"
 weight: 15
 title_short: "FastCheckout iOS SDK"
-layout: 'single'
+layout: "single"
 manual: "."
 description_short: "Our iOS library provides a connection to MultiSafepay services."
 

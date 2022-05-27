@@ -2,7 +2,7 @@
 title : "Configuring generic gateways"
 meta_title: "Configuring generic gateways - MultiSafepay Docs"
 layout: "faqdetail"
-url: '/magento-1/configuring-generic-gateways/'
+url: "/magento-1/configuring-generic-gateways/"
 aliases:
     - /integrations/ecommerce-integrations/magento1/faq/generic-gateways/
     - /payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/

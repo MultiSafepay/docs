@@ -2,7 +2,7 @@
 title : "Adding payment method logos"
 meta_title: "Lightspeed app - Adding payment method logos"
 read_more: "."
-url: '/lightspeed/payment-method-logos/'
+url: "/lightspeed/payment-method-logos/"
 aliases:
   - /integrations/hosted/lightspeed_app/faq/footer-icons
   - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/adding-payment-method-footer-icons/

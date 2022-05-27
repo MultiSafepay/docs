@@ -8,10 +8,10 @@ meta_title: "X-Cart plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/X-Cart.svg"
 weight: 14
 title_short: "X-Cart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
-url: '/x-cart/'
+url: "/x-cart/"
 aliases:
     - /integrations/x-cart/
     - /plugins/x-cart

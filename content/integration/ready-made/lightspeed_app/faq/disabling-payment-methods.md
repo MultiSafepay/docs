@@ -3,7 +3,7 @@ title : "Disabling payment methods"
 meta_title: "Lightspeed app - Disabling payment methods - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/disabling-payment-methods/'
+url: "/lightspeed-app/disabling-payment-methods/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/disable-payment-methods/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/disabling-payment-methods/

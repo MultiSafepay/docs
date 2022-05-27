@@ -1,15 +1,15 @@
 ---
 title : "Sana Commerce app for MultiSafepay"
 meta_title: "Sana Commerce app integration - MultiSafepay Docs"
-layout: 'single'
+layout: "single"
 meta_description: "Free app to integrate MultiSafepay payment solutions into your Sana Commerce platform"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Sana_Commerce.svg"
 weight: 19
 title_short: "Sana Commerce"
-type: 'App'
+type: "App"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Sana Commerce platform"
-layout: 'single'
-url: '/sana-commerce/'
+layout: "single"
+url: "/sana-commerce/"
 aliases: 
     - /integrations/sanacommerce/
     - /hosted/sanacommerce

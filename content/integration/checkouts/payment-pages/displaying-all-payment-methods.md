@@ -2,8 +2,8 @@
 title : "Displaying all payment methods on payment pages"
 weight: 50
 meta_title: "Displaying all payment methods on payment pages - MultiSafepay Docs"
-read_more: '.'
-url: '/payment-pages/displaying-payment-methods/'
+read_more: "."
+url: "/payment-pages/displaying-payment-methods/"
 aliases:
     - /tools/payment-pages/show-all-methods
     - /payments/checkout/payment-pages/displaying-all-payment-methods/

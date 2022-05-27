@@ -3,7 +3,7 @@ title : "Ordering payment methods"
 meta_title: "Lightspeed app - Ordering payment methods - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/ordering-payment-methods/'
+url: "/lightspeed-app/ordering-payment-methods/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/order-payment-methods/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/ordering-payment-methods/

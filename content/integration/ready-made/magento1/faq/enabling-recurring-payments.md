@@ -3,7 +3,7 @@ title : "Enabling recurring payments"
 meta_title: "Magento 1 plugin - Enabling recurring payments - MultiSafepay Docs"
 
 read_more: "."
-url: '/magento-1/recurring-payments/'
+url: "/magento-1/recurring-payments/"
 aliases: 
     - /integrations/magento1/faq/tokenization-magento1/
     - /payments/integrations/ecommerce-platforms/magento1/faq/enabling-tokenization/

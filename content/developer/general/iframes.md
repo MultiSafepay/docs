@@ -1,9 +1,9 @@
 ---
-title: 'iFrames'
+title: "iFrames"
 weight: 2
 meta_title: "iFrames - MultiSafepay Docs"
 read_more: "."
-url: '/developer/iframes/'
+url: "/developer/iframes/"
 aliases:
     - /faq/errors-explained/iframe
     - /faq/errors-explained/iframe-errors

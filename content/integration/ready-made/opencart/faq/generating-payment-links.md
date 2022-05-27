@@ -4,7 +4,7 @@ meta_title: "OpenCart plugin - Generating payment links - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/opencart/payment-links/'
+url: "/opencart/payment-links/"
 aliases: 
     - /payments/integrations/ecommerce-platforms/opencart/faq/generating-payment-links/
 ---

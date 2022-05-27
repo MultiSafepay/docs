@@ -2,7 +2,7 @@
 title : "Processing refunds"
 meta_title: "ShopFactory plugin - Processing refunds - MultiSafepay Docs"
 read_more: "."
-url: '/shopfactory/refunds/'
+url: "/shopfactory/refunds/"
 aliases: 
     - /integrations/shopfactory/faq/refunding-shopfactory/
     - /payments/integrations/ecommerce-platforms/shopfactory/faq/processing-refunds/

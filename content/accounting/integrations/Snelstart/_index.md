@@ -2,9 +2,9 @@
 title: "Snelstart"
 weight: 20
 meta_title: "Snelstart - MultiSafepay Docs"
-logo: '/svgs/Snelstart.svg'
+logo: "/svgs/Snelstart.svg"
 buttons_under_text: "Third-party integrations"
-layout: 'single'
+layout: "single"
 read_more: "."
 title_short: "Snelstart"
 read_more: "."

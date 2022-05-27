@@ -2,10 +2,10 @@
 title: 'Virtual IBANs'
 weight: 95
 meta_title: "Virtual IBANs - MultiSafepay Docs"
-logo: '/svgs/Banks.svg'
-layout: 'single'
+logo: "/svgs/Banks.svg"
+layout: "single"
 short_description: "Collect bank transfers and direct debits in your own bank account."
-url: '/features/virtual-ibans/'
+url: "/features/virtual-ibans/"
 ---
 A virtual international bank account number (VIBAN) in your company name removes MultiSafepay branding from the customer experience for [Bank Transfer](/payment-methods/bank-transfer/) and [SEPA Direct Debit](/payment-methods/sepa-direct-debit/), and helps you better manage payments. 
 

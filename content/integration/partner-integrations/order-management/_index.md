@@ -1,12 +1,12 @@
 ---
 title: 'Manage orders'
 breadcrumb_title: "Manage orders"
-layout: 'single'
+layout: "single"
 meta_title: 'Partner integrations - Manage orders - MultiSafepay Docs'
-logo: '/svgs/MplusKASSA.svg'
+logo: "/svgs/MplusKASSA.svg"
 short_description: 'Solution for managing orders for restaurants and hotels by MplusKASSA.'
 weight: 60
-url: '/partner-integrations/manage-orders/'
+url: "/partner-integrations/manage-orders/"
 aliases:
     - /integrations/cash-register-software/
     - /integrations/cash-register-software/mpluskassa/

@@ -2,8 +2,8 @@
 title: "Managing affiliate accounts"
 weight: 70
 meta_title: "Managing affiliate accounts - MultiSafepay Docs"
-read_more: '.'
-url: '/account/managing-affiliate-accounts/'
+read_more: "."
+url: "/account/managing-affiliate-accounts/"
 aliases:
     - /tools/partner-account-control/multisafepay-merchant-control-access
     - /account/partner-account-control/managing-affiliate-accounts/

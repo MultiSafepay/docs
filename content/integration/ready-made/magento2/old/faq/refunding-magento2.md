@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "Magento 2 plugin - Processing refunds - MultiSafepay Docs"
 
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 You can refund orders or issue credit memos from your Magento 2 [backend](/glossaries/multisafepay-glossary/#backend).  

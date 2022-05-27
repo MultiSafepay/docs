@@ -4,10 +4,10 @@ meta_title: "Mijnwebwinkel app - MultiSafepay Docs"
 faq: "."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Mijnwebwinkel.svg"
 weight: 25
-type: 'App'
+type: "App"
 title_short: "Mijnwebwinkel"
-layout: 'single'
-url: '/mijnwebwinkel/'
+layout: "single"
+url: "/mijnwebwinkel/"
 aliases: 
     - /integrations/mijnwebwinkel/
     - /hosted/mijnwebwinkel

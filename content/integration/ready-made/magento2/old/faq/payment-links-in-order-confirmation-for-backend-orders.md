@@ -4,7 +4,7 @@ meta_title: "Magento 2 plugin FAQ - Payment links - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-noindex: 'true'
+noindex: "true"
 aliases:
     - /magento2/faq/payment-links-in-order-confirmation-for-backend-orders
 ---

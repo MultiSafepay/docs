@@ -2,7 +2,7 @@
 title : "Supported payment methods in Magento 2"
 meta_title: "Magento 2 plugin - Supported payment methods - MultiSafepay Docs"
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 {{< details title="Credit cards" >}}

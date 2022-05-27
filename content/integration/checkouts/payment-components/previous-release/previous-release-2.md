@@ -3,9 +3,9 @@ title : "Integrating the previous release"
 breadcrumb_title : "Step 2"
 meta_title: "Payment Components - Integrating the previous release step 2 - MultiSafepay Docs"
 
-layout: 'single'
-read_more: '.'
-url: '/payment-components/previous-release/step-2/'
+layout: "single"
+read_more: "."
+url: "/payment-components/previous-release/step-2/"
 --- 
 
 ## Step 2: Initialize the component
@@ -21,12 +21,12 @@ Payment Components require a MultiSafepay API token. See API reference&nbsp;–&
 
 ```
 const orderData = {
-    currency: 'EUR',
+    currency: "EUR",
     amount: 10000,
     customer: {
-        locale: 'en',
-        country: 'NL',
-        reference: 'Customer123'
+        locale: "en",
+        country: "NL",
+        reference: "Customer123"
     },
     template : {
         settings: {
@@ -54,7 +54,7 @@ const orderData = {
 
 ```
 PaymentComponent = new MultiSafepay({
-    env: 'test',
+    env: "test",
     apiToken: apiToken,
     order: orderData
 });

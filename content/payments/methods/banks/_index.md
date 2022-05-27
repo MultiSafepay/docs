@@ -1,12 +1,12 @@
 ---
 title: 'Banking methods'
 breadcrumb_title: "Banking methods"
-layout: 'block'
+layout: "block"
 meta_title: 'Banking methods - MultiSafepay Docs'
-logo: '/svgs/Banks.svg'
+logo: "/svgs/Banks.svg"
 short_description: 'Accept payments with a range of banking solutions'
 weight: 10
-url: '/payment-methods/banks/'
+url: "/payment-methods/banks/"
 aliases:
     - /payments/methods/banks/
 ---

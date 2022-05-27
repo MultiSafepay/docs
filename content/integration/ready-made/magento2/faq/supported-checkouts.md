@@ -3,7 +3,7 @@ title : "Supported checkouts"
 meta_title: "Magento 2 plugin FAQ - Supported checkouts - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/checkouts/'
+url: "/magento-2/checkouts/"
 aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/hyva-themes-checkout/
     - /payments/integrations/ecommerce-platforms/magento2/faq/supported-magento2-checkouts/

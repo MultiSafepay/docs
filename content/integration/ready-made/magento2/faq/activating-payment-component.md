@@ -3,7 +3,7 @@ title : "Activating Payment Components"
 meta_title: "Magento 2 plugin - Activating Payment Components - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/payment-components/'
+url: "/magento-2/payment-components/"
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/does-the-magento-2-plugin-support-magento-vault/
     - /payments/integrations/ecommerce-platforms/magento2/faq/activating-credit-card-component/

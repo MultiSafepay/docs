@@ -2,7 +2,7 @@
 title : "Supported checkouts"
 meta_title: "Magento 2 plugin - Supported checkouts - MultiSafepay Docs"
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 

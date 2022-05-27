@@ -9,10 +9,10 @@ meta_description: "Free plugin to integrate MultiSafepay payment solutions into 
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OsCommerce.svg"
 weight: 17
 title_short: "OsCommerce"
-type: 'Plugin'
+type: "Plugin"
 description_short: "For support, contact OsCommerce."
-layout: 'single'
-url: '/oscommerce/'
+layout: "single"
+url: "/oscommerce/"
 aliases: 
     - /plugins/oscommerce
     - /integrations/plugins/oscommerce

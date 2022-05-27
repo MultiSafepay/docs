@@ -8,10 +8,10 @@ meta_title: "ZenCart plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Zen_Cart.svg"
 weight: 20
 title_short: "Zen Cart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
-url: '/zen-cart/'
+url: "/zen-cart/"
 aliases: 
     - /plugins/zencart
     - /integrations/plugins/zencart

@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "Lightspeed app - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/refunds/'
+url: "/lightspeed-app/refunds/"
 aliases:
     - /hosted/lightspeed_app/faq/refunding-lightspeed
     - /integrations/hosted/lightspeed_app/faq/refunding-lightspeed

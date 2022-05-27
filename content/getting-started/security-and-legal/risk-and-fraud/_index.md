@@ -3,9 +3,9 @@ title: 'Risk and fraud'
 weight: 20
 meta_title: "FAQ - Risk and fraud - MultiSafepay Docs"
 logo: '/svgs/Risk and Fraud.svg'
-layout: 'single'
+layout: "single"
 short_description: "Minimizing risk and preventing fraud."
-url: '/risk-fraud/'
+url: "/risk-fraud/"
 aliases: 
     - /faq/risk-and-fraud/
     - /faq/risk-and-fraud/how-does-multisafepay-prevent-fraud-and-minimize-risks

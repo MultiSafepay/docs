@@ -4,7 +4,7 @@ meta_title: "WooCommerce - Modifying order requests - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/woo-commerce/modifying-order-requests/'
+url: "/woo-commerce/modifying-order-requests/"
 aliases: 
     - /integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/modifying-order-requests/

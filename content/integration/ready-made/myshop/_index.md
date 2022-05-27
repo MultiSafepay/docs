@@ -4,10 +4,10 @@ meta_title: "myShop app - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg"
 weight: 23
 title_short: "myShop"
-type: 'App'
+type: "App"
 description_short: "Free app integrate MultiSafepay payment solutions into your myShop"
-layout: 'single'
-url: '/myshop/'
+layout: "single"
+url: "/myshop/"
 aliases: 
     - /hosted/myshop
     - /integrations/hosted/myshop

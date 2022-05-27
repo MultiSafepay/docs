@@ -2,9 +2,9 @@
 title: 'Creating an account'
 weight: 10
 meta_title: "Creating an account - MultiSafepay Docs"
-layout: 'single'
-logo: '/svgs/Zero_Authorization.svg'
-url: '/account/create-account/'
+layout: "single"
+logo: "/svgs/Zero_Authorization.svg"
+url: "/account/create-account/"
 short_description: "Choose an account type or a free test account, and sign up."
 aliases:
     - /account/test-accounts/

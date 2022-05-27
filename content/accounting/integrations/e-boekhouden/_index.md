@@ -2,8 +2,8 @@
 title: "e-Boekhouden"
 weight: 20
 meta_title: "e-Boekhouden - MultiSafepay Docs"
-logo: '/svgs/E-boekhouden.svg'
-layout: 'single'
+logo: "/svgs/E-boekhouden.svg"
+layout: "single"
 title_short: "e-Boekhouden"
 buttons_under_text: "Third-party integrations"
 read_more: "."

@@ -3,7 +3,7 @@ title : "Making payouts"
 weight: 5
 meta_title: "Making payouts - MultiSafepay Docs"
 read_more: "."
-url: '/account/payouts/'
+url: "/account/payouts/"
 aliases:
     - /faq/getting-started/how-do-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account
     - /faq/getting-started/when-can-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account

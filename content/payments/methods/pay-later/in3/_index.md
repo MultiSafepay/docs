@@ -1,11 +1,11 @@
 ---
-title: 'in3'
+title: "in3"
 weight: 50
 meta_title: "in3 - MultiSafepay Docs"
-layout: 'single'
-logo: '/svgs/in3.svg' 
+layout: "single"
+logo: "/svgs/in3.svg" 
 short_description: 'A Dutch pay later method where customers pay in three installments.'
-url: '/payment-methods/in3/'
+url: "/payment-methods/in3/"
 aliases:
     - /support-tab/magento2/payment-methods/billing-suite/in3/
     - /payment-methods/billing-suite/in3/activate-in3/

@@ -1,6 +1,6 @@
 ---
-title: 'FAQ'
-layout: 'faqplugins'
+title: "FAQ"
+layout: "faqplugins"
 meta_title: "WooCommerce plugin FAQ - MultiSafepay Docs"
 
 aliases: 

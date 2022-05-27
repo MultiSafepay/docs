@@ -3,7 +3,7 @@ title : "Generating payment links in your backend"
 meta_title: "Magento 2 payment link - MultiSafepay Docs"
 
 layout: "faqdetail"
-noindex: 'true'
+noindex: "true"
 read_more: "."
 ---
 

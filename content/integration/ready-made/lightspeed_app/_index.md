@@ -2,14 +2,14 @@
 title : "MultiSafepay app for Lightspeed"
 meta_title: "Lightspeed app - MultiSafepay Docs"
 faq: "."
-changelog_url: '.'
+changelog_url: "."
 changelog: https://lightspeed.multisafepay.com/changelog
-layout: 'single'
-type: 'App'
+layout: "single"
+type: "App"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Lightspeed.svg"
 weight: 04
 title_short: "Lightspeed app"
-url: '/lightspeed/'
+url: "/lightspeed/"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Lightspeed webshop"
 aliases: 
     - /integrations/hosted/lightspeed/

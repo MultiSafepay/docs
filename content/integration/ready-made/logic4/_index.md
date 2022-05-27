@@ -4,10 +4,10 @@ meta_title: "Logic4 plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg"
 weight: 28
 title_short: "Logic4"
-type: 'Plugin'
+type: "Plugin"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Logic4 webshop."
-layout: 'single'
-url: '/logic4/'
+layout: "single"
+url: "/logic4/"
 aliases: 
     - /integrations/logic4/
     - /hosted/logic4

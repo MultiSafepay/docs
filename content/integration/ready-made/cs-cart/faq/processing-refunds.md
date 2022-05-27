@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "CS-Cart plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/cs-cart/refunds/'
+url: "/cs-cart/refunds/"
 aliases: 
     - /integrations/cs-cart/faq/refunding-cs-cart/
     - /payments/integrations/ecommerce-platforms/cs-cart/faq/processing-refunds/

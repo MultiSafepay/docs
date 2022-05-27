@@ -5,10 +5,10 @@ faq: "."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ShopFactory.svg"
 weight: 24
 title_short: "ShopFactory"
-type: 'Plugin'
+type: "Plugin"
 description: ""
-layout: 'single'
-url: '/shopfactory/'
+layout: "single"
+url: "/shopfactory/"
 aliases: 
     - /integrations/shopfactory/
     - /hosted/shopfactory

@@ -3,7 +3,7 @@ title : "Activating Payment Components"
 meta_title: "WooCommerce plugin - Activating Payment Components - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/woo-commerce/payment-components/'
+url: "/woo-commerce/payment-components/"
 ---
 
 The MultiSafepay WooCommerce plugin supports [Payment Components](/payment-components/), which:

@@ -2,7 +2,7 @@
 title : "Upgrading to the new app"
 meta_title: "Lightspeed app - Upgrading to the new app - MultiSafepay Docs"
 read_more: "."
-url: '/lightspeed-app/upgrading/'
+url: "/lightspeed-app/upgrading/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/migrate-to-app/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/upgrading-to-new-app/

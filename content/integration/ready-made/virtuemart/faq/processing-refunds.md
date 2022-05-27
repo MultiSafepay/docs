@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "VirtueMart plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/virtuemart/refunds/'
+url: "/virtuemart/refunds/"
 aliases: 
     - /integrations/virtuemart/faq/refunding-virtuemart/
     - /payments/integrations/ecommerce-platforms/virtuemart/faq/processing-refunds/

@@ -2,15 +2,15 @@
 title : "MultiSafepay plugin for Magento 1"
 download_url : "/integration/ready-made/magento1/releases/Plugin_Magento_3.1.3.zip"
 faq: "."
-type: 'Plugin'
+type: "Plugin"
 meta_title: "Magento 1 plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 1 platform."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg"
 changelog: https://docs.multisafepay.com/integration/ready-made/magento1/changelog/
 weight: 02
 title_short: "Magento 1"
-layout: 'single'
-url: '/magento-1/'
+layout: "single"
+url: "/magento-1/"
 aliases: 
     - /plugins/magento1
     - /integrations/plugins/magento1

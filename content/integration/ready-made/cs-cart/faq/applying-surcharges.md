@@ -2,7 +2,7 @@
 title : "Applying surcharges"
 meta_title: "CS-Cart plugin - Applying surcharges - MultiSafepay Docs"
 read_more: "."
-url: '/cs-cart/surcharges/'
+url: "/cs-cart/surcharges/"
 aliases: 
     - /integrations/cs-cart/faq/configure-fee-pay-after-delivery/
     - /payments/integrations/ecommerce-platforms/cs-cart/faq/applying-surcharges/

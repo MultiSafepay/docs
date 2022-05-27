@@ -3,7 +3,7 @@ title : "Deprecated app"
 meta_title: "Shopify - Deprecated app - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
 read_more: "."
-url: 'shopify/deprecated'
+url: "shopify/deprecated"
 ---
 
 This technical manual is for installing and configuring the deprecated version of our  app for integrating MultiSafepay payment solutions into your Shopify webshop.

@@ -7,10 +7,10 @@ faq: "."
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_6.svg"
 weight: 06
 title_short: "Shopware 6"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md"
-url: '/shopware-6/'
+url: "/shopware-6/"
 aliases: 
     - /plugins/shopware6
     - /integrations/plugins/shopware6

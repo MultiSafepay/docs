@@ -3,7 +3,7 @@ title : "Applying surcharges"
 meta_title: "WooCommerce plugin - Applying surcharges  - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/woo-commerce/surcharges/'
+url: "/woo-commerce/surcharges/"
 aliases: 
     - /integrations/woocommerce/faq/payment-fee-surcharges/
 ---

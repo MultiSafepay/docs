@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "OsCommerce plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/oscommerce/updates/'
+url: "/oscommerce/updates/"
 aliases: 
     - /integrations/oscommerce/faq/how-can-i-update-the-plugin-for-oscommerce/
     - /payments/integrations/ecommerce-platforms/oscommerce/faq/updating-the-plugin/

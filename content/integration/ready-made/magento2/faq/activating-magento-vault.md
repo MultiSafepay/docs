@@ -3,7 +3,7 @@ title : "Using Magento Vault for Instant Purchase"
 meta_title: "Magento 2 plugin - Activating Magento Vault - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/magento-vault/'
+url: "/magento-2/magento-vault/"
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/does-the-magento-2-plugin-support-magento-vault/
     - /payments/integrations/ecommerce-platforms/magento2/faq/activating-magento-vault/

@@ -2,8 +2,8 @@
 title: "Managing websites"
 weight: 1
 meta_title: "Managing websites - MultiSafepay Docs"
-read_more: '.'
-url: '/account/managing-websites/'
+read_more: "."
+url: "/account/managing-websites/"
 aliases:
     - /account/adding-websites/
     - /tools/multisafepay-account/delete-website

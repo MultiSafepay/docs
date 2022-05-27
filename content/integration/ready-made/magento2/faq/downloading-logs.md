@@ -4,7 +4,7 @@ meta_title: "Magento 2 plugin - Downloading logs - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
 weight: 2
-url: '/magento-2/downloading-logs/'
+url: "/magento-2/downloading-logs/"
 ---
 
 To download MultiSafepay logs:

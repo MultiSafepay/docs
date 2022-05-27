@@ -2,7 +2,7 @@
 title : "Configuring generic gateways "
 meta_title: "Craft Commerce 3 plugin - Configuring generic gateways - MultiSafepay Docs"
 layout: "faqdetail"
-url: '/craft-commerce/configuring-generic-gateways/'
+url: "/craft-commerce/configuring-generic-gateways/"
 aliases:
     - /payments/integrations/ecommerce-platforms/craftcommerce/faq/generic-gateways/
     - /ecommerce-platforms/craft-commerce/generic-gateways/

@@ -2,10 +2,10 @@
 title: 'Google Pay'
 weight: 240
 meta_title: "Payment methods - Google Pay - MultiSafepay Docs"
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg" 
 short_description: "Digital wallet for online and in-app purchases."
-url: '/payment-methods/google-pay/'
+url: "/payment-methods/google-pay/"
 aliases:
     - /support-tab/magento2/payment-methods/googlepay
     - /payment-methods/wallet/googlepay

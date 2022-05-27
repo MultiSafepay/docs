@@ -3,7 +3,7 @@ title : "Configuring generic gateways"
 meta_title: "Magento 2 plugin - Configuring generic gateways - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/configuring-generic-gateways/'
+url: "/magento-2/configuring-generic-gateways/"
 aliases:
     - /payments/integrations/ecommerce-platforms/magento2/faq/configuring-generic-gateways/
     - /magento-2/generic-gateways/

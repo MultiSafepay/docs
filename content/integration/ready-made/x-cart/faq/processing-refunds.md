@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "X-Cart plugin - Processing refunds - MultiSafepay Docs"
 
 read_more: "."
-url: '/x-cart/refunds/'
+url: "/x-cart/refunds/"
 aliases: 
     - /integrations/x-cart/faq/refunding-x-cart/
     - /payments/integrations/ecommerce-platforms/x-cart/faq/processing-refunds/

@@ -2,9 +2,9 @@
 title: "Twikey"
 weight: 20
 meta_title: "Twikey - MultiSafepay Docs"
-url: '/partner-integrations/twikey/'
-logo: '/svgs/Twikey.svg'
-layout: 'single'
+url: "/partner-integrations/twikey/"
+logo: "/svgs/Twikey.svg"
+layout: "single"
 title_short: "Twikey"
 read_more: "."
 short_description: "Credit and subscription management by Twikey"

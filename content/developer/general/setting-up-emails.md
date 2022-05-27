@@ -3,7 +3,7 @@ title : "Setting up email authentication"
 weight: 13
 meta_title: "Setting up email authentication - MultiSafepay Docs"
 read_more: "."
-url: '/developer/setting-up-email-authentication/'
+url: "/developer/setting-up-email-authentication/"
 aliases:
     - /faq/general/add-spf-dns-records
     - /faq/general/adding-spf-dns-records/

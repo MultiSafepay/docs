@@ -3,7 +3,7 @@ title: "Generic gateways in ready-made integrations"
 weight: 13
 meta_title: "Generic gateways in ready-made integrations - MultiSafepay Docs"
 read_more: "."
-url: '/developer/generic-gateways/'
+url: "/developer/generic-gateways/"
 aliases:
     - /faq/general/generic-gateways/
     - /developer/general/generic-gateways/

@@ -3,7 +3,7 @@ title : "Changing internationalization"
 meta_title: "Lightspeed app - Changing internationalization - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/internationalization/'
+url: "/lightspeed-app/internationalization/"
 aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/changing-internationalization/
 ---

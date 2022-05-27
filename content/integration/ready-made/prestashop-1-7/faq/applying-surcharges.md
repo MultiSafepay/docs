@@ -3,7 +3,7 @@ title: Applying surcharges
 weight:
 meta_title: "PrestaShop 1.7 - Applying surcharges - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop-1-7/surcharges/'
+url: "/prestashop-1-7/surcharges/"
 aliases: 
    - /integrations/prestashop-1-7/faq/payment-fee-surcharges/
    - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/applying-surcharges/

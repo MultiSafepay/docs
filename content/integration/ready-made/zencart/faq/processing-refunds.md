@@ -2,7 +2,7 @@
 title : "Processing refunds"
 meta_title: "ZenCart plugin - Processing refunds - MultiSafepay Docs"
 read_more: "."
-url: '/zencart/refunds/'
+url: "/zencart/refunds/"
 aliases: 
     - /integrations/zencart/faq/refunding-zen-cart/
     - /payments/integrations/ecommerce-platforms/zencart/faq/processing-refunds/

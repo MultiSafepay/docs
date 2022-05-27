@@ -4,7 +4,7 @@ meta_title: "Shopware 5 plugin - Missing session data - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/shopware/session-data/'
+url: "/shopware/session-data/"
 aliases:
     - /payments/integrations/ecommerce-platforms/shopware5/faq/missing-session-data/
 ---

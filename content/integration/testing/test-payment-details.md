@@ -3,7 +3,7 @@ title : "Test payment details"
 weight: 20
 meta_title: "Test payment details - MultiSafepay Docs"
 read_more: "."
-url: '/testing/test-payment-details/'
+url: "/testing/test-payment-details/"
 aliases:
     - /faq/getting-started/test-payment-details/
     - /getting-started/test-your-integration/test-payment-details

@@ -3,7 +3,7 @@ title: "Skipping the extra confirmation page"
 weight:
 meta_title: "PrestaShop 1.6 - Skipping the extra confirmation page - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop-1-6/skipping-confirmation-page/'
+url: "/prestashop-1-6/skipping-confirmation-page/"
 aliases: 
     - /integrations/prestashop-1-6/faq/extra-confirmation-page/
     - /payments/integrations/ecommerce-platforms/prestashop-1-6/faq/skipping-extra-confirmation-page/

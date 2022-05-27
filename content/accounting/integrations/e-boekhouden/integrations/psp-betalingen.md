@@ -2,8 +2,8 @@
 title: "PSP Betalingen"
 weight: 10
 meta_title: "PSP Betalingen - MultiSafepay Docs"
-logo: '/svgs/psp-betalingen.png'
-layout: 'single'
+logo: "/svgs/psp-betalingen.png"
+layout: "single"
 title_short: "PSP Betalingen"
 read_more: "."
 short_description: "Automatically reconcile MultiSafepay payments with sales in e-Boekhouden"

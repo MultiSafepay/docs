@@ -4,15 +4,15 @@ breadcrumb_title: "Magento 2"
 github_url : "https://github.com/MultiSafepay/Magento2"
 changelog_url : "."
 faq: "."
-type: 'Plugin'
-layout: 'single-old-button'
+type: "Plugin"
+layout: "single-old-button"
 meta_title: "Magento 2 plugin - MultiSafepay Docs"		
 meta_description: "Free plugin to integrate MultiSafepay payment solutions into your Magento 2 webshop."
 changelog: https://github.com/MultiSafepay/magento2/blob/master/CHANGELOG.md
 weight: 01
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_2.svg"
 title_short: "Magento 2"
-url: '/magento-2/'
+url: "/magento-2/"
 aliases: 
     - /plugins/magento2
     - /integrations/plugins/magento2

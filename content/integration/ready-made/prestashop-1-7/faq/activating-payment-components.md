@@ -3,7 +3,7 @@ title: Activating Payment Components
 weight:
 meta_title: "PrestaShop 1.7 - Activating Payment Components - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop-1-7/payment-component/'
+url: "/prestashop-1-7/payment-component/"
 ---
 
 The MultiSafepay PrestaShop 1.7 plugin supports [Payment Components](/payment-components/), which:

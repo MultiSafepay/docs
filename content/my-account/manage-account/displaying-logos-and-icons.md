@@ -2,7 +2,7 @@
 title: "Displaying logos and icons"
 Weight: 10
 meta_title: "Displaying logos and icons - MultiSafepay Docs"
-url: '/account/displaying-logos-icons/'
+url: "/account/displaying-logos-icons/"
 read_more: "."
 aliases:
     - /faq/general/styleguide

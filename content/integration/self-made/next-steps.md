@@ -1,12 +1,12 @@
 ---
 title: 'Next steps'
 breadcrumb_title: "Next steps"
-layout: 'single'
+layout: "single"
 meta_title: 'Build your integration – Next steps - MultiSafepay Docs'
-logo: '/svgs/Wrappers.svg'
+logo: "/svgs/Wrappers.svg"
 short_description: 'Build your own payments integration with our API, wrappers, or SDKs.'
 weight: 1
-url: '/integrations/self-made/next-steps/'
+url: "/integrations/self-made/next-steps/"
 ---
 
 Congratulations! You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications. 

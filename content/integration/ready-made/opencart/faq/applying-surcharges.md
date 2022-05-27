@@ -4,7 +4,7 @@ weight:
 meta_title: "OpenCart plugin - Applying surcharges - MultiSafepay Docs"
 layout: "faqdetail"
 read_more: "."
-url: '/opencart/surcharges/'
+url: "/opencart/surcharges/"
 aliases:
     - /integrations/ecommerce-integrations/opencart/faq/payment-fee-surcharges/
     - /payments/integrations/ecommerce-platforms/opencart/faq/applying-surcharges/

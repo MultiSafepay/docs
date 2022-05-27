@@ -1,9 +1,9 @@
 ---
 title : "Financial summary"
 meta_title: "Financial summary - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 4
-url: '/reports/financial-summary/'
+url: "/reports/financial-summary/"
 aliases:
     - /tools/reports/financial-summary
     - /tools/accounting/reports/financial-summary/

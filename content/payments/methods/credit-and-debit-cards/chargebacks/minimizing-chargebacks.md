@@ -3,7 +3,7 @@ title : "Minimizing chargebacks"
 weight: 80
 meta_title: "Minimizing chargebacks - MultiSafepay Docs"
 short_description: "Minimize chargebacks by providing good customer service and using fraud protection"
-url: '/chargebacks/minimizing/'
+url: "/chargebacks/minimizing/"
 read_more: "."
 aliases: 
     - /payments/chargebacks/minimizing

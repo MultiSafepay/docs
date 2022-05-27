@@ -4,8 +4,8 @@ breadcrumb_title: 'Redirect integration'
 weight: 30
 meta_title: "Apple Pay redirect - Integration and testing - MultiSafepay Docs"
 short_description: "Integrating and testing Apple Pay redirect"
-layout: 'single'
-url: '/apple-pay/redirect/'
+layout: "single"
+url: "/apple-pay/redirect/"
 aliases:
     - /payments/methods/wallet/applepay/redirect-integration
     - /payment-methods/apple-pay/redirect/

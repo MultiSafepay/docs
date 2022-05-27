@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "WooComerce plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/woo-commerce/updates/'
+url: "/woo-commerce/updates/"
 aliases: 
     - /integrations/woocommerce/faq/how-can-i-update-the-plugin-for-woocommerce/
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/updating-the-plugin/

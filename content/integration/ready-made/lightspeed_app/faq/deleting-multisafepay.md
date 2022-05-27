@@ -4,7 +4,7 @@ meta_title: "Lightspeed app - Deleting MultiSafepay - MultiSafepay Docs"
 
 read_more: "."
 weight: 4
-url: '/lightspeed-app/deleting-multisafepay/'
+url: "/lightspeed-app/deleting-multisafepay/"
 aliases:
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/deleting-multisafepay/
 ---

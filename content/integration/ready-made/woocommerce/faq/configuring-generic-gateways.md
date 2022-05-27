@@ -1,7 +1,7 @@
 ---
 title : "Configuring generic gateways"
 meta_title: "WooCommerce plugin - Configuring generic gateways - MultiSafepay Docs"
-url: '/woo-commerce/configuring-generic-gateways/'
+url: "/woo-commerce/configuring-generic-gateways/"
 aliases:
     - /integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/configuring-generic-gateways/

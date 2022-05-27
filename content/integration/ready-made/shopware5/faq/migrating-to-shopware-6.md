@@ -3,7 +3,7 @@ title : "Migrating to Shopware 6"
 meta_title: "Shopware 5 plugin - Migrating to Shopware 6? - MultiSafepay Docs"
 
 read_more: "."
-url: '/shopware-5/shopware-6-migration/'
+url: "/shopware-5/shopware-6-migration/"
 aliases:
     - /integrations/ecommerce-integrations/shopware5/faq/shopware-6-migration/
     - /payments/integrations/ecommerce-platforms/shopware5/faq/migrating-to-shopware-6/

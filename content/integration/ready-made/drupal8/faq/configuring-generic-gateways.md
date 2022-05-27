@@ -2,7 +2,7 @@
 title : "Configuring generic gateways"
 meta_title: "Drupal 8 plugin - Configuring generic gateways - MultiSafepay Docs"
 layout: "faqdetail"
-url: '/drupal-8-9/configuring-generic-gateways/'
+url: "/drupal-8-9/configuring-generic-gateways/"
 aliases:
     - /payments/integrations/ecommerce-platforms/drupal8/faq/configuring-generic-gateways/
 ---

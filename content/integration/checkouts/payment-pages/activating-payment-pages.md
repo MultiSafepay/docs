@@ -2,8 +2,8 @@
 title : "Activating payment pages"
 weight: 10
 meta_title: "Activating payment pages - MultiSafepay Docs"
-read_more: '.'
-url: '/payment-pages/activation/'
+read_more: "."
+url: "/payment-pages/activation/"
 aliases:
     - /tools/payment-pages/what-is-payv2
     - /faq/general/languages-supported/

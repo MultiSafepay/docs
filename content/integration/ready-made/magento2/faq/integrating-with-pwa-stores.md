@@ -2,7 +2,7 @@
 title : "Integrating with PWA stores"
 meta_title: "Magento 2 plugin - Integrating with PWA stores - MultiSafepay Docs"
 read_more: "."
-url: '/magento-2/pwas/'
+url: "/magento-2/pwas/"
 aliases:
     - /integrations/ecommerce-integrations/magento2/faq/pwa-support/
     - /payments/integrations/ecommerce-platforms/magento2/faq/integrating-with-pwa-stores/

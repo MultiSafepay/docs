@@ -2,10 +2,10 @@
 title: 'Managing payment links'
 weight: 20
 meta_title: "Managing payment links - MultiSafepay Docs"
-layout: 'single'
+layout: "single"
 logo: '/svgs/External link.svg'
 short_description: 'Generate links to payment pages via our API or in your dashboard.'
-url: '/payment-links/'
+url: "/payment-links/"
 read_more: "."
 aliases:
     - /tools/payment-link/payment-link-api/

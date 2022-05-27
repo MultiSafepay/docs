@@ -3,7 +3,7 @@ title : "Updating the plugin"
 meta_title: "Magento 1 plugin - Updating the plugin - MultiSafepay Docs"
 
 read_more: "."
-url: '/magento-1/updates/'
+url: "/magento-1/updates/"
 aliases:
     - /integrations/ecommerce-integrations/magento1/faq/how-can-i-update-the-plugin-for-magento1/
     - /payments/integrations/ecommerce-platforms/magento1/faq/updating-the-plugin/

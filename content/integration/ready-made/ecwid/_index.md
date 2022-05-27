@@ -5,9 +5,9 @@ logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/In
 weight: 12
 title_short: "Ecwid"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
-layout: 'single'
-type: 'App'
-url: '/ecwid/'
+layout: "single"
+type: "App"
+url: "/ecwid/"
 aliases: 
     - /hosted/ecwid
     - /integrations/hosted/ecwid

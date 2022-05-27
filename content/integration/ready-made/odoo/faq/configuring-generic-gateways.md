@@ -1,7 +1,7 @@
 ---
 title : "Configuring generic gateways"
 meta_title: "Odoo - Configuring generic gateways - MultiSafepay Docs"
-url: '/odoo/configuring-generic-gateways/'
+url: "/odoo/configuring-generic-gateways/"
 aliases:
     - /payments/integrations/ecommerce-platforms/odoo/faq/generic-gateways/
     - /odoo/generic-gateways/

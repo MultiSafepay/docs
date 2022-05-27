@@ -1,11 +1,11 @@
 ---
 title: 'Split Payments'
 weight: 20
-layout: 'single'
+layout: "single"
 meta_title: "Split Payments - MultiSafepay Docs"
 logo: '/svgs/Split payments.svg'
 short_description: 'Split funds between your partner/primary account and affiliated merchants.'
-url: '/features/split-payments/'
+url: "/features/split-payments/"
 aliases:
     - /tools/split-payments/about-split-payments/
     - /tools/split-payments/what-is-split-payments

@@ -4,9 +4,9 @@ weight: 11
 meta_title: "Setting up customer emails - MultiSafepay Docs"
 layout: "single"
 read_more: "."
-logo: '/svgs/Email_template.svg'
+logo: "/svgs/Email_template.svg"
 short_description: "Customize email templates to match your brand's look and feel."
-url: '/account/customer-emails/'
+url: "/account/customer-emails/"
 aliases:
     - /tools/email-template/customizing-email-templates/
     - /tools/email-template/about-email-templates/

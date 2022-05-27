@@ -2,10 +2,10 @@
 title: EPS
 weight: 110
 meta_title: "Payment methods - EPS - MultiSafepay Docs"
-layout: 'single'
-logo: 'https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/EPS.svg'
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/EPS.svg"
 short_description: 'Accept online banking payments from customers of all Austrian banks.'
-url: '/payment-methods/eps/'
+url: "/payment-methods/eps/"
 aliases:
     - /support-tab/magento2/payment-methods/eps
     - /payment-methods/banks/eps

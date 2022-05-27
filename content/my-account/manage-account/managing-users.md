@@ -3,7 +3,7 @@ title: "Managing users"
 weight: 2
 meta_title: "Managing users - MultiSafepay Docs"
 read_more: "."
-url: '/account/managing-users/'
+url: "/account/managing-users/"
 aliases:
     - /account/multisafepay-account/adding-users/
     - /tools/multisafepay-control/users

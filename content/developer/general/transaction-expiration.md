@@ -3,7 +3,7 @@ title: "Transaction expiration per payment method"
 weight: 40
 meta_title: "Transaction expiration per payment method - MultiSafepay Docs"
 read_more: "."
-url: '/developer/transaction-expiration/'
+url: "/developer/transaction-expiration/"
 ---
 Different payment methods set different expiration times for transactions. The time begins:
 

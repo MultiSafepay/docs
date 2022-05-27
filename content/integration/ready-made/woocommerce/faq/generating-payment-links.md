@@ -4,7 +4,7 @@ meta_title: "WooCommerce plugin - Generating payment links - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/woo-commerce/payment-links/'
+url: "/woo-commerce/payment-links/"
 aliases:
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/generating-payment-links/
 ---

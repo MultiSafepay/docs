@@ -2,8 +2,8 @@
 title: "Partner invoices"
 weight: 40
 meta_title: "Partner invoices - MultiSafepay Docs"
-read_more: '.'
-url: '/account/partner-invoices/'
+read_more: "."
+url: "/account/partner-invoices/"
 aliases:
     - /tools/partner-account-control/invoice-structure
     - /tools/partner-account-control/partner-reimbursement-invoice

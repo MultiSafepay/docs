@@ -2,10 +2,10 @@
 title: 'Second Chance'
 weight: 30
 meta_title: "Second Chance - MultiSafepay Docs"
-layout: 'single'
+layout: "single"
 logo: '/svgs/Second Chance.svg'
 short_description: 'Boost conversion by sending customers reminders about abandoned payments.'
-url: '/features/second-chance/'
+url: "/features/second-chance/"
 aliases:
     - /tools/second-chance/about-second-chance/
     - /tools/second-chance/what-is-second-chance

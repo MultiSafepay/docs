@@ -1,8 +1,8 @@
 ---
 title: "Denovit"
 meta_title: "Exact integrations - Denovit - MultiSafepay Docs"
-logo: '/svgs/Denovit.svg'
-layout: 'single'
+logo: "/svgs/Denovit.svg"
+layout: "single"
 title_short: "Denovit"
 read_more: "."
 short_description: "Automatically add MultiSafepay payment links to Exact invoices"

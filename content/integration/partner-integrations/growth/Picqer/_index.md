@@ -2,10 +2,10 @@
 title: "Picqer"
 weight: 20
 meta_title: "Picqer - MultiSafepay Docs"
-logo: '/svgs/Picqer.svg'
-layout: 'single'
+logo: "/svgs/Picqer.svg"
+layout: "single"
 title_short: "Picqer"
-url: '/partner-integrations/picquer/'
+url: "/partner-integrations/picquer/"
 short_description: "Ecommerce growth by Picqer"
 extra_button:
     url: "https://picqer.com/nl" 

@@ -4,7 +4,7 @@ meta_title: "Odoo plugin - Updating the plugin - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/odoo/updates/'
+url: "/odoo/updates/"
 aliases:
     - /payments/integrations/ecommerce-platforms/odoo/faq/updating-the-plugin/
 ---

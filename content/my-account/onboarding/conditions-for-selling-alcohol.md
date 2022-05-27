@@ -3,7 +3,7 @@ title : "Conditions for selling alcohol"
 weight: 40
 meta_title: "Account - Conditions for selling alcohol - MultiSafepay Docs"
 read_more: "."
-url: '/account/conditions-for-alcohol/'
+url: "/account/conditions-for-alcohol/"
 aliases:
     - /faq/getting-started/rules-for-selling-alcohol
     - /faq/getting-started/conditions-for-selling-alcohol

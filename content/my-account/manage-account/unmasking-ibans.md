@@ -3,7 +3,7 @@ title : "Unmasking IBANs"
 meta_title: "Unmasking IBANs - MultiSafepay Docs"
 weight: 8
 read_more: "."
-url: '/account/unmasking-ibans/'
+url: "/account/unmasking-ibans/"
 aliases:
     - /developer/api/masking-iban-numbers/
     - /faq/api/masking-iban-numbers

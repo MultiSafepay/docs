@@ -2,9 +2,9 @@
 title: "Sherpaan"
 weight: 10
 meta_title: "Sherpaan - MultiSafepay Docs"
-url: '/partner-integrations/sherpaan/'
-logo: '/svgs/Sherpaan.svg'
-layout: 'single'
+url: "/partner-integrations/sherpaan/"
+logo: "/svgs/Sherpaan.svg"
+layout: "single"
 title_short: "Sherpaan"
 short_description: "Ecommerce growth by Sherpaan"
 extra_button:

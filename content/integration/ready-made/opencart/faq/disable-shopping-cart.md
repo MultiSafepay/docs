@@ -2,7 +2,7 @@
 title : "Disabling the shopping cart"
 meta_title: "OpenCart plugin - Disabling the shopping cart - MultiSafepay Docs"
 read_more: "."
-url: '/opencart/disabling-shopping-cart/'
+url: "/opencart/disabling-shopping-cart/"
 ---
 
 If you notice any errors in shopping cart calculations, email <integration@multisafepay.com>

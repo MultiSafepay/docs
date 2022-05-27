@@ -3,7 +3,7 @@ title : "Viewing your shop ID"
 meta_title: "Lightspeed app - Viewing your shop ID - MultiSafepay Docs"
 
 read_more: "."
-url: '/lightspeed-app/shop-id/'
+url: "/lightspeed-app/shop-id/"
 aliases:
     - /integrations/ecommerce-integrations/lightspeed_app/faq/shop_id/
     - /payments/integrations/ecommerce-platforms/lightspeed_app/faq/viewing-your-shop_id/

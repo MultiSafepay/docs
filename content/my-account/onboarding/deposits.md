@@ -1,9 +1,9 @@
 ---
-title: 'Deposits'
+title: "Deposits"
 weight: 70
 meta_title: "Deposits - MultiSafepay Docs"
 read_more: "."
-url: '/account/deposits/'
+url: "/account/deposits/"
 aliases:
     - /faq/risk-and-fraud/deposit
     - /faq/risk-and-fraud/about-deposits

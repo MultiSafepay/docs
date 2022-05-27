@@ -13,10 +13,10 @@ Edificio Altair, Office 212\
 Take Autovía del Mediterráneo A-7 or AP-7 direction Algeciras-Cadiz.\
 Take the exit Cancelada.
 
-<img src='../malaga.jpg'>
+<img src="../malaga.jpg">
 
 ## Parking
 There is paid parking in front of the office.
 
 ## Our entrance
-<br><img src='../malaga-door.jpg'>
+<br><img src="../malaga-door.jpg">

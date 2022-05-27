@@ -1,9 +1,9 @@
 ---
 title : "Viewing VAT invoices"
 meta_title: "Viewing VAT invoices - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 6
-url: '/account/vat-invoices/'
+url: "/account/vat-invoices/"
 aliases:
     - /faq/finance/about-vat/
     - /faq/finance/reverse-charging-vat/

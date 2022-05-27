@@ -5,7 +5,7 @@ meta_title: "Magento 2 plugin - Applying surcharges - MultiSafepay Docs"
 
 layout: "faqdetail"
 read_more: "."
-url: '/magento-2/surcharges/'
+url: "/magento-2/surcharges/"
 aliases: 
     - /integrations/magento2/faq/payment-fee-surcharges/
     - /payments/integrations/ecommerce-platforms/magento2/faq/applying-surcharges/

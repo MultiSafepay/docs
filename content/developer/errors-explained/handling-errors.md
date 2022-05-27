@@ -3,7 +3,7 @@ title : "Handling errors"
 weight: 1
 meta_title: "Handling errors - MultiSafepay Docs"
 read_more: "."
-url: '/errors/handling-errors/'
+url: "/errors/handling-errors/"
 aliases:
     - /faq/errors-explained/diagnosing-errors
     - /faq/errors-explained/iframe-errors

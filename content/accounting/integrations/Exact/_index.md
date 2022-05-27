@@ -2,8 +2,8 @@
 title: "Exact"
 weight: 20
 meta_title: "Exact - MultiSafepay Docs"
-logo: '/svgs/Exact.svg'
-layout: 'single'
+logo: "/svgs/Exact.svg"
+layout: "single"
 buttons_under_text: "Third-party integrations"
 title_short: "Exact"
 read_more: "."

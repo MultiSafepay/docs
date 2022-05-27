@@ -3,7 +3,7 @@ title : "Switching to MultiSafepay from another PSP"
 weight: 60
 meta_title: "Switching to MultiSafepay - MultiSafepay Docs"
 read_more: "."
-url: '/account/switching-psps/'
+url: "/account/switching-psps/"
 aliases:
     - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp-is-that-a-problem/
     - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp/
