@@ -1,12 +1,17 @@
 ---
-title: "Activating payment methods"
+title: "Payment methods"
 weight: 3
-meta_title: "Activating payment methods - MultiSafepay Docs"
+meta_title: "Payment methods - MultiSafepay Docs"
 read_more: "."
 layout: 'single'
-url: '/payments/activating-payment-methods/'
+url: '/account/payment-methods/'
+aliases:
+    - /payments/activating-payment-methods/
 ---
-You can enable payment methods yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
+
+MultiSafepay offers a wide range of [payment methods](/payment-methods/).
+
+You can enable payment methods for your account yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
 
 | Activation flow | Payment methods |
 |---|---|
@@ -14,7 +19,7 @@ You can enable payment methods yourself in your dashboard, but for some you need
 | [Enable in dashboard](/payments/activating-payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
 | [Own flow](/payments/activating-payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, {{< br >}} Edenred, gift cards, Paysafecard, {{< br >}} PayPal |
 
-{{< blue-notice >}} If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your [backend](/glossaries/multisafepay-glossary/#backend).{{< /blue-notice >}}
+{{< blue-notice >}} If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your backend.{{< /blue-notice >}}
 
 ## Apply to MultiSafepay 
 
