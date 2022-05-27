@@ -164,7 +164,6 @@ Payment pages support the following languages:
 
 You can manually generate a link to a payment page to send to a customer to complete payment. See [Payment links](/account/payment-links/).
 
-
 ### Payment methods
 
 {{< details title="Displaying all payment methods" >}}
@@ -174,8 +173,7 @@ If a customer's country is unclear or your integration doesn't let you provide t
 To display all payment methods on the payment page, follow these steps:
 
 1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) to retrieve the payment link.
-2. Add `&methods=all` at the end of the payment link, e.g. `https://testpayv2.multisafepay.com/connect/822LtiM8RjN313Yo5C46E2cjqmuL5qVfc7w/?lang=en_NL&methods=all`
-
+2. Add `&methods=all` at the end of the payment link, e.g.: `https://testpayv2.multisafepay.com/connect/822LtiM8RjN313Yo5C46E2cjqmuL5qVfc7w/?lang=en_NL&methods=all`
 3. Redirect the customer to the adapted link.
 
 **Note:** This is not a standard option in our [ready-made integrations](/integrations/ready-made/).
@@ -203,7 +201,6 @@ If you include a `shopping_cart` object when you [create an order](https://docs-
 5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
 
 {{< /details >}}
-
 
 ## Support
  
