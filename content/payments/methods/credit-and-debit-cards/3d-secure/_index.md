@@ -62,7 +62,7 @@ Merchant-initiated transactions (MIT) are [recurring payments](/features/recurri
 
 ### Mail Order/Telephone Order (MOTO)
  
-For [MOTO](https://docs.multisafepay.com/features/moto/) payments, the customer provides their card details to the merchant over the phone or by email. These payments do not require 3D Secure 2.0 authentication. 
+For [MOTO](https://docs.multisafepay.com/features/moto/) payments, the customer gives you their card details by phone or email. 3DS2 authentication is **not required**. 
 ### Transaction risk analysis
 
 MultiSafepay can conduct a transaction risk analysis (TRA) for specific transactions for amounts up to EUR&nbsp;500. The issuer may soft decline the exemption, in which case the customer is automatically redirected to authenticate. 
