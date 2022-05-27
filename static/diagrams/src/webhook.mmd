@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant Me as Merchant
+
+    C-->>Mu: Completes payment
+    Mu->>Me: Sends notification
+    Me-->>Me: Updates order in system
+    Me->>Mu: Sends acknowledgement
