@@ -1,11 +1,12 @@
 ---
-title: 'Second Chance'
+title: 'Second Chance reminders'
 weight: 30
-meta_title: "Second Chance - MultiSafepay Docs"
+meta_title: "Second Chance reminders - MultiSafepay Docs"
 layout: 'single'
+read_more: '.'
 logo: '/svgs/Second Chance.svg'
 short_description: 'Boost conversion by sending customers reminders about abandoned payments.'
-url: '/features/second-chance/'
+url: '/account/second-chance/'
 aliases:
     - /tools/second-chance/about-second-chance/
     - /tools/second-chance/what-is-second-chance
@@ -17,9 +18,14 @@ aliases:
     - /tools/second-chance/how-does-it-work
     - /tools/email-template
     - /payments/boost/second-chance/
+    - /features/second-chance/
 ---
 
-Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps increase [conversion](/glossaries/multisafepay-glossary/#conversion-rate) and boost impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
+Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost conversion and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
+
+Second Chance emails are also sent for [manually generated payment links](/payment-links/generating-links/) if the customer doesn't click the link to complete payment.
+
+## Requirements
 
 {{< details title="Requirements" >}}
 
@@ -41,22 +47,23 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 {{< /details >}}
 
-**Note:** Second Chance emails are also sent for [manually generated payment links](/payment-links/generating-links/) if the customer doesn't click the link to complete payment.
+## Activation and integration
 
-## Activating Second Chance
-To activate Second Chance, follow these steps:
+{{< details title="Activating Second Chance" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant website.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
 
-## Using Second Chance
+{{< /details >}}
 
-See API recipe – [Send payment reminders](https://docs-api.multisafepay.com/recipes/send-payment-reminders).
+To integrate, see API recipe – [Send payment reminders](https://docs-api.multisafepay.com/recipes/send-payment-reminders).
 
-## Customizing the emails
-The Second Chance email template is completely customizable. Follow these steps:
+## Customizing emails
+The Second Chance email template is completely customizable.
+
+{{< details title="Customizing emails" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Email templates**.
@@ -68,7 +75,13 @@ The Second Chance email template is completely customizable. Follow these steps:
 
 For how to customize the template, see [Email Templates](/features/email-templates/).
 
+{{< /details >}}
+
 ## Potential errors
+
+- Second Chance emails can cause issues when running an enterprise resource planning (ERP) system.
+
+- If you have another order for the same total amount with the same customer email address completed in the last 120 minutes, Second Chance emails are suppressed.
 
 {{< details title="External plugins" >}}
 
@@ -77,18 +90,6 @@ Second Chance emails can create conflicts with external warehouse systems. In so
 For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see API reference - [Create order](https://docs-api.multisafepay.com/reference/createorder) > `days_active` parameter.
 
 If a cancelled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock.
-
-{{< /details >}}
-
-{{< details title="ERP systems" >}}
-
-Second Chance emails can cause issues when running an enterprise resource planning (ERP) system.
-
-{{< /details >}}
-
-{{< details title="Other orders" >}}
-&nbsp;
-If you have another order for the same total amount with the same customer email address completed in the last 120 minutes, Second Chance emails are suppressed.
 
 {{< /details >}}
 
