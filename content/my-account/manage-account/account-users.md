@@ -97,5 +97,4 @@ A dialog requesting a 6-digit token appears.
 
 {{< /details >}}
 
-## Support
-Email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

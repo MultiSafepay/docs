@@ -8,33 +8,33 @@ title_short: "Twinfield"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Twinfield platform"
 description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your Twinfield bookkeeping system."
-extra_button:
-    url: "https://taxnl.wolterskluwer.com/" 
-    text: "Go to site" 
-    type: "primary"
 aliases:
     - /faq/finance/set-up-twinfield-instructions
     - /faq/finance/setting-up-twinfield/
     - /tools/accounting/accounting-integrations/twinfield/
 ---
 
-You can export MT940 accountant reports from your MultiSafepay dashboard and import them into your Twinfield account. 
+You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [Twinfield](https://taxnl.wolterskluwer.com/). 
 
-You must first provide Twinfield with an additional international bank account number (IBAN). This can be a _dummy_, or placeholder, IBAN.
+## Prerequisites
+You must first provide Twinfield with an additional international bank account number (IBAN). This can be a dummy (placeholder) IBAN.
 
 ## Generating dummy IBANs
 
-To generate a dummy IBAN, follow these steps:
+{{< details title="Generating dummy IBANs">}}
 
 1. Go to IBAN Calculator – [Calculate an IBAN](https://www.ibancalculator.com/bic_und_iban.html). 
-2. From the **Country** drop-down menu, select **The Netherlands**.
+2. From the **Country** list, select **The Netherlands**.
 3. Under **Bank Code**, enter a bank, e.g. ING Group.
 4. In the **Account number** field, enter any 7 digits.
-5. Click **Calculate IBAN**.
-6. A dummy IBAN and BIC code are generated.
+5. Click **Calculate IBAN**.  
+    A dummy IBAN and BIC code are generated.
 
-## Exporting from your MultiSafepay dashboard
-To export a MT940 accountant report from your MultiSafepay dashboard, follow these steps:
+{{< /details >}}
+
+## Generating accountant exports
+
+{{< details title="Generating accountant exports">}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Accountant Export**. 
@@ -44,24 +44,28 @@ To export a MT940 accountant report from your MultiSafepay dashboard, follow the
 6. In the **Bank Account / IBAN** field, enter the dummy IBAN.
 7. In the **BIC** field, enter the dummy BIC code.
 
+{{< /details >}}
+
 ## Importing into Twinfield
-To import at MT940 report into Twinfield, follow these steps:
+
+{{< details title="Importing into Twinfield">}}
 
 1. Sign in to your Twinfield account.
-2. From the menu, select **Cash & Banks**.
-3. Select **Cash & Banks** again.
-4. In the **Code** line, enter an identifier, e.g. MSPAY.
-5. Click **Next**.
-6. Fill the following fields:
-   - **Account number**
+2. From the menu, select **Cash & Banks**, and then select **Cash & Banks** again.
+3. In the **Code** line, enter an identifier (e.g. MSPAY), and then click **Next**.
+4. Fill the following fields:
    - **Account name**
-   - **IBAN**
+   - **Account number**
    - **BIC**
    - **General ledger account**
-7. In **Cash & Banks**, select **Drag and drop bank statements or Browse**.
+   - **IBAN**
+7. In **Cash & Banks**, select **Drag and drop bank statements** or **Browse**.
 8. Upload the MultiSafepay MT940 file.
 
-For any questions, email <support@multisafepay.com>
+{{< /details >}}
 
-For a free 30-day trial including all accounting functions, see Twinfield - [Proef abonnement aanvragen](https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu).
+## Free trial
 
+For a free 30-day trial including all accounting functions, see Twinfield – [Proef abonnement aanvragen](https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu).
+
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

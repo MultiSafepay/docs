@@ -66,6 +66,5 @@ We then perform [know your customer (KYC) checks](/account/kyc/). If approved, y
 
 {{< blue-notice >}}**Full guidance:** [Onboarding process](/account/onboarding-process/){{< /blue-notice >}}
 
-## Support
-Email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}
 

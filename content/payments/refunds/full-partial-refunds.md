@@ -37,6 +37,4 @@ See the user guide for the relevant integration.
 
 See API reference – [Refund order](https://docs-api.multisafepay.com/reference/refundorder). 
 
-## Support
-
-For support, email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}
