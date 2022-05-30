@@ -48,7 +48,7 @@ For support, contact OsCommerce.
 
 Contact MultiSafepay:
 
-- Telephone: -31 (0)20 8500 500
+- Telephone: +31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
 

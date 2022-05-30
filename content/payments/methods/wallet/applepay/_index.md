@@ -48,8 +48,6 @@ An additional layer of security is provided by 3D Secure, which requires custome
 
 For more information, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
-For more information, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
-
 ## Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.

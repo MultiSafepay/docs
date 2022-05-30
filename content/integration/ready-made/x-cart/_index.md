@@ -33,7 +33,7 @@ aliases:
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with X-Cart.
 
 {{< details title="Requirements" >}}
-&nbsp;  
+&nbsp;
 - [MultiSafepay account](/getting-started/guide/)
 - X-Cart 5.x        
 - Tested on PHP 7.0

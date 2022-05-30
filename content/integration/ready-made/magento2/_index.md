@@ -164,7 +164,6 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.  
 
 {{< details title="Specific settings" >}}
-This section contains the following pages:
 
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
@@ -249,7 +248,7 @@ You receive a ZIP package containing a system report file and any MultiSafepay l
 
 ### Magento Vault and Instant Purchase
 
-Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing conversion. 
+Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your conversion. 
 
 {{< details title="How it works" >}}
 
@@ -372,7 +371,7 @@ To add payment links to order confirmation emails from your Magento **backend**,
 
 **Frontend emails**
 
-You cannot add payment links to order confirmation emails created in your **frontend**, but you can dispaly the name of the payment method:
+You cannot add payment links to order confirmation emails created in your **frontend**, but you can display the name of the payment method:
 
 `{{if payment_link}}`
 `<a href="{{var payment_link}}">Pay now with {{var order.payment.additional_information.method_title}}</a>`
@@ -390,7 +389,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 
 ### Payment methods
 
-{{< details title="Payment methods" >}}
+{{< details title="Supported payment methods" >}}
 
 - Cards: [All](/payment-methods/credit-debit-cards/)
 - Banking methods: [All](/payment-methods/banks/)
@@ -459,15 +458,9 @@ If the customer pays via the **second** email (24 hours later), the payment is p
 
 To avoid this, match the order lifetime to the [payment link](/payment-links/) lifetime.
 
-{{< details title="Setting order lifetimes">}}
-
-1. Sign in to your Magento 2 backend.
-2. Go to **Stores** > **Configuration** > **Sales** > **Sales** > **Orders cron settings**.
-3. Select **Pending payment order lifetime (minutes)** and set to **2880 minutes**.
+See [Setting order lifetimes](#order-lifetimes) above. 
 
 **Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
-
-{{< /details >}}
 
 {{< details title="Setting payment link lifetimes">}}
 
@@ -485,7 +478,7 @@ If you do so in your Magento 2 backend, the updated status is passed to your Mul
 
 ### Surcharges
 
-[Surcharges](/surcharges/) are no longer supported.
+The plugin does not support [surcharges](/surcharges/), but you can use third-party service Fooman to apply them. 
 
 {{< details title="Using Fooman for surcharges" >}}
 
@@ -577,9 +570,7 @@ We support most Magento functionalities. For any questions, email <integration@m
 
 **Configuration fields**
 
-We have removed or altered the following configuration fields. 
-
-If you want a field from the deprecated plugin back, email <integration@multisafepay.com>
+We have removed or altered the following configuration fields:
 
 _Emailing invoices to customers_
 
@@ -671,6 +662,7 @@ You can back up certain parts of the plugin by adding the following parameters:
 - `--backup-db`
 
 For information about all parameters, see Magento - [Uninstall modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst).
+If you want a field from the deprecated plugin back, email <integration@multisafepay.com>
 
 **app/code**
 

@@ -25,7 +25,7 @@ aliases:
 Ecwid provides an app to integrate with MultiSafepay [payment pages](/payment-pages/).
 
 {{< details title="Requirements" >}}
-
+  
 You will need a [MultiSafepay account](/getting-started/guide/).
 
 {{< /details >}}

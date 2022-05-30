@@ -252,11 +252,8 @@ By default the logos are 16 px high. In most themes, footer logos are found in t
 **Resizing logos**
 
 1. In the JavaScript for displaying the logos, locate the following `img` element near the end of the script:
-
     ```<img src="${msplt[e]}" alt="${e}" />```
-
 2. Specify the height and width in pixels as required, e.g.:
-
     ```<img height="16" width="37" src="${msplt[e]}" alt="${e}" />```
 
 **Adding missing logos**  
@@ -302,7 +299,7 @@ If no specific rule is set for a country, the **Default** order is used.
 
 {{< details title="Disabling payment methods" >}}
 
-You can disable payment methods in the **Payment method settings list**. Enabled payment methods show a green dot, when disabled its grey.
+You can disable payment methods in the **Payment method settings list**. The dot next to the payment methods is green when enabled, and grey when disabled.
 
 To disable payment methods for specific languages, follow these steps:
 
@@ -359,7 +356,7 @@ You can't refund more than the original amount in your backend.
 
 **Notes**
 
-- If you use Lightspeed eCom linked to [Lightspeed Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
+- If you use Lightspeed eCom linked to [Lightspeed Retail](https://www.lightspeedhq.nl/kassasysteem/retail/) to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
 
 - When creating a credit memo, set the status to **Not paid**. If the **Always create a refund, no matter the status** setting is not enabled, MultiSafepay ignores **Paid** status.
 

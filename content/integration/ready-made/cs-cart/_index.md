@@ -43,7 +43,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 &nbsp; 
 Contact us:
 
-- Telephone: -31 (0)20 8500 500
+- Telephone: +31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
 
@@ -61,7 +61,7 @@ Contact us:
 ## Configuration
 1. Sign in to your CS-Cart backend.
 2. Go to **Administration** > **Payment methods**.
-3. To add payment methods, click the **    -** button.
+3. To add payment methods, click the **+** button.
 4. In the next screen, enter a name for the payment method to display during checkout. 
 5. In the **Processing unit** field, specify the payment method. 
 6. Fill out the other fields as required, and click **Create**.

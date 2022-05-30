@@ -1,7 +1,6 @@
 ---
 title : "Magento 1 plugin"
 download_url : "https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip"
-faq: "."
 type: 'Plugin'
 meta_title: "Magento 1 plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions with Magento 1."
