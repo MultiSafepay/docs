@@ -60,6 +60,11 @@ The issuer needs to verify the cardholder's identity.
 
 Cardholder: Contact the issuer. 
 
+#### 1A Visa soft decline
+Authentication required. 
+
+Cardholder: Contact the issuer. 
+
 #### 10: Partial approval
 The issuer can approve an amount less than requested, if supported by the merchant.
 
@@ -170,6 +175,11 @@ The cardholder has exceeded their maximum daily credit limit, or will do if the 
 
 Cardholder: Contact the issuer to increase your credit limit or provide authentication. Once resolved, reattempt.  
 Merchant: If the cardholder is a new customer, the transaction may be fraudulent. Do&nbsp;**not** reattempt on the same day to allow limits to reset. 
+
+#### 65: Mastercard soft decline
+Authentication required. 
+
+Cardholder: Contact the issuer. 
 
 #### 68: Time out
 &nbsp;
