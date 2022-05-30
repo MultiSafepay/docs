@@ -41,7 +41,7 @@ To view VAT invoices in your MultiSafepay dashboard, go to **Finance** > **Invoi
 | Bank fees | At month end |
 | [Interchange++](/credit-cards-user-guide/about-interchange/) | At month end |
 | Payout fees | During processing |
-| Refund fees <br> (Broken into collecting and non-collecting orders) | During processing |
+| Refund fees <br> (Separated into collecting and non-collecting orders) | During processing |
 | Transaction fees | During processing |
 
 **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay)
