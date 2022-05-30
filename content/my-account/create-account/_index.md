@@ -21,6 +21,11 @@ aliases:
     - /account/partner-account-control/
     - /account/partner-accounts/
     - /account/partner-primary-accounts/
+    - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp-is-that-a-problem/
+    - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp/
+    - /faq/getting-started/switching-to-multisafepay
+    - /getting-started/go-live/user-guide/switching-to-multisafepay/
+    - /account/switching-psps/
 ---
 This page describes MultiSafepay account types and how to create test and live accounts. 
 
@@ -77,3 +82,11 @@ You receive an email containing your **security code**.
 
 For any questions, email <support@multisafepay.com>
 
+## Switching to MultiSafepay from another PSP
+
+You can sign up for a MultiSafepay account while still using another PSP without incurring any costs. A test account lets you process test payments and gives access to all features. MultiSafepay only starts charging monthly fees when you onboard, go live, and begin processing real payments. 
+
+### Transferring tokens
+In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/features/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
+
+For more information, email <sales@multisafepay.com>
