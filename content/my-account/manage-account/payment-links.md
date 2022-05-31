@@ -54,7 +54,7 @@ You can adjust the lifetime for some payment methods:
 
 To set or adjust the lifetime, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder): `days_active` parameter.
 
-**Note:** This is different to [transaction expiration times per payment method](/developer/transaction-expiration/). 
+**Note:** This is different to [transaction expiration times per payment method](https://docs-api.multisafepay.com/reference/transaction-expiration). 
 
 {{< /details >}}
 

@@ -189,8 +189,6 @@ This change is only for Magento developers. We recommend testing the change and 
     - [Winkelcheque](https://www.winkelcheque.nl)
     - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Picquer

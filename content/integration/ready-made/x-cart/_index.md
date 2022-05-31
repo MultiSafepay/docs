@@ -101,8 +101,6 @@ Make sure you enter the correct API key for the account type you want to use.
     - [Winkelcheque](https://www.winkelcheque.nl)
     - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Refunds

@@ -67,8 +67,6 @@ For support:
     - Winkelcheque
     - Yourgift
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ## Installation and configuration

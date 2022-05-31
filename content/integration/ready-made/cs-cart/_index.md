@@ -98,8 +98,6 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
     - [Winkelcheque](https://www.winkelcheque.nl)
     - [Yourgift](https://www.yourgift.nl)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Refunds

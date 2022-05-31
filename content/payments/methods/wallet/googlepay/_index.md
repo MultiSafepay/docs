@@ -115,7 +115,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/) |
 | **Google branding** | When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines). |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, use a [generic gateway](/developer/generic-gateways/).   |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, you can use a generic gateway. See their manuals for further details. |
 
 
 {{< two-buttons href-2="/google-pay/direct/" text-2="Google Pay™ direct integration manual" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}

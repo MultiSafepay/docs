@@ -179,8 +179,6 @@ For support, email <integration@multisafepay.com>
     - Winkelcheque
     - Yourgift
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Recurring payments

@@ -109,8 +109,6 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
     - [Winkelcheque](https://www.winkelcheque.nl)
     - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Refunds
