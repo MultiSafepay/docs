@@ -1,9 +1,9 @@
 ---
-title: "Managing users"
+title: "Account users"
 weight: 2
-meta_title: "Managing users - MultiSafepay Docs"
+meta_title: "Account users - MultiSafepay Docs"
 read_more: "."
-url: '/account/managing-users/'
+url: '/account/users/'
 aliases:
     - /account/multisafepay-account/adding-users/
     - /tools/multisafepay-control/users
@@ -14,25 +14,28 @@ aliases:
     - /tools/multisafepay-account/enabling-two-factor-authentication
     - /getting-started/set-up-your-account/user-guide/enabling-two-factor-authentication/
     - /account/enabling-2FA/
+    - /account/managing-users/
 ---
-## Adding users
-You can add an unlimited number of users to your MultiSafepay account. All users on one account share the same secure code. You can disable but not delete users.
+
+Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same secure code. You can disable but not delete users.
 
 {{< details title=" User permission profiles" >}}
 
 | User | Permissions |
 |---|---|
 | Administrator | Access all functionalities |
-| Basic | - View all transactions <br> - Generate payment links |
+| Basic | View all transactions <br> Generate payment links |
 | DisableBalance | Cannot view the account balance |
-| Refund | - Create refunds <br> - View all transactions <br> - Generate payment links |
-| Reporting | - View all transactions and the account balance <br> - Create and download reports <br> - Generate payment links |
-| Technical | - View all transactions <br> - Add and edit websites and payment pages <br> - Edit email templates <br> - Resend offline actions |
-| Uncleared | - View all transactions <br> - Accept or decline uncleared transactions |
+| Refund | Create refunds <br> View all transactions <br> Generate payment links |
+| Reporting | View all transactions and the account balance <br> Create and download reports <br> Generate payment links |
+| Technical | View all transactions <br> Add and edit websites and payment pages <br> Edit email templates <br> Resend offline actions |
+| Uncleared | View all transactions <br> Accept or decline uncleared transactions |
 
 {{< /details >}}
 
-To add users to your account, follow these steps:
+## Adding users
+
+{{< details title="Adding users to your account" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **User management**.
@@ -45,6 +48,8 @@ To add users to your account, follow these steps:
 5. From the **Status** list, select **Active**.
 6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. See [User permissions overview](#user-permissions-overview) below.
 7. Click **Add user** in the top-right corner.
+
+{{< /details >}}
 
 ## Two-factor authentication
     
@@ -66,27 +71,31 @@ Download the MultiSafepay app for:
 
 ### Enabling 2FA
 
-Only administrators can enable 2FA. Follow these steps: 
+Only administrators can enable 2FA.
+
+{{< details title="Enabling 2FA" >}} 
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **User management**.
-3. Click the name of the user you want to enable 2FA for to open the **User details** page.
-4. From the **Two-factor** list, select **Enable**.
+3. Click the name of the user you want to enable 2FA for.
+4. On the **User details** page, from the **Two-factor** list, select **Enable**.
 5. Click **Save changes**.
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/gifs/MCP_2FA-1.gif" alt="Enabling two-factor authentication in your MultiSafepay dashboard" align="center" screen_size="desktop" >}}
+{{< /details >}}
 
 ### Configuring 2FA
 
 Users must then configure 2FA the first time they sign in to the dashboard after 2FA is enabled.
 
+{{< details title="Configuring 2FA" >}}
+
 1.  Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com) on your laptop or PC.  
 A dialog requesting a 6-digit token appears.
 2. In the MultiSafepay app,  tap **More** in the bottom-right corner.
 3. Tap **Authenticator**.
-4. Copy the 6-digit token from your mobile device to the 2FA dialog on your computer or laptop.
+4. Copy the 6-digit token (remains visible for 30 seconds) from your mobile device to the 2FA dialog on your computer or laptop.
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token in your MultiSafepay account app" align="center" caption="The 6-digit token remains visible for 30 seconds." screen_size="mobile" >}} 
+{{< /details >}}
 
 ## Support
 Email <support@multisafepay.com>

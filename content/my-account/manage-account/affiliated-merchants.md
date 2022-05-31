@@ -1,9 +1,9 @@
 ---
-title: "Managing affiliate accounts"
+title: "Affiliated merchants"
 weight: 70
-meta_title: "Managing affiliate accounts - MultiSafepay Docs"
+meta_title: "Affiliated merchants - MultiSafepay Docs"
 read_more: '.'
-url: '/account/managing-affiliate-accounts/'
+url: '/account/affiliates/'
 aliases:
     - /tools/partner-account-control/multisafepay-merchant-control-access
     - /account/partner-account-control/managing-affiliate-accounts/
@@ -18,7 +18,9 @@ aliases:
     - /account/partner-account-control/managing-commissions/
     - /account/managing-commissions/
     - /account/charging-affiliates/
+    - /account/managing-affiliate-accounts/
 ---
+This page describes how partner account holders can manage the accounts of affiliated merchants.
 
 ## Creating affiliate accounts
 
