@@ -1,7 +1,6 @@
 ---
-title : "Shopfactory plugin for MultiSafepay"
+title : "Shopfactory plugin"
 meta_title: "ShopFactory plugin - MultiSafepay Docs"
-faq: "."
 logo: "/logo/Integrations/ShopFactory.svg"
 weight: 24
 title_short: "ShopFactory"
@@ -21,13 +20,26 @@ aliases:
     - /integrations/ecommerce-integrations/shopfactory
     - /payments/integrations/ecommerce-platforms/shopfactory/
     - /ecommerce-platforms/shopfactory/
+    - /integrations/shopfactory/faq/refunding-shopfactory/
+    - /payments/integrations/ecommerce-platforms/shopfactory/faq/processing-refunds/
+    - /shopfactory/refunds/
 ---
-Free plugin by ShopFactory to integrate MultiSafepay payment solutions into your webshop.
+ShopFactory provides a free plugin to integrate with MultiSafepay.
 
-You will need a MultiSafepay account. See [Getting started](/getting-started/).
+### Requirements
 
-For technical queries about the plugin, see ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
+You will need a [MultiSafepay account](/getting-started/guide/).
 
-New merchants will need a MultiSafepay account, see [Getting started](/getting-started/).
+### Support
 
-For information about supported payment methods, email <integration@multisafepay.com>
+See ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
+
+### Payment methods
+
+Email <integration@multisafepay.com>
+
+### Refunds
+
+You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+
+To process refunds from your ShopFactory [backend](/glossaries/multisafepay-glossary/#backend), email <integration@multisafepay.com>
