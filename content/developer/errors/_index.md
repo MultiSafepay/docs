@@ -1,13 +1,16 @@
 ---
 title : "Handling errors"
-weight: 1
+weight: 20
 meta_title: "Handling errors - MultiSafepay Docs"
 read_more: "."
-url: '/errors/handling-errors/'
+layout: 'single'
+url: '/developers/errors/'
+short_description: 'Troubleshoot errors you may encounter in API responses and your dashboard. '
 aliases:
     - /faq/errors-explained/diagnosing-errors
     - /faq/errors-explained/iframe-errors
     - /developer/errors-explained/understanding-and-resolving-errors/
+    - /errors/handling-errors/
 ---
 
 This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, and possible causes.

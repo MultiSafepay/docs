@@ -1,13 +1,16 @@
 ---
 title: 'iFrames'
-weight: 2
+weight: 60
 meta_title: "iFrames - MultiSafepay Docs"
 read_more: "."
-url: '/developer/iframes/'
+layout: 'single'
+url: '/developers/iframes/'
+short_description: 'Guidance and limitations on iFrames in your integration. '
 aliases:
     - /faq/errors-explained/iframe
     - /faq/errors-explained/iframe-errors
     - /errors-explained/iframe-errors/
+    - /developer/iframes/
 ---
  
 An inline frame, or iFrame, is an HTML document embedded inside another HTML document on a [website](/glossaries/multisafepay-glossary/#website). 
