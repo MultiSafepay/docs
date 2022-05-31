@@ -45,7 +45,7 @@ aliases:
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
-| **Payment features** | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/features/recurring-payments/) (banking only) |
+| **Supports** | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/payments/recurring-payments/) (banking only) |
 | **Transactions expire after** | 1.5 hours |
 
 ## iDEAL QR

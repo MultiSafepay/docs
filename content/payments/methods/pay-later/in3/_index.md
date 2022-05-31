@@ -39,7 +39,7 @@ aliases:
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) {{< br >}} You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 2 hours |
 | **Amount limits** | Min: 100 EUR Max: 3000 EUR <br> You can adjust these limits in the backend of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
 | **Addresses** | Different billing and shipping addresses are supported. |

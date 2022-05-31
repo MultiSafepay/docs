@@ -34,7 +34,7 @@ EPS is a widely accepted inter-bank payment method that links all major Austrian
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 
 ## Payment flow

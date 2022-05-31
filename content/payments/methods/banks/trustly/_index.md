@@ -38,7 +38,7 @@ aliases:
 | **Currencies**  | EUR, GBP, SEK | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** |  2 hours |
 
 ## Payment flow
