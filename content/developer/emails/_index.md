@@ -1,15 +1,18 @@
 ---
-title : "Setting up email authentication"
-weight: 13
-meta_title: "Setting up email authentication - MultiSafepay Docs"
+title : "Email authentication"
+weight: 30
+meta_title: "Email authentication - MultiSafepay Docs"
 read_more: "."
-url: '/developer/setting-up-email-authentication/'
+layout: 'single'
+url: '/developers/email-authentication/'
+short_description: 'Manage SPF records and set up DKIM authentication for emails. '
 aliases:
     - /faq/general/add-spf-dns-records
     - /faq/general/adding-spf-dns-records/
     - /developer/general/adding-spf-dns-records/
     - /my-account/adding-spf-records/
     - /my-account/setting-up-dkim/
+    - /developer/setting-up-email-authentication/
 ---
 ## Adding SPF records for MultiSafepay emails
 Sender Policy Framework (SPF) records let you specify who is authorized to send emails on your domain's behalf. Receiving email servers can check the SPF record to verify the sender. Using an SPF record prevents emails sent by MultiSafepay on your behalf from being marked as spam.

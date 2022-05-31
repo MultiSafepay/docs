@@ -3,9 +3,10 @@ title: 'Wrappers and SDKs'
 breadcrumb_title: "Wrappers and SDKs"
 layout: 'communitylist'
 meta_title: 'Wrappers and SDKs - MultiSafepay Docs'
-logo: '/svgs/Wrappers.svg'
+read_more: '.'
 short_description: 'MultiSafepay wrappers and SDKs for popular programming languages.'
-weight: 20
+weight: 10
+url: '/developers/wrappers-sdks/'
 aliases: 
     - /integrations/sdk/
     - /integrations/wrappers/
