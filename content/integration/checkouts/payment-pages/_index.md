@@ -164,7 +164,6 @@ Payment pages support the following languages:
 
 You can manually generate a link to a payment page to send to a customer to complete payment. See [Payment links](/account/payment-links/).
 
-
 ### Payment methods
 
 {{< details title="Displaying all payment methods" >}}
@@ -203,7 +202,6 @@ If you include a `shopping_cart` object when you [create an order](https://docs-
 5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
 
 {{< /details >}}
-
 
 ## Support
  
