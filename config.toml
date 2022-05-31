@@ -221,32 +221,54 @@ name = "Shell"
     weight = 530
 
 [[menu.main]]
-    name = "Developer tools"
-    url  = "/developer/"
+    name = "Developers"
+    url  = "/developers/"
     identifier = "developer"
     pre = "fa fa-cube fa-lg"
     weight = 70
 
 [[menu.main]]
     name = "Wrappers and SDKs"
-    url  = "/developer/wrappers/"
+    url  = "/developers/wrappers-sdks/"
     parent = "developer"
     identifier = "wrappers-sdks"
     weight = 720
 
 [[menu.main]]
-    name = "Errors explained"
-    url  = "/developer/errors-explained/"
+    name = "Handling errors"
+    url  = "/developers/errors/"
     parent = "developer"
-    identifier = "errors-explained"
+    identifier = "handling-errors"
     weight = 730
 
 [[menu.main]]
-    name = "Developer information"
-    url  = "/developer/general/"
+    name = "Email authentication"
+    url  = "/developers/email-authentication/"
     parent = "developer"
-    identifier = "developer-information"
+    identifier = "email-authentication"
+    weight = 750
+
+[[menu.main]]
+    name = "HTTP errors"
+    url  = "/developers/http-errors/"
+    parent = "developer"
+    identifier = "http-errors"
     weight = 740
+
+[[menu.main]]
+    name = "Google Analytics"
+    url  = "/developers/google-analytics/"
+    parent = "developer"
+    identifier = "google-analytics"
+    weight = 760
+
+[[menu.main]]
+    name = "iFrames"
+    url  = "/developers/iframes/"
+    parent = "developer"
+    identifier = "iframes"
+    weight = 770
+
 
 [[menu.main]]
     name = "API Reference"
