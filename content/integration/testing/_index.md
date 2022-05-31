@@ -1,7 +1,7 @@
 ---
-title: 'Test your integration'
-meta_title: 'Test your integration - MultiSafepay Docs'
-breadcrumb_title: 'Test your integration'
+title: 'Testing'
+meta_title: 'Testing - MultiSafepay Docs'
+breadcrumb_title: 'Testing'
 layout: 'faqplugins'
 logo: '/svgs/Testing.svg'
 url: '/integrations/testing/'

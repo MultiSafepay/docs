@@ -113,32 +113,46 @@ name = "Shell"
     weight = 220
 
 [[menu.main]]
-    name = "Partner integrations"
-    url  = "/partner-integrations/"
+    name = "Payment pages"
+    url  = "/payment-pages/"
     parent = "integrations"
-    identifier = "partner-integrations"
+    identifier = "payment-pages"
     weight = 230
 
 [[menu.main]]
-    name = "Checkouts"
-    url  = "/checkouts/"
+    name = "Payment components"
+    url  = "/payment-components/"
     parent = "integrations"
-    identifier = "checkouts"
+    identifier = "payment-components"
     weight = 240
+
+[[menu.main]]
+    name = "Wallet integrations"
+    url  = "/wallet-integrations/"
+    parent = "integrations"
+    identifier = "wallet-integrations"
+    weight = 250
 
 [[menu.main]]
     name = "Webhook"
     url  = "/integrations/webhooks/"
     parent = "integrations"
     identifier = "webhook"
-    weight = 250
+    weight = 260
 
 [[menu.main]]
-    name = "Test your integration"
+    name = "Testing"
     url  = "/integrations/testing/"
     parent = "integrations"
     identifier = "testing"
-    weight = 260
+    weight = 270
+
+[[menu.main]]
+    name = "Partner integrations"
+    url  = "/partner-integrations/"
+    parent = "integrations"
+    identifier = "partner-integrations"
+    weight = 280
 
 [[menu.main]]
     name = "Payments"
