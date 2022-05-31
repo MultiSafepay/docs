@@ -46,6 +46,6 @@ sequenceDiagram
 
 If you use one of our [ready-made integrations](/integrations/ready-made/), this is set up automatically for you and you don't need to do anything.
 
-If you use one of our [wrappers or SDKs](/developer/wrappers/), then you need to configure this as part of your integration. For more information, read the documentation that comes with the wrapper or SDK.
+If you use one of our [wrappers or SDKs](/developers/wrappers-sdks/), then you need to configure this as part of your integration. For more information, read the documentation that comes with the wrapper or SDK.
 
 If you are building your own integration, you need to configure this yourself. See [Configure your webhook endpoint](/integrations/self-made/configure-your-webhook/).

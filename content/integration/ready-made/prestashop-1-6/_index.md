@@ -125,8 +125,6 @@ This is no longer supported from version 3.2.0. If you want to skip the extra co
     - Wijncadeau
     - Yourgift
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Matching orders

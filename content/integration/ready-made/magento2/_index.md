@@ -419,8 +419,6 @@ You cannot add payment links to order confirmation emails created in your **fron
     - Winkelcheque
     - Yourgift
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Progressive web apps

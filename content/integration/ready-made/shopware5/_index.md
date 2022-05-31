@@ -122,8 +122,6 @@ You can filter generic gateways by country, and minimum and maximum amount.
     - [Winkelcheque](https://www.winkelcheque.nl)
     - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Refunds

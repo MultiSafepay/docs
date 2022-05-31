@@ -277,8 +277,6 @@ To generate a payment link in your backend once an order is created, follow thes
     - [Winkelcheque](https://www.winkelcheque.nl)
     - [Yourgift](https://www.yourgift.nl/)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Recurring payments

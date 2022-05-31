@@ -132,8 +132,6 @@ The plugin supports generic gateways, which redirect customers from your checkou
     - [Sofort](/payment-methods/sofort)
     - [Trustly](/payment-methods/trustly)
 
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
 {{< /details >}}
 
 ### Updates
