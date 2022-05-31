@@ -8,6 +8,10 @@ aliases:
     - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
     - /faq/getting-started/prohibited-products-and-services
     - /getting-started/go-live/user-guide/prohibited-products-and-services/
+    - /faq/getting-started/rules-for-selling-alcohol
+    - /faq/getting-started/conditions-for-selling-alcohol
+    - /getting-started/go-live/user-guide/conditions-for-selling-alcohol/
+    - /account/conditions-for-alcohol/
 ---
 As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
 
@@ -15,62 +19,57 @@ We must account for risk and potential reputational damage. Therefore, we prohib
 
 For a list of prohibited products and services, email <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
 
-### Erotica
-- Erotic and pornographic images
-- Sex, dating, and mail order brides
-- Prostitution and escort services
-- Aphrodisiacs
-- Electrosex
+## Alcohol
 
-### Medicine
-- Pseudomedicines
+MultiSafepay has an obligation to ensure you comply with relevant legislation and that your customers meet the requirements for purchasing alcohol. For questions, email <risk@multisafepay.com>
 
-**Note:** You must have the required licenses to trade in regulated drugs or apothecary services
+Dutch law states that alcohol cannot be sold to customers under the age of **18**. You must verify customers' age when selling or delivering orders that include alcohol. When orders are delivered, customers must show a valid identification document with their date of birth, e.g.:
 
-### Gambling and games of chance
-- Gambling and games of chance (prohibited whether you have a license or not)
-- Binary options or contracts for differences (CFDs)
-- Penny auctions
-- Pyramid schemes and other (consciously or unconsciously) ‘get rich quick’ schemes
+- Passport
+- Dutch driving license
+- European or Dutch ID card
 
-### Socially inappropriate behaviors
-- Products or services used to provoke or support terrorism or political violence
-- Misleading marketing practices
-- Misleading, unjustifiable, or indecent products or services
-- Mind-altering substances
-- Equipment intended for growing cannabis or producing other illegal, mind-altering substances
+If you sell alcohol, you must:
 
-### Food supplements
-- Food supplements that endanger health
-- Steroids
-- Supplements that make (medical) claims not supported by scientific evidence
-- Supplements containing ingredients not (yet) approved by the European Commission
+- State this clearly on your website.
+- Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
-### Cryptocurrencies
-- Platforms for cryptocurrency trading
+{{< details title="Download a declaration" >}}
 
-### Weapons
-- Selling weapons or related accessories
-- Encouraging the use of weapons in any way
+- [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
+- [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
+- [French merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-D%C3%A9claration_des_boissons_alcoolis%C3%A9es.pdf)  
+- [German merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erkl%C3%A4rung_f%C3%BCr_alkoholischen_Getr%C3%A4nke.pdf)
+- [Italian merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
+- [Spanish merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx)  
 
-### Tobacco
-- Cigarettes
-- Cigars
-- Pipe tobacco containing nicotine
+{{< /details >}}
 
-### Alcohol
-See [Conditions for selling alcohol](/account/conditions-for-alcohol/).
+If you sell spirits with an alcohol content of 15% or higher, you must:
 
-### Live organisms
-- Offering live organisms of any sort in any way
+- Hold a valid liquor license. 
+- Email a copy of your license to <risk@multisafepay.com>
 
-## High-risk products and services
+## Prohibited products and services
+| | |
+|---|---|
+| **Cryptocurrency** | Platforms for cryptocurrency trading |
+| **Erotica** | Erotic and pornographic images <br> Sex, dating, and mail order brides <br> Prostitution and escort services <br> Aphrodisiacs <br> Electrosex |
+| **Food supplements** | Steroids <br> Food supplements that: <br> - Endanger health <br> - Make (medical) claims not supported by scientific evidence <br> - Contain ingredients not (yet) approved by the European Commission |
+| **Gambling and games of chance** | Gambling and games of chance (prohibited whether you have a license or not) <br> Binary options or contracts for differences (CFDs) <br> Penny auctions <br> Pyramid schemes and other (consciously or unconsciously) "get rich quick" schemes |
+| **Live organisms** | Any sort of live organisms offered in any way |
+| **Pseudomedicines** | You must have the required licenses to trade in regulated drugs or apothecary services. |
+| **Socially inappropriate behaviors** | Products/services used to provoke or support terrorism or political violence <br> Misleading marketing practices <br> Misleading, unjustifiable, or indecent products or services <br> Mind-altering substances <br> Equipment for growing cannabis or producing other illegal, mind-altering substances |
+| **Tobacco** | Cigarettes and cigars <br> Pipe tobacco containing nicotine |
+| **Weapons** | Selling weapons or related accessories <br> Encouraging the use of weapons in any way |
+
+## Visa and Mastercard High Risk Programs
 
 Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD fee if you sell any of the high-risk products and services listed below. The fee is collected as an annual recurring payment.
 
-### Visa
+{{< details title="Visa" >}}
 
-| Code    | Description  |
+| Code | Description  |
 | --- | --- |
 | 5122: Drugs, drug proprietaries, druggist sundries | Sale of prescription-required drugs, cross-border card-absent transactions |
 | 5912: Drug stores, pharmacies  | Sale of prescription-required drugs, cross-border card-absent transactions |
@@ -86,7 +85,9 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 | n/a | Merchants that fall under the Excessive Chargeback Program |
 | n/a | Sale of replicas and "inspired by" items |
 
-### Mastercard 
+{{< /details >}}
+
+{{< details title="Mastercard" >}} 
 
 | Code | Description |
 | --- | --- |
@@ -101,5 +102,7 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 | 5968 | Negative option billing  |
 | n/a | Merchants that fall under the Excessive Chargeback Program |
 | n/a | Sale of replicas and "inspired by" items |
+
+{{< /details >}}
 
 For more information, email <risk@multisafepay.com>

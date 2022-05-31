@@ -1,8 +1,8 @@
 ---
-title: "Displaying logos and icons"
+title: "Logos and icons"
 Weight: 10
-meta_title: "Displaying logos and icons - MultiSafepay Docs"
-url: '/account/displaying-logos-icons/'
+meta_title: "Logos and icons - MultiSafepay Docs"
+url: '/account/logos-icons/'
 read_more: "."
 aliases:
     - /faq/general/styleguide
@@ -10,6 +10,7 @@ aliases:
     - /faq/general/logos-and-icons/
     - /developer/general/logos-and-icons/
     - /developer/logos-icons/
+    - /account/displaying-logos-icons/
 --- 
 For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
 

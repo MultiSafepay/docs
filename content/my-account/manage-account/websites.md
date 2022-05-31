@@ -1,9 +1,9 @@
 ---
-title: "Managing websites"
+title: "Websites"
 weight: 1
-meta_title: "Managing websites - MultiSafepay Docs"
+meta_title: "Websites - MultiSafepay Docs"
 read_more: '.'
-url: '/account/managing-websites/'
+url: '/account/websites/'
 aliases:
     - /account/adding-websites/
     - /tools/multisafepay-account/delete-website
@@ -26,6 +26,7 @@ aliases:
     - /tools/multisafepay-control/adding-descriptors-to-customer-bank-statements
     - /my-account/manage-your-balance/adding-descriptors-to-customer-bank-statements/
     - /account/displaying-company-names/
+    - /account/managing-websites/
 ---
 
 To set up your account, you must add at least one website, for which we generate an API key. 
