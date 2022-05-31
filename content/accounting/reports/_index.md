@@ -8,7 +8,6 @@ short_description: 'Generate and export reports.'
 aliases:
     - /tools/reports
     - /business/accounting/reports/
-    - /tools/reports/accountant-report-export/
     - /tools/reports/report-validity/
 ---
 
