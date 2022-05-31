@@ -681,6 +681,4 @@ rm -rf Connect
 **Marketplace**
 
 If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
-
-{{< /details >}}
 {{< /details >}}
