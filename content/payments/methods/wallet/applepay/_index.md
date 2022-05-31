@@ -41,7 +41,7 @@ An additional layer of security is provided by 3D Secure, which requires custome
 | **Currencies**  | [Multiple](https://support.apple.com/en-us/HT207957)  | 
 | **Chargebacks**   | [Yes](/payments/chargebacks/) | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
-| **Payment features**  | [Second Chance](/features/second-chance/) |
+| **Supports**  | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 hour |
 | **Requirements** | Customers must use the Safari browser. <br> An SSL secured connection (HTTPS) is required. |
 | **Payment gateways** | American Express, Maestro, Mastercard, and Visa gateways are supported. |

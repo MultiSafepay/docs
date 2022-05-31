@@ -33,7 +33,7 @@ aliases:
 | **Currencies** | EUR  | 
 | **Chargebacks** | No | 
 | **Refunds** | No |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 
 ## How it works
   

@@ -38,6 +38,8 @@ Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, interna
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Transactions expire after** | 60 days  |
 
+To better manage Bank Transfer payments, see also [Virtual IBANs](/payments/virtual-ibans/).
+
 ## Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
