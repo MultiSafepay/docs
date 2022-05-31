@@ -39,7 +39,7 @@ For Chinese customers, Alipay accounts are verified and linked to their Chinese 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial refunds](/refunds/full-partial/), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/)  |
-| **Payment features**  | [Second Chance](/features/second-chance/) |
+| **Supports**  | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 5 hours |
 
 ## Payment flow

@@ -155,22 +155,28 @@ name = "Shell"
     weight = 310
 
 [[menu.main]]
-    name = "About payments"
-    url  = "/payments/about"
+    name = "Refunds"
+    url  = "/refunds/"
+    parent = "payments"
+    weight = 315
+
+[[menu.main]]
+    name = "Recurring payments"
+    url  = "/payments/recurring-payments/"
     parent = "payments"
     weight = 320
 
 [[menu.main]]
-    name = "Payment features"
-    url  = "/payments/features"
+    name = "Split payments"
+    url  = "/payments/split-payments/"
     parent = "payments"
-    weight = 330
+    weight = 325
 
 [[menu.main]]
-    name = "Refunds"
-    url  = "/refunds/"
+    name = "Virtual IBANs"
+    url  = "/payments/virtual-ibans/"
     parent = "payments"
-    weight = 340
+    weight = 330
 
 [[menu.main]]
     name = "Accounting"

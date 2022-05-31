@@ -37,7 +37,7 @@ Belfius is a popular online banking payment method for Belfius bank customers in
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) <br> (1 business day after payment is completed) |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 5 days  |
 
 ## Payment flow

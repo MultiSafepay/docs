@@ -1,11 +1,11 @@
 ---
 title: 'Split Payments'
-weight: 20
+weight: 40
 layout: 'single'
 meta_title: "Split Payments - MultiSafepay Docs"
 logo: '/svgs/Split payments.svg'
 short_description: 'Split funds between your partner/primary account and affiliated merchants.'
-url: '/features/split-payments/'
+url: '/payments/split-payments/'
 aliases:
     - /tools/split-payments/about-split-payments/
     - /tools/split-payments/what-is-split-payments
@@ -14,6 +14,7 @@ aliases:
     - /tools/split-payments/refunding-split-payments/
     - /tools/split-payments/how-do-i-refund-split-payment-orders
     - /payments/features/split-payments/
+    - /features/split-payments/
 ---
 
 Split Payments lets you divide an incoming transaction amount between two or more MultiSafepay accounts. This feature is supported for all [account types](/account/account-types/) and affiliations, e.g.:

@@ -199,7 +199,7 @@ Cards may feature:
 | **Chargebacks**  | [Yes](/payments/chargebacks/), **except** Postepay | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Transactions expire after** | 1 hour |
-| **Payment features** | [3D Secure](/features/3d-secure/) <br> [Handling cardholder data](/features/handling-cardholder-data/) <br> [Manual Capture](/features/manual-capture/) <br> [MOTO](/features/moto/) <br> [Recurring Payments](/features/recurring-payments/) <br> [Second Chance](/features/second-chance/) <br> [Zero Authorization](/features/zero-authorization/), **except** Amex |
+| **Supports** | [3D Secure](/features/3d-secure/) <br> [Handling cardholder data](/features/handling-cardholder-data/) <br> [Manual Capture](/features/manual-capture/) <br> [MOTO](/features/moto/) <br> [Recurring Payments](/payments/recurring-payments/) <br> [Second Chance](/features/second-chance/) <br> [Zero Authorization](/features/zero-authorization/), **except** Amex |
 
 {{< details title="Amex merchant account number" >}}
 

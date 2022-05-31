@@ -1,11 +1,11 @@
 ---
 title: 'Recurring Payments'
-weight: 10
+weight: 30
 meta_title: "Recurring Payments - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/Tokenization.svg'
 short_description: 'Boost conversion and manage subscriptions using tokenization.'
-url: '/features/recurring-payments/'
+url: '/payments/recurring-payments/'
 aliases: 
     - /tools/tokenization/how-do-i-get-tokenization/
     - /tools/tokenization/tokenization-api-level/
@@ -13,6 +13,7 @@ aliases:
     - /tools/tokenization/tokenization-available-for-plugins/
     - /tools/recurring-payments/what-is-recurring-payments/
     - /payments/features/tokenization/
+    - /features/recurring-payments/
 ---
 
 Recurring Payments is a MultiSafepay solution that securely stores payment details to enable quick, easy repeat payments.

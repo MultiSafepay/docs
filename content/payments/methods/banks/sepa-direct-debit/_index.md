@@ -53,7 +53,9 @@ SEPA Direct Debit is a European banking payment method where customers authorize
 | **Currencies**  | EUR | 
 | **Chargebacks**  | [Yes](/chargebacks/) (see below) | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) | 
+| **Supports** | [Recurring Payments](/payments/recurring-payments/) <br> [Second Chance](/features/second-chance/) | 
+
+To better manage SEPA Direct Debit payments, see also [Virtual IBANs](/payments/virtual-ibans/).
 
 ### Chargebacks
 

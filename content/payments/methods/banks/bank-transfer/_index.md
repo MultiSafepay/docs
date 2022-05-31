@@ -38,6 +38,8 @@ Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, interna
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
 | **Transactions expire after** | 60 days  |
 
+To better manage Bank Transfer payments, see also [Virtual IBANs](/payments/virtual-ibans/).
+
 ## Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -170,7 +172,7 @@ We then try to match the payment manually. If that fails:
 
 ### Resolving unmatched payments
 
-To create the transaction again, check if a [payment link](/payment-links/) was created: 
+To create the transaction again, check if a [payment link](/account/payment-links/) was created: 
 
 {{< details title="Payment link created" >}}
 
@@ -183,7 +185,7 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 
 {{< details title="Payment link not created" >}}
 
-1. [Generate a link manually](/payment-links/generating-links/). 
+1. [Generate a link manually](/account/payment-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
 3. Click **Bank Transfer**.
 4. Add the customer's bank account number (if known) to help us match the payment.
