@@ -456,7 +456,7 @@ We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services, e.g. ERP/inventory management, if items are low in stock, or for one-off products like antiques.
 
-To avoid this, match the order lifetime to the [payment link](/payment-links/) lifetime.
+To avoid this, match the order lifetime to the [payment link](/account/payment-links/) lifetime.
 
 See [Setting order lifetimes](#order-lifetimes) above. 
 
