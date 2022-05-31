@@ -327,7 +327,7 @@ For questions, email <integration@multisafepay.com>
 
 ### Payment links 
 
-From version 2.0 and higher, [payment links](/payment-links/) are automatically generated for every order.
+From version 2.0 and higher, [payment links](/account/payment-links/) are automatically generated for every order.
 
 {{< details title="Getting payment links" >}}
 
