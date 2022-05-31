@@ -303,5 +303,4 @@ Ask the cardholder if they want to try the transaction again.
 #### Merchant only accepts 3D Secure-authenticated cards 
 Email a request to accept non-3D Secure authenticated cards to <risk@multisafepay.com> 
 
-## Support
-Email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

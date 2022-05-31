@@ -15,31 +15,16 @@ extra_button:
 aliases:
     - /tools/accounting/accounting-integrations/afas/
 ---
+You can import MultiSafepay [Accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [AFAS](https://www.afas.nl/).
 
-For generating MultiSafepay accounting reports, see [Accountant export](/accounting/reports/accountant-export/).
-
-{{< details title="Supported import formats" >}}  
-&nbsp;  
-AFAS can import reports in MT940 format.
-
-{{< /details >}}
-
-{{< details title="Import instructions" >}}
-&nbsp;  
-To import a MultiSafepay Accountant export, see AFAS - [Contact](https://www.afas.nl/contact).
-
-{{< /details >}}
-
-For any questions, email <support@multisafepay.com>
+For import instructions, see AFAS – [Contact](https://www.afas.nl/contact).
 
 ## Third-party integrations
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Logo-Forque.png" align="left" class="medium-img desktop-radius" >}}
-
+### Forque
 For generating automated accounting reports, see Forque – [AFAS](https://www.forque.nl/afas-consultancy).
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Logo-DeViske.png" align="left" class="medium-img desktop-radius" >}}
-
+### De Viske ICT
 For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
-
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

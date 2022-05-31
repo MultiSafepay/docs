@@ -29,6 +29,5 @@ To generate a portable network graphic (PNG) of a payment method logo to display
     - Remove logos by clicking **Remove**.
 7. When you are happy with the preview, to generate the PNG image, click **Download**. 
 
-## Support
-Email <integration@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email integration@multisafepay.com {{< /blue-notice >}}
 
