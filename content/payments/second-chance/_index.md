@@ -41,7 +41,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 {{< /details >}}
 
-**Note:** Second Chance emails are also sent for [manually generated payment links](/payment-links/generating-links/) if the customer doesn't click the link to complete payment.
+**Note:** Second Chance emails are also sent for [manually generated payment links](/account/payment-links/#generating-payment-links) if the customer doesn't click the link to complete payment.
 
 ## Activating Second Chance
 To activate Second Chance, follow these steps:
