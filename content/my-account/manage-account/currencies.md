@@ -1,6 +1,6 @@
 ---
-title : "Managing currencies"
-meta_title: "Managing currencies - MultiSafepay Docs"
+title : "Currencies"
+meta_title: "Currencies - MultiSafepay Docs"
 read_more: '.'
 weight: 4
 url: '/account/currencies/'
