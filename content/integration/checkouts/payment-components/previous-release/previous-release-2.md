@@ -54,7 +54,7 @@ const orderData = {
 
 ```
 PaymentComponent = new MultiSafepay({
-    env: "test",
+    env: 'test',
     apiToken: apiToken,
     order: orderData
 });
