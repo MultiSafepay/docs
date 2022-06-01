@@ -14,8 +14,8 @@ aliases:
 ---
 You can process payments in a large number of currencies, provided that they are:
 
-- Supported by the specific [payment method](/payment-methods/).
-- Enabled in your [MultiSafepay account](https://merchant.multisafepay.com) and in the settings of any [ready-made integrations](/integrations/ready-made/).
+- Supported by the specific [payment method](/payment-methods/)
+- Enabled in your dashboard and in the settings of any [ready-made integrations](/integrations/ready-made/)
 - Correctly processed in the [create order](https://docs-api.multisafepay.com/reference/createorder) API request.
 
 ## Payment methods
