@@ -10,7 +10,6 @@ weight: 09
 title_short: "PrestaShop 1.7"
 type: "Plugin"
 layout: "single"
-layout: "single"
 changelog: https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md
 url: "/prestashop-1-7/"
 aliases: 
