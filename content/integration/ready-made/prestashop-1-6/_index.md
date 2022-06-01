@@ -4,12 +4,12 @@ download_url : "https://github.com/MultiSafepay/docs/raw/master/static/plugin-do
 changelog_url : "/integration/ready-made/prestashop-1-6/changelog/"
 changelog: https://docs.multisafepay.com/integration/ready-made/prestashop-1-6/changelog/
 meta_title: "PrestaShop 1.6 plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/PrestaShop.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.6"
-type: 'Plugin'
-layout: 'single'
-url: '/prestashop-1-6/'
+type: "Plugin"
+layout: "single"
+url: "/prestashop-1-6/"
 aliases: 
     - /plugins/prestashop-1-6
     - /integrations/plugins/prestashop-1-6

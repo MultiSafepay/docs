@@ -1,11 +1,11 @@
 ---
-title: 'GDPR'
+title: "GDPR"
 weight: 10
 meta_title: "GDPR - MultiSafepay Docs"
 read_more: "."
-logo: '/svgs/GDPR.svg'
-layout: 'single'
-url: '/payment-regulations/gdpr/'
+logo: "/svgs/GDPR.svg"
+layout: "single"
+url: "/payment-regulations/gdpr/"
 short_description: "How MultiSafepay processes customer data in accordance with the GDPR"
 aliases:
     - /faq/gdpr/who-can-access

@@ -1,9 +1,9 @@
 ---
 title : "Payout report"
 meta_title: "Payout report - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 5
-url: '/reports/payout-report/'
+url: "/reports/payout-report/"
 ---
 
 This report provides an overview (in Excel format) of the specific transactions and fees per [payout](/account/payouts/). It is helpful for matching payouts to specific orders or invoices for accounting purposes. 

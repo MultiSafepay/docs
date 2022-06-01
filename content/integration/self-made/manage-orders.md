@@ -1,12 +1,12 @@
 ---
 title: 'Manage orders'
 breadcrumb_title: "Manage orders"
-layout: 'single'
+layout: "single"
 meta_title: 'Build your integration – Manage orders - MultiSafepay Docs'
-logo: '/svgs/Wrappers.svg'
+logo: "/svgs/Wrappers.svg"
 short_description: 'Manage orders in your own integration'
 weight: 1
-url: '/integrations/self-made/manage-orders/'
+url: "/integrations/self-made/manage-orders/"
 ---
 
 MultiSafepay provides a [RESTful API](/glossaries/multisafepay-glossary/#restful-api-application-programming-interface) that can be accessed by HTTP requests to manage your data. We support data in JSON format only.

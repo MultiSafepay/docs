@@ -2,8 +2,8 @@
 title: "Unit4"
 weight: 20
 meta_title: "Unit4 - MultiSafepay Docs"
-logo: '/svgs/Unit4.svg'
-layout: 'single'
+logo: "/svgs/Unit4.svg"
+layout: "single"
 title_short: "Unit4"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Unit4 platform"

@@ -4,13 +4,13 @@ github_url : "https://github.com/MultiSafepay/Virtuemart"
 download_url : "https://github.com/MultiSafepay/VirtueMart/releases/download/2.2.2/Plugin_VirtueMart_2.2.2.zip"
 changelog_url : "."
 meta_title: "VirtueMart plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/VirtueMart.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg"
 weight: 18
 title_short: "VirtueMart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md"
-url: '/virtuemart/'
+url: "/virtuemart/"
 aliases:
     - /integrations/virtuemart/
     - /plugins/virtuemart

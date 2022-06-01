@@ -4,7 +4,7 @@ weight: 30
 meta_title: "Credit and debit card glossary - MultiSafepay Docs"
 short_description: "Understand industry terminology about credit and debit cards."
 read_more: "."
-url: '/glossaries/credit-cards/'
+url: "/glossaries/credit-cards/"
 aliases:
     - /payments/methods/credit-and-debit-cards/user-guide/glossary/
     - /credit-and-debit-cards/glossary/

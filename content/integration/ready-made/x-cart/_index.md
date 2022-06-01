@@ -4,13 +4,13 @@ github_url : "https://github.com/MultiSafepay/X-Cart"
 download_url : "https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/Plugin_X-Cart_2.3.0.zip"
 changelog_url : "."
 meta_title: "X-Cart plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/X-Cart.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/X-Cart.svg"
 weight: 14
 title_short: "X-Cart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
-url: '/x-cart/'
+url: "/x-cart/"
 aliases:
     - /integrations/x-cart/
     - /plugins/x-cart

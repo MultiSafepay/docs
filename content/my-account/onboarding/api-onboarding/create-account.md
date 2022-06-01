@@ -1,7 +1,7 @@
 ---
 title : Create a merchant account
 layout : single
-url: '/api-onboarding/create-account/'
+url: "/api-onboarding/create-account/"
 aliases: 
     - /tools/api-onboarding/create-account
 ---

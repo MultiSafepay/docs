@@ -1,11 +1,11 @@
 ---
 title : "Build a community integration"
 meta_title: "Build a community integration - MultiSafepay Docs"
-layout: 'paymentdetails'
+layout: "paymentdetails"
 weight: 102
 title_short: "Submit a community integration"
 description_short: "Submit and promote your plugin and become part of the MultiSafepay community."
-hideMenu: '.'
+hideMenu: "."
 url: /build-a-community-integration/
 aliases: 
     - /integrations/community/community/

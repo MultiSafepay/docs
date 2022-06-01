@@ -3,7 +3,7 @@ title : "Prohibited products and services"
 weight: 20
 meta_title: "Prohibited products and services - MultiSafepay Docs"
 read_more: "."
-url: '/account/prohibited-products-services/'
+url: "/account/prohibited-products-services/"
 aliases:
     - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
     - /faq/getting-started/prohibited-products-and-services

@@ -1,11 +1,11 @@
 ---
-title: 'TrustPay'
+title: "TrustPay"
 weight: 120
 meta_title: "Payment methods - TrustPay - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/TrustPay.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/TrustPay.svg" 
 short_description: 'Accept online banking payments from customers in the Czech Republic.'
-url: '/payment-methods/trustpay/'
+url: "/payment-methods/trustpay/"
 aliases:
     - /support-tab/magento2/payment-methods/trustpay
     - /payment-methods/trustpay/

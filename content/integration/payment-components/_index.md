@@ -1,7 +1,7 @@
 ---
 title: 'Payment components'
 breadcrumb_title: "Payment components"
-layout: 'single'
+layout: "single"
 meta_title: 'Payment components - MultiSafepay Docs'
 logo: '/svgs/Payment pages.svg'
 short_description: 'Embed payment methods directly in your checkout.'

@@ -1,5 +1,5 @@
 ---
-logo: "/logo/Integrations/PHP.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PHP.svg"
 weight: 10
 title_short: "PHP SDK"
 redirect_show_info:

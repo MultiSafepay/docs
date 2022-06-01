@@ -1,10 +1,10 @@
 ---
-title: 'Sofort'
+title: "Sofort"
 weight: 40
 meta_title: "Payment methods - Sofort - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/SOFORT.svg' 
-url: '/payment-methods/sofort/'
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/SOFORT.svg" 
+url: "/payment-methods/sofort/"
 short_description: 'Accept secure bank transfers from a number of European countries.'
 aliases:
     - /support-tab/magento2/payment-methods/sofort-banking

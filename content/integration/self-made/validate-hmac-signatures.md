@@ -1,12 +1,12 @@
 ---
 title: 'Validate HMAC signatures'
 breadcrumb_title: "Validate HMAC signatures"
-layout: 'single'
+layout: "single"
 meta_title: 'Build your integration – Handle notifications - Validate HMAC signatures - MultiSafepay Docs'
-logo: '/svgs/Wrappers.svg'
+logo: "/svgs/Wrappers.svg"
 short_description: 'Validate HMAC signatures of notifications.'
 weight: 1
-url: '/integrations/self-made/handle-notifications/validate-hmac-signatures/'
+url: "/integrations/self-made/handle-notifications/validate-hmac-signatures/"
 ---
 
 To validate the HMAC signature of `POST` notification requests in your own solution, follow these steps:

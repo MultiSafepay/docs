@@ -2,8 +2,8 @@
 title: "Yuki"
 weight: 20
 meta_title: "Yuki - MultiSafepay Docs"
-logo: '/svgs/Yuki.svg'
-layout: 'single'
+logo: "/svgs/Yuki.svg"
+layout: "single"
 title_short: "Yuki"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Yuki platform"

@@ -3,13 +3,13 @@ title : "OpenCart plugin"
 github_url : "https://github.com/MultiSafepay/Opencart"
 download_url : "https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960"
 meta_title: "OpenCart plugin - MultiSafepay Docs"
-logo: "/logo/Plugins/OpenCart.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OpenCart.svg"
 weight: 10
 title_short: "OpenCart"
-type: 'Plugin'
-layout: 'single'
+type: "Plugin"
+layout: "single"
 changelog : "https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md"
-url: '/opencart/'
+url: "/opencart/"
 aliases: 
     - /plugins/opencart
     - /integrations/plugins/opencart
