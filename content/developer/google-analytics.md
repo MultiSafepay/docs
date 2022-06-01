@@ -1,16 +1,7 @@
 ---
 title : "Google Analytics"
-weight: 30
-meta_title: "Google Analytics - MultiSafepay Docs"
-read_more: "."
-layout: 'single'
-url: '/developers/google-analytics/'
-short_description: 'Use Google Analytics to track customer behaviour on payment pages. '
-aliases:
-    - /faq/general/google-analytics-referral-exclusions
-    - /developer/general/excluding-referrals-in-google-analytics/
-    - /developer/excluding-referrals-in-google-analytics/
-    - /developer/api/google-analytics-tracking/
+category: 62962df622e99600810c117d
+order: 50
 ---
 ## Tracking payment pages
 
