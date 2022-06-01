@@ -193,7 +193,7 @@ If no specific rule is set for a language, **Default** language is used.
 
 ### Payment links
 
-When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/payments/payment-statuses/) or link it to a transaction in Lightspeed via our app. This&nbsp;is by design in Lightspeed. 
+When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/account/payment-statuses/) or link it to a transaction in Lightspeed via our app. This&nbsp;is by design in Lightspeed. 
 
 ### Payment methods
 

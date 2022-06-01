@@ -3,13 +3,14 @@ title: "Payment statuses"
 weight: 5
 meta_title: "Payment statuses - MultiSafepay Docs"
 read_more: "."
-url: '/payments/payment-statuses/'
+url: '/account/payment-statuses/'
 aliases:
     - /payments/multisafepay-statuses/
     - /faq/api/difference-between-status-and-transaction-status
     - /faq/api/difference-between-status-and-financial-status
     - /developer/api/difference-between-status-and-financial-status/
     - /about-payments/multisafepay-statuses/
+    - /account/payment-statuses/
 ---
 
 There are two statuses for each payment that update as it is processed. 

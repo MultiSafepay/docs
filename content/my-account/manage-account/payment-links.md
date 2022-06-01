@@ -22,26 +22,27 @@ aliases:
     - /payments/checkout/payment-link/
     - /payment-links/generating-links/
     - /payment-links/about/
+    - /faq/api/lifetime-of-a-payment-link/
 ---
 
-You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. Use cases include:
+You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. 
+
+### Use cases
 
 - A customer wants to adjust an existing order and instead of starting over with a new order.
 - You need to create a transaction for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
 - A [Bank Transfer](/payment-methods/bank-transfer/) transaction has expired.
 
-{{< details title="Payment methods" >}}
+### Payment methods
 
-**All** payment methods are supported. 
+**All** payment methods are supported. The payment page displays all methods activated for the relevant site. If&nbsp;you want to display specific payment methods, create a new site profile with only the relevant methods activated. 
 
-The [payment page](/payment-pages/) displays **all** payment methods activated for the relevant website. If&nbsp;you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
-
-{{< /details >}}
-
-{{< details title="Link lifetime" >}}
+### Link lifetimes
 
 The lifetime of a payment link is how long it remains active for the customer to access the payment page and complete payment. The default is 30 days. 
+
+{{< details title="Adjusting link lifetimes" >}}
 
 You can adjust the lifetime for some payment methods:
 
@@ -58,12 +59,10 @@ To set or adjust the lifetime, see API reference – [Create order](https://docs
 
 {{< /details >}}
 
-{{< details title="Number of customer attempts" >}} 
+### Number of customer attempts
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/about-payments/multisafepay-statuses/) of the other transactions remains **Initialized** until they expire.
-
-{{< /details >}}
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/account/payment-statuses/) of the other transactions remains **Initialized** until they expire.
 
 ## Generating payment links
 
@@ -129,7 +128,7 @@ For an overview of all payment links:
 
 If you need to generate multiple payment links, you can speed up the process by copying existing links.
 
-{{< details title="Clone a payment link" >}}
+{{< details title="Cloning a payment link" >}}
 To generate a copy of an existing payment link: 
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -144,7 +143,7 @@ A new link generator window opens with the same details prefilled.
 
 You can cancel a payment link in your dashboard, or see API reference – [Update or cancel an order](https://docs-api.multisafepay.com/reference/updateorder).
 
-{{< details title="Cancel a payment link" >}}
+{{< details title="Cancelling a payment link" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Tools** > **Payment link generator**.
@@ -153,6 +152,4 @@ The status changes to **Cancelled**.
 
 {{< /details >}}
 
-## Support
-
-Email <integration@multisafepay.com>
+{{< blue-notice >}} **Support** <br> Email <integration@multisafepay.com> {{< /blue-notice >}}

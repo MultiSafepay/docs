@@ -90,7 +90,7 @@ sequenceDiagram
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [Payment statuses](/payments/payment-statuses/).
+For more information, see [Payment statuses](/account/payment-statuses/).
 
 | Payments | Order status | Transaction status |
 |---|---|---|

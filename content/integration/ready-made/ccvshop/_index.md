@@ -21,6 +21,7 @@ aliases:
     - /integrations/ccvshop/faq/refunding-ccv-shop/
     - /payments/integrations/ecommerce-platforms/ccvshop/faq/processing-refunds/
     - /ccv-shop/refunds/
+    - /integrations/ccvshop/faq/
 ---
 This technical manual is for installing and configuring MultiSafepay's free app for integrating with CCV Shop.
 

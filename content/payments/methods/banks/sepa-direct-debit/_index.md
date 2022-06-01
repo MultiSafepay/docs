@@ -117,7 +117,7 @@ MultiSafepay creates e-mandates automatically based on the customer's IBAN and y
 
 **Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
 
-For more information, see [Payment statuses](/payments/payment-statuses/).
+For more information, see [Payment statuses](/account/payment-statuses/).
 
 | Payments | Order status | Transaction status |
 |---|---|---|
