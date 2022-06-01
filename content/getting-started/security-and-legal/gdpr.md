@@ -29,22 +29,20 @@ aliases:
     - /security-and-legal/gdpr/
 ---
  
-The General Data Protection Regulation 2016/679 (GDPR) is a European Union regulation on protecting and transferring personal and privacy in the EU and European Economic Area.
+The General Data Protection Regulation 2016/679 (GDPR) is a European Union regulation on protecting and transferring personal data and privacy in the EU and European Economic Area.
 
 MultiSafepay complies with all required measures to ensure data protection, including:
 
-- Encrypting all stored data
-- Anonymizing stored data as much as possible
-- Using dedicated software
-- Following company policy, procedures, and operational guidelines
 - Storing all data in certified data centers in the Netherlands, so all data remains within the EU
-- Having a data protection officer registered with the Dutch Data Protection Authority (AP)
+- Encrypting and anonymizing all stored data as much as possible using dedicated software
+- Following company policy, procedures, and operational guidelines
+- Registering a data protection officer with the Dutch Data Protection Authority (AP)
 
 ## GDPR addendum
 
 Our primary activity is processing online payments. We are a data controller, responsible for storing data only. We are **not** a processor or sub-processor of data. 
 
-For more information, see the MultiSafepay – [GDPR addendum](https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf). It includes a number of provisions similar to a standard processing agreement.
+For more information, see the MultiSafepay – [GDPR addendum](https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf). It&nbsp;includes a number of provisions similar to a standard processing agreement.
 
 ## Using customer data
 MultiSafepay only uses customer data for processing online payments, and never for any other commercial purposes. If we ever need to use data for another purpose, we explicitly request consent.
