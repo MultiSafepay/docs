@@ -6,6 +6,7 @@ logo: '/svgs/Risk and Fraud.svg'
 layout: 'single'
 short_description: "Minimizing risk and preventing fraud."
 url: '/risk-fraud/'
+read_more: '.'
 aliases: 
     - /faq/risk-and-fraud/
     - /faq/risk-and-fraud/how-does-multisafepay-prevent-fraud-and-minimize-risks
@@ -22,11 +23,11 @@ aliases:
     - /risk-fraud/fraud-prevention/
 ---
 
-MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team actively works to reduce chargebacks and analyzes high-risk transactions.
+MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team analyzes high-risk transactions and actively works to reduce [chargebacks](/chargebacks/).
 
-We offer the highest industry protection under the [PCI DSS](/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss), including HTTPS, data encryption, and 3D Secure technology. 
+We offer the highest industry protection under the [PCI DSS](/payment-regulations/pci-dss/), including HTTPS, data encryption, and [3D Secure](/cards/3ds2/) authentication. 
 
-We act as processor and [acquirer](/glossaries/multisafepay-glossary/#acquirer) for Visa and Mastercard, and are therefore also required to comply with the card schemes' own operating regulations.
+We act as processor and acquirer for Visa and Mastercard, and are therefore also required to comply with their operating regulations.
 
 ## Monitoring transactions
 
@@ -48,6 +49,6 @@ MultiSafepay is legally required to periodically review all merchant accounts to
 
 We check if your company is still active and if there have been any changes in the business model, directors, and ultimate beneficial ownership since [onboarding](/account/onboarding-golive/) or the last review. 
 
-If we pick up any changes, we email you to confirm or request new documentation, e.g. updated UBO statements or copies of identification documents. 
+If we identify any changes, we email you to confirm or request new documentation. 
 
-If you fail to respond to these requests, we initially pause your [payouts](/account/payouts/) and may ultimately unilaterally terminate your contract.
+If you fail to respond to these requests, we initially pause payouts and may ultimately unilaterally terminate your contract.
