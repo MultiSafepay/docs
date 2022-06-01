@@ -1,7 +1,7 @@
 ---
 title : "IBANs"
 meta_title: "IBANs - MultiSafepay Docs"
-weight: 8
+weight: 10
 read_more: "."
 url: '/account/ibans/'
 aliases:

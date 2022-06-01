@@ -1,6 +1,6 @@
 ---
 title: 'Payment links'
-weight: 7
+weight: 15
 meta_title: "Payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'

@@ -1,6 +1,6 @@
 ---
 title: "Affiliated merchants"
-weight: 70
+weight: 4
 meta_title: "Affiliated merchants - MultiSafepay Docs"
 read_more: '.'
 url: '/account/affiliates/'

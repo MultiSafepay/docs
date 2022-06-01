@@ -1,6 +1,6 @@
 ---
 title: "Logos and icons"
-Weight: 10
+Weight: 12
 meta_title: "Logos and icons - MultiSafepay Docs"
 url: '/account/logos-icons/'
 read_more: "."
