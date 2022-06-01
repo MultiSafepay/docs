@@ -5,17 +5,17 @@ order: 70
 hidden: true
 ---
 
-The FastCheckout Android SDK provides connections to MultiSafepay services from your native Android app. The SDK enables a frictionless, fast, and native checkout experience by storing and reusing data.
+The FastCheckout Android SDK helps you connect to MultiSafepay from your native Android app. It enables a fast, frictionless, native checkout experience by storing and reusing data.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_Android.svg" width="100" align ="right"/>
 
-[View it on GitHub](https://github.com/MultiSafepay/fastcheckout-android-sdk)
+[View on GitHub](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
 ____
 
 ## Manual
 
-As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
+Simply provide a valid transaction ID or [create an order](https://docs-api.multisafepay.com/reference/createorder). The SDK generates the checkout automatically and sends status updates for each transaction.  The checkout flow includes:
 
 - Shipping details:
     - Preferred shipping details
