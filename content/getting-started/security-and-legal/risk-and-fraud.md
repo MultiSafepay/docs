@@ -6,6 +6,7 @@ logo: '/svgs/Risk and Fraud.svg'
 layout: 'single'
 short_description: "Minimizing risk and preventing fraud."
 url: '/risk-fraud/'
+read_more: '.'
 aliases: 
     - /faq/risk-and-fraud/
     - /faq/risk-and-fraud/how-does-multisafepay-prevent-fraud-and-minimize-risks
