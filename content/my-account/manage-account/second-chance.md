@@ -1,6 +1,6 @@
 ---
 title: 'Second Chance reminders'
-weight: 30
+weight: 13
 meta_title: "Second Chance reminders - MultiSafepay Docs"
 layout: 'single'
 read_more: '.'

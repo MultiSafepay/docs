@@ -2,7 +2,7 @@
 title : "Invoices"
 meta_title: "Invoices - MultiSafepay Docs"
 read_more: '.'
-weight: 6
+weight: 8
 url: '/account/invoices/'
 aliases:
     - /faq/finance/about-vat/
