@@ -109,7 +109,7 @@ The Integration Team will do their best to provide support for third-party plugi
 
 ### Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards. 
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). Using a generic gateway means you don't need to update your integration when we add new payment methods.
 
 {{< details title="Configuring generic gateways" >}}
 
@@ -117,12 +117,21 @@ The plugin supports generic gateways, which redirect customers from your checkou
 2. Go to **Improve** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway icon.
 
-You can filter payment methods by:
+The generic gateway supports:
 
-- Country
-- Currency
-- Customer group
-- Minimum and maximum amount
+- All payment methods (filter by country, currency, customer group, and minimum/maximum amount)
+- [Split payments](/payments/split-payments/), [Second Chance reminders](/features/second-chance/) and [virtual IBANs](/payments/virtual-ibans/)
+- [Redirect requests](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) only
+
+**Gift cards**
+
+Generic gateways are particularly useful for integrating [gift cards](/payment-methods/gift-cards/), including [custom gift cards](/payment-methods/gift-cards/custom-cards/). This is because we don't support all [open-loop gift cards](/payment-methods/gift-cards/open-loop-closed-loop/) in our ready-made integrations and *no* closed-loop gift cards.
+
+**Co-branded credit cards**
+
+You can integrate Visa co-branded credit cards ([Cartes Bancaires](/payment-methods/cartes-bancaires/), [Dankort](/payment-methods/dankort/), and [V Pay](/payment-methods/vpay/)), using the generic `VISA` gateway.
+
+For the logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
 
 {{< /details >}}
 
