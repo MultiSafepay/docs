@@ -8,7 +8,7 @@ layout: 'single'
 meta_title: "PWA Studio (Venia) plugin - MultiSafepay Docs"		
 meta_description: "Free plugin to integrate MultiSafepay payment solutions with PWA Studio."
 weight: 17
-logo: "/logo/Plugins/Magento_PWA.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg"
 url: "/pwa-studio/"
 title_short: "PWA Studio (Venia)"
 type: "PWA"

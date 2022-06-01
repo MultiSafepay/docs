@@ -2,7 +2,7 @@
 title : "Switching the order flow"
 meta_title: "PrestaShop 1.7 - Switching the order flow - MultiSafepay Docs"
 read_more: "."
-url: '/prestashop-1-7/order-flow/'
+url: "/prestashop-1-7/order-flow/"
 ---
 
 Because PrestaShop does not give any guidelines about an order needing to be created before or after a transaction has been completed, we give you the option to switch between two flows:

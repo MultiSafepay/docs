@@ -4,8 +4,8 @@ breadcrumb_title: MultiSafepay glossary
 weight: 10
 meta_title: "MultiSafepay glossary - MultiSafepay Docs"
 short_description: "Get familiar with payments terminology and specific MultiSafepay uses."
-layout: 'single'
-url: '/glossaries/multisafepay-glossary/'
+layout: "single"
+url: "/glossaries/multisafepay-glossary/"
 aliases:
     - /faq/general/glossary
     - /getting-started/glossary/

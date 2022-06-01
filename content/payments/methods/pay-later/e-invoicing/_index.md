@@ -1,11 +1,11 @@
 ---
-title: 'E-Invoicing'
+title: "E-Invoicing"
 weight: 10
 meta_title: "Payment methods - E-Invoicing - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/e-invoicing.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/e-invoicing.svg" 
 short_description: 'A MultiSafepay pay later method that is highly flexible and gives you full control.'
-url: '/payment-methods/e-invoicing/'
+url: "/payment-methods/e-invoicing/"
 aliases:
     - /support-tab/magento2/payment-methods/e-invoicing
     - /payment-methods/e-invoicing/

@@ -5,7 +5,7 @@ meta_title: "Payment links - MultiSafepay Docs"
 layout: 'single'
 logo: '/svgs/External link.svg'
 short_description: 'Generate payment links via our API or in your MultiSafepay dashboard.'
-url: '/account/payment-links/'
+url: "/account/payment-links/"
 read_more: "."
 aliases:
     - /tools/payment-link/payment-link-api/

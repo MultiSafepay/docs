@@ -3,8 +3,8 @@ title: 'Manual Capture'
 weight: 60
 meta_title: "Manual Capture - MultiSafepay Docs"
 layout: "single"
-logo: '/svgs/Manual_capture.svg'
-url: '/features/manual-capture/'
+logo: "/svgs/Manual_capture.svg"
+url: "/features/manual-capture/"
 short_description: 'Capture card payments in full or in part.'
 aliases:
     - /tools/manual-capture/full-capture/

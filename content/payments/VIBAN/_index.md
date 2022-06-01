@@ -2,8 +2,8 @@
 title: 'Virtual IBANs'
 weight: 60
 meta_title: "Virtual IBANs - MultiSafepay Docs"
-logo: '/svgs/Banks.svg'
-layout: 'single'
+logo: "/svgs/Banks.svg"
+layout: "single"
 short_description: "Collect bank transfers and direct debits in your own bank account."
 url: '/payments/virtual-ibans/'
 aliases:

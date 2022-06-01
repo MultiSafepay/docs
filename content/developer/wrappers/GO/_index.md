@@ -1,5 +1,5 @@
 ---
-logo: "/logo/Integrations/Go.svg"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Go.svg"
 weight: 150
 title_short: "GO"
 redirect_show_info:

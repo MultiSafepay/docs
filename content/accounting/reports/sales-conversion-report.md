@@ -1,9 +1,9 @@
 ---
 title: "Sales and conversion reports"
 meta_title: "Sales and conversion reports - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 7
-url: '/reports/sales-conversion-reports/'
+url: "/reports/sales-conversion-reports/"
 aliases:
     - /tools/reports/advanced-sales-and-conversions-report
     - /tools/accounting/reports/advanced-reporting/

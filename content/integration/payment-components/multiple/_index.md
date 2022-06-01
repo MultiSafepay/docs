@@ -2,9 +2,9 @@
 title : "Integrating multiple payment components"
 breadcrumb_title : "Integrating multiple payment components"
 meta_title: "Payment Components - Integrating multiple payment components - MultiSafepay Docs"
-layout: 'single'
-read_more: '.'
-url: '/payment-components/multiple/'
+layout: "single"
+read_more: "."
+url: "/payment-components/multiple/"
 --- 
 
 ## Step 1: Add the elements

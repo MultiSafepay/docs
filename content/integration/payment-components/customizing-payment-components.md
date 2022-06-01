@@ -1,10 +1,10 @@
 ---
 title : "Customizing payment components"
 meta_title: "Customizing payment components - MultiSafepay Docs"
-layout: 'single'
-read_more: '.'
+layout: "single"
+read_more: "."
 weight: 3
-url: '/payment-components/customization/'
+url: "/payment-components/customization/"
 ---
 
 After integrating the payment component, the default user interface (UI) styling is applied. 

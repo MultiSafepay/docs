@@ -3,9 +3,9 @@ title : "Integrating the previous release"
 breadcrumb_title : "Integrating the previous release"
 meta_title: "Payment Components - Integrating the previous release - MultiSafepay Docs"
 
-layout: 'single'
-read_more: '.'
-url: '/payment-components/previous-release/'
+layout: "single"
+read_more: "."
+url: "/payment-components/previous-release/"
 --- 
 
 ## Step 1: Add the elements

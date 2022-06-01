@@ -3,10 +3,10 @@ title: "ING Home'Pay"
 weight: 150
 meta_title: "Payment methods - ING Home'Pay - MultiSafepay Docs"
 intro_description: "ING Home'Pay is an online payment method for ING customers in Belgium. Customers are redirected to their ING banking environment to complete payment."
-layout: 'single'
+layout: "single"
 short_description: 'Discontinued by ING on December 6, 2021.'
-url: '/payment-methods/ing-home-pay/'
-logo: '/logo/Payment_methods/ING_Homepay.svg'
+url: "/payment-methods/ing-home-pay/"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/ING_Homepay.svg"
 aliases:
     - /support-tab/magento2/payment-methods/ing-home-pay
     - /payment-methods/ing-home-pay/

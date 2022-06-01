@@ -1,9 +1,9 @@
 ---
 title: "Accountant export"
 meta_title: "Accountant export - MultiSafepay Docs"
-read_more: '.'
+read_more: "."
 weight: 1
-url: '/reports/accountant-export/'
+url: "/reports/accountant-export/"
 aliases:
     - /tools/reports/accountant-report-export/
     - /tools/reports/report-validity/

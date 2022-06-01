@@ -1,6 +1,6 @@
 ---
 title: 'API reference'
-tags: 'hidden'
+tags: "hidden"
 meta_title: "API reference - MultiSafepay Docs"
 
 aliases:

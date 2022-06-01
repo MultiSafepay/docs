@@ -2,9 +2,9 @@
 title: 'Cards overview'
 weight: 10
 meta_title: "Cards overview - MultiSafepay Docs"
-layout: 'single' 
+layout: "single" 
 short_description: 'How to use, activate, and integrate credit and debit cards.'
-url: '/payment-methods/cards/'
+url: "/payment-methods/cards/"
 logo: '/svgs/Credit cards.svg'
 aliases:
     - /payments/methods/american-express/

@@ -1,11 +1,11 @@
 ---
-title: 'iDEAL'
+title: "iDEAL"
 weight: 10
 meta_title: "Payment methods - iDEAL - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/iDeal.svg' 
+layout: "single"
+logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/iDeal.svg" 
 short_description: 'Leading Dutch payment method connecting all major retail banks.'
-url: '/payment-methods/ideal/'
+url: "/payment-methods/ideal/"
 aliases:
     - /support-tab/magento2/payment-methods/ideal
     - /payment-methods/ideal/

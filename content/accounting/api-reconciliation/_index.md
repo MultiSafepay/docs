@@ -4,8 +4,8 @@ weight: 30
 meta_title: "Reconciliation via API - MultiSafepay Docs"
 layout : "single"
 short_description: 'Automate reconciling your transactions via our API.'
-logo: '/svgs/API.svg'
-url: '/accounting/api-reconciliation/'
+logo: "/svgs/API.svg"
+url: "/accounting/api-reconciliation/"
 aliases: 
     - /tools/transactions-api-endpoint
     - /tools/accounting/transactions-api-endpoint/

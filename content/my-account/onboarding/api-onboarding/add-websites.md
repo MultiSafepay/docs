@@ -1,7 +1,7 @@
 ---
 title : Add websites 
 layout : single
-url: '/api-onboarding/add-websites/'
+url: "/api-onboarding/add-websites/"
 aliases: 
     - /tools/api-onboarding/add-websites
 ---
@@ -163,7 +163,7 @@ Retrieve information about a specific website.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|site_id{{< br >}}`integer`|The unique identifier of the website.{{< br >}}**Format**: 5-digit integer, e.g. `12345`. Required.{{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `site_id` is returned as `id` in the [add a website](#add-a-website) and [list websites](#list-websites) requests.|
+|site_id{{< br >}}`integer`|The unique identifier of the website.{{< br >}}**Format**: 5-digit integer, e.g. `12345`. Required.{{< br >}}{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `site_id` is returned as `id` in the [add a website](#add-a-website) and [list websites](#list-websites) requests.|
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -220,7 +220,7 @@ Update information about an existing website.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|site_id{{< br >}}`integer`|The unique identifier of the website.{{< br >}}**Format**: 5-digit integer, e.g. `12345`. Required.{{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `site_id` is returned as `id` in the [add a website](#add-a-website) and [list websites](#list-websites) requests.|
+|site_id{{< br >}}`integer`|The unique identifier of the website.{{< br >}}**Format**: 5-digit integer, e.g. `12345`. Required.{{< br >}}{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `site_id` is returned as `id` in the [add a website](#add-a-website) and [list websites](#list-websites) requests.|
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
