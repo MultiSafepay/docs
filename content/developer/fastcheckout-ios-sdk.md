@@ -1,11 +1,17 @@
 ---
-title : "FastCheckout iOS SDK manual"
-meta_title: "FastCheckout iOS SDK manual - MultiSafepay Docs"
-aliases: 
-    - /integrations/fastcheckout-ios/manual/
+title : "FastCheckout iOS SDK"
+category: 62962df622e99600810c117d
+order: 80
+hidden: true
 ---
 
-### Introduction
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_iOS.svg" width="100" align ="right"/>
+
+Simply provide a valid transaction ID or [create an order](https://docs-api.multisafepay.com/reference/createorder). The SDK generates the checkout automatically and sends status updates for each transaction.
+
+[View on GitHub](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
+
+## Manual
 
 As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
 

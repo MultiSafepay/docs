@@ -1,14 +1,8 @@
 ---
 title: 'HTTP errors'
-weight: 40
-meta_title: "HTTP errors - MultiSafepay Docs"
-read_more: "."
-layout: 'single'
-url: '/developers/http-errors/'
-short_description: 'Understand HTTP errors that may not originate from our platform. '
-aliases:
-    - /faq/errors-explained/http-errors
-    - /developer/http-errors/
+category: 62962df622e99600810c117d
+order: 30
+hidden: false
 ---
 > **Note:** HTTP errors don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.
 
