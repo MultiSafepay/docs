@@ -9,17 +9,13 @@ aliases:
     - /accounting/reports/second-chance-report/
 ---
 
-The Second Chance report provides an overview of all transactions:
+This report provides an overview (in Excel format) of all transactions:
 
 - By payment method or country
-- Declined
-- Retried and completed 
-- Retried and completed with a different payment method
+- Declined, retried and completed, retried and completed with a different payment method
 - Completed with [Second Chance](/features/second-chance/) 
 
 To request a Second Chance report, email <sales@multisafepay.com>
-
-Supported format: Excel
 
 {{< details title="Report contents" >}}
 | Column | Description | 

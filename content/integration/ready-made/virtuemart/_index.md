@@ -1,9 +1,8 @@
 ---
-title : "MultiSafepay plugin for VirtueMart"
+title : "VirtueMart plugin"
 github_url : "https://github.com/MultiSafepay/Virtuemart"
 download_url : "https://github.com/MultiSafepay/VirtueMart/releases/download/2.2.2/Plugin_VirtueMart_2.2.2.zip"
 changelog_url : "."
-faq: "."
 meta_title: "VirtueMart plugin - MultiSafepay Docs"
 logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg"
 weight: 18
@@ -23,9 +22,23 @@ aliases:
     - /integrations/ecommerce-integrations/virtuemart
     - /payments/integrations/ecommerce-platforms/virtuemart/
     - /ecommerce-platforms/virtuemart/
+    - /integrations/virtuemart/faq/refunding-virtuemart/
+    - /payments/integrations/ecommerce-platforms/virtuemart/faq/processing-refunds/
+    - /virtuemart/refunds/
+    - /integrations/virtuemart/faq/how-can-i-update-the-plugin-for-virtuemart/
+    - /payments/integrations/ecommerce-platforms/virtuemart/faq/updating-the-plugin/
+    - /virtuemart/updates/
 ---
 
-This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your VirtueMart webshop.
+This technical manual is for installing and configuring MultiSafepay free plugin for integrating with VirtueMart.
+
+{{< details title="Requirements" >}}
+
+- [MultiSafepay account](/getting-started/guide/)
+- Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
+- Tested on PHP 7.0
+
+{{< /details >}}
 
 {{< details title="Support" >}}
 &nbsp; 
@@ -37,87 +50,11 @@ Contact us:
 
 {{< /details >}}
 
-{{< details title="Requirements" >}}
-
-- MultiSafepay account – See [Getting started](/getting-started/).
-- Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
-- Tested on PHP 7.0
-
-{{< /details >}}
-
-{{< details title="Supported payment methods" >}}
-
-**Credit and debit cards**
-
-- [American Express](/payment-methods/amex)
-- [Maestro](/payment-methods/maestro/)
-- [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Belfius](/payment-methods/belfius)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Dotpay](/payment-methods/dotpay)
-- [EPS](/payment-methods/eps)
-- [Giropay](/payment-methods/giropay)
-- [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payment-methods/request-to-pay/)
-- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-- [Sofort](/payment-methods/sofort)
-- [Trustly](/payment-methods/trustly)
-- [TrustPay](/payment-methods/trustpay)
-
-**Pay later methods**
-
-- [AfterPay](/payment-methods/afterpay/)
-- [Betaal per Maand](/payment-methods/betaal-per-maand)
-- [E-Invoicing](/payment-methods/e-invoicing)
-- [in3](/payment-methods/in3/)
-- [Klarna](/payment-methods/klarna)
-- [Pay After Delivery](/payment-methods/pay-after-delivery)
-
-**Wallets**
-
-- [Alipay](/payment-methods/alipay)
-- [Apple Pay](/payment-methods/apple-pay/) – **Note:** If a customer selects Apple Pay at checkout but isn't on an Apple device, they receive a notification to select another payment method. 
-- [PayPal](/payment-methods/paypal)
-- [Google Pay](/payment-methods/google-pay/)
-- [WeChat Pay](/payment-methods/wechat-pay/)
-
-**Prepaid cards**
-
-- Beauty and Wellness gift card
-- [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-- [Edenred](/payment-methods/edenred/)
-- [Fashioncheque](https://www.fashioncheque.com/nl)
-- [Fashion gift card](https://www.fashion-giftcard.nl)
-- Fietsenbon
-- [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-- [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-- [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-- [Paysafecard](/payment-methods/paysafecard)
-- [Podium](https://www.podiumcadeaukaart.nl)
-- [Postepay](/payment-methods/postepay/)
-- [Sport en Fit](https://www.sportenfitcadeau.nl)
-- [VVV gift card](https://www.vvvcadeaukaarten.nl)
-- [Webshop gift card](https://www.webshopgiftcard.nl)
-- [Wellness gift card](https://www.wellnessgiftcard.nl)
-- Wijncadeau
-- [Winkelcheque](https://www.winkelcheque.nl)
-- [Yourgift](https://www.yourgift.nl/)
-
-See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gateways).
-
-{{< /details >}}
-
 ## Installation
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment following, the recommended VirtueMart installation procedure. Make sure you have made a backup. {{< /blue-notice >}}
+{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup. {{< /blue-notice >}}
 
-1. Sign in to your VirtueMart [backend](/glossaries/multisafepay-glossary/#backend).
+1. Sign in to your VirtueMart backend.
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
@@ -137,4 +74,57 @@ See also [MultiSafepay gateway](/developer/generic-gateways/#multisafepay-gatewa
     - [Site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
+## User guide
 
+### Checkouts
+
+If a customer selects Apple Pay at checkout but isn't on an Apple device, they receive a notification to select another payment method. 
+
+### Payment methods
+
+{{< details title="Payment methods" >}}
+
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Banking methods: [All](/payment-methods/banks/)
+- Pay later methods: [All](/payment-methods/pay-later/)
+- Wallets: [All](/payment-methods/wallets/)
+- Prepaid cards:
+    - Beauty and Wellness gift card
+    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
+    - [Edenred](/payment-methods/edenred/)
+    - [Fashioncheque](https://www.fashioncheque.com/nl)
+    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - Fietsenbon
+    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
+    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
+    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - [Paysafecard](/payment-methods/paysafecard)
+    - [Podium](https://www.podiumcadeaukaart.nl)
+    - [Postepay](/payment-methods/postepay/)
+    - [Sport en Fit](https://www.sportenfitcadeau.nl)
+    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
+    - [Webshop gift card](https://www.webshopgiftcard.nl)
+    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - Wijncadeau
+    - [Winkelcheque](https://www.winkelcheque.nl)
+    - [Yourgift](https://www.yourgift.nl/)
+
+{{< /details >}}
+
+### Refunds
+
+[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and your backend.  
+You cannot refund more than the original amount in your backend.
+
+### Updates
+
+You can update the plugin in your backend and the CMS marketplace, via SFTP.
+
+{{< details title="Updating in your backend" >}}
+
+**Note:** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+
+1. Download the plugin again above.
+2. Follow the Installation and configuration instructions from step 2.
+
+{{< /details >}}

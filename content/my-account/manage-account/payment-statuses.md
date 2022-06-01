@@ -1,6 +1,6 @@
 ---
 title: "Payment statuses"
-weight: 20
+weight: 5
 meta_title: "Payment statuses - MultiSafepay Docs"
 read_more: "."
 url: "/payments/payment-statuses/"

@@ -42,7 +42,7 @@ aliases:
 | **Currencies**  | EUR <br> (GBP, CHF, PLN **not** supported) | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Recurring Payments](/features/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) |
+| **Supports** | [Recurring Payments](/payments/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 day |
 | **Minimum amount** | 0,10 EUR |
 

@@ -41,7 +41,7 @@ The funds are transferred directly to your business bank account, instead of you
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} All refunds are processed by Deutsche Bank. |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 hour |
 | **Minimum amount** | 1 EUR |
 | **Maximum amount** | 15,000 EUR |

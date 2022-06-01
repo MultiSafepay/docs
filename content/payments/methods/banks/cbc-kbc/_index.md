@@ -46,7 +46,7 @@ The payment method functions the same for both the CBC branch and the KBC branch
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) <br> (1 business day after payment is completed) |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 5 days  |
 
 ## Payment flow

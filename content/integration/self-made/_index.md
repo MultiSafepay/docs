@@ -24,9 +24,9 @@ Firstly, check that you have completed these prerequisite steps:
 1. [Create a test account](/getting-started/guide/#1-create-a-free-test-account).
 2. [Set up your account](/getting-started/guide/#2-set-up-your-account).
 
-Before continuing with this tutorial, see if you can save yourself some development time with our range of [wrappers and SDKs](/developer/wrappers/).
+Before continuing with this tutorial, see if you can save yourself some development time with our range of [wrappers and SDKs](/developers/wrappers-sdks/).
 
-{{< two-buttons href-2="/developer/wrappers" text-2="Wrappers" description-2="Wrappers and SDKs" img-2="/svgs/SDKs.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/developers/wrappers-sdks" text-2="Wrappers" description-2="Wrappers and SDKs" img-2="/svgs/SDKs.svg" alt-2="Right arrow" >}}
 
 ---
 

@@ -8,22 +8,13 @@ aliases:
     - /tools/accounting/reports/transaction-summary/
 ---
 
-The transaction summary provides an overview of all transactions within a specific timeframe.
+This report provides an overview (in Excel or PDF format) of all transactions within a specific timeframe, including:
 
-Includes:  
+- Fees
+- Amount and currency
+- Websites
 
-- Grouping of costs
-- Currency
-- Number of transactions
-- Amount
-- Cost
-- Website
-
-Supported formats: Excel or PDF
-
-## Generating a transaction summary
-
-To generate a transaction summary, follow these steps:
+{{< details title="Generating transaction summaries" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Transaction summary**.
@@ -35,4 +26,6 @@ To generate a transaction summary, follow these steps:
     - **Website** field: Select the relevant website.
     - **Group** field: Specify if you want to group costs by **Site**, **Payment method**, or **Country**.
     - To group all transactions and only show the daily total, select the **Show per day** checkbox.
-4. Click **Generate report**.
+5. Click **Generate report**.
+
+{{< /details >}}

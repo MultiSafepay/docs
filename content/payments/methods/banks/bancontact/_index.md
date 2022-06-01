@@ -42,7 +42,7 @@ aliases:
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) |
-| **Payment features**  | [Recurring Payments](/features/recurring-payments/) (banking only) <br> [Second Chance](/features/second-chance/) <br> [3D Secure](/features/3d-secure/) for all non-mobile payments |
+| **Supports**  | [Recurring Payments](/payments/recurring-payments/) (banking only) <br> [Second Chance](/features/second-chance/) <br> [3D Secure](/features/3d-secure/) for all non-mobile payments |
 | **Transactions expire after** | Banking: 1 hour, QR: Doesn’t apply  |
 
 ## Payment flow
@@ -124,4 +124,4 @@ Requests are screened and approved by Bancontact Payconiq.
 
 ### Integration
 
-See [Recurring Payments](/features/recurring-payments/).
+See [Recurring Payments](/payments/recurring-payments/).

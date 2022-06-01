@@ -11,57 +11,36 @@ aliases:
     - /tools/accounting/transactions-api-endpoint/
     - /business/accounting/transactions-api-endpoint/
 ---
-
-The transactions API endpoint returns details about your transactions. You can use it to automate business operations such as reconciliation and gain insights into your transactions.
+The transactions API endpoint returns details about your transactions. You can use it to automate reconciliation and gain insight into your transactions.
 
 See API reference – [Get transaction](https://docs-api.multisafepay.com/reference/gettransaction).
 
-Common uses include:
+## Use cases
 
-{{< details title="Overview of all transactions" >}}
-**Use case:** I want a complete overview of all my transactions.
+### Overview of all transactions
 
-**Parameters:** You can use the optional parameters above to filter the transactions returned as required.
+Use the optional parameters to filter transactions.  
 
 **Sample request:**
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```  
-{{< /details >}}
 
-{{< details title="Accounting reconciliation" >}}
-**Use case:** I want to match mutations to reconcile the balance in my accounting records.
+### Accounting reconciliation
 
-- Reconciliation may be required by law.
-- Automating the reconciliation process can save time and reduce errors.
-
-**Parameters:** All required:
-
-- `type` 
-- `completed_from` 
-- `completed_until` 
+Reconciliation may be required by law, and automating the process saves time and reduces errors.  
 
 **Sample request:**
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
 
-{{< /details >}}
-
-{{< details title="Overview of refunds" >}}
-**Use case:** I want an overview of refunds paid and to be paid.
-
-**Parameters:** 
-
-- Required: `type`  
-- Optional to specify a date range:
-  - `created_from` 
-  - `created_until` 
+### Overview of paid/unpaid refunds
 
 **Sample request:**
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
-{{< /details >}}
 
-For support, email <integration@multisafepay.com>
+
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

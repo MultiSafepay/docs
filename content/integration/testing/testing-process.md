@@ -48,7 +48,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 4. To check the transaction details, sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
 5. Go to **Transactions** > **Transactions overview**.
 6. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
-7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
+7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action. For information about errors, see [HTTP errors](/developers/http-errors/).
 
 {{< blue-notice >}} Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. {{< /blue-notice >}}
 

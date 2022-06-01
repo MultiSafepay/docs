@@ -39,6 +39,4 @@ To refund part of the amount:
 
 See API reference – [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund.
 
-## Support
-
-For support, email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

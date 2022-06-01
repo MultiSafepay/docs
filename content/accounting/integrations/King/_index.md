@@ -8,27 +8,13 @@ title_short: "King Business Software"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your King Business platform"
 description_short: "Implement MultiSafepay Accountant Export Reports to your King Business Software platform with ease."
-extra_button:
-    url: "https://www.kingconnections.eu/MultiSafePay" 
-    text: "Go to site" 
-    type: "primary"
 aliases:
     - /tools/accounting/accounting-integrations/king/
 ---
 
-For generating MultiSafepay accounting reports, see [Accountant export](/accounting/reports/accountant-export/).
+You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [King&nbsp;Business&nbsp;Software](https://www.kingconnections.eu/MultiSafePay).
 
-{{< details title="Supported import formats" >}}  
-&nbsp;  
-King Business Software can import reports in MT940 format.
+For import instructions, see King Business Software – [Service](https://service.king.eu).
 
-{{< /details >}}
-
-{{< details title="Import instructions" >}}
-&nbsp;  
-To import a MultiSafepay Accountant export, see King Business Software - [Service](https://service.king.eu).
-
-{{< /details >}}
-
-For any questions, email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}
 

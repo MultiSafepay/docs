@@ -81,13 +81,13 @@
         "pattern": "https://www\\.opencart\\.com.*"
       },
       {
-        "pattern": "https://addons\\.prestashop\\.com/en/search\\?search_query=surcharge.*"
-      },
-      {
         "pattern": "https://www\\.wolterskluwer\\.com.*"
       },
       {
         "pattern": "https://taxnl\\.wolterskluwer\\.com.*"
+      },
+      {
+        "pattern": "https://addons\\.prestashop\\.com.*"
       }
     ],
   "timeout": "120s",

@@ -45,7 +45,7 @@ E-Invoicing is a MultiSafepay pay later method with automation tools that gives 
 | **Currencies** | EUR  | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 | **Addresses** | Different billing and shipping addresses are supported. <br> Email a request to <sales@multisafepay.com> |
 | **Shipping policies** | [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) <br> [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) |

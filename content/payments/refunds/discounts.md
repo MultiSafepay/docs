@@ -65,6 +65,4 @@ To discount:
 - An entire order, enter a reduced `amount`. 
 - Specific items in the order, in the `shopping_cart`, reduce the `unit_price` of the relevant items.
 
-## Support
-
-For support, email <support@multisafepay.com>
+{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}

@@ -28,7 +28,7 @@ Google Pay™ is a digital wallet for in-app and online payments. Customers can 
 | **Currencies**  | Multiple  | 
 | **Chargebacks**  | [Yes](/payments/chargebacks/) | 
 | **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
-| **Payment features**  | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/features/recurring-payments/)  |
+| **Supports**  | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/payments/recurring-payments/)  |
 | **Transactions expire after** | 1 hour |
 | **Payment gateways** | Maestro, Mastercard, and Visa gateways are supported. <br> American Express is **not** supported. |
 | **Terms and conditions** | By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos). |
@@ -115,7 +115,7 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/) |
 | **Google branding** | When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines). |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, use a [generic gateway](/developer/generic-gateways/).   |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, you can use a generic gateway. See their manuals for further details. |
 
 
 {{< two-buttons href-2="/google-pay/direct/" text-2="Google Pay™ direct integration manual" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}

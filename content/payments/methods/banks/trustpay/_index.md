@@ -32,7 +32,7 @@ aliases:
 | **Currencies**  | CZK | 
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial](/refunds/full-partial/)  |
-| **Payment features** | [Second Chance](/features/second-chance/) |
+| **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 10 days |
 
 ## Payment flow

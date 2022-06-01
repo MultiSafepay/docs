@@ -1,5 +1,5 @@
 ---
-title : "ZilverCMS app for MultiSafepay"
+title : "ZilverCMS app"
 meta_title: "ZilverCMS app - MultiSafepay Docs"
 layout: "single"
 meta_description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
@@ -8,9 +8,8 @@ weight: 30
 title_short: "ZilverCMS"
 type: "App"
 description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
-description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform."
-layout: "single"
-url: "/zilvercms/"
+layout: 'single'
+url: '/zilvercms/'
 aliases: 
     - /hosted/zilvercms
     - /integrations/hosted/zilvercms
@@ -20,44 +19,29 @@ aliases:
     - /ecommerce-platforms/zilvercms/
 ---
 
-{{< details title="Supported payment methods" >}}
+ZilverCMS provides a free app to integrate with MultiSafepay.
 
-**Credit cards**
+{{< details title="Payment methods" >}}
 
-- [American Express](/payment-methods/amex)
-- [Maestro](/payment-methods/maestro)
-- [Mastercard](/payment-methods/mastercard)
-- [Visa](/payment-methods/visa), including [Cartes Bancaires](/payment-methods/cartes-bancaires), [Dankort](/payment-methods/dankort), and [V Pay](/payment-methods/vpay/)
-
-**Banking methods**
-
-- [Bancontact](/payment-methods/bancontact)
-- [Bank Transfer](/payment-methods/bank-transfer)
-- [Belfius](/payment-methods/belfius)
-- [CBC/KBC](/payment-methods/cbc-kbc)
-- [Dotpay](/payment-methods/dotpay)
-- [EPS](/payment-methods/eps)
-- [Giropay](/payment-methods/giropay) 
-- [iDEAL and iDEAL QR](/payment-methods/ideal)
-- [Request to Pay](/payment-methods/request-to-pay)
-- [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-
-**Pay later methods**
-
-- [Betaal per Maand](/payment-methods/betaal-per-maand)
-
-**Wallets**
-
-- [Alipay](/payment-methods/alipay)
-- [PayPal](/payment-methods/paypal)
-
-**Prepaid cards**
-
-- [VVV gift card](https://www.vvvcadeaukaarten.nl)
+- Cards: [All](/payment-methods/credit-debit-cards/)
+- Pay later methods: [Betaal per Maand](/payment-methods/betaal-per-maand)
+- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
+- Prepaid cards: [VVV gift card](https://www.vvvcadeaukaarten.nl)
+- Banking methods:
+    - [Bancontact](/payment-methods/bancontact)
+    - [Bank Transfer](/payment-methods/bank-transfer)
+    - [Belfius](/payment-methods/belfius)
+    - [CBC/KBC](/payment-methods/cbc-kbc)
+    - [Dotpay](/payment-methods/dotpay)
+    - [EPS](/payment-methods/eps)
+    - [Giropay](/payment-methods/giropay) 
+    - [iDEAL and iDEAL QR](/payment-methods/ideal)
+    - [Request to Pay](/payment-methods/request-to-pay)
+    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
 
 {{< /details >}}
 
-For support: 
+## Support 
 
 - See ZilverCMS - [Contact](https://www.zilverhq.nl/contact)
 - Email <integration@multisafepay.com>

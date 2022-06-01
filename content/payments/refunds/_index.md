@@ -1,6 +1,6 @@
 ---
 title : "Refunds"
-weight: 10
+weight: 20
 meta_title: "Refunds - MultiSafepay Docs"
 layout: block
 read_more: "."

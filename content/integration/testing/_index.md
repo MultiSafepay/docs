@@ -1,10 +1,10 @@
 ---
-title: 'Test your integration'
-meta_title: 'Test your integration - MultiSafepay Docs'
-breadcrumb_title: 'Test your integration'
-layout: "faqplugins"
-logo: "/svgs/Testing.svg"
-url: "/integrations/testing/"
+title: 'Testing'
+meta_title: 'Testing - MultiSafepay Docs'
+breadcrumb_title: 'Testing'
+layout: 'faqplugins'
+logo: '/svgs/Testing.svg'
+url: '/integrations/testing/'
 short_description: 'Test payments and resolve common issues.'
 weight: 70
 aliases:
