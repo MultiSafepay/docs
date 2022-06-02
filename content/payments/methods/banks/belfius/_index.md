@@ -9,6 +9,7 @@ url: '/payment-methods/belfius/'
 aliases:
     - /support-tab/magento2/payment-methods/belfius
     - /payment-methods/banks/belfius
+    - /payment-methods/banks/belfius/
     - /payments/methods/banks/belfius/
     - /payment-methods/belfius/what-is-belfius/
     - /payments/methods/banks/belfius/about/

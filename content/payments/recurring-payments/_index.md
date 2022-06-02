@@ -14,6 +14,7 @@ aliases:
     - /tools/recurring-payments/what-is-recurring-payments/
     - /payments/features/tokenization/
     - /features/recurring-payments/
+    - /tools/tokenization
 ---
 
 Recurring Payments is a MultiSafepay solution that securely stores payment details to enable quick, easy repeat payments.

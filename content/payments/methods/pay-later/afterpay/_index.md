@@ -27,6 +27,7 @@ aliases:
     - /payment-methods/afterpay/integration-testing/
     - /payments/methods/billing-suite/afterpay/activation/
     - /payment-methods/afterpay/activation/
+    - /payment-methods/billing-suite/afterpay/
 ---
 [AfterPay](https://www.afterpay.nl/en/) is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 

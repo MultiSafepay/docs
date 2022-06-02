@@ -39,6 +39,7 @@ aliases:
     - /integrations/opencart/faq/how-can-i-update-the-plugin-for-opencart/
     - /payments/integrations/ecommerce-platforms/opencart/faq/updating-the-plugin/
     - /opencart/updates/
+    - /plugins/opencart/faq/
 ---
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with OpenCart.

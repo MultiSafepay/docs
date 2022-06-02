@@ -88,6 +88,9 @@
       },
       {
         "pattern": "https://addons\\.prestashop\\.com.*"
+      },
+      {
+        "pattern": "https://journal-theme\\.com.*"
       }
     ],
   "timeout": "120s",

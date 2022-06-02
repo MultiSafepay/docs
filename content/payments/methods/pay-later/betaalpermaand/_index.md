@@ -35,6 +35,7 @@ aliases:
     - /payment-methods/betaal-per-maand/pauzing-collection/
     - /payments/methods/billing-suite/betaalpermaand/user-guide/providing-track-and-trace/
     - /payment-methods/betaal-per-maand/track-and-trace/
+    - /payment-methods/billing-suite/betaalplan/
 ---
 [Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay pay later method for large amounts in collaboration with Santander. Customers pay for orders after receiving them as a one-off payment or in monthly installments. They are only charged for the items they keep. Santander bears the risk and guarantees settlement.
 
