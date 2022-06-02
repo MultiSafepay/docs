@@ -173,6 +173,14 @@ aliases:
     - /payment-methods/credit-and-debit-cards/mastercard/
     - /payment-methods/credit-and-debit-cards/visa/
     - /payment-methods/credit-and-debit-cards/
+    - /payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
+    - /payment-methods/creditcards/what-is-interchange/
+    - /payment-methods/credit-and-debit-cards/creditcards/what-is-interchange/
+    - /payments/methods/credit-and-debit-cards/visa/user-guide/about-interchange/
+    - /payments/methods/credit-and-debit-cards/user-guide/about-interchange/
+    - /credit-cards-user-guide/about-interchange/
+    - /about-payments/interchange/
+    - /about-payments/interchange/
 ---
 MultiSafepay supports the following credit and debit cards:
 
@@ -216,6 +224,39 @@ If you use your Amex merchant account number:
 - All currencies are supported.  
   
 For more information, email <support@multisafepay.com>
+{{< /details >}}
+
+### Interchange++ pricing model
+
+Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments. When you create a MultiSafepay account, we provide an estimate of these fees.
+
+{{< details title="Interchange++ fees" >}}
+
+There are three sub-fees:
+
+- The Interchange fee that is paid to the issuing bank
+- The scheme fee charged by Visa or Mastercard
+- The acquirer fee 
+
+These fees vary considerably depending on a range of factors, e.g.:
+
+- Merchant's country
+- Issuer
+- Cardholder 
+- Merchant segment
+- Monthly transaction volume 
+
+**Specific transaction fees**  
+The actual fee for a specific transaction is difficult to predict and varies depending on the:
+
+- Country where the card was issued
+- Country where the transaction is processed
+- Type of card, e.g. corporate or customer card
+- Way the card is processed, e.g. level of security
+- Amount of the transaction
+
+To ensure transparency, payment service providers can choose the Interchange++ pricing model, which breaks down the fees per transaction. There are no preset prices, instead fees are calculated based on the total cost of all transactions processed. 
+
 {{< /details >}}
 
 ## Payment flow
