@@ -92,7 +92,6 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 Generic gateways support:
 
-- All payment methods
 - [Split payments](/payments/split-payments/), [Second Chance reminders](/features/second-chance/) and [virtual IBANs](/payments/virtual-ibans/)
 - [Redirect requests](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) only
 
