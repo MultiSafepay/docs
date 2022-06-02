@@ -2,6 +2,7 @@
 title : "Handling errors"
 category: 62962df622e99600810c117d
 order: 20
+hidden: false
 ---
 
 This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, and possible causes.
