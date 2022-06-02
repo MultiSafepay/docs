@@ -5,13 +5,11 @@ order: 70
 hidden: true
 ---
 
-The FastCheckout Android SDK helps you connect to MultiSafepay from your native Android app. It enables a fast, frictionless, native checkout experience by storing and reusing data.
-
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_Android.svg" width="100" align ="right"/>
 
-[View on GitHub](https://github.com/MultiSafepay/fastcheckout-android-sdk)
+The FastCheckout Android SDK helps you connect to MultiSafepay from your native Android app. It enables a fast, frictionless, native checkout experience by storing and reusing data.
 
-____
+[View on GitHub](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
 ## Manual
 
@@ -96,7 +94,7 @@ SDK.setApiKey(API_KEY);
 The SDK is thread safe, but you cannot access the main UI elements from background threads. Creating and accessing UI controls from background thread is **not** thread safe.
 
 ** Updating the UI from a background thread in Android**
-(Note: Check Android developers’ official site on Threads (https://developer.android.com/guide/components/processes-and-threads) for proper integration based on JAVA/Android versioning).
+(Note: Check Android developers’ official site on [Threads](https://developer.android.com/guide/components/processes-and-threads) for proper integration based on JAVA/Android versioning).
 
 ```java
 …
