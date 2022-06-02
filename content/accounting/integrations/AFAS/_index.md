@@ -2,8 +2,8 @@
 title: "AFAS Software"
 weight: 20
 meta_title: "AFAS Software - MultiSafepay Docs"
-logo: "/svgs/AFAS.svg"
-layout: "single"
+logo: '/svgs/AFAS.svg'
+layout: 'single'
 title_short: "AFAS Software"
 read_more: "."
 short_description: "Import your MultiSafepay transactions to your AFAS platform."

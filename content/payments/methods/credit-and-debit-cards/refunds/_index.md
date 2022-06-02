@@ -1,12 +1,12 @@
 ---
 title : "Card refunds"
 weight: 20
-layout: "single"
+layout: 'single'
 meta_title: "Card refunds - MultiSafepay Docs"
 short_description: "Guidance on refunding credit card payments."
 read_more: "."
-logo: "/svgs/Refunds.svg"
-url: "/refunds/credit-cards/"
+logo: '/svgs/Refunds.svg'
+url: '/refunds/credit-cards/'
 ---
 This page provides general guidance on refunding credit card payments. 
 

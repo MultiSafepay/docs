@@ -1,11 +1,11 @@
 ---
-title: "Klarna"
+title: 'Klarna'
 weight: 40
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
-layout: "single"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Klarna.svg"
+layout: 'single'
+logo: '/logo/Payment_methods/Klarna.svg'
 short_description: 'A popular pay later method in Austria, Germany, and the Netherlands.'
-url: "/payment-methods/klarna/"
+url: '/payment-methods/klarna/'
 aliases:
     - /support-tab/magento2/payment-methods/klarna
     - /payment-methods/klarna/

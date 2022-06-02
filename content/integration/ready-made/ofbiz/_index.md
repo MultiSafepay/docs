@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Apache_OFBiz.svg"
+logo: "/logo/Integrations/Apache_OFBiz.svg"
 weight: 100
 title_short: "Apache OFBiz"
 redirect_show_info:

@@ -3,9 +3,9 @@ title : "Integrating the previous release"
 breadcrumb_title : "Step 4"
 meta_title: "Payment Components - Integrating the previous release step 4 - MultiSafepay Docs"
 
-layout: "single"
-read_more: "."
-url: "/payment-components/previous-release/step-4/"
+layout: 'single'
+read_more: '.'
+url: '/payment-components/previous-release/step-4/'
 --- 
 
 ## Step 4: Go live

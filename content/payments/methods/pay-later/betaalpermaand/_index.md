@@ -2,10 +2,10 @@
 title: 'Betaal per Maand'
 weight: 30
 meta_title: "Payment methods - Betaal per Maand - MultiSafepay Docs"
-layout: "single"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/betaalpermaand.svg"
+layout: 'single'
+logo: '/logo/Payment_methods/betaalpermaand.svg'
 short_description: 'A MultiSafepay pay later method with Santander paid in monthly installments.'
-url: "/payment-methods/betaal-per-maand/"
+url: '/payment-methods/betaal-per-maand/'
 aliases:
     - /support-tab/magento2/payment-methods/betaalplan
     - /payment-methods/billing-suite/betaalplan

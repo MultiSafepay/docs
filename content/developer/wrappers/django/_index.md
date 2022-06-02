@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Django.svg"
+logo: "/logo/Integrations/Django.svg"
 weight: 150
 title_short: "Django"
 redirect_show_info:

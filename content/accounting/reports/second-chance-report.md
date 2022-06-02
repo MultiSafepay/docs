@@ -3,8 +3,8 @@ title: "Second Chance report"
 weight: 6
 meta_title: "Second Chance report - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-read_more: "."
-url: "/reports/second-chance/"
+read_more: '.'
+url: '/reports/second-chance/'
 aliases:
     - /accounting/reports/second-chance-report/
 ---

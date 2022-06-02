@@ -2,7 +2,7 @@
 title : "Testing refunds"
 meta_title: "Testing - Testing refunds - MultiSafepay Docs"
 read_more: "."
-url: "/testing/testing-refunds/"
+url: '/testing/testing-refunds/'
 aliases:
     - /tools/multisafepay-test-environment/test-and-live-refunds/
     - /getting-started/test-your-integration/testing-refunds

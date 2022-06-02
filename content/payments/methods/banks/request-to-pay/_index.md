@@ -2,10 +2,10 @@
 title: 'Request to Pay'
 weight: 60
 meta_title: "Payment methods - Request to Pay - MultiSafepay Docs"
-layout: "single"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/RTP.svg"
+layout: 'single'
+logo: '/logo/Payment_methods/RTP.svg'
 short_description: 'Deutsche Bank payment method based on secure SEPA bank transfers.'
-url: "/payment-methods/request-to-pay/"
+url: '/payment-methods/request-to-pay/'
 aliases:
     - /support-tab/magento2/payment-methods/request-to-pay
     - /payment-methods/banks/direct-bank-transfer/

@@ -5,10 +5,10 @@ weight: 10
 meta_title: "Getting started guide - MultiSafepay Docs"
 read_more: "."
 logo: '/svgs/Getting started.svg'
-layout: "single"
+layout: 'single'
 weight: 10
 short_description: "A guide to getting started with MultiSafepay."
-url: "/getting-started/guide/"
+url: '/getting-started/guide/'
 aliases:
     - /getting-started/build-your-integration
     - /getting-started/create-a-test-account/

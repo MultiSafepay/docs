@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/nopcommerce.svg"
+logo: "/logo/Integrations/nopcommerce.svg"
 weight: 101
 title_short: "nopCommerce"
 redirect_show_info:

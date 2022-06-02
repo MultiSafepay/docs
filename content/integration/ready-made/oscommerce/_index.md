@@ -5,13 +5,13 @@ download_url : "https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip"
 changelog: https://docs.multisafepay.com/integration/ready-made/oscommerce/changelog/
 meta_title: "OsCommerce plugin - MultiSafepay Docs"
 meta_description: "Free plugin to integrate MultiSafepay payment solutions with OsCommerce."
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OsCommerce.svg"
+logo: "/logo/Plugins/OsCommerce.svg"
 weight: 17
 title_short: "OsCommerce"
-type: "Plugin"
+type: 'Plugin'
 description_short: "For support, contact OsCommerce."
-layout: "single"
-url: "/oscommerce/"
+layout: 'single'
+url: '/oscommerce/'
 aliases: 
     - /plugins/oscommerce
     - /integrations/plugins/oscommerce

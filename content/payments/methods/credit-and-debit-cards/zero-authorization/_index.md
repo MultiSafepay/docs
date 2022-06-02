@@ -3,9 +3,9 @@ title: 'Zero Authorization'
 weight: 60
 meta_title: "Zero Authorization - MultiSafepay Docs"
 layout: "single"
-logo: "/svgs/Zero_Authorization.svg"
+logo: '/svgs/Zero_Authorization.svg'
 short_description: 'Verify credit card information with a 0 EUR transaction.'
-url: "/features/zero-authorization/"
+url: '/features/zero-authorization/'
 aliases:
     - /tools/zero-authorization/what-is-zero-authorization/
     - /tools/zero-authorization/how-to-activate-zero-authorization/

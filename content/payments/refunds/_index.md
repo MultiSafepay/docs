@@ -3,10 +3,10 @@ title : "Refunds"
 weight: 20
 meta_title: "Refunds - MultiSafepay Docs"
 layout: block
-read_more: "."
-block-range-pages: "."
-url: "/refunds/"
-logo: "/svgs/Refunds.svg"
+read_more: '.'
+block-range-pages: '.'
+url: '/refunds/'
+logo: '/svgs/Refunds.svg'
 short_description: 'Process refunds in your dashboard, from your ready-made integration, or via our API'
 aliases:
     - /faq/refunds

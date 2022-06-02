@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OroCommerce.svg"
+logo: "/logo/Integrations/OroCommerce.svg"
 weight: 103
 title_short: "OroCommerce"
 redirect_show_info:
@@ -7,5 +7,5 @@ redirect_show_info:
     text: "View in store"
 description_short: "OroCommerce extension for MultiSafepay"
 type: "Community integration"
-url: "/orocommerce/"
+url: '/orocommerce/'
 ---

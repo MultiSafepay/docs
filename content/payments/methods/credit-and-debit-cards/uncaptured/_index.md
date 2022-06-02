@@ -4,9 +4,9 @@ weight: 20
 meta_title: "Uncaptured card payments - MultiSafepay Docs"
 short_description: "Capture or decline potentially fraudulent card payments."
 read_more: "."
-layout: "single"
-url: "/cards/uncaptured/"
-logo: "/svgs/Subscriptions_and_credit_management.svg"
+layout: 'single'
+url: '/cards/uncaptured/'
+logo: '/svgs/Subscriptions_and_credit_management.svg'
 aliases: 
     - /faq/finance/evaluating-uncleared-card-transactions/
     - /faq/risk-and-fraud/accepting-uncleared-credit-card-payments/

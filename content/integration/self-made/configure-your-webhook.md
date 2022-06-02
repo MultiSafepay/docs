@@ -1,12 +1,12 @@
 ---
 title: 'Configure your webhook endpoint'
 breadcrumb_title: "Configure your webhook endpoint"
-layout: "single"
+layout: 'single'
 meta_title: 'Build your integration – Configure your webhook endpoint - MultiSafepay Docs'
-logo: "/svgs/Wrappers.svg"
+logo: '/svgs/Wrappers.svg'
 short_description: 'Configure a webhook to receive updates about orders'
 weight: 1
-url: "/integrations/self-made/configure-your-webhook/"
+url: '/integrations/self-made/configure-your-webhook/'
 ---
 
 MultiSafepay uses a [webhook](/integrations/webhooks/) to send updates about orders and other notifications to your web server.

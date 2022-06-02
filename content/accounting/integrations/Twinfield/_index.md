@@ -2,8 +2,8 @@
 title: "Twinfield"
 weight: 20
 meta_title: "Twinfield - MultiSafepay Docs"
-logo: "/svgs/Twinfield.svg"
-layout: "single"
+logo: '/svgs/Twinfield.svg'
+layout: 'single'
 title_short: "Twinfield"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Twinfield platform"

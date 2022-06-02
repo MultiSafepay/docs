@@ -3,13 +3,13 @@ title : "Shopware 6 plugin"
 meta_title: "Shopware 6 plugin - MultiSafepay Docs"
 github_url : "https://github.com/MultiSafepay/shopware6/"
 download_url : "https://github.com/MultiSafepay/shopware6/releases/download/2.5.3/Plugin_Shopware6_2.5.3.zip"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_6.svg"
+logo: "/logo/Plugins/Shopware_6.svg"
 weight: 06
 title_short: "Shopware 6"
-type: "Plugin"
-layout: "single"
+type: 'Plugin'
+layout: 'single'
 changelog : "https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md"
-url: "/shopware-6/"
+url: '/shopware-6/'
 aliases: 
     - /plugins/shopware6
     - /integrations/plugins/shopware6

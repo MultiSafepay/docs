@@ -3,7 +3,7 @@ title : "Testing process"
 weight: 10
 meta_title: "Testing - Testing process - MultiSafepay Docs"
 read_more: "."
-url: "/testing/testing-process/"
+url: '/testing/testing-process/'
 ---
 
 Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).

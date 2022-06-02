@@ -3,9 +3,9 @@ title : "Integrating multiple payment components"
 breadcrumb_title : "Step 3"
 meta_title: "Payment Components - Integrating multiple payment methods step 3 - MultiSafepay Docs"
 
-layout: "single"
-read_more: "."
-url: "/payment-components/multiple/step-3/"
+layout: 'single'
+read_more: '.'
+url: '/payment-components/multiple/step-3/'
 --- 
 
 ## Step 3: Create an order

@@ -1,11 +1,11 @@
 ---
 title : "Pay later refunds"
 weight: 40
-layout: "single"
+layout: 'single'
 meta_title: "Pay later refunds - MultiSafepay Docs"
 short_description: "Refund pay later orders via your dashboard or our API."
 read_more: "."
-url: "/refunds/pay-later/"
+url: '/refunds/pay-later/'
 ---
 ## MultiSafepay dashboard
 

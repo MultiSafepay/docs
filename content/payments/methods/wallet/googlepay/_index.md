@@ -2,10 +2,10 @@
 title: 'Google Pay'
 weight: 240
 meta_title: "Payment methods - Google Pay - MultiSafepay Docs"
-layout: "single"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg" 
+layout: 'single'
+logo: '/logo/Payment_methods/GooglePay.svg' 
 short_description: "Digital wallet for online and in-app purchases."
-url: "/payment-methods/google-pay/"
+url: '/payment-methods/google-pay/'
 aliases:
     - /support-tab/magento2/payment-methods/googlepay
     - /payment-methods/wallet/googlepay
@@ -118,6 +118,6 @@ For more information, see [Payment statuses](/payments/payment-statuses/).
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. <br> For these, you can use a generic gateway. See their manuals for further details. |
 
 
-{{< two-buttons href-2="/google-pay/direct/" text-2="Google Pay™ direct integration manual" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/google-pay/direct/" text-2="Google Pay™ direct integration manual" description-2="Embed Google Pay in your checkout page for the best user experience." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="https://docs-api.multisafepay.com/reference/createorder" text-2="Google Pay™ redirect integration manual" description-2="Easily integrate Google Pay using MultiSafepay payment pages." img-2="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="https://docs-api.multisafepay.com/reference/createorder" text-2="Google Pay™ redirect integration manual" description-2="Easily integrate Google Pay using MultiSafepay payment pages." img-2="/logo/Payment_methods/GooglePay.svg" alt-2="Right arrow" >}}

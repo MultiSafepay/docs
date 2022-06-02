@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/NET.svg"
+logo: "/logo/Integrations/NET.svg"
 weight: 100
 title_short: ".Net"
 redirect_show_info:

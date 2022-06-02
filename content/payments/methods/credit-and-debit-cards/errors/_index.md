@@ -3,9 +3,9 @@ title : "Card errors"
 weight: 25
 meta_title: "Card errors - MultiSafepay Docs"
 read_more: "."
-layout: "single"
+layout: 'single'
 short_description: "Visa and Mastercard reason codes for credit card errors."
-url: "/cards/errors/"
+url: '/cards/errors/'
 logo: '/svgs/Errors explained.svg'
 aliases:
     - /about-payments/credit-card-errors/

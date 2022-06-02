@@ -1,12 +1,12 @@
 ---
 title: 'Self-made integrations'
 breadcrumb_title: "Self-made integrations"
-layout: "single"
+layout: 'single'
 meta_title: 'Self-made integrations - MultiSafepay Docs'
-logo: "/svgs/Wrappers.svg"
+logo: '/svgs/Wrappers.svg'
 short_description: 'Build your own payments integration with our API, wrappers, or SDKs.'
 weight: 20
-url: "/integrations/self-made/"
+url: '/integrations/self-made/'
 ---
 
 This tutorial explains how to build an integration where customers pay through MultiSafepay payment pages.

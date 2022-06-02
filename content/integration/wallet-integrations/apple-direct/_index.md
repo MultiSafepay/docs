@@ -4,8 +4,8 @@ breadcrumb_title: 'Direct integration'
 weight: 10
 meta_title: "Apple Pay direct - Integration and testing - MultiSafepay Docs"
 short_description: "Integrating and testing Apple Pay direct"
-layout: "single"
-url: "/apple-pay/direct/"
+layout: 'single'
+url: '/apple-pay/direct/'
 aliases:
     - /payments/methods/wallet/applepay/direct-integration
     - /payment-methods/apple-pay/direct/

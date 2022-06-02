@@ -1,7 +1,7 @@
 ---
 title : Add UBOs
 layout : single
-url: "/api-onboarding/add-ubos/"
+url: '/api-onboarding/add-ubos/'
 aliases: 
     - /tools/api-onboarding/add-ubos
 ---
@@ -210,7 +210,7 @@ Retrieve a specific UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of the UBO you want to retrieve. {{< br >}}{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
+|ubo_id  `string` | The unique identifier of the UBO you want to retrieve. {{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -281,7 +281,7 @@ Update information about an existing UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of the UBO you want to update. {{< br >}}{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
+|ubo_id  `string` | The unique identifier of the UBO you want to update. {{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
@@ -363,7 +363,7 @@ Upload an identity document to verify a UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of the UBO you want to verify. {{< br >}}{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
+|ubo_id  `string` | The unique identifier of the UBO you want to verify. {{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Request body parameters" size="h3" >}}
 |Parameter|Description|
@@ -426,7 +426,7 @@ Retrieve an array of all identity documents for a UBO.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|ubo_id  `string` | The unique identifier of the UBO you want to retrieve identity documents for. {{< br >}}{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
+|ubo_id  `string` | The unique identifier of the UBO you want to retrieve identity documents for. {{< br >}}{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `ubo_id` is returned as `id` in the [create a UBO](#create-a-ubo) and [list UBOs](#list-ubos) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|
@@ -478,7 +478,7 @@ Retrieve a specific identity document.
 ### Path parameters
 |Parameter|Description|
 |---|---|
-|identitydoc_id{{< br >}}`string`|The unique identifier of the identity document you want to retrieve.{{< br >}} <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg" width="4%" height="auto" /> The `identitydoc_id` is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) requests. |
+|identitydoc_id{{< br >}}`string`|The unique identifier of the identity document you want to retrieve.{{< br >}} <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Note.svg' width="4%" height="auto" /> The `identitydoc_id` is returned as `id` in the [add identity document](#add-identity-document) and [list identity documents](#list-identity-documents) requests. |
 
 {{< collapse title="Response body parameters" size="h3" >}}
 |Parameter|Description|

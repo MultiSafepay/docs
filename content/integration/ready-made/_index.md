@@ -1,12 +1,12 @@
 ---
 title: 'Ready-made integrations'
 breadcrumb_title: "Ready-made"
-layout: "list"
+layout: 'list'
 meta_title: 'Ready-made integrations - MultiSafepay Docs'
-logo: "/svgs/Plugins.svg"
+logo: '/svgs/Plugins.svg'
 short_description: 'MultiSafepay apps and plugins for popular ecommerce platforms'
 weight: 10
-url: "/integrations/ready-made/"
+url: '/integrations/ready-made/'
 aliases: 
     - /plugins/
     - /integrations/plugins/

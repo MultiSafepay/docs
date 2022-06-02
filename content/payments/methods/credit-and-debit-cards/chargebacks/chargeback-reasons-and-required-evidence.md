@@ -3,7 +3,7 @@ title : "Chargeback reasons and required evidence"
 weight: 60
 meta_title: "Chargeback reasons and required evidence - MultiSafepay Docs"
 read_more: "."
-url: "/chargebacks/reasons/"
+url: '/chargebacks/reasons/'
 short_description: "Learn about why cardholders may request chargebacks."
 aliases:
     - /faq/chargebacks/dispute-chargeback
