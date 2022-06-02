@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Java.svg"
+logo: "/logo/Integrations/Java.svg"
 weight: 20
 title_short: "Java"
 redirect_show_info:

@@ -3,9 +3,9 @@ title : "Integrating a single payment method"
 breadcrumb_title : "Step 3"
 meta_title: "Payment Components - Integrating a single payment method step 3 - MultiSafepay Docs"
 
-layout: "single"
-read_more: "."
-url: "/payment-components/single/step-3/"
+layout: 'single'
+read_more: '.'
+url: '/payment-components/single/step-3/'
 --- 
 
 ## Step 3: Create an order
@@ -63,7 +63,7 @@ Render the account details in the interface for the customer with clear instruct
 {{< details title="Other payment methods" >}}
 Call the `PaymentComponent.init()` method using the following arguments:
 ```
-PaymentComponent.init("redirection", {
+PaymentComponent.init('redirection', {
     order: response.data
 });
 ```

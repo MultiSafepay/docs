@@ -1,7 +1,7 @@
 ---
 title: 'Wrappers and SDKs'
 breadcrumb_title: "Wrappers and SDKs"
-layout: "communitylist"
+layout: 'communitylist'
 meta_title: 'Wrappers and SDKs - MultiSafepay Docs'
 read_more: '.'
 short_description: 'MultiSafepay wrappers and SDKs for popular programming languages.'

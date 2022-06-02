@@ -1,11 +1,11 @@
 ---
-title: "Giropay"
+title: 'Giropay'
 weight: 140
 meta_title: "Payment methods - Giropay - MultiSafepay Docs"
-layout: "single"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Giropay.svg" 
+layout: 'single'
+logo: '/logo/Payment_methods/Giropay.svg' 
 short_description: 'Leading payment method in Germany connecting all major German banks.'
-url: "/payment-methods/giropay/"
+url: '/payment-methods/giropay/'
 aliases:
     - /support-tab/magento2/payment-methods/giropay
     - /payment-methods/banks/giropay

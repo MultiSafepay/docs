@@ -1,12 +1,12 @@
 ---
 title : "ZilverCMS app"
 meta_title: "ZilverCMS app - MultiSafepay Docs"
-layout: "single"
+layout: 'single'
 meta_description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ZilverCMS.svg"
+logo: "/logo/Integrations/ZilverCMS.svg"
 weight: 30
 title_short: "ZilverCMS"
-type: "App"
+type: 'App'
 description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS webshop."
 layout: 'single'
 url: '/zilvercms/'

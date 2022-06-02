@@ -4,7 +4,7 @@ weight: 40
 meta_title: "Disputing chargebacks - MultiSafepay Docs"
 read_more: "."
 short_description: "To dispute a chargeback, provide evidence that the chargeback is unjustified"
-url: "/chargebacks/disputing/"
+url: '/chargebacks/disputing/'
 aliases: 
     - /payment-methods/creditcards/chargebacks/dispute-chargeback/
     - /payment-methods/credit-and-debit-cards/creditcards/chargebacks/dispute-chargeback/

@@ -1,11 +1,11 @@
 ---
 title: "Activating TrustPay"
-breadcrumb_title: "Activation"
+breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating TrustPay - MultiSafepay Docs"
 short_description: "Applying to activate TrustPay for your MultiSafepay account"
-layout: "child"
-url: "/payment-methods/trustpay/activation/"
+layout: 'child'
+url: '/payment-methods/trustpay/activation/'
 aliases: 
     - /payment-methods/trustpay/activate-trustpay/
     - /payments/methods/banks/trustpay/activation/

@@ -1,13 +1,13 @@
 ---
 title: 'Community integrations'
 breadcrumb_title: "Community integrations"
-layout: "communitylist"
+layout: 'communitylist'
 meta_title: 'Community integrations - MultiSafepay Docs'
-logo: "/svgs/Tools.svg"
+logo: '/svgs/Tools.svg'
 short_description: 'Integrations for MultiSafepay payments developed by our community.'
 weight: 40
-tags: "hidden"
-url: "/integrations/community/"
+tags: 'hidden'
+url: '/integrations/community/'
 aliases:
     - /payments/integrations/community/
 ---

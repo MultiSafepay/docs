@@ -6,7 +6,7 @@ changelog: https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGEL
 type: 'Plugin'
 layout: 'single'
 meta_title: "Drupal 8 & 9 plugin - MultiSafepay Docs"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_8.svg"
+logo: "/logo/Plugins/Drupal_8.svg"
 weight: 16
 title_short: "Drupal 8 & 9"
 description_short: "Free plugin to integrate MultiSafepay payment solutions with Drupal 8 & 9."

@@ -4,9 +4,9 @@ breadcrumb_title: 'Direct integration'
 weight: 20
 meta_title: "Google Pay direct integration - MultiSafepay Docs"
 short_description: "Integrating and testing Google Pay direct"
-layout: "single"
-url: "/google-pay/direct"
-noindex: "."
+layout: 'single'
+url: '/google-pay/direct'
+noindex: '.'
 aliases:
     - /payments/methods/wallet/googlepay/direct-integration
     - /payment-methods/google-pay/direct

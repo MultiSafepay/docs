@@ -2,8 +2,8 @@
 title: "Visma"
 weight: 20
 meta_title: "Visma - MultiSafepay Docs"
-logo: "/svgs/Visma.svg"
-layout: "single"
+logo: '/svgs/Visma.svg'
+layout: 'single'
 title_short: "Visma"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Visma platform"

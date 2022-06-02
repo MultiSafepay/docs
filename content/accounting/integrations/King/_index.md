@@ -2,8 +2,8 @@
 title: "King Business Software"
 weight: 20
 meta_title: "King Business Software - MultiSafepay Docs"
-logo: "/svgs/King.svg"
-layout: "single"
+logo: '/svgs/King.svg'
+layout: 'single'
 title_short: "King Business Software"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your King Business platform"

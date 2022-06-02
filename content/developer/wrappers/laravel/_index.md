@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Laravel.svg"
+logo: "/logo/Integrations/Laravel.svg"
 weight: 11
 title_short: "Laravel"
 redirect_show_info:

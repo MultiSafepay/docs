@@ -1,11 +1,11 @@
 ---
 title : "Full and partial refunds"
 weight: 30
-layout: "single"
+layout: 'single'
 meta_title: "Full and partial refunds - MultiSafepay Docs"
 short_description: "Via your dashboard, ready-made integration, or our API."
 read_more: "."
-url: "/refunds/full-partial/"
+url: '/refunds/full-partial/'
 ---
 
 You can process full and partial refunds via your MultiSafepay dashboard, our ready-made integrations, and our API. 

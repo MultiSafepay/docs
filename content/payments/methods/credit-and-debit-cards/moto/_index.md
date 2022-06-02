@@ -2,11 +2,11 @@
 title : "MOTO"
 weight: 80
 meta_title: "MOTO - MultiSafepay Docs"
-layout: "single"
+layout: 'single'
 read_more: "."
-logo: "/svgs/MOTO.svg"
+logo: '/svgs/MOTO.svg'
 short_description: 'Accept credit card payments securely by mail or telephone.'
-url: "/features/moto/"
+url: '/features/moto/'
 aliases: 
     - /tools/mail-order-telephone-order/
     - /tools/moto/moto

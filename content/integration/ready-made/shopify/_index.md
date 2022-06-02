@@ -1,12 +1,12 @@
 ---
 title : "Shopify app"
 meta_title: "Shopify app - MultiSafepay Docs"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg"
+logo: "/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"
-type: "App"
-url: "/shopify/"
-layout: "single"
+type: 'App'
+url: '/shopify/'
+layout: 'single'
 aliases: 
     - /hosted/shopify
     - /integrations/hosted/shopify

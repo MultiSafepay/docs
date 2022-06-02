@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Sylius.svg"
+logo: "/logo/Integrations/Sylius.svg"
 weight: 104
 title_short: "Sylius"
 redirect_show_info:

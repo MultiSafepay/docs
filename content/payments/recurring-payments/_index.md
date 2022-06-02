@@ -2,8 +2,8 @@
 title: 'Recurring Payments'
 weight: 30
 meta_title: "Recurring Payments - MultiSafepay Docs"
-layout: "single"
-logo: "/svgs/Tokenization.svg"
+layout: 'single'
+logo: '/svgs/Tokenization.svg'
 short_description: 'Boost conversion and manage subscriptions using tokenization.'
 url: '/payments/recurring-payments/'
 aliases: 

@@ -1,11 +1,11 @@
 ---
-title: "Alipay"
+title: 'Alipay'
 weight: 230
 meta_title: "Payment methods - Alipay - MultiSafepay Docs"
-layout: "single"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Alipay.svg" 
+layout: 'single'
+logo: '/logo/Payment_methods/Alipay.svg' 
 short_description: 'Leading global digital wallet for Chinese customers.'
-url: "/payment-methods/alipay/"
+url: '/payment-methods/alipay/'
 aliases:
     - /support-tab/magento2/payment-methods/alipay
     - /payment-methods/alipay/

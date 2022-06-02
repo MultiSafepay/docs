@@ -2,9 +2,9 @@
 title : "Payment component integration manuals"
 breadcrumb_title : "Integration manuals"
 meta_title: "Payment Components - Integration manuals - MultiSafepay Docs"
-layout: "single"
-read_more: "."
-url: "/payment-components/integration/"
+layout: 'single'
+read_more: '.'
+url: '/payment-components/integration/'
 --- 
 
 {{< two-buttons href-2="/payment-components/single" header-2="Manual" text-2="Single payment method" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

@@ -1,5 +1,5 @@
 ---
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/NodeJS.svg"
+logo: "/logo/Integrations/NodeJS.svg"
 weight: 30
 title_short: "Node.js"
 redirect_show_info:

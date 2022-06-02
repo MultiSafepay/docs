@@ -3,7 +3,7 @@ title: 'Partner integrations'
 breadcrumb_title: "Partner integrations"
 layout: 'single'
 meta_title: 'Partner integrations - MultiSafepay Docs'
-logo: "/svgs/Partner_Account_Control.svg"
+logo: '/svgs/Partner_Account_Control.svg'
 short_description: 'Explore integrations with our partners to help manage your business.'
 weight: 80
 url: '/partner-integrations/'

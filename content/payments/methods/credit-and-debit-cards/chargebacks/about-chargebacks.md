@@ -5,7 +5,7 @@ layout: single
 meta_title: "Credit card user guide - About chargebacks - MultiSafepay Docs"
 short_description: "Chargebacks arise when a cardholder requests the issuer to reverse a transaction"
 read_more: "."
-url: "/chargebacks/about/"
+url: '/chargebacks/about/'
 aliases:
     - /faq/chargebacks/what-is-a-chargeback
     - /payments/chargebacks/about

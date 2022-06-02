@@ -3,9 +3,9 @@ title : "Integrating a single payment method"
 breadcrumb_title : "Integrating a single payment method"
 meta_title: "Payment Components - Integrating a single payment method step 1 - MultiSafepay Docs"
 
-layout: "single"
-read_more: "."
-url: "/payment-components/single/"
+layout: 'single'
+read_more: '.'
+url: '/payment-components/single/'
 aliases:
     - /payment-components/integrating-single-payment-method
 --- 

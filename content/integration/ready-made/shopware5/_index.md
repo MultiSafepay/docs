@@ -3,13 +3,13 @@ title : "Shopware 5 plugin"
 download_url : "https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html"
 github_url : "https://github.com/MultiSafepay/Shopware"
 meta_title: "Shopware 5 plugin - MultiSafepay Docs"
-logo: "https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_5.svg"
+logo: "/logo/Plugins/Shopware_5.svg"
 weight: 07
 title_short: "Shopware 5"
-type: "Plugin"
-layout: "single"
+type: 'Plugin'
+layout: 'single'
 changelog : "https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md"
-url: "/shopware-5/"
+url: '/shopware-5/'
 aliases: 
     - /plugins/shopware5
     - /integrations/plugins/shopware5
