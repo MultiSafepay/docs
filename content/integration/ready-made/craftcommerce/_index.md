@@ -81,7 +81,7 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 
 ### Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). Using a generic gateway means you don't need to update your integration when we add new payment methods.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). 
 
 {{< details title="Configuring generic gateways" >}}
 
