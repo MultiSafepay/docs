@@ -24,6 +24,7 @@ aliases:
     - /payment-methods/dotpay/dotpay-testing
     - /payments/methods/banks/dotpay/integration-and-testing/
     - /payment-methods/dotpay/integration-testing/
+    - /payment-methods/banks/dotpay/
 ---
 
 Dotpay is an inter-bank payment method that links all major Polish retail banks. Customers pay from their own online banking environment.

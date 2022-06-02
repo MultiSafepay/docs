@@ -167,6 +167,12 @@ aliases:
     - /payment-methods/vpay/how-does-vpay-work/
     - /payments/methods/credit-and-debit-cards/vpay/payment-flow/
     - /payment-methods/vpay/payment-flow/
+    - /payment-methods/credit-and-debit-cards/american-express/
+    - /payments/methods/credit-and-debit-cards/
+    - /payment-methods/credit-and-debit-cards/maestro/
+    - /payment-methods/credit-and-debit-cards/mastercard/
+    - /payment-methods/credit-and-debit-cards/visa/
+    - /payment-methods/credit-and-debit-cards/
 ---
 MultiSafepay supports the following credit and debit cards:
 

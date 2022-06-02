@@ -32,6 +32,7 @@ aliases:
     - /payment-methods/e-invoicing/view-transactions/
     - /payments/methods/billing-suite/e-invoicing/user-guide/customizing-e-invoices/
     - /payment-methods/e-invoicing/customizing-invoices/
+    - /payment-methods/billing-suite/e-invoicing/
 ---
 E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 

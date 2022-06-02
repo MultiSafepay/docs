@@ -21,6 +21,7 @@ aliases:
     - /payment-methods/eps/eps-testing
     - /payments/methods/banks/eps/integration-and-testing/
     - /payment-methods/eps/integration-testing/
+    - /payment-methods/banks/eps/
 ---
 EPS is a widely accepted inter-bank payment method that links all major Austrian retail banks. Customers pay in their own online banking environment. Settlement is instant and guaranteed.
 

@@ -39,6 +39,7 @@ aliases:
     - /payment-methods/sepa-direct-debit/reason-codes/
     - /payments/sepa-direct-debit/reason-codes
     - /payment-methods/sepa-direct-debit/reason-codes/
+    - /payment-methods/banks/sepa-direct-debit/
 ---
 
 SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.

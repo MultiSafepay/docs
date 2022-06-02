@@ -37,6 +37,7 @@ aliases:
     - /payments/methods/prepaid-cards/gift-cards/user-guide/handling-errors/
     - /payment-methods/gift-cards/handling-errors/
     - /payment-methods/gift-cards/pay-later-methods/
+    - /payment-methods/prepaid-cards/gift-cards/
 ---
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer.
 

@@ -24,6 +24,7 @@ aliases:
     - /payment-methods/giropay/activate-giropay/
     - /payments/methods/banks/giropay/activation/
     - /payment-methods/giropay/activation/
+    - /payment-methods/banks/giropay/
 ---
 [Giropay](https://www.giropay.de/) is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. Settlement is instant and guaranteed.
 

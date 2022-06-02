@@ -16,6 +16,7 @@ changelog : "https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.m
 aliases: 
     - /plugins/woocommerce
     - /integrations/plugins/woocommerce
+    - /integrations/plugins/woocommerce/
     - /integrations/woocommerce
     - /plugins/woocommerce/manual
     - /integrations/plugins/woocommerce/manual
@@ -54,6 +55,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/woocommerce/faq/updating-the-plugin/
     - /woo-commerce/updates/
     - /woo-commerce/credit-card-gateway/
+    - /integrations/plugins/woocommerce/faq/available-payment-methods-woocommerce/
 ---
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with WooCommerce, a free, open-source ecommerce platform for Wordpress.

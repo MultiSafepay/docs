@@ -17,6 +17,7 @@ aliases:
     - /tools/second-chance/how-does-it-work
     - /tools/email-template
     - /payments/boost/second-chance/
+    - /tools/second-chance/
 ---
 
 Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps increase [conversion](/glossaries/multisafepay-glossary/#conversion-rate) and boost impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.

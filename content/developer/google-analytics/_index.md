@@ -10,6 +10,7 @@ aliases:
     - /faq/general/google-analytics-referral-exclusions
     - /developer/general/excluding-referrals-in-google-analytics/
     - /developer/excluding-referrals-in-google-analytics/
+    - /developer/api/google-analytics-tracking/
 ---
 ## Tracking payment pages
 
