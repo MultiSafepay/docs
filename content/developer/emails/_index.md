@@ -1,6 +1,6 @@
 ---
 title : "Email authentication"
-weight: 30
+weight: 50
 meta_title: "Email authentication - MultiSafepay Docs"
 read_more: "."
 layout: 'single'

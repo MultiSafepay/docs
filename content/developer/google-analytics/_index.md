@@ -1,6 +1,6 @@
 ---
 title : "Google Analytics"
-weight: 50
+weight: 30
 meta_title: "Google Analytics - MultiSafepay Docs"
 read_more: "."
 layout: 'single'
