@@ -29,6 +29,7 @@ aliases:
     - /payments/methods/banks/sofort-banking/activation/
     - /payments/methods/banks/sofort/activation/
     - /payment-methods/sofort/activation/
+    - /payment-methods/banks/sofort-banking/
 ---
 [Sofort](https://www.klarna.com/pay-now/) is a banking payment method by Klarna. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. Once payment is completed, the customer cannot reverse it and Sofort guarantees settlement.
 

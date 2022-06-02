@@ -42,6 +42,7 @@ aliases:
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/updating-the-plugin/
     - /prestashop-1-7/updates/
     - /prestashop-1-7/order-flow/
+    - payments/integrations/ecommerce-platforms/prestashop-1-7/faq/
 ---
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.7.
 

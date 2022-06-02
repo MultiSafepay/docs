@@ -31,6 +31,7 @@ aliases:
     - /payments/methods/banks/ideal/activation/
     - /payments/methods/banks/idealqr/activation/
     - /payment-methods/ideal/activation/
+    - /payment-methods/banks/idealqr/
 ---
 
 [iDEAL](https://www.ideal.nl/en/) is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, QR code, or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees settlement.

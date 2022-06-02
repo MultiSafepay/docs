@@ -29,6 +29,7 @@ aliases:
     - /payments/methods/banks/bancontact/payment-flow/
     - /payments/methods/banks/bancontact-qr/payment-flow/
     - /payment-methods/bancontact/payment-flow/
+    - /payment-methods/banks/bancontact/
 ---
 [Bancontact](https://www.bancontact.com/en) is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
 

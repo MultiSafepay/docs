@@ -29,6 +29,7 @@ aliases:
     - /payments/methods/billing-suite/pay-after-delivery/user-guide/closing-transactions/
     - /payment-methods/pay-after-delivery/closing-transactions/
     - /payment-methods/pay-after-delivery/refunds/
+    - /payment-methods/billing-suite/pay-after-delivery/
 ---
 Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. 
 

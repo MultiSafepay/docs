@@ -10,6 +10,7 @@ aliases:
     - /support-tab/magento2/payment-methods/bank-transfer
     - /payment-methods/banks/bank-transfer
     - /payments/methods/banks/bank-transfer/
+    - /payment-methods/banks/bank-transfer/
     - /payment-methods/bank-transfer/what-is-bank-transfer/
     - /payments/methods/banks/bank-transfer/about/
     - /payments/methods/bank-transfer/product-rules/

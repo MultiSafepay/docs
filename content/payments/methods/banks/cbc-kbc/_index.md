@@ -31,6 +31,8 @@ aliases:
     - /payments/methods/banks/kbc/integration-and-testing/
     - /payments/methods/banks/cbc-kbc/integrating-testing
     - /payment-methods/cbc-kbc/integration-testing/
+    - /payment-methods/banks/cbc/
+    - /payment-methods/banks/kbc/
 ---
 An online banking payment method of two of Belgium's largest banks: CBC which serves the French speaking population, and KBC which serves the Dutch-speaking population.
 

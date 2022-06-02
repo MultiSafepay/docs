@@ -26,6 +26,7 @@ aliases:
     - /faq/errors-explained/iframe-errors
     - /payments/methods/wallet/paypal/activation/
     - /payment-methods/paypal/activation/
+    - /payment-methods/wallet/paypal/
 ---
 
 [PayPal](https://www.paypal.com/nl/home) is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
