@@ -206,7 +206,7 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 ### Refunds
 
-[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 {{< details title="Processing backend refunds" >}}

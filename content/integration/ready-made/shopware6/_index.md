@@ -147,7 +147,7 @@ You need to [enable recurring payments](/features/recurring-payments) in your Mu
 
 ### Refunds
 
-[Full and partial refunds](/refunds/full-partial/) **except** for [pay later methods](/payment-methods/pay-later) are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/refunds/#full-and-partial-refunds) **except** for [pay later methods](/payment-methods/pay-later) are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 {{< details title="Processing backend refunds" >}}

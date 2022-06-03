@@ -300,7 +300,7 @@ You need to [enable recurring payments](/features/recurring-payments/) in your M
 
 ### Refunds
 
-You can process [full and partial refunds](/refunds/full-partial/) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
+You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
 
 ### Shipping orders
 

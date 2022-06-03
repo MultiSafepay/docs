@@ -90,7 +90,7 @@ This rule updates the [transaction status](/about-payments/multisafepay-statuses
 
 ### Refunds
 
-[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backed.  
+[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backed.  
 Refunding more than the original amount is **not** supported in your backend.
 
 ### Updates
