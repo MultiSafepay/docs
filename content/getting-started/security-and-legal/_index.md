@@ -6,7 +6,7 @@ layout: 'faqplugins'
 url: '/security-and-legal/'
 short_description: "Payment regulations, risk and fraud, and surcharges."
 logo: '/svgs/Banks.svg'
-weight: 30
+weight: 20
 aliases:
     - /payment-regulations/
 ---
