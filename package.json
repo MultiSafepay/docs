@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Kris-MultiSafepay/docs#readme",
   "devDependencies": {
     "hugo-bin": "^0.79.2",
-    "semver-regex": ">=3.1.3"
+    "semver-regex": ">=3.1.4"
   },
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^9.1.2"
