@@ -78,7 +78,7 @@ Contact us:
 
 ### Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). You can use them to integrate custom gift cards, or co-branded credit cards. 
 
 {{< details title="Configuring generic gateways" >}}
 
@@ -88,9 +88,21 @@ The plugin supports generic gateways, which redirect customers from your checkou
 4. Upload a custom gateway image, if relevant.
 5. For [pay later](/payment-methods/pay-later/) methods, specify whether to include a shopping cart.
 
-For support, email <integration@multisafepay.com>
+Generic gateways support:
 
-You can filter generic gateways by country, and minimum and maximum amount.
+- All payment methods (filter by country, and minimum/maximum amount)
+- [Split payments](/payments/split-payments/), [Second Chance reminders](/features/second-chance/) and [virtual IBANs](/payments/virtual-ibans/)
+- [Redirect requests](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) only
+
+**Gift cards**
+
+Generic gateways are particularly useful for integrating [gift cards](/payment-methods/gift-cards/), including [custom gift cards](/payment-methods/gift-cards/custom-cards/). This is because we don't support all [open-loop gift cards](/payment-methods/gift-cards/open-loop-closed-loop/) in our ready-made integrations and *no* closed-loop gift cards.
+
+**Co-branded credit cards**
+
+You can integrate Visa co-branded credit cards ([Cartes Bancaires](/payment-methods/cartes-bancaires/), [Dankort](/payment-methods/dankort/), and [V Pay](/payment-methods/vpay/)), using the generic `VISA` gateway.
+
+For the logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
 
 {{< /details >}}
 
