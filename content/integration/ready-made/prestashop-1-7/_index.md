@@ -41,6 +41,7 @@ aliases:
     - /prestashop-1-7/translating-multisafepay-module/
     - /payments/integrations/ecommerce-platforms/prestashop-1-7/faq/updating-the-plugin/
     - /prestashop-1-7/updates/
+    - /prestashop-1-7/order-flow/
     - payments/integrations/ecommerce-platforms/prestashop-1-7/faq/
     - /prestashop-1-7/order-flow/
 ---
@@ -133,6 +134,38 @@ Generic gateways are particularly useful for integrating [gift cards](/payment-m
 You can integrate Visa co-branded credit cards ([Cartes Bancaires](/payment-methods/cartes-bancaires/), [Dankort](/payment-methods/dankort/), and [V Pay](/payment-methods/vpay/)), using the generic `VISA` gateway.
 
 For the logo, see MultiSafepay GitHub – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods).
+
+{{< /details >}}
+
+### Order flows
+
+The plugin supports two flows for creating orders: **before** or **after** the transaction is completed.
+
+{{< details title="Before flow" >}}
+ 
+By default, order confirmation emails are sent before the payment is finalized.  
+You can disable this feature. 
+
+The status of abandoned payments changes to **Cancelled**.
+
+{{< /details >}}
+
+{{< details title="After flow" >}}
+ 
+Orders are created via a MultiSafepay notification to PrestaShop using the `cart ID`. After completing payment, the customer is redirected to your order confirmation page.  
+If the notification hasn't been processed yet, a waiting page with a loader displays while the order is created.
+
+{{< /details >}}
+
+{{< details title="Switching order flows" >}}
+
+To change the flow you are using, follow these steps:
+
+1. Sign in to your PrestaShop 1.7 backend.
+2. Go to **Improve** > **Module manager** > **MultiSafepay**.
+3. In the **MultiSafepay module**, go to the **General settings** tab.
+4. In the **Create order before payment** field, select the flow.
+5. Click **Save**.
 
 {{< /details >}}
 
