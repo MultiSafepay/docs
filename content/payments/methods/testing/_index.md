@@ -1,17 +1,74 @@
 ---
-title : "Test payment details"
-weight: 20
-meta_title: "Test payment details - MultiSafepay Docs"
-read_more: "."
-url: '/testing/test-payment-details/'
+title: 'Testing payment methods'
+meta_title: 'Testing payment methods - MultiSafepay Docs'
+breadcrumb_title: 'Testing payment methods'
+layout: 'single'
+logo: '/svgs/Testing.svg'
+url: '/testing/'
+short_description: 'Test payments and resolve common issues.'
+weight: 70
 aliases:
+    - /faq/getting-started/testing-with-multisafepay/
+    - /faq/getting-started/test-orders-overview/
+    - /tools/multisafepay-test-environment/multisafepay-test-environment/
+    - /faq/testing/testing-payments/
+    - /faq/testing/testing-with-multisafepay/
+    - /payments/testing/
+    - /integrations/testing/
+    - /testing/testing-process/
     - /faq/getting-started/test-payment-details/
     - /getting-started/test-your-integration/test-payment-details
+    - /testing/test-payment-details/
 ---
 
-This page provides test payment details for different scenarios. 
+Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 
-## Banking methods
+If you encounter any issues during testing, see [Handling errors](/developers/errors/).
+
+{{< details title="Methods not available in test environment" >}}
+
+You can't test the following methods in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
+
+- Betaal per Maand
+- iDEAL QR
+- Paysafecard
+- Request to Pay
+- TrustPay
+
+{{< /details >}}
+
+### Test credentials
+
+For all payment methods **except** AfterPay, you need your site's test [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+
+## Making test payments
+
+1. Initiate a payment in your [ready-made integration](/integrations/) or via our API:  
+
+    {{< details title="Ready-made integration" >}}
+
+- In your backend, enter your test site [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+- Place a test order, and then initiate a transaction with the payment method you are testing. 
+
+    {{< /details >}}
+    {{< details title="API" >}}
+  
+- [Create an order](https://docs-api.multisafepay.com/reference/createorder) via our API to the test endpoint: `https://testapi.multisafepay.com/v1/json/` 
+- For example requests for specific payment methods, see **Examples**.
+    {{< /details >}}
+2. Enter the [test payment details](/testing/#test-payment-details) for the payment method you are testing, or select a payment scenario, and complete the test payment.
+3. To check the transaction details, sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
+4. Go to **Transactions** > **Transactions overview**.
+5. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
+6. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action. For information about errors, see [HTTP errors](/developers/http-errors/).
+
+{{< blue-notice >}} Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. {{< /blue-notice >}}
+
+## Test payment details
+
+Use the following test payment details for testing different scenarios. 
+
+### Banking methods
 
 {{< details title="Bancontact" >}}
 
@@ -142,7 +199,7 @@ You can also test the following scenarios:
 
 {{< /details >}}
 
-## Pay later methods
+### Pay later methods
 
 {{< details title="AfterPay" >}}
 
@@ -328,7 +385,7 @@ You can't test:
 For more information about integrating Klarna with MultiSafepay, see [Klarna](/payment-methods/klarna/).
 {{< /details >}}
 
-## Credit and debit cards
+### Credit and debit cards
 
 {{< details title="Credit and debit cards" >}}
 
@@ -361,7 +418,7 @@ For co-branded cards, see the Credit card redirect example, and set the `locale`
 **Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 {{< /details >}}
 
-## Prepaid cards
+### Prepaid cards
 
 {{< details title="Edenred" >}}
 
@@ -410,7 +467,7 @@ You can't test other gift cards in your MultiSafepay test account. You can only 
 
 {{< /details >}}
 
-## Wallets
+### Wallets
 
 {{< details title="Alipay" >}}
 
@@ -522,8 +579,70 @@ The payment is processed in your MultiSafepay test account as **Successful**, wi
 
 {{< /details >}}
 
-## Read more
+## Test cancelling an order
 
-{{< two-buttons href-2="/getting-started/test-your-integration" header-2="Read more" text-2="Test your integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+{{< details title="Testing cancellations" >}}
 
-{{< two-buttons href-2="/getting-started/test-your-integration/testing-refunds" header-2="Read more" text-2="Testing refunds" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+You can test cancelling orders for the following methods:
+
+- Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Wallets: Alipay, PayPal
+
+To test cancelling an order:
+
+1. Create an order in your backend or via the API as above.
+2. On the **Test platform** page, from the **Test scenario** list, select **Cancelled**.
+3. Click **Test**.  
+  The order status changes to **Void**.
+
+{{< /details >}}
+
+## Testing refunds
+
+{{< details title="Testing refunds via your dashboard" >}}
+
+**Payment methods**
+
+- Banking methods: Bancontact (not QR), Bank Transfer, Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
+- Credit and debit cards
+- Pay later: in3, Klarna
+- Wallets: Alipay, PayPal, WeChat Pay
+
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
+2. Wait until the transaction status changes to **Completed**.
+3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
+4. Under **Refund**, enter in the:
+    - **Account holder name** field the account holder name of the account you want to refund to. 
+    - **Amount** field the amount to refund.  
+    - **IBAN** field the IBAN of the account you want to refund to.
+    - **Reason/Description** field the reason for the refund. 
+5. Click **Continue**.
+6. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
+{{< br >}} A new order is created for the refund, with status **Reserved** or **Initialized**.
+7. Under **Related transactions**, select the **ID** of the refund order.
+8. Under **Order summary**, click **Accept**.
+9. In the **Add transaction comment** field, add a comment, and then click **Add**.
+  The order status changes to **Completed**.
+
+{{< /details >}}
+
+{{< details title="Testing refunds via API" >}}
+
+**Payment methods**
+
+- Banking methods: Bancontact (not QR), EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
+- Credit and debit cards
+- Pay later: in3
+- Wallets: PayPal, WeChat Pay
+
+1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
+2. Make a [refund](https://docs-api.multisafepay.com/reference/refundorder) API request.
+  {{< br >}} A new order is created for the refund. The order status for the refund changes to **Reserved** or **Initialized**.
+3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
+4. Under **Order summary**, click **Accept**.
+5. In the **Add transaction comment** field, add a comment, and then click **Add**.
+  The order status changes to **Completed**.
+
+{{< /details >}}
+
+{{< blue-notice >}} **Support** <br> Email <integration@multisafepay.com> {{< /blue-notice >}}
