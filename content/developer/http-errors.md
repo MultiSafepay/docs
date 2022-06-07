@@ -4,7 +4,9 @@ category: 62962df622e99600810c117d
 order: 30
 hidden: false
 ---
-> **Note:** HTTP errors don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.
+> 📘 About HTTP status codes
+> 
+> HTTP response status codes don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.
 
 The following table lists the most common HTTP error codes and descriptions:
 
