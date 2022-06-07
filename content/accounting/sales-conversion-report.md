@@ -1,13 +1,9 @@
 ---
 title: "Sales and conversion reports"
-meta_title: "Sales and conversion reports - MultiSafepay Docs"
-read_more: '.'
-weight: 7
-url: '/reports/sales-conversion-reports/'
-aliases:
-    - /tools/reports/advanced-sales-and-conversions-report
-    - /tools/accounting/reports/advanced-reporting/
-    - /accounting/reports/advanced-reporting/
+category: 62962dee7af1c800355771a1
+order: 104
+hidden: false
+parentDoc: 629f40b87c755200870646a0
 ---
 
 The sales and conversion reports help you find out:
@@ -16,7 +12,7 @@ The sales and conversion reports help you find out:
 - What payment methods and devices they use
 - Your conversion rate per website
 
-## Sales report
+# Sales report
 
 This report provides an overview (in Excel format) of the total revenue and/or number of transactions per:
 
@@ -25,7 +21,9 @@ This report provides an overview (in Excel format) of the total revenue and/or n
 - Payment method
 - Site
 
-{{< details title="Generating sales reports" >}}
+<details id="generating-sales-reports">
+<summary>Generating sales reports</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Advanced reporting** > **Site**.
@@ -33,9 +31,9 @@ This report provides an overview (in Excel format) of the total revenue and/or n
 4. If relevant, specify one or two websites under **Site** and **Site 2**.
 5. To download, click **XLS** or **XLSX**. 
 
-{{< /details >}}
+</details >
 
-## Conversion reports
+# Conversion reports
 
 This report provides insight (in Excel format) into your conversion rate.  
 You can filter by:
@@ -45,7 +43,9 @@ You can filter by:
 - Payment method
 - Website
 
-{{< details title="Generating conversion reports" >}}
+<details id="generating-conversion-reports">
+<summary>Generating conversion reports</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Advanced reporting** > **Credit cards conversion**.
@@ -55,4 +55,4 @@ You can filter by:
 3. To download, click **XLS** or **XLSX**. 
 4. Click **Execute report**.
 
-{{< /details >}}
+</details >

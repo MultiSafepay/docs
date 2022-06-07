@@ -1,27 +1,24 @@
 ---
 title: "Twinfield"
-weight: 20
-meta_title: "Twinfield - MultiSafepay Docs"
-logo: '/svgs/Twinfield.svg'
-layout: 'single'
-title_short: "Twinfield"
-read_more: "."
-short_description: "Read about how you can generate a MultiSafepay export and import to your Twinfield platform"
-description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your Twinfield bookkeeping system."
-aliases:
-    - /faq/finance/set-up-twinfield-instructions
-    - /faq/finance/setting-up-twinfield/
-    - /tools/accounting/accounting-integrations/twinfield/
+category: 62962dee7af1c800355771a1
+order: 207
+hidden: false
+parentDoc: 629f40cdef2c3001bbd78848
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twinfield.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
+<br>
 
 You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [Twinfield](https://taxnl.wolterskluwer.com/). 
 
-## Prerequisites
+# Prerequisites
 You must first provide Twinfield with an additional international bank account number (IBAN). This can be a dummy (placeholder) IBAN.
 
-## Generating dummy IBANs
+# Generating dummy IBANs
 
-{{< details title="Generating dummy IBANs">}}
+<details id="generating-dummy-ibans">
+<summary>Generating dummy IBANs</summary>
+<br>
 
 1. Go to IBAN Calculator – [Calculate an IBAN](https://www.ibancalculator.com/bic_und_iban.html). 
 2. From the **Country** list, select **The Netherlands**.
@@ -30,11 +27,13 @@ You must first provide Twinfield with an additional international bank account n
 5. Click **Calculate IBAN**.  
     A dummy IBAN and BIC code are generated.
 
-{{< /details >}}
+</details>
 
-## Generating accountant exports
+# Generating accountant exports
 
-{{< details title="Generating accountant exports">}}
+<details id="generating-accountant-exports">
+<summary>Generating accountant exports</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Accountant Export**. 
@@ -44,11 +43,13 @@ You must first provide Twinfield with an additional international bank account n
 6. In the **Bank Account / IBAN** field, enter the dummy IBAN.
 7. In the **BIC** field, enter the dummy BIC code.
 
-{{< /details >}}
+</details >
 
-## Importing into Twinfield
+# Importing into Twinfield
 
-{{< details title="Importing into Twinfield">}}
+<details id="importing-into-twinfield">
+<summary>Importing into Twinfield</summary>
+<br>
 
 1. Sign in to your Twinfield account.
 2. From the menu, select **Cash & Banks**, and then select **Cash & Banks** again.
@@ -62,10 +63,11 @@ You must first provide Twinfield with an additional international bank account n
 7. In **Cash & Banks**, select **Drag and drop bank statements** or **Browse**.
 8. Upload the MultiSafepay MT940 file.
 
-{{< /details >}}
+</details>
 
-## Free trial
+# Free trial
 
 For a free 30-day trial including all accounting functions, see Twinfield – [Proef abonnement aanvragen](https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu).
 
-{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}
+> 📘 **Support**
+> Email <support@multisafepay.com>
