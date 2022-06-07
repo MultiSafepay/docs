@@ -1,11 +1,9 @@
 ---
 title: "Transaction summary"
-meta_title: "Transaction summary - MultiSafepay Docs"
-read_more: '.'
-weight: 2
-url: '/reports/transaction-summary/'
-aliases:
-    - /tools/accounting/reports/transaction-summary/
+category: 62962dee7af1c800355771a1
+order: 105
+hidden: false
+parentDoc: 629f40b87c755200870646a0
 ---
 
 This report provides an overview (in Excel or PDF format) of all transactions within a specific timeframe, including:
@@ -14,7 +12,9 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
 - Amount and currency
 - Websites
 
-{{< details title="Generating transaction summaries" >}}
+<details id="generate-transaction-summaries">
+<summary>Generate transaction summaries</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Transaction summary**.
@@ -28,4 +28,4 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
     - To group all transactions and only show the daily total, select the **Show per day** checkbox.
 5. Click **Generate report**.
 
-{{< /details >}}
+</details >

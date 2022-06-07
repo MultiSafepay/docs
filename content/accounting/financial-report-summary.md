@@ -1,25 +1,13 @@
 ---
 title: "Financial report and summary"
-meta_title: "Financial report and summary - MultiSafepay Docs"
-read_more: '.'
-weight: 3
-url: '/reports/financial-report-summary/'
-aliases:
-    - /tools/accounting/reports/financial-report/
-    - /accounting/reports/financial-report/
-    - /tools/reports/financial-summary
-    - /tools/accounting/reports/financial-summary/
-    - /accounting/reports/financial-summary/
-    - /reports/financial-summary/
-    - /reports/financial-report/
-    - /tools/reports/financial-summary
-    - /tools/accounting/reports/financial-summary/
-    - /accounting/reports/financial-summary/
-    - /reports/financial-summary/
+category: 62962dee7af1c800355771a1
+order: 102
+hidden: false
+parentDoc: 629f40b87c755200870646a0
 ---
 This page describes the financial report and financial summary.
 
-## Financial report
+# Financial report
 This report provides an overview (in Excel or CSV format) of:
 
 - Paid/unpaid transactions within a specific timeframe and transaction fees
@@ -27,7 +15,10 @@ This report provides an overview (in Excel or CSV format) of:
 - Payouts
 - Currency conversions
 
-{{< details title="Report contents" >}}
+<details id="financial-report-contents">
+<summary>Report contents</summary>
+<br>
+
 | Columns | Description |
 |---|---|
 | ID | MultiSafepay's transaction reference number |
@@ -43,9 +34,11 @@ This report provides an overview (in Excel or CSV format) of:
 | Payment type | A MultiSafepay fee, or the payment method |
 | Payment status | The [transaction status](/about-payments/multisafepay-statuses/) |
 
-{{< /details >}}
+</details>
 
-{{< details title="Generating financial reports" >}}
+<details id="generate-financial-reports">
+<summary>Generate financial reports</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial report**.
@@ -55,9 +48,9 @@ This report provides an overview (in Excel or CSV format) of:
     - **Single entry for all costs:** List each MultiSafepay fee below the matching transaction.
 5. Click **Generate report**.
 
-{{< /details >}}
+</details >
 
-## Financial summary
+# Financial summary
 
 This report provides an overview (in Excel or PDF format) of revenue and fees for:
 
@@ -65,7 +58,10 @@ This report provides an overview (in Excel or PDF format) of revenue and fees fo
 - Refunds, chargebacks, reversals 
 - Transactions
 
-{{< details title="Report contents" >}}
+<details id="financial-summary-contents">
+<summary>Report contents</summary>
+<br>
+
 | Headers | Description |
 |---|---|
 | Report created | The date the report was generated |
@@ -82,9 +78,11 @@ This report provides an overview (in Excel or PDF format) of revenue and fees fo
 | Credit | The total amount credited |
 | Net income | The total revenue minus costs |
 
-{{< /details >}}
+</details >
 
-{{< details title="Exclusions" >}}
+<details id="exclusions" >
+<summary>Exclusions</summary>
+<br>
 
 The report does **not** include:
 
@@ -92,9 +90,11 @@ The report does **not** include:
 - Monthly transaction fees 
 - VAT (see [VAT invoices](/account/vat-invoices/))
 
-{{< /details >}}
+</details >
 
-{{< details title="Generating financial summaries" >}}
+<details id="generate-financial-summaries" >
+<summary>Generate financial summaries</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Reports** > **Financial summary**.
@@ -102,4 +102,7 @@ The report does **not** include:
 4. Under **Currency**, select the relevant currency.
 5. Click **Generate report**.
 
-{{< /details >}}
+</details >
+
+> 📘 **Support**
+> Email <support@multisafepay.com>
