@@ -91,14 +91,13 @@ To refund part of the amount:
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.
 3. Under **Order summary**, click **Change order**.
-- In the **Quantity** field, enter the number of units to refund.
-- In the **Name** field, enter the name of the item to refund.
-- In the **Unit price** field, enter the single unit price as a _negative_ number, e.g. -10.
-- From the **Tax** list, select **None (0.0%)**. 
-- Click **Add**.
-- Check that the **New total** amount is correct. 
-- To display a field to enter add any relevant comments, click **Description**.
-- Click **Save item changes**.  
+    - In the **Quantity** field, enter the number of units to refund.
+    - In the **Name** field, enter the name of the item to refund.
+    - In the **Unit price** field, enter the single unit price as a _negative_ number, e.g. -10.
+    - From the **Tax** list, select **None (0.0%)**. 
+4. Click **Add**, and then check that the **New total** amount is correct. 
+5. To display a field to enter add any relevant comments, click **Description**.
+6. Click **Save item changes**.  
   A new refund transaction is generated and the order status is **Completed**.
 {{< /details >}}
 
