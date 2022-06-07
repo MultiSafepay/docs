@@ -42,7 +42,7 @@ aliases:
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland {{< br >}} **Note:** Transactions processed in non-supported countries return a [1024 error](/errors/handling-errors/#error-1024-transaction-refused).  | 
 | **Currencies**  | EUR <br> (GBP, CHF, PLN **not** supported) | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/full-partial/)  |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
 | **Supports** | [Recurring Payments](/payments/recurring-payments/) {{< br >}} [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 day |
 | **Minimum amount** | 0,10 EUR |

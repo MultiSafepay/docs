@@ -42,7 +42,7 @@ aliases:
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
 | **Supports**  | [Recurring Payments](/payments/recurring-payments/) (banking only) <br> [Second Chance](/features/second-chance/) <br> [3D Secure](/features/3d-secure/) for all non-mobile payments |
 | **Transactions expire after** | Banking: 1 hour, QR: Doesn’t apply  |
 

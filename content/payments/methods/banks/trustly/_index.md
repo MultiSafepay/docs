@@ -38,7 +38,7 @@ aliases:
 | **Countries**  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | 
 | **Currencies**  | EUR, GBP, SEK | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/full-partial/)  |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
 | **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** |  2 hours |
 

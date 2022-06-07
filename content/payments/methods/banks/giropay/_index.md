@@ -37,7 +37,7 @@ aliases:
 | **Countries**  | Germany  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
 | **Supports** | [Second Chance](/features/second-chance/) |
 
 ## Payment flow

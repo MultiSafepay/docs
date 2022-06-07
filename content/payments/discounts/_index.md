@@ -5,6 +5,7 @@ layout: 'single'
 meta_title: "Discounts - MultiSafepay Docs"
 short_description: "Process discounts via your MultiSafepay dashboard or our API."
 read_more: "."
+logo: '/svgs/Cash_register.svg'
 url: '/refunds/discounts/'
 ---
 

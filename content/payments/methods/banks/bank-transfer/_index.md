@@ -36,7 +36,7 @@ Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, interna
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
 | **Transactions expire after** | 60 days  |
 
 To better manage Bank Transfer payments, see also [Virtual IBANs](/payments/virtual-ibans/).
