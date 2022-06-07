@@ -1,17 +1,17 @@
 ---
 title: "Actuals"
-weight: 20
-meta_title: "Actuals IO - MultiSafepay Docs"
-logo: '/svgs/actuals-io.svg'
-url: '/accounting/integrations/actuals-live/'
-layout: 'single'
-aliases:
-    - /tools/accounting/accounting-integrations/actuals-live/
+category: 62962dee7af1c800355771a1
+order: 201
+hidden: false
+parentDoc: 629f40cdef2c3001bbd78848
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/actuals-io.svg" width="150" align ="right" style="transform: translate(-50%, -50%);"/>
+<br>
 
 You can integrate MultiSafepay with [Actuals](https://actuals.io/). Actuals imports new transactions daily, between 02:00 AM and 05:00 AM (CET/CEST).
 
-## Integrating with Actuals
+# Integrating with Actuals
 
 To connect your Actuals account to your MultiSafepay account:
 
@@ -23,4 +23,5 @@ To connect your Actuals account to your MultiSafepay account:
 6. To check the connection, go to **Configuration**.
 7. Under **In-use sources**, check that the **Status** of your MultiSafepay configuration is **Live**.
 
-{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}
+> 📘 **Support**
+> Email <support@multisafepay.com>

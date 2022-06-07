@@ -1,12 +1,9 @@
 ---
 title: "Second Chance report"
-weight: 6
-meta_title: "Second Chance report - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API reference, SDKs, and wrappers. Get support."
-read_more: '.'
-url: '/reports/second-chance/'
-aliases:
-    - /accounting/reports/second-chance-report/
+category: 62962dee7af1c800355771a1
+order: 106
+hidden: false
+parentDoc: 629f40b87c755200870646a0
 ---
 
 This report provides an overview (in Excel format) of all transactions:
@@ -17,7 +14,10 @@ This report provides an overview (in Excel format) of all transactions:
 
 To request a Second Chance report, email <sales@multisafepay.com>
 
-{{< details title="Report contents" >}}
+<details id="report-contents">
+<summary>Report contents</summary>
+<br>
+
 | Column | Description | 
 | --- | --- |
 | Report created | The date the report was generated |
@@ -51,7 +51,4 @@ To request a Second Chance report, email <sales@multisafepay.com>
 | Amount | The amount paid |
 | Totals | The total number of transactions, and total amount paid |
 
-{{< /details >}}
-
-
-
+</details >
