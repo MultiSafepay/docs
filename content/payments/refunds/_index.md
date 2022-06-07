@@ -159,6 +159,11 @@ You can cancel refunds via your dashboard.
 ## Testing refunds
 
 {{< details title="Testing refunds via your dashboard" >}}
+You can process full refunds in your [MultiSafepay test dashboard](https://testmerchant.multisafepay.com/). 
+
+Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
+
+If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/about-payments/multisafepay-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
 
 **Payment methods**
 
