@@ -60,7 +60,7 @@ You can process refunds:
 3. Under **Order summary**, click **Refund order**:    
     - Partial refund: In the **Amount** field, enter the amount to refund.
     - Full refund: Don't change the amount.  
-5. Click **Continue**, and then click **Confirm**.
+4. Click **Continue**, and then click **Confirm**.
 
 The refund becomes a new transaction, which you can find on the original **Transaction details** page under **Related transactions**.
 
