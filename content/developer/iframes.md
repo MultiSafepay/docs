@@ -11,7 +11,7 @@ Although MultiSafepay doesn't prohibit embedding a payment page as an `<iframe>`
 
 - Some payment methods may not work if you use an `<iframe>`, for privacy and security reasons. 
 - Some banks use scripts that can't load in `<iframe>` elements.
-- Modern browsers' safety checks on `<iframe>` elements are very strict, which might block them.
+- Modern browsers' can block them due to stricter security checks.
 
 Instead, we recommend using [Payment Components](https://docs.multisafepay.com/payment-components/) to embed payments into your website. 
 
