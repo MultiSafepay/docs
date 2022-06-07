@@ -340,7 +340,7 @@ Lightspeed offers a functionality that lets you configure payment reminders and 
 
 ### Refunds
 
-[Full and partial refunds](/refunds/full-partial/) and credit notes are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/refunds/#full-and-partial-refunds) and credit notes are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 {{< details title="Enabling refunds in your backend" >}}

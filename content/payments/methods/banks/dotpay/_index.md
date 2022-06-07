@@ -37,7 +37,7 @@ Dotpay is an inter-bank payment method that links all major Polish retail banks.
 | **Countries**  | Poland  | 
 | **Currencies**  | EUR, PLN | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
 | **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 3 days  |
 

@@ -126,7 +126,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Refunds
 
-You can process [full refunds](/refunds/full-partial/) for all Shopware 5 payment methods **except** [pay later methods](/payment-methods/pay-later) from your MultiSafepay dashboard and backend.  
+You can process [full refunds](/refunds/#full-and-partial-refunds) for all Shopware 5 payment methods **except** [pay later methods](/payment-methods/pay-later) from your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 ### Session data

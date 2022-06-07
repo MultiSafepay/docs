@@ -47,7 +47,7 @@ aliases:
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial refunds](/refunds/full-partial/) |
+| **Refunds** | [Full and partial refunds](/refunds/#full-and-partial-refunds) |
 | **Amount limits** | Min: 250 EUR Max: 8000 EUR |
 | **Transactions expire after** | 1 day |
 
@@ -119,7 +119,7 @@ You can still change an order between approval from Santander and shipment.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Under **Order summary**, click **Change order status**.
 5. Change the status of the initial order to **Shipped**, and then add a **Memo**.
-6. Refund the required amount [in full or in part](/refunds/full-partial/). 
+6. Refund the required amount [in full or in part](/refunds/#full-and-partial-refunds). 
 
 You cannot increase the amount of the initial order by default. Email a request to <sales@multisafepay.com>
 

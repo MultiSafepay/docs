@@ -158,7 +158,7 @@ To enable [recurring payments](/features/recurring-payments), follow these steps
 
 ### Refunds
 
-You can process [full and partial refunds](/refunds/full-partial/) from your MultiSafepay dashboard.  
+You can process [full and partial refunds](/refunds/#full-and-partial-refunds) from your MultiSafepay dashboard.  
 Backend refunds are **not** supported.
 
 ### Surcharges

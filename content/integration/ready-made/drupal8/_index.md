@@ -117,7 +117,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ### Refunds
 
-[Full refunds](/refunds/full-partial/) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ### Updates

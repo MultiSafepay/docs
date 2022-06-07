@@ -197,7 +197,7 @@ Cards may feature:
 | **Countries**  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
 | **Currencies**  | Multiple (Amex: EUR, GBP, USD only) <br> To support additional currencies, email <support@multisafepay.com> | 
 | **Chargebacks**  | [Yes](/payments/chargebacks/), **except** Postepay | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
 | **Transactions expire after** | 1 hour |
 | **Supports** | [3D Secure](/features/3d-secure/) <br> [Handling cardholder data](/features/handling-cardholder-data/) <br> [Manual Capture](/features/manual-capture/) <br> [MOTO](/features/moto/) <br> [Recurring Payments](/payments/recurring-payments/) <br> [Second Chance](/features/second-chance/) <br> [Zero Authorization](/features/zero-authorization/), **except** Amex |
 
