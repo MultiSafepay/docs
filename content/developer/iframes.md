@@ -7,7 +7,7 @@ hidden: false
  
 An inline frame, or `<iframe>`, is an HTML document embedded inside another HTML document on a [website](/glossaries/multisafepay-glossary/#website). 
  
-Although MultiSafepay doesn't prohibit embedding a payment page as `<iframe>`, we don't recommend you to do so. Reasons include:
+Although MultiSafepay doesn't prohibit embedding a payment page as an `<iframe>`, we don't recommend it. This is because:
 
 - Some payment methods may not work if you use an `<iframe>` for privacy and security reasons. 
 - Some banks use scripts that can't load in `<iframe>` elements.
