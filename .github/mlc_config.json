@@ -90,7 +90,10 @@
         "pattern": "https://addons\\.prestashop\\.com.*"
       },
       {
-        "pattern": "https://journal-theme\\.com.*"
+        "pattern": "https://www.journal-theme\\.com.*"
+      },
+      {
+        "pattern": "https://confluence\\.prezent\\.nl/display/LOGIVERTMAN/Het\\+specificeren\\+van\\+betalingswijzen.*"
       }
     ],
   "timeout": "120s",

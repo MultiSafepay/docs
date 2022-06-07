@@ -62,7 +62,7 @@ To set or adjust the lifetime, see API reference – [Create order](https://docs
 ### Number of customer attempts
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/account/payment-statuses/) of the other transactions remains **Initialized** until they expire.
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/payments/payment-statuses/) of the other transactions remains **Initialized** until they expire.
 
 ## Generating payment links
 
