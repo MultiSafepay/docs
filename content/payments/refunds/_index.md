@@ -88,7 +88,9 @@ You can refund [pay later](/payment-methods/pay-later/) orders via:
 
 To refund part of the amount:
 
-- Click **Change order**.
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.
+3. Under **Order summary**, click **Change order**.
 - In the **Quantity** field, enter the number of units to refund.
 - In the **Name** field, enter the name of the item to refund.
 - In the **Unit price** field, enter the single unit price as a _negative_ number, e.g. -10.
