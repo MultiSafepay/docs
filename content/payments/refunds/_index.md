@@ -56,9 +56,8 @@ You can process refunds:
 {{< details title="Refunding via your dashboard" >}}
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
-2. Go to **Transactions** > **Transaction overview**.  
-3. Search for the transaction you want to refund and click to open the **Transaction details** page.  
-4. Click **Refund order**:    
+2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.  
+. Under **Order summary**, click **Refund order**:    
     - Partial refund: In the **Amount** field, enter the amount to refund.
     - Full refund: Don't change the amount.  
 5. Click **Continue**, and then click **Confirm**.
