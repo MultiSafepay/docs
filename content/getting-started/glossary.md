@@ -1,21 +1,8 @@
 ---
 title: "Glossary"
-breadcrumb_title: Glossary
-weight: 30
-meta_title: "Glossary - MultiSafepay Docs"
-short_description: "Get familiar with payments terminology and specific MultiSafepay uses."
-layout: 'single'
-logo: '/svgs/Guides.svg'
-url: '/glossary/'
-aliases:
-    - /faq/general/glossary
-    - /getting-started/glossary/
-    - /payments/methods/credit-and-debit-cards/user-guide/glossary/
-    - /credit-and-debit-cards/glossary/
-    - /credit-cards-user-guide/glossary/
-    - /glossaries/credit-cards/
-    - /glossaries/multisafepay-glossary/
-    - /getting-started/glossaries/
+category: 627bbcf80c1c9c0050320b60
+order: 300
+hidden: false
 ---
 #### acquirer
 A financial institution that processes card payments with issuers on behalf of merchants. MultiSafepay is an acquirer for Visa, Mastercard, and Bancontact.

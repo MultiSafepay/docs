@@ -1,26 +1,9 @@
 ---
 title: 'Risk and fraud'
-weight: 20
-meta_title: "FAQ - Risk and fraud - MultiSafepay Docs"
-logo: '/svgs/Risk and Fraud.svg'
-layout: 'single'
-short_description: "Minimizing risk and preventing fraud."
-url: '/risk-fraud/'
-read_more: '.'
-aliases: 
-    - /faq/risk-and-fraud/
-    - /faq/risk-and-fraud/how-does-multisafepay-prevent-fraud-and-minimize-risks
-    - /faq/risk-and-fraud/about-preventing-fraud-and-minimizing-risk
-    - /security-and-legal/risk-and-fraud/about-preventing-fraud-and-minimizing-risk/
-    - /faq/risk-and-fraud/about-transaction-monitoring
-    - /security-and-legal/risk-and-fraud/about-transaction-monitoring/
-    - /risk-fraud/transaction-monitoring/
-    - /risk-fraud/periodic-reviews/
-    - /faq/risk-and-fraud/periodical-review
-    - /faq/risk-and-fraud/about-periodical-reviews
-    - /security-and-legal/risk-and-fraud/about-periodical-reviews/
-    - /security-and-legal/risk-and-fraud/about-periodic-reviews/
-    - /risk-fraud/fraud-prevention/
+category: 627bbcf80c1c9c0050320b60
+order: 204
+hidden: false
+parentDoc: 62a087abb10eb40052c9fd04
 ---
 
 MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team analyzes high-risk transactions and actively works to reduce [chargebacks](/chargebacks/).
@@ -29,7 +12,7 @@ We offer the highest industry protection under the [PCI DSS](/payment-regulation
 
 We act as processor and acquirer for Visa and Mastercard, and are therefore also required to comply with their operating regulations.
 
-## Monitoring transactions
+# Monitoring transactions
 
 Under the [Wwft](https://www.fiu-nederland.nl/en/legislation/general-legislation/wwft), MultiSafepay is obliged to monitor the transactions of all merchants. 
 
@@ -43,7 +26,7 @@ We may also ask other questions about the transaction. Following our investigati
 
 For more information, email <support@multisafepay.com>
 
-## Periodic reviews
+# Periodic reviews
 
 MultiSafepay is legally required to periodically review all merchant accounts to maintain a close relationship and ensure the accuracy of company information in our system. 
 

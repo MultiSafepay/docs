@@ -1,31 +1,23 @@
 ---
 title : "Surcharges"
-weight: 40
-meta_title: "Surcharges - MultiSafepay Docs"
-read_more: "."
-short_description: "About surcharges and European regulations."
-url: '/surcharges/'
-layout: single
-logo: '/svgs/General.svg'
-aliases:
-    - /faq/payment-regulations/surcharges
-    - /faq/payment-regulations/about-surcharges
-    - /security-and-legal/payment-regulations/about-surcharges/
-    - /about-payments/surcharges/
+category: 627bbcf80c1c9c0050320b60
+order: 205
+hidden: false
+parentDoc: 62a087abb10eb40052c9fd04
 ---
-{{< blue-notice >}} Check this page regularly for updates on implementing the PSD2. {{< /blue-notice >}}   
+> ℹ️ ​Check this page regularly for updates on implementing the PSD2. 
 
 A surcharge is a fee merchants may charge customers on top of the total order amount to cover the cost of accepting certain payment methods. This may be a fixed amount or a percentage of the total order amount.
 
 Your right to apply surcharges varies per payment method and the customer’s country. 
 
-## PSD2
+# PSD2
 
 The PSD2 applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in. 
 
 In the Netherlands, the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) is responsible for PSD2 oversight. The Dutch National Bank recommends always contacting ACM for inquiries. 
 
-## Surcharges prohibited
+# Surcharges prohibited
 
 Surcharges are banned for both individual and business customers on:
 
@@ -37,7 +29,7 @@ Surcharges are banned for both individual and business customers on:
 If you are currently surcharging prohibited transactions, you may need to update your settings in your backend. For support, contact your ecommerce platform or your developer. 
 You do **not** need to change any settings in your MultiSafepay dashboard.
 
-## Surcharges permitted
+# Surcharges permitted
 
 Surcharges are permitted for:
 
@@ -47,7 +39,14 @@ Surcharges are permitted for:
 
 - [PayPal](/payment-methods/paypal) and [pay later methods](/payment-methods/pay-later/): You can only charge customers for the actual cost you incur for using the payment method and no more.
 
-{{< alert-notice >}}**Attention Dutch merchants** <br> Due to changes to the Wet op het consumentenkrediet, Dutch merchants who apply surcharges to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM). <br> We therefore strongly recommend **not** applying surcharges. <br> For more information, email <sales@multisafepay.com>  {{< /alert-notice >}}
+<br>
+
+:warning: **Attention Dutch merchants** <br> Due to changes to the Wet op het consumentenkrediet, Dutch merchants who apply surcharges to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).
+
+We therefore strongly recommend **not** applying surcharges.
+
+For more information, email <sales@multisafepay.com>
+<br>
 
 | |
 |---|
