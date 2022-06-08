@@ -5,4 +5,4 @@ order: 200
 hidden: false
 ---
 
-This section contains integrations that can be used with your accounting platform.
+This section contains integrations you can use with your accounting platform.

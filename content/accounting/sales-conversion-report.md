@@ -21,8 +21,8 @@ This report provides an overview (in Excel format) of the total revenue and/or n
 - Payment method
 - Site
 
-<details id="generate-sales-reports">
-<summary>Generate sales reports</summary>
+<details id="generating-sales-reports">
+<summary>Generating sales reports</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -43,8 +43,8 @@ You can filter by:
 - Payment method
 - Website
 
-<details id="generate-conversion-reports">
-<summary>Generate conversion reports</summary>
+<details id="generating-conversion-reports">
+<summary>Generating conversion reports</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).

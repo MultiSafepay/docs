@@ -42,10 +42,10 @@ This report provides an overview (in Excel format) of the specific transactions 
 
 </details >
 
-# Generate payout reports
+# Generating payout reports
 
-<details id="generate-payout-reports">
-<summary>Generate payout reports</summary>
+<details id="generating-payout-reports">
+<summary>Generating payout reports</summary>
 <br>
 
 To generate a payout report, follow these steps:
@@ -58,10 +58,10 @@ To generate a payout report, follow these steps:
 
 </details >
 
-# Automate payout reports
+# Automating payout reports
 
-<details id="request-automated-reports" >
-<summary>Request automated reports</summary>
+<details id="requesting-automated-reports" >
+<summary>Requesting automated reports</summary>
 <br>
 
 To request automated reports, email the following information to <integration@multisafepay.com>:
