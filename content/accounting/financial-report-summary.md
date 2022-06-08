@@ -36,8 +36,8 @@ This report provides an overview (in Excel or CSV format) of:
 
 </details>
 
-<details id="generate-financial-reports">
-<summary>Generate financial reports</summary>
+<details id="generating-financial-reports">
+<summary>Generating financial reports</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
@@ -92,8 +92,8 @@ The report does **not** include:
 
 </details >
 
-<details id="generate-financial-summaries" >
-<summary>Generate financial summaries</summary>
+<details id="generating-financial-summaries" >
+<summary>Generating financial summaries</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).

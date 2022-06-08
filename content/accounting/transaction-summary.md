@@ -12,8 +12,8 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
 - Amount and currency
 - Websites
 
-<details id="generate-transaction-summaries">
-<summary>Generate transaction summaries</summary>
+<details id="generating-transaction-summaries">
+<summary>Generating transaction summaries</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).

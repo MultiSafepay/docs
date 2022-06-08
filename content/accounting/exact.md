@@ -29,10 +29,10 @@ You can import MultiSafepay [accountant export](/accounting/reports/accountant-e
 
 </details>
 
-# Generate dummy IBANs
+# Generating dummy IBANs
 
-<details id="generate-dummy-ibans">
-<summary>Generate dummy IBANs</summary>
+<details id="generating-dummy-ibans">
+<summary>Generating dummy IBANs</summary>
 <br>
 
 1. Go to IBAN Calculator – [Calculate an IBAN](https://www.ibancalculator.com/bic_und_iban.html). 
@@ -44,10 +44,10 @@ A dummy IBAN and BIC code are generated.
 
 </details >
 
-# Submit IBANs
+# Submitting IBANs
 
-<details id="submit-ibans-to-exact-globe">
-<summary>Submit IBANs to Exact Globe</summary>
+<details id="submitting-ibans-to-exact-globe">
+<summary>Submitting IBANs to Exact Globe</summary>
 <br>
 
 1. Sign in and go to **Bank accounts**.
@@ -59,8 +59,8 @@ A dummy IBAN and BIC code are generated.
 
 </details>
 
-<details id="submit-ibans-to-exact-online">
-<summary>Submit IBANs to Exact Online</summary>
+<details id="submitting-ibans-to-exact-online">
+<summary>Submitting IBANs to Exact Online</summary>
 <br>
 
 1. Sign in and go to **Financial** > **Banking & Cash** > **Bank accounts** > **Overview**.
@@ -70,10 +70,10 @@ A dummy IBAN and BIC code are generated.
 
 </details>
 
-# Generate accountant exports
+# Generating accountant exports
 
-<details id="generate-accountant-exports" >
-<summary>Generate accountant exports</summary>
+<details id="generating-accountant-exports" >
+<summary>Generating accountant exports</summary>
 <br>
 
 To export MT940 reports from your MultiSafepay dashboard, follow these steps:
@@ -88,10 +88,10 @@ To export MT940 reports from your MultiSafepay dashboard, follow these steps:
 
 </details>
 
-# Import into Exact Online
+# Importing into Exact Online
 
-<details id="import-into-exact-online">
-<summary>Import into Exact Online</summary>
+<details id="importing-into-exact-online">
+<summary>Importing into Exact Online</summary>
 <br>
 
 To import an MT940 report into Exact Online, follow these steps:
@@ -107,8 +107,8 @@ To import an MT940 report into Exact Online, follow these steps:
 
 You can automatically insert MultiSafepay [payment links](/payments/checkout/payment-link/) into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink).
 
-<details id="set-up-denovit">
-<summary>Set up Denovit</summary>
+<details id="setting-up-denovit">
+<summary>Setting up Denovit</summary>
 <br>
 
 1. Sign in to your Denovit account.

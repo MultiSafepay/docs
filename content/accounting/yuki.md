@@ -11,12 +11,12 @@ parentDoc: 629f40cdef2c3001bbd78848
 
 This page sets out ways of integrating MultiSafepay with [Yuki](https://www.yuki.nl/nl/).
 
-# Import accountant exports
+# Importing accountant exports
 
 You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into Yuki.
 
-<details id="import-accountant-exports">
-<summary>Import accountant exports</summary>
+<details id="importing-accountant-exports">
+<summary>Importing accountant exports</summary>
 <br>
 
 1. Sign in to your Yuki domain ending in **@yukiworks.be**.
@@ -27,10 +27,10 @@ For more information, see Yuki - [Upload files from PO box](https://support.yuki
 
 </details >
 
-# Automate reconciliation
+# Automating reconciliation
 
-<details id="automatically-reconcile-using-bank-recognition-rules">
-<summary>Automatically reconcile using bank recognition rules</summary>
+<details id="reconciling-automatically-using-bank-recognition-rules">
+<summary>Reconciling automatically using bank recognition rules</summary>
 <br>
 
 1. Go to **Bank transactions to be processed** > **(New) Processing rule**.
@@ -54,8 +54,8 @@ Provide Duopact with your MultiSafepay [site API key](/account/managing-websites
 
 </details >
 
-<details id="manually-import-transactions" >
-<summary>Manually import transactions</summary>
+<details id="manually-importing-transactions" >
+<summary>Manually importing transactions</summary>
 <br>
 
 1. Sign in to your [Duopact account](https://portal.yukiconnector.nl/).

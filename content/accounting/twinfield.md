@@ -14,10 +14,10 @@ You can import MultiSafepay [accountant export](/accounting/reports/accountant-e
 # Prerequisites
 You must first provide Twinfield with an additional international bank account number (IBAN). This can be a dummy (placeholder) IBAN.
 
-# Generate dummy IBANs
+# Generating dummy IBANs
 
-<details id="generate-dummy-ibans">
-<summary>Generate dummy IBANs</summary>
+<details id="generating-dummy-ibans">
+<summary>Generating dummy IBANs</summary>
 <br>
 
 1. Go to IBAN Calculator – [Calculate an IBAN](https://www.ibancalculator.com/bic_und_iban.html). 
@@ -29,10 +29,10 @@ You must first provide Twinfield with an additional international bank account n
 
 </details>
 
-# Generate accountant exports
+# Generating accountant exports
 
-<details id="generate-accountant-exports">
-<summary>Generate accountant exports</summary>
+<details id="generating-accountant-exports">
+<summary>Generating accountant exports</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -45,10 +45,10 @@ You must first provide Twinfield with an additional international bank account n
 
 </details >
 
-# Import into Twinfield
+# Importing into Twinfield
 
-<details id="import-into-twinfield">
-<summary>Import into Twinfield</summary>
+<details id="importing-into-twinfield">
+<summary>Importing into Twinfield</summary>
 <br>
 
 1. Sign in to your Twinfield account.
