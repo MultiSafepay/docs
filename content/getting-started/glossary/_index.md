@@ -85,8 +85,8 @@ All information related to a single instance of products and/or services sold to
 
 #### payment
 The industry and the product MultiSafepay sells.  
-For customers: When you confirm to transfer funds.  
-For merchants and collecting parties: when you receive funds.
+For customers: When you confirm to transfer funds
+For merchants and collecting parties: When you receive funds
 
 #### payment details
 The payment information for a specific customer, e.g. card number, CVC code.
@@ -95,7 +95,7 @@ The payment information for a specific customer, e.g. card number, CVC code.
 Transfers the customer's payment details to where the payment method is processed.
 
 #### payment page
-A webpage the customer is redirected to from the merchant's checkout where they complete payment. The page may be hosted by MultiSafepay (see [Activating MultiSafepay payment pages](/payment-pages/activation/), the issuer, or the payment method. 
+A webpage the customer is redirected to from the merchant's checkout where they complete payment. The page may be hosted by MultiSafepay (see [Payment pages](/payment-pages/activation/), the issuer, or the payment method. 
 
 #### payment service provider (PSP)
 MultiSafepay is a PSP and provides services that let merchants accept payments using different payment methods. 
@@ -116,7 +116,7 @@ The Single Euro Payments Area (SEPA) is a European Union payment-integration ini
 A container in the merchant's integration where customers place items for an order preparing for payment.
 
 #### transaction
-An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/about-payments/multisafepay-statuses/) changes as the funds move through the different stages of the payment flow.
+An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/payments/payment-statuses/) changes as the funds move through the different stages of the payment flow.
 
 #### we
 MultiSafepay
