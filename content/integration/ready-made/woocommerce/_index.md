@@ -147,7 +147,7 @@ MultiSafepay payment pages and messages to customers (e.g. Second Chance emails,
 
 However, WooCommerce only supports the language of your ecommerce platform, irrespective of the customer's language or country, or the language of the webshop (if you use a third-party plugin for a multi-lingual webshop).
 
-{{< details title="Changing language" >}}
+{{< details title="how-to-change language" >}}
 
 The plugin sets the language for payment pages and messages based on the Wordpress locale code `get_locale()` function.
 
@@ -302,9 +302,9 @@ You need to [enable recurring payments](/features/recurring-payments/) in your M
 
 You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
 
-### Shipping orders
+### Shipment
 
-For [pay later](/payment-methods/pay-later/) orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For [pay later](/payment-methods/pay-later/) orders, after shipment, you must change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the order status to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 

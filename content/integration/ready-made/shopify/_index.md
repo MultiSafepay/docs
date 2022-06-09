@@ -60,7 +60,7 @@ To install or migrate, follow these steps:
 
 ### Abandoned checkouts
 
-MultiSafepay's [Second Chance](/features/second-chance/) feature is **not** supported because Shopify offers a similar native service.
+MultiSafepay's [Second Chance](/second-chance/) feature is **not** supported because Shopify offers a similar native service.
 
 See Shopify – [Recovering abandoned checkouts](https://help.shopify.com/en/manual/orders/abandoned-checkouts).
 

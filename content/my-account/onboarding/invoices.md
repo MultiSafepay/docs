@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 204
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'account-invoices'
 ---
 This page describes invoices MultiSafepay generates for your records at month end.  
 You do **not** need to pay them separately. 

@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 parentDoc: 62a2055be5b9db006a2545a7
 order: 301
 hidden: false
+slug: 'prohibited-products-services'
 ---
 
 As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 

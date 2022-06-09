@@ -464,7 +464,7 @@ We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](
 
 ### Second Chance
 
-[Second Chance](/features/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the order status changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
+[Second Chance](/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the order status changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services, e.g. ERP/inventory management, if items are low in stock, or for one-off products like antiques.
 
@@ -482,9 +482,9 @@ See [Setting order lifetimes](#order-lifetimes) above.
 
 {{< /details >}}
 
-### Shipping orders
+### Shipment
 
-When you ship [pay later](/payment-methods/pay-later/) orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship [pay later](/payment-methods/pay-later/) orders, you need to change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 

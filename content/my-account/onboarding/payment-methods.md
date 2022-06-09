@@ -39,7 +39,7 @@ Include in the request your:
     - Monthly and annual SEPA Direct Debit transaction volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method
-    - Whether you want to accept [recurring payments](/payments/recurring-payments/)
+    - Whether you want to accept [Recurring payments](/recurring-payments/)
     - Whether any subscriptions are monthly, quarterly, or annual
 - Depending on the details provided, we may ask for additional information.
 - We send you an agreement to sign and email back to us.
@@ -63,6 +63,7 @@ Include in the request your:
 ### AfterPay
 <details id="afterpay-activation"> 
 <summary>AfterPay activation</summary>
+<br>
 
 1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
@@ -78,6 +79,8 @@ Include in the request your:
 
 <details id="betaal-per-maand-activation">
 <summary>Betaal per Maand activation</summary>
+<br>
+
 You must:
 
 - Have a [MultiSafepay account](/getting-started/)
@@ -95,6 +98,7 @@ You must:
 ### Edenred
 <details id="Edenred activation">
 <summary>Edenred activation</summary>
+<br>
 
 1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
@@ -105,6 +109,7 @@ You must:
 ### Gift cards
 <details id="gift-cards-activation">
 <summary>Gift cards activation</summary>
+<br>
 
 1. To check your eligibility, email <sales@multisafepay.com> 
 2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
@@ -118,6 +123,7 @@ You must:
 ### Klarna
 <details id="klarna-activation"> 
 <summary>Klarna activation</summary>
+<br>
 
 **Test account**
 
@@ -147,6 +153,7 @@ For support, email <integration@multisafepay.com>
 ### PayPal
 <details id="paypal-activation">
 <summary>PayPal activation</summary>
+<br>
 
 **Configuring your PayPal account**
 
@@ -178,7 +185,7 @@ To complete the configuration, change the language encoding setting of your PayP
 - Email <integration@multisafepay.com>
 - PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 
-> ⚠️ Known issue
+> ⚠️ Known error
 > 
 > If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
 
@@ -212,6 +219,7 @@ We strongly recommend [testing transactions](/payment-methods/paypal/integration
 ### Paysafecard
 <details id="paysafecard-activation">
 <summary>Paysafecard activation</summary>
+<br>
 
 Paysafecard doesn't require activation.
 

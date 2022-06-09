@@ -23,7 +23,7 @@ A customer who uses a card issued by a bank to make cashless payments to a merch
 A financial institution that issues credit cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
 
 #### card verification code (CVC)
-A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [recurring payments](/payments/recurring-payments/).
+A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [Recurring payments](/recurring-payments/).
 
 #### collecting party
 The party that receives the funds for a transaction directly from the customer, before transferring them to the merchant.

@@ -94,7 +94,7 @@ Contact MultiSafepay:
 
 {{< /details >}}
 
-{{< details title="Changing payment method order in checkout">}} 
+{{< details title="how-to-change payment method order in checkout">}} 
 
 To change the order of payment methods in your checkout, follow these steps:
 
