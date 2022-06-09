@@ -27,7 +27,7 @@ Google Pay™ is a digital wallet for in-app and online payments. Customers can 
 | **Countries**  | Worldwide. See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
 | **Currencies**  | Multiple  | 
 | **Chargebacks**  | [Yes](/payments/chargebacks/) | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) {{< br >}} Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
 | **Supports**  | [Second Chance](/features/second-chance/) {{< br >}} [Recurring Payments](/payments/recurring-payments/)  |
 | **Transactions expire after** | 1 hour |
 | **Payment gateways** | Maestro, Mastercard, and Visa gateways are supported. <br> American Express is **not** supported. |

@@ -37,7 +37,7 @@ The card balance remains available for 12 months free of charge. After 12 months
 | **Countries**  | Worldwide – Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner.  | 
 | **Currencies**  | EUR, GBP, USD  | 
 | **Chargebacks**  | No | 
-| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. {{< br >}} {{< br >}} Paid with Paysafecard **and** another payment method: [Full refunds](/refunds/full-partial/).  |
+| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. {{< br >}} {{< br >}} Paid with Paysafecard **and** another payment method: [Full refunds](/refunds/#full-and-partial-refunds).  |
 | **Transactions expire after** | 3 hours |
 
 ## Payment flow

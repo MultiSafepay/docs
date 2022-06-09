@@ -40,7 +40,7 @@ The funds are transferred directly to your business bank account, instead of you
 | **Countries**  | Germany {{< br >}} More countries will follow as more banks migrate to PSD2 APIs.  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/full-partial/) {{< br >}} All refunds are processed by Deutsche Bank. |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) {{< br >}} All refunds are processed by Deutsche Bank. |
 | **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 1 hour |
 | **Minimum amount** | 1 EUR |

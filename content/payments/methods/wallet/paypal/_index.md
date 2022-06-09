@@ -39,7 +39,7 @@ aliases:
 | **Countries**  | Worldwide  | 
 | **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
 | **Chargebacks**  |  [Yes](/payments/chargebacks/)  |
-| **Refunds** | [Full and partial](/refunds/full-partial/) (see guidance below) | 
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) (see guidance below) | 
 | **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after**  | 14 days | |
 

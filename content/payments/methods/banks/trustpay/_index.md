@@ -31,7 +31,7 @@ aliases:
 | **Countries**  | Czech Republic  | 
 | **Currencies**  | CZK | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/full-partial/)  |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
 | **Supports** | [Second Chance](/features/second-chance/) |
 | **Transactions expire after** | 10 days |
 
