@@ -6,7 +6,7 @@ hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
 To import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [Snelstart](https://www.snelstart.nl), see Snelstart – [Klantenservice](https://www.snelstart.nl/klantenservice).
