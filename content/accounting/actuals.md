@@ -6,7 +6,7 @@ hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/actuals-io.svg" width="150" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/actuals-io.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
 You can integrate MultiSafepay with [Actuals](https://actuals.io/). Actuals imports new transactions daily, between 02:00 AM and 05:00 AM (CET/CEST).

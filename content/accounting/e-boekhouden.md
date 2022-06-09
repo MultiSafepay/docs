@@ -6,7 +6,7 @@ hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/E-boekhouden.svg" width="150" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/E-boekhouden.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
 This page sets out ways of integrating MultiSafepay with [e-Boekhouden](https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387).
