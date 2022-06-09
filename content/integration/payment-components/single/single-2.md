@@ -52,7 +52,7 @@ const orderData = {
 
 {{< details title="Processing recurring payments" >}}
 
-[Recurring Payments](/payments/recurring-payments/) is a feature that lets you store a customer’s payment details as a secure, encrypted token.
+[Recurring payments](/recurring-payments/) is a feature that lets you store a customer’s payment details as a secure, encrypted token.
 
 For subsequent payments, customers can select their stored payment details and pay with a single click.
 

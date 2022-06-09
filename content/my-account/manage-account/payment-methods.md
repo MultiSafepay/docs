@@ -36,7 +36,7 @@ Include in the request your:
     - Monthly and annual SEPA Direct Debit transaction volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method
-    - Whether you want to accept [recurring payments](/payments/recurring-payments/)
+    - Whether you want to accept [Recurring payments](/recurring-payments/)
     - Whether any subscriptions are monthly, quarterly, or annual
 - Depending on the details provided, we may ask for additional information.
 - We send you an agreement to sign and email back to us.

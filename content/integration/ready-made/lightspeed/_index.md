@@ -334,7 +334,7 @@ After terminating your contract with MultiSafepay, our payment methods may still
 
 ### Payment reminders
 
-The Lightspeed app doesn't support [Second Chance](/features/second-chance/) emails because Lightspeed orders expire after 12 hours. 
+The Lightspeed app doesn't support [Second Chance](/second-chance/) emails because Lightspeed orders expire after 12 hours. 
 
 Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed - [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders)
 
