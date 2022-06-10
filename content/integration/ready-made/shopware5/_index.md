@@ -148,9 +148,9 @@ For more information, see Shopware – [Blocking transactions](https://developer
 
 {{< /details >}}
 
-### Shipping orders
+### Shipment
 
-For [pay later](/payments/methods/pay-later/) orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For [pay later](/payments/methods/pay-later/) orders, after shipment, you must change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the order status to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 

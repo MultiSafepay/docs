@@ -287,9 +287,9 @@ You need to [enable recurring payments](/features/recurring-payments/) in your M
 
 You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
 
-### Shipping orders
+### Shipment
 
-For [pay later](/payment-methods/pay-later/) orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For [pay later](/payment-methods/pay-later/) orders, after shipment, you must change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the order status to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 

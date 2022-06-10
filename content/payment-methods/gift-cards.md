@@ -1,58 +1,28 @@
 ---
 title: 'Gift cards'
-weight: 240
-meta_title: "Payment methods - Gift cards - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/VVV_Giftcards.svg'
-short_description: 'Accept payments using a wide range of Dutch gift cards.'
-url: '/payment-methods/gift-cards/'
-aliases: 
-    - /payment-methods/gift-cards/
-    - /payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
-    - /payment-methods/giftcards/branded-personalized-gift-card/
-    - /payment-methods/prepaid-cards/gift-cards
-    - /payments/methods/prepaid-cards/gift-cards/
-    - /payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
-    - /payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/
-    - /payments/methods/prepaid-cards/gift-cards/about/
-    - /payments/methods/gift-cards/product-rules/
-    - /payment-methods/gift-cards/product-rules/
-    - /payment-methods/gift-cards/overview/
-    - /payment-methods/gift-cards/how-do-gift-cards-work
-    - /payments/methods/prepaid-cards/gift-cards/payment-flow/
-    - /payment-methods/gift-cards/payment-flow/
-    - /payment-methods/gift-cards/test-gift-cards
-    - /payments/methods/prepaid-cards/gift-cards/integration-and-testing/
-    - /payment-methods/gift-cards/integration-testing/
-    - /payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
-    - /payments/methods/prepaid-cards/gift-cards/activation/
-    - /payment-methods/gift-cards/activation/
-    - /payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
-    - /payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/
-    - /payment-methods/gift-cards/open-loop-closed-loop/
-    - /payment-methods/gift-cards/branded-personalized-gift-card/
-    - payment-methods/prepaid-cards/gift-cards/custom-gift-cards
-    - /payments/methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/
-    - /payment-methods/gift-cards/custom-cards/
-    - /payments/methods/prepaid-cards/gift-cards/user-guide/handling-errors/
-    - /payment-methods/gift-cards/handling-errors/
-    - /payment-methods/gift-cards/pay-later-methods/
+category: 6298bd782d1cf4006032e765
+order: 402
+hidden: false
+parentDoc: 62a32bf042021c00e1cd7e5c
+slug: /payment-methods/gift-cards/
 ---
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer.
 
 [See how gift cards can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/giftcards)
 
-## Overview
+# Overview
 
-|   |   |   |
-|---|---|---|
+|   |   |
+|---|---|
 | **Countries**  | Belgium, The Netherlands  | 
 | **Currencies** | EUR  | 
 | **Chargebacks** | No  | 
-| **Refunds** | Paid with gift card only: <br> You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/payments/refunds/).  |
+| **Refunds** | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/refunds/).  |
 | **Transactions expire after** | Doesn't apply |
 
-{{< details title="Supported gift cards" >}} 
+<details id="supported-gift-cards">
+<summary>Supported gift cards</summary>
+<br>
 
 | | |
 |---|---|
@@ -71,18 +41,20 @@ Gift cards are pre-loaded with a specific amount of credit that customers can us
 
 **Note:** Webshop Giftcard no longer offers [open-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
-{{< /details >}}
+</details>
 
 ### Closed-loop vs open-loop cards
 
-- Closed-loop: Redeem with 1 merchant only. No amount limits.
+- Closed-loop: 
+    - Redeem with 1 merchant only
+    - No amount limits
 - Open-loop: 
     - Redeem with multiple merchants 
     - Max credit: 150 EUR 
     - Max transaction amount: 50 EUR
     - Amounts over 50 EUR must be paid with an additional payment method.
 
-## Payment flow
+# Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
@@ -105,6 +77,8 @@ sequenceDiagram
 &nbsp;  
 
 <details id="payment-statuses">
+<summary>Payment statuses</summary>
+<br>
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
@@ -114,6 +88,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| **Payments** | | |
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | For partial payment with another method: The customer didn't complete payment. | Expired | Expired |
@@ -121,9 +96,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
 
-{{< /details >}}
+</details>
 
-## Activation and integration
+# Activation and integration
 
 | | |
 |---|---|
@@ -131,21 +106,18 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
 | **Testing** | [Test payment details](/testing/test-payment-details/#prepaid-cards) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
-| **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). {{< br >}} To check if a specific gift card is supported in your ready-made integration, email the Integration Team at integration@multisafepay.com   |
+| **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). <br> To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com>   |
 
-### Pay later methods
 
-When paying with a gift card and a [pay later method](/payments/methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
-
-You are solely responsible for this in your integration.
+# User guide
 
 ### Custom gift cards
 
 Contact MultiSafepay to develop your own custom gift card! 
 
-{{< details title="Creating custom gift cards" >}}
+<details id="creating-custom-gift-cards">
+<summary>Creating custom gift cards</summary>
+<br>
 
 1. Email a request to <sales@multisafepay.com> 
 2. MultiSafepay:
@@ -163,14 +135,29 @@ Contact MultiSafepay to develop your own custom gift card!
     - In a ready-made integration, add your gateway ID.
 
 For support, email <integration@multisafepay.com>
-{{< /details >}}
+
+</details>
 
 ### Known errors
 
-{{< details title="VVV Cadeaukaart" >}}
+<details id="vvv-cadeaukaart-error">
+<summary>VVV Cadeaukaart error</summary>
+<br>
 
 VVV Cadeaukaart cards can sometimes throw an error where the credit balance appears to be 0, but is then restored within 24 hours (potentially affected by weekends and holidays). This appears to be due to temporary failures in the card issuer's system. 
 
 If a customer completes a payment and receives this error message, advise them to wait for 1 hour for a confirmation email before trying again to avoid placing two orders.
 
-{{< /details >}}
+</details>
+
+### Pay later methods
+
+When paying with a gift card and a [pay later method](/payment-methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+<br>
+
+> 📘 **Support**
+> Email <support@multisafepay.com>
