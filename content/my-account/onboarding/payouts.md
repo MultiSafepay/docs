@@ -1,29 +1,9 @@
 ---
 title : "Payouts"
-weight: 7
-meta_title: "Payouts - MultiSafepay Docs"
-read_more: "."
-url: '/account/payouts/'
-aliases:
-    - /faq/getting-started/how-do-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account
-    - /faq/getting-started/when-can-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account
-    - /faq/getting-started/paying-out-your-multisafepay-control-balance-to-your-business-bank-account
-    - faq/getting-started/paying-our-your-balance
-    - /faq/general/how-can-i-pay-out-the-funds-on-my-multisafepay-account-
-    - /faq/finance/paying-out-funds-from-your-multisafepay-control
-    - /tools/multisafepay-control/paying-out-your-balance/
-    - /faq/general/bank-holidays
-    - /tools/multisafepay-control/paying-out-funds-from-your-multisafepay-balance
-    - /tools/multisafepay-control/autowithdrawl-updates
-    - /tools/multisafepay-control/adding-autowithdrawals
-    - /tools/multisafepay-control/autowithdrawl-updates
-    - /tools/multisafepay-control/autowithdrawl-updates
-    - /account/multisafepay-account/paying-out-funds-from-your-multisafepay-balance/
-    - /faq/risk-and-fraud/new-bank-account
-    - /faq/risk-and-fraud/adding-and-deactivating-business-bank-accounts
-    - /security-and-legal/risk-and-fraud/adding-and-deactivating-business-bank-accounts/
-    - /risk-fraud/business-bank-accounts/
-    - /account/business-bank-accounts/
+category: 62962dcdbccb9a001d4bbc81
+order: 205
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 
 A payout is when you transfer funds from your MultiSafepay balance to your business bank account.

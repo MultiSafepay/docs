@@ -1,16 +1,9 @@
 ---
 title: "Logos and icons"
-Weight: 12
-meta_title: "Logos and icons - MultiSafepay Docs"
-url: '/account/logos-icons/'
-read_more: "."
-aliases:
-    - /faq/general/styleguide
-    - /faq/general/where-find-logo-payment-methods
-    - /faq/general/logos-and-icons/
-    - /developer/general/logos-and-icons/
-    - /developer/logos-icons/
-    - /account/displaying-logos-icons/
+category: 62962dcdbccb9a001d4bbc81
+order: 207
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 --- 
 For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
 
