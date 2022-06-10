@@ -1,13 +1,9 @@
 ---
-title: "Onboarding affiliates via the API"
-layout: 'single'
-logo: "/svgs/Community.svg"
-weight: 30
-read_more: '.'
-short_description: "Create and onboard affiliated merchant accounts via our API."
-url: '/account/affiliate-onboarding-api/'
-aliases: 
-    - /tools/api-onboarding
+title : "Onboarding affiliates via API"
+category: 62962dcdbccb9a001d4bbc81
+parentDoc: 62a2055be5b9db006a2545a7
+order: 302
+hidden: false
 ---
 
 This page is for MultiSafepay partner or primary account holders wanting to submit onboarding information for new affiliated merchants via our API. 

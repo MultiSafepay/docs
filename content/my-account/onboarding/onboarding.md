@@ -1,28 +1,11 @@
 ---
-title: 'Onboarding process'
-breadcrumb_title: 'Onboarding process'
-weight: 10
-meta_title: "Onboarding process - MultiSafepay Docs"
-read_more: "."
-url: '/account/onboarding-process/'
-aliases:
-    - /faq/risk-and-fraud/change-of-company-details
-    - /faq/risk-and-fraud/changing-your-company-details
-    - /security-and-legal/risk-and-fraud/changing-your-company-details/
-    - /risk-fraud/changing-company-details/
-    - /account/changing-company-details/
-    - /faq/risk-and-fraud/deposit
-    - /faq/risk-and-fraud/about-deposits
-    - /security-and-legal/risk-and-fraud/about-deposits/
-    - /risk-fraud/deposits/
-    - /account/deposits/
-    - /account/kyc/
-    - faq/getting-started/guidance-notes-ultimate-beneficial-owner-form
-    - /faq/getting-started/ultimate-beneficial-owner-form
-    - /getting-started/go-live/user-guide/ultimate-beneficial-owner-form/
-    - /account/ubo-form/
-    - /account/ubo/
+title: 'Onboarding'
+category: 62962dcdbccb9a001d4bbc81
+order: 300
+hidden: false
+slug: 'onboarding'
 ---
+
 Onboarding involves MultiSafepay checking and approving information submitted by merchants and partners applying for a live account to process real transactions.  
 
 ## 1. Submit sign up form
@@ -55,7 +38,9 @@ We may ask you to provide additional documents, e.g. if you have an unusual comp
 
 You **must** inform us of any changes to your company information.
 
-{{< details title="Changing company information" >}}
+<details id="changing-company-information">
+<summary>Changing company information</summary>
+<br>
 
 **Changes of address**  
 Email the new address and your account ID to <support@multisafepay.com>  
@@ -70,7 +55,7 @@ If a different company is taking over your account, we recommend opening a **new
 
 Make sure you update all company details on the website(s), including the registration number, VAT number, and address. The company details on the website must match the details in your account.
 
-{{< /details >}}
+</details>
 
 ## 3. Validate bank account
 
@@ -84,7 +69,9 @@ MultiSafepay is legally required under the Wwft to establish and verify the iden
 
 Download and complete a Statement of Ultimate Beneficial Owner Form for every UBO, and then submit them via your dashboard.
 
-{{< details title="About UBOs" >}}
+<details id="about-ubos">
+<summary>About UBOs</summary>
+<br>
 
 A UBO is a natural person who directly or indirectly holds an equity interest in or exercises control of the enterprise. Most commonly, an individual holds an equity interest of 25% or more of the shares or capital of the enterprise, or exercises:
 
@@ -106,26 +93,33 @@ The limited company Good Ltd has a sole shareholder: Better Ltd. The shares of B
 
 The three ultimate beneficial owners are therefore Mr A. Jansen, Ms B. Jansen-de Jong, Ms D. Best.
 
-{{< /details >}}
+</details>
 
-{{< details title="About the Wwft" >}}
+<details id="about-the-wwft">
+<summary>About the Wwft</summary>
+<br>
 
 The Wet ter voorkoming van witwassen en financieren van terrorisme (WWFT), or Money Laundering and Terrorist Financing Prevention Act, prevents companies and individuals from laundering money or financing terrorist activity. 
 
 It was based on the Disclosure of Unusual Transactions or Financial Services Act, but goes one step further. It focuses on both individuals involved in suspect transactions and the risk of such transactions.
 
-{{< /details >}}
+</details>
 
-{{< details title="Download a form" >}}
+<details id="download-a-form">
+<summary>Download a form</summary>
+<br>
+
 - [Dutch UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_NL_V2.0.pdf)
 - [English UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_EN_V2.0.pdf)
 - [French UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_FR.pdf)
 - [German UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_DE.pdf) 
 - [Italian UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_IT_V2.0.pdf)
 - [Spanish UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_ES.pdf)
-{{< /details >}}
+</details>
 
-{{< details title="Submit the form" >}}
+<details id="submit-the-form">
+<summary>Submit the form</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Files**.
@@ -134,27 +128,31 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 5. Upload color copies of the identity documents of all UBOs.
 
 **Note:** We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
-{{< /details >}}
+</details>
 
 ## 5. Display required information
 
 You must display certain information on your website. 
 
-{{< details title="Required website information" >}}
+<details id="required-website-information">
+<summary>Required website information</summary>
+<br>
 
 - Full legal company name, address, phone number, and email address
 - Chamber of Commerce number
 - VAT number
 - General terms and conditions, including the right to withdrawal (14 days)
 - Privacy policy
-{{< /details >}}
+</details>
 
 ## Approval and go live
 MultiSafepay assesses the information provided and perform know your customer (KYC) checks. We may request a deposit to cover our financial risks.
 
 If approved, your account goes live and you can [make payouts](/account/payouts/).
 
-{{< details title="KYC checks" >}}
+<details id="kyc-checks">
+<summary>KYC checks</summary>
+<br>
 
 As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/glossaries/multisafepay-glossary/#acquirer), MultiSafepay is legally required to perform KYC checks on the:
 
@@ -168,9 +166,11 @@ To help you start accepting payments as quickly as possible, we divide our check
 - **Identification:** As soon as we have established the identity of the account holder, you can start accepting payments.
 - **Verification:** As soon as we have verified the identity of the account holder, you can start [making payouts](/account/payouts/) to your business bank account.
 
-{{< /details >}}
+</details>
 
-{{< details title="Deposits" >}}
+<details id="deposits">
+<summary>Deposits</summary>
+<br>
 
 We may ask for a deposit in case:
 
@@ -186,12 +186,10 @@ Deposits are based on various factors:
 
 If financials are requested, we request your most recent balance sheet, and profit and loss statement.
 
-{{< /details >}}
+</details>
 
 ## Support
 
 Email <risk@multisafepay.com>
 
-
 **Disclaimer:** The information on this website is intended for informational purposes. No rights can be derived from this information. 
-

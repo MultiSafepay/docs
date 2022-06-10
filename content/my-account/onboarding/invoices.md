@@ -1,25 +1,9 @@
 ---
 title : "Invoices"
-meta_title: "Invoices - MultiSafepay Docs"
-read_more: '.'
-weight: 8
-url: '/account/invoices/'
-aliases:
-    - /faq/finance/about-vat/
-    - /faq/finance/reverse-charging-vat/
-    - /faq/finance/VAT-general-questions
-    - /tools/multisafepay-control/multisafepay-vat
-    - /my-account/manage-your-balance/multisafepay-vat/
-    - /account/adding-financial-email-address/
-    - /faq/general/how-can-i-edit-the-e-mail-address-listed-under-'financial-email'-
-    - /tools/multisafepay-control/changing-your-financial-email-address
-    - /account/multisafepay-account/adding-your-financial-email-address/
-    - /getting-started/set-up-your-account/user-guide/adding-your-financial-email-address/
-    - /account/vat-invoices/
-    - /tools/partner-account-control/invoice-structure
-    - /tools/partner-account-control/partner-reimbursement-invoice
-    - /account/partner-account-control/about-partner-invoices/
-    - /account/partner-invoices/
+category: 62962dcdbccb9a001d4bbc81
+order: 204
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 This page describes invoices MultiSafepay generates for your records at month end.  
 You do **not** need to pay them separately. 
@@ -34,7 +18,9 @@ For payment methods for which we do **not** collect, VAT is applied via the sche
 
 To view VAT invoices in your MultiSafepay dashboard, go to **Finance** > **Invoices**. 
 
-{{< details title="Fees we charge VAT for" >}}
+<details id="fees-we-charge-vat-for">
+<summary>Fees we charge VAT for</summary>
+<br>
 
 | Type of fee | When charged |
 |---|---|
@@ -45,7 +31,7 @@ To view VAT invoices in your MultiSafepay dashboard, go to **Finance** > **Invoi
 | Transaction fees | During processing |
 
 **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay)
-{{< /details >}}  
+</details> 
 
 ### Non-Dutch merchants 
 
@@ -80,5 +66,3 @@ To specify an email address for MultiSafepay to send invoices to, follow these s
 4. Click **Save**. 
 
 If you do not specify an email address, we use the main business email address provided in your account.
-
-  

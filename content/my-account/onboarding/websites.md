@@ -1,32 +1,9 @@
 ---
 title: "Websites"
-weight: 1
-meta_title: "Websites - MultiSafepay Docs"
-read_more: '.'
-url: '/account/websites/'
-aliases:
-    - /account/adding-websites/
-    - /tools/multisafepay-account/delete-website
-    - /tools/multisafepay-account/deleting-websites
-    - /getting-started/set-up-your-account/user-guide/deleting-websites/
-    - /account/deleting-websites/
-    - /getting-started/set-up-your-account/user-guide/connecting-websites-to-your-backend/
-    - /account/connecting-websites-to-backend/
-    - /tools/multisafepay-control/get-your-api-key
-    - /tools/multisafepay-control/retrieving-your-api-key
-    - /getting-started/set-up-your-account/user-guide/retrieving-your-api-key/
-    - /getting-started/set-up-your-account/user-guide/viewing-your-api-key/
-    - /set-up-your-account/site-id-api-key-secure-code/
-    - /developer/api/generating-your-api-key/
-    - /faq/api/generate-your-api-key
-    - /faq/api/generating-your-api-key
-    - /account/site-id-api-key-secure-code
-    - /tools/multisafepay-control/autowithdrawl-updates
-    - /faq/general/descriptor-bank-statement
-    - /tools/multisafepay-control/adding-descriptors-to-customer-bank-statements
-    - /my-account/manage-your-balance/adding-descriptors-to-customer-bank-statements/
-    - /account/displaying-company-names/
-    - /account/managing-websites/
+category: 62962dcdbccb9a001d4bbc81
+order: 201
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 
 To set up your account, you must add at least one website, for which we generate an API key. 
@@ -40,18 +17,23 @@ To process payments from a website operated by a separate legal entity, you must
 1. Sign in to your MultiSafepay dashboard. 
 2. Go to **Settings** > **Website settings**.
 3. Click either:  
-    {{< details title="Quick add website" >}}
+    
+<details id="quick-add-website">
+<summary>Quick add website</summary>
 
-1. From the **Category** list, select what type of products or services your website sells.
-2. In the **Description** field, enter the website name.  
+4. From the **Category** list, select what type of products or services your website sells.
+5. In the **Description** field, enter the website name.  
     **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
-3. In the **Base URL** field, add the website’s URL. This must be the URL where you receive payments.
-4. If you want to receive [status updates](/about-payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
-5. Click **Save**.
+6. In the **Base URL** field, add the website’s URL. This must be the URL where you receive payments.
+7. If you want to receive [status updates](/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+8. Click **Save**.
 
-{{< /details >}} 
-    Or, for more advanced configuration:
-{{< details title="Website wizard" >}}
+</details> 
+
+Or, for more advanced configuration:
+
+<details id="website-wizard" >
+<summary>Website wizard</summary>
 
 1. Enter the website URL in the **Full website URL** field, or select it from the **Select existing site** list, and then click **Continue**.
 2. From the **Website platform** list, select your ecommerce platform.  
@@ -74,13 +56,15 @@ To process payments from a website operated by a separate legal entity, you must
 8. In the **Save template as** field, enter a name for this template.  
 
 Your account is now linked to your website. 
-{{< /details >}} 
 
-4. The **Website settings** page contains your:  
-    - Site ID
-    - Secure code
-    - API key
-5. Copy the API key to start building your integration. The API key also lets you monitor transactions, configure [payouts](/account/payouts/), generate reports, and more. 
+</details >
+
+The **Website settings** page contains your:  
+ - Site ID
+ - Secure code
+ - API key
+
+Copy the API key to start building your integration. The API key also lets you monitor transactions, configure [payouts](/account/payouts/), generate reports, and more. 
 
 **Note:** Website names are displayed on MultiSafepay payment pages and, for some payment methods, on the customer’s bank statement (if supported by their bank).
 

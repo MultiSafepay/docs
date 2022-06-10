@@ -1,18 +1,11 @@
 ---
 title : "Prohibited products and services"
-weight: 20
-meta_title: "Prohibited products and services - MultiSafepay Docs"
-read_more: "."
-url: '/account/prohibited-products-services/'
-aliases:
-    - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
-    - /faq/getting-started/prohibited-products-and-services
-    - /getting-started/go-live/user-guide/prohibited-products-and-services/
-    - /faq/getting-started/rules-for-selling-alcohol
-    - /faq/getting-started/conditions-for-selling-alcohol
-    - /getting-started/go-live/user-guide/conditions-for-selling-alcohol/
-    - /account/conditions-for-alcohol/
+category: 62962dcdbccb9a001d4bbc81
+parentDoc: 62a2055be5b9db006a2545a7
+order: 301
+hidden: false
 ---
+
 As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
 
 We must account for risk and potential reputational damage. Therefore, we prohibit the sale of some products and services, or require additional information from the merchant.
@@ -34,7 +27,9 @@ If you sell alcohol, you must:
 - State this clearly on your website.
 - Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
-{{< details title="Download a declaration" >}}
+<details id="download-a-declaration">
+<summary>Download a declaration</summary>
+<br>
 
 - [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
 - [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
@@ -43,7 +38,7 @@ If you sell alcohol, you must:
 - [Italian merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
 - [Spanish merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx)  
 
-{{< /details >}}
+</details>
 
 If you sell spirits with an alcohol content of 15% or higher, you must:
 
@@ -67,7 +62,9 @@ If you sell spirits with an alcohol content of 15% or higher, you must:
 
 Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD fee if you sell any of the high-risk products and services listed below. The fee is collected as an annual recurring payment.
 
-{{< details title="Visa" >}}
+<details id="visa">
+<summary>Visa</summary>
+<br>
 
 | Code | Description  |
 | --- | --- |
@@ -85,9 +82,11 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 | n/a | Merchants that fall under the Excessive Chargeback Program |
 | n/a | Sale of replicas and "inspired by" items |
 
-{{< /details >}}
+</details>
 
-{{< details title="Mastercard" >}} 
+<details id="mastercard">
+<summary>Mastercard</summary>
+<br>
 
 | Code | Description |
 | --- | --- |
@@ -103,6 +102,6 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 | n/a | Merchants that fall under the Excessive Chargeback Program |
 | n/a | Sale of replicas and "inspired by" items |
 
-{{< /details >}}
+</details>
 
 For more information, email <risk@multisafepay.com>
