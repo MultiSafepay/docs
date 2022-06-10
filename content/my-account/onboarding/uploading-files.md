@@ -1,11 +1,9 @@
 ---
-title : "Files"
-weight: 14
-meta_title: "Files - MultiSafepay Docs"
-read_more: '.'
-url: '/account/files/'
-aliases:
-    - /account/uploading-files/
+title : "Uploading files"
+category: 62962dcdbccb9a001d4bbc81
+order: 206
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 
 To upload files to MultiSafepay (e.g. during [onboarding](/account/onboarding-golive/) or when challenging [chargebacks](/chargebacks/)), follow these steps:

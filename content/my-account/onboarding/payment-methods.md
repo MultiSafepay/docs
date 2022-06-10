@@ -1,12 +1,9 @@
 ---
 title: "Payment methods"
-weight: 3
-meta_title: "Payment methods - MultiSafepay Docs"
-read_more: "."
-layout: 'single'
-url: '/account/payment-methods/'
-aliases:
-    - /payments/activating-payment-methods/
+category: 62962dcdbccb9a001d4bbc81
+order: 209
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 
 MultiSafepay offers a wide range of [payment methods](/payment-methods/).

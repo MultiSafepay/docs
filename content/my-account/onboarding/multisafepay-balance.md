@@ -1,23 +1,9 @@
 ---
 title : "MultiSafepay balance"
-weight: 9
-meta_title: "MultiSafepay balance - MultiSafepay Docs"
-read_more: '.'
-url: '/account/balance/'
-aliases:
-    - /tools/multisafepay-control/users
-    - /faq/finance/adding-funds-to-your-multiSafepay-balance
-    - /faq/finance/how-can-i-fund-my-multisafepay-account
-    - /faq/finance/adding-funds-to-your-multisafepay-account
-    - /tools/multisafepay-control/adding-funds-to-your-multisafepay-balance
-    - /faq/finance/daily-balance
-    - /faq/finance/viewing-your-daily-balance
-    - /tools/multisafepay-control/viewing-your-daily-balance
-    - /my-account/manage-your-balance/viewing-your-daily-balance/
-    - /faq/finance/viewing-your-uncleared-balance
-    - /tools/multisafepay-control/viewing-your-uncleared-balance
-    - /my-account/manage-your-balance/viewing-your-uncleared-balance/
-    - /account/manage-your-balance/
+category: 62962dcdbccb9a001d4bbc81
+order: 203
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 
 Your MultiSafepay balance is the balance of funds held in your MultiSafepay account.

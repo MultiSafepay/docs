@@ -1,24 +1,9 @@
 ---
 title: "Affiliated merchants"
-weight: 4
-meta_title: "Affiliated merchants - MultiSafepay Docs"
-read_more: '.'
-url: '/account/affiliates/'
-aliases:
-    - /tools/partner-account-control/multisafepay-merchant-control-access
-    - /account/partner-account-control/managing-affiliate-accounts/
-    - /tools/partner-account-control/sign-up-new-affiliates
-    - /tools/partner-account-control/merchant-agreement
-    - /account/partner-account-control/creating-affiliate-accounts/
-    - /tools/partner-account-control/email-template-for-affiliates
-    - /account/partner-account-control/customizing-welcome-email/
-    - /account/customizing-welcome-email/
-    - /account/creating-affiliate-accounts/
-    - /tools/partner-account-control/managing-commissions
-    - /account/partner-account-control/managing-commissions/
-    - /account/managing-commissions/
-    - /account/charging-affiliates/
-    - /account/managing-affiliate-accounts/
+category: 62962dcdbccb9a001d4bbc81
+order: 210
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 This page describes how partner account holders can manage the accounts of affiliated merchants.
 
