@@ -62,5 +62,5 @@ In the `gateway_info` object, include the `moto` parameter.
 </details>
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

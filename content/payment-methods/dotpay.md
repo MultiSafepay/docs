@@ -10,7 +10,7 @@ slug: /payment-methods/dotpay/
 Dotpay is an inter-bank payment method that links all major Polish retail banks. 
 Customers pay from their own online banking environment.
 
-[See how Dotpay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/dotpay)
+See how Dotpay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/dotpay).
 
 # Overview
 
@@ -43,7 +43,9 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -76,6 +78,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Dotpay redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

@@ -21,5 +21,5 @@ Check your integration. If you use a:
 
 [Bancontact](/payment-methods/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/payment-methods/belfius/) or [CBC/KBC](/payment-methods/cbc-kbc/).
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

@@ -43,7 +43,9 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -77,8 +79,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | You can’t test Paysafecard in your MultiSafepay test account. <br> You can only make test payments in your MultiSafepay live account. <br> For any questions, email <integration@multisafepay.com> |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 | **Ready-made integrations** | Supported in [OsCommerce](/oscommerce/), [Magento 1](/magento-1/), [VirtueMart](/virtuemart/), [X-Cart](/x-cart/), [Zen Cart](/zen-cart/). |
-
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

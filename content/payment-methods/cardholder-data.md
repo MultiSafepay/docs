@@ -57,5 +57,5 @@ You must provide us with your:
 - Approved Scanning Vendor reports every 3 months
 <br>
 
-> 📘 **Support**
-> Email <sales@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

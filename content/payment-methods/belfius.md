@@ -8,7 +8,7 @@ slug: /payment-methods/belfius/
 ---
 Belfius is a popular online banking payment method for Belfius bank customers in Belgium.
 
-[See how Belfius can help your business!](https://www.multisafepay.com/solutions/payment-methods/belfius)
+See how Belfius can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/belfius).
 
 # Overview
 
@@ -44,7 +44,11 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+**Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. 
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -66,13 +70,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 |**Refunds**|||
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed |
+<br>
 
-**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
-We import our bank statements daily and finalize all incoming payments. 
+**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **initialized**. We import our bank statements daily and finalize all incoming payments. 
 
 </details>
-
-MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. 
 
 # Activation and integration
 
@@ -83,6 +85,7 @@ MultiSafepay doesn’t automatically receive the customer's IBAN when a transact
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Belfius direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce and ZenCart. |
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

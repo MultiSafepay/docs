@@ -1,40 +1,26 @@
 ---
 title: 'WeChat Pay'
-weight: 240
-meta_title: "Payment methods - WeChat Pay - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/wechat.svg' 
-short_description: 'Accept WeChat Pay payments via QR codes'
-url: '/payment-methods/wechat-pay/'
-aliases:
-    - /payments/methods/wallet/wechatpay/
-    - /payments/methods/wechatpay/product-rules/
-    - /payment-methods/wechatpay/product-rules/
-    - /payment-methods/wechatpay/overview/
-    - /payment-methods/wechat-pay/overview/
-    - /payments/methods/wallet/wechatpay/payment-flow/
-    - /payment-methods/wechat-pay/payment-flow/
-    - /payments/methods/wallet/wechatpay/integration-and-testing/
-    - /payment-methods/wechat-pay/integration-testing/
-    - /payments/methods/wallet/wechatpay/activation/
-    - /payment-methods/wechat-pay/activation/
+category: 6298bd782d1cf4006032e765
+order: 505
+hidden: false
+parentDoc: 62a6ec51d7a8100053916d99
+slug: /payment-methods/wechat-pay/
 ---
+[WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
 
-[WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It&nbsp;supports online and QR payments.
+See how WeChat Pay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/wechat-pay).
 
-[See how WeChat Pay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/wechat-pay)
-
-## Overview
+# Overview
 
 |   |   |  
 |---|---|
 | **Countries**  | Worldwide  | 
-| **Currencies**  | EUR {{< br >}} To request support for more currencies, email <sales@multisafepay.com> | 
+| **Currencies**  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) | 
 | **Transactions expire after**  | 2 hours | 
 
-## Payment flow
+# Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
@@ -58,9 +44,12 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;   
+
+# Payment statuses
 
 <details id="payment-statuses">
+<summary>Payment statuses</summary>
+<br>
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
@@ -70,6 +59,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| **Payments** | | |
 | A QR code has been generated. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the payment. | Void   | Void   |
@@ -78,9 +68,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 | Refund initiated. | Reserved | Reserved |
 | Refund complete.  | Completed | Completed |
 
-{{< /details >}}
+</details>
 
-## Activation and integration
+# Activation and integration
 
 | | |
 |---|---|
@@ -89,11 +79,24 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > WeChat Pay direct/redirect |
 | **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/prestashop-1-7/). |
+<br>
 
-### Displaying QR codes
+---
+
+# User guide
+
+## QR codes
+
+<details id="how-to-display-qr-codes">
+<summary>How to display QR codes</summary>
+<br>
 
 To display WeChat Pay QR codes, you can use:
 
 - Redirect orders to [payment pages](/payment-pages/), where the QR code is displayed under **Payment methods**.
-
 - Direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
+</details>
+<br>
+
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

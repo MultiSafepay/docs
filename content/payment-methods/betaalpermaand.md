@@ -6,9 +6,10 @@ hidden: false
 parentDoc: 62a2063dbaaa1b0035d9d44c
 slug: /payment-methods/betaal-per-maand/
 ---
-[Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay pay later method for large amounts in collaboration with Santander. Customers pay for orders after receiving them as a one-off payment or in monthly installments. They are only charged for the items they keep. Santander bears the risk and guarantees settlement.
+[Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay pay later method for large amounts in collaboration with Santander. Customers pay for orders after receiving them as a one-off payment or in monthly installments. 
+They are only charged for the items they keep. Santander bears the risk and guarantees settlement.
 
-[See how Betaal per Maand can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander)
+See how Betaal per Maand can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander).
 
 # Overview
 
@@ -18,7 +19,7 @@ slug: /payment-methods/betaal-per-maand/
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial refunds](/refunds/#full-and-partial-refunds) |
-| **Amount limits** | Min: 250 EUR Max: 8000 EUR |
+| **Amount limits** | Minimum amout: 250 EUR, maximum amount: 8000 EUR |
 | **Transactions expire after** | 1 day |
 
 # Payment flow
@@ -52,7 +53,9 @@ sequenceDiagram
     Mu->>Me: Settles funds within 5 business days
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -69,8 +72,8 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Payments** | | |
 | The customer has been redirected to Santander. <br> To cancel, email <support@multisafepay.com> | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
-| Santander has authorized the transaction and the funds are awaiting capture. <br> (You can no longer cancel; you can only refund.) | Completed  | Uncleared  |
-| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Providing track-and-trace codes](#providing-track-and-trace-codes)).  | Shipped | Uncleared |
+| Santander has authorized the transaction and the funds are awaiting capture. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
+| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Track-and-trace codes](#track-and-trace-codes)).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
@@ -87,19 +90,43 @@ For more information, see [Payment statuses](/payment-statuses/).
 |---|---|
 | **Activation** | [Betaal per Maand activation](/payments/activating-payment-methods/#betaal-per-maand) |
 | **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
-| **Testing** | You cannot test Betaal per Maand in your MultiSafepay test account. When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live. |
+| **Testing** | You cannot test Betaal per Maand in your MultiSafepay test account. <br> When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live. |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Betaal per Maand direct/redirect |
 | **Ready-made integrations** | Supported in the following [ready-made integrations](/integrations/ready-made/) [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
 <br>
 
+---
+
 # User guide
+
+## Collection period
+
+If the return process takes too long to verify, you can pauze the collection period for 2–4 weeks. 
+
+Have your Betaal per Maand client number ready, and email <klantenservice@santander.nl>
+
+## Gift cards
+
+When paying with a gift card and Betaal per Maand, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because Santander collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
+## Known errors
+
+The customer's first and last name, and the delivery details must be at least 2 characters long. Anything shorter can cause errors. 
+
+We recommend always requiring full names, not initials, abbreviations, or acronyms.
+
+## Shipment
 
 ### Changing orders before shipment
 
 You can still change an order between approval from Santander and shipment.
 
-<details id="changing-orders-before-shipment">
-<summary>Changing orders before shipment</summary>
+<details id="how-to-change-orders-before-shipment">
+<summary>How to change orders before shipment</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -113,34 +140,7 @@ You cannot increase the amount of the initial order by default. Email a request 
 
 </details>
 
-### Gift cards
-
-When paying with a gift card and Betaal per Maand, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-This is because Santander collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
-
-You are solely responsible for this in your integration.
-
-### Known errors
-
-The customer's first and last name, and the delivery details must be at least 2 characters long. Anything shorter can cause errors. 
-
-We recommend always requiring full names, not initials, abbreviations, or acronyms.
-
-### Pauzing the collection period
-
-If the return process takes too long to verify, you can pauze the collection period for 2–4 weeks. 
-
-Have your Betaal per Maand client number ready, and email <klantenservice@santander.nl>
-
-### Providing track-and-trace codes
-
-You can provide track-and-trace codes to MultiSafepay:
-
-- In your dashboard when you change the order status to Shipped, **or**  
-- Via our API – [Update order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order
-
-### Shipment
+### Changing the order status
 
 When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped** to:
 
@@ -148,8 +148,8 @@ When you ship the order, you **must** manually change the [order status](/paymen
 - Trigger sending the invoice to the customer
 - Prevent the order from expiring
 
-<details id="changing-order-status-to-shipped">
-<summary>Changing order status to shipped</summary>
+<details id="how-to-change-order-status-to-shipped">
+<summary>How to change order status to shipped</summary>
 <br>
 
 **In your dashboard**
@@ -174,7 +174,18 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 </details>
 
+### Providing track-and-trace codes
+
+<details id="how-to-provide-track-trace-to-multisafepay">
+<summary>How to provide track-and-trace codes to MultiSafepay</summary>
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+You can provide track-and-trace codes to MultiSafepay:
+
+- In your dashboard when you change the order status to **shipped**, **or**  
+- Via our API – [Update order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order
+</details>
+<br>
+
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

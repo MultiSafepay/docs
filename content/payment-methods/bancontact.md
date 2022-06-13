@@ -5,10 +5,9 @@ order: 101
 parentDoc: 62a1c6c5612f5700137f3640
 slug: /payment-methods/bancontact/
 ---
-[Bancontact](https://www.bancontact.com/en) is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. 
-It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
+[Bancontact](https://www.bancontact.com/en) is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
 
-[See how Bancontact can help your business!](https://www.multisafepay.com/solutions/payment-methods/bancontact)
+See how Bancontact can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/bancontact).
 
 # Overview
 
@@ -18,8 +17,8 @@ It is a household name and supported by over 80% of Belgian webshops. Once payme
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
 | **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
-| **Supports**  | [Recurring payments](/recurring-payments/) (banking only) <br> [Second Chance](/second-chance/) <br> [3D Secur 2.0](/cards/3ds2/) for all non-mobile payments |
-| **Transactions expire after** | Banking: 1 hour, QR: Doesn’t apply  |
+| **Supports**  | [Recurring payments](/recurring-payments/) (banking only) <br> [Second Chance](/second-chance/) <br> [3D Secure 2.0](/cards/3ds2/) for all non-mobile payments |
+| **Transactions expire after** | 1 hour (banking only)  |
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -40,7 +39,9 @@ sequenceDiagram
     Mu->>Me: Settles funds 
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -75,6 +76,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bancontact redirect/QR |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
+<br>
+
+---
 
 # Bancontact WIP Service
 
@@ -105,5 +109,5 @@ Requests are screened and approved by Bancontact Payconiq.
 
 See [Recurring payments](/recurring-payments/).
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

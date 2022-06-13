@@ -10,7 +10,7 @@ Pay After Delivery is MultiSafepay's own pay later method that lets customers pa
 
 Customers are only charged for the items they keep. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
 
-[See how Pay After Delivery can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery)
+See how Pay After Delivery can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery).
 
 # Overview
 
@@ -24,7 +24,7 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 | **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
 | **Addresses** | The delivery and invoice addresses must be the **same** to prevent fraud. |
 | **Shipping policies** | [MultiFactor shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies) <br> [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) <br> [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) |
-
+<br>
 
 # Payment flow
 
@@ -55,7 +55,9 @@ sequenceDiagram
     Mu->>Me: Settles funds (within 30 days of Shipped status)
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -93,15 +95,18 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).   |
+<br>
+
+---
 
 # User guide
 
-### Closing transactions
+## Closing transactions
 
 If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the transaction status to **completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
 
-<details id="closing-transactions">
-<summary>Closing transactions</summary>
+<details id="how-to-close-transactions">
+<summary>How to close transactions</summary>
 <br>
 
 To close a transaction manually, follow these steps:
@@ -117,7 +122,7 @@ To close a transaction manually, follow these steps:
 
 </details>
 
-### Failure to pay
+## Failure to pay
 
 If the customer fails to pay within the initial 14 day period, MultiFactor emails them reminders with new payment links, each valid for 6 days: 
 
@@ -127,8 +132,8 @@ If the customer fails to pay within the initial 14 day period, MultiFactor email
 
 If the customer still fails to pay, the total invoice is transferred to a debt collection agency. 
 
-<details id="stopping-reminders">
-<summary>Stopping reminders</summary>
+<details id="how-to-stop-reminders">
+<summary>How to stop reminders</summary>
 <br>
 
 To stop sending reminders, you can either:
@@ -146,20 +151,20 @@ Provide the following information:
 
 </details>
 
-### Gift cards
+## Gift cards
 
 When paying with a gift card and Pay After Delivery, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
-### Refunds
+## Refunds
 
 - You can't process refunds after the invoice is passed to a collection agency (usually 6 weeks after shipment). This is not visible in your dashboard. To check when the invoice was passed to the agency, email <support@multifactor.nl>
 - You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
 - For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
 - You cannot reverse full refunds. 
 
-### Shipment
+## Shipment
 
 When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped** to:
 
@@ -167,8 +172,8 @@ When you ship the order, you **must** manually change the [order status](/paymen
 - Trigger sending the invoice to the customer
 - Prevent the order from expiring
 
-<details id="changing-order-status-to-shipped">
-<summary>Changing order status to shipped</summary>
+<details id="how-to-change-order-status-to-shipped">
+<summary>How to change order status to shipped</summary>
 <br>
 
 **In your dashboard**
@@ -193,7 +198,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 </details>
 
-### Surcharges  
+## Surcharges  
 
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
@@ -203,5 +208,5 @@ For more information, email <sales@multisafepay.com>
 
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

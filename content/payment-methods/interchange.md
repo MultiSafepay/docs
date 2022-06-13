@@ -36,6 +36,7 @@ The actual cost of a specific transaction is difficult to predict. Fees differ p
 - Amount of the transaction
 
 To ensure transparency, payment service providers can choose the Interchange++ pricing model, which breaks down the costs for each transaction. There are no preset prices, instead the fee is calculated based on the total cost of all transactions processed. 
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

@@ -9,7 +9,7 @@ slug: /payment-methods/trustly/
 [Trustly](https://www.trustly.net/nl-NL) is a quick, secure banking payment method that is available in 29 European countries. 
 Customers pay from their own online banking environment.
 
-[See how Trustly can help your business!](https://www.multisafepay.com/solutions/payment-methods/trustly)
+See how Trustly can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/trustly).
 
 # Overview
 
@@ -42,7 +42,9 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;   
+<br>  
+
+# Payment statuses   
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -61,7 +63,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction at their bank. | Cancelled   | Cancelled   |
 | The customer didn't complete payment within 2 days. | Expired | Expired |
-| In rare cases, the transaction is marked as **Uncleared**. <br> Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. <br> **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
+| In rare cases, the transaction is marked as **uncleared**. <br> Trustly then informs MultiSafepay of the correct status, which may be **completed**, **declined**, or **expired**. <br> **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
 |**Refunds**|||
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
@@ -78,6 +80,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustly redirect |
 | **Ready-made integrations** | Trustly (direct) is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento&nbsp;1](/magento-1/), [Magento&nbsp;2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/) |
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

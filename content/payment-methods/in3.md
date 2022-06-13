@@ -8,7 +8,7 @@ slug: /payment-methods/in3/
 ---
 [in3](https://payin3.eu/en/) is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one.
 
-[See how in3 can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/in3)
+See how in3 can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/in3).
 
 # Overview
 
@@ -17,12 +17,12 @@ slug: /payment-methods/in3/
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1&nbsp;year afterwards. |
+| **Refunds** | [Full, partial, and API refunds](/refunds/), [discounts](/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
 | **Supports** | [Second Chance](/second-chance/) |
 | **Transactions expire after** | 2 hours |
-| **Amount limits** | Min: 100 EUR Max: 3000 EUR <br> You can adjust these limits in the backend of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
+| **Amount limits** | Minimum amount: 100 EUR Maximum amount: 3000 EUR <br> You can adjust these limits in the backend of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
 | **Addresses** | Different billing and shipping addresses are supported. |
-
+<br>
 
 # Payment flow
 
@@ -52,7 +52,9 @@ sequenceDiagram
     C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -67,9 +69,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 | Description | Order status | Transaction status |
 |---|---|---|
 | **Payments** | | |
-| in3's credit check is in progress. <br> (You can still cancel.) | Initialized   | Initialized  |
+| in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
 | in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
-| The customer has paid the first installment. <br> Settlement is now guaranteed. <br> (You can no longer cancel; you can only refund.) | Completed  | Uncleared  |
+| The customer has paid the first installment. Settlement is now guaranteed. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
 | in3 declined the transaction. | Declined | Declined |
@@ -90,23 +92,24 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > in3 direct/redirect |
 | **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/craft-commerce/), [Magento 1](/magento-1/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/). |
+<br>
+
+---
 
 # User guide
 
 ### Gift cards
 
-When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-This is because in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. This is because in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
 ### Shipment
 
-When you ship the order, you can change the order status to **Shipped** for your records, bu this is not required to trigger invoicing.
+When you ship the order, you can change the order status to **shipped** for your records, bu this is not required to trigger invoicing.
 
-<details id="changing-order-status-to-shipped">
-<summary>Changing order status to shipped</summary>
+<details id="how-to-change-order-status-to-shipped">
+<summary>How to change the order status to shipped</summary>
 <br>
 
 You can change the [order status](/payment-statuses/) from **completed** to **shipped**:
@@ -135,7 +138,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 ### Surcharges
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 
@@ -143,5 +146,5 @@ For more information, email <sales@multisafepay.com>
 
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

@@ -115,7 +115,7 @@ You are redirected to the **Settings** page.
 
 ### API keys and environments
 
-{{< details title="Changing API keys and environments" >}}
+{{< details title="how-to-change API keys and environments" >}}
 
 To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
@@ -147,7 +147,7 @@ If no specific rule is set for a country, the **Default** order is used.
 
 ### Internationalization
 
-{{< details title="Changing internationalization" >}}
+{{< details title="how-to-change internationalization" >}}
 
 When changing internationalization in your Lightspeed eCom backend, do **not** change the primary language setting while installing the app.  
 

@@ -6,10 +6,9 @@ hidden: false
 parentDoc: 62a1c6c5612f5700137f3640
 slug: /payment-methods/sepa-direct-debit/
 ---
-
 SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 
-[See how SEPA Direct Debit can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/direct-debit)
+See how SEPA Direct Debit can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/direct-debit).
 
 # Overview
 
@@ -19,34 +18,8 @@ SEPA Direct Debit is a European banking payment method where customers authorize
 | **Currencies**  | EUR | 
 | **Chargebacks**  | [Yes](/chargebacks/) (see below) | 
 | **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
-| **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) | 
+| **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) <br> [Virtual IBANs](/payments/virtual-ibans/) to better manage SEPA Direct Debit payments | 
 
-To better manage SEPA Direct Debit payments, see also [Virtual IBANs](/payments/virtual-ibans/).
-
-## Chargebacks
-
-Customers can request a [chargeback](/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes SEPA Direct Debit unsuitable for most retail businesses, e.g.&nbsp;clothing.
-
-You cannot dispute chargebacks and there is no facilitated process like there is for credit card chargebacks. Chargebacks can cost up to 65 EUR in bank fees.
-
-## Refund risk
-
-There is a risk that if you refund a customer and they also request a chargeback, you pay their money back twice. Customers can even request a chargeback after successfully receiving a refund.
-
-<details id="reducing-refund-risk">
-<summary>Reducing refund risks</summary>
-<br>
-
-To reduce the chances of this happening, we strongly recomend:
-
-- Only processing refunds for trusted, verified customers.
-- Avoiding refunding a customer if you have any ongoing dispute with them.
-- If refunding:
-    - First check if the customer has already requested a chargeback.
-    - Wait until 7 working days after payment was initiated to be sure payment is now complete.
-    - Communicate clearly to the customer that you are sending a refund and that the funds will take a few days to arrive in their account.
-
-</details>
 
 # Payment flow
 
@@ -72,15 +45,9 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;   
+<br>  
 
-<details id="about-e-mandates">
-<summary>About e-mandates</summary>
-<br>
-  
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
-
-</details>
+# Payment statuses   
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -96,15 +63,44 @@ For more information, see [Payment statuses](/payment-statuses/).
 |---|---|---|
 | **Payments** | | |
 | MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
-| We've sent the e-mandate to the customer's bank. <br> You can no longer cancel. | Uncleared | Uncleared |
+| We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
-| The customer's bank declined the transaction. <br> See the [reason codes](#declined-transactions) below. | Declined | Declined   |
+| The customer's bank declined the transaction. See the [reason codes](#declined-transactions) below. | Declined | Declined   |
 |**Refunds**|||
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed | 
 
 </details>
+
+<details id="about-e-mandates">
+<summary>About e-mandates</summary>
+<br>
+  
+MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
+
+</details>
+
+# Activation and integration
+
+| | |
+|---|---|
+| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
+| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > SEPA Direct Debit direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct) |
+<br>
+
+---
+
+# User guide
+
+## Chargebacks
+
+Customers can request a [chargeback](/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes SEPA Direct Debit unsuitable for most retail businesses, e.g.&nbsp;clothing.
+
+You cannot dispute chargebacks and there is no facilitated process like there is for credit card chargebacks. Chargebacks can cost up to 65 EUR in bank fees.
 
 ## Declined transactions
 
@@ -155,15 +151,25 @@ For more information in:
 
 </details>
 
-# Activation and integration
+## Refund risk
 
-| | |
-|---|---|
-| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > SEPA Direct Debit direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct) |
+There is a risk that if you refund a customer and they also request a chargeback, you pay their money back twice. Customers can even request a chargeback after successfully receiving a refund.
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+<details id="how-to-reduce-refund-risk">
+<summary>How to reduce refund risks</summary>
+<br>
+
+To reduce the chances of this happening, we strongly recomend:
+
+- Only processing refunds for trusted, verified customers.
+- Avoiding refunding a customer if you have any ongoing dispute with them.
+- If refunding:
+    - First check if the customer has already requested a chargeback.
+    - Wait until 7 working days after payment was initiated to be sure payment is now complete.
+    - Communicate clearly to the customer that you are sending a refund and that the funds will take a few days to arrive in their account.
+
+</details>
+<br>
+
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

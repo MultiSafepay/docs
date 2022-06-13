@@ -8,7 +8,7 @@ slug: /payment-methods/afterpay/
 ---
 [AfterPay](https://www.afterpay.nl/en/) is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 
-[See how AfterPay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/afterpay)
+See how AfterPay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/afterpay).
 
 # Overview
  
@@ -49,7 +49,9 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -64,8 +66,8 @@ For more information, see [Payment statuses](/payment-statuses/).
 | Description | Order status | Transaction status |
 |---|---|---|
 | **Payments** | | |
-| AfterPay has authorized the transaction and the funds are awaiting capture. <br> (You can still cancel.) <br> **Important:** To capture the funds, when you ship the order you must [manually change the order status to shipped](#shipment). | Completed  | Uncleared  |
-| The funds are captured.  <br> (You can no longer cancel; you can only refund.) | Shipped | Uncleared |
+| AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> **Important:** To capture the funds, when you ship the order you must [manually change the order status to shipped](#shipment). | Completed  | Uncleared  |
+| The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
 | AfterPay has declined the transaction. <br> Only the customer can contact AfterPay to find out why (for privacy and compliance reasons).  | Declined | Declined |
 | AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
@@ -76,6 +78,39 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 </details>
 
+# Activation and integration
+
+| | |
+|---|---|
+| **Activation** | [AfterPay activation](/payments/activating-payment-methods/#afterpay) |
+| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) <br> Activate at website level in your MultiSafepay dashboard. |
+| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect |
+| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.6](/prestashop-1-6/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+<br>
+
+---
+
+# User guide
+
+### Addresses
+
+Different billing and shipping addresses are supported.  
+The **Transaction details** page in your dashboard only shows the billing address. To retrieve other details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder).
+
+### Collection period
+If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
+
+Phone **+31 207 230 230** or email <merchant@afterpay.com> 
+
+### Gift cards
+
+When paying with a gift card and AfterPay, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because AfterPay collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
 ### Shipment
 
 When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped** to:
@@ -84,8 +119,8 @@ When you ship the order, you **must** manually change the [order status](/paymen
 - Trigger sending the invoice to the customer
 - Prevent the order from expiring
 
-<details id="changing-order-status-to-shipped">
-<summary>Changing order status to shipped</summary>
+<details id="how-to-change-order-status-to-shipped">
+<summary>How to change order status to shipped</summary>
 <br>
 
 **In your dashboard**
@@ -110,36 +145,6 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 </details>
 
-### Return process
-If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
-
-Phone **+31 207 230 230** or email <merchant@afterpay.com> 
-
-# Activation and integration
-
-| | |
-|---|---|
-| **Activation** | [AfterPay activation](/payments/activating-payment-methods/#afterpay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) <br> Activate at website level in your MultiSafepay dashboard. |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect |
-| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.6](/prestashop-1-6/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
-
-# User guide
-
-### Addresses
-
-Different billing and shipping addresses are supported.  
-The **Transaction details** page in your dashboard only shows the billing address. To retrieve other details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder).
-
-### Gift cards
-
-When paying with a gift card and AfterPay, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-This is because AfterPay collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
-
-You are solely responsible for this in your integration.
-
 ### Surcharges  
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
@@ -148,5 +153,5 @@ AfterPay therefore strongly recommends discontinuing any surcharges.
 For more information, see AfterPay – [Merchant support](https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/).
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

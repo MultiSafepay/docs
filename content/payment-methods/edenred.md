@@ -23,7 +23,7 @@ slug: /payment-methods/edenred/
 | **Refunds** | No |
 | **Supports** | [Second Chance](/second-chance/) |
 
-## How it works
+### Terms and conditions
   
 - You must sign a contract with Edenred.
 - For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
@@ -51,7 +51,9 @@ sequenceDiagram
     E->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -79,8 +81,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
 | **Ready-made integrations** | Only supported in our [Magento 2](/magento-2/) integration. |
-
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

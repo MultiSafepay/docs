@@ -64,5 +64,5 @@ Manual Capture is not supported in our [ready-made integrations](/integrations/r
 After expiration, the issuer can cancel the authorization.
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

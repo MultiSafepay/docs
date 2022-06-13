@@ -6,10 +6,9 @@ hidden: false
 parentDoc: 62a1c6c5612f5700137f3640
 slug: /payment-methods/ideal/
 ---
-
 [iDEAL](https://www.ideal.nl/en/) is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, QR code, or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees settlement.
 
-[See how iDEAL can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/ideal)
+See how iDEAL can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/ideal).
 
 # Overview
 
@@ -55,7 +54,9 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;   
+<br>  
+
+# Payment statuses   
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -90,6 +91,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > iDEAL direct/redirect/QR |
 | **Ready-made integrations** | Banking is supported in all our [ready-made integrations](/integrations/ready-made/), **except** ZenCart. <br> QR is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/) |
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

@@ -132,7 +132,7 @@ MultiSafepay payment pages and messages to customers (e.g. Second Chance emails,
 
 However, WooCommerce only supports the language of your ecommerce platform, irrespective of the customer's language or country, or the language of the webshop (if you use a third-party plugin for a multi-lingual webshop).
 
-{{< details title="Changing language" >}}
+{{< details title="how-to-change language" >}}
 
 The plugin sets the language for payment pages and messages based on the Wordpress locale code `get_locale()` function.
 

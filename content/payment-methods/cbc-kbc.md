@@ -10,7 +10,7 @@ An online banking payment method of two of Belgium's largest banks: CBC which se
 
 The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment gateway includes the branches as separate options because customers of one branch can't pay through the other.
 
-[See how CBC/KBC can help your business!](https://www.multisafepay.com/solutions/payment-methods/kbccbc)
+See how CBC/KBC can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/kbccbc).
 
 # Overview
 
@@ -46,7 +46,11 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+**Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -68,12 +72,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 |**Refunds**|||
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
+<br>
 
-**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**.  
-We import our bank statements daily and match all incoming payments. 
-</details>
+**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments. 
 
-MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. 
+</details> 
 
 # Activation and integration
 
@@ -84,6 +87,7 @@ MultiSafepay doesn’t automatically receive the customer's IBAN when a transact
 | **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > CBC/KBC direct/redirect |
 | **Ready-made integrations** | [Craft Commerce](/craft-commerce/), [OpenCart](/opencart/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [PrestaShop 1.6](/prestashop-1-6/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [WooCommerce](/woo-commerce/) |
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

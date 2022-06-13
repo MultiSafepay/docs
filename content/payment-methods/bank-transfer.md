@@ -8,18 +8,18 @@ slug: /payment-methods/bank-transfer/
 Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, international banking method. 
 Customers can make any type of online payment in euros within the SEPA area. 
 
-[See how Bank Transfer can help your business!](https://www.multisafepay.com/solutions/payment-methods/bank-transfer)
+See how Bank Transfer can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/bank-transfer).
 
 # Overview
+
 |   |   |   
 |---|---|
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
 | **Chargebacks**  | No  | 
 | **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
+| **Supports** | [Virtual IBANs](/payments/virtual-ibans/) to better manage Bank Transfer payments |
 | **Transactions expire after** | 60 days  |
-
-To better manage Bank Transfer payments, see also [Virtual IBANs](/payments/virtual-ibans/).
 
 # Payment flow
 
@@ -43,7 +43,10 @@ sequenceDiagram
     Mu->>Me: Matches payment and settles funds
     
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses
+  
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
@@ -67,23 +70,20 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 </details>
 
-## Payment instructions
+# Activation and integration
 
-MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can email them yourself.
-
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius">
-
-<details id="emailing-payment-instructions-yourself"> 
-<summary>Emailing payment instructions yourself</summary>
+| | |
+|---|---|
+| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
+| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 <br>
 
-You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see&nbsp;[Transfer guidance for customers](/payment-methods/bank-transfer/#transfer-guidance-for-customers) below).
+---
 
-To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
-
-</details>
-
-**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/account/unmasking-ibans/).
+# User guide
 
 ## Local MultiSafepay bank accounts
 
@@ -112,7 +112,25 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 </details>
 
-## Transfer guidance for customers
+## Payment instructions
+
+MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can email them yourself.
+
+{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius">
+
+<details id="how-to-email-payment-instructions-yourself"> 
+<summary>How to email payment instructions yourself</summary>
+<br>
+
+You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see [Transfer guidance for customers](/payment-methods/bank-transfer/#transfer-guidance-for-customers) below).
+
+To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
+
+</details>
+
+**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/account/unmasking-ibans/).
+
+### Transfer guidance for customers
 
 The customer must only pay for **one** order per bank transfer. When transferring the funds, provide:  
     
@@ -164,7 +182,7 @@ We then try to match the payment manually. If that fails:
 
 ### Resolving unmatched payments
 
-To create the transaction again, check if a [payment link](/account/payment-links/) was created: 
+To create the transaction again, check if a [payment link](/payment-links/) was created: 
 
 <details id="payment-link-created">
 <summary>Payment link created</summary>
@@ -193,18 +211,6 @@ To create the transaction again, check if a [payment link](/account/payment-link
 
 See this guidance in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) or [German](/bank-transfer/unzugeordneten-banküberweisungen/).
 
-# Activation and integration
-
-| | |
-|---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
-
-# User guide
-
 ## Stock issues
 
 To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
@@ -214,7 +220,8 @@ To avoid stock-related issues if a customer fails to pay within 60 days, you can
 ## Validating transfers
 
 To change how bank transfers are validated, check whether this is possible in your backend.
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>
 

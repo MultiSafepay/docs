@@ -1,46 +1,25 @@
 ---
 title: 'Apple Pay'
-weight: 230
-meta_title: "Payment methods - Apple Pay - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/Apple.svg' 
-short_description: "Digital wallet for online and in-app payments from Apple devices."
-url: '/payment-methods/apple-pay/'
-aliases:
-    - //payment-methods/applepay/
-    - /support-tab/magento2/payment-methods/applepay
-    - /payment-methods/wallet/applepay
-    - /payments/methods/wallet/applepay/
-    - /payments/methods/wallet/applepay/about/
-    - /payments/methods/apple-pay/product-rules/
-    - /payment-methods/apple-pay/product-rules/
-    - /payment-methods/apple-pay/overview/
-    - /payment-methods/wallet/applepay/apple-pay-how-does-it-work
-    - /payments/methods/wallet/applepay/payment-flow/
-    - /payment-methods/apple-pay/payment-flow/
-    - /payment-methods/wallet/applepay/apple-pay-compatibility-and-testing
-    - /payment-methods/wallet/applepay/apple-pay-guidelines
-    - /payments/methods/wallet/applepay/integration-and-testing/
-    - /payment-methods/apple-pay/integration-testing/
-    - /payment-methods/wallet/applepay/activate-apple-pay
-    - /payments/methods/wallet/applepay/activation/
-    - /payment-methods/apple-pay/activation/
+category: 6298bd782d1cf4006032e765
+order: 502
+hidden: false
+parentDoc: 62a6ec51d7a8100053916d99
+slug: /payment-methods/apple-pay/
 ---
-
 [Apple Pay](https://www.apple.com/apple-pay/) is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. 
 
 An additional layer of security is provided by 3D Secure, which requires customers to verify their identity.
 
-[See how Apple Pay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/applepay)
+See how Apple Pay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/applepay).
 
-## Overview
+# Overview
 
-|   |   |   |
-|---|---|---|
+|   |   |
+|---|---|
 | **Countries**  | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
 | **Currencies**  | [Multiple](https://support.apple.com/en-us/HT207957)  | 
 | **Chargebacks**   | [Yes](/payments/chargebacks/) | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) {{< br >}} Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
+| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
 | **Supports**  | [Second Chance](/second-chance/) |
 | **Transactions expire after** | 1 hour |
 | **Requirements** | Customers must use the Safari browser. <br> An SSL secured connection (HTTPS) is required. |
@@ -48,7 +27,7 @@ An additional layer of security is provided by 3D Secure, which requires custome
 
 For more information, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
-## Payment flow
+# Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
@@ -82,9 +61,13 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;   
+<br>
+
+# Payment statuses
 
 <details id="payment-statuses">
+<summary>Payment statuses</summary>
+<br>
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
@@ -94,19 +77,20 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| **Payments** | | |
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. {{< br >}} Review it and then [manually capture or decline](/cards/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/cards/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
-| The customer didn't complete 3D&nbsp;Secure authentication. | Expired | Expired |
-| The customer failed 3D&nbsp;Secure authentication or cancelled payment. {{< br >}} See [Card errors](/cards/errors/). | Declined | Declined   |
+| The customer didn't complete 3D Secure authentication. | Expired | Expired |
+| The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/cards/errors/). | Declined | Declined   |
 |**Refunds**|||
 | Refund initiated. | Reserved    | Reserved   |
 | Refund complete.  | Completed  | Completed  |
 
-{{< /details >}}
+</details>
 
-## Activation and integration
+# Activation and integration
 
 | | |
 |---|---|
@@ -114,26 +98,23 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
 | **Testing** | [Test payment details](/testing/test-payment-details/) |
 | **Apple branding** | When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing). |
+| **Ready-made integrations** | Apple Pay redirect is supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce, VirtueMart, X-Cart, Zen Cart. |
+<br>
 
-{{< details title="Ready-made integrations" >}}
- 
-Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except**:
+{{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
-- OsCommerce
-- VirtueMart 
-- X-Cart
-- Zen Cart
+{{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+<br>
 
-{{< /details >}}
+---
 
-{{< details title="Known errors" >}}
+# User guide
+
+### Known errors
 
 For most of our ready-made integrations, if the customer uses an incompatible device, Apple Pay doesn't appear on the checkout page. 
 
 For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout page on incompatible devices, but throws an error when clicked and the payment button is disabled.
 
-{{< /details >}}
-
-{{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
-
-{{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

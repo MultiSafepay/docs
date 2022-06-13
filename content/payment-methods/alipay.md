@@ -1,48 +1,29 @@
 ---
 title: 'Alipay'
-weight: 230
-meta_title: "Payment methods - Alipay - MultiSafepay Docs"
-layout: 'single'
-logo: '/logo/Payment_methods/Alipay.svg' 
-short_description: 'Leading global digital wallet for Chinese customers.'
-url: '/payment-methods/alipay/'
-aliases:
-    - /support-tab/magento2/payment-methods/alipay
-    - /payment-methods/alipay/
-    - /payment-methods/wallet/alipay
-    - /payments/methods/wallet/alipay/
-    - /payments/methods/wallet/alipay/about/
-    - /payments/methods/alipay/product-rules/
-    - /payment-methods/alipay/product-rules/
-    - /payment-methods/alipay/overview/
-    - /payment-methods/wallet/alipay/alipay-how-does-it-work
-    - /payments/methods/wallet/alipay/payment-flow/
-    - /payment-methods/alipay/payment-flow/
-    - /payment-methods/wallet/paypal/paypal-testing
-    - /payments/methods/wallet/alipay/integration-and-testing/
-    - /payment-methods/alipay/integration-testing/
-    - /payment-methods/wallet/alipay/activate-alipay
-    - /payments/methods/wallet/alipay/activation/
-    - /payment-methods/alipay/activation/
+category: 6298bd782d1cf4006032e765
+order: 501
+hidden: false
+parentDoc: 62a6ec51d7a8100053916d99
+slug: /payment-methods/alipay/
 ---
 [Alipay](https://global.alipay.com/platform/site/ihome) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
 
-[See how Alipay can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/alipay)
+See how Alipay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/alipay).
 
-## Overview
+# Overview
 
-|   |   |   |
-|---|---|---|
+|   |   |
+|---|---|
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial refunds](/refunds/#full-and-partial-refunds), [discounts](/refunds/discounts/), [API refunds](/refunds/pay-later/)  |
+| **Refunds** | [Full and partial refunds](/refunds/#full-and-partial-refunds), [discounts](/discounts/), [API refunds](/refunds/)  |
 | **Supports**  | [Second Chance](/second-chance/) |
 | **Transactions expire after** | 5 hours |
 
-## Payment flow
+# Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
@@ -65,9 +46,13 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses
 
 <details id="payment-statuses">
+<summary>Payment statuses</summary>
+<br>
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
@@ -77,16 +62,17 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | Description | Order status | Transaction status |
 |---|---|---|
+| **Payments** | | |
 | The customer has been redirected to Alipay. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The customer didn't complete payment within 5&nbsp;hours, or it was cancelled. | Expired | Expired |
+| The customer didn't complete payment within 5 hours, or it was cancelled. | Expired | Expired |
 |**Refunds**|||
 | Refund initiated. | Reserved | Reserved   |
 | Refund complete.  | Completed | Completed   |
 
-{{< /details >}}
+</details>
 
-## Activation and integration
+# Activation and integration
 
 | | |
 |---|---|
@@ -95,3 +81,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
+<br>
+
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

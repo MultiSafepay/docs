@@ -8,7 +8,7 @@ slug: /payment-methods/klarna/
 ---
 [Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
-[See how Klarna can benefit your business!](https://www.multisafepay.com/solutions/payment-methods/klarna)
+See how Klarna can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/klarna).
 
 # Overview
 
@@ -50,7 +50,9 @@ sequenceDiagram
     Mu->>Me: Settles funds (within 21 days)
 
 {{< /mermaid >}}
-&nbsp;  
+<br>  
+
+# Payment statuses  
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -87,21 +89,51 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect). |
+<br>
+
+---
 
 # User guide
 
-### Collection period
+## Branding
+
+<details id="how-to-add-your-logo-to-klarna-invoices">
+<summary>How to add your logo to Klarna invoices</summary>
+<br>
+
+1. Sign in to your Klarna Merchant Account, and then go to **Branding**.
+3. Under **Logo**, upload a .png or .jpeg logo. 
+    - For best results, use a square image with a transparent background. 
+    - Resolution 180x180 px or higher
+
+</details>
+
+<details id="how-to-manage-your-brand-information">
+<summary>How to manage your brand information</summary>
+<br>
+
+Under **Brand information**, you can set up and manage your brand including:
+- Brand name
+- Home page
+- Instagram URL
+- Facebook URL
+
+For support, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice/). 
+
+</details>
+
+## Collection period
 
 If a customer's return takes too long to verify, you can pauze the collection period for 2-4 weeks. 
 
 Call Klarna on +31 208082853 or email Klarna Sales at <verkoop@klarna.com>
 
-### Expired orders
+## Expired orders
 
 Orders may expire if you don't change the order status to **shipped** within 28 days. 
 
-<details id="handling-expired-orders"> 
-<summary>Handling expired orders</summary>
+<details id="how-to-handle-expired-orders"> 
+<summary>How to handle expired orders</summary>
 <br>
 
 You can send the customer a payment link from the existing order or a new order.
@@ -123,68 +155,7 @@ See also Examples > Klarna redirect.
 
 </details>
 
-### Klarna reference numbers
-
-For every transaction, Klarna generates two reference numbers:
-
-- Reservation number for before shipment
-- Invoice number for after shipment
-
-Both reference numbers appear in the **Transaction details** page in your dashboard.
-
-### Shipment
-
-#### Changing the order status
-
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped**, which:
-
-- Captures the funds
-- Triggers sending the invoice to the customer
-- Prevents the order from expiring
-
-<details id="changing-order-status-to-shipped">
-<summary>Changing order status to shipped</summary>
-<br>
-
-**In your dashboard**
-
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Transactions** > **Transactions overview**.
-3. Search for the transaction, and click to open the **Transaction details** page. 
-4. Under **Order details**, click **Change order status**. 
-5. Change the status to **shipped**.
-6. Send the customer the track and trace details, if relevant.
-
-**In your backend**
-
-If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
-
-- Magento 2 and WooCommerce: When you set the order to **shipped** in your backend.
-- Shopware 5: When you set the order to **delivered** in your backend.
-
-For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
-
-**Note:** Some third-party plugins may not support updating the status via our API.
-
-</details>
-
-#### Extending the shipping period
-
-If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments.
-
-If the order is not captured during this time, the [order and transaction status](/payment-statuses/) change to **expired**.
-
-<details id="extending-the-shipping-period"> 
-<summary>Extending the shipping period</summary>
-<br>
-
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction.
-3. In the **Transaction details** page, click **Extend**.
-
-</details>
-
-### Disputes
+## Disputes
 
 A dispute is when you and a customer disagree about an order:
 
@@ -196,8 +167,8 @@ Klarna provides support for resolving disputes. For a step-by-step overview, see
 
 The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. 
 
-<details id="connecting-to-the-klarna-merchant-portal">
-<summary>Connecting to the Klarna Merchant Portal</summary>
+<details id="how-to-connect-to-the-klarna-merchant-portal">
+<summary>How to connect to the Klarna Merchant Portal</summary>
 <br>
   
 You'll receive an email from Klarna inviting you to activate your portal account. The link expires within 7 days and is only usable once. 
@@ -214,8 +185,8 @@ If your link has expired or you haven't received an email, email <support@multis
 
 </details>
 
-<details id="setting-up-two-factor-authentication">
-<summary>Setting up two-factor authentication</summary>
+<details id="how-to-set-up-two-factor-authentication">
+<summary>How to set up two-factor authentication</summary>
 <br>
 
 If you want to increase the security of your Klarna Merchant Portal, set up two-factor authentication with the Google Authenticator app.
@@ -227,8 +198,8 @@ If you want to increase the security of your Klarna Merchant Portal, set up two-
 
 </details>
 
-<details id="signing-up-for-the-disputes-app">
-<summary>Signing up for the Disputes app</summary>
+<details id="how-to-sign-up-for-the-disputes-app">
+<summary>How to sign up for the Disputes app</summary>
 <br>
 
 To sign up to use the Disputes app, follow these steps:
@@ -260,63 +231,96 @@ See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/dispute
 
 </details>
 
-### Gift cards
+## Gift cards
 
-When paying with a gift card and Klarna, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
-
-This is because Klarna collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+When paying with a gift card and Klarna, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. This is because Klarna collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
-### Klarna gateway 
+## Klarna gateway 
 
 Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway for your MultiSafepay account. 
 
 For questions about your Klarna integration and the connection with your MultiSafepay account, email <integration@multisafepay.com>
 
-<details id="known-errors">
-<summary>Known errors</summary>
+<details id="known-error">
+<summary>Known error</summary>
 <br>
 
 If you receive a `code:BAD_VALUE, Bad value: order_lines[0].reference` error from Klarna, try using shorter SKU numbers, e.g. fewer than 9 characters. 
 
 </details>
 
-### Surcharges  
+## Klarna reference numbers
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+For every transaction, Klarna generates two reference numbers:
+
+- Reservation number for before shipment
+- Invoice number for after shipment
+
+Both reference numbers appear in the **Transaction details** page in your dashboard.
+
+## Shipment
+
+### Changing the order status
+
+When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped**, which:
+
+- Captures the funds
+- Triggers sending the invoice to the customer
+- Prevents the order from expiring
+
+<details id="how-to-change-order-status-to-shipped">
+<summary>How to change order status to shipped</summary>
+<br>
+
+**In your dashboard**
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transactions overview**.
+3. Search for the transaction, and click to open the **Transaction details** page. 
+4. Under **Order details**, click **Change order status**. 
+5. Change the status to **shipped**.
+6. Send the customer the track and trace details, if relevant.
+
+**In your backend**
+
+If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+
+- Magento 2 and WooCommerce: When you set the order to **shipped** in your backend.
+- Shopware 5: When you set the order to **delivered** in your backend.
+
+For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+
+**Note:** Some third-party plugins may not support updating the status via our API.
+
+</details>
+
+### Extending the shipping period
+
+If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments.
+
+If the order is not captured during this time, the [order and transaction status](/payment-statuses/) change to **expired**.
+
+<details id="how-to-extend-the-shipping-period"> 
+<summary>How to extend the shipping period</summary>
+<br>
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction.
+3. In the **Transaction details** page, click **Extend**.
+
+</details>
+
+## Surcharges  
+
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen aan mijn klant?](https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/) 
 
-### Your brand
-
-<details id="adding-your-logo-to-klarna-invoices">
-<summary>Adding your logo to Klarna invoices</summary>
 <br>
 
-1. Sign in to your Klarna Merchant Account, and then go to **Branding**.
-3. Under **Logo**, upload a .png or .jpeg logo. 
-    - For best results, use a square image with a transparent background. 
-    - Resolution 180x180 px or higher
-
-</details>
-
-<details id="managing-your-brand-information">
-<summary>Managing your brand information</summary>
-<br>
-
-Under **Brand information**, you can set up and manage your brand including:
-- Brand name
-- Home page
-- Instagram URL
-- Facebook URL
-
-</details>
-
-For support, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice/). 
-<br>
-
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

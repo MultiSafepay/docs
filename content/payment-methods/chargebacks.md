@@ -14,13 +14,13 @@ You are solely liable for paying chargebacks.
 
 The most common reasons for requesting chargebacks are fraud, non-delivery of goods, or goods not as described. 
 
-### Chargeback period
+# Chargeback period
 
 Card schemes generally allow cardholders to request chargebacks for up to 180 days after the transaction. If you require a longer period (e.g. for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
 
 By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
-### SEPA Direct Debit chargebacks
+# SEPA Direct Debit chargebacks
 
 Customers can request a chargeback within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
 
@@ -34,7 +34,7 @@ If you have asked MultiSafepay to dispute a chargeback on your behalf, we have s
 
 ## Visa
 
-### Fraud 
+#### Fraud 
 <details id="reason-code-10-4-card-absent-environment">
 <summary>Reason code 10.4: Card absent environment</summary>
 <br>
@@ -508,31 +508,43 @@ The best way of minimizing chargebacks is to provide good customer service.
 
 We set out below ways to minimize the risk of the most common types of chargeback: 
 
-#### Fraud
+<details id="fraud">
+<summary>Fraud</summary>
+<br>
 
 Use [3D Secure](/cards/3ds2/) for all credit card transactions. 
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
+</details>
 
-#### Non-delivery
+<details it="non-delivery">
+<summary>Non-delivery</summary>
+<br>
 
 - Inform customers of both expected and actual delivery times
 - Document the delivery process, e.g. use track & trace with signature
 - Refund or cancel transactions if the goods won't arrive within the stated delivery time or not at all. 
+</details>
 
-#### Goods not as described  
+<details id="goods-not-as-described">
+<summary>Goods not as described</summary>
+<br>  
 
 Offer quality items and provide clear descriptions on your website. 
+</details>
 
-#### Transaction not recognized
+<details id="transaction-not-recognized">
+<summary>Transaction not recognized</summary>
+<br>
 
-To help increase brand recognition, include your logo in customer's online bank statements (see below). 
+Including your logo in customer's online bank environments and applications can help:
 
-#### Your logo in customers' online banking
-
-Displaying your logo in customers' online banking environments and applications can help improve your brand presence, recognition, and trust. This in turn helps reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognise or trust a transaction.
+- Increase brand presence, recognition, and trust.
+- Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognise or trust a transaction.
 
 [Upload your logo](https://logo.ethoca.com/) for the card scheme to display in all participating banking environments and applications. 
+</details>
+<br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

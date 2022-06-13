@@ -33,8 +33,8 @@ For professional advice on reviewing and evaluating potential risks or fraud ind
 
 If you take no action, uncaptured transactions automatically expire after 5 days.
 
-<details id="reviewing-uncaptured-payments">
-<summary>Reviewing uncaptured payments</summary>
+<details id="how-to-review-uncaptured-payments">
+<summary>How to review uncaptured payments</summary>
 <br>
 
 To review uncaptured payments, click the dashboard notification, or:
@@ -163,5 +163,5 @@ Under **History data**, there is information about the number of credit cards us
 [Viewing your uncleared balance](/account/balance/#viewing-your-uncleared-balance)
 <br>
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>
