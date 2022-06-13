@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 208
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'account-currencies'
 ---
 You can process payments in a large number of currencies, provided that they are:
 

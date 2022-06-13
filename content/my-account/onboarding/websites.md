@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 201
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'websites'
 ---
 
 To set up your account, you must add at least one website, for which we generate an API key. 
@@ -20,6 +21,7 @@ To process payments from a website operated by a separate legal entity, you must
     
 <details id="quick-add-website">
 <summary>Quick add website</summary>
+<br>
 
 4. From the **Category** list, select what type of products or services your website sells.
 5. In the **Description** field, enter the website name.  
@@ -32,8 +34,9 @@ To process payments from a website operated by a separate legal entity, you must
 
 Or, for more advanced configuration:
 
-<details id="website-wizard" >
+<details id="website-wizard">
 <summary>Website wizard</summary>
+<br>
 
 1. Enter the website URL in the **Full website URL** field, or select it from the **Select existing site** list, and then click **Continue**.
 2. From the **Website platform** list, select your ecommerce platform.  
@@ -64,7 +67,7 @@ The **Website settings** page contains your:
  - Secure code
  - API key
 
-Copy the API key to start building your integration. The API key also lets you monitor transactions, configure [payouts](/account/payouts/), generate reports, and more. 
+Copy the API key to start building your integration. The API key also lets you monitor transactions, configure [payouts](/payouts/), generate reports, and more. 
 
 **Note:** Website names are displayed on MultiSafepay payment pages and, for some payment methods, on the customer’s bank statement (if supported by their bank).
 

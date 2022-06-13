@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 207
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'logos-icons'
 --- 
 For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
 

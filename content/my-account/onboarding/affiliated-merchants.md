@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 210
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'affiliates'
 ---
 This page describes how partner account holders can manage the accounts of affiliated merchants.
 
