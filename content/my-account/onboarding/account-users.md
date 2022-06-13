@@ -40,7 +40,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. See [User permissions overview](#user-permissions-overview) below.
 7. Click **Add user** in the top-right corner.
 
-</details >
+</details>
 
 ## Two-factor authentication
     
