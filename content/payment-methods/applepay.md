@@ -101,9 +101,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Ready-made integrations** | Apple Pay redirect is supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce, VirtueMart, X-Cart, Zen Cart. |
 <br>
 
-{{< two-buttons href-2="/apple-pay/direct/" text-2="Apple Pay direct integration manual" description-2="Embed Apple Pay in your checkout page for the best user experience" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+To build your own Apple Pay integration, see:
 
-{{< two-buttons href-2="/apple-pay/redirect/" text-2="Apple Pay redirect integration manual" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+- [Apple Pay direct integration](/docs/apple-pay-direct/)
+
+- [Apple Pay direct integration](/docs/apple-pay-redirect/)
 <br>
 
 ---

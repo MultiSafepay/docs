@@ -99,7 +99,8 @@ Different billing and shipping addresses are supported.
 The **Transaction details** page in your dashboard only shows the billing address. To retrieve other details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder).
 
 ### Collection period
-If the customer returns some items from the order and this takes a long time to verify, you can pauze the collection period for 2 to 4 weeks. 
+If the customer returns some items from the order and this takes a long time to verify, you can pause the collection period for 2 to 4 weeks. 
+
 
 Phone **+31 207 230 230** or email <merchant@afterpay.com> 
 

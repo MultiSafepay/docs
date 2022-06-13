@@ -6,9 +6,10 @@ hidden: false
 parentDoc: 62a1c6c5612f5700137f3640
 slug: /payment-methods/ing-home-pay/
 ---
-> .callout_error 
-
+> ❗️ Discontinued
+>
 > ING discontinued Home'Pay on December 6, 2021. 
+
 
 ## What you need to do
 

@@ -101,7 +101,8 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 ## Collection period
 
-If the return process takes too long to verify, you can pauze the collection period for 2–4 weeks. 
+If the return process takes too long to verify, you can pause the collection period for 2–4 weeks. 
+
 
 Have your Betaal per Maand client number ready, and email <klantenservice@santander.nl>
 
