@@ -90,4 +90,4 @@ A dialog requesting a 6-digit token appears.
 
 > 📘 **Support**
 
-Email <support@multisafepay.com>
+> Email <support@multisafepay.com>
