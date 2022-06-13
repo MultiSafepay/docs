@@ -1,22 +1,18 @@
 ---
 title: "Apple Pay redirect integration"
-breadcrumb_title: 'Redirect integration'
-weight: 30
-meta_title: "Apple Pay redirect - Integration and testing - MultiSafepay Docs"
-short_description: "Integrating and testing Apple Pay redirect"
-layout: 'single'
-url: '/apple-pay/redirect/'
-aliases:
-    - /payments/methods/wallet/applepay/redirect-integration
-    - /payment-methods/apple-pay/redirect/
+category: 6298bd782d1cf4006032e765
+order: 504
+hidden: false
+slug: 'apple-pay-redirect'
+parentDoc: 62a6ec51d7a8100053916d99
 ---
 
 With redirect integration, customers are redirected to a [payment page](/payment-pages/) to complete payment.
 
-## API
+# API
 [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Apple Pay redirect.
 
-### Detecting Apple Pay on the customer's device
+# Detecting Apple Pay on the customer's device
 
 If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, check whether Apple Pay is supported on the customer's device before creating the payment page.
 

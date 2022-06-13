@@ -131,5 +131,5 @@ To match orders in your accounting system with your MultiSafepay account, use th
 
 ## Refunds
 
-[Full and partial refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/refunds/) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.

@@ -259,7 +259,7 @@ You need to [enable recurring payments](/recurring-payments/) in your MultiSafep
 
 ## Refunds
 
-You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/pay-later) for which you can only process full refunds.
+You can process [Full and partial refunds](/refunds/) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
 
 ## Shipping orders
 

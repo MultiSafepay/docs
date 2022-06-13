@@ -1,26 +1,25 @@
 ---
-title : "Customizing payment components"
-meta_title: "Customizing payment components - MultiSafepay Docs"
-layout: 'single'
-read_more: '.'
-weight: 3
-url: '/payment-components/customization/'
+title : 'Payment component customization manual'
+category: 6278c92bf4ad4a00361431b0
+order: 303
+hidden: false
+slug: 'payment-component-customization'
+parentDoc: 62a848399bb3eb004023f291
 ---
-
 After integrating the payment component, the default user interface (UI) styling is applied. 
 
 You can customize the styling to match your brand's visual identity, including fonts, colors, and layout. 
 
-## Customizing the UI
+# How to customize the UI
 
 To edit the default styling of the component:
 
 1. Select each CSS class you want to edit.
 2. Add the relevant [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) and set the values. 
 
-### CSS class selectors
-
-{{< details title="CSS class selectors" >}}
+<details id="css-class-selectors">
+<summary>CSS class selectors</summary>
+<br>
 
 |CSS class|What it does|
 |---|---|
@@ -35,11 +34,11 @@ To edit the default styling of the component:
 |`.msp-ui-col-2`|Contains `.msp-ui-form-group`|
 |`.msp-ui-separator`|Selects the space before and after the form fields|
 
-{{< /details >}}
+</details>
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/CCC_CSS.svg" align="center" class="medium-img desktop-radius" >}}
+<img src=""https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/CCC_CSS.svg" align ="center"/>
 
-### Example
+## Example
 
 Add the following to your CSS to edit the payment component to add a: 
 
@@ -48,24 +47,25 @@ Add the following to your CSS to edit the payment component to add a:
 - 10-pixel `border-radius` to the component container
 - Light grey `background-color` to the component container
 
-```
-.msp-ui-form-control {
-  border-radius: 5px
-}
+  ```
+  .msp-ui-form-control {
+    border-radius: 5px
+  }
 
-.msp-ui-form-control:focus {
-  box-shadow: 0 7px 7px rgba(0, 15, 45, 0.2)
-}
+  .msp-ui-form-control:focus {
+    box-shadow: 0 7px 7px rgba(0, 15, 45, 0.2)
+  }
 
-.msp-container-ui {
-  border-radius: 10px;
-  background-color: #f8f9fa;
-}
-```
-{{< br >}}
+  .msp-container-ui {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+  }
+  ```
 
 The payment component now looks like this:
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Payment-Component.png" align="center" class="medium-img desktop-radius" >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Payment-Component.png" align ="center"/>
+<br>
 
-{{< two-buttons href-1="/payment-components/" header-1="Overview" text-1="Payment components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
+> 📘 **More info**
+> For more information or support, email <integration@multisafepay.com>

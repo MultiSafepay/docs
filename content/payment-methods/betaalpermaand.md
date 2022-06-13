@@ -18,7 +18,7 @@ See how Betaal per Maand can [benefit your business](https://www.multisafepay.co
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial refunds](/refunds/#full-and-partial-refunds) |
+| **Refunds** | [Full and partial refunds](/refunds/) |
 | **Amount limits** | Minimum amout: 250 EUR, maximum amount: 8000 EUR |
 | **Transactions expire after** | 1 day |
 
@@ -53,7 +53,6 @@ sequenceDiagram
     Mu->>Me: Settles funds within 5 business days
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -73,7 +72,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | The customer has been redirected to Santander. <br> To cancel, email <support@multisafepay.com> | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
 | Santander has authorized the transaction and the funds are awaiting capture. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Track-and-trace codes](#track-and-trace-codes)).  | Shipped | Uncleared |
+| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Track-and-trace codes](#track-and-trace-codes) below).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
@@ -88,11 +87,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Betaal per Maand activation](/payments/activating-payment-methods/#betaal-per-maand) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
+| **Activation** | [Betaal per Maand activation](/payment-methods/#betaal-per-maand) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions)  |
 | **Testing** | You cannot test Betaal per Maand in your MultiSafepay test account. <br> When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live. |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Betaal per Maand direct/redirect |
-| **Ready-made integrations** | Supported in the following [ready-made integrations](/integrations/ready-made/) [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | Supported in the following [ready-made integrations](/integrations/ready-made/) [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
 <br>
 
 ---
@@ -102,7 +101,6 @@ For more information, see [Payment statuses](/payment-statuses/).
 ## Collection period
 
 If the return process takes too long to verify, you can pause the collection period for 2–4 weeks. 
-
 
 Have your Betaal per Maand client number ready, and email <klantenservice@santander.nl>
 
@@ -114,7 +112,7 @@ This is because Santander collects and require precise order specifications. Our
 
 You are solely responsible for this in your integration.
 
-## Known errors
+## Known error
 
 The customer's first and last name, and the delivery details must be at least 2 characters long. Anything shorter can cause errors. 
 
@@ -135,7 +133,7 @@ You can still change an order between approval from Santander and shipment.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Under **Order summary**, click **Change order status**.
 5. Change the status of the initial order to **Shipped**, and then add a **Memo**.
-6. Refund the required amount [in full or in part](/refunds/#full-and-partial-refunds). 
+6. Refund the required amount [in full or in part](/refunds/). 
 
 You cannot increase the amount of the initial order by default. Email a request to <sales@multisafepay.com>
 

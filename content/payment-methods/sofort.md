@@ -18,7 +18,7 @@ See how Sofort can [benefit your business](https://www.multisafepay.com/solution
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> :warning: Transactions processed in non-supported countries return a [1024 error](/errors/handling-errors/#error-1024-transaction-refused).  | 
 | **Currencies**  | EUR (GBP, CHF, PLN **not** supported) | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
+| **Refunds** | [Full and partial](/refunds/)  |
 | **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) |
 | **Transactions expire after** | 1 day |
 | **Minimum amount** | 0,10 EUR |
@@ -49,7 +49,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -84,9 +83,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Sofort direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>
