@@ -1,9 +1,10 @@
 ---
-title : "MultiSafepay balance"
+title : "Account balance"
 category: 62962dcdbccb9a001d4bbc81
 order: 203
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'account-balance'
 ---
 
 Your MultiSafepay balance is the balance of funds held in your MultiSafepay account.

@@ -4,6 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 202 
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: 'account-users'
 ---
 
 Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same secure code. You can disable but not delete users.
