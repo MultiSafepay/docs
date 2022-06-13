@@ -3,8 +3,8 @@ title : "Card errors"
 category: 6298bd782d1cf4006032e765
 order: 204
 hidden: false
-parentDoc: 62a1ec1f88f3e0021fe91008
-slug: /cards/errors/
+parentDoc: 62a727569e389a012f577acd
+slug: errors
 ---
 
 This page sets out reason codes for common credit card errors returned by issuers and recommended actions to take. 

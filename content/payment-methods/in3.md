@@ -3,8 +3,8 @@ title: 'in3'
 category: 6298bd782d1cf4006032e765
 order: 304
 hidden: false
-parentDoc: 62a2063dbaaa1b0035d9d44c
-slug: /payment-methods/in3/
+parentDoc: 62a727567164d301522a67da
+slug: in3
 ---
 [in3](https://payin3.eu/en/) is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one.
 

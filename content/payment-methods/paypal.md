@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 504
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: /payment-methods/paypal/
+slug: paypal
 ---
 [PayPal](https://www.paypal.com/nl/home) is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
 

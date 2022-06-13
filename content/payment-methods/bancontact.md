@@ -2,8 +2,9 @@
 title: 'Bancontact'
 category: 6298bd782d1cf4006032e765
 order: 101
+hidden: false
 parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/bancontact/
+slug: bancontact
 ---
 [Bancontact](https://www.bancontact.com/en) is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
 

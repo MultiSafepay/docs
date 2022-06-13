@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 502
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: /payment-methods/apple-pay/
+slug: apple-pay
 ---
 [Apple Pay](https://www.apple.com/apple-pay/) is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. 
 

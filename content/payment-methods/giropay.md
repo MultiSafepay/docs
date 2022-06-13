@@ -3,8 +3,8 @@ title: 'Giropay'
 category: 6298bd782d1cf4006032e765
 order: 109
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/giropay/
+parentDoc: 62a728d48b97080046c1d220
+slug: giropay
 ---
 [Giropay](https://www.giropay.de/) is the leading inter-bank payment method in Germany, connecting all major German retail banks. 
 Customers pay from their own online banking environment. Settlement is instant and guaranteed.

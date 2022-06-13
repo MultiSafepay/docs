@@ -1,10 +1,10 @@
 ---
 title: 'Dotpay'
-wcategory: 6298bd782d1cf4006032e765
+category: 6298bd782d1cf4006032e765
 order: 107
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/dotpay/
+parentDoc: 62a728d48b97080046c1d220
+slug: dotpay
 ---
 
 Dotpay is an inter-bank payment method that links all major Polish retail banks. 

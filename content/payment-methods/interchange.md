@@ -3,8 +3,8 @@ title : 'Interchange++'
 category: 6298bd782d1cf4006032e765
 order: 205
 hidden: false
-parentDoc: 62a1ec1f88f3e0021fe91008
-slug: /cards/interchange/
+parentDoc: 62a727569e389a012f577acd
+slug: interchange
 ---
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.

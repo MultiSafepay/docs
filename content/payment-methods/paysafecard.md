@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 403
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: /payment-methods/paysafecard/
+slug: paysafecard
 ---
 [Paysafecard](https://www.paysafecard.com/en/) lets customers make online payments using secure prepaid vouchers, available for purchase locally. 
 The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. 

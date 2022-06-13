@@ -3,8 +3,8 @@ title: 'Pay After Delivery'
 category: 6298bd782d1cf4006032e765
 order: 306
 hidden: false
-parentDoc: 62a2063dbaaa1b0035d9d44c
-slug: /payment-methods/pay-after-delivery/
+parentDoc: 62a727567164d301522a67da
+slug: pay-after-delivery
 ---
 Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. 
 

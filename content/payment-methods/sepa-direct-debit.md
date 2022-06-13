@@ -3,8 +3,8 @@ title: 'SEPA Direct Debit'
 category: 6298bd782d1cf4006032e765
 order: 113
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/sepa-direct-debit/
+parentDoc: 62a728d48b97080046c1d220
+slug: sepa-direct-debit
 ---
 SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 

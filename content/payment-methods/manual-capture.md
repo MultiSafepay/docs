@@ -3,8 +3,8 @@ title: 'Manual Capture'
 category: 6298bd782d1cf4006032e765
 order: 206
 hidden: false
-parentDoc: 62a1ec1f88f3e0021fe91008
-slug: /cards/manual-capture/
+parentDoc: 62a727569e389a012f577acd
+slug: manual-capture
 ---
 Manual Capture is a MultiSafepay solution that reduces your risk by letting you capture credit card payments either partially or in full when you ship the order. 
 

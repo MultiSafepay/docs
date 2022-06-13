@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 401
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: /payment-methods/edenred/
+slug: edenred
 ---
 [Edenred](https://www.edenred.be/nl) lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
 

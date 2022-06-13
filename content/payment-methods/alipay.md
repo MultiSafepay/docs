@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 501
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: /payment-methods/alipay/
+slug: alipay
 ---
 [Alipay](https://global.alipay.com/platform/site/ihome) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
 

@@ -3,8 +3,8 @@ title: 'E-Invoicing'
 category: 6298bd782d1cf4006032e765
 order: 303
 hidden: false
-parentDoc: 62a2063dbaaa1b0035d9d44c
-slug: /payment-methods/e-invoicing/
+parentDoc: 62a727567164d301522a67da
+slug: e-invoicing
 ---
 E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 

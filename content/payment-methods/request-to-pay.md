@@ -3,8 +3,8 @@ title: 'Request to Pay'
 category: 6298bd782d1cf4006032e765
 order: 112
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/request-to-pay/
+parentDoc: 62a728d48b97080046c1d220
+slug: request-to-pay
 ---
 Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking API. Customers are redirected to Deutsche Bank online banking to authenticate themselves, and authorize a secure SEPA transfer. Settlement is instant (if supported) or within 24 hours. 
 

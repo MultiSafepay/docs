@@ -1,9 +1,10 @@
 ---
 title: 'Bank Transfer'
 category: 6298bd782d1cf4006032e765
+parentDoc: 62a728d48b97080046c1d220
 order: 102
 hidden: false
-slug: /payment-methods/bank-transfer/
+slug: bank-transfer
 ---
 Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, international banking method. 
 Customers can make any type of online payment in euros within the SEPA area. 
@@ -209,7 +210,7 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 
 </details>
 
-See this guidance in [Dutch](/bank-transfer/ongematchte-bankoverschrijvingen/) or [German](/bank-transfer/unzugeordneten-banküberweisungen/).
+See this guidance in [Dutch](/docs/ongematchte-bankoverschrijvingen) or [German](/docs/unzugeordneten-banküberweisungen).
 
 ## Stock issues
 

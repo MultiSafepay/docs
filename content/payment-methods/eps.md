@@ -3,8 +3,8 @@ title: 'EPS'
 category: 6298bd782d1cf4006032e765
 order: 108
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/eps/
+parentDoc: 62a728d48b97080046c1d220
+slug: eps
 ---
 EPS is a widely accepted inter-bank payment method that links all major Austrian retail banks. 
 Customers pay in their own online banking environment. Settlement is instant and guaranteed.

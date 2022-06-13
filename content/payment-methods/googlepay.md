@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 503
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: /payment-methods/google-pay/
+slug: google-pay
 ---
 Google Pay™ is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account.
 

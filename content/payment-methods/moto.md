@@ -3,8 +3,8 @@ title : 'MOTO'
 category: 6298bd782d1cf4006032e765
 order: 207
 hidden: false
-parentDoc: 62a1ec1f88f3e0021fe91008
-slug: /cards/moto/
+parentDoc: 62a727569e389a012f577acd
+slug: moto
 ---
 
 Mail Order/Telephone Order (MOTO) is a MultiSafepay solution that lets you process card-not-present payments over the phone or by email. 

@@ -3,8 +3,8 @@ title: 'CBC/KBC'
 category: 6298bd782d1cf4006032e765
 order: 106
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/cbc-kbc/
+parentDoc: 62a728d48b97080046c1d220
+slug: cbc-kbc
 ---
 An online banking payment method of two of Belgium's largest banks: CBC which serves the French speaking population, and KBC which serves the Dutch-speaking population.
 

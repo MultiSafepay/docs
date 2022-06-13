@@ -3,8 +3,8 @@ title: 'AfterPay'
 category: 6298bd782d1cf4006032e765
 order: 301
 hidden: false
-parentDoc: 62a2063dbaaa1b0035d9d44c
-slug: /payment-methods/afterpay/
+parentDoc: 62a727567164d301522a67da
+slug: afterpay
 ---
 [AfterPay](https://www.afterpay.nl/en/) is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 
