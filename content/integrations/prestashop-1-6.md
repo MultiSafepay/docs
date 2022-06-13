@@ -5,12 +5,13 @@ order: 104
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Prestashop 1.6."
+slug: 'prestashop-1-6'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 > [Download](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip) :arrow-down:
 
-<details id="Changelog">
+<details id="changelog">
 <summary>Changelog</summary>
 <br>
 
@@ -413,29 +414,29 @@ PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that t
 
 This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip). New features might be lost when downgrading.
 
-</details >
+</details>
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Pay later methods: [All](/payment-methods/pay-later/), except Betaal per Maand
-- Wallets: [Alipay](/payment-methods/alipay/), [Apple Pay](/payment-methods/apple-pay/), [PayPal](/payment-methods/paypal/)
+- Cards: [All](/credit-debit-cards/)
+- Pay later methods: [All](/pay-later/), except Betaal per Maand
+- Wallets: [Alipay](/alipay/), [Apple Pay](/apple-pay/), [PayPal](/paypal/)
 - Banking methods: 
-    - [Bancontact](/payment-methods/bancontact/)
-    - [Bank Transfer](/payment-methods/bank-transfer)
-    - [Belfius](/payment-methods/belfius/)
-    - [CBC/KBC](/payment-methods/cbc-kbc/)
-    - [Dotpay](/payment-methods/dotpay/)
-    - [EPS](/payment-methods/eps/)
-    - [Giropay](/payment-methods/giropay/)
-    - [iDEAL](/payment-methods/ideal/)
-    - [Request to Pay](/payment-methods/request-to-pay/)
-    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit/)
-    - [Sofort](/payment-methods/sofort/)
+    - [Bancontact](/bancontact/)
+    - [Bank Transfer](/bank-transfer)
+    - [Belfius](/belfius/)
+    - [CBC/KBC](/cbc-kbc/)
+    - [Dotpay](/dotpay/)
+    - [EPS](/eps/)
+    - [Giropay](/giropay/)
+    - [iDEAL](/ideal/)
+    - [Request to Pay](/request-to-pay/)
+    - [SEPA Direct Debit](/sepa-direct-debit/)
+    - [Sofort](/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - Boekenbon
@@ -466,7 +467,7 @@ In Prestashop 1.6, the order ID is generated after the payment, which causes a m
 1. Sign in to your Prestashop 1.6 backend.
 2. Go to **Payment** > **Order details**. 
 
-</details >
+</details>
 
 ## Payment links
 
@@ -478,7 +479,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 <summary>Enabling recurring payments</summary>
 <br>
 
-To enable [recurring payments](/features/recurring-payments), follow these steps:
+To enable [recurring payments](/recurring-payments), follow these steps:
 
 1. Sign in to your PrestaShop 1.6 backend. 
 2. Go to **Modules and services** > **Modules and services** > **MultiSafepay**.
@@ -486,7 +487,7 @@ To enable [recurring payments](/features/recurring-payments), follow these steps
 4. Set the **Tokenization** field to **YES**.
 5. Click **Save**.
 
-</details >
+</details>
 
 ## Refunds
 
@@ -507,7 +508,7 @@ The Integration Team will do their best to support you with installing BVK, but 
 
 **Attention Dutch merchants** 
 
- We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+ We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
 
 </details>
 

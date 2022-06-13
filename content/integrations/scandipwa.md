@@ -5,6 +5,7 @@ order: 116
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with ScandiPWA on Magento 2."
+slug: 'scandipwa'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -37,14 +38,14 @@ For support:
 
 </details>
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [All](/payment-methods/wallets/)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/)
+- Pay later methods: [All](/pay-later/)
+- Wallets: [All](/wallets/)
 - Prepaid cards:
     - Baby gift card
     - Beauty and Wellness gift card

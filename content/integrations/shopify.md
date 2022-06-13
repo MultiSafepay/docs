@@ -5,6 +5,7 @@ order: 105
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free app to integrate MultiSafepay payment solutions with Shopify."
+slug: 'shopify'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -102,25 +103,25 @@ Payments are processed in the webshop's default currency only.
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
-- Prepaid cards: [Paysafecard](/payment-methods/paysafecard)
+- Cards: [All](/credit-debit-cards/)
+- Wallets: [Alipay](/alipay), [PayPal](/paypal)
+- Prepaid cards: [Paysafecard](/paysafecard)
 - Banking methods: 
-  - [Bancontact](/payment-methods/bancontact)
-  - [Bank Transfer](/payment-methods/bank-transfer)
-  - [Belfius](/payment-methods/belfius)
-  - [CBC/KBC](/payment-methods/cbc-kbc)
-  - [Dotpay](/payment-methods/dotpay)
-  - [EPS](/payment-methods/eps)
-  - [Giropay](/payment-methods/giropay)
-  - [iDEAL and iDEAL QR](/payment-methods/ideal)
-  - [Request to Pay](/payment-methods/request-to-pay)
-  - [Sofort](/payment-methods/sofort)
-  - [Trustly](/payment-methods/trustly)
+  - [Bancontact](/bancontact)
+  - [Bank Transfer](/bank-transfer)
+  - [Belfius](/belfius)
+  - [CBC/KBC](/cbc-kbc)
+  - [Dotpay](/dotpay)
+  - [EPS](/eps)
+  - [Giropay](/giropay)
+  - [iDEAL and iDEAL QR](/ideal)
+  - [Request to Pay](/request-to-pay)
+  - [Sofort](/sofort)
+  - [Trustly](/trustly)
 
 </details> 
 

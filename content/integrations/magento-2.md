@@ -5,6 +5,7 @@ order: 102
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Magento 2."
+slug: 'magento-2'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_2.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -39,7 +40,7 @@ Contact us:
 
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
-</details >
+</details>
 
 # Modules
 
@@ -118,7 +119,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
     - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
 - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
     - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
-    - For more information, see [Gift cards](/payment-methods/gift-cards).
+    - For more information, see [Gift cards](/gift-cards).
 
 </details>
 
@@ -140,7 +141,7 @@ The plugin is compatible with most Magento checkouts.
 
 For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
-</details >
+</details>
 
 ## Custom totals
 
@@ -187,7 +188,7 @@ For support, email <integration@multisafepay.com>
 
 ## Logs
 
-<details id="downloading-multiSafepay-logs" >
+<details id="downloading-multiSafepay-logs">
 <summary>Downloading MultiSafepay logs</summary>
 <br>
 
@@ -203,7 +204,7 @@ You receive a ZIP package containing a system report file and any MultiSafepay l
 
 Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your conversion. 
 
-<details title="how-it-works">
+<details id="how-it-works">
 <summary>How it works</summary>
 <br>
 
@@ -215,7 +216,7 @@ Magento Vault enables you to use [Instant purchase](https://magento.com/innovati
 
 </details>
 
-<details id="mastercard-and-visa-requirements" >
+<details id="mastercard-and-visa-requirements">
 <summary>Mastercard and Visa requirements</summary>
 <br>
 
@@ -364,10 +365,10 @@ You cannot add payment links to order confirmation emails created in your **fron
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [All](/payment-methods/wallets/)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/)
+- Pay later methods: [All](/pay-later/)
+- Wallets: [All](/wallets/)
 - Prepaid cards:
     - Baby gift card
     - Beauty and Wellness gift card
@@ -402,7 +403,7 @@ We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](
 
 ## Refunds
 
-<details id="refund-rules" >
+<details id="refund-rules">
 <summary>Refund rules</summary>
 <br>
 
@@ -450,7 +451,7 @@ See [Setting order lifetimes](#order-lifetimes) above.
 
 ## Shipping orders
 
-When you ship [pay later](/payment-methods/pay-later/) orders, you need to change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship [pay later](/pay-later/) orders, you need to change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
@@ -458,7 +459,7 @@ If you do so in your Magento 2 backend, the updated status is passed to your Mul
 
 The plugin does not support [surcharges](/surcharges/), but you can use third-party service Fooman to apply them. 
 
-<details id="Using-fooman-for-surcharges">
+<details id="using-fooman-for-surcharges">
 <summary>Using Fooman for surcharges</summary>
 <br>
 
@@ -470,7 +471,7 @@ You can refund orders with a Fooman surcharge applied in your MultiSafepay dashb
 
 **Pay later methods**
 
-For Dutch merchants, We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+For Dutch merchants, We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
 
 **Support**
 
@@ -669,4 +670,4 @@ rm -rf Connect
 **Marketplace**
 
 If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
-</details >
+</details>

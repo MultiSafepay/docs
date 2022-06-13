@@ -4,7 +4,8 @@ category: 62962dd7e272a6002ebbbbc5
 order: 109
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
-excerpt: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop."
+excerpt: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop."]
+slug: 'cs-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/CS-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -62,7 +63,7 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
@@ -101,7 +102,7 @@ You can apply surcharges when configuring the payment method under **Surcharge**
 
 **Attention Dutch merchants**  
 
-We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

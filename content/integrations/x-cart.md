@@ -5,6 +5,7 @@ order: 119
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with X-Cart."
+slug: 'x-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/X-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -64,14 +65,14 @@ Make sure you enter the correct API key for the account type you want to use.
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/cards/)
-- Banking methods: [All](/payment-methods/banks/), except Request to Pay
-- Pay later methods: [All](/payment-methods/pay-later/), except in3
-- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/cards/)
+- Banking methods: [All](/banks/), except Request to Pay
+- Pay later methods: [All](/pay-later/), except in3
+- Wallets: [Alipay](/alipay), [PayPal](/paypal)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -81,7 +82,7 @@ Make sure you enter the correct API key for the account type you want to use.
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -102,7 +103,7 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 

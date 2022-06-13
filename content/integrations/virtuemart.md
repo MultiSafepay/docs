@@ -5,6 +5,7 @@ order: 117
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Virtuemart."
+slug: 'virtuemart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -70,7 +71,7 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
@@ -110,7 +111,7 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend and the CMS marketplace, via SFTP.
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 

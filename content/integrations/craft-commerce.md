@@ -5,6 +5,7 @@ order: 108
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop."
+slug: 'craft-commerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -69,7 +70,7 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -82,7 +83,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 

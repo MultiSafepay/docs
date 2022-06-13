@@ -5,6 +5,7 @@ order: 112
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Odoo."
+slug: 'odoo'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Odoo.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
@@ -75,7 +76,7 @@ The plugin receives regular updates from Odoo and MultiSafepay.
     Make sure the relevant payment methods are activated for your account.
 10. Configure each payment method separately
 
-<details id="payment-methods-settings" >
+<details id="payment-methods-settings">
 <summary>Payment methods settings</summary>
 <br>
 
@@ -94,7 +95,7 @@ The plugin receives regular updates from Odoo and MultiSafepay.
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -107,25 +108,25 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/)
+- Pay later methods: [All](/pay-later/)
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Banking methods:
-    - [Bancontact](/payment-methods/bancontact)
-    - [Bank Transfer](/payment-methods/bank-transfer)
-    - [Belfius](/payment-methods/belfius)
-    - [CBC/KBC](/payment-methods/cbc-kbc)
-    - [Dotpay](/payment-methods/dotpay)
-    - [EPS](/payment-methods/eps)
-    - [Giropay](/payment-methods/giropay)
-    - [iDEAL](/payment-methods/ideal)
-    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-    - [Sofort](/payment-methods/sofort)
-    - [Trustly](/payment-methods/trustly)
+    - [Bancontact](/bancontact)
+    - [Bank Transfer](/bank-transfer)
+    - [Belfius](/belfius)
+    - [CBC/KBC](/cbc-kbc)
+    - [Dotpay](/dotpay)
+    - [EPS](/eps)
+    - [Giropay](/giropay)
+    - [iDEAL](/ideal)
+    - [SEPA Direct Debit](/sepa-direct-debit)
+    - [Sofort](/sofort)
+    - [Trustly](/trustly)
 
 </details>
 

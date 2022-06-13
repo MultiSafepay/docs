@@ -5,6 +5,7 @@ order: 113
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with OpenCart."
+slug: 'opencart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OpenCart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -95,7 +96,7 @@ The Integration Team will do their best to provide support for third-party plugi
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards. 
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -117,7 +118,7 @@ You can filter payment methods by:
 - Maximum amount
 - Customer groups
 
-Full and partial refunds (except for [pay later](/payment-methods/pay-later/) methods), and backend orders are fully supported. You can also set a custom initial order status.
+Full and partial refunds (except for [pay later](/pay-later/) methods), and backend orders are fully supported. You can also set a custom initial order status.
 
 </details>
 
@@ -151,14 +152,14 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/) 
-- Banking methods: [All](/payment-methods/banks/), except TrustPay
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/) 
+- Banking methods: [All](/banks/), except TrustPay
+- Pay later methods: [All](/pay-later/)
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Prepaid cards:
     - [Baby Cadeaubon](https://www.babycadeaubon.nl)
     - Beauty & Wellness
@@ -169,7 +170,7 @@ The customer receives the payment link in the email sent by OpenCart containing 
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -206,7 +207,7 @@ As a temporary solution, you can disable payments with shopping carts.
 <summary>Disabling shopping carts</summary>
 <br>
 
-**Alert:** This disables all [pay later methods](/payment-methods/pay-later/).
+**Alert:** This disables all [pay later methods](/pay-later/).
 
 1. Sign in to your OpenCart backend.
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.
@@ -222,7 +223,7 @@ As a temporary solution, you can disable payments with shopping carts.
 Email <integration@multisafepay.com> 
 
 **Attention Dutch merchants**
-We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

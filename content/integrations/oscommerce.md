@@ -5,6 +5,7 @@ order: 114
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with OsCommerce."
+slug: 'oscommerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OsCommerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -123,23 +124,23 @@ Contact MultiSafepay:
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Pay later methods: [E-Invoicing](/payment-methods/e-invoicing), [Klarna](/payment-methods/klarna), [Pay After Delivery](/payment-methods/pay-after-delivery)
-- Wallets: [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/)
+- Pay later methods: [E-Invoicing](/e-invoicing), [Klarna](/klarna), [Pay After Delivery](/pay-after-delivery)
+- Wallets: [PayPal](/paypal)
 - Banking methods:
-    - [Bancontact](/payment-methods/bancontact)
-    - [Bank Transfer](/payment-methods/bank-transfer)
-    - [CBC/KBC](/payment-methods/cbc-kbc)
-    - [Dotpay](/payment-methods/dotpay)
-    - [EPS](/payment-methods/eps)
-    - [Giropay](/payment-methods/giropay)
-    - [iDEAL](/payment-methods/ideal)
-    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-    - [Sofort](/payment-methods/sofort)
+    - [Bancontact](/bancontact)
+    - [Bank Transfer](/bank-transfer)
+    - [CBC/KBC](/cbc-kbc)
+    - [Dotpay](/dotpay)
+    - [EPS](/eps)
+    - [Giropay](/giropay)
+    - [iDEAL](/ideal)
+    - [SEPA Direct Debit](/sepa-direct-debit)
+    - [Sofort](/sofort)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)

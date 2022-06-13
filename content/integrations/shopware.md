@@ -5,6 +5,7 @@ order: 106
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugins to integrate MultiSafepay payment solutions with Shopware."
+slug: 'shopware'
 ---
 
 # Shopware 6
@@ -77,7 +78,7 @@ composer require multisafepay/shopware6
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -91,14 +92,14 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/), except iDEAL QR
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/), except iDEAL QR
+- Pay later methods: [All](/pay-later/)
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -108,7 +109,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -122,11 +123,11 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Recurring payments
 
-You need to [enable recurring payments](/features/recurring-payments) in your MultiSafepay dashboard and then in the gateway settings. 
+You need to [enable recurring payments](/recurring-payments) in your MultiSafepay dashboard and then in the gateway settings. 
 
 ### Refunds
 
-[Full and partial refunds](/refunds/#full-and-partial-refunds) **except** for [pay later methods](/payment-methods/pay-later) are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/refunds/#full-and-partial-refunds) **except** for [pay later methods](/pay-later) are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 <details id="processing-backend-refunds">
@@ -142,7 +143,7 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend and the CMS marketplace, or via using SFTP.
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 
@@ -208,7 +209,7 @@ Contact us:
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -216,7 +217,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 2. Go to **MultiSafepay settings**.
 3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
 4. Upload a custom gateway image, if relevant.
-5. For [pay later](/payment-methods/pay-later/) methods, specify whether to include a shopping cart.
+5. For [pay later](/pay-later/) methods, specify whether to include a shopping cart.
 
 For support, email <integration@multisafepay.com>
 
@@ -226,14 +227,14 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/)
+- Pay later methods: [All](/pay-later/)
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -244,7 +245,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
     - [Good4fun](https://www.good4fun.nl)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -258,7 +259,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Refunds
 
-You can process [full refunds](/refunds/#full-and-partial-refunds) for all Shopware 5 payment methods **except** [pay later methods](/payment-methods/pay-later) from your MultiSafepay dashboard and backend.  
+You can process [full refunds](/refunds/#full-and-partial-refunds) for all Shopware 5 payment methods **except** [pay later methods](/pay-later) from your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 ### Session data
@@ -284,7 +285,7 @@ For more information, see Shopware – [Blocking transactions](https://developer
 
 ### Shipping orders
 
-For [pay later](/payments/methods/pay-later/) orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For [pay later](/pay-later/) orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the order status to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
@@ -300,7 +301,7 @@ The transaction number is generated when the transaction is initialized. MultiSa
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 

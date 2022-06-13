@@ -5,6 +5,7 @@ order: 103
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Prestashop 1.7."
+slug: 'prestashop-1-7'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -88,7 +89,7 @@ The Integration Team will do their best to provide support for third-party plugi
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards. 
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -149,7 +150,7 @@ The plugin supports [payment components](/payment-components/), which:
 
 - Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/pci-dss) to MultiSafepay.
 
 <details id="activating-payment-components">
 <summary>Activating payment components</summary>
@@ -170,14 +171,14 @@ For support, email <integration@multisafepay.com>
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [All](/payment-methods/wallets/)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/)
+- Pay later methods: [All](/pay-later/)
+- Wallets: [All](/wallets/)
 - Prepaid cards:
     - Baby Giftcard
     - Beauty and wellness
@@ -202,7 +203,7 @@ For support, email <integration@multisafepay.com>
     - Winkelcheque
     - Yourgift
 
-</details >
+</details>
 
 ## Recurring payments
 
@@ -224,7 +225,7 @@ To enable [Recurring Payments](/features/recurring-payments), follow these steps
 ## Refunds
 
 [Full and partial refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
-[Pay later refunds](/payment-methods/pay-later/) are only supported in your dashboard.
+[Pay later refunds](/pay-later/) are only supported in your dashboard.
     
 <details id="disabling-api-refunds">
 <summary>Disabling API refunds</summary>
@@ -238,7 +239,7 @@ By default, refunds initiated in your backend are automatically processed via ou
 2. Go to **MultiSafepay module** > **Manage hooks**.
 3. Select **Display non-positionable hooks**.
 4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
-</details >
+</details>
 
 ## Shopping carts
 
@@ -271,7 +272,7 @@ There are several [third-party add-ons](https://addons.prestashop.com/en/search?
 
 **Attention Dutch merchants** 
 
-We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -295,11 +296,11 @@ To translate the names of payment methods:
 2. Select the payment method you want to translate.
 3. Make sure the **Title** field is empty.
 
-</details >
+</details>
 
 ## Updates
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 

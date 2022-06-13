@@ -5,6 +5,7 @@ order: 107
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions into your WooCommerce webshop."
+slug: 'woocommerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -73,14 +74,14 @@ There are two ways to install the plugin:
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
 1. Sign in to your backend.
 2. Go to **Settings** > **Payments** tab > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids), and the gateway logo and label.
-4. For [pay later](/payment-methods/pay-later/) methods, include the shopping cart in refunds.
+4. For [pay later](/pay-later/) methods, include the shopping cart in refunds.
 
 You can:
 
@@ -182,7 +183,7 @@ The plugin supports [payment components](/payment-components/), which:
 
 - Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/pci-dss) to MultiSafepay.
 
 <details id="activating-payment-components">
 <summary>Activating payment components</summary>
@@ -220,14 +221,14 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
-- Banking methods: [All](/payment-methods/banks/), except TrustPay
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+- Banking methods: [All](/banks/), except TrustPay
+- Pay later methods: [All](/pay-later/)
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Prepaid cards:
     - Baby Cadeaubon
     - Beauty and Wellness gift card
@@ -240,7 +241,7 @@ To generate a payment link in your backend once an order is created, follow thes
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -254,15 +255,15 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Recurring payments
 
-You need to [enable recurring payments](/features/recurring-payments/) in your MultiSafepay dashboard and then in the plugin settings.
+You need to [enable recurring payments](/recurring-payments/) in your MultiSafepay dashboard and then in the plugin settings.
 
 ## Refunds
 
-You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
+You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/pay-later) for which you can only process full refunds.
 
 ## Shipping orders
 
-For [pay later](/payment-methods/pay-later/) orders, after shipment, you must change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
+For [pay later](/pay-later/) orders, after shipment, you must change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the order status to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
@@ -281,14 +282,14 @@ The Integration Team will do their best to help you install third-party packages
 
 **Attention Dutch merchants** 
 
-We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 </details>
 
 ## Updates
 
 You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 

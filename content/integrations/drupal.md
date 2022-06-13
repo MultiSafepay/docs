@@ -5,6 +5,7 @@ order: 110
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugins to integrate MultiSafepay payment solutions with Drupal 7, 8 & 9."
+slug: 'drupal'
 ---
 # Drupal 8 & 9
 
@@ -70,7 +71,7 @@ composer require drupal/commerce_multisafepay_payments
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -82,14 +83,14 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ### Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/), **except** in3
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/)
+- Pay later methods: [All](/pay-later/), **except** in3
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -99,7 +100,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -120,7 +121,7 @@ You can't refund more than the original amount in your backend.
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend" >
+<details id="updating-in-your-backend">
 <summary>Updating in your backend</summary>
 <br>
 
@@ -190,27 +191,27 @@ Contact us:
     - MultiSafepay order paid in full: Order state to `processing`  
 This rule sets the order to `processing` when the order is paid in full.  
     - MultiSafepay order complete: Shipped at MultiSafepay  
-This rule updates the [transaction status](/about-payments/multisafepay-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
+This rule updates the [transaction status](/payment-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
 
 ## User guide
 
 ### Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/), **except** iDEAL QR and Trustly
-- Pay later methods: [E-Invoicing](/payment-methods/e-invoicing), [Klarna](/payment-methods/klarna), [Pay After Delivery](/payment-methods/pay-after-delivery)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/applepay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/), **except** iDEAL QR and Trustly
+- Pay later methods: [E-Invoicing](/e-invoicing), [Klarna](/klarna), [Pay After Delivery](/pay-after-delivery)
+- Wallets: [Alipay](/alipay), [Apple Pay](/applepay), [PayPal](/paypal)
 - Prepaid cards: 
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
     - [Fashioncheque](https://www.fashioncheque.com/nl)
     - [Fashion gift card](https://www.fashion-giftcard.nl)
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - Wijn cadeau
     - [Yourgift](https://www.yourgift.nl)
 

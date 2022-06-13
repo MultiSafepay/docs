@@ -5,6 +5,7 @@ order: 111
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Magento 1."
+slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -42,7 +43,7 @@ Release date: Sep 16, 2021
 Release date: Jun 15, 2021
 
 **Added**
-- PLGMAGONE-710: Add support for [Generic Gateways](https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/) which can be used for branded giftcards
+- PLGMAGONE-710: Add support for [Generic Gateways](#generic-gateways) which can be used for branded gift cards
 - PLGMAGONE-627: Add order number variable support to custom refund description
 
 **Fixed**
@@ -812,7 +813,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
     - **MultiSafepay gift cards**  
-    Make sure you have [activated the payment methods](/payments/activating-payment-methods/) in your MultiSafepay dashboard.
+    Make sure you have [activated the payment methods](/activating-payment-methods/) in your MultiSafepay dashboard.
 
 # User guide
 
@@ -842,7 +843,7 @@ The default currency is EUR.
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways" >
+<details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
 <br>
 
@@ -880,14 +881,14 @@ This change is only for Magento developers. We recommend testing the change and 
 
 ## Payment methods
 
-<details id="payment-methods" >
+<details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/) except V Pay
-- Banking methods: [All](/payment-methods/banks/), **except** TrustPay
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [Apple Pay](/payment-methods/apple-pay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/credit-debit-cards/) except V Pay
+- Banking methods: [All](/banks/), **except** TrustPay
+- Pay later methods: [All](/pay-later/)
+- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -898,7 +899,7 @@ This change is only for Magento developers. We recommend testing the change and 
     - [Good4fun](https://www.good4fun.nl)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/paysafecard)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -940,7 +941,7 @@ All expired orders retain **Waiting** status until you cancel them:
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
-For more information, see [Recurring Payments](/features/recurring-payments).
+For more information, see [Recurring Payments](/recurring-payments).
 
 **Credit cards**
 Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
@@ -955,7 +956,7 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 | | |
 |---|---|
 | MultiSafepay dashboard | Full refunds (may not appear in your backend) |
-| Backend | - Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> - You can't refund more than the original amount |
+| Backend | Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> You can't refund more than the original amount |
 | Pay later methods | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
 
 </details>
@@ -1000,7 +1001,7 @@ You can:
 
  **Attention Dutch merchants**
  
- We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+ We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

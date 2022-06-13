@@ -5,6 +5,7 @@ order: 101
 hidden: false
 parentDoc: 62a1d773f96fe80056354d84
 excerpt: "Free app to integrate MultiSafepay payment solutions with Lightspeed."
+slug: 'lightspeed'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Lightspeed.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -35,7 +36,7 @@ Contact us:
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
 
-</details >
+</details>
 
 # Installation 
 
@@ -92,7 +93,7 @@ To set the payment method order for different languages, under the **Payment met
 
 If no specific rule is set for a country, the **Default** order is used.
 
-</details >
+</details>
 
 ## Internationalization
 
@@ -144,11 +145,11 @@ To set different maximum/minimum order amounts for different languages, under th
 
 If no specific rule is set for a language, **Default** language is used.
 
-</details >
+</details>
 
 ## Payment links
 
-When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/payments/payment-statuses/) or link it to a transaction in Lightspeed via our app. This&nbsp;is by design in Lightspeed. 
+When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/payments/payment-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
 
 ## Payment methods
 
@@ -156,10 +157,10 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/), **except** iDEAL QR and TrustPay
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [All](/payment-methods/wallets/) 
+- Cards: [All](/credit-debit-cards/)
+- Banking methods: [All](/banks/), **except** iDEAL QR and TrustPay
+- Pay later methods: [All](/pay-later/)
+- Wallets: [All](/wallets/) 
 - Prepaid cards: 
     - Baby gift card
     - Beauty and Wellness gift card
@@ -256,7 +257,7 @@ To set the payment method order for different languages, under the **Payment met
 
 If no specific rule is set for a country, the **Default** order is used.
 
-</details >
+</details>
 
 <details id="disabling-payment-methods">
 <summary>Disabling payment methods</summary>
@@ -295,7 +296,7 @@ After terminating your contract with MultiSafepay, our payment methods may still
 4. Sign in to the MultiSafepay app.
 5. Click **Disable all payment methods**.
 
-</details >
+</details>
 
 ## Payment reminders
 
@@ -333,7 +334,7 @@ You can't refund more than the original amount in your backend.
 
 - Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
 
-- Some [pay later](/payment-methods/pay-later/) methods:
+- Some [pay later](/pay-later/) methods:
     - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
     - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 
@@ -341,7 +342,7 @@ You can't refund more than the original amount in your backend.
 
 For any questions, email <integration@multisafepay.com>
 
-</details >
+</details>
 
 ## Single sign-on
 
@@ -358,7 +359,7 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 5. Click **MultiSafepay Payments**, **or** to take you straight to the store page, paste **/admin/store/apps/1517** after the base URL of your store.
 6. On the store page, click **Go to app** / **Ga naar app**. 
 
-</details >
+</details>
 
 ## Surcharges
 
@@ -376,7 +377,7 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 
 **Attention Dutch merchants** 
 
-We strongly recommend **not** applying surcharges to [pay later methods](/payment-methods/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
