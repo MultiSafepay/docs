@@ -1,31 +1,10 @@
 ---
-title: 'Creating accounts'
-weight: 10
-meta_title: "Creating accounts - MultiSafepay Docs"
-layout: 'single'
-logo: '/svgs/Zero_Authorization.svg'
-url: '/account/create-account/'
-short_description: "Choose an account type or a free test account, and sign up."
-aliases:
-    - /account/test-accounts/
-    - /tools/partner-account-control/create-partner-account
-    - /tools/partner-account-control/partner-compensation
-    - /account/partner-account-control/creating-partner-account/
-    - /account/partner-account-control/about-account-types/
-    - /account/account-types/
-    - /account/creating-partner-accounts/
-    - /partners/
-    - /partners/faq/what-is-the-kickback-commission-for-partners/
-    - /tools/partner-account-control/
-    - /account/multisafepay-account/
-    - /account/partner-account-control/
-    - /account/partner-accounts/
-    - /account/partner-primary-accounts/
-    - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp-is-that-a-problem/
-    - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp/
-    - /faq/getting-started/switching-to-multisafepay
-    - /getting-started/go-live/user-guide/switching-to-multisafepay/
-    - /account/switching-psps/
+title: 'Create an account'
+category: 62962dcdbccb9a001d4bbc81
+order: 100
+hidden: false
+excerpt: "Choose an account type or a free test account, and sign up."
+slug: 'create-account'
 ---
 This page describes MultiSafepay account types and how to create test and live accounts. 
 

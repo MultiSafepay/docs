@@ -1,12 +1,9 @@
 ---
 title: "Payment methods"
-weight: 3
-meta_title: "Payment methods - MultiSafepay Docs"
-read_more: "."
-layout: 'single'
-url: '/account/payment-methods/'
-aliases:
-    - /payments/activating-payment-methods/
+category: 62962dcdbccb9a001d4bbc81
+order: 209
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
 ---
 
 MultiSafepay offers a wide range of [payment methods](/payment-methods/).
@@ -15,23 +12,29 @@ You can enable payment methods for your account yourself in your dashboard, but 
 
 | Activation flow | Payment methods |
 |---|---|
-| [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, {{< br >}} SEPA Direct Debit |
+| [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, <br> SEPA Direct Debit |
 | [Enable in dashboard](/payments/activating-payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
-| [Own flow](/payments/activating-payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, {{< br >}} Edenred, gift cards, Paysafecard, {{< br >}} PayPal |
+| [Own flow](/payments/activating-payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, <br> Edenred, gift cards, Paysafecard, <br> PayPal |
 
-{{< blue-notice >}} If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your backend.{{< /blue-notice >}}
+> 📘 Ready-made integrations
+> 
+> If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. Once the method is activated, also enable it in your backend.
 
 ## Apply to MultiSafepay 
 
 1. Email a request to <risk@multisafepay.com> 
-{{< details title="Cards, Apple Pay, and Google Pay" >}} 
+<details id="cards-apple-pay-and-google-pay">
+<summary>Cards, Apple Pay, and Google Pay</summary>
  
 Include in the request your: 
   
 - Average, minimum, and maximum transaction amount 
 - Annual turnover 
-{{< /details>}}
-{{< details title="SEPA Direct Debit" >}} 
+</details>
+
+<details id="sepa-direct-debit">
+<summary>SEPA Direct Debit</summary>
+
 - Include in the request the following information:
     - Monthly and annual SEPA Direct Debit transaction volume
     - Minimum and maximum transaction amount
@@ -40,9 +43,9 @@ Include in the request your:
     - Whether any subscriptions are monthly, quarterly, or annual
 - Depending on the details provided, we may ask for additional information.
 - We send you an agreement to sign and email back to us.
-{{< /details >}}
-2. We check your eligibilty and if approved, activate the payment method for your account. 
-3. Once approved, enable the method in your dashboard as below.
+</details>
+1. We check your eligibilty and if approved, activate the payment method for your account. 
+2. Once approved, enable the method in your dashboard as below.
 
 ## Enable in dashboard
 
@@ -58,7 +61,10 @@ Include in the request your:
 ## Own flow
 
 ### AfterPay
-{{< details title="AfterPay activation" >}} 
+<details id="afterpay-activation"> 
+<summary>AfterPay activation</summary>
+<br>
+
 1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 
 2. For new AfterPay clients, apply directly to AfterPay:
@@ -67,9 +73,14 @@ Include in the request your:
 - Belgium: [Offerte aanvragen](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
 
 3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
-{{< /details >}}
+</details>
+
 ### Betaal per Maand
-{{< details title="Betaal per Maand activation" >}}
+
+<details id="betaal-per-maand-activation">
+<summary>Betaal per Maand activation</summary>
+<br>
+
 You must:
 
 - Have a [MultiSafepay account](/getting-started/)
@@ -82,16 +93,24 @@ You must:
 2. In the request, let us know if you already have a Santander account. If you don't, we'll submit an application for you. 
 3. We check your eligibility and type of connection. 
 4. Once approved, we activate the payment method for your account.
-{{< /details >}}
+</details>
+
 ### Edenred
-{{< details title="Edenred activation" >}}
+<details id="Edenred activation">
+<summary>Edenred activation</summary>
+<br>
+
 1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.
-{{< /details >}}
+</details >
+
 ### Gift cards
-{{< details title="Gift cards activation" >}}
+<details id="gift-cards-activation">
+<summary>Gift cards activation</summary>
+<br>
+
 1. To check your eligibility, email <sales@multisafepay.com> 
 2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
 3. The issuer connects you to the card via either:
@@ -99,9 +118,13 @@ You must:
 - [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
 - [123TCS](https://www.123tcs.com/#Contact)
 4.  The issuer sends us the connection details and we activate the card for your account.
-{{< /details >}}
+</details>
+
 ### Klarna
-{{< details title="Klarna activation" >}} 
+<details id="klarna-activation"> 
+<summary>Klarna activation</summary>
+<br>
+
 **Test account**
 
 1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
@@ -125,9 +148,12 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
 For support, email <integration@multisafepay.com>
-{{< /details >}}
+</details>
+
 ### PayPal
-{{< details title="PayPal activation" >}}
+<details id="paypal-activation">
+<summary>PayPal activation</summary>
+<br>
 
 **Configuring your PayPal account**
 
@@ -159,7 +185,9 @@ To complete the configuration, change the language encoding setting of your PayP
 - Email <integration@multisafepay.com>
 - PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 
-{{< alert-notice >}} **Known issue:** If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account. {{< /alert-notice >}}
+> ⚠️ Known error
+> 
+> If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
 
 **Configuring your MultiSafepay account**
 
@@ -186,9 +214,13 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 
 Your account is now configured!  
 We strongly recommend [testing transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
-{{< /details >}}
+</details>
+
 ### Paysafecard
-{{< details title="Paysafecard activation" >}}
+<details id="paysafecard-activation">
+<summary>Paysafecard activation</summary>
+<br>
+
 Paysafecard doesn't require activation.
 
 Search for outlets that sell Paysafecard:
@@ -197,7 +229,7 @@ Search for outlets that sell Paysafecard:
 - Dutch-language site: [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/)
 
 For any questions, email <sales@multisafepay.com>
-{{< /details >}}
+</details>
 
 
 

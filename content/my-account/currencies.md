@@ -1,16 +1,10 @@
 ---
 title : "Currencies"
-meta_title: "Currencies - MultiSafepay Docs"
-read_more: '.'
-weight: 6
-url: '/account/currencies/'
-aliases:
-    - /faq/general/which-currencies-are-supported-by-multisafepay
-    - /faq/general/currencies-supported
-    - /faq/general/supported-currencies/
-    - /tools/multisafepay-control/enabling-converting-currencies
-    - /my-account/manage-your-balance/enabling-converting-currencies/
-    - /account/manage-your-balance/enabling-converting-currencies/
+category: 62962dcdbccb9a001d4bbc81
+order: 208
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
+slug: 'account-currencies'
 ---
 You can process payments in a large number of currencies, provided that they are:
 
@@ -45,9 +39,9 @@ Credit and debit cards support:
 | ISK (Icelandic króna) | VEF (Venezuelan bolívar) |
 | JPY (Japanese yen) | ZAR (South African rand) |
 
-{{< blue-notice >}} **Important:** JPY is a **zero-decimal currency**.  
-For decimal currencies, you provide the amount in cents, e.g. value for 10 EUR = **1000**.  
-For zero-decimal currencies, provide the whole value only, i.e. value for ¥10 = **10**. {{< /blue-notice >}}
+> 📘 About JPY
+> 
+> JPY is a **zero-decimal currency**. For decimal currencies, you provide the amount in cents, e.g. value for 10 EUR = **1000**. For zero-decimal currencies, provide the whole value only, i.e. value for ¥10 = **10**.
 
 For credit and debit cards, we can potentially support additional currencies on request. Email <support@multisafepay.com> 
 

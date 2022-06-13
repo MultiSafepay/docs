@@ -1,25 +1,17 @@
 ---
 title: "Account users"
-weight: 2
-meta_title: "Account users - MultiSafepay Docs"
-read_more: "."
-url: '/account/users/'
-aliases:
-    - /account/multisafepay-account/adding-users/
-    - /tools/multisafepay-control/users
-    - /tools/multisafepay-control/adding-users
-    - /getting-started/set-up-your-account/user-guide/adding-users/
-    - /account/adding-users/
-    - /tools/multisafepay-account/two-factor-authentication
-    - /tools/multisafepay-account/enabling-two-factor-authentication
-    - /getting-started/set-up-your-account/user-guide/enabling-two-factor-authentication/
-    - /account/enabling-2FA/
-    - /account/managing-users/
+category: 62962dcdbccb9a001d4bbc81
+order: 202 
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
+slug: 'account-users'
 ---
 
 Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same secure code. You can disable but not delete users.
 
-{{< details title=" User permission profiles" >}}
+<details id="user-permission-profiles">
+<summary>User permission profiles</summary>
+<br>
 
 | User | Permissions |
 |---|---|
@@ -31,11 +23,13 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 | Technical | View all transactions <br> Add and edit websites and payment pages <br> Edit email templates <br> Resend offline actions |
 | Uncleared | View all transactions <br> Accept or decline uncleared transactions |
 
-{{< /details >}}
+</details>
 
 ## Adding users
 
-{{< details title="Adding users to your account" >}}
+<details id="adding-users-to-your-account">
+<summary>Adding users to your account</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **User management**.
@@ -49,7 +43,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. See [User permissions overview](#user-permissions-overview) below.
 7. Click **Add user** in the top-right corner.
 
-{{< /details >}}
+</details>
 
 ## Two-factor authentication
     
@@ -61,19 +55,19 @@ When enabled, users must verify their identity with a password, and a 6-digit to
 - After 5 unsuccessful token inputs, the user's account is blocked and can only be unblocked by an administrator. 
 - If a user loses their 2FA device, disable and re-enable 2FA on their account.
 
-{{< blue-notice >}}
+> 📘 Download the MultiSafepay app
+> 
+> - Android devices from [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
+> - Apple iOS devices from the [App Store](https://apps.apple.com/app/multisafepay-control/id929955963)
 
-Download the MultiSafepay app for:
-
-- Android devices from [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
-- Apple iOS devices from the [App Store](https://apps.apple.com/app/multisafepay-control/id929955963)
-{{< /blue-notice >}}
 
 ### Enabling 2FA
 
 Only administrators can enable 2FA.
 
-{{< details title="Enabling 2FA" >}} 
+<details id="enabling-2fa">
+<summary>Enabling 2FA</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **User management**.
@@ -81,13 +75,15 @@ Only administrators can enable 2FA.
 4. On the **User details** page, from the **Two-factor** list, select **Enable**.
 5. Click **Save changes**.
 
-{{< /details >}}
+</details>
 
 ### Configuring 2FA
 
 Users must then configure 2FA the first time they sign in to the dashboard after 2FA is enabled.
 
-{{< details title="Configuring 2FA" >}}
+<details id="configuring-2fa">
+<summary>Configuring 2FA</summary>
+<br>
 
 1.  Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com) on your laptop or PC.  
 A dialog requesting a 6-digit token appears.
@@ -95,6 +91,8 @@ A dialog requesting a 6-digit token appears.
 3. Tap **Authenticator**.
 4. Copy the 6-digit token (remains visible for 30 seconds) from your mobile device to the 2FA dialog on your computer or laptop.
 
-{{< /details >}}
+</details>
 
-{{< blue-notice >}}**Support** <br> Email support@multisafepay.com {{< /blue-notice >}}
+> 📘 **Support**
+
+> Email <support@multisafepay.com>

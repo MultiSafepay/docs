@@ -1,14 +1,10 @@
 ---
 title : "IBANs"
-meta_title: "IBANs - MultiSafepay Docs"
-weight: 10
-read_more: "."
-url: '/account/ibans/'
-aliases:
-    - /developer/api/masking-iban-numbers/
-    - /faq/api/masking-iban-numbers
-    - /developer/unmasking-ibans/
-    - /account/unmasking-ibans/
+category: 62962dcdbccb9a001d4bbc81
+order: 211
+hidden: false
+parentDoc: 62a206ee0298c80058af3aed
+slug: 'ibans'
 ---
 
 International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them so that only the last 4 digits are visible, e.g. `*** 1234`.
