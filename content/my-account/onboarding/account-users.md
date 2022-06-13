@@ -86,7 +86,7 @@ A dialog requesting a 6-digit token appears.
 3. Tap **Authenticator**.
 4. Copy the 6-digit token (remains visible for 30 seconds) from your mobile device to the 2FA dialog on your computer or laptop.
 
-</details >
+</details>
 
 > 📘 **Support**
 
