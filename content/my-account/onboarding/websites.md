@@ -25,7 +25,7 @@ To process payments from a website operated by a separate legal entity, you must
 5. In the **Description** field, enter the website name.  
     **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
 6. In the **Base URL** field, add the website’s URL. This must be the URL where you receive payments.
-7. If you want to receive [status updates](/about-payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+7. If you want to receive [status updates](/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
 8. Click **Save**.
 
 </details> 

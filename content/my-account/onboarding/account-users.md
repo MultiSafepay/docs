@@ -10,6 +10,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
 <details id="user-permission-profiles">
 <summary>User permission profiles</summary>
+<br>
 
 | User | Permissions |
 |---|---|
@@ -27,6 +28,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
 <details id="adding-users-to-your-account">
 <summary>Adding users to your account</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **User management**.
@@ -62,8 +64,9 @@ When enabled, users must verify their identity with a password, and a 6-digit to
 
 Only administrators can enable 2FA.
 
-<details id="Enabling-2fa">
+<details id="enabling-2fa">
 <summary>Enabling 2FA</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **User management**.
@@ -79,6 +82,7 @@ Users must then configure 2FA the first time they sign in to the dashboard after
 
 <details id="configuring-2fa">
 <summary>Configuring 2FA</summary>
+<br>
 
 1.  Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com) on your laptop or PC.  
 A dialog requesting a 6-digit token appears.

@@ -20,6 +20,7 @@ To view VAT invoices in your MultiSafepay dashboard, go to **Finance** > **Invoi
 
 <details id="fees-we-charge-vat-for">
 <summary>Fees we charge VAT for</summary>
+<br>
 
 | Type of fee | When charged |
 |---|---|

@@ -40,6 +40,7 @@ You **must** inform us of any changes to your company information.
 
 <details id="changing-company-information">
 <summary>Changing company information</summary>
+<br>
 
 **Changes of address**  
 Email the new address and your account ID to <support@multisafepay.com>  
@@ -54,7 +55,7 @@ If a different company is taking over your account, we recommend opening a **new
 
 Make sure you update all company details on the website(s), including the registration number, VAT number, and address. The company details on the website must match the details in your account.
 
-</details >
+</details>
 
 ## 3. Validate bank account
 
@@ -70,6 +71,7 @@ Download and complete a Statement of Ultimate Beneficial Owner Form for every UB
 
 <details id="about-ubos">
 <summary>About UBOs</summary>
+<br>
 
 A UBO is a natural person who directly or indirectly holds an equity interest in or exercises control of the enterprise. Most commonly, an individual holds an equity interest of 25% or more of the shares or capital of the enterprise, or exercises:
 
@@ -95,6 +97,7 @@ The three ultimate beneficial owners are therefore Mr A. Jansen, Ms B. Jansen-de
 
 <details id="about-the-wwft">
 <summary>About the Wwft</summary>
+<br>
 
 The Wet ter voorkoming van witwassen en financieren van terrorisme (WWFT), or Money Laundering and Terrorist Financing Prevention Act, prevents companies and individuals from laundering money or financing terrorist activity. 
 
@@ -104,6 +107,7 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 
 <details id="download-a-form">
 <summary>Download a form</summary>
+<br>
 
 - [Dutch UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_NL_V2.0.pdf)
 - [English UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_EN_V2.0.pdf)
@@ -115,6 +119,7 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 
 <details id="submit-the-form">
 <summary>Submit the form</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Files**.
@@ -123,14 +128,15 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 5. Upload color copies of the identity documents of all UBOs.
 
 **Note:** We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
-</details >
+</details>
 
 ## 5. Display required information
 
 You must display certain information on your website. 
 
-<details id="required-website-information" >
+<details id="required-website-information">
 <summary>Required website information</summary>
+<br>
 
 - Full legal company name, address, phone number, and email address
 - Chamber of Commerce number
@@ -146,6 +152,7 @@ If approved, your account goes live and you can [make payouts](/account/payouts/
 
 <details id="kyc-checks">
 <summary>KYC checks</summary>
+<br>
 
 As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp) and [acquirer](/glossaries/multisafepay-glossary/#acquirer), MultiSafepay is legally required to perform KYC checks on the:
 
@@ -163,6 +170,7 @@ To help you start accepting payments as quickly as possible, we divide our check
 
 <details id="deposits">
 <summary>Deposits</summary>
+<br>
 
 We may ask for a deposit in case:
 
@@ -178,7 +186,7 @@ Deposits are based on various factors:
 
 If financials are requested, we request your most recent balance sheet, and profit and loss statement.
 
-</details >
+</details>
 
 ## Support
 

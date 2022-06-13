@@ -29,6 +29,7 @@ If you sell alcohol, you must:
 
 <details id="download-a-declaration">
 <summary>Download a declaration</summary>
+<br>
 
 - [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
 - [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
@@ -63,6 +64,7 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 
 <details id="visa">
 <summary>Visa</summary>
+<br>
 
 | Code | Description  |
 | --- | --- |
@@ -84,6 +86,7 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 
 <details id="mastercard">
 <summary>Mastercard</summary>
+<br>
 
 | Code | Description |
 | --- | --- |
