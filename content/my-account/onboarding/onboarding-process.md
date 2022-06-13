@@ -55,7 +55,7 @@ We may ask you to provide additional documents, e.g. if you have an unusual comp
 
 You **must** inform us of any changes to your company information.
 
-{{< details title="Changing company information" >}}
+{{< details title="how-to-change company information" >}}
 
 **Changes of address**  
 Email the new address and your account ID to <support@multisafepay.com>  

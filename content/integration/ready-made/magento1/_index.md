@@ -117,7 +117,7 @@ We test the plugin with Magento 1 core checkout and OneStepCheckout.com (Idev).
 
 The default currency is EUR. 
 
-{{< details title="Changing the default currency" >}}
+{{< details title="how-to-change the default currency" >}}
 
 1. Sign in to your Magento 1 backend. 
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.
