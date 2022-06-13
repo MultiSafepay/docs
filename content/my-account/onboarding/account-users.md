@@ -88,6 +88,6 @@ A dialog requesting a 6-digit token appears.
 
 </details >
 
-## Support
+> 📘 **Support**
 
 Email <support@multisafepay.com>
