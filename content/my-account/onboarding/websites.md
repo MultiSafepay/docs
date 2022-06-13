@@ -57,7 +57,7 @@ Or, for more advanced configuration:
 
 Your account is now linked to your website. 
 
-</details >
+</details>
 
 The **Website settings** page contains your:  
  - Site ID

@@ -33,7 +33,7 @@ To add additional bank accounts to your account (once fully onboarded), follow t
 
 MultiSafepay verifies the bank account within 5 business days. We **only** accept business bank accounts (no private bank accounts) that are registered to your official company name. 
 
-</details >
+</details>
 
 <details id="deactivate-a-bank-account">
 <summary>Deactivate a bank account</summary>
@@ -84,7 +84,7 @@ To make a payout manually, follow these steps:
 5. From the **Select bank account** list, select the business bank account number you want to transfer the withdrawal to. 
 6. Click **Continue**.
 
-</details >
+</details>
 
 ## Payout currencies
 The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
@@ -123,7 +123,7 @@ MultiSafepay pays out every business day of the year, but **not** on bank holida
 
 Check the dates of local bank holidays. They may change each year.
 
-</details >
+</details>
 
 <details id="processing-time-for-automatic-payouts">
 <summary>Processing time for automatic payouts</summary>
@@ -133,7 +133,7 @@ Assuming default settings, if you schedule a payout on Monday, the payout batch 
 
 </details>
 
-<details title="processing-time-for-manual-payouts">
+<details id="processing-time-for-manual-payouts">
 <summary>Processing time for manual payouts</summary>
 
 &nbsp;  
@@ -145,7 +145,7 @@ The status of the pay out is **Reserved** for 24 hours before it is added to our
 
 You cannot make payouts if:
 
-<details title="your-multisafepay-account-is-not-yet-fully-activated">
+<details id="your-multisafepay-account-is-not-yet-fully-activated">
 <summary>Your MultiSafepay account is not yet fully activated</summary>
 You can process payments immediately after creating a MultiSafepay test account and adding your website. But MultiSafepay holds your funds in your MultiSafepay balance until your account is fully activated.
 
@@ -164,7 +164,7 @@ The Risk Team then checks and approves your account details and the information 
 
 &nbsp;  
 If your MultiSafepay balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
-</details >
+</details>
 
 <details id="your-payouts-are-deactivated">
 <summary>Your payouts are deactivated</summary>
