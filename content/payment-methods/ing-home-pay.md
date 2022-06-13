@@ -4,12 +4,11 @@ category: 6298bd782d1cf4006032e765
 order: 111
 hidden: false
 parentDoc: 62a1c6c5612f5700137f3640
-slug: /payment-methods/ing-home-pay/
+slug: ing-home-pay
 ---
 > ❗️ Discontinued
 >
 > ING discontinued Home'Pay on December 6, 2021. 
-
 
 ## What you need to do
 
@@ -20,7 +19,8 @@ Check your integration. If you use a:
 
 ## Alternative payment methods
 
-[Bancontact](/payment-methods/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/payment-methods/belfius/) or [CBC/KBC](/payment-methods/cbc-kbc/).
+[Bancontact](/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/belfius/) or [CBC/KBC](/cbc-kbc/).
+<br>
 
 > 📘 **More info**
 > For more information or support, email <support@multisafepay.com>

@@ -115,7 +115,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 | | |
 |---|---|
-| MultiSafepay dashboard | - [Full and partial refunds](/refunds/#full-and-partial-refunds) <br> - Generic gateway transactions |
+| MultiSafepay dashboard | - [Full and partial refunds](/refunds/) <br> - Generic gateway transactions |
 | Backend | - Full and partial refunds <br> - You can't refund more than the original amount in your backend <br> - Generic gateway transactions **not** supported |
 | API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/payment-methods/pay-later) **not** supported <br> - Discounts **not** supported |
 

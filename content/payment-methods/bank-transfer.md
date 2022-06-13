@@ -18,8 +18,8 @@ See how Bank Transfer can [benefit your business](https://www.multisafepay.com/s
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
-| **Supports** | [Virtual IBANs](/payments/virtual-ibans/) to better manage Bank Transfer payments |
+| **Refunds** | [Full and partial](/refunds/) |
+| **Supports** | [Virtual IBANs](/virtual-ibans/) to better manage Bank Transfer payments |
 | **Transactions expire after** | 60 days  |
 
 # Payment flow
@@ -43,8 +43,7 @@ sequenceDiagram
     C->>Mu: Transfers funds (online or with teller) <br> (takes 1–3 business days) 
     Mu->>Me: Matches payment and settles funds
     
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses
   
@@ -75,9 +74,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 <br>
@@ -123,13 +122,13 @@ MultiSafepay emails the customer the following payment details to include when t
 <summary>How to email payment instructions yourself</summary>
 <br>
 
-You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see [Transfer guidance for customers](/payment-methods/bank-transfer/#transfer-guidance-for-customers) below).
+You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see [Transfer guidance for customers](#transfer-guidance-for-customers) below).
 
 To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
 
 </details>
 
-**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/account/unmasking-ibans/).
+**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/unmasking-ibans/).
 
 ### Transfer guidance for customers
 
@@ -163,7 +162,7 @@ Sometimes, the customer's bank has added comments to the transfer.
 
 </details>
 
-<details id="transaction-wasn't-successfully-created">
+<details id="transaction-not-successfully-created">
 <summary>Transaction wasn't successfully created</summary>
 <br>
 
@@ -200,7 +199,7 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 <summary>Payment link not created</summary>
 <br>
 
-1. [Generate a link manually](/account/payment-links/). 
+1. [Generate a link manually](/payment-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
 3. Click **Bank Transfer**.
 4. Add the customer's bank account number (if known) to help us match the payment.
@@ -214,11 +213,11 @@ See this guidance in [Dutch](/docs/ongematchte-bankoverschrijvingen) or [German]
 
 ## Stock issues
 
-To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
+To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment. This depends on your ecommerce platform or integration, and your products and/or services.  
 
 :warning: MultiSafepay bears no responsibility for stock-related issues.
 
-## Validating transfers
+## Validation
 
 To change how bank transfers are validated, check whether this is possible in your backend.
 <br>

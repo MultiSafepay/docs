@@ -4,6 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 205
 hidden: false
 parentDoc: 62a727569e389a012f577acd
+excerpt: 'A pricing mode used by banks and card schemes.'
 slug: interchange
 ---
 

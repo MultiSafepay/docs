@@ -51,8 +51,7 @@ sequenceDiagram
     MF->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses  
 
@@ -86,10 +85,10 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > E-Invoicing direct/redirect |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).  |
 <br>
 

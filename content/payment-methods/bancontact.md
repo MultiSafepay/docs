@@ -3,7 +3,7 @@ title: 'Bancontact'
 category: 6298bd782d1cf4006032e765
 order: 101
 hidden: false
-parentDoc: 62a1c6c5612f5700137f3640
+parentDoc: 62a728d48b97080046c1d220
 slug: bancontact
 ---
 [Bancontact](https://www.bancontact.com/en) is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees settlement. 
@@ -17,8 +17,8 @@ See how Bancontact can [benefit your business](https://www.multisafepay.com/solu
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
-| **Supports**  | [Recurring payments](/recurring-payments/) (banking only) <br> [Second Chance](/second-chance/) <br> [3D Secure 2.0](/cards/3ds2/) for all non-mobile payments |
+| **Refunds** | [Full and partial](/refunds/) |
+| **Supports**  | [Recurring payments](/recurring-payments/) (banking only) <br> [Second Chance](/second-chance/) <br> [3D Secure 2.0](/3ds2/) for all non-mobile payments |
 | **Transactions expire after** | 1 hour (banking only)  |
 
 # Payment flow
@@ -40,7 +40,6 @@ sequenceDiagram
     Mu->>Me: Settles funds 
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -72,9 +71,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) <br> - Banking: [Current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) <br> - QR: Current only |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) <br> - Banking: Current and deprecated versions <br> - QR: Current only |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bancontact redirect/QR |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>
@@ -90,11 +89,11 @@ Bancontact WIP is a wallet initiated payment service you can use for:
 
 ## How it works
 
-Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication (SCA)](/payment-regulations/sca/) for their first purchase. 
+Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication](/pds2/) (SCA) for their first purchase. 
 
-There is no shift in liability for [chargebacks](/chargebacks/) from [issuer](/glossaries/multisafepay-glossary/#issuer) to [acquirer](/glossaries/multisafepay-glossary/#acquirer) since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
+There is no shift in liability for [chargebacks](/chargebacks/) from issuer to acquirer since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
 
-## Criteria and activation
+## Activation and criteria
 
 - Bancontact WIP is only available to low-risk, high-volume merchants (25,000 transactions quarterly), within the SEPA area. 
 - Applies to services only, not physical products. 
@@ -109,6 +108,7 @@ Requests are screened and approved by Bancontact Payconiq.
 ## Integration
 
 See [Recurring payments](/recurring-payments/).
+<br>
 
 > 📘 **More info**
 > For more information or support, email <support@multisafepay.com>

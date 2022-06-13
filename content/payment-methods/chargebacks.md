@@ -1,10 +1,9 @@
 ---
 title : 'Chargebacks'
 category: 6298bd782d1cf4006032e765
-order: 203
+order: 204
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-excerpt: "Learn how to avoid, manage, and dispute chargebacks."
 slug: chargebacks
 ---
 
@@ -339,7 +338,7 @@ To dispute this type of chargeback, you need to provide:
 
 </details>
 
-#### Processing errors
+#### Processing error
 
 <details id="reason-code-4512-multiple-processing">
 <summary>Reason code 4512: Multiple processing</summary>
@@ -419,7 +418,7 @@ To dispute this type of chargeback, you need to provide fully itemized documents
 
 </details>
 
-#### Customer disputes
+#### Customer dispute
 <details id="reason-code-4544-goods-and-services-cancellation-of-recurring-payments">
 <summary>Reason code 4544: Goods and services, cancellation of recurring payments</summary>
 <br>
@@ -486,7 +485,6 @@ The table below sets out the process for disputing chargebacks.
 | 7.  | Card scheme | The card scheme makes the final decision about the chargeback.  | 
 | 8.  | Card scheme  | If the chargeback is unsuccessful, the card scheme reclaims the amount from MultiSafepay directly.  |  
 | 9.  | MultiSafepay  | We debit the amount from your MultiSafepay balance.  |  
-<br>
 
 ## MultiSafepay disputing chargebacks on your behalf
 MultiSafepay can dispute chargebacks on your behalf for a fee. 

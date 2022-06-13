@@ -52,7 +52,6 @@ sequenceDiagram
     C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -87,11 +86,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Appy to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Activation** | [Appy to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > in3 direct/redirect |
-| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/craft-commerce/), [Magento 1](/magento-1/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/). |
+| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/craft-commerce/), [Magento 1](/magento-1/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/). |
 <br>
 
 ---
@@ -143,7 +142,6 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, email <sales@multisafepay.com> 
-
 <br>
 
 > 📘 **More info**

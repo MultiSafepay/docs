@@ -18,7 +18,7 @@ See how Giropay can [benefit your business](https://www.multisafepay.com/solutio
 | **Countries**  | Germany  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
+| **Refunds** | [Full and partial](/refunds/) |
 | **Supports** | [Second Chance](/second-chance/) |
 
 # Payment flow
@@ -40,8 +40,7 @@ sequenceDiagram
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses   
 
@@ -71,9 +70,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Giropay redirect  |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>
