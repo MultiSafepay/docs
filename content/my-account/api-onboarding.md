@@ -11,6 +11,11 @@ This page is for MultiSafepay partner or primary account holders wanting to subm
 
 The API also lets you create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.  
 
+
+> 📘 Supported accounts
+> 
+> The requests to onboard affiliated merchants via our API require a partner or primary account. For more information, see [Create account](/docs/create-account/).
+
 ## 1. Create merchant accounts
 
 See API reference – [Create affiliate](https://docs-api.multisafepay.com/reference/createaffiliate) for how to submit the company details for each merchant, including:
