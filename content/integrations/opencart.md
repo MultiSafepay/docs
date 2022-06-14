@@ -3,7 +3,7 @@ title : "OpenCart plugin"
 category: 62962dd7e272a6002ebbbbc5
 order: 113
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with OpenCart."
 slug: 'opencart'
 ---
