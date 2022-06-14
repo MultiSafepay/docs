@@ -1,12 +1,19 @@
 ---
 title: 'Manage orders'
-breadcrumb_title: "Manage orders"
-layout: 'single'
-meta_title: 'Build your integration – Manage orders - MultiSafepay Docs'
-logo: '/svgs/Wrappers.svg'
-short_description: 'Manage orders in your own integration'
-weight: 1
-url: '/integrations/self-made/manage-orders/'
+category: 62962dd7e272a6002ebbbbc5
+order: 401
+hidden: false
+parentDoc: 62a1d799ab0558004cabb528
+excerpt: 'Manage orders in your own integration.'
+slug: 'manage-orders'
+next:
+  description: Configure your webhook endpoint
+  pages:
+    - type: doc
+      icon: file-text-o
+      name: Configure your webhook
+      slug: configure-your-webhook
+      category: integrations
 ---
 
 MultiSafepay provides a [RESTful API](/glossaries/multisafepay-glossary/#restful-api-application-programming-interface) that can be accessed by HTTP requests to manage your data. We support data in JSON format only.
@@ -22,7 +29,7 @@ The most common operation to perform with our API is creating an order. To speci
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
 | **Redirect** | The customer is redirected first to a [payment page](/payment-pages/) to select their payment method. | 
 
-## Prerequisites
+# Prerequisites
 
 Before making any API requests, you must:
 
@@ -34,11 +41,11 @@ You must include your API key in the request URL as a query parameter to be able
 While building your integration we recommend using the test environment: `https://testapi.multisafepay.com/v1/json`.
 
 
-## Create an order
+# Create an order
 
 The first operation to test when building your integration, is to [create an order](https://docs-api.multisafepay.com/reference/createorder). Here is a sample request to create a redirect order:
 
-```
+``` javascript
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test-api-key}" \
 -H 'Content-Type: application/json' \
 -H 'accept: application/json' \
@@ -76,7 +83,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test
 ```
 
 Check that you receive a response with `success` set to `true`:
-```
+``` javascript
 {
   "success": true,
   "data": {
@@ -91,16 +98,16 @@ Otherwise, open the `payment_url` to complete the payment on the payment page.
 
 For further details on how to test each payment method, see [Test payment details](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/#details-ideal).
 
-## Get order details
+# Get order details
 
 To familiarize yourself with what an order looks like in our system, try making a [Get order](https://docs-api.multisafepay.com/reference/getorder) request for the order you just created, using the `order_id`.
 
-```
+``` javascript
 curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/my-order-id-1?api_key={your-test-api-key}' \ 
 -H 'accept: application/json'
 ```
 You should receive a response like this:
-```
+``` javascript
 {
   "success": true,
   "data": {
@@ -192,12 +199,3 @@ In this example, the `status` is **Completed**. This means that the customer has
 Now that you know how to create an order and check its details, and know what is important to look for, it's the perfect time to introduce you to our webhook.
 
 So that you don't have to continually poll our server to see if there are updates to your orders, we provide a webhook to send you notifications automatically. In the next section we explain what you need to do to configure this to work with your web server.
-
-## Next steps
-
-{{< two-buttons
-href-1="/integrations/self-made" header-1="Overview" text-1="Self-made integrations" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
-
-href-2="/integrations/self-made/configure-your-webhook" header-2="Next" text-2="Configure your webhook endpoint" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
-
-

@@ -13,7 +13,7 @@ Check out our integrations built and managed by external developer communities:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Apache_OFBiz.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-ORRTIZ.COM integration provides a MultiSafepay plugin Apache OFBiz.
+ORRTIZ.COM provides a MultiSafepay plugin for Apache OFBiz.
 
 [View on GitHub](https://github.com/ORRTIZ/omultisafepay).
 
