@@ -61,7 +61,7 @@ composer require drupal/commerce_multisafepay_payments
 ## Configuration  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
-3. Enter your [account ID, site ID, and site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). 
+3. Enter your [account ID, site ID, and site API key](/websites/#site-id-api-key-and-secure-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 

@@ -59,7 +59,7 @@ For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.co
 7. When the plugin appears, make sure the **Activated** button is toggled.
 8. Click the **...** (more) button, and then select **Config**.
 9. In the drop-down menu, select **Test**.
-10. In the **API key** field, enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+10. In the **API key** field, enter your [API key](/websites/#site-id-api-key-and-secure-code).
 11. Fill out the other fields as required.
 
 ### Marketplace installation
@@ -199,7 +199,7 @@ Contact us:
 3. Search for the MultiSafepay plugin and click **Download now**.
 4. Go to **Configuration** > **Plugin manager** > **Installed**.
 5. Search for the installed MultiSafepay plugin and click on the pencil icon.
-6. In the **API key** field, enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+6. In the **API key** field, enter your [API key](/websites/#site-id-api-key-and-secure-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
 

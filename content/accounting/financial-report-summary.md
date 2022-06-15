@@ -24,7 +24,7 @@ This report provides an overview (in Excel or CSV format) of:
 | ID | MultiSafepay's transaction reference number |
 | Merchant ref | Your transaction reference number |
 | Created | The date the transaction was initiated |
-| Completed | The date the funds were settled in your MultiSafepay balance |
+| Completed | The date the funds were settled in your account balance |
 | Site | The website where the customer placed the order |
 | First name | The customer's first name |
 | Last name | The customer's last name |

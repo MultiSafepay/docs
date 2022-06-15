@@ -57,7 +57,7 @@ Contact us:
 6. Locate and activate your enabled payment methods.
 7. For **MultiSafepay Connect**, click **Configure**.
 8. For **Account type**, you have two options: **Live** and **Test**.  
-9. Enter your account ID, [site ID, secure code, and API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).  
+9. Enter your account ID, [site ID, secure code, and API key](/websites/#site-id-api-key-and-secure-code).  
 Make sure you enter the correct API key for the account type you want to use. 
 10. Click **Save changes**.  
 
