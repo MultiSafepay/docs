@@ -94,7 +94,7 @@ Default: `false` - doesn't display the cart.
 ----------------
 `redirect_mode` | string
 
-Sets how to display [3D Secure](/features/3d-secure/) verification.  
+Sets how to display [3D Secure](/cards/3ds2/) verification.  
 Options: `iframe`, `redirect`, `modal`.  
 Default: `redirect`.
 

@@ -113,32 +113,46 @@ name = "Shell"
     weight = 220
 
 [[menu.main]]
-    name = "Partner integrations"
-    url  = "/partner-integrations/"
+    name = "Payment pages"
+    url  = "/payment-pages/"
     parent = "integrations"
-    identifier = "partner-integrations"
+    identifier = "payment-pages"
     weight = 230
 
 [[menu.main]]
-    name = "Checkouts"
-    url  = "/checkouts/"
+    name = "Payment components"
+    url  = "/payment-components/"
     parent = "integrations"
-    identifier = "checkouts"
+    identifier = "payment-components"
     weight = 240
+
+[[menu.main]]
+    name = "Wallet integrations"
+    url  = "/wallet-integrations/"
+    parent = "integrations"
+    identifier = "wallet-integrations"
+    weight = 250
 
 [[menu.main]]
     name = "Webhook"
     url  = "/integrations/webhooks/"
     parent = "integrations"
     identifier = "webhook"
-    weight = 250
+    weight = 260
 
 [[menu.main]]
-    name = "Test your integration"
+    name = "Testing"
     url  = "/integrations/testing/"
     parent = "integrations"
     identifier = "testing"
-    weight = 260
+    weight = 270
+
+[[menu.main]]
+    name = "Partner integrations"
+    url  = "/partner-integrations/"
+    parent = "integrations"
+    identifier = "partner-integrations"
+    weight = 280
 
 [[menu.main]]
     name = "Payments"
@@ -155,22 +169,28 @@ name = "Shell"
     weight = 310
 
 [[menu.main]]
-    name = "About payments"
-    url  = "/payments/about"
+    name = "Refunds"
+    url  = "/refunds/"
+    parent = "payments"
+    weight = 315
+
+[[menu.main]]
+    name = "Recurring payments"
+    url  = "/payments/recurring-payments/"
     parent = "payments"
     weight = 320
 
 [[menu.main]]
-    name = "Payment features"
-    url  = "/payments/features"
+    name = "Split payments"
+    url  = "/payments/split-payments/"
     parent = "payments"
-    weight = 330
+    weight = 325
 
 [[menu.main]]
-    name = "Refunds"
-    url  = "/refunds/"
+    name = "Virtual IBANs"
+    url  = "/payments/virtual-ibans/"
     parent = "payments"
-    weight = 340
+    weight = 330
 
 [[menu.main]]
     name = "Accounting"
@@ -201,32 +221,54 @@ name = "Shell"
     weight = 530
 
 [[menu.main]]
-    name = "Developer tools"
-    url  = "/developer/"
+    name = "Developers"
+    url  = "/developers/"
     identifier = "developer"
     pre = "fa fa-cube fa-lg"
     weight = 70
 
 [[menu.main]]
     name = "Wrappers and SDKs"
-    url  = "/developer/wrappers/"
+    url  = "/developers/wrappers-sdks/"
     parent = "developer"
     identifier = "wrappers-sdks"
     weight = 720
 
 [[menu.main]]
-    name = "Errors explained"
-    url  = "/developer/errors-explained/"
+    name = "Handling errors"
+    url  = "/developers/errors/"
     parent = "developer"
-    identifier = "errors-explained"
+    identifier = "handling-errors"
     weight = 730
 
 [[menu.main]]
-    name = "Developer information"
-    url  = "/developer/general/"
+    name = "Email authentication"
+    url  = "/developers/email-authentication/"
     parent = "developer"
-    identifier = "developer-information"
+    identifier = "email-authentication"
+    weight = 750
+
+[[menu.main]]
+    name = "HTTP errors"
+    url  = "/developers/http-errors/"
+    parent = "developer"
+    identifier = "http-errors"
     weight = 740
+
+[[menu.main]]
+    name = "Google Analytics"
+    url  = "/developers/google-analytics/"
+    parent = "developer"
+    identifier = "google-analytics"
+    weight = 760
+
+[[menu.main]]
+    name = "iFrames"
+    url  = "/developers/iframes/"
+    parent = "developer"
+    identifier = "iframes"
+    weight = 770
+
 
 [[menu.main]]
     name = "API Reference"
