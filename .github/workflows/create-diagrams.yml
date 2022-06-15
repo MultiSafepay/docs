@@ -6,8 +6,8 @@ name: Create mermaid diagrams
 on:
 
 # Run on pushes to master (includes merged PRs into master and direct pushes)
-  # push:
-    # branches: [ master ]
+  push:
+    branches: [ master, readmedocs-staging ]
 
   # Enable manual triggers (for testing)
   workflow_dispatch:
