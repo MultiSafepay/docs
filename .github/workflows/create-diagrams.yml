@@ -42,20 +42,18 @@ jobs:
           npm install @mermaid-js/mermaid-cli
 
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            fullfilename=$file
-            filename=$(basename "$fullfilename")
+            filename=$(basename "$file")
             fname="${filename%.*}"
             ext="${filename##*.}"
-            echo "Changed file: $file , has extension: $ext" 
 
-            if [ "$ext" = "md" ]
+            if [ "$ext" = "mmd" ]
             then
               echo "$file with extension md has changed"
-              npx mmdc -i $file -o $file --configFile static/diagrams/config.json
+              npx mmdc -i $file -o $fname.svg --configFile static/diagrams/config.json
             fi
           done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Automated mermaid diagrams
+          commit_message: Generate mermaid diagrams
           file_pattern: content/*
