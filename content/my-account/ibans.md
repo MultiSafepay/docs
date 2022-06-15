@@ -1,7 +1,7 @@
 ---
 title : "IBANs"
 category: 62962dcdbccb9a001d4bbc81
-order: 211
+order: 205
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
 slug: 'ibans'
@@ -11,7 +11,11 @@ International bank account numbers (IBANs) are sensitive data. For security reas
 
 You can still perform most business operations with masked IBANs, e.g. processing refunds.
 
-### Unmasking IBANs
+# Unmasking IBANs
+
+<details id=“how-to-unmask-ibans”>
+<summary>How to unmask IBANs</summary>
+<br>
 
 To unmask IBANs for a specific website, follow these steps:
 
@@ -21,3 +25,9 @@ To unmask IBANs for a specific website, follow these steps:
 4. Under **Website functionality**, click the **Unmask IBAN numbers in API requests and responses** toggle.
 
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
+
+</details>
+<br>
+
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

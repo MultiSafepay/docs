@@ -7,7 +7,7 @@ parentDoc: 62a206ee0298c80058af3aed
 slug: 'payouts'
 ---
 
-A payout is when you transfer funds from your MultiSafepay balance to your business bank account.
+A payout is when you transfer funds from your account balance to your business bank account.
 
 You can make payouts any time for 0,50 EUR each.
 
@@ -29,7 +29,7 @@ To add additional bank accounts to your account (once fully onboarded), follow t
 5. From the **Currency** list, select the currency of the bank account.
 6. Click **Save**.
 7. To verify the account, on the **Business bank account** page either:
-    - Make a payment of 1 EUR from the business bank account via iDEAL or Bank Transfer to your MultiSafepay balance, **or**
+    - Make a payment of 1 EUR from the business bank account via iDEAL or Bank Transfer to your account balance, **or**
     - Upload a copy of a bank statement. Select the file, and then click **Upload**.
     **Note:** The company name on the bank statement must exactly match one of the trade names on your Chamber of Commerce extract.
 
@@ -67,7 +67,7 @@ To set up a new automatic payout, follow these steps:
     - From the **Select the account number** list, select the business bank account number you want to transfer the withdrawal to.
 5. Click **Schedule payments**.
 
-**Note:** To schedule payouts for different currencies, you must have a MultiSafepay balance and an active business bank account for each currency.
+**Note:** To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.
 
 <img class="-radius max-width medium-img" src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Automatic-Withdrawals.png" alt="Screenshot of an automatic withdrawal in the MultiSafepay dashboard" >
 
@@ -158,7 +158,7 @@ You cannot make payouts if:
 <summary>Your MultiSafepay account is not yet fully activated</summary>
 <br>
 
-You can process payments immediately after creating a MultiSafepay test account and adding your website. But MultiSafepay holds your funds in your MultiSafepay balance until your account is fully activated.
+You can process payments immediately after creating a MultiSafepay test account and adding your website. But MultiSafepay holds your funds in your account balance until your account is fully activated.
 
 To check if your account is fully activated, follow these steps:
 
@@ -170,12 +170,11 @@ The Risk Team then checks and approves your account details and the information 
 
 </details>
 
-<details id="your-multisafepay-balance-is-negative">
-<summary>Your MultiSafepay balance is negative</summary>
+<details id="your-account-balance-is-negative">
+<summary>Your account balance is negative</summary>
 <br>
 
-&nbsp;  
-If your MultiSafepay balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
+If your account balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
 </details>
 
 <details id="your-payouts-are-deactivated">

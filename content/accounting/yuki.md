@@ -50,7 +50,7 @@ You can also integrate with [Duopact](https://www.snelkoppeling.eu/productoverzi
 
 To connect Duopact with your MultiSafepay account, see Duopact – [Contact](https://www.duopact.nl/nl/contact/).  
 
-Provide Duopact with your MultiSafepay [site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
+Provide Duopact with your MultiSafepay [site API key](/websites/#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
 
 </details >
 

@@ -8,7 +8,7 @@ slug: 'create-account'
 ---
 This page describes MultiSafepay account types and how to create test and live accounts. 
 
-## Account types
+# Account types
 
 There are three types of account: merchant, partner, and primary accounts.
 
@@ -26,22 +26,21 @@ flowchart TD
     id5(Yes= Partner account, <br> e.g. digital agencies, SaaS companies)
 
 {{< /mermaid >}}
-&nbsp;  
 
-## Test accounts
+# Test accounts
 
-You may want to start with a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then create a live account and [onboard](/account/onboarding-golive/) to start processing real payments.
+You may want to start with a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then create a live account and [onboard](/onboarding/) to start processing real payments.
 
 To create a free test account:
 
 - Fill out the [signup form](https://testmerchant.multisafepay.com/signup).
 - Sign in to your [test dashboard](https://testmerchant.multisafepay.com) using the security code we email you.
 
-## Live accounts
+# Live accounts
 
-To create and [onboard](/account/onboarding-golive/) a live account and start processing real payments, follow these steps: 
+To create and [onboard](/onboarding/) a live account and start processing real payments, follow these steps: 
 
-**1.** Fill out the relevant signup form: 
+1. Fill out the relevant signup form: 
 
 |   |  |  | 
 |---|---|---|
@@ -50,22 +49,23 @@ To create and [onboard](/account/onboarding-golive/) a live account and start pr
 
 You receive an email containing your **security code**. 
 
-**2.** Use your security code to sign in to your account: 
+2. Use your security code to sign in to your account: 
 
 - [Live account](https://merchant.multisafepay.com/) 
 - [Test account](https://testmerchant.multisafepay.com/) 
 
-**3.** Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
+3. Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
 
-**4.** For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/getting-started/guide/#5-onboard-your-account).  
+4. For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/onboarding/).  
 
 For any questions, email <support@multisafepay.com>
 
-## Switching to MultiSafepay from another PSP
+# Switching to MultiSafepay from another PSP
 
 You can sign up for a MultiSafepay account while still using another PSP without incurring any costs. A test account lets you process test payments and gives access to all features. MultiSafepay only starts charging monthly fees when you onboard, go live, and begin processing real payments. 
 
-### Transferring tokens
+## Transferring tokens
 In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/features/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
 
-For more information, email <sales@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <sales@multisafepay.com>

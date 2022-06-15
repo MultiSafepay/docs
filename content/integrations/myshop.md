@@ -14,7 +14,7 @@ This technical manual is for installing and configuring myShop's free app for in
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started/guide/).
+You will need a [MultiSafepay account](/getting-started-guide/).
 
 </details>
 
@@ -60,7 +60,7 @@ Contact MultiSafepay:
 1. Sign in to your myShop backend.
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
-4. Enter your [account ID, site ID, and site secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).  
+4. Enter your [account ID, site ID, and site secure code](/websites/#site-id-api-key-and-secure-code).  
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
 

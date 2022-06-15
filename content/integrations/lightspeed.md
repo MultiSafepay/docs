@@ -49,7 +49,7 @@ Contact us:
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:  
-    - Enter your email address, [account ID and site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+    - Enter your email address, [account ID and site API key](/websites/#site-id-api-key-and-secure-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
@@ -65,7 +65,7 @@ You are redirected to the **Settings** page.
 <summary>Changing API keys and environments</summary>
 <br>
 
-To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
+To change your [API key](/websites/#site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
 1. Sign in to the app.
 2. Tap the hamburger menu and go to **Environment**.

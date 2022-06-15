@@ -130,7 +130,7 @@ You can view the number of cards used:
 <summary>Settlement status</summary>
 <br>
 
-After you ship a [Klarna](/klarna/), [Afterpay](/afterpay/), [Betaal per Maand](/betaal-per-maand/), and [Pay After Delivery](/pay-after-delivery/) order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status changes to **Completed** when MultiSafepay adds the funds to your MultiSafepay balance.
+After you ship a [Klarna](/klarna/), [Afterpay](/afterpay/), [Betaal per Maand](/betaal-per-maand/), and [Pay After Delivery](/pay-after-delivery/) order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status changes to **Completed** when MultiSafepay adds the funds to your account balance.
 
 For [Request to Pay](/request-to-pay/), [Sofort](/sofort/), and [SEPA Direct Debit](/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement partially or in full. We recommend **not** shipping orders during this status.
 

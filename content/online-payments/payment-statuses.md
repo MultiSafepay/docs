@@ -14,7 +14,7 @@ Changes as the customer's order with you progresses towards shipment (independen
 API attribute: `status`
 
 ## Transaction status
-Changes as the funds progress towards settlement in your MultiSafepay balance.  
+Changes as the funds progress towards settlement in your account balance.  
 API attribute: `financial_status`
 
 ## Status meanings
@@ -47,7 +47,7 @@ The table below sets out possible order and transaction statuses and what they c
 If the status of the refund  is **reserved**, it may mean: 
 
 - The refund hasn't been processed yet. Refunds are passed to the customer's bank at midnight on the day they are initiated, and then the status changes to **completed**. The bank is now responsible for processing the payment. Refunds may be delayed by the issuing bank.
-- The refund cannot be processed due to insufficient funds in your MultiSafepay balance. To top up your balance, see [Topping up your balance](/account-balance/).
+- The refund cannot be processed due to insufficient funds in your account balance. To top up your balance, see [Topping up your balance](/account-balance/).
 
 <br>
 

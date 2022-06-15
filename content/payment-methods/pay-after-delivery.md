@@ -63,7 +63,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -113,7 +113,7 @@ To close a transaction manually, follow these steps:
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Complete own funds**. 
 5. Enter a comment about what happened with the order, and click **Complete**.  
-    The total amount of the transaction is deducted from your MultiSafepay balance. 
+    The total amount of the transaction is deducted from your account balance. 
 
 **Note:** Once the transaction status changes to **completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/) instead. 
 

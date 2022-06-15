@@ -15,7 +15,7 @@ This technical manual is for installing and configuring Mijnwebwinkel's free app
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started/guide/).
+You will need a [MultiSafepay account](/getting-started-guide/).
 
 </details>
 
@@ -43,7 +43,7 @@ Contact MultiSafepay:
 
 1. Sign in to your Mijwebwinkel backend.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
-2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/websites/#site-id-api-key-and-secure-code).
 6. Select the relevant payment methods.
 
 # User guide

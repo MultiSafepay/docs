@@ -61,7 +61,7 @@ Contact us:
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code).
 
 # User guide
 
