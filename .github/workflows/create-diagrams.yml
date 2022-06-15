@@ -28,5 +28,11 @@ jobs:
       - name: List all changed files
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file"
+          done
+
+      - name: Filter for diagram source files
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file" | grep static/diagrams/src/
           done
