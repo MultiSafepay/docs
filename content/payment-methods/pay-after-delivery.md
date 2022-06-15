@@ -24,7 +24,6 @@ See how Pay After Delivery can [benefit your business](https://www.multisafepay.
 | **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
 | **Addresses** | The delivery and invoice addresses must be the **same** to prevent fraud. |
 | **Shipping policies** | [MultiFactor shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies) <br> [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) <br> [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) |
-<br>
 
 # Payment flow
 
@@ -55,7 +54,6 @@ sequenceDiagram
     Mu->>Me: Settles funds (within 30 days of Shipped status)
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -85,14 +83,13 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 </details>
 
-
 # Activation and integration
 
 | | |
 |---|---|
-| **Activation** | [Pay After Delivery activation](/payments/activating-payment-methods/#pay-after-delivery) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Activation** | [Pay After Delivery activation](/payment-methods/#pay-after-delivery) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).   |
 <br>
@@ -205,7 +202,6 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, email <sales@multisafepay.com> 
-
 <br>
 
 > 📘 **More info**

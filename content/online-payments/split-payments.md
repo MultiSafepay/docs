@@ -1,37 +1,31 @@
 ---
 title: 'Split Payments'
-weight: 40
-layout: 'single'
-meta_title: "Split Payments - MultiSafepay Docs"
-logo: '/svgs/Split payments.svg'
-short_description: 'Split funds between your partner/primary account and affiliated merchants.'
-url: '/payments/split-payments/'
-aliases:
-    - /tools/split-payments/about-split-payments/
-    - /tools/split-payments/what-is-split-payments
-    - /tools/split-payments/processing-split-payments/
-    - /tools/split-payments/how-do-i-get-split-payments
-    - /tools/split-payments/refunding-split-payments/
-    - /tools/split-payments/how-do-i-refund-split-payment-orders
-    - /payments/features/split-payments/
-    - /features/split-payments/
+category: 6278c92bf4ad4a00361431b0
+order: 900
+hidden: false
+slug: 'split-payments'
+excerpt: 'Split funds between your partner/primary account and affiliated merchants.'
 ---
-
-Split Payments lets you divide an incoming transaction amount between two or more MultiSafepay accounts. This feature is supported for all [account types](/account/account-types/) and affiliations, e.g.:
+Split Payments lets you divide an incoming transaction amount between two or more MultiSafepay accounts. This feature is supported for all [account types](/create-account/) and affiliations, e.g.:
 
 - Partner/primary accounts, e.g. for mixed baskets where customers buy products from multiple affiliated merchants in a single transaction on your marketplace
 - Affiliated accounts, e.g. for franchises splitting 10% of all incoming transactions to the linked primary account
 
 You can split payments by percentage, a fixed amount, or by both.
 
-## Integration
+# Integration
 
 See API recipe – [Split a payment](https://docs-api.multisafepay.com/recipes/split-a-payment).
 
-## Refunds
+Split Payments are not supported in our [ready-made integrations](/integrations/ready-made/).
+
+# Refunds
+
 You can process full and partial refunds, but only from the account that created the split payment. 
 
-To refund a split payment, follow these steps:
+<details id="how-to-refund-split-payment">
+<summary>How to refund a split payment</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
@@ -39,12 +33,13 @@ To refund a split payment, follow these steps:
 4. Click **Refund**.
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.  
-
-The [transaction status](/about-payments/multisafepay-statuses/) changes to **Initialized**, and you can [cancel the refund](/refunds/about/#cancelling-refunds).  
+    The [transaction status](/payments-statuses/) changes to **Initialized**.
+7. [Cancel the refund](/refunds/).  
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 
-To refund more than the original amount, see [Refunds](/refunds/).
+</details>
+<br>
 
-**Note:** Split Payments are not supported in our [ready-made integrations](/integrations/ready-made/).
-
+> 📘 **More info**
+> For more information or support, email <integration@multisafepay.com>

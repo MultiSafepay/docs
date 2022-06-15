@@ -19,7 +19,7 @@ See how Alipay can [benefit your business](https://www.multisafepay.com/solution
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial refunds](/refunds/#full-and-partial-refunds), [discounts](/discounts/), [API refunds](/refunds/)  |
+| **Refunds** | [Full, partial, and API refunds](/refunds/), and [discounts](/discounts/)  |
 | **Supports**  | [Second Chance](/second-chance/) |
 | **Transactions expire after** | 5 hours |
 
@@ -46,7 +46,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses
 
@@ -76,9 +75,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
-| **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
+| **Activation** | [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only)  |
+| **Testing** | [Test payment details](/testing/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
 <br>

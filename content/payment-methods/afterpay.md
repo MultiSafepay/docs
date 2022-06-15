@@ -17,7 +17,7 @@ See how AfterPay can [benefit your business](https://www.multisafepay.com/soluti
 | **Countries**  | The Netherlands, Belgium  | 
 | **Currencies**  | EUR  | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full, partial, and API refunds](/refunds/pay-later/), [discounts](/refunds/discounts/) |
+| **Refunds** | [Full, partial, and API refunds](/refunds/), [discounts](/discounts/) |
 | **Transactions expire after** | 90 days |
 
 # Payment flow
@@ -82,11 +82,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [AfterPay activation](/payments/activating-payment-methods/#afterpay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) <br> Activate at website level in your MultiSafepay dashboard. |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Activation** | [AfterPay activation](/payment-methods/#afterpay) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) <br> Activate at website level in your MultiSafepay dashboard. |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect |
-| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal-8-9/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.6](/prestashop-1-6/), [PrestaShop 1.7](/prestashop-1-7/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.6 and 1.7](/prestashop/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
 <br>
 
 ---
@@ -147,7 +147,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 </details>
 
 ### Surcharges  
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/about-payments/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 AfterPay therefore strongly recommends discontinuing any surcharges. 
 

@@ -18,7 +18,7 @@ See how EPS can [benefit your business](https://www.multisafepay.com/solutions/p
 | **Countries**  | Austria  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
+| **Refunds** | [Full and partial](/refunds/) |
 | **Supports** | [Second Chance](/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 
@@ -42,7 +42,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -72,9 +71,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > EPS redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>

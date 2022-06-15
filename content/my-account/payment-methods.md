@@ -12,9 +12,9 @@ You can enable payment methods for your account yourself in your dashboard, but 
 
 | Activation flow | Payment methods |
 |---|---|
-| [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, <br> SEPA Direct Debit |
-| [Enable in dashboard](/payments/activating-payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
-| [Own flow](/payments/activating-payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, <br> Edenred, gift cards, Paysafecard, <br> PayPal |
+| [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, {{< br >}} SEPA Direct Debit |
+| [Enable in dashboard](/payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
+| [Own flow](/payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, {{< br >}} Edenred, gift cards, Paysafecard, {{< br >}} PayPal |
 
 > 📘 Ready-made integrations
 > 

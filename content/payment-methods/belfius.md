@@ -17,7 +17,7 @@ See how Belfius can [benefit your business](https://www.multisafepay.com/solutio
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) (1 business day after payment is completed) |
+| **Refunds** | [Full and partial](/refunds/) (1 business day after payment is completed) |
 | **Supports** | [Second Chance](/second-chance/) |
 | **Transactions expire after** | 5 days  |
 
@@ -44,7 +44,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 **Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. 
 
@@ -80,9 +79,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Belfius direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce and ZenCart. |
 <br>

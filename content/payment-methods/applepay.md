@@ -18,8 +18,8 @@ See how Apple Pay can [benefit your business](https://www.multisafepay.com/solut
 |---|---|
 | **Countries**  | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
 | **Currencies**  | [Multiple](https://support.apple.com/en-us/HT207957)  | 
-| **Chargebacks**   | [Yes](/payments/chargebacks/) | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
+| **Chargebacks**   | [Yes](/chargebacks/) | 
+| **Refunds** | [Full and partial](/refunds/) <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
 | **Supports**  | [Second Chance](/second-chance/) |
 | **Transactions expire after** | 1 hour |
 | **Requirements** | Customers must use the Safari browser. <br> An SSL secured connection (HTTPS) is required. |
@@ -61,7 +61,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>
 
 # Payment statuses
 
@@ -79,11 +78,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 |---|---|---|
 | **Payments** | | |
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/cards/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/cards/errors/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/card-errors/). | Declined | Declined   |
 |**Refunds**|||
 | Refund initiated. | Reserved    | Reserved   |
 | Refund complete.  | Completed  | Completed  |
@@ -94,18 +93,18 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only)  |
-| **Testing** | [Test payment details](/testing/test-payment-details/) |
+| **Activation** | [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only)  |
+| **Testing** | [Test payment details](/testing/) |
 | **Apple branding** | When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing). |
 | **Ready-made integrations** | Apple Pay redirect is supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce, VirtueMart, X-Cart, Zen Cart. |
 <br>
 
 To build your own Apple Pay integration, see:
 
-- [Apple Pay direct integration](/docs/apple-pay-direct/)
+- [Direct integration](/apple-pay-direct/)
 
-- [Apple Pay direct integration](/docs/apple-pay-redirect/)
+- [Redirect integration](/apple-pay-redirect/)
 <br>
 
 ---

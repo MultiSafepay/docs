@@ -1,7 +1,7 @@
 ---
 title: 'PayPal'
 category: 6298bd782d1cf4006032e765
-order: 504
+order: 507
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: paypal
@@ -16,8 +16,8 @@ See how PayPal can [benefit your business](https://www.multisafepay.com/solution
 |---|---|
 | **Countries**  | Worldwide  | 
 | **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
-| **Chargebacks**  |  [Yes](/payments/chargebacks/)  |
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) (see guidance below) | 
+| **Chargebacks**  |  [Yes](/chargebacks/)  |
+| **Refunds** | [Full and partial](/refunds/) (see guidance below) | 
 | **Supports** | [Second Chance](/second-chance/) |
 | **Transactions expire after**  | 14 days | 
 
@@ -79,9 +79,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [PayPal activation](/payments/activating-payment-methods/#paypal) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
+| **Activation** | [PayPal activation](/payment-methods/#paypal) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > PayPal direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 <br>
