@@ -41,7 +41,7 @@ jobs:
           npm install @mermaid-js/mermaid-cli
 
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            mmdc -i $file -o $file --configFile static/diagrams/config.json
+            npx mmdc -i $file -o $file --configFile static/diagrams/config.json
           done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
