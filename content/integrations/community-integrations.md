@@ -50,7 +50,7 @@ ___
 
 # Sylius
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Sylius.svg.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Sylius.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 BitBag provides a MultiSafepay plugin for Sylius.
 
