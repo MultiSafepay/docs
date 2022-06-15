@@ -24,7 +24,7 @@ See how AfterPay can [benefit your business](https://www.multisafepay.com/soluti
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-``` mermaid
+```mermaid
 sequenceDiagram
     autonumber
     participant C as Customer
