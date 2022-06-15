@@ -28,7 +28,7 @@ jobs:
       - name: List all changed files
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file"
+            echo "$file" | 
           done
 
       - name: Setup node
@@ -41,7 +41,15 @@ jobs:
           npm install @mermaid-js/mermaid-cli
 
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            npx mmdc -i $file -o $file --configFile static/diagrams/config.json
+            fullfilename=$file
+            filename=$(basename "$fullfilename")
+            fname="${filename%.*}"
+            ext="${filename##*.}"
+
+            if [$ext = "md"]
+              then
+              npx mmdc -i $file -o $file --configFile static/diagrams/config.json
+            fi
           done
 
       - uses: stefanzweifel/git-auto-commit-action@v4

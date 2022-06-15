@@ -24,8 +24,7 @@ See how AfterPay can [benefit your business](https://www.multisafepay.com/soluti
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
+```mermaid
 sequenceDiagram
     autonumber
     participant C as Customer
@@ -48,7 +47,7 @@ sequenceDiagram
     A->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
+```
 <br>  
 
 # Payment statuses
