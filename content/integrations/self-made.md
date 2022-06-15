@@ -29,4 +29,4 @@ Firstly, check that you have completed these prerequisite steps:
 1. [Create a test account](/docs/getting-started-guide#1-create-a-free-test-account).
 2. [Set up your account](/docs/getting-started-guide#2-set-up-your-account).
 
-Before continuing with this tutorial, see if you can save yourself some development time with our range of [wrappers and SDKs](/developers/wrappers-sdks/).
+Before continuing with this tutorial, see if you can save yourself some development time with our range of [wrappers and SDKs](/wrappers-sdks/).

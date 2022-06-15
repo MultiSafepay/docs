@@ -4,7 +4,6 @@ category: 62962dd7e272a6002ebbbbc5
 order: 201
 hidden: false
 parentDoc: 62a1d780224ed800a4af21d0
-excerpt: "Free app to integrate MultiSafepay payment solutions with CCV Shop."
 slug: 'ccv-shop'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CCVShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -42,6 +41,10 @@ Contact MultiSafepay:
 4. Enter your [account ID, site ID and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
 5. If using your MultiSafepay test account, select **Test mode**.
 6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
+
+<br>
+
+___
 
 # User guide
 

@@ -24,7 +24,7 @@ You can configure the webhook at website level or at order level.
 <summary>Webhook</summary>
 <br>
 
-The webhook is triggered when the [order or transaction status](/about-payments/multisafepay-statuses/) changes, e.g. when:
+The webhook is triggered when the [order or transaction status](/payments-statuses/) changes, e.g. when:
 
 - A customer completes payment
 - A customer's payment is declined or fails

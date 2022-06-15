@@ -60,7 +60,7 @@ ___
 
 # Build a community integration
 
-At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who create code wrappers, plugins, and applications in order to integrate our products and services.
+At MultiSafepay, our developers write code in-house for processing transactions. However, there are also many fantastic external developers worldwide who create code wrappers, plugins, and applications in order to integrate our products and services.
 
 We'd like to work with you, and will help market your work and promote it on MultiSafepay Docs. To add your project to MultiSafepay Docs, email <integration@multisafepay.com>
 

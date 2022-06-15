@@ -4,7 +4,6 @@ category: 62962dd7e272a6002ebbbbc5
 order: 205
 hidden: false
 parentDoc: 62a1d780224ed800a4af21d0
-excerpt: "Free app integrate MultiSafepay payment solutions with myShop."
 slug: 'myshop'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

@@ -4,7 +4,6 @@ category: 62962dd7e272a6002ebbbbc5
 order: 202
 hidden: false
 parentDoc: 62a1d780224ed800a4af21d0
-excerpt: "Integrate MultiSafepay payment solutions into your Coppermine ecommerce platform."
 slug: 'coppermine'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/coppermine-docs.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

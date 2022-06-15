@@ -26,7 +26,7 @@ To integrate the app, email <integration@multisafepay.com>
 <summary>Support</summary>
 <br>
 
-For support, contact [Dynamicweb](https://www.dynamicweb.com/about/contact-us). 
+For support, see Dynamicweb - [Contact us](https://www.dynamicweb.com/about/contact-us). 
 </details>
 
 ___
@@ -194,7 +194,7 @@ You will need a [MultiSafepay account](/getting-started/guide/).
 <summary>Support</summary>
 <br>
 
-See ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
+See ShopFactory – [ShopFactory support](https://www.shopfactory.nl/contents/nl/d122.html).
 </details>
 
 <details id="shopfactory-payment-methods">
@@ -210,7 +210,7 @@ Email <integration@multisafepay.com>
 
 You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 
-To process refunds from your ShopFactory [backend](/glossaries/multisafepay-glossary/#backend), email <integration@multisafepay.com>
+To process refunds from your ShopFactory backend, email <integration@multisafepay.com>
 </details>
 
 ___

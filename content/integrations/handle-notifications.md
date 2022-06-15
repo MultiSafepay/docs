@@ -4,7 +4,6 @@ category: 62962dd7e272a6002ebbbbc5
 order: 403
 hidden: false
 parentDoc: 62a1d799ab0558004cabb528
-excerpt: 'Handle notifications successfully.'
 slug: 'handle-notifications'
 next:
   description: Test your integration
@@ -33,7 +32,7 @@ Check the order status in the `status` field. If necessary, update your backend.
 **Note:** You can ignore notifications that:
 
 - Don't have the `timestamp` parameter in the URL  
-- Have the same [order status](/about-payments/multisafepay-statuses/) 
+- Have the same [order status](/payments-statuses/) 
 
 # Validate the request
 
