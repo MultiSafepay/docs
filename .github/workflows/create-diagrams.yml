@@ -49,7 +49,7 @@ jobs:
             if [ "$ext" = "mmd" ]
             then
               echo "$file with extension .mmd has changed"
-              npx mmdc -i $file -o $fname.svg --configFile static/diagrams/config.json
+              npx mmdc -i $file -o test.svg --configFile static/diagrams/config.json
             fi
           done
 
