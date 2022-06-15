@@ -46,6 +46,7 @@ jobs:
             fname="${filename%.*}"
             ext="${filename##*.}"
             echo "Changed file: $file , has extension: $ext" 
+            echo "$ext"
 
             if ["$ext" = "md"]
               then
