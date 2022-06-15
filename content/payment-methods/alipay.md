@@ -27,7 +27,7 @@ See how Alipay can [benefit your business](https://www.multisafepay.com/solution
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
+```mermaid
 
 sequenceDiagram
     autonumber
@@ -44,8 +44,7 @@ sequenceDiagram
     end
     A->>Mu: Transfers funds 
     Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+```
 <br>  
 
 # Payment statuses
