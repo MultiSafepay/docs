@@ -23,7 +23,7 @@ LogiVert provides a free app for integrating MultiSafepay payment solutions.
 
 {{< details title="Requirements" >}}
 &nbsp;  
-You will need a [MultiSafepay account](/getting-started/guide/).
+You will need a [MultiSafepay account](/getting-started-guide).
 
 {{< /details >}}
 

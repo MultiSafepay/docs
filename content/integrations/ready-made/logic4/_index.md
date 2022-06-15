@@ -26,7 +26,7 @@ Logic4 provides a free plugin for integrating with MultiSafepay.
 
 {{< details title="Requirements">}} 
 &nbsp;  
-You will need a [MultiSafepay account](/getting-started/guide/).
+You will need a [MultiSafepay account](/getting-started-guide).
 
 {{< /details >}}
 

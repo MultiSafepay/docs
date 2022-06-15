@@ -22,7 +22,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - Odoo 13.0
 - Tested on Python 3.6
 

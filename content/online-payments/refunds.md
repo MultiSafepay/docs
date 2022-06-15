@@ -8,7 +8,7 @@ slug: 'refunds'
 This page provides information about processing refunds with MultiSafepay. 
 
 - Refunds can only be processed for payments linked to transactions, otherwise the customer receives credit on their invoice instead.
-- Refunds are only processed if there are enough funds in your MultiSafepay balance.
+- Refunds are only processed if there are enough funds in your account balance.
 - Customers receive refunds in the bank account they originally paid from.
 
 # Full and partial refunds

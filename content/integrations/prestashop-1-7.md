@@ -23,7 +23,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
@@ -58,7 +58,7 @@ Contact us:
 
 # Configuration
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/websites/#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 

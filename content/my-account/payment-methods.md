@@ -1,20 +1,21 @@
 ---
 title: "Payment methods"
 category: 62962dcdbccb9a001d4bbc81
-order: 209
+order: 208
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
+slug: payment-methods
 ---
 
-MultiSafepay offers a wide range of [payment methods](/payment-methods/).
+This page describes how to activate payment methods for your account.
 
-You can enable payment methods for your account yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
+Some you can enable yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow. 
 
 | Activation flow | Payment methods |
 |---|---|
-| [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) | [Cards](/payment-methods/credit-debit-cards/) and [wallets](/payment-methods/wallets/) (**except** PayPal), {{< br >}} Dotpay, in3, Pay After Delivery, {{< br >}} SEPA Direct Debit |
-| [Enable in dashboard](/payment-methods/#enable-in-dashboard) | [Banking methods](/payment-methods/banks), E-Invoicing   |
-| [Own flow](/payment-methods/#own-flow) | AfterPay, Betaal per Maand, Klarna, {{< br >}} Edenred, gift cards, Paysafecard, {{< br >}} PayPal |
+| [Apply to MultiSafepay](#apply-to-multisafepay) | Credit and debit cards and wallets (**except** PayPal), <br> Dotpay, in3, Pay After Delivery, <br> SEPA Direct Debit |
+| [Enable in dashboard](#enable-in-dashboard) | Banking methods, E-Invoicing   |
+| [Own flow](#own-flow) | AfterPay, Betaal per Maand, Klarna, <br> Edenred, gift cards, Paysafecard, <br> PayPal |
 
 > 📘 Ready-made integrations
 > 
@@ -23,29 +24,32 @@ You can enable payment methods for your account yourself in your dashboard, but 
 ## Apply to MultiSafepay 
 
 1. Email a request to <risk@multisafepay.com> 
-<details id="cards-apple-pay-and-google-pay">
-<summary>Cards, Apple Pay, and Google Pay</summary>
- 
-Include in the request your: 
-  
-- Average, minimum, and maximum transaction amount 
-- Annual turnover 
-</details>
+    <details id="cards-apple-pay-and-google-pay">
+    <summary>Cards, Apple Pay, and Google Pay</summary>
+    <br>
 
-<details id="sepa-direct-debit">
-<summary>SEPA Direct Debit</summary>
+    Include in the request your: 
+    
+    - Average, minimum, and maximum transaction amount 
+    - Annual turnover 
+    
+    </details>
 
-- Include in the request the following information:
-    - Monthly and annual SEPA Direct Debit transaction volume
-    - Minimum and maximum transaction amount
-    - Type of products sold using this payment method
-    - Whether you want to accept [Recurring payments](/recurring-payments/)
-    - Whether any subscriptions are monthly, quarterly, or annual
-- Depending on the details provided, we may ask for additional information.
-- We send you an agreement to sign and email back to us.
-</details>
-1. We check your eligibilty and if approved, activate the payment method for your account. 
-2. Once approved, enable the method in your dashboard as below.
+    <details id="sepa-direct-debit">
+    <summary>SEPA Direct Debit</summary>
+    <br>
+
+    - Include in the request the following information:
+        - Monthly and annual SEPA Direct Debit transaction volume
+        - Minimum and maximum transaction amount
+        - Type of products sold using this payment method
+        - Whether you want to accept [Recurring payments](/recurring-payments/)
+        - Whether any subscriptions are monthly, quarterly, or annual
+    - Depending on the details provided, we may ask for additional information.
+    - We send you an agreement to sign and email back to us.
+    </details>
+2. We check your eligibilty and if approved, activate the payment method for your account. 
+3. Once approved, enable the method in your dashboard as below.
 
 ## Enable in dashboard
 
@@ -83,7 +87,7 @@ Include in the request your:
 
 You must:
 
-- Have a [MultiSafepay account](/getting-started/)
+- Have a [MultiSafepay account](/getting-started-guide)
 - Be registered with a Dutch Chamber of Commerce (no exceptions)
 - Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
 - Sell products or services to European citizens with a residential or delivery address in the Netherlands (no exceptions)
@@ -143,7 +147,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 2. Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.
 3. Sign an agreement with Klarna, including pricing.
 4. We activate Klarna for your MultiSafepay account. 
-5. If using a ready-made integration, activate Klarna in your [backend](/glossaries/multisafepay-glossary/#backend).
+5. If using a ready-made integration, activate Klarna in your backend.
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
@@ -213,7 +217,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 - If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
 
 Your account is now configured!  
-We strongly recommend [testing transactions](/payment-methods/paypal/integration-testing/) before processing live payments. 
+We strongly recommend [testing transactions](/testing) before processing live payments. 
 </details>
 
 ### Paysafecard
@@ -231,5 +235,7 @@ Search for outlets that sell Paysafecard:
 For any questions, email <sales@multisafepay.com>
 </details>
 
+<br>
 
-
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

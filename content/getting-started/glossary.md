@@ -3,7 +3,11 @@ title: "Glossary"
 category: 627bbcf80c1c9c0050320b60
 order: 300
 hidden: false
+slug: glossary
 ---
+#### account balance
+The balance of funds held in a MultiSafepay account.
+
 #### acquirer
 A financial institution that processes card payments with issuers on behalf of merchants. MultiSafepay is an acquirer for Visa, Mastercard, and Bancontact.
 
@@ -64,9 +68,6 @@ A company (legal entity) that sells products and services to customers.
 #### MultiSafepay account
 A merchant's account with MultiSafepay, managed via a [web dashboard](https://merchant.multisafepay.com/).
 
-#### MultiSafepay balance
-The balance of funds held in a MultiSafepay account.
-
 #### order
 All information related to a single instance of products and/or services sold to a customer that is linked to one or more transactions.
 
@@ -93,7 +94,7 @@ A terminal that accepts payments, usually by card or near-field communication (N
 #### RESTful API (application programming interface)
 The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](https://docs-api.multisafepay.com/reference/introduction) specifies the content and format of requests to our server and the responses the server sends back.
 
-### reversal
+#### reversal
 When a customer cancels an order paid by debit card and takes the funds back.
 
 #### SEPA

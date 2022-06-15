@@ -88,7 +88,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - OsCommerce 2.3
 - Tested on PHP 7.0
 
@@ -118,7 +118,7 @@ Contact MultiSafepay:
 2. Sign in to your OsCommerce backend.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then complete the other fields as required.
+5. Enter your [API key](/websites/#site-id-api-key-and-security-code), and then complete the other fields as required.
 
 # User guide
 

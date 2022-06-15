@@ -26,7 +26,7 @@ The most common operation to perform with our API is creating an order. To speci
 
 Before making any API requests, you must:
 
-- Have a [site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+- Have a [site API key](/websites/#site-id-api-key-and-security-code).
 - Choose the test or live [environment](https://docs-api.multisafepay.com/reference/environments).
 
 You must include your API key in the request URL as a query parameter to be able to authenticate your request.  
@@ -183,11 +183,11 @@ You should receive a response like this:
 ```
 The most important parameter is `status`, which represents the [status of the order](/about-payments/multisafepay-statuses/), i.e. the progression of the customer’s order with you. 
 
-The second most important parameter is `financial_status`, which represents the [status of the transaction](/about-payments/multisafepay-statuses/), i.e. the progression towards settling the funds in your MultiSafepay balance.
+The second most important parameter is `financial_status`, which represents the [status of the transaction](/about-payments/multisafepay-statuses/), i.e. the progression towards settling the funds in your account balance.
 
 We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Status meanings](/payments/multisafepay-statuses/#status-meanings).
 
-In this example, the `status` is **Completed**. This means that the customer has completed payment and settlement is guaranteed. The `financial_status` is also **Completed**. This means that the funds have been settled in your MultiSafepay balance.
+In this example, the `status` is **Completed**. This means that the customer has completed payment and settlement is guaranteed. The `financial_status` is also **Completed**. This means that the funds have been settled in your account balance.
 
 Now that you know how to create an order and check its details, and know what is important to look for, it's the perfect time to introduce you to our webhook.
 

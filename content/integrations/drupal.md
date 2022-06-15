@@ -23,7 +23,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
@@ -61,7 +61,7 @@ composer require drupal/commerce_multisafepay_payments
 ## Configuration  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
-3. Enter your [account ID, site ID, and site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). 
+3. Enter your [account ID, site ID, and site API key](/websites/#site-id-api-key-and-security-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
@@ -156,7 +156,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - Drupal 7.x
 - Tested on PHP 7.0
 

@@ -7,15 +7,13 @@ hidden: false
 slug: 'prohibited-products-services'
 ---
 
-As a [payment service provider](/glossaries/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
+As a payment service provider, MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
 
 We must account for risk and potential reputational damage. Therefore, we prohibit the sale of some products and services, or require additional information from the merchant.
 
-For a list of prohibited products and services, email <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
+# Alcohol
 
-## Alcohol
-
-MultiSafepay has an obligation to ensure you comply with relevant legislation and that your customers meet the requirements for purchasing alcohol. For questions, email <risk@multisafepay.com>
+MultiSafepay has an obligation to ensure you comply with relevant legislation and that your customers meet the requirements for purchasing alcohol. 
 
 Dutch law states that alcohol cannot be sold to customers under the age of **18**. You must verify customers' age when selling or delivering orders that include alcohol. When orders are delivered, customers must show a valid identification document with their date of birth, e.g.:
 
@@ -28,8 +26,8 @@ If you sell alcohol, you must:
 - State this clearly on your website.
 - Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
-<details id="download-a-declaration">
-<summary>Download a declaration</summary>
+<details id="how-to-download-a-declaration">
+<summary>How to download a declaration</summary>
 <br>
 
 - [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
@@ -46,7 +44,8 @@ If you sell spirits with an alcohol content of 15% or higher, you must:
 - Hold a valid liquor license. 
 - Email a copy of your license to <risk@multisafepay.com>
 
-## Prohibited products and services
+# Prohibited products and services
+
 | | |
 |---|---|
 | **Cryptocurrency** | Platforms for cryptocurrency trading |
@@ -104,5 +103,10 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 | n/a | Sale of replicas and "inspired by" items |
 
 </details>
+<br>
 
-For more information, email <risk@multisafepay.com>
+
+> 📘 **More info**
+> To discuss your options, call +31 20 8500 502.
+> 
+> For more information, email <risk@multisafepay.com>

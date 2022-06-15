@@ -23,7 +23,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - OpenCart 2.X, 3.X
 - PHP version 7.2, 7.3, or 7.4
 
@@ -61,7 +61,7 @@ Contact us:
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/websites/#site-id-api-key-and-security-code).
 
 # User guide
 

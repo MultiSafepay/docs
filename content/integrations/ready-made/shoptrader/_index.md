@@ -23,7 +23,7 @@ aliases:
 Shoptrader provides a free plugin to integrate with MultiSafepay. 
 
 ## Requirements
-You will need a [MultiSafepay account](/getting-started/guide/).
+You will need a [MultiSafepay account](/getting-started-guide).
 
 ## Support
 For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>

@@ -21,7 +21,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/getting-started-guide)
 - Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
 - Tested on PHP 7.0
 
@@ -60,7 +60,7 @@ Contact us:
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
     - Account ID (top-right corner of your dashboard)
-    - [Site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
+    - [Site ID, API key, and secure code](/websites/#site-id-api-key-and-security-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
 # User guide

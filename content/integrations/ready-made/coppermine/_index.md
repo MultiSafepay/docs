@@ -25,7 +25,7 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
     - In the **Notification URL** field, add the Coppermine webhook endpoint for sending status updates and other notifications. For more information, see [Webhook](/integrations/webhooks/).
 4. Copy your:
     - Account ID (top-right corner of the dashboard)
-    - [Site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code)
+    - [Site ID, API key, and secure code](/websites/#site-id-api-key-and-security-code)
 
 ### 2. In Coppermine
 

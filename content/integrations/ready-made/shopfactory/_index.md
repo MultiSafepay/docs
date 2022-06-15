@@ -28,7 +28,7 @@ ShopFactory provides a free plugin to integrate with MultiSafepay.
 
 ### Requirements
 
-You will need a [MultiSafepay account](/getting-started/guide/).
+You will need a [MultiSafepay account](/getting-started-guide).
 
 ### Support
 

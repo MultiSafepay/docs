@@ -8,7 +8,7 @@ slug: request-to-pay
 ---
 Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking API. Customers are redirected to Deutsche Bank online banking to authenticate themselves, and authorize a secure SEPA transfer. Settlement is instant (if supported) or within 24 hours. 
 
-The funds are transferred directly to your business bank account, instead of your MultiSafepay balance, which simplifies reconciliation.
+The funds are transferred directly to your business bank account, instead of your account balance, which simplifies reconciliation.
 
 > 🚧 Availability
 > Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
@@ -59,7 +59,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
