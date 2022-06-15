@@ -33,6 +33,11 @@ jobs:
 
       - name: Filter for diagram source files
         run: |
+          npm install @mermaid-js/mermaid-cli
+
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file" | grep static/diagrams/src/
+            for diagram-file in echo "$file" | grep static/diagrams/src/; do
+              npx mmdc -i $diagram-file -o static/diagrams/svg/$diagram-file --configFile static/diagrams/config.json
+            done
           done
+
