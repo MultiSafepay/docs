@@ -1,35 +1,27 @@
 ---
 title : "myShop app"
-meta_title: "myShop app - MultiSafepay Docs"
-logo: "/logo/Integrations/myShop.svg"
-weight: 23
-title_short: "myShop"
-type: 'App'
-description_short: "Free app integrate MultiSafepay payment solutions with myShop."
-layout: 'single'
-url: '/myshop/'
-aliases: 
-    - /hosted/myshop
-    - /integrations/hosted/myshop
-    - /integrations/logivert
-    - /hosted/myshop/manual
-    - /integrations/hosted/myshop/manual
-    - /integrations/myshop/manual
-    - /integrations/ecommerce-integrations/myshop
-    - /payments/integrations/ecommerce-platforms/myshop/
-    - /ecommerce-platforms/myshop/
+category: 62962dd7e272a6002ebbbbc5
+order: 205
+hidden: false
+parentDoc: 62a9a54aba9800011a8bda88
+slug: 'myshop'
 ---
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 This technical manual is for installing and configuring myShop's free app for integrating with MultiSafepay.
 
-{{< details title="Requirements" >}}
-&nbsp;  
+<details id="requirements">
+<summary>Requirements</summary>
+<br>
+
 You will need a [MultiSafepay account](/getting-started/guide/).
 
-{{< /details >}}
+</details>
 
-{{< details title="Support" >}}
- 
+<details id="support">
+<summary>Support</summary>
+<br>
+
 For technical queries about the app, email myShop at <support@myshop.com>
 
 Contact MultiSafepay:
@@ -38,9 +30,12 @@ Contact MultiSafepay:
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
 
-{{< /details >}}
+</details>
 
-{{< details title="Payment methods" >}}
+<details id="payment-methods">
+<summary>Payment methods</summary>
+<br>
+
 
 - Cards: [American Express](/payment-methods/amex), [Mastercard](/payment-methods/mastercard), and [Visa](/payment-methods/visa)
 - Pay later methods: [Klarna](/payment-methods/klarna) and [Pay After Delivery](/payment-methods/pay-after-delivery)
@@ -56,11 +51,11 @@ Contact MultiSafepay:
     - [Maestro](/payment-methods/maestro)
     - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
     - [Sofort](/payment-methods/sofort)
-{{< /details >}}
+</details>
 
-## Installation and configuration
+# Installation and configuration
 
-{{< blue-notice >}} We recommend first installing the plugin in a test environment, following the MyShop installation procedure. Always make a backup. {{< /blue-notice >}}
+:warning: We recommend first installing the plugin in a test environment, following the myShop installation procedure. Always make a backup.
 
 1. Sign in to your myShop backend.
 2. Install the MultiSafepay app in the App Store.
