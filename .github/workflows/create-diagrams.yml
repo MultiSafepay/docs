@@ -57,7 +57,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Automated mermaid diagrams
-          branch: mermaid-diagam
 
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
