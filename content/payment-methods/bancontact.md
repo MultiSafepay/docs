@@ -24,7 +24,7 @@ See how Bancontact can [benefit your business](https://www.multisafepay.com/solu
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-``` mermaid
+```mermaid
 sequenceDiagram
     autonumber
     participant C as Customer
