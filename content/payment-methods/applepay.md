@@ -31,7 +31,7 @@ For more information, see Apple – [How to use Apple Pay](https://support.apple
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
+```mermaid
 
 sequenceDiagram
     autonumber
@@ -59,8 +59,8 @@ sequenceDiagram
     Me->>Mu: Authorizes transaction
     CS->>Mu: Transfers funds 
     Mu->>Me: Settles funds
+```
 
-{{< /mermaid >}}
 <br>
 
 # Payment statuses
