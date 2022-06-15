@@ -45,9 +45,11 @@ jobs:
             filename=$(basename "$fullfilename")
             fname="${filename%.*}"
             ext="${filename##*.}"
+            echo "Changed file: $file , has extension: $ext" 
 
             if [$ext = "md"]
               then
+              echo "$file with extension md has changed"
               npx mmdc -i $file -o $file --configFile static/diagrams/config.json
             fi
           done

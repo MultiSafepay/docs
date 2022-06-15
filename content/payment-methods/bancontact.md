@@ -24,8 +24,7 @@ See how Bancontact can [benefit your business](https://www.multisafepay.com/solu
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
+``` mermaid
 sequenceDiagram
     autonumber
     participant C as Customer
@@ -38,8 +37,7 @@ sequenceDiagram
     C->>CB: Authenticates account/scans QR code and completes payment
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds 
-
-{{< /mermaid >}}
+```
 <br>  
 
 # Payment statuses  
