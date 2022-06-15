@@ -3,7 +3,7 @@ title : "CCV Shop app"
 category: 62962dd7e272a6002ebbbbc5
 order: 201
 hidden: false
-parentDoc: 62a1d780224ed800a4af21d0
+parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ccv-shop'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CCVShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

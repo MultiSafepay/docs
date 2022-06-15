@@ -3,8 +3,8 @@ title : "CS-Cart plugin"
 category: 62962dd7e272a6002ebbbbc5
 order: 109
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
-excerpt: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop."]
+parentDoc: 62a9a54abde254065ee92a5c
+excerpt: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop."
 slug: 'cs-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/CS-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

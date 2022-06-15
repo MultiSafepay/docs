@@ -3,7 +3,7 @@ title : "Lightspeed"
 category: 62962dd7e272a6002ebbbbc5
 order: 101
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free app to integrate MultiSafepay payment solutions with Lightspeed."
 slug: 'lightspeed'
 ---

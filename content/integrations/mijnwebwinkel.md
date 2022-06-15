@@ -3,7 +3,7 @@ title : "Mijnwebwinkel app"
 category: 62962dd7e272a6002ebbbbc5
 order: 204
 hidden: false
-parentDoc: 62a1d780224ed800a4af21d0
+parentDoc: 62a9a54aba9800011a8bda88
 excerpt: "Free app to integrate MultiSafepay payment solutions with Mijnwebwinkel."
 slug: 'mijnwebwinkel'
 ---

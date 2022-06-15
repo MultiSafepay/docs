@@ -3,7 +3,7 @@ title: 'Configure your webhook endpoint'
 category: 62962dd7e272a6002ebbbbc5
 order: 402
 hidden: false
-parentDoc: 62a1d799ab0558004cabb528
+parentDoc: 62a9a54a66018200436bdb74
 excerpt: 'Configure a webhook to receive updates about orders.'
 slug: 'configure-your-webhook'
 next:

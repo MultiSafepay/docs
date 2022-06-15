@@ -3,7 +3,7 @@ title : "Ecwid app"
 category: 62962dd7e272a6002ebbbbc5
 order: 203
 hidden: false
-parentDoc: 62a1d780224ed800a4af21d0
+parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ecwid'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Ecwid.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

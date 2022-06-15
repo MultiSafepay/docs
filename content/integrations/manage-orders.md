@@ -3,7 +3,7 @@ title: 'Manage orders'
 category: 62962dd7e272a6002ebbbbc5
 order: 401
 hidden: false
-parentDoc: 62a1d799ab0558004cabb528
+parentDoc: 62a9a54a66018200436bdb74
 excerpt: 'Manage orders in your own integration.'
 slug: 'manage-orders'
 next:

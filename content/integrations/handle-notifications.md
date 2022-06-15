@@ -3,7 +3,7 @@ title: 'Handle notifications'
 category: 62962dd7e272a6002ebbbbc5
 order: 403
 hidden: false
-parentDoc: 62a1d799ab0558004cabb528
+parentDoc: 62a9a54a66018200436bdb74
 slug: 'handle-notifications'
 next:
   description: Test your integration
