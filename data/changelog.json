@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "May 24, 2022",
+            "change": "[Exemptions from 3DS2 and SCA](https://docs.multisafepay.com/cards/3ds2/)"
+        },
+        {
             "date": "May 2, 2022",
             "change": "[Virtual IBANs](https://docs.multisafepay.com/features/virtual-ibans/)"
         },

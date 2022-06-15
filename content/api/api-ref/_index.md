@@ -9,7 +9,7 @@ meta_title: "API reference - Introduction - MultiSafepay Docs"
 
 {{< description >}}
 <p align="center">
-  <img src="/svgs/FAQ.svg" width="200px" position="center">
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/FAQ.svg" width="200px" position="center">
 </p>
 <br>
 
