@@ -1,7 +1,0 @@
-ErrorDocument 404 /404.html
-
-#URL Mapper - Magento2 plugin
-Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
-
-#DOCS-855: Remove SSL Certificate Renewal January 2020 page
-Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com
