@@ -11,7 +11,7 @@ slug: 'zen-cart'
 
 > [Changelog](https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Zencart) :link:
+> [Source code](https://github.com/MultiSafepay/Zencart) :link:
 
 > [Download](https://github.com/MultiSafepay/Zencart/releases/download/3.1.0/Plugin_ZenCart_3.1.0.zip) :arrow-down:
 

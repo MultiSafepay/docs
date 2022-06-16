@@ -78,7 +78,7 @@ Release date: Mar 28, 2014
 ---
 </details>
 
-> [View source code](https://github.com/MultiSafepay/OsCommerce) :link:
+> [Source code](https://github.com/MultiSafepay/OsCommerce) :link:
 
 > [Download](https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip) :arrow-down:
 

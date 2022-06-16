@@ -11,7 +11,7 @@ slug: 'craft-commerce'
 
 > [Changelog](https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/craft-commerce) :link:
+> [Source code](https://github.com/MultiSafepay/craft-commerce) :link:
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3.
 

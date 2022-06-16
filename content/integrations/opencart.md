@@ -11,7 +11,7 @@ slug: 'opencart'
 
 > [Changelog](https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Opencart) :link:
+> [Source code](https://github.com/MultiSafepay/Opencart) :link:
 
 > [Download](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960) :link:
 

@@ -9,7 +9,7 @@ slug: 'vue-storefront'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [View source code](https://github.com/MultiSafepay/vsf-payment-multisafepay) :link:
+> [Source code](https://github.com/MultiSafepay/vsf-payment-multisafepay) :link:
 
 MultiSafepay provides a free plugin to integrate with Vue Storefront.
 

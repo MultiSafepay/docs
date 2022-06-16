@@ -9,7 +9,7 @@ slug: 'scandipwa'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [View source code](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration) :link:
+> [Source code](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration) :link:
 
 > [Download](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git) :arrow-down:
 

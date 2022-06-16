@@ -11,7 +11,7 @@ slug: 'magento-2'
 
 > [Changelog](https://github.com/MultiSafepay/magento2/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Magento2) :link:
+> [Source code](https://github.com/MultiSafepay/Magento2) :link:
 
 :warning: If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible.
 
