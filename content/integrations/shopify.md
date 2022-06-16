@@ -21,15 +21,6 @@ You will need a [MultiSafepay account](/getting-started/).
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-
-</details>
-
 # Installation
 
 To install or migrate, follow these steps:
@@ -133,3 +124,9 @@ To match orders in your accounting system with your MultiSafepay account, use th
 
 [Full and partial refunds](/refunds/) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>

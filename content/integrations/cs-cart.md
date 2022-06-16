@@ -27,18 +27,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
 # Installation
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
@@ -117,3 +105,10 @@ You can update the plugin in your CS-Cart backend or the CMS marketplace, or via
 2. Follow the Installation instructions from step 2 and then the Configuration instructions.
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

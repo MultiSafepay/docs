@@ -28,20 +28,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-The plugin receives regular updates from Odoo and MultiSafepay.
-
-</details>
-
 # Installation
 
 :warning: We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
@@ -142,3 +128,10 @@ The plugin supports generic gateways, which redirect customers from your checkou
 4. Click **Upgrade**.
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

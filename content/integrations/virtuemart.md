@@ -27,18 +27,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
 # Installation
 
 :warning: We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
@@ -121,3 +109,10 @@ You can update the plugin in your backend and the CMS marketplace, via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

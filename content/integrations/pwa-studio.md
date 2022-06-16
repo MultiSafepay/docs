@@ -25,19 +25,6 @@ This technical manual is for installing and configuring MultiSafepay's plugin fo
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-To report a bug or suggest an improvement, create an issue in our GitHub repository. 
-
-For support:
-
-- Email <integration@multisafepay.com>
-- Post in the Magento – [MultiSafepay Slack channel](https://magentocommeng.slack.com/messages/multisafepay-payments/)
-
-</details>
-
 <details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
@@ -56,3 +43,11 @@ See MultiSafepay GitHub – [PWA Studio components](https://github.com/MultiSafe
 # Installation and configuration 
 
 To install the MultiSafepay plugin in your PWA Studio application, see MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide).
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
+> - Post in the Magento – [MultiSafepay Slack channel](https://magentocommeng.slack.com/messages/multisafepay-payments/)

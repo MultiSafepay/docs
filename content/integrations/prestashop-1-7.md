@@ -31,22 +31,6 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-We support versions 1.7.6, 1.7.7, 1.7.8.
-
-To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop releases](https://github.com/MultiSafepay/prestashop/releases).
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
 # Installation
 
 :warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
@@ -327,3 +311,10 @@ To upgrade to version 5.x from an older version, follow these steps:
 If upgrading from 5.x to a newer version, see [Updates](/prestashop-1-7/updates).
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

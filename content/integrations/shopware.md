@@ -30,22 +30,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
-- Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
-
-For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>
-
-</details>
-
 ## Installation and configuration
 
 :warning: We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
@@ -175,18 +159,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 - [MultiSafepay account](/getting-started/guide/)
 - Shopware 5.6.x or 5.5.7 and above.
 - Tested on PHP 7.0
-
-</details>
-
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
 
 </details>
 
@@ -343,3 +315,14 @@ For instructions, see the [Shopware migration manual](https://docs.shopware.com/
 For questions, email <integration@multisafepay.com>
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
+> - Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
+> - Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
+>
+> For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>
