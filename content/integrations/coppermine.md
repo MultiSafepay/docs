@@ -36,3 +36,7 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
 1. Place some test orders in your webshop and Coppermine backend.
 2. Check the transactions in Coppermine and your MultiSafepay dashboard. 
 3. When everything is working correctly, in your Coppermine backend, set the PaymentMethod Gateway to **Production** mode.
+
+> 💬  Support
+> For technical queries about the integration, see - [Coppermine support](https://www.coppermine.nl/support)
+> To contact MultiSafepay, email <support@multisafepay.com>
