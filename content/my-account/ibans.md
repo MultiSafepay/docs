@@ -11,8 +11,6 @@ International bank account numbers (IBANs) are sensitive data. For security reas
 
 You can still perform most business operations with masked IBANs, e.g. processing refunds.
 
-# Unmasking IBANs
-
 <details id=“how-to-unmask-ibans”>
 <summary>How to unmask IBANs</summary>
 <br>

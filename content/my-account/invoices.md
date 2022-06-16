@@ -5,19 +5,19 @@ order: 206
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
 slug: 'invoices'
+excerpt: 'MultiSafepay generates invoices at month end for your records.'
 ---
-This page describes invoices MultiSafepay generates for your records at month end.  
-You do **not** need to pay them separately. 
+> ⚠️ Note
+> Invoices are for your records only. You do **not** need to pay them separately. 
 
 # Merchant/primary account VAT invoices
 
 Merchant and primary account holders receive a monthly invoice for the total amount of VAT we deduct from your account balance at the end of each month.
 
-For payment methods where MultiSafepay collects, we are required to charge VAT on processing fees.
+For payment methods where MultiSafepay:
 
-For payment methods for which we do **not** collect, VAT is applied via the scheme to avoid double taxation. These transactions are included in invoices with zero VAT value.
-
-To view VAT invoices in your MultiSafepay dashboard, go to **Finance** > **Invoices**. 
+- Collects, we are required to charge VAT on processing fees.
+- Does **not** collect, VAT is applied via the scheme to avoid double taxation. These transactions are included in invoices with zero VAT value.
 
 <details id="fees-we-charge-vat-for">
 <summary>Fees we charge VAT for</summary>
@@ -30,15 +30,25 @@ To view VAT invoices in your MultiSafepay dashboard, go to **Finance** > **Invoi
 | Payout fees | During processing |
 | Refund fees <br> (Separated into collecting and non-collecting orders) | During processing |
 | Transaction fees | During processing |
+<br>
 
-**Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay)
+**Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
+
+</details> 
+
+<details id="how-to-view-invoices">
+<summary>How to view invoices</summary>
+<br>
+
+To view VAT invoices in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance** > **Invoices**. 
+
 </details> 
 
 # Partner invoices
 
 Partner account holders receive invoices for total monthly:
 
-- Payout fees (0,50 EUR per [payout](/payouts/))
+- [Payout](/payouts/) fees (0,50 EUR per payout)
 - Commission fees from affiliated merchants
 - VAT (21%) – This amount is refunded to your balance
 
@@ -80,4 +90,4 @@ If you do not specify an email address, we use the main business email address p
 <br>
 
 > 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> For more information or support, email <invoice@multisafepay.com>

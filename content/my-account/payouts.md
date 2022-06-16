@@ -1,21 +1,20 @@
 ---
 title : "Payouts"
 category: 62962dcdbccb9a001d4bbc81
-order: 205
+order: 209
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
 slug: 'payouts'
 ---
-
 A payout is when you transfer funds from your account balance to your business bank account.
 
 You can make payouts any time for 0,50 EUR each.
 
-## Business bank accounts
+# Business bank accounts
 As part of your onboarding, you specify a business bank account to pay out to. 
 
-<details id="add-additional-bank-accounts">
-<summary>Add additional bank accounts</summary>
+<details id="how-to-add-additional-bank-accounts">
+<summary>How to add additional bank accounts</summary>
 <br>
 
 To add additional bank accounts to your account (once fully onboarded), follow these steps:
@@ -37,24 +36,21 @@ MultiSafepay verifies the bank account within 5 business days. We **only** accep
 
 </details>
 
-<details id="deactivate-a-bank-account">
-<summary>Deactivate a bank account</summary>
+<details id="how-to-deactivate-a-bank-account">
+<summary>How to deactivate a bank account</summary>
 <br>
 
-&nbsp;  
 To deactivate a business bank account, email your request and account ID to <risk@multisafepay.com>
 
 </details>
 
-## Automated and manual payouts
+# Automated and manual payouts
 
 You can schedule automated payouts on specific day, or make them manually. 
 
-<details id="set-up-an-automated-payout">
-<summary>Set up an automated payout</summary> 
+<details id="how-to-set-up-an-automated-payout">
+<summary>How to set up an automated payout</summary> 
 <br>
-
-To set up a new automatic payout, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 2. Go to **Finance** > **Payouts**.
@@ -73,11 +69,9 @@ To set up a new automatic payout, follow these steps:
 
 </details>
 
-<details id="make-a-payout-manually">
-<summary>Make a payout manually</summary>
+<details id="how-to-make-a-payout-manually">
+<summary>How to make a payout manually</summary>
 <br>
-
-To make a payout manually, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance** > **Payouts**.
@@ -91,7 +85,7 @@ To make a payout manually, follow these steps:
 
 </details>
 
-## Payout currencies
+# Currencies
 The standard currency for automatic payouts is euros (EUR). For manual payouts, you can process other currencies if you specify a business bank account that can receive funds in that currency.
 
 <details id="supported-currencies">
@@ -113,12 +107,13 @@ You can make payouts in:
 
 </details>
 
-## Payout processing times 
-The time taken to process payouts is determined by the Risk Team. The default payout delay is 1 day. Payouts may take up to three business days to arrive in your business bank account.
+# Processing times 
+The time taken to process payouts is determined by the Risk Team. The default payout delay is 1 day. 
+Payouts may take up to three business days to arrive in your business bank account.
 
 Payment batches are not processed on weekends. That is, payouts initiated on Fridays are processed on Monday morning.
 
-Not all banks have instant payments and therefore may take extra time to process payments.
+Not all banks support instant payments and therefore may take extra time to process payments.
 
 <details id="bank-holidays">
 <summary>Bank holidays</summary>
@@ -136,8 +131,7 @@ Check the dates of local bank holidays. They may change each year.
 <summary>Processing time for automatic payouts</summary>
 <br>
 
-&nbsp;  
-Assuming default settings, if you schedule a payout on Monday, the payout batch includes all payments up to 23:59 hours on the Monday night. The payout batch is sent to MultiSafepay's bank on Tuesday morning. Our bank processes the batch and transfers the pay out to your business bank account. You should receive the payout on Tuesday afternoon.
+Assuming default settings, if you schedule a payout on Monday, the payout batch includes all payments up to 23:59&nbsp;hours on the Monday night. The payout batch is sent to MultiSafepay's bank on Tuesday morning. Our bank processes the batch and transfers the pay out to your business bank account. You should receive the payout on Tuesday afternoon.
 
 </details>
 
@@ -145,12 +139,11 @@ Assuming default settings, if you schedule a payout on Monday, the payout batch 
 <summary>Processing time for manual payouts</summary>
 <br>
 
-&nbsp;  
 The status of the pay out is **Reserved** for 24 hours before it is added to our bank’s payout batch in the morning. Then, the payout is transferred to your business bank account. Manual payouts usually take longer to process than automatic ones.
 
 </details>
 
-## Exclusions
+# Exclusions
 
 You cannot make payouts if:
 
@@ -174,14 +167,18 @@ The Risk Team then checks and approves your account details and the information 
 <summary>Your account balance is negative</summary>
 <br>
 
-If your account balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
+If your account balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. 
+
+Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
 </details>
 
 <details id="your-payouts-are-deactivated">
 <summary>Your payouts are deactivated</summary>
 <br>
 
-&nbsp;  
 To check why we have deactivated payouts for your account, email <risk@multisafepay.com>
 </details>
+<br>
 
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>
