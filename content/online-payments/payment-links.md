@@ -5,9 +5,11 @@ order: 401
 hidden: false
 slug: 'payment-links'
 parentDoc: 62a74b731c896700e61e9ef5
-excerpt: 'Generate payment links via our API or in your MultiSafepay dashboard.'
 ---
 You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. 
+
+# How it works
+
 Use cases include:
 
 - A customer wants to adjust an existing order and instead of starting over with a new order.
@@ -28,8 +30,8 @@ You can generate payment links via the API:
 
 Or via your dashboard:
 
-<details id="how-to-generate-payment-link-for-new-transaction">
-<summary>How to generate a payment link for a new transaction</summary>
+<details id="how-to-generate-link-for-new-transaction">
+<summary>How to generate a link for a new transaction</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -53,8 +55,8 @@ Or via your dashboard:
 
 </details>
 
-<details id="how-to-generate-payment-link-for-existing-transactions">
-<summary>How to generate a payment link for existing transactions</summary>
+<details id="how-to-generate-link-for-existing-transactions">
+<summary>How to generate a link for existing transactions</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -171,5 +173,7 @@ The payment page displays **all** payment methods activated for the relevant web
 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>

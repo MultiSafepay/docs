@@ -64,7 +64,7 @@ We cannot guarantee that the deprecated version will support any new payment met
 
 It does **not** support the following methods:
 
-| | |
+| Method type | Unsupported methods |
 |---|---|
 | **Pay later** | AfterPay, Betaal per Maand, in3, Klarna |
 | **Wallets** | Alipay, Apple Pay, WeChat Pay |
@@ -85,7 +85,7 @@ You can track the behavior of customers on payment pages through Google Analytic
 
 Payment pages support the following languages:
 
-| | |
+| Supported languages | Supported languages |
 |---|---|
 | Arabic | Japanese |
 | Czech | Mandarin |
@@ -102,10 +102,9 @@ Payment pages support the following languages:
 
 ## Payment links
 
-You can manually generate a link to a payment page to send to a customer to complete payment. 
-See [Payment links](/payment-links/).
+You can manually generate a [link to a payment page](/payment-links/) to send to a customer to complete payment. 
 
-### Payment methods
+## Payment methods
 
 <details id="how-to-display-all-payment-methods">
 <summary>How to display all payment methods</summary>
@@ -192,5 +191,7 @@ If you include a `shopping_cart` object when you [create an order](https://docs-
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>

@@ -76,5 +76,7 @@ To discount:
 - Specific items in the order, in the `shopping_cart`, reduce the `unit_price` of the relevant items.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>

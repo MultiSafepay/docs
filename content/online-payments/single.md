@@ -1,12 +1,12 @@
 ---
-title : "Payment component integration: Single payment method"
+title : "Single payment method"
 category: 6278c92bf4ad4a00361431b0
 order: 301
 hidden: false
 slug: 'payment-component-single'
 parentDoc: 62a848399bb3eb004023f291 
+excerpt: 'Technical manual for integrating a payment component using a single payment method.'
 --- 
-This manual is for integrating a payment component using a single payment method. 
 
 # Step 1: Add the elements
 
@@ -30,9 +30,10 @@ Add the following elements to your checkout page:
 # Step 2: Initialize the component
 
 ## Generate an API token
-Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
 
-:warning: To keep your API key private, request the token from your own server.  
+  Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
+
+  > **Tip!** To keep your API key private, request the token from your own server.  
 
 ## Construct the component object
 
@@ -285,5 +286,7 @@ When you're ready to process real payments, make the following changes:
     `https://api.multisafepay.com/v1/json/orders`
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
