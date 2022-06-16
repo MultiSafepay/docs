@@ -7,7 +7,7 @@ parentDoc: 62a1c6c5612f5700137f3640
 slug: ing-home-pay
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/ING_Homepay.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/ING_Homepay.svg" width="50" align="right" style="margin: 55px 20px 20px 20px; max-height: 75px"/>
 
 > ❗️ Discontinued
 >
