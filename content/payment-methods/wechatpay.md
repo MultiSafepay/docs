@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'wechat-pay'
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/wechat.svg" width="110" align="right" style="margin: 20px; max-height: 75px"/>
+
 [WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
 
 See how WeChat Pay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/wechat-pay).

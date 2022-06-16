@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: apple-pay
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+
 [Apple Pay](https://www.apple.com/apple-pay/) is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports Maestro, Mastercard, and Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. 
 
 An additional layer of security is provided by 3D Secure, which requires customers to verify their identity.
