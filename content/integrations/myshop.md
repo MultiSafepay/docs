@@ -19,20 +19,6 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-For technical queries about the app, email myShop at <support@myshop.com>
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
 <details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
@@ -64,5 +50,9 @@ Contact MultiSafepay:
 4. Enter your [account ID, site ID, and site secure code](/websites/#site-id-api-key-and-secure-code).  
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
+
+> 💬  Support
+> For technical queries about the app, email myShop at <support@myshop.com>
+> To contact MultiSafepay, email <support@multisafepay.com>
 
 
